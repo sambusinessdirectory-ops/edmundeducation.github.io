@@ -25,7 +25,7 @@ import {
   spanLaneLayout,
   studyHoursBefore
 } from "./schedule-enhancements.mjs?v=20260726-2";
-import { HOMEWORK_RESOURCE_CATALOG } from "./homework-resource-catalog.mjs";
+import { HOMEWORK_RESOURCE_CATALOG } from "./homework-resource-catalog.mjs?v=20260727-2";
 import {
   HOMEWORK_RESOURCE_TYPES,
   MAX_HOMEWORK_RESOURCES,
@@ -38,12 +38,21 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs";
+} from "./schedule-homework-links.mjs?v=20260727-2";
+import {
+  ScheduleClipboardError,
+  createScheduleClipboardPayload,
+  parseScheduleClipboard,
+  planScheduleClipboardPaste,
+  serializeScheduleClipboard
+} from "./schedule-clipboard.mjs?v=20260727-1";
 
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
 const TABLE_HIDDEN_KEY = "edmund-schedule-table-hidden-v1";
 const COUNTDOWN_COLLAPSED_KEY = "edmund-schedule-countdown-collapsed-v1";
+const SCHEDULE_CLIPBOARD_SESSION_KEY = "edmund-schedule-clipboard-v1";
+const SCHEDULE_CLIPBOARD_MIME = "application/x-edmund-schedule-slots+json";
 const MAX_SLOTS_PER_DAY = 100;
 const MIN_COUNTDOWNS = COUNTDOWN_INITIAL_CAPACITY;
 const MAX_COUNTDOWNS = COUNTDOWN_MAX_CAPACITY;
@@ -51,6 +60,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 // 10px grid gap + 10px inner padding on both columns + two 1px column borders.
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
+const MARQUEE_START_DISTANCE = 6;
 const WEEKDAY_MASCOTS = [
   "assets/schedule/weekdays/monday-walking-to-school.webp",
   "assets/schedule/weekdays/tuesday-basketball.webp",
@@ -105,7 +115,13 @@ const elements = {
   massEditSave: document.querySelector("[data-save-mass-edit]"),
   massEditCancel: document.querySelector("[data-cancel-mass-edit]"),
   massEditStatus: document.querySelector("[data-mass-edit-status]"),
+  toggleClipboardSelection: document.querySelector("[data-toggle-clipboard-selection]"),
+  clipboardSelectionCount: document.querySelector("[data-clipboard-selection-count]"),
+  copyClipboardSelection: document.querySelector("[data-copy-clipboard-selection]"),
+  pasteClipboardSelection: document.querySelector("[data-paste-clipboard-selection]"),
+  clearClipboardSelection: document.querySelector("[data-clear-clipboard-selection]"),
   tableRegion: document.querySelector("[data-table-region]"),
+  calendarScroll: document.querySelector("[data-calendar-scroll]"),
   weekGrid: document.querySelector("[data-week-grid]"),
   calendarStatus: document.querySelector("[data-calendar-status]"),
   metricWeekGoals: document.querySelector("[data-metric-week-goals]"),
@@ -180,6 +196,10 @@ const state = {
   massEditOriginalEntries: [],
   massEditChanges: new Map(),
   massEditPreviousShowUnusedTemporarily: false,
+  clipboardSelectionMode: false,
+  clipboardSelectedEntryIds: new Set(),
+  clipboardMarquee: null,
+  scheduleClipboardSerialized: "",
   homeworkCompletion: null,
   homeworkPickerType: ""
 };
@@ -407,6 +427,267 @@ function cloneScheduleEntries(entries = []) {
   return entries.map((entry) => ({ ...entry }));
 }
 
+function clipboardSelectedEntries() {
+  return state.weekPayload.entries.filter((entry) => state.clipboardSelectedEntryIds.has(entry.id));
+}
+
+function removeClipboardMarquee() {
+  state.clipboardMarquee?.element?.remove();
+  state.clipboardMarquee = null;
+}
+
+function applyClipboardSelectionClasses() {
+  elements.weekGrid?.querySelectorAll("[data-entry-id]").forEach((slot) => {
+    const selected = state.clipboardSelectedEntryIds.has(slot.dataset.entryId);
+    slot.classList.toggle("is-clipboard-selected", selected);
+    if (state.massEditMode && state.clipboardSelectionMode) {
+      slot.setAttribute("aria-pressed", String(selected));
+    } else if (!state.selectionMode) {
+      slot.removeAttribute("aria-pressed");
+    }
+  });
+}
+
+function clearClipboardSelection({ deactivate = false, render = false } = {}) {
+  removeClipboardMarquee();
+  state.clipboardSelectedEntryIds.clear();
+  if (deactivate) state.clipboardSelectionMode = false;
+  if (render) renderWeek();
+  else {
+    applyClipboardSelectionClasses();
+    updateClipboardControls();
+  }
+}
+
+function updateClipboardControls() {
+  if (!elements.toggleClipboardSelection) return;
+  const active = state.massEditMode;
+  const selecting = active && state.clipboardSelectionMode;
+  const selectedCount = clipboardSelectedEntries().length;
+  elements.weekGrid.classList.toggle("is-clipboard-selection-mode", selecting);
+  elements.toggleClipboardSelection.setAttribute("aria-pressed", String(selecting));
+  elements.toggleClipboardSelection.textContent = selecting ? "退出複製選取" : "選取以複製";
+  elements.toggleClipboardSelection.disabled = !active || state.mutationInFlight;
+  elements.clipboardSelectionCount.textContent = selectedCount
+    ? `已選取 ${selectedCount} 項供複製`
+    : selecting
+      ? "請框選或點選已有安排"
+      : "尚未選取複製項目";
+  elements.copyClipboardSelection.disabled = !active || state.mutationInFlight || selectedCount === 0;
+  elements.pasteClipboardSelection.disabled = !active || state.mutationInFlight;
+  elements.clearClipboardSelection.disabled = !active || state.mutationInFlight || selectedCount === 0;
+}
+
+function toggleClipboardSelectionMode() {
+  if (!state.massEditMode || state.mutationInFlight) return;
+  state.clipboardSelectionMode = !state.clipboardSelectionMode;
+  if (!state.clipboardSelectionMode) state.clipboardSelectedEntryIds.clear();
+  applyClipboardSelectionClasses();
+  updateClipboardControls();
+  if (state.clipboardSelectionMode) {
+    elements.calendarScroll?.focus({ preventScroll: true });
+    showToast("複製選取已開啟：電腦可拖曳框選；手機或平板可逐項點選。");
+  }
+}
+
+function toggleClipboardEntrySelection(entry) {
+  if (!state.massEditMode || !state.clipboardSelectionMode || !entry) return;
+  if (entry.spanGroupId) {
+    showToast("跨日項目暫不可複製；請選取一般安排。", "error");
+    return;
+  }
+  if (state.clipboardSelectedEntryIds.has(entry.id)) state.clipboardSelectedEntryIds.delete(entry.id);
+  else state.clipboardSelectedEntryIds.add(entry.id);
+  applyClipboardSelectionClasses();
+  updateClipboardControls();
+  elements.calendarScroll?.focus({ preventScroll: true });
+}
+
+function clipboardShouldRemainNative(target) {
+  if (document.querySelector("dialog[open]")) return true;
+  return Boolean(target?.closest?.("input, textarea, select, [contenteditable='true'], [contenteditable='']"));
+}
+
+function storeScheduleClipboardPayload(payload) {
+  const serialized = serializeScheduleClipboard(payload);
+  state.scheduleClipboardSerialized = serialized;
+  try {
+    sessionStorage.setItem(SCHEDULE_CLIPBOARD_SESSION_KEY, serialized);
+  } catch {
+    // The in-memory fallback still survives switching students in this page.
+  }
+  return serialized;
+}
+
+function readStoredScheduleClipboardPayload() {
+  let serialized = state.scheduleClipboardSerialized;
+  if (!serialized) {
+    try {
+      serialized = sessionStorage.getItem(SCHEDULE_CLIPBOARD_SESSION_KEY) || "";
+    } catch {
+      serialized = "";
+    }
+  }
+  if (!serialized) return null;
+  try {
+    const payload = parseScheduleClipboard(serialized);
+    state.scheduleClipboardSerialized = serialized;
+    return payload;
+  } catch {
+    clearStoredScheduleClipboard();
+    return null;
+  }
+}
+
+function clearStoredScheduleClipboard() {
+  state.scheduleClipboardSerialized = "";
+  try {
+    sessionStorage.removeItem(SCHEDULE_CLIPBOARD_SESSION_KEY);
+  } catch {
+    // Nothing else is required when session storage is unavailable.
+  }
+}
+
+function createCurrentScheduleClipboardPayload() {
+  return createScheduleClipboardPayload({
+    entries: state.weekPayload.entries,
+    selectedEntryIds: state.clipboardSelectedEntryIds,
+    weekStart: state.weekStart
+  });
+}
+
+function clipboardErrorMessage(error, fallback = "未能複製所選安排。") {
+  return error instanceof ScheduleClipboardError ? error.message : fallback;
+}
+
+async function copyClipboardSelectionFromButton() {
+  if (!state.massEditMode || state.mutationInFlight) return;
+  try {
+    const payload = createCurrentScheduleClipboardPayload();
+    const serialized = storeScheduleClipboardPayload(payload);
+    let copiedToSystem = false;
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(serialized);
+        copiedToSystem = true;
+      }
+    } catch {
+      copiedToSystem = false;
+    }
+    showToast(copiedToSystem
+      ? `已複製 ${payload.items.length} 項安排；可切換學生後貼上。`
+      : `已複製 ${payload.items.length} 項至本分頁；可切換學生後按「貼上」。`);
+  } catch (error) {
+    showToast(clipboardErrorMessage(error), "error");
+  }
+}
+
+function pasteCollisionEntries() {
+  const entries = cloneScheduleEntries(state.weekPayload.entries);
+  const visibleKeys = new Set(entries.map((entry) => `${entry.scheduleDate}:${Number(entry.slotIndex)}`));
+  for (const original of state.massEditOriginalEntries) {
+    const key = `${original.scheduleDate}:${Number(original.slotIndex)}`;
+    if (!visibleKeys.has(key)) entries.push({ ...original, pendingDelete: true });
+  }
+  return entries;
+}
+
+function pasteConflictSummary(plan) {
+  const reasonLabels = {
+    occupied: "已有安排",
+    protected: "老師安排受保護",
+    "span-occupied": "跨日項目佔用",
+    "outside-capacity": "超出當日格數",
+    "outside-range": "超出支援日期"
+  };
+  const counts = new Map();
+  for (const conflict of plan.conflicts) {
+    counts.set(conflict.reason, (counts.get(conflict.reason) || 0) + 1);
+  }
+  return [...counts.entries()].map(([reason, count]) => `${reasonLabels[reason] || "不可貼上"} ${count} 項`).join("、");
+}
+
+function stageScheduleClipboardPaste(payload) {
+  if (!state.massEditMode || state.mutationInFlight) {
+    showToast("請先開啟 Mass Edit 才可貼上安排。", "error");
+    return false;
+  }
+  let plan;
+  try {
+    plan = planScheduleClipboardPaste({
+      payload,
+      targetWeekStart: state.weekStart,
+      entries: pasteCollisionEntries(),
+      capacities: state.weekPayload.capacities,
+      currentRole: state.currentUser?.role
+    });
+  } catch (error) {
+    showToast(clipboardErrorMessage(error, "剪貼簿內並非有效的日程安排。"), "error");
+    return false;
+  }
+
+  const conflictText = pasteConflictSummary(plan);
+  if (!plan.ready.length) {
+    const detail = conflictText || (plan.unchanged.length ? `${plan.unchanged.length} 項與現有安排相同` : "沒有可貼上的安排");
+    setStatus(elements.massEditStatus, `沒有作出修改：${detail}。`, "error");
+    showToast(`沒有可貼上的新安排：${detail}。`, "error");
+    return false;
+  }
+  if (plan.conflicts.length) {
+    const confirmed = window.confirm(
+      `有 ${plan.conflicts.length} 項未能貼到原位（${conflictText}）。\n系統不會移動或覆蓋任何現有安排。\n\n是否只貼上其餘 ${plan.ready.length} 項空白原位？`
+    );
+    if (!confirmed) return false;
+  }
+
+  const source = state.currentUser?.role === "admin" ? "admin" : "student";
+  for (const item of plan.ready) {
+    const key = massEditChangeKey(item.scheduleDate, item.slotIndex, null);
+    state.massEditChanges.set(key, {
+      action: "upsert",
+      scheduleDate: item.scheduleDate,
+      slotIndex: item.slotIndex,
+      message: item.message,
+      estimatedMinutes: item.estimatedMinutes,
+      expectedUpdatedAt: null,
+      spanGroupId: null,
+      source
+    });
+  }
+  rebuildMassEditPreview();
+  clearClipboardSelection({ deactivate: false });
+  renderWeek();
+  const skipped = plan.conflicts.length + plan.unchanged.length;
+  setStatus(
+    elements.massEditStatus,
+    skipped
+      ? `已暫存貼上 ${plan.ready.length} 項；另有 ${skipped} 項未更改或未能貼到原位。`
+      : `已暫存貼上 ${plan.ready.length} 項；完成後請按「一次儲存全部」。`
+  );
+  showToast(`已貼上 ${plan.ready.length} 項至空白原位；尚未上傳至雲端。`);
+  return true;
+}
+
+async function pasteScheduleClipboardFromButton() {
+  if (!state.massEditMode || state.mutationInFlight) return;
+  let payload = null;
+  if (navigator.clipboard?.readText) {
+    try {
+      const text = await navigator.clipboard.readText();
+      if (text) payload = parseScheduleClipboard(text);
+    } catch {
+      payload = null;
+    }
+  }
+  if (!payload) payload = readStoredScheduleClipboardPayload();
+  if (!payload) {
+    showToast("找不到已複製的日程安排；請先在 Mass Edit 選取並複製。", "error");
+    return;
+  }
+  storeScheduleClipboardPayload(payload);
+  stageScheduleClipboardPaste(payload);
+}
+
 function massEditOriginalEntry(date, slotIndex, entry = null) {
   const exact = state.massEditOriginalEntries.find((candidate) => (
     candidate.scheduleDate === date && Number(candidate.slotIndex) === Number(slotIndex)
@@ -506,7 +787,10 @@ function updateMassEditControls() {
     || elements.weekGrid.getAttribute("aria-busy") === "true"
     || !activeStudent()
     || elements.weekGrid.childElementCount === 0;
-  elements.adminStudentsButton.disabled = active;
+  elements.adminStudentsButton.disabled = state.mutationInFlight || (active && changeCount > 0);
+  elements.adminStudentsButton.title = active && changeCount > 0
+    ? "請先一次儲存全部或取消修改，再切換學生。"
+    : "";
   elements.currentWeek.disabled = active;
   const countdownCapacity = Math.max(
     MIN_COUNTDOWNS,
@@ -515,6 +799,7 @@ function updateMassEditControls() {
   elements.addCountdowns.disabled = active || state.mutationInFlight || countdownCapacity >= MAX_COUNTDOWNS;
   elements.removeCountdowns.disabled = active || state.mutationInFlight || countdownCapacity <= MIN_COUNTDOWNS;
   if (elements.countdownGrid) elements.countdownGrid.inert = active;
+  updateClipboardControls();
 }
 
 function leaveMassEdit({ restoreOriginal = true } = {}) {
@@ -524,6 +809,7 @@ function leaveMassEdit({ restoreOriginal = true } = {}) {
   state.massEditChanges.clear();
   state.showUnusedTemporarily = state.massEditPreviousShowUnusedTemporarily;
   state.massEditPreviousShowUnusedTemporarily = false;
+  clearClipboardSelection({ deactivate: true });
   setStatus(elements.massEditStatus, "");
   updateMassEditControls();
 }
@@ -565,6 +851,7 @@ function beginMassEdit() {
   state.massEditMode = true;
   state.massEditOriginalEntries = cloneScheduleEntries(state.weekPayload.entries);
   state.massEditChanges.clear();
+  clearClipboardSelection({ deactivate: true });
   state.massEditPreviousShowUnusedTemporarily = state.showUnusedTemporarily;
   state.showUnusedTemporarily = true;
   setStatus(elements.massEditStatus, "Mass Edit 已開啟：修改會先暫存在本頁。");
@@ -596,6 +883,7 @@ function clearRenderedSchedule() {
   state.massEditOriginalEntries = [];
   state.massEditChanges.clear();
   state.massEditPreviousShowUnusedTemporarily = false;
+  clearClipboardSelection({ deactivate: true });
   resetSelectionMode();
   elements.weekGrid.replaceChildren();
   elements.exportPdf.disabled = true;
@@ -1534,6 +1822,7 @@ async function logout() {
   }
   if (!guardMassEditNavigation()) return;
   const user = state.currentUser;
+  clearStoredScheduleClipboard();
   if (user?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
   state.currentUser = null;
   state.selectedStudent = null;
@@ -1624,7 +1913,6 @@ async function openStudentSchedule(studentId) {
   if (!guardMassEditNavigation()) return;
   clearRenderedSchedule();
   state.selectedStudent = { id: student.id, name: student.name };
-  state.weekStart = defaultWeekStart();
   showView("calendar");
   await loadWeek();
 }
@@ -1884,6 +2172,7 @@ function renderWeek() {
   });
   updateSelectionControls();
   updateMassEditControls();
+  applyClipboardSelectionClasses();
 }
 
 function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = false) {
@@ -1959,6 +2248,10 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
       draftBadge.className = "draft-badge";
       draftBadge.textContent = "未儲存";
       topLine.append(draftBadge);
+    }
+    if (state.clipboardSelectedEntryIds.has(entry.id)) {
+      button.classList.add("is-clipboard-selected");
+      if (state.massEditMode && state.clipboardSelectionMode) button.setAttribute("aria-pressed", "true");
     }
     if (state.selectedEntryIds.has(entry.id)) {
       button.classList.add("is-selected");
@@ -2813,6 +3106,152 @@ function isConcurrencyError(error) {
     || String(error?.message || "").toLocaleLowerCase().includes("another session");
 }
 
+function clipboardMarqueeViewportRect(marquee, event) {
+  return {
+    left: Math.min(marquee.startX, event.clientX),
+    right: Math.max(marquee.startX, event.clientX),
+    top: Math.min(marquee.startY, event.clientY),
+    bottom: Math.max(marquee.startY, event.clientY)
+  };
+}
+
+function rectsIntersect(left, right) {
+  return left.left <= right.right
+    && left.right >= right.left
+    && left.top <= right.bottom
+    && left.bottom >= right.top;
+}
+
+function beginClipboardMarquee(event) {
+  if (
+    !state.massEditMode
+    || !state.clipboardSelectionMode
+    || state.mutationInFlight
+    || event.pointerType !== "mouse"
+    || event.button !== 0
+    || clipboardShouldRemainNative(event.target)
+    || event.target.closest("a")
+  ) return;
+  removeClipboardMarquee();
+  const additive = event.metaKey || event.ctrlKey || event.shiftKey;
+  state.clipboardMarquee = {
+    pointerId: event.pointerId,
+    startX: event.clientX,
+    startY: event.clientY,
+    additive,
+    baseSelection: new Set(additive ? state.clipboardSelectedEntryIds : []),
+    started: false,
+    skippedSpan: false,
+    element: null
+  };
+  try {
+    elements.calendarScroll.setPointerCapture(event.pointerId);
+  } catch {
+    // Pointer capture is an enhancement; selection still works inside the grid.
+  }
+}
+
+function updateClipboardMarquee(event) {
+  const marquee = state.clipboardMarquee;
+  if (!marquee || event.pointerId !== marquee.pointerId) return;
+  const distance = Math.hypot(event.clientX - marquee.startX, event.clientY - marquee.startY);
+  if (!marquee.started && distance < MARQUEE_START_DISTANCE) return;
+  if (!marquee.started) {
+    marquee.started = true;
+    marquee.element = document.createElement("div");
+    marquee.element.className = "clipboard-selection-marquee";
+    marquee.element.setAttribute("aria-hidden", "true");
+    elements.calendarScroll.append(marquee.element);
+  }
+  event.preventDefault();
+  const viewportRect = clipboardMarqueeViewportRect(marquee, event);
+  const containerRect = elements.calendarScroll.getBoundingClientRect();
+  marquee.element.style.left = `${viewportRect.left - containerRect.left + elements.calendarScroll.scrollLeft}px`;
+  marquee.element.style.top = `${viewportRect.top - containerRect.top + elements.calendarScroll.scrollTop}px`;
+  marquee.element.style.width = `${viewportRect.right - viewportRect.left}px`;
+  marquee.element.style.height = `${viewportRect.bottom - viewportRect.top}px`;
+
+  const nextSelection = new Set(marquee.baseSelection);
+  marquee.skippedSpan = false;
+  elements.weekGrid.querySelectorAll(".schedule-slot.has-entry:not(.span-continuation)").forEach((slot) => {
+    if (!rectsIntersect(viewportRect, slot.getBoundingClientRect())) return;
+    const entry = findEntryById(slot.dataset.entryId);
+    if (entry?.spanGroupId) {
+      marquee.skippedSpan = true;
+      return;
+    }
+    if (entry) nextSelection.add(entry.id);
+  });
+  state.clipboardSelectedEntryIds = nextSelection;
+  applyClipboardSelectionClasses();
+  updateClipboardControls();
+}
+
+function finishClipboardMarquee(event) {
+  const marquee = state.clipboardMarquee;
+  if (!marquee || event.pointerId !== marquee.pointerId) return;
+  try {
+    elements.calendarScroll.releasePointerCapture(event.pointerId);
+  } catch {
+    // Pointer capture may already have been released.
+  }
+  const started = marquee.started;
+  const skippedSpan = marquee.skippedSpan;
+  removeClipboardMarquee();
+  if (!started) return;
+  state.suppressClickUntil = Date.now() + 450;
+  elements.calendarScroll.focus({ preventScroll: true });
+  updateClipboardControls();
+  if (skippedSpan) showToast("已略過跨日項目；跨日項目暫不可複製。", "error");
+}
+
+function handleScheduleCopy(event) {
+  if (
+    !state.massEditMode
+    || state.mutationInFlight
+    || clipboardShouldRemainNative(event.target)
+    || !clipboardSelectedEntries().length
+  ) return;
+  try {
+    const payload = createCurrentScheduleClipboardPayload();
+    const serialized = storeScheduleClipboardPayload(payload);
+    if (event.clipboardData) {
+      event.clipboardData.setData("text/plain", serialized);
+      try {
+        event.clipboardData.setData(SCHEDULE_CLIPBOARD_MIME, JSON.stringify(payload));
+      } catch {
+        // Safari may reject custom MIME types; text/plain remains portable.
+      }
+      event.preventDefault();
+    }
+    showToast(`已複製 ${payload.items.length} 項安排；可切換學生後貼上。`);
+  } catch (error) {
+    showToast(clipboardErrorMessage(error), "error");
+  }
+}
+
+function handleSchedulePaste(event) {
+  if (!state.massEditMode || state.mutationInFlight || clipboardShouldRemainNative(event.target)) return;
+  const clipboardData = event.clipboardData;
+  if (!clipboardData) return;
+  const custom = clipboardData.getData(SCHEDULE_CLIPBOARD_MIME);
+  const plain = clipboardData.getData("text/plain");
+  let payload = null;
+  for (const candidate of [custom, plain]) {
+    if (!candidate) continue;
+    try {
+      payload = parseScheduleClipboard(candidate);
+      break;
+    } catch {
+      // Unrelated clipboard text must retain its normal browser behaviour.
+    }
+  }
+  if (!payload) return;
+  event.preventDefault();
+  storeScheduleClipboardPayload(payload);
+  stageScheduleClipboardPaste(payload);
+}
+
 elements.loginForm.addEventListener("submit", login);
 elements.logout.addEventListener("click", logout);
 elements.adminStudentsButton.addEventListener("click", openAdminPanel);
@@ -2829,11 +3268,20 @@ elements.passwordToggle.addEventListener("click", () => {
   elements.passwordToggle.setAttribute("aria-pressed", String(!showing));
 });
 
+elements.calendarScroll?.addEventListener("pointerdown", beginClipboardMarquee);
+elements.calendarScroll?.addEventListener("pointermove", updateClipboardMarquee, { passive: false });
+elements.calendarScroll?.addEventListener("pointerup", finishClipboardMarquee);
+elements.calendarScroll?.addEventListener("pointercancel", finishClipboardMarquee);
+
 elements.weekGrid.addEventListener("click", (event) => {
   const homeworkLink = event.target.closest("a[data-homework-link-url]");
   if (homeworkLink) {
     const href = normalizeHomeworkHref(homeworkLink.getAttribute("href"));
-    const linkModeBlocked = state.mutationInFlight || state.selectionMode || state.moveEntryId || state.touchActionEntryId;
+    const linkModeBlocked = state.mutationInFlight
+      || state.selectionMode
+      || state.clipboardSelectionMode
+      || state.moveEntryId
+      || state.touchActionEntryId;
     if (!href || linkModeBlocked) {
       event.preventDefault();
       if (linkModeBlocked) showToast("請先退出選取或移動模式，再開啟功課連結。", "error");
@@ -2871,6 +3319,11 @@ elements.weekGrid.addEventListener("click", (event) => {
   }
   if (slot) {
     const entry = findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+    if (state.clipboardSelectionMode) {
+      if (entry) toggleClipboardEntrySelection(entry);
+      else showToast("只可選取已有安排的格。", "error");
+      return;
+    }
     if (state.moveEntryId) {
       if (entry?.id === state.moveEntryId) showToast("請選擇另一個安排格。", "error");
       else moveEntryTo(findEntryById(state.moveEntryId), slot.dataset.slotDate, Number(slot.dataset.slotIndex));
@@ -3118,6 +3571,10 @@ elements.toggleSelection?.addEventListener("click", toggleSelectionMode);
 elements.toggleMassEdit?.addEventListener("click", toggleMassEdit);
 elements.massEditSave?.addEventListener("click", saveMassEdit);
 elements.massEditCancel?.addEventListener("click", () => discardMassEdit({ requireConfirmation: true }));
+elements.toggleClipboardSelection?.addEventListener("click", toggleClipboardSelectionMode);
+elements.copyClipboardSelection?.addEventListener("click", copyClipboardSelectionFromButton);
+elements.pasteClipboardSelection?.addEventListener("click", pasteScheduleClipboardFromButton);
+elements.clearClipboardSelection?.addEventListener("click", () => clearClipboardSelection({ deactivate: false }));
 elements.batchComplete?.addEventListener("click", batchSetCompletion);
 elements.moveSelected?.addEventListener("click", beginMoveSelected);
 elements.batchDelete?.addEventListener("click", batchDeleteEntries);
@@ -3133,10 +3590,24 @@ elements.countdownGrid?.addEventListener("click", (event) => {
 });
 
 document.addEventListener("keydown", (event) => {
+  if (
+    event.key === "Escape"
+    && state.massEditMode
+    && state.clipboardSelectionMode
+    && !elements.entryDialog.open
+    && !elements.deleteDialog.open
+  ) {
+    clearClipboardSelection({ deactivate: true });
+    showToast("已退出複製選取。");
+    return;
+  }
   if (event.key === "Escape" && state.selectionMode && !elements.entryDialog.open && !elements.deleteDialog.open) {
     cancelSelectionMode();
   }
 });
+
+document.addEventListener("copy", handleScheduleCopy);
+document.addEventListener("paste", handleSchedulePaste);
 
 window.addEventListener("beforeunload", (event) => {
   if (!state.massEditMode || !state.massEditChanges.size) return;

@@ -3658,21 +3658,20 @@
       }
 
       .study-side {
-        order: -1;
+        order: 2;
         width: 100%;
         grid-template-columns: minmax(142px, 1fr) minmax(100px, 0.72fr);
         gap: 8px;
-        position: sticky;
-        top: calc(var(--flashcard-sticky-header-height) + max(6px, env(safe-area-inset-top)));
+        position: static;
+        top: auto;
         max-height: none;
         overflow: visible;
         padding: 8px;
         border: 1px solid rgba(47,128,237,0.18);
         border-radius: 18px;
-        background: rgba(247,251,255,0.94);
-        box-shadow: 0 16px 34px rgba(17,43,85,0.16);
-        backdrop-filter: blur(14px);
-        z-index: 45;
+        background: rgba(247,251,255,0.88);
+        box-shadow: 0 12px 28px rgba(17,43,85,0.12);
+        z-index: 2;
       }
 
       .study-main {
@@ -4338,7 +4337,7 @@
               <p class="note-text" data-card-hint>點擊卡片即可揭示答案。翻開後才可選擇綠勾或紅叉。</p>
             </div>
 
-            <aside class="study-side">
+            <aside class="study-side" data-study-review-panel aria-label="翻卡後評分及私人備註">
               <div class="study-action-dock">
                 <div class="action-rail">
                   <div class="action-row">
@@ -191227,9 +191226,11 @@ window.EDMUND_FLASHCARD_SEED = {
       const mobileDock = window.matchMedia("(max-width: 680px)").matches
         ? document.querySelector(".study-side")
         : null;
+      const mobileDockPosition = mobileDock ? window.getComputedStyle(mobileDock).position : "";
+      const mobileDockOverlaysContent = mobileDockPosition === "fixed" || mobileDockPosition === "sticky";
       const header = document.querySelector(".edmund-system-header");
       const headerBottom = header ? Math.max(0, header.getBoundingClientRect().bottom) : 0;
-      const visibleTop = mobileDock
+      const visibleTop = mobileDockOverlaysContent
         ? Math.max(12, headerBottom + 12, mobileDock.getBoundingClientRect().bottom + 10)
         : Math.max(12, headerBottom + 12);
       const fullyVisible = rect.top >= visibleTop && rect.bottom <= window.innerHeight - 12;

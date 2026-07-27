@@ -548,7 +548,8 @@
     .mass-edit-summary span { color: #68557f; font-size: 12px; font-weight: 750; }
     .mass-edit-buttons { display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
     .mass-edit-save,
-    .mass-edit-cancel {
+    .mass-edit-cancel,
+    .mass-edit-clipboard-button {
       min-height: 40px;
       border-radius: 12px;
       padding: 9px 14px;
@@ -567,6 +568,21 @@
       color: #5d467d;
       background: #fff;
     }
+    .mass-edit-clipboard-button {
+      border: 1px solid rgba(49, 99, 164, .24);
+      color: #315f98;
+      background: rgba(248, 252, 255, .98);
+    }
+    .mass-edit-clipboard-button[aria-pressed="true"] {
+      color: #fff;
+      border-color: #3e77bd;
+      background: linear-gradient(135deg, #407fca, #62a5e4);
+      box-shadow: 0 8px 18px rgba(49, 103, 170, .2);
+    }
+    .mass-edit-save:disabled,
+    .mass-edit-cancel:disabled,
+    .mass-edit-clipboard-button:disabled { opacity: .48; cursor: not-allowed; box-shadow: none; }
+    .clipboard-selection-count { color: #315f98 !important; font-weight: 850; }
     .mass-edit-status { min-height: 20px; margin: 0 0 10px; color: #5d467d; font-size: 12px; font-weight: 800; }
     .mass-edit-status[data-state="error"] { color: var(--danger); }
 
@@ -592,6 +608,7 @@
       -webkit-backdrop-filter: none;
     }
     .calendar-scroll {
+      position: relative;
       overflow-x: auto;
       overflow-y: hidden;
       overscroll-behavior-inline: contain;
@@ -600,6 +617,24 @@
       -webkit-overflow-scrolling: touch;
       padding: 3px 3px 15px;
       scrollbar-color: rgba(111, 67, 39, .5) rgba(255, 255, 255, .45);
+    }
+
+    .clipboard-selection-marquee {
+      position: absolute;
+      z-index: 30;
+      border: 2px solid rgba(67, 127, 201, .88);
+      border-radius: 8px;
+      background: rgba(110, 172, 238, .2);
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, .76) inset;
+      pointer-events: none;
+    }
+
+    .week-grid.is-clipboard-selection-mode .schedule-slot.has-entry:not(.span-continuation) { cursor: crosshair; }
+    .schedule-slot.is-clipboard-selected {
+      border-color: #3b79c9 !important;
+      outline: 4px solid rgba(74, 147, 232, .62) !important;
+      outline-offset: -4px !important;
+      box-shadow: 0 12px 28px rgba(42, 101, 171, .24) !important;
     }
 
     .week-grid {
@@ -1279,8 +1314,13 @@
           <div class="mass-edit-summary">
             <strong data-mass-edit-count aria-live="polite">尚未有待儲存修改</strong>
             <span>逐格新增、修改或刪除；完成後一次儲存全部，期間不會重新載入日程。</span>
+            <span class="clipboard-selection-count" data-clipboard-selection-count aria-live="polite">尚未選取複製項目</span>
           </div>
           <div class="mass-edit-buttons">
+            <button class="mass-edit-clipboard-button" type="button" data-toggle-clipboard-selection aria-pressed="false">選取以複製</button>
+            <button class="mass-edit-clipboard-button" type="button" data-copy-clipboard-selection disabled>複製所選</button>
+            <button class="mass-edit-clipboard-button" type="button" data-paste-clipboard-selection>貼上</button>
+            <button class="mass-edit-clipboard-button" type="button" data-clear-clipboard-selection disabled>清除選取</button>
             <button class="mass-edit-cancel" type="button" data-cancel-mass-edit>取消所有修改</button>
             <button class="mass-edit-save" type="button" data-save-mass-edit>一次儲存全部</button>
           </div>
@@ -1406,6 +1446,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260727-1"></script>
-  <script type="module" src="schedule-system.js?v=20260727-2"></script>
+  <script type="module" src="schedule-system.js?v=20260727-3"></script>
 </body>
 </html>

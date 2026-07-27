@@ -3,6 +3,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2025-part-a",
     "type": "fill-blanks",
+    "ordinal": 2025,
     "label": "852 Teen Art Club Promotional Leaflet",
     "detail": "DSE Writing Part A 2025 · Part A · Promotional Leaflet",
     "url": "writing-practice.html?exercise=dse-writing-2025-part-a"
@@ -10,6 +11,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2015-part-a-argument-against",
     "type": "fill-blanks",
+    "ordinal": 2015,
     "label": "2015 - Argument against",
     "detail": "DSE Writing Part A 2015 · Part A · Letter to the editor",
     "url": "writing-practice.html?exercise=dse-writing-2015-part-a-argument-against"
@@ -17,6 +19,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2015-part-a-argument-for",
     "type": "fill-blanks",
+    "ordinal": 2015,
     "label": "2015 - Argument for",
     "detail": "DSE Writing Part A 2015 · Part A · Letter to the editor",
     "url": "writing-practice.html?exercise=dse-writing-2015-part-a-argument-for"
@@ -24,6 +27,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2022-part-a",
     "type": "fill-blanks",
+    "ordinal": 2022,
     "label": "A First-Time Visitor’s Guide to Hong Kong Adventure Farm",
     "detail": "DSE Writing Part A 2022 · Part A · Visitor Guide",
     "url": "writing-practice.html?exercise=dse-writing-2022-part-a"
@@ -31,6 +35,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2021-part-a",
     "type": "fill-blanks",
+    "ordinal": 2021,
     "label": "Annual School Fair Announcement",
     "detail": "DSE Writing Part A 2021 · Part A · Announcement",
     "url": "writing-practice.html?exercise=dse-writing-2021-part-a"
@@ -38,6 +43,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2012-part-a",
     "type": "fill-blanks",
+    "ordinal": 2012,
     "label": "Chasing Truth, Not Headlines",
     "detail": "DSE Writing Part A 2012 · Part A · Feature article",
     "url": "writing-practice.html?exercise=dse-writing-2012-part-a"
@@ -45,6 +51,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2018-part-a",
     "type": "fill-blanks",
+    "ordinal": 2018,
     "label": "Class 6A Trip to sky100",
     "detail": "DSE Writing Part A 2018 · Part A · Informative letter",
     "url": "writing-practice.html?exercise=dse-writing-2018-part-a"
@@ -52,6 +59,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2024-part-a",
     "type": "fill-blanks",
+    "ordinal": 2024,
     "label": "Complaint about a Stay at the Seaside Hotel",
     "detail": "DSE Writing Part A 2024 · Part A · Complaint Email",
     "url": "writing-practice.html?exercise=dse-writing-2024-part-a"
@@ -59,6 +67,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:hkpf-civic-composition-4",
     "type": "fill-blanks",
+    "ordinal": 4,
     "label": "HKPF Civics Composition 4",
     "detail": "Civil Servant Writing Practice · HKPF Civics Composition",
     "url": "writing-practice.html?exercise=hkpf-civic-composition-4"
@@ -66,6 +75,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:hkpf-civic-composition-5",
     "type": "fill-blanks",
+    "ordinal": 5,
     "label": "HKPF Civics Composition 5",
     "detail": "Civil Servant Writing Practice · HKPF Civics Composition",
     "url": "writing-practice.html?exercise=hkpf-civic-composition-5"
@@ -73,6 +83,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:hkpf-civic-composition-6",
     "type": "fill-blanks",
+    "ordinal": 6,
     "label": "HKPF Civics Composition 6",
     "detail": "Civil Servant Writing Practice · HKPF Civics Composition",
     "url": "writing-practice.html?exercise=hkpf-civic-composition-6"
@@ -80,6 +91,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:hkpf-civic-composition-7",
     "type": "fill-blanks",
+    "ordinal": 7,
     "label": "HKPF Civics Composition 7",
     "detail": "Civil Servant Writing Practice · HKPF Civics Composition",
     "url": "writing-practice.html?exercise=hkpf-civic-composition-7"
@@ -87,6 +99,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2014-part-a",
     "type": "fill-blanks",
+    "ordinal": 2014,
     "label": "Lucky Village: Where Tradition Meets Transformation",
     "detail": "DSE Writing Part A 2014 · Part A · Local-history article",
     "url": "writing-practice.html?exercise=dse-writing-2014-part-a"
@@ -94,6 +107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-2-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 2,
     "label": "Model Essay 2 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-2-ielts-advantage-disadvantage"
@@ -101,6 +115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-2-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 2,
     "label": "Model Essay 2 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-2-ielts-cause-solution"
@@ -108,6 +123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-2-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 2,
     "label": "Model Essay 2 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-2-ielts-direct-question"
@@ -115,6 +131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-3-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 3,
     "label": "Model Essay 3 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-3-ielts-advantage-disadvantage"
@@ -122,6 +139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-3-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 3,
     "label": "Model Essay 3 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-3-ielts-cause-solution"
@@ -129,6 +147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-3-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 3,
     "label": "Model Essay 3 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-3-ielts-direct-question"
@@ -136,6 +155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-3-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 3,
     "label": "Model Essay 3 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-3-ielts-opinion"
@@ -143,6 +163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-4-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 4,
     "label": "Model Essay 4 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-4-ielts-advantage-disadvantage"
@@ -150,6 +171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-4-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 4,
     "label": "Model Essay 4 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-4-ielts-cause-solution"
@@ -157,6 +179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-4-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 4,
     "label": "Model Essay 4 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-4-ielts-direct-question"
@@ -164,6 +187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-4-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 4,
     "label": "Model Essay 4 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-4-ielts-discuss-both-views"
@@ -171,6 +195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-4-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 4,
     "label": "Model Essay 4 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-4-ielts-opinion"
@@ -178,6 +203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-5-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 5,
     "label": "Model Essay 5 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-5-ielts-advantage-disadvantage"
@@ -185,6 +211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-5-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 5,
     "label": "Model Essay 5 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-5-ielts-direct-question"
@@ -192,6 +219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-5-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 5,
     "label": "Model Essay 5 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-5-ielts-discuss-both-views"
@@ -199,6 +227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-5-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 5,
     "label": "Model Essay 5 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-5-ielts-opinion"
@@ -206,6 +235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-6-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 6,
     "label": "Model Essay 6 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-6-ielts-advantage-disadvantage"
@@ -213,6 +243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-6-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 6,
     "label": "Model Essay 6 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-6-ielts-cause-solution"
@@ -220,6 +251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-6-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 6,
     "label": "Model Essay 6 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-6-ielts-direct-question"
@@ -227,6 +259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-6-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 6,
     "label": "Model Essay 6 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-6-ielts-discuss-both-views"
@@ -234,6 +267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-6-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 6,
     "label": "Model Essay 6 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-6-ielts-opinion"
@@ -241,6 +275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-7-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 7,
     "label": "Model Essay 7 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-7-ielts-advantage-disadvantage"
@@ -248,6 +283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-7-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 7,
     "label": "Model Essay 7 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-7-ielts-cause-solution"
@@ -255,6 +291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-7-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 7,
     "label": "Model Essay 7 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-7-ielts-direct-question"
@@ -262,6 +299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-7-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 7,
     "label": "Model Essay 7 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-7-ielts-discuss-both-views"
@@ -269,6 +307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-7-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 7,
     "label": "Model Essay 7 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-7-ielts-opinion"
@@ -276,6 +315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-8-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 8,
     "label": "Model Essay 8 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-8-ielts-advantage-disadvantage"
@@ -283,6 +323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-8-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 8,
     "label": "Model Essay 8 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-8-ielts-direct-question"
@@ -290,6 +331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-8-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 8,
     "label": "Model Essay 8 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-8-ielts-discuss-both-views"
@@ -297,6 +339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-8-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 8,
     "label": "Model Essay 8 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-8-ielts-opinion"
@@ -304,6 +347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-9-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 9,
     "label": "Model Essay 9 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-9-ielts-advantage-disadvantage"
@@ -311,6 +355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-9-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 9,
     "label": "Model Essay 9 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-9-ielts-cause-solution"
@@ -318,6 +363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-9-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 9,
     "label": "Model Essay 9 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-9-ielts-direct-question"
@@ -325,6 +371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-9-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 9,
     "label": "Model Essay 9 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-9-ielts-discuss-both-views"
@@ -332,6 +379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-9-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 9,
     "label": "Model Essay 9 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-9-ielts-opinion"
@@ -339,6 +387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-10-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 10,
     "label": "Model Essay 10 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-10-ielts-advantage-disadvantage"
@@ -346,6 +395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-10-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 10,
     "label": "Model Essay 10 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-10-ielts-cause-solution"
@@ -353,6 +403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-10-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 10,
     "label": "Model Essay 10 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-10-ielts-direct-question"
@@ -360,6 +411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-10-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 10,
     "label": "Model Essay 10 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-10-ielts-discuss-both-views"
@@ -367,6 +419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-10-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 10,
     "label": "Model Essay 10 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-10-ielts-opinion"
@@ -374,6 +427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-11-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 11,
     "label": "Model Essay 11 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-11-ielts-advantage-disadvantage"
@@ -381,6 +435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-11-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 11,
     "label": "Model Essay 11 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-11-ielts-cause-solution"
@@ -388,6 +443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-11-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 11,
     "label": "Model Essay 11 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-11-ielts-direct-question"
@@ -395,6 +451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-11-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 11,
     "label": "Model Essay 11 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-11-ielts-discuss-both-views"
@@ -402,6 +459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-11-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 11,
     "label": "Model Essay 11 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-11-ielts-opinion"
@@ -409,6 +467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-12-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 12,
     "label": "Model Essay 12 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-12-ielts-advantage-disadvantage"
@@ -416,6 +475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-12-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 12,
     "label": "Model Essay 12 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-12-ielts-cause-solution"
@@ -423,6 +483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-12-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 12,
     "label": "Model Essay 12 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-12-ielts-direct-question"
@@ -430,6 +491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-12-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 12,
     "label": "Model Essay 12 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-12-ielts-discuss-both-views"
@@ -437,6 +499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-12-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 12,
     "label": "Model Essay 12 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-12-ielts-opinion"
@@ -444,6 +507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-13-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 13,
     "label": "Model Essay 13 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-13-ielts-cause-solution"
@@ -451,6 +515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-13-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 13,
     "label": "Model Essay 13 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-13-ielts-direct-question"
@@ -458,6 +523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-13-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 13,
     "label": "Model Essay 13 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-13-ielts-discuss-both-views"
@@ -465,6 +531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-13-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 13,
     "label": "Model Essay 13 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-13-ielts-opinion"
@@ -472,6 +539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-14-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 14,
     "label": "Model Essay 14 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-14-ielts-advantage-disadvantage"
@@ -479,6 +547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-14-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 14,
     "label": "Model Essay 14 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-14-ielts-cause-solution"
@@ -486,6 +555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-14-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 14,
     "label": "Model Essay 14 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-14-ielts-direct-question"
@@ -493,6 +563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-14-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 14,
     "label": "Model Essay 14 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-14-ielts-discuss-both-views"
@@ -500,6 +571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-14-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 14,
     "label": "Model Essay 14 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-14-ielts-opinion"
@@ -507,6 +579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-15-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 15,
     "label": "Model Essay 15 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-15-ielts-advantage-disadvantage"
@@ -514,6 +587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-15-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 15,
     "label": "Model Essay 15 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-15-ielts-cause-solution"
@@ -521,6 +595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-15-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 15,
     "label": "Model Essay 15 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-15-ielts-direct-question"
@@ -528,6 +603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-15-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 15,
     "label": "Model Essay 15 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-15-ielts-discuss-both-views"
@@ -535,6 +611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-15-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 15,
     "label": "Model Essay 15 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-15-ielts-opinion"
@@ -542,6 +619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-16-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 16,
     "label": "Model Essay 16 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-16-ielts-advantage-disadvantage"
@@ -549,6 +627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-16-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 16,
     "label": "Model Essay 16 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-16-ielts-cause-solution"
@@ -556,6 +635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-16-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 16,
     "label": "Model Essay 16 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-16-ielts-direct-question"
@@ -563,6 +643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-16-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 16,
     "label": "Model Essay 16 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-16-ielts-discuss-both-views"
@@ -570,6 +651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-16-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 16,
     "label": "Model Essay 16 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-16-ielts-opinion"
@@ -577,6 +659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-17-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 17,
     "label": "Model Essay 17 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-17-ielts-advantage-disadvantage"
@@ -584,6 +667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-17-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 17,
     "label": "Model Essay 17 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-17-ielts-cause-solution"
@@ -591,6 +675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-17-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 17,
     "label": "Model Essay 17 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-17-ielts-direct-question"
@@ -598,6 +683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-17-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 17,
     "label": "Model Essay 17 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-17-ielts-discuss-both-views"
@@ -605,6 +691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-17-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 17,
     "label": "Model Essay 17 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-17-ielts-opinion"
@@ -612,6 +699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-18-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 18,
     "label": "Model Essay 18 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-18-ielts-advantage-disadvantage"
@@ -619,6 +707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-18-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 18,
     "label": "Model Essay 18 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-18-ielts-cause-solution"
@@ -626,6 +715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-18-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 18,
     "label": "Model Essay 18 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-18-ielts-direct-question"
@@ -633,6 +723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-18-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 18,
     "label": "Model Essay 18 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-18-ielts-discuss-both-views"
@@ -640,6 +731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-18-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 18,
     "label": "Model Essay 18 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-18-ielts-opinion"
@@ -647,6 +739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-19-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 19,
     "label": "Model Essay 19 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-19-ielts-advantage-disadvantage"
@@ -654,6 +747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-19-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 19,
     "label": "Model Essay 19 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-19-ielts-cause-solution"
@@ -661,6 +755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-19-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 19,
     "label": "Model Essay 19 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-19-ielts-discuss-both-views"
@@ -668,6 +763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-19-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 19,
     "label": "Model Essay 19 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-19-ielts-opinion"
@@ -675,6 +771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-20-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 20,
     "label": "Model Essay 20 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-20-ielts-advantage-disadvantage"
@@ -682,6 +779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-20-ielts-cause-solution",
     "type": "fill-blanks",
+    "ordinal": 20,
     "label": "Model Essay 20 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
     "url": "writing-practice.html?exercise=model-essay-20-ielts-cause-solution"
@@ -689,6 +787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-20-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 20,
     "label": "Model Essay 20 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-20-ielts-discuss-both-views"
@@ -696,6 +795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-20-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 20,
     "label": "Model Essay 20 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-20-ielts-opinion"
@@ -703,6 +803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-21-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 21,
     "label": "Model Essay 21 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-21-ielts-advantage-disadvantage"
@@ -710,6 +811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-21-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 21,
     "label": "Model Essay 21 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-21-ielts-discuss-both-views"
@@ -717,6 +819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-21-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 21,
     "label": "Model Essay 21 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-21-ielts-opinion"
@@ -724,6 +827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-22-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 22,
     "label": "Model Essay 22 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-22-ielts-advantage-disadvantage"
@@ -731,6 +835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-22-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 22,
     "label": "Model Essay 22 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-22-ielts-discuss-both-views"
@@ -738,6 +843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-22-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 22,
     "label": "Model Essay 22 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-22-ielts-opinion"
@@ -745,6 +851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-23-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 23,
     "label": "Model Essay 23 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-23-ielts-advantage-disadvantage"
@@ -752,6 +859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-23-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 23,
     "label": "Model Essay 23 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-23-ielts-discuss-both-views"
@@ -759,6 +867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-23-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 23,
     "label": "Model Essay 23 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-23-ielts-opinion"
@@ -766,6 +875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-24-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 24,
     "label": "Model Essay 24 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-24-ielts-advantage-disadvantage"
@@ -773,6 +883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-24-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 24,
     "label": "Model Essay 24 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-24-ielts-discuss-both-views"
@@ -780,6 +891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-24-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 24,
     "label": "Model Essay 24 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-24-ielts-opinion"
@@ -787,6 +899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-25-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 25,
     "label": "Model Essay 25 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-25-ielts-advantage-disadvantage"
@@ -794,6 +907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-25-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 25,
     "label": "Model Essay 25 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-25-ielts-direct-question"
@@ -801,6 +915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-25-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 25,
     "label": "Model Essay 25 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-25-ielts-discuss-both-views"
@@ -808,6 +923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-25-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 25,
     "label": "Model Essay 25 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-25-ielts-opinion"
@@ -815,6 +931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-26-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 26,
     "label": "Model Essay 26 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-26-ielts-advantage-disadvantage"
@@ -822,6 +939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-26-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 26,
     "label": "Model Essay 26 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-26-ielts-direct-question"
@@ -829,6 +947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-26-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 26,
     "label": "Model Essay 26 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-26-ielts-discuss-both-views"
@@ -836,6 +955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-26-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 26,
     "label": "Model Essay 26 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-26-ielts-opinion"
@@ -843,6 +963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-27-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 27,
     "label": "Model Essay 27 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-27-ielts-advantage-disadvantage"
@@ -850,6 +971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-27-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 27,
     "label": "Model Essay 27 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-27-ielts-direct-question"
@@ -857,6 +979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-27-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 27,
     "label": "Model Essay 27 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-27-ielts-discuss-both-views"
@@ -864,6 +987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-27-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 27,
     "label": "Model Essay 27 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-27-ielts-opinion"
@@ -871,6 +995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-28-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 28,
     "label": "Model Essay 28 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-28-ielts-advantage-disadvantage"
@@ -878,6 +1003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-28-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 28,
     "label": "Model Essay 28 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-28-ielts-direct-question"
@@ -885,6 +1011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-28-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 28,
     "label": "Model Essay 28 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-28-ielts-discuss-both-views"
@@ -892,6 +1019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-28-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 28,
     "label": "Model Essay 28 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-28-ielts-opinion"
@@ -899,6 +1027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-29-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 29,
     "label": "Model Essay 29 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-29-ielts-advantage-disadvantage"
@@ -906,6 +1035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-29-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 29,
     "label": "Model Essay 29 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-29-ielts-direct-question"
@@ -913,6 +1043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-29-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 29,
     "label": "Model Essay 29 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-29-ielts-discuss-both-views"
@@ -920,6 +1051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-29-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 29,
     "label": "Model Essay 29 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-29-ielts-opinion"
@@ -927,6 +1059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-30-ielts-advantage-disadvantage",
     "type": "fill-blanks",
+    "ordinal": 30,
     "label": "Model Essay 30 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
     "url": "writing-practice.html?exercise=model-essay-30-ielts-advantage-disadvantage"
@@ -934,6 +1067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-30-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 30,
     "label": "Model Essay 30 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-30-ielts-direct-question"
@@ -941,6 +1075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-30-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 30,
     "label": "Model Essay 30 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-30-ielts-discuss-both-views"
@@ -948,6 +1083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-30-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 30,
     "label": "Model Essay 30 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-30-ielts-opinion"
@@ -955,6 +1091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-31-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 31,
     "label": "Model Essay 31 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-31-ielts-direct-question"
@@ -962,6 +1099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-31-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 31,
     "label": "Model Essay 31 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-31-ielts-discuss-both-views"
@@ -969,6 +1107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-31-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 31,
     "label": "Model Essay 31 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-31-ielts-opinion"
@@ -976,6 +1115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-32-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 32,
     "label": "Model Essay 32 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-32-ielts-direct-question"
@@ -983,6 +1123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-32-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 32,
     "label": "Model Essay 32 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-32-ielts-discuss-both-views"
@@ -990,6 +1131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-32-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 32,
     "label": "Model Essay 32 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-32-ielts-opinion"
@@ -997,6 +1139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-33-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 33,
     "label": "Model Essay 33 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-33-ielts-direct-question"
@@ -1004,6 +1147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-33-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 33,
     "label": "Model Essay 33 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-33-ielts-discuss-both-views"
@@ -1011,6 +1155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-33-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 33,
     "label": "Model Essay 33 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-33-ielts-opinion"
@@ -1018,6 +1163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-34-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 34,
     "label": "Model Essay 34 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-34-ielts-direct-question"
@@ -1025,6 +1171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-34-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 34,
     "label": "Model Essay 34 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-34-ielts-discuss-both-views"
@@ -1032,6 +1179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-34-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 34,
     "label": "Model Essay 34 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-34-ielts-opinion"
@@ -1039,6 +1187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-35-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 35,
     "label": "Model Essay 35 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-35-ielts-direct-question"
@@ -1046,6 +1195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-35-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 35,
     "label": "Model Essay 35 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-35-ielts-discuss-both-views"
@@ -1053,6 +1203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-35-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 35,
     "label": "Model Essay 35 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-35-ielts-opinion"
@@ -1060,6 +1211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-36-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 36,
     "label": "Model Essay 36 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-36-ielts-direct-question"
@@ -1067,6 +1219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-36-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 36,
     "label": "Model Essay 36 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-36-ielts-discuss-both-views"
@@ -1074,6 +1227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-36-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 36,
     "label": "Model Essay 36 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-36-ielts-opinion"
@@ -1081,6 +1235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-37-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 37,
     "label": "Model Essay 37 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-37-ielts-direct-question"
@@ -1088,6 +1243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-37-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 37,
     "label": "Model Essay 37 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-37-ielts-discuss-both-views"
@@ -1095,6 +1251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-37-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 37,
     "label": "Model Essay 37 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-37-ielts-opinion"
@@ -1102,6 +1259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-38-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 38,
     "label": "Model Essay 38 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-38-ielts-direct-question"
@@ -1109,6 +1267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-38-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 38,
     "label": "Model Essay 38 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-38-ielts-opinion"
@@ -1116,6 +1275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-39-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 39,
     "label": "Model Essay 39 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-39-ielts-direct-question"
@@ -1123,6 +1283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-39-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 39,
     "label": "Model Essay 39 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-39-ielts-discuss-both-views"
@@ -1130,6 +1291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-39-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 39,
     "label": "Model Essay 39 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-39-ielts-opinion"
@@ -1137,6 +1299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-40-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 40,
     "label": "Model Essay 40 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-40-ielts-direct-question"
@@ -1144,6 +1307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-40-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 40,
     "label": "Model Essay 40 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-40-ielts-discuss-both-views"
@@ -1151,6 +1315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-40-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 40,
     "label": "Model Essay 40 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-40-ielts-opinion"
@@ -1158,6 +1323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-41-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 41,
     "label": "Model Essay 41 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-41-ielts-direct-question"
@@ -1165,6 +1331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-41-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 41,
     "label": "Model Essay 41 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-41-ielts-discuss-both-views"
@@ -1172,6 +1339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-41-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 41,
     "label": "Model Essay 41 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-41-ielts-opinion"
@@ -1179,6 +1347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-42-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 42,
     "label": "Model Essay 42 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-42-ielts-direct-question"
@@ -1186,6 +1355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-42-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 42,
     "label": "Model Essay 42 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-42-ielts-discuss-both-views"
@@ -1193,6 +1363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-42-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 42,
     "label": "Model Essay 42 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-42-ielts-opinion"
@@ -1200,6 +1371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-43-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 43,
     "label": "Model Essay 43 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-43-ielts-direct-question"
@@ -1207,6 +1379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-43-ielts-discuss-both-views",
     "type": "fill-blanks",
+    "ordinal": 43,
     "label": "Model Essay 43 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
     "url": "writing-practice.html?exercise=model-essay-43-ielts-discuss-both-views"
@@ -1214,6 +1387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-43-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 43,
     "label": "Model Essay 43 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-43-ielts-opinion"
@@ -1221,6 +1395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-44-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 44,
     "label": "Model Essay 44 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-44-ielts-direct-question"
@@ -1228,6 +1403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-44-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 44,
     "label": "Model Essay 44 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-44-ielts-opinion"
@@ -1235,6 +1411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-45-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 45,
     "label": "Model Essay 45 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-45-ielts-direct-question"
@@ -1242,6 +1419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-45-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 45,
     "label": "Model Essay 45 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-45-ielts-opinion"
@@ -1249,6 +1427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-46-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 46,
     "label": "Model Essay 46 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-46-ielts-direct-question"
@@ -1256,6 +1435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-46-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 46,
     "label": "Model Essay 46 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-46-ielts-opinion"
@@ -1263,6 +1443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-47-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 47,
     "label": "Model Essay 47 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-47-ielts-direct-question"
@@ -1270,6 +1451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-47-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 47,
     "label": "Model Essay 47 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-47-ielts-opinion"
@@ -1277,6 +1459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-48-ielts-direct-question",
     "type": "fill-blanks",
+    "ordinal": 48,
     "label": "Model Essay 48 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-48-ielts-direct-question"
@@ -1284,6 +1467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-48-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 48,
     "label": "Model Essay 48 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-48-ielts-opinion"
@@ -1291,6 +1475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-49-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 49,
     "label": "Model Essay 49 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-49-ielts-opinion"
@@ -1298,6 +1483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-50-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 50,
     "label": "Model Essay 50 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-50-ielts-opinion"
@@ -1305,6 +1491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-51-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 51,
     "label": "Model Essay 51 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-51-ielts-opinion"
@@ -1312,6 +1499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-52-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 52,
     "label": "Model Essay 52 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-52-ielts-opinion"
@@ -1319,6 +1507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-53-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 53,
     "label": "Model Essay 53 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-53-ielts-opinion"
@@ -1326,6 +1515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-54-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 54,
     "label": "Model Essay 54 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-54-ielts-opinion"
@@ -1333,6 +1523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-55-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 55,
     "label": "Model Essay 55 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-55-ielts-opinion"
@@ -1340,6 +1531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-56-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 56,
     "label": "Model Essay 56 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-56-ielts-opinion"
@@ -1347,6 +1539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-57-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 57,
     "label": "Model Essay 57 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-57-ielts-opinion"
@@ -1354,6 +1547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-58-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 58,
     "label": "Model Essay 58 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-58-ielts-opinion"
@@ -1361,6 +1555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-59-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 59,
     "label": "Model Essay 59 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-59-ielts-opinion"
@@ -1368,6 +1563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-60-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 60,
     "label": "Model Essay 60 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-60-ielts-opinion"
@@ -1375,6 +1571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-61-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 61,
     "label": "Model Essay 61 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-61-ielts-opinion"
@@ -1382,6 +1579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-62-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 62,
     "label": "Model Essay 62 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-62-ielts-opinion"
@@ -1389,6 +1587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-63-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 63,
     "label": "Model Essay 63 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-63-ielts-opinion"
@@ -1396,6 +1595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-64-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 64,
     "label": "Model Essay 64 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-64-ielts-opinion"
@@ -1403,6 +1603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-65-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 65,
     "label": "Model Essay 65 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-65-ielts-opinion"
@@ -1410,6 +1611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-66-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 66,
     "label": "Model Essay 66 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-66-ielts-opinion"
@@ -1417,6 +1619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-67-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 67,
     "label": "Model Essay 67 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-67-ielts-opinion"
@@ -1424,6 +1627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-68-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 68,
     "label": "Model Essay 68 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-68-ielts-opinion"
@@ -1431,6 +1635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-69-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 69,
     "label": "Model Essay 69 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-69-ielts-opinion"
@@ -1438,6 +1643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-70-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 70,
     "label": "Model Essay 70 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-70-ielts-opinion"
@@ -1445,6 +1651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-71-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 71,
     "label": "Model Essay 71 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-71-ielts-opinion"
@@ -1452,6 +1659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-72-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 72,
     "label": "Model Essay 72 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-72-ielts-opinion"
@@ -1459,6 +1667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-73-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 73,
     "label": "Model Essay 73 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-73-ielts-opinion"
@@ -1466,6 +1675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-74-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 74,
     "label": "Model Essay 74 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-74-ielts-opinion"
@@ -1473,6 +1683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-75-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 75,
     "label": "Model Essay 75 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-75-ielts-opinion"
@@ -1480,6 +1691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-76-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 76,
     "label": "Model Essay 76 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-76-ielts-opinion"
@@ -1487,6 +1699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-77-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 77,
     "label": "Model Essay 77 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-77-ielts-opinion"
@@ -1494,6 +1707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-78-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 78,
     "label": "Model Essay 78 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-78-ielts-opinion"
@@ -1501,6 +1715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-79-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 79,
     "label": "Model Essay 79 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-79-ielts-opinion"
@@ -1508,6 +1723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-80-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 80,
     "label": "Model Essay 80 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-80-ielts-opinion"
@@ -1515,6 +1731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-81-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 81,
     "label": "Model Essay 81 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-81-ielts-opinion"
@@ -1522,6 +1739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-82-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 82,
     "label": "Model Essay 82 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-82-ielts-opinion"
@@ -1529,6 +1747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-83-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 83,
     "label": "Model Essay 83 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-83-ielts-opinion"
@@ -1536,6 +1755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-84-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 84,
     "label": "Model Essay 84 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-84-ielts-opinion"
@@ -1543,6 +1763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-85-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 85,
     "label": "Model Essay 85 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-85-ielts-opinion"
@@ -1550,6 +1771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-86-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 86,
     "label": "Model Essay 86 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-86-ielts-opinion"
@@ -1557,6 +1779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-87-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 87,
     "label": "Model Essay 87 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-87-ielts-opinion"
@@ -1564,6 +1787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-88-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 88,
     "label": "Model Essay 88 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-88-ielts-opinion"
@@ -1571,6 +1795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-89-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 89,
     "label": "Model Essay 89 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-89-ielts-opinion"
@@ -1578,6 +1803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-90-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 90,
     "label": "Model Essay 90 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-90-ielts-opinion"
@@ -1585,6 +1811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-91-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 91,
     "label": "Model Essay 91 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-91-ielts-opinion"
@@ -1592,6 +1819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-92-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 92,
     "label": "Model Essay 92 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-92-ielts-opinion"
@@ -1599,6 +1827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-93-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 93,
     "label": "Model Essay 93 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-93-ielts-opinion"
@@ -1606,6 +1835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-94-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 94,
     "label": "Model Essay 94 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-94-ielts-opinion"
@@ -1613,6 +1843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-95-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 95,
     "label": "Model Essay 95 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-95-ielts-opinion"
@@ -1620,6 +1851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-96-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 96,
     "label": "Model Essay 96 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-96-ielts-opinion"
@@ -1627,6 +1859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-97-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 97,
     "label": "Model Essay 97 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-97-ielts-opinion"
@@ -1634,6 +1867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-98-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 98,
     "label": "Model Essay 98 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-98-ielts-opinion"
@@ -1641,6 +1875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-99-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 99,
     "label": "Model Essay 99 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-99-ielts-opinion"
@@ -1648,6 +1883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-100-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 100,
     "label": "Model Essay 100 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-100-ielts-opinion"
@@ -1655,6 +1891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-101-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 101,
     "label": "Model Essay 101 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-101-ielts-opinion"
@@ -1662,6 +1899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-103-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 103,
     "label": "Model Essay 103 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-103-ielts-opinion"
@@ -1669,6 +1907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-104-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 104,
     "label": "Model Essay 104 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-104-ielts-opinion"
@@ -1676,6 +1915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-105-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 105,
     "label": "Model Essay 105 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-105-ielts-opinion"
@@ -1683,6 +1923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:model-essay-106-ielts-opinion",
     "type": "fill-blanks",
+    "ordinal": 106,
     "label": "Model Essay 106 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-106-ielts-opinion"
@@ -1690,6 +1931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2013-part-a",
     "type": "fill-blanks",
+    "ordinal": 2013,
     "label": "My Memories",
     "detail": "DSE Writing Part A 2013 · Part A · Photo exhibition",
     "url": "writing-practice.html?exercise=dse-writing-2013-part-a"
@@ -1697,6 +1939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2023-part-a",
     "type": "fill-blanks",
+    "ordinal": 2023,
     "label": "Pop-up Shop Application Form",
     "detail": "DSE Writing Part A 2023 · Part A · Application Form",
     "url": "writing-practice.html?exercise=dse-writing-2023-part-a"
@@ -1704,6 +1947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2022-part-b-q3",
     "type": "fill-blanks",
+    "ordinal": 3,
     "label": "Q3 - A Dream Needs More Than a Dream",
     "detail": "DSE Writing 2022 · Part B · Question 3 · Advice column reply",
     "url": "writing-practice.html?exercise=dse-writing-2022-part-b-q3"
@@ -1711,6 +1955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2025-part-b-q3",
     "type": "fill-blanks",
+    "ordinal": 3,
     "label": "Q3 - When Eateries Become Classrooms",
     "detail": "DSE Writing 2025 · Part B · Question 3 · Letter to the Editor",
     "url": "writing-practice.html?exercise=dse-writing-2025-part-b-q3"
@@ -1718,6 +1963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2024-part-b-q5",
     "type": "fill-blanks",
+    "ordinal": 5,
     "label": "Q5 - One Night, 100,000 Likes, and a Lesson I Never Expected",
     "detail": "DSE Writing 2024 · Part B · Question 5 · School magazine article",
     "url": "writing-practice.html?exercise=dse-writing-2024-part-b-q5"
@@ -1725,6 +1971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2020-part-a",
     "type": "fill-blanks",
+    "ordinal": 2020,
     "label": "Restaurant Review: Dim Sum One",
     "detail": "DSE Writing Part A 2020 · Part A · Online restaurant review",
     "url": "writing-practice.html?exercise=dse-writing-2020-part-a"
@@ -1732,6 +1979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2017-part-a",
     "type": "fill-blanks",
+    "ordinal": 2017,
     "label": "Taste of Traditions Community Project Proposal",
     "detail": "DSE Writing Part A 2017 · Part A · Formal proposal letter",
     "url": "writing-practice.html?exercise=dse-writing-2017-part-a"
@@ -1739,6 +1987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2016-part-a",
     "type": "fill-blanks",
+    "ordinal": 2016,
     "label": "Welcome Speech to New Students",
     "detail": "DSE Writing Part A 2016 · Part A · Welcome speech",
     "url": "writing-practice.html?exercise=dse-writing-2016-part-a"
@@ -1746,6 +1995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "fill:dse-writing-2019-part-a",
     "type": "fill-blanks",
+    "ordinal": 2019,
     "label": "Yearbook Entry: Class 6C – Reflections",
     "detail": "DSE Writing Part A 2019 · Part A · Yearbook entry",
     "url": "writing-practice.html?exercise=dse-writing-2019-part-a"
@@ -1753,6 +2003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q8",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "\"If the product is good and meets consumer needs than advertising is unnecessary. To what extent do you agree? (2023)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q8 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q8"
@@ -1760,6 +2011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q52",
     "type": "flashcards",
+    "ordinal": 52,
     "label": "A government has a responsibility to its citizens to ensure their safety. Therefore, some people think that the government should increase spending on defense but spend less on soc",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q52 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q52"
@@ -1767,6 +2019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q99",
     "type": "flashcards",
+    "ordinal": 99,
     "label": "A poor infrastructure hinders under-developed countries from progressing and modernising. Some people think that this should be the first problem tackled by foreign aid. To what ex",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q99 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q99"
@@ -1774,6 +2027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q39",
     "type": "flashcards",
+    "ordinal": 39,
     "label": "All societies have their own music and art. In what way are music and art important for society and for the individual?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q39 · 55 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q39"
@@ -1781,6 +2035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q45",
     "type": "flashcards",
+    "ordinal": 45,
     "label": "Although many people value their public parks, this space could be better used for other purposes such as residential areas for the ever growing population or to develop business a",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q45 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q45"
@@ -1788,6 +2043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "An increasing number of people are buying what they need online. What are the advantages and disadvantages for both individuals and companies to shop online? (repeated most years)",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q2 · 86 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q2"
@@ -1795,6 +2051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q39",
     "type": "flashcards",
+    "ordinal": 39,
     "label": "An increasing number of people are now using the internet to meet new people and socialise. Some people think this has brought people closer together while others think people are ",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q39 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q39"
@@ -1802,6 +2059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q4",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "Artists need a certain amount of freedom to develop their creativity. Some people think that artists should have total freedom to express any thoughts and ideas. To what extent do ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q4 · 71 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q4"
@@ -1809,6 +2067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q20",
     "type": "flashcards",
+    "ordinal": 20,
     "label": "As a result of growth in some urban centers, the environment in those cities is deteriorating. How could this issue be tackled by both the government and individuals?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q20 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q20"
@@ -1816,6 +2075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q14",
     "type": "flashcards",
+    "ordinal": 14,
     "label": "As a result of tourism and the increasing number of people travelling, there is an growing demand for more flights. What problems does this have on the environment? What measures c",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q14 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q14"
@@ -1823,6 +2083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q43",
     "type": "flashcards",
+    "ordinal": 43,
     "label": "As a result of tourism, some historical buildings and sites are being damaged beyond repair. What could be done to prevent this? (2019, 2021)",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q43 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q43"
@@ -1830,6 +2091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q65",
     "type": "flashcards",
+    "ordinal": 65,
     "label": "As computers translate quickly and accurately, is learning foreign languages a waste of time? To what extent do you agree or disagree? (2017, 2020, 2023)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q65 · 61 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q65"
@@ -1837,6 +2099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q15",
     "type": "flashcards",
+    "ordinal": 15,
     "label": "Being able to speak a foreign language is an advantage these days. Some people think that children should start learning a foreign language at primary school, while others think ch",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q15 · 58 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q15"
@@ -1844,6 +2107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q46",
     "type": "flashcards",
+    "ordinal": 46,
     "label": "Both governments and individuals are spending vast amounts of money protecting animals and their habitat. This money could be better spent dealing with fundamental issues in societ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q46 · 53 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q46"
@@ -1851,6 +2115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q104",
     "type": "flashcards",
+    "ordinal": 104,
     "label": "Bringing in foreign workers to fill positions that domestic workers are unwilling to do can cause problems in the local community and should therefore be stopped. To what extent do",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q104 · 73 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q104"
@@ -1858,6 +2123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:business-english/business-concepts-standard-response/q1-uncertainty",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "Business English / Business Concepts Standard Response / Q1 Uncertainty",
     "detail": "Business English / Business Concepts Standard Response / Q1 Uncertainty · 82 cards",
     "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq1-uncertainty"
@@ -1865,6 +2131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:business-english/business-concepts-standard-response/q2-inflation-interest-rates-rising-rent-and-rising-wages",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "Business English / Business Concepts Standard Response / Q2 Inflation Interest Rates Rising Rent And Rising Wages",
     "detail": "Business English / Business Concepts Standard Response / Q2 Inflation Interest Rates Rising Rent And Rising Wages · 82 cards",
     "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq2-inflation-interest-rates-rising-rent-and-rising-wages"
@@ -1872,6 +2139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q49",
     "type": "flashcards",
+    "ordinal": 49,
     "label": "Children can learn effectively by watching television. Therefore they should be encouraged to watch television regularly at home and at school. To what extent do you agree or disag",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q49 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q49"
@@ -1879,6 +2147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q50",
     "type": "flashcards",
+    "ordinal": 50,
     "label": "Children these days have more freedom than in pervious generations. Do you think this is a positive or negative development? (2021, 2023)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q50 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q50"
@@ -1886,6 +2155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q36",
     "type": "flashcards",
+    "ordinal": 36,
     "label": "Children who start reading earlier in life perform better later on in their school studies. How important are early reading skills in a child’s academic performance? What other pre",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q36 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q36"
@@ -1893,6 +2163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q62",
     "type": "flashcards",
+    "ordinal": 62,
     "label": "Cities should be designed to be attractive for local people and foreign tourists. Do you agree or disagree? (2023)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q62 · 72 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q62"
@@ -1900,6 +2171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q64",
     "type": "flashcards",
+    "ordinal": 64,
     "label": "Cities should prioritise parks rather than housing developments. To what extent do you agree? (appears most years in the test)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q64 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q64"
@@ -1907,6 +2179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q24",
     "type": "flashcards",
+    "ordinal": 24,
     "label": "Communication through text messaging and other instant forms of online communication are short and basic. Some people think this will be the death of grammar and spelling. Do you a",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q24 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q24"
@@ -1914,6 +2187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q7",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "Companies should provide sports and social facilities for local communities. To what extent do you agree? (Reported 2017, 2021)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q7 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q7"
@@ -1921,6 +2195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q16",
     "type": "flashcards",
+    "ordinal": 16,
     "label": "Companies spend millions each year on advertising online, in magazines and on billboards. These adverts can encourage people to buy goods that they do not really need. What are the",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q16 · 80 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q16"
@@ -1928,6 +2203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q43",
     "type": "flashcards",
+    "ordinal": 43,
     "label": "Completing university education is thought by some to be the best way to get a good job. On the other hand, other people think that getting experience and developing soft skills is",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q43 · 66 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q43"
@@ -1935,6 +2211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q6",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "Crime rate, in most countries, is often higher in urban areas than in rural areas. Why do you think that is? What can be done to reduce the crime rate?",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q6 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q6"
@@ -1942,6 +2219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:custom-setup/sprint-text-1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "Custom Setup / Sprint Text 1",
     "detail": "Custom Setup / Sprint Text 1 · 131 cards",
     "url": "flashcards.html?deck=custom-setup%2Fsprint-text-1"
@@ -1949,6 +2227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:custom-setup/sprint-text-2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "Custom Setup / Sprint Text 2",
     "detail": "Custom Setup / Sprint Text 2 · 100 cards",
     "url": "flashcards.html?deck=custom-setup%2Fsprint-text-2"
@@ -1956,6 +2235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q12",
     "type": "flashcards",
+    "ordinal": 12,
     "label": "Discipline is an ever increasing problem in modern schools. Some people think that discipline should be the responsibility of teachers, while others think that this is the role of ",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q12 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q12"
@@ -1963,6 +2243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q60",
     "type": "flashcards",
+    "ordinal": 60,
     "label": "Doctors should be responsible for educating their patients about how to improve their health. Do you agree with this?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q60 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q60"
@@ -1970,6 +2251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q101",
     "type": "flashcards",
+    "ordinal": 101,
     "label": "Doctors, nurses and teachers make a great contribution to society and should be payed more than entertainment and sports celebrities. Do you agree or disagree ? (Reported 2017, Aca",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q101 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q101"
@@ -1977,6 +2259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2012 DSE/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2012 DSE / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2012 DSE / Task 1 (Transcript) · 85 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2012%20DSE%2FTask%201%20(Transcript)"
@@ -1984,6 +2267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2012 DSE/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2012 DSE / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2012 DSE / Task 2 (Transcript) · 148 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2012%20DSE%2FTask%202%20(Transcript)"
@@ -1991,6 +2275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2012 DSE/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2012 DSE / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2012 DSE / Task 3 (Transcript) · 102 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2012%20DSE%2FTask%203%20(Transcript)"
@@ -1998,6 +2283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2012 DSE/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2012 DSE / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2012 DSE / Task 4 (Transcript) · 107 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2012%20DSE%2FTask%204%20(Transcript)"
@@ -2005,6 +2291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2013/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2013 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2013 / Task 1 (Transcript) · 124 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2013%2FTask%201%20(Transcript)"
@@ -2012,6 +2299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2013/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2013 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2013 / Task 2 (Transcript) · 159 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2013%2FTask%202%20(Transcript)"
@@ -2019,6 +2307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2013/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2013 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2013 / Task 3 (Transcript) · 97 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2013%2FTask%203%20(Transcript)"
@@ -2026,6 +2315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2013/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2013 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2013 / Task 4 (Transcript) · 106 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2013%2FTask%204%20(Transcript)"
@@ -2033,6 +2323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2014/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2014 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2014 / Task 1 (Transcript) · 110 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2014%2FTask%201%20(Transcript)"
@@ -2040,6 +2331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2014/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2014 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2014 / Task 2 (Transcript) · 97 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2014%2FTask%202%20(Transcript)"
@@ -2047,6 +2339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2014/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2014 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2014 / Task 3 (Transcript) · 132 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2014%2FTask%203%20(Transcript)"
@@ -2054,6 +2347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2014/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2014 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2014 / Task 4 (Transcript) · 177 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2014%2FTask%204%20(Transcript)"
@@ -2061,6 +2355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2015/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2015 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2015 / Task 1 (Transcript) · 32 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2015%2FTask%201%20(Transcript)"
@@ -2068,6 +2363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2015/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2015 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2015 / Task 2 (Transcript) · 48 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2015%2FTask%202%20(Transcript)"
@@ -2075,6 +2371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2015/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2015 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2015 / Task 3 (Transcript) · 106 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2015%2FTask%203%20(Transcript)"
@@ -2082,6 +2379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2015/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2015 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2015 / Task 4 (Transcript) · 85 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2015%2FTask%204%20(Transcript)"
@@ -2089,6 +2387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2016/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2016 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2016 / Task 1 (Transcript) · 84 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2016%2FTask%201%20(Transcript)"
@@ -2096,6 +2395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2016/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2016 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2016 / Task 2 (Transcript) · 91 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2016%2FTask%202%20(Transcript)"
@@ -2103,6 +2403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2016/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2016 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2016 / Task 3 (Transcript) · 92 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2016%2FTask%203%20(Transcript)"
@@ -2110,6 +2411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2016/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2016 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2016 / Task 4 (Transcript) · 88 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2016%2FTask%204%20(Transcript)"
@@ -2117,6 +2419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2017/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2017 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2017 / Task 1 (Transcript) · 104 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2017%2FTask%201%20(Transcript)"
@@ -2124,6 +2427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2017/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2017 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2017 / Task 2 (Transcript) · 105 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2017%2FTask%202%20(Transcript)"
@@ -2131,6 +2435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2017/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2017 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2017 / Task 3 (Transcript) · 104 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2017%2FTask%203%20(Transcript)"
@@ -2138,6 +2443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2017/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2017 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2017 / Task 4 (Transcript) · 115 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2017%2FTask%204%20(Transcript)"
@@ -2145,6 +2451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2018/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2018 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2018 / Task 1 (Transcript) · 85 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2018%2FTask%201%20(Transcript)"
@@ -2152,6 +2459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2018/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2018 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2018 / Task 2 (Transcript) · 122 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2018%2FTask%202%20(Transcript)"
@@ -2159,6 +2467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2018/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2018 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2018 / Task 3 (Transcript) · 128 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2018%2FTask%203%20(Transcript)"
@@ -2166,6 +2475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2018/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2018 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2018 / Task 4 (Transcript) · 95 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2018%2FTask%204%20(Transcript)"
@@ -2173,6 +2483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2019/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2019 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2019 / Task 1 (Transcript) · 81 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2019%2FTask%201%20(Transcript)"
@@ -2180,6 +2491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2019/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2019 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2019 / Task 2 (Transcript) · 116 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2019%2FTask%202%20(Transcript)"
@@ -2187,6 +2499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2019/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2019 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2019 / Task 3 (Transcript) · 88 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2019%2FTask%203%20(Transcript)"
@@ -2194,6 +2507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2019/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2019 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2019 / Task 4 (Transcript) · 122 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2019%2FTask%204%20(Transcript)"
@@ -2201,6 +2515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2020/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2020 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2020 / Task 1 (Transcript) · 93 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2020%2FTask%201%20(Transcript)"
@@ -2208,6 +2523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2020/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2020 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2020 / Task 2 (Transcript) · 141 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2020%2FTask%202%20(Transcript)"
@@ -2215,6 +2531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2020/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2020 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2020 / Task 3 (Transcript) · 122 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2020%2FTask%203%20(Transcript)"
@@ -2222,6 +2539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2020/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2020 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2020 / Task 4 (Transcript) · 138 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2020%2FTask%204%20(Transcript)"
@@ -2229,6 +2547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2021/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2021 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2021 / Task 1 (Transcript) · 69 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2021%2FTask%201%20(Transcript)"
@@ -2236,6 +2555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2021/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2021 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2021 / Task 2 (Transcript) · 99 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2021%2FTask%202%20(Transcript)"
@@ -2243,6 +2563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2021/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2021 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2021 / Task 3 (Transcript) · 123 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2021%2FTask%203%20(Transcript)"
@@ -2250,6 +2571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2021/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2021 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2021 / Task 4 (Transcript) · 141 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2021%2FTask%204%20(Transcript)"
@@ -2257,6 +2579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2022/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2022 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2022 / Task 1 (Transcript) · 77 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2022%2FTask%201%20(Transcript)"
@@ -2264,6 +2587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2022/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2022 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2022 / Task 2 (Transcript) · 133 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2022%2FTask%202%20(Transcript)"
@@ -2271,6 +2595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2022/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2022 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2022 / Task 3 (Transcript) · 120 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2022%2FTask%203%20(Transcript)"
@@ -2278,6 +2603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2022/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2022 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2022 / Task 4 (Transcript) · 136 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2022%2FTask%204%20(Transcript)"
@@ -2285,6 +2611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2023/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2023 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2023 / Task 1 (Transcript) · 69 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2023%2FTask%201%20(Transcript)"
@@ -2292,6 +2619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2023/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2023 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2023 / Task 2 (Transcript) · 111 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2023%2FTask%202%20(Transcript)"
@@ -2299,6 +2627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2023/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2023 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2023 / Task 3 (Transcript) · 115 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2023%2FTask%203%20(Transcript)"
@@ -2306,6 +2635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2023/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2023 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2023 / Task 4 (Transcript) · 128 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2023%2FTask%204%20(Transcript)"
@@ -2313,6 +2643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2024/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2024 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2024 / Task 1 (Transcript) · 82 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2024%2FTask%201%20(Transcript)"
@@ -2320,6 +2651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2024/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2024 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2024 / Task 2 (Transcript) · 121 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2024%2FTask%202%20(Transcript)"
@@ -2327,6 +2659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2024/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2024 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2024 / Task 3 (Transcript) · 121 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2024%2FTask%203%20(Transcript)"
@@ -2334,6 +2667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2024/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2024 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2024 / Task 4 (Transcript) · 141 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2024%2FTask%204%20(Transcript)"
@@ -2341,6 +2675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2025/Task 1 (Transcript)",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Paper 3 / Part A Listening / 2025 / Task 1 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2025 / Task 1 (Transcript) · 69 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2025%2FTask%201%20(Transcript)"
@@ -2348,6 +2683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2025/Task 2 (Transcript)",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Paper 3 / Part A Listening / 2025 / Task 2 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2025 / Task 2 (Transcript) · 129 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2025%2FTask%202%20(Transcript)"
@@ -2355,6 +2691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2025/Task 3 (Transcript)",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Paper 3 / Part A Listening / 2025 / Task 3 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2025 / Task 3 (Transcript) · 117 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2025%2FTask%203%20(Transcript)"
@@ -2362,6 +2699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-a-listening/2025/Task 4 (Transcript)",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Paper 3 / Part A Listening / 2025 / Task 4 (Transcript)",
     "detail": "DSE / Paper 3 / Part A Listening / 2025 / Task 4 (Transcript) · 128 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2025%2FTask%204%20(Transcript)"
@@ -2369,6 +2707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-b-data-file-b2/2024",
     "type": "flashcards",
+    "ordinal": 2024,
     "label": "DSE / Paper 3 / Part B Data File B2 / 2024",
     "detail": "DSE / Paper 3 / Part B Data File B2 / 2024 · 299 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2024"
@@ -2376,6 +2715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/part-b-data-file-b2/2025",
     "type": "flashcards",
+    "ordinal": 2025,
     "label": "DSE / Paper 3 / Part B Data File B2 / 2025",
     "detail": "DSE / Paper 3 / Part B Data File B2 / 2025 · 301 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2025"
@@ -2383,6 +2723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2012",
     "type": "flashcards",
+    "ordinal": 2012,
     "label": "DSE / Paper 3 / Podcast / 2012",
     "detail": "DSE / Paper 3 / Podcast / 2012 · 122 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2012"
@@ -2390,6 +2731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2013",
     "type": "flashcards",
+    "ordinal": 2013,
     "label": "DSE / Paper 3 / Podcast / 2013",
     "detail": "DSE / Paper 3 / Podcast / 2013 · 134 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2013"
@@ -2397,6 +2739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2014",
     "type": "flashcards",
+    "ordinal": 2014,
     "label": "DSE / Paper 3 / Podcast / 2014",
     "detail": "DSE / Paper 3 / Podcast / 2014 · 137 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2014"
@@ -2404,6 +2747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2015",
     "type": "flashcards",
+    "ordinal": 2015,
     "label": "DSE / Paper 3 / Podcast / 2015",
     "detail": "DSE / Paper 3 / Podcast / 2015 · 115 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2015"
@@ -2411,6 +2755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2016",
     "type": "flashcards",
+    "ordinal": 2016,
     "label": "DSE / Paper 3 / Podcast / 2016",
     "detail": "DSE / Paper 3 / Podcast / 2016 · 109 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2016"
@@ -2418,6 +2763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2017",
     "type": "flashcards",
+    "ordinal": 2017,
     "label": "DSE / Paper 3 / Podcast / 2017",
     "detail": "DSE / Paper 3 / Podcast / 2017 · 130 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2017"
@@ -2425,6 +2771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2018",
     "type": "flashcards",
+    "ordinal": 2018,
     "label": "DSE / Paper 3 / Podcast / 2018",
     "detail": "DSE / Paper 3 / Podcast / 2018 · 116 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2018"
@@ -2432,6 +2779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2019",
     "type": "flashcards",
+    "ordinal": 2019,
     "label": "DSE / Paper 3 / Podcast / 2019",
     "detail": "DSE / Paper 3 / Podcast / 2019 · 154 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2019"
@@ -2439,6 +2787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2020",
     "type": "flashcards",
+    "ordinal": 2020,
     "label": "DSE / Paper 3 / Podcast / 2020",
     "detail": "DSE / Paper 3 / Podcast / 2020 · 119 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2020"
@@ -2446,6 +2795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2021",
     "type": "flashcards",
+    "ordinal": 2021,
     "label": "DSE / Paper 3 / Podcast / 2021",
     "detail": "DSE / Paper 3 / Podcast / 2021 · 162 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2021"
@@ -2453,6 +2803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2022",
     "type": "flashcards",
+    "ordinal": 2022,
     "label": "DSE / Paper 3 / Podcast / 2022",
     "detail": "DSE / Paper 3 / Podcast / 2022 · 125 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2022"
@@ -2460,6 +2811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2024",
     "type": "flashcards",
+    "ordinal": 2024,
     "label": "DSE / Paper 3 / Podcast / 2024",
     "detail": "DSE / Paper 3 / Podcast / 2024 · 147 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2024"
@@ -2467,6 +2819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/paper-3/podcast/2025",
     "type": "flashcards",
+    "ordinal": 2025,
     "label": "DSE / Paper 3 / Podcast / 2025",
     "detail": "DSE / Paper 3 / Podcast / 2025 · 144 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2025"
@@ -2474,6 +2827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/3.1",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2012 DSE / Passage / 3.1",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 3.1 · 89 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F3.1"
@@ -2481,6 +2835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/3.2",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2012 DSE / Passage / 3.2",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 3.2 · 85 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F3.2"
@@ -2488,6 +2843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/3.3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2012 DSE / Passage / 3.3",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 3.3 · 68 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F3.3"
@@ -2495,6 +2851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/4.1",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2012 DSE / Passage / 4.1",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 4.1 · 70 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F4.1"
@@ -2502,6 +2859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/4.2",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2012 DSE / Passage / 4.2",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 4.2 · 66 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F4.2"
@@ -2509,6 +2867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/4.3",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2012 DSE / Passage / 4.3",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 4.3 · 65 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F4.3"
@@ -2516,6 +2875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/5.1",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2012 DSE / Passage / 5.1",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 5.1 · 101 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F5.1"
@@ -2523,6 +2883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/5.2",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2012 DSE / Passage / 5.2",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 5.2 · 83 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F5.2"
@@ -2530,6 +2891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/6.1",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2012 DSE / Passage / 6.1",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 6.1 · 35 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F6.1"
@@ -2537,6 +2899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/6.2",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2012 DSE / Passage / 6.2",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 6.2 · 37 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F6.2"
@@ -2544,6 +2907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2012 DSE/passage/6.3",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2012 DSE / Passage / 6.3",
     "detail": "DSE / Speaking / 2012 DSE / Passage / 6.3 · 26 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2012%20DSE%2Fpassage%2F6.3"
@@ -2551,6 +2915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/1.1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2013 / Passage / 1.1",
     "detail": "DSE / Speaking / 2013 / Passage / 1.1 · 65 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F1.1"
@@ -2558,6 +2923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/1.2",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2013 / Passage / 1.2",
     "detail": "DSE / Speaking / 2013 / Passage / 1.2 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F1.2"
@@ -2565,6 +2931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/1.3",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2013 / Passage / 1.3",
     "detail": "DSE / Speaking / 2013 / Passage / 1.3 · 72 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F1.3"
@@ -2572,6 +2939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/2.1",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2013 / Passage / 2.1",
     "detail": "DSE / Speaking / 2013 / Passage / 2.1 · 81 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F2.1"
@@ -2579,6 +2947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/2.2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2013 / Passage / 2.2",
     "detail": "DSE / Speaking / 2013 / Passage / 2.2 · 91 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F2.2"
@@ -2586,6 +2955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/2.3",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2013 / Passage / 2.3",
     "detail": "DSE / Speaking / 2013 / Passage / 2.3 · 80 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F2.3"
@@ -2593,6 +2963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/3.1",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2013 / Passage / 3.1",
     "detail": "DSE / Speaking / 2013 / Passage / 3.1 · 64 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F3.1"
@@ -2600,6 +2971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/3.2",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2013 / Passage / 3.2",
     "detail": "DSE / Speaking / 2013 / Passage / 3.2 · 82 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F3.2"
@@ -2607,6 +2979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/3.3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2013 / Passage / 3.3",
     "detail": "DSE / Speaking / 2013 / Passage / 3.3 · 65 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F3.3"
@@ -2614,6 +2987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/4.1",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2013 / Passage / 4.1",
     "detail": "DSE / Speaking / 2013 / Passage / 4.1 · 79 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F4.1"
@@ -2621,6 +2995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/4.2",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2013 / Passage / 4.2",
     "detail": "DSE / Speaking / 2013 / Passage / 4.2 · 83 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F4.2"
@@ -2628,6 +3003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/4.3",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2013 / Passage / 4.3",
     "detail": "DSE / Speaking / 2013 / Passage / 4.3 · 80 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F4.3"
@@ -2635,6 +3011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/5.2",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2013 / Passage / 5.2",
     "detail": "DSE / Speaking / 2013 / Passage / 5.2 · 62 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F5.2"
@@ -2642,6 +3019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/5.3",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2013 / Passage / 5.3",
     "detail": "DSE / Speaking / 2013 / Passage / 5.3 · 67 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F5.3"
@@ -2649,6 +3027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/6.1",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2013 / Passage / 6.1",
     "detail": "DSE / Speaking / 2013 / Passage / 6.1 · 67 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F6.1"
@@ -2656,6 +3035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/6.2",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2013 / Passage / 6.2",
     "detail": "DSE / Speaking / 2013 / Passage / 6.2 · 84 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F6.2"
@@ -2663,6 +3043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/6.3",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2013 / Passage / 6.3",
     "detail": "DSE / Speaking / 2013 / Passage / 6.3 · 85 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F6.3"
@@ -2670,6 +3051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/7.1",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2013 / Passage / 7.1",
     "detail": "DSE / Speaking / 2013 / Passage / 7.1 · 90 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F7.1"
@@ -2677,6 +3059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/7.2",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2013 / Passage / 7.2",
     "detail": "DSE / Speaking / 2013 / Passage / 7.2 · 59 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F7.2"
@@ -2684,6 +3067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/7.3",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2013 / Passage / 7.3",
     "detail": "DSE / Speaking / 2013 / Passage / 7.3 · 62 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F7.3"
@@ -2691,6 +3075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/8.1",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2013 / Passage / 8.1",
     "detail": "DSE / Speaking / 2013 / Passage / 8.1 · 77 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F8.1"
@@ -2698,6 +3083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/8.2",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2013 / Passage / 8.2",
     "detail": "DSE / Speaking / 2013 / Passage / 8.2 · 72 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F8.2"
@@ -2705,6 +3091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/8.3",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2013 / Passage / 8.3",
     "detail": "DSE / Speaking / 2013 / Passage / 8.3 · 77 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F8.3"
@@ -2712,6 +3099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/9.1",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2013 / Passage / 9.1",
     "detail": "DSE / Speaking / 2013 / Passage / 9.1 · 80 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F9.1"
@@ -2719,6 +3107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/9.2",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2013 / Passage / 9.2",
     "detail": "DSE / Speaking / 2013 / Passage / 9.2 · 74 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F9.2"
@@ -2726,6 +3115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/9.3",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2013 / Passage / 9.3",
     "detail": "DSE / Speaking / 2013 / Passage / 9.3 · 79 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F9.3"
@@ -2733,6 +3123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/10.1",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "DSE / Speaking / 2013 / Passage / 10.1",
     "detail": "DSE / Speaking / 2013 / Passage / 10.1 · 60 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F10.1"
@@ -2740,6 +3131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/10.2",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "DSE / Speaking / 2013 / Passage / 10.2",
     "detail": "DSE / Speaking / 2013 / Passage / 10.2 · 68 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F10.2"
@@ -2747,6 +3139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2013/passage/10.3",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "DSE / Speaking / 2013 / Passage / 10.3",
     "detail": "DSE / Speaking / 2013 / Passage / 10.3 · 76 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2013%2Fpassage%2F10.3"
@@ -2754,6 +3147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/1.1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2014 / Passage / 1.1",
     "detail": "DSE / Speaking / 2014 / Passage / 1.1 · 60 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F1.1"
@@ -2761,6 +3155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/1.2",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2014 / Passage / 1.2",
     "detail": "DSE / Speaking / 2014 / Passage / 1.2 · 84 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F1.2"
@@ -2768,6 +3163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/1.3",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2014 / Passage / 1.3",
     "detail": "DSE / Speaking / 2014 / Passage / 1.3 · 46 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F1.3"
@@ -2775,6 +3171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/2.1",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2014 / Passage / 2.1",
     "detail": "DSE / Speaking / 2014 / Passage / 2.1 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F2.1"
@@ -2782,6 +3179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/2.2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2014 / Passage / 2.2",
     "detail": "DSE / Speaking / 2014 / Passage / 2.2 · 62 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F2.2"
@@ -2789,6 +3187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/2.3",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2014 / Passage / 2.3",
     "detail": "DSE / Speaking / 2014 / Passage / 2.3 · 69 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F2.3"
@@ -2796,6 +3195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/3.1",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2014 / Passage / 3.1",
     "detail": "DSE / Speaking / 2014 / Passage / 3.1 · 55 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F3.1"
@@ -2803,6 +3203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/3.2",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2014 / Passage / 3.2",
     "detail": "DSE / Speaking / 2014 / Passage / 3.2 · 57 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F3.2"
@@ -2810,6 +3211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/3.3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2014 / Passage / 3.3",
     "detail": "DSE / Speaking / 2014 / Passage / 3.3 · 62 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F3.3"
@@ -2817,6 +3219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/4.1",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2014 / Passage / 4.1",
     "detail": "DSE / Speaking / 2014 / Passage / 4.1 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F4.1"
@@ -2824,6 +3227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/4.2",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2014 / Passage / 4.2",
     "detail": "DSE / Speaking / 2014 / Passage / 4.2 · 76 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F4.2"
@@ -2831,6 +3235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/4.3",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2014 / Passage / 4.3",
     "detail": "DSE / Speaking / 2014 / Passage / 4.3 · 52 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F4.3"
@@ -2838,6 +3243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/5.1",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2014 / Passage / 5.1",
     "detail": "DSE / Speaking / 2014 / Passage / 5.1 · 73 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F5.1"
@@ -2845,6 +3251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/5.2",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2014 / Passage / 5.2",
     "detail": "DSE / Speaking / 2014 / Passage / 5.2 · 69 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F5.2"
@@ -2852,6 +3259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/5.3",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2014 / Passage / 5.3",
     "detail": "DSE / Speaking / 2014 / Passage / 5.3 · 70 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F5.3"
@@ -2859,6 +3267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/6.1",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2014 / Passage / 6.1",
     "detail": "DSE / Speaking / 2014 / Passage / 6.1 · 78 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F6.1"
@@ -2866,6 +3275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/6.2",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2014 / Passage / 6.2",
     "detail": "DSE / Speaking / 2014 / Passage / 6.2 · 46 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F6.2"
@@ -2873,6 +3283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/6.3",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2014 / Passage / 6.3",
     "detail": "DSE / Speaking / 2014 / Passage / 6.3 · 58 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F6.3"
@@ -2880,6 +3291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/7.1",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2014 / Passage / 7.1",
     "detail": "DSE / Speaking / 2014 / Passage / 7.1 · 68 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F7.1"
@@ -2887,6 +3299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/7.2",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2014 / Passage / 7.2",
     "detail": "DSE / Speaking / 2014 / Passage / 7.2 · 66 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F7.2"
@@ -2894,6 +3307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/7.3",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2014 / Passage / 7.3",
     "detail": "DSE / Speaking / 2014 / Passage / 7.3 · 82 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F7.3"
@@ -2901,6 +3315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/8.1",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2014 / Passage / 8.1",
     "detail": "DSE / Speaking / 2014 / Passage / 8.1 · 76 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F8.1"
@@ -2908,6 +3323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/8.2",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2014 / Passage / 8.2",
     "detail": "DSE / Speaking / 2014 / Passage / 8.2 · 67 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F8.2"
@@ -2915,6 +3331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/8.3",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2014 / Passage / 8.3",
     "detail": "DSE / Speaking / 2014 / Passage / 8.3 · 53 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F8.3"
@@ -2922,6 +3339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/9.2",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2014 / Passage / 9.2",
     "detail": "DSE / Speaking / 2014 / Passage / 9.2 · 68 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F9.2"
@@ -2929,6 +3347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/9.3",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2014 / Passage / 9.3",
     "detail": "DSE / Speaking / 2014 / Passage / 9.3 · 79 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F9.3"
@@ -2936,6 +3355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/10.1",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "DSE / Speaking / 2014 / Passage / 10.1",
     "detail": "DSE / Speaking / 2014 / Passage / 10.1 · 75 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F10.1"
@@ -2943,6 +3363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/10.2",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "DSE / Speaking / 2014 / Passage / 10.2",
     "detail": "DSE / Speaking / 2014 / Passage / 10.2 · 74 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F10.2"
@@ -2950,6 +3371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2014/passage/10.3",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "DSE / Speaking / 2014 / Passage / 10.3",
     "detail": "DSE / Speaking / 2014 / Passage / 10.3 · 75 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2014%2Fpassage%2F10.3"
@@ -2957,6 +3379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/1.1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2015 / Passage / 1.1",
     "detail": "DSE / Speaking / 2015 / Passage / 1.1 · 80 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F1.1"
@@ -2964,6 +3387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/1.2",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2015 / Passage / 1.2",
     "detail": "DSE / Speaking / 2015 / Passage / 1.2 · 81 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F1.2"
@@ -2971,6 +3395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/1.3",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2015 / Passage / 1.3",
     "detail": "DSE / Speaking / 2015 / Passage / 1.3 · 63 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F1.3"
@@ -2978,6 +3403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/2.1",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2015 / Passage / 2.1",
     "detail": "DSE / Speaking / 2015 / Passage / 2.1 · 77 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F2.1"
@@ -2985,6 +3411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/2.2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2015 / Passage / 2.2",
     "detail": "DSE / Speaking / 2015 / Passage / 2.2 · 114 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F2.2"
@@ -2992,6 +3419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/2.3",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2015 / Passage / 2.3",
     "detail": "DSE / Speaking / 2015 / Passage / 2.3 · 90 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F2.3"
@@ -2999,6 +3427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/3.1",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2015 / Passage / 3.1",
     "detail": "DSE / Speaking / 2015 / Passage / 3.1 · 90 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F3.1"
@@ -3006,6 +3435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/3.2",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2015 / Passage / 3.2",
     "detail": "DSE / Speaking / 2015 / Passage / 3.2 · 94 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F3.2"
@@ -3013,6 +3443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/3.3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2015 / Passage / 3.3",
     "detail": "DSE / Speaking / 2015 / Passage / 3.3 · 108 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F3.3"
@@ -3020,6 +3451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/4.1",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2015 / Passage / 4.1",
     "detail": "DSE / Speaking / 2015 / Passage / 4.1 · 104 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F4.1"
@@ -3027,6 +3459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/4.2",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2015 / Passage / 4.2",
     "detail": "DSE / Speaking / 2015 / Passage / 4.2 · 103 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F4.2"
@@ -3034,6 +3467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/4.3",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2015 / Passage / 4.3",
     "detail": "DSE / Speaking / 2015 / Passage / 4.3 · 100 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F4.3"
@@ -3041,6 +3475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/5.1",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2015 / Passage / 5.1",
     "detail": "DSE / Speaking / 2015 / Passage / 5.1 · 75 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F5.1"
@@ -3048,6 +3483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/5.2",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2015 / Passage / 5.2",
     "detail": "DSE / Speaking / 2015 / Passage / 5.2 · 67 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F5.2"
@@ -3055,6 +3491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/5.3",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2015 / Passage / 5.3",
     "detail": "DSE / Speaking / 2015 / Passage / 5.3 · 78 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F5.3"
@@ -3062,6 +3499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/6.1",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2015 / Passage / 6.1",
     "detail": "DSE / Speaking / 2015 / Passage / 6.1 · 114 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F6.1"
@@ -3069,6 +3507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/6.2",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2015 / Passage / 6.2",
     "detail": "DSE / Speaking / 2015 / Passage / 6.2 · 114 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F6.2"
@@ -3076,6 +3515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/6.3",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2015 / Passage / 6.3",
     "detail": "DSE / Speaking / 2015 / Passage / 6.3 · 84 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F6.3"
@@ -3083,6 +3523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/7.1",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2015 / Passage / 7.1",
     "detail": "DSE / Speaking / 2015 / Passage / 7.1 · 114 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F7.1"
@@ -3090,6 +3531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/7.2",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2015 / Passage / 7.2",
     "detail": "DSE / Speaking / 2015 / Passage / 7.2 · 78 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F7.2"
@@ -3097,6 +3539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/7.3",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2015 / Passage / 7.3",
     "detail": "DSE / Speaking / 2015 / Passage / 7.3 · 59 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F7.3"
@@ -3104,6 +3547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/8.1",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2015 / Passage / 8.1",
     "detail": "DSE / Speaking / 2015 / Passage / 8.1 · 85 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F8.1"
@@ -3111,6 +3555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/8.2",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2015 / Passage / 8.2",
     "detail": "DSE / Speaking / 2015 / Passage / 8.2 · 102 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F8.2"
@@ -3118,6 +3563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/8.3",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2015 / Passage / 8.3",
     "detail": "DSE / Speaking / 2015 / Passage / 8.3 · 92 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F8.3"
@@ -3125,6 +3571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/9.1",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2015 / Passage / 9.1",
     "detail": "DSE / Speaking / 2015 / Passage / 9.1 · 91 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F9.1"
@@ -3132,6 +3579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/9.2",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2015 / Passage / 9.2",
     "detail": "DSE / Speaking / 2015 / Passage / 9.2 · 92 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F9.2"
@@ -3139,6 +3587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2015/passage/9.3",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2015 / Passage / 9.3",
     "detail": "DSE / Speaking / 2015 / Passage / 9.3 · 77 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2015%2Fpassage%2F9.3"
@@ -3146,6 +3595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/2.1",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2016 / Passage / 2.1",
     "detail": "DSE / Speaking / 2016 / Passage / 2.1 · 98 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F2.1"
@@ -3153,6 +3603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/2.2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2016 / Passage / 2.2",
     "detail": "DSE / Speaking / 2016 / Passage / 2.2 · 79 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F2.2"
@@ -3160,6 +3611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/2.3",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2016 / Passage / 2.3",
     "detail": "DSE / Speaking / 2016 / Passage / 2.3 · 77 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F2.3"
@@ -3167,6 +3619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/3.1",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2016 / Passage / 3.1",
     "detail": "DSE / Speaking / 2016 / Passage / 3.1 · 79 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F3.1"
@@ -3174,6 +3627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/3.2",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2016 / Passage / 3.2",
     "detail": "DSE / Speaking / 2016 / Passage / 3.2 · 66 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F3.2"
@@ -3181,6 +3635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/3.3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2016 / Passage / 3.3",
     "detail": "DSE / Speaking / 2016 / Passage / 3.3 · 54 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F3.3"
@@ -3188,6 +3643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/4.1",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2016 / Passage / 4.1",
     "detail": "DSE / Speaking / 2016 / Passage / 4.1 · 68 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F4.1"
@@ -3195,6 +3651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/4.2",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2016 / Passage / 4.2",
     "detail": "DSE / Speaking / 2016 / Passage / 4.2 · 100 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F4.2"
@@ -3202,6 +3659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/4.3",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2016 / Passage / 4.3",
     "detail": "DSE / Speaking / 2016 / Passage / 4.3 · 87 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F4.3"
@@ -3209,6 +3667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/5.1",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2016 / Passage / 5.1",
     "detail": "DSE / Speaking / 2016 / Passage / 5.1 · 86 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F5.1"
@@ -3216,6 +3675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/5.2",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2016 / Passage / 5.2",
     "detail": "DSE / Speaking / 2016 / Passage / 5.2 · 82 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F5.2"
@@ -3223,6 +3683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/5.3",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2016 / Passage / 5.3",
     "detail": "DSE / Speaking / 2016 / Passage / 5.3 · 69 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F5.3"
@@ -3230,6 +3691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/6.1",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2016 / Passage / 6.1",
     "detail": "DSE / Speaking / 2016 / Passage / 6.1 · 64 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F6.1"
@@ -3237,6 +3699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/6.2",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2016 / Passage / 6.2",
     "detail": "DSE / Speaking / 2016 / Passage / 6.2 · 71 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F6.2"
@@ -3244,6 +3707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/6.3",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2016 / Passage / 6.3",
     "detail": "DSE / Speaking / 2016 / Passage / 6.3 · 95 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F6.3"
@@ -3251,6 +3715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/7.1",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2016 / Passage / 7.1",
     "detail": "DSE / Speaking / 2016 / Passage / 7.1 · 94 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F7.1"
@@ -3258,6 +3723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/7.2",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2016 / Passage / 7.2",
     "detail": "DSE / Speaking / 2016 / Passage / 7.2 · 85 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F7.2"
@@ -3265,6 +3731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/7.3",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2016 / Passage / 7.3",
     "detail": "DSE / Speaking / 2016 / Passage / 7.3 · 84 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F7.3"
@@ -3272,6 +3739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/8.1",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2016 / Passage / 8.1",
     "detail": "DSE / Speaking / 2016 / Passage / 8.1 · 68 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F8.1"
@@ -3279,6 +3747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/8.2",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2016 / Passage / 8.2",
     "detail": "DSE / Speaking / 2016 / Passage / 8.2 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F8.2"
@@ -3286,6 +3755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/8.3",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2016 / Passage / 8.3",
     "detail": "DSE / Speaking / 2016 / Passage / 8.3 · 79 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F8.3"
@@ -3293,6 +3763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/9.1",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2016 / Passage / 9.1",
     "detail": "DSE / Speaking / 2016 / Passage / 9.1 · 98 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F9.1"
@@ -3300,6 +3771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/9.2",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2016 / Passage / 9.2",
     "detail": "DSE / Speaking / 2016 / Passage / 9.2 · 90 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F9.2"
@@ -3307,6 +3779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2016/passage/9.3",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "DSE / Speaking / 2016 / Passage / 9.3",
     "detail": "DSE / Speaking / 2016 / Passage / 9.3 · 92 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2016%2Fpassage%2F9.3"
@@ -3314,6 +3787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/1.1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2017 / Passage / 1.1",
     "detail": "DSE / Speaking / 2017 / Passage / 1.1 · 78 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F1.1"
@@ -3321,6 +3795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/1.2",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2017 / Passage / 1.2",
     "detail": "DSE / Speaking / 2017 / Passage / 1.2 · 66 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F1.2"
@@ -3328,6 +3803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/1.3",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2017 / Passage / 1.3",
     "detail": "DSE / Speaking / 2017 / Passage / 1.3 · 68 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F1.3"
@@ -3335,6 +3811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/2.1",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2017 / Passage / 2.1",
     "detail": "DSE / Speaking / 2017 / Passage / 2.1 · 65 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F2.1"
@@ -3342,6 +3819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/2.2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2017 / Passage / 2.2",
     "detail": "DSE / Speaking / 2017 / Passage / 2.2 · 65 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F2.2"
@@ -3349,6 +3827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/2.3",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2017 / Passage / 2.3",
     "detail": "DSE / Speaking / 2017 / Passage / 2.3 · 65 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F2.3"
@@ -3356,6 +3835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/3.1",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2017 / Passage / 3.1",
     "detail": "DSE / Speaking / 2017 / Passage / 3.1 · 69 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F3.1"
@@ -3363,6 +3843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/3.2",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2017 / Passage / 3.2",
     "detail": "DSE / Speaking / 2017 / Passage / 3.2 · 88 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F3.2"
@@ -3370,6 +3851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/3.3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2017 / Passage / 3.3",
     "detail": "DSE / Speaking / 2017 / Passage / 3.3 · 77 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F3.3"
@@ -3377,6 +3859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/4.1",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2017 / Passage / 4.1",
     "detail": "DSE / Speaking / 2017 / Passage / 4.1 · 70 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F4.1"
@@ -3384,6 +3867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/4.2",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2017 / Passage / 4.2",
     "detail": "DSE / Speaking / 2017 / Passage / 4.2 · 70 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F4.2"
@@ -3391,6 +3875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/4.3",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2017 / Passage / 4.3",
     "detail": "DSE / Speaking / 2017 / Passage / 4.3 · 72 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F4.3"
@@ -3398,6 +3883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/5.1",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2017 / Passage / 5.1",
     "detail": "DSE / Speaking / 2017 / Passage / 5.1 · 65 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F5.1"
@@ -3405,6 +3891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/5.2",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2017 / Passage / 5.2",
     "detail": "DSE / Speaking / 2017 / Passage / 5.2 · 66 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F5.2"
@@ -3412,6 +3899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/5.3",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2017 / Passage / 5.3",
     "detail": "DSE / Speaking / 2017 / Passage / 5.3 · 85 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F5.3"
@@ -3419,6 +3907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/6.1",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2017 / Passage / 6.1",
     "detail": "DSE / Speaking / 2017 / Passage / 6.1 · 82 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F6.1"
@@ -3426,6 +3915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/6.2",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2017 / Passage / 6.2",
     "detail": "DSE / Speaking / 2017 / Passage / 6.2 · 72 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F6.2"
@@ -3433,6 +3923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/6.3",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2017 / Passage / 6.3",
     "detail": "DSE / Speaking / 2017 / Passage / 6.3 · 71 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F6.3"
@@ -3440,6 +3931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/7.1",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2017 / Passage / 7.1",
     "detail": "DSE / Speaking / 2017 / Passage / 7.1 · 55 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F7.1"
@@ -3447,6 +3939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/7.2",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2017 / Passage / 7.2",
     "detail": "DSE / Speaking / 2017 / Passage / 7.2 · 66 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F7.2"
@@ -3454,6 +3947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/7.3",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2017 / Passage / 7.3",
     "detail": "DSE / Speaking / 2017 / Passage / 7.3 · 90 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F7.3"
@@ -3461,6 +3955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/8.1",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2017 / Passage / 8.1",
     "detail": "DSE / Speaking / 2017 / Passage / 8.1 · 93 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F8.1"
@@ -3468,6 +3963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/8.2",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2017 / Passage / 8.2",
     "detail": "DSE / Speaking / 2017 / Passage / 8.2 · 75 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F8.2"
@@ -3475,6 +3971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2017/passage/8.3",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2017 / Passage / 8.3",
     "detail": "DSE / Speaking / 2017 / Passage / 8.3 · 88 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2017%2Fpassage%2F8.3"
@@ -3482,6 +3979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/1.1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2018 / Passage / 1.1",
     "detail": "DSE / Speaking / 2018 / Passage / 1.1 · 68 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F1.1"
@@ -3489,6 +3987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/1.2",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2018 / Passage / 1.2",
     "detail": "DSE / Speaking / 2018 / Passage / 1.2 · 58 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F1.2"
@@ -3496,6 +3995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/1.3",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2018 / Passage / 1.3",
     "detail": "DSE / Speaking / 2018 / Passage / 1.3 · 78 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F1.3"
@@ -3503,6 +4003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/2.1",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2018 / Passage / 2.1",
     "detail": "DSE / Speaking / 2018 / Passage / 2.1 · 59 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F2.1"
@@ -3510,6 +4011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/2.2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2018 / Passage / 2.2",
     "detail": "DSE / Speaking / 2018 / Passage / 2.2 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F2.2"
@@ -3517,6 +4019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/2.3",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2018 / Passage / 2.3",
     "detail": "DSE / Speaking / 2018 / Passage / 2.3 · 62 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F2.3"
@@ -3524,6 +4027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/3.1",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2018 / Passage / 3.1",
     "detail": "DSE / Speaking / 2018 / Passage / 3.1 · 82 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F3.1"
@@ -3531,6 +4035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/3.2",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2018 / Passage / 3.2",
     "detail": "DSE / Speaking / 2018 / Passage / 3.2 · 77 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F3.2"
@@ -3538,6 +4043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/3.3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2018 / Passage / 3.3",
     "detail": "DSE / Speaking / 2018 / Passage / 3.3 · 64 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F3.3"
@@ -3545,6 +4051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/4.1",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2018 / Passage / 4.1",
     "detail": "DSE / Speaking / 2018 / Passage / 4.1 · 60 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F4.1"
@@ -3552,6 +4059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/4.2",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2018 / Passage / 4.2",
     "detail": "DSE / Speaking / 2018 / Passage / 4.2 · 46 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F4.2"
@@ -3559,6 +4067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/4.3",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2018 / Passage / 4.3",
     "detail": "DSE / Speaking / 2018 / Passage / 4.3 · 66 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F4.3"
@@ -3566,6 +4075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/5.1",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2018 / Passage / 5.1",
     "detail": "DSE / Speaking / 2018 / Passage / 5.1 · 58 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F5.1"
@@ -3573,6 +4083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/5.2",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2018 / Passage / 5.2",
     "detail": "DSE / Speaking / 2018 / Passage / 5.2 · 55 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F5.2"
@@ -3580,6 +4091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/5.3",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2018 / Passage / 5.3",
     "detail": "DSE / Speaking / 2018 / Passage / 5.3 · 73 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F5.3"
@@ -3587,6 +4099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/6.1",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2018 / Passage / 6.1",
     "detail": "DSE / Speaking / 2018 / Passage / 6.1 · 55 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F6.1"
@@ -3594,6 +4107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/6.2",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2018 / Passage / 6.2",
     "detail": "DSE / Speaking / 2018 / Passage / 6.2 · 57 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F6.2"
@@ -3601,6 +4115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/6.3",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2018 / Passage / 6.3",
     "detail": "DSE / Speaking / 2018 / Passage / 6.3 · 73 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F6.3"
@@ -3608,6 +4123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/7.1",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2018 / Passage / 7.1",
     "detail": "DSE / Speaking / 2018 / Passage / 7.1 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F7.1"
@@ -3615,6 +4131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/7.2",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2018 / Passage / 7.2",
     "detail": "DSE / Speaking / 2018 / Passage / 7.2 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F7.2"
@@ -3622,6 +4139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/7.3",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2018 / Passage / 7.3",
     "detail": "DSE / Speaking / 2018 / Passage / 7.3 · 70 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F7.3"
@@ -3629,6 +4147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/8.1",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2018 / Passage / 8.1",
     "detail": "DSE / Speaking / 2018 / Passage / 8.1 · 63 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F8.1"
@@ -3636,6 +4155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/8.2",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2018 / Passage / 8.2",
     "detail": "DSE / Speaking / 2018 / Passage / 8.2 · 66 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F8.2"
@@ -3643,6 +4163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2018/passage/8.3",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2018 / Passage / 8.3",
     "detail": "DSE / Speaking / 2018 / Passage / 8.3 · 60 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2018%2Fpassage%2F8.3"
@@ -3650,6 +4171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/1.1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2019 / Passage / 1.1",
     "detail": "DSE / Speaking / 2019 / Passage / 1.1 · 65 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F1.1"
@@ -3657,6 +4179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/1.2",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2019 / Passage / 1.2",
     "detail": "DSE / Speaking / 2019 / Passage / 1.2 · 70 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F1.2"
@@ -3664,6 +4187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/1.3",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2019 / Passage / 1.3",
     "detail": "DSE / Speaking / 2019 / Passage / 1.3 · 60 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F1.3"
@@ -3671,6 +4195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/2.1",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2019 / Passage / 2.1",
     "detail": "DSE / Speaking / 2019 / Passage / 2.1 · 58 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F2.1"
@@ -3678,6 +4203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/2.2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2019 / Passage / 2.2",
     "detail": "DSE / Speaking / 2019 / Passage / 2.2 · 62 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F2.2"
@@ -3685,6 +4211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/2.3",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2019 / Passage / 2.3",
     "detail": "DSE / Speaking / 2019 / Passage / 2.3 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F2.3"
@@ -3692,6 +4219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/3.1",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2019 / Passage / 3.1",
     "detail": "DSE / Speaking / 2019 / Passage / 3.1 · 66 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F3.1"
@@ -3699,6 +4227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/3.2",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2019 / Passage / 3.2",
     "detail": "DSE / Speaking / 2019 / Passage / 3.2 · 65 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F3.2"
@@ -3706,6 +4235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/3.3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2019 / Passage / 3.3",
     "detail": "DSE / Speaking / 2019 / Passage / 3.3 · 54 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F3.3"
@@ -3713,6 +4243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/4.1",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2019 / Passage / 4.1",
     "detail": "DSE / Speaking / 2019 / Passage / 4.1 · 58 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F4.1"
@@ -3720,6 +4251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/4.2",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2019 / Passage / 4.2",
     "detail": "DSE / Speaking / 2019 / Passage / 4.2 · 64 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F4.2"
@@ -3727,6 +4259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/4.3",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2019 / Passage / 4.3",
     "detail": "DSE / Speaking / 2019 / Passage / 4.3 · 59 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F4.3"
@@ -3734,6 +4267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/5.1",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2019 / Passage / 5.1",
     "detail": "DSE / Speaking / 2019 / Passage / 5.1 · 63 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F5.1"
@@ -3741,6 +4275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/5.2",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2019 / Passage / 5.2",
     "detail": "DSE / Speaking / 2019 / Passage / 5.2 · 57 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F5.2"
@@ -3748,6 +4283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/5.3",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2019 / Passage / 5.3",
     "detail": "DSE / Speaking / 2019 / Passage / 5.3 · 63 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F5.3"
@@ -3755,6 +4291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/6.1",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2019 / Passage / 6.1",
     "detail": "DSE / Speaking / 2019 / Passage / 6.1 · 60 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F6.1"
@@ -3762,6 +4299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/6.2",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2019 / Passage / 6.2",
     "detail": "DSE / Speaking / 2019 / Passage / 6.2 · 66 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F6.2"
@@ -3769,6 +4307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/6.3",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2019 / Passage / 6.3",
     "detail": "DSE / Speaking / 2019 / Passage / 6.3 · 64 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F6.3"
@@ -3776,6 +4315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/7.1",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2019 / Passage / 7.1",
     "detail": "DSE / Speaking / 2019 / Passage / 7.1 · 53 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F7.1"
@@ -3783,6 +4323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/7.2",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2019 / Passage / 7.2",
     "detail": "DSE / Speaking / 2019 / Passage / 7.2 · 59 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F7.2"
@@ -3790,6 +4331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/7.3",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2019 / Passage / 7.3",
     "detail": "DSE / Speaking / 2019 / Passage / 7.3 · 62 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F7.3"
@@ -3797,6 +4339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/8.1",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2019 / Passage / 8.1",
     "detail": "DSE / Speaking / 2019 / Passage / 8.1 · 57 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F8.1"
@@ -3804,6 +4347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/8.2",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2019 / Passage / 8.2",
     "detail": "DSE / Speaking / 2019 / Passage / 8.2 · 60 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F8.2"
@@ -3811,6 +4355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2019/passage/8.3",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2019 / Passage / 8.3",
     "detail": "DSE / Speaking / 2019 / Passage / 8.3 · 63 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2019%2Fpassage%2F8.3"
@@ -3818,6 +4363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/edmunds-notes/2.2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2023 / Edmunds Notes / 2.2",
     "detail": "DSE / Speaking / 2023 / Edmunds Notes / 2.2 · 155 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fedmunds-notes%2F2.2"
@@ -3825,6 +4371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/1.1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2023 / Passage / 1.1",
     "detail": "DSE / Speaking / 2023 / Passage / 1.1 · 46 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F1.1"
@@ -3832,6 +4379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/1.2",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2023 / Passage / 1.2",
     "detail": "DSE / Speaking / 2023 / Passage / 1.2 · 56 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F1.2"
@@ -3839,6 +4387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/1.3",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "DSE / Speaking / 2023 / Passage / 1.3",
     "detail": "DSE / Speaking / 2023 / Passage / 1.3 · 56 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F1.3"
@@ -3846,6 +4395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/2.1",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2023 / Passage / 2.1",
     "detail": "DSE / Speaking / 2023 / Passage / 2.1 · 70 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F2.1"
@@ -3853,6 +4403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/2.2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2023 / Passage / 2.2",
     "detail": "DSE / Speaking / 2023 / Passage / 2.2 · 48 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F2.2"
@@ -3860,6 +4411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/2.3",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "DSE / Speaking / 2023 / Passage / 2.3",
     "detail": "DSE / Speaking / 2023 / Passage / 2.3 · 69 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F2.3"
@@ -3867,6 +4419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/3.1",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2023 / Passage / 3.1",
     "detail": "DSE / Speaking / 2023 / Passage / 3.1 · 63 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F3.1"
@@ -3874,6 +4427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/3.2",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2023 / Passage / 3.2",
     "detail": "DSE / Speaking / 2023 / Passage / 3.2 · 60 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F3.2"
@@ -3881,6 +4435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/3.3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Speaking / 2023 / Passage / 3.3",
     "detail": "DSE / Speaking / 2023 / Passage / 3.3 · 60 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F3.3"
@@ -3888,6 +4443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/4.1",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2023 / Passage / 4.1",
     "detail": "DSE / Speaking / 2023 / Passage / 4.1 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F4.1"
@@ -3895,6 +4451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/4.2",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2023 / Passage / 4.2",
     "detail": "DSE / Speaking / 2023 / Passage / 4.2 · 64 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F4.2"
@@ -3902,6 +4459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/4.3",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "DSE / Speaking / 2023 / Passage / 4.3",
     "detail": "DSE / Speaking / 2023 / Passage / 4.3 · 58 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F4.3"
@@ -3909,6 +4467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/5.1",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2023 / Passage / 5.1",
     "detail": "DSE / Speaking / 2023 / Passage / 5.1 · 63 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F5.1"
@@ -3916,6 +4475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/5.2",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2023 / Passage / 5.2",
     "detail": "DSE / Speaking / 2023 / Passage / 5.2 · 68 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F5.2"
@@ -3923,6 +4483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/5.3",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Speaking / 2023 / Passage / 5.3",
     "detail": "DSE / Speaking / 2023 / Passage / 5.3 · 53 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F5.3"
@@ -3930,6 +4491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/6.1",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2023 / Passage / 6.1",
     "detail": "DSE / Speaking / 2023 / Passage / 6.1 · 52 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F6.1"
@@ -3937,6 +4499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/6.2",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2023 / Passage / 6.2",
     "detail": "DSE / Speaking / 2023 / Passage / 6.2 · 70 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F6.2"
@@ -3944,6 +4507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/6.3",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "DSE / Speaking / 2023 / Passage / 6.3",
     "detail": "DSE / Speaking / 2023 / Passage / 6.3 · 57 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F6.3"
@@ -3951,6 +4515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/7.1",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2023 / Passage / 7.1",
     "detail": "DSE / Speaking / 2023 / Passage / 7.1 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F7.1"
@@ -3958,6 +4523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/7.2",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2023 / Passage / 7.2",
     "detail": "DSE / Speaking / 2023 / Passage / 7.2 · 61 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F7.2"
@@ -3965,6 +4531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/7.3",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "DSE / Speaking / 2023 / Passage / 7.3",
     "detail": "DSE / Speaking / 2023 / Passage / 7.3 · 56 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F7.3"
@@ -3972,6 +4539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/8.1",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2023 / Passage / 8.1",
     "detail": "DSE / Speaking / 2023 / Passage / 8.1 · 58 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F8.1"
@@ -3979,6 +4547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/speaking/2023/passage/8.2",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "DSE / Speaking / 2023 / Passage / 8.2",
     "detail": "DSE / Speaking / 2023 / Passage / 8.2 · 62 cards",
     "url": "flashcards.html?deck=dse%2Fspeaking%2F2023%2Fpassage%2F8.2"
@@ -3986,6 +4555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2012",
     "type": "flashcards",
+    "ordinal": 2012,
     "label": "DSE / Writing / Part A / 2012",
     "detail": "DSE / Writing / Part A / 2012 · 53 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2012"
@@ -3993,6 +4563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2013",
     "type": "flashcards",
+    "ordinal": 2013,
     "label": "DSE / Writing / Part A / 2013",
     "detail": "DSE / Writing / Part A / 2013 · 59 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2013"
@@ -4000,6 +4571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2014",
     "type": "flashcards",
+    "ordinal": 2014,
     "label": "DSE / Writing / Part A / 2014",
     "detail": "DSE / Writing / Part A / 2014 · 58 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2014"
@@ -4007,6 +4579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2015",
     "type": "flashcards",
+    "ordinal": 2015,
     "label": "DSE / Writing / Part A / 2015",
     "detail": "DSE / Writing / Part A / 2015 · 101 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2015"
@@ -4014,6 +4587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2016",
     "type": "flashcards",
+    "ordinal": 2016,
     "label": "DSE / Writing / Part A / 2016",
     "detail": "DSE / Writing / Part A / 2016 · 53 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2016"
@@ -4021,6 +4595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2017",
     "type": "flashcards",
+    "ordinal": 2017,
     "label": "DSE / Writing / Part A / 2017",
     "detail": "DSE / Writing / Part A / 2017 · 53 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2017"
@@ -4028,6 +4603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2018",
     "type": "flashcards",
+    "ordinal": 2018,
     "label": "DSE / Writing / Part A / 2018",
     "detail": "DSE / Writing / Part A / 2018 · 57 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2018"
@@ -4035,6 +4611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2019",
     "type": "flashcards",
+    "ordinal": 2019,
     "label": "DSE / Writing / Part A / 2019",
     "detail": "DSE / Writing / Part A / 2019 · 55 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2019"
@@ -4042,6 +4619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2020",
     "type": "flashcards",
+    "ordinal": 2020,
     "label": "DSE / Writing / Part A / 2020",
     "detail": "DSE / Writing / Part A / 2020 · 57 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2020"
@@ -4049,6 +4627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2021",
     "type": "flashcards",
+    "ordinal": 2021,
     "label": "DSE / Writing / Part A / 2021",
     "detail": "DSE / Writing / Part A / 2021 · 47 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2021"
@@ -4056,6 +4635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2022",
     "type": "flashcards",
+    "ordinal": 2022,
     "label": "DSE / Writing / Part A / 2022",
     "detail": "DSE / Writing / Part A / 2022 · 57 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2022"
@@ -4063,6 +4643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2023",
     "type": "flashcards",
+    "ordinal": 2023,
     "label": "DSE / Writing / Part A / 2023",
     "detail": "DSE / Writing / Part A / 2023 · 48 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2023"
@@ -4070,6 +4651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2024",
     "type": "flashcards",
+    "ordinal": 2024,
     "label": "DSE / Writing / Part A / 2024",
     "detail": "DSE / Writing / Part A / 2024 · 49 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2024"
@@ -4077,6 +4659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-a/2025",
     "type": "flashcards",
+    "ordinal": 2025,
     "label": "DSE / Writing / Part A / 2025",
     "detail": "DSE / Writing / Part A / 2025 · 50 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-a%2F2025"
@@ -4084,6 +4667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-b/2022/Q3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Writing / Part B / 2022 / Q3",
     "detail": "DSE / Writing / Part B / 2022 / Q3 · 144 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-b%2F2022%2FQ3"
@@ -4091,6 +4675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-b/2024/Q5",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "DSE / Writing / Part B / 2024 / Q5",
     "detail": "DSE / Writing / Part B / 2024 / Q5 · 178 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-b%2F2024%2FQ5"
@@ -4098,6 +4683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:dse/writing/part-b/2025/Q3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "DSE / Writing / Part B / 2025 / Q3",
     "detail": "DSE / Writing / Part B / 2025 / Q3 · 143 cards",
     "url": "flashcards.html?deck=dse%2Fwriting%2Fpart-b%2F2025%2FQ3"
@@ -4105,6 +4691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q6",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "Due to the development and rapid expansion of supermarkets in some countries, many small, local business are unable to compete. Some people think that the closure of local business",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q6 · 74 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q6"
@@ -4112,6 +4699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q15",
     "type": "flashcards",
+    "ordinal": 15,
     "label": "Eco-tourism usually involves people visiting remote areas. Some people think this will have a negative impact on local cultures and communities. What problems can result from eco-t",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q15 · 76 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q15"
@@ -4119,6 +4707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q40",
     "type": "flashcards",
+    "ordinal": 40,
     "label": "Education should be accessible to people of all economic backgrounds. All levels of education, from primary school to tertiary education, should be free. To what extent do you agre",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q40 · 61 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q40"
@@ -4126,6 +4715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q86",
     "type": "flashcards",
+    "ordinal": 86,
     "label": "Ensuring that children have regular physical exercise should be the responsibility of parents and therefore schools should not waste valuable school time having sports lessons as p",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q86 · 66 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q86"
@@ -4133,6 +4723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q38",
     "type": "flashcards",
+    "ordinal": 38,
     "label": "Every culture, throughout time, has recorded its history in one way or another. In what ways can history be passed on to the next generation? Why is history important to society?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q38 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q38"
@@ -4140,6 +4731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q11",
     "type": "flashcards",
+    "ordinal": 11,
     "label": "Fewer schools are requiring children to learn and improve their hand writing skills. Do the advantages outweigh the disadvantages of this trend?",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q11 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q11"
@@ -4147,6 +4739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q45",
     "type": "flashcards",
+    "ordinal": 45,
     "label": "Finding job satisfaction is considered to be a luxury in many developing countries. Why do you think that is? Do you think job satisfaction is important?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q45 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q45"
@@ -4154,6 +4747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q100",
     "type": "flashcards",
+    "ordinal": 100,
     "label": "First impressions are important. Some people think that doing well in interviews is the key to securing a good job. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q100 · 54 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q100"
@@ -4161,6 +4755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q36",
     "type": "flashcards",
+    "ordinal": 36,
     "label": "For centuries, important parts of education have remained such as reading, writing and maths. With the advent of computers, some people think that computer skill should be made as ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q36 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q36"
@@ -4168,6 +4763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q47",
     "type": "flashcards",
+    "ordinal": 47,
     "label": "Getting promotion is one of the biggest drives for people to apply themselves and work hard in the modern workplace. Why do you think people are so driven to get a promotion? What ",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q47 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q47"
@@ -4175,6 +4771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q8",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "Global warming is one of the biggest threats to our environment. What causes global warming? What solutions are there to this problem?",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q8 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q8"
@@ -4182,6 +4779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q19",
     "type": "flashcards",
+    "ordinal": 19,
     "label": "Globalisation has both advantages and disadvantages. Discuss both and give your opinion.",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q19 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q19"
@@ -4189,6 +4787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q1",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q1 · 30 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq1"
@@ -4196,6 +4795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q2",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q2 · 20 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq2"
@@ -4203,6 +4803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q3",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q3 · 24 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq3"
@@ -4210,6 +4811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q4",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q4",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q4 · 25 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq4"
@@ -4217,6 +4819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q5",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q5",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q5 · 28 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq5"
@@ -4224,6 +4827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q6",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q6",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q6 · 24 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq6"
@@ -4231,6 +4835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q7",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q7",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q7 · 25 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq7"
@@ -4238,6 +4843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q8",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q8",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q8 · 26 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq8"
@@ -4245,6 +4851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q9",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q9",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q9 · 23 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq9"
@@ -4252,6 +4859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q10",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q10",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q10 · 25 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq10"
@@ -4259,6 +4867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q11",
     "type": "flashcards",
+    "ordinal": 11,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q11",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q11 · 24 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq11"
@@ -4266,6 +4875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q12",
     "type": "flashcards",
+    "ordinal": 12,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q12",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q12 · 22 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq12"
@@ -4273,6 +4883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q13",
     "type": "flashcards",
+    "ordinal": 13,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q13",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q13 · 25 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq13"
@@ -4280,6 +4891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q14",
     "type": "flashcards",
+    "ordinal": 14,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q14",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q14 · 27 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq14"
@@ -4287,6 +4899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q15",
     "type": "flashcards",
+    "ordinal": 15,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q15",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q15 · 28 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq15"
@@ -4294,6 +4907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q16",
     "type": "flashcards",
+    "ordinal": 16,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q16",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q16 · 28 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq16"
@@ -4301,6 +4915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q17",
     "type": "flashcards",
+    "ordinal": 17,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q17",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q17 · 24 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq17"
@@ -4308,6 +4923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q18",
     "type": "flashcards",
+    "ordinal": 18,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q18",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q18 · 29 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq18"
@@ -4315,6 +4931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q19",
     "type": "flashcards",
+    "ordinal": 19,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q19",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q19 · 34 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq19"
@@ -4322,6 +4939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q20",
     "type": "flashcards",
+    "ordinal": 20,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q20",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q20 · 24 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq20"
@@ -4329,6 +4947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q21",
     "type": "flashcards",
+    "ordinal": 21,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q21",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q21 · 42 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq21"
@@ -4336,6 +4955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q22",
     "type": "flashcards",
+    "ordinal": 22,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q22",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q22 · 41 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq22"
@@ -4343,6 +4963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q23",
     "type": "flashcards",
+    "ordinal": 23,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q23",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q23 · 33 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq23"
@@ -4350,6 +4971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q24",
     "type": "flashcards",
+    "ordinal": 24,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q24",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q24 · 29 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq24"
@@ -4357,6 +4979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q25",
     "type": "flashcards",
+    "ordinal": 25,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q25",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q25 · 32 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq25"
@@ -4364,6 +4987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q26",
     "type": "flashcards",
+    "ordinal": 26,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q26",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q26 · 51 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq26"
@@ -4371,6 +4995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q27",
     "type": "flashcards",
+    "ordinal": 27,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q27",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q27 · 40 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq27"
@@ -4378,6 +5003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q28",
     "type": "flashcards",
+    "ordinal": 28,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q28",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q28 · 29 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq28"
@@ -4385,6 +5011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q29",
     "type": "flashcards",
+    "ordinal": 29,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q29",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q29 · 38 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq29"
@@ -4392,6 +5019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/interview-keys/set-1/q30",
     "type": "flashcards",
+    "ordinal": 30,
     "label": "Government / HKPF / Interview Keys / Set 1 / Q30",
     "detail": "Government / HKPF / Interview Keys / Set 1 / Q30 · 30 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Finterview-keys%2Fset-1%2Fq30"
@@ -4399,6 +5027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/writing-composition/composition-4",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "Government / HKPF / Writing Composition / Composition 4",
     "detail": "Government / HKPF / Writing Composition / Composition 4 · 111 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Fwriting-composition%2Fcomposition-4"
@@ -4406,6 +5035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/writing-composition/composition-5",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "Government / HKPF / Writing Composition / Composition 5",
     "detail": "Government / HKPF / Writing Composition / Composition 5 · 79 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Fwriting-composition%2Fcomposition-5"
@@ -4413,6 +5043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:government/hkpf/writing-composition/composition-6",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "Government / HKPF / Writing Composition / Composition 6",
     "detail": "Government / HKPF / Writing Composition / Composition 6 · 75 cards",
     "url": "flashcards.html?deck=government%2Fhkpf%2Fwriting-composition%2Fcomposition-6"
@@ -4420,6 +5051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q58",
     "type": "flashcards",
+    "ordinal": 58,
     "label": "Health care should not be provided for free regardless of a person’s income. The health of a person is in their own hands and they should, therefore, be held accountable for that. ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q58 · 33 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q58"
@@ -4427,6 +5059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q19",
     "type": "flashcards",
+    "ordinal": 19,
     "label": "Human activity has had a negative impact on plants and animals around the world. Some people think that this cannot be changed, while others believe actions can be taken to bring a",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q19 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q19"
@@ -4434,6 +5067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/listening/Practice 1/part-1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "IELTS / Listening / Practice 1 / Part 1",
     "detail": "IELTS / Listening / Practice 1 / Part 1 · 153 cards",
     "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%201%2Fpart-1"
@@ -4441,6 +5075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/listening/Practice 1/part-2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "IELTS / Listening / Practice 1 / Part 2",
     "detail": "IELTS / Listening / Practice 1 / Part 2 · 176 cards",
     "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%201%2Fpart-2"
@@ -4448,6 +5083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/listening/Practice 1/part-3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "IELTS / Listening / Practice 1 / Part 3",
     "detail": "IELTS / Listening / Practice 1 / Part 3 · 164 cards",
     "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%201%2Fpart-3"
@@ -4455,6 +5091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/listening/Practice 1/part-4",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "IELTS / Listening / Practice 1 / Part 4",
     "detail": "IELTS / Listening / Practice 1 / Part 4 · 182 cards",
     "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%201%2Fpart-4"
@@ -4462,6 +5099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "IELTS / Reading / Passage 1 / Practice 1",
     "detail": "IELTS / Reading / Passage 1 / Practice 1 · 140 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%201"
@@ -4469,6 +5107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "IELTS / Reading / Passage 1 / Practice 2 — Turtles",
     "detail": "IELTS / Reading / Passage 1 / Practice 2 · 156 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%202"
@@ -4476,6 +5115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "IELTS / Reading / Passage 1 / Practice 3 — Plain English Campaign",
     "detail": "IELTS / Reading / Passage 1 / Practice 3 · 175 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%203"
@@ -4483,6 +5123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 4",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "IELTS / Reading / Passage 1 / Practice 4 — It’s Only a Cockroach",
     "detail": "IELTS / Reading / Passage 1 / Practice 4 · 164 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%204"
@@ -4490,6 +5131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 5",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "IELTS / Reading / Passage 1 / Practice 5 — Pine Trees",
     "detail": "IELTS / Reading / Passage 1 / Practice 5 · 193 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%205"
@@ -4497,6 +5139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 6",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "IELTS / Reading / Passage 1 / Practice 6 — Make That Wine!",
     "detail": "IELTS / Reading / Passage 1 / Practice 6 · 156 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%206"
@@ -4504,6 +5147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 7",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "IELTS / Reading / Passage 1 / Practice 7 — AUSTRALIA’S PLATYPUS",
     "detail": "IELTS / Reading / Passage 1 / Practice 7 · 168 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%207"
@@ -4511,6 +5155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 8",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "IELTS / Reading / Passage 1 / Practice 8 — The Eisriesenwelt Ice Caves",
     "detail": "IELTS / Reading / Passage 1 / Practice 8 · 216 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%208"
@@ -4518,6 +5163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 9",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "IELTS / Reading / Passage 1 / Practice 9 — FLIGHT OF THE HONEYBEE",
     "detail": "IELTS / Reading / Passage 1 / Practice 9 · 150 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%209"
@@ -4525,6 +5171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 11",
     "type": "flashcards",
+    "ordinal": 11,
     "label": "IELTS / Reading / Passage 1 / Practice 11 — THE LOCH NESS MONSTER",
     "detail": "IELTS / Reading / Passage 1 / Practice 11 · 179 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2011"
@@ -4532,6 +5179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 12",
     "type": "flashcards",
+    "ordinal": 12,
     "label": "IELTS / Reading / Passage 1 / Practice 12 — MOUNT EVEREST AND HILLARY",
     "detail": "IELTS / Reading / Passage 1 / Practice 12 · 153 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2012"
@@ -4539,6 +5187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 13",
     "type": "flashcards",
+    "ordinal": 13,
     "label": "IELTS / Reading / Passage 1 / Practice 13 — HOT AIR BALLOONING",
     "detail": "IELTS / Reading / Passage 1 / Practice 13 · 176 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2013"
@@ -4546,6 +5195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 14",
     "type": "flashcards",
+    "ordinal": 14,
     "label": "IELTS / Reading / Passage 1 / Practice 14 — MOBILE PHONES AND DRIVING",
     "detail": "IELTS / Reading / Passage 1 / Practice 14 · 145 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2014"
@@ -4553,6 +5203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 15",
     "type": "flashcards",
+    "ordinal": 15,
     "label": "IELTS / Reading / Passage 1 / Practice 15 — Depression",
     "detail": "IELTS / Reading / Passage 1 / Practice 15 · 191 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2015"
@@ -4560,6 +5211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 17",
     "type": "flashcards",
+    "ordinal": 17,
     "label": "IELTS / Reading / Passage 1 / Practice 17 — Cleaner, Abundant Fuels Attracting Record Investment",
     "detail": "IELTS / Reading / Passage 1 / Practice 17 · 179 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2017"
@@ -4567,6 +5219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 18",
     "type": "flashcards",
+    "ordinal": 18,
     "label": "IELTS / Reading / Passage 1 / Practice 18 — THE EVOLUTION OF LANGUAGE",
     "detail": "IELTS / Reading / Passage 1 / Practice 18 · 196 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2018"
@@ -4574,6 +5227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 19",
     "type": "flashcards",
+    "ordinal": 19,
     "label": "IELTS / Reading / Passage 1 / Practice 19 — Animal Minds: Parrot Alex",
     "detail": "IELTS / Reading / Passage 1 / Practice 19 · 236 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2019"
@@ -4581,6 +5235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 20",
     "type": "flashcards",
+    "ordinal": 20,
     "label": "IELTS / Reading / Passage 1 / Practice 20 — The psychology in Happiness",
     "detail": "IELTS / Reading / Passage 1 / Practice 20 · 221 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2020"
@@ -4588,6 +5243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 21",
     "type": "flashcards",
+    "ordinal": 21,
     "label": "IELTS / Reading / Passage 1 / Practice 21 — Mammoth kill",
     "detail": "IELTS / Reading / Passage 1 / Practice 21 · 188 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2021"
@@ -4595,6 +5251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 22",
     "type": "flashcards",
+    "ordinal": 22,
     "label": "IELTS / Reading / Passage 1 / Practice 22 — Foot Pedal Irrigation",
     "detail": "IELTS / Reading / Passage 1 / Practice 22 · 181 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2022"
@@ -4602,6 +5259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 23",
     "type": "flashcards",
+    "ordinal": 23,
     "label": "IELTS / Reading / Passage 1 / Practice 23 — POLLUTING SOUNDS: IN SEARCH OF SILENCE",
     "detail": "IELTS / Reading / Passage 1 / Practice 23 · 194 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2023"
@@ -4609,6 +5267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 24",
     "type": "flashcards",
+    "ordinal": 24,
     "label": "IELTS / Reading / Passage 1 / Practice 24 — Synaesthesia",
     "detail": "IELTS / Reading / Passage 1 / Practice 24 · 169 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2024"
@@ -4616,6 +5275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 25",
     "type": "flashcards",
+    "ordinal": 25,
     "label": "IELTS / Reading / Passage 1 / Practice 25 — The Invention of Television",
     "detail": "IELTS / Reading / Passage 1 / Practice 25 · 146 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2025"
@@ -4623,6 +5283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 28",
     "type": "flashcards",
+    "ordinal": 28,
     "label": "IELTS / Reading / Passage 1 / Practice 28 — Learning by Examples",
     "detail": "IELTS / Reading / Passage 1 / Practice 28 · 198 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2028"
@@ -4630,6 +5291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 29",
     "type": "flashcards",
+    "ordinal": 29,
     "label": "IELTS / Reading / Passage 1 / Practice 29 — The Mozart Effect",
     "detail": "IELTS / Reading / Passage 1 / Practice 29 · 177 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2029"
@@ -4637,6 +5299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 30",
     "type": "flashcards",
+    "ordinal": 30,
     "label": "IELTS / Reading / Passage 1 / Practice 30 — A Wonder Plant",
     "detail": "IELTS / Reading / Passage 1 / Practice 30 · 220 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2030"
@@ -4644,6 +5307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 31",
     "type": "flashcards",
+    "ordinal": 31,
     "label": "IELTS / Reading / Passage 1 / Practice 31 — The Sweet Scent of Success",
     "detail": "IELTS / Reading / Passage 1 / Practice 31 · 202 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2031"
@@ -4651,6 +5315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 32",
     "type": "flashcards",
+    "ordinal": 32,
     "label": "IELTS / Reading / Passage 1 / Practice 32 — New Zealand Seaweed",
     "detail": "IELTS / Reading / Passage 1 / Practice 32 · 200 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2032"
@@ -4658,6 +5323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 34",
     "type": "flashcards",
+    "ordinal": 34,
     "label": "IELTS / Reading / Passage 1 / Practice 34 — Going Bananas",
     "detail": "IELTS / Reading / Passage 1 / Practice 34 · 256 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2034"
@@ -4665,6 +5331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 35",
     "type": "flashcards",
+    "ordinal": 35,
     "label": "IELTS / Reading / Passage 1 / Practice 35 — Dirty River But Clean Water",
     "detail": "IELTS / Reading / Passage 1 / Practice 35 · 170 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2035"
@@ -4672,6 +5339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 36",
     "type": "flashcards",
+    "ordinal": 36,
     "label": "IELTS / Reading / Passage 1 / Practice 36 — The Impact of the Potato",
     "detail": "IELTS / Reading / Passage 1 / Practice 36 · 225 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2036"
@@ -4679,6 +5347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 37",
     "type": "flashcards",
+    "ordinal": 37,
     "label": "IELTS / Reading / Passage 1 / Practice 37 — Review of Research on the Effects of Food Promotion to Children",
     "detail": "IELTS / Reading / Passage 1 / Practice 37 · 191 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2037"
@@ -4686,6 +5355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 38",
     "type": "flashcards",
+    "ordinal": 38,
     "label": "IELTS / Reading / Passage 1 / Practice 38 — The Forgotten Forest",
     "detail": "IELTS / Reading / Passage 1 / Practice 38 · 242 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2038"
@@ -4693,6 +5363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 39",
     "type": "flashcards",
+    "ordinal": 39,
     "label": "IELTS / Reading / Passage 1 / Practice 39 — CLASSIFYING SOCIETIES",
     "detail": "IELTS / Reading / Passage 1 / Practice 39 · 175 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2039"
@@ -4700,6 +5371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 40",
     "type": "flashcards",
+    "ordinal": 40,
     "label": "IELTS / Reading / Passage 1 / Practice 40 — Otters",
     "detail": "IELTS / Reading / Passage 1 / Practice 40 · 237 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2040"
@@ -4707,6 +5379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 41",
     "type": "flashcards",
+    "ordinal": 41,
     "label": "IELTS / Reading / Passage 1 / Practice 41 — Morse Code",
     "detail": "IELTS / Reading / Passage 1 / Practice 41 · 178 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2041"
@@ -4714,6 +5387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 42",
     "type": "flashcards",
+    "ordinal": 42,
     "label": "IELTS / Reading / Passage 1 / Practice 42 — Thomas Young The Last True Know-It-All",
     "detail": "IELTS / Reading / Passage 1 / Practice 42 · 201 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2042"
@@ -4721,6 +5395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 43",
     "type": "flashcards",
+    "ordinal": 43,
     "label": "IELTS / Reading / Passage 1 / Practice 43 — Ancient Chinese Chariots",
     "detail": "IELTS / Reading / Passage 1 / Practice 43 · 159 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2043"
@@ -4728,6 +5403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 44",
     "type": "flashcards",
+    "ordinal": 44,
     "label": "IELTS / Reading / Passage 1 / Practice 44 — Voyage of Going: Beyond the Blue Line",
     "detail": "IELTS / Reading / Passage 1 / Practice 44 · 254 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2044"
@@ -4735,6 +5411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 45",
     "type": "flashcards",
+    "ordinal": 45,
     "label": "IELTS / Reading / Passage 1 / Practice 45 — T-Rex: Hunter or Scavenger?",
     "detail": "IELTS / Reading / Passage 1 / Practice 45 · 188 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2045"
@@ -4742,6 +5419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 46",
     "type": "flashcards",
+    "ordinal": 46,
     "label": "IELTS / Reading / Passage 1 / Practice 46 — Ants Could Teach Ants",
     "detail": "IELTS / Reading / Passage 1 / Practice 46 · 190 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2046"
@@ -4749,6 +5427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 47",
     "type": "flashcards",
+    "ordinal": 47,
     "label": "IELTS / Reading / Passage 1 / Practice 47 — Computer Games for Preschoolers: Nintendo’s Research and Design Process",
     "detail": "IELTS / Reading / Passage 1 / Practice 47 · 218 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2047"
@@ -4756,6 +5435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 48",
     "type": "flashcards",
+    "ordinal": 48,
     "label": "IELTS / Reading / Passage 1 / Practice 48 — What Do Managers Really Do?",
     "detail": "IELTS / Reading / Passage 1 / Practice 48 · 201 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2048"
@@ -4763,6 +5443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 49",
     "type": "flashcards",
+    "ordinal": 49,
     "label": "IELTS / Reading / Passage 1 / Practice 49 — The Extraordinary Watkin Tench",
     "detail": "IELTS / Reading / Passage 1 / Practice 49 · 163 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2049"
@@ -4770,6 +5451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 50",
     "type": "flashcards",
+    "ordinal": 50,
     "label": "IELTS / Reading / Passage 1 / Practice 50 — Radiocarbon Dating – The Profile of Nancy Athfield",
     "detail": "IELTS / Reading / Passage 1 / Practice 50 · 177 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2050"
@@ -4777,6 +5459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 51",
     "type": "flashcards",
+    "ordinal": 51,
     "label": "IELTS / Reading / Passage 1 / Practice 51 — The “Extinct” Grass in Britain",
     "detail": "IELTS / Reading / Passage 1 / Practice 51 · 242 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2051"
@@ -4784,6 +5467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 52",
     "type": "flashcards",
+    "ordinal": 52,
     "label": "IELTS / Reading / Passage 1 / Practice 52 — The Connection Between Culture and Thought",
     "detail": "IELTS / Reading / Passage 1 / Practice 52 · 174 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2052"
@@ -4791,6 +5475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 53",
     "type": "flashcards",
+    "ordinal": 53,
     "label": "IELTS / Reading / Passage 1 / Practice 53 — Happy",
     "detail": "IELTS / Reading / Passage 1 / Practice 53 · 210 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2053"
@@ -4798,6 +5483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 54",
     "type": "flashcards",
+    "ordinal": 54,
     "label": "IELTS / Reading / Passage 1 / Practice 54 — The Concept of Childhood in Western Countries",
     "detail": "IELTS / Reading / Passage 1 / Practice 54 · 197 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2054"
@@ -4805,6 +5491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 55",
     "type": "flashcards",
+    "ordinal": 55,
     "label": "IELTS / Reading / Passage 1 / Practice 55 — The Innovation of Grocery Stores",
     "detail": "IELTS / Reading / Passage 1 / Practice 55 · 125 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2055"
@@ -4812,6 +5499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 56",
     "type": "flashcards",
+    "ordinal": 56,
     "label": "IELTS / Reading / Passage 1 / Practice 56 — Timekeeper: Invention of Marine Chronometer",
     "detail": "IELTS / Reading / Passage 1 / Practice 56 · 164 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2056"
@@ -4819,6 +5507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 57",
     "type": "flashcards",
+    "ordinal": 57,
     "label": "IELTS / Reading / Passage 1 / Practice 57 — Education Philosophy",
     "detail": "IELTS / Reading / Passage 1 / Practice 57 · 204 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2057"
@@ -4826,6 +5515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 58",
     "type": "flashcards",
+    "ordinal": 58,
     "label": "IELTS / Reading / Passage 1 / Practice 58 — The Pearl",
     "detail": "IELTS / Reading / Passage 1 / Practice 58 · 160 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2058"
@@ -4833,6 +5523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 59",
     "type": "flashcards",
+    "ordinal": 59,
     "label": "IELTS / Reading / Passage 1 / Practice 59 — History of Refrigeration",
     "detail": "IELTS / Reading / Passage 1 / Practice 59 · 257 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2059"
@@ -4840,6 +5531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 60",
     "type": "flashcards",
+    "ordinal": 60,
     "label": "IELTS / Reading / Passage 1 / Practice 60 — FLIGHT OF THE HONEYBEE",
     "detail": "IELTS / Reading / Passage 1 / Practice 60 · 191 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2060"
@@ -4847,6 +5539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 61",
     "type": "flashcards",
+    "ordinal": 61,
     "label": "IELTS / Reading / Passage 1 / Practice 61 — THE NATURE OF ADDICTION",
     "detail": "IELTS / Reading / Passage 1 / Practice 61 · 178 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2061"
@@ -4854,6 +5547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 62",
     "type": "flashcards",
+    "ordinal": 62,
     "label": "IELTS / Reading / Passage 1 / Practice 62 — LOOKING IN THE TELESCOPE",
     "detail": "IELTS / Reading / Passage 1 / Practice 62 · 139 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2062"
@@ -4861,6 +5555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 63",
     "type": "flashcards",
+    "ordinal": 63,
     "label": "IELTS / Reading / Passage 1 / Practice 63 — THE LOCH NESS MONSTER",
     "detail": "IELTS / Reading / Passage 1 / Practice 63 · 177 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2063"
@@ -4868,6 +5563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 64",
     "type": "flashcards",
+    "ordinal": 64,
     "label": "IELTS / Reading / Passage 1 / Practice 64 — Money Transfers by Mobile",
     "detail": "IELTS / Reading / Passage 1 / Practice 64 · 152 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2064"
@@ -4875,6 +5571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 65",
     "type": "flashcards",
+    "ordinal": 65,
     "label": "IELTS / Reading / Passage 1 / Practice 65 — Secret of Thailand’s Success?",
     "detail": "IELTS / Reading / Passage 1 / Practice 65 · 177 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2065"
@@ -4882,6 +5579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 66",
     "type": "flashcards",
+    "ordinal": 66,
     "label": "IELTS / Reading / Passage 1 / Practice 66 — Sleepy Students Perform Worse",
     "detail": "IELTS / Reading / Passage 1 / Practice 66 · 153 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2066"
@@ -4889,6 +5587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 67",
     "type": "flashcards",
+    "ordinal": 67,
     "label": "IELTS / Reading / Passage 1 / Practice 67 — Spot the Difference",
     "detail": "IELTS / Reading / Passage 1 / Practice 67 · 177 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2067"
@@ -4896,6 +5595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 68",
     "type": "flashcards",
+    "ordinal": 68,
     "label": "IELTS / Reading / Passage 1 / Practice 68 — Daydreaming",
     "detail": "IELTS / Reading / Passage 1 / Practice 68 · 110 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2068"
@@ -4903,6 +5603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 69",
     "type": "flashcards",
+    "ordinal": 69,
     "label": "IELTS / Reading / Passage 1 / Practice 69 — ALBERT EINSTEIN",
     "detail": "IELTS / Reading / Passage 1 / Practice 69 · 115 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2069"
@@ -4910,6 +5611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 70",
     "type": "flashcards",
+    "ordinal": 70,
     "label": "IELTS / Reading / Passage 1 / Practice 70 — Prison: The Solution or the Problem?",
     "detail": "IELTS / Reading / Passage 1 / Practice 70 · 169 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2070"
@@ -4917,6 +5619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 71",
     "type": "flashcards",
+    "ordinal": 71,
     "label": "IELTS / Reading / Passage 1 / Practice 71 — 3D Printers",
     "detail": "IELTS / Reading / Passage 1 / Practice 71 · 151 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2071"
@@ -4924,6 +5627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 72",
     "type": "flashcards",
+    "ordinal": 72,
     "label": "IELTS / Reading / Passage 1 / Practice 72 — Survivor from the sky",
     "detail": "IELTS / Reading / Passage 1 / Practice 72 · 144 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2072"
@@ -4931,6 +5635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 73",
     "type": "flashcards",
+    "ordinal": 73,
     "label": "IELTS / Reading / Passage 1 / Practice 73 — PLEASE HOLD THE LINE",
     "detail": "IELTS / Reading / Passage 1 / Practice 73 · 121 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2073"
@@ -4938,6 +5643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 74",
     "type": "flashcards",
+    "ordinal": 74,
     "label": "IELTS / Reading / Passage 1 / Practice 74 — Sleeping on the job",
     "detail": "IELTS / Reading / Passage 1 / Practice 74 · 165 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2074"
@@ -4945,6 +5651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 75",
     "type": "flashcards",
+    "ordinal": 75,
     "label": "IELTS / Reading / Passage 1 / Practice 75 — Frogwatch",
     "detail": "IELTS / Reading / Passage 1 / Practice 75 · 176 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2075"
@@ -4952,6 +5659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 76",
     "type": "flashcards",
+    "ordinal": 76,
     "label": "IELTS / Reading / Passage 1 / Practice 76 — Wolves, dogs and humans",
     "detail": "IELTS / Reading / Passage 1 / Practice 76 · 155 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2076"
@@ -4959,6 +5667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 77",
     "type": "flashcards",
+    "ordinal": 77,
     "label": "IELTS / Reading / Passage 1 / Practice 77 — Lake Vostok",
     "detail": "IELTS / Reading / Passage 1 / Practice 77 · 182 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2077"
@@ -4966,6 +5675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 78",
     "type": "flashcards",
+    "ordinal": 78,
     "label": "IELTS / Reading / Passage 1 / Practice 78 — Hello Happiness!",
     "detail": "IELTS / Reading / Passage 1 / Practice 78 · 211 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2078"
@@ -4973,6 +5683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 79",
     "type": "flashcards",
+    "ordinal": 79,
     "label": "IELTS / Reading / Passage 1 / Practice 79 — PROJECT: Reform Of The Prison System In The UK",
     "detail": "IELTS / Reading / Passage 1 / Practice 79 · 229 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2079"
@@ -4980,6 +5691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 80",
     "type": "flashcards",
+    "ordinal": 80,
     "label": "IELTS / Reading / Passage 1 / Practice 80 — ALTERNATIVE ENERGY SOURCES",
     "detail": "IELTS / Reading / Passage 1 / Practice 80 · 209 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2080"
@@ -4987,6 +5699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 81",
     "type": "flashcards",
+    "ordinal": 81,
     "label": "IELTS / Reading / Passage 1 / Practice 81 — CONTROLLING DEATHWATCH BEETLES",
     "detail": "IELTS / Reading / Passage 1 / Practice 81 · 191 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2081"
@@ -4994,6 +5707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 82",
     "type": "flashcards",
+    "ordinal": 82,
     "label": "IELTS / Reading / Passage 1 / Practice 82 — GRAFFITI",
     "detail": "IELTS / Reading / Passage 1 / Practice 82 · 267 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2082"
@@ -5001,6 +5715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 83",
     "type": "flashcards",
+    "ordinal": 83,
     "label": "IELTS / Reading / Passage 1 / Practice 83 — The Final Frontier for Tourism",
     "detail": "IELTS / Reading / Passage 1 / Practice 83 · 155 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2083"
@@ -5008,6 +5723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 84",
     "type": "flashcards",
+    "ordinal": 84,
     "label": "IELTS / Reading / Passage 1 / Practice 84 — Taking us back to the Paradise City",
     "detail": "IELTS / Reading / Passage 1 / Practice 84 · 168 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2084"
@@ -5015,6 +5731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 85",
     "type": "flashcards",
+    "ordinal": 85,
     "label": "IELTS / Reading / Passage 1 / Practice 85 — If at first you don’t succeed…",
     "detail": "IELTS / Reading / Passage 1 / Practice 85 · 180 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2085"
@@ -5022,6 +5739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 86",
     "type": "flashcards",
+    "ordinal": 86,
     "label": "IELTS / Reading / Passage 1 / Practice 86 — Could You Pass Me My Glasses, Please?",
     "detail": "IELTS / Reading / Passage 1 / Practice 86 · 197 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2086"
@@ -5029,6 +5747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 87",
     "type": "flashcards",
+    "ordinal": 87,
     "label": "IELTS / Reading / Passage 1 / Practice 87 — The Spice of Life!",
     "detail": "IELTS / Reading / Passage 1 / Practice 87 · 230 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2087"
@@ -5036,6 +5755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 88",
     "type": "flashcards",
+    "ordinal": 88,
     "label": "IELTS / Reading / Passage 1 / Practice 88 — It’s Dynamite",
     "detail": "IELTS / Reading / Passage 1 / Practice 88 · 192 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2088"
@@ -5043,6 +5763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 89",
     "type": "flashcards",
+    "ordinal": 89,
     "label": "IELTS / Reading / Passage 1 / Practice 89 — The Search for Colour",
     "detail": "IELTS / Reading / Passage 1 / Practice 89 · 220 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2089"
@@ -5050,6 +5771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 90",
     "type": "flashcards",
+    "ordinal": 90,
     "label": "IELTS / Reading / Passage 1 / Practice 90 — The King of Fruits",
     "detail": "IELTS / Reading / Passage 1 / Practice 90 · 195 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2090"
@@ -5057,6 +5779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 91",
     "type": "flashcards",
+    "ordinal": 91,
     "label": "IELTS / Reading / Passage 1 / Practice 91 — An Essential Intermediary",
     "detail": "IELTS / Reading / Passage 1 / Practice 91 · 157 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2091"
@@ -5064,6 +5787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 92",
     "type": "flashcards",
+    "ordinal": 92,
     "label": "IELTS / Reading / Passage 1 / Practice 92 — If You Can Get Used to the Taste",
     "detail": "IELTS / Reading / Passage 1 / Practice 92 · 157 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2092"
@@ -5071,6 +5795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 93",
     "type": "flashcards",
+    "ordinal": 93,
     "label": "IELTS / Reading / Passage 1 / Practice 93 — Family Names",
     "detail": "IELTS / Reading / Passage 1 / Practice 93 · 175 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2093"
@@ -5078,6 +5803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 94",
     "type": "flashcards",
+    "ordinal": 94,
     "label": "IELTS / Reading / Passage 1 / Practice 94 — Fordlandia",
     "detail": "IELTS / Reading / Passage 1 / Practice 94 · 196 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2094"
@@ -5085,6 +5811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 95",
     "type": "flashcards",
+    "ordinal": 95,
     "label": "IELTS / Reading / Passage 1 / Practice 95 — Climate Change: Instant Expert",
     "detail": "IELTS / Reading / Passage 1 / Practice 95 · 180 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2095"
@@ -5092,6 +5819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 96",
     "type": "flashcards",
+    "ordinal": 96,
     "label": "IELTS / Reading / Passage 1 / Practice 96 — Coming of Age",
     "detail": "IELTS / Reading / Passage 1 / Practice 96 · 159 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2096"
@@ -5099,6 +5827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 97",
     "type": "flashcards",
+    "ordinal": 97,
     "label": "IELTS / Reading / Passage 1 / Practice 97 — Fix it with Flavour",
     "detail": "IELTS / Reading / Passage 1 / Practice 97 · 152 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2097"
@@ -5106,6 +5835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 98",
     "type": "flashcards",
+    "ordinal": 98,
     "label": "IELTS / Reading / Passage 1 / Practice 98 — From Hand to Mouth",
     "detail": "IELTS / Reading / Passage 1 / Practice 98 · 167 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2098"
@@ -5113,6 +5843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 99",
     "type": "flashcards",
+    "ordinal": 99,
     "label": "IELTS / Reading / Passage 1 / Practice 99 — From SunnyD and Pizza to Bread and Water",
     "detail": "IELTS / Reading / Passage 1 / Practice 99 · 161 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2099"
@@ -5120,6 +5851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 100",
     "type": "flashcards",
+    "ordinal": 100,
     "label": "IELTS / Reading / Passage 1 / Practice 100 — India’s Modern Women",
     "detail": "IELTS / Reading / Passage 1 / Practice 100 · 184 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20100"
@@ -5127,6 +5859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 101",
     "type": "flashcards",
+    "ordinal": 101,
     "label": "IELTS / Reading / Passage 1 / Practice 101 — These Invasive Species are Ruining the Retail Ecosystem",
     "detail": "IELTS / Reading / Passage 1 / Practice 101 · 205 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20101"
@@ -5134,6 +5867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 102",
     "type": "flashcards",
+    "ordinal": 102,
     "label": "IELTS / Reading / Passage 1 / Practice 102 — In Praise of Amateurs",
     "detail": "IELTS / Reading / Passage 1 / Practice 102 · 218 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20102"
@@ -5141,6 +5875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 103",
     "type": "flashcards",
+    "ordinal": 103,
     "label": "IELTS / Reading / Passage 1 / Practice 103 — Tackling Obesity in the Western World",
     "detail": "IELTS / Reading / Passage 1 / Practice 103 · 187 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20103"
@@ -5148,6 +5883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 104",
     "type": "flashcards",
+    "ordinal": 104,
     "label": "IELTS / Reading / Passage 1 / Practice 104 — Indoor Pollution",
     "detail": "IELTS / Reading / Passage 1 / Practice 104 · 235 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20104"
@@ -5155,6 +5891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 105",
     "type": "flashcards",
+    "ordinal": 105,
     "label": "IELTS / Reading / Passage 1 / Practice 105 — The Great Australian Fence",
     "detail": "IELTS / Reading / Passage 1 / Practice 105 · 192 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20105"
@@ -5162,6 +5899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 106",
     "type": "flashcards",
+    "ordinal": 106,
     "label": "IELTS / Reading / Passage 1 / Practice 106 — Twist in the Tale",
     "detail": "IELTS / Reading / Passage 1 / Practice 106 · 161 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20106"
@@ -5169,6 +5907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 107",
     "type": "flashcards",
+    "ordinal": 107,
     "label": "IELTS / Reading / Passage 1 / Practice 107 — Snow-makers",
     "detail": "IELTS / Reading / Passage 1 / Practice 107 · 184 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20107"
@@ -5176,6 +5915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 108",
     "type": "flashcards",
+    "ordinal": 108,
     "label": "IELTS / Reading / Passage 1 / Practice 108 — Why Risks Can Go Wrong",
     "detail": "IELTS / Reading / Passage 1 / Practice 108 · 221 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20108"
@@ -5183,6 +5923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 109",
     "type": "flashcards",
+    "ordinal": 109,
     "label": "IELTS / Reading / Passage 1 / Practice 109 — A song on the brain",
     "detail": "IELTS / Reading / Passage 1 / Practice 109 · 189 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20109"
@@ -5190,6 +5931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 110",
     "type": "flashcards",
+    "ordinal": 110,
     "label": "IELTS / Reading / Passage 1 / Practice 110 — Green virtues of green sand",
     "detail": "IELTS / Reading / Passage 1 / Practice 110 · 202 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20110"
@@ -5197,6 +5939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 111",
     "type": "flashcards",
+    "ordinal": 111,
     "label": "IELTS / Reading / Passage 1 / Practice 111 — Sustainable architecture – lessons from the ant",
     "detail": "IELTS / Reading / Passage 1 / Practice 111 · 212 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20111"
@@ -5204,6 +5947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 112",
     "type": "flashcards",
+    "ordinal": 112,
     "label": "IELTS / Reading / Passage 1 / Practice 112 — Astronaut ice cream, anyone?",
     "detail": "IELTS / Reading / Passage 1 / Practice 112 · 156 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20112"
@@ -5211,6 +5955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 113",
     "type": "flashcards",
+    "ordinal": 113,
     "label": "IELTS / Reading / Passage 1 / Practice 113 — Reducing electricity consumption on the Isle of Eigg",
     "detail": "IELTS / Reading / Passage 1 / Practice 113 · 174 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20113"
@@ -5218,6 +5963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 114",
     "type": "flashcards",
+    "ordinal": 114,
     "label": "IELTS / Reading / Passage 1 / Practice 114 — The Rufous Hare-Wallaby",
     "detail": "IELTS / Reading / Passage 1 / Practice 114 · 169 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20114"
@@ -5225,6 +5971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 115",
     "type": "flashcards",
+    "ordinal": 115,
     "label": "IELTS / Reading / Passage 1 / Practice 115 — Geoff Brash",
     "detail": "IELTS / Reading / Passage 1 / Practice 115 · 149 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20115"
@@ -5232,6 +5979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 116",
     "type": "flashcards",
+    "ordinal": 116,
     "label": "IELTS / Reading / Passage 1 / Practice 116 — The economic importance of coral reefs",
     "detail": "IELTS / Reading / Passage 1 / Practice 116 · 208 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20116"
@@ -5239,6 +5987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 117",
     "type": "flashcards",
+    "ordinal": 117,
     "label": "IELTS / Reading / Passage 1 / Practice 117 — Trends in the Indian fashion and textile industries",
     "detail": "IELTS / Reading / Passage 1 / Practice 117 · 220 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20117"
@@ -5246,6 +5995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 118",
     "type": "flashcards",
+    "ordinal": 118,
     "label": "IELTS / Reading / Passage 1 / Practice 118 — The construction of roads and bridges",
     "detail": "IELTS / Reading / Passage 1 / Practice 118 · 157 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20118"
@@ -5253,6 +6003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 119",
     "type": "flashcards",
+    "ordinal": 119,
     "label": "IELTS / Reading / Passage 1 / Practice 119 — Biology of Bitterness",
     "detail": "IELTS / Reading / Passage 1 / Practice 119 · 218 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20119"
@@ -5260,6 +6011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 120",
     "type": "flashcards",
+    "ordinal": 120,
     "label": "IELTS / Reading / Passage 1 / Practice 120 — UNDOING OUR EMOTIONS",
     "detail": "IELTS / Reading / Passage 1 / Practice 120 · 193 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20120"
@@ -5267,6 +6019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 121",
     "type": "flashcards",
+    "ordinal": 121,
     "label": "IELTS / Reading / Passage 1 / Practice 121 — REFLECTING ON THE MIRROR",
     "detail": "IELTS / Reading / Passage 1 / Practice 121 · 248 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20121"
@@ -5274,6 +6027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 122",
     "type": "flashcards",
+    "ordinal": 122,
     "label": "IELTS / Reading / Passage 1 / Practice 122 — THE ‘BEAUTIFUL’ GAME",
     "detail": "IELTS / Reading / Passage 1 / Practice 122 · 205 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20122"
@@ -5281,6 +6035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 123",
     "type": "flashcards",
+    "ordinal": 123,
     "label": "IELTS / Reading / Passage 1 / Practice 123 — Traditional Farming System in Africa",
     "detail": "IELTS / Reading / Passage 1 / Practice 123 · 248 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20123"
@@ -5288,6 +6043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 124",
     "type": "flashcards",
+    "ordinal": 124,
     "label": "IELTS / Reading / Passage 1 / Practice 124 — Multitasking Debate",
     "detail": "IELTS / Reading / Passage 1 / Practice 124 · 188 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20124"
@@ -5295,6 +6051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 125",
     "type": "flashcards",
+    "ordinal": 125,
     "label": "IELTS / Reading / Passage 1 / Practice 125 — The success of cellulose",
     "detail": "IELTS / Reading / Passage 1 / Practice 125 · 169 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20125"
@@ -5302,6 +6059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 126",
     "type": "flashcards",
+    "ordinal": 126,
     "label": "IELTS / Reading / Passage 1 / Practice 126 — Finches on Islands",
     "detail": "IELTS / Reading / Passage 1 / Practice 126 · 193 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20126"
@@ -5309,6 +6067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 127",
     "type": "flashcards",
+    "ordinal": 127,
     "label": "IELTS / Reading / Passage 1 / Practice 127 — Paul Nash",
     "detail": "IELTS / Reading / Passage 1 / Practice 127 · 185 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20127"
@@ -5316,6 +6075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 128",
     "type": "flashcards",
+    "ordinal": 128,
     "label": "IELTS / Reading / Passage 1 / Practice 128 — Satellite Technology",
     "detail": "IELTS / Reading / Passage 1 / Practice 128 · 232 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20128"
@@ -5323,6 +6083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 129",
     "type": "flashcards",
+    "ordinal": 129,
     "label": "IELTS / Reading / Passage 1 / Practice 129 — Environmentally-Friendly! Vehicles",
     "detail": "IELTS / Reading / Passage 1 / Practice 129 · 223 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20129"
@@ -5330,6 +6091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 130",
     "type": "flashcards",
+    "ordinal": 130,
     "label": "IELTS / Reading / Passage 1 / Practice 130 — Exploring British Village",
     "detail": "IELTS / Reading / Passage 1 / Practice 130 · 232 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20130"
@@ -5337,6 +6099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 131",
     "type": "flashcards",
+    "ordinal": 131,
     "label": "IELTS / Reading / Passage 1 / Practice 131 — Light pollution",
     "detail": "IELTS / Reading / Passage 1 / Practice 131 · 201 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20131"
@@ -5344,6 +6107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 132",
     "type": "flashcards",
+    "ordinal": 132,
     "label": "IELTS / Reading / Passage 1 / Practice 132 — Father of modern management",
     "detail": "IELTS / Reading / Passage 1 / Practice 132 · 182 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20132"
@@ -5351,6 +6115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 133",
     "type": "flashcards",
+    "ordinal": 133,
     "label": "IELTS / Reading / Passage 1 / Practice 133 — Radio Automation",
     "detail": "IELTS / Reading / Passage 1 / Practice 133 · 198 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20133"
@@ -5358,6 +6123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 134",
     "type": "flashcards",
+    "ordinal": 134,
     "label": "IELTS / Reading / Passage 1 / Practice 134 — Reclaiming the future of aral sea",
     "detail": "IELTS / Reading / Passage 1 / Practice 134 · 235 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20134"
@@ -5365,6 +6131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 135",
     "type": "flashcards",
+    "ordinal": 135,
     "label": "IELTS / Reading / Passage 1 / Practice 135 — The hidden lives of solitary bees",
     "detail": "IELTS / Reading / Passage 1 / Practice 135 · 182 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20135"
@@ -5372,6 +6139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 136",
     "type": "flashcards",
+    "ordinal": 136,
     "label": "IELTS / Reading / Passage 1 / Practice 136 — Intelligence and Giftedness",
     "detail": "IELTS / Reading / Passage 1 / Practice 136 · 175 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20136"
@@ -5379,6 +6147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 137",
     "type": "flashcards",
+    "ordinal": 137,
     "label": "IELTS / Reading / Passage 1 / Practice 137 — Agriculture and Tourism",
     "detail": "IELTS / Reading / Passage 1 / Practice 137 · 182 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20137"
@@ -5386,6 +6155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 138",
     "type": "flashcards",
+    "ordinal": 138,
     "label": "IELTS / Reading / Passage 1 / Practice 138 — Volatility Kills",
     "detail": "IELTS / Reading / Passage 1 / Practice 138 · 191 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20138"
@@ -5393,6 +6163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 139",
     "type": "flashcards",
+    "ordinal": 139,
     "label": "IELTS / Reading / Passage 1 / Practice 139 — Sand Dunes",
     "detail": "IELTS / Reading / Passage 1 / Practice 139 · 215 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20139"
@@ -5400,6 +6171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 140",
     "type": "flashcards",
+    "ordinal": 140,
     "label": "IELTS / Reading / Passage 1 / Practice 140 — Internal and External Marketing",
     "detail": "IELTS / Reading / Passage 1 / Practice 140 · 191 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20140"
@@ -5407,6 +6179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 141",
     "type": "flashcards",
+    "ordinal": 141,
     "label": "IELTS / Reading / Passage 1 / Practice 141 — Design the mat and Foot health",
     "detail": "IELTS / Reading / Passage 1 / Practice 141 · 228 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20141"
@@ -5414,6 +6187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 142",
     "type": "flashcards",
+    "ordinal": 142,
     "label": "IELTS / Reading / Passage 1 / Practice 142 — Can Scientists tell us: What happiness is?",
     "detail": "IELTS / Reading / Passage 1 / Practice 142 · 201 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20142"
@@ -5421,6 +6195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 143",
     "type": "flashcards",
+    "ordinal": 143,
     "label": "IELTS / Reading / Passage 1 / Practice 143 — Ambergris",
     "detail": "IELTS / Reading / Passage 1 / Practice 143 · 234 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20143"
@@ -5428,6 +6203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 144",
     "type": "flashcards",
+    "ordinal": 144,
     "label": "IELTS / Reading / Passage 1 / Practice 144 — The Exploration of Mars",
     "detail": "IELTS / Reading / Passage 1 / Practice 144 · 231 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20144"
@@ -5435,6 +6211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 145",
     "type": "flashcards",
+    "ordinal": 145,
     "label": "IELTS / Reading / Passage 1 / Practice 145 — Plant Scents",
     "detail": "IELTS / Reading / Passage 1 / Practice 145 · 226 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20145"
@@ -5442,6 +6219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 146",
     "type": "flashcards",
+    "ordinal": 146,
     "label": "IELTS / Reading / Passage 1 / Practice 146 — Bird Migration",
     "detail": "IELTS / Reading / Passage 1 / Practice 146 · 205 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20146"
@@ -5449,6 +6227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 147",
     "type": "flashcards",
+    "ordinal": 147,
     "label": "IELTS / Reading / Passage 1 / Practice 147 — Mental Gymnastics",
     "detail": "IELTS / Reading / Passage 1 / Practice 147 · 255 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20147"
@@ -5456,6 +6235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 148",
     "type": "flashcards",
+    "ordinal": 148,
     "label": "IELTS / Reading / Passage 1 / Practice 148 — Copy your neighbor",
     "detail": "IELTS / Reading / Passage 1 / Practice 148 · 215 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20148"
@@ -5463,6 +6243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 149",
     "type": "flashcards",
+    "ordinal": 149,
     "label": "IELTS / Reading / Passage 1 / Practice 149 — Density and Crowding",
     "detail": "IELTS / Reading / Passage 1 / Practice 149 · 175 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20149"
@@ -5470,6 +6251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 150",
     "type": "flashcards",
+    "ordinal": 150,
     "label": "IELTS / Reading / Passage 1 / Practice 150 — Fossil Files “The Paleobiology Database”",
     "detail": "IELTS / Reading / Passage 1 / Practice 150 · 210 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20150"
@@ -5477,6 +6259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 151",
     "type": "flashcards",
+    "ordinal": 151,
     "label": "IELTS / Reading / Passage 1 / Practice 151 — The Secrets of Persuasion",
     "detail": "IELTS / Reading / Passage 1 / Practice 151 · 213 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20151"
@@ -5484,6 +6267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 152",
     "type": "flashcards",
+    "ordinal": 152,
     "label": "IELTS / Reading / Passage 1 / Practice 152 — Smell and Memory: Smell like yesterday",
     "detail": "IELTS / Reading / Passage 1 / Practice 152 · 220 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20152"
@@ -5491,6 +6275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 153",
     "type": "flashcards",
+    "ordinal": 153,
     "label": "IELTS / Reading / Passage 1 / Practice 153 — The Beginning of Football",
     "detail": "IELTS / Reading / Passage 1 / Practice 153 · 163 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20153"
@@ -5498,6 +6283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 154",
     "type": "flashcards",
+    "ordinal": 154,
     "label": "IELTS / Reading / Passage 1 / Practice 154 — World Ecotourism in the developing courtiers",
     "detail": "IELTS / Reading / Passage 1 / Practice 154 · 204 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20154"
@@ -5505,6 +6291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 155",
     "type": "flashcards",
+    "ordinal": 155,
     "label": "IELTS / Reading / Passage 1 / Practice 155 — Consecutive and Simultaneous Translation",
     "detail": "IELTS / Reading / Passage 1 / Practice 155 · 226 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20155"
@@ -5512,6 +6299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 156",
     "type": "flashcards",
+    "ordinal": 156,
     "label": "IELTS / Reading / Passage 1 / Practice 156 — SOSUS: Listening to the Ocean",
     "detail": "IELTS / Reading / Passage 1 / Practice 156 · 269 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20156"
@@ -5519,6 +6307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 157",
     "type": "flashcards",
+    "ordinal": 157,
     "label": "IELTS / Reading / Passage 1 / Practice 157 — The History Of Salt",
     "detail": "IELTS / Reading / Passage 1 / Practice 157 · 203 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20157"
@@ -5526,6 +6315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 158",
     "type": "flashcards",
+    "ordinal": 158,
     "label": "IELTS / Reading / Passage 1 / Practice 158 — Facial Expression",
     "detail": "IELTS / Reading / Passage 1 / Practice 158 · 168 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20158"
@@ -5533,6 +6323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 159",
     "type": "flashcards",
+    "ordinal": 159,
     "label": "IELTS / Reading / Passage 1 / Practice 159 — Grey Workers",
     "detail": "IELTS / Reading / Passage 1 / Practice 159 · 157 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20159"
@@ -5540,6 +6331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 160",
     "type": "flashcards",
+    "ordinal": 160,
     "label": "IELTS / Reading / Passage 1 / Practice 160 — Malaria Combat in Italy",
     "detail": "IELTS / Reading / Passage 1 / Practice 160 · 200 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20160"
@@ -5547,6 +6339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 161",
     "type": "flashcards",
+    "ordinal": 161,
     "label": "IELTS / Reading / Passage 1 / Practice 161 — Mungo Man",
     "detail": "IELTS / Reading / Passage 1 / Practice 161 · 182 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20161"
@@ -5554,6 +6347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 162",
     "type": "flashcards",
+    "ordinal": 162,
     "label": "IELTS / Reading / Passage 1 / Practice 162 — The Power of Nothing",
     "detail": "IELTS / Reading / Passage 1 / Practice 162 · 219 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20162"
@@ -5561,6 +6355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-1/Practice 163",
     "type": "flashcards",
+    "ordinal": 163,
     "label": "IELTS / Reading / Passage 1 / Practice 163 — Grimm’s Fairy Tales",
     "detail": "IELTS / Reading / Passage 1 / Practice 163 · 249 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%20163"
@@ -5568,6 +6363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-2/Practice 1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "IELTS / Reading / Passage 2 / Practice 1",
     "detail": "IELTS / Reading / Passage 2 / Practice 1 · 165 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-2%2FPractice%201"
@@ -5575,6 +6371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/reading/passage-3/Practice 1",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "IELTS / Reading / Passage 3 / Practice 1",
     "detail": "IELTS / Reading / Passage 3 / Practice 1 · 279 cards",
     "url": "flashcards.html?deck=ielts%2Freading%2Fpassage-3%2FPractice%201"
@@ -5582,6 +6379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/speaking/part-1/book-1/accommodation",
     "type": "flashcards",
+    "ordinal": null,
     "label": "IELTS / Speaking / Part 1 / Book 1 / Accommodation",
     "detail": "IELTS / Speaking / Part 1 / Book 1 / Accommodation · 63 cards",
     "url": "flashcards.html?deck=ielts%2Fspeaking%2Fpart-1%2Fbook-1%2Faccommodation"
@@ -5589,6 +6387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/speaking/part-1/book-1/advertisements",
     "type": "flashcards",
+    "ordinal": null,
     "label": "IELTS / Speaking / Part 1 / Book 1 / Advertisements",
     "detail": "IELTS / Speaking / Part 1 / Book 1 / Advertisements · 94 cards",
     "url": "flashcards.html?deck=ielts%2Fspeaking%2Fpart-1%2Fbook-1%2Fadvertisements"
@@ -5596,6 +6395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/speaking/part-1/book-1/animals",
     "type": "flashcards",
+    "ordinal": null,
     "label": "IELTS / Speaking / Part 1 / Book 1 / Animals",
     "detail": "IELTS / Speaking / Part 1 / Book 1 / Animals · 79 cards",
     "url": "flashcards.html?deck=ielts%2Fspeaking%2Fpart-1%2Fbook-1%2Fanimals"
@@ -5603,6 +6403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/speaking/part-1/book-1/art-and-photography",
     "type": "flashcards",
+    "ordinal": null,
     "label": "IELTS / Speaking / Part 1 / Book 1 / Art And Photography",
     "detail": "IELTS / Speaking / Part 1 / Book 1 / Art And Photography · 110 cards",
     "url": "flashcards.html?deck=ielts%2Fspeaking%2Fpart-1%2Fbook-1%2Fart-and-photography"
@@ -5610,6 +6411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/speaking/part-1/book-1/boats",
     "type": "flashcards",
+    "ordinal": null,
     "label": "IELTS / Speaking / Part 1 / Book 1 / Boats",
     "detail": "IELTS / Speaking / Part 1 / Book 1 / Boats · 98 cards",
     "url": "flashcards.html?deck=ielts%2Fspeaking%2Fpart-1%2Fbook-1%2Fboats"
@@ -5617,6 +6419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/speaking/part-1/book-5/friends",
     "type": "flashcards",
+    "ordinal": null,
     "label": "IELTS / Speaking / Part 1 / Book 5 / Friends",
     "detail": "IELTS / Speaking / Part 1 / Book 5 / Friends · 125 cards",
     "url": "flashcards.html?deck=ielts%2Fspeaking%2Fpart-1%2Fbook-5%2Ffriends"
@@ -5624,6 +6427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/speaking/part-2/book-1/advertisements",
     "type": "flashcards",
+    "ordinal": null,
     "label": "IELTS / Speaking / Part 2 / Book 1 / Advertisements",
     "detail": "IELTS / Speaking / Part 2 / Book 1 / Advertisements · 49 cards",
     "url": "flashcards.html?deck=ielts%2Fspeaking%2Fpart-2%2Fbook-1%2Fadvertisements"
@@ -5631,6 +6435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/speaking/part-3/book-1/challenge/q1-what-challenges-do-young-people-face-today",
     "type": "flashcards",
+    "ordinal": 1,
     "label": "IELTS / Speaking / Part 3 / Book 1 / Challenge / Q1 What Challenges Do Young People Face Today",
     "detail": "IELTS / Speaking / Part 3 / Book 1 / Challenge / Q1 What Challenges Do Young People Face Today · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fspeaking%2Fpart-3%2Fbook-1%2Fchallenge%2Fq1-what-challenges-do-young-people-face-today"
@@ -5638,6 +6443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q20",
     "type": "flashcards",
+    "ordinal": 20,
     "label": "In many cities there is a lack of space to develop and as a result, in order to modernise, old buildings are demolished and replaced with new buildings. What are the disadvantages ",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q20 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q20"
@@ -5645,6 +6451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q81",
     "type": "flashcards",
+    "ordinal": 81,
     "label": "In many countries women no longer feel the need to get married. Some people believe that this is because women are able to earn their own income and therefore do not require the fi",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q81 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q81"
@@ -5652,6 +6459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q106",
     "type": "flashcards",
+    "ordinal": 106,
     "label": "In many countries, it is common for families to own and run their own business. Some people think this is the best way to run a business, while others consider this a potential sou",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q106 · 58 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q106"
@@ -5659,6 +6467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q4",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "In many countries, it is common for families to own and run their own business. Some people think this is the best way to run a business, while others consider this a potential sou",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q4 · 71 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q4"
@@ -5666,6 +6475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q11",
     "type": "flashcards",
+    "ordinal": 11,
     "label": "In many countries, people are moving away from rural areas and towards urban areas. Why do you think that is? What problems can this cause?",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q11 · 66 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q11"
@@ -5673,6 +6483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q46",
     "type": "flashcards",
+    "ordinal": 46,
     "label": "In many developing countries, there is an increasing movement of workers from rural areas into the cities. Why do you think this happens? What problems can this cause?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q46 · 76 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q46"
@@ -5680,6 +6491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q23",
     "type": "flashcards",
+    "ordinal": 23,
     "label": "In many modern societies, grandchildren rarely spend any quality time with their grandparents. What do you think are the consequences of this?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q23 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q23"
@@ -5687,6 +6499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q13",
     "type": "flashcards",
+    "ordinal": 13,
     "label": "In many western countries there is an increasing number of couples choosing to have no children. What are the advantages and disadvantages to couples having no children? (2018, 202",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q13 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q13"
@@ -5694,6 +6507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q7",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "In nearly all science courses at university, there are significantly more male students than female students. What is the reason for this? What could be done to balance out the num",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q7 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q7"
@@ -5701,6 +6515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q16",
     "type": "flashcards",
+    "ordinal": 16,
     "label": "In some cities and towns all over the world, the high volume of traffic is a problem. What are the causes of this and what actions can be taken to solve this problem? (Reported 201",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q16 · 54 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q16"
@@ -5708,6 +6523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q10",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "In some countries, girls and boys are educated in different schools rather than in the same school. What are the advantages and disadvantage of this? (2019, 2020, 2021)",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q10 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q10"
@@ -5715,6 +6531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q14",
     "type": "flashcards",
+    "ordinal": 14,
     "label": "In some countries, most people prefer to rent their homes rather than buying them. What are the advantages and disadvantages of renting a home? (Reported 2017, 2020)",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q14 · 75 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q14"
@@ -5722,6 +6539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q19",
     "type": "flashcards",
+    "ordinal": 19,
     "label": "In some developing countries, it is difficult to get good teachers to work in rural areas which can have a negative impact on the education of children in those rural communities. ",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q19 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q19"
@@ -5729,6 +6547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q15",
     "type": "flashcards",
+    "ordinal": 15,
     "label": "In some high schools, part of the curriculum requires students to participate in community work such as helping the elderly or disabled. In what way do children benefit from this? ",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q15 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q15"
@@ -5736,6 +6555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q28",
     "type": "flashcards",
+    "ordinal": 28,
     "label": "In some societies, the number of crimes committed by teenagers is growing. Some people think that regardless of age, teenagers who commit major crimes should receive adult punishme",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q28 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q28"
@@ -5743,6 +6563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q71",
     "type": "flashcards",
+    "ordinal": 71,
     "label": "In the last few decades, there have been more and more cases of famous people being hounded by the press. Some people think that famous people in the media should have no right to ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q71 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q71"
@@ -5750,6 +6571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q93",
     "type": "flashcards",
+    "ordinal": 93,
     "label": "It is common nowadays for each member of the family to have their own piece of modern technology. Some people think this will lead to a breakdown in family relationships and commun",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q93 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q93"
@@ -5757,6 +6579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "It is common practice for some students to take a gap year between high school and university in order to do charitable work abroad in underdeveloped countries. What are the advant",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q3 · 85 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q3"
@@ -5764,6 +6587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q42",
     "type": "flashcards",
+    "ordinal": 42,
     "label": "It is often said that governments spend too much money on projects to protect wildlife, while there are other problems that are more important? Do you agree or disagree? (Reported ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q42 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q42"
@@ -5771,6 +6595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q9",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "It is often thought that the increase in juvenile crime can be attributed to violence in the media. Do you agree that this is the main cause of juvenile crime? What solutions can y",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q9 · 63 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q9"
@@ -5778,6 +6603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q83",
     "type": "flashcards",
+    "ordinal": 83,
     "label": "It is sometimes thought that people who travel outside of their own country are more tolerant and understanding of others. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q83 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q83"
@@ -5785,6 +6611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q16",
     "type": "flashcards",
+    "ordinal": 16,
     "label": "It is thought by some that a school teacher’s role is to motivate and inspire students. However, other people believe that a teacher’s primary role is to pass on knowledge. What do",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q16 · 58 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q16"
@@ -5792,6 +6619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q80",
     "type": "flashcards",
+    "ordinal": 80,
     "label": "Libraries should focus on improving their technological resources rather than on building a larger collection of paper books. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q80 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q80"
@@ -5799,6 +6627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q21",
     "type": "flashcards",
+    "ordinal": 21,
     "label": "Many animals are being hunted to the brink of extinction in order to fulfil the demand and greed of mankind for decorative purposes as well as for other reasons, such as traditiona",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q21 · 72 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q21"
@@ -5806,6 +6635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q29",
     "type": "flashcards",
+    "ordinal": 29,
     "label": "Many children are encouraged by their parents to get a part time job in their free time. What are the advantages and disadvantages to children of doing so?",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q29 · 57 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q29"
@@ -5813,6 +6643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q18",
     "type": "flashcards",
+    "ordinal": 18,
     "label": "Many countries aim to improve their living standard by economic development, but some important social values are lost as a result. Do you think the advantages of economic developm",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q18 · 73 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q18"
@@ -5820,6 +6651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q30",
     "type": "flashcards",
+    "ordinal": 30,
     "label": "Many countries are experiencing population growth and need more homes. Should these new homes be constructed in existing cities or should new towns be built in the countryside? (20",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q30 · 66 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q30"
@@ -5827,6 +6659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q37",
     "type": "flashcards",
+    "ordinal": 37,
     "label": "Many countries want to host international sports events, while other countries think that hosting sports events has more problems than benefits. Discuss both views & give your opin",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q37 · 63 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q37"
@@ -5834,6 +6667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q10",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "Many crimes are often related to the consumption of alcohol. Some people think that the best way to reduce the crime rate is to ban alcohol. Do you think this is an effective measu",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q10 · 58 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q10"
@@ -5841,6 +6675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q5",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "Many criminals commit further crimes as soon as they are released from prison. What do you think are the causes of this? What possible solutions can you suggest? (Reported 2015, 20",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q5 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q5"
@@ -5848,6 +6683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q8",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "Many management interviews are based around assessing not only a person’s level of experience and knowledge but also their personality. Is leadership an innate skill? What other ch",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q8 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q8"
@@ -5855,6 +6691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q24",
     "type": "flashcards",
+    "ordinal": 24,
     "label": "Many people around the world now take regular international flights. Do the advantages of this trend outweigh the disadvantages to the environment? (2022)",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q24 · 78 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q24"
@@ -5862,6 +6699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q47",
     "type": "flashcards",
+    "ordinal": 47,
     "label": "Many people believe that global environmental problems should be dealt with internationally rather than domestically. What is your opinion?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q47 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q47"
@@ -5869,6 +6707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q7",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "Many people believe that having a fixed punishment for all crimes is more efficient. What are the advantages and disadvantages of having a fixed punishment?",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q7 · 72 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q7"
@@ -5876,6 +6715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q35",
     "type": "flashcards",
+    "ordinal": 35,
     "label": "Many people buy products that they do not really need and replace old products with new ones unnecessarily. Why do people buy things they do not really need? Do you think this is a",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q35 · 81 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q35"
@@ -5883,6 +6723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q18",
     "type": "flashcards",
+    "ordinal": 18,
     "label": "Many people find it hard to balance their work with other parts of their lives. What are the reasons for this? How can this problem be overcome?",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q18 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q18"
@@ -5890,6 +6731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q77",
     "type": "flashcards",
+    "ordinal": 77,
     "label": "Many people think that fast food companies should not be allowed to advertise, while others believe that all companies should have the right to advertise. What is your opinion?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q77 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q77"
@@ -5897,6 +6739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "Many people think that museums and galleries should only show work from local artists rather than work from other countries. Do you agree? (2021, 2022)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q3 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q3"
@@ -5904,6 +6747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q21",
     "type": "flashcards",
+    "ordinal": 21,
     "label": "Many things that used to be done in the home by hands are now being done by machines. Does this development bring more advantages or disadvantages? (Reported 2017)",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q21 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q21"
@@ -5911,6 +6755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q4",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "Many young children have unsupervised access to the internet and are using the internet to socialise with others. This can lead to a number of dangerous situations which can be thr",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q4 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q4"
@@ -5918,6 +6763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q10",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "Marketing and promotion is the key to a successful business. To what extent do you agree? (repeated frequently)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q10 · 77 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q10"
@@ -5925,6 +6771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q40",
     "type": "flashcards",
+    "ordinal": 40,
     "label": "Modern technology is now very common in most work places. How do you think this has changed the way we work? Do you think there are disadvantages to relying too much on technology?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q40 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q40"
@@ -5932,6 +6779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q5",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "More and more businesses as well as individuals are choosing to communicate either professionally or socially using technology rather than being face to face. Discuss the advantage",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q5 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q5"
@@ -5939,6 +6787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q13",
     "type": "flashcards",
+    "ordinal": 13,
     "label": "More and more children as accessing the internet unsupervised and at a younger age. This can sometimes put children at risk. What problems do you think parents face when dealing wi",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q13 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q13"
@@ -5946,6 +6795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q28",
     "type": "flashcards",
+    "ordinal": 28,
     "label": "More and more newspapers and news channels are using photographs to support their news articles and stories. Some people think that photographs are not a reliable source of news, w",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q28 · 66 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q28"
@@ -5953,6 +6803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q17",
     "type": "flashcards",
+    "ordinal": 17,
     "label": "More and more people are moving away from an agricultural background to relocate to cities in order to look for work. What will be the consequences of this? What solutions can you ",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q17 · 66 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q17"
@@ -5960,6 +6811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q57",
     "type": "flashcards",
+    "ordinal": 57,
     "label": "More and more people are suffering from health problems caused by a modern lifestyle which cannot be treated with modern medicines. Some people think that a return to traditional m",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q57 · 66 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q57"
@@ -5967,6 +6819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q28",
     "type": "flashcards",
+    "ordinal": 28,
     "label": "More companies should employ older people. What are the advantages and disadvantages for a company doing this?",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q28 · 75 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q28"
@@ -5974,6 +6827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q31",
     "type": "flashcards",
+    "ordinal": 31,
     "label": "More developing countries are given aid from international organisations to help them in their development plans. Some people argue that financial aid is important but others sugge",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q31 · 74 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q31"
@@ -5981,6 +6835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q5",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "Most artists earn low salaries and should therefore receive funding from the government in order for them to continue with their work. To what extent do you agree? (repeated most y",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q5 · 80 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q5"
@@ -5988,6 +6843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q25",
     "type": "flashcards",
+    "ordinal": 25,
     "label": "Most modern families have both parents working and as a result children spend less and less time with their parents. What is the reason for this? What problems can this cause? (202",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q25 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q25"
@@ -5995,6 +6851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q32",
     "type": "flashcards",
+    "ordinal": 32,
     "label": "Most people think that the truth should be objective rather than subjective when it comes to the news. Do you think all news is true? What is the function of a newspaper? (2020, 20",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q32 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q32"
@@ -6002,6 +6859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q82",
     "type": "flashcards",
+    "ordinal": 82,
     "label": "Most societies have homeless people. Some people think that the best way to help them is to give them money. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q82 · 43 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q82"
@@ -6009,6 +6867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q22",
     "type": "flashcards",
+    "ordinal": 22,
     "label": "New household appliances have resulted in more free time for women and has enabled them to both work and run a home with dependent children. What are the advantages for a family wh",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q22 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q22"
@@ -6016,6 +6875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q19",
     "type": "flashcards",
+    "ordinal": 19,
     "label": "Nowadays celebrities are more famous for their glamour and wealth than for their achievements, and this sets a bad example to young people. To what extent do you agree or disagree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q19 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q19"
@@ -6023,6 +6883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q92",
     "type": "flashcards",
+    "ordinal": 92,
     "label": "Nowadays children watch a lot of TV and play video games. However, some people think that these activities are not good for a child’s mental health. To what extent do you agree or ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q92 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q92"
@@ -6030,6 +6891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q22",
     "type": "flashcards",
+    "ordinal": 22,
     "label": "Nowadays parents put too much pressure on their children to succeed. What is the reason for doing this? Is this a negative or positive development? (Reported 2017, 2018, 2020, 2021",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q22 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q22"
@@ -6037,6 +6899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q31",
     "type": "flashcards",
+    "ordinal": 31,
     "label": "Nowadays, a lot of buildings, such as offices and schools, are now being built with an open plan design. Why is that? Do you see this as a positive or negative development? (Report",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q31 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q31"
@@ -6044,6 +6907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q24",
     "type": "flashcards",
+    "ordinal": 24,
     "label": "Nowadays, it seems that different generations within the family spend less time doing activities together. Why is that? Is it a positive or negative development? (2023)",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q24 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q24"
@@ -6051,6 +6915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q74",
     "type": "flashcards",
+    "ordinal": 74,
     "label": "One of the prime times for advertising on TV is when children get back from school. Some people think that advertisements aimed at children should not be allowed. What is your opin",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q74 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q74"
@@ -6058,6 +6923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q26",
     "type": "flashcards",
+    "ordinal": 26,
     "label": "One way to solve the problem of congestion in cities is to build sky trains which run overhead rather than on or under the ground. What are the advantages and disadvantages of usin",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q26 · 76 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q26"
@@ -6065,6 +6931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q44",
     "type": "flashcards",
+    "ordinal": 44,
     "label": "One way to solve the problem of congestion on the roads is to increase the tax on private vehicles. How could this alleviate congestion? What other measures can you suggest to deal",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q44 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q44"
@@ -6072,6 +6939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q25",
     "type": "flashcards",
+    "ordinal": 25,
     "label": "Our personalities are predetermined as a result of our genes before we are born and there is nothing that can be done to alter our character traits. To what extent do you agree? (2",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q25 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q25"
@@ -6079,6 +6947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q103",
     "type": "flashcards",
+    "ordinal": 103,
     "label": "Paying all workers the same salary in a company promotes harmony and respect amongst colleagues. To what extent do you agree or disagree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q103 · 61 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q103"
@@ -6086,6 +6955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q17",
     "type": "flashcards",
+    "ordinal": 17,
     "label": "People were happier in previous generations compared to now. To what extent do you agree",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q17 · 66 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q17"
@@ -6093,6 +6963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q18",
     "type": "flashcards",
+    "ordinal": 18,
     "label": "People were stressed in previous generations compared to now. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q18 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q18"
@@ -6100,6 +6971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q61",
     "type": "flashcards",
+    "ordinal": 61,
     "label": "Planting trees is very important for the environment. Some people say trees should be planted in the vacant areas of cities and towns, while others say housing facilities should be",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q61 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q61"
@@ -6107,6 +6979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q89",
     "type": "flashcards",
+    "ordinal": 89,
     "label": "Professional sports people are often idolised by young children. Some people think that they, therefore, have a responsibility to be good role models at all times for children. Do ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q89 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q89"
@@ -6114,6 +6987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q17",
     "type": "flashcards",
+    "ordinal": 17,
     "label": "Public libraries will soon no longer be housed in a building as all facilities and books will be available online for everyone to access. Discuss the advantages and disadvantages o",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q17 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q17"
@@ -6121,6 +6995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q96",
     "type": "flashcards",
+    "ordinal": 96,
     "label": "Raising the cost of international flights is the best way to reduce air pollution. Do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q96 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q96"
@@ -6128,6 +7003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q48",
     "type": "flashcards",
+    "ordinal": 48,
     "label": "Restricting air travel is the only way to prevent air pollution. Do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q48 · 71 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q48"
@@ -6135,6 +7011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "Rich countries are getting richer while poor countries are getting poorer. What is the cause of this? What could be done to solve this problem?",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q3 · 61 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q3"
@@ -6142,6 +7019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q4",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "Sales companies should recruit people who are hungry for money as they will make the most dedicated workers. Do you think money is the driving force behind hard work? What factors ",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q4 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q4"
@@ -6149,6 +7027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q66",
     "type": "flashcards",
+    "ordinal": 66,
     "label": "Scientists predict that all people will choose to speak the same global language in the future. Do you think this is a positive or negative development? (appears most years in the ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q66 · 56 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q66"
@@ -6156,6 +7035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q63",
     "type": "flashcards",
+    "ordinal": 63,
     "label": "Services, such as shops, schools and commercial centres should be relocated out of the city center. To what extent do you agree? (2023)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q63 · 58 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q63"
@@ -6163,6 +7043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q28",
     "type": "flashcards",
+    "ordinal": 28,
     "label": "Should governments make decisions about people’s lifestyle, or should people make their own decisions?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q28 · 72 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q28"
@@ -6170,6 +7051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q29",
     "type": "flashcards",
+    "ordinal": 29,
     "label": "Should the amount of time spent on sport and exercise be increased in schools in order to tackle the problem of overweight children? Do you think this is the best way to deal with ",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q29 · 71 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q29"
@@ -6177,6 +7059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q11",
     "type": "flashcards",
+    "ordinal": 11,
     "label": "Small businesses should avoid recruiting young women who do not have their own family in order to avoid paying maternity leave later on. To what extent do you agree or disagree? (2",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q11 · 73 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q11"
@@ -6184,6 +7067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q20",
     "type": "flashcards",
+    "ordinal": 20,
     "label": "Some celebrities feel that the media violates their personal space and shares their private life publicly, while others feel it is just part of being famous. What is your opinion? ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q20 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q20"
@@ -6191,6 +7075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q11",
     "type": "flashcards",
+    "ordinal": 11,
     "label": "Some children receive almost no encouragement from their parents regarding their performance at school, while other children receive too much pressure from their over enthusiastic ",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q11 · 54 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q11"
@@ -6198,6 +7083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q3",
     "type": "flashcards",
+    "ordinal": 3,
     "label": "Some companies have uniforms for their staff which must be worn at all times. What are the advantages for a company of having a uniform? Are there any benefits of having a uniform ",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q3 · 56 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q3"
@@ -6205,6 +7091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q27",
     "type": "flashcards",
+    "ordinal": 27,
     "label": "Some companies sponsor sports as a way to advertise themselves. Some people think it is good, while others think there are disadvantages to this. Discuss both sides and give your o",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q27 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q27"
@@ -6212,6 +7099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q29",
     "type": "flashcards",
+    "ordinal": 29,
     "label": "Some countries are struggling with an increase in the rate of crime. Many people think that having more police on the streets is the only way to reduce crime. To what extent do you",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q29 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q29"
@@ -6219,6 +7107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q9",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "Some countries encourage foreign companies to open in their country. Many people think that the government should focus on encouraging local business rather than foreign businesses",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q9 · 83 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q9"
@@ -6226,6 +7115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q8",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "Some educationalists think that international exchange visits will benefit teenagers at the school. To what extent do the advantages outweigh the disadvantages? (Reported 2020, Aca",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q8 · 80 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q8"
@@ -6233,6 +7123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q27",
     "type": "flashcards",
+    "ordinal": 27,
     "label": "Some employers want to be able to contact their staff at all times, even on holidays. Does this development have more advantages than disadvantages? (Reported 2017, GT Test)",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q27 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q27"
@@ -6240,6 +7131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q14",
     "type": "flashcards",
+    "ordinal": 14,
     "label": "Some parents believe that their children should do educational activities during their free time. Others say that in this way children are under pressure. Discuss both views and gi",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q14 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q14"
@@ -6247,6 +7139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q91",
     "type": "flashcards",
+    "ordinal": 91,
     "label": "Some people argue that technological inventions, such as mobile phones, are making people socially less interactive. Do you agree or disagree? (Reported 2017, GT Test)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q91 · 63 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q91"
@@ -6254,6 +7147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q13",
     "type": "flashcards",
+    "ordinal": 13,
     "label": "Some people believe that children should not be given homework everyday, while others believe that they must get homework everyday in order to be successful at school. Discuss both",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q13 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q13"
@@ -6261,6 +7155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q5",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "Some people believe that the higher a product is priced, the more likely it is that people will want to buy it. To what extent does price influence potential buyers? What other fac",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q5 · 57 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q5"
@@ -6268,6 +7163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q40",
     "type": "flashcards",
+    "ordinal": 40,
     "label": "Some people believe that to protect local culture, tourism should be banned in some areas, while others think that change is inevitable and banning tourism will have no benefits. D",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q40 · 56 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q40"
@@ -6275,6 +7171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q29",
     "type": "flashcards",
+    "ordinal": 29,
     "label": "Some people believe that what children watch on television influences their behaviour. Others say that amount of time spent watching television influences their behaviour. Discuss ",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q29 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q29"
@@ -6282,6 +7179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q4",
     "type": "flashcards",
+    "ordinal": 4,
     "label": "Some people enjoy change in life, while other people try to avoid it. What are the advantages and disadvantages of both approaches?",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q4 · 77 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q4"
@@ -6289,6 +7187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q7",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "Some people fail in school, but end up being successful in life. Why do you think that is the case? What is the most important thing to succeed in life? (Reported 2017, 2021 GT Tes",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q7 · 55 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q7"
@@ -6296,6 +7195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q34",
     "type": "flashcards",
+    "ordinal": 34,
     "label": "Some people prefer to watch foreign films rather than locally produced films. Why is this? Do you think the government should spend more money supporting the local film industry? (",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q34 · 73 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q34"
@@ -6303,6 +7203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q20",
     "type": "flashcards",
+    "ordinal": 20,
     "label": "Some people think an international car-free day is an effective way to reduce air pollution. Others think there are more effective ways to do this. Discuss both sides and give your",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q20 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q20"
@@ -6310,6 +7211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q41",
     "type": "flashcards",
+    "ordinal": 41,
     "label": "Some people think an international car-free day is an effective way to reduce air pollution. Others think there are more effective ways to do this. Discuss both sides and give your",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q41 · 63 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q41"
@@ -6317,6 +7219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q78",
     "type": "flashcards",
+    "ordinal": 78,
     "label": "Some people think books are losing importance as a source of information and entertainment. To what extent do you agree? (Reported 2017, GT)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q78 · 52 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q78"
@@ -6324,6 +7227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q31",
     "type": "flashcards",
+    "ordinal": 31,
     "label": "Some people think certain prisoners should be made to do unpaid community work instead of being put behind bars. To what extent do you agree? (Reported 2017, 2020, GT Test)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q31 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q31"
@@ -6331,6 +7235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q12",
     "type": "flashcards",
+    "ordinal": 12,
     "label": "Some people think it is better for children to grow up in the city, while others think that life in the countryside is more suitable. What are the advantages and disadvantages of b",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q12 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q12"
@@ -6338,6 +7243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q10",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "Some people think our first impression of someone is important, while others think we should not judge another person so quickly and should take our time to know them better. Discu",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q10 · 57 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q10"
@@ -6345,6 +7251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q32",
     "type": "flashcards",
+    "ordinal": 32,
     "label": "Some people think that a life is good for people while others believe that constant change can be too demanding on people. Discuss both sides and give your opinion.",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q32 · 63 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q32"
@@ -6352,6 +7259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q68",
     "type": "flashcards",
+    "ordinal": 68,
     "label": "Some people think that a person can never understand the culture of a country unless they speak the language. Do you agree with this opinion?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q68 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q68"
@@ -6359,6 +7267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q15",
     "type": "flashcards",
+    "ordinal": 15,
     "label": "Some people think that all children in school should learn a foreign language at an early age. What are the advantages and disadvantages of doing this? (2020, 2023)",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q15 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q15"
@@ -6366,6 +7275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q13",
     "type": "flashcards",
+    "ordinal": 13,
     "label": "Some people think that ambition is essential for success. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q13 · 77 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q13"
@@ -6373,6 +7283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q6",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "Some people think that being able to communicate with others online is breaking down geographical barriers and enabling people, who would normally never have the chance to meet, to",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q6 · 85 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q6"
@@ -6380,6 +7291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q14",
     "type": "flashcards",
+    "ordinal": 14,
     "label": "Some people think that charisma is essential for success. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q14 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q14"
@@ -6387,6 +7299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q79",
     "type": "flashcards",
+    "ordinal": 79,
     "label": "Some people think that children who spend a lot of time reading children’s story books are wasting their time which could be better used doing other more useful activities. To what",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q79 · 55 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q79"
@@ -6394,6 +7307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q73",
     "type": "flashcards",
+    "ordinal": 73,
     "label": "Some people think that cinemas will one day close due to the popularity of online streaming services for films and series. Do you agree or disagree? (2023)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q73 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q73"
@@ -6401,6 +7315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q87",
     "type": "flashcards",
+    "ordinal": 87,
     "label": "Some people think that companies should provide employees with exercise time during the day. What is your opinion about this? (2016)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q87 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q87"
@@ -6408,6 +7323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q22",
     "type": "flashcards",
+    "ordinal": 22,
     "label": "Some people think that current environmental issues are global problems and should therefore be dealt with by the government while others believe that these problems can only be ta",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q22 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q22"
@@ -6415,6 +7331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q35",
     "type": "flashcards",
+    "ordinal": 35,
     "label": "Some people think that dangerous sports should be banned, while others think people should be free to choose. Discuss both views and give your opinion. (Reported 2017, 2020)",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q35 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q35"
@@ -6422,6 +7339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q30",
     "type": "flashcards",
+    "ordinal": 30,
     "label": "Some people think that e-books are the death of paper books, while others think that paper books will never disappear. Discuss both sides and give your opinion.",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q30 · 48 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q30"
@@ -6429,6 +7347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q13",
     "type": "flashcards",
+    "ordinal": 13,
     "label": "Some people think that educated people are more valuable than people who have learned skills through experience. Do you think that educated people are the most valuable for society",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q13 · 56 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q13"
@@ -6436,6 +7355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q105",
     "type": "flashcards",
+    "ordinal": 105,
     "label": "Some people think that employers should ensure a supportive and pleasant work environment where each employee is respected and valued equally, while others think employers should f",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q105 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q105"
@@ -6443,6 +7363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q75",
     "type": "flashcards",
+    "ordinal": 75,
     "label": "Some people think that foreign films have a negative impact on local culture. To what extent do you agree or disagree? (2020)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q75 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q75"
@@ -6450,6 +7371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q42",
     "type": "flashcards",
+    "ordinal": 42,
     "label": "Some people think that in order to deal with the problem of congestion in cities, privately owned vehicles should be banned in city centers, while others consider this to be an unr",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q42 · 73 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q42"
@@ -6457,6 +7379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q97",
     "type": "flashcards",
+    "ordinal": 97,
     "label": "Some people think that in order to solve traffic and transportation problems people should be encouraged to live in cities rather than in suburbs or in the countryside. To what ext",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q97 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q97"
@@ -6464,6 +7387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q9",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "Some people think that intelligence is innate, while others think that we can improve our intelligence through learning. Discuss both sides and give your opinion. (common question)",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q9 · 71 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q9"
@@ -6471,6 +7395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q85",
     "type": "flashcards",
+    "ordinal": 85,
     "label": "Some people think that introducing children to team sports is the best way to teach children teamwork. To what extent do you agree? (2023)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q85 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q85"
@@ -6478,6 +7403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q18",
     "type": "flashcards",
+    "ordinal": 18,
     "label": "Some people think that it is beneficial for old people to learn something new while others believe that once a person is past 65 years of age it is too late to learn. What is your ",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q18 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q18"
@@ -6485,6 +7411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q7",
     "type": "flashcards",
+    "ordinal": 7,
     "label": "Some people think that it is better for a country’s economy for people to spend money, while others believe that it would be better for people to save money. Discuss both sides and",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q7 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q7"
@@ -6492,6 +7419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q25",
     "type": "flashcards",
+    "ordinal": 25,
     "label": "Some people think that it should be compulsory for people to retake their driving test every 5 years. What are the advantages and disadvantages of doing this?",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q25 · 61 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q25"
@@ -6499,6 +7427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q26",
     "type": "flashcards",
+    "ordinal": 26,
     "label": "Some people think that old buildings should be protected, while others believe that they should be replaced by newer buildings. Discuss both sides and give your opinion. (appears m",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q26 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q26"
@@ -6506,6 +7435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q15",
     "type": "flashcards",
+    "ordinal": 15,
     "label": "Some people think that orator skills are essential for success. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q15 · 53 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q15"
@@ -6513,6 +7443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q17",
     "type": "flashcards",
+    "ordinal": 17,
     "label": "Some people think that parents have the greatest influence on their child’s academic development, while others think that a child’s teacher has more influence. Discuss both sides a",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q17 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q17"
@@ -6520,6 +7451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q48",
     "type": "flashcards",
+    "ordinal": 48,
     "label": "Some people think that people should choose their job based on income in order to provide security for their family. Do you think money is an important factor when choosing a job? ",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q48 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q48"
@@ -6527,6 +7459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q16",
     "type": "flashcards",
+    "ordinal": 16,
     "label": "Some people think that people skills are essential for success. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q16 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q16"
@@ -6534,6 +7467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q34",
     "type": "flashcards",
+    "ordinal": 34,
     "label": "Some people think that poverty is the reason behind most crimes. Do you agree or disagree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q34 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q34"
@@ -6541,6 +7475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q25",
     "type": "flashcards",
+    "ordinal": 25,
     "label": "Some people think that public health is the responsibility of the government while others think that people should be responsible for their own health. Discuss both sides and give ",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q25 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q25"
@@ -6548,6 +7483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q16",
     "type": "flashcards",
+    "ordinal": 16,
     "label": "Some people think that schools should invest more money in technology, such as more computers, while others think more money should be spent on teachers. Discuss both views and giv",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q16 · 73 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q16"
@@ -6555,6 +7491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q34",
     "type": "flashcards",
+    "ordinal": 34,
     "label": "Some people think that space exploration is a waste of resources, while others think that it is essential for mankind to continue to explore the universe in which we live. Discuss ",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q34 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q34"
@@ -6562,6 +7499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q36",
     "type": "flashcards",
+    "ordinal": 36,
     "label": "Some people think that sport teaches children how to compete, while others believe that children learn team work. Discuss both views and give your opinion. (frequent question most ",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q36 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q36"
@@ -6569,6 +7507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q90",
     "type": "flashcards",
+    "ordinal": 90,
     "label": "Some people think that sports involving violence, such as boxing and martial arts, should be banned from TV as well as from international sporting competitions. To what extent do y",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q90 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q90"
@@ -6576,6 +7515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q39",
     "type": "flashcards",
+    "ordinal": 39,
     "label": "Some people think that students in high school should not waste their time studying literature, such as poems and novels. Do you agree? (2020)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q39 · 57 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q39"
@@ -6583,6 +7523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q12",
     "type": "flashcards",
+    "ordinal": 12,
     "label": "Some people think that teachers should be able to ask disruptive children to leave the class. Do you think it is the best way to deal with a disruptive child in the classroom? What",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q12 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q12"
@@ -6590,6 +7531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q8",
     "type": "flashcards",
+    "ordinal": 8,
     "label": "Some people think that teenagers are happier than adults, but others do not agree. Discuss both sides and give your opinion.",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q8 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q8"
@@ -6597,6 +7539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q24",
     "type": "flashcards",
+    "ordinal": 24,
     "label": "Some people think that the government is responsible for the rise in obesity in children, while others think it is the fault of the parents. Discuss both sides and give your opinio",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q24 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q24"
@@ -6604,6 +7547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q11",
     "type": "flashcards",
+    "ordinal": 11,
     "label": "Some people think that the government should be responsible for crime prevention, while others believe that it is the responsibility of the individual to protect themselves. Discus",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q11 · 57 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q11"
@@ -6611,6 +7555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q53",
     "type": "flashcards",
+    "ordinal": 53,
     "label": "Some people think that the government should give money to creative people, such as artists and musicians. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q53 · 61 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q53"
@@ -6618,6 +7563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q6",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "Some people think that the only way to have success in business is to have a unique product. What factors, do you think, influence the success of a company?",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q6 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q6"
@@ -6625,6 +7571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q6",
     "type": "flashcards",
+    "ordinal": 6,
     "label": "Some people think that the only way to judge someone’s success in business is by the amount of money they make. Is money a true indicator of the success of a business? In what othe",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q6 · 63 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q6"
@@ -6632,6 +7579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q35",
     "type": "flashcards",
+    "ordinal": 35,
     "label": "Some people think that the parents of children who commit crime should also receive a punishment. Do you agree or disagree? (2020)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q35 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q35"
@@ -6639,6 +7587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q23",
     "type": "flashcards",
+    "ordinal": 23,
     "label": "Some people think that the role of parents is to discipline their children and teach them about right and wrong. Other people consider that the main responsibility of parents is to",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q23 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q23"
@@ -6646,6 +7595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q95",
     "type": "flashcards",
+    "ordinal": 95,
     "label": "Some people think that when a person travels into a different culture they should adapt to the local practices and customs. To what extent do you agree? (appears most years in the ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q95 · 57 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q95"
@@ -6653,6 +7603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q5",
     "type": "flashcards",
+    "ordinal": 5,
     "label": "Some people think that when recruiting, companies should aim to take on people who are innovative and able to work independently while others consider they should recruit people wh",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q5 · 75 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q5"
@@ -6660,6 +7611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q26",
     "type": "flashcards",
+    "ordinal": 26,
     "label": "Some people think that women are generally more peaceful than men as their characters are naturally more nurturing than aggressive. To what extent do you agree with this?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q26 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q26"
@@ -6667,6 +7619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q30",
     "type": "flashcards",
+    "ordinal": 30,
     "label": "Some people think that women should not be allowed to work in the police force. Do you agree or disagree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q30 · 71 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q30"
@@ -6674,6 +7627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q69",
     "type": "flashcards",
+    "ordinal": 69,
     "label": "Some people think that you can never become fluent in a language unless you have spent time living or working in that country. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q69 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q69"
@@ -6681,6 +7635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q43",
     "type": "flashcards",
+    "ordinal": 43,
     "label": "Some people think the best way to solve global environmental problems is to increase the cost of fuel. To what extent do you agree or disagree? (Reported 2017, Academic Test)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q43 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q43"
@@ -6688,6 +7643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q20",
     "type": "flashcards",
+    "ordinal": 20,
     "label": "Some people with a good education and experience in their field decide to move abroad to work. Why do you think that is? What problems does this cause?",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q20 · 57 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q20"
@@ -6695,6 +7651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q67",
     "type": "flashcards",
+    "ordinal": 67,
     "label": "Some schools are no longer teaching children how to write with a pen. Do you think children should learn handwriting skills? (2024)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q67 · 55 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q67"
@@ -6702,6 +7659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q9",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "Some schools are very strict about their school uniforms and the appearance of their pupils, while other schools have a very relaxed dress code. What are the advantages and disadva",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q9 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q9"
@@ -6709,6 +7667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q33",
     "type": "flashcards",
+    "ordinal": 33,
     "label": "Some scientists think that there are intelligent life forms on other planets and messages should be sent to contact them. Other scientists think it is a bad idea and would be dange",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q33 · 57 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q33"
@@ -6716,6 +7675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q41",
     "type": "flashcards",
+    "ordinal": 41,
     "label": "The best way to help underachieving pupils is to have compulsory after school activities which they must attend. This way they will become more involved in school and their grades ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q41 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q41"
@@ -6723,6 +7683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q59",
     "type": "flashcards",
+    "ordinal": 59,
     "label": "The best way to improve health is to exercise daily. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q59 · 43 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q59"
@@ -6730,6 +7691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q27",
     "type": "flashcards",
+    "ordinal": 27,
     "label": "The crime rate nowadays is decreasing compared to the past due to advance technology which can prevent and solve crime. Do you agree or disagree? (Reported 2017, 2021 Academic Test",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q27 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q27"
@@ -6737,6 +7699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q32",
     "type": "flashcards",
+    "ordinal": 32,
     "label": "The death penalty is the best way to control and reduce serious crime. To what extent do you agree? (2018, 2020)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q32 · 62 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q32"
@@ -6744,6 +7707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q23",
     "type": "flashcards",
+    "ordinal": 23,
     "label": "The development of tourism contributed to English becoming the most prominent language in the world. Some people think this will lead to English becoming the only language to be sp",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q23 · 66 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q23"
@@ -6751,6 +7715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q14",
     "type": "flashcards",
+    "ordinal": 14,
     "label": "The gap between education in richer countries and education in poorer countries is a growing concern. What solutions can you suggest to deal with this situation?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q14 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q14"
@@ -6758,6 +7723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q84",
     "type": "flashcards",
+    "ordinal": 84,
     "label": "The government is spending a lot of money to discover life on other planets. Some people think that the government is wasting money and should spend more money addressing the probl",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q84 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q84"
@@ -6765,6 +7731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q37",
     "type": "flashcards",
+    "ordinal": 37,
     "label": "The government should allocate more funding to teaching sciences rather than other subjects in order for a country to develop and progress. To what extent do you agree? (Reported 2",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q37 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q37"
@@ -6772,6 +7739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q54",
     "type": "flashcards",
+    "ordinal": 54,
     "label": "The government should lower the budget on the arts in order to allocate more money to education. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q54 · 58 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q54"
@@ -6779,6 +7747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q44",
     "type": "flashcards",
+    "ordinal": 44,
     "label": "The government should reduce the amount of money spent on local environmental problems and instead increase funding into urgent and more threatening issues such as global warming. ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q44 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q44"
@@ -6786,6 +7755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q98",
     "type": "flashcards",
+    "ordinal": 98,
     "label": "The impact that the growing demand for more flights has had on the environment is a major concern for many countries. Some people believe that one way to limit the number of people",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q98 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q98"
@@ -6793,6 +7763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q33",
     "type": "flashcards",
+    "ordinal": 33,
     "label": "The majority of news being reported is bad news such as wars, famines, accidents and crime. Why do you think that is? Do you think the news should be a balance of both good and bad",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q33 · 63 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q33"
@@ -6800,6 +7771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q9",
     "type": "flashcards",
+    "ordinal": 9,
     "label": "The number of people who are at risk of serious health problems due to being overweight is increasing. What is the reason for the growth of overweight people in society? How can th",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q9 · 66 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q9"
@@ -6807,6 +7779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q30",
     "type": "flashcards",
+    "ordinal": 30,
     "label": "The number of people working online from home has grown in some countries. What advantages and disadvantages can come of this trend?",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q30 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q30"
@@ -6814,6 +7787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q2",
     "type": "flashcards",
+    "ordinal": 2,
     "label": "The performance of staff can have a significant impact on the success of a company. What can companies do to increase staff productivity?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q2 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q2"
@@ -6821,6 +7795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q12",
     "type": "flashcards",
+    "ordinal": 12,
     "label": "The population of most cities is growing as people move to cities to find work and new opportunities. What problems does overpopulation in cities cause? How can these problems be s",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q12 · 52 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q12"
@@ -6828,6 +7803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q56",
     "type": "flashcards",
+    "ordinal": 56,
     "label": "The prevention of health problems and illness is more important than treatment and medicine. Government funding should reflect this. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q56 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q56"
@@ -6835,6 +7811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q12",
     "type": "flashcards",
+    "ordinal": 12,
     "label": "The reason that most individuals are in debit is due to the overuse as well as irresponsible use of credit cards. Banks should not issue credit cards unless they are completely sur",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q12 · 81 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q12"
@@ -6842,6 +7819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q38",
     "type": "flashcards",
+    "ordinal": 38,
     "label": "The role of education is to prepare children for the modern world. Schools should cut art and music out of the curriculum so that children can focus on useful subjects such as info",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q38 · 55 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q38"
@@ -6849,6 +7827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q51",
     "type": "flashcards",
+    "ordinal": 51,
     "label": "The values we gain from our parents and family have more influence over our future success than any skills or knowledge learned in school. To what extent do you agree or disagree? ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q51 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q51"
@@ -6856,6 +7835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q21",
     "type": "flashcards",
+    "ordinal": 21,
     "label": "The way someone dresses speaks volumes about their personality. To what extent do you agree? (common question)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q21 · 68 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q21"
@@ -6863,6 +7843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q27",
     "type": "flashcards",
+    "ordinal": 27,
     "label": "These days people are living into their 90’s and beyond. As a result, there is increasing concern about care for the elderly. Do you think it is the responsibility of the family to",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q27 · 74 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q27"
@@ -6870,6 +7851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q42",
     "type": "flashcards",
+    "ordinal": 42,
     "label": "Tourism is an important industry in many countries. What benefits do you think tourism brings to individuals and society? (2017, 2021 reworded)",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q42 · 61 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q42"
@@ -6877,6 +7859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q70",
     "type": "flashcards",
+    "ordinal": 70,
     "label": "Violence in the media promotes violence in society. To what extent do you agree? (repeated topic)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q70 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q70"
@@ -6884,6 +7867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q10",
     "type": "flashcards",
+    "ordinal": 10,
     "label": "Walking is known to be beneficial for health and yet fewer and fewer people are walking these days. What are the reasons for this? What can be done to tackle this problem?",
     "detail": "IELTS / Writing / Task 2 / Problem And Cause / EdmundBd9CnS Q10 · 59 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q10"
@@ -6891,6 +7875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q33",
     "type": "flashcards",
+    "ordinal": 33,
     "label": "While it is sometimes thought that prison is the best place for criminals, others believe that there are better ways to deal with them. What is your opinion?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q33 · 71 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q33"
@@ -6898,6 +7883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q21",
     "type": "flashcards",
+    "ordinal": 21,
     "label": "While some people consider global warming to be the most pressing environmental problem which we have at the moment, others believe that deforestation has a more devastating impact",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q21 · 69 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q21"
@@ -6905,6 +7891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q88",
     "type": "flashcards",
+    "ordinal": 88,
     "label": "With an increasing overweight population some people think universities should make sport a compulsory module on all degree courses. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q88 · 73 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q88"
@@ -6912,6 +7899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q22",
     "type": "flashcards",
+    "ordinal": 22,
     "label": "With an increasing population communicating via the internet and text messaging, face to face communication will become a thing of the past. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q22 · 73 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q22"
@@ -6919,6 +7907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q18",
     "type": "flashcards",
+    "ordinal": 18,
     "label": "With deforestation, urban development and illegal hunting, many animal species are becoming endangered as they lose their habitat and some are even threatened to the point of extin",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q18 · 61 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q18"
@@ -6926,6 +7915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q17",
     "type": "flashcards",
+    "ordinal": 17,
     "label": "With increasing populations and ever growing urban centers, many countries are losing their natural beauty spots. What benefits are there to protecting places of natural beauty? Ho",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q17 · 60 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q17"
@@ -6933,6 +7923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q94",
     "type": "flashcards",
+    "ordinal": 94,
     "label": "With more people choosing to watch travel programs on TV and social media, fewer people will be willing to pay the costs of traveling abroad. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q94 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q94"
@@ -6940,6 +7931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q37",
     "type": "flashcards",
+    "ordinal": 37,
     "label": "With the development of modern society is the loss of traditional ways of life. Is it important to keep our traditional ways of life? How can this be achieved?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q37 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q37"
@@ -6947,6 +7939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q23",
     "type": "flashcards",
+    "ordinal": 23,
     "label": "With the development of online communication, people will never be alone and will always be able to make new friends. To what extent do you agree? (2022)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q23 · 65 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q23"
@@ -6954,6 +7947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q72",
     "type": "flashcards",
+    "ordinal": 72,
     "label": "With the development of online media, there is no future for the radio. To what extent do you agree? (2016, 2017, 2018, 2020)",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q72 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q72"
@@ -6961,811 +7955,927 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q41",
     "type": "flashcards",
+    "ordinal": 41,
     "label": "With the development of technology children are now living in a world that is completely different to what it was 50 years ago. What problems does this cause for society and the fa",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q41 · 67 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q41"
   },
   {
-    "id": "sentence:ss80",
+    "id": "sentence:ss1",
     "type": "sentence-structure",
-    "label": "「… is that …」句",
-    "detail": "Using … is that … to introduce an explanation",
-    "url": "sentence-structure.html?lesson=ss80"
+    "ordinal": 1,
+    "label": "#1 · 「to + 動詞」表達目的",
+    "detail": "Sentence Structure #1 · Using ‘to + verb’ to express purpose",
+    "url": "sentence-structure.html?lesson=ss1"
   },
   {
-    "id": "sentence:ss10",
+    "id": "sentence:ss2",
     "type": "sentence-structure",
-    "label": "「A few / A little 句」",
-    "detail": "Using a few and a little to express a small positive quantity",
-    "url": "sentence-structure.html?lesson=ss10"
+    "ordinal": 2,
+    "label": "#2 · 「形容詞句 → 形容詞＋名詞句」",
+    "detail": "Sentence Structure #2 · Adjective to adjective + noun",
+    "url": "sentence-structure.html?lesson=ss2"
   },
   {
-    "id": "sentence:ss102",
+    "id": "sentence:ss3",
     "type": "sentence-structure",
-    "label": "「Adjective + with / without」描述條件與程度",
-    "detail": "Using adjective + with / without for conditions and degree",
-    "url": "sentence-structure.html?lesson=ss102"
-  },
-  {
-    "id": "sentence:ss101",
-    "type": "sentence-structure",
-    "label": "「all + 分類名詞 + of」表達「各式各樣／所有類型」",
-    "detail": "Using all + classification word + of",
-    "url": "sentence-structure.html?lesson=ss101"
+    "ordinal": 3,
+    "label": "#3 · 「形容詞 + to-infinitive 句」",
+    "detail": "Sentence Structure #3 · Adjective + to-infinitive",
+    "url": "sentence-structure.html?lesson=ss3"
   },
   {
     "id": "sentence:ss4",
     "type": "sentence-structure",
-    "label": "「Although 句」表達讓步與對比",
-    "detail": "Using Although to express concession and contrast",
+    "ordinal": 4,
+    "label": "#4 · 「Although 句」表達讓步與對比",
+    "detail": "Sentence Structure #4 · Using Although to express concession and contrast",
     "url": "sentence-structure.html?lesson=ss4"
   },
   {
-    "id": "sentence:ss40",
+    "id": "sentence:ss5",
     "type": "sentence-structure",
-    "label": "「Another」表達同類事物中再多一個",
-    "detail": "Using another to add one more person, thing or idea",
-    "url": "sentence-structure.html?lesson=ss40"
-  },
-  {
-    "id": "sentence:ss93",
-    "type": "sentence-structure",
-    "label": "「as + 形容詞 + as」表示程度相同",
-    "detail": "Using as + adjective + as to express equal degree",
-    "url": "sentence-structure.html?lesson=ss93"
-  },
-  {
-    "id": "sentence:ss76",
-    "type": "sentence-structure",
-    "label": "「As if / As though」句：表達「好像……一樣」",
-    "detail": "Using As if / As though to mean ‘as though something were true’",
-    "url": "sentence-structure.html?lesson=ss76"
-  },
-  {
-    "id": "sentence:ss59",
-    "type": "sentence-structure",
-    "label": "「As long as」表達「只要／條件是」",
-    "detail": "Using as long as to state a condition",
-    "url": "sentence-structure.html?lesson=ss59"
-  },
-  {
-    "id": "sentence:ss110",
-    "type": "sentence-structure",
-    "label": "「As such 句」",
-    "detail": "Using As such for a consequence or role",
-    "url": "sentence-structure.html?lesson=ss110"
-  },
-  {
-    "id": "sentence:ss30",
-    "type": "sentence-structure",
-    "label": "「As 句」表達「隨着時間或情況變化」",
-    "detail": "Using As to describe changes over time",
-    "url": "sentence-structure.html?lesson=ss30"
-  },
-  {
-    "id": "sentence:ss31",
-    "type": "sentence-structure",
-    "label": "「As＋身份」表達角色或身分",
-    "detail": "Using As to express identity or role",
-    "url": "sentence-structure.html?lesson=ss31"
-  },
-  {
-    "id": "sentence:ss64",
-    "type": "sentence-structure",
-    "label": "「be about to + 動詞」表示「正準備／即將」",
-    "detail": "Using be about to for an imminent action",
-    "url": "sentence-structure.html?lesson=ss64"
-  },
-  {
-    "id": "sentence:ss68",
-    "type": "sentence-structure",
-    "label": "「Be used to + 名詞／V-ing」表示「習慣於……」",
-    "detail": "Using Be used to for being accustomed to something",
-    "url": "sentence-structure.html?lesson=ss68"
-  },
-  {
-    "id": "sentence:ss9",
-    "type": "sentence-structure",
-    "label": "「between A and B」句型",
-    "detail": "Using between A and B to express relationships between two items",
-    "url": "sentence-structure.html?lesson=ss9"
-  },
-  {
-    "id": "sentence:ss103",
-    "type": "sentence-structure",
-    "label": "「By / With / From 功能介詞句」",
-    "detail": "Using By, With and From as functional prepositional phrases",
-    "url": "sentence-structure.html?lesson=ss103"
-  },
-  {
-    "id": "sentence:ss19",
-    "type": "sentence-structure",
-    "label": "「By contrast」轉折句",
-    "detail": "Using By contrast to introduce a clear contrast",
-    "url": "sentence-structure.html?lesson=ss19"
-  },
-  {
-    "id": "sentence:ss78",
-    "type": "sentence-structure",
-    "label": "「By itself」表示「本身／獨自／自行」",
-    "detail": "Using By itself to mean ‘on its own’, ‘alone’ or ‘without help’",
-    "url": "sentence-structure.html?lesson=ss78"
+    "ordinal": 5,
+    "label": "#5 · 「While = Although」表達「雖然……但……」",
+    "detail": "Sentence Structure #5 · Using While as Although to express concession and contrast",
+    "url": "sentence-structure.html?lesson=ss5"
   },
   {
     "id": "sentence:ss6",
     "type": "sentence-structure",
-    "label": "「Despite 句」表達「儘管……仍然……」",
-    "detail": "Using Despite to express concession",
+    "ordinal": 6,
+    "label": "#6 · 「Despite 句」表達「儘管……仍然……」",
+    "detail": "Sentence Structure #6 · Using Despite to express concession",
     "url": "sentence-structure.html?lesson=ss6"
   },
   {
-    "id": "sentence:ss100",
+    "id": "sentence:ss7",
     "type": "sentence-structure",
-    "label": "「Different X of 句」",
-    "detail": "Using different kinds, sorts, types and forms of",
-    "url": "sentence-structure.html?lesson=ss100"
-  },
-  {
-    "id": "sentence:ss41",
-    "type": "sentence-structure",
-    "label": "「Each + 單數名詞」逐一表達",
-    "detail": "Using each + singular noun to focus on individuals",
-    "url": "sentence-structure.html?lesson=ss41"
-  },
-  {
-    "id": "sentence:ss43",
-    "type": "sentence-structure",
-    "label": "「Each + 單數名詞」逐一表達",
-    "detail": "Using each + singular noun for individual distribution",
-    "url": "sentence-structure.html?lesson=ss43"
-  },
-  {
-    "id": "sentence:ss44",
-    "type": "sentence-structure",
-    "label": "「Each other / One another」表達「互相／彼此」",
-    "detail": "Using each other and one another for reciprocal actions",
-    "url": "sentence-structure.html?lesson=ss44"
-  },
-  {
-    "id": "sentence:ss104",
-    "type": "sentence-structure",
-    "label": "「Either ... or ...」表示兩者擇一",
-    "detail": "Using Either ... or ... to present two alternatives",
-    "url": "sentence-structure.html?lesson=ss104"
-  },
-  {
-    "id": "sentence:ss22",
-    "type": "sentence-structure",
-    "label": "「Even if」句型",
-    "detail": "Using Even if to express an unchanged result under a possible condition",
-    "url": "sentence-structure.html?lesson=ss22"
-  },
-  {
-    "id": "sentence:ss20",
-    "type": "sentence-structure",
-    "label": "「Even 句」表示「甚至／連……也」",
-    "detail": "Using Even to express “even” or “even ... too”",
-    "url": "sentence-structure.html?lesson=ss20"
-  },
-  {
-    "id": "sentence:ss42",
-    "type": "sentence-structure",
-    "label": "「Every + 單數名詞」表達每一位或每一項",
-    "detail": "Using every + singular noun for all members of a group",
-    "url": "sentence-structure.html?lesson=ss42"
-  },
-  {
-    "id": "sentence:ss46",
-    "type": "sentence-structure",
-    "label": "「Everything / Anything / Something」表達事物範圍",
-    "detail": "Using something, anything and everything",
-    "url": "sentence-structure.html?lesson=ss46"
-  },
-  {
-    "id": "sentence:ss51",
-    "type": "sentence-structure",
-    "label": "「Everywhere / Anywhere / Somewhere + 形容詞」句",
-    "detail": "Using everywhere, anywhere and somewhere with adjectives",
-    "url": "sentence-structure.html?lesson=ss51"
-  },
-  {
-    "id": "sentence:ss48",
-    "type": "sentence-structure",
-    "label": "「Everywhere / Anywhere」表達所有地方或任何地方",
-    "detail": "Using everywhere and anywhere for place",
-    "url": "sentence-structure.html?lesson=ss48"
-  },
-  {
-    "id": "sentence:ss11",
-    "type": "sentence-structure",
-    "label": "「Few / Little」句型 表示「很少／幾乎沒有」",
-    "detail": "Using few and little to express scarcity",
-    "url": "sentence-structure.html?lesson=ss11"
+    "ordinal": 7,
+    "label": "#7 · 「whereas」對比句",
+    "detail": "Sentence Structure #7 · Using whereas to express contrast",
+    "url": "sentence-structure.html?lesson=ss7"
   },
   {
     "id": "sentence:ss8",
     "type": "sentence-structure",
-    "label": "「From X to Y」句型",
-    "detail": "Using From X to Y to express a complete range",
+    "ordinal": 8,
+    "label": "#8 · 「From X to Y」句型",
+    "detail": "Sentence Structure #8 · Using From X to Y to express a complete range",
     "url": "sentence-structure.html?lesson=ss8"
   },
   {
-    "id": "sentence:ss55",
+    "id": "sentence:ss9",
     "type": "sentence-structure",
-    "label": "「Gerund 作主語」把活動變成句子主題",
-    "detail": "Using a gerund phrase as the sentence subject",
-    "url": "sentence-structure.html?lesson=ss55"
+    "ordinal": 9,
+    "label": "#9 · 「between A and B」句型",
+    "detail": "Sentence Structure #9 · Using between A and B to express relationships between two items",
+    "url": "sentence-structure.html?lesson=ss9"
   },
   {
-    "id": "sentence:ss23",
+    "id": "sentence:ss10",
     "type": "sentence-structure",
-    "label": "「Given that 句」表達「考慮到／鑑於某個事實」",
-    "detail": "Using Given that to introduce a known fact or relevant circumstance",
-    "url": "sentence-structure.html?lesson=ss23"
+    "ordinal": 10,
+    "label": "#10 · 「A few / A little 句」",
+    "detail": "Sentence Structure #10 · Using a few and a little to express a small positive quantity",
+    "url": "sentence-structure.html?lesson=ss10"
   },
   {
-    "id": "sentence:ss82",
+    "id": "sentence:ss11",
     "type": "sentence-structure",
-    "label": "「Granted, … However, …」先讓步、後轉折句",
-    "detail": "Using Granted, … However, … to concede a point before presenting a contrast",
-    "url": "sentence-structure.html?lesson=ss82"
+    "ordinal": 11,
+    "label": "#11 · 「Few / Little」句型 表示「很少／幾乎沒有」",
+    "detail": "Sentence Structure #11 · Using few and little to express scarcity",
+    "url": "sentence-structure.html?lesson=ss11"
   },
   {
-    "id": "sentence:ss28",
+    "id": "sentence:ss12",
     "type": "sentence-structure",
-    "label": "「Had better」表示強烈建議或警告",
-    "detail": "Using Had better for strong advice or a warning",
-    "url": "sentence-structure.html?lesson=ss28"
+    "ordinal": 12,
+    "label": "#12 · 「without + V-ing」句型",
+    "detail": "Sentence Structure #12 · Using without + V-ing to express an omitted action or requirement",
+    "url": "sentence-structure.html?lesson=ss12"
   },
   {
-    "id": "sentence:ss94",
+    "id": "sentence:ss13",
     "type": "sentence-structure",
-    "label": "「Hardly / Rarely / Barely」近乎否定句",
-    "detail": "Hardly / Rarely / Barely Near-Negative Structures",
-    "url": "sentence-structure.html?lesson=ss94"
+    "ordinal": 13,
+    "label": "#13 · 「With +（名詞）+ -ing」句型交代背景情況",
+    "detail": "Sentence Structure #13 · Using with + noun + -ing to introduce background circumstances",
+    "url": "sentence-structure.html?lesson=ss13"
   },
   {
-    "id": "sentence:ss61",
+    "id": "sentence:ss14",
     "type": "sentence-structure",
-    "label": "「have no choice but to + 動詞」表達別無選擇",
-    "detail": "Using have no choice but to to express no alternative",
-    "url": "sentence-structure.html?lesson=ss61"
+    "ordinal": 14,
+    "label": "#14 · 「So + Must」句型",
+    "detail": "Sentence Structure #14 · Using so + must to connect a situation with a necessary action",
+    "url": "sentence-structure.html?lesson=ss14"
   },
   {
-    "id": "sentence:ss62",
+    "id": "sentence:ss15",
     "type": "sentence-structure",
-    "label": "「If only 句」表達願望、遺憾或強烈希望",
-    "detail": "Using If only to express wishes, regrets and strong hopes",
-    "url": "sentence-structure.html?lesson=ss62"
-  },
-  {
-    "id": "sentence:ss26",
-    "type": "sentence-structure",
-    "label": "「in case 句」表示「以防／以免」",
-    "detail": "Using in case to express a precaution",
-    "url": "sentence-structure.html?lesson=ss26"
-  },
-  {
-    "id": "sentence:ss53",
-    "type": "sentence-structure",
-    "label": "「In order to + 動詞」表達目的",
-    "detail": "Using in order to + verb to express purpose",
-    "url": "sentence-structure.html?lesson=ss53"
+    "ordinal": 15,
+    "label": "#15 · 「whose」句型",
+    "detail": "Sentence Structure #15 · Using whose to express ownership or a close connection",
+    "url": "sentence-structure.html?lesson=ss15"
   },
   {
     "id": "sentence:ss16",
     "type": "sentence-structure",
-    "label": "「Instead of 」句型",
-    "detail": "Using instead of to show one choice in place of another",
+    "ordinal": 16,
+    "label": "#16 · 「Instead of 」句型",
+    "detail": "Sentence Structure #16 · Using instead of to show one choice in place of another",
     "url": "sentence-structure.html?lesson=ss16"
   },
   {
     "id": "sentence:ss17",
     "type": "sentence-structure",
-    "label": "「Instead 句」",
-    "detail": "Using Instead to show a replacement choice or action",
+    "ordinal": 17,
+    "label": "#17 · 「Instead 句」",
+    "detail": "Sentence Structure #17 · Using Instead to show a replacement choice or action",
     "url": "sentence-structure.html?lesson=ss17"
-  },
-  {
-    "id": "sentence:ss97",
-    "type": "sentence-structure",
-    "label": "「Inversion 倒裝句」",
-    "detail": "Inversion",
-    "url": "sentence-structure.html?lesson=ss97"
-  },
-  {
-    "id": "sentence:ss36",
-    "type": "sentence-structure",
-    "label": "「It is + 形容詞 + that 句」表達判斷、評價或可能性",
-    "detail": "Using It + adjective + that-clause for judgement, evaluation or possibility",
-    "url": "sentence-structure.html?lesson=ss36"
-  },
-  {
-    "id": "sentence:ss35",
-    "type": "sentence-structure",
-    "label": "「It is + 形容詞 +（for + 人）+ to + 動詞」句",
-    "detail": "Using It + adjective + (for someone) + to + verb",
-    "url": "sentence-structure.html?lesson=ss35"
-  },
-  {
-    "id": "sentence:ss66",
-    "type": "sentence-structure",
-    "label": "「It’s time + 過去式」表示「已經拖延了一段時間，現在是時候應該……了」",
-    "detail": "Using It’s time + past tense for overdue action",
-    "url": "sentence-structure.html?lesson=ss66"
-  },
-  {
-    "id": "sentence:ss65",
-    "type": "sentence-structure",
-    "label": "「It’s time to」句：表示「是時候採取行動」",
-    "detail": "Using It’s time to to signal the moment for action",
-    "url": "sentence-structure.html?lesson=ss65"
-  },
-  {
-    "id": "sentence:ss98",
-    "type": "sentence-structure",
-    "label": "「Just as + 形容詞／副詞」表達「同樣程度」",
-    "detail": "Using just as + adjective / adverb + as to express equal degree",
-    "url": "sentence-structure.html?lesson=ss98"
-  },
-  {
-    "id": "sentence:ss74",
-    "type": "sentence-structure",
-    "label": "「Let alone」句",
-    "detail": "Using Let alone to introduce a more difficult or extreme idea",
-    "url": "sentence-structure.html?lesson=ss74"
-  },
-  {
-    "id": "sentence:ss96",
-    "type": "sentence-structure",
-    "label": "「Negative Adverbs of Frequency 否定頻率副詞句」",
-    "detail": "Negative Adverbs of Frequency",
-    "url": "sentence-structure.html?lesson=ss96"
-  },
-  {
-    "id": "sentence:ss105",
-    "type": "sentence-structure",
-    "label": "「Neither...nor...」表示「兩者都不」",
-    "detail": "Using Neither...nor... to make both alternatives negative",
-    "url": "sentence-structure.html?lesson=ss105"
-  },
-  {
-    "id": "sentence:ss69",
-    "type": "sentence-structure",
-    "label": "「Nonetheless / Nevertheless 句」",
-    "detail": "Using Nonetheless and Nevertheless for unexpected contrast",
-    "url": "sentence-structure.html?lesson=ss69"
-  },
-  {
-    "id": "sentence:ss21",
-    "type": "sentence-structure",
-    "label": "「Not even 句」",
-    "detail": "Using Not even to strengthen a negative statement",
-    "url": "sentence-structure.html?lesson=ss21"
-  },
-  {
-    "id": "sentence:ss108",
-    "type": "sentence-structure",
-    "label": "「Not only... but also...」句",
-    "detail": "Using Not only... but also... to add a second point",
-    "url": "sentence-structure.html?lesson=ss108"
-  },
-  {
-    "id": "sentence:ss114",
-    "type": "sentence-structure",
-    "label": "「Not so much A as B」表示「與其說是 A，不如說是 B」",
-    "detail": "Using Not so much A as B for a more accurate emphasis",
-    "url": "sentence-structure.html?lesson=ss114"
-  },
-  {
-    "id": "sentence:ss75",
-    "type": "sentence-structure",
-    "label": "「Not to mention」句",
-    "detail": "Using Not to mention to add another relevant point",
-    "url": "sentence-structure.html?lesson=ss75"
-  },
-  {
-    "id": "sentence:ss45",
-    "type": "sentence-structure",
-    "label": "「One of the」表達群體中的其中一個",
-    "detail": "Using one of the to select one member of a larger group",
-    "url": "sentence-structure.html?lesson=ss45"
-  },
-  {
-    "id": "sentence:ss63",
-    "type": "sentence-structure",
-    "label": "「Only if 句：只有在……條件下才……」",
-    "detail": "Using Only if to express a necessary condition",
-    "url": "sentence-structure.html?lesson=ss63"
-  },
-  {
-    "id": "sentence:ss29",
-    "type": "sentence-structure",
-    "label": "「Otherwise / Or」表達「否則」",
-    "detail": "Using Otherwise / Or to express consequences",
-    "url": "sentence-structure.html?lesson=ss29"
-  },
-  {
-    "id": "sentence:ss24",
-    "type": "sentence-structure",
-    "label": "「Provided that / Providing that」表達必要條件",
-    "detail": "Using Provided that / Providing that to express a necessary condition",
-    "url": "sentence-structure.html?lesson=ss24"
   },
   {
     "id": "sentence:ss18",
     "type": "sentence-structure",
-    "label": "「Rather」句型表達修正或更準確的觀點",
-    "detail": "Using Rather to correct or state a more accurate view",
+    "ordinal": 18,
+    "label": "#18 · 「Rather」句型表達修正或更準確的觀點",
+    "detail": "Sentence Structure #18 · Using Rather to correct or state a more accurate view",
     "url": "sentence-structure.html?lesson=ss18"
   },
   {
-    "id": "sentence:ss90",
+    "id": "sentence:ss19",
     "type": "sentence-structure",
-    "label": "「Sentence 比較句 Comparative」",
-    "detail": "Comparative Sentences with a Complete Than-Clause",
-    "url": "sentence-structure.html?lesson=ss90"
+    "ordinal": 19,
+    "label": "#19 · 「By contrast」轉折句",
+    "detail": "Sentence Structure #19 · Using By contrast to introduce a clear contrast",
+    "url": "sentence-structure.html?lesson=ss19"
   },
   {
-    "id": "sentence:ss73",
+    "id": "sentence:ss20",
     "type": "sentence-structure",
-    "label": "「So + adjective + that」表達程度及結果",
-    "detail": "Using So + adjective + that to express degree and result",
-    "url": "sentence-structure.html?lesson=ss73"
+    "ordinal": 20,
+    "label": "#20 · 「Even 句」表示「甚至／連……也」",
+    "detail": "Sentence Structure #20 · Using Even to express “even” or “even ... too”",
+    "url": "sentence-structure.html?lesson=ss20"
   },
   {
-    "id": "sentence:ss14",
+    "id": "sentence:ss21",
     "type": "sentence-structure",
-    "label": "「So + Must」句型",
-    "detail": "Using so + must to connect a situation with a necessary action",
-    "url": "sentence-structure.html?lesson=ss14"
+    "ordinal": 21,
+    "label": "#21 · 「Not even 句」",
+    "detail": "Sentence Structure #21 · Using Not even to strengthen a negative statement",
+    "url": "sentence-structure.html?lesson=ss21"
   },
   {
-    "id": "sentence:ss81",
+    "id": "sentence:ss22",
     "type": "sentence-structure",
-    "label": "「So as to…」句：表達目的",
-    "detail": "Using So as to… to express purpose",
-    "url": "sentence-structure.html?lesson=ss81"
+    "ordinal": 22,
+    "label": "#22 · 「Even if」句型",
+    "detail": "Sentence Structure #22 · Using Even if to express an unchanged result under a possible condition",
+    "url": "sentence-structure.html?lesson=ss22"
   },
   {
-    "id": "sentence:ss60",
+    "id": "sentence:ss23",
     "type": "sentence-structure",
-    "label": "「So long as」表達「只要／條件是」",
-    "detail": "Using So long as to express a condition",
-    "url": "sentence-structure.html?lesson=ss60"
+    "ordinal": 23,
+    "label": "#23 · 「Given that 句」表達「考慮到／鑑於某個事實」",
+    "detail": "Sentence Structure #23 · Using Given that to introduce a known fact or relevant circumstance",
+    "url": "sentence-structure.html?lesson=ss23"
   },
   {
-    "id": "sentence:ss113",
+    "id": "sentence:ss24",
     "type": "sentence-structure",
-    "label": "「So much so that」表示程度強烈及帶出明顯結果",
-    "detail": "Using So much so that for an extreme degree and clear result",
-    "url": "sentence-structure.html?lesson=ss113"
-  },
-  {
-    "id": "sentence:ss54",
-    "type": "sentence-structure",
-    "label": "「So that 目的句」",
-    "detail": "Using so that to express purpose",
-    "url": "sentence-structure.html?lesson=ss54"
-  },
-  {
-    "id": "sentence:ss52",
-    "type": "sentence-structure",
-    "label": "「Someone / Anyone / Everyone + 形容詞」句",
-    "detail": "Using someone, anyone and everyone with adjectives",
-    "url": "sentence-structure.html?lesson=ss52"
-  },
-  {
-    "id": "sentence:ss49",
-    "type": "sentence-structure",
-    "label": "「Something / Anything / Everything + 形容詞」句型",
-    "detail": "Describing indefinite pronouns with following adjectives",
-    "url": "sentence-structure.html?lesson=ss49"
-  },
-  {
-    "id": "sentence:ss50",
-    "type": "sentence-structure",
-    "label": "「Somewhere / Nowhere / Elsewhere + Adj 句」",
-    "detail": "Using somewhere, nowhere and elsewhere to describe places",
-    "url": "sentence-structure.html?lesson=ss50"
-  },
-  {
-    "id": "sentence:ss47",
-    "type": "sentence-structure",
-    "label": "「Somewhere / Nowhere / Elsewhere」表達不定地點",
-    "detail": "Using somewhere, nowhere and elsewhere for place",
-    "url": "sentence-structure.html?lesson=ss47"
-  },
-  {
-    "id": "sentence:ss111",
-    "type": "sentence-structure",
-    "label": "「Such that 句」",
-    "detail": "Using Such that for an arrangement or resulting situation",
-    "url": "sentence-structure.html?lesson=ss111"
-  },
-  {
-    "id": "sentence:ss112",
-    "type": "sentence-structure",
-    "label": "「Such...that...」表示程度與結果",
-    "detail": "Using Such...that... to express degree and result",
-    "url": "sentence-structure.html?lesson=ss112"
-  },
-  {
-    "id": "sentence:ss91",
-    "type": "sentence-structure",
-    "label": "「Superlative 最高比較型（最高級句型）」",
-    "detail": "Superlative Structures",
-    "url": "sentence-structure.html?lesson=ss91"
-  },
-  {
-    "id": "sentence:ss27",
-    "type": "sentence-structure",
-    "label": "「That way」表達做法帶來的結果或好處",
-    "detail": "Using That way to express the result or benefit of an action",
-    "url": "sentence-structure.html?lesson=ss27"
-  },
-  {
-    "id": "sentence:ss109",
-    "type": "sentence-structure",
-    "label": "「The former / The latter 句：前者／後者」",
-    "detail": "Using The former and The latter for the first and second items",
-    "url": "sentence-structure.html?lesson=ss109"
-  },
-  {
-    "id": "sentence:ss85",
-    "type": "sentence-structure",
-    "label": "「The more / less..., the more / less...」成對比較句",
-    "detail": "Correlative Comparative Structure",
-    "url": "sentence-structure.html?lesson=ss85"
-  },
-  {
-    "id": "sentence:ss107",
-    "type": "sentence-structure",
-    "label": "「The sooner..., the better」句",
-    "detail": "Using The sooner..., the better for earlier action",
-    "url": "sentence-structure.html?lesson=ss107"
-  },
-  {
-    "id": "sentence:ss39",
-    "type": "sentence-structure",
-    "label": "「There is / are + -ing」描述場景中正在發生的事情",
-    "detail": "Using There is / are + -ing to describe an unfolding scene",
-    "url": "sentence-structure.html?lesson=ss39"
-  },
-  {
-    "id": "sentence:ss38",
-    "type": "sentence-structure",
-    "label": "「There is / are」表達「有／存在」",
-    "detail": "Using There is / are to express existence",
-    "url": "sentence-structure.html?lesson=ss38"
-  },
-  {
-    "id": "sentence:ss1",
-    "type": "sentence-structure",
-    "label": "「to + 動詞」表達目的",
-    "detail": "Using ‘to + verb’ to express purpose",
-    "url": "sentence-structure.html?lesson=ss1"
-  },
-  {
-    "id": "sentence:ss72",
-    "type": "sentence-structure",
-    "label": "「Too + 形容詞 + to + 動詞」句：表達「太……而不能……」",
-    "detail": "Using Too + adjective + to + verb to express that something is too… to do",
-    "url": "sentence-structure.html?lesson=ss72"
-  },
-  {
-    "id": "sentence:ss67",
-    "type": "sentence-structure",
-    "label": "「Used to 句」表達過去的習慣或情況",
-    "detail": "Using Used to for past habits and situations",
-    "url": "sentence-structure.html?lesson=ss67"
-  },
-  {
-    "id": "sentence:ss57",
-    "type": "sentence-structure",
-    "label": "「V1 + Bare Infinitive」表達容許、促使、幫助與感官經驗",
-    "detail": "Using let, make, have, help and perception verbs with a bare infinitive",
-    "url": "sentence-structure.html?lesson=ss57"
-  },
-  {
-    "id": "sentence:ss58",
-    "type": "sentence-structure",
-    "label": "「V1 + Gerund」動詞後接動名詞",
-    "detail": "Using a first verb followed by a gerund",
-    "url": "sentence-structure.html?lesson=ss58"
-  },
-  {
-    "id": "sentence:ss56",
-    "type": "sentence-structure",
-    "label": "「V1 + To-infinitive」連接態度、決定與行動",
-    "detail": "Using a first verb followed by a to-infinitive",
-    "url": "sentence-structure.html?lesson=ss56"
-  },
-  {
-    "id": "sentence:ss99",
-    "type": "sentence-structure",
-    "label": "「well + 形容詞／過去分詞」句",
-    "detail": "Using well + adjective / past participle",
-    "url": "sentence-structure.html?lesson=ss99"
+    "ordinal": 24,
+    "label": "#24 · 「Provided that / Providing that」表達必要條件",
+    "detail": "Sentence Structure #24 · Using Provided that / Providing that to express a necessary condition",
+    "url": "sentence-structure.html?lesson=ss24"
   },
   {
     "id": "sentence:ss25",
     "type": "sentence-structure",
-    "label": "「WH 非指定句」表達未知或未直接說明的內容",
-    "detail": "Using WH non-specific clauses for unknown or unspecified information",
+    "ordinal": 25,
+    "label": "#25 · 「WH 非指定句」表達未知或未直接說明的內容",
+    "detail": "Sentence Structure #25 · Using WH non-specific clauses for unknown or unspecified information",
     "url": "sentence-structure.html?lesson=ss25"
   },
   {
-    "id": "sentence:ss83",
+    "id": "sentence:ss26",
     "type": "sentence-structure",
-    "label": "「Whenever / Whatever / Whichever / However / Whoever / Wherever」句",
-    "detail": "Whenever / Whatever / Whichever / However / Whoever / Wherever clauses",
-    "url": "sentence-structure.html?lesson=ss83"
+    "ordinal": 26,
+    "label": "#26 · 「in case 句」表示「以防／以免」",
+    "detail": "Sentence Structure #26 · Using in case to express a precaution",
+    "url": "sentence-structure.html?lesson=ss26"
   },
   {
-    "id": "sentence:ss7",
+    "id": "sentence:ss27",
     "type": "sentence-structure",
-    "label": "「whereas」對比句",
-    "detail": "Using whereas to express contrast",
-    "url": "sentence-structure.html?lesson=ss7"
+    "ordinal": 27,
+    "label": "#27 · 「That way」表達做法帶來的結果或好處",
+    "detail": "Sentence Structure #27 · Using That way to express the result or benefit of an action",
+    "url": "sentence-structure.html?lesson=ss27"
+  },
+  {
+    "id": "sentence:ss28",
+    "type": "sentence-structure",
+    "ordinal": 28,
+    "label": "#28 · 「Had better」表示強烈建議或警告",
+    "detail": "Sentence Structure #28 · Using Had better for strong advice or a warning",
+    "url": "sentence-structure.html?lesson=ss28"
+  },
+  {
+    "id": "sentence:ss29",
+    "type": "sentence-structure",
+    "ordinal": 29,
+    "label": "#29 · 「Otherwise / Or」表達「否則」",
+    "detail": "Sentence Structure #29 · Using Otherwise / Or to express consequences",
+    "url": "sentence-structure.html?lesson=ss29"
+  },
+  {
+    "id": "sentence:ss30",
+    "type": "sentence-structure",
+    "ordinal": 30,
+    "label": "#30 · 「As 句」表達「隨着時間或情況變化」",
+    "detail": "Sentence Structure #30 · Using As to describe changes over time",
+    "url": "sentence-structure.html?lesson=ss30"
+  },
+  {
+    "id": "sentence:ss31",
+    "type": "sentence-structure",
+    "ordinal": 31,
+    "label": "#31 · 「As＋身份」表達角色或身分",
+    "detail": "Sentence Structure #31 · Using As to express identity or role",
+    "url": "sentence-structure.html?lesson=ss31"
   },
   {
     "id": "sentence:ss32",
     "type": "sentence-structure",
-    "label": "「Whether (or not) / If 句」表達「可否／能否／會否／應否／是否」",
-    "detail": "Using Whether (or not) / If for indirect yes/no questions",
+    "ordinal": 32,
+    "label": "#32 · 「Whether (or not) / If 句」表達「可否／能否／會否／應否／是否」",
+    "detail": "Sentence Structure #32 · Using Whether (or not) / If for indirect yes/no questions",
     "url": "sentence-structure.html?lesson=ss32"
   },
   {
     "id": "sentence:ss33",
     "type": "sentence-structure",
-    "label": "「Whether (or not) 句」表達「無論……（與否）」",
-    "detail": "Using Whether (or not) to express ‘regardless of whether’",
+    "ordinal": 33,
+    "label": "#33 · 「Whether (or not) 句」表達「無論……（與否）」",
+    "detail": "Sentence Structure #33 · Using Whether (or not) to express ‘regardless of whether’",
     "url": "sentence-structure.html?lesson=ss33"
-  },
-  {
-    "id": "sentence:ss106",
-    "type": "sentence-structure",
-    "label": "「Whether... or... 句」",
-    "detail": "Using Whether...or... for alternatives and unchanged results",
-    "url": "sentence-structure.html?lesson=ss106"
-  },
-  {
-    "id": "sentence:ss5",
-    "type": "sentence-structure",
-    "label": "「While = Although」表達「雖然……但……」",
-    "detail": "Using While as Although to express concession and contrast",
-    "url": "sentence-structure.html?lesson=ss5"
   },
   {
     "id": "sentence:ss34",
     "type": "sentence-structure",
-    "label": "「While 句——對比兩個人物、群體或情況」",
-    "detail": "Using While to contrast people, groups or situations",
+    "ordinal": 34,
+    "label": "#34 · 「While 句——對比兩個人物、群體或情況」",
+    "detail": "Sentence Structure #34 · Using While to contrast people, groups or situations",
     "url": "sentence-structure.html?lesson=ss34"
   },
   {
-    "id": "sentence:ss15",
+    "id": "sentence:ss35",
     "type": "sentence-structure",
-    "label": "「whose」句型",
-    "detail": "Using whose to express ownership or a close connection",
-    "url": "sentence-structure.html?lesson=ss15"
+    "ordinal": 35,
+    "label": "#35 · 「It is + 形容詞 +（for + 人）+ to + 動詞」句",
+    "detail": "Sentence Structure #35 · Using It + adjective + (for someone) + to + verb",
+    "url": "sentence-structure.html?lesson=ss35"
   },
   {
-    "id": "sentence:ss77",
+    "id": "sentence:ss36",
     "type": "sentence-structure",
-    "label": "「Why not ... if ...?」句：以條件或理由提出建議",
-    "detail": "Using Why not ... if ...? to make a suggestion supported by a condition or reason",
-    "url": "sentence-structure.html?lesson=ss77"
-  },
-  {
-    "id": "sentence:ss71",
-    "type": "sentence-structure",
-    "label": "「Wish + Past Tense」表達與現在事實不同的願望",
-    "detail": "Using Wish + Past Tense to express wishes that differ from present reality",
-    "url": "sentence-structure.html?lesson=ss71"
-  },
-  {
-    "id": "sentence:ss13",
-    "type": "sentence-structure",
-    "label": "「With +（名詞）+ -ing」句型交代背景情況",
-    "detail": "Using with + noun + -ing to introduce background circumstances",
-    "url": "sentence-structure.html?lesson=ss13"
-  },
-  {
-    "id": "sentence:ss12",
-    "type": "sentence-structure",
-    "label": "「without + V-ing」句型",
-    "detail": "Using without + V-ing to express an omitted action or requirement",
-    "url": "sentence-structure.html?lesson=ss12"
-  },
-  {
-    "id": "sentence:ss70",
-    "type": "sentence-structure",
-    "label": "「Would rather X (than B)」表達偏好",
-    "detail": "Using Would rather X (than B) to express preference",
-    "url": "sentence-structure.html?lesson=ss70"
+    "ordinal": 36,
+    "label": "#36 · 「It is + 形容詞 + that 句」表達判斷、評價或可能性",
+    "detail": "Sentence Structure #36 · Using It + adjective + that-clause for judgement, evaluation or possibility",
+    "url": "sentence-structure.html?lesson=ss36"
   },
   {
     "id": "sentence:ss37",
     "type": "sentence-structure",
-    "label": "「名詞 + to-infinitive（to + 原形動詞）句」",
-    "detail": "The to-infinitive as a postmodifier or complement of a noun",
+    "ordinal": 37,
+    "label": "#37 · 「名詞 + to-infinitive（to + 原形動詞）句」",
+    "detail": "Sentence Structure #37 · The to-infinitive as a postmodifier or complement of a noun",
     "url": "sentence-structure.html?lesson=ss37"
   },
   {
-    "id": "sentence:ss92",
+    "id": "sentence:ss38",
     "type": "sentence-structure",
-    "label": "「名詞比較句」Comparative",
-    "detail": "Comparative Noun Structures",
-    "url": "sentence-structure.html?lesson=ss92"
+    "ordinal": 38,
+    "label": "#38 · 「There is / are」表達「有／存在」",
+    "detail": "Sentence Structure #38 · Using There is / are to express existence",
+    "url": "sentence-structure.html?lesson=ss38"
   },
   {
-    "id": "sentence:ss3",
+    "id": "sentence:ss39",
     "type": "sentence-structure",
-    "label": "「形容詞 + to-infinitive 句」",
-    "detail": "Adjective + to-infinitive",
-    "url": "sentence-structure.html?lesson=ss3"
+    "ordinal": 39,
+    "label": "#39 · 「There is / are + -ing」描述場景中正在發生的事情",
+    "detail": "Sentence Structure #39 · Using There is / are + -ing to describe an unfolding scene",
+    "url": "sentence-structure.html?lesson=ss39"
   },
   {
-    "id": "sentence:ss84",
+    "id": "sentence:ss40",
     "type": "sentence-structure",
-    "label": "「形容詞／副詞 + enough + to」句型",
-    "detail": "Adjective / Adverb + enough + to Clauses",
-    "url": "sentence-structure.html?lesson=ss84"
+    "ordinal": 40,
+    "label": "#40 · 「Another」表達同類事物中再多一個",
+    "detail": "Sentence Structure #40 · Using another to add one more person, thing or idea",
+    "url": "sentence-structure.html?lesson=ss40"
   },
   {
-    "id": "sentence:ss2",
+    "id": "sentence:ss41",
     "type": "sentence-structure",
-    "label": "「形容詞句 → 形容詞＋名詞句」",
-    "detail": "Adjective to adjective + noun",
-    "url": "sentence-structure.html?lesson=ss2"
+    "ordinal": 41,
+    "label": "#41 · 「Each + 單數名詞」逐一表達",
+    "detail": "Sentence Structure #41 · Using each + singular noun to focus on individuals",
+    "url": "sentence-structure.html?lesson=ss41"
+  },
+  {
+    "id": "sentence:ss42",
+    "type": "sentence-structure",
+    "ordinal": 42,
+    "label": "#42 · 「Every + 單數名詞」表達每一位或每一項",
+    "detail": "Sentence Structure #42 · Using every + singular noun for all members of a group",
+    "url": "sentence-structure.html?lesson=ss42"
+  },
+  {
+    "id": "sentence:ss43",
+    "type": "sentence-structure",
+    "ordinal": 43,
+    "label": "#43 · 「Each + 單數名詞」逐一表達",
+    "detail": "Sentence Structure #43 · Using each + singular noun for individual distribution",
+    "url": "sentence-structure.html?lesson=ss43"
+  },
+  {
+    "id": "sentence:ss44",
+    "type": "sentence-structure",
+    "ordinal": 44,
+    "label": "#44 · 「Each other / One another」表達「互相／彼此」",
+    "detail": "Sentence Structure #44 · Using each other and one another for reciprocal actions",
+    "url": "sentence-structure.html?lesson=ss44"
+  },
+  {
+    "id": "sentence:ss45",
+    "type": "sentence-structure",
+    "ordinal": 45,
+    "label": "#45 · 「One of the」表達群體中的其中一個",
+    "detail": "Sentence Structure #45 · Using one of the to select one member of a larger group",
+    "url": "sentence-structure.html?lesson=ss45"
+  },
+  {
+    "id": "sentence:ss46",
+    "type": "sentence-structure",
+    "ordinal": 46,
+    "label": "#46 · 「Everything / Anything / Something」表達事物範圍",
+    "detail": "Sentence Structure #46 · Using something, anything and everything",
+    "url": "sentence-structure.html?lesson=ss46"
+  },
+  {
+    "id": "sentence:ss47",
+    "type": "sentence-structure",
+    "ordinal": 47,
+    "label": "#47 · 「Somewhere / Nowhere / Elsewhere」表達不定地點",
+    "detail": "Sentence Structure #47 · Using somewhere, nowhere and elsewhere for place",
+    "url": "sentence-structure.html?lesson=ss47"
+  },
+  {
+    "id": "sentence:ss48",
+    "type": "sentence-structure",
+    "ordinal": 48,
+    "label": "#48 · 「Everywhere / Anywhere」表達所有地方或任何地方",
+    "detail": "Sentence Structure #48 · Using everywhere and anywhere for place",
+    "url": "sentence-structure.html?lesson=ss48"
+  },
+  {
+    "id": "sentence:ss49",
+    "type": "sentence-structure",
+    "ordinal": 49,
+    "label": "#49 · 「Something / Anything / Everything + 形容詞」句型",
+    "detail": "Sentence Structure #49 · Describing indefinite pronouns with following adjectives",
+    "url": "sentence-structure.html?lesson=ss49"
+  },
+  {
+    "id": "sentence:ss50",
+    "type": "sentence-structure",
+    "ordinal": 50,
+    "label": "#50 · 「Somewhere / Nowhere / Elsewhere + Adj 句」",
+    "detail": "Sentence Structure #50 · Using somewhere, nowhere and elsewhere to describe places",
+    "url": "sentence-structure.html?lesson=ss50"
+  },
+  {
+    "id": "sentence:ss51",
+    "type": "sentence-structure",
+    "ordinal": 51,
+    "label": "#51 · 「Everywhere / Anywhere / Somewhere + 形容詞」句",
+    "detail": "Sentence Structure #51 · Using everywhere, anywhere and somewhere with adjectives",
+    "url": "sentence-structure.html?lesson=ss51"
+  },
+  {
+    "id": "sentence:ss52",
+    "type": "sentence-structure",
+    "ordinal": 52,
+    "label": "#52 · 「Someone / Anyone / Everyone + 形容詞」句",
+    "detail": "Sentence Structure #52 · Using someone, anyone and everyone with adjectives",
+    "url": "sentence-structure.html?lesson=ss52"
+  },
+  {
+    "id": "sentence:ss53",
+    "type": "sentence-structure",
+    "ordinal": 53,
+    "label": "#53 · 「In order to + 動詞」表達目的",
+    "detail": "Sentence Structure #53 · Using in order to + verb to express purpose",
+    "url": "sentence-structure.html?lesson=ss53"
+  },
+  {
+    "id": "sentence:ss54",
+    "type": "sentence-structure",
+    "ordinal": 54,
+    "label": "#54 · 「So that 目的句」",
+    "detail": "Sentence Structure #54 · Using so that to express purpose",
+    "url": "sentence-structure.html?lesson=ss54"
+  },
+  {
+    "id": "sentence:ss55",
+    "type": "sentence-structure",
+    "ordinal": 55,
+    "label": "#55 · 「Gerund 作主語」把活動變成句子主題",
+    "detail": "Sentence Structure #55 · Using a gerund phrase as the sentence subject",
+    "url": "sentence-structure.html?lesson=ss55"
+  },
+  {
+    "id": "sentence:ss56",
+    "type": "sentence-structure",
+    "ordinal": 56,
+    "label": "#56 · 「V1 + To-infinitive」連接態度、決定與行動",
+    "detail": "Sentence Structure #56 · Using a first verb followed by a to-infinitive",
+    "url": "sentence-structure.html?lesson=ss56"
+  },
+  {
+    "id": "sentence:ss57",
+    "type": "sentence-structure",
+    "ordinal": 57,
+    "label": "#57 · 「V1 + Bare Infinitive」表達容許、促使、幫助與感官經驗",
+    "detail": "Sentence Structure #57 · Using let, make, have, help and perception verbs with a bare infinitive",
+    "url": "sentence-structure.html?lesson=ss57"
+  },
+  {
+    "id": "sentence:ss58",
+    "type": "sentence-structure",
+    "ordinal": 58,
+    "label": "#58 · 「V1 + Gerund」動詞後接動名詞",
+    "detail": "Sentence Structure #58 · Using a first verb followed by a gerund",
+    "url": "sentence-structure.html?lesson=ss58"
+  },
+  {
+    "id": "sentence:ss59",
+    "type": "sentence-structure",
+    "ordinal": 59,
+    "label": "#59 · 「As long as」表達「只要／條件是」",
+    "detail": "Sentence Structure #59 · Using as long as to state a condition",
+    "url": "sentence-structure.html?lesson=ss59"
+  },
+  {
+    "id": "sentence:ss60",
+    "type": "sentence-structure",
+    "ordinal": 60,
+    "label": "#60 · 「So long as」表達「只要／條件是」",
+    "detail": "Sentence Structure #60 · Using So long as to express a condition",
+    "url": "sentence-structure.html?lesson=ss60"
+  },
+  {
+    "id": "sentence:ss61",
+    "type": "sentence-structure",
+    "ordinal": 61,
+    "label": "#61 · 「have no choice but to + 動詞」表達別無選擇",
+    "detail": "Sentence Structure #61 · Using have no choice but to to express no alternative",
+    "url": "sentence-structure.html?lesson=ss61"
+  },
+  {
+    "id": "sentence:ss62",
+    "type": "sentence-structure",
+    "ordinal": 62,
+    "label": "#62 · 「If only 句」表達願望、遺憾或強烈希望",
+    "detail": "Sentence Structure #62 · Using If only to express wishes, regrets and strong hopes",
+    "url": "sentence-structure.html?lesson=ss62"
+  },
+  {
+    "id": "sentence:ss63",
+    "type": "sentence-structure",
+    "ordinal": 63,
+    "label": "#63 · 「Only if 句：只有在……條件下才……」",
+    "detail": "Sentence Structure #63 · Using Only if to express a necessary condition",
+    "url": "sentence-structure.html?lesson=ss63"
+  },
+  {
+    "id": "sentence:ss64",
+    "type": "sentence-structure",
+    "ordinal": 64,
+    "label": "#64 · 「be about to + 動詞」表示「正準備／即將」",
+    "detail": "Sentence Structure #64 · Using be about to for an imminent action",
+    "url": "sentence-structure.html?lesson=ss64"
+  },
+  {
+    "id": "sentence:ss65",
+    "type": "sentence-structure",
+    "ordinal": 65,
+    "label": "#65 · 「It’s time to」句：表示「是時候採取行動」",
+    "detail": "Sentence Structure #65 · Using It’s time to to signal the moment for action",
+    "url": "sentence-structure.html?lesson=ss65"
+  },
+  {
+    "id": "sentence:ss66",
+    "type": "sentence-structure",
+    "ordinal": 66,
+    "label": "#66 · 「It’s time + 過去式」表示「已經拖延了一段時間，現在是時候應該……了」",
+    "detail": "Sentence Structure #66 · Using It’s time + past tense for overdue action",
+    "url": "sentence-structure.html?lesson=ss66"
+  },
+  {
+    "id": "sentence:ss67",
+    "type": "sentence-structure",
+    "ordinal": 67,
+    "label": "#67 · 「Used to 句」表達過去的習慣或情況",
+    "detail": "Sentence Structure #67 · Using Used to for past habits and situations",
+    "url": "sentence-structure.html?lesson=ss67"
+  },
+  {
+    "id": "sentence:ss68",
+    "type": "sentence-structure",
+    "ordinal": 68,
+    "label": "#68 · 「Be used to + 名詞／V-ing」表示「習慣於……」",
+    "detail": "Sentence Structure #68 · Using Be used to for being accustomed to something",
+    "url": "sentence-structure.html?lesson=ss68"
+  },
+  {
+    "id": "sentence:ss69",
+    "type": "sentence-structure",
+    "ordinal": 69,
+    "label": "#69 · 「Nonetheless / Nevertheless 句」",
+    "detail": "Sentence Structure #69 · Using Nonetheless and Nevertheless for unexpected contrast",
+    "url": "sentence-structure.html?lesson=ss69"
+  },
+  {
+    "id": "sentence:ss70",
+    "type": "sentence-structure",
+    "ordinal": 70,
+    "label": "#70 · 「Would rather X (than B)」表達偏好",
+    "detail": "Sentence Structure #70 · Using Would rather X (than B) to express preference",
+    "url": "sentence-structure.html?lesson=ss70"
+  },
+  {
+    "id": "sentence:ss71",
+    "type": "sentence-structure",
+    "ordinal": 71,
+    "label": "#71 · 「Wish + Past Tense」表達與現在事實不同的願望",
+    "detail": "Sentence Structure #71 · Using Wish + Past Tense to express wishes that differ from present reality",
+    "url": "sentence-structure.html?lesson=ss71"
+  },
+  {
+    "id": "sentence:ss72",
+    "type": "sentence-structure",
+    "ordinal": 72,
+    "label": "#72 · 「Too + 形容詞 + to + 動詞」句：表達「太……而不能……」",
+    "detail": "Sentence Structure #72 · Using Too + adjective + to + verb to express that something is too… to do",
+    "url": "sentence-structure.html?lesson=ss72"
+  },
+  {
+    "id": "sentence:ss73",
+    "type": "sentence-structure",
+    "ordinal": 73,
+    "label": "#73 · 「So + adjective + that」表達程度及結果",
+    "detail": "Sentence Structure #73 · Using So + adjective + that to express degree and result",
+    "url": "sentence-structure.html?lesson=ss73"
+  },
+  {
+    "id": "sentence:ss74",
+    "type": "sentence-structure",
+    "ordinal": 74,
+    "label": "#74 · 「Let alone」句",
+    "detail": "Sentence Structure #74 · Using Let alone to introduce a more difficult or extreme idea",
+    "url": "sentence-structure.html?lesson=ss74"
+  },
+  {
+    "id": "sentence:ss75",
+    "type": "sentence-structure",
+    "ordinal": 75,
+    "label": "#75 · 「Not to mention」句",
+    "detail": "Sentence Structure #75 · Using Not to mention to add another relevant point",
+    "url": "sentence-structure.html?lesson=ss75"
+  },
+  {
+    "id": "sentence:ss76",
+    "type": "sentence-structure",
+    "ordinal": 76,
+    "label": "#76 · 「As if / As though」句：表達「好像……一樣」",
+    "detail": "Sentence Structure #76 · Using As if / As though to mean ‘as though something were true’",
+    "url": "sentence-structure.html?lesson=ss76"
+  },
+  {
+    "id": "sentence:ss77",
+    "type": "sentence-structure",
+    "ordinal": 77,
+    "label": "#77 · 「Why not ... if ...?」句：以條件或理由提出建議",
+    "detail": "Sentence Structure #77 · Using Why not ... if ...? to make a suggestion supported by a condition or reason",
+    "url": "sentence-structure.html?lesson=ss77"
+  },
+  {
+    "id": "sentence:ss78",
+    "type": "sentence-structure",
+    "ordinal": 78,
+    "label": "#78 · 「By itself」表示「本身／獨自／自行」",
+    "detail": "Sentence Structure #78 · Using By itself to mean ‘on its own’, ‘alone’ or ‘without help’",
+    "url": "sentence-structure.html?lesson=ss78"
   },
   {
     "id": "sentence:ss79",
     "type": "sentence-structure",
-    "label": "「雙重否定句型」",
-    "detail": "Double-Negative Structures",
+    "ordinal": 79,
+    "label": "#79 · 「雙重否定句型」",
+    "detail": "Sentence Structure #79 · Double-Negative Structures",
     "url": "sentence-structure.html?lesson=ss79"
   },
   {
-    "id": "sentence:ss95",
+    "id": "sentence:ss80",
     "type": "sentence-structure",
-    "label": "Never / Seldom / Usually / Often / Always 頻率句型",
-    "detail": "Never / Seldom / Usually / Often / Always",
-    "url": "sentence-structure.html?lesson=ss95"
+    "ordinal": 80,
+    "label": "#80 · 「… is that …」句",
+    "detail": "Sentence Structure #80 · Using … is that … to introduce an explanation",
+    "url": "sentence-structure.html?lesson=ss80"
   },
   {
-    "id": "sentence:ss89",
+    "id": "sentence:ss81",
     "type": "sentence-structure",
-    "label": "副詞比較句",
-    "detail": "Adverb Comparative",
-    "url": "sentence-structure.html?lesson=ss89"
+    "ordinal": 81,
+    "label": "#81 · 「So as to…」句：表達目的",
+    "detail": "Sentence Structure #81 · Using So as to… to express purpose",
+    "url": "sentence-structure.html?lesson=ss81"
   },
   {
-    "id": "sentence:ss88",
+    "id": "sentence:ss82",
     "type": "sentence-structure",
-    "label": "動詞比較句：Verb + more / less than",
-    "detail": "Verb + more / less than",
-    "url": "sentence-structure.html?lesson=ss88"
+    "ordinal": 82,
+    "label": "#82 · 「Granted, … However, …」先讓步、後轉折句",
+    "detail": "Sentence Structure #82 · Using Granted, … However, … to concede a point before presenting a contrast",
+    "url": "sentence-structure.html?lesson=ss82"
   },
   {
-    "id": "sentence:ss87",
+    "id": "sentence:ss83",
     "type": "sentence-structure",
-    "label": "反問句",
-    "detail": "Rhetorical Questions",
-    "url": "sentence-structure.html?lesson=ss87"
+    "ordinal": 83,
+    "label": "#83 · 「Whenever / Whatever / Whichever / However / Whoever / Wherever」句",
+    "detail": "Sentence Structure #83 · Whenever / Whatever / Whichever / However / Whoever / Wherever clauses",
+    "url": "sentence-structure.html?lesson=ss83"
+  },
+  {
+    "id": "sentence:ss84",
+    "type": "sentence-structure",
+    "ordinal": 84,
+    "label": "#84 · 「形容詞／副詞 + enough + to」句型",
+    "detail": "Sentence Structure #84 · Adjective / Adverb + enough + to Clauses",
+    "url": "sentence-structure.html?lesson=ss84"
+  },
+  {
+    "id": "sentence:ss85",
+    "type": "sentence-structure",
+    "ordinal": 85,
+    "label": "#85 · 「The more / less..., the more / less...」成對比較句",
+    "detail": "Sentence Structure #85 · Correlative Comparative Structure",
+    "url": "sentence-structure.html?lesson=ss85"
   },
   {
     "id": "sentence:ss86",
     "type": "sentence-structure",
-    "label": "否定疑問句",
-    "detail": "Negative Questions",
+    "ordinal": 86,
+    "label": "#86 · 否定疑問句",
+    "detail": "Sentence Structure #86 · Negative Questions",
     "url": "sentence-structure.html?lesson=ss86"
+  },
+  {
+    "id": "sentence:ss87",
+    "type": "sentence-structure",
+    "ordinal": 87,
+    "label": "#87 · 反問句",
+    "detail": "Sentence Structure #87 · Rhetorical Questions",
+    "url": "sentence-structure.html?lesson=ss87"
+  },
+  {
+    "id": "sentence:ss88",
+    "type": "sentence-structure",
+    "ordinal": 88,
+    "label": "#88 · 動詞比較句：Verb + more / less than",
+    "detail": "Sentence Structure #88 · Verb + more / less than",
+    "url": "sentence-structure.html?lesson=ss88"
+  },
+  {
+    "id": "sentence:ss89",
+    "type": "sentence-structure",
+    "ordinal": 89,
+    "label": "#89 · 副詞比較句",
+    "detail": "Sentence Structure #89 · Adverb Comparative",
+    "url": "sentence-structure.html?lesson=ss89"
+  },
+  {
+    "id": "sentence:ss90",
+    "type": "sentence-structure",
+    "ordinal": 90,
+    "label": "#90 · 「Sentence 比較句 Comparative」",
+    "detail": "Sentence Structure #90 · Comparative Sentences with a Complete Than-Clause",
+    "url": "sentence-structure.html?lesson=ss90"
+  },
+  {
+    "id": "sentence:ss91",
+    "type": "sentence-structure",
+    "ordinal": 91,
+    "label": "#91 · 「Superlative 最高比較型（最高級句型）」",
+    "detail": "Sentence Structure #91 · Superlative Structures",
+    "url": "sentence-structure.html?lesson=ss91"
+  },
+  {
+    "id": "sentence:ss92",
+    "type": "sentence-structure",
+    "ordinal": 92,
+    "label": "#92 · 「名詞比較句」Comparative",
+    "detail": "Sentence Structure #92 · Comparative Noun Structures",
+    "url": "sentence-structure.html?lesson=ss92"
+  },
+  {
+    "id": "sentence:ss93",
+    "type": "sentence-structure",
+    "ordinal": 93,
+    "label": "#93 · 「as + 形容詞 + as」表示程度相同",
+    "detail": "Sentence Structure #93 · Using as + adjective + as to express equal degree",
+    "url": "sentence-structure.html?lesson=ss93"
+  },
+  {
+    "id": "sentence:ss94",
+    "type": "sentence-structure",
+    "ordinal": 94,
+    "label": "#94 · 「Hardly / Rarely / Barely」近乎否定句",
+    "detail": "Sentence Structure #94 · Hardly / Rarely / Barely Near-Negative Structures",
+    "url": "sentence-structure.html?lesson=ss94"
+  },
+  {
+    "id": "sentence:ss95",
+    "type": "sentence-structure",
+    "ordinal": 95,
+    "label": "#95 · Never / Seldom / Usually / Often / Always 頻率句型",
+    "detail": "Sentence Structure #95 · Never / Seldom / Usually / Often / Always",
+    "url": "sentence-structure.html?lesson=ss95"
+  },
+  {
+    "id": "sentence:ss96",
+    "type": "sentence-structure",
+    "ordinal": 96,
+    "label": "#96 · 「Negative Adverbs of Frequency 否定頻率副詞句」",
+    "detail": "Sentence Structure #96 · Negative Adverbs of Frequency",
+    "url": "sentence-structure.html?lesson=ss96"
+  },
+  {
+    "id": "sentence:ss97",
+    "type": "sentence-structure",
+    "ordinal": 97,
+    "label": "#97 · 「Inversion 倒裝句」",
+    "detail": "Sentence Structure #97 · Inversion",
+    "url": "sentence-structure.html?lesson=ss97"
+  },
+  {
+    "id": "sentence:ss98",
+    "type": "sentence-structure",
+    "ordinal": 98,
+    "label": "#98 · 「Just as + 形容詞／副詞」表達「同樣程度」",
+    "detail": "Sentence Structure #98 · Using just as + adjective / adverb + as to express equal degree",
+    "url": "sentence-structure.html?lesson=ss98"
+  },
+  {
+    "id": "sentence:ss99",
+    "type": "sentence-structure",
+    "ordinal": 99,
+    "label": "#99 · 「well + 形容詞／過去分詞」句",
+    "detail": "Sentence Structure #99 · Using well + adjective / past participle",
+    "url": "sentence-structure.html?lesson=ss99"
+  },
+  {
+    "id": "sentence:ss100",
+    "type": "sentence-structure",
+    "ordinal": 100,
+    "label": "#100 · 「Different X of 句」",
+    "detail": "Sentence Structure #100 · Using different kinds, sorts, types and forms of",
+    "url": "sentence-structure.html?lesson=ss100"
+  },
+  {
+    "id": "sentence:ss101",
+    "type": "sentence-structure",
+    "ordinal": 101,
+    "label": "#101 · 「all + 分類名詞 + of」表達「各式各樣／所有類型」",
+    "detail": "Sentence Structure #101 · Using all + classification word + of",
+    "url": "sentence-structure.html?lesson=ss101"
+  },
+  {
+    "id": "sentence:ss102",
+    "type": "sentence-structure",
+    "ordinal": 102,
+    "label": "#102 · 「Adjective + with / without」描述條件與程度",
+    "detail": "Sentence Structure #102 · Using adjective + with / without for conditions and degree",
+    "url": "sentence-structure.html?lesson=ss102"
+  },
+  {
+    "id": "sentence:ss103",
+    "type": "sentence-structure",
+    "ordinal": 103,
+    "label": "#103 · 「By / With / From 功能介詞句」",
+    "detail": "Sentence Structure #103 · Using By, With and From as functional prepositional phrases",
+    "url": "sentence-structure.html?lesson=ss103"
+  },
+  {
+    "id": "sentence:ss104",
+    "type": "sentence-structure",
+    "ordinal": 104,
+    "label": "#104 · 「Either ... or ...」表示兩者擇一",
+    "detail": "Sentence Structure #104 · Using Either ... or ... to present two alternatives",
+    "url": "sentence-structure.html?lesson=ss104"
+  },
+  {
+    "id": "sentence:ss105",
+    "type": "sentence-structure",
+    "ordinal": 105,
+    "label": "#105 · 「Neither...nor...」表示「兩者都不」",
+    "detail": "Sentence Structure #105 · Using Neither...nor... to make both alternatives negative",
+    "url": "sentence-structure.html?lesson=ss105"
+  },
+  {
+    "id": "sentence:ss106",
+    "type": "sentence-structure",
+    "ordinal": 106,
+    "label": "#106 · 「Whether... or... 句」",
+    "detail": "Sentence Structure #106 · Using Whether...or... for alternatives and unchanged results",
+    "url": "sentence-structure.html?lesson=ss106"
+  },
+  {
+    "id": "sentence:ss107",
+    "type": "sentence-structure",
+    "ordinal": 107,
+    "label": "#107 · 「The sooner..., the better」句",
+    "detail": "Sentence Structure #107 · Using The sooner..., the better for earlier action",
+    "url": "sentence-structure.html?lesson=ss107"
+  },
+  {
+    "id": "sentence:ss108",
+    "type": "sentence-structure",
+    "ordinal": 108,
+    "label": "#108 · 「Not only... but also...」句",
+    "detail": "Sentence Structure #108 · Using Not only... but also... to add a second point",
+    "url": "sentence-structure.html?lesson=ss108"
+  },
+  {
+    "id": "sentence:ss109",
+    "type": "sentence-structure",
+    "ordinal": 109,
+    "label": "#109 · 「The former / The latter 句：前者／後者」",
+    "detail": "Sentence Structure #109 · Using The former and The latter for the first and second items",
+    "url": "sentence-structure.html?lesson=ss109"
+  },
+  {
+    "id": "sentence:ss110",
+    "type": "sentence-structure",
+    "ordinal": 110,
+    "label": "#110 · 「As such 句」",
+    "detail": "Sentence Structure #110 · Using As such for a consequence or role",
+    "url": "sentence-structure.html?lesson=ss110"
+  },
+  {
+    "id": "sentence:ss111",
+    "type": "sentence-structure",
+    "ordinal": 111,
+    "label": "#111 · 「Such that 句」",
+    "detail": "Sentence Structure #111 · Using Such that for an arrangement or resulting situation",
+    "url": "sentence-structure.html?lesson=ss111"
+  },
+  {
+    "id": "sentence:ss112",
+    "type": "sentence-structure",
+    "ordinal": 112,
+    "label": "#112 · 「Such...that...」表示程度與結果",
+    "detail": "Sentence Structure #112 · Using Such...that... to express degree and result",
+    "url": "sentence-structure.html?lesson=ss112"
+  },
+  {
+    "id": "sentence:ss113",
+    "type": "sentence-structure",
+    "ordinal": 113,
+    "label": "#113 · 「So much so that」表示程度強烈及帶出明顯結果",
+    "detail": "Sentence Structure #113 · Using So much so that for an extreme degree and clear result",
+    "url": "sentence-structure.html?lesson=ss113"
+  },
+  {
+    "id": "sentence:ss114",
+    "type": "sentence-structure",
+    "ordinal": 114,
+    "label": "#114 · 「Not so much A as B」表示「與其說是 A，不如說是 B」",
+    "detail": "Sentence Structure #114 · Using Not so much A as B for a more accurate emphasis",
+    "url": "sentence-structure.html?lesson=ss114"
   },
   {
     "id": "speaking:ielts-part-2-book-2-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "A Book or Novel You Recently Read",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-09"
@@ -7773,6 +8883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-2-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "A Book You Have Never Read but Would Like to Read",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-08"
@@ -7780,6 +8891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-1-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "A Challenging Thing You Did",
     "detail": "IELTS Speaking · Part 2 · Book 1 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-1-exercise-02"
@@ -7787,6 +8899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-13-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "A Day Trip You Have Been On",
     "detail": "IELTS Speaking · Part 2 · Book 13 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-13-exercise-01"
@@ -7794,6 +8907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-6-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "A Dream Holiday",
     "detail": "IELTS Speaking · Part 2 · Book 6 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-6-exercise-09"
@@ -7801,6 +8915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "A Happy Childhood Event",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-03"
@@ -7808,6 +8923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-6-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "A Holiday You Went On",
     "detail": "IELTS Speaking · Part 2 · Book 6 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-6-exercise-08"
@@ -7815,6 +8931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-14-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "A Job You Would Like to Do in the Future",
     "detail": "IELTS Speaking · Part 2 · Book 14 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-14-exercise-06"
@@ -7822,6 +8939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "A lot of animals are getting extinct these days. What do you think about this? Why is it happening?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-21"
@@ -7829,6 +8947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-5-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "A Meal That You Ate Out",
     "detail": "IELTS Speaking · Part 2 · Book 5 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-5-exercise-05"
@@ -7836,6 +8955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-5-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "A Meal You Remember Well",
     "detail": "IELTS Speaking · Part 2 · Book 5 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-5-exercise-03"
@@ -7843,6 +8963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-7-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "A Method of Learning a Foreign Language",
     "detail": "IELTS Speaking · Part 2 · Book 7 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-7-exercise-06"
@@ -7850,6 +8971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-13-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "A Part of Your Country You Have Never Been To but Would Like to Visit",
     "detail": "IELTS Speaking · Part 2 · Book 13 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-13-exercise-02"
@@ -7857,6 +8979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-1-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "A Person Who Loves to Grow Plants",
     "detail": "IELTS Speaking · Part 2 · Book 1 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-1-exercise-10"
@@ -7864,6 +8987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-2-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "A Person Who Taught You Something Important",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-03"
@@ -7871,6 +8995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-1-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "A Person You Know — child",
     "detail": "IELTS Speaking · Part 2 · Book 1 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-1-exercise-04"
@@ -7878,6 +9003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-1-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "A Person You Know — old person",
     "detail": "IELTS Speaking · Part 2 · Book 1 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-1-exercise-03"
@@ -7885,6 +9011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-2-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "A Present or Gift You Have Given Someone",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-01"
@@ -7892,6 +9019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-2-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "A Present or Gift You Really Liked",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-02"
@@ -7899,6 +9027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-11-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "A Scientific Subject You Learned in High School",
     "detail": "IELTS Speaking · Part 2 · Book 11 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-11-exercise-02"
@@ -7906,6 +9035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "A Special Day Out That Cost You Little Money",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-06"
@@ -7913,6 +9043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-11-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "A Sport That Interests You but You Have Never Tried",
     "detail": "IELTS Speaking · Part 2 · Book 11 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-11-exercise-09"
@@ -7920,6 +9051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-2-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "A Successful Small Business",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-11"
@@ -7927,6 +9059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-2-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "A Time When Someone Apologised To You",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-06"
@@ -7934,6 +9067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-9-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "A Typical Festival or Celebration in Your Country",
     "detail": "IELTS Speaking · Part 2 · Book 9 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-9-exercise-07"
@@ -7941,6 +9075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-3-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "A Uniform You Have Worn",
     "detail": "IELTS Speaking · Part 2 · Book 3 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-3-exercise-04"
@@ -7948,6 +9083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-10-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "A Website That You Visit a Lot",
     "detail": "IELTS Speaking · Part 2 · Book 10 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-10-exercise-05"
@@ -7955,6 +9091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-14-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "A Workplace You Have Worked In or Know About",
     "detail": "IELTS Speaking · Part 2 · Book 14 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-14-exercise-05"
@@ -7962,6 +9099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-1-accommodation",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Accommodation",
     "detail": "IELTS Speaking · Part 1 · Book 1 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-1-accommodation"
@@ -7969,6 +9107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-1-advertisements",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Advertisements",
     "detail": "IELTS Speaking · Part 1 · Book 1 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-1-advertisements"
@@ -7976,6 +9115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-1-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Advertisements",
     "detail": "IELTS Speaking · Part 2 · Book 1 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-1-exercise-01"
@@ -7983,6 +9123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-1-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "An Intelligent Person You Know",
     "detail": "IELTS Speaking · Part 2 · Book 1 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-1-exercise-07"
@@ -7990,6 +9131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-1-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "An Interesting Person",
     "detail": "IELTS Speaking · Part 2 · Book 1 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-1-exercise-06"
@@ -7997,6 +9139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-2-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Animal",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-04"
@@ -8004,6 +9147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Are art exhibitions popular in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-09"
@@ -8011,6 +9155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "Are men better at decision-making in a family?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-33"
@@ -8018,6 +9163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-43",
     "type": "speaking",
+    "ordinal": 43,
     "label": "Are the things or events that make people happy today the same as several decades ago?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 43",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-43"
@@ -8025,6 +9171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Are the types of leisure activities that are popular today the same as those that were popular when your parents were young?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-10"
@@ -8032,6 +9179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "Are there any differences between the way old people and young people try to stay healthy?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-27"
@@ -8039,6 +9187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-34",
     "type": "speaking",
+    "ordinal": 34,
     "label": "Are there any things that are especially important for people to memorise?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 34",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-34"
@@ -8046,6 +9195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-36",
     "type": "speaking",
+    "ordinal": 36,
     "label": "Are there many big companies in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 36",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-36"
@@ -8053,6 +9203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "Are there many charities in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-28"
@@ -8060,6 +9211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Are traditional media like television and newspapers still useful?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-18"
@@ -8067,6 +9219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "Are you a patient person?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-31"
@@ -8074,6 +9227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-14-art",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Art",
     "detail": "IELTS Speaking · Part 1 · Book 14 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-14-art"
@@ -8081,6 +9235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-2-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Art",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-05"
@@ -8088,6 +9243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-1-art-and-photography",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Art & Photography",
     "detail": "IELTS Speaking · Part 1 · Book 1 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-1-art-and-photography"
@@ -8095,6 +9251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-2-bags",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Bags",
     "detail": "IELTS Speaking · Part 1 · Book 2 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-2-bags"
@@ -8102,6 +9259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-12-bicycles",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Bicycles",
     "detail": "IELTS Speaking · Part 1 · Book 12 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-12-bicycles"
@@ -8109,6 +9267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-9-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Birthday Party",
     "detail": "IELTS Speaking · Part 2 · Book 9 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-9-exercise-06"
@@ -8116,6 +9275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-2-birthdays",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Birthdays",
     "detail": "IELTS Speaking · Part 1 · Book 2 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-2-birthdays"
@@ -8123,6 +9283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-1-boat",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Boat",
     "detail": "IELTS Speaking · Part 1 · Book 1 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-1-boat"
@@ -8130,6 +9291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-2-books",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Books",
     "detail": "IELTS Speaking · Part 1 · Book 2 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-2-books"
@@ -8137,6 +9299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-2-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Books",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-07"
@@ -8144,6 +9307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-2-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Buildings",
     "detail": "IELTS Speaking · Part 2 · Book 2 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-2-exercise-10"
@@ -8151,6 +9315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-3-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Business",
     "detail": "IELTS Speaking · Part 2 · Book 3 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-3-exercise-01"
@@ -8158,6 +9323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Can clothing tell you much about a person in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-17"
@@ -8165,6 +9331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Can physical workers have higher salaries in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-23"
@@ -8172,6 +9339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "Can technology help people remember things better? How?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-31"
@@ -8179,6 +9347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Can you compare some exciting activities people do now with activities people did 20 years ago?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-02"
@@ -8186,6 +9355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Can you compare the education your parents had with the education that you received?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-02"
@@ -8193,6 +9363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Can you suggest how teamwork could be cultivated in classes at school?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-08"
@@ -8200,6 +9371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Can you suggest some ways to make sure you are not late for anything?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-03"
@@ -8207,6 +9379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-2-celebrity",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Celebrity",
     "detail": "IELTS Speaking · Part 1 · Book 2 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-2-celebrity"
@@ -8214,6 +9387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-3-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Change",
     "detail": "IELTS Speaking · Part 2 · Book 3 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-3-exercise-02"
@@ -8221,6 +9395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-12-childhood",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Childhood",
     "detail": "IELTS Speaking · Part 1 · Book 12 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-12-childhood"
@@ -8228,6 +9403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-3-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "City",
     "detail": "IELTS Speaking · Part 2 · Book 3 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-3-exercise-05"
@@ -8235,6 +9411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-14-clothes",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Clothes",
     "detail": "IELTS Speaking · Part 1 · Book 14 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-14-clothes"
@@ -8242,6 +9419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-3-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Clothes",
     "detail": "IELTS Speaking · Part 2 · Book 3 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-3-exercise-03"
@@ -8249,6 +9427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-2-clothes-fashion",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Clothes, Fashion",
     "detail": "IELTS Speaking · Part 1 · Book 2 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-2-clothes-fashion"
@@ -8256,6 +9435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-3-colours",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Colours",
     "detail": "IELTS Speaking · Part 1 · Book 3 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-3-colours"
@@ -8263,6 +9443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-14-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Communication (event/occasion)",
     "detail": "IELTS Speaking · Part 2 · Book 14 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-14-exercise-07"
@@ -8270,6 +9451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-3-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Company",
     "detail": "IELTS Speaking · Part 2 · Book 3 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-3-exercise-06"
@@ -8277,6 +9459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "Compared to the past, are people less patient now? Why?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-29"
@@ -8284,6 +9467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-3-computer",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Computer",
     "detail": "IELTS Speaking · Part 1 · Book 3 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-3-computer"
@@ -8291,6 +9475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-3-country",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Country",
     "detail": "IELTS Speaking · Part 1 · Book 3 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-3-country"
@@ -8298,6 +9483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-13-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Country",
     "detail": "IELTS Speaking · Part 2 · Book 13 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-13-exercise-04"
@@ -8305,6 +9491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-9-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Crowded Place",
     "detail": "IELTS Speaking · Part 2 · Book 9 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-9-exercise-09"
@@ -8312,6 +9499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-3-daily-routine",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Daily Routine",
     "detail": "IELTS Speaking · Part 1 · Book 3 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-3-daily-routine"
@@ -8319,6 +9507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-3-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Daily Routine",
     "detail": "IELTS Speaking · Part 2 · Book 3 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-3-exercise-07"
@@ -8326,6 +9515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-3-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Decision",
     "detail": "IELTS Speaking · Part 2 · Book 3 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-3-exercise-08"
@@ -8333,6 +9523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-6-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Describe a historical place that you have visited.",
     "detail": "IELTS Speaking · Part 2 · Book 6 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-6-exercise-05"
@@ -8340,6 +9531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-10-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Describe a rule you had to obey when you were in school.",
     "detail": "IELTS Speaking · Part 2 · Book 10 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-10-exercise-08"
@@ -8347,6 +9539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "Describe a very difficult task that you succeeded in doing.",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-32"
@@ -8354,6 +9547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "Describe an event that you attended recently.",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-30"
@@ -8361,6 +9555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "Describe an important choice you had to make in your life.",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-31"
@@ -8368,6 +9563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "Describe an interesting discussion you had related to your work or studies.",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-33"
@@ -8375,6 +9571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-5-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Describe one of your relatives.",
     "detail": "IELTS Speaking · Part 2 · Book 5 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-5-exercise-01"
@@ -8382,6 +9579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-9-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Describe the best party you have been to.",
     "detail": "IELTS Speaking · Part 2 · Book 9 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-9-exercise-05"
@@ -8389,6 +9587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-3-dictionaries",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Dictionaries",
     "detail": "IELTS Speaking · Part 1 · Book 3 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-3-dictionaries"
@@ -8396,6 +9595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "Do advertisements give correct information, or do they encourage people to buy things that they may not need?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-19"
@@ -8403,6 +9603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "Do both parents have equal responsibilities in taking care of their children?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-33"
@@ -8410,6 +9611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Do boys and girls like the same kinds of books?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-20"
@@ -8417,6 +9619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "Do children like to change opinions?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-22"
@@ -8424,6 +9627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-40",
     "type": "speaking",
+    "ordinal": 40,
     "label": "Do children make mistakes easily?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 40",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-40"
@@ -8431,6 +9635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "Do clothes affect people’s mood?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-26"
@@ -8438,6 +9643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Do different age groups like the same kind of films?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-18"
@@ -8445,6 +9651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Do elderly people exercise much in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-18"
@@ -8452,6 +9659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Do folks like to read the information on the World Wide Web?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-17"
@@ -8459,6 +9667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Do many people eat in restaurants in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-10"
@@ -8466,6 +9675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "Do men and women watch the same kind of films?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-16"
@@ -8473,6 +9683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Do older people have difficulties using some things that young people do not?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-03"
@@ -8480,6 +9691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Do older people like to drink coffee?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-07"
@@ -8487,6 +9699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Do older people spend much time on social media?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-20"
@@ -8494,6 +9707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Do people in your country like to drink coffee?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-08"
@@ -8501,6 +9715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Do people in your country prefer music over art?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-02"
@@ -8508,6 +9723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Do people in your country prefer traditional or modern styles of furniture?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-17"
@@ -8515,6 +9731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Do people in your country spend a lot of money on celebrating birthdays?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-07"
@@ -8522,6 +9739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Do people in your country usually go out to celebrate traditional festivals with others?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-10"
@@ -8529,6 +9747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "Do people like giving an opinion about politics?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-25"
@@ -8536,6 +9755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "Do people read more nowadays?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-13"
@@ -8543,6 +9763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Do people still purchase magazines in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-18"
@@ -8550,6 +9771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Do people still wear traditional clothing in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-18"
@@ -8557,6 +9779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Do people today trust others as much as they used to in the past?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-03"
@@ -8564,6 +9787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-55",
     "type": "speaking",
+    "ordinal": 55,
     "label": "Do ratings from other people influence people’s choices?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 55",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-55"
@@ -8571,6 +9795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "Do schools in your country have any special activities to enhance the fitness of students?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-28"
@@ -8578,6 +9803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "Do singers play an important role in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-16"
@@ -8585,6 +9811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Do you agree that parents should make important decisions for their children?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-05"
@@ -8592,6 +9819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "Do you agree that there is a right age for young adults to stop living with their parents?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-28"
@@ -8599,6 +9827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "Do you believe everything you read in the newspaper?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-27"
@@ -8606,6 +9835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "Do you feel that people now are healthier than people in the past?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-24"
@@ -8613,6 +9843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-49",
     "type": "speaking",
+    "ordinal": 49,
     "label": "Do you know anyone who likes to get up early?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 49",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-49"
@@ -8620,6 +9851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Do you like any particular film star?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-17"
@@ -8627,6 +9859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Do you like any particular film star?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-20"
@@ -8634,6 +9867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Do you like helping others?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-01"
@@ -8641,6 +9875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "Do you like movie stars who are treated like gods?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-19"
@@ -8648,6 +9883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "Do you like movie stars who are treated like gods?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-21"
@@ -8655,6 +9891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Do you like reading the traditional literature of your country?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-17"
@@ -8662,6 +9899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "Do you like to cook at home?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-12"
@@ -8669,6 +9907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Do you like to learn about history?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-09"
@@ -8676,6 +9915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Do you often buy new things?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-01"
@@ -8683,6 +9923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "Do you personally think that resolutions help us achieve our goals?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-28"
@@ -8690,6 +9931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Do you prefer books or movies?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-18"
@@ -8697,6 +9939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Do you prefer live performances?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-20"
@@ -8704,6 +9947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "Do you read before going to bed?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-14"
@@ -8711,6 +9955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Do you see help occurring in your neighbourhood?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-20"
@@ -8718,6 +9963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Do you support doing experiments on animals?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-17"
@@ -8725,6 +9971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Do you think a country should make everything it needs or import some things?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-04"
@@ -8732,6 +9979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Do you think adults can have lots of imagination?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-17"
@@ -8739,6 +9987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "Do you think adults’ and youngsters’ shopping lists are very different?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-22"
@@ -8746,6 +9995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Do you think advertising influences what people buy?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-11"
@@ -8753,6 +10003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-34",
     "type": "speaking",
+    "ordinal": 34,
     "label": "Do you think all criminals should go to prison?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 34",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-34"
@@ -8760,6 +10011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Do you think all illnesses can be prevented?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-20"
@@ -8767,6 +10019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "Do you think all new homes will be equipped with household machines in the future? Why?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-26"
@@ -8774,6 +10027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "Do you think because of globalisation countries are adopting each other’s traditions?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-32"
@@ -8781,6 +10035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Do you think CDs will have any role in the music industry in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-18"
@@ -8788,6 +10043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Do you think celebrities have a lot of income?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-17"
@@ -8795,6 +10051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "Do you think change is good?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-33"
@@ -8802,6 +10059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "Do you think children are born smart or do they learn to become smart?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-27"
@@ -8809,6 +10067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "Do you think children can have a strong imagination?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-21"
@@ -8816,6 +10075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Do you think children should study art in school?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-05"
@@ -8823,6 +10083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Do you think computers will one day replace teachers in the classroom?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-06"
@@ -8830,6 +10091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Do you think disagreements among team members have a great influence on teamwork?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-07"
@@ -8837,6 +10099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-36",
     "type": "speaking",
+    "ordinal": 36,
     "label": "Do you think festivals like Christmas are replacing traditional festivals in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 36",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-36"
@@ -8844,6 +10107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Do you think healthcare should be free?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-23"
@@ -8851,6 +10115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Do you think history is important?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-08"
@@ -8858,6 +10123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Do you think hitting children is sometimes necessary for discipline?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-03"
@@ -8865,6 +10131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Do you think imagination is necessary for scientists?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-18"
@@ -8872,6 +10139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "Do you think it is always better to talk to your friends about such a problem?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-12"
@@ -8879,6 +10147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Do you think it is better to take a holiday in your own country or in a foreign country?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-20"
@@ -8886,6 +10155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Do you think it is easy to manage your time in the modern world?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-06"
@@ -8893,6 +10163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-46",
     "type": "speaking",
+    "ordinal": 46,
     "label": "Do you think it is important to be punctual?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 46",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-46"
@@ -8900,6 +10171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "Do you think it is important to read the book before watching the movie version of it?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-19"
@@ -8907,6 +10179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Do you think it is important to teach children money skills?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-07"
@@ -8914,6 +10187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Do you think it is mandatory to teach science in schools?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-11"
@@ -8921,6 +10195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Do you think it is necessary for the government to require all children to learn music?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-11"
@@ -8928,6 +10203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-34",
     "type": "speaking",
+    "ordinal": 34,
     "label": "Do you think it is necessary to protect traditions?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 34",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-34"
@@ -8935,6 +10211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "Do you think it is possible to teach people to be more patient?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-32"
@@ -8942,6 +10219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-37",
     "type": "speaking",
+    "ordinal": 37,
     "label": "Do you think it is wrong for children not to celebrate traditional festivals?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 37",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-37"
@@ -8949,6 +10227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Do you think it’s best to do new things on your own or with other people?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-08"
@@ -8956,6 +10235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "Do you think it’s better to rent or to buy a place to live in?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-26"
@@ -8963,6 +10243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "Do you think it’s good that new inventions are appearing so often?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-16"
@@ -8970,6 +10251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-38",
     "type": "speaking",
+    "ordinal": 38,
     "label": "Do you think it’s important for a company to provide after-sales service?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 38",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-38"
@@ -8977,6 +10259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-49",
     "type": "speaking",
+    "ordinal": 49,
     "label": "Do you think it’s important for a person to have a career plan?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 49",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-49"
@@ -8984,6 +10267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Do you think it’s important for children to join teams to learn to cooperate with others?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-06"
@@ -8991,6 +10275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-51",
     "type": "speaking",
+    "ordinal": 51,
     "label": "Do you think it’s important for young people to get advice from their parents when planning a career?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 51",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-51"
@@ -8998,6 +10283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "Do you think it’s important to have a good memory?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-31"
@@ -9005,6 +10291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "Do you think it’s necessary for people to watch foreign news?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-32"
@@ -9012,6 +10299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Do you think it’s necessary to set up rules about overworking people?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-20"
@@ -9019,6 +10307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Do you think it’s necessary to spend a lot of money on holding a party?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-09"
@@ -9026,6 +10315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-51",
     "type": "speaking",
+    "ordinal": 51,
     "label": "Do you think it’s safer to travel today than in the past?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 51",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-51"
@@ -9033,6 +10323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "Do you think machines could replace manual labour in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-24"
@@ -9040,6 +10331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "Do you think men and women view technology differently?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-28"
@@ -9047,6 +10339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "Do you think modern technology has any negative influence on communication?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-15"
@@ -9054,6 +10347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "Do you think money should be spent on protecting animals?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-16"
@@ -9061,6 +10355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Do you think more should be done to protect natural scenic spots in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-17"
@@ -9068,6 +10363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Do you think mothers and fathers have different roles to play in bringing up a child?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-02"
@@ -9075,6 +10371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Do you think old people can keep fit by playing sports or exercising?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-08"
@@ -9082,6 +10379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Do you think old people should be taken care of at home?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-18"
@@ -9089,6 +10387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Do you think older people and younger people will use the same kind of social media software?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-17"
@@ -9096,6 +10395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "Do you think our diet is important?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-12"
@@ -9103,6 +10403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Do you think parents should supervise their children’s use of the Internet?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-11"
@@ -9110,6 +10411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Do you think parents spend too much on buying toys for their children?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-05"
@@ -9117,6 +10419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Do you think people are less willing to help others these days compared to the past?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-02"
@@ -9124,6 +10427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Do you think people are treated differently when they are in uniform?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-23"
@@ -9131,6 +10435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "Do you think people can learn history from films or TV programmes?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-12"
@@ -9138,6 +10443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "Do you think people in the future will be doing more exercise and eating healthier than they are today?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-29"
@@ -9145,6 +10451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Do you think people need to be challenged?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-04"
@@ -9152,6 +10459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "Do you think people rely too much on technology?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-27"
@@ -9159,6 +10467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Do you think people should have to pay to visit art exhibitions?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-10"
@@ -9166,6 +10475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-46",
     "type": "speaking",
+    "ordinal": 46,
     "label": "Do you think people should make highly detailed plans or just general plans?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 46",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-46"
@@ -9173,6 +10483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Do you think people spend too much money on electronic devices?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-03"
@@ -9180,6 +10491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "Do you think people wear clothes that reflect their personality?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-30"
@@ -9187,6 +10499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-41",
     "type": "speaking",
+    "ordinal": 41,
     "label": "Do you think people who have more talent are happier than others?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 41",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-41"
@@ -9194,6 +10507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "Do you think problems with the cleanliness of water will improve in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-14"
@@ -9201,6 +10515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "Do you think science can change our society?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-14"
@@ -9208,6 +10523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "Do you think science is important?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-13"
@@ -9215,6 +10531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Do you think shopping habits are likely to change in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-23"
@@ -9222,6 +10539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Do you think some dangerous activities should be banned?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-04"
@@ -9229,6 +10547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Do you think students should be taken to school by their parents or go by themselves?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-08"
@@ -9236,6 +10555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Do you think sweets are a good thing to reward children with?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-04"
@@ -9243,6 +10563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Do you think teachers get paid enough money in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-02"
@@ -9250,6 +10571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "Do you think teenagers must indulge in building a community for elderly?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-21"
@@ -9257,6 +10579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-38",
     "type": "speaking",
+    "ordinal": 38,
     "label": "Do you think teens should learn about traditions?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 38",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-38"
@@ -9264,6 +10587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Do you think that aquatic animals are dangerous?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-20"
@@ -9271,6 +10595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "Do you think that illnesses will be less common in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-22"
@@ -9278,6 +10603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "Do you think that in the future there will be more women leaders?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-28"
@@ -9285,6 +10611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Do you think that the students themselves should have a say in what kinds of school rules there are?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-23"
@@ -9292,6 +10619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "Do you think the contents in the newspapers are reliable?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-31"
@@ -9299,6 +10627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Do you think the education system in your country influences young people’s behaviour?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-06"
@@ -9306,6 +10635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Do you think the globalisation of industries and commerce is a good thing?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-06"
@@ -9313,6 +10643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "Do you think the government needs to do more to preserve traditional music? What could they do?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-12"
@@ -9320,6 +10651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "Do you think the government should help in the promotion of traditional products?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-31"
@@ -9327,6 +10659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Do you think the government should provide support for art and cultural activities?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-07"
@@ -9334,6 +10667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "Do you think the internet is a good place to learn about history?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-13"
@@ -9341,6 +10675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-39",
     "type": "speaking",
+    "ordinal": 39,
     "label": "Do you think the traditions in your country are restrictive, especially for women in any sense?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 39",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-39"
@@ -9348,6 +10683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Do you think the types of sport that are popular will change in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-11"
@@ -9355,6 +10691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Do you think the types of sports that are popular will change in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-05"
@@ -9362,6 +10699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Do you think the world will be noisier in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-23"
@@ -9369,6 +10707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "Do you think there are benefits of traditional products to locals?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-30"
@@ -9376,6 +10715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Do you think there should be regulations on the use of mobile phones?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-01"
@@ -9383,6 +10723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Do you think there will be any negative effects resulting from future technology?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-18"
@@ -9390,6 +10731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "Do you think there will be any negative effects resulting from future technology?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-19"
@@ -9397,6 +10739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Do you think there will be more tall buildings in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-07"
@@ -9404,6 +10747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Do you think traditional performances are important?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-07"
@@ -9411,6 +10755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "Do you think traditional things from the past were of better quality than present-day things?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-33"
@@ -9418,6 +10763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-45",
     "type": "speaking",
+    "ordinal": 45,
     "label": "Do you think traffic jams would be reduced if people could travel on public transport for free?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 45",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-45"
@@ -9425,6 +10771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-37",
     "type": "speaking",
+    "ordinal": 37,
     "label": "Do you think transport is likely to continue to improve in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 37",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-37"
@@ -9432,6 +10779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-40",
     "type": "speaking",
+    "ordinal": 40,
     "label": "Do you think transportation is likely to continue to improve in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 40",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-40"
@@ -9439,6 +10787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-49",
     "type": "speaking",
+    "ordinal": 49,
     "label": "Do you think travelling to another country can change the way that people think?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 49",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-49"
@@ -9446,6 +10795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "Do you think watching films has any educational benefits?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-12"
@@ -9453,6 +10803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "Do you think we have to restructure our lifestyle to improve our health?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-25"
@@ -9460,6 +10811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "Do you think women’s clothes show more variety than men’s clothes?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-32"
@@ -9467,6 +10819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-42",
     "type": "speaking",
+    "ordinal": 42,
     "label": "Does money make people happier?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 42",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-42"
@@ -9474,6 +10827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "Does the latest technology play an important role in a company’s development?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-30"
@@ -9481,6 +10835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Does the taste of coffee vary by country?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-09"
@@ -9488,6 +10843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-14-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Dream Workplace",
     "detail": "IELTS Speaking · Part 2 · Book 14 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-14-exercise-02"
@@ -9495,6 +10851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-4-dreams",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Dreams",
     "detail": "IELTS Speaking · Part 1 · Book 4 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-4-dreams"
@@ -9502,6 +10859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-12-drinks",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Drinks",
     "detail": "IELTS Speaking · Part 1 · Book 12 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-12-drinks"
@@ -9509,6 +10867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "Earlier people used animals for their work. Now, what do people use to do their work?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-22"
@@ -9516,6 +10875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-3-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Electronic Devices",
     "detail": "IELTS Speaking · Part 2 · Book 3 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-3-exercise-09"
@@ -9523,6 +10883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-4-email",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Email",
     "detail": "IELTS Speaking · Part 1 · Book 4 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-4-email"
@@ -9530,6 +10891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-14-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Embarrassment (event/occasion)",
     "detail": "IELTS Speaking · Part 2 · Book 14 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-14-exercise-08"
@@ -9537,6 +10899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-7-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "English Language Book",
     "detail": "IELTS Speaking · Part 2 · Book 7 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-7-exercise-07"
@@ -9544,6 +10907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-4-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Entertainment",
     "detail": "IELTS Speaking · Part 2 · Book 4 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-4-exercise-02"
@@ -9551,6 +10915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-4-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Environment",
     "detail": "IELTS Speaking · Part 2 · Book 4 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-4-exercise-04"
@@ -9558,6 +10923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-12-evenings",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Evenings",
     "detail": "IELTS Speaking · Part 1 · Book 12 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-12-evenings"
@@ -9565,6 +10931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-4-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Exciting Experience",
     "detail": "IELTS Speaking · Part 2 · Book 4 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-4-exercise-08"
@@ -9572,6 +10939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-4-exercise",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Exercise",
     "detail": "IELTS Speaking · Part 1 · Book 4 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-4-exercise"
@@ -9579,6 +10947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-4-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Exercise",
     "detail": "IELTS Speaking · Part 2 · Book 4 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-4-exercise-05"
@@ -9586,6 +10955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-4-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Family",
     "detail": "IELTS Speaking · Part 2 · Book 4 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-4-exercise-06"
@@ -9593,6 +10963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-4-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Family",
     "detail": "IELTS Speaking · Part 2 · Book 4 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-4-exercise-07"
@@ -9600,6 +10971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-14-family-and-friends",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Family & Friends",
     "detail": "IELTS Speaking · Part 1 · Book 14 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-14-family-and-friends"
@@ -9607,6 +10979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-4-family-and-housework",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Family & Housework",
     "detail": "IELTS Speaking · Part 1 · Book 4 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-4-family-and-housework"
@@ -9614,6 +10987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-14-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Family Job",
     "detail": "IELTS Speaking · Part 2 · Book 14 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-14-exercise-04"
@@ -9621,6 +10995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-5-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Family Member",
     "detail": "IELTS Speaking · Part 2 · Book 5 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-5-exercise-04"
@@ -9628,6 +11003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-1-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Favourite Childhood Friend",
     "detail": "IELTS Speaking · Part 2 · Book 1 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-1-exercise-09"
@@ -9635,6 +11011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Favourite Song",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-09"
@@ -9642,6 +11019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-1-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Favourite Teacher from School",
     "detail": "IELTS Speaking · Part 2 · Book 1 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-1-exercise-08"
@@ -9649,6 +11027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "Finally, let’s talk about the impact of technology on employment. How have developments in technology affected employment in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-29"
@@ -9656,6 +11035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "First of all, why do people go on holiday?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-15"
@@ -9663,6 +11043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-4-flowers",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Flowers",
     "detail": "IELTS Speaking · Part 1 · Book 4 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-4-flowers"
@@ -9670,6 +11051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-5-food",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Food",
     "detail": "IELTS Speaking · Part 1 · Book 5 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-5-food"
@@ -9677,6 +11059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-5-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Food",
     "detail": "IELTS Speaking · Part 2 · Book 5 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-5-exercise-02"
@@ -9684,6 +11067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "For parents, what is important when bringing up their children?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-01"
@@ -9691,6 +11075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "For which jobs are people required to wear a uniform in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-22"
@@ -9698,6 +11083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-13-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Foreign Country",
     "detail": "IELTS Speaking · Part 2 · Book 13 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-13-exercise-03"
@@ -9705,6 +11091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-5-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Friend",
     "detail": "IELTS Speaking · Part 2 · Book 5 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-5-exercise-07"
@@ -9712,6 +11099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-5-friends",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Friends",
     "detail": "IELTS Speaking · Part 1 · Book 5 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-5-friends"
@@ -9719,6 +11107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-5-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Friends",
     "detail": "IELTS Speaking · Part 2 · Book 5 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-5-exercise-06"
@@ -9726,6 +11115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-5-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Furniture",
     "detail": "IELTS Speaking · Part 2 · Book 5 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-5-exercise-08"
@@ -9733,6 +11123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-10-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Future Study",
     "detail": "IELTS Speaking · Part 2 · Book 10 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-10-exercise-10"
@@ -9740,6 +11131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-5-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Garden",
     "detail": "IELTS Speaking · Part 2 · Book 5 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-5-exercise-09"
@@ -9747,6 +11139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-5-gifts",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Gifts",
     "detail": "IELTS Speaking · Part 1 · Book 5 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-5-gifts"
@@ -9754,6 +11147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-5-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Gifts",
     "detail": "IELTS Speaking · Part 2 · Book 5 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-5-exercise-10"
@@ -9761,6 +11155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-12-going-out",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Going Out",
     "detail": "IELTS Speaking · Part 1 · Book 12 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-12-going-out"
@@ -9768,6 +11163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Good News",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-11"
@@ -9775,6 +11171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-9-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Good News",
     "detail": "IELTS Speaking · Part 2 · Book 9 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-9-exercise-01"
@@ -9782,6 +11179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-13-happiness",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Happiness",
     "detail": "IELTS Speaking · Part 1 · Book 13 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-13-happiness"
@@ -9789,6 +11187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-36",
     "type": "speaking",
+    "ordinal": 36,
     "label": "Have the types of transport people use changed much over the last few decades?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 36",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-36"
@@ -9796,6 +11195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-38",
     "type": "speaking",
+    "ordinal": 38,
     "label": "Have the types of transportation people use changed much over the last few decades?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 38",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-38"
@@ -9803,6 +11203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "Have the ways that people communicated with each other changed much in the last few decades?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-13"
@@ -9810,6 +11211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-36",
     "type": "speaking",
+    "ordinal": 36,
     "label": "Have your parents given you much advice?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 36",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-36"
@@ -9817,6 +11219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-6-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Health",
     "detail": "IELTS Speaking · Part 2 · Book 6 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-6-exercise-01"
@@ -9824,6 +11227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-6-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Health Article",
     "detail": "IELTS Speaking · Part 2 · Book 6 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-6-exercise-03"
@@ -9831,6 +11235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-16-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Health Article",
     "detail": "IELTS Speaking · Part 2 · Book 16 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-16-exercise-02"
@@ -9838,6 +11243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-6-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Help",
     "detail": "IELTS Speaking · Part 2 · Book 6 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-6-exercise-04"
@@ -9845,6 +11251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-5-high-school",
     "type": "speaking",
+    "ordinal": 4,
     "label": "High School",
     "detail": "IELTS Speaking · Part 1 · Book 5 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-5-high-school"
@@ -9852,6 +11259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-13-hobbies",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Hobbies",
     "detail": "IELTS Speaking · Part 1 · Book 13 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-13-hobbies"
@@ -9859,6 +11267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-6-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Hobbies",
     "detail": "IELTS Speaking · Part 2 · Book 6 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-6-exercise-06"
@@ -9866,6 +11275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-6-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Holiday",
     "detail": "IELTS Speaking · Part 2 · Book 6 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-6-exercise-07"
@@ -9873,6 +11283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-13-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Holiday",
     "detail": "IELTS Speaking · Part 2 · Book 13 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-13-exercise-06"
@@ -9880,6 +11291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-6-home",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Home",
     "detail": "IELTS Speaking · Part 1 · Book 6 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-6-home"
@@ -9887,6 +11299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-7-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Home",
     "detail": "IELTS Speaking · Part 2 · Book 7 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-7-exercise-01"
@@ -9894,6 +11307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-5-hometown",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Hometown",
     "detail": "IELTS Speaking · Part 1 · Book 5 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-5-hometown"
@@ -9901,6 +11315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-7-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Hometown",
     "detail": "IELTS Speaking · Part 2 · Book 7 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-7-exercise-02"
@@ -9908,6 +11323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "How are education priorities today different from those in the past?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-15"
@@ -9915,6 +11331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "How are movies and real life different?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-15"
@@ -9922,6 +11339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "How are Olympic players trained in your country? Do they usually start training when they are born?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-10"
@@ -9929,6 +11347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "How are the eating habits now in your country different from eating habits in the past?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-08"
@@ -9936,6 +11355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-40",
     "type": "speaking",
+    "ordinal": 40,
     "label": "How can a company maintain the quality of the service that it gives to the public?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 40",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-40"
@@ -9943,6 +11363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "How can a person’s energy affect others?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-25"
@@ -9950,6 +11371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "How can a small business grow big?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-24"
@@ -9957,6 +11379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "How can children become more independent?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-10"
@@ -9964,6 +11387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "How can children benefit from learning about art?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-06"
@@ -9971,6 +11395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "How can governments improve living standards in crowded cities?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-04"
@@ -9978,6 +11403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "How can modern technology help people arrive early?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-05"
@@ -9985,6 +11411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "How can people improve their health?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-19"
@@ -9992,6 +11419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "How can people improve their memory?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-32"
@@ -9999,6 +11427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "How can people in the neighbourhood help the elderly during an epidemic?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-19"
@@ -10006,6 +11435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "How can people protect the environment?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-15"
@@ -10013,6 +11443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "How can the type of school you go to affect career success?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-17"
@@ -10020,6 +11451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "How can we assist youngsters in realising their potential?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-31"
@@ -10027,6 +11459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-37",
     "type": "speaking",
+    "ordinal": 37,
     "label": "How can you teach your skills to others?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 37",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-37"
@@ -10034,6 +11467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "How could art exhibitions attract more visitors?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-08"
@@ -10041,6 +11475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "How difficult would it be for you to get fit this year?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-26"
@@ -10048,6 +11483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "How difficult would it be for you to save money this year?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-25"
@@ -10055,6 +11491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "How do business people relax?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-23"
@@ -10062,6 +11499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "How do children become smart at school?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-28"
@@ -10069,6 +11507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-44",
     "type": "speaking",
+    "ordinal": 44,
     "label": "How do children benefit from using dictionaries?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 44",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-44"
@@ -10076,6 +11515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-50",
     "type": "speaking",
+    "ordinal": 50,
     "label": "How do most people plan their futures in their education and careers?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 50",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-50"
@@ -10083,6 +11523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-35",
     "type": "speaking",
+    "ordinal": 35,
     "label": "How do most people travel long distances in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 35",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-35"
@@ -10090,6 +11531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "How do people get their news in today’s society?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-24"
@@ -10097,6 +11539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "How do people in your community help each other?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-04"
@@ -10104,6 +11547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "How do people in your country decide what furniture to buy for the home or office?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-16"
@@ -10111,6 +11555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "How do people in your country feel about art?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-01"
@@ -10118,6 +11563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-56",
     "type": "speaking",
+    "ordinal": 56,
     "label": "How do people reserve rooms?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 56",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-56"
@@ -10125,6 +11571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "How do people share good news?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-29"
@@ -10132,6 +11579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "How do people socialise with their neighbours?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-07"
@@ -10139,6 +11587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "How do you see leadership qualities now and in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-27"
@@ -10146,6 +11595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "How do you think AI (artificial intelligence) will affect people’s work?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-21"
@@ -10153,6 +11603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "How do you think cities overseas are different from those in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-15"
@@ -10160,6 +11611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "How do you think families will change in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-13"
@@ -10167,6 +11619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "How do you think parents can teach the value of money to their children?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-06"
@@ -10174,6 +11627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "How do you think people could become healthier?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-26"
@@ -10181,6 +11635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "How do you think people will get their news in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-25"
@@ -10188,6 +11643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "How do you think the Internet will change people’s buying habits in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-08"
@@ -10195,6 +11651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "How do you think watching a dance performance or a stage play influences children?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-09"
@@ -10202,6 +11659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "How do young people handle difficult or challenging tasks?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-02"
@@ -10209,6 +11667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "How does advertising influence children?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-14"
@@ -10216,6 +11675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "How does changing school affect children?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-12"
@@ -10223,6 +11683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "How does modern technology affect the delivery of news?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-26"
@@ -10230,6 +11691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "How does pop music now compare to when you were growing up?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-10"
@@ -10237,6 +11699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "How easy is it to find a place to live in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-27"
@@ -10244,6 +11707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "How has art changed in the past few decades in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-04"
@@ -10251,6 +11715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "How has clothing fashion changed in your country over the last few decades?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-20"
@@ -10258,6 +11723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "How has social media changed how we consume news?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-33"
@@ -10265,6 +11731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "How has the size of the average family changed in your country in the last few decades?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-14"
@@ -10272,6 +11739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-42",
     "type": "speaking",
+    "ordinal": 42,
     "label": "How has transportation improved in recent years?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 42",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-42"
@@ -10279,6 +11747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "How have holidays changed over the past few decades?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-18"
@@ -10286,6 +11755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "How have shopping habits changed over recent years?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-21"
@@ -10293,6 +11763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "How have the machines that are used for housework in modern homes benefited people? Are there any negative effects of using them?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-25"
@@ -10300,6 +11771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "How healthy is your country’s food?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-09"
@@ -10307,6 +11779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "How important is it for families to go on holiday together?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-16"
@@ -10314,6 +11787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "How important is it to celebrate important events with a group of people?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-11"
@@ -10321,6 +11795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "How important is it to get advice from other people when making decisions?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-03"
@@ -10328,6 +11803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "How many generations are usually living under one roof in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-31"
@@ -10335,6 +11811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "How may eating habits change in the coming decades?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-11"
@@ -10342,6 +11819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "How might eating habits change in the coming decades?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-14"
@@ -10349,6 +11827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "How often do people go to buy clothes?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-19"
@@ -10356,6 +11835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-43",
     "type": "speaking",
+    "ordinal": 43,
     "label": "How should a person be remorseful for their mistakes?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 43",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-43"
@@ -10363,6 +11843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "How well-respected are teachers in your society?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-01"
@@ -10370,6 +11851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "How will art exhibitions change in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-11"
@@ -10377,6 +11859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-6-humour",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Humour",
     "detail": "IELTS Speaking · Part 1 · Book 6 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-6-humour"
@@ -10384,6 +11867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "If you had a problem, would you go to your friends or family? Why?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-11"
@@ -10391,6 +11875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "In a team, is it more important to pursue individual development or to achieve team targets?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-05"
@@ -10398,6 +11883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "In families in your country, who usually decides what furniture to buy for the home?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-15"
@@ -10405,6 +11891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-45",
     "type": "speaking",
+    "ordinal": 45,
     "label": "In general, do you think planning is important?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 45",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-45"
@@ -10412,6 +11899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "In general, what factors do you think determine whether a small company will become successful or not?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-29"
@@ -10419,6 +11907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "In some places people spend a lot of money on parties that celebrate special family events. Is this ever true in your country? Do you think this is a good trend or a bad trend?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-09"
@@ -10426,6 +11915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "In what situations do people in your country buy furniture?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-14"
@@ -10433,6 +11923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "In what situations do you think people need to, or should, apologise?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-26"
@@ -10440,6 +11931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "In what ways are documentary films and films made purely for entertainment different?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-13"
@@ -10447,6 +11939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "In what ways can electronic devices make our lives harder?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-04"
@@ -10454,6 +11947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "In your country, do people prefer to listen to traditional music or foreign music?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-19"
@@ -10461,6 +11955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "In your country, do schools provide similar uniforms to their students?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-31"
@@ -10468,6 +11963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "In your country, is it important to have a meal together with your family?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-03"
@@ -10475,6 +11971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "In your opinion, do business people have to work long hours?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-22"
@@ -10482,6 +11979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "In your opinion, how can a teacher make lessons for children more interesting?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-05"
@@ -10489,6 +11987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "In your opinion, how can we encourage children to help others?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-06"
@@ -10496,6 +11995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "In your opinion, how will e-books affect paper books?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-15"
@@ -10503,6 +12003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "In your opinion, what are the benefits of playing a sport?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-06"
@@ -10510,6 +12011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "In your opinion, what are the most important qualities for a good teacher to have?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-04"
@@ -10517,6 +12019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "In your opinion, what are the negative aspects of crowded cities?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-03"
@@ -10524,6 +12027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "In your opinion, what makes a city a good one to live in?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-01"
@@ -10531,6 +12035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "In your opinion, what skills are required to start a small business?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-26"
@@ -10538,6 +12043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "In your opinion, when do people share good news?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-28"
@@ -10545,6 +12051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "In your opinion, why do some people like to buy imported products?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-02"
@@ -10552,6 +12059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "In your opinion, why do traditional products attract tourists?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-29"
@@ -10559,6 +12067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-6-indoor-activities",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Indoor Activities",
     "detail": "IELTS Speaking · Part 1 · Book 6 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-6-indoor-activities"
@@ -10566,6 +12075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-7-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Influence",
     "detail": "IELTS Speaking · Part 2 · Book 7 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-7-exercise-04"
@@ -10573,6 +12083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-6-internet",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Internet",
     "detail": "IELTS Speaking · Part 1 · Book 6 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-6-internet"
@@ -10580,6 +12091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-7-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Internet",
     "detail": "IELTS Speaking · Part 2 · Book 7 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-7-exercise-05"
@@ -10587,6 +12099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "Is a good teacher very important for students’ learning experience? Why?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-27"
@@ -10594,6 +12107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "Is advertising really necessary in modern society?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-13"
@@ -10601,6 +12115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "Is changing opinions good for society?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-26"
@@ -10608,6 +12123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Is family important in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-11"
@@ -10615,6 +12131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Is food now better than in the past?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-04"
@@ -10622,6 +12139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "Is foreign music or music from your country more popular with people your age?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-15"
@@ -10629,6 +12147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Is higher education too expensive in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-07"
@@ -10636,6 +12155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "Is increasing consumerism a good trend?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-21"
@@ -10643,6 +12163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Is it better to make a decision thinking about what you want or thinking about what other people want?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-06"
@@ -10650,6 +12171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "Is it common in your country for people to move to other cities because of work?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-25"
@@ -10657,6 +12179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Is it expensive to eat out in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-11"
@@ -10664,6 +12187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-50",
     "type": "speaking",
+    "ordinal": 50,
     "label": "Is it faster to travel by public transportation or by car in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 50",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-50"
@@ -10671,6 +12195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "Is it good for children to compete for prizes at school?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-21"
@@ -10678,6 +12203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Is it good to have competition?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-23"
@@ -10685,6 +12211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "Is it good to move to a new place frequently? Why?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-25"
@@ -10692,6 +12219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "Is it hard for old people to learn new skills?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-26"
@@ -10699,6 +12227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "Is it hard for students to learn new skills?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-25"
@@ -10706,6 +12235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "Is it important for a city to have amusement or recreational facilities?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-13"
@@ -10713,6 +12243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "Is it important to have friends from other countries?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-13"
@@ -10720,6 +12251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Is it true that tall buildings are more beneficial than small buildings?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-10"
@@ -10727,6 +12259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Is money important to you?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-04"
@@ -10734,6 +12267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "Is service better in large shops or in small shops?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-25"
@@ -10741,6 +12275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Is shopping a popular activity in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-20"
@@ -10748,6 +12283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Is the Internet important for education?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-10"
@@ -10755,6 +12291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Is water pollution a problem in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-11"
@@ -10762,6 +12299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-14-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Job",
     "detail": "IELTS Speaking · Part 2 · Book 14 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-14-exercise-03"
@@ -10769,6 +12307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-16-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Job You Would Not Like to Do",
     "detail": "IELTS Speaking · Part 2 · Book 16 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-16-exercise-05"
@@ -10776,6 +12315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-14-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Journey (event/occasion)",
     "detail": "IELTS Speaking · Part 2 · Book 14 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-14-exercise-09"
@@ -10783,6 +12323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-14-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Kindness (Person)",
     "detail": "IELTS Speaking · Part 2 · Book 14 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-14-exercise-10"
@@ -10790,6 +12331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-13-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Lake, River or Sea",
     "detail": "IELTS Speaking · Part 2 · Book 13 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-13-exercise-05"
@@ -10797,6 +12339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-7-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Lake/River",
     "detail": "IELTS Speaking · Part 2 · Book 7 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-7-exercise-10"
@@ -10804,6 +12347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-7-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Language Test",
     "detail": "IELTS Speaking · Part 2 · Book 7 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-7-exercise-08"
@@ -10811,6 +12355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-13-languages",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Languages",
     "detail": "IELTS Speaking · Part 1 · Book 13 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-13-languages"
@@ -10818,6 +12363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-7-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Late",
     "detail": "IELTS Speaking · Part 2 · Book 7 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-7-exercise-09"
@@ -10825,6 +12371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-15-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Law",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-01"
@@ -10832,6 +12379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-13-leisure-time",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Leisure Time",
     "detail": "IELTS Speaking · Part 1 · Book 13 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-13-leisure-time"
@@ -10839,6 +12387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Let’s move on to different ways of learning about history. In your opinion, how can people learn about history?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-11"
@@ -10846,6 +12395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Let’s move on to how modern technology influences the way that people manage time. Do you think computers make it easier or more difficult to manage time?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-04"
@@ -10853,6 +12403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "Let’s move on to talk about the overpopulation problem. Why do so many people move to live in cities?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-30"
@@ -10860,6 +12411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Let’s move on to the topic of educating children to help people. In your view, should children be taught to help others?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-05"
@@ -10867,6 +12419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "Let’s move on to what people do on the Internet. What do you think people do on the Internet?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-14"
@@ -10874,6 +12427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-7-lifestyle",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Lifestyle",
     "detail": "IELTS Speaking · Part 1 · Book 7 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-7-lifestyle"
@@ -10881,6 +12435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-7-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Local Area",
     "detail": "IELTS Speaking · Part 2 · Book 7 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-7-exercise-03"
@@ -10888,6 +12443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-16-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Local Area Change",
     "detail": "IELTS Speaking · Part 2 · Book 16 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-16-exercise-01"
@@ -10895,6 +12451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-6-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Long Vacation",
     "detail": "IELTS Speaking · Part 2 · Book 6 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-6-exercise-10"
@@ -10902,6 +12459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Machine",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-01"
@@ -10909,6 +12467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-7-major",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Major",
     "detail": "IELTS Speaking · Part 1 · Book 7 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-7-major"
@@ -10916,6 +12475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Memory",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-02"
@@ -10923,6 +12483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Mobile phone",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-04"
@@ -10930,6 +12491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-7-mobile-phones",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Mobile Phones",
     "detail": "IELTS Speaking · Part 1 · Book 7 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-7-mobile-phones"
@@ -10937,6 +12499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Money",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-05"
@@ -10944,6 +12507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-7-movies",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Movies",
     "detail": "IELTS Speaking · Part 1 · Book 7 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-7-movies"
@@ -10951,6 +12515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-8-museum",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Museum",
     "detail": "IELTS Speaking · Part 1 · Book 8 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-8-museum"
@@ -10958,6 +12523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-7-museums",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Museums",
     "detail": "IELTS Speaking · Part 1 · Book 7 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-7-museums"
@@ -10965,6 +12531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-8-music",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Music",
     "detail": "IELTS Speaking · Part 1 · Book 8 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-8-music"
@@ -10972,6 +12539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Music",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-08"
@@ -10979,6 +12547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-15-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Music (object)",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-02"
@@ -10986,6 +12555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-8-musical-instruments",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Musical Instruments",
     "detail": "IELTS Speaking · Part 1 · Book 8 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-8-musical-instruments"
@@ -10993,6 +12563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-8-neighbours",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Neighbours",
     "detail": "IELTS Speaking · Part 1 · Book 8 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-8-neighbours"
@@ -11000,6 +12571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "News",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-10"
@@ -11007,6 +12579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-8-newspapers-and-magazines",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Newspapers and Magazines",
     "detail": "IELTS Speaking · Part 1 · Book 8 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-8-newspapers-and-magazines"
@@ -11014,6 +12587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-5-noise",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Noise",
     "detail": "IELTS Speaking · Part 1 · Book 5 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-1-book-5-noise"
@@ -11021,6 +12595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Nowadays, more and more people are unwilling to cook. Why is this happening?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-09"
@@ -11028,6 +12603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "On what occasions do people usually need to wait?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-27"
@@ -11035,6 +12611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-9-outdoor-activities",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Outdoor Activities",
     "detail": "IELTS Speaking · Part 1 · Book 9 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-9-outdoor-activities"
@@ -11042,6 +12619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-9-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Parenting",
     "detail": "IELTS Speaking · Part 2 · Book 9 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-9-exercise-03"
@@ -11049,6 +12627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-9-patience-and-politeness",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Patience & Politeness",
     "detail": "IELTS Speaking · Part 1 · Book 9 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-9-patience-and-politeness"
@@ -11056,6 +12635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-15-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Peaceful Place",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-03"
@@ -11063,6 +12643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-4-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Performance",
     "detail": "IELTS Speaking · Part 2 · Book 4 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-4-exercise-03"
@@ -11070,6 +12651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-9-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Person in the News",
     "detail": "IELTS Speaking · Part 2 · Book 9 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-9-exercise-02"
@@ -11077,6 +12659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-10-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Photograph",
     "detail": "IELTS Speaking · Part 2 · Book 10 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-10-exercise-02"
@@ -11084,6 +12667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-14-photos",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Photos",
     "detail": "IELTS Speaking · Part 1 · Book 14 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-14-photos"
@@ -11091,6 +12675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-9-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Plans",
     "detail": "IELTS Speaking · Part 2 · Book 9 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-9-exercise-10"
@@ -11098,6 +12683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-10-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Products",
     "detail": "IELTS Speaking · Part 2 · Book 10 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-10-exercise-03"
@@ -11105,6 +12691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-9-public-transport",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Public Transport",
     "detail": "IELTS Speaking · Part 1 · Book 9 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-9-public-transport"
@@ -11112,6 +12699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-12-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Public Transport Trip",
     "detail": "IELTS Speaking · Part 2 · Book 12 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-12-exercise-08"
@@ -11119,6 +12707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-16-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Public Transport Trip",
     "detail": "IELTS Speaking · Part 2 · Book 16 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-16-exercise-03"
@@ -11126,6 +12715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-10-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Reading",
     "detail": "IELTS Speaking · Part 2 · Book 10 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-10-exercise-04"
@@ -11133,6 +12723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-15-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Relax (activity)",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-04"
@@ -11140,6 +12731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Research is being conducted on animals; is this a good idea?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-23"
@@ -11147,6 +12739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-15-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Respect (person)",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-05"
@@ -11154,6 +12747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-10-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Restaurants",
     "detail": "IELTS Speaking · Part 2 · Book 10 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-10-exercise-06"
@@ -11161,6 +12755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-10-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Rules",
     "detail": "IELTS Speaking · Part 2 · Book 10 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-10-exercise-07"
@@ -11168,6 +12763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-10-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "School",
     "detail": "IELTS Speaking · Part 2 · Book 10 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-10-exercise-09"
@@ -11175,6 +12771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-11-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Science",
     "detail": "IELTS Speaking · Part 2 · Book 11 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-11-exercise-01"
@@ -11182,6 +12779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-9-seasons",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Seasons",
     "detail": "IELTS Speaking · Part 1 · Book 9 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-9-seasons"
@@ -11189,6 +12787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-11-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Shop",
     "detail": "IELTS Speaking · Part 2 · Book 11 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-11-exercise-04"
@@ -11196,6 +12795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-13-shopping",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Shopping",
     "detail": "IELTS Speaking · Part 1 · Book 13 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-13-shopping"
@@ -11203,6 +12803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-11-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Shopping",
     "detail": "IELTS Speaking · Part 2 · Book 11 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-11-exercise-03"
@@ -11210,6 +12811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "Should a leader discuss with team members when making decisions?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-30"
@@ -11217,6 +12819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Should all students pay for their university education?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-01"
@@ -11224,6 +12827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-35",
     "type": "speaking",
+    "ordinal": 35,
     "label": "Should big companies be punished more seriously than small companies?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 35",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-35"
@@ -11231,6 +12835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Should children be taught to use computers at school?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-06"
@@ -11238,6 +12843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Should children rely on their parents or be independent?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-09"
@@ -11245,6 +12851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "Should husbands and wives have different roles within the family?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-15"
@@ -11252,6 +12859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "Should old people read books?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-33"
@@ -11259,6 +12867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Should parents push their children to get prizes?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-20"
@@ -11266,6 +12875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "Should people consider the consequences of their decisions that impact others, or only think of themselves?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-16"
@@ -11273,6 +12883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Should people try doing new things?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-05"
@@ -11280,6 +12891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Should we let children buy whatever they want with money they’ve saved?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-08"
@@ -11287,6 +12899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-11-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Social Problems",
     "detail": "IELTS Speaking · Part 2 · Book 11 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-11-exercise-05"
@@ -11294,6 +12907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "Some people believe that impatience helps the development of technology. Do you agree with that? Why do you think so?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-33"
@@ -11301,6 +12915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "Some people think that technology has brought more stress than benefits to employed people nowadays. Do you agree or disagree?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-30"
@@ -11308,6 +12923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-1-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Someone Who Influenced You",
     "detail": "IELTS Speaking · Part 2 · Book 1 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-1-exercise-05"
@@ -11315,6 +12931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-11-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Something Difficult To Use",
     "detail": "IELTS Speaking · Part 2 · Book 11 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-11-exercise-06"
@@ -11322,6 +12939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-6-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Something Healthy You Enjoy Doing",
     "detail": "IELTS Speaking · Part 2 · Book 6 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-6-exercise-02"
@@ -11329,6 +12947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-8-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Special Purchase",
     "detail": "IELTS Speaking · Part 2 · Book 8 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-8-exercise-07"
@@ -11336,6 +12955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-12-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Sport",
     "detail": "IELTS Speaking · Part 2 · Book 12 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-12-exercise-01"
@@ -11343,6 +12963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-11-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Sporting Event",
     "detail": "IELTS Speaking · Part 2 · Book 11 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-11-exercise-10"
@@ -11350,6 +12971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-9-sports",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Sports",
     "detail": "IELTS Speaking · Part 1 · Book 9 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-9-sports"
@@ -11357,6 +12979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-11-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Sports",
     "detail": "IELTS Speaking · Part 2 · Book 11 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-11-exercise-07"
@@ -11364,6 +12987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-11-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Sports",
     "detail": "IELTS Speaking · Part 2 · Book 11 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-11-exercise-08"
@@ -11371,6 +12995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-10-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Talk about a goal or ambition you have.",
     "detail": "IELTS Speaking · Part 2 · Book 10 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-10-exercise-01"
@@ -11378,6 +13003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-9-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Talk about one thing you are planning to do after you pass the IELTS",
     "detail": "IELTS Speaking · Part 2 · Book 9 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-9-exercise-04"
@@ -11385,6 +13011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-12-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Teachers",
     "detail": "IELTS Speaking · Part 2 · Book 12 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-2-book-12-exercise-02"
@@ -11392,6 +13019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-16-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Team Member",
     "detail": "IELTS Speaking · Part 2 · Book 16 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-16-exercise-04"
@@ -11399,6 +13027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Technology will make some people lose their jobs. How do you think this problem should be handled?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-23"
@@ -11406,6 +13035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-12-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Text Message",
     "detail": "IELTS Speaking · Part 2 · Book 12 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-2-book-12-exercise-03"
@@ -11413,6 +13043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-10-the-internet",
     "type": "speaking",
+    "ordinal": 1,
     "label": "The Internet",
     "detail": "IELTS Speaking · Part 1 · Book 10 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-10-the-internet"
@@ -11420,6 +13051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-10-the-sea",
     "type": "speaking",
+    "ordinal": 2,
     "label": "The Sea",
     "detail": "IELTS Speaking · Part 1 · Book 10 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-10-the-sea"
@@ -11427,6 +13059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "There’s a lot of pirated music. Do you agree that we should support official music?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-13"
@@ -11434,6 +13067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-12-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Things",
     "detail": "IELTS Speaking · Part 2 · Book 12 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-2-book-12-exercise-04"
@@ -11441,6 +13075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-10-timing",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Timing",
     "detail": "IELTS Speaking · Part 1 · Book 10 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-10-timing"
@@ -11448,6 +13083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "To what extent do you think advertising affects the way people shop?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-22"
@@ -11455,6 +13091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-12-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Tourist Activity",
     "detail": "IELTS Speaking · Part 2 · Book 12 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-12-exercise-10"
@@ -11462,6 +13099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-12-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Traditional Product",
     "detail": "IELTS Speaking · Part 2 · Book 12 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-2-book-12-exercise-05"
@@ -11469,6 +13107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-13-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Traditional Product",
     "detail": "IELTS Speaking · Part 2 · Book 13 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-13-exercise-07"
@@ -11476,6 +13115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-6-transportation",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Transportation",
     "detail": "IELTS Speaking · Part 1 · Book 6 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-6-transportation"
@@ -11483,6 +13123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-12-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Transportation",
     "detail": "IELTS Speaking · Part 2 · Book 12 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-12-exercise-06"
@@ -11490,6 +13131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-12-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Transportation",
     "detail": "IELTS Speaking · Part 2 · Book 12 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-12-exercise-07"
@@ -11497,6 +13139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-10-travel",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Travel",
     "detail": "IELTS Speaking · Part 1 · Book 10 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-10-travel"
@@ -11504,6 +13147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-12-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Travel",
     "detail": "IELTS Speaking · Part 2 · Book 12 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-12-exercise-09"
@@ -11511,6 +13155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-10-trees",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Trees",
     "detail": "IELTS Speaking · Part 1 · Book 10 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-10-trees"
@@ -11518,6 +13163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-11-tv",
     "type": "speaking",
+    "ordinal": 1,
     "label": "TV",
     "detail": "IELTS Speaking · Part 1 · Book 11 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-11-tv"
@@ -11525,6 +13171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-13-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "TV",
     "detail": "IELTS Speaking · Part 2 · Book 13 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-13-exercise-08"
@@ -11532,6 +13179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-4-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "TV Show",
     "detail": "IELTS Speaking · Part 2 · Book 4 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-4-exercise-01"
@@ -11539,6 +13187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-15-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Unexpected (event)",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-06"
@@ -11546,6 +13195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-13-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Vegetables",
     "detail": "IELTS Speaking · Part 2 · Book 13 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-2-book-13-exercise-10"
@@ -11553,6 +13203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-15-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "Vocation (Object)",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-07"
@@ -11560,6 +13211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-15-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Water (place)",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-08"
@@ -11567,6 +13219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-11-weather",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Weather",
     "detail": "IELTS Speaking · Part 1 · Book 11 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-1-book-11-weather"
@@ -11574,6 +13227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-13-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Weather",
     "detail": "IELTS Speaking · Part 2 · Book 13 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-13-exercise-09"
@@ -11581,6 +13235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Were different possessions thought of as valuable in the past?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-18"
@@ -11588,6 +13243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "What (minimum) age do you think is appropriate for owning a cell phone?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-03"
@@ -11595,6 +13251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "What about cultural aspects? How can sports bring people from different countries closer together?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-07"
@@ -11602,6 +13259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "What about elderly people? Do elderly people use the Internet very much?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-16"
@@ -11609,6 +13267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "What about students? How can students, such as high-school students, help each other?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-07"
@@ -11616,6 +13275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "What advantages do universities bring to society?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-04"
@@ -11623,6 +13283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-39",
     "type": "speaking",
+    "ordinal": 39,
     "label": "What are a few things that make you happy?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 39",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-39"
@@ -11630,6 +13291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "What are popular types of advertising in today’s world?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-09"
@@ -11637,6 +13299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "What are some examples of rules that exist in many families?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-21"
@@ -11644,6 +13307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "What are some famous local products in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-03"
@@ -11651,6 +13315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-52",
     "type": "speaking",
+    "ordinal": 52,
     "label": "What are some famous tourist spots in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 52",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-52"
@@ -11658,6 +13323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "What are some of the causes of water pollution?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-13"
@@ -11665,6 +13331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "What are some of the main environmental problems in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-12"
@@ -11672,6 +13339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-34",
     "type": "speaking",
+    "ordinal": 34,
     "label": "What are some of the major changes that occur to people throughout their lives?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 34",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-34"
@@ -11679,6 +13347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "What are some of the most important decisions young people have to make?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-04"
@@ -11686,6 +13355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "What are some of the pleasures involved in making a home for ourselves?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-29"
@@ -11693,6 +13363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "What are some possible advantages and disadvantages of being stricter about the illegal downloading of music?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-14"
@@ -11700,6 +13371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "What are some rules that exist in schools or workplaces in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-22"
@@ -11707,6 +13379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "What are some traditional art forms in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-03"
@@ -11714,6 +13387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "What are the advantages and disadvantages of having uniforms at work?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-21"
@@ -11721,6 +13395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "What are the advantages and disadvantages of living in tall buildings?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-06"
@@ -11728,6 +13403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "What are the advantages and disadvantages of living in the same place?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-24"
@@ -11735,6 +13411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "What are the advantages and disadvantages of using social media?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-19"
@@ -11742,6 +13419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "What are the advantages of living in a city?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-02"
@@ -11749,6 +13427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "What are the advantages of strong family relationships?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-29"
@@ -11756,6 +13435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "What are the benefits and drawbacks of a family of several generations living together?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-32"
@@ -11763,6 +13443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-44",
     "type": "speaking",
+    "ordinal": 44,
     "label": "What are the benefits of getting up early?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 44",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-44"
@@ -11770,6 +13451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "What are the benefits of making New Year’s resolutions?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-29"
@@ -11777,6 +13459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "What are the disadvantages of a country producing everything it needs?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-05"
@@ -11784,6 +13467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-34",
     "type": "speaking",
+    "ordinal": 34,
     "label": "What are the good things about working for a big company?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 34",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-34"
@@ -11791,6 +13475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "What are the impacts of globalisation on international trade?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-07"
@@ -11798,6 +13483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "What are the impacts of globalisation on small and large businesses?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-27"
@@ -11805,6 +13491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-44",
     "type": "speaking",
+    "ordinal": 44,
     "label": "What are the impacts of Uber on transportation in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 44",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-44"
@@ -11812,6 +13499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "What are the main reasons why people organise family parties in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-08"
@@ -11819,6 +13507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "What are the most common resolutions in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-24"
@@ -11826,6 +13515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "What are the most popular electronic devices in today’s world?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-01"
@@ -11833,6 +13523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-54",
     "type": "speaking",
+    "ordinal": 54,
     "label": "What are the negative impacts of tourism in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 54",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-54"
@@ -11840,6 +13531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "What are the positive and negative effects of waiting on society?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-30"
@@ -11847,6 +13539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-53",
     "type": "speaking",
+    "ordinal": 53,
     "label": "What are the positive impacts of tourism in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 53",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-53"
@@ -11854,6 +13547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "What are the pros and cons of shopping online?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-09"
@@ -11861,6 +13555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "What are the types of food that people eat in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-01"
@@ -11868,6 +13563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "What are your thoughts about the trend that people buy new things instead of repairing the old ones?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-20"
@@ -11875,6 +13571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "What can be done to alleviate poverty?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-27"
@@ -11882,6 +13579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "What can be done to alleviate poverty?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-32"
@@ -11889,6 +13587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "What can be done to reduce traffic noise?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-22"
@@ -11896,6 +13595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "What can individuals do for scientific research?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-09"
@@ -11903,6 +13603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "What can individuals do to try and ensure water is kept clean?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-18"
@@ -11910,6 +13611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "What can people do on social media?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-15"
@@ -11917,6 +13619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "What can people do to improve the air quality in the city?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-05"
@@ -11924,6 +13627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-39",
     "type": "speaking",
+    "ordinal": 39,
     "label": "What can we learn from our mistakes?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 39",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-39"
@@ -11931,6 +13635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-36",
     "type": "speaking",
+    "ordinal": 36,
     "label": "What can you do to learn more about your family history?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 36",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-36"
@@ -11938,6 +13643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "What can you do to support an artist?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-12"
@@ -11945,6 +13651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-58",
     "type": "speaking",
+    "ordinal": 58,
     "label": "What can you say about the future of the tourism industry in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 58",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-58"
@@ -11952,6 +13659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "What challenges do young people face today?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-01"
@@ -11959,6 +13667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "What changes do you think will happen in the classroom in the near future?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-18"
@@ -11966,6 +13675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "What changes do you think will happen in the classrooms of the near future?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-03"
@@ -11973,6 +13683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "What characteristics do you think an athlete should have?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-16"
@@ -11980,6 +13691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "What decisions do people generally make in their daily life?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-12"
@@ -11987,6 +13699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "What devices do you think will be popular in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-02"
@@ -11994,6 +13707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "What different types of traditional products are produced in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-28"
@@ -12001,6 +13715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-41",
     "type": "speaking",
+    "ordinal": 41,
     "label": "What do children learn from teachers and parents?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 41",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-41"
@@ -12008,6 +13723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "What do people consider when buying clothes?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-27"
@@ -12015,6 +13731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "What do people do when they get bad service?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-26"
@@ -12022,6 +13739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "What do you think about the role of singers at the national level?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-21"
@@ -12029,6 +13747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "What do you think are some of the main differences between written communication and spoken communication?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-16"
@@ -12036,6 +13755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "What do you think is the difference between watching a live performance and watching it on TV?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-08"
@@ -12043,6 +13763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "What do you think of charitable organisations?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-31"
@@ -12050,6 +13771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "What do you think of primary school students owning a mobile phone?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-02"
@@ -12057,6 +13779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "What do you think of those people who don’t apologise very often?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-27"
@@ -12064,6 +13787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-27",
     "type": "speaking",
+    "ordinal": 27,
     "label": "What do you think this year will be like for you?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 27",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-27"
@@ -12071,6 +13795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "What do you think we can learn by studying history?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-10"
@@ -12078,6 +13803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "What do you think young people will be influenced by the most in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-04"
@@ -12085,6 +13811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "What factors should be taken into account when making advertisements?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-12"
@@ -12092,6 +13819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "What influence can international cooperation in science bring about?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-10"
@@ -12099,6 +13827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-57",
     "type": "speaking",
+    "ordinal": 57,
     "label": "What influences people’s choice of a hotel?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 57",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-57"
@@ -12106,6 +13835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "What is a balanced diet?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-13"
@@ -12113,6 +13843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "What is an example of a time when it is very important for people to arrive on time in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-02"
@@ -12120,6 +13851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "What is it like to be a professional athlete?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-01"
@@ -12127,6 +13859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "What is necessary to learn and improve a skill?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-28"
@@ -12134,6 +13867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-60",
     "type": "speaking",
+    "ordinal": 60,
     "label": "What is the difference between a hotel in our country and a hotel abroad?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 60",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-60"
@@ -12141,6 +13875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "What is the difference between big companies and small companies?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-33"
@@ -12148,6 +13883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-35",
     "type": "speaking",
+    "ordinal": 35,
     "label": "What is the difference between festivals that are celebrated now and in the past?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 35",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-35"
@@ -12155,6 +13891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "What is the difference between major and minor crime?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-33"
@@ -12162,6 +13899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "What is the difference between new media and old media?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-30"
@@ -12169,6 +13907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "What is the distinction between information on TV and information in magazines?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-16"
@@ -12176,6 +13915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "What is the effect if parents interfere with children’s life too much?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-11"
@@ -12183,6 +13923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "What is the effect of technology on how people learn about history?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-14"
@@ -12190,6 +13931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "What is the general attitude towards arriving somewhere late in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-01"
@@ -12197,6 +13939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-34",
     "type": "speaking",
+    "ordinal": 34,
     "label": "What is the importance of traditional festivals?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 34",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-34"
@@ -12204,6 +13947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-34",
     "type": "speaking",
+    "ordinal": 34,
     "label": "What is the most important practical skill in modern society?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 34",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-34"
@@ -12211,6 +13955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "What is the relationship between money and power?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-05"
@@ -12218,6 +13963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "What is your opinion on the way languages are taught in schools?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-16"
@@ -12225,6 +13971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-41",
     "type": "speaking",
+    "ordinal": 41,
     "label": "What is your take on introducing transportation passes?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 41",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-41"
@@ -12232,6 +13979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-43",
     "type": "speaking",
+    "ordinal": 43,
     "label": "What is your take on introducing transportation passes?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 43",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-43"
@@ -12239,6 +13987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-38",
     "type": "speaking",
+    "ordinal": 38,
     "label": "What kind of advice do friends give each other?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 38",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-38"
@@ -12246,6 +13995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-37",
     "type": "speaking",
+    "ordinal": 37,
     "label": "What kind of advice do parents give their children?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 37",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-37"
@@ -12253,6 +14003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "What kind of books do people like to read in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-21"
@@ -12260,6 +14011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "What kind of holidays will be popular in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-19"
@@ -12267,6 +14019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-35",
     "type": "speaking",
+    "ordinal": 35,
     "label": "What kind of job requires practical skills?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 35",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-35"
@@ -12274,6 +14027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "What kind of jobs need imagination?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-19"
@@ -12281,6 +14035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "What kind of jobs need physical activity?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-22"
@@ -12288,6 +14043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "What kind of music is popular in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-09"
@@ -12295,6 +14051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "What kind of people would like to go to a cafe?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-05"
@@ -12302,6 +14059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "What kind of puzzles improve people’s intelligence?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-13"
@@ -12309,6 +14067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-47",
     "type": "speaking",
+    "ordinal": 47,
     "label": "What kind of situations need people to arrive early?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 47",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-47"
@@ -12316,6 +14075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "What kind of small businesses will young people have in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-25"
@@ -12323,6 +14083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "What kinds of exercises do people in your country like?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-15"
@@ -12330,6 +14091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-34",
     "type": "speaking",
+    "ordinal": 34,
     "label": "What kinds of famous people are usually in the news in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 34",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-34"
@@ -12337,6 +14099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "What kinds of foreign food are popular in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-02"
@@ -12344,6 +14107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-39",
     "type": "speaking",
+    "ordinal": 39,
     "label": "What kinds of improvement have there been in transport in your country in recent years?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 39",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-39"
@@ -12351,6 +14115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "What kinds of machines are used for housework in modern homes in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-24"
@@ -12358,6 +14123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-47",
     "type": "speaking",
+    "ordinal": 47,
     "label": "What kinds of obstacles do you think some local governments have to face when they develop transportation infrastructure?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 47",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-47"
@@ -12365,6 +14131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "What kinds of people are most likely to say sorry?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-25"
@@ -12372,6 +14139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "What kinds of possessions are considered high-status to people in Hong Kong?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-17"
@@ -12379,6 +14147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "What kinds of products are mostly imported into your country?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-01"
@@ -12386,6 +14155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "What kinds of professionals need to wear uniforms?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-29"
@@ -12393,6 +14163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "What kinds of rewards can companies offer to their outstanding employees?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-22"
@@ -12400,6 +14171,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-36",
     "type": "speaking",
+    "ordinal": 36,
     "label": "What kinds of skills are difficult to learn?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 36",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-36"
@@ -12407,6 +14179,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "What makes a good party?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-07"
@@ -12414,6 +14187,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "What makes a good university student?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-06"
@@ -12421,6 +14195,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "What makes someone a good doctor?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-21"
@@ -12428,6 +14203,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "What may happen when someone listens to very loud music using headphones while they are running or hiking?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-21"
@@ -12435,6 +14211,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "What options are available to young couples looking for accommodation in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-30"
@@ -12442,6 +14219,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-21",
     "type": "speaking",
+    "ordinal": 21,
     "label": "What problems can people have on holiday in a foreign country?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 21",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-21"
@@ -12449,6 +14227,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "What problems can people have when they try new activities for the first time?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-06"
@@ -12456,6 +14235,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "What problems do people face after moving to a new place?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-23"
@@ -12463,6 +14243,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-31",
     "type": "speaking",
+    "ordinal": 31,
     "label": "What problems does overpopulation cause?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 31",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-31"
@@ -12470,6 +14251,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "What qualities are required to become a company leader (or CEO or manager)?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-28"
@@ -12477,6 +14259,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "What qualities does a person need to have to take care of old people?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-17"
@@ -12484,6 +14267,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "What rewards can children get from school?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-19"
@@ -12491,6 +14275,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "What role do grandparents play in the family in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-16"
@@ -12498,6 +14283,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "What role should the teacher have in the classroom?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-03"
@@ -12505,6 +14291,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "What rules should be imposed to reduce noise pollution in the near future?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-24"
@@ -12512,6 +14299,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-42",
     "type": "speaking",
+    "ordinal": 42,
     "label": "What should parents do if their children make mistakes?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 42",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-42"
@@ -12519,6 +14307,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "What should we do to protect endangered animals?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-16"
@@ -12526,6 +14315,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "What skills should students master?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-24"
@@ -12533,6 +14323,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "What social problems are there in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-29"
@@ -12540,6 +14331,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "What subjects are helpful for people’s imagination?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-20"
@@ -12547,6 +14339,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "What type of magazines do teens prefer to read?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-14"
@@ -12554,6 +14347,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "What type of media advertising do you like most?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-10"
@@ -12561,6 +14355,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "What type of people, such as parents, teachers, or friends, are best to influence young people’s behaviour?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-02"
@@ -12568,6 +14363,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "What type of person, such as parents, teachers, or friends, is best at influencing young people’s behaviour?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-07"
@@ -12575,6 +14371,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "What types of leisure activities are popular in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-07"
@@ -12582,6 +14379,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "What types of leisure activities may become more popular in the future?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-11"
@@ -12589,6 +14387,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "What types of people influence the young in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-01"
@@ -12596,6 +14395,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-47",
     "type": "speaking",
+    "ordinal": 47,
     "label": "What types of people like to make plans?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 47",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-47"
@@ -12603,6 +14403,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "What types of songs are the most popular among today’s young generation in Hong Kong?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-23"
@@ -12610,6 +14411,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-04",
     "type": "speaking",
+    "ordinal": 4,
     "label": "What types of sports are popular in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-04"
@@ -12617,6 +14419,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "What would happen when some species disappear on earth?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-19"
@@ -12624,6 +14427,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "What would the world be like without computers?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-05"
@@ -12631,6 +14435,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "What would you say are the advantages and disadvantages of wearing a uniform?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-28"
@@ -12638,6 +14443,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "What would you say are the important factors to consider when choosing a career?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-22"
@@ -12645,6 +14451,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "What’s the best age for children to use the Internet?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-12"
@@ -12652,6 +14459,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-07",
     "type": "speaking",
+    "ordinal": 7,
     "label": "What’s the best invention in the past hundred years?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 7",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-07"
@@ -12659,6 +14467,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "What’s the best way to become a top athlete?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-18"
@@ -12666,6 +14475,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "What’s the difference between films and books?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-16"
@@ -12673,6 +14483,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-25",
     "type": "speaking",
+    "ordinal": 25,
     "label": "What’s the difference between men and women’s choices of clothes?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 25",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-25"
@@ -12680,6 +14491,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "What’s the difference between payment for physical work and payment for mental work?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-26"
@@ -12687,6 +14499,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "What’s the difference between restaurant food and home-cooked food?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-13"
@@ -12694,6 +14507,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "What’s the influence of science on human life?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-08"
@@ -12701,6 +14515,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "When do people usually have parties in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-06"
@@ -12708,6 +14523,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-26",
     "type": "speaking",
+    "ordinal": 26,
     "label": "When young people choose their jobs, which is usually more important, the salary or their interest in the work?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 26",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-26"
@@ -12715,6 +14531,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "Where (or what) would you say is the most crowded place in your city?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-12"
@@ -12722,6 +14539,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-20",
     "type": "speaking",
+    "ordinal": 20,
     "label": "Where can people hear a lot of noise?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 20",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-20"
@@ -12729,6 +14547,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "Where do people from your country buy clothes?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-24"
@@ -12736,6 +14555,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-34",
     "type": "speaking",
+    "ordinal": 34,
     "label": "Where do you go to get good advice?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 34",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-34"
@@ -12743,6 +14563,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "Which age group plays puzzles the most?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-14"
@@ -12750,6 +14571,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Which area of science has been the most important in the last one hundred years?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-17"
@@ -12757,6 +14579,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "Which can help people remember things better, words or photos?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-30"
@@ -12764,6 +14587,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "Which do you think is better, a detective movie or its original novel?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-22"
@@ -12771,6 +14595,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Which do you think is better, to face these difficulties and challenges alone or to seek the help of others?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-03"
@@ -12778,6 +14603,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "Which do you think is better, to start your own business or to work for someone else?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-32"
@@ -12785,6 +14611,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-33",
     "type": "speaking",
+    "ordinal": 33,
     "label": "Which do you think is more important to remember, a business meeting or a meeting with a friend?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 33",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-33"
@@ -12792,6 +14619,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-59",
     "type": "speaking",
+    "ordinal": 59,
     "label": "Which feature is the most important facility you look for while staying in a hotel?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 59",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-59"
@@ -12799,6 +14627,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "Which is easier, making a decision by oneself or making a decision after a group discussion?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-13"
@@ -12806,6 +14635,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Which is more important, research or teaching?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-05"
@@ -12813,6 +14643,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Which products are most consumed in your country?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-23"
@@ -12820,6 +14651,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-28",
     "type": "speaking",
+    "ordinal": 28,
     "label": "Who behaves better when waiting, children or adults?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 28",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-28"
@@ -12827,6 +14659,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "Who do young people turn to for advice?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-24"
@@ -12834,6 +14667,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "Who is the head of the family in your culture?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-32"
@@ -12841,6 +14675,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "Who should be responsible for caring for the elderly: the family or the government?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-12"
@@ -12848,6 +14683,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-35",
     "type": "speaking",
+    "ordinal": 35,
     "label": "Whose advice do you follow more, your parents’ or your friends’ advice?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 35",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-35"
@@ -12855,6 +14691,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Why are detective stories attractive to people?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-23"
@@ -12862,6 +14699,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "Why are many young people unwilling to listen to their parents’ advice?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-14"
@@ -12869,6 +14707,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Why are some activities more popular than others?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-09"
@@ -12876,6 +14715,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "Why are some people well-rounded and others only good at one thing?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-29"
@@ -12883,6 +14723,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Why are there so few top athletes?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-17"
@@ -12890,6 +14731,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Why aren’t there many tall buildings in the countryside?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-08"
@@ -12897,6 +14739,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-11",
     "type": "speaking",
+    "ordinal": 11,
     "label": "Why do a lot of people enjoy going to crowded places?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 11",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-11"
@@ -12904,6 +14747,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-48",
     "type": "speaking",
+    "ordinal": 48,
     "label": "Why do children and youngsters generally wake up late?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 48",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-48"
@@ -12911,6 +14755,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-13",
     "type": "speaking",
+    "ordinal": 13,
     "label": "Why do children start using the Internet very early nowadays?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 13",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-13"
@@ -12918,6 +14763,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "Why do middle-aged people tend to second-guess their decisions?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-15"
@@ -12925,6 +14771,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-2-exercise-35",
     "type": "speaking",
+    "ordinal": 35,
     "label": "Why do old people not accept change?",
     "detail": "IELTS Speaking · Part 3 · Book 2 · Exercise 35",
     "url": "speaking-system.html?exercise=ielts-part-3-book-2-exercise-35"
@@ -12932,6 +14779,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "Why do parents let their children play with puzzles?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-12"
@@ -12939,6 +14787,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-23",
     "type": "speaking",
+    "ordinal": 23,
     "label": "Why do people change their opinion?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 23",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-23"
@@ -12946,6 +14795,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "Why do people choose to live in big cities, despite certain problems?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-14"
@@ -12953,6 +14803,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "Why do people like to keep pets?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-15"
@@ -12960,6 +14811,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "Why do people move to a new home?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-22"
@@ -12967,6 +14819,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "Why do people prefer texting as compared to phone calls?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-14"
@@ -12974,6 +14827,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-32",
     "type": "speaking",
+    "ordinal": 32,
     "label": "Why do people sometimes forget things?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 32",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-32"
@@ -12981,6 +14835,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-35",
     "type": "speaking",
+    "ordinal": 35,
     "label": "Why do people want to remember their family history?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 35",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-35"
@@ -12988,6 +14843,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "Why do some companies ask their staff to wear uniforms?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-19"
@@ -12995,6 +14851,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-37",
     "type": "speaking",
+    "ordinal": 37,
     "label": "Why do some people choose to work at an international company?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 37",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-37"
@@ -13002,6 +14859,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-12",
     "type": "speaking",
+    "ordinal": 12,
     "label": "Why do some people dislike using text messages?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 12",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-12"
@@ -13009,6 +14867,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Why do some people enjoy doing dangerous sports?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-03"
@@ -13016,6 +14875,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Why do some people enjoy eating out?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-08"
@@ -13023,6 +14883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Why do some people find it hard to make decisions?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-01"
@@ -13030,6 +14891,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-8-exercise-17",
     "type": "speaking",
+    "ordinal": 17,
     "label": "Why do some people go on holiday alone?",
     "detail": "IELTS Speaking · Part 3 · Book 8 · Exercise 17",
     "url": "speaking-system.html?exercise=ielts-part-3-book-8-exercise-17"
@@ -13037,6 +14899,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-29",
     "type": "speaking",
+    "ordinal": 29,
     "label": "Why do some people have a better memory?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 29",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-29"
@@ -13044,6 +14907,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Why do some people like to live in tall buildings nowadays?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-09"
@@ -13051,6 +14915,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-45",
     "type": "speaking",
+    "ordinal": 45,
     "label": "Why do some people like to stay up late?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 45",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-45"
@@ -13058,6 +14923,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "Why do some people prefer to purchase brand name products produced abroad?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-24"
@@ -13065,6 +14931,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-48",
     "type": "speaking",
+    "ordinal": 48,
     "label": "Why do some people prefer to travel abroad rather than travel in their own country?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 48",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-48"
@@ -13072,6 +14939,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-1-exercise-18",
     "type": "speaking",
+    "ordinal": 18,
     "label": "Why do some people refuse to eat animals?",
     "detail": "IELTS Speaking · Part 3 · Book 1 · Exercise 18",
     "url": "speaking-system.html?exercise=ielts-part-3-book-1-exercise-18"
@@ -13079,6 +14947,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Why do some people think that national celebrations are a waste of government money? Do you agree or disagree with this view? Why?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-10"
@@ -13086,6 +14955,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-19",
     "type": "speaking",
+    "ordinal": 19,
     "label": "Why do we have rules in society?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 19",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-19"
@@ -13093,6 +14963,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Why do you think different cultures have different table manners?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-10"
@@ -13100,6 +14971,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-14",
     "type": "speaking",
+    "ordinal": 14,
     "label": "Why do you think documentary films are not so popular?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 14",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-14"
@@ -13107,6 +14979,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-16-exercise-46",
     "type": "speaking",
+    "ordinal": 46,
     "label": "Why do you think more and more people prefer to travel by plane?",
     "detail": "IELTS Speaking · Part 3 · Book 16 · Exercise 46",
     "url": "speaking-system.html?exercise=ielts-part-3-book-16-exercise-46"
@@ -13114,6 +14987,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-11-exercise-22",
     "type": "speaking",
+    "ordinal": 22,
     "label": "Why do you think pop music is so popular?",
     "detail": "IELTS Speaking · Part 3 · Book 11 · Exercise 22",
     "url": "speaking-system.html?exercise=ielts-part-3-book-11-exercise-22"
@@ -13121,6 +14995,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-14-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "Why do you think some inventions have not been successful in the marketplace?",
     "detail": "IELTS Speaking · Part 3 · Book 14 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-14-exercise-15"
@@ -13128,6 +15003,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-12-exercise-48",
     "type": "speaking",
+    "ordinal": 48,
     "label": "Why do you think some people dislike making plans?",
     "detail": "IELTS Speaking · Part 3 · Book 12 · Exercise 48",
     "url": "speaking-system.html?exercise=ielts-part-3-book-12-exercise-48"
@@ -13135,6 +15011,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-06",
     "type": "speaking",
+    "ordinal": 6,
     "label": "Why do young people like studying in a café instead of at home?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 6",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-06"
@@ -13142,6 +15019,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-6-exercise-30",
     "type": "speaking",
+    "ordinal": 30,
     "label": "Why does modern society need talent of all kinds?",
     "detail": "IELTS Speaking · Part 3 · Book 6 · Exercise 30",
     "url": "speaking-system.html?exercise=ielts-part-3-book-6-exercise-30"
@@ -13149,6 +15027,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-10-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Why is it important for people to have time for leisure activities?",
     "detail": "IELTS Speaking · Part 3 · Book 10 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-3-book-10-exercise-08"
@@ -13156,6 +15035,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-03",
     "type": "speaking",
+    "ordinal": 3,
     "label": "Why is it important for young people to have role models?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 3",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-03"
@@ -13163,6 +15043,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-05",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Why is it important to have role models?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-05"
@@ -13170,6 +15051,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-4-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Why is it sometimes difficult to accept advice?",
     "detail": "IELTS Speaking · Part 3 · Book 4 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-4-exercise-02"
@@ -13177,6 +15059,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-13-exercise-15",
     "type": "speaking",
+    "ordinal": 15,
     "label": "Why is it that different people want to see different magazines?",
     "detail": "IELTS Speaking · Part 3 · Book 13 · Exercise 15",
     "url": "speaking-system.html?exercise=ielts-part-3-book-13-exercise-15"
@@ -13184,6 +15067,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-5-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Why should people be concerned about the environment?",
     "detail": "IELTS Speaking · Part 3 · Book 5 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-5-exercise-10"
@@ -13191,6 +15075,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Why would somebody dislike watching the Olympic Games?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-09"
@@ -13198,6 +15083,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-11-work",
     "type": "speaking",
+    "ordinal": 4,
     "label": "Work",
     "detail": "IELTS Speaking · Part 1 · Book 11 · Exercise 4",
     "url": "speaking-system.html?exercise=ielts-part-1-book-11-work"
@@ -13205,6 +15091,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-14-work",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Work",
     "detail": "IELTS Speaking · Part 1 · Book 14 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-1-book-14-work"
@@ -13212,6 +15099,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-14-exercise-01",
     "type": "speaking",
+    "ordinal": 1,
     "label": "Work",
     "detail": "IELTS Speaking · Part 2 · Book 14 · Exercise 1",
     "url": "speaking-system.html?exercise=ielts-part-2-book-14-exercise-01"
@@ -13219,6 +15107,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-11-work-and-volunteer-work",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Work and Volunteer Work",
     "detail": "IELTS Speaking · Part 1 · Book 11 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-11-work-and-volunteer-work"
@@ -13226,6 +15115,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-9-exercise-24",
     "type": "speaking",
+    "ordinal": 24,
     "label": "Would you ever move to work and live in another city?",
     "detail": "IELTS Speaking · Part 3 · Book 9 · Exercise 24",
     "url": "speaking-system.html?exercise=ielts-part-3-book-9-exercise-24"
@@ -13233,6 +15123,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-7-exercise-10",
     "type": "speaking",
+    "ordinal": 10,
     "label": "Would you like to have a few very good friends or a lot of just friends?",
     "detail": "IELTS Speaking · Part 3 · Book 7 · Exercise 10",
     "url": "speaking-system.html?exercise=ielts-part-3-book-7-exercise-10"
@@ -13240,6 +15131,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-15-exercise-02",
     "type": "speaking",
+    "ordinal": 2,
     "label": "Would you say that advertising makes people buy more new things than they would if there was no advertising?",
     "detail": "IELTS Speaking · Part 3 · Book 15 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-3-book-15-exercise-02"
@@ -13247,6 +15139,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-3-book-3-exercise-16",
     "type": "speaking",
+    "ordinal": 16,
     "label": "Would you say urban planning is important?",
     "detail": "IELTS Speaking · Part 3 · Book 3 · Exercise 16",
     "url": "speaking-system.html?exercise=ielts-part-3-book-3-exercise-16"
@@ -13254,6 +15147,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-1-book-11-writing",
     "type": "speaking",
+    "ordinal": 5,
     "label": "Writing",
     "detail": "IELTS Speaking · Part 1 · Book 11 · Exercise 5",
     "url": "speaking-system.html?exercise=ielts-part-1-book-11-writing"
@@ -13261,6 +15155,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-9-exercise-08",
     "type": "speaking",
+    "ordinal": 8,
     "label": "Your Favourite Festival or Celebration",
     "detail": "IELTS Speaking · Part 2 · Book 9 · Exercise 8",
     "url": "speaking-system.html?exercise=ielts-part-2-book-9-exercise-08"
@@ -13268,6 +15163,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
   {
     "id": "speaking:ielts-part-2-book-15-exercise-09",
     "type": "speaking",
+    "ordinal": 9,
     "label": "Zoo (place)",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-09"

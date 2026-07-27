@@ -150,12 +150,40 @@ export function fullHomeworkTriggerAtCursor(value, cursor = String(value || "").
   return completion && completion.remainder === "" ? completion : null;
 }
 
+function homeworkResourceOrdinal(resource) {
+  const raw = resource?.ordinal;
+  if (raw === null || raw === undefined || raw === "" || typeof raw === "boolean") return null;
+  const ordinal = Number(raw);
+  return Number.isSafeInteger(ordinal) && ordinal >= 0 ? ordinal : null;
+}
+
 export function filterHomeworkResources(catalog, type, query = "", limit = 60) {
-  const tokens = String(query || "").normalize("NFKC").toLocaleLowerCase("en").split(/\s+/).filter(Boolean);
+  const normalizedQuery = String(query || "").normalize("NFKC").trim().toLocaleLowerCase("en");
+  const tokens = normalizedQuery.split(/\s+/).filter(Boolean);
   const matches = (Array.isArray(catalog) ? catalog : []).filter((resource) => {
     if (resource?.type !== type) return false;
-    const haystack = `${resource.label || ""} ${resource.detail || ""} ${resource.id || ""}`.normalize("NFKC").toLocaleLowerCase("en");
+    const normalizedOrdinal = homeworkResourceOrdinal(resource);
+    const ordinal = normalizedOrdinal === null ? "" : String(normalizedOrdinal);
+    const haystack = `${ordinal} ${resource.label || ""} ${resource.detail || ""} ${resource.id || ""}`.normalize("NFKC").toLocaleLowerCase("en");
     return tokens.every((token) => haystack.includes(token));
   });
+  if (/^\d+$/.test(normalizedQuery)) {
+    const collator = new Intl.Collator(["zh-Hant", "en"], { numeric: true, sensitivity: "base" });
+    matches.sort((left, right) => {
+      const leftOrdinal = homeworkResourceOrdinal(left);
+      const rightOrdinal = homeworkResourceOrdinal(right);
+      const leftHasOrdinal = leftOrdinal !== null;
+      const rightHasOrdinal = rightOrdinal !== null;
+      const leftOrdinalText = leftHasOrdinal ? String(leftOrdinal) : "";
+      const rightOrdinalText = rightHasOrdinal ? String(rightOrdinal) : "";
+      const leftTier = leftOrdinalText === normalizedQuery ? 0 : leftOrdinalText.includes(normalizedQuery) ? 1 : 2;
+      const rightTier = rightOrdinalText === normalizedQuery ? 0 : rightOrdinalText.includes(normalizedQuery) ? 1 : 2;
+      return leftTier - rightTier
+        || (leftHasOrdinal && rightHasOrdinal ? leftOrdinal - rightOrdinal : Number(rightHasOrdinal) - Number(leftHasOrdinal))
+        || collator.compare(String(left.label || ""), String(right.label || ""))
+        || collator.compare(String(left.detail || ""), String(right.detail || ""))
+        || collator.compare(String(left.id || ""), String(right.id || ""));
+    });
+  }
   return { total: matches.length, items: matches.slice(0, Math.max(1, Number(limit) || 60)) };
 }

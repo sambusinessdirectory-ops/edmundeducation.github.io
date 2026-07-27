@@ -254,6 +254,13 @@ assert.match(scheduleHtml, /data-cancel-mass-edit/);
 assert.match(scheduleHtml, />一次儲存全部</);
 assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.is-mass-edit-draft/);
 assert.match(scheduleHtml, /\.draft-badge/);
+assert.match(scheduleHtml, /data-toggle-clipboard-selection[^>]*aria-pressed="false"/);
+assert.match(scheduleHtml, /data-copy-clipboard-selection/);
+assert.match(scheduleHtml, /data-paste-clipboard-selection/);
+assert.match(scheduleHtml, /data-clear-clipboard-selection/);
+assert.match(scheduleHtml, /clipboard-selection-marquee/);
+assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260727-3/);
 
 const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
 assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");
@@ -393,6 +400,26 @@ assert.match(scheduleJs, /async function saveMassEdit\(/);
 assert.match(scheduleJs, /schedule_student_apply_entry_batch/);
 assert.match(scheduleJs, /schedule_admin_apply_entry_batch/);
 assert.match(scheduleJs, /window\.addEventListener\("beforeunload"/);
+assert.match(scheduleJs, /schedule-clipboard\.mjs\?v=20260727-1/);
+assert.match(scheduleJs, /homework-resource-catalog\.mjs\?v=20260727-2/);
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260727-2/);
+assert.match(scheduleJs, /clipboardSelectedEntryIds:\s*new Set\(\)/);
+assert.match(scheduleJs, /function beginClipboardMarquee\(/);
+assert.match(scheduleJs, /function updateClipboardMarquee\(/);
+assert.match(scheduleJs, /function stageScheduleClipboardPaste\(/);
+assert.match(scheduleJs, /document\.addEventListener\("copy", handleScheduleCopy\)/);
+assert.match(scheduleJs, /document\.addEventListener\("paste", handleSchedulePaste\)/);
+assert.match(scheduleJs, /sessionStorage\.setItem\(SCHEDULE_CLIPBOARD_SESSION_KEY/);
+assert.match(scheduleJs, /clearStoredScheduleClipboard\(\);[\s\S]*?forgetStudentSession/);
+assert.match(scheduleJs, /system will not|系統不會移動或覆蓋任何現有安排/);
+const openStudentScheduleBody = scheduleJs.match(
+  /async function openStudentSchedule\([^)]*\)\s*\{([\s\S]*?)\n\}\n\nfunction activeStudent/
+)?.[1] || "";
+assert.doesNotMatch(
+  openStudentScheduleBody,
+  /state\.weekStart\s*=\s*defaultWeekStart\(\)/,
+  "switching admin students must preserve the displayed week for exact weekday clipboard mapping"
+);
 assert.match(
   scheduleJs,
   /weekIsLoading[\s\S]*?elements\.toggleMassEdit\.disabled[\s\S]*?childElementCount === 0/,

@@ -52,8 +52,8 @@ assert.match(
 );
 assert.match(
   source,
-  /@media \(max-width: 680px\)[\s\S]*?\.study-side\s*\{[\s\S]*?order:\s*-1;[\s\S]*?position:\s*sticky;[\s\S]*?top:\s*calc\(var\(--flashcard-sticky-header-height\)/,
-  "The compact mobile rail must precede the card and remain sticky"
+  /@media \(max-width: 680px\)[\s\S]*?\.study-side\s*\{[\s\S]*?order:\s*2;[\s\S]*?position:\s*static;[\s\S]*?top:\s*auto;/,
+  "The phone grading rail must remain in document flow after the card instead of covering it"
 );
 assert.match(
   source,
@@ -80,6 +80,11 @@ assert.equal((studyMarkup.match(/data-next-study-card/g) || []).length, 2);
 assert.equal((studyMarkup.match(/data-reveal-study-card/g) || []).length, 1);
 assert.equal((studyMarkup.match(/data-countdown-clock/g) || []).length, 2);
 assert.match(source, /class="mobile-study-tools"/);
+assert.match(
+  studyMarkup,
+  /<div class="study-main">[\s\S]*?<aside class="study-side" data-study-review-panel/,
+  "The phone grading and notes panel must follow the flashcard in document order"
+);
 assert.match(
   source,
   /@media \(max-width: 1080px\), \(any-pointer: coarse\)[\s\S]*?\.front-stage > \.card-nav[\s\S]*?display:\s*none !important;[\s\S]*?\.mobile-study-tools\s*\{[\s\S]*?display:\s*grid;/,
@@ -108,7 +113,54 @@ const scrollStudyTarget = sourceBetween(
 );
 assert.match(scrollStudyTarget, /querySelector\("\.edmund-system-header"\)/);
 assert.match(scrollStudyTarget, /headerBottom \+ 12/);
+assert.match(scrollStudyTarget, /mobileDockOverlaysContent/);
+assert.match(scrollStudyTarget, /mobileDockPosition === "fixed" \|\| mobileDockPosition === "sticky"/);
 assert.match(scrollStudyTarget, /mobileDock\.getBoundingClientRect\(\)\.bottom \+ 10/);
+
+const scrollCalls = [];
+const mobileRail = {
+  getBoundingClientRect: () => ({ top: 20, bottom: 310 })
+};
+const stickyHeader = {
+  getBoundingClientRect: () => ({ top: 0, bottom: 80 })
+};
+const scrollRuntime = {
+  currentView: "deck-view",
+  Math,
+  prefersReducedStudyMotion: () => false,
+  window: {
+    innerHeight: 800,
+    scrollY: 100,
+    matchMedia: () => ({ matches: true }),
+    getComputedStyle: () => ({ position: "static" }),
+    scrollTo: options => scrollCalls.push(options)
+  },
+  document: {
+    querySelector: selector => selector === ".study-side" ? mobileRail : stickyHeader
+  }
+};
+const scrollStudyTargetIntoView = vm.runInNewContext(
+  `(${scrollStudyTarget.trim()})`,
+  scrollRuntime
+);
+const revealedAnswer = {
+  getBoundingClientRect: () => ({ top: 120, bottom: 920 })
+};
+scrollStudyTargetIntoView(revealedAnswer, { force: true });
+assert.equal(
+  scrollCalls.at(-1)?.top,
+  128,
+  "A stationary phone rail must not be treated as a top overlay when scrolling to the revealed answer"
+);
+assert.equal(scrollCalls.at(-1)?.behavior, "smooth");
+scrollRuntime.window.getComputedStyle = () => ({ position: "sticky" });
+scrollStudyTargetIntoView(revealedAnswer, { force: true });
+assert.equal(
+  scrollCalls.at(-1)?.top,
+  0,
+  "Legacy sticky layouts must still reserve the rail's visible height"
+);
+assert.equal(scrollCalls.at(-1)?.behavior, "smooth");
 
 const timedReveal = sourceBetween("function autoCountdownRed()", "function completionSummaryHtml()");
 assert.match(timedReveal, /scheduleRevealedBackCardScroll\(\)/);
@@ -354,6 +406,7 @@ const primaryAction = sourceBetween(
   "function handleCardSecondaryAction(event)"
 );
 assert.match(primaryAction, /Date\.now\(\) < suppressStudyCardClickUntil/);
+assert.match(primaryAction, /if \(!studySession\.flipped\) \{[\s\S]*?flipCurrentCard\(\);[\s\S]*?return;/);
 
 const secondaryAction = sourceBetween(
   "function handleCardSecondaryAction(event)",
