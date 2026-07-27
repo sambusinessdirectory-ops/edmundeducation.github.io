@@ -32,6 +32,9 @@ jobs:
       - name: Refresh homework resource catalog
         run: node tools/generate-homework-resource-catalog.mjs
 
+      - name: Validate PWA, mobile icons, and brand metadata
+        run: node tools/test-pwa-and-brand-metadata.mjs
+
       - name: Prepare site files
         run: |
           mkdir _site

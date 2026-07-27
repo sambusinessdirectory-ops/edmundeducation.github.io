@@ -1215,6 +1215,8 @@ summary:focus-visible {
   .exercise-actions { position: static; align-items: stretch; flex-direction: column; }
   .exercise-action-buttons { display: grid; grid-template-columns: 1fr; }
   .exercise-action-buttons > * { width: 100%; }
+  .round-summary-actions { flex-direction: column; }
+  .round-summary-actions > * { width: 100%; }
   .bulk-visibility-button { width: 100%; }
   .correction-round-banner { align-items: stretch; flex-direction: column; }
   .attempt-row summary { grid-template-columns: minmax(0, 1fr) auto; }

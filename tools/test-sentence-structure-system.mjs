@@ -827,6 +827,62 @@ test("a failed attempt sync resumes the active exercise stopwatch", async () => 
   );
 });
 
+test("the final question keeps correction and next-round controls within reach", async () => {
+  const harness = createFrontendHarness();
+  const { sut, answerInputs } = harness;
+  const lesson = sut.getLesson("ss2");
+  const finalQuestion = lesson.questions.at(-1);
+  sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
+  sut.state.authToken = "student-token";
+  sut.state.currentView = "lesson";
+  sut.state.lessonId = lesson.id;
+  sut.state.lessonPage = 4;
+  sut.state.exercise = sut.exerciseFromAttempt({
+    id: "25555555-5555-4555-8555-555555555555",
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: 1,
+    totalCount: 50,
+    result: {}
+  });
+  lesson.questions.forEach((question, index) => {
+    answerInputs.push(makeElement({
+      dataset: { answerInput: question.id },
+      value: index === lesson.questions.length - 1 ? "wrong final answer" : question.answer
+    }));
+  });
+
+  await sut.submitExercise("all");
+  assert.equal(sut.state.exercise.awaitingNextRound, true);
+  assert.deepEqual(Array.from(sut.wrongQuestionIds(lesson)), [finalQuestion.id]);
+  const html = sut.elements.lessonContent.innerHTML;
+  assert.equal((html.match(/data-start-correction/g) || []).length, 2, "correction is available above and below the long list");
+  assert.equal((html.match(/data-next-round/g) || []).length, 2, "next round is available above and below the long list");
+  assert.ok(html.indexOf("round-summary-bottom") > html.indexOf("sentence-structure-question-list"));
+  assert.match(html, /最後一題後.*無需捲回頁頂/);
+
+  const awaitingSnapshot = sut.serializeExerciseResult();
+  sut.state.exercise = sut.exerciseFromAttempt({
+    id: sut.state.exercise.id,
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: 1,
+    totalCount: 50,
+    result: awaitingSnapshot
+  });
+  sut.renderExercisePage(lesson);
+  assert.match(sut.elements.lessonContent.innerHTML, /round-summary-bottom/, "the reachable controls survive reload");
+
+  await sut.startCorrectionRound();
+  assert.equal(sut.state.exercise.correctionMode, true);
+  assert.deepEqual(Array.from(sut.submissionQuestions(lesson), (question) => question.id), [finalQuestion.id]);
+  answerInputs.splice(0);
+  answerInputs.push(makeElement({ dataset: { answerInput: finalQuestion.id }, value: finalQuestion.answer }));
+  await sut.submitExercise("all");
+  assert.equal(sut.state.exercise.correctIds.length, 50);
+  assert.ok(sut.state.exercise.completedAt, "correcting Question 50 completes the lesson");
+});
+
 test("bulk completed-card visibility handles mixed cards and preserves the current scope", async () => {
   const harness = createFrontendHarness();
   const { sut } = harness;
