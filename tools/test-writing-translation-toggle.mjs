@@ -283,8 +283,16 @@ function createHarness(applicationSource, dataFiles) {
         writingAttemptHistoryComplete = true;
       },
       progressSeries: (rangeKey, nowValue) => buildWritingProgressSeries(rangeKey, currentUser?.name, nowValue),
+      progressChart: series => writingProgressChartSvg(series),
+      setCumulativeProgress(nextVisible) { setWritingCumulativeProgressVisible(nextVisible); },
+      cumulativeProgressVisible: () => showWritingCumulativeProgress,
+      timeSeries: (rangeKey, nowValue) => buildWritingTimeSeries(rangeKey, currentUser?.name, nowValue),
+      timeChart: series => writingTimeChartSvg(series),
+      formatDuration: value => formatWritingDuration(value),
+      elapsedDuration: (startedAt, finishedAt) => writingPracticeElapsedDuration(startedAt, finishedAt),
       progressDayKey: value => writingProgressDayKey(value),
       selectedProgressDay: () => selectedWritingProgressDayKey,
+      selectedTimeDay: () => selectedWritingTimeDayKey,
       setCurrentStudent(user) { currentUser = { ...user, role: "student" }; },
       setRawWritingState(value) { localStorage.setItem(WRITING_STATE_KEY, JSON.stringify(value)); },
       rawWritingState: () => readJson(WRITING_STATE_KEY, {}),
@@ -1291,12 +1299,12 @@ const dashboardOldDay = new Date(2026, 5, 1, 8, 0, 0).getTime();
 const dashboardPriorYearDay = new Date(2025, 6, 27, 8, 0, 0).getTime();
 const dashboardVeryOldDay = new Date(2024, 0, 5, 8, 0, 0).getTime();
 hooks.setProgressResults(dashboardStudent, [
-  { id: "dash-1", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard A", studentName: dashboardStudent, total: 7, correct: 6, round: 1, createdAt: dashboardDayOne },
-  { id: "dash-2", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard B", studentName: dashboardStudent, total: 5, correct: 4, round: 2, createdAt: dashboardDayOne + 60_000 },
-  { id: "dash-3", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard C", studentName: dashboardStudent, total: 3, correct: 3, round: 1, createdAt: dashboardDayTwo },
-  { id: "dash-old", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard Old", studentName: dashboardStudent, total: 9, correct: 7, round: 1, createdAt: dashboardOldDay },
-  { id: "dash-prior-year", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard Prior Year", studentName: dashboardStudent, total: 4, correct: 3, round: 1, createdAt: dashboardPriorYearDay },
-  { id: "dash-very-old", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard Very Old", studentName: dashboardStudent, total: 6, correct: 4, round: 1, createdAt: dashboardVeryOldDay },
+  { id: "dash-1", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard A", studentName: dashboardStudent, total: 7, correct: 6, round: 1, durationMs: 120_000, createdAt: dashboardDayOne },
+  { id: "dash-2", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard B", studentName: dashboardStudent, total: 5, correct: 4, round: 2, durationMs: 180_000, createdAt: dashboardDayOne + 60_000 },
+  { id: "dash-3", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard C", studentName: dashboardStudent, total: 3, correct: 3, round: 1, durationMs: 60_000, createdAt: dashboardDayTwo },
+  { id: "dash-old", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard Old", studentName: dashboardStudent, total: 9, correct: 7, round: 1, durationMs: 300_000, createdAt: dashboardOldDay },
+  { id: "dash-prior-year", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard Prior Year", studentName: dashboardStudent, total: 4, correct: 3, round: 1, durationMs: 600_000, createdAt: dashboardPriorYearDay },
+  { id: "dash-very-old", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard Very Old", studentName: dashboardStudent, total: 6, correct: 4, round: 1, durationMs: 90_000, createdAt: dashboardVeryOldDay },
   { id: "dash-other", exerciseId: fixtureExercise().id, exerciseTitle: "Other Student", studentName: "Another Student", total: 99, correct: 99, round: 1, createdAt: dashboardDayTwo }
 ]);
 const weekSeries = hooks.progressSeries("week", dashboardNow);
@@ -1306,6 +1314,8 @@ assert.equal(weekSeries.attemptCount, 3, "Writing dashboard should count attempt
 const dashboardFirstPoint = weekSeries.points.find(point => point.key === hooks.progressDayKey(dashboardDayOne));
 assert.equal(dashboardFirstPoint?.questions, 12, "Writing dashboard should combine same-day question totals");
 assert.equal(dashboardFirstPoint?.attempts, 2, "Writing dashboard should combine same-day attempts");
+assert.equal(weekSeries.cumulativeBeforeStart, 19, "Cumulative Writing progress should carry totals from before the selected range");
+assert.equal(dashboardFirstPoint?.cumulative, 31, "The cumulative point should add the selected day's questions to earlier history");
 const monthSeries = hooks.progressSeries("month", dashboardNow);
 assert.equal(monthSeries.points.length, 30, "Writing dashboard month range should contain 30 local calendar days");
 assert.equal(monthSeries.totalQuestions, 15, "Month range should exclude older records");
@@ -1321,6 +1331,32 @@ assert.equal(yearSeries.totalQuestions, 28, "1 Year should include its first-day
 const allSeries = hooks.progressSeries("all", dashboardNow);
 assert.equal(allSeries.totalQuestions, 34, "All Time should include the student's complete older history");
 assert.equal(allSeries.attemptCount, 6, "All Time should exclude another student's records");
+assert.equal(hooks.cumulativeProgressVisible(), false, "The cumulative Writing line should be off on first release");
+assert.doesNotMatch(hooks.progressChart(weekSeries), /stroke="#7e22ce"/, "The purple cumulative line should stay hidden while off");
+hooks.setCumulativeProgress(true);
+assert.equal(hooks.cumulativeProgressVisible(), true, "Students should be able to show the cumulative Writing line");
+assert.match(hooks.progressChart(weekSeries), /stroke="#7e22ce"/, "The enabled cumulative Writing line should be purple");
+assert.equal(hooks.localAccountState().progressPreferences.showCumulative, true, "The cumulative preference should persist per Writing account");
+
+const weekTimeSeries = hooks.timeSeries("week", dashboardNow);
+assert.equal(weekTimeSeries.points.length, 7, "Writing time week range should contain seven local calendar days");
+assert.equal(weekTimeSeries.stats.selectedMs, 360_000, "Writing time should total only timed attempts in the selected range");
+assert.equal(weekTimeSeries.stats.totalMs, 1_350_000, "Writing time should retain an all-time total across ranges");
+assert.equal(weekTimeSeries.stats.averageMs, 225_000, "Writing time should calculate the average submitted-round duration");
+assert.equal(weekTimeSeries.stats.medianMs, 150_000, "Writing time should calculate a duration median");
+assert.equal(weekTimeSeries.stats.longestMs, 600_000, "Writing time should identify the longest submitted round");
+assert.equal(
+  weekTimeSeries.points.find(point => point.key === hooks.progressDayKey(dashboardDayOne))?.totalMs,
+  300_000,
+  "Writing time should combine same-day round durations"
+);
+assert.match(hooks.timeChart(weekTimeSeries), /stroke="#f97316"/, "Writing time should render with the Flashcard-style orange line");
+assert.match(hooks.timeChart(weekTimeSeries), /data-writing-time-day="2026-07-20"/, "A timed chart point should expose a clickable day drilldown");
+assert.equal(hooks.formatDuration(3_723_000), "1:02:03", "Writing durations should format hours, minutes, and seconds");
+assert.equal(hooks.elapsedDuration(1_000, 91_000), 90_000, "A submitted round should use its own elapsed duration");
+assert.equal(hooks.elapsedDuration(1_000, 100_000_000), 86_400_000, "A stale open page should cap a single round at 24 hours");
+await hooks.loadStudentState();
+assert.equal(hooks.cumulativeProgressVisible(), true, "The cumulative preference should survive a Writing account reload");
 const progressKeyHandler = harness.documentListeners.get("keydown")?.[0];
 let progressKeyPrevented = false;
 progressKeyHandler?.({
@@ -1332,7 +1368,20 @@ progressKeyHandler?.({
 });
 assert.equal(progressKeyPrevented, true, "Keyboard activation should prevent the default action for a chart day");
 assert.equal(hooks.selectedProgressDay(), hooks.progressDayKey(dashboardDayOne), "Enter should open the selected chart day's drilldown");
+let timeKeyPrevented = false;
+progressKeyHandler?.({
+  target: clickTarget("data-writing-time-day", hooks.progressDayKey(dashboardDayOne)),
+  key: " ",
+  code: "Space",
+  repeat: false,
+  preventDefault() { timeKeyPrevented = true; }
+});
+assert.equal(timeKeyPrevented, true, "Keyboard activation should prevent scrolling for a Writing time point");
+assert.equal(hooks.selectedTimeDay(), hooks.progressDayKey(dashboardDayOne), "Space should open the selected Writing time day's drilldown");
 assert.match(html, /data-writing-progress-chart/, "Writing dashboard should render a progress chart");
+assert.match(html, /data-toggle-writing-cumulative/, "Writing progress should expose its persisted cumulative toggle");
+assert.match(html, /data-writing-time-chart/, "Writing dashboard should render a second duration chart");
+assert.match(html, /durationMs:\s*writingPracticeElapsedDuration/, "Submitted Writing rounds should save their measured duration");
 assert.match(html, /data-toggle-writing-attempt-log/, "Writing dashboard should expose a collapsible all-attempt log");
 assert.match(html, /data-load-more-writing-attempts/, "The all-attempt log should render in bounded pages");
 assert.match(html, /writing_student_append_attempt/, "Writing attempts should append through the dedicated student RPC");

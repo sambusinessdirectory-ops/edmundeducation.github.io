@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#233a78">
   <title>句子結構學習系統｜EdmundEducation</title>
   <link rel="icon" href="Company Logo for Cover Page.png">
-  <link rel="stylesheet" href="sentence-structure.css?v=20260726-2">
+  <link rel="stylesheet" href="sentence-structure.css?v=20260727-1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
@@ -115,10 +115,15 @@
             <button type="button" data-sentence-progress-range="ytd">Year to Date</button>
             <button type="button" data-sentence-progress-range="year">1 Year</button>
             <button type="button" data-sentence-progress-range="all">All Time</button>
+            <button class="sentence-cumulative-toggle" type="button" data-toggle-sentence-cumulative aria-pressed="false">顯示累積總數</button>
           </div>
         </div>
         <div class="sentence-progress-chart-shell">
           <svg data-sentence-progress-chart viewBox="0 0 900 320" role="group" aria-label="句子結構每日完成題目數量圖表；每個日期均可開啟詳情"></svg>
+        </div>
+        <div class="sentence-progress-legend" aria-label="完成題目圖表圖例">
+          <span><i class="sentence-legend-dot sentence-legend-daily"></i>每日完成題目</span>
+          <span data-sentence-cumulative-legend hidden><i class="sentence-legend-dot sentence-legend-cumulative"></i>累積完成題目</span>
         </div>
         <div class="sentence-progress-stats" aria-label="題目統計">
           <div><strong data-sentence-progress-period-total>0</strong><span>所選時段完成題數</span></div>
@@ -134,6 +139,47 @@
             <button class="small-button" type="button" data-close-sentence-progress-day>關閉</button>
           </div>
           <div class="sentence-progress-day-list" data-sentence-progress-day-list></div>
+        </section>
+
+        <section class="sentence-time-progress-section" aria-labelledby="sentence-time-progress-heading">
+          <div class="sentence-progress-toolbar">
+            <div>
+              <p class="eyebrow">EXERCISE TIME</p>
+              <h2 id="sentence-time-progress-heading">練習時間走勢</h2>
+              <p>查看每天用於句子結構練習的時間；把滑鼠移到日期上查看時間，按日期可查看當日練習。</p>
+            </div>
+            <div class="sentence-progress-ranges" data-sentence-time-progress-ranges aria-label="選擇練習時間統計時段">
+              <button type="button" data-sentence-time-progress-range="week">Week</button>
+              <button type="button" data-sentence-time-progress-range="month" aria-pressed="true">Month</button>
+              <button type="button" data-sentence-time-progress-range="half-year">Half a Year</button>
+              <button type="button" data-sentence-time-progress-range="ytd">Year to Date</button>
+              <button type="button" data-sentence-time-progress-range="year">1 Year</button>
+              <button type="button" data-sentence-time-progress-range="all">All Time</button>
+            </div>
+          </div>
+          <div class="sentence-progress-chart-shell sentence-time-chart-shell">
+            <svg data-sentence-time-progress-chart viewBox="0 0 900 320" role="group" aria-label="句子結構每日練習時間圖表；每個有練習的日期均可開啟詳情"></svg>
+          </div>
+          <div class="sentence-progress-legend" aria-label="練習時間圖表圖例">
+            <span><i class="sentence-legend-dot sentence-legend-time"></i>每日練習時間</span>
+          </div>
+          <div class="sentence-time-stats" aria-label="練習時間統計">
+            <div class="is-wide"><strong data-sentence-time-all-total>0 分 00 秒</strong><span>累計總練習時間</span></div>
+            <div><strong data-sentence-time-period-total>0 分 00 秒</strong><span>所選時段練習時間</span></div>
+            <div><strong data-sentence-time-average>0 分 00 秒</strong><span>平均每次練習時間</span></div>
+            <div><strong data-sentence-time-median>0 分 00 秒</strong><span>每次練習時間中位數</span></div>
+            <div><strong data-sentence-time-maximum>0 分 00 秒</strong><span>單次最長練習時間</span></div>
+          </div>
+          <section class="sentence-progress-day sentence-time-day" data-sentence-time-day-panel hidden aria-live="polite">
+            <div class="sentence-progress-day-heading">
+              <div>
+                <p class="eyebrow">DAILY TIME DETAILS</p>
+                <h3 data-sentence-time-day-title>當日練習時間</h3>
+              </div>
+              <button class="small-button" type="button" data-close-sentence-time-day>關閉</button>
+            </div>
+            <div class="sentence-progress-day-list" data-sentence-time-day-list></div>
+          </section>
         </section>
       </section>
 
@@ -239,6 +285,6 @@
   <script src="sentence-structure-lessons-5-114.js?v=20260724-1"></script>
   <script src="sentence-structure-data.js?v=20260723-4"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
-  <script type="module" src="sentence-structure.js?v=20260726-2"></script>
+  <script type="module" src="sentence-structure.js?v=20260727-1"></script>
 </body>
 </html>

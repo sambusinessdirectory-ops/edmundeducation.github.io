@@ -679,6 +679,14 @@ summary:focus-visible {
 .sentence-progress-ranges button:hover,
 .sentence-progress-ranges button:focus-visible { border-color: var(--blue); background: var(--blue-soft); }
 .sentence-progress-ranges button[aria-pressed="true"] { color: #fff; border-color: var(--blue); background: var(--blue); }
+.sentence-progress-ranges .sentence-cumulative-toggle {
+  color: #7e22ce;
+  border-color: rgba(126, 34, 206, .24);
+  background: #faf5ff;
+}
+.sentence-progress-ranges .sentence-cumulative-toggle:hover,
+.sentence-progress-ranges .sentence-cumulative-toggle:focus-visible { color: #6816ae; border-color: #7e22ce; background: #f3e8ff; }
+.sentence-progress-ranges .sentence-cumulative-toggle[aria-pressed="true"] { color: #fff; border-color: #7e22ce; background: #7e22ce; }
 .sentence-progress-chart-shell {
   margin-top: 22px;
   border: 1px solid var(--line);
@@ -688,10 +696,17 @@ summary:focus-visible {
 }
 .sentence-progress-chart-shell svg { display: block; width: 100%; min-width: 700px; height: auto; }
 .sentence-chart-hover { cursor: pointer; }
+.sentence-chart-cumulative[role="img"] { cursor: help; }
 .sentence-chart-hit { fill: transparent; }
 .sentence-chart-tooltip { pointer-events: none; opacity: 0; transition: opacity .14s ease; }
 .sentence-chart-hover:hover .sentence-chart-tooltip,
 .sentence-chart-hover:focus .sentence-chart-tooltip { opacity: 1; }
+.sentence-progress-legend { margin-top: 10px; display: flex; align-items: center; flex-wrap: wrap; gap: 9px 18px; color: var(--muted); font-size: 11px; font-weight: 800; }
+.sentence-progress-legend span { display: inline-flex; align-items: center; gap: 7px; }
+.sentence-legend-dot { width: 9px; height: 9px; border-radius: 999px; display: inline-block; }
+.sentence-legend-daily { background: #315fb3; }
+.sentence-legend-cumulative { background: #7e22ce; }
+.sentence-legend-time { background: #ff914d; }
 .sentence-progress-stats { margin-top: 14px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 .sentence-progress-stats > div { border-radius: 15px; padding: 15px 17px; background: #f3f7ff; }
 .sentence-progress-stats strong { display: block; color: var(--blue); font-size: 27px; line-height: 1.15; }
@@ -705,6 +720,16 @@ summary:focus-visible {
 .sentence-progress-day-row span { color: var(--muted); font-size: 12px; }
 .sentence-progress-day-row em { border-radius: 999px; padding: 4px 9px; color: var(--coral); background: var(--coral-soft); font-size: 11px; font-style: normal; font-weight: 900; }
 .sentence-progress-day-row em.is-correct { color: var(--green); background: var(--green-soft); }
+.sentence-progress-day-row em.is-time { color: #9a4b16; background: #fff0e6; }
+.sentence-time-progress-section { margin-top: 34px; padding-top: 34px; border-top: 1px solid rgba(49, 95, 179, .16); }
+.sentence-time-chart-shell { border-color: rgba(255, 145, 77, .26); background: rgba(255, 250, 246, .78); }
+.sentence-time-stats { margin-top: 14px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.sentence-time-stats > div { border-radius: 15px; padding: 15px 17px; background: #fff6f0; }
+.sentence-time-stats > div.is-wide { grid-column: span 2; }
+.sentence-time-stats strong { display: block; color: #a4511e; font-size: clamp(20px, 2.1vw, 27px); line-height: 1.15; }
+.sentence-time-stats span { color: var(--muted); font-size: 11px; font-weight: 750; }
+.sentence-time-day { border-color: rgba(255, 145, 77, .3); }
+.sentence-time-day .sentence-progress-day-heading { background: #fff6f0; }
 
 .history-panel,
 .utility-panel {
@@ -1166,6 +1191,8 @@ summary:focus-visible {
   .sentence-progress-toolbar { align-items: flex-start; flex-direction: column; }
   .sentence-progress-ranges { justify-content: flex-start; }
   .sentence-progress-stats { grid-template-columns: 1fr; }
+  .sentence-time-stats { grid-template-columns: 1fr; }
+  .sentence-time-stats > div.is-wide { grid-column: auto; }
   .sentence-progress-day-row { grid-template-columns: 1fr; gap: 4px; }
   .lesson-choice-grid { grid-template-columns: 1fr; }
   .lesson-choice[data-tone="bookmark"] { grid-column: auto; }

@@ -4,6 +4,7 @@ const CONTENT = window.EDMUND_SENTENCE_STRUCTURE_DATA || { version: "missing", l
 
 const SESSION_KEY = "edmund-sentence-structure-session-v1";
 const PROGRESS_PANEL_PREFERENCE_KEY = "edmund-sentence-structure-progress-panel-v1";
+const CUMULATIVE_PROGRESS_PREFERENCE_KEY = "edmund-sentence-structure-cumulative-progress-v1";
 const SECTION_BOOKMARK_ID = "__section__";
 const MAX_BOOKMARKS = 6000;
 const LESSON_PAGES = 4;
@@ -56,12 +57,23 @@ const elements = {
   progressToggleLabel: document.querySelector("[data-sentence-progress-toggle-label]"),
   progressPanel: document.querySelector("[data-sentence-progress-panel]"),
   progressChart: document.querySelector("[data-sentence-progress-chart]"),
+  cumulativeProgressToggle: document.querySelector("[data-toggle-sentence-cumulative]"),
+  cumulativeProgressLegend: document.querySelector("[data-sentence-cumulative-legend]"),
   progressPeriodTotal: document.querySelector("[data-sentence-progress-period-total]"),
   progressAllTotal: document.querySelector("[data-sentence-progress-all-total]"),
   progressActiveDays: document.querySelector("[data-sentence-progress-active-days]"),
   progressDayPanel: document.querySelector("[data-sentence-progress-day-panel]"),
   progressDayTitle: document.querySelector("[data-sentence-progress-day-title]"),
   progressDayList: document.querySelector("[data-sentence-progress-day-list]"),
+  timeProgressChart: document.querySelector("[data-sentence-time-progress-chart]"),
+  timeProgressAllTotal: document.querySelector("[data-sentence-time-all-total]"),
+  timeProgressPeriodTotal: document.querySelector("[data-sentence-time-period-total]"),
+  timeProgressAverage: document.querySelector("[data-sentence-time-average]"),
+  timeProgressMedian: document.querySelector("[data-sentence-time-median]"),
+  timeProgressMaximum: document.querySelector("[data-sentence-time-maximum]"),
+  timeProgressDayPanel: document.querySelector("[data-sentence-time-day-panel]"),
+  timeProgressDayTitle: document.querySelector("[data-sentence-time-day-title]"),
+  timeProgressDayList: document.querySelector("[data-sentence-time-day-list]"),
   lessonRound: document.querySelector("[data-lesson-round]"),
   lessonKicker: document.querySelector("[data-lesson-kicker]"),
   lessonTitle: document.querySelector("[data-lesson-title]"),
@@ -93,6 +105,9 @@ const state = {
   progressPanelExpanded: false,
   progressRange: "month",
   selectedProgressDay: "",
+  showCumulativeProgress: false,
+  timeProgressRange: "month",
+  selectedTimeProgressDay: "",
   bookmarkSaveQueue: Promise.resolve(),
   bookmarkWriteRevision: 0,
   saveInFlight: false,
@@ -164,6 +179,29 @@ function writeProgressPanelPreference(expanded) {
   const key = progressPanelPreferenceStorageKey();
   if (!key) return;
   try { localStorage.setItem(key, expanded ? "expanded" : "collapsed"); } catch { /* Preference can remain in memory. */ }
+}
+
+function cumulativeProgressPreferenceStorageKey() {
+  const userId = String(state.user?.id || "").trim();
+  return userId ? `${CUMULATIVE_PROGRESS_PREFERENCE_KEY}:${userId}` : "";
+}
+
+function readCumulativeProgressPreference() {
+  const key = cumulativeProgressPreferenceStorageKey();
+  if (!key) return false;
+  try { return localStorage.getItem(key) === "visible"; } catch { return false; }
+}
+
+function writeCumulativeProgressPreference(visible) {
+  const key = cumulativeProgressPreferenceStorageKey();
+  if (!key) return;
+  try { localStorage.setItem(key, visible ? "visible" : "hidden"); } catch { /* Preference can remain in memory. */ }
+}
+
+function toggleCumulativeProgress() {
+  state.showCumulativeProgress = !state.showCumulativeProgress;
+  writeCumulativeProgressPreference(state.showCumulativeProgress);
+  renderProgressDashboard();
 }
 
 function renderProgressPanelDisclosure() {
@@ -366,6 +404,9 @@ function clearSession() {
   state.progressPanelExpanded = false;
   state.progressRange = "month";
   state.selectedProgressDay = "";
+  state.showCumulativeProgress = false;
+  state.timeProgressRange = "month";
+  state.selectedTimeProgressDay = "";
   state.bookmarkWriteRevision += 1;
   state.bookmarkSaveQueue = Promise.resolve();
   state.adminStudents = [];
@@ -577,6 +618,7 @@ async function openDashboard({ force = false } = {}) {
   const authToken = String(state.authToken || "");
   pauseExerciseClock();
   state.progressPanelExpanded = readProgressPanelPreference();
+  state.showCumulativeProgress = readCumulativeProgressPreference();
   renderProgressPanelDisclosure();
   showView("dashboard");
   elements.dashboardWelcome.textContent = `${state.user.name}，選擇一個句型，由概念開始，再完成 50 題分輪練習。`;
@@ -699,28 +741,41 @@ function progressRangeStart(rangeKey, rows) {
 
 function buildQuestionProgressSeries(rangeKey = state.progressRange) {
   const activity = questionActivityRows();
-  const start = progressRangeStart(rangeKey, activity);
   const today = new Date();
   const end = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const eligibleActivity = activity.filter((row) => {
+    const date = new Date(row.time);
+    if (!Number.isFinite(date.getTime())) return false;
+    return new Date(date.getFullYear(), date.getMonth(), date.getDate()) <= end;
+  });
+  const start = progressRangeStart(rangeKey, eligibleActivity);
   const buckets = new Map();
-  for (const row of activity) {
+  let cumulativeBeforeStart = 0;
+  for (const row of eligibleActivity) {
     const date = new Date(row.time);
     const rowDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-    if (rowDate < start || rowDate > end) continue;
+    if (rowDate < start) {
+      cumulativeBeforeStart += 1;
+      continue;
+    }
     const key = localDayKey(rowDate);
     buckets.set(key, (buckets.get(key) || 0) + 1);
   }
   const points = [];
+  let cumulative = cumulativeBeforeStart;
   for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
     const date = new Date(cursor);
     const key = localDayKey(date);
-    points.push({ date, key, total: buckets.get(key) || 0 });
+    const total = buckets.get(key) || 0;
+    cumulative += total;
+    points.push({ date, key, total, cumulative });
   }
   return {
-    activity,
+    activity: eligibleActivity,
     points,
+    cumulativeBeforeStart,
     periodTotal: points.reduce((sum, point) => sum + point.total, 0),
-    allTotal: activity.length,
+    allTotal: eligibleActivity.length,
     activeDays: points.filter((point) => point.total > 0).length
   };
 }
@@ -736,12 +791,18 @@ function questionProgressChartSvg(series) {
   const chartWidth = width - dimensions.left - dimensions.right;
   const chartHeight = height - dimensions.top - dimensions.bottom;
   const points = series.points;
-  const maximum = Math.max(5, ...points.map((point) => point.total));
+  const showCumulative = state.showCumulativeProgress === true;
+  const maximum = Math.max(5, ...points.flatMap((point) => [
+    point.total,
+    ...(showCumulative ? [point.cumulative] : [])
+  ]));
   const yMax = Math.max(5, Math.ceil(maximum / 5) * 5);
   const xFor = (index) => dimensions.left + (chartWidth * index / Math.max(points.length - 1, 1));
   const yFor = (value) => dimensions.top + chartHeight - (chartHeight * value / yMax);
   const coords = points.map((point, index) => ({ point, x: xFor(index), y: yFor(point.total) }));
   const path = coords.map(({ x, y }) => `${x.toFixed(2)},${y.toFixed(2)}`).join(" ");
+  const cumulativeCoords = points.map((point, index) => ({ point, x: xFor(index), y: yFor(point.cumulative) }));
+  const cumulativePath = cumulativeCoords.map(({ x, y }) => `${x.toFixed(2)},${y.toFixed(2)}`).join(" ");
   const yLabels = [...new Set([0, Math.round(yMax / 2), yMax])];
   const grid = yLabels.map((value) => `
     <line x1="${dimensions.left}" y1="${yFor(value).toFixed(2)}" x2="${width - dimensions.right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(49,95,179,.16)" stroke-width="1" />
@@ -768,13 +829,34 @@ function questionProgressChartSvg(series) {
       </g>
     </g>`;
   }).join("");
-  const empty = series.periodTotal ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#68728a" font-size="20" font-weight="900">這個時段暫時未有完成題目</text>`;
+  const cumulativeHoverPoints = showCumulative ? cumulativeCoords.map(({ point, x, y }) => {
+    const boxX = Math.min(Math.max(x - 62, dimensions.left), width - dimensions.right - 124);
+    const boxY = Math.max(dimensions.top + 4, y - 54);
+    const interactionAttributes = point.total > 0
+      ? `tabindex="0" role="button" aria-label="${escapeHtml(point.key)}，完成 ${escapeHtml(point.total)} 題，累積完成 ${escapeHtml(point.cumulative)} 題" data-sentence-progress-day="${escapeHtml(point.key)}" data-sentence-cumulative-point="${escapeHtml(point.key)}"`
+      : point.cumulative > 0
+        ? `tabindex="0" role="img" aria-label="${escapeHtml(point.key)}，累積完成 ${escapeHtml(point.cumulative)} 題" data-sentence-cumulative-point="${escapeHtml(point.key)}"`
+        : 'aria-hidden="true"';
+    return `<g class="sentence-chart-hover sentence-chart-cumulative" ${interactionAttributes}>
+      <circle class="sentence-chart-hit" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="15" />
+      <circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="4.5" fill="#7e22ce" />
+      <g class="sentence-chart-tooltip">
+        <line x1="${x.toFixed(2)}" y1="${dimensions.top}" x2="${x.toFixed(2)}" y2="${height - dimensions.bottom}" stroke="rgba(126,34,206,.25)" stroke-width="1" stroke-dasharray="4 5" />
+        <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="124" height="40" rx="8" fill="#3b1465" opacity=".95" />
+        <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 17).toFixed(2)}" fill="#fff" font-size="11" font-weight="900">累積：${escapeHtml(point.cumulative)} 題</text>
+        <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 31).toFixed(2)}" fill="#eadcff" font-size="10" font-weight="800">${escapeHtml(point.key)}</text>
+      </g>
+    </g>`;
+  }).join("") : "";
+  const hasVisibleData = series.periodTotal > 0 || (showCumulative && points.some((point) => point.cumulative > 0));
+  const empty = hasVisibleData ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#68728a" font-size="20" font-weight="900">這個時段暫時未有完成題目</text>`;
   return `<rect x="0" y="0" width="${width}" height="${height}" fill="rgba(255,255,255,.62)" />
     ${grid}
     <line x1="${dimensions.left}" y1="${dimensions.top}" x2="${dimensions.left}" y2="${height - dimensions.bottom}" stroke="rgba(23,33,58,.16)" stroke-width="1.4" />
     <line x1="${dimensions.left}" y1="${height - dimensions.bottom}" x2="${width - dimensions.right}" y2="${height - dimensions.bottom}" stroke="rgba(23,33,58,.16)" stroke-width="1.4" />
-    <polyline points="${path}" fill="none" stroke="#315fb3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-    ${hoverPoints}${labels}
+    <polyline data-chart-series="daily" points="${path}" fill="none" stroke="#315fb3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    ${showCumulative ? `<polyline data-chart-series="cumulative" points="${cumulativePath}" fill="none" stroke="#7e22ce" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />` : ""}
+    ${hoverPoints}${cumulativeHoverPoints}${labels}
     <text x="${dimensions.left}" y="19" fill="#162a5b" font-size="13" font-weight="900">完成題數</text>
     ${empty}`;
 }
@@ -802,11 +884,18 @@ function renderProgressDashboard() {
     button.setAttribute("aria-pressed", String(button.dataset.sentenceProgressRange === state.progressRange));
   });
   const series = buildQuestionProgressSeries();
+  if (elements.cumulativeProgressToggle) {
+    elements.cumulativeProgressToggle.textContent = state.showCumulativeProgress ? "隱藏累積總數" : "顯示累積總數";
+    elements.cumulativeProgressToggle.setAttribute("aria-pressed", String(state.showCumulativeProgress));
+    elements.cumulativeProgressToggle.classList.toggle("is-active", state.showCumulativeProgress);
+  }
+  if (elements.cumulativeProgressLegend) elements.cumulativeProgressLegend.hidden = !state.showCumulativeProgress;
   if (elements.progressChart) elements.progressChart.innerHTML = questionProgressChartSvg(series);
   if (elements.progressPeriodTotal) elements.progressPeriodTotal.textContent = String(series.periodTotal);
   if (elements.progressAllTotal) elements.progressAllTotal.textContent = String(series.allTotal);
   if (elements.progressActiveDays) elements.progressActiveDays.textContent = String(series.activeDays);
   renderProgressDayPanel(series.activity);
+  renderSentenceTimeDashboard();
 }
 
 function formatDateTime(value) {
@@ -829,6 +918,152 @@ function formatDuration(milliseconds) {
   const seconds = totalSeconds % 60;
   if (hours) return `${hours} 小時 ${minutes} 分鐘`;
   return `${minutes} 分 ${String(seconds).padStart(2, "0")} 秒`;
+}
+
+function medianDuration(values) {
+  const sorted = values
+    .map(Number)
+    .filter((value) => Number.isFinite(value) && value > 0)
+    .sort((a, b) => a - b);
+  if (!sorted.length) return 0;
+  const middle = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+}
+
+function timedSentenceAttempts(attempts = state.attempts) {
+  return attempts.map((attempt) => ({
+    attempt,
+    durationMs: Number(attempt?.durationMs || 0),
+    time: Date.parse(attempt?.completedAt || attempt?.updatedAt || attempt?.startedAt || "")
+  })).filter((row) => (
+    Number.isFinite(row.durationMs)
+    && row.durationMs > 0
+    && Number.isFinite(row.time)
+  )).sort((a, b) => a.time - b.time || a.attempt.id.localeCompare(b.attempt.id));
+}
+
+function buildSentenceTimeSeries(rangeKey = state.timeProgressRange) {
+  const rows = timedSentenceAttempts();
+  const today = new Date();
+  const end = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const timedRows = rows.filter((row) => {
+    const date = new Date(row.time);
+    return new Date(date.getFullYear(), date.getMonth(), date.getDate()) <= end;
+  });
+  const start = progressRangeStart(rangeKey, timedRows);
+  const buckets = new Map();
+  for (const row of timedRows) {
+    const date = new Date(row.time);
+    const rowDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    if (rowDate < start) continue;
+    const key = localDayKey(rowDate);
+    buckets.set(key, (buckets.get(key) || 0) + row.durationMs);
+  }
+  const points = [];
+  for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
+    const date = new Date(cursor);
+    const key = localDayKey(date);
+    const totalMs = buckets.get(key) || 0;
+    points.push({ date, key, totalMs, minutes: totalMs / 60000 });
+  }
+  const allDurations = timedRows.map((row) => row.durationMs);
+  const allTotalMs = allDurations.reduce((sum, value) => sum + value, 0);
+  return {
+    points,
+    timedRows,
+    stats: {
+      allTotalMs,
+      periodTotalMs: points.reduce((sum, point) => sum + point.totalMs, 0),
+      averageMs: allDurations.length ? allTotalMs / allDurations.length : 0,
+      medianMs: medianDuration(allDurations),
+      maximumMs: Math.max(0, ...allDurations)
+    }
+  };
+}
+
+function sentenceTimeProgressChartSvg(series) {
+  const width = 900;
+  const height = 320;
+  const dimensions = { left: 58, right: 28, top: 28, bottom: 52 };
+  const chartWidth = width - dimensions.left - dimensions.right;
+  const chartHeight = height - dimensions.top - dimensions.bottom;
+  const points = series.points;
+  const maximum = Math.max(5, ...points.map((point) => point.minutes));
+  const yMax = Math.max(5, Math.ceil(maximum / 5) * 5);
+  const xFor = (index) => dimensions.left + (chartWidth * index / Math.max(points.length - 1, 1));
+  const yFor = (value) => dimensions.top + chartHeight - (chartHeight * value / yMax);
+  const coords = points.map((point, index) => ({ point, x: xFor(index), y: yFor(point.minutes) }));
+  const path = coords.map(({ x, y }) => `${x.toFixed(2)},${y.toFixed(2)}`).join(" ");
+  const yLabels = [...new Set([0, Math.round(yMax / 2), yMax])];
+  const grid = yLabels.map((value) => `
+    <line x1="${dimensions.left}" y1="${yFor(value).toFixed(2)}" x2="${width - dimensions.right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(255,145,77,.22)" stroke-width="1" />
+    <text x="${dimensions.left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#68728a" font-size="13" font-weight="800">${value}</text>
+  `).join("");
+  const labelIndexes = points.length ? [...new Set([0, Math.floor((points.length - 1) / 2), points.length - 1])] : [];
+  const labels = labelIndexes.map((index) => `
+    <text x="${xFor(index).toFixed(2)}" y="${height - 17}" text-anchor="middle" fill="#68728a" font-size="13" font-weight="800">${escapeHtml(compactProgressDate(points[index].date))}</text>
+  `).join("");
+  const hoverPoints = coords.map(({ point, x, y }) => {
+    const boxX = Math.min(Math.max(x - 70, dimensions.left), width - dimensions.right - 140);
+    const boxY = Math.max(dimensions.top + 4, y - 54);
+    const interactionAttributes = point.totalMs > 0
+      ? `tabindex="0" role="button" aria-label="${escapeHtml(point.key)}，練習 ${escapeHtml(formatDuration(point.totalMs))}" data-sentence-time-day="${escapeHtml(point.key)}"`
+      : 'aria-hidden="true"';
+    return `<g class="sentence-chart-hover sentence-time-chart-hover" ${interactionAttributes}>
+      <circle class="sentence-chart-hit" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="15" />
+      <circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="4.5" fill="#ff914d" />
+      <g class="sentence-chart-tooltip">
+        <line x1="${x.toFixed(2)}" y1="${dimensions.top}" x2="${x.toFixed(2)}" y2="${height - dimensions.bottom}" stroke="rgba(255,145,77,.34)" stroke-width="1" stroke-dasharray="4 5" />
+        <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="140" height="40" rx="8" fill="#572c16" opacity=".95" />
+        <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 17).toFixed(2)}" fill="#fff" font-size="11" font-weight="900">時間：${escapeHtml(formatDuration(point.totalMs))}</text>
+        <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 31).toFixed(2)}" fill="#ffe3d2" font-size="10" font-weight="800">${escapeHtml(point.key)}</text>
+      </g>
+    </g>`;
+  }).join("");
+  const empty = series.stats.periodTotalMs > 0 ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#68728a" font-size="20" font-weight="900">這個時段暫時未有練習時間紀錄</text>`;
+  return `<rect x="0" y="0" width="${width}" height="${height}" fill="rgba(255,255,255,.62)" />
+    ${grid}
+    <line x1="${dimensions.left}" y1="${dimensions.top}" x2="${dimensions.left}" y2="${height - dimensions.bottom}" stroke="rgba(23,33,58,.16)" stroke-width="1.4" />
+    <line x1="${dimensions.left}" y1="${height - dimensions.bottom}" x2="${width - dimensions.right}" y2="${height - dimensions.bottom}" stroke="rgba(23,33,58,.16)" stroke-width="1.4" />
+    <polyline data-chart-series="time" points="${path}" fill="none" stroke="#ff914d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    ${hoverPoints}${labels}
+    <text x="${dimensions.left}" y="19" fill="#162a5b" font-size="13" font-weight="900">分鐘</text>
+    ${empty}`;
+}
+
+function renderSentenceTimeDayPanel(series = buildSentenceTimeSeries()) {
+  if (!elements.timeProgressDayPanel || !elements.timeProgressDayList) return;
+  const key = state.selectedTimeProgressDay;
+  elements.timeProgressDayPanel.hidden = !key;
+  if (!key) return;
+  const rows = series.timedRows.filter((row) => localDayKey(row.time) === key);
+  const totalMs = rows.reduce((sum, row) => sum + row.durationMs, 0);
+  if (elements.timeProgressDayTitle) {
+    elements.timeProgressDayTitle.textContent = `${key} 練習時間（${formatDuration(totalMs)}）`;
+  }
+  elements.timeProgressDayList.innerHTML = rows.length ? rows.map((row) => {
+    const lesson = getLesson(row.attempt.lessonId);
+    const status = row.attempt.status === "completed" ? "已完成" : "進行中";
+    return `<div class="sentence-progress-day-row">
+      <strong>${escapeHtml(lessonTitle(lesson))}</strong>
+      <span>${escapeHtml(formatDateTime(row.time))} · ${escapeHtml(status)} · ${escapeHtml(row.attempt.correctCount)}/${escapeHtml(row.attempt.totalCount)} 題</span>
+      <em class="is-time">${escapeHtml(formatDuration(row.durationMs))}</em>
+    </div>`;
+  }).join("") : '<p class="empty-state">這一天暫時未有練習時間紀錄。</p>';
+}
+
+function renderSentenceTimeDashboard() {
+  document.querySelectorAll("[data-sentence-time-progress-range]").forEach((button) => {
+    button.setAttribute("aria-pressed", String(button.dataset.sentenceTimeProgressRange === state.timeProgressRange));
+  });
+  const series = buildSentenceTimeSeries();
+  if (elements.timeProgressChart) elements.timeProgressChart.innerHTML = sentenceTimeProgressChartSvg(series);
+  if (elements.timeProgressAllTotal) elements.timeProgressAllTotal.textContent = formatDuration(series.stats.allTotalMs);
+  if (elements.timeProgressPeriodTotal) elements.timeProgressPeriodTotal.textContent = formatDuration(series.stats.periodTotalMs);
+  if (elements.timeProgressAverage) elements.timeProgressAverage.textContent = formatDuration(series.stats.averageMs);
+  if (elements.timeProgressMedian) elements.timeProgressMedian.textContent = formatDuration(series.stats.medianMs);
+  if (elements.timeProgressMaximum) elements.timeProgressMaximum.textContent = formatDuration(series.stats.maximumMs);
+  renderSentenceTimeDayPanel(series);
 }
 
 function attemptHistoryHtml(attempts, { allowResume = true } = {}) {
@@ -1937,6 +2172,7 @@ async function openAdminStudent(studentId) {
 
 function handleClick(event) {
   if (event.target.closest("[data-sentence-progress-toggle]")) return toggleProgressPanel();
+  if (event.target.closest("[data-toggle-sentence-cumulative]")) return toggleCumulativeProgress();
 
   const sectionBookmarkButton = event.target.closest("[data-toggle-section-bookmark]");
   if (sectionBookmarkButton) return toggleSectionBookmark(sectionBookmarkButton.dataset.toggleSectionBookmark);
@@ -1975,6 +2211,21 @@ function handleClick(event) {
   if (event.target.closest("[data-close-sentence-progress-day]")) {
     state.selectedProgressDay = "";
     return renderProgressDayPanel();
+  }
+  const timeProgressRange = event.target.closest("[data-sentence-time-progress-range]");
+  if (timeProgressRange) {
+    state.timeProgressRange = timeProgressRange.dataset.sentenceTimeProgressRange || "month";
+    state.selectedTimeProgressDay = "";
+    return renderSentenceTimeDashboard();
+  }
+  const timeProgressDay = event.target.closest("[data-sentence-time-day]");
+  if (timeProgressDay) {
+    state.selectedTimeProgressDay = timeProgressDay.dataset.sentenceTimeDay || "";
+    return renderSentenceTimeDashboard();
+  }
+  if (event.target.closest("[data-close-sentence-time-day]")) {
+    state.selectedTimeProgressDay = "";
+    return renderSentenceTimeDayPanel();
   }
 
   const correctCardButton = event.target.closest("[data-toggle-correct-card]");
@@ -2025,11 +2276,18 @@ function bindEvents() {
     if (event.target.matches("[data-answer-input]")) syncExerciseButtons();
   });
   document.addEventListener("keydown", (event) => {
+    if (!["Enter", " "].includes(event.key)) return;
     const point = event.target.closest?.("[data-sentence-progress-day]");
-    if (!point || !["Enter", " "].includes(event.key)) return;
+    const timePoint = event.target.closest?.("[data-sentence-time-day]");
+    if (!point && !timePoint) return;
     event.preventDefault();
-    state.selectedProgressDay = point.dataset.sentenceProgressDay || "";
-    renderProgressDashboard();
+    if (point) {
+      state.selectedProgressDay = point.dataset.sentenceProgressDay || "";
+      renderProgressDashboard();
+    } else {
+      state.selectedTimeProgressDay = timePoint.dataset.sentenceTimeDay || "";
+      renderSentenceTimeDashboard();
+    }
   });
   elements.adminSearch?.addEventListener("input", renderAdminStudents);
   window.addEventListener("pagehide", pauseExerciseClock);

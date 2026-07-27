@@ -661,6 +661,33 @@
     .essay-title-button:focus-visible { color: #405fca; text-decoration: underline; text-underline-offset: 3px; }
     .essay-detail { margin-top: 8px; color: #7a8198; font-size: 11px; font-weight: 700; }
 
+    .essay-portal-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .essay-portal-link {
+      display: inline-flex;
+      min-height: 32px;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 11px;
+      border: 1px solid #efd16c;
+      border-radius: 10px;
+      background: linear-gradient(180deg, #fff7cb, #ffe99a);
+      box-shadow: 0 4px 10px rgba(144,105,17,.12);
+      color: #72500b;
+      font-size: 11px;
+      font-weight: 900;
+      line-height: 1.15;
+      text-decoration: none;
+    }
+
+    .essay-portal-link:hover,
+    .essay-portal-link:focus-visible { background: #ffe27a; color: #4f3500; }
+
     .category-pill {
       width: fit-content;
       max-width: 100%;
@@ -771,7 +798,9 @@
     .detail-modal-card h2 { margin: 0 0 14px; padding-right: 42px; font-size: clamp(24px, 3vw, 34px); line-height: 1.25; }
     .detail-question { color: #323e62 !important; font-size: clamp(16px, 1.8vw, 19px); font-weight: 650; line-height: 1.85 !important; }
     .detail-meta { margin-top: 18px; color: #737c96; font-size: 12px; font-weight: 750; }
-    .detail-download { width: auto; min-width: 180px; margin-top: 22px; padding: 0 22px; }
+    .detail-action-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 22px; }
+    .detail-action-row .essay-portal-actions { margin-top: 0; }
+    .detail-download { width: auto; min-width: 180px; margin-top: 0; padding: 0 22px; }
     .detail-cover { margin: 0; padding: 16px; border: 1px solid rgba(68,84,140,.13); border-radius: 18px; background: #f4f6fb; text-align: center; }
     .detail-cover img { width: min(100%, 340px); max-height: 590px; border: 1px solid rgba(45,58,102,.12); border-radius: 10px; object-fit: contain; background: #fff; box-shadow: 0 14px 35px rgba(45,57,101,.16); }
     .detail-cover figcaption { margin-top: 10px; color: #707996; font-size: 11px; font-weight: 750; }
@@ -904,6 +933,8 @@
       .essay-thumb { width: 66px; height: 86px; }
       .essay-title-button { font-size: 13px; -webkit-line-clamp: 3; }
       .essay-kicker { margin-bottom: 5px; }
+      .essay-portal-actions { gap: 5px; }
+      .essay-portal-link { min-height: 30px; padding: 5px 8px; font-size: 10px; }
       .essay-action { grid-column: 3; }
       .row-download { width: 100%; min-height: 36px; }
       .pagination { align-items: flex-start; }
@@ -1261,7 +1292,10 @@
           <h2 id="essay-detail-title" data-detail-title>IELTS Writing Task 2</h2>
           <p class="detail-question" id="essay-detail-question" data-detail-question></p>
           <div class="detail-meta" data-detail-meta></div>
-          <button class="primary-button detail-download" type="button" data-detail-download>下載 PDF</button>
+          <div class="detail-action-row">
+            <button class="primary-button detail-download" type="button" data-detail-download>下載 PDF</button>
+            <div class="essay-portal-actions" data-detail-portal-links></div>
+          </div>
         </div>
         <figure class="detail-cover">
           <img data-detail-thumbnail src="" alt="">
@@ -1282,8 +1316,9 @@
   <script src="ielts-speaking-downloads.js"></script>
   <script src="ielts-reading-downloads.js"></script>
   <script src="dse-writing-part-a-downloads.js?v=20260726-2"></script>
+  <script src="essay-portal-links.js?v=20260727-1"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
-  <script src="model-essay-downloads.js?v=20260726-2"></script>
+  <script src="model-essay-downloads.js?v=20260727-1"></script>
   <script src="page-loader.js"></script>
 </body>
 </html>

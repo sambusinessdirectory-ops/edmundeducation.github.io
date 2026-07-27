@@ -1102,6 +1102,14 @@
   box-shadow: 0 24px 60px rgba(39, 67, 71, 0.1);
 }
 
+.speaking-duration-dashboard {
+  margin-top: 24px;
+  border-color: rgba(249, 115, 22, 0.18);
+  background:
+    radial-gradient(circle at 92% 8%, rgba(126, 34, 206, 0.1), transparent 31%),
+    linear-gradient(145deg, rgba(255, 247, 237, 0.94), rgba(240, 253, 250, 0.92));
+}
+
 .speaking-progress-toolbar {
   display: flex;
   align-items: flex-start;
@@ -1167,9 +1175,25 @@
   box-shadow: 0 10px 22px rgba(126, 34, 206, 0.18);
 }
 
+.speaking-duration-dashboard .speaking-progress-tab:hover,
+.speaking-duration-dashboard .speaking-progress-tab.active {
+  background: #ea6a16;
+  color: #fff;
+  box-shadow: 0 10px 22px rgba(234, 106, 22, 0.2);
+}
+
+.speaking-duration-dashboard .speaking-progress-tab.cumulative:hover,
+.speaking-duration-dashboard .speaking-progress-tab.cumulative.active {
+  background: #7e22ce;
+  color: #fff;
+  box-shadow: 0 10px 22px rgba(126, 34, 206, 0.18);
+}
+
 .speaking-progress-chart-shell {
   min-height: 310px;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
   border: 1px solid rgba(15, 143, 143, 0.13);
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.76);
@@ -1178,7 +1202,23 @@
 .speaking-progress-chart-shell svg {
   display: block;
   width: 100%;
+  min-width: 900px;
   height: auto;
+}
+
+.speaking-progress-stale {
+  margin: 0 0 12px;
+  padding: 10px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid #fdba74;
+  border-radius: 13px;
+  background: #fff7ed;
+  color: #9a3412;
+  font-size: 13px;
+  font-weight: 800;
 }
 
 .speaking-progress-loading {
@@ -1234,6 +1274,7 @@
 }
 
 .speaking-legend-dot.daily { background: #0f8f8f; }
+.speaking-legend-dot.duration { background: #f97316; }
 .speaking-legend-dot.cumulative { background: #7e22ce; }
 
 .speaking-progress-stats {
@@ -1259,6 +1300,10 @@
   color: #064b65;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 32px;
+}
+
+.speaking-duration-dashboard .speaking-progress-stats strong {
+  font-size: clamp(20px, 2.4vw, 30px);
 }
 
 .speaking-progress-stats span {

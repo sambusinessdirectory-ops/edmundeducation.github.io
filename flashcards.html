@@ -1941,6 +1941,41 @@
       align-items: stretch;
     }
 
+    .essay-portal-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .option-row > .essay-portal-actions { grid-column: 1 / -1; }
+
+    .essay-portal-link {
+      display: inline-flex;
+      min-height: 36px;
+      align-items: center;
+      justify-content: center;
+      padding: 7px 13px;
+      border: 1px solid #e6c34b;
+      border-radius: 11px;
+      background: linear-gradient(180deg, #fff8c9, #ffe68a);
+      box-shadow: 0 5px 0 #d0a82c, 0 10px 18px rgba(134,96,8,.13);
+      color: #674608;
+      font-size: 12px;
+      font-weight: 950;
+      line-height: 1.1;
+      text-decoration: none;
+      transition: transform .16s ease, box-shadow .16s ease, background .16s ease;
+    }
+
+    .essay-portal-link:hover,
+    .essay-portal-link:focus-visible {
+      transform: translateY(-1px);
+      background: #ffdf64;
+      box-shadow: 0 6px 0 #c5991c, 0 13px 22px rgba(134,96,8,.17);
+    }
+
     .thin-option {
       min-height: 56px;
       width: 100%;
@@ -1981,6 +2016,9 @@
       gap: 10px;
       flex-wrap: wrap;
     }
+
+    .deck-start-actions .essay-portal-actions:empty,
+    .deck-start-actions .essay-portal-actions[hidden] { display: none; }
 
     .export-pdf-button {
       min-height: 56px;
@@ -2065,6 +2103,64 @@
       font-size: 16px;
       line-height: 1.4;
     }
+
+    .mode-card.status-mode-red {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.56) 0%, rgba(255,255,255,0.16) 38%, rgba(255,255,255,0) 39%),
+        linear-gradient(180deg, #fff1f2 0%, #ffe4e6 55%, #fecdd3 100%);
+      color: #9f1239;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.72),
+        inset 0 -10px 18px rgba(190,24,93,0.07),
+        0 8px 0 #fda4af,
+        0 20px 30px rgba(190,24,93,0.12);
+    }
+
+    .mode-card.status-mode-red span { color: #be123c; }
+
+    .mode-card.status-mode-red:not(:disabled):hover {
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.76),
+        0 10px 0 #fb7185,
+        0 26px 36px rgba(190,24,93,0.16);
+    }
+
+    .mode-card.status-mode-green {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.56) 0%, rgba(255,255,255,0.16) 38%, rgba(255,255,255,0) 39%),
+        linear-gradient(180deg, #f0fdf4 0%, #dcfce7 55%, #bbf7d0 100%);
+      color: #166534;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.72),
+        inset 0 -10px 18px rgba(22,163,74,0.07),
+        0 8px 0 #86efac,
+        0 20px 30px rgba(22,163,74,0.12);
+    }
+
+    .mode-card.status-mode-green span { color: #15803d; }
+
+    .mode-card.status-mode-green:not(:disabled):hover {
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.76),
+        0 10px 0 #4ade80,
+        0 26px 36px rgba(22,163,74,0.16);
+    }
+
+    .mode-card.status-mode-red:disabled,
+    .mode-card.status-mode-green:disabled {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.24) 0%, rgba(255,255,255,0.06) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #d7dde6 0%, #c7cfdb 58%, #b7c1cf 100%);
+      color: #475569;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.46),
+        inset 0 -8px 16px rgba(71,85,105,0.08),
+        0 5px 0 #94a3b8,
+        0 14px 24px rgba(71,85,105,0.14);
+    }
+
+    .mode-card.status-mode-red:disabled span,
+    .mode-card.status-mode-green:disabled span { color: #64748b; }
 
     .mode-card.range-card {
       background:
@@ -2945,6 +3041,11 @@
     .chart-hover-group {
       cursor: pointer;
       outline: none;
+    }
+
+    .chart-hover-group:focus-visible .chart-hover-target {
+      stroke: #0e2d55;
+      stroke-width: 3;
     }
 
     .time-progress-section {
@@ -3963,6 +4064,7 @@
               <p data-start-path></p>
             </div>
             <div class="deck-start-actions">
+              <div class="essay-portal-actions" data-deck-essay-portals hidden></div>
               <div class="timer-mode-control" data-timer-mode-control>
                 <button class="timer-mode-toggle" type="button" data-toggle-timer-mode>無計時模式</button>
                 <label class="timer-seconds-field hidden" data-timer-seconds-field>
@@ -4009,9 +4111,13 @@
                 40 卡
                 <span>隨機抽 40 張未綠勾卡，適合長一點的練習。</span>
               </button>
-              <button class="mode-card" type="button" data-start-mode="red-only">
+              <button class="mode-card status-mode-red" type="button" data-start-mode="red-only">
                 只練習紅卡
                 <span>只練習這個卡組內目前標記為紅叉的卡片。</span>
+              </button>
+              <button class="mode-card status-mode-green" type="button" data-start-mode="green-only">
+                只練習綠卡
+                <span>只練習這個卡組內目前標記為綠勾的卡片；答錯後會轉為紅叉。</span>
               </button>
             </div>
           </div>
@@ -4172,6 +4278,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="flashcards-ielts-writing-data.js?v=20260713-1"></script>
+  <script src="essay-portal-links.js?v=20260727-1"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
   <script>
 window.EDMUND_FLASHCARD_SEED = {
@@ -183969,6 +184076,7 @@ window.EDMUND_FLASHCARD_SEED = {
     const DASHBOARD_LAYOUT_KEY = "edmundFlashcardDashboardLayouts";
     const DISPLAY_PREFERENCES_KEY = "edmundFlashcardUiPreferences";
     const DISPLAY_PREFERENCES_LOCAL_PREFIX = "edmundFlashcardUiPreferences::account::";
+    const FAMILIARITY_PENDING_LOCAL_PREFIX = "edmundFlashcardFamiliarityPending::account::";
     const BOOKMARK_DECK_ID = "__private-bookmarks__";
     const REBUILT_LISTENING_DECK_REVISION = "dse-listening-rebuild-20260712-v1";
     const REBUILT_WRITING_PART_A_2025_DECK_ID = "dse/writing/part-a/2025";
@@ -183984,6 +184092,7 @@ window.EDMUND_FLASHCARD_SEED = {
     const NEURAL_SPEECH_NAME = "Edmund Neural";
     const SUPABASE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x";
+    const essayPortals = window.EDMUND_ESSAY_PORTALS || null;
     const SUPABASE_SYNC_KEYS = [
       CARDS_KEY,
       ATTEMPTS_KEY,
@@ -184794,6 +184903,7 @@ window.EDMUND_FLASHCARD_SEED = {
     let selectedStudentName = "";
     let currentDeckId = "";
     let currentDeckTitle = "";
+    let requestedEssayOpened = false;
     let studySession = null;
     let lastOptions = null;
     let activeReviewStatus = "";
@@ -185077,6 +185187,77 @@ window.EDMUND_FLASHCARD_SEED = {
       }
     }
 
+    function flashcardStateAccountKey(user = currentUser) {
+      if (user?.role !== "student" || !user.name) return "";
+      return `${String(user.id || "").trim()}::${String(user.name).trim().toLocaleLowerCase()}`;
+    }
+
+    function clearFlashcardSyncedStateCache() {
+      supabaseSaveTimers.forEach(timer => window.clearTimeout(timer));
+      supabaseSaveTimers.clear();
+      SUPABASE_SYNC_KEYS.forEach(key => {
+        delete remoteStore[key];
+        try {
+          localStorage.removeItem(key);
+        } catch {
+          // In-memory state is still isolated when browser storage is unavailable.
+        }
+      });
+    }
+
+    function familiarityPendingLocalKey(context = null) {
+      const accountKey = String(context?.accountKey || flashcardStateAccountKey()).trim();
+      return accountKey ? `${FAMILIARITY_PENDING_LOCAL_PREFIX}${encodeURIComponent(accountKey)}` : "";
+    }
+
+    function readPendingFamiliarity(context = null) {
+      const key = familiarityPendingLocalKey(context);
+      if (!key) return { decks: {} };
+      try {
+        const value = JSON.parse(localStorage.getItem(key) || "null");
+        return value && typeof value === "object" && value.decks && typeof value.decks === "object"
+          ? value
+          : { decks: {} };
+      } catch {
+        return { decks: {} };
+      }
+    }
+
+    function cachePendingFamiliarityDeck(deckKey, value) {
+      const key = familiarityPendingLocalKey();
+      if (!key || !deckKey) return;
+      const pending = readPendingFamiliarity();
+      pending.decks[deckKey] = value;
+      pending.updatedAt = Date.now();
+      cacheJsonLocally(key, pending);
+    }
+
+    function clearSyncedPendingFamiliarity(value, context = null) {
+      const key = familiarityPendingLocalKey(context);
+      if (!key) return;
+      const pending = readPendingFamiliarity(context);
+      Object.entries(pending.decks || {}).forEach(([deckKey, deckValue]) => {
+        if (JSON.stringify(value?.[deckKey]) === JSON.stringify(deckValue)) delete pending.decks[deckKey];
+      });
+      try {
+        if (Object.keys(pending.decks || {}).length) localStorage.setItem(key, JSON.stringify(pending));
+        else localStorage.removeItem(key);
+      } catch {
+        // A later save can retry while this page remains open.
+      }
+    }
+
+    function restorePendingFamiliarity() {
+      const pending = readPendingFamiliarity();
+      const decks = pending.decks || {};
+      if (!Object.keys(decks).length) return false;
+      const current = readJson(FAMILIARITY_KEY, {});
+      const merged = { ...current, ...decks };
+      remoteStore[FAMILIARITY_KEY] = merged;
+      cacheJsonLocally(FAMILIARITY_KEY, merged);
+      return true;
+    }
+
     function readJson(key, fallback) {
       if (Object.prototype.hasOwnProperty.call(remoteStore, key)) {
         return normalizeStoredValue(remoteStore[key], fallback);
@@ -185100,6 +185281,7 @@ window.EDMUND_FLASHCARD_SEED = {
         return {
           type: "admin",
           owner: `admin:${String(currentUser.id || currentUser.name || "student")}`,
+          accountKey: flashcardStateAccountKey(),
           adminName: ADMIN_NAME,
           adminPassword: adminPasswordForSession,
           studentName: currentUser.name
@@ -185109,6 +185291,7 @@ window.EDMUND_FLASHCARD_SEED = {
         return {
           type: "student",
           owner: `student:${String(currentUser.id || currentUser.name || "student")}:${studentSessionToken}`,
+          accountKey: flashcardStateAccountKey(),
           token: studentSessionToken
         };
       }
@@ -185148,6 +185331,7 @@ window.EDMUND_FLASHCARD_SEED = {
             p_value: value
           });
           if (saved !== true) throw new Error("Admin state save returned false.");
+          if (key === FAMILIARITY_KEY) clearSyncedPendingFamiliarity(value, context);
           if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: live", "live");
           return true;
         } catch (error) {
@@ -185170,6 +185354,7 @@ window.EDMUND_FLASHCARD_SEED = {
         return false;
       }
 
+      if (key === FAMILIARITY_KEY) clearSyncedPendingFamiliarity(value, context);
       if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: live", "live");
       return true;
     }
@@ -185507,10 +185692,14 @@ window.EDMUND_FLASHCARD_SEED = {
           remoteStore[key] = value;
           cacheJsonLocally(key, value);
         });
+        if (restorePendingFamiliarity()) {
+          void saveSupabaseState(FAMILIARITY_KEY, readJson(FAMILIARITY_KEY, {}), { silent: true });
+        }
         startSupabaseRealtime();
         return true;
       } catch (error) {
         console.warn("Could not load Supabase student state:", error);
+        restorePendingFamiliarity();
         updateSupabaseStatus("Supabase: account SQL needed", "error");
         return false;
       }
@@ -185586,6 +185775,9 @@ window.EDMUND_FLASHCARD_SEED = {
         remoteStore[key] = value;
         cacheJsonLocally(key, value);
       });
+      if (restorePendingFamiliarity()) {
+        void saveSupabaseState(FAMILIARITY_KEY, readJson(FAMILIARITY_KEY, {}), { silent: true });
+      }
     }
 
     function stateValueForStudent(studentName, key, fallback) {
@@ -185992,7 +186184,9 @@ window.EDMUND_FLASHCARD_SEED = {
       const normalized = normalizeFamiliarity(familiarity);
       const expectedRevision = deckDataRevision(deckId);
       if (expectedRevision) normalized.deckRevision = expectedRevision;
-      store[familiarityKey(deckId, studentName)] = normalized;
+      const deckKey = familiarityKey(deckId, studentName);
+      store[deckKey] = normalized;
+      cachePendingFamiliarityDeck(deckKey, normalized);
       saveFamiliarityStore(store);
     }
 
@@ -186065,6 +186259,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function setSession(user) {
       resetFlashcardDisplayPreferences();
+      clearFlashcardSyncedStateCache();
       currentUser = user;
       if (currentUser?.role === "student") {
         hydrateFlashcardDisplayPreferences({ localOnly: true });
@@ -186086,6 +186281,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function clearSession() {
       resetFlashcardDisplayPreferences();
+      clearFlashcardSyncedStateCache();
       if (currentUser?.role === "student" && !currentUser.impersonatedByAdmin) {
         window.EdmundSystemNav?.forgetStudentSession();
       }
@@ -186098,6 +186294,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function restoreSession() {
       resetFlashcardDisplayPreferences();
+      clearFlashcardSyncedStateCache();
       try {
         const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
         if (saved && saved.name && saved.role) {
@@ -186126,6 +186323,7 @@ window.EDMUND_FLASHCARD_SEED = {
         || currentUser.sessionToken === shared.token
       ) return;
       resetFlashcardDisplayPreferences();
+      clearFlashcardSyncedStateCache();
       currentUser = null;
       studentSessionToken = "";
       sessionStorage.removeItem(SESSION_KEY);
@@ -186141,7 +186339,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const student = Array.isArray(rows) ? rows[0] : null;
         if (!student?.session_token || student.role !== "student") return false;
         studentSessionToken = student.session_token;
-        currentUser = {
+        const restoredUser = {
           id: student.id,
           name: student.name,
           role: "student",
@@ -186149,7 +186347,7 @@ window.EDMUND_FLASHCARD_SEED = {
           createdAt: student.created_at ? new Date(student.created_at).getTime() : Date.now(),
           sessionToken: studentSessionToken
         };
-        setSession(currentUser);
+        setSession(restoredUser);
         return true;
       } catch (error) {
         console.warn("Flashcard universal session validation failed:", error);
@@ -186445,7 +186643,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (Array.isArray(studentRows) && studentRows.length) {
             const student = studentRows[0];
             studentSessionToken = student.session_token;
-            currentUser = {
+            const authenticatedUser = {
               id: student.id,
               name: student.name,
               role: "student",
@@ -186453,7 +186651,7 @@ window.EDMUND_FLASHCARD_SEED = {
               createdAt: student.created_at ? new Date(student.created_at).getTime() : Date.now(),
               sessionToken: studentSessionToken
             };
-            setSession(currentUser);
+            setSession(authenticatedUser);
             const stateLoaded = await loadStudentStateFromSupabase();
             if (stateLoaded) {
               hydrateFlashcardDisplayPreferences();
@@ -188195,7 +188393,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const student = getStudents().find(item => item.name === studentName);
       if (!student) return;
       studentSessionToken = "";
-      currentUser = {
+      const impersonatedUser = {
         id: student.id || "",
         name: student.name,
         role: "student",
@@ -188203,7 +188401,7 @@ window.EDMUND_FLASHCARD_SEED = {
         createdAt: student.createdAt || Date.now(),
         impersonatedByAdmin: true
       };
-      setSession(currentUser);
+      setSession(impersonatedUser);
       let stateLoaded = false;
       if (studentsLoadedFromSupabase) {
         stateLoaded = await loadStudentStateForAdmin(student.name);
@@ -188219,7 +188417,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function returnToAdminAccount() {
       if (!adminPasswordForSession) return;
-      currentUser = {
+      const adminUser = {
         name: ADMIN_NAME,
         role: "admin",
         access: defaultAccess(),
@@ -188228,7 +188426,7 @@ window.EDMUND_FLASHCARD_SEED = {
       studentSessionToken = "";
       selectedStudentName = "";
       closeAdminSwitchModal();
-      setSession(currentUser);
+      setSession(adminUser);
       showAppPanel("admin-panel", false);
       updateSupabaseStatus("Supabase: live", "live");
     }
@@ -188409,7 +188607,22 @@ window.EDMUND_FLASHCARD_SEED = {
       return `${prefix}/${useSlug ? slugifyLabel(label) : label}`;
     }
 
-    function optionButton(label, deckId, titleOverride = "") {
+    function flashEssayPortalLinksHtml(deckId) {
+      if (!essayPortals) return "";
+      const essayKey = essayPortals.fromFlashDeckId(deckId);
+      if (!essayKey) return "";
+      const writingHref = essayPortals.hasWritingPractice(essayKey)
+        ? essayPortals.href("writing", essayKey)
+        : "";
+      return `
+        <div class="essay-portal-actions" aria-label="前往相同範文的其他練習系統">
+          ${writingHref ? `<a class="essay-portal-link" href="${escapeHtml(writingHref)}" data-essay-portal-link>Writing Practice</a>` : ""}
+          <a class="essay-portal-link" href="${escapeHtml(essayPortals.href("downloads", essayKey))}" data-essay-portal-link>Download Site</a>
+        </div>
+      `;
+    }
+
+    function optionButton(label, deckId, titleOverride = "", extraActions = "") {
       if (titleOverride) deckTitleLabels.set(deckId, titleOverride);
       const completed = isDeckCompleted(deckId);
       const empty = getDeckCards(deckId).length === 0;
@@ -188421,6 +188634,7 @@ window.EDMUND_FLASHCARD_SEED = {
             ${empty ? "<small>尚未有卡片</small>" : ""}
           </button>
           ${currentUser?.name && !empty ? `<button class="reset-square" type="button" data-reset-attempt="${escapeHtml(deckId)}">重設<br>紀錄</button>` : ""}
+          ${extraActions}
         </div>
       `;
     }
@@ -188794,7 +189008,8 @@ window.EDMUND_FLASHCARD_SEED = {
             <h3>${escapeHtml(type.label)}</h3>
             ${rows.map(row => {
               const label = ieltsWritingQuestionLabel(row);
-              return optionButton(label, `ielts/writing/task-2/${type.key}/${row.ref}`, label);
+              const deckId = `ielts/writing/task-2/${type.key}/${row.ref}`;
+              return optionButton(label, deckId, label, flashEssayPortalLinksHtml(deckId));
             }).join("")}
           </div>
         `,
@@ -189606,6 +189821,14 @@ window.EDMUND_FLASHCARD_SEED = {
       const familiarity = familiarityStatsForPrefix(currentDeckId);
       document.querySelector("[data-start-title]").textContent = currentDeckTitle;
       document.querySelector("[data-start-path]").textContent = `${currentDeckTitle}｜卡片：${count}｜嘗試：${stats.count}｜最近：${todayText(stats.latest)}｜綠勾：${familiarity.green}｜紅叉：${familiarity.red}`;
+      const essayPortalActions = document.querySelector("[data-deck-essay-portals]");
+      if (essayPortalActions) {
+        const portalMarkup = flashEssayPortalLinksHtml(currentDeckId);
+        essayPortalActions.innerHTML = portalMarkup
+          ? portalMarkup.replace(/^\s*<div[^>]*>|<\/div>\s*$/g, "")
+          : "";
+        essayPortalActions.hidden = !portalMarkup;
+      }
       const startStatus = document.querySelector("[data-start-status]");
       if (startStatus) {
         startStatus.textContent = count
@@ -189655,6 +189878,28 @@ window.EDMUND_FLASHCARD_SEED = {
       showAppPanel("deck-start", push);
     }
 
+    function openRequestedFlashcardEssay() {
+      if (requestedEssayOpened || !essayPortals || currentUser?.role !== "student") return false;
+      const essayKey = essayPortals.requestedKey();
+      if (!essayKey) return false;
+      const target = essayPortals.parts(essayKey);
+      const deckId = essayPortals.flashDeckId(essayKey);
+      if (!target || !essayPortals.hasFlashcards(essayKey) || !deckId || !getDeckCards(deckId).length) {
+        requestedEssayOpened = true;
+        window.setTimeout(() => window.alert("這一篇範文目前未有可用的 Flash Cards。"), 0);
+        return false;
+      }
+      if (!canAccessDeck(deckId)) {
+        requestedEssayOpened = true;
+        window.setTimeout(() => window.alert("您的帳戶尚未開放這個 IELTS Flash Cards 範圍。"), 0);
+        return false;
+      }
+      requestedEssayOpened = true;
+      showIeltsWritingTask2Questions(target.definition.flashType);
+      openDeckStart(deckId);
+      return true;
+    }
+
     function shuffle(values) {
       const result = [...values];
       for (let index = result.length - 1; index > 0; index -= 1) {
@@ -189672,6 +189917,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function modeLabel(mode, cardLimit = 0, rangeLabel = "") {
       if (mode === "range") return rangeLabel || "指定範圍";
       if (mode === "red-only") return "只練習紅卡";
+      if (mode === "green-only") return "只練習綠卡";
       if (cardLimit) return `隨機 ${cardLimit} 卡`;
       return mode === "random" ? "隨機排序" : "依原定次序";
     }
@@ -190055,6 +190301,13 @@ window.EDMUND_FLASHCARD_SEED = {
         order = cardIndexesWithStatus(allIndexes, getDeckFamiliarity(currentDeckId).red);
         if (!order.length) {
           if (status) status.textContent = "這個卡組目前未有紅叉卡片。";
+          return;
+        }
+      }
+      if (mode === "green-only") {
+        order = cardIndexesWithStatus(allIndexes, getDeckFamiliarity(currentDeckId).green);
+        if (!order.length) {
+          if (status) status.textContent = "這個卡組目前未有綠勾卡片。";
           return;
         }
       }
@@ -191274,6 +191527,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
         if (!ok && status) status.textContent = "Wrong user name or password.";
         if (ok && status) status.textContent = "";
+        if (ok) window.setTimeout(openRequestedFlashcardEssay, 0);
       });
 
       document.querySelector("[data-student-form]")?.addEventListener("submit", async event => {
@@ -192193,6 +192447,12 @@ window.EDMUND_FLASHCARD_SEED = {
       setupStudyCardSwipeHandlers();
 
       document.addEventListener("keydown", event => {
+        const progressPoint = event.target.closest?.("[data-progress-day]");
+        if (progressPoint && (event.key === "Enter" || event.key === " ")) {
+          event.preventDefault();
+          progressPoint.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+          return;
+        }
         if (event.key !== "Enter" || currentView !== "deck-view") return;
         const tagName = event.target?.tagName?.toLowerCase();
         if (["input", "textarea", "button", "select"].includes(tagName)) return;
@@ -192244,6 +192504,7 @@ window.EDMUND_FLASHCARD_SEED = {
         showLogin();
       }
       await initSupabaseState();
+      window.setTimeout(openRequestedFlashcardEssay, 0);
     }
 
     void initialiseFlashcardPortal();

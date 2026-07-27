@@ -123,8 +123,14 @@ function createFrontendHarness() {
     "[data-sentence-progress-toggle]", "[data-sentence-progress-toggle-label]", "[data-sentence-progress-panel]",
     "[data-sentence-progress-chart]", "[data-sentence-progress-period-total]",
     "[data-sentence-progress-all-total]", "[data-sentence-progress-active-days]",
+    "[data-toggle-sentence-cumulative]", "[data-sentence-cumulative-legend]",
     "[data-sentence-progress-day-panel]", "[data-sentence-progress-day-title]",
     "[data-sentence-progress-day-list]",
+    "[data-sentence-time-progress-chart]", "[data-sentence-time-all-total]",
+    "[data-sentence-time-period-total]", "[data-sentence-time-average]",
+    "[data-sentence-time-median]", "[data-sentence-time-maximum]",
+    "[data-sentence-time-day-panel]", "[data-sentence-time-day-title]",
+    "[data-sentence-time-day-list]",
     "[data-lesson-kicker]", "[data-lesson-title]", "[data-lesson-stepper]",
     "[data-lesson-content]", "[data-bookmark-list]", "[data-admin-search]",
     "[data-admin-student-count]", "[data-admin-student-list]", "[data-admin-detail]",
@@ -257,8 +263,12 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   normalizeBookmark, normalizeAttempt, attemptHistoryHtml,
   renderBookmarks, bookmarkAnswerAvailable, toggleBookmark, toggleSectionBookmark, saveBookmarks, renderAdminStudents, openAdminStudent,
   readProgressPanelPreference, writeProgressPanelPreference, renderProgressPanelDisclosure, toggleProgressPanel,
+  readCumulativeProgressPreference, writeCumulativeProgressPreference, toggleCumulativeProgress,
   loadAllAttempts, loadDashboardData, questionActivityRows, buildQuestionProgressSeries, questionProgressChartSvg,
-  renderProgressDashboard, renderProgressDayPanel, renderAttemptHistory,
+  renderProgressDashboard, renderProgressDayPanel,
+  medianDuration, timedSentenceAttempts, buildSentenceTimeSeries, sentenceTimeProgressChartSvg,
+  renderSentenceTimeDashboard, renderSentenceTimeDayPanel, formatDuration,
+  renderAttemptHistory,
   serializeExerciseResult, persistExercise
 };
 `);
@@ -489,7 +499,17 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
     "progress disclosure must sit immediately above the long lesson grid"
   );
   assert.equal((html.match(/data-sentence-progress-range=/g) || []).length, 6);
+  assert.match(html, /data-toggle-sentence-cumulative[^>]+aria-pressed="false"/);
+  assert.match(html, /data-sentence-cumulative-legend[^>]+hidden/);
   assert.match(html, /data-sentence-progress-day-list/);
+  assert.match(html, /data-sentence-time-progress-chart/);
+  assert.equal((html.match(/data-sentence-time-progress-range=/g) || []).length, 6);
+  assert.match(html, /data-sentence-time-all-total/);
+  assert.match(html, /data-sentence-time-day-list/);
+  assert.ok(
+    html.indexOf("data-sentence-progress-day-list") < html.indexOf("data-sentence-time-progress-chart"),
+    "the time dashboard must follow the completed-question dashboard"
+  );
   assert.match(html, /data-bookmark-list/);
   assert.match(html, /data-admin-student-list/);
   assert.match(html, /data-admin-detail/);
@@ -513,6 +533,8 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(css, /\.rule-card \.chinese\s*\{[^}]*font-size:\s*clamp\(16px,[^}]*18px\)[^}]*font-weight:\s*800/i);
   assert.match(css, /\.rule-card \.english\s*\{[^}]*color:\s*var\(--muted\)[^}]*font-size:\s*14px/i);
   assert.match(css, /\.lesson-choice\.is-complete\s*\{[^}]*linear-gradient/i);
+  assert.match(css, /\.sentence-legend-cumulative\s*\{[^}]*#7e22ce/i);
+  assert.match(css, /\.sentence-legend-time\s*\{[^}]*#ff914d/i);
   assert.match(css, /\.lesson-section-bookmark\s*\{/);
   assert.match(css, /\.bookmark-columns\s*\{[^}]*grid-template-columns:\s*repeat\(2/i);
   assert.match(css, /\.missing-answer-highlight\s*\{[^}]*background:\s*#ffe56f/i);
@@ -1025,6 +1047,121 @@ test("the dashboard charts daily question activity and drills into the selected 
   assert.ok(sut.elements.progressDayList.innerHTML.includes(q2.prompt));
   assert.match(sut.elements.progressDayList.innerHTML, /答對/);
   assert.match(sut.elements.progressDayList.innerHTML, /待改正/);
+});
+
+test("question progress can add a persisted purple cumulative line with pre-range history", () => {
+  const harness = createFrontendHarness();
+  const { sut, localValues } = harness;
+  const today = new Date();
+  today.setHours(12, 0, 0, 0);
+  const earlier = new Date(today);
+  earlier.setDate(earlier.getDate() - 10);
+  const questions = sut.getLesson("ss1").questions.slice(0, 13);
+  sut.state.attempts = [sut.normalizeAttempt({
+    id: "cumulative-activity",
+    lessonId: "ss1",
+    status: "in_progress",
+    startedAt: earlier.toISOString(),
+    result: {
+      rounds: [
+        {
+          round: 1,
+          checkedIds: questions.slice(0, 12).map((question) => question.id),
+          correctIds: questions.slice(0, 12).map((question) => question.id),
+          incorrectIds: [],
+          submittedAt: earlier.toISOString()
+        },
+        {
+          round: 2,
+          checkedIds: [questions[12].id],
+          correctIds: [questions[12].id],
+          incorrectIds: [],
+          submittedAt: today.toISOString()
+        }
+      ]
+    }
+  })];
+
+  const series = sut.buildQuestionProgressSeries("week");
+  assert.equal(series.cumulativeBeforeStart, 12);
+  assert.equal(series.periodTotal, 1);
+  assert.equal(series.allTotal, 13);
+  assert.equal(series.points.at(-1).cumulative, 13);
+  sut.state.showCumulativeProgress = false;
+  assert.doesNotMatch(sut.questionProgressChartSvg(series), /data-chart-series="cumulative"/);
+  sut.state.showCumulativeProgress = true;
+  const cumulativeSvg = sut.questionProgressChartSvg(series);
+  assert.match(cumulativeSvg, /data-chart-series="cumulative"/);
+  assert.match(cumulativeSvg, /stroke="#7e22ce"/);
+  assert.match(cumulativeSvg, /累積：13 題/);
+
+  sut.state.user = { id: "student-cumulative-a", name: "Student A", role: "student" };
+  sut.state.showCumulativeProgress = false;
+  sut.toggleCumulativeProgress();
+  assert.equal(sut.state.showCumulativeProgress, true);
+  assert.equal(sut.elements.cumulativeProgressToggle.textContent, "隱藏累積總數");
+  assert.equal(sut.elements.cumulativeProgressToggle.getAttribute("aria-pressed"), "true");
+  assert.equal(sut.elements.cumulativeProgressLegend.hidden, false);
+  assert.equal([...localValues.values()].at(-1), "visible");
+  assert.equal(sut.readCumulativeProgressPreference(), true);
+
+  sut.state.user = { id: "student-cumulative-b", name: "Student B", role: "student" };
+  assert.equal(sut.readCumulativeProgressPreference(), false, "cumulative visibility must not leak into another account");
+  sut.writeCumulativeProgressPreference(false);
+  sut.state.user = { id: "student-cumulative-a", name: "Student A", role: "student" };
+  assert.equal(sut.readCumulativeProgressPreference(), true);
+});
+
+test("the second dashboard aggregates Supabase attempt duration and opens daily time details", () => {
+  const { sut } = createFrontendHarness();
+  const today = new Date();
+  today.setHours(12, 0, 0, 0);
+  const earlier = new Date(today);
+  earlier.setDate(earlier.getDate() - 10);
+  const dayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+  sut.state.attempts = [
+    sut.normalizeAttempt({
+      id: "time-1", lessonId: "ss1", status: "completed", correctCount: 50, totalCount: 50,
+      durationMs: 90000, completedAt: today.toISOString(), result: {}
+    }),
+    sut.normalizeAttempt({
+      id: "time-2", lessonId: "ss2", status: "in_progress", correctCount: 18, totalCount: 50,
+      durationMs: 150000, updatedAt: today.toISOString(), result: {}
+    }),
+    sut.normalizeAttempt({
+      id: "time-3", lessonId: "ss3", status: "completed", correctCount: 50, totalCount: 50,
+      durationMs: 300000, completedAt: earlier.toISOString(), result: {}
+    })
+  ];
+
+  const series = sut.buildSentenceTimeSeries("week");
+  assert.equal(series.points.length, 7);
+  assert.equal(series.points.at(-1).totalMs, 240000);
+  assert.equal(series.stats.periodTotalMs, 240000);
+  assert.equal(series.stats.allTotalMs, 540000);
+  assert.equal(series.stats.averageMs, 180000);
+  assert.equal(series.stats.medianMs, 150000);
+  assert.equal(series.stats.maximumMs, 300000);
+  const svg = sut.sentenceTimeProgressChartSvg(series);
+  assert.match(svg, /data-chart-series="time"/);
+  assert.match(svg, /stroke="#ff914d"/);
+  assert.ok(svg.includes(`data-sentence-time-day="${dayKey}"`));
+  assert.match(svg, /時間：4 分 00 秒/);
+
+  sut.state.timeProgressRange = "week";
+  sut.state.selectedTimeProgressDay = dayKey;
+  sut.renderSentenceTimeDashboard();
+  assert.equal(sut.elements.timeProgressAllTotal.textContent, "9 分 00 秒");
+  assert.equal(sut.elements.timeProgressPeriodTotal.textContent, "4 分 00 秒");
+  assert.equal(sut.elements.timeProgressAverage.textContent, "3 分 00 秒");
+  assert.equal(sut.elements.timeProgressMedian.textContent, "2 分 30 秒");
+  assert.equal(sut.elements.timeProgressMaximum.textContent, "5 分 00 秒");
+  assert.equal(sut.elements.timeProgressDayPanel.hidden, false);
+  assert.match(sut.elements.timeProgressDayTitle.textContent, /4 分 00 秒/);
+  assert.match(sut.elements.timeProgressDayList.innerHTML, /已完成/);
+  assert.match(sut.elements.timeProgressDayList.innerHTML, /進行中/);
+  assert.match(sut.elements.timeProgressDayList.innerHTML, /1 分 30 秒/);
+  assert.match(sut.elements.timeProgressDayList.innerHTML, /2 分 30 秒/);
 });
 
 test("bookmark is pinned first and every completed 50-question lesson turns gold", () => {

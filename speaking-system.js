@@ -189,7 +189,10 @@
     progressController: null,
     progressRange: "month",
     progressShowCumulative: false,
-    progressSelectedDay: ""
+    progressSelectedDay: "",
+    durationProgressRange: "month",
+    durationProgressShowCumulative: false,
+    durationProgressSelectedDay: ""
   };
 
   function escapeHtml(value) {
@@ -358,11 +361,16 @@
     state.progressLoading = false;
     state.progressError = "";
     state.progressSelectedDay = "";
+    state.durationProgressSelectedDay = "";
     const preferences = readSpeakingProgressPreferences();
     state.progressRange = ["week", "month", "half-year", "ytd", "year", "all"].includes(preferences.range)
       ? preferences.range
       : "month";
     state.progressShowCumulative = preferences.showCumulative === true;
+    state.durationProgressRange = ["week", "month", "half-year", "ytd", "year", "all"].includes(preferences.durationRange)
+      ? preferences.durationRange
+      : "month";
+    state.durationProgressShowCumulative = preferences.durationShowCumulative === true;
   }
 
   function saveSpeakingProgressPreferences() {
@@ -373,7 +381,9 @@
       const store = stored && typeof stored === "object" && !Array.isArray(stored) ? stored : {};
       store[owner] = {
         range: state.progressRange,
-        showCumulative: state.progressShowCumulative
+        showCumulative: state.progressShowCumulative,
+        durationRange: state.durationProgressRange,
+        durationShowCumulative: state.durationProgressShowCumulative
       };
       localStorage.setItem(PROGRESS_PREFERENCES_KEY, JSON.stringify(store));
     } catch {
@@ -732,6 +742,9 @@
     state.progressRange = "month";
     state.progressShowCumulative = false;
     state.progressSelectedDay = "";
+    state.durationProgressRange = "month";
+    state.durationProgressShowCumulative = false;
+    state.durationProgressSelectedDay = "";
     state.examAttempts = [];
     state.examAttemptsById.clear();
     state.access = {};
@@ -1405,7 +1418,7 @@
         : "";
       return `
         <g class="speaking-chart-hover" tabindex="0" role="button" data-speaking-progress-day="${escapeHtml(point.key)}" aria-label="${escapeHtml(point.key)} 當日錄音 ${Number(point.daily || 0)}${escapeHtml(cumulativeDescription)}">
-          <circle class="speaking-chart-target" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="14" />
+          <circle class="speaking-chart-target" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="22" />
           <circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="4" fill="#0f8f8f" />
           <g class="speaking-chart-tooltip">
             <line x1="${x.toFixed(2)}" y1="${top}" x2="${x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(21, 43, 56, 0.22)" stroke-width="1" stroke-dasharray="4 5" />
@@ -1432,6 +1445,145 @@
         ${axisLabels}
         <text x="${left}" y="19" fill="#064b65" font-size="13" font-weight="900">錄音數量</text>
         ${series.allTime ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#71828d" font-size="20" font-weight="900">暫時未有錄音紀錄</text>`}
+      </svg>`;
+  }
+
+  function buildSpeakingDurationSeries(attempts, range = state.durationProgressRange, now = new Date()) {
+    const validAttempts = (Array.isArray(attempts) ? attempts : [])
+      .map(attempt => ({
+        ...attempt,
+        progressDate: new Date(attempt.createdAt),
+        progressDurationMs: Math.max(0, Number.isFinite(Number(attempt.durationMs)) ? Number(attempt.durationMs) : 0)
+      }))
+      .filter(attempt => !Number.isNaN(attempt.progressDate.getTime()));
+    const start = speakingProgressRangeStart(range, validAttempts, now);
+    const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const buckets = new Map();
+    let cumulativeBeforeStartMs = 0;
+    let allTimeMs = 0;
+
+    validAttempts.forEach(attempt => {
+      const date = attempt.progressDate;
+      const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+      if (day > end) return;
+      allTimeMs += attempt.progressDurationMs;
+      if (day < start) {
+        cumulativeBeforeStartMs += attempt.progressDurationMs;
+        return;
+      }
+      const key = speakingProgressDayKey(day);
+      buckets.set(key, (buckets.get(key) || 0) + attempt.progressDurationMs);
+    });
+
+    const points = [];
+    let cumulativeMs = cumulativeBeforeStartMs;
+    for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
+      const date = new Date(cursor);
+      const key = speakingProgressDayKey(date);
+      const dailyMs = buckets.get(key) || 0;
+      cumulativeMs += dailyMs;
+      points.push({
+        date,
+        key,
+        dailyMs,
+        cumulativeMs,
+        dailySeconds: dailyMs / 1000,
+        cumulativeSeconds: cumulativeMs / 1000
+      });
+    }
+    return {
+      points,
+      allTimeMs,
+      visibleTotalMs: points.reduce((sum, point) => sum + point.dailyMs, 0),
+      cumulativeBeforeStartMs
+    };
+  }
+
+  function formatSpeakingProgressDuration(milliseconds) {
+    const totalSeconds = Math.max(0, Math.round(Number(milliseconds || 0) / 1000));
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+    if (hours) return `${hours}小時 ${pad(minutes)}分 ${pad(seconds)}秒`;
+    if (minutes) return `${minutes}分 ${pad(seconds)}秒`;
+    return `${seconds}秒`;
+  }
+
+  function speakingDurationAxisLabel(seconds) {
+    const value = Math.max(0, Number(seconds || 0));
+    if (value >= 3600 && value % 3600 === 0) return `${value / 3600}小時`;
+    if (value >= 60) return `${Math.round(value / 60)}分`;
+    return `${Math.round(value)}秒`;
+  }
+
+  function speakingDurationChartSvg(series) {
+    const width = 900;
+    const height = 340;
+    const dimensions = { width, height, left: 72, right: 28, top: 28, bottom: 54 };
+    const { left, right, top, bottom } = dimensions;
+    const points = series.points;
+    const chartWidth = width - left - right;
+    const chartHeight = height - top - bottom;
+    const maximum = Math.max(0, ...points.flatMap(point => (
+      state.durationProgressShowCumulative
+        ? [point.dailySeconds, point.cumulativeSeconds]
+        : [point.dailySeconds]
+    )));
+    const yMax = speakingProgressNiceMaximum(maximum);
+    const yFor = value => top + chartHeight - (chartHeight * Number(value || 0) / yMax);
+    const yLabels = [...new Set([0, Math.round(yMax / 2), yMax])];
+    const xLabels = points.length
+      ? [points[0], points[Math.floor((points.length - 1) / 2)], points[points.length - 1]]
+      : [];
+    const gridLines = yLabels.map(value => `
+      <line x1="${left}" y1="${yFor(value).toFixed(2)}" x2="${width - right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(249, 115, 22, 0.18)" stroke-width="1" />
+      <text x="${left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#627085" font-size="12" font-weight="800">${speakingDurationAxisLabel(value)}</text>
+    `).join("");
+    const axisLabels = xLabels.map((point, index) => {
+      const x = left + (chartWidth * index / Math.max(xLabels.length - 1, 1));
+      return `<text x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#627085" font-size="13" font-weight="800">${speakingProgressDateLabel(point.date)}</text>`;
+    }).join("");
+    const denominator = Math.max(points.length - 1, 1);
+    const hoverPoints = points.map((point, index) => {
+      if (!point.dailyMs) return "";
+      const x = left + (chartWidth * index / denominator);
+      const y = yFor(point.dailySeconds);
+      const boxWidth = 174;
+      const boxHeight = state.durationProgressShowCumulative ? 66 : 52;
+      const boxX = Math.min(Math.max(x - boxWidth / 2, left), width - right - boxWidth);
+      const boxY = Math.min(height - bottom - boxHeight - 4, Math.max(top + 4, y - boxHeight - 10));
+      const cumulativeDescription = state.durationProgressShowCumulative
+        ? `，累積 ${formatSpeakingProgressDuration(point.cumulativeMs)}`
+        : "";
+      return `
+        <g class="speaking-chart-hover" tabindex="0" role="button" data-speaking-duration-day="${escapeHtml(point.key)}" aria-label="${escapeHtml(point.key)} 當日錄音時間 ${escapeHtml(formatSpeakingProgressDuration(point.dailyMs))}${escapeHtml(cumulativeDescription)}">
+          <circle class="speaking-chart-target" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="22" />
+          <circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="4" fill="#f97316" />
+          <g class="speaking-chart-tooltip">
+            <line x1="${x.toFixed(2)}" y1="${top}" x2="${x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(21, 43, 56, 0.22)" stroke-width="1" stroke-dasharray="4 5" />
+            <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="${boxWidth}" height="${boxHeight}" rx="9" fill="#153347" opacity="0.94" />
+            <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 17).toFixed(2)}" fill="#fff" font-size="11" font-weight="800">當日：${escapeHtml(formatSpeakingProgressDuration(point.dailyMs))}</text>
+            ${state.durationProgressShowCumulative ? `<text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 32).toFixed(2)}" fill="#eadcff" font-size="10" font-weight="800">累積：${escapeHtml(formatSpeakingProgressDuration(point.cumulativeMs))}</text>` : ""}
+            <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + (state.durationProgressShowCumulative ? 50 : 35)).toFixed(2)}" fill="#cfe8e8" font-size="10" font-weight="700">${escapeHtml(point.key)}</text>
+          </g>
+        </g>`;
+    }).join("");
+    const lastPoint = points[points.length - 1] || { dailySeconds: 0, cumulativeSeconds: 0 };
+    const lastX = left + chartWidth;
+    return `
+      <svg viewBox="0 0 ${width} ${height}" role="group" aria-label="每日 Speaking 錄音總時間圖；有錄音的日期可按 Enter 或空白鍵查看詳情">
+        <rect width="${width}" height="${height}" fill="rgba(255,255,255,0.66)" />
+        ${gridLines}
+        <line x1="${left}" y1="${top}" x2="${left}" y2="${height - bottom}" stroke="rgba(21,43,56,0.16)" stroke-width="1.4" />
+        <line x1="${left}" y1="${height - bottom}" x2="${width - right}" y2="${height - bottom}" stroke="rgba(21,43,56,0.16)" stroke-width="1.4" />
+        <polyline points="${speakingProgressPolyline(points, "dailySeconds", dimensions, yMax)}" fill="none" stroke="#f97316" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        ${state.durationProgressShowCumulative ? `<polyline points="${speakingProgressPolyline(points, "cumulativeSeconds", dimensions, yMax)}" fill="none" stroke="#7e22ce" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />` : ""}
+        <circle cx="${lastX}" cy="${yFor(lastPoint.dailySeconds).toFixed(2)}" r="5" fill="#f97316" />
+        ${state.durationProgressShowCumulative ? `<circle cx="${lastX}" cy="${yFor(lastPoint.cumulativeSeconds).toFixed(2)}" r="5" fill="#7e22ce" />` : ""}
+        ${hoverPoints}
+        ${axisLabels}
+        <text x="${left}" y="19" fill="#7c2d12" font-size="13" font-weight="900">錄音時間</text>
+        ${series.allTimeMs ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#71828d" font-size="20" font-weight="900">暫時未有錄音時間紀錄</text>`}
       </svg>`;
   }
 
@@ -1462,6 +1614,31 @@
       </section>`;
   }
 
+  function speakingDurationDayPanel() {
+    if (!state.durationProgressSelectedDay) return "";
+    const attempts = speakingProgressDayAttempts(state.durationProgressSelectedDay);
+    const totalMs = attempts.reduce((sum, attempt) => {
+      const durationMs = Number(attempt.durationMs);
+      return sum + (Number.isFinite(durationMs) ? Math.max(0, durationMs) : 0);
+    }, 0);
+    return `
+      <section class="speaking-progress-day-panel">
+        <div class="speaking-progress-day-head">
+          <div><h3>${escapeHtml(state.durationProgressSelectedDay)} · ${escapeHtml(formatSpeakingProgressDuration(totalMs))}</h3><p>${attempts.length} 段已成功儲存的錄音。</p></div>
+          <div class="speaking-progress-day-actions">
+            <button class="secondary-button" type="button" data-close-speaking-duration-day>關閉</button>
+            <button class="primary-button" type="button" data-go="attempts">${state.user?.role === "admin" ? "查看所有錄音" : "查看我的錄音"}</button>
+          </div>
+        </div>
+        ${attempts.length ? `<div class="speaking-progress-day-list">${attempts.map(attempt => `
+          <div class="speaking-progress-day-row">
+            <strong>${state.user?.role === "admin" && attempt.studentName ? `${escapeHtml(attempt.studentName)} · ` : ""}${escapeHtml(attempt.exerciseTitle || "Speaking attempt")}</strong>
+            <span>${escapeHtml(formatDate(attempt.createdAt))}</span>
+            <span>${escapeHtml(formatSpeakingProgressDuration(attempt.durationMs))}</span>
+          </div>`).join("")}</div>` : '<p class="speaking-progress-empty">這一天沒有可列出的錄音。</p>'}
+      </section>`;
+  }
+
   function speakingProgressDashboardMarkup() {
     const series = buildSpeakingProgressSeries(state.progressAttempts, state.progressRange);
     const adminDashboard = state.user?.role === "admin";
@@ -1470,6 +1647,9 @@
       : state.progressError && !state.progressAttempts.length
         ? `<div class="speaking-progress-loading"><strong>未能載入錄音進度</strong><span>${escapeHtml(state.progressError)}</span><button class="secondary-button" type="button" data-retry-speaking-progress>重新載入</button></div>`
         : speakingProgressChartSvg(series);
+    const staleNotice = state.progressError && state.progressAttempts.length
+      ? `<div class="speaking-progress-stale" role="status"><span>暫時未能更新；現正顯示上次成功載入的錄音資料。</span><button class="secondary-button" type="button" data-retry-speaking-progress>重新載入</button></div>`
+      : "";
     return `
       <div class="speaking-progress-toolbar">
         <div><span class="mini-kicker">${adminDashboard ? "ALL STUDENTS · SPEAKING PROGRESS" : "MY SPEAKING PROGRESS"}</span><h2>${adminDashboard ? "所有學生錄音進展" : "我的錄音進展"}</h2><p>只計算已成功儲存、仍然保留在${adminDashboard ? "錄音庫" : "「我的錄音」"}的錄音。</p></div>
@@ -1481,6 +1661,7 @@
           <button class="speaking-progress-tab cumulative${state.progressShowCumulative ? " active" : ""}" type="button" data-toggle-speaking-cumulative aria-pressed="${state.progressShowCumulative}">${state.progressShowCumulative ? "隱藏累積線" : "顯示累積線"}</button>
         </div>
       </div>
+      ${staleNotice}
       <div class="speaking-progress-chart-shell" data-speaking-progress-chart>${chart}</div>
       <div class="speaking-progress-legend">
         <span><i class="speaking-legend-dot daily"></i>每日錄音</span>
@@ -1499,6 +1680,47 @@
     dashboard.innerHTML = speakingProgressDashboardMarkup();
   }
 
+  function speakingDurationDashboardMarkup() {
+    const series = buildSpeakingDurationSeries(state.progressAttempts, state.durationProgressRange);
+    const adminDashboard = state.user?.role === "admin";
+    const chart = state.progressLoading && !state.progressAttempts.length
+      ? '<div class="speaking-progress-loading" role="status"><span class="spinner" aria-hidden="true"></span><span>正在同步錄音時間…</span></div>'
+      : state.progressError && !state.progressAttempts.length
+        ? `<div class="speaking-progress-loading"><strong>未能載入錄音時間</strong><span>${escapeHtml(state.progressError)}</span><button class="secondary-button" type="button" data-retry-speaking-progress>重新載入</button></div>`
+        : speakingDurationChartSvg(series);
+    const staleNotice = state.progressError && state.progressAttempts.length
+      ? `<div class="speaking-progress-stale" role="status"><span>暫時未能更新；現正顯示上次成功載入的錄音時間。</span><button class="secondary-button" type="button" data-retry-speaking-progress>重新載入</button></div>`
+      : "";
+    return `
+      <div class="speaking-progress-toolbar">
+        <div><span class="mini-kicker">${adminDashboard ? "ALL STUDENTS · RECORDING TIME" : "MY RECORDING TIME"}</span><h2>${adminDashboard ? "所有學生錄音時間" : "我的錄音時間"}</h2><p>按日期計算已成功儲存錄音的總長度。</p></div>
+        <div class="speaking-progress-controls" aria-label="錄音時間日期範圍">
+          ${[
+            ["week", "Week"], ["month", "Month"], ["half-year", "Half a Year"],
+            ["ytd", "Year to Date"], ["year", "1 Year"], ["all", "All Time"]
+          ].map(([value, label]) => `<button class="speaking-progress-tab${state.durationProgressRange === value ? " active" : ""}" type="button" data-speaking-duration-range="${value}" aria-pressed="${state.durationProgressRange === value}">${label}</button>`).join("")}
+          <button class="speaking-progress-tab cumulative${state.durationProgressShowCumulative ? " active" : ""}" type="button" data-toggle-speaking-duration-cumulative aria-pressed="${state.durationProgressShowCumulative}">${state.durationProgressShowCumulative ? "隱藏累積時間線" : "顯示累積時間線"}</button>
+        </div>
+      </div>
+      ${staleNotice}
+      <div class="speaking-progress-chart-shell" data-speaking-duration-chart>${chart}</div>
+      <div class="speaking-progress-legend">
+        <span><i class="speaking-legend-dot duration"></i>每日錄音時間</span>
+        ${state.durationProgressShowCumulative ? '<span><i class="speaking-legend-dot cumulative"></i>累積錄音時間（全部時間）</span>' : ""}
+      </div>
+      <div class="speaking-progress-stats">
+        <div><strong>${escapeHtml(formatSpeakingProgressDuration(series.visibleTotalMs))}</strong><span>所選期間錄音時間</span></div>
+        <div><strong>${escapeHtml(formatSpeakingProgressDuration(series.allTimeMs))}</strong><span>全部錄音時間</span></div>
+      </div>
+      ${speakingDurationDayPanel()}`;
+  }
+
+  function renderSpeakingDurationDashboard() {
+    const dashboard = document.querySelector("[data-speaking-duration-dashboard]");
+    if (!dashboard || state.route.view !== "exams") return;
+    dashboard.innerHTML = speakingDurationDashboardMarkup();
+  }
+
   async function loadSpeakingProgressDashboard() {
     if (!state.user || state.route.view !== "exams" || state.progressLoading) return;
     state.progressController?.abort();
@@ -1510,6 +1732,7 @@
     state.progressLoading = true;
     state.progressError = "";
     renderSpeakingProgressDashboard();
+    renderSpeakingDurationDashboard();
     try {
       const result = await listAttempts({ signal: controller.signal });
       if (
@@ -1528,6 +1751,7 @@
         state.progressLoading = false;
         state.progressController = null;
         renderSpeakingProgressDashboard();
+        renderSpeakingDurationDashboard();
       }
     }
   }
@@ -1573,10 +1797,12 @@
             </div>` : ""}
         </div>
         <section class="speaking-progress-dashboard" data-speaking-progress-dashboard aria-label="${state.user?.role === "admin" ? "所有學生錄音進展" : "我的錄音進展"}"></section>
+        <section class="speaking-progress-dashboard speaking-duration-dashboard" data-speaking-duration-dashboard aria-label="${state.user?.role === "admin" ? "所有學生錄音時間" : "我的錄音時間"}"></section>
       </section>
     `;
     renderSpeakingSearchResults("");
     renderSpeakingProgressDashboard();
+    renderSpeakingDurationDashboard();
     loadSpeakingProgressDashboard();
   }
 
@@ -6098,6 +6324,35 @@
         return;
       }
 
+      const speakingDurationRange = event.target.closest("[data-speaking-duration-range]");
+      if (speakingDurationRange) {
+        state.durationProgressRange = speakingDurationRange.dataset.speakingDurationRange || "month";
+        state.durationProgressSelectedDay = "";
+        saveSpeakingProgressPreferences();
+        renderSpeakingDurationDashboard();
+        return;
+      }
+
+      if (event.target.closest("[data-toggle-speaking-duration-cumulative]")) {
+        state.durationProgressShowCumulative = !state.durationProgressShowCumulative;
+        saveSpeakingProgressPreferences();
+        renderSpeakingDurationDashboard();
+        return;
+      }
+
+      const speakingDurationDay = event.target.closest("[data-speaking-duration-day]");
+      if (speakingDurationDay) {
+        state.durationProgressSelectedDay = speakingDurationDay.dataset.speakingDurationDay || "";
+        renderSpeakingDurationDashboard();
+        return;
+      }
+
+      if (event.target.closest("[data-close-speaking-duration-day]")) {
+        state.durationProgressSelectedDay = "";
+        renderSpeakingDurationDashboard();
+        return;
+      }
+
       if (event.target.closest("[data-retry-speaking-progress]")) {
         state.progressError = "";
         loadSpeakingProgressDashboard();
@@ -6490,6 +6745,12 @@
       if (speakingProgressPoint && (event.key === "Enter" || event.key === " ")) {
         event.preventDefault();
         speakingProgressPoint.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+        return;
+      }
+      const speakingDurationPoint = event.target.closest?.("[data-speaking-duration-day]");
+      if (speakingDurationPoint && (event.key === "Enter" || event.key === " ")) {
+        event.preventDefault();
+        speakingDurationPoint.dispatchEvent(new MouseEvent("click", { bubbles: true }));
         return;
       }
       const ratingButton = event.target.closest?.("[data-exam-rating]");

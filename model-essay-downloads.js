@@ -20,6 +20,7 @@
   const readingMeta = window.EDMUND_IELTS_READING_META || {};
   const dseWritingPartAMeta = window.EDMUND_DSE_WRITING_PART_A_META || {};
   const supabaseConfig = window.EDMUND_SUPABASE || {};
+  const essayPortals = window.EDMUND_ESSAY_PORTALS || null;
   const apiBase = String(window.EDMUND_DOWNLOAD_API_BASE || "").replace(/\/+$/, "");
   const supabaseClient = window.supabase?.createClient && supabaseConfig.url && supabaseConfig.anonKey
     ? window.supabase.createClient(supabaseConfig.url, supabaseConfig.anonKey)
@@ -262,7 +263,8 @@
     adminStudentFilter: "",
     adminStudents: [],
     adminTotals: new Map(),
-    adminLoading: false
+    adminLoading: false,
+    requestedEssayOpened: false
   };
 
   const views = [...document.querySelectorAll("[data-view]")];
@@ -373,6 +375,37 @@
     state.selected.clear();
     configureCatalogUi();
     showView("catalog");
+  }
+
+  function openRequestedEssay() {
+    if (state.requestedEssayOpened || !essayPortals || state.currentUser?.role !== "student") return false;
+    const essayKey = essayPortals.requestedKey();
+    if (!essayKey) return false;
+    if (state.currentUser?.access?.ielts !== true) {
+      state.requestedEssayOpened = true;
+      showToast("您的帳戶尚未開放 IELTS 範文下載權限。", "error");
+      return false;
+    }
+    const essay = task2Essays.find(item => essayPortals.fromDownloadItem(item) === essayKey);
+    if (!essay) {
+      state.requestedEssayOpened = true;
+      showToast("找不到這一篇 IELTS 範文。", "error");
+      return false;
+    }
+
+    activateCatalog("task2");
+    if (document.body.dataset.currentView !== "catalog") return false;
+    state.filter = essay.category;
+    state.query = "";
+    state.sort = "number-asc";
+    const rows = filteredEssays();
+    const index = rows.findIndex(item => item.id === essay.id);
+    state.page = index >= 0 ? Math.floor(index / PAGE_SIZE) + 1 : 1;
+    renderCatalog();
+    state.requestedEssayOpened = true;
+    const row = catalogList?.querySelector(`[data-essay-row="${CSS.escape(essay.id)}"]`);
+    openDetailModal(essay, row || null);
+    return true;
   }
 
   function normalizeAccess(access) {
@@ -749,6 +782,22 @@
     return sorted;
   }
 
+  function essayPortalLinksHtml(essay) {
+    if (activeCatalog.key !== "task2" || !essayPortals) return "";
+    const essayKey = essayPortals.fromDownloadItem(essay);
+    if (!essayKey) return "";
+    const flashcardsHref = essayPortals.hasFlashcards(essayKey)
+      ? essayPortals.href("flashcards", essayKey)
+      : "";
+    const writingHref = essayPortals.hasWritingPractice(essayKey)
+      ? essayPortals.href("writing", essayKey)
+      : "";
+    return `
+      ${flashcardsHref ? `<a class="essay-portal-link" href="${escapeHtml(flashcardsHref)}" data-essay-portal-link>Flash Cards</a>` : ""}
+      ${writingHref ? `<a class="essay-portal-link" href="${escapeHtml(writingHref)}" data-essay-portal-link>Writing Practice</a>` : ""}
+    `;
+  }
+
   function pageRows(rows) {
     const pageCount = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
     state.page = Math.min(Math.max(1, state.page), pageCount);
@@ -773,6 +822,7 @@
           </div>
           <button class="essay-title-button" type="button" data-open-detail-id="${escapeHtml(essay.id)}">${escapeHtml(itemDisplayTitle(essay))}</button>
           <div class="essay-detail">${activeCatalog.isReading ? `Practice ${essay.number} · ` : ""}PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}</div>
+          ${activeCatalog.key === "task2" ? `<div class="essay-portal-actions">${essayPortalLinksHtml(essay)}</div>` : ""}
         </div>
         <div class="essay-category">
           <span class="category-pill" data-category="${escapeHtml(essay.category)}">${escapeHtml(essay.categoryLabel)}</span>
@@ -948,6 +998,8 @@
     detailModal.querySelector("[data-detail-title]").textContent = itemDisplayTitle(essay);
     detailModal.querySelector("[data-detail-question]").textContent = detail.question || activeCatalog.detailFallback;
     detailModal.querySelector("[data-detail-meta]").textContent = `PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}`;
+    const detailPortalLinks = detailModal.querySelector("[data-detail-portal-links]");
+    if (detailPortalLinks) detailPortalLinks.innerHTML = essayPortalLinksHtml(essay);
     const thumbnail = detailModal.querySelector("[data-detail-thumbnail]");
     thumbnail.src = essay.thumbnail;
     thumbnail.alt = `${essay.filename} 第一頁縮圖`;
@@ -1186,6 +1238,7 @@
       } else {
         showView("dashboard");
         void openDownloadSession();
+        window.setTimeout(openRequestedEssay, 0);
       }
     } catch (error) {
       console.warn("Download library login failed:", error);
@@ -1287,6 +1340,7 @@
   });
 
   catalogList?.addEventListener("click", event => {
+    if (event.target.closest("[data-essay-portal-link]")) return;
     const download = event.target.closest("[data-download-id]");
     if (download) {
       event.preventDefault();
@@ -1405,6 +1459,7 @@
       if (!state.currentUser) return;
       showView("dashboard", { scroll: false });
       void openDownloadSession();
+      window.setTimeout(openRequestedEssay, 0);
     } else {
       showView("login", { scroll: false });
     }

@@ -106,7 +106,7 @@ assert.match(
 );
 
 const adminSwitch = sourceBetween("async function switchAdminToStudent(studentName)", "function returnToAdminAccount()");
-const switchSession = adminSwitch.indexOf("setSession(currentUser)");
+const switchSession = adminSwitch.indexOf("setSession(impersonatedUser)");
 const switchLoad = adminSwitch.indexOf("await loadStudentStateForAdmin(student.name)");
 const switchHydrate = adminSwitch.indexOf("hydrateFlashcardDisplayPreferences()");
 const switchShow = adminSwitch.indexOf('showAppPanel("dashboard", false)');

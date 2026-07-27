@@ -18,9 +18,13 @@ function sourceBetween(startMarker, endMarker) {
 const modesMarkup = sourceBetween('<section class="deck-card hidden" data-deck-start>', '<section class="deck-card hidden" data-deck-view>');
 const fortyCardPosition = modesMarkup.indexOf('data-card-limit="40"');
 const redOnlyPosition = modesMarkup.indexOf('data-start-mode="red-only"');
+const greenOnlyPosition = modesMarkup.indexOf('data-start-mode="green-only"');
 const firstRangePosition = modesMarkup.indexOf('data-start-mode="range"');
-assert.ok(fortyCardPosition >= 0 && redOnlyPosition > fortyCardPosition && redOnlyPosition < firstRangePosition);
-assert.match(modesMarkup, /data-start-mode="red-only">\s*只練習紅卡\s*<span>只練習這個卡組內目前標記為紅叉的卡片。<\/span>/s);
+assert.ok(fortyCardPosition >= 0 && redOnlyPosition > fortyCardPosition && greenOnlyPosition > redOnlyPosition && greenOnlyPosition < firstRangePosition);
+assert.match(modesMarkup, /class="mode-card status-mode-red"[^>]*data-start-mode="red-only">\s*只練習紅卡\s*<span>只練習這個卡組內目前標記為紅叉的卡片。<\/span>/s);
+assert.match(modesMarkup, /class="mode-card status-mode-green"[^>]*data-start-mode="green-only">\s*只練習綠卡\s*<span>只練習這個卡組內目前標記為綠勾的卡片；答錯後會轉為紅叉。<\/span>/s);
+assert.match(source, /\.mode-card\.status-mode-red[\s\S]*?#fff1f2[\s\S]*?#fecdd3/);
+assert.match(source, /\.mode-card\.status-mode-green[\s\S]*?#f0fdf4[\s\S]*?#bbf7d0/);
 
 const rangePattern = /data-start-mode="range" data-range-start="(\d+)"(?: data-range-end="(\d+)")? data-range-label="([^"]+)"/g;
 const actualRanges = [...modesMarkup.matchAll(rangePattern)].map(match => ({
@@ -49,6 +53,7 @@ assert.doesNotMatch(modesMarkup, /data-range-start="21"|21-60 張卡/);
 
 const modeLabel = sourceBetween("function modeLabel(", "function hideReviewPanel()");
 assert.match(modeLabel, /if \(mode === "red-only"\) return "只練習紅卡";/);
+assert.match(modeLabel, /if \(mode === "green-only"\) return "只練習綠卡";/);
 
 const filterHelperSource = sourceBetween("function cardIndexesWithStatus(", "function modeLabel(");
 const cardIndexesWithStatus = Function(`${filterHelperSource}; return cardIndexesWithStatus;`)();
@@ -60,7 +65,49 @@ const startDeckSession = sourceBetween("function startDeckSession(", "function s
 assert.match(startDeckSession, /if \(mode === "red-only"\) \{/);
 assert.match(startDeckSession, /cardIndexesWithStatus\(allIndexes, getDeckFamiliarity\(currentDeckId\)\.red\)/);
 assert.match(startDeckSession, /這個卡組目前未有紅叉卡片。/);
+assert.match(startDeckSession, /if \(mode === "green-only"\) \{/);
+assert.match(startDeckSession, /cardIndexesWithStatus\(allIndexes, getDeckFamiliarity\(currentDeckId\)\.green\)/);
+assert.match(startDeckSession, /這個卡組目前未有綠勾卡片。/);
 assert.match(startDeckSession, /if \(!order\.length\) \{[\s\S]*?return;[\s\S]*?\}/);
+
+const markCard = sourceBetween("function markCard(result)", "function handleCardPrimaryAction");
+assert.match(markCard, /setCardFamiliarity\(sourceIndex, result, sourceDeckId\)/, "green-only answers must use the normal durable familiarity path");
+const familiaritySetter = sourceBetween("function setCardFamiliarity(", "function cardNoteStorageKey(");
+assert.match(familiaritySetter, /familiarity\.green = familiarity\.green\.filter\(index => index !== key\)/);
+assert.match(familiaritySetter, /familiarity\.red = familiarity\.red\.filter\(index => index !== key\)/);
+assert.match(familiaritySetter, /familiarity\[status\]\.push\(key\)/);
+assert.match(familiaritySetter, /saveDeckFamiliarity\(deckId, familiarity\)/, "a wrong green-only answer must replace green with red and persist it");
+let savedFamiliarity = null;
+const setCardFamiliarity = Function("getDeckFamiliarity", "saveDeckFamiliarity", `
+  const currentUser = { name: "Student" };
+  let currentDeckId = "deck-a";
+  ${familiaritySetter}
+  return setCardFamiliarity;
+`)(
+  () => ({ green: ["1", "2"], red: ["3"] }),
+  (_deckId, value) => { savedFamiliarity = value; }
+);
+setCardFamiliarity(1, "red", "deck-a");
+assert.deepEqual(savedFamiliarity, { green: ["2"], red: ["3", "1"] }, "a failed answer in green-only mode must immediately downgrade the card to red");
+const familiarityPersistence = sourceBetween("function saveFamiliarityStore(", "function getCardNotesStore(");
+assert.match(familiarityPersistence, /writeJson\(FAMILIARITY_KEY, store\)/, "familiarity changes must enter the synced state writer");
+const familiarityDeckWriter = sourceBetween("function saveDeckFamiliarity(", "function setCardFamiliarity(");
+assert.match(familiarityDeckWriter, /cachePendingFamiliarityDeck\(deckKey, normalized\)/, "familiarity changes need a durable per-account outbox before the debounced network save");
+
+const stateCacheIsolation = sourceBetween("function clearFlashcardSyncedStateCache(", "function familiarityPendingLocalKey(");
+assert.match(stateCacheIsolation, /supabaseSaveTimers\.clear\(\)/);
+assert.match(stateCacheIsolation, /delete remoteStore\[key\]/);
+assert.match(stateCacheIsolation, /localStorage\.removeItem\(key\)/);
+const sessionSetter = sourceBetween("function setSession(user)", "function clearSession()");
+assert.match(sessionSetter, /clearFlashcardSyncedStateCache\(\)/, "every identity transition must discard the previous account cache");
+const sessionClearer = sourceBetween("function clearSession()", "function restoreSession()");
+assert.match(sessionClearer, /clearFlashcardSyncedStateCache\(\)/, "logout must discard synced account state");
+
+const pendingOutbox = sourceBetween("function familiarityPendingLocalKey(", "function readJson(");
+assert.match(pendingOutbox, /FAMILIARITY_PENDING_LOCAL_PREFIX/);
+assert.match(pendingOutbox, /function cachePendingFamiliarityDeck/);
+assert.match(pendingOutbox, /function clearSyncedPendingFamiliarity/);
+assert.match(pendingOutbox, /function restorePendingFamiliarity/);
 
 const saveContextSource = sourceBetween("function captureSupabaseStateSaveContext(", "function queueSupabaseStateSave(");
 assert.match(saveContextSource, /type: "student"[\s\S]*?token: studentSessionToken/);
@@ -82,7 +129,8 @@ const saveStateSource = sourceBetween("async function saveSupabaseState(", "func
 assert.match(saveStateSource, /const context = options\.context \|\| captureSupabaseStateSaveContext\(\)/);
 assert.match(saveStateSource, /p_token: context\.token/);
 assert.match(saveStateSource, /p_student_name: context\.studentName/);
+assert.match(saveStateSource, /clearSyncedPendingFamiliarity\(value, context\)/, "successful familiarity saves must acknowledge only the matching account outbox");
 assert.doesNotMatch(saveStateSource, /p_token: studentSessionToken/);
 assert.doesNotMatch(saveStateSource, /p_student_name: currentUser\.name/);
 
-console.log("Flashcard deck range and red-card mode checks passed.");
+console.log("Flashcard deck range, red-card and green-card mode checks passed.");

@@ -776,6 +776,17 @@
       color: #fff;
     }
 
+    .writing-cumulative-toggle {
+      border-color: rgba(126,34,206,0.28);
+      color: #7e22ce;
+    }
+
+    .writing-cumulative-toggle:hover,
+    .writing-cumulative-toggle.active {
+      background: #7e22ce;
+      color: #fff;
+    }
+
     .writing-progress-chart-shell {
       min-height: 310px;
       margin-top: 16px;
@@ -801,22 +812,27 @@
     .writing-chart-hover-group:focus .writing-chart-tooltip { opacity: 1; }
 
     .writing-progress-legend {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
       margin-top: 11px;
       color: #4b5f77;
       font-size: 13px;
       font-weight: 900;
     }
 
-    .writing-progress-legend::before {
-      content: "";
+    .writing-legend-dot {
       display: inline-block;
       width: 11px;
       height: 11px;
       margin-right: 7px;
       border-radius: 50%;
-      background: #2563eb;
       vertical-align: -1px;
     }
+
+    .writing-legend-questions { background: #2563eb; }
+    .writing-legend-cumulative { background: #7e22ce; }
+    .writing-legend-time { background: #f97316; }
 
     .writing-progress-stats {
       display: grid;
@@ -841,6 +857,7 @@
     }
 
     .writing-progress-day-panel,
+    .writing-time-day-panel,
     .writing-attempt-log {
       margin-top: 18px;
       padding: 17px;
@@ -850,10 +867,72 @@
     }
 
     .writing-attempt-log-list,
-    .writing-progress-day-list {
+    .writing-progress-day-list,
+    .writing-time-day-list {
       display: grid;
       gap: 9px;
       margin-top: 13px;
+    }
+
+    .writing-time-section {
+      border-color: rgba(249,115,22,0.2);
+      background: linear-gradient(145deg, rgba(255,251,235,0.92), rgba(255,247,237,0.82));
+    }
+
+    .writing-time-section .writing-progress-toolbar h3,
+    .writing-time-section .writing-progress-day-head h3 {
+      color: #9a3412;
+    }
+
+    .writing-time-section .writing-range-tab {
+      border-color: rgba(249,115,22,0.28);
+      color: #c2410c;
+    }
+
+    .writing-time-section .writing-range-tab:hover,
+    .writing-time-section .writing-range-tab.active {
+      background: #f97316;
+      color: #fff;
+    }
+
+    .writing-time-section .writing-progress-chart-shell,
+    .writing-time-section .writing-time-day-panel {
+      border-color: rgba(249,115,22,0.2);
+    }
+
+    .writing-time-section .writing-time-day-panel {
+      background: rgba(255,247,237,0.78);
+    }
+
+    .writing-time-stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .writing-time-stat {
+      display: grid;
+      align-content: center;
+      gap: 4px;
+      min-height: 86px;
+      padding: 15px;
+      border: 1px solid rgba(249,115,22,0.18);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.86);
+      color: #7c2d12;
+      font-weight: 800;
+    }
+
+    .writing-time-stat strong {
+      color: #c2410c;
+      font-size: clamp(24px, 2.6vw, 34px);
+      line-height: 1;
+    }
+
+    .writing-time-stat span {
+      color: #7c4a36;
+      font-size: 13px;
     }
 
     .writing-attempt-log-more {
@@ -1183,6 +1262,44 @@
 
     .pathway-side-actions .pathway-reset:only-child {
       grid-row: 1 / -1;
+    }
+
+    .essay-portal-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .pathway-row-wrap > .essay-portal-actions {
+      grid-column: 1 / -1;
+      margin-top: -2px;
+    }
+
+    .essay-portal-link {
+      display: inline-flex;
+      min-height: 38px;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 14px;
+      border: 1px solid #e8c756;
+      border-radius: 12px;
+      background: linear-gradient(180deg, #fff8c9, #ffe58b);
+      box-shadow: 0 5px 0 #d5ad31, 0 10px 18px rgba(136,99,12,.13);
+      color: #684608;
+      font-size: 13px;
+      font-weight: 950;
+      line-height: 1.1;
+      text-decoration: none;
+      transition: transform .16s ease, box-shadow .16s ease, background .16s ease;
+    }
+
+    .essay-portal-link:hover,
+    .essay-portal-link:focus-visible {
+      transform: translateY(-1px);
+      background: #ffdf65;
+      box-shadow: 0 6px 0 #c99e20, 0 13px 22px rgba(136,99,12,.17);
     }
 
     .writing-bookmark-button {
@@ -2025,6 +2142,8 @@
       gap: 10px;
       flex-wrap: wrap;
     }
+
+    .section-head .essay-portal-actions { margin-left: auto; }
 
     .essay-audio-control-stack {
       position: relative;
@@ -2949,6 +3068,7 @@
       .mode-summary,
       .result-stats,
       .writing-progress-stats,
+      .writing-time-stats,
       .writing-attempt-row {
         grid-template-columns: 1fr;
       }
@@ -2967,6 +3087,20 @@
         grid-template-columns: 58px minmax(0, 1fr);
         grid-template-rows: 1fr;
       }
+
+      .pathway-row-wrap > .essay-portal-actions {
+        grid-column: auto;
+        margin-top: 0;
+      }
+
+      .essay-portal-actions,
+      .section-head .essay-portal-actions {
+        width: 100%;
+        margin-left: 0;
+        justify-content: stretch;
+      }
+
+      .essay-portal-link { flex: 1 1 130px; }
 
       .writing-search-result-wrap,
       .writing-bookmark-row {
@@ -3173,12 +3307,16 @@
                 <button class="writing-range-tab" type="button" data-writing-progress-range="ytd">Year to Date</button>
                 <button class="writing-range-tab" type="button" data-writing-progress-range="year">1 Year</button>
                 <button class="writing-range-tab" type="button" data-writing-progress-range="all">All Time</button>
+                <button class="writing-range-tab writing-cumulative-toggle" type="button" data-toggle-writing-cumulative aria-pressed="false">顯示累積總數</button>
               </div>
             </div>
             <div class="writing-progress-chart-shell">
               <svg data-writing-progress-chart viewBox="0 0 900 320" role="group" aria-label="Writing questions completed by date"></svg>
             </div>
-            <div class="writing-progress-legend">完成題目數量</div>
+            <div class="writing-progress-legend" aria-label="Writing progress chart legend">
+              <span><i class="writing-legend-dot writing-legend-questions"></i>完成題目數量</span>
+              <span data-writing-cumulative-legend hidden><i class="writing-legend-dot writing-legend-cumulative"></i>累積完成題目</span>
+            </div>
             <div class="writing-progress-stats">
               <div class="writing-progress-stat"><strong data-writing-progress-questions>0</strong><span>所選時段完成題目</span></div>
               <div class="writing-progress-stat"><strong data-writing-progress-attempts>0</strong><span>所選時段練習次數</span></div>
@@ -3199,6 +3337,44 @@
                 <button class="secondary-button" type="button" data-toggle-writing-attempt-log aria-expanded="false">展開紀錄</button>
               </div>
               <div class="writing-attempt-log-list hidden" data-writing-attempt-log-list></div>
+            </div>
+          </section>
+
+          <section class="writing-progress-section writing-time-section" data-writing-time-dashboard>
+            <div class="writing-progress-toolbar">
+              <div>
+                <h3>寫作練習時間</h3>
+                <p class="note-text">按日期查看每次寫作填充練習所用的時間。</p>
+              </div>
+              <div class="writing-progress-ranges" data-writing-time-ranges>
+                <button class="writing-range-tab" type="button" data-writing-time-range="week">Week</button>
+                <button class="writing-range-tab" type="button" data-writing-time-range="month">Month</button>
+                <button class="writing-range-tab" type="button" data-writing-time-range="half-year">Half a Year</button>
+                <button class="writing-range-tab" type="button" data-writing-time-range="ytd">Year to Date</button>
+                <button class="writing-range-tab" type="button" data-writing-time-range="year">1 Year</button>
+                <button class="writing-range-tab" type="button" data-writing-time-range="all">All Time</button>
+              </div>
+            </div>
+            <div class="writing-progress-chart-shell">
+              <svg data-writing-time-chart viewBox="0 0 900 320" role="group" aria-label="Writing practice duration by date"></svg>
+            </div>
+            <div class="writing-progress-legend" aria-label="Writing time chart legend">
+              <span><i class="writing-legend-dot writing-legend-time"></i>每日練習時間</span>
+            </div>
+            <div class="writing-time-stats">
+              <div class="writing-time-stat"><strong data-writing-time-total>00:00</strong><span>累積總練習時間</span></div>
+              <div class="writing-time-stat"><strong data-writing-time-selected>00:00</strong><span>所選時段練習時間</span></div>
+              <div class="writing-time-stat"><strong data-writing-time-average>00:00</strong><span>平均每次練習時間</span></div>
+              <div class="writing-time-stat"><strong data-writing-time-median>00:00</strong><span>每次練習時間中位數</span></div>
+              <div class="writing-time-stat"><strong data-writing-time-longest>00:00</strong><span>單次最長練習時間</span></div>
+              <div class="writing-time-stat"><strong data-writing-time-per-question>00:00</strong><span>平均每題時間</span></div>
+            </div>
+            <div class="writing-time-day-panel hidden" data-writing-time-day-panel>
+              <div class="writing-progress-day-head">
+                <h3 data-writing-time-day-title>當日練習時間</h3>
+                <button class="secondary-button" type="button" data-close-writing-time-day>關閉</button>
+              </div>
+              <div class="writing-time-day-list" data-writing-time-day-list></div>
             </div>
           </section>
         </section>
@@ -3228,6 +3404,7 @@
   <script src="writing-practice-model-essays-direct-20-38-data.js?v=20260716-1"></script>
   <script src="writing-practice-model-essays-direct-39-48-data.js?v=20260715-1"></script>
   <script src="writing-practice-hkpf-compositions-data.js?v=20260715-1"></script>
+  <script src="essay-portal-links.js?v=20260727-1"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
@@ -3239,6 +3416,7 @@
     const PRACTICE_RESULTS_KEY = "edmundWritingPracticeResults";
     const WRITING_BOOKMARKS_STATE_KEY = "writing-bookmarks-v1";
     const WRITING_PARAGRAPH_MASTERY_STATE_KEY = "writing-paragraph-mastery-v1";
+    const WRITING_PROGRESS_PREFERENCES_STATE_KEY = "writing-progress-preferences-v1";
     const MAX_WRITING_BOOKMARKS = 200;
     const MAX_WRITING_ATTEMPT_CACHE = 200;
     const MAX_WRITING_ATTEMPT_OUTBOX = 1000;
@@ -3247,6 +3425,7 @@
     const WRITING_ATTEMPT_LOG_PAGE_SIZE = 25;
     const SUPABASE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x";
+    const essayPortals = window.EDMUND_ESSAY_PORTALS || null;
 
     const writingSections = [
       { key: "dse-writing", label: "DSE", subline: "英文寫作" },
@@ -5534,8 +5713,12 @@ Device: concession 讓步
     let currentExerciseId = "";
     let currentEssayTab = "essay";
     let currentWritingUtilityView = "";
+    let requestedEssayOpened = false;
     let selectedWritingProgressRange = "month";
     let selectedWritingProgressDayKey = "";
+    let showWritingCumulativeProgress = false;
+    let selectedWritingTimeRange = "month";
+    let selectedWritingTimeDayKey = "";
     let writingAttemptLogOpen = false;
     let writingAttemptLogVisibleCount = WRITING_ATTEMPT_LOG_PAGE_SIZE;
     let practiceState = null;
@@ -5639,7 +5822,7 @@ Device: concession 讓步
     function writingLocalStateRoot() {
       const stored = readJson(WRITING_STATE_KEY, {});
       return {
-        version: 3,
+        version: 4,
         accounts: stored?.accounts && typeof stored.accounts === "object" ? stored.accounts : {}
       };
     }
@@ -5684,6 +5867,11 @@ Device: concession 讓步
       return Boolean(request && Number(result?.createdAt || 0) <= request.resetAt);
     }
 
+    function normalizeWritingProgressPreferences(value) {
+      const raw = value && typeof value === "object" && !Array.isArray(value) ? value : {};
+      return { showCumulative: raw.showCumulative === true };
+    }
+
     function getWritingLocalAccountState(accountKey = writingStateAccountKey()) {
       const account = writingLocalStateRoot().accounts?.[accountKey] || {};
       const legacyCache = Array.isArray(account.practiceResults) ? account.practiceResults : [];
@@ -5699,6 +5887,12 @@ Device: concession 讓步
         paragraphMastery: account.paragraphMastery && typeof account.paragraphMastery === "object"
           ? account.paragraphMastery
           : {},
+        progressPreferences: normalizeWritingProgressPreferences(account.progressPreferences),
+        hasProgressPreferences: Boolean(
+          account.progressPreferences
+          && typeof account.progressPreferences === "object"
+          && !Array.isArray(account.progressPreferences)
+        ),
         attemptCache,
         attemptOutbox,
         attemptDeleteRequests: normalizeWritingAttemptDeleteRequests(
@@ -5708,7 +5902,8 @@ Device: concession 讓步
         ),
         attemptStoreMigrated: Boolean(account.attemptStoreMigrated),
         pendingBookmarks: Boolean(account.pendingBookmarks),
-        pendingMastery: Boolean(account.pendingMastery)
+        pendingMastery: Boolean(account.pendingMastery),
+        pendingProgressPreferences: Boolean(account.pendingProgressPreferences)
       };
     }
 
@@ -5716,13 +5911,15 @@ Device: concession 讓步
       return {
         bookmarks: accountState.bookmarks || [],
         paragraphMastery: accountState.paragraphMastery || {},
+        progressPreferences: normalizeWritingProgressPreferences(accountState.progressPreferences),
         attemptCache: boundedWritingAttemptCache(accountState.attemptCache || []),
         attemptOutbox: normalizeWritingPracticeResults(accountState.attemptOutbox || [])
           .slice(-MAX_WRITING_ATTEMPT_OUTBOX),
         attemptDeleteRequests: normalizeWritingAttemptDeleteRequests(accountState.attemptDeleteRequests || []),
         attemptStoreMigrated: Boolean(accountState.attemptStoreMigrated),
         pendingBookmarks: Boolean(accountState.pendingBookmarks),
-        pendingMastery: Boolean(accountState.pendingMastery)
+        pendingMastery: Boolean(accountState.pendingMastery),
+        pendingProgressPreferences: Boolean(accountState.pendingProgressPreferences)
       };
     }
 
@@ -5811,6 +6008,10 @@ Device: concession 讓步
       const total = Math.min(5000, Math.max(0, Math.trunc(Number(result?.total || 0))));
       const correct = Math.min(total, Math.max(0, Math.trunc(Number(result?.correct || 0))));
       const mistakes = total - correct;
+      const rawDurationMs = Number(result?.durationMs || 0);
+      const durationMs = Number.isFinite(rawDurationMs)
+        ? Math.min(24 * 60 * 60 * 1000, Math.max(0, Math.round(rawDurationMs)))
+        : 0;
       return {
         id: cleanText(writingAttemptStableId(result), 240, `writing-${createdAt}`),
         exerciseId: cleanText(result?.exerciseId, 180, "writing"),
@@ -5833,6 +6034,7 @@ Device: concession 讓步
         mistakeRate: total ? Math.round((mistakes / total) * 100) : 0,
         completed: correct === total,
         round: Math.min(1000, Math.max(1, Math.trunc(Number(result?.round || 1)))),
+        durationMs,
         createdAt
       };
     }
@@ -5869,9 +6071,14 @@ Device: concession 讓步
 
     function mergeWritingLocalAccountStates(studentName, ...states) {
       const safeStates = states.filter(Boolean);
+      const preferredProgressState = safeStates.find(state => state.pendingProgressPreferences)
+        || safeStates.find(state => state.hasProgressPreferences)
+        || {};
       return {
         bookmarks: normalizeWritingBookmarks(safeStates.flatMap(state => state.bookmarks || [])),
         paragraphMastery: mergeWritingParagraphMastery(...safeStates.map(state => state.paragraphMastery || {})),
+        progressPreferences: normalizeWritingProgressPreferences(preferredProgressState.progressPreferences),
+        hasProgressPreferences: safeStates.some(state => state.hasProgressPreferences),
         attemptCache: mergeWritingPracticeResults(studentName, ...safeStates.map(state => state.attemptCache || [])),
         attemptOutbox: mergeWritingPracticeResults(studentName, ...safeStates.map(state => state.attemptOutbox || [])),
         attemptDeleteRequests: normalizeWritingAttemptDeleteRequests(
@@ -5879,7 +6086,8 @@ Device: concession 讓步
         ),
         attemptStoreMigrated: safeStates.length > 0 && safeStates.every(state => state.attemptStoreMigrated),
         pendingBookmarks: safeStates.some(state => state.pendingBookmarks),
-        pendingMastery: safeStates.some(state => state.pendingMastery)
+        pendingMastery: safeStates.some(state => state.pendingMastery),
+        pendingProgressPreferences: safeStates.some(state => state.pendingProgressPreferences)
       };
     }
 
@@ -6045,10 +6253,13 @@ Device: concession 讓步
     function writingStatePayload(key) {
       if (key === WRITING_BOOKMARKS_STATE_KEY) return { exerciseIds: [...writingBookmarks] };
       if (key === WRITING_PARAGRAPH_MASTERY_STATE_KEY) return { exercises: { ...writingParagraphMastery } };
+      if (key === WRITING_PROGRESS_PREFERENCES_STATE_KEY) {
+        return { showCumulative: showWritingCumulativeProgress };
+      }
       return {};
     }
 
-    function saveWritingRuntimeLocally({ pendingBookmarks, pendingMastery } = {}) {
+    function saveWritingRuntimeLocally({ pendingBookmarks, pendingMastery, pendingProgressPreferences } = {}) {
       const accountKey = writingStateAccountKey();
       if (!accountKey) return false;
       const previous = getWritingLocalAccountState(accountKey);
@@ -6056,8 +6267,10 @@ Device: concession 讓步
         ...previous,
         bookmarks: [...writingBookmarks],
         paragraphMastery: { ...writingParagraphMastery },
+        progressPreferences: { showCumulative: showWritingCumulativeProgress },
         pendingBookmarks: pendingBookmarks ?? previous.pendingBookmarks,
-        pendingMastery: pendingMastery ?? previous.pendingMastery
+        pendingMastery: pendingMastery ?? previous.pendingMastery,
+        pendingProgressPreferences: pendingProgressPreferences ?? previous.pendingProgressPreferences
       });
     }
 
@@ -6080,7 +6293,11 @@ Device: concession 讓步
     function queueWritingStateSave(key) {
       const context = writingStateContext();
       const payload = writingStatePayload(key);
-      const pendingName = key === WRITING_BOOKMARKS_STATE_KEY ? "pendingBookmarks" : "pendingMastery";
+      const pendingName = key === WRITING_BOOKMARKS_STATE_KEY
+        ? "pendingBookmarks"
+        : key === WRITING_PARAGRAPH_MASTERY_STATE_KEY
+          ? "pendingMastery"
+          : "pendingProgressPreferences";
       if (!context || !supabaseClient) {
         updateSupabaseStatus("Supabase: local backup", "warning");
         return Promise.resolve(false);
@@ -6211,6 +6428,9 @@ Device: concession 讓步
       writingAttemptHistoryComplete = false;
       selectedWritingProgressRange = "month";
       selectedWritingProgressDayKey = "";
+      showWritingCumulativeProgress = false;
+      selectedWritingTimeRange = "month";
+      selectedWritingTimeDayKey = "";
       writingAttemptLogOpen = false;
       writingAttemptLogVisibleCount = WRITING_ATTEMPT_LOG_PAGE_SIZE;
       writingStudentStateLoaded = false;
@@ -6232,6 +6452,9 @@ Device: concession 讓步
         );
       writingBookmarks = normalizeWritingBookmarks(localState.bookmarks);
       writingParagraphMastery = normalizeWritingParagraphMastery(localState.paragraphMastery);
+      showWritingCumulativeProgress = normalizeWritingProgressPreferences(
+        localState.progressPreferences
+      ).showCumulative;
       const studentName = currentUser?.name || "Guest";
       const canonicalName = canonicalWritingStudentName(studentName);
       const legacyResults = readJson(PRACTICE_RESULTS_KEY, [])
@@ -6259,14 +6482,17 @@ Device: concession 讓步
       }
       let retryBookmarks = localState.pendingBookmarks;
       let retryMastery = localState.pendingMastery;
+      let retryProgressPreferences = localState.pendingProgressPreferences;
       const context = writingStateContext();
       if (!context || !supabaseClient) {
         saveWritingLocalAccountState(accountKey, {
           ...getWritingLocalAccountState(accountKey),
           bookmarks: writingBookmarks,
           paragraphMastery: writingParagraphMastery,
+          progressPreferences: { showCumulative: showWritingCumulativeProgress },
           pendingBookmarks: retryBookmarks,
           pendingMastery: retryMastery,
+          pendingProgressPreferences: retryProgressPreferences,
           attemptCache: writingPracticeResults,
           attemptOutbox: writingAttemptOutbox,
           attemptDeleteRequests: writingAttemptDeleteRequests,
@@ -6293,6 +6519,17 @@ Device: concession 讓步
           || !remote.has(WRITING_PARAGRAPH_MASTERY_STATE_KEY) && Object.keys(mergedMastery).length > 0
           || JSON.stringify(mergedMastery) !== JSON.stringify(remoteMastery);
         writingParagraphMastery = mergedMastery;
+
+        if (!localState.pendingProgressPreferences && remote.has(WRITING_PROGRESS_PREFERENCES_STATE_KEY)) {
+          showWritingCumulativeProgress = normalizeWritingProgressPreferences(
+            remote.get(WRITING_PROGRESS_PREFERENCES_STATE_KEY)
+          ).showCumulative;
+        } else if (
+          !remote.has(WRITING_PROGRESS_PREFERENCES_STATE_KEY)
+          && showWritingCumulativeProgress
+        ) {
+          retryProgressPreferences = true;
+        }
       } catch (error) {
         console.warn("Could not load writing student state:", error);
         updateSupabaseStatus("Supabase: using device backup", "warning");
@@ -6319,8 +6556,10 @@ Device: concession 讓步
         ...getWritingLocalAccountState(accountKey),
         bookmarks: writingBookmarks,
         paragraphMastery: writingParagraphMastery,
+        progressPreferences: { showCumulative: showWritingCumulativeProgress },
         pendingBookmarks: retryBookmarks,
         pendingMastery: retryMastery,
+        pendingProgressPreferences: retryProgressPreferences,
         attemptCache: writingPracticeResults,
         attemptOutbox: writingAttemptOutbox,
         attemptDeleteRequests: writingAttemptDeleteRequests,
@@ -6330,6 +6569,7 @@ Device: concession 讓步
       syncWritingBookmarkButtons();
       if (retryBookmarks) queueWritingStateSave(WRITING_BOOKMARKS_STATE_KEY);
       if (retryMastery) queueWritingStateSave(WRITING_PARAGRAPH_MASTERY_STATE_KEY);
+      if (retryProgressPreferences) queueWritingStateSave(WRITING_PROGRESS_PREFERENCES_STATE_KEY);
     }
 
     function isWritingBookmarked(exerciseId) {
@@ -6391,6 +6631,13 @@ Device: concession 讓步
       writingParagraphMastery = { ...writingParagraphMastery, [id]: next };
       saveWritingRuntimeLocally({ pendingMastery: true });
       queueWritingStateSave(WRITING_PARAGRAPH_MASTERY_STATE_KEY);
+    }
+
+    function setWritingCumulativeProgressVisible(nextVisible) {
+      showWritingCumulativeProgress = Boolean(nextVisible);
+      saveWritingRuntimeLocally({ pendingProgressPreferences: true });
+      renderWritingProgressDashboard();
+      queueWritingStateSave(WRITING_PROGRESS_PREFERENCES_STATE_KEY);
     }
 
     function isBlankPart(part) {
@@ -7090,6 +7337,21 @@ Device: concession 讓步
       `;
     }
 
+    function writingEssayPortalLinksHtml(exerciseId) {
+      if (!essayPortals) return "";
+      const essayKey = essayPortals.fromWritingExerciseId(exerciseId);
+      if (!essayKey) return "";
+      const flashcardsHref = essayPortals.hasFlashcards(essayKey)
+        ? essayPortals.href("flashcards", essayKey)
+        : "";
+      return `
+        <div class="essay-portal-actions" aria-label="前往相同範文的其他練習系統">
+          ${flashcardsHref ? `<a class="essay-portal-link" href="${escapeHtml(flashcardsHref)}" data-essay-portal-link>Flash Cards</a>` : ""}
+          <a class="essay-portal-link" href="${escapeHtml(essayPortals.href("downloads", essayKey))}" data-essay-portal-link>Download Site</a>
+        </div>
+      `;
+    }
+
     function pathwayRowHtml({ label, subline = "", exerciseIds = [], action = "", locked = false, bookmarkExerciseId = "" }) {
       const stats = pathwayStats(exerciseIds);
       const disabled = locked || !exerciseIds.length && action.includes("deck");
@@ -7108,6 +7370,7 @@ Device: concession 讓步
             ` : ""}
             <button class="pathway-reset" type="button" data-reset-writing-path="${escapeHtml(exerciseIds.join(","))}" ${exerciseIds.length ? "" : "disabled"}>重設紀錄</button>
           </div>
+          ${writingEssayPortalLinksHtml(bookmarkExerciseId || (exerciseIds.length === 1 ? exerciseIds[0] : ""))}
         </div>
       `;
     }
@@ -7401,12 +7664,20 @@ Device: concession 讓步
         difficultyKey: defaultDifficulty?.key || "",
         mode: "",
         round: 1,
+        roundStartedAt: 0,
         sentenceKeys: null,
         targetBlankIds: null,
         answers: {},
         submitted: false,
         lastResult: null
       };
+    }
+
+    function writingPracticeElapsedDuration(startedAt, finishedAt = Date.now()) {
+      const start = Number(startedAt || 0);
+      const end = Number(finishedAt || 0);
+      if (!Number.isFinite(start) || !Number.isFinite(end) || start <= 0 || end <= start) return 0;
+      return Math.min(24 * 60 * 60 * 1000, Math.max(0, Math.round(end - start)));
     }
 
     function currentInputAnswers() {
@@ -7728,6 +7999,7 @@ Device: concession 讓步
             ${subtitle ? `<p>${escapeHtml(subtitle)}</p>` : ""}
           </div>
           <div class="practice-actions">
+            ${writingEssayPortalLinksHtml(exercise.id)}
             ${practiceState ? `<button class="secondary-button" type="button" data-back-essay>返回文章</button>` : ""}
             ${backButton}
           </div>
@@ -10073,6 +10345,7 @@ Device: concession 讓步
         mode,
         difficultyKey: activeDifficultyKey,
         round: 1,
+        roundStartedAt: Date.now(),
         selectedParagraphs,
         sentenceKeys: null,
         targetBlankIds: null,
@@ -10139,9 +10412,11 @@ Device: concession 讓步
           && !mistakes.some(mistake => mistake.paragraphIndex === paragraphIndex);
       });
 
+      const completedAt = Date.now();
+
       const result = {
-        schemaVersion: 2,
-        id: `${exercise.id}-${Date.now()}-${practiceState.round}`,
+        schemaVersion: 3,
+        id: `${exercise.id}-${completedAt}-${practiceState.round}`,
         exerciseId: exercise.id,
         exerciseTitle: exercise.title,
         studentName: currentUser?.name || "Guest",
@@ -10159,7 +10434,8 @@ Device: concession 讓步
         mistakes,
         mistakeRate: targets.length ? Math.round((mistakes.length / targets.length) * 100) : 0,
         completed: mistakes.length === 0,
-        createdAt: Date.now()
+        durationMs: writingPracticeElapsedDuration(practiceState.roundStartedAt, completedAt),
+        createdAt: completedAt
       };
 
       const resultSaved = savePracticeResult({
@@ -10195,6 +10471,7 @@ Device: concession 讓步
         ...practiceState,
         screen: "practice",
         round: practiceState.round + 1,
+        roundStartedAt: Date.now(),
         mode: "sentence",
         sentenceKeys,
         targetBlankIds,
@@ -10522,6 +10799,27 @@ Device: concession 讓步
       showAppPanel("exercise");
     }
 
+    function openRequestedWritingEssay() {
+      if (requestedEssayOpened || !essayPortals || currentUser?.role !== "student") return false;
+      const essayKey = essayPortals.requestedKey();
+      if (!essayKey) return false;
+      const exerciseId = essayPortals.writingExerciseId(essayKey);
+      if (!essayPortals.hasWritingPractice(essayKey) || !exerciseById(exerciseId)) {
+        requestedEssayOpened = true;
+        window.setTimeout(() => window.alert("這一篇範文目前未有 Writing Practice 練習。"), 0);
+        return false;
+      }
+      const sectionKey = sectionKeyForWritingExercise(exerciseId);
+      if (!sectionKey || !canAccess(sectionKey)) {
+        requestedEssayOpened = true;
+        window.setTimeout(() => window.alert("您的帳戶尚未開放這個 IELTS Writing Practice 範圍。"), 0);
+        return false;
+      }
+      requestedEssayOpened = true;
+      openWritingExerciseById(exerciseId);
+      return true;
+    }
+
     function openWritingExerciseFromSearch(sectionKey, exerciseId) {
       if (sectionKey !== sectionKeyForWritingExercise(exerciseId)) return;
       openWritingExerciseById(exerciseId);
@@ -10719,41 +11017,58 @@ Device: concession 讓步
       nowValue = Date.now()
     ) {
       const rows = writingPracticeResultsForStudent(studentName);
-      const start = writingProgressRangeStart(rangeKey, rows, nowValue);
       const now = new Date(nowValue);
       const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const eligibleRows = rows.filter(result => {
+        const date = new Date(Number(result.createdAt || 0));
+        const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+        return day <= end;
+      });
+      const start = writingProgressRangeStart(rangeKey, eligibleRows, nowValue);
       const buckets = new Map();
+      let cumulativeBeforeStart = 0;
 
-      rows.forEach(result => {
+      eligibleRows.forEach(result => {
         const resultDate = new Date(Number(result.createdAt || 0));
         const resultDay = new Date(resultDate.getFullYear(), resultDate.getMonth(), resultDate.getDate());
-        if (resultDay < start || resultDay > end) return;
+        const questions = Math.max(0, Number(result.total || 0));
+        if (resultDay < start) {
+          cumulativeBeforeStart += questions;
+          return;
+        }
+        if (resultDay > end) return;
         const key = writingProgressDayKey(resultDay);
         const current = buckets.get(key) || { questions: 0, attempts: 0 };
-        current.questions += Math.max(0, Number(result.total || 0));
+        current.questions += questions;
         current.attempts += 1;
         buckets.set(key, current);
       });
 
       const points = [];
+      let cumulative = cumulativeBeforeStart;
       for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
         const key = writingProgressDayKey(cursor);
+        const bucket = buckets.get(key) || { questions: 0, attempts: 0 };
+        cumulative += bucket.questions;
         points.push({
           date: new Date(cursor),
           key,
-          ...(buckets.get(key) || { questions: 0, attempts: 0 })
+          ...bucket,
+          cumulative
         });
       }
 
       return {
         points,
-        rows: rows.filter(result => {
+        rows: eligibleRows.filter(result => {
           const date = new Date(Number(result.createdAt || 0));
           const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
           return day >= start && day <= end;
         }),
         totalQuestions: points.reduce((sum, point) => sum + point.questions, 0),
-        attemptCount: points.reduce((sum, point) => sum + point.attempts, 0)
+        attemptCount: points.reduce((sum, point) => sum + point.attempts, 0),
+        allTimeQuestions: eligibleRows.reduce((sum, result) => sum + Math.max(0, Number(result.total || 0)), 0),
+        cumulativeBeforeStart
       };
     }
 
@@ -10772,13 +11087,22 @@ Device: concession 讓步
       const chartWidth = width - left - right;
       const chartHeight = height - top - bottom;
       const denominator = Math.max(points.length - 1, 1);
-      const maxValue = Math.max(5, ...points.map(point => Number(point.questions || 0)));
+      const chartValues = points.flatMap(point => [
+        Number(point.questions || 0),
+        ...(showWritingCumulativeProgress ? [Number(point.cumulative || 0)] : [])
+      ]);
+      const maxValue = Math.max(5, ...chartValues);
       const yMax = Math.max(5, Math.ceil(maxValue / 5) * 5);
       const yFor = value => top + chartHeight - (chartHeight * Number(value || 0) / yMax);
       const coordinates = points.map((point, index) => ({
         point,
         x: left + (chartWidth * index / denominator),
         y: yFor(point.questions)
+      }));
+      const cumulativeCoordinates = points.map((point, index) => ({
+        point,
+        x: left + (chartWidth * index / denominator),
+        y: yFor(point.cumulative)
       }));
       const gridValues = [0, Math.round(yMax / 2), yMax];
       const grid = gridValues.map(value => `
@@ -10793,12 +11117,17 @@ Device: concession 讓步
         return `<text x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#627085" font-size="13" font-weight="900">${compactWritingProgressDate(point.date)}</text>`;
       }).join("");
       const line = coordinates.map(item => `${item.x.toFixed(2)},${item.y.toFixed(2)}`).join(" ");
+      const cumulativeLine = cumulativeCoordinates
+        .map(item => `${item.x.toFixed(2)},${item.y.toFixed(2)}`)
+        .join(" ");
       const hoverPoints = coordinates.map(item => {
-        const boxX = Math.min(Math.max(item.x - 62, left), width - right - 124);
-        const boxY = Math.max(top + 4, item.y - 55);
+        const boxWidth = showWritingCumulativeProgress ? 154 : 124;
+        const boxHeight = showWritingCumulativeProgress ? 54 : 40;
+        const boxX = Math.min(Math.max(item.x - (boxWidth / 2), left), width - right - boxWidth);
+        const boxY = Math.max(top + 4, item.y - boxHeight - 15);
         const interactive = item.point.questions > 0;
         const interactionAttributes = interactive
-          ? `tabindex="0" role="button" aria-label="${escapeHtml(item.point.key)}：${item.point.questions} 題" data-writing-progress-day="${escapeHtml(item.point.key)}"`
+          ? `tabindex="0" role="button" aria-label="${escapeHtml(item.point.key)}：${item.point.questions} 題；累積 ${item.point.cumulative} 題" data-writing-progress-day="${escapeHtml(item.point.key)}"`
           : `aria-hidden="true"`;
         return `
           <g class="writing-chart-hover-group" ${interactionAttributes}>
@@ -10806,14 +11135,18 @@ Device: concession 讓步
             <circle cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="4" fill="#2563eb" />
             <g class="writing-chart-tooltip">
               <line x1="${item.x.toFixed(2)}" y1="${top}" x2="${item.x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(23,32,51,0.22)" stroke-width="1" stroke-dasharray="4 5" />
-              <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="124" height="40" rx="8" fill="#172033" opacity="0.94" />
+              <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="${boxWidth}" height="${boxHeight}" rx="8" fill="#172033" opacity="0.94" />
               <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 17).toFixed(2)}" fill="#fff" font-size="11" font-weight="900">完成題目：${item.point.questions}</text>
-              <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 31).toFixed(2)}" fill="#cbd5e1" font-size="10" font-weight="800">${compactWritingProgressDate(item.point.date)}</text>
+              ${showWritingCumulativeProgress ? `<text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 31).toFixed(2)}" fill="#d8b4fe" font-size="10" font-weight="900">累積完成：${item.point.cumulative}</text>` : ""}
+              <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + (showWritingCumulativeProgress ? 45 : 31)).toFixed(2)}" fill="#cbd5e1" font-size="10" font-weight="800">${compactWritingProgressDate(item.point.date)}</text>
             </g>
           </g>
         `;
       }).join("");
-      const empty = points.some(point => point.questions > 0)
+      const lastCumulative = cumulativeCoordinates[cumulativeCoordinates.length - 1];
+      const hasData = points.some(point => point.questions > 0)
+        || showWritingCumulativeProgress && points.some(point => point.cumulative > 0);
+      const empty = hasData
         ? ""
         : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#627085" font-size="20" font-weight="900">暫時未有寫作練習紀錄</text>`;
       return `
@@ -10822,9 +11155,163 @@ Device: concession 讓步
         <line x1="${left}" y1="${top}" x2="${left}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.4" />
         <line x1="${left}" y1="${height - bottom}" x2="${width - right}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.4" />
         <polyline points="${line}" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        ${showWritingCumulativeProgress ? `<polyline points="${cumulativeLine}" fill="none" stroke="#7e22ce" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />` : ""}
+        ${showWritingCumulativeProgress && lastCumulative ? `<circle cx="${lastCumulative.x.toFixed(2)}" cy="${lastCumulative.y.toFixed(2)}" r="5" fill="#7e22ce" />` : ""}
         ${hoverPoints}
         ${labels}
         <text x="${left}" y="19" fill="#0e2d55" font-size="13" font-weight="900">題目數量</text>
+        ${empty}
+      `;
+    }
+
+    function formatWritingDuration(ms) {
+      const totalSeconds = Math.max(0, Math.round(Number(ms || 0) / 1000));
+      const hours = Math.floor(totalSeconds / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = totalSeconds % 60;
+      if (hours) return `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+      return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+    }
+
+    function writingMedian(values) {
+      const sorted = values
+        .map(Number)
+        .filter(value => Number.isFinite(value) && value > 0)
+        .sort((a, b) => a - b);
+      if (!sorted.length) return 0;
+      const middle = Math.floor(sorted.length / 2);
+      return sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+    }
+
+    function timedWritingPracticeResultsForStudent(studentName = currentUser?.name || "Guest") {
+      return writingPracticeResultsForStudent(studentName)
+        .filter(result => Number(result.durationMs || 0) > 0);
+    }
+
+    function buildWritingTimeSeries(
+      rangeKey = selectedWritingTimeRange,
+      studentName = currentUser?.name || "Guest",
+      nowValue = Date.now()
+    ) {
+      const now = new Date(nowValue);
+      const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const attempts = timedWritingPracticeResultsForStudent(studentName).filter(result => {
+        const date = new Date(Number(result.createdAt || 0));
+        const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+        return day <= end;
+      });
+      const start = writingProgressRangeStart(rangeKey, attempts, nowValue);
+      const buckets = new Map();
+      const selectedAttempts = [];
+
+      attempts.forEach(result => {
+        const date = new Date(Number(result.createdAt || 0));
+        const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+        if (day < start || day > end) return;
+        const key = writingProgressDayKey(day);
+        buckets.set(key, (buckets.get(key) || 0) + Math.max(0, Number(result.durationMs || 0)));
+        selectedAttempts.push(result);
+      });
+
+      const points = [];
+      for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
+        const key = writingProgressDayKey(cursor);
+        const totalMs = buckets.get(key) || 0;
+        points.push({
+          date: new Date(cursor),
+          key,
+          totalMs,
+          minutes: totalMs / 60000
+        });
+      }
+
+      const durations = attempts.map(result => Math.max(0, Number(result.durationMs || 0)));
+      const totalMs = durations.reduce((sum, value) => sum + value, 0);
+      const selectedMs = selectedAttempts.reduce((sum, result) => sum + Math.max(0, Number(result.durationMs || 0)), 0);
+      const totalQuestions = attempts.reduce((sum, result) => sum + Math.max(0, Number(result.total || 0)), 0);
+      return {
+        points,
+        attempts,
+        selectedAttempts,
+        stats: {
+          totalMs,
+          selectedMs,
+          averageMs: durations.length ? totalMs / durations.length : 0,
+          medianMs: writingMedian(durations),
+          longestMs: Math.max(0, ...durations),
+          averagePerQuestionMs: totalQuestions ? totalMs / totalQuestions : 0
+        }
+      };
+    }
+
+    function writingTimeChartSvg(series) {
+      const points = series.points;
+      const width = 900;
+      const height = 320;
+      const left = 58;
+      const right = 26;
+      const top = 30;
+      const bottom = 54;
+      const chartWidth = width - left - right;
+      const chartHeight = height - top - bottom;
+      const denominator = Math.max(points.length - 1, 1);
+      const maxMinutes = Math.max(1, ...points.map(point => Number(point.minutes || 0)));
+      const yMax = maxMinutes <= 5
+        ? Math.max(1, Math.ceil(maxMinutes * 2) / 2)
+        : Math.ceil(maxMinutes / 5) * 5;
+      const yFor = value => top + chartHeight - (chartHeight * Number(value || 0) / yMax);
+      const coordinates = points.map((point, index) => ({
+        point,
+        x: left + (chartWidth * index / denominator),
+        y: yFor(point.minutes)
+      }));
+      const axisValue = value => Number.isInteger(value) ? String(value) : value.toFixed(1);
+      const gridValues = [0, yMax / 2, yMax];
+      const grid = gridValues.map(value => `
+        <line x1="${left}" y1="${yFor(value).toFixed(2)}" x2="${width - right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(249,115,22,0.22)" stroke-width="1" />
+        <text x="${left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#7c4a36" font-size="13" font-weight="900">${axisValue(value)}</text>
+      `).join("");
+      const labelPoints = points.length
+        ? [points[0], points[Math.floor((points.length - 1) / 2)], points[points.length - 1]]
+        : [];
+      const labels = labelPoints.map((point, index) => {
+        const x = left + (chartWidth * index / Math.max(labelPoints.length - 1, 1));
+        return `<text x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#7c4a36" font-size="13" font-weight="900">${compactWritingProgressDate(point.date)}</text>`;
+      }).join("");
+      const line = coordinates.map(item => `${item.x.toFixed(2)},${item.y.toFixed(2)}`).join(" ");
+      const hoverPoints = coordinates.map(item => {
+        const boxWidth = 142;
+        const boxX = Math.min(Math.max(item.x - (boxWidth / 2), left), width - right - boxWidth);
+        const boxY = Math.max(top + 4, item.y - 55);
+        const interactive = item.point.totalMs > 0;
+        const interactionAttributes = interactive
+          ? `tabindex="0" role="button" aria-label="${escapeHtml(item.point.key)}：${escapeHtml(formatWritingDuration(item.point.totalMs))}" data-writing-time-day="${escapeHtml(item.point.key)}"`
+          : `aria-hidden="true"`;
+        return `
+          <g class="writing-chart-hover-group" ${interactionAttributes}>
+            <circle class="writing-chart-hover-target" cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="15" />
+            <circle cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="4" fill="#f97316" />
+            <g class="writing-chart-tooltip">
+              <line x1="${item.x.toFixed(2)}" y1="${top}" x2="${item.x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(23,32,51,0.22)" stroke-width="1" stroke-dasharray="4 5" />
+              <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="${boxWidth}" height="40" rx="8" fill="#172033" opacity="0.94" />
+              <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 17).toFixed(2)}" fill="#fff" font-size="11" font-weight="900">練習時間：${formatWritingDuration(item.point.totalMs)}</text>
+              <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 31).toFixed(2)}" fill="#fed7aa" font-size="10" font-weight="800">${compactWritingProgressDate(item.point.date)}</text>
+            </g>
+          </g>
+        `;
+      }).join("");
+      const empty = points.some(point => point.totalMs > 0)
+        ? ""
+        : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#7c4a36" font-size="20" font-weight="900">新完成的練習將會記錄所用時間</text>`;
+      return `
+        <rect x="0" y="0" width="${width}" height="${height}" fill="rgba(255,255,255,0.68)" />
+        ${grid}
+        <line x1="${left}" y1="${top}" x2="${left}" y2="${height - bottom}" stroke="rgba(124,45,18,0.16)" stroke-width="1.4" />
+        <line x1="${left}" y1="${height - bottom}" x2="${width - right}" y2="${height - bottom}" stroke="rgba(124,45,18,0.16)" stroke-width="1.4" />
+        <polyline points="${line}" fill="none" stroke="#f97316" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        ${hoverPoints}
+        ${labels}
+        <text x="${left}" y="19" fill="#9a3412" font-size="13" font-weight="900">分鐘</text>
         ${empty}
       `;
     }
@@ -10889,6 +11376,59 @@ Device: concession 讓步
           : "這部裝置暫時未有已快取紀錄；連線後會載入完整紀錄。"}</p>`;
     }
 
+    function writingTimeAttemptRowHtml(result) {
+      const style = result.styleLabel
+        || [result.difficultyLabel, result.mode ? modeLabel(result.mode) : result.modeLabel].filter(Boolean).join(" · ")
+        || "練習";
+      return `
+        <div class="writing-attempt-row">
+          <strong>${escapeHtml(result.exerciseTitle || exerciseById(result.exerciseId)?.title || "寫作練習")}</strong>
+          <span>${escapeHtml(style)}｜第 ${Number(result.round || 1)} 輪<br>${Math.max(0, Number(result.total || 0))} 題</span>
+          <span>${escapeHtml(formatWritingDuration(result.durationMs))}<br>${escapeHtml(exactDateTime(result.createdAt))}</span>
+        </div>
+      `;
+    }
+
+    function renderWritingTimeDayPanel() {
+      const panel = document.querySelector("[data-writing-time-day-panel]");
+      const title = document.querySelector("[data-writing-time-day-title]");
+      const list = document.querySelector("[data-writing-time-day-list]");
+      if (!panel || !list) return;
+      panel.classList.toggle("hidden", !selectedWritingTimeDayKey);
+      if (!selectedWritingTimeDayKey) return;
+      const rows = timedWritingPracticeResultsForStudent()
+        .filter(result => writingProgressDayKey(result.createdAt) === selectedWritingTimeDayKey)
+        .sort((a, b) => Number(b.createdAt || 0) - Number(a.createdAt || 0));
+      const totalMs = rows.reduce((sum, result) => sum + Math.max(0, Number(result.durationMs || 0)), 0);
+      if (title) title.textContent = `${selectedWritingTimeDayKey} 練習時間（${formatWritingDuration(totalMs)}）`;
+      list.innerHTML = rows.length
+        ? rows.map(writingTimeAttemptRowHtml).join("")
+        : `<p class="note-text">這一天暫時未有練習時間紀錄。</p>`;
+    }
+
+    function renderWritingTimeDashboard() {
+      const chart = document.querySelector("[data-writing-time-chart]");
+      if (!chart) return;
+      const series = buildWritingTimeSeries();
+      chart.innerHTML = writingTimeChartSvg(series);
+      document.querySelectorAll("[data-writing-time-range]").forEach(button => {
+        const active = button.getAttribute("data-writing-time-range") === selectedWritingTimeRange;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", String(active));
+      });
+      const setDuration = (selector, value) => {
+        const node = document.querySelector(selector);
+        if (node) node.textContent = formatWritingDuration(value);
+      };
+      setDuration("[data-writing-time-total]", series.stats.totalMs);
+      setDuration("[data-writing-time-selected]", series.stats.selectedMs);
+      setDuration("[data-writing-time-average]", series.stats.averageMs);
+      setDuration("[data-writing-time-median]", series.stats.medianMs);
+      setDuration("[data-writing-time-longest]", series.stats.longestMs);
+      setDuration("[data-writing-time-per-question]", series.stats.averagePerQuestionMs);
+      renderWritingTimeDayPanel();
+    }
+
     function renderWritingProgressDashboard() {
       const chart = document.querySelector("[data-writing-progress-chart]");
       if (!chart) return;
@@ -10903,8 +11443,17 @@ Device: concession 讓步
       const attempts = document.querySelector("[data-writing-progress-attempts]");
       if (questions) questions.textContent = String(series.totalQuestions);
       if (attempts) attempts.textContent = String(series.attemptCount);
+      const cumulativeToggle = document.querySelector("[data-toggle-writing-cumulative]");
+      if (cumulativeToggle) {
+        cumulativeToggle.textContent = showWritingCumulativeProgress ? "隱藏累積總數" : "顯示累積總數";
+        cumulativeToggle.classList.toggle("active", showWritingCumulativeProgress);
+        cumulativeToggle.setAttribute("aria-pressed", String(showWritingCumulativeProgress));
+      }
+      const cumulativeLegend = document.querySelector("[data-writing-cumulative-legend]");
+      if (cumulativeLegend) cumulativeLegend.hidden = !showWritingCumulativeProgress;
       renderWritingProgressDayPanel();
       renderWritingAttemptLog();
+      renderWritingTimeDashboard();
     }
 
     function renderDashboard() {
@@ -11152,6 +11701,7 @@ Device: concession 讓步
         const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
         if (!ok && status) status.textContent = "用戶名稱或密碼不正確。";
         if (ok && status) status.textContent = "";
+        if (ok) window.setTimeout(openRequestedWritingEssay, 0);
       });
 
       document.querySelector("[data-student-form]")?.addEventListener("submit", async event => {
@@ -11278,6 +11828,11 @@ Device: concession 讓步
           return;
         }
 
+        if (event.target.closest("[data-toggle-writing-cumulative]")) {
+          setWritingCumulativeProgressVisible(!showWritingCumulativeProgress);
+          return;
+        }
+
         const writingProgressDayButton = event.target.closest("[data-writing-progress-day]");
         if (writingProgressDayButton) {
           selectedWritingProgressDayKey = writingProgressDayButton.getAttribute("data-writing-progress-day") || "";
@@ -11288,6 +11843,27 @@ Device: concession 讓步
         if (event.target.closest("[data-close-writing-progress-day]")) {
           selectedWritingProgressDayKey = "";
           renderWritingProgressDayPanel();
+          return;
+        }
+
+        const writingTimeRangeButton = event.target.closest("[data-writing-time-range]");
+        if (writingTimeRangeButton) {
+          selectedWritingTimeRange = writingTimeRangeButton.getAttribute("data-writing-time-range") || "month";
+          selectedWritingTimeDayKey = "";
+          renderWritingTimeDashboard();
+          return;
+        }
+
+        const writingTimeDayButton = event.target.closest("[data-writing-time-day]");
+        if (writingTimeDayButton) {
+          selectedWritingTimeDayKey = writingTimeDayButton.getAttribute("data-writing-time-day") || "";
+          renderWritingTimeDashboard();
+          return;
+        }
+
+        if (event.target.closest("[data-close-writing-time-day]")) {
+          selectedWritingTimeDayKey = "";
+          renderWritingTimeDayPanel();
           return;
         }
 
@@ -11745,6 +12321,13 @@ Device: concession 讓步
           renderWritingProgressDashboard();
           return;
         }
+        const writingTimeDayButton = event.target?.closest?.("[data-writing-time-day]");
+        if (writingTimeDayButton && (event.key === "Enter" || event.key === " " || event.code === "Space")) {
+          event.preventDefault();
+          selectedWritingTimeDayKey = writingTimeDayButton.getAttribute("data-writing-time-day") || "";
+          renderWritingTimeDashboard();
+          return;
+        }
         if (event.code !== "Space" || event.repeat || !activeEssayAudio) return;
         const target = event.target;
         if (target?.closest?.("input, textarea, select, button, a, [contenteditable='true']")) return;
@@ -11792,6 +12375,7 @@ Device: concession 讓步
       if (restored && currentUser) {
         if (currentUser.role === "student") await loadWritingStudentState();
         showAppPanel(currentUser.role === "admin" ? "admin-panel" : "dashboard");
+        window.setTimeout(openRequestedWritingEssay, 0);
       } else {
         showLogin();
       }
