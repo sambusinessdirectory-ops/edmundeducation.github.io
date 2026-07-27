@@ -418,6 +418,7 @@ assert.doesNotMatch(scheduleJs.match(/function beginClipboardMarquee[\s\S]*?\n\}
 assert.match(scheduleJs, /commandKey[\s\S]*?shortcut === "c"[\s\S]*?copyClipboardSelectionFromButton\(\)[\s\S]*?shortcut === "v"[\s\S]*?pasteScheduleClipboardFromButton\(\)/, "Cmd\/Ctrl+C and V must have an explicit PWA-safe fallback");
 assert.match(scheduleJs, /let payload = readStoredScheduleClipboardPayload\(\);[\s\S]*?!payload && navigator\.clipboard\?\.readText/, "Paste must use the reliable same-tab buffer before the permission-sensitive OS clipboard");
 assert.match(scheduleJs, /function handleSchedulePaste[\s\S]*?let payload = readStoredScheduleClipboardPayload\(\);[\s\S]*?if \(!payload\) \{[\s\S]*?event\.clipboardData/, "context-menu and ClipboardEvent paste must also prefer the same-tab buffer");
+assert.match(scheduleJs, /function handleScheduleCopy[\s\S]*?storeScheduleClipboardPayload\(payload\);\s*updateClipboardControls\(\);/, "native Cmd\/Ctrl+C must immediately reveal the buffered item count in the Paste button");
 assert.match(scheduleJs, /shortcut === "v" && readStoredScheduleClipboardPayload\(\)/, "keyboard paste must leave the browser ClipboardEvent available when no same-tab payload exists");
 assert.match(scheduleJs, /if \(state\.scheduleClipboardPayload\) return state\.scheduleClipboardPayload/, "marquee control updates must reuse the parsed payload rather than repeatedly parsing session storage");
 assert.match(scheduleHtml, /@supabase\/supabase-js@2\.110\.8\/dist\/umd\/supabase\.js/, "Schedule must use a pinned, cacheable Supabase client build");

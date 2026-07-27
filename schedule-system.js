@@ -3274,6 +3274,7 @@ function handleScheduleCopy(event) {
   try {
     const payload = createCurrentScheduleClipboardPayload();
     const serialized = storeScheduleClipboardPayload(payload);
+    updateClipboardControls();
     if (event.clipboardData) {
       event.clipboardData.setData("text/plain", serialized);
       try {
