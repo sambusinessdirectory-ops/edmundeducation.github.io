@@ -7,8 +7,11 @@
     || window.navigator.standalone === true;
   const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent)
     || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  const UPDATE_CHECK_THROTTLE_MS = 30 * 1000;
   let installPrompt = null;
   let reloadingForUpdate = false;
+  let lastUpdateCheckAt = 0;
+  let offeredUpdateWorker = null;
 
   function removeUi() {
     document.querySelectorAll("[data-pwa-ui]").forEach((element) => element.remove());
@@ -104,7 +107,8 @@
   if (!canRegister) return;
 
   function offerUpdate(worker) {
-    if (!worker) return;
+    if (!worker || offeredUpdateWorker === worker) return;
+    offeredUpdateWorker = worker;
     notice(
       "網站有新版本可用",
       "為免打斷正在進行的練習，網站不會自動重新整理。您可完成目前工作後再更新。",
@@ -122,23 +126,50 @@
     );
   }
 
+  function watchUpdateWorker(worker) {
+    if (!worker) return;
+    const offerWhenInstalled = () => {
+      if (worker.state === "installed" && navigator.serviceWorker.controller) {
+        offerUpdate(worker);
+      }
+    };
+    if (worker.state === "installed") {
+      offerWhenInstalled();
+      return;
+    }
+    if (worker.state !== "redundant") worker.addEventListener("statechange", offerWhenInstalled);
+  }
+
+  function checkForUpdate(registration, { force = false } = {}) {
+    const now = Date.now();
+    if (!force && now - lastUpdateCheckAt < UPDATE_CHECK_THROTTLE_MS) return;
+    lastUpdateCheckAt = now;
+    registration.update().catch(() => {
+      // A temporary network failure must not interrupt the current exercise.
+    });
+  }
+
   window.addEventListener("load", async () => {
     try {
       const registration = await navigator.serviceWorker.register("/service-worker.js", {
         scope: "/",
         updateViaCache: "none"
       });
-      if (registration.waiting && navigator.serviceWorker.controller) offerUpdate(registration.waiting);
       registration.addEventListener("updatefound", () => {
-        const worker = registration.installing;
-        worker?.addEventListener("statechange", () => {
-          if (worker.state === "installed" && navigator.serviceWorker.controller) offerUpdate(worker);
-        });
+        watchUpdateWorker(registration.installing);
       });
+      if (registration.waiting && navigator.serviceWorker.controller) offerUpdate(registration.waiting);
+      watchUpdateWorker(registration.installing);
+      checkForUpdate(registration, { force: true });
+
+      const checkWhenActive = () => checkForUpdate(registration);
       document.addEventListener("visibilitychange", () => {
-        if (document.visibilityState === "visible") registration.update().catch(() => {});
+        if (document.visibilityState === "visible") checkWhenActive();
       });
-      window.setInterval(() => registration.update().catch(() => {}), 60 * 60 * 1000);
+      window.addEventListener("pageshow", checkWhenActive);
+      window.addEventListener("focus", checkWhenActive);
+      window.addEventListener("online", checkWhenActive);
+      window.setInterval(checkWhenActive, 60 * 60 * 1000);
     } catch (error) {
       console.warn("EdmundEducation PWA registration failed", error);
     }

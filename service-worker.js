@@ -1,5 +1,6 @@
 const CACHE_PREFIX = "edmund-pwa-";
-const CACHE_NAME = `${CACHE_PREFIX}2026-07-27-1`;
+const RELEASE_ID = "__EDMUND_RELEASE__";
+const CACHE_NAME = `${CACHE_PREFIX}${RELEASE_ID}`;
 const OFFLINE_URL = "/offline.html";
 const SHELL_URLS = [
   "/offline.html",
@@ -45,7 +46,16 @@ self.addEventListener("fetch", (event) => {
   if (url.origin !== self.location.origin) return;
 
   if (request.mode === "navigate") {
-    event.respondWith(fetch(request).catch(() => caches.match(OFFLINE_URL)));
+    event.respondWith(
+      fetch(request, { cache: "no-store" }).catch(() => caches.match(OFFLINE_URL))
+    );
+    return;
+  }
+
+  if (url.pathname === "/pwa-register.js") {
+    event.respondWith(
+      fetch(request, { cache: "no-store" }).catch(() => caches.match("/pwa-register.js"))
+    );
     return;
   }
 

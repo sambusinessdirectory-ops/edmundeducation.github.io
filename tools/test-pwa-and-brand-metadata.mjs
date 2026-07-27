@@ -127,12 +127,16 @@ test("the manifest is installable and has safe Android and Apple artwork", async
 
 test("the service worker is a small privacy-safe offline shell", async () => {
   const worker = await read("service-worker.js");
+  assert.match(worker, /const RELEASE_ID = "__EDMUND_RELEASE__";/);
+  assert.match(worker, /const CACHE_NAME = `\$\{CACHE_PREFIX\}\$\{RELEASE_ID\}`;/);
   assert.match(worker, /request\.method !== "GET"/);
   assert.match(worker, /request\.headers\.has\("Authorization"\)/);
   assert.match(worker, /request\.headers\.has\("Range"\)/);
   assert.match(worker, /url\.origin !== self\.location\.origin/);
   assert.match(worker, /request\.mode === "navigate"/);
-  assert.match(worker, /fetch\(request\)\.catch\(\(\) => caches\.match\(OFFLINE_URL\)\)/);
+  assert.match(worker, /fetch\(request, \{ cache: "no-store" \}\)\.catch\(\(\) => caches\.match\(OFFLINE_URL\)\)/);
+  assert.match(worker, /url\.pathname === "\/pwa-register\.js"/);
+  assert.match(worker, /fetch\(request, \{ cache: "no-store" \}\)\.catch\(\(\) => caches\.match\("\/pwa-register\.js"\)\)/);
   assert.match(worker, /name\.startsWith\(CACHE_PREFIX\)/);
   assert.match(worker, /SKIP_WAITING/);
   assert.doesNotMatch(worker, /cache\.put\(/, "runtime pages and student responses must never be cached");
@@ -162,6 +166,13 @@ test("installation and updates stay user-controlled", async () => {
   assert.match(register, /updateViaCache: "none"/);
   assert.match(register, /網站有新版本可用/);
   assert.match(register, /稍後更新/);
+  assert.match(register, /registration\.waiting/);
+  assert.match(register, /watchUpdateWorker\(registration\.installing\)/);
+  assert.match(register, /registration\.addEventListener\("updatefound"/);
+  assert.match(register, /checkForUpdate\(registration, \{ force: true \}\)/);
+  assert.match(register, /window\.addEventListener\("pageshow", checkWhenActive\)/);
+  assert.match(register, /window\.addEventListener\("focus", checkWhenActive\)/);
+  assert.match(register, /document\.addEventListener\("visibilitychange"/);
   assert.match(register, /worker\.postMessage\(\{ type: "SKIP_WAITING" \}\)/);
   assert.doesNotMatch(register, /location\.reload\(\).*updatefound/s, "detecting an update must not force a reload");
 
@@ -170,6 +181,18 @@ test("installation and updates stay user-controlled", async () => {
   assert.match(css, /@media \(hover: none\), \(pointer: coarse\)/);
   assert.match(css, /cursor: auto !important/);
   assert.match(css, /min-height: 100dvh/);
+});
+
+test("the Pages artifact receives a unique service-worker release for every commit", async () => {
+  const workflow = await read(".github/workflows/pages.yml");
+  const prepareIndex = workflow.indexOf("- name: Prepare site files");
+  const stampIndex = workflow.indexOf("- name: Stamp PWA release");
+  const uploadIndex = workflow.indexOf("- name: Upload GitHub Pages artifact");
+  assert.ok(prepareIndex >= 0 && stampIndex > prepareIndex && uploadIndex > stampIndex);
+  assert.ok(workflow.includes("grep -Fq '__EDMUND_RELEASE__' _site/service-worker.js"));
+  assert.ok(workflow.includes('sed -i "s/__EDMUND_RELEASE__/${GITHUB_SHA}/g" _site/service-worker.js'));
+  assert.ok(workflow.includes('grep -Fq "${GITHUB_SHA}" _site/service-worker.js'));
+  assert.match(workflow, /if grep -Fq '__EDMUND_RELEASE__' _site\/service-worker\.js;/);
 });
 
 test("the home page gives Google a stable favicon and verified brand entity", async () => {

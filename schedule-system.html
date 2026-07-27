@@ -546,6 +546,12 @@
     .mass-edit-summary { display: grid; gap: 3px; }
     .mass-edit-summary strong { font-size: 15px; }
     .mass-edit-summary span { color: #68557f; font-size: 12px; font-weight: 750; }
+    .mass-edit-summary .mass-edit-steps {
+      margin-top: 4px;
+      color: #315f98;
+      font-size: 13px;
+      font-weight: 900;
+    }
     .mass-edit-buttons { display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
     .mass-edit-save,
     .mass-edit-cancel,
@@ -1294,8 +1300,8 @@
               <span class="legend-badge admin">老師安排</span>
               <span class="legend-badge student">學生安排</span>
             </div>
-            <button class="subtle-toggle mass-edit-toggle" type="button" data-toggle-mass-edit aria-pressed="false">Mass Edit</button>
-            <button class="subtle-toggle selection-toggle" type="button" data-toggle-selection aria-pressed="false">select multiple</button>
+            <button class="subtle-toggle mass-edit-toggle" type="button" data-toggle-mass-edit aria-pressed="false">批量編輯（Mass Edit）</button>
+            <button class="subtle-toggle selection-toggle" type="button" data-toggle-selection aria-pressed="false">選取多項</button>
           </div>
           <span id="schedule-export-help">每一天預設 10 格；按「＋5 格／－5 格」調整。電腦可拖曳安排；按住 Shift 再拖到相鄰日期即可延伸。手機或平板長按 2 秒，藍色外框出現後即可移動、交換，或放到該日的「延伸多日項目」區逐日延伸。匯出時可在列印視窗選擇「儲存為 PDF」。</span>
         </div>
@@ -1314,6 +1320,7 @@
           <div class="mass-edit-summary">
             <strong data-mass-edit-count aria-live="polite">尚未有待儲存修改</strong>
             <span>逐格新增、修改或刪除；完成後一次儲存全部，期間不會重新載入日程。</span>
+            <span class="mass-edit-steps">1 選取／框選 → 2 複製所選 → 3 切換學生 → 4 貼上 → 5 一次儲存全部</span>
             <span class="clipboard-selection-count" data-clipboard-selection-count aria-live="polite">尚未選取複製項目</span>
           </div>
           <div class="mass-edit-buttons">
@@ -1442,10 +1449,10 @@
     <p class="print-footer">EdmundEducation · Schedule System</p>
   </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260727-1"></script>
-  <script type="module" src="schedule-system.js?v=20260727-3"></script>
+  <script type="module" src="schedule-system.js?v=20260727-4"></script>
 </body>
 </html>
