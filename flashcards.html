@@ -550,6 +550,39 @@
       margin-top: 14px;
     }
 
+    .student-sort-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+      padding: 10px;
+      border: 1px solid rgba(47,128,237,0.16);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.70);
+    }
+
+    .student-sort-toolbar .secondary-button {
+      min-height: 38px;
+      padding: 7px 12px;
+      font-size: 13px;
+    }
+
+    .student-sort-toolbar .secondary-button.active {
+      border-color: rgba(37,99,235,0.42);
+      background: #dbeafe;
+      color: #1559a8;
+      box-shadow: inset 0 0 0 1px rgba(37,99,235,0.16);
+    }
+
+    .student-sort-status {
+      flex: 1 1 100%;
+      min-height: 18px;
+      color: #52627a;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
     .student-row {
       min-height: 68px;
       display: flex;
@@ -562,6 +595,44 @@
       background: rgba(255,255,255,0.74);
       color: #173153;
       font-weight: 900;
+    }
+
+    .student-row.custom-order {
+      cursor: grab;
+      touch-action: manipulation;
+    }
+
+    .student-row.custom-order.dragging {
+      opacity: 0.56;
+      cursor: grabbing;
+    }
+
+    .student-row.custom-order.drag-over {
+      border-color: #2f80ed;
+      box-shadow: inset 0 0 0 2px rgba(47,128,237,0.20);
+      transform: translateY(1px);
+    }
+
+    .student-row-name {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      overflow-wrap: anywhere;
+    }
+
+    .student-drag-handle {
+      display: inline-grid;
+      place-items: center;
+      width: 32px;
+      height: 32px;
+      flex: 0 0 auto;
+      border-radius: 10px;
+      background: rgba(219,234,254,0.92);
+      color: #1559a8;
+      font-size: 18px;
+      line-height: 1;
+      user-select: none;
     }
 
     .student-row-actions {
@@ -589,6 +660,14 @@
       background: #fee2e2;
       color: #b91c1c;
       box-shadow: inset 0 1px 0 rgba(255,255,255,0.78), 0 6px 0 #fecaca;
+    }
+
+    .mini-button.order-step {
+      min-width: 42px;
+      padding: 0 11px;
+      background: #eef2ff;
+      color: #4338ca;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.78), 0 6px 0 #e0e7ff;
     }
 
     .profile-card {
@@ -3830,6 +3909,12 @@
               </form>
 
               <h2>Valid Students</h2>
+              <div class="student-sort-toolbar" data-student-sort-toolbar aria-label="Student ordering">
+                <button class="secondary-button" type="button" data-student-sort-mode="asc">A → Z</button>
+                <button class="secondary-button" type="button" data-student-sort-mode="desc">Z → A</button>
+                <button class="secondary-button" type="button" data-student-sort-mode="custom">自訂排序</button>
+                <span class="student-sort-status" data-student-sort-status aria-live="polite"></span>
+              </div>
               <div class="student-list" data-student-list></div>
             </div>
 
@@ -3912,8 +3997,8 @@
               </div>
               <button class="progress-stat actionable red-stat" type="button" data-red-dashboard-toggle>
                 <strong data-progress-stat-red>0</strong>
-                <span>目前紅叉總數</span>
-                <span class="practice-chip red-practice">練習</span>
+                <span>紅叉總數（全部時間）</span>
+                <span class="practice-chip red-practice" data-current-red-practice-count>目前紅叉：0｜練習</span>
               </button>
             </div>
             <div class="dashboard-card-panel hidden" data-progress-day-panel>
@@ -184076,6 +184161,7 @@ window.EDMUND_FLASHCARD_SEED = {
     const DASHBOARD_LAYOUT_KEY = "edmundFlashcardDashboardLayouts";
     const DISPLAY_PREFERENCES_KEY = "edmundFlashcardUiPreferences";
     const DISPLAY_PREFERENCES_LOCAL_PREFIX = "edmundFlashcardUiPreferences::account::";
+    const ADMIN_STUDENT_SORT_LOCAL_PREFIX = "edmundFlashcardAdminStudentSort::account::";
     const FAMILIARITY_PENDING_LOCAL_PREFIX = "edmundFlashcardFamiliarityPending::account::";
     const BOOKMARK_DECK_ID = "__private-bookmarks__";
     const REBUILT_LISTENING_DECK_REVISION = "dse-listening-rebuild-20260712-v1";
@@ -184904,6 +184990,7 @@ window.EDMUND_FLASHCARD_SEED = {
     let currentDeckId = "";
     let currentDeckTitle = "";
     let requestedEssayOpened = false;
+    let requestedHomeworkDeckOpened = false;
     let studySession = null;
     let lastOptions = null;
     let activeReviewStatus = "";
@@ -184913,6 +185000,9 @@ window.EDMUND_FLASHCARD_SEED = {
     let redDashboardOpen = false;
     let studentsCache = [];
     let studentsLoadedFromSupabase = false;
+    let studentSortMode = "custom";
+    let studentListDragName = "";
+    let studentSortSaveInFlight = false;
     let adminPasswordForSession = "";
     let studentSessionToken = "";
     let studentPasswordLogsCache = {};
@@ -185160,6 +185250,7 @@ window.EDMUND_FLASHCARD_SEED = {
         name: String(student.name || "").trim(),
         password: String(student.password || "Stored securely in Supabase"),
         createdAt: student.createdAt || Date.now(),
+        sortOrder: Number.isFinite(Number(student.sortOrder)) ? Number(student.sortOrder) : Number.MAX_SAFE_INTEGER,
         access: { ...defaultAccess(), ...(student.access || {}) }
       };
     }
@@ -185595,7 +185686,9 @@ window.EDMUND_FLASHCARD_SEED = {
 
     async function initSupabaseState() {
       if (!supabaseClient) {
+        studentSortMode = readLocalAdminStudentSortMode();
         updateSupabaseStatus("Supabase: local backup", "warning");
+        refreshCurrentView();
         return;
       }
 
@@ -185604,7 +185697,9 @@ window.EDMUND_FLASHCARD_SEED = {
         await ensureSupabaseSession();
       } catch (error) {
         console.warn("Supabase anonymous session failed:", error);
+        studentSortMode = readLocalAdminStudentSortMode();
         updateSupabaseStatus("Supabase: enable Auth", "error");
+        refreshCurrentView();
         return;
       }
 
@@ -185641,14 +185736,85 @@ window.EDMUND_FLASHCARD_SEED = {
       return data;
     }
 
-    function studentFromSupabase(row) {
+    function studentFromSupabase(row = {}, fallbackStudent = {}) {
       return normalizeStudent({
-        id: row.id,
-        name: row.name,
-        password: "Protected - use Change Password to reset",
-        createdAt: row.created_at ? new Date(row.created_at).getTime() : Date.now(),
-        access: row.access || defaultAccess()
+        id: row.id || fallbackStudent.id,
+        name: row.name || fallbackStudent.name,
+        password: fallbackStudent.password || "Protected - use Change Password to reset",
+        createdAt: row.created_at
+          ? new Date(row.created_at).getTime()
+          : fallbackStudent.createdAt || Date.now(),
+        sortOrder: row.sort_order ?? fallbackStudent.sortOrder,
+        access: row.access || fallbackStudent.access || defaultAccess()
       });
+    }
+
+    function normalizeStudentSortMode(value) {
+      return ["asc", "desc", "custom"].includes(value) ? value : "custom";
+    }
+
+    function adminStudentSortLocalKey() {
+      return `${ADMIN_STUDENT_SORT_LOCAL_PREFIX}${encodeURIComponent(ADMIN_NAME.toLocaleLowerCase())}`;
+    }
+
+    function readLocalAdminStudentSortMode() {
+      try {
+        const stored = JSON.parse(localStorage.getItem(adminStudentSortLocalKey()) || "null");
+        return normalizeStudentSortMode(stored?.mode);
+      } catch {
+        return "custom";
+      }
+    }
+
+    function cacheLocalAdminStudentSortMode(mode) {
+      return cacheJsonLocally(adminStudentSortLocalKey(), {
+        mode: normalizeStudentSortMode(mode),
+        updatedAt: Date.now()
+      });
+    }
+
+    function orderedStudents(students = getStudents(), mode = studentSortMode) {
+      const rows = [...students].map(normalizeStudent);
+      const normalizedMode = normalizeStudentSortMode(mode);
+      if (normalizedMode === "asc") {
+        return rows.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base", numeric: true }));
+      }
+      if (normalizedMode === "desc") {
+        return rows.sort((a, b) => b.name.localeCompare(a.name, undefined, { sensitivity: "base", numeric: true }));
+      }
+      return rows.sort((a, b) => (
+        Number(a.sortOrder) - Number(b.sortOrder)
+        || a.createdAt - b.createdAt
+        || a.name.localeCompare(b.name, undefined, { sensitivity: "base", numeric: true })
+      ));
+    }
+
+    function applyStudentOrder(names = []) {
+      const orderByName = new Map(names.map((name, index) => [String(name), index + 1]));
+      studentsCache = studentsCache.map((student, index) => normalizeStudent({
+        ...student,
+        sortOrder: orderByName.get(student.name) || student.sortOrder || names.length + index + 1
+      }));
+    }
+
+    async function loadStudentListPreferencesFromSupabase() {
+      if (!adminPasswordForSession) return false;
+      try {
+        const rows = await callSupabaseRpc("flashcard_admin_get_student_list_preferences", {
+          p_admin_name: ADMIN_NAME,
+          p_admin_password: adminPasswordForSession
+        });
+        const preferences = Array.isArray(rows) ? rows[0] : rows;
+        studentSortMode = normalizeStudentSortMode(preferences?.sort_mode);
+        const savedOrder = Array.isArray(preferences?.student_order) ? preferences.student_order : [];
+        if (savedOrder.length) applyStudentOrder(savedOrder);
+        cacheLocalAdminStudentSortMode(studentSortMode);
+        return true;
+      } catch (error) {
+        console.warn("Could not load student ordering preferences:", error);
+        studentSortMode = readLocalAdminStudentSortMode();
+        return false;
+      }
     }
 
     async function loadStudentsFromSupabase() {
@@ -185659,6 +185825,7 @@ window.EDMUND_FLASHCARD_SEED = {
           p_admin_password: adminPasswordForSession
         });
         studentsCache = (rows || []).map(studentFromSupabase);
+        await loadStudentListPreferencesFromSupabase();
         studentsLoadedFromSupabase = true;
         renderStudents();
         renderStudentProfile();
@@ -185667,6 +185834,7 @@ window.EDMUND_FLASHCARD_SEED = {
         console.warn("Could not load Supabase students:", error);
         updateSupabaseStatus("Supabase: account SQL needed", "error");
         studentsLoadedFromSupabase = false;
+        studentSortMode = readLocalAdminStudentSortMode();
         return getStudents();
       }
     }
@@ -185714,7 +185882,7 @@ window.EDMUND_FLASHCARD_SEED = {
           p_student_name: student.name,
           p_access: student.access
         });
-        const updated = Array.isArray(rows) && rows[0] ? studentFromSupabase(rows[0]) : student;
+        const updated = Array.isArray(rows) && rows[0] ? studentFromSupabase(rows[0], student) : student;
         studentsCache = getStudents().map(item => item.name === updated.name ? updated : item);
         studentsLoadedFromSupabase = true;
         return true;
@@ -186846,47 +187014,76 @@ window.EDMUND_FLASHCARD_SEED = {
       return `${year}-${month}-${day}`;
     }
 
-    function familiarityTotalsForStudent(studentName = currentUser?.name) {
-      if (!studentName) return { green: 0, red: 0 };
-      return getKnownDeckIds()
-        .filter(deckId => getDeckCards(deckId).length > 0)
-        .reduce((totals, deckId) => {
-          const familiarity = getDeckFamiliarity(deckId, studentName);
-          totals.green += familiarity.green.length;
-          totals.red += familiarity.red.length;
-          return totals;
-        }, { green: 0, red: 0 });
+    function attemptOutcomeIdentity(item = {}, attempt = {}, ordinal = 0) {
+      if (item.key) return String(item.key);
+      const deckId = String(item.deckId || attempt.deckId || "");
+      const index = Number(item.index);
+      const hasIndex = item.index !== null && item.index !== undefined && item.index !== "";
+      if (hasIndex && Number.isInteger(index) && index >= 0) return `${deckId}::${index}`;
+      const front = normalizeCardText(item.front || "").trim().toLocaleLowerCase();
+      if (front) return `${deckId}::front::${front}`;
+      return `${attempt.id || "attempt"}::outcome::${ordinal}`;
+    }
+
+    function normalizedAttemptCount(value) {
+      const count = Number(value);
+      return Number.isFinite(count) ? Math.max(0, Math.floor(count)) : 0;
+    }
+
+    function finalAttemptOutcomeDetails(attempt = {}) {
+      const byCard = new Map();
+      (Array.isArray(attempt.cardOutcomes) ? attempt.cardOutcomes : []).forEach((item, ordinal) => {
+        const status = item?.status;
+        if (!["green", "red"].includes(status)) return;
+        const key = attemptOutcomeIdentity(item, attempt, ordinal);
+        const answeredAt = Number(item.answeredAt || item.updatedAt || 0);
+        const existing = byCard.get(key);
+        if (
+          existing
+          && (answeredAt < existing.answeredAt || (answeredAt === existing.answeredAt && ordinal < existing.ordinal))
+        ) return;
+        byCard.set(key, {
+          ...item,
+          key,
+          status,
+          answeredAt,
+          ordinal
+        });
+      });
+      return [...byCard.values()].sort((a, b) => a.ordinal - b.ordinal);
+    }
+
+    function attemptProgressOutcome(attempt = {}) {
+      const aggregateGreen = normalizedAttemptCount(attempt.green);
+      const aggregateRed = normalizedAttemptCount(attempt.red);
+      const aggregateTotal = aggregateGreen + aggregateRed;
+      const answeredTotal = normalizedAttemptCount(attempt.answeredCount);
+      const coverageTarget = Math.max(answeredTotal, aggregateTotal);
+      const details = finalAttemptOutcomeDetails(attempt);
+      const useDetailedOutcomes = details.length > 0 && details.length >= coverageTarget;
+      const green = useDetailedOutcomes
+        ? details.filter(item => item.status === "green").length
+        : aggregateGreen;
+      const red = useDetailedOutcomes
+        ? details.filter(item => item.status === "red").length
+        : aggregateRed;
+      return {
+        attempt,
+        attemptId: attempt.id || "",
+        time: Number(attempt.updatedAt || attempt.completedAt || attempt.startedAt || 0),
+        green,
+        red,
+        total: green + red,
+        details,
+        useDetailedOutcomes
+      };
     }
 
     function progressRowsForStudent(studentName = currentUser?.name) {
       if (!studentName) return [];
-      const rows = getAttempts()
-        .filter(attempt => attempt.studentName === studentName)
-        .map(attempt => {
-          const green = Number(attempt.green || 0);
-          const red = Number(attempt.red || 0);
-          return {
-            time: Number(attempt.updatedAt || attempt.completedAt || attempt.startedAt || 0),
-            green,
-            red,
-            total: green + red
-          };
-        })
+      return attemptsForStudent(studentName)
+        .map(attemptProgressOutcome)
         .filter(row => row.time && row.total > 0);
-
-      const attemptTotals = rows.reduce((totals, row) => {
-        totals.green += row.green;
-        totals.red += row.red;
-        return totals;
-      }, { green: 0, red: 0 });
-      const familiarityTotals = familiarityTotalsForStudent(studentName);
-      const missingGreen = Math.max(0, familiarityTotals.green - attemptTotals.green);
-      const missingRed = Math.max(0, familiarityTotals.red - attemptTotals.red);
-      if (missingGreen || missingRed) {
-        const latest = rows.reduce((time, row) => Math.max(time, row.time || 0), 0) || Date.now();
-        rows.push({ time: latest, green: missingGreen, red: missingRed, total: missingGreen + missingRed, reconciled: true });
-      }
-      return rows;
     }
 
     function highAttemptGroupsForStudent(studentName = currentUser?.name) {
@@ -188015,85 +188212,53 @@ window.EDMUND_FLASHCARD_SEED = {
         .sort((a, b) => String(a.deckTitle).localeCompare(String(b.deckTitle)) || a.index - b.index);
     }
 
-    function reconciledProgressRowsForDay(dayKeyValue, studentName = currentUser?.name) {
-      if (!dayKeyValue || !studentName) return [];
-      const attemptRows = getAttempts()
-        .filter(attempt => attempt.studentName === studentName)
-        .map(attempt => ({
-          time: Number(attempt.updatedAt || attempt.completedAt || attempt.startedAt || 0),
-          green: Number(attempt.green || 0),
-          red: Number(attempt.red || 0)
-        }))
-        .filter(row => row.time && (row.green || row.red));
-      const attemptTotals = attemptRows.reduce((totals, row) => {
-        totals.green += row.green;
-        totals.red += row.red;
-        return totals;
-      }, { green: 0, red: 0 });
-      const familiarityTotals = familiarityTotalsForStudent(studentName);
-      const missing = {
-        green: Math.max(0, familiarityTotals.green - attemptTotals.green),
-        red: Math.max(0, familiarityTotals.red - attemptTotals.red)
-      };
-      if (!missing.green && !missing.red) return [];
-
-      const latest = attemptRows.reduce((time, row) => Math.max(time, row.time || 0), 0) || Date.now();
-      if (dayKey(new Date(latest)) !== dayKeyValue) return [];
-
-      const knownKeys = new Set(cardHistoryRowsForStudent(studentName).map(row => row.key));
-      const familiarityRows = currentFamiliarityCardRows(studentName);
-      return ["green", "red"].flatMap(status => {
-        const candidates = familiarityRows.filter(row => row.status === status && !knownKeys.has(row.key));
-        const rows = candidates.slice(0, missing[status]).map(row => ({ ...row, time: latest, reconciled: true }));
-        const remainder = missing[status] - rows.length;
-        if (remainder > 0) {
-          rows.push({
-            front: status === "green" ? "已同步的綠勾卡片" : "已同步的紅叉卡片",
-            meaning: "這些卡片來自目前紀錄；舊紀錄未保存逐張詳情。",
-            deckTitle: "同步紀錄",
-            status,
-            count: remainder,
-            time: latest,
-            reconciled: true
-          });
-        }
-        return rows;
-      });
-    }
-
     function progressRowsForDay(dayKeyValue) {
       if (!dayKeyValue) return [];
       const rows = [];
       attemptsForStudent().forEach(attempt => {
-        const attemptTime = Number(attempt.updatedAt || attempt.completedAt || attempt.startedAt || 0);
-        const countedTotal = Number(attempt.green || 0) + Number(attempt.red || 0);
-        if (!attemptTime || countedTotal <= 0 || dayKey(new Date(attemptTime)) !== dayKeyValue) return;
-        const outcomes = Array.isArray(attempt.cardOutcomes) ? attempt.cardOutcomes : [];
-        let addedDetails = 0;
-        outcomes.slice(0, countedTotal).forEach(item => {
+        const progress = attemptProgressOutcome(attempt);
+        if (!progress.time || progress.total <= 0 || dayKey(new Date(progress.time)) !== dayKeyValue) return;
+
+        if (progress.useDetailedOutcomes) {
+          progress.details.forEach(item => {
+            rows.push({
+              front: item.front || "",
+              meaning: item.meaning || "",
+              deckTitle: item.deckTitle || attempt.deckTitle || deckTitleFromId(item.deckId || attempt.deckId || ""),
+              status: item.status,
+              count: 1,
+              time: Number(item.answeredAt || progress.time)
+            });
+          });
+          return;
+        }
+
+        const remaining = { green: progress.green, red: progress.red };
+        progress.details.forEach(item => {
+          if (!["green", "red"].includes(item.status) || remaining[item.status] <= 0) return;
           rows.push({
             front: item.front || "",
             meaning: item.meaning || "",
             deckTitle: item.deckTitle || attempt.deckTitle || deckTitleFromId(item.deckId || attempt.deckId || ""),
-            status: item.status || "",
+            status: item.status,
             count: 1,
-            time: Number(item.answeredAt || attemptTime)
+            time: Number(item.answeredAt || progress.time)
           });
-          addedDetails += 1;
+          remaining[item.status] -= 1;
         });
-        const remaining = countedTotal - addedDetails;
-        if (remaining > 0) {
+
+        ["green", "red"].forEach(status => {
+          if (remaining[status] <= 0) return;
           rows.push({
             front: `${attempt.deckTitle || deckTitleFromId(attempt.deckId || "")}`,
-            meaning: addedDetails ? `本次另有 ${remaining} 張卡未保存逐張詳情` : `本次完成 ${remaining} 張卡`,
-            deckTitle: `${Number(attempt.green || 0)} 綠勾 / ${Number(attempt.red || 0)} 紅叉`,
-            status: "summary",
-            count: remaining,
-            time: attemptTime
+            meaning: `本次另有 ${remaining[status]} 張${status === "green" ? "綠勾" : "紅叉"}卡未保存逐張詳情`,
+            deckTitle: `${progress.green} 綠勾 / ${progress.red} 紅叉`,
+            status,
+            count: remaining[status],
+            time: progress.time
           });
-        }
+        });
       });
-      rows.push(...reconciledProgressRowsForDay(dayKeyValue));
       return rows.sort((a, b) => a.time - b.time);
     }
 
@@ -188276,9 +188441,11 @@ window.EDMUND_FLASHCARD_SEED = {
       const totalStat = document.querySelector("[data-progress-stat-total]");
       const greenStat = document.querySelector("[data-progress-stat-green]");
       const redStat = document.querySelector("[data-progress-stat-red]");
+      const currentRedPracticeCount = document.querySelector("[data-current-red-practice-count]");
       if (totalStat) totalStat.textContent = allTime.total;
       if (greenStat) greenStat.textContent = allTime.green;
-      if (redStat) redStat.textContent = currentRedCrossCards().length;
+      if (redStat) redStat.textContent = allTime.red;
+      if (currentRedPracticeCount) currentRedPracticeCount.textContent = `目前紅叉：${currentRedCrossCards().length}｜練習`;
       renderDashboardCardPanels();
       renderProgressDayPanel();
       renderRedDashboardPanel();
@@ -188362,7 +188529,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function renderAdminSwitchModal() {
       const list = document.querySelector("[data-admin-switch-list]");
       if (!list) return;
-      const students = getStudents();
+      const students = orderedStudents();
       list.innerHTML = students.length
         ? students.map(student => `
           <div class="admin-switch-row">
@@ -188435,18 +188602,133 @@ window.EDMUND_FLASHCARD_SEED = {
       const list = document.querySelector("[data-student-list]");
       if (!list) return;
 
-      const students = getStudents();
+      const students = orderedStudents();
+      const customOrder = studentSortMode === "custom";
+      document.querySelectorAll("[data-student-sort-mode]").forEach(button => {
+        const active = button.getAttribute("data-student-sort-mode") === studentSortMode;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", String(active));
+        button.disabled = studentSortSaveInFlight;
+      });
+      const sortStatus = document.querySelector("[data-student-sort-status]");
+      if (sortStatus) {
+        sortStatus.textContent = studentSortSaveInFlight
+          ? "正在儲存學生排序…"
+          : customOrder
+            ? "可拖放學生；手機／平板可使用上下箭嘴。"
+            : studentSortMode === "asc"
+              ? "按學生名稱由 A 至 Z 顯示。"
+              : "按學生名稱由 Z 至 A 顯示。";
+      }
       list.innerHTML = students.length
-        ? students.map(student => `
-          <div class="student-row">
-            <span>${escapeHtml(student.name)}</span>
+        ? students.map((student, index) => `
+          <div class="student-row ${customOrder ? "custom-order" : ""}" data-student-order-name="${escapeHtml(student.name)}" ${customOrder ? `draggable="true" aria-grabbed="false"` : ""}>
+            <span class="student-row-name">
+              ${customOrder ? `<span class="student-drag-handle" aria-hidden="true">⋮⋮</span>` : ""}
+              <span>${escapeHtml(student.name)}</span>
+            </span>
             <div class="student-row-actions">
+              ${customOrder ? `
+                <button class="mini-button order-step" type="button" data-move-student-order="${escapeHtml(student.name)}" data-move-direction="-1" ${index === 0 || studentSortSaveInFlight ? "disabled" : ""} aria-label="Move ${escapeHtml(student.name)} up">↑</button>
+                <button class="mini-button order-step" type="button" data-move-student-order="${escapeHtml(student.name)}" data-move-direction="1" ${index === students.length - 1 || studentSortSaveInFlight ? "disabled" : ""} aria-label="Move ${escapeHtml(student.name)} down">↓</button>
+              ` : ""}
               <button class="mini-button" type="button" data-select-student="${escapeHtml(student.name)}">Profile</button>
               <button class="mini-button danger" type="button" data-remove-student="${escapeHtml(student.name)}">Remove</button>
             </div>
           </div>
         `).join("")
         : `<p class="note-text">No student accounts yet.</p>`;
+    }
+
+    async function persistStudentSortMode(nextMode) {
+      const normalizedMode = normalizeStudentSortMode(nextMode);
+      const previousMode = studentSortMode;
+      studentSortMode = normalizedMode;
+      studentSortSaveInFlight = true;
+      renderStudents();
+      if (studentsLoadedFromSupabase) {
+        try {
+          const savedMode = await callSupabaseRpc("flashcard_admin_set_student_sort_mode", {
+            p_admin_name: ADMIN_NAME,
+            p_admin_password: adminPasswordForSession,
+            p_sort_mode: normalizedMode
+          });
+          if (normalizeStudentSortMode(savedMode) !== normalizedMode) {
+            throw new Error("Supabase did not confirm the student sort mode.");
+          }
+          cacheLocalAdminStudentSortMode(normalizedMode);
+        } catch (error) {
+          console.warn("Could not save student sort mode:", error);
+          studentSortMode = previousMode;
+          updateSupabaseStatus("Supabase: student sort SQL needed", "error");
+        }
+      } else {
+        cacheLocalAdminStudentSortMode(normalizedMode);
+      }
+      studentSortSaveInFlight = false;
+      renderStudents();
+      renderAdminSwitchModal();
+    }
+
+    async function persistCustomStudentOrder(names) {
+      const previousStudents = [...studentsCache];
+      const previousMode = studentSortMode;
+      if (studentsLoadedFromSupabase) {
+        applyStudentOrder(names);
+      } else {
+        const orderByName = new Map(names.map((name, index) => [name, index + 1]));
+        saveStudents(getStudents().map((student, index) => ({
+          ...student,
+          sortOrder: orderByName.get(student.name) || names.length + index + 1
+        })));
+      }
+      studentSortMode = "custom";
+      studentSortSaveInFlight = true;
+      renderStudents();
+      if (studentsLoadedFromSupabase) {
+        try {
+          const saved = await callSupabaseRpc("flashcard_admin_reorder_students", {
+            p_admin_name: ADMIN_NAME,
+            p_admin_password: adminPasswordForSession,
+            p_student_names: names
+          });
+          if (saved !== true) throw new Error("Supabase did not confirm the custom student order.");
+          cacheLocalAdminStudentSortMode("custom");
+        } catch (error) {
+          console.warn("Could not save custom student order:", error);
+          studentsCache = previousStudents;
+          studentSortMode = previousMode;
+          updateSupabaseStatus("Supabase: student order SQL needed", "error");
+        }
+      } else {
+        saveStudents(orderedStudents(getStudents(), "custom"));
+        cacheLocalAdminStudentSortMode("custom");
+      }
+      studentSortSaveInFlight = false;
+      renderStudents();
+      renderAdminSwitchModal();
+    }
+
+    function moveStudentInCustomOrder(studentName, direction) {
+      if (studentSortSaveInFlight) return;
+      const names = orderedStudents(getStudents(), "custom").map(student => student.name);
+      const fromIndex = names.indexOf(studentName);
+      const toIndex = fromIndex + Number(direction || 0);
+      if (fromIndex < 0 || toIndex < 0 || toIndex >= names.length || fromIndex === toIndex) return;
+      const [moved] = names.splice(fromIndex, 1);
+      names.splice(toIndex, 0, moved);
+      void persistCustomStudentOrder(names);
+    }
+
+    function placeStudentBefore(sourceName, targetName) {
+      if (!sourceName || !targetName || sourceName === targetName || studentSortSaveInFlight) return;
+      const names = orderedStudents(getStudents(), "custom").map(student => student.name);
+      const sourceIndex = names.indexOf(sourceName);
+      const targetIndex = names.indexOf(targetName);
+      if (sourceIndex < 0 || targetIndex < 0) return;
+      const [moved] = names.splice(sourceIndex, 1);
+      names.splice(targetIndex, 0, moved);
+      void persistCustomStudentOrder(names);
     }
 
     function renderAccessChildrenPanel(student) {
@@ -189898,6 +190180,27 @@ window.EDMUND_FLASHCARD_SEED = {
       showIeltsWritingTask2Questions(target.definition.flashType);
       openDeckStart(deckId);
       return true;
+    }
+
+    function openRequestedHomeworkDeck() {
+      if (requestedHomeworkDeckOpened || currentUser?.role !== "student") return false;
+      const deckId = String(new URLSearchParams(window.location.search).get("deck") || "").trim();
+      if (!deckId) return false;
+      requestedHomeworkDeckOpened = true;
+      if (deckId.length > 500 || !getDeckCards(deckId).length) {
+        window.setTimeout(() => window.alert("這個 Flash Cards 卡組目前不存在或尚未加入卡片。"), 0);
+        return false;
+      }
+      if (!canAccessDeck(deckId)) {
+        window.setTimeout(() => window.alert("您的帳戶尚未開放這個 Flash Cards 範圍。"), 0);
+        return false;
+      }
+      openDeckStart(deckId);
+      return true;
+    }
+
+    function openRequestedFlashcardTarget() {
+      return openRequestedFlashcardEssay() || openRequestedHomeworkDeck();
     }
 
     function shuffle(values) {
@@ -191527,7 +191830,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
         if (!ok && status) status.textContent = "Wrong user name or password.";
         if (ok && status) status.textContent = "";
-        if (ok) window.setTimeout(openRequestedFlashcardEssay, 0);
+        if (ok) window.setTimeout(openRequestedFlashcardTarget, 0);
       });
 
       document.querySelector("[data-student-form]")?.addEventListener("submit", async event => {
@@ -191742,6 +192045,20 @@ window.EDMUND_FLASHCARD_SEED = {
       });
 
       document.addEventListener("dragstart", event => {
+        const studentRow = event.target.closest("[data-student-order-name]");
+        if (studentRow) {
+          if (studentSortMode !== "custom" || studentSortSaveInFlight) {
+            event.preventDefault();
+            return;
+          }
+          studentListDragName = studentRow.getAttribute("data-student-order-name") || "";
+          studentRow.classList.add("dragging");
+          studentRow.setAttribute("aria-grabbed", "true");
+          event.dataTransfer?.setData("text/plain", studentListDragName);
+          if (event.dataTransfer) event.dataTransfer.effectAllowed = "move";
+          return;
+        }
+
         const customRow = event.target.closest("[data-custom-card-row]");
         if (customRow) {
           customCardDragDeckId = customRow.getAttribute("data-custom-card-deck") || "";
@@ -191764,6 +192081,19 @@ window.EDMUND_FLASHCARD_SEED = {
       });
 
       document.addEventListener("dragover", event => {
+        const studentRow = event.target.closest("[data-student-order-name]");
+        if (studentListDragName && studentRow) {
+          document.querySelectorAll(".student-row.drag-over").forEach(item => {
+            if (item !== studentRow) item.classList.remove("drag-over");
+          });
+          const targetName = studentRow.getAttribute("data-student-order-name") || "";
+          if (!targetName || targetName === studentListDragName) return;
+          event.preventDefault();
+          if (event.dataTransfer) event.dataTransfer.dropEffect = "move";
+          studentRow.classList.add("drag-over");
+          return;
+        }
+
         const customRow = event.target.closest("[data-custom-card-row]");
         if (customCardDragDeckId && customRow) {
           document.querySelectorAll(".custom-card-table-row.drag-over").forEach(item => {
@@ -191792,12 +192122,27 @@ window.EDMUND_FLASHCARD_SEED = {
       });
 
       document.addEventListener("dragleave", event => {
+        event.target.closest("[data-student-order-name]")?.classList.remove("drag-over");
         event.target.closest("[data-custom-card-row]")?.classList.remove("drag-over");
         const tile = event.target.closest("[data-dashboard-order-key]");
         tile?.classList.remove("drag-over");
       });
 
       document.addEventListener("drop", event => {
+        const studentRow = event.target.closest("[data-student-order-name]");
+        if (studentListDragName && studentRow) {
+          const targetName = studentRow.getAttribute("data-student-order-name") || "";
+          event.preventDefault();
+          document.querySelectorAll(".student-row.drag-over, .student-row.dragging").forEach(item => {
+            item.classList.remove("drag-over", "dragging");
+            item.setAttribute("aria-grabbed", "false");
+          });
+          const sourceName = studentListDragName;
+          studentListDragName = "";
+          placeStudentBefore(sourceName, targetName);
+          return;
+        }
+
         const customRow = event.target.closest("[data-custom-card-row]");
         if (customCardDragDeckId && customRow) {
           const targetDeckId = customRow.getAttribute("data-custom-card-deck") || "";
@@ -191827,6 +192172,11 @@ window.EDMUND_FLASHCARD_SEED = {
       });
 
       document.addEventListener("dragend", () => {
+        studentListDragName = "";
+        document.querySelectorAll(".student-row.drag-over, .student-row.dragging").forEach(item => {
+          item.classList.remove("drag-over", "dragging");
+          item.setAttribute("aria-grabbed", "false");
+        });
         customCardDragDeckId = "";
         customCardDragIndex = -1;
         document.querySelectorAll(".custom-card-table-row.drag-over, .custom-card-table-row.dragging").forEach(item => {
@@ -191839,6 +192189,21 @@ window.EDMUND_FLASHCARD_SEED = {
       });
 
       document.addEventListener("click", async event => {
+        const studentSortModeButton = event.target.closest("[data-student-sort-mode]");
+        if (studentSortModeButton) {
+          await persistStudentSortMode(studentSortModeButton.getAttribute("data-student-sort-mode"));
+          return;
+        }
+
+        const moveStudentButton = event.target.closest("[data-move-student-order]");
+        if (moveStudentButton) {
+          moveStudentInCustomOrder(
+            moveStudentButton.getAttribute("data-move-student-order"),
+            Number(moveStudentButton.getAttribute("data-move-direction") || 0)
+          );
+          return;
+        }
+
         const attemptPageButton = event.target.closest("[data-attempt-page]");
         if (attemptPageButton) {
           selectedAttemptPage = Number(attemptPageButton.getAttribute("data-attempt-page") || 1);
@@ -192504,7 +192869,7 @@ window.EDMUND_FLASHCARD_SEED = {
         showLogin();
       }
       await initSupabaseState();
-      window.setTimeout(openRequestedFlashcardEssay, 0);
+      window.setTimeout(openRequestedFlashcardTarget, 0);
     }
 
     void initialiseFlashcardPortal();

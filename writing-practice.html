@@ -1458,12 +1458,28 @@
       font-size: 24px;
     }
 
-    .progression-pending {
-      display: block;
-      margin-top: 5px;
-      color: #b45309;
+    .progression-topic-block {
+      display: grid;
+      gap: 10px;
+    }
+
+    .progression-topic-text {
+      color: #173153;
+      font-weight: 850;
+      line-height: 1.45;
+    }
+
+    .progression-portal-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .progression-portal-actions .essay-portal-link {
+      min-height: 34px;
+      padding: 7px 12px;
       font-size: 12px;
-      font-weight: 900;
     }
 
     .pathway-empty {
@@ -3404,6 +3420,7 @@
   <script src="writing-practice-model-essays-direct-20-38-data.js?v=20260716-1"></script>
   <script src="writing-practice-model-essays-direct-39-48-data.js?v=20260715-1"></script>
   <script src="writing-practice-hkpf-compositions-data.js?v=20260715-1"></script>
+  <script src="writing-progression-data.js?v=20260727-1"></script>
   <script src="essay-portal-links.js?v=20260727-1"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
   <script>
@@ -3436,13 +3453,9 @@
       { key: "government-writing", label: "政府公務員", subline: "英文寫作", tone: "red" }
     ];
 
-    const writingProgressionRows = [
-      { number: 1, type: "Opinion - Q56", topic: "Health funding: prevention versus treatment", exerciseId: "model-essay-56-ielts-opinion" },
-      { number: 2, type: "Discuss Both Views and Give Your Opinion - Q22", topic: "Environmental action: governments or individuals?", exerciseId: "model-essay-22-ielts-discuss-both-views" },
-      { number: 3, type: "Cause and Solution - Q10", topic: "Why fewer people walk, and how to encourage walking", exerciseId: "model-essay-10-ielts-cause-solution" },
-      { number: 4, type: "Advantages and Disadvantages - Q2", topic: "Online shopping for consumers and companies", exerciseId: "model-essay-2-ielts-advantage-disadvantage" },
-      { number: 5, type: "Direct Questions - Q32", topic: "Truth in news and the function of newspapers", exerciseId: "model-essay-32-ielts-direct-question" }
-    ];
+    const writingProgressionRows = Array.isArray(window.EDMUND_WRITING_PROGRESSION)
+      ? window.EDMUND_WRITING_PROGRESSION
+      : [];
 
     const writingPathways = {
       "dse-writing": {
@@ -5714,6 +5727,7 @@ Device: concession 讓步
     let currentEssayTab = "essay";
     let currentWritingUtilityView = "";
     let requestedEssayOpened = false;
+    let requestedHomeworkExerciseOpened = false;
     let selectedWritingProgressRange = "month";
     let selectedWritingProgressDayKey = "";
     let showWritingCumulativeProgress = false;
@@ -9882,7 +9896,7 @@ Device: concession 讓步
     function renderWritingProgressionView() {
       return `
         <section class="writing-utility-page">
-          ${renderWritingUtilityHeader("Edmund's Progression", "依照 Edmund 建議的次序完成五種 IELTS Task 2 題型。")}
+          ${renderWritingUtilityHeader("Edmund's Progression", "依照 Edmund 建議的次序完成全部 238 篇 IELTS Task 2 範文；可直接前往現有練習、Flash Cards 或下載頁。")}
           <div class="progression-table-shell">
             <table class="progression-table">
               <thead>
@@ -9890,20 +9904,34 @@ Device: concession 讓步
               </thead>
               <tbody>
                 ${writingProgressionRows.map(row => {
-                  const available = Boolean(row.exerciseId && exerciseById(row.exerciseId));
+                  const essayKey = essayPortals?.parse(row.essayKey) || "";
+                  const exerciseId = essayKey && essayPortals.hasWritingPractice(essayKey)
+                    ? essayPortals.writingExerciseId(essayKey)
+                    : "";
+                  const available = Boolean(exerciseId && exerciseById(exerciseId));
+                  const flashcardsHref = essayKey && essayPortals.hasFlashcards(essayKey)
+                    ? essayPortals.href("flashcards", essayKey)
+                    : "";
+                  const downloadHref = essayKey ? essayPortals.href("downloads", essayKey) : "";
                   return `
                     <tr>
                       <td>${escapeHtml(row.number)}</td>
                       <td>${escapeHtml(row.type)}</td>
                       <td>
-                        ${available
-                          ? `<div class="progression-topic-actions">
-                              <button class="progression-open" type="button" data-open-writing-progression="${escapeHtml(row.exerciseId)}">${escapeHtml(row.topic)}</button>
-                              <button class="writing-bookmark-button ${isWritingBookmarked(row.exerciseId) ? "active" : ""}" type="button" data-writing-bookmark="${escapeHtml(row.exerciseId)}" aria-pressed="${isWritingBookmarked(row.exerciseId)}" aria-label="${isWritingBookmarked(row.exerciseId) ? "移除書簽" : "加入書簽"}">
-                                <span data-writing-bookmark-star aria-hidden="true">${isWritingBookmarked(row.exerciseId) ? "★" : "☆"}</span>
-                              </button>
-                            </div>`
-                          : `${escapeHtml(row.topic)}<span class="progression-pending">內容準備中</span>`}
+                        <div class="progression-topic-block">
+                          ${available
+                            ? `<div class="progression-topic-actions">
+                                <button class="progression-open" type="button" data-open-writing-progression="${escapeHtml(exerciseId)}">${escapeHtml(row.topic)}</button>
+                                <button class="writing-bookmark-button ${isWritingBookmarked(exerciseId) ? "active" : ""}" type="button" data-writing-bookmark="${escapeHtml(exerciseId)}" aria-pressed="${isWritingBookmarked(exerciseId)}" aria-label="${isWritingBookmarked(exerciseId) ? "移除書簽" : "加入書簽"}">
+                                  <span data-writing-bookmark-star aria-hidden="true">${isWritingBookmarked(exerciseId) ? "★" : "☆"}</span>
+                                </button>
+                              </div>`
+                            : `<span class="progression-topic-text">${escapeHtml(row.topic)}</span>`}
+                          <div class="progression-portal-actions" aria-label="第 ${escapeHtml(row.number)} 項可用資源">
+                            ${flashcardsHref ? `<a class="essay-portal-link" href="${escapeHtml(flashcardsHref)}" data-essay-portal-link>Flash Cards</a>` : ""}
+                            ${downloadHref ? `<a class="essay-portal-link" href="${escapeHtml(downloadHref)}" data-essay-portal-link>下載 PDF</a>` : ""}
+                          </div>
+                        </div>
                       </td>
                     </tr>
                   `;
@@ -10820,6 +10848,28 @@ Device: concession 讓步
       return true;
     }
 
+    function openRequestedHomeworkExercise() {
+      if (requestedHomeworkExerciseOpened || currentUser?.role !== "student") return false;
+      const exerciseId = String(new URLSearchParams(window.location.search).get("exercise") || "").trim();
+      if (!exerciseId) return false;
+      requestedHomeworkExerciseOpened = true;
+      const sectionKey = sectionKeyForWritingExercise(exerciseId);
+      if (exerciseId.length > 240 || !sectionKey || !exerciseById(exerciseId)) {
+        window.setTimeout(() => window.alert("這個 Fill in the blanks 練習目前不存在。"), 0);
+        return false;
+      }
+      if (!canAccess(sectionKey)) {
+        window.setTimeout(() => window.alert("您的帳戶尚未開放這個 Writing Practice 範圍。"), 0);
+        return false;
+      }
+      openWritingExerciseById(exerciseId);
+      return true;
+    }
+
+    function openRequestedWritingTarget() {
+      return openRequestedWritingEssay() || openRequestedHomeworkExercise();
+    }
+
     function openWritingExerciseFromSearch(sectionKey, exerciseId) {
       if (sectionKey !== sectionKeyForWritingExercise(exerciseId)) return;
       openWritingExerciseById(exerciseId);
@@ -11701,7 +11751,7 @@ Device: concession 讓步
         const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
         if (!ok && status) status.textContent = "用戶名稱或密碼不正確。";
         if (ok && status) status.textContent = "";
-        if (ok) window.setTimeout(openRequestedWritingEssay, 0);
+        if (ok) window.setTimeout(openRequestedWritingTarget, 0);
       });
 
       document.querySelector("[data-student-form]")?.addEventListener("submit", async event => {
@@ -12375,7 +12425,7 @@ Device: concession 讓步
       if (restored && currentUser) {
         if (currentUser.role === "student") await loadWritingStudentState();
         showAppPanel(currentUser.role === "admin" ? "admin-panel" : "dashboard");
-        window.setTimeout(openRequestedWritingEssay, 0);
+        window.setTimeout(openRequestedWritingTarget, 0);
       } else {
         showLogin();
       }

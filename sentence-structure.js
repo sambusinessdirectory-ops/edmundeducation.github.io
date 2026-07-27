@@ -114,7 +114,8 @@ const state = {
   exercisePersistTimer: null,
   toastTimer: null,
   adminStudents: [],
-  selectedAdminStudentId: ""
+  selectedAdminStudentId: "",
+  requestedHomeworkLessonOpened: false
 };
 
 function escapeHtml(value) {
@@ -511,6 +512,7 @@ async function handleLogin(event) {
       showToast("管理員登入成功。");
     } else {
       await openDashboard();
+      openRequestedHomeworkLesson();
       showToast(`你好，${state.user.name}！`);
     }
   } catch (error) {
@@ -637,6 +639,19 @@ async function openDashboard({ force = false } = {}) {
     renderProgressDashboard();
     showToast("未能同步練習記錄。", "error");
   }
+}
+
+function openRequestedHomeworkLesson() {
+  if (state.requestedHomeworkLessonOpened || state.user?.role !== "student") return false;
+  const lessonId = String(new URLSearchParams(window.location.search).get("lesson") || "").trim();
+  if (!lessonId) return false;
+  state.requestedHomeworkLessonOpened = true;
+  if (lessonId.length > 80 || !getLesson(lessonId)) {
+    showToast("這個 Sentence Structure 練習目前不存在。", "error");
+    return false;
+  }
+  openLesson(lessonId, { page: 1 });
+  return true;
 }
 
 function renderLessonChoices() {
@@ -2320,7 +2335,10 @@ async function initialise() {
   }
   setConnection("已安全連接", "online");
   if (state.user.role === "admin") await openAdminDashboard();
-  else await openDashboard();
+  else {
+    await openDashboard();
+    openRequestedHomeworkLesson();
+  }
 }
 
 initialise().catch((error) => {

@@ -25,6 +25,20 @@ import {
   spanLaneLayout,
   studyHoursBefore
 } from "./schedule-enhancements.mjs?v=20260726-2";
+import { HOMEWORK_RESOURCE_CATALOG } from "./homework-resource-catalog.mjs";
+import {
+  HOMEWORK_RESOURCE_TYPES,
+  MAX_HOMEWORK_RESOURCES,
+  SCHEDULE_MESSAGE_MAX_LENGTH,
+  acceptHomeworkAutocomplete,
+  filterHomeworkResources,
+  fullHomeworkTriggerAtCursor,
+  homeworkAutocomplete,
+  normalizeHomeworkHref,
+  normalizeHomeworkResource,
+  parseScheduleMessage,
+  serializeScheduleMessage
+} from "./schedule-homework-links.mjs";
 
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
@@ -107,6 +121,15 @@ const elements = {
   entryTitle: document.querySelector("[data-entry-title]"),
   entryMeta: document.querySelector("[data-entry-meta]"),
   entryMessage: document.querySelector("#schedule-message"),
+  homeworkAutocomplete: document.querySelector("[data-homework-autocomplete]"),
+  homeworkAutocompleteText: document.querySelector("[data-homework-autocomplete-text]"),
+  homeworkPicker: document.querySelector("[data-homework-picker]"),
+  homeworkPickerTitle: document.querySelector("[data-homework-picker-title]"),
+  homeworkPickerSearch: document.querySelector("[data-homework-picker-search]"),
+  homeworkPickerCount: document.querySelector("[data-homework-picker-count]"),
+  homeworkPickerResults: document.querySelector("[data-homework-picker-results]"),
+  homeworkPickerClose: document.querySelector("[data-close-homework-picker]"),
+  homeworkAttachments: document.querySelector("[data-homework-attachments]"),
   entryEstimatedMinutes: document.querySelector("#schedule-estimated-minutes"),
   entryHint: document.querySelector("[data-entry-hint]"),
   entryStatus: document.querySelector("[data-entry-status]"),
@@ -156,7 +179,9 @@ const state = {
   massEditMode: false,
   massEditOriginalEntries: [],
   massEditChanges: new Map(),
-  massEditPreviousShowUnusedTemporarily: false
+  massEditPreviousShowUnusedTemporarily: false,
+  homeworkCompletion: null,
+  homeworkPickerType: ""
 };
 
 function emptyWeekPayload() {
@@ -210,6 +235,155 @@ function showToast(message, status = "success") {
   state.toastTimer = window.setTimeout(() => {
     elements.toast.hidden = true;
   }, 3200);
+}
+
+function homeworkTypeDefinition(type) {
+  return HOMEWORK_RESOURCE_TYPES.find((item) => item.type === type) || null;
+}
+
+function closeHomeworkPicker({ keepSearch = false } = {}) {
+  state.homeworkPickerType = "";
+  elements.homeworkPicker.hidden = true;
+  if (!keepSearch) elements.homeworkPickerSearch.value = "";
+}
+
+function renderHomeworkPickerResults() {
+  const type = state.homeworkPickerType;
+  if (!type) {
+    elements.homeworkPickerResults.replaceChildren();
+    elements.homeworkPickerCount.textContent = "";
+    return;
+  }
+  const result = filterHomeworkResources(
+    HOMEWORK_RESOURCE_CATALOG,
+    type,
+    elements.homeworkPickerSearch.value,
+    60
+  );
+  elements.homeworkPickerCount.textContent = result.total > result.items.length
+    ? `找到 ${result.total} 項；請輸入關鍵字縮窄結果（目前顯示首 ${result.items.length} 項）。`
+    : `找到 ${result.total} 項練習。`;
+  elements.homeworkPickerResults.replaceChildren();
+  if (!result.items.length) {
+    const empty = document.createElement("p");
+    empty.className = "homework-picker-count";
+    empty.textContent = "找不到相符練習。";
+    elements.homeworkPickerResults.append(empty);
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  for (const resource of result.items) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "homework-picker-result";
+    button.dataset.homeworkResourceId = resource.id;
+    button.setAttribute("role", "option");
+    const title = document.createElement("strong");
+    title.textContent = resource.label;
+    const detail = document.createElement("small");
+    detail.textContent = resource.detail || homeworkTypeDefinition(type)?.label || "練習";
+    button.append(title, detail);
+    fragment.append(button);
+  }
+  elements.homeworkPickerResults.append(fragment);
+}
+
+function openHomeworkPicker(type, { focusSearch = false } = {}) {
+  const definition = homeworkTypeDefinition(type);
+  if (!definition || elements.entryMessage.readOnly) return;
+  const changed = state.homeworkPickerType !== type;
+  state.homeworkPickerType = type;
+  elements.homeworkPicker.hidden = false;
+  elements.homeworkPickerTitle.textContent = `選擇 ${definition.label} 練習`;
+  if (changed) elements.homeworkPickerSearch.value = "";
+  renderHomeworkPickerResults();
+  if (focusSearch) window.setTimeout(() => elements.homeworkPickerSearch.focus(), 0);
+}
+
+function renderHomeworkAttachments() {
+  const resources = Array.isArray(state.editing?.resources) ? state.editing.resources : [];
+  elements.homeworkAttachments.replaceChildren();
+  elements.homeworkAttachments.hidden = resources.length === 0;
+  if (!resources.length) return;
+  const label = document.createElement("span");
+  label.className = "homework-attachments-label";
+  label.textContent = "已加入的功課連結";
+  elements.homeworkAttachments.append(label);
+  resources.forEach((resource) => {
+    const row = document.createElement("div");
+    row.className = "homework-attachment-chip";
+    const link = document.createElement("a");
+    link.href = resource.url;
+    link.textContent = `↗ ${resource.label}`;
+    link.title = resource.label;
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.className = "homework-attachment-remove";
+    remove.dataset.removeHomeworkResource = resource.id;
+    remove.textContent = "×";
+    remove.hidden = elements.entryMessage.readOnly;
+    remove.setAttribute("aria-label", `移除 ${resource.label} 連結`);
+    row.append(link, remove);
+    elements.homeworkAttachments.append(row);
+  });
+}
+
+function addHomeworkResource(resourceId) {
+  if (!state.editing || elements.entryMessage.readOnly) return;
+  const raw = HOMEWORK_RESOURCE_CATALOG.find((resource) => resource.id === resourceId);
+  const resource = normalizeHomeworkResource(raw);
+  if (!resource) return;
+  const resources = Array.isArray(state.editing.resources) ? state.editing.resources : [];
+  if (resources.some((item) => item.id === resource.id)) {
+    closeHomeworkPicker();
+    elements.entryMessage.focus();
+    showToast("這個功課連結已經加入。", "success");
+    return;
+  }
+  if (resources.length >= MAX_HOMEWORK_RESOURCES) {
+    const message = `每格最多可加入 ${MAX_HOMEWORK_RESOURCES} 個功課連結；請先移除其他連結。`;
+    setStatus(elements.entryStatus, message, "error");
+    showToast(message, "error");
+    return;
+  }
+  const nextResources = [...resources, resource];
+  const nextMessage = serializeScheduleMessage(elements.entryMessage.value.trim(), nextResources);
+  if (nextMessage.length > SCHEDULE_MESSAGE_MAX_LENGTH) {
+    const message = "未能加入連結：功課內容連同連結最多 2,000 個字元。請縮短內容或移除其他連結。";
+    setStatus(elements.entryStatus, message, "error");
+    showToast(message, "error");
+    return;
+  }
+  state.editing.resources = nextResources;
+  renderHomeworkAttachments();
+  closeHomeworkPicker();
+  elements.entryMessage.focus();
+  setStatus(elements.entryStatus, "");
+  showToast("功課連結已加入；儲存本格後學生即可開啟。", "success");
+}
+
+function removeHomeworkResource(resourceId) {
+  if (!state.editing || elements.entryMessage.readOnly) return;
+  state.editing.resources = (state.editing.resources || []).filter((resource) => resource.id !== resourceId);
+  renderHomeworkAttachments();
+  setStatus(elements.entryStatus, "");
+}
+
+function updateHomeworkAutocomplete() {
+  if (elements.entryMessage.readOnly || !elements.entryDialog.open) {
+    state.homeworkCompletion = null;
+    elements.homeworkAutocomplete.hidden = true;
+    closeHomeworkPicker();
+    return;
+  }
+  const cursor = elements.entryMessage.selectionStart;
+  const completion = homeworkAutocomplete(elements.entryMessage.value, cursor);
+  state.homeworkCompletion = completion?.remainder ? completion : null;
+  elements.homeworkAutocomplete.hidden = !state.homeworkCompletion;
+  elements.homeworkAutocompleteText.textContent = state.homeworkCompletion?.trigger || "";
+  const fullTrigger = fullHomeworkTriggerAtCursor(elements.entryMessage.value, cursor);
+  if (fullTrigger) openHomeworkPicker(fullTrigger.type);
+  else closeHomeworkPicker();
 }
 
 function showView(name) {
@@ -1713,6 +1887,9 @@ function renderWeek() {
 }
 
 function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = false) {
+  const parsedEntry = entry ? parseScheduleMessage(entry.message) : { text: "", resources: [] };
+  const cell = document.createElement("div");
+  cell.className = "schedule-slot-cell";
   const button = document.createElement("button");
   button.type = "button";
   button.className = "schedule-slot";
@@ -1720,7 +1897,7 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
   button.dataset.slotIndex = String(slotIndex);
   button.setAttribute(
     "aria-label",
-    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${entry.message}${entry.isCompleted ? "，已完成" : entry.isInProgress ? "，進行中" : ""}` : "，新增安排"}`
+    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${parsedEntry.text}${parsedEntry.resources.length ? `，附有 ${parsedEntry.resources.length} 個功課連結` : ""}${entry.isCompleted ? "，已完成" : entry.isInProgress ? "，進行中" : ""}` : "，新增安排"}`
   );
 
   const topLine = document.createElement("span");
@@ -1754,11 +1931,12 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
     }
     if (entry.spanGroupId) {
       const bounds = spanBounds(state.weekPayload.entries, entry);
+      cell.classList.add("is-span-project-cell");
       button.classList.add("is-span-project");
       if (spanBottomStart) button.classList.add("span-bottom-start");
       if (entry.scheduleDate === bounds.start) {
         button.classList.add("span-start");
-        button.style.setProperty(
+        cell.style.setProperty(
           "--span-project-width",
           `calc(${bounds.length * 100}% + ${(bounds.length - 1) * SPAN_COLUMN_BRIDGE_PX}px)`
         );
@@ -1795,7 +1973,7 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
     source.textContent = entry.source === "admin" ? "老師安排" : "學生安排";
     const message = document.createElement("p");
     message.className = "entry-message";
-    message.textContent = entry.message;
+    message.textContent = parsedEntry.text;
     button.append(source, message);
     if (entry.estimatedMinutes) {
       const time = document.createElement("span");
@@ -1810,7 +1988,26 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
     placeholder.textContent = "按此新增安排";
     button.append(placeholder);
   }
-  return button;
+  cell.append(button);
+  if (parsedEntry.resources.length && !button.classList.contains("span-continuation")) {
+    const links = document.createElement("nav");
+    links.className = "entry-homework-links";
+    links.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}第 ${slotIndex} 格功課連結`);
+    parsedEntry.resources.slice(0, 3).forEach((resource) => {
+      const link = document.createElement("a");
+      link.className = "entry-homework-link";
+      link.href = resource.url;
+      link.dataset.homeworkLinkUrl = resource.url;
+      link.draggable = false;
+      link.title = `開啟 ${resource.label}`;
+      link.setAttribute("aria-label", `開啟功課：${resource.label}`);
+      link.textContent = `↗ ${resource.label}`;
+      links.append(link);
+    });
+    if (entry?.spanGroupId) button.classList.add("has-homework-links");
+    cell.append(links);
+  }
+  return cell;
 }
 
 function findEntry(date, slotIndex) {
@@ -2203,13 +2400,14 @@ function openEntryDialog(date, slotIndex) {
   const originalEntry = state.massEditMode
     ? massEditOriginalEntry(date, slotIndex, entry)
     : entry;
-  state.editing = { date, slotIndex: Number(slotIndex), entry, originalEntry };
+  const parsedEntry = parseScheduleMessage(entry?.message || "");
+  state.editing = { date, slotIndex: Number(slotIndex), entry, originalEntry, resources: [...parsedEntry.resources] };
   const protectedTeacherEntry = Boolean(
     entry?.source === "admin" && state.currentUser?.role === "student"
   );
   elements.entryTitle.textContent = protectedTeacherEntry ? "老師安排" : entry ? "修改安排" : "新增安排";
   elements.entryMeta.textContent = `${WEEKDAY_LABELS[dayIndex] || "日期"} · ${formatDayDate(date)} · 第 ${slotIndex} 格`;
-  elements.entryMessage.value = entry?.message || "";
+  elements.entryMessage.value = parsedEntry.text;
   elements.entryMessage.readOnly = protectedTeacherEntry;
   elements.entryEstimatedMinutes.value = entry?.estimatedMinutes || "";
   elements.entryEstimatedMinutes.readOnly = protectedTeacherEntry;
@@ -2231,6 +2429,10 @@ function openEntryDialog(date, slotIndex) {
   elements.toggleProgress.setAttribute("aria-pressed", String(Boolean(entry?.isInProgress)));
   elements.toggleProgress.textContent = entry?.isInProgress ? "取消進行中" : "標記進行中";
   setStatus(elements.entryStatus, "");
+  state.homeworkCompletion = null;
+  elements.homeworkAutocomplete.hidden = true;
+  closeHomeworkPicker();
+  renderHomeworkAttachments();
   elements.entryDialog.showModal();
   window.setTimeout(() => {
     if (protectedTeacherEntry) elements.toggleComplete.focus();
@@ -2245,9 +2447,18 @@ async function saveEntry(event) {
     date: state.editing.date,
     slotIndex: state.editing.slotIndex
   };
-  const message = elements.entryMessage.value.trim();
-  if (!message) {
+  const visibleMessage = elements.entryMessage.value.trim();
+  if (!visibleMessage) {
     setStatus(elements.entryStatus, "請輸入功課或溫習內容。", "error");
+    return;
+  }
+  if ((state.editing.resources || []).length > MAX_HOMEWORK_RESOURCES) {
+    setStatus(elements.entryStatus, `每格最多可加入 ${MAX_HOMEWORK_RESOURCES} 個功課連結；請先移除其他連結。`, "error");
+    return;
+  }
+  const message = serializeScheduleMessage(visibleMessage, state.editing.resources);
+  if (message.length > SCHEDULE_MESSAGE_MAX_LENGTH) {
+    setStatus(elements.entryStatus, "功課內容連同連結不可超過 2,000 字元；請縮短文字或移除部分連結。", "error");
     return;
   }
   const estimatedMinutes = elements.entryEstimatedMinutes.value === ""
@@ -2552,6 +2763,7 @@ function preparePrintSheet() {
       list.append(empty);
     } else {
       dayEntries.forEach((entry) => {
+        const parsedEntry = parseScheduleMessage(entry.message);
         const card = document.createElement("article");
         card.className = `print-entry-card ${entry.source === "admin" ? "print-entry-admin" : "print-entry-student"}`;
         if (entry.isCompleted) card.classList.add("print-entry-completed");
@@ -2563,7 +2775,7 @@ function preparePrintSheet() {
         source.className = "print-source";
         source.textContent = `${entry.source === "admin" ? "老師安排" : "學生安排"}${entry.isCompleted ? " · 已完成" : entry.isInProgress ? " · 進行中" : ""}`;
         const message = document.createElement("p");
-        message.textContent = `${entry.message}${entry.estimatedMinutes ? `\n預計需時：${formatEstimatedMinutes(entry.estimatedMinutes)}` : ""}`;
+        message.textContent = `${parsedEntry.text}${parsedEntry.resources.length ? `\n功課連結：${parsedEntry.resources.map((resource) => resource.label).join("、")}` : ""}${entry.estimatedMinutes ? `\n預計需時：${formatEstimatedMinutes(entry.estimatedMinutes)}` : ""}`;
         card.append(label, source, message);
         list.append(card);
       });
@@ -2618,6 +2830,16 @@ elements.passwordToggle.addEventListener("click", () => {
 });
 
 elements.weekGrid.addEventListener("click", (event) => {
+  const homeworkLink = event.target.closest("a[data-homework-link-url]");
+  if (homeworkLink) {
+    const href = normalizeHomeworkHref(homeworkLink.getAttribute("href"));
+    const linkModeBlocked = state.mutationInFlight || state.selectionMode || state.moveEntryId || state.touchActionEntryId;
+    if (!href || linkModeBlocked) {
+      event.preventDefault();
+      if (linkModeBlocked) showToast("請先退出選取或移動模式，再開啟功課連結。", "error");
+    }
+    return;
+  }
   if (state.mutationInFlight) return;
   // A long-press release synthesizes a click on the source slot. Consume that
   // click before action-mode handling so the blue mode remains active for the
@@ -2743,7 +2965,7 @@ elements.weekGrid.addEventListener("drop", (event) => {
   if (shiftExtension && column) {
     extendEntryToDay(entry, column.dataset.columnDate, { adjacentOnly: true });
   } else if (spanDropZone) extendEntryToDay(entry, spanDropZone.dataset.spanDropDate);
-  else moveEntryTo(entry, slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+  else if (slot) moveEntryTo(entry, slot.dataset.slotDate, Number(slot.dataset.slotIndex));
 });
 
 elements.weekGrid.addEventListener("dragend", () => {
@@ -2836,10 +3058,42 @@ elements.weekGrid.addEventListener("contextmenu", (event) => {
 
 elements.entryForm.addEventListener("submit", saveEntry);
 elements.entryMessage.addEventListener("keydown", (event) => {
+  if (!elements.entryMessage.readOnly && event.key === "Tab" && state.homeworkCompletion && !event.isComposing) {
+    const accepted = acceptHomeworkAutocomplete(
+      elements.entryMessage.value,
+      elements.entryMessage.selectionStart,
+      elements.entryMessage.selectionEnd,
+      state.homeworkCompletion
+    );
+    if (accepted) {
+      event.preventDefault();
+      elements.entryMessage.value = accepted.value;
+      elements.entryMessage.setSelectionRange(accepted.cursor, accepted.cursor);
+      state.homeworkCompletion = null;
+      elements.homeworkAutocomplete.hidden = true;
+      openHomeworkPicker(accepted.type);
+      return;
+    }
+  }
   if (!elements.entryMessage.readOnly && event.key === "Enter" && !event.shiftKey && !event.isComposing) {
     event.preventDefault();
     elements.entryForm.requestSubmit();
   }
+});
+elements.entryMessage.addEventListener("input", updateHomeworkAutocomplete);
+elements.entryMessage.addEventListener("click", updateHomeworkAutocomplete);
+elements.homeworkPickerSearch?.addEventListener("input", renderHomeworkPickerResults);
+elements.homeworkPickerClose?.addEventListener("click", () => {
+  closeHomeworkPicker();
+  elements.entryMessage.focus();
+});
+elements.homeworkPickerResults?.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-homework-resource-id]");
+  if (button) addHomeworkResource(button.dataset.homeworkResourceId);
+});
+elements.homeworkAttachments?.addEventListener("click", (event) => {
+  const remove = event.target.closest("[data-remove-homework-resource]");
+  if (remove) removeHomeworkResource(remove.dataset.removeHomeworkResource);
 });
 elements.closeEntry.addEventListener("click", () => elements.entryDialog.close());
 elements.deleteEntry.addEventListener("click", () => elements.deleteDialog.showModal());
@@ -2892,6 +3146,11 @@ window.addEventListener("beforeunload", (event) => {
 
 elements.entryDialog.addEventListener("close", () => {
   if (!elements.deleteDialog.open) state.editing = null;
+  state.homeworkCompletion = null;
+  elements.homeworkAutocomplete.hidden = true;
+  closeHomeworkPicker();
+  elements.homeworkAttachments.replaceChildren();
+  elements.homeworkAttachments.hidden = true;
 });
 
 async function initialize() {

@@ -6,15 +6,35 @@ create table if not exists public.flashcard_admins (
   created_at timestamptz not null default now()
 );
 
+alter table public.flashcard_admins
+  add column if not exists student_sort_mode text not null default 'custom';
+
 create table if not exists public.flashcard_students (
   id uuid primary key default gen_random_uuid(),
   name text not null unique,
   password_hash text not null,
   access jsonb not null default '{}'::jsonb,
+  sort_order integer,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   deleted_at timestamptz
 );
+
+alter table public.flashcard_students
+  add column if not exists sort_order integer;
+
+with ranked_students as (
+  select
+    s.id,
+    row_number() over (order by s.created_at, s.id)::integer as next_sort_order
+  from public.flashcard_students s
+  where s.deleted_at is null
+)
+update public.flashcard_students s
+set sort_order = ranked_students.next_sort_order
+from ranked_students
+where s.id = ranked_students.id
+  and s.sort_order is null;
 
 create table if not exists public.flashcard_student_sessions (
   token uuid primary key default gen_random_uuid(),
@@ -49,11 +69,34 @@ begin
 end;
 $$;
 
+create or replace function public.flashcard_assign_student_sort_order()
+returns trigger
+language plpgsql
+set search_path = public
+as $$
+begin
+  if new.deleted_at is null and new.sort_order is null then
+    select coalesce(max(s.sort_order), 0) + 1
+    into new.sort_order
+    from public.flashcard_students s
+    where s.deleted_at is null
+      and s.id is distinct from new.id;
+  end if;
+  return new;
+end;
+$$;
+
 drop trigger if exists flashcard_students_touch_updated_at on public.flashcard_students;
 create trigger flashcard_students_touch_updated_at
 before update on public.flashcard_students
 for each row
 execute function public.flashcard_touch_updated_at();
+
+drop trigger if exists flashcard_students_assign_sort_order on public.flashcard_students;
+create trigger flashcard_students_assign_sort_order
+before insert or update of deleted_at, sort_order on public.flashcard_students
+for each row
+execute function public.flashcard_assign_student_sort_order();
 
 drop trigger if exists flashcard_student_state_touch_updated_at on public.flashcard_student_state;
 create trigger flashcard_student_state_touch_updated_at
@@ -170,6 +213,7 @@ set search_path = public
 as $$
 declare
   v_name text := trim(p_student_name);
+  v_next_sort_order integer;
 begin
   if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
     return;
@@ -179,18 +223,150 @@ begin
     raise exception 'Student name and password are required.';
   end if;
 
-  insert into public.flashcard_students (name, password_hash, access, deleted_at)
-  values (v_name, extensions.crypt(p_student_password, extensions.gen_salt('bf')), coalesce(p_access, '{}'::jsonb), null)
+  select coalesce(max(s.sort_order), 0) + 1
+  into v_next_sort_order
+  from public.flashcard_students s
+  where s.deleted_at is null;
+
+  insert into public.flashcard_students (name, password_hash, access, sort_order, deleted_at)
+  values (
+    v_name,
+    extensions.crypt(p_student_password, extensions.gen_salt('bf')),
+    coalesce(p_access, '{}'::jsonb),
+    v_next_sort_order,
+    null
+  )
   on conflict on constraint flashcard_students_name_key do update
   set password_hash = excluded.password_hash,
       access = excluded.access,
       deleted_at = null,
+      sort_order = coalesce(flashcard_students.sort_order, excluded.sort_order),
       updated_at = now();
 
   return query
   select s.id, s.name, s.access, s.created_at, s.updated_at
   from public.flashcard_students s
   where s.name = v_name;
+end;
+$$;
+
+create or replace function public.flashcard_admin_get_student_list_preferences(
+  p_admin_name text,
+  p_admin_password text
+)
+returns table(sort_mode text, student_order jsonb)
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
+    return;
+  end if;
+
+  return query
+  select
+    case
+      when a.student_sort_mode in ('asc', 'desc', 'custom') then a.student_sort_mode
+      else 'custom'
+    end,
+    coalesce(
+      (
+        select jsonb_agg(s.name order by s.sort_order nulls last, s.created_at, s.name)
+        from public.flashcard_students s
+        where s.deleted_at is null
+      ),
+      '[]'::jsonb
+    )
+  from public.flashcard_admins a
+  where a.name = p_admin_name;
+end;
+$$;
+
+create or replace function public.flashcard_admin_set_student_sort_mode(
+  p_admin_name text,
+  p_admin_password text,
+  p_sort_mode text
+)
+returns text
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_sort_mode text := lower(trim(coalesce(p_sort_mode, '')));
+begin
+  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
+    return null;
+  end if;
+
+  if v_sort_mode not in ('asc', 'desc', 'custom') then
+    raise exception 'Unsupported student sort mode.';
+  end if;
+
+  update public.flashcard_admins a
+  set student_sort_mode = v_sort_mode
+  where a.name = p_admin_name;
+
+  return v_sort_mode;
+end;
+$$;
+
+create or replace function public.flashcard_admin_reorder_students(
+  p_admin_name text,
+  p_admin_password text,
+  p_student_names text[]
+)
+returns boolean
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_expected_count integer;
+  v_submitted_count integer := coalesce(cardinality(p_student_names), 0);
+  v_distinct_count integer;
+  v_matching_count integer;
+begin
+  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
+    return false;
+  end if;
+
+  select count(*)::integer
+  into v_expected_count
+  from public.flashcard_students s
+  where s.deleted_at is null;
+
+  select count(distinct names.student_name)::integer
+  into v_distinct_count
+  from unnest(coalesce(p_student_names, array[]::text[])) as names(student_name);
+
+  select count(*)::integer
+  into v_matching_count
+  from public.flashcard_students s
+  join unnest(coalesce(p_student_names, array[]::text[])) as names(student_name)
+    on names.student_name = s.name
+  where s.deleted_at is null;
+
+  if v_submitted_count <> v_expected_count
+    or v_distinct_count <> v_submitted_count
+    or v_matching_count <> v_expected_count
+  then
+    return false;
+  end if;
+
+  update public.flashcard_students s
+  set sort_order = ordered.position::integer,
+      updated_at = now()
+  from unnest(p_student_names) with ordinality as ordered(student_name, position)
+  where s.name = ordered.student_name
+    and s.deleted_at is null;
+
+  update public.flashcard_admins a
+  set student_sort_mode = 'custom'
+  where a.name = p_admin_name;
+
+  return true;
 end;
 $$;
 
@@ -508,6 +684,12 @@ grant execute on function public.flashcard_admin_login(text, text) to authentica
 grant execute on function public.flashcard_student_login(text, text) to authenticated;
 grant execute on function public.flashcard_admin_list_students(text, text) to authenticated;
 grant execute on function public.flashcard_admin_upsert_student(text, text, text, text, jsonb) to authenticated;
+revoke all on function public.flashcard_admin_get_student_list_preferences(text, text) from public, anon, authenticated, service_role;
+revoke all on function public.flashcard_admin_set_student_sort_mode(text, text, text) from public, anon, authenticated, service_role;
+revoke all on function public.flashcard_admin_reorder_students(text, text, text[]) from public, anon, authenticated, service_role;
+grant execute on function public.flashcard_admin_get_student_list_preferences(text, text) to authenticated;
+grant execute on function public.flashcard_admin_set_student_sort_mode(text, text, text) to authenticated;
+grant execute on function public.flashcard_admin_reorder_students(text, text, text[]) to authenticated;
 grant execute on function public.flashcard_admin_delete_student(text, text, text) to authenticated;
 grant execute on function public.flashcard_admin_delete_student_with_state(text, text, text) to authenticated;
 grant execute on function public.flashcard_admin_set_student_access(text, text, text, jsonb) to authenticated;

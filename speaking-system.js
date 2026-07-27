@@ -192,7 +192,8 @@
     progressSelectedDay: "",
     durationProgressRange: "month",
     durationProgressShowCumulative: false,
-    durationProgressSelectedDay: ""
+    durationProgressSelectedDay: "",
+    requestedHomeworkExerciseOpened: false
   };
 
   function escapeHtml(value) {
@@ -685,6 +686,7 @@
       showPortal();
       setConnection(isAdmin ? "Admin 已連接" : "Supabase 已連接", "live");
       navigate({ view: isAdmin ? "admin" : "exams" }, { reset: true });
+      if (!isAdmin) openRequestedHomeworkExercise();
     } catch (error) {
       console.warn("Speaking System login failed:", error);
       const message = /Failed to fetch|NetworkError/i.test(String(error?.message))
@@ -3374,6 +3376,33 @@
     return speakingBooks()
       .filter(book => bookIsVisible(book?.book, book?.part))
       .flatMap(book => speakingExercises(book.part, book.book));
+  }
+
+  function openRequestedHomeworkExercise() {
+    if (state.requestedHomeworkExerciseOpened || state.user?.role !== "student") return false;
+    const exerciseId = String(new URLSearchParams(window.location.search).get("exercise") || "").trim();
+    if (!exerciseId) return false;
+    state.requestedHomeworkExerciseOpened = true;
+    const exercise = exerciseId.length <= 240
+      ? allSpeakingExercises().find((item) => item.id === exerciseId)
+      : null;
+    if (!exercise) {
+      toast("這個 Speaking 練習目前不存在。", "error");
+      return false;
+    }
+    const route = {
+      view: "exercise",
+      exam: "ielts",
+      part: Number(exercise.part),
+      book: Number(exercise.book),
+      exerciseIndex: Number(exercise.index)
+    };
+    if (!routeAllowed(route)) {
+      toast("您的帳戶尚未開放這個 Speaking 練習範圍。", "error");
+      return false;
+    }
+    navigate(route, { reset: true, skipGuard: true });
+    return true;
   }
 
   function currentExercise() {
@@ -6834,6 +6863,7 @@
         showPortal();
         setConnection(state.user.role === "admin" ? "Admin 已連接" : "Supabase 已連接", "live");
         navigate({ view: state.user.role === "admin" ? "admin" : "exams" }, { reset: true, skipGuard: true });
+        if (state.user.role === "student") openRequestedHomeworkExercise();
       } catch (error) {
         if (state.user) resetAuthenticatedState("未能驗證登入時段，請重新登入。");
         console.warn("Speaking session restoration failed:", error);
