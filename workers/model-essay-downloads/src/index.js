@@ -2,6 +2,7 @@ import { CATALOG } from "./catalog.js";
 import { DSE_WRITING_PART_A_CATALOG } from "./dse-writing-part-a-catalog.js";
 import { READING_CATALOG } from "./reading-catalog.js";
 import { SPEAKING_CATALOG } from "./speaking-catalog.js";
+import { TASK1_CATALOG } from "./task1-catalog.js";
 
 const encoder = new TextEncoder();
 const COLLECTIONS = Object.freeze({
@@ -19,6 +20,13 @@ const COLLECTIONS = Object.freeze({
     bucketBinding: "ESSAYS",
     auditTask: "task-2",
     defaultZipName: "Edmund-IELTS-Task-2-Model-Essays.zip"
+  }),
+  task1: Object.freeze({
+    catalog: TASK1_CATALOG,
+    byId: new Map(TASK1_CATALOG.map(item => [item.id, item])),
+    bucketBinding: "SPEAKING_ASSETS",
+    auditTask: "task-1",
+    defaultZipName: "Edmund-IELTS-Task-1-All-Model-Essays.zip"
   }),
   speaking: Object.freeze({
     catalog: SPEAKING_CATALOG,
@@ -83,10 +91,11 @@ async function route(request, env, ctx) {
     );
     return json({
       ok: true,
-      files: DSE_WRITING_PART_A_CATALOG.length + CATALOG.length + SPEAKING_CATALOG.length
+      files: DSE_WRITING_PART_A_CATALOG.length + TASK1_CATALOG.length + CATALOG.length + SPEAKING_CATALOG.length
         + Object.values(readingCounts).reduce((sum, count) => sum + count, 0),
       collections: {
         "dse-writing-part-a": DSE_WRITING_PART_A_CATALOG.length,
+        task1: TASK1_CATALOG.length,
         task2: CATALOG.length,
         speaking: SPEAKING_CATALOG.length,
         ...readingCounts
@@ -147,6 +156,25 @@ async function route(request, env, ctx) {
     const student = await authenticateRequest(request, env, form);
     if (!student) return json({ error: "Authentication required" }, 401, request, env);
     return downloadZip(request, env, ctx, student, form, COLLECTIONS.task2);
+  }
+
+  if (url.pathname.startsWith("/v1/task1/files/") && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    const id = decodeURIComponent(url.pathname.slice("/v1/task1/files/".length));
+    return downloadFile(request, env, ctx, student, id, COLLECTIONS.task1);
+  }
+
+  if (url.pathname === "/v1/task1/zip" && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    return downloadZip(request, env, ctx, student, form, COLLECTIONS.task1);
   }
 
   if (url.pathname.startsWith("/v1/speaking/files/") && request.method === "POST") {

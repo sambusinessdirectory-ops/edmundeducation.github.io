@@ -7,8 +7,10 @@ import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import worker from "../workers/model-essay-downloads/src/index.js";
 import { CATALOG } from "../workers/model-essay-downloads/src/catalog.js";
+import { DSE_WRITING_PART_A_CATALOG } from "../workers/model-essay-downloads/src/dse-writing-part-a-catalog.js";
 import { READING_CATALOG } from "../workers/model-essay-downloads/src/reading-catalog.js";
 import { SPEAKING_CATALOG } from "../workers/model-essay-downloads/src/speaking-catalog.js";
+import { TASK1_CATALOG } from "../workers/model-essay-downloads/src/task1-catalog.js";
 
 globalThis.FixedLengthStream ||= class FixedLengthStream {
   constructor() {
@@ -141,10 +143,12 @@ const healthResponse = await worker.fetch(
   ctx
 );
 const health = await healthResponse.json();
-const expectedFileCount = CATALOG.length + SPEAKING_CATALOG.length
+const expectedFileCount = DSE_WRITING_PART_A_CATALOG.length + TASK1_CATALOG.length
+  + CATALOG.length + SPEAKING_CATALOG.length
   + Object.values(expectedReadingCounts).reduce((sum, count) => sum + count, 0);
 if (healthResponse.status !== 200
   || health.files !== expectedFileCount
+  || health.collections?.task1 !== TASK1_CATALOG.length
   || Object.entries(expectedReadingCounts).some(([key, count]) => health.collections?.[key] !== count)) {
   throw new Error(`Health catalog counts are incorrect: ${JSON.stringify(health)}`);
 }

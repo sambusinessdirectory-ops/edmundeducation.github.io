@@ -4,6 +4,9 @@
   const SESSION_KEY = "edmundModelEssayDownloadSession";
   const PAGE_SIZE = 20;
   const ADMIN_PAGE_SIZE = 20;
+  const task1Essays = Array.isArray(window.EDMUND_IELTS_TASK1_DOWNLOADS)
+    ? window.EDMUND_IELTS_TASK1_DOWNLOADS
+    : [];
   const task2Essays = Array.isArray(window.EDMUND_MODEL_ESSAYS) ? window.EDMUND_MODEL_ESSAYS : [];
   const speakingFiles = Array.isArray(window.EDMUND_IELTS_SPEAKING_DOWNLOADS)
     ? window.EDMUND_IELTS_SPEAKING_DOWNLOADS
@@ -15,6 +18,7 @@
     ? window.EDMUND_DSE_WRITING_PART_A_DOWNLOADS
     : [];
   const questionData = window.EDMUND_MODEL_ESSAY_QUESTION_DATA || {};
+  const task1Meta = window.EDMUND_IELTS_TASK1_META || {};
   const task2Meta = window.EDMUND_MODEL_ESSAY_META || {};
   const speakingMeta = window.EDMUND_IELTS_SPEAKING_META || {};
   const readingMeta = window.EDMUND_IELTS_READING_META || {};
@@ -33,6 +37,17 @@
     { key: "discuss-both-views", label: "Express Both Views + Your Opinion" },
     { key: "cause-solution", label: "Cause and Solution" },
     { key: "direct-question", label: "Direct Question" }
+  ];
+
+  const task1Filters = [
+    { key: "all", label: "全部" },
+    { key: "bar-charts", label: "Bar Charts" },
+    { key: "line-graph", label: "Line Graph" },
+    { key: "pie-charts", label: "Pie Charts" },
+    { key: "process-diagram", label: "Process Diagram" },
+    { key: "maps", label: "Maps" },
+    { key: "tables", label: "Tables" },
+    { key: "mixed-charts", label: "Mixed Charts" }
   ];
 
   const speakingFilters = [
@@ -83,6 +98,31 @@
       selectedZipPrefix: "Edmund-DSE-Writing-Part-A-Selected",
       kicker: item => `${item.year} DSE WRITING PART A`,
       detailFallback: "DSE Writing Part A 5** 示範答案 PDF。"
+    }),
+    task1: Object.freeze({
+      key: "task1",
+      items: task1Essays,
+      meta: task1Meta,
+      filters: task1Filters,
+      initialSort: "category",
+      endpointPrefix: "/task1",
+      breadcrumb: "Task 1",
+      eyebrow: "IELTS WRITING TASK 1",
+      titleHtml: "Band 9 Task 1 Model Essays<br>圖表寫作範文下載庫",
+      totalUnit: "份 PDF 範文",
+      itemNoun: "範文",
+      filterLabel: "Task 1 題型篩選",
+      searchLabel: "搜尋檔案名稱、題型或 Model Essay 編號",
+      searchPlaceholder: "搜尋題型或 Model Essay 編號...",
+      categorySortLabel: "按 Task 1 題型分類",
+      emptyTitle: "找不到符合條件的 Task 1 範文",
+      emptyCopy: "請嘗試另一個關鍵字或題型篩選。",
+      allTitle: "確定下載全部 Task 1 範文？",
+      allCopy: "系統會把全部 35 份 IELTS Writing Task 1 Band 9 範文整理成一個 ZIP 檔案。檔案約 89 MB，下載可能需要一些時間。",
+      allZipName: "Edmund-IELTS-Task-1-All-Model-Essays.zip",
+      selectedZipPrefix: "Edmund-IELTS-Task-1-Selected",
+      kicker: item => `MODEL ESSAY ${item.number}${item.variant > 1 ? " · VERSION 2" : ""}`,
+      detailFallback: "IELTS Writing Task 1 Band 9 model essay PDF。"
     }),
     task2: Object.freeze({
       key: "task2",
@@ -221,6 +261,7 @@
   let byId = new Map(essays.map(item => [item.id, item]));
   const allItemsById = new Map([
     ...dseWritingPartAFiles,
+    ...task1Essays,
     ...task2Essays,
     ...speakingFiles,
     ...readingFiles
@@ -323,6 +364,12 @@
     if (state.catalogKey === "speaking") {
       return {
         question: `IELTS Speaking Part ${essay?.part} · Book ${essay?.book}，Band 9 sample PDF。`,
+        tags: []
+      };
+    }
+    if (state.catalogKey === "task1") {
+      return {
+        question: `IELTS Writing Task 1 · ${essay?.categoryLabel} · Model Essay ${essay?.number}${essay?.variant > 1 ? " · Version 2" : ""}，Band 9 範文 PDF。`,
         tags: []
       };
     }
@@ -1076,12 +1123,15 @@
 
   function logEssayLabel(event) {
     const ids = Array.isArray(event.essay_ids) ? event.essay_ids : [];
+    const isTask1 = event.task === "task-1";
     const isSpeaking = event.task === "speaking";
     const isReading = String(event.task || "").startsWith("reading-passage-");
     const isDseWritingPartA = event.section === "dse" && event.task === "writing-part-a";
     if (event.event_type === "all_bundle") {
       const label = isDseWritingPartA
         ? "All DSE Writing Part A bundle"
+        : isTask1
+          ? "All IELTS Task 1 essay bundle"
         : isSpeaking
         ? "All IELTS Speaking bundle"
         : isReading
@@ -1097,6 +1147,8 @@
     const items = names.map(name => `<li>${escapeHtml(name)}</li>`).join("");
     const noun = isDseWritingPartA
       ? "DSE Writing Part A 示範答案"
+      : isTask1
+        ? "Task 1 範文"
       : isSpeaking
         ? "Speaking 教材"
         : isReading

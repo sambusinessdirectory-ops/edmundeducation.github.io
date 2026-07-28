@@ -1,7 +1,7 @@
 # Edmund model-essay download Worker
 
 This Worker exposes the private `edmund-model-essays-private` R2 bucket and the
-`DSE Writing Part A/`, `IELTS Speaking All Parts/`, and `IELTS Reading/` prefixes in the `edmund-assets`
+`DSE Writing Part A/`, `IELTS Writing Task 1/`, `IELTS Speaking All Parts/`, and `IELTS Reading/` prefixes in the `edmund-assets`
 R2 bucket through `edmund-model-essay-downloads.edmundeducation.workers.dev`.
 It validates the Flashcard student session,
 rate-limits and proxies the admin password check, forces single PDFs to download,
@@ -36,7 +36,7 @@ Deployment notes:
 5. Deploy with Wrangler 4.36.0 or later so the configured admin-login rate
    limiting binding is available: `npx wrangler@latest deploy`.
 6. Test the Worker URL, login, one PDF, 11 selected PDFs, and download-all for
-   DSE Writing Part A, Task 2, IELTS Speaking, and each IELTS Reading passage, plus the matching
+   DSE Writing Part A, IELTS Task 1, Task 2, IELTS Speaking, and each IELTS Reading passage, plus the matching
    admin audit rows.
 7. Keep the Task 2 bucket private. The existing IELTS Speaking objects may
    remain on the public `r2.dev` domain, as may the IELTS Reading objects, but
@@ -48,6 +48,7 @@ Deployment notes:
 The browser sends only catalog IDs to the ZIP endpoints. The Worker-owned
 catalogs fix each ID to one exact R2 key, size, CRC-32 value, and archive name.
 Regenerate DSE Writing Part A with `tools/build-dse-writing-part-a-download-catalog.py`,
+IELTS Task 1 with `tools/build-ielts-task1-download-catalog.py`,
 Task 2 with `tools/build-model-essay-catalog.py`, and IELTS Speaking
 with `tools/build-ielts-speaking-download-catalog.py` whenever PDFs change.
 Regenerate all three IELTS Reading passage catalogs with
@@ -65,3 +66,8 @@ DSE Writing Part A downloads use:
 
 - `/v1/dse/writing-part-a/files/:id`
 - `/v1/dse/writing-part-a/zip`
+
+IELTS Writing Task 1 downloads use:
+
+- `/v1/task1/files/:id`
+- `/v1/task1/zip`
