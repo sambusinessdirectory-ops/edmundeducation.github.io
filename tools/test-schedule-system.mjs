@@ -141,7 +141,7 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 17, "homepage must contain 17 numbered category cards after adding Proverb System");
+assert.equal(homepageCards.length, 18, "homepage must contain 18 numbered category cards after adding Phrasal Verb System");
 assert.match(homepage, /schedule-system-card/);
 assert.match(homepage, /href="schedule-system\.html"/);
 assert.match(homepage, /功課及溫習安排系統/);

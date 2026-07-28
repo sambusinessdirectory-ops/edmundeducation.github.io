@@ -9,6 +9,7 @@
     { id: "sentence", href: "sentence-structure.html", zh: "句子結構", en: "Sentence Structure" },
     { id: "idioms", href: "idiom-system.html", zh: "英文慣用語", en: "Idiom Learning" },
     { id: "proverbs", href: "proverb-system.html", zh: "(學生使用) 諺語", en: "學生使用系統" },
+    { id: "phrasal-verbs", href: "phrasal-verb-system.html", zh: "Phrasal Verb 動詞片語", en: "學習系統" },
     { id: "schedule", href: "schedule-system.html", zh: "功課及溫習安排", en: "Study Schedule" },
     { id: "downloads", href: "model-essay-downloads.html", zh: "教材下載區", en: "Downloads" }
   ]);
@@ -19,6 +20,7 @@
     sentence: "edmund-sentence-structure-session-v1",
     idioms: "edmund-idiom-system-session-v1",
     proverbs: "edmund-proverb-system-session-v1",
+    "phrasal-verbs": "edmund-phrasal-verb-system-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession"
   });
@@ -92,6 +94,12 @@
           ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
           : null;
       },
+      "phrasal-verbs"() {
+        const value = storageJson(storage, SESSION_KEYS["phrasal-verbs"]);
+        return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
+          ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
+          : null;
+      },
       schedule() {
         const value = storageJson(storage, SESSION_KEYS.schedule);
         return value?.role === "student" && value.impersonatedByAdmin !== true && value.studentToken && value.name
@@ -110,7 +118,7 @@
     if (universal?.role === "student" && universal.token && universal.name) return universal;
     const active = candidates[activeSystem]?.();
     if (active) return active;
-    return candidates.flashcards() || candidates.speaking() || candidates.sentence() || candidates.idioms() || candidates.proverbs() || candidates.schedule() || candidates.downloads() || null;
+    return candidates.flashcards() || candidates.speaking() || candidates.sentence() || candidates.idioms() || candidates.proverbs() || candidates["phrasal-verbs"]() || candidates.schedule() || candidates.downloads() || null;
   }
 
   function rememberStudentSession(value) {
@@ -186,6 +194,12 @@
       role: "student"
     }, overwrite);
     writeStudentSession(storage, SESSION_KEYS.proverbs, {
+      token: universal.token,
+      id: universal.id,
+      name: universal.name,
+      role: "student"
+    }, overwrite);
+    writeStudentSession(storage, SESSION_KEYS["phrasal-verbs"], {
       token: universal.token,
       id: universal.id,
       name: universal.name,
