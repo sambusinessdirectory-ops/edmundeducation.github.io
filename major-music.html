@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>英文流行曲歌詞賞析 | EdmundEducation</title>
-  <meta name="description" content="Edmund Music Journal：英文流行曲歌詞、背景與中英賞析。">
-  <meta property="og:title" content="Edmund Music Journal">
-  <meta property="og:description" content="Lyrics · Context · Analysis">
+  <meta name="description" content="Edmund 音樂賞析誌：英文流行曲歌詞、背景與中英賞析。">
+  <meta property="og:title" content="Edmund 音樂賞析誌">
+  <meta property="og:description" content="歌詞 · 背景 · 賞析">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Edmund Music Journal">
-  <meta name="twitter:description" content="Lyrics · Context · Analysis">
+  <meta name="twitter:title" content="Edmund 音樂賞析誌">
+  <meta name="twitter:description" content="歌詞 · 背景 · 賞析">
   <meta name="twitter:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
   <meta name="theme-color" content="#20283d">
@@ -551,6 +551,168 @@
       font-weight: 800;
     }
 
+    .article-manager {
+      margin-bottom: 30px;
+      border: 1px solid rgba(0,0,0,0.10);
+      border-radius: 10px;
+      background: #fbfbfd;
+      overflow: hidden;
+    }
+
+    .article-manager summary {
+      min-height: 58px;
+      padding: 16px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      color: var(--ink);
+      font-size: 17px;
+      font-weight: 900;
+      list-style: none;
+      user-select: none;
+    }
+
+    .article-manager summary::-webkit-details-marker { display: none; }
+
+    .article-manager summary::after {
+      content: "＋";
+      color: var(--brand);
+      font-family: system-ui, sans-serif;
+      font-size: 21px;
+      line-height: 1;
+    }
+
+    .article-manager[open] summary::after { content: "−"; }
+
+    .manager-count {
+      margin-left: auto;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .manager-content {
+      padding: 0 18px 18px;
+    }
+
+    .manager-note {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+      font-weight: 700;
+    }
+
+    .manager-table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .manager-table {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+      font-family: system-ui, sans-serif;
+    }
+
+    .manager-table th,
+    .manager-table td {
+      padding: 12px;
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .manager-table th {
+      background: #f5f5f7;
+      color: #4b4b50;
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.03em;
+    }
+
+    .manager-table tbody tr:last-child td { border-bottom: 0; }
+
+    .manager-title {
+      max-width: 320px;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", serif;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 900;
+    }
+
+    .manager-date {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .manager-status {
+      display: inline-flex;
+      align-items: center;
+      min-height: 27px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: #e9f7ef;
+      color: #18713b;
+      font-size: 11px;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+
+    .manager-status.is-hidden {
+      background: #f5eee8;
+      color: #7d4729;
+    }
+
+    .manager-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .manager-action,
+    .cancel-edit-button {
+      min-height: 32px;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 7px;
+      padding: 6px 10px;
+      background: #fff;
+      color: var(--ink);
+      font: 800 12px/1.2 system-ui, sans-serif;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .manager-action:hover,
+    .cancel-edit-button:hover { background: #f2f2f4; }
+
+    .manager-action.is-danger {
+      color: #a1241c;
+      border-color: rgba(161,36,28,0.22);
+    }
+
+    .manager-empty {
+      padding: 24px 14px !important;
+      color: var(--muted);
+      text-align: center !important;
+      font-weight: 700;
+    }
+
+    .admin-heading-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .cancel-edit-button[hidden] { display: none; }
+
     .blog-form {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -679,6 +841,12 @@
       background: #f5f5f7;
     }
 
+    .format-button[aria-pressed="true"] {
+      border-color: var(--brand);
+      background: #f5eee8;
+      color: #6d3d24;
+    }
+
     .format-shortcut {
       color: var(--muted);
       font-size: 12px;
@@ -704,7 +872,11 @@
     .rich-editor strong,
     .rich-editor b {
       font-weight: 900;
+      font-variation-settings: "wght" 900;
+      -webkit-text-stroke: 0.18px currentColor;
     }
+
+    .rich-editor span[style*="font-size"] { line-height: 1.35; }
 
     .rich-editor:focus {
       border-color: rgba(0,113,227,0.55);
@@ -770,7 +942,41 @@
       outline: 0;
     }
 
-    .lyrics-grid-table { min-width: 560px; }
+    .lyrics-grid-table { min-width: 640px; }
+
+    .lyrics-grid-table th:last-child,
+    .lyrics-grid-table td:last-child {
+      width: 72px;
+      text-align: center;
+    }
+
+    .bilingual-row-controls {
+      background: #f7f7f9;
+      vertical-align: middle !important;
+    }
+
+    .line-control {
+      display: none;
+      width: 30px;
+      min-height: 30px;
+      margin: 3px auto;
+      border: 1px solid rgba(0,0,0,0.13);
+      border-radius: 50%;
+      background: #fff;
+      color: var(--ink);
+      font: 900 18px/1 system-ui, sans-serif;
+    }
+
+    .lyrics-grid-table.show-insert-controls [data-insert-bilingual-row],
+    .lyrics-grid-table.show-delete-controls [data-delete-bilingual-row] {
+      display: grid;
+      place-items: center;
+    }
+
+    .lyrics-grid-table.show-delete-controls [data-delete-bilingual-row] {
+      color: #a1241c;
+      border-color: rgba(161,36,28,0.22);
+    }
 
     .table-rich-editor {
       min-height: 64px;
@@ -958,9 +1164,9 @@
 
   <div class="site-shell">
     <header class="music-nav">
-      <a class="music-brand" href="major-music.html" aria-label="Edmund Music Journal">
+      <a class="music-brand" href="major-music.html" aria-label="Edmund 音樂賞析誌">
         <span class="music-brand-mark">♪</span>
-        <span>Edmund Music Journal</span>
+        <span>Edmund 音樂賞析誌</span>
       </a>
 
       <nav class="music-links">
@@ -997,7 +1203,33 @@
       </section>
 
       <section class="admin-panel" id="create" data-admin-panel hidden>
-        <h2>新增歌詞賞析文章</h2>
+        <details class="article-manager" data-article-manager open>
+          <summary>
+            <span>目前文章管理</span>
+            <span class="manager-count" data-manager-count>0 篇文章</span>
+          </summary>
+          <div class="manager-content">
+            <p class="manager-note">文章依最新發布日期排列。隱藏文章會從公開頁面移除，完整內容仍安全保留在 Supabase 私人檔案，之後可以再次公開或匯出文字備份。</p>
+            <div class="manager-table-wrap">
+              <table class="manager-table">
+                <thead>
+                  <tr>
+                    <th scope="col">文章</th>
+                    <th scope="col">發布日期</th>
+                    <th scope="col">狀態</th>
+                    <th scope="col">管理</th>
+                  </tr>
+                </thead>
+                <tbody data-article-management-body></tbody>
+              </table>
+            </div>
+          </div>
+        </details>
+
+        <div class="admin-heading-row">
+          <h2 data-editor-title>新增歌詞賞析文章</h2>
+          <button class="cancel-edit-button" type="button" data-cancel-edit hidden>取消編輯</button>
+        </div>
         <p class="admin-note" data-admin-note aria-live="polite">登入後可以新增文章。文章會同步到網站，讓讀者在不同裝置上開啟；這部電腦內的舊文章也會在登入後自動匯入。</p>
 
         <form class="blog-form" data-blog-form>
@@ -1024,8 +1256,8 @@
           </div>
 
           <section class="editor-section" aria-labelledby="song-details-heading">
-            <h3 id="song-details-heading">Song details</h3>
-            <p class="editor-help">Add the information readers should see above the article. This table is shown without border lines after publishing.</p>
+            <h3 id="song-details-heading">歌曲資料</h3>
+            <p class="editor-help">加入讀者會在文章頂部看到的資料；發布後表格不會顯示邊框。</p>
             <div class="editor-table-wrap">
               <table class="editor-table metadata-table">
                 <tbody>
@@ -1051,32 +1283,43 @@
           </section>
 
           <section class="editor-section" data-editor-section aria-labelledby="context-heading">
-            <h3 id="context-heading">Context and Background</h3>
+            <h3 id="context-heading">創作背景與脈絡</h3>
             <div class="format-toolbar" aria-label="Context and background formatting controls">
-              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> Bold</button>
-              <button class="format-button" type="button" data-editor-command="heading">Section heading</button>
-              <span class="format-shortcut">Select text first. ⌘/Ctrl+B also works.</span>
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
+              <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
+              <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
+              <button class="format-button" type="button" data-editor-command="gold">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
+              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H。</span>
             </div>
             <div id="post-context" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="Paste or write the song's context and background..."></div>
           </section>
 
           <section class="editor-section" data-editor-section aria-labelledby="full-lyrics-heading">
-            <h3 id="full-lyrics-heading">Full Lyrics in English</h3>
+            <h3 id="full-lyrics-heading">完整英文歌詞</h3>
             <div class="format-toolbar" aria-label="Full English lyrics formatting controls">
-              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> Bold</button>
-              <button class="format-button" type="button" data-editor-command="heading">Section heading</button>
-              <span class="format-shortcut">Select text first. ⌘/Ctrl+B also works.</span>
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
+              <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
+              <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
+              <button class="format-button" type="button" data-editor-command="gold">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
+              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H。</span>
             </div>
             <div id="post-full-lyrics" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="Paste the full English lyrics here..."></div>
           </section>
 
           <section class="editor-section" data-editor-section aria-labelledby="bilingual-lyrics-heading">
-            <h3 id="bilingual-lyrics-heading">Full Lyrics: English and Chinese</h3>
-            <p class="editor-help">The left column is English and the right column is Chinese. Empty rows will not be published, and the published table has no border lines.</p>
+            <h3 id="bilingual-lyrics-heading">完整歌詞：英文與中文</h3>
+            <p class="editor-help">左欄為英文，右欄為中文。完全未使用的行不會發布；如在空白行輸入空格，該行會保留作為分段留白。發布後表格不顯示邊框。</p>
             <div class="format-toolbar" aria-label="Bilingual lyrics formatting controls">
-              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> Bold</button>
-              <button class="format-button" type="button" data-editor-command="heading">Section heading</button>
-              <span class="format-shortcut">Click a cell, then format its selected text.</span>
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
+              <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
+              <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
+              <button class="format-button" type="button" data-editor-command="gold">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
+              <button class="format-button" type="button" data-bilingual-control-mode="insert" aria-pressed="false">Add Between Line</button>
+              <button class="format-button" type="button" data-bilingual-control-mode="delete" aria-pressed="false">Delete a line</button>
+              <span class="format-shortcut">先按行管理按鈕，再使用每行右方的 ＋／−。</span>
             </div>
             <div class="editor-table-wrap">
               <table class="editor-table lyrics-grid-table">
@@ -1084,6 +1327,7 @@
                   <tr>
                     <th scope="col">English</th>
                     <th scope="col">中文</th>
+                    <th scope="col">調整</th>
                   </tr>
                 </thead>
                 <tbody data-bilingual-lyrics-body></tbody>
@@ -1101,12 +1345,15 @@
           </div>
 
           <section class="editor-section" data-editor-section aria-labelledby="lyric-analysis-heading">
-            <h3 id="lyric-analysis-heading">Lyrics and Deep Analysis</h3>
-            <p class="editor-help">Each larger lyric line is followed by its analysis. Completely empty pairs will not be published.</p>
+            <h3 id="lyric-analysis-heading">歌詞深入賞析</h3>
+            <p class="editor-help">每段較大的歌詞之後接續分析；完全空白的組合不會發布。</p>
             <div class="format-toolbar" aria-label="Lyrics and analysis formatting controls">
-              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> Bold</button>
-              <button class="format-button" type="button" data-editor-command="heading">Section heading</button>
-              <span class="format-shortcut">Click a lyric or analysis box, then format its selected text.</span>
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
+              <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
+              <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
+              <button class="format-button" type="button" data-editor-command="gold">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
+              <span class="format-shortcut">歌詞行與分析欄均支援 ⌘/Ctrl+B、＋、−、H。</span>
             </div>
             <div class="editor-table-wrap">
               <table class="editor-table analysis-table">
@@ -1116,6 +1363,20 @@
             <div class="editor-row-actions">
               <button class="add-editor-rows" type="button" data-add-analysis-lines>Add 10 more lines</button>
             </div>
+          </section>
+
+          <section class="editor-section" data-editor-section aria-labelledby="reflection-heading">
+            <h3 id="reflection-heading">反思</h3>
+            <p class="editor-help">記錄歌曲帶來的個人反思、教學延伸或留給讀者的問題。</p>
+            <div class="format-toolbar" aria-label="Reflection formatting controls">
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
+              <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
+              <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
+              <button class="format-button" type="button" data-editor-command="gold">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
+              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H。</span>
+            </div>
+            <div id="post-reflection" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="寫下這首歌帶來的反思……"></div>
           </section>
 
           <div class="form-actions">
@@ -1168,6 +1429,10 @@
     let activeRichRange = null;
     let sharedPosts = [];
     let sharedPostsLoaded = false;
+    let editingPostId = "";
+    let editingPrimaryImage = "";
+    let editingSecondImage = "";
+    let bilingualControlMode = "";
 
     const seedPosts = [];
 
@@ -1214,8 +1479,29 @@
         ["H6", "h3"],
         ["P", "p"],
         ["DIV", "div"],
-        ["BR", "br"]
+        ["BR", "br"],
+        ["SPAN", "span"]
       ]);
+
+      function copySafeInlineStyle(source, target) {
+        if (source.tagName !== "SPAN") return;
+
+        const fontSize = String(source.style.fontSize || "").trim().toLowerCase();
+        const fontSizeMatch = fontSize.match(/^(\d+(?:\.\d+)?)(%|em|px)$/);
+        if (fontSizeMatch) {
+          const amount = Number(fontSizeMatch[1]);
+          const unit = fontSizeMatch[2];
+          const isSafe = (unit === "%" && amount >= 10 && amount <= 10000)
+            || (unit === "em" && amount >= 0.1 && amount <= 100)
+            || (unit === "px" && amount >= 1 && amount <= 1600);
+          if (isSafe) target.style.fontSize = `${amount}${unit}`;
+        }
+
+        const color = String(source.style.color || "").replace(/\s+/g, "").toLowerCase();
+        if (["#93552f", "rgb(147,85,47)"].includes(color)) {
+          target.style.color = "#93552f";
+        }
+      }
 
       function appendCleanNode(source, parent) {
         if (source.nodeType === Node.TEXT_NODE) {
@@ -1232,12 +1518,20 @@
         }
 
         const cleanElement = document.createElement(safeTag);
+        copySafeInlineStyle(source, cleanElement);
         Array.from(source.childNodes).forEach(child => appendCleanNode(child, cleanElement));
         parent.append(cleanElement);
       }
 
       Array.from(editor.childNodes).forEach(child => appendCleanNode(child, output));
       return plainRichText(output.innerHTML) ? output.innerHTML.trim() : "";
+    }
+
+    function setRichEditorContent(editor, value) {
+      if (!editor) return;
+      const staging = document.createElement("div");
+      staging.innerHTML = String(value || "");
+      editor.innerHTML = richEditorHtml(staging);
     }
 
     function getYouTubeVideoId(value) {
@@ -1275,8 +1569,42 @@
           <td>
             <div class="rich-editor table-rich-editor" contenteditable="true" role="textbox" aria-label="Chinese lyric line ${index}" aria-multiline="true" data-rich-editor data-bilingual-chinese data-placeholder="中文第 ${index} 行"></div>
           </td>
+          <td class="bilingual-row-controls">
+            <button class="line-control" type="button" data-insert-bilingual-row aria-label="在第 ${index} 行之後加入一行">＋</button>
+            <button class="line-control" type="button" data-delete-bilingual-row aria-label="刪除第 ${index} 行">−</button>
+          </td>
         </tr>
       `;
+    }
+
+    function renumberBilingualRows() {
+      document.querySelectorAll("[data-bilingual-row]").forEach((row, rowIndex) => {
+        const index = rowIndex + 1;
+        const english = row.querySelector("[data-bilingual-english]");
+        const chinese = row.querySelector("[data-bilingual-chinese]");
+        const insertButton = row.querySelector("[data-insert-bilingual-row]");
+        const deleteButton = row.querySelector("[data-delete-bilingual-row]");
+        if (english) {
+          english.setAttribute("aria-label", `English lyric line ${index}`);
+          english.dataset.placeholder = `English line ${index}`;
+        }
+        if (chinese) {
+          chinese.setAttribute("aria-label", `Chinese lyric line ${index}`);
+          chinese.dataset.placeholder = `中文第 ${index} 行`;
+        }
+        insertButton?.setAttribute("aria-label", `在第 ${index} 行之後加入一行`);
+        deleteButton?.setAttribute("aria-label", `刪除第 ${index} 行`);
+      });
+    }
+
+    function updateBilingualControlMode(mode = "") {
+      bilingualControlMode = bilingualControlMode === mode ? "" : mode;
+      const table = document.querySelector(".lyrics-grid-table");
+      table?.classList.toggle("show-insert-controls", bilingualControlMode === "insert");
+      table?.classList.toggle("show-delete-controls", bilingualControlMode === "delete");
+      document.querySelectorAll("[data-bilingual-control-mode]").forEach(button => {
+        button.setAttribute("aria-pressed", String(button.dataset.bilingualControlMode === bilingualControlMode));
+      });
     }
 
     function analysisLineTemplate(index) {
@@ -1302,6 +1630,7 @@
 
       const firstIndex = tableBody.querySelectorAll("[data-bilingual-row]").length + 1;
       tableBody.insertAdjacentHTML("beforeend", Array.from({ length: count }, (_, offset) => bilingualRowTemplate(firstIndex + offset)).join(""));
+      renumberBilingualRows();
     }
 
     function addAnalysisLines(count = EXTRA_EDITOR_ROWS) {
@@ -1321,6 +1650,9 @@
       if (analysisBody) analysisBody.innerHTML = "";
       addBilingualRows(INITIAL_BILINGUAL_ROWS);
       addAnalysisLines(INITIAL_ANALYSIS_LINES);
+      updateBilingualControlMode(bilingualControlMode);
+      bilingualControlMode = "";
+      updateBilingualControlMode();
       activeRichEditor = null;
     }
 
@@ -1328,8 +1660,12 @@
       return Array.from(document.querySelectorAll("[data-bilingual-row]")).map(row => {
         const english = richEditorHtml(row.querySelector("[data-bilingual-english]"));
         const chinese = richEditorHtml(row.querySelector("[data-bilingual-chinese]"));
-        return { english, chinese };
-      }).filter(item => plainRichText(item.english) || plainRichText(item.chinese));
+        const hasWords = Boolean(plainRichText(english) || plainRichText(chinese));
+        const intentionalBreak = !hasWords && row.dataset.rowTouched === "true";
+        return intentionalBreak
+          ? { english: "<br>", chinese: "<br>", intentionalBreak: true }
+          : { english, chinese, intentionalBreak: false };
+      }).filter(item => item.intentionalBreak || plainRichText(item.english) || plainRichText(item.chinese));
     }
 
     function readLyricAnalysis() {
@@ -1392,10 +1728,12 @@
       const payload = row?.payload && typeof row.payload === "object" ? row.payload : {};
       const id = String(row?.id || payload.id || "").trim();
       if (!id) return null;
+      const published = row?.published !== false;
       return {
         ...payload,
         id,
         _sortIndex: Number(row?.sort_index) || 0,
+        published,
         isCustom: true,
         isShared: true
       };
@@ -1412,11 +1750,17 @@
     }
 
     function sortPosts(posts) {
-      return [...posts].sort((a, b) => postTimestamp(b) - postTimestamp(a));
+      return [...posts].sort((a, b) => {
+        const sortIndexDifference = (Number(b?._sortIndex) || 0) - (Number(a?._sortIndex) || 0);
+        return sortIndexDifference || postTimestamp(b) - postTimestamp(a);
+      });
     }
 
     function getAllPosts() {
-      const localPosts = getStoredPosts().map(post => ({ ...post, isCustom: true }));
+      const localPosts = getStoredPosts()
+        .filter(post => post?.published !== false && !post?.isHidden)
+        .map(post => ({ ...post, isCustom: true }));
+      const visibleSharedPosts = sharedPosts.filter(post => post?.published !== false);
       if (!sharedPostsLoaded) {
         return sortPosts([
           ...localPosts,
@@ -1431,7 +1775,7 @@
           .filter(post => !sharedIds.has(post.id))
           .map(post => ({ ...post, isCustom: false }))
       );
-      return [...localOnly, ...sharedPosts, ...seedOnly];
+      return [...localOnly, ...visibleSharedPosts, ...seedOnly];
     }
 
     function showAdminStatus(message, isError = false) {
@@ -1439,6 +1783,128 @@
       if (!note) return;
       note.textContent = message;
       note.style.color = isError ? "#b42318" : "";
+    }
+
+    function getManagementPosts() {
+      const postsById = new Map();
+      getStoredPosts().forEach(post => {
+        if (!post?.id) return;
+        postsById.set(post.id, {
+          ...post,
+          published: post.published !== false && !post.isHidden,
+          isCustom: true,
+          isShared: false
+        });
+      });
+      sharedPosts.forEach(post => {
+        if (!post?.id) return;
+        postsById.set(post.id, {
+          ...(postsById.get(post.id) || {}),
+          ...post,
+          published: post.published !== false,
+          isCustom: true,
+          isShared: true
+        });
+      });
+      return sortPosts(Array.from(postsById.values()));
+    }
+
+    function renderArticleManager() {
+      const body = document.querySelector("[data-article-management-body]");
+      const count = document.querySelector("[data-manager-count]");
+      if (!body) return;
+
+      const posts = getManagementPosts();
+      if (count) count.textContent = `${posts.length} 篇文章`;
+      body.innerHTML = posts.length
+        ? posts.map(post => {
+            const published = post.published !== false;
+            return `
+              <tr>
+                <td class="manager-title">${escapeHtml(post.title || "未命名文章")}</td>
+                <td class="manager-date">${escapeHtml(post.date || "—")}</td>
+                <td><span class="manager-status${published ? "" : " is-hidden"}">${published ? "已公開" : "已隱藏"}</span></td>
+                <td>
+                  <div class="manager-actions">
+                    <a class="manager-action" href="music-post.html?id=${encodeURIComponent(post.id)}" data-manager-open="${escapeHtml(post.id)}">開啟</a>
+                    <button class="manager-action" type="button" data-manager-edit="${escapeHtml(post.id)}">編輯</button>
+                    <button class="manager-action" type="button" data-manager-export="${escapeHtml(post.id)}">匯出文字</button>
+                    <button class="manager-action" type="button" data-manager-visibility="${escapeHtml(post.id)}" data-next-published="${String(!published)}">${published ? "隱藏" : "再次公開"}</button>
+                    <button class="manager-action is-danger" type="button" data-manager-delete="${escapeHtml(post.id)}">刪除</button>
+                  </div>
+                </td>
+              </tr>
+            `;
+          }).join("")
+        : `<tr><td class="manager-empty" colspan="4">目前未有文章。</td></tr>`;
+    }
+
+    function textArchive(post) {
+      const hasStructuredContent = Boolean(
+        plainRichText(post.contextBackground || post.contextHtml || "")
+        || plainRichText(post.fullLyricsEnglish || post.fullLyricsHtml || "")
+        || plainRichText(post.reflection || post.reflectionHtml || "")
+        || (Array.isArray(post.bilingualLyrics) && post.bilingualLyrics.length)
+        || (Array.isArray(post.lyricAnalysis) && post.lyricAnalysis.length)
+      );
+      const legacyBody = hasStructuredContent ? "" : plainRichText(post.body || "");
+      const lines = [
+        post.title || "未命名文章",
+        "=".repeat(Math.max(8, String(post.title || "").length)),
+        `Tag：${post.tag || ""}`,
+        `作者：${post.author || "Edmund Sir"}`,
+        `發布日期：${post.date || ""}`,
+        `狀態：${post.published === false ? "已隱藏" : "已公開"}`,
+        "",
+        "歌曲資料",
+        `歌手：${post.singers || ""}`,
+        `發行年份：${post.releaseYear || ""}`,
+        `作曲／填詞：${post.songwriter || ""}`,
+        `製作人：${post.producer || ""}`,
+        `YouTube：${post.youtubeUrl || ""}`,
+        ...(legacyBody ? ["", "文章內容（舊版文章）", legacyBody] : []),
+        "",
+        "創作背景與脈絡",
+        plainRichText(post.contextBackground || ""),
+        "",
+        "完整英文歌詞",
+        plainRichText(post.fullLyricsEnglish || ""),
+        "",
+        "完整歌詞：英文 | 中文"
+      ];
+
+      (Array.isArray(post.bilingualLyrics) ? post.bilingualLyrics : []).forEach(row => {
+        if (row?.intentionalBreak) {
+          lines.push("");
+        } else {
+          lines.push(`${plainRichText(row?.english || "")} | ${plainRichText(row?.chinese || "")}`);
+        }
+      });
+
+      lines.push("", "歌詞深入賞析");
+      (Array.isArray(post.lyricAnalysis) ? post.lyricAnalysis : []).forEach((row, index) => {
+        lines.push(`歌詞 ${index + 1}：${plainRichText(row?.lyric || "")}`);
+        lines.push(`賞析 ${index + 1}：${plainRichText(row?.analysis || "")}`, "");
+      });
+      lines.push("反思", plainRichText(post.reflection || post.reflectionHtml || ""), "");
+      return lines.join("\n").replace(/\n{4,}/g, "\n\n\n").trim() + "\n";
+    }
+
+    function downloadTextArchive(post) {
+      const blob = new Blob([textArchive(post)], { type: "text/plain;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      const filename = String(post.title || "music-journal-article")
+        .replace(/[\\/:*?"<>|]+/g, "-")
+        .replace(/\s+/g, " ")
+        .trim()
+        .slice(0, 80) || "music-journal-article";
+      link.href = url;
+      link.download = `${filename}.txt`;
+      document.body.append(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 0);
     }
 
     async function loadSharedPosts({ admin = isLoggedIn() } = {}) {
@@ -1503,8 +1969,41 @@
       return Boolean(data);
     }
 
+    async function setSharedPostVisibility(id, published) {
+      const token = adminToken();
+      if (!musicSupabase || !token) {
+        throw new Error("Please log in again before changing article visibility.");
+      }
+
+      const { data, error } = await musicSupabase.rpc("music_journal_set_visibility", {
+        p_token: token,
+        p_id: id,
+        p_published: Boolean(published)
+      });
+      if (error) throw error;
+      return Boolean(data);
+    }
+
+    function localPostPayload(post, overrides = {}) {
+      const {
+        isCustom,
+        isShared,
+        isHidden,
+        _sortIndex,
+        ...payload
+      } = post || {};
+      return { ...payload, ...overrides };
+    }
+
+    function saveLocalPost(post) {
+      const localPost = localPostPayload(post);
+      const storedPosts = getStoredPosts().filter(item => item.id !== localPost.id);
+      saveStoredPosts([localPost, ...storedPosts]);
+      return localPost;
+    }
+
     async function importLegacyPosts() {
-      const legacyPosts = getStoredPosts();
+      const legacyPosts = getStoredPosts().filter(post => post?.published !== false && !post?.isHidden);
       if (!legacyPosts.length) return 0;
 
       for (const post of legacyPosts) {
@@ -1660,6 +2159,7 @@
       renderFeatured(posts);
       renderFilters(posts);
       renderPosts(activeFilter, reset);
+      renderArticleManager();
     }
 
     function setLoggedIn(session) {
@@ -1698,6 +2198,7 @@
 
     async function logOut() {
       const token = adminToken();
+      clearPostNavigationCache();
       setLoggedIn(null);
 
       if (musicSupabase && token) {
@@ -1831,6 +2332,94 @@
         editor.focus();
       }
 
+      function selectionRangeFor(editor) {
+        const selection = window.getSelection();
+        if (!selection?.rangeCount) return null;
+        const range = selection.getRangeAt(0);
+        return editor.contains(range.commonAncestorContainer) ? range : null;
+      }
+
+      function selectedInlineSpan(editor, range) {
+        const container = range?.commonAncestorContainer?.nodeType === Node.ELEMENT_NODE
+          ? range.commonAncestorContainer
+          : range?.commonAncestorContainer?.parentElement;
+        const span = container?.closest?.("span");
+        return span && editor.contains(span) ? span : null;
+      }
+
+      function wrapSelectedText(editor, styles) {
+        const range = selectionRangeFor(editor);
+        if (!range || range.collapsed) return null;
+
+        const span = document.createElement("span");
+        Object.assign(span.style, styles);
+        span.append(range.extractContents());
+        range.insertNode(span);
+        range.selectNodeContents(span);
+        const selection = window.getSelection();
+        selection?.removeAllRanges();
+        selection?.addRange(range);
+        activeRichRange = range.cloneRange();
+        return span;
+      }
+
+      function fontScaleFor(span, editor) {
+        const value = String(span?.style.fontSize || "").trim().toLowerCase();
+        const amount = Number.parseFloat(value);
+        if (Number.isFinite(amount)) {
+          if (value.endsWith("%")) return amount / 100;
+          if (value.endsWith("em")) return amount;
+          if (value.endsWith("px")) {
+            const editorSize = Number.parseFloat(getComputedStyle(editor).fontSize) || 15;
+            return amount / editorSize;
+          }
+        }
+        return 1;
+      }
+
+      function adjustSelectedFontSize(editor, direction) {
+        const range = selectionRangeFor(editor);
+        if (!range || range.collapsed) return;
+        let span = selectedInlineSpan(editor, range);
+        const scale = Math.min(100, Math.max(0.1, fontScaleFor(span, editor) + (direction * 0.15)));
+        if (!span || !span.style.fontSize) {
+          span = wrapSelectedText(editor, { fontSize: `${Math.round(scale * 100)}%` });
+        } else {
+          span.style.fontSize = `${Math.round(scale * 100)}%`;
+        }
+      }
+
+      function colorSelectedText(editor) {
+        const range = selectionRangeFor(editor);
+        if (!range || range.collapsed) return;
+        const span = selectedInlineSpan(editor, range);
+        if (span) {
+          span.style.color = "#93552f";
+        } else {
+          wrapSelectedText(editor, { color: "#93552f" });
+        }
+      }
+
+      function runEditorCommand(command, editor) {
+        if (command === "bold") {
+          document.execCommand("bold", false);
+        } else if (command === "size-up") {
+          adjustSelectedFontSize(editor, 1);
+        } else if (command === "size-down") {
+          adjustSelectedFontSize(editor, -1);
+        } else if (command === "gold") {
+          colorSelectedText(editor);
+        } else if (command === "heading") {
+          const selection = window.getSelection();
+          const anchorElement = selection?.anchorNode?.nodeType === Node.ELEMENT_NODE
+            ? selection.anchorNode
+            : selection?.anchorNode?.parentElement;
+          const heading = anchorElement?.closest?.("h3");
+          const isHeading = Boolean(heading && editor.contains(heading));
+          document.execCommand("formatBlock", false, isHeading ? "p" : "h3");
+        }
+      }
+
       document.addEventListener("selectionchange", rememberSelection);
 
       document.addEventListener("focusin", event => {
@@ -1838,13 +2427,31 @@
         if (editor) activeRichEditor = editor;
       });
 
+      document.addEventListener("input", event => {
+        const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
+        const bilingualRow = editor?.closest?.("[data-bilingual-row]");
+        if (bilingualRow) bilingualRow.dataset.rowTouched = "true";
+      });
+
       document.addEventListener("keydown", event => {
         const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
-        if (!editor || !(event.metaKey || event.ctrlKey) || event.key.toLowerCase() !== "b") return;
+        if (!editor || !(event.metaKey || event.ctrlKey)) return;
+
+        const key = event.key.toLowerCase();
+        const command = key === "b"
+          ? "bold"
+          : key === "h"
+            ? "gold"
+            : ["+", "="].includes(event.key)
+              ? "size-up"
+              : ["-", "_"].includes(event.key)
+                ? "size-down"
+                : "";
+        if (!command) return;
 
         event.preventDefault();
         activeRichEditor = editor;
-        document.execCommand("bold", false);
+        runEditorCommand(command, editor);
         rememberSelection();
       });
 
@@ -1897,20 +2504,106 @@
 
         restoreSelection(editor);
         const command = button.getAttribute("data-editor-command");
-        if (command === "bold") {
-          document.execCommand("bold", false);
-        } else if (command === "heading") {
-          const selection = window.getSelection();
-          const anchorElement = selection?.anchorNode?.nodeType === Node.ELEMENT_NODE
-            ? selection.anchorNode
-            : selection?.anchorNode?.parentElement;
-          const isHeading = Boolean(anchorElement?.closest?.("h3") && editor.contains(anchorElement.closest("h3")));
-          document.execCommand("formatBlock", false, isHeading ? "p" : "h3");
-        }
+        runEditorCommand(command, editor);
 
         editor.focus();
         rememberSelection();
       });
+    }
+
+    function updateEditorModeUi() {
+      const title = document.querySelector("[data-editor-title]");
+      const cancelButton = document.querySelector("[data-cancel-edit]");
+      const submitButton = document.querySelector('[data-blog-form] button[type="submit"]');
+      if (title) title.textContent = editingPostId ? "編輯歌詞賞析文章" : "新增歌詞賞析文章";
+      if (cancelButton) cancelButton.hidden = !editingPostId;
+      if (submitButton) submitButton.textContent = editingPostId ? "儲存更新" : "發布文章";
+    }
+
+    function showStoredImage(preview, image, placeholder) {
+      if (!preview) return;
+      preview.innerHTML = image
+        ? `<img src="${escapeHtml(image)}" alt="">`
+        : escapeHtml(placeholder);
+    }
+
+    async function loadPostIntoEditor(post) {
+      const form = document.querySelector("[data-blog-form]");
+      if (!form || !post) return;
+      form.reset();
+      await new Promise(resolve => setTimeout(resolve, 0));
+
+      editingPostId = String(post.id || "");
+      editingPrimaryImage = String(post.image || "");
+      editingSecondImage = String(post.secondImage || "");
+      const setValue = (name, value) => {
+        const field = form.elements.namedItem(name);
+        if (field && "value" in field) field.value = String(value || "");
+      };
+      setValue("title", post.title);
+      setValue("tag", post.tag);
+      setValue("youtubeUrl", post.youtubeUrl);
+      setValue("singers", post.singers);
+      setValue("releaseYear", post.releaseYear);
+      setValue("songwriter", post.songwriter);
+      setValue("producer", post.producer);
+
+      const imageInput = document.querySelector("[data-image-input]");
+      if (imageInput) imageInput.required = !editingPrimaryImage;
+      showStoredImage(document.querySelector("[data-image-preview]"), editingPrimaryImage, "Image preview");
+      showStoredImage(document.querySelector("[data-second-image-preview]"), editingSecondImage, "Second image preview");
+      document.querySelector("[data-youtube-input]")?.dispatchEvent(new Event("input"));
+      const hasStructuredContent = Boolean(
+        plainRichText(post.contextBackground || post.contextHtml || "")
+        || plainRichText(post.fullLyricsEnglish || post.fullLyricsHtml || "")
+        || plainRichText(post.reflection || post.reflectionHtml || "")
+        || (Array.isArray(post.bilingualLyrics) && post.bilingualLyrics.length)
+        || (Array.isArray(post.lyricAnalysis) && post.lyricAnalysis.length)
+      );
+      const editableContext = post.contextBackground || post.contextHtml
+        || (hasStructuredContent ? "" : post.body || "");
+      setRichEditorContent(document.querySelector("#post-context"), editableContext);
+      setRichEditorContent(document.querySelector("#post-full-lyrics"), post.fullLyricsEnglish || post.fullLyricsHtml);
+      setRichEditorContent(document.querySelector("#post-reflection"), post.reflection || post.reflectionHtml);
+
+      const bilingualRows = Array.isArray(post.bilingualLyrics) ? post.bilingualLyrics : [];
+      const bilingualBody = document.querySelector("[data-bilingual-lyrics-body]");
+      if (bilingualBody) {
+        bilingualBody.innerHTML = "";
+        addBilingualRows(Math.max(INITIAL_BILINGUAL_ROWS, bilingualRows.length));
+        bilingualRows.forEach((row, index) => {
+          const target = bilingualBody.querySelectorAll("[data-bilingual-row]")[index];
+          if (!target) return;
+          if (row?.intentionalBreak) {
+            target.dataset.rowTouched = "true";
+            target.querySelector("[data-bilingual-english]").innerHTML = "<br>";
+            target.querySelector("[data-bilingual-chinese]").innerHTML = "<br>";
+          } else {
+            setRichEditorContent(target.querySelector("[data-bilingual-english]"), row?.english);
+            setRichEditorContent(target.querySelector("[data-bilingual-chinese]"), row?.chinese);
+          }
+        });
+      }
+
+      const analysisRows = Array.isArray(post.lyricAnalysis) ? post.lyricAnalysis : [];
+      const analysisBody = document.querySelector("[data-lyric-analysis-body]");
+      if (analysisBody) {
+        analysisBody.innerHTML = "";
+        addAnalysisLines(Math.max(INITIAL_ANALYSIS_LINES, analysisRows.length));
+        const lyrics = analysisBody.querySelectorAll("[data-analysis-lyric]");
+        const analyses = analysisBody.querySelectorAll("[data-analysis-copy]");
+        analysisRows.forEach((row, index) => {
+          setRichEditorContent(lyrics[index], row?.lyric);
+          setRichEditorContent(analyses[index], row?.analysis);
+        });
+      }
+
+      updateEditorModeUi();
+      showAdminStatus(post.published === false
+        ? "正在編輯隱藏文章；儲存內容後仍會保持隱藏，直至你按「再次公開」。"
+        : "正在編輯現有文章。儲存後會更新同一篇文章。",
+        false);
+      document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
     function setupBlogForm() {
@@ -1923,6 +2616,7 @@
       const secondImagePreview = document.querySelector("[data-second-image-preview]");
       const addBilingualButton = document.querySelector("[data-add-bilingual-rows]");
       const addAnalysisButton = document.querySelector("[data-add-analysis-lines]");
+      const cancelEditButton = document.querySelector("[data-cancel-edit]");
       const publishButton = form?.querySelector('button[type="submit"]');
 
       resetStructuredEditors();
@@ -1963,6 +2657,29 @@
       addBilingualButton?.addEventListener("click", () => addBilingualRows(EXTRA_EDITOR_ROWS));
       addAnalysisButton?.addEventListener("click", () => addAnalysisLines(EXTRA_EDITOR_ROWS));
 
+      document.querySelectorAll("[data-bilingual-control-mode]").forEach(button => {
+        button.addEventListener("click", () => updateBilingualControlMode(button.dataset.bilingualControlMode || ""));
+      });
+
+      document.querySelector("[data-bilingual-lyrics-body]")?.addEventListener("click", event => {
+        const insertButton = event.target.closest("[data-insert-bilingual-row]");
+        const deleteButton = event.target.closest("[data-delete-bilingual-row]");
+        const row = event.target.closest("[data-bilingual-row]");
+        if (!row || (!insertButton && !deleteButton)) return;
+
+        if (insertButton) {
+          row.insertAdjacentHTML("afterend", bilingualRowTemplate(1));
+        } else if (document.querySelectorAll("[data-bilingual-row]").length > 1) {
+          row.remove();
+        } else {
+          row.querySelectorAll("[data-rich-editor]").forEach(editor => editor.replaceChildren());
+          delete row.dataset.rowTouched;
+        }
+        renumberBilingualRows();
+      });
+
+      cancelEditButton?.addEventListener("click", () => form?.reset());
+
       form?.addEventListener("reset", () => {
         setTimeout(() => {
           if (preview) preview.textContent = "Image preview";
@@ -1972,7 +2689,12 @@
             youtubePreview.replaceChildren();
           }
           if (youtubeInput) youtubeInput.setCustomValidity("");
+          editingPostId = "";
+          editingPrimaryImage = "";
+          editingSecondImage = "";
+          if (imageInput) imageInput.required = true;
           resetStructuredEditors();
+          updateEditorModeUi();
         }, 0);
       });
 
@@ -1985,7 +2707,7 @@
 
         const formData = new FormData(form);
         const file = formData.get("image");
-        if (!(file instanceof File) || !file.size) return;
+        if ((!(file instanceof File) || !file.size) && !editingPrimaryImage) return;
 
         const youtubeUrl = String(formData.get("youtubeUrl") || "").trim();
         if (youtubeUrl && !getYouTubeVideoId(youtubeUrl)) {
@@ -1997,11 +2719,13 @@
 
         const contextBackground = richEditorHtml(document.querySelector("#post-context"));
         const fullLyricsEnglish = richEditorHtml(document.querySelector("#post-full-lyrics"));
+        const reflection = richEditorHtml(document.querySelector("#post-reflection"));
         const bilingualLyrics = readBilingualLyrics();
         const lyricAnalysis = readLyricAnalysis();
         const readableSections = [
           plainRichText(contextBackground),
           plainRichText(fullLyricsEnglish),
+          plainRichText(reflection),
           ...bilingualLyrics.flatMap(item => [plainRichText(item.english), plainRichText(item.chinese)]),
           ...lyricAnalysis.flatMap(item => [plainRichText(item.lyric), plainRichText(item.analysis)])
         ].filter(Boolean);
@@ -2015,13 +2739,14 @@
         const body = readableSections.join("\n\n");
         const secondImageFile = formData.get("secondImage");
         const [image, secondImage] = await Promise.all([
-          readImageFile(file),
-          secondImageFile instanceof File && secondImageFile.size ? readImageFile(secondImageFile) : Promise.resolve("")
+          file instanceof File && file.size ? readImageFile(file) : Promise.resolve(editingPrimaryImage),
+          secondImageFile instanceof File && secondImageFile.size ? readImageFile(secondImageFile) : Promise.resolve(editingSecondImage)
         ]);
-        const createdAt = Date.now();
+        const previousPost = editingPostId ? getManagementPosts().find(item => item.id === editingPostId) : null;
+        const createdAt = Number(previousPost?.createdAt) || Date.now();
         const publicId = globalThis.crypto?.randomUUID?.() || createdAt.toString(36);
         const post = {
-          id: `music-${publicId}`,
+          id: editingPostId || `music-${publicId}`,
           title: String(formData.get("title") || "").trim(),
           tag: String(formData.get("tag") || "").trim(),
           image,
@@ -2035,9 +2760,11 @@
           bilingualLyrics,
           secondImage,
           lyricAnalysis,
+          reflection,
           body,
           createdAt,
-          date: todayLabel(),
+          date: previousPost?.date || todayLabel(),
+          published: previousPost?.published !== false,
           minutes: minutesRead(body),
           author: "Edmund Sir"
         };
@@ -2051,8 +2778,7 @@
           await publishSharedPost(post);
 
           try {
-            const storedPosts = getStoredPosts().filter(item => item.id !== post.id);
-            saveStoredPosts([post, ...storedPosts]);
+            saveLocalPost(post);
           } catch {
             alert("The article was published online, but this browser could not keep an extra local backup because its storage is full.");
           }
@@ -2067,13 +2793,25 @@
         } finally {
           if (publishButton) {
             publishButton.disabled = false;
-            publishButton.textContent = "發布文章";
+            updateEditorModeUi();
           }
         }
       });
     }
 
+    function clearPostNavigationCache() {
+      window.name = "";
+      try {
+        sessionStorage.removeItem("edmundMusicActivePost");
+      } catch {}
+    }
+
     function preparePostForNavigation(post) {
+      if (post?.published === false || post?.isHidden) {
+        clearPostNavigationCache();
+        return;
+      }
+
       const payload = JSON.stringify({
         type: "edmundMusicPost",
         post
@@ -2095,6 +2833,75 @@
       });
 
       document.addEventListener("click", async event => {
+        const managerTarget = event.target.closest("[data-manager-open], [data-manager-edit], [data-manager-export], [data-manager-visibility], [data-manager-delete]");
+        if (managerTarget) {
+          const id = managerTarget.getAttribute("data-manager-open")
+            || managerTarget.getAttribute("data-manager-edit")
+            || managerTarget.getAttribute("data-manager-export")
+            || managerTarget.getAttribute("data-manager-visibility")
+            || managerTarget.getAttribute("data-manager-delete");
+          const post = getManagementPosts().find(item => item.id === id);
+          if (!post) return;
+
+          if (managerTarget.matches("[data-manager-open]")) {
+            preparePostForNavigation(post);
+            return;
+          }
+
+          event.preventDefault();
+          if (managerTarget.matches("[data-manager-edit]")) {
+            await loadPostIntoEditor(post);
+            return;
+          }
+          if (managerTarget.matches("[data-manager-export]")) {
+            downloadTextArchive(post);
+            return;
+          }
+          if (managerTarget.matches("[data-manager-visibility]")) {
+            const nextPublished = managerTarget.dataset.nextPublished === "true";
+            managerTarget.disabled = true;
+            try {
+              if (post.isShared) {
+                await setSharedPostVisibility(post.id, nextPublished);
+              } else if (nextPublished) {
+                await publishSharedPost(localPostPayload(post, { published: true }));
+              }
+              const updatedPost = { ...post, published: nextPublished, isHidden: !nextPublished };
+              if (!nextPublished) clearPostNavigationCache();
+              saveLocalPost(updatedPost);
+              const sharedIndex = sharedPosts.findIndex(item => item.id === post.id);
+              if (sharedIndex >= 0) sharedPosts[sharedIndex] = { ...sharedPosts[sharedIndex], published: nextPublished };
+              else if (nextPublished) sharedPosts.unshift({ ...updatedPost, isShared: true });
+              refreshBlog(true);
+              showAdminStatus(nextPublished ? "文章已再次公開。" : "文章已隱藏，完整內容仍保留在管理列表及本機備份。", false);
+            } catch (visibilityError) {
+              console.error("Could not change music article visibility.", visibilityError);
+              alert(`未能更改文章狀態。${visibilityError?.message || "請稍後再試。"}`);
+            } finally {
+              managerTarget.disabled = false;
+            }
+            return;
+          }
+          if (managerTarget.matches("[data-manager-delete]")) {
+            if (!confirm("永久刪除這篇文章及本機備份？")) return;
+            managerTarget.disabled = true;
+            try {
+              if (post.isShared) await deleteSharedPost(post.id);
+              clearPostNavigationCache();
+              saveStoredPosts(getStoredPosts().filter(item => item.id !== post.id));
+              sharedPosts = sharedPosts.filter(item => item.id !== post.id);
+              if (editingPostId === post.id) document.querySelector("[data-blog-form]")?.reset();
+              refreshBlog(true);
+            } catch (deleteError) {
+              console.error("Could not delete music article.", deleteError);
+              alert(`文章未能刪除。${deleteError?.message || "請稍後再試。"}`);
+            } finally {
+              managerTarget.disabled = false;
+            }
+            return;
+          }
+        }
+
         const deleteButton = event.target.closest("[data-delete-post]");
         if (deleteButton) {
           event.preventDefault();
@@ -2111,6 +2918,7 @@
           deleteButton.disabled = true;
           try {
             await deleteSharedPost(id);
+            clearPostNavigationCache();
             const nextPosts = getStoredPosts().filter(post => post.id !== id);
             saveStoredPosts(nextPosts);
             sharedPosts = sharedPosts.filter(post => post.id !== id);

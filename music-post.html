@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Music Post | EdmundEducation</title>
-  <meta name="description" content="Edmund Music Journal：英文流行曲歌詞、背景與中英賞析。">
-  <meta property="og:title" content="Edmund Music Journal">
-  <meta property="og:description" content="Lyrics · Context · Analysis">
+  <meta name="description" content="Edmund 音樂賞析誌：英文流行曲歌詞、背景與中英賞析。">
+  <meta property="og:title" content="Edmund 音樂賞析誌">
+  <meta property="og:description" content="歌詞 · 背景 · 賞析">
   <meta property="og:type" content="article">
   <meta property="og:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Edmund Music Journal">
-  <meta name="twitter:description" content="Lyrics · Context · Analysis">
+  <meta name="twitter:title" content="Edmund 音樂賞析誌">
+  <meta name="twitter:description" content="歌詞 · 背景 · 賞析">
   <meta name="twitter:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
   <meta name="theme-color" content="#20283d">
@@ -151,6 +151,78 @@
       gap: 8px;
     }
 
+    .toc-wrap {
+      position: relative;
+    }
+
+    .toc-wrap > .nav-control {
+      width: 100%;
+    }
+
+    .toc-panel {
+      position: absolute;
+      top: calc(100% + 9px);
+      left: 0;
+      z-index: 40;
+      width: min(310px, calc(100vw - 28px));
+      max-height: min(68vh, 520px);
+      padding: 16px;
+      overflow-y: auto;
+      border: 1px solid rgba(29,29,31,0.12);
+      border-radius: 10px;
+      background: rgba(255,255,255,0.98);
+      box-shadow: 0 20px 56px rgba(0,0,0,0.18);
+      backdrop-filter: blur(20px);
+    }
+
+    .toc-panel[hidden] {
+      display: none;
+    }
+
+    .toc-title {
+      margin: 0 0 10px;
+      color: #1d1d1f;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .toc-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 4px;
+    }
+
+    .toc-list a {
+      display: block;
+      padding: 9px 10px;
+      border-radius: 7px;
+      color: #3f3f46;
+      font-size: 13px;
+      line-height: 1.35;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .toc-list a:hover,
+    .toc-list a:focus-visible {
+      background: #efeff2;
+      color: #050505;
+      outline: none;
+    }
+
+    .toc-list a:focus-visible {
+      box-shadow: inset 0 0 0 2px #050505;
+    }
+
+    .toc-empty {
+      margin: 0;
+      color: #6e6e73;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
     .nav-control {
       min-height: 38px;
       padding: 8px 11px;
@@ -249,7 +321,7 @@
     }
 
     .admin-date::before {
-      content: "Admin date:";
+      content: "管理員日期：";
       padding: 3px 6px;
       border-radius: 5px;
       background: #e8e8ed;
@@ -280,6 +352,11 @@
 
     .article-section {
       min-width: 0;
+      scroll-margin-top: 190px;
+    }
+
+    .article-section:focus {
+      outline: none;
     }
 
     .article-section > h2,
@@ -292,6 +369,17 @@
       letter-spacing: -0.02em;
       text-align: left;
     }
+
+    .rich-content strong,
+    .rich-content b,
+    .post-body strong,
+    .post-body b {
+      font-weight: 900;
+      font-variation-settings: "wght" 900;
+      -webkit-text-stroke: 0.18px currentColor;
+    }
+
+    .rich-content span[style*="font-size"] { line-height: 1.35; }
 
     .rich-content {
       color: #303035;
@@ -498,6 +586,13 @@
       border-radius: 0 7px 7px 0;
     }
 
+    .lyrics-table .lyrics-line-break td {
+      height: 46px;
+      padding: 0;
+      background: transparent;
+      border-radius: 0;
+    }
+
     .second-image {
       margin: 0;
     }
@@ -555,6 +650,152 @@
       text-transform: uppercase;
     }
 
+    .reader-extras {
+      width: min(1080px, calc(100vw - 44px));
+      margin: clamp(72px, 9vw, 112px) auto 0;
+      display: grid;
+      gap: clamp(58px, 7vw, 84px);
+    }
+
+    .reader-extra-section {
+      min-width: 0;
+    }
+
+    .reader-extra-section[hidden] {
+      display: none;
+    }
+
+    .reader-extra-heading {
+      margin: 0 0 22px;
+      color: #1d1d1f;
+      font-size: clamp(26px, 3.6vw, 42px);
+      line-height: 1.18;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+
+    .related-grid,
+    .course-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .related-card,
+    .course-card {
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid rgba(29,29,31,0.08);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.78);
+      color: #1d1d1f;
+      text-decoration: none;
+      box-shadow: 0 12px 34px rgba(0,0,0,0.07);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .related-card:hover,
+    .related-card:focus-visible,
+    .course-card:hover,
+    .course-card:focus-visible {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 44px rgba(0,0,0,0.13);
+      outline: none;
+    }
+
+    .related-card:focus-visible,
+    .course-card:focus-visible {
+      box-shadow: 0 0 0 3px rgba(0,0,0,0.18), 0 18px 44px rgba(0,0,0,0.13);
+    }
+
+    .related-card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .related-card-image {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #dedee3;
+    }
+
+    .related-card-image img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .related-card-copy {
+      flex: 1;
+      padding: 18px;
+    }
+
+    .related-card-tag,
+    .course-card-kicker {
+      display: block;
+      margin-bottom: 8px;
+      color: #6e6e73;
+      font-family: system-ui, sans-serif;
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .related-card-title,
+    .course-card-title {
+      margin: 0;
+      font-size: clamp(18px, 2vw, 23px);
+      line-height: 1.28;
+      font-weight: 900;
+    }
+
+    .related-card-excerpt,
+    .course-card-desc {
+      margin: 10px 0 0;
+      color: #52525a;
+      font-size: 14px;
+      line-height: 1.6;
+      font-weight: 650;
+    }
+
+    .course-card {
+      min-height: 430px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      background:
+        radial-gradient(130% 90% at 8% 0%, rgba(129,92,255,0.22), transparent 52%),
+        radial-gradient(110% 90% at 94% 12%, rgba(255,171,145,0.28), transparent 56%),
+        linear-gradient(145deg, rgba(255,255,255,0.96), rgba(250,244,255,0.92) 48%, rgba(255,247,239,0.94));
+    }
+
+    .course-card-price {
+      margin: 10px 0 18px;
+      color: #303035;
+      font-family: system-ui, sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .course-card-art {
+      min-height: 190px;
+      margin-top: auto;
+      overflow: hidden;
+      border-radius: 11px;
+      background: #fff;
+    }
+
+    .course-card-art img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 190px;
+      object-fit: contain;
+      background: #fff;
+    }
+
     .share-status,
     .visually-hidden {
       position: absolute;
@@ -602,7 +843,12 @@
       .post-actions {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+
+      .related-grid,
+      .course-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
     }
 
@@ -678,11 +924,32 @@
       .analysis-item {
         padding: 20px;
       }
+
+      .reader-extras {
+        width: min(100% - 32px, 880px);
+      }
+
+      .related-grid,
+      .course-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .course-card {
+        min-height: 400px;
+      }
     }
 
     @media (max-width: 430px) {
       .post-actions {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .toc-panel {
+        position: fixed;
+        top: 210px;
+        left: 12px;
+        width: calc(100vw - 24px);
+        max-height: calc(100vh - 226px);
       }
 
       .post-meta {
@@ -726,6 +993,7 @@
       .custom-cursor,
       .post-nav,
       .share-status,
+      .reader-extras,
       .youtube-frame {
         display: none !important;
       }
@@ -848,21 +1116,29 @@
       <div class="post-brand-wrap">
         <a class="post-brand" href="major-music.html">
           <span class="brand-mark">♪</span>
-          <span class="post-brand-label">Edmund Music Journal</span>
+          <span class="post-brand-label">Edmund 音樂賞析誌</span>
         </a>
-        <div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-reading-progress>
+        <div class="reading-progress" role="progressbar" aria-label="閱讀進度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-reading-progress>
           <span class="reading-progress-bar" data-reading-progress-bar></span>
         </div>
       </div>
-      <div class="post-actions" aria-label="Article actions">
-        <button class="nav-control" type="button" data-export-pdf>Export as PDF</button>
-        <button class="nav-control" type="button" data-share-post>Share this blog!</button>
-        <a class="nav-control" href="major-music.html">Back to music blog</a>
-        <button class="nav-control top-button" type="button" aria-label="Go to the top of this article" data-go-top disabled>↑ Top</button>
+      <div class="post-actions" aria-label="文章工具">
+        <div class="toc-wrap">
+          <button class="nav-control" type="button" aria-expanded="false" aria-controls="article-toc" data-toc-toggle>條目</button>
+          <nav class="toc-panel" id="article-toc" aria-label="文章條目" data-toc-panel hidden>
+            <p class="toc-title">文章條目</p>
+            <ol class="toc-list" data-toc-list></ol>
+            <p class="toc-empty" data-toc-empty hidden>這篇文章沒有可跳轉的分段。</p>
+          </nav>
+        </div>
+        <button class="nav-control" type="button" data-export-pdf>匯出 PDF</button>
+        <button class="nav-control" type="button" data-share-post>分享文章</button>
+        <a class="nav-control" href="major-music.html">返回音樂網誌</a>
+        <button class="nav-control top-button" type="button" aria-label="回到文章頁首" data-go-top disabled>↑ 回到頂部</button>
       </div>
     </header>
 
-    <div class="print-masthead">Edmund Music Journal</div>
+    <div class="print-masthead">Edmund 音樂賞析誌</div>
     <main data-post-root></main>
     <p class="share-status" role="status" aria-live="polite" data-share-status></p>
   </div>
@@ -876,6 +1152,7 @@
     const ADMIN_EXPIRES_KEY = "edmundMusicAdminExpiresAt";
     const SUPABASE_SETTINGS = window.EDMUND_SUPABASE || {};
     const MUSIC_PUBLIC_VIEW = SUPABASE_SETTINGS.musicJournalPublicView || "music_journal_public_posts";
+    const MUSIC_SUMMARY_VIEW = SUPABASE_SETTINGS.musicJournalSummaryView || "music_journal_public_post_summaries";
     const musicSupabase = window.supabase?.createClient && SUPABASE_SETTINGS.url && SUPABASE_SETTINGS.anonKey
       ? window.supabase.createClient(SUPABASE_SETTINGS.url, SUPABASE_SETTINGS.anonKey, {
           auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
@@ -883,6 +1160,18 @@
       : null;
 
     const seedPosts = [];
+    const COURSE_IMAGE_BASE_URL = "https://pub-0ecb66b14a1c40b3a65cff0a724d162d.r2.dev/course-images/";
+    const FRONT_PAGE_COURSES = [
+      { id: "adult-english", title: "成人英語進修補習班", desc: "適合大專生、打工仔", price: "$500", type: "Adult", image: "Premium Class/1.jpg" },
+      { id: "dse-full-paper", title: "免費45分鐘試堂！DSE 英文4卷全課程", desc: "Reading＋Writing＋Listening＋Speaking＋Data File＋SBA", price: "$280", type: "DSE", image: "DSE Full Paper Course/1.jpg" },
+      { id: "ielts-emergency", title: "#救得一個得一個｜IELTS 緊急補底班", desc: "專教成人英語｜免費45分鐘試堂", price: "$370", type: "IELTS", image: "IELTS 緊急補底班/1.jpg" },
+      { id: "cre-course", title: "香港公務員綜合招聘考試 CRE 英文運用測試備試課程", desc: "CRE English Use of English", price: "$370", type: "CRE", image: "CRE Course/1.jpg" },
+      { id: "grammar-course", title: "純 Grammar 文法進修補習班", desc: "適合大專生、打工仔", price: "$300", type: "Grammar", image: "Grammar Class/1.jpg" },
+      { id: "reading-speed", title: "純 Reading 加速班｜成人英文輔導班", desc: "Reading 速度及理解訓練", price: "$320", type: "Reading", image: "Reading Course Images/1.jpg" },
+      { id: "american-accent", title: "American Accent 美式口音重點培訓課程", desc: "英語口音訓練", price: "$250", type: "Accent", image: "American Accent Course/1.jpg" },
+      { id: "british-accent", title: "全港唯一 1v1 英式口音課程", desc: "British Accent 英式口音訓練", price: "$250", type: "British", image: "British Accent Course/1.jpg" },
+      { id: "clinic-assistant-english", title: "診所助理專業英文課程", desc: "職場英語服務系列", price: "$350", type: "Clinic", image: "Clinic Nurse Course/1.jpg" }
+    ];
 
     function escapeHtml(value) {
       return String(value)
@@ -891,6 +1180,45 @@
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
+    }
+
+    function assetUrl(baseUrl, path) {
+      if (!path || /^https?:\/\//i.test(path)) return path;
+      let cleanPath = String(path);
+      try {
+        cleanPath = decodeURIComponent(cleanPath);
+      } catch {
+        cleanPath = String(path);
+      }
+
+      return baseUrl + cleanPath
+        .replace(/^\/+/, "")
+        .split("/")
+        .map(segment => encodeURIComponent(segment))
+        .join("/");
+    }
+
+    function courseImageUrl(path) {
+      return assetUrl(COURSE_IMAGE_BASE_URL, path);
+    }
+
+    function shuffle(items) {
+      const copy = [...items];
+      for (let index = copy.length - 1; index > 0; index -= 1) {
+        const randomIndex = Math.floor(Math.random() * (index + 1));
+        [copy[index], copy[randomIndex]] = [copy[randomIndex], copy[index]];
+      }
+      return copy;
+    }
+
+    function plainText(value) {
+      const parsed = new DOMParser().parseFromString(String(value || ""), "text/html");
+      return (parsed.body.textContent || "").replace(/\s+/g, " ").trim();
+    }
+
+    function excerpt(value, maximum = 120) {
+      const text = plainText(value);
+      return text.length > maximum ? `${text.slice(0, maximum).trim()}…` : text;
     }
 
     function getStoredPosts() {
@@ -902,7 +1230,10 @@
     }
 
     function getAllPosts() {
-      return [...getStoredPosts(), ...seedPosts];
+      const localPosts = getStoredPosts().filter(post => (
+        isAdminView() || (post?.published !== false && !post?.isHidden)
+      ));
+      return [...localPosts, ...seedPosts];
     }
 
     function isAdminView() {
@@ -979,7 +1310,9 @@
       for (const candidate of candidates) {
         try {
           const payload = JSON.parse(candidate);
-          if (payload?.type === "edmundMusicPost" && payload.post?.id === id) {
+          const canReadPost = isAdminView()
+            || (payload?.post?.published !== false && !payload?.post?.isHidden);
+          if (payload?.type === "edmundMusicPost" && payload.post?.id === id && canReadPost) {
             return payload.post;
           }
         } catch {}
@@ -1038,7 +1371,27 @@
           return;
         }
 
+        let safeStyle = "";
+        if (element.tagName === "SPAN") {
+          const fontSize = String(element.style.fontSize || "").trim().toLowerCase();
+          const fontSizeMatch = fontSize.match(/^(\d+(?:\.\d+)?)(%|em|px)$/);
+          if (fontSizeMatch) {
+            const amount = Number(fontSizeMatch[1]);
+            const unit = fontSizeMatch[2];
+            const isSafe = (unit === "%" && amount >= 10 && amount <= 10000)
+              || (unit === "em" && amount >= 0.1 && amount <= 100)
+              || (unit === "px" && amount >= 1 && amount <= 1600);
+            if (isSafe) safeStyle += `font-size:${amount}${unit};`;
+          }
+
+          const color = String(element.style.color || "").replace(/\s+/g, "").toLowerCase();
+          if (["#93552f", "rgb(147,85,47)"].includes(color)) {
+            safeStyle += "color:#93552f;";
+          }
+        }
+
         Array.from(element.attributes).forEach(attribute => element.removeAttribute(attribute.name));
+        if (safeStyle) element.setAttribute("style", safeStyle);
       });
 
       return template.innerHTML;
@@ -1113,9 +1466,9 @@
 
       if (!id) {
         return `
-          <section class="article-section youtube-section">
-            <h2>YouTube</h2>
-            <a class="youtube-fallback" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+          <section class="article-section youtube-section" id="section-youtube" data-toc-label="YouTube 影片" tabindex="-1">
+            <h2>YouTube 影片</h2>
+            <a class="youtube-fallback" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">在 YouTube 觀看</a>
           </section>
         `;
       }
@@ -1123,11 +1476,11 @@
       const customThumbnail = safeImageSource(post.youtubeThumbnail);
       const thumbnail = customThumbnail || `https://i.ytimg.com/vi/${encodeURIComponent(id)}/hqdefault.jpg`;
       return `
-        <section class="article-section youtube-section">
-          <h2>YouTube</h2>
+        <section class="article-section youtube-section" id="section-youtube" data-toc-label="YouTube 影片" tabindex="-1">
+          <h2>YouTube 影片</h2>
           <div class="youtube-embed" data-youtube-embed>
-            <button class="youtube-trigger" type="button" data-youtube-id="${escapeHtml(id)}" aria-label="Play this YouTube video">
-              <img src="${escapeHtml(thumbnail)}" alt="YouTube video thumbnail" loading="lazy">
+            <button class="youtube-trigger" type="button" data-youtube-id="${escapeHtml(id)}" aria-label="播放這段 YouTube 影片">
+              <img src="${escapeHtml(thumbnail)}" alt="YouTube 影片縮圖" loading="lazy">
               <span class="youtube-play" aria-hidden="true">▶</span>
             </button>
           </div>
@@ -1137,18 +1490,18 @@
 
     function renderSongInfo(post) {
       const fields = [
-        ["Singer(s)", postField(post, "singers", ["singer"])],
-        ["Year of release", postField(post, "releaseYear", ["yearOfRelease", "songYear"])],
-        ["Songwriter", postField(post, "songwriter", ["songWriter", "songwriters"])],
-        ["Producer", postField(post, "producer", ["producers"])]
+        ["歌手", postField(post, "singers", ["singer"])],
+        ["發行年份", postField(post, "releaseYear", ["yearOfRelease", "songYear"])],
+        ["作詞", postField(post, "songwriter", ["songWriter", "songwriters"])],
+        ["監製", postField(post, "producer", ["producers"])]
       ].filter(([, value]) => hasText(value));
 
       if (!fields.length) return "";
 
       return `
-        <section class="article-section">
+        <section class="article-section" id="section-song-info" data-toc-label="歌曲資料" tabindex="-1">
           <table class="song-info">
-            <caption>Song information</caption>
+            <caption>歌曲資料</caption>
             <tbody>
               ${fields.map(([label, value]) => `
                 <tr>
@@ -1162,10 +1515,10 @@
       `;
     }
 
-    function renderRichSection(title, value, extraClass = "") {
+    function renderRichSection(title, value, { extraClass = "", sectionId = "", tocLabel = title } = {}) {
       if (!hasText(value)) return "";
       return `
-        <section class="article-section ${extraClass}">
+        <section class="article-section ${extraClass}"${sectionId ? ` id="${escapeHtml(sectionId)}" data-toc-label="${escapeHtml(tocLabel)}" tabindex="-1"` : ""}>
           <h2>${escapeHtml(title)}</h2>
           <div class="rich-content">${sanitizeRichHtml(value)}</div>
         </section>
@@ -1178,8 +1531,9 @@
 
       return source.map(row => ({
         english: row?.english ?? row?.englishHtml ?? row?.left ?? "",
-        chinese: row?.chinese ?? row?.chineseHtml ?? row?.right ?? ""
-      })).filter(row => hasText(row.english) || hasText(row.chinese));
+        chinese: row?.chinese ?? row?.chineseHtml ?? row?.right ?? "",
+        intentionalBreak: row?.intentionalBreak === true || row?.lineBreak === true
+      })).filter(row => row.intentionalBreak || hasText(row.english) || hasText(row.chinese));
     }
 
     function renderBilingualLyrics(post) {
@@ -1187,21 +1541,21 @@
       if (!rows.length) return "";
 
       return `
-        <section class="article-section">
-          <h2>Full Lyrics: English and Chinese</h2>
+        <section class="article-section" id="section-bilingual-lyrics" data-toc-label="完整歌詞：英文及中文" tabindex="-1">
+          <h2>完整歌詞：英文及中文</h2>
           <div class="lyrics-table-wrap">
             <table class="lyrics-table">
               <thead>
                 <tr>
-                  <th scope="col">English</th>
+                  <th scope="col">英文</th>
                   <th scope="col">中文</th>
                 </tr>
               </thead>
               <tbody>
                 ${rows.map(row => `
-                  <tr>
-                    <td>${sanitizeRichHtml(row.english)}</td>
-                    <td>${sanitizeRichHtml(row.chinese)}</td>
+                  <tr${row.intentionalBreak ? ' class="lyrics-line-break" aria-label="歌詞分段留白"' : ""}>
+                    <td>${row.intentionalBreak ? "<br>" : sanitizeRichHtml(row.english)}</td>
+                    <td>${row.intentionalBreak ? "<br>" : sanitizeRichHtml(row.chinese)}</td>
                   </tr>
                 `).join("")}
               </tbody>
@@ -1226,20 +1580,20 @@
       if (!rows.length) return "";
 
       return `
-        <section class="article-section analysis-section">
-          <h2>Lyric Analysis</h2>
+        <section class="article-section analysis-section" id="section-analysis" data-toc-label="歌詞深入賞析" tabindex="-1">
+          <h2>歌詞深入賞析</h2>
           <div class="analysis-list">
             ${rows.map((row, index) => `
               <article class="analysis-item">
                 ${hasText(row.lyric) ? `
                   <div class="analysis-lyric">
-                    <span class="analysis-label">Lyrics line ${index + 1}</span>
+                    <span class="analysis-label">歌詞段落 ${index + 1}</span>
                     <div class="rich-content">${sanitizeRichHtml(row.lyric)}</div>
                   </div>
                 ` : ""}
                 ${hasText(row.analysis) ? `
                   <div class="analysis-copy">
-                    <span class="analysis-label">Analysis line ${index + 1}</span>
+                    <span class="analysis-label">賞析 ${index + 1}</span>
                     <div class="rich-content">${sanitizeRichHtml(row.analysis)}</div>
                   </div>
                 ` : ""}
@@ -1264,6 +1618,7 @@
     function renderStructuredContent(post) {
       const context = postField(post, "contextBackground", ["contextHtml", "background", "context"]);
       const fullLyrics = postField(post, "fullLyricsEnglish", ["fullLyricsHtml", "englishLyrics"]);
+      const reflection = postField(post, "reflection", ["reflectionHtml", "finalReflection", "closingReflection"]);
       const bilingualRows = normalizedBilingualLyrics(post);
       const analysisRows = normalizedLyricAnalysis(post);
       const secondImage = safeImageSource(post.secondImage || post.imageTwo || post.secondaryImage);
@@ -1277,6 +1632,7 @@
         || bilingualRows.length
         || secondImage
         || analysisRows.length
+        || hasText(reflection)
       );
 
       if (!hasStructuredContent) return "";
@@ -1285,13 +1641,121 @@
         <div class="structured-content">
           ${youtubeSection}
           ${songInfoSection}
-          ${renderRichSection("Context and Background", context)}
-          ${renderRichSection("Full Lyrics in English", fullLyrics, "full-lyrics")}
+          ${renderRichSection("歌曲背景", context, {
+            sectionId: "section-context",
+            tocLabel: "歌曲背景"
+          })}
+          ${renderRichSection("完整英文歌詞", fullLyrics, {
+            extraClass: "full-lyrics",
+            sectionId: "section-english-lyrics",
+            tocLabel: "完整英文歌詞"
+          })}
           ${renderBilingualLyrics(post)}
           ${renderSecondImage(post)}
           ${renderLyricAnalysis(post)}
+          ${renderRichSection("反思", reflection, {
+            extraClass: "reflection-section",
+            sectionId: "section-reflection",
+            tocLabel: "反思"
+          })}
         </div>
       `;
+    }
+
+    function normalizeSummaryRow(row) {
+      if (!row?.payload || typeof row.payload !== "object") return null;
+      const post = { ...row.payload, id: String(row.id || row.payload.id || "") };
+      return post.id && hasText(post.title) ? post : null;
+    }
+
+    async function getRelatedPublishedPosts(currentId) {
+      if (!musicSupabase) return [];
+
+      const { data, error } = await musicSupabase
+        .from(MUSIC_SUMMARY_VIEW)
+        .select("id,sort_index,payload")
+        .neq("id", currentId)
+        .order("sort_index", { ascending: false })
+        .limit(6);
+
+      if (error) throw error;
+      return (Array.isArray(data) ? data : [])
+        .map(normalizeSummaryRow)
+        .filter(Boolean)
+        .slice(0, 3);
+    }
+
+    function renderRelatedCard(post) {
+      const image = safeImageSource(post.image);
+      const summary = excerpt(post.body || "", 125);
+      return `
+        <a class="related-card" href="music-post.html?id=${encodeURIComponent(post.id)}">
+          ${image ? `
+            <div class="related-card-image">
+              <img src="${escapeHtml(image)}" alt="${escapeHtml(post.title)}" loading="lazy">
+            </div>
+          ` : ""}
+          <div class="related-card-copy">
+            ${hasText(post.tag) ? `<span class="related-card-tag">${escapeHtml(plainText(post.tag))}</span>` : ""}
+            <h3 class="related-card-title">${escapeHtml(plainText(post.title))}</h3>
+            ${summary ? `<p class="related-card-excerpt">${escapeHtml(summary)}</p>` : ""}
+          </div>
+        </a>
+      `;
+    }
+
+    async function renderRelatedArticles(currentId) {
+      const section = document.querySelector("[data-related-section]");
+      const grid = document.querySelector("[data-related-grid]");
+      if (!section || !grid) return;
+
+      try {
+        const relatedPosts = await getRelatedPublishedPosts(currentId);
+        if (!relatedPosts.length) return;
+        grid.innerHTML = relatedPosts.map(renderRelatedCard).join("");
+        section.hidden = false;
+      } catch (error) {
+        console.warn("Could not load related music articles.", error);
+      }
+    }
+
+    function renderCourseCard(course) {
+      const image = courseImageUrl(course.image);
+      return `
+        <a class="course-card" href="course.html?id=${encodeURIComponent(course.id)}">
+          <span class="course-card-kicker">${escapeHtml(course.type)} 課程</span>
+          <h3 class="course-card-title">${escapeHtml(course.title)}</h3>
+          <p class="course-card-desc">${escapeHtml(course.desc)}</p>
+          <p class="course-card-price">${escapeHtml(course.price)}｜小時</p>
+          <div class="course-card-art">
+            <img src="${escapeHtml(image)}" alt="${escapeHtml(course.title)}" loading="lazy">
+          </div>
+        </a>
+      `;
+    }
+
+    function renderReaderExtras() {
+      const selectedCourses = shuffle(FRONT_PAGE_COURSES).slice(0, 3);
+      return `
+        <aside class="reader-extras" aria-label="延伸閱讀及英文課程">
+          <section class="reader-extra-section" aria-labelledby="related-heading" data-related-section hidden>
+            <h2 class="reader-extra-heading" id="related-heading">您可能也會喜歡：</h2>
+            <div class="related-grid" data-related-grid></div>
+          </section>
+          <section class="reader-extra-section" aria-labelledby="courses-heading">
+            <h2 class="reader-extra-heading" id="courses-heading">Edmund 英文教學課程</h2>
+            <div class="course-grid">
+              ${selectedCourses.map(renderCourseCard).join("")}
+            </div>
+          </section>
+        </aside>
+      `;
+    }
+
+    function localizedReadingTime(value) {
+      const source = String(value || "").trim();
+      const match = source.match(/^(\d+)\s*mins?\s*read$/i);
+      return match ? `${match[1]} 分鐘閱讀` : source;
     }
 
     function renderPostMeta(post) {
@@ -1299,7 +1763,7 @@
       if (isAdminView() && post.date) {
         parts.push(`<span class="admin-date">${escapeHtml(post.date)}</span>`);
       }
-      if (post.minutes) parts.push(`<span>${escapeHtml(post.minutes)}</span>`);
+      if (post.minutes) parts.push(`<span>${escapeHtml(localizedReadingTime(post.minutes))}</span>`);
       return parts.join(" <span aria-hidden=\"true\">・</span> ");
     }
 
@@ -1314,7 +1778,13 @@
 
       try {
         const sharedPost = await getSharedPost(id);
-        if (sharedPost) post = sharedPost;
+        if (sharedPost) {
+          post = sharedPost;
+        } else if (musicSupabase && !isAdminView()) {
+          // A successful public lookup that returns no row is authoritative:
+          // the article is hidden or deleted, so never render a stale cache.
+          post = null;
+        }
       } catch (error) {
         loadError = error;
         console.warn("Could not load the shared music article.", error);
@@ -1323,7 +1793,7 @@
       }
 
       if (!post) {
-        document.title = "Post not found | EdmundEducation";
+        document.title = "找不到文章 | EdmundEducation";
         root.innerHTML = `
           <section class="missing">
             <div>
@@ -1331,7 +1801,7 @@
               <p class="post-meta">${loadError
                 ? "請檢查網絡連線後重新整理頁面。"
                 : "這篇文章可能尚未發布或已被刪除。"}</p>
-              <p><a class="back-link" href="major-music.html">Back to music blog</a></p>
+              <p><a class="back-link" href="major-music.html">返回音樂網誌</a></p>
             </div>
           </section>
         `;
@@ -1343,7 +1813,7 @@
       const heroImage = safeImageSource(post.image);
       const structured = renderStructuredContent(post);
       root.innerHTML = `
-        <article>
+        <article id="article-top">
           ${heroImage ? `
             <div class="post-hero">
               <img src="${escapeHtml(heroImage)}" alt="${escapeHtml(post.title || "")}">
@@ -1356,7 +1826,10 @@
             ${structured || `<div class="post-body">${renderParagraphs(post.body || "")}</div>`}
           </div>
         </article>
+        ${renderReaderExtras()}
       `;
+
+      await renderRelatedArticles(String(post.id || id || ""));
     }
 
     function setupReadingProgress() {
@@ -1372,7 +1845,7 @@
         const percent = Math.round(ratio * 100);
         bar.style.transform = `scaleX(${ratio})`;
         progress.setAttribute("aria-valuenow", String(percent));
-        progress.setAttribute("aria-valuetext", `${percent}% read`);
+        progress.setAttribute("aria-valuetext", `已閱讀 ${percent}%`);
         if (topButton) topButton.disabled = window.scrollY < 180;
         ticking = false;
       };
@@ -1394,6 +1867,54 @@
       }
 
       requestUpdate();
+    }
+
+    function setupTableOfContents() {
+      const button = document.querySelector("[data-toc-toggle]");
+      const panel = document.querySelector("[data-toc-panel]");
+      const list = document.querySelector("[data-toc-list]");
+      const empty = document.querySelector("[data-toc-empty]");
+      const root = document.querySelector("[data-post-root]");
+      if (!button || !panel || !list || !empty || !root) return;
+
+      const sections = Array.from(root.querySelectorAll("[data-toc-label][id]"));
+      list.innerHTML = sections.map(section => `
+        <li><a href="#${encodeURIComponent(section.id)}">${escapeHtml(section.dataset.tocLabel || "文章分段")}</a></li>
+      `).join("");
+      list.hidden = sections.length === 0;
+      empty.hidden = sections.length > 0;
+
+      const setOpen = (open, restoreFocus = false) => {
+        panel.hidden = !open;
+        button.setAttribute("aria-expanded", String(open));
+        if (restoreFocus) button.focus();
+      };
+
+      button.addEventListener("click", () => {
+        setOpen(button.getAttribute("aria-expanded") !== "true");
+      });
+
+      list.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+          const targetId = decodeURIComponent(link.getAttribute("href").slice(1));
+          const target = document.getElementById(targetId);
+          setOpen(false);
+          window.requestAnimationFrame(() => target?.focus({ preventScroll: true }));
+        });
+      });
+
+      document.addEventListener("click", event => {
+        if (!panel.hidden && !event.target.closest(".toc-wrap")) setOpen(false);
+      });
+
+      document.addEventListener("keydown", event => {
+        if (event.key === "Escape" && !panel.hidden) setOpen(false, true);
+      });
+
+      if (window.location.hash) {
+        const target = document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
+        if (target) window.requestAnimationFrame(() => target.scrollIntoView());
+      }
     }
 
     function copyWithFallback(text) {
@@ -1424,7 +1945,7 @@
     function setupArticleActions() {
       const shareButton = document.querySelector("[data-share-post]");
       const status = document.querySelector("[data-share-status]");
-      const originalShareLabel = shareButton?.textContent || "Share this blog!";
+      const originalShareLabel = shareButton?.textContent || "分享文章";
       let labelTimer = 0;
 
       document.querySelector("[data-export-pdf]")?.addEventListener("click", () => window.print());
@@ -1436,11 +1957,11 @@
         window.clearTimeout(labelTimer);
         try {
           await copyShareLink();
-          shareButton.textContent = "Link copied!";
-          if (status) status.textContent = "This article link has been copied to your clipboard.";
+          shareButton.textContent = "連結已複製";
+          if (status) status.textContent = "文章連結已複製到剪貼簿。";
         } catch {
-          shareButton.textContent = "Copy unavailable";
-          if (status) status.textContent = "The browser could not copy this link. Please copy it from the address bar.";
+          shareButton.textContent = "未能複製";
+          if (status) status.textContent = "瀏覽器未能複製連結，請從網址列手動複製。";
         }
 
         labelTimer = window.setTimeout(() => {
@@ -1461,7 +1982,7 @@
         const frame = document.createElement("iframe");
         frame.className = "youtube-frame";
         frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1`;
-        frame.title = "YouTube video player";
+        frame.title = "YouTube 影片播放器";
         frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
         frame.allowFullscreen = true;
         frame.referrerPolicy = "strict-origin-when-cross-origin";
@@ -1488,6 +2009,7 @@
     async function initializeArticle() {
       await renderPost();
       setupArticleActions();
+      setupTableOfContents();
       setupReadingProgress();
       setupYouTubeEmbeds();
       setupCustomCursor();

@@ -170,6 +170,11 @@ as $$
 declare
   v_id text;
   v_now timestamptz := clock_timestamp();
+  v_published boolean := case
+    when jsonb_typeof(p_post -> 'published') = 'boolean'
+      then (p_post ->> 'published')::boolean
+    else true
+  end;
   v_clean_post jsonb;
   v_saved_post jsonb;
 begin
@@ -221,12 +226,14 @@ begin
     v_id,
     v_now,
     v_now,
-    true,
+    v_published,
     v_clean_post
   )
   on conflict (id) do update
   set updated_at = v_now,
-      published = true,
+      -- Editing a private archive must not silently republish it. New rows are
+      -- public by default, while existing rows keep their current visibility.
+      published = existing.published,
       payload =
         (
           excluded.payload - array[
@@ -250,10 +257,17 @@ begin
 end;
 $$;
 
-create or replace function public.music_journal_list_admin(p_token uuid)
+-- The admin list used to return only (id, sort_index, payload). PostgreSQL
+-- cannot change a RETURNS TABLE row shape with CREATE OR REPLACE, so drop the
+-- exact signature first. This remains atomic because the migration is wrapped
+-- in the transaction above, and it is safe to repeat on later runs.
+drop function if exists public.music_journal_list_admin(uuid);
+
+create function public.music_journal_list_admin(p_token uuid)
 returns table (
   id text,
   sort_index bigint,
+  published boolean,
   payload jsonb
 )
 language plpgsql
@@ -267,9 +281,8 @@ begin
   end if;
 
   return query
-  select post.id, post.sort_index, post.payload
+  select post.id, post.sort_index, post.published, post.payload
   from public.music_journal_posts post
-  where post.published = true
   order by post.sort_index desc;
 end;
 $$;
@@ -294,10 +307,53 @@ begin
   select post.payload
   into v_payload
   from public.music_journal_posts post
-  where post.id = p_id
-    and post.published = true;
+  where post.id = p_id;
 
   return v_payload;
+end;
+$$;
+
+create or replace function public.music_journal_set_visibility(
+  p_token uuid,
+  p_id text,
+  p_published boolean
+)
+returns boolean
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_id text := nullif(trim(p_id), '');
+begin
+  if not public.music_journal_session_valid(p_token) then
+    raise exception 'Invalid or expired music-journal session';
+  end if;
+
+  if v_id is null
+     or v_id !~ '^[A-Za-z0-9_-]{1,120}$'
+     or p_published is null then
+    raise exception 'Post id and visibility are required';
+  end if;
+
+  update public.music_journal_posts post
+  set published = p_published,
+      updated_at = clock_timestamp()
+  where post.id = v_id
+    and post.published is distinct from p_published;
+
+  if found then
+    return true;
+  end if;
+
+  -- Treat an idempotent repeat as success while still returning false for an
+  -- unknown post id. This makes retries safe and avoids needless row writes.
+  return exists (
+    select 1
+    from public.music_journal_posts post
+    where post.id = v_id
+      and post.published = p_published
+  );
 end;
 $$;
 
@@ -346,6 +402,7 @@ revoke all on function public.music_journal_session_valid(uuid) from public, ano
 revoke all on function public.music_journal_publish(uuid, jsonb) from public, anon, authenticated, service_role;
 revoke all on function public.music_journal_list_admin(uuid) from public, anon, authenticated, service_role;
 revoke all on function public.music_journal_get_admin_post(uuid, text) from public, anon, authenticated, service_role;
+revoke all on function public.music_journal_set_visibility(uuid, text, boolean) from public, anon, authenticated, service_role;
 revoke all on function public.music_journal_delete(uuid, text) from public, anon, authenticated, service_role;
 revoke all on function public.music_journal_logout(uuid) from public, anon, authenticated, service_role;
 
@@ -353,6 +410,7 @@ grant execute on function public.music_journal_login(text) to anon, authenticate
 grant execute on function public.music_journal_publish(uuid, jsonb) to anon, authenticated;
 grant execute on function public.music_journal_list_admin(uuid) to anon, authenticated;
 grant execute on function public.music_journal_get_admin_post(uuid, text) to anon, authenticated;
+grant execute on function public.music_journal_set_visibility(uuid, text, boolean) to anon, authenticated;
 grant execute on function public.music_journal_delete(uuid, text) to anon, authenticated;
 grant execute on function public.music_journal_logout(uuid) to anon, authenticated;
 
