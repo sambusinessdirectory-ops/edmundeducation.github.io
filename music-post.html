@@ -3,6 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Music Post | EdmundEducation</title>
+  <meta name="description" content="Edmund Music Journal：英文流行曲歌詞、背景與中英賞析。">
+  <meta property="og:title" content="Edmund Music Journal">
+  <meta property="og:description" content="Lyrics · Context · Analysis">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Edmund Music Journal">
+  <meta name="twitter:description" content="Lyrics · Context · Analysis">
+  <meta name="twitter:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
   <meta name="theme-color" content="#20283d">
   <meta name="mobile-web-app-capable" content="yes">
@@ -75,6 +86,13 @@
       gap: 18px;
     }
 
+    .post-brand-wrap {
+      min-width: 190px;
+      flex: 1 1 300px;
+      display: grid;
+      gap: 8px;
+    }
+
     .post-brand,
     .back-link {
       color: #1d1d1f;
@@ -98,6 +116,74 @@
       display: grid;
       place-items: center;
       font-size: 17px;
+      flex: 0 0 auto;
+    }
+
+    .post-brand-label {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .reading-progress {
+      width: min(100%, 330px);
+      height: 4px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #dedee3;
+    }
+
+    .reading-progress-bar {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      background: #050505;
+      transform: scaleX(0);
+      transform-origin: left center;
+      transition: transform 80ms linear;
+    }
+
+    .post-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .nav-control {
+      min-height: 38px;
+      padding: 8px 11px;
+      border: 1px solid #d2d2d7;
+      border-radius: 7px;
+      background: rgba(255,255,255,0.78);
+      color: #303035;
+      font: inherit;
+      font-size: 12px;
+      line-height: 1.15;
+      font-weight: 900;
+      text-align: center;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 160ms ease, color 160ms ease, border-color 160ms ease, opacity 160ms ease;
+    }
+
+    .nav-control:hover,
+    .nav-control:focus-visible {
+      border-color: #050505;
+      background: #050505;
+      color: #fff;
+      outline: none;
+    }
+
+    .nav-control:focus-visible {
+      box-shadow: 0 0 0 3px rgba(0,0,0,0.16);
+    }
+
+    .top-button:disabled {
+      opacity: 0.42;
     }
 
     .back-link {
@@ -123,6 +209,7 @@
     .post-copy {
       width: min(880px, calc(100vw - 44px));
       margin: 48px auto 0;
+      overflow-wrap: anywhere;
     }
 
     .tag-pill {
@@ -154,6 +241,25 @@
       font-weight: 800;
     }
 
+    .admin-date {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      color: #4b4b50;
+    }
+
+    .admin-date::before {
+      content: "Admin date:";
+      padding: 3px 6px;
+      border-radius: 5px;
+      background: #e8e8ed;
+      color: #52525a;
+      font-family: system-ui, sans-serif;
+      font-size: 10px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
     .post-body {
       margin-top: 38px;
       font-size: clamp(19px, 1.7vw, 24px);
@@ -164,6 +270,306 @@
 
     .post-body p {
       margin: 0 0 24px;
+    }
+
+    .structured-content {
+      margin-top: 42px;
+      display: grid;
+      gap: clamp(42px, 7vw, 74px);
+    }
+
+    .article-section {
+      min-width: 0;
+    }
+
+    .article-section > h2,
+    .song-info caption {
+      margin: 0 0 20px;
+      color: #1d1d1f;
+      font-size: clamp(24px, 3.1vw, 38px);
+      line-height: 1.2;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      text-align: left;
+    }
+
+    .rich-content {
+      color: #303035;
+      font-size: clamp(18px, 1.65vw, 22px);
+      line-height: 1.8;
+      font-weight: 650;
+      white-space: normal;
+    }
+
+    .rich-content > :first-child {
+      margin-top: 0;
+    }
+
+    .rich-content > :last-child {
+      margin-bottom: 0;
+    }
+
+    .rich-content p,
+    .rich-content div {
+      margin: 0 0 20px;
+    }
+
+    .rich-content h2,
+    .rich-content h3,
+    .rich-content h4,
+    .rich-content h5 {
+      margin: 34px 0 14px;
+      color: #1d1d1f;
+      line-height: 1.28;
+      font-weight: 900;
+    }
+
+    .rich-content h2 { font-size: clamp(25px, 3vw, 36px); }
+    .rich-content h3 { font-size: clamp(22px, 2.5vw, 30px); }
+    .rich-content h4,
+    .rich-content h5 { font-size: clamp(20px, 2vw, 25px); }
+
+    .rich-content blockquote {
+      margin: 28px 0;
+      padding: 3px 0 3px 22px;
+      border-left: 4px solid #1d1d1f;
+      color: #52525a;
+    }
+
+    .rich-content li + li {
+      margin-top: 8px;
+    }
+
+    .youtube-embed {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border-radius: 8px;
+      background: #111;
+      box-shadow: 0 16px 42px rgba(0,0,0,0.14);
+    }
+
+    .youtube-trigger,
+    .youtube-frame {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .youtube-trigger {
+      padding: 0;
+      overflow: hidden;
+      background: #111;
+    }
+
+    .youtube-trigger img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .youtube-play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 74px;
+      height: 52px;
+      border-radius: 14px;
+      background: #ff0033;
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-family: system-ui, sans-serif;
+      font-size: 25px;
+      line-height: 1;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 9px 28px rgba(0,0,0,0.32);
+    }
+
+    .youtube-fallback {
+      display: inline-flex;
+      padding: 12px 16px;
+      border-radius: 7px;
+      background: #050505;
+      color: #fff;
+      font-family: system-ui, sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .song-info {
+      width: 100%;
+      min-width: 0;
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    .song-info th,
+    .song-info td {
+      padding: 9px 0;
+      border: 0;
+      vertical-align: top;
+      text-align: left;
+      line-height: 1.55;
+    }
+
+    .song-info th {
+      width: min(32%, 220px);
+      padding-right: 24px;
+      color: #6e6e73;
+      font-family: system-ui, sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .song-info td {
+      color: #252529;
+      font-size: clamp(17px, 1.6vw, 21px);
+      font-weight: 750;
+      overflow-wrap: anywhere;
+    }
+
+    .song-info td p,
+    .song-info td div,
+    .lyrics-table td p,
+    .lyrics-table td div {
+      margin: 0 0 8px;
+    }
+
+    .song-info td > :last-child,
+    .lyrics-table td > :last-child {
+      margin-bottom: 0;
+    }
+
+    .lyrics-table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .lyrics-table {
+      width: 100%;
+      min-width: 560px;
+      table-layout: fixed;
+      border-collapse: separate;
+      border-spacing: 0 10px;
+    }
+
+    .lyrics-table th,
+    .lyrics-table td {
+      width: 50%;
+      border: 0;
+      vertical-align: top;
+      text-align: left;
+      overflow-wrap: anywhere;
+    }
+
+    .lyrics-table th {
+      padding: 0 18px 6px;
+      color: #6e6e73;
+      font-family: system-ui, sans-serif;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .lyrics-table td {
+      padding: 15px 18px;
+      background: rgba(255,255,255,0.68);
+      color: #2f2f33;
+      font-size: clamp(16px, 1.45vw, 19px);
+      line-height: 1.65;
+      font-weight: 650;
+    }
+
+    .lyrics-table td:first-child {
+      border-radius: 7px 0 0 7px;
+    }
+
+    .lyrics-table td:last-child {
+      border-radius: 0 7px 7px 0;
+    }
+
+    .second-image {
+      margin: 0;
+    }
+
+    .second-image img {
+      display: block;
+      width: 100%;
+      max-height: 720px;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 16px 44px rgba(0,0,0,0.12);
+    }
+
+    .analysis-list {
+      display: grid;
+      gap: 26px;
+    }
+
+    .analysis-item {
+      padding: clamp(20px, 3vw, 32px);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.72);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.06);
+      break-inside: avoid;
+    }
+
+    .analysis-lyric {
+      color: #151517;
+      font-size: clamp(21px, 2.4vw, 30px);
+      line-height: 1.45;
+      font-weight: 900;
+    }
+
+    .analysis-lyric > .rich-content {
+      color: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      font-weight: inherit;
+    }
+
+    .analysis-copy {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid #e3e3e8;
+    }
+
+    .analysis-label {
+      display: block;
+      margin-bottom: 9px;
+      color: #74747b;
+      font-family: system-ui, sans-serif;
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .share-status,
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .print-masthead {
+      display: none;
     }
 
     .missing {
@@ -178,6 +584,28 @@
       font-size: clamp(36px, 5vw, 64px);
     }
 
+    @media (max-width: 940px) {
+      .post-nav {
+        align-items: stretch;
+        flex-wrap: wrap;
+      }
+
+      .post-brand-wrap {
+        flex-basis: 100%;
+      }
+
+      .reading-progress {
+        width: 100%;
+        max-width: none;
+      }
+
+      .post-actions {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+    }
+
     @media (max-width: 760px) {
       html, body, a, button { cursor: auto; }
       .custom-cursor { display: none; }
@@ -189,11 +617,25 @@
 
       .post-nav {
         top: 0;
+        padding: 10px 12px 11px;
         border-radius: 0;
+        gap: 10px;
       }
 
-      .post-brand span:last-child {
-        display: none;
+      .post-brand {
+        font-size: clamp(16px, 4.6vw, 20px);
+      }
+
+      .brand-mark {
+        width: 29px;
+        height: 29px;
+        font-size: 15px;
+      }
+
+      .nav-control {
+        min-height: 36px;
+        padding: 7px 5px;
+        font-size: clamp(10px, 2.7vw, 12px);
       }
 
       .post-hero {
@@ -203,6 +645,191 @@
 
       .post-copy {
         margin-top: 34px;
+        width: min(100% - 32px, 880px);
+      }
+
+      h1 {
+        font-size: clamp(34px, 11vw, 54px);
+      }
+
+      .post-body {
+        font-size: clamp(18px, 5vw, 21px);
+        line-height: 1.68;
+      }
+
+      .structured-content {
+        margin-top: 34px;
+        gap: 46px;
+      }
+
+      .song-info th {
+        width: 38%;
+        padding-right: 14px;
+        font-size: 11px;
+      }
+
+      .youtube-play {
+        width: 60px;
+        height: 43px;
+        border-radius: 11px;
+        font-size: 20px;
+      }
+
+      .analysis-item {
+        padding: 20px;
+      }
+    }
+
+    @media (max-width: 430px) {
+      .post-actions {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .post-meta {
+        font-size: 13px;
+        line-height: 1.6;
+      }
+
+      .song-info th,
+      .song-info td {
+        display: block;
+        width: 100%;
+      }
+
+      .song-info th {
+        padding: 11px 0 2px;
+      }
+
+      .song-info td {
+        padding: 0 0 8px;
+      }
+    }
+
+    @media print {
+      @page {
+        size: auto;
+        margin: 16mm 15mm 18mm;
+      }
+
+      html,
+      body {
+        background: #fff !important;
+        color: #111 !important;
+        cursor: auto;
+      }
+
+      body {
+        font-weight: 500;
+      }
+
+      .page-loader,
+      .custom-cursor,
+      .post-nav,
+      .share-status,
+      .youtube-frame {
+        display: none !important;
+      }
+
+      .post-shell {
+        width: 100%;
+        padding: 0;
+      }
+
+      .print-masthead {
+        display: block;
+        margin: 0 0 9mm;
+        padding-bottom: 4mm;
+        border-bottom: 1px solid #c9c9c9;
+        font-family: system-ui, sans-serif;
+        font-size: 11pt;
+        font-weight: 800;
+      }
+
+      .post-hero,
+      .second-image img,
+      .youtube-embed,
+      .analysis-item {
+        box-shadow: none;
+      }
+
+      .post-hero {
+        margin: 0 0 9mm;
+        border-radius: 0;
+        break-inside: avoid;
+      }
+
+      .post-hero img {
+        max-height: 105mm;
+      }
+
+      .post-copy {
+        width: 100%;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 30pt;
+      }
+
+      .post-meta,
+      .tag-pill {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .post-body,
+      .rich-content {
+        color: #202020;
+        font-size: 11.5pt;
+        line-height: 1.58;
+      }
+
+      .structured-content {
+        gap: 9mm;
+      }
+
+      .article-section > h2,
+      .song-info caption {
+        font-size: 20pt;
+        break-after: avoid;
+      }
+
+      .youtube-section {
+        break-inside: avoid;
+      }
+
+      .youtube-embed {
+        max-height: 105mm;
+      }
+
+      .youtube-trigger,
+      .youtube-trigger[hidden] {
+        display: block !important;
+      }
+
+      .lyrics-table-wrap {
+        overflow: visible;
+      }
+
+      .lyrics-table {
+        min-width: 0;
+        border-spacing: 0 3mm;
+      }
+
+      .lyrics-table td,
+      .analysis-item {
+        background: #f6f6f6 !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .analysis-item {
+        page-break-inside: avoid;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
       }
     }
   </style>
@@ -218,18 +845,42 @@
 
   <div class="post-shell">
     <header class="post-nav">
-      <a class="post-brand" href="major-music.html">
-        <span class="brand-mark">♪</span>
-        <span>Edmund Music Journal</span>
-      </a>
-      <a class="back-link" href="major-music.html">Back to music blog</a>
+      <div class="post-brand-wrap">
+        <a class="post-brand" href="major-music.html">
+          <span class="brand-mark">♪</span>
+          <span class="post-brand-label">Edmund Music Journal</span>
+        </a>
+        <div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-reading-progress>
+          <span class="reading-progress-bar" data-reading-progress-bar></span>
+        </div>
+      </div>
+      <div class="post-actions" aria-label="Article actions">
+        <button class="nav-control" type="button" data-export-pdf>Export as PDF</button>
+        <button class="nav-control" type="button" data-share-post>Share this blog!</button>
+        <a class="nav-control" href="major-music.html">Back to music blog</a>
+        <button class="nav-control top-button" type="button" aria-label="Go to the top of this article" data-go-top disabled>↑ Top</button>
+      </div>
     </header>
 
+    <div class="print-masthead">Edmund Music Journal</div>
     <main data-post-root></main>
+    <p class="share-status" role="status" aria-live="polite" data-share-status></p>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
   <script>
     const POSTS_KEY = "edmundMusicPosts";
+    const AUTH_KEY = "edmundMusicLoggedIn";
+    const ADMIN_TOKEN_KEY = "edmundMusicAdminToken";
+    const ADMIN_EXPIRES_KEY = "edmundMusicAdminExpiresAt";
+    const SUPABASE_SETTINGS = window.EDMUND_SUPABASE || {};
+    const MUSIC_PUBLIC_VIEW = SUPABASE_SETTINGS.musicJournalPublicView || "music_journal_public_posts";
+    const musicSupabase = window.supabase?.createClient && SUPABASE_SETTINGS.url && SUPABASE_SETTINGS.anonKey
+      ? window.supabase.createClient(SUPABASE_SETTINGS.url, SUPABASE_SETTINGS.anonKey, {
+          auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
+        })
+      : null;
 
     const seedPosts = [];
 
@@ -252,6 +903,67 @@
 
     function getAllPosts() {
       return [...getStoredPosts(), ...seedPosts];
+    }
+
+    function isAdminView() {
+      try {
+        const token = sessionStorage.getItem(ADMIN_TOKEN_KEY) || "";
+        const expiresAt = sessionStorage.getItem(ADMIN_EXPIRES_KEY) || "";
+        if (!token || !expiresAt || Date.parse(expiresAt) <= Date.now()) {
+          sessionStorage.removeItem(ADMIN_TOKEN_KEY);
+          sessionStorage.removeItem(ADMIN_EXPIRES_KEY);
+          sessionStorage.setItem(AUTH_KEY, "no");
+          return false;
+        }
+        return sessionStorage.getItem(AUTH_KEY) === "yes";
+      } catch {
+        return false;
+      }
+    }
+
+    function adminToken() {
+      if (!isAdminView()) return "";
+      try {
+        return sessionStorage.getItem(ADMIN_TOKEN_KEY) || "";
+      } catch {
+        return "";
+      }
+    }
+
+    function clearAdminSession() {
+      try {
+        sessionStorage.removeItem(ADMIN_TOKEN_KEY);
+        sessionStorage.removeItem(ADMIN_EXPIRES_KEY);
+        sessionStorage.setItem(AUTH_KEY, "no");
+      } catch {}
+    }
+
+    async function getSharedPost(id, allowAdmin = true) {
+      if (!musicSupabase || !id) return null;
+
+      if (allowAdmin && adminToken()) {
+        const { data, error } = await musicSupabase.rpc("music_journal_get_admin_post", {
+          p_token: adminToken(),
+          p_id: id
+        });
+        if (!error && data && typeof data === "object") {
+          return { ...data, id: String(data.id || id) };
+        }
+        if (error && /invalid|expired|session/i.test(error.message || "")) {
+          clearAdminSession();
+          return getSharedPost(id, false);
+        }
+        if (error) throw error;
+      }
+
+      const { data, error } = await musicSupabase
+        .from(MUSIC_PUBLIC_VIEW)
+        .select("id,payload")
+        .eq("id", id)
+        .maybeSingle();
+      if (error) throw error;
+      if (!data?.payload || typeof data.payload !== "object") return null;
+      return { ...data.payload, id: String(data.id || id) };
     }
 
     function getNavigationPost(id) {
@@ -285,20 +997,340 @@
         .join("");
     }
 
-    function renderPost() {
+    function hasText(value) {
+      if (value === null || value === undefined) return false;
+      const source = String(value).trim();
+      if (!source) return false;
+
+      const parsed = new DOMParser().parseFromString(source, "text/html");
+      return Boolean((parsed.body.textContent || "").replace(/\u00a0/g, " ").trim());
+    }
+
+    function sanitizeRichHtml(value) {
+      const source = String(value || "").trim();
+      if (!source) return "";
+
+      const supportedMarkup = /<\/?(?:p|div|br|strong|b|em|i|u|h[2-5]|ul|ol|li|blockquote|span)\b/i;
+      if (!supportedMarkup.test(source)) return renderParagraphs(source);
+
+      const template = document.createElement("template");
+      template.innerHTML = source;
+
+      const allowed = new Set([
+        "P", "DIV", "BR", "STRONG", "B", "EM", "I", "U",
+        "H2", "H3", "H4", "H5", "UL", "OL", "LI", "BLOCKQUOTE", "SPAN"
+      ]);
+      const blocked = new Set([
+        "SCRIPT", "STYLE", "IFRAME", "OBJECT", "EMBED", "LINK", "META",
+        "FORM", "INPUT", "BUTTON", "TEXTAREA", "SELECT", "OPTION", "SVG", "MATH"
+      ]);
+
+      Array.from(template.content.querySelectorAll("*")).forEach(element => {
+        if (!template.content.contains(element)) return;
+
+        if (blocked.has(element.tagName)) {
+          element.remove();
+          return;
+        }
+
+        if (!allowed.has(element.tagName)) {
+          element.replaceWith(...element.childNodes);
+          return;
+        }
+
+        Array.from(element.attributes).forEach(attribute => element.removeAttribute(attribute.name));
+      });
+
+      return template.innerHTML;
+    }
+
+    function safeImageSource(value) {
+      const source = String(value || "").trim();
+      if (!source) return "";
+      if (/^data:image\/(?:avif|gif|jpeg|jpg|png|webp);/i.test(source)) return source;
+      if (/^blob:/i.test(source)) return source;
+      if (/^https?:\/\//i.test(source)) return source;
+      if (!/^[a-z][a-z\d+.-]*:/i.test(source)) return source;
+      return "";
+    }
+
+    function safeHttpUrl(value) {
+      let source = String(value || "").trim();
+      if (!source) return "";
+      if (/^(?:www\.)?(?:youtube\.com|youtu\.be)\//i.test(source)) source = `https://${source}`;
+
+      try {
+        const url = new URL(source, window.location.href);
+        return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function youtubeVideoId(post) {
+      const direct = String(post.youtubeId || "").trim();
+      if (/^[A-Za-z0-9_-]{6,20}$/.test(direct)) return direct;
+
+      const source = safeHttpUrl(post.youtubeUrl || post.youtube || post.videoUrl);
+      if (!source) return "";
+
+      try {
+        const url = new URL(source);
+        const host = url.hostname.toLowerCase().replace(/^www\./, "");
+        let candidate = "";
+
+        if (host === "youtu.be") {
+          candidate = url.pathname.split("/").filter(Boolean)[0] || "";
+        } else if (host === "youtube.com" || host.endsWith(".youtube.com")) {
+          candidate = url.searchParams.get("v") || "";
+          if (!candidate) {
+            const parts = url.pathname.split("/").filter(Boolean);
+            if (["embed", "shorts", "live"].includes(parts[0])) candidate = parts[1] || "";
+          }
+        }
+
+        return /^[A-Za-z0-9_-]{6,20}$/.test(candidate) ? candidate : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function postField(post, canonical, aliases = []) {
+      const metadata = post.metadata && typeof post.metadata === "object" ? post.metadata : {};
+      const candidates = [post[canonical], metadata[canonical]];
+
+      aliases.forEach(alias => {
+        candidates.push(post[alias], metadata[alias]);
+      });
+
+      return candidates.find(value => hasText(value)) ?? "";
+    }
+
+    function renderYouTube(post) {
+      const id = youtubeVideoId(post);
+      const url = safeHttpUrl(post.youtubeUrl || post.youtube || post.videoUrl);
+      if (!id && !url) return "";
+
+      if (!id) {
+        return `
+          <section class="article-section youtube-section">
+            <h2>YouTube</h2>
+            <a class="youtube-fallback" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+          </section>
+        `;
+      }
+
+      const customThumbnail = safeImageSource(post.youtubeThumbnail);
+      const thumbnail = customThumbnail || `https://i.ytimg.com/vi/${encodeURIComponent(id)}/hqdefault.jpg`;
+      return `
+        <section class="article-section youtube-section">
+          <h2>YouTube</h2>
+          <div class="youtube-embed" data-youtube-embed>
+            <button class="youtube-trigger" type="button" data-youtube-id="${escapeHtml(id)}" aria-label="Play this YouTube video">
+              <img src="${escapeHtml(thumbnail)}" alt="YouTube video thumbnail" loading="lazy">
+              <span class="youtube-play" aria-hidden="true">▶</span>
+            </button>
+          </div>
+        </section>
+      `;
+    }
+
+    function renderSongInfo(post) {
+      const fields = [
+        ["Singer(s)", postField(post, "singers", ["singer"])],
+        ["Year of release", postField(post, "releaseYear", ["yearOfRelease", "songYear"])],
+        ["Songwriter", postField(post, "songwriter", ["songWriter", "songwriters"])],
+        ["Producer", postField(post, "producer", ["producers"])]
+      ].filter(([, value]) => hasText(value));
+
+      if (!fields.length) return "";
+
+      return `
+        <section class="article-section">
+          <table class="song-info">
+            <caption>Song information</caption>
+            <tbody>
+              ${fields.map(([label, value]) => `
+                <tr>
+                  <th scope="row">${label}</th>
+                  <td>${sanitizeRichHtml(value)}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </section>
+      `;
+    }
+
+    function renderRichSection(title, value, extraClass = "") {
+      if (!hasText(value)) return "";
+      return `
+        <section class="article-section ${extraClass}">
+          <h2>${escapeHtml(title)}</h2>
+          <div class="rich-content">${sanitizeRichHtml(value)}</div>
+        </section>
+      `;
+    }
+
+    function normalizedBilingualLyrics(post) {
+      const source = post.bilingualLyrics || post.lyricsTable || post.translatedLyrics;
+      if (!Array.isArray(source)) return [];
+
+      return source.map(row => ({
+        english: row?.english ?? row?.englishHtml ?? row?.left ?? "",
+        chinese: row?.chinese ?? row?.chineseHtml ?? row?.right ?? ""
+      })).filter(row => hasText(row.english) || hasText(row.chinese));
+    }
+
+    function renderBilingualLyrics(post) {
+      const rows = normalizedBilingualLyrics(post);
+      if (!rows.length) return "";
+
+      return `
+        <section class="article-section">
+          <h2>Full Lyrics: English and Chinese</h2>
+          <div class="lyrics-table-wrap">
+            <table class="lyrics-table">
+              <thead>
+                <tr>
+                  <th scope="col">English</th>
+                  <th scope="col">中文</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${rows.map(row => `
+                  <tr>
+                    <td>${sanitizeRichHtml(row.english)}</td>
+                    <td>${sanitizeRichHtml(row.chinese)}</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      `;
+    }
+
+    function normalizedLyricAnalysis(post) {
+      const source = post.lyricAnalysis || post.analysisSections || post.lyricAnalysisLines;
+      if (!Array.isArray(source)) return [];
+
+      return source.map(row => ({
+        lyric: row?.lyric ?? row?.lyrics ?? row?.lyricsHtml ?? row?.line ?? "",
+        analysis: row?.analysis ?? row?.analysisHtml ?? row?.commentary ?? ""
+      })).filter(row => hasText(row.lyric) || hasText(row.analysis));
+    }
+
+    function renderLyricAnalysis(post) {
+      const rows = normalizedLyricAnalysis(post);
+      if (!rows.length) return "";
+
+      return `
+        <section class="article-section analysis-section">
+          <h2>Lyric Analysis</h2>
+          <div class="analysis-list">
+            ${rows.map((row, index) => `
+              <article class="analysis-item">
+                ${hasText(row.lyric) ? `
+                  <div class="analysis-lyric">
+                    <span class="analysis-label">Lyrics line ${index + 1}</span>
+                    <div class="rich-content">${sanitizeRichHtml(row.lyric)}</div>
+                  </div>
+                ` : ""}
+                ${hasText(row.analysis) ? `
+                  <div class="analysis-copy">
+                    <span class="analysis-label">Analysis line ${index + 1}</span>
+                    <div class="rich-content">${sanitizeRichHtml(row.analysis)}</div>
+                  </div>
+                ` : ""}
+              </article>
+            `).join("")}
+          </div>
+        </section>
+      `;
+    }
+
+    function renderSecondImage(post) {
+      const image = safeImageSource(post.secondImage || post.imageTwo || post.secondaryImage);
+      if (!image) return "";
+
+      return `
+        <figure class="article-section second-image">
+          <img src="${escapeHtml(image)}" alt="" loading="lazy">
+        </figure>
+      `;
+    }
+
+    function renderStructuredContent(post) {
+      const context = postField(post, "contextBackground", ["contextHtml", "background", "context"]);
+      const fullLyrics = postField(post, "fullLyricsEnglish", ["fullLyricsHtml", "englishLyrics"]);
+      const bilingualRows = normalizedBilingualLyrics(post);
+      const analysisRows = normalizedLyricAnalysis(post);
+      const secondImage = safeImageSource(post.secondImage || post.imageTwo || post.secondaryImage);
+      const youtubeSection = renderYouTube(post);
+      const songInfoSection = renderSongInfo(post);
+      const hasStructuredContent = Boolean(
+        youtubeSection
+        || songInfoSection
+        || hasText(context)
+        || hasText(fullLyrics)
+        || bilingualRows.length
+        || secondImage
+        || analysisRows.length
+      );
+
+      if (!hasStructuredContent) return "";
+
+      return `
+        <div class="structured-content">
+          ${youtubeSection}
+          ${songInfoSection}
+          ${renderRichSection("Context and Background", context)}
+          ${renderRichSection("Full Lyrics in English", fullLyrics, "full-lyrics")}
+          ${renderBilingualLyrics(post)}
+          ${renderSecondImage(post)}
+          ${renderLyricAnalysis(post)}
+        </div>
+      `;
+    }
+
+    function renderPostMeta(post) {
+      const parts = [`<span>${escapeHtml(post.author || "Edmund Sir")}</span>`];
+      if (isAdminView() && post.date) {
+        parts.push(`<span class="admin-date">${escapeHtml(post.date)}</span>`);
+      }
+      if (post.minutes) parts.push(`<span>${escapeHtml(post.minutes)}</span>`);
+      return parts.join(" <span aria-hidden=\"true\">・</span> ");
+    }
+
+    async function renderPost() {
       const root = document.querySelector("[data-post-root]");
       const id = new URLSearchParams(window.location.search).get("id");
-      const post = getAllPosts().find(item => item.id === id) || getNavigationPost(id);
-
       if (!root) return;
+
+      let post = getAllPosts().find(item => item.id === id) || getNavigationPost(id);
+      let loadError = null;
+      root.setAttribute("aria-busy", "true");
+
+      try {
+        const sharedPost = await getSharedPost(id);
+        if (sharedPost) post = sharedPost;
+      } catch (error) {
+        loadError = error;
+        console.warn("Could not load the shared music article.", error);
+      } finally {
+        root.removeAttribute("aria-busy");
+      }
 
       if (!post) {
         document.title = "Post not found | EdmundEducation";
         root.innerHTML = `
           <section class="missing">
             <div>
-              <h1>找不到這篇文章</h1>
-              <p class="post-meta">這篇文章可能只存在於另一個瀏覽器或已被刪除。</p>
+              <h1>${loadError ? "暫時未能載入文章" : "找不到這篇文章"}</h1>
+              <p class="post-meta">${loadError
+                ? "請檢查網絡連線後重新整理頁面。"
+                : "這篇文章可能尚未發布或已被刪除。"}</p>
               <p><a class="back-link" href="major-music.html">Back to music blog</a></p>
             </div>
           </section>
@@ -307,19 +1339,135 @@
       }
 
       document.title = `${post.title} | EdmundEducation`;
+      document.body.classList.toggle("is-admin", isAdminView());
+      const heroImage = safeImageSource(post.image);
+      const structured = renderStructuredContent(post);
       root.innerHTML = `
         <article>
-          <div class="post-hero">
-            <img src="${escapeHtml(post.image)}" alt="">
-          </div>
+          ${heroImage ? `
+            <div class="post-hero">
+              <img src="${escapeHtml(heroImage)}" alt="${escapeHtml(post.title || "")}">
+            </div>
+          ` : ""}
           <div class="post-copy">
-            <span class="tag-pill">${escapeHtml(post.tag)}</span>
+            ${post.tag ? `<span class="tag-pill">${escapeHtml(post.tag)}</span>` : ""}
             <h1>${escapeHtml(post.title)}</h1>
-            <p class="post-meta">${escapeHtml(post.author || "Edmund Sir")} ・ ${escapeHtml(post.date)} ・ ${escapeHtml(post.minutes)}</p>
-            <div class="post-body">${renderParagraphs(post.body)}</div>
+            <p class="post-meta">${renderPostMeta(post)}</p>
+            ${structured || `<div class="post-body">${renderParagraphs(post.body || "")}</div>`}
           </div>
         </article>
       `;
+    }
+
+    function setupReadingProgress() {
+      const progress = document.querySelector("[data-reading-progress]");
+      const bar = document.querySelector("[data-reading-progress-bar]");
+      const topButton = document.querySelector("[data-go-top]");
+      if (!progress || !bar) return;
+
+      let ticking = false;
+      const update = () => {
+        const scrollable = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+        const ratio = scrollable ? Math.min(1, Math.max(0, window.scrollY / scrollable)) : 0;
+        const percent = Math.round(ratio * 100);
+        bar.style.transform = `scaleX(${ratio})`;
+        progress.setAttribute("aria-valuenow", String(percent));
+        progress.setAttribute("aria-valuetext", `${percent}% read`);
+        if (topButton) topButton.disabled = window.scrollY < 180;
+        ticking = false;
+      };
+
+      const requestUpdate = () => {
+        if (ticking) return;
+        ticking = true;
+        window.requestAnimationFrame(update);
+      };
+
+      window.addEventListener("scroll", requestUpdate, { passive: true });
+      window.addEventListener("resize", requestUpdate, { passive: true });
+      window.addEventListener("load", requestUpdate, { once: true });
+      document.querySelectorAll("img").forEach(image => image.addEventListener("load", requestUpdate, { once: true }));
+
+      if ("ResizeObserver" in window) {
+        const observer = new ResizeObserver(requestUpdate);
+        observer.observe(document.documentElement);
+      }
+
+      requestUpdate();
+    }
+
+    function copyWithFallback(text) {
+      const field = document.createElement("textarea");
+      field.value = text;
+      field.setAttribute("readonly", "");
+      field.style.position = "fixed";
+      field.style.opacity = "0";
+      document.body.appendChild(field);
+      field.select();
+      field.setSelectionRange(0, field.value.length);
+      const copied = document.execCommand("copy");
+      field.remove();
+      if (!copied) throw new Error("Copy command was unavailable");
+    }
+
+    async function copyShareLink() {
+      const url = new URL(window.location.href);
+      url.hash = "";
+
+      if (navigator.clipboard?.writeText && window.isSecureContext) {
+        await navigator.clipboard.writeText(url.href);
+      } else {
+        copyWithFallback(url.href);
+      }
+    }
+
+    function setupArticleActions() {
+      const shareButton = document.querySelector("[data-share-post]");
+      const status = document.querySelector("[data-share-status]");
+      const originalShareLabel = shareButton?.textContent || "Share this blog!";
+      let labelTimer = 0;
+
+      document.querySelector("[data-export-pdf]")?.addEventListener("click", () => window.print());
+      document.querySelector("[data-go-top]")?.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      shareButton?.addEventListener("click", async () => {
+        window.clearTimeout(labelTimer);
+        try {
+          await copyShareLink();
+          shareButton.textContent = "Link copied!";
+          if (status) status.textContent = "This article link has been copied to your clipboard.";
+        } catch {
+          shareButton.textContent = "Copy unavailable";
+          if (status) status.textContent = "The browser could not copy this link. Please copy it from the address bar.";
+        }
+
+        labelTimer = window.setTimeout(() => {
+          shareButton.textContent = originalShareLabel;
+        }, 2200);
+      });
+    }
+
+    function setupYouTubeEmbeds() {
+      document.addEventListener("click", event => {
+        const trigger = event.target.closest("[data-youtube-id]");
+        if (!trigger) return;
+
+        const id = trigger.getAttribute("data-youtube-id");
+        const holder = trigger.closest("[data-youtube-embed]");
+        if (!id || !holder || holder.querySelector("iframe")) return;
+
+        const frame = document.createElement("iframe");
+        frame.className = "youtube-frame";
+        frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1`;
+        frame.title = "YouTube video player";
+        frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        frame.allowFullscreen = true;
+        frame.referrerPolicy = "strict-origin-when-cross-origin";
+        trigger.hidden = true;
+        holder.appendChild(frame);
+      });
     }
 
     function setupCustomCursor() {
@@ -337,8 +1485,15 @@
       });
     }
 
-    renderPost();
-    setupCustomCursor();
+    async function initializeArticle() {
+      await renderPost();
+      setupArticleActions();
+      setupReadingProgress();
+      setupYouTubeEmbeds();
+      setupCustomCursor();
+    }
+
+    initializeArticle();
   </script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
 </body>

@@ -3,6 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>英文流行曲歌詞賞析 | EdmundEducation</title>
+  <meta name="description" content="Edmund Music Journal：英文流行曲歌詞、背景與中英賞析。">
+  <meta property="og:title" content="Edmund Music Journal">
+  <meta property="og:description" content="Lyrics · Context · Analysis">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Edmund Music Journal">
+  <meta name="twitter:description" content="Lyrics · Context · Analysis">
+  <meta name="twitter:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
   <meta name="theme-color" content="#20283d">
   <meta name="mobile-web-app-capable" content="yes">
@@ -37,7 +48,7 @@
       --panel: rgba(255,255,255,0.94);
     }
 
-    html, body, a, button, input, textarea { cursor: none; }
+    html, body, a, button, input, textarea, [contenteditable] { cursor: none; }
 
     body {
       margin: 0;
@@ -598,6 +609,211 @@
       display: block;
     }
 
+    .image-preview.is-optional {
+      min-height: 180px;
+    }
+
+    .youtube-preview {
+      min-height: 0;
+      aspect-ratio: 16 / 9;
+      position: relative;
+    }
+
+    .youtube-preview[hidden] { display: none; }
+
+    .youtube-preview img {
+      position: absolute;
+      inset: 0;
+    }
+
+    .editor-section {
+      grid-column: 1 / -1;
+      min-width: 0;
+      padding: clamp(18px, 3vw, 26px);
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 8px;
+      background: #fbfbfd;
+      display: grid;
+      gap: 14px;
+    }
+
+    .editor-section h3 {
+      margin: 0;
+      color: var(--ink);
+      font-size: clamp(20px, 2vw, 27px);
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .editor-help {
+      margin: -4px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      font-weight: 700;
+    }
+
+    .format-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .format-button,
+    .add-editor-rows {
+      min-height: 38px;
+      border: 1px solid rgba(0,0,0,0.11);
+      border-radius: 8px;
+      padding: 8px 13px;
+      background: #fff;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .format-button:hover,
+    .add-editor-rows:hover {
+      border-color: rgba(0,0,0,0.24);
+      background: #f5f5f7;
+    }
+
+    .format-shortcut {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .rich-editor {
+      width: 100%;
+      min-height: 180px;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fff;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 15px;
+      line-height: 1.6;
+      font-weight: 500;
+      outline: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .rich-editor strong,
+    .rich-editor b {
+      font-weight: 900;
+    }
+
+    .rich-editor:focus {
+      border-color: rgba(0,113,227,0.55);
+      box-shadow: 0 0 0 3px rgba(0,113,227,0.10);
+    }
+
+    .rich-editor:empty::before {
+      content: attr(data-placeholder);
+      color: #86868b;
+      pointer-events: none;
+    }
+
+    .rich-editor h3 {
+      margin: 0.7em 0 0.35em;
+      font-size: 1.3em;
+      line-height: 1.25;
+      font-weight: 900;
+    }
+
+    .rich-editor h3:first-child { margin-top: 0; }
+
+    .editor-table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      border-radius: 8px;
+    }
+
+    .editor-table {
+      width: 100%;
+      min-width: 0;
+      border-collapse: collapse;
+      background: #fff;
+      table-layout: fixed;
+    }
+
+    .editor-table th,
+    .editor-table td {
+      border: 1px solid rgba(0,0,0,0.12);
+      padding: 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    .editor-table th {
+      background: #f5f5f7;
+      color: #343437;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .metadata-table th { width: 180px; }
+
+    .metadata-table input {
+      width: 100%;
+      min-width: 0;
+      border: 0;
+      padding: 4px;
+      background: transparent;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 700;
+      outline: 0;
+    }
+
+    .lyrics-grid-table { min-width: 560px; }
+
+    .table-rich-editor {
+      min-height: 64px;
+      border: 0;
+      border-radius: 4px;
+      padding: 8px;
+      box-shadow: none;
+      background: transparent;
+    }
+
+    .table-rich-editor:focus {
+      background: #fbfbfd;
+      box-shadow: inset 0 0 0 2px rgba(0,113,227,0.13);
+    }
+
+    .analysis-table .analysis-lyric td {
+      background: #f5f5f7;
+    }
+
+    .analysis-table .analysis-lyric .table-rich-editor {
+      min-height: 54px;
+      font-size: 18px;
+      line-height: 1.45;
+      font-weight: 900;
+    }
+
+    .analysis-table .analysis-copy .table-rich-editor {
+      min-height: 150px;
+    }
+
+    .analysis-pair-label {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .editor-row-actions {
+      display: flex;
+      justify-content: flex-start;
+    }
+
     .form-actions {
       grid-column: 1 / -1;
       display: flex;
@@ -668,7 +884,7 @@
     }
 
     @media (max-width: 950px) {
-      html, body, a, button, input, textarea { cursor: auto; }
+      html, body, a, button, input, textarea, [contenteditable] { cursor: auto; }
       .custom-cursor { display: none; }
 
       .site-shell {
@@ -721,6 +937,12 @@
 
       .admin-panel {
         margin: 34px 22px 0;
+      }
+
+      .metadata-table th { width: 132px; }
+
+      .editor-section {
+        padding: 18px 14px;
       }
     }
   </style>
@@ -776,7 +998,7 @@
 
       <section class="admin-panel" id="create" data-admin-panel hidden>
         <h2>新增歌詞賞析文章</h2>
-        <p class="admin-note">登入後可以新增文章。圖片會壓縮後儲存在此瀏覽器的 localStorage，發布後會開啟新的文章頁面。</p>
+        <p class="admin-note" data-admin-note aria-live="polite">登入後可以新增文章。文章會同步到網站，讓讀者在不同裝置上開啟；這部電腦內的舊文章也會在登入後自動匯入。</p>
 
         <form class="blog-form" data-blog-form>
           <div class="field">
@@ -792,16 +1014,109 @@
           <div class="field full">
             <label for="post-image">Insert an image</label>
             <input id="post-image" name="image" type="file" accept="image/*" required data-image-input>
-          </div>
-
-          <div class="field full">
             <div class="image-preview" data-image-preview>Image preview</div>
           </div>
 
           <div class="field full">
-            <label for="post-body">Write anything here</label>
-            <textarea id="post-body" name="body" placeholder="在這裡寫下你的歌詞分析、英文用法、個人觀察..." required></textarea>
+            <label for="post-youtube">Add YouTube link (optional)</label>
+            <input id="post-youtube" name="youtubeUrl" type="text" inputmode="url" autocomplete="url" placeholder="https://www.youtube.com/watch?v=..." data-youtube-input>
+            <div class="image-preview youtube-preview" data-youtube-preview hidden></div>
           </div>
+
+          <section class="editor-section" aria-labelledby="song-details-heading">
+            <h3 id="song-details-heading">Song details</h3>
+            <p class="editor-help">Add the information readers should see above the article. This table is shown without border lines after publishing.</p>
+            <div class="editor-table-wrap">
+              <table class="editor-table metadata-table">
+                <tbody>
+                  <tr>
+                    <th scope="row"><label for="post-singers">Singer(s)</label></th>
+                    <td><input id="post-singers" name="singers" type="text" placeholder="Singer or group"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><label for="post-release-year">Year of release</label></th>
+                    <td><input id="post-release-year" name="releaseYear" type="text" inputmode="numeric" placeholder="e.g. 2024"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><label for="post-songwriter">Song writer</label></th>
+                    <td><input id="post-songwriter" name="songwriter" type="text" placeholder="Song writer(s)"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><label for="post-producer">Producer</label></th>
+                    <td><input id="post-producer" name="producer" type="text" placeholder="Producer(s)"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="editor-section" data-editor-section aria-labelledby="context-heading">
+            <h3 id="context-heading">Context and Background</h3>
+            <div class="format-toolbar" aria-label="Context and background formatting controls">
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> Bold</button>
+              <button class="format-button" type="button" data-editor-command="heading">Section heading</button>
+              <span class="format-shortcut">Select text first. ⌘/Ctrl+B also works.</span>
+            </div>
+            <div id="post-context" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="Paste or write the song's context and background..."></div>
+          </section>
+
+          <section class="editor-section" data-editor-section aria-labelledby="full-lyrics-heading">
+            <h3 id="full-lyrics-heading">Full Lyrics in English</h3>
+            <div class="format-toolbar" aria-label="Full English lyrics formatting controls">
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> Bold</button>
+              <button class="format-button" type="button" data-editor-command="heading">Section heading</button>
+              <span class="format-shortcut">Select text first. ⌘/Ctrl+B also works.</span>
+            </div>
+            <div id="post-full-lyrics" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="Paste the full English lyrics here..."></div>
+          </section>
+
+          <section class="editor-section" data-editor-section aria-labelledby="bilingual-lyrics-heading">
+            <h3 id="bilingual-lyrics-heading">Full Lyrics: English and Chinese</h3>
+            <p class="editor-help">The left column is English and the right column is Chinese. Empty rows will not be published, and the published table has no border lines.</p>
+            <div class="format-toolbar" aria-label="Bilingual lyrics formatting controls">
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> Bold</button>
+              <button class="format-button" type="button" data-editor-command="heading">Section heading</button>
+              <span class="format-shortcut">Click a cell, then format its selected text.</span>
+            </div>
+            <div class="editor-table-wrap">
+              <table class="editor-table lyrics-grid-table">
+                <thead>
+                  <tr>
+                    <th scope="col">English</th>
+                    <th scope="col">中文</th>
+                  </tr>
+                </thead>
+                <tbody data-bilingual-lyrics-body></tbody>
+              </table>
+            </div>
+            <div class="editor-row-actions">
+              <button class="add-editor-rows" type="button" data-add-bilingual-rows>Add 10 more rows</button>
+            </div>
+          </section>
+
+          <div class="field full">
+            <label for="post-second-image">Insert 2nd image (optional)</label>
+            <input id="post-second-image" name="secondImage" type="file" accept="image/*" data-second-image-input>
+            <div class="image-preview is-optional" data-second-image-preview>Second image preview</div>
+          </div>
+
+          <section class="editor-section" data-editor-section aria-labelledby="lyric-analysis-heading">
+            <h3 id="lyric-analysis-heading">Lyrics and Deep Analysis</h3>
+            <p class="editor-help">Each larger lyric line is followed by its analysis. Completely empty pairs will not be published.</p>
+            <div class="format-toolbar" aria-label="Lyrics and analysis formatting controls">
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> Bold</button>
+              <button class="format-button" type="button" data-editor-command="heading">Section heading</button>
+              <span class="format-shortcut">Click a lyric or analysis box, then format its selected text.</span>
+            </div>
+            <div class="editor-table-wrap">
+              <table class="editor-table analysis-table">
+                <tbody data-lyric-analysis-body></tbody>
+              </table>
+            </div>
+            <div class="editor-row-actions">
+              <button class="add-editor-rows" type="button" data-add-analysis-lines>Add 10 more lines</button>
+            </div>
+          </section>
 
           <div class="form-actions">
             <button class="post-button secondary" type="reset">Clear</button>
@@ -828,16 +1143,31 @@
     </form>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
   <script>
-    // Change your admin password here.
-    const ADMIN_PASSWORD = "edmundmusic";
-
     const POSTS_KEY = "edmundMusicPosts";
     const AUTH_KEY = "edmundMusicLoggedIn";
+    const ADMIN_TOKEN_KEY = "edmundMusicAdminToken";
+    const ADMIN_EXPIRES_KEY = "edmundMusicAdminExpiresAt";
     const POSTS_PER_LOAD = 12;
+    const INITIAL_BILINGUAL_ROWS = 20;
+    const INITIAL_ANALYSIS_LINES = 20;
+    const EXTRA_EDITOR_ROWS = 10;
+    const SUPABASE_SETTINGS = window.EDMUND_SUPABASE || {};
+    const MUSIC_SUMMARY_VIEW = SUPABASE_SETTINGS.musicJournalSummaryView || "music_journal_public_post_summaries";
+    const musicSupabase = window.supabase?.createClient && SUPABASE_SETTINGS.url && SUPABASE_SETTINGS.anonKey
+      ? window.supabase.createClient(SUPABASE_SETTINGS.url, SUPABASE_SETTINGS.anonKey, {
+          auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
+        })
+      : null;
 
     let activeFilter = "All";
     let visiblePostCount = POSTS_PER_LOAD;
+    let activeRichEditor = null;
+    let activeRichRange = null;
+    let sharedPosts = [];
+    let sharedPostsLoaded = false;
 
     const seedPosts = [];
 
@@ -854,6 +1184,164 @@
       return String(value).replace(/\s+/g, " ").trim().slice(0, 150);
     }
 
+    function plainRichText(value) {
+      const documentFragment = new DOMParser().parseFromString(String(value || ""), "text/html");
+      documentFragment.body.querySelectorAll("br").forEach(element => {
+        element.replaceWith(documentFragment.createTextNode("\n"));
+      });
+      documentFragment.body.querySelectorAll("p, div, h1, h2, h3, h4, h5, h6, li").forEach(element => {
+        element.append(documentFragment.createTextNode("\n"));
+      });
+      return String(documentFragment.body.textContent || "")
+        .replace(/\u00a0/g, " ")
+        .replace(/[ \t]+\n/g, "\n")
+        .replace(/\n{3,}/g, "\n\n")
+        .trim();
+    }
+
+    function richEditorHtml(editor) {
+      if (!editor) return "";
+
+      const output = document.createElement("div");
+      const allowedTags = new Map([
+        ["B", "strong"],
+        ["STRONG", "strong"],
+        ["H1", "h3"],
+        ["H2", "h3"],
+        ["H3", "h3"],
+        ["H4", "h3"],
+        ["H5", "h3"],
+        ["H6", "h3"],
+        ["P", "p"],
+        ["DIV", "div"],
+        ["BR", "br"]
+      ]);
+
+      function appendCleanNode(source, parent) {
+        if (source.nodeType === Node.TEXT_NODE) {
+          parent.append(document.createTextNode(source.textContent || ""));
+          return;
+        }
+
+        if (source.nodeType !== Node.ELEMENT_NODE) return;
+
+        const safeTag = allowedTags.get(source.tagName);
+        if (!safeTag) {
+          Array.from(source.childNodes).forEach(child => appendCleanNode(child, parent));
+          return;
+        }
+
+        const cleanElement = document.createElement(safeTag);
+        Array.from(source.childNodes).forEach(child => appendCleanNode(child, cleanElement));
+        parent.append(cleanElement);
+      }
+
+      Array.from(editor.childNodes).forEach(child => appendCleanNode(child, output));
+      return plainRichText(output.innerHTML) ? output.innerHTML.trim() : "";
+    }
+
+    function getYouTubeVideoId(value) {
+      const rawValue = String(value || "").trim();
+      if (!rawValue) return "";
+
+      try {
+        const url = new URL(/^https?:\/\//i.test(rawValue) ? rawValue : `https://${rawValue}`);
+        const host = url.hostname.toLowerCase().replace(/^www\./, "");
+        let videoId = "";
+
+        if (host === "youtu.be") {
+          videoId = url.pathname.split("/").filter(Boolean)[0] || "";
+        } else if (host === "youtube.com" || host.endsWith(".youtube.com") || host === "youtube-nocookie.com" || host.endsWith(".youtube-nocookie.com")) {
+          const pathParts = url.pathname.split("/").filter(Boolean);
+          if (["embed", "shorts", "live", "v"].includes(pathParts[0])) {
+            videoId = pathParts[1] || "";
+          } else {
+            videoId = url.searchParams.get("v") || "";
+          }
+        }
+
+        return /^[A-Za-z0-9_-]{11}$/.test(videoId) ? videoId : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function bilingualRowTemplate(index) {
+      return `
+        <tr data-bilingual-row>
+          <td>
+            <div class="rich-editor table-rich-editor" contenteditable="true" role="textbox" aria-label="English lyric line ${index}" aria-multiline="true" data-rich-editor data-bilingual-english data-placeholder="English line ${index}"></div>
+          </td>
+          <td>
+            <div class="rich-editor table-rich-editor" contenteditable="true" role="textbox" aria-label="Chinese lyric line ${index}" aria-multiline="true" data-rich-editor data-bilingual-chinese data-placeholder="中文第 ${index} 行"></div>
+          </td>
+        </tr>
+      `;
+    }
+
+    function analysisLineTemplate(index) {
+      return `
+        <tr class="analysis-lyric">
+          <td>
+            <span class="analysis-pair-label">Lyrics line ${index}</span>
+            <div class="rich-editor table-rich-editor" contenteditable="true" role="textbox" aria-label="Lyrics line ${index}" aria-multiline="true" data-rich-editor data-analysis-lyric data-placeholder="Lyrics line ${index}"></div>
+          </td>
+        </tr>
+        <tr class="analysis-copy">
+          <td>
+            <span class="analysis-pair-label">Analysis line ${index}</span>
+            <div class="rich-editor table-rich-editor" contenteditable="true" role="textbox" aria-label="Analysis line ${index}" aria-multiline="true" data-rich-editor data-analysis-copy data-placeholder="Write the analysis for lyrics line ${index}..."></div>
+          </td>
+        </tr>
+      `;
+    }
+
+    function addBilingualRows(count = EXTRA_EDITOR_ROWS) {
+      const tableBody = document.querySelector("[data-bilingual-lyrics-body]");
+      if (!tableBody) return;
+
+      const firstIndex = tableBody.querySelectorAll("[data-bilingual-row]").length + 1;
+      tableBody.insertAdjacentHTML("beforeend", Array.from({ length: count }, (_, offset) => bilingualRowTemplate(firstIndex + offset)).join(""));
+    }
+
+    function addAnalysisLines(count = EXTRA_EDITOR_ROWS) {
+      const tableBody = document.querySelector("[data-lyric-analysis-body]");
+      if (!tableBody) return;
+
+      const firstIndex = tableBody.querySelectorAll("[data-analysis-lyric]").length + 1;
+      tableBody.insertAdjacentHTML("beforeend", Array.from({ length: count }, (_, offset) => analysisLineTemplate(firstIndex + offset)).join(""));
+    }
+
+    function resetStructuredEditors() {
+      document.querySelectorAll("[data-rich-editor]").forEach(editor => editor.replaceChildren());
+
+      const bilingualBody = document.querySelector("[data-bilingual-lyrics-body]");
+      const analysisBody = document.querySelector("[data-lyric-analysis-body]");
+      if (bilingualBody) bilingualBody.innerHTML = "";
+      if (analysisBody) analysisBody.innerHTML = "";
+      addBilingualRows(INITIAL_BILINGUAL_ROWS);
+      addAnalysisLines(INITIAL_ANALYSIS_LINES);
+      activeRichEditor = null;
+    }
+
+    function readBilingualLyrics() {
+      return Array.from(document.querySelectorAll("[data-bilingual-row]")).map(row => {
+        const english = richEditorHtml(row.querySelector("[data-bilingual-english]"));
+        const chinese = richEditorHtml(row.querySelector("[data-bilingual-chinese]"));
+        return { english, chinese };
+      }).filter(item => plainRichText(item.english) || plainRichText(item.chinese));
+    }
+
+    function readLyricAnalysis() {
+      const lyricEditors = Array.from(document.querySelectorAll("[data-analysis-lyric]"));
+      const analysisEditors = Array.from(document.querySelectorAll("[data-analysis-copy]"));
+
+      return lyricEditors.map((editor, index) => ({
+        lyric: richEditorHtml(editor),
+        analysis: richEditorHtml(analysisEditors[index])
+      })).filter(item => plainRichText(item.lyric) || plainRichText(item.analysis));
+    }
+
     function getStoredPosts() {
       try {
         return JSON.parse(localStorage.getItem(POSTS_KEY) || "[]");
@@ -864,6 +1352,53 @@
 
     function saveStoredPosts(posts) {
       localStorage.setItem(POSTS_KEY, JSON.stringify(posts));
+    }
+
+    function adminSession() {
+      try {
+        const token = sessionStorage.getItem(ADMIN_TOKEN_KEY) || "";
+        const expiresAt = sessionStorage.getItem(ADMIN_EXPIRES_KEY) || "";
+        if (!token || !expiresAt || Date.parse(expiresAt) <= Date.now()) {
+          sessionStorage.removeItem(ADMIN_TOKEN_KEY);
+          sessionStorage.removeItem(ADMIN_EXPIRES_KEY);
+          sessionStorage.setItem(AUTH_KEY, "no");
+          return null;
+        }
+        return { token, expiresAt };
+      } catch {
+        return null;
+      }
+    }
+
+    function adminToken() {
+      return adminSession()?.token || "";
+    }
+
+    function storeAdminSession(session) {
+      try {
+        if (session?.token && session?.expires_at) {
+          sessionStorage.setItem(ADMIN_TOKEN_KEY, String(session.token));
+          sessionStorage.setItem(ADMIN_EXPIRES_KEY, String(session.expires_at));
+          sessionStorage.setItem(AUTH_KEY, "yes");
+        } else {
+          sessionStorage.removeItem(ADMIN_TOKEN_KEY);
+          sessionStorage.removeItem(ADMIN_EXPIRES_KEY);
+          sessionStorage.setItem(AUTH_KEY, "no");
+        }
+      } catch {}
+    }
+
+    function normalizeSharedPost(row) {
+      const payload = row?.payload && typeof row.payload === "object" ? row.payload : {};
+      const id = String(row?.id || payload.id || "").trim();
+      if (!id) return null;
+      return {
+        ...payload,
+        id,
+        _sortIndex: Number(row?.sort_index) || 0,
+        isCustom: true,
+        isShared: true
+      };
     }
 
     function postTimestamp(post) {
@@ -881,10 +1416,101 @@
     }
 
     function getAllPosts() {
-      return sortPosts([
-        ...getStoredPosts().map(post => ({ ...post, isCustom: true })),
-        ...seedPosts.map(post => ({ ...post, isCustom: false }))
-      ]);
+      const localPosts = getStoredPosts().map(post => ({ ...post, isCustom: true }));
+      if (!sharedPostsLoaded) {
+        return sortPosts([
+          ...localPosts,
+          ...seedPosts.map(post => ({ ...post, isCustom: false }))
+        ]);
+      }
+
+      const sharedIds = new Set(sharedPosts.map(post => post.id));
+      const localOnly = sortPosts(localPosts.filter(post => !sharedIds.has(post.id)));
+      const seedOnly = sortPosts(
+        seedPosts
+          .filter(post => !sharedIds.has(post.id))
+          .map(post => ({ ...post, isCustom: false }))
+      );
+      return [...localOnly, ...sharedPosts, ...seedOnly];
+    }
+
+    function showAdminStatus(message, isError = false) {
+      const note = document.querySelector("[data-admin-note]");
+      if (!note) return;
+      note.textContent = message;
+      note.style.color = isError ? "#b42318" : "";
+    }
+
+    async function loadSharedPosts({ admin = isLoggedIn() } = {}) {
+      if (!musicSupabase) {
+        throw new Error("The shared publishing service is unavailable.");
+      }
+
+      let data;
+      let error;
+      if (admin && adminToken()) {
+        ({ data, error } = await musicSupabase.rpc("music_journal_list_admin", {
+          p_token: adminToken()
+        }));
+      } else {
+        ({ data, error } = await musicSupabase
+          .from(MUSIC_SUMMARY_VIEW)
+          .select("id,sort_index,payload")
+          .order("sort_index", { ascending: false }));
+      }
+
+      if (error) {
+        if (admin && /invalid|expired|session/i.test(error.message || "")) {
+          storeAdminSession(null);
+          updateAuthUi();
+        }
+        throw error;
+      }
+
+      sharedPosts = (Array.isArray(data) ? data : [])
+        .map(normalizeSharedPost)
+        .filter(Boolean);
+      sharedPostsLoaded = true;
+      refreshBlog(true);
+      return sharedPosts;
+    }
+
+    async function publishSharedPost(post) {
+      const token = adminToken();
+      if (!musicSupabase || !token) {
+        throw new Error("Please log in again before publishing.");
+      }
+
+      const { data, error } = await musicSupabase.rpc("music_journal_publish", {
+        p_token: token,
+        p_post: post
+      });
+      if (error) throw error;
+      return data;
+    }
+
+    async function deleteSharedPost(id) {
+      const token = adminToken();
+      if (!musicSupabase || !token) {
+        throw new Error("Please log in again before deleting an article.");
+      }
+
+      const { data, error } = await musicSupabase.rpc("music_journal_delete", {
+        p_token: token,
+        p_id: id
+      });
+      if (error) throw error;
+      return Boolean(data);
+    }
+
+    async function importLegacyPosts() {
+      const legacyPosts = getStoredPosts();
+      if (!legacyPosts.length) return 0;
+
+      for (const post of legacyPosts) {
+        await publishSharedPost(post);
+      }
+      return legacyPosts.length;
     }
 
     function minutesRead(body) {
@@ -919,6 +1545,9 @@
 
       hero.hidden = false;
       hero.style.backgroundImage = heroBackground(post.image);
+      const publicationDate = isLoggedIn() && post.date
+        ? `${escapeHtml(post.date)} ・ `
+        : "";
       hero.innerHTML = `
         <a class="hero-link" href="music-post.html?id=${encodeURIComponent(post.id)}" data-post-link data-post-id="${escapeHtml(post.id)}">
           <div class="hero-copy">
@@ -927,7 +1556,7 @@
             <p class="hero-subtitle">${escapeHtml(plainExcerpt(post.body))}${plainExcerpt(post.body).length >= 150 ? "..." : ""}</p>
             <div class="hero-meta">
               <strong>${escapeHtml(post.author || "Edmund Sir")}</strong>
-              ${escapeHtml(post.date || "")} ・ ${escapeHtml(post.minutes || "")}
+              ${publicationDate}${escapeHtml(post.minutes || "")}
             </div>
           </div>
         </a>
@@ -964,6 +1593,9 @@
     }
 
     function postCard(post, index = 0) {
+      const publicationDate = isLoggedIn() && post.date
+        ? `${escapeHtml(post.date)} ・ `
+        : "";
       return `
         <article class="post-card-wrap" style="--post-index: ${index % POSTS_PER_LOAD};">
           <a class="post-card" href="music-post.html?id=${encodeURIComponent(post.id)}" data-post-link data-post-id="${escapeHtml(post.id)}">
@@ -971,7 +1603,7 @@
               <img src="${escapeHtml(post.image)}" alt="">
               <span class="tag-pill">${escapeHtml(post.tag)}</span>
             </div>
-            <p class="post-meta">${escapeHtml(post.date)} ・ ${escapeHtml(post.minutes)}</p>
+            <p class="post-meta">${publicationDate}${escapeHtml(post.minutes)}</p>
             <h3 class="post-title">${escapeHtml(post.title)}</h3>
             <p class="post-excerpt">${escapeHtml(plainExcerpt(post.body))}...</p>
             <div class="post-author">
@@ -1030,13 +1662,14 @@
       renderPosts(activeFilter, reset);
     }
 
-    function setLoggedIn(isLoggedIn) {
-      sessionStorage.setItem(AUTH_KEY, isLoggedIn ? "yes" : "no");
+    function setLoggedIn(session) {
+      storeAdminSession(session);
       updateAuthUi();
+      refreshBlog(false);
     }
 
     function isLoggedIn() {
-      return sessionStorage.getItem(AUTH_KEY) === "yes";
+      return Boolean(adminSession());
     }
 
     function updateAuthUi() {
@@ -1061,6 +1694,21 @@
     function closeLogin() {
       const modal = document.querySelector("[data-login-modal]");
       if (modal) modal.hidden = true;
+    }
+
+    async function logOut() {
+      const token = adminToken();
+      setLoggedIn(null);
+
+      if (musicSupabase && token) {
+        musicSupabase.rpc("music_journal_logout", { p_token: token }).then(() => {}).catch(() => {});
+      }
+
+      try {
+        await loadSharedPosts({ admin: false });
+      } catch (error) {
+        console.warn("Could not refresh public music posts after logout.", error);
+      }
     }
 
     async function readImageFile(file) {
@@ -1093,9 +1741,9 @@
       const loginForm = document.querySelector("[data-login-form]");
       const closeButton = document.querySelector("[data-close-login]");
 
-      loginButton?.addEventListener("click", () => {
+      loginButton?.addEventListener("click", async () => {
         if (isLoggedIn()) {
-          setLoggedIn(false);
+          await logOut();
           return;
         }
         openLogin();
@@ -1103,20 +1751,165 @@
 
       closeButton?.addEventListener("click", closeLogin);
 
-      loginForm?.addEventListener("submit", event => {
+      loginForm?.addEventListener("submit", async event => {
         event.preventDefault();
         const formData = new FormData(loginForm);
         const password = String(formData.get("password") || "");
         const error = document.querySelector("[data-login-error]");
+        const submitButton = loginForm.querySelector('button[type="submit"]');
+        if (error) error.textContent = "";
+        if (submitButton) {
+          submitButton.disabled = true;
+          submitButton.textContent = "Logging in...";
+        }
 
-        if (password === ADMIN_PASSWORD) {
-          setLoggedIn(true);
+        try {
+          if (!musicSupabase) throw new Error("The shared publishing service is unavailable.");
+          const { data, error: loginError } = await musicSupabase.rpc("music_journal_login", {
+            p_password: password
+          });
+          if (loginError) throw loginError;
+
+          const session = Array.isArray(data) ? data[0] : data;
+          if (!session?.token || !session?.expires_at) {
+            throw new Error("Password does not match.");
+          }
+
+          setLoggedIn(session);
           closeLogin();
           loginForm.reset();
+          showAdminStatus("已登入。正在同步這部電腦內的舊文章…");
+
+          try {
+            const importedCount = await importLegacyPosts();
+            await loadSharedPosts({ admin: true });
+            showAdminStatus(importedCount
+              ? `已同步 ${importedCount} 篇本機文章。它們現在可以在其他裝置開啟。`
+              : "已登入。新文章會同步到網站，讓讀者在不同裝置上開啟。");
+          } catch (syncError) {
+            console.error("Could not synchronize music posts.", syncError);
+            showAdminStatus("已登入，但暫時未能同步文章。你的本機文章仍然安全保留，請稍後再試。", true);
+          }
+
           document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
-        } else if (error) {
-          error.textContent = "Password does not match.";
+        } catch (loginFailure) {
+          if (error) error.textContent = loginFailure?.message || "Could not log in.";
+        } finally {
+          if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = "Log In";
+          }
         }
+      });
+    }
+
+    function setupRichEditing() {
+      function rememberSelection() {
+        const selection = window.getSelection();
+        if (!selection?.rangeCount) return;
+
+        const anchorElement = selection.anchorNode?.nodeType === Node.ELEMENT_NODE
+          ? selection.anchorNode
+          : selection.anchorNode?.parentElement;
+        const editor = anchorElement?.closest?.("[data-rich-editor]");
+        if (!editor) return;
+
+        activeRichEditor = editor;
+        activeRichRange = selection.getRangeAt(0).cloneRange();
+      }
+
+      function restoreSelection(editor) {
+        const selection = window.getSelection();
+        if (!selection) return;
+
+        if (activeRichRange && editor.contains(activeRichRange.commonAncestorContainer)) {
+          selection.removeAllRanges();
+          selection.addRange(activeRichRange);
+          return;
+        }
+
+        editor.focus();
+      }
+
+      document.addEventListener("selectionchange", rememberSelection);
+
+      document.addEventListener("focusin", event => {
+        const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
+        if (editor) activeRichEditor = editor;
+      });
+
+      document.addEventListener("keydown", event => {
+        const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
+        if (!editor || !(event.metaKey || event.ctrlKey) || event.key.toLowerCase() !== "b") return;
+
+        event.preventDefault();
+        activeRichEditor = editor;
+        document.execCommand("bold", false);
+        rememberSelection();
+      });
+
+      document.addEventListener("paste", event => {
+        const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
+        if (!editor) return;
+
+        event.preventDefault();
+        const pastedText = event.clipboardData?.getData("text/plain") || "";
+        if (document.execCommand("insertText", false, pastedText)) {
+          rememberSelection();
+          return;
+        }
+
+        const selection = window.getSelection();
+        if (!selection?.rangeCount) return;
+        const range = selection.getRangeAt(0);
+        range.deleteContents();
+        const fragment = document.createDocumentFragment();
+        pastedText.split(/\r?\n/).forEach((line, index) => {
+          if (index) fragment.append(document.createElement("br"));
+          fragment.append(document.createTextNode(line));
+        });
+        const lastNode = fragment.lastChild;
+        range.insertNode(fragment);
+        if (lastNode) {
+          range.setStartAfter(lastNode);
+          range.collapse(true);
+          selection.removeAllRanges();
+          selection.addRange(range);
+        }
+        rememberSelection();
+      });
+
+      document.addEventListener("mousedown", event => {
+        if (event.target instanceof Element && event.target.closest("[data-editor-command]")) {
+          event.preventDefault();
+        }
+      });
+
+      document.addEventListener("click", event => {
+        const button = event.target instanceof Element ? event.target.closest("[data-editor-command]") : null;
+        if (!button) return;
+
+        const section = button.closest("[data-editor-section]");
+        const editor = activeRichEditor && section?.contains(activeRichEditor)
+          ? activeRichEditor
+          : section?.querySelector("[data-rich-editor]");
+        if (!editor) return;
+
+        restoreSelection(editor);
+        const command = button.getAttribute("data-editor-command");
+        if (command === "bold") {
+          document.execCommand("bold", false);
+        } else if (command === "heading") {
+          const selection = window.getSelection();
+          const anchorElement = selection?.anchorNode?.nodeType === Node.ELEMENT_NODE
+            ? selection.anchorNode
+            : selection?.anchorNode?.parentElement;
+          const isHeading = Boolean(anchorElement?.closest?.("h3") && editor.contains(anchorElement.closest("h3")));
+          document.execCommand("formatBlock", false, isHeading ? "p" : "h3");
+        }
+
+        editor.focus();
+        rememberSelection();
       });
     }
 
@@ -1124,6 +1917,32 @@
       const form = document.querySelector("[data-blog-form]");
       const imageInput = document.querySelector("[data-image-input]");
       const preview = document.querySelector("[data-image-preview]");
+      const youtubeInput = document.querySelector("[data-youtube-input]");
+      const youtubePreview = document.querySelector("[data-youtube-preview]");
+      const secondImageInput = document.querySelector("[data-second-image-input]");
+      const secondImagePreview = document.querySelector("[data-second-image-preview]");
+      const addBilingualButton = document.querySelector("[data-add-bilingual-rows]");
+      const addAnalysisButton = document.querySelector("[data-add-analysis-lines]");
+      const publishButton = form?.querySelector('button[type="submit"]');
+
+      resetStructuredEditors();
+
+      function updateYouTubePreview() {
+        if (!youtubeInput || !youtubePreview) return;
+
+        const value = youtubeInput.value.trim();
+        const videoId = getYouTubeVideoId(value);
+        youtubeInput.setCustomValidity(value && !videoId ? "Please paste a valid YouTube video link." : "");
+
+        if (!videoId) {
+          youtubePreview.hidden = true;
+          youtubePreview.replaceChildren();
+          return;
+        }
+
+        youtubePreview.hidden = false;
+        youtubePreview.innerHTML = `<img src="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg" alt="YouTube video thumbnail preview">`;
+      }
 
       imageInput?.addEventListener("change", async () => {
         const file = imageInput.files?.[0];
@@ -1132,9 +1951,28 @@
         preview.innerHTML = `<img src="${image}" alt="">`;
       });
 
+      youtubeInput?.addEventListener("input", updateYouTubePreview);
+
+      secondImageInput?.addEventListener("change", async () => {
+        const file = secondImageInput.files?.[0];
+        if (!file || !secondImagePreview) return;
+        const image = await readImageFile(file);
+        secondImagePreview.innerHTML = `<img src="${image}" alt="">`;
+      });
+
+      addBilingualButton?.addEventListener("click", () => addBilingualRows(EXTRA_EDITOR_ROWS));
+      addAnalysisButton?.addEventListener("click", () => addAnalysisLines(EXTRA_EDITOR_ROWS));
+
       form?.addEventListener("reset", () => {
         setTimeout(() => {
           if (preview) preview.textContent = "Image preview";
+          if (secondImagePreview) secondImagePreview.textContent = "Second image preview";
+          if (youtubePreview) {
+            youtubePreview.hidden = true;
+            youtubePreview.replaceChildren();
+          }
+          if (youtubeInput) youtubeInput.setCustomValidity("");
+          resetStructuredEditors();
         }, 0);
       });
 
@@ -1149,14 +1987,54 @@
         const file = formData.get("image");
         if (!(file instanceof File) || !file.size) return;
 
-        const body = String(formData.get("body") || "").trim();
-        const image = await readImageFile(file);
+        const youtubeUrl = String(formData.get("youtubeUrl") || "").trim();
+        if (youtubeUrl && !getYouTubeVideoId(youtubeUrl)) {
+          youtubeInput?.setCustomValidity("Please paste a valid YouTube video link.");
+          youtubeInput?.reportValidity();
+          youtubeInput?.focus();
+          return;
+        }
+
+        const contextBackground = richEditorHtml(document.querySelector("#post-context"));
+        const fullLyricsEnglish = richEditorHtml(document.querySelector("#post-full-lyrics"));
+        const bilingualLyrics = readBilingualLyrics();
+        const lyricAnalysis = readLyricAnalysis();
+        const readableSections = [
+          plainRichText(contextBackground),
+          plainRichText(fullLyricsEnglish),
+          ...bilingualLyrics.flatMap(item => [plainRichText(item.english), plainRichText(item.chinese)]),
+          ...lyricAnalysis.flatMap(item => [plainRichText(item.lyric), plainRichText(item.analysis)])
+        ].filter(Boolean);
+
+        if (!readableSections.length) {
+          alert("Please add some article content before publishing.");
+          document.querySelector("#post-context")?.focus();
+          return;
+        }
+
+        const body = readableSections.join("\n\n");
+        const secondImageFile = formData.get("secondImage");
+        const [image, secondImage] = await Promise.all([
+          readImageFile(file),
+          secondImageFile instanceof File && secondImageFile.size ? readImageFile(secondImageFile) : Promise.resolve("")
+        ]);
         const createdAt = Date.now();
+        const publicId = globalThis.crypto?.randomUUID?.() || createdAt.toString(36);
         const post = {
-          id: `music-${createdAt}`,
+          id: `music-${publicId}`,
           title: String(formData.get("title") || "").trim(),
           tag: String(formData.get("tag") || "").trim(),
           image,
+          youtubeUrl,
+          singers: String(formData.get("singers") || "").trim(),
+          releaseYear: String(formData.get("releaseYear") || "").trim(),
+          songwriter: String(formData.get("songwriter") || "").trim(),
+          producer: String(formData.get("producer") || "").trim(),
+          contextBackground,
+          fullLyricsEnglish,
+          bilingualLyrics,
+          secondImage,
+          lyricAnalysis,
           body,
           createdAt,
           date: todayLabel(),
@@ -1164,18 +2042,34 @@
           author: "Edmund Sir"
         };
 
-        const storedPosts = getStoredPosts();
         try {
-          saveStoredPosts([post, ...storedPosts]);
-        } catch {
-          alert("This browser could not permanently save the post, likely because localStorage is full. The post will still open now, but it may not stay in the blog list after refresh.");
+          if (publishButton) {
+            publishButton.disabled = true;
+            publishButton.textContent = "Publishing...";
+          }
+
+          await publishSharedPost(post);
+
+          try {
+            const storedPosts = getStoredPosts().filter(item => item.id !== post.id);
+            saveStoredPosts([post, ...storedPosts]);
+          } catch {
+            alert("The article was published online, but this browser could not keep an extra local backup because its storage is full.");
+          }
+
+          preparePostForNavigation(post);
+          form.reset();
+          activeFilter = "All";
+          window.location.href = `music-post.html?id=${encodeURIComponent(post.id)}`;
+        } catch (publishError) {
+          console.error("Could not publish music article.", publishError);
+          alert(`The article was not published. ${publishError?.message || "Please check the connection and try again."}`);
+        } finally {
+          if (publishButton) {
+            publishButton.disabled = false;
+            publishButton.textContent = "發布文章";
+          }
         }
-        preparePostForNavigation(post);
-        form.reset();
-        if (preview) preview.textContent = "Image preview";
-        activeFilter = "All";
-        refreshBlog(true);
-        window.location.href = `music-post.html?id=${encodeURIComponent(post.id)}`;
       });
     }
 
@@ -1200,7 +2094,7 @@
         renderPosts(activeFilter, false);
       });
 
-      document.addEventListener("click", event => {
+      document.addEventListener("click", async event => {
         const deleteButton = event.target.closest("[data-delete-post]");
         if (deleteButton) {
           event.preventDefault();
@@ -1214,9 +2108,19 @@
           const id = deleteButton.getAttribute("data-delete-post");
           if (!id || !confirm("Delete this post?")) return;
 
-          const nextPosts = getStoredPosts().filter(post => post.id !== id);
-          saveStoredPosts(nextPosts);
-          refreshBlog(true);
+          deleteButton.disabled = true;
+          try {
+            await deleteSharedPost(id);
+            const nextPosts = getStoredPosts().filter(post => post.id !== id);
+            saveStoredPosts(nextPosts);
+            sharedPosts = sharedPosts.filter(post => post.id !== id);
+            refreshBlog(true);
+          } catch (deleteError) {
+            console.error("Could not delete music article.", deleteError);
+            alert(`The article was not deleted. ${deleteError?.message || "Please try again."}`);
+          } finally {
+            deleteButton.disabled = false;
+          }
           return;
         }
 
@@ -1249,13 +2153,32 @@
       });
     }
 
+    async function initializeSharedPosts() {
+      try {
+        await loadSharedPosts({ admin: isLoggedIn() });
+      } catch (error) {
+        console.warn("Could not load the shared music journal.", error);
+        if (!isLoggedIn()) return;
+
+        storeAdminSession(null);
+        updateAuthUi();
+        try {
+          await loadSharedPosts({ admin: false });
+        } catch (publicError) {
+          console.warn("Could not load public music posts.", publicError);
+        }
+      }
+    }
+
     refreshBlog(true);
     updateAuthUi();
     setupLogin();
+    setupRichEditing();
     setupBlogForm();
     setupPostActions();
     setupSearch();
     setupCustomCursor();
+    initializeSharedPosts();
   </script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
 </body>
