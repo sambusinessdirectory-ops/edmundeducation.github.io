@@ -23,6 +23,7 @@ const htmlPages = [
   "music-post.html",
   "news-analysis.html",
   "news-post.html",
+  "proverb-system.html",
   "recorded.html",
   "resources.html",
   "schedule-system.html",
