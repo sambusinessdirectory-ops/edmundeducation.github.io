@@ -75,9 +75,56 @@ select
   jsonb_strip_nulls(jsonb_build_object(
     'id', post.id,
     'title', post.payload -> 'title',
+    'subtitle', post.payload -> 'subtitle',
     'tag', post.payload -> 'tag',
     'image', post.payload -> 'image',
     'body', left(coalesce(post.payload ->> 'body', ''), 600),
+    'contextExcerpt', nullif(left(coalesce(
+      post.payload ->> 'contextBackground',
+      post.payload ->> 'contextHtml',
+      post.payload ->> 'background',
+      ''
+    ), 600), ''),
+    'singers', post.payload -> 'singers',
+    'releaseYear', post.payload -> 'releaseYear',
+    'producer', post.payload -> 'producer',
+    -- Keep the public home-page search index intentionally narrow: song title
+    -- and metadata are exposed above, while this field contains lyrics only.
+    -- Context, analysis, reflection, tags, authors and dates are excluded.
+    'searchLyrics', nullif(left(concat_ws(' ',
+      coalesce(post.payload ->> 'fullLyricsEnglish', post.payload ->> 'fullLyricsHtml', ''),
+      coalesce((
+        select string_agg(concat_ws(' ',
+          lyric_row ->> 'english',
+          lyric_row ->> 'chinese'
+        ), ' ')
+        from jsonb_array_elements(
+          case
+            when jsonb_typeof(post.payload -> 'bilingualLyrics') = 'array'
+              then post.payload -> 'bilingualLyrics'
+            when jsonb_typeof(post.payload -> 'lyricsTable') = 'array'
+              then post.payload -> 'lyricsTable'
+            else '[]'::jsonb
+          end
+        ) as lyric_row
+      ), ''),
+      coalesce((
+        select string_agg(concat_ws(' ',
+          analysis_row ->> 'lyric',
+          analysis_row ->> 'lyrics',
+          analysis_row ->> 'line'
+        ), ' ')
+        from jsonb_array_elements(
+          case
+            when jsonb_typeof(post.payload -> 'lyricAnalysis') = 'array'
+              then post.payload -> 'lyricAnalysis'
+            when jsonb_typeof(post.payload -> 'analysisSections') = 'array'
+              then post.payload -> 'analysisSections'
+            else '[]'::jsonb
+          end
+        ) as analysis_row
+      ), '')
+    ), 50000), ''),
     'author', post.payload -> 'author',
     'minutes', post.payload -> 'minutes'
   )) as payload
@@ -191,9 +238,10 @@ begin
      or v_id !~ '^[A-Za-z0-9_-]{1,120}$'
      or nullif(trim(p_post ->> 'title'), '') is null
      or length(p_post ->> 'title') > 240
+     or length(coalesce(p_post ->> 'subtitle', '')) > 360
      or nullif(trim(p_post ->> 'tag'), '') is null
      or length(p_post ->> 'tag') > 80 then
-    raise exception 'Post id, title, or tag is invalid';
+    raise exception 'Post id, title, subtitle, or tag is invalid';
   end if;
 
   if pg_column_size(p_post) > 6291456

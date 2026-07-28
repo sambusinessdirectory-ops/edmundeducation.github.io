@@ -221,10 +221,16 @@
     .hero[hidden] { display: none; }
 
     .hero-link {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
       color: #fff;
       text-decoration: none;
-      display: block;
-      max-width: 760px;
+      display: flex;
+      align-items: flex-end;
+      width: 100%;
+      max-width: none;
+      padding: clamp(28px, 5vw, 54px);
     }
 
     .hero-link h1 {
@@ -233,6 +239,12 @@
 
     .hero-link:hover h1 {
       color: rgba(255,255,255,0.82);
+    }
+
+    .hero-link:focus-visible {
+      outline: 4px solid rgba(255,255,255,0.96);
+      outline-offset: -7px;
+      border-radius: 8px;
     }
 
     .hero-copy {
@@ -752,6 +764,14 @@
       line-height: 1.55;
     }
 
+    .field .title-textarea {
+      min-height: 96px;
+      resize: vertical;
+      font-size: 18px;
+      line-height: 1.4;
+      font-weight: 900;
+    }
+
     .image-preview {
       min-height: 220px;
       border: 1px dashed rgba(0,0,0,0.18);
@@ -873,10 +893,19 @@
     .rich-editor b {
       font-weight: 900;
       font-variation-settings: "wght" 900;
-      -webkit-text-stroke: 0.18px currentColor;
+      -webkit-text-stroke: 0.52px currentColor;
+      text-shadow: 0.012em 0 currentColor, -0.012em 0 currentColor;
     }
 
     .rich-editor span[style*="font-size"] { line-height: 1.35; }
+
+    .rich-editor a {
+      color: #12355b;
+      font-weight: 850;
+      text-decoration: underline;
+      text-decoration-thickness: 0.12em;
+      text-underline-offset: 0.16em;
+    }
 
     .rich-editor:focus {
       border-color: rgba(0,113,227,0.55);
@@ -1174,8 +1203,8 @@
         <a href="resources.html">回到其他英文學習資源</a>
       </nav>
 
-      <label class="nav-search" aria-label="Search posts">
-        <input type="search" placeholder="Search lyrics analysis..." data-search>
+      <label class="nav-search" aria-label="搜尋歌詞賞析文章">
+        <input type="search" placeholder="搜尋歌名、歌手、年份、監製或歌詞…" data-search>
         <span>⌕</span>
       </label>
 
@@ -1233,12 +1262,17 @@
         <p class="admin-note" data-admin-note aria-live="polite">登入後可以新增文章。文章會同步到網站，讓讀者在不同裝置上開啟；這部電腦內的舊文章也會在登入後自動匯入。</p>
 
         <form class="blog-form" data-blog-form>
-          <div class="field">
+          <div class="field full">
             <label for="post-title">文章標題</label>
-            <input id="post-title" name="title" type="text" placeholder="例如：Taylor Swift 歌詞中的 metaphor" required>
+            <textarea class="title-textarea" id="post-title" name="title" rows="3" maxlength="240" placeholder="可用換行安排標題，例如：&#10;Taylor Swift&#10;歌詞中的 metaphor" required></textarea>
           </div>
 
-          <div class="field">
+          <div class="field full">
+            <label for="post-subtitle">文章副標題</label>
+            <input id="post-subtitle" name="subtitle" type="text" maxlength="360" placeholder="用一句話補充主題；如留空，首頁會改用歌曲文化背景。">
+          </div>
+
+          <div class="field full">
             <label for="post-tag">Tag</label>
             <input id="post-tag" name="tag" type="text" placeholder="例如：Lyrics / Pop / Grammar" required>
           </div>
@@ -1262,20 +1296,20 @@
               <table class="editor-table metadata-table">
                 <tbody>
                   <tr>
-                    <th scope="row"><label for="post-singers">Singer(s)</label></th>
-                    <td><input id="post-singers" name="singers" type="text" placeholder="Singer or group"></td>
+                    <th scope="row"><label for="post-singers">歌手</label></th>
+                    <td><input id="post-singers" name="singers" type="text" placeholder="歌手或組合"></td>
                   </tr>
                   <tr>
-                    <th scope="row"><label for="post-release-year">Year of release</label></th>
-                    <td><input id="post-release-year" name="releaseYear" type="text" inputmode="numeric" placeholder="e.g. 2024"></td>
+                    <th scope="row"><label for="post-release-year">發行年份</label></th>
+                    <td><input id="post-release-year" name="releaseYear" type="text" inputmode="numeric" placeholder="例如：2024"></td>
                   </tr>
                   <tr>
-                    <th scope="row"><label for="post-songwriter">Song writer</label></th>
-                    <td><input id="post-songwriter" name="songwriter" type="text" placeholder="Song writer(s)"></td>
+                    <th scope="row"><label for="post-songwriter">作詞／作曲</label></th>
+                    <td><input id="post-songwriter" name="songwriter" type="text" placeholder="作詞及作曲者"></td>
                   </tr>
                   <tr>
-                    <th scope="row"><label for="post-producer">Producer</label></th>
-                    <td><input id="post-producer" name="producer" type="text" placeholder="Producer(s)"></td>
+                    <th scope="row"><label for="post-producer">監製</label></th>
+                    <td><input id="post-producer" name="producer" type="text" placeholder="監製"></td>
                   </tr>
                 </tbody>
               </table>
@@ -1288,9 +1322,11 @@
               <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
               <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
               <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
-              <button class="format-button" type="button" data-editor-command="gold">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="brown">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="honey">蜂蜜金色</button>
+              <button class="format-button" type="button" data-editor-command="link">加入連結</button>
               <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
-              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H。</span>
+              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H、G、P。</span>
             </div>
             <div id="post-context" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="Paste or write the song's context and background..."></div>
           </section>
@@ -1301,9 +1337,11 @@
               <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
               <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
               <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
-              <button class="format-button" type="button" data-editor-command="gold">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="brown">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="honey">蜂蜜金色</button>
+              <button class="format-button" type="button" data-editor-command="link">加入連結</button>
               <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
-              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H。</span>
+              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H、G、P。</span>
             </div>
             <div id="post-full-lyrics" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="Paste the full English lyrics here..."></div>
           </section>
@@ -1315,11 +1353,13 @@
               <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
               <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
               <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
-              <button class="format-button" type="button" data-editor-command="gold">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="brown">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="honey">蜂蜜金色</button>
+              <button class="format-button" type="button" data-editor-command="link">加入連結</button>
               <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
               <button class="format-button" type="button" data-bilingual-control-mode="insert" aria-pressed="false">Add Between Line</button>
               <button class="format-button" type="button" data-bilingual-control-mode="delete" aria-pressed="false">Delete a line</button>
-              <span class="format-shortcut">先按行管理按鈕，再使用每行右方的 ＋／−。</span>
+              <span class="format-shortcut">行管理使用右方 ＋／−；文字格式可用 ⌘/Ctrl+B、＋、−、H、G、P。</span>
             </div>
             <div class="editor-table-wrap">
               <table class="editor-table lyrics-grid-table">
@@ -1351,9 +1391,11 @@
               <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
               <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
               <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
-              <button class="format-button" type="button" data-editor-command="gold">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="brown">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="honey">蜂蜜金色</button>
+              <button class="format-button" type="button" data-editor-command="link">加入連結</button>
               <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
-              <span class="format-shortcut">歌詞行與分析欄均支援 ⌘/Ctrl+B、＋、−、H。</span>
+              <span class="format-shortcut">歌詞行與分析欄均支援 ⌘/Ctrl+B、＋、−、H、G、P。</span>
             </div>
             <div class="editor-table-wrap">
               <table class="editor-table analysis-table">
@@ -1372,9 +1414,11 @@
               <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
               <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
               <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
-              <button class="format-button" type="button" data-editor-command="gold">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="brown">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="honey">蜂蜜金色</button>
+              <button class="format-button" type="button" data-editor-command="link">加入連結</button>
               <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
-              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H。</span>
+              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H、G、P。</span>
             </div>
             <div id="post-reflection" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="寫下這首歌帶來的反思……"></div>
           </section>
@@ -1429,6 +1473,7 @@
     let activeRichRange = null;
     let sharedPosts = [];
     let sharedPostsLoaded = false;
+    let sharedPostsMode = "none";
     let editingPostId = "";
     let editingPrimaryImage = "";
     let editingSecondImage = "";
@@ -1443,6 +1488,38 @@
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
+    }
+
+    function normalizeApostrophes(value) {
+      return String(value ?? "").replace(/\u2019/g, "'");
+    }
+
+    function titleHtml(value) {
+      return escapeHtml(normalizeApostrophes(value)).replace(/\r\n?|\n/g, "<br>");
+    }
+
+    function safeEditorLink(value) {
+      let source = normalizeApostrophes(value).trim();
+      if (!source || source.length > 2048) return "";
+      if (!/^[a-z][a-z\d+.-]*:/i.test(source)) source = `https://${source}`;
+      try {
+        const url = new URL(source);
+        return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function normalizeTextControlApostrophes(control) {
+      if (!(control instanceof HTMLInputElement || control instanceof HTMLTextAreaElement)) return;
+      if (control instanceof HTMLInputElement && control.type === "file") return;
+      const normalized = normalizeApostrophes(control.value);
+      if (normalized === control.value) return;
+      const start = control.selectionStart;
+      const end = control.selectionEnd;
+      const direction = control.selectionDirection;
+      control.value = normalized;
+      if (start !== null && end !== null) control.setSelectionRange(start, end, direction || "none");
     }
 
     function plainExcerpt(value) {
@@ -1480,7 +1557,8 @@
         ["P", "p"],
         ["DIV", "div"],
         ["BR", "br"],
-        ["SPAN", "span"]
+        ["SPAN", "span"],
+        ["A", "a"]
       ]);
 
       function copySafeInlineStyle(source, target) {
@@ -1498,14 +1576,26 @@
         }
 
         const color = String(source.style.color || "").replace(/\s+/g, "").toLowerCase();
-        if (["#93552f", "rgb(147,85,47)"].includes(color)) {
+        if (["#9a6700", "rgb(154,103,0)"].includes(color)) {
+          target.style.color = "#9a6700";
+        } else if (["#93552f", "rgb(147,85,47)"].includes(color)) {
           target.style.color = "#93552f";
         }
       }
 
+      function copySafeLink(source, target) {
+        if (source.tagName !== "A") return true;
+        const href = safeEditorLink(source.getAttribute("href") || "");
+        if (!href) return false;
+        target.setAttribute("href", href);
+        target.setAttribute("target", "_blank");
+        target.setAttribute("rel", "noopener noreferrer");
+        return true;
+      }
+
       function appendCleanNode(source, parent) {
         if (source.nodeType === Node.TEXT_NODE) {
-          parent.append(document.createTextNode(source.textContent || ""));
+          parent.append(document.createTextNode(normalizeApostrophes(source.textContent || "")));
           return;
         }
 
@@ -1519,6 +1609,10 @@
 
         const cleanElement = document.createElement(safeTag);
         copySafeInlineStyle(source, cleanElement);
+        if (!copySafeLink(source, cleanElement)) {
+          Array.from(source.childNodes).forEach(child => appendCleanNode(child, parent));
+          return;
+        }
         Array.from(source.childNodes).forEach(child => appendCleanNode(child, cleanElement));
         parent.append(cleanElement);
       }
@@ -1761,6 +1855,10 @@
         .filter(post => post?.published !== false && !post?.isHidden)
         .map(post => ({ ...post, isCustom: true }));
       const visibleSharedPosts = sharedPosts.filter(post => post?.published !== false);
+      const publicRemoteMode = Boolean(musicSupabase) && !isLoggedIn();
+      if (publicRemoteMode && (!sharedPostsLoaded || sharedPostsMode !== "public")) {
+        return sortPosts(seedPosts.map(post => ({ ...post, isCustom: false })));
+      }
       if (!sharedPostsLoaded) {
         return sortPosts([
           ...localPosts,
@@ -1769,13 +1867,12 @@
       }
 
       const sharedIds = new Set(sharedPosts.map(post => post.id));
-      const localOnly = sortPosts(localPosts.filter(post => !sharedIds.has(post.id)));
       const seedOnly = sortPosts(
         seedPosts
           .filter(post => !sharedIds.has(post.id))
           .map(post => ({ ...post, isCustom: false }))
       );
-      return [...localOnly, ...visibleSharedPosts, ...seedOnly];
+      return [...visibleSharedPosts, ...seedOnly];
     }
 
     function showAdminStatus(message, isError = false) {
@@ -1813,6 +1910,11 @@
       const body = document.querySelector("[data-article-management-body]");
       const count = document.querySelector("[data-manager-count]");
       if (!body) return;
+      if (!isLoggedIn()) {
+        body.replaceChildren();
+        if (count) count.textContent = "";
+        return;
+      }
 
       const posts = getManagementPosts();
       if (count) count.textContent = `${posts.length} 篇文章`;
@@ -1821,7 +1923,7 @@
             const published = post.published !== false;
             return `
               <tr>
-                <td class="manager-title">${escapeHtml(post.title || "未命名文章")}</td>
+                <td class="manager-title">${titleHtml(post.title || "未命名文章")}</td>
                 <td class="manager-date">${escapeHtml(post.date || "—")}</td>
                 <td><span class="manager-status${published ? "" : " is-hidden"}">${published ? "已公開" : "已隱藏"}</span></td>
                 <td>
@@ -1855,12 +1957,13 @@
         `作者：${post.author || "Edmund Sir"}`,
         `發布日期：${post.date || ""}`,
         `狀態：${post.published === false ? "已隱藏" : "已公開"}`,
+        `副標題：${post.subtitle || ""}`,
         "",
         "歌曲資料",
         `歌手：${post.singers || ""}`,
         `發行年份：${post.releaseYear || ""}`,
-        `作曲／填詞：${post.songwriter || ""}`,
-        `製作人：${post.producer || ""}`,
+        `作詞／作曲：${post.songwriter || ""}`,
+        `監製：${post.producer || ""}`,
         `YouTube：${post.youtubeUrl || ""}`,
         ...(legacyBody ? ["", "文章內容（舊版文章）", legacyBody] : []),
         "",
@@ -1937,6 +2040,7 @@
         .map(normalizeSharedPost)
         .filter(Boolean);
       sharedPostsLoaded = true;
+      sharedPostsMode = admin ? "admin" : "public";
       refreshBlog(true);
       return sharedPosts;
     }
@@ -2030,6 +2134,48 @@
       return `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.78)), url("${safeImage}")`;
     }
 
+    function featuredSubtitle(post) {
+      const candidates = [
+        post?.subtitle,
+        post?.contextExcerpt,
+        post?.culturalContext,
+        post?.contextBackground,
+        post?.contextHtml,
+        post?.background,
+        post?.context
+      ];
+      const source = candidates.map(value => plainRichText(value || "")).find(Boolean) || "";
+      const summary = plainExcerpt(source);
+      return `${summary}${source.length > summary.length ? "..." : ""}`;
+    }
+
+    function searchablePostText(post) {
+      const bilingualLyrics = Array.isArray(post?.bilingualLyrics) ? post.bilingualLyrics : [];
+      const lyricAnalysis = Array.isArray(post?.lyricAnalysis) ? post.lyricAnalysis : [];
+      const searchableFields = [
+        post?.title,
+        post?.songName,
+        post?.producer,
+        post?.releaseYear,
+        post?.yearOfRelease,
+        post?.songYear,
+        post?.singers,
+        post?.singer,
+        post?.searchLyrics,
+        post?.fullLyricsEnglish,
+        post?.fullLyricsHtml,
+        post?.englishLyrics,
+        ...bilingualLyrics.flatMap(row => [
+          row?.english ?? row?.englishHtml ?? row?.left,
+          row?.chinese ?? row?.chineseHtml ?? row?.right
+        ]),
+        ...lyricAnalysis.map(row => row?.lyric ?? row?.lyrics ?? row?.lyricsHtml ?? row?.line)
+      ];
+      return normalizeApostrophes(
+        searchableFields.map(value => plainRichText(value || "")).join(" ")
+      ).toLowerCase();
+    }
+
     function renderFeatured(posts = getAllPosts()) {
       const hero = document.querySelector("[data-featured-hero]");
       if (!hero) return;
@@ -2051,8 +2197,8 @@
         <a class="hero-link" href="music-post.html?id=${encodeURIComponent(post.id)}" data-post-link data-post-id="${escapeHtml(post.id)}">
           <div class="hero-copy">
             <span class="tag-pill">${escapeHtml(post.tag || "英文流行曲歌詞賞析")}</span>
-            <h1>${escapeHtml(post.title)}</h1>
-            <p class="hero-subtitle">${escapeHtml(plainExcerpt(post.body))}${plainExcerpt(post.body).length >= 150 ? "..." : ""}</p>
+            <h1>${titleHtml(post.title)}</h1>
+            <p class="hero-subtitle">${escapeHtml(featuredSubtitle(post))}</p>
             <div class="hero-meta">
               <strong>${escapeHtml(post.author || "Edmund Sir")}</strong>
               ${publicationDate}${escapeHtml(post.minutes || "")}
@@ -2103,7 +2249,7 @@
               <span class="tag-pill">${escapeHtml(post.tag)}</span>
             </div>
             <p class="post-meta">${publicationDate}${escapeHtml(post.minutes)}</p>
-            <h3 class="post-title">${escapeHtml(post.title)}</h3>
+            <h3 class="post-title">${titleHtml(post.title)}</h3>
             <p class="post-excerpt">${escapeHtml(plainExcerpt(post.body))}...</p>
             <div class="post-author">
               <span class="author-dot">E</span>
@@ -2130,11 +2276,18 @@
       if (reset) visiblePostCount = POSTS_PER_LOAD;
       activeFilter = filter || "All";
 
-      const query = (search?.value || "").trim().toLowerCase();
-      const featuredPost = getAllPosts()[0];
-      let posts = getAllPosts();
+      const query = normalizeApostrophes(search?.value || "").trim().toLowerCase();
+      const allPosts = getAllPosts();
+      const featuredPost = allPosts[0];
+      let posts = [...allPosts];
 
-      if (featuredPost) {
+      if (query) {
+        renderFeatured([]);
+      } else {
+        renderFeatured(allPosts);
+      }
+
+      if (featuredPost && !query) {
         posts = posts.filter(post => post.id !== featuredPost.id);
       }
 
@@ -2143,7 +2296,7 @@
       }
 
       if (query) {
-        posts = posts.filter(post => `${post.title} ${post.tag} ${post.body}`.toLowerCase().includes(query));
+        posts = posts.filter(post => searchablePostText(post).includes(query));
       }
 
       const visiblePosts = posts.slice(0, visiblePostCount);
@@ -2156,7 +2309,6 @@
 
     function refreshBlog(reset = true) {
       const posts = getAllPosts();
-      renderFeatured(posts);
       renderFilters(posts);
       renderPosts(activeFilter, reset);
       renderArticleManager();
@@ -2339,14 +2491,6 @@
         return editor.contains(range.commonAncestorContainer) ? range : null;
       }
 
-      function selectedInlineSpan(editor, range) {
-        const container = range?.commonAncestorContainer?.nodeType === Node.ELEMENT_NODE
-          ? range.commonAncestorContainer
-          : range?.commonAncestorContainer?.parentElement;
-        const span = container?.closest?.("span");
-        return span && editor.contains(span) ? span : null;
-      }
-
       function wrapSelectedText(editor, styles) {
         const range = selectionRangeFor(editor);
         if (!range || range.collapsed) return null;
@@ -2363,41 +2507,53 @@
         return span;
       }
 
-      function fontScaleFor(span, editor) {
-        const value = String(span?.style.fontSize || "").trim().toLowerCase();
-        const amount = Number.parseFloat(value);
-        if (Number.isFinite(amount)) {
-          if (value.endsWith("%")) return amount / 100;
-          if (value.endsWith("em")) return amount;
-          if (value.endsWith("px")) {
-            const editorSize = Number.parseFloat(getComputedStyle(editor).fontSize) || 15;
-            return amount / editorSize;
-          }
-        }
-        return 1;
-      }
-
       function adjustSelectedFontSize(editor, direction) {
         const range = selectionRangeFor(editor);
         if (!range || range.collapsed) return;
-        let span = selectedInlineSpan(editor, range);
-        const scale = Math.min(100, Math.max(0.1, fontScaleFor(span, editor) + (direction * 0.15)));
-        if (!span || !span.style.fontSize) {
-          span = wrapSelectedText(editor, { fontSize: `${Math.round(scale * 100)}%` });
-        } else {
-          span.style.fontSize = `${Math.round(scale * 100)}%`;
-        }
+        const container = range.commonAncestorContainer.nodeType === Node.ELEMENT_NODE
+          ? range.commonAncestorContainer
+          : range.commonAncestorContainer.parentElement;
+        const baseSize = Number.parseFloat(getComputedStyle(editor).fontSize) || 15;
+        const currentSize = Number.parseFloat(getComputedStyle(container || editor).fontSize) || baseSize;
+        const nextSize = Math.min(baseSize * 100, Math.max(baseSize * 0.1, currentSize + (direction * baseSize * 0.15)));
+        wrapSelectedText(editor, { fontSize: `${Math.round(nextSize * 100) / 100}px` });
       }
 
-      function colorSelectedText(editor) {
+      function colorSelectedText(editor, color) {
         const range = selectionRangeFor(editor);
         if (!range || range.collapsed) return;
-        const span = selectedInlineSpan(editor, range);
-        if (span) {
-          span.style.color = "#93552f";
-        } else {
-          wrapSelectedText(editor, { color: "#93552f" });
+        wrapSelectedText(editor, { color });
+      }
+
+      function linkSelectedText(editor) {
+        const range = selectionRangeFor(editor);
+        if (!range || range.collapsed || !range.toString().trim()) {
+          alert("請先選取要加入連結的文字。");
+          return;
         }
+
+        const savedRange = range.cloneRange();
+        const requestedLink = window.prompt("輸入網址（只接受 http:// 或 https://）：", "https://");
+        if (requestedLink === null) return;
+        const href = safeEditorLink(requestedLink);
+        if (!href) {
+          alert("網址無效。請輸入 http:// 或 https:// 網址。");
+          return;
+        }
+
+        const selection = window.getSelection();
+        selection?.removeAllRanges();
+        selection?.addRange(savedRange);
+        const anchor = document.createElement("a");
+        anchor.setAttribute("href", href);
+        anchor.setAttribute("target", "_blank");
+        anchor.setAttribute("rel", "noopener noreferrer");
+        anchor.append(savedRange.extractContents());
+        savedRange.insertNode(anchor);
+        savedRange.selectNodeContents(anchor);
+        selection?.removeAllRanges();
+        selection?.addRange(savedRange);
+        activeRichRange = savedRange.cloneRange();
       }
 
       function runEditorCommand(command, editor) {
@@ -2407,8 +2563,12 @@
           adjustSelectedFontSize(editor, 1);
         } else if (command === "size-down") {
           adjustSelectedFontSize(editor, -1);
-        } else if (command === "gold") {
-          colorSelectedText(editor);
+        } else if (command === "brown") {
+          colorSelectedText(editor, "#93552f");
+        } else if (command === "honey") {
+          colorSelectedText(editor, "#9a6700");
+        } else if (command === "link") {
+          linkSelectedText(editor);
         } else if (command === "heading") {
           const selection = window.getSelection();
           const anchorElement = selection?.anchorNode?.nodeType === Node.ELEMENT_NODE
@@ -2433,6 +2593,14 @@
         if (bilingualRow) bilingualRow.dataset.rowTouched = "true";
       });
 
+      document.addEventListener("beforeinput", event => {
+        const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
+        if (!editor || !String(event.data || "").includes("’")) return;
+        event.preventDefault();
+        document.execCommand("insertText", false, normalizeApostrophes(event.data));
+        rememberSelection();
+      });
+
       document.addEventListener("keydown", event => {
         const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
         if (!editor || !(event.metaKey || event.ctrlKey)) return;
@@ -2441,12 +2609,16 @@
         const command = key === "b"
           ? "bold"
           : key === "h"
-            ? "gold"
-            : ["+", "="].includes(event.key)
-              ? "size-up"
-              : ["-", "_"].includes(event.key)
-                ? "size-down"
-                : "";
+            ? "brown"
+            : key === "g"
+              ? "honey"
+              : key === "p"
+                ? "link"
+                : ["+", "="].includes(event.key)
+                  ? "size-up"
+                  : ["-", "_"].includes(event.key)
+                    ? "size-down"
+                    : "";
         if (!command) return;
 
         event.preventDefault();
@@ -2460,7 +2632,7 @@
         if (!editor) return;
 
         event.preventDefault();
-        const pastedText = event.clipboardData?.getData("text/plain") || "";
+        const pastedText = normalizeApostrophes(event.clipboardData?.getData("text/plain") || "");
         if (document.execCommand("insertText", false, pastedText)) {
           rememberSelection();
           return;
@@ -2542,6 +2714,7 @@
       };
       setValue("title", post.title);
       setValue("tag", post.tag);
+      setValue("subtitle", post.subtitle);
       setValue("youtubeUrl", post.youtubeUrl);
       setValue("singers", post.singers);
       setValue("releaseYear", post.releaseYear);
@@ -2620,6 +2793,8 @@
       const publishButton = form?.querySelector('button[type="submit"]');
 
       resetStructuredEditors();
+
+      form?.addEventListener("input", event => normalizeTextControlApostrophes(event.target));
 
       function updateYouTubePreview() {
         if (!youtubeInput || !youtubePreview) return;
@@ -2709,7 +2884,8 @@
         const file = formData.get("image");
         if ((!(file instanceof File) || !file.size) && !editingPrimaryImage) return;
 
-        const youtubeUrl = String(formData.get("youtubeUrl") || "").trim();
+        const normalizedValue = name => normalizeApostrophes(formData.get(name) || "").trim();
+        const youtubeUrl = normalizedValue("youtubeUrl");
         if (youtubeUrl && !getYouTubeVideoId(youtubeUrl)) {
           youtubeInput?.setCustomValidity("Please paste a valid YouTube video link.");
           youtubeInput?.reportValidity();
@@ -2747,14 +2923,15 @@
         const publicId = globalThis.crypto?.randomUUID?.() || createdAt.toString(36);
         const post = {
           id: editingPostId || `music-${publicId}`,
-          title: String(formData.get("title") || "").trim(),
-          tag: String(formData.get("tag") || "").trim(),
+          title: normalizedValue("title"),
+          tag: normalizedValue("tag"),
+          subtitle: normalizedValue("subtitle"),
           image,
           youtubeUrl,
-          singers: String(formData.get("singers") || "").trim(),
-          releaseYear: String(formData.get("releaseYear") || "").trim(),
-          songwriter: String(formData.get("songwriter") || "").trim(),
-          producer: String(formData.get("producer") || "").trim(),
+          singers: normalizedValue("singers"),
+          releaseYear: normalizedValue("releaseYear"),
+          songwriter: normalizedValue("songwriter"),
+          producer: normalizedValue("producer"),
           contextBackground,
           fullLyricsEnglish,
           bilingualLyrics,

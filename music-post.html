@@ -306,6 +306,15 @@
       text-wrap: balance;
     }
 
+    .post-subtitle {
+      margin: 16px 0 0;
+      color: #45454b;
+      font-size: clamp(20px, 2.25vw, 30px);
+      line-height: 1.45;
+      font-weight: 750;
+      text-wrap: balance;
+    }
+
     .post-meta {
       margin: 18px 0 0;
       color: #6e6e73;
@@ -336,7 +345,7 @@
       margin-top: 38px;
       font-size: clamp(19px, 1.7vw, 24px);
       line-height: 1.72;
-      font-weight: 700;
+      font-weight: 500;
       color: #2f2f33;
     }
 
@@ -373,19 +382,52 @@
     .rich-content strong,
     .rich-content b,
     .post-body strong,
-    .post-body b {
+    .post-body b,
+    .song-info strong,
+    .song-info b,
+    .lyrics-table strong,
+    .lyrics-table b {
       font-weight: 900;
       font-variation-settings: "wght" 900;
-      -webkit-text-stroke: 0.18px currentColor;
+      -webkit-text-stroke: 0.5px currentColor;
+      text-shadow: 0.012em 0 currentColor, -0.012em 0 currentColor;
     }
 
     .rich-content span[style*="font-size"] { line-height: 1.35; }
+
+    .rich-content a,
+    .song-info a,
+    .lyrics-table a {
+      color: #12355b;
+      font-weight: 800;
+      text-decoration-line: underline;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 0.18em;
+    }
+
+    .rich-content a:hover,
+    .rich-content a:focus-visible,
+    .song-info a:hover,
+    .song-info a:focus-visible,
+    .lyrics-table a:hover,
+    .lyrics-table a:focus-visible {
+      color: #081f38;
+      outline: none;
+      text-decoration-thickness: 2.5px;
+    }
+
+    .rich-content a:focus-visible,
+    .song-info a:focus-visible,
+    .lyrics-table a:focus-visible {
+      border-radius: 3px;
+      box-shadow: 0 0 0 3px rgba(18,53,91,0.18);
+    }
 
     .rich-content {
       color: #303035;
       font-size: clamp(18px, 1.65vw, 22px);
       line-height: 1.8;
-      font-weight: 650;
+      font-weight: 500;
       white-space: normal;
     }
 
@@ -490,6 +532,77 @@
       text-decoration: none;
     }
 
+    .youtube-player-mount {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .youtube-replay-prompt {
+      position: absolute;
+      right: 16px;
+      bottom: 16px;
+      z-index: 4;
+      width: min(330px, calc(100% - 32px));
+      padding: 15px;
+      border: 1px solid rgba(255,255,255,0.28);
+      border-radius: 10px;
+      background: rgba(9,18,33,0.94);
+      color: #fff;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.35);
+      backdrop-filter: blur(14px);
+    }
+
+    .youtube-replay-prompt[hidden] {
+      display: none;
+    }
+
+    .youtube-replay-question {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .youtube-replay-actions {
+      margin-top: 11px;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .youtube-replay-button {
+      min-height: 34px;
+      padding: 7px 11px;
+      border: 1px solid rgba(255,255,255,0.42);
+      border-radius: 7px;
+      background: #fff;
+      color: #111827;
+      font: inherit;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .youtube-replay-button.is-secondary {
+      background: transparent;
+      color: #fff;
+    }
+
+    .youtube-replay-button:hover,
+    .youtube-replay-button:focus-visible {
+      border-color: #f4c95d;
+      background: #f4c95d;
+      color: #111827;
+      outline: none;
+    }
+
+    .youtube-replay-button:focus-visible {
+      box-shadow: 0 0 0 3px rgba(244,201,93,0.3);
+    }
+
     .song-info {
       width: 100%;
       min-width: 0;
@@ -520,7 +633,7 @@
     .song-info td {
       color: #252529;
       font-size: clamp(17px, 1.6vw, 21px);
-      font-weight: 750;
+      font-weight: 550;
       overflow-wrap: anywhere;
     }
 
@@ -575,7 +688,7 @@
       color: #2f2f33;
       font-size: clamp(16px, 1.45vw, 19px);
       line-height: 1.65;
-      font-weight: 650;
+      font-weight: 500;
     }
 
     .lyrics-table td:first-child {
@@ -921,6 +1034,13 @@
         font-size: 20px;
       }
 
+      .youtube-replay-prompt {
+        right: 10px;
+        bottom: 10px;
+        width: calc(100% - 20px);
+        padding: 12px;
+      }
+
       .analysis-item {
         padding: 20px;
       }
@@ -955,6 +1075,10 @@
       .post-meta {
         font-size: 13px;
         line-height: 1.6;
+      }
+
+      .post-subtitle {
+        font-size: clamp(18px, 5.5vw, 24px);
       }
 
       .song-info th,
@@ -994,6 +1118,7 @@
       .post-nav,
       .share-status,
       .reader-extras,
+      .youtube-replay-prompt,
       .youtube-frame {
         display: none !important;
       }
@@ -1037,6 +1162,13 @@
 
       h1 {
         font-size: 30pt;
+      }
+
+      .post-subtitle {
+        margin-top: 4mm;
+        color: #333 !important;
+        font-size: 15pt;
+        line-height: 1.4;
       }
 
       .post-meta,
@@ -1098,6 +1230,15 @@
       a {
         color: inherit;
         text-decoration: none;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reading-progress-bar,
+      .related-card,
+      .course-card,
+      .nav-control {
+        transition: none;
       }
     }
   </style>
@@ -1330,6 +1471,10 @@
         .join("");
     }
 
+    function renderPlainLineBreaks(value) {
+      return escapeHtml(String(value || "").replace(/\r\n?/g, "\n")).replace(/\n/g, "<br>");
+    }
+
     function hasText(value) {
       if (value === null || value === undefined) return false;
       const source = String(value).trim();
@@ -1343,7 +1488,7 @@
       const source = String(value || "").trim();
       if (!source) return "";
 
-      const supportedMarkup = /<\/?(?:p|div|br|strong|b|em|i|u|h[2-5]|ul|ol|li|blockquote|span)\b/i;
+      const supportedMarkup = /<\/?(?:p|div|br|strong|b|em|i|u|h[2-5]|ul|ol|li|blockquote|span|a)\b/i;
       if (!supportedMarkup.test(source)) return renderParagraphs(source);
 
       const template = document.createElement("template");
@@ -1351,7 +1496,7 @@
 
       const allowed = new Set([
         "P", "DIV", "BR", "STRONG", "B", "EM", "I", "U",
-        "H2", "H3", "H4", "H5", "UL", "OL", "LI", "BLOCKQUOTE", "SPAN"
+        "H2", "H3", "H4", "H5", "UL", "OL", "LI", "BLOCKQUOTE", "SPAN", "A"
       ]);
       const blocked = new Set([
         "SCRIPT", "STYLE", "IFRAME", "OBJECT", "EMBED", "LINK", "META",
@@ -1372,6 +1517,15 @@
         }
 
         let safeStyle = "";
+        let safeHref = "";
+        if (element.tagName === "A") {
+          safeHref = safeHttpUrl(element.getAttribute("href"));
+          if (!safeHref) {
+            element.replaceWith(...element.childNodes);
+            return;
+          }
+        }
+
         if (element.tagName === "SPAN") {
           const fontSize = String(element.style.fontSize || "").trim().toLowerCase();
           const fontSizeMatch = fontSize.match(/^(\d+(?:\.\d+)?)(%|em|px)$/);
@@ -1387,11 +1541,18 @@
           const color = String(element.style.color || "").replace(/\s+/g, "").toLowerCase();
           if (["#93552f", "rgb(147,85,47)"].includes(color)) {
             safeStyle += "color:#93552f;";
+          } else if (["#9a6700", "rgb(154,103,0)"].includes(color)) {
+            safeStyle += "color:#9a6700;";
           }
         }
 
         Array.from(element.attributes).forEach(attribute => element.removeAttribute(attribute.name));
         if (safeStyle) element.setAttribute("style", safeStyle);
+        if (safeHref) {
+          element.setAttribute("href", safeHref);
+          element.setAttribute("target", "_blank");
+          element.setAttribute("rel", "noopener noreferrer");
+        }
       });
 
       return template.innerHTML;
@@ -1420,11 +1581,29 @@
       }
     }
 
+    function safeYouTubeUrl(value) {
+      const source = safeHttpUrl(value);
+      if (!source) return "";
+
+      try {
+        const url = new URL(source);
+        const host = url.hostname.toLowerCase().replace(/^www\./, "");
+        const isYouTubeHost = host === "youtu.be"
+          || host === "youtube.com"
+          || host.endsWith(".youtube.com")
+          || host === "youtube-nocookie.com"
+          || host.endsWith(".youtube-nocookie.com");
+        return isYouTubeHost ? url.href : "";
+      } catch {
+        return "";
+      }
+    }
+
     function youtubeVideoId(post) {
       const direct = String(post.youtubeId || "").trim();
-      if (/^[A-Za-z0-9_-]{6,20}$/.test(direct)) return direct;
+      if (/^[A-Za-z0-9_-]{11}$/.test(direct)) return direct;
 
-      const source = safeHttpUrl(post.youtubeUrl || post.youtube || post.videoUrl);
+      const source = safeYouTubeUrl(post.youtubeUrl || post.youtube || post.videoUrl);
       if (!source) return "";
 
       try {
@@ -1434,7 +1613,7 @@
 
         if (host === "youtu.be") {
           candidate = url.pathname.split("/").filter(Boolean)[0] || "";
-        } else if (host === "youtube.com" || host.endsWith(".youtube.com")) {
+        } else if (host === "youtube.com" || host.endsWith(".youtube.com") || host === "youtube-nocookie.com" || host.endsWith(".youtube-nocookie.com")) {
           candidate = url.searchParams.get("v") || "";
           if (!candidate) {
             const parts = url.pathname.split("/").filter(Boolean);
@@ -1442,7 +1621,7 @@
           }
         }
 
-        return /^[A-Za-z0-9_-]{6,20}$/.test(candidate) ? candidate : "";
+        return /^[A-Za-z0-9_-]{11}$/.test(candidate) ? candidate : "";
       } catch {
         return "";
       }
@@ -1461,7 +1640,7 @@
 
     function renderYouTube(post) {
       const id = youtubeVideoId(post);
-      const url = safeHttpUrl(post.youtubeUrl || post.youtube || post.videoUrl);
+      const url = safeYouTubeUrl(post.youtubeUrl || post.youtube || post.videoUrl);
       if (!id && !url) return "";
 
       if (!id) {
@@ -1483,6 +1662,13 @@
               <img src="${escapeHtml(thumbnail)}" alt="YouTube 影片縮圖" loading="lazy">
               <span class="youtube-play" aria-hidden="true">▶</span>
             </button>
+            <div class="youtube-replay-prompt" role="group" aria-label="重播影片" data-youtube-replay-prompt hidden>
+              <p class="youtube-replay-question">要再回聽嗎？</p>
+              <div class="youtube-replay-actions">
+                <button class="youtube-replay-button" type="button" data-youtube-replay>要!</button>
+                <button class="youtube-replay-button is-secondary" type="button" data-youtube-dismiss>不需要了，謝謝</button>
+              </div>
+            </div>
           </div>
         </section>
       `;
@@ -1772,7 +1958,10 @@
       const id = new URLSearchParams(window.location.search).get("id");
       if (!root) return;
 
-      let post = getAllPosts().find(item => item.id === id) || getNavigationPost(id);
+      const publicServerIsAuthority = Boolean(musicSupabase) && !isAdminView();
+      let post = publicServerIsAuthority
+        ? null
+        : getAllPosts().find(item => item.id === id) || getNavigationPost(id);
       let loadError = null;
       root.setAttribute("aria-busy", "true");
 
@@ -1787,6 +1976,7 @@
         }
       } catch (error) {
         loadError = error;
+        if (musicSupabase && !isAdminView()) post = null;
         console.warn("Could not load the shared music article.", error);
       } finally {
         root.removeAttribute("aria-busy");
@@ -1808,20 +1998,22 @@
         return;
       }
 
-      document.title = `${post.title} | EdmundEducation`;
+      document.title = `${plainText(post.title)} | EdmundEducation`;
       document.body.classList.toggle("is-admin", isAdminView());
       const heroImage = safeImageSource(post.image);
+      const subtitle = postField(post, "subtitle", ["subTitle", "articleSubtitle"]);
       const structured = renderStructuredContent(post);
       root.innerHTML = `
         <article id="article-top">
           ${heroImage ? `
             <div class="post-hero">
-              <img src="${escapeHtml(heroImage)}" alt="${escapeHtml(post.title || "")}">
+              <img src="${escapeHtml(heroImage)}" alt="${escapeHtml(plainText(post.title || ""))}">
             </div>
           ` : ""}
           <div class="post-copy">
             ${post.tag ? `<span class="tag-pill">${escapeHtml(post.tag)}</span>` : ""}
-            <h1>${escapeHtml(post.title)}</h1>
+            <h1>${renderPlainLineBreaks(post.title)}</h1>
+            ${hasText(subtitle) ? `<p class="post-subtitle">${renderPlainLineBreaks(subtitle)}</p>` : ""}
             <p class="post-meta">${renderPostMeta(post)}</p>
             ${structured || `<div class="post-body">${renderParagraphs(post.body || "")}</div>`}
           </div>
@@ -1884,6 +2076,27 @@
       list.hidden = sections.length === 0;
       empty.hidden = sections.length > 0;
 
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      const fixedHeaderOffset = () => {
+        const header = document.querySelector(".post-nav");
+        if (!header) return 20;
+        const stickyTop = Math.max(0, Number.parseFloat(getComputedStyle(header).top) || 0);
+        return header.getBoundingClientRect().height + stickyTop + 18;
+      };
+
+      const scrollToSection = (target, { updateHash = true, smooth = true } = {}) => {
+        if (!target) return;
+        const targetTop = Math.max(0, window.scrollY + target.getBoundingClientRect().top - fixedHeaderOffset());
+        if (updateHash) {
+          history.pushState(null, "", `#${encodeURIComponent(target.id)}`);
+        }
+        target.focus({ preventScroll: true });
+        window.scrollTo({
+          top: targetTop,
+          behavior: smooth && !reducedMotion.matches ? "smooth" : "auto"
+        });
+      };
+
       const setOpen = (open, restoreFocus = false) => {
         panel.hidden = !open;
         button.setAttribute("aria-expanded", String(open));
@@ -1895,11 +2108,12 @@
       });
 
       list.querySelectorAll("a").forEach(link => {
-        link.addEventListener("click", () => {
+        link.addEventListener("click", event => {
+          event.preventDefault();
           const targetId = decodeURIComponent(link.getAttribute("href").slice(1));
           const target = document.getElementById(targetId);
           setOpen(false);
-          window.requestAnimationFrame(() => target?.focus({ preventScroll: true }));
+          window.requestAnimationFrame(() => scrollToSection(target));
         });
       });
 
@@ -1912,8 +2126,10 @@
       });
 
       if (window.location.hash) {
-        const target = document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
-        if (target) window.requestAnimationFrame(() => target.scrollIntoView());
+        try {
+          const target = document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
+          if (target) window.requestAnimationFrame(() => scrollToSection(target, { updateHash: false, smooth: false }));
+        } catch {}
       }
     }
 
@@ -1970,24 +2186,137 @@
       });
     }
 
+    let youtubeIframeApiPromise = null;
+
+    function loadYouTubeIframeApi() {
+      if (window.YT?.Player) return Promise.resolve(window.YT);
+      if (youtubeIframeApiPromise) return youtubeIframeApiPromise;
+
+      youtubeIframeApiPromise = new Promise((resolve, reject) => {
+        const previousReadyHandler = window.onYouTubeIframeAPIReady;
+        const timeout = window.setTimeout(() => reject(new Error("YouTube player API timed out")), 15000);
+
+        window.onYouTubeIframeAPIReady = () => {
+          try {
+            if (typeof previousReadyHandler === "function") previousReadyHandler();
+          } finally {
+            window.clearTimeout(timeout);
+            resolve(window.YT);
+          }
+        };
+
+        const existingScript = document.querySelector('script[src="https://www.youtube.com/iframe_api"]');
+        if (existingScript) return;
+
+        const script = document.createElement("script");
+        script.src = "https://www.youtube.com/iframe_api";
+        script.async = true;
+        script.addEventListener("error", () => {
+          window.clearTimeout(timeout);
+          reject(new Error("YouTube player API could not load"));
+        }, { once: true });
+        document.head.appendChild(script);
+      });
+
+      return youtubeIframeApiPromise;
+    }
+
+    function configureYouTubeFrame(frame) {
+      if (!frame) return;
+      frame.classList.add("youtube-frame");
+      frame.title = "YouTube 影片播放器";
+      frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      frame.allowFullscreen = true;
+      frame.referrerPolicy = "strict-origin-when-cross-origin";
+    }
+
+    function createDirectYouTubeFrame(holder, id) {
+      const frame = document.createElement("iframe");
+      configureYouTubeFrame(frame);
+      frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&playsinline=1&rel=0`;
+      holder.appendChild(frame);
+      holder.dataset.youtubePlayer = "fallback";
+    }
+
+    async function createTrackedYouTubePlayer(holder, trigger, id) {
+      holder.dataset.youtubePlayer = "loading";
+      trigger.hidden = true;
+
+      const mount = document.createElement("div");
+      mount.className = "youtube-player-mount";
+      holder.appendChild(mount);
+
+      try {
+        const youtubeApi = await loadYouTubeIframeApi();
+        const player = new youtubeApi.Player(mount, {
+          host: "https://www.youtube-nocookie.com",
+          videoId: id,
+          width: "100%",
+          height: "100%",
+          playerVars: {
+            autoplay: 1,
+            playsinline: 1,
+            rel: 0,
+            origin: window.location.origin
+          },
+          events: {
+            onReady: readyEvent => {
+              holder.youtubePlayer = readyEvent.target;
+              holder.dataset.youtubePlayer = "ready";
+              configureYouTubeFrame(readyEvent.target.getIframe());
+              readyEvent.target.playVideo();
+            },
+            onStateChange: stateEvent => {
+              const prompt = holder.querySelector("[data-youtube-replay-prompt]");
+              if (!prompt) return;
+              if (stateEvent.data === youtubeApi.PlayerState.ENDED) {
+                prompt.hidden = false;
+                window.requestAnimationFrame(() => prompt.querySelector("[data-youtube-replay]")?.focus());
+              } else if (stateEvent.data === youtubeApi.PlayerState.PLAYING) {
+                prompt.hidden = true;
+              }
+            }
+          }
+        });
+        holder.youtubePlayer = player;
+      } catch (error) {
+        console.warn("Could not enable YouTube replay controls; using the standard player.", error);
+        mount.remove();
+        createDirectYouTubeFrame(holder, id);
+      }
+    }
+
     function setupYouTubeEmbeds() {
       document.addEventListener("click", event => {
+        const replayButton = event.target.closest("[data-youtube-replay]");
+        if (replayButton) {
+          const holder = replayButton.closest("[data-youtube-embed]");
+          const prompt = replayButton.closest("[data-youtube-replay-prompt]");
+          const player = holder?.youtubePlayer;
+          if (player?.seekTo && player?.playVideo) {
+            prompt.hidden = true;
+            player.seekTo(0, true);
+            player.playVideo();
+            window.requestAnimationFrame(() => player.getIframe?.().focus());
+          }
+          return;
+        }
+
+        const dismissButton = event.target.closest("[data-youtube-dismiss]");
+        if (dismissButton) {
+          const holder = dismissButton.closest("[data-youtube-embed]");
+          dismissButton.closest("[data-youtube-replay-prompt]").hidden = true;
+          window.requestAnimationFrame(() => holder?.querySelector("iframe")?.focus());
+          return;
+        }
+
         const trigger = event.target.closest("[data-youtube-id]");
         if (!trigger) return;
 
         const id = trigger.getAttribute("data-youtube-id");
         const holder = trigger.closest("[data-youtube-embed]");
-        if (!id || !holder || holder.querySelector("iframe")) return;
-
-        const frame = document.createElement("iframe");
-        frame.className = "youtube-frame";
-        frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1`;
-        frame.title = "YouTube 影片播放器";
-        frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-        frame.allowFullscreen = true;
-        frame.referrerPolicy = "strict-origin-when-cross-origin";
-        trigger.hidden = true;
-        holder.appendChild(frame);
+        if (!id || !holder || holder.dataset.youtubePlayer) return;
+        createTrackedYouTubePlayer(holder, trigger, id);
       });
     }
 
