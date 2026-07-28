@@ -233,7 +233,7 @@ assert.match(scheduleHtml, /\.span-lane-placeholder\s*\{[^}]*height:\s*142px/s);
 assert.match(scheduleHtml, /@media\s*\(pointer:\s*coarse\)[\s\S]*?\.schedule-slot\.has-entry\.can-touch-drag\s*\{[^}]*touch-action:\s*none/s);
 assert.match(scheduleHtml, /\.span-drop-zone\s*\{/);
 assert.match(scheduleHtml, /data-toggle-selection[^>]*aria-pressed="false"/);
-assert.match(scheduleHtml, />select multiple</);
+assert.match(scheduleHtml, />選取多項</);
 assert.match(scheduleHtml, /data-selection-actions/);
 assert.match(scheduleHtml, /data-batch-complete/);
 assert.match(scheduleHtml, /data-move-selected/);
@@ -247,13 +247,21 @@ assert.match(scheduleHtml, /\.print-entry-admin\s*\{[^}]*#f4dfc2/i);
 assert.match(scheduleHtml, /\.print-entry-student\s*\{[^}]*#dfe9ff/i);
 assert.match(scheduleHtml, /data-toggle-countdown-collapse|countdown-collapse-toggle/);
 assert.match(scheduleHtml, /data-toggle-mass-edit[^>]*aria-pressed="false"/);
-assert.match(scheduleHtml, />Mass Edit</);
+assert.match(scheduleHtml, />批量編輯（Mass Edit）</);
+assert.match(scheduleHtml, /1 選取／框選 → 2 複製所選 → 3 切換學生 → 4 貼上 → 5 一次儲存全部/);
 assert.match(scheduleHtml, /data-mass-edit-actions/);
 assert.match(scheduleHtml, /data-save-mass-edit/);
 assert.match(scheduleHtml, /data-cancel-mass-edit/);
 assert.match(scheduleHtml, />一次儲存全部</);
 assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.is-mass-edit-draft/);
 assert.match(scheduleHtml, /\.draft-badge/);
+assert.match(scheduleHtml, /data-toggle-clipboard-selection[^>]*aria-pressed="false"/);
+assert.match(scheduleHtml, /data-copy-clipboard-selection/);
+assert.match(scheduleHtml, /data-paste-clipboard-selection/);
+assert.match(scheduleHtml, /data-clear-clipboard-selection/);
+assert.match(scheduleHtml, /clipboard-selection-marquee/);
+assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260727-4/);
 
 const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
 assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");
@@ -393,6 +401,42 @@ assert.match(scheduleJs, /async function saveMassEdit\(/);
 assert.match(scheduleJs, /schedule_student_apply_entry_batch/);
 assert.match(scheduleJs, /schedule_admin_apply_entry_batch/);
 assert.match(scheduleJs, /window\.addEventListener\("beforeunload"/);
+assert.match(scheduleJs, /schedule-clipboard\.mjs\?v=20260727-1/);
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260727-3"/);
+assert.match(scheduleJs, /homeworkCatalogPromise = import\(HOMEWORK_CATALOG_URL\)/);
+assert.doesNotMatch(scheduleJs, /^import\s+\{\s*HOMEWORK_RESOURCE_CATALOG\s*\}/m, "the large exercise catalogue must not block login or Supabase startup");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260727-2/);
+assert.match(scheduleJs, /clipboardSelectedEntryIds:\s*new Set\(\)/);
+assert.match(scheduleJs, /function beginClipboardMarquee\(/);
+assert.match(scheduleJs, /function updateClipboardMarquee\(/);
+assert.match(scheduleJs, /function stageScheduleClipboardPaste\(/);
+assert.match(scheduleJs, /document\.addEventListener\("copy", handleScheduleCopy\)/);
+assert.match(scheduleJs, /document\.addEventListener\("paste", handleSchedulePaste\)/);
+assert.match(scheduleJs, /if \(state\.massEditMode\) toggleClipboardSelectionMode\(\)/, "the prominent selection button must become clipboard selection during Mass Edit");
+assert.match(scheduleJs, /!state\.massEditMode[\s\S]*?event\.pointerType !== "mouse"/, "mouse marquee selection must start directly in Mass Edit without a hidden prerequisite toggle");
+assert.doesNotMatch(scheduleJs.match(/function beginClipboardMarquee[\s\S]*?\n\}/)?.[0] || "", /!state\.clipboardSelectionMode/, "direct mouse marquee must not require selecting a second mode first");
+assert.match(scheduleJs, /commandKey[\s\S]*?shortcut === "c"[\s\S]*?copyClipboardSelectionFromButton\(\)[\s\S]*?shortcut === "v"[\s\S]*?pasteScheduleClipboardFromButton\(\)/, "Cmd\/Ctrl+C and V must have an explicit PWA-safe fallback");
+assert.match(scheduleJs, /let payload = readStoredScheduleClipboardPayload\(\);[\s\S]*?!payload && navigator\.clipboard\?\.readText/, "Paste must use the reliable same-tab buffer before the permission-sensitive OS clipboard");
+assert.match(scheduleJs, /function handleSchedulePaste[\s\S]*?let payload = readStoredScheduleClipboardPayload\(\);[\s\S]*?if \(!payload\) \{[\s\S]*?event\.clipboardData/, "context-menu and ClipboardEvent paste must also prefer the same-tab buffer");
+assert.match(scheduleJs, /function handleScheduleCopy[\s\S]*?storeScheduleClipboardPayload\(payload\);\s*updateClipboardControls\(\);/, "native Cmd\/Ctrl+C must immediately reveal the buffered item count in the Paste button");
+assert.match(scheduleJs, /shortcut === "v" && readStoredScheduleClipboardPayload\(\)/, "keyboard paste must leave the browser ClipboardEvent available when no same-tab payload exists");
+assert.match(scheduleJs, /if \(state\.scheduleClipboardPayload\) return state\.scheduleClipboardPayload/, "marquee control updates must reuse the parsed payload rather than repeatedly parsing session storage");
+assert.match(scheduleHtml, /@supabase\/supabase-js@2\.110\.8\/dist\/umd\/supabase\.js/, "Schedule must use a pinned, cacheable Supabase client build");
+assert.match(scheduleJs, /let supabaseAuthPromise = null/);
+assert.match(scheduleJs, /if \(!supabaseAuthPromise\)[\s\S]*?supabaseAuthPromise = \(async \(\) =>/, "Supabase anonymous authentication must be shared instead of repeated before every RPC");
+const restoreSessionBody = scheduleJs.match(/async function restoreSession\(\)\s*\{([\s\S]*?)\n\}\n\nasync function login/)?.[1] || "";
+assert.doesNotMatch(restoreSessionBody, /schedule_admin_me|schedule_student_profile/, "restoring a saved session must let the first useful list\/week RPC validate the token instead of making a duplicate validation request");
+assert.match(scheduleJs, /sessionStorage\.setItem\(SCHEDULE_CLIPBOARD_SESSION_KEY/);
+assert.match(scheduleJs, /clearStoredScheduleClipboard\(\);[\s\S]*?forgetStudentSession/);
+assert.match(scheduleJs, /system will not|系統不會移動或覆蓋任何現有安排/);
+const openStudentScheduleBody = scheduleJs.match(
+  /async function openStudentSchedule\([^)]*\)\s*\{([\s\S]*?)\n\}\n\nfunction activeStudent/
+)?.[1] || "";
+assert.doesNotMatch(
+  openStudentScheduleBody,
+  /state\.weekStart\s*=\s*defaultWeekStart\(\)/,
+  "switching admin students must preserve the displayed week for exact weekday clipboard mapping"
+);
 assert.match(
   scheduleJs,
   /weekIsLoading[\s\S]*?elements\.toggleMassEdit\.disabled[\s\S]*?childElementCount === 0/,

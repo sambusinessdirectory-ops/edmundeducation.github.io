@@ -3,7 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Edmund Flashcard 學習卡系統</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="theme-color" content="#20283d">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
 
   <style>
     @font-face {
@@ -3645,21 +3658,20 @@
       }
 
       .study-side {
-        order: -1;
+        order: 2;
         width: 100%;
         grid-template-columns: minmax(142px, 1fr) minmax(100px, 0.72fr);
         gap: 8px;
-        position: sticky;
-        top: calc(var(--flashcard-sticky-header-height) + max(6px, env(safe-area-inset-top)));
+        position: static;
+        top: auto;
         max-height: none;
         overflow: visible;
         padding: 8px;
         border: 1px solid rgba(47,128,237,0.18);
         border-radius: 18px;
-        background: rgba(247,251,255,0.94);
-        box-shadow: 0 16px 34px rgba(17,43,85,0.16);
-        backdrop-filter: blur(14px);
-        z-index: 45;
+        background: rgba(247,251,255,0.88);
+        box-shadow: 0 12px 28px rgba(17,43,85,0.12);
+        z-index: 2;
       }
 
       .study-main {
@@ -4325,7 +4337,7 @@
               <p class="note-text" data-card-hint>點擊卡片即可揭示答案。翻開後才可選擇綠勾或紅叉。</p>
             </div>
 
-            <aside class="study-side">
+            <aside class="study-side" data-study-review-panel aria-label="翻卡後評分及私人備註">
               <div class="study-action-dock">
                 <div class="action-rail">
                   <div class="action-row">
@@ -191214,9 +191226,11 @@ window.EDMUND_FLASHCARD_SEED = {
       const mobileDock = window.matchMedia("(max-width: 680px)").matches
         ? document.querySelector(".study-side")
         : null;
+      const mobileDockPosition = mobileDock ? window.getComputedStyle(mobileDock).position : "";
+      const mobileDockOverlaysContent = mobileDockPosition === "fixed" || mobileDockPosition === "sticky";
       const header = document.querySelector(".edmund-system-header");
       const headerBottom = header ? Math.max(0, header.getBoundingClientRect().bottom) : 0;
-      const visibleTop = mobileDock
+      const visibleTop = mobileDockOverlaysContent
         ? Math.max(12, headerBottom + 12, mobileDock.getBoundingClientRect().bottom + 10)
         : Math.max(12, headerBottom + 12);
       const fullyVisible = rect.top >= visibleTop && rect.bottom <= window.innerHeight - 12;

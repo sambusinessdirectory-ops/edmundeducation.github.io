@@ -60,6 +60,38 @@ function compactText(value, limit = 180) {
   return String(value || "").replace(/\s+/g, " ").trim().slice(0, limit);
 }
 
+function numericMatch(value, patterns) {
+  for (const pattern of patterns) {
+    const match = String(value || "").match(pattern);
+    const number = Number(match?.[1]);
+    if (Number.isSafeInteger(number) && number >= 0) return number;
+  }
+  return null;
+}
+
+function flashcardOrdinal(deckId) {
+  const lastSegment = String(deckId || "").split("/").filter(Boolean).at(-1) || "";
+  return numericMatch(lastSegment, [
+    /(?:^|[-_ ])q(?:uestion)?[-_ ]?(\d+)(?:\D|$)/i,
+    /(?:^|[-_ ])practice[-_ ]?(\d+)(?:\D|$)/i,
+    /(?:^|[-_ ])exercise[-_ ]?(\d+)(?:\D|$)/i,
+    /(?:^|[-_ ])model[-_ ]?essay[-_ ]?(\d+)(?:\D|$)/i,
+    /(?:^|\D)(\d{4})(?:\D|$)/,
+    /(?:^|\D)(\d+)(?:\D|$)/
+  ]);
+}
+
+function writingOrdinal(exercise) {
+  return numericMatch(exercise?.id, [
+    /(?:^|-)model-essay-(\d+)(?:-|$)/i,
+    /(?:^|-)q(?:uestion)?-?(\d+)(?:-|$)/i,
+    /(?:^|-)exercise-?(\d+)(?:-|$)/i,
+    /(?:^|-)composition-?(\d+)(?:-|$)/i,
+    /(?:^|\D)(\d{4})(?:\D|$)/,
+    /(?:^|\D)(\d+)(?:\D|$)/
+  ]);
+}
+
 async function flashcardResources(allFiles) {
   const html = await readFile(path.join(root, "flashcards.html"), "utf8");
   const assignmentStart = html.indexOf("window.EDMUND_FLASHCARD_SEED = {");
@@ -99,6 +131,7 @@ async function flashcardResources(allFiles) {
       return {
         id: `flash:${deckId}`,
         type: "flashcards",
+        ordinal: flashcardOrdinal(deckId),
         label: exactTitle || humanizeDeckId(deckId),
         detail: `${humanizeDeckId(deckId)} · ${cards.length} cards`,
         url: `flashcards.html?deck=${encodeURIComponent(deckId)}`
@@ -120,6 +153,7 @@ async function writingResources() {
   return [...exercises.values()].map((exercise) => ({
     id: `fill:${exercise.id}`,
     type: "fill-blanks",
+    ordinal: writingOrdinal(exercise),
     label: compactText(exercise.title),
     detail: compactText([exercise.exam, exercise.taskType].filter(Boolean).join(" · "), 140),
     url: `writing-practice.html?exercise=${encodeURIComponent(exercise.id)}`
@@ -147,6 +181,7 @@ async function speakingResources() {
         exercises.push({
           id: `speaking:${exercise.id}`,
           type: "speaking",
+          ordinal: Number(exercise.index || 0) || null,
           label: compactText(exercise.title || exercise.topic || `Exercise ${exercise.index || ""}`),
           detail: `IELTS Speaking · Part ${part} · Book ${bookNumber} · Exercise ${Number(exercise.index || 0) || "—"}`,
           url: `speaking-system.html?exercise=${encodeURIComponent(exercise.id)}`
@@ -160,13 +195,22 @@ async function speakingResources() {
 async function sentenceResources() {
   const files = await portalDataFiles("sentence-structure.html", /^sentence-structure(?:-.*)?(?:data|lessons[^/]*)\.js$/);
   const globals = await evaluateFiles(files);
-  return (globals.EDMUND_SENTENCE_STRUCTURE_DATA?.lessons || []).map((lesson, index) => ({
-    id: `sentence:${lesson.id}`,
-    type: "sentence-structure",
-    label: compactText(lesson.titleZh || lesson.title || lesson.titleEn || `Sentence Structure ${index + 1}`),
-    detail: compactText(lesson.titleEn || `Sentence Structure ${index + 1}`, 140),
-    url: `sentence-structure.html?lesson=${encodeURIComponent(lesson.id)}`
-  }));
+  return (globals.EDMUND_SENTENCE_STRUCTURE_DATA?.lessons || []).map((lesson, index) => {
+    const ordinal = index + 1;
+    if (String(lesson.id || "") !== `ss${ordinal}`) {
+      throw new Error(`Sentence Structure lesson numbering mismatch at option #${ordinal}: ${lesson.id || "missing id"}`);
+    }
+    const title = compactText(lesson.titleZh || lesson.title || lesson.titleEn || `Sentence Structure ${ordinal}`);
+    const detail = compactText(lesson.titleEn || title, 140);
+    return {
+      id: `sentence:${lesson.id}`,
+      type: "sentence-structure",
+      ordinal,
+      label: `#${ordinal} · ${title}`,
+      detail: `Sentence Structure #${ordinal} · ${detail}`,
+      url: `sentence-structure.html?lesson=${encodeURIComponent(lesson.id)}`
+    };
+  });
 }
 
 const allFiles = await readdir(root);

@@ -1584,6 +1584,12 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const bulkVisibilityLabel = allVisibleCorrectCollapsed
     ? "展開所有已完成題目"
     : "隱藏所有已完成題目";
+  const nextRoundActions = state.exercise.awaitingNextRound
+    ? `<div class="round-summary-actions">
+        ${wrongIds.length ? `<button class="correction-button" type="button" data-start-correction>立即改正錯題（${escapeHtml(wrongIds.length)}）</button>` : ""}
+        <button class="primary-button" type="button" data-next-round>開始第 ${escapeHtml(state.exercise.round + 1)} 輪</button>
+      </div>`
+    : "";
 
   elements.lessonContent.innerHTML = `<section class="exercise-page">
     <header class="exercise-header">
@@ -1603,10 +1609,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     </section>` : state.exercise.awaitingNextRound ? `<section class="round-summary">
       <h3>第 ${escapeHtml(state.exercise.round)} 輪已提交</h3>
       <p>目前已答對 <strong>${escapeHtml(correct)}</strong> 題；尚有 <strong>${escapeHtml(remaining)}</strong> 題會在下一輪再練習。</p>
-      <div class="round-summary-actions">
-        ${wrongIds.length ? `<button class="correction-button" type="button" data-start-correction>立即改正錯題（${escapeHtml(wrongIds.length)}）</button>` : ""}
-        <button class="primary-button" type="button" data-next-round>開始第 ${escapeHtml(state.exercise.round + 1)} 輪</button>
-      </div>
+      ${nextRoundActions}
     </section>` : ""}
 
     ${!completed && state.exercise.correctionMode ? `<section class="correction-round-banner">
@@ -1624,6 +1627,12 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     <div class="question-list" id="sentence-structure-question-list" data-question-list>
       ${displayQuestions.map(questionHtml).join("")}
     </div>
+
+    ${!completed && state.exercise.awaitingNextRound ? `<section class="round-summary round-summary-bottom" aria-label="本輪完成後的下一步">
+      <h3>這一輪已完成檢查</h3>
+      <p>最後一題後可直接改正錯題，或開始第 ${escapeHtml(state.exercise.round + 1)} 輪，無需捲回頁頂。</p>
+      ${nextRoundActions}
+    </section>` : ""}
 
     ${!completed && !state.exercise.awaitingNextRound && (!state.exercise.correctionMode || correctionRemaining.length) ? `<div class="exercise-actions">
       <span class="exercise-action-copy" data-exercise-action-copy>${state.exercise.correctionMode ? "修改錯題後提交；答對的題卡會留在本輪供你核對。" : "可提交全部答案，或只檢查已輸入的題目。"}</span>

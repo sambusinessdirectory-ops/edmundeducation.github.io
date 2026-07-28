@@ -89,6 +89,71 @@ assert.doesNotMatch(parsed.text, /@edmund-homework/);
 assert.equal(parseScheduleMessage("普通舊安排").text, "普通舊安排", "legacy messages must stay unchanged");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "Part 2 Book 1 Advertisements").total >= 1, true);
 
+const numericFixture = [32, 24, 2, 111, 13, 22, 1, 23, 12, 11].map((ordinal) => ({
+  id: `sentence:ss${ordinal}`,
+  type: "sentence-structure",
+  ordinal,
+  label: `#${ordinal} · Lesson ${ordinal}`,
+  detail: `Sentence Structure #${ordinal}`
+}));
+assert.deepEqual(
+  filterHomeworkResources(numericFixture, "sentence-structure", "2").items.map((resource) => resource.ordinal),
+  [2, 12, 22, 23, 24, 32],
+  "numeric searches must show the exact number first, followed by naturally ascending containing numbers"
+);
+assert.deepEqual(
+  filterHomeworkResources(numericFixture, "sentence-structure", "1").items.map((resource) => resource.ordinal),
+  [1, 11, 12, 13, 111],
+  "numeric ordering must not fall back to alphabetical title order"
+);
+assert.deepEqual(
+  filterHomeworkResources(numericFixture, "sentence-structure", "２").items.map((resource) => resource.ordinal),
+  [2, 12, 22, 23, 24, 32],
+  "full-width numeric searches must use the same ordering"
+);
+const sentenceThreeResults = filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "sentence-structure", "3");
+assert.equal(sentenceThreeResults.items[0]?.id, "sentence:ss3", "Sentence Structure #3 must rank before #13, #23 and incidental matches");
+assert.match(sentenceThreeResults.items[0]?.label || "", /^#3\b/, "Sentence Structure numbers must be visible in picker labels");
+assert.match(sentenceThreeResults.items[0]?.detail || "", /Sentence Structure #3\b/, "Sentence Structure numbers must be visible in picker details");
+assert.deepEqual(
+  sentenceThreeResults.items.slice(0, 5).map((resource) => resource.ordinal),
+  [3, 13, 23, 30, 31],
+  "Sentence Structure number matches must remain in natural numeric order"
+);
+
+const flashNumericSubset = [
+  "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2",
+  "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q12",
+  "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q20"
+].map((id) => HOMEWORK_RESOURCE_CATALOG.find((resource) => resource.id === id));
+assert.ok(flashNumericSubset.every(Boolean), "real Flashcard Q2/Q12/Q20 fixtures must stay indexed");
+assert.deepEqual(
+  filterHomeworkResources(flashNumericSubset, "flashcards", "2").items.map((resource) => resource.ordinal),
+  [2, 12, 20],
+  "real Flashcard question numbers must use natural numeric ordering"
+);
+
+const writingNumericSubset = [2, 12, 20].map((ordinal) => HOMEWORK_RESOURCE_CATALOG.find(
+  (resource) => resource.id === `fill:model-essay-${ordinal}-ielts-advantage-disadvantage`
+));
+assert.ok(writingNumericSubset.every(Boolean), "real Model Essay 2/12/20 fixtures must stay indexed");
+assert.deepEqual(
+  filterHomeworkResources(writingNumericSubset, "fill-blanks", "2").items.map((resource) => resource.ordinal),
+  [2, 12, 20],
+  "real writing exercise numbers must use natural numeric ordering"
+);
+
+const speakingNumericSubset = [
+  "speaking:ielts-part-2-book-1-exercise-02",
+  "speaking:ielts-part-2-book-1-exercise-03"
+].map((id) => HOMEWORK_RESOURCE_CATALOG.find((resource) => resource.id === id));
+assert.ok(speakingNumericSubset.every(Boolean), "real Speaking Exercise 2/3 fixtures must stay indexed");
+assert.deepEqual(
+  filterHomeworkResources(speakingNumericSubset, "speaking", "2").items.map((resource) => resource.ordinal),
+  [2, 3],
+  "Speaking Exercise 2 must rank before an incidental Part 2 match"
+);
+
 const flashResources = byType.flashcards || [];
 const fittingFlashResources = [];
 let firstOversizedFlashMessage = "";

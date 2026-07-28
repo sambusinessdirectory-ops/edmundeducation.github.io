@@ -32,6 +32,17 @@ jobs:
       - name: Refresh homework resource catalog
         run: node tools/generate-homework-resource-catalog.mjs
 
+      - name: Validate homework resource catalog and numeric search
+        run: node tools/test-schedule-homework-links.mjs
+
+      - name: Validate Schedule System and Mass Edit clipboard
+        run: |
+          node tools/test-schedule-clipboard.mjs
+          node tools/test-schedule-system.mjs
+
+      - name: Validate PWA, mobile icons, and brand metadata
+        run: node tools/test-pwa-and-brand-metadata.mjs
+
       - name: Prepare site files
         run: |
           mkdir _site
@@ -46,6 +57,16 @@ jobs:
             --exclude='assets/speaking-system/audio/edmund-neural/part1/' \
             --exclude='assets/speaking-system/audio/edmund-neural/part3/' \
             ./ _site/
+
+      - name: Stamp PWA release
+        run: |
+          grep -Fq '__EDMUND_RELEASE__' _site/service-worker.js
+          sed -i "s/__EDMUND_RELEASE__/${GITHUB_SHA}/g" _site/service-worker.js
+          grep -Fq "${GITHUB_SHA}" _site/service-worker.js
+          if grep -Fq '__EDMUND_RELEASE__' _site/service-worker.js; then
+            echo 'PWA release placeholder was not fully stamped.' >&2
+            exit 1
+          fi
 
       - name: Show Pages artifact size
         run: |
