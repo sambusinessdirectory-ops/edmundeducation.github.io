@@ -50,7 +50,7 @@ declare
   v_key_count integer;
   v_has_correction_state boolean;
 begin
-  if p_lesson_id <> 'idiom-01'
+  if p_lesson_id !~ '^idiom-(0[1-9]|1[0-9]|2[0-5])$'
     or p_result is null
     or jsonb_typeof(p_result) <> 'object'
     or octet_length(p_result::text) > 98304
@@ -58,7 +58,7 @@ begin
     return false;
   end if;
 
-  v_question_pattern := '^idiom-01-q(0[1-9]|[1-4][0-9]|50)$';
+  v_question_pattern := '^' || p_lesson_id || '-q(0[1-9]|[1-4][0-9]|50)$';
   select count(*) into v_key_count from jsonb_object_keys(p_result);
   v_has_correction_state := p_result ? 'correctionMode'
     or p_result ? 'correctionIds'
@@ -239,8 +239,8 @@ declare
 begin
   if p_bookmarks is null
     or jsonb_typeof(p_bookmarks) <> 'array'
-    or jsonb_array_length(p_bookmarks) > 51
-    or octet_length(p_bookmarks::text) > 65536
+    or jsonb_array_length(p_bookmarks) > 1275
+    or octet_length(p_bookmarks::text) > 262144
   then
     return false;
   end if;
@@ -257,11 +257,13 @@ begin
         where key_name not in ('lessonId', 'questionId', 'includeAnswer')
       )
       or jsonb_typeof(v_item -> 'lessonId') <> 'string'
-      or coalesce(v_item ->> 'lessonId', '') <> 'idiom-01'
+      or coalesce(v_item ->> 'lessonId', '') !~ '^idiom-(0[1-9]|1[0-9]|2[0-5])$'
       or jsonb_typeof(v_item -> 'questionId') <> 'string'
       or (
         coalesce(v_item ->> 'questionId', '') <> '__section__'
-        and coalesce(v_item ->> 'questionId', '') !~ '^idiom-01-q(0[1-9]|[1-4][0-9]|50)$'
+        and coalesce(v_item ->> 'questionId', '') !~ (
+          '^' || coalesce(v_item ->> 'lessonId', '') || '-q(0[1-9]|[1-4][0-9]|50)$'
+        )
       )
       or jsonb_typeof(v_item -> 'includeAnswer') <> 'boolean'
       or (
@@ -333,7 +335,7 @@ create table if not exists public.idiom_system_attempts (
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   constraint idiom_system_attempts_lesson_id_check
-    check (lesson_id = 'idiom-01'),
+    check (lesson_id ~ '^idiom-(0[1-9]|1[0-9]|2[0-5])$'),
   check (lesson_version = '1'),
   check (status in ('in_progress', 'completed')),
   check (round_number between 1 and 1000),
@@ -368,11 +370,11 @@ create table if not exists public.idiom_system_bookmarks (
   updated_at timestamptz not null default now(),
   primary key (student_id, lesson_id, question_id),
   constraint idiom_system_bookmarks_lesson_id_check
-    check (lesson_id = 'idiom-01'),
+    check (lesson_id ~ '^idiom-(0[1-9]|1[0-9]|2[0-5])$'),
   constraint idiom_system_bookmarks_question_id_check
     check (
       (question_id = '__section__' and include_answer = false)
-      or question_id ~ '^idiom-01-q(0[1-9]|[1-4][0-9]|50)$'
+      or question_id ~ ('^' || lesson_id || '-q(0[1-9]|[1-4][0-9]|50)$')
     )
 );
 
@@ -384,13 +386,25 @@ create table if not exists public.idiom_system_bookmarks (
 alter table public.idiom_system_bookmarks
   drop constraint if exists idiom_system_bookmarks_check;
 alter table public.idiom_system_bookmarks
+  drop constraint if exists idiom_system_bookmarks_lesson_id_check;
+alter table public.idiom_system_bookmarks
+  add constraint idiom_system_bookmarks_lesson_id_check
+  check (lesson_id ~ '^idiom-(0[1-9]|1[0-9]|2[0-5])$');
+alter table public.idiom_system_bookmarks
   drop constraint if exists idiom_system_bookmarks_question_id_check;
 alter table public.idiom_system_bookmarks
   add constraint idiom_system_bookmarks_question_id_check
   check (
     (question_id = '__section__' and include_answer = false)
-    or question_id ~ '^idiom-01-q(0[1-9]|[1-4][0-9]|50)$'
+    or question_id ~ ('^' || lesson_id || '-q(0[1-9]|[1-4][0-9]|50)$')
   );
+
+-- Expand existing one-lesson installations without dropping stored attempts.
+alter table public.idiom_system_attempts
+  drop constraint if exists idiom_system_attempts_lesson_id_check;
+alter table public.idiom_system_attempts
+  add constraint idiom_system_attempts_lesson_id_check
+  check (lesson_id ~ '^idiom-(0[1-9]|1[0-9]|2[0-5])$');
 
 create index if not exists idiom_system_bookmarks_student_created_idx
   on public.idiom_system_bookmarks (student_id, created_at desc, lesson_id, question_id);
@@ -678,7 +692,7 @@ begin
   end if;
 
   if p_id is null
-    or p_lesson_id <> 'idiom-01'
+    or p_lesson_id !~ '^idiom-(0[1-9]|1[0-9]|2[0-5])$'
     or p_lesson_version <> '1'
     or p_status not in ('in_progress', 'completed')
     or p_round_number not between 1 and 1000
@@ -1039,7 +1053,7 @@ security definer
 set search_path = ''
 as $$
 begin
-  if p_offset not between 0 and 51
+  if p_offset not between 0 and 1275
     or p_limit not between 1 and 100
   then
     raise exception 'Invalid bookmark page' using errcode = '22023';
@@ -1224,7 +1238,7 @@ begin
   if public._idiom_system_admin_id(p_admin_token) is null then
     return;
   end if;
-  if p_offset not between 0 and 51
+  if p_offset not between 0 and 1275
     or p_limit not between 1 and 100
   then
     raise exception 'Invalid bookmark page' using errcode = '22023';

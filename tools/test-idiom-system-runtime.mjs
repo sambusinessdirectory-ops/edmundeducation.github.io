@@ -346,6 +346,7 @@ window.__IDIOM_RUNTIME_TEST__ = {
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
   openLesson, setLessonPage, renderLessonPage, renderLessonChoices, renderExercisePage,
   renderFormulaPage, renderBenefitsPage, renderRulesPage,
+  questionActivityRows, buildQuestionProgressSeries,
   updateLessonStepper, currentProgressQuestionId, focusExerciseQuestion,
   readExerciseDrafts, syncExerciseButtons, wrongQuestionIds, correctionQuestions,
   submissionQuestions, submitExercise, startCorrectionRound, exitCorrectionRound,
@@ -389,6 +390,8 @@ test("all eight pages render and a direct exercise jump marks only visited steps
 
   sut.setLessonPage(8);
   assert.match(sut.elements.lessonContent.innerHTML, /PAGE 8 · TYPE THE WHOLE SENTENCE/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(lesson.instructions.zh));
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(lesson.instructions.en));
   assert.deepEqual(Array.from(sut.state.visitedLessonPages).sort((a, b) => a - b), [1, 8]);
   assert.ok(steps[0].classList.contains("is-complete"));
   assert.equal(steps[7].getAttribute("aria-current"), "step");
@@ -398,12 +401,12 @@ test("all eight pages render and a direct exercise jump marks only visited steps
 
   const pageMarkers = new Map([
     [1, "CORE MEANING + FORMULA"],
-    [2, "INFORMAL TO NEUTRAL"],
+    [2, "REGISTER + TONE"],
     [3, "WHAT STAYS + WHAT CHANGES"],
-    [4, "EIGHT USEFUL FORMULAS"],
+    [4, `${lesson.specificForms.length} USEFUL FORMULAS`],
     [5, "WHY THIS IDIOM HELPS"],
-    [6, "THE FIRST PUSH"],
-    [7, "TWELVE IMPORTANT REMINDERS"],
+    [6, "HISTORY + ORIGIN"],
+    [7, `${lesson.rules.length} IMPORTANT REMINDERS`],
     [8, "TYPE THE WHOLE SENTENCE"]
   ]);
   for (const [page, marker] of pageMarkers) {
@@ -780,6 +783,65 @@ test("a hidden-page persistence cycle never restarts the exercise clock", async 
 
   assert.equal(sut.state.exerciseClockStartedAt, 0);
   assert.ok(sut.state.exercise.durationMs >= 0);
+});
+
+test("question progress counts every lesson question once across retries and later corrections", () => {
+  const { sut } = createFrontendHarness();
+  const [firstQuestion, secondQuestion] = lesson.questions;
+  sut.state.progressRange = "all";
+  sut.state.attempts = [
+    attemptSeed({
+      id: "33333333-3333-4333-8333-333333333333",
+      result: {
+        rounds: [
+          {
+            round: 1,
+            submittedAt: "2026-07-27T01:00:00.000Z",
+            checkedIds: [firstQuestion.id, secondQuestion.id],
+            correctIds: [],
+            incorrectIds: [firstQuestion.id, secondQuestion.id]
+          },
+          {
+            round: 2,
+            submittedAt: "2026-07-27T02:00:00.000Z",
+            checkedIds: [firstQuestion.id],
+            correctIds: [],
+            incorrectIds: [firstQuestion.id]
+          },
+          {
+            round: 3,
+            submittedAt: "2026-07-28T03:00:00.000Z",
+            checkedIds: [firstQuestion.id, secondQuestion.id],
+            correctIds: [firstQuestion.id, secondQuestion.id],
+            incorrectIds: []
+          }
+        ]
+      }
+    }),
+    attemptSeed({
+      id: "44444444-4444-4444-8444-444444444444",
+      result: {
+        rounds: [{
+          round: 1,
+          submittedAt: "2026-07-29T04:00:00.000Z",
+          checkedIds: [firstQuestion.id],
+          correctIds: [firstQuestion.id],
+          incorrectIds: []
+        }]
+      }
+    })
+  ];
+
+  const rows = sut.questionActivityRows();
+  assert.equal(rows.length, 2, "six submissions for two questions must count as two questions");
+  assert.deepEqual(Array.from(rows, ({ questionId }) => questionId), [firstQuestion.id, secondQuestion.id]);
+  assert.ok(rows.every(({ status }) => status === "correct"), "later corrections should update the unique question outcome");
+  assert.ok(rows.every(({ correctedAt }) => Number.isFinite(correctedAt)), "corrected questions should retain correction metadata");
+
+  const series = sut.buildQuestionProgressSeries("all");
+  assert.equal(series.allTotal, 2);
+  assert.equal(series.periodTotal, 2);
+  assert.equal(series.points.reduce((total, point) => total + point.total, 0), 2);
 });
 
 test("the collapsed progress panel has exactly the two requested summary metrics", () => {

@@ -6,7 +6,7 @@ const SESSION_KEY = "edmund-idiom-system-session-v1";
 const PROGRESS_PANEL_PREFERENCE_KEY = "edmund-idiom-system-progress-panel-v1";
 const CUMULATIVE_PROGRESS_PREFERENCE_KEY = "edmund-idiom-system-cumulative-progress-v1";
 const SECTION_BOOKMARK_ID = "__section__";
-const MAX_BOOKMARKS = 6000;
+const MAX_BOOKMARKS = 1275;
 const LESSON_PAGES = 8;
 const EXERCISE_PAGE = 8;
 const ATTEMPT_PAGE_SIZE = 100;
@@ -672,10 +672,13 @@ function openRequestedHomeworkLesson() {
 function renderLessonChoices() {
   if (elements.lessonCount) elements.lessonCount.textContent = String(lessonList().length);
   const cards = lessonList().map((lesson, index) => {
+    const totalQuestions = Array.isArray(lesson.questions) ? lesson.questions.length : 0;
     const complete = state.attempts.some((attempt) => (
       attempt.lessonId === lesson.id
       && attempt.status === "completed"
-      && attempt.correctCount >= Math.min(50, attempt.totalCount || 50)
+      && totalQuestions > 0
+      && attempt.totalCount === totalQuestions
+      && attempt.correctCount >= totalQuestions
     ));
     const bookmarked = isSectionBookmarked(lesson.id);
     return `
@@ -683,7 +686,7 @@ function renderLessonChoices() {
         <button class="lesson-choice ${complete ? "is-complete" : ""}" type="button" data-open-lesson="${escapeHtml(lesson.id)}" data-number="${index + 1}" data-tone="${complete ? "gold" : index % 2 ? "violet" : "blue"}">
           ${lesson.image ? `<img class="lesson-choice-illustration" src="${escapeHtml(lesson.image)}" alt="" width="1535" height="1024" loading="lazy" decoding="async">` : ""}
           <h2>${escapeHtml(lessonTitle(lesson))}<span>${escapeHtml(lessonEnglishTitle(lesson))}</span></h2>
-          ${complete ? '<span class="lesson-choice-complete">✓ 50 / 50 題已完成</span>' : ""}
+          ${complete ? `<span class="lesson-choice-complete">✓ ${totalQuestions} / ${totalQuestions} 題已完成</span>` : ""}
         </button>
         <button class="lesson-section-bookmark" type="button" data-toggle-section-bookmark="${escapeHtml(lesson.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除慣用語書簽" : "收藏整個慣用語"}">${bookmarked ? "★" : "☆"}</button>
       </article>
@@ -713,7 +716,7 @@ function questionActivityRows(attempts = state.attempts) {
       if (!Number.isFinite(time)) continue;
       const correctIds = new Set(Array.isArray(round.correctIds) ? round.correctIds.map(String) : []);
       const incorrectIds = new Set(Array.isArray(round.incorrectIds) ? round.incorrectIds.map(String) : []);
-      for (const rawQuestionId of Array.isArray(round.checkedIds) ? round.checkedIds : []) {
+      for (const rawQuestionId of new Set(Array.isArray(round.checkedIds) ? round.checkedIds : [])) {
         const questionId = String(rawQuestionId || "");
         const question = getQuestion(attempt.lessonId, questionId);
         if (!question) continue;
@@ -747,7 +750,23 @@ function questionActivityRows(attempts = state.attempts) {
       }
     }
   }
-  return rows.sort((a, b) => a.time - b.time || a.lessonId.localeCompare(b.lessonId) || a.questionId.localeCompare(b.questionId));
+  const ordered = rows.sort((a, b) => a.time - b.time || a.lessonId.localeCompare(b.lessonId) || a.questionId.localeCompare(b.questionId));
+  const unique = new Map();
+  for (const row of ordered) {
+    const key = `${row.lessonId}\u0000${row.questionId}`;
+    const first = unique.get(key);
+    if (!first) {
+      unique.set(key, { ...row });
+      continue;
+    }
+    if (row.status === "correct" && first.status !== "correct") {
+      first.status = "correct";
+      first.round = row.round;
+      first.attemptId = row.attemptId;
+      first.correctedAt = row.time;
+    }
+  }
+  return [...unique.values()];
 }
 
 function progressRangeStart(rangeKey, rows) {
@@ -902,10 +921,11 @@ function renderProgressDayPanel(activity = questionActivityRows()) {
   elements.progressDayList.innerHTML = rows.length ? rows.map((row) => {
     const lesson = getLesson(row.lessonId);
     const question = getQuestion(row.lessonId, row.questionId);
+    const outcome = row.correctedAt ? "已改正" : row.status === "correct" ? "答對" : row.status === "wrong" ? "待改正" : "已提交";
     return `<div class="sentence-progress-day-row">
       <strong>${escapeHtml(lessonTitle(lesson))} · Question ${escapeHtml(question?.number || "")}</strong>
       <span>${escapeHtml(question?.prompt || question?.english || "")}</span>
-      <em class="${row.status === "correct" ? "is-correct" : ""}">${row.status === "correct" ? "答對" : row.status === "wrong" ? "待改正" : "已提交"} · 第 ${escapeHtml(row.round)} 輪</em>
+      <em class="${row.status === "correct" ? "is-correct" : ""}">${outcome} · 第 ${escapeHtml(row.round)} 輪</em>
     </div>`;
   }).join("") : '<p class="empty-state">這一天暫時未有完成題目。</p>';
 }
@@ -1233,21 +1253,59 @@ function bilingualListHtml(chineseItems, englishItems) {
   }).join("")}</ul>`;
 }
 
-function relevantExampleHtml(value, explicitHighlight = "") {
+const highlightCandidateCache = new WeakMap();
+
+function lessonHighlightCandidates(lesson = getLesson()) {
+  if (!lesson || typeof lesson !== "object") return [];
+  const cached = highlightCandidateCache.get(lesson);
+  if (cached) return cached;
+  const candidates = new Set();
+  const visit = (value) => {
+    if (Array.isArray(value)) {
+      value.forEach(visit);
+      return;
+    }
+    if (!value || typeof value !== "object") return;
+    for (const [key, item] of Object.entries(value)) {
+      if (key === "highlight" && typeof item === "string" && item.trim()) candidates.add(item.trim());
+      else if (key !== "questions") visit(item);
+    }
+  };
+  visit(lesson);
+  (lesson.questions || []).forEach((question) => {
+    if (typeof question?.highlight === "string" && question.highlight.trim()) {
+      candidates.add(question.highlight.trim());
+    }
+  });
+  const result = [...candidates].sort((left, right) => right.length - left.length);
+  highlightCandidateCache.set(lesson, result);
+  return result;
+}
+
+function relevantExampleHtml(value, explicitHighlight = "", lesson = getLesson()) {
   const full = String(value || "");
   if (explicitHighlight) return highlightedAnswerHtml(full, explicitHighlight);
   if (/^\s*Literal:/i.test(full)) return escapeHtml(full);
-  const pattern = /\b(?:start(?:s|ed|ing)?|get(?:s|ting|got)?|set(?:s|ting)?|keep(?:s|ing)?|kept)\s+the\s+ball\s+rolling\b/gi;
-  const matches = Array.from(full.matchAll(pattern));
-  if (!matches.length) return escapeHtml(full);
+  const lower = full.toLocaleLowerCase();
+  const candidates = lessonHighlightCandidates(lesson);
+  if (!candidates.length) return escapeHtml(full);
   let cursor = 0;
   let html = "";
-  matches.forEach((match) => {
-    const index = Number(match.index || 0);
+  while (cursor < full.length) {
+    let selected = "";
+    let index = -1;
+    for (const candidate of candidates) {
+      const found = lower.indexOf(candidate.toLocaleLowerCase(), cursor);
+      if (found >= 0 && (index < 0 || found < index || (found === index && candidate.length > selected.length))) {
+        index = found;
+        selected = candidate;
+      }
+    }
+    if (index < 0) break;
     html += escapeHtml(full.slice(cursor, index));
-    html += `<span class="target-highlight">${escapeHtml(match[0])}</span>`;
-    cursor = index + match[0].length;
-  });
+    html += `<span class="target-highlight">${escapeHtml(full.slice(index, index + selected.length))}</span>`;
+    cursor = index + selected.length;
+  }
   return `${html}${escapeHtml(full.slice(cursor))}`;
 }
 
@@ -1313,7 +1371,7 @@ function renderRegisterPage(lesson) {
   const contextsEn = Array.isArray(register.contextsEn) ? register.contextsEn : [];
   const contextsZh = Array.isArray(register.contextsZh) ? register.contextsZh : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(2, "語域及語氣", "Register and Tone", "INFORMAL TO NEUTRAL", "了解這個慣用語最自然的場合，以及何時應改用較正式的字詞。")}
+    ${infoPageHeader(2, "語域及語氣", "Register and Tone", "REGISTER + TONE", "了解這個慣用語最自然的場合，以及何時應改用較正式的字詞。")}
     <section class="lesson-prose-grid">
       <article class="lesson-prose-card is-wide">
         <h3>${bilingualHeadingHtml(register.labelZh || "非正式至中性", register.labelEn || "Informal to Neutral")}</h3>
@@ -1336,11 +1394,11 @@ function renderFixedVariablePage(lesson) {
   const parts = lesson.fixedVariable || {};
   const forms = Array.isArray(parts.forms) ? parts.forms : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(3, "固定部分及可變部分", "Fixed and Variable Parts", "WHAT STAYS + WHAT CHANGES", "固定 the ball rolling 的字序，並按主語、時態或情態動詞改變 start。")}
+    ${infoPageHeader(3, "固定部分及可變部分", "Fixed and Variable Parts", "WHAT STAYS + WHAT CHANGES", "分辨必須保留的固定字詞，以及可按主語、時態或情境改變的部分。")}
     <section class="lesson-prose-grid">
       <article class="lesson-prose-card">
         <h3>固定部分 <small>Fixed Part</small></h3>
-        <div class="formula-display"><p>${escapeHtml(parts.fixed || "the ball rolling")}</p></div>
+        <div class="formula-display"><p>${escapeHtml(parts.fixed || "—")}</p></div>
         ${bilingualCopyHtml(parts.fixedZh, parts.fixedEn)}
       </article>
       <article class="lesson-prose-card">
@@ -1350,7 +1408,7 @@ function renderFixedVariablePage(lesson) {
     </section>
     <table class="form-table">
       <thead><tr><th>形式<small>Form</small></th><th>例句<small>Example</small></th></tr></thead>
-      <tbody>${forms.map((row) => `<tr><td>${escapeHtml(row.form)}</td><td>${relevantExampleHtml(row.example)}</td></tr>`).join("")}</tbody>
+      <tbody>${forms.map((row) => `<tr><td>${escapeHtml(row.form)}</td><td>${relevantExampleHtml(row.example, row.highlight)}</td></tr>`).join("")}</tbody>
     </table>
     ${navHtml(3)}
   </article>`;
@@ -1359,7 +1417,7 @@ function renderFixedVariablePage(lesson) {
 function renderSpecificFormsPage(lesson) {
   const forms = Array.isArray(lesson.specificForms) ? lesson.specificForms : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(4, "所有特定句式", "Formulas and All Specific Forms", "EIGHT USEFUL FORMULAS", "由基本形式到 by、with、on、情態動詞及句首短語，逐一掌握八個常用句式。")}
+    ${infoPageHeader(4, "所有特定句式", "Formulas and All Specific Forms", `${forms.length || "ALL"} USEFUL FORMULAS`, "由基本形式開始，逐一掌握這個慣用語的常用句式及自然用法。")}
     <div class="specific-form-list">${forms.map((form, index) => `
       <article class="specific-form-card">
         <header>
@@ -1368,8 +1426,8 @@ function renderSpecificFormsPage(lesson) {
         </header>
         <code>${escapeHtml(form.formula || "")}</code>
         ${bilingualCopyHtml(form.descriptionZh, form.descriptionEn)}
-        ${(form.examples || []).map((example) => `<div class="example-block"><strong>例句 · EXAMPLE</strong><p>${relevantExampleHtml(example.en || "")}</p><p>${escapeHtml(example.zh || "")}</p></div>`).join("")}
-        ${(form.notes || []).map((note) => `<div class="origin-memory">${bilingualLearningNoteHtml(note.zh, note.en)}</div>`).join("")}
+        ${(form.examples || []).map((example) => `<div class="example-block"><strong>例句 · EXAMPLE</strong><p>${relevantExampleHtml(example.en || "", example.highlight)}</p><p>${escapeHtml(example.zh || "")}</p></div>`).join("")}
+        ${(form.notes || []).map((note) => `<div class="origin-memory">${note.zh ? `<p class="chinese-primary">${escapeHtml(note.zh)}</p>` : ""}${note.en ? `<p class="english-secondary">${relevantExampleHtml(note.en, note.highlight)}</p>` : ""}</div>`).join("")}
       </article>`).join("")}</div>
     ${navHtml(4)}
   </article>`;
@@ -1378,14 +1436,14 @@ function renderSpecificFormsPage(lesson) {
 function renderBenefitsPage(lesson) {
   const benefits = Array.isArray(lesson.benefits) ? lesson.benefits : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(5, "表達好處", "Benefits", "WHY THIS IDIOM HELPS", "理解這個慣用語如何突出第一步、主動性、團隊合作及後續進展。")}
+    ${infoPageHeader(5, "表達好處", "Benefits", "WHY THIS IDIOM HELPS", "理解這個慣用語能帶來的表達效果，並在合適情境中自然運用。")}
     <ol class="benefit-list">
       ${benefits.map((raw, index) => {
         const item = bilingualItem(raw);
         return `<li class="benefit-card"><span>${index + 1}</span><div>
           ${(raw?.titleEn || raw?.titleZh) ? `<h3>${bilingualHeadingHtml(raw.titleZh, raw.titleEn)}</h3>` : ""}
           ${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}
-          ${item.english ? `<p class="english">${relevantExampleHtml(item.english)}</p>` : ""}
+          ${item.english ? `<p class="english">${relevantExampleHtml(item.english, raw?.highlight)}</p>` : ""}
           ${(raw?.examples || []).map((example) => `<div class="examples"><code>${relevantExampleHtml(example.en || example, example.highlight)}</code>${example.zh ? `<span>${escapeHtml(example.zh)}</span>` : ""}</div>`).join("")}
         </div></li>`;
       }).join("")}
@@ -1398,7 +1456,7 @@ function renderOriginPage(lesson) {
   const origin = lesson.origin || {};
   const history = Array.isArray(origin.history) ? origin.history : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(6, "歷史及來源", "History and Origin", "THE FIRST PUSH", "從球的第一下推動，理解這個慣用語如何發展成「踏出第一步」。")}
+    ${infoPageHeader(6, "歷史及來源", "History and Origin", "HISTORY + ORIGIN", "從歷史背景、來源線索及記憶提示，理解這個慣用語的發展。")}
     <section class="lesson-prose-grid">
       <article class="origin-card">
         <h3>來源可信度 <small>Origin Status</small></h3>
@@ -1417,7 +1475,7 @@ function renderOriginPage(lesson) {
 function renderRulesPage(lesson) {
   const rules = Array.isArray(lesson.rules) ? lesson.rules : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(7, "重要規則", "Important Rules", "TWELVE IMPORTANT REMINDERS", "留意固定字序、介詞、時態、邏輯主語、字面意思及自然使用情境。")}
+    ${infoPageHeader(7, "重要規則", "Important Rules", `${rules.length || "KEY"} IMPORTANT REMINDERS`, "留意固定字序、文法變化、搭配、字面意思及自然使用情境。")}
     <ol class="rule-list">
       ${rules.map((raw, index) => {
         const item = bilingualItem(raw);
@@ -1425,7 +1483,7 @@ function renderRulesPage(lesson) {
         return `<li class="rule-card"><span>${index + 1}</span><div>
           ${(raw?.titleEn || raw?.titleZh) ? `<h3>${bilingualHeadingHtml(raw.titleZh, raw.titleEn)}</h3>` : ""}
           ${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}
-          ${item.english ? `<p class="english">${relevantExampleHtml(item.english)}</p>` : ""}
+          ${item.english ? `<p class="english">${relevantExampleHtml(item.english, raw?.highlight)}</p>` : ""}
           ${examples.length ? `<div class="examples">${examples.map((example) => `<code>${relevantExampleHtml(example.en || example, example.highlight)}</code>${example.zh ? `<span>${escapeHtml(example.zh)}</span>` : ""}`).join("")}</div>` : ""}
         </div></li>`;
       }).join("")}
@@ -1752,11 +1810,16 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const bulkVisibilityLabel = allVisibleCorrectCollapsed
     ? "展開所有已完成題目"
     : "隱藏所有已完成題目";
+  const instructionZh = String(lesson.instructions?.zh || "請按照題目要求，以完整英文句子作答。部分提交只會檢查已輸入的題目；答對的題目不會在下一輪重複。");
+  const instructionEn = String(lesson.instructions?.en || "Answer each item with a complete English sentence. Correct questions will not be repeated in the next round.");
+  const illustrationAlt = String(lesson.imageAlt || `${lessonEnglishTitle(lesson)} illustration`);
+  const illustrationCaptionZh = String(lesson.imageCaptionZh || lessonTitle(lesson));
+  const illustrationCaptionEn = String(lesson.imageCaptionEn || lessonEnglishTitle(lesson));
 
   elements.lessonContent.innerHTML = `<section class="exercise-page">
     <header class="exercise-header">
       <div class="exercise-header-top">
-        <div><p class="eyebrow">PAGE 8 · TYPE THE WHOLE SENTENCE</p><h2>慣用語句子改寫練習</h2><p>每題答案必須使用 start the ball rolling。部分提交只會檢查已輸入的題目；答對的題目不會在下一輪重複。</p></div>
+        <div><p class="eyebrow">PAGE 8 · TYPE THE WHOLE SENTENCE</p><h2>慣用語句子改寫練習</h2><p>${escapeHtml(instructionZh)} <small>${escapeHtml(instructionEn)}</small></p></div>
         <span class="round-badge">第 ${escapeHtml(state.exercise.round)} 輪</span>
       </div>
       <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
@@ -1764,8 +1827,8 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     </header>
 
     ${lesson.image ? `<figure class="exercise-idiom-illustration">
-      <img src="${escapeHtml(lesson.image)}" alt="A person giving a huge stone ball its first push" width="1535" height="1024" loading="lazy" decoding="async">
-      <figcaption>Start the ball rolling：第一下推動令球開始滾動；第一個行動令整個過程開始。</figcaption>
+      <img src="${escapeHtml(lesson.image)}" alt="${escapeHtml(illustrationAlt)}" loading="lazy" decoding="async">
+      <figcaption>${escapeHtml(illustrationCaptionZh)}<small>${escapeHtml(illustrationCaptionEn)}</small></figcaption>
     </figure>` : ""}
 
     ${completed ? `<section class="round-summary completion-card">

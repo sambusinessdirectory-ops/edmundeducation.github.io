@@ -1,7 +1,7 @@
 # Edmund Idiom System Worker
 
 This Worker is the private browser-facing boundary for the Idiom System. It
-stores attempts and bookmarks for the single `idiom-01` lesson and provides a
+stores attempts and bookmarks for all 25 Idiom lessons and provides a
 dedicated Idiom System administrator login.
 
 Student authentication is shared with the existing Flashcard, Writing
@@ -27,9 +27,9 @@ bridge is not already installed. Then apply
 The migration creates:
 
 - hash-only administrator accounts and SHA-256-digested, eight-hour sessions;
-- account-isolated attempts for `idiom-01` and `idiom-01-q01` through
-  `idiom-01-q50`;
-- normalized bookmarks for the lesson card plus its 50 questions; and
+- account-isolated attempts for `idiom-01` through `idiom-25`, each with 50
+  protected questions;
+- normalized bookmarks for all 25 lesson cards plus their 1,250 questions; and
 - service-role-only student, attempt, bookmark, and administrator RPCs.
 
 ### 2. Provision the administrator securely
@@ -149,9 +149,10 @@ The exact top-level `PUT` shape is:
 }
 ```
 
-Only content version `1`, lesson `idiom-01`, and question IDs `idiom-01-q01`
-through `idiom-01-q50` are accepted. Claimed correct answers are checked against
-the 50-answer server catalogue transcribed from the PDF answer key. Progress
+Only content version `1`, lessons `idiom-01` through `idiom-25`, and question
+IDs `q01` through `q50` within the matching lesson are accepted. Claimed
+correct answers are checked against the 1,250-answer server catalogue
+transcribed from the PDF answer keys. Progress
 cannot lose previously correct IDs, and completed attempts are immutable, so a
 retry after a lost response is safe. Result JSON is capped at 96 KiB and 250
 round summaries; the database retains at most 1,000 attempts per student.
@@ -164,7 +165,7 @@ round summaries; the database retains at most 1,000 attempts per student.
 `PUT` atomically replaces the student's list. Each item has exactly
 `lessonId`, `questionId`, and boolean `includeAnswer`. The optional lesson-card
 bookmark uses question ID `__section__` and must set `includeAnswer` to `false`.
-The maximum is 51 unique items: one lesson card plus 50 questions. Existing
+The maximum is 1,275 unique items: 25 lesson cards plus 1,250 questions. Existing
 creation timestamps survive updates.
 
 ### Administrator progress view

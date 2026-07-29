@@ -14,36 +14,85 @@ function loadContent() {
   return context.window.EDMUND_IDIOM_SYSTEM_DATA;
 }
 
-test("lesson data contains one complete eight-page lesson and all 50 questions", () => {
+test("lesson data contains 25 complete eight-page lessons and all 1,250 questions", () => {
   const content = loadContent();
-  const lesson = content.lessons[0];
-
   assert.equal(content.version, "1");
-  assert.equal(content.lessonCount, 1);
-  assert.equal(content.questionCount, 50);
-  assert.equal(lesson.id, "idiom-01");
-  assert.equal(lesson.specificForms.length, 8);
-  assert.equal(lesson.benefits.length, 6);
-  assert.equal(lesson.rules.length, 12);
-  assert.equal(lesson.questions.length, 50);
-  assert.equal(new Set(lesson.questions.map(({ id }) => id)).size, 50);
+  assert.equal(content.lessonCount, 25);
+  assert.equal(content.questionCount, 1250);
+  assert.equal(content.lessons.length, 25);
   assert.doesNotMatch(JSON.stringify(content), /\[object Object\]/);
   assert.doesNotMatch(JSON.stringify(content), /\/Users\/|[A-Z]:\\/);
-  assert.equal(
-    lesson.questions.map(({ id }) => id).join(","),
-    Array.from({ length: 50 }, (_, index) => `idiom-01-q${String(index + 1).padStart(2, "0")}`).join(",")
+  assert.doesNotMatch(
+    JSON.stringify(content),
+    /The expression does not simply mean|The Original Image|原來的畫面|Communicative Function|溝通功能/i
   );
 
-  for (const question of lesson.questions) {
-    assert.match(question.answer, /\bstart(?:s|ed|ing)?\b[\s\S]*\bthe ball rolling\b/i);
-    assert.ok(question.answer.toLocaleLowerCase().includes(question.highlight.toLocaleLowerCase()));
-    assert.ok(question.prompt);
-    assert.ok(question.promptZh);
-    assert.ok(question.starter);
-    assert.ok(question.answerZh);
-    assert.ok(question.sourcePage >= 20 && question.sourcePage <= 28);
-    assert.ok(question.answerSourcePage >= 29 && question.answerSourcePage <= 35);
+  const allQuestionIds = new Set();
+  for (let lessonIndex = 0; lessonIndex < content.lessons.length; lessonIndex += 1) {
+    const lessonNumber = lessonIndex + 1;
+    const lessonId = `idiom-${String(lessonNumber).padStart(2, "0")}`;
+    const lesson = content.lessons[lessonIndex];
+    assert.equal(lesson.id, lessonId);
+    assert.equal(lesson.order, lessonNumber);
+    assert.equal(lesson.version, "1");
+    assert.ok(lesson.titleZh);
+    assert.ok(lesson.titleEn);
+    assert.ok(Array.isArray(lesson.formulas) && lesson.formulas.length > 0);
+    assert.ok(Array.isArray(lesson.examples) && lesson.examples.length > 0);
+    assert.ok(lesson.meaning?.zh && lesson.meaning?.en);
+    assert.ok(lesson.register?.summaryZh && lesson.register?.summaryEn);
+    assert.ok(lesson.fixedVariable?.fixed);
+    assert.ok(Array.isArray(lesson.specificForms) && lesson.specificForms.length > 0);
+    assert.ok(Array.isArray(lesson.benefits) && lesson.benefits.length > 0);
+    assert.ok(Array.isArray(lesson.origin?.history) && lesson.origin.history.length > 0);
+    assert.ok(Array.isArray(lesson.rules) && lesson.rules.length > 0);
+    assert.ok(lesson.instructions?.zh && lesson.instructions?.en);
+    assert.ok(Number.isInteger(lesson.source?.pageCount) && lesson.source.pageCount > 0);
+    assert.equal(lesson.questions.length, 50);
+    assert.equal(new Set(lesson.questions.map(({ id }) => id)).size, 50);
+    assert.equal(
+      lesson.questions.map(({ id }) => id).join(","),
+      Array.from({ length: 50 }, (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`).join(",")
+    );
+
+    for (const question of lesson.questions) {
+      assert.ok(!allQuestionIds.has(question.id), `duplicate question ID ${question.id}`);
+      allQuestionIds.add(question.id);
+      assert.ok(question.answer.toLocaleLowerCase().includes(question.highlight.toLocaleLowerCase()));
+      assert.ok(question.prompt);
+      assert.ok(question.promptZh);
+      assert.ok(question.starter);
+      assert.ok(question.answerZh);
+      assert.ok(question.sourcePage >= 1 && question.sourcePage <= lesson.source.pageCount);
+      assert.ok(question.answerSourcePage >= 1 && question.answerSourcePage <= lesson.source.pageCount);
+      assert.ok(lesson.source.answerKeyPdfPages.includes(question.answerSourcePage));
+    }
+
+    if (lessonNumber > 1) {
+      const assertNestedHighlights = (value, label) => {
+        if (Array.isArray(value)) {
+          value.forEach((item, index) => assertNestedHighlights(item, `${label}[${index}]`));
+          return;
+        }
+        if (!value || typeof value !== "object") return;
+        if (typeof value.highlight === "string" && value.highlight) {
+          const englishText = ["en", "english", "answer", "example", "formula"]
+            .map((key) => typeof value[key] === "string" ? value[key] : "")
+            .join(" ")
+            .toLocaleLowerCase();
+          assert.ok(
+            englishText.includes(value.highlight.toLocaleLowerCase()),
+            `${label}.highlight must be an exact substring of its English text`
+          );
+        }
+        for (const [key, item] of Object.entries(value)) {
+          if (key !== "highlight") assertNestedHighlights(item, `${label}.${key}`);
+        }
+      };
+      assertNestedHighlights(lesson, lesson.id);
+    }
   }
+  assert.equal(allQuestionIds.size, 1250);
 });
 
 test("portal exposes the eight-step flow, keeps artwork post-login, and has no START/ROLL login decoration", () => {
@@ -133,8 +182,13 @@ test("homepage and shared switcher both link to the Idiom portal", () => {
   assert.doesNotMatch(idiomCard, /class="idiom-wordmark"/);
   assert.doesNotMatch(idiomCard, /\bSTART\b|\bROLL\b/);
   assert.doesNotMatch(idiomCard, /<img|start-the-ball-rolling\.webp/);
+  assert.match(idiomCard, /class="idiom-book-spine"/);
+  assert.match(idiomCard, /class="idiom-book-stitching"/);
+  assert.match(idiomCard, /class="idiom-book-strap"/);
+  assert.match(idiomCard, /class="idiom-book-medallion"/);
   assert.ok(idiomStyles, "the homepage Idiom card styles must exist");
-  assert.doesNotMatch(idiomStyles, /repeating-linear-gradient/i, "the public Idiom card must not use ruled-paper lines");
+  assert.match(idiomStyles, /linear-gradient\(135deg,\s*#681612/);
+  assert.match(idiomStyles, /\.idiom-book-medallion/);
   assert.doesNotMatch(idiomStyles, /\.idiom-wordmark\b/, "removed wordmark styles must not remain public CSS");
   assert.match(sharedNav, /id:\s*"idioms"/);
   assert.match(sharedNav, /href:\s*"idiom-system\.html"/);
