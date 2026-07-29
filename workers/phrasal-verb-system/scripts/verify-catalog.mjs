@@ -1,14 +1,21 @@
-import { ACCEPTED_ANSWERS } from "../src/catalog.js";
+import { ACCEPTED_ANSWERS, LESSON_QUESTION_COUNTS } from "../src/catalog.js";
 
-const expectedIds = Array.from(
-  { length: 70 },
-  (_, index) => `phrasal-verb-01-q${String(index + 1).padStart(2, "0")}`
+const expectedLessonIds = Array.from(
+  { length: Object.keys(LESSON_QUESTION_COUNTS).length },
+  (_, index) => `phrasal-verb-${String(index + 1).padStart(2, "0")}`
 );
+const expectedIds = expectedLessonIds.flatMap((lessonId) => Array.from(
+  { length: LESSON_QUESTION_COUNTS[lessonId] || 0 },
+  (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
+));
 const actualIds = Object.keys(ACCEPTED_ANSWERS);
 const failures = [];
 
+if (!expectedLessonIds.every((lessonId) => Number.isInteger(LESSON_QUESTION_COUNTS[lessonId]) && LESSON_QUESTION_COUNTS[lessonId] >= 1 && LESSON_QUESTION_COUNTS[lessonId] <= 99)) {
+  failures.push("lesson question-count metadata is incomplete or invalid");
+}
 if (actualIds.length !== expectedIds.length) {
-  failures.push(`expected 70 question entries, found ${actualIds.length}`);
+  failures.push(`expected ${expectedIds.length} question entries, found ${actualIds.length}`);
 }
 
 if (actualIds.length) {
@@ -44,5 +51,5 @@ if (failures.length) {
   for (const failure of failures) console.error(`- ${failure}`);
   process.exitCode = 1;
 } else {
-  console.log("Phrasal Verb answer catalogue verified: 70 protected questions ready.");
+  console.log(`Phrasal Verb answer catalogue verified: ${actualIds.length} protected questions across ${expectedLessonIds.length} lessons ready.`);
 }

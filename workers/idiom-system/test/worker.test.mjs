@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
-import { createHash } from "node:crypto";
 import fs from "node:fs";
 import test from "node:test";
+import vm from "node:vm";
 
 import { ACCEPTED_ANSWERS } from "../src/catalog.js";
 import worker from "../src/index.js";
@@ -10,11 +10,27 @@ const ORIGIN = "https://edmundeducation.github.io";
 const STUDENT_TOKEN = "11111111-1111-4111-8111-111111111111";
 const STUDENT_ID = "22222222-2222-4222-8222-222222222222";
 const ATTEMPT_ID = "33333333-3333-4333-8333-333333333333";
+const lessonDataContext = { window: {} };
+vm.runInNewContext(
+  fs.readFileSync(new URL("../../../idiom-system-data.js", import.meta.url), "utf8"),
+  lessonDataContext,
+  { filename: "idiom-system-data.js" }
+);
+const LESSON_DATA = lessonDataContext.window.EDMUND_IDIOM_SYSTEM_DATA;
+const LESSON_IDS = Array.from(
+  { length: 25 },
+  (_, index) => `idiom-${String(index + 1).padStart(2, "0")}`
+);
 const LESSON_ID = "idiom-01";
 const QUESTION_IDS = Array.from(
   { length: 50 },
   (_, index) => `${LESSON_ID}-q${String(index + 1).padStart(2, "0")}`
 );
+const ALL_QUESTION_IDS = LESSON_IDS.flatMap((lessonId) => Array.from(
+  { length: 50 },
+  (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
+));
+const MAX_BOOKMARKS = 25 * 51;
 
 function environment(overrides = {}) {
   return {
@@ -134,12 +150,16 @@ function installFetch(t, implementation) {
   globalThis.fetch = implementation;
 }
 
-test("the protected answer catalogue contains the 50 PDF answers under canonical IDs", () => {
-  assert.deepEqual(Object.keys(ACCEPTED_ANSWERS), QUESTION_IDS);
+test("the protected answer catalogue contains all 1,250 PDF answers under canonical IDs", () => {
+  assert.deepEqual(Object.keys(ACCEPTED_ANSWERS), ALL_QUESTION_IDS);
+  const publicQuestions = new Map(
+    LESSON_DATA.lessons.flatMap((lesson) => lesson.questions.map((question) => [question.id, question]))
+  );
   for (const [questionId, answers] of Object.entries(ACCEPTED_ANSWERS)) {
-    assert.equal(answers.length, 1, `${questionId} must have one authoritative answer`);
+    assert.ok(answers.length >= 1, `${questionId} must have an authoritative answer`);
     assert.equal(typeof answers[0], "string");
-    assert.ok(answers[0].length > 20);
+    assert.equal(answers[0], publicQuestions.get(questionId)?.answer);
+    assert.ok(answers[0].length > 5);
   }
 
   assert.equal(
@@ -155,13 +175,6 @@ test("the protected answer catalogue contains the 50 PDF answers under canonical
     "A local school finally started the ball rolling on the shared garden by offering a small piece of land and some tools."
   );
 
-  const digestInput = Object.entries(ACCEPTED_ANSWERS)
-    .map(([questionId, answers]) => `${questionId}\u0000${answers.join("\u0000")}`)
-    .join("\n");
-  assert.equal(
-    createHash("sha256").update(digestInput).digest("hex"),
-    "e7cfb7395cb1c91a5a42e55ee83a118b0336d7a1488fac3e33b103a92dc1fb6b"
-  );
 });
 
 test("worker, SQL, and Wrangler contracts are independently Idiom-namespaced", () => {
@@ -174,10 +187,10 @@ test("worker, SQL, and Wrangler contracts are independently Idiom-namespaced", (
     fs.readFileSync(new URL("../wrangler.jsonc", import.meta.url), "utf8")
   );
 
-  assert.match(workerSource, /const LESSON_IDS = new Set\(\["idiom-01"\]\);/);
-  assert.match(workerSource, /\^\(idiom-01\)-q\(\\d\{2\}\)\$/);
-  assert.match(sqlSource, /p_lesson_id <> 'idiom-01'/);
-  assert.match(sqlSource, /\^idiom-01-q\(0\[1-9\]\|\[1-4\]\[0-9\]\|50\)\$/);
+  assert.match(workerSource, /Array\.from\(\{ length: 25 \}/);
+  assert.match(workerSource, /idiom-\(\?:0\[1-9\]\|1\[0-9\]\|2\[0-5\]\)/);
+  assert.match(sqlSource, /\^idiom-\(0\[1-9\]\|1\[0-9\]\|2\[0-5\]\)\$/);
+  assert.match(sqlSource, /1275/);
   assert.match(sqlSource, /\^\\\$2a\\\$12\\\$/);
   assert.doesNotMatch(sqlSource, /\\\$2\[aby\]\\\$12/);
   assert.doesNotMatch(workerSource, /sentence-structure/i);
@@ -192,7 +205,7 @@ test("worker, SQL, and Wrangler contracts are independently Idiom-namespaced", (
   assert.notEqual(limiterIds.ADMIN_LOGIN_RATE_LIMITER, limiterIds.ATTEMPT_WRITE_RATE_LIMITER);
 });
 
-test("health reports the one-lesson bookmark ceiling", async () => {
+test("health reports the 25-lesson bookmark ceiling", async () => {
   const response = await worker.fetch(
     new Request("https://worker.example/v1/health"),
     environment()
@@ -201,7 +214,7 @@ test("health reports the one-lesson bookmark ceiling", async () => {
   assert.deepEqual((await response.json()).limits, {
     maxAttemptBodyBytes: 128 * 1024,
     maxAttemptResultBytes: 96 * 1024,
-    maxBookmarks: 51,
+    maxBookmarks: MAX_BOOKMARKS,
     maxPageSize: 100
   });
 });
@@ -315,15 +328,15 @@ test("British and American spelling variants validate identically", async t => {
   assert.equal(upsertPayload.p_result.questionState[questionId].lastAnswer, american);
 });
 
-test("all 51 possible bookmarks round-trip and a 52nd is rejected", async t => {
-  const bookmarks = [
-    { lessonId: LESSON_ID, questionId: "__section__", includeAnswer: false },
-    ...QUESTION_IDS.map((questionId, index) => ({
-      lessonId: LESSON_ID,
-      questionId,
+test("all 1,275 possible bookmarks round-trip and a 1,276th is rejected", async t => {
+  const bookmarks = LESSON_IDS.flatMap((lessonId) => [
+    { lessonId, questionId: "__section__", includeAnswer: false },
+    ...Array.from({ length: 50 }, (_, index) => ({
+      lessonId,
+      questionId: `${lessonId}-q${String(index + 1).padStart(2, "0")}`,
       includeAnswer: index % 2 === 0
     }))
-  ];
+  ]);
   const rows = bookmarks.map((bookmark, index) => ({
     lesson_id: bookmark.lessonId,
     question_id: bookmark.questionId,
@@ -358,8 +371,11 @@ test("all 51 possible bookmarks round-trip and a 52nd is rejected", async t => {
     body: JSON.stringify({ bookmarks })
   }), environment());
   assert.equal(validResponse.status, 200);
-  assert.equal((await validResponse.json()).bookmarks.length, 51);
-  assert.deepEqual(pageCalls, [[0, 100]]);
+  assert.equal((await validResponse.json()).bookmarks.length, MAX_BOOKMARKS);
+  assert.deepEqual(
+    pageCalls,
+    Array.from({ length: 13 }, (_, index) => [index * 100, 100])
+  );
 
   const invalidResponse = await worker.fetch(new Request("https://worker.example/v1/bookmarks", {
     method: "PUT",
@@ -368,7 +384,11 @@ test("all 51 possible bookmarks round-trip and a 52nd is rejected", async t => {
       Authorization: `Bearer ${STUDENT_TOKEN}`,
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({ bookmarks: [...bookmarks, bookmarks[0]] })
+    body: JSON.stringify({ bookmarks: [...bookmarks, {
+      lessonId: LESSON_ID,
+      questionId: "idiom-02-q01",
+      includeAnswer: true
+    }] })
   }), environment());
   assert.equal(invalidResponse.status, 400);
   assert.equal((await invalidResponse.json()).code, "INVALID_BOOKMARKS");
@@ -453,5 +473,13 @@ test("foreign lesson and out-of-catalog question IDs fail before upsert", async 
   })), environment());
   assert.equal(outOfRangeResponse.status, 400);
   assert.equal((await outOfRangeResponse.json()).code, "INVALID_ATTEMPT");
+
+  const mismatchedResponse = await worker.fetch(attemptRequest(attemptPayload({
+    lessonId: "idiom-02",
+    questionId: "idiom-03-q01",
+    answer: ACCEPTED_ANSWERS["idiom-03-q01"]?.[0] || "Mismatched lesson and question."
+  })), environment());
+  assert.equal(mismatchedResponse.status, 400);
+  assert.equal((await mismatchedResponse.json()).code, "INVALID_ATTEMPT");
   assert.equal(upsertCalls, 0);
 });

@@ -1,0 +1,1177 @@
+{
+  "id": "phrasal-verb-17",
+  "order": 17,
+  "slug": "bubble",
+  "version": "1",
+  "title": "BUBBLE 動詞片語",
+  "titleEn": "Bubble",
+  "titleZh": "BUBBLE 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 16 - Bubble.pdf",
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BUBBLE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BUBBLE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BUBBLE",
+      "highlight": "BUBBLE"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "They were bubbling over with excitement.",
+      "zh": "他們興奮得喜形於色。",
+      "highlight": "bubbling over with"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The song is bubbling under the Top 20.",
+      "zh": "這首歌快將進入二十強，但目前仍在榜外。",
+      "highlight": "bubbling under"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Water bubbled up from the pool.",
+      "zh": "池中的水向上冒出。",
+      "highlight": "bubbled up"
+    }
+  ],
+  "meaning": {
+    "zh": "內心充滿強烈情緒，並明顯流露出來；接近進入榜單或排名，但仍未正式進入；液體、氣體或氣泡由下方向上升至表面。",
+    "en": "Learn and practise the phrasal verbs related to BUBBLE.",
+    "naturalZh": [
+      "內心充滿強烈情緒，並明顯流露出來",
+      "接近進入榜單或排名，但仍未正式進入",
+      "液體、氣體或氣泡由下方向上升至表面"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "bubble over / bubble over with something",
+      "titleZh": "內心充滿強烈情緒，並明顯流露出來",
+      "titleEn": "bubble over / bubble over with something",
+      "descriptionZh": "內心充滿強烈情緒，並明顯流露出來",
+      "descriptionEn": "They were bubbling over with excitement.",
+      "examples": [
+        {
+          "en": "They were bubbling over with excitement.",
+          "zh": "他們興奮得喜形於色。",
+          "highlight": "bubbling over with"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "bubble under / bubble under something",
+      "titleZh": "接近進入榜單或排名，但仍未正式進入",
+      "titleEn": "bubble under / bubble under something",
+      "descriptionZh": "接近進入榜單或排名，但仍未正式進入",
+      "descriptionEn": "The song is bubbling under the Top 20.",
+      "examples": [
+        {
+          "en": "The song is bubbling under the Top 20.",
+          "zh": "這首歌快將進入二十強，但目前仍在榜外。",
+          "highlight": "bubbling under"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "bubble up",
+      "titleZh": "液體、氣體或氣泡由下方向上升至表面",
+      "titleEn": "bubble up",
+      "descriptionZh": "液體、氣體或氣泡由下方向上升至表面",
+      "descriptionEn": "Water bubbled up from the pool.",
+      "examples": [
+        {
+          "en": "Water bubbled up from the pool.",
+          "zh": "池中的水向上冒出。",
+          "highlight": "bubbled up"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 BUBBLE 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to BUBBLE.",
+    "contextsZh": [
+      "內心充滿強烈情緒，並明顯流露出來",
+      "接近進入榜單或排名，但仍未正式進入",
+      "液體、氣體或氣泡由下方向上升至表面"
+    ],
+    "contextsEn": [
+      "bubble over / bubble over with something",
+      "bubble under / bubble under something",
+      "bubble up"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 BUBBLE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BUBBLE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "BUBBLE",
+    "fixedHighlight": "BUBBLE",
+    "fixedZh": "閱讀整句，選出意思相同的 BUBBLE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BUBBLE expression that gives the same meaning.",
+    "correct": "bubble over / bubble over with something",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 留意句子所描述的情況： ● bubble over with excitement = 興奮之情明顯流露出來 ● bubble under the Top 20 = 接近進入二十強 ● water bubbles up = 水冒泡升上表面",
+    "variableEn": "Keep the same people, things, time and meaning. Notice what the sentence describes: ● bubble over with excitement = show a great deal of excitement ● bubble under the Top 20 = be close to entering a ranking ● water bubbles up = rise to the surface in bubbles",
+    "variableItemsZh": [
+      "內心充滿強烈情緒，並明顯流露出來",
+      "接近進入榜單或排名，但仍未正式進入",
+      "液體、氣體或氣泡由下方向上升至表面"
+    ],
+    "variableItemsEn": [
+      "bubble over / bubble over with something",
+      "bubble under / bubble under something",
+      "bubble up"
+    ],
+    "forms": [
+      {
+        "formZh": "內心充滿強烈情緒，並明顯流露出來",
+        "formEn": "bubble over / bubble over with something",
+        "exampleZh": "他們興奮得喜形於色。",
+        "exampleEn": "They were bubbling over with excitement.",
+        "highlight": "bubbling over with"
+      },
+      {
+        "formZh": "接近進入榜單或排名，但仍未正式進入",
+        "formEn": "bubble under / bubble under something",
+        "exampleZh": "這首歌快將進入二十強，但目前仍在榜外。",
+        "exampleEn": "The song is bubbling under the Top 20.",
+        "highlight": "bubbling under"
+      },
+      {
+        "formZh": "液體、氣體或氣泡由下方向上升至表面",
+        "formEn": "bubble up",
+        "exampleZh": "池中的水向上冒出。",
+        "exampleEn": "Water bubbled up from the pool.",
+        "highlight": "bubbled up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "內心充滿強烈情緒，並明顯流露出來",
+      "titleEn": "bubble over / bubble over with something",
+      "formula": "bubble over / bubble over with something",
+      "highlight": "bubble over / bubble over with something",
+      "descriptionZh": "內心充滿強烈情緒，並明顯流露出來",
+      "descriptionEn": "They were bubbling over with excitement.",
+      "examples": [
+        {
+          "en": "They were bubbling over with excitement.",
+          "zh": "他們興奮得喜形於色。",
+          "highlight": "bubbling over with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "接近進入榜單或排名，但仍未正式進入",
+      "titleEn": "bubble under / bubble under something",
+      "formula": "bubble under / bubble under something",
+      "highlight": "bubble under / bubble under something",
+      "descriptionZh": "接近進入榜單或排名，但仍未正式進入",
+      "descriptionEn": "The song is bubbling under the Top 20.",
+      "examples": [
+        {
+          "en": "The song is bubbling under the Top 20.",
+          "zh": "這首歌快將進入二十強，但目前仍在榜外。",
+          "highlight": "bubbling under"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "液體、氣體或氣泡由下方向上升至表面",
+      "titleEn": "bubble up",
+      "formula": "bubble up",
+      "highlight": "bubble up",
+      "descriptionZh": "液體、氣體或氣泡由下方向上升至表面",
+      "descriptionEn": "Water bubbled up from the pool.",
+      "examples": [
+        {
+          "en": "Water bubbled up from the pool.",
+          "zh": "池中的水向上冒出。",
+          "highlight": "bubbled up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達強烈情緒",
+      "titleEn": "Express strong feelings clearly",
+      "zh": "bubble over 可以描述難以掩飾的快樂、興奮、自豪和熱情。",
+      "en": "Bubble over helps you describe happiness, excitement, pride and enthusiasm that are too strong to hide."
+    },
+    {
+      "titleZh": "談論快將進入排名的事物",
+      "titleEn": "Talk about things that may soon enter a ranking",
+      "zh": "bubble under 適合用來談論接近進入流行榜的歌曲、書籍、電影、播客或其他事物。",
+      "en": "Bubble under is useful when discussing songs, books, films, podcasts or other things that are close to entering a popular list."
+    },
+    {
+      "titleZh": "描述液體或氣體向上冒出的情況",
+      "titleEn": "Describe movement in water and other liquids",
+      "zh": "bubble up 可以清楚描寫水、空氣、氣體或泥漿冒向表面的情況。",
+      "en": "Bubble up gives a clear picture of water, air, gas or mud rising towards the surface."
+    },
+    {
+      "titleZh": "理解 BUBBLE 的實際和比喻用法",
+      "titleEn": "Understand BUBBLE in both literal and imaginative English",
+      "zh": "這些表達可見於自然現象、情緒、娛樂排行榜和日常事件的描述。",
+      "en": "These expressions appear in descriptions of nature, feelings, entertainment charts and everyday events."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "內心充滿強烈情緒，並明顯流露出來",
+      "接近進入榜單或排名，但仍未正式進入",
+      "液體、氣體或氣泡由下方向上升至表面"
+    ],
+    "contextsEn": [
+      "bubble over / bubble over with something",
+      "bubble under / bubble under something",
+      "bubble up"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "內心充滿強烈情緒，並明顯流露出來",
+        "titleEn": "bubble over / bubble over with something",
+        "zh": "內心充滿強烈情緒，並明顯流露出來",
+        "en": "They were bubbling over with excitement.",
+        "examples": [
+          {
+            "en": "They were bubbling over with excitement.",
+            "zh": "他們興奮得喜形於色。",
+            "highlight": "bubbling over with"
+          }
+        ]
+      },
+      {
+        "titleZh": "接近進入榜單或排名，但仍未正式進入",
+        "titleEn": "bubble under / bubble under something",
+        "zh": "接近進入榜單或排名，但仍未正式進入",
+        "en": "The song is bubbling under the Top 20.",
+        "examples": [
+          {
+            "en": "The song is bubbling under the Top 20.",
+            "zh": "這首歌快將進入二十強，但目前仍在榜外。",
+            "highlight": "bubbling under"
+          }
+        ]
+      },
+      {
+        "titleZh": "液體、氣體或氣泡由下方向上升至表面",
+        "titleEn": "bubble up",
+        "zh": "液體、氣體或氣泡由下方向上升至表面",
+        "en": "Water bubbled up from the pool.",
+        "examples": [
+          {
+            "en": "Water bubbled up from the pool.",
+            "zh": "池中的水向上冒出。",
+            "highlight": "bubbled up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 BUBBLE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BUBBLE expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 BUBBLE 片語動詞。",
+      "en": "Read the whole sentence and choose the BUBBLE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意句子所描述的情況： ● bubble over with excitement = 興奮之情明顯流露出來 ● bubble under the Top 20 = 接近進入二十強 ● water bubbles up = 水冒泡升上表面",
+      "titleEn": "Notice what the sentence describes: ● bubble over with excitement = show a great deal of excitement ● bubble under the Top 20 = be close to entering a ranking ● water bubbles up = rise to the surface in bubbles",
+      "zh": "留意句子所描述的情況： ● bubble over with excitement = 興奮之情明顯流露出來 ● bubble under the Top 20 = 接近進入二十強 ● water bubbles up = 水冒泡升上表面",
+      "en": "Notice what the sentence describes: ● bubble over with excitement = show a great deal of excitement ● bubble under the Top 20 = be close to entering a ranking ● water bubbles up = rise to the surface in bubbles"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BUBBLE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BUBBLE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BUBBLE 動詞片語句子改寫練習",
+    "titleEn": "BUBBLE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BUBBLE 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BUBBLE. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-17-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "They were so excited after hearing the result that everyone could see it.",
+      "promptZh": "他們聽到結果後非常興奮，所有人都看得出來。",
+      "starter": "They",
+      "answer": "They bubbled over with excitement after hearing the result.",
+      "answerZh": "他們聽到結果後興奮得喜形於色。",
+      "highlight": "bubbled over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "Hot water rose from the ground in bubbles.",
+      "promptZh": "熱水從地下冒泡升上來。",
+      "starter": "Hot",
+      "answer": "Hot water bubbled up from the ground.",
+      "answerZh": "熱水從地下冒泡升上來。",
+      "highlight": "bubbled up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The song is just outside the Top 20 and may enter it soon.",
+      "promptZh": "這首歌目前在二十強之外，但可能很快便會入榜。",
+      "starter": "The",
+      "answer": "The song is bubbling under the Top 20.",
+      "answerZh": "這首歌快將進入二十強，但目前仍在榜外。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Maya was full of joy when her brother came home, and she could not hide it.",
+      "promptZh": "哥哥回家時，瑪雅滿心歡喜，完全掩飾不住。",
+      "starter": "Maya",
+      "answer": "Maya bubbled over with joy when her brother came home.",
+      "answerZh": "哥哥回家時，瑪雅滿心歡喜，喜悅之情自然流露。",
+      "highlight": "bubbled over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Air rose through the water in the fish tank.",
+      "promptZh": "空氣穿過魚缸中的水向上冒出。",
+      "starter": "Air",
+      "answer": "Air bubbled up through the water in the fish tank.",
+      "answerZh": "空氣穿過魚缸中的水冒泡升上來。",
+      "highlight": "bubbled up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Last week, her new single was just below the Top 10 and close to entering it.",
+      "promptZh": "上星期，她的新單曲剛好在十強之外，很接近入榜。",
+      "starter": "Last",
+      "answer": "Last week, her new single was bubbling under the Top 10.",
+      "answerZh": "上星期，她的新單曲快將進入十強，但仍在榜外。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The children could not hide their excitement during the science lesson.",
+      "promptZh": "孩子們在科學課上完全掩飾不住興奮之情。",
+      "starter": "The",
+      "answer": "The children bubbled over during the science lesson.",
+      "answerZh": "孩子們在科學課上興奮得不得了。",
+      "highlight": "bubbled over",
+      "targetForm": "bubble over",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Mud was rising through a crack in the path in small bubbles.",
+      "promptZh": "泥漿正從小路的裂縫中冒泡升上來。",
+      "starter": "Mud",
+      "answer": "Mud was bubbling up through a crack in the path.",
+      "answerZh": "泥漿正從小路的裂縫中冒泡升上來。",
+      "highlight": "bubbling up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Two local tracks are just outside the Top 40 and may enter it soon.",
+      "promptZh": "兩首本地歌曲目前在四十強之外，但可能很快便會入榜。",
+      "starter": "Two",
+      "answer": "Two local tracks are bubbling under the Top 40.",
+      "answerZh": "兩首本地歌曲快將進入四十強，但目前仍在榜外。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I felt so proud while watching my daughter sing that everyone could see it.",
+      "promptZh": "觀看女兒唱歌時，我感到非常自豪，所有人都看得出來。",
+      "starter": "I",
+      "answer": "I bubbled over with pride while watching my daughter sing.",
+      "answerZh": "觀看女兒唱歌時，我自豪得喜形於色。",
+      "highlight": "bubbled over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Small amounts of gas are rising from the bottom of the lake in bubbles.",
+      "promptZh": "少量氣體正從湖底冒泡升上來。",
+      "starter": "Small",
+      "answer": "Small amounts of gas are bubbling up from the bottom of the lake.",
+      "answerZh": "少量氣體正從湖底冒泡升上來。",
+      "highlight": "bubbling up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben is full of ideas for the school fair and cannot stop sharing them.",
+      "promptZh": "賓對學校嘉年華有很多構思，忍不住不停與人分享。",
+      "starter": "Ben",
+      "answer": "Ben is bubbling over with ideas for the school fair.",
+      "answerZh": "賓對學校嘉年華滿腦子都是構思，忍不住與人分享。",
+      "highlight": "bubbling over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿想法或強烈情緒，並自然流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The film is just below the top five on the weekly list and may enter it soon.",
+      "promptZh": "這部電影在每週排行榜上剛好位於五強之外，可能很快便會進入五強。",
+      "starter": "The",
+      "answer": "The film is bubbling under the top five on the weekly list and may enter it soon.",
+      "answerZh": "這部電影快將進入每週排行榜五強。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The soup rose in large bubbles until it touched the lid.",
+      "promptZh": "湯冒出大氣泡並向上升，直至碰到鍋蓋。",
+      "starter": "The",
+      "answer": "The soup bubbled up until it touched the lid.",
+      "answerZh": "湯冒泡升起，直至碰到鍋蓋。",
+      "highlight": "bubbled up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡向上升"
+    },
+    {
+      "id": "phrasal-verb-17-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The team will be extremely excited if they reach the final, and everyone will see it.",
+      "promptZh": "如果球隊進入決賽，他們會非常興奮，所有人都看得出來。",
+      "starter": "The",
+      "answer": "The team will bubble over with excitement if they reach the final.",
+      "answerZh": "如果球隊進入決賽，他們會興奮得喜形於色。",
+      "highlight": "bubble over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "This album has remained just outside the top ten for three weeks.",
+      "promptZh": "這張專輯已連續三個星期停留在十強之外。",
+      "starter": "This",
+      "answer": "This album has been bubbling under the top ten for three weeks.",
+      "answerZh": "這張專輯已連續三個星期接近進入十強。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Water is rising between the stones in small bubbles.",
+      "promptZh": "水正從石頭之間冒泡升上來。",
+      "starter": "Water",
+      "answer": "Water is bubbling up between the stones.",
+      "answerZh": "水正從石頭之間冒泡升上來。",
+      "highlight": "bubbling up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why was Ava so happy this morning that she could not hide it?",
+      "promptZh": "艾娃今早為甚麼如此高興，連情緒也掩飾不住？",
+      "starter": "Why",
+      "answer": "Why was Ava bubbling over with happiness this morning?",
+      "answerZh": "艾娃今早為甚麼高興得喜形於色？",
+      "highlight": "bubbling over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Which new song is just below the Top 20 and likely to enter it?",
+      "promptZh": "哪一首新歌剛好位於二十強之外，而且很可能入榜？",
+      "starter": "Which",
+      "answer": "Which new song is bubbling under the Top 20?",
+      "answerZh": "哪一首新歌快將進入二十強？",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Why is air rising from the pipe in bubbles?",
+      "promptZh": "為甚麼有空氣從管道中冒泡升上來？",
+      "starter": "Why",
+      "answer": "Why is air bubbling up from the pipe?",
+      "answerZh": "為甚麼有空氣從管道中冒泡升上來？",
+      "highlight": "bubbling up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The book is just outside the top ten on the bestseller list and may enter it soon.",
+      "promptZh": "這本書剛好位於暢銷書榜十強之外，可能很快便會入榜。",
+      "starter": "The",
+      "answer": "The book is bubbling under the top ten on the bestseller list.",
+      "answerZh": "這本書快將進入暢銷書榜十強。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Her face clearly showed that she was extremely excited.",
+      "promptZh": "她的表情清楚顯示她非常興奮。",
+      "starter": "Her",
+      "answer": "Her face clearly showed that she was bubbling over with excitement.",
+      "answerZh": "她的表情清楚顯示她興奮得喜形於色。",
+      "highlight": "bubbling over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "When I pressed the bottle, air rose through the water in bubbles.",
+      "promptZh": "我按壓瓶子時，空氣穿過水冒泡升上來。",
+      "starter": "When",
+      "answer": "When I pressed the bottle, air bubbled up through the water.",
+      "answerZh": "我按壓瓶子時，空氣穿過水冒泡升上來。",
+      "highlight": "bubbled up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Their latest track had been just outside the chart before it entered at number 18.",
+      "promptZh": "他們的最新歌曲進入排行榜第十八位前，一直在榜外徘徊。",
+      "starter": "Their",
+      "answer": "Their latest track had been bubbling under before it entered the chart at number 18.",
+      "answerZh": "他們的最新歌曲進入排行榜第十八位前，一直在榜外徘徊。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under",
+      "targetMeaningZh": "接近進入榜單，但尚未正式入榜"
+    },
+    {
+      "id": "phrasal-verb-17-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After opening the letter, Leo was so delighted that he could not hide it.",
+      "promptZh": "打開信件後，里奧欣喜若狂，完全掩飾不住。",
+      "starter": "After",
+      "answer": "After opening the letter, Leo bubbled over with delight.",
+      "answerZh": "打開信件後，里奧欣喜若狂。",
+      "highlight": "bubbled over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Warm water had risen from the spring all winter in small bubbles.",
+      "promptZh": "整個冬天，溫水一直從泉眼冒泡升上來。",
+      "starter": "Warm",
+      "answer": "Warm water had bubbled up from the spring all winter.",
+      "answerZh": "整個冬天，溫水一直從泉眼冒泡升上來。",
+      "highlight": "bubbled up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The young singer is not well known yet, but more people are starting to notice her.",
+      "promptZh": "這位年輕歌手尚未廣為人知，但愈來愈多人開始留意她。",
+      "starter": "The",
+      "answer": "The young singer is still bubbling under, but more people are starting to notice her.",
+      "answerZh": "這位年輕歌手尚未成名，但愈來愈多人開始留意她。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under",
+      "targetMeaningZh": "尚未受到廣泛注意，但可能很快成名"
+    },
+    {
+      "id": "phrasal-verb-17-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We could hear Nina’s great enthusiasm as she described the trip.",
+      "promptZh": "妮娜描述旅程時，我們從她的聲音中聽得出她非常熱情。",
+      "starter": "We",
+      "answer": "We could hear that Nina was bubbling over with enthusiasm as she described the trip.",
+      "answerZh": "妮娜描述旅程時，我們聽得出她熱情洋溢。",
+      "highlight": "bubbling over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿熱情，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Dark mud rose to the surface in thick bubbles when the wheel sank into the ground.",
+      "promptZh": "車輪陷進地面時，深色泥漿形成厚厚的氣泡並升上表面。",
+      "starter": "Dark",
+      "answer": "Dark mud bubbled up when the wheel sank into the ground.",
+      "answerZh": "車輪陷進地面時，深色泥漿冒泡升上表面。",
+      "highlight": "bubbled up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Several new artists are not famous yet but may become popular this year.",
+      "promptZh": "幾位新藝人尚未成名，但今年可能會開始受到歡迎。",
+      "starter": "Several",
+      "answer": "Several new artists are bubbling under this year.",
+      "answerZh": "幾位新藝人今年正逐漸受到注意，可能很快便會走紅。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under",
+      "targetMeaningZh": "尚未成名，但可能很快受到廣泛注意"
+    },
+    {
+      "id": "phrasal-verb-17-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The class had been extremely excited all morning, and it was easy to see.",
+      "promptZh": "全班整個早上都非常興奮，而且很容易看得出來。",
+      "starter": "The",
+      "answer": "The class had been bubbling over with excitement all morning.",
+      "answerZh": "全班整個早上都興奮得喜形於色。",
+      "highlight": "bubbling over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Our podcast is just below the top four on the download chart and may enter it next week.",
+      "promptZh": "我們的播客在下載榜上剛好位於四強之外，下星期可能會進入四強。",
+      "starter": "Our",
+      "answer": "Our podcast is bubbling under the top four on the download chart and may move into it next week.",
+      "answerZh": "我們的播客快將進入下載榜四強，下星期可能會正式進入。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Gas rose through the thick liquid in a steady stream of bubbles.",
+      "promptZh": "氣體形成連續的氣泡，穿過濃稠的液體向上升。",
+      "starter": "Gas",
+      "answer": "Gas bubbled up through the thick liquid in a steady stream.",
+      "answerZh": "氣體形成連續的氣泡，穿過濃稠的液體向上升。",
+      "highlight": "bubbled up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Tom tried to stay calm, but everyone could see how proud he was.",
+      "promptZh": "湯姆嘗試保持冷靜，但所有人都看得出他有多自豪。",
+      "starter": "Tom",
+      "answer": "Tom tried to stay calm, but he was bubbling over with pride.",
+      "answerZh": "湯姆嘗試保持冷靜，但仍自豪得喜形於色。",
+      "highlight": "bubbling over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The podcast is just outside the top ten on the download chart and may enter it soon.",
+      "promptZh": "這個播客目前在下載榜十強之外，但可能很快便會入榜。",
+      "starter": "The",
+      "answer": "The podcast is bubbling under the top ten on the download chart.",
+      "answerZh": "這個播客快將進入下載榜十強。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Water began to rise in bubbles at the edge of the pool.",
+      "promptZh": "水開始在池邊冒泡升上來。",
+      "starter": "Water",
+      "answer": "Water began to bubble up at the edge of the pool.",
+      "answerZh": "水開始在池邊冒泡升上來。",
+      "highlight": "bubble up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The young actors were full of energy before the show, and they showed it clearly.",
+      "promptZh": "年輕演員在演出前充滿活力，而且明顯表現了出來。",
+      "starter": "The",
+      "answer": "The young actors bubbled over with energy before the show.",
+      "answerZh": "年輕演員在演出前活力充沛，精神洋溢。",
+      "highlight": "bubbled over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿活力或強烈情緒，並自然流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Three songs from the album are just below the Top 40 and may enter it soon.",
+      "promptZh": "這張專輯有三首歌剛好位於四十強之外，可能很快便會入榜。",
+      "starter": "Three",
+      "answer": "Three songs from the album are bubbling under the Top 40.",
+      "answerZh": "這張專輯有三首歌快將進入四十強。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Clear water was rising from a hole in the rock in small bubbles.",
+      "promptZh": "清水正從岩石的小洞中冒泡升上來。",
+      "starter": "Clear",
+      "answer": "Clear water was bubbling up from a hole in the rock.",
+      "answerZh": "清水正從岩石的小洞中冒泡升上來。",
+      "highlight": "bubbling up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the surprise was announced, everyone became so excited that they could not hide it.",
+      "promptZh": "驚喜公布時，所有人都興奮得無法掩飾。",
+      "starter": "When",
+      "answer": "When the surprise was announced, everyone bubbled over.",
+      "answerZh": "驚喜公布時，所有人都興奮得無法掩飾。",
+      "highlight": "bubbled over",
+      "targetForm": "bubble over",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The diver moved the pipe. A line of air bubbles then rose to the surface.",
+      "promptZh": "潛水員移動了管道，接着一串氣泡升上水面。",
+      "starter": "The",
+      "answer": "The diver moved the pipe, and air bubbled up to the surface.",
+      "answerZh": "潛水員移動了管道，接着空氣冒泡升上水面。",
+      "highlight": "bubbled up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although she spoke quietly, her great happiness about the news was easy to see.",
+      "promptZh": "雖然她說話很輕聲，但她對這個消息的喜悅清楚可見。",
+      "starter": "Although",
+      "answer": "Although she spoke quietly, she was bubbling over with happiness about the news.",
+      "answerZh": "雖然她說話很輕聲，但她對這個消息的喜悅仍清楚流露出來。",
+      "highlight": "bubbling over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The track has not entered the main list yet, but it is close and may do so soon.",
+      "promptZh": "這首歌尚未進入主要排行榜，但已非常接近，可能很快便會入榜。",
+      "starter": "Although",
+      "answer": "Although the track has not entered the main list yet, it is bubbling under.",
+      "answerZh": "雖然這首歌尚未進入主要排行榜，但它已非常接近入榜。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under",
+      "targetMeaningZh": "接近進入榜單，但尚未正式入榜"
+    },
+    {
+      "id": "phrasal-verb-17-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The hot soup rose in large bubbles so quickly that some went over the side of the pot.",
+      "promptZh": "熱湯迅速冒出大氣泡，部分湯更越過鍋邊流了出去。",
+      "starter": "The",
+      "answer": "The hot soup bubbled up so quickly that some went over the side of the pot.",
+      "answerZh": "熱湯迅速冒泡升起，部分湯更越過鍋邊流了出去。",
+      "highlight": "bubbled up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡向上升"
+    },
+    {
+      "id": "phrasal-verb-17-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The volunteers were full of enthusiasm as they prepared the event, and everyone could see it.",
+      "promptZh": "義工準備活動時充滿熱情，所有人都看得出來。",
+      "starter": "The",
+      "answer": "The volunteers bubbled over with enthusiasm as they prepared the event.",
+      "answerZh": "義工準備活動時熱情洋溢。",
+      "highlight": "bubbled over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿熱情，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "After a month of steady sales, the novel was just outside the top ten and close to entering it.",
+      "promptZh": "經過一個月的穩定銷量，這本小說已接近進入十強，但目前仍在榜外。",
+      "starter": "After",
+      "answer": "After a month of steady sales, the novel was bubbling under the top ten.",
+      "answerZh": "經過一個月的穩定銷量，這本小說已接近進入十強。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under something",
+      "targetMeaningZh": "接近進入某個排名"
+    },
+    {
+      "id": "phrasal-verb-17-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "After the rain, water rose through the soft ground in small bubbles.",
+      "promptZh": "下雨後，水從鬆軟的地面冒泡升上來。",
+      "starter": "After",
+      "answer": "After the rain, water bubbled up through the soft ground.",
+      "answerZh": "下雨後，水從鬆軟的地面冒泡升上來。",
+      "highlight": "bubbled up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "冒泡升上表面"
+    },
+    {
+      "id": "phrasal-verb-17-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "By the time the doors opened, the crowd was so excited that nobody could hide it.",
+      "promptZh": "大門打開時，人群已興奮得沒有人能掩飾自己的情緒。",
+      "starter": "By",
+      "answer": "By the time the doors opened, the crowd was bubbling over with excitement.",
+      "answerZh": "大門打開時，人群已興奮得無法掩飾。",
+      "highlight": "bubbling over with",
+      "targetForm": "bubble over with something",
+      "targetMeaningZh": "充滿強烈情緒，並明顯流露出來"
+    },
+    {
+      "id": "phrasal-verb-17-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The band’s new song stayed just outside the chart for weeks before it finally entered.",
+      "promptZh": "樂隊的新歌在正式入榜前，曾連續多個星期停留在榜外。",
+      "starter": "The",
+      "answer": "The band’s new song had been bubbling under for weeks before it finally entered the chart.",
+      "answerZh": "樂隊的新歌在正式入榜前，曾連續多個星期在榜外徘徊。",
+      "highlight": "bubbling under",
+      "targetForm": "bubble under",
+      "targetMeaningZh": "接近進入榜單，但尚未正式入榜"
+    },
+    {
+      "id": "phrasal-verb-17-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Small pockets of gas continued to rise from the lake bed in bubbles.",
+      "promptZh": "一小團一小團的氣體不斷從湖底冒泡升上來。",
+      "starter": "Small",
+      "answer": "Small pockets of gas kept bubbling up from the lake bed.",
+      "answerZh": "一小團一小團的氣體不斷從湖底冒泡升上來。",
+      "highlight": "bubbling up",
+      "targetForm": "bubble up",
+      "targetMeaningZh": "不斷冒泡升上表面"
+    }
+  ]
+}

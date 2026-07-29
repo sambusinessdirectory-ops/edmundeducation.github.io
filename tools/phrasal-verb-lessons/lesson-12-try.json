@@ -1,0 +1,1651 @@
+{
+  "id": "phrasal-verb-12",
+  "order": 12,
+  "slug": "try",
+  "version": "1",
+  "title": "TRY 動詞片語",
+  "titleEn": "Try",
+  "titleZh": "TRY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 12 - TRY.pdf",
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TRY 有關的片語動詞及相關表達。",
+    "en": "Learn and practise the phrasal verbs and related expressions with TRY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心表達",
+      "labelEn": "Core Expression",
+      "formula": "TRY",
+      "highlight": "TRY"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The line was busy, so I tried back later.",
+      "zh": "電話線很忙，所以我稍後再致電。",
+      "highlight": "tried back"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Are you going to try for that job?",
+      "zh": "你打算爭取那份工作嗎？",
+      "highlight": "try for"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The children sometimes try it on with a new babysitter.",
+      "zh": "孩子們有時會在新保姆面前故意搗蛋，試探她的底線。",
+      "highlight": "try it on with"
+    }
+  ],
+  "meaning": {
+    "zh": "稍後再次致電或聯絡某人；努力爭取某份工作、職位、獎項或目標；故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語；試穿衣物，看看是否合身或好看；參加球隊、樂隊、角色或其他位置的選拔；試用或測試某人或某事物，看看是否合適或有效；選拔；試演；試用活動。",
+    "en": "Learn and practise the phrasal verbs and related expressions with TRY.",
+    "naturalZh": [
+      "稍後再次致電或聯絡某人",
+      "努力爭取某份工作、職位、獎項或目標",
+      "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+      "試穿衣物，看看是否合身或好看",
+      "參加球隊、樂隊、角色或其他位置的選拔",
+      "試用或測試某人或某事物，看看是否合適或有效",
+      "選拔；試演；試用活動"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "try back / try somebody back",
+      "highlight": "try back / try somebody back",
+      "titleZh": "稍後再次致電或聯絡某人",
+      "titleEn": "try back / try somebody back",
+      "descriptionZh": "稍後再次致電或聯絡某人",
+      "descriptionEn": "The line was busy, so I tried back later.",
+      "examples": [
+        {
+          "en": "The line was busy, so I tried back later.",
+          "zh": "電話線很忙，所以我稍後再致電。",
+          "highlight": "tried back"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "try for something",
+      "highlight": "try for something",
+      "titleZh": "努力爭取某份工作、職位、獎項或目標",
+      "titleEn": "try for something",
+      "descriptionZh": "努力爭取某份工作、職位、獎項或目標",
+      "descriptionEn": "Are you going to try for that job?",
+      "examples": [
+        {
+          "en": "Are you going to try for that job?",
+          "zh": "你打算爭取那份工作嗎？",
+          "highlight": "try for"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "try it on with somebody",
+      "highlight": "try it on with somebody",
+      "titleZh": "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+      "titleEn": "try it on with somebody",
+      "descriptionZh": "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+      "descriptionEn": "The children sometimes try it on with a new babysitter.",
+      "examples": [
+        {
+          "en": "The children sometimes try it on with a new babysitter.",
+          "zh": "孩子們有時會在新保姆面前故意搗蛋，試探她的底線。",
+          "highlight": "try it on with"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "try something on",
+      "highlight": "try something on",
+      "titleZh": "試穿衣物，看看是否合身或好看",
+      "titleEn": "try something on",
+      "descriptionZh": "試穿衣物，看看是否合身或好看",
+      "descriptionEn": "Can I try on the blue one?",
+      "examples": [
+        {
+          "en": "Can I try on the blue one?",
+          "zh": "我可以試穿藍色那件嗎？",
+          "highlight": "try on"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "pageGroup": 1,
+      "formula": "try out for something",
+      "highlight": "try out for something",
+      "titleZh": "參加球隊、樂隊、角色或其他位置的選拔",
+      "titleEn": "try out for something",
+      "descriptionZh": "參加球隊、樂隊、角色或其他位置的選拔",
+      "descriptionEn": "Maya tried out for the school band.",
+      "examples": [
+        {
+          "en": "Maya tried out for the school band.",
+          "zh": "瑪雅參加了校樂隊的選拔。",
+          "highlight": "tried out for"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "try somebody/something out / try something out on somebody",
+      "highlight": "try somebody/something out / try something out on somebody",
+      "titleZh": "試用或測試某人或某事物，看看是否合適或有效",
+      "titleEn": "try somebody/something out / try something out on somebody",
+      "descriptionZh": "試用或測試某人或某事物，看看是否合適或有效",
+      "descriptionEn": "The teacher tried the new game out on her class.",
+      "examples": [
+        {
+          "en": "The teacher tried the new game out on her class.",
+          "zh": "老師在班上試用了這款新遊戲。",
+          "highlight": "tried the new game out on"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "number": 7,
+      "pageGroup": 2,
+      "formula": "try-out / try-outs",
+      "highlight": "try-out / try-outs",
+      "titleZh": "選拔；試演；試用活動",
+      "titleEn": "try-out / try-outs",
+      "descriptionZh": "選拔；試演；試用活動",
+      "descriptionEn": "The team is holding try-outs this Thursday.",
+      "examples": [
+        {
+          "en": "The team is holding try-outs this Thursday.",
+          "zh": "球隊會在本星期四舉行選拔。",
+          "highlight": "try-out"
+        }
+      ],
+      "sourcePage": 3
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 TRY 有關的片語動詞及相關表達。",
+    "summaryEn": "Learn and practise the phrasal verbs and related expressions with TRY.",
+    "contextsZh": [
+      "稍後再次致電或聯絡某人",
+      "努力爭取某份工作、職位、獎項或目標",
+      "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+      "試穿衣物，看看是否合身或好看",
+      "參加球隊、樂隊、角色或其他位置的選拔",
+      "試用或測試某人或某事物，看看是否合適或有效",
+      "選拔；試演；試用活動"
+    ],
+    "contextsEn": [
+      "try back / try somebody back",
+      "try for something",
+      "try it on with somebody",
+      "try something on",
+      "try out for something",
+      "try somebody/something out / try something out on somebody",
+      "try-out / try-outs"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 TRY 表達。",
+    "formalEn": "Read the whole sentence and choose the TRY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "TRY",
+    "fixedHighlight": "TRY",
+    "fixedZh": "閱讀整句，選出意思相同的 TRY 表達。",
+    "fixedEn": "Read the whole sentence and choose the TRY expression that gives the same meaning.",
+    "correct": "try back / try somebody back",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 it、him、her 或 them 時，請按照以上例子放在正確位置。 注意以下重要分別： try it on with somebody 表示試探某人的底線。 try something on 表示試穿衣物。 try out for something 表示參加選拔。 try somebody or something out 表示試用或測試某人或某事物。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them, follow these examples: Notice these important differences:",
+    "variableItemsZh": [
+      "稍後再次致電或聯絡某人",
+      "努力爭取某份工作、職位、獎項或目標",
+      "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+      "試穿衣物，看看是否合身或好看",
+      "參加球隊、樂隊、角色或其他位置的選拔",
+      "試用或測試某人或某事物，看看是否合適或有效",
+      "選拔；試演；試用活動"
+    ],
+    "variableItemsEn": [
+      "try back / try somebody back",
+      "try for something",
+      "try it on with somebody",
+      "try something on",
+      "try out for something",
+      "try somebody/something out / try something out on somebody",
+      "try-out / try-outs"
+    ],
+    "forms": [
+      {
+        "formZh": "稍後再次致電或聯絡某人",
+        "formEn": "try back / try somebody back",
+        "exampleZh": "電話線很忙，所以我稍後再致電。",
+        "exampleEn": "The line was busy, so I tried back later.",
+        "highlight": "tried back"
+      },
+      {
+        "formZh": "努力爭取某份工作、職位、獎項或目標",
+        "formEn": "try for something",
+        "exampleZh": "你打算爭取那份工作嗎？",
+        "exampleEn": "Are you going to try for that job?",
+        "highlight": "try for"
+      },
+      {
+        "formZh": "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+        "formEn": "try it on with somebody",
+        "exampleZh": "孩子們有時會在新保姆面前故意搗蛋，試探她的底線。",
+        "exampleEn": "The children sometimes try it on with a new babysitter.",
+        "highlight": "try it on with"
+      },
+      {
+        "formZh": "試穿衣物，看看是否合身或好看",
+        "formEn": "try something on",
+        "exampleZh": "我可以試穿藍色那件嗎？",
+        "exampleEn": "Can I try on the blue one?",
+        "highlight": "try on"
+      },
+      {
+        "formZh": "參加球隊、樂隊、角色或其他位置的選拔",
+        "formEn": "try out for something",
+        "exampleZh": "瑪雅參加了校樂隊的選拔。",
+        "exampleEn": "Maya tried out for the school band.",
+        "highlight": "tried out for"
+      },
+      {
+        "formZh": "試用或測試某人或某事物，看看是否合適或有效",
+        "formEn": "try somebody/something out / try something out on somebody",
+        "exampleZh": "老師在班上試用了這款新遊戲。",
+        "exampleEn": "The teacher tried the new game out on her class.",
+        "highlight": "tried the new game out on"
+      },
+      {
+        "formZh": "選拔；試演；試用活動",
+        "formEn": "try-out / try-outs",
+        "exampleZh": "球隊會在本星期四舉行選拔。",
+        "exampleEn": "The team is holding try-outs this Thursday.",
+        "highlight": "try-out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "稍後再次致電或聯絡某人",
+      "titleEn": "try back / try somebody back",
+      "formula": "try back / try somebody back",
+      "highlight": "try back / try somebody back",
+      "descriptionZh": "稍後再次致電或聯絡某人",
+      "descriptionEn": "The line was busy, so I tried back later.",
+      "examples": [
+        {
+          "en": "The line was busy, so I tried back later.",
+          "zh": "電話線很忙，所以我稍後再致電。",
+          "highlight": "tried back"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "努力爭取某份工作、職位、獎項或目標",
+      "titleEn": "try for something",
+      "formula": "try for something",
+      "highlight": "try for something",
+      "descriptionZh": "努力爭取某份工作、職位、獎項或目標",
+      "descriptionEn": "Are you going to try for that job?",
+      "examples": [
+        {
+          "en": "Are you going to try for that job?",
+          "zh": "你打算爭取那份工作嗎？",
+          "highlight": "try for"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+      "titleEn": "try it on with somebody",
+      "formula": "try it on with somebody",
+      "highlight": "try it on with somebody",
+      "descriptionZh": "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+      "descriptionEn": "The children sometimes try it on with a new babysitter.",
+      "examples": [
+        {
+          "en": "The children sometimes try it on with a new babysitter.",
+          "zh": "孩子們有時會在新保姆面前故意搗蛋，試探她的底線。",
+          "highlight": "try it on with"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "試穿衣物，看看是否合身或好看",
+      "titleEn": "try something on",
+      "formula": "try something on",
+      "highlight": "try something on",
+      "descriptionZh": "試穿衣物，看看是否合身或好看",
+      "descriptionEn": "Can I try on the blue one?",
+      "examples": [
+        {
+          "en": "Can I try on the blue one?",
+          "zh": "我可以試穿藍色那件嗎？",
+          "highlight": "try on"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "titleZh": "參加球隊、樂隊、角色或其他位置的選拔",
+      "titleEn": "try out for something",
+      "formula": "try out for something",
+      "highlight": "try out for something",
+      "descriptionZh": "參加球隊、樂隊、角色或其他位置的選拔",
+      "descriptionEn": "Maya tried out for the school band.",
+      "examples": [
+        {
+          "en": "Maya tried out for the school band.",
+          "zh": "瑪雅參加了校樂隊的選拔。",
+          "highlight": "tried out for"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "titleZh": "試用或測試某人或某事物，看看是否合適或有效",
+      "titleEn": "try somebody/something out / try something out on somebody",
+      "formula": "try somebody/something out / try something out on somebody",
+      "highlight": "try somebody/something out / try something out on somebody",
+      "descriptionZh": "試用或測試某人或某事物，看看是否合適或有效",
+      "descriptionEn": "The teacher tried the new game out on her class.",
+      "examples": [
+        {
+          "en": "The teacher tried the new game out on her class.",
+          "zh": "老師在班上試用了這款新遊戲。",
+          "highlight": "tried the new game out on"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 3
+    },
+    {
+      "number": 7,
+      "titleZh": "選拔；試演；試用活動",
+      "titleEn": "try-out / try-outs",
+      "formula": "try-out / try-outs",
+      "highlight": "try-out / try-outs",
+      "descriptionZh": "選拔；試演；試用活動",
+      "descriptionEn": "The team is holding try-outs this Thursday.",
+      "examples": [
+        {
+          "en": "The team is holding try-outs this Thursday.",
+          "zh": "球隊會在本星期四舉行選拔。",
+          "highlight": "try-out"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 3
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "談論稍後再次聯絡某人",
+      "titleEn": "Talk about making another attempt to contact somebody",
+      "zh": "try back 可以表示稍後再次致電或聯絡某人。",
+      "en": "Try back lets you explain that you will phone or contact somebody again later.",
+      "sourcePage": 3
+    },
+    {
+      "number": 2,
+      "titleZh": "談論機會和目標",
+      "titleEn": "Talk about opportunities and goals",
+      "zh": "try for 可以表示努力爭取工作、職位、獎項或其他目標。",
+      "en": "Try for lets you talk about attempting to get a job, position, prize or other goal.",
+      "sourcePage": 3
+    },
+    {
+      "number": 3,
+      "titleZh": "談論衣物、產品和新構思",
+      "titleEn": "Talk about clothes, products and new ideas",
+      "zh": "你可以 try clothes on 試穿衣物，也可以 try products, games or ideas out，先試用產品、遊戲或構思，再作決定。",
+      "en": "You can try clothes on and try products, games or ideas out before making a decision.",
+      "sourcePage": 3
+    },
+    {
+      "number": 4,
+      "titleZh": "理解選拔和人際行為",
+      "titleEn": "Understand selections and social behaviour",
+      "zh": "try out for 和 try-out 可用來談論球隊、樂隊和表演選拔；try it on with somebody 則可描述某人試探另一人的底線。",
+      "en": "Try out for and try-out are useful when talking about teams, bands and performances. Try it on with somebody describes a person testing another person’s limits.",
+      "sourcePage": 3
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "稍後再次致電或聯絡某人",
+      "努力爭取某份工作、職位、獎項或目標",
+      "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+      "試穿衣物，看看是否合身或好看",
+      "參加球隊、樂隊、角色或其他位置的選拔",
+      "試用或測試某人或某事物，看看是否合適或有效",
+      "選拔；試演；試用活動"
+    ],
+    "contextsEn": [
+      "try back / try somebody back",
+      "try for something",
+      "try it on with somebody",
+      "try something on",
+      "try out for something",
+      "try somebody/something out / try something out on somebody",
+      "try-out / try-outs"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "稍後再次致電或聯絡某人",
+        "titleEn": "try back / try somebody back",
+        "formula": "try back / try somebody back",
+        "highlight": "try back / try somebody back",
+        "zh": "稍後再次致電或聯絡某人",
+        "en": "The line was busy, so I tried back later.",
+        "examples": [
+          {
+            "en": "The line was busy, so I tried back later.",
+            "zh": "電話線很忙，所以我稍後再致電。",
+            "highlight": "tried back"
+          }
+        ]
+      },
+      {
+        "titleZh": "努力爭取某份工作、職位、獎項或目標",
+        "titleEn": "try for something",
+        "formula": "try for something",
+        "highlight": "try for something",
+        "zh": "努力爭取某份工作、職位、獎項或目標",
+        "en": "Are you going to try for that job?",
+        "examples": [
+          {
+            "en": "Are you going to try for that job?",
+            "zh": "你打算爭取那份工作嗎？",
+            "highlight": "try for"
+          }
+        ]
+      },
+      {
+        "titleZh": "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+        "titleEn": "try it on with somebody",
+        "formula": "try it on with somebody",
+        "highlight": "try it on with somebody",
+        "zh": "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+        "en": "The children sometimes try it on with a new babysitter.",
+        "examples": [
+          {
+            "en": "The children sometimes try it on with a new babysitter.",
+            "zh": "孩子們有時會在新保姆面前故意搗蛋，試探她的底線。",
+            "highlight": "try it on with"
+          }
+        ]
+      },
+      {
+        "titleZh": "試穿衣物，看看是否合身或好看",
+        "titleEn": "try something on",
+        "formula": "try something on",
+        "highlight": "try something on",
+        "zh": "試穿衣物，看看是否合身或好看",
+        "en": "Can I try on the blue one?",
+        "examples": [
+          {
+            "en": "Can I try on the blue one?",
+            "zh": "我可以試穿藍色那件嗎？",
+            "highlight": "try on"
+          }
+        ]
+      },
+      {
+        "titleZh": "參加球隊、樂隊、角色或其他位置的選拔",
+        "titleEn": "try out for something",
+        "formula": "try out for something",
+        "highlight": "try out for something",
+        "zh": "參加球隊、樂隊、角色或其他位置的選拔",
+        "en": "Maya tried out for the school band.",
+        "examples": [
+          {
+            "en": "Maya tried out for the school band.",
+            "zh": "瑪雅參加了校樂隊的選拔。",
+            "highlight": "tried out for"
+          }
+        ]
+      },
+      {
+        "titleZh": "試用或測試某人或某事物，看看是否合適或有效",
+        "titleEn": "try somebody/something out / try something out on somebody",
+        "formula": "try somebody/something out / try something out on somebody",
+        "highlight": "try somebody/something out / try something out on somebody",
+        "zh": "試用或測試某人或某事物，看看是否合適或有效",
+        "en": "The teacher tried the new game out on her class.",
+        "examples": [
+          {
+            "en": "The teacher tried the new game out on her class.",
+            "zh": "老師在班上試用了這款新遊戲。",
+            "highlight": "tried the new game out on"
+          }
+        ]
+      },
+      {
+        "titleZh": "選拔；試演；試用活動",
+        "titleEn": "try-out / try-outs",
+        "formula": "try-out / try-outs",
+        "highlight": "try-out / try-outs",
+        "zh": "選拔；試演；試用活動",
+        "en": "The team is holding try-outs this Thursday.",
+        "examples": [
+          {
+            "en": "The team is holding try-outs this Thursday.",
+            "zh": "球隊會在本星期四舉行選拔。",
+            "highlight": "try-out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 TRY 表達。",
+      "titleEn": "Read the whole sentence and choose the TRY expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 TRY 表達。",
+      "en": "Read the whole sentence and choose the TRY expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "使用 it、him、her 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, follow these examples:",
+      "zh": "使用 it、him、her 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, follow these examples:",
+      "examplesEn": [
+        "try it on",
+        "try them out",
+        "try him back"
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "注意以下重要分別： try it on with somebody 表示試探某人的底線。 try something on 表示試穿衣物。 try out for something 表示參加選拔。 try somebody or something out 表示試用或測試某人或某事物。",
+      "titleEn": "Notice these important differences:",
+      "zh": "注意以下重要分別： try it on with somebody 表示試探某人的底線。 try something on 表示試穿衣物。 try out for something 表示參加選拔。 try somebody or something out 表示試用或測試某人或某事物。",
+      "en": "Notice these important differences:",
+      "examplesEn": [
+        "try it on with somebody = test how much bad behaviour somebody will allow",
+        "try something on = wear clothing to see whether it fits",
+        "try out for something = take part in a selection",
+        "try somebody or something out = test them"
+      ],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "try back / try somebody back",
+      "meaningZh": "稍後再次致電或聯絡某人",
+      "exampleEn": "The line was busy, so I tried back later.",
+      "exampleZh": "電話線很忙，所以我稍後再致電。",
+      "highlight": "tried back",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "formula": "try for something",
+      "meaningZh": "努力爭取某份工作、職位、獎項或目標",
+      "exampleEn": "Are you going to try for that job?",
+      "exampleZh": "你打算爭取那份工作嗎？",
+      "highlight": "try for",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "formula": "try it on with somebody",
+      "meaningZh": "故意試探某人的底線，看看對方會容許甚麼；常用於較口語的英式英語",
+      "exampleEn": "The children sometimes try it on with a new babysitter.",
+      "exampleZh": "孩子們有時會在新保姆面前故意搗蛋，試探她的底線。",
+      "highlight": "try it on with",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "formula": "try something on",
+      "meaningZh": "試穿衣物，看看是否合身或好看",
+      "exampleEn": "Can I try on the blue one?",
+      "exampleZh": "我可以試穿藍色那件嗎？",
+      "highlight": "try on",
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "formula": "try out for something",
+      "meaningZh": "參加球隊、樂隊、角色或其他位置的選拔",
+      "exampleEn": "Maya tried out for the school band.",
+      "exampleZh": "瑪雅參加了校樂隊的選拔。",
+      "highlight": "tried out for",
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "formula": "try somebody/something out / try something out on somebody",
+      "meaningZh": "試用或測試某人或某事物，看看是否合適或有效",
+      "exampleEn": "The teacher tried the new game out on her class.",
+      "exampleZh": "老師在班上試用了這款新遊戲。",
+      "highlight": "tried the new game out on",
+      "sourcePage": 3
+    },
+    {
+      "number": 7,
+      "formula": "try-out / try-outs",
+      "meaningZh": "選拔；試演；試用活動",
+      "exampleEn": "The team is holding try-outs this Thursday.",
+      "exampleZh": "球隊會在本星期四舉行選拔。",
+      "highlight": "try-out",
+      "sourcePage": 3
+    }
+  ],
+  "instructions": {
+    "zh": "使用參考表中的 TRY 表達改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a TRY expression from the reference bank. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TRY 動詞片語句子改寫練習",
+    "titleEn": "TRY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用參考表中的 TRY 表達改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a TRY expression from the reference bank. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-12-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Mia put on the blue jacket to see whether it fitted before buying it.",
+      "promptZh": "米婭在購買藍色外套前先穿上它，看看是否合身。",
+      "starter": "Mia",
+      "answer": "Mia tried on the blue jacket before buying it.",
+      "answerZh": "米婭在購買藍色外套前先試穿了它。",
+      "targetForm": "try something on",
+      "targetMeaningZh": "試穿衣物",
+      "highlight": "tried on"
+    },
+    {
+      "id": "phrasal-verb-12-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Daniel will attempt to get the job at the new café.",
+      "promptZh": "丹尼爾會嘗試爭取新咖啡店的那份工作。",
+      "starter": "Daniel",
+      "answer": "Daniel will try for the job at the new café.",
+      "answerZh": "丹尼爾會爭取新咖啡店的那份工作。",
+      "targetForm": "try for something",
+      "targetMeaningZh": "努力爭取某事物",
+      "highlight": "try for"
+    },
+    {
+      "id": "phrasal-verb-12-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "We tested the new board game after dinner to see whether it was fun.",
+      "promptZh": "晚飯後，我們測試了這款新桌上遊戲，看看是否好玩。",
+      "starter": "We",
+      "answer": "We tried out the new board game after dinner to see whether it was fun.",
+      "answerZh": "晚飯後，我們試用了這款新桌上遊戲，看看是否好玩。",
+      "targetForm": "try something out",
+      "targetMeaningZh": "試用或測試某事物",
+      "highlight": "tried out"
+    },
+    {
+      "id": "phrasal-verb-12-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Please phone again after two o’clock.",
+      "promptZh": "請在兩點後再致電。",
+      "starter": "Please",
+      "answer": "Please try back after two o’clock.",
+      "answerZh": "請在兩點後再致電。",
+      "targetForm": "try back",
+      "targetMeaningZh": "稍後再次致電",
+      "highlight": "try back"
+    },
+    {
+      "id": "phrasal-verb-12-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Leo attended the school band’s selection session on Friday.",
+      "promptZh": "里奧星期五參加了校樂隊的選拔。",
+      "starter": "Leo",
+      "answer": "Leo tried out for the school band on Friday.",
+      "answerZh": "里奧星期五參加了校樂隊的選拔。",
+      "targetForm": "try out for something",
+      "targetMeaningZh": "參加選拔",
+      "highlight": "tried out for"
+    },
+    {
+      "id": "phrasal-verb-12-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The children sometimes behave badly to see what a new babysitter will allow.",
+      "promptZh": "孩子們有時會在新保姆面前故意搗蛋，看看她會容許甚麼。",
+      "starter": "The",
+      "answer": "The children sometimes try it on with a new babysitter.",
+      "answerZh": "孩子們有時會在新保姆面前故意搗蛋，試探她的底線。",
+      "targetForm": "try it on with somebody",
+      "targetMeaningZh": "試探某人的底線",
+      "highlight": "try it on with"
+    },
+    {
+      "id": "phrasal-verb-12-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The team is holding a selection session this Thursday.",
+      "promptZh": "球隊會在本星期四舉行一次選拔。",
+      "starter": "The",
+      "answer": "The team is holding a try-out this Thursday.",
+      "answerZh": "球隊會在本星期四舉行一次選拔。",
+      "targetForm": "try-out",
+      "targetMeaningZh": "選拔；試演",
+      "highlight": "try-out"
+    },
+    {
+      "id": "phrasal-verb-12-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The coach tested three new goalkeepers before choosing one.",
+      "promptZh": "教練測試了三名新守門員後才選出一人。",
+      "starter": "The",
+      "answer": "The coach tried out three new goalkeepers before choosing one.",
+      "answerZh": "教練試用了三名新守門員後才選出一人。",
+      "targetForm": "try somebody out",
+      "targetMeaningZh": "試用或測試某人",
+      "highlight": "tried out"
+    },
+    {
+      "id": "phrasal-verb-12-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "I will phone the dentist again after lunch.",
+      "promptZh": "我會在午飯後再致電牙醫。",
+      "starter": "I",
+      "answer": "I will try the dentist back after lunch.",
+      "answerZh": "我會在午飯後再致電牙醫。",
+      "targetForm": "try somebody back",
+      "targetMeaningZh": "稍後再次聯絡某人",
+      "highlight": "try the dentist back"
+    },
+    {
+      "id": "phrasal-verb-12-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Two selection sessions will take place before the final team is chosen.",
+      "promptZh": "在選出最終隊員前，會先舉行兩次選拔。",
+      "starter": "Two",
+      "answer": "Two try-outs will take place before the final team is chosen.",
+      "answerZh": "在選出最終隊員前，會先舉行兩次選拔。",
+      "targetForm": "try-outs",
+      "targetMeaningZh": "選拔；試演",
+      "highlight": "try-outs"
+    },
+    {
+      "id": "phrasal-verb-12-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Sara is attending the choir’s selection session this afternoon.",
+      "promptZh": "莎拉今天下午會參加合唱團的選拔。",
+      "starter": "Sara",
+      "answer": "Sara is trying out for the choir this afternoon.",
+      "answerZh": "莎拉今天下午會參加合唱團的選拔。",
+      "targetForm": "try out for something",
+      "targetMeaningZh": "參加選拔",
+      "highlight": "trying out for"
+    },
+    {
+      "id": "phrasal-verb-12-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The line was busy, so Ravi phoned again ten minutes later.",
+      "promptZh": "電話線很忙，所以拉維十分鐘後再致電。",
+      "starter": "The",
+      "answer": "The line was busy, so Ravi tried back ten minutes later.",
+      "answerZh": "電話線很忙，所以拉維十分鐘後再致電。",
+      "targetForm": "try back",
+      "targetMeaningZh": "稍後再次致電",
+      "highlight": "tried back"
+    },
+    {
+      "id": "phrasal-verb-12-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Can I put on the green one to see whether it fits?",
+      "promptZh": "我可以試穿綠色那件，看看是否合身嗎？",
+      "starter": "Can",
+      "answer": "Can I try on the green one?",
+      "answerZh": "我可以試穿綠色那件嗎？",
+      "targetForm": "try something on",
+      "targetMeaningZh": "試穿衣物",
+      "highlight": "try on"
+    },
+    {
+      "id": "phrasal-verb-12-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Do not test me by pretending you forgot the rule.",
+      "promptZh": "不要假裝忘記規則來試探我。",
+      "starter": "Do",
+      "answer": "Do not try it on with me by pretending you forgot the rule.",
+      "answerZh": "不要假裝忘記規則來試探我。",
+      "targetForm": "try it on with somebody",
+      "targetMeaningZh": "試探某人的底線",
+      "highlight": "try it on with"
+    },
+    {
+      "id": "phrasal-verb-12-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The science club is testing a new robot this week.",
+      "promptZh": "科學學會本星期正在測試一個新機械人。",
+      "starter": "The",
+      "answer": "The science club is trying out a new robot this week.",
+      "answerZh": "科學學會本星期正在試用一個新機械人。",
+      "targetForm": "try something out",
+      "targetMeaningZh": "試用或測試某事物",
+      "highlight": "trying out"
+    },
+    {
+      "id": "phrasal-verb-12-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Are you going to attempt to get that office job?",
+      "promptZh": "你打算爭取那份文職工作嗎？",
+      "starter": "Are",
+      "answer": "Are you going to try for that office job?",
+      "answerZh": "你打算爭取那份文職工作嗎？",
+      "targetForm": "try for something",
+      "targetMeaningZh": "努力爭取某事物",
+      "highlight": "try for"
+    },
+    {
+      "id": "phrasal-verb-12-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Maya has a selection test for the school play tomorrow.",
+      "promptZh": "瑪雅明天要參加校內話劇的選拔。",
+      "starter": "Maya",
+      "answer": "Maya has a try-out for the school play tomorrow.",
+      "answerZh": "瑪雅明天要參加校內話劇的選拔。",
+      "targetForm": "try-out",
+      "targetMeaningZh": "選拔；試演",
+      "highlight": "try-out"
+    },
+    {
+      "id": "phrasal-verb-12-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Ben is putting the shoes on now to see whether they fit.",
+      "promptZh": "賓現在正在試穿那雙鞋，看看是否合身。",
+      "starter": "Ben",
+      "answer": "Ben is trying the shoes on now.",
+      "answerZh": "賓現在正在試穿那雙鞋。",
+      "targetForm": "try something on",
+      "targetMeaningZh": "試穿衣物",
+      "highlight": "trying the shoes on"
+    },
+    {
+      "id": "phrasal-verb-12-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "We are testing the new menu on a small group of customers.",
+      "promptZh": "我們正在一小群顧客身上測試新餐牌。",
+      "starter": "We",
+      "answer": "We are trying out the new menu on a small group of customers.",
+      "answerZh": "我們正在一小群顧客身上試驗新餐牌。",
+      "targetForm": "try something out on somebody",
+      "targetMeaningZh": "在某人身上測試某事物",
+      "highlight": "trying out the new menu on"
+    },
+    {
+      "id": "phrasal-verb-12-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Our team has made two attempts to win the cup.",
+      "promptZh": "我們的球隊已兩度嘗試爭取贏得獎盃。",
+      "starter": "Our",
+      "answer": "Our team has tried for the cup twice.",
+      "answerZh": "我們的球隊已兩度爭取贏得獎盃。",
+      "targetForm": "try for something",
+      "targetMeaningZh": "努力爭取某事物",
+      "highlight": "tried for"
+    },
+    {
+      "id": "phrasal-verb-12-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "I tested it for a week before I decided to buy it.",
+      "promptZh": "我先測試了它一星期，才決定購買。",
+      "starter": "I",
+      "answer": "I tried it out for a week before I decided to buy it.",
+      "answerZh": "我先試用了它一星期，才決定購買。",
+      "targetForm": "try something out",
+      "targetMeaningZh": "試用或測試某事物",
+      "highlight": "tried it out"
+    },
+    {
+      "id": "phrasal-verb-12-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "The club moved its selection session from Tuesday to Friday.",
+      "promptZh": "學會把選拔由星期二改至星期五。",
+      "starter": "The",
+      "answer": "The club moved its try-out from Tuesday to Friday.",
+      "answerZh": "學會把選拔由星期二改至星期五。",
+      "targetForm": "try-out",
+      "targetMeaningZh": "選拔；試演",
+      "highlight": "try-out"
+    },
+    {
+      "id": "phrasal-verb-12-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "No one answered earlier, so I phoned them again just now.",
+      "promptZh": "較早前沒有人接聽，所以我剛剛再致電給他們。",
+      "starter": "No",
+      "answer": "No one answered earlier, so I tried them back just now.",
+      "answerZh": "較早前沒有人接聽，所以我剛剛再致電給他們。",
+      "targetForm": "try somebody back",
+      "targetMeaningZh": "再次聯絡某人",
+      "highlight": "tried them back"
+    },
+    {
+      "id": "phrasal-verb-12-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Liam knew the teacher was new, so he tested how much she would allow.",
+      "promptZh": "利亞姆知道老師是新來的，所以試探她會容許多少。",
+      "starter": "Liam",
+      "answer": "Liam knew the teacher was new, so he tried it on with her.",
+      "answerZh": "利亞姆知道老師是新來的，所以故意試探她的底線。",
+      "targetForm": "try it on with somebody",
+      "targetMeaningZh": "試探某人的底線",
+      "highlight": "tried it on with"
+    },
+    {
+      "id": "phrasal-verb-12-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The jumper looked good, but Nora did not put it on to see whether it fitted.",
+      "promptZh": "那件毛衣很好看，但諾拉沒有穿上它看看是否合身。",
+      "starter": "The",
+      "answer": "The jumper looked good, but Nora did not try it on.",
+      "answerZh": "那件毛衣很好看，但諾拉沒有試穿。",
+      "targetForm": "try something on",
+      "targetMeaningZh": "試穿衣物",
+      "highlight": "try it on"
+    },
+    {
+      "id": "phrasal-verb-12-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "We each attended the school musical’s selection session and sang one song.",
+      "promptZh": "我們每人都參加了校內音樂劇的選拔，並唱了一首歌。",
+      "starter": "We",
+      "answer": "We each tried out for the school musical by singing one song.",
+      "answerZh": "我們每人都唱了一首歌，參加校內音樂劇的選拔。",
+      "targetForm": "try out for something",
+      "targetMeaningZh": "參加選拔",
+      "highlight": "tried out for"
+    },
+    {
+      "id": "phrasal-verb-12-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "He may make an attempt to get the manager’s job next year.",
+      "promptZh": "他明年可能會嘗試爭取經理的工作。",
+      "starter": "He",
+      "answer": "He may try for the manager’s job next year.",
+      "answerZh": "他明年可能會爭取經理的工作。",
+      "targetForm": "try for something",
+      "targetMeaningZh": "努力爭取某事物",
+      "highlight": "try for"
+    },
+    {
+      "id": "phrasal-verb-12-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Why are you testing Dad’s patience by asking again after he said no?",
+      "promptZh": "爸爸已經說不，為甚麼你仍反覆要求來試探他的耐性？",
+      "starter": "Why",
+      "answer": "Why are you trying it on with Dad by asking again after he said no?",
+      "answerZh": "爸爸已經說不，為甚麼你仍這樣試探他的底線？",
+      "targetForm": "try it on with somebody",
+      "targetMeaningZh": "試探某人的底線",
+      "highlight": "trying it on with"
+    },
+    {
+      "id": "phrasal-verb-12-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Her selection test went well, and the coach asked her to return.",
+      "promptZh": "她的選拔表現很好，教練請她再來。",
+      "starter": "Her",
+      "answer": "Her try-out went well, and the coach asked her to return.",
+      "answerZh": "她的選拔表現很好，教練請她再來。",
+      "targetForm": "try-out",
+      "targetMeaningZh": "選拔；試演",
+      "highlight": "try-out"
+    },
+    {
+      "id": "phrasal-verb-12-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Did Aaron attend the selection session for the football team?",
+      "promptZh": "亞倫有參加足球隊的選拔嗎？",
+      "starter": "Did",
+      "answer": "Did Aaron try out for the football team?",
+      "answerZh": "亞倫有參加足球隊的選拔嗎？",
+      "targetForm": "try out for something",
+      "targetMeaningZh": "參加選拔",
+      "highlight": "try out for"
+    },
+    {
+      "id": "phrasal-verb-12-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Nina wants the office job, but she has not yet made an attempt to get it.",
+      "promptZh": "妮娜想要那份文職工作，但她仍未嘗試爭取。",
+      "starter": "Nina",
+      "answer": "Nina wants the office job, but she has not yet tried for it.",
+      "answerZh": "妮娜想要那份文職工作，但她仍未嘗試爭取。",
+      "targetForm": "try for something",
+      "targetMeaningZh": "努力爭取某事物",
+      "highlight": "tried for"
+    },
+    {
+      "id": "phrasal-verb-12-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The teacher tested the new quiz on Class 3B before using it with everyone.",
+      "promptZh": "老師先在3B班測試新小測，才讓所有人使用。",
+      "starter": "The",
+      "answer": "The teacher tried out the new quiz on Class 3B before using it with everyone.",
+      "answerZh": "老師先在3B班試行了新小測，才讓所有人使用。",
+      "targetForm": "try something out on somebody",
+      "targetMeaningZh": "在某人身上測試某事物",
+      "highlight": "tried out the new quiz on"
+    },
+    {
+      "id": "phrasal-verb-12-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Are the selection tests open to students from every year?",
+      "promptZh": "這些選拔是否開放給所有年級的學生？",
+      "starter": "Are",
+      "answer": "Are the try-outs open to students from every year?",
+      "answerZh": "這些選拔是否開放給所有年級的學生？",
+      "targetForm": "try-outs",
+      "targetMeaningZh": "選拔；試演",
+      "highlight": "try-outs"
+    },
+    {
+      "id": "phrasal-verb-12-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Which coat did Eva put on to see whether it fitted?",
+      "promptZh": "伊娃試穿了哪一件外套，看看是否合身？",
+      "starter": "Which",
+      "answer": "Which coat did Eva try on?",
+      "answerZh": "伊娃試穿了哪一件外套？",
+      "targetForm": "try something on",
+      "targetMeaningZh": "試穿衣物",
+      "highlight": "try on"
+    },
+    {
+      "id": "phrasal-verb-12-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 19,
+      "prompt": "The receptionist asked us to phone the office again the next morning.",
+      "promptZh": "接待員請我們翌日早上再致電辦公室。",
+      "starter": "The",
+      "answer": "The receptionist asked us to try the office back the next morning.",
+      "answerZh": "接待員請我們翌日早上再致電辦公室。",
+      "targetForm": "try somebody back",
+      "targetMeaningZh": "稍後再次聯絡某人",
+      "highlight": "try the office back"
+    },
+    {
+      "id": "phrasal-verb-12-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "They may behave badly to see what the new sports coach will allow.",
+      "promptZh": "他們可能會在新體育教練面前搗蛋，看看教練會容許甚麼。",
+      "starter": "They",
+      "answer": "They may try it on with the new sports coach.",
+      "answerZh": "他們可能會在新體育教練面前故意搗蛋，試探教練的底線。",
+      "targetForm": "try it on with somebody",
+      "targetMeaningZh": "試探某人的底線",
+      "highlight": "try it on with"
+    },
+    {
+      "id": "phrasal-verb-12-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "After practising for weeks, Sam performed for the band judges.",
+      "promptZh": "森練習了多個星期後，為樂隊評判表演。",
+      "starter": "After",
+      "answer": "After practising for weeks, Sam tried out for the band.",
+      "answerZh": "森練習了多個星期後，參加了樂隊選拔。",
+      "targetForm": "try out for something",
+      "targetMeaningZh": "參加選拔",
+      "highlight": "tried out for"
+    },
+    {
+      "id": "phrasal-verb-12-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The band is testing a new drummer at tonight’s practice.",
+      "promptZh": "樂隊今晚排練時正在測試一名新鼓手。",
+      "starter": "The",
+      "answer": "The band is trying out a new drummer at tonight’s practice.",
+      "answerZh": "樂隊今晚排練時正在試用一名新鼓手。",
+      "targetForm": "try somebody out",
+      "targetMeaningZh": "試用或測試某人",
+      "highlight": "trying out"
+    },
+    {
+      "id": "phrasal-verb-12-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "I bought the shirt online without putting it on first to check the size.",
+      "promptZh": "我在網上買了那件恤衫，事前沒有試穿來檢查尺碼。",
+      "starter": "I",
+      "answer": "I bought the shirt online without trying it on first.",
+      "answerZh": "我在網上買了那件恤衫，事前沒有試穿。",
+      "targetForm": "try something on",
+      "targetMeaningZh": "試穿衣物",
+      "highlight": "trying it on"
+    },
+    {
+      "id": "phrasal-verb-12-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "If the travel office is closed, phone again in half an hour.",
+      "promptZh": "如果旅遊辦事處關門，半小時後再致電。",
+      "starter": "If",
+      "answer": "If the travel office is closed, try back in half an hour.",
+      "answerZh": "如果旅遊辦事處關門，半小時後再致電。",
+      "targetForm": "try back",
+      "targetMeaningZh": "稍後再次致電",
+      "highlight": "try back"
+    },
+    {
+      "id": "phrasal-verb-12-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "I could not reach Mei this morning, so I will phone her again after work.",
+      "promptZh": "我今早聯絡不到梅，所以會在放工後再致電給她。",
+      "starter": "I",
+      "answer": "I could not reach Mei this morning, so I will try her back after work.",
+      "answerZh": "我今早聯絡不到梅，所以會在放工後再致電給她。",
+      "targetForm": "try somebody back",
+      "targetMeaningZh": "稍後再次聯絡某人",
+      "highlight": "try her back"
+    },
+    {
+      "id": "phrasal-verb-12-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Do not think you can test my limits just because I am new here.",
+      "promptZh": "不要以為我剛來這裏，你便可以試探我的底線。",
+      "starter": "Do",
+      "answer": "Do not think you can try it on with me just because I am new here.",
+      "answerZh": "不要以為我剛來這裏，你便可以試探我的底線。",
+      "targetForm": "try it on with somebody",
+      "targetMeaningZh": "試探某人的底線",
+      "highlight": "try it on with"
+    },
+    {
+      "id": "phrasal-verb-12-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Before showing the advert to everyone, the shop tested it on ten customers.",
+      "promptZh": "商店先在十名顧客身上測試廣告，才向所有人展示。",
+      "starter": "Before",
+      "answer": "Before showing the advert to everyone, the shop tried it out on ten customers.",
+      "answerZh": "商店先在十名顧客身上測試了廣告，才向所有人展示。",
+      "targetForm": "try something out on somebody",
+      "targetMeaningZh": "在某人身上測試某事物",
+      "highlight": "tried it out on"
+    },
+    {
+      "id": "phrasal-verb-12-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Zoe wants a place in the school play, so she will perform for the teachers on Monday.",
+      "promptZh": "佐伊想在校內話劇中得到一個角色，所以星期一會為老師表演。",
+      "starter": "Zoe",
+      "answer": "Zoe wants a place in the school play, so she will try out for it on Monday.",
+      "answerZh": "佐伊想在校內話劇中得到一個角色，所以星期一會參加選拔。",
+      "targetForm": "try out for something",
+      "targetMeaningZh": "參加選拔",
+      "highlight": "try out for"
+    },
+    {
+      "id": "phrasal-verb-12-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The team has done well this year and will now make an attempt to win the cup.",
+      "promptZh": "球隊今年表現出色，現在會嘗試爭取贏得獎盃。",
+      "starter": "The",
+      "answer": "The team has done well this year and will now try for the cup.",
+      "answerZh": "球隊今年表現出色，現在會爭取贏得獎盃。",
+      "targetForm": "try for something",
+      "targetMeaningZh": "努力爭取某事物",
+      "highlight": "try for"
+    },
+    {
+      "id": "phrasal-verb-12-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "His first selection test was poor, but the second one was much better.",
+      "promptZh": "他的第一次選拔表現很差，但第二次好得多。",
+      "starter": "His",
+      "answer": "His first try-out was poor, but the second one was much better.",
+      "answerZh": "他的第一次選拔表現很差，但第二次好得多。",
+      "targetForm": "try-out",
+      "targetMeaningZh": "選拔；試演",
+      "highlight": "try-out"
+    },
+    {
+      "id": "phrasal-verb-12-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "Before choosing between the two jackets, put both of them on to see how they look.",
+      "promptZh": "在兩件外套中作選擇前，先試穿兩件，看看效果如何。",
+      "starter": "Before",
+      "answer": "Before choosing between the two jackets, try both of them on to see how they look.",
+      "answerZh": "在兩件外套中作選擇前，先試穿兩件，看看效果如何。",
+      "targetForm": "try something on",
+      "targetMeaningZh": "試穿衣物",
+      "highlight": "try both of them on"
+    },
+    {
+      "id": "phrasal-verb-12-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The boys thought their uncle was too kind, so they behaved badly to see what he would allow.",
+      "promptZh": "男孩子們認為叔叔太仁慈，所以故意搗蛋，看看他會容許甚麼。",
+      "starter": "The",
+      "answer": "The boys thought their uncle was too kind, so they tried it on with him.",
+      "answerZh": "男孩子們認為叔叔太仁慈，所以故意搗蛋，試探他的底線。",
+      "targetForm": "try it on with somebody",
+      "targetMeaningZh": "試探某人的底線",
+      "highlight": "tried it on with"
+    },
+    {
+      "id": "phrasal-verb-12-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "Priya did not attend the band’s selection session because she had lost her voice.",
+      "promptZh": "普里雅因為失聲，所以沒有參加樂隊的選拔。",
+      "starter": "Priya",
+      "answer": "Priya did not try out for the band because she had lost her voice.",
+      "answerZh": "普里雅因為失聲，所以沒有參加樂隊的選拔。",
+      "targetForm": "try out for something",
+      "targetMeaningZh": "參加選拔",
+      "highlight": "try out for"
+    },
+    {
+      "id": "phrasal-verb-12-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "After years as an assistant, Marcus plans to make an attempt to get the manager’s job.",
+      "promptZh": "馬庫斯當了多年助理後，計劃嘗試爭取經理的工作。",
+      "starter": "After",
+      "answer": "After years as an assistant, Marcus plans to try for the manager’s job.",
+      "answerZh": "馬庫斯當了多年助理後，計劃爭取經理的工作。",
+      "targetForm": "try for something",
+      "targetMeaningZh": "努力爭取某事物",
+      "highlight": "try for"
+    }
+  ]
+}

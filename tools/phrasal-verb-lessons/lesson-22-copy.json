@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-22",
+  "order": 22,
+  "slug": "copy",
+  "version": "1",
+  "title": "COPY 動詞片語",
+  "titleEn": "Copy",
+  "titleZh": "COPY 動詞片語",
+  "level": "",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 21 - Copy.pdf",
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COPY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COPY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COPY",
+      "highlight": "COPY"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Please copy me in on all emails about the order.",
+      "zh": "請把我加入所有關於訂單的電郵，讓我收到副本。",
+      "highlight": "copy me in on"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "I copied the address down before the notice was removed.",
+      "zh": "我在告示被移走前把地址抄了下來。",
+      "highlight": "copied the address down"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "She copied out the whole recipe from the book.",
+      "zh": "她把書中的整份食譜完整抄寫了出來。",
+      "highlight": "copied out"
+    }
+  ],
+  "meaning": {
+    "zh": "把某人加入電郵或訊息，讓對方收到副本並知道最新情況；把看見或聽到的資料抄下來，以免忘記；把整段文字或全部內容完整抄寫出來。",
+    "en": "Learn and practise the phrasal verbs related to COPY.",
+    "naturalZh": [
+      "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+      "把看見或聽到的資料抄下來，以免忘記",
+      "把整段文字或全部內容完整抄寫出來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "copy somebody in / copy somebody in on something",
+      "titleZh": "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+      "titleEn": "copy somebody in / copy somebody in on something",
+      "descriptionZh": "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+      "descriptionEn": "Please copy me in on all emails about the order.",
+      "examples": [
+        {
+          "en": "Please copy me in on all emails about the order.",
+          "zh": "請把我加入所有關於訂單的電郵，讓我收到副本。",
+          "highlight": "copy me in on"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "copy something down",
+      "titleZh": "把看見或聽到的資料抄下來，以免忘記",
+      "titleEn": "copy something down",
+      "descriptionZh": "把看見或聽到的資料抄下來，以免忘記",
+      "descriptionEn": "I copied the address down before the notice was removed.",
+      "examples": [
+        {
+          "en": "I copied the address down before the notice was removed.",
+          "zh": "我在告示被移走前把地址抄了下來。",
+          "highlight": "copied the address down"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "copy something out",
+      "titleZh": "把整段文字或全部內容完整抄寫出來",
+      "titleEn": "copy something out",
+      "descriptionZh": "把整段文字或全部內容完整抄寫出來",
+      "descriptionEn": "She copied out the whole recipe from the book.",
+      "examples": [
+        {
+          "en": "She copied out the whole recipe from the book.",
+          "zh": "她把書中的整份食譜完整抄寫了出來。",
+          "highlight": "copied out"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 COPY 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to COPY.",
+    "contextsZh": [
+      "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+      "把看見或聽到的資料抄下來，以免忘記",
+      "把整段文字或全部內容完整抄寫出來"
+    ],
+    "contextsEn": [
+      "copy somebody in / copy somebody in on something",
+      "copy something down",
+      "copy something out"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 COPY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the COPY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "COPY",
+    "fixedHighlight": "COPY",
+    "fixedZh": "閱讀整句，選出意思相同的 COPY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the COPY expression that gives the same meaning.",
+    "correct": "copy somebody in / copy somebody in on something",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 me、him、her、it 或 them 時，請按照以上例子放在正確位置。 copy down 通常用來抄下簡短資料；copy out 通常用來完整抄寫一段文字或整份內容。",
+    "variableEn": "Keep the same people, things, time and meaning. When using me, him, her, it or them, place the word as shown: copy me in copy it down copy it out Copy down is usually used for short details. Copy out is usually used for a complete piece of writing.",
+    "variableItemsZh": [
+      "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+      "把看見或聽到的資料抄下來，以免忘記",
+      "把整段文字或全部內容完整抄寫出來"
+    ],
+    "variableItemsEn": [
+      "copy somebody in / copy somebody in on something",
+      "copy something down",
+      "copy something out"
+    ],
+    "forms": [
+      {
+        "formZh": "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+        "formEn": "copy somebody in / copy somebody in on something",
+        "exampleZh": "請把我加入所有關於訂單的電郵，讓我收到副本。",
+        "exampleEn": "Please copy me in on all emails about the order.",
+        "highlight": "copy me in on"
+      },
+      {
+        "formZh": "把看見或聽到的資料抄下來，以免忘記",
+        "formEn": "copy something down",
+        "exampleZh": "我在告示被移走前把地址抄了下來。",
+        "exampleEn": "I copied the address down before the notice was removed.",
+        "highlight": "copied the address down"
+      },
+      {
+        "formZh": "把整段文字或全部內容完整抄寫出來",
+        "formEn": "copy something out",
+        "exampleZh": "她把書中的整份食譜完整抄寫了出來。",
+        "exampleEn": "She copied out the whole recipe from the book.",
+        "highlight": "copied out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+      "titleEn": "copy somebody in / copy somebody in on something",
+      "formula": "copy somebody in / copy somebody in on something",
+      "highlight": "copy somebody in / copy somebody in on something",
+      "descriptionZh": "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+      "descriptionEn": "Please copy me in on all emails about the order.",
+      "examples": [
+        {
+          "en": "Please copy me in on all emails about the order.",
+          "zh": "請把我加入所有關於訂單的電郵，讓我收到副本。",
+          "highlight": "copy me in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把看見或聽到的資料抄下來，以免忘記",
+      "titleEn": "copy something down",
+      "formula": "copy something down",
+      "highlight": "copy something down",
+      "descriptionZh": "把看見或聽到的資料抄下來，以免忘記",
+      "descriptionEn": "I copied the address down before the notice was removed.",
+      "examples": [
+        {
+          "en": "I copied the address down before the notice was removed.",
+          "zh": "我在告示被移走前把地址抄了下來。",
+          "highlight": "copied the address down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把整段文字或全部內容完整抄寫出來",
+      "titleEn": "copy something out",
+      "formula": "copy something out",
+      "highlight": "copy something out",
+      "descriptionZh": "把整段文字或全部內容完整抄寫出來",
+      "descriptionEn": "She copied out the whole recipe from the book.",
+      "examples": [
+        {
+          "en": "She copied out the whole recipe from the book.",
+          "zh": "她把書中的整份食譜完整抄寫了出來。",
+          "highlight": "copied out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "讓合適的人知道最新情況",
+      "titleEn": "Keep the right people informed",
+      "zh": "copy somebody in 可以確保另一個人收到相同的電郵或訊息。",
+      "en": "Copy somebody in lets you make sure another person receives the same emails or messages."
+    },
+    {
+      "titleZh": "在忘記前保存簡短資料",
+      "titleEn": "Save short details before you forget them",
+      "zh": "你可以用 copy down 抄下電話號碼、地址、日期、時間和密碼。",
+      "en": "Use copy down for phone numbers, addresses, dates, times and codes."
+    },
+    {
+      "titleZh": "完整抄寫整份內容",
+      "titleEn": "Make a complete written copy",
+      "zh": "需要完整抄寫食譜、詩歌、文章或一整套指示時，可以使用 copy out。",
+      "en": "Use copy out when you need the whole recipe, poem, passage or set of instructions."
+    },
+    {
+      "titleZh": "分清不同類型的抄寫和傳送副本",
+      "titleEn": "Choose the right kind of copying",
+      "zh": "copy down 通常用於簡短資料，copy out 用於完整文字，而 copy somebody in 則用於電郵或訊息溝通。",
+      "en": "Copy down is normally for short information, copy out is for a complete text, and copy somebody in is used in communication."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+      "把看見或聽到的資料抄下來，以免忘記",
+      "把整段文字或全部內容完整抄寫出來"
+    ],
+    "contextsEn": [
+      "copy somebody in / copy somebody in on something",
+      "copy something down",
+      "copy something out"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+        "titleEn": "copy somebody in / copy somebody in on something",
+        "zh": "把某人加入電郵或訊息，讓對方收到副本並知道最新情況",
+        "en": "Please copy me in on all emails about the order.",
+        "examples": [
+          {
+            "en": "Please copy me in on all emails about the order.",
+            "zh": "請把我加入所有關於訂單的電郵，讓我收到副本。",
+            "highlight": "copy me in on"
+          }
+        ]
+      },
+      {
+        "titleZh": "把看見或聽到的資料抄下來，以免忘記",
+        "titleEn": "copy something down",
+        "zh": "把看見或聽到的資料抄下來，以免忘記",
+        "en": "I copied the address down before the notice was removed.",
+        "examples": [
+          {
+            "en": "I copied the address down before the notice was removed.",
+            "zh": "我在告示被移走前把地址抄了下來。",
+            "highlight": "copied the address down"
+          }
+        ]
+      },
+      {
+        "titleZh": "把整段文字或全部內容完整抄寫出來",
+        "titleEn": "copy something out",
+        "zh": "把整段文字或全部內容完整抄寫出來",
+        "en": "She copied out the whole recipe from the book.",
+        "examples": [
+          {
+            "en": "She copied out the whole recipe from the book.",
+            "zh": "她把書中的整份食譜完整抄寫了出來。",
+            "highlight": "copied out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 COPY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the COPY expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 COPY 片語動詞。",
+      "en": "Read the whole sentence and choose the COPY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 me、him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using me, him, her, it or them, place the word as shown: copy me in copy it down copy it out",
+      "zh": "使用 me、him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using me, him, her, it or them, place the word as shown: copy me in copy it down copy it out",
+      "examples": [
+        {
+          "en": "copy me in",
+          "zh": "copy me in",
+          "highlight": "copy me in"
+        },
+        {
+          "en": "copy it down",
+          "zh": "copy it down",
+          "highlight": "copy it down"
+        },
+        {
+          "en": "copy it out",
+          "zh": "copy it out",
+          "highlight": "copy it out"
+        }
+      ]
+    },
+    {
+      "titleZh": "copy down 通常用來抄下簡短資料；copy out 通常用來完整抄寫一段文字或整份內容。",
+      "titleEn": "Copy down is usually used for short details. Copy out is usually used for a complete piece of writing.",
+      "zh": "copy down 通常用來抄下簡短資料；copy out 通常用來完整抄寫一段文字或整份內容。",
+      "en": "Copy down is usually used for short details. Copy out is usually used for a complete piece of writing."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COPY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COPY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COPY 動詞片語句子改寫練習",
+    "titleEn": "COPY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COPY 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COPY. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-22-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The phone number was on the screen, so I wrote it in my notebook.",
+      "promptZh": "電話號碼顯示在螢幕上，所以我把它寫在筆記簿裏。",
+      "starter": "The",
+      "answer": "The phone number was on the screen, so I copied it down in my notebook.",
+      "answerZh": "電話號碼顯示在螢幕上，所以我把它抄在筆記簿裏。",
+      "highlight": "copied it down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "Please send me copies of all emails about the school trip.",
+      "promptZh": "請把所有關於學校旅行的電郵副本傳給我。",
+      "starter": "Please",
+      "answer": "Please copy me in on all emails about the school trip.",
+      "answerZh": "請把我加入所有關於學校旅行的電郵，讓我收到副本。",
+      "highlight": "copy me in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "Lena made a written copy of the whole recipe she found in the library book.",
+      "promptZh": "莉娜把她在圖書館書本中找到的整份食譜寫了一份副本。",
+      "starter": "Lena",
+      "answer": "Lena copied out the whole recipe she found in the library book.",
+      "answerZh": "莉娜把她在圖書館書本中找到的整份食譜完整抄寫了出來。",
+      "highlight": "copied out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Make sure Amir receives every email about the football match.",
+      "promptZh": "請確保阿米爾收到每一封關於足球比賽的電郵。",
+      "starter": "Make",
+      "answer": "Make sure you copy Amir in on every email about the football match.",
+      "answerZh": "請確保你把阿米爾加入每一封關於足球比賽的電郵。",
+      "highlight": "copy Amir in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I wrote the room number from the notice before leaving.",
+      "promptZh": "我離開前，把告示上的房間號碼寫了下來。",
+      "starter": "I",
+      "answer": "I copied the room number down from the notice before leaving.",
+      "answerZh": "我離開前，把告示上的房間號碼抄了下來。",
+      "highlight": "copied the room number down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The class wrote the full poem exactly as it appeared in the book.",
+      "promptZh": "全班把整首詩完全按照書中的內容寫了一遍。",
+      "starter": "The",
+      "answer": "The class copied the full poem out exactly as it appeared in the book.",
+      "answerZh": "全班把整首詩完全按照書中的內容抄寫了出來。",
+      "highlight": "copied the full poem out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Nora received copies of all the later emails about the order.",
+      "promptZh": "諾拉收到所有後續訂單電郵的副本。",
+      "starter": "Nora",
+      "answer": "Nora was copied in on all the later emails about the order.",
+      "answerZh": "諾拉被加入所有後續訂單電郵，因而收到副本。",
+      "highlight": "copied in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The guide said the meeting point, and Ben wrote it in his notebook.",
+      "promptZh": "導遊說出了集合地點，賓便把它寫在筆記簿裏。",
+      "starter": "The",
+      "answer": "The guide said the meeting point, and Ben copied it down in his notebook.",
+      "answerZh": "導遊說出了集合地點，賓便把它抄在筆記簿裏。",
+      "highlight": "copied it down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "I made a full written copy of the short story for homework.",
+      "promptZh": "我為了功課，把短篇故事完整寫了一份副本。",
+      "starter": "I",
+      "answer": "I copied the short story out in full for homework.",
+      "answerZh": "我為了功課，把短篇故事完整抄寫了出來。",
+      "highlight": "copied the short story out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The manager sent Priya copies of all messages about the new timetable.",
+      "promptZh": "經理把所有關於新時間表的訊息副本傳給普里雅。",
+      "starter": "The",
+      "answer": "The manager copied Priya in on all messages about the new timetable.",
+      "answerZh": "經理把普里雅加入所有關於新時間表的訊息。",
+      "highlight": "copied Priya in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The team is sending me copies of all emails about tomorrow’s event.",
+      "promptZh": "團隊現正把所有關於明天活動的電郵副本傳給我。",
+      "starter": "The",
+      "answer": "The team is copying me in on all emails about tomorrow’s event.",
+      "answerZh": "團隊現正把我加入所有關於明天活動的電郵。",
+      "highlight": "copying me in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Maya is writing the train times from the station screen.",
+      "promptZh": "瑪雅正在把車站螢幕上的火車時間寫下來。",
+      "starter": "Maya",
+      "answer": "Maya is copying the train times down from the station screen.",
+      "answerZh": "瑪雅正在把車站螢幕上的火車時間抄下來。",
+      "highlight": "copying the train times down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Owen is writing the whole speech from the website onto paper.",
+      "promptZh": "歐文正在把網站上的整篇演講稿寫到紙上。",
+      "starter": "Owen",
+      "answer": "Owen is copying out the whole speech from the website onto paper.",
+      "answerZh": "歐文正在把網站上的整篇演講稿抄寫到紙上。",
+      "highlight": "copying out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Have you written the new Wi-Fi password from the card?",
+      "promptZh": "你有沒有把卡上的新 Wi-Fi 密碼寫下來？",
+      "starter": "Have",
+      "answer": "Have you copied the new Wi-Fi password down from the card?",
+      "answerZh": "你有沒有把卡上的新 Wi-Fi 密碼抄下來？",
+      "highlight": "copied the new Wi-Fi password down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did you send Leo a copy of the email about the room change?",
+      "promptZh": "你有沒有把關於轉換房間的電郵副本傳給里奧？",
+      "starter": "Did",
+      "answer": "Did you copy Leo in on the email about the room change?",
+      "answerZh": "你有沒有把里奧加入關於轉換房間的電郵？",
+      "highlight": "copy Leo in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I will make a full written copy of the poem before returning the book.",
+      "promptZh": "我會在歸還書本前，把整首詩完整抄寫一遍。",
+      "starter": "I",
+      "answer": "I will copy the poem out in full before returning the book.",
+      "answerZh": "我會在歸還書本前，把整首詩完整抄寫出來。",
+      "highlight": "copy the poem out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I did not write the final date from the board.",
+      "promptZh": "我沒有把黑板上的最後日期寫下來。",
+      "starter": "I",
+      "answer": "I did not copy the final date down from the board.",
+      "answerZh": "我沒有把黑板上的最後日期抄下來。",
+      "highlight": "copy the final date down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Do not send me copies of the ordinary emails.",
+      "promptZh": "不要把一般電郵的副本傳給我。",
+      "starter": "Do",
+      "answer": "Do not copy me in on the ordinary emails.",
+      "answerZh": "不要把我加入一般電郵。",
+      "highlight": "copy me in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The instructions were written in full on a clean page.",
+      "promptZh": "指示的全部內容被寫在一張乾淨的紙上。",
+      "starter": "The",
+      "answer": "The instructions were copied out in full on a clean page.",
+      "answerZh": "指示的全部內容被完整抄寫在一張乾淨的紙上。",
+      "highlight": "copied out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "You should write the bus number from the sign before the bus leaves.",
+      "promptZh": "你應該在巴士開走前，把標牌上的巴士號碼寫下來。",
+      "starter": "You",
+      "answer": "You should copy the bus number down from the sign before the bus leaves.",
+      "answerZh": "你應該在巴士開走前，把標牌上的巴士號碼抄下來。",
+      "highlight": "copy the bus number down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The recipe was useful, so I made a complete written copy of it in my notebook.",
+      "promptZh": "這份食譜很有用，所以我在筆記簿裏完整寫了一份副本。",
+      "starter": "The",
+      "answer": "The recipe was useful, so I copied it out in my notebook.",
+      "answerZh": "這份食譜很有用，所以我把它完整抄寫在筆記簿裏。",
+      "highlight": "copied it out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Sara missed the first email. Please send her copies of all later messages about the project.",
+      "promptZh": "莎拉錯過了第一封電郵。請把所有後續項目訊息的副本傳給她。",
+      "starter": "Sara",
+      "answer": "Sara missed the first email. Please copy her in on all later messages about the project.",
+      "answerZh": "莎拉錯過了第一封電郵。請把她加入所有後續的項目訊息。",
+      "highlight": "copy her in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The code was on the board, so I wrote it in my notebook.",
+      "promptZh": "密碼寫在黑板上，所以我把它寫在筆記簿裏。",
+      "starter": "The",
+      "answer": "The code was on the board, so I copied it down in my notebook.",
+      "answerZh": "密碼寫在黑板上，所以我把它抄在筆記簿裏。",
+      "highlight": "copied it down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The students made a full written copy of the three short questions at the bottom of the page.",
+      "promptZh": "學生把頁面底部的三條短問題完整寫了一份副本。",
+      "starter": "The",
+      "answer": "The students copied out the three short questions at the bottom of the page.",
+      "answerZh": "學生把頁面底部的三條短問題完整抄寫了出來。",
+      "highlight": "copied out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "We were sent copies of every message about the cancelled class.",
+      "promptZh": "我們收到每一則關於取消課堂的訊息副本。",
+      "starter": "We",
+      "answer": "We were copied in on every message about the cancelled class.",
+      "answerZh": "我們被加入每一則關於取消課堂的訊息。",
+      "highlight": "copied in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The teacher showed us a new web address. I wrote it before the slide changed.",
+      "promptZh": "老師向我們展示了一個新網址。我在投影片轉換前把它寫了下來。",
+      "starter": "The",
+      "answer": "The teacher showed us a new web address. I copied it down before the slide changed.",
+      "answerZh": "老師向我們展示了一個新網址。我在投影片轉換前把它抄了下來。",
+      "highlight": "copied it down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "This paragraph is important. Make a complete written copy of it on a separate sheet.",
+      "promptZh": "這一段很重要。請把它完整寫在另一張紙上。",
+      "starter": "This",
+      "answer": "This paragraph is important. Copy it out on a separate sheet.",
+      "answerZh": "這一段很重要。請把它完整抄寫在另一張紙上。",
+      "highlight": "Copy it out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why was Mia sent copies of all the emails about the lost bag?",
+      "promptZh": "為甚麼米婭收到所有關於失物袋子的電郵副本？",
+      "starter": "Why",
+      "answer": "Why was Mia copied in on all the emails about the lost bag?",
+      "answerZh": "為甚麼米婭被加入所有關於失物袋子的電郵？",
+      "highlight": "copied in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Mina wrote the list of names from the screen before the page closed.",
+      "promptZh": "米娜在頁面關閉前，把螢幕上的姓名名單寫了下來。",
+      "starter": "Mina",
+      "answer": "Mina copied the list of names down from the screen before the page closed.",
+      "answerZh": "米娜在頁面關閉前，把螢幕上的姓名名單抄了下來。",
+      "highlight": "copied the list of names down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Ava made a full written copy of the whole menu, not only the prices.",
+      "promptZh": "艾娃把整份餐牌完整寫了一份副本，而不只是價錢。",
+      "starter": "Ava",
+      "answer": "Ava copied out the whole menu, not only the prices.",
+      "answerZh": "艾娃把整份餐牌完整抄寫了出來，而不只是價錢。",
+      "highlight": "copied out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The organiser wants me to receive all future emails about the concert.",
+      "promptZh": "主辦人希望我收到所有日後關於音樂會的電郵。",
+      "starter": "The",
+      "answer": "The organiser wants to copy me in on all future emails about the concert.",
+      "answerZh": "主辦人希望把我加入所有日後關於音樂會的電郵。",
+      "highlight": "copy me in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Make a full written copy of the entire article, not only its title.",
+      "promptZh": "請把整篇文章完整抄寫一份，而不只是標題。",
+      "starter": "Copy",
+      "answer": "Copy out the entire article, not only its title.",
+      "answerZh": "請把整篇文章完整抄寫出來，而不只是標題。",
+      "highlight": "Copy out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The nurse showed me the appointment time for only a moment, so I wrote it quickly.",
+      "promptZh": "護士只讓我看了預約時間一會兒，所以我很快把它寫下來。",
+      "starter": "The",
+      "answer": "The nurse showed me the appointment time for only a moment, so I copied it down quickly.",
+      "answerZh": "護士只讓我看了預約時間一會兒，所以我很快把它抄了下來。",
+      "highlight": "copied it down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Ella had not seen the earlier messages, so Max began sending her copies of the email discussion.",
+      "promptZh": "埃拉沒有看到較早的訊息，所以馬克斯開始把電郵討論的副本傳給她。",
+      "starter": "Ella",
+      "answer": "Ella had not seen the earlier messages, so Max copied her in on the email discussion.",
+      "answerZh": "埃拉沒有看到較早的訊息，所以馬克斯把她加入電郵討論。",
+      "highlight": "copied her in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Why did you write all the locker numbers from the list?",
+      "promptZh": "你為甚麼把名單上的所有儲物櫃號碼都寫下來？",
+      "starter": "Why",
+      "answer": "Why did you copy all the locker numbers down from the list?",
+      "answerZh": "你為甚麼把名單上的所有儲物櫃號碼都抄下來？",
+      "highlight": "copy all the locker numbers down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The teacher asked us to write every line of the dialogue exactly as printed.",
+      "promptZh": "老師要求我們完全按照印出的內容，逐行寫下整段對話。",
+      "starter": "The",
+      "answer": "The teacher asked us to copy out every line of the dialogue exactly as printed.",
+      "answerZh": "老師要求我們完全按照印出的內容，逐行抄寫整段對話。",
+      "highlight": "copy out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When you send the first email and any reply, make sure Daniel receives copies.",
+      "promptZh": "當你傳送第一封電郵和其後的回覆時，請確保丹尼爾收到副本。",
+      "starter": "When",
+      "answer": "When you send the first email and any reply, copy Daniel in.",
+      "answerZh": "當你傳送第一封電郵和其後的回覆時，把丹尼爾加入收件人。",
+      "highlight": "copy Daniel in",
+      "targetForm": "copy somebody in",
+      "targetMeaningZh": "把某人加入電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I saw the address on a shop window and wrote it before walking away.",
+      "promptZh": "我在店舖櫥窗看到地址，並在離開前把它寫了下來。",
+      "starter": "I",
+      "answer": "I saw the address on a shop window and copied it down before walking away.",
+      "answerZh": "我在店舖櫥窗看到地址，並在離開前把它抄了下來。",
+      "highlight": "copied it down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Why are you making a full written copy of the old letter by hand?",
+      "promptZh": "你為甚麼要用手把那封舊信完整抄寫一份？",
+      "starter": "Why",
+      "answer": "Why are you copying out the old letter by hand?",
+      "answerZh": "你為甚麼要用手把那封舊信完整抄寫出來？",
+      "highlight": "copying out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "No one sent me copies of the messages, so I did not know the plan had changed.",
+      "promptZh": "沒有人把訊息副本傳給我，所以我不知道計劃已經改變。",
+      "starter": "No",
+      "answer": "No one copied me in on the messages, so I did not know the plan had changed.",
+      "answerZh": "沒有人把我加入相關訊息，所以我不知道計劃已經改變。",
+      "highlight": "copied me in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The bus timetable disappeared from the screen before I could write the last two times.",
+      "promptZh": "巴士時間表從螢幕消失了，我還未及寫下最後兩個時間。",
+      "starter": "The",
+      "answer": "The bus timetable disappeared from the screen before I could copy the last two times down.",
+      "answerZh": "巴士時間表從螢幕消失了，我還未及抄下最後兩個時間。",
+      "highlight": "copy the last two times down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before you reply to the customer, make sure I receive a copy of your reply.",
+      "promptZh": "你回覆顧客前，請確保我收到回覆的副本。",
+      "starter": "Before",
+      "answer": "Before you reply to the customer, copy me in on the reply.",
+      "answerZh": "你回覆顧客前，把我加入該封回覆。",
+      "highlight": "copy me in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The library book could not be taken home, so Hana made a full written copy of the recipe before leaving.",
+      "promptZh": "圖書館的書不能帶回家，所以哈娜離開前把食譜完整抄寫了一份。",
+      "starter": "The",
+      "answer": "The library book could not be taken home, so Hana copied the recipe out before leaving.",
+      "answerZh": "圖書館的書不能帶回家，所以哈娜離開前把食譜完整抄寫了出來。",
+      "highlight": "copied the recipe out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The speaker gave the website address only once, but Noah wrote it so he could visit the page later.",
+      "promptZh": "講者只說了一次網址，但諾亞把它寫下來，以便稍後瀏覽該網頁。",
+      "starter": "The",
+      "answer": "The speaker gave the website address only once, but Noah copied it down so he could visit the page later.",
+      "answerZh": "講者只說了一次網址，但諾亞把它抄了下來，以便稍後瀏覽該網頁。",
+      "highlight": "copied it down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I missed the first part of the email discussion, but Jo then started sending me every new message.",
+      "promptZh": "我錯過了電郵討論的第一部分，但喬之後開始把每一則新訊息的副本傳給我。",
+      "starter": "I",
+      "answer": "I missed the first part of the email discussion, but Jo then copied me in on every new message.",
+      "answerZh": "我錯過了電郵討論的第一部分，但喬之後把我加入每一則新訊息。",
+      "highlight": "copied me in on",
+      "targetForm": "copy somebody in on something",
+      "targetMeaningZh": "把某人加入相關電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The note was too long to photograph clearly, so we made a complete written copy of it.",
+      "promptZh": "那張便條太長，無法清楚拍照，所以我們把它完整抄寫了一份。",
+      "starter": "The",
+      "answer": "The note was too long to photograph clearly, so we copied it out in full.",
+      "answerZh": "那張便條太長，無法清楚拍照，所以我們把它完整抄寫了出來。",
+      "highlight": "copied it out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Before the notice was removed, the students wrote the date, time and room number in their diaries.",
+      "promptZh": "告示被移走前，學生把日期、時間和房間號碼寫在記事簿裏。",
+      "starter": "Before",
+      "answer": "Before the notice was removed, the students copied the date, time and room number down in their diaries.",
+      "answerZh": "告示被移走前，學生把日期、時間和房間號碼抄在記事簿裏。",
+      "highlight": "copied the date, time and room number down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    },
+    {
+      "id": "phrasal-verb-22-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Rita was not receiving the later emails, so I asked the team to send her copies from then on.",
+      "promptZh": "麗塔沒有收到後續電郵，所以我要求團隊從那時起把副本傳給她。",
+      "starter": "Rita",
+      "answer": "Rita was not receiving the later emails, so I asked the team to copy her in from then on.",
+      "answerZh": "麗塔沒有收到後續電郵，所以我要求團隊從那時起把她加入收件人。",
+      "highlight": "copy her in",
+      "targetForm": "copy somebody in",
+      "targetMeaningZh": "把某人加入電郵或訊息"
+    },
+    {
+      "id": "phrasal-verb-22-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The teacher allowed us to use the book for five minutes, so I made a full written copy of the example before returning it.",
+      "promptZh": "老師只准我們使用書本五分鐘，所以我在歸還書本前把例子完整抄寫了一份。",
+      "starter": "The",
+      "answer": "The teacher allowed us to use the book for five minutes, so I copied the example out before returning it.",
+      "answerZh": "老師只准我們使用書本五分鐘，所以我在歸還書本前把例子完整抄寫了出來。",
+      "highlight": "copied the example out",
+      "targetForm": "copy something out",
+      "targetMeaningZh": "把全部內容完整抄寫出來"
+    },
+    {
+      "id": "phrasal-verb-22-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "I knew I would forget the new door code, so I wrote it from the small card before putting the card away.",
+      "promptZh": "我知道自己會忘記新門鎖密碼，所以我在收起小卡前把它寫了下來。",
+      "starter": "I",
+      "answer": "I knew I would forget the new door code, so I copied it down from the small card before putting the card away.",
+      "answerZh": "我知道自己會忘記新門鎖密碼，所以我在收起小卡前把它抄了下來。",
+      "highlight": "copied it down",
+      "targetForm": "copy something down",
+      "targetMeaningZh": "把資料抄下來，以免忘記"
+    }
+  ]
+}

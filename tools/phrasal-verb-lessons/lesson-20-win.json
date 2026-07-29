@@ -1,0 +1,1269 @@
+{
+  "id": "phrasal-verb-20",
+  "order": 20,
+  "slug": "win",
+  "version": "1",
+  "title": "WIN 動詞片語",
+  "titleEn": "Win",
+  "titleZh": "WIN 動詞片語",
+  "level": "",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 19 - WIN.pdf",
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WIN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WIN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WIN",
+      "highlight": "WIN"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "She hopes to win back her place in the team.",
+      "zh": "她希望重新取得隊中的位置。",
+      "highlight": "win back"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "In the end, the safer plan won out.",
+      "zh": "最後，較安全的計劃勝出。",
+      "highlight": "won out"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "We finally won Dad round to our plan.",
+      "zh": "我們最後說服爸爸接受我們的計劃。",
+      "highlight": "won Dad round to"
+    }
+  ],
+  "meaning": {
+    "zh": "重新贏得、取回或挽回先前失去的人、支持、信任、位置等；最終勝出；證明比另一個人、想法或力量更強或更成功；說服某人改變看法，支持或接受某事；克服困難後最終成功；渡過難關。",
+    "en": "Learn and practise the phrasal verbs related to WIN.",
+    "naturalZh": [
+      "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+      "最終勝出；證明比另一個人、想法或力量更強或更成功",
+      "說服某人改變看法，支持或接受某事",
+      "克服困難後最終成功；渡過難關"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "win somebody/something back",
+      "titleZh": "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+      "titleEn": "win somebody/something back",
+      "descriptionZh": "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+      "descriptionEn": "She hopes to win back her place in the team.",
+      "examples": [
+        {
+          "en": "She hopes to win back her place in the team.",
+          "zh": "她希望重新取得隊中的位置。",
+          "highlight": "win back"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "win out (over somebody/something)",
+      "titleZh": "最終勝出；證明比另一個人、想法或力量更強或更成功",
+      "titleEn": "win out (over somebody/something)",
+      "descriptionZh": "最終勝出；證明比另一個人、想法或力量更強或更成功",
+      "descriptionEn": "In the end, the safer plan won out.",
+      "examples": [
+        {
+          "en": "In the end, the safer plan won out.",
+          "zh": "最後，較安全的計劃勝出。",
+          "highlight": "won out"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "win somebody over / win somebody round (to something)",
+      "titleZh": "說服某人改變看法，支持或接受某事",
+      "titleEn": "win somebody over / win somebody round (to something)",
+      "descriptionZh": "說服某人改變看法，支持或接受某事",
+      "descriptionEn": "We finally won Dad round to our plan.",
+      "examples": [
+        {
+          "en": "We finally won Dad round to our plan.",
+          "zh": "我們最後說服爸爸接受我們的計劃。",
+          "highlight": "won Dad round to"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 2,
+      "formula": "win through",
+      "titleZh": "克服困難後最終成功；渡過難關",
+      "titleEn": "win through",
+      "descriptionZh": "克服困難後最終成功；渡過難關",
+      "descriptionEn": "The team faced many problems but won through.",
+      "examples": [
+        {
+          "en": "The team faced many problems but won through.",
+          "zh": "球隊面對很多問題，但最後仍然成功渡過難關。",
+          "highlight": "won through"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 WIN 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to WIN.",
+    "contextsZh": [
+      "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+      "最終勝出；證明比另一個人、想法或力量更強或更成功",
+      "說服某人改變看法，支持或接受某事",
+      "克服困難後最終成功；渡過難關"
+    ],
+    "contextsEn": [
+      "win somebody/something back",
+      "win out (over somebody/something)",
+      "win somebody over / win somebody round (to something)",
+      "win through"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 WIN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WIN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "WIN",
+    "fixedHighlight": "WIN",
+    "fixedZh": "閱讀整句，選出意思相同的 WIN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WIN expression that gives the same meaning.",
+    "correct": "win somebody/something back",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 him、her、it 或 them 時，請按照以上例子放在正確位置。 win out 和 win through 表達兩種不同的成功： ○ win out：某個想法、人物或團體最終勝出 ○ win through：經歷困難後最終成功",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: win it back win her over win him round Win out and win through describe different kinds of success: ○ win out: one idea, person or group finally proves stronger ○ win through: someone succeeds after experiencing difficulties",
+    "variableItemsZh": [
+      "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+      "最終勝出；證明比另一個人、想法或力量更強或更成功",
+      "說服某人改變看法，支持或接受某事",
+      "克服困難後最終成功；渡過難關"
+    ],
+    "variableItemsEn": [
+      "win somebody/something back",
+      "win out (over somebody/something)",
+      "win somebody over / win somebody round (to something)",
+      "win through"
+    ],
+    "forms": [
+      {
+        "formZh": "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+        "formEn": "win somebody/something back",
+        "exampleZh": "她希望重新取得隊中的位置。",
+        "exampleEn": "She hopes to win back her place in the team.",
+        "highlight": "win back"
+      },
+      {
+        "formZh": "最終勝出；證明比另一個人、想法或力量更強或更成功",
+        "formEn": "win out (over somebody/something)",
+        "exampleZh": "最後，較安全的計劃勝出。",
+        "exampleEn": "In the end, the safer plan won out.",
+        "highlight": "won out"
+      },
+      {
+        "formZh": "說服某人改變看法，支持或接受某事",
+        "formEn": "win somebody over / win somebody round (to something)",
+        "exampleZh": "我們最後說服爸爸接受我們的計劃。",
+        "exampleEn": "We finally won Dad round to our plan.",
+        "highlight": "won Dad round to"
+      },
+      {
+        "formZh": "克服困難後最終成功；渡過難關",
+        "formEn": "win through",
+        "exampleZh": "球隊面對很多問題，但最後仍然成功渡過難關。",
+        "exampleEn": "The team faced many problems but won through.",
+        "highlight": "won through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+      "titleEn": "win somebody/something back",
+      "formula": "win somebody/something back",
+      "highlight": "win somebody/something back",
+      "descriptionZh": "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+      "descriptionEn": "She hopes to win back her place in the team.",
+      "examples": [
+        {
+          "en": "She hopes to win back her place in the team.",
+          "zh": "她希望重新取得隊中的位置。",
+          "highlight": "win back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "最終勝出；證明比另一個人、想法或力量更強或更成功",
+      "titleEn": "win out (over somebody/something)",
+      "formula": "win out (over somebody/something)",
+      "highlight": "win out (over somebody/something)",
+      "descriptionZh": "最終勝出；證明比另一個人、想法或力量更強或更成功",
+      "descriptionEn": "In the end, the safer plan won out.",
+      "examples": [
+        {
+          "en": "In the end, the safer plan won out.",
+          "zh": "最後，較安全的計劃勝出。",
+          "highlight": "won out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "說服某人改變看法，支持或接受某事",
+      "titleEn": "win somebody over / win somebody round (to something)",
+      "formula": "win somebody over / win somebody round (to something)",
+      "highlight": "win somebody over / win somebody round (to something)",
+      "descriptionZh": "說服某人改變看法，支持或接受某事",
+      "descriptionEn": "We finally won Dad round to our plan.",
+      "examples": [
+        {
+          "en": "We finally won Dad round to our plan.",
+          "zh": "我們最後說服爸爸接受我們的計劃。",
+          "highlight": "won Dad round to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "克服困難後最終成功；渡過難關",
+      "titleEn": "win through",
+      "formula": "win through",
+      "highlight": "win through",
+      "descriptionZh": "克服困難後最終成功；渡過難關",
+      "descriptionEn": "The team faced many problems but won through.",
+      "examples": [
+        {
+          "en": "The team faced many problems but won through.",
+          "zh": "球隊面對很多問題，但最後仍然成功渡過難關。",
+          "highlight": "won through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論重新取得先前失去的事物",
+      "titleEn": "Talk about getting back something that was lost",
+      "zh": "win back 可以表示重新取得信任、支持、顧客、信心或隊中的位置。",
+      "en": "Win back can describe regaining trust, support, customers, confidence or a place in a team."
+    },
+    {
+      "titleZh": "自然地談論說服別人改變看法",
+      "titleEn": "Talk naturally about changing someone’s mind",
+      "zh": "win somebody over 和 win somebody round 可以表示成功說服某人接受或支持一個想法。",
+      "en": "Win somebody over and win somebody round can show that someone has been persuaded to accept or support an idea."
+    },
+    {
+      "titleZh": "描述哪一方最終勝出",
+      "titleEn": "Describe which side finally succeeds",
+      "zh": "win out 可以表示某個計劃、想法或力量最終勝過另一方。",
+      "en": "Win out can show that one plan, idea or force finally becomes stronger than another."
+    },
+    {
+      "titleZh": "描述經歷困難後取得成功",
+      "titleEn": "Describe success after a difficult time",
+      "zh": "win through 可以表示某人、家庭、球隊或機構面對嚴重問題後，最終仍然成功。",
+      "en": "Win through can show that a person, family, team or organisation finally succeeds despite serious problems."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+      "最終勝出；證明比另一個人、想法或力量更強或更成功",
+      "說服某人改變看法，支持或接受某事",
+      "克服困難後最終成功；渡過難關"
+    ],
+    "contextsEn": [
+      "win somebody/something back",
+      "win out (over somebody/something)",
+      "win somebody over / win somebody round (to something)",
+      "win through"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+        "titleEn": "win somebody/something back",
+        "zh": "重新贏得、取回或挽回先前失去的人、支持、信任、位置等",
+        "en": "She hopes to win back her place in the team.",
+        "examples": [
+          {
+            "en": "She hopes to win back her place in the team.",
+            "zh": "她希望重新取得隊中的位置。",
+            "highlight": "win back"
+          }
+        ]
+      },
+      {
+        "titleZh": "最終勝出；證明比另一個人、想法或力量更強或更成功",
+        "titleEn": "win out (over somebody/something)",
+        "zh": "最終勝出；證明比另一個人、想法或力量更強或更成功",
+        "en": "In the end, the safer plan won out.",
+        "examples": [
+          {
+            "en": "In the end, the safer plan won out.",
+            "zh": "最後，較安全的計劃勝出。",
+            "highlight": "won out"
+          }
+        ]
+      },
+      {
+        "titleZh": "說服某人改變看法，支持或接受某事",
+        "titleEn": "win somebody over / win somebody round (to something)",
+        "zh": "說服某人改變看法，支持或接受某事",
+        "en": "We finally won Dad round to our plan.",
+        "examples": [
+          {
+            "en": "We finally won Dad round to our plan.",
+            "zh": "我們最後說服爸爸接受我們的計劃。",
+            "highlight": "won Dad round to"
+          }
+        ]
+      },
+      {
+        "titleZh": "克服困難後最終成功；渡過難關",
+        "titleEn": "win through",
+        "zh": "克服困難後最終成功；渡過難關",
+        "en": "The team faced many problems but won through.",
+        "examples": [
+          {
+            "en": "The team faced many problems but won through.",
+            "zh": "球隊面對很多問題，但最後仍然成功渡過難關。",
+            "highlight": "won through"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 WIN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WIN expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 WIN 片語動詞。",
+      "en": "Read the whole sentence and choose the WIN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: win it back win her over win him round",
+      "zh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: win it back win her over win him round",
+      "examples": [
+        {
+          "en": "win it back",
+          "zh": "win it back",
+          "highlight": "win it back"
+        },
+        {
+          "en": "win her over",
+          "zh": "win her over",
+          "highlight": "win her over"
+        },
+        {
+          "en": "win him round",
+          "zh": "win him round",
+          "highlight": "win him round"
+        }
+      ]
+    },
+    {
+      "titleZh": "win out 和 win through 表達兩種不同的成功： ○ win out：某個想法、人物或團體最終勝出 ○ win through：經歷困難後最終成功",
+      "titleEn": "Win out and win through describe different kinds of success: ○ win out: one idea, person or group finally proves stronger ○ win through: someone succeeds after experiencing difficulties",
+      "zh": "win out 和 win through 表達兩種不同的成功： ○ win out：某個想法、人物或團體最終勝出 ○ win through：經歷困難後最終成功",
+      "en": "Win out and win through describe different kinds of success: ○ win out: one idea, person or group finally proves stronger ○ win through: someone succeeds after experiencing difficulties",
+      "examples": [
+        {
+          "en": "○ win through: someone succeeds after experiencing difficulties",
+          "zh": "○ win through: someone succeeds after experiencing difficulties",
+          "highlight": "win through"
+        }
+      ]
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WIN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WIN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WIN 動詞片語句子改寫練習",
+    "titleEn": "WIN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WIN 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WIN. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-20-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "Mia hopes to get her place in the school team again.",
+      "promptZh": "米婭希望重新取得校隊中的位置。",
+      "starter": "Mia",
+      "answer": "Mia hopes to win back her place in the school team.",
+      "answerZh": "米婭希望重新取得校隊中的位置。",
+      "highlight": "win back",
+      "targetForm": "win something back",
+      "targetMeaningZh": "重新取得先前失去的事物或位置"
+    },
+    {
+      "id": "phrasal-verb-20-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The coach explained the idea again and persuaded the players to support it.",
+      "promptZh": "教練再次解釋這個想法，並說服球員支持它。",
+      "starter": "The",
+      "answer": "The coach explained the idea again and won the players over to it.",
+      "answerZh": "教練再次解釋這個想法，並說服球員支持它。",
+      "highlight": "won the players over to",
+      "targetForm": "win somebody over to something",
+      "targetMeaningZh": "說服某人支持或接受某事"
+    },
+    {
+      "id": "phrasal-verb-20-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "In the end, the safer plan succeeded and the cheaper one was dropped.",
+      "promptZh": "最後，較安全的計劃成功獲選，較便宜的計劃則被放棄。",
+      "starter": "In",
+      "answer": "In the end, the safer plan won out over the cheaper one.",
+      "answerZh": "最後，較安全的計劃勝過了較便宜的計劃。",
+      "highlight": "won out",
+      "targetForm": "win out over something",
+      "targetMeaningZh": "最終勝過另一個選擇"
+    },
+    {
+      "id": "phrasal-verb-20-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We had many problems, but we succeeded in the end.",
+      "promptZh": "我們遇到很多問題，但最後仍然成功渡過難關。",
+      "starter": "We",
+      "answer": "We had many problems, but we won through in the end.",
+      "answerZh": "我們遇到很多問題，但最後仍然成功渡過難關。",
+      "highlight": "won through",
+      "targetForm": "win through",
+      "targetMeaningZh": "克服困難後最終成功"
+    },
+    {
+      "id": "phrasal-verb-20-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The shop is trying to persuade its former customers to return.",
+      "promptZh": "這間店正嘗試說服以前的顧客再次光顧。",
+      "starter": "The",
+      "answer": "The shop is trying to win its former customers back.",
+      "answerZh": "這間店正嘗試令以前的顧客再次光顧。",
+      "highlight": "win its former customers back",
+      "targetForm": "win somebody back",
+      "targetMeaningZh": "重新吸引先前離開的人"
+    },
+    {
+      "id": "phrasal-verb-20-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Leo did not like the plan at first, but Sara persuaded him to accept it.",
+      "promptZh": "里奧起初不喜歡這個計劃，但莎拉說服了他接受。",
+      "starter": "Leo",
+      "answer": "Leo did not like the plan at first, but Sara won him over to the plan.",
+      "answerZh": "里奧起初不喜歡這個計劃，但莎拉說服了他接受。",
+      "highlight": "won him over to",
+      "targetForm": "win somebody over to something",
+      "targetMeaningZh": "說服某人接受某事"
+    },
+    {
+      "id": "phrasal-verb-20-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The family faced a very difficult year but succeeded together.",
+      "promptZh": "這個家庭面對非常艱難的一年，但大家一起渡過了難關。",
+      "starter": "The",
+      "answer": "The family faced a very difficult year but won through together.",
+      "answerZh": "這個家庭面對非常艱難的一年，但大家一起渡過了難關。",
+      "highlight": "won through",
+      "targetForm": "win through",
+      "targetMeaningZh": "經歷困難後成功渡過難關"
+    },
+    {
+      "id": "phrasal-verb-20-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Honesty was stronger than fear in the end.",
+      "promptZh": "最後，誠實戰勝了恐懼。",
+      "starter": "Honesty",
+      "answer": "Honesty won out over fear in the end.",
+      "answerZh": "最後，誠實戰勝了恐懼。",
+      "highlight": "won out",
+      "targetForm": "win out over something",
+      "targetMeaningZh": "最終戰勝另一種力量"
+    },
+    {
+      "id": "phrasal-verb-20-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "After a long talk, we persuaded Dad to accept our idea.",
+      "promptZh": "經過一番長談後，我們說服爸爸接受我們的想法。",
+      "starter": "After",
+      "answer": "After a long talk, we won Dad round to our idea.",
+      "answerZh": "經過一番長談後，我們說服爸爸接受我們的想法。",
+      "highlight": "won Dad round to",
+      "targetForm": "win somebody round to something",
+      "targetMeaningZh": "說服某人改變看法並接受某事"
+    },
+    {
+      "id": "phrasal-verb-20-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The singer hopes to make the fans trust her again.",
+      "promptZh": "這位歌手希望重新贏得歌迷的信任。",
+      "starter": "The",
+      "answer": "The singer hopes to win back the fans’ trust.",
+      "answerZh": "這位歌手希望重新贏得歌迷的信任。",
+      "highlight": "win back",
+      "targetForm": "win back something",
+      "targetMeaningZh": "重新贏得先前失去的信任或支持"
+    },
+    {
+      "id": "phrasal-verb-20-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Sometimes kindness becomes stronger than anger.",
+      "promptZh": "有時，善意最終會戰勝憤怒。",
+      "starter": "Sometimes",
+      "answer": "Sometimes kindness wins out over anger.",
+      "answerZh": "有時，善意最終會戰勝憤怒。",
+      "highlight": "wins out",
+      "targetForm": "win out over something",
+      "targetMeaningZh": "最終勝過另一種力量"
+    },
+    {
+      "id": "phrasal-verb-20-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Do you think we will succeed despite all these problems?",
+      "promptZh": "你認為我們能克服所有這些問題，最後成功嗎？",
+      "starter": "Do",
+      "answer": "Do you think we will win through despite all these problems?",
+      "answerZh": "你認為我們能克服所有這些問題，最後成功嗎？",
+      "highlight": "win through",
+      "targetForm": "win through",
+      "targetMeaningZh": "克服困難後最終成功"
+    },
+    {
+      "id": "phrasal-verb-20-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Nina has slowly earned her teacher’s trust again.",
+      "promptZh": "妮娜逐漸重新贏得老師的信任。",
+      "starter": "Nina",
+      "answer": "Nina has slowly won back her teacher’s trust.",
+      "answerZh": "妮娜逐漸重新贏得老師的信任。",
+      "highlight": "won back",
+      "targetForm": "win back something",
+      "targetMeaningZh": "重新贏得先前失去的信任"
+    },
+    {
+      "id": "phrasal-verb-20-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The new teacher is slowly persuading the class to accept her ideas.",
+      "promptZh": "這位新老師正慢慢說服全班接受她的想法。",
+      "starter": "The",
+      "answer": "The new teacher is slowly winning the class over to her ideas.",
+      "answerZh": "這位新老師正慢慢說服全班接受她的想法。",
+      "highlight": "winning the class over to",
+      "targetForm": "win somebody over to something",
+      "targetMeaningZh": "說服某人支持或接受某事"
+    },
+    {
+      "id": "phrasal-verb-20-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The local people may finally succeed against the company and save the park.",
+      "promptZh": "當地居民最終可能會勝過那家公司，保住公園。",
+      "starter": "The",
+      "answer": "The local people may finally win out over the company and save the park.",
+      "answerZh": "當地居民最終可能會勝過那家公司，保住公園。",
+      "highlight": "win out",
+      "targetForm": "win out over somebody",
+      "targetMeaningZh": "最終勝過另一方"
+    },
+    {
+      "id": "phrasal-verb-20-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The team has faced a hard season, but it has finally succeeded.",
+      "promptZh": "球隊經歷了一個艱難的球季，但最後成功渡過難關。",
+      "starter": "The",
+      "answer": "The team has faced a hard season, but it has finally won through.",
+      "answerZh": "球隊經歷了一個艱難的球季，但最後成功渡過難關。",
+      "highlight": "won through",
+      "targetForm": "win through",
+      "targetMeaningZh": "經歷困難後最終成功"
+    },
+    {
+      "id": "phrasal-verb-20-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Could you persuade Maya to support our plan?",
+      "promptZh": "你可以說服瑪雅支持我們的計劃嗎？",
+      "starter": "Could",
+      "answer": "Could you win Maya round to our plan?",
+      "answerZh": "你可以說服瑪雅支持我們的計劃嗎？",
+      "highlight": "win Maya round to",
+      "targetForm": "win somebody round to something",
+      "targetMeaningZh": "說服某人接受或支持某事"
+    },
+    {
+      "id": "phrasal-verb-20-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The restaurant is working hard to make its former customers return.",
+      "promptZh": "這間餐廳正努力令以前的顧客再次光顧。",
+      "starter": "The",
+      "answer": "The restaurant is working hard to win its former customers back.",
+      "answerZh": "這間餐廳正努力令以前的顧客再次光顧。",
+      "highlight": "win its former customers back",
+      "targetForm": "win somebody back",
+      "targetMeaningZh": "重新吸引先前離開的人"
+    },
+    {
+      "id": "phrasal-verb-20-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Even if the work becomes difficult, we can still succeed.",
+      "promptZh": "即使工作變得困難，我們仍能成功渡過難關。",
+      "starter": "Even",
+      "answer": "Even if the work becomes difficult, we can still win through.",
+      "answerZh": "即使工作變得困難，我們仍能成功渡過難關。",
+      "highlight": "win through",
+      "targetForm": "win through",
+      "targetMeaningZh": "面對困難後仍然成功"
+    },
+    {
+      "id": "phrasal-verb-20-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The first idea did not succeed; the simpler idea was accepted in the end.",
+      "promptZh": "第一個想法沒有成功；最後大家接受了較簡單的想法。",
+      "starter": "The",
+      "answer": "The first idea did not win out; the simpler idea was accepted in the end.",
+      "answerZh": "第一個想法沒有勝出；最後大家接受了較簡單的想法。",
+      "highlight": "win out",
+      "targetForm": "win out",
+      "targetMeaningZh": "最終勝出或獲得成功"
+    },
+    {
+      "id": "phrasal-verb-20-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Mum disliked the new timetable at first, but the clear plan persuaded her.",
+      "promptZh": "媽媽起初不喜歡新的時間表，但清楚的計劃說服了她。",
+      "starter": "Mum",
+      "answer": "Mum disliked the new timetable at first, but the clear plan won her over.",
+      "answerZh": "媽媽起初不喜歡新的時間表，但清楚的計劃說服了她。",
+      "highlight": "won her over",
+      "targetForm": "win somebody over",
+      "targetMeaningZh": "說服某人改變看法"
+    },
+    {
+      "id": "phrasal-verb-20-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "I lost my place in the music group, but I am determined to get it again.",
+      "promptZh": "我失去了音樂小組中的位置，但我決心重新取得它。",
+      "starter": "I",
+      "answer": "I lost my place in the music group, but I am determined to win it back.",
+      "answerZh": "我失去了音樂小組中的位置，但我決心重新取得它。",
+      "highlight": "win it back",
+      "targetForm": "win something back",
+      "targetMeaningZh": "重新取得先前失去的事物或位置"
+    },
+    {
+      "id": "phrasal-verb-20-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The small business had very little money and many problems, but it succeeded in the end.",
+      "promptZh": "這間小公司資金很少，也遇到很多問題，但最後仍然成功渡過難關。",
+      "starter": "The",
+      "answer": "The small business had very little money and many problems, but it won through in the end.",
+      "answerZh": "這間小公司資金很少，也遇到很多問題，但最後仍然成功渡過難關。",
+      "highlight": "won through",
+      "targetForm": "win through",
+      "targetMeaningZh": "經歷嚴重困難後最終成功"
+    },
+    {
+      "id": "phrasal-verb-20-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "When money and happiness were compared, happiness was judged more important.",
+      "promptZh": "比較金錢和快樂時，大家認為快樂更重要。",
+      "starter": "When",
+      "answer": "When money and happiness were compared, happiness won out.",
+      "answerZh": "比較金錢和快樂時，快樂最後勝出。",
+      "highlight": "won out",
+      "targetForm": "win out",
+      "targetMeaningZh": "比較之下最終勝出"
+    },
+    {
+      "id": "phrasal-verb-20-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The children were against the idea, but the free games persuaded them.",
+      "promptZh": "孩子們反對這個想法，但免費遊戲說服了他們。",
+      "starter": "The",
+      "answer": "The children were against the idea, but the free games won them over.",
+      "answerZh": "孩子們反對這個想法，但免費遊戲說服了他們。",
+      "highlight": "won them over",
+      "targetForm": "win somebody over",
+      "targetMeaningZh": "說服某人改變看法"
+    },
+    {
+      "id": "phrasal-verb-20-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The company lost many buyers last year, but better service is persuading them to return.",
+      "promptZh": "公司去年失去了很多顧客，但更好的服務正說服他們回來。",
+      "starter": "The",
+      "answer": "The company lost many buyers last year, but better service is winning them back.",
+      "answerZh": "公司去年失去了很多顧客，但更好的服務正令他們回來。",
+      "highlight": "winning them back",
+      "targetForm": "win somebody back",
+      "targetMeaningZh": "重新吸引先前離開的人"
+    },
+    {
+      "id": "phrasal-verb-20-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I did not agree at first, but her simple example persuaded me to accept the plan.",
+      "promptZh": "我起初不同意，但她的簡單例子說服我接受這個計劃。",
+      "starter": "I",
+      "answer": "I did not agree at first, but her simple example won me round to the plan.",
+      "answerZh": "我起初不同意，但她的簡單例子說服我接受這個計劃。",
+      "highlight": "won me round to",
+      "targetForm": "win somebody round to something",
+      "targetMeaningZh": "說服某人改變看法並接受某事"
+    },
+    {
+      "id": "phrasal-verb-20-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "They were tired and worried, yet they finally succeeded together.",
+      "promptZh": "他們既疲倦又擔心，但最後仍一起成功渡過難關。",
+      "starter": "They",
+      "answer": "They were tired and worried, yet they finally won through together.",
+      "answerZh": "他們既疲倦又擔心，但最後仍一起成功渡過難關。",
+      "highlight": "won through",
+      "targetForm": "win through",
+      "targetMeaningZh": "經歷困難後最終成功"
+    },
+    {
+      "id": "phrasal-verb-20-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The team lost the lead but managed to get it again before half-time.",
+      "promptZh": "球隊失去了領先優勢，但在半場前重新取得了領先。",
+      "starter": "The",
+      "answer": "The team lost the lead but managed to win it back before half-time.",
+      "answerZh": "球隊失去了領先優勢，但在半場前重新取得了領先。",
+      "highlight": "win it back",
+      "targetForm": "win something back",
+      "targetMeaningZh": "重新取得先前失去的事物或優勢"
+    },
+    {
+      "id": "phrasal-verb-20-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "In the end, careful thinking was stronger than panic.",
+      "promptZh": "最後，冷靜思考戰勝了恐慌。",
+      "starter": "In",
+      "answer": "In the end, careful thinking won out over panic.",
+      "answerZh": "最後，冷靜思考戰勝了恐慌。",
+      "highlight": "won out",
+      "targetForm": "win out over something",
+      "targetMeaningZh": "最終勝過另一種力量"
+    },
+    {
+      "id": "phrasal-verb-20-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The students faced one problem after another, but they still completed the project successfully.",
+      "promptZh": "學生接連遇到問題，但最後仍然成功完成了專題。",
+      "starter": "The",
+      "answer": "The students faced one problem after another, but they won through and completed the project.",
+      "answerZh": "學生接連遇到問題，但最後仍然成功完成了專題。",
+      "highlight": "won through",
+      "targetForm": "win through",
+      "targetMeaningZh": "克服連串困難後最終成功"
+    },
+    {
+      "id": "phrasal-verb-20-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The old rule seemed certain to stay, but the new rule was finally accepted instead.",
+      "promptZh": "舊規則看來一定會保留，但最後大家改為接受新規則。",
+      "starter": "The",
+      "answer": "The old rule seemed certain to stay, but the new rule finally won out.",
+      "answerZh": "舊規則看來一定會保留，但最後新規則勝出。",
+      "highlight": "won out",
+      "targetForm": "win out",
+      "targetMeaningZh": "最後獲得接受或勝出"
+    },
+    {
+      "id": "phrasal-verb-20-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The manager was unsure about the change. A short trial persuaded her to support it.",
+      "promptZh": "經理不確定是否應作出改變。一次短期試行說服了她支持這項改變。",
+      "starter": "The",
+      "answer": "The manager was unsure about the change. A short trial won her over to the change.",
+      "answerZh": "經理不確定是否應作出改變。一次短期試行說服了她支持這項改變。",
+      "highlight": "won her over to",
+      "targetForm": "win somebody over to something",
+      "targetMeaningZh": "說服某人支持或接受某事"
+    },
+    {
+      "id": "phrasal-verb-20-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "One honest apology helped him earn his friend’s respect again.",
+      "promptZh": "一次真誠的道歉幫助他重新贏得朋友的尊重。",
+      "starter": "One",
+      "answer": "One honest apology helped him win back his friend’s respect.",
+      "answerZh": "一次真誠的道歉幫助他重新贏得朋友的尊重。",
+      "highlight": "win back",
+      "targetForm": "win back something",
+      "targetMeaningZh": "重新贏得先前失去的尊重"
+    },
+    {
+      "id": "phrasal-verb-20-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although the journey was long and difficult, the group finally succeeded in reaching safety.",
+      "promptZh": "雖然旅程又長又艱難，但這群人最後仍成功抵達安全地方。",
+      "starter": "Although",
+      "answer": "Although the journey was long and difficult, the group won through and reached safety.",
+      "answerZh": "雖然旅程又長又艱難，但這群人最後仍成功抵達安全地方。",
+      "highlight": "won through",
+      "targetForm": "win through",
+      "targetMeaningZh": "經歷困難後成功渡過難關"
+    },
+    {
+      "id": "phrasal-verb-20-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The parents wanted a cheaper trip, but the children’s beach plan was chosen in the end.",
+      "promptZh": "父母想選較便宜的旅程，但最後孩子們的海灘計劃獲選。",
+      "starter": "The",
+      "answer": "The parents wanted a cheaper trip, but the children’s beach plan won out in the end.",
+      "answerZh": "父母想選較便宜的旅程，但最後孩子們的海灘計劃勝出。",
+      "highlight": "won out",
+      "targetForm": "win out",
+      "targetMeaningZh": "在多個選擇中最終勝出"
+    },
+    {
+      "id": "phrasal-verb-20-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "No one liked our poster at first, but its funny message made the class support it.",
+      "promptZh": "起初沒有人喜歡我們的海報，但有趣的訊息令全班支持它。",
+      "starter": "No",
+      "answer": "No one liked our poster at first, but its funny message won the class over.",
+      "answerZh": "起初沒有人喜歡我們的海報，但有趣的訊息說服了全班支持它。",
+      "highlight": "won the class over",
+      "targetForm": "win somebody over",
+      "targetMeaningZh": "說服某人改變看法並給予支持"
+    },
+    {
+      "id": "phrasal-verb-20-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We may have more problems ahead, but I believe we will still succeed.",
+      "promptZh": "前面可能還有更多問題，但我相信我們最後仍會成功。",
+      "starter": "We",
+      "answer": "We may have more problems ahead, but I believe we will still win through.",
+      "answerZh": "前面可能還有更多問題，但我相信我們最後仍會成功。",
+      "highlight": "win through",
+      "targetForm": "win through",
+      "targetMeaningZh": "面對困難後仍然取得成功"
+    },
+    {
+      "id": "phrasal-verb-20-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The player lost her place in the team, but strong performances helped her regain it.",
+      "promptZh": "這名球員失去了隊中的位置，但出色表現幫助她重新取得位置。",
+      "starter": "The",
+      "answer": "The player lost her place in the team, but strong performances helped her win it back.",
+      "answerZh": "這名球員失去了隊中的位置，但出色表現幫助她重新取得位置。",
+      "highlight": "win it back",
+      "targetForm": "win something back",
+      "targetMeaningZh": "重新取得先前失去的位置"
+    },
+    {
+      "id": "phrasal-verb-20-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The two ideas were both popular, but the easier one proved stronger.",
+      "promptZh": "兩個想法都很受歡迎，但較容易的一個最後證明更可行。",
+      "starter": "The",
+      "answer": "The two ideas were both popular, but the easier one won out.",
+      "answerZh": "兩個想法都很受歡迎，但較容易的一個最後勝出。",
+      "highlight": "won out",
+      "targetForm": "win out",
+      "targetMeaningZh": "最終證明較成功或較可行"
+    },
+    {
+      "id": "phrasal-verb-20-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After months of poor service, the hotel changed its staff and slowly made guests trust it again.",
+      "promptZh": "經過幾個月的差劣服務後，酒店更換了員工，並慢慢重新贏得住客的信任。",
+      "starter": "After",
+      "answer": "After months of poor service, the hotel changed its staff and slowly won back its guests’ trust.",
+      "answerZh": "經過幾個月的差劣服務後，酒店更換了員工，並慢慢重新贏得住客的信任。",
+      "highlight": "won back",
+      "targetForm": "win back something",
+      "targetMeaningZh": "重新贏得先前失去的信任"
+    },
+    {
+      "id": "phrasal-verb-20-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "At first, the club members rejected my idea, but a small one-day event made them support it.",
+      "promptZh": "起初，社團成員拒絕我的想法，但一個小型的一日活動令他們支持它。",
+      "starter": "At",
+      "answer": "At first, the club members rejected my idea, but a small one-day event won them over.",
+      "answerZh": "起初，社團成員拒絕我的想法，但一個小型的一日活動說服了他們支持它。",
+      "highlight": "won them over",
+      "targetForm": "win somebody over",
+      "targetMeaningZh": "說服某人改變看法並給予支持"
+    },
+    {
+      "id": "phrasal-verb-20-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The exam week was harder than we expected, but we helped one another and succeeded.",
+      "promptZh": "考試週比我們預期更困難，但我們互相幫助，最後成功渡過。",
+      "starter": "The",
+      "answer": "The exam week was harder than we expected, but we helped one another and won through.",
+      "answerZh": "考試週比我們預期更困難，但我們互相幫助，最後成功渡過。",
+      "highlight": "won through",
+      "targetForm": "win through",
+      "targetMeaningZh": "互相幫助並克服困難後成功"
+    },
+    {
+      "id": "phrasal-verb-20-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The louder voices controlled the discussion at first, but calm advice was accepted in the end.",
+      "promptZh": "起初聲音較大的人控制了討論，但最後大家接受了冷靜的建議。",
+      "starter": "The",
+      "answer": "The louder voices controlled the discussion at first, but calm advice won out in the end.",
+      "answerZh": "起初聲音較大的人控制了討論，但最後冷靜的建議勝出。",
+      "highlight": "won out",
+      "targetForm": "win out",
+      "targetMeaningZh": "最終獲得接受或證明更有力量"
+    },
+    {
+      "id": "phrasal-verb-20-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The shop lost many regular buyers after raising prices, but a new offer persuaded them to return.",
+      "promptZh": "店舖加價後失去了很多熟客，但新優惠說服他們再次光顧。",
+      "starter": "The",
+      "answer": "The shop lost many regular buyers after raising prices, but a new offer won them back.",
+      "answerZh": "店舖加價後失去了很多熟客，但新優惠令他們再次光顧。",
+      "highlight": "won them back",
+      "targetForm": "win somebody back",
+      "targetMeaningZh": "重新吸引先前離開的人"
+    },
+    {
+      "id": "phrasal-verb-20-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Dad was certain that the trip was too expensive, but our carefully prepared budget finally persuaded him.",
+      "promptZh": "爸爸肯定這次旅行太昂貴，但我們仔細編製的預算最後說服了他。",
+      "starter": "Dad",
+      "answer": "Dad was certain that the trip was too expensive, but our carefully prepared budget finally won him round.",
+      "answerZh": "爸爸肯定這次旅行太昂貴，但我們仔細編製的預算最後說服了他。",
+      "highlight": "won him round",
+      "targetForm": "win somebody round",
+      "targetMeaningZh": "說服某人改變看法"
+    },
+    {
+      "id": "phrasal-verb-20-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The quick solution looked attractive, yet the safer choice proved better after careful thought.",
+      "promptZh": "快速的解決方法看來很吸引，但仔細考慮後，較安全的選擇證明更好。",
+      "starter": "The",
+      "answer": "The quick solution looked attractive, yet the safer choice won out after careful thought.",
+      "answerZh": "快速的解決方法看來很吸引，但仔細考慮後，較安全的選擇最後勝出。",
+      "highlight": "won out",
+      "targetForm": "win out",
+      "targetMeaningZh": "經過比較後最終勝出"
+    },
+    {
+      "id": "phrasal-verb-20-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "For several months, the team had injuries and little time to practise, but it still succeeded in the end.",
+      "promptZh": "幾個月來，球隊有球員受傷，也沒有太多時間練習，但最後仍然成功渡過難關。",
+      "starter": "For",
+      "answer": "For several months, the team had injuries and little time to practise, but it still won through in the end.",
+      "answerZh": "幾個月來，球隊有球員受傷，也沒有太多時間練習，但最後仍然成功渡過難關。",
+      "highlight": "won through",
+      "targetForm": "win through",
+      "targetMeaningZh": "經歷長時間困難後最終成功"
+    },
+    {
+      "id": "phrasal-verb-20-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The teacher did not support the idea at first, but the students’ clear example made her accept it.",
+      "promptZh": "老師起初不支持這個想法，但學生清楚的例子令她接受了。",
+      "starter": "The",
+      "answer": "The teacher did not support the idea at first, but the students’ clear example won her over.",
+      "answerZh": "老師起初不支持這個想法，但學生清楚的例子說服了她接受。",
+      "highlight": "won her over",
+      "targetForm": "win somebody over",
+      "targetMeaningZh": "說服某人改變看法並接受某事"
+    },
+    {
+      "id": "phrasal-verb-20-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "I lost my confidence after the mistake, but small successes helped me regain it.",
+      "promptZh": "我犯錯後失去了信心，但一次又一次的小成功幫助我重新找回信心。",
+      "starter": "I",
+      "answer": "I lost my confidence after the mistake, but small successes helped me win it back.",
+      "answerZh": "我犯錯後失去了信心，但一次又一次的小成功幫助我重新找回信心。",
+      "highlight": "win it back",
+      "targetForm": "win something back",
+      "targetMeaningZh": "重新取得先前失去的信心"
+    }
+  ]
+}

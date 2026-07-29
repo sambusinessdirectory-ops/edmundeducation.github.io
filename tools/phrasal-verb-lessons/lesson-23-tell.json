@@ -1,0 +1,1547 @@
+{
+  "id": "phrasal-verb-23",
+  "order": 23,
+  "slug": "tell",
+  "version": "1",
+  "title": "TELL 動詞片語",
+  "titleEn": "Tell",
+  "titleZh": "TELL 動詞片語",
+  "level": "B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 22 - TELL.pdf",
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TELL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TELL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TELL",
+      "highlight": "TELL"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Her lack of experience told against her.",
+      "zh": "她缺乏經驗，這一點對她不利。",
+      "highlight": "told against"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "I can never tell the twins apart.",
+      "zh": "我總是分不出這對雙胞胎。",
+      "highlight": "tell the twins apart"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Can you tell a real diamond from a fake one?",
+      "zh": "你能分辨真鑽石和假鑽石嗎？",
+      "highlight": "tell a real diamond from"
+    }
+  ],
+  "meaning": {
+    "zh": "成為對某人不利的因素，令某人較難成功、獲選或得到好評；分辨兩個或多個很相似的人或事物；分辨某人或某物與另一人或物；講述、報告或顯示某事；因某人做錯事而責罵對方；把某人做錯的事告訴老師、家長或其他負責人；告狀。",
+    "en": "Learn and practise the phrasal verbs related to TELL.",
+    "naturalZh": [
+      "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+      "分辨兩個或多個很相似的人或事物",
+      "分辨某人或某物與另一人或物",
+      "講述、報告或顯示某事",
+      "因某人做錯事而責罵對方",
+      "把某人做錯的事告訴老師、家長或其他負責人；告狀"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "tell against somebody",
+      "titleZh": "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+      "titleEn": "tell against somebody",
+      "descriptionZh": "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+      "descriptionEn": "Her lack of experience told against her.",
+      "examples": [
+        {
+          "en": "Her lack of experience told against her.",
+          "zh": "她缺乏經驗，這一點對她不利。",
+          "highlight": "told against"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "tell somebody/something apart",
+      "titleZh": "分辨兩個或多個很相似的人或事物",
+      "titleEn": "tell somebody/something apart",
+      "descriptionZh": "分辨兩個或多個很相似的人或事物",
+      "descriptionEn": "I can never tell the twins apart.",
+      "examples": [
+        {
+          "en": "I can never tell the twins apart.",
+          "zh": "我總是分不出這對雙胞胎。",
+          "highlight": "tell the twins apart"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "tell somebody/something from somebody/something",
+      "titleZh": "分辨某人或某物與另一人或物",
+      "titleEn": "tell somebody/something from somebody/something",
+      "descriptionZh": "分辨某人或某物與另一人或物",
+      "descriptionEn": "Can you tell a real diamond from a fake one?",
+      "examples": [
+        {
+          "en": "Can you tell a real diamond from a fake one?",
+          "zh": "你能分辨真鑽石和假鑽石嗎？",
+          "highlight": "tell a real diamond from"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 2,
+      "formula": "tell of something",
+      "titleZh": "講述、報告或顯示某事",
+      "titleEn": "tell of something",
+      "descriptionZh": "講述、報告或顯示某事",
+      "descriptionEn": "The report told of several design errors.",
+      "examples": [
+        {
+          "en": "The report told of several design errors.",
+          "zh": "報告指出了數個設計錯誤。",
+          "highlight": "told of"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "pageGroup": 2,
+      "formula": "tell somebody off for something / for doing something",
+      "titleZh": "因某人做錯事而責罵對方",
+      "titleEn": "tell somebody off for something / for doing something",
+      "descriptionZh": "因某人做錯事而責罵對方",
+      "descriptionEn": "Dad told me off for leaving the door open.",
+      "examples": [
+        {
+          "en": "Dad told me off for leaving the door open.",
+          "zh": "爸爸因我沒有關門而責罵我。",
+          "highlight": "told me off"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "tell on somebody",
+      "titleZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
+      "titleEn": "tell on somebody",
+      "descriptionZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
+      "descriptionEn": "Ben broke the rule, and Mia told on him.",
+      "examples": [
+        {
+          "en": "Ben broke the rule, and Mia told on him.",
+          "zh": "賓違反了規則，米婭便告了他的狀。",
+          "highlight": "told on"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 TELL 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to TELL.",
+    "contextsZh": [
+      "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+      "分辨兩個或多個很相似的人或事物",
+      "分辨某人或某物與另一人或物",
+      "講述、報告或顯示某事",
+      "因某人做錯事而責罵對方",
+      "把某人做錯的事告訴老師、家長或其他負責人；告狀"
+    ],
+    "contextsEn": [
+      "tell against somebody",
+      "tell somebody/something apart",
+      "tell somebody/something from somebody/something",
+      "tell of something",
+      "tell somebody off for something / for doing something",
+      "tell on somebody"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 TELL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TELL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "TELL",
+    "fixedHighlight": "TELL",
+    "fixedZh": "閱讀整句，選出意思相同的 TELL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TELL expression that gives the same meaning.",
+    "correct": "tell against somebody",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 tell … apart 時，把相似的人或事物作為一組來分辨。使用 tell A from B 時，直接比較兩者。 使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Use tell … apart when similar people or things are treated as a pair. Use tell A from B when one person or thing is compared directly with another. I cannot tell the twins apart. Can you tell a real note from a fake one? When using him, her, it or them, follow these examples: tell him off tell them apart tell on her",
+    "variableItemsZh": [
+      "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+      "分辨兩個或多個很相似的人或事物",
+      "分辨某人或某物與另一人或物",
+      "講述、報告或顯示某事",
+      "因某人做錯事而責罵對方",
+      "把某人做錯的事告訴老師、家長或其他負責人；告狀"
+    ],
+    "variableItemsEn": [
+      "tell against somebody",
+      "tell somebody/something apart",
+      "tell somebody/something from somebody/something",
+      "tell of something",
+      "tell somebody off for something / for doing something",
+      "tell on somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+        "formEn": "tell against somebody",
+        "exampleZh": "她缺乏經驗，這一點對她不利。",
+        "exampleEn": "Her lack of experience told against her.",
+        "highlight": "told against"
+      },
+      {
+        "formZh": "分辨兩個或多個很相似的人或事物",
+        "formEn": "tell somebody/something apart",
+        "exampleZh": "我總是分不出這對雙胞胎。",
+        "exampleEn": "I can never tell the twins apart.",
+        "highlight": "tell the twins apart"
+      },
+      {
+        "formZh": "分辨某人或某物與另一人或物",
+        "formEn": "tell somebody/something from somebody/something",
+        "exampleZh": "你能分辨真鑽石和假鑽石嗎？",
+        "exampleEn": "Can you tell a real diamond from a fake one?",
+        "highlight": "tell a real diamond from"
+      },
+      {
+        "formZh": "講述、報告或顯示某事",
+        "formEn": "tell of something",
+        "exampleZh": "報告指出了數個設計錯誤。",
+        "exampleEn": "The report told of several design errors.",
+        "highlight": "told of"
+      },
+      {
+        "formZh": "因某人做錯事而責罵對方",
+        "formEn": "tell somebody off for something / for doing something",
+        "exampleZh": "爸爸因我沒有關門而責罵我。",
+        "exampleEn": "Dad told me off for leaving the door open.",
+        "highlight": "told me off"
+      },
+      {
+        "formZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
+        "formEn": "tell on somebody",
+        "exampleZh": "賓違反了規則，米婭便告了他的狀。",
+        "exampleEn": "Ben broke the rule, and Mia told on him.",
+        "highlight": "told on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+      "titleEn": "tell against somebody",
+      "formula": "tell against somebody",
+      "highlight": "tell against somebody",
+      "descriptionZh": "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+      "descriptionEn": "Her lack of experience told against her.",
+      "examples": [
+        {
+          "en": "Her lack of experience told against her.",
+          "zh": "她缺乏經驗，這一點對她不利。",
+          "highlight": "told against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "分辨兩個或多個很相似的人或事物",
+      "titleEn": "tell somebody/something apart",
+      "formula": "tell somebody/something apart",
+      "highlight": "tell somebody/something apart",
+      "descriptionZh": "分辨兩個或多個很相似的人或事物",
+      "descriptionEn": "I can never tell the twins apart.",
+      "examples": [
+        {
+          "en": "I can never tell the twins apart.",
+          "zh": "我總是分不出這對雙胞胎。",
+          "highlight": "tell the twins apart"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "分辨某人或某物與另一人或物",
+      "titleEn": "tell somebody/something from somebody/something",
+      "formula": "tell somebody/something from somebody/something",
+      "highlight": "tell somebody/something from somebody/something",
+      "descriptionZh": "分辨某人或某物與另一人或物",
+      "descriptionEn": "Can you tell a real diamond from a fake one?",
+      "examples": [
+        {
+          "en": "Can you tell a real diamond from a fake one?",
+          "zh": "你能分辨真鑽石和假鑽石嗎？",
+          "highlight": "tell a real diamond from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "講述、報告或顯示某事",
+      "titleEn": "tell of something",
+      "formula": "tell of something",
+      "highlight": "tell of something",
+      "descriptionZh": "講述、報告或顯示某事",
+      "descriptionEn": "The report told of several design errors.",
+      "examples": [
+        {
+          "en": "The report told of several design errors.",
+          "zh": "報告指出了數個設計錯誤。",
+          "highlight": "told of"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "因某人做錯事而責罵對方",
+      "titleEn": "tell somebody off for something / for doing something",
+      "formula": "tell somebody off for something / for doing something",
+      "highlight": "tell somebody off for something / for doing something",
+      "descriptionZh": "因某人做錯事而責罵對方",
+      "descriptionEn": "Dad told me off for leaving the door open.",
+      "examples": [
+        {
+          "en": "Dad told me off for leaving the door open.",
+          "zh": "爸爸因我沒有關門而責罵我。",
+          "highlight": "told me off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
+      "titleEn": "tell on somebody",
+      "formula": "tell on somebody",
+      "highlight": "tell on somebody",
+      "descriptionZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
+      "descriptionEn": "Ben broke the rule, and Mia told on him.",
+      "examples": [
+        {
+          "en": "Ben broke the rule, and Mia told on him.",
+          "zh": "賓違反了規則，米婭便告了他的狀。",
+          "highlight": "told on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "說明某件事為何會減低某人的成功機會",
+      "titleEn": "Explain why something may reduce a person’s chance of success",
+      "zh": "tell against somebody 可以表示某項弱點、錯誤或遺漏的文件對某人造成不利影響。",
+      "en": "Tell against somebody is useful when a weakness, mistake or missing document puts someone at a disadvantage."
+    },
+    {
+      "titleZh": "分辨外表或感覺相似的人和事物",
+      "titleEn": "Compare people and things that look or seem similar",
+      "zh": "tell apart 和 tell A from B 可以用來談論雙胞胎、相似產品、真偽物件、顏色和聲音等。",
+      "en": "Tell apart and tell A from B help you talk about twins, similar products, real and fake objects, colours, sounds and many other comparisons."
+    },
+    {
+      "titleZh": "理解報告、信件和故事中的描述",
+      "titleEn": "Understand formal descriptions in reports, letters and stories",
+      "zh": "tell of something 常用於表示報告、書籍、信件或照片講述某件事或某段經歷。",
+      "en": "Tell of something often appears when a report, book, letter or photograph gives information about an event or experience."
+    },
+    {
+      "titleZh": "清楚談論責罵和告狀",
+      "titleEn": "Talk clearly about rules and wrongdoing",
+      "zh": "tell somebody off 表示責罵某人；tell on somebody 則表示把某人做錯的事告訴其他人。",
+      "en": "Tell somebody off describes scolding someone, while tell on somebody describes reporting what that person has done."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+      "分辨兩個或多個很相似的人或事物",
+      "分辨某人或某物與另一人或物",
+      "講述、報告或顯示某事",
+      "因某人做錯事而責罵對方",
+      "把某人做錯的事告訴老師、家長或其他負責人；告狀"
+    ],
+    "contextsEn": [
+      "tell against somebody",
+      "tell somebody/something apart",
+      "tell somebody/something from somebody/something",
+      "tell of something",
+      "tell somebody off for something / for doing something",
+      "tell on somebody"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+        "titleEn": "tell against somebody",
+        "zh": "成為對某人不利的因素，令某人較難成功、獲選或得到好評",
+        "en": "Her lack of experience told against her.",
+        "examples": [
+          {
+            "en": "Her lack of experience told against her.",
+            "zh": "她缺乏經驗，這一點對她不利。",
+            "highlight": "told against"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨兩個或多個很相似的人或事物",
+        "titleEn": "tell somebody/something apart",
+        "zh": "分辨兩個或多個很相似的人或事物",
+        "en": "I can never tell the twins apart.",
+        "examples": [
+          {
+            "en": "I can never tell the twins apart.",
+            "zh": "我總是分不出這對雙胞胎。",
+            "highlight": "tell the twins apart"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨某人或某物與另一人或物",
+        "titleEn": "tell somebody/something from somebody/something",
+        "zh": "分辨某人或某物與另一人或物",
+        "en": "Can you tell a real diamond from a fake one?",
+        "examples": [
+          {
+            "en": "Can you tell a real diamond from a fake one?",
+            "zh": "你能分辨真鑽石和假鑽石嗎？",
+            "highlight": "tell a real diamond from"
+          }
+        ]
+      },
+      {
+        "titleZh": "講述、報告或顯示某事",
+        "titleEn": "tell of something",
+        "zh": "講述、報告或顯示某事",
+        "en": "The report told of several design errors.",
+        "examples": [
+          {
+            "en": "The report told of several design errors.",
+            "zh": "報告指出了數個設計錯誤。",
+            "highlight": "told of"
+          }
+        ]
+      },
+      {
+        "titleZh": "因某人做錯事而責罵對方",
+        "titleEn": "tell somebody off for something / for doing something",
+        "zh": "因某人做錯事而責罵對方",
+        "en": "Dad told me off for leaving the door open.",
+        "examples": [
+          {
+            "en": "Dad told me off for leaving the door open.",
+            "zh": "爸爸因我沒有關門而責罵我。",
+            "highlight": "told me off"
+          }
+        ]
+      },
+      {
+        "titleZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
+        "titleEn": "tell on somebody",
+        "zh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
+        "en": "Ben broke the rule, and Mia told on him.",
+        "examples": [
+          {
+            "en": "Ben broke the rule, and Mia told on him.",
+            "zh": "賓違反了規則，米婭便告了他的狀。",
+            "highlight": "told on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 TELL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TELL expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 TELL 片語動詞。",
+      "en": "Read the whole sentence and choose the TELL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 tell … apart 時，把相似的人或事物作為一組來分辨。使用 tell A from B 時，直接比較兩者。",
+      "titleEn": "Use tell … apart when similar people or things are treated as a pair. Use tell A from B when one person or thing is compared directly with another. I cannot tell the twins apart. Can you tell a real note from a fake one?",
+      "zh": "使用 tell … apart 時，把相似的人或事物作為一組來分辨。使用 tell A from B 時，直接比較兩者。",
+      "en": "Use tell … apart when similar people or things are treated as a pair. Use tell A from B when one person or thing is compared directly with another. I cannot tell the twins apart. Can you tell a real note from a fake one?",
+      "examples": [
+        {
+          "en": "I cannot tell the twins apart.",
+          "zh": "I cannot tell the twins apart.",
+          "highlight": "tell the twins apart"
+        },
+        {
+          "en": "Can you tell a real note from a fake one?",
+          "zh": "Can you tell a real note from a fake one?",
+          "highlight": "tell a real note from"
+        }
+      ]
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, follow these examples: tell him off tell them apart tell on her",
+      "zh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, follow these examples: tell him off tell them apart tell on her",
+      "examples": [
+        {
+          "en": "tell him off",
+          "zh": "tell him off",
+          "highlight": "tell him off"
+        },
+        {
+          "en": "tell them apart",
+          "zh": "tell them apart",
+          "highlight": "tell them apart"
+        },
+        {
+          "en": "tell on her",
+          "zh": "tell on her",
+          "highlight": "tell on"
+        }
+      ]
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TELL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TELL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TELL 動詞片語句子改寫練習",
+    "titleEn": "TELL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TELL 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TELL. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-23-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "During the interview, her lack of work experience made the interviewer less likely to choose her.",
+      "promptZh": "面試期間，她缺乏工作經驗，令面試官較不願意選擇她。",
+      "starter": "Her",
+      "answer": "Her lack of work experience told against her during the interview.",
+      "answerZh": "她缺乏工作經驗，這一點在面試期間對她不利。",
+      "highlight": "told against",
+      "targetForm": "tell against somebody",
+      "targetMeaningZh": "對某人不利"
+    },
+    {
+      "id": "phrasal-verb-23-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I cannot see any difference between the two blue bags.",
+      "promptZh": "我看不出這兩個藍色袋有任何分別。",
+      "starter": "I",
+      "answer": "I cannot tell the two blue bags apart.",
+      "answerZh": "我分不出這兩個藍色袋。",
+      "highlight": "tell the two blue bags apart",
+      "targetForm": "tell something apart",
+      "targetMeaningZh": "分辨相似的事物"
+    },
+    {
+      "id": "phrasal-verb-23-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Can you see which ticket is real and which one is fake?",
+      "promptZh": "你能看出哪一張票是真的，哪一張是假的嗎？",
+      "starter": "Can",
+      "answer": "Can you tell the real ticket from the fake one?",
+      "answerZh": "你能分辨真票和假票嗎？",
+      "highlight": "tell the real ticket from",
+      "targetForm": "tell something from something",
+      "targetMeaningZh": "分辨兩件事物"
+    },
+    {
+      "id": "phrasal-verb-23-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The article describes a young chef’s first year in London.",
+      "promptZh": "這篇文章描述一名年輕廚師在倫敦第一年的生活。",
+      "starter": "The",
+      "answer": "The article tells of a young chef’s first year in London.",
+      "answerZh": "這篇文章講述一名年輕廚師在倫敦第一年的生活。",
+      "highlight": "tells of",
+      "targetForm": "tell of something",
+      "targetMeaningZh": "講述或描述某事"
+    },
+    {
+      "id": "phrasal-verb-23-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Mum spoke angrily to Leo about the mess in his room.",
+      "promptZh": "媽媽因里奧的房間一片凌亂而生氣地責罵他。",
+      "starter": "Mum",
+      "answer": "Mum told Leo off for the mess in his room.",
+      "answerZh": "媽媽因里奧的房間一片凌亂而責罵他。",
+      "highlight": "told Leo off",
+      "targetForm": "tell somebody off for something",
+      "targetMeaningZh": "因某事責罵某人"
+    },
+    {
+      "id": "phrasal-verb-23-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Nina broke the cup and begged Sam not to report her.",
+      "promptZh": "妮娜打破了杯子，並求森姆不要告發她。",
+      "starter": "Nina",
+      "answer": "Nina broke the cup and begged Sam not to tell on her.",
+      "answerZh": "妮娜打破了杯子，並求森姆不要告發她。",
+      "highlight": "tell on",
+      "targetForm": "tell on somebody",
+      "targetMeaningZh": "告發某人；告狀"
+    },
+    {
+      "id": "phrasal-verb-23-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Even their teacher sometimes cannot see which twin is which.",
+      "promptZh": "連他們的老師有時也分不清哪一個是哪一個。",
+      "starter": "Even",
+      "answer": "Even their teacher sometimes cannot tell the twins apart.",
+      "answerZh": "連他們的老師有時也分不出這對雙胞胎。",
+      "highlight": "tell the twins apart",
+      "targetForm": "tell somebody apart",
+      "targetMeaningZh": "分辨相似的人"
+    },
+    {
+      "id": "phrasal-verb-23-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The old letter describes life in the village fifty years ago.",
+      "promptZh": "這封舊信描述了五十年前村裏的生活。",
+      "starter": "The",
+      "answer": "The old letter tells of life in the village fifty years ago.",
+      "answerZh": "這封舊信講述了五十年前村裏的生活。",
+      "highlight": "tells of",
+      "targetForm": "tell of something",
+      "targetMeaningZh": "講述或描述某事"
+    },
+    {
+      "id": "phrasal-verb-23-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "His poor attendance made it harder for him to be chosen as the club’s team leader.",
+      "promptZh": "他的出席情況欠佳，令他較難獲選為球會的隊長。",
+      "starter": "His",
+      "answer": "His poor attendance told against him when the club chose a team leader.",
+      "answerZh": "球會選隊長時，他出席情況欠佳這一點對他不利。",
+      "highlight": "told against",
+      "targetForm": "tell against somebody",
+      "targetMeaningZh": "對某人不利"
+    },
+    {
+      "id": "phrasal-verb-23-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Do not report me; I will return the book.",
+      "promptZh": "別告發我；我會歸還那本書。",
+      "starter": "Do",
+      "answer": "Do not tell on me; I will return the book.",
+      "answerZh": "別告發我；我會歸還那本書。",
+      "highlight": "tell on",
+      "targetForm": "tell on somebody",
+      "targetMeaningZh": "告發某人；告狀"
+    },
+    {
+      "id": "phrasal-verb-23-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "My little brother does not yet know the difference between left and right.",
+      "promptZh": "我弟弟仍未懂得分辨左和右。",
+      "starter": "My",
+      "answer": "My little brother cannot tell left from right yet.",
+      "answerZh": "我弟弟仍未能分辨左和右。",
+      "highlight": "tell left from",
+      "targetForm": "tell something from something",
+      "targetMeaningZh": "分辨兩件事物"
+    },
+    {
+      "id": "phrasal-verb-23-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The coach spoke angrily to the players because they arrived late.",
+      "promptZh": "教練因球員遲到而生氣地責罵他們。",
+      "starter": "The",
+      "answer": "The coach told the players off for arriving late.",
+      "answerZh": "教練因球員遲到而責罵他們。",
+      "highlight": "told the players off",
+      "targetForm": "tell somebody off for doing something",
+      "targetMeaningZh": "因某人做錯事而責罵對方"
+    },
+    {
+      "id": "phrasal-verb-23-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Ella can usually recognise which milk is fresh and which is spoilt by the smell.",
+      "promptZh": "埃拉通常可以憑氣味分辨哪些牛奶新鮮，哪些已經變壞。",
+      "starter": "Ella",
+      "answer": "Ella can usually tell fresh milk from spoilt milk by the smell.",
+      "answerZh": "埃拉通常可以憑氣味分辨新鮮牛奶和變壞的牛奶。",
+      "highlight": "tell fresh milk from",
+      "targetForm": "tell something from something",
+      "targetMeaningZh": "分辨兩件事物"
+    },
+    {
+      "id": "phrasal-verb-23-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why did the teacher speak angrily to you after class?",
+      "promptZh": "為何老師放學後生氣地責罵你？",
+      "starter": "Why",
+      "answer": "Why did the teacher tell you off after class?",
+      "answerZh": "為何老師放學後責罵你？",
+      "highlight": "tell you off",
+      "targetForm": "tell somebody off",
+      "targetMeaningZh": "責罵某人"
+    },
+    {
+      "id": "phrasal-verb-23-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Ben says he will never report his friends when they break a rule.",
+      "promptZh": "賓說，朋友違反規則時，他永遠不會告發他們。",
+      "starter": "Ben",
+      "answer": "Ben says he will never tell on his friends when they break a rule.",
+      "answerZh": "賓說，朋友違反規則時，他永遠不會告發他們。",
+      "highlight": "tell on",
+      "targetForm": "tell on somebody",
+      "targetMeaningZh": "告發某人；告狀"
+    },
+    {
+      "id": "phrasal-verb-23-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The missing form may reduce Mira’s chance of success when the school reviews her application.",
+      "promptZh": "遺漏的表格可能會減低米拉的申請成功機會。",
+      "starter": "The",
+      "answer": "The missing form may tell against Mira when the school reviews her application.",
+      "answerZh": "學校審核米拉的申請時，遺漏的表格可能會對她不利。",
+      "highlight": "tell against",
+      "targetForm": "tell against somebody",
+      "targetMeaningZh": "對某人不利"
+    },
+    {
+      "id": "phrasal-verb-23-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "This book describes three friends who travel across Asia by train.",
+      "promptZh": "這本書描述三位朋友乘火車橫越亞洲的旅程。",
+      "starter": "This",
+      "answer": "This book tells of three friends who travel across Asia by train.",
+      "answerZh": "這本書講述三位朋友乘火車橫越亞洲的旅程。",
+      "highlight": "tells of",
+      "targetForm": "tell of something",
+      "targetMeaningZh": "講述或描述某事"
+    },
+    {
+      "id": "phrasal-verb-23-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "At night, I can hardly see any difference between the two streets.",
+      "promptZh": "晚上，我幾乎看不出這兩條街有任何分別。",
+      "starter": "At",
+      "answer": "At night, I can hardly tell the two streets apart.",
+      "answerZh": "晚上，我幾乎分不出這兩條街。",
+      "highlight": "tell the two streets apart",
+      "targetForm": "tell something apart",
+      "targetMeaningZh": "分辨相似的事物"
+    },
+    {
+      "id": "phrasal-verb-23-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Dad has just spoken angrily to us because we left wet towels on the floor.",
+      "promptZh": "爸爸剛剛因我們把濕毛巾留在地上而生氣地責罵我們。",
+      "starter": "Dad",
+      "answer": "Dad has just told us off for leaving wet towels on the floor.",
+      "answerZh": "爸爸剛剛因我們把濕毛巾留在地上而責罵我們。",
+      "highlight": "told us off",
+      "targetForm": "tell somebody off for doing something",
+      "targetMeaningZh": "因某人做錯事而責罵對方"
+    },
+    {
+      "id": "phrasal-verb-23-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Could you distinguish Maya from her twin sister in this old photo?",
+      "promptZh": "在這張舊照片中，你能分辨瑪雅和她的雙胞胎姊妹嗎？",
+      "starter": "Could",
+      "answer": "Could you tell Maya from her twin sister in this old photo?",
+      "answerZh": "在這張舊照片中，你能分辨瑪雅和她的雙胞胎姊妹嗎？",
+      "highlight": "tell Maya from",
+      "targetForm": "tell somebody from somebody",
+      "targetMeaningZh": "分辨兩個人"
+    },
+    {
+      "id": "phrasal-verb-23-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Will you report me if I eat the last biscuit?",
+      "promptZh": "如果我吃掉最後一塊餅乾，你會告發我嗎？",
+      "starter": "Will",
+      "answer": "Will you tell on me if I eat the last biscuit?",
+      "answerZh": "如果我吃掉最後一塊餅乾，你會告發我嗎？",
+      "highlight": "tell on",
+      "targetForm": "tell on somebody",
+      "targetMeaningZh": "告發某人；告狀"
+    },
+    {
+      "id": "phrasal-verb-23-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The guide’s story described the town’s old market.",
+      "promptZh": "導遊的故事描述了鎮上的舊市場。",
+      "starter": "The",
+      "answer": "The guide’s story told of the town’s old market.",
+      "answerZh": "導遊的故事講述了鎮上的舊市場。",
+      "highlight": "told of",
+      "targetForm": "tell of something",
+      "targetMeaningZh": "講述或描述某事"
+    },
+    {
+      "id": "phrasal-verb-23-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "I still cannot see any difference between these two phone models.",
+      "promptZh": "我仍然看不出這兩款手機有任何分別。",
+      "starter": "I",
+      "answer": "I still cannot tell these two phone models apart.",
+      "answerZh": "我仍然分不出這兩款手機。",
+      "highlight": "tell these two phone models apart",
+      "targetForm": "tell something apart",
+      "targetMeaningZh": "分辨相似的事物"
+    },
+    {
+      "id": "phrasal-verb-23-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Her nervous voice could reduce her chance of getting a good score in the speaking test.",
+      "promptZh": "她緊張的聲音可能會減低她在口試中取得好成績的機會。",
+      "starter": "Her",
+      "answer": "Her nervous voice could tell against her during the speaking test.",
+      "answerZh": "她緊張的聲音可能會在口試中對她不利。",
+      "highlight": "tell against",
+      "targetForm": "tell against somebody",
+      "targetMeaningZh": "對某人不利"
+    },
+    {
+      "id": "phrasal-verb-23-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The diary describes a hard winter when the family had very little food.",
+      "promptZh": "日記描述了一個艱難的冬天，當時那家人只有很少食物。",
+      "starter": "The",
+      "answer": "The diary tells of a hard winter when the family had very little food.",
+      "answerZh": "日記講述了一個艱難的冬天，當時那家人只有很少食物。",
+      "highlight": "tells of",
+      "targetForm": "tell of something",
+      "targetMeaningZh": "講述或描述某事"
+    },
+    {
+      "id": "phrasal-verb-23-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Omar has arrived late three times, and this has been a disadvantage to him.",
+      "promptZh": "奧馬已經遲到三次，這一點對他不利。",
+      "starter": "Omar",
+      "answer": "Omar has arrived late three times, and this has told against him.",
+      "answerZh": "奧馬已經遲到三次，這一點對他不利。",
+      "highlight": "told against",
+      "targetForm": "tell against somebody",
+      "targetMeaningZh": "對某人不利"
+    },
+    {
+      "id": "phrasal-verb-23-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The manager spoke angrily to him because he used his phone during the meeting.",
+      "promptZh": "經理因他在會議期間使用手機而生氣地責罵他。",
+      "starter": "The",
+      "answer": "The manager told him off for using his phone during the meeting.",
+      "answerZh": "經理因他在會議期間使用手機而責罵他。",
+      "highlight": "told him off",
+      "targetForm": "tell somebody off for doing something",
+      "targetMeaningZh": "因某人做錯事而責罵對方"
+    },
+    {
+      "id": "phrasal-verb-23-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The two bottles have no labels, so I cannot see which one is which.",
+      "promptZh": "這兩個瓶子沒有標籤，所以我分不清哪一個是哪一個。",
+      "starter": "The",
+      "answer": "The two bottles have no labels, so I cannot tell them apart.",
+      "answerZh": "這兩個瓶子沒有標籤，所以我分不出它們。",
+      "highlight": "tell them apart",
+      "targetForm": "tell something apart",
+      "targetMeaningZh": "分辨相似的事物"
+    },
+    {
+      "id": "phrasal-verb-23-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Kai copied my homework, but I did not report him.",
+      "promptZh": "啟抄了我的功課，但我沒有告發他。",
+      "starter": "Kai",
+      "answer": "Kai copied my homework, but I did not tell on him.",
+      "answerZh": "啟抄了我的功課，但我沒有告發他。",
+      "highlight": "tell on",
+      "targetForm": "tell on somebody",
+      "targetMeaningZh": "告發某人；告狀"
+    },
+    {
+      "id": "phrasal-verb-23-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Without the labels, can you distinguish the sugar from the salt?",
+      "promptZh": "沒有標籤，你能分辨糖和鹽嗎？",
+      "starter": "Without",
+      "answer": "Without the labels, can you tell the sugar from the salt?",
+      "answerZh": "沒有標籤，你能分辨糖和鹽嗎？",
+      "highlight": "tell the sugar from",
+      "targetForm": "tell something from something",
+      "targetMeaningZh": "分辨兩件事物"
+    },
+    {
+      "id": "phrasal-verb-23-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Her answer was correct, but her rude manner was a disadvantage to her.",
+      "promptZh": "她的答案正確，但她無禮的態度對她不利。",
+      "starter": "Her",
+      "answer": "Her answer was correct, but her rude manner told against her.",
+      "answerZh": "她的答案正確，但她無禮的態度對她不利。",
+      "highlight": "told against",
+      "targetForm": "tell against somebody",
+      "targetMeaningZh": "對某人不利"
+    },
+    {
+      "id": "phrasal-verb-23-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The report gave details of several passengers who waited for six hours.",
+      "promptZh": "報告詳細描述了數名等候了六小時的乘客。",
+      "starter": "The",
+      "answer": "The report told of several passengers who waited for six hours.",
+      "answerZh": "報告講述了數名等候了六小時的乘客的情況。",
+      "highlight": "told of",
+      "targetForm": "tell of something",
+      "targetMeaningZh": "報告或描述某事"
+    },
+    {
+      "id": "phrasal-verb-23-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "These two songs sound so similar that I cannot hear any difference between them.",
+      "promptZh": "這兩首歌聽起來十分相似，我聽不出它們有任何分別。",
+      "starter": "These",
+      "answer": "These two songs sound so similar that I cannot tell them apart.",
+      "answerZh": "這兩首歌聽起來十分相似，我分不出它們。",
+      "highlight": "tell them apart",
+      "targetForm": "tell something apart",
+      "targetMeaningZh": "分辨相似的事物"
+    },
+    {
+      "id": "phrasal-verb-23-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The children were scolded for playing with the lift buttons.",
+      "promptZh": "孩子們因玩弄升降機按鈕而受到責罵。",
+      "starter": "The",
+      "answer": "The children were told off for playing with the lift buttons.",
+      "answerZh": "孩子們因玩弄升降機按鈕而受到責罵。",
+      "highlight": "told off",
+      "targetForm": "tell somebody off for doing something",
+      "targetMeaningZh": "因某人做錯事而責罵對方"
+    },
+    {
+      "id": "phrasal-verb-23-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "People distinguish this bird from the other one by its red tail.",
+      "promptZh": "人們憑牠的紅色尾巴，把這種鳥和另一種鳥分辨出來。",
+      "starter": "People",
+      "answer": "People often tell this bird from the other one by its red tail.",
+      "answerZh": "人們經常憑牠的紅色尾巴，把這種鳥和另一種鳥分辨出來。",
+      "highlight": "tell this bird from",
+      "targetForm": "tell something from something",
+      "targetMeaningZh": "分辨兩件事物"
+    },
+    {
+      "id": "phrasal-verb-23-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "I saw Amir take the money, but I was afraid to report him.",
+      "promptZh": "我看見阿米爾拿走金錢，但我不敢告發他。",
+      "starter": "I",
+      "answer": "I saw Amir take the money, but I was afraid to tell on him.",
+      "answerZh": "我看見阿米爾拿走金錢，但我不敢告發他。",
+      "highlight": "tell on",
+      "targetForm": "tell on somebody",
+      "targetMeaningZh": "告發某人；告狀"
+    },
+    {
+      "id": "phrasal-verb-23-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Lila did not break the rule herself; she only reported the student who did.",
+      "promptZh": "莉拉本人沒有違反規則；她只是告發了違規的學生。",
+      "starter": "Lila",
+      "answer": "Lila did not break the rule herself; she only told on the student who did.",
+      "answerZh": "莉拉本人沒有違反規則；她只是告發了違規的學生。",
+      "highlight": "told on",
+      "targetForm": "tell on somebody",
+      "targetMeaningZh": "告發某人；告狀"
+    },
+    {
+      "id": "phrasal-verb-23-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "It takes practice to distinguish a copied painting from the original.",
+      "promptZh": "要分辨仿製畫和原作，需要多加練習。",
+      "starter": "It",
+      "answer": "It takes practice to tell a copied painting from the original.",
+      "answerZh": "要分辨仿製畫和原作，需要多加練習。",
+      "highlight": "tell a copied painting from",
+      "targetForm": "tell something from something",
+      "targetMeaningZh": "分辨兩件事物"
+    },
+    {
+      "id": "phrasal-verb-23-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "From the back, even their parents cannot see which brother is which.",
+      "promptZh": "從背後看，連他們的父母也分不清哪一個兄弟是哪一個。",
+      "starter": "From",
+      "answer": "From the back, even their parents cannot tell the brothers apart.",
+      "answerZh": "從背後看，連他們的父母也分不出這對兄弟。",
+      "highlight": "tell the brothers apart",
+      "targetForm": "tell somebody apart",
+      "targetMeaningZh": "分辨相似的人"
+    },
+    {
+      "id": "phrasal-verb-23-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The shop manager spoke angrily to the boys because they rode their bikes inside.",
+      "promptZh": "店舖經理因那些男孩在店內踏單車而生氣地責罵他們。",
+      "starter": "The",
+      "answer": "The shop manager told the boys off for riding their bikes inside.",
+      "answerZh": "店舖經理因那些男孩在店內踏單車而責罵他們。",
+      "highlight": "told the boys off",
+      "targetForm": "tell somebody off for doing something",
+      "targetMeaningZh": "因某人做錯事而責罵對方"
+    },
+    {
+      "id": "phrasal-verb-23-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The two years she spent without a job made it harder for her to succeed in the final interview.",
+      "promptZh": "她有兩年沒有工作，令她較難在最後面試中成功。",
+      "starter": "The",
+      "answer": "The two years she spent without a job told against her in the final interview.",
+      "answerZh": "她有兩年沒有工作，這一點在最後面試中對她不利。",
+      "highlight": "told against",
+      "targetForm": "tell against somebody",
+      "targetMeaningZh": "對某人不利"
+    },
+    {
+      "id": "phrasal-verb-23-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The news report described families whose homes were badly damaged in the storm.",
+      "promptZh": "新聞報道描述了一些房屋在風暴中嚴重受損的家庭。",
+      "starter": "The",
+      "answer": "The news report told of families whose homes were badly damaged in the storm.",
+      "answerZh": "新聞報道講述了一些房屋在風暴中嚴重受損的家庭的情況。",
+      "highlight": "told of",
+      "targetForm": "tell of something",
+      "targetMeaningZh": "報告或描述某事"
+    },
+    {
+      "id": "phrasal-verb-23-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Can you recognise the difference between a joke and a serious comment?",
+      "promptZh": "你能分辨玩笑和認真的說話嗎？",
+      "starter": "Can",
+      "answer": "Can you tell a joke from a serious comment?",
+      "answerZh": "你能分辨玩笑和認真的說話嗎？",
+      "highlight": "tell a joke from",
+      "targetForm": "tell something from something",
+      "targetMeaningZh": "分辨兩件事物"
+    },
+    {
+      "id": "phrasal-verb-23-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "When the teacher returned, one child immediately reported the others.",
+      "promptZh": "老師回來時，其中一個孩子立即告發了其他人。",
+      "starter": "When",
+      "answer": "When the teacher returned, one child immediately told on the others.",
+      "answerZh": "老師回來時，其中一個孩子立即告發了其他人。",
+      "highlight": "told on",
+      "targetForm": "tell on somebody",
+      "targetMeaningZh": "告發某人；告狀"
+    },
+    {
+      "id": "phrasal-verb-23-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Mia’s parents spoke angrily to her because she had lied about the broken window.",
+      "promptZh": "米婭的父母因她對窗戶損壞一事說謊而生氣地責罵她。",
+      "starter": "Mia’s",
+      "answer": "Mia’s parents told her off for lying about the broken window.",
+      "answerZh": "米婭的父母因她對窗戶損壞一事說謊而責罵她。",
+      "highlight": "told her off",
+      "targetForm": "tell somebody off for doing something",
+      "targetMeaningZh": "因某人做錯事而責罵對方"
+    },
+    {
+      "id": "phrasal-verb-23-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "His refusal to answer simple questions will reduce his chance of being chosen.",
+      "promptZh": "他拒絕回答簡單問題，將會減低他獲選的機會。",
+      "starter": "His",
+      "answer": "His refusal to answer simple questions will tell against him.",
+      "answerZh": "他拒絕回答簡單問題，這一點將會對他不利。",
+      "highlight": "tell against",
+      "targetForm": "tell against somebody",
+      "targetMeaningZh": "對某人不利"
+    },
+    {
+      "id": "phrasal-verb-23-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The final chapter describes the family’s return to their island home.",
+      "promptZh": "最後一章描述那家人返回島上家園的經過。",
+      "starter": "The",
+      "answer": "The final chapter tells of the family’s return to their island home.",
+      "answerZh": "最後一章講述那家人返回島上家園的經過。",
+      "highlight": "tells of",
+      "targetForm": "tell of something",
+      "targetMeaningZh": "講述或描述某事"
+    },
+    {
+      "id": "phrasal-verb-23-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The two copies are excellent; most people cannot see any difference between them.",
+      "promptZh": "這兩件複製品十分出色；大部分人都看不出它們有任何分別。",
+      "starter": "The",
+      "answer": "The two copies are excellent; most people cannot tell them apart.",
+      "answerZh": "這兩件複製品十分出色；大部分人都分不出它們。",
+      "highlight": "tell them apart",
+      "targetForm": "tell something apart",
+      "targetMeaningZh": "分辨相似的事物"
+    },
+    {
+      "id": "phrasal-verb-23-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After the neighbours complained about the noise, Dad spoke angrily to us because we had played music so late.",
+      "promptZh": "鄰居投訴噪音後，爸爸因我們很晚仍播放音樂而生氣地責罵我們。",
+      "starter": "After",
+      "answer": "After the neighbours complained about the noise, Dad told us off for playing music so late.",
+      "answerZh": "鄰居投訴噪音後，爸爸因我們很晚仍播放音樂而責罵我們。",
+      "highlight": "told us off",
+      "targetForm": "tell somebody off for doing something",
+      "targetMeaningZh": "因某人做錯事而責罵對方"
+    },
+    {
+      "id": "phrasal-verb-23-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The twins changed coats, and the new teacher could not see which twin was which.",
+      "promptZh": "雙胞胎交換了外套，新老師便分不清哪一個是哪一個。",
+      "starter": "The",
+      "answer": "The twins changed coats, and the new teacher could not tell them apart.",
+      "answerZh": "雙胞胎交換了外套，新老師便分不出他們。",
+      "highlight": "tell them apart",
+      "targetForm": "tell somebody apart",
+      "targetMeaningZh": "分辨相似的人"
+    },
+    {
+      "id": "phrasal-verb-23-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "A note beside the photo describes the day the school first opened.",
+      "promptZh": "照片旁邊的一張註解描述了學校首次開放的那一天。",
+      "starter": "A",
+      "answer": "A note beside the photo tells of the day the school first opened.",
+      "answerZh": "照片旁邊的一張註解講述了學校首次開放的那一天。",
+      "highlight": "tells of",
+      "targetForm": "tell of something",
+      "targetMeaningZh": "講述或描述某事"
+    },
+    {
+      "id": "phrasal-verb-23-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Noah promised not to report his sister, although he knew she had broken the rule.",
+      "promptZh": "諾亞答應不會告發妹妹，雖然他知道她違反了規則。",
+      "starter": "Noah",
+      "answer": "Noah promised not to tell on his sister, although he knew she had broken the rule.",
+      "answerZh": "諾亞答應不會告發妹妹，雖然他知道她違反了規則。",
+      "highlight": "tell on",
+      "targetForm": "tell on somebody",
+      "targetMeaningZh": "告發某人；告狀"
+    },
+    {
+      "id": "phrasal-verb-23-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "In poor light, dark blue and black can look the same.",
+      "promptZh": "光線不足時，深藍色和黑色可能看起來一樣。",
+      "starter": "In",
+      "answer": "In poor light, it is difficult to tell dark blue from black.",
+      "answerZh": "光線不足時，很難分辨深藍色和黑色。",
+      "highlight": "tell dark blue from",
+      "targetForm": "tell something from something",
+      "targetMeaningZh": "分辨兩件事物"
+    },
+    {
+      "id": "phrasal-verb-23-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although Priya had good ideas, her lack of preparation made it harder for her to do well in the interview.",
+      "promptZh": "雖然普里雅有很好的構思，但她準備不足，令她較難在面試中有好表現。",
+      "starter": "Although",
+      "answer": "Although Priya had good ideas, her lack of preparation told against her during the interview.",
+      "answerZh": "雖然普里雅有很好的構思，但她準備不足這一點在面試中對她不利。",
+      "highlight": "told against",
+      "targetForm": "tell against somebody",
+      "targetMeaningZh": "對某人不利"
+    },
+    {
+      "id": "phrasal-verb-23-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The two cafés use almost the same sign, so visitors often cannot see which café is which.",
+      "promptZh": "這兩間咖啡店使用幾乎一樣的招牌，所以訪客經常分不清哪一間是哪一間。",
+      "starter": "The",
+      "answer": "The two cafés use almost the same sign, so visitors often cannot tell them apart.",
+      "answerZh": "這兩間咖啡店使用幾乎一樣的招牌，所以訪客經常分不出它們。",
+      "highlight": "tell them apart",
+      "targetForm": "tell something apart",
+      "targetMeaningZh": "分辨相似的事物"
+    },
+    {
+      "id": "phrasal-verb-23-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The teacher spoke angrily to Evan because he blamed another student for his own mistake.",
+      "promptZh": "老師因埃文把自己的錯誤歸咎於另一名學生而生氣地責罵他。",
+      "starter": "The",
+      "answer": "The teacher told Evan off for blaming another student for his own mistake.",
+      "answerZh": "老師因埃文把自己的錯誤歸咎於另一名學生而責罵他。",
+      "highlight": "told Evan off",
+      "targetForm": "tell somebody off for doing something",
+      "targetMeaningZh": "因某人做錯事而責罵對方"
+    },
+    {
+      "id": "phrasal-verb-23-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "If you report Rosa now for what she did, she may never trust you with a secret again.",
+      "promptZh": "如果你現在因羅莎所做的事而告發她，她可能再也不會把秘密告訴你。",
+      "starter": "If",
+      "answer": "If you tell on Rosa now, she may never trust you with a secret again.",
+      "answerZh": "如果你現在告發羅莎，她可能再也不會把秘密告訴你。",
+      "highlight": "tell on",
+      "targetForm": "tell on somebody",
+      "targetMeaningZh": "告發某人；告狀"
+    },
+    {
+      "id": "phrasal-verb-23-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The old photographs show what life in the town was like before cars filled its streets.",
+      "promptZh": "這些舊照片顯示汽車充斥街道之前，鎮上的生活是怎樣的。",
+      "starter": "The",
+      "answer": "The old photographs tell of life in the town before cars filled its streets.",
+      "answerZh": "這些舊照片展示了汽車充斥街道之前的鎮上生活。",
+      "highlight": "tell of",
+      "targetForm": "tell of something",
+      "targetMeaningZh": "講述、展示或反映某事"
+    },
+    {
+      "id": "phrasal-verb-23-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The strong competition did not help, but his poor test result hurt his chances more than anything else.",
+      "promptZh": "激烈的競爭對他沒有幫助，但他欠佳的測驗成績對他的機會影響最大。",
+      "starter": "The",
+      "answer": "The strong competition did not help, but his poor test result told against him more than anything else.",
+      "answerZh": "激烈的競爭對他沒有幫助，但他欠佳的測驗成績對他最為不利。",
+      "highlight": "told against",
+      "targetForm": "tell against somebody",
+      "targetMeaningZh": "對某人不利"
+    },
+    {
+      "id": "phrasal-verb-23-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "By taste alone, could you distinguish the cheaper juice from the more expensive one?",
+      "promptZh": "只憑味道，你能分辨較便宜的果汁和較昂貴的果汁嗎？",
+      "starter": "By",
+      "answer": "By taste alone, could you tell the cheaper juice from the more expensive one?",
+      "answerZh": "只憑味道，你能分辨較便宜的果汁和較昂貴的果汁嗎？",
+      "highlight": "tell the cheaper juice from",
+      "targetForm": "tell something from something",
+      "targetMeaningZh": "分辨兩件事物"
+    }
+  ]
+}

@@ -24,8 +24,8 @@ const EXERCISE_PAGE = 8;
 const ATTEMPT_PAGE_SIZE = 100;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const DEFAULT_PAGE_META = Object.freeze({
-  1: Object.freeze({ titleZh: "概覽及例子", titleEn: "Overview + Examples", kicker: "OVERVIEW + EXAMPLES", description: "先掌握 Build 動詞片語的學習目標、核心意思及例子。" }),
-  2: Object.freeze({ titleZh: "意思組別（一）", titleEn: "Meaning Groups I", kicker: "MEANING GROUPS I", description: "按意思整理第一組常用 Build 動詞片語，配合中英例句理解。" }),
+  1: Object.freeze({ titleZh: "概覽及例子", titleEn: "Overview + Examples", kicker: "OVERVIEW + EXAMPLES", description: "先掌握本課動詞片語的學習目標、核心意思及例子。" }),
+  2: Object.freeze({ titleZh: "意思組別（一）", titleEn: "Meaning Groups I", kicker: "MEANING GROUPS I", description: "按意思整理第一組常用動詞片語，配合中英例句理解。" }),
   3: Object.freeze({ titleZh: "意思組別（二）及位置變化", titleEn: "Meaning Groups II + Placement", kicker: "MEANING GROUPS II + PLACEMENT", description: "掌握第二組意思，並分辨受詞、代名詞及可分動詞片語的位置。" }),
   4: Object.freeze({ titleZh: "完整形式參考", titleEn: "Complete Forms + Reference Bank", kicker: "COMPLETE REFERENCE", description: "集中溫習本課所有形式、意思、搭配及例句。" }),
   5: Object.freeze({ titleZh: "表達好處", titleEn: "Benefits", kicker: "WHY THESE PHRASAL VERBS HELP", description: "理解這些動詞片語能帶出的語意、語氣及溝通效果。" }),
@@ -800,7 +800,7 @@ function questionActivityRows(attempts = state.attempts) {
       if (!Number.isFinite(time)) continue;
       const correctIds = new Set(Array.isArray(round.correctIds) ? round.correctIds.map(String) : []);
       const incorrectIds = new Set(Array.isArray(round.incorrectIds) ? round.incorrectIds.map(String) : []);
-      for (const rawQuestionId of Array.isArray(round.checkedIds) ? round.checkedIds : []) {
+      for (const rawQuestionId of new Set(Array.isArray(round.checkedIds) ? round.checkedIds : [])) {
         const questionId = String(rawQuestionId || "");
         const question = getQuestion(attempt.lessonId, questionId);
         if (!question) continue;
@@ -834,7 +834,23 @@ function questionActivityRows(attempts = state.attempts) {
       }
     }
   }
-  return rows.sort((a, b) => a.time - b.time || a.lessonId.localeCompare(b.lessonId) || a.questionId.localeCompare(b.questionId));
+  const ordered = rows.sort((a, b) => a.time - b.time || a.lessonId.localeCompare(b.lessonId) || a.questionId.localeCompare(b.questionId));
+  const unique = new Map();
+  for (const row of ordered) {
+    const key = `${row.lessonId}\u0000${row.questionId}`;
+    const first = unique.get(key);
+    if (!first) {
+      unique.set(key, { ...row });
+      continue;
+    }
+    if (row.status === "correct" && first.status !== "correct") {
+      first.status = "correct";
+      first.round = row.round;
+      first.attemptId = row.attemptId;
+      first.correctedAt = row.time;
+    }
+  }
+  return [...unique.values()];
 }
 
 function progressRangeStart(rangeKey, rows) {
@@ -1452,6 +1468,33 @@ function bilingualItem(item) {
   };
 }
 
+function sourceExamples(raw) {
+  const examples = Array.isArray(raw?.examples) ? raw.examples.map((example) => {
+    if (typeof example === "string") return { en: example, highlight: example };
+    const en = String(example?.en || example?.english || "");
+    const zh = String(example?.zh || example?.chinese || "");
+    return {
+      ...example,
+      en,
+      zh: zh && zh !== en ? zh : ""
+    };
+  }) : [];
+  for (const value of Array.isArray(raw?.examplesEn) ? raw.examplesEn : []) {
+    const en = String(value?.en || value?.english || value || "");
+    if (en && !examples.some((example) => example.en === en)) examples.push({ en, zh: "", highlight: en });
+  }
+  return examples;
+}
+
+function hasDistinctBilingualHeading(raw, item) {
+  const titleZh = String(raw?.titleZh || "").trim();
+  const titleEn = String(raw?.titleEn || "").trim();
+  if (!titleZh && !titleEn) return false;
+  const chineseRepeats = !titleZh || String(item.chinese || "").trim().startsWith(titleZh);
+  const englishRepeats = !titleEn || String(item.english || "").trim().startsWith(titleEn);
+  return !(chineseRepeats && englishRepeats);
+}
+
 function teachingCardsHtml(items) {
   return items.map((raw, index) => {
     const item = bilingualItem(raw);
@@ -1632,9 +1675,9 @@ function renderRulesPage(lesson) {
     <ol class="rule-list">
       ${rules.map((raw, index) => {
         const item = bilingualItem(raw);
-        const examples = Array.isArray(raw?.examples) ? raw.examples : item.examples;
+        const examples = sourceExamples(raw);
         return `<li class="rule-card"><span>${index + 1}</span><div>
-          ${(raw?.titleEn || raw?.titleZh) ? `<h3>${bilingualHeadingHtml(raw.titleZh, raw.titleEn)}</h3>` : ""}
+          ${hasDistinctBilingualHeading(raw, item) ? `<h3>${bilingualHeadingHtml(raw.titleZh, raw.titleEn)}</h3>` : ""}
           ${item.chinese ? `<p class="chinese" lang="zh-Hant">${escapeHtml(item.chinese)}</p>` : ""}
           ${item.english ? `<p class="english" lang="en">${escapeHtml(item.english)}</p>` : ""}
           ${examples.length ? `<div class="examples">${examples.map((example) => `${example.zh ? `<span class="chinese-example" lang="zh-Hant">${escapeHtml(example.zh)}</span>` : ""}<code class="english-example" lang="en">${relevantExampleHtml(example.en || example, exampleHighlights(example))}</code>`).join("")}</div>` : ""}

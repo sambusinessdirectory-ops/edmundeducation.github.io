@@ -1,0 +1,1464 @@
+{
+  "id": "phrasal-verb-28",
+  "order": 28,
+  "slug": "touch",
+  "version": "1",
+  "title": "TOUCH 動詞片語",
+  "titleEn": "Touch",
+  "titleZh": "TOUCH 動詞片語",
+  "level": "",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 27 - Touch.pdf",
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TOUCH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TOUCH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TOUCH",
+      "highlight": "TOUCH"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "He tried to touch me for twenty pounds.",
+      "zh": "他嘗試向我開口借二十英鎊。",
+      "highlight": "touch me for twenty pounds"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "A single spark touched off the explosion.",
+      "zh": "單是一點火花便引發了爆炸。",
+      "highlight": "touched off the explosion"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "She touched on the need for more funding.",
+      "zh": "她簡短提及需要增加撥款。",
+      "highlight": "touched on the need"
+    }
+  ],
+  "meaning": {
+    "zh": "向某人開口要錢或借錢，通常帶有隨意或不客氣的語氣；引發某事，尤其是事故、爭執、恐慌或連鎖反應；簡短提及某事，未有深入討論；非禮某人；未經同意以帶有性意味的方式觸摸某人，屬非正式用語；修補小處；對照片、圖畫、妝容或漆面稍作改善",
+    "en": "touch somebody for something / touch something off / touch on something / touch upon something / touch somebody up / touch something up",
+    "naturalZh": [
+      "向某人開口要錢或借錢，通常帶有隨意或不客氣的語氣",
+      "引發某事，尤其是事故、爭執、恐慌或連鎖反應",
+      "簡短提及某事，未有深入討論",
+      "非禮某人；未經同意以帶有性意味的方式觸摸某人，屬非正式用語",
+      "修補小處；對照片、圖畫、妝容或漆面稍作改善"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "touch somebody for something",
+      "titleZh": "向某人開口要錢或借錢，通常帶有隨意或不客氣的語氣",
+      "titleEn": "touch somebody for something",
+      "descriptionZh": "向某人開口要錢或借錢，通常帶有隨意或不客氣的語氣",
+      "descriptionEn": "He tried to touch me for twenty pounds.",
+      "examples": [
+        {
+          "en": "He tried to touch me for twenty pounds.",
+          "zh": "他嘗試向我開口借二十英鎊。",
+          "highlight": "touch me for twenty pounds"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "touch something off",
+      "titleZh": "引發某事，尤其是事故、爭執、恐慌或連鎖反應",
+      "titleEn": "touch something off",
+      "descriptionZh": "引發某事，尤其是事故、爭執、恐慌或連鎖反應",
+      "descriptionEn": "A single spark touched off the explosion.",
+      "examples": [
+        {
+          "en": "A single spark touched off the explosion.",
+          "zh": "單是一點火花便引發了爆炸。",
+          "highlight": "touched off the explosion"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "touch on something / touch upon something",
+      "titleZh": "簡短提及某事，未有深入討論",
+      "titleEn": "touch on something / touch upon something",
+      "descriptionZh": "簡短提及某事，未有深入討論",
+      "descriptionEn": "She touched on the need for more funding.",
+      "examples": [
+        {
+          "en": "She touched on the need for more funding.",
+          "zh": "她簡短提及需要增加撥款。",
+          "highlight": "touched on the need"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 2,
+      "formula": "touch somebody up",
+      "titleZh": "非禮某人；未經同意以帶有性意味的方式觸摸某人，屬非正式用語",
+      "titleEn": "touch somebody up",
+      "descriptionZh": "非禮某人；未經同意以帶有性意味的方式觸摸某人，屬非正式用語",
+      "descriptionEn": "She moved away when a stranger tried to touch her up.",
+      "examples": [
+        {
+          "en": "She moved away when a stranger tried to touch her up.",
+          "zh": "陌生人企圖非禮她時，她立即走開。",
+          "highlight": "touch her up"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "pageGroup": 2,
+      "formula": "touch something up",
+      "titleZh": "修補小處；對照片、圖畫、妝容或漆面稍作改善",
+      "titleEn": "touch something up",
+      "descriptionZh": "修補小處；對照片、圖畫、妝容或漆面稍作改善",
+      "descriptionEn": "He touched up the paintwork to cover the scratches.",
+      "examples": [
+        {
+          "en": "He touched up the paintwork to cover the scratches.",
+          "zh": "他修補了漆面，以遮蓋刮痕。",
+          "highlight": "touched up the paintwork"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "TOUCH 片語動詞的實際用途",
+    "labelEn": "TOUCH Phrasal Verbs in Use",
+    "summaryZh": "touch on 可以表示簡短提及一個構思；touch off 則可以表示引發一件事情或反應。；touch off 表示某事引發更大的事件；touch up 則表示作出小型修補或改善。；touch somebody for 某個金額可以表示向該人開口要錢或借錢。；touch somebody up 表示非禮某人；touch something up 則表示修補或改善某件物品。",
+    "summaryEn": "Touch on can describe briefly mentioning an idea, while touch off can describe starting an event or reaction. Touch off describes something that starts a larger event. Touch up describes small repairs or improvements. Touch somebody for an amount of money can describe asking that person to give or lend you the money. Touch somebody up refers to unwanted sexual touching, while touch something up refers to improving or repairing a thing.",
+    "contextsZh": [
+      "使用 TOUCH 談論身體接觸以外的事情",
+      "清楚分辨「引發」和「稍作修補」",
+      "理解一個與金錢有關的英式非正式表達",
+      "避免一個嚴重的意思誤會"
+    ],
+    "contextsEn": [
+      "Use TOUCH to talk about more than physical contact",
+      "Describe causes and small improvements clearly",
+      "Understand an informal British expression about money",
+      "Avoid a serious misunderstanding"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 TOUCH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TOUCH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "touch somebody for something",
+    "fixedHighlight": "touch somebody for something",
+    "fixedZh": "閱讀整句，選出意思相同的 TOUCH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TOUCH expression that gives the same meaning.",
+    "correct": "touch me for twenty pounds",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；touch somebody up 和 touch something up 的意思完全不同。touch somebody up 是非正式用語，表示未經同意作帶有性意味的觸摸；touch something up 則表示稍作修補或改善。；使用 him、her、it 或 them 時，請按照以上例子把代名詞放在 TOUCH 和 UP 中間。",
+    "variableEn": "Keep the same people, things, time and meaning. Touch somebody up and touch something up have very different meanings. Touch somebody up describes unwanted sexual touching and is informal. Touch something up means making small repairs or improvements. When using him, her, it or them in a TOUCH ... UP expression, place the word as shown:",
+    "variableItemsZh": [
+      "touch somebody for something",
+      "touch something off",
+      "touch on something / touch upon something",
+      "touch somebody up",
+      "touch something up"
+    ],
+    "variableItemsEn": [
+      "touch somebody for something",
+      "touch something off",
+      "touch on something / touch upon something",
+      "touch somebody up",
+      "touch something up"
+    ],
+    "forms": [
+      {
+        "formZh": "向某人開口要錢或借錢，通常帶有隨意或不客氣的語氣",
+        "formEn": "touch somebody for something",
+        "exampleZh": "他嘗試向我開口借二十英鎊。",
+        "exampleEn": "He tried to touch me for twenty pounds.",
+        "highlight": "touch me for twenty pounds"
+      },
+      {
+        "formZh": "引發某事，尤其是事故、爭執、恐慌或連鎖反應",
+        "formEn": "touch something off",
+        "exampleZh": "單是一點火花便引發了爆炸。",
+        "exampleEn": "A single spark touched off the explosion.",
+        "highlight": "touched off the explosion"
+      },
+      {
+        "formZh": "簡短提及某事，未有深入討論",
+        "formEn": "touch on something / touch upon something",
+        "exampleZh": "她簡短提及需要增加撥款。",
+        "exampleEn": "She touched on the need for more funding.",
+        "highlight": "touched on the need"
+      },
+      {
+        "formZh": "非禮某人；未經同意以帶有性意味的方式觸摸某人，屬非正式用語",
+        "formEn": "touch somebody up",
+        "exampleZh": "陌生人企圖非禮她時，她立即走開。",
+        "exampleEn": "She moved away when a stranger tried to touch her up.",
+        "highlight": "touch her up"
+      },
+      {
+        "formZh": "修補小處；對照片、圖畫、妝容或漆面稍作改善",
+        "formEn": "touch something up",
+        "exampleZh": "他修補了漆面，以遮蓋刮痕。",
+        "exampleEn": "He touched up the paintwork to cover the scratches.",
+        "highlight": "touched up the paintwork"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "向某人開口要錢或借錢，通常帶有隨意或不客氣的語氣",
+      "titleEn": "touch somebody for something",
+      "formula": "touch somebody for something",
+      "highlight": "touch somebody for something",
+      "descriptionZh": "向某人開口要錢或借錢，通常帶有隨意或不客氣的語氣",
+      "descriptionEn": "He tried to touch me for twenty pounds.",
+      "examples": [
+        {
+          "en": "He tried to touch me for twenty pounds.",
+          "zh": "他嘗試向我開口借二十英鎊。",
+          "highlight": "touch me for twenty pounds"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "引發某事，尤其是事故、爭執、恐慌或連鎖反應",
+      "titleEn": "touch something off",
+      "formula": "touch something off",
+      "highlight": "touch something off",
+      "descriptionZh": "引發某事，尤其是事故、爭執、恐慌或連鎖反應",
+      "descriptionEn": "A single spark touched off the explosion.",
+      "examples": [
+        {
+          "en": "A single spark touched off the explosion.",
+          "zh": "單是一點火花便引發了爆炸。",
+          "highlight": "touched off the explosion"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "簡短提及某事，未有深入討論",
+      "titleEn": "touch on something / touch upon something",
+      "formula": "touch on something / touch upon something",
+      "highlight": "touch on something / touch upon something",
+      "descriptionZh": "簡短提及某事，未有深入討論",
+      "descriptionEn": "She touched on the need for more funding.",
+      "examples": [
+        {
+          "en": "She touched on the need for more funding.",
+          "zh": "她簡短提及需要增加撥款。",
+          "highlight": "touched on the need"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "非禮某人；未經同意以帶有性意味的方式觸摸某人，屬非正式用語",
+      "titleEn": "touch somebody up",
+      "formula": "touch somebody up",
+      "highlight": "touch somebody up",
+      "descriptionZh": "非禮某人；未經同意以帶有性意味的方式觸摸某人，屬非正式用語",
+      "descriptionEn": "She moved away when a stranger tried to touch her up.",
+      "examples": [
+        {
+          "en": "She moved away when a stranger tried to touch her up.",
+          "zh": "陌生人企圖非禮她時，她立即走開。",
+          "highlight": "touch her up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "修補小處；對照片、圖畫、妝容或漆面稍作改善",
+      "titleEn": "touch something up",
+      "formula": "touch something up",
+      "highlight": "touch something up",
+      "descriptionZh": "修補小處；對照片、圖畫、妝容或漆面稍作改善",
+      "descriptionEn": "He touched up the paintwork to cover the scratches.",
+      "examples": [
+        {
+          "en": "He touched up the paintwork to cover the scratches.",
+          "zh": "他修補了漆面，以遮蓋刮痕。",
+          "highlight": "touched up the paintwork"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 TOUCH 談論身體接觸以外的事情",
+      "titleEn": "Use TOUCH to talk about more than physical contact",
+      "zh": "touch on 可以表示簡短提及一個構思；touch off 則可以表示引發一件事情或反應。",
+      "en": "Touch on can describe briefly mentioning an idea, while touch off can describe starting an event or reaction."
+    },
+    {
+      "titleZh": "清楚分辨「引發」和「稍作修補」",
+      "titleEn": "Describe causes and small improvements clearly",
+      "zh": "touch off 表示某事引發更大的事件；touch up 則表示作出小型修補或改善。",
+      "en": "Touch off describes something that starts a larger event. Touch up describes small repairs or improvements."
+    },
+    {
+      "titleZh": "理解一個與金錢有關的英式非正式表達",
+      "titleEn": "Understand an informal British expression about money",
+      "zh": "touch somebody for 某個金額可以表示向該人開口要錢或借錢。",
+      "en": "Touch somebody for an amount of money can describe asking that person to give or lend you the money."
+    },
+    {
+      "titleZh": "避免一個嚴重的意思誤會",
+      "titleEn": "Avoid a serious misunderstanding",
+      "zh": "touch somebody up 表示非禮某人；touch something up 則表示修補或改善某件物品。",
+      "en": "Touch somebody up refers to unwanted sexual touching, while touch something up refers to improving or repairing a thing."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 TOUCH 談論身體接觸以外的事情",
+      "清楚分辨「引發」和「稍作修補」",
+      "理解一個與金錢有關的英式非正式表達",
+      "避免一個嚴重的意思誤會"
+    ],
+    "contextsEn": [
+      "Use TOUCH to talk about more than physical contact",
+      "Describe causes and small improvements clearly",
+      "Understand an informal British expression about money",
+      "Avoid a serious misunderstanding"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 TOUCH 談論身體接觸以外的事情",
+        "titleEn": "Use TOUCH to talk about more than physical contact",
+        "zh": "touch on 可以表示簡短提及一個構思；touch off 則可以表示引發一件事情或反應。",
+        "en": "Touch on can describe briefly mentioning an idea, while touch off can describe starting an event or reaction.",
+        "examples": [
+          {
+            "en": "He tried to touch me for twenty pounds.",
+            "zh": "他嘗試向我開口借二十英鎊。",
+            "highlight": "touch me for twenty pounds"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚分辨「引發」和「稍作修補」",
+        "titleEn": "Describe causes and small improvements clearly",
+        "zh": "touch off 表示某事引發更大的事件；touch up 則表示作出小型修補或改善。",
+        "en": "Touch off describes something that starts a larger event. Touch up describes small repairs or improvements.",
+        "examples": [
+          {
+            "en": "A single spark touched off the explosion.",
+            "zh": "單是一點火花便引發了爆炸。",
+            "highlight": "touched off the explosion"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解一個與金錢有關的英式非正式表達",
+        "titleEn": "Understand an informal British expression about money",
+        "zh": "touch somebody for 某個金額可以表示向該人開口要錢或借錢。",
+        "en": "Touch somebody for an amount of money can describe asking that person to give or lend you the money.",
+        "examples": [
+          {
+            "en": "She touched on the need for more funding.",
+            "zh": "她簡短提及需要增加撥款。",
+            "highlight": "touched on the need"
+          }
+        ]
+      },
+      {
+        "titleZh": "避免一個嚴重的意思誤會",
+        "titleEn": "Avoid a serious misunderstanding",
+        "zh": "touch somebody up 表示非禮某人；touch something up 則表示修補或改善某件物品。",
+        "en": "Touch somebody up refers to unwanted sexual touching, while touch something up refers to improving or repairing a thing.",
+        "examples": [
+          {
+            "en": "She moved away when a stranger tried to touch her up.",
+            "zh": "陌生人企圖非禮她時，她立即走開。",
+            "highlight": "touch her up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 TOUCH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TOUCH expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 TOUCH 片語動詞。",
+      "en": "Read the whole sentence and choose the TOUCH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "touch somebody up 和 touch something up 的意思完全不同。touch somebody up 是非正式用語，表示未經同意作帶有性意味的觸摸；touch something up 則表示稍作修補或改善。",
+      "titleEn": "Touch somebody up and touch something up have very different meanings.",
+      "zh": "touch somebody up 和 touch something up 的意思完全不同。touch somebody up 是非正式用語，表示未經同意作帶有性意味的觸摸；touch something up 則表示稍作修補或改善。",
+      "en": "Touch somebody up and touch something up have very different meanings. Touch somebody up describes unwanted sexual touching and is informal. Touch something up means making small repairs or improvements."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時，請按照以上例子把代名詞放在 TOUCH 和 UP 中間。",
+      "titleEn": "When using him, her, it or them in a TOUCH ...",
+      "zh": "使用 him、her、it 或 them 時，請按照以上例子把代名詞放在 TOUCH 和 UP 中間。",
+      "en": "When using him, her, it or them in a TOUCH ... UP expression, place the word as shown:",
+      "examples": [
+        {
+          "en": "touch him up",
+          "zh": "",
+          "highlight": "touch him up"
+        },
+        {
+          "en": "touch her up",
+          "zh": "",
+          "highlight": "touch her up"
+        },
+        {
+          "en": "touch it up",
+          "zh": "",
+          "highlight": "touch it up"
+        },
+        {
+          "en": "touch them up",
+          "zh": "",
+          "highlight": "touch them up"
+        }
+      ]
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TOUCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TOUCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TOUCH 動詞片語句子改寫練習",
+    "titleEn": "TOUCH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TOUCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TOUCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-28-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "A single spark caused the explosion.",
+      "promptZh": "單是一點火花便引發了爆炸。",
+      "starter": "A",
+      "answer": "A single spark touched off the explosion.",
+      "answerZh": "單是一點火花便引發了爆炸。",
+      "highlight": "touched off the explosion",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ben asked me to lend him twenty pounds.",
+      "promptZh": "賓向我借二十英鎊。",
+      "starter": "Ben",
+      "answer": "Ben touched me for twenty pounds.",
+      "answerZh": "賓向我開口借了二十英鎊。",
+      "highlight": "touched me for twenty pounds",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-28-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "He repaired the scratched paintwork with a little paint.",
+      "promptZh": "他用少量油漆修補有刮痕的漆面。",
+      "starter": "He",
+      "answer": "He touched up the scratched paintwork with a little paint.",
+      "answerZh": "他用少量油漆修補了有刮痕的漆面。",
+      "highlight": "touched up the scratched paintwork",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The teacher briefly mentioned online safety.",
+      "promptZh": "老師簡短提及了網上安全。",
+      "starter": "The",
+      "answer": "The teacher touched on online safety.",
+      "answerZh": "老師簡短提及了網上安全。",
+      "highlight": "touched on online safety",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A stranger touched her in a sexual way without permission on the train.",
+      "promptZh": "在火車上，一名陌生人未經同意，以帶有性意味的方式觸摸她。",
+      "starter": "A",
+      "answer": "A stranger touched her up on the train.",
+      "answerZh": "在火車上，一名陌生人非禮了她。",
+      "highlight": "touched her up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "My cousin often asks me to lend him ten pounds before payday.",
+      "promptZh": "我的表弟經常在出糧日前向我借十英鎊。",
+      "starter": "My",
+      "answer": "My cousin often touches me for ten pounds before payday.",
+      "answerZh": "我的表弟經常在出糧日前向我開口借十英鎊。",
+      "highlight": "touches me for ten pounds",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-28-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The referee’s decision started a loud argument.",
+      "promptZh": "球證的決定引發了一場激烈爭吵。",
+      "starter": "The",
+      "answer": "The referee’s decision touched off a loud argument.",
+      "answerZh": "球證的決定引發了一場激烈爭吵。",
+      "highlight": "touched off a loud argument",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Mia made a few small improvements to the photo before posting it.",
+      "promptZh": "米婭在發布照片前稍作修圖。",
+      "starter": "Mia",
+      "answer": "Mia touched up the photo before posting it.",
+      "answerZh": "米婭在發布照片前稍作修圖。",
+      "highlight": "touched up the photo",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Her speech briefly mentioned the need for more funding.",
+      "promptZh": "她的演說簡短提及需要增加撥款。",
+      "starter": "Her",
+      "answer": "Her speech touched on the need for more funding.",
+      "answerZh": "她的演說簡短提及需要增加撥款。",
+      "highlight": "touched on the need",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The club organiser tried to get five pounds from each member.",
+      "promptZh": "俱樂部主辦人嘗試向每位會員收取五英鎊。",
+      "starter": "The",
+      "answer": "The club organiser touched each member for five pounds.",
+      "answerZh": "俱樂部主辦人向每位會員開口要了五英鎊。",
+      "highlight": "touched each member for five pounds",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢"
+    },
+    {
+      "id": "phrasal-verb-28-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Someone reported him for touching a woman in a sexual way without her permission.",
+      "promptZh": "有人舉報他在未經一名女子同意下，以帶有性意味的方式觸摸她。",
+      "starter": "Someone",
+      "answer": "Someone reported him for touching a woman up.",
+      "answerZh": "有人舉報他非禮一名女子。",
+      "highlight": "touching a woman up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The news caused a wave of panic.",
+      "promptZh": "該消息引起了一陣恐慌。",
+      "starter": "The",
+      "answer": "The news touched off a wave of panic.",
+      "answerZh": "該消息引起了一陣恐慌。",
+      "highlight": "touched off a wave of panic",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "We are only briefly mentioning the main points today.",
+      "promptZh": "我們今天只會簡短提及幾個重點。",
+      "starter": "We",
+      "answer": "We are only touching on the main points today.",
+      "answerZh": "我們今天只會簡短提及幾個重點。",
+      "highlight": "touching on the main points",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Did that man touch you in a sexual way without your permission?",
+      "promptZh": "那名男子有否未經你同意，以帶有性意味的方式觸摸你？",
+      "starter": "Did",
+      "answer": "Did that man touch you up?",
+      "answerZh": "那名男子有否非禮你？",
+      "highlight": "touch you up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Nina is trying to get her brother to lend her thirty pounds again.",
+      "promptZh": "妮娜又在嘗試向哥哥借三十英鎊。",
+      "starter": "Nina",
+      "answer": "Nina is trying to touch her brother for thirty pounds again.",
+      "answerZh": "妮娜又在嘗試向哥哥開口借三十英鎊。",
+      "highlight": "touch her brother for thirty pounds again",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-28-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The painter is repairing the wall where there are a few small marks.",
+      "promptZh": "油漆工人正在修補牆上幾處細小痕跡。",
+      "starter": "The",
+      "answer": "The painter is touching up the wall where there are a few small marks.",
+      "answerZh": "油漆工人正在修補牆上幾處細小痕跡。",
+      "highlight": "touching up the wall",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "One careless post has started a long online argument.",
+      "promptZh": "一則不小心發布的帖文引發了一場持續多時的網上爭論。",
+      "starter": "One",
+      "answer": "One careless post has touched off a long online argument.",
+      "answerZh": "一則不小心發布的帖文引發了一場持續多時的網上爭論。",
+      "highlight": "touched off a long online argument",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Did the report briefly mention the cost of the plan?",
+      "promptZh": "該報告有否簡短提及計劃的費用？",
+      "starter": "Did",
+      "answer": "Did the report touch on the cost of the plan?",
+      "answerZh": "該報告有否簡短提及計劃的費用？",
+      "highlight": "touch on the cost of the plan",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "No one has the right to touch anyone in a sexual way without permission.",
+      "promptZh": "任何人都無權在未經同意下，以帶有性意味的方式觸摸他人。",
+      "starter": "No",
+      "answer": "No one has the right to touch anyone up.",
+      "answerZh": "任何人都無權非禮他人。",
+      "highlight": "touch anyone up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "I will not ask my parents for any more money this month.",
+      "promptZh": "我今個月不會再向父母開口要錢。",
+      "starter": "I",
+      "answer": "I will not touch my parents for any more money this month.",
+      "answerZh": "我今個月不會再向父母開口要錢。",
+      "highlight": "touch my parents for any more money",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢"
+    },
+    {
+      "id": "phrasal-verb-28-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Could you make a few small improvements to this drawing?",
+      "promptZh": "你可以稍為改善這幅畫嗎？",
+      "starter": "Could",
+      "answer": "Could you touch up this drawing?",
+      "answerZh": "你可以稍為改善這幅畫嗎？",
+      "highlight": "touch up this drawing",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The article did not mention the problem of noise.",
+      "promptZh": "該文章沒有提及噪音問題。",
+      "starter": "The",
+      "answer": "The article did not touch on the problem of noise.",
+      "answerZh": "該文章沒有提及噪音問題。",
+      "highlight": "touch on the problem of noise",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "What started the fire in the kitchen?",
+      "promptZh": "甚麼引發了廚房的大火？",
+      "starter": "What",
+      "answer": "What touched off the fire in the kitchen?",
+      "answerZh": "甚麼引發了廚房的大火？",
+      "highlight": "touched off the fire",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "She said she had been touched in a sexual way without permission in the crowd.",
+      "promptZh": "她表示自己在人群中曾被人在未經同意下，以帶有性意味的方式觸摸。",
+      "starter": "She",
+      "answer": "She said she had been touched up in the crowd.",
+      "answerZh": "她表示自己在人群中曾被人非禮。",
+      "highlight": "touched up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The sign has a few faded letters, so I will improve it with more paint.",
+      "promptZh": "招牌上有幾個褪色的字母，所以我會加點油漆把它修補好。",
+      "starter": "The",
+      "answer": "The sign has a few faded letters, so I will touch it up with more paint.",
+      "answerZh": "招牌上有幾個褪色的字母，所以我會加點油漆把它修補好。",
+      "highlight": "touch it up",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "He tried to get fifty pounds from me before the trip.",
+      "promptZh": "他在旅程前嘗試向我借五十英鎊。",
+      "starter": "He",
+      "answer": "He tried to touch me for fifty pounds before the trip.",
+      "answerZh": "他在旅程前嘗試向我開口借五十英鎊。",
+      "highlight": "touch me for fifty pounds",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-28-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The speaker briefly mentioned this question near the end.",
+      "promptZh": "講者在接近結尾時簡短提及了這個問題。",
+      "starter": "The",
+      "answer": "The speaker touched upon this question near the end.",
+      "answerZh": "講者在接近結尾時簡短提及了這個問題。",
+      "highlight": "touched upon this question",
+      "targetForm": "touch upon something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The guard saw a man touching a passenger in a sexual way without permission.",
+      "promptZh": "保安看見一名男子在未經同意下，以帶有性意味的方式觸摸一名乘客。",
+      "starter": "The",
+      "answer": "The guard saw a man touching a passenger up.",
+      "answerZh": "保安看見一名男子正在非禮一名乘客。",
+      "highlight": "touching a passenger up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The protest was started by a sudden rise in bus fares.",
+      "promptZh": "這場抗議是由巴士車費突然上升所引發的。",
+      "starter": "The",
+      "answer": "The protest was touched off by a sudden rise in bus fares.",
+      "answerZh": "這場抗議是由巴士車費突然上升所引發的。",
+      "highlight": "touched off",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The old photograph was improved slightly before it was printed.",
+      "promptZh": "這張舊照片在印刷前經過了輕微修飾。",
+      "starter": "The",
+      "answer": "The old photograph was touched up before it was printed.",
+      "answerZh": "這張舊照片在印刷前經過了輕微修飾。",
+      "highlight": "touched up",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "She may ask her aunt to lend her a hundred pounds.",
+      "promptZh": "她可能會向姨母借一百英鎊。",
+      "starter": "She",
+      "answer": "She may touch her aunt for a hundred pounds.",
+      "answerZh": "她可能會向姨母開口借一百英鎊。",
+      "highlight": "touch her aunt for a hundred pounds",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-28-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The issue was briefly mentioned during the meeting.",
+      "promptZh": "這個問題在會議期間被簡短提及。",
+      "starter": "The",
+      "answer": "The issue was touched on during the meeting.",
+      "answerZh": "這個問題在會議期間被簡短提及。",
+      "highlight": "touched on",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The police removed a man who had touched two passengers in a sexual way without permission.",
+      "promptZh": "警方帶走了一名曾未經同意，以帶有性意味的方式觸摸兩名乘客的男子。",
+      "starter": "The",
+      "answer": "The police removed a man who had touched two passengers up.",
+      "answerZh": "警方帶走了一名曾非禮兩名乘客的男子。",
+      "highlight": "touched two passengers up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "She quickly improved her make-up before the interview.",
+      "promptZh": "她在面試前迅速補了一下妝。",
+      "starter": "She",
+      "answer": "She quickly touched up her make-up before the interview.",
+      "answerZh": "她在面試前迅速補了一下妝。",
+      "highlight": "touched up her make-up",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "A false alarm could start unnecessary panic.",
+      "promptZh": "錯誤警報可能會引起不必要的恐慌。",
+      "starter": "A",
+      "answer": "A false alarm could touch off unnecessary panic.",
+      "answerZh": "錯誤警報可能會引起不必要的恐慌。",
+      "highlight": "touch off unnecessary panic",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Kai said he had no cash. He asked me to lend him fifteen pounds.",
+      "promptZh": "啟說自己沒有現金，然後向我借了十五英鎊。",
+      "starter": "Kai",
+      "answer": "Kai said he had no cash. He touched me for fifteen pounds.",
+      "answerZh": "啟說自己沒有現金，然後向我開口借了十五英鎊。",
+      "highlight": "touched me for fifteen pounds",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-28-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The comment did not start the fight; the push did.",
+      "promptZh": "那句說話並沒有引發打鬥；真正的原因是有人推了一下。",
+      "starter": "The",
+      "answer": "The comment did not touch off the fight; the push did.",
+      "answerZh": "那句說話並沒有引發打鬥；真正的原因是有人推了一下。",
+      "highlight": "touch off the fight",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "We have already briefly mentioned the reasons for the delay.",
+      "promptZh": "我們已經簡短提及了延誤的原因。",
+      "starter": "We",
+      "answer": "We have already touched on the reasons for the delay.",
+      "answerZh": "我們已經簡短提及了延誤的原因。",
+      "highlight": "touched on the reasons",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "If anyone touches you in a sexual way without permission, move away and ask for help.",
+      "promptZh": "如有人未經同意，以帶有性意味的方式觸摸你，請立即走開並求助。",
+      "starter": "If",
+      "answer": "If anyone touches you up, move away and ask for help.",
+      "answerZh": "如有人非禮你，請立即走開並求助。",
+      "highlight": "touches you up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "By lunchtime, Sam had already asked three friends to lend him money.",
+      "promptZh": "到了午飯時間，森已經向三名朋友借過錢。",
+      "starter": "By",
+      "answer": "By lunchtime, Sam had already touched three friends for money.",
+      "answerZh": "到了午飯時間，森已經向三名朋友開口借過錢。",
+      "highlight": "touched three friends for money",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-28-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The painted table does not need repainting; we only need to repair a few small marks on it.",
+      "promptZh": "這張上了漆的桌子毋須重新油漆；我們只需要修補幾處細小痕跡。",
+      "starter": "The",
+      "answer": "The painted table does not need repainting; we only need to touch it up.",
+      "answerZh": "這張上了漆的桌子毋須重新油漆；我們只需要稍為修補。",
+      "highlight": "touch it up",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The book is mainly about travel. It also briefly mentions family life.",
+      "promptZh": "這本書主要談論旅遊，也簡短提及家庭生活。",
+      "starter": "The",
+      "answer": "The book is mainly about travel. It also touches on family life.",
+      "answerZh": "這本書主要談論旅遊，也簡短提及家庭生活。",
+      "highlight": "touches on family life",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The room was already tense. One joke started the argument.",
+      "promptZh": "房內的氣氛本來已經很緊張，一個笑話引發了爭吵。",
+      "starter": "The",
+      "answer": "The room was already tense. One joke touched off the argument.",
+      "answerZh": "房內的氣氛本來已經很緊張，一個笑話引發了爭吵。",
+      "highlight": "touched off the argument",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The training video explains what to do if someone touches you in a sexual way without permission.",
+      "promptZh": "這段訓練影片解釋了如有人未經同意，以帶有性意味的方式觸摸你時應該怎樣做。",
+      "starter": "The",
+      "answer": "The training video explains what to do if someone touches you up.",
+      "answerZh": "這段訓練影片解釋了如有人非禮你時應該怎樣做。",
+      "highlight": "touches you up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "How much money did Mia ask you to lend her?",
+      "promptZh": "米婭向你借了多少錢？",
+      "starter": "How",
+      "answer": "How much did Mia touch you for?",
+      "answerZh": "米婭向你開口借了多少錢？",
+      "highlight": "touch you",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-28-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Without giving full details, Maya mentioned the change in the school rules.",
+      "promptZh": "瑪雅沒有詳細解釋，只簡短提及了校規的改動。",
+      "starter": "Without",
+      "answer": "Without giving full details, Maya touched on the change in the school rules.",
+      "answerZh": "瑪雅沒有詳細解釋，只簡短提及了校規的改動。",
+      "highlight": "touched on the change",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "I have made a few small changes to the final picture.",
+      "promptZh": "我已經對最後的圖片作了幾項小修改。",
+      "starter": "I",
+      "answer": "I have touched up the final picture.",
+      "answerZh": "我已經對最後的圖片作了幾項小修改。",
+      "highlight": "touched up the final picture",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The new rule has started a long chain of complaints.",
+      "promptZh": "新規則引發了一連串投訴。",
+      "starter": "The",
+      "answer": "The new rule has touched off a long chain of complaints.",
+      "answerZh": "新規則引發了一連串投訴。",
+      "highlight": "touched off a long chain of complaints",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "She pushed his hand away when he tried to touch her in a sexual way without permission.",
+      "promptZh": "他企圖在未經同意下，以帶有性意味的方式觸摸她時，她立即推開他的手。",
+      "starter": "She",
+      "answer": "She pushed his hand away when he tried to touch her up.",
+      "answerZh": "他企圖非禮她時，她立即推開他的手。",
+      "highlight": "touch her up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The paint near the door was damaged. Dad repaired the small area.",
+      "promptZh": "門旁的油漆受損了。爸爸修補了那一小處。",
+      "starter": "The",
+      "answer": "The paint near the door was damaged. Dad touched it up.",
+      "answerZh": "門旁的油漆受損了。爸爸修補了那一小處。",
+      "highlight": "touched it up",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The sudden loss of light started panic in the crowd.",
+      "promptZh": "燈光突然熄滅，引起了人群恐慌。",
+      "starter": "The",
+      "answer": "The sudden loss of light touched off panic in the crowd.",
+      "answerZh": "燈光突然熄滅，引起了人群恐慌。",
+      "highlight": "touched off panic",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The programme discussed health in detail but only briefly mentioned diet.",
+      "promptZh": "該節目詳細討論了健康，卻只簡短提及飲食。",
+      "starter": "The",
+      "answer": "The programme discussed health in detail but only touched on diet.",
+      "answerZh": "該節目詳細討論了健康，卻只簡短提及飲食。",
+      "highlight": "touched on diet",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The coach had no cash for the taxi, so he asked each player to lend him two pounds.",
+      "promptZh": "教練沒有現金支付的士車費，所以向每名球員借了兩英鎊。",
+      "starter": "The",
+      "answer": "The coach had no cash for the taxi, so he touched each player for two pounds.",
+      "answerZh": "教練沒有現金支付的士車費，所以向每名球員開口借了兩英鎊。",
+      "highlight": "touched each player for two pounds",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-28-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The police were told that a stranger had touched a passenger in a sexual way without permission.",
+      "promptZh": "有人向警方表示，一名陌生人曾未經同意，以帶有性意味的方式觸摸一名乘客。",
+      "starter": "The",
+      "answer": "The police were told that a stranger had touched a passenger up.",
+      "answerZh": "有人向警方表示，一名陌生人曾非禮一名乘客。",
+      "highlight": "touched a passenger up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before the guests arrived, we made small repairs to the chipped paint on the wall.",
+      "promptZh": "客人到達前，我們稍為修補了牆上剝落的油漆。",
+      "starter": "Before",
+      "answer": "Before the guests arrived, we touched up the chipped paint on the wall.",
+      "answerZh": "客人到達前，我們稍為修補了牆上剝落的油漆。",
+      "highlight": "touched up the chipped paint on the wall",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    },
+    {
+      "id": "phrasal-verb-28-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "In his final paragraph, Leo briefly mentioned what might happen next.",
+      "promptZh": "里奧在最後一段簡短提及了接下來可能發生的事情。",
+      "starter": "In",
+      "answer": "In his final paragraph, Leo touched on what might happen next.",
+      "answerZh": "里奧在最後一段簡短提及了接下來可能發生的事情。",
+      "highlight": "touched on what might happen",
+      "targetForm": "touch on something",
+      "targetMeaningZh": "簡短提及某事"
+    },
+    {
+      "id": "phrasal-verb-28-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "A small mistake in the report started a much bigger problem.",
+      "promptZh": "報告中的一個小錯誤引發了一個大得多的問題。",
+      "starter": "A",
+      "answer": "A small mistake in the report touched off a much bigger problem.",
+      "answerZh": "報告中的一個小錯誤引發了一個大得多的問題。",
+      "highlight": "touched off a much bigger problem",
+      "targetForm": "touch something off",
+      "targetMeaningZh": "引發某事"
+    },
+    {
+      "id": "phrasal-verb-28-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although he had promised not to borrow again, Dan asked his flatmate for another forty pounds.",
+      "promptZh": "雖然丹曾承諾不再借錢，但他又向同屋借了四十英鎊。",
+      "starter": "Although",
+      "answer": "Although he had promised not to borrow again, Dan touched his flatmate for another forty pounds.",
+      "answerZh": "雖然丹曾承諾不再借錢，但他又向同屋開口借了四十英鎊。",
+      "highlight": "touched his flatmate for another forty pounds",
+      "targetForm": "touch somebody for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-28-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The school warned students not to touch anyone in a sexual way without permission.",
+      "promptZh": "學校警告學生，不得未經同意，以帶有性意味的方式觸摸任何人。",
+      "starter": "The",
+      "answer": "The school warned students not to touch anyone up.",
+      "answerZh": "學校警告學生不得非禮任何人。",
+      "highlight": "touch anyone up",
+      "targetForm": "touch somebody up",
+      "targetMeaningZh": "非禮某人"
+    },
+    {
+      "id": "phrasal-verb-28-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The artist made a few small improvements to the colours and lines before the poster was printed.",
+      "promptZh": "海報印刷前，畫家稍為改善了當中的色彩和線條。",
+      "starter": "The",
+      "answer": "The artist touched up the colours and lines before the poster was printed.",
+      "answerZh": "海報印刷前，畫家稍為改善了當中的色彩和線條。",
+      "highlight": "touched up the colours",
+      "targetForm": "touch something up",
+      "targetMeaningZh": "修補小處；稍作改善"
+    }
+  ]
+}

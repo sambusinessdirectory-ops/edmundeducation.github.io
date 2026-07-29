@@ -1,7 +1,7 @@
 # Edmund Phrasal Verb System Worker
 
 This Worker is the private browser-facing boundary for the Phrasal Verb System. It
-stores attempts and bookmarks for the single `phrasal-verb-01` lesson and provides a
+stores attempts and bookmarks for all published Phrasal Verb lessons and provides a
 dedicated Phrasal Verb System administrator login.
 
 Student authentication is shared with the existing Flashcard, Writing
@@ -27,9 +27,8 @@ bridge is not already installed. Then apply
 The migration creates:
 
 - hash-only administrator accounts and SHA-256-digested, eight-hour sessions;
-- account-isolated attempts for `phrasal-verb-01` and `phrasal-verb-01-q01` through
-  `phrasal-verb-01-q70`;
-- normalized bookmarks for the lesson card plus its 70 questions; and
+- account-isolated attempts for the complete published lesson catalogue;
+- normalized bookmarks for lesson cards and their source-defined questions; and
 - service-role-only student, attempt, bookmark, and administrator RPCs.
 
 ### 2. Install the canonical answer catalogue
@@ -38,7 +37,7 @@ The migration creates:
 from `../../phrasal-verb-system-data.js`. When the canonical browser content
 changes, update the protected server-side object at the same time:
 
-- use exactly `phrasal-verb-01-q01` through `phrasal-verb-01-q70`;
+- preserve every sequential lesson and question ID generated from the browser data;
 - put the canonical English answer first in each answer array;
 - append only deliberately approved `acceptedAnswers` variants; and
 - never invent or retain placeholder strings.
@@ -46,7 +45,7 @@ changes, update the protected server-side object at the same time:
 Do not import the public browser data file at Worker runtime. The catalogue is
 an independent server-side trust boundary. Tests compare both catalogues and
 pin their canonical-answer SHA-256 digest. `GET /v1/health` returns `503` with
-`catalog.ready: false` if any of the 70 protected entries becomes invalid. With
+`catalog.ready: false` if any protected entry becomes invalid. With
 the catalogue incomplete or invalid, every claimed-correct answer returns
 `ANSWER_CATALOG_NOT_READY` before an attempt can be credited. Wrong-answer
 progress and bookmarks remain usable while the catalogue is being prepared.
@@ -172,9 +171,8 @@ The exact top-level `PUT` shape is:
 }
 ```
 
-Only content version `1`, lesson `phrasal-verb-01`, and question IDs `phrasal-verb-01-q01`
-through `phrasal-verb-01-q70` are accepted. Once populated, claimed correct answers
-are checked against the protected 70-answer server catalogue derived from the
+Only content version `1` and IDs in the generated Phrasal Verb catalogue are
+accepted. Claimed correct answers are checked against the protected server catalogue derived from the
 canonical browser data. Progress cannot lose previously correct IDs, and
 completed attempts are immutable, so a
 retry after a lost response is safe. Result JSON is capped at 96 KiB and 250
@@ -188,7 +186,8 @@ round summaries; the database retains at most 1,000 attempts per student.
 `PUT` atomically replaces the student's list. Each item has exactly
 `lessonId`, `questionId`, and boolean `includeAnswer`. The optional lesson-card
 bookmark uses question ID `__section__` and must set `includeAnswer` to `false`.
-The maximum is 71 unique items: one lesson card plus 70 questions. Existing
+The maximum is derived from the generated catalogue: one section bookmark per
+lesson plus one bookmark per published question. Existing
 creation timestamps survive updates.
 
 ### Administrator progress view

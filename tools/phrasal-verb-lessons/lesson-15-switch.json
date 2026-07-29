@@ -1,0 +1,1259 @@
+{
+  "id": "phrasal-verb-15",
+  "order": 15,
+  "slug": "switch",
+  "version": "1",
+  "title": "SWITCH 動詞片語",
+  "titleEn": "Switch",
+  "titleZh": "SWITCH 動詞片語",
+  "level": "",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 15 - SWITCH.pdf",
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SWITCH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SWITCH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SWITCH",
+      "highlight": "SWITCH"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "I switch off when people talk for too long.",
+      "zh": "別人說得太久時，我便會聽不進去。",
+      "highlight": "switch off"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The heating switches itself off at ten o’clock.",
+      "zh": "暖氣系統在十時自動關閉。",
+      "highlight": "switches itself off"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "She switched on the kitchen light.",
+      "zh": "她開了廚房的燈。",
+      "highlight": "switched on"
+    }
+  ],
+  "meaning": {
+    "zh": "停止留心；對正在說或發生的事情失去注意力；關掉電器或系統；停止運作；自動關閉；開啟電器或系統；開始運作；自動開啟；轉到另一個頻道、系統、方法或選擇。",
+    "en": "Learn and practise the phrasal verbs related to SWITCH.",
+    "naturalZh": [
+      "停止留心；對正在說或發生的事情失去注意力",
+      "關掉電器或系統；停止運作；自動關閉",
+      "開啟電器或系統；開始運作；自動開啟",
+      "轉到另一個頻道、系統、方法或選擇"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "switch off",
+      "titleZh": "停止留心；對正在說或發生的事情失去注意力",
+      "titleEn": "switch off",
+      "descriptionZh": "停止留心；對正在說或發生的事情失去注意力",
+      "descriptionEn": "I switch off when people talk for too long.",
+      "examples": [
+        {
+          "en": "I switch off when people talk for too long.",
+          "zh": "別人說得太久時，我便會聽不進去。",
+          "highlight": "switch off"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "switch off / switch something off / switch itself off",
+      "titleZh": "關掉電器或系統；停止運作；自動關閉",
+      "titleEn": "switch off / switch something off / switch itself off",
+      "descriptionZh": "關掉電器或系統；停止運作；自動關閉",
+      "descriptionEn": "The heating switches itself off at ten o’clock.",
+      "examples": [
+        {
+          "en": "The heating switches itself off at ten o’clock.",
+          "zh": "暖氣系統在十時自動關閉。",
+          "highlight": "switches itself off"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "switch on / switch something on / switch itself on",
+      "titleZh": "開啟電器或系統；開始運作；自動開啟",
+      "titleEn": "switch on / switch something on / switch itself on",
+      "descriptionZh": "開啟電器或系統；開始運作；自動開啟",
+      "descriptionEn": "She switched on the kitchen light.",
+      "examples": [
+        {
+          "en": "She switched on the kitchen light.",
+          "zh": "她開了廚房的燈。",
+          "highlight": "switched on"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 2,
+      "formula": "switch over to something / switch something over to something",
+      "titleZh": "轉到另一個頻道、系統、方法或選擇",
+      "titleEn": "switch over to something / switch something over to something",
+      "descriptionZh": "轉到另一個頻道、系統、方法或選擇",
+      "descriptionEn": "We switched over to the news.",
+      "examples": [
+        {
+          "en": "We switched over to the news.",
+          "zh": "我們轉看新聞。",
+          "highlight": "switched over to"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 SWITCH 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to SWITCH.",
+    "contextsZh": [
+      "停止留心；對正在說或發生的事情失去注意力",
+      "關掉電器或系統；停止運作；自動關閉",
+      "開啟電器或系統；開始運作；自動開啟",
+      "轉到另一個頻道、系統、方法或選擇"
+    ],
+    "contextsEn": [
+      "switch off",
+      "switch off / switch something off / switch itself off",
+      "switch on / switch something on / switch itself on",
+      "switch over to something / switch something over to something"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 SWITCH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SWITCH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "SWITCH",
+    "fixedHighlight": "SWITCH",
+    "fixedZh": "閱讀整句，選出意思相同的 SWITCH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SWITCH expression that gives the same meaning.",
+    "correct": "switch off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 it 或 them 時，請按照以上例子放在正確位置。 人可以因為不再留心而 switch off；機器則可以因為停止運作而 switch off。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them, place the word as shown: switch it off switch them on switch it over to a new system A person may switch off because they stop paying attention. A machine may switch off because it stops operating. Read the full situation carefully.",
+    "variableItemsZh": [
+      "停止留心；對正在說或發生的事情失去注意力",
+      "關掉電器或系統；停止運作；自動關閉",
+      "開啟電器或系統；開始運作；自動開啟",
+      "轉到另一個頻道、系統、方法或選擇"
+    ],
+    "variableItemsEn": [
+      "switch off",
+      "switch off / switch something off / switch itself off",
+      "switch on / switch something on / switch itself on",
+      "switch over to something / switch something over to something"
+    ],
+    "forms": [
+      {
+        "formZh": "停止留心；對正在說或發生的事情失去注意力",
+        "formEn": "switch off",
+        "exampleZh": "別人說得太久時，我便會聽不進去。",
+        "exampleEn": "I switch off when people talk for too long.",
+        "highlight": "switch off"
+      },
+      {
+        "formZh": "關掉電器或系統；停止運作；自動關閉",
+        "formEn": "switch off / switch something off / switch itself off",
+        "exampleZh": "暖氣系統在十時自動關閉。",
+        "exampleEn": "The heating switches itself off at ten o’clock.",
+        "highlight": "switches itself off"
+      },
+      {
+        "formZh": "開啟電器或系統；開始運作；自動開啟",
+        "formEn": "switch on / switch something on / switch itself on",
+        "exampleZh": "她開了廚房的燈。",
+        "exampleEn": "She switched on the kitchen light.",
+        "highlight": "switched on"
+      },
+      {
+        "formZh": "轉到另一個頻道、系統、方法或選擇",
+        "formEn": "switch over to something / switch something over to something",
+        "exampleZh": "我們轉看新聞。",
+        "exampleEn": "We switched over to the news.",
+        "highlight": "switched over to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "停止留心；對正在說或發生的事情失去注意力",
+      "titleEn": "switch off",
+      "formula": "switch off",
+      "highlight": "switch off",
+      "descriptionZh": "停止留心；對正在說或發生的事情失去注意力",
+      "descriptionEn": "I switch off when people talk for too long.",
+      "examples": [
+        {
+          "en": "I switch off when people talk for too long.",
+          "zh": "別人說得太久時，我便會聽不進去。",
+          "highlight": "switch off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "關掉電器或系統；停止運作；自動關閉",
+      "titleEn": "switch off / switch something off / switch itself off",
+      "formula": "switch off / switch something off / switch itself off",
+      "highlight": "switch off / switch something off / switch itself off",
+      "descriptionZh": "關掉電器或系統；停止運作；自動關閉",
+      "descriptionEn": "The heating switches itself off at ten o’clock.",
+      "examples": [
+        {
+          "en": "The heating switches itself off at ten o’clock.",
+          "zh": "暖氣系統在十時自動關閉。",
+          "highlight": "switches itself off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "開啟電器或系統；開始運作；自動開啟",
+      "titleEn": "switch on / switch something on / switch itself on",
+      "formula": "switch on / switch something on / switch itself on",
+      "highlight": "switch on / switch something on / switch itself on",
+      "descriptionZh": "開啟電器或系統；開始運作；自動開啟",
+      "descriptionEn": "She switched on the kitchen light.",
+      "examples": [
+        {
+          "en": "She switched on the kitchen light.",
+          "zh": "她開了廚房的燈。",
+          "highlight": "switched on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "轉到另一個頻道、系統、方法或選擇",
+      "titleEn": "switch over to something / switch something over to something",
+      "formula": "switch over to something / switch something over to something",
+      "highlight": "switch over to something / switch something over to something",
+      "descriptionZh": "轉到另一個頻道、系統、方法或選擇",
+      "descriptionEn": "We switched over to the news.",
+      "examples": [
+        {
+          "en": "We switched over to the news.",
+          "zh": "我們轉看新聞。",
+          "highlight": "switched over to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論注意力和沉悶感",
+      "titleEn": "Talk about attention and boredom",
+      "zh": "switch off 可以描述某人不再聆聽或留心的情況。",
+      "en": "Switch off can describe the moment when someone stops listening or paying attention."
+    },
+    {
+      "titleZh": "談論日常電器",
+      "titleEn": "Talk about everyday electrical devices",
+      "zh": "switch on 和 switch off 可用來談論燈、電腦、風扇、暖氣系統和其他設備。",
+      "en": "Switch on and switch off are useful when talking about lights, computers, fans, heating and other equipment."
+    },
+    {
+      "titleZh": "清楚描述自動設備",
+      "titleEn": "Describe automatic equipment clearly",
+      "zh": "switch itself on 和 switch itself off 可以表示機器自動啟動或關閉。",
+      "en": "Switch itself on and switch itself off can show that a machine starts or stops automatically."
+    },
+    {
+      "titleZh": "談論頻道和系統的轉換",
+      "titleEn": "Talk about changing channels and systems",
+      "zh": "switch over 可以描述轉看另一個電視節目，或改用另一個應用程式、支付系統或工作方式。",
+      "en": "Switch over can describe changing to another television programme, app, payment system or way of working."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "停止留心；對正在說或發生的事情失去注意力",
+      "關掉電器或系統；停止運作；自動關閉",
+      "開啟電器或系統；開始運作；自動開啟",
+      "轉到另一個頻道、系統、方法或選擇"
+    ],
+    "contextsEn": [
+      "switch off",
+      "switch off / switch something off / switch itself off",
+      "switch on / switch something on / switch itself on",
+      "switch over to something / switch something over to something"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "停止留心；對正在說或發生的事情失去注意力",
+        "titleEn": "switch off",
+        "zh": "停止留心；對正在說或發生的事情失去注意力",
+        "en": "I switch off when people talk for too long.",
+        "examples": [
+          {
+            "en": "I switch off when people talk for too long.",
+            "zh": "別人說得太久時，我便會聽不進去。",
+            "highlight": "switch off"
+          }
+        ]
+      },
+      {
+        "titleZh": "關掉電器或系統；停止運作；自動關閉",
+        "titleEn": "switch off / switch something off / switch itself off",
+        "zh": "關掉電器或系統；停止運作；自動關閉",
+        "en": "The heating switches itself off at ten o’clock.",
+        "examples": [
+          {
+            "en": "The heating switches itself off at ten o’clock.",
+            "zh": "暖氣系統在十時自動關閉。",
+            "highlight": "switches itself off"
+          }
+        ]
+      },
+      {
+        "titleZh": "開啟電器或系統；開始運作；自動開啟",
+        "titleEn": "switch on / switch something on / switch itself on",
+        "zh": "開啟電器或系統；開始運作；自動開啟",
+        "en": "She switched on the kitchen light.",
+        "examples": [
+          {
+            "en": "She switched on the kitchen light.",
+            "zh": "她開了廚房的燈。",
+            "highlight": "switched on"
+          }
+        ]
+      },
+      {
+        "titleZh": "轉到另一個頻道、系統、方法或選擇",
+        "titleEn": "switch over to something / switch something over to something",
+        "zh": "轉到另一個頻道、系統、方法或選擇",
+        "en": "We switched over to the news.",
+        "examples": [
+          {
+            "en": "We switched over to the news.",
+            "zh": "我們轉看新聞。",
+            "highlight": "switched over to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 SWITCH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SWITCH expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 SWITCH 片語動詞。",
+      "en": "Read the whole sentence and choose the SWITCH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them, place the word as shown: switch it off switch them on switch it over to a new system",
+      "zh": "使用 it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using it or them, place the word as shown: switch it off switch them on switch it over to a new system",
+      "examples": [
+        {
+          "en": "switch it off",
+          "zh": "switch it off",
+          "highlight": "switch it off"
+        },
+        {
+          "en": "switch them on",
+          "zh": "switch them on",
+          "highlight": "switch them on"
+        },
+        {
+          "en": "switch it over to a new system",
+          "zh": "switch it over to a new system",
+          "highlight": "switch it over to"
+        }
+      ]
+    },
+    {
+      "titleZh": "人可以因為不再留心而 switch off；機器則可以因為停止運作而 switch off。請仔細閱讀整個情境。",
+      "titleEn": "A person may switch off because they stop paying attention. A machine may switch off because it stops operating. Read the full situation carefully.",
+      "zh": "人可以因為不再留心而 switch off；機器則可以因為停止運作而 switch off。請仔細閱讀整個情境。",
+      "en": "A person may switch off because they stop paying attention. A machine may switch off because it stops operating. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SWITCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SWITCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SWITCH 動詞片語句子改寫練習",
+    "titleEn": "SWITCH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SWITCH 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SWITCH. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-15-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Leo used the switch to start the lamp because the room was dark.",
+      "promptZh": "房間很暗，所以里奧用開關開燈。",
+      "starter": "Leo",
+      "answer": "Leo switched on the lamp because the room was dark.",
+      "answerZh": "房間很暗，所以里奧開了燈。",
+      "highlight": "switched on",
+      "targetForm": "switch something on",
+      "targetMeaningZh": "開啟電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I stop listening when Tom talks for too long.",
+      "promptZh": "湯姆說得太久時，我便會聽不進去。",
+      "starter": "I",
+      "answer": "I switch off when Tom talks for too long.",
+      "answerZh": "湯姆說得太久時，我便會聽不進去。",
+      "highlight": "switch off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "We changed to the news at ten.",
+      "promptZh": "我們在十時轉看新聞。",
+      "starter": "We",
+      "answer": "We switched over to the news at ten.",
+      "answerZh": "我們在十時轉看新聞。",
+      "highlight": "switched over to",
+      "targetForm": "switch over to something",
+      "targetMeaningZh": "轉到另一個頻道或節目"
+    },
+    {
+      "id": "phrasal-verb-15-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Please stop the fan before you leave.",
+      "promptZh": "離開前請關掉風扇。",
+      "starter": "Please",
+      "answer": "Please switch off the fan before you leave.",
+      "answerZh": "離開前請關掉風扇。",
+      "highlight": "switch off",
+      "targetForm": "switch something off",
+      "targetMeaningZh": "關掉電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The café changed to a new ordering system last week.",
+      "promptZh": "咖啡店上星期轉用了新的點餐系統。",
+      "starter": "The",
+      "answer": "The café switched over to a new ordering system last week.",
+      "answerZh": "咖啡店上星期轉用了新的點餐系統。",
+      "highlight": "switched over to",
+      "targetForm": "switch over to something",
+      "targetMeaningZh": "轉用另一個系統"
+    },
+    {
+      "id": "phrasal-verb-15-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The heating stops automatically at ten o’clock.",
+      "promptZh": "暖氣系統在十時自動停止運作。",
+      "starter": "The",
+      "answer": "The heating switches itself off at ten o’clock.",
+      "answerZh": "暖氣系統在十時自動關閉。",
+      "highlight": "switches itself off",
+      "targetForm": "switch itself off",
+      "targetMeaningZh": "自動關閉；自行停止運作"
+    },
+    {
+      "id": "phrasal-verb-15-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Maya stopped paying attention during the long talk.",
+      "promptZh": "長時間講話期間，瑪雅不再留心。",
+      "starter": "Maya",
+      "answer": "Maya switched off during the long talk.",
+      "answerZh": "長時間講話期間，瑪雅聽不進去了。",
+      "highlight": "switched off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please use the switch to start the kitchen light.",
+      "promptZh": "請用開關開啟廚房的燈。",
+      "starter": "Please",
+      "answer": "Please switch on the kitchen light.",
+      "answerZh": "請開啟廚房的燈。",
+      "highlight": "switch on",
+      "targetForm": "switch something on",
+      "targetMeaningZh": "開啟電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "I pressed the button to stop the radio before going to bed.",
+      "promptZh": "我睡前按下按鈕，關掉了收音機。",
+      "starter": "I",
+      "answer": "I switched off the radio before going to bed.",
+      "answerZh": "我睡前關掉了收音機。",
+      "highlight": "switched off",
+      "targetForm": "switch something off",
+      "targetMeaningZh": "關掉電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Dad changed the television to the football match.",
+      "promptZh": "爸爸把電視轉到足球賽事。",
+      "starter": "Dad",
+      "answer": "Dad switched the television over to the football match.",
+      "answerZh": "爸爸把電視轉到足球賽事。",
+      "highlight": "switched the television over to",
+      "targetForm": "switch something over to something",
+      "targetMeaningZh": "把設備轉到另一個節目或選擇"
+    },
+    {
+      "id": "phrasal-verb-15-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben often stops listening when the instructions are too long.",
+      "promptZh": "指示太長時，賓經常會聽不進去。",
+      "starter": "Ben",
+      "answer": "Ben often switches off when the instructions are too long.",
+      "answerZh": "指示太長時，賓經常會聽不進去。",
+      "highlight": "switches off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The shop assistant is starting the display screen now.",
+      "promptZh": "店員現在正開啟顯示屏。",
+      "starter": "The",
+      "answer": "The shop assistant is switching on the display screen now.",
+      "answerZh": "店員現在正開啟顯示屏。",
+      "highlight": "switching on",
+      "targetForm": "switch something on",
+      "targetMeaningZh": "開啟電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Have you made sure the oven is no longer operating?",
+      "promptZh": "你已確保焗爐停止運作了嗎？",
+      "starter": "Have",
+      "answer": "Have you switched off the oven?",
+      "answerZh": "你已經關掉焗爐了嗎？",
+      "highlight": "switched off",
+      "targetForm": "switch something off",
+      "targetMeaningZh": "關掉電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Next month, the club will change to a new booking app.",
+      "promptZh": "下個月，會所將轉用新的預約應用程式。",
+      "starter": "Next",
+      "answer": "Next month, the club will switch over to a new booking app.",
+      "answerZh": "下個月，會所將轉用新的預約應用程式。",
+      "highlight": "switch over to",
+      "targetForm": "switch over to something",
+      "targetMeaningZh": "轉用另一個系統或方法"
+    },
+    {
+      "id": "phrasal-verb-15-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Try not to stop paying attention during the safety talk.",
+      "promptZh": "安全講解期間，盡量不要分心。",
+      "starter": "Try",
+      "answer": "Try not to switch off during the safety talk.",
+      "answerZh": "安全講解期間，盡量不要分心。",
+      "highlight": "switch off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The garden lights start automatically when it gets dark.",
+      "promptZh": "天黑時，花園的燈會自動開啟。",
+      "starter": "The",
+      "answer": "The garden lights switch themselves on automatically when it gets dark.",
+      "answerZh": "天黑時，花園的燈會自動開啟。",
+      "highlight": "switch themselves on",
+      "targetForm": "switch themselves on",
+      "targetMeaningZh": "自動開啟；自行開始運作"
+    },
+    {
+      "id": "phrasal-verb-15-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why does the computer stop operating by itself after ten minutes?",
+      "promptZh": "為甚麼電腦會在十分鐘後自行停止運作？",
+      "starter": "Why",
+      "answer": "Why does the computer switch itself off after ten minutes?",
+      "answerZh": "為甚麼電腦會在十分鐘後自行關閉？",
+      "highlight": "switch itself off",
+      "targetForm": "switch itself off",
+      "targetMeaningZh": "自動關閉；自行停止運作"
+    },
+    {
+      "id": "phrasal-verb-15-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I can see that Ella is no longer paying attention.",
+      "promptZh": "我看得出埃拉已經不再留心。",
+      "starter": "I",
+      "answer": "I can see that Ella is switching off.",
+      "answerZh": "我看得出埃拉開始聽不進去了。",
+      "highlight": "switching off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "開始失去注意力"
+    },
+    {
+      "id": "phrasal-verb-15-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The office has changed to online forms.",
+      "promptZh": "辦公室已轉用網上表格。",
+      "starter": "The",
+      "answer": "The office has switched over to online forms.",
+      "answerZh": "辦公室已轉用網上表格。",
+      "highlight": "switched over to",
+      "targetForm": "switch over to something",
+      "targetMeaningZh": "轉用另一個系統或方法"
+    },
+    {
+      "id": "phrasal-verb-15-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did you light the hall before the guests arrived?",
+      "promptZh": "你在客人到達前把大堂照亮了嗎？",
+      "starter": "Did",
+      "answer": "Did you switch on the hall lights before the guests arrived?",
+      "answerZh": "你在客人到達前開了大堂的燈嗎？",
+      "highlight": "switch on",
+      "targetForm": "switch something on",
+      "targetMeaningZh": "開啟電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The shop has an old payment system. It will change it to a new one next month.",
+      "promptZh": "這間店仍使用舊支付系統。它下月會把系統轉換成新的。",
+      "starter": "The",
+      "answer": "The shop has an old payment system. It will switch it over to a new one next month.",
+      "answerZh": "這間店仍使用舊支付系統。它下月會把系統轉換成新的。",
+      "highlight": "switch it over to",
+      "targetForm": "switch something over to something",
+      "targetMeaningZh": "把某系統轉換成另一個系統"
+    },
+    {
+      "id": "phrasal-verb-15-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The speaker is too loud, so please stop it.",
+      "promptZh": "揚聲器太大聲了，請把它關掉。",
+      "starter": "The",
+      "answer": "The speaker is too loud, so please switch it off.",
+      "answerZh": "揚聲器太大聲了，請把它關掉。",
+      "highlight": "switch it off",
+      "targetForm": "switch something off",
+      "targetMeaningZh": "關掉電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The teacher was explaining the rules. Halfway through, I stopped listening.",
+      "promptZh": "老師正在解釋規則。講到一半時，我便聽不進去了。",
+      "starter": "The",
+      "answer": "The teacher was explaining the rules. Halfway through, I switched off.",
+      "answerZh": "老師正在解釋規則。講到一半時，我便聽不進去了。",
+      "highlight": "switched off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The fan is not running. Please start it.",
+      "promptZh": "風扇沒有運作。請把它開啟。",
+      "starter": "The",
+      "answer": "The fan is not running. Please switch it on.",
+      "answerZh": "風扇沒有運作。請把它開啟。",
+      "highlight": "switch it on",
+      "targetForm": "switch something on",
+      "targetMeaningZh": "開啟電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "This tablet stops automatically when the battery gets too hot.",
+      "promptZh": "電池過熱時，這部平板電腦會自動停止運作。",
+      "starter": "This",
+      "answer": "This tablet switches itself off automatically when the battery gets too hot.",
+      "answerZh": "電池過熱時，這部平板電腦會自動關閉。",
+      "highlight": "switches itself off",
+      "targetForm": "switch itself off",
+      "targetMeaningZh": "自動關閉；自行停止運作"
+    },
+    {
+      "id": "phrasal-verb-15-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The school changed its old paper booking system to a simple online one.",
+      "promptZh": "學校把舊有的紙本預約系統轉換成簡單的網上系統。",
+      "starter": "The",
+      "answer": "The school switched its old paper booking system over to a simple online one.",
+      "answerZh": "學校把舊有的紙本預約系統轉換成簡單的網上系統。",
+      "highlight": "switched its old paper booking system over to",
+      "targetForm": "switch something over to something",
+      "targetMeaningZh": "把某系統轉換成另一個系統"
+    },
+    {
+      "id": "phrasal-verb-15-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Why did you stop paying attention as soon as the lesson began?",
+      "promptZh": "為甚麼課堂一開始你便不再留心？",
+      "starter": "Why",
+      "answer": "Why did you switch off as soon as the lesson began?",
+      "answerZh": "為甚麼課堂一開始你便聽不進去？",
+      "highlight": "switch off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The lights are wasting power, so we should stop them.",
+      "promptZh": "這些燈正在浪費電力，所以我們應該把它們關掉。",
+      "starter": "The",
+      "answer": "The lights are wasting power, so we should switch them off.",
+      "answerZh": "這些燈正在浪費電力，所以我們應該把它們關掉。",
+      "highlight": "switch them off",
+      "targetForm": "switch something off",
+      "targetMeaningZh": "關掉電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "All customer accounts were changed to the new system last night.",
+      "promptZh": "昨晚所有客戶帳戶都轉移到新系統。",
+      "starter": "All",
+      "answer": "All customer accounts were switched over to the new system last night.",
+      "answerZh": "昨晚所有客戶帳戶都轉移到新系統。",
+      "highlight": "switched over to",
+      "targetForm": "switch something over to something",
+      "targetMeaningZh": "把某事物轉移到另一個系統"
+    },
+    {
+      "id": "phrasal-verb-15-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "At six o’clock, the coffee machine starts by itself.",
+      "promptZh": "六時，咖啡機會自行啟動。",
+      "starter": "At",
+      "answer": "At six o’clock, the coffee machine switches itself on.",
+      "answerZh": "六時，咖啡機會自行啟動。",
+      "highlight": "switches itself on",
+      "targetForm": "switch itself on",
+      "targetMeaningZh": "自動開啟；自行開始運作"
+    },
+    {
+      "id": "phrasal-verb-15-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The room was cold, not hot, so Noor started the heating.",
+      "promptZh": "房間很冷，不是很熱，所以努爾開啟了暖氣系統。",
+      "starter": "The",
+      "answer": "The room was cold, not hot, so Noor switched on the heating.",
+      "answerZh": "房間很冷，不是很熱，所以努爾開啟了暖氣系統。",
+      "highlight": "switched on",
+      "targetForm": "switch something on",
+      "targetMeaningZh": "開啟電器或系統"
+    },
+    {
+      "id": "phrasal-verb-15-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The speaker kept repeating the same point, and several people stopped listening.",
+      "promptZh": "講者不斷重複同一點，幾個人便不再聽了。",
+      "starter": "The",
+      "answer": "The speaker kept repeating the same point, and several people switched off.",
+      "answerZh": "講者不斷重複同一點，幾個人便聽不進去了。",
+      "highlight": "switched off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "This programme is boring. Can we change to the film on Channel 4?",
+      "promptZh": "這個節目很沉悶。我們可以轉看第四台的電影嗎？",
+      "starter": "This",
+      "answer": "This programme is boring. Can we switch over to the film on Channel 4?",
+      "answerZh": "這個節目很沉悶。我們可以轉看第四台的電影嗎？",
+      "highlight": "switch over to",
+      "targetForm": "switch over to something",
+      "targetMeaningZh": "轉到另一個頻道或節目"
+    },
+    {
+      "id": "phrasal-verb-15-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The sign tells visitors to make sure their phones are not operating before entering the room.",
+      "promptZh": "告示提醒訪客進入房間前確保手機停止運作。",
+      "starter": "The",
+      "answer": "The sign tells visitors to switch off their phones before entering the room.",
+      "answerZh": "告示提醒訪客進入房間前關掉手機。",
+      "highlight": "switch off",
+      "targetForm": "switch something off",
+      "targetMeaningZh": "關掉電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Even good students can stop paying attention when a lesson is too long.",
+      "promptZh": "即使是好學生，課堂太長時也可能不再留心。",
+      "starter": "Even",
+      "answer": "Even good students can switch off when a lesson is too long.",
+      "answerZh": "即使是好學生，課堂太長時也可能聽不進去。",
+      "highlight": "switch off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before the online class, Mina started the small camera above her screen.",
+      "promptZh": "網上課堂開始前，米娜開啟了屏幕上方的小型鏡頭。",
+      "starter": "Before",
+      "answer": "Before the online class, Mina switched on the small camera above her screen.",
+      "answerZh": "網上課堂開始前，米娜開啟了屏幕上方的小型鏡頭。",
+      "highlight": "switched on",
+      "targetForm": "switch something on",
+      "targetMeaningZh": "開啟電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "To save power, the screen stops by itself after two minutes.",
+      "promptZh": "為了節省電力，屏幕會在兩分鐘後自行停止運作。",
+      "starter": "To",
+      "answer": "To save power, the screen switches itself off after two minutes.",
+      "answerZh": "為了節省電力，屏幕會在兩分鐘後自行關閉。",
+      "highlight": "switches itself off",
+      "targetForm": "switch itself off",
+      "targetMeaningZh": "自動關閉；自行停止運作"
+    },
+    {
+      "id": "phrasal-verb-15-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Could you change the television to the children’s programme?",
+      "promptZh": "你可以把電視轉到兒童節目嗎？",
+      "starter": "Could",
+      "answer": "Could you switch the television over to the children’s programme?",
+      "answerZh": "你可以把電視轉到兒童節目嗎？",
+      "highlight": "switch the television over to",
+      "targetForm": "switch something over to something",
+      "targetMeaningZh": "把設備轉到另一個節目"
+    },
+    {
+      "id": "phrasal-verb-15-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Whenever the manager reads every word from the screen, Ali soon stops listening.",
+      "promptZh": "每當經理逐字讀出屏幕內容，阿里很快便會聽不進去。",
+      "starter": "Whenever",
+      "answer": "Whenever the manager reads every word from the screen, Ali soon switches off.",
+      "answerZh": "每當經理逐字讀出屏幕內容，阿里很快便會聽不進去。",
+      "highlight": "switches off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Why didn’t you start the outside lights before it got dark?",
+      "promptZh": "為甚麼你沒有在天黑前開啟外面的燈？",
+      "starter": "Why",
+      "answer": "Why didn’t you switch on the outside lights before it got dark?",
+      "answerZh": "為甚麼你沒有在天黑前開啟外面的燈？",
+      "highlight": "switch on",
+      "targetForm": "switch something on",
+      "targetMeaningZh": "開啟電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The café was closing. Before leaving, Hana made sure the coffee machine was no longer operating.",
+      "promptZh": "咖啡店快要關門。離開前，哈娜確保咖啡機已停止運作。",
+      "starter": "The",
+      "answer": "The café was closing. Before leaving, Hana switched off the coffee machine.",
+      "answerZh": "咖啡店快要關門。離開前，哈娜關掉了咖啡機。",
+      "highlight": "switched off",
+      "targetForm": "switch something off",
+      "targetMeaningZh": "關掉電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Our old timetable app no longer works well, so the school plans to use a different one from September.",
+      "promptZh": "舊時間表應用程式已不太好用，所以學校計劃由九月起改用另一個。",
+      "starter": "Our",
+      "answer": "Our old timetable app no longer works well, so the school plans to switch over to a different one from September.",
+      "answerZh": "舊時間表應用程式已不太好用，所以學校計劃由九月起改用另一個。",
+      "highlight": "switch over to",
+      "targetForm": "switch over to something",
+      "targetMeaningZh": "轉用另一個系統或選擇"
+    },
+    {
+      "id": "phrasal-verb-15-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I wanted to follow the discussion, but after twenty minutes I stopped paying attention without noticing.",
+      "promptZh": "我本來想留心討論，但二十分鐘後卻在不知不覺間不再留心。",
+      "starter": "I",
+      "answer": "I wanted to follow the discussion, but after twenty minutes I switched off without noticing.",
+      "answerZh": "我本來想留心討論，但二十分鐘後卻在不知不覺間聽不進去了。",
+      "highlight": "switched off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Because it was getting dark, Ava pressed the wall button and started the garden lights.",
+      "promptZh": "天色漸暗，艾娃按下牆上的按鈕，開啟了花園燈。",
+      "starter": "Because",
+      "answer": "Because it was getting dark, Ava pressed the wall button and switched on the garden lights.",
+      "answerZh": "天色漸暗，艾娃按下牆上的按鈕，開啟了花園燈。",
+      "highlight": "switched on",
+      "targetForm": "switch something on",
+      "targetMeaningZh": "開啟電器或設備"
+    },
+    {
+      "id": "phrasal-verb-15-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The library still uses the old computer system, but it will change it to a faster one during the holiday.",
+      "promptZh": "圖書館仍使用舊電腦系統，但會在假期期間把它轉換成更快的新系統。",
+      "starter": "The",
+      "answer": "The library still uses the old computer system, but it will switch it over to a faster one during the holiday.",
+      "answerZh": "圖書館仍使用舊電腦系統，但會在假期期間把它轉換成更快的新系統。",
+      "highlight": "switch it over to",
+      "targetForm": "switch something over to something",
+      "targetMeaningZh": "把某系統轉換成另一個系統"
+    },
+    {
+      "id": "phrasal-verb-15-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If nobody touches the heater for an hour, it automatically stops operating to save power.",
+      "promptZh": "如果一小時內沒有人碰暖爐，它便會自動停止運作以節省電力。",
+      "starter": "If",
+      "answer": "If nobody touches the heater for an hour, it switches itself off to save power.",
+      "answerZh": "如果一小時內沒有人碰暖爐，它便會自動關閉以節省電力。",
+      "highlight": "switches itself off",
+      "targetForm": "switch itself off",
+      "targetMeaningZh": "自動關閉；自行停止運作"
+    },
+    {
+      "id": "phrasal-verb-15-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Jo had explained the same idea three times, and by then the whole class had stopped listening.",
+      "promptZh": "喬已把同一個想法解釋了三次，到那時全班都已聽不進去。",
+      "starter": "Jo",
+      "answer": "Jo had explained the same idea three times, and by then the whole class had switched off.",
+      "answerZh": "喬已把同一個想法解釋了三次，到那時全班都已聽不進去。",
+      "highlight": "switched off",
+      "targetForm": "switch off",
+      "targetMeaningZh": "停止留心；聽不進去"
+    },
+    {
+      "id": "phrasal-verb-15-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The interview had ended, so we changed the radio to the weather report.",
+      "promptZh": "訪問結束後，我們把收音機轉到天氣報告。",
+      "starter": "The",
+      "answer": "The interview had ended, so we switched the radio over to the weather report.",
+      "answerZh": "訪問結束後，我們把收音機轉到天氣報告。",
+      "highlight": "switched the radio over to",
+      "targetForm": "switch something over to something",
+      "targetMeaningZh": "把設備轉到另一個節目"
+    },
+    {
+      "id": "phrasal-verb-15-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The hall lights are set to start automatically five minutes before the show.",
+      "promptZh": "大堂燈設定為在表演開始前五分鐘自動開啟。",
+      "starter": "The",
+      "answer": "The hall lights are set to switch themselves on five minutes before the show.",
+      "answerZh": "大堂燈設定為在表演開始前五分鐘自動開啟。",
+      "highlight": "switch themselves on",
+      "targetForm": "switch themselves on",
+      "targetMeaningZh": "自動開啟；自行開始運作"
+    },
+    {
+      "id": "phrasal-verb-15-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "I knew the iron was still working, so I went back upstairs and stopped it before leaving.",
+      "promptZh": "我知道熨斗仍在運作，所以離開前返回樓上把它關掉。",
+      "starter": "I",
+      "answer": "I knew the iron was still working, so I went back upstairs and switched it off before leaving.",
+      "answerZh": "我知道熨斗仍在運作，所以離開前返回樓上把它關掉。",
+      "highlight": "switched it off",
+      "targetForm": "switch something off",
+      "targetMeaningZh": "關掉電器或設備"
+    }
+  ]
+}

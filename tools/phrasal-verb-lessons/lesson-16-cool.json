@@ -1,0 +1,1260 @@
+{
+  "id": "phrasal-verb-16",
+  "order": 16,
+  "slug": "cool",
+  "version": "1",
+  "title": "COOL 動詞片語",
+  "titleEn": "Cool",
+  "titleZh": "COOL 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 15 - Cool.pdf",
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COOL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COOL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COOL",
+      "highlight": "COOL"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "I sat by the fan to cool down.",
+      "zh": "我坐在風扇旁讓自己涼快下來。） A cold drink cooled him down. （一杯冷飲令他沒那麼熱。",
+      "highlight": "cool down"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Leave the soup to cool down.",
+      "zh": "把湯放着，讓它變涼。） The ice quickly cooled the drink down. （冰塊很快便把飲品弄涼了。",
+      "highlight": "cool down"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Their relationship cooled off after the summer.",
+      "zh": "夏天過後，他們的感情逐漸淡了。",
+      "highlight": "cooled off"
+    }
+  ],
+  "meaning": {
+    "zh": "人變得沒那麼熱；使某人降溫；食物或物件變涼；使某物降溫；感情、興趣或熱情逐漸減退；變得沒那麼生氣或激動；使某人冷靜下來。",
+    "en": "Learn and practise the phrasal verbs related to COOL.",
+    "naturalZh": [
+      "人變得沒那麼熱；使某人降溫",
+      "食物或物件變涼；使某物降溫",
+      "感情、興趣或熱情逐漸減退",
+      "變得沒那麼生氣或激動；使某人冷靜下來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "cool down / cool somebody down",
+      "titleZh": "人變得沒那麼熱；使某人降溫",
+      "titleEn": "cool down / cool somebody down",
+      "descriptionZh": "人變得沒那麼熱；使某人降溫",
+      "descriptionEn": "I sat by the fan to cool down.",
+      "examples": [
+        {
+          "en": "I sat by the fan to cool down.",
+          "zh": "我坐在風扇旁讓自己涼快下來。） A cold drink cooled him down. （一杯冷飲令他沒那麼熱。",
+          "highlight": "cool down"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "cool down / cool something down",
+      "titleZh": "食物或物件變涼；使某物降溫",
+      "titleEn": "cool down / cool something down",
+      "descriptionZh": "食物或物件變涼；使某物降溫",
+      "descriptionEn": "Leave the soup to cool down.",
+      "examples": [
+        {
+          "en": "Leave the soup to cool down.",
+          "zh": "把湯放着，讓它變涼。） The ice quickly cooled the drink down. （冰塊很快便把飲品弄涼了。",
+          "highlight": "cool down"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "cool off",
+      "titleZh": "感情、興趣或熱情逐漸減退",
+      "titleEn": "cool off",
+      "descriptionZh": "感情、興趣或熱情逐漸減退",
+      "descriptionEn": "Their relationship cooled off after the summer.",
+      "examples": [
+        {
+          "en": "Their relationship cooled off after the summer.",
+          "zh": "夏天過後，他們的感情逐漸淡了。",
+          "highlight": "cooled off"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 2,
+      "formula": "cool off / cool somebody off",
+      "titleZh": "變得沒那麼生氣或激動；使某人冷靜下來",
+      "titleEn": "cool off / cool somebody off",
+      "descriptionZh": "變得沒那麼生氣或激動；使某人冷靜下來",
+      "descriptionEn": "Give him a few minutes to cool off.",
+      "examples": [
+        {
+          "en": "Give him a few minutes to cool off.",
+          "zh": "給他幾分鐘冷靜下來。） Her calm words cooled him off. （她平靜的話令他沒那麼生氣。",
+          "highlight": "cool off"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 COOL 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to COOL.",
+    "contextsZh": [
+      "人變得沒那麼熱；使某人降溫",
+      "食物或物件變涼；使某物降溫",
+      "感情、興趣或熱情逐漸減退",
+      "變得沒那麼生氣或激動；使某人冷靜下來"
+    ],
+    "contextsEn": [
+      "cool down / cool somebody down",
+      "cool down / cool something down",
+      "cool off",
+      "cool off / cool somebody off"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 COOL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the COOL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "COOL",
+    "fixedHighlight": "COOL",
+    "fixedZh": "閱讀整句，選出意思相同的 COOL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the COOL expression that gives the same meaning.",
+    "correct": "cool down / cool somebody down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 him、her、it 或 them 時，請按照以上例子放在正確位置。 cool off 在本練習中有兩個與情緒有關的意思：它可以表示感情或興趣減退，也可以表示一個人不再那麼生氣。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: cool him down cool it down cool her off Cool off has two emotional meanings in this exercise. It may describe feelings or interest becoming weaker, or a person becoming less angry. Read the full situation carefully.",
+    "variableItemsZh": [
+      "人變得沒那麼熱；使某人降溫",
+      "食物或物件變涼；使某物降溫",
+      "感情、興趣或熱情逐漸減退",
+      "變得沒那麼生氣或激動；使某人冷靜下來"
+    ],
+    "variableItemsEn": [
+      "cool down / cool somebody down",
+      "cool down / cool something down",
+      "cool off",
+      "cool off / cool somebody off"
+    ],
+    "forms": [
+      {
+        "formZh": "人變得沒那麼熱；使某人降溫",
+        "formEn": "cool down / cool somebody down",
+        "exampleZh": "我坐在風扇旁讓自己涼快下來。） A cold drink cooled him down. （一杯冷飲令他沒那麼熱。",
+        "exampleEn": "I sat by the fan to cool down.",
+        "highlight": "cool down"
+      },
+      {
+        "formZh": "食物或物件變涼；使某物降溫",
+        "formEn": "cool down / cool something down",
+        "exampleZh": "把湯放着，讓它變涼。） The ice quickly cooled the drink down. （冰塊很快便把飲品弄涼了。",
+        "exampleEn": "Leave the soup to cool down.",
+        "highlight": "cool down"
+      },
+      {
+        "formZh": "感情、興趣或熱情逐漸減退",
+        "formEn": "cool off",
+        "exampleZh": "夏天過後，他們的感情逐漸淡了。",
+        "exampleEn": "Their relationship cooled off after the summer.",
+        "highlight": "cooled off"
+      },
+      {
+        "formZh": "變得沒那麼生氣或激動；使某人冷靜下來",
+        "formEn": "cool off / cool somebody off",
+        "exampleZh": "給他幾分鐘冷靜下來。） Her calm words cooled him off. （她平靜的話令他沒那麼生氣。",
+        "exampleEn": "Give him a few minutes to cool off.",
+        "highlight": "cool off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "人變得沒那麼熱；使某人降溫",
+      "titleEn": "cool down / cool somebody down",
+      "formula": "cool down / cool somebody down",
+      "highlight": "cool down / cool somebody down",
+      "descriptionZh": "人變得沒那麼熱；使某人降溫",
+      "descriptionEn": "I sat by the fan to cool down.",
+      "examples": [
+        {
+          "en": "I sat by the fan to cool down.",
+          "zh": "我坐在風扇旁讓自己涼快下來。） A cold drink cooled him down. （一杯冷飲令他沒那麼熱。",
+          "highlight": "cool down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "食物或物件變涼；使某物降溫",
+      "titleEn": "cool down / cool something down",
+      "formula": "cool down / cool something down",
+      "highlight": "cool down / cool something down",
+      "descriptionZh": "食物或物件變涼；使某物降溫",
+      "descriptionEn": "Leave the soup to cool down.",
+      "examples": [
+        {
+          "en": "Leave the soup to cool down.",
+          "zh": "把湯放着，讓它變涼。） The ice quickly cooled the drink down. （冰塊很快便把飲品弄涼了。",
+          "highlight": "cool down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "感情、興趣或熱情逐漸減退",
+      "titleEn": "cool off",
+      "formula": "cool off",
+      "highlight": "cool off",
+      "descriptionZh": "感情、興趣或熱情逐漸減退",
+      "descriptionEn": "Their relationship cooled off after the summer.",
+      "examples": [
+        {
+          "en": "Their relationship cooled off after the summer.",
+          "zh": "夏天過後，他們的感情逐漸淡了。",
+          "highlight": "cooled off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "變得沒那麼生氣或激動；使某人冷靜下來",
+      "titleEn": "cool off / cool somebody off",
+      "formula": "cool off / cool somebody off",
+      "highlight": "cool off / cool somebody off",
+      "descriptionZh": "變得沒那麼生氣或激動；使某人冷靜下來",
+      "descriptionEn": "Give him a few minutes to cool off.",
+      "examples": [
+        {
+          "en": "Give him a few minutes to cool off.",
+          "zh": "給他幾分鐘冷靜下來。） Her calm words cooled him off. （她平靜的話令他沒那麼生氣。",
+          "highlight": "cool off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然談論熱力和溫度",
+      "titleEn": "Talk naturally about heat and temperature",
+      "zh": "cool down 可以描述人、食物、飲品、房間和機器變得沒那麼熱。",
+      "en": "Cool down can describe people, food, drinks, rooms and machines becoming less hot."
+    },
+    {
+      "titleZh": "描述怒氣逐漸消退",
+      "titleEn": "Describe anger becoming weaker",
+      "zh": "cool off 可以表示某人在爭吵或不快事件後需要時間冷靜下來。",
+      "en": "Cool off can show that someone needs time to become calmer after an argument or upsetting event."
+    },
+    {
+      "titleZh": "描述感情和興趣的變化",
+      "titleEn": "Describe changing feelings and interest",
+      "zh": "cool off 也可以描述友誼、感情或興趣逐漸減退。",
+      "en": "Cool off can also describe a friendship, relationship or interest becoming less strong."
+    },
+    {
+      "titleZh": "理解同一表達在不同情境中的意思",
+      "titleEn": "Understand the same expression in different situations",
+      "zh": "認識 cool off 的不同意思，可以幫助你理解關於感情和怒氣的對話。",
+      "en": "Knowing the different meanings of cool off helps you understand conversations about both relationships and anger."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "人變得沒那麼熱；使某人降溫",
+      "食物或物件變涼；使某物降溫",
+      "感情、興趣或熱情逐漸減退",
+      "變得沒那麼生氣或激動；使某人冷靜下來"
+    ],
+    "contextsEn": [
+      "cool down / cool somebody down",
+      "cool down / cool something down",
+      "cool off",
+      "cool off / cool somebody off"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "人變得沒那麼熱；使某人降溫",
+        "titleEn": "cool down / cool somebody down",
+        "zh": "人變得沒那麼熱；使某人降溫",
+        "en": "I sat by the fan to cool down.",
+        "examples": [
+          {
+            "en": "I sat by the fan to cool down.",
+            "zh": "我坐在風扇旁讓自己涼快下來。） A cold drink cooled him down. （一杯冷飲令他沒那麼熱。",
+            "highlight": "cool down"
+          }
+        ]
+      },
+      {
+        "titleZh": "食物或物件變涼；使某物降溫",
+        "titleEn": "cool down / cool something down",
+        "zh": "食物或物件變涼；使某物降溫",
+        "en": "Leave the soup to cool down.",
+        "examples": [
+          {
+            "en": "Leave the soup to cool down.",
+            "zh": "把湯放着，讓它變涼。） The ice quickly cooled the drink down. （冰塊很快便把飲品弄涼了。",
+            "highlight": "cool down"
+          }
+        ]
+      },
+      {
+        "titleZh": "感情、興趣或熱情逐漸減退",
+        "titleEn": "cool off",
+        "zh": "感情、興趣或熱情逐漸減退",
+        "en": "Their relationship cooled off after the summer.",
+        "examples": [
+          {
+            "en": "Their relationship cooled off after the summer.",
+            "zh": "夏天過後，他們的感情逐漸淡了。",
+            "highlight": "cooled off"
+          }
+        ]
+      },
+      {
+        "titleZh": "變得沒那麼生氣或激動；使某人冷靜下來",
+        "titleEn": "cool off / cool somebody off",
+        "zh": "變得沒那麼生氣或激動；使某人冷靜下來",
+        "en": "Give him a few minutes to cool off.",
+        "examples": [
+          {
+            "en": "Give him a few minutes to cool off.",
+            "zh": "給他幾分鐘冷靜下來。） Her calm words cooled him off. （她平靜的話令他沒那麼生氣。",
+            "highlight": "cool off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 COOL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the COOL expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 COOL 片語動詞。",
+      "en": "Read the whole sentence and choose the COOL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: cool him down cool it down cool her off",
+      "zh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: cool him down cool it down cool her off",
+      "examples": [
+        {
+          "en": "cool him down",
+          "zh": "cool him down",
+          "highlight": "cool him down"
+        },
+        {
+          "en": "cool it down",
+          "zh": "cool it down",
+          "highlight": "cool it down"
+        },
+        {
+          "en": "cool her off",
+          "zh": "cool her off",
+          "highlight": "cool her off"
+        }
+      ]
+    },
+    {
+      "titleZh": "cool off 在本練習中有兩個與情緒有關的意思：它可以表示感情或興趣減退，也可以表示一個人不再那麼生氣。請仔細閱讀整個情境。",
+      "titleEn": "Cool off has two emotional meanings in this exercise. It may describe feelings or interest becoming weaker, or a person becoming less angry. Read the full situation carefully.",
+      "zh": "cool off 在本練習中有兩個與情緒有關的意思：它可以表示感情或興趣減退，也可以表示一個人不再那麼生氣。請仔細閱讀整個情境。",
+      "en": "Cool off has two emotional meanings in this exercise. It may describe feelings or interest becoming weaker, or a person becoming less angry. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COOL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COOL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COOL 動詞片語句子改寫練習",
+    "titleEn": "COOL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COOL 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COOL. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-16-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Maya stood by the fan to become less hot.",
+      "promptZh": "瑪雅站在風扇旁，讓自己沒那麼熱。",
+      "starter": "Maya",
+      "answer": "Maya stood by the fan to cool down.",
+      "answerZh": "瑪雅站在風扇旁，讓自己涼快下來。",
+      "highlight": "cool down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "人變得沒那麼熱；涼快下來"
+    },
+    {
+      "id": "phrasal-verb-16-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Leave the tea for a few minutes so it can become less hot.",
+      "promptZh": "把茶放幾分鐘，讓它變涼。",
+      "starter": "Leave",
+      "answer": "Leave the tea for a few minutes so it can cool down.",
+      "answerZh": "把茶放幾分鐘，讓它變涼。",
+      "highlight": "cool down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "食物或飲品變涼"
+    },
+    {
+      "id": "phrasal-verb-16-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Their friendship became less close after they left school.",
+      "promptZh": "他們離校後，友誼變得沒那麼親密。",
+      "starter": "Their",
+      "answer": "Their friendship cooled off after they left school.",
+      "answerZh": "他們離校後，友誼逐漸淡了。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Leo was very angry, so he went outside to become calmer.",
+      "promptZh": "里奧非常生氣，所以他走到外面讓自己冷靜下來。",
+      "starter": "Leo",
+      "answer": "Leo was very angry, so he went outside to cool off.",
+      "answerZh": "里奧非常生氣，所以他走到外面冷靜下來。",
+      "highlight": "cool off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "變得沒那麼生氣或激動；冷靜下來"
+    },
+    {
+      "id": "phrasal-verb-16-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After the run, I drank cold water to become less hot.",
+      "promptZh": "跑步後，我喝冷水讓自己沒那麼熱。",
+      "starter": "After",
+      "answer": "After the run, I drank cold water to cool down.",
+      "answerZh": "跑步後，我喝冷水讓自己涼快下來。",
+      "highlight": "cool down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "人變得沒那麼熱；涼快下來"
+    },
+    {
+      "id": "phrasal-verb-16-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Dad put the hot soup near the window so it would become cooler.",
+      "promptZh": "爸爸把熱湯放在窗邊，讓它變涼。",
+      "starter": "Dad",
+      "answer": "Dad put the hot soup near the window so it would cool down.",
+      "answerZh": "爸爸把熱湯放在窗邊，讓它變涼。",
+      "highlight": "cool down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "食物或物件變涼"
+    },
+    {
+      "id": "phrasal-verb-16-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Zara’s interest in the club slowly became weaker.",
+      "promptZh": "扎拉對該會社的興趣慢慢減退。",
+      "starter": "Zara’s",
+      "answer": "Zara’s interest in the club slowly cooled off.",
+      "answerZh": "扎拉對該會社的興趣慢慢減退。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The teacher gave the upset student a minute to become calm.",
+      "promptZh": "老師給那名不高興的學生一分鐘冷靜下來。",
+      "starter": "The",
+      "answer": "The teacher gave the upset student a minute to cool off.",
+      "answerZh": "老師給那名不高興的學生一分鐘冷靜下來。",
+      "highlight": "cool off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "變得沒那麼生氣或激動；冷靜下來"
+    },
+    {
+      "id": "phrasal-verb-16-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A cold shower made Sam feel less hot after football training.",
+      "promptZh": "足球訓練後，冷水浴令山姆沒那麼熱。",
+      "starter": "A",
+      "answer": "A cold shower cooled Sam down after football training.",
+      "answerZh": "足球訓練後，冷水浴令山姆沒那麼熱。",
+      "highlight": "cooled Sam down",
+      "targetForm": "cool somebody down",
+      "targetMeaningZh": "使某人降溫；令某人沒那麼熱"
+    },
+    {
+      "id": "phrasal-verb-16-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Please make the baby’s food less hot before giving it to her.",
+      "promptZh": "請把嬰兒的食物弄涼一點才給她吃。",
+      "starter": "Please",
+      "answer": "Please cool the baby’s food down before giving it to her.",
+      "answerZh": "請把嬰兒的食物弄涼一點才給她吃。",
+      "highlight": "cool the baby’s food down",
+      "targetForm": "cool something down",
+      "targetMeaningZh": "使某物降溫；把某物弄涼"
+    },
+    {
+      "id": "phrasal-verb-16-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Their relationship has become less warm over the past month.",
+      "promptZh": "他們的關係在過去一個月變得沒那麼親密。",
+      "starter": "Their",
+      "answer": "Their relationship has cooled off over the past month.",
+      "answerZh": "他們的關係在過去一個月逐漸淡了。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The cake is becoming less hot on the kitchen table.",
+      "promptZh": "蛋糕正在廚房桌上慢慢變涼。",
+      "starter": "The",
+      "answer": "The cake is cooling down on the kitchen table.",
+      "answerZh": "蛋糕正在廚房桌上慢慢變涼。",
+      "highlight": "cooling down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "食物或物件變涼"
+    },
+    {
+      "id": "phrasal-verb-16-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The children are becoming less hot while sitting in the shade.",
+      "promptZh": "孩子們坐在陰涼處，身體正慢慢降溫。",
+      "starter": "The",
+      "answer": "The children are cooling down while sitting in the shade.",
+      "answerZh": "孩子們坐在陰涼處，身體正慢慢降溫。",
+      "highlight": "cooling down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "人變得沒那麼熱；涼快下來"
+    },
+    {
+      "id": "phrasal-verb-16-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Will you give her a few minutes to become less angry?",
+      "promptZh": "你會給她幾分鐘，讓她沒那麼生氣嗎？",
+      "starter": "Will",
+      "answer": "Will you give her a few minutes to cool off?",
+      "answerZh": "你會給她幾分鐘冷靜下來嗎？",
+      "highlight": "cool off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "變得沒那麼生氣或激動；冷靜下來"
+    },
+    {
+      "id": "phrasal-verb-16-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did your interest in the game become weaker after the first week?",
+      "promptZh": "第一個星期後，你對這款遊戲的興趣減退了嗎？",
+      "starter": "Did",
+      "answer": "Did your interest in the game cool off after the first week?",
+      "answerZh": "第一個星期後，你對這款遊戲的興趣減退了嗎？",
+      "highlight": "cool off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The rain has made the air less hot.",
+      "promptZh": "雨水令空氣變得沒那麼熱。",
+      "starter": "The",
+      "answer": "The rain has cooled the air down.",
+      "answerZh": "雨水令空氣變得沒那麼熱。",
+      "highlight": "cooled the air down",
+      "targetForm": "cool something down",
+      "targetMeaningZh": "使某物降溫；把某物弄涼"
+    },
+    {
+      "id": "phrasal-verb-16-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "This wet towel should make you feel less hot.",
+      "promptZh": "這條濕毛巾應該能令你沒那麼熱。",
+      "starter": "This",
+      "answer": "This wet towel should cool you down.",
+      "answerZh": "這條濕毛巾應該能令你沒那麼熱。",
+      "highlight": "cool you down",
+      "targetForm": "cool somebody down",
+      "targetMeaningZh": "使某人降溫；令某人沒那麼熱"
+    },
+    {
+      "id": "phrasal-verb-16-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The coach is trying to make both players less angry.",
+      "promptZh": "教練正嘗試令兩名球員沒那麼生氣。",
+      "starter": "The",
+      "answer": "The coach is trying to cool both players off.",
+      "answerZh": "教練正嘗試令兩名球員沒那麼生氣。",
+      "highlight": "cool both players off",
+      "targetForm": "cool somebody off",
+      "targetMeaningZh": "使某人沒那麼生氣或激動"
+    },
+    {
+      "id": "phrasal-verb-16-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Her feelings for him did not become weaker after the argument.",
+      "promptZh": "爭吵後，她對他的感情並沒有減退。",
+      "starter": "Her",
+      "answer": "Her feelings for him did not cool off after the argument.",
+      "answerZh": "爭吵後，她對他的感情並沒有減退。",
+      "highlight": "cool off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Why are you waiting for the milk to become less hot?",
+      "promptZh": "你為甚麼在等牛奶變涼？",
+      "starter": "Why",
+      "answer": "Why are you waiting for the milk to cool down?",
+      "answerZh": "你為甚麼在等牛奶變涼？",
+      "highlight": "cool down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "食物或飲品變涼"
+    },
+    {
+      "id": "phrasal-verb-16-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Mina was too hot after the race, so we gave her a cold drink to make her feel cooler.",
+      "promptZh": "米娜比賽後太熱，所以我們給她一杯冷飲降溫。",
+      "starter": "Mina",
+      "answer": "Mina was too hot after the race, so we gave her a cold drink to cool her down.",
+      "answerZh": "米娜比賽後太熱，所以我們給她一杯冷飲降溫。",
+      "highlight": "cool her down",
+      "targetForm": "cool somebody down",
+      "targetMeaningZh": "使某人降溫；令某人沒那麼熱"
+    },
+    {
+      "id": "phrasal-verb-16-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Ben was shouting, but a few quiet words made him less angry.",
+      "promptZh": "賓正在大叫，但幾句平靜的話令他沒那麼生氣。",
+      "starter": "Ben",
+      "answer": "Ben was shouting, but a few quiet words cooled him off.",
+      "answerZh": "賓正在大叫，但幾句平靜的話令他沒那麼生氣。",
+      "highlight": "cooled him off",
+      "targetForm": "cool somebody off",
+      "targetMeaningZh": "使某人沒那麼生氣或激動"
+    },
+    {
+      "id": "phrasal-verb-16-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The sauce is too hot. Put it in the fridge for a short time to make it cooler.",
+      "promptZh": "醬汁太熱。把它放進雪櫃一會兒，讓它變涼。",
+      "starter": "The",
+      "answer": "The sauce is too hot. Put it in the fridge for a short time to cool it down.",
+      "answerZh": "醬汁太熱。把它放進雪櫃一會兒，讓它變涼。",
+      "highlight": "cool it down",
+      "targetForm": "cool something down",
+      "targetMeaningZh": "使某物降溫；把某物弄涼"
+    },
+    {
+      "id": "phrasal-verb-16-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Their relationship was strong at first, but after several months it became less warm.",
+      "promptZh": "起初他們感情很好，但幾個月後便淡了下來。",
+      "starter": "Their",
+      "answer": "Their relationship was strong at first, but after several months it cooled off.",
+      "answerZh": "起初他們感情很好，但幾個月後便淡了下來。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "We had been walking in the sun, so the pool helped all of us feel less hot.",
+      "promptZh": "我們一直在陽光下走路，所以泳池令我們大家都涼快下來。",
+      "starter": "We",
+      "answer": "We had been walking in the sun, so the pool helped all of us cool down.",
+      "answerZh": "我們一直在陽光下走路，所以泳池令我們大家都涼快下來。",
+      "highlight": "cool down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "人變得沒那麼熱；涼快下來"
+    },
+    {
+      "id": "phrasal-verb-16-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I was still angry, but my sister’s calm voice helped me become calmer.",
+      "promptZh": "我仍然很生氣，但姐姐平靜的聲音令我冷靜了一點。",
+      "starter": "I",
+      "answer": "I was still angry, but my sister’s calm voice cooled me off.",
+      "answerZh": "我仍然很生氣，但姐姐平靜的聲音令我冷靜了一點。",
+      "highlight": "cooled me off",
+      "targetForm": "cool somebody off",
+      "targetMeaningZh": "使某人沒那麼生氣或激動"
+    },
+    {
+      "id": "phrasal-verb-16-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The pan is very hot. Do not wash it until it becomes cooler.",
+      "promptZh": "平底鍋很熱。等它變涼後才清洗。",
+      "starter": "The",
+      "answer": "The pan is very hot. Do not wash it until it cools down.",
+      "answerZh": "平底鍋很熱。等它變涼後才清洗。",
+      "highlight": "cools down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "物件變涼"
+    },
+    {
+      "id": "phrasal-verb-16-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "At first, the students were excited about the project, but their interest became weaker after several delays.",
+      "promptZh": "起初學生們對項目很興奮，但幾次延誤後，他們的興趣減退了。",
+      "starter": "At",
+      "answer": "At first, the students were excited about the project, but their interest cooled off after several delays.",
+      "answerZh": "起初學生們對項目很興奮，但幾次延誤後，他們的興趣減退了。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The room was warm, so I opened the window to make everyone feel cooler.",
+      "promptZh": "房間很暖，所以我打開窗戶讓大家涼快一點。",
+      "starter": "The",
+      "answer": "The room was warm, so I opened the window to cool everyone down.",
+      "answerZh": "房間很暖，所以我打開窗戶讓大家涼快一點。",
+      "highlight": "cool everyone down",
+      "targetForm": "cool somebody down",
+      "targetMeaningZh": "使某人降溫；令某人沒那麼熱"
+    },
+    {
+      "id": "phrasal-verb-16-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The two brothers were arguing. Mum separated them and waited for them to become calmer.",
+      "promptZh": "兩兄弟正在爭吵。媽媽把他們分開，等他們冷靜下來。",
+      "starter": "The",
+      "answer": "The two brothers were arguing. Mum separated them and waited for them to cool off.",
+      "answerZh": "兩兄弟正在爭吵。媽媽把他們分開，等他們冷靜下來。",
+      "highlight": "cool off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "變得沒那麼生氣或激動；冷靜下來"
+    },
+    {
+      "id": "phrasal-verb-16-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The fans once loved the singer, but their interest became weaker after she stopped performing for a long time.",
+      "promptZh": "歌迷曾經很喜歡這名歌手，但她停止演出很久後，大家的興趣減退了。",
+      "starter": "The",
+      "answer": "The fans once loved the singer, but their interest cooled off after she stopped performing for a long time.",
+      "answerZh": "歌迷曾經很喜歡這名歌手，但她停止演出很久後，大家的興趣減退了。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The hikers were hot from the climb, so they went into the river to become cooler.",
+      "promptZh": "遠足者爬山後很熱，所以他們走進河裏讓自己涼快下來。",
+      "starter": "The",
+      "answer": "The hikers were hot from the climb, so they went into the river to cool down.",
+      "answerZh": "遠足者爬山後很熱，所以他們走進河裏讓自己涼快下來。",
+      "highlight": "cool down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "人變得沒那麼熱；涼快下來"
+    },
+    {
+      "id": "phrasal-verb-16-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Nora was angry about the mistake. She waited before replying so that she could become calmer.",
+      "promptZh": "諾拉因那個錯誤而生氣。她等自己冷靜一點才回覆。",
+      "starter": "Nora",
+      "answer": "Nora was angry about the mistake. She waited before replying so that she could cool off.",
+      "answerZh": "諾拉因那個錯誤而生氣。她等自己冷靜一點才回覆。",
+      "highlight": "cool off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "變得沒那麼生氣或激動；冷靜下來"
+    },
+    {
+      "id": "phrasal-verb-16-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The computer was very hot, so we turned it off and waited for it to become cooler.",
+      "promptZh": "電腦很熱，所以我們把它關掉，等它變涼。",
+      "starter": "The",
+      "answer": "The computer was very hot, so we turned it off and waited for it to cool down.",
+      "answerZh": "電腦很熱，所以我們把它關掉，等它變涼。",
+      "highlight": "cool down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "物件或機器變涼"
+    },
+    {
+      "id": "phrasal-verb-16-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The two groups’ interest in working together became weaker after the price changed.",
+      "promptZh": "價格改變後，兩個小組合作的興趣都減退了。",
+      "starter": "The",
+      "answer": "The two groups’ interest in working together cooled off after the price changed.",
+      "answerZh": "價格改變後，兩個小組合作的興趣都減退了。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The runner’s face was red from the heat, so the coach used a wet towel to make her feel cooler.",
+      "promptZh": "那名跑手熱得滿臉通紅，所以教練用濕毛巾幫她降溫。",
+      "starter": "The",
+      "answer": "The runner’s face was red from the heat, so the coach used a wet towel to cool her down.",
+      "answerZh": "那名跑手熱得滿臉通紅，所以教練用濕毛巾幫她降溫。",
+      "highlight": "cool her down",
+      "targetForm": "cool somebody down",
+      "targetMeaningZh": "使某人降溫；令某人沒那麼熱"
+    },
+    {
+      "id": "phrasal-verb-16-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The customer was upset, but the manager’s calm words made her less angry.",
+      "promptZh": "顧客很不高興，但經理平靜的話令她沒那麼生氣。",
+      "starter": "The",
+      "answer": "The customer was upset, but the manager’s calm words cooled her off.",
+      "answerZh": "顧客很不高興，但經理平靜的話令她沒那麼生氣。",
+      "highlight": "cooled her off",
+      "targetForm": "cool somebody off",
+      "targetMeaningZh": "使某人沒那麼生氣或激動"
+    },
+    {
+      "id": "phrasal-verb-16-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Do not add the cream while the soup is still hot; wait until it becomes cooler.",
+      "promptZh": "湯仍然很熱時不要加忌廉；等它變涼。",
+      "starter": "Do",
+      "answer": "Do not add the cream while the soup is still hot; wait until it cools down.",
+      "answerZh": "湯仍然很熱時不要加忌廉；等它變涼。",
+      "highlight": "cools down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "食物或飲品變涼"
+    },
+    {
+      "id": "phrasal-verb-16-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Mia used to call every day, but her feelings for Leo slowly became weaker.",
+      "promptZh": "米婭以前每天都會致電，但她對里奧的感情慢慢減退了。",
+      "starter": "Mia",
+      "answer": "Mia used to call every day, but her feelings for Leo slowly cooled off.",
+      "answerZh": "米婭以前每天都會致電，但她對里奧的感情慢慢減退了。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before going back into the warm kitchen, the cook stood outside until he felt less hot.",
+      "promptZh": "廚師回到溫暖的廚房前，站在外面直到自己沒那麼熱。",
+      "starter": "Before",
+      "answer": "Before going back into the warm kitchen, the cook stood outside until he cooled down.",
+      "answerZh": "廚師回到溫暖的廚房前，站在外面直到自己沒那麼熱。",
+      "highlight": "cooled down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "人變得沒那麼熱；涼快下來"
+    },
+    {
+      "id": "phrasal-verb-16-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The argument had ended, but everyone agreed to wait until they were less angry before speaking again.",
+      "promptZh": "爭吵已經結束，但大家同意等自己沒那麼生氣後才再次交談。",
+      "starter": "The",
+      "answer": "The argument had ended, but everyone agreed to wait until they had cooled off before speaking again.",
+      "answerZh": "爭吵已經結束，但大家同意等自己沒那麼生氣後才再次交談。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "變得沒那麼生氣或激動；冷靜下來"
+    },
+    {
+      "id": "phrasal-verb-16-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The soup was too hot to eat, so we left it on the table until it became cooler.",
+      "promptZh": "湯太熱不能喝，所以我們把它放在桌上，等它變涼。",
+      "starter": "The",
+      "answer": "The soup was too hot to eat, so we left it on the table until it cooled down.",
+      "answerZh": "湯太熱不能喝，所以我們把它放在桌上，等它變涼。",
+      "highlight": "cooled down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "食物或飲品變涼"
+    },
+    {
+      "id": "phrasal-verb-16-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "For a while, both clubs wanted to share the school hall, but their interest became weaker when the costs rose.",
+      "promptZh": "有一段時間，兩個會社都想共用學校禮堂，但費用上升後，大家的興趣減退了。",
+      "starter": "For",
+      "answer": "For a while, both clubs wanted to share the school hall, but their interest cooled off when the costs rose.",
+      "answerZh": "有一段時間，兩個會社都想共用學校禮堂，但費用上升後，大家的興趣減退了。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After carrying boxes in the sun, the workers sat by the open door until they felt cooler.",
+      "promptZh": "工人在陽光下搬完箱子後，坐在打開的門旁，直到自己涼快下來。",
+      "starter": "After",
+      "answer": "After carrying boxes in the sun, the workers sat by the open door until they cooled down.",
+      "answerZh": "工人在陽光下搬完箱子後，坐在打開的門旁，直到自己涼快下來。",
+      "highlight": "cooled down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "人變得沒那麼熱；涼快下來"
+    },
+    {
+      "id": "phrasal-verb-16-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Lena knew she might say something unkind, so she left the room and waited until she was calmer.",
+      "promptZh": "莉娜知道自己可能會說出不友善的話，所以她離開房間，等自己冷靜下來。",
+      "starter": "Lena",
+      "answer": "Lena knew she might say something unkind, so she left the room and waited until she had cooled off.",
+      "answerZh": "莉娜知道自己可能會說出不友善的話，所以她離開房間，等自己冷靜下來。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "變得沒那麼生氣或激動；冷靜下來"
+    },
+    {
+      "id": "phrasal-verb-16-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The phone became very hot during the game, so I stopped using it and let it become cooler.",
+      "promptZh": "玩遊戲時手機變得很熱，所以我停止使用，讓它變涼。",
+      "starter": "The",
+      "answer": "The phone became very hot during the game, so I stopped using it and let it cool down.",
+      "answerZh": "玩遊戲時手機變得很熱，所以我停止使用，讓它變涼。",
+      "highlight": "cool down",
+      "targetForm": "cool down",
+      "targetMeaningZh": "物件或機器變涼"
+    },
+    {
+      "id": "phrasal-verb-16-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Their relationship was warm at first, but after weeks of short messages and cancelled plans, it became less close.",
+      "promptZh": "起初他們的關係很親密，但經過幾星期的簡短訊息和取消約會後，感情便淡了。",
+      "starter": "Their",
+      "answer": "Their relationship was warm at first, but after weeks of short messages and cancelled plans, it cooled off.",
+      "answerZh": "起初他們的關係很親密，但經過幾星期的簡短訊息和取消約會後，感情便淡了。",
+      "highlight": "cooled off",
+      "targetForm": "cool off",
+      "targetMeaningZh": "感情、興趣或熱情逐漸減退"
+    },
+    {
+      "id": "phrasal-verb-16-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "A cold drink did not make Noah feel less hot, so he went inside and sat near the fan.",
+      "promptZh": "冷飲沒有令諾亞涼快下來，所以他走進室內，坐在風扇旁。",
+      "starter": "A",
+      "answer": "A cold drink did not cool Noah down, so he went inside and sat near the fan.",
+      "answerZh": "冷飲沒有令諾亞涼快下來，所以他走進室內，坐在風扇旁。",
+      "highlight": "cool Noah down",
+      "targetForm": "cool somebody down",
+      "targetMeaningZh": "使某人降溫；令某人沒那麼熱"
+    },
+    {
+      "id": "phrasal-verb-16-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The players were still angry after the match, but the coach’s quiet talk made them calmer before they met the other team.",
+      "promptZh": "比賽後球員仍然很生氣，但教練平靜的談話令他們冷靜下來，才去見另一隊。",
+      "starter": "The",
+      "answer": "The players were still angry after the match, but the coach’s quiet talk cooled them off before they met the other team.",
+      "answerZh": "比賽後球員仍然很生氣，但教練平靜的談話令他們冷靜下來，才去見另一隊。",
+      "highlight": "cooled them off",
+      "targetForm": "cool somebody off",
+      "targetMeaningZh": "使某人沒那麼生氣或激動"
+    },
+    {
+      "id": "phrasal-verb-16-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The rice was still very hot, so Mum spread it on a large plate to make it cooler more quickly.",
+      "promptZh": "米飯仍然很熱，所以媽媽把它鋪在大碟上，讓它更快變涼。",
+      "starter": "The",
+      "answer": "The rice was still very hot, so Mum spread it on a large plate to cool it down more quickly.",
+      "answerZh": "米飯仍然很熱，所以媽媽把它鋪在大碟上，讓它更快變涼。",
+      "highlight": "cool it down",
+      "targetForm": "cool something down",
+      "targetMeaningZh": "使某物降溫；把某物弄涼"
+    }
+  ]
+}

@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-18",
+  "order": 18,
+  "slug": "breathe",
+  "version": "1",
+  "title": "BREATHE 動詞片語",
+  "titleEn": "Breathe",
+  "titleZh": "BREATHE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 17 - Breathe.pdf",
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BREATHE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BREATHE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BREATHE",
+      "highlight": "BREATHE"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Breathe in slowly through your nose.",
+      "zh": "慢慢用鼻子吸氣。",
+      "highlight": "Breathe in"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Breathe the air out slowly through your mouth.",
+      "zh": "慢慢用口把空氣呼出。",
+      "highlight": "Breathe the air out"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The new music breathed fresh life into the show.",
+      "zh": "新音樂為這場表演注入了新的活力。",
+      "highlight": "breathed fresh life into"
+    }
+  ],
+  "meaning": {
+    "zh": "吸氣；把空氣、氣味等吸入肺部；呼氣；把空氣等呼出肺部；為某事物注入新的生命力、活力或特色。",
+    "en": "Learn and practise the phrasal verbs related to BREATHE.",
+    "naturalZh": [
+      "吸氣；把空氣、氣味等吸入肺部",
+      "呼氣；把空氣等呼出肺部",
+      "為某事物注入新的生命力、活力或特色"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "breathe in / breathe something in",
+      "titleZh": "吸氣；把空氣、氣味等吸入肺部",
+      "titleEn": "breathe in / breathe something in",
+      "descriptionZh": "吸氣；把空氣、氣味等吸入肺部",
+      "descriptionEn": "Breathe in slowly through your nose.",
+      "examples": [
+        {
+          "en": "Breathe in slowly through your nose.",
+          "zh": "慢慢用鼻子吸氣。",
+          "highlight": "Breathe in"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "breathe out / breathe something out",
+      "titleZh": "呼氣；把空氣等呼出肺部",
+      "titleEn": "breathe out / breathe something out",
+      "descriptionZh": "呼氣；把空氣等呼出肺部",
+      "descriptionEn": "Breathe the air out slowly through your mouth.",
+      "examples": [
+        {
+          "en": "Breathe the air out slowly through your mouth.",
+          "zh": "慢慢用口把空氣呼出。",
+          "highlight": "Breathe the air out"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "breathe something into something",
+      "titleZh": "為某事物注入新的生命力、活力或特色",
+      "titleEn": "breathe something into something",
+      "descriptionZh": "為某事物注入新的生命力、活力或特色",
+      "descriptionEn": "The new music breathed fresh life into the show.",
+      "examples": [
+        {
+          "en": "The new music breathed fresh life into the show.",
+          "zh": "新音樂為這場表演注入了新的活力。",
+          "highlight": "breathed fresh life into"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 BREATHE 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to BREATHE.",
+    "contextsZh": [
+      "吸氣；把空氣、氣味等吸入肺部",
+      "呼氣；把空氣等呼出肺部",
+      "為某事物注入新的生命力、活力或特色"
+    ],
+    "contextsEn": [
+      "breathe in / breathe something in",
+      "breathe out / breathe something out",
+      "breathe something into something"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 BREATHE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BREATHE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "BREATHE",
+    "fixedHighlight": "BREATHE",
+    "fixedZh": "閱讀整句，選出意思相同的 BREATHE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BREATHE expression that gives the same meaning.",
+    "correct": "breathe in / breathe something in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 breathe in 和 breathe out 可以單獨使用，也可以配合 air、it 或氣味等詞語使用。 在 breathe life into something 等表達中，BREATHE 並非指真正的呼吸，而是表示令某事物重新充滿生氣、活力或趣味。",
+    "variableEn": "Keep the same people, things, time and meaning. Breathe in and breathe out may be used alone or with words such as air, it or a smell: ● breathe in slowly ● breathe the air in ● breathe it out In expressions such as breathe life into something, BREATHE is not about real air. It means making something lively, fresh or interesting again.",
+    "variableItemsZh": [
+      "吸氣；把空氣、氣味等吸入肺部",
+      "呼氣；把空氣等呼出肺部",
+      "為某事物注入新的生命力、活力或特色"
+    ],
+    "variableItemsEn": [
+      "breathe in / breathe something in",
+      "breathe out / breathe something out",
+      "breathe something into something"
+    ],
+    "forms": [
+      {
+        "formZh": "吸氣；把空氣、氣味等吸入肺部",
+        "formEn": "breathe in / breathe something in",
+        "exampleZh": "慢慢用鼻子吸氣。",
+        "exampleEn": "Breathe in slowly through your nose.",
+        "highlight": "Breathe in"
+      },
+      {
+        "formZh": "呼氣；把空氣等呼出肺部",
+        "formEn": "breathe out / breathe something out",
+        "exampleZh": "慢慢用口把空氣呼出。",
+        "exampleEn": "Breathe the air out slowly through your mouth.",
+        "highlight": "Breathe the air out"
+      },
+      {
+        "formZh": "為某事物注入新的生命力、活力或特色",
+        "formEn": "breathe something into something",
+        "exampleZh": "新音樂為這場表演注入了新的活力。",
+        "exampleEn": "The new music breathed fresh life into the show.",
+        "highlight": "breathed fresh life into"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "吸氣；把空氣、氣味等吸入肺部",
+      "titleEn": "breathe in / breathe something in",
+      "formula": "breathe in / breathe something in",
+      "highlight": "breathe in / breathe something in",
+      "descriptionZh": "吸氣；把空氣、氣味等吸入肺部",
+      "descriptionEn": "Breathe in slowly through your nose.",
+      "examples": [
+        {
+          "en": "Breathe in slowly through your nose.",
+          "zh": "慢慢用鼻子吸氣。",
+          "highlight": "Breathe in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "呼氣；把空氣等呼出肺部",
+      "titleEn": "breathe out / breathe something out",
+      "formula": "breathe out / breathe something out",
+      "highlight": "breathe out / breathe something out",
+      "descriptionZh": "呼氣；把空氣等呼出肺部",
+      "descriptionEn": "Breathe the air out slowly through your mouth.",
+      "examples": [
+        {
+          "en": "Breathe the air out slowly through your mouth.",
+          "zh": "慢慢用口把空氣呼出。",
+          "highlight": "Breathe the air out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "為某事物注入新的生命力、活力或特色",
+      "titleEn": "breathe something into something",
+      "formula": "breathe something into something",
+      "highlight": "breathe something into something",
+      "descriptionZh": "為某事物注入新的生命力、活力或特色",
+      "descriptionEn": "The new music breathed fresh life into the show.",
+      "examples": [
+        {
+          "en": "The new music breathed fresh life into the show.",
+          "zh": "新音樂為這場表演注入了新的活力。",
+          "highlight": "breathed fresh life into"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "理解運動和放鬆指示",
+      "titleEn": "Follow exercise and relaxation instructions",
+      "zh": "breathe in 和 breathe out 常見於伸展、運動和放鬆呼吸的指示中。",
+      "en": "Breathe in and breathe out are often used in stretching, exercise and calm-breathing instructions."
+    },
+    {
+      "titleZh": "自然地談論空氣和氣味",
+      "titleEn": "Talk naturally about air and smells",
+      "zh": "你可以用 breathe in 表達吸入新鮮空氣、海風，以及食物或花朵的香味。",
+      "en": "You can breathe in fresh air, sea air or the smell of food and flowers."
+    },
+    {
+      "titleZh": "清楚描述如何控制呼吸",
+      "titleEn": "Describe how someone controls their breathing",
+      "zh": "breathe the air out slowly 和 breathe it in deeply 等表達，可以幫助你清楚說明呼吸方式。",
+      "en": "Expressions such as breathe the air out slowly and breathe it in deeply help you give clear breathing instructions."
+    },
+    {
+      "titleZh": "描述某事物重新充滿活力",
+      "titleEn": "Describe something becoming lively again",
+      "zh": "breathe life 或 energy into something 可以表示某人或某個構思令團隊、故事、地方或活動重新充滿生氣。",
+      "en": "Breathe life or energy into something can describe a person or idea making a team, story, place or activity feel fresh and lively again."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "吸氣；把空氣、氣味等吸入肺部",
+      "呼氣；把空氣等呼出肺部",
+      "為某事物注入新的生命力、活力或特色"
+    ],
+    "contextsEn": [
+      "breathe in / breathe something in",
+      "breathe out / breathe something out",
+      "breathe something into something"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "吸氣；把空氣、氣味等吸入肺部",
+        "titleEn": "breathe in / breathe something in",
+        "zh": "吸氣；把空氣、氣味等吸入肺部",
+        "en": "Breathe in slowly through your nose.",
+        "examples": [
+          {
+            "en": "Breathe in slowly through your nose.",
+            "zh": "慢慢用鼻子吸氣。",
+            "highlight": "Breathe in"
+          }
+        ]
+      },
+      {
+        "titleZh": "呼氣；把空氣等呼出肺部",
+        "titleEn": "breathe out / breathe something out",
+        "zh": "呼氣；把空氣等呼出肺部",
+        "en": "Breathe the air out slowly through your mouth.",
+        "examples": [
+          {
+            "en": "Breathe the air out slowly through your mouth.",
+            "zh": "慢慢用口把空氣呼出。",
+            "highlight": "Breathe the air out"
+          }
+        ]
+      },
+      {
+        "titleZh": "為某事物注入新的生命力、活力或特色",
+        "titleEn": "breathe something into something",
+        "zh": "為某事物注入新的生命力、活力或特色",
+        "en": "The new music breathed fresh life into the show.",
+        "examples": [
+          {
+            "en": "The new music breathed fresh life into the show.",
+            "zh": "新音樂為這場表演注入了新的活力。",
+            "highlight": "breathed fresh life into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 BREATHE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BREATHE expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 BREATHE 片語動詞。",
+      "en": "Read the whole sentence and choose the BREATHE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "breathe in 和 breathe out 可以單獨使用，也可以配合 air、it 或氣味等詞語使用。",
+      "titleEn": "Breathe in and breathe out may be used alone or with words such as air, it or a smell: ● breathe in slowly ● breathe the air in ● breathe it out",
+      "zh": "breathe in 和 breathe out 可以單獨使用，也可以配合 air、it 或氣味等詞語使用。",
+      "en": "Breathe in and breathe out may be used alone or with words such as air, it or a smell: ● breathe in slowly ● breathe the air in ● breathe it out",
+      "examples": [
+        {
+          "en": "● breathe in slowly",
+          "zh": "● breathe in slowly",
+          "highlight": "breathe in"
+        },
+        {
+          "en": "● breathe the air in",
+          "zh": "● breathe the air in",
+          "highlight": "breathe the air in"
+        },
+        {
+          "en": "● breathe it out",
+          "zh": "● breathe it out",
+          "highlight": "breathe it out"
+        }
+      ]
+    },
+    {
+      "titleZh": "在 breathe life into something 等表達中，BREATHE 並非指真正的呼吸，而是表示令某事物重新充滿生氣、活力或趣味。",
+      "titleEn": "In expressions such as breathe life into something, BREATHE is not about real air. It means making something lively, fresh or interesting again.",
+      "zh": "在 breathe life into something 等表達中，BREATHE 並非指真正的呼吸，而是表示令某事物重新充滿生氣、活力或趣味。",
+      "en": "In expressions such as breathe life into something, BREATHE is not about real air. It means making something lively, fresh or interesting again."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BREATHE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BREATHE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BREATHE 動詞片語句子改寫練習",
+    "titleEn": "BREATHE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BREATHE 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BREATHE. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-18-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Take a slow breath through your nose.",
+      "promptZh": "慢慢用鼻子吸一口氣。",
+      "starter": "Breathe",
+      "answer": "Breathe in slowly through your nose.",
+      "answerZh": "慢慢用鼻子吸氣。",
+      "highlight": "Breathe in",
+      "targetForm": "breathe in",
+      "targetMeaningZh": "吸氣"
+    },
+    {
+      "id": "phrasal-verb-18-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Let the air leave your lungs gently through your mouth.",
+      "promptZh": "讓空氣輕輕經口離開肺部。",
+      "starter": "Breathe",
+      "answer": "Breathe out gently through your mouth.",
+      "answerZh": "輕輕用口呼氣。",
+      "highlight": "Breathe out",
+      "targetForm": "breathe out",
+      "targetMeaningZh": "呼氣"
+    },
+    {
+      "id": "phrasal-verb-18-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The new coach gave fresh life to the tired team.",
+      "promptZh": "新教練為疲倦的球隊帶來了新的活力。",
+      "starter": "The",
+      "answer": "The new coach breathed fresh life into the tired team.",
+      "answerZh": "新教練為疲倦的球隊注入了新的活力。",
+      "highlight": "breathed fresh life into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入活力"
+    },
+    {
+      "id": "phrasal-verb-18-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We filled our lungs with the clean country air.",
+      "promptZh": "我們把清新的鄉郊空氣吸進肺部。",
+      "starter": "We",
+      "answer": "We breathed in the clean country air.",
+      "answerZh": "我們吸入了清新的鄉郊空氣。",
+      "highlight": "breathed in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把空氣吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Maya let the air leave her lungs slowly and relaxed her shoulders.",
+      "promptZh": "瑪雅慢慢讓空氣離開肺部，並放鬆肩膀。",
+      "starter": "Maya",
+      "answer": "Maya breathed out slowly and relaxed her shoulders.",
+      "answerZh": "瑪雅慢慢呼氣，並放鬆肩膀。",
+      "highlight": "breathed out",
+      "targetForm": "breathe out",
+      "targetMeaningZh": "呼氣"
+    },
+    {
+      "id": "phrasal-verb-18-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Bright colours gave new life to the old café.",
+      "promptZh": "鮮明的色彩令這間舊咖啡店重新充滿生氣。",
+      "starter": "Bright",
+      "answer": "Bright colours breathed new life into the old café.",
+      "answerZh": "鮮明的色彩為這間舊咖啡店注入了新的生命力。",
+      "highlight": "breathed new life into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入新的生命力"
+    },
+    {
+      "id": "phrasal-verb-18-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The child took a deep breath before jumping into the pool.",
+      "promptZh": "孩子跳進泳池前深深吸了一口氣。",
+      "starter": "The",
+      "answer": "The child breathed in deeply before jumping into the pool.",
+      "answerZh": "孩子跳進泳池前深深吸氣。",
+      "highlight": "breathed in",
+      "targetForm": "breathe in",
+      "targetMeaningZh": "吸氣"
+    },
+    {
+      "id": "phrasal-verb-18-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "He released the warm air from his lungs through his nose.",
+      "promptZh": "他用鼻子把肺裏的暖空氣呼出。",
+      "starter": "He",
+      "answer": "He breathed the warm air out through his nose.",
+      "answerZh": "他用鼻子把暖空氣呼出。",
+      "highlight": "breathed the warm air out",
+      "targetForm": "breathe something out",
+      "targetMeaningZh": "把空氣呼出"
+    },
+    {
+      "id": "phrasal-verb-18-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Her lively song brought energy to the quiet room.",
+      "promptZh": "她充滿活力的歌聲為安靜的房間帶來了活力。",
+      "starter": "Her",
+      "answer": "Her lively song breathed energy into the quiet room.",
+      "answerZh": "她充滿活力的歌聲為安靜的房間注入了活力。",
+      "highlight": "breathed energy into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入活力"
+    },
+    {
+      "id": "phrasal-verb-18-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ella took a deep breath and enjoyed the smell of fresh bread.",
+      "promptZh": "埃拉深深吸了一口氣，享受新鮮麵包的香味。",
+      "starter": "Ella",
+      "answer": "Ella breathed in deeply and enjoyed the smell of fresh bread.",
+      "answerZh": "埃拉深深吸氣，享受新鮮麵包的香味。",
+      "highlight": "breathed in",
+      "targetForm": "breathe in",
+      "targetMeaningZh": "吸氣"
+    },
+    {
+      "id": "phrasal-verb-18-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben is letting air leave his lungs through a narrow tube.",
+      "promptZh": "賓正把空氣經一條幼管呼出。",
+      "starter": "Ben",
+      "answer": "Ben is breathing out through a narrow tube.",
+      "answerZh": "賓正經一條幼管呼氣。",
+      "highlight": "breathing out",
+      "targetForm": "breathe out",
+      "targetMeaningZh": "呼氣"
+    },
+    {
+      "id": "phrasal-verb-18-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The runners are taking air into their lungs through their noses.",
+      "promptZh": "跑手正用鼻子把空氣吸進肺部。",
+      "starter": "The",
+      "answer": "The runners are breathing in through their noses.",
+      "answerZh": "跑手正用鼻子吸氣。",
+      "highlight": "breathing in",
+      "targetForm": "breathe in",
+      "targetMeaningZh": "吸氣"
+    },
+    {
+      "id": "phrasal-verb-18-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The new music has given fresh life to the school show.",
+      "promptZh": "新音樂為學校表演注入了新的活力。",
+      "starter": "The",
+      "answer": "The new music has breathed fresh life into the school show.",
+      "answerZh": "新音樂為學校表演注入了新的活力。",
+      "highlight": "breathed fresh life into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入新的生命力"
+    },
+    {
+      "id": "phrasal-verb-18-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Do not release the air from your lungs too quickly.",
+      "promptZh": "不要太快把空氣從肺部呼出。",
+      "starter": "Do",
+      "answer": "Do not breathe the air out too quickly.",
+      "answerZh": "不要太快把空氣呼出。",
+      "highlight": "breathe the air out",
+      "targetForm": "breathe something out",
+      "targetMeaningZh": "把空氣呼出"
+    },
+    {
+      "id": "phrasal-verb-18-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Have you taken enough air into your lungs?",
+      "promptZh": "你吸進肺部的空氣夠嗎？",
+      "starter": "Have",
+      "answer": "Have you breathed in enough air?",
+      "answerZh": "你吸入了足夠的空氣嗎？",
+      "highlight": "breathed in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把空氣吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "This young actor is giving new life to the old character.",
+      "promptZh": "這位年輕演員正為這個舊角色注入新的生命力。",
+      "starter": "This",
+      "answer": "This young actor is breathing new life into the old character.",
+      "answerZh": "這位年輕演員正為這個舊角色注入新的生命力。",
+      "highlight": "breathing new life into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入新的生命力"
+    },
+    {
+      "id": "phrasal-verb-18-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "She held her breath until the doctor told her to release it.",
+      "promptZh": "她一直閉氣，直至醫生叫她把氣呼出。",
+      "starter": "She",
+      "answer": "She did not breathe out until the doctor told her to.",
+      "answerZh": "她直至醫生叫她才呼氣。",
+      "highlight": "breathe out",
+      "targetForm": "breathe out",
+      "targetMeaningZh": "呼氣"
+    },
+    {
+      "id": "phrasal-verb-18-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I always fill my lungs with the cool morning air before my run.",
+      "promptZh": "我每次跑步前都會把清涼的早晨空氣吸進肺部。",
+      "starter": "I",
+      "answer": "I always breathe the cool morning air in before my run.",
+      "answerZh": "我每次跑步前都會吸入清涼的早晨空氣。",
+      "highlight": "breathe the cool morning air in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把空氣吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "One funny scene can give life to a slow film.",
+      "promptZh": "一個有趣的場面可以令一部沉悶的電影變得有生氣。",
+      "starter": "One",
+      "answer": "One funny scene can breathe life into a slow film.",
+      "answerZh": "一個有趣的場面可以為一部沉悶的電影注入生命力。",
+      "highlight": "breathe life into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入生命力"
+    },
+    {
+      "id": "phrasal-verb-18-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Will you let the air leave your lungs slowly while I count to five?",
+      "promptZh": "我數到五時，你可以慢慢把氣呼出嗎？",
+      "starter": "Will",
+      "answer": "Will you breathe out slowly while I count to five?",
+      "answerZh": "我數到五時，你可以慢慢呼氣嗎？",
+      "highlight": "breathe out",
+      "targetForm": "breathe out",
+      "targetMeaningZh": "呼氣"
+    },
+    {
+      "id": "phrasal-verb-18-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The artist gave the empty hall colour and warmth.",
+      "promptZh": "藝術家為空蕩蕩的大堂增添了色彩和溫暖。",
+      "starter": "The",
+      "answer": "The artist breathed colour and warmth into the empty hall.",
+      "answerZh": "藝術家為空蕩蕩的大堂注入了色彩和溫暖。",
+      "highlight": "breathed colour and warmth into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物增添特色或活力"
+    },
+    {
+      "id": "phrasal-verb-18-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The room smelled of pine, and we took deep breaths to enjoy it.",
+      "promptZh": "房間有松木香味，我們深呼吸來享受它。",
+      "starter": "The",
+      "answer": "The room smelled of pine, and we breathed it in deeply.",
+      "answerZh": "房間有松木香味，我們把它深深吸入。",
+      "highlight": "breathed it in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把氣味吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Nina filled her lungs, then released the air slowly.",
+      "promptZh": "妮娜先吸滿一肺空氣，然後慢慢把空氣呼出。",
+      "starter": "Nina",
+      "answer": "Nina filled her lungs, then breathed the air out slowly.",
+      "answerZh": "妮娜先吸滿一肺空氣，然後慢慢把空氣呼出。",
+      "highlight": "breathed the air out",
+      "targetForm": "breathe something out",
+      "targetMeaningZh": "把空氣呼出"
+    },
+    {
+      "id": "phrasal-verb-18-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A small bookshop café gave new life to the empty shop.",
+      "promptZh": "一間小型書店咖啡室令這間空置店舖重現生氣。",
+      "starter": "New",
+      "answer": "New life was breathed into the empty shop by a small bookshop café.",
+      "answerZh": "一間小型書店咖啡室為這間空置店舖注入了新的生命力。",
+      "highlight": "breathed into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入新的生命力"
+    },
+    {
+      "id": "phrasal-verb-18-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The air is cool. Close your eyes and take it into your lungs for three seconds.",
+      "promptZh": "空氣很清涼。閉上眼睛，把它吸進肺部三秒。",
+      "starter": "The",
+      "answer": "The air is cool. Close your eyes and breathe it in for three seconds.",
+      "answerZh": "空氣很清涼。閉上眼睛，把它吸入三秒。",
+      "highlight": "breathe it in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把空氣吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The air felt hot, but Sam released it from his lungs slowly.",
+      "promptZh": "空氣感覺很熱，但森慢慢把它從肺部呼出。",
+      "starter": "The",
+      "answer": "The air felt hot, but Sam breathed it out slowly.",
+      "answerZh": "空氣感覺很熱，但森慢慢把它呼出。",
+      "highlight": "breathed it out",
+      "targetForm": "breathe something out",
+      "targetMeaningZh": "把空氣呼出"
+    },
+    {
+      "id": "phrasal-verb-18-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The children brought excitement to the quiet museum tour.",
+      "promptZh": "孩子們為安靜的博物館導賞帶來了興奮氣氛。",
+      "starter": "The",
+      "answer": "The children breathed excitement into the quiet museum tour.",
+      "answerZh": "孩子們為安靜的博物館導賞注入了興奮氣氛。",
+      "highlight": "breathed excitement into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入活力或氣氛"
+    },
+    {
+      "id": "phrasal-verb-18-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After opening the window, Priya filled her lungs with the cold night air.",
+      "promptZh": "普里雅打開窗戶後，把寒冷的夜間空氣吸進肺部。",
+      "starter": "After",
+      "answer": "After opening the window, Priya breathed in the cold night air.",
+      "answerZh": "普里雅打開窗戶後，吸入了寒冷的夜間空氣。",
+      "highlight": "breathed in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把空氣吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "As you bend forwards, empty all the air from your lungs.",
+      "promptZh": "你向前彎身時，把肺裏的空氣全部呼出。",
+      "starter": "As",
+      "answer": "As you bend forwards, breathe all the air out.",
+      "answerZh": "你向前彎身時，把所有空氣呼出。",
+      "highlight": "breathe all the air out",
+      "targetForm": "breathe something out",
+      "targetMeaningZh": "把空氣呼出"
+    },
+    {
+      "id": "phrasal-verb-18-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Her small changes gave life to a lesson that had become dull.",
+      "promptZh": "她的小改動令原本變得沉悶的課堂重現生氣。",
+      "starter": "Her",
+      "answer": "Her small changes breathed life into a lesson that had become dull.",
+      "answerZh": "她的小改動為原本變得沉悶的課堂注入了生命力。",
+      "highlight": "breathed life into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入生命力"
+    },
+    {
+      "id": "phrasal-verb-18-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The kitchen smelled wonderful, so Leo took a deep breath.",
+      "promptZh": "廚房香氣撲鼻，所以里奧深深吸了一口氣。",
+      "starter": "The",
+      "answer": "The kitchen smelled wonderful, so Leo breathed in deeply.",
+      "answerZh": "廚房香氣撲鼻，所以里奧深深吸氣。",
+      "highlight": "breathed in",
+      "targetForm": "breathe in",
+      "targetMeaningZh": "吸氣"
+    },
+    {
+      "id": "phrasal-verb-18-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Keep your shoulders still as the air leaves your lungs.",
+      "promptZh": "空氣離開肺部時，保持肩膀不動。",
+      "starter": "Keep",
+      "answer": "Keep your shoulders still as you breathe out.",
+      "answerZh": "呼氣時保持肩膀不動。",
+      "highlight": "breathe out",
+      "targetForm": "breathe out",
+      "targetMeaningZh": "呼氣"
+    },
+    {
+      "id": "phrasal-verb-18-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A few local shops made the empty street lively again.",
+      "promptZh": "幾間本地小店令空蕩蕩的街道重新熱鬧起來。",
+      "starter": "A",
+      "answer": "A few local shops breathed new life into the empty street.",
+      "answerZh": "幾間本地小店為空蕩蕩的街道注入了新的生命力。",
+      "highlight": "breathed new life into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入新的生命力"
+    },
+    {
+      "id": "phrasal-verb-18-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The diver reached the surface and took a quick breath.",
+      "promptZh": "潛水者到達水面後迅速吸了一口氣。",
+      "starter": "The",
+      "answer": "The diver reached the surface and breathed in quickly.",
+      "answerZh": "潛水者到達水面後迅速吸氣。",
+      "highlight": "breathed in",
+      "targetForm": "breathe in",
+      "targetMeaningZh": "吸氣"
+    },
+    {
+      "id": "phrasal-verb-18-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "He released the last of the air from his lungs before putting his face under the water.",
+      "promptZh": "他把肺裏最後一點空氣呼出，然後把臉放進水中。",
+      "starter": "He",
+      "answer": "He breathed the last of the air out before putting his face under the water.",
+      "answerZh": "他把最後一點空氣呼出，然後把臉放進水中。",
+      "highlight": "breathed the last of the air out",
+      "targetForm": "breathe something out",
+      "targetMeaningZh": "把空氣呼出"
+    },
+    {
+      "id": "phrasal-verb-18-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The new ending made the familiar story feel fresh again.",
+      "promptZh": "新結局令這個大家熟悉的故事再次變得新鮮。",
+      "starter": "The",
+      "answer": "The new ending breathed fresh life into the familiar story.",
+      "answerZh": "新結局為這個大家熟悉的故事注入了新的生命力。",
+      "highlight": "breathed fresh life into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入新的生命力"
+    },
+    {
+      "id": "phrasal-verb-18-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Visitors stopped and took deep breaths to enjoy the sweet smell of the flowers.",
+      "promptZh": "遊客停下來深呼吸，享受花朵的香味。",
+      "starter": "Visitors",
+      "answer": "Visitors stopped to breathe in the sweet smell of the flowers.",
+      "answerZh": "遊客停下來吸入花朵的甜香。",
+      "highlight": "breathe in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把氣味吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Why are you letting the air leave your lungs so quickly?",
+      "promptZh": "你為甚麼這麼快把肺裏的空氣呼出？",
+      "starter": "Why",
+      "answer": "Why are you breathing out so quickly?",
+      "answerZh": "你為甚麼這麼快呼氣？",
+      "highlight": "breathing out",
+      "targetForm": "breathe out",
+      "targetMeaningZh": "呼氣"
+    },
+    {
+      "id": "phrasal-verb-18-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The teacher’s games made the afternoon class feel lively and active.",
+      "promptZh": "老師的遊戲令下午的課堂變得活潑有朝氣。",
+      "starter": "The",
+      "answer": "The teacher’s games breathed energy into the afternoon class.",
+      "answerZh": "老師的遊戲為下午的課堂注入了活力。",
+      "highlight": "breathed energy into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入活力"
+    },
+    {
+      "id": "phrasal-verb-18-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before speaking, Amira filled her lungs with the cool air and counted to three.",
+      "promptZh": "阿米拉說話前把清涼空氣吸進肺部，並數到三。",
+      "starter": "Before",
+      "answer": "Before speaking, Amira breathed the cool air in and counted to three.",
+      "answerZh": "阿米拉說話前吸入清涼空氣，並數到三。",
+      "highlight": "breathed the cool air in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把空氣吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The nurse asked me to let the air leave my lungs slowly while she listened to my chest.",
+      "promptZh": "護士聽我的胸口時，叫我慢慢把氣呼出。",
+      "starter": "The",
+      "answer": "The nurse asked me to breathe out slowly while she listened to my chest.",
+      "answerZh": "護士聽我的胸口時，叫我慢慢呼氣。",
+      "highlight": "breathe out",
+      "targetForm": "breathe out",
+      "targetMeaningZh": "呼氣"
+    },
+    {
+      "id": "phrasal-verb-18-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The sea wind was cool and clean, and we stood quietly filling our lungs with it.",
+      "promptZh": "海風清涼潔淨，我們靜靜站着，把它吸進肺部。",
+      "starter": "The",
+      "answer": "The sea wind was cool and clean, and we stood quietly breathing it in.",
+      "answerZh": "海風清涼潔淨，我們靜靜站着，把它吸入。",
+      "highlight": "breathing it in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把空氣吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Simple wooden tables and warm lights made the old restaurant feel lively again.",
+      "promptZh": "簡單的木桌和暖色燈光令這間舊餐廳重新充滿生氣。",
+      "starter": "Simple",
+      "answer": "Simple wooden tables and warm lights breathed new life into the old restaurant.",
+      "answerZh": "簡單的木桌和暖色燈光為這間舊餐廳注入了新的生命力。",
+      "highlight": "breathed new life into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入新的生命力"
+    },
+    {
+      "id": "phrasal-verb-18-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before going under the water, Kai released a little air from his lungs.",
+      "promptZh": "啟下水前，先把肺裏的一點空氣呼出。",
+      "starter": "Before",
+      "answer": "Before going under the water, Kai breathed a little air out.",
+      "answerZh": "啟下水前，先呼出一點空氣。",
+      "highlight": "breathed a little air out",
+      "targetForm": "breathe something out",
+      "targetMeaningZh": "把空氣呼出"
+    },
+    {
+      "id": "phrasal-verb-18-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the bus doors opened, we filled our lungs with the cold mountain air.",
+      "promptZh": "巴士門打開時，我們把寒冷的山區空氣吸進肺部。",
+      "starter": "When",
+      "answer": "When the bus doors opened, we breathed in the cold mountain air.",
+      "answerZh": "巴士門打開時，我們吸入了寒冷的山區空氣。",
+      "highlight": "breathed in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把空氣吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The new director has given fresh energy to a show that many people had stopped watching.",
+      "promptZh": "新導演為一個很多人已停止觀看的節目注入了新活力。",
+      "starter": "The",
+      "answer": "The new director has breathed fresh energy into a show that many people had stopped watching.",
+      "answerZh": "新導演為一個很多人已停止觀看的節目注入了新活力。",
+      "highlight": "breathed fresh energy into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入新的活力"
+    },
+    {
+      "id": "phrasal-verb-18-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Jon took a breath of cold air, then released it in a white cloud.",
+      "promptZh": "莊吸了一口冷空氣，然後把它呼出，形成一團白霧。",
+      "starter": "Jon",
+      "answer": "Jon took a breath of cold air, then breathed it out in a white cloud.",
+      "answerZh": "莊吸了一口冷空氣，然後把它呼出，形成一團白霧。",
+      "highlight": "breathed it out",
+      "targetForm": "breathe something out",
+      "targetMeaningZh": "把空氣呼出"
+    },
+    {
+      "id": "phrasal-verb-18-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The room was filled with the smell of oranges, and everyone took deep breaths to enjoy it.",
+      "promptZh": "房間充滿橙香，大家微笑着深呼吸來享受它。",
+      "starter": "The",
+      "answer": "The room was filled with the smell of oranges, and everyone breathed it in with a smile.",
+      "answerZh": "房間充滿橙香，大家微笑着把它吸入。",
+      "highlight": "breathed it in",
+      "targetForm": "breathe something in",
+      "targetMeaningZh": "把氣味吸入"
+    },
+    {
+      "id": "phrasal-verb-18-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "By letting students choose the songs, the teacher made the music club active again.",
+      "promptZh": "老師讓學生選歌，令音樂學會重新活躍起來。",
+      "starter": "By",
+      "answer": "By letting students choose the songs, the teacher breathed life into the music club.",
+      "answerZh": "老師讓學生選歌，為音樂學會注入了生命力。",
+      "highlight": "breathed life into",
+      "targetForm": "breathe something into something",
+      "targetMeaningZh": "為某事物注入生命力"
+    },
+    {
+      "id": "phrasal-verb-18-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "When the exercise ends, empty your lungs completely and let your body relax.",
+      "promptZh": "練習結束時，把肺裏的空氣完全呼出，讓身體放鬆。",
+      "starter": "When",
+      "answer": "When the exercise ends, breathe all the air out and let your body relax.",
+      "answerZh": "練習結束時，把所有空氣呼出，讓身體放鬆。",
+      "highlight": "breathe all the air out",
+      "targetForm": "breathe something out",
+      "targetMeaningZh": "把空氣呼出"
+    }
+  ]
+}

@@ -1,0 +1,1427 @@
+{
+  "id": "phrasal-verb-05",
+  "order": 5,
+  "slug": "chase",
+  "version": "1",
+  "title": "CHASE 動詞片語",
+  "titleEn": "Chase",
+  "titleZh": "CHASE 動詞片語",
+  "level": "",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verb 5 - Chase.pdf",
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CHASE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CHASE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CHASE",
+      "highlight": "CHASE"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "I chased round town looking for a birthday card.",
+      "zh": "我在城裏四處奔走，尋找生日卡。",
+      "highlight": "chased round"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The farmer chased the goats off the road.",
+      "zh": "農夫把山羊趕離馬路。",
+      "highlight": "chased the goats off"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "I finally chased Omar down after five calls.",
+      "zh": "打了五次電話後，我終於聯絡到奧馬。",
+      "highlight": "chased Omar down"
+    }
+  ],
+  "meaning": {
+    "zh": "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情；追着某人或動物，迫使其離開某處；趕走、趕離或趕出；經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物；再次聯絡或催促某人，以取得回覆、資料或行動。",
+    "en": "Learn and practise the phrasal verbs related to CHASE.",
+    "naturalZh": [
+      "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+      "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+      "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+      "再次聯絡或催促某人，以取得回覆、資料或行動"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "chase around / chase about / chase round",
+      "highlight": "chase around / chase about / chase round",
+      "titleZh": "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+      "titleEn": "chase around / chase about / chase round",
+      "descriptionZh": "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+      "descriptionEn": "I chased round town looking for a birthday card.",
+      "examples": [
+        {
+          "en": "I chased round town looking for a birthday card.",
+          "zh": "我在城裏四處奔走，尋找生日卡。",
+          "highlight": "chased round"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "chase somebody/something away / off / out",
+      "highlight": "chase somebody/something away / off / out",
+      "titleZh": "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+      "titleEn": "chase somebody/something away / off / out",
+      "descriptionZh": "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+      "descriptionEn": "The farmer chased the goats off the road.",
+      "examples": [
+        {
+          "en": "The farmer chased the goats off the road.",
+          "zh": "農夫把山羊趕離馬路。",
+          "highlight": "chased the goats off"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "chase somebody/something down",
+      "highlight": "chase somebody/something down",
+      "titleZh": "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+      "titleEn": "chase somebody/something down",
+      "descriptionZh": "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+      "descriptionEn": "I finally chased Omar down after five calls.",
+      "examples": [
+        {
+          "en": "I finally chased Omar down after five calls.",
+          "zh": "打了五次電話後，我終於聯絡到奧馬。",
+          "highlight": "chased Omar down"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "chase somebody/something up",
+      "highlight": "chase somebody/something up",
+      "titleZh": "再次聯絡或催促某人，以取得回覆、資料或行動",
+      "titleEn": "chase somebody/something up",
+      "descriptionZh": "再次聯絡或催促某人，以取得回覆、資料或行動",
+      "descriptionEn": "I’ll chase the shop up about the late order.",
+      "examples": [
+        {
+          "en": "I’ll chase the shop up about the late order.",
+          "zh": "我會再次聯絡店舖，追問遲到的訂單。",
+          "highlight": "chase the shop up"
+        }
+      ],
+      "sourcePage": 2
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 CHASE 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to CHASE.",
+    "contextsZh": [
+      "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+      "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+      "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+      "再次聯絡或催促某人，以取得回覆、資料或行動"
+    ],
+    "contextsEn": [
+      "chase around / chase about / chase round",
+      "chase somebody/something away / off / out",
+      "chase somebody/something down",
+      "chase somebody/something up"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 CHASE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CHASE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "CHASE",
+    "fixedHighlight": "CHASE",
+    "fixedZh": "閱讀整句，選出意思相同的 CHASE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CHASE expression that gives the same meaning.",
+    "correct": "chase around / chase about / chase round",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 him、her、it 或 them 時，請按照以上例子放在正確位置。 around、about 和 round 都可以描述忙着由一個地方走到另一個地方；away、off 和 out 都可以表示把某人或動物趕離某處。請仔細閱讀地點資料。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: Around, about and round can all describe busy movement from place to place. Away, off and out all describe making someone or an animal leave. Read the place information carefully.",
+    "variableItemsZh": [
+      "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+      "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+      "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+      "再次聯絡或催促某人，以取得回覆、資料或行動"
+    ],
+    "variableItemsEn": [
+      "chase around / chase about / chase round",
+      "chase somebody/something away / off / out",
+      "chase somebody/something down",
+      "chase somebody/something up"
+    ],
+    "forms": [
+      {
+        "formZh": "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+        "formEn": "chase around / chase about / chase round",
+        "exampleZh": "我在城裏四處奔走，尋找生日卡。",
+        "exampleEn": "I chased round town looking for a birthday card.",
+        "highlight": "chased round"
+      },
+      {
+        "formZh": "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+        "formEn": "chase somebody/something away / off / out",
+        "exampleZh": "農夫把山羊趕離馬路。",
+        "exampleEn": "The farmer chased the goats off the road.",
+        "highlight": "chased the goats off"
+      },
+      {
+        "formZh": "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+        "formEn": "chase somebody/something down",
+        "exampleZh": "打了五次電話後，我終於聯絡到奧馬。",
+        "exampleEn": "I finally chased Omar down after five calls.",
+        "highlight": "chased Omar down"
+      },
+      {
+        "formZh": "再次聯絡或催促某人，以取得回覆、資料或行動",
+        "formEn": "chase somebody/something up",
+        "exampleZh": "我會再次聯絡店舖，追問遲到的訂單。",
+        "exampleEn": "I’ll chase the shop up about the late order.",
+        "highlight": "chase the shop up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+      "titleEn": "chase around / chase about / chase round",
+      "formula": "chase around / chase about / chase round",
+      "highlight": "chase around / chase about / chase round",
+      "descriptionZh": "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+      "descriptionEn": "I chased round town looking for a birthday card.",
+      "examples": [
+        {
+          "en": "I chased round town looking for a birthday card.",
+          "zh": "我在城裏四處奔走，尋找生日卡。",
+          "highlight": "chased round"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+      "titleEn": "chase somebody/something away / off / out",
+      "formula": "chase somebody/something away / off / out",
+      "highlight": "chase somebody/something away / off / out",
+      "descriptionZh": "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+      "descriptionEn": "The farmer chased the goats off the road.",
+      "examples": [
+        {
+          "en": "The farmer chased the goats off the road.",
+          "zh": "農夫把山羊趕離馬路。",
+          "highlight": "chased the goats off"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+      "titleEn": "chase somebody/something down",
+      "formula": "chase somebody/something down",
+      "highlight": "chase somebody/something down",
+      "descriptionZh": "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+      "descriptionEn": "I finally chased Omar down after five calls.",
+      "examples": [
+        {
+          "en": "I finally chased Omar down after five calls.",
+          "zh": "打了五次電話後，我終於聯絡到奧馬。",
+          "highlight": "chased Omar down"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "再次聯絡或催促某人，以取得回覆、資料或行動",
+      "titleEn": "chase somebody/something up",
+      "formula": "chase somebody/something up",
+      "highlight": "chase somebody/something up",
+      "descriptionZh": "再次聯絡或催促某人，以取得回覆、資料或行動",
+      "descriptionEn": "I’ll chase the shop up about the late order.",
+      "examples": [
+        {
+          "en": "I’ll chase the shop up about the late order.",
+          "zh": "我會再次聯絡店舖，追問遲到的訂單。",
+          "highlight": "chase the shop up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "描述忙碌的尋找和辦事過程",
+      "titleEn": "Describe busy searches and errands",
+      "zh": "chase around、chase about 和 chase round 可以描述為了尋找或處理事情而四處奔走。",
+      "en": "Chase around, chase about and chase round help you describe going to many places while looking for or arranging something.",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "描述把人或動物趕離某處",
+      "titleEn": "Describe making people or animals leave",
+      "zh": "chase away、chase off 和 chase out 可以清楚表示把誰或甚麼動物趕離某個地方。",
+      "en": "Chase away, chase off and chase out help you explain clearly who or what was made to leave a place.",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "談論經過努力才找到的人或資料",
+      "titleEn": "Talk about finding someone or something difficult to locate",
+      "zh": "當某人、地址、電話號碼或其他資料很難找到時，可以使用 chase down。",
+      "en": "Chase down is useful when finding a person, address, number or other information requires real effort.",
+      "sourcePage": 3
+    },
+    {
+      "number": 4,
+      "titleZh": "再次追問回覆或行動",
+      "titleEn": "Ask again for an answer or action",
+      "zh": "當你需要再次查問訂單、表格、預訂、回覆或尚未完成的事情時，可以使用 chase up。",
+      "en": "Chase up is common when you need to contact someone again about an order, form, booking, reply or unfinished task.",
+      "sourcePage": 3
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+      "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+      "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+      "再次聯絡或催促某人，以取得回覆、資料或行動"
+    ],
+    "contextsEn": [
+      "chase around / chase about / chase round",
+      "chase somebody/something away / off / out",
+      "chase somebody/something down",
+      "chase somebody/something up"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+        "titleEn": "chase around / chase about / chase round",
+        "formula": "chase around / chase about / chase round",
+        "highlight": "chase around / chase about / chase round",
+        "zh": "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+        "en": "I chased round town looking for a birthday card.",
+        "examples": [
+          {
+            "en": "I chased round town looking for a birthday card.",
+            "zh": "我在城裏四處奔走，尋找生日卡。",
+            "highlight": "chased round"
+          }
+        ]
+      },
+      {
+        "titleZh": "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+        "titleEn": "chase somebody/something away / off / out",
+        "formula": "chase somebody/something away / off / out",
+        "highlight": "chase somebody/something away / off / out",
+        "zh": "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+        "en": "The farmer chased the goats off the road.",
+        "examples": [
+          {
+            "en": "The farmer chased the goats off the road.",
+            "zh": "農夫把山羊趕離馬路。",
+            "highlight": "chased the goats off"
+          }
+        ]
+      },
+      {
+        "titleZh": "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+        "titleEn": "chase somebody/something down",
+        "formula": "chase somebody/something down",
+        "highlight": "chase somebody/something down",
+        "zh": "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+        "en": "I finally chased Omar down after five calls.",
+        "examples": [
+          {
+            "en": "I finally chased Omar down after five calls.",
+            "zh": "打了五次電話後，我終於聯絡到奧馬。",
+            "highlight": "chased Omar down"
+          }
+        ]
+      },
+      {
+        "titleZh": "再次聯絡或催促某人，以取得回覆、資料或行動",
+        "titleEn": "chase somebody/something up",
+        "formula": "chase somebody/something up",
+        "highlight": "chase somebody/something up",
+        "zh": "再次聯絡或催促某人，以取得回覆、資料或行動",
+        "en": "I’ll chase the shop up about the late order.",
+        "examples": [
+          {
+            "en": "I’ll chase the shop up about the late order.",
+            "zh": "我會再次聯絡店舖，追問遲到的訂單。",
+            "highlight": "chase the shop up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 CHASE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CHASE expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 CHASE 片語動詞。",
+      "en": "Read the whole sentence and choose the CHASE expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown:",
+      "zh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown:",
+      "examplesEn": [
+        "chase him down",
+        "chase it up",
+        "chase them away"
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "around、about 和 round 都可以描述忙着由一個地方走到另一個地方；away、off 和 out 都可以表示把某人或動物趕離某處。請仔細閱讀地點資料。",
+      "titleEn": "Around, about and round can all describe busy movement from place to place. Away, off and out all describe making someone or an animal leave. Read the place information carefully.",
+      "zh": "around、about 和 round 都可以描述忙着由一個地方走到另一個地方；away、off 和 out 都可以表示把某人或動物趕離某處。請仔細閱讀地點資料。",
+      "en": "Around, about and round can all describe busy movement from place to place. Away, off and out all describe making someone or an animal leave. Read the place information carefully.",
+      "examplesEn": [],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "chase around / chase about / chase round",
+      "meaningZh": "四處奔走；忙着由一個地方走到另一個地方，通常為了尋找或處理事情",
+      "exampleEn": "I chased round town looking for a birthday card.",
+      "exampleZh": "我在城裏四處奔走，尋找生日卡。",
+      "highlight": "chased round",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "formula": "chase somebody/something away / off / out",
+      "meaningZh": "追着某人或動物，迫使其離開某處；趕走、趕離或趕出",
+      "exampleEn": "The farmer chased the goats off the road.",
+      "exampleZh": "農夫把山羊趕離馬路。",
+      "highlight": "chased the goats off",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "formula": "chase somebody/something down",
+      "meaningZh": "經過一番尋找，終於找到或聯絡到某人；找出難以找到的資料或事物",
+      "exampleEn": "I finally chased Omar down after five calls.",
+      "exampleZh": "打了五次電話後，我終於聯絡到奧馬。",
+      "highlight": "chased Omar down",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "formula": "chase somebody/something up",
+      "meaningZh": "再次聯絡或催促某人，以取得回覆、資料或行動",
+      "exampleEn": "I’ll chase the shop up about the late order.",
+      "exampleZh": "我會再次聯絡店舖，追問遲到的訂單。",
+      "highlight": "chase the shop up",
+      "sourcePage": 2
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CHASE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CHASE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CHASE 動詞片語句子改寫練習",
+    "titleEn": "CHASE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CHASE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CHASE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-05-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "I spent all morning going from shop to shop looking for a blue birthday card.",
+      "promptZh": "我整個早上都由一間店走到另一間店，尋找一張藍色生日卡。",
+      "starter": "I",
+      "answer": "I chased around all morning looking for a blue birthday card.",
+      "answerZh": "我整個早上都四處奔走，尋找一張藍色生日卡。",
+      "targetForm": "chase around",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chased around"
+    },
+    {
+      "id": "phrasal-verb-05-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The dog ran at the birds and made them move away from its food.",
+      "promptZh": "那隻狗衝向小鳥，把牠們趕離自己的食物。",
+      "starter": "The",
+      "answer": "The dog chased the birds away from its food.",
+      "answerZh": "那隻狗把小鳥趕離自己的食物。",
+      "targetForm": "chase somebody/something away",
+      "targetMeaningZh": "把某人或動物趕走",
+      "highlight": "chased the birds away"
+    },
+    {
+      "id": "phrasal-verb-05-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "After searching the whole school, we finally found Mia.",
+      "promptZh": "我們找遍整間學校後，終於找到了米婭。",
+      "starter": "After",
+      "answer": "After searching the whole school, we finally chased Mia down.",
+      "answerZh": "我們找遍整間學校後，終於找到了米婭。",
+      "targetForm": "chase somebody down",
+      "targetMeaningZh": "經過一番尋找，終於找到某人",
+      "highlight": "chased Mia down"
+    },
+    {
+      "id": "phrasal-verb-05-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "I will contact Ben again today and ask about the missing form.",
+      "promptZh": "我今天會再次聯絡賓，詢問遺失的表格。",
+      "starter": "I",
+      "answer": "I will chase Ben up about the missing form today.",
+      "answerZh": "我今天會再次聯絡賓，查問遺失的表格。",
+      "targetForm": "chase somebody up",
+      "targetMeaningZh": "再次聯絡或催促某人",
+      "highlight": "chase Ben up"
+    },
+    {
+      "id": "phrasal-verb-05-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Dad went all around town to find the right light bulb.",
+      "promptZh": "爸爸走遍城裏各處，尋找合適的燈泡。",
+      "starter": "Dad",
+      "answer": "Dad chased round town to find the right light bulb.",
+      "answerZh": "爸爸在城裏四處奔走，尋找合適的燈泡。",
+      "targetForm": "chase round",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chased round"
+    },
+    {
+      "id": "phrasal-verb-05-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The farmer ran after the goats until they left the road.",
+      "promptZh": "農夫追着山羊跑，直至牠們離開馬路。",
+      "starter": "The",
+      "answer": "The farmer chased the goats off the road.",
+      "answerZh": "農夫把山羊趕離馬路。",
+      "targetForm": "chase somebody/something off",
+      "targetMeaningZh": "把某人或動物趕離某處",
+      "highlight": "chased the goats off"
+    },
+    {
+      "id": "phrasal-verb-05-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Please contact the shop again and ask about my order.",
+      "promptZh": "請再次聯絡店舖，查問我的訂單。",
+      "starter": "Please",
+      "answer": "Please chase the shop up about my order.",
+      "answerZh": "請再次聯絡店舖，查問我的訂單。",
+      "targetForm": "chase somebody/something up",
+      "targetMeaningZh": "再次聯絡或追問",
+      "highlight": "chase the shop up"
+    },
+    {
+      "id": "phrasal-verb-05-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Lena searched until she found the correct address before leaving home.",
+      "promptZh": "莉娜在離家前一直尋找，終於找到了正確地址。",
+      "starter": "Lena",
+      "answer": "Lena chased down the correct address before leaving home.",
+      "answerZh": "莉娜在離家前經過一番尋找，找到了正確地址。",
+      "targetForm": "chase something down",
+      "targetMeaningZh": "經過一番尋找，找出某事物",
+      "highlight": "chased down"
+    },
+    {
+      "id": "phrasal-verb-05-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "A loud clap made the pigeons leave our table.",
+      "promptZh": "一聲響亮的拍手聲令鴿子離開了我們的桌子。",
+      "starter": "A",
+      "answer": "A loud clap chased the pigeons away from our table.",
+      "answerZh": "一聲響亮的拍手聲把鴿子趕離了我們的桌子。",
+      "targetForm": "chase somebody/something away",
+      "targetMeaningZh": "把某人或動物趕走",
+      "highlight": "chased the pigeons away"
+    },
+    {
+      "id": "phrasal-verb-05-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "We spent all afternoon going from shop to shop trying to find a cheap printer.",
+      "promptZh": "我們整個下午都由一間店走到另一間店，嘗試尋找一部便宜的打印機。",
+      "starter": "We",
+      "answer": "We chased about all afternoon trying to find a cheap printer.",
+      "answerZh": "我們整個下午都四處奔走，嘗試尋找一部便宜的打印機。",
+      "targetForm": "chase about",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chased about"
+    },
+    {
+      "id": "phrasal-verb-05-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The caretaker is running after the cat to make it leave the hall.",
+      "promptZh": "管理員正追着那隻貓，想把牠趕出大堂。",
+      "starter": "The",
+      "answer": "The caretaker is chasing the cat out of the hall.",
+      "answerZh": "管理員正把那隻貓趕出大堂。",
+      "targetForm": "chase somebody/something out",
+      "targetMeaningZh": "把某人或動物趕出某處",
+      "highlight": "chasing the cat out"
+    },
+    {
+      "id": "phrasal-verb-05-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "I have finally managed to contact Omar after five calls.",
+      "promptZh": "打了五次電話後，我終於聯絡到奧馬。",
+      "starter": "I",
+      "answer": "I have finally chased Omar down after five calls.",
+      "answerZh": "打了五次電話後，我終於聯絡到奧馬。",
+      "targetForm": "chase somebody down",
+      "targetMeaningZh": "努力尋找並聯絡到某人",
+      "highlight": "chased Omar down"
+    },
+    {
+      "id": "phrasal-verb-05-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Mum is going from shop to shop around town looking for a new phone charger.",
+      "promptZh": "媽媽正走遍城裏不同店舖，尋找一個新的手機充電器。",
+      "starter": "Mum",
+      "answer": "Mum is chasing around town looking for a new phone charger.",
+      "answerZh": "媽媽正在城裏四處奔走，尋找一個新的手機充電器。",
+      "targetForm": "chase around",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chasing around"
+    },
+    {
+      "id": "phrasal-verb-05-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Have you contacted the café again about our booking?",
+      "promptZh": "你有再次聯絡咖啡店，查問我們的預訂嗎？",
+      "starter": "Have",
+      "answer": "Have you chased the café up about our booking?",
+      "answerZh": "你有再次聯絡咖啡店，查問我們的預訂嗎？",
+      "targetForm": "chase somebody/something up",
+      "targetMeaningZh": "再次聯絡或追問",
+      "highlight": "chased the café up"
+    },
+    {
+      "id": "phrasal-verb-05-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The sheep entered the field, but the farmer ran after them until they left.",
+      "promptZh": "羊群走進田地，但農夫追着牠們跑，直至牠們離開。",
+      "starter": "The",
+      "answer": "The sheep entered the field, but the farmer chased them off.",
+      "answerZh": "羊群走進田地，但農夫把牠們趕走了。",
+      "targetForm": "chase somebody/something off",
+      "targetMeaningZh": "把某人或動物趕離某處",
+      "highlight": "chased them off"
+    },
+    {
+      "id": "phrasal-verb-05-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Could you find and contact the café owner before six?",
+      "promptZh": "你可以在六時前找到並聯絡咖啡店店主嗎？",
+      "starter": "Could",
+      "answer": "Could you chase the café owner down before six?",
+      "answerZh": "你可以在六時前找到並聯絡咖啡店店主嗎？",
+      "targetForm": "chase somebody down",
+      "targetMeaningZh": "努力尋找並聯絡到某人",
+      "highlight": "chase the café owner down"
+    },
+    {
+      "id": "phrasal-verb-05-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "The office still has not contacted the driver again about the form.",
+      "promptZh": "辦公室仍未再次聯絡司機，查問表格的事。",
+      "starter": "The",
+      "answer": "The office still has not chased the driver up about the form.",
+      "answerZh": "辦公室仍未再次聯絡司機，查問表格的事。",
+      "targetForm": "chase somebody up",
+      "targetMeaningZh": "再次聯絡或催促某人",
+      "highlight": "chased the driver up"
+    },
+    {
+      "id": "phrasal-verb-05-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "We were going from shop to shop in the shopping centre looking for a warm coat.",
+      "promptZh": "我們當時在商場內由一間店走到另一間店，尋找一件保暖外套。",
+      "starter": "We",
+      "answer": "We were chasing round the shopping centre for a warm coat.",
+      "answerZh": "我們當時在商場內四處奔走，尋找一件保暖外套。",
+      "targetForm": "chase round",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chasing round"
+    },
+    {
+      "id": "phrasal-verb-05-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "I searched for Leo and finally found him at the sports hall.",
+      "promptZh": "我尋找里奧，最後在體育館找到了他。",
+      "starter": "I",
+      "answer": "I finally chased Leo down at the sports hall.",
+      "answerZh": "我最後在體育館找到了里奧。",
+      "targetForm": "chase somebody down",
+      "targetMeaningZh": "經過一番尋找，終於找到某人",
+      "highlight": "chased Leo down"
+    },
+    {
+      "id": "phrasal-verb-05-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "We should make the flies leave the kitchen before dinner.",
+      "promptZh": "我們應該在晚飯前把蒼蠅趕出廚房。",
+      "starter": "We",
+      "answer": "We should chase the flies out of the kitchen before dinner.",
+      "answerZh": "我們應該在晚飯前把蒼蠅趕出廚房。",
+      "targetForm": "chase somebody/something out",
+      "targetMeaningZh": "把某人或動物趕出某處",
+      "highlight": "chase the flies out"
+    },
+    {
+      "id": "phrasal-verb-05-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "The repair team promised an answer yesterday. Please contact them again this morning.",
+      "promptZh": "維修隊昨天答應會回覆。請今早再次聯絡他們。",
+      "starter": "The",
+      "answer": "The repair team promised an answer yesterday. Please chase them up this morning.",
+      "answerZh": "維修隊昨天答應會回覆。請今早再次催促他們回覆。",
+      "targetForm": "chase somebody up",
+      "targetMeaningZh": "再次聯絡或催促某人",
+      "highlight": "chase them up"
+    },
+    {
+      "id": "phrasal-verb-05-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "I need a gift today. Since breakfast, I have been going from shop to shop.",
+      "promptZh": "我今天需要一份禮物。由早餐時間開始，我一直由一間店走到另一間店。",
+      "starter": "I",
+      "answer": "I need a gift today. I have been chasing about since breakfast.",
+      "answerZh": "我今天需要一份禮物。由早餐時間開始，我一直四處奔走尋找。",
+      "targetForm": "chase about",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chasing about"
+    },
+    {
+      "id": "phrasal-verb-05-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "A wasp flew into the classroom, and Ms Ho used a notebook to make it leave.",
+      "promptZh": "一隻黃蜂飛進課室，何老師用一本筆記簿把牠趕了出去。",
+      "starter": "A",
+      "answer": "A wasp flew into the classroom, and Ms Ho chased it out with a notebook.",
+      "answerZh": "一隻黃蜂飛進課室，何老師用一本筆記簿把牠趕了出去。",
+      "targetForm": "chase somebody/something out",
+      "targetMeaningZh": "把某人或動物趕出某處",
+      "highlight": "chased it out"
+    },
+    {
+      "id": "phrasal-verb-05-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The phone number was hard to find, but Nina found it before the meeting.",
+      "promptZh": "那個電話號碼很難找到，但妮娜在會議前找到了它。",
+      "starter": "The",
+      "answer": "The phone number was hard to find, but Nina chased it down before the meeting.",
+      "answerZh": "那個電話號碼很難找到，但妮娜在會議前找到了它。",
+      "targetForm": "chase something down",
+      "targetMeaningZh": "經過一番尋找，找出某事物",
+      "highlight": "chased it down"
+    },
+    {
+      "id": "phrasal-verb-05-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Why hasn’t anyone contacted the driver again about the late parcel?",
+      "promptZh": "為甚麼仍沒有人再次聯絡司機，查問遲到的包裹？",
+      "starter": "Why",
+      "answer": "Why hasn’t anyone chased the driver up about the late parcel?",
+      "answerZh": "為甚麼仍沒有人再次聯絡司機，查問遲到的包裹？",
+      "targetForm": "chase somebody up",
+      "targetMeaningZh": "再次聯絡或催促某人",
+      "highlight": "chased the driver up"
+    },
+    {
+      "id": "phrasal-verb-05-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "After lunch, we went from stall to stall in the market trying to find the same cup.",
+      "promptZh": "午膳後，我們在市場內由一個攤檔走到另一個攤檔，嘗試尋找同一款杯子。",
+      "starter": "After",
+      "answer": "After lunch, we chased around the market trying to find the same cup.",
+      "answerZh": "午膳後，我們在市場內四處奔走，嘗試尋找同一款杯子。",
+      "targetForm": "chase around",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chased around"
+    },
+    {
+      "id": "phrasal-verb-05-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 18,
+      "prompt": "No one knew where Ella was. Sam finally found her in the library.",
+      "promptZh": "沒有人知道埃拉在哪裏。山姆最後在圖書館找到了她。",
+      "starter": "No",
+      "answer": "No one knew where Ella was. Sam finally chased her down in the library.",
+      "answerZh": "沒有人知道埃拉在哪裏。山姆最後在圖書館找到了她。",
+      "targetForm": "chase somebody down",
+      "targetMeaningZh": "經過一番尋找，終於找到某人",
+      "highlight": "chased her down"
+    },
+    {
+      "id": "phrasal-verb-05-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The children ran onto the wet grass, but the coach ran after them and made them leave before they slipped.",
+      "promptZh": "孩子們跑到濕滑的草地上，但教練追着他們，把他們趕走，以免他們滑倒。",
+      "starter": "The",
+      "answer": "The children ran onto the wet grass, but the coach chased them off before they slipped.",
+      "answerZh": "孩子們跑到濕滑的草地上，但教練在他們滑倒前把他們趕走了。",
+      "targetForm": "chase somebody off",
+      "targetMeaningZh": "把某人趕離某處",
+      "highlight": "chased them off"
+    },
+    {
+      "id": "phrasal-verb-05-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Why were you going from place to place around town before the party?",
+      "promptZh": "你為甚麼在派對前在城裏四處奔走？",
+      "starter": "Why",
+      "answer": "Why were you chasing round town before the party?",
+      "answerZh": "你為甚麼在派對前在城裏四處奔走？",
+      "targetForm": "chase round",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chasing round"
+    },
+    {
+      "id": "phrasal-verb-05-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The order is two days late, so I will ask about it again after lunch.",
+      "promptZh": "訂單已遲了兩天，所以我會在午膳後再次查問。",
+      "starter": "The",
+      "answer": "The order is two days late, so I will chase it up after lunch.",
+      "answerZh": "訂單已遲了兩天，所以我會在午膳後再次追問。",
+      "targetForm": "chase something up",
+      "targetMeaningZh": "再次查問或追查某事",
+      "highlight": "chase it up"
+    },
+    {
+      "id": "phrasal-verb-05-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Grace was hard to find, but I finally found her on the third floor.",
+      "promptZh": "格蕾絲很難找到，但我最後在三樓找到了她。",
+      "starter": "Grace",
+      "answer": "Grace was hard to find, but I finally chased her down on the third floor.",
+      "answerZh": "格蕾絲很難找到，但我最後在三樓找到了她。",
+      "targetForm": "chase somebody down",
+      "targetMeaningZh": "經過一番尋找，終於找到某人",
+      "highlight": "chased her down"
+    },
+    {
+      "id": "phrasal-verb-05-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The guard ran after the boys and made them leave the closed playground.",
+      "promptZh": "警衞追着那些男孩，把他們趕出已關閉的遊樂場。",
+      "starter": "The",
+      "answer": "The guard chased the boys out of the closed playground.",
+      "answerZh": "警衞把那些男孩趕出已關閉的遊樂場。",
+      "targetForm": "chase somebody out",
+      "targetMeaningZh": "把某人趕出某處",
+      "highlight": "chased the boys out"
+    },
+    {
+      "id": "phrasal-verb-05-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The teacher knows who has the form and only needs to contact him again about returning it.",
+      "promptZh": "老師知道誰拿着表格，只需再次聯絡他，催促他交還表格。",
+      "starter": "The",
+      "answer": "The teacher knows who has the form and only needs to chase him up about returning it.",
+      "answerZh": "老師知道誰拿着表格，只需再次聯絡他，催促他交還表格。",
+      "targetForm": "chase somebody up",
+      "targetMeaningZh": "再次聯絡或催促某人",
+      "highlight": "chase him up"
+    },
+    {
+      "id": "phrasal-verb-05-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "I was going all over town trying to find a shop that sold the part.",
+      "promptZh": "我當時在城裏四處奔走，嘗試尋找一間售賣該零件的店舖。",
+      "starter": "I",
+      "answer": "I was chasing around town trying to find a shop that sold the part.",
+      "answerZh": "我當時在城裏四處奔走，嘗試尋找一間售賣該零件的店舖。",
+      "targetForm": "chase around",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chasing around"
+    },
+    {
+      "id": "phrasal-verb-05-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Could you search for and find the right email address before we send the form?",
+      "promptZh": "你可以在我們寄出表格前，找出正確的電郵地址嗎？",
+      "starter": "Could",
+      "answer": "Could you chase down the right email address before we send the form?",
+      "answerZh": "你可以在我們寄出表格前，找出正確的電郵地址嗎？",
+      "targetForm": "chase something down",
+      "targetMeaningZh": "經過一番尋找，找出某事物",
+      "highlight": "chase down"
+    },
+    {
+      "id": "phrasal-verb-05-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The fox got into the chicken house, but the farmer ran after it until it was outside again.",
+      "promptZh": "狐狸走進雞舍，但農夫追着牠，直至牠再次走到外面。",
+      "starter": "The",
+      "answer": "The fox got into the chicken house, but the farmer chased it out.",
+      "answerZh": "狐狸走進雞舍，但農夫把牠趕了出去。",
+      "targetForm": "chase somebody/something out",
+      "targetMeaningZh": "把某人或動物趕出某處",
+      "highlight": "chased it out"
+    },
+    {
+      "id": "phrasal-verb-05-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The first shop did not have the shoes, so we went from place to place for two hours trying to find them.",
+      "promptZh": "第一間店沒有那雙鞋，所以我們四處尋找了兩小時。",
+      "starter": "The",
+      "answer": "The first shop did not have the shoes, so we chased round for two hours trying to find them.",
+      "answerZh": "第一間店沒有那雙鞋，所以我們四處尋找了兩小時。",
+      "targetForm": "chase round",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chased round"
+    },
+    {
+      "id": "phrasal-verb-05-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Please contact the hotel again about our unanswered message.",
+      "promptZh": "請再次聯絡酒店，查問我們仍未獲回覆的訊息。",
+      "starter": "Please",
+      "answer": "Please chase the hotel up about our unanswered message.",
+      "answerZh": "請再次聯絡酒店，查問我們仍未獲回覆的訊息。",
+      "targetForm": "chase somebody/something up",
+      "targetMeaningZh": "再次聯絡或追問",
+      "highlight": "chase the hotel up"
+    },
+    {
+      "id": "phrasal-verb-05-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The crows kept landing near the picnic, so we ran towards them until they left.",
+      "promptZh": "烏鴉不斷在野餐地點附近降落，所以我們跑向牠們，直至牠們離開。",
+      "starter": "The",
+      "answer": "The crows kept landing near the picnic, so we chased them away.",
+      "answerZh": "烏鴉不斷在野餐地點附近降落，所以我們把牠們趕走了。",
+      "targetForm": "chase somebody/something away",
+      "targetMeaningZh": "把某人或動物趕走",
+      "highlight": "chased them away"
+    },
+    {
+      "id": "phrasal-verb-05-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The teacher searched through her old emails until she found the parent’s new number.",
+      "promptZh": "老師翻查舊電郵，最後找到了那位家長的新電話號碼。",
+      "starter": "The",
+      "answer": "The teacher chased down the parent’s new number in her old emails.",
+      "answerZh": "老師翻查舊電郵，找到了那位家長的新電話號碼。",
+      "targetForm": "chase something down",
+      "targetMeaningZh": "經過一番尋找，找出某事物",
+      "highlight": "chased down"
+    },
+    {
+      "id": "phrasal-verb-05-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The party was that evening, but Ben had no present, so he spent all afternoon going from shop to shop looking for one.",
+      "promptZh": "派對當晚舉行，但賓還沒有禮物，所以他整個下午都由一間店走到另一間店尋找禮物。",
+      "starter": "The",
+      "answer": "The party was that evening, but Ben had no present, so he chased around all afternoon looking for one.",
+      "answerZh": "派對當晚舉行，但賓還沒有禮物，所以他整個下午都四處奔走尋找禮物。",
+      "targetForm": "chase around",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chased around"
+    },
+    {
+      "id": "phrasal-verb-05-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The printer company promised to call yesterday but did not, so I will contact them again before lunch.",
+      "promptZh": "打印機公司昨天答應會來電，但沒有來電，所以我會在午膳前再次聯絡他們。",
+      "starter": "The",
+      "answer": "The printer company promised to call yesterday but did not, so I will chase them up before lunch.",
+      "answerZh": "打印機公司昨天答應會來電，但沒有來電，所以我會在午膳前再次聯絡他們。",
+      "targetForm": "chase somebody up",
+      "targetMeaningZh": "再次聯絡或催促某人",
+      "highlight": "chase them up"
+    },
+    {
+      "id": "phrasal-verb-05-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "A group of geese moved onto the football pitch during practice, and the coach ran after them until they left.",
+      "promptZh": "一群鵝在練習期間走進足球場，教練追着牠們，直至牠們離開。",
+      "starter": "A",
+      "answer": "A group of geese moved onto the football pitch during practice, and the coach chased them off the pitch.",
+      "answerZh": "一群鵝在練習期間走進足球場，教練把牠們趕離了球場。",
+      "targetForm": "chase somebody/something off",
+      "targetMeaningZh": "把某人或動物趕離某處",
+      "highlight": "chased them off"
+    },
+    {
+      "id": "phrasal-verb-05-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "We had already asked everyone else, so we searched for the old caretaker until we found him and got the door code.",
+      "promptZh": "我們已經問過其他所有人，所以便尋找那位舊管理員，直至找到他並取得門鎖密碼。",
+      "starter": "We",
+      "answer": "We had already asked everyone else, so we chased the old caretaker down and got the door code.",
+      "answerZh": "我們已經問過其他所有人，所以便找到那位舊管理員，並取得門鎖密碼。",
+      "targetForm": "chase somebody down",
+      "targetMeaningZh": "經過一番尋找，終於找到某人",
+      "highlight": "chased the old caretaker down"
+    },
+    {
+      "id": "phrasal-verb-05-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The train left in an hour, and Maya was still going from counter to counter in the station trying to replace her lost ticket.",
+      "promptZh": "火車一小時後開出，而瑪雅仍在車站內由一個櫃位走到另一個櫃位，嘗試補領遺失的車票。",
+      "starter": "The",
+      "answer": "The train left in an hour, and Maya was still chasing round the station trying to replace her lost ticket.",
+      "answerZh": "火車一小時後開出，而瑪雅仍在車站內四處奔走，嘗試補領遺失的車票。",
+      "targetForm": "chase round",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chasing round"
+    },
+    {
+      "id": "phrasal-verb-05-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The sports club has not confirmed our place, although we sent the form last week. Could you contact them again?",
+      "promptZh": "雖然我們上星期已寄出表格，但體育會仍未確認我們的名額。你可以再次聯絡他們嗎？",
+      "starter": "The",
+      "answer": "The sports club has not confirmed our place, although we sent the form last week. Could you chase them up?",
+      "answerZh": "雖然我們上星期已寄出表格，但體育會仍未確認我們的名額。你可以再次聯絡他們嗎？",
+      "targetForm": "chase somebody up",
+      "targetMeaningZh": "再次聯絡或催促某人",
+      "highlight": "chase them up"
+    },
+    {
+      "id": "phrasal-verb-05-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "No one remembered the name of the small café, but Jay checked his photos until he found it.",
+      "promptZh": "沒有人記得那間小咖啡店的名稱，但傑翻查照片，最後找到了店名。",
+      "starter": "No",
+      "answer": "No one remembered the name of the small café, but Jay chased it down by checking his photos.",
+      "answerZh": "沒有人記得那間小咖啡店的名稱，但傑翻查照片，最後找到了店名。",
+      "targetForm": "chase something down",
+      "targetMeaningZh": "經過一番尋找，找出某事物",
+      "highlight": "chased it down"
+    },
+    {
+      "id": "phrasal-verb-05-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "A stray dog entered the school hall during lunch, and two teachers ran after it until it went outside.",
+      "promptZh": "一隻流浪狗在午膳時間走進學校大堂，兩名老師追着牠，直至牠走到外面。",
+      "starter": "A",
+      "answer": "A stray dog entered the school hall during lunch, and two teachers chased it out.",
+      "answerZh": "一隻流浪狗在午膳時間走進學校大堂，兩名老師把牠趕了出去。",
+      "targetForm": "chase somebody/something out",
+      "targetMeaningZh": "把某人或動物趕出某處",
+      "highlight": "chased it out"
+    },
+    {
+      "id": "phrasal-verb-05-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The repair worker said the part would arrive on Monday, but there is still no news. I will ask him again this afternoon.",
+      "promptZh": "維修員說零件會在星期一送到，但現在仍沒有消息。我會在今天下午再次追問他。",
+      "starter": "The",
+      "answer": "The repair worker said the part would arrive on Monday, but there is still no news. I will chase him up this afternoon.",
+      "answerZh": "維修員說零件會在星期一送到，但現在仍沒有消息。我會在今天下午再次追問他。",
+      "targetForm": "chase somebody up",
+      "targetMeaningZh": "再次聯絡或催促某人",
+      "highlight": "chase him up"
+    },
+    {
+      "id": "phrasal-verb-05-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "We had only one hour before closing time, so we hurried from one shop to another in the shopping centre looking for the right school bag.",
+      "promptZh": "距離關門時間只剩一小時，所以我們在商場內匆忙地由一間店走到另一間店，尋找合適的書包。",
+      "starter": "We",
+      "answer": "We had only one hour before closing time, so we chased about the shopping centre looking for the right school bag.",
+      "answerZh": "距離關門時間只剩一小時，所以我們在商場內四處奔走，尋找合適的書包。",
+      "targetForm": "chase about",
+      "targetMeaningZh": "四處奔走尋找或處理事情",
+      "highlight": "chased about"
+    }
+  ]
+}

@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-31",
+  "order": 31,
+  "slug": "steal",
+  "version": "1",
+  "title": "STEAL 動詞片語",
+  "titleEn": "Steal",
+  "titleZh": "STEAL 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 30 - Steal.pdf",
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STEAL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STEAL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STEAL",
+      "highlight": "STEAL"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "He stole away under cover of darkness.",
+      "zh": "他趁着夜色悄悄離開。",
+      "highlight": "stole away"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "A chill stole over her.",
+      "zh": "她漸漸感到一陣寒意。",
+      "highlight": "stole over her"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "She stole up on him in the dark.",
+      "zh": "她在黑暗中悄悄走近他。",
+      "highlight": "stole up on him"
+    }
+  ],
+  "meaning": {
+    "zh": "悄悄離開；偷偷溜走；某種感覺、情緒、睡意或表情漸漸出現，並影響某人；悄悄走近某人或動物，讓對方沒有察覺",
+    "en": "steal away / steal over somebody / steal up on somebody",
+    "naturalZh": [
+      "悄悄離開；偷偷溜走",
+      "某種感覺、情緒、睡意或表情漸漸出現，並影響某人",
+      "悄悄走近某人或動物，讓對方沒有察覺"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "steal away",
+      "titleZh": "悄悄離開；偷偷溜走",
+      "titleEn": "steal away",
+      "descriptionZh": "悄悄離開；偷偷溜走",
+      "descriptionEn": "He stole away under cover of darkness.",
+      "examples": [
+        {
+          "en": "He stole away under cover of darkness.",
+          "zh": "他趁着夜色悄悄離開。",
+          "highlight": "stole away"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "steal over somebody",
+      "titleZh": "某種感覺、情緒、睡意或表情漸漸出現，並影響某人",
+      "titleEn": "steal over somebody",
+      "descriptionZh": "某種感覺、情緒、睡意或表情漸漸出現，並影響某人",
+      "descriptionEn": "A chill stole over her.",
+      "examples": [
+        {
+          "en": "A chill stole over her.",
+          "zh": "她漸漸感到一陣寒意。",
+          "highlight": "stole over her"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "steal up on somebody",
+      "titleZh": "悄悄走近某人或動物，讓對方沒有察覺",
+      "titleEn": "steal up on somebody",
+      "descriptionZh": "悄悄走近某人或動物，讓對方沒有察覺",
+      "descriptionEn": "She stole up on him in the dark.",
+      "examples": [
+        {
+          "en": "She stole up on him in the dark.",
+          "zh": "她在黑暗中悄悄走近他。",
+          "highlight": "stole up on him"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "STEAL 片語動詞的實際用途",
+    "labelEn": "STEAL Phrasal Verbs in Use",
+    "summaryZh": "steal away 可以描述某人在不引人注意的情況下離開，特別適合用於帶有秘密或驚喜的故事。；steal up on somebody 可以表示某人或動物沒有發出聲音地慢慢走近，而對方並未察覺。；steal over somebody 可以描述恐懼、平靜、悲傷、安心或睡意等感覺漸漸影響某人。；這些 STEAL 片語動詞可以簡潔地營造安靜、神秘、柔和或緊張的氣氛。",
+    "summaryEn": "Steal away lets you describe a person leaving without attracting attention, especially in stories involving secrecy or surprise. Steal up on somebody shows that a person or animal moves closer quietly without being noticed. Steal over somebody can describe fear, calm, sadness, relief, sleepiness or another feeling slowly beginning to affect a person. These STEAL expressions can make a scene feel quiet, secretive, gentle or tense without requiring a long explanation.",
+    "contextsZh": [
+      "描述某人悄悄離開",
+      "描述悄無聲息地走近",
+      "描寫感覺慢慢出現",
+      "為故事增添氣氛"
+    ],
+    "contextsEn": [
+      "Describe someone leaving quietly",
+      "Describe a silent approach",
+      "Show feelings appearing little by little",
+      "Add atmosphere to stories"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 STEAL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STEAL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "steal away",
+    "fixedHighlight": "steal away",
+    "fixedZh": "閱讀整句，選出意思相同的 STEAL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STEAL expression that gives the same meaning.",
+    "correct": "stole away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在這份練習中，STEAL 並不是指「偷取東西」，而是描述安靜的動作，或某種感覺慢慢出現。；留意三者所描述的不同情況： steal away = 悄悄離開 steal up on somebody = 悄悄走近某人 steal over somebody = 某種感覺漸漸影響某人",
+    "variableEn": "Keep the same people, things, time and meaning. In this exercise, STEAL does not mean “take something without permission”. It describes quiet movement or a feeling arriving slowly. Notice the different situations: steal away = leave quietly steal up on somebody = move quietly towards somebody steal over somebody = a feeling slowly affects somebody",
+    "variableItemsZh": [
+      "steal away",
+      "steal over somebody",
+      "steal up on somebody"
+    ],
+    "variableItemsEn": [
+      "steal away",
+      "steal over somebody",
+      "steal up on somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "悄悄離開；偷偷溜走",
+        "formEn": "steal away",
+        "exampleZh": "他趁着夜色悄悄離開。",
+        "exampleEn": "He stole away under cover of darkness.",
+        "highlight": "stole away"
+      },
+      {
+        "formZh": "某種感覺、情緒、睡意或表情漸漸出現，並影響某人",
+        "formEn": "steal over somebody",
+        "exampleZh": "她漸漸感到一陣寒意。",
+        "exampleEn": "A chill stole over her.",
+        "highlight": "stole over her"
+      },
+      {
+        "formZh": "悄悄走近某人或動物，讓對方沒有察覺",
+        "formEn": "steal up on somebody",
+        "exampleZh": "她在黑暗中悄悄走近他。",
+        "exampleEn": "She stole up on him in the dark.",
+        "highlight": "stole up on him"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "悄悄離開；偷偷溜走",
+      "titleEn": "steal away",
+      "formula": "steal away",
+      "highlight": "steal away",
+      "descriptionZh": "悄悄離開；偷偷溜走",
+      "descriptionEn": "He stole away under cover of darkness.",
+      "examples": [
+        {
+          "en": "He stole away under cover of darkness.",
+          "zh": "他趁着夜色悄悄離開。",
+          "highlight": "stole away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "某種感覺、情緒、睡意或表情漸漸出現，並影響某人",
+      "titleEn": "steal over somebody",
+      "formula": "steal over somebody",
+      "highlight": "steal over somebody",
+      "descriptionZh": "某種感覺、情緒、睡意或表情漸漸出現，並影響某人",
+      "descriptionEn": "A chill stole over her.",
+      "examples": [
+        {
+          "en": "A chill stole over her.",
+          "zh": "她漸漸感到一陣寒意。",
+          "highlight": "stole over her"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "悄悄走近某人或動物，讓對方沒有察覺",
+      "titleEn": "steal up on somebody",
+      "formula": "steal up on somebody",
+      "highlight": "steal up on somebody",
+      "descriptionZh": "悄悄走近某人或動物，讓對方沒有察覺",
+      "descriptionEn": "She stole up on him in the dark.",
+      "examples": [
+        {
+          "en": "She stole up on him in the dark.",
+          "zh": "她在黑暗中悄悄走近他。",
+          "highlight": "stole up on him"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述某人悄悄離開",
+      "titleEn": "Describe someone leaving quietly",
+      "zh": "steal away 可以描述某人在不引人注意的情況下離開，特別適合用於帶有秘密或驚喜的故事。",
+      "en": "Steal away lets you describe a person leaving without attracting attention, especially in stories involving secrecy or surprise."
+    },
+    {
+      "titleZh": "描述悄無聲息地走近",
+      "titleEn": "Describe a silent approach",
+      "zh": "steal up on somebody 可以表示某人或動物沒有發出聲音地慢慢走近，而對方並未察覺。",
+      "en": "Steal up on somebody shows that a person or animal moves closer quietly without being noticed."
+    },
+    {
+      "titleZh": "描寫感覺慢慢出現",
+      "titleEn": "Show feelings appearing little by little",
+      "zh": "steal over somebody 可以描述恐懼、平靜、悲傷、安心或睡意等感覺漸漸影響某人。",
+      "en": "Steal over somebody can describe fear, calm, sadness, relief, sleepiness or another feeling slowly beginning to affect a person."
+    },
+    {
+      "titleZh": "為故事增添氣氛",
+      "titleEn": "Add atmosphere to stories",
+      "zh": "這些 STEAL 片語動詞可以簡潔地營造安靜、神秘、柔和或緊張的氣氛。",
+      "en": "These STEAL expressions can make a scene feel quiet, secretive, gentle or tense without requiring a long explanation."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述某人悄悄離開",
+      "描述悄無聲息地走近",
+      "描寫感覺慢慢出現",
+      "為故事增添氣氛"
+    ],
+    "contextsEn": [
+      "Describe someone leaving quietly",
+      "Describe a silent approach",
+      "Show feelings appearing little by little",
+      "Add atmosphere to stories"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述某人悄悄離開",
+        "titleEn": "Describe someone leaving quietly",
+        "zh": "steal away 可以描述某人在不引人注意的情況下離開，特別適合用於帶有秘密或驚喜的故事。",
+        "en": "Steal away lets you describe a person leaving without attracting attention, especially in stories involving secrecy or surprise.",
+        "examples": [
+          {
+            "en": "He stole away under cover of darkness.",
+            "zh": "他趁着夜色悄悄離開。",
+            "highlight": "stole away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述悄無聲息地走近",
+        "titleEn": "Describe a silent approach",
+        "zh": "steal up on somebody 可以表示某人或動物沒有發出聲音地慢慢走近，而對方並未察覺。",
+        "en": "Steal up on somebody shows that a person or animal moves closer quietly without being noticed.",
+        "examples": [
+          {
+            "en": "A chill stole over her.",
+            "zh": "她漸漸感到一陣寒意。",
+            "highlight": "stole over her"
+          }
+        ]
+      },
+      {
+        "titleZh": "描寫感覺慢慢出現",
+        "titleEn": "Show feelings appearing little by little",
+        "zh": "steal over somebody 可以描述恐懼、平靜、悲傷、安心或睡意等感覺漸漸影響某人。",
+        "en": "Steal over somebody can describe fear, calm, sadness, relief, sleepiness or another feeling slowly beginning to affect a person.",
+        "examples": [
+          {
+            "en": "She stole up on him in the dark.",
+            "zh": "她在黑暗中悄悄走近他。",
+            "highlight": "stole up on him"
+          }
+        ]
+      },
+      {
+        "titleZh": "為故事增添氣氛",
+        "titleEn": "Add atmosphere to stories",
+        "zh": "這些 STEAL 片語動詞可以簡潔地營造安靜、神秘、柔和或緊張的氣氛。",
+        "en": "These STEAL expressions can make a scene feel quiet, secretive, gentle or tense without requiring a long explanation.",
+        "examples": [
+          {
+            "en": "He stole away under cover of darkness.",
+            "zh": "他趁着夜色悄悄離開。",
+            "highlight": "stole away"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 STEAL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STEAL expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 STEAL 片語動詞。",
+      "en": "Read the whole sentence and choose the STEAL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在這份練習中，STEAL 並不是指「偷取東西」，而是描述安靜的動作，或某種感覺慢慢出現。",
+      "titleEn": "In this exercise, STEAL does not mean “take something without permission”.",
+      "zh": "在這份練習中，STEAL 並不是指「偷取東西」，而是描述安靜的動作，或某種感覺慢慢出現。",
+      "en": "In this exercise, STEAL does not mean “take something without permission”. It describes quiet movement or a feeling arriving slowly."
+    },
+    {
+      "titleZh": "留意三者所描述的不同情況： steal away = 悄悄離開 steal up on somebody = 悄悄走近某人 steal over somebody = 某種感覺漸漸影響某人",
+      "titleEn": "Notice the different situations: steal away = leave quietly steal up on somebody = move quietly towards somebody steal over somebody = a feeling slowly affects somebody",
+      "zh": "留意三者所描述的不同情況： steal away = 悄悄離開 steal up on somebody = 悄悄走近某人 steal over somebody = 某種感覺漸漸影響某人",
+      "en": "Notice the different situations: steal away = leave quietly steal up on somebody = move quietly towards somebody steal over somebody = a feeling slowly affects somebody"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STEAL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STEAL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STEAL 動詞片語句子改寫練習",
+    "titleEn": "STEAL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STEAL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STEAL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-31-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "The boy left quietly before anyone noticed.",
+      "promptZh": "男孩在沒有人察覺前悄悄離開了。",
+      "starter": "The",
+      "answer": "The boy stole away before anyone noticed.",
+      "answerZh": "男孩在沒有人察覺前悄悄離開了。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Maya moved quietly towards her brother while he was reading.",
+      "promptZh": "瑪雅趁弟弟看書時悄悄走近他。",
+      "starter": "Maya",
+      "answer": "Maya stole up on her brother while he was reading.",
+      "answerZh": "瑪雅趁弟弟看書時悄悄走近他。",
+      "highlight": "stole up on her brother",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人"
+    },
+    {
+      "id": "phrasal-verb-31-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A feeling of calm slowly filled Nina.",
+      "promptZh": "妮娜漸漸感到平靜。",
+      "starter": "A",
+      "answer": "A feeling of calm stole over Nina.",
+      "answerZh": "妮娜漸漸感到平靜。",
+      "highlight": "stole over Nina",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We quietly left the party after dinner.",
+      "promptZh": "我們吃過晚飯後悄悄離開了派對。",
+      "starter": "We",
+      "answer": "We stole away from the party after dinner.",
+      "answerZh": "我們吃過晚飯後悄悄離開了派對。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The cat moved quietly towards the bird beside the wall.",
+      "promptZh": "那隻貓悄悄走近牆邊的小鳥。",
+      "starter": "The",
+      "answer": "The cat stole up on the bird beside the wall.",
+      "answerZh": "那隻貓悄悄走近牆邊的小鳥。",
+      "highlight": "stole up on the bird beside the wall",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人或動物"
+    },
+    {
+      "id": "phrasal-verb-31-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A cold fear slowly filled him in the empty house.",
+      "promptZh": "在空蕩蕩的屋子裏，他漸漸感到一股冰冷的恐懼。",
+      "starter": "A",
+      "answer": "A cold fear stole over him in the empty house.",
+      "answerZh": "在空蕩蕩的屋子裏，他漸漸感到一股冰冷的恐懼。",
+      "highlight": "stole over him",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ella quietly left while everyone was watching the film.",
+      "promptZh": "大家看電影時，埃拉悄悄離開了。",
+      "starter": "Ella",
+      "answer": "Ella stole away while everyone was watching the film.",
+      "answerZh": "大家看電影時，埃拉悄悄離開了。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The child quietly moved towards his father and covered his eyes.",
+      "promptZh": "那個孩子悄悄走近爸爸，然後蒙住他的眼睛。",
+      "starter": "The",
+      "answer": "The child stole up on his father and covered his eyes.",
+      "answerZh": "那個孩子悄悄走近爸爸，然後蒙住他的眼睛。",
+      "highlight": "stole up on his father",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人"
+    },
+    {
+      "id": "phrasal-verb-31-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A smile slowly appeared on her face when she read the note.",
+      "promptZh": "她看那張字條時，臉上漸漸露出笑容。",
+      "starter": "A",
+      "answer": "A smile stole over her face when she read the note.",
+      "answerZh": "她看那張字條時，臉上漸漸露出笑容。",
+      "highlight": "stole over her face",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種表情漸漸出現"
+    },
+    {
+      "id": "phrasal-verb-31-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The guests quietly left one by one before midnight.",
+      "promptZh": "客人在午夜前一個接一個悄悄離開。",
+      "starter": "The",
+      "answer": "The guests stole away one by one before midnight.",
+      "answerZh": "客人在午夜前一個接一個悄悄離開。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Leo is moving quietly towards the sleeping dog.",
+      "promptZh": "里奧正悄悄走近那隻熟睡的狗。",
+      "starter": "Leo",
+      "answer": "Leo is stealing up on the sleeping dog.",
+      "answerZh": "里奧正悄悄走近那隻熟睡的狗。",
+      "highlight": "stealing up on the sleeping dog",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人或動物"
+    },
+    {
+      "id": "phrasal-verb-31-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The children have quietly left the noisy room.",
+      "promptZh": "孩子們已悄悄離開那個嘈吵的房間。",
+      "starter": "The",
+      "answer": "The children have stolen away from the noisy room.",
+      "answerZh": "孩子們已悄悄離開那個嘈吵的房間。",
+      "highlight": "stolen away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "A sense of peace was slowly filling me as I listened.",
+      "promptZh": "我聽着時，內心漸漸感到平靜。",
+      "starter": "A",
+      "answer": "A sense of peace was stealing over me as I listened.",
+      "answerZh": "我聽着時，內心漸漸感到平靜。",
+      "highlight": "stealing over me",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You must not move quietly towards people in the dark.",
+      "promptZh": "你不可在黑暗中悄悄走近別人。",
+      "starter": "You",
+      "answer": "You must not steal up on people in the dark.",
+      "answerZh": "你不可在黑暗中悄悄走近別人。",
+      "highlight": "steal up on people",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人"
+    },
+    {
+      "id": "phrasal-verb-31-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did Sara quietly leave before the game ended?",
+      "promptZh": "為甚麼莎拉在比賽結束前悄悄離開？",
+      "starter": "Why",
+      "answer": "Why did Sara steal away before the game ended?",
+      "answerZh": "為甚麼莎拉在比賽結束前悄悄離開？",
+      "highlight": "steal away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "He slowly becomes sleepy every afternoon.",
+      "promptZh": "他每天下午都漸漸感到睏倦。",
+      "starter": "Sleep",
+      "answer": "Sleep steals over him every afternoon.",
+      "answerZh": "每天下午，睡意都漸漸襲來。",
+      "highlight": "steals over him every afternoon",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "睡意或感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The kitten has moved quietly towards the sleeping puppy.",
+      "promptZh": "小貓已悄悄走近那隻熟睡的小狗。",
+      "starter": "The",
+      "answer": "The kitten has stolen up on the sleeping puppy.",
+      "answerZh": "小貓已悄悄走近那隻熟睡的小狗。",
+      "highlight": "stolen up on the sleeping puppy",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人或動物"
+    },
+    {
+      "id": "phrasal-verb-31-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "We will quietly leave after the final song.",
+      "promptZh": "最後一首歌結束後，我們會悄悄離開。",
+      "starter": "We",
+      "answer": "We will steal away after the final song.",
+      "answerZh": "最後一首歌結束後，我們會悄悄離開。",
+      "highlight": "steal away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A warm, peaceful feeling may slowly fill you when you hear the song.",
+      "promptZh": "你聽到這首歌時，心裏可能會漸漸感到溫暖和平靜。",
+      "starter": "A",
+      "answer": "A warm, peaceful feeling may steal over you when you hear the song.",
+      "answerZh": "你聽到這首歌時，心裏可能會漸漸感到溫暖和平靜。",
+      "highlight": "steal over you",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The fox will move quietly towards the chickens if the gate is open.",
+      "promptZh": "如果大門開着，那隻狐狸會悄悄走近小雞。",
+      "starter": "The",
+      "answer": "The fox will steal up on the chickens if the gate is open.",
+      "answerZh": "如果大門開着，那隻狐狸會悄悄走近小雞。",
+      "highlight": "steal up on the chickens",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人或動物"
+    },
+    {
+      "id": "phrasal-verb-31-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Ben heard the door close. A sudden fear slowly filled him.",
+      "promptZh": "賓聽見門關上。一陣突如其來的恐懼漸漸籠罩着他。",
+      "starter": "Ben",
+      "answer": "Ben heard the door close. A sudden fear stole over him.",
+      "answerZh": "賓聽見門關上。一陣突如其來的恐懼漸漸籠罩着他。",
+      "highlight": "stole over him",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "No one noticed when Mia quietly left the hall.",
+      "promptZh": "米婭悄悄離開大堂時，沒有人察覺。",
+      "starter": "No",
+      "answer": "No one noticed when Mia stole away from the hall.",
+      "answerZh": "米婭悄悄離開大堂時，沒有人察覺。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The dog did not hear us as we moved quietly towards it.",
+      "promptZh": "我們悄悄走近那隻狗時，牠沒有聽見。",
+      "starter": "The",
+      "answer": "The dog did not hear us as we stole up on it.",
+      "answerZh": "我們悄悄走近那隻狗時，牠沒有聽見。",
+      "highlight": "stole up on it",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人或動物"
+    },
+    {
+      "id": "phrasal-verb-31-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "As the music slowed, I slowly began to feel calm.",
+      "promptZh": "音樂慢下來時，我漸漸感到平靜。",
+      "starter": "As",
+      "answer": "As the music slowed, a feeling of calm stole over me.",
+      "answerZh": "音樂慢下來時，我漸漸感到平靜。",
+      "highlight": "stole over me",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "By the time the teacher looked at the door, two pupils had quietly left.",
+      "promptZh": "老師望向門口時，兩名學生已悄悄離開。",
+      "starter": "By",
+      "answer": "By the time the teacher looked at the door, two pupils had stolen away.",
+      "answerZh": "老師望向門口時，兩名學生已悄悄離開。",
+      "highlight": "stolen away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "He moved quietly towards me, but I heard the floor creak.",
+      "promptZh": "他悄悄走近我，但我聽見地板發出吱吱聲。",
+      "starter": "He",
+      "answer": "He stole up on me, but I heard the floor creak.",
+      "answerZh": "他悄悄走近我，但我聽見地板發出吱吱聲。",
+      "highlight": "stole up on me",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人"
+    },
+    {
+      "id": "phrasal-verb-31-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The child watched the stars, and a sense of wonder slowly filled her.",
+      "promptZh": "那個孩子望着星星，心裏漸漸充滿驚奇。",
+      "starter": "The",
+      "answer": "The child watched the stars, and a sense of wonder stole over her.",
+      "answerZh": "那個孩子望着星星，心裏漸漸充滿驚奇。",
+      "highlight": "stole over her",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The theatre became dark, and the man quietly left through the side door.",
+      "promptZh": "劇院變暗後，那名男子從側門悄悄離開。",
+      "starter": "The",
+      "answer": "The theatre became dark, and the man stole away through the side door.",
+      "answerZh": "劇院變暗後，那名男子從側門悄悄離開。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Nobody noticed the cat moving quietly towards the sleeping dog.",
+      "promptZh": "沒有人察覺那隻貓正悄悄走近熟睡的狗。",
+      "starter": "Nobody",
+      "answer": "Nobody noticed the cat stealing up on the sleeping dog.",
+      "answerZh": "沒有人察覺那隻貓正悄悄走近熟睡的狗。",
+      "highlight": "stealing up on the sleeping dog",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人或動物"
+    },
+    {
+      "id": "phrasal-verb-31-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Why did a look of worry slowly appear on her face?",
+      "promptZh": "為甚麼她的臉上漸漸露出憂慮的神情？",
+      "starter": "Why",
+      "answer": "Why did a look of worry steal over her face?",
+      "answerZh": "為甚麼她的臉上漸漸露出憂慮的神情？",
+      "highlight": "steal over her face",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種表情漸漸出現"
+    },
+    {
+      "id": "phrasal-verb-31-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Instead of waiting for the crowd, the actor quietly left through the back door.",
+      "promptZh": "那名演員沒有等候人群，而是從後門悄悄離開。",
+      "starter": "Instead",
+      "answer": "Instead of waiting for the crowd, the actor stole away through the back door.",
+      "answerZh": "那名演員沒有等候人群，而是從後門悄悄離開。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When the doctor said the child was safe, everyone in the family slowly felt relief.",
+      "promptZh": "醫生說孩子安全後，家裏每個人都漸漸感到安心。",
+      "starter": "When",
+      "answer": "When the doctor said the child was safe, relief stole over everyone in the family.",
+      "answerZh": "醫生說孩子安全後，家裏每個人都漸漸感到安心。",
+      "highlight": "stole over everyone",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The photographer moved quietly towards the deer without making a sound.",
+      "promptZh": "攝影師悄悄走近那隻鹿，沒有發出聲音。",
+      "starter": "The",
+      "answer": "The photographer stole up on the deer without making a sound.",
+      "answerZh": "攝影師悄悄走近那隻鹿，沒有發出聲音。",
+      "highlight": "stole up on the deer without making a sound",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人或動物"
+    },
+    {
+      "id": "phrasal-verb-31-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Jon quietly left the table while the others were still arguing.",
+      "promptZh": "其他人仍在爭論時，喬恩悄悄離開了餐桌。",
+      "starter": "Jon",
+      "answer": "Jon stole away from the table while the others were still arguing.",
+      "answerZh": "其他人仍在爭論時，喬恩悄悄離開了餐桌。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "As the lift stopped between floors, a feeling of fear slowly filled us.",
+      "promptZh": "升降機停在兩層之間時，我們漸漸感到害怕。",
+      "starter": "As",
+      "answer": "As the lift stopped between floors, a feeling of fear stole over us.",
+      "answerZh": "升降機停在兩層之間時，我們漸漸感到害怕。",
+      "highlight": "stole over us",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Nora tried to surprise me by moving quietly towards me from behind.",
+      "promptZh": "諾拉從後面悄悄走近我，想嚇我一跳。",
+      "starter": "Nora",
+      "answer": "Nora tried to surprise me by stealing up on me from behind.",
+      "answerZh": "諾拉從後面悄悄走近我，想嚇我一跳。",
+      "highlight": "stealing up on me",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人"
+    },
+    {
+      "id": "phrasal-verb-31-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The young fox quietly left the group and disappeared into the trees.",
+      "promptZh": "那隻小狐狸悄悄離開同伴，消失在樹林裏。",
+      "starter": "The",
+      "answer": "The young fox stole away from the group and disappeared into the trees.",
+      "answerZh": "那隻小狐狸悄悄離開同伴，消失在樹林裏。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "A proud smile slowly appeared on the coach’s face after the win.",
+      "promptZh": "勝出後，教練的臉上漸漸露出自豪的笑容。",
+      "starter": "A",
+      "answer": "A proud smile stole over the coach’s face after the win.",
+      "answerZh": "勝出後，教練的臉上漸漸露出自豪的笑容。",
+      "highlight": "stole over the coach’s face",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種表情漸漸出現"
+    },
+    {
+      "id": "phrasal-verb-31-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The boys moved quietly towards their friends outside the tent, hoping to surprise them.",
+      "promptZh": "男孩們悄悄走近帳篷外的朋友，希望嚇他們一跳。",
+      "starter": "The",
+      "answer": "The boys stole up on their friends outside the tent, hoping to surprise them.",
+      "answerZh": "男孩們悄悄走近帳篷外的朋友，希望嚇他們一跳。",
+      "highlight": "stole up on their friends outside the tent",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人"
+    },
+    {
+      "id": "phrasal-verb-31-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "She quietly left the office before anyone could ask more questions.",
+      "promptZh": "在有人能再問問題前，她已悄悄離開辦公室。",
+      "starter": "She",
+      "answer": "She stole away from the office before anyone could ask more questions.",
+      "answerZh": "在有人能再問問題前，她已悄悄離開辦公室。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Keep your voice low; we are moving quietly towards Dad to surprise him.",
+      "promptZh": "小聲一點；我們正悄悄走近爸爸，想給他一個驚喜。",
+      "starter": "Keep",
+      "answer": "Keep your voice low; we are stealing up on Dad to surprise him.",
+      "answerZh": "小聲一點；我們正悄悄走近爸爸，想給他一個驚喜。",
+      "highlight": "stealing up on Dad",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人"
+    },
+    {
+      "id": "phrasal-verb-31-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "For a moment, he said nothing as a feeling of sadness slowly filled him.",
+      "promptZh": "有一會兒，他沒有說話，心裏漸漸感到悲傷。",
+      "starter": "For",
+      "answer": "For a moment, he said nothing as a feeling of sadness stole over him.",
+      "answerZh": "有一會兒，他沒有說話，心裏漸漸感到悲傷。",
+      "highlight": "stole over him",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The meeting continued, but Kim quietly left before anyone noticed.",
+      "promptZh": "會議繼續進行，但金在沒有人察覺前悄悄離開。",
+      "starter": "The",
+      "answer": "The meeting continued, but Kim stole away before anyone noticed.",
+      "answerZh": "會議繼續進行，但金在沒有人察覺前悄悄離開。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Because the room was dark, Ravi did not notice the dog moving quietly towards him.",
+      "promptZh": "房間很暗，所以拉維沒有察覺那隻狗正悄悄走近他。",
+      "starter": "Because",
+      "answer": "Because the room was dark, Ravi did not notice the dog stealing up on him.",
+      "answerZh": "房間很暗，所以拉維沒有察覺那隻狗正悄悄走近他。",
+      "highlight": "stealing up on him",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人"
+    },
+    {
+      "id": "phrasal-verb-31-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "A gentle sadness slowly filled her when the old song began.",
+      "promptZh": "那首舊歌響起時，她心裏漸漸泛起一股淡淡的悲傷。",
+      "starter": "A",
+      "answer": "A gentle sadness stole over her when the old song began.",
+      "answerZh": "那首舊歌響起時，她心裏漸漸泛起一股淡淡的悲傷。",
+      "highlight": "stole over her",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Lena crossed the grass without a sound and moved quietly towards her friends.",
+      "promptZh": "莉娜沒有發出聲音地走過草地，悄悄走近朋友。",
+      "starter": "Lena",
+      "answer": "Lena crossed the grass without a sound and stole up on her friends.",
+      "answerZh": "莉娜沒有發出聲音地走過草地，悄悄走近朋友。",
+      "highlight": "stole up on her friends",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人"
+    },
+    {
+      "id": "phrasal-verb-31-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "After giving the present, Theo quietly left so that he would not spoil the surprise.",
+      "promptZh": "送上禮物後，西奧悄悄離開，以免破壞驚喜。",
+      "starter": "After",
+      "answer": "After giving the present, Theo stole away so that he would not spoil the surprise.",
+      "answerZh": "送上禮物後，西奧悄悄離開，以免破壞驚喜。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    },
+    {
+      "id": "phrasal-verb-31-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The rabbit did not notice the fox moving quietly towards it through the long grass.",
+      "promptZh": "兔子沒有察覺狐狸正穿過長草悄悄走近牠。",
+      "starter": "The",
+      "answer": "The rabbit did not notice the fox stealing up on it through the long grass.",
+      "answerZh": "兔子沒有察覺狐狸正穿過長草悄悄走近牠。",
+      "highlight": "stealing up on it through the long grass",
+      "targetForm": "steal up on somebody",
+      "targetMeaningZh": "悄悄走近某人或動物"
+    },
+    {
+      "id": "phrasal-verb-31-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "As they waited for the result, everyone in the room slowly began to feel uneasy.",
+      "promptZh": "大家等候結果時，房裏每個人都漸漸感到不安。",
+      "starter": "As",
+      "answer": "As they waited for the result, an uneasy feeling stole over everyone in the room.",
+      "answerZh": "大家等候結果時，房裏每個人都漸漸感到不安。",
+      "highlight": "stole over everyone",
+      "targetForm": "steal over somebody",
+      "targetMeaningZh": "某種感覺漸漸影響某人"
+    },
+    {
+      "id": "phrasal-verb-31-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The children waited until the adults were busy, then quietly left the garden.",
+      "promptZh": "孩子們等到大人忙起來，然後悄悄離開花園。",
+      "starter": "The",
+      "answer": "The children waited until the adults were busy, then stole away from the garden.",
+      "answerZh": "孩子們等到大人忙起來，然後悄悄離開花園。",
+      "highlight": "stole away",
+      "targetForm": "steal away",
+      "targetMeaningZh": "悄悄離開；偷偷溜走"
+    }
+  ]
+}

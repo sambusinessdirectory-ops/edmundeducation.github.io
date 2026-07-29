@@ -1,0 +1,2062 @@
+{
+  "id": "phrasal-verb-08",
+  "order": 8,
+  "slug": "grow",
+  "version": "1",
+  "title": "GROW 動詞片語",
+  "titleEn": "Grow",
+  "titleZh": "GROW 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verbs 8 - GROW.pdf",
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GROW 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GROW."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GROW",
+      "highlight": "GROW"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "I grew away from some school friends after we left school.",
+      "zh": "離校後，我和一些舊同學逐漸疏遠。",
+      "highlight": "grew away from"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "His hair grew back quickly after he cut it short.",
+      "zh": "他把頭髮剪短後，頭髮很快重新長出來。",
+      "highlight": "grew back"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The small club grew into a large community group.",
+      "zh": "這個小型社團逐漸發展成一個大型社區團體。",
+      "highlight": "grew into"
+    }
+  ],
+  "meaning": {
+    "zh": "隨時間與某人變得不再親近；逐漸疏遠；頭髮、毛髮或植物等被剪掉或失去後）重新長出；隨時間發展成為某種人或事物；起初不太喜歡，後來逐漸覺得喜歡；染髮逐漸消失；髮型逐漸長走樣；長大後因衣物或鞋子太小而不再合身；故意把頭髮、前蔭或鬍鬚留長；長大；成年。",
+    "en": "Learn and practise the phrasal verbs related to GROW.",
+    "naturalZh": [
+      "隨時間與某人變得不再親近；逐漸疏遠",
+      "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+      "隨時間發展成為某種人或事物",
+      "起初不太喜歡，後來逐漸覺得喜歡",
+      "染髮逐漸消失；髮型逐漸長走樣",
+      "長大後因衣物或鞋子太小而不再合身",
+      "故意把頭髮、前蔭或鬍鬚留長",
+      "長大；成年"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "grow away from somebody",
+      "highlight": "grow away from somebody",
+      "titleZh": "隨時間與某人變得不再親近；逐漸疏遠",
+      "titleEn": "grow away from somebody",
+      "descriptionZh": "隨時間與某人變得不再親近；逐漸疏遠",
+      "descriptionEn": "I grew away from some school friends after we left school.",
+      "examples": [
+        {
+          "en": "I grew away from some school friends after we left school.",
+          "zh": "離校後，我和一些舊同學逐漸疏遠。",
+          "highlight": "grew away from"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "grow back",
+      "highlight": "grow back",
+      "titleZh": "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+      "titleEn": "grow back",
+      "descriptionZh": "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+      "descriptionEn": "His hair grew back quickly after he cut it short.",
+      "examples": [
+        {
+          "en": "His hair grew back quickly after he cut it short.",
+          "zh": "他把頭髮剪短後，頭髮很快重新長出來。",
+          "highlight": "grew back"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "grow into something",
+      "highlight": "grow into something",
+      "titleZh": "隨時間發展成為某種人或事物",
+      "titleEn": "grow into something",
+      "descriptionZh": "隨時間發展成為某種人或事物",
+      "descriptionEn": "The small club grew into a large community group.",
+      "examples": [
+        {
+          "en": "The small club grew into a large community group.",
+          "zh": "這個小型社團逐漸發展成一個大型社區團體。",
+          "highlight": "grew into"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "grow on somebody",
+      "highlight": "grow on somebody",
+      "titleZh": "起初不太喜歡，後來逐漸覺得喜歡",
+      "titleEn": "grow on somebody",
+      "descriptionZh": "起初不太喜歡，後來逐漸覺得喜歡",
+      "descriptionEn": "The song grew on me after a few listens.",
+      "examples": [
+        {
+          "en": "The song grew on me after a few listens.",
+          "zh": "聽了幾次後，我逐漸喜歡上這首歌。",
+          "highlight": "grew on"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "pageGroup": 1,
+      "formula": "grow out",
+      "highlight": "grow out",
+      "titleZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "titleEn": "grow out",
+      "descriptionZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "descriptionEn": "The blue dye is growing out, so her natural colour is showing.",
+      "examples": [
+        {
+          "en": "The blue dye is growing out, so her natural colour is showing.",
+          "zh": "藍色染髮正隨新髮長出而逐漸消失，因此她的天然髮色開始露出。",
+          "highlight": "growing out"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "grow out of something",
+      "highlight": "grow out of something",
+      "titleZh": "長大後因衣物或鞋子太小而不再合身",
+      "titleEn": "grow out of something",
+      "descriptionZh": "長大後因衣物或鞋子太小而不再合身",
+      "descriptionEn": "Mia has grown out of her old shoes.",
+      "examples": [
+        {
+          "en": "Mia has grown out of her old shoes.",
+          "zh": "米婭長大了，舊鞋已不再合穿。",
+          "highlight": "grown out of"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "pageGroup": 2,
+      "formula": "grow something out",
+      "highlight": "grow something out",
+      "titleZh": "故意把頭髮、前蔭或鬍鬚留長",
+      "titleEn": "grow something out",
+      "descriptionZh": "故意把頭髮、前蔭或鬍鬚留長",
+      "descriptionEn": "I am growing my fringe out.",
+      "examples": [
+        {
+          "en": "I am growing my fringe out.",
+          "zh": "我正在把前蔭留長。",
+          "highlight": "growing my fringe out"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "pageGroup": 2,
+      "formula": "grow up",
+      "highlight": "grow up",
+      "titleZh": "長大；成年",
+      "titleEn": "grow up",
+      "descriptionZh": "長大；成年",
+      "descriptionEn": "The children are growing up quickly.",
+      "examples": [
+        {
+          "en": "The children are growing up quickly.",
+          "zh": "孩子們很快便長大了。",
+          "highlight": "growing up"
+        }
+      ],
+      "sourcePage": 2
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 GROW 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to GROW.",
+    "contextsZh": [
+      "隨時間與某人變得不再親近；逐漸疏遠",
+      "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+      "隨時間發展成為某種人或事物",
+      "起初不太喜歡，後來逐漸覺得喜歡",
+      "染髮逐漸消失；髮型逐漸長走樣",
+      "長大後因衣物或鞋子太小而不再合身",
+      "故意把頭髮、前蔭或鬍鬚留長",
+      "長大；成年"
+    ],
+    "contextsEn": [
+      "grow away from somebody",
+      "grow back",
+      "grow into something",
+      "grow on somebody",
+      "grow out",
+      "grow out of something",
+      "grow something out",
+      "grow up"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 GROW 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GROW expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "GROW",
+    "fixedHighlight": "GROW",
+    "fixedZh": "閱讀整句，選出意思相同的 GROW 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GROW expression that gives the same meaning.",
+    "correct": "grow away from somebody",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 grow on 和 grow away from 時，把人物放在整個表達之後。 在 grow … out 中使用 it 或 them 時，請按以上例子放置。",
+    "variableEn": "Keep the same people, things, time and meaning. Keep the person after the whole expression: grow on me; grow away from them. With it or them in grow … out, use: grow it out; grow them out.",
+    "variableItemsZh": [
+      "隨時間與某人變得不再親近；逐漸疏遠",
+      "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+      "隨時間發展成為某種人或事物",
+      "起初不太喜歡，後來逐漸覺得喜歡",
+      "染髮逐漸消失；髮型逐漸長走樣",
+      "長大後因衣物或鞋子太小而不再合身",
+      "故意把頭髮、前蔭或鬍鬚留長",
+      "長大；成年"
+    ],
+    "variableItemsEn": [
+      "grow away from somebody",
+      "grow back",
+      "grow into something",
+      "grow on somebody",
+      "grow out",
+      "grow out of something",
+      "grow something out",
+      "grow up"
+    ],
+    "forms": [
+      {
+        "formZh": "隨時間與某人變得不再親近；逐漸疏遠",
+        "formEn": "grow away from somebody",
+        "exampleZh": "離校後，我和一些舊同學逐漸疏遠。",
+        "exampleEn": "I grew away from some school friends after we left school.",
+        "highlight": "grew away from"
+      },
+      {
+        "formZh": "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+        "formEn": "grow back",
+        "exampleZh": "他把頭髮剪短後，頭髮很快重新長出來。",
+        "exampleEn": "His hair grew back quickly after he cut it short.",
+        "highlight": "grew back"
+      },
+      {
+        "formZh": "隨時間發展成為某種人或事物",
+        "formEn": "grow into something",
+        "exampleZh": "這個小型社團逐漸發展成一個大型社區團體。",
+        "exampleEn": "The small club grew into a large community group.",
+        "highlight": "grew into"
+      },
+      {
+        "formZh": "起初不太喜歡，後來逐漸覺得喜歡",
+        "formEn": "grow on somebody",
+        "exampleZh": "聽了幾次後，我逐漸喜歡上這首歌。",
+        "exampleEn": "The song grew on me after a few listens.",
+        "highlight": "grew on"
+      },
+      {
+        "formZh": "染髮逐漸消失；髮型逐漸長走樣",
+        "formEn": "grow out",
+        "exampleZh": "藍色染髮正隨新髮長出而逐漸消失，因此她的天然髮色開始露出。",
+        "exampleEn": "The blue dye is growing out, so her natural colour is showing.",
+        "highlight": "growing out"
+      },
+      {
+        "formZh": "長大後因衣物或鞋子太小而不再合身",
+        "formEn": "grow out of something",
+        "exampleZh": "米婭長大了，舊鞋已不再合穿。",
+        "exampleEn": "Mia has grown out of her old shoes.",
+        "highlight": "grown out of"
+      },
+      {
+        "formZh": "故意把頭髮、前蔭或鬍鬚留長",
+        "formEn": "grow something out",
+        "exampleZh": "我正在把前蔭留長。",
+        "exampleEn": "I am growing my fringe out.",
+        "highlight": "growing my fringe out"
+      },
+      {
+        "formZh": "長大；成年",
+        "formEn": "grow up",
+        "exampleZh": "孩子們很快便長大了。",
+        "exampleEn": "The children are growing up quickly.",
+        "highlight": "growing up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "隨時間與某人變得不再親近；逐漸疏遠",
+      "titleEn": "grow away from somebody",
+      "formula": "grow away from somebody",
+      "highlight": "grow away from somebody",
+      "descriptionZh": "隨時間與某人變得不再親近；逐漸疏遠",
+      "descriptionEn": "I grew away from some school friends after we left school.",
+      "examples": [
+        {
+          "en": "I grew away from some school friends after we left school.",
+          "zh": "離校後，我和一些舊同學逐漸疏遠。",
+          "highlight": "grew away from"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+      "titleEn": "grow back",
+      "formula": "grow back",
+      "highlight": "grow back",
+      "descriptionZh": "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+      "descriptionEn": "His hair grew back quickly after he cut it short.",
+      "examples": [
+        {
+          "en": "His hair grew back quickly after he cut it short.",
+          "zh": "他把頭髮剪短後，頭髮很快重新長出來。",
+          "highlight": "grew back"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "隨時間發展成為某種人或事物",
+      "titleEn": "grow into something",
+      "formula": "grow into something",
+      "highlight": "grow into something",
+      "descriptionZh": "隨時間發展成為某種人或事物",
+      "descriptionEn": "The small club grew into a large community group.",
+      "examples": [
+        {
+          "en": "The small club grew into a large community group.",
+          "zh": "這個小型社團逐漸發展成一個大型社區團體。",
+          "highlight": "grew into"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "起初不太喜歡，後來逐漸覺得喜歡",
+      "titleEn": "grow on somebody",
+      "formula": "grow on somebody",
+      "highlight": "grow on somebody",
+      "descriptionZh": "起初不太喜歡，後來逐漸覺得喜歡",
+      "descriptionEn": "The song grew on me after a few listens.",
+      "examples": [
+        {
+          "en": "The song grew on me after a few listens.",
+          "zh": "聽了幾次後，我逐漸喜歡上這首歌。",
+          "highlight": "grew on"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "titleZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "titleEn": "grow out",
+      "formula": "grow out",
+      "highlight": "grow out",
+      "descriptionZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "descriptionEn": "The blue dye is growing out, so her natural colour is showing.",
+      "examples": [
+        {
+          "en": "The blue dye is growing out, so her natural colour is showing.",
+          "zh": "藍色染髮正隨新髮長出而逐漸消失，因此她的天然髮色開始露出。",
+          "highlight": "growing out"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "titleZh": "長大後因衣物或鞋子太小而不再合身",
+      "titleEn": "grow out of something",
+      "formula": "grow out of something",
+      "highlight": "grow out of something",
+      "descriptionZh": "長大後因衣物或鞋子太小而不再合身",
+      "descriptionEn": "Mia has grown out of her old shoes.",
+      "examples": [
+        {
+          "en": "Mia has grown out of her old shoes.",
+          "zh": "米婭長大了，舊鞋已不再合穿。",
+          "highlight": "grown out of"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "titleZh": "故意把頭髮、前蔭或鬍鬚留長",
+      "titleEn": "grow something out",
+      "formula": "grow something out",
+      "highlight": "grow something out",
+      "descriptionZh": "故意把頭髮、前蔭或鬍鬚留長",
+      "descriptionEn": "I am growing my fringe out.",
+      "examples": [
+        {
+          "en": "I am growing my fringe out.",
+          "zh": "我正在把前蔭留長。",
+          "highlight": "growing my fringe out"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "titleZh": "長大；成年",
+      "titleEn": "grow up",
+      "formula": "grow up",
+      "highlight": "grow up",
+      "descriptionZh": "長大；成年",
+      "descriptionEn": "The children are growing up quickly.",
+      "examples": [
+        {
+          "en": "The children are growing up quickly.",
+          "zh": "孩子們很快便長大了。",
+          "highlight": "growing up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "談論人隨年齡和時間的轉變",
+      "titleEn": "Talk about people changing as they get older",
+      "zh": "grow up 和 grow into 可用來描述兒童、青少年或團體如何隨時間成長和發展。",
+      "en": "Grow up and grow into help describe how children, teenagers and groups develop over time.",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "描述關係和喜好的轉變",
+      "titleEn": "Describe changing relationships and likes",
+      "zh": "grow away from 表示人與人逐漸疏遠；grow on 則表示某事物逐漸變得討人喜歡。",
+      "en": "Grow away from shows people becoming less close, while grow on shows something becoming more likeable.",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "自然談論頭髮和外表",
+      "titleEn": "Talk naturally about hair and appearance",
+      "zh": "grow back、grow out 和 grow something out 可用來談論剪髮、染髮和鬍鬚。",
+      "en": "Grow back, grow out and grow something out are useful for talking about haircuts, hair colour and beards.",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "解釋衣物為何不再合身",
+      "titleEn": "Explain why clothes no longer fit",
+      "zh": "grow out of 可直接表示衣服或鞋子因人長大而變得太小。",
+      "en": "Grow out of gives a direct way to say that clothes or shoes have become too small.",
+      "sourcePage": 3
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "隨時間與某人變得不再親近；逐漸疏遠",
+      "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+      "隨時間發展成為某種人或事物",
+      "起初不太喜歡，後來逐漸覺得喜歡",
+      "染髮逐漸消失；髮型逐漸長走樣",
+      "長大後因衣物或鞋子太小而不再合身",
+      "故意把頭髮、前蔭或鬍鬚留長",
+      "長大；成年"
+    ],
+    "contextsEn": [
+      "grow away from somebody",
+      "grow back",
+      "grow into something",
+      "grow on somebody",
+      "grow out",
+      "grow out of something",
+      "grow something out",
+      "grow up"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "隨時間與某人變得不再親近；逐漸疏遠",
+        "titleEn": "grow away from somebody",
+        "formula": "grow away from somebody",
+        "highlight": "grow away from somebody",
+        "zh": "隨時間與某人變得不再親近；逐漸疏遠",
+        "en": "I grew away from some school friends after we left school.",
+        "examples": [
+          {
+            "en": "I grew away from some school friends after we left school.",
+            "zh": "離校後，我和一些舊同學逐漸疏遠。",
+            "highlight": "grew away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+        "titleEn": "grow back",
+        "formula": "grow back",
+        "highlight": "grow back",
+        "zh": "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+        "en": "His hair grew back quickly after he cut it short.",
+        "examples": [
+          {
+            "en": "His hair grew back quickly after he cut it short.",
+            "zh": "他把頭髮剪短後，頭髮很快重新長出來。",
+            "highlight": "grew back"
+          }
+        ]
+      },
+      {
+        "titleZh": "隨時間發展成為某種人或事物",
+        "titleEn": "grow into something",
+        "formula": "grow into something",
+        "highlight": "grow into something",
+        "zh": "隨時間發展成為某種人或事物",
+        "en": "The small club grew into a large community group.",
+        "examples": [
+          {
+            "en": "The small club grew into a large community group.",
+            "zh": "這個小型社團逐漸發展成一個大型社區團體。",
+            "highlight": "grew into"
+          }
+        ]
+      },
+      {
+        "titleZh": "起初不太喜歡，後來逐漸覺得喜歡",
+        "titleEn": "grow on somebody",
+        "formula": "grow on somebody",
+        "highlight": "grow on somebody",
+        "zh": "起初不太喜歡，後來逐漸覺得喜歡",
+        "en": "The song grew on me after a few listens.",
+        "examples": [
+          {
+            "en": "The song grew on me after a few listens.",
+            "zh": "聽了幾次後，我逐漸喜歡上這首歌。",
+            "highlight": "grew on"
+          }
+        ]
+      },
+      {
+        "titleZh": "染髮逐漸消失；髮型逐漸長走樣",
+        "titleEn": "grow out",
+        "formula": "grow out",
+        "highlight": "grow out",
+        "zh": "染髮逐漸消失；髮型逐漸長走樣",
+        "en": "The blue dye is growing out, so her natural colour is showing.",
+        "examples": [
+          {
+            "en": "The blue dye is growing out, so her natural colour is showing.",
+            "zh": "藍色染髮正隨新髮長出而逐漸消失，因此她的天然髮色開始露出。",
+            "highlight": "growing out"
+          }
+        ]
+      },
+      {
+        "titleZh": "長大後因衣物或鞋子太小而不再合身",
+        "titleEn": "grow out of something",
+        "formula": "grow out of something",
+        "highlight": "grow out of something",
+        "zh": "長大後因衣物或鞋子太小而不再合身",
+        "en": "Mia has grown out of her old shoes.",
+        "examples": [
+          {
+            "en": "Mia has grown out of her old shoes.",
+            "zh": "米婭長大了，舊鞋已不再合穿。",
+            "highlight": "grown out of"
+          }
+        ]
+      },
+      {
+        "titleZh": "故意把頭髮、前蔭或鬍鬚留長",
+        "titleEn": "grow something out",
+        "formula": "grow something out",
+        "highlight": "grow something out",
+        "zh": "故意把頭髮、前蔭或鬍鬚留長",
+        "en": "I am growing my fringe out.",
+        "examples": [
+          {
+            "en": "I am growing my fringe out.",
+            "zh": "我正在把前蔭留長。",
+            "highlight": "growing my fringe out"
+          }
+        ]
+      },
+      {
+        "titleZh": "長大；成年",
+        "titleEn": "grow up",
+        "formula": "grow up",
+        "highlight": "grow up",
+        "zh": "長大；成年",
+        "en": "The children are growing up quickly.",
+        "examples": [
+          {
+            "en": "The children are growing up quickly.",
+            "zh": "孩子們很快便長大了。",
+            "highlight": "growing up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 GROW 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GROW expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 GROW 片語動詞。",
+      "en": "Read the whole sentence and choose the GROW expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "使用 grow on 和 grow away from 時，把人物放在整個表達之後。",
+      "titleEn": "Keep the person after the whole expression: grow on me; grow away from them.",
+      "zh": "使用 grow on 和 grow away from 時，把人物放在整個表達之後。",
+      "en": "Keep the person after the whole expression: grow on me; grow away from them.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "在 grow … out 中使用 it 或 them 時，請按以上例子放置。",
+      "titleEn": "With it or them in grow … out, use: grow it out; grow them out.",
+      "zh": "在 grow … out 中使用 it 或 them 時，請按以上例子放置。",
+      "en": "With it or them in grow … out, use: grow it out; grow them out.",
+      "examplesEn": [],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "grow away from somebody",
+      "meaningZh": "隨時間與某人變得不再親近；逐漸疏遠",
+      "exampleEn": "I grew away from some school friends after we left school.",
+      "exampleZh": "離校後，我和一些舊同學逐漸疏遠。",
+      "highlight": "grew away from",
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "formula": "grow back",
+      "meaningZh": "頭髮、毛髮或植物等被剪掉或失去後）重新長出",
+      "exampleEn": "His hair grew back quickly after he cut it short.",
+      "exampleZh": "他把頭髮剪短後，頭髮很快重新長出來。",
+      "highlight": "grew back",
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "formula": "grow into something",
+      "meaningZh": "隨時間發展成為某種人或事物",
+      "exampleEn": "The small club grew into a large community group.",
+      "exampleZh": "這個小型社團逐漸發展成一個大型社區團體。",
+      "highlight": "grew into",
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "formula": "grow on somebody",
+      "meaningZh": "起初不太喜歡，後來逐漸覺得喜歡",
+      "exampleEn": "The song grew on me after a few listens.",
+      "exampleZh": "聽了幾次後，我逐漸喜歡上這首歌。",
+      "highlight": "grew on",
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "formula": "grow out",
+      "meaningZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "exampleEn": "The blue dye is growing out, so her natural colour is showing.",
+      "exampleZh": "藍色染髮正隨新髮長出而逐漸消失，因此她的天然髮色開始露出。",
+      "highlight": "growing out",
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "formula": "grow out of something",
+      "meaningZh": "長大後因衣物或鞋子太小而不再合身",
+      "exampleEn": "Mia has grown out of her old shoes.",
+      "exampleZh": "米婭長大了，舊鞋已不再合穿。",
+      "highlight": "grown out of",
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "formula": "grow something out",
+      "meaningZh": "故意把頭髮、前蔭或鬍鬚留長",
+      "exampleEn": "I am growing my fringe out.",
+      "exampleZh": "我正在把前蔭留長。",
+      "highlight": "growing my fringe out",
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "formula": "grow up",
+      "meaningZh": "長大；成年",
+      "exampleEn": "The children are growing up quickly.",
+      "exampleZh": "孩子們很快便長大了。",
+      "highlight": "growing up",
+      "sourcePage": 2
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GROW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GROW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GROW 動詞片語句子改寫練習",
+    "titleEn": "GROW Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GROW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GROW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-08-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The children are becoming older very quickly.",
+      "promptZh": "孩子們很快便長大了。",
+      "starter": "The",
+      "answer": "The children are growing up very quickly.",
+      "answerZh": "孩子們很快便長大了。",
+      "targetForm": "grow up",
+      "targetMeaningZh": "長大；成年",
+      "highlight": "growing up"
+    },
+    {
+      "id": "phrasal-verb-08-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "I did not like the song at first, but I began to like it after a few listens.",
+      "promptZh": "起初我不喜歡這首歌，但聽了幾次後便開始喜歡它。",
+      "starter": "The",
+      "answer": "The song grew on me after a few listens, although I did not like it at first.",
+      "answerZh": "聽了幾次後，我逐漸喜歡上這首歌，雖然起初我並不喜歡它。",
+      "targetForm": "grow on somebody",
+      "targetMeaningZh": "起初不喜歡，後來逐漸喜歡",
+      "highlight": "grew on"
+    },
+    {
+      "id": "phrasal-verb-08-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Maya slowly became less close to her childhood friend.",
+      "promptZh": "瑪雅和兒時朋友逐漸不再那麼親近。",
+      "starter": "Maya",
+      "answer": "Maya slowly grew away from her childhood friend.",
+      "answerZh": "瑪雅和兒時朋友逐漸疏遠。",
+      "targetForm": "grow away from somebody",
+      "targetMeaningZh": "逐漸與某人疏遠",
+      "highlight": "grew away from"
+    },
+    {
+      "id": "phrasal-verb-08-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Lily’s shoes are too small because her feet have become bigger.",
+      "promptZh": "莉莉的腳長大了，所以她的鞋子變得太小。",
+      "starter": "Lily",
+      "answer": "Lily has grown out of her shoes as her feet have become bigger.",
+      "answerZh": "莉莉的腳長大了，鞋子已不再合穿。",
+      "targetForm": "grow out of something",
+      "targetMeaningZh": "長大後因太小而不再合身",
+      "highlight": "grown out of"
+    },
+    {
+      "id": "phrasal-verb-08-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The shy child became a confident teenager.",
+      "promptZh": "那個害羞的孩子成長為一名有自信的青少年。",
+      "starter": "The",
+      "answer": "The shy child grew into a confident teenager.",
+      "answerZh": "那個害羞的孩子成長為一名有自信的青少年。",
+      "targetForm": "grow into something",
+      "targetMeaningZh": "逐漸發展成為",
+      "highlight": "grew into"
+    },
+    {
+      "id": "phrasal-verb-08-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Her natural hair is slowly becoming visible under the red colour.",
+      "promptZh": "她的天然髮色正逐漸在紅色染髮下面露出。",
+      "starter": "The",
+      "answer": "The red colour is slowly growing out, showing her natural hair.",
+      "answerZh": "紅色染髮正隨新髮長出而逐漸消失，露出她的天然髮色。",
+      "targetForm": "grow out",
+      "targetMeaningZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "highlight": "growing out"
+    },
+    {
+      "id": "phrasal-verb-08-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "His hair returned after he cut it very short.",
+      "promptZh": "他把頭髮剪得很短後，頭髮又重新長出來。",
+      "starter": "His",
+      "answer": "His hair grew back after he cut it very short.",
+      "answerZh": "他把頭髮剪得很短後，頭髮又重新長出來。",
+      "targetForm": "grow back",
+      "targetMeaningZh": "重新長出",
+      "highlight": "grew back"
+    },
+    {
+      "id": "phrasal-verb-08-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "I have decided to let my fringe become longer.",
+      "promptZh": "我決定把前蔭留長。",
+      "starter": "I",
+      "answer": "I have decided to grow my fringe out.",
+      "answerZh": "我決定把前蔭留長。",
+      "targetForm": "grow something out",
+      "targetMeaningZh": "把頭髮或鬍鬚留長",
+      "highlight": "grow my fringe out"
+    },
+    {
+      "id": "phrasal-verb-08-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Ella disliked the new wall colour at first, but she began to like it after a week.",
+      "promptZh": "埃拉起初不喜歡新的牆身顏色，但一星期後便開始喜歡它。",
+      "starter": "Although",
+      "answer": "Although Ella disliked the new wall colour at first, it grew on her after a week.",
+      "answerZh": "雖然埃拉起初不喜歡新的牆身顏色，但一星期後她逐漸喜歡上它。",
+      "targetForm": "grow on somebody",
+      "targetMeaningZh": "起初不喜歡，後來逐漸喜歡",
+      "highlight": "grew on"
+    },
+    {
+      "id": "phrasal-verb-08-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "After leaving home, Leo became less close to his parents.",
+      "promptZh": "離家後，里奧和父母變得不再那麼親近。",
+      "starter": "After",
+      "answer": "After leaving home, Leo grew away from his parents.",
+      "answerZh": "離家後，里奧和父母逐漸疏遠。",
+      "targetForm": "grow away from somebody",
+      "targetMeaningZh": "逐漸與某人疏遠",
+      "highlight": "grew away from"
+    },
+    {
+      "id": "phrasal-verb-08-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "This coat no longer fits Max because he is bigger now.",
+      "promptZh": "麥斯現在長大了，這件外套已不再合身。",
+      "starter": "Max",
+      "answer": "Max has grown out of this coat.",
+      "answerZh": "麥斯長大了，這件外套已不再合穿。",
+      "targetForm": "grow out of something",
+      "targetMeaningZh": "長大後因太小而不再合身",
+      "highlight": "grown out of"
+    },
+    {
+      "id": "phrasal-verb-08-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The small local shop developed into a busy café.",
+      "promptZh": "這間本地小店逐漸發展成一間繁忙的咖啡店。",
+      "starter": "The",
+      "answer": "The small local shop grew into a busy café.",
+      "answerZh": "這間本地小店逐漸發展成一間繁忙的咖啡店。",
+      "targetForm": "grow into something",
+      "targetMeaningZh": "逐漸發展成為",
+      "highlight": "grew into"
+    },
+    {
+      "id": "phrasal-verb-08-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "My old haircut is losing its shape as my hair gets longer.",
+      "promptZh": "隨着頭髮變長，我原來的髮型正逐漸失去形狀。",
+      "starter": "My",
+      "answer": "My old haircut is growing out as my hair gets longer.",
+      "answerZh": "隨着頭髮變長，我原來的髮型正逐漸長走樣。",
+      "targetForm": "grow out",
+      "targetMeaningZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "highlight": "growing out"
+    },
+    {
+      "id": "phrasal-verb-08-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Leo is letting his beard become longer for winter.",
+      "promptZh": "里奧正把鬍鬚留長，準備過冬。",
+      "starter": "Leo",
+      "answer": "Leo is growing his beard out for winter.",
+      "answerZh": "里奧正把鬍鬚留長，準備過冬。",
+      "targetForm": "grow something out",
+      "targetMeaningZh": "把頭髮或鬍鬚留長",
+      "highlight": "growing his beard out"
+    },
+    {
+      "id": "phrasal-verb-08-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Her natural colour is starting to show beneath the dark dye.",
+      "promptZh": "她的天然髮色開始在深色染髮下面露出。",
+      "starter": "The",
+      "answer": "The dark dye is starting to grow out.",
+      "answerZh": "深色染髮正開始隨新髮長出而逐漸消失。",
+      "targetForm": "grow out",
+      "targetMeaningZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "highlight": "grow out"
+    },
+    {
+      "id": "phrasal-verb-08-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "I have become less close to some old school friends over the years.",
+      "promptZh": "多年來，我和一些舊同學變得不再那麼親近。",
+      "starter": "I",
+      "answer": "I have grown away from some old school friends over the years.",
+      "answerZh": "多年來，我和一些舊同學逐漸疏遠。",
+      "targetForm": "grow away from somebody",
+      "targetMeaningZh": "逐漸與某人疏遠",
+      "highlight": "grown away from"
+    },
+    {
+      "id": "phrasal-verb-08-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "The grass is returning after the dry summer.",
+      "promptZh": "乾燥的夏季過後，草正在重新長出來。",
+      "starter": "The",
+      "answer": "The grass is growing back after the dry summer.",
+      "answerZh": "乾燥的夏季過後，草正在重新長出來。",
+      "targetForm": "grow back",
+      "targetMeaningZh": "重新長出",
+      "highlight": "growing back"
+    },
+    {
+      "id": "phrasal-verb-08-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Maya is letting the short layers in her hair become longer.",
+      "promptZh": "瑪雅正在把頭髮的短層次留長。",
+      "starter": "Maya",
+      "answer": "Maya is growing the short layers out.",
+      "answerZh": "瑪雅正在把頭髮的短層次留長。",
+      "targetForm": "grow something out",
+      "targetMeaningZh": "把頭髮或鬍鬚留長",
+      "highlight": "growing the short layers out"
+    },
+    {
+      "id": "phrasal-verb-08-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "I am slowly beginning to like this book more.",
+      "promptZh": "我正慢慢開始更喜歡這本書。",
+      "starter": "This",
+      "answer": "This book is slowly growing on me.",
+      "answerZh": "我正逐漸喜歡上這本書。",
+      "targetForm": "grow on somebody",
+      "targetMeaningZh": "起初不喜歡，後來逐漸喜歡",
+      "highlight": "growing on"
+    },
+    {
+      "id": "phrasal-verb-08-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "In which town did you spend your childhood?",
+      "promptZh": "你在哪個城鎮度過童年？",
+      "starter": "In",
+      "answer": "In which town did you grow up?",
+      "answerZh": "你在哪個城鎮長大？",
+      "targetForm": "grow up",
+      "targetMeaningZh": "長大；成年",
+      "highlight": "grow up"
+    },
+    {
+      "id": "phrasal-verb-08-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "This young player is becoming an excellent goalkeeper.",
+      "promptZh": "這名年輕球員正逐漸成為一名出色的守門員。",
+      "starter": "This",
+      "answer": "This young player is growing into an excellent goalkeeper.",
+      "answerZh": "這名年輕球員正逐漸成為一名出色的守門員。",
+      "targetForm": "grow into something",
+      "targetMeaningZh": "逐漸發展成為",
+      "highlight": "growing into"
+    },
+    {
+      "id": "phrasal-verb-08-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The baby is becoming too big for these clothes very quickly.",
+      "promptZh": "這個嬰兒長大得很快，這些衣服很快便變得太小。",
+      "starter": "The",
+      "answer": "The baby is growing out of these clothes very quickly.",
+      "answerZh": "這個嬰兒很快便穿不下這些衣服。",
+      "targetForm": "grow out of something",
+      "targetMeaningZh": "長大後因太小而不再合身",
+      "highlight": "growing out of"
+    },
+    {
+      "id": "phrasal-verb-08-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Will her eyebrows return after they were shaved?",
+      "promptZh": "她的眉毛剃掉後會重新長出來嗎？",
+      "starter": "Will",
+      "answer": "Will her eyebrows grow back after they were shaved?",
+      "answerZh": "她的眉毛剃掉後會重新長出來嗎？",
+      "targetForm": "grow back",
+      "targetMeaningZh": "重新長出",
+      "highlight": "grow back"
+    },
+    {
+      "id": "phrasal-verb-08-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "His short fringe is now almost as long as the rest of his hair.",
+      "promptZh": "他的短前蔭現在差不多和其餘頭髮一樣長。",
+      "starter": "His",
+      "answer": "His short fringe has almost grown out.",
+      "answerZh": "他的短前蔭差不多已經完全長長了。",
+      "targetForm": "grow out",
+      "targetMeaningZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "highlight": "grown out"
+    },
+    {
+      "id": "phrasal-verb-08-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Sofia has changed a lot as she has got older and is now much more independent.",
+      "promptZh": "索菲亞隨着年齡增長改變了很多，現在獨立得多。",
+      "starter": "Sofia",
+      "answer": "Sofia has really grown up and is now much more independent.",
+      "answerZh": "索菲亞真的長大了，現在獨立得多。",
+      "targetForm": "grow up",
+      "targetMeaningZh": "長大；成年",
+      "highlight": "grown up"
+    },
+    {
+      "id": "phrasal-verb-08-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Did you begin to like the new teacher’s style after a few lessons?",
+      "promptZh": "上了幾課後，你開始喜歡新老師的教學方式嗎？",
+      "starter": "Did",
+      "answer": "Did the new teacher’s style grow on you after a few lessons?",
+      "answerZh": "上了幾課後，你逐漸喜歡上新老師的教學方式嗎？",
+      "targetForm": "grow on somebody",
+      "targetMeaningZh": "起初不喜歡，後來逐漸喜歡",
+      "highlight": "grow on"
+    },
+    {
+      "id": "phrasal-verb-08-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Has Ava become too big for her school uniform already?",
+      "promptZh": "艾娃已經長得穿不下校服了嗎？",
+      "starter": "Has",
+      "answer": "Has Ava grown out of her school uniform already?",
+      "answerZh": "艾娃已經長得穿不下校服了嗎？",
+      "targetForm": "grow out of something",
+      "targetMeaningZh": "長大後因太小而不再合身",
+      "highlight": "grown out of"
+    },
+    {
+      "id": "phrasal-verb-08-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The tiny plant has developed into a strong tree.",
+      "promptZh": "這棵小植物已經長成一棵強壯的樹。",
+      "starter": "The",
+      "answer": "The tiny plant has grown into a strong tree.",
+      "answerZh": "這棵小植物已經長成一棵強壯的樹。",
+      "targetForm": "grow into something",
+      "targetMeaningZh": "逐漸發展成為",
+      "highlight": "grown into"
+    },
+    {
+      "id": "phrasal-verb-08-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "What began as a simple class project later became a useful school website.",
+      "promptZh": "最初只是一個簡單的課堂項目，後來發展成一個實用的學校網站。",
+      "starter": "What",
+      "answer": "What began as a simple class project later grew into a useful school website.",
+      "answerZh": "最初只是一個簡單的課堂項目，後來發展成一個實用的學校網站。",
+      "targetForm": "grow into something",
+      "targetMeaningZh": "逐漸發展成為",
+      "highlight": "grew into"
+    },
+    {
+      "id": "phrasal-verb-08-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "They bought him new boots because the old pair had become too small for him.",
+      "promptZh": "他們給他買了新靴，因為舊的一雙已經太小。",
+      "starter": "They",
+      "answer": "They bought him new boots because he had grown out of the old pair.",
+      "answerZh": "他們給他買了新靴，因為他已經長得穿不下舊的一雙。",
+      "targetForm": "grow out of something",
+      "targetMeaningZh": "長大後因太小而不再合身",
+      "highlight": "grown out of"
+    },
+    {
+      "id": "phrasal-verb-08-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "They were once very close, but they slowly became less close to each other.",
+      "promptZh": "他們曾經非常親近，但後來慢慢疏遠。",
+      "starter": "They",
+      "answer": "They were once very close, but they slowly grew away from each other.",
+      "answerZh": "他們曾經非常親近，但後來慢慢疏遠。",
+      "targetForm": "grow away from somebody",
+      "targetMeaningZh": "逐漸與某人疏遠",
+      "highlight": "grew away from"
+    },
+    {
+      "id": "phrasal-verb-08-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "I spent my childhood in a small village near the sea.",
+      "promptZh": "我在海邊的一個小村莊度過童年。",
+      "starter": "I",
+      "answer": "I grew up in a small village near the sea.",
+      "answerZh": "我在海邊的一個小村莊長大。",
+      "targetForm": "grow up",
+      "targetMeaningZh": "長大；成年",
+      "highlight": "grew up"
+    },
+    {
+      "id": "phrasal-verb-08-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "At first, Ben found the café too noisy, but after several visits he began to like it.",
+      "promptZh": "起初賓覺得這間咖啡店太嘈吵，但去過幾次後便開始喜歡它。",
+      "starter": "At",
+      "answer": "At first, Ben found the café too noisy, but it grew on him after several visits.",
+      "answerZh": "起初賓覺得這間咖啡店太嘈吵，但去過幾次後便逐漸喜歡上它。",
+      "targetForm": "grow on somebody",
+      "targetMeaningZh": "起初不喜歡，後來逐漸喜歡",
+      "highlight": "grew on"
+    },
+    {
+      "id": "phrasal-verb-08-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The doctor said the lost hair would return within a few months.",
+      "promptZh": "醫生說脫落的頭髮會在幾個月內重新長出來。",
+      "starter": "The",
+      "answer": "The doctor said the lost hair would grow back within a few months.",
+      "answerZh": "醫生說脫落的頭髮會在幾個月內重新長出來。",
+      "targetForm": "grow back",
+      "targetMeaningZh": "重新長出",
+      "highlight": "grow back"
+    },
+    {
+      "id": "phrasal-verb-08-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The sides were cut too short, so he is letting them become longer.",
+      "promptZh": "兩側頭髮剪得太短，所以他正在把它們留長。",
+      "starter": "The",
+      "answer": "The sides were cut too short, so he is growing them out.",
+      "answerZh": "兩側頭髮剪得太短，所以他正在把它們留長。",
+      "targetForm": "grow something out",
+      "targetMeaningZh": "把頭髮或鬍鬚留長",
+      "highlight": "growing them out"
+    },
+    {
+      "id": "phrasal-verb-08-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "I had my hair dyed in May, but the colour has now almost disappeared as my hair has grown.",
+      "promptZh": "我五月染了頭髮，但隨着頭髮長長，染髮顏色現在差不多已經消失。",
+      "starter": "I",
+      "answer": "I had my hair dyed in May, but the colour has now almost grown out.",
+      "answerZh": "我五月染了頭髮，但染髮顏色現在差不多已隨新髮長出而消失。",
+      "targetForm": "grow out",
+      "targetMeaningZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "highlight": "grown out"
+    },
+    {
+      "id": "phrasal-verb-08-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The jacket still looks new, but it no longer fits Hana because she has become bigger.",
+      "promptZh": "這件外套仍然很新，但花娜長大了，已經不合穿。",
+      "starter": "The",
+      "answer": "The jacket still looks new, but Hana has grown out of it.",
+      "answerZh": "這件外套仍然很新，但花娜長大了，已經不合穿。",
+      "targetForm": "grow out of something",
+      "targetMeaningZh": "長大後因太小而不再合身",
+      "highlight": "grown out of"
+    },
+    {
+      "id": "phrasal-verb-08-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Have you become less close to your cousins since moving abroad?",
+      "promptZh": "搬到外國後，你和表兄弟姊妹變得不再那麼親近嗎？",
+      "starter": "Have",
+      "answer": "Have you grown away from your cousins since moving abroad?",
+      "answerZh": "搬到外國後，你和表兄弟姊妹逐漸疏遠了嗎？",
+      "targetForm": "grow away from somebody",
+      "targetMeaningZh": "逐漸與某人疏遠",
+      "highlight": "grown away from"
+    },
+    {
+      "id": "phrasal-verb-08-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "We did not like the strange design at first. After seeing it every day, we began to like it.",
+      "promptZh": "我們起初不喜歡這個奇怪的設計。每天看見它後，我們開始喜歡上它。",
+      "starter": "We",
+      "answer": "We did not like the strange design at first, but after seeing it every day, it grew on us.",
+      "answerZh": "我們起初不喜歡這個奇怪的設計，但每天看見它後，便逐漸喜歡上它。",
+      "targetForm": "grow on somebody",
+      "targetMeaningZh": "起初不喜歡，後來逐漸喜歡",
+      "highlight": "grew on"
+    },
+    {
+      "id": "phrasal-verb-08-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Are you planning to let your hair become long again?",
+      "promptZh": "你打算再次把頭髮留長嗎？",
+      "starter": "Are",
+      "answer": "Are you planning to grow your hair out again?",
+      "answerZh": "你打算再次把頭髮留長嗎？",
+      "targetForm": "grow something out",
+      "targetMeaningZh": "把頭髮或鬍鬚留長",
+      "highlight": "grow your hair out"
+    },
+    {
+      "id": "phrasal-verb-08-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "A small part of his eyebrow was shaved off, but it has already started to return.",
+      "promptZh": "他眉毛的一小部分被剃掉了，但已經開始重新長出來。",
+      "starter": "A",
+      "answer": "A small part of his eyebrow was shaved off, but it has already started to grow back.",
+      "answerZh": "他眉毛的一小部分被剃掉了，但已經開始重新長出來。",
+      "targetForm": "grow back",
+      "targetMeaningZh": "重新長出",
+      "highlight": "grow back"
+    },
+    {
+      "id": "phrasal-verb-08-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "After six weeks, her haircut had begun to lose its shape as her hair became longer.",
+      "promptZh": "六星期後，隨着頭髮變長，她的髮型開始失去原有形狀。",
+      "starter": "After",
+      "answer": "After six weeks, her haircut had started to grow out.",
+      "answerZh": "六星期後，她的髮型已開始長走樣。",
+      "targetForm": "grow out",
+      "targetMeaningZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "highlight": "grow out"
+    },
+    {
+      "id": "phrasal-verb-08-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The leaves fell during the cold weeks, but new ones are now returning.",
+      "promptZh": "寒冷的幾星期裏葉子掉落了，但現在新葉正在重新長出。",
+      "starter": "The",
+      "answer": "The leaves fell during the cold weeks, but new ones are now growing back.",
+      "answerZh": "寒冷的幾星期裏葉子掉落了，但現在新葉正在重新長出。",
+      "targetForm": "grow back",
+      "targetMeaningZh": "重新長出",
+      "highlight": "growing back"
+    },
+    {
+      "id": "phrasal-verb-08-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "She does not want another short fringe; she wants to let it become longer before summer.",
+      "promptZh": "她不想再次剪短前蔭；她想在夏天前把它留長。",
+      "starter": "She",
+      "answer": "She does not want another short fringe; she wants to grow it out before summer.",
+      "answerZh": "她不想再次剪短前蔭；她想在夏天前把它留長。",
+      "targetForm": "grow something out",
+      "targetMeaningZh": "把頭髮或鬍鬚留長",
+      "highlight": "grow it out"
+    },
+    {
+      "id": "phrasal-verb-08-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Mia still thought the film was slow, but its gentle humour made her like it more over time.",
+      "promptZh": "米婭仍覺得電影節奏緩慢，但當中的溫和幽默令她慢慢更喜歡它。",
+      "starter": "Mia",
+      "answer": "Mia still thought the film was slow, but it grew on her over time because of its gentle humour.",
+      "answerZh": "米婭仍覺得電影節奏緩慢，但因為當中的溫和幽默，她慢慢喜歡上它。",
+      "targetForm": "grow on somebody",
+      "targetMeaningZh": "起初不喜歡，後來逐漸喜歡",
+      "highlight": "grew on"
+    },
+    {
+      "id": "phrasal-verb-08-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "Nora still cared about her old friends, but she slowly became less close to them as their lives changed.",
+      "promptZh": "諾拉仍然關心舊朋友，但隨着大家的生活改變，她和他們慢慢不再那麼親近。",
+      "starter": "Nora",
+      "answer": "Nora still cared about her old friends, but she slowly grew away from them as their lives changed.",
+      "answerZh": "諾拉仍然關心舊朋友，但隨着大家的生活改變，她和他們逐漸疏遠。",
+      "targetForm": "grow away from somebody",
+      "targetMeaningZh": "逐漸與某人疏遠",
+      "highlight": "grew away from"
+    },
+    {
+      "id": "phrasal-verb-08-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "Ben still enjoys games, but he has become much more responsible as he has got older.",
+      "promptZh": "賓仍然喜歡遊戲，但隨着年齡增長，他變得負責任得多。",
+      "starter": "Ben",
+      "answer": "Ben still enjoys games, but he has grown up and become much more responsible.",
+      "answerZh": "賓仍然喜歡遊戲，但他已經長大，變得負責任得多。",
+      "targetForm": "grow up",
+      "targetMeaningZh": "長大；成年",
+      "highlight": "grown up"
+    },
+    {
+      "id": "phrasal-verb-08-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The club began with six members and slowly became a large group for young artists.",
+      "promptZh": "這個社團最初只有六名成員，後來慢慢發展成一個大型青年藝術團體。",
+      "starter": "The",
+      "answer": "The club began with six members and slowly grew into a large group for young artists.",
+      "answerZh": "這個社團最初只有六名成員，後來慢慢發展成一個大型青年藝術團體。",
+      "targetForm": "grow into something",
+      "targetMeaningZh": "逐漸發展成為",
+      "highlight": "grew into"
+    },
+    {
+      "id": "phrasal-verb-08-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "Noah needs a larger bike helmet because the old one has become too small as he has grown.",
+      "promptZh": "諾亞長大了，舊單車頭盔變得太小，所以需要一個較大的。",
+      "starter": "Noah",
+      "answer": "Noah has grown out of his old bike helmet and needs a larger one.",
+      "answerZh": "諾亞長大了，已經戴不下舊單車頭盔，需要一個較大的。",
+      "targetForm": "grow out of something",
+      "targetMeaningZh": "長大後因太小而不再合身",
+      "highlight": "grown out of"
+    },
+    {
+      "id": "phrasal-verb-08-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "You can see her natural colour near the roots because the blue dye is slowly disappearing as new hair grows.",
+      "promptZh": "新頭髮長出時，藍色染髮正慢慢消失，因此你可以在髮根附近看到她的天然髮色。",
+      "starter": "You",
+      "answer": "You can see her natural colour near the roots because the blue dye is slowly growing out.",
+      "answerZh": "你可以在髮根附近看到她的天然髮色，因為藍色染髮正隨新髮長出而逐漸消失。",
+      "targetForm": "grow out",
+      "targetMeaningZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "highlight": "growing out"
+    },
+    {
+      "id": "phrasal-verb-08-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "After years of short hair, Tom is letting it become longer for a new look.",
+      "promptZh": "留了多年短髮後，湯姆正把頭髮留長，嘗試新造型。",
+      "starter": "After",
+      "answer": "After years of short hair, Tom is growing it out for a new look.",
+      "answerZh": "留了多年短髮後，湯姆正把頭髮留長，嘗試新造型。",
+      "targetForm": "grow something out",
+      "targetMeaningZh": "把頭髮或鬍鬚留長",
+      "highlight": "growing it out"
+    },
+    {
+      "id": "phrasal-verb-08-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The new school uniform looked odd to Kai at first, yet after a month he began to like it.",
+      "promptZh": "啟起初覺得新校服很奇怪，但一個月後便開始喜歡它。",
+      "starter": "The",
+      "answer": "The new school uniform looked odd to Kai at first, yet it grew on him after a month.",
+      "answerZh": "啟起初覺得新校服很奇怪，但一個月後便逐漸喜歡上它。",
+      "targetForm": "grow on somebody",
+      "targetMeaningZh": "起初不喜歡，後來逐漸喜歡",
+      "highlight": "grew on"
+    },
+    {
+      "id": "phrasal-verb-08-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "When Eva was a child, she wanted to be a pilot when she became an adult.",
+      "promptZh": "伊娃小時候希望長大後成為飛機師。",
+      "starter": "When",
+      "answer": "When Eva was a child, she wanted to be a pilot when she grew up.",
+      "answerZh": "伊娃小時候希望長大後成為飛機師。",
+      "targetForm": "grow up",
+      "targetMeaningZh": "長大；成年",
+      "highlight": "grew up"
+    },
+    {
+      "id": "phrasal-verb-08-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "Living in different cities did not end the friendship suddenly, but Sam and Ben became less close over time.",
+      "promptZh": "住在不同城市沒有令友誼突然結束，但森姆和賓隨時間逐漸疏遠。",
+      "starter": "Living",
+      "answer": "Living in different cities did not end the friendship suddenly, but Sam and Ben grew away from each other over time.",
+      "answerZh": "住在不同城市沒有令友誼突然結束，但森姆和賓隨時間逐漸疏遠。",
+      "targetForm": "grow away from somebody",
+      "targetMeaningZh": "逐漸與某人疏遠",
+      "highlight": "grew away from"
+    },
+    {
+      "id": "phrasal-verb-08-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The twins wore those jumpers last winter, but neither can wear them now because both are bigger.",
+      "promptZh": "這對雙胞胎去年冬天穿過那些毛衣，但現在兩人都長大了，已經穿不下。",
+      "starter": "Both",
+      "answer": "Both twins have grown out of those jumpers since last winter.",
+      "answerZh": "自去年冬天以來，這對雙胞胎都長大了，已經穿不下那些毛衣。",
+      "targetForm": "grow out of something",
+      "targetMeaningZh": "長大後因太小而不再合身",
+      "highlight": "grown out of"
+    },
+    {
+      "id": "phrasal-verb-08-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "At first, the idea was only a weekend activity, but it later became a small family business.",
+      "promptZh": "起初這個想法只是一項週末活動，後來發展成一盤小型家庭生意。",
+      "starter": "At",
+      "answer": "At first, the idea was only a weekend activity, but it later grew into a small family business.",
+      "answerZh": "起初這個想法只是一項週末活動，後來發展成一盤小型家庭生意。",
+      "targetForm": "grow into something",
+      "targetMeaningZh": "逐漸發展成為",
+      "highlight": "grew into"
+    },
+    {
+      "id": "phrasal-verb-08-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "I nearly stopped watching the series after the first episode, but I slowly began to like its characters.",
+      "promptZh": "看完第一集後，我差點停止追看這套劇集，但我慢慢開始喜歡其中的角色。",
+      "starter": "I",
+      "answer": "I nearly stopped watching the series after the first episode, but its characters slowly grew on me.",
+      "answerZh": "看完第一集後，我差點停止追看這套劇集，但我慢慢喜歡上其中的角色。",
+      "targetForm": "grow on somebody",
+      "targetMeaningZh": "起初不喜歡，後來逐漸喜歡",
+      "highlight": "grew on"
+    },
+    {
+      "id": "phrasal-verb-08-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "As the years passed, Mina and her sister still spoke sometimes, but they became less close because they spent less time together.",
+      "promptZh": "多年過去，米娜和妹妹仍然偶爾交談，但因為相處時間減少，她們變得不再那麼親近。",
+      "starter": "As",
+      "answer": "As the years passed, Mina and her sister still spoke sometimes, but they grew away from each other because they spent less time together.",
+      "answerZh": "多年過去，米娜和妹妹仍然偶爾交談，但因為相處時間減少，她們逐漸疏遠。",
+      "targetForm": "grow away from somebody",
+      "targetMeaningZh": "逐漸與某人疏遠",
+      "highlight": "grew away from"
+    },
+    {
+      "id": "phrasal-verb-08-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "We kept the dress for her younger sister because Emma became too big to wear it after only a few months.",
+      "promptZh": "我們把裙子留給她的妹妹，因為艾瑪只穿了幾個月便長得穿不下。",
+      "starter": "We",
+      "answer": "We kept the dress for her younger sister because Emma grew out of it after only a few months.",
+      "answerZh": "我們把裙子留給她的妹妹，因為艾瑪只穿了幾個月便長得穿不下。",
+      "targetForm": "grow out of something",
+      "targetMeaningZh": "長大後因太小而不再合身",
+      "highlight": "grew out of"
+    },
+    {
+      "id": "phrasal-verb-08-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "The two brothers spent their childhood in different countries, yet both became adults who loved travelling.",
+      "promptZh": "兩兄弟在不同國家度過童年，但成年後都熱愛旅行。",
+      "starter": "The",
+      "answer": "The two brothers grew up in different countries, yet both became adults who loved travelling.",
+      "answerZh": "兩兄弟在不同國家長大，但成年後都熱愛旅行。",
+      "targetForm": "grow up",
+      "targetMeaningZh": "長大；成年",
+      "highlight": "grew up"
+    },
+    {
+      "id": "phrasal-verb-08-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "No one expected the small local event to become a popular summer festival.",
+      "promptZh": "沒有人預料這個小型本地活動會發展成一個受歡迎的夏日節慶。",
+      "starter": "No",
+      "answer": "No one expected the small local event to grow into a popular summer festival.",
+      "answerZh": "沒有人預料這個小型本地活動會發展成一個受歡迎的夏日節慶。",
+      "targetForm": "grow into something",
+      "targetMeaningZh": "逐漸發展成為",
+      "highlight": "grow into"
+    },
+    {
+      "id": "phrasal-verb-08-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "She was worried after losing part of her hair, but the nurse explained that it should return normally with time.",
+      "promptZh": "她失去部分頭髮後很擔心，但護士解釋頭髮應會隨時間正常地重新長出。",
+      "starter": "She",
+      "answer": "She was worried after losing part of her hair, but the nurse explained that it should grow back normally with time.",
+      "answerZh": "她失去部分頭髮後很擔心，但護士解釋頭髮應會隨時間正常地重新長出。",
+      "targetForm": "grow back",
+      "targetMeaningZh": "重新長出",
+      "highlight": "grow back"
+    },
+    {
+      "id": "phrasal-verb-08-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "He does not want to colour his hair again, so he is waiting for the old brown dye to disappear as his natural hair grows.",
+      "promptZh": "他不想再次染髮，所以正等待舊有的棕色染髮隨天然頭髮長出而消失。",
+      "starter": "He",
+      "answer": "He does not want to colour his hair again, so he is waiting for the old brown dye to grow out.",
+      "answerZh": "他不想再次染髮，所以正等待舊有的棕色染髮隨新髮長出而逐漸消失。",
+      "targetForm": "grow out",
+      "targetMeaningZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "highlight": "grow out"
+    },
+    {
+      "id": "phrasal-verb-08-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "I liked the short style at first, but now I want longer hair, so I am letting my hair become longer instead of cutting it again.",
+      "promptZh": "起初我喜歡短髮造型，但現在想留長頭髮，所以不再剪短，讓它繼續長。",
+      "starter": "I",
+      "answer": "I liked the short style at first, but now I want longer hair, so I am growing it out instead of cutting it again.",
+      "answerZh": "起初我喜歡短髮造型，但現在想留長頭髮，所以正在把它留長，而不是再次剪短。",
+      "targetForm": "grow something out",
+      "targetMeaningZh": "把頭髮或鬍鬚留長",
+      "highlight": "growing it out"
+    },
+    {
+      "id": "phrasal-verb-08-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "I did not stop caring about my old friends, but after changing schools I slowly became less close to them.",
+      "promptZh": "我沒有停止關心舊朋友，但轉校後和他們逐漸不再那麼親近。",
+      "starter": "I",
+      "answer": "I did not stop caring about my old friends, but after changing schools I slowly grew away from them.",
+      "answerZh": "我沒有停止關心舊朋友，但轉校後和他們逐漸疏遠。",
+      "targetForm": "grow away from somebody",
+      "targetMeaningZh": "逐漸與某人疏遠",
+      "highlight": "grew away from"
+    },
+    {
+      "id": "phrasal-verb-08-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "Dad says the house feels quieter now that all three children are older and living their own lives.",
+      "promptZh": "爸爸說，三個孩子都長大並過自己的生活後，家裏感覺安靜了。",
+      "starter": "Dad",
+      "answer": "Dad says the house feels quieter now that all three children have grown up and are living their own lives.",
+      "answerZh": "爸爸說，三個孩子都長大並過自己的生活後，家裏感覺安靜了。",
+      "targetForm": "grow up",
+      "targetMeaningZh": "長大；成年",
+      "highlight": "grown up"
+    },
+    {
+      "id": "phrasal-verb-08-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "With patient teaching and regular practice, the nervous beginner became a calm and confident speaker.",
+      "promptZh": "經過耐心教導和定期練習，那名緊張的初學者成為一名冷靜而有自信的講者。",
+      "starter": "With",
+      "answer": "With patient teaching and regular practice, the nervous beginner grew into a calm and confident speaker.",
+      "answerZh": "經過耐心教導和定期練習，那名緊張的初學者成長為一名冷靜而有自信的講者。",
+      "targetForm": "grow into something",
+      "targetMeaningZh": "逐漸發展成為",
+      "highlight": "grew into"
+    },
+    {
+      "id": "phrasal-verb-08-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "The cut no longer looks neat because it has been losing its shape as the hair has become longer.",
+      "promptZh": "隨着頭髮變長，這個髮型一直失去原有形狀，所以不再整齊。",
+      "starter": "The",
+      "answer": "The cut no longer looks neat because it has been growing out.",
+      "answerZh": "這個髮型因為一直在長走樣，所以不再整齊。",
+      "targetForm": "grow out",
+      "targetMeaningZh": "染髮逐漸消失；髮型逐漸長走樣",
+      "highlight": "growing out"
+    },
+    {
+      "id": "phrasal-verb-08-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "The dog lost a small patch of fur, and we were pleased to see it returning after a few weeks.",
+      "promptZh": "那隻狗失去了一小片毛，幾星期後看見毛重新長出來，我們很高興。",
+      "starter": "The",
+      "answer": "The dog lost a small patch of fur, and we were pleased to see it growing back after a few weeks.",
+      "answerZh": "那隻狗失去了一小片毛，幾星期後看見毛重新長出來，我們很高興。",
+      "targetForm": "grow back",
+      "targetMeaningZh": "重新長出",
+      "highlight": "growing back"
+    },
+    {
+      "id": "phrasal-verb-08-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 14,
+      "prompt": "The actor needs a longer beard for the next film, so he has been letting it become longer for several months.",
+      "promptZh": "那名演員下一套電影需要較長的鬍鬚，所以幾個月來一直把它留長。",
+      "starter": "The",
+      "answer": "The actor needs a longer beard for the next film, so he has been growing it out for several months.",
+      "answerZh": "那名演員下一套電影需要較長的鬍鬚，所以幾個月來一直把它留長。",
+      "targetForm": "grow something out",
+      "targetMeaningZh": "把頭髮或鬍鬚留長",
+      "highlight": "growing it out"
+    }
+  ]
+}

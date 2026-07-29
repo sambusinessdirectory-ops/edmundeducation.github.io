@@ -29,6 +29,57 @@ begin
 end;
 $$;
 
+-- Published lesson sizes are immutable content metadata. Keeping the mapping
+-- in one helper lets database checks support the source PDFs' real 30, 50,
+-- 60, and 70-question units without weakening per-lesson validation.
+create or replace function public._phrasal_verb_system_question_count(
+  p_lesson_id text
+)
+returns integer
+language sql
+immutable
+set search_path = ''
+as $$
+  select case p_lesson_id
+    when 'phrasal-verb-01' then 70
+    when 'phrasal-verb-02' then 50
+    when 'phrasal-verb-03' then 70
+    when 'phrasal-verb-04' then 60
+    when 'phrasal-verb-05' then 50
+    when 'phrasal-verb-06' then 70
+    when 'phrasal-verb-07' then 70
+    when 'phrasal-verb-08' then 70
+    when 'phrasal-verb-09' then 50
+    when 'phrasal-verb-10' then 70
+    when 'phrasal-verb-11' then 50
+    when 'phrasal-verb-12' then 50
+    when 'phrasal-verb-13' then 50
+    when 'phrasal-verb-14' then 70
+    when 'phrasal-verb-15' then 50
+    when 'phrasal-verb-16' then 50
+    when 'phrasal-verb-17' then 50
+    when 'phrasal-verb-18' then 50
+    when 'phrasal-verb-19' then 70
+    when 'phrasal-verb-20' then 50
+    when 'phrasal-verb-21' then 60
+    when 'phrasal-verb-22' then 50
+    when 'phrasal-verb-23' then 60
+    when 'phrasal-verb-24' then 60
+    when 'phrasal-verb-25' then 50
+    when 'phrasal-verb-26' then 50
+    when 'phrasal-verb-27' then 60
+    when 'phrasal-verb-28' then 60
+    when 'phrasal-verb-29' then 50
+    when 'phrasal-verb-30' then 50
+    when 'phrasal-verb-31' then 50
+    when 'phrasal-verb-32' then 30
+    when 'phrasal-verb-33' then 50
+    when 'phrasal-verb-34' then 50
+    when 'phrasal-verb-35' then 70
+    else null
+  end;
+$$;
+
 -- The Worker performs the deep, content-aware validation. This immutable
 -- database check is a second boundary that keeps malformed or unbounded JSON
 -- out even if a future server implementation calls the RPC incorrectly.
@@ -43,6 +94,7 @@ set search_path = ''
 as $$
 declare
   v_question_pattern text;
+  v_question_count integer;
   v_question_id text;
   v_item jsonb;
   v_round jsonb;
@@ -50,7 +102,8 @@ declare
   v_key_count integer;
   v_has_correction_state boolean;
 begin
-  if p_lesson_id <> 'phrasal-verb-01'
+  v_question_count := public._phrasal_verb_system_question_count(p_lesson_id);
+  if v_question_count is null
     or p_result is null
     or jsonb_typeof(p_result) <> 'object'
     or octet_length(p_result::text) > 98304
@@ -58,7 +111,12 @@ begin
     return false;
   end if;
 
-  v_question_pattern := '^phrasal-verb-01-q(0[1-9]|[1-6][0-9]|70)$';
+  v_question_pattern := '^' || p_lesson_id || '-q' || case v_question_count
+    when 30 then '(0[1-9]|[12][0-9]|30)$'
+    when 50 then '(0[1-9]|[1-4][0-9]|50)$'
+    when 60 then '(0[1-9]|[1-5][0-9]|60)$'
+    when 70 then '(0[1-9]|[1-6][0-9]|70)$'
+  end;
   select count(*) into v_key_count from jsonb_object_keys(p_result);
   v_has_correction_state := p_result ? 'correctionMode'
     or p_result ? 'correctionIds'
@@ -99,9 +157,9 @@ begin
   if jsonb_typeof(p_result -> 'round') <> 'number'
     or coalesce(p_result ->> 'round', '') !~ '^[1-9][0-9]{0,3}$'
     or jsonb_typeof(p_result -> 'correctIds') <> 'array'
-    or jsonb_array_length(p_result -> 'correctIds') > 70
+    or jsonb_array_length(p_result -> 'correctIds') > v_question_count
     or jsonb_typeof(p_result -> 'questionState') <> 'object'
-    or (select count(*) from jsonb_object_keys(p_result -> 'questionState')) > 70
+    or (select count(*) from jsonb_object_keys(p_result -> 'questionState')) > v_question_count
     or jsonb_typeof(p_result -> 'rounds') <> 'array'
     or jsonb_array_length(p_result -> 'rounds') > 250
     or jsonb_typeof(p_result -> 'awaitingNextRound') <> 'boolean'
@@ -114,9 +172,9 @@ begin
   if v_has_correction_state then
     if jsonb_typeof(p_result -> 'correctionMode') <> 'boolean'
       or jsonb_typeof(p_result -> 'correctionIds') <> 'array'
-      or jsonb_array_length(p_result -> 'correctionIds') > 70
+      or jsonb_array_length(p_result -> 'correctionIds') > v_question_count
       or jsonb_typeof(p_result -> 'collapsedCorrectIds') <> 'array'
-      or jsonb_array_length(p_result -> 'collapsedCorrectIds') > 70
+      or jsonb_array_length(p_result -> 'collapsedCorrectIds') > v_question_count
     then
       return false;
     end if;
@@ -255,7 +313,7 @@ begin
     foreach v_array_name in array array['checkedIds', 'correctIds', 'incorrectIds']
     loop
       if jsonb_typeof(v_round -> v_array_name) is distinct from 'array'
-        or jsonb_array_length(v_round -> v_array_name) > 70
+        or jsonb_array_length(v_round -> v_array_name) > v_question_count
       then
         return false;
       end if;
@@ -289,8 +347,8 @@ declare
 begin
   if p_bookmarks is null
     or jsonb_typeof(p_bookmarks) <> 'array'
-    or jsonb_array_length(p_bookmarks) > 71
-    or octet_length(p_bookmarks::text) > 65536
+    or jsonb_array_length(p_bookmarks) > 2005
+    or octet_length(p_bookmarks::text) > 262144
   then
     return false;
   end if;
@@ -307,11 +365,14 @@ begin
         where key_name not in ('lessonId', 'questionId', 'includeAnswer')
       )
       or jsonb_typeof(v_item -> 'lessonId') <> 'string'
-      or coalesce(v_item ->> 'lessonId', '') <> 'phrasal-verb-01'
+      or public._phrasal_verb_system_question_count(v_item ->> 'lessonId') is null
       or jsonb_typeof(v_item -> 'questionId') <> 'string'
       or (
         coalesce(v_item ->> 'questionId', '') <> '__section__'
-        and coalesce(v_item ->> 'questionId', '') !~ '^phrasal-verb-01-q(0[1-9]|[1-6][0-9]|70)$'
+        and (
+          coalesce(v_item ->> 'questionId', '') !~ ('^' || coalesce(v_item ->> 'lessonId', '') || '-q[0-9]{2}$')
+          or substring(coalesce(v_item ->> 'questionId', '') from '-q([0-9]{2})$')::integer not between 1 and public._phrasal_verb_system_question_count(v_item ->> 'lessonId')
+        )
       )
       or jsonb_typeof(v_item -> 'includeAnswer') <> 'boolean'
       or (
@@ -383,11 +444,12 @@ create table if not exists public.phrasal_verb_system_attempts (
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   constraint phrasal_verb_system_attempts_lesson_id_check
-    check (lesson_id = 'phrasal-verb-01'),
+    check (public._phrasal_verb_system_question_count(lesson_id) is not null),
   check (lesson_version = '1'),
   check (status in ('in_progress', 'completed')),
   check (round_number between 1 and 1000),
-  check (total_count = 70),
+  constraint phrasal_verb_system_attempts_total_count_check
+    check (total_count = public._phrasal_verb_system_question_count(lesson_id)),
   check (correct_count between 0 and total_count),
   check (duration_ms between 0 and 604800000),
   check (public._phrasal_verb_system_result_valid(lesson_id, result)),
@@ -418,11 +480,14 @@ create table if not exists public.phrasal_verb_system_bookmarks (
   updated_at timestamptz not null default now(),
   primary key (student_id, lesson_id, question_id),
   constraint phrasal_verb_system_bookmarks_lesson_id_check
-    check (lesson_id = 'phrasal-verb-01'),
+    check (public._phrasal_verb_system_question_count(lesson_id) is not null),
   constraint phrasal_verb_system_bookmarks_question_id_check
     check (
       (question_id = '__section__' and include_answer = false)
-      or question_id ~ '^phrasal-verb-01-q(0[1-9]|[1-6][0-9]|70)$'
+      or (
+        question_id ~ ('^' || lesson_id || '-q[0-9]{2}$')
+        and substring(question_id from '-q([0-9]{2})$')::integer between 1 and public._phrasal_verb_system_question_count(lesson_id)
+      )
     )
 );
 
@@ -439,8 +504,28 @@ alter table public.phrasal_verb_system_bookmarks
   add constraint phrasal_verb_system_bookmarks_question_id_check
   check (
     (question_id = '__section__' and include_answer = false)
-    or question_id ~ '^phrasal-verb-01-q(0[1-9]|[1-6][0-9]|70)$'
+    or (
+      question_id ~ ('^' || lesson_id || '-q[0-9]{2}$')
+      and substring(question_id from '-q([0-9]{2})$')::integer between 1 and public._phrasal_verb_system_question_count(lesson_id)
+    )
   );
+
+-- Expand existing one-lesson installations without dropping stored progress.
+alter table public.phrasal_verb_system_bookmarks
+  drop constraint if exists phrasal_verb_system_bookmarks_lesson_id_check;
+alter table public.phrasal_verb_system_bookmarks
+  add constraint phrasal_verb_system_bookmarks_lesson_id_check
+  check (public._phrasal_verb_system_question_count(lesson_id) is not null);
+alter table public.phrasal_verb_system_attempts
+  drop constraint if exists phrasal_verb_system_attempts_lesson_id_check;
+alter table public.phrasal_verb_system_attempts
+  add constraint phrasal_verb_system_attempts_lesson_id_check
+  check (public._phrasal_verb_system_question_count(lesson_id) is not null);
+alter table public.phrasal_verb_system_attempts
+  drop constraint if exists phrasal_verb_system_attempts_total_count_check;
+alter table public.phrasal_verb_system_attempts
+  add constraint phrasal_verb_system_attempts_total_count_check
+  check (total_count = public._phrasal_verb_system_question_count(lesson_id));
 
 create index if not exists phrasal_verb_system_bookmarks_student_created_idx
   on public.phrasal_verb_system_bookmarks (student_id, created_at desc, lesson_id, question_id);
@@ -728,11 +813,11 @@ begin
   end if;
 
   if p_id is null
-    or p_lesson_id <> 'phrasal-verb-01'
+    or public._phrasal_verb_system_question_count(p_lesson_id) is null
     or p_lesson_version <> '1'
     or p_status not in ('in_progress', 'completed')
     or p_round_number not between 1 and 1000
-    or p_total_count <> 70
+    or p_total_count <> public._phrasal_verb_system_question_count(p_lesson_id)
     or p_correct_count not between 0 and p_total_count
     or p_duration_ms not between 0 and 604800000
     or p_started_at is null
@@ -1089,7 +1174,7 @@ security definer
 set search_path = ''
 as $$
 begin
-  if p_offset not between 0 and 71
+  if p_offset not between 0 and 2005
     or p_limit not between 1 and 100
   then
     raise exception 'Invalid bookmark page' using errcode = '22023';
@@ -1274,7 +1359,7 @@ begin
   if public._phrasal_verb_system_admin_id(p_admin_token) is null then
     return;
   end if;
-  if p_offset not between 0 and 71
+  if p_offset not between 0 and 2005
     or p_limit not between 1 and 100
   then
     raise exception 'Invalid bookmark page' using errcode = '22023';
@@ -1298,6 +1383,8 @@ $$;
 -- functions. Provisioning remains owner-only; only browser-needed server RPCs
 -- are granted to the Worker service role.
 revoke all on function public._phrasal_verb_system_result_valid(text, jsonb)
+  from public, anon, authenticated, service_role;
+revoke all on function public._phrasal_verb_system_question_count(text)
   from public, anon, authenticated, service_role;
 revoke all on function public._phrasal_verb_system_bookmark_payload_valid(jsonb)
   from public, anon, authenticated, service_role;

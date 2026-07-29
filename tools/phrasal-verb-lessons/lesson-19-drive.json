@@ -1,0 +1,1752 @@
+{
+  "id": "phrasal-verb-19",
+  "order": 19,
+  "slug": "drive",
+  "version": "1",
+  "title": "DRIVE 動詞片語",
+  "titleEn": "Drive",
+  "titleZh": "DRIVE 動詞片語",
+  "level": "",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 18 - DRIVE.pdf",
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DRIVE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DRIVE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DRIVE",
+      "highlight": "DRIVE"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "I understand what you are driving at.",
+      "zh": "我明白你想表達甚麼。",
+      "highlight": "driving at"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "After everyone got in, the taxi drove off.",
+      "zh": "所有人上車後，的士便駛走了。",
+      "highlight": "drove off"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Mina drove off from the first tee.",
+      "zh": "米娜在第一個發球台開球。",
+      "highlight": "drove off"
+    }
+  ],
+  "meaning": {
+    "zh": "想表達某個意思；暗指；駕車離開；駕車把某人或某物帶走；在高爾夫球運動中打出開球；繼續駕駛；令某人因價格、噪音、態度或其他問題而不想再來、參加或使用；用力量、威嚇或驅趕方式使某人或動物離開；迫使某人或某物完全離開某地、組織、行業或市場。",
+    "en": "Learn and practise the phrasal verbs related to DRIVE.",
+    "naturalZh": [
+      "想表達某個意思；暗指",
+      "駕車離開；駕車把某人或某物帶走",
+      "在高爾夫球運動中打出開球",
+      "繼續駕駛",
+      "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+      "用力量、威嚇或驅趕方式使某人或動物離開",
+      "迫使某人或某物完全離開某地、組織、行業或市場"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "drive at something",
+      "titleZh": "想表達某個意思；暗指",
+      "titleEn": "drive at something",
+      "descriptionZh": "想表達某個意思；暗指",
+      "descriptionEn": "I understand what you are driving at.",
+      "examples": [
+        {
+          "en": "I understand what you are driving at.",
+          "zh": "我明白你想表達甚麼。",
+          "highlight": "driving at"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "drive away/off; drive somebody/something away/off",
+      "titleZh": "駕車離開；駕車把某人或某物帶走",
+      "titleEn": "drive away/off; drive somebody/something away/off",
+      "descriptionZh": "駕車離開；駕車把某人或某物帶走",
+      "descriptionEn": "After everyone got in, the taxi drove off.",
+      "examples": [
+        {
+          "en": "After everyone got in, the taxi drove off.",
+          "zh": "所有人上車後，的士便駛走了。",
+          "highlight": "drove off"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "drive off",
+      "titleZh": "在高爾夫球運動中打出開球",
+      "titleEn": "drive off",
+      "descriptionZh": "在高爾夫球運動中打出開球",
+      "descriptionEn": "Mina drove off from the first tee.",
+      "examples": [
+        {
+          "en": "Mina drove off from the first tee.",
+          "zh": "米娜在第一個發球台開球。",
+          "highlight": "drove off"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "drive on",
+      "titleZh": "繼續駕駛",
+      "titleEn": "drive on",
+      "descriptionZh": "繼續駕駛",
+      "descriptionEn": "We drove on for another hour.",
+      "examples": [
+        {
+          "en": "We drove on for another hour.",
+          "zh": "我們繼續駕駛了一小時。",
+          "highlight": "drove on"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "pageGroup": 2,
+      "formula": "drive somebody/something away from something",
+      "titleZh": "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+      "titleEn": "drive somebody/something away from something",
+      "descriptionZh": "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+      "descriptionEn": "Bad service drove people away from the shop.",
+      "examples": [
+        {
+          "en": "Bad service drove people away from the shop.",
+          "zh": "惡劣服務令顧客不再光顧該店。",
+          "highlight": "drove people away from"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "drive somebody/something off; drive somebody/something off",
+      "titleZh": "用力量、威嚇或驅趕方式使某人或動物離開",
+      "titleEn": "drive somebody/something off; drive somebody/something off",
+      "descriptionZh": "用力量、威嚇或驅趕方式使某人或動物離開",
+      "descriptionEn": "The farmer drove the sheep off the road.",
+      "examples": [
+        {
+          "en": "The farmer drove the sheep off the road.",
+          "zh": "農夫把綿羊趕離道路。",
+          "highlight": "drove the sheep off"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "pageGroup": 2,
+      "formula": "drive somebody/something out; drive somebody/something out of",
+      "titleZh": "迫使某人或某物完全離開某地、組織、行業或市場",
+      "titleEn": "drive somebody/something out; drive somebody/something out of",
+      "descriptionZh": "迫使某人或某物完全離開某地、組織、行業或市場",
+      "descriptionEn": "The fire drove everyone out of the building.",
+      "examples": [
+        {
+          "en": "The fire drove everyone out of the building.",
+          "zh": "大火迫使所有人離開大樓。",
+          "highlight": "drove everyone out of"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 DRIVE 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to DRIVE.",
+    "contextsZh": [
+      "想表達某個意思；暗指",
+      "駕車離開；駕車把某人或某物帶走",
+      "在高爾夫球運動中打出開球",
+      "繼續駕駛",
+      "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+      "用力量、威嚇或驅趕方式使某人或動物離開",
+      "迫使某人或某物完全離開某地、組織、行業或市場"
+    ],
+    "contextsEn": [
+      "drive at something",
+      "drive away/off; drive somebody/something away/off",
+      "drive off",
+      "drive on",
+      "drive somebody/something away from something",
+      "drive somebody/something off; drive somebody/something off",
+      "drive somebody/something out; drive somebody/something out of"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 DRIVE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DRIVE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "DRIVE",
+    "fixedHighlight": "DRIVE",
+    "fixedZh": "閱讀整句，選出意思相同的 DRIVE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DRIVE expression that gives the same meaning.",
+    "correct": "drive at something",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 him、her、it 或 them 時，請按照以上例子放在正確位置。 drive away 和 drive off 可以表示車輛駛走。drive somebody away、off 或 out 則表示某事物令某人或動物離開。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: drive him away drive it off drive them out Drive away and drive off may describe a vehicle leaving. Drive somebody away, off or out describes something causing a person or animal to leave. Read the full situation carefully.",
+    "variableItemsZh": [
+      "想表達某個意思；暗指",
+      "駕車離開；駕車把某人或某物帶走",
+      "在高爾夫球運動中打出開球",
+      "繼續駕駛",
+      "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+      "用力量、威嚇或驅趕方式使某人或動物離開",
+      "迫使某人或某物完全離開某地、組織、行業或市場"
+    ],
+    "variableItemsEn": [
+      "drive at something",
+      "drive away/off; drive somebody/something away/off",
+      "drive off",
+      "drive on",
+      "drive somebody/something away from something",
+      "drive somebody/something off; drive somebody/something off",
+      "drive somebody/something out; drive somebody/something out of"
+    ],
+    "forms": [
+      {
+        "formZh": "想表達某個意思；暗指",
+        "formEn": "drive at something",
+        "exampleZh": "我明白你想表達甚麼。",
+        "exampleEn": "I understand what you are driving at.",
+        "highlight": "driving at"
+      },
+      {
+        "formZh": "駕車離開；駕車把某人或某物帶走",
+        "formEn": "drive away/off; drive somebody/something away/off",
+        "exampleZh": "所有人上車後，的士便駛走了。",
+        "exampleEn": "After everyone got in, the taxi drove off.",
+        "highlight": "drove off"
+      },
+      {
+        "formZh": "在高爾夫球運動中打出開球",
+        "formEn": "drive off",
+        "exampleZh": "米娜在第一個發球台開球。",
+        "exampleEn": "Mina drove off from the first tee.",
+        "highlight": "drove off"
+      },
+      {
+        "formZh": "繼續駕駛",
+        "formEn": "drive on",
+        "exampleZh": "我們繼續駕駛了一小時。",
+        "exampleEn": "We drove on for another hour.",
+        "highlight": "drove on"
+      },
+      {
+        "formZh": "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+        "formEn": "drive somebody/something away from something",
+        "exampleZh": "惡劣服務令顧客不再光顧該店。",
+        "exampleEn": "Bad service drove people away from the shop.",
+        "highlight": "drove people away from"
+      },
+      {
+        "formZh": "用力量、威嚇或驅趕方式使某人或動物離開",
+        "formEn": "drive somebody/something off; drive somebody/something off",
+        "exampleZh": "農夫把綿羊趕離道路。",
+        "exampleEn": "The farmer drove the sheep off the road.",
+        "highlight": "drove the sheep off"
+      },
+      {
+        "formZh": "迫使某人或某物完全離開某地、組織、行業或市場",
+        "formEn": "drive somebody/something out; drive somebody/something out of",
+        "exampleZh": "大火迫使所有人離開大樓。",
+        "exampleEn": "The fire drove everyone out of the building.",
+        "highlight": "drove everyone out of"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "想表達某個意思；暗指",
+      "titleEn": "drive at something",
+      "formula": "drive at something",
+      "highlight": "drive at something",
+      "descriptionZh": "想表達某個意思；暗指",
+      "descriptionEn": "I understand what you are driving at.",
+      "examples": [
+        {
+          "en": "I understand what you are driving at.",
+          "zh": "我明白你想表達甚麼。",
+          "highlight": "driving at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "駕車離開；駕車把某人或某物帶走",
+      "titleEn": "drive away/off; drive somebody/something away/off",
+      "formula": "drive away/off; drive somebody/something away/off",
+      "highlight": "drive away/off; drive somebody/something away/off",
+      "descriptionZh": "駕車離開；駕車把某人或某物帶走",
+      "descriptionEn": "After everyone got in, the taxi drove off.",
+      "examples": [
+        {
+          "en": "After everyone got in, the taxi drove off.",
+          "zh": "所有人上車後，的士便駛走了。",
+          "highlight": "drove off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在高爾夫球運動中打出開球",
+      "titleEn": "drive off",
+      "formula": "drive off",
+      "highlight": "drive off",
+      "descriptionZh": "在高爾夫球運動中打出開球",
+      "descriptionEn": "Mina drove off from the first tee.",
+      "examples": [
+        {
+          "en": "Mina drove off from the first tee.",
+          "zh": "米娜在第一個發球台開球。",
+          "highlight": "drove off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "繼續駕駛",
+      "titleEn": "drive on",
+      "formula": "drive on",
+      "highlight": "drive on",
+      "descriptionZh": "繼續駕駛",
+      "descriptionEn": "We drove on for another hour.",
+      "examples": [
+        {
+          "en": "We drove on for another hour.",
+          "zh": "我們繼續駕駛了一小時。",
+          "highlight": "drove on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+      "titleEn": "drive somebody/something away from something",
+      "formula": "drive somebody/something away from something",
+      "highlight": "drive somebody/something away from something",
+      "descriptionZh": "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+      "descriptionEn": "Bad service drove people away from the shop.",
+      "examples": [
+        {
+          "en": "Bad service drove people away from the shop.",
+          "zh": "惡劣服務令顧客不再光顧該店。",
+          "highlight": "drove people away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "用力量、威嚇或驅趕方式使某人或動物離開",
+      "titleEn": "drive somebody/something off; drive somebody/something off",
+      "formula": "drive somebody/something off; drive somebody/something off",
+      "highlight": "drive somebody/something off; drive somebody/something off",
+      "descriptionZh": "用力量、威嚇或驅趕方式使某人或動物離開",
+      "descriptionEn": "The farmer drove the sheep off the road.",
+      "examples": [
+        {
+          "en": "The farmer drove the sheep off the road.",
+          "zh": "農夫把綿羊趕離道路。",
+          "highlight": "drove the sheep off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "迫使某人或某物完全離開某地、組織、行業或市場",
+      "titleEn": "drive somebody/something out; drive somebody/something out of",
+      "formula": "drive somebody/something out; drive somebody/something out of",
+      "highlight": "drive somebody/something out; drive somebody/something out of",
+      "descriptionZh": "迫使某人或某物完全離開某地、組織、行業或市場",
+      "descriptionEn": "The fire drove everyone out of the building.",
+      "examples": [
+        {
+          "en": "The fire drove everyone out of the building.",
+          "zh": "大火迫使所有人離開大樓。",
+          "highlight": "drove everyone out of"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述旅程中的動作",
+      "titleEn": "Describe what happens during a journey",
+      "zh": "drive away、drive off 和 drive on 可以幫助你描述車輛駛走或繼續行程。",
+      "en": "Drive away, drive off and drive on help you describe a vehicle leaving or continuing its journey."
+    },
+    {
+      "titleZh": "表達某人真正想說的意思",
+      "titleEn": "Explain what someone really means",
+      "zh": "當某人沒有直接說出自己的意思時，可以使用 drive at something。",
+      "en": "Drive at something is useful when a person does not express an idea directly."
+    },
+    {
+      "titleZh": "描述人或動物離開的原因",
+      "titleEn": "Describe why people or animals leave",
+      "zh": "drive away、drive off 和 drive out 可以描述顧客離開、動物被趕走，或某人被迫離開某地。",
+      "en": "Drive away, drive off and drive out can describe customers leaving, animals being chased away or people being forced to leave a place."
+    },
+    {
+      "titleZh": "理解高爾夫球英語",
+      "titleEn": "Understand golf English",
+      "zh": "在高爾夫球運動中，drive off 表示從發球台打出開球。",
+      "en": "In golf, drive off describes hitting the first shot from a tee."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "想表達某個意思；暗指",
+      "駕車離開；駕車把某人或某物帶走",
+      "在高爾夫球運動中打出開球",
+      "繼續駕駛",
+      "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+      "用力量、威嚇或驅趕方式使某人或動物離開",
+      "迫使某人或某物完全離開某地、組織、行業或市場"
+    ],
+    "contextsEn": [
+      "drive at something",
+      "drive away/off; drive somebody/something away/off",
+      "drive off",
+      "drive on",
+      "drive somebody/something away from something",
+      "drive somebody/something off; drive somebody/something off",
+      "drive somebody/something out; drive somebody/something out of"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "想表達某個意思；暗指",
+        "titleEn": "drive at something",
+        "zh": "想表達某個意思；暗指",
+        "en": "I understand what you are driving at.",
+        "examples": [
+          {
+            "en": "I understand what you are driving at.",
+            "zh": "我明白你想表達甚麼。",
+            "highlight": "driving at"
+          }
+        ]
+      },
+      {
+        "titleZh": "駕車離開；駕車把某人或某物帶走",
+        "titleEn": "drive away/off; drive somebody/something away/off",
+        "zh": "駕車離開；駕車把某人或某物帶走",
+        "en": "After everyone got in, the taxi drove off.",
+        "examples": [
+          {
+            "en": "After everyone got in, the taxi drove off.",
+            "zh": "所有人上車後，的士便駛走了。",
+            "highlight": "drove off"
+          }
+        ]
+      },
+      {
+        "titleZh": "在高爾夫球運動中打出開球",
+        "titleEn": "drive off",
+        "zh": "在高爾夫球運動中打出開球",
+        "en": "Mina drove off from the first tee.",
+        "examples": [
+          {
+            "en": "Mina drove off from the first tee.",
+            "zh": "米娜在第一個發球台開球。",
+            "highlight": "drove off"
+          }
+        ]
+      },
+      {
+        "titleZh": "繼續駕駛",
+        "titleEn": "drive on",
+        "zh": "繼續駕駛",
+        "en": "We drove on for another hour.",
+        "examples": [
+          {
+            "en": "We drove on for another hour.",
+            "zh": "我們繼續駕駛了一小時。",
+            "highlight": "drove on"
+          }
+        ]
+      },
+      {
+        "titleZh": "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+        "titleEn": "drive somebody/something away from something",
+        "zh": "令某人因價格、噪音、態度或其他問題而不想再來、參加或使用",
+        "en": "Bad service drove people away from the shop.",
+        "examples": [
+          {
+            "en": "Bad service drove people away from the shop.",
+            "zh": "惡劣服務令顧客不再光顧該店。",
+            "highlight": "drove people away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "用力量、威嚇或驅趕方式使某人或動物離開",
+        "titleEn": "drive somebody/something off; drive somebody/something off",
+        "zh": "用力量、威嚇或驅趕方式使某人或動物離開",
+        "en": "The farmer drove the sheep off the road.",
+        "examples": [
+          {
+            "en": "The farmer drove the sheep off the road.",
+            "zh": "農夫把綿羊趕離道路。",
+            "highlight": "drove the sheep off"
+          }
+        ]
+      },
+      {
+        "titleZh": "迫使某人或某物完全離開某地、組織、行業或市場",
+        "titleEn": "drive somebody/something out; drive somebody/something out of",
+        "zh": "迫使某人或某物完全離開某地、組織、行業或市場",
+        "en": "The fire drove everyone out of the building.",
+        "examples": [
+          {
+            "en": "The fire drove everyone out of the building.",
+            "zh": "大火迫使所有人離開大樓。",
+            "highlight": "drove everyone out of"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 DRIVE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DRIVE expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 DRIVE 片語動詞。",
+      "en": "Read the whole sentence and choose the DRIVE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: drive him away drive it off drive them out",
+      "zh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: drive him away drive it off drive them out",
+      "examples": [
+        {
+          "en": "drive him away",
+          "zh": "drive him away",
+          "highlight": "drive him away"
+        },
+        {
+          "en": "drive it off",
+          "zh": "drive it off",
+          "highlight": "drive it off"
+        },
+        {
+          "en": "drive them out",
+          "zh": "drive them out",
+          "highlight": "drive them out"
+        }
+      ]
+    },
+    {
+      "titleZh": "drive away 和 drive off 可以表示車輛駛走。drive somebody away、off 或 out 則表示某事物令某人或動物離開。請仔細閱讀整個情境。",
+      "titleEn": "Drive away and drive off may describe a vehicle leaving. Drive somebody away, off or out describes something causing a person or animal to leave. Read the full situation carefully.",
+      "zh": "drive away 和 drive off 可以表示車輛駛走。drive somebody away、off 或 out 則表示某事物令某人或動物離開。請仔細閱讀整個情境。",
+      "en": "Drive away and drive off may describe a vehicle leaving. Drive somebody away, off or out describes something causing a person or animal to leave. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DRIVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DRIVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DRIVE 動詞片語句子改寫練習",
+    "titleEn": "DRIVE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DRIVE 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DRIVE. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-19-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "The taxi left slowly.",
+      "promptZh": "的士慢慢駛走了。",
+      "starter": "The",
+      "answer": "The taxi drove away slowly.",
+      "answerZh": "的士慢慢駛走了。",
+      "highlight": "drove away",
+      "targetForm": "drive away",
+      "targetMeaningZh": "駕車離開"
+    },
+    {
+      "id": "phrasal-verb-19-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "I do not understand what you mean.",
+      "promptZh": "我不明白你的意思。",
+      "starter": "I",
+      "answer": "I do not understand what you are driving at.",
+      "answerZh": "我不明白你的意思。",
+      "highlight": "driving at",
+      "targetForm": "drive at something",
+      "targetMeaningZh": "想表達；暗指"
+    },
+    {
+      "id": "phrasal-verb-19-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "We continued driving until we found a petrol station.",
+      "promptZh": "我們繼續駕駛，直至找到油站。",
+      "starter": "We",
+      "answer": "We drove on until we found a petrol station.",
+      "answerZh": "我們繼續駕駛，直至找到油站。",
+      "highlight": "drove on",
+      "targetForm": "drive on",
+      "targetMeaningZh": "繼續駕駛"
+    },
+    {
+      "id": "phrasal-verb-19-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "High prices are making customers stop coming.",
+      "promptZh": "高昂價格令顧客不再光顧。",
+      "starter": "High",
+      "answer": "High prices are driving customers away.",
+      "answerZh": "高昂價格令顧客不再光顧。",
+      "highlight": "driving customers away",
+      "targetForm": "drive somebody away",
+      "targetMeaningZh": "令某人不再前來或使用"
+    },
+    {
+      "id": "phrasal-verb-19-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Ben hit the first golf shot from the first tee.",
+      "promptZh": "賓在第一個發球台打出了第一桿。",
+      "starter": "Ben",
+      "answer": "Ben drove off from the first tee.",
+      "answerZh": "賓在第一個發球台打出了第一桿。",
+      "highlight": "drove off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "在高爾夫球運動中開球"
+    },
+    {
+      "id": "phrasal-verb-19-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The dog chased the fox away.",
+      "promptZh": "那隻狗把狐狸趕走了。",
+      "starter": "The",
+      "answer": "The dog drove the fox off.",
+      "answerZh": "那隻狗把狐狸趕走了。",
+      "highlight": "drove the fox off",
+      "targetForm": "drive something off",
+      "targetMeaningZh": "把動物或事物趕走"
+    },
+    {
+      "id": "phrasal-verb-19-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The police forced the thieves to leave the shop.",
+      "promptZh": "警方迫使賊人離開店舖。",
+      "starter": "The",
+      "answer": "The police drove the thieves out of the shop.",
+      "answerZh": "警方迫使賊人離開店舖。",
+      "highlight": "drove the thieves out of",
+      "targetForm": "drive somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地"
+    },
+    {
+      "id": "phrasal-verb-19-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "What do you mean?",
+      "promptZh": "你想表達甚麼？",
+      "starter": "What",
+      "answer": "What are you driving at?",
+      "answerZh": "你想表達甚麼？",
+      "highlight": "driving at",
+      "targetForm": "drive at something",
+      "targetMeaningZh": "想表達；暗指"
+    },
+    {
+      "id": "phrasal-verb-19-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The loud music frightened the birds away from the roof.",
+      "promptZh": "吵耳的音樂把屋頂上的雀鳥嚇走了。",
+      "starter": "Loud",
+      "answer": "Loud music drove the birds off the roof.",
+      "answerZh": "吵耳的音樂把屋頂上的雀鳥嚇走了。",
+      "highlight": "drove the birds off",
+      "targetForm": "drive something off something",
+      "targetMeaningZh": "把動物趕離某處"
+    },
+    {
+      "id": "phrasal-verb-19-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Maya took her brother away from the station in her car.",
+      "promptZh": "瑪雅駕車把弟弟從車站帶走。",
+      "starter": "Maya",
+      "answer": "Maya drove her brother away from the station in her car.",
+      "answerZh": "瑪雅駕車把弟弟從車站帶走。",
+      "highlight": "drove her brother away",
+      "targetForm": "drive somebody away",
+      "targetMeaningZh": "駕車把某人帶走"
+    },
+    {
+      "id": "phrasal-verb-19-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Leo hit his first golf shot and sent the ball a long way.",
+      "promptZh": "里奧打出第一桿，把球擊到很遠。",
+      "starter": "Leo",
+      "answer": "Leo drove off and sent the ball a long way.",
+      "answerZh": "里奧打出第一桿，把球擊到很遠。",
+      "highlight": "drove off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "在高爾夫球運動中開球"
+    },
+    {
+      "id": "phrasal-verb-19-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The new rule forced several small shops to close permanently.",
+      "promptZh": "新規則迫使數間小店永久結業。",
+      "starter": "The",
+      "answer": "The new rule drove several small shops out of business.",
+      "answerZh": "新規則迫使數間小店永久結業。",
+      "highlight": "drove several small shops out of",
+      "targetForm": "drive something out of business",
+      "targetMeaningZh": "迫使企業結業"
+    },
+    {
+      "id": "phrasal-verb-19-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "His rude manner made his friends stop visiting him.",
+      "promptZh": "他無禮的態度令朋友不再探望他。",
+      "starter": "His",
+      "answer": "His rude manner drove his friends away.",
+      "answerZh": "他無禮的態度令朋友不再探望他。",
+      "highlight": "drove his friends away",
+      "targetForm": "drive somebody away",
+      "targetMeaningZh": "令某人不再前來或保持來往"
+    },
+    {
+      "id": "phrasal-verb-19-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "After lunch, they continued driving towards the coast.",
+      "promptZh": "午飯後，他們繼續駕車前往海岸。",
+      "starter": "After",
+      "answer": "After lunch, they drove on towards the coast.",
+      "answerZh": "午飯後，他們繼續駕車前往海岸。",
+      "highlight": "drove on",
+      "targetForm": "drive on",
+      "targetMeaningZh": "繼續駕駛"
+    },
+    {
+      "id": "phrasal-verb-19-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Are we going to continue driving after the break?",
+      "promptZh": "休息後，我們會繼續駕駛嗎？",
+      "starter": "Are",
+      "answer": "Are we going to drive on after the break?",
+      "answerZh": "休息後，我們會繼續駕駛嗎？",
+      "highlight": "drive on",
+      "targetForm": "drive on",
+      "targetMeaningZh": "繼續駕駛"
+    },
+    {
+      "id": "phrasal-verb-19-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The van has just left.",
+      "promptZh": "客貨車剛剛駛走。",
+      "starter": "The",
+      "answer": "The van has just driven off.",
+      "answerZh": "客貨車剛剛駛走。",
+      "highlight": "driven off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "駕車離開"
+    },
+    {
+      "id": "phrasal-verb-19-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The cold weather may make visitors stop coming.",
+      "promptZh": "寒冷天氣可能令遊客不再前來。",
+      "starter": "The",
+      "answer": "The cold weather may drive visitors away.",
+      "answerZh": "寒冷天氣可能令遊客不再前來。",
+      "highlight": "drive visitors away",
+      "targetForm": "drive somebody away",
+      "targetMeaningZh": "令某人不再前來"
+    },
+    {
+      "id": "phrasal-verb-19-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "She was not sure what the manager meant.",
+      "promptZh": "她不肯定經理想表達甚麼。",
+      "starter": "She",
+      "answer": "She was not sure what the manager was driving at.",
+      "answerZh": "她不肯定經理想表達甚麼。",
+      "highlight": "driving at",
+      "targetForm": "drive at something",
+      "targetMeaningZh": "想表達；暗指"
+    },
+    {
+      "id": "phrasal-verb-19-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The fire forced many families to leave the area.",
+      "promptZh": "大火迫使許多家庭離開該區。",
+      "starter": "Many",
+      "answer": "Many families were driven out of the area by the fire.",
+      "answerZh": "大火迫使許多家庭離開該區。",
+      "highlight": "driven out of",
+      "targetForm": "drive somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地"
+    },
+    {
+      "id": "phrasal-verb-19-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Has Amir hit his first golf shot yet?",
+      "promptZh": "阿米爾打出第一桿了嗎？",
+      "starter": "Has",
+      "answer": "Has Amir driven off yet?",
+      "answerZh": "阿米爾打出第一桿了嗎？",
+      "highlight": "driven off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "在高爾夫球運動中開球"
+    },
+    {
+      "id": "phrasal-verb-19-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The guards quickly forced the crowd to leave the field.",
+      "promptZh": "守衛迅速迫使人群離開場地。",
+      "starter": "The",
+      "answer": "The guards quickly drove the crowd off the field.",
+      "answerZh": "守衛迅速迫使人群離開場地。",
+      "highlight": "drove the crowd off",
+      "targetForm": "drive somebody off something",
+      "targetMeaningZh": "迫使某人離開某處"
+    },
+    {
+      "id": "phrasal-verb-19-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Poor service has made many customers stop using the shop.",
+      "promptZh": "惡劣服務令許多顧客不再光顧該店。",
+      "starter": "Poor",
+      "answer": "Poor service has driven many customers away.",
+      "answerZh": "惡劣服務令許多顧客不再光顧該店。",
+      "highlight": "driven many customers away",
+      "targetForm": "drive somebody away",
+      "targetMeaningZh": "令某人不再前來或使用"
+    },
+    {
+      "id": "phrasal-verb-19-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The coach told us to continue driving carefully.",
+      "promptZh": "教練吩咐我們小心地繼續駕駛。",
+      "starter": "The",
+      "answer": "The coach told us to drive on carefully.",
+      "answerZh": "教練吩咐我們小心地繼續駕駛。",
+      "highlight": "drive on",
+      "targetForm": "drive on",
+      "targetMeaningZh": "繼續駕駛"
+    },
+    {
+      "id": "phrasal-verb-19-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Smoke was forcing the insects to leave the plants.",
+      "promptZh": "煙霧正迫使昆蟲離開植物。",
+      "starter": "Smoke",
+      "answer": "Smoke was driving the insects off the plants.",
+      "answerZh": "煙霧正迫使昆蟲離開植物。",
+      "highlight": "driving the insects off",
+      "targetForm": "drive something off something",
+      "targetMeaningZh": "把動物或昆蟲趕離某處"
+    },
+    {
+      "id": "phrasal-verb-19-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Dad will take us away from the airport in his car.",
+      "promptZh": "爸爸會駕車把我們從機場接走。",
+      "starter": "Dad",
+      "answer": "Dad will drive us away from the airport in his car.",
+      "answerZh": "爸爸會駕車把我們從機場接走。",
+      "highlight": "drive us away",
+      "targetForm": "drive somebody away",
+      "targetMeaningZh": "駕車把某人帶走"
+    },
+    {
+      "id": "phrasal-verb-19-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "I think I know what he means.",
+      "promptZh": "我想我知道他的意思。",
+      "starter": "I",
+      "answer": "I think I know what he is driving at.",
+      "answerZh": "我想我知道他的意思。",
+      "highlight": "driving at",
+      "targetForm": "drive at something",
+      "targetMeaningZh": "想表達；暗指"
+    },
+    {
+      "id": "phrasal-verb-19-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The landlord tried to force the family to leave the flat.",
+      "promptZh": "業主企圖迫使該家庭搬離單位。",
+      "starter": "The",
+      "answer": "The landlord tried to drive the family out of the flat.",
+      "answerZh": "業主企圖迫使該家庭搬離單位。",
+      "highlight": "drive the family out of",
+      "targetForm": "drive somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地"
+    },
+    {
+      "id": "phrasal-verb-19-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The next player is hitting the first golf shot now.",
+      "promptZh": "下一名球手現在正打出第一桿。",
+      "starter": "The",
+      "answer": "The next player is driving off now.",
+      "answerZh": "下一名球手現在正打出第一桿。",
+      "highlight": "driving off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "在高爾夫球運動中開球"
+    },
+    {
+      "id": "phrasal-verb-19-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The driver started the engine and took the van away.",
+      "promptZh": "司機啟動引擎，然後把客貨車駛走。",
+      "starter": "The",
+      "answer": "The driver started the engine and drove the van away.",
+      "answerZh": "司機啟動引擎，然後把客貨車駛走。",
+      "highlight": "drove the van away",
+      "targetForm": "drive something away",
+      "targetMeaningZh": "駕車把某物帶走"
+    },
+    {
+      "id": "phrasal-verb-19-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The noise was making them stop studying at the library and choose another place.",
+      "promptZh": "噪音令他們不再到圖書館溫習，並選擇另一個地方。",
+      "starter": "The",
+      "answer": "The noise was driving them away from the library.",
+      "answerZh": "噪音令他們不再到圖書館溫習。",
+      "highlight": "driving them away from",
+      "targetForm": "drive somebody away from something",
+      "targetMeaningZh": "令某人不再前往某處"
+    },
+    {
+      "id": "phrasal-verb-19-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The road was dark, but we continued driving for another ten minutes.",
+      "promptZh": "道路很黑，但我們仍繼續駕駛了十分鐘。",
+      "starter": "The",
+      "answer": "The road was dark, but we drove on for another ten minutes.",
+      "answerZh": "道路很黑，但我們仍繼續駕駛了十分鐘。",
+      "highlight": "drove on",
+      "targetForm": "drive on",
+      "targetMeaningZh": "繼續駕駛"
+    },
+    {
+      "id": "phrasal-verb-19-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "When you say the plan is “too safe”, what exactly do you mean?",
+      "promptZh": "你說這項計劃「太安全」時，究竟想表達甚麼？",
+      "starter": "When",
+      "answer": "When you say the plan is “too safe”, what exactly are you driving at?",
+      "answerZh": "你說這項計劃「太安全」時，究竟想表達甚麼？",
+      "highlight": "driving at",
+      "targetForm": "drive at something",
+      "targetMeaningZh": "想表達；暗指"
+    },
+    {
+      "id": "phrasal-verb-19-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The goats entered the field. The farmer chased them away before they reached the vegetables.",
+      "promptZh": "山羊進入了田地。農夫在牠們走到蔬菜旁前把牠們趕走。",
+      "starter": "The",
+      "answer": "The farmer drove them off before they reached the vegetables.",
+      "answerZh": "農夫在山羊走到蔬菜旁前把牠們趕走。",
+      "highlight": "drove them off",
+      "targetForm": "drive something off",
+      "targetMeaningZh": "把動物趕走"
+    },
+    {
+      "id": "phrasal-verb-19-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The long period without rain has forced many farmers to leave the region.",
+      "promptZh": "長時間沒有下雨，迫使許多農夫離開該區。",
+      "starter": "The",
+      "answer": "The long period without rain has driven many farmers out of the region.",
+      "answerZh": "長時間沒有下雨，迫使許多農夫離開該區。",
+      "highlight": "driven many farmers out of",
+      "targetForm": "drive somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地"
+    },
+    {
+      "id": "phrasal-verb-19-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Because the rain had stopped, the golfers hit their first shots on time.",
+      "promptZh": "由於雨已停，球手們準時打出第一桿。",
+      "starter": "Because",
+      "answer": "Because the rain had stopped, the golfers drove off on time.",
+      "answerZh": "由於雨已停，球手們準時打出第一桿。",
+      "highlight": "drove off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "在高爾夫球運動中開球"
+    },
+    {
+      "id": "phrasal-verb-19-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "One false story nearly forced her to leave the club.",
+      "promptZh": "一個不實故事差點迫使她離開會社。",
+      "starter": "One",
+      "answer": "One false story nearly drove her out of the club.",
+      "answerZh": "一個不實故事差點迫使她離開會社。",
+      "highlight": "drove her out of",
+      "targetForm": "drive somebody out of something",
+      "targetMeaningZh": "迫使某人離開組織"
+    },
+    {
+      "id": "phrasal-verb-19-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The passengers entered the minibus, and the driver took them away.",
+      "promptZh": "乘客登上小巴後，司機把他們載走。",
+      "starter": "The",
+      "answer": "The passengers entered the minibus, and the driver drove them away.",
+      "answerZh": "乘客登上小巴後，司機把他們載走。",
+      "highlight": "drove them away",
+      "targetForm": "drive somebody away",
+      "targetMeaningZh": "駕車把某人帶走"
+    },
+    {
+      "id": "phrasal-verb-19-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Her angry messages made him stop taking part in the group.",
+      "promptZh": "她憤怒的訊息令他不再參與該小組。",
+      "starter": "Her",
+      "answer": "Her angry messages drove him away from the group.",
+      "answerZh": "她憤怒的訊息令他不再參與該小組。",
+      "highlight": "drove him away from",
+      "targetForm": "drive somebody away from something",
+      "targetMeaningZh": "令某人退出或不再參與"
+    },
+    {
+      "id": "phrasal-verb-19-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "We did not stop at the village; we continued driving to the next town.",
+      "promptZh": "我們沒有在村莊停下，而是繼續駕車前往下一個城鎮。",
+      "starter": "We",
+      "answer": "We did not stop at the village; we drove on to the next town.",
+      "answerZh": "我們沒有在村莊停下，而是繼續駕車前往下一個城鎮。",
+      "highlight": "drove on",
+      "targetForm": "drive on",
+      "targetMeaningZh": "繼續駕駛"
+    },
+    {
+      "id": "phrasal-verb-19-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "I listened carefully, but I still could not understand what she meant.",
+      "promptZh": "我仔細聆聽，但仍然不明白她的意思。",
+      "starter": "I",
+      "answer": "I listened carefully, but I still could not understand what she was driving at.",
+      "answerZh": "我仔細聆聽，但仍然不明白她的意思。",
+      "highlight": "driving at",
+      "targetForm": "drive at something",
+      "targetMeaningZh": "想表達；暗指"
+    },
+    {
+      "id": "phrasal-verb-19-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "After a short delay, Kim hit the first golf shot from the tenth tee.",
+      "promptZh": "短暫延誤後，金在第十個發球台打出第一桿。",
+      "starter": "After",
+      "answer": "After a short delay, Kim drove off from the tenth tee.",
+      "answerZh": "短暫延誤後，金在第十個發球台打出第一桿。",
+      "highlight": "drove off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "在高爾夫球運動中開球"
+    },
+    {
+      "id": "phrasal-verb-19-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The strong smell forced the cat to leave the sofa.",
+      "promptZh": "強烈氣味迫使貓離開梳化。",
+      "starter": "The",
+      "answer": "The strong smell drove the cat off the sofa.",
+      "answerZh": "強烈氣味迫使貓離開梳化。",
+      "highlight": "drove the cat off",
+      "targetForm": "drive something off something",
+      "targetMeaningZh": "把動物趕離某處"
+    },
+    {
+      "id": "phrasal-verb-19-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Rising rent is forcing artists to leave the neighbourhood.",
+      "promptZh": "租金上升正迫使藝術工作者離開該區。",
+      "starter": "Rising",
+      "answer": "Rising rent is driving artists out of the neighbourhood.",
+      "answerZh": "租金上升正迫使藝術工作者離開該區。",
+      "highlight": "driving artists out of",
+      "targetForm": "drive somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地"
+    },
+    {
+      "id": "phrasal-verb-19-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Ella hit a poor first golf shot, but her second shot was excellent.",
+      "promptZh": "埃拉的第一桿打得很差，但第二桿十分出色。",
+      "starter": "Ella",
+      "answer": "Ella drove off badly, but her second shot was excellent.",
+      "answerZh": "埃拉的第一桿打得很差，但第二桿十分出色。",
+      "highlight": "drove off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "在高爾夫球運動中開球"
+    },
+    {
+      "id": "phrasal-verb-19-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "His words sounded polite, but everyone knew what he really meant.",
+      "promptZh": "他的說話聽來很有禮貌，但所有人都知道他真正的意思。",
+      "starter": "His",
+      "answer": "His words sounded polite, but everyone knew what he was driving at.",
+      "answerZh": "他的說話聽來很有禮貌，但所有人都知道他真正的意思。",
+      "highlight": "driving at",
+      "targetForm": "drive at something",
+      "targetMeaningZh": "想表達；暗指"
+    },
+    {
+      "id": "phrasal-verb-19-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Heavy rain forced the swimmers to leave the beach.",
+      "promptZh": "大雨迫使泳客離開海灘。",
+      "starter": "Heavy",
+      "answer": "Heavy rain drove the swimmers off the beach.",
+      "answerZh": "大雨迫使泳客離開海灘。",
+      "highlight": "drove the swimmers off",
+      "targetForm": "drive somebody off something",
+      "targetMeaningZh": "迫使某人離開某處"
+    },
+    {
+      "id": "phrasal-verb-19-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The car left before I could read its number.",
+      "promptZh": "我還未能看清楚車牌號碼，那輛車便駛走了。",
+      "starter": "The",
+      "answer": "The car drove off before I could read its number.",
+      "answerZh": "我還未能看清楚車牌號碼，那輛車便駛走了。",
+      "highlight": "drove off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "駕車離開"
+    },
+    {
+      "id": "phrasal-verb-19-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Too many adverts are making users stop using the app.",
+      "promptZh": "太多廣告正令使用者停止使用該應用程式。",
+      "starter": "Too",
+      "answer": "Too many adverts are driving users away from the app.",
+      "answerZh": "太多廣告正令使用者停止使用該應用程式。",
+      "highlight": "driving users away from",
+      "targetForm": "drive somebody away from something",
+      "targetMeaningZh": "令某人不再使用某物"
+    },
+    {
+      "id": "phrasal-verb-19-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The signs were unclear, so we continued driving and asked for directions at the next village.",
+      "promptZh": "路牌不清楚，所以我們繼續駕駛，並在下一個村莊問路。",
+      "starter": "The",
+      "answer": "The signs were unclear, so we drove on and asked for directions at the next village.",
+      "answerZh": "路牌不清楚，所以我們繼續駕駛，並在下一個村莊問路。",
+      "highlight": "drove on",
+      "targetForm": "drive on",
+      "targetMeaningZh": "繼續駕駛"
+    },
+    {
+      "id": "phrasal-verb-19-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "A driver in a black car took the singer away through a side gate.",
+      "promptZh": "一名司機用黑色汽車經側門把歌手載走。",
+      "starter": "A",
+      "answer": "A driver in a black car drove the singer away through a side gate.",
+      "answerZh": "一名司機用黑色汽車經側門把歌手載走。",
+      "highlight": "drove the singer away",
+      "targetForm": "drive somebody away",
+      "targetMeaningZh": "駕車把某人帶走"
+    },
+    {
+      "id": "phrasal-verb-19-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The large supermarket forced two small food shops to close permanently.",
+      "promptZh": "大型超級市場迫使兩間小型食品店永久結業。",
+      "starter": "The",
+      "answer": "The large supermarket drove two small food shops out of business.",
+      "answerZh": "大型超級市場迫使兩間小型食品店永久結業。",
+      "highlight": "drove two small food shops out of",
+      "targetForm": "drive something out of business",
+      "targetMeaningZh": "迫使企業結業"
+    },
+    {
+      "id": "phrasal-verb-19-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The golfer hit the first shot too early and received a warning.",
+      "promptZh": "那名高爾夫球手過早打出第一桿，因此收到警告。",
+      "starter": "The",
+      "answer": "The golfer drove off too early and received a warning.",
+      "answerZh": "那名高爾夫球手過早打出第一桿，因此收到警告。",
+      "highlight": "drove off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "在高爾夫球運動中開球"
+    },
+    {
+      "id": "phrasal-verb-19-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Could you explain what you mean instead of giving hints?",
+      "promptZh": "你可以直接解釋你的意思，而不要只給提示嗎？",
+      "starter": "Could",
+      "answer": "Could you explain what you are driving at instead of giving hints?",
+      "answerZh": "你可以直接解釋你的意思，而不要只給提示嗎？",
+      "highlight": "driving at",
+      "targetForm": "drive at something",
+      "targetMeaningZh": "想表達；暗指"
+    },
+    {
+      "id": "phrasal-verb-19-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The villagers made loud noises and chased the wild pigs from their land.",
+      "promptZh": "村民發出巨大聲響，把野豬趕離他們的土地。",
+      "starter": "The",
+      "answer": "The villagers made loud noises and drove the wild pigs off their land.",
+      "answerZh": "村民發出巨大聲響，把野豬趕離他們的土地。",
+      "highlight": "drove the wild pigs off",
+      "targetForm": "drive something off something",
+      "targetMeaningZh": "把動物趕離某處"
+    },
+    {
+      "id": "phrasal-verb-19-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The smell from the bins was making people avoid the café.",
+      "promptZh": "垃圾桶傳出的氣味令人避開該咖啡店。",
+      "starter": "The",
+      "answer": "The smell from the bins was driving people away from the café.",
+      "answerZh": "垃圾桶傳出的氣味令人避開該咖啡店。",
+      "highlight": "driving people away from",
+      "targetForm": "drive somebody away from something",
+      "targetMeaningZh": "令某人不再前往某處"
+    },
+    {
+      "id": "phrasal-verb-19-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although the storm was getting worse, the rescue team continued driving.",
+      "promptZh": "雖然暴風雨愈來愈強，救援隊仍繼續駕駛。",
+      "starter": "Although",
+      "answer": "Although the storm was getting worse, the rescue team drove on.",
+      "answerZh": "雖然暴風雨愈來愈強，救援隊仍繼續駕駛。",
+      "highlight": "drove on",
+      "targetForm": "drive on",
+      "targetMeaningZh": "繼續駕駛"
+    },
+    {
+      "id": "phrasal-verb-19-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "I understand the facts, but I still cannot understand what the speaker really means.",
+      "promptZh": "我明白事情的內容，但仍然不明白講者真正想表達甚麼。",
+      "starter": "I",
+      "answer": "I understand the facts, but I still cannot understand what the speaker is driving at.",
+      "answerZh": "我明白事情的內容，但仍然不明白講者真正想表達甚麼。",
+      "highlight": "driving at",
+      "targetForm": "drive at something",
+      "targetMeaningZh": "想表達；暗指"
+    },
+    {
+      "id": "phrasal-verb-19-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The shop lowered its music because the noise was making older customers stop coming.",
+      "promptZh": "店舖調低音樂聲量，因為噪音令年長顧客不再光顧。",
+      "starter": "The",
+      "answer": "The shop lowered its music because the noise was driving older customers away.",
+      "answerZh": "店舖調低音樂聲量，因為噪音令年長顧客不再光顧。",
+      "highlight": "driving older customers away",
+      "targetForm": "drive somebody away",
+      "targetMeaningZh": "令某人不再前來"
+    },
+    {
+      "id": "phrasal-verb-19-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "As soon as everyone was inside, the tour bus left towards the hotel.",
+      "promptZh": "所有人一上車，旅遊巴便駛向酒店。",
+      "starter": "As",
+      "answer": "As soon as everyone was inside, the tour bus drove off towards the hotel.",
+      "answerZh": "所有人一上車，旅遊巴便駛向酒店。",
+      "highlight": "drove off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "駕車離開"
+    },
+    {
+      "id": "phrasal-verb-19-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "By evening, the firefighters had forced the animals to leave the road.",
+      "promptZh": "到傍晚時，消防員已把動物趕離道路。",
+      "starter": "By",
+      "answer": "By evening, the firefighters had driven the animals off the road.",
+      "answerZh": "到傍晚時，消防員已把動物趕離道路。",
+      "highlight": "driven the animals off",
+      "targetForm": "drive something off something",
+      "targetMeaningZh": "把動物趕離某處"
+    },
+    {
+      "id": "phrasal-verb-19-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "On the final hole, Priya hit the first shot confidently and sent the ball straight ahead.",
+      "promptZh": "在最後一洞，普里雅自信地打出第一桿，把球直線擊出。",
+      "starter": "On",
+      "answer": "On the final hole, Priya drove off confidently and sent the ball straight ahead.",
+      "answerZh": "在最後一洞，普里雅自信地打出第一桿，把球直線擊出。",
+      "highlight": "drove off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "在高爾夫球運動中開球"
+    },
+    {
+      "id": "phrasal-verb-19-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "High costs may force small music shops to leave the city centre.",
+      "promptZh": "高昂成本可能迫使小型唱片店離開市中心。",
+      "starter": "High",
+      "answer": "High costs may drive small music shops out of the city centre.",
+      "answerZh": "高昂成本可能迫使小型唱片店離開市中心。",
+      "highlight": "drive small music shops out of",
+      "targetForm": "drive something out of something",
+      "targetMeaningZh": "迫使企業離開某地"
+    },
+    {
+      "id": "phrasal-verb-19-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "We were tired, but we continued driving because the hospital was only five minutes away.",
+      "promptZh": "我們很疲倦，但醫院只在五分鐘車程外，所以仍繼續駕駛。",
+      "starter": "We",
+      "answer": "We were tired, but we drove on because the hospital was only five minutes away.",
+      "answerZh": "我們很疲倦，但醫院只在五分鐘車程外，所以仍繼續駕駛。",
+      "highlight": "drove on",
+      "targetForm": "drive on",
+      "targetMeaningZh": "繼續駕駛"
+    },
+    {
+      "id": "phrasal-verb-19-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "One rude reply can make a new member leave before they feel welcome.",
+      "promptZh": "一個無禮的回覆可能令新成員在感到受歡迎前便離開。",
+      "starter": "One",
+      "answer": "One rude reply can drive a new member away before they feel welcome.",
+      "answerZh": "一個無禮的回覆可能令新成員在感到受歡迎前便離開。",
+      "highlight": "drive a new member away",
+      "targetForm": "drive somebody away",
+      "targetMeaningZh": "令某人離開或不再參與"
+    },
+    {
+      "id": "phrasal-verb-19-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "A serious water leak forced the family to leave their home for two days.",
+      "promptZh": "嚴重漏水迫使該家庭離家兩天。",
+      "starter": "A",
+      "answer": "A serious water leak drove the family out of their home for two days.",
+      "answerZh": "嚴重漏水迫使該家庭離家兩天。",
+      "highlight": "drove the family out of",
+      "targetForm": "drive somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地"
+    },
+    {
+      "id": "phrasal-verb-19-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Before hitting his first golf shot, Noah checked the wind and chose a different club.",
+      "promptZh": "打出第一桿前，諾亞查看風向，並選擇了另一支球桿。",
+      "starter": "Before",
+      "answer": "Before driving off, Noah checked the wind and chose a different club.",
+      "answerZh": "打出第一桿前，諾亞查看風向，並選擇了另一支球桿。",
+      "highlight": "driving off",
+      "targetForm": "drive off",
+      "targetMeaningZh": "在高爾夫球運動中開球"
+    },
+    {
+      "id": "phrasal-verb-19-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The children waved their towels until the bees had left the picnic table.",
+      "promptZh": "孩子們揮動毛巾，直至蜜蜂離開野餐桌。",
+      "starter": "The",
+      "answer": "The children waved their towels until they had driven the bees off the picnic table.",
+      "answerZh": "孩子們揮動毛巾，直至把蜜蜂趕離野餐桌。",
+      "highlight": "driven the bees off",
+      "targetForm": "drive something off something",
+      "targetMeaningZh": "把動物或昆蟲趕離某處"
+    },
+    {
+      "id": "phrasal-verb-19-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The family waved from the door as the taxi left towards the airport.",
+      "promptZh": "的士駛向機場時，一家人在門口揮手道別。",
+      "starter": "The",
+      "answer": "The family waved from the door as the taxi drove away towards the airport.",
+      "answerZh": "的士駛向機場時，一家人在門口揮手道別。",
+      "highlight": "drove away",
+      "targetForm": "drive away",
+      "targetMeaningZh": "駕車離開"
+    },
+    {
+      "id": "phrasal-verb-19-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Nobody laughed because they understood exactly what the speaker really meant.",
+      "promptZh": "沒有人發笑，因為他們完全明白講者真正想表達的意思。",
+      "starter": "Nobody",
+      "answer": "Nobody laughed because they understood exactly what the speaker was driving at.",
+      "answerZh": "沒有人發笑，因為他們完全明白講者真正想表達的意思。",
+      "highlight": "driving at",
+      "targetForm": "drive at something",
+      "targetMeaningZh": "想表達；暗指"
+    },
+    {
+      "id": "phrasal-verb-19-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "We could have stopped in the rain, but Dad decided to continue driving until we reached home.",
+      "promptZh": "我們本來可以在雨中停下，但爸爸決定繼續駕駛，直至回到家中。",
+      "starter": "We",
+      "answer": "We could have stopped in the rain, but Dad decided to drive on until we reached home.",
+      "answerZh": "我們本來可以在雨中停下，但爸爸決定繼續駕駛，直至回到家中。",
+      "highlight": "drive on",
+      "targetForm": "drive on",
+      "targetMeaningZh": "繼續駕駛"
+    }
+  ]
+}

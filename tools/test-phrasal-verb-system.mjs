@@ -150,6 +150,28 @@ test("only explicit lesson metadata creates blue phrase highlighting", () => {
   assert.match(css, /\.target-highlight\s*\{[^}]*color:\s*#2468c9[^}]*\}/s);
 });
 
+test("source rule examples render once and repeated sentence headings are suppressed", () => {
+  const source = functionSource("sourceExamples", "teachingCardsHtml");
+  const examples = runInSandbox(source, "sourceExamples(input)", {
+    input: {
+      examples: [{ en: "tidy it away", zh: "tidy it away", highlight: "tidy it away" }],
+      examplesEn: ["tidy it away", "tidy them up"]
+    }
+  });
+  assert.deepEqual(Array.from(examples, (example) => ({ ...example })), [
+    { en: "tidy it away", zh: "", highlight: "tidy it away" },
+    { en: "tidy them up", zh: "", highlight: "tidy them up" }
+  ]);
+  assert.equal(runInSandbox(source, "hasDistinctBilingualHeading(raw, item)", {
+    raw: { titleZh: "保留原句資料。", titleEn: "Keep the original details." },
+    item: { chinese: "保留原句資料。", english: "Keep the original details." }
+  }), false);
+  assert.equal(runInSandbox(source, "hasDistinctBilingualHeading(raw, item)", {
+    raw: { titleZh: "代詞位置", titleEn: "Pronoun placement" },
+    item: { chinese: "把代詞放在動詞與副詞之間。", english: "Place the pronoun between the verb and particle." }
+  }), true);
+});
+
 test("Pages 1–7 are Chinese-primary while exercise prompts are English-primary", () => {
   const formula = functionSource("renderFormulaPage", "bilingualItem");
   const benefits = functionSource("renderBenefitsPage", "renderOriginPage");
@@ -200,37 +222,47 @@ test("answer matching accepts source-approved variants while revealing the canon
 });
 
 const dataPath = path.join(root, "phrasal-verb-system-data.js");
-test("published Build data satisfies the dynamic no-image frontend contract", { skip: !fs.existsSync(dataPath) }, () => {
+test("published 35-lesson data satisfies the dynamic no-image frontend contract", { skip: !fs.existsSync(dataPath) }, () => {
   const context = { window: {} };
   vm.createContext(context);
   vm.runInContext(fs.readFileSync(dataPath, "utf8"), context, { filename: "phrasal-verb-system-data.js" });
   const content = context.window.EDMUND_PHRASAL_VERB_SYSTEM_DATA;
   assert.equal(content.system, "phrasal-verb");
-  assert.equal(content.questionCount, 70);
-  assert.equal(content.lessons.length, 1);
+  const expectedQuestionCounts = [70, 50, 70, 60, 50, 70, 70, 70, 50, 70, 50, 50, 50, 70, 50, 50, 50, 50, 70, 50, 60, 50, 60, 60, 50, 50, 60, 60, 50, 50, 50, 30, 50, 50, 70];
+  assert.equal(content.lessonCount, 35);
+  assert.equal(content.questionCount, expectedQuestionCounts.reduce((sum, count) => sum + count, 0));
+  assert.equal(content.lessons.length, 35);
   assert.equal(new Set(content.lessons.map(({ id }) => id)).size, content.lessons.length);
   assert.doesNotMatch(JSON.stringify(content), /\[object Object\]|\/Users\/|[A-Z]:\\/);
 
-  const lesson = content.lessons[0];
-  assert.equal(lesson.id, "phrasal-verb-01");
-  assert.equal(lesson.titleEn, "Build");
-  assert.equal(lesson.questions.length, 70);
-  assert.equal(lesson.meaningGroups.length, 10);
-  assert.equal(lesson.fixedVariable.forms.length, 10);
-  assert.equal(lesson.specificForms.length, 10);
-  assert.equal(lesson.benefits.length, 4);
-  assert.equal(lesson.rules.length, 4);
-  assert.equal(lesson.usageGuide.comparisons.length, 5);
-  assert.equal("image" in lesson, false);
-  assert.equal("illustration" in lesson, false);
-  assert.equal(lesson.questions.filter(({ acceptedAnswers }) => Array.isArray(acceptedAnswers) && acceptedAnswers.length).length, 21);
-  lesson.questions.forEach((question, index) => {
-    assert.equal(question.id, `${lesson.id}-q${String(index + 1).padStart(2, "0")}`);
-    assert.equal(question.number, index + 1);
-    assert.ok(question.prompt && question.promptZh);
-    assert.ok(question.answer && question.answerZh && question.starter && question.highlight);
-    if (question.acceptedAnswers !== undefined) assert.ok(Array.isArray(question.acceptedAnswers));
+  const expectedTitles = ["Build", "Catch", "Fly", "Answer", "Chase", "Clear", "Clean", "Grow", "Watch", "Wash", "Top", "Try", "Tidy", "Buy", "Switch", "Cool", "Bubble", "Breathe", "Drive", "Win", "Wind", "Copy", "Tell", "Wait", "Zoom", "Clock", "Boil", "Touch", "Box", "Cover", "Steal", "Centre", "Chop", "Cheat", "Close"];
+  content.lessons.forEach((lesson, lessonIndex) => {
+    const order = lessonIndex + 1;
+    assert.equal(lesson.id, `phrasal-verb-${String(order).padStart(2, "0")}`);
+    assert.equal(lesson.order, order);
+    assert.equal(lesson.titleEn.toLocaleLowerCase(), expectedTitles[lessonIndex].toLocaleLowerCase());
+    assert.equal(lesson.questions.length, expectedQuestionCounts[lessonIndex]);
+    assert.equal(lesson.groupCount, lesson.meaningGroups.length);
+    assert.equal(lesson.fixedVariable.forms.length, lesson.meaningGroups.length);
+    assert.equal(lesson.specificForms.length, lesson.meaningGroups.length);
+    assert.ok(lesson.benefits.length >= 1);
+    assert.ok(lesson.rules.length >= 1);
+    assert.equal("image" in lesson, false);
+    assert.equal("illustration" in lesson, false);
+    assert.ok(Number.isInteger(lesson.source.pageCount) && lesson.source.pageCount > 0);
+    lesson.questions.forEach((question, index) => {
+      assert.equal(question.id, `${lesson.id}-q${String(index + 1).padStart(2, "0")}`);
+      assert.equal(question.number, index + 1);
+      assert.ok(question.prompt && question.promptZh);
+      assert.ok(question.answer && question.answerZh && question.starter && question.highlight);
+      assert.ok(question.answer.toLocaleLowerCase().includes(question.highlight.toLocaleLowerCase()));
+      assert.ok(question.sourcePage >= 1 && question.sourcePage <= lesson.source.pageCount);
+      assert.ok(question.answerSourcePage >= 1 && question.answerSourcePage <= lesson.source.pageCount);
+      if (question.acceptedAnswers !== undefined) assert.ok(Array.isArray(question.acceptedAnswers));
+    });
   });
+  assert.match(content.lessons[14].source.file, /SWITCH/);
+  assert.match(content.lessons[15].source.file, /Cool/);
 });
 
 test("question totals, progress, completion and gold cards are data-derived", () => {
@@ -240,4 +272,30 @@ test("question totals, progress, completion and gold cards are data-derived", ()
   assert.match(app, /data-tone="\$\{complete \? "gold"/);
   assert.match(app, /const total = lesson\.questions\?\.length \|\| 0/);
   assert.match(app, /totalCount: lesson\?\.questions\?\.length \|\| 0/);
+});
+
+test("progress dashboard counts a question once across retries and later correction", () => {
+  const source = functionSource("questionActivityRows", "progressRangeStart");
+  const attempts = [{
+    id: "attempt-1",
+    lessonId: "phrasal-verb-01",
+    result: {
+      rounds: [
+        { round: 1, submittedAt: "2026-07-01T10:00:00.000Z", checkedIds: ["phrasal-verb-01-q01"], correctIds: [], incorrectIds: ["phrasal-verb-01-q01"] },
+        { round: 2, submittedAt: "2026-07-02T10:00:00.000Z", checkedIds: ["phrasal-verb-01-q01", "phrasal-verb-01-q01"], correctIds: [], incorrectIds: ["phrasal-verb-01-q01"] },
+        { round: 3, submittedAt: "2026-07-03T10:00:00.000Z", checkedIds: ["phrasal-verb-01-q01", "phrasal-verb-01-q02"], correctIds: ["phrasal-verb-01-q01", "phrasal-verb-01-q02"], incorrectIds: [] }
+      ]
+    }
+  }];
+  const rows = runInSandbox(source, "questionActivityRows(input)", {
+    input: attempts,
+    state: { attempts: [] },
+    getQuestion: (_lessonId, questionId) => ({ id: questionId })
+  });
+  assert.equal(rows.length, 2);
+  const corrected = rows.find(({ questionId }) => questionId === "phrasal-verb-01-q01");
+  assert.equal(corrected.status, "correct");
+  assert.equal(corrected.round, 3);
+  assert.equal(corrected.time, Date.parse("2026-07-01T10:00:00.000Z"));
+  assert.equal(corrected.correctedAt, Date.parse("2026-07-03T10:00:00.000Z"));
 });

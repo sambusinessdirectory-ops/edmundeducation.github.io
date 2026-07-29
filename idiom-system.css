@@ -1173,6 +1173,14 @@ body > .site-header.edmund-system-header {
   font-weight: 800;
 }
 
+.exercise-idiom-illustration figcaption small,
+.exercise-header > .exercise-header-top p small {
+  display: block;
+  margin-top: 4px;
+  font-size: .88em;
+  font-weight: 650;
+}
+
 .benefit-list,
 .rule-list { margin: 30px 0 0; padding: 0; display: grid; gap: 13px; list-style: none; }
 .benefit-card,

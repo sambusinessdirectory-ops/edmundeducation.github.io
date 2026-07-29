@@ -1,0 +1,2073 @@
+{
+  "id": "phrasal-verb-06",
+  "order": 6,
+  "slug": "clear",
+  "version": "1",
+  "title": "CLEAR 動詞片語",
+  "titleEn": "Clear",
+  "titleZh": "CLEAR 動詞片語",
+  "level": "",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verb 6 - Clear.pdf",
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CLEAR 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CLEAR."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CLEAR",
+      "highlight": "CLEAR"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "We cleared the plates away after dinner.",
+      "zh": "晚飯後，我們把碟子收走。",
+      "highlight": "cleared the plates away"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The boys cleared off when the owner appeared.",
+      "zh": "店主出現時，那些男孩很快便離開了。",
+      "highlight": "cleared off"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "She cleared out of the flat on Friday.",
+      "zh": "她在星期五搬離了那個單位。",
+      "highlight": "cleared out of"
+    }
+  ],
+  "meaning": {
+    "zh": "把不再需要、已用完或阻礙地方的東西移走或收走；走開；離開，通常屬於較口語的用法，有時語氣不客氣；完全離開某處，通常把自己的東西也帶走；使某人離開某處；驅散人群；把櫃、房間、袋等裏面的東西清空；澄清誤會；解決疑問或問題；雨停或天氣轉晴；收拾；整理地方或雜物。",
+    "en": "Learn and practise the phrasal verbs related to CLEAR.",
+    "naturalZh": [
+      "把不再需要、已用完或阻礙地方的東西移走或收走",
+      "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+      "完全離開某處，通常把自己的東西也帶走",
+      "使某人離開某處；驅散人群",
+      "把櫃、房間、袋等裏面的東西清空",
+      "澄清誤會；解決疑問或問題",
+      "雨停或天氣轉晴",
+      "收拾；整理地方或雜物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "clear away / clear something away",
+      "highlight": "clear away / clear something away",
+      "titleZh": "把不再需要、已用完或阻礙地方的東西移走或收走",
+      "titleEn": "clear away / clear something away",
+      "descriptionZh": "把不再需要、已用完或阻礙地方的東西移走或收走",
+      "descriptionEn": "We cleared the plates away after dinner.",
+      "examples": [
+        {
+          "en": "We cleared the plates away after dinner.",
+          "zh": "晚飯後，我們把碟子收走。",
+          "highlight": "cleared the plates away"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "clear off",
+      "highlight": "clear off",
+      "titleZh": "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+      "titleEn": "clear off",
+      "descriptionZh": "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+      "descriptionEn": "The boys cleared off when the owner appeared.",
+      "examples": [
+        {
+          "en": "The boys cleared off when the owner appeared.",
+          "zh": "店主出現時，那些男孩很快便離開了。",
+          "highlight": "cleared off"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "clear out / clear out of something",
+      "highlight": "clear out / clear out of something",
+      "titleZh": "完全離開某處，通常把自己的東西也帶走",
+      "titleEn": "clear out / clear out of something",
+      "descriptionZh": "完全離開某處，通常把自己的東西也帶走",
+      "descriptionEn": "She cleared out of the flat on Friday.",
+      "examples": [
+        {
+          "en": "She cleared out of the flat on Friday.",
+          "zh": "她在星期五搬離了那個單位。",
+          "highlight": "cleared out of"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "clear somebody away",
+      "highlight": "clear somebody away",
+      "titleZh": "使某人離開某處；驅散人群",
+      "titleEn": "clear somebody away",
+      "descriptionZh": "使某人離開某處；驅散人群",
+      "descriptionEn": "The police cleared the crowd away from the gate.",
+      "examples": [
+        {
+          "en": "The police cleared the crowd away from the gate.",
+          "zh": "警方驅散了閘門附近的人群。",
+          "highlight": "cleared the crowd away"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "pageGroup": 1,
+      "formula": "clear something out",
+      "highlight": "clear something out",
+      "titleZh": "把櫃、房間、袋等裏面的東西清空",
+      "titleEn": "clear something out",
+      "descriptionZh": "把櫃、房間、袋等裏面的東西清空",
+      "descriptionEn": "I cleared out the cupboard.",
+      "examples": [
+        {
+          "en": "I cleared out the cupboard.",
+          "zh": "我把櫃子清空了。",
+          "highlight": "cleared out"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "clear something up",
+      "highlight": "clear something up",
+      "titleZh": "澄清誤會；解決疑問或問題",
+      "titleEn": "clear something up",
+      "descriptionZh": "澄清誤會；解決疑問或問題",
+      "descriptionEn": "The email cleared up the misunderstanding.",
+      "examples": [
+        {
+          "en": "The email cleared up the misunderstanding.",
+          "zh": "這封電郵澄清了誤會。",
+          "highlight": "cleared up"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "pageGroup": 2,
+      "formula": "clear up",
+      "highlight": "clear up",
+      "titleZh": "雨停或天氣轉晴",
+      "titleEn": "clear up",
+      "descriptionZh": "雨停或天氣轉晴",
+      "descriptionEn": "The weather cleared up after lunch.",
+      "examples": [
+        {
+          "en": "The weather cleared up after lunch.",
+          "zh": "午飯後，天氣轉晴。",
+          "highlight": "cleared up"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "number": 8,
+      "pageGroup": 2,
+      "formula": "clear up / clear something up",
+      "highlight": "clear up / clear something up",
+      "titleZh": "收拾；整理地方或雜物",
+      "titleEn": "clear up / clear something up",
+      "descriptionZh": "收拾；整理地方或雜物",
+      "descriptionEn": "We cleared up after the party.",
+      "examples": [
+        {
+          "en": "We cleared up after the party.",
+          "zh": "派對結束後，我們收拾了地方。",
+          "highlight": "cleared up"
+        }
+      ],
+      "sourcePage": 3
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 CLEAR 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to CLEAR.",
+    "contextsZh": [
+      "把不再需要、已用完或阻礙地方的東西移走或收走",
+      "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+      "完全離開某處，通常把自己的東西也帶走",
+      "使某人離開某處；驅散人群",
+      "把櫃、房間、袋等裏面的東西清空",
+      "澄清誤會；解決疑問或問題",
+      "雨停或天氣轉晴",
+      "收拾；整理地方或雜物"
+    ],
+    "contextsEn": [
+      "clear away / clear something away",
+      "clear off",
+      "clear out / clear out of something",
+      "clear somebody away",
+      "clear something out",
+      "clear something up",
+      "clear up",
+      "clear up / clear something up"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 CLEAR 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CLEAR expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "CLEAR",
+    "fixedHighlight": "CLEAR",
+    "fixedZh": "閱讀整句，選出意思相同的 CLEAR 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CLEAR expression that gives the same meaning.",
+    "correct": "clear away / clear something away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 him、her、it 或 them 時，請按照以上例子放在正確位置。 clear off 屬於較口語的表達，有時語氣不太友善。clear out 和 clear up 各自可以表達多於一個意思，因此要仔細閱讀完整情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: Clear off is informal and may sound unfriendly. Clear out and clear up can each express more than one meaning, so read the full situation carefully.",
+    "variableItemsZh": [
+      "把不再需要、已用完或阻礙地方的東西移走或收走",
+      "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+      "完全離開某處，通常把自己的東西也帶走",
+      "使某人離開某處；驅散人群",
+      "把櫃、房間、袋等裏面的東西清空",
+      "澄清誤會；解決疑問或問題",
+      "雨停或天氣轉晴",
+      "收拾；整理地方或雜物"
+    ],
+    "variableItemsEn": [
+      "clear away / clear something away",
+      "clear off",
+      "clear out / clear out of something",
+      "clear somebody away",
+      "clear something out",
+      "clear something up",
+      "clear up",
+      "clear up / clear something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把不再需要、已用完或阻礙地方的東西移走或收走",
+        "formEn": "clear away / clear something away",
+        "exampleZh": "晚飯後，我們把碟子收走。",
+        "exampleEn": "We cleared the plates away after dinner.",
+        "highlight": "cleared the plates away"
+      },
+      {
+        "formZh": "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+        "formEn": "clear off",
+        "exampleZh": "店主出現時，那些男孩很快便離開了。",
+        "exampleEn": "The boys cleared off when the owner appeared.",
+        "highlight": "cleared off"
+      },
+      {
+        "formZh": "完全離開某處，通常把自己的東西也帶走",
+        "formEn": "clear out / clear out of something",
+        "exampleZh": "她在星期五搬離了那個單位。",
+        "exampleEn": "She cleared out of the flat on Friday.",
+        "highlight": "cleared out of"
+      },
+      {
+        "formZh": "使某人離開某處；驅散人群",
+        "formEn": "clear somebody away",
+        "exampleZh": "警方驅散了閘門附近的人群。",
+        "exampleEn": "The police cleared the crowd away from the gate.",
+        "highlight": "cleared the crowd away"
+      },
+      {
+        "formZh": "把櫃、房間、袋等裏面的東西清空",
+        "formEn": "clear something out",
+        "exampleZh": "我把櫃子清空了。",
+        "exampleEn": "I cleared out the cupboard.",
+        "highlight": "cleared out"
+      },
+      {
+        "formZh": "澄清誤會；解決疑問或問題",
+        "formEn": "clear something up",
+        "exampleZh": "這封電郵澄清了誤會。",
+        "exampleEn": "The email cleared up the misunderstanding.",
+        "highlight": "cleared up"
+      },
+      {
+        "formZh": "雨停或天氣轉晴",
+        "formEn": "clear up",
+        "exampleZh": "午飯後，天氣轉晴。",
+        "exampleEn": "The weather cleared up after lunch.",
+        "highlight": "cleared up"
+      },
+      {
+        "formZh": "收拾；整理地方或雜物",
+        "formEn": "clear up / clear something up",
+        "exampleZh": "派對結束後，我們收拾了地方。",
+        "exampleEn": "We cleared up after the party.",
+        "highlight": "cleared up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把不再需要、已用完或阻礙地方的東西移走或收走",
+      "titleEn": "clear away / clear something away",
+      "formula": "clear away / clear something away",
+      "highlight": "clear away / clear something away",
+      "descriptionZh": "把不再需要、已用完或阻礙地方的東西移走或收走",
+      "descriptionEn": "We cleared the plates away after dinner.",
+      "examples": [
+        {
+          "en": "We cleared the plates away after dinner.",
+          "zh": "晚飯後，我們把碟子收走。",
+          "highlight": "cleared the plates away"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+      "titleEn": "clear off",
+      "formula": "clear off",
+      "highlight": "clear off",
+      "descriptionZh": "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+      "descriptionEn": "The boys cleared off when the owner appeared.",
+      "examples": [
+        {
+          "en": "The boys cleared off when the owner appeared.",
+          "zh": "店主出現時，那些男孩很快便離開了。",
+          "highlight": "cleared off"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "完全離開某處，通常把自己的東西也帶走",
+      "titleEn": "clear out / clear out of something",
+      "formula": "clear out / clear out of something",
+      "highlight": "clear out / clear out of something",
+      "descriptionZh": "完全離開某處，通常把自己的東西也帶走",
+      "descriptionEn": "She cleared out of the flat on Friday.",
+      "examples": [
+        {
+          "en": "She cleared out of the flat on Friday.",
+          "zh": "她在星期五搬離了那個單位。",
+          "highlight": "cleared out of"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "使某人離開某處；驅散人群",
+      "titleEn": "clear somebody away",
+      "formula": "clear somebody away",
+      "highlight": "clear somebody away",
+      "descriptionZh": "使某人離開某處；驅散人群",
+      "descriptionEn": "The police cleared the crowd away from the gate.",
+      "examples": [
+        {
+          "en": "The police cleared the crowd away from the gate.",
+          "zh": "警方驅散了閘門附近的人群。",
+          "highlight": "cleared the crowd away"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "titleZh": "把櫃、房間、袋等裏面的東西清空",
+      "titleEn": "clear something out",
+      "formula": "clear something out",
+      "highlight": "clear something out",
+      "descriptionZh": "把櫃、房間、袋等裏面的東西清空",
+      "descriptionEn": "I cleared out the cupboard.",
+      "examples": [
+        {
+          "en": "I cleared out the cupboard.",
+          "zh": "我把櫃子清空了。",
+          "highlight": "cleared out"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "titleZh": "澄清誤會；解決疑問或問題",
+      "titleEn": "clear something up",
+      "formula": "clear something up",
+      "highlight": "clear something up",
+      "descriptionZh": "澄清誤會；解決疑問或問題",
+      "descriptionEn": "The email cleared up the misunderstanding.",
+      "examples": [
+        {
+          "en": "The email cleared up the misunderstanding.",
+          "zh": "這封電郵澄清了誤會。",
+          "highlight": "cleared up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "titleZh": "雨停或天氣轉晴",
+      "titleEn": "clear up",
+      "formula": "clear up",
+      "highlight": "clear up",
+      "descriptionZh": "雨停或天氣轉晴",
+      "descriptionEn": "The weather cleared up after lunch.",
+      "examples": [
+        {
+          "en": "The weather cleared up after lunch.",
+          "zh": "午飯後，天氣轉晴。",
+          "highlight": "cleared up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 3
+    },
+    {
+      "number": 8,
+      "titleZh": "收拾；整理地方或雜物",
+      "titleEn": "clear up / clear something up",
+      "formula": "clear up / clear something up",
+      "highlight": "clear up / clear something up",
+      "descriptionZh": "收拾；整理地方或雜物",
+      "descriptionEn": "We cleared up after the party.",
+      "examples": [
+        {
+          "en": "We cleared up after the party.",
+          "zh": "派對結束後，我們收拾了地方。",
+          "highlight": "cleared up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 3
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "談論移走物品及整理地方",
+      "titleEn": "Talk about making a place free and tidy",
+      "zh": "clear away、clear something out 和 clear up 可以幫助你描述收走物品、清空地方，以及在活動後收拾環境。",
+      "en": "Clear away, clear something out and clear up help you describe removing things, emptying spaces and tidying after an activity.",
+      "sourcePage": 3
+    },
+    {
+      "number": 2,
+      "titleZh": "描述不同的離開方式",
+      "titleEn": "Describe different ways of leaving a place",
+      "zh": "clear off 可以叫人走開；clear out 可以表示某人完全離開一個地方；clear somebody away 則表示使其他人離開。",
+      "en": "Clear off can tell someone to go away. Clear out can show that someone leaves a place completely, while clear somebody away describes making other people leave.",
+      "sourcePage": 3
+    },
+    {
+      "number": 3,
+      "titleZh": "談論疑問或誤會得到解決",
+      "titleEn": "Talk about problems becoming clear",
+      "zh": "當訊息、解釋或對話解決問題或消除疑惑時，可以使用 clear something up。",
+      "en": "Clear something up is useful when a message, explanation or conversation solves a problem or removes confusion.",
+      "sourcePage": 3
+    },
+    {
+      "number": 4,
+      "titleZh": "描述天氣好轉",
+      "titleEn": "Describe a change in the weather",
+      "zh": "clear up 可以自然地表示雨停了，而天氣亦開始轉好。",
+      "en": "Clear up provides a natural way to say that the rain has stopped and the weather has become better.",
+      "sourcePage": 3
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "把不再需要、已用完或阻礙地方的東西移走或收走",
+      "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+      "完全離開某處，通常把自己的東西也帶走",
+      "使某人離開某處；驅散人群",
+      "把櫃、房間、袋等裏面的東西清空",
+      "澄清誤會；解決疑問或問題",
+      "雨停或天氣轉晴",
+      "收拾；整理地方或雜物"
+    ],
+    "contextsEn": [
+      "clear away / clear something away",
+      "clear off",
+      "clear out / clear out of something",
+      "clear somebody away",
+      "clear something out",
+      "clear something up",
+      "clear up",
+      "clear up / clear something up"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "把不再需要、已用完或阻礙地方的東西移走或收走",
+        "titleEn": "clear away / clear something away",
+        "formula": "clear away / clear something away",
+        "highlight": "clear away / clear something away",
+        "zh": "把不再需要、已用完或阻礙地方的東西移走或收走",
+        "en": "We cleared the plates away after dinner.",
+        "examples": [
+          {
+            "en": "We cleared the plates away after dinner.",
+            "zh": "晚飯後，我們把碟子收走。",
+            "highlight": "cleared the plates away"
+          }
+        ]
+      },
+      {
+        "titleZh": "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+        "titleEn": "clear off",
+        "formula": "clear off",
+        "highlight": "clear off",
+        "zh": "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+        "en": "The boys cleared off when the owner appeared.",
+        "examples": [
+          {
+            "en": "The boys cleared off when the owner appeared.",
+            "zh": "店主出現時，那些男孩很快便離開了。",
+            "highlight": "cleared off"
+          }
+        ]
+      },
+      {
+        "titleZh": "完全離開某處，通常把自己的東西也帶走",
+        "titleEn": "clear out / clear out of something",
+        "formula": "clear out / clear out of something",
+        "highlight": "clear out / clear out of something",
+        "zh": "完全離開某處，通常把自己的東西也帶走",
+        "en": "She cleared out of the flat on Friday.",
+        "examples": [
+          {
+            "en": "She cleared out of the flat on Friday.",
+            "zh": "她在星期五搬離了那個單位。",
+            "highlight": "cleared out of"
+          }
+        ]
+      },
+      {
+        "titleZh": "使某人離開某處；驅散人群",
+        "titleEn": "clear somebody away",
+        "formula": "clear somebody away",
+        "highlight": "clear somebody away",
+        "zh": "使某人離開某處；驅散人群",
+        "en": "The police cleared the crowd away from the gate.",
+        "examples": [
+          {
+            "en": "The police cleared the crowd away from the gate.",
+            "zh": "警方驅散了閘門附近的人群。",
+            "highlight": "cleared the crowd away"
+          }
+        ]
+      },
+      {
+        "titleZh": "把櫃、房間、袋等裏面的東西清空",
+        "titleEn": "clear something out",
+        "formula": "clear something out",
+        "highlight": "clear something out",
+        "zh": "把櫃、房間、袋等裏面的東西清空",
+        "en": "I cleared out the cupboard.",
+        "examples": [
+          {
+            "en": "I cleared out the cupboard.",
+            "zh": "我把櫃子清空了。",
+            "highlight": "cleared out"
+          }
+        ]
+      },
+      {
+        "titleZh": "澄清誤會；解決疑問或問題",
+        "titleEn": "clear something up",
+        "formula": "clear something up",
+        "highlight": "clear something up",
+        "zh": "澄清誤會；解決疑問或問題",
+        "en": "The email cleared up the misunderstanding.",
+        "examples": [
+          {
+            "en": "The email cleared up the misunderstanding.",
+            "zh": "這封電郵澄清了誤會。",
+            "highlight": "cleared up"
+          }
+        ]
+      },
+      {
+        "titleZh": "雨停或天氣轉晴",
+        "titleEn": "clear up",
+        "formula": "clear up",
+        "highlight": "clear up",
+        "zh": "雨停或天氣轉晴",
+        "en": "The weather cleared up after lunch.",
+        "examples": [
+          {
+            "en": "The weather cleared up after lunch.",
+            "zh": "午飯後，天氣轉晴。",
+            "highlight": "cleared up"
+          }
+        ]
+      },
+      {
+        "titleZh": "收拾；整理地方或雜物",
+        "titleEn": "clear up / clear something up",
+        "formula": "clear up / clear something up",
+        "highlight": "clear up / clear something up",
+        "zh": "收拾；整理地方或雜物",
+        "en": "We cleared up after the party.",
+        "examples": [
+          {
+            "en": "We cleared up after the party.",
+            "zh": "派對結束後，我們收拾了地方。",
+            "highlight": "cleared up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 CLEAR 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CLEAR expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 CLEAR 片語動詞。",
+      "en": "Read the whole sentence and choose the CLEAR expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown:",
+      "zh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown:",
+      "examplesEn": [
+        "clear it away",
+        "clear them away",
+        "clear it out",
+        "clear it up"
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "clear off 屬於較口語的表達，有時語氣不太友善。clear out 和 clear up 各自可以表達多於一個意思，因此要仔細閱讀完整情境。",
+      "titleEn": "Clear off is informal and may sound unfriendly. Clear out and clear up can each express more than one meaning, so read the full situation carefully.",
+      "zh": "clear off 屬於較口語的表達，有時語氣不太友善。clear out 和 clear up 各自可以表達多於一個意思，因此要仔細閱讀完整情境。",
+      "en": "Clear off is informal and may sound unfriendly. Clear out and clear up can each express more than one meaning, so read the full situation carefully.",
+      "examplesEn": [],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "clear away / clear something away",
+      "meaningZh": "把不再需要、已用完或阻礙地方的東西移走或收走",
+      "exampleEn": "We cleared the plates away after dinner.",
+      "exampleZh": "晚飯後，我們把碟子收走。",
+      "highlight": "cleared the plates away",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "formula": "clear off",
+      "meaningZh": "走開；離開，通常屬於較口語的用法，有時語氣不客氣",
+      "exampleEn": "The boys cleared off when the owner appeared.",
+      "exampleZh": "店主出現時，那些男孩很快便離開了。",
+      "highlight": "cleared off",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "formula": "clear out / clear out of something",
+      "meaningZh": "完全離開某處，通常把自己的東西也帶走",
+      "exampleEn": "She cleared out of the flat on Friday.",
+      "exampleZh": "她在星期五搬離了那個單位。",
+      "highlight": "cleared out of",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "formula": "clear somebody away",
+      "meaningZh": "使某人離開某處；驅散人群",
+      "exampleEn": "The police cleared the crowd away from the gate.",
+      "exampleZh": "警方驅散了閘門附近的人群。",
+      "highlight": "cleared the crowd away",
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "formula": "clear something out",
+      "meaningZh": "把櫃、房間、袋等裏面的東西清空",
+      "exampleEn": "I cleared out the cupboard.",
+      "exampleZh": "我把櫃子清空了。",
+      "highlight": "cleared out",
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "formula": "clear something up",
+      "meaningZh": "澄清誤會；解決疑問或問題",
+      "exampleEn": "The email cleared up the misunderstanding.",
+      "exampleZh": "這封電郵澄清了誤會。",
+      "highlight": "cleared up",
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "formula": "clear up",
+      "meaningZh": "雨停或天氣轉晴",
+      "exampleEn": "The weather cleared up after lunch.",
+      "exampleZh": "午飯後，天氣轉晴。",
+      "highlight": "cleared up",
+      "sourcePage": 3
+    },
+    {
+      "number": 8,
+      "formula": "clear up / clear something up",
+      "meaningZh": "收拾；整理地方或雜物",
+      "exampleEn": "We cleared up after the party.",
+      "exampleZh": "派對結束後，我們收拾了地方。",
+      "highlight": "cleared up",
+      "sourcePage": 3
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CLEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CLEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CLEAR 動詞片語句子改寫練習",
+    "titleEn": "CLEAR Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CLEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CLEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-06-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "The rain stopped and the sky became bright before lunch.",
+      "promptZh": "午飯前，雨停了，天空也變得明亮。",
+      "starter": "The",
+      "answer": "The weather cleared up before lunch.",
+      "answerZh": "午飯前，天氣轉晴。",
+      "targetForm": "clear up",
+      "targetMeaningZh": "雨停或天氣轉晴",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Mum removed the empty cups after the visitors left.",
+      "promptZh": "客人離開後，媽媽把空杯收走。",
+      "starter": "Mum",
+      "answer": "Mum cleared the empty cups away after the visitors left.",
+      "answerZh": "客人離開後，媽媽把空杯收走。",
+      "targetForm": "clear something away",
+      "targetMeaningZh": "把東西移走或收走",
+      "highlight": "cleared the empty cups away"
+    },
+    {
+      "id": "phrasal-verb-06-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Leo left the flat completely and returned to Manchester.",
+      "promptZh": "里奧完全搬離了那個單位，返回曼徹斯特。",
+      "starter": "Leo",
+      "answer": "Leo cleared out of the flat and returned to Manchester.",
+      "answerZh": "里奧搬離了那個單位，返回曼徹斯特。",
+      "targetForm": "clear out of something",
+      "targetMeaningZh": "完全離開某處",
+      "highlight": "cleared out of"
+    },
+    {
+      "id": "phrasal-verb-06-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "We tidied the kitchen after dinner.",
+      "promptZh": "晚飯後，我們把廚房收拾好。",
+      "starter": "We",
+      "answer": "We cleared up the kitchen after dinner.",
+      "answerZh": "晚飯後，我們把廚房收拾好。",
+      "targetForm": "clear up",
+      "targetMeaningZh": "收拾；整理地方",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Please go away and stop blocking the gate.",
+      "promptZh": "請走開，不要再擋住大門。",
+      "starter": "Please",
+      "answer": "Please clear off and stop blocking the gate.",
+      "answerZh": "請走開，不要再擋住大門。",
+      "targetForm": "clear off",
+      "targetMeaningZh": "走開；離開",
+      "highlight": "clear off"
+    },
+    {
+      "id": "phrasal-verb-06-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "I removed everything from the bottom drawer yesterday.",
+      "promptZh": "我昨天把最下面的抽屜清空。",
+      "starter": "I",
+      "answer": "I cleared out the bottom drawer yesterday.",
+      "answerZh": "我昨天把最下面的抽屜清空。",
+      "targetForm": "clear something out",
+      "targetMeaningZh": "把某處或容器清空",
+      "highlight": "cleared out"
+    },
+    {
+      "id": "phrasal-verb-06-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The police made the crowd leave the entrance.",
+      "promptZh": "警方驅散了入口處的人群。",
+      "starter": "The",
+      "answer": "The police cleared the crowd away from the entrance.",
+      "answerZh": "警方驅散了入口處的人群。",
+      "targetForm": "clear somebody away",
+      "targetMeaningZh": "使某人離開某處；驅散",
+      "highlight": "cleared the crowd away"
+    },
+    {
+      "id": "phrasal-verb-06-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Her message resolved the misunderstanding.",
+      "promptZh": "她的訊息解決了這場誤會。",
+      "starter": "Her",
+      "answer": "Her message cleared up the misunderstanding.",
+      "answerZh": "她的訊息澄清了這場誤會。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "澄清或解決問題",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The waiter removed the plates after lunch.",
+      "promptZh": "午飯後，侍應把碟子收走。",
+      "starter": "The",
+      "answer": "The waiter cleared away the plates after lunch.",
+      "answerZh": "午飯後，侍應把碟子收走。",
+      "targetForm": "clear away",
+      "targetMeaningZh": "把東西移走或收走",
+      "highlight": "cleared away"
+    },
+    {
+      "id": "phrasal-verb-06-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Sara removed all the old clothes from the wardrobe.",
+      "promptZh": "莎拉把衣櫃內所有舊衣服都拿走。",
+      "starter": "Sara",
+      "answer": "Sara cleared all the old clothes out of the wardrobe.",
+      "answerZh": "莎拉把衣櫃內所有舊衣服都拿走。",
+      "targetForm": "clear something out",
+      "targetMeaningZh": "把某處或容器清空",
+      "highlight": "cleared all the old clothes out"
+    },
+    {
+      "id": "phrasal-verb-06-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The family left the house with all their bags before the storm reached the town.",
+      "promptZh": "暴風雨抵達小鎮前，那家人帶着所有行李離開了房子。",
+      "starter": "The",
+      "answer": "The family cleared out of the house with all their bags before the storm reached the town.",
+      "answerZh": "暴風雨抵達小鎮前，那家人帶着所有行李離開了房子。",
+      "targetForm": "clear out of something",
+      "targetMeaningZh": "完全離開某處",
+      "highlight": "cleared out of"
+    },
+    {
+      "id": "phrasal-verb-06-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Security staff made the fans move away from the door.",
+      "promptZh": "保安人員請球迷離開門口。",
+      "starter": "Security",
+      "answer": "Security staff cleared the fans away from the door.",
+      "answerZh": "保安人員請球迷離開門口。",
+      "targetForm": "clear somebody away",
+      "targetMeaningZh": "使某人離開某處",
+      "highlight": "cleared the fans away"
+    },
+    {
+      "id": "phrasal-verb-06-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Ben tidied the playroom before bedtime.",
+      "promptZh": "睡覺前，賓把遊戲房收拾好。",
+      "starter": "Ben",
+      "answer": "Ben cleared up the playroom before bedtime.",
+      "answerZh": "睡覺前，賓把遊戲房收拾好。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "收拾；整理地方",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The teenagers went away quickly when the shop owner appeared.",
+      "promptZh": "店主出現時，那些青少年很快便離開了。",
+      "starter": "The",
+      "answer": "The teenagers cleared off when the shop owner appeared.",
+      "answerZh": "店主出現時，那些青少年很快便離開了。",
+      "targetForm": "clear off",
+      "targetMeaningZh": "走開；離開",
+      "highlight": "cleared off"
+    },
+    {
+      "id": "phrasal-verb-06-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Those boys always go away when a teacher approaches.",
+      "promptZh": "老師走近時，那些男孩總會離開。",
+      "starter": "Those",
+      "answer": "Those boys always clear off when a teacher approaches.",
+      "answerZh": "老師走近時，那些男孩總會離開。",
+      "targetForm": "clear off",
+      "targetMeaningZh": "走開；離開",
+      "highlight": "clear off"
+    },
+    {
+      "id": "phrasal-verb-06-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Nina is tidying the living room now.",
+      "promptZh": "妮娜現在正在收拾客廳。",
+      "starter": "Nina",
+      "answer": "Nina is clearing up the living room now.",
+      "answerZh": "妮娜現在正在收拾客廳。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "收拾；整理地方",
+      "highlight": "clearing up"
+    },
+    {
+      "id": "phrasal-verb-06-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Why did Amir suddenly leave the shared flat for good?",
+      "promptZh": "阿米爾為甚麼突然永遠離開那個合租單位？",
+      "starter": "Why",
+      "answer": "Why did Amir suddenly clear out of the shared flat for good?",
+      "answerZh": "阿米爾為甚麼突然永遠離開那個合租單位？",
+      "targetForm": "clear out of something",
+      "targetMeaningZh": "完全離開某處",
+      "highlight": "clear out of"
+    },
+    {
+      "id": "phrasal-verb-06-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The clouds are disappearing, and the sky is becoming bright at last.",
+      "promptZh": "雲層正在散去，天空終於開始變得明亮。",
+      "starter": "The",
+      "answer": "The sky is clearing up at last.",
+      "answerZh": "天空終於開始放晴。",
+      "targetForm": "clear up",
+      "targetMeaningZh": "雨停或天氣轉晴",
+      "highlight": "clearing up"
+    },
+    {
+      "id": "phrasal-verb-06-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Please remove these boxes before the class starts.",
+      "promptZh": "請在課堂開始前移走這些箱子。",
+      "starter": "Please",
+      "answer": "Please clear these boxes away before the class starts.",
+      "answerZh": "請在課堂開始前移走這些箱子。",
+      "targetForm": "clear something away",
+      "targetMeaningZh": "把東西移走或收走",
+      "highlight": "clear these boxes away"
+    },
+    {
+      "id": "phrasal-verb-06-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The officers had made the reporters move away from the gate before the car arrived.",
+      "promptZh": "汽車抵達前，警員已請記者離開閘門。",
+      "starter": "The",
+      "answer": "The officers had cleared the reporters away from the gate before the car arrived.",
+      "answerZh": "汽車抵達前，警員已請記者離開閘門。",
+      "targetForm": "clear somebody away",
+      "targetMeaningZh": "使某人離開某處",
+      "highlight": "cleared the reporters away"
+    },
+    {
+      "id": "phrasal-verb-06-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "This short meeting should solve the problem.",
+      "promptZh": "這次簡短會議應該可以解決問題。",
+      "starter": "This",
+      "answer": "This short meeting should clear up the problem.",
+      "answerZh": "這次簡短會議應該可以解決問題。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "澄清或解決問題",
+      "highlight": "clear up"
+    },
+    {
+      "id": "phrasal-verb-06-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "We have emptied the spare room for our guest.",
+      "promptZh": "我們已把客房清空，讓客人使用。",
+      "starter": "We",
+      "answer": "We have cleared out the spare room for our guest.",
+      "answerZh": "我們已把客房清空，讓客人使用。",
+      "targetForm": "clear something out",
+      "targetMeaningZh": "把某處或容器清空",
+      "highlight": "cleared out"
+    },
+    {
+      "id": "phrasal-verb-06-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Maya has left the office for good and returned her key.",
+      "promptZh": "瑪雅已永久離開辦公室，並交還鎖匙。",
+      "starter": "Maya",
+      "answer": "Maya has cleared out of the office and returned her key.",
+      "answerZh": "瑪雅已永久離開辦公室，並交還鎖匙。",
+      "targetForm": "clear out of something",
+      "targetMeaningZh": "完全離開某處",
+      "highlight": "cleared out of"
+    },
+    {
+      "id": "phrasal-verb-06-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Could you tidy the mess before we eat?",
+      "promptZh": "我們吃東西前，你可以收拾好這些雜物嗎？",
+      "starter": "Could",
+      "answer": "Could you clear up the mess before we eat?",
+      "answerZh": "我們吃東西前，你可以收拾好這些雜物嗎？",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "收拾；整理雜物",
+      "highlight": "clear up"
+    },
+    {
+      "id": "phrasal-verb-06-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The rain may stop and the weather may become fine later this afternoon.",
+      "promptZh": "今天下午較後時間，雨可能會停，天氣亦可能轉好。",
+      "starter": "It",
+      "answer": "It may clear up later this afternoon.",
+      "answerZh": "今天下午較後時間，天氣可能轉好。",
+      "targetForm": "clear up",
+      "targetMeaningZh": "雨停或天氣轉晴",
+      "highlight": "clear up"
+    },
+    {
+      "id": "phrasal-verb-06-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The guard is making people move away from the broken lift.",
+      "promptZh": "保安員正在請人們離開故障的升降機。",
+      "starter": "The",
+      "answer": "The guard is clearing people away from the broken lift.",
+      "answerZh": "保安員正在請人們離開故障的升降機。",
+      "targetForm": "clear somebody away",
+      "targetMeaningZh": "使某人離開某處",
+      "highlight": "clearing people away"
+    },
+    {
+      "id": "phrasal-verb-06-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "I have already removed the papers.",
+      "promptZh": "我已經把那些文件收走。",
+      "starter": "I",
+      "answer": "I have already cleared the papers away.",
+      "answerZh": "我已經把那些文件收走。",
+      "targetForm": "clear something away",
+      "targetMeaningZh": "把東西移走或收走",
+      "highlight": "cleared the papers away"
+    },
+    {
+      "id": "phrasal-verb-06-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "Has the manager resolved the confusion about our working hours?",
+      "promptZh": "經理是否已經解決了有關工作時間的疑問？",
+      "starter": "Has",
+      "answer": "Has the manager cleared up the confusion about our working hours?",
+      "answerZh": "經理是否已經解決了有關工作時間的疑問？",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "澄清或解決問題",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The cups were empty, so Ella removed them.",
+      "promptZh": "杯子已經空了，所以埃拉把它們收走。",
+      "starter": "The",
+      "answer": "The cups were empty, so Ella cleared them away.",
+      "answerZh": "杯子已經空了，所以埃拉把它們收走。",
+      "targetForm": "clear something away",
+      "targetMeaningZh": "把東西移走或收走",
+      "highlight": "cleared them away"
+    },
+    {
+      "id": "phrasal-verb-06-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "You were confused about the rule. I hope this example explains it clearly for you.",
+      "promptZh": "你對這項規則感到困惑。我希望這個例子能為你解釋清楚。",
+      "starter": "You",
+      "answer": "You were confused about the rule. I hope this example clears it up for you.",
+      "answerZh": "你對這項規則感到困惑。我希望這個例子能為你解釋清楚。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "澄清疑問",
+      "highlight": "clears it up"
+    },
+    {
+      "id": "phrasal-verb-06-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "If the dog comes back, tell it to go away.",
+      "promptZh": "如果那隻狗再次回來，便叫牠走開。",
+      "starter": "If",
+      "answer": "If the dog comes back, tell it to clear off.",
+      "answerZh": "如果那隻狗再次回來，便叫牠走開。",
+      "targetForm": "clear off",
+      "targetMeaningZh": "走開；離開",
+      "highlight": "clear off"
+    },
+    {
+      "id": "phrasal-verb-06-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The party is over, and we are tidying everything.",
+      "promptZh": "派對已經結束，我們正在收拾所有東西。",
+      "starter": "The",
+      "answer": "The party is over, and we are clearing everything up.",
+      "answerZh": "派對已經結束，我們正在收拾所有東西。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "收拾；整理雜物",
+      "highlight": "clearing everything up"
+    },
+    {
+      "id": "phrasal-verb-06-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "After the argument, Tom left the flat with all his things and stayed with his brother.",
+      "promptZh": "爭吵後，湯姆帶着所有物品離開單位，並暫住在哥哥家中。",
+      "starter": "After",
+      "answer": "After the argument, Tom cleared out of the flat with all his things and stayed with his brother.",
+      "answerZh": "爭吵後，湯姆帶着所有物品離開單位，並暫住在哥哥家中。",
+      "targetForm": "clear out of something",
+      "targetMeaningZh": "完全離開某處",
+      "highlight": "cleared out of"
+    },
+    {
+      "id": "phrasal-verb-06-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The rain had stopped, and the sky was bright by the time we left.",
+      "promptZh": "我們離開時，雨已經停了，天空亦已放晴。",
+      "starter": "The",
+      "answer": "The weather had cleared up by the time we left.",
+      "answerZh": "我們離開時，天氣已經轉晴。",
+      "targetForm": "clear up",
+      "targetMeaningZh": "雨停或天氣轉晴",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The cupboard was full of broken cups, so we removed everything from it.",
+      "promptZh": "櫃子裏全是破杯子，所以我們把裏面的東西全部拿走。",
+      "starter": "The",
+      "answer": "The cupboard was full of broken cups, so we cleared it out.",
+      "answerZh": "櫃子裏全是破杯子，所以我們把它清空。",
+      "targetForm": "clear something out",
+      "targetMeaningZh": "把某處或容器清空",
+      "highlight": "cleared it out"
+    },
+    {
+      "id": "phrasal-verb-06-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "Several children were standing too close to the platform edge, so the station staff made them move away.",
+      "promptZh": "幾名小童站得太接近月台邊緣，所以車站職員請他們離開。",
+      "starter": "Several",
+      "answer": "Several children were standing too close to the platform edge, so the station staff cleared them away.",
+      "answerZh": "幾名小童站得太接近月台邊緣，所以車站職員請他們離開。",
+      "targetForm": "clear somebody away",
+      "targetMeaningZh": "使某人離開某處",
+      "highlight": "cleared them away"
+    },
+    {
+      "id": "phrasal-verb-06-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "We need to solve the date problem before sending the invitations.",
+      "promptZh": "我們需要在寄出邀請函前解決日期問題。",
+      "starter": "We",
+      "answer": "We need to clear up the date problem before sending the invitations.",
+      "answerZh": "我們需要在寄出邀請函前解決日期問題。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "澄清或解決問題",
+      "highlight": "clear up"
+    },
+    {
+      "id": "phrasal-verb-06-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The landlord asked the family to leave the flat completely by Friday.",
+      "promptZh": "業主要求那家人在星期五前完全搬離單位。",
+      "starter": "The",
+      "answer": "The landlord asked the family to clear out by Friday.",
+      "answerZh": "業主要求那家人在星期五前完全搬離單位。",
+      "targetForm": "clear out",
+      "targetMeaningZh": "完全離開某處",
+      "highlight": "clear out"
+    },
+    {
+      "id": "phrasal-verb-06-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "If the rain stops and the weather improves, we can play outside.",
+      "promptZh": "如果雨停而天氣轉好，我們便可以在外面玩。",
+      "starter": "If",
+      "answer": "If it clears up, we can play outside.",
+      "answerZh": "如果天氣轉好，我們便可以在外面玩。",
+      "targetForm": "clear up",
+      "targetMeaningZh": "雨停或天氣轉晴",
+      "highlight": "clears up"
+    },
+    {
+      "id": "phrasal-verb-06-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "The man refused to go away, so the guard called for help.",
+      "promptZh": "那名男子拒絕離開，所以保安員召喚協助。",
+      "starter": "The",
+      "answer": "The man refused to clear off, so the guard called for help.",
+      "answerZh": "那名男子拒絕離開，所以保安員召喚協助。",
+      "targetForm": "clear off",
+      "targetMeaningZh": "走開；離開",
+      "highlight": "clear off"
+    },
+    {
+      "id": "phrasal-verb-06-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "The kitchen is a mess. Please tidy it before Mum comes home.",
+      "promptZh": "廚房非常凌亂。請在媽媽回家前把它收拾好。",
+      "starter": "The",
+      "answer": "The kitchen is a mess. Please clear it up before Mum comes home.",
+      "answerZh": "廚房非常凌亂。請在媽媽回家前把它收拾好。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "收拾；整理地方",
+      "highlight": "clear it up"
+    },
+    {
+      "id": "phrasal-verb-06-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "Before moving, we emptied the garage completely.",
+      "promptZh": "搬屋前，我們把車房完全清空。",
+      "starter": "Before",
+      "answer": "Before moving, we cleared the garage out completely.",
+      "answerZh": "搬屋前，我們把車房完全清空。",
+      "targetForm": "clear something out",
+      "targetMeaningZh": "把某處或容器清空",
+      "highlight": "cleared the garage out"
+    },
+    {
+      "id": "phrasal-verb-06-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "Although it rained all morning, the weather became fine before the match.",
+      "promptZh": "雖然整個早上都在下雨，但比賽開始前天氣轉好了。",
+      "starter": "Although",
+      "answer": "Although it rained all morning, it cleared up before the match.",
+      "answerZh": "雖然整個早上都在下雨，但比賽開始前天氣轉好了。",
+      "targetForm": "clear up",
+      "targetMeaningZh": "雨停或天氣轉晴",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "The police made the demonstrators leave the area without closing the whole street.",
+      "promptZh": "警方在沒有封閉整條街道的情況下，驅散了示威者。",
+      "starter": "The",
+      "answer": "The police cleared the demonstrators away without closing the whole street.",
+      "answerZh": "警方在沒有封閉整條街道的情況下，驅散了示威者。",
+      "targetForm": "clear somebody away",
+      "targetMeaningZh": "使某人離開某處；驅散",
+      "highlight": "cleared the demonstrators away"
+    },
+    {
+      "id": "phrasal-verb-06-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 24,
+      "prompt": "Once the guests had finished, Maya removed the used glasses.",
+      "promptZh": "客人用完杯子後，瑪雅便把它們收走。",
+      "starter": "Once",
+      "answer": "Once the guests had finished, Maya cleared away the used glasses.",
+      "answerZh": "客人用完杯子後，瑪雅便把它們收走。",
+      "targetForm": "clear away",
+      "targetMeaningZh": "把東西移走或收走",
+      "highlight": "cleared away"
+    },
+    {
+      "id": "phrasal-verb-06-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "The photo solved the mystery of who had taken the bag.",
+      "promptZh": "那張照片解開了誰拿走袋子的疑團。",
+      "starter": "The",
+      "answer": "The photo cleared up the mystery of who had taken the bag.",
+      "answerZh": "那張照片解開了誰拿走袋子的疑團。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "澄清或解決問題",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "We should tidy the area after the picnic before we leave.",
+      "promptZh": "我們離開前，應該把野餐後的地方收拾好。",
+      "starter": "We",
+      "answer": "We should clear up after the picnic before we leave.",
+      "answerZh": "我們離開前，應該把野餐後的地方收拾好。",
+      "targetForm": "clear up",
+      "targetMeaningZh": "收拾；整理地方",
+      "highlight": "clear up"
+    },
+    {
+      "id": "phrasal-verb-06-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "The café owner told the noisy group to go away.",
+      "promptZh": "咖啡店店主叫那群吵鬧的人離開。",
+      "starter": "The",
+      "answer": "The café owner told the noisy group to clear off.",
+      "answerZh": "咖啡店店主叫那群吵鬧的人離開。",
+      "targetForm": "clear off",
+      "targetMeaningZh": "走開；離開",
+      "highlight": "clear off"
+    },
+    {
+      "id": "phrasal-verb-06-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "Ravi removed everything from his school bag and found the missing key.",
+      "promptZh": "拉維把書包內所有東西拿出來，並找到了失去的鎖匙。",
+      "starter": "Ravi",
+      "answer": "Ravi cleared out his school bag and found the missing key.",
+      "answerZh": "拉維把書包清空，並找到了失去的鎖匙。",
+      "targetForm": "clear something out",
+      "targetMeaningZh": "把某處或容器清空",
+      "highlight": "cleared out"
+    },
+    {
+      "id": "phrasal-verb-06-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "She did not just leave for the evening; she left the flat completely and took all her things.",
+      "promptZh": "她不只是晚上暫時離開；她帶走所有物品，完全搬離了單位。",
+      "starter": "She",
+      "answer": "She did not just leave for the evening; she cleared out of the flat completely and took all her things.",
+      "answerZh": "她不只是晚上暫時離開；她帶走所有物品，完全搬離了單位。",
+      "targetForm": "clear out of something",
+      "targetMeaningZh": "完全離開某處",
+      "highlight": "cleared out of"
+    },
+    {
+      "id": "phrasal-verb-06-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 25,
+      "prompt": "The wet floor was unsafe, so the stewards made everyone move away.",
+      "promptZh": "濕滑的地面並不安全，所以工作人員請所有人離開。",
+      "starter": "The",
+      "answer": "The wet floor was unsafe, so the stewards cleared everyone away.",
+      "answerZh": "濕滑的地面並不安全，所以工作人員請所有人離開。",
+      "targetForm": "clear somebody away",
+      "targetMeaningZh": "使某人離開某處",
+      "highlight": "cleared everyone away"
+    },
+    {
+      "id": "phrasal-verb-06-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 25,
+      "prompt": "Who is going to tidy the room after the painting class?",
+      "promptZh": "繪畫課後，誰會收拾這個房間？",
+      "starter": "Who",
+      "answer": "Who is going to clear the room up after the painting class?",
+      "answerZh": "繪畫課後，誰會收拾這個房間？",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "收拾；整理地方",
+      "highlight": "clear the room up"
+    },
+    {
+      "id": "phrasal-verb-06-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 25,
+      "prompt": "A quick phone call solved the booking problem before anyone became angry.",
+      "promptZh": "一通簡短電話在任何人發怒前解決了預約問題。",
+      "starter": "A",
+      "answer": "A quick phone call cleared up the booking problem before anyone became angry.",
+      "answerZh": "一通簡短電話在任何人發怒前解決了預約問題。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "澄清或解決問題",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 25,
+      "prompt": "The path was blocked by fallen branches, so we removed them.",
+      "promptZh": "小路被掉下來的樹枝阻塞，所以我們把它們移走。",
+      "starter": "The",
+      "answer": "The path was blocked by fallen branches, so we cleared them away.",
+      "answerZh": "小路被掉下來的樹枝阻塞，所以我們把它們移走。",
+      "targetForm": "clear something away",
+      "targetMeaningZh": "把東西移走或收走",
+      "highlight": "cleared them away"
+    },
+    {
+      "id": "phrasal-verb-06-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 25,
+      "prompt": "The café emptied the kitchen before new shelves were fitted.",
+      "promptZh": "咖啡店在安裝新架子前把廚房清空。",
+      "starter": "The",
+      "answer": "The café cleared the kitchen out before new shelves were fitted.",
+      "answerZh": "咖啡店在安裝新架子前把廚房清空。",
+      "targetForm": "clear something out",
+      "targetMeaningZh": "把某處或容器清空",
+      "highlight": "cleared the kitchen out"
+    },
+    {
+      "id": "phrasal-verb-06-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 25,
+      "prompt": "You cannot stay in this private area; please go away.",
+      "promptZh": "你不能逗留在這個私人地方；請離開。",
+      "starter": "You",
+      "answer": "You cannot stay in this private area; please clear off.",
+      "answerZh": "你不能逗留在這個私人地方；請離開。",
+      "targetForm": "clear off",
+      "targetMeaningZh": "走開；離開",
+      "highlight": "clear off"
+    },
+    {
+      "id": "phrasal-verb-06-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "After the school fair ended, the students tidied everything before going home.",
+      "promptZh": "學校嘉年華結束後，學生在回家前把所有東西收拾好。",
+      "starter": "After",
+      "answer": "After the school fair ended, the students cleared everything up before going home.",
+      "answerZh": "學校嘉年華結束後，學生在回家前把所有東西收拾好。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "收拾；整理雜物",
+      "highlight": "cleared everything up"
+    },
+    {
+      "id": "phrasal-verb-06-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "By Monday, the old tenants had left the flat completely and returned the keys.",
+      "promptZh": "到了星期一，舊租客已完全搬離單位並交還鎖匙。",
+      "starter": "By",
+      "answer": "By Monday, the old tenants had cleared out of the flat and returned the keys.",
+      "answerZh": "到了星期一，舊租客已完全搬離單位並交還鎖匙。",
+      "targetForm": "clear out of something",
+      "targetMeaningZh": "完全離開某處",
+      "highlight": "cleared out of"
+    },
+    {
+      "id": "phrasal-verb-06-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "The forecast was right: the rain stopped and the weather improved just as we reached the beach.",
+      "promptZh": "天氣預報是正確的：我們剛到達海灘時，雨便停了，天氣亦轉好。",
+      "starter": "The",
+      "answer": "The forecast was right: the weather cleared up just as we reached the beach.",
+      "answerZh": "天氣預報是正確的：我們剛到達海灘時，天氣便轉好。",
+      "targetForm": "clear up",
+      "targetMeaningZh": "雨停或天氣轉晴",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "To make room for the wheelchairs, staff removed the loose chairs.",
+      "promptZh": "為騰出空間給輪椅使用者，職員移走了可移動的椅子。",
+      "starter": "To",
+      "answer": "To make room for the wheelchairs, staff cleared the loose chairs away.",
+      "answerZh": "為騰出空間給輪椅使用者，職員移走了可移動的椅子。",
+      "targetForm": "clear something away",
+      "targetMeaningZh": "把東西移走或收走",
+      "highlight": "cleared the loose chairs away"
+    },
+    {
+      "id": "phrasal-verb-06-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "Because the road was unsafe, officers made local people leave the area.",
+      "promptZh": "由於道路並不安全，警員請附近居民離開該區。",
+      "starter": "Because",
+      "answer": "Because the road was unsafe, officers cleared local people away from the area.",
+      "answerZh": "由於道路並不安全，警員請附近居民離開該區。",
+      "targetForm": "clear somebody away",
+      "targetMeaningZh": "使某人離開某處",
+      "highlight": "cleared local people away"
+    },
+    {
+      "id": "phrasal-verb-06-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "The teacher used one simple example to explain the difference between the two words.",
+      "promptZh": "老師用了一個簡單例子，解釋兩個詞語之間的分別。",
+      "starter": "The",
+      "answer": "The teacher used one simple example to clear up the difference between the two words.",
+      "answerZh": "老師用了一個簡單例子，解釋兩個詞語之間的分別。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "澄清疑問或分別",
+      "highlight": "clear up"
+    },
+    {
+      "id": "phrasal-verb-06-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "We emptied the desk and found letters from ten years ago.",
+      "promptZh": "我們把書桌清空，並找到十年前的信件。",
+      "starter": "We",
+      "answer": "We cleared the desk out and found letters from ten years ago.",
+      "answerZh": "我們把書桌清空，並找到十年前的信件。",
+      "targetForm": "clear something out",
+      "targetMeaningZh": "把某處或容器清空",
+      "highlight": "cleared the desk out"
+    },
+    {
+      "id": "phrasal-verb-06-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "When the farmer opened the gate, the children went away at once.",
+      "promptZh": "農夫打開閘門時，孩子們立即離開。",
+      "starter": "When",
+      "answer": "When the farmer opened the gate, the children cleared off at once.",
+      "answerZh": "農夫打開閘門時，孩子們立即離開。",
+      "targetForm": "clear off",
+      "targetMeaningZh": "走開；離開",
+      "highlight": "cleared off"
+    },
+    {
+      "id": "phrasal-verb-06-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "He had planned to stay, but after the argument he left the house completely that night.",
+      "promptZh": "他原本打算留下，但爭吵後，他在當晚完全離開了房子。",
+      "starter": "He",
+      "answer": "He had planned to stay, but after the argument he cleared out of the house that night.",
+      "answerZh": "他原本打算留下，但爭吵後，他在當晚完全離開了房子。",
+      "targetForm": "clear out of something",
+      "targetMeaningZh": "完全離開某處",
+      "highlight": "cleared out of"
+    },
+    {
+      "id": "phrasal-verb-06-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "Please remove the bags so nobody trips over them.",
+      "promptZh": "請移走這些袋子，以免有人被它們絆倒。",
+      "starter": "Please",
+      "answer": "Please clear the bags away so nobody trips over them.",
+      "answerZh": "請移走這些袋子，以免有人被它們絆倒。",
+      "targetForm": "clear something away",
+      "targetMeaningZh": "把東西移走或收走",
+      "highlight": "clear the bags away"
+    },
+    {
+      "id": "phrasal-verb-06-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "The rain did not stop and the weather did not improve until the outdoor concert was nearly over.",
+      "promptZh": "直至戶外音樂會接近完結時，雨才停止，天氣才開始轉好。",
+      "starter": "The",
+      "answer": "The weather did not clear up until the outdoor concert was nearly over.",
+      "answerZh": "直至戶外音樂會接近完結時，天氣才開始轉好。",
+      "targetForm": "clear up",
+      "targetMeaningZh": "雨停或天氣轉晴",
+      "highlight": "clear up"
+    },
+    {
+      "id": "phrasal-verb-06-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "Before selling the cupboard, Ella emptied it and cleaned the shelves.",
+      "promptZh": "出售櫃子前，埃拉把它清空，並清潔了架子。",
+      "starter": "Before",
+      "answer": "Before selling the cupboard, Ella cleared it out and cleaned the shelves.",
+      "answerZh": "出售櫃子前，埃拉把它清空，並清潔了架子。",
+      "targetForm": "clear something out",
+      "targetMeaningZh": "把某處或容器清空",
+      "highlight": "cleared it out"
+    },
+    {
+      "id": "phrasal-verb-06-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "promptZhSourcePage": 16,
+      "answerSourcePage": 28,
+      "answerZhSourcePage": 28,
+      "prompt": "The new timetable made the Friday classes clear to us.",
+      "promptZh": "新的時間表令我們清楚了解星期五的課堂安排。",
+      "starter": "The",
+      "answer": "The new timetable cleared up our confusion about the Friday classes.",
+      "answerZh": "新的時間表消除了我們對星期五課堂安排的疑問。",
+      "targetForm": "clear something up",
+      "targetMeaningZh": "澄清疑問或誤會",
+      "highlight": "cleared up"
+    },
+    {
+      "id": "phrasal-verb-06-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "promptZhSourcePage": 16,
+      "answerSourcePage": 28,
+      "answerZhSourcePage": 16,
+      "prompt": "The police made the last few people leave before the building was closed.",
+      "promptZh": "大樓關閉前，警方請最後幾個人離開。",
+      "starter": "The",
+      "answer": "The police cleared the last few people away before the building was closed.",
+      "answerZh": "大樓關閉前，警方請最後幾個人離開。",
+      "targetForm": "clear somebody away",
+      "targetMeaningZh": "使某人離開某處",
+      "highlight": "cleared the last few people away"
+    }
+  ]
+}

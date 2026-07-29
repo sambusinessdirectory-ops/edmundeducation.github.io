@@ -1,0 +1,1675 @@
+{
+  "id": "phrasal-verb-04",
+  "order": 4,
+  "slug": "answer",
+  "version": "1",
+  "title": "ANSWER 動詞片語",
+  "titleEn": "Answer",
+  "titleZh": "ANSWER 動詞片語",
+  "level": "B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verb 4 - ANSWER.pdf",
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 ANSWER 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to ANSWER."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "ANSWER",
+      "highlight": "ANSWER"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Do not answer your teacher back.",
+      "zh": "不要向老師頂嘴。",
+      "highlight": "answer your teacher back"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "I can only answer for myself.",
+      "zh": "我只能代表自己發言。",
+      "highlight": "answer for"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "She has a lot to answer for.",
+      "zh": "她有很多事情要負責和交代。",
+      "highlight": "answer for"
+    }
+  ],
+  "meaning": {
+    "zh": "向權威人物頂嘴；無禮地回應某人；代表某人發言；表示某人會怎樣做或同意甚麼；為錯誤、損害或其他壞事負責；因某事受責；就某件事向某人負責或交代；向某人、團隊或部門匯報；受其管理。",
+    "en": "Learn and practise the phrasal verbs related to ANSWER.",
+    "naturalZh": [
+      "向權威人物頂嘴；無禮地回應某人",
+      "代表某人發言；表示某人會怎樣做或同意甚麼",
+      "為錯誤、損害或其他壞事負責；因某事受責",
+      "就某件事向某人負責或交代",
+      "向某人、團隊或部門匯報；受其管理"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "answer back / answer somebody back",
+      "highlight": "answer back / answer somebody back",
+      "titleZh": "向權威人物頂嘴；無禮地回應某人",
+      "titleEn": "answer back / answer somebody back",
+      "descriptionZh": "向權威人物頂嘴；無禮地回應某人",
+      "descriptionEn": "Do not answer your teacher back.",
+      "examples": [
+        {
+          "en": "Do not answer your teacher back.",
+          "zh": "不要向老師頂嘴。",
+          "highlight": "answer your teacher back"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "answer for somebody",
+      "highlight": "answer for somebody",
+      "titleZh": "代表某人發言；表示某人會怎樣做或同意甚麼",
+      "titleEn": "answer for somebody",
+      "descriptionZh": "代表某人發言；表示某人會怎樣做或同意甚麼",
+      "descriptionEn": "I can only answer for myself.",
+      "examples": [
+        {
+          "en": "I can only answer for myself.",
+          "zh": "我只能代表自己發言。",
+          "highlight": "answer for"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "answer for something",
+      "highlight": "answer for something",
+      "titleZh": "為錯誤、損害或其他壞事負責；因某事受責",
+      "titleEn": "answer for something",
+      "descriptionZh": "為錯誤、損害或其他壞事負責；因某事受責",
+      "descriptionEn": "She has a lot to answer for.",
+      "examples": [
+        {
+          "en": "She has a lot to answer for.",
+          "zh": "她有很多事情要負責和交代。",
+          "highlight": "answer for"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "answer to somebody for something",
+      "highlight": "answer to somebody for something",
+      "titleZh": "就某件事向某人負責或交代",
+      "titleEn": "answer to somebody for something",
+      "descriptionZh": "就某件事向某人負責或交代",
+      "descriptionEn": "You will answer to me for any damage to the car.",
+      "examples": [
+        {
+          "en": "You will answer to me for any damage to the car.",
+          "zh": "你要就汽車的任何損壞向我負責。",
+          "highlight": "answer to me for"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "pageGroup": 1,
+      "formula": "answer to somebody/something",
+      "highlight": "answer to somebody/something",
+      "titleZh": "向某人、團隊或部門匯報；受其管理",
+      "titleEn": "answer to somebody/something",
+      "descriptionZh": "向某人、團隊或部門匯報；受其管理",
+      "descriptionEn": "I answer to the sales manager.",
+      "examples": [
+        {
+          "en": "I answer to the sales manager.",
+          "zh": "我向銷售經理匯報。",
+          "highlight": "answer to"
+        }
+      ],
+      "sourcePage": 2
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 ANSWER 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to ANSWER.",
+    "contextsZh": [
+      "向權威人物頂嘴；無禮地回應某人",
+      "代表某人發言；表示某人會怎樣做或同意甚麼",
+      "為錯誤、損害或其他壞事負責；因某事受責",
+      "就某件事向某人負責或交代",
+      "向某人、團隊或部門匯報；受其管理"
+    ],
+    "contextsEn": [
+      "answer back / answer somebody back",
+      "answer for somebody",
+      "answer for something",
+      "answer to somebody for something",
+      "answer to somebody/something"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 ANSWER 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the ANSWER expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "ANSWER",
+    "fixedHighlight": "ANSWER",
+    "fixedZh": "閱讀整句，選出意思相同的 ANSWER 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the ANSWER expression that gives the same meaning.",
+    "correct": "answer back / answer somebody back",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 在 ANSWER ... BACK 中使用 him、her 或 them 時，把它放在 ANSWER 和 BACK 中間， 例如 answer him back。 留意以下不同意思： answer for the damage = 為損壞負責 answer to the manager for the damage = 就損壞向經理負責 answer to the manager = 向經理匯報",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her or them with ANSWER ... BACK, place the word between Notice these different meanings:",
+    "variableItemsZh": [
+      "向權威人物頂嘴；無禮地回應某人",
+      "代表某人發言；表示某人會怎樣做或同意甚麼",
+      "為錯誤、損害或其他壞事負責；因某事受責",
+      "就某件事向某人負責或交代",
+      "向某人、團隊或部門匯報；受其管理"
+    ],
+    "variableItemsEn": [
+      "answer back / answer somebody back",
+      "answer for somebody",
+      "answer for something",
+      "answer to somebody for something",
+      "answer to somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "向權威人物頂嘴；無禮地回應某人",
+        "formEn": "answer back / answer somebody back",
+        "exampleZh": "不要向老師頂嘴。",
+        "exampleEn": "Do not answer your teacher back.",
+        "highlight": "answer your teacher back"
+      },
+      {
+        "formZh": "代表某人發言；表示某人會怎樣做或同意甚麼",
+        "formEn": "answer for somebody",
+        "exampleZh": "我只能代表自己發言。",
+        "exampleEn": "I can only answer for myself.",
+        "highlight": "answer for"
+      },
+      {
+        "formZh": "為錯誤、損害或其他壞事負責；因某事受責",
+        "formEn": "answer for something",
+        "exampleZh": "她有很多事情要負責和交代。",
+        "exampleEn": "She has a lot to answer for.",
+        "highlight": "answer for"
+      },
+      {
+        "formZh": "就某件事向某人負責或交代",
+        "formEn": "answer to somebody for something",
+        "exampleZh": "你要就汽車的任何損壞向我負責。",
+        "exampleEn": "You will answer to me for any damage to the car.",
+        "highlight": "answer to me for"
+      },
+      {
+        "formZh": "向某人、團隊或部門匯報；受其管理",
+        "formEn": "answer to somebody/something",
+        "exampleZh": "我向銷售經理匯報。",
+        "exampleEn": "I answer to the sales manager.",
+        "highlight": "answer to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "向權威人物頂嘴；無禮地回應某人",
+      "titleEn": "answer back / answer somebody back",
+      "formula": "answer back / answer somebody back",
+      "highlight": "answer back / answer somebody back",
+      "descriptionZh": "向權威人物頂嘴；無禮地回應某人",
+      "descriptionEn": "Do not answer your teacher back.",
+      "examples": [
+        {
+          "en": "Do not answer your teacher back.",
+          "zh": "不要向老師頂嘴。",
+          "highlight": "answer your teacher back"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "代表某人發言；表示某人會怎樣做或同意甚麼",
+      "titleEn": "answer for somebody",
+      "formula": "answer for somebody",
+      "highlight": "answer for somebody",
+      "descriptionZh": "代表某人發言；表示某人會怎樣做或同意甚麼",
+      "descriptionEn": "I can only answer for myself.",
+      "examples": [
+        {
+          "en": "I can only answer for myself.",
+          "zh": "我只能代表自己發言。",
+          "highlight": "answer for"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "為錯誤、損害或其他壞事負責；因某事受責",
+      "titleEn": "answer for something",
+      "formula": "answer for something",
+      "highlight": "answer for something",
+      "descriptionZh": "為錯誤、損害或其他壞事負責；因某事受責",
+      "descriptionEn": "She has a lot to answer for.",
+      "examples": [
+        {
+          "en": "She has a lot to answer for.",
+          "zh": "她有很多事情要負責和交代。",
+          "highlight": "answer for"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "就某件事向某人負責或交代",
+      "titleEn": "answer to somebody for something",
+      "formula": "answer to somebody for something",
+      "highlight": "answer to somebody for something",
+      "descriptionZh": "就某件事向某人負責或交代",
+      "descriptionEn": "You will answer to me for any damage to the car.",
+      "examples": [
+        {
+          "en": "You will answer to me for any damage to the car.",
+          "zh": "你要就汽車的任何損壞向我負責。",
+          "highlight": "answer to me for"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "titleZh": "向某人、團隊或部門匯報；受其管理",
+      "titleEn": "answer to somebody/something",
+      "formula": "answer to somebody/something",
+      "highlight": "answer to somebody/something",
+      "descriptionZh": "向某人、團隊或部門匯報；受其管理",
+      "descriptionEn": "I answer to the sales manager.",
+      "examples": [
+        {
+          "en": "I answer to the sales manager.",
+          "zh": "我向銷售經理匯報。",
+          "highlight": "answer to"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "清楚描述無禮的回應",
+      "titleEn": "Describe rude replies clearly",
+      "zh": "answer back 可表示某人向父母、老師、教練或經理頂嘴。",
+      "en": "Answer back shows that someone replies rudely, especially to a parent, teacher, coach or manager.",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "表示自己不能代別人發言",
+      "titleEn": "Say when you cannot speak for other people",
+      "zh": "answer for somebody 可表示你不能代另一個人說他會做甚麼、選甚麼或同意甚麼。",
+      "en": "Answer for somebody helps you explain that you cannot say what another person will do, choose or agree to.",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "清楚談論過錯和責任",
+      "titleEn": "Talk clearly about blame and responsibility",
+      "zh": "answer for something 和 answer to somebody for something 可說明誰要為錯誤、損壞或結果負責。",
+      "en": "Answer for something and answer to somebody for something show who must take responsibility for a mistake, damage or result.",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "說明向誰匯報",
+      "titleEn": "Explain who reports to whom",
+      "zh": "answer to somebody/something 可說明某人向哪個人、團隊或部門匯報。",
+      "en": "Answer to somebody/something shows which person, team or department someone reports to.",
+      "sourcePage": 3
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "向權威人物頂嘴；無禮地回應某人",
+      "代表某人發言；表示某人會怎樣做或同意甚麼",
+      "為錯誤、損害或其他壞事負責；因某事受責",
+      "就某件事向某人負責或交代",
+      "向某人、團隊或部門匯報；受其管理"
+    ],
+    "contextsEn": [
+      "answer back / answer somebody back",
+      "answer for somebody",
+      "answer for something",
+      "answer to somebody for something",
+      "answer to somebody/something"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "向權威人物頂嘴；無禮地回應某人",
+        "titleEn": "answer back / answer somebody back",
+        "formula": "answer back / answer somebody back",
+        "highlight": "answer back / answer somebody back",
+        "zh": "向權威人物頂嘴；無禮地回應某人",
+        "en": "Do not answer your teacher back.",
+        "examples": [
+          {
+            "en": "Do not answer your teacher back.",
+            "zh": "不要向老師頂嘴。",
+            "highlight": "answer your teacher back"
+          }
+        ]
+      },
+      {
+        "titleZh": "代表某人發言；表示某人會怎樣做或同意甚麼",
+        "titleEn": "answer for somebody",
+        "formula": "answer for somebody",
+        "highlight": "answer for somebody",
+        "zh": "代表某人發言；表示某人會怎樣做或同意甚麼",
+        "en": "I can only answer for myself.",
+        "examples": [
+          {
+            "en": "I can only answer for myself.",
+            "zh": "我只能代表自己發言。",
+            "highlight": "answer for"
+          }
+        ]
+      },
+      {
+        "titleZh": "為錯誤、損害或其他壞事負責；因某事受責",
+        "titleEn": "answer for something",
+        "formula": "answer for something",
+        "highlight": "answer for something",
+        "zh": "為錯誤、損害或其他壞事負責；因某事受責",
+        "en": "She has a lot to answer for.",
+        "examples": [
+          {
+            "en": "She has a lot to answer for.",
+            "zh": "她有很多事情要負責和交代。",
+            "highlight": "answer for"
+          }
+        ]
+      },
+      {
+        "titleZh": "就某件事向某人負責或交代",
+        "titleEn": "answer to somebody for something",
+        "formula": "answer to somebody for something",
+        "highlight": "answer to somebody for something",
+        "zh": "就某件事向某人負責或交代",
+        "en": "You will answer to me for any damage to the car.",
+        "examples": [
+          {
+            "en": "You will answer to me for any damage to the car.",
+            "zh": "你要就汽車的任何損壞向我負責。",
+            "highlight": "answer to me for"
+          }
+        ]
+      },
+      {
+        "titleZh": "向某人、團隊或部門匯報；受其管理",
+        "titleEn": "answer to somebody/something",
+        "formula": "answer to somebody/something",
+        "highlight": "answer to somebody/something",
+        "zh": "向某人、團隊或部門匯報；受其管理",
+        "en": "I answer to the sales manager.",
+        "examples": [
+          {
+            "en": "I answer to the sales manager.",
+            "zh": "我向銷售經理匯報。",
+            "highlight": "answer to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 ANSWER 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the ANSWER expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 ANSWER 片語動詞。",
+      "en": "Read the whole sentence and choose the ANSWER expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "在 ANSWER ... BACK 中使用 him、her 或 them 時，把它放在 ANSWER 和 BACK 中間， 例如 answer him back。",
+      "titleEn": "When using him, her or them with ANSWER ... BACK, place the word between",
+      "zh": "在 ANSWER ... BACK 中使用 him、her 或 them 時，把它放在 ANSWER 和 BACK 中間， 例如 answer him back。",
+      "en": "When using him, her or them with ANSWER ... BACK, place the word between",
+      "examplesEn": [
+        "ANSWER and BACK: answer him back."
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "留意以下不同意思： answer for the damage = 為損壞負責 answer to the manager for the damage = 就損壞向經理負責 answer to the manager = 向經理匯報",
+      "titleEn": "Notice these different meanings:",
+      "zh": "留意以下不同意思： answer for the damage = 為損壞負責 answer to the manager for the damage = 就損壞向經理負責 answer to the manager = 向經理匯報",
+      "en": "Notice these different meanings:",
+      "examplesEn": [
+        "answer for the damage = be responsible for it",
+        "answer to the manager for the damage = be responsible to the manager for it",
+        "answer to the manager = report to the manager"
+      ],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "answer back / answer somebody back",
+      "meaningZh": "向權威人物頂嘴；無禮地回應某人",
+      "exampleEn": "Do not answer your teacher back.",
+      "exampleZh": "不要向老師頂嘴。",
+      "highlight": "answer your teacher back",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "formula": "answer for somebody",
+      "meaningZh": "代表某人發言；表示某人會怎樣做或同意甚麼",
+      "exampleEn": "I can only answer for myself.",
+      "exampleZh": "我只能代表自己發言。",
+      "highlight": "answer for",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "formula": "answer for something",
+      "meaningZh": "為錯誤、損害或其他壞事負責；因某事受責",
+      "exampleEn": "She has a lot to answer for.",
+      "exampleZh": "她有很多事情要負責和交代。",
+      "highlight": "answer for",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "formula": "answer to somebody for something",
+      "meaningZh": "就某件事向某人負責或交代",
+      "exampleEn": "You will answer to me for any damage to the car.",
+      "exampleZh": "你要就汽車的任何損壞向我負責。",
+      "highlight": "answer to me for",
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "formula": "answer to somebody/something",
+      "meaningZh": "向某人、團隊或部門匯報；受其管理",
+      "exampleEn": "I answer to the sales manager.",
+      "exampleZh": "我向銷售經理匯報。",
+      "highlight": "answer to",
+      "sourcePage": 2
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 ANSWER 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to ANSWER. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "ANSWER 動詞片語句子改寫練習",
+    "titleEn": "ANSWER Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 ANSWER 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to ANSWER. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-04-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Do not reply rudely when your father corrects you.",
+      "promptZh": "爸爸糾正你時，不要無禮地回應。",
+      "starter": "Do",
+      "answer": "Do not answer back when your father corrects you.",
+      "answerZh": "爸爸糾正你時，不要頂嘴。",
+      "targetForm": "answer back",
+      "targetMeaningZh": "頂嘴；無禮地回應",
+      "highlight": "answer back"
+    },
+    {
+      "id": "phrasal-verb-04-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "I report directly to the restaurant manager.",
+      "promptZh": "我直接向餐廳經理匯報。",
+      "starter": "I",
+      "answer": "I answer directly to the restaurant manager.",
+      "answerZh": "我直接向餐廳經理匯報。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answer directly to"
+    },
+    {
+      "id": "phrasal-verb-04-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "I cannot say what my teammates will decide.",
+      "promptZh": "我不能代隊友說他們會作甚麼決定。",
+      "starter": "I",
+      "answer": "I cannot answer for my teammates.",
+      "answerZh": "我不能代隊友說他們會作甚麼決定。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Someone must be held responsible for the broken window.",
+      "promptZh": "必須有人為這扇破掉的窗戶負責。",
+      "starter": "Someone",
+      "answer": "Someone must answer for the broken window.",
+      "answerZh": "必須有人為這扇破掉的窗戶負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "You will be responsible to the head teacher for the damage to the classroom door.",
+      "promptZh": "你要就課室門的損壞向校長負責。",
+      "starter": "You",
+      "answer": "You will answer to the head teacher for the damage to the classroom door.",
+      "answerZh": "你要就課室門的損壞向校長負責。",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to the head teacher for"
+    },
+    {
+      "id": "phrasal-verb-04-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Liam gave his teacher a rude reply.",
+      "promptZh": "利安無禮地回應了老師。",
+      "starter": "Liam",
+      "answer": "Liam answered his teacher back.",
+      "answerZh": "利安向老師頂嘴。",
+      "targetForm": "answer somebody back",
+      "targetMeaningZh": "向某人頂嘴；無禮地回應某人",
+      "highlight": "answered his teacher back"
+    },
+    {
+      "id": "phrasal-verb-04-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Ask Lena herself; I cannot speak for her.",
+      "promptZh": "你要問莉娜本人；我不能代她發言。",
+      "starter": "Ask",
+      "answer": "Ask Lena herself; I cannot answer for her.",
+      "answerZh": "你要問莉娜本人；我不能代她發言。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Both assistants work under the head nurse.",
+      "promptZh": "兩名助理都由護士長管理。",
+      "starter": "Both",
+      "answer": "Both assistants answer to the head nurse.",
+      "answerZh": "兩名助理都由護士長管理。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answer to"
+    },
+    {
+      "id": "phrasal-verb-04-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The driver will be held responsible for the damage.",
+      "promptZh": "該名司機將要為損壞負責。",
+      "starter": "The",
+      "answer": "The driver will have to answer for the damage.",
+      "answerZh": "該名司機將要為損壞負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Children should not reply rudely to adults.",
+      "promptZh": "小朋友不應無禮地回應成年人。",
+      "starter": "Children",
+      "answer": "Children should not answer adults back.",
+      "answerZh": "小朋友不應向成年人頂嘴。",
+      "targetForm": "answer somebody back",
+      "targetMeaningZh": "向某人頂嘴；無禮地回應某人",
+      "highlight": "answer adults back"
+    },
+    {
+      "id": "phrasal-verb-04-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Every team leader is responsible to the coach for any lost equipment.",
+      "promptZh": "每名隊長都要就任何遺失的器材向教練負責。",
+      "starter": "Every",
+      "answer": "Every team leader has to answer to the coach for any lost equipment.",
+      "answerZh": "每名隊長都要就任何遺失的器材向教練負責。",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to the coach for"
+    },
+    {
+      "id": "phrasal-verb-04-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The parents can speak only for themselves, not for every family.",
+      "promptZh": "這些家長只能代表自己發言，不能代表每個家庭。",
+      "starter": "The",
+      "answer": "The parents can only answer for themselves, not for every family.",
+      "answerZh": "這些家長只能代表自己發言，不能代表每個家庭。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Who will be held responsible for the missing money?",
+      "promptZh": "誰要為遺失的款項負責？",
+      "starter": "Who",
+      "answer": "Who will have to answer for the missing money?",
+      "answerZh": "誰要為遺失的款項負責？",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Can you say what your brother would choose?",
+      "promptZh": "你可以代你哥哥說他會選甚麼嗎？",
+      "starter": "Can",
+      "answer": "Can you answer for your brother?",
+      "answerZh": "你可以代你哥哥說他會選甚麼嗎？",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Mia never replies rudely when her coach corrects her.",
+      "promptZh": "米婭的教練糾正她時，她從不無禮地回應。",
+      "starter": "Mia",
+      "answer": "Mia never answers back when her coach corrects her.",
+      "answerZh": "米婭的教練糾正她時，她從不頂嘴。",
+      "targetForm": "answer back",
+      "targetMeaningZh": "頂嘴；無禮地回應",
+      "highlight": "answers back"
+    },
+    {
+      "id": "phrasal-verb-04-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Who do you report to in the office?",
+      "promptZh": "你在辦公室向誰匯報？",
+      "starter": "Who",
+      "answer": "Who do you answer to in the office?",
+      "answerZh": "你在辦公室向誰匯報？",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answer to"
+    },
+    {
+      "id": "phrasal-verb-04-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "I will not say what the whole class will agree to.",
+      "promptZh": "我不會代全班說他們會同意甚麼。",
+      "starter": "I",
+      "answer": "I will not answer for the whole class.",
+      "answerZh": "我不會代全班發言。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 17,
+      "prompt": "I will have to explain to my manager and take responsibility for sending the order late.",
+      "promptZh": "我將要就延遲寄出訂單一事向經理交代並負責。",
+      "starter": "I",
+      "answer": "I will have to answer to my manager for sending the order late.",
+      "answerZh": "我將要就延遲寄出訂單一事向經理交代並負責。",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to my manager for"
+    },
+    {
+      "id": "phrasal-verb-04-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The company may have to take responsibility for the unsafe product.",
+      "promptZh": "公司可能要為這件不安全的產品負責。",
+      "starter": "The",
+      "answer": "The company may have to answer for the unsafe product.",
+      "answerZh": "公司可能要為這件不安全的產品負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Why did you reply to your grandmother so rudely?",
+      "promptZh": "你為甚麼這樣無禮地回應祖母？",
+      "starter": "Why",
+      "answer": "Why did you answer your grandmother back so rudely?",
+      "answerZh": "你為甚麼這樣無禮地向祖母頂嘴？",
+      "targetForm": "answer somebody back",
+      "targetMeaningZh": "向某人頂嘴；無禮地回應某人",
+      "highlight": "answer your grandmother back"
+    },
+    {
+      "id": "phrasal-verb-04-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Ravi says he can say what his team will agree to at tomorrow’s meeting.",
+      "promptZh": "拉維說，他可以代球隊表示他們明天在會議上會同意甚麼。",
+      "starter": "Ravi",
+      "answer": "Ravi says he can answer for his team at tomorrow’s meeting.",
+      "answerZh": "拉維說，他可以代球隊表示他們明天在會議上會同意甚麼。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The new worker will report to the sales team.",
+      "promptZh": "新員工將會向銷售團隊匯報。",
+      "starter": "The",
+      "answer": "The new worker will answer to the sales team.",
+      "answerZh": "新員工將會向銷售團隊匯報。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answer to"
+    },
+    {
+      "id": "phrasal-verb-04-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "He has never been made to take responsibility for the trouble he caused.",
+      "promptZh": "他從未被要求為自己造成的麻煩負責。",
+      "starter": "He",
+      "answer": "He has never had to answer for the trouble he caused.",
+      "answerZh": "他從未需要為自己造成的麻煩負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 18,
+      "prompt": "Will the captain be responsible to the club for the players’ behaviour?",
+      "promptZh": "隊長要就球員的行為向球會負責嗎？",
+      "starter": "Will",
+      "answer": "Will the captain have to answer to the club for the players’ behaviour?",
+      "answerZh": "隊長要就球員的行為向球會負責嗎？",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to the club for"
+    },
+    {
+      "id": "phrasal-verb-04-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The manager told me, “You will be responsible to me for any mistake in the weekly report.”",
+      "promptZh": "經理對我說：「你要就每週報告中的任何錯誤向我負責。」",
+      "starter": "The",
+      "answer": "The manager told me, “You will answer to me for any mistake in the weekly report.”",
+      "answerZh": "經理對我說：「你要就每週報告中的任何錯誤向我負責。」",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to me for"
+    },
+    {
+      "id": "phrasal-verb-04-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "I told him to stop giving me rude replies.",
+      "promptZh": "我叫他不要再無禮地回應我。",
+      "starter": "I",
+      "answer": "I told him to stop answering me back.",
+      "answerZh": "我叫他不要再向我頂嘴。",
+      "targetForm": "answer somebody back",
+      "targetMeaningZh": "向某人頂嘴；無禮地回應某人",
+      "highlight": "answering me back"
+    },
+    {
+      "id": "phrasal-verb-04-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The mistake was serious, and the person who made it must take responsibility.",
+      "promptZh": "這個錯誤很嚴重，犯錯的人必須負責。",
+      "starter": "The",
+      "answer": "The mistake was serious, and the person who made it must answer for it.",
+      "answerZh": "這個錯誤很嚴重，犯錯的人必須為此負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The interviewer asked me what Ana thought, but I said I could not speak for her.",
+      "promptZh": "訪問員問我安娜的想法，但我說我不能代她發言。",
+      "starter": "The",
+      "answer": "The interviewer asked me what Ana thought, but I said I could not answer for her.",
+      "answerZh": "訪問員問我安娜的想法，但我說我不能代她發言。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "I do not work under Sam; I report to Priya.",
+      "promptZh": "我不是由山姆管理；我向普里雅匯報。",
+      "starter": "I",
+      "answer": "I do not answer to Sam; I answer to Priya.",
+      "answerZh": "我不是由山姆管理；我向普里雅匯報。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answer to"
+    },
+    {
+      "id": "phrasal-verb-04-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The coach warned them that they would be responsible to him for any damage to the equipment.",
+      "promptZh": "教練警告他們，任何器材損壞都要向他負責。",
+      "starter": "The",
+      "answer": "The coach warned them that they would have to answer to him for any damage to the equipment.",
+      "answerZh": "教練警告他們，任何器材損壞都要向他負責。",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to him for"
+    },
+    {
+      "id": "phrasal-verb-04-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "They damaged the hall, and sooner or later they will be held responsible.",
+      "promptZh": "他們損壞了禮堂，遲早要負責。",
+      "starter": "They",
+      "answer": "They damaged the hall, and sooner or later they will answer for it.",
+      "answerZh": "他們損壞了禮堂，遲早要為此負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The student was giving the teacher rude replies again, so she asked him to leave.",
+      "promptZh": "那名學生又再無禮地回應老師，所以老師叫他離開。",
+      "starter": "The",
+      "answer": "The student was answering the teacher back again, so she asked him to leave.",
+      "answerZh": "那名學生又再向老師頂嘴，所以老師叫他離開。",
+      "targetForm": "answer somebody back",
+      "targetMeaningZh": "向某人頂嘴；無禮地回應某人",
+      "highlight": "answering the teacher back"
+    },
+    {
+      "id": "phrasal-verb-04-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "We can agree to Friday, but we cannot say whether the other group is free.",
+      "promptZh": "我們可以同意星期五，但不能代另一組說他們是否有空。",
+      "starter": "We",
+      "answer": "We can agree to Friday, but we cannot answer for the other group.",
+      "answerZh": "我們可以同意星期五，但不能代另一組說他們是否有空。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The group reports to both the school and the parents’ committee.",
+      "promptZh": "該小組同時向學校和家長委員會匯報。",
+      "starter": "The",
+      "answer": "The group answers to both the school and the parents’ committee.",
+      "answerZh": "該小組同時向學校和家長委員會匯報。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answers to"
+    },
+    {
+      "id": "phrasal-verb-04-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "As project leader, Maya is responsible to the client for every change to the schedule.",
+      "promptZh": "作為項目主管，瑪雅要就時間表的每項改動向客戶負責。",
+      "starter": "As",
+      "answer": "As project leader, Maya has to answer to the client for every change to the schedule.",
+      "answerZh": "作為項目主管，瑪雅要就時間表的每項改動向客戶負責。",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to the client for"
+    },
+    {
+      "id": "phrasal-verb-04-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "If the team ignores the safety rule, it may have to take responsibility for any accident.",
+      "promptZh": "如果團隊無視安全規則，可能要為任何意外負責。",
+      "starter": "If",
+      "answer": "If the team ignores the safety rule, it may have to answer for any accident.",
+      "answerZh": "如果團隊無視安全規則，可能要為任何意外負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Although Mei leads the project, she still works under the department head.",
+      "promptZh": "雖然梅領導這個項目，但她仍受部門主管管理。",
+      "starter": "Although",
+      "answer": "Although Mei leads the project, she still answers to the department head.",
+      "answerZh": "雖然梅領導這個項目，但她仍受部門主管管理。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answers to"
+    },
+    {
+      "id": "phrasal-verb-04-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The shop manager must explain any missing money to the owner and take responsibility for it.",
+      "promptZh": "店舖經理必須向店主交代並為任何遺失的款項負責。",
+      "starter": "The",
+      "answer": "The shop manager must answer to the owner for any missing money.",
+      "answerZh": "店舖經理必須就任何遺失的款項向店主負責。",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to the owner for"
+    },
+    {
+      "id": "phrasal-verb-04-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Even though she was angry, she did not give the nurse a rude reply.",
+      "promptZh": "即使她很生氣，也沒有無禮地回應護士。",
+      "starter": "Even",
+      "answer": "Even though she was angry, she did not answer the nurse back.",
+      "answerZh": "即使她很生氣，也沒有向護士頂嘴。",
+      "targetForm": "answer somebody back",
+      "targetMeaningZh": "向某人頂嘴；無禮地回應某人",
+      "highlight": "answer the nurse back"
+    },
+    {
+      "id": "phrasal-verb-04-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The manager asked whether all the staff would accept the change, but I said I could speak only for myself.",
+      "promptZh": "經理問所有員工是否會接受改動，但我說我只能代表自己發言。",
+      "starter": "The",
+      "answer": "The manager asked whether all the staff would accept the change, but I said I could only answer for myself.",
+      "answerZh": "經理問所有員工是否會接受改動，但我說我只能代表自己發言。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Many people suffered because of the false report, and those who wrote it should be held responsible.",
+      "promptZh": "很多人因為那份失實報告而受害，撰寫報告的人應該負責。",
+      "starter": "Many",
+      "answer": "Many people suffered because of the false report, and those who wrote it should answer for it.",
+      "answerZh": "很多人因為那份失實報告而受害，撰寫報告的人應該為此負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "In this job, each store manager reports to the regional office rather than the local owner.",
+      "promptZh": "在這份工作中，每名店舖經理都向地區辦事處匯報，而不是向本地店主匯報。",
+      "starter": "In",
+      "answer": "In this job, each store manager answers to the regional office rather than the local owner.",
+      "answerZh": "在這份工作中，每名店舖經理都向地區辦事處匯報，而不是向本地店主匯報。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answers to"
+    },
+    {
+      "id": "phrasal-verb-04-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "If the event goes badly because you ignored the plan, you will be responsible to us for the result.",
+      "promptZh": "如果你因為無視計劃而令活動出問題，你要就結果向我們負責。",
+      "starter": "If",
+      "answer": "If the event goes badly because you ignored the plan, you will answer to us for the result.",
+      "answerZh": "如果你因為無視計劃而令活動出問題，你要就結果向我們負責。",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to us for"
+    },
+    {
+      "id": "phrasal-verb-04-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "Before you promise that your friends will help, remember that you cannot say what they will agree to.",
+      "promptZh": "在你承諾朋友會幫忙之前，記住你不能代他們說會同意甚麼。",
+      "starter": "Before",
+      "answer": "Before you promise that your friends will help, remember that you cannot answer for them.",
+      "answerZh": "在你承諾朋友會幫忙之前，記住你不能代他們發言。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "If your manager corrects you, do not reply in a rude or challenging way.",
+      "promptZh": "如果經理糾正你，不要以無禮或挑釁的方式回應。",
+      "starter": "If",
+      "answer": "If your manager corrects you, do not answer back.",
+      "answerZh": "如果經理糾正你，不要頂嘴。",
+      "targetForm": "answer back",
+      "targetMeaningZh": "頂嘴；無禮地回應",
+      "highlight": "answer back"
+    },
+    {
+      "id": "phrasal-verb-04-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The committee is independent and does not report to any single person.",
+      "promptZh": "該委員會獨立運作，不向任何一個人匯報。",
+      "starter": "The",
+      "answer": "The committee is independent and does not answer to any single person.",
+      "answerZh": "該委員會獨立運作，不向任何一個人匯報。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answer to"
+    },
+    {
+      "id": "phrasal-verb-04-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "She caused several problems, but no one has yet made her take responsibility for them.",
+      "promptZh": "她造成了幾個問題，但至今仍沒有人要求她負責。",
+      "starter": "She",
+      "answer": "She caused several problems, but she has not yet had to answer for them.",
+      "answerZh": "她造成了幾個問題，但至今仍未需要為此負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "Who is responsible to the school board for the money spent on the new library?",
+      "promptZh": "誰要就新圖書館的開支向校董會負責？",
+      "starter": "Who",
+      "answer": "Who has to answer to the school board for the money spent on the new library?",
+      "answerZh": "誰要就新圖書館的開支向校董會負責？",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to the school board for"
+    },
+    {
+      "id": "phrasal-verb-04-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "Ben often disagrees with his coach, but yesterday he replied to her in a clearly rude way.",
+      "promptZh": "賓經常不同意教練的意見，但昨天他明顯無禮地回應她。",
+      "starter": "Ben",
+      "answer": "Ben often disagrees with his coach, but yesterday he answered her back.",
+      "answerZh": "賓經常不同意教練的意見，但昨天他向她頂嘴。",
+      "targetForm": "answer somebody back",
+      "targetMeaningZh": "向某人頂嘴；無禮地回應某人",
+      "highlight": "answered her back"
+    },
+    {
+      "id": "phrasal-verb-04-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The supervisor explained that she could approve small costs but still had to report to the finance director.",
+      "promptZh": "主管解釋，她可以批准小額開支，但仍要向財務總監匯報。",
+      "starter": "The",
+      "answer": "The supervisor explained that she could approve small costs but still had to answer to the finance director.",
+      "answerZh": "主管解釋，她可以批准小額開支，但仍要向財務總監匯報。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answer to"
+    },
+    {
+      "id": "phrasal-verb-04-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "Nora said that she could attend on Monday but could not say whether her colleagues could come.",
+      "promptZh": "諾拉說她星期一可以出席，但不能代同事說他們能否出席。",
+      "starter": "Nora",
+      "answer": "Nora said that she could attend on Monday but could not answer for her colleagues.",
+      "answerZh": "諾拉說她星期一可以出席，但不能代同事發言。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The owner saved money by ignoring repairs, and now he must take responsibility for the accident.",
+      "promptZh": "店主為了省錢而沒有維修，現在必須為意外負責。",
+      "starter": "The",
+      "answer": "The owner saved money by ignoring repairs, and now he must answer for the accident.",
+      "answerZh": "店主為了省錢而沒有維修，現在必須為意外負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "The director told Amir that he had full control of the event but would be personally responsible to her for every safety problem.",
+      "promptZh": "總監告訴阿米爾，他可全面控制活動，但每個安全問題都要親自向她負責。",
+      "starter": "The",
+      "answer": "The director told Amir that he had full control of the event but would have to answer to her personally for every safety problem.",
+      "answerZh": "總監告訴阿米爾，他可全面控制活動，但每個安全問題都要向她負責。",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to her personally for"
+    },
+    {
+      "id": "phrasal-verb-04-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "The mother said, “I only asked you to stop using your phone. There was no need to reply to me so rudely.”",
+      "promptZh": "母親說：「我只是叫你停止使用電話，根本沒有必要這樣無禮地回應我。」",
+      "starter": "The",
+      "answer": "The mother said, “I only asked you to stop using your phone. There was no need to answer me back.”",
+      "answerZh": "母親說：「我只是叫你停止使用電話，根本沒有必要向我頂嘴。」",
+      "targetForm": "answer somebody back",
+      "targetMeaningZh": "向某人頂嘴；無禮地回應某人",
+      "highlight": "answer me back"
+    },
+    {
+      "id": "phrasal-verb-04-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "At the end of each week, the volunteer team reports to the main office, although it works on its own each day.",
+      "promptZh": "義工隊雖然每天自行工作，但每星期結束時都會向總辦事處匯報。",
+      "starter": "At",
+      "answer": "At the end of each week, the volunteer team answers to the main office, although it works on its own each day.",
+      "answerZh": "義工隊雖然每天自行工作，但每星期結束時都會向總辦事處匯報。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answers to"
+    },
+    {
+      "id": "phrasal-verb-04-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 13,
+      "prompt": "The reporter wanted one parent to describe what every parent thought, but he refused to speak for the others.",
+      "promptZh": "記者想一名家長說明所有家長的想法，但他拒絕代表其他人發言。",
+      "starter": "The",
+      "answer": "The reporter wanted one parent to describe what every parent thought, but he refused to answer for the others.",
+      "answerZh": "記者想一名家長說明所有家長的想法，但他拒絕代表其他人發言。",
+      "targetForm": "answer for somebody",
+      "targetMeaningZh": "代表某人發言；代某人作保證",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "Years later, the official was finally forced to take responsibility for the decision that caused serious problems for many families.",
+      "promptZh": "多年後，那名官員終於被迫為令許多家庭出現嚴重問題的決定負責。",
+      "starter": "Years",
+      "answer": "Years later, the official finally had to answer for the decision that caused serious problems for many families.",
+      "answerZh": "多年後，那名官員終於要為令許多家庭出現嚴重問題的決定負責。",
+      "targetForm": "answer for something",
+      "targetMeaningZh": "為某事負責；因某事受責",
+      "highlight": "answer for"
+    },
+    {
+      "id": "phrasal-verb-04-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "When the officer asked a simple question, the driver became angry and replied rudely instead of explaining.",
+      "promptZh": "警員問了一條簡單問題時，司機發怒，沒有解釋，反而無禮地回應。",
+      "starter": "When",
+      "answer": "When the officer asked a simple question, the driver answered him back instead of explaining.",
+      "answerZh": "警員問了一條簡單問題時，司機沒有解釋，反而向他頂嘴。",
+      "targetForm": "answer somebody back",
+      "targetMeaningZh": "向某人頂嘴；無禮地回應某人",
+      "highlight": "answered him back"
+    },
+    {
+      "id": "phrasal-verb-04-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 13,
+      "prompt": "Although several people worked on the project, the team leader was the one responsible to the client for the final result.",
+      "promptZh": "雖然有幾個人參與項目，但隊長才是要就最終結果向客戶負責的人。",
+      "starter": "Although",
+      "answer": "Although several people worked on the project, the team leader was the one who had to answer to the client for the final result.",
+      "answerZh": "雖然有幾個人參與項目，但隊長才是要就最終結果向客戶負責的人。",
+      "targetForm": "answer to somebody for something",
+      "targetMeaningZh": "就某事向某人負責或交代",
+      "highlight": "answer to the client for"
+    },
+    {
+      "id": "phrasal-verb-04-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 13,
+      "prompt": "Lina appears to lead the whole project, but she actually reports to two senior managers.",
+      "promptZh": "莉娜看來領導整個項目，但實際上她向兩名高級經理匯報。",
+      "starter": "Lina",
+      "answer": "Lina appears to lead the whole project, but she actually answers to two senior managers.",
+      "answerZh": "莉娜看來領導整個項目，但實際上她向兩名高級經理匯報。",
+      "targetForm": "answer to somebody/something",
+      "targetMeaningZh": "向某人或某部門匯報；受其管理",
+      "highlight": "answers to"
+    }
+  ]
+}

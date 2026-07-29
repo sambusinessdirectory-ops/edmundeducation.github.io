@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-25",
+  "order": 25,
+  "slug": "zoom",
+  "version": "1",
+  "title": "ZOOM 動詞片語",
+  "titleEn": "Zoom",
+  "titleZh": "ZOOM 動詞片語",
+  "level": "",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 24 - Zoom.pdf",
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 ZOOM 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to ZOOM."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "ZOOM",
+      "highlight": "ZOOM"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The camera zoomed in on her eyes.",
+      "zh": "鏡頭拉近她的雙眼。",
+      "highlight": "zoomed in on her eyes"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The camera zoomed out to show the whole room.",
+      "zh": "鏡頭拉遠，顯示整個房間。",
+      "highlight": "zoomed out"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "He got into the car and zoomed off.",
+      "zh": "他上車後迅速駛走。",
+      "highlight": "zoomed off"
+    }
+  ],
+  "meaning": {
+    "zh": "把鏡頭或畫面拉近、放大，讓某人或某事物看起來更近、更大；把鏡頭或畫面拉遠、縮小，讓畫面顯示更廣的範圍；迅速離開，通常指乘坐交通工具快速離開",
+    "en": "zoom in / zoom in on somebody/something / zoom out / zoom off",
+    "naturalZh": [
+      "把鏡頭或畫面拉近、放大，讓某人或某事物看起來更近、更大",
+      "把鏡頭或畫面拉遠、縮小，讓畫面顯示更廣的範圍",
+      "迅速離開，通常指乘坐交通工具快速離開"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "zoom in / zoom in on somebody/something",
+      "titleZh": "把鏡頭或畫面拉近、放大，讓某人或某事物看起來更近、更大",
+      "titleEn": "zoom in / zoom in on somebody/something",
+      "descriptionZh": "把鏡頭或畫面拉近、放大，讓某人或某事物看起來更近、更大",
+      "descriptionEn": "The camera zoomed in on her eyes.",
+      "examples": [
+        {
+          "en": "The camera zoomed in on her eyes.",
+          "zh": "鏡頭拉近她的雙眼。",
+          "highlight": "zoomed in on her eyes"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "zoom out",
+      "titleZh": "把鏡頭或畫面拉遠、縮小，讓畫面顯示更廣的範圍",
+      "titleEn": "zoom out",
+      "descriptionZh": "把鏡頭或畫面拉遠、縮小，讓畫面顯示更廣的範圍",
+      "descriptionEn": "The camera zoomed out to show the whole room.",
+      "examples": [
+        {
+          "en": "The camera zoomed out to show the whole room.",
+          "zh": "鏡頭拉遠，顯示整個房間。",
+          "highlight": "zoomed out"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "zoom off",
+      "titleZh": "迅速離開，通常指乘坐交通工具快速離開",
+      "titleEn": "zoom off",
+      "descriptionZh": "迅速離開，通常指乘坐交通工具快速離開",
+      "descriptionEn": "He got into the car and zoomed off.",
+      "examples": [
+        {
+          "en": "He got into the car and zoomed off.",
+          "zh": "他上車後迅速駛走。",
+          "highlight": "zoomed off"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "ZOOM 片語動詞的實際用途",
+    "labelEn": "ZOOM Phrasal Verbs in Use",
+    "summaryZh": "zoom in 和 zoom out 能幫助你準確描述相機、相片、地圖或屏幕畫面的變化。；這些表達常見於攝影、視像通話、地圖應用程式和相片編輯工具。；認識 zoom in 和 zoom out，有助你理解電影、新聞報道和體育重播如何引導觀眾留意不同細節。；zoom off 能讓你生動直接地描述汽車、電單車或其他交通工具迅速離開。",
+    "summaryEn": "Zoom in and zoom out help you explain exactly how a camera, photograph, map or screen view changes. These expressions often appear in photography, video calls, map applications and photo-editing tools. Knowing zoom in and zoom out helps you understand how films, news reports and sports replays direct your attention. Zoom off gives you a lively and direct way to describe a car, motorbike or other vehicle leaving quickly.",
+    "contextsZh": [
+      "清楚描述近景和廣闊畫面",
+      "理解相機和屏幕指示",
+      "更容易理解影片和體育片段",
+      "自然描述交通工具迅速離開"
+    ],
+    "contextsEn": [
+      "Describe close and wide views clearly",
+      "Understand camera and screen instructions",
+      "Follow films and sports videos more easily",
+      "Describe a very fast departure naturally"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 ZOOM 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the ZOOM expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "zoom in / zoom in on somebody/something",
+    "fixedHighlight": "zoom in / zoom in on somebody/something",
+    "fixedZh": "閱讀整句，選出意思相同的 ZOOM 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the ZOOM expression that gives the same meaning.",
+    "correct": "zoomed in on her eyes",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；當鏡頭或畫面拉近、放大時，使用 zoom in。當鏡頭或畫面拉遠、縮小或顯示更廣範圍時，使用 zoom out。；zoom off 表示迅速離開，通常指乘坐交通工具離開。",
+    "variableEn": "Keep the same people, things, time and meaning. Use zoom in when the picture moves closer or becomes larger. Use zoom out when the picture moves farther away, becomes smaller or shows a wider area. Zoom off means to leave very quickly, usually in a vehicle.",
+    "variableItemsZh": [
+      "zoom in / zoom in on somebody/something",
+      "zoom out",
+      "zoom off"
+    ],
+    "variableItemsEn": [
+      "zoom in / zoom in on somebody/something",
+      "zoom out",
+      "zoom off"
+    ],
+    "forms": [
+      {
+        "formZh": "把鏡頭或畫面拉近、放大，讓某人或某事物看起來更近、更大",
+        "formEn": "zoom in / zoom in on somebody/something",
+        "exampleZh": "鏡頭拉近她的雙眼。",
+        "exampleEn": "The camera zoomed in on her eyes.",
+        "highlight": "zoomed in on her eyes"
+      },
+      {
+        "formZh": "把鏡頭或畫面拉遠、縮小，讓畫面顯示更廣的範圍",
+        "formEn": "zoom out",
+        "exampleZh": "鏡頭拉遠，顯示整個房間。",
+        "exampleEn": "The camera zoomed out to show the whole room.",
+        "highlight": "zoomed out"
+      },
+      {
+        "formZh": "迅速離開，通常指乘坐交通工具快速離開",
+        "formEn": "zoom off",
+        "exampleZh": "他上車後迅速駛走。",
+        "exampleEn": "He got into the car and zoomed off.",
+        "highlight": "zoomed off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把鏡頭或畫面拉近、放大，讓某人或某事物看起來更近、更大",
+      "titleEn": "zoom in / zoom in on somebody/something",
+      "formula": "zoom in / zoom in on somebody/something",
+      "highlight": "zoom in / zoom in on somebody/something",
+      "descriptionZh": "把鏡頭或畫面拉近、放大，讓某人或某事物看起來更近、更大",
+      "descriptionEn": "The camera zoomed in on her eyes.",
+      "examples": [
+        {
+          "en": "The camera zoomed in on her eyes.",
+          "zh": "鏡頭拉近她的雙眼。",
+          "highlight": "zoomed in on her eyes"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把鏡頭或畫面拉遠、縮小，讓畫面顯示更廣的範圍",
+      "titleEn": "zoom out",
+      "formula": "zoom out",
+      "highlight": "zoom out",
+      "descriptionZh": "把鏡頭或畫面拉遠、縮小，讓畫面顯示更廣的範圍",
+      "descriptionEn": "The camera zoomed out to show the whole room.",
+      "examples": [
+        {
+          "en": "The camera zoomed out to show the whole room.",
+          "zh": "鏡頭拉遠，顯示整個房間。",
+          "highlight": "zoomed out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "迅速離開，通常指乘坐交通工具快速離開",
+      "titleEn": "zoom off",
+      "formula": "zoom off",
+      "highlight": "zoom off",
+      "descriptionZh": "迅速離開，通常指乘坐交通工具快速離開",
+      "descriptionEn": "He got into the car and zoomed off.",
+      "examples": [
+        {
+          "en": "He got into the car and zoomed off.",
+          "zh": "他上車後迅速駛走。",
+          "highlight": "zoomed off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述近景和廣闊畫面",
+      "titleEn": "Describe close and wide views clearly",
+      "zh": "zoom in 和 zoom out 能幫助你準確描述相機、相片、地圖或屏幕畫面的變化。",
+      "en": "Zoom in and zoom out help you explain exactly how a camera, photograph, map or screen view changes."
+    },
+    {
+      "titleZh": "理解相機和屏幕指示",
+      "titleEn": "Understand camera and screen instructions",
+      "zh": "這些表達常見於攝影、視像通話、地圖應用程式和相片編輯工具。",
+      "en": "These expressions often appear in photography, video calls, map applications and photo-editing tools."
+    },
+    {
+      "titleZh": "更容易理解影片和體育片段",
+      "titleEn": "Follow films and sports videos more easily",
+      "zh": "認識 zoom in 和 zoom out，有助你理解電影、新聞報道和體育重播如何引導觀眾留意不同細節。",
+      "en": "Knowing zoom in and zoom out helps you understand how films, news reports and sports replays direct your attention."
+    },
+    {
+      "titleZh": "自然描述交通工具迅速離開",
+      "titleEn": "Describe a very fast departure naturally",
+      "zh": "zoom off 能讓你生動直接地描述汽車、電單車或其他交通工具迅速離開。",
+      "en": "Zoom off gives you a lively and direct way to describe a car, motorbike or other vehicle leaving quickly."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述近景和廣闊畫面",
+      "理解相機和屏幕指示",
+      "更容易理解影片和體育片段",
+      "自然描述交通工具迅速離開"
+    ],
+    "contextsEn": [
+      "Describe close and wide views clearly",
+      "Understand camera and screen instructions",
+      "Follow films and sports videos more easily",
+      "Describe a very fast departure naturally"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述近景和廣闊畫面",
+        "titleEn": "Describe close and wide views clearly",
+        "zh": "zoom in 和 zoom out 能幫助你準確描述相機、相片、地圖或屏幕畫面的變化。",
+        "en": "Zoom in and zoom out help you explain exactly how a camera, photograph, map or screen view changes.",
+        "examples": [
+          {
+            "en": "The camera zoomed in on her eyes.",
+            "zh": "鏡頭拉近她的雙眼。",
+            "highlight": "zoomed in on her eyes"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解相機和屏幕指示",
+        "titleEn": "Understand camera and screen instructions",
+        "zh": "這些表達常見於攝影、視像通話、地圖應用程式和相片編輯工具。",
+        "en": "These expressions often appear in photography, video calls, map applications and photo-editing tools.",
+        "examples": [
+          {
+            "en": "The camera zoomed out to show the whole room.",
+            "zh": "鏡頭拉遠，顯示整個房間。",
+            "highlight": "zoomed out"
+          }
+        ]
+      },
+      {
+        "titleZh": "更容易理解影片和體育片段",
+        "titleEn": "Follow films and sports videos more easily",
+        "zh": "認識 zoom in 和 zoom out，有助你理解電影、新聞報道和體育重播如何引導觀眾留意不同細節。",
+        "en": "Knowing zoom in and zoom out helps you understand how films, news reports and sports replays direct your attention.",
+        "examples": [
+          {
+            "en": "He got into the car and zoomed off.",
+            "zh": "他上車後迅速駛走。",
+            "highlight": "zoomed off"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述交通工具迅速離開",
+        "titleEn": "Describe a very fast departure naturally",
+        "zh": "zoom off 能讓你生動直接地描述汽車、電單車或其他交通工具迅速離開。",
+        "en": "Zoom off gives you a lively and direct way to describe a car, motorbike or other vehicle leaving quickly.",
+        "examples": [
+          {
+            "en": "The camera zoomed in on her eyes.",
+            "zh": "鏡頭拉近她的雙眼。",
+            "highlight": "zoomed in on her eyes"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 ZOOM 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the ZOOM expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 ZOOM 片語動詞。",
+      "en": "Read the whole sentence and choose the ZOOM expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "當鏡頭或畫面拉近、放大時，使用 zoom in。當鏡頭或畫面拉遠、縮小或顯示更廣範圍時，使用 zoom out。",
+      "titleEn": "Use zoom in when the picture moves closer or becomes larger.",
+      "zh": "當鏡頭或畫面拉近、放大時，使用 zoom in。當鏡頭或畫面拉遠、縮小或顯示更廣範圍時，使用 zoom out。",
+      "en": "Use zoom in when the picture moves closer or becomes larger. Use zoom out when the picture moves farther away, becomes smaller or shows a wider area."
+    },
+    {
+      "titleZh": "zoom off 表示迅速離開，通常指乘坐交通工具離開。",
+      "titleEn": "Zoom off means to leave very quickly, usually in a vehicle.",
+      "zh": "zoom off 表示迅速離開，通常指乘坐交通工具離開。",
+      "en": "Zoom off means to leave very quickly, usually in a vehicle."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 ZOOM 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to ZOOM. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "ZOOM 動詞片語句子改寫練習",
+    "titleEn": "ZOOM Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 ZOOM 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to ZOOM. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-25-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The camera moved closer to the baby’s smile.",
+      "promptZh": "鏡頭拉近嬰兒的笑容。",
+      "starter": "The",
+      "answer": "The camera zoomed in on the baby’s smile.",
+      "answerZh": "鏡頭拉近嬰兒的笑容。",
+      "highlight": "zoomed in on the baby’s smile",
+      "targetForm": "zoom in on somebody/something",
+      "targetMeaningZh": "把鏡頭或畫面拉近、放大"
+    },
+    {
+      "id": "phrasal-verb-25-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The red car left the school gate very quickly.",
+      "promptZh": "那輛紅色汽車迅速駛離校門。",
+      "starter": "The",
+      "answer": "The red car zoomed off from the school gate.",
+      "answerZh": "那輛紅色汽車迅速駛離校門。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速離開，通常指乘坐交通工具離開"
+    },
+    {
+      "id": "phrasal-verb-25-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "The camera moved farther away to show the whole garden.",
+      "promptZh": "鏡頭拉遠，以顯示整個花園。",
+      "starter": "The",
+      "answer": "The camera zoomed out to show the whole garden.",
+      "answerZh": "鏡頭拉遠，以顯示整個花園。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把鏡頭或畫面拉遠、縮小"
+    },
+    {
+      "id": "phrasal-verb-25-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Maya made the map larger to see the small road.",
+      "promptZh": "瑪雅把地圖放大，以看清那條小路。",
+      "starter": "Maya",
+      "answer": "Maya zoomed in on the map to see the small road.",
+      "answerZh": "瑪雅把地圖放大，以看清那條小路。",
+      "highlight": "zoomed in on the map",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把畫面拉近、放大"
+    },
+    {
+      "id": "phrasal-verb-25-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The motorbike left the café very quickly.",
+      "promptZh": "那輛電單車迅速駛離咖啡店。",
+      "starter": "The",
+      "answer": "The motorbike zoomed off from the café.",
+      "answerZh": "那輛電單車迅速駛離咖啡店。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速離開，通常指乘坐交通工具離開"
+    },
+    {
+      "id": "phrasal-verb-25-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben made the map smaller to see the whole island.",
+      "promptZh": "賓把地圖縮小，以看見整個島嶼。",
+      "starter": "Ben",
+      "answer": "Ben zoomed out to see the whole island.",
+      "answerZh": "賓把地圖縮小，以看見整個島嶼。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把畫面拉遠、縮小"
+    },
+    {
+      "id": "phrasal-verb-25-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The TV camera moved closer to the winning player’s face.",
+      "promptZh": "電視台的鏡頭拉近勝出球員的臉。",
+      "starter": "The",
+      "answer": "The TV camera zoomed in on the winning player’s face.",
+      "answerZh": "電視台的鏡頭拉近勝出球員的臉。",
+      "highlight": "zoomed in on the winning player’s face",
+      "targetForm": "zoom in on somebody/something",
+      "targetMeaningZh": "把鏡頭拉近某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-25-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Dad started the car and drove away very quickly.",
+      "promptZh": "爸爸開動汽車後迅速駛走。",
+      "starter": "Dad",
+      "answer": "Dad started the car and zoomed off.",
+      "answerZh": "爸爸開動汽車後迅速駛走。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕車離開"
+    },
+    {
+      "id": "phrasal-verb-25-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The camera moved back and showed all the people at the party.",
+      "promptZh": "鏡頭拉遠，顯示派對上的所有人。",
+      "starter": "The",
+      "answer": "The camera zoomed out and showed all the people at the party.",
+      "answerZh": "鏡頭拉遠，顯示派對上的所有人。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把鏡頭拉遠，顯示更廣範圍"
+    },
+    {
+      "id": "phrasal-verb-25-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The photographer made the bird appear larger on the screen.",
+      "promptZh": "攝影師把屏幕上的小鳥放大。",
+      "starter": "The",
+      "answer": "The photographer zoomed in on the bird so it appeared larger on the screen.",
+      "answerZh": "攝影師把鏡頭拉近小鳥，讓牠在屏幕上顯得更大。",
+      "highlight": "zoomed in on the bird",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把鏡頭拉近、放大某事物"
+    },
+    {
+      "id": "phrasal-verb-25-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The camera is moving farther away to show the whole beach.",
+      "promptZh": "鏡頭正在拉遠，以顯示整個海灘。",
+      "starter": "The",
+      "answer": "The camera is zooming out to show the whole beach.",
+      "answerZh": "鏡頭正在拉遠，以顯示整個海灘。",
+      "highlight": "zooming out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把鏡頭拉遠，顯示更廣範圍"
+    },
+    {
+      "id": "phrasal-verb-25-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The taxi left very quickly before I could wave goodbye.",
+      "promptZh": "那輛的士迅速駛走，我還來不及揮手道別。",
+      "starter": "The",
+      "answer": "The taxi zoomed off before I could wave goodbye.",
+      "answerZh": "那輛的士迅速駛走，我還來不及揮手道別。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕車離開"
+    },
+    {
+      "id": "phrasal-verb-25-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The news camera has moved closer to the broken window.",
+      "promptZh": "新聞鏡頭已拉近那扇破裂的窗戶。",
+      "starter": "The",
+      "answer": "The news camera has zoomed in on the broken window.",
+      "answerZh": "新聞鏡頭已拉近那扇破裂的窗戶。",
+      "highlight": "zoomed in on the broken window",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把鏡頭拉近某事物"
+    },
+    {
+      "id": "phrasal-verb-25-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Why did you make the picture smaller?",
+      "promptZh": "你為甚麼把畫面縮小了？",
+      "starter": "Why",
+      "answer": "Why did you zoom out?",
+      "answerZh": "你為甚麼把畫面縮小了？",
+      "highlight": "zoom out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把畫面拉遠、縮小"
+    },
+    {
+      "id": "phrasal-verb-25-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The racing car will leave very quickly when the light turns green.",
+      "promptZh": "綠燈亮起時，那輛賽車會迅速駛走。",
+      "starter": "The",
+      "answer": "The racing car will zoom off when the light turns green.",
+      "answerZh": "綠燈亮起時，那輛賽車會迅速駛走。",
+      "highlight": "zoom off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕車離開"
+    },
+    {
+      "id": "phrasal-verb-25-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Lena is making the photograph larger to check the sign.",
+      "promptZh": "莉娜正在把相片放大，以查看那個標誌。",
+      "starter": "Lena",
+      "answer": "Lena is zooming in on the photograph to check the sign.",
+      "answerZh": "莉娜正在把相片放大，以查看那個標誌。",
+      "highlight": "zooming in on the photograph",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把畫面拉近、放大"
+    },
+    {
+      "id": "phrasal-verb-25-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I could not see the whole map, so I made the screen view smaller.",
+      "promptZh": "我看不見整幅地圖，所以把屏幕上的畫面縮小了。",
+      "starter": "I",
+      "answer": "I could not see the whole map, so I zoomed out.",
+      "answerZh": "我看不見整幅地圖，所以把屏幕上的畫面縮小了。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把畫面拉遠、縮小"
+    },
+    {
+      "id": "phrasal-verb-25-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Because the road was blocked, the motorbike could not leave at high speed.",
+      "promptZh": "由於道路受阻，那輛電單車無法高速駛走。",
+      "starter": "Because",
+      "answer": "Because the road was blocked, the motorbike could not zoom off.",
+      "answerZh": "由於道路受阻，那輛電單車無法高速駛走。",
+      "highlight": "zoom off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕駛交通工具離開"
+    },
+    {
+      "id": "phrasal-verb-25-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Does this camera move closer to faces automatically?",
+      "promptZh": "這部相機會自動拉近人臉嗎？",
+      "starter": "Does",
+      "answer": "Does this camera zoom in on faces automatically?",
+      "answerZh": "這部相機會自動拉近人臉嗎？",
+      "highlight": "zoom in on faces",
+      "targetForm": "zoom in on somebody/something",
+      "targetMeaningZh": "自動把鏡頭拉近某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-25-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The film ends as the camera slowly moves farther away from the house.",
+      "promptZh": "電影結尾時，鏡頭慢慢從房子拉遠。",
+      "starter": "The",
+      "answer": "The film ends as the camera slowly zooms out from the house.",
+      "answerZh": "電影結尾時，鏡頭慢慢從房子拉遠。",
+      "highlight": "zooms out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把鏡頭拉遠"
+    },
+    {
+      "id": "phrasal-verb-25-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The driver grabbed his bag. A moment later, his car left very quickly.",
+      "promptZh": "司機拿起袋子。片刻後，他的汽車迅速駛走。",
+      "starter": "The",
+      "answer": "The driver grabbed his bag. A moment later, his car zoomed off.",
+      "answerZh": "司機拿起袋子。片刻後，他的汽車迅速駛走。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕車離開"
+    },
+    {
+      "id": "phrasal-verb-25-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I could not read the date, so I made that part of the photograph larger.",
+      "promptZh": "我看不清日期，所以把相片的那一部分放大了。",
+      "starter": "I",
+      "answer": "I could not read the date, so I zoomed in on that part of the photograph.",
+      "answerZh": "我看不清日期，所以把相片的那一部分放大了。",
+      "highlight": "zoomed in on that part of the photograph",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把畫面的某一部分拉近、放大"
+    },
+    {
+      "id": "phrasal-verb-25-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The picture showed only one player, so the camera moved back to include the whole team.",
+      "promptZh": "畫面只顯示一名球員，所以鏡頭拉遠，把整支球隊納入畫面。",
+      "starter": "The",
+      "answer": "The picture showed only one player, so the camera zoomed out to include the whole team.",
+      "answerZh": "畫面只顯示一名球員，所以鏡頭拉遠，把整支球隊納入畫面。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把鏡頭拉遠，顯示更廣範圍"
+    },
+    {
+      "id": "phrasal-verb-25-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They got into the van and left the car park very quickly.",
+      "promptZh": "他們上了客貨車，然後迅速駛離泊車場。",
+      "starter": "They",
+      "answer": "They got into the van and zoomed off from the car park.",
+      "answerZh": "他們上了客貨車，然後迅速駛離泊車場。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "乘坐交通工具迅速離開"
+    },
+    {
+      "id": "phrasal-verb-25-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The camera moved closer. It showed a tiny insect on the leaf.",
+      "promptZh": "鏡頭拉近，顯示葉子上的一隻小昆蟲。",
+      "starter": "The",
+      "answer": "The camera zoomed in on a tiny insect on the leaf.",
+      "answerZh": "鏡頭拉近葉子上的一隻小昆蟲。",
+      "highlight": "zoomed in on a tiny insect on the leaf",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把鏡頭拉近某事物"
+    },
+    {
+      "id": "phrasal-verb-25-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Please make the map view smaller; I need to see both towns.",
+      "promptZh": "請把地圖畫面縮小；我需要看見兩個城鎮。",
+      "starter": "Please",
+      "answer": "Please zoom out; I need to see both towns.",
+      "answerZh": "請把地圖畫面縮小；我需要看見兩個城鎮。",
+      "highlight": "zoom out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把畫面拉遠、縮小"
+    },
+    {
+      "id": "phrasal-verb-25-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why did Mia drive away so quickly after the phone call?",
+      "promptZh": "米婭為甚麼在通話後迅速駕車離開？",
+      "starter": "Why",
+      "answer": "Why did Mia zoom off after the phone call?",
+      "answerZh": "米婭為甚麼在通話後迅速駕車離開？",
+      "highlight": "zoom off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕車離開"
+    },
+    {
+      "id": "phrasal-verb-25-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The editor made the name larger so everyone could see it clearly.",
+      "promptZh": "編輯把名字放大，讓所有人都能看清楚。",
+      "starter": "The",
+      "answer": "The editor zoomed in on the name so everyone could see it clearly.",
+      "answerZh": "編輯把名字放大，讓所有人都能看清楚。",
+      "highlight": "zoomed in on the name",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把畫面中的某事物放大"
+    },
+    {
+      "id": "phrasal-verb-25-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The director asked the camera operator to move back and show the full stage.",
+      "promptZh": "導演要求攝影師把鏡頭拉遠，顯示整個舞台。",
+      "starter": "The",
+      "answer": "The director asked the camera operator to zoom out and show the full stage.",
+      "answerZh": "導演要求攝影師把鏡頭拉遠，顯示整個舞台。",
+      "highlight": "zoom out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把鏡頭拉遠，顯示完整場景"
+    },
+    {
+      "id": "phrasal-verb-25-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before anyone could speak, the blue car had already left at high speed.",
+      "promptZh": "還沒有人來得及說話，那輛藍色汽車已高速駛走。",
+      "starter": "Before",
+      "answer": "Before anyone could speak, the blue car had already zoomed off.",
+      "answerZh": "還沒有人來得及說話，那輛藍色汽車已高速駛走。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕車離開"
+    },
+    {
+      "id": "phrasal-verb-25-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The screen showed the whole street, but I changed it to a closer view of one shop sign.",
+      "promptZh": "屏幕原本顯示整條街道，但我把畫面轉為近看其中一個店舖招牌。",
+      "starter": "The",
+      "answer": "The screen showed the whole street, but I zoomed in on one shop sign.",
+      "answerZh": "屏幕原本顯示整條街道，但我拉近其中一個店舖招牌。",
+      "highlight": "zoomed in on one shop sign",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把畫面拉近某個細節"
+    },
+    {
+      "id": "phrasal-verb-25-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The delivery van left the shop very quickly when the driver received an urgent message.",
+      "promptZh": "司機收到緊急訊息後，那輛送貨客貨車迅速駛離店舖。",
+      "starter": "The",
+      "answer": "The delivery van zoomed off from the shop when the driver received an urgent message.",
+      "answerZh": "司機收到緊急訊息後，那輛送貨客貨車迅速駛離店舖。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕車離開"
+    },
+    {
+      "id": "phrasal-verb-25-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The family filled the screen, so I made the view wider to include the mountains behind them.",
+      "promptZh": "一家人佔滿了屏幕，所以我把畫面拉遠，把他們身後的山也拍進去。",
+      "starter": "The",
+      "answer": "The family filled the screen, so I zoomed out to include the mountains behind them.",
+      "answerZh": "一家人佔滿了屏幕，所以我把畫面拉遠，把他們身後的山也拍進去。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把畫面拉遠，顯示更廣範圍"
+    },
+    {
+      "id": "phrasal-verb-25-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "During the football replay, the camera gave a closer view of the ball near the line.",
+      "promptZh": "重播足球片段時，鏡頭拉近界線附近的足球。",
+      "starter": "During",
+      "answer": "During the football replay, the camera zoomed in on the ball near the line.",
+      "answerZh": "重播足球片段時，鏡頭拉近界線附近的足球。",
+      "highlight": "zoomed in on the ball",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把鏡頭拉近某個細節"
+    },
+    {
+      "id": "phrasal-verb-25-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The green scooter waited quietly, then suddenly left at high speed when the lights changed.",
+      "promptZh": "那輛綠色小型電單車安靜地等候，燈號轉變時突然高速駛走。",
+      "starter": "The",
+      "answer": "The green scooter waited quietly, then suddenly zoomed off when the lights changed.",
+      "answerZh": "那輛綠色小型電單車安靜地等候，燈號轉變時突然高速駛走。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "突然高速駕車離開"
+    },
+    {
+      "id": "phrasal-verb-25-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "I could see only one street on the map, so I made the view wider to find the station.",
+      "promptZh": "地圖上我只能看見一條街道，所以把畫面拉遠來尋找車站。",
+      "starter": "I",
+      "answer": "I could see only one street on the map, so I zoomed out to find the station.",
+      "answerZh": "地圖上我只能看見一條街道，所以把畫面拉遠來尋找車站。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把地圖畫面拉遠"
+    },
+    {
+      "id": "phrasal-verb-25-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The video first showed the whole class, then moved closer to Ava as she began to speak.",
+      "promptZh": "影片先顯示全班，然後在艾娃開始說話時把鏡頭拉近她。",
+      "starter": "The",
+      "answer": "The video first showed the whole class, then zoomed in on Ava as she began to speak.",
+      "answerZh": "影片先顯示全班，然後在艾娃開始說話時把鏡頭拉近她。",
+      "highlight": "zoomed in on Ava",
+      "targetForm": "zoom in on somebody",
+      "targetMeaningZh": "把鏡頭拉近某人"
+    },
+    {
+      "id": "phrasal-verb-25-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "As soon as the gate opened, the small boat moved away across the water at high speed.",
+      "promptZh": "閘門一打開，那艘小船便高速駛過水面。",
+      "starter": "As",
+      "answer": "As soon as the gate opened, the small boat zoomed off across the water.",
+      "answerZh": "閘門一打開，那艘小船便高速駛過水面。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "乘坐交通工具迅速離開"
+    },
+    {
+      "id": "phrasal-verb-25-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The camera moved away from the actor’s face until the whole room was visible.",
+      "promptZh": "鏡頭從演員的臉拉遠，直至整個房間都清楚可見。",
+      "starter": "The",
+      "answer": "The camera zoomed out from the actor’s face until the whole room was visible.",
+      "answerZh": "鏡頭從演員的臉拉遠，直至整個房間都清楚可見。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把鏡頭從近景拉遠"
+    },
+    {
+      "id": "phrasal-verb-25-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "On the photo application, I made the corner larger to check a small mark.",
+      "promptZh": "我在相片應用程式中把角落放大，以查看一個小記號。",
+      "starter": "On",
+      "answer": "On the photo application, I zoomed in on the corner to check a small mark.",
+      "answerZh": "我在相片應用程式中把角落放大，以查看一個小記號。",
+      "highlight": "zoomed in on the corner",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把畫面的某一部分拉近、放大"
+    },
+    {
+      "id": "phrasal-verb-25-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "At first, the video showed only the singer. Then the camera moved farther away and showed the full band.",
+      "promptZh": "影片起初只顯示歌手。其後鏡頭拉遠，顯示整隊樂隊。",
+      "starter": "At",
+      "answer": "At first, the video showed only the singer. Then the camera zoomed out and showed the full band.",
+      "answerZh": "影片起初只顯示歌手。其後鏡頭拉遠，顯示整隊樂隊。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把鏡頭拉遠，顯示更廣範圍"
+    },
+    {
+      "id": "phrasal-verb-25-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The map showed the whole city, but I changed it to a closer view of the road beside the hospital.",
+      "promptZh": "地圖原本顯示整個城市，但我把畫面轉為近看醫院旁的道路。",
+      "starter": "The",
+      "answer": "The map showed the whole city, but I zoomed in on the road beside the hospital.",
+      "answerZh": "地圖原本顯示整個城市，但我把畫面拉近醫院旁的道路。",
+      "highlight": "zoomed in on the road beside the hospital",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把地圖中的某個位置拉近"
+    },
+    {
+      "id": "phrasal-verb-25-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Ravi waved once, closed the car door and left so quickly that we could not wave back.",
+      "promptZh": "拉維揮了一下手，關上車門後迅速駛走，快得我們來不及揮手回應。",
+      "starter": "Ravi",
+      "answer": "Ravi waved once, closed the car door and zoomed off so quickly that we could not wave back.",
+      "answerZh": "拉維揮了一下手，關上車門後迅速駛走，快得我們來不及揮手回應。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕車離開"
+    },
+    {
+      "id": "phrasal-verb-25-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The face filled the screen, so I made the view smaller again.",
+      "promptZh": "那張臉佔滿了屏幕，所以我再次把畫面縮小。",
+      "starter": "The",
+      "answer": "The face filled the screen, so I zoomed out again.",
+      "answerZh": "那張臉佔滿了屏幕，所以我再次把畫面縮小。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把畫面拉遠、縮小"
+    },
+    {
+      "id": "phrasal-verb-25-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "While checking the group photograph, Noor made the teacher’s name badge larger so she could read it.",
+      "promptZh": "查看合照時，努爾把老師的名牌放大，以便看清上面的字。",
+      "starter": "While",
+      "answer": "While checking the group photograph, Noor zoomed in on the teacher’s name badge so she could read it.",
+      "answerZh": "查看合照時，努爾把老師的名牌放大，以便看清上面的字。",
+      "highlight": "zoomed in on the teacher’s name badge",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把畫面中的細節拉近、放大"
+    },
+    {
+      "id": "phrasal-verb-25-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The taxi waited until everyone was inside, then drove very quickly down the busy street.",
+      "promptZh": "的士等到所有人都上車後，便沿繁忙街道高速駛走。",
+      "starter": "The",
+      "answer": "The taxi waited until everyone was inside, then zoomed off down the busy street.",
+      "answerZh": "的士等到所有人都上車後，便沿繁忙街道高速駛走。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕車離開"
+    },
+    {
+      "id": "phrasal-verb-25-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The final shot began with one small flower, then the camera moved back until the whole field could be seen.",
+      "promptZh": "最後一個鏡頭由一朵小花開始，然後逐漸拉遠，直至整片田野都清楚可見。",
+      "starter": "The",
+      "answer": "The final shot began with one small flower, then the camera zoomed out until the whole field could be seen.",
+      "answerZh": "最後一個鏡頭由一朵小花開始，然後逐漸拉遠，直至整片田野都清楚可見。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把鏡頭由近景逐漸拉遠"
+    },
+    {
+      "id": "phrasal-verb-25-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The referee wanted to check whether the player’s foot touched the line, so the replay showed a much closer view of the player’s foot.",
+      "promptZh": "裁判想查看球員的腳是否碰到界線，所以重播片段把球員的腳放大顯示。",
+      "starter": "The",
+      "answer": "The referee wanted to check whether the player’s foot touched the line, so the replay zoomed in on the player’s foot.",
+      "answerZh": "裁判想查看球員的腳是否碰到界線，所以重播片段把球員的腳放大顯示。",
+      "highlight": "zoomed in on the player’s foot",
+      "targetForm": "zoom in on something",
+      "targetMeaningZh": "把重播畫面中的細節拉近"
+    },
+    {
+      "id": "phrasal-verb-25-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Without waiting for the rain to stop, Leo started the motorbike and left at high speed.",
+      "promptZh": "里奧沒有等雨停，便開動電單車高速離開。",
+      "starter": "Without",
+      "answer": "Without waiting for the rain to stop, Leo started the motorbike and zoomed off.",
+      "answerZh": "里奧沒有等雨停，便開動電單車高速離開。",
+      "highlight": "zoomed off",
+      "targetForm": "zoom off",
+      "targetMeaningZh": "迅速駕駛交通工具離開"
+    },
+    {
+      "id": "phrasal-verb-25-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The online map showed only our street. We made the view wider until we could see the whole area.",
+      "promptZh": "網上地圖只顯示我們的街道。我們把畫面拉遠，直至能看見整個地區。",
+      "starter": "The",
+      "answer": "The online map showed only our street. We zoomed out until we could see the whole area.",
+      "answerZh": "網上地圖只顯示我們的街道。我們把畫面拉遠，直至能看見整個地區。",
+      "highlight": "zoomed out",
+      "targetForm": "zoom out",
+      "targetMeaningZh": "把地圖畫面拉遠，顯示更廣範圍"
+    }
+  ]
+}

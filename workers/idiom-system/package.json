@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "check": "node --check src/index.js && npm test && wrangler deploy --dry-run",
+    "catalog": "node ../../tools/generate-idiom-catalog.mjs",
     "test": "node --test test/*.test.mjs",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"

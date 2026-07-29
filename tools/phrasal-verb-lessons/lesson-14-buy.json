@@ -1,0 +1,1766 @@
+{
+  "id": "phrasal-verb-14",
+  "order": 14,
+  "slug": "buy",
+  "version": "1",
+  "title": "BUY 動詞片語",
+  "titleEn": "Buy",
+  "titleZh": "BUY 動詞片語",
+  "level": "B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 14 - Buy.pdf",
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BUY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BUY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BUY",
+      "highlight": "BUY"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "They hope to buy into a local insurance company.",
+      "zh": "他們希望購入一間本地保險公司的股份。",
+      "highlight": "buy into"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "They tried to buy Ravi off so he would keep quiet.",
+      "zh": "他們試圖收買拉維，令他保持沉默。",
+      "highlight": "buy Ravi off"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Mia bought her partner out and became the only owner.",
+      "zh": "米婭買下了合夥人的股份，成為唯一東主。",
+      "highlight": "bought her partner out"
+    }
+  ],
+  "meaning": {
+    "zh": "購入某公司或生意的一部分，成為股東或合夥人；用錢收買某人，使其保持沉默、停止阻撓或違反原則；買下某人的股份，或收購整間公司或業務；付錢使某人或自己提早解除合約、責任或服務；買回曾經出售或交出的東西；為日後需要預先購入額外用品或存貨；買下所有或大部分可買的東西。",
+    "en": "Learn and practise the phrasal verbs related to BUY.",
+    "naturalZh": [
+      "購入某公司或生意的一部分，成為股東或合夥人",
+      "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+      "買下某人的股份，或收購整間公司或業務",
+      "付錢使某人或自己提早解除合約、責任或服務",
+      "買回曾經出售或交出的東西",
+      "為日後需要預先購入額外用品或存貨",
+      "買下所有或大部分可買的東西"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "buy into something",
+      "titleZh": "購入某公司或生意的一部分，成為股東或合夥人",
+      "titleEn": "buy into something",
+      "descriptionZh": "購入某公司或生意的一部分，成為股東或合夥人",
+      "descriptionEn": "They hope to buy into a local insurance company.",
+      "examples": [
+        {
+          "en": "They hope to buy into a local insurance company.",
+          "zh": "他們希望購入一間本地保險公司的股份。",
+          "highlight": "buy into"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "buy somebody off",
+      "titleZh": "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+      "titleEn": "buy somebody off",
+      "descriptionZh": "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+      "descriptionEn": "They tried to buy Ravi off so he would keep quiet.",
+      "examples": [
+        {
+          "en": "They tried to buy Ravi off so he would keep quiet.",
+          "zh": "他們試圖收買拉維，令他保持沉默。",
+          "highlight": "buy Ravi off"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "buy somebody/something out",
+      "titleZh": "買下某人的股份，或收購整間公司或業務",
+      "titleEn": "buy somebody/something out",
+      "descriptionZh": "買下某人的股份，或收購整間公司或業務",
+      "descriptionEn": "Mia bought her partner out and became the only owner.",
+      "examples": [
+        {
+          "en": "Mia bought her partner out and became the only owner.",
+          "zh": "米婭買下了合夥人的股份，成為唯一東主。",
+          "highlight": "bought her partner out"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "buy somebody/yourself out; buy somebody/yourself out of something",
+      "titleZh": "付錢使某人或自己提早解除合約、責任或服務",
+      "titleEn": "buy somebody/yourself out; buy somebody/yourself out of something",
+      "descriptionZh": "付錢使某人或自己提早解除合約、責任或服務",
+      "descriptionEn": "He bought himself out of the final year of his contract.",
+      "examples": [
+        {
+          "en": "He bought himself out of the final year of his contract.",
+          "zh": "他付費解除了合約最後一年的責任。",
+          "highlight": "bought himself out of"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "pageGroup": 2,
+      "formula": "buy something back",
+      "titleZh": "買回曾經出售或交出的東西",
+      "titleEn": "buy something back",
+      "descriptionZh": "買回曾經出售或交出的東西",
+      "descriptionEn": "She sold the chair and later bought it back.",
+      "examples": [
+        {
+          "en": "She sold the chair and later bought it back.",
+          "zh": "她賣掉那張椅子後，後來又把它買回來。",
+          "highlight": "bought it back"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "buy something in",
+      "titleZh": "為日後需要預先購入額外用品或存貨",
+      "titleEn": "buy something in",
+      "descriptionZh": "為日後需要預先購入額外用品或存貨",
+      "descriptionEn": "We bought in extra food for the weekend.",
+      "examples": [
+        {
+          "en": "We bought in extra food for the weekend.",
+          "zh": "我們為週末預先購入了額外食物。",
+          "highlight": "bought in"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "pageGroup": 2,
+      "formula": "buy something up",
+      "titleZh": "買下所有或大部分可買的東西",
+      "titleEn": "buy something up",
+      "descriptionZh": "買下所有或大部分可買的東西",
+      "descriptionEn": "The company bought up all the land nearby.",
+      "examples": [
+        {
+          "en": "The company bought up all the land nearby.",
+          "zh": "該公司買下了附近所有土地。",
+          "highlight": "bought up"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 BUY 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to BUY.",
+    "contextsZh": [
+      "購入某公司或生意的一部分，成為股東或合夥人",
+      "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+      "買下某人的股份，或收購整間公司或業務",
+      "付錢使某人或自己提早解除合約、責任或服務",
+      "買回曾經出售或交出的東西",
+      "為日後需要預先購入額外用品或存貨",
+      "買下所有或大部分可買的東西"
+    ],
+    "contextsEn": [
+      "buy into something",
+      "buy somebody off",
+      "buy somebody/something out",
+      "buy somebody/yourself out; buy somebody/yourself out of something",
+      "buy something back",
+      "buy something in",
+      "buy something up"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 BUY 片語動詞，並保留原句中的人物、事物、時間和情境。",
+    "formalEn": "Read the whole sentence and choose the BUY expression that gives the same meaning. Keep the same people, things, time and situation."
+  },
+  "fixedVariable": {
+    "fixed": "BUY",
+    "fixedHighlight": "BUY",
+    "fixedZh": "閱讀整句，選出意思相同的 BUY 片語動詞，並保留原句中的人物、事物、時間和情境。",
+    "fixedEn": "Read the whole sentence and choose the BUY expression that gives the same meaning. Keep the same people, things, time and situation.",
+    "correct": "buy into something",
+    "incorrectForms": [],
+    "variableZh": "請按照以上例子使用正確語序。 buy somebody out 通常表示買下某人的股份；buy yourself out of something 則表示付錢解除協議、合約或服務。 buy in 表示預先購入額外用品；buy up 則表示買下所有或大部分可買的東西。",
+    "variableEn": "Follow the word order shown in these examples: buy him off buy her out buy it back buy some in buy them all up buy into it Buy somebody out usually means purchasing that person’s share. Buy yourself out of something means paying to leave an agreement, contract or service. Buy in means obtaining extra supplies for later. Buy up means purchasing all or most of what is available.",
+    "variableItemsZh": [
+      "購入某公司或生意的一部分，成為股東或合夥人",
+      "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+      "買下某人的股份，或收購整間公司或業務",
+      "付錢使某人或自己提早解除合約、責任或服務",
+      "買回曾經出售或交出的東西",
+      "為日後需要預先購入額外用品或存貨",
+      "買下所有或大部分可買的東西"
+    ],
+    "variableItemsEn": [
+      "buy into something",
+      "buy somebody off",
+      "buy somebody/something out",
+      "buy somebody/yourself out; buy somebody/yourself out of something",
+      "buy something back",
+      "buy something in",
+      "buy something up"
+    ],
+    "forms": [
+      {
+        "formZh": "購入某公司或生意的一部分，成為股東或合夥人",
+        "formEn": "buy into something",
+        "exampleZh": "他們希望購入一間本地保險公司的股份。",
+        "exampleEn": "They hope to buy into a local insurance company.",
+        "highlight": "buy into"
+      },
+      {
+        "formZh": "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+        "formEn": "buy somebody off",
+        "exampleZh": "他們試圖收買拉維，令他保持沉默。",
+        "exampleEn": "They tried to buy Ravi off so he would keep quiet.",
+        "highlight": "buy Ravi off"
+      },
+      {
+        "formZh": "買下某人的股份，或收購整間公司或業務",
+        "formEn": "buy somebody/something out",
+        "exampleZh": "米婭買下了合夥人的股份，成為唯一東主。",
+        "exampleEn": "Mia bought her partner out and became the only owner.",
+        "highlight": "bought her partner out"
+      },
+      {
+        "formZh": "付錢使某人或自己提早解除合約、責任或服務",
+        "formEn": "buy somebody/yourself out; buy somebody/yourself out of something",
+        "exampleZh": "他付費解除了合約最後一年的責任。",
+        "exampleEn": "He bought himself out of the final year of his contract.",
+        "highlight": "bought himself out of"
+      },
+      {
+        "formZh": "買回曾經出售或交出的東西",
+        "formEn": "buy something back",
+        "exampleZh": "她賣掉那張椅子後，後來又把它買回來。",
+        "exampleEn": "She sold the chair and later bought it back.",
+        "highlight": "bought it back"
+      },
+      {
+        "formZh": "為日後需要預先購入額外用品或存貨",
+        "formEn": "buy something in",
+        "exampleZh": "我們為週末預先購入了額外食物。",
+        "exampleEn": "We bought in extra food for the weekend.",
+        "highlight": "bought in"
+      },
+      {
+        "formZh": "買下所有或大部分可買的東西",
+        "formEn": "buy something up",
+        "exampleZh": "該公司買下了附近所有土地。",
+        "exampleEn": "The company bought up all the land nearby.",
+        "highlight": "bought up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "購入某公司或生意的一部分，成為股東或合夥人",
+      "titleEn": "buy into something",
+      "formula": "buy into something",
+      "highlight": "buy into something",
+      "descriptionZh": "購入某公司或生意的一部分，成為股東或合夥人",
+      "descriptionEn": "They hope to buy into a local insurance company.",
+      "examples": [
+        {
+          "en": "They hope to buy into a local insurance company.",
+          "zh": "他們希望購入一間本地保險公司的股份。",
+          "highlight": "buy into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+      "titleEn": "buy somebody off",
+      "formula": "buy somebody off",
+      "highlight": "buy somebody off",
+      "descriptionZh": "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+      "descriptionEn": "They tried to buy Ravi off so he would keep quiet.",
+      "examples": [
+        {
+          "en": "They tried to buy Ravi off so he would keep quiet.",
+          "zh": "他們試圖收買拉維，令他保持沉默。",
+          "highlight": "buy Ravi off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "買下某人的股份，或收購整間公司或業務",
+      "titleEn": "buy somebody/something out",
+      "formula": "buy somebody/something out",
+      "highlight": "buy somebody/something out",
+      "descriptionZh": "買下某人的股份，或收購整間公司或業務",
+      "descriptionEn": "Mia bought her partner out and became the only owner.",
+      "examples": [
+        {
+          "en": "Mia bought her partner out and became the only owner.",
+          "zh": "米婭買下了合夥人的股份，成為唯一東主。",
+          "highlight": "bought her partner out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "付錢使某人或自己提早解除合約、責任或服務",
+      "titleEn": "buy somebody/yourself out; buy somebody/yourself out of something",
+      "formula": "buy somebody/yourself out; buy somebody/yourself out of something",
+      "highlight": "buy somebody/yourself out; buy somebody/yourself out of something",
+      "descriptionZh": "付錢使某人或自己提早解除合約、責任或服務",
+      "descriptionEn": "He bought himself out of the final year of his contract.",
+      "examples": [
+        {
+          "en": "He bought himself out of the final year of his contract.",
+          "zh": "他付費解除了合約最後一年的責任。",
+          "highlight": "bought himself out of"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "買回曾經出售或交出的東西",
+      "titleEn": "buy something back",
+      "formula": "buy something back",
+      "highlight": "buy something back",
+      "descriptionZh": "買回曾經出售或交出的東西",
+      "descriptionEn": "She sold the chair and later bought it back.",
+      "examples": [
+        {
+          "en": "She sold the chair and later bought it back.",
+          "zh": "她賣掉那張椅子後，後來又把它買回來。",
+          "highlight": "bought it back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "為日後需要預先購入額外用品或存貨",
+      "titleEn": "buy something in",
+      "formula": "buy something in",
+      "highlight": "buy something in",
+      "descriptionZh": "為日後需要預先購入額外用品或存貨",
+      "descriptionEn": "We bought in extra food for the weekend.",
+      "examples": [
+        {
+          "en": "We bought in extra food for the weekend.",
+          "zh": "我們為週末預先購入了額外食物。",
+          "highlight": "bought in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "買下所有或大部分可買的東西",
+      "titleEn": "buy something up",
+      "formula": "buy something up",
+      "highlight": "buy something up",
+      "descriptionZh": "買下所有或大部分可買的東西",
+      "descriptionEn": "The company bought up all the land nearby.",
+      "examples": [
+        {
+          "en": "The company bought up all the land nearby.",
+          "zh": "該公司買下了附近所有土地。",
+          "highlight": "bought up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論企業投資和擁有權",
+      "titleEn": "Talk clearly about business ownership and investment",
+      "zh": "buy into 可以表示購入生意的一部分；buy somebody out 則可以表示買下另一名東主的股份。",
+      "en": "Buy into can describe purchasing part of a business, while buy somebody out can describe purchasing another owner’s share."
+    },
+    {
+      "titleZh": "說明如何用金錢影響某人或解除責任",
+      "titleEn": "Explain how money is used to influence or release someone",
+      "zh": "buy somebody off 表示用錢收買某人；buy yourself out 則表示付費解除合約或服務。",
+      "en": "Buy somebody off describes paying someone to remain silent or stop causing a problem. Buy yourself out describes paying to leave a contract or service."
+    },
+    {
+      "titleZh": "描述買回曾經出售的東西",
+      "titleEn": "Describe getting back something previously sold",
+      "zh": "buy something back 可以清楚表示某件物品曾經被出售，其後又被買回來。",
+      "en": "Buy something back clearly shows that an object was sold or given up and was later purchased again."
+    },
+    {
+      "titleZh": "分辨補充存貨和大量買光",
+      "titleEn": "Distinguish extra supplies from buying everything available",
+      "zh": "buy in 適合表示預先購入額外用品；buy up 則表示買下所有或幾乎所有可買的東西。",
+      "en": "Buy in is useful when a shop, home or organisation obtains extra supplies. Buy up shows that someone purchases all or nearly all of something."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "購入某公司或生意的一部分，成為股東或合夥人",
+      "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+      "買下某人的股份，或收購整間公司或業務",
+      "付錢使某人或自己提早解除合約、責任或服務",
+      "買回曾經出售或交出的東西",
+      "為日後需要預先購入額外用品或存貨",
+      "買下所有或大部分可買的東西"
+    ],
+    "contextsEn": [
+      "buy into something",
+      "buy somebody off",
+      "buy somebody/something out",
+      "buy somebody/yourself out; buy somebody/yourself out of something",
+      "buy something back",
+      "buy something in",
+      "buy something up"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "購入某公司或生意的一部分，成為股東或合夥人",
+        "titleEn": "buy into something",
+        "zh": "購入某公司或生意的一部分，成為股東或合夥人",
+        "en": "They hope to buy into a local insurance company.",
+        "examples": [
+          {
+            "en": "They hope to buy into a local insurance company.",
+            "zh": "他們希望購入一間本地保險公司的股份。",
+            "highlight": "buy into"
+          }
+        ]
+      },
+      {
+        "titleZh": "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+        "titleEn": "buy somebody off",
+        "zh": "用錢收買某人，使其保持沉默、停止阻撓或違反原則",
+        "en": "They tried to buy Ravi off so he would keep quiet.",
+        "examples": [
+          {
+            "en": "They tried to buy Ravi off so he would keep quiet.",
+            "zh": "他們試圖收買拉維，令他保持沉默。",
+            "highlight": "buy Ravi off"
+          }
+        ]
+      },
+      {
+        "titleZh": "買下某人的股份，或收購整間公司或業務",
+        "titleEn": "buy somebody/something out",
+        "zh": "買下某人的股份，或收購整間公司或業務",
+        "en": "Mia bought her partner out and became the only owner.",
+        "examples": [
+          {
+            "en": "Mia bought her partner out and became the only owner.",
+            "zh": "米婭買下了合夥人的股份，成為唯一東主。",
+            "highlight": "bought her partner out"
+          }
+        ]
+      },
+      {
+        "titleZh": "付錢使某人或自己提早解除合約、責任或服務",
+        "titleEn": "buy somebody/yourself out; buy somebody/yourself out of something",
+        "zh": "付錢使某人或自己提早解除合約、責任或服務",
+        "en": "He bought himself out of the final year of his contract.",
+        "examples": [
+          {
+            "en": "He bought himself out of the final year of his contract.",
+            "zh": "他付費解除了合約最後一年的責任。",
+            "highlight": "bought himself out of"
+          }
+        ]
+      },
+      {
+        "titleZh": "買回曾經出售或交出的東西",
+        "titleEn": "buy something back",
+        "zh": "買回曾經出售或交出的東西",
+        "en": "She sold the chair and later bought it back.",
+        "examples": [
+          {
+            "en": "She sold the chair and later bought it back.",
+            "zh": "她賣掉那張椅子後，後來又把它買回來。",
+            "highlight": "bought it back"
+          }
+        ]
+      },
+      {
+        "titleZh": "為日後需要預先購入額外用品或存貨",
+        "titleEn": "buy something in",
+        "zh": "為日後需要預先購入額外用品或存貨",
+        "en": "We bought in extra food for the weekend.",
+        "examples": [
+          {
+            "en": "We bought in extra food for the weekend.",
+            "zh": "我們為週末預先購入了額外食物。",
+            "highlight": "bought in"
+          }
+        ]
+      },
+      {
+        "titleZh": "買下所有或大部分可買的東西",
+        "titleEn": "buy something up",
+        "zh": "買下所有或大部分可買的東西",
+        "en": "The company bought up all the land nearby.",
+        "examples": [
+          {
+            "en": "The company bought up all the land nearby.",
+            "zh": "該公司買下了附近所有土地。",
+            "highlight": "bought up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 BUY 片語動詞，並保留原句中的人物、事物、時間和情境。",
+      "titleEn": "Read the whole sentence and choose the BUY expression that gives the same meaning. Keep the same people, things, time and situation.",
+      "zh": "閱讀整句，選出意思相同的 BUY 片語動詞，並保留原句中的人物、事物、時間和情境。",
+      "en": "Read the whole sentence and choose the BUY expression that gives the same meaning. Keep the same people, things, time and situation."
+    },
+    {
+      "titleZh": "請按照以上例子使用正確語序。",
+      "titleEn": "Follow the word order shown in these examples: buy him off buy her out buy it back buy some in buy them all up buy into it",
+      "zh": "請按照以上例子使用正確語序。",
+      "en": "Follow the word order shown in these examples: buy him off buy her out buy it back buy some in buy them all up buy into it",
+      "examples": [
+        {
+          "en": "buy him off",
+          "zh": "buy him off",
+          "highlight": "buy him off"
+        },
+        {
+          "en": "buy her out",
+          "zh": "buy her out",
+          "highlight": "buy her out"
+        },
+        {
+          "en": "buy it back",
+          "zh": "buy it back",
+          "highlight": "buy it back"
+        },
+        {
+          "en": "buy some in",
+          "zh": "buy some in",
+          "highlight": "buy some in"
+        },
+        {
+          "en": "buy them all up",
+          "zh": "buy them all up",
+          "highlight": "buy them all up"
+        },
+        {
+          "en": "buy into it",
+          "zh": "buy into it",
+          "highlight": "buy into"
+        }
+      ]
+    },
+    {
+      "titleZh": "buy somebody out 通常表示買下某人的股份；buy yourself out of something 則表示付錢解除協議、合約或服務。",
+      "titleEn": "Buy somebody out usually means purchasing that person’s share. Buy yourself out of something means paying to leave an agreement, contract or service.",
+      "zh": "buy somebody out 通常表示買下某人的股份；buy yourself out of something 則表示付錢解除協議、合約或服務。",
+      "en": "Buy somebody out usually means purchasing that person’s share. Buy yourself out of something means paying to leave an agreement, contract or service."
+    },
+    {
+      "titleZh": "buy in 表示預先購入額外用品；buy up 則表示買下所有或大部分可買的東西。",
+      "titleEn": "Buy in means obtaining extra supplies for later. Buy up means purchasing all or most of what is available.",
+      "zh": "buy in 表示預先購入額外用品；buy up 則表示買下所有或大部分可買的東西。",
+      "en": "Buy in means obtaining extra supplies for later. Buy up means purchasing all or most of what is available."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BUY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BUY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BUY 動詞片語句子改寫練習",
+    "titleEn": "BUY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BUY 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BUY. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-14-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Lena purchased a share in a small café with two friends.",
+      "promptZh": "麗娜與兩位朋友一起購入了一間小咖啡店的股份。",
+      "starter": "Lena",
+      "answer": "Lena bought into a small café with two friends.",
+      "answerZh": "麗娜與兩位朋友一起購入了一間小咖啡店的股份。",
+      "highlight": "bought into",
+      "targetForm": "buy into something",
+      "targetMeaningZh": "購入某公司或生意的一部分，成為股東或合夥人"
+    },
+    {
+      "id": "phrasal-verb-14-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Owen sold his old guitar, then purchased it again.",
+      "promptZh": "歐文賣掉舊結他後，又把它買了回來。",
+      "starter": "Owen",
+      "answer": "Owen sold his old guitar, then bought it back.",
+      "answerZh": "歐文賣掉舊結他後，又把它買了回來。",
+      "highlight": "bought it back",
+      "targetForm": "buy something back",
+      "targetMeaningZh": "買回曾經出售的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The dishonest manager tried to pay Mia to keep quiet.",
+      "promptZh": "那名不誠實的經理試圖付錢給米婭，叫她保持沉默。",
+      "starter": "The",
+      "answer": "The dishonest manager tried to buy Mia off.",
+      "answerZh": "那名不誠實的經理試圖收買米婭，令她保持沉默。",
+      "highlight": "buy Mia off",
+      "targetForm": "buy somebody off",
+      "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
+    },
+    {
+      "id": "phrasal-verb-14-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "We need to purchase extra food for the party.",
+      "promptZh": "我們需要為派對購買額外食物。",
+      "starter": "We",
+      "answer": "We need to buy in extra food for the party.",
+      "answerZh": "我們需要為派對預先購入額外食物。",
+      "highlight": "buy in",
+      "targetForm": "buy something in",
+      "targetMeaningZh": "為日後需要預先購入額外用品或存貨"
+    },
+    {
+      "id": "phrasal-verb-14-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Noah wants to pay for his brother’s share and own the shop alone.",
+      "promptZh": "諾亞想買下哥哥的股份，獨自擁有這間店舖。",
+      "starter": "Noah",
+      "answer": "Noah wants to buy his brother out and own the shop alone.",
+      "answerZh": "諾亞想買下哥哥的股份，獨自擁有這間店舖。",
+      "highlight": "buy his brother out",
+      "targetForm": "buy somebody out",
+      "targetMeaningZh": "買下某人的股份"
+    },
+    {
+      "id": "phrasal-verb-14-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "A large company purchased every empty shop in the street.",
+      "promptZh": "一間大公司買下了街上所有空置店舖。",
+      "starter": "A",
+      "answer": "A large company bought up every empty shop in the street.",
+      "answerZh": "一間大公司買下了街上所有空置店舖。",
+      "highlight": "bought up",
+      "targetForm": "buy something up",
+      "targetMeaningZh": "買下所有或大部分可買的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Maya paid the required fee to leave the phone contract early.",
+      "promptZh": "瑪雅支付了所需費用，以提早解除電話合約。",
+      "starter": "Maya",
+      "answer": "Maya bought herself out of the phone contract.",
+      "answerZh": "瑪雅支付了所需費用，以提早解除電話合約。",
+      "highlight": "bought herself out of",
+      "targetForm": "buy yourself out of something",
+      "targetMeaningZh": "付錢使自己解除合約、責任或服務"
+    },
+    {
+      "id": "phrasal-verb-14-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The family plans to purchase part of a local bakery.",
+      "promptZh": "這個家庭計劃購入一間本地麵包店的部分股份。",
+      "starter": "The",
+      "answer": "The family plans to buy into a local bakery.",
+      "answerZh": "這個家庭計劃購入一間本地麵包店的部分股份。",
+      "highlight": "buy into",
+      "targetForm": "buy into something",
+      "targetMeaningZh": "購入某公司或生意的一部分，成為股東或合夥人"
+    },
+    {
+      "id": "phrasal-verb-14-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The larger company purchased every share in the smaller company.",
+      "promptZh": "較大的公司購入了較小公司的所有股份。",
+      "starter": "The",
+      "answer": "The larger company bought out the smaller company.",
+      "answerZh": "較大的公司收購了較小的公司。",
+      "highlight": "bought out",
+      "targetForm": "buy something out",
+      "targetMeaningZh": "收購整間公司或業務"
+    },
+    {
+      "id": "phrasal-verb-14-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The museum sold the painting but later purchased it again.",
+      "promptZh": "博物館把畫作出售後，後來又把它買了回來。",
+      "starter": "The",
+      "answer": "The museum sold the painting but later bought it back.",
+      "answerZh": "博物館把畫作出售後，後來又把它買了回來。",
+      "highlight": "bought it back",
+      "targetForm": "buy something back",
+      "targetMeaningZh": "買回曾經出售的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Fans purchased every available ticket before noon.",
+      "promptZh": "球迷在中午前買光了所有可供購買的門票。",
+      "starter": "Fans",
+      "answer": "Fans bought up every available ticket before noon.",
+      "answerZh": "球迷在中午前買光了所有可供購買的門票。",
+      "highlight": "bought up",
+      "targetForm": "buy something up",
+      "targetMeaningZh": "買下所有或大部分可買的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "They paid Karim so he would keep quiet.",
+      "promptZh": "他們付錢給卡里姆，叫他保持沉默。",
+      "starter": "They",
+      "answer": "They bought Karim off so he would keep quiet.",
+      "answerZh": "他們收買了卡里姆，叫他保持沉默。",
+      "highlight": "bought Karim off",
+      "targetForm": "buy somebody off",
+      "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
+    },
+    {
+      "id": "phrasal-verb-14-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The new club paid to release the player from his old contract.",
+      "promptZh": "新球會付費，讓該球員解除舊合約。",
+      "starter": "The",
+      "answer": "The new club bought the player out of his old contract.",
+      "answerZh": "新球會付費，讓該球員解除舊合約。",
+      "highlight": "bought the player out of",
+      "targetForm": "buy somebody out of something",
+      "targetMeaningZh": "付錢使某人解除合約、責任或服務"
+    },
+    {
+      "id": "phrasal-verb-14-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Dad purchased extra drinks for the weekend.",
+      "promptZh": "爸爸為週末購買了額外飲品。",
+      "starter": "Dad",
+      "answer": "Dad bought in extra drinks for the weekend.",
+      "answerZh": "爸爸為週末預先購入了額外飲品。",
+      "highlight": "bought in",
+      "targetForm": "buy something in",
+      "targetMeaningZh": "為日後需要預先購入額外用品或存貨"
+    },
+    {
+      "id": "phrasal-verb-14-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Local investors are purchasing all the old houses near the station.",
+      "promptZh": "本地投資者正在買下車站附近所有舊房子。",
+      "starter": "Local",
+      "answer": "Local investors are buying up all the old houses near the station.",
+      "answerZh": "本地投資者正在買下車站附近所有舊房子。",
+      "highlight": "buying up",
+      "targetForm": "buy something up",
+      "targetMeaningZh": "買下所有或大部分可買的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Has Priya paid for her partner’s share yet?",
+      "promptZh": "普里雅已經買下合夥人的股份了嗎？",
+      "starter": "Has",
+      "answer": "Has Priya bought her partner out yet?",
+      "answerZh": "普里雅已經買下合夥人的股份了嗎？",
+      "highlight": "bought her partner out",
+      "targetForm": "buy somebody out",
+      "targetMeaningZh": "買下某人的股份"
+    },
+    {
+      "id": "phrasal-verb-14-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The school has purchased more paper for the new term.",
+      "promptZh": "學校已為新學期購入更多紙張。",
+      "starter": "The",
+      "answer": "The school has bought in more paper for the new term.",
+      "answerZh": "學校已為新學期預先購入更多紙張。",
+      "highlight": "bought in",
+      "targetForm": "buy something in",
+      "targetMeaningZh": "為日後需要預先購入額外用品或存貨"
+    },
+    {
+      "id": "phrasal-verb-14-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Our company may purchase a share in a small delivery business next year.",
+      "promptZh": "我們公司明年可能會購入一間小型速遞公司的股份。",
+      "starter": "Our",
+      "answer": "Our company may buy into a small delivery business next year.",
+      "answerZh": "我們公司明年可能會購入一間小型速遞公司的股份。",
+      "highlight": "buy into",
+      "targetForm": "buy into something",
+      "targetMeaningZh": "購入某公司或生意的一部分，成為股東或合夥人"
+    },
+    {
+      "id": "phrasal-verb-14-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "He cannot afford the fee needed to leave the agreement.",
+      "promptZh": "他付不起解除協議所需的費用。",
+      "starter": "He",
+      "answer": "He cannot afford to buy himself out of the agreement.",
+      "answerZh": "他付不起解除協議所需的費用。",
+      "highlight": "buy himself out of",
+      "targetForm": "buy yourself out of something",
+      "targetMeaningZh": "付錢使自己解除合約、責任或服務"
+    },
+    {
+      "id": "phrasal-verb-14-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Will the shop pay you to take back the phone it sold you?",
+      "promptZh": "店舖會付錢從你手上收回它賣給你的電話嗎？",
+      "starter": "Will",
+      "answer": "Will the shop buy the phone back from you?",
+      "answerZh": "店舖會向你買回它賣給你的電話嗎？",
+      "highlight": "buy the phone back",
+      "targetForm": "buy something back",
+      "targetMeaningZh": "買回曾經出售的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The men tried to pay the guard to let them enter, but he refused.",
+      "promptZh": "那些人試圖付錢給保安員，叫他讓他們進去，但他拒絕了。",
+      "starter": "The",
+      "answer": "The men tried to buy the guard off so he would let them enter, but he refused.",
+      "answerZh": "那些人試圖收買保安員，叫他讓他們進去，但他拒絕了。",
+      "highlight": "buy the guard off",
+      "targetForm": "buy somebody off",
+      "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
+    },
+    {
+      "id": "phrasal-verb-14-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "By Friday, the chain had purchased most of the shops in the street.",
+      "promptZh": "到星期五，該連鎖公司已買下街上大部分店舖。",
+      "starter": "By",
+      "answer": "By Friday, the chain had bought up most of the shops in the street.",
+      "answerZh": "到星期五，該連鎖公司已買下街上大部分店舖。",
+      "highlight": "bought up",
+      "targetForm": "buy something up",
+      "targetMeaningZh": "買下所有或大部分可買的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "She sold her old camera, but has now saved enough to purchase it again.",
+      "promptZh": "她賣掉舊相機後，現在已儲夠錢把它買回來。",
+      "starter": "She",
+      "answer": "She sold her old camera, but has now saved enough to buy it back.",
+      "answerZh": "她賣掉舊相機後，現在已儲夠錢把它買回來。",
+      "highlight": "buy it back",
+      "targetForm": "buy something back",
+      "targetMeaningZh": "買回曾經出售的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Are they still planning to purchase part of the sports centre?",
+      "promptZh": "他們仍計劃購入體育中心的部分股份嗎？",
+      "starter": "Are",
+      "answer": "Are they still planning to buy into the sports centre?",
+      "answerZh": "他們仍計劃購入體育中心的部分股份嗎？",
+      "highlight": "buy into",
+      "targetForm": "buy into something",
+      "targetMeaningZh": "購入某公司或生意的一部分，成為股東或合夥人"
+    },
+    {
+      "id": "phrasal-verb-14-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "No amount of money will persuade the reporter to stop investigating.",
+      "promptZh": "再多的錢也不能令那名記者停止調查。",
+      "starter": "No",
+      "answer": "No amount of money will buy the reporter off.",
+      "answerZh": "再多的錢也不能收買那名記者，令他停止調查。",
+      "highlight": "buy the reporter off",
+      "targetForm": "buy somebody off",
+      "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
+    },
+    {
+      "id": "phrasal-verb-14-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The shop is purchasing warm coats before winter.",
+      "promptZh": "店舖正在冬季來臨前購入保暖外套。",
+      "starter": "The",
+      "answer": "The shop is buying in warm coats before winter.",
+      "answerZh": "店舖正在冬季來臨前購入保暖外套作為存貨。",
+      "highlight": "buying in",
+      "targetForm": "buy something in",
+      "targetMeaningZh": "為日後需要預先購入額外用品或存貨"
+    },
+    {
+      "id": "phrasal-verb-14-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The owners have agreed to pay Anna for her share.",
+      "promptZh": "各東主已同意買下安娜的股份。",
+      "starter": "The",
+      "answer": "The owners have agreed to buy Anna out.",
+      "answerZh": "各東主已同意買下安娜的股份。",
+      "highlight": "buy Anna out",
+      "targetForm": "buy somebody out",
+      "targetMeaningZh": "買下某人的股份"
+    },
+    {
+      "id": "phrasal-verb-14-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Could the company pay to release you from your training contract?",
+      "promptZh": "公司可以付費讓你解除培訓合約嗎？",
+      "starter": "Could",
+      "answer": "Could the company buy you out of your training contract?",
+      "answerZh": "公司可以付費讓你解除培訓合約嗎？",
+      "highlight": "buy you out of",
+      "targetForm": "buy somebody out of something",
+      "targetMeaningZh": "付錢使某人解除合約、責任或服務"
+    },
+    {
+      "id": "phrasal-verb-14-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Leo knew the secret, so they tried to pay him to stay silent.",
+      "promptZh": "里奧知道那個秘密，所以他們試圖付錢叫他保持沉默。",
+      "starter": "Leo",
+      "answer": "Leo knew the secret, so they tried to buy him off.",
+      "answerZh": "里奧知道那個秘密，所以他們試圖收買他，叫他保持沉默。",
+      "highlight": "buy him off",
+      "targetForm": "buy somebody off",
+      "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
+    },
+    {
+      "id": "phrasal-verb-14-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The course was unsuitable, but Ella could not pay the fee to leave it.",
+      "promptZh": "這個課程不適合埃拉，但她付不起費用退出。",
+      "starter": "The",
+      "answer": "The course was unsuitable, but Ella could not buy herself out of it.",
+      "answerZh": "這個課程不適合埃拉，但她付不起費用退出。",
+      "highlight": "buy herself out of",
+      "targetForm": "buy yourself out of something",
+      "targetMeaningZh": "付錢使自己解除合約、責任或服務"
+    },
+    {
+      "id": "phrasal-verb-14-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Last year, the shop sold me the watch and has now offered to take it back and pay me for it.",
+      "promptZh": "去年，店舖把那隻手錶賣給我，現在提出收回並付錢給我。",
+      "starter": "Last",
+      "answer": "Last year, the shop sold me the watch and has now offered to buy it back.",
+      "answerZh": "去年，店舖把那隻手錶賣給我，現在提出把它買回去。",
+      "highlight": "buy it back",
+      "targetForm": "buy something back",
+      "targetMeaningZh": "買回曾經出售的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The two teachers purchased part of the language school after saving for years.",
+      "promptZh": "兩位老師儲蓄多年後，購入了語言學校的部分股份。",
+      "starter": "The",
+      "answer": "The two teachers bought into the language school after saving for years.",
+      "answerZh": "兩位老師儲蓄多年後，購入了語言學校的部分股份。",
+      "highlight": "bought into",
+      "targetForm": "buy into something",
+      "targetMeaningZh": "購入某公司或生意的一部分，成為股東或合夥人"
+    },
+    {
+      "id": "phrasal-verb-14-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The café needed extra milk, so the manager purchased some for later.",
+      "promptZh": "咖啡店需要額外牛奶，所以經理買了一些備用。",
+      "starter": "The",
+      "answer": "The café needed extra milk, so the manager bought some in.",
+      "answerZh": "咖啡店需要額外牛奶，所以經理買了一些備用。",
+      "highlight": "bought some in",
+      "targetForm": "buy something in",
+      "targetMeaningZh": "為日後需要預先購入額外用品或存貨"
+    },
+    {
+      "id": "phrasal-verb-14-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Ravi owned half the flat, but his sister paid him for his share.",
+      "promptZh": "拉維擁有該單位一半業權，但他的姊妹付錢買下了他的股份。",
+      "starter": "Ravi",
+      "answer": "Ravi owned half the flat, but his sister bought him out.",
+      "answerZh": "拉維擁有該單位一半業權，但他的姊妹買下了他的股份。",
+      "highlight": "bought him out",
+      "targetForm": "buy somebody out",
+      "targetMeaningZh": "買下某人的股份"
+    },
+    {
+      "id": "phrasal-verb-14-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The last boxes were cheap, so one customer purchased every one of them.",
+      "promptZh": "最後幾箱貨很便宜，所以一名顧客把它們全部買光了。",
+      "starter": "The",
+      "answer": "The last boxes were cheap, so one customer bought them all up.",
+      "answerZh": "最後幾箱貨很便宜，所以一名顧客把它們全部買光了。",
+      "highlight": "bought them all up",
+      "targetForm": "buy something up",
+      "targetMeaningZh": "買下所有或大部分可買的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The old owner wanted the shop again, so she purchased it from the new owner.",
+      "promptZh": "舊東主想重新擁有那間店，所以向新東主把它買了回來。",
+      "starter": "The",
+      "answer": "The old owner wanted the shop again, so she bought it back.",
+      "answerZh": "舊東主想重新擁有那間店，所以把它買了回來。",
+      "highlight": "bought it back",
+      "targetForm": "buy something back",
+      "targetMeaningZh": "買回曾經出售的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Only three books remained, and one student purchased all of them.",
+      "promptZh": "只剩三本書，一名學生把它們全部買光了。",
+      "starter": "Only",
+      "answer": "Only three books remained, and one student bought them all up.",
+      "answerZh": "只剩三本書，一名學生把它們全部買光了。",
+      "highlight": "bought them all up",
+      "targetForm": "buy something up",
+      "targetMeaningZh": "買下所有或大部分可買的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The coach refused the money; they could not pay her to change her decision.",
+      "promptZh": "教練拒絕收錢；他們無法付錢令她改變決定。",
+      "starter": "The",
+      "answer": "The coach refused the money; they could not buy her off.",
+      "answerZh": "教練拒絕收錢；他們無法收買她。",
+      "highlight": "buy her off",
+      "targetForm": "buy somebody off",
+      "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
+    },
+    {
+      "id": "phrasal-verb-14-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Her uncle owns the café, and she hopes to purchase a share in it.",
+      "promptZh": "她的叔叔擁有那間咖啡店，而她希望購入當中的股份。",
+      "starter": "Her",
+      "answer": "Her uncle owns the café, and she hopes to buy into it.",
+      "answerZh": "她的叔叔擁有那間咖啡店，而她希望購入當中的股份。",
+      "highlight": "buy into",
+      "targetForm": "buy into something",
+      "targetMeaningZh": "購入某公司或生意的一部分，成為股東或合夥人"
+    },
+    {
+      "id": "phrasal-verb-14-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "One partner wanted to leave, so the others paid for her share.",
+      "promptZh": "一名合夥人想離開，所以其他人付錢買下了她的股份。",
+      "starter": "One",
+      "answer": "One partner wanted to leave, so the others bought her out.",
+      "answerZh": "一名合夥人想離開，所以其他人買下了她的股份。",
+      "highlight": "bought her out",
+      "targetForm": "buy somebody out",
+      "targetMeaningZh": "買下某人的股份"
+    },
+    {
+      "id": "phrasal-verb-14-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The new club paid the fee that released him from the final year of his contract.",
+      "promptZh": "新球會支付了費用，讓他解除合約最後一年的責任。",
+      "starter": "The",
+      "answer": "The new club bought him out of the final year of his contract.",
+      "answerZh": "新球會付費，讓他解除合約最後一年的責任。",
+      "highlight": "bought him out of",
+      "targetForm": "buy somebody out of something",
+      "targetMeaningZh": "付錢使某人解除合約、責任或服務"
+    },
+    {
+      "id": "phrasal-verb-14-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The café expected a crowd, so it purchased extra cakes in advance.",
+      "promptZh": "咖啡店預計會有很多客人，所以預先購入額外蛋糕。",
+      "starter": "The",
+      "answer": "The café expected a crowd, so it bought in extra cakes.",
+      "answerZh": "咖啡店預計會有很多客人，所以預先購入了額外蛋糕。",
+      "highlight": "bought in",
+      "targetForm": "buy something in",
+      "targetMeaningZh": "為日後需要預先購入額外用品或存貨"
+    },
+    {
+      "id": "phrasal-verb-14-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Mina did not want a small share; she wanted to pay for all of the other owner’s share.",
+      "promptZh": "米娜不想只持有小部分股份；她想買下另一名東主的全部股份。",
+      "starter": "Mina",
+      "answer": "Mina did not want a small share; she wanted to buy the other owner out.",
+      "answerZh": "米娜不想只持有小部分股份；她想買下另一名東主的全部股份。",
+      "highlight": "buy the other owner out",
+      "targetForm": "buy somebody out",
+      "targetMeaningZh": "買下某人的股份"
+    },
+    {
+      "id": "phrasal-verb-14-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The new owner wanted more than a few flats; she purchased every flat in the building.",
+      "promptZh": "新東主不只想買幾個單位；她買下了大廈內每一個單位。",
+      "starter": "The",
+      "answer": "The new owner wanted more than a few flats; she bought up every flat in the building.",
+      "answerZh": "新東主不只想買幾個單位；她買下了大廈內每一個單位。",
+      "highlight": "bought up",
+      "targetForm": "buy something up",
+      "targetMeaningZh": "買下所有或大部分可買的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The team does not want full control; it only plans to purchase a small share in the company.",
+      "promptZh": "團隊不想完全控制公司；只計劃購入一小部分股份。",
+      "starter": "The",
+      "answer": "The team does not want full control; it only plans to buy into the company.",
+      "answerZh": "團隊不想完全控制公司；只計劃購入一小部分股份。",
+      "highlight": "buy into",
+      "targetForm": "buy into something",
+      "targetMeaningZh": "購入某公司或生意的一部分，成為股東或合夥人"
+    },
+    {
+      "id": "phrasal-verb-14-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The bank will sell you foreign currency and purchase any unused money from you later.",
+      "promptZh": "銀行會向你出售外幣，之後再向你購入未用的外幣。",
+      "starter": "The",
+      "answer": "The bank will sell you foreign currency and buy back what you do not use.",
+      "answerZh": "銀行會向你出售外幣，之後再買回你未用的外幣。",
+      "highlight": "buy back",
+      "targetForm": "buy something back",
+      "targetMeaningZh": "買回曾經出售的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Rather than stay in the agreement, Noor paid the required fee to leave it.",
+      "promptZh": "努爾不想留在協議內，因此支付了所需費用退出。",
+      "starter": "Rather",
+      "answer": "Rather than stay in the agreement, Noor bought herself out of it.",
+      "answerZh": "努爾不想留在協議內，因此付費退出。",
+      "highlight": "bought herself out of",
+      "targetForm": "buy yourself out of something",
+      "targetMeaningZh": "付錢使自己解除合約、責任或服務"
+    },
+    {
+      "id": "phrasal-verb-14-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The hotel expects a busy weekend and is purchasing extra towels for its rooms.",
+      "promptZh": "酒店預計週末會很忙，正在為客房購入額外毛巾。",
+      "starter": "The",
+      "answer": "The hotel expects a busy weekend and is buying in extra towels.",
+      "answerZh": "酒店預計週末會很忙，正在購入額外毛巾備用。",
+      "highlight": "buying in",
+      "targetForm": "buy something in",
+      "targetMeaningZh": "為日後需要預先購入額外用品或存貨"
+    },
+    {
+      "id": "phrasal-verb-14-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The manager offered the worker money to keep quiet, but she reported him.",
+      "promptZh": "經理給工人錢叫她保持沉默，但她舉報了他。",
+      "starter": "The",
+      "answer": "The manager tried to buy the worker off, but she reported him.",
+      "answerZh": "經理試圖收買工人，但她舉報了他。",
+      "highlight": "buy the worker off",
+      "targetForm": "buy somebody off",
+      "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
+    },
+    {
+      "id": "phrasal-verb-14-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The couple could not agree about the house, so one paid for the other’s half.",
+      "promptZh": "這對伴侶未能就房子達成共識，所以其中一人買下了另一人的一半業權。",
+      "starter": "The",
+      "answer": "The couple could not agree about the house, so one bought the other out.",
+      "answerZh": "這對伴侶未能就房子達成共識，所以其中一人買下了另一人的一半業權。",
+      "highlight": "bought the other out",
+      "targetForm": "buy somebody out",
+      "targetMeaningZh": "買下某人的股份或擁有權"
+    },
+    {
+      "id": "phrasal-verb-14-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "They offered the guard money to ignore the rules, not to help him leave his job.",
+      "promptZh": "他們給保安員錢，叫他無視規則，而不是幫他離職。",
+      "starter": "They",
+      "answer": "They tried to buy the guard off, not help him leave his job.",
+      "answerZh": "他們試圖收買保安員，而不是幫他離職。",
+      "highlight": "buy the guard off",
+      "targetForm": "buy somebody off",
+      "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
+    },
+    {
+      "id": "phrasal-verb-14-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The army would not let him leave unless he paid the required fee.",
+      "promptZh": "軍方不會讓他離開，除非他支付所需費用。",
+      "starter": "The",
+      "answer": "The army would not let him leave unless he bought himself out.",
+      "answerZh": "軍方不會讓他離開，除非他支付所需費用解除服務。",
+      "highlight": "bought himself out",
+      "targetForm": "buy yourself out",
+      "targetMeaningZh": "付錢使自己解除合約、責任或服務"
+    },
+    {
+      "id": "phrasal-verb-14-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "We do not want every bottle; we only need to purchase enough water for the trip.",
+      "promptZh": "我們不想買下每一樽水；只需為旅程購入足夠食水。",
+      "starter": "We",
+      "answer": "We do not want every bottle; we only need to buy in enough water for the trip.",
+      "answerZh": "我們不想買下每一樽水；只需為旅程預先購入足夠食水。",
+      "highlight": "buy in",
+      "targetForm": "buy something in",
+      "targetMeaningZh": "為日後需要預先購入額外用品或存貨"
+    },
+    {
+      "id": "phrasal-verb-14-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Sara wants to become one of the owners, so she is purchasing a share in the bookshop.",
+      "promptZh": "莎拉想成為其中一名東主，所以正在購入書店的股份。",
+      "starter": "Sara",
+      "answer": "Sara wants to become one of the owners, so she is buying into the bookshop.",
+      "answerZh": "莎拉想成為其中一名東主，所以正在購入書店的股份。",
+      "highlight": "buying into",
+      "targetForm": "buy into something",
+      "targetMeaningZh": "購入某公司或生意的一部分，成為股東或合夥人"
+    },
+    {
+      "id": "phrasal-verb-14-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The gallery sold the statue to raise money, but later purchased it again from the buyer.",
+      "promptZh": "畫廊出售雕像以籌集資金，但後來又向買家把它買了回來。",
+      "starter": "The",
+      "answer": "The gallery sold the statue to raise money, but later bought it back.",
+      "answerZh": "畫廊出售雕像以籌集資金，但後來又把它買了回來。",
+      "highlight": "bought it back",
+      "targetForm": "buy something back",
+      "targetMeaningZh": "買回曾經出售的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "When the price fell, one company purchased nearly all the available land.",
+      "promptZh": "價格下跌時，一間公司買下了幾乎所有可供購買的土地。",
+      "starter": "When",
+      "answer": "When the price fell, one company bought up nearly all the available land.",
+      "answerZh": "價格下跌時，一間公司買下了幾乎所有可供購買的土地。",
+      "highlight": "bought up",
+      "targetForm": "buy something up",
+      "targetMeaningZh": "買下所有或大部分可買的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Because twenty guests are staying for two nights, we should purchase more breakfast food before Friday.",
+      "promptZh": "由於二十位客人會留宿兩晚，我們應在星期五前購入更多早餐食物。",
+      "starter": "Because",
+      "answer": "Because twenty guests are staying for two nights, we should buy in more breakfast food before Friday.",
+      "answerZh": "由於二十位客人會留宿兩晚，我們應在星期五前預先購入更多早餐食物。",
+      "highlight": "buy in",
+      "targetForm": "buy something in",
+      "targetMeaningZh": "為日後需要預先購入額外用品或存貨"
+    },
+    {
+      "id": "phrasal-verb-14-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The organiser offered Amir money to stay silent, but Amir refused to accept it.",
+      "promptZh": "主辦人給阿米爾錢叫他保持沉默，但阿米爾拒絕接受。",
+      "starter": "The",
+      "answer": "The organiser offered Amir money to stay silent, but he refused to be bought off.",
+      "answerZh": "主辦人給阿米爾錢叫他保持沉默，但他拒絕被收買。",
+      "highlight": "bought off",
+      "targetForm": "buy somebody off",
+      "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
+    },
+    {
+      "id": "phrasal-verb-14-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The contract had two years left, but the company paid the fee to release Lena so she could start the new job.",
+      "promptZh": "合約還有兩年，但公司付費讓麗娜解除合約，以便她開始新工作。",
+      "starter": "The",
+      "answer": "The contract had two years left, but the company bought Lena out of it so she could start the new job.",
+      "answerZh": "合約還有兩年，但公司付費讓麗娜解除合約，以便她開始新工作。",
+      "highlight": "bought Lena out of",
+      "targetForm": "buy somebody out of something",
+      "targetMeaningZh": "付錢使某人解除合約、責任或服務"
+    },
+    {
+      "id": "phrasal-verb-14-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Several families wanted one flat each, but an investor purchased every flat in the block before they could act.",
+      "promptZh": "幾個家庭各想要一個單位，但一名投資者在他們行動前買下了整幢大廈的所有單位。",
+      "starter": "Several",
+      "answer": "Several families wanted one flat each, but an investor bought up every flat in the block before they could act.",
+      "answerZh": "幾個家庭各想要一個單位，但一名投資者在他們行動前買下了整幢大廈的所有單位。",
+      "highlight": "bought up",
+      "targetForm": "buy something up",
+      "targetMeaningZh": "買下所有或大部分可買的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After years of sharing the business, Joel paid for his partner’s share and became the only owner.",
+      "promptZh": "多年來兩人共同經營生意，喬爾買下了合夥人的股份，成為唯一東主。",
+      "starter": "After",
+      "answer": "After years of sharing the business, Joel bought his partner out and became the only owner.",
+      "answerZh": "多年來兩人共同經營生意，喬爾買下了合夥人的股份，成為唯一東主。",
+      "highlight": "bought his partner out",
+      "targetForm": "buy somebody out",
+      "targetMeaningZh": "買下某人的股份"
+    },
+    {
+      "id": "phrasal-verb-14-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The restaurant is successful, and two local chefs now want to purchase a share in it rather than open a new place.",
+      "promptZh": "餐廳生意很好，兩名本地廚師現在想購入股份，而不是另開新店。",
+      "starter": "The",
+      "answer": "The restaurant is successful, and two local chefs now want to buy into it rather than open a new place.",
+      "answerZh": "餐廳生意很好，兩名本地廚師現在想購入股份，而不是另開新店。",
+      "highlight": "buy into",
+      "targetForm": "buy into something",
+      "targetMeaningZh": "購入某公司或生意的一部分，成為股東或合夥人"
+    },
+    {
+      "id": "phrasal-verb-14-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "After selling her bicycle to pay a bill, Eva saved for months and finally purchased it again.",
+      "promptZh": "伊娃為了繳付賬單而賣掉單車，儲蓄數月後終於把它買了回來。",
+      "starter": "After",
+      "answer": "After selling her bicycle to pay a bill, Eva saved for months and finally bought it back.",
+      "answerZh": "伊娃為了繳付賬單而賣掉單車，儲蓄數月後終於把它買了回來。",
+      "highlight": "bought it back",
+      "targetForm": "buy something back",
+      "targetMeaningZh": "買回曾經出售的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The shop expects the popular game to sell quickly, so it has purchased extra copies for the weekend.",
+      "promptZh": "店舖預計這款熱門遊戲會很快售罄，所以已為週末購入額外存貨。",
+      "starter": "The",
+      "answer": "The shop expects the popular game to sell quickly, so it has bought in extra copies for the weekend.",
+      "answerZh": "店舖預計這款熱門遊戲會很快售罄，所以已為週末購入額外存貨。",
+      "highlight": "bought in",
+      "targetForm": "buy something in",
+      "targetMeaningZh": "為日後需要預先購入額外用品或存貨"
+    },
+    {
+      "id": "phrasal-verb-14-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The family sold the farm years ago, but now hopes to purchase it again.",
+      "promptZh": "這個家庭多年前賣掉農場，現在希望把它買回來。",
+      "starter": "The",
+      "answer": "The family sold the farm years ago, but now hopes to buy it back.",
+      "answerZh": "這個家庭多年前賣掉農場，現在希望把它買回來。",
+      "highlight": "buy it back",
+      "targetForm": "buy something back",
+      "targetMeaningZh": "買回曾經出售的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The company already owned a small share in the café, then later paid the original owner for the rest.",
+      "promptZh": "公司本已擁有咖啡店一小部分股份，後來再向原東主買下其餘股份。",
+      "starter": "The",
+      "answer": "The company already owned a small share in the café, then later bought the original owner out.",
+      "answerZh": "公司本已擁有咖啡店一小部分股份，後來再買下原東主其餘的股份。",
+      "highlight": "bought the original owner out",
+      "targetForm": "buy somebody out",
+      "targetMeaningZh": "買下某人的股份"
+    },
+    {
+      "id": "phrasal-verb-14-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Rather than own the whole hotel, the group will purchase part of it and share ownership with the family.",
+      "promptZh": "該集團不打算擁有整間酒店，而是會購入部分股份，與該家庭共同持有。",
+      "starter": "Rather",
+      "answer": "Rather than own the whole hotel, the group will buy into it and share ownership with the family.",
+      "answerZh": "該集團不打算擁有整間酒店，而是會購入部分股份，與該家庭共同持有。",
+      "highlight": "buy into",
+      "targetForm": "buy into something",
+      "targetMeaningZh": "購入某公司或生意的一部分，成為股東或合夥人"
+    },
+    {
+      "id": "phrasal-verb-14-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The singer wanted to leave the agreement early, but she did not have enough money to pay the required fee.",
+      "promptZh": "歌手想提早解除協議，但沒有足夠金錢支付所需費用。",
+      "starter": "The",
+      "answer": "The singer wanted to leave the agreement early, but she did not have enough money to buy herself out.",
+      "answerZh": "歌手想提早解除協議，但沒有足夠金錢付費退出。",
+      "highlight": "buy herself out",
+      "targetForm": "buy yourself out",
+      "targetMeaningZh": "付錢使自己解除合約、責任或服務"
+    },
+    {
+      "id": "phrasal-verb-14-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "At the school sale, many parents wanted one or two books, but one collector arrived early and purchased nearly everything.",
+      "promptZh": "在學校義賣會上，很多家長只想買一兩本書，但一名收藏家很早到場，幾乎把所有書都買光了。",
+      "starter": "At",
+      "answer": "At the school sale, many parents wanted one or two books, but one collector arrived early and bought up nearly everything.",
+      "answerZh": "在學校義賣會上，很多家長只想買一兩本書，但一名收藏家很早到場，幾乎把所有書都買光了。",
+      "highlight": "bought up",
+      "targetForm": "buy something up",
+      "targetMeaningZh": "買下所有或大部分可買的東西"
+    },
+    {
+      "id": "phrasal-verb-14-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "They offered the neighbour money so he would not complain about the noisy work.",
+      "promptZh": "他們給鄰居錢，叫他不要投訴嘈吵工程。",
+      "starter": "They",
+      "answer": "They tried to buy the neighbour off so he would not complain about the noisy work.",
+      "answerZh": "他們試圖收買鄰居，叫他不要投訴嘈吵工程。",
+      "highlight": "buy the neighbour off",
+      "targetForm": "buy somebody off",
+      "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
+    }
+  ]
+}
