@@ -1,0 +1,1210 @@
+{
+  "id": "phrasal-verb-33",
+  "order": 33,
+  "slug": "chop",
+  "version": "1",
+  "title": "CHOP 動詞片語",
+  "titleEn": "Chop",
+  "titleZh": "CHOP 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 32 - CHOP.pdf",
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CHOP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CHOP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CHOP",
+      "highlight": "CHOP"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The workers chopped away at the thick plants beside the path.",
+      "zh": "工人不斷砍削小路旁的茂密植物。",
+      "highlight": "chopped away at the thick plants beside the path"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "They chopped down the dead tree beside the gate.",
+      "zh": "他們砍倒了大閘旁的枯樹。",
+      "highlight": "chopped down the dead tree beside the gate"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The cook chopped the ends off the carrots.",
+      "zh": "廚師砍掉了紅蘿蔔的兩端。",
+      "highlight": "chopped the ends off the carrots"
+    }
+  ],
+  "meaning": {
+    "zh": "反覆劈砍、斬擊或砍削某物；把樹或高大的植物從底部砍至倒下；用刀或斧頭砍掉某物的一部分",
+    "en": "chop at something / chop away at something / chop something down / chop something off / chop something off something",
+    "naturalZh": [
+      "反覆劈砍、斬擊或砍削某物",
+      "把樹或高大的植物從底部砍至倒下",
+      "用刀或斧頭砍掉某物的一部分"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "chop at something / chop away at something",
+      "titleZh": "反覆劈砍、斬擊或砍削某物",
+      "titleEn": "chop at something / chop away at something",
+      "descriptionZh": "反覆劈砍、斬擊或砍削某物",
+      "descriptionEn": "The workers chopped away at the thick plants beside the path.",
+      "examples": [
+        {
+          "en": "The workers chopped away at the thick plants beside the path.",
+          "zh": "工人不斷砍削小路旁的茂密植物。",
+          "highlight": "chopped away at the thick plants beside the path"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "chop something down",
+      "titleZh": "把樹或高大的植物從底部砍至倒下",
+      "titleEn": "chop something down",
+      "descriptionZh": "把樹或高大的植物從底部砍至倒下",
+      "descriptionEn": "They chopped down the dead tree beside the gate.",
+      "examples": [
+        {
+          "en": "They chopped down the dead tree beside the gate.",
+          "zh": "他們砍倒了大閘旁的枯樹。",
+          "highlight": "chopped down the dead tree beside the gate"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "chop something off / chop something off something",
+      "titleZh": "用刀或斧頭砍掉某物的一部分",
+      "titleEn": "chop something off / chop something off something",
+      "descriptionZh": "用刀或斧頭砍掉某物的一部分",
+      "descriptionEn": "The cook chopped the ends off the carrots.",
+      "examples": [
+        {
+          "en": "The cook chopped the ends off the carrots.",
+          "zh": "廚師砍掉了紅蘿蔔的兩端。",
+          "highlight": "chopped the ends off the carrots"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "CHOP 片語動詞的實際用途",
+    "labelEn": "CHOP Phrasal Verbs in Use",
+    "summaryZh": "CHOP 片語動詞能幫助你分辨反覆劈砍、把整棵樹砍倒，以及只砍掉其中一部分。；你可以使用這些表達來描述砍削樹根、清理茂密植物，以及移除不安全的樹木或樹枝。；chop something off 可以表示在烹調食物前，砍掉頂部、末端或其他不需要的部分。；這些 CHOP 表達經常出現在故事、戶外工作指示，以及有關樹木、小路和損壞物件的報道中。",
+    "summaryEn": "The CHOP family helps you distinguish between repeated cutting, making a whole tree fall and removing only one part. You can use these expressions to describe cutting roots, clearing thick plants and removing unsafe trees or branches. Chop something off can describe removing the top, end or other unwanted part of food before cooking it. These CHOP expressions often appear in stories, outdoor instructions and reports about trees, paths and damaged objects.",
+    "contextsZh": [
+      "清楚描述不同的砍切動作",
+      "自然談論園藝和戶外工作",
+      "給予清楚的烹飪指示",
+      "理解故事和報道中的動作描述"
+    ],
+    "contextsEn": [
+      "Describe different kinds of cutting clearly",
+      "Talk naturally about gardening and outdoor work",
+      "Give clear cooking instructions",
+      "Understand action descriptions in stories and reports"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 CHOP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CHOP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "chop at something / chop away at something",
+    "fixedHighlight": "chop at something / chop away at something",
+    "fixedZh": "閱讀整句，選出意思相同的 CHOP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CHOP expression that gives the same meaning.",
+    "correct": "chopped away at the thick plants beside the path",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；chop at something 和 chop away at something 表示反覆劈砍或斬擊，不一定表示工作已經完成。；chop something down 表示把整棵樹或高大的植物砍倒；chop something off 則表示把其中一部分砍掉。使用 it 或 them 時，請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Chop at something and chop away at something describe repeated cutting or hitting. They do not necessarily mean that the job is finished. Chop something down means that the whole tree or tall plant falls. Chop something off means that one part is removed. With it or them, place the word as shown:",
+    "variableItemsZh": [
+      "chop at something / chop away at something",
+      "chop something down",
+      "chop something off / chop something off something"
+    ],
+    "variableItemsEn": [
+      "chop at something / chop away at something",
+      "chop something down",
+      "chop something off / chop something off something"
+    ],
+    "forms": [
+      {
+        "formZh": "反覆劈砍、斬擊或砍削某物",
+        "formEn": "chop at something / chop away at something",
+        "exampleZh": "工人不斷砍削小路旁的茂密植物。",
+        "exampleEn": "The workers chopped away at the thick plants beside the path.",
+        "highlight": "chopped away at the thick plants beside the path"
+      },
+      {
+        "formZh": "把樹或高大的植物從底部砍至倒下",
+        "formEn": "chop something down",
+        "exampleZh": "他們砍倒了大閘旁的枯樹。",
+        "exampleEn": "They chopped down the dead tree beside the gate.",
+        "highlight": "chopped down the dead tree beside the gate"
+      },
+      {
+        "formZh": "用刀或斧頭砍掉某物的一部分",
+        "formEn": "chop something off / chop something off something",
+        "exampleZh": "廚師砍掉了紅蘿蔔的兩端。",
+        "exampleEn": "The cook chopped the ends off the carrots.",
+        "highlight": "chopped the ends off the carrots"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "反覆劈砍、斬擊或砍削某物",
+      "titleEn": "chop at something / chop away at something",
+      "formula": "chop at something / chop away at something",
+      "highlight": "chop at something / chop away at something",
+      "descriptionZh": "反覆劈砍、斬擊或砍削某物",
+      "descriptionEn": "The workers chopped away at the thick plants beside the path.",
+      "examples": [
+        {
+          "en": "The workers chopped away at the thick plants beside the path.",
+          "zh": "工人不斷砍削小路旁的茂密植物。",
+          "highlight": "chopped away at the thick plants beside the path"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把樹或高大的植物從底部砍至倒下",
+      "titleEn": "chop something down",
+      "formula": "chop something down",
+      "highlight": "chop something down",
+      "descriptionZh": "把樹或高大的植物從底部砍至倒下",
+      "descriptionEn": "They chopped down the dead tree beside the gate.",
+      "examples": [
+        {
+          "en": "They chopped down the dead tree beside the gate.",
+          "zh": "他們砍倒了大閘旁的枯樹。",
+          "highlight": "chopped down the dead tree beside the gate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "用刀或斧頭砍掉某物的一部分",
+      "titleEn": "chop something off / chop something off something",
+      "formula": "chop something off / chop something off something",
+      "highlight": "chop something off / chop something off something",
+      "descriptionZh": "用刀或斧頭砍掉某物的一部分",
+      "descriptionEn": "The cook chopped the ends off the carrots.",
+      "examples": [
+        {
+          "en": "The cook chopped the ends off the carrots.",
+          "zh": "廚師砍掉了紅蘿蔔的兩端。",
+          "highlight": "chopped the ends off the carrots"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述不同的砍切動作",
+      "titleEn": "Describe different kinds of cutting clearly",
+      "zh": "CHOP 片語動詞能幫助你分辨反覆劈砍、把整棵樹砍倒，以及只砍掉其中一部分。",
+      "en": "The CHOP family helps you distinguish between repeated cutting, making a whole tree fall and removing only one part."
+    },
+    {
+      "titleZh": "自然談論園藝和戶外工作",
+      "titleEn": "Talk naturally about gardening and outdoor work",
+      "zh": "你可以使用這些表達來描述砍削樹根、清理茂密植物，以及移除不安全的樹木或樹枝。",
+      "en": "You can use these expressions to describe cutting roots, clearing thick plants and removing unsafe trees or branches."
+    },
+    {
+      "titleZh": "給予清楚的烹飪指示",
+      "titleEn": "Give clear cooking instructions",
+      "zh": "chop something off 可以表示在烹調食物前，砍掉頂部、末端或其他不需要的部分。",
+      "en": "Chop something off can describe removing the top, end or other unwanted part of food before cooking it."
+    },
+    {
+      "titleZh": "理解故事和報道中的動作描述",
+      "titleEn": "Understand action descriptions in stories and reports",
+      "zh": "這些 CHOP 表達經常出現在故事、戶外工作指示，以及有關樹木、小路和損壞物件的報道中。",
+      "en": "These CHOP expressions often appear in stories, outdoor instructions and reports about trees, paths and damaged objects."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述不同的砍切動作",
+      "自然談論園藝和戶外工作",
+      "給予清楚的烹飪指示",
+      "理解故事和報道中的動作描述"
+    ],
+    "contextsEn": [
+      "Describe different kinds of cutting clearly",
+      "Talk naturally about gardening and outdoor work",
+      "Give clear cooking instructions",
+      "Understand action descriptions in stories and reports"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述不同的砍切動作",
+        "titleEn": "Describe different kinds of cutting clearly",
+        "zh": "CHOP 片語動詞能幫助你分辨反覆劈砍、把整棵樹砍倒，以及只砍掉其中一部分。",
+        "en": "The CHOP family helps you distinguish between repeated cutting, making a whole tree fall and removing only one part.",
+        "examples": [
+          {
+            "en": "The workers chopped away at the thick plants beside the path.",
+            "zh": "工人不斷砍削小路旁的茂密植物。",
+            "highlight": "chopped away at the thick plants beside the path"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論園藝和戶外工作",
+        "titleEn": "Talk naturally about gardening and outdoor work",
+        "zh": "你可以使用這些表達來描述砍削樹根、清理茂密植物，以及移除不安全的樹木或樹枝。",
+        "en": "You can use these expressions to describe cutting roots, clearing thick plants and removing unsafe trees or branches.",
+        "examples": [
+          {
+            "en": "They chopped down the dead tree beside the gate.",
+            "zh": "他們砍倒了大閘旁的枯樹。",
+            "highlight": "chopped down the dead tree beside the gate"
+          }
+        ]
+      },
+      {
+        "titleZh": "給予清楚的烹飪指示",
+        "titleEn": "Give clear cooking instructions",
+        "zh": "chop something off 可以表示在烹調食物前，砍掉頂部、末端或其他不需要的部分。",
+        "en": "Chop something off can describe removing the top, end or other unwanted part of food before cooking it.",
+        "examples": [
+          {
+            "en": "The cook chopped the ends off the carrots.",
+            "zh": "廚師砍掉了紅蘿蔔的兩端。",
+            "highlight": "chopped the ends off the carrots"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解故事和報道中的動作描述",
+        "titleEn": "Understand action descriptions in stories and reports",
+        "zh": "這些 CHOP 表達經常出現在故事、戶外工作指示，以及有關樹木、小路和損壞物件的報道中。",
+        "en": "These CHOP expressions often appear in stories, outdoor instructions and reports about trees, paths and damaged objects.",
+        "examples": [
+          {
+            "en": "The workers chopped away at the thick plants beside the path.",
+            "zh": "工人不斷砍削小路旁的茂密植物。",
+            "highlight": "chopped away at the thick plants beside the path"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 CHOP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CHOP expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 CHOP 片語動詞。",
+      "en": "Read the whole sentence and choose the CHOP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "chop at something 和 chop away at something 表示反覆劈砍或斬擊，不一定表示工作已經完成。",
+      "titleEn": "Chop at something and chop away at something describe repeated cutting or hitting.",
+      "zh": "chop at something 和 chop away at something 表示反覆劈砍或斬擊，不一定表示工作已經完成。",
+      "en": "Chop at something and chop away at something describe repeated cutting or hitting. They do not necessarily mean that the job is finished."
+    },
+    {
+      "titleZh": "chop something down 表示把整棵樹或高大的植物砍倒；chop something off 則表示把其中一部分砍掉。使用 it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "Chop something down means that the whole tree or tall plant falls.",
+      "zh": "chop something down 表示把整棵樹或高大的植物砍倒；chop something off 則表示把其中一部分砍掉。使用 it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "Chop something down means that the whole tree or tall plant falls. Chop something off means that one part is removed. With it or them, place the word as shown:",
+      "examples": [
+        {
+          "en": "chop it down",
+          "zh": "",
+          "highlight": "chop it down"
+        },
+        {
+          "en": "chop them off",
+          "zh": "",
+          "highlight": "chop them off"
+        }
+      ]
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CHOP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CHOP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CHOP 動詞片語句子改寫練習",
+    "titleEn": "CHOP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CHOP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CHOP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-33-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The gardener repeatedly cut the thick roots with an axe.",
+      "promptZh": "園丁用斧頭反覆砍削粗大的樹根。",
+      "starter": "The",
+      "answer": "The gardener chopped away at the thick roots with an axe.",
+      "answerZh": "園丁用斧頭反覆砍削粗大的樹根。",
+      "highlight": "chopped away at the thick roots",
+      "targetForm": "chop away at something",
+      "targetMeaningZh": "反覆劈砍或砍削某物"
+    },
+    {
+      "id": "phrasal-verb-33-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "They cut the dead tree at its base until it fell beside the gate.",
+      "promptZh": "他們從枯樹底部砍下去，直至它倒在大閘旁。",
+      "starter": "They",
+      "answer": "They chopped down the dead tree beside the gate.",
+      "answerZh": "他們砍倒了大閘旁的枯樹。",
+      "highlight": "chopped down the dead tree beside the gate",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The cook removed the ends of the carrots with a knife.",
+      "promptZh": "廚師用刀除去了紅蘿蔔的兩端。",
+      "starter": "The",
+      "answer": "The cook chopped the ends off the carrots.",
+      "answerZh": "廚師砍掉了紅蘿蔔的兩端。",
+      "highlight": "chopped the ends off the carrots",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Leo struck the ice repeatedly with a small cutting tool.",
+      "promptZh": "里奧用一件小型切割工具反覆敲砍冰塊。",
+      "starter": "Leo",
+      "answer": "Leo chopped at the ice with a small cutting tool.",
+      "answerZh": "里奧用一件小型切割工具反覆敲砍冰塊。",
+      "highlight": "chopped at the ice",
+      "targetForm": "chop at something",
+      "targetMeaningZh": "反覆劈砍或斬擊某物"
+    },
+    {
+      "id": "phrasal-verb-33-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The workers cut three small trees until they fell.",
+      "promptZh": "工人把三棵小樹砍至倒下。",
+      "starter": "The",
+      "answer": "The workers chopped down three small trees.",
+      "answerZh": "工人砍倒了三棵小樹。",
+      "highlight": "chopped down three small trees",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Mina removed a piece from the block of chocolate with a heavy knife.",
+      "promptZh": "米娜用一把厚重的刀從朱古力磚上砍下一塊。",
+      "starter": "Mina",
+      "answer": "Mina chopped a piece off the block of chocolate.",
+      "answerZh": "米娜從朱古力磚上砍下一塊。",
+      "highlight": "chopped a piece off the block of chocolate",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "從某物砍下一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "We kept cutting the thick plants beside the path.",
+      "promptZh": "我們不斷砍削小路旁的茂密植物。",
+      "starter": "We",
+      "answer": "We chopped away at the thick plants beside the path.",
+      "answerZh": "我們不斷砍削小路旁的茂密植物。",
+      "highlight": "chopped away at the thick plants beside the path",
+      "targetForm": "chop away at something",
+      "targetMeaningZh": "持續反覆砍削某物"
+    },
+    {
+      "id": "phrasal-verb-33-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Dad cut the old apple tree at its base until it fell.",
+      "promptZh": "爸爸從老蘋果樹的底部砍下去，直至它倒下。",
+      "starter": "Dad",
+      "answer": "Dad chopped down the old apple tree.",
+      "answerZh": "爸爸砍倒了那棵老蘋果樹。",
+      "highlight": "chopped down the old apple tree",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "She removed the top of the coconut with a large knife.",
+      "promptZh": "她用一把大刀砍掉椰子的頂部。",
+      "starter": "She",
+      "answer": "She chopped the top off the coconut.",
+      "answerZh": "她砍掉了椰子的頂部。",
+      "highlight": "chopped the top off the coconut",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The camper struck the hard piece of wood repeatedly with an axe.",
+      "promptZh": "露營者用斧頭反覆劈砍那塊堅硬的木頭。",
+      "starter": "The",
+      "answer": "The camper chopped at the hard piece of wood with an axe.",
+      "answerZh": "露營者用斧頭反覆劈砍那塊堅硬的木頭。",
+      "highlight": "chopped at the hard piece of wood",
+      "targetForm": "chop at something",
+      "targetMeaningZh": "反覆劈砍或斬擊某物"
+    },
+    {
+      "id": "phrasal-verb-33-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Workers at the school are cutting two unsafe trees until they fall this week.",
+      "promptZh": "學校的工人本星期正在把兩棵不安全的樹砍至倒下。",
+      "starter": "Workers",
+      "answer": "Workers at the school are chopping down two unsafe trees this week.",
+      "answerZh": "學校的工人本星期正在砍倒兩棵不安全的樹。",
+      "highlight": "chopping down two unsafe trees",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Have you removed the broken end of the stick with the axe?",
+      "promptZh": "你有沒有用斧頭砍掉木棍破裂的一端？",
+      "starter": "Have",
+      "answer": "Have you chopped the broken end off the stick?",
+      "answerZh": "你有沒有砍掉木棍破裂的一端？",
+      "highlight": "chopped the broken end off the stick",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Maya has been cutting the thick root repeatedly for ten minutes.",
+      "promptZh": "瑪雅已經反覆砍削那條粗大的樹根十分鐘。",
+      "starter": "Maya",
+      "answer": "Maya has been chopping away at the thick root for ten minutes.",
+      "answerZh": "瑪雅已經反覆砍削那條粗大的樹根十分鐘。",
+      "highlight": "chopping away at the thick root",
+      "targetForm": "chop away at something",
+      "targetMeaningZh": "持續反覆砍削某物"
+    },
+    {
+      "id": "phrasal-verb-33-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The storm damaged the tree, so we will cut it at the base until it falls tomorrow.",
+      "promptZh": "暴風雨損壞了那棵樹，所以我們明天會從底部把它砍至倒下。",
+      "starter": "The",
+      "answer": "The storm damaged the tree, so we will chop it down tomorrow.",
+      "answerZh": "暴風雨損壞了那棵樹，所以我們明天會把它砍倒。",
+      "highlight": "chop it down",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The cook is removing the hard ends of the vegetables with a heavy knife.",
+      "promptZh": "廚師正用一把厚重的刀砍掉蔬菜堅硬的末端。",
+      "starter": "The",
+      "answer": "The cook is chopping the hard ends off the vegetables.",
+      "answerZh": "廚師正砍掉蔬菜堅硬的末端。",
+      "highlight": "chopping the hard ends off the vegetables",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why are the rescue workers striking the damaged wooden door repeatedly with an axe?",
+      "promptZh": "救援人員為何用斧頭反覆劈砍那扇損壞了的木門？",
+      "starter": "Why",
+      "answer": "Why are the rescue workers chopping at the damaged wooden door with an axe?",
+      "answerZh": "救援人員為何用斧頭反覆劈砍那扇損壞了的木門？",
+      "highlight": "chopping at the damaged wooden door",
+      "targetForm": "chop at something",
+      "targetMeaningZh": "反覆劈砍或斬擊某物"
+    },
+    {
+      "id": "phrasal-verb-33-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The farmer has cut the tree that was blocking the road until it fell.",
+      "promptZh": "農夫已把阻塞道路的樹砍至倒下。",
+      "starter": "The",
+      "answer": "The farmer has chopped down the tree that was blocking the road.",
+      "answerZh": "農夫已砍倒阻塞道路的樹。",
+      "highlight": "chopped down the tree that was blocking the road",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "This end is too hard to eat. Please remove it with a knife before you cook the vegetable.",
+      "promptZh": "這一端太硬，不能食用。請在烹調蔬菜前用刀把它砍掉。",
+      "starter": "This",
+      "answer": "This end is too hard to eat. Please chop it off before you cook the vegetable.",
+      "answerZh": "這一端太硬，不能食用。請在烹調蔬菜前把它砍掉。",
+      "highlight": "chop it off",
+      "targetForm": "chop something off",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The builders were cutting the old wooden wall again and again.",
+      "promptZh": "建築工人當時正在反覆劈砍那面舊木牆。",
+      "starter": "The",
+      "answer": "The builders were chopping away at the old wooden wall.",
+      "answerZh": "建築工人當時正在反覆劈砍那面舊木牆。",
+      "highlight": "chopping away at the old wooden wall",
+      "targetForm": "chop away at something",
+      "targetMeaningZh": "持續反覆劈砍某物"
+    },
+    {
+      "id": "phrasal-verb-33-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Will they cut the tall tree near the playground until it falls?",
+      "promptZh": "他們會把遊樂場附近的高樹砍至倒下嗎？",
+      "starter": "Will",
+      "answer": "Will they chop down the tall tree near the playground?",
+      "answerZh": "他們會砍倒遊樂場附近的高樹嗎？",
+      "highlight": "chop down the tall tree",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The branch was removed from the tree with an axe after the storm.",
+      "promptZh": "暴風雨過後，那根樹枝被人用斧頭從樹上砍掉。",
+      "starter": "The",
+      "answer": "The branch was chopped off the tree after the storm.",
+      "answerZh": "暴風雨過後，那根樹枝被人從樹上砍掉。",
+      "highlight": "chopped off the tree",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "從某物砍掉一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We could hear someone repeatedly cutting a piece of wood outside.",
+      "promptZh": "我們聽到有人在外面反覆劈砍一塊木頭。",
+      "starter": "We",
+      "answer": "We could hear someone chopping away at a piece of wood outside.",
+      "answerZh": "我們聽到有人在外面反覆劈砍一塊木頭。",
+      "highlight": "chopping away at a piece of wood outside",
+      "targetForm": "chop away at something",
+      "targetMeaningZh": "持續反覆劈砍某物"
+    },
+    {
+      "id": "phrasal-verb-33-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The tree is too close to the house, so the owner plans to cut it until it falls.",
+      "promptZh": "那棵樹太接近房子，所以物主打算把它砍至倒下。",
+      "starter": "The",
+      "answer": "The tree is too close to the house, so the owner plans to chop it down.",
+      "answerZh": "那棵樹太接近房子，所以物主打算把它砍倒。",
+      "highlight": "chop it down",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The cook removed the head of the fish with a heavy knife before cooking it.",
+      "promptZh": "廚師在烹調魚之前，用一把厚重的刀砍掉了魚頭。",
+      "starter": "The",
+      "answer": "The cook chopped the head off the fish before cooking it.",
+      "answerZh": "廚師在烹調魚之前砍掉了魚頭。",
+      "highlight": "chopped the head off the fish",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Tom did not finish cutting the branch; he only struck it repeatedly for a while.",
+      "promptZh": "湯姆沒有完成砍斷樹枝的工作；他只是反覆劈砍了一會兒。",
+      "starter": "Tom",
+      "answer": "Tom did not finish cutting the branch; he only chopped at it for a while.",
+      "answerZh": "湯姆沒有完成砍斷樹枝的工作；他只是反覆劈砍了一會兒。",
+      "highlight": "chopped at it",
+      "targetForm": "chop at something",
+      "targetMeaningZh": "反覆劈砍某物，但不一定完成"
+    },
+    {
+      "id": "phrasal-verb-33-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The old tree was cut at the base until it fell before the new path was built.",
+      "promptZh": "在興建新小路前，那棵老樹已被人從底部砍至倒下。",
+      "starter": "The",
+      "answer": "The old tree was chopped down before the new path was built.",
+      "answerZh": "在興建新小路前，那棵老樹已被砍倒。",
+      "highlight": "chopped down",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The cook removed a large piece from the bone with a heavy knife.",
+      "promptZh": "廚師用一把厚重的刀從骨頭上砍下一大塊。",
+      "starter": "The",
+      "answer": "The cook chopped a large piece off the bone.",
+      "answerZh": "廚師從骨頭上砍下一大塊。",
+      "highlight": "chopped a large piece off the bone",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "從某物砍下一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The thick roots were so hard that we had to keep cutting them for an hour.",
+      "promptZh": "那些粗大的樹根十分堅硬，我們不得不持續砍削一小時。",
+      "starter": "The",
+      "answer": "The thick roots were so hard that we had to chop away at them for an hour.",
+      "answerZh": "那些粗大的樹根十分堅硬，我們不得不持續砍削一小時。",
+      "highlight": "chop away at them",
+      "targetForm": "chop away at something",
+      "targetMeaningZh": "持續反覆砍削某物"
+    },
+    {
+      "id": "phrasal-verb-33-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "By noon, the workers had cut every small tree in the marked area until it fell.",
+      "promptZh": "到了中午，工人已把標記範圍內的每棵小樹砍至倒下。",
+      "starter": "By",
+      "answer": "By noon, the workers had chopped down every small tree in the marked area.",
+      "answerZh": "到了中午，工人已砍倒標記範圍內的每棵小樹。",
+      "highlight": "chopped down every small tree",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "She removed the damaged part of the wooden post with an axe.",
+      "promptZh": "她用斧頭砍掉了木柱損壞的部分。",
+      "starter": "She",
+      "answer": "She chopped the damaged part off the wooden post.",
+      "answerZh": "她砍掉了木柱損壞的部分。",
+      "highlight": "chopped the damaged part off the wooden post",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "He kept striking the locked wooden box with an axe, but the wood was too thick to break.",
+      "promptZh": "他一直用斧頭劈砍那個鎖上的木箱，但木材太厚，無法劈開。",
+      "starter": "He",
+      "answer": "He kept chopping at the locked wooden box, but the wood was too thick to break.",
+      "answerZh": "他一直劈砍那個鎖上的木箱，但木材太厚，無法劈開。",
+      "highlight": "chopping at the locked wooden box",
+      "targetForm": "chop at something",
+      "targetMeaningZh": "反覆劈砍某物，但不一定成功"
+    },
+    {
+      "id": "phrasal-verb-33-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The top of the pumpkin had been removed with a large knife before we arrived.",
+      "promptZh": "我們到達前，南瓜的頂部已被人用一把大刀砍掉。",
+      "starter": "The",
+      "answer": "The top of the pumpkin had been chopped off before we arrived.",
+      "answerZh": "我們到達前，南瓜的頂部已被人砍掉。",
+      "highlight": "chopped off",
+      "targetForm": "chop something off",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The owner decided to cut the tree at its base until it fell because its trunk was badly damaged.",
+      "promptZh": "樹幹嚴重受損，因此物主決定從樹的底部把它砍至倒下。",
+      "starter": "The",
+      "answer": "The owner decided to chop down the tree because its trunk was badly damaged.",
+      "answerZh": "樹幹嚴重受損，因此物主決定把樹砍倒。",
+      "highlight": "chop down the tree",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "While the others cleared the path, Ben kept cutting the largest root.",
+      "promptZh": "其他人清理小路時，賓不斷砍削最大的一條樹根。",
+      "starter": "While",
+      "answer": "While the others cleared the path, Ben chopped away at the largest root.",
+      "answerZh": "其他人清理小路時，賓不斷砍削最大的一條樹根。",
+      "highlight": "chopped away at the largest root",
+      "targetForm": "chop away at something",
+      "targetMeaningZh": "持續反覆砍削某物"
+    },
+    {
+      "id": "phrasal-verb-33-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The worker removed the split end of the wooden pole with an axe.",
+      "promptZh": "工人用斧頭砍掉了木柱裂開的一端。",
+      "starter": "The",
+      "answer": "The worker chopped the split end off the wooden pole.",
+      "answerZh": "工人砍掉了木柱裂開的一端。",
+      "highlight": "chopped the split end off the wooden pole",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Several trees were cut at their bases until they fell to create space for the new sports field.",
+      "promptZh": "幾棵樹被人從底部砍至倒下，以騰出空間興建新運動場。",
+      "starter": "Several",
+      "answer": "Several trees were chopped down to create space for the new sports field.",
+      "answerZh": "幾棵樹被砍倒，以騰出空間興建新運動場。",
+      "highlight": "chopped down",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The hikers repeatedly cut the fallen branch until there was enough space to pass.",
+      "promptZh": "遠足者反覆劈砍倒下的樹枝，直至有足夠空間通過。",
+      "starter": "The",
+      "answer": "The hikers chopped at the fallen branch until there was enough space to pass.",
+      "answerZh": "遠足者反覆劈砍倒下的樹枝，直至有足夠空間通過。",
+      "highlight": "chopped at the fallen branch",
+      "targetForm": "chop at something",
+      "targetMeaningZh": "反覆劈砍某物"
+    },
+    {
+      "id": "phrasal-verb-33-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "If the branch is unsafe, remove it with an axe close to the trunk.",
+      "promptZh": "如果那根樹枝不安全，便用斧頭從接近樹幹的位置把它砍掉。",
+      "starter": "If",
+      "answer": "If the branch is unsafe, chop it off close to the trunk.",
+      "answerZh": "如果那根樹枝不安全，便從接近樹幹的位置把它砍掉。",
+      "highlight": "chop it off",
+      "targetForm": "chop something off",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Why did the farmer cut the young tree until it fell instead of moving the fence?",
+      "promptZh": "農夫為何把小樹砍至倒下，而不是移動圍欄？",
+      "starter": "Why",
+      "answer": "Why did the farmer chop down the young tree instead of moving the fence?",
+      "answerZh": "農夫為何砍倒小樹，而不是移動圍欄？",
+      "highlight": "chop down the young tree",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The ice was thick, so the rescue team struck it repeatedly from both sides.",
+      "promptZh": "冰層很厚，所以救援隊從兩邊反覆敲砍它。",
+      "starter": "The",
+      "answer": "The ice was thick, so the rescue team chopped at it from both sides.",
+      "answerZh": "冰層很厚，所以救援隊從兩邊反覆敲砍它。",
+      "highlight": "chopped at it",
+      "targetForm": "chop at something",
+      "targetMeaningZh": "反覆劈砍或敲砍某物"
+    },
+    {
+      "id": "phrasal-verb-33-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The gardener removed the dead branch from the tree with an axe before it could fall onto the path.",
+      "promptZh": "園丁在枯枝跌到小路上之前，用斧頭把它從樹上砍掉。",
+      "starter": "The",
+      "answer": "The gardener chopped the dead branch off the tree before it could fall onto the path.",
+      "answerZh": "園丁在枯枝跌到小路上之前，把它從樹上砍掉。",
+      "highlight": "chopped the dead branch off the tree",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "從某物砍掉一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although the tree still looked healthy, its roots were damaging the wall, so the owner arranged for it to be cut until it fell.",
+      "promptZh": "雖然那棵樹看來仍然健康，但它的樹根正在破壞牆壁，所以物主安排把它砍至倒下。",
+      "starter": "Although",
+      "answer": "Although the tree still looked healthy, its roots were damaging the wall, so the owner had it chopped down.",
+      "answerZh": "雖然那棵樹看來仍然健康，但它的樹根正在破壞牆壁，所以物主安排把它砍倒。",
+      "highlight": "chopped down",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The workers could not move the old post, so they began repeatedly cutting the hard wood near its base.",
+      "promptZh": "工人無法移動那根舊木柱，所以開始反覆劈砍接近底部的堅硬木材。",
+      "starter": "The",
+      "answer": "The workers could not move the old post, so they began chopping away at the hard wood near its base.",
+      "answerZh": "工人無法移動那根舊木柱，所以開始反覆劈砍接近底部的堅硬木材。",
+      "highlight": "chopping away at the hard wood",
+      "targetForm": "chop away at something",
+      "targetMeaningZh": "持續反覆劈砍某物"
+    },
+    {
+      "id": "phrasal-verb-33-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The end of the rope was badly damaged, so Maya removed it with one quick cut.",
+      "promptZh": "繩子的末端嚴重損壞，所以瑪雅迅速一刀把它砍掉。",
+      "starter": "The",
+      "answer": "The end of the rope was badly damaged, so Maya chopped it off with one quick cut.",
+      "answerZh": "繩子的末端嚴重損壞，所以瑪雅迅速一刀把它砍掉。",
+      "highlight": "chopped it off",
+      "targetForm": "chop something off",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The storm left one tree leaning over the road, and workers cut it until it fell before traffic returned.",
+      "promptZh": "暴風雨令一棵樹傾斜在道路上方，工人在車輛再次通行前把它砍至倒下。",
+      "starter": "The",
+      "answer": "The storm left one tree leaning over the road, and workers chopped it down before traffic returned.",
+      "answerZh": "暴風雨令一棵樹傾斜在道路上方，工人在車輛再次通行前把它砍倒。",
+      "highlight": "chopped it down",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "As the water froze around the gate, the caretaker struck the ice repeatedly to free it.",
+      "promptZh": "水在大閘周圍結冰時，管理員反覆敲砍冰塊，讓大閘可以移動。",
+      "starter": "As",
+      "answer": "As the water froze around the gate, the caretaker chopped at the ice to free it.",
+      "answerZh": "水在大閘周圍結冰時，管理員反覆敲砍冰塊，讓大閘可以移動。",
+      "highlight": "chopped at the ice",
+      "targetForm": "chop at something",
+      "targetMeaningZh": "反覆劈砍或敲砍某物"
+    },
+    {
+      "id": "phrasal-verb-33-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The cook removed the thick top of the vegetable with a large knife and then washed the rest.",
+      "promptZh": "廚師用一把大刀砍掉蔬菜厚實的頂部，然後清洗餘下部分。",
+      "starter": "The",
+      "answer": "The cook chopped the thick top off the vegetable and then washed the rest.",
+      "answerZh": "廚師砍掉蔬菜厚實的頂部，然後清洗餘下部分。",
+      "highlight": "chopped the thick top off the vegetable",
+      "targetForm": "chop something off something",
+      "targetMeaningZh": "砍掉某物的一部分"
+    },
+    {
+      "id": "phrasal-verb-33-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The old trees had been cut at their bases until they fell long before the houses were built.",
+      "promptZh": "早在那些房子興建前，老樹已被人從底部砍至倒下。",
+      "starter": "The",
+      "answer": "The old trees had been chopped down long before the houses were built.",
+      "answerZh": "早在那些房子興建前，老樹已被砍倒。",
+      "highlight": "chopped down long",
+      "targetForm": "chop something down",
+      "targetMeaningZh": "把樹砍至倒下"
+    },
+    {
+      "id": "phrasal-verb-33-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "For nearly an hour, the team repeatedly cut the fallen tree, but it was still blocking the path.",
+      "promptZh": "接近一小時內，團隊不斷劈砍倒下的樹木，但它仍然阻塞小路。",
+      "starter": "For",
+      "answer": "For nearly an hour, the team chopped away at the fallen tree, but it was still blocking the path.",
+      "answerZh": "接近一小時內，團隊不斷劈砍倒下的樹木，但它仍然阻塞小路。",
+      "highlight": "chopped away at the fallen tree",
+      "targetForm": "chop away at something",
+      "targetMeaningZh": "持續反覆劈砍某物"
+    },
+    {
+      "id": "phrasal-verb-33-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The damaged end of the wooden board could not be repaired, so the builder removed it with an axe and used the rest.",
+      "promptZh": "木板損壞的一端無法修理，所以建築工人用斧頭把它砍掉，並使用餘下部分。",
+      "starter": "The",
+      "answer": "The damaged end of the wooden board could not be repaired, so the builder chopped it off and used the rest.",
+      "answerZh": "木板損壞的一端無法修理，所以建築工人把它砍掉，並使用餘下部分。",
+      "highlight": "chopped it off",
+      "targetForm": "chop something off",
+      "targetMeaningZh": "砍掉某物的一部分"
+    }
+  ]
+}

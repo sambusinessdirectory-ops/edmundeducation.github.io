@@ -1,0 +1,1218 @@
+{
+  "id": "phrasal-verb-29",
+  "order": 29,
+  "slug": "box",
+  "version": "1",
+  "title": "BOX 動詞片語",
+  "titleEn": "Box",
+  "titleZh": "BOX 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 28 - Box.pdf",
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BOX 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BOX."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BOX",
+      "highlight": "BOX"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "His earlier promises boxed him in.",
+      "zh": "他早前作出的承諾限制了他的選擇。",
+      "highlight": "boxed him in"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Two vans boxed my car in.",
+      "zh": "兩輛客貨車把我的車堵住了。",
+      "highlight": "boxed my car in"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "She boxed up the old clothes.",
+      "zh": "她把舊衣物裝箱。",
+      "highlight": "boxed up the old clothes"
+    }
+  ],
+  "meaning": {
+    "zh": "限制某人的選擇或行動，使某人難以自由作決定；從四周堵住或困住某人或某物，使其無法離開或移動；把某物放進箱子，通常為了收納、搬運或寄送",
+    "en": "box somebody in / box somebody/something in / box something up",
+    "naturalZh": [
+      "限制某人的選擇或行動，使某人難以自由作決定",
+      "從四周堵住或困住某人或某物，使其無法離開或移動",
+      "把某物放進箱子，通常為了收納、搬運或寄送"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "box somebody in",
+      "titleZh": "限制某人的選擇或行動，使某人難以自由作決定",
+      "titleEn": "box somebody in",
+      "descriptionZh": "限制某人的選擇或行動，使某人難以自由作決定",
+      "descriptionEn": "His earlier promises boxed him in.",
+      "examples": [
+        {
+          "en": "His earlier promises boxed him in.",
+          "zh": "他早前作出的承諾限制了他的選擇。",
+          "highlight": "boxed him in"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "box somebody/something in",
+      "titleZh": "從四周堵住或困住某人或某物，使其無法離開或移動",
+      "titleEn": "box somebody/something in",
+      "descriptionZh": "從四周堵住或困住某人或某物，使其無法離開或移動",
+      "descriptionEn": "Two vans boxed my car in.",
+      "examples": [
+        {
+          "en": "Two vans boxed my car in.",
+          "zh": "兩輛客貨車把我的車堵住了。",
+          "highlight": "boxed my car in"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "box something up",
+      "titleZh": "把某物放進箱子，通常為了收納、搬運或寄送",
+      "titleEn": "box something up",
+      "descriptionZh": "把某物放進箱子，通常為了收納、搬運或寄送",
+      "descriptionEn": "She boxed up the old clothes.",
+      "examples": [
+        {
+          "en": "She boxed up the old clothes.",
+          "zh": "她把舊衣物裝箱。",
+          "highlight": "boxed up the old clothes"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "BOX 片語動詞的實際用途",
+    "labelEn": "BOX Phrasal Verbs in Use",
+    "summaryZh": "box somebody in 可以描述規則、承諾或決定令某人幾乎沒有自由採取行動。；box somebody or something in 可以表示車輛、人物或物件被圍住或堵住，因而無法移動。；box something up 適合用來談論搬屋、收納物品或把東西寄給別人。；在新聞和工作英語中，box somebody in 通常表示選擇受到限制；在日常情境中，它通常表示被實際堵住。",
+    "summaryEn": "Box somebody in can describe rules, promises or decisions that leave a person with little freedom to act. Box somebody or something in can show that vehicles, people or objects are surrounded or physically blocked. Box something up is useful when discussing moving house, storing belongings or sending items to another person. In news and workplace English, box somebody in often concerns limited choices. In daily-life situations, it often describes being physically blocked.",
+    "contextsZh": [
+      "談論選擇受到限制的情況",
+      "描述無法移動的人、車輛和物件",
+      "自然地談論包裝和收納",
+      "理解 BOX IN 的兩種不同意思"
+    ],
+    "contextsEn": [
+      "Talk about having very few choices",
+      "Describe people, cars and objects that cannot move",
+      "Talk naturally about packing and storage",
+      "Understand two very different meanings of BOX IN"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 BOX 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BOX expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "box somebody in",
+    "fixedHighlight": "box somebody in",
+    "fixedZh": "閱讀整句，選出意思相同的 BOX 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BOX expression that gives the same meaning.",
+    "correct": "boxed him in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；box somebody in 有兩種不同用法。它可以表示限制某人的選擇，也可以表示從四周困住某人，使其無法移動。請仔細閱讀整個情境。；使用 him、her、it 或 them 時，把它放在 BOX 和 IN 或 UP 中間。",
+    "variableEn": "Keep the same people, things, time and meaning. Box somebody in has two different uses. It can mean limiting someone’s choices, or physically preventing someone from moving. Read the whole situation carefully. When using him, her, it or them, place the word between BOX and IN or UP:",
+    "variableItemsZh": [
+      "box somebody in",
+      "box somebody/something in",
+      "box something up"
+    ],
+    "variableItemsEn": [
+      "box somebody in",
+      "box somebody/something in",
+      "box something up"
+    ],
+    "forms": [
+      {
+        "formZh": "限制某人的選擇或行動，使某人難以自由作決定",
+        "formEn": "box somebody in",
+        "exampleZh": "他早前作出的承諾限制了他的選擇。",
+        "exampleEn": "His earlier promises boxed him in.",
+        "highlight": "boxed him in"
+      },
+      {
+        "formZh": "從四周堵住或困住某人或某物，使其無法離開或移動",
+        "formEn": "box somebody/something in",
+        "exampleZh": "兩輛客貨車把我的車堵住了。",
+        "exampleEn": "Two vans boxed my car in.",
+        "highlight": "boxed my car in"
+      },
+      {
+        "formZh": "把某物放進箱子，通常為了收納、搬運或寄送",
+        "formEn": "box something up",
+        "exampleZh": "她把舊衣物裝箱。",
+        "exampleEn": "She boxed up the old clothes.",
+        "highlight": "boxed up the old clothes"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "限制某人的選擇或行動，使某人難以自由作決定",
+      "titleEn": "box somebody in",
+      "formula": "box somebody in",
+      "highlight": "box somebody in",
+      "descriptionZh": "限制某人的選擇或行動，使某人難以自由作決定",
+      "descriptionEn": "His earlier promises boxed him in.",
+      "examples": [
+        {
+          "en": "His earlier promises boxed him in.",
+          "zh": "他早前作出的承諾限制了他的選擇。",
+          "highlight": "boxed him in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "從四周堵住或困住某人或某物，使其無法離開或移動",
+      "titleEn": "box somebody/something in",
+      "formula": "box somebody/something in",
+      "highlight": "box somebody/something in",
+      "descriptionZh": "從四周堵住或困住某人或某物，使其無法離開或移動",
+      "descriptionEn": "Two vans boxed my car in.",
+      "examples": [
+        {
+          "en": "Two vans boxed my car in.",
+          "zh": "兩輛客貨車把我的車堵住了。",
+          "highlight": "boxed my car in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某物放進箱子，通常為了收納、搬運或寄送",
+      "titleEn": "box something up",
+      "formula": "box something up",
+      "highlight": "box something up",
+      "descriptionZh": "把某物放進箱子，通常為了收納、搬運或寄送",
+      "descriptionEn": "She boxed up the old clothes.",
+      "examples": [
+        {
+          "en": "She boxed up the old clothes.",
+          "zh": "她把舊衣物裝箱。",
+          "highlight": "boxed up the old clothes"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論選擇受到限制的情況",
+      "titleEn": "Talk about having very few choices",
+      "zh": "box somebody in 可以描述規則、承諾或決定令某人幾乎沒有自由採取行動。",
+      "en": "Box somebody in can describe rules, promises or decisions that leave a person with little freedom to act."
+    },
+    {
+      "titleZh": "描述無法移動的人、車輛和物件",
+      "titleEn": "Describe people, cars and objects that cannot move",
+      "zh": "box somebody or something in 可以表示車輛、人物或物件被圍住或堵住，因而無法移動。",
+      "en": "Box somebody or something in can show that vehicles, people or objects are surrounded or physically blocked."
+    },
+    {
+      "titleZh": "自然地談論包裝和收納",
+      "titleEn": "Talk naturally about packing and storage",
+      "zh": "box something up 適合用來談論搬屋、收納物品或把東西寄給別人。",
+      "en": "Box something up is useful when discussing moving house, storing belongings or sending items to another person."
+    },
+    {
+      "titleZh": "理解 BOX IN 的兩種不同意思",
+      "titleEn": "Understand two very different meanings of BOX IN",
+      "zh": "在新聞和工作英語中，box somebody in 通常表示選擇受到限制；在日常情境中，它通常表示被實際堵住。",
+      "en": "In news and workplace English, box somebody in often concerns limited choices. In daily-life situations, it often describes being physically blocked."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論選擇受到限制的情況",
+      "描述無法移動的人、車輛和物件",
+      "自然地談論包裝和收納",
+      "理解 BOX IN 的兩種不同意思"
+    ],
+    "contextsEn": [
+      "Talk about having very few choices",
+      "Describe people, cars and objects that cannot move",
+      "Talk naturally about packing and storage",
+      "Understand two very different meanings of BOX IN"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論選擇受到限制的情況",
+        "titleEn": "Talk about having very few choices",
+        "zh": "box somebody in 可以描述規則、承諾或決定令某人幾乎沒有自由採取行動。",
+        "en": "Box somebody in can describe rules, promises or decisions that leave a person with little freedom to act.",
+        "examples": [
+          {
+            "en": "His earlier promises boxed him in.",
+            "zh": "他早前作出的承諾限制了他的選擇。",
+            "highlight": "boxed him in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述無法移動的人、車輛和物件",
+        "titleEn": "Describe people, cars and objects that cannot move",
+        "zh": "box somebody or something in 可以表示車輛、人物或物件被圍住或堵住，因而無法移動。",
+        "en": "Box somebody or something in can show that vehicles, people or objects are surrounded or physically blocked.",
+        "examples": [
+          {
+            "en": "Two vans boxed my car in.",
+            "zh": "兩輛客貨車把我的車堵住了。",
+            "highlight": "boxed my car in"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地談論包裝和收納",
+        "titleEn": "Talk naturally about packing and storage",
+        "zh": "box something up 適合用來談論搬屋、收納物品或把東西寄給別人。",
+        "en": "Box something up is useful when discussing moving house, storing belongings or sending items to another person.",
+        "examples": [
+          {
+            "en": "She boxed up the old clothes.",
+            "zh": "她把舊衣物裝箱。",
+            "highlight": "boxed up the old clothes"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 BOX IN 的兩種不同意思",
+        "titleEn": "Understand two very different meanings of BOX IN",
+        "zh": "在新聞和工作英語中，box somebody in 通常表示選擇受到限制；在日常情境中，它通常表示被實際堵住。",
+        "en": "In news and workplace English, box somebody in often concerns limited choices. In daily-life situations, it often describes being physically blocked.",
+        "examples": [
+          {
+            "en": "His earlier promises boxed him in.",
+            "zh": "他早前作出的承諾限制了他的選擇。",
+            "highlight": "boxed him in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 BOX 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BOX expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 BOX 片語動詞。",
+      "en": "Read the whole sentence and choose the BOX expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "box somebody in 有兩種不同用法。它可以表示限制某人的選擇，也可以表示從四周困住某人，使其無法移動。請仔細閱讀整個情境。",
+      "titleEn": "Box somebody in has two different uses.",
+      "zh": "box somebody in 有兩種不同用法。它可以表示限制某人的選擇，也可以表示從四周困住某人，使其無法移動。請仔細閱讀整個情境。",
+      "en": "Box somebody in has two different uses. It can mean limiting someone’s choices, or physically preventing someone from moving. Read the whole situation carefully."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時，把它放在 BOX 和 IN 或 UP 中間。",
+      "titleEn": "When using him, her, it or them, place the word between BOX and IN or UP:",
+      "zh": "使用 him、her、it 或 them 時，把它放在 BOX 和 IN 或 UP 中間。",
+      "en": "When using him, her, it or them, place the word between BOX and IN or UP:",
+      "examples": [
+        {
+          "en": "box him in",
+          "zh": "",
+          "highlight": "box him in"
+        },
+        {
+          "en": "box it in",
+          "zh": "",
+          "highlight": "box it in"
+        },
+        {
+          "en": "box them up",
+          "zh": "",
+          "highlight": "box them up"
+        }
+      ]
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BOX 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BOX. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BOX 動詞片語句子改寫練習",
+    "titleEn": "BOX Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BOX 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BOX. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-29-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "The new rule left the coach with only one possible choice.",
+      "promptZh": "新規則令教練只剩下一個選擇。",
+      "starter": "The",
+      "answer": "The new rule boxed the coach in, leaving him with only one possible choice.",
+      "answerZh": "新規則限制了教練的選擇，令他只剩下一個選擇。",
+      "highlight": "boxed the coach in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "Maya put all the old toys into boxes for storage.",
+      "promptZh": "瑪雅把所有舊玩具放進箱子裏收納。",
+      "starter": "Maya",
+      "answer": "Maya boxed up all the old toys for storage.",
+      "answerZh": "瑪雅把所有舊玩具裝箱收納。",
+      "highlight": "boxed up all the old toys",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A delivery van parked directly behind my car, so I could not reverse out.",
+      "promptZh": "一輛送貨車直接停在我的車後面，令我無法倒車離開。",
+      "starter": "A",
+      "answer": "A delivery van boxed my car in, so I could not reverse out.",
+      "answerZh": "一輛送貨車把我的車堵住，令我無法倒車離開。",
+      "highlight": "boxed my car in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "堵住某物，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The contract limited Lena’s choices so much that she could not change the plan.",
+      "promptZh": "合約大大限制了莉娜的選擇，令她無法更改計劃。",
+      "starter": "The",
+      "answer": "The contract boxed Lena in, so she could not change the plan.",
+      "answerZh": "合約限制了莉娜的選擇，令她無法更改計劃。",
+      "highlight": "boxed Lena in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We put the kitchen plates into boxes before moving house.",
+      "promptZh": "搬屋前，我們把廚房的碟子放進箱子裏。",
+      "starter": "We",
+      "answer": "We boxed up the kitchen plates before moving house.",
+      "answerZh": "搬屋前，我們把廚房的碟子裝箱。",
+      "highlight": "boxed up the kitchen plates",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Two cars parked very close in front of and behind the small van.",
+      "promptZh": "兩輛車分別緊貼着停在小型客貨車前後。",
+      "starter": "Two",
+      "answer": "Two cars boxed the small van in.",
+      "answerZh": "兩輛車把小型客貨車堵在中間。",
+      "highlight": "boxed the small van in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "堵住某物，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "His earlier promise left him with no freedom to refuse.",
+      "promptZh": "他早前作出的承諾令他沒有拒絕的自由。",
+      "starter": "His",
+      "answer": "His earlier promise boxed him in, leaving him no freedom to refuse.",
+      "answerZh": "他早前作出的承諾限制了他的選擇，令他沒有拒絕的自由。",
+      "highlight": "boxed him in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Dad put the winter clothes into boxes for storage during the summer.",
+      "promptZh": "爸爸把冬季衣物放進箱子裏，在夏天期間收納。",
+      "starter": "Dad",
+      "answer": "Dad boxed up the winter clothes for storage during the summer.",
+      "answerZh": "爸爸把冬季衣物裝箱，在夏天期間收納。",
+      "highlight": "boxed up the winter clothes",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Stacks of chairs surrounded the piano so closely that nobody could move it.",
+      "promptZh": "成疊的椅子緊密圍着鋼琴，令任何人都無法移動它。",
+      "starter": "Stacks",
+      "answer": "Stacks of chairs boxed the piano in so closely that nobody could move it.",
+      "answerZh": "成疊的椅子把鋼琴困住，令任何人都無法移動它。",
+      "highlight": "boxed the piano in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "圍住某物，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The school rules gave the students no room to choose another date.",
+      "promptZh": "校規令學生沒有空間選擇另一個日期。",
+      "starter": "The",
+      "answer": "The school rules boxed the students in, leaving them no room to choose another date.",
+      "answerZh": "校規限制了學生的選擇，令他們無法選擇另一個日期。",
+      "highlight": "boxed the students in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A taxi is blocking our car at the moment.",
+      "promptZh": "一輛的士現在正堵住我們的車。",
+      "starter": "A",
+      "answer": "A taxi is boxing our car in at the moment.",
+      "answerZh": "一輛的士現在正把我們的車堵住。",
+      "highlight": "boxing our car in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "堵住某物，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The staff have already put the returned books into boxes.",
+      "promptZh": "職員已經把退回的書放進箱子裏。",
+      "starter": "The",
+      "answer": "The staff have already boxed up the returned books.",
+      "answerZh": "職員已經把退回的書裝箱。",
+      "highlight": "boxed up the returned books",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The new timetable is limiting us and leaving no time for a longer break.",
+      "promptZh": "新時間表正限制着我們，令我們沒有時間安排較長的休息。",
+      "starter": "The",
+      "answer": "The new timetable is boxing us in and leaving no time for a longer break.",
+      "answerZh": "新時間表正限制着我們，令我們沒有時間安排較長的休息。",
+      "highlight": "boxing us in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Will that lorry stop the bus from getting out?",
+      "promptZh": "那輛貨車會否令巴士無法駛出？",
+      "starter": "Will",
+      "answer": "Will that lorry box the bus in?",
+      "answerZh": "那輛貨車會否把巴士堵住？",
+      "highlight": "box the bus in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "堵住某物，使其無法駛出"
+    },
+    {
+      "id": "phrasal-verb-29-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Have you put the glass cups into boxes yet?",
+      "promptZh": "你已經把玻璃杯放進箱子裏了嗎？",
+      "starter": "Have",
+      "answer": "Have you boxed up the glass cups yet?",
+      "answerZh": "你已經把玻璃杯裝箱了嗎？",
+      "highlight": "boxed up the glass cups yet",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The manager may limit herself by making too many promises.",
+      "promptZh": "經理作出太多承諾，可能會限制自己的選擇。",
+      "starter": "The",
+      "answer": "The manager may box herself in by making too many promises.",
+      "answerZh": "經理作出太多承諾，可能會限制自己的選擇。",
+      "highlight": "box herself in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Several bikes have surrounded the small motorbike, so its owner cannot move it.",
+      "promptZh": "幾輛單車已經圍住那輛小型電單車，所以車主無法把它移走。",
+      "starter": "Several",
+      "answer": "Several bikes have boxed the small motorbike in, so its owner cannot move it.",
+      "answerZh": "幾輛單車已經把小型電單車困住，因此車主無法把它移走。",
+      "highlight": "boxed the small motorbike in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "圍住某物，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "We will put the extra computer screens into boxes tomorrow.",
+      "promptZh": "我們明天會把額外的電腦螢幕放進箱子裏。",
+      "starter": "We",
+      "answer": "We will box up the extra computer screens tomorrow.",
+      "answerZh": "我們明天會把額外的電腦螢幕裝箱。",
+      "highlight": "box up the extra computer screens",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why is this promise leaving you with no other choice?",
+      "promptZh": "為甚麼這個承諾令你沒有其他選擇？",
+      "starter": "Why",
+      "answer": "Why is this promise boxing you in?",
+      "answerZh": "為甚麼這個承諾限制了你的選擇？",
+      "highlight": "boxing you in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The two lorries had blocked the car before its driver returned.",
+      "promptZh": "司機回來之前，兩輛貨車已經把那輛車堵住。",
+      "starter": "The",
+      "answer": "The two lorries had boxed the car in before its driver returned.",
+      "answerZh": "司機回來之前，兩輛貨車已經把那輛車堵住。",
+      "highlight": "boxed the car in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "堵住某物，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The books are no longer needed, so please put them into boxes.",
+      "promptZh": "這些書已經不再需要，所以請把它們放進箱子裏。",
+      "starter": "The",
+      "answer": "The books are no longer needed, so please box them up.",
+      "answerZh": "這些書已經不再需要，所以請把它們裝箱。",
+      "highlight": "box them up",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The rules left Rosa with only two bad choices.",
+      "promptZh": "規則令羅莎只剩下兩個不理想的選擇。",
+      "starter": "The",
+      "answer": "The rules boxed Rosa in, leaving her with only two bad choices.",
+      "answerZh": "規則限制了羅莎，令她只剩下兩個不理想的選擇。",
+      "highlight": "boxed Rosa in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Someone parked in front of the van and stopped it from moving.",
+      "promptZh": "有人把車停在客貨車前面，令它無法移動。",
+      "starter": "Someone",
+      "answer": "Someone parked in front of the van and boxed it in.",
+      "answerZh": "有人把車停在客貨車前面，把它堵住了。",
+      "highlight": "boxed it in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "堵住某物，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "All the office files were put into boxes before the move.",
+      "promptZh": "搬遷前，所有辦公室文件都被放進箱子裏。",
+      "starter": "All",
+      "answer": "All the office files were boxed up before the move.",
+      "answerZh": "搬遷前，所有辦公室文件都被裝箱。",
+      "highlight": "boxed up",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Because of his public promise, Amir could no longer change his answer.",
+      "promptZh": "由於阿米爾曾公開作出承諾，他已無法更改答案。",
+      "starter": "Amir",
+      "answer": "Amir was boxed in by his public promise and could no longer change his answer.",
+      "answerZh": "阿米爾受到自己公開承諾的限制，已無法更改答案。",
+      "highlight": "boxed in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "People stood tightly around us, so we could not reach the door.",
+      "promptZh": "人群緊密圍着我們，所以我們無法走到門口。",
+      "starter": "People",
+      "answer": "People boxed us in, so we could not reach the door.",
+      "answerZh": "人群把我們困住，所以我們無法走到門口。",
+      "highlight": "boxed us in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "從四周困住某人，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why did the shop put every unsold lamp into a box?",
+      "promptZh": "為甚麼店舖把每盞未售出的燈放進箱子裏？",
+      "starter": "Why",
+      "answer": "Why did the shop box up every unsold lamp?",
+      "answerZh": "為甚麼店舖把每盞未售出的燈裝箱？",
+      "highlight": "box up every unsold lamp",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "By agreeing to two events on the same evening, the club left itself with no easy solution.",
+      "promptZh": "社團同意在同一晚舉辦兩項活動，令自己沒有容易的解決方法。",
+      "starter": "By",
+      "answer": "By agreeing to two events on the same evening, the club boxed itself in and had no easy solution.",
+      "answerZh": "社團同意在同一晚舉辦兩項活動，限制了自己的選擇，因此沒有容易的解決方法。",
+      "highlight": "boxed itself in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Two delivery vans trapped our car.",
+      "promptZh": "兩輛送貨車把我們的車困住了。",
+      "starter": "Our",
+      "answer": "Our car was boxed in by two delivery vans.",
+      "answerZh": "我們的車被兩輛送貨車堵住。",
+      "highlight": "boxed in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "堵住某物，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "These gifts are ready, so we can put them into boxes now.",
+      "promptZh": "這些禮物已經準備好，所以我們現在可以把它們放進箱子裏。",
+      "starter": "These",
+      "answer": "These gifts are ready, so we can box them up now.",
+      "answerZh": "這些禮物已經準備好，所以我們現在可以把它們裝箱。",
+      "highlight": "box them up",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A car was parked behind the ambulance, so it could not leave the parking space.",
+      "promptZh": "一輛車停在救護車後面，所以救護車無法駛離泊車位。",
+      "starter": "A",
+      "answer": "A car boxed the ambulance in, so it could not leave the parking space.",
+      "answerZh": "一輛車把救護車堵住，所以救護車無法駛離泊車位。",
+      "highlight": "boxed the ambulance in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "堵住某物，使其無法離開"
+    },
+    {
+      "id": "phrasal-verb-29-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The mayor promised lower fees before learning the full cost, and now she has very few choices.",
+      "promptZh": "市長在了解全部成本前承諾降低收費，現在她幾乎沒有其他選擇。",
+      "starter": "The",
+      "answer": "The mayor has boxed herself in by promising lower fees before learning the full cost.",
+      "answerZh": "市長在了解全部成本前承諾降低收費，因而限制了自己的選擇。",
+      "highlight": "boxed herself in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After the sale, the workers put the remaining shoes into boxes and carried them to the back room.",
+      "promptZh": "減價活動後，工人把餘下的鞋放進箱子裏，然後搬到後房。",
+      "starter": "After",
+      "answer": "After the sale, the workers boxed up the remaining shoes and carried them to the back room.",
+      "answerZh": "減價活動後，工人把餘下的鞋裝箱，然後搬到後房。",
+      "highlight": "boxed up the remaining shoes",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The teacher told both groups that they could use the hall at the same time, leaving herself unable to satisfy both.",
+      "promptZh": "老師告訴兩組學生他們可同時使用禮堂，令自己無法同時滿足雙方。",
+      "starter": "The",
+      "answer": "The teacher boxed herself in by telling both groups that they could use the hall at the same time.",
+      "answerZh": "老師告訴兩組學生他們可同時使用禮堂，因而限制了自己的選擇。",
+      "highlight": "boxed herself in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The crowd moved closer around the singer until she could not step backwards.",
+      "promptZh": "人群愈靠愈近，把歌手圍住，直到她無法後退。",
+      "starter": "The",
+      "answer": "The crowd boxed the singer in until she could not step backwards.",
+      "answerZh": "人群把歌手圍住，直到她無法後退。",
+      "highlight": "boxed the singer in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "從四周困住某人，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We do not need these cups today, so could you put them into boxes for me?",
+      "promptZh": "我們今天不需要這些杯，你可以替我把它們放進箱子嗎？",
+      "starter": "We",
+      "answer": "We do not need these cups today, so could you box them up for me?",
+      "answerZh": "我們今天不需要這些杯，你可以替我把它們裝箱嗎？",
+      "highlight": "box them up",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "By refusing every suggested change, the team left itself with no way to finish on time.",
+      "promptZh": "球隊拒絕所有建議的改動，令自己無法準時完成。",
+      "starter": "By",
+      "answer": "By refusing every suggested change, the team boxed itself in, with no way to finish on time.",
+      "answerZh": "球隊拒絕所有建議的改動，限制了自己的選擇，因而無法準時完成。",
+      "highlight": "boxed itself in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The moving boxes stood all around the sofa, making it impossible to carry it out.",
+      "promptZh": "搬屋用的箱子圍住梳化，令任何人都無法把它搬出去。",
+      "starter": "The",
+      "answer": "The moving boxes boxed the sofa in, making it impossible to carry it out.",
+      "answerZh": "搬屋用的箱子把梳化困住，令任何人都無法把它搬出去。",
+      "highlight": "boxes boxed the sofa in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "圍住某物，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before the room is painted, please put all the small lamps and pictures into boxes.",
+      "promptZh": "房間上油前，請把所有小燈和圖畫放進箱子裏。",
+      "starter": "Before",
+      "answer": "Before the room is painted, please box up all the small lamps and pictures.",
+      "answerZh": "房間上油前，請把所有小燈和圖畫裝箱。",
+      "highlight": "box up all the small lamps",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The company accepted a very low price, so it could not later ask for more money.",
+      "promptZh": "公司接受了非常低的價格，所以之後無法要求更多金錢。",
+      "starter": "By",
+      "answer": "By accepting a very low price, the company boxed itself in and could not later ask for more money.",
+      "answerZh": "公司接受了非常低的價格，限制了自己的選擇，之後無法要求更多金錢。",
+      "highlight": "boxed itself in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the family decided to move, they put the books, toys and kitchen things into boxes over the weekend.",
+      "promptZh": "家人決定搬屋後，在週末把書、玩具和廚房用品放進箱子裏。",
+      "starter": "When",
+      "answer": "When the family decided to move, they boxed up the books, toys and kitchen things over the weekend.",
+      "answerZh": "家人決定搬屋後，在週末把書、玩具和廚房用品裝箱。",
+      "highlight": "boxed up the books",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I returned to the car park and found one car in front of mine and another behind it, so I could not drive away.",
+      "promptZh": "我回到停車場時，發現一輛車停在我的車前面，另一輛停在後面，令我無法駛走。",
+      "starter": "I",
+      "answer": "I returned to the car park and found that two cars had boxed my car in, so I could not drive away.",
+      "answerZh": "我回到停車場時，發現兩輛車把我的車堵住，所以我無法駛走。",
+      "highlight": "boxed my car in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "堵住某物，使其無法離開"
+    },
+    {
+      "id": "phrasal-verb-29-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The minister had promised both lower taxes and more spending, so almost any action would break one promise.",
+      "promptZh": "部長曾承諾減稅並增加開支，因此她幾乎無論採取甚麼行動，都會打破其中一項承諾。",
+      "starter": "By",
+      "answer": "By promising both lower taxes and more spending, the minister boxed herself in, because almost any action would break one promise.",
+      "answerZh": "部長同時承諾減稅和增加開支，因而限制了自己的選擇，因為她幾乎採取任何行動都會打破其中一項承諾。",
+      "highlight": "boxed herself in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "During the concert, people closed in on all sides, and we could not move towards the exit.",
+      "promptZh": "音樂會期間，人群從四周靠近，我們無法移向出口。",
+      "starter": "During",
+      "answer": "During the concert, people boxed us in, and we could not move towards the exit.",
+      "answerZh": "音樂會期間，人群把我們困住，令我們無法移向出口。",
+      "highlight": "boxed us in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "從四周困住某人，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The shop will close for a month, so the owner is putting every item into boxes before Friday.",
+      "promptZh": "店舖會關閉一個月，所以店主正在星期五前把所有物品放進箱子裏。",
+      "starter": "The",
+      "answer": "The shop will close for a month, so the owner is boxing up every item before Friday.",
+      "answerZh": "店舖會關閉一個月，所以店主正在星期五前把所有物品裝箱。",
+      "highlight": "boxing up every item",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Sam kept saying yes to different people, and in the end his promises left him unable to please anyone.",
+      "promptZh": "山姆不斷答應不同人的要求，最後他的承諾令他無法令任何人滿意。",
+      "starter": "Sam",
+      "answer": "Sam boxed himself in by saying yes to different people, and in the end he could not please anyone.",
+      "answerZh": "山姆答應了不同人的要求，因而限制了自己，最後無法令任何人滿意。",
+      "highlight": "boxed himself in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "A fallen shelf and several heavy bags surrounded the washing machine, so nobody could move it.",
+      "promptZh": "倒下的層架和幾個沉重的袋圍住洗衣機，所以沒有人能移動它。",
+      "starter": "A",
+      "answer": "A fallen shelf and several heavy bags boxed the washing machine in, so nobody could move it.",
+      "answerZh": "倒下的層架和幾個沉重的袋把洗衣機困住，所以沒有人能移動它。",
+      "highlight": "boxed the washing machine in",
+      "targetForm": "box something in",
+      "targetMeaningZh": "圍住某物，使其無法移動"
+    },
+    {
+      "id": "phrasal-verb-29-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Before sending the old baby clothes to her cousin, Leila put them neatly into boxes.",
+      "promptZh": "把舊嬰兒衣物寄給表親前，萊拉把它們整齊地放進箱子裏。",
+      "starter": "Before",
+      "answer": "Before sending the old baby clothes to her cousin, Leila boxed them up neatly.",
+      "answerZh": "把舊嬰兒衣物寄給表親前，萊拉把它們整齊地裝箱。",
+      "highlight": "boxed them up",
+      "targetForm": "box something up",
+      "targetMeaningZh": "把某物裝箱"
+    },
+    {
+      "id": "phrasal-verb-29-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The committee rejected every safe choice early in the talks, and later it had no easy way forward.",
+      "promptZh": "委員會在商談初期拒絕所有穩妥的選擇，後來便沒有容易的出路。",
+      "starter": "The",
+      "answer": "The committee boxed itself in by rejecting every safe choice early in the talks, and later had no easy way forward.",
+      "answerZh": "委員會在商談初期拒絕所有穩妥的選擇，因而限制了自己，後來便沒有容易的出路。",
+      "highlight": "boxed itself in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "限制某人的選擇或行動"
+    },
+    {
+      "id": "phrasal-verb-29-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "When the train doors opened, passengers stood so closely around Noah that he could not get off.",
+      "promptZh": "火車門打開時，乘客緊密圍着諾亞，令他無法下車。",
+      "starter": "When",
+      "answer": "When the train doors opened, passengers boxed Noah in so tightly that he could not get off.",
+      "answerZh": "火車門打開時，乘客把諾亞緊緊困住，令他無法下車。",
+      "highlight": "boxed Noah in",
+      "targetForm": "box somebody in",
+      "targetMeaningZh": "從四周困住某人，使其無法移動"
+    }
+  ]
+}

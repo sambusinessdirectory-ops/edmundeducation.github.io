@@ -1,0 +1,1354 @@
+{
+  "id": "phrasal-verb-11",
+  "order": 11,
+  "slug": "top",
+  "version": "1",
+  "title": "TOP 動詞片語",
+  "titleEn": "Top",
+  "titleZh": "TOP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 11 - Top.pdf",
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TOP 有關的片語動詞。 ────────────────────────",
+    "en": "Learn and practise the phrasal verbs related to TOP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TOP",
+      "highlight": "TOP"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Jane’s colourful outfit was topped off with a dramatic hat.",
+      "zh": "珍的鮮艷服裝最後配上一頂搶眼的帽子，令整體造型更完整。",
+      "highlight": "topped off with"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Your annual salary will top out at seventy thousand dollars.",
+      "zh": "你的年薪最高可達七萬元。",
+      "highlight": "top out at"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Can I top you up?",
+      "zh": "要我替你再添一點飲品嗎？",
+      "highlight": "top you up"
+    }
+  ],
+  "meaning": {
+    "zh": "以某事物作最後點綴或收尾，使整體更完整；達到最高點、最高水平或上限；替某人的杯再添飲品。",
+    "en": "Learn and practise the phrasal verbs related to TOP.",
+    "naturalZh": [
+      "以某事物作最後點綴或收尾，使整體更完整",
+      "達到最高點、最高水平或上限",
+      "替某人的杯再添飲品"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "top something off with something",
+      "highlight": "top something off with something",
+      "titleZh": "以某事物作最後點綴或收尾，使整體更完整",
+      "titleEn": "top something off with something",
+      "descriptionZh": "以某事物作最後點綴或收尾，使整體更完整",
+      "descriptionEn": "Jane’s colourful outfit was topped off with a dramatic hat.",
+      "examples": [
+        {
+          "en": "Jane’s colourful outfit was topped off with a dramatic hat.",
+          "zh": "珍的鮮艷服裝最後配上一頂搶眼的帽子，令整體造型更完整。",
+          "highlight": "topped off with"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "top out at something",
+      "highlight": "top out at something",
+      "titleZh": "達到最高點、最高水平或上限",
+      "titleEn": "top out at something",
+      "descriptionZh": "達到最高點、最高水平或上限",
+      "descriptionEn": "Your annual salary will top out at seventy thousand dollars.",
+      "examples": [
+        {
+          "en": "Your annual salary will top out at seventy thousand dollars.",
+          "zh": "你的年薪最高可達七萬元。",
+          "highlight": "top out at"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "top somebody up",
+      "highlight": "top somebody up",
+      "titleZh": "替某人的杯再添飲品",
+      "titleEn": "top somebody up",
+      "descriptionZh": "替某人的杯再添飲品",
+      "descriptionEn": "Can I top you up?",
+      "examples": [
+        {
+          "en": "Can I top you up?",
+          "zh": "要我替你再添一點飲品嗎？",
+          "highlight": "top you up"
+        }
+      ],
+      "sourcePage": 2
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 TOP 有關的片語動詞。 ────────────────────────",
+    "summaryEn": "Learn and practise the phrasal verbs related to TOP.",
+    "contextsZh": [
+      "以某事物作最後點綴或收尾，使整體更完整",
+      "達到最高點、最高水平或上限",
+      "替某人的杯再添飲品"
+    ],
+    "contextsEn": [
+      "top something off with something",
+      "top out at something",
+      "top somebody up"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 TOP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TOP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "TOP",
+    "fixedHighlight": "TOP",
+    "fixedZh": "閱讀整句，選出意思相同的 TOP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TOP expression that gives the same meaning.",
+    "correct": "top something off with something",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 it、him、her、us 或 them 時，請按照以上例子放在正確位置。 留意以下例子中的 with 和 at：",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her, us or them, place the word as shown: Notice the words with and at in these examples:",
+    "variableItemsZh": [
+      "以某事物作最後點綴或收尾，使整體更完整",
+      "達到最高點、最高水平或上限",
+      "替某人的杯再添飲品"
+    ],
+    "variableItemsEn": [
+      "top something off with something",
+      "top out at something",
+      "top somebody up"
+    ],
+    "forms": [
+      {
+        "formZh": "以某事物作最後點綴或收尾，使整體更完整",
+        "formEn": "top something off with something",
+        "exampleZh": "珍的鮮艷服裝最後配上一頂搶眼的帽子，令整體造型更完整。",
+        "exampleEn": "Jane’s colourful outfit was topped off with a dramatic hat.",
+        "highlight": "topped off with"
+      },
+      {
+        "formZh": "達到最高點、最高水平或上限",
+        "formEn": "top out at something",
+        "exampleZh": "你的年薪最高可達七萬元。",
+        "exampleEn": "Your annual salary will top out at seventy thousand dollars.",
+        "highlight": "top out at"
+      },
+      {
+        "formZh": "替某人的杯再添飲品",
+        "formEn": "top somebody up",
+        "exampleZh": "要我替你再添一點飲品嗎？",
+        "exampleEn": "Can I top you up?",
+        "highlight": "top you up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "以某事物作最後點綴或收尾，使整體更完整",
+      "titleEn": "top something off with something",
+      "formula": "top something off with something",
+      "highlight": "top something off with something",
+      "descriptionZh": "以某事物作最後點綴或收尾，使整體更完整",
+      "descriptionEn": "Jane’s colourful outfit was topped off with a dramatic hat.",
+      "examples": [
+        {
+          "en": "Jane’s colourful outfit was topped off with a dramatic hat.",
+          "zh": "珍的鮮艷服裝最後配上一頂搶眼的帽子，令整體造型更完整。",
+          "highlight": "topped off with"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "達到最高點、最高水平或上限",
+      "titleEn": "top out at something",
+      "formula": "top out at something",
+      "highlight": "top out at something",
+      "descriptionZh": "達到最高點、最高水平或上限",
+      "descriptionEn": "Your annual salary will top out at seventy thousand dollars.",
+      "examples": [
+        {
+          "en": "Your annual salary will top out at seventy thousand dollars.",
+          "zh": "你的年薪最高可達七萬元。",
+          "highlight": "top out at"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "替某人的杯再添飲品",
+      "titleEn": "top somebody up",
+      "formula": "top somebody up",
+      "highlight": "top somebody up",
+      "descriptionZh": "替某人的杯再添飲品",
+      "descriptionEn": "Can I top you up?",
+      "examples": [
+        {
+          "en": "Can I top you up?",
+          "zh": "要我替你再添一點飲品嗎？",
+          "highlight": "top you up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "清楚表達最後的點綴",
+      "titleEn": "Add a clear finishing touch",
+      "zh": "top something off 可以描述令服裝、餐點、活動或經歷變得完整的最後細節。",
+      "en": "Top something off helps you describe the final detail that completes an outfit, meal, event or experience.",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "談論上限和最高水平",
+      "titleEn": "Talk about limits and highest levels",
+      "zh": "top out 可以用來描述薪金、價格、速度、數量或水平的最高點。",
+      "en": "Top out helps you describe the highest possible salary, price, speed, number or level.",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "自然地為別人添飲品",
+      "titleEn": "Offer more drinks naturally",
+      "zh": "top somebody up 可以自然地表示主動提出或替別人再添一點飲品。",
+      "en": "Top somebody up is a natural way to offer or give someone a little more to drink.",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "理解 TOP 的更多意思",
+      "titleEn": "Understand wider meanings of TOP",
+      "zh": "這些片語動詞顯示 TOP 並不只用來描述最高的位置。",
+      "en": "These expressions show that TOP is not limited to describing the highest position.",
+      "sourcePage": 3
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "以某事物作最後點綴或收尾，使整體更完整",
+      "達到最高點、最高水平或上限",
+      "替某人的杯再添飲品"
+    ],
+    "contextsEn": [
+      "top something off with something",
+      "top out at something",
+      "top somebody up"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "以某事物作最後點綴或收尾，使整體更完整",
+        "titleEn": "top something off with something",
+        "formula": "top something off with something",
+        "highlight": "top something off with something",
+        "zh": "以某事物作最後點綴或收尾，使整體更完整",
+        "en": "Jane’s colourful outfit was topped off with a dramatic hat.",
+        "examples": [
+          {
+            "en": "Jane’s colourful outfit was topped off with a dramatic hat.",
+            "zh": "珍的鮮艷服裝最後配上一頂搶眼的帽子，令整體造型更完整。",
+            "highlight": "topped off with"
+          }
+        ]
+      },
+      {
+        "titleZh": "達到最高點、最高水平或上限",
+        "titleEn": "top out at something",
+        "formula": "top out at something",
+        "highlight": "top out at something",
+        "zh": "達到最高點、最高水平或上限",
+        "en": "Your annual salary will top out at seventy thousand dollars.",
+        "examples": [
+          {
+            "en": "Your annual salary will top out at seventy thousand dollars.",
+            "zh": "你的年薪最高可達七萬元。",
+            "highlight": "top out at"
+          }
+        ]
+      },
+      {
+        "titleZh": "替某人的杯再添飲品",
+        "titleEn": "top somebody up",
+        "formula": "top somebody up",
+        "highlight": "top somebody up",
+        "zh": "替某人的杯再添飲品",
+        "en": "Can I top you up?",
+        "examples": [
+          {
+            "en": "Can I top you up?",
+            "zh": "要我替你再添一點飲品嗎？",
+            "highlight": "top you up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 TOP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TOP expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 TOP 片語動詞。",
+      "en": "Read the whole sentence and choose the TOP expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "使用 it、him、her、us 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her, us or them, place the word as shown:",
+      "zh": "使用 it、him、her、us 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using it, him, her, us or them, place the word as shown:",
+      "examplesEn": [
+        "top it off",
+        "top her up",
+        "top us up"
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "留意以下例子中的 with 和 at：",
+      "titleEn": "Notice the words with and at in these examples:",
+      "zh": "留意以下例子中的 with 和 at：",
+      "en": "Notice the words with and at in these examples:",
+      "examplesEn": [
+        "top the meal off with dessert",
+        "top out at 500"
+      ],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "top something off with something",
+      "meaningZh": "以某事物作最後點綴或收尾，使整體更完整",
+      "exampleEn": "Jane’s colourful outfit was topped off with a dramatic hat.",
+      "exampleZh": "珍的鮮艷服裝最後配上一頂搶眼的帽子，令整體造型更完整。",
+      "highlight": "topped off with",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "formula": "top out at something",
+      "meaningZh": "達到最高點、最高水平或上限",
+      "exampleEn": "Your annual salary will top out at seventy thousand dollars.",
+      "exampleZh": "你的年薪最高可達七萬元。",
+      "highlight": "top out at",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "formula": "top somebody up",
+      "meaningZh": "替某人的杯再添飲品",
+      "exampleEn": "Can I top you up?",
+      "exampleZh": "要我替你再添一點飲品嗎？",
+      "highlight": "top you up",
+      "sourcePage": 2
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TOP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TOP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TOP 動詞片語句子改寫練習",
+    "titleEn": "TOP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TOP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TOP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-11-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "Maya added a red hat as the final touch to her colourful outfit.",
+      "promptZh": "瑪雅加上一頂紅帽子，為她鮮艷的服裝作最後點綴。",
+      "starter": "Maya",
+      "answer": "Maya topped her colourful outfit off with a red hat.",
+      "answerZh": "瑪雅以一頂紅帽子為她鮮艷的服裝作最後點綴。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped her colourful outfit off with"
+    },
+    {
+      "id": "phrasal-verb-11-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "The car can reach a maximum speed of 180 kilometres per hour.",
+      "promptZh": "這輛車的最高時速為每小時180公里。",
+      "starter": "The",
+      "answer": "The car tops out at 180 kilometres per hour.",
+      "answerZh": "這輛車的最高時速為每小時180公里。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "tops out at"
+    },
+    {
+      "id": "phrasal-verb-11-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "Could you add a little more tea to my cup?",
+      "promptZh": "你可以替我的杯再添一點茶嗎？",
+      "starter": "Could",
+      "answer": "Could you top me up with a little more tea?",
+      "answerZh": "你可以替我再添一點茶嗎？",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "top me up"
+    },
+    {
+      "id": "phrasal-verb-11-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "We finished the meal with chocolate cake.",
+      "promptZh": "我們以朱古力蛋糕為這頓飯作結。",
+      "starter": "We",
+      "answer": "We topped the meal off with chocolate cake.",
+      "answerZh": "我們以朱古力蛋糕為這頓飯作結。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped the meal off with"
+    },
+    {
+      "id": "phrasal-verb-11-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Her annual salary cannot rise above seventy thousand dollars.",
+      "promptZh": "她的年薪不會超過七萬元。",
+      "starter": "Her",
+      "answer": "Her annual salary tops out at seventy thousand dollars.",
+      "answerZh": "她的年薪最高可達七萬元。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "tops out at"
+    },
+    {
+      "id": "phrasal-verb-11-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The waiter refilled our glasses before the food arrived.",
+      "promptZh": "食物送到前，侍應替我們的杯再添了飲品。",
+      "starter": "The",
+      "answer": "The waiter topped us up before the food arrived.",
+      "answerZh": "食物送到前，侍應替我們再添了飲品。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "topped us up"
+    },
+    {
+      "id": "phrasal-verb-11-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Liam added a silver ribbon as the final touch to the gift.",
+      "promptZh": "利亞姆加上一條銀色絲帶，為禮物作最後點綴。",
+      "starter": "Liam",
+      "answer": "Liam topped the gift off with a silver ribbon.",
+      "answerZh": "利亞姆以一條銀色絲帶為禮物作最後點綴。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped the gift off with"
+    },
+    {
+      "id": "phrasal-verb-11-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The class can have no more than thirty students.",
+      "promptZh": "這個班最多可有三十名學生。",
+      "starter": "The",
+      "answer": "The class size tops out at thirty students.",
+      "answerZh": "這個班最多可有三十名學生。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "tops out at"
+    },
+    {
+      "id": "phrasal-verb-11-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Shall I refill your glass?",
+      "promptZh": "要我替你的杯再添飲品嗎？",
+      "starter": "Shall",
+      "answer": "Shall I top you up?",
+      "answerZh": "要我替你再添一點飲品嗎？",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "top you up"
+    },
+    {
+      "id": "phrasal-verb-11-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "A short firework show provided the final part of the concert.",
+      "promptZh": "一場短短的煙花表演成為音樂會的最後部分。",
+      "starter": "The",
+      "answer": "The concert was topped off with a short firework show.",
+      "answerZh": "音樂會最後以一場短短的煙花表演作結。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped off with"
+    },
+    {
+      "id": "phrasal-verb-11-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The temperature reached its highest point at 34 degrees yesterday.",
+      "promptZh": "昨天的氣溫最高達34度。",
+      "starter": "The",
+      "answer": "The temperature topped out at 34 degrees yesterday.",
+      "answerZh": "昨天的氣溫最高達34度。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "topped out at"
+    },
+    {
+      "id": "phrasal-verb-11-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Nina is adding fresh strawberries as the final decoration to the cake.",
+      "promptZh": "妮娜正在加上新鮮士多啤梨，為蛋糕作最後裝飾。",
+      "starter": "Nina",
+      "answer": "Nina is topping the cake off with fresh strawberries.",
+      "answerZh": "妮娜正在以新鮮士多啤梨為蛋糕作最後裝飾。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topping the cake off with"
+    },
+    {
+      "id": "phrasal-verb-11-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "I will refill everyone’s glass before we start dinner.",
+      "promptZh": "晚餐開始前，我會替每個人的杯再添飲品。",
+      "starter": "I",
+      "answer": "I will top everyone up before we start dinner.",
+      "answerZh": "晚餐開始前，我會替每個人再添飲品。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "top everyone up"
+    },
+    {
+      "id": "phrasal-verb-11-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The number of visitors has reached its highest point at two hundred.",
+      "promptZh": "訪客人數最高已達二百人。",
+      "starter": "The",
+      "answer": "The number of visitors has topped out at two hundred.",
+      "answerZh": "訪客人數最高已達二百人。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "topped out at"
+    },
+    {
+      "id": "phrasal-verb-11-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Dad finished the evening by showing an old family video.",
+      "promptZh": "爸爸播放了一段舊家庭影片，為晚上作結。",
+      "starter": "Dad",
+      "answer": "Dad topped the evening off with an old family video.",
+      "answerZh": "爸爸播放了一段舊家庭影片，為晚上作結。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped the evening off with"
+    },
+    {
+      "id": "phrasal-verb-11-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Why did the server refill her glass again?",
+      "promptZh": "侍應為甚麼又替她的杯添飲品？",
+      "starter": "Why",
+      "answer": "Why did the server top her up again?",
+      "answerZh": "侍應為甚麼又替她添飲品？",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "top her up"
+    },
+    {
+      "id": "phrasal-verb-11-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The highest possible score in this game is 999 points.",
+      "promptZh": "這個遊戲的最高分是999分。",
+      "starter": "The",
+      "answer": "The score in this game tops out at 999 points.",
+      "answerZh": "這個遊戲的最高分是999分。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "tops out at"
+    },
+    {
+      "id": "phrasal-verb-11-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The chef has added fresh herbs as the final touch to the soup.",
+      "promptZh": "廚師加上新鮮香草，為湯作最後點綴。",
+      "starter": "The",
+      "answer": "The chef has topped the soup off with fresh herbs.",
+      "answerZh": "廚師已用新鮮香草為湯作最後點綴。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped the soup off with"
+    },
+    {
+      "id": "phrasal-verb-11-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Please refill Ben’s glass while I carry the plates.",
+      "promptZh": "我拿碟子時，請替賓的杯再添飲品。",
+      "starter": "Please",
+      "answer": "Please top Ben up while I carry the plates.",
+      "answerZh": "我拿碟子時，請替賓再添飲品。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "top Ben up"
+    },
+    {
+      "id": "phrasal-verb-11-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Will the price stop rising when it reaches NT$500?",
+      "promptZh": "價格會否升至新台幣500元後便停止上升？",
+      "starter": "Will",
+      "answer": "Will the price top out at NT$500?",
+      "answerZh": "價格最高會達新台幣500元嗎？",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "top out at"
+    },
+    {
+      "id": "phrasal-verb-11-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Her cup is nearly empty, so please refill it for her.",
+      "promptZh": "她的杯快空了，請替她再添飲品。",
+      "starter": "Her",
+      "answer": "Her cup is nearly empty, so please top her up.",
+      "answerZh": "她的杯快空了，請替她再添飲品。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "top her up"
+    },
+    {
+      "id": "phrasal-verb-11-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Soft lights were the final touch that made the room look warm and welcoming.",
+      "promptZh": "柔和燈光是最後點綴，使房間看來溫暖舒適。",
+      "starter": "The",
+      "answer": "The room looked warm and welcoming, topped off with soft lights.",
+      "answerZh": "房間看來溫暖舒適，再配上柔和燈光作最後點綴。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped off with"
+    },
+    {
+      "id": "phrasal-verb-11-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "After rising all morning, the temperature reached a high of 31 degrees.",
+      "promptZh": "氣溫整個早上都在上升，最高達31度。",
+      "starter": "After",
+      "answer": "After rising all morning, the temperature topped out at 31 degrees.",
+      "answerZh": "氣溫整個早上都在上升，最高達31度。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "topped out at"
+    },
+    {
+      "id": "phrasal-verb-11-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "The host visited each guest at the table and refilled everyone’s glass.",
+      "promptZh": "主人走到每位賓客身旁，替每個人的杯再添飲品。",
+      "starter": "The",
+      "answer": "The host visited each guest at the table and topped everyone up.",
+      "answerZh": "主人走到每位賓客身旁，替大家再添飲品。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "topped everyone up"
+    },
+    {
+      "id": "phrasal-verb-11-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "We added one final song to give the party a strong ending.",
+      "promptZh": "我們加入最後一首歌，讓派對有一個精彩結尾。",
+      "starter": "We",
+      "answer": "We added one final song to top the party off.",
+      "answerZh": "我們加入最後一首歌，為派對精彩作結。",
+      "targetForm": "top something off",
+      "targetMeaningZh": "為某事物作最後點綴或收尾",
+      "highlight": "top the party off"
+    },
+    {
+      "id": "phrasal-verb-11-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Even with extra training, his highest speed was 28 kilometres per hour.",
+      "promptZh": "即使接受更多訓練，他的最高速度仍是每小時28公里。",
+      "starter": "Even",
+      "answer": "Even with extra training, his speed topped out at 28 kilometres per hour.",
+      "answerZh": "即使接受更多訓練，他的速度最高仍只有每小時28公里。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "topped out at"
+    },
+    {
+      "id": "phrasal-verb-11-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Would you mind refilling their glasses before the meeting begins?",
+      "promptZh": "你介意在會議開始前替他們的杯再添飲品嗎？",
+      "starter": "Would",
+      "answer": "Would you mind topping them up before the meeting begins?",
+      "answerZh": "你介意在會議開始前替他們再添飲品嗎？",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "topping them up"
+    },
+    {
+      "id": "phrasal-verb-11-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "A friendly football match provided the final activity of the school day.",
+      "promptZh": "一場友誼足球賽成為學校活動日的最後活動。",
+      "starter": "The",
+      "answer": "The school day was topped off with a friendly football match.",
+      "answerZh": "學校活動日最後以一場友誼足球賽作結。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped off with"
+    },
+    {
+      "id": "phrasal-verb-11-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The largest storage option for the new phone is 512 gigabytes.",
+      "promptZh": "這款新手機最大的儲存容量選項是512GB。",
+      "starter": "The",
+      "answer": "The new phone’s storage tops out at 512 gigabytes.",
+      "answerZh": "這款新手機的儲存容量最高為512GB。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "tops out at"
+    },
+    {
+      "id": "phrasal-verb-11-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Mum added some more orange juice to my glass.",
+      "promptZh": "媽媽替我的杯再添了一些橙汁。",
+      "starter": "Mum",
+      "answer": "Mum topped me up with some more orange juice.",
+      "answerZh": "媽媽替我再添了一些橙汁。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "topped me up"
+    },
+    {
+      "id": "phrasal-verb-11-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "A handwritten note was the perfect final touch to the birthday present.",
+      "promptZh": "一張手寫字條是生日禮物最完美的最後點綴。",
+      "starter": "A",
+      "answer": "A handwritten note topped the birthday present off perfectly.",
+      "answerZh": "一張手寫字條完美地為生日禮物作最後點綴。",
+      "targetForm": "top something off",
+      "targetMeaningZh": "為某事物作最後點綴或收尾",
+      "highlight": "topped the birthday present off"
+    },
+    {
+      "id": "phrasal-verb-11-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "I had only taken one sip when he refilled my glass.",
+      "promptZh": "我只喝了一口，他便替我的杯再添飲品。",
+      "starter": "I",
+      "answer": "I had only taken one sip when he topped me up.",
+      "answerZh": "我只喝了一口，他便替我再添飲品。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "topped me up"
+    },
+    {
+      "id": "phrasal-verb-11-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Online orders reached their highest number, 600, on the busiest day.",
+      "promptZh": "最繁忙的一天，網上訂單數量最高達600宗。",
+      "starter": "Online",
+      "answer": "Online orders topped out at 600 on the busiest day.",
+      "answerZh": "最繁忙的一天，網上訂單數量最高達600宗。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "topped out at"
+    },
+    {
+      "id": "phrasal-verb-11-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The team ended a strong season by winning the cup.",
+      "promptZh": "球隊以贏得盃賽冠軍為強勁的一季作結。",
+      "starter": "The",
+      "answer": "The team topped a strong season off with a cup win.",
+      "answerZh": "球隊以盃賽冠軍為強勁的一季作結。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped a strong season off with"
+    },
+    {
+      "id": "phrasal-verb-11-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Please do not refill my glass; I have had enough.",
+      "promptZh": "請不要再替我添飲品；我已經喝夠了。",
+      "starter": "Please",
+      "answer": "Please do not top me up; I have had enough.",
+      "answerZh": "請不要再替我添飲品；我已經喝夠了。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "top me up"
+    },
+    {
+      "id": "phrasal-verb-11-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The hall can hold no more than 450 people.",
+      "promptZh": "這個會堂最多可容納450人。",
+      "starter": "The",
+      "answer": "The hall’s seating capacity tops out at 450 people.",
+      "answerZh": "這個會堂最多可容納450人。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "tops out at"
+    },
+    {
+      "id": "phrasal-verb-11-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Bright green shoes added the final touch to her simple black dress.",
+      "promptZh": "鮮綠色鞋子為她簡單的黑色連身裙作最後點綴。",
+      "starter": "Her",
+      "answer": "Her simple black dress was topped off with bright green shoes.",
+      "answerZh": "她簡單的黑色連身裙最後配上鮮綠色鞋子作點綴。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped off with"
+    },
+    {
+      "id": "phrasal-verb-11-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "As the guests talked, Mia quietly refilled their glasses.",
+      "promptZh": "賓客交談時，米婭悄悄替他們的杯再添飲品。",
+      "starter": "As",
+      "answer": "As the guests talked, Mia quietly topped them up.",
+      "answerZh": "賓客交談時，米婭悄悄替他們再添飲品。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "topped them up"
+    },
+    {
+      "id": "phrasal-verb-11-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The tower reaches a maximum height of eighty metres.",
+      "promptZh": "這座塔的最高高度是離地80米。",
+      "starter": "The",
+      "answer": "The tower tops out at eighty metres above the ground.",
+      "answerZh": "這座塔的最高高度是離地80米。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "tops out at"
+    },
+    {
+      "id": "phrasal-verb-11-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "They finished the picnic with ice cream by the lake.",
+      "promptZh": "他們在湖邊吃雪糕，為野餐作結。",
+      "starter": "They",
+      "answer": "They topped the picnic off with ice cream by the lake.",
+      "answerZh": "他們在湖邊吃雪糕，為野餐作結。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped the picnic off with"
+    },
+    {
+      "id": "phrasal-verb-11-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The phone plan starts at NT$300, and its highest price is NT$900.",
+      "promptZh": "這個電話計劃由新台幣300元起，最高價是新台幣900元。",
+      "starter": "The",
+      "answer": "The phone plan starts at NT$300 and tops out at NT$900.",
+      "answerZh": "這個電話計劃由新台幣300元起，最高為新台幣900元。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "tops out at"
+    },
+    {
+      "id": "phrasal-verb-11-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "After dinner, Grandpa ended the family evening with a funny story.",
+      "promptZh": "晚餐後，爺爺以一個有趣故事為一家人的晚上作結。",
+      "starter": "After",
+      "answer": "After dinner, Grandpa topped the family evening off with a funny story.",
+      "answerZh": "晚餐後，爺爺以一個有趣故事為一家人的晚上作結。",
+      "targetForm": "top something off with something",
+      "targetMeaningZh": "以某事物作最後點綴或收尾",
+      "highlight": "topped the family evening off with"
+    },
+    {
+      "id": "phrasal-verb-11-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Before the toast, the host checked every glass and refilled ours.",
+      "promptZh": "祝酒前，主人查看每個杯子，並替我們的杯再添飲品。",
+      "starter": "Before",
+      "answer": "Before the toast, the host checked every glass and topped us up.",
+      "answerZh": "祝酒前，主人查看每個杯子，並替我們再添飲品。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "topped us up"
+    },
+    {
+      "id": "phrasal-verb-11-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Although the road continued downhill, the bike could go no faster than 45 kilometres per hour.",
+      "promptZh": "雖然道路繼續向下斜，單車最快也只能達到每小時45公里。",
+      "starter": "Although",
+      "answer": "Although the road continued downhill, the bike’s speed topped out at 45 kilometres per hour.",
+      "answerZh": "雖然道路繼續向下斜，單車速度最高仍只有每小時45公里。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "topped out at"
+    },
+    {
+      "id": "phrasal-verb-11-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "A quiet song completed the final scene and matched the mood.",
+      "promptZh": "一首安靜的歌曲完成了最後一幕，也配合當時的氣氛。",
+      "starter": "A",
+      "answer": "A quiet song topped the final scene off and matched the mood.",
+      "answerZh": "一首安靜的歌曲為最後一幕作結，並配合當時的氣氛。",
+      "targetForm": "top something off",
+      "targetMeaningZh": "為某事物作最後點綴或收尾",
+      "highlight": "topped the final scene off"
+    },
+    {
+      "id": "phrasal-verb-11-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Nora saw that our cups were half empty and refilled them for us.",
+      "promptZh": "諾拉看見我們的杯只剩一半，便替我們再添飲品。",
+      "starter": "Nora",
+      "answer": "Nora saw that our cups were half empty and topped us up.",
+      "answerZh": "諾拉看見我們的杯只剩一半，便替我們再添飲品。",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "topped us up"
+    },
+    {
+      "id": "phrasal-verb-11-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The crowd grew throughout the day and reached its largest size at nearly five thousand.",
+      "promptZh": "人群整天持續增加，最高接近五千人。",
+      "starter": "The",
+      "answer": "The crowd grew throughout the day and topped out at nearly five thousand.",
+      "answerZh": "人群整天持續增加，最高接近五千人。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "topped out at"
+    },
+    {
+      "id": "phrasal-verb-11-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "To end the trip in a special way, we watched the sunset from the beach.",
+      "promptZh": "為了以特別方式結束旅程，我們在海灘觀看日落。",
+      "starter": "To",
+      "answer": "To top the trip off, we watched the sunset from the beach.",
+      "answerZh": "為旅程作一個特別的結尾，我們在海灘觀看日落。",
+      "targetForm": "top something off",
+      "targetMeaningZh": "為某事物作最後點綴或收尾",
+      "highlight": "top the trip off"
+    },
+    {
+      "id": "phrasal-verb-11-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Could you refill Dad’s glass before you put the bottle away?",
+      "promptZh": "你把瓶子收起來前，可以替爸爸的杯再添飲品嗎？",
+      "starter": "Could",
+      "answer": "Could you top Dad up before you put the bottle away?",
+      "answerZh": "你把瓶子收起來前，可以替爸爸再添飲品嗎？",
+      "targetForm": "top somebody up",
+      "targetMeaningZh": "替某人再添飲品",
+      "highlight": "top Dad up"
+    },
+    {
+      "id": "phrasal-verb-11-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 12,
+      "prompt": "By the final week, daily sales had reached their highest level at 1,200 items.",
+      "promptZh": "到了最後一星期，每日銷量最高已達1,200件。",
+      "starter": "By",
+      "answer": "By the final week, daily sales had topped out at 1,200 items.",
+      "answerZh": "到了最後一星期，每日銷量最高已達1,200件。",
+      "targetForm": "top out at something",
+      "targetMeaningZh": "達到最高點或上限",
+      "highlight": "topped out at"
+    }
+  ]
+}

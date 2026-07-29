@@ -1,0 +1,1794 @@
+{
+  "id": "phrasal-verb-35",
+  "order": 35,
+  "slug": "close",
+  "version": "1",
+  "title": "CLOSE 動詞片語",
+  "titleEn": "Close",
+  "titleZh": "CLOSE 動詞片語",
+  "level": "B1",
+  "groupCount": 9,
+  "source": {
+    "file": "Phrasal Verbs 34 - Close.pdf",
+    "pageCount": 30,
+    "teachingPdfPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CLOSE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CLOSE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CLOSE",
+      "highlight": "CLOSE"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "His hand closed around the rail.",
+      "zh": "他的手合攏並抓住扶手。",
+      "highlight": "closed around the rail"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The old cinema closed down last year.",
+      "zh": "那間舊戲院去年永久停業。",
+      "highlight": "closed down last year"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The search teams were closing in.",
+      "zh": "搜索隊正從不同方向逐漸接近。",
+      "highlight": "closing in"
+    }
+  ],
+  "meaning": {
+    "zh": "手指、手掌或手臂合攏，抓住或包住某人或某物；企業、機構或服務永久停止營運；使其永久停止營運；從不同方向逐漸靠近，使距離愈來愈短；逐漸追近前方的人或物；店舖結束營業，通常在停業前減價清貨；封閉某個地方，禁止某些人或車輛進入；阻擋光線進入；眼睛等因腫脹而完全合上，無法張開；在營業時間結束後關閉並鎖好店舖、辦公室或其他地方",
+    "en": "close around/round somebody/something; close on/over something / close down; close something down / close in / close on somebody/something / close out / close something off to somebody/something / close something out / close up / close up; close something up",
+    "naturalZh": [
+      "手指、手掌或手臂合攏，抓住或包住某人或某物",
+      "企業、機構或服務永久停止營運；使其永久停止營運",
+      "從不同方向逐漸靠近，使距離愈來愈短",
+      "逐漸追近前方的人或物",
+      "店舖結束營業，通常在停業前減價清貨",
+      "封閉某個地方，禁止某些人或車輛進入",
+      "阻擋光線進入",
+      "眼睛等因腫脹而完全合上，無法張開",
+      "在營業時間結束後關閉並鎖好店舖、辦公室或其他地方"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "close around/round somebody/something; close on/over something",
+      "titleZh": "手指、手掌或手臂合攏，抓住或包住某人或某物",
+      "titleEn": "close around/round somebody/something; close on/over something",
+      "descriptionZh": "手指、手掌或手臂合攏，抓住或包住某人或某物",
+      "descriptionEn": "His hand closed around the rail.",
+      "examples": [
+        {
+          "en": "His hand closed around the rail.",
+          "zh": "他的手合攏並抓住扶手。",
+          "highlight": "closed around the rail"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "close down; close something down",
+      "titleZh": "企業、機構或服務永久停止營運；使其永久停止營運",
+      "titleEn": "close down; close something down",
+      "descriptionZh": "企業、機構或服務永久停止營運；使其永久停止營運",
+      "descriptionEn": "The old cinema closed down last year.",
+      "examples": [
+        {
+          "en": "The old cinema closed down last year.",
+          "zh": "那間舊戲院去年永久停業。",
+          "highlight": "closed down last year"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "close in",
+      "titleZh": "從不同方向逐漸靠近，使距離愈來愈短",
+      "titleEn": "close in",
+      "descriptionZh": "從不同方向逐漸靠近，使距離愈來愈短",
+      "descriptionEn": "The search teams were closing in.",
+      "examples": [
+        {
+          "en": "The search teams were closing in.",
+          "zh": "搜索隊正從不同方向逐漸接近。",
+          "highlight": "closing in"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "close on somebody/something",
+      "titleZh": "逐漸追近前方的人或物",
+      "titleEn": "close on somebody/something",
+      "descriptionZh": "逐漸追近前方的人或物",
+      "descriptionEn": "The second runner was closing on the leader.",
+      "examples": [
+        {
+          "en": "The second runner was closing on the leader.",
+          "zh": "第二名跑手正逐漸追近領先者。",
+          "highlight": "closing on the leader"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "pageGroup": 1,
+      "formula": "close out",
+      "titleZh": "店舖結束營業，通常在停業前減價清貨",
+      "titleEn": "close out",
+      "descriptionZh": "店舖結束營業，通常在停業前減價清貨",
+      "descriptionEn": "The shop is closing out with a final sale.",
+      "examples": [
+        {
+          "en": "The shop is closing out with a final sale.",
+          "zh": "那間店舖正在結束營業，並舉行最後清貨減價。",
+          "highlight": "closing out"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "close something off to somebody/something",
+      "titleZh": "封閉某個地方，禁止某些人或車輛進入",
+      "titleEn": "close something off to somebody/something",
+      "descriptionZh": "封閉某個地方，禁止某些人或車輛進入",
+      "descriptionEn": "Police closed the road off to traffic.",
+      "examples": [
+        {
+          "en": "Police closed the road off to traffic.",
+          "zh": "警方封閉道路，禁止車輛駛入。",
+          "highlight": "closed the road off to traffic"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "pageGroup": 2,
+      "formula": "close something out",
+      "titleZh": "阻擋光線進入",
+      "titleEn": "close something out",
+      "descriptionZh": "阻擋光線進入",
+      "descriptionEn": "These curtains close out the morning light.",
+      "examples": [
+        {
+          "en": "These curtains close out the morning light.",
+          "zh": "這些窗簾能阻擋早上的光線。",
+          "highlight": "close out the morning light"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "pageGroup": 2,
+      "formula": "close up",
+      "titleZh": "眼睛等因腫脹而完全合上，無法張開",
+      "titleEn": "close up",
+      "descriptionZh": "眼睛等因腫脹而完全合上，無法張開",
+      "descriptionEn": "His left eye swelled and closed up.",
+      "examples": [
+        {
+          "en": "His left eye swelled and closed up.",
+          "zh": "他的左眼腫起來，完全無法張開。",
+          "highlight": "closed up"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "pageGroup": 2,
+      "formula": "close up; close something up",
+      "titleZh": "在營業時間結束後關閉並鎖好店舖、辦公室或其他地方",
+      "titleEn": "close up; close something up",
+      "descriptionZh": "在營業時間結束後關閉並鎖好店舖、辦公室或其他地方",
+      "descriptionEn": "I will close up the café tonight.",
+      "examples": [
+        {
+          "en": "I will close up the café tonight.",
+          "zh": "我今晚會負責關閉並鎖好咖啡店。",
+          "highlight": "close up the café tonight"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "CLOSE 片語動詞的實際用途",
+    "labelEn": "CLOSE Phrasal Verbs in Use",
+    "summaryZh": "close down 可以表示企業或服務永久停止營運；close out 則特別適合描述店舖在結業前減價售出餘下貨品。；close in 可以表示人們從不同方向逐漸靠近；close on 則可以表示跑手、車輛或船隻逐漸追近前方的人或物。；close something off 可以表示禁止人物或車輛進入某個地方；close something out 則可以表示窗簾或百葉簾阻擋光線。；CLOSE 片語動詞可以描述手指抓住物件、眼睛因腫脹而合上，以及職員在一天結束時關閉並鎖好店舖。",
+    "summaryEn": "Close down can describe a business or service that permanently stops operating. Close out is especially useful when a shop ends business by selling its remaining goods at reduced prices. Close in can show people approaching from different directions. Close on can describe a runner, vehicle or boat getting nearer to something ahead. Close something off can describe stopping people or vehicles from entering an area. Close something out can describe curtains or blinds blocking light. The CLOSE family can describe fingers gripping an object, swollen eyes becoming shut, and workers securing a shop at the end of the day.",
+    "contextsZh": [
+      "清楚談論企業結束營運",
+      "描述人物或物件逐漸接近",
+      "談論封閉地方和阻擋光線",
+      "描述手、眼睛和建築物合上或關閉"
+    ],
+    "contextsEn": [
+      "Talk clearly about businesses ending",
+      "Describe people or objects moving nearer",
+      "Talk about blocking access and light",
+      "Describe hands, eyes and buildings closing"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 CLOSE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CLOSE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "close around/round somebody/something; close on/over something",
+    "fixedHighlight": "close around/round somebody/something; close on/over something",
+    "fixedZh": "閱讀整句，選出意思相同的 CLOSE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CLOSE expression that gives the same meaning.",
+    "correct": "closed around the rail",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；close on 可以表達兩種不同意思。人物或車輛可以逐漸追近前方的人或物；手指或手掌也可以合攏並抓住某物。；使用 it 或 them 時，請按照以上例子把它放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Close on can express two different ideas. A person or vehicle can close on someone ahead by moving nearer. Fingers or a hand can close on something by gripping it. When using it or them in these expressions, place the word as shown:",
+    "variableItemsZh": [
+      "close around/round somebody/something; close on/over something",
+      "close down; close something down",
+      "close in",
+      "close on somebody/something",
+      "close out",
+      "close something off to somebody/something",
+      "close something out",
+      "close up",
+      "close up; close something up"
+    ],
+    "variableItemsEn": [
+      "close around/round somebody/something; close on/over something",
+      "close down; close something down",
+      "close in",
+      "close on somebody/something",
+      "close out",
+      "close something off to somebody/something",
+      "close something out",
+      "close up",
+      "close up; close something up"
+    ],
+    "forms": [
+      {
+        "formZh": "手指、手掌或手臂合攏，抓住或包住某人或某物",
+        "formEn": "close around/round somebody/something; close on/over something",
+        "exampleZh": "他的手合攏並抓住扶手。",
+        "exampleEn": "His hand closed around the rail.",
+        "highlight": "closed around the rail"
+      },
+      {
+        "formZh": "企業、機構或服務永久停止營運；使其永久停止營運",
+        "formEn": "close down; close something down",
+        "exampleZh": "那間舊戲院去年永久停業。",
+        "exampleEn": "The old cinema closed down last year.",
+        "highlight": "closed down last year"
+      },
+      {
+        "formZh": "從不同方向逐漸靠近，使距離愈來愈短",
+        "formEn": "close in",
+        "exampleZh": "搜索隊正從不同方向逐漸接近。",
+        "exampleEn": "The search teams were closing in.",
+        "highlight": "closing in"
+      },
+      {
+        "formZh": "逐漸追近前方的人或物",
+        "formEn": "close on somebody/something",
+        "exampleZh": "第二名跑手正逐漸追近領先者。",
+        "exampleEn": "The second runner was closing on the leader.",
+        "highlight": "closing on the leader"
+      },
+      {
+        "formZh": "店舖結束營業，通常在停業前減價清貨",
+        "formEn": "close out",
+        "exampleZh": "那間店舖正在結束營業，並舉行最後清貨減價。",
+        "exampleEn": "The shop is closing out with a final sale.",
+        "highlight": "closing out"
+      },
+      {
+        "formZh": "封閉某個地方，禁止某些人或車輛進入",
+        "formEn": "close something off to somebody/something",
+        "exampleZh": "警方封閉道路，禁止車輛駛入。",
+        "exampleEn": "Police closed the road off to traffic.",
+        "highlight": "closed the road off to traffic"
+      },
+      {
+        "formZh": "阻擋光線進入",
+        "formEn": "close something out",
+        "exampleZh": "這些窗簾能阻擋早上的光線。",
+        "exampleEn": "These curtains close out the morning light.",
+        "highlight": "close out the morning light"
+      },
+      {
+        "formZh": "眼睛等因腫脹而完全合上，無法張開",
+        "formEn": "close up",
+        "exampleZh": "他的左眼腫起來，完全無法張開。",
+        "exampleEn": "His left eye swelled and closed up.",
+        "highlight": "closed up"
+      },
+      {
+        "formZh": "在營業時間結束後關閉並鎖好店舖、辦公室或其他地方",
+        "formEn": "close up; close something up",
+        "exampleZh": "我今晚會負責關閉並鎖好咖啡店。",
+        "exampleEn": "I will close up the café tonight.",
+        "highlight": "close up the café tonight"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "手指、手掌或手臂合攏，抓住或包住某人或某物",
+      "titleEn": "close around/round somebody/something; close on/over something",
+      "formula": "close around/round somebody/something; close on/over something",
+      "highlight": "close around/round somebody/something; close on/over something",
+      "descriptionZh": "手指、手掌或手臂合攏，抓住或包住某人或某物",
+      "descriptionEn": "His hand closed around the rail.",
+      "examples": [
+        {
+          "en": "His hand closed around the rail.",
+          "zh": "他的手合攏並抓住扶手。",
+          "highlight": "closed around the rail"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "企業、機構或服務永久停止營運；使其永久停止營運",
+      "titleEn": "close down; close something down",
+      "formula": "close down; close something down",
+      "highlight": "close down; close something down",
+      "descriptionZh": "企業、機構或服務永久停止營運；使其永久停止營運",
+      "descriptionEn": "The old cinema closed down last year.",
+      "examples": [
+        {
+          "en": "The old cinema closed down last year.",
+          "zh": "那間舊戲院去年永久停業。",
+          "highlight": "closed down last year"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "從不同方向逐漸靠近，使距離愈來愈短",
+      "titleEn": "close in",
+      "formula": "close in",
+      "highlight": "close in",
+      "descriptionZh": "從不同方向逐漸靠近，使距離愈來愈短",
+      "descriptionEn": "The search teams were closing in.",
+      "examples": [
+        {
+          "en": "The search teams were closing in.",
+          "zh": "搜索隊正從不同方向逐漸接近。",
+          "highlight": "closing in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "逐漸追近前方的人或物",
+      "titleEn": "close on somebody/something",
+      "formula": "close on somebody/something",
+      "highlight": "close on somebody/something",
+      "descriptionZh": "逐漸追近前方的人或物",
+      "descriptionEn": "The second runner was closing on the leader.",
+      "examples": [
+        {
+          "en": "The second runner was closing on the leader.",
+          "zh": "第二名跑手正逐漸追近領先者。",
+          "highlight": "closing on the leader"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "店舖結束營業，通常在停業前減價清貨",
+      "titleEn": "close out",
+      "formula": "close out",
+      "highlight": "close out",
+      "descriptionZh": "店舖結束營業，通常在停業前減價清貨",
+      "descriptionEn": "The shop is closing out with a final sale.",
+      "examples": [
+        {
+          "en": "The shop is closing out with a final sale.",
+          "zh": "那間店舖正在結束營業，並舉行最後清貨減價。",
+          "highlight": "closing out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "封閉某個地方，禁止某些人或車輛進入",
+      "titleEn": "close something off to somebody/something",
+      "formula": "close something off to somebody/something",
+      "highlight": "close something off to somebody/something",
+      "descriptionZh": "封閉某個地方，禁止某些人或車輛進入",
+      "descriptionEn": "Police closed the road off to traffic.",
+      "examples": [
+        {
+          "en": "Police closed the road off to traffic.",
+          "zh": "警方封閉道路，禁止車輛駛入。",
+          "highlight": "closed the road off to traffic"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "阻擋光線進入",
+      "titleEn": "close something out",
+      "formula": "close something out",
+      "highlight": "close something out",
+      "descriptionZh": "阻擋光線進入",
+      "descriptionEn": "These curtains close out the morning light.",
+      "examples": [
+        {
+          "en": "These curtains close out the morning light.",
+          "zh": "這些窗簾能阻擋早上的光線。",
+          "highlight": "close out the morning light"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "眼睛等因腫脹而完全合上，無法張開",
+      "titleEn": "close up",
+      "formula": "close up",
+      "highlight": "close up",
+      "descriptionZh": "眼睛等因腫脹而完全合上，無法張開",
+      "descriptionEn": "His left eye swelled and closed up.",
+      "examples": [
+        {
+          "en": "His left eye swelled and closed up.",
+          "zh": "他的左眼腫起來，完全無法張開。",
+          "highlight": "closed up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "在營業時間結束後關閉並鎖好店舖、辦公室或其他地方",
+      "titleEn": "close up; close something up",
+      "formula": "close up; close something up",
+      "highlight": "close up; close something up",
+      "descriptionZh": "在營業時間結束後關閉並鎖好店舖、辦公室或其他地方",
+      "descriptionEn": "I will close up the café tonight.",
+      "examples": [
+        {
+          "en": "I will close up the café tonight.",
+          "zh": "我今晚會負責關閉並鎖好咖啡店。",
+          "highlight": "close up the café tonight"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論企業結束營運",
+      "titleEn": "Talk clearly about businesses ending",
+      "zh": "close down 可以表示企業或服務永久停止營運；close out 則特別適合描述店舖在結業前減價售出餘下貨品。",
+      "en": "Close down can describe a business or service that permanently stops operating. Close out is especially useful when a shop ends business by selling its remaining goods at reduced prices."
+    },
+    {
+      "titleZh": "描述人物或物件逐漸接近",
+      "titleEn": "Describe people or objects moving nearer",
+      "zh": "close in 可以表示人們從不同方向逐漸靠近；close on 則可以表示跑手、車輛或船隻逐漸追近前方的人或物。",
+      "en": "Close in can show people approaching from different directions. Close on can describe a runner, vehicle or boat getting nearer to something ahead."
+    },
+    {
+      "titleZh": "談論封閉地方和阻擋光線",
+      "titleEn": "Talk about blocking access and light",
+      "zh": "close something off 可以表示禁止人物或車輛進入某個地方；close something out 則可以表示窗簾或百葉簾阻擋光線。",
+      "en": "Close something off can describe stopping people or vehicles from entering an area. Close something out can describe curtains or blinds blocking light."
+    },
+    {
+      "titleZh": "描述手、眼睛和建築物合上或關閉",
+      "titleEn": "Describe hands, eyes and buildings closing",
+      "zh": "CLOSE 片語動詞可以描述手指抓住物件、眼睛因腫脹而合上，以及職員在一天結束時關閉並鎖好店舖。",
+      "en": "The CLOSE family can describe fingers gripping an object, swollen eyes becoming shut, and workers securing a shop at the end of the day."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論企業結束營運",
+      "描述人物或物件逐漸接近",
+      "談論封閉地方和阻擋光線",
+      "描述手、眼睛和建築物合上或關閉"
+    ],
+    "contextsEn": [
+      "Talk clearly about businesses ending",
+      "Describe people or objects moving nearer",
+      "Talk about blocking access and light",
+      "Describe hands, eyes and buildings closing"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論企業結束營運",
+        "titleEn": "Talk clearly about businesses ending",
+        "zh": "close down 可以表示企業或服務永久停止營運；close out 則特別適合描述店舖在結業前減價售出餘下貨品。",
+        "en": "Close down can describe a business or service that permanently stops operating. Close out is especially useful when a shop ends business by selling its remaining goods at reduced prices.",
+        "examples": [
+          {
+            "en": "His hand closed around the rail.",
+            "zh": "他的手合攏並抓住扶手。",
+            "highlight": "closed around the rail"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述人物或物件逐漸接近",
+        "titleEn": "Describe people or objects moving nearer",
+        "zh": "close in 可以表示人們從不同方向逐漸靠近；close on 則可以表示跑手、車輛或船隻逐漸追近前方的人或物。",
+        "en": "Close in can show people approaching from different directions. Close on can describe a runner, vehicle or boat getting nearer to something ahead.",
+        "examples": [
+          {
+            "en": "The old cinema closed down last year.",
+            "zh": "那間舊戲院去年永久停業。",
+            "highlight": "closed down last year"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論封閉地方和阻擋光線",
+        "titleEn": "Talk about blocking access and light",
+        "zh": "close something off 可以表示禁止人物或車輛進入某個地方；close something out 則可以表示窗簾或百葉簾阻擋光線。",
+        "en": "Close something off can describe stopping people or vehicles from entering an area. Close something out can describe curtains or blinds blocking light.",
+        "examples": [
+          {
+            "en": "The search teams were closing in.",
+            "zh": "搜索隊正從不同方向逐漸接近。",
+            "highlight": "closing in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述手、眼睛和建築物合上或關閉",
+        "titleEn": "Describe hands, eyes and buildings closing",
+        "zh": "CLOSE 片語動詞可以描述手指抓住物件、眼睛因腫脹而合上，以及職員在一天結束時關閉並鎖好店舖。",
+        "en": "The CLOSE family can describe fingers gripping an object, swollen eyes becoming shut, and workers securing a shop at the end of the day.",
+        "examples": [
+          {
+            "en": "The second runner was closing on the leader.",
+            "zh": "第二名跑手正逐漸追近領先者。",
+            "highlight": "closing on the leader"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 CLOSE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CLOSE expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 CLOSE 片語動詞。",
+      "en": "Read the whole sentence and choose the CLOSE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "close on 可以表達兩種不同意思。人物或車輛可以逐漸追近前方的人或物；手指或手掌也可以合攏並抓住某物。",
+      "titleEn": "Close on can express two different ideas.",
+      "zh": "close on 可以表達兩種不同意思。人物或車輛可以逐漸追近前方的人或物；手指或手掌也可以合攏並抓住某物。",
+      "en": "Close on can express two different ideas. A person or vehicle can close on someone ahead by moving nearer. Fingers or a hand can close on something by gripping it."
+    },
+    {
+      "titleZh": "使用 it 或 them 時，請按照以上例子把它放在正確位置。",
+      "titleEn": "When using it or them in these expressions, place the word as shown:",
+      "zh": "使用 it 或 them 時，請按照以上例子把它放在正確位置。",
+      "en": "When using it or them in these expressions, place the word as shown:",
+      "examples": [
+        {
+          "en": "close it down",
+          "zh": "",
+          "highlight": "close it down"
+        },
+        {
+          "en": "close it off",
+          "zh": "",
+          "highlight": "close it off"
+        },
+        {
+          "en": "close it out",
+          "zh": "",
+          "highlight": "close it out"
+        },
+        {
+          "en": "close it up",
+          "zh": "",
+          "highlight": "close it up"
+        }
+      ]
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CLOSE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CLOSE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CLOSE 動詞片語句子改寫練習",
+    "titleEn": "CLOSE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CLOSE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CLOSE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-35-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "The old cinema stopped operating permanently last month.",
+      "promptZh": "那間舊戲院上個月永久停止營業。",
+      "starter": "The",
+      "answer": "The old cinema closed down last month.",
+      "answerZh": "那間舊戲院上個月永久停業。",
+      "highlight": "closed down",
+      "targetForm": "close down",
+      "targetMeaningZh": "永久停止營運"
+    },
+    {
+      "id": "phrasal-verb-35-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Her fingers tightened around the cup handle.",
+      "promptZh": "她的手指合攏並抓緊杯柄。",
+      "starter": "Her",
+      "answer": "Her fingers closed around the cup handle.",
+      "answerZh": "她的手指合攏並抓緊杯柄。",
+      "highlight": "closed around the cup handle",
+      "targetForm": "close around something",
+      "targetMeaningZh": "合攏並抓住或包住某物"
+    },
+    {
+      "id": "phrasal-verb-35-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Police blocked the road so that cars could not enter.",
+      "promptZh": "警方封閉道路，禁止車輛駛入。",
+      "starter": "Police",
+      "answer": "Police closed the road off to traffic.",
+      "answerZh": "警方封閉道路，禁止車輛駛入。",
+      "highlight": "closed the road off to traffic",
+      "targetForm": "close something off to something",
+      "targetMeaningZh": "封閉某處，禁止車輛進入"
+    },
+    {
+      "id": "phrasal-verb-35-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "I was slowly getting nearer to the cyclist ahead.",
+      "promptZh": "我正慢慢追近前方的單車手。",
+      "starter": "I",
+      "answer": "I was slowly closing on the cyclist ahead.",
+      "answerZh": "我正慢慢追近前方的單車手。",
+      "highlight": "closing on the cyclist ahead",
+      "targetForm": "close on somebody",
+      "targetMeaningZh": "逐漸追近前方的人"
+    },
+    {
+      "id": "phrasal-verb-35-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The shoe shop will end business on Saturday and sell everything at reduced prices.",
+      "promptZh": "那間鞋店會在星期六結束營業，並以減價售出所有貨品。",
+      "starter": "The",
+      "answer": "The shoe shop will close out on Saturday with reduced prices on everything.",
+      "answerZh": "那間鞋店會在星期六結束營業，所有貨品均會減價出售。",
+      "highlight": "close out",
+      "targetForm": "close out",
+      "targetMeaningZh": "結束營業並減價清貨"
+    },
+    {
+      "id": "phrasal-verb-35-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Mina locked the café and finished work at nine.",
+      "promptZh": "米娜在九時關閉並鎖好咖啡店，然後下班。",
+      "starter": "Mina",
+      "answer": "Mina closed up the café at nine.",
+      "answerZh": "米娜在九時關閉並鎖好咖啡店。",
+      "highlight": "closed up the café",
+      "targetForm": "close something up",
+      "targetMeaningZh": "關閉並鎖好店舖或地方"
+    },
+    {
+      "id": "phrasal-verb-35-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The police were moving nearer from every side.",
+      "promptZh": "警方正從四方八面逐漸靠近。",
+      "starter": "The",
+      "answer": "The police were closing in.",
+      "answerZh": "警方正從四方八面逐漸靠近。",
+      "highlight": "closing in",
+      "targetForm": "close in",
+      "targetMeaningZh": "從不同方向逐漸靠近"
+    },
+    {
+      "id": "phrasal-verb-35-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "We need thick curtains to block the morning light.",
+      "promptZh": "我們需要厚窗簾來阻擋早上的光線。",
+      "starter": "We",
+      "answer": "We need thick curtains to close out the morning light.",
+      "answerZh": "我們需要厚窗簾來阻擋早上的光線。",
+      "highlight": "close out the morning light",
+      "targetForm": "close something out",
+      "targetMeaningZh": "阻擋光線"
+    },
+    {
+      "id": "phrasal-verb-35-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "His left eye became swollen and would not open.",
+      "promptZh": "他的左眼腫起來，無法張開。",
+      "starter": "His",
+      "answer": "His left eye swelled and closed up.",
+      "answerZh": "他的左眼腫起來，完全無法張開。",
+      "highlight": "closed up",
+      "targetForm": "close up",
+      "targetMeaningZh": "因腫脹而完全合上"
+    },
+    {
+      "id": "phrasal-verb-35-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The company permanently stopped operating its small factory.",
+      "promptZh": "公司永久停止營運旗下的小型工廠。",
+      "starter": "The",
+      "answer": "The company closed down its small factory.",
+      "answerZh": "公司永久停止營運旗下的小型工廠。",
+      "highlight": "closed down its small factory",
+      "targetForm": "close something down",
+      "targetMeaningZh": "使企業或機構永久停止營運"
+    },
+    {
+      "id": "phrasal-verb-35-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The child’s hand tightened over the coin.",
+      "promptZh": "孩子的手合攏並握住硬幣。",
+      "starter": "The",
+      "answer": "The child’s hand closed over the coin.",
+      "answerZh": "孩子的手合攏並握住硬幣。",
+      "highlight": "closed over the coin",
+      "targetForm": "close over something",
+      "targetMeaningZh": "合攏並蓋住或握住某物"
+    },
+    {
+      "id": "phrasal-verb-35-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Our car was getting nearer to the bus ahead.",
+      "promptZh": "我們的車正逐漸追近前方的巴士。",
+      "starter": "Our",
+      "answer": "Our car was closing on the bus ahead.",
+      "answerZh": "我們的車正逐漸追近前方的巴士。",
+      "highlight": "closing on the bus ahead",
+      "targetForm": "close on something",
+      "targetMeaningZh": "逐漸追近前方的物件"
+    },
+    {
+      "id": "phrasal-verb-35-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The toy shop is ending business next week and reducing all its prices.",
+      "promptZh": "玩具店下星期會結束營業，並降低所有貨品的價格。",
+      "starter": "The",
+      "answer": "The toy shop is closing out next week with reduced prices on everything.",
+      "answerZh": "玩具店下星期會結束營業，所有貨品均會減價出售。",
+      "highlight": "closing out",
+      "targetForm": "close out",
+      "targetMeaningZh": "結束營業並減價清貨"
+    },
+    {
+      "id": "phrasal-verb-35-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Dark clouds were moving nearer from every direction.",
+      "promptZh": "烏雲正從不同方向逐漸逼近。",
+      "starter": "Dark",
+      "answer": "Dark clouds were closing in.",
+      "answerZh": "烏雲正從不同方向逐漸逼近。",
+      "highlight": "closing in",
+      "targetForm": "close in",
+      "targetMeaningZh": "從不同方向逐漸靠近"
+    },
+    {
+      "id": "phrasal-verb-35-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The council has blocked the park entrance to cars.",
+      "promptZh": "市議會已封閉公園入口，禁止車輛進入。",
+      "starter": "The",
+      "answer": "The council has closed the park entrance off to cars.",
+      "answerZh": "市議會已封閉公園入口，禁止車輛進入。",
+      "highlight": "closed the park entrance off to cars",
+      "targetForm": "close something off to something",
+      "targetMeaningZh": "封閉某處，禁止車輛進入"
+    },
+    {
+      "id": "phrasal-verb-35-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Both of his eyes have become completely shut because of the swelling.",
+      "promptZh": "他的雙眼因腫脹而完全無法張開。",
+      "starter": "Both",
+      "answer": "Both of his eyes have closed up because of the swelling.",
+      "answerZh": "他的雙眼因腫脹而完全無法張開。",
+      "highlight": "closed up",
+      "targetForm": "close up",
+      "targetMeaningZh": "因腫脹而完全合上"
+    },
+    {
+      "id": "phrasal-verb-35-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Did his fingers tighten around your arm?",
+      "promptZh": "他的手指有沒有合攏並抓住你的手臂？",
+      "starter": "Did",
+      "answer": "Did his fingers close round your arm?",
+      "answerZh": "他的手指有沒有合攏並抓住你的手臂？",
+      "highlight": "close round your arm",
+      "targetForm": "close round somebody",
+      "targetMeaningZh": "合攏並抓住或包住某人"
+    },
+    {
+      "id": "phrasal-verb-35-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "I will lock the office and finish work for the day.",
+      "promptZh": "我會關閉並鎖好辦公室，然後結束今天的工作。",
+      "starter": "I",
+      "answer": "I will close up the office for the day.",
+      "answerZh": "我會關閉並鎖好辦公室，結束今天的工作。",
+      "highlight": "close up the office",
+      "targetForm": "close something up",
+      "targetMeaningZh": "關閉並鎖好某個地方"
+    },
+    {
+      "id": "phrasal-verb-35-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The blind now blocks most of the afternoon light.",
+      "promptZh": "百葉簾現在擋住了大部分午後陽光。",
+      "starter": "The",
+      "answer": "The blind now closes out most of the afternoon light.",
+      "answerZh": "百葉簾現在擋住了大部分午後陽光。",
+      "highlight": "closes out most of the afternoon light",
+      "targetForm": "close something out",
+      "targetMeaningZh": "阻擋光線"
+    },
+    {
+      "id": "phrasal-verb-35-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The library will not stop operating during the repairs.",
+      "promptZh": "圖書館不會在維修期間停止營運。",
+      "starter": "The",
+      "answer": "The library will not close down during the repairs.",
+      "answerZh": "圖書館不會在維修期間停止營運。",
+      "highlight": "close down",
+      "targetForm": "close down",
+      "targetMeaningZh": "停止營運"
+    },
+    {
+      "id": "phrasal-verb-35-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The search teams may be moving nearer from both sides.",
+      "promptZh": "搜索隊可能正從兩邊逐漸靠近。",
+      "starter": "The",
+      "answer": "The search teams may be closing in from both sides.",
+      "answerZh": "搜索隊可能正從兩邊逐漸靠近。",
+      "highlight": "closing in",
+      "targetForm": "close in",
+      "targetMeaningZh": "從不同方向逐漸靠近"
+    },
+    {
+      "id": "phrasal-verb-35-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The side gate is unsafe, so workers have blocked it to visitors.",
+      "promptZh": "側門並不安全，所以工人已封閉該處，禁止訪客進入。",
+      "starter": "The",
+      "answer": "The side gate is unsafe, so workers have closed it off to visitors.",
+      "answerZh": "側門並不安全，所以工人已封閉該處，禁止訪客進入。",
+      "highlight": "closed it off to visitors",
+      "targetForm": "close something off to somebody",
+      "targetMeaningZh": "封閉某處，禁止某些人進入"
+    },
+    {
+      "id": "phrasal-verb-35-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "By the final lap, Ava had moved much nearer to the leader.",
+      "promptZh": "到了最後一圈，艾娃已大大追近領先者。",
+      "starter": "By",
+      "answer": "By the final lap, Ava had closed on the leader.",
+      "answerZh": "到了最後一圈，艾娃已大大追近領先者。",
+      "highlight": "closed on the leader",
+      "targetForm": "close on somebody",
+      "targetMeaningZh": "逐漸追近前方的人"
+    },
+    {
+      "id": "phrasal-verb-35-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "You can go home now. I will lock the shop.",
+      "promptZh": "你現在可以回家。我會負責關閉並鎖好店舖。",
+      "starter": "You",
+      "answer": "You can go home now. I will close up.",
+      "answerZh": "你現在可以回家。我會負責關閉並鎖好店舖。",
+      "highlight": "close up",
+      "targetForm": "close up",
+      "targetMeaningZh": "在營業結束後關閉並鎖好地方"
+    },
+    {
+      "id": "phrasal-verb-35-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The furniture store will end business on Friday with a final sale.",
+      "promptZh": "家具店會在星期五結束營業，並舉行最後清貨減價。",
+      "starter": "The",
+      "answer": "The furniture store will close out on Friday with a final sale.",
+      "answerZh": "家具店會在星期五結束營業，並舉行最後清貨減價。",
+      "highlight": "close out",
+      "targetForm": "close out",
+      "targetMeaningZh": "結束營業並減價清貨"
+    },
+    {
+      "id": "phrasal-verb-35-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The sunlight is too strong, so pull the curtain across to block it.",
+      "promptZh": "陽光太強，所以請拉上窗簾把它擋住。",
+      "starter": "The",
+      "answer": "The sunlight is too strong, so pull the curtain across to close it out.",
+      "answerZh": "陽光太強，所以請拉上窗簾把它擋住。",
+      "highlight": "close it out",
+      "targetForm": "close something out",
+      "targetMeaningZh": "阻擋光線"
+    },
+    {
+      "id": "phrasal-verb-35-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Her right eye is becoming fully shut because of the swelling.",
+      "promptZh": "她的右眼因腫脹而正在完全合上。",
+      "starter": "Her",
+      "answer": "Her right eye is closing up because of the swelling.",
+      "answerZh": "她的右眼因腫脹而正在完全合上。",
+      "highlight": "closing up",
+      "targetForm": "close up",
+      "targetMeaningZh": "因腫脹而完全合上"
+    },
+    {
+      "id": "phrasal-verb-35-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "When I pass him the key, his hand will tighten around it.",
+      "promptZh": "當我把鎖匙交給他時，他的手會合攏並握住它。",
+      "starter": "When",
+      "answer": "When I pass him the key, his hand will close on it.",
+      "answerZh": "當我把鎖匙交給他時，他的手會合攏並握住它。",
+      "highlight": "close on it",
+      "targetForm": "close on something",
+      "targetMeaningZh": "合攏並抓住某物"
+    },
+    {
+      "id": "phrasal-verb-35-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The small office was losing money, so the company permanently stopped operating it.",
+      "promptZh": "那間小型辦公室一直虧蝕，所以公司永久停止了其營運。",
+      "starter": "The",
+      "answer": "The small office was losing money, so the company closed it down.",
+      "answerZh": "那間小型辦公室一直虧蝕，所以公司永久停止了其營運。",
+      "highlight": "closed it down",
+      "targetForm": "close something down",
+      "targetMeaningZh": "使企業或機構永久停止營運"
+    },
+    {
+      "id": "phrasal-verb-35-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The hikers heard dogs behind them. The animals were getting nearer.",
+      "promptZh": "遠足者聽到身後有狗叫。那些狗正逐漸靠近。",
+      "starter": "The",
+      "answer": "The hikers heard dogs behind them. The animals were closing in.",
+      "answerZh": "遠足者聽到身後有狗叫。那些狗正逐漸靠近。",
+      "highlight": "closing in",
+      "targetForm": "close in",
+      "targetMeaningZh": "逐漸靠近"
+    },
+    {
+      "id": "phrasal-verb-35-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The runner was still ahead, but I was slowly getting nearer to him.",
+      "promptZh": "那名跑手仍在前方，但我正逐漸追近他。",
+      "starter": "The",
+      "answer": "The runner was still ahead, but I was slowly closing on him.",
+      "answerZh": "那名跑手仍在前方，但我正逐漸追近他。",
+      "highlight": "closing on him",
+      "targetForm": "close on somebody",
+      "targetMeaningZh": "逐漸追近前方的人"
+    },
+    {
+      "id": "phrasal-verb-35-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Why is the bookshop ending business this weekend with large discounts?",
+      "promptZh": "為甚麼書店會在本週末結束營業，並提供大幅折扣？",
+      "starter": "Why",
+      "answer": "Why is the bookshop closing out this weekend with large discounts?",
+      "answerZh": "為甚麼書店會在本週末結束營業，並提供大幅折扣？",
+      "highlight": "closing out",
+      "targetForm": "close out",
+      "targetMeaningZh": "結束營業並減價清貨"
+    },
+    {
+      "id": "phrasal-verb-35-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The beach was blocked to visitors because of the high waves.",
+      "promptZh": "由於海浪很大，海灘已封閉，禁止訪客進入。",
+      "starter": "The",
+      "answer": "The beach was closed off to visitors because of the high waves.",
+      "answerZh": "由於海浪很大，海灘已封閉，禁止訪客進入。",
+      "highlight": "closed off to visitors",
+      "targetForm": "close something off to somebody",
+      "targetMeaningZh": "封閉某處，禁止某些人進入"
+    },
+    {
+      "id": "phrasal-verb-35-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The puppy’s teeth tightened gently around the toy rope.",
+      "promptZh": "小狗的牙齒輕輕合攏並咬住玩具繩。",
+      "starter": "The",
+      "answer": "The puppy’s teeth closed gently around the toy rope.",
+      "answerZh": "小狗的牙齒輕輕合攏並咬住玩具繩。",
+      "highlight": "closed gently around the toy rope",
+      "targetForm": "close around something",
+      "targetMeaningZh": "合攏並抓住或包住某物"
+    },
+    {
+      "id": "phrasal-verb-35-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "A dark curtain blocked the strong light from the street lamp.",
+      "promptZh": "一幅深色窗簾擋住了街燈的強光。",
+      "starter": "A",
+      "answer": "A dark curtain closed out the strong light from the street lamp.",
+      "answerZh": "一幅深色窗簾擋住了街燈的強光。",
+      "highlight": "closed out the strong light",
+      "targetForm": "close something out",
+      "targetMeaningZh": "阻擋光線"
+    },
+    {
+      "id": "phrasal-verb-35-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The insect bite made his eyelid swell. Soon he could not open that eye.",
+      "promptZh": "昆蟲叮咬令他的眼皮腫起來。不久後，他便無法張開那隻眼睛。",
+      "starter": "The",
+      "answer": "The insect bite made his eyelid swell. Soon that eye closed up.",
+      "answerZh": "昆蟲叮咬令他的眼皮腫起來。不久後，那隻眼睛便完全無法張開。",
+      "highlight": "closed up",
+      "targetForm": "close up",
+      "targetMeaningZh": "因腫脹而完全合上"
+    },
+    {
+      "id": "phrasal-verb-35-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The hall is empty now, so please lock it before you leave.",
+      "promptZh": "禮堂現在已經沒有人，所以請在離開前把它關閉並鎖好。",
+      "starter": "The",
+      "answer": "The hall is empty now, so please close it up before you leave.",
+      "answerZh": "禮堂現在已經沒有人，所以請在離開前把它關閉並鎖好。",
+      "highlight": "close it up",
+      "targetForm": "close something up",
+      "targetMeaningZh": "關閉並鎖好某個地方"
+    },
+    {
+      "id": "phrasal-verb-35-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The swimming pool was permanently stopped because it was too expensive to repair.",
+      "promptZh": "泳池因維修費用太高而被永久停止營運。",
+      "starter": "The",
+      "answer": "The swimming pool was closed down because it was too expensive to repair.",
+      "answerZh": "泳池因維修費用太高而被永久停止營運。",
+      "highlight": "closed down",
+      "targetForm": "close something down",
+      "targetMeaningZh": "使企業、設施或服務永久停止營運"
+    },
+    {
+      "id": "phrasal-verb-35-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The guards were not moving nearer, so we had time to leave.",
+      "promptZh": "守衛並沒有逐漸靠近，所以我們有時間離開。",
+      "starter": "The",
+      "answer": "The guards were not closing in, so we had time to leave.",
+      "answerZh": "守衛並沒有逐漸靠近，所以我們有時間離開。",
+      "highlight": "closing in",
+      "targetForm": "close in",
+      "targetMeaningZh": "逐漸靠近"
+    },
+    {
+      "id": "phrasal-verb-35-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "How quickly was the second cyclist getting nearer to the leader?",
+      "promptZh": "第二名單車手正以多快的速度追近領先者？",
+      "starter": "How",
+      "answer": "How quickly was the second cyclist closing on the leader?",
+      "answerZh": "第二名單車手正以多快的速度追近領先者？",
+      "highlight": "closing on the leader",
+      "targetForm": "close on somebody",
+      "targetMeaningZh": "逐漸追近前方的人"
+    },
+    {
+      "id": "phrasal-verb-35-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The family shop has sold nearly everything and will end business on Sunday.",
+      "promptZh": "那間家庭式店舖已差不多售出所有貨品，並會在星期日結束營業。",
+      "starter": "The",
+      "answer": "The family shop has sold nearly everything and will close out on Sunday.",
+      "answerZh": "那間家庭式店舖已差不多售出所有貨品，並會在星期日結束營業。",
+      "highlight": "close out",
+      "targetForm": "close out",
+      "targetMeaningZh": "結束營業並售出餘下貨品"
+    },
+    {
+      "id": "phrasal-verb-35-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The school blocked the damaged classroom so that no pupils could enter.",
+      "promptZh": "學校封閉了受損的課室，禁止學生進入。",
+      "starter": "The",
+      "answer": "The school closed the damaged classroom off to pupils.",
+      "answerZh": "學校封閉了受損的課室，禁止學生進入。",
+      "highlight": "closed the damaged classroom off to pupils",
+      "targetForm": "close something off to somebody",
+      "targetMeaningZh": "封閉某處，禁止某些人進入"
+    },
+    {
+      "id": "phrasal-verb-35-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The thin blind did not block the light, so we added a heavier curtain.",
+      "promptZh": "薄百葉簾無法阻擋光線，所以我們加裝了一幅較厚的窗簾。",
+      "starter": "The",
+      "answer": "The thin blind did not close out the light, so we added a heavier curtain.",
+      "answerZh": "薄百葉簾無法阻擋光線，所以我們加裝了一幅較厚的窗簾。",
+      "highlight": "close out the light",
+      "targetForm": "close something out",
+      "targetMeaningZh": "阻擋光線"
+    },
+    {
+      "id": "phrasal-verb-35-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The baby’s fingers tightened over the small wooden block.",
+      "promptZh": "嬰兒的手指合攏並握住小木塊。",
+      "starter": "The",
+      "answer": "The baby’s fingers closed over the small wooden block.",
+      "answerZh": "嬰兒的手指合攏並握住小木塊。",
+      "highlight": "closed over the small wooden block",
+      "targetForm": "close over something",
+      "targetMeaningZh": "合攏並蓋住或握住某物"
+    },
+    {
+      "id": "phrasal-verb-35-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Everyone else went home, but Ravi stayed to lock the sports centre.",
+      "promptZh": "其他人都回家了，但拉維留下來關閉並鎖好體育中心。",
+      "starter": "Everyone",
+      "answer": "Everyone else went home, but Ravi stayed to close up the sports centre.",
+      "answerZh": "其他人都回家了，但拉維留下來關閉並鎖好體育中心。",
+      "highlight": "close up the sports centre",
+      "targetForm": "close something up",
+      "targetMeaningZh": "關閉並鎖好某個地方"
+    },
+    {
+      "id": "phrasal-verb-35-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The café stopped operating permanently after ten years, but it did not hold a final sale.",
+      "promptZh": "咖啡店營運十年後永久停業，但沒有舉行最後清貨減價。",
+      "starter": "The",
+      "answer": "The café closed down after ten years, but it did not hold a final sale.",
+      "answerZh": "咖啡店營運十年後永久停業，但沒有舉行最後清貨減價。",
+      "highlight": "closed down",
+      "targetForm": "close down",
+      "targetMeaningZh": "永久停止營運"
+    },
+    {
+      "id": "phrasal-verb-35-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The allergy made one eye swell until it could no longer open.",
+      "promptZh": "敏感反應令她的一隻眼睛腫起來，最後完全無法張開。",
+      "starter": "The",
+      "answer": "The allergy made one eye swell until it closed up.",
+      "answerZh": "敏感反應令她的一隻眼睛腫起來，最後完全無法張開。",
+      "highlight": "closed up",
+      "targetForm": "close up",
+      "targetMeaningZh": "因腫脹而完全合上"
+    },
+    {
+      "id": "phrasal-verb-35-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The lost dog stopped in the field while the helpers moved nearer from three sides.",
+      "promptZh": "走失的狗停在田野裏，而協助搜索的人正從三個方向逐漸靠近。",
+      "starter": "The",
+      "answer": "The lost dog stopped in the field while the helpers closed in from three sides.",
+      "answerZh": "走失的狗停在田野裏，而協助搜索的人正從三個方向逐漸靠近。",
+      "highlight": "closed in",
+      "targetForm": "close in",
+      "targetMeaningZh": "從不同方向逐漸靠近"
+    },
+    {
+      "id": "phrasal-verb-35-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Workers blocked the upper floor to visitors while they repaired the stairs.",
+      "promptZh": "工人維修樓梯期間，封閉了上層，禁止訪客進入。",
+      "starter": "Workers",
+      "answer": "Workers closed the upper floor off to visitors while they repaired the stairs.",
+      "answerZh": "工人維修樓梯期間，封閉了上層，禁止訪客進入。",
+      "highlight": "closed the upper floor off to visitors",
+      "targetForm": "close something off to somebody",
+      "targetMeaningZh": "封閉某處，禁止某些人進入"
+    },
+    {
+      "id": "phrasal-verb-35-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The blue boat was still ahead, but the red boat was steadily getting nearer.",
+      "promptZh": "藍色船仍在前方，但紅色船正穩定地追近它。",
+      "starter": "The",
+      "answer": "The blue boat was still ahead, but the red boat was steadily closing on it.",
+      "answerZh": "藍色船仍在前方，但紅色船正穩定地追近它。",
+      "highlight": "closing on it",
+      "targetForm": "close on something",
+      "targetMeaningZh": "逐漸追近前方的物件"
+    },
+    {
+      "id": "phrasal-verb-35-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The shop is ending business permanently and selling its last goods at reduced prices.",
+      "promptZh": "那間店舖正在永久結束營業，並以減價售出最後一批貨品。",
+      "starter": "The",
+      "answer": "The shop is closing out and selling its last goods at reduced prices.",
+      "answerZh": "那間店舖正在結束營業，並以減價售出最後一批貨品。",
+      "highlight": "closing out",
+      "targetForm": "close out",
+      "targetMeaningZh": "結束營業並減價清貨"
+    },
+    {
+      "id": "phrasal-verb-35-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The curtains were drawn across the window to block the bright sunlight.",
+      "promptZh": "窗簾被拉上，以阻擋明亮的陽光。",
+      "starter": "The",
+      "answer": "The curtains were drawn across the window to close out the bright sunlight.",
+      "answerZh": "窗簾被拉上，以阻擋明亮的陽光。",
+      "highlight": "close out the bright sunlight",
+      "targetForm": "close something out",
+      "targetMeaningZh": "阻擋光線"
+    },
+    {
+      "id": "phrasal-verb-35-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "After the bee sting, both of Leo’s eyes became so swollen that he could not open them.",
+      "promptZh": "里奧被蜜蜂叮過後，雙眼腫得無法張開。",
+      "starter": "After",
+      "answer": "After the bee sting, both of Leo’s eyes swelled and closed up.",
+      "answerZh": "里奧被蜜蜂叮過後，雙眼腫起來，完全無法張開。",
+      "highlight": "closed up",
+      "targetForm": "close up",
+      "targetMeaningZh": "因腫脹而完全合上"
+    },
+    {
+      "id": "phrasal-verb-35-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The owner asked us to lock the little beach shop before the storm arrived.",
+      "promptZh": "店主要求我們在暴風雨來臨前關閉並鎖好那間小型海灘店舖。",
+      "starter": "The",
+      "answer": "The owner asked us to close up the little beach shop before the storm arrived.",
+      "answerZh": "店主要求我們在暴風雨來臨前關閉並鎖好那間小型海灘店舖。",
+      "highlight": "close up the little beach shop",
+      "targetForm": "close something up",
+      "targetMeaningZh": "關閉並鎖好店舖或地方"
+    },
+    {
+      "id": "phrasal-verb-35-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "As the train moved, Mina’s hand tightened around the rail.",
+      "promptZh": "火車開動時，米娜的手合攏並抓緊扶手。",
+      "starter": "As",
+      "answer": "As the train moved, Mina’s hand closed round the rail.",
+      "answerZh": "火車開動時，米娜的手合攏並抓緊扶手。",
+      "highlight": "closed round the rail",
+      "targetForm": "close round something",
+      "targetMeaningZh": "合攏並抓住或包住某物"
+    },
+    {
+      "id": "phrasal-verb-35-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The factory had lost many orders and finally stopped operating permanently.",
+      "promptZh": "工廠失去了大量訂單，最後永久停止營運。",
+      "starter": "The",
+      "answer": "The factory had lost many orders and finally closed down.",
+      "answerZh": "工廠失去了大量訂單，最後永久停止營運。",
+      "highlight": "closed down",
+      "targetForm": "close down",
+      "targetMeaningZh": "永久停止營運"
+    },
+    {
+      "id": "phrasal-verb-35-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The hikers could hear the search party getting nearer from both sides of the valley.",
+      "promptZh": "遠足者聽到搜索隊正從山谷兩邊逐漸靠近。",
+      "starter": "The",
+      "answer": "The hikers could hear the search party closing in from both sides of the valley.",
+      "answerZh": "遠足者聽到搜索隊正從山谷兩邊逐漸靠近。",
+      "highlight": "closing in",
+      "targetForm": "close in",
+      "targetMeaningZh": "從不同方向逐漸靠近"
+    },
+    {
+      "id": "phrasal-verb-35-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "With only one lap left, Maya was getting nearer to the leading runner and was only a few metres behind.",
+      "promptZh": "只剩下一圈時，瑪雅正逐漸追近領先的跑手，兩人只相距數米。",
+      "starter": "With",
+      "answer": "With only one lap left, Maya was closing on the leading runner and was only a few metres behind.",
+      "answerZh": "只剩下一圈時，瑪雅正逐漸追近領先的跑手，兩人只相距數米。",
+      "highlight": "closing on the leading runner",
+      "targetForm": "close on somebody",
+      "targetMeaningZh": "逐漸追近前方的人"
+    },
+    {
+      "id": "phrasal-verb-35-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The family-owned bookshop will end business next month and is offering large discounts on its final stock.",
+      "promptZh": "那間家庭經營的書店會在下個月結束營業，並為最後一批存貨提供大幅折扣。",
+      "starter": "The",
+      "answer": "The family-owned bookshop will close out next month and is offering large discounts on its final stock.",
+      "answerZh": "那間家庭經營的書店會在下個月結束營業，並為最後一批存貨提供大幅折扣。",
+      "highlight": "close out",
+      "targetForm": "close out",
+      "targetMeaningZh": "結束營業並減價清貨"
+    },
+    {
+      "id": "phrasal-verb-35-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Because pieces of glass were falling from the roof, police blocked the square to everyone except emergency workers.",
+      "promptZh": "由於有玻璃碎片從屋頂墜下，警方封閉了廣場，除緊急服務人員外，任何人均不得進入。",
+      "starter": "Because",
+      "answer": "Because pieces of glass were falling from the roof, police closed the square off to everyone except emergency workers.",
+      "answerZh": "由於有玻璃碎片從屋頂墜下，警方封閉了廣場，除緊急服務人員外，任何人均不得進入。",
+      "highlight": "closed the square off to everyone except emergency workers",
+      "targetForm": "close something off to somebody",
+      "targetMeaningZh": "封閉某處，禁止某些人進入"
+    },
+    {
+      "id": "phrasal-verb-35-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The baby finally fell asleep, so Mei pulled the heavy curtain across the window to block the street light.",
+      "promptZh": "嬰兒終於入睡，所以梅拉上厚窗簾，阻擋街燈的光線。",
+      "starter": "The",
+      "answer": "The baby finally fell asleep, so Mei pulled the heavy curtain across the window to close out the street light.",
+      "answerZh": "嬰兒終於入睡，所以梅拉上厚窗簾，阻擋街燈的光線。",
+      "highlight": "close out the street light",
+      "targetForm": "close something out",
+      "targetMeaningZh": "阻擋光線"
+    },
+    {
+      "id": "phrasal-verb-35-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "When the bus stopped suddenly, Noah’s fingers tightened around the seat handle.",
+      "promptZh": "巴士突然停下時，諾亞的手指合攏並抓緊座位扶手。",
+      "starter": "When",
+      "answer": "When the bus stopped suddenly, Noah’s fingers closed around the seat handle.",
+      "answerZh": "巴士突然停下時，諾亞的手指合攏並抓緊座位扶手。",
+      "highlight": "closed around the seat handle",
+      "targetForm": "close around something",
+      "targetMeaningZh": "合攏並抓住或包住某物"
+    },
+    {
+      "id": "phrasal-verb-35-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "After fewer people used the service each year, the company permanently stopped operating it.",
+      "promptZh": "使用該服務的人逐年減少，因此公司永久停止其營運。",
+      "starter": "After",
+      "answer": "After fewer people used the service each year, the company closed it down.",
+      "answerZh": "使用該服務的人逐年減少，因此公司永久停止其營運。",
+      "highlight": "closed it down",
+      "targetForm": "close something down",
+      "targetMeaningZh": "使服務或機構永久停止營運"
+    },
+    {
+      "id": "phrasal-verb-35-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "By morning, the skin around her eye had swollen so badly that the eye would not open.",
+      "promptZh": "到了早上，她眼睛周圍的皮膚腫得很厲害，令眼睛完全無法張開。",
+      "starter": "By",
+      "answer": "By morning, the skin around her eye had swollen so badly that the eye had closed up.",
+      "answerZh": "到了早上，她眼睛周圍的皮膚腫得很厲害，令眼睛完全無法張開。",
+      "highlight": "closed up",
+      "targetForm": "close up",
+      "targetMeaningZh": "因腫脹而完全合上"
+    },
+    {
+      "id": "phrasal-verb-35-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The final customer had left, so Ben locked the café for the night.",
+      "promptZh": "最後一名顧客已離開，所以賓關閉並鎖好咖啡店，結束當晚營業。",
+      "starter": "The",
+      "answer": "The final customer had left, so Ben closed up for the night.",
+      "answerZh": "最後一名顧客已離開，所以賓關閉並鎖好咖啡店，結束當晚營業。",
+      "highlight": "closed up",
+      "targetForm": "close up",
+      "targetMeaningZh": "在營業結束後關閉並鎖好地方"
+    },
+    {
+      "id": "phrasal-verb-35-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The deer stayed still while the photographers moved closer from different directions.",
+      "promptZh": "鹿站着不動，而攝影師正從不同方向逐漸靠近。",
+      "starter": "The",
+      "answer": "The deer stayed still while the photographers closed in from different directions.",
+      "answerZh": "鹿站着不動，而攝影師正從不同方向逐漸靠近。",
+      "highlight": "closed in",
+      "targetForm": "close in",
+      "targetMeaningZh": "從不同方向逐漸靠近"
+    },
+    {
+      "id": "phrasal-verb-35-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The patrol boat was moving faster and getting nearer to the small fishing boat ahead.",
+      "promptZh": "巡邏船正加快速度，逐漸追近前方的小型漁船。",
+      "starter": "The",
+      "answer": "The patrol boat was moving faster and closing on the small fishing boat ahead.",
+      "answerZh": "巡邏船正加快速度，逐漸追近前方的小型漁船。",
+      "highlight": "closing on the small fishing boat ahead",
+      "targetForm": "close on something",
+      "targetMeaningZh": "逐漸追近前方的物件"
+    },
+    {
+      "id": "phrasal-verb-35-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "After forty years, the clothes shop is ending business and selling everything at half price.",
+      "promptZh": "經營四十年後，那間服裝店正在結束營業，並以半價售出所有貨品。",
+      "starter": "After",
+      "answer": "After forty years, the clothes shop is closing out and selling everything at half price.",
+      "answerZh": "經營四十年後，那間服裝店正在結束營業，並以半價售出所有貨品。",
+      "highlight": "closing out",
+      "targetForm": "close out",
+      "targetMeaningZh": "結束營業並減價清貨"
+    },
+    {
+      "id": "phrasal-verb-35-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "The museum blocked one room to the public after water began to come through the ceiling.",
+      "promptZh": "天花板開始滲水後，博物館封閉了一個房間，禁止公眾進入。",
+      "starter": "The",
+      "answer": "The museum closed one room off to the public after water began to come through the ceiling.",
+      "answerZh": "天花板開始滲水後，博物館封閉了一個房間，禁止公眾進入。",
+      "highlight": "closed one room off to the public",
+      "targetForm": "close something off to somebody",
+      "targetMeaningZh": "封閉某處，禁止某些人進入"
+    },
+    {
+      "id": "phrasal-verb-35-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "The afternoon sun made the screen difficult to see, so we used a thick blind to block the light.",
+      "promptZh": "午後陽光令螢幕難以看清，所以我們使用厚百葉簾來阻擋光線。",
+      "starter": "The",
+      "answer": "The afternoon sun made the screen difficult to see, so we used a thick blind to close out the light.",
+      "answerZh": "午後陽光令螢幕難以看清，所以我們使用厚百葉簾來阻擋光線。",
+      "highlight": "close out the light",
+      "targetForm": "close something out",
+      "targetMeaningZh": "阻擋光線"
+    }
+  ]
+}

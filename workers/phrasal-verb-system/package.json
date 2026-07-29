@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "catalog": "node ../../tools/generate-phrasal-verb-catalog.mjs",
     "check": "node --check src/index.js && npm test && wrangler deploy --dry-run",
     "verify:catalog": "node scripts/verify-catalog.mjs",
     "release-check": "npm run verify:catalog && npm run check",

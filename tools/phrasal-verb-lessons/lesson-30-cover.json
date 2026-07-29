@@ -1,0 +1,1262 @@
+{
+  "id": "phrasal-verb-30",
+  "order": 30,
+  "slug": "cover",
+  "version": "1",
+  "title": "COVER 動詞片語",
+  "titleEn": "Cover",
+  "titleZh": "COVER 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 29 - Cover.pdf",
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COVER 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COVER."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COVER",
+      "highlight": "COVER"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "We covered the old heater up with a wooden screen.",
+      "zh": "我們用木屏風把舊暖爐遮住了。",
+      "highlight": "covered the old heater up"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The gardener covered the roots over with soil.",
+      "zh": "園丁用泥土把植物的根完全蓋住。",
+      "highlight": "covered the roots over with soil"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "He covered up for his friend.",
+      "zh": "他替朋友掩飾真相。",
+      "highlight": "covered up for his friend"
+    }
+  ],
+  "meaning": {
+    "zh": "遮住某人或某物，使其看不見，尤其是把難看或不想展示的部分藏起來；用泥土、布、雪或其他物料在某物上面鋪一層，把它完全蓋住；隱瞞真相、錯誤或問題；替某人掩飾；用衣物、毛巾或毯子等遮蓋身體，以保護皮膚或保暖",
+    "en": "cover somebody/something up / cover something over with something / cover up for somebody / cover something up / cover up / cover yourself up with something",
+    "naturalZh": [
+      "遮住某人或某物，使其看不見，尤其是把難看或不想展示的部分藏起來",
+      "用泥土、布、雪或其他物料在某物上面鋪一層，把它完全蓋住",
+      "隱瞞真相、錯誤或問題；替某人掩飾",
+      "用衣物、毛巾或毯子等遮蓋身體，以保護皮膚或保暖"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "cover somebody/something up",
+      "titleZh": "遮住某人或某物，使其看不見，尤其是把難看或不想展示的部分藏起來",
+      "titleEn": "cover somebody/something up",
+      "descriptionZh": "遮住某人或某物，使其看不見，尤其是把難看或不想展示的部分藏起來",
+      "descriptionEn": "We covered the old heater up with a wooden screen.",
+      "examples": [
+        {
+          "en": "We covered the old heater up with a wooden screen.",
+          "zh": "我們用木屏風把舊暖爐遮住了。",
+          "highlight": "covered the old heater up"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "cover something over with something",
+      "titleZh": "用泥土、布、雪或其他物料在某物上面鋪一層，把它完全蓋住",
+      "titleEn": "cover something over with something",
+      "descriptionZh": "用泥土、布、雪或其他物料在某物上面鋪一層，把它完全蓋住",
+      "descriptionEn": "The gardener covered the roots over with soil.",
+      "examples": [
+        {
+          "en": "The gardener covered the roots over with soil.",
+          "zh": "園丁用泥土把植物的根完全蓋住。",
+          "highlight": "covered the roots over with soil"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "cover up for somebody / cover something up",
+      "titleZh": "隱瞞真相、錯誤或問題；替某人掩飾",
+      "titleEn": "cover up for somebody / cover something up",
+      "descriptionZh": "隱瞞真相、錯誤或問題；替某人掩飾",
+      "descriptionEn": "He covered up for his friend.",
+      "examples": [
+        {
+          "en": "He covered up for his friend.",
+          "zh": "他替朋友掩飾真相。",
+          "highlight": "covered up for his friend"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 2,
+      "formula": "cover up / cover yourself up with something",
+      "titleZh": "用衣物、毛巾或毯子等遮蓋身體，以保護皮膚或保暖",
+      "titleEn": "cover up / cover yourself up with something",
+      "descriptionZh": "用衣物、毛巾或毯子等遮蓋身體，以保護皮膚或保暖",
+      "descriptionEn": "The hikers covered up before walking in the sun.",
+      "examples": [
+        {
+          "en": "The hikers covered up before walking in the sun.",
+          "zh": "遠足人士在陽光下步行前把身體遮蓋好。",
+          "highlight": "covered up"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "COVER 片語動詞的實際用途",
+    "labelEn": "COVER Phrasal Verbs in Use",
+    "summaryZh": "cover something up 可以描述用另一件物件遮住喉管、污痕、電線或未完成的地方。；cover something over 可以表示泥土、布、雪或其他物料鋪在某物的整個表面上。；cover something up 和 cover up for somebody 可以描述隱瞞真相，或替做錯事的人掩飾。；cover up 可以描述保護皮膚免受猛烈陽光、寒冷天氣或昆蟲影響。",
+    "summaryEn": "Cover something up can describe hiding pipes, marks, wires and unfinished areas behind another object. Cover something over can show that soil, cloth, snow or another material has been placed over the whole surface. Cover something up and cover up for somebody can describe hiding the truth or protecting someone who has done something wrong. Cover up can describe protecting your skin from strong sun, cold weather or insects.",
+    "contextsZh": [
+      "描述如何把某物遮住",
+      "描述某物被一層物料完全蓋住",
+      "理解與秘密和錯誤有關的表達",
+      "談論如何保護身體"
+    ],
+    "contextsEn": [
+      "Describe how something is hidden from view",
+      "Describe a complete layer over something",
+      "Understand expressions about secrets and mistakes",
+      "Talk about protecting your body"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 COVER 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the COVER expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "cover somebody/something up",
+    "fixedHighlight": "cover somebody/something up",
+    "fixedZh": "閱讀整句，選出意思相同的 COVER 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the COVER expression that gives the same meaning.",
+    "correct": "covered the old heater up",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；cover up 可以表示遮住實物、隱瞞真相或遮蓋身體。請仔細閱讀整個情境。；使用 it 或 them 時，請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Cover up can describe hiding a physical object, hiding the truth or protecting your body. Read the full situation carefully. When using it or them, place the word as shown:",
+    "variableItemsZh": [
+      "cover somebody/something up",
+      "cover something over with something",
+      "cover up for somebody / cover something up",
+      "cover up / cover yourself up with something"
+    ],
+    "variableItemsEn": [
+      "cover somebody/something up",
+      "cover something over with something",
+      "cover up for somebody / cover something up",
+      "cover up / cover yourself up with something"
+    ],
+    "forms": [
+      {
+        "formZh": "遮住某人或某物，使其看不見，尤其是把難看或不想展示的部分藏起來",
+        "formEn": "cover somebody/something up",
+        "exampleZh": "我們用木屏風把舊暖爐遮住了。",
+        "exampleEn": "We covered the old heater up with a wooden screen.",
+        "highlight": "covered the old heater up"
+      },
+      {
+        "formZh": "用泥土、布、雪或其他物料在某物上面鋪一層，把它完全蓋住",
+        "formEn": "cover something over with something",
+        "exampleZh": "園丁用泥土把植物的根完全蓋住。",
+        "exampleEn": "The gardener covered the roots over with soil.",
+        "highlight": "covered the roots over with soil"
+      },
+      {
+        "formZh": "隱瞞真相、錯誤或問題；替某人掩飾",
+        "formEn": "cover up for somebody / cover something up",
+        "exampleZh": "他替朋友掩飾真相。",
+        "exampleEn": "He covered up for his friend.",
+        "highlight": "covered up for his friend"
+      },
+      {
+        "formZh": "用衣物、毛巾或毯子等遮蓋身體，以保護皮膚或保暖",
+        "formEn": "cover up / cover yourself up with something",
+        "exampleZh": "遠足人士在陽光下步行前把身體遮蓋好。",
+        "exampleEn": "The hikers covered up before walking in the sun.",
+        "highlight": "covered up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "遮住某人或某物，使其看不見，尤其是把難看或不想展示的部分藏起來",
+      "titleEn": "cover somebody/something up",
+      "formula": "cover somebody/something up",
+      "highlight": "cover somebody/something up",
+      "descriptionZh": "遮住某人或某物，使其看不見，尤其是把難看或不想展示的部分藏起來",
+      "descriptionEn": "We covered the old heater up with a wooden screen.",
+      "examples": [
+        {
+          "en": "We covered the old heater up with a wooden screen.",
+          "zh": "我們用木屏風把舊暖爐遮住了。",
+          "highlight": "covered the old heater up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用泥土、布、雪或其他物料在某物上面鋪一層，把它完全蓋住",
+      "titleEn": "cover something over with something",
+      "formula": "cover something over with something",
+      "highlight": "cover something over with something",
+      "descriptionZh": "用泥土、布、雪或其他物料在某物上面鋪一層，把它完全蓋住",
+      "descriptionEn": "The gardener covered the roots over with soil.",
+      "examples": [
+        {
+          "en": "The gardener covered the roots over with soil.",
+          "zh": "園丁用泥土把植物的根完全蓋住。",
+          "highlight": "covered the roots over with soil"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "隱瞞真相、錯誤或問題；替某人掩飾",
+      "titleEn": "cover up for somebody / cover something up",
+      "formula": "cover up for somebody / cover something up",
+      "highlight": "cover up for somebody / cover something up",
+      "descriptionZh": "隱瞞真相、錯誤或問題；替某人掩飾",
+      "descriptionEn": "He covered up for his friend.",
+      "examples": [
+        {
+          "en": "He covered up for his friend.",
+          "zh": "他替朋友掩飾真相。",
+          "highlight": "covered up for his friend"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "用衣物、毛巾或毯子等遮蓋身體，以保護皮膚或保暖",
+      "titleEn": "cover up / cover yourself up with something",
+      "formula": "cover up / cover yourself up with something",
+      "highlight": "cover up / cover yourself up with something",
+      "descriptionZh": "用衣物、毛巾或毯子等遮蓋身體，以保護皮膚或保暖",
+      "descriptionEn": "The hikers covered up before walking in the sun.",
+      "examples": [
+        {
+          "en": "The hikers covered up before walking in the sun.",
+          "zh": "遠足人士在陽光下步行前把身體遮蓋好。",
+          "highlight": "covered up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述如何把某物遮住",
+      "titleEn": "Describe how something is hidden from view",
+      "zh": "cover something up 可以描述用另一件物件遮住喉管、污痕、電線或未完成的地方。",
+      "en": "Cover something up can describe hiding pipes, marks, wires and unfinished areas behind another object."
+    },
+    {
+      "titleZh": "描述某物被一層物料完全蓋住",
+      "titleEn": "Describe a complete layer over something",
+      "zh": "cover something over 可以表示泥土、布、雪或其他物料鋪在某物的整個表面上。",
+      "en": "Cover something over can show that soil, cloth, snow or another material has been placed over the whole surface."
+    },
+    {
+      "titleZh": "理解與秘密和錯誤有關的表達",
+      "titleEn": "Understand expressions about secrets and mistakes",
+      "zh": "cover something up 和 cover up for somebody 可以描述隱瞞真相，或替做錯事的人掩飾。",
+      "en": "Cover something up and cover up for somebody can describe hiding the truth or protecting someone who has done something wrong."
+    },
+    {
+      "titleZh": "談論如何保護身體",
+      "titleEn": "Talk about protecting your body",
+      "zh": "cover up 可以描述保護皮膚免受猛烈陽光、寒冷天氣或昆蟲影響。",
+      "en": "Cover up can describe protecting your skin from strong sun, cold weather or insects."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述如何把某物遮住",
+      "描述某物被一層物料完全蓋住",
+      "理解與秘密和錯誤有關的表達",
+      "談論如何保護身體"
+    ],
+    "contextsEn": [
+      "Describe how something is hidden from view",
+      "Describe a complete layer over something",
+      "Understand expressions about secrets and mistakes",
+      "Talk about protecting your body"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述如何把某物遮住",
+        "titleEn": "Describe how something is hidden from view",
+        "zh": "cover something up 可以描述用另一件物件遮住喉管、污痕、電線或未完成的地方。",
+        "en": "Cover something up can describe hiding pipes, marks, wires and unfinished areas behind another object.",
+        "examples": [
+          {
+            "en": "We covered the old heater up with a wooden screen.",
+            "zh": "我們用木屏風把舊暖爐遮住了。",
+            "highlight": "covered the old heater up"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某物被一層物料完全蓋住",
+        "titleEn": "Describe a complete layer over something",
+        "zh": "cover something over 可以表示泥土、布、雪或其他物料鋪在某物的整個表面上。",
+        "en": "Cover something over can show that soil, cloth, snow or another material has been placed over the whole surface.",
+        "examples": [
+          {
+            "en": "The gardener covered the roots over with soil.",
+            "zh": "園丁用泥土把植物的根完全蓋住。",
+            "highlight": "covered the roots over with soil"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解與秘密和錯誤有關的表達",
+        "titleEn": "Understand expressions about secrets and mistakes",
+        "zh": "cover something up 和 cover up for somebody 可以描述隱瞞真相，或替做錯事的人掩飾。",
+        "en": "Cover something up and cover up for somebody can describe hiding the truth or protecting someone who has done something wrong.",
+        "examples": [
+          {
+            "en": "He covered up for his friend.",
+            "zh": "他替朋友掩飾真相。",
+            "highlight": "covered up for his friend"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論如何保護身體",
+        "titleEn": "Talk about protecting your body",
+        "zh": "cover up 可以描述保護皮膚免受猛烈陽光、寒冷天氣或昆蟲影響。",
+        "en": "Cover up can describe protecting your skin from strong sun, cold weather or insects.",
+        "examples": [
+          {
+            "en": "The hikers covered up before walking in the sun.",
+            "zh": "遠足人士在陽光下步行前把身體遮蓋好。",
+            "highlight": "covered up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 COVER 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the COVER expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 COVER 片語動詞。",
+      "en": "Read the whole sentence and choose the COVER expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "cover up 可以表示遮住實物、隱瞞真相或遮蓋身體。請仔細閱讀整個情境。",
+      "titleEn": "Cover up can describe hiding a physical object, hiding the truth or protecting your body.",
+      "zh": "cover up 可以表示遮住實物、隱瞞真相或遮蓋身體。請仔細閱讀整個情境。",
+      "en": "Cover up can describe hiding a physical object, hiding the truth or protecting your body. Read the full situation carefully."
+    },
+    {
+      "titleZh": "使用 it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them, place the word as shown:",
+      "zh": "使用 it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using it or them, place the word as shown:",
+      "examples": [
+        {
+          "en": "cover it up",
+          "zh": "",
+          "highlight": "cover it up"
+        },
+        {
+          "en": "cover them over",
+          "zh": "",
+          "highlight": "cover them over"
+        },
+        {
+          "en": "cover yourself up",
+          "zh": "",
+          "highlight": "cover yourself up"
+        }
+      ]
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COVER 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COVER. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COVER 動詞片語句子改寫練習",
+    "titleEn": "COVER Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COVER 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COVER. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-30-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "We hid the ugly pipes behind wooden panels.",
+      "promptZh": "我們用木板把難看的喉管藏起來。",
+      "starter": "We",
+      "answer": "We covered the ugly pipes up with wooden panels.",
+      "answerZh": "我們用木板把難看的喉管遮住了。",
+      "highlight": "covered the ugly pipes up",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The manager kept the mistake secret.",
+      "promptZh": "經理把那個錯誤隱瞞起來。",
+      "starter": "The",
+      "answer": "The manager covered up the mistake.",
+      "answerZh": "經理把那個錯誤隱瞞起來。",
+      "highlight": "covered up the mistake",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "隱瞞錯誤或問題"
+    },
+    {
+      "id": "phrasal-verb-30-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The gardener put soil over the seeds.",
+      "promptZh": "園丁把泥土鋪在種子上。",
+      "starter": "The",
+      "answer": "The gardener covered the seeds over with soil.",
+      "answerZh": "園丁用泥土把種子完全蓋住。",
+      "highlight": "covered the seeds over with soil",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "用一層物料把某物完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Wear enough clothing to protect your skin before you go out in the strong sun.",
+      "promptZh": "在猛烈陽光下外出前，穿上足夠衣物保護皮膚。",
+      "starter": "Cover",
+      "answer": "Cover up before you go out in the strong sun.",
+      "answerZh": "在猛烈陽光下外出前，把身體遮蓋好。",
+      "highlight": "Cover up",
+      "targetForm": "cover up",
+      "targetMeaningZh": "遮蓋身體以保護皮膚"
+    },
+    {
+      "id": "phrasal-verb-30-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "They hid the mark on the wall with a large poster.",
+      "promptZh": "他們用一張大海報遮住牆上的污痕。",
+      "starter": "They",
+      "answer": "They covered up the mark on the wall with a large poster.",
+      "answerZh": "他們用一張大海報遮住牆上的污痕。",
+      "highlight": "covered up the mark on the wall",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ben protected his brother by hiding what he had done.",
+      "promptZh": "賓隱瞞弟弟所做的事，藉此保護他。",
+      "starter": "Ben",
+      "answer": "Ben covered up for his brother.",
+      "answerZh": "賓替弟弟掩飾真相。",
+      "highlight": "covered up for his brother",
+      "targetForm": "cover up for somebody",
+      "targetMeaningZh": "替某人掩飾"
+    },
+    {
+      "id": "phrasal-verb-30-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Mia put a clean cloth over the bowl.",
+      "promptZh": "米婭把一塊乾淨的布蓋在碗上。",
+      "starter": "Mia",
+      "answer": "Mia covered the bowl over with a clean cloth.",
+      "answerZh": "米婭用一塊乾淨的布把碗完全蓋住。",
+      "highlight": "covered the bowl over with a clean cloth",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "用一層物料把某物完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "She wrapped her body in a warm blanket to keep warm.",
+      "promptZh": "她用溫暖的毛毯包裹身體保暖。",
+      "starter": "She",
+      "answer": "She covered herself up with a warm blanket.",
+      "answerZh": "她用溫暖的毛毯遮蓋身體保暖。",
+      "highlight": "covered herself up with a warm blanket",
+      "targetForm": "cover yourself up with something",
+      "targetMeaningZh": "用某物遮蓋自己的身體"
+    },
+    {
+      "id": "phrasal-verb-30-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "They tried to hide the truth about what had happened.",
+      "promptZh": "他們嘗試隱瞞事情的真相。",
+      "starter": "They",
+      "answer": "They tried to cover up what had happened.",
+      "answerZh": "他們嘗試隱瞞事情的真相。",
+      "highlight": "cover up what had happened",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "隱瞞真相"
+    },
+    {
+      "id": "phrasal-verb-30-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The builders hid the cables inside a wooden box.",
+      "promptZh": "建築工人用木箱把電線藏起來。",
+      "starter": "The",
+      "answer": "The builders covered the cables up with a wooden box.",
+      "answerZh": "建築工人用木箱把電線遮住。",
+      "highlight": "covered the cables up",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The children are putting sand over the hole now.",
+      "promptZh": "孩子們現正把沙鋪在洞口上。",
+      "starter": "The",
+      "answer": "The children are covering the hole over with sand.",
+      "answerZh": "孩子們現正用沙把洞口完全蓋住。",
+      "highlight": "covering the hole over with sand",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "用一層物料把某物完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Lena always wears clothes that protect her skin in the midday sun.",
+      "promptZh": "莉娜在正午陽光下總會穿上能保護皮膚的衣物。",
+      "starter": "Lena",
+      "answer": "Lena always covers up in the midday sun.",
+      "answerZh": "莉娜在正午陽光下總會把身體遮蓋好。",
+      "highlight": "covers up",
+      "targetForm": "cover up",
+      "targetMeaningZh": "遮蓋身體以保護皮膚"
+    },
+    {
+      "id": "phrasal-verb-30-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The broken part of the wall was ugly, so we have hidden it with a small screen.",
+      "promptZh": "牆壁破損的部分很難看，所以我們已用一道小屏風把它遮住。",
+      "starter": "We",
+      "answer": "The broken part of the wall was ugly, so we have covered it up with a small screen.",
+      "answerZh": "牆壁破損的部分很難看，所以我們已用一道小屏風把它遮住。",
+      "highlight": "covered it up",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why are you protecting him by hiding the truth?",
+      "promptZh": "你為甚麼隱瞞真相來保護他？",
+      "starter": "Why",
+      "answer": "Why are you covering up for him?",
+      "answerZh": "你為甚麼替他掩飾真相？",
+      "highlight": "covering up for him",
+      "targetForm": "cover up for somebody",
+      "targetMeaningZh": "替某人掩飾"
+    },
+    {
+      "id": "phrasal-verb-30-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Fresh snow has completely hidden the footprints.",
+      "promptZh": "新雪已把腳印完全蓋住。",
+      "starter": "The",
+      "answer": "The footprints have been covered over with fresh snow.",
+      "answerZh": "腳印已被新雪完全蓋住。",
+      "highlight": "covered over with fresh snow",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "被一層物料完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You should wear enough warm clothing before going outside in this cold wind.",
+      "promptZh": "在這股寒風中外出前，你應該穿上足夠的保暖衣物。",
+      "starter": "You",
+      "answer": "You should cover up before going outside in this cold wind.",
+      "answerZh": "在這股寒風中外出前，你應該把身體遮蓋好。",
+      "highlight": "cover up",
+      "targetForm": "cover up",
+      "targetMeaningZh": "穿上足夠衣物保暖"
+    },
+    {
+      "id": "phrasal-verb-30-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The company is hiding the problem now.",
+      "promptZh": "公司現正隱瞞這個問題。",
+      "starter": "The",
+      "answer": "The company is covering up the problem.",
+      "answerZh": "公司現正隱瞞這個問題。",
+      "highlight": "covering up the problem",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "隱瞞問題"
+    },
+    {
+      "id": "phrasal-verb-30-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "They will hide the old sign before the visitors arrive.",
+      "promptZh": "他們會在訪客到達前把舊招牌遮住。",
+      "starter": "They",
+      "answer": "They will cover the old sign up before the visitors arrive.",
+      "answerZh": "他們會在訪客到達前把舊招牌遮住。",
+      "highlight": "cover the old sign up",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The children have wrapped their bodies in towels to keep warm.",
+      "promptZh": "孩子們已用毛巾包裹身體保暖。",
+      "starter": "The",
+      "answer": "The children have covered themselves up with towels to keep warm.",
+      "answerZh": "孩子們已用毛巾遮蓋身體保暖。",
+      "highlight": "covered themselves up with towels",
+      "targetForm": "cover yourself up with something",
+      "targetMeaningZh": "用某物遮蓋自己的身體"
+    },
+    {
+      "id": "phrasal-verb-30-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Did you put soil over the bulbs?",
+      "promptZh": "你有用泥土把球莖蓋住嗎？",
+      "starter": "Did",
+      "answer": "Did you cover the bulbs over with soil?",
+      "answerZh": "你有用泥土把球莖完全蓋住嗎？",
+      "highlight": "cover the bulbs over with soil",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "用一層物料把某物完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The sun is very strong. Please protect your skin with this light shirt.",
+      "promptZh": "陽光非常猛烈。請用這件薄襯衫保護皮膚。",
+      "starter": "The",
+      "answer": "The sun is very strong. Please cover yourself up with this light shirt.",
+      "answerZh": "陽光非常猛烈。請用這件薄襯衫遮蓋身體，保護皮膚。",
+      "highlight": "cover yourself up with this light shirt",
+      "targetForm": "cover yourself up with something",
+      "targetMeaningZh": "用某物遮蓋自己的身體"
+    },
+    {
+      "id": "phrasal-verb-30-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The pipes looked untidy, so the owner hid them with boxes.",
+      "promptZh": "喉管看來很不整齊，所以物主用箱子把它們遮住。",
+      "starter": "The",
+      "answer": "The pipes looked untidy, so the owner covered them up with boxes.",
+      "answerZh": "喉管看來很不整齊，所以物主用箱子把它們遮住。",
+      "highlight": "covered them up",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Put the bulbs in the pot and put soil over them.",
+      "promptZh": "把球莖放進花盆，再用泥土把它們蓋住。",
+      "starter": "Put",
+      "answer": "Put the bulbs in the pot and cover them over with soil.",
+      "answerZh": "把球莖放進花盆，再用泥土把它們完全蓋住。",
+      "highlight": "cover them over with soil",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "用一層物料把某物完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The report showed a serious error, but they hid it.",
+      "promptZh": "報告顯示了一個嚴重錯誤，但他們把它隱瞞起來。",
+      "starter": "The",
+      "answer": "The report showed a serious error, but they covered it up.",
+      "answerZh": "報告顯示了一個嚴重錯誤，但他們把它隱瞞起來。",
+      "highlight": "covered it up",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "隱瞞錯誤或問題"
+    },
+    {
+      "id": "phrasal-verb-30-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We protected our skin with long sleeves before the walk.",
+      "promptZh": "步行前，我們用長袖衣物保護皮膚。",
+      "starter": "We",
+      "answer": "We covered ourselves up with long sleeves before the walk.",
+      "answerZh": "步行前，我們穿上長袖衣物遮蓋身體。",
+      "highlight": "covered ourselves up with long sleeves",
+      "targetForm": "cover yourself up with something",
+      "targetMeaningZh": "用衣物遮蓋自己的身體"
+    },
+    {
+      "id": "phrasal-verb-30-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A large bookcase hid the old door.",
+      "promptZh": "一個大型書櫃遮住了舊門。",
+      "starter": "The",
+      "answer": "The old door was covered up by a large bookcase.",
+      "answerZh": "舊門被一個大型書櫃遮住。",
+      "highlight": "covered up",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "No one should protect a person who cheats by hiding the truth.",
+      "promptZh": "任何人都不應隱瞞真相來保護作弊的人。",
+      "starter": "No",
+      "answer": "No one should cover up for a person who cheats.",
+      "answerZh": "任何人都不應替作弊的人掩飾。",
+      "highlight": "cover up for a person who cheats",
+      "targetForm": "cover up for somebody",
+      "targetMeaningZh": "替某人掩飾"
+    },
+    {
+      "id": "phrasal-verb-30-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "A plastic sheet was placed over the wet cement.",
+      "promptZh": "一張塑膠布蓋在未乾的水泥上。",
+      "starter": "The",
+      "answer": "The wet cement was covered over with a plastic sheet.",
+      "answerZh": "未乾的水泥被一張塑膠布完全蓋住。",
+      "highlight": "covered over with a plastic sheet",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "用一層物料把某物完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Did you protect your skin from insect bites before walking through the tall grass?",
+      "promptZh": "穿過高草叢前，你有保護皮膚免受昆蟲叮咬嗎？",
+      "starter": "Did",
+      "answer": "Did you cover yourself up to avoid insect bites before walking through the tall grass?",
+      "answerZh": "穿過高草叢前，你有遮蓋身體以免被昆蟲叮咬嗎？",
+      "highlight": "cover yourself up",
+      "targetForm": "cover yourself up",
+      "targetMeaningZh": "遮蓋自己的身體以作保護"
+    },
+    {
+      "id": "phrasal-verb-30-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The shop hid the damaged part of the wall with a display.",
+      "promptZh": "店舖用陳列品遮住牆壁破損的部分。",
+      "starter": "The",
+      "answer": "The shop covered up the damaged part of the wall with a display.",
+      "answerZh": "店舖用陳列品遮住牆壁破損的部分。",
+      "highlight": "covered up the damaged part of the wall",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The school kept the truth about the accident secret.",
+      "promptZh": "學校隱瞞了事故的真相。",
+      "starter": "The",
+      "answer": "The school covered up the truth about the accident.",
+      "answerZh": "學校隱瞞了事故的真相。",
+      "highlight": "covered up the truth about the accident",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "隱瞞真相"
+    },
+    {
+      "id": "phrasal-verb-30-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "By morning, a layer of sand had completely hidden the tyre tracks.",
+      "promptZh": "到了早上，一層沙已把輪胎痕跡完全蓋住。",
+      "starter": "By",
+      "answer": "By morning, the tyre tracks had been covered over with sand.",
+      "answerZh": "到了早上，輪胎痕跡已被沙完全蓋住。",
+      "highlight": "covered over with sand",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "被一層物料完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Although the day was hot, Ravi wore clothes that protected his skin from insects.",
+      "promptZh": "雖然天氣炎熱，拉維仍穿上衣物保護皮膚免受昆蟲影響。",
+      "starter": "Although",
+      "answer": "Although the day was hot, Ravi covered up to protect his skin from insects.",
+      "answerZh": "雖然天氣炎熱，拉維仍把身體遮蓋好，以保護皮膚免受昆蟲影響。",
+      "highlight": "covered up",
+      "targetForm": "cover up",
+      "targetMeaningZh": "遮蓋身體以保護皮膚"
+    },
+    {
+      "id": "phrasal-verb-30-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The museum kept the statue hidden from view until the opening day.",
+      "promptZh": "博物館把雕像遮住，直至開幕當日才展示。",
+      "starter": "The",
+      "answer": "The museum covered the statue up until the opening day.",
+      "answerZh": "博物館把雕像遮住，直至開幕當日才展示。",
+      "highlight": "covered the statue up",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "She was not fixing the mistake; she was protecting the person who made it by hiding the truth.",
+      "promptZh": "她不是在修正錯誤，而是在隱瞞真相，保護犯錯的人。",
+      "starter": "She",
+      "answer": "She was not fixing the mistake; she was covering up for the person who made it.",
+      "answerZh": "她不是在修正錯誤，而是在替犯錯的人掩飾。",
+      "highlight": "covering up for the person who made it",
+      "targetForm": "cover up for somebody",
+      "targetMeaningZh": "替某人掩飾"
+    },
+    {
+      "id": "phrasal-verb-30-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The workers put old sheets over all the furniture before painting.",
+      "promptZh": "工人在髹油前用舊床單蓋住所有家具。",
+      "starter": "The",
+      "answer": "The workers covered the furniture over with old sheets before painting.",
+      "answerZh": "工人在髹油前用舊床單把家具完全蓋住。",
+      "highlight": "covered the furniture over with old sheets",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "用一層物料把某物完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Maya protected her skin with a scarf and long sleeves before the desert trip.",
+      "promptZh": "前往沙漠前，瑪雅用圍巾和長袖衣物保護皮膚。",
+      "starter": "Maya",
+      "answer": "Maya covered herself up with a scarf and long sleeves before the desert trip.",
+      "answerZh": "前往沙漠前，瑪雅用圍巾和長袖衣物遮蓋身體。",
+      "highlight": "covered herself up with a scarf",
+      "targetForm": "cover yourself up with something",
+      "targetMeaningZh": "用某物遮蓋自己的身體"
+    },
+    {
+      "id": "phrasal-verb-30-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The false story was used to hide the real reason.",
+      "promptZh": "那個虛假故事被用來隱瞞真正原因。",
+      "starter": "The",
+      "answer": "The false story was used to cover up the real reason.",
+      "answerZh": "那個虛假故事被用來隱瞞真正原因。",
+      "highlight": "cover up the real reason",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "隱瞞真相或原因"
+    },
+    {
+      "id": "phrasal-verb-30-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The staff hid the storage area behind a curtain.",
+      "promptZh": "職員用窗簾遮住儲物區。",
+      "starter": "The",
+      "answer": "The staff covered the storage area up with a curtain.",
+      "answerZh": "職員用窗簾遮住儲物區。",
+      "highlight": "covered the storage area up",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A fresh coat of paint completely hid the old writing.",
+      "promptZh": "一層新油漆把舊字跡完全蓋住。",
+      "starter": "The",
+      "answer": "The old writing was covered over with a fresh coat of paint.",
+      "answerZh": "舊字跡被一層新油漆完全蓋住。",
+      "highlight": "covered over with a fresh coat of paint",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "用一層物料把某物完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before the guests arrived, we hid the loose wires behind a narrow wooden panel.",
+      "promptZh": "客人到達前，我們用一塊窄木板遮住鬆散的電線。",
+      "starter": "Before",
+      "answer": "Before the guests arrived, we covered the loose wires up with a narrow wooden panel.",
+      "answerZh": "客人到達前，我們用一塊窄木板遮住鬆散的電線。",
+      "highlight": "covered the loose wires up",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The coach knew who had broken the rule, but he refused to protect the player by hiding the truth.",
+      "promptZh": "教練知道誰違反了規則，但他拒絕隱瞞真相來保護那名球員。",
+      "starter": "The",
+      "answer": "The coach knew who had broken the rule, but he refused to cover up for the player.",
+      "answerZh": "教練知道誰違反了規則，但他拒絕替那名球員掩飾。",
+      "highlight": "cover up for the player",
+      "targetForm": "cover up for somebody",
+      "targetMeaningZh": "替某人掩飾"
+    },
+    {
+      "id": "phrasal-verb-30-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the boat reached open water, everyone wore enough clothing to protect their skin from the sun.",
+      "promptZh": "船駛至開闊水域後，每個人都穿上足夠衣物保護皮膚免受陽光照射。",
+      "starter": "When",
+      "answer": "When the boat reached open water, everyone covered up to protect their skin from the sun.",
+      "answerZh": "船駛至開闊水域後，每個人都把身體遮蓋好，保護皮膚免受陽光照射。",
+      "highlight": "covered up",
+      "targetForm": "cover up",
+      "targetMeaningZh": "遮蓋身體以保護皮膚"
+    },
+    {
+      "id": "phrasal-verb-30-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "After planting the bulbs, Ella put a thin layer of soil over them.",
+      "promptZh": "種下球莖後，埃拉在上面鋪了一層薄薄的泥土。",
+      "starter": "After",
+      "answer": "After planting the bulbs, Ella covered them over with a thin layer of soil.",
+      "answerZh": "種下球莖後，埃拉用一層薄薄的泥土把它們完全蓋住。",
+      "highlight": "covered them over with a thin layer of soil",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "用一層物料把某物完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The café used a tall plant to hide the damaged corner without blocking the door.",
+      "promptZh": "咖啡店用一棵高大的植物遮住破損的牆角，同時沒有阻塞門口。",
+      "starter": "The",
+      "answer": "The café used a tall plant to cover up the damaged corner without blocking the door.",
+      "answerZh": "咖啡店用一棵高大的植物遮住破損的牆角，同時沒有阻塞門口。",
+      "highlight": "cover up the damaged corner without blocking the door",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    },
+    {
+      "id": "phrasal-verb-30-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The fact that the money was missing could not be hidden once someone checked the records.",
+      "promptZh": "有人檢查紀錄後，金錢失蹤的事實便無法再被隱瞞。",
+      "starter": "The",
+      "answer": "The fact that the money was missing could not be covered up once someone checked the records.",
+      "answerZh": "有人檢查紀錄後，金錢失蹤的事實便無法再被隱瞞。",
+      "highlight": "covered up once someone checked the records",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "隱瞞真相或問題"
+    },
+    {
+      "id": "phrasal-verb-30-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "To keep the food clean, put foil over the bowl before placing it in the fridge.",
+      "promptZh": "為了保持食物清潔，把碗放進雪櫃前先用錫紙蓋住。",
+      "starter": "To",
+      "answer": "To keep the food clean, cover the bowl over with foil before placing it in the fridge.",
+      "answerZh": "為了保持食物清潔，把碗放進雪櫃前先用錫紙完全蓋住。",
+      "highlight": "cover the bowl over with foil",
+      "targetForm": "cover something over with something",
+      "targetMeaningZh": "用一層物料把某物完全蓋住"
+    },
+    {
+      "id": "phrasal-verb-30-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The children wore light clothes that covered their skin to avoid insect bites beside the lake at sunset.",
+      "promptZh": "黃昏時在湖邊活動期間，孩子們穿上薄衣物遮蓋皮膚，以免被昆蟲叮咬。",
+      "starter": "The",
+      "answer": "The children covered themselves up with light clothes to avoid insect bites beside the lake at sunset.",
+      "answerZh": "黃昏時在湖邊活動期間，孩子們穿上薄衣物遮蓋身體，以免被昆蟲叮咬。",
+      "highlight": "covered themselves up with light clothes",
+      "targetForm": "cover yourself up with something",
+      "targetMeaningZh": "用衣物遮蓋自己的身體"
+    },
+    {
+      "id": "phrasal-verb-30-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Instead of telling the truth, the two friends agreed to keep the accident secret.",
+      "promptZh": "兩名朋友沒有說出真相，反而同意隱瞞那宗事故。",
+      "starter": "Instead",
+      "answer": "Instead of telling the truth, the two friends agreed to cover up the accident.",
+      "answerZh": "兩名朋友沒有說出真相，反而同意隱瞞那宗事故。",
+      "highlight": "cover up the accident",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "隱瞞事件或真相"
+    },
+    {
+      "id": "phrasal-verb-30-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The organisers hid the unfinished wall with a folding screen during the school event.",
+      "promptZh": "學校活動期間，主辦人員用摺疊屏風遮住尚未完成裝修的牆面。",
+      "starter": "The",
+      "answer": "The organisers covered up the unfinished wall with a folding screen during the school event.",
+      "answerZh": "學校活動期間，主辦人員用摺疊屏風遮住尚未完成裝修的牆面。",
+      "highlight": "covered up the unfinished wall",
+      "targetForm": "cover something up",
+      "targetMeaningZh": "遮住某物，使其看不見"
+    }
+  ]
+}

@@ -1,17 +1,18 @@
-import { ACCEPTED_ANSWERS } from "./catalog.js";
+import { ACCEPTED_ANSWERS, LESSON_QUESTION_COUNTS } from "./catalog.js";
 
 const SERVICE_NAME = "edmund-phrasal-verb-system";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const LESSON_IDS = new Set(["phrasal-verb-01"]);
+const LESSON_IDS = new Set(Object.keys(LESSON_QUESTION_COUNTS));
+const TOTAL_QUESTIONS = Object.values(LESSON_QUESTION_COUNTS)
+  .reduce((total, count) => total + Number(count || 0), 0);
 const CONTENT_VERSION = "1";
-const QUESTIONS_PER_LESSON = 70;
 const SECTION_BOOKMARK_ID = "__section__";
 const CONTROL_RE = /[\u0000-\u001f\u007f]/;
 const MAX_LOGIN_BODY_BYTES = 4096;
 const MAX_ATTEMPT_BODY_BYTES = 128 * 1024;
 const MAX_ATTEMPT_RESULT_BYTES = 96 * 1024;
-const MAX_BOOKMARK_BODY_BYTES = 64 * 1024;
-const MAX_BOOKMARKS = 71;
+const MAX_BOOKMARK_BODY_BYTES = 256 * 1024;
+const MAX_BOOKMARKS = TOTAL_QUESTIONS + LESSON_IDS.size;
 const BOOKMARK_PAGE_SIZE = 100;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_ATTEMPTS = 100;
@@ -46,10 +47,19 @@ const SPELLING_EQUIVALENTS = Object.freeze({
 });
 
 function answerCatalogReadiness() {
-  const expectedIds = Array.from(
-    { length: QUESTIONS_PER_LESSON },
-    (_, index) => `phrasal-verb-01-q${String(index + 1).padStart(2, "0")}`
+  const expectedLessonIds = Array.from(
+    { length: LESSON_IDS.size },
+    (_, index) => `phrasal-verb-${String(index + 1).padStart(2, "0")}`
   );
+  const countsReady = expectedLessonIds.every((lessonId) => (
+    Number.isInteger(LESSON_QUESTION_COUNTS[lessonId])
+    && LESSON_QUESTION_COUNTS[lessonId] >= 1
+    && LESSON_QUESTION_COUNTS[lessonId] <= 99
+  ));
+  const expectedIds = countsReady ? expectedLessonIds.flatMap((lessonId) => Array.from(
+    { length: LESSON_QUESTION_COUNTS[lessonId] },
+    (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
+  )) : [];
   const actualIds = Object.keys(ACCEPTED_ANSWERS);
   const expectedSet = new Set(expectedIds);
   const validQuestionIds = actualIds.filter(questionId => {
@@ -65,7 +75,9 @@ function answerCatalogReadiness() {
         && !CONTROL_RE.test(answer)
       ));
   });
-  const valid = actualIds.length === expectedIds.length
+  const valid = countsReady
+    && expectedLessonIds.every((lessonId) => LESSON_IDS.has(lessonId))
+    && actualIds.length === expectedIds.length
     && validQuestionIds.length === expectedIds.length;
   return Object.freeze({
     ready: valid,
@@ -582,10 +594,8 @@ function postgresJsonbTextByteLength(value) {
 
 function validQuestionId(lessonId, questionId) {
   if (!LESSON_IDS.has(lessonId) || typeof questionId !== "string") return false;
-  const match = questionId.match(/^(phrasal-verb-01)-q(\d{2})$/);
-  if (!match || match[1] !== lessonId) return false;
-  const number = Number(match[2]);
-  return number >= 1 && number <= QUESTIONS_PER_LESSON;
+  if (!questionId.startsWith(`${lessonId}-q`)) return false;
+  return Object.prototype.hasOwnProperty.call(ACCEPTED_ANSWERS, questionId);
 }
 
 function normalizeAnswer(value) {
@@ -863,7 +873,7 @@ function normalizeAttemptPayload(payload) {
   if (!Number.isInteger(payload.roundNumber) || payload.roundNumber < 1 || payload.roundNumber > 1000) {
     throw new HttpError(400, "INVALID_ATTEMPT", "roundNumber is invalid");
   }
-  if (payload.totalCount !== QUESTIONS_PER_LESSON) {
+  if (payload.totalCount !== LESSON_QUESTION_COUNTS[payload.lessonId]) {
     throw new HttpError(400, "INVALID_ATTEMPT", "totalCount is invalid");
   }
   if (

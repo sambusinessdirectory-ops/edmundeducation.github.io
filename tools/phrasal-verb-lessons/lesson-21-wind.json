@@ -1,0 +1,1530 @@
+{
+  "id": "phrasal-verb-21",
+  "order": 21,
+  "slug": "wind",
+  "version": "1",
+  "title": "WIND 動詞片語",
+  "titleEn": "Wind",
+  "titleZh": "WIND 動詞片語",
+  "level": "",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 20 - Wind.pdf",
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WIND 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WIND."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WIND",
+      "highlight": "WIND"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "It takes me a while to wind down after work.",
+      "zh": "我下班後需要一段時間才能慢慢放鬆下來。",
+      "highlight": "wind down"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The shop is winding down its delivery service.",
+      "zh": "這間店舖正逐步縮減送貨服務，直至結束。",
+      "highlight": "winding down"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "We missed the bus and wound up walking home.",
+      "zh": "我們錯過了巴士，最後只好步行回家。",
+      "highlight": "wound up"
+    }
+  ],
+  "meaning": {
+    "zh": "工作、活動或興奮過後慢慢放鬆；逐步縮減某項活動、服務或業務，直至結束；最後落得某種結果或做了某事，通常並非原先的計劃；結束講話、會議或活動；故意逗弄、戲弄或惹惱某人；轉動發條或小把手，使時鐘、手錶或玩具運作。",
+    "en": "Learn and practise the phrasal verbs related to WIND.",
+    "naturalZh": [
+      "工作、活動或興奮過後慢慢放鬆",
+      "逐步縮減某項活動、服務或業務，直至結束",
+      "最後落得某種結果或做了某事，通常並非原先的計劃",
+      "結束講話、會議或活動",
+      "故意逗弄、戲弄或惹惱某人",
+      "轉動發條或小把手，使時鐘、手錶或玩具運作"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "wind down",
+      "titleZh": "工作、活動或興奮過後慢慢放鬆",
+      "titleEn": "wind down",
+      "descriptionZh": "工作、活動或興奮過後慢慢放鬆",
+      "descriptionEn": "It takes me a while to wind down after work.",
+      "examples": [
+        {
+          "en": "It takes me a while to wind down after work.",
+          "zh": "我下班後需要一段時間才能慢慢放鬆下來。",
+          "highlight": "wind down"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "wind something down",
+      "titleZh": "逐步縮減某項活動、服務或業務，直至結束",
+      "titleEn": "wind something down",
+      "descriptionZh": "逐步縮減某項活動、服務或業務，直至結束",
+      "descriptionEn": "The shop is winding down its delivery service.",
+      "examples": [
+        {
+          "en": "The shop is winding down its delivery service.",
+          "zh": "這間店舖正逐步縮減送貨服務，直至結束。",
+          "highlight": "winding down"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "wind up / wind up doing something",
+      "titleZh": "最後落得某種結果或做了某事，通常並非原先的計劃",
+      "titleEn": "wind up / wind up doing something",
+      "descriptionZh": "最後落得某種結果或做了某事，通常並非原先的計劃",
+      "descriptionEn": "We missed the bus and wound up walking home.",
+      "examples": [
+        {
+          "en": "We missed the bus and wound up walking home.",
+          "zh": "我們錯過了巴士，最後只好步行回家。",
+          "highlight": "wound up"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 2,
+      "formula": "wind up / wind something up",
+      "titleZh": "結束講話、會議或活動",
+      "titleEn": "wind up / wind something up",
+      "descriptionZh": "結束講話、會議或活動",
+      "descriptionEn": "Let us wind up the meeting now.",
+      "examples": [
+        {
+          "en": "Let us wind up the meeting now.",
+          "zh": "我們現在結束會議吧。",
+          "highlight": "wind up"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "pageGroup": 2,
+      "formula": "wind somebody up",
+      "titleZh": "故意逗弄、戲弄或惹惱某人",
+      "titleEn": "wind somebody up",
+      "descriptionZh": "故意逗弄、戲弄或惹惱某人",
+      "descriptionEn": "Leo is only winding you up.",
+      "examples": [
+        {
+          "en": "Leo is only winding you up.",
+          "zh": "里奧只是在逗你。",
+          "highlight": "winding you up"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "wind something up",
+      "titleZh": "轉動發條或小把手，使時鐘、手錶或玩具運作",
+      "titleEn": "wind something up",
+      "descriptionZh": "轉動發條或小把手，使時鐘、手錶或玩具運作",
+      "descriptionEn": "Please wind the clock up.",
+      "examples": [
+        {
+          "en": "Please wind the clock up.",
+          "zh": "請替這個時鐘上緊發條。",
+          "highlight": "wind the clock up"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 WIND 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to WIND.",
+    "contextsZh": [
+      "工作、活動或興奮過後慢慢放鬆",
+      "逐步縮減某項活動、服務或業務，直至結束",
+      "最後落得某種結果或做了某事，通常並非原先的計劃",
+      "結束講話、會議或活動",
+      "故意逗弄、戲弄或惹惱某人",
+      "轉動發條或小把手，使時鐘、手錶或玩具運作"
+    ],
+    "contextsEn": [
+      "wind down",
+      "wind something down",
+      "wind up / wind up doing something",
+      "wind up / wind something up",
+      "wind somebody up",
+      "wind something up"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 WIND 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WIND expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "WIND",
+    "fixedHighlight": "WIND",
+    "fixedZh": "閱讀整句，選出意思相同的 WIND 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WIND expression that gives the same meaning.",
+    "correct": "wind down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 wind down 有兩種常見用法。人可以 wind down，表示慢慢放鬆；服務或活動也可以逐步 wind down，表示逐漸縮減直至結束。 在 WIND ... UP 中使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Wind down has two common uses. A person can wind down and relax, while a service or activity can be wound down slowly before it ends. When using him, her, it or them in a WIND ... UP expression, place the word as shown: wind him up wind it up",
+    "variableItemsZh": [
+      "工作、活動或興奮過後慢慢放鬆",
+      "逐步縮減某項活動、服務或業務，直至結束",
+      "最後落得某種結果或做了某事，通常並非原先的計劃",
+      "結束講話、會議或活動",
+      "故意逗弄、戲弄或惹惱某人",
+      "轉動發條或小把手，使時鐘、手錶或玩具運作"
+    ],
+    "variableItemsEn": [
+      "wind down",
+      "wind something down",
+      "wind up / wind up doing something",
+      "wind up / wind something up",
+      "wind somebody up",
+      "wind something up"
+    ],
+    "forms": [
+      {
+        "formZh": "工作、活動或興奮過後慢慢放鬆",
+        "formEn": "wind down",
+        "exampleZh": "我下班後需要一段時間才能慢慢放鬆下來。",
+        "exampleEn": "It takes me a while to wind down after work.",
+        "highlight": "wind down"
+      },
+      {
+        "formZh": "逐步縮減某項活動、服務或業務，直至結束",
+        "formEn": "wind something down",
+        "exampleZh": "這間店舖正逐步縮減送貨服務，直至結束。",
+        "exampleEn": "The shop is winding down its delivery service.",
+        "highlight": "winding down"
+      },
+      {
+        "formZh": "最後落得某種結果或做了某事，通常並非原先的計劃",
+        "formEn": "wind up / wind up doing something",
+        "exampleZh": "我們錯過了巴士，最後只好步行回家。",
+        "exampleEn": "We missed the bus and wound up walking home.",
+        "highlight": "wound up"
+      },
+      {
+        "formZh": "結束講話、會議或活動",
+        "formEn": "wind up / wind something up",
+        "exampleZh": "我們現在結束會議吧。",
+        "exampleEn": "Let us wind up the meeting now.",
+        "highlight": "wind up"
+      },
+      {
+        "formZh": "故意逗弄、戲弄或惹惱某人",
+        "formEn": "wind somebody up",
+        "exampleZh": "里奧只是在逗你。",
+        "exampleEn": "Leo is only winding you up.",
+        "highlight": "winding you up"
+      },
+      {
+        "formZh": "轉動發條或小把手，使時鐘、手錶或玩具運作",
+        "formEn": "wind something up",
+        "exampleZh": "請替這個時鐘上緊發條。",
+        "exampleEn": "Please wind the clock up.",
+        "highlight": "wind the clock up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "工作、活動或興奮過後慢慢放鬆",
+      "titleEn": "wind down",
+      "formula": "wind down",
+      "highlight": "wind down",
+      "descriptionZh": "工作、活動或興奮過後慢慢放鬆",
+      "descriptionEn": "It takes me a while to wind down after work.",
+      "examples": [
+        {
+          "en": "It takes me a while to wind down after work.",
+          "zh": "我下班後需要一段時間才能慢慢放鬆下來。",
+          "highlight": "wind down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "逐步縮減某項活動、服務或業務，直至結束",
+      "titleEn": "wind something down",
+      "formula": "wind something down",
+      "highlight": "wind something down",
+      "descriptionZh": "逐步縮減某項活動、服務或業務，直至結束",
+      "descriptionEn": "The shop is winding down its delivery service.",
+      "examples": [
+        {
+          "en": "The shop is winding down its delivery service.",
+          "zh": "這間店舖正逐步縮減送貨服務，直至結束。",
+          "highlight": "winding down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "最後落得某種結果或做了某事，通常並非原先的計劃",
+      "titleEn": "wind up / wind up doing something",
+      "formula": "wind up / wind up doing something",
+      "highlight": "wind up / wind up doing something",
+      "descriptionZh": "最後落得某種結果或做了某事，通常並非原先的計劃",
+      "descriptionEn": "We missed the bus and wound up walking home.",
+      "examples": [
+        {
+          "en": "We missed the bus and wound up walking home.",
+          "zh": "我們錯過了巴士，最後只好步行回家。",
+          "highlight": "wound up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "結束講話、會議或活動",
+      "titleEn": "wind up / wind something up",
+      "formula": "wind up / wind something up",
+      "highlight": "wind up / wind something up",
+      "descriptionZh": "結束講話、會議或活動",
+      "descriptionEn": "Let us wind up the meeting now.",
+      "examples": [
+        {
+          "en": "Let us wind up the meeting now.",
+          "zh": "我們現在結束會議吧。",
+          "highlight": "wind up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "故意逗弄、戲弄或惹惱某人",
+      "titleEn": "wind somebody up",
+      "formula": "wind somebody up",
+      "highlight": "wind somebody up",
+      "descriptionZh": "故意逗弄、戲弄或惹惱某人",
+      "descriptionEn": "Leo is only winding you up.",
+      "examples": [
+        {
+          "en": "Leo is only winding you up.",
+          "zh": "里奧只是在逗你。",
+          "highlight": "winding you up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "轉動發條或小把手，使時鐘、手錶或玩具運作",
+      "titleEn": "wind something up",
+      "formula": "wind something up",
+      "highlight": "wind something up",
+      "descriptionZh": "轉動發條或小把手，使時鐘、手錶或玩具運作",
+      "descriptionEn": "Please wind the clock up.",
+      "examples": [
+        {
+          "en": "Please wind the clock up.",
+          "zh": "請替這個時鐘上緊發條。",
+          "highlight": "wind the clock up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論由忙碌或興奮慢慢回復平靜",
+      "titleEn": "Talk about moving from a busy state to a calm one",
+      "zh": "wind down 可以用來描述工作、旅程、溫習或刺激活動後慢慢放鬆的過程。",
+      "en": "Wind down helps you describe relaxing after work, travelling, studying or an exciting activity."
+    },
+    {
+      "titleZh": "描述事情以不同方式結束",
+      "titleEn": "Describe different ways in which something ends",
+      "zh": "wind something down 表示逐步縮減，直至結束；wind up 則可以表示結束講話、會議或活動。",
+      "en": "Wind something down describes a slow reduction before something ends. Wind up describes bringing a talk, meeting or activity to an end."
+    },
+    {
+      "titleZh": "說明意料之外的最終結果",
+      "titleEn": "Explain an unexpected final result",
+      "zh": "wind up 和 wind up doing something 可以說明事情最後變成怎樣，尤其適合描述並非原先計劃的結果。",
+      "en": "Wind up and wind up doing something help you explain what eventually happened, especially when it was not part of the original plan."
+    },
+    {
+      "titleZh": "理解玩笑和傳統物件的相關表達",
+      "titleEn": "Understand jokes and traditional objects",
+      "zh": "wind somebody up 可以描述某人故意逗弄別人；wind something up 也可以表示替時鐘或玩具上緊發條。",
+      "en": "Wind somebody up is useful when someone is teasing another person. Wind something up can also describe making a clock or toy work."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "工作、活動或興奮過後慢慢放鬆",
+      "逐步縮減某項活動、服務或業務，直至結束",
+      "最後落得某種結果或做了某事，通常並非原先的計劃",
+      "結束講話、會議或活動",
+      "故意逗弄、戲弄或惹惱某人",
+      "轉動發條或小把手，使時鐘、手錶或玩具運作"
+    ],
+    "contextsEn": [
+      "wind down",
+      "wind something down",
+      "wind up / wind up doing something",
+      "wind up / wind something up",
+      "wind somebody up",
+      "wind something up"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "工作、活動或興奮過後慢慢放鬆",
+        "titleEn": "wind down",
+        "zh": "工作、活動或興奮過後慢慢放鬆",
+        "en": "It takes me a while to wind down after work.",
+        "examples": [
+          {
+            "en": "It takes me a while to wind down after work.",
+            "zh": "我下班後需要一段時間才能慢慢放鬆下來。",
+            "highlight": "wind down"
+          }
+        ]
+      },
+      {
+        "titleZh": "逐步縮減某項活動、服務或業務，直至結束",
+        "titleEn": "wind something down",
+        "zh": "逐步縮減某項活動、服務或業務，直至結束",
+        "en": "The shop is winding down its delivery service.",
+        "examples": [
+          {
+            "en": "The shop is winding down its delivery service.",
+            "zh": "這間店舖正逐步縮減送貨服務，直至結束。",
+            "highlight": "winding down"
+          }
+        ]
+      },
+      {
+        "titleZh": "最後落得某種結果或做了某事，通常並非原先的計劃",
+        "titleEn": "wind up / wind up doing something",
+        "zh": "最後落得某種結果或做了某事，通常並非原先的計劃",
+        "en": "We missed the bus and wound up walking home.",
+        "examples": [
+          {
+            "en": "We missed the bus and wound up walking home.",
+            "zh": "我們錯過了巴士，最後只好步行回家。",
+            "highlight": "wound up"
+          }
+        ]
+      },
+      {
+        "titleZh": "結束講話、會議或活動",
+        "titleEn": "wind up / wind something up",
+        "zh": "結束講話、會議或活動",
+        "en": "Let us wind up the meeting now.",
+        "examples": [
+          {
+            "en": "Let us wind up the meeting now.",
+            "zh": "我們現在結束會議吧。",
+            "highlight": "wind up"
+          }
+        ]
+      },
+      {
+        "titleZh": "故意逗弄、戲弄或惹惱某人",
+        "titleEn": "wind somebody up",
+        "zh": "故意逗弄、戲弄或惹惱某人",
+        "en": "Leo is only winding you up.",
+        "examples": [
+          {
+            "en": "Leo is only winding you up.",
+            "zh": "里奧只是在逗你。",
+            "highlight": "winding you up"
+          }
+        ]
+      },
+      {
+        "titleZh": "轉動發條或小把手，使時鐘、手錶或玩具運作",
+        "titleEn": "wind something up",
+        "zh": "轉動發條或小把手，使時鐘、手錶或玩具運作",
+        "en": "Please wind the clock up.",
+        "examples": [
+          {
+            "en": "Please wind the clock up.",
+            "zh": "請替這個時鐘上緊發條。",
+            "highlight": "wind the clock up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 WIND 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WIND expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 WIND 片語動詞。",
+      "en": "Read the whole sentence and choose the WIND expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "wind down 有兩種常見用法。人可以 wind down，表示慢慢放鬆；服務或活動也可以逐步 wind down，表示逐漸縮減直至結束。",
+      "titleEn": "Wind down has two common uses. A person can wind down and relax, while a service or activity can be wound down slowly before it ends.",
+      "zh": "wind down 有兩種常見用法。人可以 wind down，表示慢慢放鬆；服務或活動也可以逐步 wind down，表示逐漸縮減直至結束。",
+      "en": "Wind down has two common uses. A person can wind down and relax, while a service or activity can be wound down slowly before it ends."
+    },
+    {
+      "titleZh": "在 WIND ... UP 中使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them in a WIND ... UP expression, place the word as shown: wind him up wind it up",
+      "zh": "在 WIND ... UP 中使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them in a WIND ... UP expression, place the word as shown: wind him up wind it up",
+      "examples": [
+        {
+          "en": "wind him up",
+          "zh": "wind him up",
+          "highlight": "wind him up"
+        },
+        {
+          "en": "wind it up",
+          "zh": "wind it up",
+          "highlight": "wind it up"
+        }
+      ]
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WIND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WIND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WIND 動詞片語句子改寫練習",
+    "titleEn": "WIND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WIND 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WIND. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-21-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "I need some time to relax after a busy day at work.",
+      "promptZh": "忙碌工作一天後，我需要一些時間放鬆。",
+      "starter": "I",
+      "answer": "I need some time to wind down after a busy day at work.",
+      "answerZh": "忙碌工作一天後，我需要一些時間慢慢放鬆。",
+      "highlight": "wind down",
+      "targetForm": "wind down",
+      "targetMeaningZh": "慢慢放鬆"
+    },
+    {
+      "id": "phrasal-verb-21-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Please turn the key on the toy before giving it to the child.",
+      "promptZh": "把玩具交給孩子前，請先轉動玩具上的鑰匙。",
+      "starter": "Please",
+      "answer": "Please wind the toy up before giving it to the child.",
+      "answerZh": "把玩具交給孩子前，請先替它上緊發條。",
+      "highlight": "wind the toy up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "轉動發條，使玩具運作"
+    },
+    {
+      "id": "phrasal-verb-21-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "We took the wrong bus and eventually found ourselves at the airport.",
+      "promptZh": "我們搭錯了巴士，最後竟然到了機場。",
+      "starter": "We",
+      "answer": "We took the wrong bus and wound up at the airport.",
+      "answerZh": "我們搭錯了巴士，最後竟然到了機場。",
+      "highlight": "wound up",
+      "targetForm": "wind up",
+      "targetMeaningZh": "最後落得某種結果或處於某個地方"
+    },
+    {
+      "id": "phrasal-verb-21-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The club is slowly reducing and ending its evening classes.",
+      "promptZh": "這間會所正逐步縮減並結束夜間課程。",
+      "starter": "The",
+      "answer": "The club is winding down its evening classes.",
+      "answerZh": "這間會所正逐步縮減並結束夜間課程。",
+      "highlight": "winding down",
+      "targetForm": "wind something down",
+      "targetMeaningZh": "逐步縮減並結束某項活動"
+    },
+    {
+      "id": "phrasal-verb-21-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Are you saying that only to annoy me?",
+      "promptZh": "你這樣說只是為了惹我生氣嗎？",
+      "starter": "Are",
+      "answer": "Are you saying that only to wind me up?",
+      "answerZh": "你這樣說只是為了惹我生氣嗎？",
+      "highlight": "wind me up",
+      "targetForm": "wind somebody up",
+      "targetMeaningZh": "故意逗弄或惹惱某人"
+    },
+    {
+      "id": "phrasal-verb-21-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Before I finish, I want to thank everyone.",
+      "promptZh": "在我結束前，我想感謝大家。",
+      "starter": "Before",
+      "answer": "Before I wind up, I want to thank everyone.",
+      "answerZh": "在我結束前，我想感謝大家。",
+      "highlight": "wind up",
+      "targetForm": "wind up",
+      "targetMeaningZh": "結束講話"
+    },
+    {
+      "id": "phrasal-verb-21-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "A warm shower helps Maya relax before bed.",
+      "promptZh": "洗一個暖水澡可以幫助瑪雅在睡前放鬆。",
+      "starter": "A",
+      "answer": "A warm shower helps Maya wind down before bed.",
+      "answerZh": "洗一個暖水澡可以幫助瑪雅在睡前慢慢放鬆。",
+      "highlight": "wind down",
+      "targetForm": "wind down",
+      "targetMeaningZh": "慢慢放鬆"
+    },
+    {
+      "id": "phrasal-verb-21-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "If we keep walking without a map, we may eventually get lost.",
+      "promptZh": "如果我們沒有地圖仍繼續走，最後可能會迷路。",
+      "starter": "If",
+      "answer": "If we keep walking without a map, we may wind up lost.",
+      "answerZh": "如果我們沒有地圖仍繼續走，最後可能會迷路。",
+      "highlight": "wind up",
+      "targetForm": "wind up",
+      "targetMeaningZh": "最後落得某種結果"
+    },
+    {
+      "id": "phrasal-verb-21-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Leo turned the small key and made the clock work again.",
+      "promptZh": "里奧轉動小鑰匙，讓時鐘再次運作。",
+      "starter": "Leo",
+      "answer": "Leo wound the clock up and made it work again.",
+      "answerZh": "里奧替時鐘上緊發條，讓它再次運作。",
+      "highlight": "wound the clock up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "轉動發條，使時鐘運作"
+    },
+    {
+      "id": "phrasal-verb-21-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The company slowly ended its old delivery service over three months.",
+      "promptZh": "公司用了三個月逐步結束舊有的送貨服務。",
+      "starter": "The",
+      "answer": "The company wound down its old delivery service over three months.",
+      "answerZh": "公司用了三個月逐步結束舊有的送貨服務。",
+      "highlight": "wound down",
+      "targetForm": "wind something down",
+      "targetMeaningZh": "逐步縮減並結束某項服務"
+    },
+    {
+      "id": "phrasal-verb-21-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Let us finish the meeting with one final question.",
+      "promptZh": "讓我們以最後一條問題結束會議。",
+      "starter": "Let",
+      "answer": "Let us wind up the meeting with one final question.",
+      "answerZh": "讓我們以最後一條問題結束會議。",
+      "highlight": "wind up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "結束會議或活動"
+    },
+    {
+      "id": "phrasal-verb-21-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Tom likes to tease his sister by hiding her phone.",
+      "promptZh": "湯姆喜歡把妹妹的電話藏起來逗弄她。",
+      "starter": "Tom",
+      "answer": "Tom likes to wind his sister up by hiding her phone.",
+      "answerZh": "湯姆喜歡把妹妹的電話藏起來逗弄她。",
+      "highlight": "wind his sister up",
+      "targetForm": "wind somebody up",
+      "targetMeaningZh": "故意逗弄某人"
+    },
+    {
+      "id": "phrasal-verb-21-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Ella has somehow ended up doing most of the group work.",
+      "promptZh": "埃拉不知怎的最後做了大部分小組工作。",
+      "starter": "Ella",
+      "answer": "Ella has somehow wound up doing most of the group work.",
+      "answerZh": "埃拉不知怎的最後做了大部分小組工作。",
+      "highlight": "wound up",
+      "targetForm": "wind up doing something",
+      "targetMeaningZh": "最後做了某事"
+    },
+    {
+      "id": "phrasal-verb-21-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The children are slowly relaxing after the exciting game.",
+      "promptZh": "孩子們正在刺激的比賽後慢慢放鬆。",
+      "starter": "The",
+      "answer": "The children are winding down after the exciting game.",
+      "answerZh": "孩子們正在刺激的比賽後慢慢放鬆。",
+      "highlight": "winding down",
+      "targetForm": "wind down",
+      "targetMeaningZh": "慢慢放鬆"
+    },
+    {
+      "id": "phrasal-verb-21-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The teacher will finish the lesson at three o’clock.",
+      "promptZh": "老師會在三時結束課堂。",
+      "starter": "The",
+      "answer": "The teacher will wind up the lesson at three o’clock.",
+      "answerZh": "老師會在三時結束課堂。",
+      "highlight": "wind up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "結束活動"
+    },
+    {
+      "id": "phrasal-verb-21-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why are you deliberately annoying him?",
+      "promptZh": "你為甚麼故意惹他生氣？",
+      "starter": "Why",
+      "answer": "Why are you deliberately winding him up?",
+      "answerZh": "你為甚麼故意惹他生氣？",
+      "highlight": "winding him up",
+      "targetForm": "wind somebody up",
+      "targetMeaningZh": "故意逗弄或惹惱某人"
+    },
+    {
+      "id": "phrasal-verb-21-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The council has slowly reduced the free bus service and is now close to ending it.",
+      "promptZh": "市議會已逐步縮減免費巴士服務，現在接近完全結束該服務。",
+      "starter": "The",
+      "answer": "The council has almost wound down the free bus service.",
+      "answerZh": "市議會已差不多完成逐步縮減免費巴士服務的工作。",
+      "highlight": "wound down",
+      "targetForm": "wind something down",
+      "targetMeaningZh": "逐步縮減並結束某項服務"
+    },
+    {
+      "id": "phrasal-verb-21-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Did you turn the key on the music box?",
+      "promptZh": "你有轉動音樂盒上的鑰匙嗎？",
+      "starter": "Did",
+      "answer": "Did you wind the music box up?",
+      "answerZh": "你有替音樂盒上緊發條嗎？",
+      "highlight": "wind the music box up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "轉動發條，使音樂盒運作"
+    },
+    {
+      "id": "phrasal-verb-21-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "I cannot relax while I am still checking work messages.",
+      "promptZh": "我仍在查看工作訊息時，無法放鬆。",
+      "starter": "I",
+      "answer": "I cannot wind down while I am still checking work messages.",
+      "answerZh": "我仍在查看工作訊息時，無法放鬆。",
+      "highlight": "wind down",
+      "targetForm": "wind down",
+      "targetMeaningZh": "慢慢放鬆"
+    },
+    {
+      "id": "phrasal-verb-21-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "This toy stops unless you turn its key every few minutes.",
+      "promptZh": "除非你每隔幾分鐘轉動一次鑰匙，否則這個玩具會停下來。",
+      "starter": "This",
+      "answer": "This toy stops unless you wind it up every few minutes.",
+      "answerZh": "除非你每隔幾分鐘替它上緊發條，否則這個玩具會停下來。",
+      "highlight": "wind it up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "轉動發條，使玩具運作"
+    },
+    {
+      "id": "phrasal-verb-21-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The school is slowly ending the old lunch programme.",
+      "promptZh": "學校正逐步結束舊有的午膳計劃。",
+      "starter": "The",
+      "answer": "The school is winding down the old lunch programme.",
+      "answerZh": "學校正逐步結束舊有的午膳計劃。",
+      "highlight": "winding down",
+      "targetForm": "wind something down",
+      "targetMeaningZh": "逐步縮減並結束某項計劃"
+    },
+    {
+      "id": "phrasal-verb-21-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Has the speaker finished her talk yet?",
+      "promptZh": "講者已經結束講話了嗎？",
+      "starter": "Has",
+      "answer": "Has the speaker wound up yet?",
+      "answerZh": "講者已經結束講話了嗎？",
+      "highlight": "wound up",
+      "targetForm": "wind up",
+      "targetMeaningZh": "結束講話"
+    },
+    {
+      "id": "phrasal-verb-21-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "My cousins often tease me about my old haircut.",
+      "promptZh": "我的表兄弟姊妹經常拿我的舊髮型來逗我。",
+      "starter": "My",
+      "answer": "My cousins often wind me up about my old haircut.",
+      "answerZh": "我的表兄弟姊妹經常拿我的舊髮型來逗我。",
+      "highlight": "wind me up",
+      "targetForm": "wind somebody up",
+      "targetMeaningZh": "故意逗弄某人"
+    },
+    {
+      "id": "phrasal-verb-21-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "How did we end up spending all afternoon in that shop?",
+      "promptZh": "我們怎會最後在那間店舖逛了一整個下午？",
+      "starter": "How",
+      "answer": "How did we wind up spending all afternoon in that shop?",
+      "answerZh": "我們怎會最後在那間店舖逛了一整個下午？",
+      "highlight": "wind up",
+      "targetForm": "wind up doing something",
+      "targetMeaningZh": "最後做了某事"
+    },
+    {
+      "id": "phrasal-verb-21-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The library plans to reduce the evening service slowly over the next month before ending it.",
+      "promptZh": "圖書館計劃在下個月逐步縮減夜間服務，然後將它結束。",
+      "starter": "The",
+      "answer": "The library plans to wind down the evening service over the next month.",
+      "answerZh": "圖書館計劃在下個月逐步縮減並結束夜間服務。",
+      "highlight": "wind down",
+      "targetForm": "wind something down",
+      "targetMeaningZh": "逐步縮減並結束某項服務"
+    },
+    {
+      "id": "phrasal-verb-21-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Nora told me that the test was today, but she was only teasing me.",
+      "promptZh": "諾拉告訴我測驗在今天舉行，但她只是在戲弄我。",
+      "starter": "Nora",
+      "answer": "Nora told me that the test was today, but she was only winding me up.",
+      "answerZh": "諾拉告訴我測驗在今天舉行，但她只是在戲弄我。",
+      "highlight": "winding me up",
+      "targetForm": "wind somebody up",
+      "targetMeaningZh": "故意戲弄某人"
+    },
+    {
+      "id": "phrasal-verb-21-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The clock has stopped. Could you turn its key for me?",
+      "promptZh": "時鐘停了。你可以替我轉動它的鑰匙嗎？",
+      "starter": "The",
+      "answer": "The clock has stopped. Could you wind it up for me?",
+      "answerZh": "時鐘停了。你可以替我為它上緊發條嗎？",
+      "highlight": "wind it up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "轉動發條，使時鐘運作"
+    },
+    {
+      "id": "phrasal-verb-21-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We meant to cook at home, but we eventually ate at a café.",
+      "promptZh": "我們原本打算在家煮食，但最後去了咖啡店吃東西。",
+      "starter": "We",
+      "answer": "We meant to cook at home, but we wound up eating at a café.",
+      "answerZh": "我們原本打算在家煮食，但最後去了咖啡店吃東西。",
+      "highlight": "wound up",
+      "targetForm": "wind up doing something",
+      "targetMeaningZh": "最後做了某事"
+    },
+    {
+      "id": "phrasal-verb-21-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The host thanked the guests and then brought the show to an end.",
+      "promptZh": "主持人感謝嘉賓，然後結束節目。",
+      "starter": "The",
+      "answer": "The host thanked the guests and then wound up the show.",
+      "answerZh": "主持人感謝嘉賓，然後結束節目。",
+      "highlight": "wound up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "結束活動或節目"
+    },
+    {
+      "id": "phrasal-verb-21-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "After the long journey, it took us an hour to relax.",
+      "promptZh": "長途旅程後，我們花了一小時才放鬆下來。",
+      "starter": "After",
+      "answer": "After the long journey, it took us an hour to wind down.",
+      "answerZh": "長途旅程後，我們花了一小時才慢慢放鬆下來。",
+      "highlight": "wind down",
+      "targetForm": "wind down",
+      "targetMeaningZh": "慢慢放鬆"
+    },
+    {
+      "id": "phrasal-verb-21-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Mina found the old toy and turned the key until it began to move.",
+      "promptZh": "米娜找到那個舊玩具，並轉動鑰匙，直到它開始移動。",
+      "starter": "Mina",
+      "answer": "Mina found the old toy and wound it up until it began to move.",
+      "answerZh": "米娜找到那個舊玩具，並替它上緊發條，直到它開始移動。",
+      "highlight": "wound it up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "轉動發條，使玩具運作"
+    },
+    {
+      "id": "phrasal-verb-21-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The managers agreed to reduce the night shift slowly over six weeks and then end it.",
+      "promptZh": "經理們同意用六星期逐步縮減夜班，然後將它結束。",
+      "starter": "The",
+      "answer": "The managers agreed to wind down the night shift over six weeks.",
+      "answerZh": "經理們同意用六星期逐步縮減並結束夜班。",
+      "highlight": "wind down",
+      "targetForm": "wind something down",
+      "targetMeaningZh": "逐步縮減並結束某項工作"
+    },
+    {
+      "id": "phrasal-verb-21-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The lights were low, and soft music helped everyone become calm.",
+      "promptZh": "燈光很柔和，輕柔的音樂幫助大家慢慢平靜下來。",
+      "starter": "The",
+      "answer": "The lights were low, and soft music helped everyone wind down.",
+      "answerZh": "燈光很柔和，輕柔的音樂幫助大家慢慢平靜下來。",
+      "highlight": "wind down",
+      "targetForm": "wind down",
+      "targetMeaningZh": "慢慢放鬆或平靜下來"
+    },
+    {
+      "id": "phrasal-verb-21-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We have only five minutes left, so please finish the discussion.",
+      "promptZh": "我們只剩下五分鐘，所以請結束討論。",
+      "starter": "We",
+      "answer": "We have only five minutes left, so please wind up the discussion.",
+      "answerZh": "我們只剩下五分鐘，所以請結束討論。",
+      "highlight": "wind up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "結束討論"
+    },
+    {
+      "id": "phrasal-verb-21-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Sam did not plan to join the race, but he somehow ended up taking part.",
+      "promptZh": "森原本沒有打算參賽，但不知怎的最後參加了。",
+      "starter": "Sam",
+      "answer": "Sam did not plan to join the race, but he somehow wound up taking part.",
+      "answerZh": "森原本沒有打算參賽，但不知怎的最後參加了。",
+      "highlight": "wound up",
+      "targetForm": "wind up doing something",
+      "targetMeaningZh": "最後做了某事"
+    },
+    {
+      "id": "phrasal-verb-21-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "I believed the story for a minute before I realised that they were teasing me.",
+      "promptZh": "我有一會兒相信了那個故事，後來才發現他們在戲弄我。",
+      "starter": "I",
+      "answer": "I believed the story for a minute before I realised that they were winding me up.",
+      "answerZh": "我有一會兒相信了那個故事，後來才發現他們在戲弄我。",
+      "highlight": "winding me up",
+      "targetForm": "wind somebody up",
+      "targetMeaningZh": "故意戲弄某人"
+    },
+    {
+      "id": "phrasal-verb-21-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The event is almost over, so the host will finish it with the prize draw.",
+      "promptZh": "活動即將完結，所以主持人會以抽獎作結。",
+      "starter": "The",
+      "answer": "The event is almost over, so the host will wind it up with the prize draw.",
+      "answerZh": "活動即將完結，所以主持人會以抽獎作結。",
+      "highlight": "wind it up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "結束活動"
+    },
+    {
+      "id": "phrasal-verb-21-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The factory will reduce production little by little before it closes next year.",
+      "promptZh": "工廠會逐步減少生產量，然後在明年關閉。",
+      "starter": "The",
+      "answer": "The factory will wind down production before it closes next year.",
+      "answerZh": "工廠會逐步減少生產量，然後在明年關閉。",
+      "highlight": "wind down",
+      "targetForm": "wind something down",
+      "targetMeaningZh": "逐步縮減某項工作或業務"
+    },
+    {
+      "id": "phrasal-verb-21-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "They tried to find a quiet beach but finally found themselves at a busy market.",
+      "promptZh": "他們原本想找一個安靜的海灘，但最後竟然到了一個繁忙的市場。",
+      "starter": "They",
+      "answer": "They tried to find a quiet beach but wound up at a busy market.",
+      "answerZh": "他們原本想找一個安靜的海灘，但最後竟然到了一個繁忙的市場。",
+      "highlight": "wound up",
+      "targetForm": "wind up",
+      "targetMeaningZh": "最後落得某種結果或處於某個地方"
+    },
+    {
+      "id": "phrasal-verb-21-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "This clock is not broken; it only needs someone to turn the key.",
+      "promptZh": "這個時鐘沒有壞；它只需要有人轉動鑰匙。",
+      "starter": "This",
+      "answer": "This clock is not broken; it only needs someone to wind it up.",
+      "answerZh": "這個時鐘沒有壞；它只需要有人替它上緊發條。",
+      "highlight": "wind it up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "轉動發條，使時鐘運作"
+    },
+    {
+      "id": "phrasal-verb-21-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Even after the party ended, Jo was too excited to relax.",
+      "promptZh": "即使派對已經結束，喬仍然太興奮，無法放鬆。",
+      "starter": "Even",
+      "answer": "Even after the party ended, Jo was too excited to wind down.",
+      "answerZh": "即使派對已經結束，喬仍然太興奮，無法放鬆。",
+      "highlight": "wind down",
+      "targetForm": "wind down",
+      "targetMeaningZh": "慢慢放鬆"
+    },
+    {
+      "id": "phrasal-verb-21-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Do not believe Max when he says the school is closed; he is teasing you.",
+      "promptZh": "麥斯說學校關門時不要相信他；他只是在逗你。",
+      "starter": "Do",
+      "answer": "Do not believe Max when he says the school is closed; he is winding you up.",
+      "answerZh": "麥斯說學校關門時不要相信他；他只是在逗你。",
+      "highlight": "winding you up",
+      "targetForm": "wind somebody up",
+      "targetMeaningZh": "故意逗弄或欺騙某人"
+    },
+    {
+      "id": "phrasal-verb-21-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "If you leave all the work until Friday, you may have to stay late.",
+      "promptZh": "如果你把所有工作留到星期五才做，最後可能要留至很晚。",
+      "starter": "If",
+      "answer": "If you leave all the work until Friday, you may wind up staying late.",
+      "answerZh": "如果你把所有工作留到星期五才做，最後可能要留至很晚。",
+      "highlight": "wind up",
+      "targetForm": "wind up doing something",
+      "targetMeaningZh": "最後要做某事"
+    },
+    {
+      "id": "phrasal-verb-21-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The manager made one last decision and then ended the meeting.",
+      "promptZh": "經理作出最後一項決定，然後結束會議。",
+      "starter": "The",
+      "answer": "The manager made one last decision and then wound up the meeting.",
+      "answerZh": "經理作出最後一項決定，然後結束會議。",
+      "highlight": "wound up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "結束會議"
+    },
+    {
+      "id": "phrasal-verb-21-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The radio station is gradually cutting its night programmes before stopping them completely.",
+      "promptZh": "電台正逐步減少夜間節目，然後將它們完全停止。",
+      "starter": "The",
+      "answer": "The radio station is winding down its night programmes.",
+      "answerZh": "電台正逐步減少並停止夜間節目。",
+      "highlight": "winding down",
+      "targetForm": "wind something down",
+      "targetMeaningZh": "逐步縮減並結束某項活動"
+    },
+    {
+      "id": "phrasal-verb-21-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Reading a simple book helps me become calm after studying.",
+      "promptZh": "溫習後閱讀一本簡單的書，可以幫助我慢慢平靜下來。",
+      "starter": "Reading",
+      "answer": "Reading a simple book helps me wind down after studying.",
+      "answerZh": "溫習後閱讀一本簡單的書，可以幫助我慢慢放鬆。",
+      "highlight": "wind down",
+      "targetForm": "wind down",
+      "targetMeaningZh": "慢慢放鬆"
+    },
+    {
+      "id": "phrasal-verb-21-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Why did you tell Ava that her bag had disappeared? Were you teasing her?",
+      "promptZh": "你為甚麼告訴艾娃她的手袋不見了？你是在戲弄她嗎？",
+      "starter": "Why",
+      "answer": "Why did you tell Ava that her bag had disappeared? Were you winding her up?",
+      "answerZh": "你為甚麼告訴艾娃她的手袋不見了？你是在戲弄她嗎？",
+      "highlight": "winding her up",
+      "targetForm": "wind somebody up",
+      "targetMeaningZh": "故意戲弄某人"
+    },
+    {
+      "id": "phrasal-verb-21-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "You do not charge this toy; you turn the key at the back.",
+      "promptZh": "這個玩具不用充電；你要轉動它背後的鑰匙。",
+      "starter": "You",
+      "answer": "You do not charge this toy; you wind it up with the key at the back.",
+      "answerZh": "這個玩具不用充電；你要用背後的鑰匙替它上緊發條。",
+      "highlight": "wind it up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "轉動發條，使玩具運作"
+    },
+    {
+      "id": "phrasal-verb-21-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "I often finish work feeling tense, so I sit quietly for a while until I can relax.",
+      "promptZh": "我下班時經常仍感到緊張，所以會安靜地坐一會兒，直到自己能夠放鬆。",
+      "starter": "I",
+      "answer": "I often finish work feeling tense, so I sit quietly for a while until I can wind down.",
+      "answerZh": "我下班時經常仍感到緊張，所以會安靜地坐一會兒，直到自己能夠慢慢放鬆。",
+      "highlight": "wind down",
+      "targetForm": "wind down",
+      "targetMeaningZh": "慢慢放鬆"
+    },
+    {
+      "id": "phrasal-verb-21-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "We only planned to watch one short video, but in the end we watched six.",
+      "promptZh": "我們原本只打算看一段短片，但最後看了六段。",
+      "starter": "We",
+      "answer": "We only planned to watch one short video, but we wound up watching six.",
+      "answerZh": "我們原本只打算看一段短片，但最後看了六段。",
+      "highlight": "wound up",
+      "targetForm": "wind up doing something",
+      "targetMeaningZh": "最後做了某事"
+    },
+    {
+      "id": "phrasal-verb-21-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Because fewer people use the service, the town will reduce it little by little and end it by autumn.",
+      "promptZh": "由於使用該服務的人愈來愈少，鎮政府會逐步縮減服務，並在秋季前將它結束。",
+      "starter": "Because",
+      "answer": "Because fewer people use the service, the town will wind it down by autumn.",
+      "answerZh": "由於使用該服務的人愈來愈少，鎮政府會逐步縮減服務，並在秋季前將它結束。",
+      "highlight": "wind it down",
+      "targetForm": "wind something down",
+      "targetMeaningZh": "逐步縮減並結束某項服務"
+    },
+    {
+      "id": "phrasal-verb-21-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Kai kept claiming that he had won the lottery, but he was only joking to fool us.",
+      "promptZh": "啟不斷聲稱自己中了彩票，但他只是在說笑戲弄我們。",
+      "starter": "Kai",
+      "answer": "Kai kept claiming that he had won the lottery, but he was only winding us up.",
+      "answerZh": "啟不斷聲稱自己中了彩票，但他只是在戲弄我們。",
+      "highlight": "winding us up",
+      "targetForm": "wind somebody up",
+      "targetMeaningZh": "故意戲弄某人"
+    },
+    {
+      "id": "phrasal-verb-21-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Before I finish, I would like everyone to write down one useful idea.",
+      "promptZh": "在我結束前，我希望大家寫下一個有用的想法。",
+      "starter": "Before",
+      "answer": "Before I wind up, I would like everyone to write down one useful idea.",
+      "answerZh": "在我結束前，我希望大家寫下一個有用的想法。",
+      "highlight": "wind up",
+      "targetForm": "wind up",
+      "targetMeaningZh": "結束講話"
+    },
+    {
+      "id": "phrasal-verb-21-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The little train moved for a minute after Zoe turned its key.",
+      "promptZh": "佐伊轉動小火車的鑰匙後，它移動了一分鐘。",
+      "starter": "The",
+      "answer": "The little train moved for a minute after Zoe wound it up.",
+      "answerZh": "佐伊替小火車上緊發條後，它移動了一分鐘。",
+      "highlight": "wound it up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "轉動發條，使玩具運作"
+    },
+    {
+      "id": "phrasal-verb-21-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The team will not stop the programme suddenly; it will make it smaller over several months before ending it.",
+      "promptZh": "團隊不會突然停止該計劃；他們會用數個月逐步縮減，然後將它結束。",
+      "starter": "The",
+      "answer": "The team will not stop the programme suddenly; it will wind it down over several months.",
+      "answerZh": "團隊不會突然停止該計劃；他們會用數個月逐步縮減並結束它。",
+      "highlight": "wind it down",
+      "targetForm": "wind something down",
+      "targetMeaningZh": "逐步縮減並結束某項計劃"
+    },
+    {
+      "id": "phrasal-verb-21-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "After the children are asleep, Priya makes tea and slowly becomes calm.",
+      "promptZh": "孩子們入睡後，普里雅會泡茶，讓自己慢慢平靜下來。",
+      "starter": "After",
+      "answer": "After the children are asleep, Priya makes tea and slowly winds down.",
+      "answerZh": "孩子們入睡後，普里雅會泡茶，讓自己慢慢放鬆下來。",
+      "highlight": "winds down",
+      "targetForm": "wind down",
+      "targetMeaningZh": "慢慢放鬆"
+    },
+    {
+      "id": "phrasal-verb-21-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The old watch still works, but you must turn its small key every morning.",
+      "promptZh": "這隻舊手錶仍能運作，但你每天早上都要轉動它的小鑰匙。",
+      "starter": "The",
+      "answer": "The old watch still works, but you must wind it up every morning.",
+      "answerZh": "這隻舊手錶仍能運作，但你每天早上都要替它上緊發條。",
+      "highlight": "wind it up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "轉動發條，使手錶運作"
+    },
+    {
+      "id": "phrasal-verb-21-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The chairperson thanked everyone and finished the meeting exactly on time.",
+      "promptZh": "主席感謝大家，並準時結束會議。",
+      "starter": "The",
+      "answer": "The chairperson thanked everyone and wound up the meeting exactly on time.",
+      "answerZh": "主席感謝大家，並準時結束會議。",
+      "highlight": "wound up",
+      "targetForm": "wind something up",
+      "targetMeaningZh": "結束會議"
+    },
+    {
+      "id": "phrasal-verb-21-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "I was about to cancel my trip when my friends admitted that they had been teasing me.",
+      "promptZh": "我正準備取消旅程時，朋友承認他們一直在戲弄我。",
+      "starter": "I",
+      "answer": "I was about to cancel my trip when my friends admitted that they had been winding me up.",
+      "answerZh": "我正準備取消旅程時，朋友承認他們一直在戲弄我。",
+      "highlight": "winding me up",
+      "targetForm": "wind somebody up",
+      "targetMeaningZh": "故意戲弄某人"
+    },
+    {
+      "id": "phrasal-verb-21-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Maya tried to save money by cooking, but she eventually spent more on special food.",
+      "promptZh": "瑪雅原本想透過自己煮食來省錢，但最後在特別食材上花了更多錢。",
+      "starter": "Maya",
+      "answer": "Maya tried to save money by cooking, but she wound up spending more on special food.",
+      "answerZh": "瑪雅原本想透過自己煮食來省錢，但最後在特別食材上花了更多錢。",
+      "highlight": "wound up",
+      "targetForm": "wind up doing something",
+      "targetMeaningZh": "最後做了某事"
+    }
+  ]
+}

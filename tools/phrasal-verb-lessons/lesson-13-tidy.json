@@ -1,0 +1,1262 @@
+{
+  "id": "phrasal-verb-13",
+  "order": 13,
+  "slug": "tidy",
+  "version": "1",
+  "title": "TIDY 動詞片語",
+  "titleEn": "Tidy",
+  "titleZh": "TIDY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 13 - TIDY.pdf",
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TIDY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TIDY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TIDY",
+      "highlight": "TIDY"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Please tidy your books away after class.",
+      "zh": "下課後請把書本收拾好並放回適當位置。",
+      "highlight": "tidy your books away"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "We tidied up the kitchen after dinner.",
+      "zh": "晚飯後我們把廚房收拾乾淨。",
+      "highlight": "tidied up"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Tidy yourself up before the photo.",
+      "zh": "拍照前把自己整理乾淨、打扮整齊。",
+      "highlight": "Tidy yourself up"
+    }
+  ],
+  "meaning": {
+    "zh": "把某物收拾好並放回適當位置；把地方或物品整理整齊；收拾乾淨；把某人或自己整理乾淨、打扮整齊；把文章、筆記、計劃或其他工作整理得更清楚、更完整。",
+    "en": "Learn and practise the phrasal verbs related to TIDY.",
+    "naturalZh": [
+      "把某物收拾好並放回適當位置",
+      "把地方或物品整理整齊；收拾乾淨",
+      "把某人或自己整理乾淨、打扮整齊",
+      "把文章、筆記、計劃或其他工作整理得更清楚、更完整"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "tidy something away",
+      "titleZh": "把某物收拾好並放回適當位置",
+      "titleEn": "tidy something away",
+      "descriptionZh": "把某物收拾好並放回適當位置",
+      "descriptionEn": "Please tidy your books away after class.",
+      "examples": [
+        {
+          "en": "Please tidy your books away after class.",
+          "zh": "下課後請把書本收拾好並放回適當位置。",
+          "highlight": "tidy your books away"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "tidy up / tidy something up",
+      "titleZh": "把地方或物品整理整齊；收拾乾淨",
+      "titleEn": "tidy up / tidy something up",
+      "descriptionZh": "把地方或物品整理整齊；收拾乾淨",
+      "descriptionEn": "We tidied up the kitchen after dinner.",
+      "examples": [
+        {
+          "en": "We tidied up the kitchen after dinner.",
+          "zh": "晚飯後我們把廚房收拾乾淨。",
+          "highlight": "tidied up"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "tidy somebody up / tidy yourself up",
+      "titleZh": "把某人或自己整理乾淨、打扮整齊",
+      "titleEn": "tidy somebody up / tidy yourself up",
+      "descriptionZh": "把某人或自己整理乾淨、打扮整齊",
+      "descriptionEn": "Tidy yourself up before the photo.",
+      "examples": [
+        {
+          "en": "Tidy yourself up before the photo.",
+          "zh": "拍照前把自己整理乾淨、打扮整齊。",
+          "highlight": "Tidy yourself up"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 2,
+      "formula": "tidy something up",
+      "titleZh": "把文章、筆記、計劃或其他工作整理得更清楚、更完整",
+      "titleEn": "tidy something up",
+      "descriptionZh": "把文章、筆記、計劃或其他工作整理得更清楚、更完整",
+      "descriptionEn": "I need to tidy up my notes before the test.",
+      "examples": [
+        {
+          "en": "I need to tidy up my notes before the test.",
+          "zh": "測驗前我需要把筆記整理得更清楚。",
+          "highlight": "tidy up"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 TIDY 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to TIDY.",
+    "contextsZh": [
+      "把某物收拾好並放回適當位置",
+      "把地方或物品整理整齊；收拾乾淨",
+      "把某人或自己整理乾淨、打扮整齊",
+      "把文章、筆記、計劃或其他工作整理得更清楚、更完整"
+    ],
+    "contextsEn": [
+      "tidy something away",
+      "tidy up / tidy something up",
+      "tidy somebody up / tidy yourself up",
+      "tidy something up"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 TIDY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TIDY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "TIDY",
+    "fixedHighlight": "TIDY",
+    "fixedZh": "閱讀整句，選出意思相同的 TIDY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TIDY expression that gives the same meaning.",
+    "correct": "tidy something away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 在 TIDY ... AWAY 或 TIDY ... UP 中使用 it、him、her 或 them 時，請按照以上例子放在正確位置。 tidy something up 可以表示把地方整理整齊，也可以表示把筆記、報告或簡報等內容改善得更清楚。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them in a TIDY ... AWAY or TIDY ... UP expression, place the word as shown: tidy it away tidy him up tidy them up Tidy something up can mean making a place neat or improving work such as notes, a report or a presentation. Read the full situation carefully.",
+    "variableItemsZh": [
+      "把某物收拾好並放回適當位置",
+      "把地方或物品整理整齊；收拾乾淨",
+      "把某人或自己整理乾淨、打扮整齊",
+      "把文章、筆記、計劃或其他工作整理得更清楚、更完整"
+    ],
+    "variableItemsEn": [
+      "tidy something away",
+      "tidy up / tidy something up",
+      "tidy somebody up / tidy yourself up",
+      "tidy something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把某物收拾好並放回適當位置",
+        "formEn": "tidy something away",
+        "exampleZh": "下課後請把書本收拾好並放回適當位置。",
+        "exampleEn": "Please tidy your books away after class.",
+        "highlight": "tidy your books away"
+      },
+      {
+        "formZh": "把地方或物品整理整齊；收拾乾淨",
+        "formEn": "tidy up / tidy something up",
+        "exampleZh": "晚飯後我們把廚房收拾乾淨。",
+        "exampleEn": "We tidied up the kitchen after dinner.",
+        "highlight": "tidied up"
+      },
+      {
+        "formZh": "把某人或自己整理乾淨、打扮整齊",
+        "formEn": "tidy somebody up / tidy yourself up",
+        "exampleZh": "拍照前把自己整理乾淨、打扮整齊。",
+        "exampleEn": "Tidy yourself up before the photo.",
+        "highlight": "Tidy yourself up"
+      },
+      {
+        "formZh": "把文章、筆記、計劃或其他工作整理得更清楚、更完整",
+        "formEn": "tidy something up",
+        "exampleZh": "測驗前我需要把筆記整理得更清楚。",
+        "exampleEn": "I need to tidy up my notes before the test.",
+        "highlight": "tidy up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某物收拾好並放回適當位置",
+      "titleEn": "tidy something away",
+      "formula": "tidy something away",
+      "highlight": "tidy something away",
+      "descriptionZh": "把某物收拾好並放回適當位置",
+      "descriptionEn": "Please tidy your books away after class.",
+      "examples": [
+        {
+          "en": "Please tidy your books away after class.",
+          "zh": "下課後請把書本收拾好並放回適當位置。",
+          "highlight": "tidy your books away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把地方或物品整理整齊；收拾乾淨",
+      "titleEn": "tidy up / tidy something up",
+      "formula": "tidy up / tidy something up",
+      "highlight": "tidy up / tidy something up",
+      "descriptionZh": "把地方或物品整理整齊；收拾乾淨",
+      "descriptionEn": "We tidied up the kitchen after dinner.",
+      "examples": [
+        {
+          "en": "We tidied up the kitchen after dinner.",
+          "zh": "晚飯後我們把廚房收拾乾淨。",
+          "highlight": "tidied up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人或自己整理乾淨、打扮整齊",
+      "titleEn": "tidy somebody up / tidy yourself up",
+      "formula": "tidy somebody up / tidy yourself up",
+      "highlight": "tidy somebody up / tidy yourself up",
+      "descriptionZh": "把某人或自己整理乾淨、打扮整齊",
+      "descriptionEn": "Tidy yourself up before the photo.",
+      "examples": [
+        {
+          "en": "Tidy yourself up before the photo.",
+          "zh": "拍照前把自己整理乾淨、打扮整齊。",
+          "highlight": "Tidy yourself up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把文章、筆記、計劃或其他工作整理得更清楚、更完整",
+      "titleEn": "tidy something up",
+      "formula": "tidy something up",
+      "highlight": "tidy something up",
+      "descriptionZh": "把文章、筆記、計劃或其他工作整理得更清楚、更完整",
+      "descriptionEn": "I need to tidy up my notes before the test.",
+      "examples": [
+        {
+          "en": "I need to tidy up my notes before the test.",
+          "zh": "測驗前我需要把筆記整理得更清楚。",
+          "highlight": "tidy up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "用完物品後把它們整齊收好",
+      "titleEn": "Put things back neatly after using them",
+      "zh": "tidy something away 可以用來描述把書本、玩具、工具和其他物品放回正確位置。",
+      "en": "Tidy something away helps you describe putting books, toys, tools and other items back in the correct place."
+    },
+    {
+      "titleZh": "談論整理日常生活中的地方",
+      "titleEn": "Talk about making everyday places neat",
+      "zh": "tidy up 適合用來談論收拾睡房、廚房、課室和共用空間。",
+      "en": "Tidy up is useful when talking about cleaning and organising bedrooms, kitchens, classrooms and shared spaces."
+    },
+    {
+      "titleZh": "描述見人前整理儀容",
+      "titleEn": "Describe getting ready to meet other people",
+      "zh": "tidy yourself up 和 tidy somebody up 可以描述清潔身體、整理衣服或頭髮，使自己或他人看起來整潔。",
+      "en": "Tidy yourself up and tidy somebody up can describe washing, fixing clothes or hair, and making someone look neat."
+    },
+    {
+      "titleZh": "改善學校或工作上的資料",
+      "titleEn": "Improve schoolwork and workplace materials",
+      "zh": "tidy something up 可以表示把筆記、報告、投影片和計劃整理得更清楚、更有條理。",
+      "en": "Tidy something up can describe making notes, reports, slides and plans clearer and better organised."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "把某物收拾好並放回適當位置",
+      "把地方或物品整理整齊；收拾乾淨",
+      "把某人或自己整理乾淨、打扮整齊",
+      "把文章、筆記、計劃或其他工作整理得更清楚、更完整"
+    ],
+    "contextsEn": [
+      "tidy something away",
+      "tidy up / tidy something up",
+      "tidy somebody up / tidy yourself up",
+      "tidy something up"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "把某物收拾好並放回適當位置",
+        "titleEn": "tidy something away",
+        "zh": "把某物收拾好並放回適當位置",
+        "en": "Please tidy your books away after class.",
+        "examples": [
+          {
+            "en": "Please tidy your books away after class.",
+            "zh": "下課後請把書本收拾好並放回適當位置。",
+            "highlight": "tidy your books away"
+          }
+        ]
+      },
+      {
+        "titleZh": "把地方或物品整理整齊；收拾乾淨",
+        "titleEn": "tidy up / tidy something up",
+        "zh": "把地方或物品整理整齊；收拾乾淨",
+        "en": "We tidied up the kitchen after dinner.",
+        "examples": [
+          {
+            "en": "We tidied up the kitchen after dinner.",
+            "zh": "晚飯後我們把廚房收拾乾淨。",
+            "highlight": "tidied up"
+          }
+        ]
+      },
+      {
+        "titleZh": "把某人或自己整理乾淨、打扮整齊",
+        "titleEn": "tidy somebody up / tidy yourself up",
+        "zh": "把某人或自己整理乾淨、打扮整齊",
+        "en": "Tidy yourself up before the photo.",
+        "examples": [
+          {
+            "en": "Tidy yourself up before the photo.",
+            "zh": "拍照前把自己整理乾淨、打扮整齊。",
+            "highlight": "Tidy yourself up"
+          }
+        ]
+      },
+      {
+        "titleZh": "把文章、筆記、計劃或其他工作整理得更清楚、更完整",
+        "titleEn": "tidy something up",
+        "zh": "把文章、筆記、計劃或其他工作整理得更清楚、更完整",
+        "en": "I need to tidy up my notes before the test.",
+        "examples": [
+          {
+            "en": "I need to tidy up my notes before the test.",
+            "zh": "測驗前我需要把筆記整理得更清楚。",
+            "highlight": "tidy up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 TIDY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TIDY expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 TIDY 片語動詞。",
+      "en": "Read the whole sentence and choose the TIDY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 TIDY ... AWAY 或 TIDY ... UP 中使用 it、him、her 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them in a TIDY ... AWAY or TIDY ... UP expression, place the word as shown: tidy it away tidy him up tidy them up",
+      "zh": "在 TIDY ... AWAY 或 TIDY ... UP 中使用 it、him、her 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them in a TIDY ... AWAY or TIDY ... UP expression, place the word as shown: tidy it away tidy him up tidy them up",
+      "examples": [
+        {
+          "en": "tidy it away",
+          "zh": "tidy it away",
+          "highlight": "tidy it away"
+        },
+        {
+          "en": "tidy him up",
+          "zh": "tidy him up",
+          "highlight": "tidy him up"
+        },
+        {
+          "en": "tidy them up",
+          "zh": "tidy them up",
+          "highlight": "tidy them up"
+        }
+      ]
+    },
+    {
+      "titleZh": "tidy something up 可以表示把地方整理整齊，也可以表示把筆記、報告或簡報等內容改善得更清楚。請仔細閱讀整個情境。",
+      "titleEn": "Tidy something up can mean making a place neat or improving work such as notes, a report or a presentation. Read the full situation carefully.",
+      "zh": "tidy something up 可以表示把地方整理整齊，也可以表示把筆記、報告或簡報等內容改善得更清楚。請仔細閱讀整個情境。",
+      "en": "Tidy something up can mean making a place neat or improving work such as notes, a report or a presentation. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TIDY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TIDY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TIDY 動詞片語句子改寫練習",
+    "titleEn": "TIDY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TIDY 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TIDY. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-13-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The children made the playroom neat before lunch.",
+      "promptZh": "孩子們在午飯前把遊戲室整理整齊。",
+      "starter": "The",
+      "answer": "The children tidied up the playroom before lunch.",
+      "answerZh": "孩子們在午飯前把遊戲室整理整齊。",
+      "highlight": "tidied up",
+      "targetForm": "tidy up / tidy something up",
+      "targetMeaningZh": "把地方或物品整理整齊；收拾乾淨"
+    },
+    {
+      "id": "phrasal-verb-13-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Mia made her notes clearer and better organised before the test.",
+      "promptZh": "米婭在測驗前把筆記整理得更清楚、更有條理。",
+      "starter": "Mia",
+      "answer": "Mia tidied up her notes before the test.",
+      "answerZh": "米婭在測驗前把筆記整理得更清楚、更有條理。",
+      "highlight": "tidied up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把文章、筆記或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Leo returned his books to their proper place after studying.",
+      "promptZh": "里奧溫習後把書本放回適當位置。",
+      "starter": "Leo",
+      "answer": "Leo tidied his books away after studying.",
+      "answerZh": "里奧溫習後把書本收拾好並放回適當位置。",
+      "highlight": "tidied his books away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Dad made the baby clean and neat before the family photo.",
+      "promptZh": "爸爸在拍家庭照前把寶寶清潔乾淨，整理得整整齊齊。",
+      "starter": "Dad",
+      "answer": "Dad tidied the baby up before the family photo.",
+      "answerZh": "爸爸在拍家庭照前把寶寶整理乾淨、打扮整齊。",
+      "highlight": "tidied the baby up",
+      "targetForm": "tidy somebody up",
+      "targetMeaningZh": "把某人整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Please make everything neat before the guests arrive.",
+      "promptZh": "客人到達前，請把所有東西整理整齊。",
+      "starter": "Please",
+      "answer": "Please tidy up before the guests arrive.",
+      "answerZh": "客人到達前，請把所有東西收拾整齊。",
+      "highlight": "tidy up",
+      "targetForm": "tidy up",
+      "targetMeaningZh": "收拾整理；把地方弄整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I made the last paragraph of my email clearer and better organised.",
+      "promptZh": "我把電郵最後一段修改得更清楚、更有條理。",
+      "starter": "I",
+      "answer": "I tidied up the last paragraph of my email.",
+      "answerZh": "我把電郵最後一段整理得更清楚、更有條理。",
+      "highlight": "tidied up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把文章、筆記或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Sara placed the pencils in the correct box after art class.",
+      "promptZh": "莎拉在美術課後把鉛筆放進正確的盒子。",
+      "starter": "Sara",
+      "answer": "Sara tidied the pencils away after art class.",
+      "answerZh": "莎拉在美術課後把鉛筆收拾好並放回適當位置。",
+      "highlight": "tidied the pencils away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben washed his face and made himself look neat before meeting his grandparents.",
+      "promptZh": "賓在探望祖父母前洗了臉，把自己整理得整整齊齊。",
+      "starter": "Ben",
+      "answer": "Ben tidied himself up before meeting his grandparents.",
+      "answerZh": "賓在探望祖父母前把自己整理乾淨、打扮整齊。",
+      "highlight": "tidied himself up",
+      "targetForm": "tidy yourself up",
+      "targetMeaningZh": "把自己整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We need to make the kitchen clean and neat after dinner.",
+      "promptZh": "晚飯後，我們需要把廚房收拾乾淨。",
+      "starter": "We",
+      "answer": "We need to tidy up the kitchen after dinner.",
+      "answerZh": "晚飯後，我們需要把廚房收拾乾淨。",
+      "highlight": "tidy up",
+      "targetForm": "tidy up / tidy something up",
+      "targetMeaningZh": "把地方或物品整理整齊；收拾乾淨"
+    },
+    {
+      "id": "phrasal-verb-13-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The teacher made the lesson plan clearer and better organised before class.",
+      "promptZh": "老師在上課前把教學計劃整理得更清楚、更有條理。",
+      "starter": "The",
+      "answer": "The teacher tidied up the lesson plan before class.",
+      "answerZh": "老師在上課前把教學計劃整理得更清楚、更有條理。",
+      "highlight": "tidied up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把文章、計劃或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Have you returned the games to their proper place yet?",
+      "promptZh": "你已經把遊戲放回適當位置了嗎？",
+      "starter": "Have",
+      "answer": "Have you tidied the games away yet?",
+      "answerZh": "你已經把遊戲收拾好並放回適當位置了嗎？",
+      "highlight": "tidied the games away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Noor is making her presentation clearer and better organised now.",
+      "promptZh": "努爾現正把簡報整理得更清楚、更有條理。",
+      "starter": "Noor",
+      "answer": "Noor is tidying up her presentation now.",
+      "answerZh": "努爾現正把簡報整理得更清楚、更有條理。",
+      "highlight": "tidying up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把簡報或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The children should wash and make themselves neat before dinner.",
+      "promptZh": "孩子們應該在晚飯前洗乾淨，把自己整理整齊。",
+      "starter": "The",
+      "answer": "The children should tidy themselves up before dinner.",
+      "answerZh": "孩子們應該在晚飯前把自己整理乾淨、打扮整齊。",
+      "highlight": "tidy themselves up",
+      "targetForm": "tidy yourself up",
+      "targetMeaningZh": "把自己整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We will return the picnic things to their proper place before leaving.",
+      "promptZh": "離開前，我們會把野餐用品放回適當位置。",
+      "starter": "We",
+      "answer": "We will tidy the picnic things away before leaving.",
+      "answerZh": "離開前，我們會把野餐用品收拾好並放回適當位置。",
+      "highlight": "tidy the picnic things away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The shop staff are making everything neat before opening.",
+      "promptZh": "店員正在開門營業前把所有東西整理整齊。",
+      "starter": "The",
+      "answer": "The shop staff are tidying up before opening.",
+      "answerZh": "店員正在開門營業前把店內收拾整齊。",
+      "highlight": "tidying up",
+      "targetForm": "tidy up",
+      "targetMeaningZh": "收拾整理；把地方弄整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Has Amir made his report clearer and better organised yet?",
+      "promptZh": "阿米爾已經把報告整理得更清楚、更有條理了嗎？",
+      "starter": "Has",
+      "answer": "Has Amir tidied up his report yet?",
+      "answerZh": "阿米爾已經把報告整理得更清楚、更有條理了嗎？",
+      "highlight": "tidied up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把報告或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "You do not need to make yourself look especially neat for a video call.",
+      "promptZh": "視像通話時，你不需要把自己打扮得特別整齊。",
+      "starter": "You",
+      "answer": "You do not need to tidy yourself up for a video call.",
+      "answerZh": "視像通話時，你不需要把自己打扮得特別整齊。",
+      "highlight": "tidy yourself up",
+      "targetForm": "tidy yourself up",
+      "targetMeaningZh": "把自己整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Ella has already returned the art materials to their proper places.",
+      "promptZh": "埃拉已經把美術用品放回適當位置。",
+      "starter": "Ella",
+      "answer": "Ella has already tidied the art materials away.",
+      "answerZh": "埃拉已經把美術用品收拾好並放回適當位置。",
+      "highlight": "tidied the art materials away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Did you make the table neat after the game?",
+      "promptZh": "遊戲結束後，你有把桌面整理整齊嗎？",
+      "starter": "Did",
+      "answer": "Did you tidy up the table after the game?",
+      "answerZh": "遊戲結束後，你有把桌面整理整齊嗎？",
+      "highlight": "tidy up",
+      "targetForm": "tidy up / tidy something up",
+      "targetMeaningZh": "把地方或物品整理整齊；收拾乾淨"
+    },
+    {
+      "id": "phrasal-verb-13-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We should make these slides clearer and better organised before the meeting.",
+      "promptZh": "我們應該在會議前把這些投影片整理得更清楚、更有條理。",
+      "starter": "We",
+      "answer": "We should tidy up these slides before the meeting.",
+      "answerZh": "我們應該在會議前把這些投影片整理得更清楚、更有條理。",
+      "highlight": "tidy up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把投影片或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The living room is messy, so let us make it neat.",
+      "promptZh": "客廳很凌亂，所以我們把它整理整齊吧。",
+      "starter": "The",
+      "answer": "The living room is messy, so let us tidy it up.",
+      "answerZh": "客廳很凌亂，所以我們把它整理整齊吧。",
+      "highlight": "tidy it up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把地方或物品整理整齊；收拾乾淨"
+    },
+    {
+      "id": "phrasal-verb-13-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The children are covered in paint; Mum is washing them and making them neat.",
+      "promptZh": "孩子們身上都是顏料；媽媽正在替他們清洗，把他們整理乾淨。",
+      "starter": "The",
+      "answer": "The children are covered in paint; Mum is tidying them up.",
+      "answerZh": "孩子們身上都是顏料；媽媽正在替他們清洗，把他們整理乾淨。",
+      "highlight": "tidying them up",
+      "targetForm": "tidy somebody up",
+      "targetMeaningZh": "把某人整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "These blocks belong in the box, so please place them there.",
+      "promptZh": "這些積木應該放在盒子裏，所以請把它們放進去。",
+      "starter": "These",
+      "answer": "These blocks belong in the box, so please tidy them away.",
+      "answerZh": "這些積木應該放在盒子裏，所以請把它們收拾好。",
+      "highlight": "tidy them away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The notes were hard to follow, so I made them clearer and better organised.",
+      "promptZh": "這些筆記很難看懂，所以我把它們整理得更清楚、更有條理。",
+      "starter": "The",
+      "answer": "The notes were hard to follow, so I tidied them up.",
+      "answerZh": "這些筆記很難看懂，所以我把它們整理得更清楚、更有條理。",
+      "highlight": "tidied them up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把文章、筆記或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the party, everyone helped make the room neat.",
+      "promptZh": "派對後，大家都幫忙把房間整理整齊。",
+      "starter": "After",
+      "answer": "After the party, everyone helped tidy the room up.",
+      "answerZh": "派對後，大家都幫忙把房間整理整齊。",
+      "highlight": "tidy the room up",
+      "targetForm": "tidy up / tidy something up",
+      "targetMeaningZh": "把地方或物品整理整齊；收拾乾淨"
+    },
+    {
+      "id": "phrasal-verb-13-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before the guests arrived, Maya washed her little brother and made him look neat.",
+      "promptZh": "客人到達前，瑪雅替弟弟洗乾淨，把他整理得整整齊齊。",
+      "starter": "Before",
+      "answer": "Before the guests arrived, Maya tidied her little brother up.",
+      "answerZh": "客人到達前，瑪雅把弟弟整理乾淨、打扮整齊。",
+      "highlight": "tidied her little brother up",
+      "targetForm": "tidy somebody up",
+      "targetMeaningZh": "把某人整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The classroom needs to be made neat before tomorrow’s lesson.",
+      "promptZh": "明天上課前，課室需要整理整齊。",
+      "starter": "The",
+      "answer": "The classroom needs tidying up before tomorrow’s lesson.",
+      "answerZh": "明天上課前，課室需要整理整齊。",
+      "highlight": "tidying up",
+      "targetForm": "tidy up",
+      "targetMeaningZh": "收拾整理；把地方弄整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I found the missing cards and returned them to their proper place.",
+      "promptZh": "我找到了不見的卡片，並把它們放回適當位置。",
+      "starter": "I",
+      "answer": "I found the missing cards and tidied them away.",
+      "answerZh": "我找到了不見的卡片，並把它們收拾好放回適當位置。",
+      "highlight": "tidied them away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We had ten minutes to wash and make ourselves look neat after the walk.",
+      "promptZh": "散步後，我們有十分鐘洗乾淨，把自己整理整齊。",
+      "starter": "We",
+      "answer": "We had ten minutes to tidy ourselves up after the walk.",
+      "answerZh": "散步後，我們有十分鐘把自己整理乾淨、打扮整齊。",
+      "highlight": "tidy ourselves up",
+      "targetForm": "tidy yourself up",
+      "targetMeaningZh": "把自己整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "This poster needs some small changes to make it clearer and neater before we print it.",
+      "promptZh": "這張海報在列印前需要作少量修改，令內容更清楚、更整齊。",
+      "starter": "This",
+      "answer": "This poster needs tidying up before we print it.",
+      "answerZh": "這張海報在列印前需要整理得更清楚、更整齊。",
+      "highlight": "tidying up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把海報或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The speech is almost ready, but I still need to make it clearer and better organised.",
+      "promptZh": "演講內容差不多準備好了，但我仍需要把它整理得更清楚、更有條理。",
+      "starter": "The",
+      "answer": "The speech is almost ready, but I still need to tidy it up.",
+      "answerZh": "演講內容差不多準備好了，但我仍需要把它整理得更清楚、更有條理。",
+      "highlight": "tidy it up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把文章、演講或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After the club meeting, Kai returned the name cards to their box.",
+      "promptZh": "社團會議後，啟把姓名卡放回盒子裏。",
+      "starter": "After",
+      "answer": "After the club meeting, Kai tidied the name cards away.",
+      "answerZh": "社團會議後，啟把姓名卡收拾好並放回適當位置。",
+      "highlight": "tidied the name cards away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The teacher helped the young girl wash her face and make herself neat after lunch.",
+      "promptZh": "老師在午飯後幫那個小女孩洗臉，讓她看起來整潔。",
+      "starter": "The",
+      "answer": "The teacher helped the young girl tidy herself up after lunch.",
+      "answerZh": "老師在午飯後幫那個小女孩整理乾淨。",
+      "highlight": "tidy herself up",
+      "targetForm": "tidy yourself up",
+      "targetMeaningZh": "把自己整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We made the garden neat before the family party.",
+      "promptZh": "我們在家庭聚會前把花園整理整齊。",
+      "starter": "We",
+      "answer": "We tidied up the garden before the family party.",
+      "answerZh": "我們在家庭聚會前把花園整理整齊。",
+      "highlight": "tidied up",
+      "targetForm": "tidy up / tidy something up",
+      "targetMeaningZh": "把地方或物品整理整齊；收拾乾淨"
+    },
+    {
+      "id": "phrasal-verb-13-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Priya put the list in a better order and corrected it so everyone could read it easily.",
+      "promptZh": "普里雅把清單重新排好並作出修正，讓大家都能容易閱讀。",
+      "starter": "Priya",
+      "answer": "Priya tidied up the list so everyone could read it easily.",
+      "answerZh": "普里雅把清單整理得更清楚，讓大家都能容易閱讀。",
+      "highlight": "tidied up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把清單或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Please return your tools to their proper places rather than leaving them on the floor.",
+      "promptZh": "請把工具放回適當位置，不要留在地上。",
+      "starter": "Please",
+      "answer": "Please tidy your tools away rather than leaving them on the floor.",
+      "answerZh": "請把工具收拾好並放回適當位置，不要留在地上。",
+      "highlight": "tidy your tools away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Why did Sam make the desk neat before the video call?",
+      "promptZh": "森為甚麼在視像通話前把書桌整理整齊？",
+      "starter": "Why",
+      "answer": "Why did Sam tidy the desk up before the video call?",
+      "answerZh": "森為甚麼在視像通話前把書桌整理整齊？",
+      "highlight": "tidy the desk up",
+      "targetForm": "tidy up / tidy something up",
+      "targetMeaningZh": "把地方或物品整理整齊；收拾乾淨"
+    },
+    {
+      "id": "phrasal-verb-13-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The actors made their hair and clothes neat before the next scene.",
+      "promptZh": "演員們在下一場戲之前把頭髮和衣服整理整齊。",
+      "starter": "The",
+      "answer": "The actors tidied themselves up before the next scene.",
+      "answerZh": "演員們在下一場戲之前把自己整理乾淨、打扮整齊。",
+      "highlight": "tidied themselves up",
+      "targetForm": "tidy yourself up",
+      "targetMeaningZh": "把自己整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "I used the last ten minutes to make my project notes clearer and better organised.",
+      "promptZh": "我用最後十分鐘把專題筆記整理得更清楚、更有條理。",
+      "starter": "I",
+      "answer": "I used the last ten minutes to tidy up my project notes.",
+      "answerZh": "我用最後十分鐘把專題筆記整理得更清楚、更有條理。",
+      "highlight": "tidy up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把筆記或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Once the puzzle was finished, we returned all the pieces to their proper place.",
+      "promptZh": "拼圖完成後，我們把所有拼圖塊放回適當位置。",
+      "starter": "Once",
+      "answer": "Once the puzzle was finished, we tidied all the pieces away.",
+      "answerZh": "拼圖完成後，我們把所有拼圖塊收拾好並放回適當位置。",
+      "highlight": "tidied all the pieces away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Lina had been cycling in the rain, so she washed and dried herself and made herself neat before the family dinner.",
+      "promptZh": "莉娜剛才在雨中踏單車，所以她在家庭晚飯前洗乾淨，把自己整理整齊。",
+      "starter": "Lina",
+      "answer": "Lina had been cycling in the rain, so she tidied herself up before the family dinner.",
+      "answerZh": "莉娜剛才在雨中踏單車，所以她在家庭晚飯前把自己整理乾淨、打扮整齊。",
+      "highlight": "tidied herself up",
+      "targetForm": "tidy yourself up",
+      "targetMeaningZh": "把自己整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The visitors were arriving soon, so everyone stopped talking and made the flat neat together.",
+      "promptZh": "訪客快要到了，所以大家停止交談，一起把單位整理整齊。",
+      "starter": "The",
+      "answer": "The visitors were arriving soon, so everyone stopped talking and tidied up the flat together.",
+      "answerZh": "訪客快要到了，所以大家停止交談，一起把單位收拾整齊。",
+      "highlight": "tidied up",
+      "targetForm": "tidy up / tidy something up",
+      "targetMeaningZh": "把地方或物品整理整齊；收拾乾淨"
+    },
+    {
+      "id": "phrasal-verb-13-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before sending the class newsletter, the students improved and organised it so the ideas were clear and easy to follow.",
+      "promptZh": "學生在寄出班級通訊前把內容改善和整理好，讓意思清楚易明。",
+      "starter": "Before",
+      "answer": "Before sending the class newsletter, the students tidied it up so the ideas were clear and easy to follow.",
+      "answerZh": "學生在寄出班級通訊前把內容改善和整理好，讓意思清楚易明。",
+      "highlight": "tidied it up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把文章或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "When the craft lesson ended, each group returned its craft materials to the correct cupboard.",
+      "promptZh": "手工課結束時，每組都把手工用品放回正確的儲物櫃。",
+      "starter": "When",
+      "answer": "When the craft lesson ended, each group tidied its craft materials away in the correct cupboard.",
+      "answerZh": "手工課結束時，每組都把手工用品收拾好，放進正確的儲物櫃。",
+      "highlight": "tidied its craft materials away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Although the room looked fine from the door, we made the shelves and the table neat before the teacher arrived.",
+      "promptZh": "雖然從門口看房間沒有問題，但我們仍在老師到達前把架子和桌子整理整齊。",
+      "starter": "Although",
+      "answer": "Although the room looked fine from the door, we tidied up the shelves and the table before the teacher arrived.",
+      "answerZh": "雖然從門口看房間沒有問題，但我們仍在老師到達前把架子和桌子整理整齊。",
+      "highlight": "tidied up",
+      "targetForm": "tidy up / tidy something up",
+      "targetMeaningZh": "把地方或物品整理整齊；收拾乾淨"
+    },
+    {
+      "id": "phrasal-verb-13-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The children had been playing outside, so their father washed them and made them look neat before they visited their grandparents.",
+      "promptZh": "孩子們剛才在外面玩，所以爸爸在他們探望祖父母前替他們洗乾淨，整理整齊。",
+      "starter": "The",
+      "answer": "The children had been playing outside, so their father tidied them up before they visited their grandparents.",
+      "answerZh": "孩子們剛才在外面玩，所以爸爸在他們探望祖父母前把他們整理乾淨。",
+      "highlight": "tidied them up",
+      "targetForm": "tidy somebody up",
+      "targetMeaningZh": "把某人整理乾淨、打扮整齊"
+    },
+    {
+      "id": "phrasal-verb-13-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Could you make the reading corner neat while I organise the new books?",
+      "promptZh": "我整理新書時，你可以把閱讀角整理整齊嗎？",
+      "starter": "Could",
+      "answer": "Could you tidy up the reading corner while I organise the new books?",
+      "answerZh": "我整理新書時，你可以把閱讀角收拾整齊嗎？",
+      "highlight": "tidy up",
+      "targetForm": "tidy up / tidy something up",
+      "targetMeaningZh": "把地方或物品整理整齊；收拾乾淨"
+    },
+    {
+      "id": "phrasal-verb-13-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "I had written all the main points, but I spent another five minutes making the final slide clearer and better organised.",
+      "promptZh": "我已經寫好所有重點，但仍多花了五分鐘把最後一張投影片整理得更清楚、更有條理。",
+      "starter": "I",
+      "answer": "I had written all the main points, but I spent another five minutes tidying up the final slide.",
+      "answerZh": "我已經寫好所有重點，但仍多花了五分鐘把最後一張投影片整理得更清楚、更有條理。",
+      "highlight": "tidying up",
+      "targetForm": "tidy something up",
+      "targetMeaningZh": "把投影片或其他工作整理得更清楚、更完整"
+    },
+    {
+      "id": "phrasal-verb-13-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Before the train arrived, Mei checked the waiting room and returned the magazines to their proper place.",
+      "promptZh": "火車到達前，梅檢查了候車室，並把雜誌放回適當位置。",
+      "starter": "Before",
+      "answer": "Before the train arrived, Mei checked the waiting room and tidied the magazines away.",
+      "answerZh": "火車到達前，梅檢查了候車室，並把雜誌收拾好放回適當位置。",
+      "highlight": "tidied the magazines away",
+      "targetForm": "tidy something away",
+      "targetMeaningZh": "把某物收拾好並放回適當位置"
+    },
+    {
+      "id": "phrasal-verb-13-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "We only had a few minutes, but we managed to make ourselves look neat before the school photo was taken.",
+      "promptZh": "我們只有幾分鐘，但仍成功在拍學校照片前把自己整理整齊。",
+      "starter": "We",
+      "answer": "We only had a few minutes, but we managed to tidy ourselves up before the school photo was taken.",
+      "answerZh": "我們只有幾分鐘，但仍成功在拍學校照片前把自己整理乾淨、打扮整齊。",
+      "highlight": "tidy ourselves up",
+      "targetForm": "tidy yourself up",
+      "targetMeaningZh": "把自己整理乾淨、打扮整齊"
+    }
+  ]
+}

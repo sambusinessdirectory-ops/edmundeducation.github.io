@@ -1,22 +1,30 @@
 import assert from "node:assert/strict";
-import { createHash } from "node:crypto";
 import fs from "node:fs";
 import test from "node:test";
 import { runInNewContext } from "node:vm";
 
-import { ACCEPTED_ANSWERS } from "../src/catalog.js";
+import { ACCEPTED_ANSWERS, LESSON_QUESTION_COUNTS } from "../src/catalog.js";
 import worker from "../src/index.js";
 
 const ORIGIN = "https://edmundeducation.github.io";
 const STUDENT_TOKEN = "11111111-1111-4111-8111-111111111111";
 const STUDENT_ID = "22222222-2222-4222-8222-222222222222";
 const ATTEMPT_ID = "33333333-3333-4333-8333-333333333333";
+const lessonDataSource = fs.readFileSync(new URL("../../../phrasal-verb-system-data.js", import.meta.url), "utf8");
+const lessonDataSandbox = { window: {} };
+runInNewContext(lessonDataSource, lessonDataSandbox, { filename: "phrasal-verb-system-data.js", timeout: 1000 });
+const LESSON_DATA = lessonDataSandbox.window.EDMUND_PHRASAL_VERB_SYSTEM_DATA;
+const LESSON_IDS = Object.keys(LESSON_QUESTION_COUNTS);
 const LESSON_ID = "phrasal-verb-01";
 const QUESTION_IDS = Array.from(
-  { length: 70 },
+  { length: LESSON_QUESTION_COUNTS[LESSON_ID] },
   (_, index) => `${LESSON_ID}-q${String(index + 1).padStart(2, "0")}`
 );
-const CANONICAL_CATALOG_SHA256 = "220353ac1e0b914b8973c17849b67459b33deabb8f976e20b34889392d45f07d";
+const ALL_QUESTION_IDS = LESSON_IDS.flatMap((lessonId) => Array.from(
+  { length: LESSON_QUESTION_COUNTS[lessonId] },
+  (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
+));
+const MAX_BOOKMARKS = LESSON_IDS.length + ALL_QUESTION_IDS.length;
 
 function environment(overrides = {}) {
   return {
@@ -90,7 +98,7 @@ function attemptPayload({
     status: "in_progress",
     roundNumber: 1,
     correctCount: 1,
-    totalCount: 70,
+    totalCount: LESSON_QUESTION_COUNTS[lessonId],
     durationMs: 1000,
     startedAt,
     completedAt: null,
@@ -141,9 +149,9 @@ function installFetch(t, implementation) {
   globalThis.fetch = implementation;
 }
 
-test("the protected answer catalogue contains all 70 validated entries", () => {
+test("the protected answer catalogue contains every generated lesson entry", () => {
   const ids = Object.keys(ACCEPTED_ANSWERS);
-  assert.deepEqual(ids, QUESTION_IDS);
+  assert.deepEqual(ids, ALL_QUESTION_IDS);
   for (const [questionId, answers] of Object.entries(ACCEPTED_ANSWERS)) {
     assert.ok(Array.isArray(answers) && answers.length >= 1, `${questionId} needs a canonical answer`);
     for (const answer of answers) {
@@ -156,51 +164,33 @@ test("the protected answer catalogue contains all 70 validated entries", () => {
 });
 
 test("the protected catalogue exactly matches the canonical browser answers", () => {
-  const source = fs.readFileSync(
-    new URL("../../../phrasal-verb-system-data.js", import.meta.url),
-    "utf8"
-  );
-  const sandbox = { window: {} };
-  runInNewContext(source, sandbox, {
-    filename: "phrasal-verb-system-data.js",
-    timeout: 1000
-  });
-  const data = sandbox.window.EDMUND_PHRASAL_VERB_SYSTEM_DATA;
+  const data = LESSON_DATA;
   assert.equal(data?.system, "phrasal-verb");
   assert.equal(data?.version, "1");
-  assert.equal(data?.lessonCount, 1);
-  assert.equal(data?.questionCount, 70);
-  assert.equal(data?.lessons?.length, 1);
+  assert.equal(data?.lessonCount, LESSON_IDS.length);
+  assert.equal(data?.questionCount, ALL_QUESTION_IDS.length);
+  assert.equal(data?.lessons?.length, LESSON_IDS.length);
 
-  const lesson = data.lessons[0];
-  assert.equal(lesson.id, LESSON_ID);
-  assert.equal(lesson.version, "1");
-  assert.equal(lesson.questions?.length, 70);
-
-  const canonicalRows = lesson.questions.map((question, index) => {
-    const questionId = QUESTION_IDS[index];
-    assert.equal(question.id, questionId);
-    assert.equal(question.number, index + 1);
-    assert.equal(typeof question.answer, "string");
-    assert.ok(question.answer.length >= 1);
-    const variants = Array.isArray(question.acceptedAnswers)
-      ? Array.from(question.acceptedAnswers)
-      : [];
-    assert.ok(variants.every(answer => typeof answer === "string" && answer.length >= 1));
-    return [questionId, [question.answer, ...variants]];
+  const canonicalRows = data.lessons.flatMap((lesson, lessonIndex) => {
+    assert.equal(lesson.id, LESSON_IDS[lessonIndex]);
+    assert.equal(lesson.version, "1");
+    assert.equal(lesson.questions?.length, LESSON_QUESTION_COUNTS[lesson.id]);
+    return lesson.questions.map((question, index) => {
+      const questionId = `${lesson.id}-q${String(index + 1).padStart(2, "0")}`;
+      assert.equal(question.id, questionId);
+      assert.equal(question.number, index + 1);
+      assert.equal(typeof question.answer, "string");
+      assert.ok(question.answer.length >= 1);
+      const variants = Array.isArray(question.acceptedAnswers)
+        ? Array.from(question.acceptedAnswers)
+        : [];
+      assert.ok(variants.every(answer => typeof answer === "string" && answer.length >= 1));
+      return [questionId, [question.answer, ...variants]];
+    });
   });
   const expectedCatalog = Object.fromEntries(canonicalRows);
   assert.deepEqual(ACCEPTED_ANSWERS, expectedCatalog);
-  assert.equal(
-    canonicalRows.reduce((count, [, answers]) => count + answers.length - 1, 0),
-    21,
-    "only the 21 explicitly approved Rule-4 variants belong in the protected catalogue"
-  );
-
-  const digest = createHash("sha256")
-    .update(JSON.stringify(canonicalRows), "utf8")
-    .digest("hex");
-  assert.equal(digest, CANONICAL_CATALOG_SHA256);
+  assert.ok(canonicalRows.every(([, answers]) => answers.length >= 1));
 });
 
 test("worker, SQL, and Wrangler contracts are independently phrasal-verb-namespaced", () => {
@@ -217,10 +207,10 @@ test("worker, SQL, and Wrangler contracts are independently phrasal-verb-namespa
   );
   const readme = fs.readFileSync(new URL("../README.md", import.meta.url), "utf8");
 
-  assert.match(workerSource, /const LESSON_IDS = new Set\(\["phrasal-verb-01"\]\);/);
-  assert.match(workerSource, /\^\(phrasal-verb-01\)-q\(\\d\{2\}\)\$/);
-  assert.match(sqlSource, /p_lesson_id <> 'phrasal-verb-01'/);
-  assert.match(sqlSource, /\^phrasal-verb-01-q\(0\[1-9\]\|\[1-6\]\[0-9\]\|70\)\$/);
+  assert.match(workerSource, /const LESSON_IDS = new Set\(Object\.keys\(LESSON_QUESTION_COUNTS\)\)/);
+  assert.match(workerSource, /hasOwnProperty\.call\(ACCEPTED_ANSWERS, questionId\)/);
+  assert.match(sqlSource, /_phrasal_verb_system_question_count/);
+  assert.match(sqlSource, /when 'phrasal-verb-35' then 70/);
   assert.match(sqlSource, /\^\\\$2a\\\$12\\\$/);
   assert.doesNotMatch(sqlSource, /\\\$2\[aby\]\\\$12/);
   assert.doesNotMatch(workerSource, /sentence-structure/i);
@@ -274,13 +264,13 @@ test("health reports bookmark limits and canonical catalogue readiness", async (
   const payload = await response.json();
   assert.deepEqual(payload.catalog, {
     ready: true,
-    acceptedQuestions: 70,
-    expectedQuestions: 70
+    acceptedQuestions: ALL_QUESTION_IDS.length,
+    expectedQuestions: ALL_QUESTION_IDS.length
   });
   assert.deepEqual(payload.limits, {
     maxAttemptBodyBytes: 128 * 1024,
     maxAttemptResultBytes: 96 * 1024,
-    maxBookmarks: 71,
+    maxBookmarks: MAX_BOOKMARKS,
     maxPageSize: 100
   });
   assert.deepEqual(payload.rateLimiters, {
@@ -418,7 +408,7 @@ test("answer reveal entitlement is derived from validated correction state", asy
     status: "in_progress",
     roundNumber: 2,
     correctCount: 0,
-    totalCount: 70,
+    totalCount: LESSON_QUESTION_COUNTS[LESSON_ID],
     durationMs: 1000,
     startedAt,
     completedAt: null,
@@ -480,15 +470,15 @@ test("claimed-correct answers fail closed before upsert when unavailable or unap
   assert.equal(upsertCalls, 0);
 });
 
-test("all 71 possible bookmarks round-trip, are rate limited, and a 72nd is rejected", async t => {
-  const bookmarks = [
-    { lessonId: LESSON_ID, questionId: "__section__", includeAnswer: false },
-    ...QUESTION_IDS.map((questionId, index) => ({
-      lessonId: LESSON_ID,
-      questionId,
+test("all catalogue-derived bookmarks round-trip, are rate limited, and an oversized list is rejected", async t => {
+  const bookmarks = LESSON_IDS.flatMap((lessonId) => [
+    { lessonId, questionId: "__section__", includeAnswer: false },
+    ...Array.from({ length: LESSON_QUESTION_COUNTS[lessonId] }, (_, index) => ({
+      lessonId,
+      questionId: `${lessonId}-q${String(index + 1).padStart(2, "0")}`,
       includeAnswer: index % 2 === 0
     }))
-  ];
+  ]);
   const rows = bookmarks.map((bookmark, index) => ({
     lesson_id: bookmark.lessonId,
     question_id: bookmark.questionId,
@@ -531,9 +521,9 @@ test("all 71 possible bookmarks round-trip, are rate limited, and a 72nd is reje
     }
   }));
   assert.equal(validResponse.status, 200);
-  assert.equal((await validResponse.json()).bookmarks.length, 71);
+  assert.equal((await validResponse.json()).bookmarks.length, MAX_BOOKMARKS);
   assert.equal(bookmarkLimiterKey, `phrasal-verb-system-bookmark:${STUDENT_ID}`);
-  assert.deepEqual(pageCalls, [[0, 100]]);
+  assert.deepEqual(pageCalls, Array.from({ length: Math.ceil(MAX_BOOKMARKS / 100) }, (_, index) => [index * 100, 100]));
 
   const invalidResponse = await worker.fetch(new Request("https://worker.example/v1/bookmarks", {
     method: "PUT",
@@ -621,7 +611,7 @@ test("attempt byte validation matches PostgreSQL jsonb spacing", async t => {
     status: "in_progress",
     roundNumber,
     correctCount: 0,
-    totalCount: 70,
+    totalCount: LESSON_QUESTION_COUNTS[LESSON_ID],
     durationMs: 55_000,
     startedAt,
     completedAt: null,

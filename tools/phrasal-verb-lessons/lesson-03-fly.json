@@ -1,0 +1,2057 @@
+{
+  "id": "phrasal-verb-03",
+  "order": 3,
+  "slug": "fly",
+  "version": "1",
+  "title": "FLY 動詞片語",
+  "titleEn": "Fly",
+  "titleZh": "FLY 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verb 3 - Fly.pdf",
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FLY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FLY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FLY",
+      "highlight": "FLY"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Stories about his past are flying around among the students.",
+      "zh": "關於他過去的故事正在學生之間迅速流傳。",
+      "highlight": "flying around"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The goose flew at Ben near the pond.",
+      "zh": "那隻鵝在池塘附近突然撲向賓。",
+      "highlight": "flew at"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "My three years at college flew by.",
+      "zh": "我的三年大學生活轉眼便過去了。",
+      "highlight": "flew by"
+    }
+  ],
+  "meaning": {
+    "zh": "消息、傳聞或故事等）迅速流傳；突然撲向或攻擊某人；時間飛快地過去；乘飛機抵達或離開某地；突然陷入憤怒或恐慌等強烈情緒；突然脫落並飛走；突然快速地飛出或衝出；用飛機運送某人或某物進出某地。",
+    "en": "Learn and practise the phrasal verbs related to FLY.",
+    "naturalZh": [
+      "消息、傳聞或故事等）迅速流傳",
+      "突然撲向或攻擊某人",
+      "時間飛快地過去",
+      "乘飛機抵達或離開某地",
+      "突然陷入憤怒或恐慌等強烈情緒",
+      "突然脫落並飛走",
+      "突然快速地飛出或衝出",
+      "用飛機運送某人或某物進出某地"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "fly around / fly about; fly around/about something",
+      "highlight": "fly around / fly about; fly around/about something",
+      "titleZh": "消息、傳聞或故事等）迅速流傳",
+      "titleEn": "fly around / fly about; fly around/about something",
+      "descriptionZh": "消息、傳聞或故事等）迅速流傳",
+      "descriptionEn": "Stories about his past are flying around among the students.",
+      "examples": [
+        {
+          "en": "Stories about his past are flying around among the students.",
+          "zh": "關於他過去的故事正在學生之間迅速流傳。",
+          "highlight": "flying around"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "fly at somebody",
+      "highlight": "fly at somebody",
+      "titleZh": "突然撲向或攻擊某人",
+      "titleEn": "fly at somebody",
+      "descriptionZh": "突然撲向或攻擊某人",
+      "descriptionEn": "The goose flew at Ben near the pond.",
+      "examples": [
+        {
+          "en": "The goose flew at Ben near the pond.",
+          "zh": "那隻鵝在池塘附近突然撲向賓。",
+          "highlight": "flew at"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "fly by / fly past",
+      "highlight": "fly by / fly past",
+      "titleZh": "時間飛快地過去",
+      "titleEn": "fly by / fly past",
+      "descriptionZh": "時間飛快地過去",
+      "descriptionEn": "My three years at college flew by.",
+      "examples": [
+        {
+          "en": "My three years at college flew by.",
+          "zh": "我的三年大學生活轉眼便過去了。",
+          "highlight": "flew by"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "fly in/out; fly into/out of something",
+      "highlight": "fly in/out; fly into/out of something",
+      "titleZh": "乘飛機抵達或離開某地",
+      "titleEn": "fly in/out; fly into/out of something",
+      "descriptionZh": "乘飛機抵達或離開某地",
+      "descriptionEn": "She is flying out to join him in Nairobi next week.",
+      "examples": [
+        {
+          "en": "She is flying out to join him in Nairobi next week.",
+          "zh": "她下星期會乘飛機離開，前往內羅畢與他會合。",
+          "highlight": "flying out to join him in"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 5,
+      "pageGroup": 1,
+      "formula": "fly into something",
+      "highlight": "fly into something",
+      "titleZh": "突然陷入憤怒或恐慌等強烈情緒",
+      "titleEn": "fly into something",
+      "descriptionZh": "突然陷入憤怒或恐慌等強烈情緒",
+      "descriptionEn": "He flies into a rage when you mention her.",
+      "examples": [
+        {
+          "en": "He flies into a rage when you mention her.",
+          "zh": "你一提起她，他便會勃然大怒。",
+          "highlight": "flies into"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "fly off; fly off something",
+      "highlight": "fly off; fly off something",
+      "titleZh": "突然脫落並飛走",
+      "titleEn": "fly off; fly off something",
+      "descriptionZh": "突然脫落並飛走",
+      "descriptionEn": "The jolt caused her glasses to fly off.",
+      "examples": [
+        {
+          "en": "The jolt caused her glasses to fly off.",
+          "zh": "那一下震動令她的眼鏡突然飛脫。",
+          "highlight": "fly off"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "pageGroup": 2,
+      "formula": "fly out; fly out of something",
+      "highlight": "fly out; fly out of something",
+      "titleZh": "突然快速地飛出或衝出",
+      "titleEn": "fly out; fly out of something",
+      "descriptionZh": "突然快速地飛出或衝出",
+      "descriptionEn": "A small bird flew out of the open cage.",
+      "examples": [
+        {
+          "en": "A small bird flew out of the open cage.",
+          "zh": "一隻小鳥迅速從打開的鳥籠飛出來。",
+          "highlight": "flew out of"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "pageGroup": 2,
+      "formula": "fly somebody/something in/out; fly somebody/something into/out of something",
+      "highlight": "fly somebody/something in/out; fly somebody/something into/out of something",
+      "titleZh": "用飛機運送某人或某物進出某地",
+      "titleEn": "fly somebody/something in/out; fly somebody/something into/out of something",
+      "descriptionZh": "用飛機運送某人或某物進出某地",
+      "descriptionEn": "They flew us in by helicopter.",
+      "examples": [
+        {
+          "en": "They flew us in by helicopter.",
+          "zh": "他們用直升機把我們送了進來。",
+          "highlight": "flew us in"
+        }
+      ],
+      "sourcePage": 2
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 FLY 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to FLY.",
+    "contextsZh": [
+      "消息、傳聞或故事等）迅速流傳",
+      "突然撲向或攻擊某人",
+      "時間飛快地過去",
+      "乘飛機抵達或離開某地",
+      "突然陷入憤怒或恐慌等強烈情緒",
+      "突然脫落並飛走",
+      "突然快速地飛出或衝出",
+      "用飛機運送某人或某物進出某地"
+    ],
+    "contextsEn": [
+      "fly around / fly about; fly around/about something",
+      "fly at somebody",
+      "fly by / fly past",
+      "fly in/out; fly into/out of something",
+      "fly into something",
+      "fly off; fly off something",
+      "fly out; fly out of something",
+      "fly somebody/something in/out; fly somebody/something into/out of something"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 FLY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FLY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "FLY",
+    "fixedHighlight": "FLY",
+    "fixedZh": "閱讀整句，選出意思相同的 FLY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FLY expression that gives the same meaning.",
+    "correct": "fly around / fly about; fly around/about something",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 fly by 和 fly past 都可以表示時間飛快地過去。 fly out 可以表示乘飛機離開，也可以表示某人或某物突然從一個地方衝出或飛出。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. Fly by and fly past can both describe time passing very quickly. Fly out can describe air travel or something moving suddenly from a place. Read the full situation carefully.",
+    "variableItemsZh": [
+      "消息、傳聞或故事等）迅速流傳",
+      "突然撲向或攻擊某人",
+      "時間飛快地過去",
+      "乘飛機抵達或離開某地",
+      "突然陷入憤怒或恐慌等強烈情緒",
+      "突然脫落並飛走",
+      "突然快速地飛出或衝出",
+      "用飛機運送某人或某物進出某地"
+    ],
+    "variableItemsEn": [
+      "fly around / fly about; fly around/about something",
+      "fly at somebody",
+      "fly by / fly past",
+      "fly in/out; fly into/out of something",
+      "fly into something",
+      "fly off; fly off something",
+      "fly out; fly out of something",
+      "fly somebody/something in/out; fly somebody/something into/out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "消息、傳聞或故事等）迅速流傳",
+        "formEn": "fly around / fly about; fly around/about something",
+        "exampleZh": "關於他過去的故事正在學生之間迅速流傳。",
+        "exampleEn": "Stories about his past are flying around among the students.",
+        "highlight": "flying around"
+      },
+      {
+        "formZh": "突然撲向或攻擊某人",
+        "formEn": "fly at somebody",
+        "exampleZh": "那隻鵝在池塘附近突然撲向賓。",
+        "exampleEn": "The goose flew at Ben near the pond.",
+        "highlight": "flew at"
+      },
+      {
+        "formZh": "時間飛快地過去",
+        "formEn": "fly by / fly past",
+        "exampleZh": "我的三年大學生活轉眼便過去了。",
+        "exampleEn": "My three years at college flew by.",
+        "highlight": "flew by"
+      },
+      {
+        "formZh": "乘飛機抵達或離開某地",
+        "formEn": "fly in/out; fly into/out of something",
+        "exampleZh": "她下星期會乘飛機離開，前往內羅畢與他會合。",
+        "exampleEn": "She is flying out to join him in Nairobi next week.",
+        "highlight": "flying out to join him in"
+      },
+      {
+        "formZh": "突然陷入憤怒或恐慌等強烈情緒",
+        "formEn": "fly into something",
+        "exampleZh": "你一提起她，他便會勃然大怒。",
+        "exampleEn": "He flies into a rage when you mention her.",
+        "highlight": "flies into"
+      },
+      {
+        "formZh": "突然脫落並飛走",
+        "formEn": "fly off; fly off something",
+        "exampleZh": "那一下震動令她的眼鏡突然飛脫。",
+        "exampleEn": "The jolt caused her glasses to fly off.",
+        "highlight": "fly off"
+      },
+      {
+        "formZh": "突然快速地飛出或衝出",
+        "formEn": "fly out; fly out of something",
+        "exampleZh": "一隻小鳥迅速從打開的鳥籠飛出來。",
+        "exampleEn": "A small bird flew out of the open cage.",
+        "highlight": "flew out of"
+      },
+      {
+        "formZh": "用飛機運送某人或某物進出某地",
+        "formEn": "fly somebody/something in/out; fly somebody/something into/out of something",
+        "exampleZh": "他們用直升機把我們送了進來。",
+        "exampleEn": "They flew us in by helicopter.",
+        "highlight": "flew us in"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "消息、傳聞或故事等）迅速流傳",
+      "titleEn": "fly around / fly about; fly around/about something",
+      "formula": "fly around / fly about; fly around/about something",
+      "highlight": "fly around / fly about; fly around/about something",
+      "descriptionZh": "消息、傳聞或故事等）迅速流傳",
+      "descriptionEn": "Stories about his past are flying around among the students.",
+      "examples": [
+        {
+          "en": "Stories about his past are flying around among the students.",
+          "zh": "關於他過去的故事正在學生之間迅速流傳。",
+          "highlight": "flying around"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "突然撲向或攻擊某人",
+      "titleEn": "fly at somebody",
+      "formula": "fly at somebody",
+      "highlight": "fly at somebody",
+      "descriptionZh": "突然撲向或攻擊某人",
+      "descriptionEn": "The goose flew at Ben near the pond.",
+      "examples": [
+        {
+          "en": "The goose flew at Ben near the pond.",
+          "zh": "那隻鵝在池塘附近突然撲向賓。",
+          "highlight": "flew at"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "時間飛快地過去",
+      "titleEn": "fly by / fly past",
+      "formula": "fly by / fly past",
+      "highlight": "fly by / fly past",
+      "descriptionZh": "時間飛快地過去",
+      "descriptionEn": "My three years at college flew by.",
+      "examples": [
+        {
+          "en": "My three years at college flew by.",
+          "zh": "我的三年大學生活轉眼便過去了。",
+          "highlight": "flew by"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "乘飛機抵達或離開某地",
+      "titleEn": "fly in/out; fly into/out of something",
+      "formula": "fly in/out; fly into/out of something",
+      "highlight": "fly in/out; fly into/out of something",
+      "descriptionZh": "乘飛機抵達或離開某地",
+      "descriptionEn": "She is flying out to join him in Nairobi next week.",
+      "examples": [
+        {
+          "en": "She is flying out to join him in Nairobi next week.",
+          "zh": "她下星期會乘飛機離開，前往內羅畢與他會合。",
+          "highlight": "flying out to join him in"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 5,
+      "titleZh": "突然陷入憤怒或恐慌等強烈情緒",
+      "titleEn": "fly into something",
+      "formula": "fly into something",
+      "highlight": "fly into something",
+      "descriptionZh": "突然陷入憤怒或恐慌等強烈情緒",
+      "descriptionEn": "He flies into a rage when you mention her.",
+      "examples": [
+        {
+          "en": "He flies into a rage when you mention her.",
+          "zh": "你一提起她，他便會勃然大怒。",
+          "highlight": "flies into"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 6,
+      "titleZh": "突然脫落並飛走",
+      "titleEn": "fly off; fly off something",
+      "formula": "fly off; fly off something",
+      "highlight": "fly off; fly off something",
+      "descriptionZh": "突然脫落並飛走",
+      "descriptionEn": "The jolt caused her glasses to fly off.",
+      "examples": [
+        {
+          "en": "The jolt caused her glasses to fly off.",
+          "zh": "那一下震動令她的眼鏡突然飛脫。",
+          "highlight": "fly off"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "titleZh": "突然快速地飛出或衝出",
+      "titleEn": "fly out; fly out of something",
+      "formula": "fly out; fly out of something",
+      "highlight": "fly out; fly out of something",
+      "descriptionZh": "突然快速地飛出或衝出",
+      "descriptionEn": "A small bird flew out of the open cage.",
+      "examples": [
+        {
+          "en": "A small bird flew out of the open cage.",
+          "zh": "一隻小鳥迅速從打開的鳥籠飛出來。",
+          "highlight": "flew out of"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "titleZh": "用飛機運送某人或某物進出某地",
+      "titleEn": "fly somebody/something in/out; fly somebody/something into/out of something",
+      "formula": "fly somebody/something in/out; fly somebody/something into/out of something",
+      "highlight": "fly somebody/something in/out; fly somebody/something into/out of something",
+      "descriptionZh": "用飛機運送某人或某物進出某地",
+      "descriptionEn": "They flew us in by helicopter.",
+      "examples": [
+        {
+          "en": "They flew us in by helicopter.",
+          "zh": "他們用直升機把我們送了進來。",
+          "highlight": "flew us in"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "談論傳聞、故事和消息的流傳",
+      "titleEn": "Talk about rumours, stories and information spreading",
+      "zh": "fly around 和 fly about 可以幫助你描述消息、傳聞或故事在人與人之間迅速流傳。",
+      "en": "Fly around and fly about help you describe news, rumours or stories moving quickly from person to person.",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "描述感覺過得很快的時間",
+      "titleEn": "Describe time that seems to pass very quickly",
+      "zh": "fly by 和 fly past 可以自然地描述假期、課堂、週末或多年時光轉眼便過去。",
+      "en": "Fly by and fly past are natural ways to talk about holidays, lessons, weekends or years that seem very short.",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "清楚談論航空旅程和空運",
+      "titleEn": "Talk clearly about air travel and air transport",
+      "zh": "你可以用 FLY 片語動詞談論乘飛機出行，也可以描述用飛機運送人員、食物、藥物或設備。",
+      "en": "You can use FLY expressions for people travelling by plane and for moving people, food, medicine or equipment by air.",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "描述突然的動作和強烈反應",
+      "titleEn": "Describe sudden movement and strong reactions",
+      "zh": "fly off、fly out、fly at，以及 fly into a rage 或 panic，可以幫助你描述突然且強烈的動作或反應。",
+      "en": "Fly off, fly out, fly at and fly into a rage or panic help you describe things that happen suddenly and with force.",
+      "sourcePage": 2
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "消息、傳聞或故事等）迅速流傳",
+      "突然撲向或攻擊某人",
+      "時間飛快地過去",
+      "乘飛機抵達或離開某地",
+      "突然陷入憤怒或恐慌等強烈情緒",
+      "突然脫落並飛走",
+      "突然快速地飛出或衝出",
+      "用飛機運送某人或某物進出某地"
+    ],
+    "contextsEn": [
+      "fly around / fly about; fly around/about something",
+      "fly at somebody",
+      "fly by / fly past",
+      "fly in/out; fly into/out of something",
+      "fly into something",
+      "fly off; fly off something",
+      "fly out; fly out of something",
+      "fly somebody/something in/out; fly somebody/something into/out of something"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "消息、傳聞或故事等）迅速流傳",
+        "titleEn": "fly around / fly about; fly around/about something",
+        "formula": "fly around / fly about; fly around/about something",
+        "highlight": "fly around / fly about; fly around/about something",
+        "zh": "消息、傳聞或故事等）迅速流傳",
+        "en": "Stories about his past are flying around among the students.",
+        "examples": [
+          {
+            "en": "Stories about his past are flying around among the students.",
+            "zh": "關於他過去的故事正在學生之間迅速流傳。",
+            "highlight": "flying around"
+          }
+        ]
+      },
+      {
+        "titleZh": "突然撲向或攻擊某人",
+        "titleEn": "fly at somebody",
+        "formula": "fly at somebody",
+        "highlight": "fly at somebody",
+        "zh": "突然撲向或攻擊某人",
+        "en": "The goose flew at Ben near the pond.",
+        "examples": [
+          {
+            "en": "The goose flew at Ben near the pond.",
+            "zh": "那隻鵝在池塘附近突然撲向賓。",
+            "highlight": "flew at"
+          }
+        ]
+      },
+      {
+        "titleZh": "時間飛快地過去",
+        "titleEn": "fly by / fly past",
+        "formula": "fly by / fly past",
+        "highlight": "fly by / fly past",
+        "zh": "時間飛快地過去",
+        "en": "My three years at college flew by.",
+        "examples": [
+          {
+            "en": "My three years at college flew by.",
+            "zh": "我的三年大學生活轉眼便過去了。",
+            "highlight": "flew by"
+          }
+        ]
+      },
+      {
+        "titleZh": "乘飛機抵達或離開某地",
+        "titleEn": "fly in/out; fly into/out of something",
+        "formula": "fly in/out; fly into/out of something",
+        "highlight": "fly in/out; fly into/out of something",
+        "zh": "乘飛機抵達或離開某地",
+        "en": "She is flying out to join him in Nairobi next week.",
+        "examples": [
+          {
+            "en": "She is flying out to join him in Nairobi next week.",
+            "zh": "她下星期會乘飛機離開，前往內羅畢與他會合。",
+            "highlight": "flying out to join him in"
+          }
+        ]
+      },
+      {
+        "titleZh": "突然陷入憤怒或恐慌等強烈情緒",
+        "titleEn": "fly into something",
+        "formula": "fly into something",
+        "highlight": "fly into something",
+        "zh": "突然陷入憤怒或恐慌等強烈情緒",
+        "en": "He flies into a rage when you mention her.",
+        "examples": [
+          {
+            "en": "He flies into a rage when you mention her.",
+            "zh": "你一提起她，他便會勃然大怒。",
+            "highlight": "flies into"
+          }
+        ]
+      },
+      {
+        "titleZh": "突然脫落並飛走",
+        "titleEn": "fly off; fly off something",
+        "formula": "fly off; fly off something",
+        "highlight": "fly off; fly off something",
+        "zh": "突然脫落並飛走",
+        "en": "The jolt caused her glasses to fly off.",
+        "examples": [
+          {
+            "en": "The jolt caused her glasses to fly off.",
+            "zh": "那一下震動令她的眼鏡突然飛脫。",
+            "highlight": "fly off"
+          }
+        ]
+      },
+      {
+        "titleZh": "突然快速地飛出或衝出",
+        "titleEn": "fly out; fly out of something",
+        "formula": "fly out; fly out of something",
+        "highlight": "fly out; fly out of something",
+        "zh": "突然快速地飛出或衝出",
+        "en": "A small bird flew out of the open cage.",
+        "examples": [
+          {
+            "en": "A small bird flew out of the open cage.",
+            "zh": "一隻小鳥迅速從打開的鳥籠飛出來。",
+            "highlight": "flew out of"
+          }
+        ]
+      },
+      {
+        "titleZh": "用飛機運送某人或某物進出某地",
+        "titleEn": "fly somebody/something in/out; fly somebody/something into/out of something",
+        "formula": "fly somebody/something in/out; fly somebody/something into/out of something",
+        "highlight": "fly somebody/something in/out; fly somebody/something into/out of something",
+        "zh": "用飛機運送某人或某物進出某地",
+        "en": "They flew us in by helicopter.",
+        "examples": [
+          {
+            "en": "They flew us in by helicopter.",
+            "zh": "他們用直升機把我們送了進來。",
+            "highlight": "flew us in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 FLY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FLY expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 FLY 片語動詞。",
+      "en": "Read the whole sentence and choose the FLY expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "fly by 和 fly past 都可以表示時間飛快地過去。",
+      "titleEn": "Fly by and fly past can both describe time passing very quickly.",
+      "zh": "fly by 和 fly past 都可以表示時間飛快地過去。",
+      "en": "Fly by and fly past can both describe time passing very quickly.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "fly out 可以表示乘飛機離開，也可以表示某人或某物突然從一個地方衝出或飛出。請仔細閱讀整個情境。",
+      "titleEn": "Fly out can describe air travel or something moving suddenly from a place. Read the full situation carefully.",
+      "zh": "fly out 可以表示乘飛機離開，也可以表示某人或某物突然從一個地方衝出或飛出。請仔細閱讀整個情境。",
+      "en": "Fly out can describe air travel or something moving suddenly from a place. Read the full situation carefully.",
+      "examplesEn": [],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "fly around / fly about; fly around/about something",
+      "meaningZh": "消息、傳聞或故事等）迅速流傳",
+      "exampleEn": "Stories about his past are flying around among the students.",
+      "exampleZh": "關於他過去的故事正在學生之間迅速流傳。",
+      "highlight": "flying around",
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "formula": "fly at somebody",
+      "meaningZh": "突然撲向或攻擊某人",
+      "exampleEn": "The goose flew at Ben near the pond.",
+      "exampleZh": "那隻鵝在池塘附近突然撲向賓。",
+      "highlight": "flew at",
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "formula": "fly by / fly past",
+      "meaningZh": "時間飛快地過去",
+      "exampleEn": "My three years at college flew by.",
+      "exampleZh": "我的三年大學生活轉眼便過去了。",
+      "highlight": "flew by",
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "formula": "fly in/out; fly into/out of something",
+      "meaningZh": "乘飛機抵達或離開某地",
+      "exampleEn": "She is flying out to join him in Nairobi next week.",
+      "exampleZh": "她下星期會乘飛機離開，前往內羅畢與他會合。",
+      "highlight": "flying out to join him in",
+      "sourcePage": 1
+    },
+    {
+      "number": 5,
+      "formula": "fly into something",
+      "meaningZh": "突然陷入憤怒或恐慌等強烈情緒",
+      "exampleEn": "He flies into a rage when you mention her.",
+      "exampleZh": "你一提起她，他便會勃然大怒。",
+      "highlight": "flies into",
+      "sourcePage": 1
+    },
+    {
+      "number": 6,
+      "formula": "fly off; fly off something",
+      "meaningZh": "突然脫落並飛走",
+      "exampleEn": "The jolt caused her glasses to fly off.",
+      "exampleZh": "那一下震動令她的眼鏡突然飛脫。",
+      "highlight": "fly off",
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "formula": "fly out; fly out of something",
+      "meaningZh": "突然快速地飛出或衝出",
+      "exampleEn": "A small bird flew out of the open cage.",
+      "exampleZh": "一隻小鳥迅速從打開的鳥籠飛出來。",
+      "highlight": "flew out of",
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "formula": "fly somebody/something in/out; fly somebody/something into/out of something",
+      "meaningZh": "用飛機運送某人或某物進出某地",
+      "exampleEn": "They flew us in by helicopter.",
+      "exampleZh": "他們用直升機把我們送了進來。",
+      "highlight": "flew us in",
+      "sourcePage": 2
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FLY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FLY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FLY 動詞片語句子改寫練習",
+    "titleEn": "FLY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FLY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FLY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-03-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Stories about the hidden room are spreading quickly through the school.",
+      "promptZh": "關於那個秘密房間的故事正在校內迅速流傳。",
+      "starter": "Stories",
+      "answer": "Stories about the hidden room are flying around the school.",
+      "answerZh": "關於那個秘密房間的故事正在校內迅速流傳。",
+      "targetForm": "fly around",
+      "targetMeaningZh": "消息、傳聞或故事等迅速流傳",
+      "highlight": "flying around"
+    },
+    {
+      "id": "phrasal-verb-03-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Maya is arriving in Seoul by plane tomorrow morning.",
+      "promptZh": "瑪雅明早會乘飛機抵達首爾。",
+      "starter": "Maya",
+      "answer": "Maya is flying into Seoul tomorrow morning.",
+      "answerZh": "瑪雅明早會乘飛機抵達首爾。",
+      "targetForm": "fly into something",
+      "targetMeaningZh": "乘飛機抵達某地",
+      "highlight": "flying into"
+    },
+    {
+      "id": "phrasal-verb-03-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The summer holidays passed very quickly.",
+      "promptZh": "暑假過得非常快。",
+      "starter": "The",
+      "answer": "The summer holidays flew by.",
+      "answerZh": "暑假轉眼便過去了。",
+      "targetForm": "fly by",
+      "targetMeaningZh": "時間飛快地過去",
+      "highlight": "flew by"
+    },
+    {
+      "id": "phrasal-verb-03-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Her hat was suddenly blown from her head by the strong wind.",
+      "promptZh": "她的帽子在強風中突然從頭上被吹走。",
+      "starter": "Her",
+      "answer": "Her hat flew off in the strong wind.",
+      "answerZh": "她的帽子在強風中突然飛脫。",
+      "targetForm": "fly off",
+      "targetMeaningZh": "突然脫落並飛走",
+      "highlight": "flew off"
+    },
+    {
+      "id": "phrasal-verb-03-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The rescue team took food into the village by helicopter.",
+      "promptZh": "救援隊用直升機把食物運進村莊。",
+      "starter": "The",
+      "answer": "The rescue team flew food into the village.",
+      "answerZh": "救援隊用直升機把食物運進村莊。",
+      "targetForm": "fly something into something",
+      "targetMeaningZh": "用飛機把某物運進某地",
+      "highlight": "flew food into"
+    },
+    {
+      "id": "phrasal-verb-03-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "He suddenly became extremely angry when he saw the broken screen.",
+      "promptZh": "他看到破裂的螢幕時突然勃然大怒。",
+      "starter": "He",
+      "answer": "He flew into a rage when he saw the broken screen.",
+      "answerZh": "他看到破裂的螢幕時突然勃然大怒。",
+      "targetForm": "fly into a rage",
+      "targetMeaningZh": "突然勃然大怒",
+      "highlight": "flew into a rage"
+    },
+    {
+      "id": "phrasal-verb-03-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The goose suddenly attacked Ben near the pond.",
+      "promptZh": "那隻鵝在池塘附近突然撲向賓。",
+      "starter": "The",
+      "answer": "The goose flew at Ben near the pond.",
+      "answerZh": "那隻鵝在池塘附近突然撲向賓。",
+      "targetForm": "fly at somebody",
+      "targetMeaningZh": "突然撲向或攻擊某人",
+      "highlight": "flew at"
+    },
+    {
+      "id": "phrasal-verb-03-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "A rumour about the new teacher spread quickly through the class.",
+      "promptZh": "有關新老師的傳聞很快便在班內傳開。",
+      "starter": "A",
+      "answer": "A rumour about the new teacher flew around the class.",
+      "answerZh": "有關新老師的傳聞很快便在班內傳開。",
+      "targetForm": "fly around",
+      "targetMeaningZh": "消息、傳聞或故事等迅速流傳",
+      "highlight": "flew around"
+    },
+    {
+      "id": "phrasal-verb-03-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "A small bird left the open cage very quickly.",
+      "promptZh": "一隻小鳥迅速離開了打開的鳥籠。",
+      "starter": "A",
+      "answer": "A small bird flew out of the open cage.",
+      "answerZh": "一隻小鳥迅速從打開的鳥籠飛出來。",
+      "targetForm": "fly out of something",
+      "targetMeaningZh": "突然快速地從某處飛出或衝出",
+      "highlight": "flew out of"
+    },
+    {
+      "id": "phrasal-verb-03-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Her parents arrived by plane from Canada last night.",
+      "promptZh": "她的父母昨晚從加拿大乘飛機抵達。",
+      "starter": "Her",
+      "answer": "Her parents flew in from Canada last night.",
+      "answerZh": "她的父母昨晚從加拿大乘飛機抵達。",
+      "targetForm": "fly in",
+      "targetMeaningZh": "乘飛機抵達",
+      "highlight": "flew in"
+    },
+    {
+      "id": "phrasal-verb-03-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The afternoon passed very quickly while we played games.",
+      "promptZh": "我們玩遊戲時，下午很快便過去了。",
+      "starter": "The",
+      "answer": "The afternoon flew past while we played games.",
+      "answerZh": "我們玩遊戲時，下午轉眼便過去了。",
+      "targetForm": "fly past",
+      "targetMeaningZh": "時間飛快地過去",
+      "highlight": "flew past"
+    },
+    {
+      "id": "phrasal-verb-03-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "They will bring the doctors here by plane tomorrow.",
+      "promptZh": "他們明天會用飛機把醫生送來。",
+      "starter": "They",
+      "answer": "They will fly the doctors in tomorrow.",
+      "answerZh": "他們明天會用飛機把醫生送來。",
+      "targetForm": "fly somebody in",
+      "targetMeaningZh": "用飛機把某人送來或送入",
+      "highlight": "fly the doctors in"
+    },
+    {
+      "id": "phrasal-verb-03-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "One button suddenly came loose from his coat.",
+      "promptZh": "他外套上的一粒鈕扣突然鬆脫。",
+      "starter": "One",
+      "answer": "One button flew off his coat.",
+      "answerZh": "他外套上的一粒鈕扣突然飛脫。",
+      "targetForm": "fly off something",
+      "targetMeaningZh": "突然從某物脫落並飛走",
+      "highlight": "flew off"
+    },
+    {
+      "id": "phrasal-verb-03-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The children suddenly became very frightened when the lights went out.",
+      "promptZh": "燈熄滅時，孩子們突然非常害怕。",
+      "starter": "The",
+      "answer": "The children flew into a panic when the lights went out.",
+      "answerZh": "燈熄滅時，孩子們突然陷入恐慌。",
+      "targetForm": "fly into a panic",
+      "targetMeaningZh": "突然陷入恐慌",
+      "highlight": "flew into a panic"
+    },
+    {
+      "id": "phrasal-verb-03-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "We are leaving for Tokyo by plane this evening.",
+      "promptZh": "我們今晚會乘飛機離開，前往東京。",
+      "starter": "We",
+      "answer": "We are flying out to Tokyo this evening.",
+      "answerZh": "我們今晚會乘飛機離開，前往東京。",
+      "targetForm": "fly out",
+      "targetMeaningZh": "乘飛機離開",
+      "highlight": "flying out"
+    },
+    {
+      "id": "phrasal-verb-03-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The angry cat suddenly attacked the vet.",
+      "promptZh": "那隻憤怒的貓突然撲向獸醫。",
+      "starter": "The",
+      "answer": "The angry cat flew at the vet.",
+      "answerZh": "那隻憤怒的貓突然撲向獸醫。",
+      "targetForm": "fly at somebody",
+      "targetMeaningZh": "突然撲向或攻擊某人",
+      "highlight": "flew at"
+    },
+    {
+      "id": "phrasal-verb-03-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The lid has suddenly come loose from the box.",
+      "promptZh": "箱子的蓋子突然鬆脫了。",
+      "starter": "The",
+      "answer": "The lid has flown off the box.",
+      "answerZh": "箱子的蓋子突然飛脫了。",
+      "targetForm": "fly off something",
+      "targetMeaningZh": "突然從某物脫落並飛走",
+      "highlight": "flown off"
+    },
+    {
+      "id": "phrasal-verb-03-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "A helicopter carried the injured walker away from the mountains by air.",
+      "promptZh": "一架直升機用空運方式把受傷的遠足者送離山區。",
+      "starter": "A",
+      "answer": "A helicopter flew the injured walker out of the mountains.",
+      "answerZh": "一架直升機用空運方式把受傷的遠足者送離山區。",
+      "targetForm": "fly somebody out of something",
+      "targetMeaningZh": "用飛機把某人送離某地",
+      "highlight": "flew the injured walker out of"
+    },
+    {
+      "id": "phrasal-verb-03-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Dad often becomes extremely angry when people touch his tools.",
+      "promptZh": "每當有人碰他的工具，爸爸往往會勃然大怒。",
+      "starter": "Dad",
+      "answer": "Dad often flies into a rage when people touch his tools.",
+      "answerZh": "每當有人碰他的工具，爸爸往往會勃然大怒。",
+      "targetForm": "fly into a rage",
+      "targetMeaningZh": "突然勃然大怒",
+      "highlight": "flies into a rage"
+    },
+    {
+      "id": "phrasal-verb-03-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The ball left the court quickly after one hard kick.",
+      "promptZh": "一記大力踢球後，足球迅速離開球場。",
+      "starter": "The",
+      "answer": "The ball flew out of the court after one hard kick.",
+      "answerZh": "一記大力踢球後，足球迅速飛出球場。",
+      "targetForm": "fly out of something",
+      "targetMeaningZh": "突然快速地從某處飛出或衝出",
+      "highlight": "flew out of"
+    },
+    {
+      "id": "phrasal-verb-03-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "False messages have been spreading quickly online all morning.",
+      "promptZh": "虛假訊息整個早上都在網上迅速流傳。",
+      "starter": "False",
+      "answer": "False messages have been flying around online all morning.",
+      "answerZh": "虛假訊息整個早上都在網上迅速流傳。",
+      "targetForm": "fly around",
+      "targetMeaningZh": "消息、傳聞或故事等迅速流傳",
+      "highlight": "flying around"
+    },
+    {
+      "id": "phrasal-verb-03-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Has Leo just arrived by plane from Bangkok?",
+      "promptZh": "里奧剛剛從曼谷乘飛機抵達嗎？",
+      "starter": "Has",
+      "answer": "Has Leo just flown in from Bangkok?",
+      "answerZh": "里奧剛剛從曼谷乘飛機抵達嗎？",
+      "targetForm": "fly in",
+      "targetMeaningZh": "乘飛機抵達",
+      "highlight": "flown in"
+    },
+    {
+      "id": "phrasal-verb-03-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Time is passing very quickly today.",
+      "promptZh": "今天時間過得非常快。",
+      "starter": "Time",
+      "answer": "Time is flying by today.",
+      "answerZh": "今天時間過得飛快。",
+      "targetForm": "fly by",
+      "targetMeaningZh": "時間飛快地過去",
+      "highlight": "flying by"
+    },
+    {
+      "id": "phrasal-verb-03-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Why did Mia suddenly attack her brother?",
+      "promptZh": "米婭為甚麼突然撲向她的弟弟？",
+      "starter": "Why",
+      "answer": "Why did Mia fly at her brother?",
+      "answerZh": "米婭為甚麼突然撲向她的弟弟？",
+      "targetForm": "fly at somebody",
+      "targetMeaningZh": "突然撲向或攻擊某人",
+      "highlight": "fly at"
+    },
+    {
+      "id": "phrasal-verb-03-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "The airline has carried the passengers away from the city by plane.",
+      "promptZh": "航空公司已用飛機把乘客送離該城市。",
+      "starter": "The",
+      "answer": "The airline has flown the passengers out of the city.",
+      "answerZh": "航空公司已用飛機把乘客送離該城市。",
+      "targetForm": "fly somebody out of something",
+      "targetMeaningZh": "用飛機把某人送離某地",
+      "highlight": "flown the passengers out of"
+    },
+    {
+      "id": "phrasal-verb-03-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "The wheel almost came loose from the toy car while it was moving.",
+      "promptZh": "玩具車移動時，車輪幾乎鬆脫。",
+      "starter": "The",
+      "answer": "The wheel almost flew off the toy car while it was moving.",
+      "answerZh": "玩具車移動時，車輪差點飛脫。",
+      "targetForm": "fly off something",
+      "targetMeaningZh": "突然從某物脫落並飛走",
+      "highlight": "flew off"
+    },
+    {
+      "id": "phrasal-verb-03-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Several papers suddenly left her bag when it fell.",
+      "promptZh": "她的袋子掉下時，幾張紙突然飛了出來。",
+      "starter": "Several",
+      "answer": "Several papers flew out of her bag when it fell.",
+      "answerZh": "她的袋子掉下時，幾張紙迅速飛了出來。",
+      "targetForm": "fly out of something",
+      "targetMeaningZh": "突然快速地從某處飛出或衝出",
+      "highlight": "flew out of"
+    },
+    {
+      "id": "phrasal-verb-03-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Do not suddenly become frightened; we still have time.",
+      "promptZh": "不要突然恐慌；我們仍有時間。",
+      "starter": "Do",
+      "answer": "Do not fly into a panic; we still have time.",
+      "answerZh": "不要突然陷入恐慌；我們仍有時間。",
+      "targetForm": "fly into a panic",
+      "targetMeaningZh": "突然陷入恐慌",
+      "highlight": "fly into a panic"
+    },
+    {
+      "id": "phrasal-verb-03-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "By lunchtime, the news had spread quickly through the whole school.",
+      "promptZh": "到午飯時間，消息已迅速傳遍整所學校。",
+      "starter": "By",
+      "answer": "By lunchtime, the news had flown around the whole school.",
+      "answerZh": "到午飯時間，消息已迅速傳遍整所學校。",
+      "targetForm": "fly around",
+      "targetMeaningZh": "消息、傳聞或故事等迅速流傳",
+      "highlight": "flown around"
+    },
+    {
+      "id": "phrasal-verb-03-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "When I pulled the drawer, its handle suddenly broke away from it.",
+      "promptZh": "我拉開抽屜時，它的手柄突然脫落。",
+      "starter": "When",
+      "answer": "When I pulled the drawer, its handle flew off.",
+      "answerZh": "我拉開抽屜時，它的手柄突然飛脫。",
+      "targetForm": "fly off",
+      "targetMeaningZh": "突然脫落並飛走",
+      "highlight": "flew off"
+    },
+    {
+      "id": "phrasal-verb-03-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The player nearly attacked the referee after the final whistle.",
+      "promptZh": "終場哨聲響起後，那名球員差點撲向球證。",
+      "starter": "The",
+      "answer": "The player nearly flew at the referee after the final whistle.",
+      "answerZh": "終場哨聲響起後，那名球員差點撲向球證。",
+      "targetForm": "fly at somebody",
+      "targetMeaningZh": "突然撲向或攻擊某人",
+      "highlight": "flew at"
+    },
+    {
+      "id": "phrasal-verb-03-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Fresh flowers are brought here by plane from Thailand each morning.",
+      "promptZh": "每天早上都有鮮花從泰國空運到來。",
+      "starter": "Fresh",
+      "answer": "Fresh flowers are flown in from Thailand each morning.",
+      "answerZh": "每天早上都有鮮花從泰國空運到來。",
+      "targetForm": "fly something in",
+      "targetMeaningZh": "用飛機把某物運來或運入",
+      "highlight": "flown in"
+    },
+    {
+      "id": "phrasal-verb-03-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "My first year at university has passed very quickly.",
+      "promptZh": "我的大學第一年過得非常快。",
+      "starter": "My",
+      "answer": "My first year at university has flown by.",
+      "answerZh": "我的大學第一年轉眼便過去了。",
+      "targetForm": "fly by",
+      "targetMeaningZh": "時間飛快地過去",
+      "highlight": "flown by"
+    },
+    {
+      "id": "phrasal-verb-03-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The cat rushed from the room when it heard the noise.",
+      "promptZh": "那隻貓聽到聲音後迅速衝離房間。",
+      "starter": "The",
+      "answer": "The cat flew out of the room when it heard the noise.",
+      "answerZh": "那隻貓聽到聲音後迅速衝出房間。",
+      "targetForm": "fly out of something",
+      "targetMeaningZh": "突然快速地從某處飛出或衝出",
+      "highlight": "flew out of"
+    },
+    {
+      "id": "phrasal-verb-03-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Are you leaving Hong Kong by plane this evening?",
+      "promptZh": "你今晚會乘飛機離開香港嗎？",
+      "starter": "Are",
+      "answer": "Are you flying out of Hong Kong this evening?",
+      "answerZh": "你今晚會乘飛機離開香港嗎？",
+      "targetForm": "fly out of something",
+      "targetMeaningZh": "乘飛機離開某地",
+      "highlight": "flying out of"
+    },
+    {
+      "id": "phrasal-verb-03-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Why are these stories spreading quickly among the parents?",
+      "promptZh": "這些故事為甚麼正在家長之間迅速流傳？",
+      "starter": "Why",
+      "answer": "Why are these stories flying about among the parents?",
+      "answerZh": "這些故事為甚麼正在家長之間迅速流傳？",
+      "targetForm": "fly about",
+      "targetMeaningZh": "消息、傳聞或故事等迅速流傳",
+      "highlight": "flying about"
+    },
+    {
+      "id": "phrasal-verb-03-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The crowd suddenly became very frightened when smoke appeared.",
+      "promptZh": "煙霧出現時，人群突然非常害怕。",
+      "starter": "The",
+      "answer": "The crowd flew into a panic when smoke appeared.",
+      "answerZh": "煙霧出現時，人群突然陷入恐慌。",
+      "targetForm": "fly into a panic",
+      "targetMeaningZh": "突然陷入恐慌",
+      "highlight": "flew into a panic"
+    },
+    {
+      "id": "phrasal-verb-03-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The ball hit the table, and a cup was knocked from it suddenly.",
+      "promptZh": "球撞到桌子，一隻杯子突然從桌上被撞走。",
+      "starter": "The",
+      "answer": "The ball hit the table, and a cup flew off the table.",
+      "answerZh": "球撞到桌子，一隻杯子突然從桌上飛落。",
+      "targetForm": "fly off something",
+      "targetMeaningZh": "突然從某物脫落並飛走",
+      "highlight": "flew off"
+    },
+    {
+      "id": "phrasal-verb-03-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Could the team take more medicine into the island by air?",
+      "promptZh": "團隊可以把更多藥物空運到島上嗎？",
+      "starter": "Could",
+      "answer": "Could the team fly more medicine into the island?",
+      "answerZh": "團隊可以把更多藥物空運到島上嗎？",
+      "targetForm": "fly something into something",
+      "targetMeaningZh": "用飛機把某物運進某地",
+      "highlight": "fly more medicine into"
+    },
+    {
+      "id": "phrasal-verb-03-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "When the stranger touched its food, the dog suddenly attacked him.",
+      "promptZh": "陌生人碰牠的食物時，那隻狗突然撲向他。",
+      "starter": "When",
+      "answer": "When the stranger touched its food, the dog flew at him.",
+      "answerZh": "陌生人碰牠的食物時，那隻狗突然撲向他。",
+      "targetForm": "fly at somebody",
+      "targetMeaningZh": "突然撲向或攻擊某人",
+      "highlight": "flew at"
+    },
+    {
+      "id": "phrasal-verb-03-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "A spark left the fire quickly and landed on the floor.",
+      "promptZh": "一點火花迅速離開火堆，落在地板上。",
+      "starter": "A",
+      "answer": "A spark flew out of the fire and landed on the floor.",
+      "answerZh": "一點火花迅速從火中飛出，落在地板上。",
+      "targetForm": "fly out of something",
+      "targetMeaningZh": "突然快速地從某處飛出或衝出",
+      "highlight": "flew out of"
+    },
+    {
+      "id": "phrasal-verb-03-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "How quickly the last ten years have passed!",
+      "promptZh": "過去十年過得多麼快！",
+      "starter": "How",
+      "answer": "How quickly the last ten years have flown by!",
+      "answerZh": "過去十年轉眼便過去了！",
+      "targetForm": "fly by",
+      "targetMeaningZh": "時間飛快地過去",
+      "highlight": "flown by"
+    },
+    {
+      "id": "phrasal-verb-03-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "As we talked, the hours passed very quickly.",
+      "promptZh": "我們談話時，幾個小時很快便過去了。",
+      "starter": "As",
+      "answer": "As we talked, the hours flew past.",
+      "answerZh": "我們談話時，幾個小時轉眼便過去了。",
+      "targetForm": "fly past",
+      "targetMeaningZh": "時間飛快地過去",
+      "highlight": "flew past"
+    },
+    {
+      "id": "phrasal-verb-03-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "No one knows how the claim started, but it is spreading quickly online.",
+      "promptZh": "沒有人知道這項說法是如何開始的，但它正在網上迅速流傳。",
+      "starter": "No",
+      "answer": "No one knows how the claim started, but it is flying around online.",
+      "answerZh": "沒有人知道這項說法是如何開始的，但它正在網上迅速流傳。",
+      "targetForm": "fly around",
+      "targetMeaningZh": "消息、傳聞或故事等迅速流傳",
+      "highlight": "flying around"
+    },
+    {
+      "id": "phrasal-verb-03-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "I may arrive in Rome by plane and take a train south.",
+      "promptZh": "我可能會乘飛機抵達羅馬，再乘火車向南走。",
+      "starter": "I",
+      "answer": "I may fly into Rome and take a train south.",
+      "answerZh": "我可能會乘飛機抵達羅馬，再乘火車向南走。",
+      "targetForm": "fly into something",
+      "targetMeaningZh": "乘飛機抵達某地",
+      "highlight": "fly into"
+    },
+    {
+      "id": "phrasal-verb-03-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The bird suddenly attacked me as I opened the cage.",
+      "promptZh": "我打開鳥籠時，那隻鳥突然撲向我。",
+      "starter": "The",
+      "answer": "The bird flew at me as I opened the cage.",
+      "answerZh": "我打開鳥籠時，那隻鳥突然撲向我。",
+      "targetForm": "fly at somebody",
+      "targetMeaningZh": "突然撲向或攻擊某人",
+      "highlight": "flew at"
+    },
+    {
+      "id": "phrasal-verb-03-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The toy suddenly left his hand when he slipped.",
+      "promptZh": "他滑倒時，玩具突然離開他的手。",
+      "starter": "The",
+      "answer": "The toy flew out of his hand when he slipped.",
+      "answerZh": "他滑倒時，玩具突然從他手中飛出。",
+      "targetForm": "fly out of something",
+      "targetMeaningZh": "突然快速地從某處飛出或衝出",
+      "highlight": "flew out of"
+    },
+    {
+      "id": "phrasal-verb-03-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "He had become extremely angry before anyone could explain.",
+      "promptZh": "任何人還未來得及解釋，他已經勃然大怒。",
+      "starter": "He",
+      "answer": "He had flown into a rage before anyone could explain.",
+      "answerZh": "任何人還未來得及解釋，他已經勃然大怒。",
+      "targetForm": "fly into a rage",
+      "targetMeaningZh": "突然勃然大怒",
+      "highlight": "flown into a rage"
+    },
+    {
+      "id": "phrasal-verb-03-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Two roof tiles were blown from the roof in the strong wind.",
+      "promptZh": "強風中有兩塊屋頂瓦片從屋頂被吹走。",
+      "starter": "Two",
+      "answer": "Two roof tiles flew off in the strong wind.",
+      "answerZh": "強風中有兩塊屋頂瓦片突然飛脫。",
+      "targetForm": "fly off",
+      "targetMeaningZh": "突然脫落並飛走",
+      "highlight": "flew off"
+    },
+    {
+      "id": "phrasal-verb-03-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The final hour of the journey passed much faster than we expected.",
+      "promptZh": "旅程的最後一個小時比我們預期過得快得多。",
+      "starter": "The",
+      "answer": "The final hour of the journey flew by much faster than we expected.",
+      "answerZh": "旅程的最後一個小時比我們預期過得快得多。",
+      "targetForm": "fly by",
+      "targetMeaningZh": "時間飛快地過去",
+      "highlight": "flew by"
+    },
+    {
+      "id": "phrasal-verb-03-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "We had to transport the equipment abroad by plane before the airport closed.",
+      "promptZh": "我們必須在機場關閉前，用飛機把設備運到國外。",
+      "starter": "We",
+      "answer": "We had to fly the equipment out of the country before the airport closed.",
+      "answerZh": "我們必須在機場關閉前，用飛機把設備運離該國。",
+      "targetForm": "fly something out of something",
+      "targetMeaningZh": "用飛機把某物運離某地",
+      "highlight": "fly the equipment out of"
+    },
+    {
+      "id": "phrasal-verb-03-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The story may spread quickly through the neighbourhood by tonight.",
+      "promptZh": "到今晚，這個故事可能會迅速傳遍附近一帶。",
+      "starter": "The",
+      "answer": "The story may fly around the neighbourhood by tonight.",
+      "answerZh": "到今晚，這個故事可能會迅速傳遍附近一帶。",
+      "targetForm": "fly around",
+      "targetMeaningZh": "消息、傳聞或故事等迅速流傳",
+      "highlight": "fly around"
+    },
+    {
+      "id": "phrasal-verb-03-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Leo had suddenly attacked the other boy before the teacher stopped him.",
+      "promptZh": "老師制止里奧前，他已突然撲向另一個男孩。",
+      "starter": "Leo",
+      "answer": "Leo had flown at the other boy before the teacher stopped him.",
+      "answerZh": "老師制止里奧前，他已突然撲向另一個男孩。",
+      "targetForm": "fly at somebody",
+      "targetMeaningZh": "突然撲向或攻擊某人",
+      "highlight": "flown at"
+    },
+    {
+      "id": "phrasal-verb-03-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The singer arrives by plane for the concert and leaves the next morning.",
+      "promptZh": "那位歌手會乘飛機到來參加演唱會，並在翌晨離開。",
+      "starter": "The",
+      "answer": "The singer flies in for the concert and leaves the next morning.",
+      "answerZh": "那位歌手會乘飛機到來參加演唱會，並在翌晨離開。",
+      "targetForm": "fly in",
+      "targetMeaningZh": "乘飛機抵達",
+      "highlight": "flies in"
+    },
+    {
+      "id": "phrasal-verb-03-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "One rude comment can make her suddenly become extremely angry.",
+      "promptZh": "一句無禮的說話便可以令她突然勃然大怒。",
+      "starter": "One",
+      "answer": "One rude comment can make her fly into a rage.",
+      "answerZh": "一句無禮的說話便可以令她突然勃然大怒。",
+      "targetForm": "fly into a rage",
+      "targetMeaningZh": "突然勃然大怒",
+      "highlight": "fly into a rage"
+    },
+    {
+      "id": "phrasal-verb-03-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "As soon as the gate opened, the dog rushed through it.",
+      "promptZh": "大門一打開，那隻狗便迅速衝了出去。",
+      "starter": "As",
+      "answer": "As soon as the gate opened, the dog flew out.",
+      "answerZh": "大門一打開，那隻狗便迅速衝了出去。",
+      "targetForm": "fly out",
+      "targetMeaningZh": "突然快速地飛出或衝出",
+      "highlight": "flew out"
+    },
+    {
+      "id": "phrasal-verb-03-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The manager may suddenly become extremely angry if the files are lost again.",
+      "promptZh": "如果檔案再次遺失，經理可能會突然勃然大怒。",
+      "starter": "The",
+      "answer": "The manager may fly into a rage if the files are lost again.",
+      "answerZh": "如果檔案再次遺失，經理可能會突然勃然大怒。",
+      "targetForm": "fly into a rage",
+      "targetMeaningZh": "突然勃然大怒",
+      "highlight": "fly into a rage"
+    },
+    {
+      "id": "phrasal-verb-03-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "We were so busy that the whole weekend seemed to pass in no time.",
+      "promptZh": "我們非常忙，整個週末似乎轉眼便過去了。",
+      "starter": "We",
+      "answer": "We were so busy that the whole weekend seemed to fly by.",
+      "answerZh": "我們非常忙，整個週末似乎轉眼便過去了。",
+      "targetForm": "fly by",
+      "targetMeaningZh": "時間飛快地過去",
+      "highlight": "fly by"
+    },
+    {
+      "id": "phrasal-verb-03-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The film company took the actors into the desert by plane before filming began.",
+      "promptZh": "拍攝開始前，電影公司用飛機把演員送進沙漠。",
+      "starter": "The",
+      "answer": "The film company flew the actors into the desert before filming began.",
+      "answerZh": "拍攝開始前，電影公司用飛機把演員送進沙漠。",
+      "targetForm": "fly somebody into something",
+      "targetMeaningZh": "用飛機把某人送進某地",
+      "highlight": "flew the actors into"
+    },
+    {
+      "id": "phrasal-verb-03-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "New stories about the missing painting were spreading quickly, although nobody knew whether they were true.",
+      "promptZh": "關於失蹤畫作的新故事正在迅速流傳，儘管沒有人知道它們是否真實。",
+      "starter": "New",
+      "answer": "New stories about the missing painting were flying around, although nobody knew whether they were true.",
+      "answerZh": "關於失蹤畫作的新故事正在迅速流傳，儘管沒有人知道它們是否真實。",
+      "targetForm": "fly around",
+      "targetMeaningZh": "消息、傳聞或故事等迅速流傳",
+      "highlight": "flying around"
+    },
+    {
+      "id": "phrasal-verb-03-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The strong wind made the sign leave the wall and move across the road.",
+      "promptZh": "強風令告示牌離開牆面，並移過馬路。",
+      "starter": "The",
+      "answer": "The strong wind made the sign fly off the wall and across the road.",
+      "answerZh": "強風令告示牌從牆上飛脫，並飛過馬路。",
+      "targetForm": "fly off something",
+      "targetMeaningZh": "突然從某物脫落並飛走",
+      "highlight": "fly off"
+    },
+    {
+      "id": "phrasal-verb-03-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The doctors left the city by plane before the storm reached the airport.",
+      "promptZh": "暴風雨抵達機場前，醫生們已乘飛機離開該城市。",
+      "starter": "The",
+      "answer": "The doctors flew out of the city before the storm reached the airport.",
+      "answerZh": "暴風雨抵達機場前，醫生們已乘飛機離開該城市。",
+      "targetForm": "fly out of something",
+      "targetMeaningZh": "乘飛機離開某地",
+      "highlight": "flew out of"
+    },
+    {
+      "id": "phrasal-verb-03-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "Without warning, the dog suddenly attacked the cyclist as he passed the gate.",
+      "promptZh": "那名單車手經過大門時，那隻狗毫無預警地突然撲向他。",
+      "starter": "Without",
+      "answer": "Without warning, the dog flew at the cyclist as he passed the gate.",
+      "answerZh": "那名單車手經過大門時，那隻狗毫無預警地突然撲向他。",
+      "targetForm": "fly at somebody",
+      "targetMeaningZh": "突然撲向或攻擊某人",
+      "highlight": "flew at"
+    },
+    {
+      "id": "phrasal-verb-03-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "When she could not find her passport, she suddenly became very frightened, but it was inside her bag.",
+      "promptZh": "她找不到護照時突然非常害怕，但護照原來在她的袋子裏。",
+      "starter": "When",
+      "answer": "When she could not find her passport, she flew into a panic, but it was inside her bag.",
+      "answerZh": "她找不到護照時突然陷入恐慌，但護照原來在她的袋子裏。",
+      "targetForm": "fly into a panic",
+      "targetMeaningZh": "突然陷入恐慌",
+      "highlight": "flew into a panic"
+    },
+    {
+      "id": "phrasal-verb-03-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The coin suddenly left the machine and rolled under the table.",
+      "promptZh": "硬幣突然離開機器，滾到桌子下面。",
+      "starter": "The",
+      "answer": "The coin flew out of the machine and rolled under the table.",
+      "answerZh": "硬幣突然從機器飛出，滾到桌子下面。",
+      "targetForm": "fly out of something",
+      "targetMeaningZh": "突然快速地從某處飛出或衝出",
+      "highlight": "flew out of"
+    },
+    {
+      "id": "phrasal-verb-03-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "Before we noticed, the school term had passed very quickly and the final week had arrived.",
+      "promptZh": "我們還未察覺，學期已很快過去，最後一星期也已來到。",
+      "starter": "Before",
+      "answer": "Before we noticed, the school term had flown by and the final week had arrived.",
+      "answerZh": "我們還未察覺，學期已轉眼過去，最後一星期也已來到。",
+      "targetForm": "fly by",
+      "targetMeaningZh": "時間飛快地過去",
+      "highlight": "flown by"
+    },
+    {
+      "id": "phrasal-verb-03-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "Although the head teacher had asked everyone to wait, news of the decision spread quickly through the school.",
+      "promptZh": "雖然校長已要求所有人等候，決定的消息仍迅速傳遍學校。",
+      "starter": "Although",
+      "answer": "Although the head teacher had asked everyone to wait, news of the decision flew around the school.",
+      "answerZh": "雖然校長已要求所有人等候，決定的消息仍迅速傳遍學校。",
+      "targetForm": "fly around",
+      "targetMeaningZh": "消息、傳聞或故事等迅速流傳",
+      "highlight": "flew around"
+    },
+    {
+      "id": "phrasal-verb-03-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "After the airport reopened, the school arranged for the students to leave the country by plane.",
+      "promptZh": "機場重開後，學校安排學生乘飛機離開該國。",
+      "starter": "After",
+      "answer": "After the airport reopened, the school flew the students out of the country.",
+      "answerZh": "機場重開後，學校用飛機把學生送離該國。",
+      "targetForm": "fly somebody out of something",
+      "targetMeaningZh": "用飛機把某人送離某地",
+      "highlight": "flew the students out of"
+    },
+    {
+      "id": "phrasal-verb-03-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "She will leave by plane next week to join her family in Nairobi.",
+      "promptZh": "她下星期會乘飛機離開，前往內羅畢與家人會合。",
+      "starter": "She",
+      "answer": "She will fly out next week to join her family in Nairobi.",
+      "answerZh": "她下星期會乘飛機離開，前往內羅畢與家人會合。",
+      "targetForm": "fly out",
+      "targetMeaningZh": "乘飛機離開",
+      "highlight": "fly out"
+    },
+    {
+      "id": "phrasal-verb-03-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The plastic cover suddenly separated from the toy and landed under the sofa.",
+      "promptZh": "玩具的膠蓋突然脫落，並落在梳化下面。",
+      "starter": "The",
+      "answer": "The plastic cover flew off the toy and landed under the sofa.",
+      "answerZh": "玩具的膠蓋突然飛脫，並落在梳化下面。",
+      "targetForm": "fly off something",
+      "targetMeaningZh": "突然從某物脫落並飛走",
+      "highlight": "flew off"
+    }
+  ]
+}

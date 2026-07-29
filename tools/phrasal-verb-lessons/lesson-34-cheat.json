@@ -1,0 +1,1214 @@
+{
+  "id": "phrasal-verb-34",
+  "order": 34,
+  "slug": "cheat",
+  "version": "1",
+  "title": "CHEAT 動詞片語",
+  "titleEn": "Cheat",
+  "titleZh": "CHEAT 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 33 - Cheat.pdf",
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CHEAT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CHEAT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CHEAT",
+      "highlight": "CHEAT"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "He was the last to know that she had been cheating on him.",
+      "zh": "他是最後一個知道她一直對他不忠的人。",
+      "highlight": "cheating on him"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The government have cheated on their commitment not to raise taxes.",
+      "zh": "政府沒有誠實履行不加稅的承諾。",
+      "highlight": "cheated on their commitment"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "He had cheated the taxman of £60 000.",
+      "zh": "他騙取了本應繳交給稅務部門的六萬英鎊。",
+      "highlight": "cheated the taxman of £60 000"
+    }
+  ],
+  "meaning": {
+    "zh": "對伴侶不忠；背着伴侶與別人交往；以不誠實方式違背承諾、協議或責任；欺騙某人，使其失去金錢、財物或本來應得的東西",
+    "en": "cheat on somebody / cheat on something / cheat somebody of something / cheat somebody out of something",
+    "naturalZh": [
+      "對伴侶不忠；背着伴侶與別人交往",
+      "以不誠實方式違背承諾、協議或責任",
+      "欺騙某人，使其失去金錢、財物或本來應得的東西"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "cheat on somebody",
+      "titleZh": "對伴侶不忠；背着伴侶與別人交往",
+      "titleEn": "cheat on somebody",
+      "descriptionZh": "對伴侶不忠；背着伴侶與別人交往",
+      "descriptionEn": "He was the last to know that she had been cheating on him.",
+      "examples": [
+        {
+          "en": "He was the last to know that she had been cheating on him.",
+          "zh": "他是最後一個知道她一直對他不忠的人。",
+          "highlight": "cheating on him"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "cheat on something",
+      "titleZh": "以不誠實方式違背承諾、協議或責任",
+      "titleEn": "cheat on something",
+      "descriptionZh": "以不誠實方式違背承諾、協議或責任",
+      "descriptionEn": "The government have cheated on their commitment not to raise taxes.",
+      "examples": [
+        {
+          "en": "The government have cheated on their commitment not to raise taxes.",
+          "zh": "政府沒有誠實履行不加稅的承諾。",
+          "highlight": "cheated on their commitment"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "cheat somebody of something / cheat somebody out of something",
+      "titleZh": "欺騙某人，使其失去金錢、財物或本來應得的東西",
+      "titleEn": "cheat somebody of something / cheat somebody out of something",
+      "descriptionZh": "欺騙某人，使其失去金錢、財物或本來應得的東西",
+      "descriptionEn": "He had cheated the taxman of £60 000.",
+      "examples": [
+        {
+          "en": "He had cheated the taxman of £60 000.",
+          "zh": "他騙取了本應繳交給稅務部門的六萬英鎊。",
+          "highlight": "cheated the taxman of £60 000"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "CHEAT 片語動詞的實際用途",
+    "labelEn": "CHEAT Phrasal Verbs in Use",
+    "summaryZh": "cheat on somebody 可以表示某人對丈夫、妻子或伴侶不忠。；cheat on something 可以表示某人、公司或機構故意不履行承諾、協議或責任。；cheat somebody out of something 可以描述商人、公司或不誠實的人欺騙別人，並騙走其金錢或財物。；這些 CHEAT 表達常見於關於感情關係、違背承諾、不誠實銷售和金錢的故事。",
+    "summaryEn": "Cheat on somebody lets you explain that a person has been unfaithful to their husband, wife or partner. Cheat on something can show that a person, company or organisation has deliberately failed to honour a promise, agreement or commitment. Cheat somebody out of something can describe a seller, business or dishonest person tricking someone and taking their money or property. These CHEAT expressions often appear in stories about relationships, broken promises, dishonest sales and money.",
+    "contextsZh": [
+      "清楚談論感情關係中的不忠",
+      "描述以不誠實方式違背承諾",
+      "解釋某人如何因受騙而失去金錢",
+      "理解感情、商業和新聞故事"
+    ],
+    "contextsEn": [
+      "Talk clearly about dishonesty in relationships",
+      "Describe a dishonest broken promise",
+      "Explain how someone lost money through dishonesty",
+      "Understand relationship, business and news stories"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 CHEAT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CHEAT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "cheat on somebody",
+    "fixedHighlight": "cheat on somebody",
+    "fixedZh": "閱讀整句，選出意思相同的 CHEAT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CHEAT expression that gives the same meaning.",
+    "correct": "cheating on him",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意兩者的不同意思： cheat on somebody = 對伴侶不忠 cheat on something = 以不誠實方式違背承諾或責任；cheat somebody of something 和 cheat somebody out of something 都可以表示欺騙某人，使其失去金錢或應得之物。",
+    "variableEn": "Keep the same people, things, time and meaning. Notice the different meanings: cheat on somebody = be unfaithful to a romantic partner cheat on something = dishonestly fail to keep a promise or commitment Cheat somebody of something and cheat somebody out of something express the same central idea:",
+    "variableItemsZh": [
+      "cheat on somebody",
+      "cheat on something",
+      "cheat somebody of something / cheat somebody out of something"
+    ],
+    "variableItemsEn": [
+      "cheat on somebody",
+      "cheat on something",
+      "cheat somebody of something / cheat somebody out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "對伴侶不忠；背着伴侶與別人交往",
+        "formEn": "cheat on somebody",
+        "exampleZh": "他是最後一個知道她一直對他不忠的人。",
+        "exampleEn": "He was the last to know that she had been cheating on him.",
+        "highlight": "cheating on him"
+      },
+      {
+        "formZh": "以不誠實方式違背承諾、協議或責任",
+        "formEn": "cheat on something",
+        "exampleZh": "政府沒有誠實履行不加稅的承諾。",
+        "exampleEn": "The government have cheated on their commitment not to raise taxes.",
+        "highlight": "cheated on their commitment"
+      },
+      {
+        "formZh": "欺騙某人，使其失去金錢、財物或本來應得的東西",
+        "formEn": "cheat somebody of something / cheat somebody out of something",
+        "exampleZh": "他騙取了本應繳交給稅務部門的六萬英鎊。",
+        "exampleEn": "He had cheated the taxman of £60 000.",
+        "highlight": "cheated the taxman of £60 000"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "對伴侶不忠；背着伴侶與別人交往",
+      "titleEn": "cheat on somebody",
+      "formula": "cheat on somebody",
+      "highlight": "cheat on somebody",
+      "descriptionZh": "對伴侶不忠；背着伴侶與別人交往",
+      "descriptionEn": "He was the last to know that she had been cheating on him.",
+      "examples": [
+        {
+          "en": "He was the last to know that she had been cheating on him.",
+          "zh": "他是最後一個知道她一直對他不忠的人。",
+          "highlight": "cheating on him"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "以不誠實方式違背承諾、協議或責任",
+      "titleEn": "cheat on something",
+      "formula": "cheat on something",
+      "highlight": "cheat on something",
+      "descriptionZh": "以不誠實方式違背承諾、協議或責任",
+      "descriptionEn": "The government have cheated on their commitment not to raise taxes.",
+      "examples": [
+        {
+          "en": "The government have cheated on their commitment not to raise taxes.",
+          "zh": "政府沒有誠實履行不加稅的承諾。",
+          "highlight": "cheated on their commitment"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "欺騙某人，使其失去金錢、財物或本來應得的東西",
+      "titleEn": "cheat somebody of something / cheat somebody out of something",
+      "formula": "cheat somebody of something / cheat somebody out of something",
+      "highlight": "cheat somebody of something / cheat somebody out of something",
+      "descriptionZh": "欺騙某人，使其失去金錢、財物或本來應得的東西",
+      "descriptionEn": "He had cheated the taxman of £60 000.",
+      "examples": [
+        {
+          "en": "He had cheated the taxman of £60 000.",
+          "zh": "他騙取了本應繳交給稅務部門的六萬英鎊。",
+          "highlight": "cheated the taxman of £60 000"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論感情關係中的不忠",
+      "titleEn": "Talk clearly about dishonesty in relationships",
+      "zh": "cheat on somebody 可以表示某人對丈夫、妻子或伴侶不忠。",
+      "en": "Cheat on somebody lets you explain that a person has been unfaithful to their husband, wife or partner."
+    },
+    {
+      "titleZh": "描述以不誠實方式違背承諾",
+      "titleEn": "Describe a dishonest broken promise",
+      "zh": "cheat on something 可以表示某人、公司或機構故意不履行承諾、協議或責任。",
+      "en": "Cheat on something can show that a person, company or organisation has deliberately failed to honour a promise, agreement or commitment."
+    },
+    {
+      "titleZh": "解釋某人如何因受騙而失去金錢",
+      "titleEn": "Explain how someone lost money through dishonesty",
+      "zh": "cheat somebody out of something 可以描述商人、公司或不誠實的人欺騙別人，並騙走其金錢或財物。",
+      "en": "Cheat somebody out of something can describe a seller, business or dishonest person tricking someone and taking their money or property."
+    },
+    {
+      "titleZh": "理解感情、商業和新聞故事",
+      "titleEn": "Understand relationship, business and news stories",
+      "zh": "這些 CHEAT 表達常見於關於感情關係、違背承諾、不誠實銷售和金錢的故事。",
+      "en": "These CHEAT expressions often appear in stories about relationships, broken promises, dishonest sales and money."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論感情關係中的不忠",
+      "描述以不誠實方式違背承諾",
+      "解釋某人如何因受騙而失去金錢",
+      "理解感情、商業和新聞故事"
+    ],
+    "contextsEn": [
+      "Talk clearly about dishonesty in relationships",
+      "Describe a dishonest broken promise",
+      "Explain how someone lost money through dishonesty",
+      "Understand relationship, business and news stories"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論感情關係中的不忠",
+        "titleEn": "Talk clearly about dishonesty in relationships",
+        "zh": "cheat on somebody 可以表示某人對丈夫、妻子或伴侶不忠。",
+        "en": "Cheat on somebody lets you explain that a person has been unfaithful to their husband, wife or partner.",
+        "examples": [
+          {
+            "en": "He was the last to know that she had been cheating on him.",
+            "zh": "他是最後一個知道她一直對他不忠的人。",
+            "highlight": "cheating on him"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述以不誠實方式違背承諾",
+        "titleEn": "Describe a dishonest broken promise",
+        "zh": "cheat on something 可以表示某人、公司或機構故意不履行承諾、協議或責任。",
+        "en": "Cheat on something can show that a person, company or organisation has deliberately failed to honour a promise, agreement or commitment.",
+        "examples": [
+          {
+            "en": "The government have cheated on their commitment not to raise taxes.",
+            "zh": "政府沒有誠實履行不加稅的承諾。",
+            "highlight": "cheated on their commitment"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋某人如何因受騙而失去金錢",
+        "titleEn": "Explain how someone lost money through dishonesty",
+        "zh": "cheat somebody out of something 可以描述商人、公司或不誠實的人欺騙別人，並騙走其金錢或財物。",
+        "en": "Cheat somebody out of something can describe a seller, business or dishonest person tricking someone and taking their money or property.",
+        "examples": [
+          {
+            "en": "He had cheated the taxman of £60 000.",
+            "zh": "他騙取了本應繳交給稅務部門的六萬英鎊。",
+            "highlight": "cheated the taxman of £60 000"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解感情、商業和新聞故事",
+        "titleEn": "Understand relationship, business and news stories",
+        "zh": "這些 CHEAT 表達常見於關於感情關係、違背承諾、不誠實銷售和金錢的故事。",
+        "en": "These CHEAT expressions often appear in stories about relationships, broken promises, dishonest sales and money.",
+        "examples": [
+          {
+            "en": "He was the last to know that she had been cheating on him.",
+            "zh": "他是最後一個知道她一直對他不忠的人。",
+            "highlight": "cheating on him"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 CHEAT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CHEAT expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 CHEAT 片語動詞。",
+      "en": "Read the whole sentence and choose the CHEAT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意兩者的不同意思： cheat on somebody = 對伴侶不忠 cheat on something = 以不誠實方式違背承諾或責任",
+      "titleEn": "Notice the different meanings: cheat on somebody = be unfaithful to a romantic partner cheat on something = dishonestly fail to keep a promise or commitment",
+      "zh": "留意兩者的不同意思： cheat on somebody = 對伴侶不忠 cheat on something = 以不誠實方式違背承諾或責任",
+      "en": "Notice the different meanings: cheat on somebody = be unfaithful to a romantic partner cheat on something = dishonestly fail to keep a promise or commitment"
+    },
+    {
+      "titleZh": "cheat somebody of something 和 cheat somebody out of something 都可以表示欺騙某人，使其失去金錢或應得之物。",
+      "titleEn": "Cheat somebody of something and cheat somebody out of something express the same central idea:",
+      "zh": "cheat somebody of something 和 cheat somebody out of something 都可以表示欺騙某人，使其失去金錢或應得之物。",
+      "en": "Cheat somebody of something and cheat somebody out of something express the same central idea:",
+      "examples": [
+        {
+          "en": "cheat him of the money",
+          "zh": "",
+          "highlight": "cheat him of the money"
+        },
+        {
+          "en": "cheat him out of the money",
+          "zh": "",
+          "highlight": "cheat him out of the money"
+        }
+      ]
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CHEAT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CHEAT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CHEAT 動詞片語句子改寫練習",
+    "titleEn": "CHEAT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CHEAT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CHEAT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-34-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "Mina secretly had another relationship while she was married to Leo.",
+      "promptZh": "米娜與里奧結婚期間，背着他與另一個人交往。",
+      "starter": "Mina",
+      "answer": "Mina cheated on Leo while they were married.",
+      "answerZh": "米娜與里奧結婚期間對他不忠。",
+      "highlight": "cheated on Leo",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The false seller tricked Eva and took NT$3,000 from her.",
+      "promptZh": "那名假賣家欺騙伊娃，騙走她新台幣三千元。",
+      "starter": "The",
+      "answer": "The false seller cheated Eva out of NT$3,000.",
+      "answerZh": "那名假賣家騙走伊娃新台幣三千元。",
+      "highlight": "cheated Eva out of NT$3,000",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢或財物"
+    },
+    {
+      "id": "phrasal-verb-34-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The company promised to lower the price but deliberately chose not to do so.",
+      "promptZh": "公司承諾降低價格，但後來故意不履行承諾。",
+      "starter": "The",
+      "answer": "The company cheated on its promise to lower the price.",
+      "answerZh": "公司以不誠實方式違背了降低價格的承諾。",
+      "highlight": "cheated on its promise",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾"
+    },
+    {
+      "id": "phrasal-verb-34-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Jon later learnt that his wife had been secretly seeing another man.",
+      "promptZh": "喬恩後來得知妻子一直背着他與另一名男子交往。",
+      "starter": "Jon’s",
+      "answer": "Jon’s wife had been cheating on him.",
+      "answerZh": "喬恩的妻子一直對他不忠。",
+      "highlight": "cheating on him",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The man dishonestly prevented his brother from receiving his share of the money.",
+      "promptZh": "那名男子以不誠實手段，令弟弟無法取得自己應得的那份金錢。",
+      "starter": "The",
+      "answer": "The man cheated his brother of his share of the money.",
+      "answerZh": "那名男子騙走了弟弟應得的那份金錢。",
+      "highlight": "cheated his brother of his share of the money",
+      "targetForm": "cheat somebody of something",
+      "targetMeaningZh": "欺騙某人，使其失去應得之物"
+    },
+    {
+      "id": "phrasal-verb-34-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The club agreed to refund the tickets but deliberately refused to do so.",
+      "promptZh": "會方同意退回門票款項，但後來故意拒絕退款。",
+      "starter": "The",
+      "answer": "The club cheated on its agreement to refund the tickets.",
+      "answerZh": "會方以不誠實方式違背了退回門票款項的協議。",
+      "highlight": "cheated on its agreement",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背協議"
+    },
+    {
+      "id": "phrasal-verb-34-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Sara was secretly seeing someone else while she was with Amir.",
+      "promptZh": "莎拉與阿米爾交往期間，背着他與另一個人交往。",
+      "starter": "Sara",
+      "answer": "Sara was cheating on Amir.",
+      "answerZh": "莎拉一直對阿米爾不忠。",
+      "highlight": "cheating on Amir",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The online shop took Lina’s payment but sent her nothing.",
+      "promptZh": "網上商店收取了莉娜的款項，卻沒有寄出任何東西。",
+      "starter": "The",
+      "answer": "The online shop cheated Lina out of the money she had paid.",
+      "answerZh": "網上商店騙走了莉娜已支付的款項。",
+      "highlight": "cheated Lina out of the money she had paid",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The government have deliberately broken their commitment not to raise taxes.",
+      "promptZh": "政府故意違背了不加稅的承諾。",
+      "starter": "The",
+      "answer": "The government have cheated on their commitment not to raise taxes.",
+      "answerZh": "政府以不誠實方式違背了不加稅的承諾。",
+      "highlight": "cheated on their commitment",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾或責任"
+    },
+    {
+      "id": "phrasal-verb-34-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "He was the last to know that she had been unfaithful to him.",
+      "promptZh": "他是最後一個知道她一直對他不忠的人。",
+      "starter": "He",
+      "answer": "He was the last to know that she had been cheating on him.",
+      "answerZh": "他是最後一個知道她一直對他不忠的人。",
+      "highlight": "cheating on him",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The landlord is deliberately failing to keep his promise to repair the lift.",
+      "promptZh": "業主正故意不履行維修升降機的承諾。",
+      "starter": "The",
+      "answer": "The landlord is cheating on his promise to repair the lift.",
+      "answerZh": "業主正以不誠實方式違背維修升降機的承諾。",
+      "highlight": "cheating on his promise",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾"
+    },
+    {
+      "id": "phrasal-verb-34-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Was Ben secretly seeing another person during your marriage?",
+      "promptZh": "你們結婚期間，賓是否背着你與另一個人交往？",
+      "starter": "Was",
+      "answer": "Was Ben cheating on you during your marriage?",
+      "answerZh": "你們結婚期間，賓是否一直對你不忠？",
+      "highlight": "cheating on you",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The dishonest repairman has tricked them into paying NT$8,000 for work he never did.",
+      "promptZh": "那名不誠實的維修人員騙他們支付新台幣八千元，而他根本沒有進行有關工作。",
+      "starter": "The",
+      "answer": "The dishonest repairman has cheated them out of NT$8,000 for work he never did.",
+      "answerZh": "那名不誠實的維修人員就從未進行的工作，騙走他們新台幣八千元。",
+      "highlight": "cheated them out of NT$8,000",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The shop has deliberately failed to keep its promise to return our money.",
+      "promptZh": "店舖故意沒有履行退回我們款項的承諾。",
+      "starter": "The",
+      "answer": "The shop has cheated on its promise to return our money.",
+      "answerZh": "店舖以不誠實方式違背了退回我們款項的承諾。",
+      "highlight": "cheated on its promise",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾"
+    },
+    {
+      "id": "phrasal-verb-34-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I would never be unfaithful to my partner.",
+      "promptZh": "我絕不會對伴侶不忠。",
+      "starter": "I",
+      "answer": "I would never cheat on my partner.",
+      "answerZh": "我絕不會對伴侶不忠。",
+      "highlight": "cheat on my partner",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The false advert may trick people and cause them to lose their savings.",
+      "promptZh": "那則虛假廣告可能會欺騙別人，使他們失去積蓄。",
+      "starter": "The",
+      "answer": "The false advert may cheat people out of their savings.",
+      "answerZh": "那則虛假廣告可能會騙走別人的積蓄。",
+      "highlight": "cheat people out of their savings",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why did the airline deliberately break its commitment to provide free meals?",
+      "promptZh": "航空公司為甚麼故意違背提供免費餐膳的承諾？",
+      "starter": "Why",
+      "answer": "Why did the airline cheat on its commitment to provide free meals?",
+      "answerZh": "航空公司為甚麼以不誠實方式違背提供免費餐膳的承諾？",
+      "highlight": "cheat on its commitment",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾或責任"
+    },
+    {
+      "id": "phrasal-verb-34-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Rina has been secretly seeing another person for months.",
+      "promptZh": "麗娜已經背着伴侶與另一個人交往了幾個月。",
+      "starter": "Rina",
+      "answer": "Rina has been cheating on her partner for months.",
+      "answerZh": "麗娜已經對伴侶不忠了幾個月。",
+      "highlight": "cheating on her partner",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The dealer did not trick us or take any money from us.",
+      "promptZh": "那名商人沒有欺騙我們，也沒有騙走我們的金錢。",
+      "starter": "The",
+      "answer": "The dealer did not cheat us out of any money.",
+      "answerZh": "那名商人沒有騙走我們任何金錢。",
+      "highlight": "cheat us out of any money",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The team will not dishonestly break its promise to give every player a chance.",
+      "promptZh": "球隊不會以不誠實方式違背讓每名球員都有機會參與的承諾。",
+      "starter": "The",
+      "answer": "The team will not cheat on its promise to give every player a chance.",
+      "answerZh": "球隊不會以不誠實方式違背讓每名球員都有機會參與的承諾。",
+      "highlight": "cheat on its promise",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾"
+    },
+    {
+      "id": "phrasal-verb-34-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The man promised Mia a refund, but he dishonestly kept it.",
+      "promptZh": "那名男子答應向米婭退款，卻以不誠實手段把款項留下。",
+      "starter": "The",
+      "answer": "The man promised Mia a refund, but he cheated her out of it.",
+      "answerZh": "那名男子答應向米婭退款，卻騙走了這筆本應退回給她的款項。",
+      "highlight": "cheated her out of it",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人，使其失去金錢或應得之物"
+    },
+    {
+      "id": "phrasal-verb-34-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Nora was away often. Her husband later discovered that she had been secretly seeing another person.",
+      "promptZh": "諾拉經常不在家。她的丈夫後來發現她一直背着他與另一個人交往。",
+      "starter": "Nora",
+      "answer": "Nora was away often. Her husband later discovered that she had been cheating on him.",
+      "answerZh": "諾拉經常不在家。她的丈夫後來發現她一直對他不忠。",
+      "highlight": "cheating on him",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The company promised to give its staff a pay rise, but it deliberately failed to keep that promise.",
+      "promptZh": "公司承諾為員工加薪，但後來故意沒有履行承諾。",
+      "starter": "The",
+      "answer": "The company promised to give its staff a pay rise, but it has cheated on that promise.",
+      "answerZh": "公司承諾為員工加薪，但後來以不誠實方式違背了承諾。",
+      "highlight": "cheated on that promise",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾"
+    },
+    {
+      "id": "phrasal-verb-34-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Several older people were tricked and lost their money through the false phone calls.",
+      "promptZh": "幾名長者因虛假電話而受騙，失去了自己的金錢。",
+      "starter": "Several",
+      "answer": "Several older people were cheated out of their money through the false phone calls.",
+      "answerZh": "幾名長者因虛假電話而受騙，失去了自己的金錢。",
+      "highlight": "cheated out of their money through the false phone calls",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although Omar said he loved Mei, he was secretly seeing someone else.",
+      "promptZh": "雖然奧馬說自己愛梅，但他一直背着她與另一個人交往。",
+      "starter": "Although",
+      "answer": "Although Omar said he loved Mei, he was cheating on her.",
+      "answerZh": "雖然奧馬說自己愛梅，但他一直對她不忠。",
+      "highlight": "cheating on her",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The dishonest son prevented his mother from receiving her share of the family money.",
+      "promptZh": "那名不誠實的兒子令母親無法取得她應得的那份家庭金錢。",
+      "starter": "The",
+      "answer": "The dishonest son cheated his mother of her share of the family money.",
+      "answerZh": "那名不誠實的兒子騙走了母親應得的那份家庭金錢。",
+      "highlight": "cheated his mother of her share of the family money",
+      "targetForm": "cheat somebody of something",
+      "targetMeaningZh": "欺騙某人，使其失去應得之物"
+    },
+    {
+      "id": "phrasal-verb-34-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The restaurant agreed to use local food, but it deliberately ignored that agreement.",
+      "promptZh": "餐廳同意使用本地食材，但後來故意不遵守協議。",
+      "starter": "The",
+      "answer": "The restaurant agreed to use local food, but it cheated on that agreement.",
+      "answerZh": "餐廳同意使用本地食材，但後來以不誠實方式違背了協議。",
+      "highlight": "cheated on that agreement",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背協議"
+    },
+    {
+      "id": "phrasal-verb-34-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "How did the false travel agent trick you into losing NT$15,000?",
+      "promptZh": "那名假旅行代理人如何欺騙你，使你損失新台幣一萬五千元？",
+      "starter": "How",
+      "answer": "How did the false travel agent cheat you out of NT$15,000?",
+      "answerZh": "那名假旅行代理人如何騙走你新台幣一萬五千元？",
+      "highlight": "cheat you out of NT$15,000",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Ken’s friends knew that he was being unfaithful to his girlfriend.",
+      "promptZh": "肯的朋友知道他一直對女朋友不忠。",
+      "starter": "Ken’s",
+      "answer": "Ken’s friends knew that he was cheating on his girlfriend.",
+      "answerZh": "肯的朋友知道他一直對女朋友不忠。",
+      "highlight": "cheating on his girlfriend",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The school deliberately broke the promise it had made to parents about smaller classes.",
+      "promptZh": "學校故意違背了向家長作出的縮小班級人數承諾。",
+      "starter": "The",
+      "answer": "The school cheated on the promise it had made to parents about smaller classes.",
+      "answerZh": "學校以不誠實方式違背了向家長作出的縮小班級人數承諾。",
+      "highlight": "cheated on the promise it had made",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾"
+    },
+    {
+      "id": "phrasal-verb-34-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The messages showed that Priya had been secretly seeing someone else throughout the relationship.",
+      "promptZh": "那些訊息顯示，普里雅在整段感情關係中一直背着伴侶與另一個人交往。",
+      "starter": "The",
+      "answer": "The messages showed that Priya had been cheating on her partner throughout the relationship.",
+      "answerZh": "那些訊息顯示，普里雅在整段感情關係中一直對伴侶不忠。",
+      "highlight": "cheating on her partner throughout the relationship",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The guide charged us for a tour that never happened and kept our NT$5,000.",
+      "promptZh": "那名導遊向我們收取一個從未進行的旅程費用，並留下了我們的新台幣五千元。",
+      "starter": "The",
+      "answer": "The guide cheated us out of NT$5,000 by charging us for a tour that never happened.",
+      "answerZh": "那名導遊向我們收取一個從未進行的旅程費用，騙走我們新台幣五千元。",
+      "highlight": "cheated us out of NT$5,000",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The company said it would not close the local shop, but it later deliberately broke that commitment.",
+      "promptZh": "公司表示不會關閉本地店舖，但後來故意違背了承諾。",
+      "starter": "The",
+      "answer": "The company cheated on its commitment not to close the local shop.",
+      "answerZh": "公司以不誠實方式違背了不關閉本地店舖的承諾。",
+      "highlight": "cheated on its commitment",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾或責任"
+    },
+    {
+      "id": "phrasal-verb-34-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Why would he secretly begin another relationship instead of ending the first relationship?",
+      "promptZh": "他為甚麼不先結束原有關係，反而秘密開始另一段感情？",
+      "starter": "Why",
+      "answer": "Why would he cheat on his partner instead of ending the relationship first?",
+      "answerZh": "他為甚麼不先結束感情關係，反而對伴侶不忠？",
+      "highlight": "cheat on his partner",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The dishonest uncle arranged the papers so that Maya lost the money she should have received.",
+      "promptZh": "那名不誠實的叔叔處理了文件，令瑪雅失去本應取得的金錢。",
+      "starter": "The",
+      "answer": "The dishonest uncle cheated Maya out of the money she should have received.",
+      "answerZh": "那名不誠實的叔叔騙走了瑪雅本應取得的金錢。",
+      "highlight": "cheated Maya out of the money she should have received",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人，使其失去應得之物"
+    },
+    {
+      "id": "phrasal-verb-34-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The organisers promised free entry, but they knowingly charged everyone.",
+      "promptZh": "主辦單位承諾免費入場，卻明知故犯地向所有人收費。",
+      "starter": "The",
+      "answer": "The organisers cheated on their promise of free entry by charging everyone.",
+      "answerZh": "主辦單位向所有人收費，以不誠實方式違背了免費入場的承諾。",
+      "highlight": "cheated on their promise of free entry",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾"
+    },
+    {
+      "id": "phrasal-verb-34-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "She said the relationship was over, but she had already been secretly seeing someone else.",
+      "promptZh": "她說感情關係已經結束，但其實她早已背着伴侶與另一個人交往。",
+      "starter": "She",
+      "answer": "She said the relationship was over, but she had already been cheating on her partner.",
+      "answerZh": "她說感情關係已經結束，但其實她早已對伴侶不忠。",
+      "highlight": "cheating on her partner",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The website took customers’ card details and caused them to lose large amounts of money.",
+      "promptZh": "該網站取得顧客的信用卡資料，令他們損失大量金錢。",
+      "starter": "The",
+      "answer": "The website cheated customers out of large amounts of money after taking their card details.",
+      "answerZh": "該網站取得顧客的信用卡資料後，騙走了他們大量金錢。",
+      "highlight": "cheated customers out of large amounts of money",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The council promised not to cut the bus service, yet it deliberately reduced the number of buses.",
+      "promptZh": "市議會承諾不削減巴士服務，卻故意減少巴士數目。",
+      "starter": "The",
+      "answer": "The council cheated on its promise not to cut the bus service by reducing the number of buses.",
+      "answerZh": "市議會減少巴士數目，以不誠實方式違背了不削減巴士服務的承諾。",
+      "highlight": "cheated on its promise",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾"
+    },
+    {
+      "id": "phrasal-verb-34-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The man who claimed to be loyal to Maya had in fact been unfaithful to her for years.",
+      "promptZh": "那名聲稱忠於瑪雅的男子，其實多年來一直對她不忠。",
+      "starter": "The",
+      "answer": "The man who claimed to be loyal to Maya had in fact been cheating on her for years.",
+      "answerZh": "那名聲稱忠於瑪雅的男子，其實多年來一直對她不忠。",
+      "highlight": "cheating on her",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Lena thought the online seller was honest, but he took NT$12,000 and never sent the laptop.",
+      "promptZh": "莉娜以為那名網上賣家誠實，但他收取新台幣一萬二千元後，從未寄出手提電腦。",
+      "starter": "Lena",
+      "answer": "Lena thought the online seller was honest, but he cheated her out of NT$12,000 and never sent the laptop.",
+      "answerZh": "莉娜以為那名網上賣家誠實，但他騙走她新台幣一萬二千元，並且從未寄出手提電腦。",
+      "highlight": "cheated her out of NT$12,000",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After seeing the photographs, Daniel realised that his wife had had another relationship for several months.",
+      "promptZh": "看過照片後，丹尼爾發現妻子已背着他與另一個人交往了幾個月。",
+      "starter": "After",
+      "answer": "After seeing the photographs, Daniel realised that his wife had been cheating on him for several months.",
+      "answerZh": "看過照片後，丹尼爾發現妻子已經對他不忠了幾個月。",
+      "highlight": "cheating on him",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The hotel promised not to add any extra charges, but it knowingly added a service fee at the end.",
+      "promptZh": "酒店承諾不會收取任何額外費用，卻故意在最後加入服務費。",
+      "starter": "The",
+      "answer": "The hotel cheated on its promise not to add any extra charges by adding a service fee at the end.",
+      "answerZh": "酒店在最後加入服務費，以不誠實方式違背了不收取任何額外費用的承諾。",
+      "highlight": "cheated on its promise",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾"
+    },
+    {
+      "id": "phrasal-verb-34-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The false charity asked people for money to help children but kept every donation.",
+      "promptZh": "那個虛假慈善團體向市民募款，聲稱要幫助兒童，卻把所有捐款留下。",
+      "starter": "The",
+      "answer": "The false charity cheated people out of their donations and kept all the money.",
+      "answerZh": "那個虛假慈善團體騙走市民的捐款，並把所有金錢留下。",
+      "highlight": "cheated people out of their donations",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "She continued to tell her husband that nothing was wrong while secretly seeing someone else.",
+      "promptZh": "她一邊背着丈夫與另一個人交往，一邊繼續告訴他一切正常。",
+      "starter": "She",
+      "answer": "She continued to tell her husband that nothing was wrong while cheating on him.",
+      "answerZh": "她一邊對丈夫不忠，一邊繼續告訴他一切正常。",
+      "highlight": "cheating on him",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "By changing the numbers, the manager dishonestly prevented the workers from receiving the pay they had earned.",
+      "promptZh": "經理更改數字，以不誠實手段令工人無法取得他們應得的工資。",
+      "starter": "By",
+      "answer": "By changing the numbers, the manager cheated the workers of the pay they had earned.",
+      "answerZh": "經理更改數字，騙走了工人應得的工資。",
+      "highlight": "cheated the workers of the pay they had earned",
+      "targetForm": "cheat somebody of something",
+      "targetMeaningZh": "欺騙某人，使其失去應得之物"
+    },
+    {
+      "id": "phrasal-verb-34-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The group received public money after promising to use it for the park, but it spent the money on private parties.",
+      "promptZh": "該團體承諾把公帑用於公園，因此獲得款項，卻把錢花在私人聚會上。",
+      "starter": "The",
+      "answer": "The group cheated on its commitment to use the money for the park by spending it on private parties.",
+      "answerZh": "該團體把款項花在私人聚會上，以不誠實方式違背了把錢用於公園的承諾。",
+      "highlight": "cheated on its commitment",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾或責任"
+    },
+    {
+      "id": "phrasal-verb-34-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "We believed the seller’s story until we discovered that he had taken our money for a car that did not exist.",
+      "promptZh": "我們一直相信那名賣家的說法，直至發現他為一輛根本不存在的汽車騙走了我們的錢。",
+      "starter": "We",
+      "answer": "We believed the seller’s story until we discovered that he had cheated us out of our money for a car that did not exist.",
+      "answerZh": "我們一直相信那名賣家的說法，直至發現他為一輛根本不存在的汽車騙走了我們的錢。",
+      "highlight": "cheated us out of our money",
+      "targetForm": "cheat somebody out of something",
+      "targetMeaningZh": "欺騙某人並騙走其金錢"
+    },
+    {
+      "id": "phrasal-verb-34-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Even though Ravi was engaged to Nia, he secretly had another relationship during the trip.",
+      "promptZh": "雖然拉維已與妮亞訂婚，但他在旅程期間秘密與另一個人交往。",
+      "starter": "Even",
+      "answer": "Even though Ravi was engaged to Nia, he cheated on her during the trip.",
+      "answerZh": "雖然拉維已與妮亞訂婚，但他在旅程期間對她不忠。",
+      "highlight": "cheated on her",
+      "targetForm": "cheat on somebody",
+      "targetMeaningZh": "對伴侶不忠"
+    },
+    {
+      "id": "phrasal-verb-34-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The government deliberately broke its promise not to raise taxes.",
+      "promptZh": "政府故意違背了不加稅的承諾。",
+      "starter": "The",
+      "answer": "The government cheated on its promise not to raise taxes.",
+      "answerZh": "政府以不誠實方式違背了不加稅的承諾。",
+      "highlight": "cheated on its promise",
+      "targetForm": "cheat on something",
+      "targetMeaningZh": "以不誠實方式違背承諾"
+    }
+  ]
+}

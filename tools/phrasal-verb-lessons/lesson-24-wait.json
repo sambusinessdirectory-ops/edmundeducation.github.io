@@ -1,0 +1,1513 @@
+{
+  "id": "phrasal-verb-24",
+  "order": 24,
+  "slug": "wait",
+  "version": "1",
+  "title": "WAIT 動詞片語",
+  "titleEn": "Wait",
+  "titleZh": "WAIT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verb 23 - Wait.pdf",
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WAIT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WAIT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WAIT",
+      "highlight": "WAIT"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Please wait behind after class.",
+      "zh": "下課後請留下來等候。",
+      "highlight": "wait behind"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The café staff waited on us quickly.",
+      "zh": "咖啡店職員很快便為我們服務。",
+      "highlight": "waited on"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "We are still waiting on Mia’s reply.",
+      "zh": "我們仍在等候米婭的回覆。",
+      "highlight": "waiting on"
+    }
+  ],
+  "meaning": {
+    "zh": "在其他人離開後留下來等候；服侍某人；為某人送上食物或飲品；等候某人或某事物；這個意思較常見於美式英語；等候結果或消息，然後才作決定或行動；等到不愉快的事情或一段時間結束；服侍某人；較正式或較舊式的說法。",
+    "en": "Learn and practise the phrasal verbs related to WAIT.",
+    "naturalZh": [
+      "在其他人離開後留下來等候",
+      "服侍某人；為某人送上食物或飲品",
+      "等候某人或某事物；這個意思較常見於美式英語",
+      "等候結果或消息，然後才作決定或行動",
+      "等到不愉快的事情或一段時間結束",
+      "服侍某人；較正式或較舊式的說法"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "wait behind",
+      "titleZh": "在其他人離開後留下來等候",
+      "titleEn": "wait behind",
+      "descriptionZh": "在其他人離開後留下來等候",
+      "descriptionEn": "Please wait behind after class.",
+      "examples": [
+        {
+          "en": "Please wait behind after class.",
+          "zh": "下課後請留下來等候。",
+          "highlight": "wait behind"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "wait on somebody",
+      "titleZh": "服侍某人；為某人送上食物或飲品",
+      "titleEn": "wait on somebody",
+      "descriptionZh": "服侍某人；為某人送上食物或飲品",
+      "descriptionEn": "The café staff waited on us quickly.",
+      "examples": [
+        {
+          "en": "The café staff waited on us quickly.",
+          "zh": "咖啡店職員很快便為我們服務。",
+          "highlight": "waited on"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "wait on somebody/something",
+      "titleZh": "等候某人或某事物；這個意思較常見於美式英語",
+      "titleEn": "wait on somebody/something",
+      "descriptionZh": "等候某人或某事物；這個意思較常見於美式英語",
+      "descriptionEn": "We are still waiting on Mia’s reply.",
+      "examples": [
+        {
+          "en": "We are still waiting on Mia’s reply.",
+          "zh": "我們仍在等候米婭的回覆。",
+          "highlight": "waiting on"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 2,
+      "formula": "wait on something",
+      "titleZh": "等候結果或消息，然後才作決定或行動",
+      "titleEn": "wait on something",
+      "descriptionZh": "等候結果或消息，然後才作決定或行動",
+      "descriptionEn": "The team is waiting on the result before choosing a date.",
+      "examples": [
+        {
+          "en": "The team is waiting on the result before choosing a date.",
+          "zh": "團隊正在等候結果，然後才決定日期。",
+          "highlight": "waiting on"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "pageGroup": 2,
+      "formula": "wait something out",
+      "titleZh": "等到不愉快的事情或一段時間結束",
+      "titleEn": "wait something out",
+      "descriptionZh": "等到不愉快的事情或一段時間結束",
+      "descriptionEn": "We stayed inside to wait out the storm.",
+      "examples": [
+        {
+          "en": "We stayed inside to wait out the storm.",
+          "zh": "我們留在室內，等到暴風雨結束。",
+          "highlight": "wait out"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "wait upon somebody",
+      "titleZh": "服侍某人；較正式或較舊式的說法",
+      "titleEn": "wait upon somebody",
+      "descriptionZh": "服侍某人；較正式或較舊式的說法",
+      "descriptionEn": "At the formal dinner, staff waited upon the guests.",
+      "examples": [
+        {
+          "en": "At the formal dinner, staff waited upon the guests.",
+          "zh": "在正式晚宴上，職員服侍賓客。",
+          "highlight": "waited upon"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 WAIT 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to WAIT.",
+    "contextsZh": [
+      "在其他人離開後留下來等候",
+      "服侍某人；為某人送上食物或飲品",
+      "等候某人或某事物；這個意思較常見於美式英語",
+      "等候結果或消息，然後才作決定或行動",
+      "等到不愉快的事情或一段時間結束",
+      "服侍某人；較正式或較舊式的說法"
+    ],
+    "contextsEn": [
+      "wait behind",
+      "wait on somebody",
+      "wait on somebody/something",
+      "wait on something",
+      "wait something out",
+      "wait upon somebody"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 WAIT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WAIT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "WAIT",
+    "fixedHighlight": "WAIT",
+    "fixedZh": "閱讀整句，選出意思相同的 WAIT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WAIT expression that gives the same meaning.",
+    "correct": "wait behind",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 WAIT ON 可以表示服侍某人，也可以表示等候某人、某事物或結果。WAIT UPON 是較正式或較舊式的服侍用語。請仔細閱讀情境。",
+    "variableEn": "Keep the same people, things, time and meaning. WAIT ON can mean either serving somebody or waiting for somebody, something or a result. WAIT UPON is a more formal or older expression for serving somebody. Read the situation carefully.",
+    "variableItemsZh": [
+      "在其他人離開後留下來等候",
+      "服侍某人；為某人送上食物或飲品",
+      "等候某人或某事物；這個意思較常見於美式英語",
+      "等候結果或消息，然後才作決定或行動",
+      "等到不愉快的事情或一段時間結束",
+      "服侍某人；較正式或較舊式的說法"
+    ],
+    "variableItemsEn": [
+      "wait behind",
+      "wait on somebody",
+      "wait on somebody/something",
+      "wait on something",
+      "wait something out",
+      "wait upon somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "在其他人離開後留下來等候",
+        "formEn": "wait behind",
+        "exampleZh": "下課後請留下來等候。",
+        "exampleEn": "Please wait behind after class.",
+        "highlight": "wait behind"
+      },
+      {
+        "formZh": "服侍某人；為某人送上食物或飲品",
+        "formEn": "wait on somebody",
+        "exampleZh": "咖啡店職員很快便為我們服務。",
+        "exampleEn": "The café staff waited on us quickly.",
+        "highlight": "waited on"
+      },
+      {
+        "formZh": "等候某人或某事物；這個意思較常見於美式英語",
+        "formEn": "wait on somebody/something",
+        "exampleZh": "我們仍在等候米婭的回覆。",
+        "exampleEn": "We are still waiting on Mia’s reply.",
+        "highlight": "waiting on"
+      },
+      {
+        "formZh": "等候結果或消息，然後才作決定或行動",
+        "formEn": "wait on something",
+        "exampleZh": "團隊正在等候結果，然後才決定日期。",
+        "exampleEn": "The team is waiting on the result before choosing a date.",
+        "highlight": "waiting on"
+      },
+      {
+        "formZh": "等到不愉快的事情或一段時間結束",
+        "formEn": "wait something out",
+        "exampleZh": "我們留在室內，等到暴風雨結束。",
+        "exampleEn": "We stayed inside to wait out the storm.",
+        "highlight": "wait out"
+      },
+      {
+        "formZh": "服侍某人；較正式或較舊式的說法",
+        "formEn": "wait upon somebody",
+        "exampleZh": "在正式晚宴上，職員服侍賓客。",
+        "exampleEn": "At the formal dinner, staff waited upon the guests.",
+        "highlight": "waited upon"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在其他人離開後留下來等候",
+      "titleEn": "wait behind",
+      "formula": "wait behind",
+      "highlight": "wait behind",
+      "descriptionZh": "在其他人離開後留下來等候",
+      "descriptionEn": "Please wait behind after class.",
+      "examples": [
+        {
+          "en": "Please wait behind after class.",
+          "zh": "下課後請留下來等候。",
+          "highlight": "wait behind"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "服侍某人；為某人送上食物或飲品",
+      "titleEn": "wait on somebody",
+      "formula": "wait on somebody",
+      "highlight": "wait on somebody",
+      "descriptionZh": "服侍某人；為某人送上食物或飲品",
+      "descriptionEn": "The café staff waited on us quickly.",
+      "examples": [
+        {
+          "en": "The café staff waited on us quickly.",
+          "zh": "咖啡店職員很快便為我們服務。",
+          "highlight": "waited on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "等候某人或某事物；這個意思較常見於美式英語",
+      "titleEn": "wait on somebody/something",
+      "formula": "wait on somebody/something",
+      "highlight": "wait on somebody/something",
+      "descriptionZh": "等候某人或某事物；這個意思較常見於美式英語",
+      "descriptionEn": "We are still waiting on Mia’s reply.",
+      "examples": [
+        {
+          "en": "We are still waiting on Mia’s reply.",
+          "zh": "我們仍在等候米婭的回覆。",
+          "highlight": "waiting on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "等候結果或消息，然後才作決定或行動",
+      "titleEn": "wait on something",
+      "formula": "wait on something",
+      "highlight": "wait on something",
+      "descriptionZh": "等候結果或消息，然後才作決定或行動",
+      "descriptionEn": "The team is waiting on the result before choosing a date.",
+      "examples": [
+        {
+          "en": "The team is waiting on the result before choosing a date.",
+          "zh": "團隊正在等候結果，然後才決定日期。",
+          "highlight": "waiting on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "等到不愉快的事情或一段時間結束",
+      "titleEn": "wait something out",
+      "formula": "wait something out",
+      "highlight": "wait something out",
+      "descriptionZh": "等到不愉快的事情或一段時間結束",
+      "descriptionEn": "We stayed inside to wait out the storm.",
+      "examples": [
+        {
+          "en": "We stayed inside to wait out the storm.",
+          "zh": "我們留在室內，等到暴風雨結束。",
+          "highlight": "wait out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "服侍某人；較正式或較舊式的說法",
+      "titleEn": "wait upon somebody",
+      "formula": "wait upon somebody",
+      "highlight": "wait upon somebody",
+      "descriptionZh": "服侍某人；較正式或較舊式的說法",
+      "descriptionEn": "At the formal dinner, staff waited upon the guests.",
+      "examples": [
+        {
+          "en": "At the formal dinner, staff waited upon the guests.",
+          "zh": "在正式晚宴上，職員服侍賓客。",
+          "highlight": "waited upon"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論課堂、會議或活動後留下來",
+      "titleEn": "Talk about staying after a lesson, meeting or activity",
+      "zh": "wait behind 可以表示其他人離開後，某人仍然留下來。",
+      "en": "Wait behind lets you explain that somebody remains after the other people have left."
+    },
+    {
+      "titleZh": "描述在不同情境中服侍別人",
+      "titleEn": "Describe serving people in different situations",
+      "zh": "wait on 常用於餐廳和用餐情境；wait upon 則可能出現在正式場合、古老故事和歷史劇中。",
+      "en": "Wait on is useful in restaurants and meals, while wait upon may appear in formal settings, old stories and historical dramas."
+    },
+    {
+      "titleZh": "談論尚未到達的人物、消息和結果",
+      "titleEn": "Talk about people, messages and results that have not arrived",
+      "zh": "wait on 可以表示等候某人、送貨、回覆、價格或決定。",
+      "en": "Wait on can describe waiting for a person, delivery, reply, price or decision."
+    },
+    {
+      "titleZh": "描述安全等候，直到困難情況結束",
+      "titleEn": "Describe staying safely until a difficult situation ends",
+      "zh": "wait something out 可用來談論暴風雨、大雨、濃霧、塞車和其他暫時性問題。",
+      "en": "Wait something out is useful when talking about storms, heavy rain, fog, traffic jams and other temporary problems."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "在其他人離開後留下來等候",
+      "服侍某人；為某人送上食物或飲品",
+      "等候某人或某事物；這個意思較常見於美式英語",
+      "等候結果或消息，然後才作決定或行動",
+      "等到不愉快的事情或一段時間結束",
+      "服侍某人；較正式或較舊式的說法"
+    ],
+    "contextsEn": [
+      "wait behind",
+      "wait on somebody",
+      "wait on somebody/something",
+      "wait on something",
+      "wait something out",
+      "wait upon somebody"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "在其他人離開後留下來等候",
+        "titleEn": "wait behind",
+        "zh": "在其他人離開後留下來等候",
+        "en": "Please wait behind after class.",
+        "examples": [
+          {
+            "en": "Please wait behind after class.",
+            "zh": "下課後請留下來等候。",
+            "highlight": "wait behind"
+          }
+        ]
+      },
+      {
+        "titleZh": "服侍某人；為某人送上食物或飲品",
+        "titleEn": "wait on somebody",
+        "zh": "服侍某人；為某人送上食物或飲品",
+        "en": "The café staff waited on us quickly.",
+        "examples": [
+          {
+            "en": "The café staff waited on us quickly.",
+            "zh": "咖啡店職員很快便為我們服務。",
+            "highlight": "waited on"
+          }
+        ]
+      },
+      {
+        "titleZh": "等候某人或某事物；這個意思較常見於美式英語",
+        "titleEn": "wait on somebody/something",
+        "zh": "等候某人或某事物；這個意思較常見於美式英語",
+        "en": "We are still waiting on Mia’s reply.",
+        "examples": [
+          {
+            "en": "We are still waiting on Mia’s reply.",
+            "zh": "我們仍在等候米婭的回覆。",
+            "highlight": "waiting on"
+          }
+        ]
+      },
+      {
+        "titleZh": "等候結果或消息，然後才作決定或行動",
+        "titleEn": "wait on something",
+        "zh": "等候結果或消息，然後才作決定或行動",
+        "en": "The team is waiting on the result before choosing a date.",
+        "examples": [
+          {
+            "en": "The team is waiting on the result before choosing a date.",
+            "zh": "團隊正在等候結果，然後才決定日期。",
+            "highlight": "waiting on"
+          }
+        ]
+      },
+      {
+        "titleZh": "等到不愉快的事情或一段時間結束",
+        "titleEn": "wait something out",
+        "zh": "等到不愉快的事情或一段時間結束",
+        "en": "We stayed inside to wait out the storm.",
+        "examples": [
+          {
+            "en": "We stayed inside to wait out the storm.",
+            "zh": "我們留在室內，等到暴風雨結束。",
+            "highlight": "wait out"
+          }
+        ]
+      },
+      {
+        "titleZh": "服侍某人；較正式或較舊式的說法",
+        "titleEn": "wait upon somebody",
+        "zh": "服侍某人；較正式或較舊式的說法",
+        "en": "At the formal dinner, staff waited upon the guests.",
+        "examples": [
+          {
+            "en": "At the formal dinner, staff waited upon the guests.",
+            "zh": "在正式晚宴上，職員服侍賓客。",
+            "highlight": "waited upon"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 WAIT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WAIT expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 WAIT 片語動詞。",
+      "en": "Read the whole sentence and choose the WAIT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "WAIT ON 可以表示服侍某人，也可以表示等候某人、某事物或結果。WAIT UPON 是較正式或較舊式的服侍用語。請仔細閱讀情境。",
+      "titleEn": "WAIT ON can mean either serving somebody or waiting for somebody, something or a result. WAIT UPON is a more formal or older expression for serving somebody. Read the situation carefully.",
+      "zh": "WAIT ON 可以表示服侍某人，也可以表示等候某人、某事物或結果。WAIT UPON 是較正式或較舊式的服侍用語。請仔細閱讀情境。",
+      "en": "WAIT ON can mean either serving somebody or waiting for somebody, something or a result. WAIT UPON is a more formal or older expression for serving somebody. Read the situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WAIT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字，請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WAIT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WAIT 動詞片語句子改寫練習",
+    "titleEn": "WAIT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WAIT 有關的片語動詞改寫以下句子。答案必須保留原意；每題請輸入完整句子。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WAIT. Keep the same meaning and type the complete sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-24-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Maya stayed after everyone else left the club meeting.",
+      "promptZh": "學會會議後，其他人都離開了，瑪雅仍然留下來。",
+      "starter": "Maya",
+      "answer": "Maya waited behind after the club meeting.",
+      "answerZh": "學會會議後，瑪雅留下來等候。",
+      "highlight": "waited behind",
+      "targetForm": "wait behind",
+      "targetMeaningZh": "在其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-24-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We are still waiting for Mia’s reply.",
+      "promptZh": "我們仍在等候米婭的回覆。",
+      "starter": "We",
+      "answer": "We are still waiting on Mia’s reply.",
+      "answerZh": "我們仍在等候米婭的回覆。",
+      "highlight": "waiting on",
+      "targetForm": "wait on somebody/something",
+      "targetMeaningZh": "等候某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-24-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We stayed inside until the storm ended.",
+      "promptZh": "我們留在室內，直到暴風雨結束。",
+      "starter": "We",
+      "answer": "We stayed inside to wait out the storm.",
+      "answerZh": "我們留在室內，等到暴風雨結束。",
+      "highlight": "wait out",
+      "targetForm": "wait something out",
+      "targetMeaningZh": "等到不愉快的事情結束"
+    },
+    {
+      "id": "phrasal-verb-24-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "My daughter will serve us food and drinks at dinner tonight.",
+      "promptZh": "今晚晚飯時，女兒會為我們送上食物和飲品。",
+      "starter": "My",
+      "answer": "My daughter will wait on us at dinner tonight.",
+      "answerZh": "今晚晚飯時，女兒會服侍我們。",
+      "highlight": "wait on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The class will not choose its next course until the test result arrives.",
+      "promptZh": "班上會等到測驗結果公布後，才選擇下一個課程。",
+      "starter": "The",
+      "answer": "The class will wait on the test result before choosing its next course.",
+      "answerZh": "班上會等候測驗結果，然後才選擇下一個課程。",
+      "highlight": "wait on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候結果，然後才作決定"
+    },
+    {
+      "id": "phrasal-verb-24-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "At the formal dinner, staff served the guests.",
+      "promptZh": "在正式晚宴上，職員服侍賓客。",
+      "starter": "At",
+      "answer": "At the formal dinner, staff waited upon the guests.",
+      "answerZh": "在正式晚宴上，職員服侍賓客。",
+      "highlight": "waited upon",
+      "targetForm": "wait upon somebody",
+      "targetMeaningZh": "以較正式或較舊式的方式服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Judd was late, and she was tired of waiting for him.",
+      "promptZh": "賈德遲到了，她已厭倦等他。",
+      "starter": "Judd",
+      "answer": "Judd was late, and she was tired of waiting on him.",
+      "answerZh": "賈德遲到了，她已厭倦等他。",
+      "highlight": "waiting on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "等候某人"
+    },
+    {
+      "id": "phrasal-verb-24-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Please stay after class so I can speak to you briefly.",
+      "promptZh": "下課後請留下來，讓我跟你簡短談幾句。",
+      "starter": "Please",
+      "answer": "Please wait behind after class for a quick word.",
+      "answerZh": "下課後請留下來，讓我跟你簡短談幾句。",
+      "highlight": "wait behind",
+      "targetForm": "wait behind",
+      "targetMeaningZh": "在其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-24-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The café staff served us very quickly.",
+      "promptZh": "咖啡店職員很快便為我們服務。",
+      "starter": "The",
+      "answer": "The café staff waited on us very quickly.",
+      "answerZh": "咖啡店職員很快便為我們服務。",
+      "highlight": "waited on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The hikers stayed under a bridge until the heavy rain ended.",
+      "promptZh": "遠足者留在橋下，直到大雨停下來。",
+      "starter": "The",
+      "answer": "The hikers waited out the heavy rain under a bridge.",
+      "answerZh": "遠足者在橋下等到大雨結束。",
+      "highlight": "waited out",
+      "targetForm": "wait something out",
+      "targetMeaningZh": "等到不愉快的事情結束"
+    },
+    {
+      "id": "phrasal-verb-24-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "In the old story, three servants served the king.",
+      "promptZh": "在那個古老故事中，三名僕人服侍國王。",
+      "starter": "In",
+      "answer": "In the old story, three servants waited upon the king.",
+      "answerZh": "在那個古老故事中，三名僕人服侍國王。",
+      "highlight": "waited upon",
+      "targetForm": "wait upon somebody",
+      "targetMeaningZh": "以較正式或較舊式的方式服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We will not plan the picnic until we hear the weather report.",
+      "promptZh": "我們會先聽取天氣報告，才計劃野餐。",
+      "starter": "We",
+      "answer": "We will wait on the weather report before planning the picnic.",
+      "answerZh": "我們會等候天氣報告，然後才計劃野餐。",
+      "highlight": "wait on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候結果或消息，然後才行動"
+    },
+    {
+      "id": "phrasal-verb-24-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The team is waiting for the doctor’s advice before deciding whether Mia can play.",
+      "promptZh": "球隊正等候醫生的意見，然後才決定米婭能否上場。",
+      "starter": "The",
+      "answer": "The team is waiting on the doctor’s advice before deciding whether Mia can play.",
+      "answerZh": "球隊正等候醫生的意見，然後才決定米婭能否上場。",
+      "highlight": "waiting on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候結果或意見，然後才作決定"
+    },
+    {
+      "id": "phrasal-verb-24-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Nora is serving food and drinks to the guests during dinner in the garden.",
+      "promptZh": "諾拉正在花園晚餐中為賓客送上食物和飲品。",
+      "starter": "Nora",
+      "answer": "Nora is waiting on the guests during dinner in the garden.",
+      "answerZh": "諾拉正在花園晚餐中服侍賓客。",
+      "highlight": "waiting on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Two pupils are staying after the others leave to help the teacher.",
+      "promptZh": "兩名學生在其他人離開後留下來幫助老師。",
+      "starter": "Two",
+      "answer": "Two pupils are waiting behind to help the teacher.",
+      "answerZh": "兩名學生在其他人離開後留下來幫助老師。",
+      "highlight": "waiting behind",
+      "targetForm": "wait behind",
+      "targetMeaningZh": "在其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-24-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The family is staying at a neighbour’s home until the power comes back.",
+      "promptZh": "這家人留在鄰居家中，直到電力恢復。",
+      "starter": "The",
+      "answer": "The family is waiting out the power cut at a neighbour’s home.",
+      "answerZh": "停電期間，這家人正在鄰居家中等候電力恢復。",
+      "highlight": "waiting out",
+      "targetForm": "wait something out",
+      "targetMeaningZh": "等到不愉快的情況結束"
+    },
+    {
+      "id": "phrasal-verb-24-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "I have been waiting for the delivery since Monday.",
+      "promptZh": "我由星期一開始一直在等候送貨。",
+      "starter": "I",
+      "answer": "I have been waiting on the delivery since Monday.",
+      "answerZh": "我由星期一開始一直在等候送貨。",
+      "highlight": "waiting on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候某事物"
+    },
+    {
+      "id": "phrasal-verb-24-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "A member of staff is serving the special guest at dinner this evening.",
+      "promptZh": "今晚晚宴中，有一名職員會服侍那位特別賓客。",
+      "starter": "A",
+      "answer": "A member of staff is waiting upon the special guest at dinner this evening.",
+      "answerZh": "今晚晚宴中，有一名職員會服侍那位特別賓客。",
+      "highlight": "waiting upon",
+      "targetForm": "wait upon somebody",
+      "targetMeaningZh": "以較正式的方式服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Who will serve the customers during the lunch rush?",
+      "promptZh": "午餐繁忙時段，誰會為顧客服務？",
+      "starter": "Who",
+      "answer": "Who will wait on the customers during the lunch rush?",
+      "answerZh": "午餐繁忙時段，誰會為顧客服務？",
+      "highlight": "wait on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Are they waiting to learn the final price before buying the laptops?",
+      "promptZh": "他們是否在等候最後價格，然後才購買手提電腦？",
+      "starter": "Are",
+      "answer": "Are they waiting on the final price before buying the laptops?",
+      "answerZh": "他們是否在等候最後價格，然後才購買手提電腦？",
+      "highlight": "waiting on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候資料或結果，然後才作決定"
+    },
+    {
+      "id": "phrasal-verb-24-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Who served the visitors during the formal ceremony?",
+      "promptZh": "正式典禮期間，是誰服侍訪客？",
+      "starter": "Who",
+      "answer": "Who waited upon the visitors during the formal ceremony?",
+      "answerZh": "正式典禮期間，是誰服侍訪客？",
+      "highlight": "waited upon",
+      "targetForm": "wait upon somebody",
+      "targetMeaningZh": "以較正式的方式服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Are you waiting for anyone before we leave?",
+      "promptZh": "我們離開前，你還在等甚麼人嗎？",
+      "starter": "Are",
+      "answer": "Are you waiting on anyone before we leave?",
+      "answerZh": "我們離開前，你還在等甚麼人嗎？",
+      "highlight": "waiting on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "等候某人"
+    },
+    {
+      "id": "phrasal-verb-24-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Can we stay here until the traffic jam ends and leave later?",
+      "promptZh": "我們可以留在這裏，等到塞車結束後才離開嗎？",
+      "starter": "Can",
+      "answer": "Can we wait out the traffic jam and leave later?",
+      "answerZh": "我們可以等到塞車結束後才離開嗎？",
+      "highlight": "wait out",
+      "targetForm": "wait something out",
+      "targetMeaningZh": "等到不愉快的情況結束"
+    },
+    {
+      "id": "phrasal-verb-24-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Did Leo stay after everyone else left following the team talk?",
+      "promptZh": "球隊談話結束後，其他人都離開了，里奧有留下來嗎？",
+      "starter": "Did",
+      "answer": "Did Leo wait behind after the team talk?",
+      "answerZh": "球隊談話結束後，里奧有留下來嗎？",
+      "highlight": "wait behind",
+      "targetForm": "wait behind",
+      "targetMeaningZh": "在其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-24-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The delay should end soon, so we can remain here until it is over.",
+      "promptZh": "延誤應該很快結束，所以我們可以留在這裏等它過去。",
+      "starter": "The",
+      "answer": "The delay should end soon, so we can wait it out here.",
+      "answerZh": "延誤應該很快結束，所以我們可以在這裏等它過去。",
+      "highlight": "wait it out",
+      "targetForm": "wait something out",
+      "targetMeaningZh": "等到不愉快的事情結束"
+    },
+    {
+      "id": "phrasal-verb-24-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The coach asked us to stay after the other players left following practice.",
+      "promptZh": "教練要求我們在練習後，等其他球員離開再留下來。",
+      "starter": "The",
+      "answer": "The coach asked us to wait behind after practice.",
+      "answerZh": "教練要求我們在練習後留下來。",
+      "highlight": "wait behind",
+      "targetForm": "wait behind",
+      "targetMeaningZh": "在其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-24-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Two members of staff served the queen.",
+      "promptZh": "兩名職員服侍女王。",
+      "starter": "The",
+      "answer": "The queen was waited upon by two members of staff.",
+      "answerZh": "女王由兩名職員服侍。",
+      "highlight": "waited upon",
+      "targetForm": "wait upon somebody",
+      "targetMeaningZh": "以較正式或較舊式的方式服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "They asked whether we were still waiting for the final email.",
+      "promptZh": "他們問我們是否仍在等候最後一封電郵。",
+      "starter": "They",
+      "answer": "They asked whether we were still waiting on the final email.",
+      "answerZh": "他們問我們是否仍在等候最後一封電郵。",
+      "highlight": "waiting on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候某事物"
+    },
+    {
+      "id": "phrasal-verb-24-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The new server served them politely.",
+      "promptZh": "新來的侍應有禮貌地為他們服務。",
+      "starter": "The",
+      "answer": "The new server waited on them politely.",
+      "answerZh": "新來的侍應有禮貌地為他們服務。",
+      "highlight": "waited on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The club did not book the hall until it received the head teacher’s answer.",
+      "promptZh": "學會收到校長的答覆後才預訂禮堂。",
+      "starter": "The",
+      "answer": "The club waited on the head teacher’s answer before booking the hall.",
+      "answerZh": "學會等候校長的答覆，然後才預訂禮堂。",
+      "highlight": "waited on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候答覆，然後才行動"
+    },
+    {
+      "id": "phrasal-verb-24-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Nina did not stay after the others left because she had to catch the bus.",
+      "promptZh": "妮娜沒有在其他人離開後留下來，因為她要趕巴士。",
+      "starter": "Nina",
+      "answer": "Nina did not wait behind because she had to catch the bus.",
+      "answerZh": "妮娜沒有留下來，因為她要趕巴士。",
+      "highlight": "wait behind",
+      "targetForm": "wait behind",
+      "targetMeaningZh": "在其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-24-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The bad weather should pass soon, so let us stay here until it ends.",
+      "promptZh": "惡劣天氣應該很快過去，所以我們留在這裏等它結束吧。",
+      "starter": "The",
+      "answer": "The bad weather should pass soon, so let us wait it out here.",
+      "answerZh": "惡劣天氣應該很快過去，所以我們在這裏等它結束吧。",
+      "highlight": "wait it out",
+      "targetForm": "wait something out",
+      "targetMeaningZh": "等到不愉快的事情結束"
+    },
+    {
+      "id": "phrasal-verb-24-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The last photo is coming by email. I cannot finish the page because I am waiting for it.",
+      "promptZh": "最後一張相片會以電郵寄來。我還在等它，所以未能完成頁面。",
+      "starter": "The",
+      "answer": "The last photo is coming by email. I cannot finish the page because I am waiting on it.",
+      "answerZh": "最後一張相片會以電郵寄來。我還在等它，所以未能完成頁面。",
+      "highlight": "waiting on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候某事物"
+    },
+    {
+      "id": "phrasal-verb-24-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "They served her throughout the long formal meal.",
+      "promptZh": "整場正式晚宴期間，他們一直服侍她。",
+      "starter": "They",
+      "answer": "They waited upon her throughout the long formal meal.",
+      "answerZh": "整場正式晚宴期間，他們一直服侍她。",
+      "highlight": "waited upon",
+      "targetForm": "wait upon somebody",
+      "targetMeaningZh": "以較正式的方式服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The school has not replied about the hall. We cannot choose a date until the reply arrives.",
+      "promptZh": "學校仍未回覆禮堂的事情。答覆來到前，我們不能決定日期。",
+      "starter": "The",
+      "answer": "The school has not replied about the hall. We are waiting on the reply before choosing a date.",
+      "answerZh": "學校仍未回覆禮堂的事情。我們正在等候答覆，然後才決定日期。",
+      "highlight": "waiting on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候答覆，然後才作決定"
+    },
+    {
+      "id": "phrasal-verb-24-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "A friendly student served us at the school café.",
+      "promptZh": "一名友善的學生在學校咖啡店為我們服務。",
+      "starter": "We",
+      "answer": "We were waited on by a friendly student at the school café.",
+      "answerZh": "一名友善的學生在學校咖啡店為我們服務。",
+      "highlight": "waited on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Sofia was tired of waiting for her brother, who was twenty minutes late.",
+      "promptZh": "索菲亞已厭倦等她的哥哥；他遲了二十分鐘。",
+      "starter": "Sofia",
+      "answer": "Sofia was tired of waiting on her brother, who was twenty minutes late.",
+      "answerZh": "索菲亞已厭倦等她的哥哥；他遲了二十分鐘。",
+      "highlight": "waiting on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "等候某人"
+    },
+    {
+      "id": "phrasal-verb-24-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The family is waiting to learn the repair cost before deciding whether to fix the old car.",
+      "promptZh": "這家人正在等候維修費用，然後才決定是否修理舊車。",
+      "starter": "The",
+      "answer": "The family is waiting on the repair cost before deciding whether to fix the old car.",
+      "answerZh": "這家人正在等候維修費用，然後才決定是否修理舊車。",
+      "highlight": "waiting on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候資料，然後才作決定"
+    },
+    {
+      "id": "phrasal-verb-24-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "One volunteer served the older guests while the others prepared the food.",
+      "promptZh": "其他人準備食物時，一名義工服侍年長賓客。",
+      "starter": "One",
+      "answer": "One volunteer waited on the older guests while the others prepared the food.",
+      "answerZh": "其他人準備食物時，一名義工服侍年長賓客。",
+      "highlight": "waited on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "In the play, young servants serve the family in the great house.",
+      "promptZh": "在戲劇中，年輕僕人在大宅裏服侍那家人。",
+      "starter": "In",
+      "answer": "In the play, young servants wait upon the family in the great house.",
+      "answerZh": "在戲劇中，年輕僕人在大宅裏服侍那家人。",
+      "highlight": "wait upon",
+      "targetForm": "wait upon somebody",
+      "targetMeaningZh": "以較正式或較舊式的方式服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Everyone left the hall, but Omar stayed to stack the chairs.",
+      "promptZh": "所有人都離開禮堂了，但奧馬留下來把椅子疊好。",
+      "starter": "Everyone",
+      "answer": "Everyone left the hall, but Omar waited behind to stack the chairs.",
+      "answerZh": "所有人都離開禮堂了，但奧馬留下來把椅子疊好。",
+      "highlight": "waited behind",
+      "targetForm": "wait behind",
+      "targetMeaningZh": "在其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-24-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The match was paused, and both teams stayed in the changing rooms until the rain ended.",
+      "promptZh": "比賽暫停，兩隊留在更衣室，直到雨停。",
+      "starter": "The",
+      "answer": "The match was paused, and both teams waited out the rain in the changing rooms.",
+      "answerZh": "比賽暫停，兩隊在更衣室等到雨停。",
+      "highlight": "waited out",
+      "targetForm": "wait something out",
+      "targetMeaningZh": "等到不愉快的事情結束"
+    },
+    {
+      "id": "phrasal-verb-24-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We have not bought the tickets because we are waiting for the visa decision.",
+      "promptZh": "我們仍未購買門票，因為正在等候簽證決定。",
+      "starter": "We",
+      "answer": "We have not bought the tickets because we are waiting on the visa decision.",
+      "answerZh": "我們仍未購買門票，因為正在等候簽證決定。",
+      "highlight": "waiting on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候結果，然後才行動"
+    },
+    {
+      "id": "phrasal-verb-24-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Ben stood outside the cinema, waiting for his friends.",
+      "promptZh": "賓站在戲院外等候朋友。",
+      "starter": "Ben",
+      "answer": "Ben stood outside the cinema, waiting on his friends.",
+      "answerZh": "賓站在戲院外等候朋友。",
+      "highlight": "waiting on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "等候某人"
+    },
+    {
+      "id": "phrasal-verb-24-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "During the old-fashioned scene, one actor formally served the rich guest.",
+      "promptZh": "在那個舊式場景中，一名演員以正式方式服侍那位富有的賓客。",
+      "starter": "During",
+      "answer": "During the old-fashioned scene, one actor waited upon the rich guest.",
+      "answerZh": "在那個舊式場景中，一名演員服侍那位富有的賓客。",
+      "highlight": "waited upon",
+      "targetForm": "wait upon somebody",
+      "targetMeaningZh": "以較正式或較舊式的方式服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "At the busy café, Mia served six groups of customers without making a mistake.",
+      "promptZh": "在繁忙的咖啡店裏，米婭為六組顧客服務，而且沒有出錯。",
+      "starter": "At",
+      "answer": "At the busy café, Mia waited on six groups of customers without making a mistake.",
+      "answerZh": "在繁忙的咖啡店裏，米婭為六組顧客服務，而且沒有出錯。",
+      "highlight": "waited on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Rather than drive through the thick fog, we stopped at a café and stayed there until it cleared.",
+      "promptZh": "我們沒有在濃霧中駕駛，而是在咖啡店停下來，等到霧散。",
+      "starter": "Rather",
+      "answer": "Rather than drive through the thick fog, we stopped at a café and waited it out.",
+      "answerZh": "我們沒有在濃霧中駕駛，而是在咖啡店停下來，等到霧散。",
+      "highlight": "waited it out",
+      "targetForm": "wait something out",
+      "targetMeaningZh": "等到不愉快的事情結束"
+    },
+    {
+      "id": "phrasal-verb-24-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Why was Ella still there after everyone else had left, even though the meeting had ended?",
+      "promptZh": "會議已經結束，其他人亦已離開，埃拉為甚麼仍留在那裏？",
+      "starter": "Why",
+      "answer": "Why was Ella waiting behind when the meeting had already ended?",
+      "answerZh": "會議已經結束，埃拉為甚麼仍留下來等候？",
+      "highlight": "waiting behind",
+      "targetForm": "wait behind",
+      "targetMeaningZh": "在其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-24-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The hotel followed an old, formal style, and staff served each guest as soon as they arrived.",
+      "promptZh": "酒店採用古老而正式的方式，職員在每位賓客到達時立即服侍他們。",
+      "starter": "The",
+      "answer": "The hotel followed an old, formal style, and staff waited upon each guest as soon as they arrived.",
+      "answerZh": "酒店採用古老而正式的方式，職員在每位賓客到達時立即服侍他們。",
+      "highlight": "waited upon",
+      "targetForm": "wait upon somebody",
+      "targetMeaningZh": "以較正式或較舊式的方式服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The ferry was delayed by strong winds, so we stayed near the harbour until the bad weather ended.",
+      "promptZh": "渡輪因強風延誤，所以我們留在港口附近，直到惡劣天氣結束。",
+      "starter": "The",
+      "answer": "The ferry was delayed by strong winds, so we waited out the bad weather near the harbour.",
+      "answerZh": "渡輪因強風延誤，所以我們在港口附近等到惡劣天氣結束。",
+      "highlight": "waited out",
+      "targetForm": "wait something out",
+      "targetMeaningZh": "等到不愉快的事情結束"
+    },
+    {
+      "id": "phrasal-verb-24-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The organisers will not open the pool again until tomorrow’s safety check is complete.",
+      "promptZh": "主辦單位會等到明天的安全檢查完成後，才重新開放泳池。",
+      "starter": "The",
+      "answer": "The organisers will wait on tomorrow’s safety check before opening the pool again.",
+      "answerZh": "主辦單位會等候明天的安全檢查，然後才重新開放泳池。",
+      "highlight": "wait on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候結果，然後才行動"
+    },
+    {
+      "id": "phrasal-verb-24-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although the workshop finished at six, three students stayed after everyone else left to ask the speaker more questions.",
+      "promptZh": "雖然工作坊六時結束，三名學生仍在其他人離開後留下來，向講者多問幾條問題。",
+      "starter": "Although",
+      "answer": "Although the workshop finished at six, three students waited behind to ask the speaker more questions.",
+      "answerZh": "雖然工作坊六時結束，三名學生仍留下來，向講者多問幾條問題。",
+      "highlight": "waited behind",
+      "targetForm": "wait behind",
+      "targetMeaningZh": "在其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-24-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "We had packed everything, but we were still waiting for the taxi that was meant to arrive at seven.",
+      "promptZh": "我們已收拾好所有東西，但仍在等候原定七時到達的的士。",
+      "starter": "We",
+      "answer": "We had packed everything, but we were still waiting on the taxi that was meant to arrive at seven.",
+      "answerZh": "我們已收拾好所有東西，但仍在等候原定七時到達的的士。",
+      "highlight": "waiting on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候某事物"
+    },
+    {
+      "id": "phrasal-verb-24-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "During the family meal, Leo brought food and drinks to his grandparents so they could remain seated.",
+      "promptZh": "家庭聚餐時，里奧為祖父母送上食物和飲品，讓他們可以繼續坐着。",
+      "starter": "During",
+      "answer": "During the family meal, Leo waited on his grandparents so they could remain seated.",
+      "answerZh": "家庭聚餐時，里奧服侍祖父母，讓他們可以繼續坐着。",
+      "highlight": "waited on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "When the sudden snow made the road unsafe, the family chose to stay at a small hotel until it ended.",
+      "promptZh": "突如其來的雪令道路不安全，因此這家人選擇留在一間小酒店，直到雪停。",
+      "starter": "When",
+      "answer": "When the sudden snow made the road unsafe, the family chose to wait it out at a small hotel.",
+      "answerZh": "突如其來的雪令道路不安全，因此這家人選擇在一間小酒店等到雪停。",
+      "highlight": "wait it out",
+      "targetForm": "wait something out",
+      "targetMeaningZh": "等到不愉快的事情結束"
+    },
+    {
+      "id": "phrasal-verb-24-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "In the historical drama, two servants served the prince while he ate.",
+      "promptZh": "在歷史劇中，兩名僕人在王子吃飯時服侍他。",
+      "starter": "In",
+      "answer": "In the historical drama, two servants waited upon the prince while he ate.",
+      "answerZh": "在歷史劇中，兩名僕人在王子吃飯時服侍他。",
+      "highlight": "waited upon",
+      "targetForm": "wait upon somebody",
+      "targetMeaningZh": "以較正式或較舊式的方式服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The manager asked Ben to stay after the others left so they could discuss his idea in private.",
+      "promptZh": "經理要求賓在其他人離開後留下來，讓他們可以私下討論他的構思。",
+      "starter": "The",
+      "answer": "The manager asked Ben to wait behind so they could discuss his idea in private.",
+      "answerZh": "經理要求賓留下來，讓他們可以私下討論他的構思。",
+      "highlight": "wait behind",
+      "targetForm": "wait behind",
+      "targetMeaningZh": "在其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-24-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Although everyone likes the new plan, the school is waiting for parents’ replies before making a final choice.",
+      "promptZh": "雖然大家都喜歡新計劃，學校仍在等候家長回覆，然後才作最後決定。",
+      "starter": "Although",
+      "answer": "Although everyone likes the new plan, the school is waiting on parents’ replies before making a final choice.",
+      "answerZh": "雖然大家都喜歡新計劃，學校仍在等候家長回覆，然後才作最後決定。",
+      "highlight": "waiting on",
+      "targetForm": "wait on something",
+      "targetMeaningZh": "等候回覆，然後才作決定"
+    },
+    {
+      "id": "phrasal-verb-24-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The small restaurant was busy, but the staff still served every customer with care.",
+      "promptZh": "小餐廳很繁忙，但職員仍細心地服務每位顧客。",
+      "starter": "The",
+      "answer": "The small restaurant was busy, but the staff still waited on every customer with care.",
+      "answerZh": "小餐廳很繁忙，但職員仍細心地服務每位顧客。",
+      "highlight": "waited on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "服侍某人"
+    },
+    {
+      "id": "phrasal-verb-24-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After thirty minutes, I stopped waiting for Sam and went into the concert alone.",
+      "promptZh": "三十分鐘後，我不再等森，獨自進入音樂會場地。",
+      "starter": "After",
+      "answer": "After thirty minutes, I stopped waiting on Sam and went into the concert alone.",
+      "answerZh": "三十分鐘後，我不再等森，獨自進入音樂會場地。",
+      "highlight": "waiting on",
+      "targetForm": "wait on somebody",
+      "targetMeaningZh": "等候某人"
+    }
+  ]
+}

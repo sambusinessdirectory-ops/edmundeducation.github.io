@@ -1,0 +1,2078 @@
+{
+  "id": "phrasal-verb-07",
+  "order": 7,
+  "slug": "clean",
+  "version": "1",
+  "title": "CLEAN 動詞片語",
+  "titleEn": "Clean",
+  "titleZh": "CLEAN 動詞片語",
+  "level": "",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verbs 7 - CLEAN.pdf",
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CLEAN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CLEAN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CLEAN",
+      "highlight": "CLEAN"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Dad cleaned me up after I fell in the mud.",
+      "zh": "我跌進泥裏後，爸爸把我洗乾淨。",
+      "highlight": "cleaned me up"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The hotel bill cleaned me out.",
+      "zh": "酒店帳單花光了我的錢。",
+      "highlight": "cleaned me out"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Clean the walls down before you paint them.",
+      "zh": "髹牆前先把牆壁徹底清洗乾淨。",
+      "highlight": "Clean the walls down"
+    }
+  ],
+  "meaning": {
+    "zh": "把弄髒的人洗乾淨；把自己洗乾淨、整理好；花光某人的錢；拿走某人或某地方所有值錢的東西；徹底清洗某物的整個表面；把污漬、化妝品或其他東西從表面清除；把某地方或容器裏面清理乾淨；整頓某地方或情況，使它更安全、更有秩序；在比賽或頒獎禮贏得很多獎項；賺取很多錢；把地方或弄亂的東西清理乾淨。",
+    "en": "Learn and practise the phrasal verbs related to CLEAN.",
+    "naturalZh": [
+      "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+      "花光某人的錢；拿走某人或某地方所有值錢的東西",
+      "徹底清洗某物的整個表面",
+      "把污漬、化妝品或其他東西從表面清除",
+      "把某地方或容器裏面清理乾淨",
+      "整頓某地方或情況，使它更安全、更有秩序",
+      "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+      "把地方或弄亂的東西清理乾淨"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "clean somebody up / clean yourself up / clean up",
+      "highlight": "clean somebody up / clean yourself up / clean up",
+      "titleZh": "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+      "titleEn": "clean somebody up / clean yourself up / clean up",
+      "descriptionZh": "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+      "descriptionEn": "Dad cleaned me up after I fell in the mud.",
+      "examples": [
+        {
+          "en": "Dad cleaned me up after I fell in the mud.",
+          "zh": "我跌進泥裏後，爸爸把我洗乾淨。",
+          "highlight": "cleaned me up"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "clean somebody/something out / clean somebody out of something",
+      "highlight": "clean somebody/something out / clean somebody out of something",
+      "titleZh": "花光某人的錢；拿走某人或某地方所有值錢的東西",
+      "titleEn": "clean somebody/something out / clean somebody out of something",
+      "descriptionZh": "花光某人的錢；拿走某人或某地方所有值錢的東西",
+      "descriptionEn": "The hotel bill cleaned me out.",
+      "examples": [
+        {
+          "en": "The hotel bill cleaned me out.",
+          "zh": "酒店帳單花光了我的錢。",
+          "highlight": "cleaned me out"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "clean something down",
+      "highlight": "clean something down",
+      "titleZh": "徹底清洗某物的整個表面",
+      "titleEn": "clean something down",
+      "descriptionZh": "徹底清洗某物的整個表面",
+      "descriptionEn": "Clean the walls down before you paint them.",
+      "examples": [
+        {
+          "en": "Clean the walls down before you paint them.",
+          "zh": "髹牆前先把牆壁徹底清洗乾淨。",
+          "highlight": "Clean the walls down"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "clean something off / clean something off something",
+      "highlight": "clean something off / clean something off something",
+      "titleZh": "把污漬、化妝品或其他東西從表面清除",
+      "titleEn": "clean something off / clean something off something",
+      "descriptionZh": "把污漬、化妝品或其他東西從表面清除",
+      "descriptionEn": "She cleaned the make-up off her face.",
+      "examples": [
+        {
+          "en": "She cleaned the make-up off her face.",
+          "zh": "她把臉上的化妝品清洗掉。",
+          "highlight": "cleaned the make-up off"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "pageGroup": 1,
+      "formula": "clean something out",
+      "highlight": "clean something out",
+      "titleZh": "把某地方或容器裏面清理乾淨",
+      "titleEn": "clean something out",
+      "descriptionZh": "把某地方或容器裏面清理乾淨",
+      "descriptionEn": "We clean the stables out every day.",
+      "examples": [
+        {
+          "en": "We clean the stables out every day.",
+          "zh": "我們每天清理馬房內部。",
+          "highlight": "clean the stables out"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "clean something up",
+      "highlight": "clean something up",
+      "titleZh": "整頓某地方或情況，使它更安全、更有秩序",
+      "titleEn": "clean something up",
+      "descriptionZh": "整頓某地方或情況，使它更安全、更有秩序",
+      "descriptionEn": "The mayor promised to clean up the city.",
+      "examples": [
+        {
+          "en": "The mayor promised to clean up the city.",
+          "zh": "市長承諾整頓城市。",
+          "highlight": "clean up"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "pageGroup": 2,
+      "formula": "clean up",
+      "highlight": "clean up",
+      "titleZh": "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+      "titleEn": "clean up",
+      "descriptionZh": "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+      "descriptionEn": "The film cleaned up at the awards.",
+      "examples": [
+        {
+          "en": "The film cleaned up at the awards.",
+          "zh": "這部電影在頒獎禮上贏得多個獎項。",
+          "highlight": "cleaned up"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "number": 8,
+      "pageGroup": 2,
+      "formula": "clean up / clean something up",
+      "highlight": "clean up / clean something up",
+      "titleZh": "把地方或弄亂的東西清理乾淨",
+      "titleEn": "clean up / clean something up",
+      "descriptionZh": "把地方或弄亂的東西清理乾淨",
+      "descriptionEn": "We must clean up before Mum gets home.",
+      "examples": [
+        {
+          "en": "We must clean up before Mum gets home.",
+          "zh": "我們必須在媽媽回家前把地方清理乾淨。",
+          "highlight": "clean up"
+        }
+      ],
+      "sourcePage": 3
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 CLEAN 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to CLEAN.",
+    "contextsZh": [
+      "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+      "花光某人的錢；拿走某人或某地方所有值錢的東西",
+      "徹底清洗某物的整個表面",
+      "把污漬、化妝品或其他東西從表面清除",
+      "把某地方或容器裏面清理乾淨",
+      "整頓某地方或情況，使它更安全、更有秩序",
+      "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+      "把地方或弄亂的東西清理乾淨"
+    ],
+    "contextsEn": [
+      "clean somebody up / clean yourself up / clean up",
+      "clean somebody/something out / clean somebody out of something",
+      "clean something down",
+      "clean something off / clean something off something",
+      "clean something out",
+      "clean something up",
+      "clean up",
+      "clean up / clean something up"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 CLEAN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CLEAN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "CLEAN",
+    "fixedHighlight": "CLEAN",
+    "fixedZh": "閱讀整句，選出意思相同的 CLEAN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CLEAN expression that gives the same meaning.",
+    "correct": "clean somebody up / clean yourself up / clean up",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 him、her、it 或 them 時，請按照以上例子放在正確位置。 留意正在清理的是甚麼：clean down 表示徹底清洗整個表面；clean off 表示清除表面的污物； clean out 表示清理內部；clean up 表示清理混亂。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: Look carefully at what is being cleaned:",
+    "variableItemsZh": [
+      "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+      "花光某人的錢；拿走某人或某地方所有值錢的東西",
+      "徹底清洗某物的整個表面",
+      "把污漬、化妝品或其他東西從表面清除",
+      "把某地方或容器裏面清理乾淨",
+      "整頓某地方或情況，使它更安全、更有秩序",
+      "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+      "把地方或弄亂的東西清理乾淨"
+    ],
+    "variableItemsEn": [
+      "clean somebody up / clean yourself up / clean up",
+      "clean somebody/something out / clean somebody out of something",
+      "clean something down",
+      "clean something off / clean something off something",
+      "clean something out",
+      "clean something up",
+      "clean up",
+      "clean up / clean something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+        "formEn": "clean somebody up / clean yourself up / clean up",
+        "exampleZh": "我跌進泥裏後，爸爸把我洗乾淨。",
+        "exampleEn": "Dad cleaned me up after I fell in the mud.",
+        "highlight": "cleaned me up"
+      },
+      {
+        "formZh": "花光某人的錢；拿走某人或某地方所有值錢的東西",
+        "formEn": "clean somebody/something out / clean somebody out of something",
+        "exampleZh": "酒店帳單花光了我的錢。",
+        "exampleEn": "The hotel bill cleaned me out.",
+        "highlight": "cleaned me out"
+      },
+      {
+        "formZh": "徹底清洗某物的整個表面",
+        "formEn": "clean something down",
+        "exampleZh": "髹牆前先把牆壁徹底清洗乾淨。",
+        "exampleEn": "Clean the walls down before you paint them.",
+        "highlight": "Clean the walls down"
+      },
+      {
+        "formZh": "把污漬、化妝品或其他東西從表面清除",
+        "formEn": "clean something off / clean something off something",
+        "exampleZh": "她把臉上的化妝品清洗掉。",
+        "exampleEn": "She cleaned the make-up off her face.",
+        "highlight": "cleaned the make-up off"
+      },
+      {
+        "formZh": "把某地方或容器裏面清理乾淨",
+        "formEn": "clean something out",
+        "exampleZh": "我們每天清理馬房內部。",
+        "exampleEn": "We clean the stables out every day.",
+        "highlight": "clean the stables out"
+      },
+      {
+        "formZh": "整頓某地方或情況，使它更安全、更有秩序",
+        "formEn": "clean something up",
+        "exampleZh": "市長承諾整頓城市。",
+        "exampleEn": "The mayor promised to clean up the city.",
+        "highlight": "clean up"
+      },
+      {
+        "formZh": "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+        "formEn": "clean up",
+        "exampleZh": "這部電影在頒獎禮上贏得多個獎項。",
+        "exampleEn": "The film cleaned up at the awards.",
+        "highlight": "cleaned up"
+      },
+      {
+        "formZh": "把地方或弄亂的東西清理乾淨",
+        "formEn": "clean up / clean something up",
+        "exampleZh": "我們必須在媽媽回家前把地方清理乾淨。",
+        "exampleEn": "We must clean up before Mum gets home.",
+        "highlight": "clean up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+      "titleEn": "clean somebody up / clean yourself up / clean up",
+      "formula": "clean somebody up / clean yourself up / clean up",
+      "highlight": "clean somebody up / clean yourself up / clean up",
+      "descriptionZh": "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+      "descriptionEn": "Dad cleaned me up after I fell in the mud.",
+      "examples": [
+        {
+          "en": "Dad cleaned me up after I fell in the mud.",
+          "zh": "我跌進泥裏後，爸爸把我洗乾淨。",
+          "highlight": "cleaned me up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "花光某人的錢；拿走某人或某地方所有值錢的東西",
+      "titleEn": "clean somebody/something out / clean somebody out of something",
+      "formula": "clean somebody/something out / clean somebody out of something",
+      "highlight": "clean somebody/something out / clean somebody out of something",
+      "descriptionZh": "花光某人的錢；拿走某人或某地方所有值錢的東西",
+      "descriptionEn": "The hotel bill cleaned me out.",
+      "examples": [
+        {
+          "en": "The hotel bill cleaned me out.",
+          "zh": "酒店帳單花光了我的錢。",
+          "highlight": "cleaned me out"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "徹底清洗某物的整個表面",
+      "titleEn": "clean something down",
+      "formula": "clean something down",
+      "highlight": "clean something down",
+      "descriptionZh": "徹底清洗某物的整個表面",
+      "descriptionEn": "Clean the walls down before you paint them.",
+      "examples": [
+        {
+          "en": "Clean the walls down before you paint them.",
+          "zh": "髹牆前先把牆壁徹底清洗乾淨。",
+          "highlight": "Clean the walls down"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "把污漬、化妝品或其他東西從表面清除",
+      "titleEn": "clean something off / clean something off something",
+      "formula": "clean something off / clean something off something",
+      "highlight": "clean something off / clean something off something",
+      "descriptionZh": "把污漬、化妝品或其他東西從表面清除",
+      "descriptionEn": "She cleaned the make-up off her face.",
+      "examples": [
+        {
+          "en": "She cleaned the make-up off her face.",
+          "zh": "她把臉上的化妝品清洗掉。",
+          "highlight": "cleaned the make-up off"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "titleZh": "把某地方或容器裏面清理乾淨",
+      "titleEn": "clean something out",
+      "formula": "clean something out",
+      "highlight": "clean something out",
+      "descriptionZh": "把某地方或容器裏面清理乾淨",
+      "descriptionEn": "We clean the stables out every day.",
+      "examples": [
+        {
+          "en": "We clean the stables out every day.",
+          "zh": "我們每天清理馬房內部。",
+          "highlight": "clean the stables out"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "titleZh": "整頓某地方或情況，使它更安全、更有秩序",
+      "titleEn": "clean something up",
+      "formula": "clean something up",
+      "highlight": "clean something up",
+      "descriptionZh": "整頓某地方或情況，使它更安全、更有秩序",
+      "descriptionEn": "The mayor promised to clean up the city.",
+      "examples": [
+        {
+          "en": "The mayor promised to clean up the city.",
+          "zh": "市長承諾整頓城市。",
+          "highlight": "clean up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "titleZh": "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+      "titleEn": "clean up",
+      "formula": "clean up",
+      "highlight": "clean up",
+      "descriptionZh": "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+      "descriptionEn": "The film cleaned up at the awards.",
+      "examples": [
+        {
+          "en": "The film cleaned up at the awards.",
+          "zh": "這部電影在頒獎禮上贏得多個獎項。",
+          "highlight": "cleaned up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 3
+    },
+    {
+      "number": 8,
+      "titleZh": "把地方或弄亂的東西清理乾淨",
+      "titleEn": "clean up / clean something up",
+      "formula": "clean up / clean something up",
+      "highlight": "clean up / clean something up",
+      "descriptionZh": "把地方或弄亂的東西清理乾淨",
+      "descriptionEn": "We must clean up before Mum gets home.",
+      "examples": [
+        {
+          "en": "We must clean up before Mum gets home.",
+          "zh": "我們必須在媽媽回家前把地方清理乾淨。",
+          "highlight": "clean up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 3
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "準確說明進行了哪一種清潔",
+      "titleEn": "Say exactly what kind of cleaning happened",
+      "zh": "CLEAN 片語動詞可以說明你是替某人清洗、清洗整個表面、清除污漬、清理內部，還是收拾混亂。",
+      "en": "CLEAN expressions can show whether you washed a person, cleaned a whole surface, removed a mark, cleaned inside something or cleared a mess.",
+      "sourcePage": 3
+    },
+    {
+      "number": 2,
+      "titleZh": "談論如何整頓地方，使它更安全",
+      "titleEn": "Talk about making places safer and better",
+      "zh": "clean up 可以描述整頓城鎮、市場、街道或機構，清除問題和不誠實行為。",
+      "en": "Clean up can describe improving a town, market, street or organisation by removing problems and dishonest behaviour.",
+      "sourcePage": 3
+    },
+    {
+      "number": 3,
+      "titleZh": "理解與金錢和成功有關的強烈意思",
+      "titleEn": "Understand strong meanings about money and success",
+      "zh": "clean somebody out 表示令某人身無分文；clean up 也可以表示贏得很多獎項或賺取很多錢。",
+      "en": "Clean somebody out means leaving someone with no money. Clean up can also mean winning many awards or making a lot of money.",
+      "sourcePage": 3
+    },
+    {
+      "number": 4,
+      "titleZh": "清楚給予日常清潔指示",
+      "titleEn": "Give clear everyday instructions",
+      "zh": "在家中、學校或工作場所，你可以使用 clean the table down、clean the mud off、clean the cupboard out 和 clean the room up 等表達。",
+      "en": "You can use expressions such as clean the table down, clean the mud off, clean the cupboard out and clean the room up at home, school or work.",
+      "sourcePage": 3
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+      "花光某人的錢；拿走某人或某地方所有值錢的東西",
+      "徹底清洗某物的整個表面",
+      "把污漬、化妝品或其他東西從表面清除",
+      "把某地方或容器裏面清理乾淨",
+      "整頓某地方或情況，使它更安全、更有秩序",
+      "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+      "把地方或弄亂的東西清理乾淨"
+    ],
+    "contextsEn": [
+      "clean somebody up / clean yourself up / clean up",
+      "clean somebody/something out / clean somebody out of something",
+      "clean something down",
+      "clean something off / clean something off something",
+      "clean something out",
+      "clean something up",
+      "clean up",
+      "clean up / clean something up"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+        "titleEn": "clean somebody up / clean yourself up / clean up",
+        "formula": "clean somebody up / clean yourself up / clean up",
+        "highlight": "clean somebody up / clean yourself up / clean up",
+        "zh": "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+        "en": "Dad cleaned me up after I fell in the mud.",
+        "examples": [
+          {
+            "en": "Dad cleaned me up after I fell in the mud.",
+            "zh": "我跌進泥裏後，爸爸把我洗乾淨。",
+            "highlight": "cleaned me up"
+          }
+        ]
+      },
+      {
+        "titleZh": "花光某人的錢；拿走某人或某地方所有值錢的東西",
+        "titleEn": "clean somebody/something out / clean somebody out of something",
+        "formula": "clean somebody/something out / clean somebody out of something",
+        "highlight": "clean somebody/something out / clean somebody out of something",
+        "zh": "花光某人的錢；拿走某人或某地方所有值錢的東西",
+        "en": "The hotel bill cleaned me out.",
+        "examples": [
+          {
+            "en": "The hotel bill cleaned me out.",
+            "zh": "酒店帳單花光了我的錢。",
+            "highlight": "cleaned me out"
+          }
+        ]
+      },
+      {
+        "titleZh": "徹底清洗某物的整個表面",
+        "titleEn": "clean something down",
+        "formula": "clean something down",
+        "highlight": "clean something down",
+        "zh": "徹底清洗某物的整個表面",
+        "en": "Clean the walls down before you paint them.",
+        "examples": [
+          {
+            "en": "Clean the walls down before you paint them.",
+            "zh": "髹牆前先把牆壁徹底清洗乾淨。",
+            "highlight": "Clean the walls down"
+          }
+        ]
+      },
+      {
+        "titleZh": "把污漬、化妝品或其他東西從表面清除",
+        "titleEn": "clean something off / clean something off something",
+        "formula": "clean something off / clean something off something",
+        "highlight": "clean something off / clean something off something",
+        "zh": "把污漬、化妝品或其他東西從表面清除",
+        "en": "She cleaned the make-up off her face.",
+        "examples": [
+          {
+            "en": "She cleaned the make-up off her face.",
+            "zh": "她把臉上的化妝品清洗掉。",
+            "highlight": "cleaned the make-up off"
+          }
+        ]
+      },
+      {
+        "titleZh": "把某地方或容器裏面清理乾淨",
+        "titleEn": "clean something out",
+        "formula": "clean something out",
+        "highlight": "clean something out",
+        "zh": "把某地方或容器裏面清理乾淨",
+        "en": "We clean the stables out every day.",
+        "examples": [
+          {
+            "en": "We clean the stables out every day.",
+            "zh": "我們每天清理馬房內部。",
+            "highlight": "clean the stables out"
+          }
+        ]
+      },
+      {
+        "titleZh": "整頓某地方或情況，使它更安全、更有秩序",
+        "titleEn": "clean something up",
+        "formula": "clean something up",
+        "highlight": "clean something up",
+        "zh": "整頓某地方或情況，使它更安全、更有秩序",
+        "en": "The mayor promised to clean up the city.",
+        "examples": [
+          {
+            "en": "The mayor promised to clean up the city.",
+            "zh": "市長承諾整頓城市。",
+            "highlight": "clean up"
+          }
+        ]
+      },
+      {
+        "titleZh": "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+        "titleEn": "clean up",
+        "formula": "clean up",
+        "highlight": "clean up",
+        "zh": "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+        "en": "The film cleaned up at the awards.",
+        "examples": [
+          {
+            "en": "The film cleaned up at the awards.",
+            "zh": "這部電影在頒獎禮上贏得多個獎項。",
+            "highlight": "cleaned up"
+          }
+        ]
+      },
+      {
+        "titleZh": "把地方或弄亂的東西清理乾淨",
+        "titleEn": "clean up / clean something up",
+        "formula": "clean up / clean something up",
+        "highlight": "clean up / clean something up",
+        "zh": "把地方或弄亂的東西清理乾淨",
+        "en": "We must clean up before Mum gets home.",
+        "examples": [
+          {
+            "en": "We must clean up before Mum gets home.",
+            "zh": "我們必須在媽媽回家前把地方清理乾淨。",
+            "highlight": "clean up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 CLEAN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CLEAN expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 CLEAN 片語動詞。",
+      "en": "Read the whole sentence and choose the CLEAN expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown:",
+      "zh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown:",
+      "examplesEn": [
+        "clean him up",
+        "clean it off",
+        "clean it out",
+        "clean it up"
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "留意正在清理的是甚麼：clean down 表示徹底清洗整個表面；clean off 表示清除表面的污物； clean out 表示清理內部；clean up 表示清理混亂。",
+      "titleEn": "Look carefully at what is being cleaned:",
+      "zh": "留意正在清理的是甚麼：clean down 表示徹底清洗整個表面；clean off 表示清除表面的污物； clean out 表示清理內部；clean up 表示清理混亂。",
+      "en": "Look carefully at what is being cleaned:",
+      "examplesEn": [
+        "clean the wall down = wash the whole surface",
+        "clean paint off the wall = remove the paint",
+        "clean the cupboard out = clean inside",
+        "clean the room up = remove the mess"
+      ],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "clean somebody up / clean yourself up / clean up",
+      "meaningZh": "把弄髒的人洗乾淨；把自己洗乾淨、整理好",
+      "exampleEn": "Dad cleaned me up after I fell in the mud.",
+      "exampleZh": "我跌進泥裏後，爸爸把我洗乾淨。",
+      "highlight": "cleaned me up",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "formula": "clean somebody/something out / clean somebody out of something",
+      "meaningZh": "花光某人的錢；拿走某人或某地方所有值錢的東西",
+      "exampleEn": "The hotel bill cleaned me out.",
+      "exampleZh": "酒店帳單花光了我的錢。",
+      "highlight": "cleaned me out",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "formula": "clean something down",
+      "meaningZh": "徹底清洗某物的整個表面",
+      "exampleEn": "Clean the walls down before you paint them.",
+      "exampleZh": "髹牆前先把牆壁徹底清洗乾淨。",
+      "highlight": "Clean the walls down",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "formula": "clean something off / clean something off something",
+      "meaningZh": "把污漬、化妝品或其他東西從表面清除",
+      "exampleEn": "She cleaned the make-up off her face.",
+      "exampleZh": "她把臉上的化妝品清洗掉。",
+      "highlight": "cleaned the make-up off",
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "formula": "clean something out",
+      "meaningZh": "把某地方或容器裏面清理乾淨",
+      "exampleEn": "We clean the stables out every day.",
+      "exampleZh": "我們每天清理馬房內部。",
+      "highlight": "clean the stables out",
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "formula": "clean something up",
+      "meaningZh": "整頓某地方或情況，使它更安全、更有秩序",
+      "exampleEn": "The mayor promised to clean up the city.",
+      "exampleZh": "市長承諾整頓城市。",
+      "highlight": "clean up",
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "formula": "clean up",
+      "meaningZh": "在比賽或頒獎禮贏得很多獎項；賺取很多錢",
+      "exampleEn": "The film cleaned up at the awards.",
+      "exampleZh": "這部電影在頒獎禮上贏得多個獎項。",
+      "highlight": "cleaned up",
+      "sourcePage": 3
+    },
+    {
+      "number": 8,
+      "formula": "clean up / clean something up",
+      "meaningZh": "把地方或弄亂的東西清理乾淨",
+      "exampleEn": "We must clean up before Mum gets home.",
+      "exampleZh": "我們必須在媽媽回家前把地方清理乾淨。",
+      "highlight": "clean up",
+      "sourcePage": 3
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CLEAN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CLEAN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CLEAN 動詞片語句子改寫練習",
+    "titleEn": "CLEAN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CLEAN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CLEAN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-07-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "The film won many of the main prizes at the local awards ceremony.",
+      "promptZh": "這部電影在本地頒獎禮上贏得多個主要獎項。",
+      "starter": "The",
+      "answer": "The film cleaned up at the local awards ceremony.",
+      "answerZh": "這部電影在本地頒獎禮上贏得多個獎項。",
+      "targetForm": "clean up",
+      "targetMeaningZh": "贏得很多獎項",
+      "highlight": "cleaned up"
+    },
+    {
+      "id": "phrasal-verb-07-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Dad washed Mia after she slipped into the mud.",
+      "promptZh": "米婭滑進泥裏後，爸爸替她清洗乾淨。",
+      "starter": "Dad",
+      "answer": "Dad cleaned Mia up after she slipped into the mud.",
+      "answerZh": "米婭滑進泥裏後，爸爸替她清洗乾淨。",
+      "targetForm": "clean somebody up",
+      "targetMeaningZh": "把某人洗乾淨、整理好",
+      "highlight": "cleaned Mia up"
+    },
+    {
+      "id": "phrasal-verb-07-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 17,
+      "prompt": "Tom removed the paint from his hands.",
+      "promptZh": "湯姆把手上的油漆清洗掉。",
+      "starter": "Tom",
+      "answer": "Tom cleaned the paint off his hands.",
+      "answerZh": "湯姆把手上的油漆清洗掉。",
+      "targetForm": "clean something off something",
+      "targetMeaningZh": "把污漬或其他物質從某個表面清除",
+      "highlight": "cleaned the paint off"
+    },
+    {
+      "id": "phrasal-verb-07-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "We removed the mess from the kitchen after dinner.",
+      "promptZh": "晚飯後，我們把廚房裏的混亂清理好。",
+      "starter": "We",
+      "answer": "We cleaned up the kitchen after dinner.",
+      "answerZh": "晚飯後，我們把廚房清理乾淨。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "把地方或弄亂的東西清理乾淨",
+      "highlight": "cleaned up"
+    },
+    {
+      "id": "phrasal-verb-07-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The expensive repair cost me all the money I had.",
+      "promptZh": "昂貴的維修費花光了我所有的錢。",
+      "starter": "The",
+      "answer": "The expensive repair cleaned me out.",
+      "answerZh": "昂貴的維修費花光了我的錢。",
+      "targetForm": "clean somebody out",
+      "targetMeaningZh": "花光某人的錢",
+      "highlight": "cleaned me out"
+    },
+    {
+      "id": "phrasal-verb-07-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Please wash every part of the tables before lunch.",
+      "promptZh": "午飯前，請把桌子的每個部分都清洗乾淨。",
+      "starter": "Please",
+      "answer": "Please clean the tables down before lunch.",
+      "answerZh": "午飯前，請把桌子徹底清洗乾淨。",
+      "targetForm": "clean something down",
+      "targetMeaningZh": "徹底清洗某物的整個表面",
+      "highlight": "clean the tables down"
+    },
+    {
+      "id": "phrasal-verb-07-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The council plans to improve the town centre and make it safer.",
+      "promptZh": "市議會計劃整頓市中心，使它更安全。",
+      "starter": "The",
+      "answer": "The council plans to clean up the town centre and make it safer.",
+      "answerZh": "市議會計劃整頓市中心，使它更安全。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "整頓並改善某地方或情況",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "I need to wash myself before dinner.",
+      "promptZh": "我需要在晚飯前把自己洗乾淨。",
+      "starter": "I",
+      "answer": "I need to clean up before dinner.",
+      "answerZh": "我需要在晚飯前把自己洗乾淨。",
+      "targetForm": "clean up",
+      "targetMeaningZh": "把自己洗乾淨、整理好",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 18,
+      "prompt": "They emptied and cleaned the inside of the cupboard on Saturday.",
+      "promptZh": "他們星期六把櫃內的東西取出，並清理乾淨。",
+      "starter": "They",
+      "answer": "They cleaned the cupboard out on Saturday.",
+      "answerZh": "他們星期六把櫃內清理乾淨。",
+      "targetForm": "clean something out",
+      "targetMeaningZh": "把某地方或容器裏面清理乾淨",
+      "highlight": "cleaned the cupboard out"
+    },
+    {
+      "id": "phrasal-verb-07-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Sara removed the make-up from her face before bed.",
+      "promptZh": "莎拉睡前把臉上的化妝品清洗掉。",
+      "starter": "Sara",
+      "answer": "Sara cleaned the make-up off her face before bed.",
+      "answerZh": "莎拉睡前把臉上的化妝品清洗掉。",
+      "targetForm": "clean something off something",
+      "targetMeaningZh": "把污漬或其他物質從某個表面清除",
+      "highlight": "cleaned the make-up off"
+    },
+    {
+      "id": "phrasal-verb-07-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The children removed the mess from the classroom after the art lesson.",
+      "promptZh": "美術課後，孩子們把課室裏的混亂清理好。",
+      "starter": "The",
+      "answer": "The children cleaned up the classroom after the art lesson.",
+      "answerZh": "美術課後，孩子們把課室清理乾淨。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "把地方或弄亂的東西清理乾淨",
+      "highlight": "cleaned up"
+    },
+    {
+      "id": "phrasal-verb-07-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The thieves took every valuable thing from the small shop during the night.",
+      "promptZh": "小偷在夜間拿走了小店內所有值錢的東西。",
+      "starter": "The",
+      "answer": "The thieves cleaned the small shop out during the night.",
+      "answerZh": "小偷在夜間拿走了小店內所有值錢的東西。",
+      "targetForm": "clean something out",
+      "targetMeaningZh": "拿走某地方所有值錢的東西",
+      "highlight": "cleaned the small shop out"
+    },
+    {
+      "id": "phrasal-verb-07-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "We washed the walls from top to bottom before painting them.",
+      "promptZh": "我們在髹牆前把牆壁由上至下清洗乾淨。",
+      "starter": "We",
+      "answer": "We cleaned the walls down before painting them.",
+      "answerZh": "我們在髹牆前把牆壁徹底清洗乾淨。",
+      "targetForm": "clean something down",
+      "targetMeaningZh": "徹底清洗某物的整個表面",
+      "highlight": "cleaned the walls down"
+    },
+    {
+      "id": "phrasal-verb-07-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The new manager wants to improve the club and stop dishonest behaviour.",
+      "promptZh": "新經理希望整頓會所，制止不誠實的行為。",
+      "starter": "The",
+      "answer": "The new manager wants to clean up the club and stop dishonest behaviour.",
+      "answerZh": "新經理希望整頓會所，制止不誠實的行為。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "整頓並改善某地方或情況",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Mum is removing old food and cleaning the inside of the fridge now.",
+      "promptZh": "媽媽現在正取出舊食物，並清理雪櫃內部。",
+      "starter": "Mum",
+      "answer": "Mum is cleaning the fridge out now.",
+      "answerZh": "媽媽現在正清理雪櫃內部。",
+      "targetForm": "clean something out",
+      "targetMeaningZh": "把某地方或容器裏面清理乾淨",
+      "highlight": "cleaning the fridge out"
+    },
+    {
+      "id": "phrasal-verb-07-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The singer has won many prizes at several music award ceremonies this year.",
+      "promptZh": "這名歌手今年在多個音樂頒獎禮上贏得許多獎項。",
+      "starter": "The",
+      "answer": "The singer has cleaned up at several music award ceremonies this year.",
+      "answerZh": "這名歌手今年在多個音樂頒獎禮上贏得許多獎項。",
+      "targetForm": "clean up",
+      "targetMeaningZh": "贏得很多獎項",
+      "highlight": "cleaned up"
+    },
+    {
+      "id": "phrasal-verb-07-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "That long holiday will cost us all the money we have.",
+      "promptZh": "那次長假將會花光我們所有的錢。",
+      "starter": "That",
+      "answer": "That long holiday will clean us out.",
+      "answerZh": "那次長假將會花光我們所有的錢。",
+      "targetForm": "clean somebody out",
+      "targetMeaningZh": "花光某人的錢",
+      "highlight": "clean us out"
+    },
+    {
+      "id": "phrasal-verb-07-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Have you removed the mud from your boots?",
+      "promptZh": "你把靴上的泥清洗掉了嗎？",
+      "starter": "Have",
+      "answer": "Have you cleaned the mud off your boots?",
+      "answerZh": "你把靴上的泥清洗掉了嗎？",
+      "targetForm": "clean something off something",
+      "targetMeaningZh": "把污漬或其他物質從某個表面清除",
+      "highlight": "cleaned the mud off"
+    },
+    {
+      "id": "phrasal-verb-07-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Ben always washes himself after football practice.",
+      "promptZh": "賓每次足球練習後都會把自己洗乾淨。",
+      "starter": "Ben",
+      "answer": "Ben always cleans himself up after football practice.",
+      "answerZh": "賓每次足球練習後都會把自己洗乾淨。",
+      "targetForm": "clean yourself up",
+      "targetMeaningZh": "把自己洗乾淨、整理好",
+      "highlight": "cleans himself up"
+    },
+    {
+      "id": "phrasal-verb-07-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "We have not cleared the mess after the party yet.",
+      "promptZh": "我們還未清理派對後的混亂。",
+      "starter": "We",
+      "answer": "We have not cleaned up after the party yet.",
+      "answerZh": "我們還未清理派對後的混亂。",
+      "targetForm": "clean up",
+      "targetMeaningZh": "把地方或弄亂的東西清理乾淨",
+      "highlight": "cleaned up"
+    },
+    {
+      "id": "phrasal-verb-07-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The workers clean the inside of the stables and remove the dirty straw every morning.",
+      "promptZh": "工人每天早上都會清理馬房內部，並移走骯髒的稻草。",
+      "starter": "The",
+      "answer": "The workers clean the stables out every morning.",
+      "answerZh": "工人每天早上都會清理馬房內部。",
+      "targetForm": "clean something out",
+      "targetMeaningZh": "把某地方或容器裏面清理乾淨",
+      "highlight": "clean the stables out"
+    },
+    {
+      "id": "phrasal-verb-07-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Buying a new laptop has left her with almost no money.",
+      "promptZh": "購買新手提電腦後，她幾乎沒有錢剩下。",
+      "starter": "Buying",
+      "answer": "Buying a new laptop has nearly cleaned her out.",
+      "answerZh": "購買新手提電腦幾乎花光了她所有的錢。",
+      "targetForm": "clean somebody out",
+      "targetMeaningZh": "花光某人的錢",
+      "highlight": "cleaned her out"
+    },
+    {
+      "id": "phrasal-verb-07-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The small game company made a lot of money after its new game became popular.",
+      "promptZh": "這間小型遊戲公司在新遊戲流行後賺了很多錢。",
+      "starter": "The",
+      "answer": "The small game company cleaned up after its new game became popular.",
+      "answerZh": "這間小型遊戲公司在新遊戲流行後賺了很多錢。",
+      "targetForm": "clean up",
+      "targetMeaningZh": "賺取很多錢",
+      "highlight": "cleaned up"
+    },
+    {
+      "id": "phrasal-verb-07-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Ella is removing the dust from the screen.",
+      "promptZh": "埃拉正在清除屏幕上的灰塵。",
+      "starter": "Ella",
+      "answer": "Ella is cleaning the dust off the screen.",
+      "answerZh": "埃拉正在清除屏幕上的灰塵。",
+      "targetForm": "clean something off something",
+      "targetMeaningZh": "把污漬或其他物質從某個表面清除",
+      "highlight": "cleaning the dust off"
+    },
+    {
+      "id": "phrasal-verb-07-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Can you remove the paint spill before it dries?",
+      "promptZh": "你可以在油漆乾掉前把濺出的油漆清理掉嗎？",
+      "starter": "Can",
+      "answer": "Can you clean the paint spill up before it dries?",
+      "answerZh": "你可以在油漆乾掉前把濺出的油漆清理掉嗎？",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "把地方或弄亂的東西清理乾淨",
+      "highlight": "clean the paint spill up"
+    },
+    {
+      "id": "phrasal-verb-07-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The café staff are washing every part of the counters.",
+      "promptZh": "咖啡店員工正在清洗櫃枱的每個部分。",
+      "starter": "The",
+      "answer": "The café staff are cleaning the counters down.",
+      "answerZh": "咖啡店員工正在徹底清洗櫃枱。",
+      "targetForm": "clean something down",
+      "targetMeaningZh": "徹底清洗某物的整個表面",
+      "highlight": "cleaning the counters down"
+    },
+    {
+      "id": "phrasal-verb-07-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "We should wash the mud off the children before they get into the car.",
+      "promptZh": "孩子們上車前，我們應該把他們身上的泥洗掉。",
+      "starter": "We",
+      "answer": "We should clean the muddy children up before they get into the car.",
+      "answerZh": "滿身泥濘的孩子們上車前，我們應該替他們清洗乾淨。",
+      "targetForm": "clean somebody up",
+      "targetMeaningZh": "把某人洗乾淨、整理好",
+      "highlight": "clean the muddy children up"
+    },
+    {
+      "id": "phrasal-verb-07-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The mayor has promised to make the area around the station safer by stopping illegal selling.",
+      "promptZh": "市長承諾制止非法售賣活動，使車站附近更安全。",
+      "starter": "The",
+      "answer": "The mayor has promised to clean up the area around the station by stopping illegal selling.",
+      "answerZh": "市長承諾制止非法售賣活動，整頓車站附近一帶。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "整頓並改善某地方或情況",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "A fake online shop took all his savings by tricking him.",
+      "promptZh": "一間假網店欺騙他，拿走了他所有積蓄。",
+      "starter": "A",
+      "answer": "A fake online shop cleaned him out of his savings by tricking him.",
+      "answerZh": "一間假網店欺騙他，拿走了他所有積蓄。",
+      "targetForm": "clean somebody out of something",
+      "targetMeaningZh": "騙走或取走某人的所有錢財",
+      "highlight": "cleaned him out of"
+    },
+    {
+      "id": "phrasal-verb-07-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The machine must be washed all over after every use.",
+      "promptZh": "機器每次使用後，所有部分都必須清洗乾淨。",
+      "starter": "The",
+      "answer": "The machine must be cleaned down after every use.",
+      "answerZh": "機器每次使用後都必須徹底清洗。",
+      "targetForm": "clean something down",
+      "targetMeaningZh": "徹底清洗某物的整個表面",
+      "highlight": "cleaned down"
+    },
+    {
+      "id": "phrasal-verb-07-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "After painting the room, we washed ourselves.",
+      "promptZh": "髹完房間後，我們把自己洗乾淨。",
+      "starter": "After",
+      "answer": "After painting the room, we cleaned ourselves up.",
+      "answerZh": "髹完房間後，我們把自己洗乾淨。",
+      "targetForm": "clean yourself up",
+      "targetMeaningZh": "把自己洗乾淨、整理好",
+      "highlight": "cleaned ourselves up"
+    },
+    {
+      "id": "phrasal-verb-07-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 21,
+      "answerZhSourcePage": 21,
+      "prompt": "The city formed a special team to improve the taxi industry and stop drivers breaking the rules.",
+      "promptZh": "市政府成立了一支特別小組，改善的士業並制止司機違反規則。",
+      "starter": "The",
+      "answer": "The city formed a special team to clean up the taxi industry and stop drivers breaking the rules.",
+      "answerZh": "市政府成立了一支特別小組，整頓的士業並制止司機違反規則。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "整頓並改善某地方或情況",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The empty food box was dirty inside. Leo cleaned the inside before putting food in it.",
+      "promptZh": "空的食物盒裏面很骯髒。里奧把裏面清理乾淨後才放入食物。",
+      "starter": "The",
+      "answer": "The empty food box was dirty inside. Leo cleaned it out before putting food in it.",
+      "answerZh": "空的食物盒裏面很骯髒。里奧把裏面清理乾淨後才放入食物。",
+      "targetForm": "clean something out",
+      "targetMeaningZh": "把某地方或容器裏面清理乾淨",
+      "highlight": "cleaned it out"
+    },
+    {
+      "id": "phrasal-verb-07-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The play won most of the prizes at the school awards night.",
+      "promptZh": "這齣話劇在學校頒獎晚會上贏得大部分獎項。",
+      "starter": "The",
+      "answer": "The play cleaned up at the school awards night.",
+      "answerZh": "這齣話劇在學校頒獎晚會上贏得大部分獎項。",
+      "targetForm": "clean up",
+      "targetMeaningZh": "贏得很多獎項",
+      "highlight": "cleaned up"
+    },
+    {
+      "id": "phrasal-verb-07-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "Have the kitchen walls been completely washed yet?",
+      "promptZh": "廚房牆壁已徹底清洗好了嗎？",
+      "starter": "Have",
+      "answer": "Have the kitchen walls been cleaned down yet?",
+      "answerZh": "廚房牆壁徹底清洗好了嗎？",
+      "targetForm": "clean something down",
+      "targetMeaningZh": "徹底清洗某物的整個表面",
+      "highlight": "cleaned down"
+    },
+    {
+      "id": "phrasal-verb-07-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "By the end of the trip, the hotel bill had left us with no money.",
+      "promptZh": "旅程結束時，酒店帳單已令我們身無分文。",
+      "starter": "By",
+      "answer": "By the end of the trip, the hotel bill had cleaned us out.",
+      "answerZh": "旅程結束時，酒店帳單已花光我們所有的錢。",
+      "targetForm": "clean somebody out",
+      "targetMeaningZh": "花光某人的錢",
+      "highlight": "cleaned us out"
+    },
+    {
+      "id": "phrasal-verb-07-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "After the child was sick, the nurse washed him.",
+      "promptZh": "孩子嘔吐後，護士替他清洗乾淨。",
+      "starter": "After",
+      "answer": "After the child was sick, the nurse cleaned him up.",
+      "answerZh": "孩子嘔吐後，護士替他清洗乾淨。",
+      "targetForm": "clean somebody up",
+      "targetMeaningZh": "把某人洗乾淨、整理好",
+      "highlight": "cleaned him up"
+    },
+    {
+      "id": "phrasal-verb-07-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 22,
+      "answerZhSourcePage": 22,
+      "prompt": "The council is trying to improve the market and stop sellers cheating customers.",
+      "promptZh": "市議會正嘗試整頓市場，制止商販欺騙顧客。",
+      "starter": "The",
+      "answer": "The council is trying to clean up the market and stop sellers cheating customers.",
+      "answerZh": "市議會正嘗試整頓市場，制止商販欺騙顧客。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "整頓並改善某地方或情況",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "We had to clean the inside of the fish tank and remove the dirty water before buying new fish.",
+      "promptZh": "購買新魚前，我們必須清理魚缸內部，並移走污水。",
+      "starter": "We",
+      "answer": "We had to clean the fish tank out before buying new fish.",
+      "answerZh": "購買新魚前，我們必須把魚缸內部清理乾淨。",
+      "targetForm": "clean something out",
+      "targetMeaningZh": "把某地方或容器裏面清理乾淨",
+      "highlight": "clean the fish tank out"
+    },
+    {
+      "id": "phrasal-verb-07-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "People expected the actor to win many prizes at the television awards.",
+      "promptZh": "大家預期這名演員會在電視頒獎禮上贏得多個獎項。",
+      "starter": "The",
+      "answer": "The actor was expected to clean up at the television awards.",
+      "answerZh": "大家預期這名演員會在電視頒獎禮上贏得多個獎項。",
+      "targetForm": "clean up",
+      "targetMeaningZh": "贏得很多獎項",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "The sauce was on the table. I removed it before anyone touched it.",
+      "promptZh": "桌上有些醬汁。我在任何人碰到它之前把它清除掉。",
+      "starter": "The",
+      "answer": "The sauce was on the table. I cleaned it off before anyone touched it.",
+      "answerZh": "桌上有些醬汁。我在任何人碰到它之前把它清除掉。",
+      "targetForm": "clean something off",
+      "targetMeaningZh": "把污漬或其他物質從表面清除",
+      "highlight": "cleaned it off"
+    },
+    {
+      "id": "phrasal-verb-07-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "The juice went everywhere, but I removed the mess at once.",
+      "promptZh": "果汁濺得到處都是，但我立即把它清理掉。",
+      "starter": "The",
+      "answer": "The juice went everywhere, but I cleaned it up at once.",
+      "answerZh": "果汁濺得到處都是，但我立即把它清理掉。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "把弄亂或濺出的東西清理乾淨",
+      "highlight": "cleaned it up"
+    },
+    {
+      "id": "phrasal-verb-07-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 23,
+      "prompt": "The school is working to make the area outside the gates safer because older pupils often cause trouble there.",
+      "promptZh": "學校正努力改善校門外的地方，因為較年長的學生經常在那裏鬧事。",
+      "starter": "The",
+      "answer": "The school is working to clean up the area outside the gates because older pupils often cause trouble there.",
+      "answerZh": "學校正努力整頓校門外的地方，因為較年長的學生經常在那裏鬧事。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "整頓並改善某地方或情況",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 23,
+      "answerZhSourcePage": 24,
+      "prompt": "Before the new signs are added, the workers will wash all sides of the metal boards.",
+      "promptZh": "安裝新標誌前，工人會把金屬板的每一面清洗乾淨。",
+      "starter": "Before",
+      "answer": "Before the new signs are added, the workers will clean the metal boards down.",
+      "answerZh": "安裝新標誌前，工人會徹底清洗金屬板。",
+      "targetForm": "clean something down",
+      "targetMeaningZh": "徹底清洗某物的整個表面",
+      "highlight": "clean the metal boards down"
+    },
+    {
+      "id": "phrasal-verb-07-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "Maya could not remove the ink from her white shirt.",
+      "promptZh": "瑪雅無法清除白恤衫上的墨水。",
+      "starter": "Maya",
+      "answer": "Maya could not clean the ink off her white shirt.",
+      "answerZh": "瑪雅無法清除白恤衫上的墨水。",
+      "targetForm": "clean something off something",
+      "targetMeaningZh": "把污漬或其他物質從某個表面清除",
+      "highlight": "clean the ink off"
+    },
+    {
+      "id": "phrasal-verb-07-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "Guests are coming soon, so please remove the mess from the living room.",
+      "promptZh": "客人很快便到，所以請把客廳裏的混亂清理好。",
+      "starter": "Guests",
+      "answer": "Guests are coming soon, so please clean the living room up.",
+      "answerZh": "客人很快便到，所以請把客廳清理乾淨。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "把地方或弄亂的東西清理乾淨",
+      "highlight": "clean the living room up"
+    },
+    {
+      "id": "phrasal-verb-07-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "The coach told the muddy players to wash themselves before lunch.",
+      "promptZh": "教練叫滿身泥濘的球員在午飯前把自己洗乾淨。",
+      "starter": "The",
+      "answer": "The coach told the muddy players to clean themselves up before lunch.",
+      "answerZh": "教練叫滿身泥濘的球員在午飯前把自己洗乾淨。",
+      "targetForm": "clean yourself up",
+      "targetMeaningZh": "把自己洗乾淨、整理好",
+      "highlight": "clean themselves up"
+    },
+    {
+      "id": "phrasal-verb-07-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "We cleaned the inside of the garage and threw away three broken chairs.",
+      "promptZh": "我們清理車房內部，並丟掉三張破椅子。",
+      "starter": "We",
+      "answer": "We cleaned the garage out and threw away three broken chairs.",
+      "answerZh": "我們清理車房內部，並丟掉三張破椅子。",
+      "targetForm": "clean something out",
+      "targetMeaningZh": "把某地方或容器裏面清理乾淨",
+      "highlight": "cleaned the garage out"
+    },
+    {
+      "id": "phrasal-verb-07-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 24,
+      "prompt": "The police hope to make the street safer by stopping people from selling stolen phones there.",
+      "promptZh": "警方希望制止有人在該處售賣贓物手機，使街道更安全。",
+      "starter": "The",
+      "answer": "The police hope to clean up the street by stopping people from selling stolen phones there.",
+      "answerZh": "警方希望制止有人在該處售賣贓物手機，整頓這條街道。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "整頓並改善某地方或情況",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 24,
+      "answerZhSourcePage": 25,
+      "prompt": "The staff washed every part of the tables before serving the food.",
+      "promptZh": "上菜前，員工清洗了桌子的每個部分。",
+      "starter": "The",
+      "answer": "The staff cleaned the tables down before serving the food.",
+      "answerZh": "上菜前，員工把桌子徹底清洗乾淨。",
+      "targetForm": "clean something down",
+      "targetMeaningZh": "徹底清洗某物的整個表面",
+      "highlight": "cleaned the tables down"
+    },
+    {
+      "id": "phrasal-verb-07-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 25,
+      "prompt": "I used warm water to remove the glue from the jar.",
+      "promptZh": "我用暖水清除玻璃瓶上的膠水。",
+      "starter": "I",
+      "answer": "I used warm water to clean the glue off the jar.",
+      "answerZh": "我用暖水清除玻璃瓶上的膠水。",
+      "targetForm": "clean something off something",
+      "targetMeaningZh": "把污漬或其他物質從某個表面清除",
+      "highlight": "clean the glue off"
+    },
+    {
+      "id": "phrasal-verb-07-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 25,
+      "prompt": "Someone dropped flour on the floor, and Amir removed the mess.",
+      "promptZh": "有人把麵粉灑在地上，阿米爾把它清理掉。",
+      "starter": "Someone",
+      "answer": "Someone dropped flour on the floor, and Amir cleaned it up.",
+      "answerZh": "有人把麵粉灑在地上，阿米爾把它清理掉。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "把弄亂或濺出的東西清理乾淨",
+      "highlight": "cleaned it up"
+    },
+    {
+      "id": "phrasal-verb-07-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 25,
+      "prompt": "Paint went all over Noah’s clothes and face, so the teacher washed him.",
+      "promptZh": "油漆濺滿諾亞的衣服和臉，所以老師替他清洗乾淨。",
+      "starter": "The",
+      "answer": "The teacher cleaned Noah up after paint went all over his clothes and face.",
+      "answerZh": "油漆濺滿諾亞的衣服和臉後，老師替他清洗乾淨。",
+      "targetForm": "clean somebody up",
+      "targetMeaningZh": "把某人洗乾淨、整理好",
+      "highlight": "cleaned Noah up"
+    },
+    {
+      "id": "phrasal-verb-07-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 25,
+      "prompt": "Have you cleaned inside your desk drawer and removed the rubbish, or is it still full?",
+      "promptZh": "你把書桌抽屜內部清理好並移走垃圾了嗎？還是它仍然塞滿東西？",
+      "starter": "Have",
+      "answer": "Have you cleaned your desk drawer out, or is it still full of rubbish?",
+      "answerZh": "你把書桌抽屜內部清理好了嗎？還是它仍然塞滿垃圾？",
+      "targetForm": "clean something out",
+      "targetMeaningZh": "把某地方或容器裏面清理乾淨",
+      "highlight": "cleaned your desk drawer out"
+    },
+    {
+      "id": "phrasal-verb-07-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 25,
+      "prompt": "A dishonest caller almost took all Grandma’s money by tricking her.",
+      "promptZh": "一名不誠實的來電者幾乎騙走祖母所有的錢。",
+      "starter": "A",
+      "answer": "A dishonest caller almost cleaned Grandma out of all her money by tricking her.",
+      "answerZh": "一名不誠實的來電者幾乎騙走祖母所有的錢。",
+      "targetForm": "clean somebody out of something",
+      "targetMeaningZh": "騙走或取走某人的所有錢財",
+      "highlight": "cleaned Grandma out of"
+    },
+    {
+      "id": "phrasal-verb-07-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "promptZhSourcePage": 13,
+      "answerSourcePage": 25,
+      "answerZhSourcePage": 26,
+      "prompt": "The young swimmer won several prizes at the school sports awards.",
+      "promptZh": "這名年輕泳手在學校體育頒獎禮上贏得多個獎項。",
+      "starter": "The",
+      "answer": "The young swimmer cleaned up at the school sports awards.",
+      "answerZh": "這名年輕泳手在學校體育頒獎禮上贏得多個獎項。",
+      "targetForm": "clean up",
+      "targetMeaningZh": "贏得很多獎項",
+      "highlight": "cleaned up"
+    },
+    {
+      "id": "phrasal-verb-07-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "Few people knew the film before the festival, but it later won many awards across the country.",
+      "promptZh": "電影節前很少人認識這部電影，但它後來在全國贏得多個獎項。",
+      "starter": "Few",
+      "answer": "Few people knew the film before the festival, but it later cleaned up at award ceremonies across the country.",
+      "answerZh": "電影節前很少人認識這部電影，但它後來在全國多個頒獎禮上贏得許多獎項。",
+      "targetForm": "clean up",
+      "targetMeaningZh": "贏得很多獎項",
+      "highlight": "cleaned up"
+    },
+    {
+      "id": "phrasal-verb-07-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "The sauce had dried on the cooker, but Jin managed to remove it.",
+      "promptZh": "醬汁已乾在煮食爐上，但晉成功把它清除掉。",
+      "starter": "The",
+      "answer": "The sauce had dried on the cooker, but Jin managed to clean it off.",
+      "answerZh": "醬汁已乾在煮食爐上，但晉成功把它清除掉。",
+      "targetForm": "clean something off",
+      "targetMeaningZh": "把污漬或其他物質從表面清除",
+      "highlight": "clean it off"
+    },
+    {
+      "id": "phrasal-verb-07-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "The mayor says new lights and more police will help make the town centre safer at night.",
+      "promptZh": "市長表示，新燈光和更多警員會令市中心在晚上更安全。",
+      "starter": "The",
+      "answer": "The mayor says new lights and more police will help clean up the town centre at night.",
+      "answerZh": "市長表示，新燈光和更多警員有助在晚上整頓市中心。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "整頓並改善某地方或情況",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "By the time we came home, the holiday had left us with no money at all.",
+      "promptZh": "我們回家時，這次假期已令我們身無分文。",
+      "starter": "By",
+      "answer": "By the time we came home, the holiday had cleaned us out.",
+      "answerZh": "我們回家時，這次假期已花光我們所有的錢。",
+      "targetForm": "clean somebody out",
+      "targetMeaningZh": "花光某人的錢",
+      "highlight": "cleaned us out"
+    },
+    {
+      "id": "phrasal-verb-07-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 26,
+      "answerZhSourcePage": 26,
+      "prompt": "The children made a huge mess with paper and glue, but they removed it all before class ended.",
+      "promptZh": "孩子們用紙張和膠水弄得一團糟，但他們在下課前把一切清理好。",
+      "starter": "The",
+      "answer": "The children made a huge mess with paper and glue, but they cleaned it all up before class ended.",
+      "answerZh": "孩子們用紙張和膠水弄得一團糟，但他們在下課前把一切清理好。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "把弄亂或濺出的東西清理乾淨",
+      "highlight": "cleaned it all up"
+    },
+    {
+      "id": "phrasal-verb-07-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "promptZhSourcePage": 14,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "The old shed was full of dust and broken boxes, so we spent the morning cleaning inside and removing unwanted things.",
+      "promptZh": "舊棚屋滿是灰塵和破箱子，所以我們花了一個早上清理裏面並移走不要的東西。",
+      "starter": "The",
+      "answer": "The old shed was full of dust and broken boxes, so we spent the morning cleaning it out.",
+      "answerZh": "舊棚屋滿是灰塵和破箱子，所以我們花了一個早上把裏面清理乾淨。",
+      "targetForm": "clean something out",
+      "targetMeaningZh": "把某地方或容器裏面清理乾淨",
+      "highlight": "cleaning it out"
+    },
+    {
+      "id": "phrasal-verb-07-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "The new toy was cheap to make and very popular, so the company made a lot of money during the holiday season.",
+      "promptZh": "這款新玩具生產成本低，而且非常受歡迎，所以公司在假日期間賺了很多錢。",
+      "starter": "The",
+      "answer": "The new toy was cheap to make and very popular, so the company cleaned up during the holiday season.",
+      "answerZh": "這款新玩具生產成本低，而且非常受歡迎，所以公司在假日期間賺了很多錢。",
+      "targetForm": "clean up",
+      "targetMeaningZh": "賺取很多錢",
+      "highlight": "cleaned up"
+    },
+    {
+      "id": "phrasal-verb-07-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "We cannot sit on the new sofa until we have washed ourselves after working in the garden.",
+      "promptZh": "在花園工作後，我們必須先把自己洗乾淨，才可以坐在新梳化上。",
+      "starter": "We",
+      "answer": "We cannot sit on the new sofa until we have cleaned ourselves up after working in the garden.",
+      "answerZh": "在花園工作後，我們必須先把自己洗乾淨，才可以坐在新梳化上。",
+      "targetForm": "clean yourself up",
+      "targetMeaningZh": "把自己洗乾淨、整理好",
+      "highlight": "cleaned ourselves up"
+    },
+    {
+      "id": "phrasal-verb-07-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "Before returning the library book, Ava carefully removed the chocolate from the cover.",
+      "promptZh": "歸還圖書館書籍前，艾娃小心地清除封面上的朱古力。",
+      "starter": "Before",
+      "answer": "Before returning the library book, Ava carefully cleaned the chocolate off the cover.",
+      "answerZh": "歸還圖書館書籍前，艾娃小心地清除封面上的朱古力。",
+      "targetForm": "clean something off something",
+      "targetMeaningZh": "把污漬或其他物質從某個表面清除",
+      "highlight": "cleaned the chocolate off"
+    },
+    {
+      "id": "phrasal-verb-07-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "Residents want the council to make the bus station safer by stopping the fights there.",
+      "promptZh": "居民希望市議會制止巴士總站內的打鬥，使該處更安全。",
+      "starter": "Residents",
+      "answer": "Residents want the council to clean up the bus station by stopping the fights there.",
+      "answerZh": "居民希望市議會制止巴士總站內的打鬥，整頓該處。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "整頓並改善某地方或情況",
+      "highlight": "clean up"
+    },
+    {
+      "id": "phrasal-verb-07-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 27,
+      "answerZhSourcePage": 27,
+      "prompt": "A dishonest builder took all the family’s savings by charging for work he never did.",
+      "promptZh": "一名不誠實的建築工人收取從未完成的工程費用，拿走了這家人所有積蓄。",
+      "starter": "A",
+      "answer": "A dishonest builder cleaned the family out of all their savings by charging for work he never did.",
+      "answerZh": "一名不誠實的建築工人收取從未完成的工程費用，拿走了這家人所有積蓄。",
+      "targetForm": "clean somebody out of something",
+      "targetMeaningZh": "騙走或取走某人的所有錢財",
+      "highlight": "cleaned the family out of"
+    },
+    {
+      "id": "phrasal-verb-07-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "promptZhSourcePage": 15,
+      "answerSourcePage": 28,
+      "answerZhSourcePage": 28,
+      "prompt": "After the class party, we removed all the rubbish and left the hall clean before going home.",
+      "promptZh": "班級派對後，我們在回家前移走所有垃圾，把禮堂清理乾淨。",
+      "starter": "After",
+      "answer": "After the class party, we cleaned the hall up before going home.",
+      "answerZh": "班級派對後，我們在回家前把禮堂清理乾淨。",
+      "targetForm": "clean something up",
+      "targetMeaningZh": "把地方或弄亂的東西清理乾淨",
+      "highlight": "cleaned the hall up"
+    },
+    {
+      "id": "phrasal-verb-07-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "promptZhSourcePage": 16,
+      "answerSourcePage": 28,
+      "answerZhSourcePage": 28,
+      "prompt": "The staff found insects, so the café closed early while they cleaned inside all the kitchen cupboards.",
+      "promptZh": "員工發現昆蟲，所以咖啡店提早關門，讓他們清理所有廚房櫃的內部。",
+      "starter": "The",
+      "answer": "The staff found insects, so the café closed early while they cleaned all the kitchen cupboards out.",
+      "answerZh": "員工發現昆蟲，所以咖啡店提早關門，讓他們把所有廚房櫃內部清理乾淨。",
+      "targetForm": "clean something out",
+      "targetMeaningZh": "把某地方或容器裏面清理乾淨",
+      "highlight": "cleaned all the kitchen cupboards out"
+    },
+    {
+      "id": "phrasal-verb-07-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "promptZhSourcePage": 16,
+      "answerSourcePage": 28,
+      "answerZhSourcePage": 28,
+      "prompt": "Before the children arrive, the workers must wash every table and chair from top to bottom.",
+      "promptZh": "孩子們到達前，工人必須把每張桌椅由上至下清洗乾淨。",
+      "starter": "Before",
+      "answer": "Before the children arrive, the workers must clean down every table and chair.",
+      "answerZh": "孩子們到達前，工人必須把每張桌椅徹底清洗乾淨。",
+      "targetForm": "clean something down",
+      "targetMeaningZh": "徹底清洗某物的整個表面",
+      "highlight": "clean down"
+    }
+  ]
+}

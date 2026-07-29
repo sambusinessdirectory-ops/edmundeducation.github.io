@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-26",
+  "order": 26,
+  "slug": "clock",
+  "version": "1",
+  "title": "CLOCK 動詞片語",
+  "titleEn": "Clock",
+  "titleZh": "CLOCK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 25 - Clock.pdf",
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CLOCK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CLOCK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CLOCK",
+      "highlight": "CLOCK"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The fastest swimmer clocked in at 52 seconds.",
+      "zh": "最快的泳手錄得52秒的成績。",
+      "highlight": "clocked in at 52 seconds"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "We clocked on at eight.",
+      "zh": "我們八時打卡上班。",
+      "highlight": "clocked on"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Everyone clocked off at six.",
+      "zh": "大家六時打卡下班。",
+      "highlight": "clocked off"
+    }
+  ],
+  "meaning": {
+    "zh": "錄得某個時間、成績或時長；打卡上班；替某人登記開始上班；打卡下班；替某人登記結束上班；累積里數、時間、分數或其他總數",
+    "en": "clock in at something / clock in/on; clock somebody in/on / clock off/out; clock somebody off/out / clock something up",
+    "naturalZh": [
+      "錄得某個時間、成績或時長",
+      "打卡上班；替某人登記開始上班",
+      "打卡下班；替某人登記結束上班",
+      "累積里數、時間、分數或其他總數"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "clock in at something",
+      "titleZh": "錄得某個時間、成績或時長",
+      "titleEn": "clock in at something",
+      "descriptionZh": "錄得某個時間、成績或時長",
+      "descriptionEn": "The fastest swimmer clocked in at 52 seconds.",
+      "examples": [
+        {
+          "en": "The fastest swimmer clocked in at 52 seconds.",
+          "zh": "最快的泳手錄得52秒的成績。",
+          "highlight": "clocked in at 52 seconds"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "clock in/on; clock somebody in/on",
+      "titleZh": "打卡上班；替某人登記開始上班",
+      "titleEn": "clock in/on; clock somebody in/on",
+      "descriptionZh": "打卡上班；替某人登記開始上班",
+      "descriptionEn": "We clocked on at eight.",
+      "examples": [
+        {
+          "en": "We clocked on at eight.",
+          "zh": "我們八時打卡上班。",
+          "highlight": "clocked on"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "pageGroup": 2,
+      "formula": "clock off/out; clock somebody off/out",
+      "titleZh": "打卡下班；替某人登記結束上班",
+      "titleEn": "clock off/out; clock somebody off/out",
+      "descriptionZh": "打卡下班；替某人登記結束上班",
+      "descriptionEn": "Everyone clocked off at six.",
+      "examples": [
+        {
+          "en": "Everyone clocked off at six.",
+          "zh": "大家六時打卡下班。",
+          "highlight": "clocked off"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "pageGroup": 2,
+      "formula": "clock something up",
+      "titleZh": "累積里數、時間、分數或其他總數",
+      "titleEn": "clock something up",
+      "descriptionZh": "累積里數、時間、分數或其他總數",
+      "descriptionEn": "The van clocked up 600 kilometres this week.",
+      "examples": [
+        {
+          "en": "The van clocked up 600 kilometres this week.",
+          "zh": "這輛客貨車本星期累積行駛了600公里。",
+          "highlight": "clocked up 600 kilometres"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "CLOCK 片語動詞的實際用途",
+    "labelEn": "CLOCK Phrasal Verbs in Use",
+    "summaryZh": "clock in 和 clock on 表示某人開始上班；clock off 和 clock out 則表示某人結束工作。；clock in at 可以用來報告跑手的完成時間，也可以說明電影、歌曲、演講或節目的長度。；clock something up 可以描述累積行駛的里數、完成的小時、取得的分數和其他總數。；這些表達常見於工作紀錄、運動、旅程報告和媒體討論。",
+    "summaryEn": "Clock in and clock on show that a person has started work. Clock off and clock out show that the person has finished. Clock in at can report a runner’s finishing time or the length of a film, song, speech or programme. Clock something up can describe kilometres travelled, hours completed, points earned and other growing totals. These expressions commonly appear in workplace records, sport, travel reports and media discussions.",
+    "contextsZh": [
+      "清楚談論上班和下班",
+      "報告運動成績和節目長度",
+      "描述一段時間內累積的總數",
+      "理解不同生活情境中的 CLOCK 表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about starting and finishing work",
+      "Report sports times and programme lengths",
+      "Describe totals collected over time",
+      "Understand CLOCK in several real-life situations"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 CLOCK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CLOCK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "clock in at something",
+    "fixedHighlight": "clock in at something",
+    "fixedZh": "閱讀整句，選出意思相同的 CLOCK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CLOCK expression that gives the same meaning.",
+    "correct": "clocked in at 52 seconds",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；clock in 或 clock on 表示打卡上班；clock off 或 clock out 表示打卡下班。；clock in at 45 seconds 表示錄得一次特定成績；clock up 500 kilometres 表示一段時間內累積的總數。",
+    "variableEn": "Keep the same people, things, time and meaning. Clock in or clock on means to start work. Clock off or clock out means to finish work. Clock in at 45 seconds reports one measured result. Clock up 500 kilometres reports a total collected over time.",
+    "variableItemsZh": [
+      "clock in at something",
+      "clock in/on; clock somebody in/on",
+      "clock off/out; clock somebody off/out",
+      "clock something up"
+    ],
+    "variableItemsEn": [
+      "clock in at something",
+      "clock in/on; clock somebody in/on",
+      "clock off/out; clock somebody off/out",
+      "clock something up"
+    ],
+    "forms": [
+      {
+        "formZh": "錄得某個時間、成績或時長",
+        "formEn": "clock in at something",
+        "exampleZh": "最快的泳手錄得52秒的成績。",
+        "exampleEn": "The fastest swimmer clocked in at 52 seconds.",
+        "highlight": "clocked in at 52 seconds"
+      },
+      {
+        "formZh": "打卡上班；替某人登記開始上班",
+        "formEn": "clock in/on; clock somebody in/on",
+        "exampleZh": "我們八時打卡上班。",
+        "exampleEn": "We clocked on at eight.",
+        "highlight": "clocked on"
+      },
+      {
+        "formZh": "打卡下班；替某人登記結束上班",
+        "formEn": "clock off/out; clock somebody off/out",
+        "exampleZh": "大家六時打卡下班。",
+        "exampleEn": "Everyone clocked off at six.",
+        "highlight": "clocked off"
+      },
+      {
+        "formZh": "累積里數、時間、分數或其他總數",
+        "formEn": "clock something up",
+        "exampleZh": "這輛客貨車本星期累積行駛了600公里。",
+        "exampleEn": "The van clocked up 600 kilometres this week.",
+        "highlight": "clocked up 600 kilometres"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "錄得某個時間、成績或時長",
+      "titleEn": "clock in at something",
+      "formula": "clock in at something",
+      "highlight": "clock in at something",
+      "descriptionZh": "錄得某個時間、成績或時長",
+      "descriptionEn": "The fastest swimmer clocked in at 52 seconds.",
+      "examples": [
+        {
+          "en": "The fastest swimmer clocked in at 52 seconds.",
+          "zh": "最快的泳手錄得52秒的成績。",
+          "highlight": "clocked in at 52 seconds"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "打卡上班；替某人登記開始上班",
+      "titleEn": "clock in/on; clock somebody in/on",
+      "formula": "clock in/on; clock somebody in/on",
+      "highlight": "clock in/on; clock somebody in/on",
+      "descriptionZh": "打卡上班；替某人登記開始上班",
+      "descriptionEn": "We clocked on at eight.",
+      "examples": [
+        {
+          "en": "We clocked on at eight.",
+          "zh": "我們八時打卡上班。",
+          "highlight": "clocked on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "打卡下班；替某人登記結束上班",
+      "titleEn": "clock off/out; clock somebody off/out",
+      "formula": "clock off/out; clock somebody off/out",
+      "highlight": "clock off/out; clock somebody off/out",
+      "descriptionZh": "打卡下班；替某人登記結束上班",
+      "descriptionEn": "Everyone clocked off at six.",
+      "examples": [
+        {
+          "en": "Everyone clocked off at six.",
+          "zh": "大家六時打卡下班。",
+          "highlight": "clocked off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "累積里數、時間、分數或其他總數",
+      "titleEn": "clock something up",
+      "formula": "clock something up",
+      "highlight": "clock something up",
+      "descriptionZh": "累積里數、時間、分數或其他總數",
+      "descriptionEn": "The van clocked up 600 kilometres this week.",
+      "examples": [
+        {
+          "en": "The van clocked up 600 kilometres this week.",
+          "zh": "這輛客貨車本星期累積行駛了600公里。",
+          "highlight": "clocked up 600 kilometres"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論上班和下班",
+      "titleEn": "Talk clearly about starting and finishing work",
+      "zh": "clock in 和 clock on 表示某人開始上班；clock off 和 clock out 則表示某人結束工作。",
+      "en": "Clock in and clock on show that a person has started work. Clock off and clock out show that the person has finished."
+    },
+    {
+      "titleZh": "報告運動成績和節目長度",
+      "titleEn": "Report sports times and programme lengths",
+      "zh": "clock in at 可以用來報告跑手的完成時間，也可以說明電影、歌曲、演講或節目的長度。",
+      "en": "Clock in at can report a runner’s finishing time or the length of a film, song, speech or programme."
+    },
+    {
+      "titleZh": "描述一段時間內累積的總數",
+      "titleEn": "Describe totals collected over time",
+      "zh": "clock something up 可以描述累積行駛的里數、完成的小時、取得的分數和其他總數。",
+      "en": "Clock something up can describe kilometres travelled, hours completed, points earned and other growing totals."
+    },
+    {
+      "titleZh": "理解不同生活情境中的 CLOCK 表達",
+      "titleEn": "Understand CLOCK in several real-life situations",
+      "zh": "這些表達常見於工作紀錄、運動、旅程報告和媒體討論。",
+      "en": "These expressions commonly appear in workplace records, sport, travel reports and media discussions."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論上班和下班",
+      "報告運動成績和節目長度",
+      "描述一段時間內累積的總數",
+      "理解不同生活情境中的 CLOCK 表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about starting and finishing work",
+      "Report sports times and programme lengths",
+      "Describe totals collected over time",
+      "Understand CLOCK in several real-life situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論上班和下班",
+        "titleEn": "Talk clearly about starting and finishing work",
+        "zh": "clock in 和 clock on 表示某人開始上班；clock off 和 clock out 則表示某人結束工作。",
+        "en": "Clock in and clock on show that a person has started work. Clock off and clock out show that the person has finished.",
+        "examples": [
+          {
+            "en": "The fastest swimmer clocked in at 52 seconds.",
+            "zh": "最快的泳手錄得52秒的成績。",
+            "highlight": "clocked in at 52 seconds"
+          }
+        ]
+      },
+      {
+        "titleZh": "報告運動成績和節目長度",
+        "titleEn": "Report sports times and programme lengths",
+        "zh": "clock in at 可以用來報告跑手的完成時間，也可以說明電影、歌曲、演講或節目的長度。",
+        "en": "Clock in at can report a runner’s finishing time or the length of a film, song, speech or programme.",
+        "examples": [
+          {
+            "en": "We clocked on at eight.",
+            "zh": "我們八時打卡上班。",
+            "highlight": "clocked on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述一段時間內累積的總數",
+        "titleEn": "Describe totals collected over time",
+        "zh": "clock something up 可以描述累積行駛的里數、完成的小時、取得的分數和其他總數。",
+        "en": "Clock something up can describe kilometres travelled, hours completed, points earned and other growing totals.",
+        "examples": [
+          {
+            "en": "Everyone clocked off at six.",
+            "zh": "大家六時打卡下班。",
+            "highlight": "clocked off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解不同生活情境中的 CLOCK 表達",
+        "titleEn": "Understand CLOCK in several real-life situations",
+        "zh": "這些表達常見於工作紀錄、運動、旅程報告和媒體討論。",
+        "en": "These expressions commonly appear in workplace records, sport, travel reports and media discussions.",
+        "examples": [
+          {
+            "en": "The van clocked up 600 kilometres this week.",
+            "zh": "這輛客貨車本星期累積行駛了600公里。",
+            "highlight": "clocked up 600 kilometres"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 CLOCK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CLOCK expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 CLOCK 片語動詞。",
+      "en": "Read the whole sentence and choose the CLOCK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "clock in 或 clock on 表示打卡上班；clock off 或 clock out 表示打卡下班。",
+      "titleEn": "Clock in or clock on means to start work.",
+      "zh": "clock in 或 clock on 表示打卡上班；clock off 或 clock out 表示打卡下班。",
+      "en": "Clock in or clock on means to start work. Clock off or clock out means to finish work."
+    },
+    {
+      "titleZh": "clock in at 45 seconds 表示錄得一次特定成績；clock up 500 kilometres 表示一段時間內累積的總數。",
+      "titleEn": "Clock in at 45 seconds reports one measured result.",
+      "zh": "clock in at 45 seconds 表示錄得一次特定成績；clock up 500 kilometres 表示一段時間內累積的總數。",
+      "en": "Clock in at 45 seconds reports one measured result. Clock up 500 kilometres reports a total collected over time."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CLOCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CLOCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CLOCK 動詞片語句子改寫練習",
+    "titleEn": "CLOCK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CLOCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CLOCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-26-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The fastest swimmer completed the race in 52 seconds.",
+      "promptZh": "最快的泳手以52秒完成賽事。",
+      "starter": "The",
+      "answer": "The fastest swimmer clocked in at 52 seconds.",
+      "answerZh": "最快的泳手錄得52秒的成績。",
+      "highlight": "clocked in at 52 seconds",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "We officially recorded that we started work at seven.",
+      "promptZh": "我們正式記錄了自己在七時開始上班。",
+      "starter": "We",
+      "answer": "We clocked in at seven.",
+      "answerZh": "我們七時打卡上班。",
+      "highlight": "clocked in",
+      "targetForm": "clock in",
+      "targetMeaningZh": "打卡上班"
+    },
+    {
+      "id": "phrasal-verb-26-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Everyone recorded the end of work at six.",
+      "promptZh": "大家在六時記錄下班。",
+      "starter": "Everyone",
+      "answer": "Everyone clocked off at six.",
+      "answerZh": "大家六時打卡下班。",
+      "highlight": "clocked off",
+      "targetForm": "clock off",
+      "targetMeaningZh": "打卡下班"
+    },
+    {
+      "id": "phrasal-verb-26-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The delivery van travelled 480 kilometres today.",
+      "promptZh": "這輛送貨客貨車今天行駛了480公里。",
+      "starter": "The",
+      "answer": "The delivery van clocked up 480 kilometres today.",
+      "answerZh": "這輛送貨客貨車今天累積行駛了480公里。",
+      "highlight": "clocked up 480 kilometres",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The winning runner finished in 3 minutes 42 seconds.",
+      "promptZh": "勝出的跑手以3分42秒完成賽事。",
+      "starter": "The",
+      "answer": "The winning runner clocked in at 3 minutes 42 seconds.",
+      "answerZh": "勝出的跑手錄得3分42秒。",
+      "highlight": "clocked in at 3 minutes 42 seconds",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I recorded that I had finished work before leaving.",
+      "promptZh": "我離開前記錄了自己已經下班。",
+      "starter": "I",
+      "answer": "I clocked out before leaving.",
+      "answerZh": "我離開前打卡下班。",
+      "highlight": "clocked out",
+      "targetForm": "clock out",
+      "targetMeaningZh": "打卡下班"
+    },
+    {
+      "id": "phrasal-verb-26-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Mia recorded Tom as starting work at nine.",
+      "promptZh": "米婭替湯姆記錄在九時開始上班。",
+      "starter": "Mia",
+      "answer": "Mia clocked Tom in at nine.",
+      "answerZh": "米婭替湯姆在九時登記上班。",
+      "highlight": "clocked Tom in",
+      "targetForm": "clock somebody in",
+      "targetMeaningZh": "替某人登記上班"
+    },
+    {
+      "id": "phrasal-verb-26-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Our school team earned 25 points this term.",
+      "promptZh": "我們校隊本學期取得25分。",
+      "starter": "Our",
+      "answer": "Our school team clocked up 25 points this term.",
+      "answerZh": "我們校隊本學期累積取得25分。",
+      "highlight": "clocked up 25 points",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The supervisor recorded the cleaners as finishing work at ten.",
+      "promptZh": "主管替清潔工人記錄在十時下班。",
+      "starter": "The",
+      "answer": "The supervisor clocked the cleaners out at ten.",
+      "answerZh": "主管替清潔工人在十時登記下班。",
+      "highlight": "clocked the cleaners out",
+      "targetForm": "clock somebody out",
+      "targetMeaningZh": "替某人登記下班"
+    },
+    {
+      "id": "phrasal-verb-26-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The short film lasted 18 minutes.",
+      "promptZh": "這部短片長18分鐘。",
+      "starter": "The",
+      "answer": "The short film clocked in at 18 minutes.",
+      "answerZh": "這部短片的片長為18分鐘。",
+      "highlight": "clocked in at 18 minutes",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Leo is recording his start time now.",
+      "promptZh": "里奧現在正在記錄上班時間。",
+      "starter": "Leo",
+      "answer": "Leo is clocking in now.",
+      "answerZh": "里奧現在正在打卡上班。",
+      "highlight": "clocking in",
+      "targetForm": "clock in",
+      "targetMeaningZh": "打卡上班"
+    },
+    {
+      "id": "phrasal-verb-26-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We have just recorded the end of our shift.",
+      "promptZh": "我們剛剛記錄了輪班結束。",
+      "starter": "We",
+      "answer": "We have just clocked off.",
+      "answerZh": "我們剛剛打卡下班。",
+      "highlight": "clocked off",
+      "targetForm": "clock off",
+      "targetMeaningZh": "打卡下班"
+    },
+    {
+      "id": "phrasal-verb-26-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Her best lap was recorded as 61 seconds.",
+      "promptZh": "她最快的一圈錄得61秒。",
+      "starter": "Her",
+      "answer": "Her best lap clocked in at 61 seconds.",
+      "answerZh": "她最快的一圈錄得61秒。",
+      "highlight": "clocked in at 61 seconds",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "By noon, the bus had travelled 300 kilometres.",
+      "promptZh": "到中午時，這輛巴士已行駛了300公里。",
+      "starter": "By",
+      "answer": "By noon, the bus had clocked up 300 kilometres.",
+      "answerZh": "到中午時，這輛巴士已累積行駛了300公里。",
+      "highlight": "clocked up 300 kilometres",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Have the new workers recorded their start time yet?",
+      "promptZh": "新員工已經記錄上班時間了嗎？",
+      "starter": "Have",
+      "answer": "Have the new workers clocked on yet?",
+      "answerZh": "新員工已經打卡上班了嗎？",
+      "highlight": "clocked on",
+      "targetForm": "clock on",
+      "targetMeaningZh": "打卡上班"
+    },
+    {
+      "id": "phrasal-verb-26-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Please record that Nina has finished work before you close the system.",
+      "promptZh": "關閉系統前，請記錄妮娜已經下班。",
+      "starter": "Please",
+      "answer": "Please clock Nina out before you close the system.",
+      "answerZh": "關閉系統前，請替妮娜登記下班。",
+      "highlight": "clock Nina out",
+      "targetForm": "clock somebody out",
+      "targetMeaningZh": "替某人登記下班"
+    },
+    {
+      "id": "phrasal-verb-26-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The final song lasts just under four minutes.",
+      "promptZh": "最後一首歌長度不足四分鐘。",
+      "starter": "The",
+      "answer": "The final song clocks in at just under four minutes.",
+      "answerZh": "最後一首歌的長度不足四分鐘。",
+      "highlight": "clocks in at just under four minutes",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Omar did not record the end of his shift yesterday.",
+      "promptZh": "奧馬昨天沒有記錄自己下班。",
+      "starter": "Omar",
+      "answer": "Omar did not clock out yesterday.",
+      "answerZh": "奧馬昨天沒有打卡下班。",
+      "highlight": "clock out",
+      "targetForm": "clock out",
+      "targetMeaningZh": "打卡下班"
+    },
+    {
+      "id": "phrasal-verb-26-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The cyclist has travelled more than 2,000 kilometres this year.",
+      "promptZh": "這名單車手今年已騎行超過2,000公里。",
+      "starter": "The",
+      "answer": "The cyclist has clocked up more than 2,000 kilometres this year.",
+      "answerZh": "這名單車手今年已累積騎行超過2,000公里。",
+      "highlight": "clocked up more than 2,000 kilometres",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The team leader usually records us as starting work at eight.",
+      "promptZh": "組長通常替我們記錄在八時開始上班。",
+      "starter": "The",
+      "answer": "The team leader usually clocks us in at eight.",
+      "answerZh": "組長通常替我們在八時登記上班。",
+      "highlight": "clocks us in",
+      "targetForm": "clock somebody in",
+      "targetMeaningZh": "替某人登記上班"
+    },
+    {
+      "id": "phrasal-verb-26-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The volunteers worked for 600 hours in total last month.",
+      "promptZh": "義工上月合共服務了600小時。",
+      "starter": "The",
+      "answer": "The volunteers clocked up 600 hours in total last month.",
+      "answerZh": "義工上月合共累積服務了600小時。",
+      "highlight": "clocked up 600 hours",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I forgot to record that Maya had started work, so I did it ten minutes later.",
+      "promptZh": "我忘記替瑪雅記錄上班，所以在十分鐘後才補做。",
+      "starter": "I",
+      "answer": "I forgot to clock Maya in, so I did it ten minutes later.",
+      "answerZh": "我忘記替瑪雅登記上班，所以在十分鐘後才補做。",
+      "highlight": "clock Maya in",
+      "targetForm": "clock somebody in",
+      "targetMeaningZh": "替某人登記上班"
+    },
+    {
+      "id": "phrasal-verb-26-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The system was not working, so the manager recorded us as finishing work by hand.",
+      "promptZh": "系統當時無法運作，所以經理以人手替我們記錄下班。",
+      "starter": "The",
+      "answer": "The system was not working, so the manager clocked us out by hand.",
+      "answerZh": "系統當時無法運作，所以經理以人手替我們登記下班。",
+      "highlight": "clocked us out",
+      "targetForm": "clock somebody out",
+      "targetMeaningZh": "替某人登記下班"
+    },
+    {
+      "id": "phrasal-verb-26-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The new episode lasted 47 minutes, including the ending titles.",
+      "promptZh": "新一集長47分鐘，包括片尾字幕。",
+      "starter": "The",
+      "answer": "The new episode clocked in at 47 minutes, including the ending titles.",
+      "answerZh": "新一集的長度為47分鐘，包括片尾字幕。",
+      "highlight": "clocked in at 47 minutes",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The old car has travelled nearly 160,000 miles since it was made.",
+      "promptZh": "這輛舊車自出廠以來已行駛近160,000英里。",
+      "starter": "The",
+      "answer": "The old car has clocked up nearly 160,000 miles since it was made.",
+      "answerZh": "這輛舊車自出廠以來已累積行駛近160,000英里。",
+      "highlight": "clocked up nearly 160,000 miles",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Please use the staff screen to record me as starting the afternoon shift.",
+      "promptZh": "請使用員工屏幕替我登記開始下午更。",
+      "starter": "Please",
+      "answer": "Please clock me on for the afternoon shift using the staff screen.",
+      "answerZh": "請使用員工屏幕替我登記下午更上班。",
+      "highlight": "clock me on",
+      "targetForm": "clock somebody on",
+      "targetMeaningZh": "替某人登記上班"
+    },
+    {
+      "id": "phrasal-verb-26-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Ken completed the ten-kilometre race in 44 minutes 10 seconds.",
+      "promptZh": "肯以44分10秒完成十公里賽事。",
+      "starter": "Ken",
+      "answer": "Ken clocked in at 44 minutes 10 seconds for the ten-kilometre race.",
+      "answerZh": "肯在十公里賽事錄得44分10秒。",
+      "highlight": "clocked in at 44 minutes 10 seconds",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Sara had already recorded that she had finished work when the phone rang.",
+      "promptZh": "電話響起時，莎拉已經記錄了自己下班。",
+      "starter": "Sara",
+      "answer": "Sara had already clocked off when the phone rang.",
+      "answerZh": "電話響起時，莎拉已經打卡下班。",
+      "highlight": "clocked off",
+      "targetForm": "clock off",
+      "targetMeaningZh": "打卡下班"
+    },
+    {
+      "id": "phrasal-verb-26-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The receptionist recorded all three cooks as starting work before the restaurant opened.",
+      "promptZh": "餐廳開門前，接待員替三名廚師記錄了上班時間。",
+      "starter": "The",
+      "answer": "The receptionist clocked all three cooks in before the restaurant opened.",
+      "answerZh": "餐廳開門前，接待員替三名廚師登記了上班。",
+      "highlight": "clocked all three cooks in",
+      "targetForm": "clock somebody in",
+      "targetMeaningZh": "替某人登記上班"
+    },
+    {
+      "id": "phrasal-verb-26-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After six months, Lina had completed 120 hours of piano practice.",
+      "promptZh": "六個月後，莉娜已完成120小時的鋼琴練習。",
+      "starter": "After",
+      "answer": "After six months, Lina had clocked up 120 hours of piano practice.",
+      "answerZh": "六個月後，莉娜已累積完成120小時的鋼琴練習。",
+      "highlight": "clocked up 120 hours of piano practice",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The worker left at five but forgot to record the end of his shift.",
+      "promptZh": "那名工人在五時離開，但忘記記錄自己下班。",
+      "starter": "The",
+      "answer": "The worker left at five but forgot to clock off.",
+      "answerZh": "那名工人在五時離開，但忘記打卡下班。",
+      "highlight": "clock off",
+      "targetForm": "clock off",
+      "targetMeaningZh": "打卡下班"
+    },
+    {
+      "id": "phrasal-verb-26-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The whole speech lasted 11 minutes, which was shorter than planned.",
+      "promptZh": "整場演講長11分鐘，比原定時間短。",
+      "starter": "The",
+      "answer": "The whole speech clocked in at 11 minutes, which was shorter than planned.",
+      "answerZh": "整場演講長11分鐘，比原定時間短。",
+      "highlight": "clocked in at 11 minutes",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The night guard arrived on time, but the machine did not record his start.",
+      "promptZh": "夜更保安準時到達，但機器沒有記錄他上班。",
+      "starter": "The",
+      "answer": "The night guard arrived on time, but the machine did not clock him in.",
+      "answerZh": "夜更保安準時到達，但機器沒有替他登記上班。",
+      "highlight": "clock him in",
+      "targetForm": "clock somebody in",
+      "targetMeaningZh": "替某人登記上班"
+    },
+    {
+      "id": "phrasal-verb-26-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The hiking group covered 90 kilometres over the long weekend.",
+      "promptZh": "遠足小組在長週末期間走了90公里。",
+      "starter": "The",
+      "answer": "The hiking group clocked up 90 kilometres over the long weekend.",
+      "answerZh": "遠足小組在長週末期間累積走了90公里。",
+      "highlight": "clocked up 90 kilometres over the long weekend",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Has everyone recorded that they have finished work, or is someone still here?",
+      "promptZh": "大家都已經記錄下班了嗎？還是仍有人留在這裏？",
+      "starter": "Has",
+      "answer": "Has everyone clocked out, or is someone still here?",
+      "answerZh": "大家都已經打卡下班了嗎？還是仍有人留在這裏？",
+      "highlight": "clocked out",
+      "targetForm": "clock out",
+      "targetMeaningZh": "打卡下班"
+    },
+    {
+      "id": "phrasal-verb-26-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We do not begin paid work until the supervisor records us as present.",
+      "promptZh": "主管替我們登記上班前，我們不會開始計薪工作。",
+      "starter": "We",
+      "answer": "We do not begin paid work until the supervisor clocks us on.",
+      "answerZh": "主管替我們登記上班前，我們不會開始計薪工作。",
+      "highlight": "clocks us on",
+      "targetForm": "clock somebody on",
+      "targetMeaningZh": "替某人登記上班"
+    },
+    {
+      "id": "phrasal-verb-26-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The fastest child finished the school race in 8 minutes 26 seconds.",
+      "promptZh": "最快的孩子以8分26秒完成學校賽事。",
+      "starter": "The",
+      "answer": "The fastest child clocked in at 8 minutes 26 seconds in the school race.",
+      "answerZh": "最快的孩子在學校賽事錄得8分26秒。",
+      "highlight": "clocked in at 8 minutes 26 seconds",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the shop closed early, the manager recorded every worker’s finishing time at once.",
+      "promptZh": "店舖提早關門時，經理一次過替所有員工記錄下班。",
+      "starter": "When",
+      "answer": "When the shop closed early, the manager clocked every worker out at once.",
+      "answerZh": "店舖提早關門時，經理一次過替所有員工登記下班。",
+      "highlight": "clocked every worker out",
+      "targetForm": "clock somebody out",
+      "targetMeaningZh": "替某人登記下班"
+    },
+    {
+      "id": "phrasal-verb-26-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The player has earned 70 points in only five games.",
+      "promptZh": "這名球員只用了五場比賽便取得70分。",
+      "starter": "The",
+      "answer": "The player has clocked up 70 points in only five games.",
+      "answerZh": "這名球員只用了五場比賽便累積取得70分。",
+      "highlight": "clocked up 70 points",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The nurse used the staff card to record that she had started the night shift.",
+      "promptZh": "護士使用員工卡記錄自己開始夜更。",
+      "starter": "The",
+      "answer": "The nurse clocked on for the night shift with her staff card.",
+      "answerZh": "護士使用員工卡打卡開始夜更。",
+      "highlight": "clocked on",
+      "targetForm": "clock on",
+      "targetMeaningZh": "打卡上班"
+    },
+    {
+      "id": "phrasal-verb-26-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although the route was wet, Eva completed the lap in 59 seconds, her fastest time.",
+      "promptZh": "雖然賽道濕滑，伊娃仍以59秒完成一圈，創下個人最快時間。",
+      "starter": "Although",
+      "answer": "Although the route was wet, Eva clocked in at 59 seconds, her fastest time.",
+      "answerZh": "雖然賽道濕滑，伊娃仍錄得59秒，創下個人最快時間。",
+      "highlight": "clocked in at 59 seconds",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The family has used the same camper van for years and travelled 85,000 kilometres in it.",
+      "promptZh": "這家人多年來一直使用同一輛露營車，並已駕駛它行走85,000公里。",
+      "starter": "The",
+      "answer": "The family has clocked up 85,000 kilometres in the same camper van over the years.",
+      "answerZh": "這家人多年來使用同一輛露營車，累積行駛了85,000公里。",
+      "highlight": "clocked up 85,000 kilometres",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before leaving the hospital office, each assistant must record that the working day has ended.",
+      "promptZh": "離開醫院辦公室前，每名助理都必須記錄自己已經下班。",
+      "starter": "Before",
+      "answer": "Before leaving the hospital office, each assistant must clock out.",
+      "answerZh": "離開醫院辦公室前，每名助理都必須打卡下班。",
+      "highlight": "clock out",
+      "targetForm": "clock out",
+      "targetMeaningZh": "打卡下班"
+    },
+    {
+      "id": "phrasal-verb-26-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The morning team arrived early, and the supervisor recorded all of them as ready to start work.",
+      "promptZh": "早更團隊提早到達，主管替所有人登記上班。",
+      "starter": "The",
+      "answer": "The morning team arrived early, and the supervisor clocked them all in.",
+      "answerZh": "早更團隊提早到達，主管替所有人登記上班。",
+      "highlight": "clocked them all in",
+      "targetForm": "clock somebody in",
+      "targetMeaningZh": "替某人登記上班"
+    },
+    {
+      "id": "phrasal-verb-26-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "By the end of the course, the students will have completed more than 50 hours of speaking practice.",
+      "promptZh": "課程結束時，學生將已完成超過50小時的口語練習。",
+      "starter": "By",
+      "answer": "By the end of the course, the students will have clocked up more than 50 hours of speaking practice.",
+      "answerZh": "課程結束時，學生將已累積完成超過50小時的口語練習。",
+      "highlight": "clocked up more than 50 hours of speaking practice",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The interview was meant to take half an hour, but it lasted 42 minutes.",
+      "promptZh": "這次訪問原定需時半小時，但最後長達42分鐘。",
+      "starter": "The",
+      "answer": "The interview was meant to take half an hour, but it clocked in at 42 minutes.",
+      "answerZh": "這次訪問原定需時半小時，但最後長達42分鐘。",
+      "highlight": "clocked in at 42 minutes",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    },
+    {
+      "id": "phrasal-verb-26-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The café was quiet, so the owner recorded the staff as finishing work fifteen minutes early.",
+      "promptZh": "咖啡店生意清淡，所以店主替員工提早十五分鐘登記下班。",
+      "starter": "The",
+      "answer": "The café was quiet, so the owner clocked the staff off fifteen minutes early.",
+      "answerZh": "咖啡店生意清淡，所以店主替員工提早十五分鐘登記下班。",
+      "highlight": "clocked the staff off",
+      "targetForm": "clock somebody off",
+      "targetMeaningZh": "替某人登記下班"
+    },
+    {
+      "id": "phrasal-verb-26-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "With three matches left, the team has already earned 62 points this season.",
+      "promptZh": "在尚餘三場比賽的情況下，球隊本季已取得62分。",
+      "starter": "With",
+      "answer": "With three matches left, the team has already clocked up 62 points this season.",
+      "answerZh": "在尚餘三場比賽的情況下，球隊本季已累積取得62分。",
+      "highlight": "clocked up 62 points",
+      "targetForm": "clock something up",
+      "targetMeaningZh": "累積里數、時間、分數或其他總數"
+    },
+    {
+      "id": "phrasal-verb-26-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The computer failed just as the evening workers were trying to record the start of their shift.",
+      "promptZh": "晚更員工正嘗試記錄上班時，電腦剛好發生故障。",
+      "starter": "The",
+      "answer": "The computer failed just as the evening workers were trying to clock on.",
+      "answerZh": "晚更員工正嘗試打卡上班時，電腦剛好發生故障。",
+      "highlight": "clock on",
+      "targetForm": "clock on",
+      "targetMeaningZh": "打卡上班"
+    },
+    {
+      "id": "phrasal-verb-26-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The new training video was expected to be short, but it lasted almost 25 minutes.",
+      "promptZh": "新的訓練影片原本預計很短，但最後長達接近25分鐘。",
+      "starter": "The",
+      "answer": "The new training video was expected to be short, but it clocked in at almost 25 minutes.",
+      "answerZh": "新的訓練影片原本預計很短，但最後長達接近25分鐘。",
+      "highlight": "clocked in at almost 25 minutes",
+      "targetForm": "clock in at something",
+      "targetMeaningZh": "錄得某個時間、成績或時長"
+    }
+  ]
+}

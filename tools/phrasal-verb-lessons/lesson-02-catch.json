@@ -1,0 +1,1868 @@
+{
+  "id": "phrasal-verb-02",
+  "order": 2,
+  "slug": "catch",
+  "version": "1",
+  "title": "CATCH 動詞片語",
+  "titleEn": "Catch",
+  "titleZh": "CATCH 動詞片語",
+  "level": "",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verb 2 - Catch.pdf",
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CATCH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CATCH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CATCH",
+      "highlight": "CATCH"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The child caught at my sleeve as I walked past.",
+      "zh": "我走過時，那個孩子伸手抓住我的衣袖。",
+      "highlight": "caught at"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The new dance caught on quickly.",
+      "zh": "這種新舞蹈很快便流行起來。",
+      "highlight": "caught on"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Mia caught on to the rules after one example.",
+      "zh": "米婭看過一個例子後便明白了規則。",
+      "highlight": "caught on to"
+    }
+  ],
+  "meaning": {
+    "zh": "伸手抓住或碰着正在移動或經過的人或物；開始流行；受到歡迎；明白；領會；使某人措手不及或陷入困難；揭穿某人；誘使某人出錯；告訴某人最新情況；讓某人了解事情的進展；加快速度追上前面的人或事物；趕上某人或某事物的程度、質素或水平；補做之前未完成或未有時間做的事情；了解或談論最近發生的事情；過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人。",
+    "en": "Learn and practise the phrasal verbs related to CATCH.",
+    "naturalZh": [
+      "伸手抓住或碰着正在移動或經過的人或物",
+      "開始流行；受到歡迎",
+      "明白；領會",
+      "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+      "告訴某人最新情況；讓某人了解事情的進展",
+      "加快速度追上前面的人或事物",
+      "趕上某人或某事物的程度、質素或水平",
+      "補做之前未完成或未有時間做的事情",
+      "了解或談論最近發生的事情",
+      "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "catch at somebody/something",
+      "highlight": "catch at somebody/something",
+      "titleZh": "伸手抓住或碰着正在移動或經過的人或物",
+      "titleEn": "catch at somebody/something",
+      "descriptionZh": "伸手抓住或碰着正在移動或經過的人或物",
+      "descriptionEn": "The child caught at my sleeve as I walked past.",
+      "examples": [
+        {
+          "en": "The child caught at my sleeve as I walked past.",
+          "zh": "我走過時，那個孩子伸手抓住我的衣袖。",
+          "highlight": "caught at"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "catch on",
+      "highlight": "catch on",
+      "titleZh": "開始流行；受到歡迎",
+      "titleEn": "catch on",
+      "descriptionZh": "開始流行；受到歡迎",
+      "descriptionEn": "The new dance caught on quickly.",
+      "examples": [
+        {
+          "en": "The new dance caught on quickly.",
+          "zh": "這種新舞蹈很快便流行起來。",
+          "highlight": "caught on"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "catch on / catch on to something",
+      "highlight": "catch on / catch on to something",
+      "titleZh": "明白；領會",
+      "titleEn": "catch on / catch on to something",
+      "descriptionZh": "明白；領會",
+      "descriptionEn": "Mia caught on to the rules after one example.",
+      "examples": [
+        {
+          "en": "Mia caught on to the rules after one example.",
+          "zh": "米婭看過一個例子後便明白了規則。",
+          "highlight": "caught on to"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "catch somebody out",
+      "highlight": "catch somebody out",
+      "titleZh": "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+      "titleEn": "catch somebody out",
+      "descriptionZh": "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+      "descriptionEn": "The sudden question caught him out.",
+      "examples": [
+        {
+          "en": "The sudden question caught him out.",
+          "zh": "那條突然提出的問題令他措手不及。",
+          "highlight": "caught him out"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "pageGroup": 1,
+      "formula": "catch somebody up on something",
+      "highlight": "catch somebody up on something",
+      "titleZh": "告訴某人最新情況；讓某人了解事情的進展",
+      "titleEn": "catch somebody up on something",
+      "descriptionZh": "告訴某人最新情況；讓某人了解事情的進展",
+      "descriptionEn": "I caught Leo up on the class news.",
+      "examples": [
+        {
+          "en": "I caught Leo up on the class news.",
+          "zh": "我告訴里奧班上的最新消息。",
+          "highlight": "caught Leo up on"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "catch up with somebody/something catch somebody/something up",
+      "highlight": "catch up with somebody/something catch somebody/something up",
+      "titleZh": "加快速度追上前面的人或事物",
+      "titleEn": "catch up with somebody/something catch somebody/something up",
+      "descriptionZh": "加快速度追上前面的人或事物",
+      "descriptionEn": "I ran faster and caught up with Eva.",
+      "examples": [
+        {
+          "en": "I ran faster and caught up with Eva.",
+          "zh": "我跑得更快，追上了伊娃。",
+          "highlight": "caught up with"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "pageGroup": 2,
+      "formula": "catch up with somebody/something catch somebody/something up",
+      "highlight": "catch up with somebody/something catch somebody/something up",
+      "titleZh": "趕上某人或某事物的程度、質素或水平",
+      "titleEn": "catch up with somebody/something catch somebody/something up",
+      "descriptionZh": "趕上某人或某事物的程度、質素或水平",
+      "descriptionEn": "Nia worked hard to catch up with her class.",
+      "examples": [
+        {
+          "en": "Nia worked hard to catch up with her class.",
+          "zh": "妮亞努力學習，以趕上全班的水平。",
+          "highlight": "catch up with"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "pageGroup": 2,
+      "formula": "catch up on/with something",
+      "highlight": "catch up on/with something",
+      "titleZh": "補做之前未完成或未有時間做的事情",
+      "titleEn": "catch up on/with something",
+      "descriptionZh": "補做之前未完成或未有時間做的事情",
+      "descriptionEn": "I stayed home to catch up on my homework.",
+      "examples": [
+        {
+          "en": "I stayed home to catch up on my homework.",
+          "zh": "我留在家中補做功課。",
+          "highlight": "catch up on"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 9,
+      "pageGroup": 2,
+      "formula": "catch up catch up on something catch up with something",
+      "highlight": "catch up catch up on something catch up with something",
+      "titleZh": "了解或談論最近發生的事情",
+      "titleEn": "catch up catch up on something catch up with something",
+      "descriptionZh": "了解或談論最近發生的事情",
+      "descriptionEn": "We met to catch up on each other’s news.",
+      "examples": [
+        {
+          "en": "We met to catch up on each other’s news.",
+          "zh": "我們見面了解並談論彼此的近況。",
+          "highlight": "catch up"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 10,
+      "pageGroup": 2,
+      "formula": "catch up with somebody",
+      "highlight": "catch up with somebody",
+      "titleZh": "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人",
+      "titleEn": "catch up with somebody",
+      "descriptionZh": "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人",
+      "descriptionEn": "Too little sleep soon caught up with him.",
+      "examples": [
+        {
+          "en": "Too little sleep soon caught up with him.",
+          "zh": "睡眠不足很快便開始對他造成影響。",
+          "highlight": "caught up with"
+        }
+      ],
+      "sourcePage": 2
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 CATCH 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to CATCH.",
+    "contextsZh": [
+      "伸手抓住或碰着正在移動或經過的人或物",
+      "開始流行；受到歡迎",
+      "明白；領會",
+      "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+      "告訴某人最新情況；讓某人了解事情的進展",
+      "加快速度追上前面的人或事物",
+      "趕上某人或某事物的程度、質素或水平",
+      "補做之前未完成或未有時間做的事情",
+      "了解或談論最近發生的事情",
+      "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人"
+    ],
+    "contextsEn": [
+      "catch at somebody/something",
+      "catch on",
+      "catch on / catch on to something",
+      "catch somebody out",
+      "catch somebody up on something",
+      "catch up with somebody/something catch somebody/something up",
+      "catch up with somebody/something catch somebody/something up",
+      "catch up on/with something",
+      "catch up catch up on something catch up with something",
+      "catch up with somebody"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 CATCH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CATCH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "CATCH",
+    "fixedHighlight": "CATCH",
+    "fixedZh": "閱讀整句，選出意思相同的 CATCH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CATCH expression that gives the same meaning.",
+    "correct": "catch at somebody/something",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 him、her、it 或 them 時，請按照以上例子放在正確位置。 catch up with somebody 可以表達不同意思，包括追上某人、趕上某人的水平，或表示較早前的問題終於帶來後果。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in these expressions, place the word as shown: Catch up with somebody can express different ideas. It may mean physically reaching someone, reaching the same level, or being affected by an earlier problem. Read the full situation carefully.",
+    "variableItemsZh": [
+      "伸手抓住或碰着正在移動或經過的人或物",
+      "開始流行；受到歡迎",
+      "明白；領會",
+      "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+      "告訴某人最新情況；讓某人了解事情的進展",
+      "加快速度追上前面的人或事物",
+      "趕上某人或某事物的程度、質素或水平",
+      "補做之前未完成或未有時間做的事情",
+      "了解或談論最近發生的事情",
+      "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人"
+    ],
+    "variableItemsEn": [
+      "catch at somebody/something",
+      "catch on",
+      "catch on / catch on to something",
+      "catch somebody out",
+      "catch somebody up on something",
+      "catch up with somebody/something catch somebody/something up",
+      "catch up with somebody/something catch somebody/something up",
+      "catch up on/with something",
+      "catch up catch up on something catch up with something",
+      "catch up with somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "伸手抓住或碰着正在移動或經過的人或物",
+        "formEn": "catch at somebody/something",
+        "exampleZh": "我走過時，那個孩子伸手抓住我的衣袖。",
+        "exampleEn": "The child caught at my sleeve as I walked past.",
+        "highlight": "caught at"
+      },
+      {
+        "formZh": "開始流行；受到歡迎",
+        "formEn": "catch on",
+        "exampleZh": "這種新舞蹈很快便流行起來。",
+        "exampleEn": "The new dance caught on quickly.",
+        "highlight": "caught on"
+      },
+      {
+        "formZh": "明白；領會",
+        "formEn": "catch on / catch on to something",
+        "exampleZh": "米婭看過一個例子後便明白了規則。",
+        "exampleEn": "Mia caught on to the rules after one example.",
+        "highlight": "caught on to"
+      },
+      {
+        "formZh": "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+        "formEn": "catch somebody out",
+        "exampleZh": "那條突然提出的問題令他措手不及。",
+        "exampleEn": "The sudden question caught him out.",
+        "highlight": "caught him out"
+      },
+      {
+        "formZh": "告訴某人最新情況；讓某人了解事情的進展",
+        "formEn": "catch somebody up on something",
+        "exampleZh": "我告訴里奧班上的最新消息。",
+        "exampleEn": "I caught Leo up on the class news.",
+        "highlight": "caught Leo up on"
+      },
+      {
+        "formZh": "加快速度追上前面的人或事物",
+        "formEn": "catch up with somebody/something catch somebody/something up",
+        "exampleZh": "我跑得更快，追上了伊娃。",
+        "exampleEn": "I ran faster and caught up with Eva.",
+        "highlight": "caught up with"
+      },
+      {
+        "formZh": "趕上某人或某事物的程度、質素或水平",
+        "formEn": "catch up with somebody/something catch somebody/something up",
+        "exampleZh": "妮亞努力學習，以趕上全班的水平。",
+        "exampleEn": "Nia worked hard to catch up with her class.",
+        "highlight": "catch up with"
+      },
+      {
+        "formZh": "補做之前未完成或未有時間做的事情",
+        "formEn": "catch up on/with something",
+        "exampleZh": "我留在家中補做功課。",
+        "exampleEn": "I stayed home to catch up on my homework.",
+        "highlight": "catch up on"
+      },
+      {
+        "formZh": "了解或談論最近發生的事情",
+        "formEn": "catch up catch up on something catch up with something",
+        "exampleZh": "我們見面了解並談論彼此的近況。",
+        "exampleEn": "We met to catch up on each other’s news.",
+        "highlight": "catch up"
+      },
+      {
+        "formZh": "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人",
+        "formEn": "catch up with somebody",
+        "exampleZh": "睡眠不足很快便開始對他造成影響。",
+        "exampleEn": "Too little sleep soon caught up with him.",
+        "highlight": "caught up with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "伸手抓住或碰着正在移動或經過的人或物",
+      "titleEn": "catch at somebody/something",
+      "formula": "catch at somebody/something",
+      "highlight": "catch at somebody/something",
+      "descriptionZh": "伸手抓住或碰着正在移動或經過的人或物",
+      "descriptionEn": "The child caught at my sleeve as I walked past.",
+      "examples": [
+        {
+          "en": "The child caught at my sleeve as I walked past.",
+          "zh": "我走過時，那個孩子伸手抓住我的衣袖。",
+          "highlight": "caught at"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "開始流行；受到歡迎",
+      "titleEn": "catch on",
+      "formula": "catch on",
+      "highlight": "catch on",
+      "descriptionZh": "開始流行；受到歡迎",
+      "descriptionEn": "The new dance caught on quickly.",
+      "examples": [
+        {
+          "en": "The new dance caught on quickly.",
+          "zh": "這種新舞蹈很快便流行起來。",
+          "highlight": "caught on"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "明白；領會",
+      "titleEn": "catch on / catch on to something",
+      "formula": "catch on / catch on to something",
+      "highlight": "catch on / catch on to something",
+      "descriptionZh": "明白；領會",
+      "descriptionEn": "Mia caught on to the rules after one example.",
+      "examples": [
+        {
+          "en": "Mia caught on to the rules after one example.",
+          "zh": "米婭看過一個例子後便明白了規則。",
+          "highlight": "caught on to"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+      "titleEn": "catch somebody out",
+      "formula": "catch somebody out",
+      "highlight": "catch somebody out",
+      "descriptionZh": "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+      "descriptionEn": "The sudden question caught him out.",
+      "examples": [
+        {
+          "en": "The sudden question caught him out.",
+          "zh": "那條突然提出的問題令他措手不及。",
+          "highlight": "caught him out"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "titleZh": "告訴某人最新情況；讓某人了解事情的進展",
+      "titleEn": "catch somebody up on something",
+      "formula": "catch somebody up on something",
+      "highlight": "catch somebody up on something",
+      "descriptionZh": "告訴某人最新情況；讓某人了解事情的進展",
+      "descriptionEn": "I caught Leo up on the class news.",
+      "examples": [
+        {
+          "en": "I caught Leo up on the class news.",
+          "zh": "我告訴里奧班上的最新消息。",
+          "highlight": "caught Leo up on"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "titleZh": "加快速度追上前面的人或事物",
+      "titleEn": "catch up with somebody/something catch somebody/something up",
+      "formula": "catch up with somebody/something catch somebody/something up",
+      "highlight": "catch up with somebody/something catch somebody/something up",
+      "descriptionZh": "加快速度追上前面的人或事物",
+      "descriptionEn": "I ran faster and caught up with Eva.",
+      "examples": [
+        {
+          "en": "I ran faster and caught up with Eva.",
+          "zh": "我跑得更快，追上了伊娃。",
+          "highlight": "caught up with"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "titleZh": "趕上某人或某事物的程度、質素或水平",
+      "titleEn": "catch up with somebody/something catch somebody/something up",
+      "formula": "catch up with somebody/something catch somebody/something up",
+      "highlight": "catch up with somebody/something catch somebody/something up",
+      "descriptionZh": "趕上某人或某事物的程度、質素或水平",
+      "descriptionEn": "Nia worked hard to catch up with her class.",
+      "examples": [
+        {
+          "en": "Nia worked hard to catch up with her class.",
+          "zh": "妮亞努力學習，以趕上全班的水平。",
+          "highlight": "catch up with"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "titleZh": "補做之前未完成或未有時間做的事情",
+      "titleEn": "catch up on/with something",
+      "formula": "catch up on/with something",
+      "highlight": "catch up on/with something",
+      "descriptionZh": "補做之前未完成或未有時間做的事情",
+      "descriptionEn": "I stayed home to catch up on my homework.",
+      "examples": [
+        {
+          "en": "I stayed home to catch up on my homework.",
+          "zh": "我留在家中補做功課。",
+          "highlight": "catch up on"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 9,
+      "titleZh": "了解或談論最近發生的事情",
+      "titleEn": "catch up catch up on something catch up with something",
+      "formula": "catch up catch up on something catch up with something",
+      "highlight": "catch up catch up on something catch up with something",
+      "descriptionZh": "了解或談論最近發生的事情",
+      "descriptionEn": "We met to catch up on each other’s news.",
+      "examples": [
+        {
+          "en": "We met to catch up on each other’s news.",
+          "zh": "我們見面了解並談論彼此的近況。",
+          "highlight": "catch up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 10,
+      "titleZh": "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人",
+      "titleEn": "catch up with somebody",
+      "formula": "catch up with somebody",
+      "highlight": "catch up with somebody",
+      "descriptionZh": "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人",
+      "descriptionEn": "Too little sleep soon caught up with him.",
+      "examples": [
+        {
+          "en": "Too little sleep soon caught up with him.",
+          "zh": "睡眠不足很快便開始對他造成影響。",
+          "highlight": "caught up with"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "使用 CATCH 談論理解和潮流",
+      "titleEn": "Use CATCH to talk about ideas and trends",
+      "zh": "catch on 可以表示某人明白一件事，也可以表示一個新構思開始流行。",
+      "en": "Catch on can show that a person understands something or that a new idea becomes popular.",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "清楚談論距離和進度",
+      "titleEn": "Talk clearly about distance and progress",
+      "zh": "catch up 可以表示追上前面的人，也可以表示趕上其他人的水平。",
+      "en": "Catch up can show someone reaching a person ahead or reaching the same level as other people.",
+      "sourcePage": 3
+    },
+    {
+      "number": 3,
+      "titleZh": "談論未完成的事情和錯過的消息",
+      "titleEn": "Talk about missed work and missing information",
+      "zh": "你可以 catch up on 未完成的工作，也可以 catch somebody up on 某人錯過的消息。",
+      "en": "You can catch up on unfinished work or catch somebody up on news they have missed.",
+      "sourcePage": 3
+    },
+    {
+      "number": 4,
+      "titleZh": "描述意外、錯誤和後來出現的後果",
+      "titleEn": "Describe surprises, mistakes and later consequences",
+      "zh": "catch somebody out 可以描述令人措手不及的困難或揭穿錯誤；catch up with somebody 則可以表示較早前的問題終於帶來影響。",
+      "en": "Catch somebody out can describe an unexpected difficulty or reveal a mistake. Catch up with somebody can show that an earlier problem is finally having an effect.",
+      "sourcePage": 3
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "伸手抓住或碰着正在移動或經過的人或物",
+      "開始流行；受到歡迎",
+      "明白；領會",
+      "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+      "告訴某人最新情況；讓某人了解事情的進展",
+      "加快速度追上前面的人或事物",
+      "趕上某人或某事物的程度、質素或水平",
+      "補做之前未完成或未有時間做的事情",
+      "了解或談論最近發生的事情",
+      "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人"
+    ],
+    "contextsEn": [
+      "catch at somebody/something",
+      "catch on",
+      "catch on / catch on to something",
+      "catch somebody out",
+      "catch somebody up on something",
+      "catch up with somebody/something catch somebody/something up",
+      "catch up with somebody/something catch somebody/something up",
+      "catch up on/with something",
+      "catch up catch up on something catch up with something",
+      "catch up with somebody"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "伸手抓住或碰着正在移動或經過的人或物",
+        "titleEn": "catch at somebody/something",
+        "formula": "catch at somebody/something",
+        "highlight": "catch at somebody/something",
+        "zh": "伸手抓住或碰着正在移動或經過的人或物",
+        "en": "The child caught at my sleeve as I walked past.",
+        "examples": [
+          {
+            "en": "The child caught at my sleeve as I walked past.",
+            "zh": "我走過時，那個孩子伸手抓住我的衣袖。",
+            "highlight": "caught at"
+          }
+        ]
+      },
+      {
+        "titleZh": "開始流行；受到歡迎",
+        "titleEn": "catch on",
+        "formula": "catch on",
+        "highlight": "catch on",
+        "zh": "開始流行；受到歡迎",
+        "en": "The new dance caught on quickly.",
+        "examples": [
+          {
+            "en": "The new dance caught on quickly.",
+            "zh": "這種新舞蹈很快便流行起來。",
+            "highlight": "caught on"
+          }
+        ]
+      },
+      {
+        "titleZh": "明白；領會",
+        "titleEn": "catch on / catch on to something",
+        "formula": "catch on / catch on to something",
+        "highlight": "catch on / catch on to something",
+        "zh": "明白；領會",
+        "en": "Mia caught on to the rules after one example.",
+        "examples": [
+          {
+            "en": "Mia caught on to the rules after one example.",
+            "zh": "米婭看過一個例子後便明白了規則。",
+            "highlight": "caught on to"
+          }
+        ]
+      },
+      {
+        "titleZh": "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+        "titleEn": "catch somebody out",
+        "formula": "catch somebody out",
+        "highlight": "catch somebody out",
+        "zh": "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+        "en": "The sudden question caught him out.",
+        "examples": [
+          {
+            "en": "The sudden question caught him out.",
+            "zh": "那條突然提出的問題令他措手不及。",
+            "highlight": "caught him out"
+          }
+        ]
+      },
+      {
+        "titleZh": "告訴某人最新情況；讓某人了解事情的進展",
+        "titleEn": "catch somebody up on something",
+        "formula": "catch somebody up on something",
+        "highlight": "catch somebody up on something",
+        "zh": "告訴某人最新情況；讓某人了解事情的進展",
+        "en": "I caught Leo up on the class news.",
+        "examples": [
+          {
+            "en": "I caught Leo up on the class news.",
+            "zh": "我告訴里奧班上的最新消息。",
+            "highlight": "caught Leo up on"
+          }
+        ]
+      },
+      {
+        "titleZh": "加快速度追上前面的人或事物",
+        "titleEn": "catch up with somebody/something catch somebody/something up",
+        "formula": "catch up with somebody/something catch somebody/something up",
+        "highlight": "catch up with somebody/something catch somebody/something up",
+        "zh": "加快速度追上前面的人或事物",
+        "en": "I ran faster and caught up with Eva.",
+        "examples": [
+          {
+            "en": "I ran faster and caught up with Eva.",
+            "zh": "我跑得更快，追上了伊娃。",
+            "highlight": "caught up with"
+          }
+        ]
+      },
+      {
+        "titleZh": "趕上某人或某事物的程度、質素或水平",
+        "titleEn": "catch up with somebody/something catch somebody/something up",
+        "formula": "catch up with somebody/something catch somebody/something up",
+        "highlight": "catch up with somebody/something catch somebody/something up",
+        "zh": "趕上某人或某事物的程度、質素或水平",
+        "en": "Nia worked hard to catch up with her class.",
+        "examples": [
+          {
+            "en": "Nia worked hard to catch up with her class.",
+            "zh": "妮亞努力學習，以趕上全班的水平。",
+            "highlight": "catch up with"
+          }
+        ]
+      },
+      {
+        "titleZh": "補做之前未完成或未有時間做的事情",
+        "titleEn": "catch up on/with something",
+        "formula": "catch up on/with something",
+        "highlight": "catch up on/with something",
+        "zh": "補做之前未完成或未有時間做的事情",
+        "en": "I stayed home to catch up on my homework.",
+        "examples": [
+          {
+            "en": "I stayed home to catch up on my homework.",
+            "zh": "我留在家中補做功課。",
+            "highlight": "catch up on"
+          }
+        ]
+      },
+      {
+        "titleZh": "了解或談論最近發生的事情",
+        "titleEn": "catch up catch up on something catch up with something",
+        "formula": "catch up catch up on something catch up with something",
+        "highlight": "catch up catch up on something catch up with something",
+        "zh": "了解或談論最近發生的事情",
+        "en": "We met to catch up on each other’s news.",
+        "examples": [
+          {
+            "en": "We met to catch up on each other’s news.",
+            "zh": "我們見面了解並談論彼此的近況。",
+            "highlight": "catch up"
+          }
+        ]
+      },
+      {
+        "titleZh": "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人",
+        "titleEn": "catch up with somebody",
+        "formula": "catch up with somebody",
+        "highlight": "catch up with somebody",
+        "zh": "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人",
+        "en": "Too little sleep soon caught up with him.",
+        "examples": [
+          {
+            "en": "Too little sleep soon caught up with him.",
+            "zh": "睡眠不足很快便開始對他造成影響。",
+            "highlight": "caught up with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 CATCH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CATCH expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 CATCH 片語動詞。",
+      "en": "Read the whole sentence and choose the CATCH expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them in these expressions, place the word as shown:",
+      "zh": "使用 him、her、it 或 them 時，請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them in these expressions, place the word as shown:",
+      "examplesEn": [
+        "catch him out",
+        "catch her up on the news",
+        "catch them up"
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "catch up with somebody 可以表達不同意思，包括追上某人、趕上某人的水平，或表示較早前的問題終於帶來後果。請仔細閱讀整個情境。",
+      "titleEn": "Catch up with somebody can express different ideas. It may mean physically reaching someone, reaching the same level, or being affected by an earlier problem. Read the full situation carefully.",
+      "zh": "catch up with somebody 可以表達不同意思，包括追上某人、趕上某人的水平，或表示較早前的問題終於帶來後果。請仔細閱讀整個情境。",
+      "en": "Catch up with somebody can express different ideas. It may mean physically reaching someone, reaching the same level, or being affected by an earlier problem. Read the full situation carefully.",
+      "examplesEn": [],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "catch at somebody/something",
+      "meaningZh": "伸手抓住或碰着正在移動或經過的人或物",
+      "exampleEn": "The child caught at my sleeve as I walked past.",
+      "exampleZh": "我走過時，那個孩子伸手抓住我的衣袖。",
+      "highlight": "caught at",
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "formula": "catch on",
+      "meaningZh": "開始流行；受到歡迎",
+      "exampleEn": "The new dance caught on quickly.",
+      "exampleZh": "這種新舞蹈很快便流行起來。",
+      "highlight": "caught on",
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "formula": "catch on / catch on to something",
+      "meaningZh": "明白；領會",
+      "exampleEn": "Mia caught on to the rules after one example.",
+      "exampleZh": "米婭看過一個例子後便明白了規則。",
+      "highlight": "caught on to",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "formula": "catch somebody out",
+      "meaningZh": "使某人措手不及或陷入困難；揭穿某人；誘使某人出錯",
+      "exampleEn": "The sudden question caught him out.",
+      "exampleZh": "那條突然提出的問題令他措手不及。",
+      "highlight": "caught him out",
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "formula": "catch somebody up on something",
+      "meaningZh": "告訴某人最新情況；讓某人了解事情的進展",
+      "exampleEn": "I caught Leo up on the class news.",
+      "exampleZh": "我告訴里奧班上的最新消息。",
+      "highlight": "caught Leo up on",
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "formula": "catch up with somebody/something catch somebody/something up",
+      "meaningZh": "加快速度追上前面的人或事物",
+      "exampleEn": "I ran faster and caught up with Eva.",
+      "exampleZh": "我跑得更快，追上了伊娃。",
+      "highlight": "caught up with",
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "formula": "catch up with somebody/something catch somebody/something up",
+      "meaningZh": "趕上某人或某事物的程度、質素或水平",
+      "exampleEn": "Nia worked hard to catch up with her class.",
+      "exampleZh": "妮亞努力學習，以趕上全班的水平。",
+      "highlight": "catch up with",
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "formula": "catch up on/with something",
+      "meaningZh": "補做之前未完成或未有時間做的事情",
+      "exampleEn": "I stayed home to catch up on my homework.",
+      "exampleZh": "我留在家中補做功課。",
+      "highlight": "catch up on",
+      "sourcePage": 2
+    },
+    {
+      "number": 9,
+      "formula": "catch up catch up on something catch up with something",
+      "meaningZh": "了解或談論最近發生的事情",
+      "exampleEn": "We met to catch up on each other’s news.",
+      "exampleZh": "我們見面了解並談論彼此的近況。",
+      "highlight": "catch up",
+      "sourcePage": 2
+    },
+    {
+      "number": 10,
+      "formula": "catch up with somebody",
+      "meaningZh": "過去的問題、壓力或錯誤終於開始帶來後果；警方或法律最終找到並懲罰某人",
+      "exampleEn": "Too little sleep soon caught up with him.",
+      "exampleZh": "睡眠不足很快便開始對他造成影響。",
+      "highlight": "caught up with",
+      "sourcePage": 2
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CATCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CATCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CATCH 動詞片語句子改寫練習",
+    "titleEn": "CATCH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CATCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CATCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-02-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "The new card game became popular very quickly at school.",
+      "promptZh": "這款新紙牌遊戲很快便在學校流行起來。",
+      "starter": "The",
+      "answer": "The new card game caught on very quickly at school.",
+      "answerZh": "這款新紙牌遊戲很快便在學校流行起來。",
+      "targetForm": "catch on",
+      "targetMeaningZh": "開始流行；受到歡迎",
+      "highlight": "caught on"
+    },
+    {
+      "id": "phrasal-verb-02-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "I walked faster and reached Ben before he entered the station.",
+      "promptZh": "我加快腳步，在賓進入車站前追上了他。",
+      "starter": "I",
+      "answer": "I walked faster and caught up with Ben before he entered the station.",
+      "answerZh": "我加快腳步，在賓進入車站前追上了他。",
+      "targetForm": "catch up with somebody",
+      "targetMeaningZh": "加快速度追上前面的人",
+      "highlight": "caught up with"
+    },
+    {
+      "id": "phrasal-verb-02-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "Please tell Nina what happened in this morning’s meeting.",
+      "promptZh": "請告訴妮娜今早會議發生了甚麼事。",
+      "starter": "Please",
+      "answer": "Please catch Nina up on what happened in this morning’s meeting.",
+      "answerZh": "請告訴妮娜今早會議發生了甚麼事。",
+      "targetForm": "catch somebody up on something",
+      "targetMeaningZh": "告訴某人最新情況",
+      "highlight": "catch Nina up on"
+    },
+    {
+      "id": "phrasal-verb-02-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 13,
+      "prompt": "The baby reached for the bright ribbon as it moved past.",
+      "promptZh": "那條鮮色絲帶移過時，嬰兒伸手去抓它。",
+      "starter": "The",
+      "answer": "The baby caught at the bright ribbon as it moved past.",
+      "answerZh": "那條鮮色絲帶移過時，嬰兒伸手去抓它。",
+      "targetForm": "catch at something",
+      "targetMeaningZh": "伸手抓住或碰着經過的東西",
+      "highlight": "caught at"
+    },
+    {
+      "id": "phrasal-verb-02-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "I need to deal with the emails I could not answer yesterday.",
+      "promptZh": "我需要處理昨天未能回覆的電郵。",
+      "starter": "I",
+      "answer": "I need to catch up on the emails I could not answer yesterday.",
+      "answerZh": "我需要補回昨天未能回覆的電郵。",
+      "targetForm": "catch up on something",
+      "targetMeaningZh": "補做之前未完成的事情",
+      "highlight": "catch up on"
+    },
+    {
+      "id": "phrasal-verb-02-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "At last, Omar understood the rules of the new game.",
+      "promptZh": "奧馬終於明白這款新遊戲的規則。",
+      "starter": "At",
+      "answer": "At last, Omar caught on to the rules of the new game.",
+      "answerZh": "奧馬終於明白這款新遊戲的規則。",
+      "targetForm": "catch on to something",
+      "targetMeaningZh": "明白；領會",
+      "highlight": "caught on to"
+    },
+    {
+      "id": "phrasal-verb-02-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Weeks of little sleep finally began to cause problems for Maya.",
+      "promptZh": "連續多星期睡眠不足，終於開始令瑪雅出現問題。",
+      "starter": "Weeks",
+      "answer": "Weeks of little sleep finally began to catch up with Maya.",
+      "answerZh": "連續多星期睡眠不足，終於開始影響瑪雅。",
+      "targetForm": "catch up with somebody",
+      "targetMeaningZh": "過去的問題終於開始帶來後果",
+      "highlight": "catch up with"
+    },
+    {
+      "id": "phrasal-verb-02-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "After extra practice, Leo reached the same level as the other swimmers.",
+      "promptZh": "經過額外練習後，里奧達到了其他泳手的水平。",
+      "starter": "After",
+      "answer": "After extra practice, Leo caught up with the other swimmers.",
+      "answerZh": "經過額外練習後，里奧趕上了其他泳手的水平。",
+      "targetForm": "catch up with somebody/something",
+      "targetMeaningZh": "趕上某人的程度或水平",
+      "highlight": "caught up with"
+    },
+    {
+      "id": "phrasal-verb-02-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The sudden rain surprised us and left us without dry clothes.",
+      "promptZh": "突如其來的大雨令我們措手不及，也令我們沒有乾衣服可換。",
+      "starter": "The",
+      "answer": "The sudden rain caught us out and left us without dry clothes.",
+      "answerZh": "突如其來的大雨令我們措手不及，也令我們沒有乾衣服可換。",
+      "targetForm": "catch somebody out",
+      "targetMeaningZh": "使某人措手不及或陷入困難",
+      "highlight": "caught us out"
+    },
+    {
+      "id": "phrasal-verb-02-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 14,
+      "prompt": "We met after class to talk about everything that had happened.",
+      "promptZh": "我們放學後見面，談論最近發生的一切。",
+      "starter": "We",
+      "answer": "We met after class to catch up on everything that had happened.",
+      "answerZh": "我們放學後見面，了解並談論最近發生的一切。",
+      "targetForm": "catch up on something",
+      "targetMeaningZh": "了解或談論最近發生的事情",
+      "highlight": "catch up on"
+    },
+    {
+      "id": "phrasal-verb-02-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Since January, the smaller shop has nearly reached the same standard as the larger shop nearby.",
+      "promptZh": "自一月以來，這間較小的店舖已差不多達到附近較大店舖的水平。",
+      "starter": "Since",
+      "answer": "Since January, the smaller shop has nearly caught up with the larger shop nearby.",
+      "answerZh": "自一月以來，這間較小的店舖已差不多趕上附近較大店舖的水平。",
+      "targetForm": "catch up with somebody/something",
+      "targetMeaningZh": "趕上某人或某事物的水平",
+      "highlight": "caught up with"
+    },
+    {
+      "id": "phrasal-verb-02-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "A low branch touched and held her hair as she walked under the tree.",
+      "promptZh": "她從樹下走過時，一根低垂的樹枝勾住了她的頭髮。",
+      "starter": "A",
+      "answer": "A low branch caught at her hair as she walked under the tree.",
+      "answerZh": "她從樹下走過時，一根低垂的樹枝勾住了她的頭髮。",
+      "targetForm": "catch at something",
+      "targetMeaningZh": "碰着或勾住經過的東西",
+      "highlight": "caught at"
+    },
+    {
+      "id": "phrasal-verb-02-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "We have not spoken for months, so we need to talk about each other’s recent news.",
+      "promptZh": "我們已有幾個月沒有交談，所以需要談談彼此的近況。",
+      "starter": "We",
+      "answer": "We have not spoken for months, so we need to catch up on each other’s news.",
+      "answerZh": "我們已有幾個月沒有交談，所以需要了解並談談彼此的近況。",
+      "targetForm": "catch up on something",
+      "targetMeaningZh": "了解或談論最近的消息",
+      "highlight": "catch up on"
+    },
+    {
+      "id": "phrasal-verb-02-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The new parking rule left many drivers confused and unable to park correctly.",
+      "promptZh": "新的泊車規則令許多司機感到困惑，無法正確泊車。",
+      "starter": "The",
+      "answer": "The new parking rule caught many drivers out, leaving them confused and unable to park correctly.",
+      "answerZh": "新的泊車規則令許多司機措手不及，使他們感到困惑，無法正確泊車。",
+      "targetForm": "catch somebody out",
+      "targetMeaningZh": "使某人措手不及或陷入困難",
+      "highlight": "caught many drivers out"
+    },
+    {
+      "id": "phrasal-verb-02-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Ella usually understands the rules of a new computer game after only a few minutes.",
+      "promptZh": "埃拉通常只需幾分鐘便能明白新電腦遊戲的規則。",
+      "starter": "Ella",
+      "answer": "Ella usually catches on to the rules of a new computer game after only a few minutes.",
+      "answerZh": "埃拉通常只需幾分鐘便能明白新電腦遊戲的規則。",
+      "targetForm": "catch on to something",
+      "targetMeaningZh": "明白；領會",
+      "highlight": "catches on to"
+    },
+    {
+      "id": "phrasal-verb-02-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Run ahead; I will reach you near the bridge.",
+      "promptZh": "你先跑吧；我會在橋附近追上你。",
+      "starter": "Run",
+      "answer": "Run ahead; I will catch up with you near the bridge.",
+      "answerZh": "你先跑吧；我會在橋附近追上你。",
+      "targetForm": "catch up with somebody",
+      "targetMeaningZh": "加快速度追上前面的人",
+      "highlight": "catch up with"
+    },
+    {
+      "id": "phrasal-verb-02-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Aisha is spending this evening finishing the schoolwork she missed.",
+      "promptZh": "艾莎今晚會完成之前缺課時未做的功課。",
+      "starter": "Aisha",
+      "answer": "Aisha is spending this evening catching up on the schoolwork she missed.",
+      "answerZh": "艾莎今晚會補做之前缺課時未做的功課。",
+      "targetForm": "catch up on something",
+      "targetMeaningZh": "補做之前未完成的事情",
+      "highlight": "catching up on"
+    },
+    {
+      "id": "phrasal-verb-02-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The dance did not become popular until people shared it online.",
+      "promptZh": "人們在網上分享這種舞蹈後，它才開始流行。",
+      "starter": "The",
+      "answer": "The dance did not catch on until people shared it online.",
+      "answerZh": "人們在網上分享這種舞蹈後，它才開始流行。",
+      "targetForm": "catch on",
+      "targetMeaningZh": "開始流行；受到歡迎",
+      "highlight": "catch on"
+    },
+    {
+      "id": "phrasal-verb-02-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Ben missed yesterday’s lesson, so I told him what the class had done.",
+      "promptZh": "賓缺席了昨天的課堂，所以我告訴他全班做了甚麼。",
+      "starter": "Ben",
+      "answer": "Ben missed yesterday’s lesson, so I caught him up on what the class had done.",
+      "answerZh": "賓缺席了昨天的課堂，所以我告訴他全班做了甚麼。",
+      "targetForm": "catch somebody up on something",
+      "targetMeaningZh": "告訴某人最新情況",
+      "highlight": "caught him up on"
+    },
+    {
+      "id": "phrasal-verb-02-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Ravi coped well at first, but the busy month is now beginning to affect him.",
+      "promptZh": "拉維起初應付得很好，但這個忙碌的月份現在開始對他造成影響。",
+      "starter": "Ravi",
+      "answer": "Ravi coped well at first, but the busy month is now beginning to catch up with him.",
+      "answerZh": "拉維起初應付得很好，但這個忙碌的月份現在開始對他造成影響。",
+      "targetForm": "catch up with somebody",
+      "targetMeaningZh": "之前的壓力開始帶來後果",
+      "highlight": "catch up with"
+    },
+    {
+      "id": "phrasal-verb-02-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Mei was away for three days. Please tell her the latest news about the project.",
+      "promptZh": "梅離開了三天。請告訴她項目的最新消息。",
+      "starter": "Mei",
+      "answer": "Mei was away for three days. Please catch her up on the latest news about the project.",
+      "answerZh": "梅離開了三天。請告訴她項目的最新消息。",
+      "targetForm": "catch somebody up on something",
+      "targetMeaningZh": "告訴某人最新情況",
+      "highlight": "catch her up on"
+    },
+    {
+      "id": "phrasal-verb-02-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "The other hikers were far ahead, but we have now reached them.",
+      "promptZh": "其他遠足者遠遠走在前面，但我們現在已追上他們。",
+      "starter": "The",
+      "answer": "The other hikers were far ahead, but we have now caught them up.",
+      "answerZh": "其他遠足者遠遠走在前面，但我們現在已追上他們。",
+      "targetForm": "catch somebody up",
+      "targetMeaningZh": "加快速度追上前面的人",
+      "highlight": "caught them up"
+    },
+    {
+      "id": "phrasal-verb-02-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Why did this simple phone game become popular so quickly?",
+      "promptZh": "這款簡單的手機遊戲為何這麼快便流行起來？",
+      "starter": "Why",
+      "answer": "Why did this simple phone game catch on so quickly?",
+      "answerZh": "這款簡單的手機遊戲為何這麼快便流行起來？",
+      "targetForm": "catch on",
+      "targetMeaningZh": "開始流行；受到歡迎",
+      "highlight": "catch on"
+    },
+    {
+      "id": "phrasal-verb-02-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "I missed two chapters last week, so I am reading them now.",
+      "promptZh": "我上星期漏看了兩章，所以現在正在補看。",
+      "starter": "I",
+      "answer": "I missed two chapters last week, so I am catching up on them now.",
+      "answerZh": "我上星期漏看了兩章，所以現在正在補看。",
+      "targetForm": "catch up on something",
+      "targetMeaningZh": "補做之前未完成的事情",
+      "highlight": "catching up on"
+    },
+    {
+      "id": "phrasal-verb-02-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "As Kai slipped past, Mina reached for his sleeve and tried to hold it.",
+      "promptZh": "啟從旁邊滑過時，米娜伸手去抓他的衣袖。",
+      "starter": "As",
+      "answer": "As Kai slipped past, Mina caught at his sleeve.",
+      "answerZh": "啟從旁邊滑過時，米娜伸手抓住他的衣袖。",
+      "targetForm": "catch at something",
+      "targetMeaningZh": "伸手抓住經過的人或物",
+      "highlight": "caught at"
+    },
+    {
+      "id": "phrasal-verb-02-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Dad managed for months, but the worry was finally starting to affect him.",
+      "promptZh": "爸爸幾個月來一直撐得住，但那些憂慮終於開始影響他。",
+      "starter": "Dad",
+      "answer": "Dad managed for months, but the worry was finally starting to catch up with him.",
+      "answerZh": "爸爸幾個月來一直撐得住，但那些憂慮終於開始影響他。",
+      "targetForm": "catch up with somebody",
+      "targetMeaningZh": "之前的問題終於開始帶來後果",
+      "highlight": "catch up with"
+    },
+    {
+      "id": "phrasal-verb-02-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "After hearing the explanation twice, Sofia finally understood the joke.",
+      "promptZh": "聽了兩次解釋後，索菲亞終於明白這個笑話。",
+      "starter": "After",
+      "answer": "After hearing the explanation twice, Sofia finally caught on to the joke.",
+      "answerZh": "聽了兩次解釋後，索菲亞終於明白這個笑話。",
+      "targetForm": "catch on to something",
+      "targetMeaningZh": "明白；領會",
+      "highlight": "caught on to"
+    },
+    {
+      "id": "phrasal-verb-02-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "I knew Dan was not telling the truth, and the messages finally proved it.",
+      "promptZh": "我知道丹沒有說實話，而那些訊息最後證明了這一點。",
+      "starter": "I",
+      "answer": "I knew Dan was not telling the truth, and the messages finally caught him out.",
+      "answerZh": "我知道丹沒有說實話，而那些訊息最後揭穿了他。",
+      "targetForm": "catch somebody out",
+      "targetMeaningZh": "揭穿某人做錯事或說謊",
+      "highlight": "caught him out"
+    },
+    {
+      "id": "phrasal-verb-02-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Our team is still trying to reach the same level as the league leaders.",
+      "promptZh": "我們的球隊仍在努力達到聯賽領先隊伍的水平。",
+      "starter": "Our",
+      "answer": "Our team is still trying to catch up with the league leaders.",
+      "answerZh": "我們的球隊仍在努力趕上聯賽領先隊伍的水平。",
+      "targetForm": "catch up with somebody/something",
+      "targetMeaningZh": "趕上某人的程度或水平",
+      "highlight": "catch up with"
+    },
+    {
+      "id": "phrasal-verb-02-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "During lunch, the cousins talked about all the family news they had missed.",
+      "promptZh": "午膳時，幾位表兄弟姊妹談論了所有錯過的家庭消息。",
+      "starter": "During",
+      "answer": "During lunch, the cousins caught up on all the family news they had missed.",
+      "answerZh": "午膳時，幾位表兄弟姊妹了解並談論了所有錯過的家庭消息。",
+      "targetForm": "catch up on something",
+      "targetMeaningZh": "了解或談論最近的消息",
+      "highlight": "caught up on"
+    },
+    {
+      "id": "phrasal-verb-02-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Priya stayed late to finish some reports she had not completed earlier.",
+      "promptZh": "普里雅留下來至很晚，以完成之前未做完的幾份報告。",
+      "starter": "Priya",
+      "answer": "Priya stayed late to catch up with some reports she had not completed earlier.",
+      "answerZh": "普里雅留下來至很晚，以補做之前未完成的幾份報告。",
+      "targetForm": "catch up with something",
+      "targetMeaningZh": "補做之前未完成的事情",
+      "highlight": "catch up with"
+    },
+    {
+      "id": "phrasal-verb-02-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "At first, nobody used the new phrase, but soon it became popular across the school.",
+      "promptZh": "起初沒有人使用這個新說法，但它很快便在全校流行起來。",
+      "starter": "At",
+      "answer": "At first, nobody used the new phrase, but soon it caught on across the school.",
+      "answerZh": "起初沒有人使用這個新說法，但它很快便在全校流行起來。",
+      "targetForm": "catch on",
+      "targetMeaningZh": "開始流行；受到歡迎",
+      "highlight": "caught on"
+    },
+    {
+      "id": "phrasal-verb-02-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 18,
+      "prompt": "The dog ran after the cyclist and reached him at the corner.",
+      "promptZh": "那隻狗追着單車手跑，並在街角追上了他。",
+      "starter": "The",
+      "answer": "The dog ran after the cyclist and caught up with him at the corner.",
+      "answerZh": "那隻狗追着單車手跑，並在街角追上了他。",
+      "targetForm": "catch up with somebody",
+      "targetMeaningZh": "加快速度追上前面的人",
+      "highlight": "caught up with"
+    },
+    {
+      "id": "phrasal-verb-02-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The interviewer asked an unexpected question to make the player give a wrong answer.",
+      "promptZh": "訪問員問了一條意料之外的問題，想令那名球員答錯。",
+      "starter": "The",
+      "answer": "The interviewer tried to catch the player out with an unexpected question.",
+      "answerZh": "訪問員嘗試用一條意料之外的問題令那名球員答錯。",
+      "targetForm": "catch somebody out",
+      "targetMeaningZh": "誘使某人出錯或顯出不懂",
+      "highlight": "catch the player out"
+    },
+    {
+      "id": "phrasal-verb-02-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "He avoided dealing with his bad decision for months, but it finally began to cause serious trouble.",
+      "promptZh": "他幾個月來一直逃避處理自己的錯誤決定，但它終於開始帶來嚴重麻煩。",
+      "starter": "He",
+      "answer": "He avoided dealing with his bad decision for months, but it finally began to catch up with him.",
+      "answerZh": "他幾個月來一直逃避處理自己的錯誤決定，但它終於開始帶來後果。",
+      "targetForm": "catch up with somebody",
+      "targetMeaningZh": "過去的問題終於開始帶來後果",
+      "highlight": "catch up with"
+    },
+    {
+      "id": "phrasal-verb-02-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Long grass brushed and pulled at our legs as we crossed the field.",
+      "promptZh": "我們走過田野時，長草不斷擦過並勾住我們的雙腿。",
+      "starter": "Long",
+      "answer": "Long grass caught at our legs as we crossed the field.",
+      "answerZh": "我們走過田野時，長草不斷勾住我們的雙腿。",
+      "targetForm": "catch at something",
+      "targetMeaningZh": "碰着或勾住經過的人或物",
+      "highlight": "caught at"
+    },
+    {
+      "id": "phrasal-verb-02-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "I missed the first part of the discussion, so Rosa quickly told me what had been said.",
+      "promptZh": "我錯過了討論的前半部分，所以羅莎很快告訴我大家說了甚麼。",
+      "starter": "I",
+      "answer": "I missed the first part of the discussion, so Rosa quickly caught me up on what had been said.",
+      "answerZh": "我錯過了討論的前半部分，所以羅莎很快告訴我大家說了甚麼。",
+      "targetForm": "catch somebody up on something",
+      "targetMeaningZh": "告訴某人最新情況",
+      "highlight": "caught me up on"
+    },
+    {
+      "id": "phrasal-verb-02-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Newer phone brands may soon reach the same quality as the old market leader.",
+      "promptZh": "較新的手機品牌可能很快便達到老牌市場領袖的質素。",
+      "starter": "Newer",
+      "answer": "Newer phone brands may soon catch the old market leader up.",
+      "answerZh": "較新的手機品牌可能很快便趕上老牌市場領袖的質素。",
+      "targetForm": "catch somebody/something up",
+      "targetMeaningZh": "趕上某人或某事物的水平",
+      "highlight": "catch the old market leader up"
+    },
+    {
+      "id": "phrasal-verb-02-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 19,
+      "prompt": "The class looked confused at first, but soon everyone understood the teacher’s idea.",
+      "promptZh": "全班起初看來很困惑，但很快每個人都明白了老師的想法。",
+      "starter": "The",
+      "answer": "The class looked confused at first, but soon everyone caught on to the teacher’s idea.",
+      "answerZh": "全班起初看來很困惑，但很快每個人都明白了老師的想法。",
+      "targetForm": "catch on to something",
+      "targetMeaningZh": "明白；領會",
+      "highlight": "caught on to"
+    },
+    {
+      "id": "phrasal-verb-02-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "After returning from holiday, I read the messages and found out what had happened at work.",
+      "promptZh": "放假回來後，我閱讀訊息，了解工作上發生了甚麼事。",
+      "starter": "After",
+      "answer": "After returning from holiday, I caught up on what had happened at work by reading the messages.",
+      "answerZh": "放假回來後，我透過閱讀訊息，了解工作上發生了甚麼事。",
+      "targetForm": "catch up on something",
+      "targetMeaningZh": "了解最近發生的事情",
+      "highlight": "caught up on"
+    },
+    {
+      "id": "phrasal-verb-02-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "For years, he escaped punishment, but in the end the law found and punished him.",
+      "promptZh": "多年來他一直逃過懲罰，但法律最終找到並懲罰了他。",
+      "starter": "For",
+      "answer": "For years, he escaped punishment, but in the end the law caught up with him.",
+      "answerZh": "多年來他一直逃過懲罰，但最終仍受到法律制裁。",
+      "targetForm": "catch up with somebody",
+      "targetMeaningZh": "警方或法律最終找到並懲罰某人",
+      "highlight": "caught up with"
+    },
+    {
+      "id": "phrasal-verb-02-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "I have slept badly all week, so I plan to get the sleep I missed this weekend.",
+      "promptZh": "我整個星期都睡得不好，所以打算在週末補回欠缺的睡眠。",
+      "starter": "I",
+      "answer": "I have slept badly all week, so I plan to catch up on sleep this weekend.",
+      "answerZh": "我整個星期都睡得不好，所以打算在週末補眠。",
+      "targetForm": "catch up on something",
+      "targetMeaningZh": "補做或補回之前錯過的事情",
+      "highlight": "catch up on"
+    },
+    {
+      "id": "phrasal-verb-02-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Before the meeting starts, could you tell Jamal about all the changes to the plan?",
+      "promptZh": "會議開始前，你可以告訴賈邁勒計劃的所有改動嗎？",
+      "starter": "Before",
+      "answer": "Before the meeting starts, could you catch Jamal up on all the changes to the plan?",
+      "answerZh": "會議開始前，你可以告訴賈邁勒計劃的所有改動嗎？",
+      "targetForm": "catch somebody up on something",
+      "targetMeaningZh": "告訴某人最新情況",
+      "highlight": "catch Jamal up on"
+    },
+    {
+      "id": "phrasal-verb-02-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "After being ill for a month, Nia had to work hard to reach the same level as her classmates.",
+      "promptZh": "妮亞病了一個月後，必須努力追上同學的水平。",
+      "starter": "After",
+      "answer": "After being ill for a month, Nia had to work hard to catch up with her classmates.",
+      "answerZh": "妮亞病了一個月後，必須努力追上同學的水平。",
+      "targetForm": "catch up with somebody/something",
+      "targetMeaningZh": "趕上某人的程度或水平",
+      "highlight": "catch up with"
+    },
+    {
+      "id": "phrasal-verb-02-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The recipe was almost unknown last year, but videos made it popular in many homes.",
+      "promptZh": "這個食譜去年幾乎無人認識，但影片令它在許多家庭中流行起來。",
+      "starter": "The",
+      "answer": "The recipe was almost unknown last year, but videos helped it catch on in many homes.",
+      "answerZh": "這個食譜去年幾乎無人認識，但影片幫助它在許多家庭中流行起來。",
+      "targetForm": "catch on",
+      "targetMeaningZh": "開始流行；受到歡迎",
+      "highlight": "catch on"
+    },
+    {
+      "id": "phrasal-verb-02-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "When the boat moved suddenly, Arun reached for the rail and held it.",
+      "promptZh": "船突然移動時，阿倫伸手抓住欄杆。",
+      "starter": "When",
+      "answer": "When the boat moved suddenly, Arun caught at the rail and held it.",
+      "answerZh": "船突然移動時，阿倫伸手抓住欄杆。",
+      "targetForm": "catch at something",
+      "targetMeaningZh": "伸手抓住某物",
+      "highlight": "caught at"
+    },
+    {
+      "id": "phrasal-verb-02-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The team prepared for the old rules, so the last-minute change left them unprepared.",
+      "promptZh": "球隊按舊規則作準備，因此最後一刻的改動令他們毫無準備。",
+      "starter": "The",
+      "answer": "The team prepared for the old rules, so the last-minute change caught them out.",
+      "answerZh": "球隊按舊規則作準備，因此最後一刻的改動令他們措手不及。",
+      "targetForm": "catch somebody out",
+      "targetMeaningZh": "使某人措手不及或陷入困難",
+      "highlight": "caught them out"
+    },
+    {
+      "id": "phrasal-verb-02-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "When I visited my old friend, we spent hours talking about everything that had happened since school.",
+      "promptZh": "我探望老朋友時，我們花了幾小時談論離校後發生的一切。",
+      "starter": "When",
+      "answer": "When I visited my old friend, we spent hours catching up on everything that had happened since school.",
+      "answerZh": "我探望老朋友時，我們花了幾小時了解並談論離校後發生的一切。",
+      "targetForm": "catch up on something",
+      "targetMeaningZh": "了解或談論最近發生的事情",
+      "highlight": "catching up on"
+    },
+    {
+      "id": "phrasal-verb-02-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 12,
+      "prompt": "The leader was still twenty metres ahead, but Ava ran faster and reached her before the finish.",
+      "promptZh": "領先者仍在二十米前，但艾娃跑得更快，在終點前追上了她。",
+      "starter": "The",
+      "answer": "The leader was still twenty metres ahead, but Ava ran faster and caught her up before the finish.",
+      "answerZh": "領先者仍在二十米前，但艾娃跑得更快，在終點前追上了她。",
+      "targetForm": "catch somebody up",
+      "targetMeaningZh": "加快速度追上前面的人",
+      "highlight": "caught her up"
+    },
+    {
+      "id": "phrasal-verb-02-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "promptZhSourcePage": 12,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 12,
+      "prompt": "At first, the audience did not understand how the puzzle worked, but the final clue made it clear.",
+      "promptZh": "觀眾起初不明白這個謎題的玩法，但最後的提示令答案變得清楚。",
+      "starter": "At",
+      "answer": "At first, the audience did not catch on to how the puzzle worked, but the final clue made it clear.",
+      "answerZh": "觀眾起初不明白這個謎題的玩法，但最後的提示令答案變得清楚。",
+      "targetForm": "catch on to something",
+      "targetMeaningZh": "明白；領會",
+      "highlight": "catch on to"
+    }
+  ]
+}

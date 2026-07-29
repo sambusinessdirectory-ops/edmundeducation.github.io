@@ -1,0 +1,2059 @@
+{
+  "id": "phrasal-verb-10",
+  "order": 10,
+  "slug": "wash",
+  "version": "1",
+  "title": "WASH 動詞片語",
+  "titleEn": "Wash",
+  "titleZh": "WASH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verbs 10 - Wash.pdf",
+    "pageCount": 14,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "answerKeyPdfPages": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WASH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WASH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WASH",
+      "highlight": "WASH"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The rain washed the chalk marks away.",
+      "zh": "雨水把粉筆痕沖走了。",
+      "highlight": "washed the chalk marks away"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Dad washed the wall down with a hose.",
+      "zh": "爸爸用水喉沖洗那道牆。",
+      "highlight": "washed the wall down"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The mud washed off my shoes.",
+      "zh": "我鞋上的泥被洗掉了。",
+      "highlight": "washed off"
+    }
+  ],
+  "meaning": {
+    "zh": "水把某人或某物沖走；用水把痕跡或污物洗走；用大量水沖洗較大的物件或表面；污物或痕跡被洗掉；把污物從表面洗掉；顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉；令某人非常疲倦；水把某人或某物從一處沖出，或沖到海上等地方；清洗容器內部；在英式英語中，飯後清洗碗碟、杯子和煮食用具。",
+    "en": "Learn and practise the phrasal verbs related to WASH.",
+    "naturalZh": [
+      "水把某人或某物沖走；用水把痕跡或污物洗走",
+      "用大量水沖洗較大的物件或表面",
+      "污物或痕跡被洗掉；把污物從表面洗掉",
+      "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+      "令某人非常疲倦",
+      "水把某人或某物從一處沖出，或沖到海上等地方",
+      "清洗容器內部",
+      "在英式英語中，飯後清洗碗碟、杯子和煮食用具"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "wash somebody/something away; wash something away",
+      "highlight": "wash somebody/something away; wash something away",
+      "titleZh": "水把某人或某物沖走；用水把痕跡或污物洗走",
+      "titleEn": "wash somebody/something away; wash something away",
+      "descriptionZh": "水把某人或某物沖走；用水把痕跡或污物洗走",
+      "descriptionEn": "The rain washed the chalk marks away.",
+      "examples": [
+        {
+          "en": "The rain washed the chalk marks away.",
+          "zh": "雨水把粉筆痕沖走了。",
+          "highlight": "washed the chalk marks away"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "wash something down",
+      "highlight": "wash something down",
+      "titleZh": "用大量水沖洗較大的物件或表面",
+      "titleEn": "wash something down",
+      "descriptionZh": "用大量水沖洗較大的物件或表面",
+      "descriptionEn": "Dad washed the wall down with a hose.",
+      "examples": [
+        {
+          "en": "Dad washed the wall down with a hose.",
+          "zh": "爸爸用水喉沖洗那道牆。",
+          "highlight": "washed the wall down"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "wash off; wash something off; wash something off something",
+      "highlight": "wash off; wash something off; wash something off something",
+      "titleZh": "污物或痕跡被洗掉；把污物從表面洗掉",
+      "titleEn": "wash off; wash something off; wash something off something",
+      "descriptionZh": "污物或痕跡被洗掉；把污物從表面洗掉",
+      "descriptionEn": "The mud washed off my shoes.",
+      "examples": [
+        {
+          "en": "The mud washed off my shoes.",
+          "zh": "我鞋上的泥被洗掉了。",
+          "highlight": "washed off"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "wash out; wash something out; wash something out of something",
+      "highlight": "wash out; wash something out; wash something out of something",
+      "titleZh": "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+      "titleEn": "wash out; wash something out; wash something out of something",
+      "descriptionZh": "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+      "descriptionEn": "The red dye will wash out of your hair.",
+      "examples": [
+        {
+          "en": "The red dye will wash out of your hair.",
+          "zh": "頭髮上的紅色染料會被洗掉。",
+          "highlight": "wash out of"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "pageGroup": 1,
+      "formula": "wash somebody out",
+      "highlight": "wash somebody out",
+      "titleZh": "令某人非常疲倦",
+      "titleEn": "wash somebody out",
+      "descriptionZh": "令某人非常疲倦",
+      "descriptionEn": "That long walk washed me out.",
+      "examples": [
+        {
+          "en": "That long walk washed me out.",
+          "zh": "那段長途步行令我累透了。",
+          "highlight": "washed me out"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "pageGroup": 2,
+      "formula": "wash somebody/something out (to...); wash somebody/something out of something",
+      "highlight": "wash somebody/something out (to...); wash somebody/something out of something",
+      "titleZh": "水把某人或某物從一處沖出，或沖到海上等地方",
+      "titleEn": "wash somebody/something out (to...); wash somebody/something out of something",
+      "descriptionZh": "水把某人或某物從一處沖出，或沖到海上等地方",
+      "descriptionEn": "The river washed the branch out to sea.",
+      "examples": [
+        {
+          "en": "The river washed the branch out to sea.",
+          "zh": "河水把樹枝沖到海中。",
+          "highlight": "washed the branch out to"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "pageGroup": 2,
+      "formula": "wash something out",
+      "highlight": "wash something out",
+      "titleZh": "清洗容器內部",
+      "titleEn": "wash something out",
+      "descriptionZh": "清洗容器內部",
+      "descriptionEn": "Please wash the bottle out first.",
+      "examples": [
+        {
+          "en": "Please wash the bottle out first.",
+          "zh": "請先清洗瓶子內部。",
+          "highlight": "wash the bottle out"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "pageGroup": 2,
+      "formula": "wash up; wash something up",
+      "highlight": "wash up; wash something up",
+      "titleZh": "在英式英語中，飯後清洗碗碟、杯子和煮食用具",
+      "titleEn": "wash up; wash something up",
+      "descriptionZh": "在英式英語中，飯後清洗碗碟、杯子和煮食用具",
+      "descriptionEn": "It is your turn to wash up.",
+      "examples": [
+        {
+          "en": "It is your turn to wash up.",
+          "zh": "輪到你清洗碗碟了。",
+          "highlight": "wash up"
+        }
+      ],
+      "sourcePage": 2
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 WASH 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to WASH.",
+    "contextsZh": [
+      "水把某人或某物沖走；用水把痕跡或污物洗走",
+      "用大量水沖洗較大的物件或表面",
+      "污物或痕跡被洗掉；把污物從表面洗掉",
+      "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+      "令某人非常疲倦",
+      "水把某人或某物從一處沖出，或沖到海上等地方",
+      "清洗容器內部",
+      "在英式英語中，飯後清洗碗碟、杯子和煮食用具"
+    ],
+    "contextsEn": [
+      "wash somebody/something away; wash something away",
+      "wash something down",
+      "wash off; wash something off; wash something off something",
+      "wash out; wash something out; wash something out of something",
+      "wash somebody out",
+      "wash somebody/something out (to...); wash somebody/something out of something",
+      "wash something out",
+      "wash up; wash something up"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 WASH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WASH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "WASH",
+    "fixedHighlight": "WASH",
+    "fixedZh": "閱讀整句，選出意思相同的 WASH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WASH expression that gives the same meaning.",
+    "correct": "wash somebody/something away; wash something away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 使用 him、her、it 或 them 時，請按照以下例子放在正確位置： away 表示水把某物從原來的位置沖走；out 常表示水把某物從一處沖出，或沖向另一個地方。 在本課中，wash up 表示飯後清洗碗碟和煮食用具。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: Away means that water removes or carries something from its place. Out often shows that water carries something out of a place or towards another place. In this lesson, wash up means clean the dishes and cooking tools after a meal.",
+    "variableItemsZh": [
+      "水把某人或某物沖走；用水把痕跡或污物洗走",
+      "用大量水沖洗較大的物件或表面",
+      "污物或痕跡被洗掉；把污物從表面洗掉",
+      "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+      "令某人非常疲倦",
+      "水把某人或某物從一處沖出，或沖到海上等地方",
+      "清洗容器內部",
+      "在英式英語中，飯後清洗碗碟、杯子和煮食用具"
+    ],
+    "variableItemsEn": [
+      "wash somebody/something away; wash something away",
+      "wash something down",
+      "wash off; wash something off; wash something off something",
+      "wash out; wash something out; wash something out of something",
+      "wash somebody out",
+      "wash somebody/something out (to...); wash somebody/something out of something",
+      "wash something out",
+      "wash up; wash something up"
+    ],
+    "forms": [
+      {
+        "formZh": "水把某人或某物沖走；用水把痕跡或污物洗走",
+        "formEn": "wash somebody/something away; wash something away",
+        "exampleZh": "雨水把粉筆痕沖走了。",
+        "exampleEn": "The rain washed the chalk marks away.",
+        "highlight": "washed the chalk marks away"
+      },
+      {
+        "formZh": "用大量水沖洗較大的物件或表面",
+        "formEn": "wash something down",
+        "exampleZh": "爸爸用水喉沖洗那道牆。",
+        "exampleEn": "Dad washed the wall down with a hose.",
+        "highlight": "washed the wall down"
+      },
+      {
+        "formZh": "污物或痕跡被洗掉；把污物從表面洗掉",
+        "formEn": "wash off; wash something off; wash something off something",
+        "exampleZh": "我鞋上的泥被洗掉了。",
+        "exampleEn": "The mud washed off my shoes.",
+        "highlight": "washed off"
+      },
+      {
+        "formZh": "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+        "formEn": "wash out; wash something out; wash something out of something",
+        "exampleZh": "頭髮上的紅色染料會被洗掉。",
+        "exampleEn": "The red dye will wash out of your hair.",
+        "highlight": "wash out of"
+      },
+      {
+        "formZh": "令某人非常疲倦",
+        "formEn": "wash somebody out",
+        "exampleZh": "那段長途步行令我累透了。",
+        "exampleEn": "That long walk washed me out.",
+        "highlight": "washed me out"
+      },
+      {
+        "formZh": "水把某人或某物從一處沖出，或沖到海上等地方",
+        "formEn": "wash somebody/something out (to...); wash somebody/something out of something",
+        "exampleZh": "河水把樹枝沖到海中。",
+        "exampleEn": "The river washed the branch out to sea.",
+        "highlight": "washed the branch out to"
+      },
+      {
+        "formZh": "清洗容器內部",
+        "formEn": "wash something out",
+        "exampleZh": "請先清洗瓶子內部。",
+        "exampleEn": "Please wash the bottle out first.",
+        "highlight": "wash the bottle out"
+      },
+      {
+        "formZh": "在英式英語中，飯後清洗碗碟、杯子和煮食用具",
+        "formEn": "wash up; wash something up",
+        "exampleZh": "輪到你清洗碗碟了。",
+        "exampleEn": "It is your turn to wash up.",
+        "highlight": "wash up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "水把某人或某物沖走；用水把痕跡或污物洗走",
+      "titleEn": "wash somebody/something away; wash something away",
+      "formula": "wash somebody/something away; wash something away",
+      "highlight": "wash somebody/something away; wash something away",
+      "descriptionZh": "水把某人或某物沖走；用水把痕跡或污物洗走",
+      "descriptionEn": "The rain washed the chalk marks away.",
+      "examples": [
+        {
+          "en": "The rain washed the chalk marks away.",
+          "zh": "雨水把粉筆痕沖走了。",
+          "highlight": "washed the chalk marks away"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "用大量水沖洗較大的物件或表面",
+      "titleEn": "wash something down",
+      "formula": "wash something down",
+      "highlight": "wash something down",
+      "descriptionZh": "用大量水沖洗較大的物件或表面",
+      "descriptionEn": "Dad washed the wall down with a hose.",
+      "examples": [
+        {
+          "en": "Dad washed the wall down with a hose.",
+          "zh": "爸爸用水喉沖洗那道牆。",
+          "highlight": "washed the wall down"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "污物或痕跡被洗掉；把污物從表面洗掉",
+      "titleEn": "wash off; wash something off; wash something off something",
+      "formula": "wash off; wash something off; wash something off something",
+      "highlight": "wash off; wash something off; wash something off something",
+      "descriptionZh": "污物或痕跡被洗掉；把污物從表面洗掉",
+      "descriptionEn": "The mud washed off my shoes.",
+      "examples": [
+        {
+          "en": "The mud washed off my shoes.",
+          "zh": "我鞋上的泥被洗掉了。",
+          "highlight": "washed off"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+      "titleEn": "wash out; wash something out; wash something out of something",
+      "formula": "wash out; wash something out; wash something out of something",
+      "highlight": "wash out; wash something out; wash something out of something",
+      "descriptionZh": "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+      "descriptionEn": "The red dye will wash out of your hair.",
+      "examples": [
+        {
+          "en": "The red dye will wash out of your hair.",
+          "zh": "頭髮上的紅色染料會被洗掉。",
+          "highlight": "wash out of"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "titleZh": "令某人非常疲倦",
+      "titleEn": "wash somebody out",
+      "formula": "wash somebody out",
+      "highlight": "wash somebody out",
+      "descriptionZh": "令某人非常疲倦",
+      "descriptionEn": "That long walk washed me out.",
+      "examples": [
+        {
+          "en": "That long walk washed me out.",
+          "zh": "那段長途步行令我累透了。",
+          "highlight": "washed me out"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "titleZh": "水把某人或某物從一處沖出，或沖到海上等地方",
+      "titleEn": "wash somebody/something out (to...); wash somebody/something out of something",
+      "formula": "wash somebody/something out (to...); wash somebody/something out of something",
+      "highlight": "wash somebody/something out (to...); wash somebody/something out of something",
+      "descriptionZh": "水把某人或某物從一處沖出，或沖到海上等地方",
+      "descriptionEn": "The river washed the branch out to sea.",
+      "examples": [
+        {
+          "en": "The river washed the branch out to sea.",
+          "zh": "河水把樹枝沖到海中。",
+          "highlight": "washed the branch out to"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "titleZh": "清洗容器內部",
+      "titleEn": "wash something out",
+      "formula": "wash something out",
+      "highlight": "wash something out",
+      "descriptionZh": "清洗容器內部",
+      "descriptionEn": "Please wash the bottle out first.",
+      "examples": [
+        {
+          "en": "Please wash the bottle out first.",
+          "zh": "請先清洗瓶子內部。",
+          "highlight": "wash the bottle out"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "titleZh": "在英式英語中，飯後清洗碗碟、杯子和煮食用具",
+      "titleEn": "wash up; wash something up",
+      "formula": "wash up; wash something up",
+      "highlight": "wash up; wash something up",
+      "descriptionZh": "在英式英語中，飯後清洗碗碟、杯子和煮食用具",
+      "descriptionEn": "It is your turn to wash up.",
+      "examples": [
+        {
+          "en": "It is your turn to wash up.",
+          "zh": "輪到你清洗碗碟了。",
+          "highlight": "wash up"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "描述水如何把人或物沖走",
+      "titleEn": "Describe how water moves people and things",
+      "zh": "wash away 和 wash out 可以表示水把某人或某物從一個地方沖到另一個地方。",
+      "en": "Wash away and wash out can show water carrying something from one place to another.",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "按不同清潔情況選用準確表達",
+      "titleEn": "Choose the right expression for different kinds of cleaning",
+      "zh": "清洗較大的表面可用 wash down；洗掉表面痕跡可用 wash off；洗掉布料中的污漬或清洗容器內部可用 wash out。",
+      "en": "Use wash down for a large surface, wash off for a mark on a surface, and wash out for a stain in cloth or the inside of a container.",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "自然談論飯後的日常家務",
+      "titleEn": "Talk naturally about an everyday job after meals",
+      "zh": "在英式英語中，wash up 是表示清洗碟子、杯子和平底鍋的常用說法。",
+      "en": "In British English, wash up is a common way to talk about cleaning plates, cups and pans.",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "形容某人累得筋疲力盡",
+      "titleEn": "Describe being completely tired",
+      "zh": "wash somebody out 可以自然有力地表示某項活動令某人非常疲倦。",
+      "en": "Wash somebody out gives a strong, natural way to say that an activity has made someone extremely tired.",
+      "sourcePage": 3
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "水把某人或某物沖走；用水把痕跡或污物洗走",
+      "用大量水沖洗較大的物件或表面",
+      "污物或痕跡被洗掉；把污物從表面洗掉",
+      "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+      "令某人非常疲倦",
+      "水把某人或某物從一處沖出，或沖到海上等地方",
+      "清洗容器內部",
+      "在英式英語中，飯後清洗碗碟、杯子和煮食用具"
+    ],
+    "contextsEn": [
+      "wash somebody/something away; wash something away",
+      "wash something down",
+      "wash off; wash something off; wash something off something",
+      "wash out; wash something out; wash something out of something",
+      "wash somebody out",
+      "wash somebody/something out (to...); wash somebody/something out of something",
+      "wash something out",
+      "wash up; wash something up"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "水把某人或某物沖走；用水把痕跡或污物洗走",
+        "titleEn": "wash somebody/something away; wash something away",
+        "formula": "wash somebody/something away; wash something away",
+        "highlight": "wash somebody/something away; wash something away",
+        "zh": "水把某人或某物沖走；用水把痕跡或污物洗走",
+        "en": "The rain washed the chalk marks away.",
+        "examples": [
+          {
+            "en": "The rain washed the chalk marks away.",
+            "zh": "雨水把粉筆痕沖走了。",
+            "highlight": "washed the chalk marks away"
+          }
+        ]
+      },
+      {
+        "titleZh": "用大量水沖洗較大的物件或表面",
+        "titleEn": "wash something down",
+        "formula": "wash something down",
+        "highlight": "wash something down",
+        "zh": "用大量水沖洗較大的物件或表面",
+        "en": "Dad washed the wall down with a hose.",
+        "examples": [
+          {
+            "en": "Dad washed the wall down with a hose.",
+            "zh": "爸爸用水喉沖洗那道牆。",
+            "highlight": "washed the wall down"
+          }
+        ]
+      },
+      {
+        "titleZh": "污物或痕跡被洗掉；把污物從表面洗掉",
+        "titleEn": "wash off; wash something off; wash something off something",
+        "formula": "wash off; wash something off; wash something off something",
+        "highlight": "wash off; wash something off; wash something off something",
+        "zh": "污物或痕跡被洗掉；把污物從表面洗掉",
+        "en": "The mud washed off my shoes.",
+        "examples": [
+          {
+            "en": "The mud washed off my shoes.",
+            "zh": "我鞋上的泥被洗掉了。",
+            "highlight": "washed off"
+          }
+        ]
+      },
+      {
+        "titleZh": "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+        "titleEn": "wash out; wash something out; wash something out of something",
+        "formula": "wash out; wash something out; wash something out of something",
+        "highlight": "wash out; wash something out; wash something out of something",
+        "zh": "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+        "en": "The red dye will wash out of your hair.",
+        "examples": [
+          {
+            "en": "The red dye will wash out of your hair.",
+            "zh": "頭髮上的紅色染料會被洗掉。",
+            "highlight": "wash out of"
+          }
+        ]
+      },
+      {
+        "titleZh": "令某人非常疲倦",
+        "titleEn": "wash somebody out",
+        "formula": "wash somebody out",
+        "highlight": "wash somebody out",
+        "zh": "令某人非常疲倦",
+        "en": "That long walk washed me out.",
+        "examples": [
+          {
+            "en": "That long walk washed me out.",
+            "zh": "那段長途步行令我累透了。",
+            "highlight": "washed me out"
+          }
+        ]
+      },
+      {
+        "titleZh": "水把某人或某物從一處沖出，或沖到海上等地方",
+        "titleEn": "wash somebody/something out (to...); wash somebody/something out of something",
+        "formula": "wash somebody/something out (to...); wash somebody/something out of something",
+        "highlight": "wash somebody/something out (to...); wash somebody/something out of something",
+        "zh": "水把某人或某物從一處沖出，或沖到海上等地方",
+        "en": "The river washed the branch out to sea.",
+        "examples": [
+          {
+            "en": "The river washed the branch out to sea.",
+            "zh": "河水把樹枝沖到海中。",
+            "highlight": "washed the branch out to"
+          }
+        ]
+      },
+      {
+        "titleZh": "清洗容器內部",
+        "titleEn": "wash something out",
+        "formula": "wash something out",
+        "highlight": "wash something out",
+        "zh": "清洗容器內部",
+        "en": "Please wash the bottle out first.",
+        "examples": [
+          {
+            "en": "Please wash the bottle out first.",
+            "zh": "請先清洗瓶子內部。",
+            "highlight": "wash the bottle out"
+          }
+        ]
+      },
+      {
+        "titleZh": "在英式英語中，飯後清洗碗碟、杯子和煮食用具",
+        "titleEn": "wash up; wash something up",
+        "formula": "wash up; wash something up",
+        "highlight": "wash up; wash something up",
+        "zh": "在英式英語中，飯後清洗碗碟、杯子和煮食用具",
+        "en": "It is your turn to wash up.",
+        "examples": [
+          {
+            "en": "It is your turn to wash up.",
+            "zh": "輪到你清洗碗碟了。",
+            "highlight": "wash up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 WASH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WASH expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 WASH 片語動詞。",
+      "en": "Read the whole sentence and choose the WASH expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "使用 him、her、it 或 them 時，請按照以下例子放在正確位置：",
+      "titleEn": "When using him, her, it or them, place the word as shown:",
+      "zh": "使用 him、her、it 或 them 時，請按照以下例子放在正確位置：",
+      "en": "When using him, her, it or them, place the word as shown:",
+      "examplesEn": [
+        "wash it off",
+        "wash them out",
+        "wash it up"
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "away 表示水把某物從原來的位置沖走；out 常表示水把某物從一處沖出，或沖向另一個地方。",
+      "titleEn": "Away means that water removes or carries something from its place. Out often shows that water carries something out of a place or towards another place.",
+      "zh": "away 表示水把某物從原來的位置沖走；out 常表示水把某物從一處沖出，或沖向另一個地方。",
+      "en": "Away means that water removes or carries something from its place. Out often shows that water carries something out of a place or towards another place.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 5,
+      "titleZh": "在本課中，wash up 表示飯後清洗碗碟和煮食用具。",
+      "titleEn": "In this lesson, wash up means clean the dishes and cooking tools after a meal.",
+      "zh": "在本課中，wash up 表示飯後清洗碗碟和煮食用具。",
+      "en": "In this lesson, wash up means clean the dishes and cooking tools after a meal.",
+      "examplesEn": [],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "wash somebody/something away; wash something away",
+      "meaningZh": "水把某人或某物沖走；用水把痕跡或污物洗走",
+      "exampleEn": "The rain washed the chalk marks away.",
+      "exampleZh": "雨水把粉筆痕沖走了。",
+      "highlight": "washed the chalk marks away",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "formula": "wash something down",
+      "meaningZh": "用大量水沖洗較大的物件或表面",
+      "exampleEn": "Dad washed the wall down with a hose.",
+      "exampleZh": "爸爸用水喉沖洗那道牆。",
+      "highlight": "washed the wall down",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "formula": "wash off; wash something off; wash something off something",
+      "meaningZh": "污物或痕跡被洗掉；把污物從表面洗掉",
+      "exampleEn": "The mud washed off my shoes.",
+      "exampleZh": "我鞋上的泥被洗掉了。",
+      "highlight": "washed off",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "formula": "wash out; wash something out; wash something out of something",
+      "meaningZh": "顏色或污漬經清洗後褪去，或從衣物／頭髮中洗掉",
+      "exampleEn": "The red dye will wash out of your hair.",
+      "exampleZh": "頭髮上的紅色染料會被洗掉。",
+      "highlight": "wash out of",
+      "sourcePage": 2
+    },
+    {
+      "number": 5,
+      "formula": "wash somebody out",
+      "meaningZh": "令某人非常疲倦",
+      "exampleEn": "That long walk washed me out.",
+      "exampleZh": "那段長途步行令我累透了。",
+      "highlight": "washed me out",
+      "sourcePage": 2
+    },
+    {
+      "number": 6,
+      "formula": "wash somebody/something out (to...); wash somebody/something out of something",
+      "meaningZh": "水把某人或某物從一處沖出，或沖到海上等地方",
+      "exampleEn": "The river washed the branch out to sea.",
+      "exampleZh": "河水把樹枝沖到海中。",
+      "highlight": "washed the branch out to",
+      "sourcePage": 2
+    },
+    {
+      "number": 7,
+      "formula": "wash something out",
+      "meaningZh": "清洗容器內部",
+      "exampleEn": "Please wash the bottle out first.",
+      "exampleZh": "請先清洗瓶子內部。",
+      "highlight": "wash the bottle out",
+      "sourcePage": 2
+    },
+    {
+      "number": 8,
+      "formula": "wash up; wash something up",
+      "meaningZh": "在英式英語中，飯後清洗碗碟、杯子和煮食用具",
+      "exampleEn": "It is your turn to wash up.",
+      "exampleZh": "輪到你清洗碗碟了。",
+      "highlight": "wash up",
+      "sourcePage": 2
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WASH 動詞片語句子改寫練習",
+    "titleEn": "WASH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-10-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "Water removed the mud from my shoes.",
+      "promptZh": "水把我鞋上的泥洗掉了。",
+      "starter": "The",
+      "answer": "The mud washed off my shoes.",
+      "answerZh": "我鞋上的泥被洗掉了。",
+      "targetForm": "wash off / wash something off",
+      "targetMeaningZh": "洗掉表面的污物或痕跡",
+      "highlight": "washed off"
+    },
+    {
+      "id": "phrasal-verb-10-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "The heavy rain carried the loose soil far from the garden.",
+      "promptZh": "大雨把鬆散的泥土沖到離花園很遠的地方。",
+      "starter": "The",
+      "answer": "The heavy rain washed the loose soil away from the garden.",
+      "answerZh": "大雨把鬆散的泥土從花園沖走了。",
+      "targetForm": "wash somebody/something away",
+      "targetMeaningZh": "把某人或某物沖走；把痕跡洗走",
+      "highlight": "washed the loose soil away"
+    },
+    {
+      "id": "phrasal-verb-10-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "I cleaned the plates and cups after dinner.",
+      "promptZh": "我在晚飯後清洗了碟子和杯子。",
+      "starter": "I",
+      "answer": "I washed up the plates and cups after dinner.",
+      "answerZh": "我在晚飯後清洗了碟子和杯子。",
+      "targetForm": "wash up / wash something up",
+      "targetMeaningZh": "清洗碗碟和煮食用具",
+      "highlight": "washed up"
+    },
+    {
+      "id": "phrasal-verb-10-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "The long walk made Mia completely tired.",
+      "promptZh": "那段長途步行令米婭累透了。",
+      "starter": "The",
+      "answer": "The long walk washed Mia out.",
+      "answerZh": "那段長途步行令米婭累透了。",
+      "targetForm": "wash somebody out",
+      "targetMeaningZh": "令某人非常疲倦",
+      "highlight": "washed Mia out"
+    },
+    {
+      "id": "phrasal-verb-10-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "Dad cleaned the garden wall with a hose.",
+      "promptZh": "爸爸用水喉沖洗花園的牆。",
+      "starter": "Dad",
+      "answer": "Dad washed the garden wall down with a hose.",
+      "answerZh": "爸爸用水喉沖洗花園的牆。",
+      "targetForm": "wash something down",
+      "targetMeaningZh": "用大量水沖洗較大的物件或表面",
+      "highlight": "washed the garden wall down"
+    },
+    {
+      "id": "phrasal-verb-10-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "Lina cleaned the inside of the bottle with warm water.",
+      "promptZh": "莉娜用暖水清洗瓶子內部。",
+      "starter": "Lina",
+      "answer": "Lina washed the bottle out with warm water.",
+      "answerZh": "莉娜用暖水清洗瓶子內部。",
+      "targetForm": "wash something out",
+      "targetMeaningZh": "清洗容器內部",
+      "highlight": "washed the bottle out"
+    },
+    {
+      "id": "phrasal-verb-10-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "The blue colour will disappear from your hair after a few washes.",
+      "promptZh": "清洗幾次後，頭髮上的藍色便會褪去。",
+      "starter": "The",
+      "answer": "The blue colour will wash out of your hair after a few washes.",
+      "answerZh": "清洗幾次後，頭髮上的藍色便會褪去。",
+      "targetForm": "wash out / wash something out of something",
+      "targetMeaningZh": "把顏色或污漬從衣物或頭髮中洗掉",
+      "highlight": "wash out of"
+    },
+    {
+      "id": "phrasal-verb-10-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "The rain made the chalk drawings disappear completely.",
+      "promptZh": "雨水令粉筆畫完全消失了。",
+      "starter": "The",
+      "answer": "The rain washed the chalk drawings away completely.",
+      "answerZh": "雨水把粉筆畫完全沖走了。",
+      "targetForm": "wash somebody/something away",
+      "targetMeaningZh": "把某人或某物沖走；把痕跡洗走",
+      "highlight": "washed the chalk drawings away"
+    },
+    {
+      "id": "phrasal-verb-10-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "The river carried the broken branch out to sea.",
+      "promptZh": "河水把斷枝沖到海中。",
+      "starter": "The",
+      "answer": "The river washed the broken branch out to sea.",
+      "answerZh": "河水把斷枝沖到海中。",
+      "targetForm": "wash somebody/something out",
+      "targetMeaningZh": "把某人或某物從一處沖出",
+      "highlight": "washed the broken branch out"
+    },
+    {
+      "id": "phrasal-verb-10-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "The ink mark disappeared from my hand when I cleaned it with water.",
+      "promptZh": "我用水清洗時，手上的墨水痕便消失了。",
+      "starter": "The",
+      "answer": "The ink mark washed off my hand when I cleaned it with water.",
+      "answerZh": "我用水清洗時，手上的墨水痕便被洗掉了。",
+      "targetForm": "wash off / wash something off",
+      "targetMeaningZh": "洗掉表面的污物或痕跡",
+      "highlight": "washed off"
+    },
+    {
+      "id": "phrasal-verb-10-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "It is your turn to clean the dishes.",
+      "promptZh": "輪到你清洗碗碟了。",
+      "starter": "It",
+      "answer": "It is your turn to wash up.",
+      "answerZh": "輪到你清洗碗碟了。",
+      "targetForm": "wash up / wash something up",
+      "targetMeaningZh": "清洗碗碟和煮食用具",
+      "highlight": "wash up"
+    },
+    {
+      "id": "phrasal-verb-10-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "They cleaned the muddy van with plenty of water.",
+      "promptZh": "他們用大量清水沖洗那輛滿是泥濘的客貨車。",
+      "starter": "They",
+      "answer": "They washed the muddy van down with plenty of water.",
+      "answerZh": "他們用大量清水沖洗那輛滿是泥濘的客貨車。",
+      "targetForm": "wash something down",
+      "targetMeaningZh": "用大量水沖洗較大的物件或表面",
+      "highlight": "washed the muddy van down"
+    },
+    {
+      "id": "phrasal-verb-10-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "The busy day made us all extremely tired.",
+      "promptZh": "忙碌的一天令我們全都疲倦不堪。",
+      "starter": "The",
+      "answer": "The busy day washed us all out.",
+      "answerZh": "忙碌的一天令我們全都疲倦不堪。",
+      "targetForm": "wash somebody out",
+      "targetMeaningZh": "令某人非常疲倦",
+      "highlight": "washed us all out"
+    },
+    {
+      "id": "phrasal-verb-10-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "Please clean the inside of these jars before using them.",
+      "promptZh": "使用這些玻璃樽前，請先清洗內部。",
+      "starter": "Please",
+      "answer": "Please wash these jars out before using them.",
+      "answerZh": "使用這些玻璃樽前，請先清洗內部。",
+      "targetForm": "wash something out",
+      "targetMeaningZh": "清洗容器內部",
+      "highlight": "wash these jars out"
+    },
+    {
+      "id": "phrasal-verb-10-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 10,
+      "answerZhSourcePage": 10,
+      "prompt": "The cook has cleaned the inside of all the large jars.",
+      "promptZh": "廚師已清洗所有大玻璃樽的內部。",
+      "starter": "The",
+      "answer": "The cook has washed all the large jars out.",
+      "answerZh": "廚師已清洗所有大玻璃樽的內部。",
+      "targetForm": "wash something out",
+      "targetMeaningZh": "清洗容器內部",
+      "highlight": "washed all the large jars out"
+    },
+    {
+      "id": "phrasal-verb-10-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "The sauce did not disappear from the table when I cleaned it.",
+      "promptZh": "我清潔桌面時，醬汁污漬沒有被洗掉。",
+      "starter": "The",
+      "answer": "The sauce did not wash off the table when I cleaned it.",
+      "answerZh": "我清潔桌面時，醬汁污漬沒有被洗掉。",
+      "targetForm": "wash off / wash something off",
+      "targetMeaningZh": "洗掉表面的污物或痕跡",
+      "highlight": "wash off"
+    },
+    {
+      "id": "phrasal-verb-10-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "A sudden wave has moved several beach bags far from our towels.",
+      "promptZh": "一道突然湧來的海浪把幾個沙灘袋沖到離毛巾很遠的地方。",
+      "starter": "A",
+      "answer": "A sudden wave has washed several beach bags away from our towels.",
+      "answerZh": "一道突然湧來的海浪把幾個沙灘袋沖到離毛巾很遠的地方。",
+      "targetForm": "wash somebody/something away",
+      "targetMeaningZh": "把某人或某物沖走；把痕跡洗走",
+      "highlight": "washed several beach bags away"
+    },
+    {
+      "id": "phrasal-verb-10-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "Are you cleaning the dishes tonight?",
+      "promptZh": "今晚由你清洗碗碟嗎？",
+      "starter": "Are",
+      "answer": "Are you washing up tonight?",
+      "answerZh": "今晚由你清洗碗碟嗎？",
+      "targetForm": "wash up / wash something up",
+      "targetMeaningZh": "清洗碗碟和煮食用具",
+      "highlight": "washing up"
+    },
+    {
+      "id": "phrasal-verb-10-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "The red dye is slowly disappearing from her hair.",
+      "promptZh": "她頭髮上的紅色染料正慢慢褪去。",
+      "starter": "The",
+      "answer": "The red dye is slowly washing out of her hair.",
+      "answerZh": "她頭髮上的紅色染料正慢慢褪去。",
+      "targetForm": "wash out / wash something out of something",
+      "targetMeaningZh": "把顏色或污漬從衣物或頭髮中洗掉",
+      "highlight": "washing out of"
+    },
+    {
+      "id": "phrasal-verb-10-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "If the gate opens, the water may carry the rubbish out to sea.",
+      "promptZh": "如果閘門打開，水流可能會把垃圾沖到海中。",
+      "starter": "If",
+      "answer": "If the gate opens, the water may wash the rubbish out to sea.",
+      "answerZh": "如果閘門打開，水流可能會把垃圾沖到海中。",
+      "targetForm": "wash somebody/something out",
+      "targetMeaningZh": "把某人或某物從一處沖出",
+      "highlight": "wash the rubbish out"
+    },
+    {
+      "id": "phrasal-verb-10-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "The workers are cleaning the school playground with hoses.",
+      "promptZh": "工人正用水喉沖洗學校操場。",
+      "starter": "The",
+      "answer": "The workers are washing the school playground down with hoses.",
+      "answerZh": "工人正用水喉沖洗學校操場。",
+      "targetForm": "wash something down",
+      "targetMeaningZh": "用大量水沖洗較大的物件或表面",
+      "highlight": "washing the school playground down"
+    },
+    {
+      "id": "phrasal-verb-10-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "Will this pen mark disappear from the desk with water?",
+      "promptZh": "這個原子筆痕可以用水從桌面洗掉嗎？",
+      "starter": "Will",
+      "answer": "Will this pen mark wash off the desk with water?",
+      "answerZh": "這個原子筆痕可以用水從桌面洗掉嗎？",
+      "targetForm": "wash off / wash something off",
+      "targetMeaningZh": "洗掉表面的污物或痕跡",
+      "highlight": "wash off"
+    },
+    {
+      "id": "phrasal-verb-10-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "Has the overnight bus journey made you very tired?",
+      "promptZh": "通宵巴士旅程令你非常疲倦嗎？",
+      "starter": "Has",
+      "answer": "Has the overnight bus journey washed you out?",
+      "answerZh": "通宵巴士旅程令你非常疲倦嗎？",
+      "targetForm": "wash somebody out",
+      "targetMeaningZh": "令某人非常疲倦",
+      "highlight": "washed you out"
+    },
+    {
+      "id": "phrasal-verb-10-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "I am cleaning the inside of the lunch box now.",
+      "promptZh": "我現在正清洗飯盒內部。",
+      "starter": "I",
+      "answer": "I am washing the lunch box out now.",
+      "answerZh": "我現在正清洗飯盒內部。",
+      "targetForm": "wash something out",
+      "targetMeaningZh": "清洗容器內部",
+      "highlight": "washing the lunch box out"
+    },
+    {
+      "id": "phrasal-verb-10-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "The dark stain has disappeared from the white shirt.",
+      "promptZh": "白恤衫上的深色污漬已被洗掉。",
+      "starter": "The",
+      "answer": "The dark stain has washed out of the white shirt.",
+      "answerZh": "白恤衫上的深色污漬已被洗掉。",
+      "targetForm": "wash out / wash something out of something",
+      "targetMeaningZh": "把顏色或污漬從衣物或頭髮中洗掉",
+      "highlight": "washed out of"
+    },
+    {
+      "id": "phrasal-verb-10-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "The flood has moved the small wooden bridge from its place.",
+      "promptZh": "洪水把小木橋從原來的位置沖走了。",
+      "starter": "The",
+      "answer": "The flood has washed the small wooden bridge away.",
+      "answerZh": "洪水把小木橋沖走了。",
+      "targetForm": "wash somebody/something away",
+      "targetMeaningZh": "把某人或某物沖走；把痕跡洗走",
+      "highlight": "washed the small wooden bridge away"
+    },
+    {
+      "id": "phrasal-verb-10-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "We will clean all the pans after lunch.",
+      "promptZh": "我們會在午飯後清洗所有平底鍋。",
+      "starter": "We",
+      "answer": "We will wash up all the pans after lunch.",
+      "answerZh": "我們會在午飯後清洗所有平底鍋。",
+      "targetForm": "wash up / wash something up",
+      "targetMeaningZh": "清洗碗碟和煮食用具",
+      "highlight": "wash up"
+    },
+    {
+      "id": "phrasal-verb-10-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "The fast water was carrying sand out of the pipe.",
+      "promptZh": "急速的水流正把沙沖出喉管。",
+      "starter": "The",
+      "answer": "The fast water was washing sand out of the pipe.",
+      "answerZh": "急速的水流正把沙沖出喉管。",
+      "targetForm": "wash somebody/something out",
+      "targetMeaningZh": "把某人或某物從一處沖出",
+      "highlight": "washing sand out"
+    },
+    {
+      "id": "phrasal-verb-10-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "The dog made the door muddy, so I cleaned the whole door with a hose.",
+      "promptZh": "狗把門弄得滿是泥濘，所以我用水喉沖洗整扇門。",
+      "starter": "The",
+      "answer": "The dog made the door muddy, so I washed the whole door down with a hose.",
+      "answerZh": "狗把門弄得滿是泥濘，所以我用水喉沖洗整扇門。",
+      "targetForm": "wash something down",
+      "targetMeaningZh": "用大量水沖洗較大的物件或表面",
+      "highlight": "washed the whole door down"
+    },
+    {
+      "id": "phrasal-verb-10-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "The label says that warm water can remove the coffee stain from the shirt.",
+      "promptZh": "標籤表示暖水可以把咖啡漬從恤衫中洗掉。",
+      "starter": "The",
+      "answer": "The label says that warm water can wash the coffee stain out of the shirt.",
+      "answerZh": "標籤表示暖水可以把咖啡漬從恤衫中洗掉。",
+      "targetForm": "wash out / wash something out of something",
+      "targetMeaningZh": "把顏色或污漬從衣物或頭髮中洗掉",
+      "highlight": "wash the coffee stain out of"
+    },
+    {
+      "id": "phrasal-verb-10-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 11,
+      "answerZhSourcePage": 11,
+      "prompt": "Two empty boats were tied near the small island. The storm moved them far away.",
+      "promptZh": "兩艘空船停泊在小島附近。暴風雨把它們沖到很遠。",
+      "starter": "Two",
+      "answer": "Two empty boats were tied near the small island. The storm washed them away.",
+      "answerZh": "兩艘空船停泊在小島附近。暴風雨把它們沖走了。",
+      "targetForm": "wash somebody/something away",
+      "targetMeaningZh": "把某人或某物沖走；把痕跡洗走",
+      "highlight": "washed them away"
+    },
+    {
+      "id": "phrasal-verb-10-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "A toy boat fell into the stream, and the water carried it out into the lake.",
+      "promptZh": "一艘玩具船掉進小溪，水流把它沖到湖中。",
+      "starter": "A",
+      "answer": "A toy boat fell into the stream, and the water washed it out into the lake.",
+      "answerZh": "一艘玩具船掉進小溪，水流把它沖到湖中。",
+      "targetForm": "wash somebody/something out",
+      "targetMeaningZh": "把某人或某物從一處沖出",
+      "highlight": "washed it out"
+    },
+    {
+      "id": "phrasal-verb-10-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "The plates are still dirty, so please clean them again.",
+      "promptZh": "碟子仍然很髒，請再清洗一次。",
+      "starter": "The",
+      "answer": "The plates are still dirty, so please wash them up again.",
+      "answerZh": "碟子仍然很髒，請再清洗一次。",
+      "targetForm": "wash up / wash something up",
+      "targetMeaningZh": "清洗碗碟和煮食用具",
+      "highlight": "wash them up"
+    },
+    {
+      "id": "phrasal-verb-10-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "The two-hour football match made him completely tired.",
+      "promptZh": "那場兩小時的足球賽令他累透了。",
+      "starter": "The",
+      "answer": "The two-hour football match washed him out.",
+      "answerZh": "那場兩小時的足球賽令他累透了。",
+      "targetForm": "wash somebody out",
+      "targetMeaningZh": "令某人非常疲倦",
+      "highlight": "washed him out"
+    },
+    {
+      "id": "phrasal-verb-10-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "I used soap and water to remove the oil from my hands.",
+      "promptZh": "我用肥皂和清水洗掉手上的油。",
+      "starter": "I",
+      "answer": "I washed the oil off my hands with soap and water.",
+      "answerZh": "我用肥皂和清水洗掉手上的油。",
+      "targetForm": "wash off / wash something off",
+      "targetMeaningZh": "洗掉表面的污物或痕跡",
+      "highlight": "washed the oil off"
+    },
+    {
+      "id": "phrasal-verb-10-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "We should clean the outside tables with plenty of water before the party.",
+      "promptZh": "派對開始前，我們應該用大量清水沖洗戶外桌子。",
+      "starter": "We",
+      "answer": "We should wash the outside tables down with plenty of water before the party.",
+      "answerZh": "派對開始前，我們應該用大量清水沖洗戶外桌子。",
+      "targetForm": "wash something down",
+      "targetMeaningZh": "用大量水沖洗較大的物件或表面",
+      "highlight": "wash the outside tables down"
+    },
+    {
+      "id": "phrasal-verb-10-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "The large pot was dusty. Mum cleaned the inside before filling it with soup.",
+      "promptZh": "那個大鍋滿是灰塵。媽媽先清洗內部，才把湯倒進去。",
+      "starter": "The",
+      "answer": "The large pot was dusty. Mum washed it out before filling it with soup.",
+      "answerZh": "那個大鍋滿是灰塵。媽媽先清洗內部，才把湯倒進去。",
+      "targetForm": "wash something out",
+      "targetMeaningZh": "清洗容器內部",
+      "highlight": "washed it out"
+    },
+    {
+      "id": "phrasal-verb-10-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "The shop assistant said the hair colour would disappear in two weeks.",
+      "promptZh": "店員說髮色會在兩星期內褪去。",
+      "starter": "The",
+      "answer": "The shop assistant said the hair colour would wash out in two weeks.",
+      "answerZh": "店員說髮色會在兩星期內褪去。",
+      "targetForm": "wash out / wash something out of something",
+      "targetMeaningZh": "把顏色或污漬從衣物或頭髮中洗掉",
+      "highlight": "wash out"
+    },
+    {
+      "id": "phrasal-verb-10-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "Cold water removed the last signs of tears from his face.",
+      "promptZh": "冷水洗去了他臉上最後的淚痕。",
+      "starter": "Cold",
+      "answer": "Cold water washed the last signs of tears away from his face.",
+      "answerZh": "冷水洗去了他臉上最後的淚痕。",
+      "targetForm": "wash somebody/something away",
+      "targetMeaningZh": "把某人或某物沖走；把痕跡洗走",
+      "highlight": "washed the last signs of tears away"
+    },
+    {
+      "id": "phrasal-verb-10-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "After the picnic, we cleaned the cups, plates and forks at the sink.",
+      "promptZh": "野餐後，我們在洗手盆清洗杯子、碟子和叉子。",
+      "starter": "After",
+      "answer": "After the picnic, we washed up the cups, plates and forks at the sink.",
+      "answerZh": "野餐後，我們在洗手盆清洗杯子、碟子和叉子。",
+      "targetForm": "wash up / wash something up",
+      "targetMeaningZh": "清洗碗碟和煮食用具",
+      "highlight": "washed up"
+    },
+    {
+      "id": "phrasal-verb-10-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "The water moved the ball out of the cave and into the open sea.",
+      "promptZh": "水流把球沖出洞穴，再沖到外海。",
+      "starter": "The",
+      "answer": "The water washed the ball out of the cave and into the open sea.",
+      "answerZh": "水流把球沖出洞穴，再沖到外海。",
+      "targetForm": "wash somebody/something out",
+      "targetMeaningZh": "把某人或某物從一處沖出",
+      "highlight": "washed the ball out"
+    },
+    {
+      "id": "phrasal-verb-10-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "A full day of moving boxes left us all extremely tired.",
+      "promptZh": "搬了一整天箱子，令我們全都疲倦不堪。",
+      "starter": "A",
+      "answer": "A full day of moving boxes washed us all out.",
+      "answerZh": "搬了一整天箱子，令我們全都疲倦不堪。",
+      "targetForm": "wash somebody out",
+      "targetMeaningZh": "令某人非常疲倦",
+      "highlight": "washed us all out"
+    },
+    {
+      "id": "phrasal-verb-10-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "The work was not difficult, but doing it for six hours made her completely tired.",
+      "promptZh": "工作本身並不困難，但連續做了六小時令她累透了。",
+      "starter": "The",
+      "answer": "The work was not difficult, but doing it for six hours washed her out.",
+      "answerZh": "工作本身並不困難，但連續做了六小時令她累透了。",
+      "targetForm": "wash somebody out",
+      "targetMeaningZh": "令某人非常疲倦",
+      "highlight": "washed her out"
+    },
+    {
+      "id": "phrasal-verb-10-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "Before painting the fence, Kai cleaned every part of it with a strong stream of water.",
+      "promptZh": "上油漆前，凱用強力水柱沖洗圍欄的每一部分。",
+      "starter": "Before",
+      "answer": "Before painting the fence, Kai washed it down with a strong stream of water.",
+      "answerZh": "上油漆前，凱用強力水柱沖洗整道圍欄。",
+      "targetForm": "wash something down",
+      "targetMeaningZh": "用大量水沖洗較大的物件或表面",
+      "highlight": "washed it down"
+    },
+    {
+      "id": "phrasal-verb-10-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "The milk bottle was empty, but it still smelled bad inside, so I cleaned it with hot water.",
+      "promptZh": "牛奶瓶已經空了，但裏面仍有異味，所以我用熱水清洗內部。",
+      "starter": "The",
+      "answer": "The milk bottle was empty, but it still smelled bad inside, so I washed it out with hot water.",
+      "answerZh": "牛奶瓶已經空了，但裏面仍有異味，所以我用熱水清洗內部。",
+      "targetForm": "wash something out",
+      "targetMeaningZh": "清洗容器內部",
+      "highlight": "washed it out"
+    },
+    {
+      "id": "phrasal-verb-10-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "The black mark stayed on the wall even after I used water.",
+      "promptZh": "即使我用了清水，牆上的黑色痕跡仍然沒有消失。",
+      "starter": "The",
+      "answer": "The black mark would not wash off the wall.",
+      "answerZh": "牆上的黑色痕跡怎樣也洗不掉。",
+      "targetForm": "wash off / wash something off",
+      "targetMeaningZh": "洗掉表面的污物或痕跡",
+      "highlight": "wash off"
+    },
+    {
+      "id": "phrasal-verb-10-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "Could you clean the breakfast dishes while I make the beds?",
+      "promptZh": "我整理床舖時，你可以清洗早餐用過的碗碟嗎？",
+      "starter": "Could",
+      "answer": "Could you wash up the breakfast dishes while I make the beds?",
+      "answerZh": "我整理床舖時，你可以清洗早餐用過的碗碟嗎？",
+      "targetForm": "wash up / wash something up",
+      "targetMeaningZh": "清洗碗碟和煮食用具",
+      "highlight": "wash up"
+    },
+    {
+      "id": "phrasal-verb-10-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The colour is not permanent; normal washing will remove it from the cloth.",
+      "promptZh": "這種顏色並不持久；普通清洗便可以把它從布料中洗掉。",
+      "starter": "The",
+      "answer": "The colour is not permanent; it will wash out of the cloth.",
+      "answerZh": "這種顏色並不持久；普通清洗後便會從布料中褪去。",
+      "targetForm": "wash out / wash something out of something",
+      "targetMeaningZh": "把顏色或污漬從衣物或頭髮中洗掉",
+      "highlight": "wash out of"
+    },
+    {
+      "id": "phrasal-verb-10-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The water moved the picnic table far from the riverbank during the night.",
+      "promptZh": "夜間的水流把野餐桌沖到離河岸很遠的地方。",
+      "starter": "The",
+      "answer": "The water washed the picnic table away from the riverbank during the night.",
+      "answerZh": "夜間的水流把野餐桌從河岸沖走了。",
+      "targetForm": "wash somebody/something away",
+      "targetMeaningZh": "把某人或某物沖走；把痕跡洗走",
+      "highlight": "washed the picnic table away"
+    },
+    {
+      "id": "phrasal-verb-10-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "You look exhausted. Did the long flight make you feel like this?",
+      "promptZh": "你看來筋疲力盡。是那程長途機令你這樣嗎？",
+      "starter": "You",
+      "answer": "You look exhausted. Did the long flight wash you out?",
+      "answerZh": "你看來筋疲力盡。是那程長途機令你這樣嗎？",
+      "targetForm": "wash somebody out",
+      "targetMeaningZh": "令某人非常疲倦",
+      "highlight": "wash you out"
+    },
+    {
+      "id": "phrasal-verb-10-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The rain filled the ditch and carried the leaves out onto the road.",
+      "promptZh": "雨水注滿水溝，並把樹葉沖到路面。",
+      "starter": "The",
+      "answer": "The rain filled the ditch and washed the leaves out onto the road.",
+      "answerZh": "雨水注滿水溝，並把樹葉沖到路面。",
+      "targetForm": "wash somebody/something out",
+      "targetMeaningZh": "把某人或某物從一處沖出",
+      "highlight": "washed the leaves out"
+    },
+    {
+      "id": "phrasal-verb-10-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The café owner cleans the pavement with a hose every morning.",
+      "promptZh": "咖啡店店主每天早上都用水喉沖洗行人路。",
+      "starter": "The",
+      "answer": "The café owner washes the pavement down with a hose every morning.",
+      "answerZh": "咖啡店店主每天早上都用水喉沖洗行人路。",
+      "targetForm": "wash something down",
+      "targetMeaningZh": "用大量水沖洗較大的物件或表面",
+      "highlight": "washes the pavement down"
+    },
+    {
+      "id": "phrasal-verb-10-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Do not put juice in the jar yet; clean the inside first.",
+      "promptZh": "先不要把果汁倒進玻璃樽；先清洗內部。",
+      "starter": "Do",
+      "answer": "Do not put juice in the jar yet; wash it out first.",
+      "answerZh": "先不要把果汁倒進玻璃樽；先清洗內部。",
+      "targetForm": "wash something out",
+      "targetMeaningZh": "清洗容器內部",
+      "highlight": "wash it out"
+    },
+    {
+      "id": "phrasal-verb-10-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "No matter how much I use soap and water, the blue ink stays on my fingers.",
+      "promptZh": "無論我用多少肥皂和清水，藍色墨水仍留在手指上。",
+      "starter": "No",
+      "answer": "No matter how much I use soap and water, the blue ink will not wash off my fingers.",
+      "answerZh": "無論我用多少肥皂和清水，手指上的藍色墨水仍洗不掉。",
+      "targetForm": "wash off / wash something off",
+      "targetMeaningZh": "洗掉表面的污物或痕跡",
+      "highlight": "wash off"
+    },
+    {
+      "id": "phrasal-verb-10-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "When everyone had finished eating, Noor cleaned the plates and cooking pots.",
+      "promptZh": "所有人吃完後，努爾清洗了碟子和鍋具。",
+      "starter": "When",
+      "answer": "When everyone had finished eating, Noor washed up the plates and cooking pots.",
+      "answerZh": "所有人吃完後，努爾清洗了碟子和鍋具。",
+      "targetForm": "wash up / wash something up",
+      "targetMeaningZh": "清洗碗碟和煮食用具",
+      "highlight": "washed up"
+    },
+    {
+      "id": "phrasal-verb-10-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The first wash removed most of the green dye from the T-shirt.",
+      "promptZh": "第一次清洗便把大部分綠色染料從 T 恤中洗掉。",
+      "starter": "Most",
+      "answer": "Most of the green dye washed out of the T-shirt in the first wash.",
+      "answerZh": "第一次清洗便把大部分綠色染料從 T 恤中洗掉。",
+      "targetForm": "wash out / wash something out of something",
+      "targetMeaningZh": "把顏色或污漬從衣物或頭髮中洗掉",
+      "highlight": "washed out of"
+    },
+    {
+      "id": "phrasal-verb-10-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The rope fell from the boat, and the current carried it out beyond the harbour wall.",
+      "promptZh": "繩子從船上掉下，水流把它沖到港口圍牆外。",
+      "starter": "The",
+      "answer": "The rope fell from the boat, and the current washed it out beyond the harbour wall.",
+      "answerZh": "繩子從船上掉下，水流把它沖到港口圍牆外。",
+      "targetForm": "wash somebody/something out",
+      "targetMeaningZh": "把某人或某物從一處沖出",
+      "highlight": "washed it out"
+    },
+    {
+      "id": "phrasal-verb-10-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The cream should be easy to remove from your skin with warm water.",
+      "promptZh": "這種乳霜應該很容易用暖水從皮膚上洗掉。",
+      "starter": "The",
+      "answer": "The cream should wash off your skin easily with warm water.",
+      "answerZh": "這種乳霜應該很容易用暖水從皮膚上洗掉。",
+      "targetForm": "wash off / wash something off",
+      "targetMeaningZh": "洗掉表面的污物或痕跡",
+      "highlight": "wash off"
+    },
+    {
+      "id": "phrasal-verb-10-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The children had drawn a large picture in chalk, but the overnight rain made it disappear.",
+      "promptZh": "孩子們用粉筆畫了一幅大圖畫，但一夜的雨水令它消失了。",
+      "starter": "The",
+      "answer": "The children had drawn a large picture in chalk, but the overnight rain washed it away.",
+      "answerZh": "孩子們用粉筆畫了一幅大圖畫，但一夜的雨水把它沖走了。",
+      "targetForm": "wash somebody/something away",
+      "targetMeaningZh": "把某人或某物沖走；把痕跡洗走",
+      "highlight": "washed it away"
+    },
+    {
+      "id": "phrasal-verb-10-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The red colour looked bright at first, but after several washes it had almost disappeared from the towel.",
+      "promptZh": "紅色起初很鮮艷，但清洗數次後，毛巾上的顏色已差不多褪去。",
+      "starter": "The",
+      "answer": "The red colour looked bright at first, but after several washes it had almost washed out of the towel.",
+      "answerZh": "紅色起初很鮮艷，但清洗數次後，毛巾上的顏色已差不多褪去。",
+      "targetForm": "wash out / wash something out of something",
+      "targetMeaningZh": "把顏色或污漬從衣物或頭髮中洗掉",
+      "highlight": "washed out of"
+    },
+    {
+      "id": "phrasal-verb-10-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The container held paint yesterday. Clean the inside carefully before you use it for water.",
+      "promptZh": "這個容器昨天盛過油漆。用來盛水前，請小心清洗內部。",
+      "starter": "The",
+      "answer": "The container held paint yesterday. Wash it out carefully before you use it for water.",
+      "answerZh": "這個容器昨天盛過油漆。用來盛水前，請小心清洗內部。",
+      "targetForm": "wash something out",
+      "targetMeaningZh": "清洗容器內部",
+      "highlight": "Wash it out"
+    },
+    {
+      "id": "phrasal-verb-10-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "The playground was covered in mud after the storm, so the staff used hoses to clean the whole area.",
+      "promptZh": "暴風雨後，操場滿是泥濘，所以職員用水喉沖洗整個地方。",
+      "starter": "The",
+      "answer": "The playground was covered in mud after the storm, so the staff washed the whole area down with hoses.",
+      "answerZh": "暴風雨後，操場滿是泥濘，所以職員用水喉沖洗整個地方。",
+      "targetForm": "wash something down",
+      "targetMeaningZh": "用大量水沖洗較大的物件或表面",
+      "highlight": "washed the whole area down"
+    },
+    {
+      "id": "phrasal-verb-10-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "I was fine after the first hour, but the rest of the mountain walk left me completely exhausted.",
+      "promptZh": "第一小時後我仍然沒事，但餘下的山路令我筋疲力盡。",
+      "starter": "I",
+      "answer": "I was fine after the first hour, but the rest of the mountain walk washed me out.",
+      "answerZh": "第一小時後我仍然沒事，但餘下的山路令我筋疲力盡。",
+      "targetForm": "wash somebody out",
+      "targetMeaningZh": "令某人非常疲倦",
+      "highlight": "washed me out"
+    },
+    {
+      "id": "phrasal-verb-10-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The gate opened suddenly, and the rushing water carried the boxes out of the store room.",
+      "promptZh": "閘門突然打開，急流把箱子沖出儲物室。",
+      "starter": "The",
+      "answer": "The gate opened suddenly, and the rushing water washed the boxes out of the store room.",
+      "answerZh": "閘門突然打開，急流把箱子沖出儲物室。",
+      "targetForm": "wash somebody/something out",
+      "targetMeaningZh": "把某人或某物從一處沖出",
+      "highlight": "washed the boxes out"
+    },
+    {
+      "id": "phrasal-verb-10-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "We cooked a large family meal, so there are many plates and pans to clean now.",
+      "promptZh": "我們煮了一頓豐富的家庭餐，所以現在有很多碟子和平底鍋要清洗。",
+      "starter": "We",
+      "answer": "We cooked a large family meal, so there are many plates and pans to wash up now.",
+      "answerZh": "我們煮了一頓豐富的家庭餐，所以現在有很多碟子和平底鍋要清洗。",
+      "targetForm": "wash up / wash something up",
+      "targetMeaningZh": "清洗碗碟和煮食用具",
+      "highlight": "wash up"
+    },
+    {
+      "id": "phrasal-verb-10-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The mud is dry now, but rain should remove it from the windows.",
+      "promptZh": "泥已經乾了，但雨水應該可以把它從窗戶上洗掉。",
+      "starter": "The",
+      "answer": "The mud is dry now, but rain should wash it off the windows.",
+      "answerZh": "泥已經乾了，但雨水應該可以把它從窗戶上洗掉。",
+      "targetForm": "wash off / wash something off",
+      "targetMeaningZh": "洗掉表面的污物或痕跡",
+      "highlight": "wash it off"
+    },
+    {
+      "id": "phrasal-verb-10-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "A small flood entered the tent and moved all our shoes far from where we had left them.",
+      "promptZh": "一股小洪水湧入帳幕，把我們所有鞋子沖到遠離原來位置的地方。",
+      "starter": "A",
+      "answer": "A small flood entered the tent and washed all our shoes away from where we had left them.",
+      "answerZh": "一股小洪水湧入帳幕，把我們所有鞋子從原來的位置沖走了。",
+      "targetForm": "wash somebody/something away",
+      "targetMeaningZh": "把某人或某物沖走；把痕跡洗走",
+      "highlight": "washed all our shoes away"
+    },
+    {
+      "id": "phrasal-verb-10-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The stain may look dark now, but soap and warm water should remove it from the blanket.",
+      "promptZh": "污漬現在看來可能很深色，但肥皂和暖水應該可以把它從毛氈中洗掉。",
+      "starter": "The",
+      "answer": "The stain may look dark now, but soap and warm water should wash it out of the blanket.",
+      "answerZh": "污漬現在看來可能很深色，但肥皂和暖水應該可以把它從毛氈中洗掉。",
+      "targetForm": "wash out / wash something out of something",
+      "targetMeaningZh": "把顏色或污漬從衣物或頭髮中洗掉",
+      "highlight": "wash it out of"
+    },
+    {
+      "id": "phrasal-verb-10-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The vase has been in the cupboard for months. Clean the inside before putting flowers in it.",
+      "promptZh": "花瓶已放在櫃子裏數月。插花前，請先清洗內部。",
+      "starter": "The",
+      "answer": "The vase has been in the cupboard for months. Wash it out before putting flowers in it.",
+      "answerZh": "花瓶已放在櫃子裏數月。插花前，請先清洗內部。",
+      "targetForm": "wash something out",
+      "targetMeaningZh": "清洗容器內部",
+      "highlight": "Wash it out"
+    },
+    {
+      "id": "phrasal-verb-10-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "After the market closed, workers used a hose to clean the long row of stalls.",
+      "promptZh": "市場關門後，工人用水喉沖洗整排攤檔。",
+      "starter": "After",
+      "answer": "After the market closed, workers washed down the long row of stalls with a hose.",
+      "answerZh": "市場關門後，工人用水喉沖洗整排攤檔。",
+      "targetForm": "wash something down",
+      "targetMeaningZh": "用大量水沖洗較大的物件或表面",
+      "highlight": "washed down"
+    }
+  ]
+}

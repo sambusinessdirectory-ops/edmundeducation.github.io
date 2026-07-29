@@ -1,0 +1,832 @@
+{
+  "id": "phrasal-verb-32",
+  "order": 32,
+  "slug": "centre",
+  "version": "1",
+  "title": "CENTRE 動詞片語",
+  "titleEn": "Centre",
+  "titleZh": "CENTRE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 1,
+  "source": {
+    "file": "Phrasal Verbs 31 - CENTRE.pdf",
+    "pageCount": 14,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "answerKeyPdfPages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CENTRE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CENTRE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CENTRE",
+      "highlight": "CENTRE"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "The debate centres around the question of power.",
+      "zh": "這場辯論以權力問題為中心。",
+      "highlight": "centres around the question of power"
+    }
+  ],
+  "meaning": {
+    "zh": "以某人或某事物為中心；把某項活動、討論、故事或內容的重點放在某人或某事物上",
+    "en": "centre around/on/upon somebody/something; centre something around/on/upon somebody/something",
+    "naturalZh": [
+      "以某人或某事物為中心；把某項活動、討論、故事或內容的重點放在某人或某事物上"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "centre around/on/upon somebody/something; centre something around/on/upon somebody/something",
+      "titleZh": "以某人或某事物為中心；把某項活動、討論、故事或內容的重點放在某人或某事物上",
+      "titleEn": "centre around/on/upon somebody/something; centre something around/on/upon somebody/something",
+      "descriptionZh": "以某人或某事物為中心；把某項活動、討論、故事或內容的重點放在某人或某事物上",
+      "descriptionEn": "The discussions centred on the hostage issue.",
+      "examples": [
+        {
+          "en": "The debate centres around the question of power.",
+          "zh": "這場辯論以權力問題為中心。",
+          "highlight": "centres around the question of power"
+        },
+        {
+          "en": "The discussions centred on the hostage issue.",
+          "zh": "討論集中在人質問題上。",
+          "highlight": "centred on the hostage issue"
+        }
+      ]
+    }
+  ],
+  "register": {
+    "labelZh": "CENTRE 片語動詞的實際用途",
+    "labelEn": "CENTRE Phrasal Verbs in Use",
+    "summaryZh": "CENTRE 片語動詞能幫助你說明會議、課堂、書籍、電影或討論主要圍繞甚麼內容。；你可以說明某人如何以一個人物或構思為中心，安排課堂、活動、演講或故事。；你可以指出一件事真正集中在哪個重點，並把它與較不重要的內容作比較。；人們描述報告、專題、講座、電影、書籍和公開討論時，經常會使用 CENTRE 片語動詞。",
+    "summaryEn": "CENTRE expressions help you explain what a meeting, lesson, book, film or discussion is mainly about. You can describe how someone organises a lesson, event, speech or story with one person or idea as its main focus. You can show what something centres on and contrast it with less important information. CENTRE expressions often appear when people describe reports, projects, talks, films, books and public discussions.",
+    "contextsZh": [
+      "清楚指出主要主題",
+      "說明一件事如何安排",
+      "清楚表達真正重點",
+      "理解常見描述用語"
+    ],
+    "contextsEn": [
+      "Show the main subject clearly",
+      "Explain how something is planned",
+      "Make the real focus clear",
+      "Understand common descriptions"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 CENTRE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CENTRE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "centre around/on/upon somebody/something; centre something around/on/upon somebody/something",
+    "fixedHighlight": "centre around/on/upon somebody/something; centre something around/on/upon somebody/something",
+    "fixedZh": "閱讀整句，選出意思相同的 CENTRE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CENTRE expression that gives the same meaning.",
+    "correct": "centres around the question of power",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意以下兩種常見用法：；around、on 和 upon 在很多句子中都可以表示「以某人或某事物為中心／重點」。參考答案會提供一個自然的示範答案，但部分題目也可能接受參考表中的另一種形式。",
+    "variableEn": "Keep the same people, things, time and meaning. Notice the two common ways of using these expressions: Around, on and upon often express the same idea of a main subject or focus. The answer key gives one natural model answer, but another listed form may also be possible in some sentences.",
+    "variableItemsZh": [
+      "centre around/on/upon somebody/something; centre something around/on/upon somebody/something"
+    ],
+    "variableItemsEn": [
+      "centre around/on/upon somebody/something; centre something around/on/upon somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "以某人或某事物為中心；把某項活動、討論、故事或內容的重點放在某人或某事物上",
+        "formEn": "centre around/on/upon somebody/something; centre something around/on/upon somebody/something",
+        "exampleZh": "這場辯論以權力問題為中心。",
+        "exampleEn": "The debate centres around the question of power.",
+        "highlight": "centres around the question of power"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "以某人或某事物為中心；把某項活動、討論、故事或內容的重點放在某人或某事物上",
+      "titleEn": "centre around/on/upon somebody/something; centre something around/on/upon somebody/something",
+      "formula": "centre around/on/upon somebody/something; centre something around/on/upon somebody/something",
+      "highlight": "centre around/on/upon somebody/something; centre something around/on/upon somebody/something",
+      "descriptionZh": "以某人或某事物為中心；把某項活動、討論、故事或內容的重點放在某人或某事物上",
+      "descriptionEn": "The discussions centred on the hostage issue.",
+      "examples": [
+        {
+          "en": "The debate centres around the question of power.",
+          "zh": "這場辯論以權力問題為中心。",
+          "highlight": "centres around the question of power"
+        },
+        {
+          "en": "The discussions centred on the hostage issue.",
+          "zh": "討論集中在人質問題上。",
+          "highlight": "centred on the hostage issue"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚指出主要主題",
+      "titleEn": "Show the main subject clearly",
+      "zh": "CENTRE 片語動詞能幫助你說明會議、課堂、書籍、電影或討論主要圍繞甚麼內容。",
+      "en": "CENTRE expressions help you explain what a meeting, lesson, book, film or discussion is mainly about."
+    },
+    {
+      "titleZh": "說明一件事如何安排",
+      "titleEn": "Explain how something is planned",
+      "zh": "你可以說明某人如何以一個人物或構思為中心，安排課堂、活動、演講或故事。",
+      "en": "You can describe how someone organises a lesson, event, speech or story with one person or idea as its main focus."
+    },
+    {
+      "titleZh": "清楚表達真正重點",
+      "titleEn": "Make the real focus clear",
+      "zh": "你可以指出一件事真正集中在哪個重點，並把它與較不重要的內容作比較。",
+      "en": "You can show what something centres on and contrast it with less important information."
+    },
+    {
+      "titleZh": "理解常見描述用語",
+      "titleEn": "Understand common descriptions",
+      "zh": "人們描述報告、專題、講座、電影、書籍和公開討論時，經常會使用 CENTRE 片語動詞。",
+      "en": "CENTRE expressions often appear when people describe reports, projects, talks, films, books and public discussions."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚指出主要主題",
+      "說明一件事如何安排",
+      "清楚表達真正重點",
+      "理解常見描述用語"
+    ],
+    "contextsEn": [
+      "Show the main subject clearly",
+      "Explain how something is planned",
+      "Make the real focus clear",
+      "Understand common descriptions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚指出主要主題",
+        "titleEn": "Show the main subject clearly",
+        "zh": "CENTRE 片語動詞能幫助你說明會議、課堂、書籍、電影或討論主要圍繞甚麼內容。",
+        "en": "CENTRE expressions help you explain what a meeting, lesson, book, film or discussion is mainly about.",
+        "examples": [
+          {
+            "en": "The debate centres around the question of power.",
+            "zh": "這場辯論以權力問題為中心。",
+            "highlight": "centres around the question of power"
+          },
+          {
+            "en": "The discussions centred on the hostage issue.",
+            "zh": "討論集中在人質問題上。",
+            "highlight": "centred on the hostage issue"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明一件事如何安排",
+        "titleEn": "Explain how something is planned",
+        "zh": "你可以說明某人如何以一個人物或構思為中心，安排課堂、活動、演講或故事。",
+        "en": "You can describe how someone organises a lesson, event, speech or story with one person or idea as its main focus.",
+        "examples": [
+          {
+            "en": "The debate centres around the question of power.",
+            "zh": "這場辯論以權力問題為中心。",
+            "highlight": "centres around the question of power"
+          },
+          {
+            "en": "The discussions centred on the hostage issue.",
+            "zh": "討論集中在人質問題上。",
+            "highlight": "centred on the hostage issue"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚表達真正重點",
+        "titleEn": "Make the real focus clear",
+        "zh": "你可以指出一件事真正集中在哪個重點，並把它與較不重要的內容作比較。",
+        "en": "You can show what something centres on and contrast it with less important information.",
+        "examples": [
+          {
+            "en": "The debate centres around the question of power.",
+            "zh": "這場辯論以權力問題為中心。",
+            "highlight": "centres around the question of power"
+          },
+          {
+            "en": "The discussions centred on the hostage issue.",
+            "zh": "討論集中在人質問題上。",
+            "highlight": "centred on the hostage issue"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解常見描述用語",
+        "titleEn": "Understand common descriptions",
+        "zh": "人們描述報告、專題、講座、電影、書籍和公開討論時，經常會使用 CENTRE 片語動詞。",
+        "en": "CENTRE expressions often appear when people describe reports, projects, talks, films, books and public discussions.",
+        "examples": [
+          {
+            "en": "The debate centres around the question of power.",
+            "zh": "這場辯論以權力問題為中心。",
+            "highlight": "centres around the question of power"
+          },
+          {
+            "en": "The discussions centred on the hostage issue.",
+            "zh": "討論集中在人質問題上。",
+            "highlight": "centred on the hostage issue"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句，選出意思相同的 CENTRE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CENTRE expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 CENTRE 片語動詞。",
+      "en": "Read the whole sentence and choose the CENTRE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意以下兩種常見用法：",
+      "titleEn": "Notice the two common ways of using these expressions:",
+      "zh": "留意以下兩種常見用法：",
+      "en": "Notice the two common ways of using these expressions:",
+      "examples": [
+        {
+          "en": "The talk centres on safety.",
+          "zh": "",
+          "highlight": "centres on safety"
+        },
+        {
+          "en": "They centred the talk around safety.",
+          "zh": "",
+          "highlight": "centred the talk around safety"
+        }
+      ]
+    },
+    {
+      "titleZh": "around、on 和 upon 在很多句子中都可以表示「以某人或某事物為中心／重點」。參考答案會提供一個自然的示範答案，但部分題目也可能接受參考表中的另一種形式。",
+      "titleEn": "Around, on and upon often express the same idea of a main subject or focus.",
+      "zh": "around、on 和 upon 在很多句子中都可以表示「以某人或某事物為中心／重點」。參考答案會提供一個自然的示範答案，但部分題目也可能接受參考表中的另一種形式。",
+      "en": "Around, on and upon often express the same idea of a main subject or focus. The answer key gives one natural model answer, but another listed form may also be possible in some sentences."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CENTRE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CENTRE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CENTRE 動詞片語句子改寫練習",
+    "titleEn": "CENTRE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CENTRE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CENTRE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          6
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          7,
+          12
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          13,
+          18
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          19,
+          24
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          25,
+          30
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-32-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 9,
+      "prompt": "The meeting is mainly about school safety.",
+      "promptZh": "這次會議主要討論校園安全。",
+      "starter": "The",
+      "answer": "The meeting centres on school safety.",
+      "answerZh": "這次會議以校園安全為討論重點。",
+      "highlight": "centres on school safety",
+      "targetForm": "centre on something",
+      "targetMeaningZh": "以某事物為重點"
+    },
+    {
+      "id": "phrasal-verb-32-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 9,
+      "prompt": "The film is mainly about a family that opens a small café.",
+      "promptZh": "這部電影主要講述一個開設小咖啡店的家庭。",
+      "starter": "The",
+      "answer": "The film centres around a family that opens a small café.",
+      "answerZh": "這部電影以一個開設小咖啡店的家庭為中心。",
+      "highlight": "centres around a family that opens a small café",
+      "targetForm": "centre around somebody/something",
+      "targetMeaningZh": "以某人或某事物為中心"
+    },
+    {
+      "id": "phrasal-verb-32-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 9,
+      "prompt": "The teacher planned the lesson with a short poem as its main focus.",
+      "promptZh": "老師設計這堂課時，以一首短詩作為主要內容。",
+      "starter": "The",
+      "answer": "The teacher centred the lesson around a short poem.",
+      "answerZh": "老師以一首短詩為中心設計這堂課。",
+      "highlight": "centred the lesson around a short poem",
+      "targetForm": "centre something around something",
+      "targetMeaningZh": "以某事物為中心安排某事物"
+    },
+    {
+      "id": "phrasal-verb-32-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "Our class project has saving water at home as its main subject.",
+      "promptZh": "我們的班級專題以在家節約用水為主要主題。",
+      "starter": "Our",
+      "answer": "Our class project centres on saving water at home.",
+      "answerZh": "我們的班級專題以在家節約用水為主要主題。",
+      "highlight": "centres on saving water",
+      "targetForm": "centre on something",
+      "targetMeaningZh": "以某事物為重點"
+    },
+    {
+      "id": "phrasal-verb-32-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "The organisers planned the festival so that local music was its main feature.",
+      "promptZh": "主辦單位策劃這項節日活動時，把本地音樂定為主要特色。",
+      "starter": "The",
+      "answer": "The organisers centred the festival around local music.",
+      "answerZh": "主辦單位以本地音樂為中心策劃這項節日活動。",
+      "highlight": "centred the festival around local music",
+      "targetForm": "centre something around something",
+      "targetMeaningZh": "以某事物為中心安排某事物"
+    },
+    {
+      "id": "phrasal-verb-32-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "The writer made one difficult choice the main focus of the final chapter.",
+      "promptZh": "作者把一項艱難抉擇定為最後一章的主要重點。",
+      "starter": "The",
+      "answer": "The writer centred the final chapter upon one difficult choice.",
+      "answerZh": "作者以一項艱難抉擇為中心來寫最後一章。",
+      "highlight": "centred the final chapter upon one difficult choice",
+      "targetForm": "centre something upon something",
+      "targetMeaningZh": "把某事物的重點放在另一事物上"
+    },
+    {
+      "id": "phrasal-verb-32-q07",
+      "number": 7,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "The book is mainly about two friends who travel across Scotland.",
+      "promptZh": "這本書主要講述兩名朋友遊歷蘇格蘭的故事。",
+      "starter": "The",
+      "answer": "The book centres on two friends who travel across Scotland.",
+      "answerZh": "這本書以兩名遊歷蘇格蘭的朋友為中心。",
+      "highlight": "centres on two friends who travel across Scotland",
+      "targetForm": "centre on somebody/something",
+      "targetMeaningZh": "以某人或某事物為主要內容"
+    },
+    {
+      "id": "phrasal-verb-32-q08",
+      "number": 8,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "Next week’s talk will be mainly about safe internet use.",
+      "promptZh": "下星期的講座將主要談論安全使用互聯網。",
+      "starter": "Next",
+      "answer": "Next week’s talk will centre around safe internet use.",
+      "answerZh": "下星期的講座將以安全使用互聯網為重點。",
+      "highlight": "centre around safe internet use",
+      "targetForm": "centre around something",
+      "targetMeaningZh": "以某事物為重點"
+    },
+    {
+      "id": "phrasal-verb-32-q09",
+      "number": 9,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Since January, the new course has given most of its attention to everyday speaking skills.",
+      "promptZh": "自一月起，這個新課程一直把大部分重點放在日常口語技巧上。",
+      "starter": "Since",
+      "answer": "Since January, the new course has centred on everyday speaking skills.",
+      "answerZh": "自一月起，這個新課程一直集中教授日常口語技巧。",
+      "highlight": "centred on everyday speaking skills",
+      "targetForm": "centre on something",
+      "targetMeaningZh": "集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-32-q10",
+      "number": 10,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Why did the director make one child the main focus of the story?",
+      "promptZh": "導演為甚麼把一個孩子定為故事的主要焦點？",
+      "starter": "Why",
+      "answer": "Why did the director centre the story on one child?",
+      "answerZh": "導演為甚麼以一個孩子作為故事的主要焦點？",
+      "highlight": "centre the story on one child",
+      "targetForm": "centre something on somebody",
+      "targetMeaningZh": "把某事物集中在某人身上"
+    },
+    {
+      "id": "phrasal-verb-32-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "The club did not plan its activities with winning prizes as the main aim.",
+      "promptZh": "這個學會策劃活動時，並沒有把贏取獎項作為主要目標。",
+      "starter": "The",
+      "answer": "The club did not centre its activities around winning prizes.",
+      "answerZh": "這個學會並沒有以贏取獎項為中心來安排活動。",
+      "highlight": "centre its activities around winning prizes",
+      "targetForm": "centre something around something",
+      "targetMeaningZh": "以某事物為中心安排某事物"
+    },
+    {
+      "id": "phrasal-verb-32-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "We should make one clear message the main point of the school project.",
+      "promptZh": "我們應該把一個清晰訊息定為學校專題的主要重點。",
+      "starter": "We",
+      "answer": "We should centre the school project on one clear message.",
+      "answerZh": "我們應該把學校專題集中在一個清晰訊息上。",
+      "highlight": "centre the school project on one clear message",
+      "targetForm": "centre something on something",
+      "targetMeaningZh": "把某事物的重點放在另一事物上"
+    },
+    {
+      "id": "phrasal-verb-32-q13",
+      "number": 13,
+      "band": 3,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "A simple science experiment was used as the main focus of the lesson.",
+      "promptZh": "這堂課以一個簡單的科學實驗為主要內容。",
+      "starter": "The",
+      "answer": "The lesson was centred around a simple science experiment.",
+      "answerZh": "這堂課以一個簡單的科學實驗為中心來設計。",
+      "highlight": "was centred around a simple science experiment",
+      "targetForm": "be centred around something",
+      "targetMeaningZh": "以某事物為中心來設計或安排"
+    },
+    {
+      "id": "phrasal-verb-32-q14",
+      "number": 14,
+      "band": 3,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "The teacher made one question the main focus of the discussion: how students travel to school.",
+      "promptZh": "老師把一個問題定為討論的主要重點：學生如何上學。",
+      "starter": "The",
+      "answer": "The teacher centred the discussion on one question: how students travel to school.",
+      "answerZh": "老師把討論集中在一個問題上：學生如何上學。",
+      "highlight": "centred the discussion on one question",
+      "targetForm": "centre something on something",
+      "targetMeaningZh": "把某事物集中在一個重點上"
+    },
+    {
+      "id": "phrasal-verb-32-q15",
+      "number": 15,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "Finding hidden objects in a house is the main idea of this game.",
+      "promptZh": "在房子裏尋找隱藏物件是這款遊戲的主要玩法。",
+      "starter": "This",
+      "answer": "This game centres on finding hidden objects in a house.",
+      "answerZh": "這款遊戲以在房子裏尋找隱藏物件為主要玩法。",
+      "highlight": "centres on finding hidden objects",
+      "targetForm": "centre on something",
+      "targetMeaningZh": "以某事物為主要內容"
+    },
+    {
+      "id": "phrasal-verb-32-q16",
+      "number": 16,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "The website gives most of its attention to advice for new students.",
+      "promptZh": "這個網站主要提供給新生的建議。",
+      "starter": "The",
+      "answer": "The website centres around advice for new students.",
+      "answerZh": "這個網站主要提供給新生的建議。",
+      "highlight": "centres around advice",
+      "targetForm": "centre around something",
+      "targetMeaningZh": "以某事物為主要內容"
+    },
+    {
+      "id": "phrasal-verb-32-q17",
+      "number": 17,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "They made stories from older people in the town the main focus of the school show.",
+      "promptZh": "他們把鎮上長者的故事定為學校表演的主要內容。",
+      "starter": "They",
+      "answer": "They centred the school show around stories from older people in the town.",
+      "answerZh": "他們以鎮上長者的故事為中心來安排學校表演。",
+      "highlight": "centred the school show around stories",
+      "targetForm": "centre something around something",
+      "targetMeaningZh": "以某事物為中心安排某事物"
+    },
+    {
+      "id": "phrasal-verb-32-q18",
+      "number": 18,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "The whole argument was mainly about the question of fairness.",
+      "promptZh": "整場爭論主要圍繞公平問題。",
+      "starter": "The",
+      "answer": "The whole argument centred upon the question of fairness.",
+      "answerZh": "整場爭論都集中在公平問題上。",
+      "highlight": "centred upon the question of fairness",
+      "targetForm": "centre upon something",
+      "targetMeaningZh": "以某事物為主要爭論點"
+    },
+    {
+      "id": "phrasal-verb-32-q19",
+      "number": 19,
+      "band": 4,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "Opening more stores is not the main idea of the shop’s new plan; cheaper healthy food is.",
+      "promptZh": "開設更多分店並不是這間店新計劃的主要方向；提供價格較低的健康食物才是。",
+      "starter": "The",
+      "answer": "The shop’s new plan centres on cheaper healthy food, not opening more stores.",
+      "answerZh": "這間店的新計劃集中在提供價格較低的健康食物，而不是開設更多分店。",
+      "highlight": "centres on cheaper healthy food",
+      "targetForm": "centre on something",
+      "targetMeaningZh": "以某事物為真正重點"
+    },
+    {
+      "id": "phrasal-verb-32-q20",
+      "number": 20,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "Maya organised her speech so that three ways to save money formed its main part.",
+      "promptZh": "瑪雅安排演講內容時，以三種省錢方法作為主要部分。",
+      "starter": "Maya",
+      "answer": "Maya centred her speech around three ways to save money.",
+      "answerZh": "瑪雅以三種省錢方法為中心來安排演講內容。",
+      "highlight": "centred her speech around three ways",
+      "targetForm": "centre something around something",
+      "targetMeaningZh": "圍繞某事物安排內容"
+    },
+    {
+      "id": "phrasal-verb-32-q21",
+      "number": 21,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "The missing bicycle, not the stolen phone, is the main subject of the mystery story.",
+      "promptZh": "不見了的單車，而不是被偷的電話，才是這個推理故事的主要內容。",
+      "starter": "The",
+      "answer": "The mystery story centres around a missing bicycle, not a stolen phone.",
+      "answerZh": "這個推理故事以一輛不見了的單車為中心，而不是一部被偷的電話。",
+      "highlight": "centres around a missing bicycle",
+      "targetForm": "centre around something",
+      "targetMeaningZh": "以某事物為故事中心"
+    },
+    {
+      "id": "phrasal-verb-32-q22",
+      "number": 22,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "When making its decision, the team considered one simple question more than anything else: what would help most students?",
+      "promptZh": "團隊作決定時，最重視一個簡單問題：甚麼做法能幫助最多學生？",
+      "starter": "The",
+      "answer": "The team centred its decision upon one simple question: what would help most students?",
+      "answerZh": "團隊作決定時，以一個簡單問題為主要考慮：甚麼做法能幫助最多學生？",
+      "highlight": "centred its decision upon one simple question",
+      "targetForm": "centre something upon something",
+      "targetMeaningZh": "把某事物建基於一個主要考慮"
+    },
+    {
+      "id": "phrasal-verb-32-q23",
+      "number": 23,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Most of the parents’ questions were mainly about the new homework rules.",
+      "promptZh": "大部分家長的問題主要關於新的家課規則。",
+      "starter": "Most",
+      "answer": "Most of the parents’ questions centred on the new homework rules.",
+      "answerZh": "大部分家長的問題都集中在新的家課規則上。",
+      "highlight": "centred on the new homework rules",
+      "targetForm": "centre on something",
+      "targetMeaningZh": "主要關於某事物"
+    },
+    {
+      "id": "phrasal-verb-32-q24",
+      "number": 24,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Staff at the museum made one old map the main focus of the children’s activity.",
+      "promptZh": "博物館職員把一張舊地圖定為兒童活動的主要重點。",
+      "starter": "Staff",
+      "answer": "Staff at the museum centred the children’s activity on one old map.",
+      "answerZh": "博物館職員以一張舊地圖作為兒童活動的主要焦點。",
+      "highlight": "centred the children’s activity on one old map",
+      "targetForm": "centre something on something",
+      "targetMeaningZh": "把活動集中在某事物上"
+    },
+    {
+      "id": "phrasal-verb-32-q25",
+      "number": 25,
+      "band": 5,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "The coach made moving carefully, rather than moving quickly, the main focus of the training session.",
+      "promptZh": "教練把小心完成動作，而不是快速完成動作，定為訓練課的主要重點。",
+      "starter": "The",
+      "answer": "The coach centred the training session on moving carefully rather than quickly.",
+      "answerZh": "教練把訓練課集中在小心完成動作，而不是快速完成動作。",
+      "highlight": "centred the training session on moving carefully rather than quickly",
+      "targetForm": "centre something on something",
+      "targetMeaningZh": "把某事物的重點放在另一事物上"
+    },
+    {
+      "id": "phrasal-verb-32-q26",
+      "number": 26,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "Although the film includes several smaller stories, its main story is about one teenager’s first year at a new school.",
+      "promptZh": "雖然這部電影包含幾個次要故事，但主要講述一名青少年在新學校第一年的生活。",
+      "starter": "Although",
+      "answer": "Although the film includes several smaller stories, it centres around one teenager’s first year at a new school.",
+      "answerZh": "雖然這部電影包含幾個次要故事，但它以一名青少年在新學校第一年的生活為中心。",
+      "highlight": "centres around one teenager’s first year",
+      "targetForm": "centre around somebody/something",
+      "targetMeaningZh": "以某人或某事物為主要故事"
+    },
+    {
+      "id": "phrasal-verb-32-q27",
+      "number": 27,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "In its final discussion, the committee made one question the main focus: should the park stay open later?",
+      "promptZh": "在最後一次討論中，委員會把一個問題定為主要重點：公園是否應該延長開放時間？",
+      "starter": "The",
+      "answer": "The committee centred its final discussion on whether the park should stay open later.",
+      "answerZh": "委員會把最後一次討論集中在公園是否應該延長開放時間上。",
+      "highlight": "centred its final discussion on whether the park should stay open later",
+      "targetForm": "centre something on something",
+      "targetMeaningZh": "把討論集中在某個問題上"
+    },
+    {
+      "id": "phrasal-verb-32-q28",
+      "number": 28,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "The programme includes phone lessons, practice time and home visits, but every part is designed to help older people use smartphones with confidence.",
+      "promptZh": "這項計劃包括電話課堂、練習時間和家訪，而每個部分都是為了幫助長者有信心地使用智能電話。",
+      "starter": "The",
+      "answer": "The whole programme is centred around helping older people use smartphones with confidence.",
+      "answerZh": "整項計劃以幫助長者有信心地使用智能電話為中心。",
+      "highlight": "is centred around helping older people use smartphones",
+      "targetForm": "be centred around something",
+      "targetMeaningZh": "以某個目的為中心來設計"
+    },
+    {
+      "id": "phrasal-verb-32-q29",
+      "number": 29,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "After showing the characters in many difficult situations, the final chapter is mainly about the choices they make when they are afraid.",
+      "promptZh": "在描述角色面對很多困難情況後，最後一章主要講述他們害怕時所作的選擇。",
+      "starter": "After",
+      "answer": "After showing the characters in many difficult situations, the final chapter centres upon the choices they make when they are afraid.",
+      "answerZh": "在描述角色面對很多困難情況後，最後一章集中講述他們害怕時所作的選擇。",
+      "highlight": "centres upon the choices they make",
+      "targetForm": "centre upon something",
+      "targetMeaningZh": "以某事物為主要內容"
+    },
+    {
+      "id": "phrasal-verb-32-q30",
+      "number": 30,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "The report does not cover every part of the problem. Its main focus is what families can do at home.",
+      "promptZh": "這份報告沒有涵蓋問題的每一部分；它主要集中討論家庭可以在家中做甚麼。",
+      "starter": "Instead",
+      "answer": "Instead of covering every part of the problem, the report centres on what families can do at home.",
+      "answerZh": "這份報告沒有涵蓋問題的每一部分，而是集中討論家庭可以在家中做甚麼。",
+      "highlight": "centres on what families can do",
+      "targetForm": "centre on something",
+      "targetMeaningZh": "集中討論某個主要範圍"
+    }
+  ]
+}

@@ -1,0 +1,1421 @@
+{
+  "id": "phrasal-verb-09",
+  "order": 9,
+  "slug": "watch",
+  "version": "1",
+  "title": "WATCH 動詞片語",
+  "titleEn": "Watch",
+  "titleZh": "WATCH 動詞片語",
+  "level": "",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 9 - WATCH.pdf",
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WATCH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WATCH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WATCH",
+      "highlight": "WATCH"
+    }
+  ],
+  "examples": [
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "My parents watched for me at the airport doors.",
+      "zh": "我的父母在機場閘門旁留意等候我。",
+      "highlight": "watched for"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Watch out! There is a car coming.",
+      "zh": "小心！有車駛過來。",
+      "highlight": "Watch out"
+    },
+    {
+      "labelZh": "例句",
+      "labelEn": "Example",
+      "en": "Staff were told to watch out for fake banknotes.",
+      "zh": "職員獲提醒要提防假鈔。",
+      "highlight": "watch out for"
+    }
+  ],
+  "meaning": {
+    "zh": "留意並等候某人或某事物出現；小心；當心；留意並提防可能帶來危險或問題的人或事物；照看；守護；保護某人或某事物。",
+    "en": "Learn and practise the phrasal verbs related to WATCH.",
+    "naturalZh": [
+      "留意並等候某人或某事物出現",
+      "小心；當心",
+      "留意並提防可能帶來危險或問題的人或事物",
+      "照看；守護；保護某人或某事物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "number": 1,
+      "pageGroup": 1,
+      "formula": "watch for somebody/something",
+      "highlight": "watch for somebody/something",
+      "titleZh": "留意並等候某人或某事物出現",
+      "titleEn": "watch for somebody/something",
+      "descriptionZh": "留意並等候某人或某事物出現",
+      "descriptionEn": "My parents watched for me at the airport doors.",
+      "examples": [
+        {
+          "en": "My parents watched for me at the airport doors.",
+          "zh": "我的父母在機場閘門旁留意等候我。",
+          "highlight": "watched for"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "pageGroup": 1,
+      "formula": "watch out",
+      "highlight": "watch out",
+      "titleZh": "小心；當心",
+      "titleEn": "watch out",
+      "descriptionZh": "小心；當心",
+      "descriptionEn": "Watch out! There is a car coming.",
+      "examples": [
+        {
+          "en": "Watch out! There is a car coming.",
+          "zh": "小心！有車駛過來。",
+          "highlight": "Watch out"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "pageGroup": 1,
+      "formula": "watch out for somebody/something",
+      "highlight": "watch out for somebody/something",
+      "titleZh": "留意並提防可能帶來危險或問題的人或事物",
+      "titleEn": "watch out for somebody/something",
+      "descriptionZh": "留意並提防可能帶來危險或問題的人或事物",
+      "descriptionEn": "Staff were told to watch out for fake banknotes.",
+      "examples": [
+        {
+          "en": "Staff were told to watch out for fake banknotes.",
+          "zh": "職員獲提醒要提防假鈔。",
+          "highlight": "watch out for"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "pageGroup": 1,
+      "formula": "watch over somebody/something",
+      "highlight": "watch over somebody/something",
+      "titleZh": "照看；守護；保護某人或某事物",
+      "titleEn": "watch over somebody/something",
+      "descriptionZh": "照看；守護；保護某人或某事物",
+      "descriptionEn": "A nurse watched over the child all night.",
+      "examples": [
+        {
+          "en": "A nurse watched over the child all night.",
+          "zh": "護士整夜照看那個孩子。",
+          "highlight": "watched over"
+        }
+      ],
+      "sourcePage": 2
+    }
+  ],
+  "register": {
+    "labelZh": "片語動詞參考表",
+    "labelEn": "Phrasal-Verb Reference Bank",
+    "summaryZh": "學習及練習與 WATCH 有關的片語動詞。",
+    "summaryEn": "Learn and practise the phrasal verbs related to WATCH.",
+    "contextsZh": [
+      "留意並等候某人或某事物出現",
+      "小心；當心",
+      "留意並提防可能帶來危險或問題的人或事物",
+      "照看；守護；保護某人或某事物"
+    ],
+    "contextsEn": [
+      "watch for somebody/something",
+      "watch out",
+      "watch out for somebody/something",
+      "watch over somebody/something"
+    ],
+    "formalZh": "閱讀整句，選出意思相同的 WATCH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WATCH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "WATCH",
+    "fixedHighlight": "WATCH",
+    "fixedZh": "閱讀整句，選出意思相同的 WATCH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WATCH expression that gives the same meaning.",
+    "correct": "watch for somebody/something",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。 watch out 可以單獨用作警告；watch out for 則會指出需要留意的危險或問題。 watch for 表示留意並等候某人或某事物出現；watch over 則表示照看或保護某人或某事物。",
+    "variableEn": "Keep the same people, things, time and meaning. Watch out is a warning by itself. Watch out for tells us what danger or problem to notice. Watch for means to look and wait for someone or something to appear. Watch over means to care for or protect someone or something.",
+    "variableItemsZh": [
+      "留意並等候某人或某事物出現",
+      "小心；當心",
+      "留意並提防可能帶來危險或問題的人或事物",
+      "照看；守護；保護某人或某事物"
+    ],
+    "variableItemsEn": [
+      "watch for somebody/something",
+      "watch out",
+      "watch out for somebody/something",
+      "watch over somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "留意並等候某人或某事物出現",
+        "formEn": "watch for somebody/something",
+        "exampleZh": "我的父母在機場閘門旁留意等候我。",
+        "exampleEn": "My parents watched for me at the airport doors.",
+        "highlight": "watched for"
+      },
+      {
+        "formZh": "小心；當心",
+        "formEn": "watch out",
+        "exampleZh": "小心！有車駛過來。",
+        "exampleEn": "Watch out! There is a car coming.",
+        "highlight": "Watch out"
+      },
+      {
+        "formZh": "留意並提防可能帶來危險或問題的人或事物",
+        "formEn": "watch out for somebody/something",
+        "exampleZh": "職員獲提醒要提防假鈔。",
+        "exampleEn": "Staff were told to watch out for fake banknotes.",
+        "highlight": "watch out for"
+      },
+      {
+        "formZh": "照看；守護；保護某人或某事物",
+        "formEn": "watch over somebody/something",
+        "exampleZh": "護士整夜照看那個孩子。",
+        "exampleEn": "A nurse watched over the child all night.",
+        "highlight": "watched over"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "留意並等候某人或某事物出現",
+      "titleEn": "watch for somebody/something",
+      "formula": "watch for somebody/something",
+      "highlight": "watch for somebody/something",
+      "descriptionZh": "留意並等候某人或某事物出現",
+      "descriptionEn": "My parents watched for me at the airport doors.",
+      "examples": [
+        {
+          "en": "My parents watched for me at the airport doors.",
+          "zh": "我的父母在機場閘門旁留意等候我。",
+          "highlight": "watched for"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "小心；當心",
+      "titleEn": "watch out",
+      "formula": "watch out",
+      "highlight": "watch out",
+      "descriptionZh": "小心；當心",
+      "descriptionEn": "Watch out! There is a car coming.",
+      "examples": [
+        {
+          "en": "Watch out! There is a car coming.",
+          "zh": "小心！有車駛過來。",
+          "highlight": "Watch out"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "留意並提防可能帶來危險或問題的人或事物",
+      "titleEn": "watch out for somebody/something",
+      "formula": "watch out for somebody/something",
+      "highlight": "watch out for somebody/something",
+      "descriptionZh": "留意並提防可能帶來危險或問題的人或事物",
+      "descriptionEn": "Staff were told to watch out for fake banknotes.",
+      "examples": [
+        {
+          "en": "Staff were told to watch out for fake banknotes.",
+          "zh": "職員獲提醒要提防假鈔。",
+          "highlight": "watch out for"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "照看；守護；保護某人或某事物",
+      "titleEn": "watch over somebody/something",
+      "formula": "watch over somebody/something",
+      "highlight": "watch over somebody/something",
+      "descriptionZh": "照看；守護；保護某人或某事物",
+      "descriptionEn": "A nurse watched over the child all night.",
+      "examples": [
+        {
+          "en": "A nurse watched over the child all night.",
+          "zh": "護士整夜照看那個孩子。",
+          "highlight": "watched over"
+        }
+      ],
+      "notes": [],
+      "sourcePage": 2
+    }
+  ],
+  "benefits": [
+    {
+      "number": 1,
+      "titleZh": "清楚表達留意等候某人或某事物",
+      "titleEn": "Talk clearly about waiting for someone or something",
+      "zh": "watch for 可以描述一邊等候，一邊留意某人、車輛、訊號或事情出現。",
+      "en": "Watch for helps you describe waiting while keeping your eyes open for a person, vehicle, signal or event.",
+      "sourcePage": 2
+    },
+    {
+      "number": 2,
+      "titleZh": "迅速提醒別人小心",
+      "titleEn": "Give someone a quick warning",
+      "zh": "當危險接近時，可以用 watch out 立即提醒別人小心。",
+      "en": "Watch out allows you to warn someone immediately when danger is close.",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "titleZh": "清楚指出需要提防的危險或問題",
+      "titleEn": "Name the danger or problem clearly",
+      "zh": "watch out for 可以直接指出某人需要留意或避開甚麼。",
+      "en": "Watch out for allows you to identify exactly what someone should notice or avoid.",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "titleZh": "談論照顧和保護",
+      "titleEn": "Talk about care and protection",
+      "zh": "watch over 可以描述照看和保護孩子、動物、建築物或重要物品。",
+      "en": "Watch over can describe protecting children, animals, buildings or important objects.",
+      "sourcePage": 3
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "片語動詞參考表",
+    "titleEn": "Phrasal-Verb Reference Bank",
+    "contextsZh": [
+      "留意並等候某人或某事物出現",
+      "小心；當心",
+      "留意並提防可能帶來危險或問題的人或事物",
+      "照看；守護；保護某人或某事物"
+    ],
+    "contextsEn": [
+      "watch for somebody/something",
+      "watch out",
+      "watch out for somebody/something",
+      "watch over somebody/something"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "留意並等候某人或某事物出現",
+        "titleEn": "watch for somebody/something",
+        "formula": "watch for somebody/something",
+        "highlight": "watch for somebody/something",
+        "zh": "留意並等候某人或某事物出現",
+        "en": "My parents watched for me at the airport doors.",
+        "examples": [
+          {
+            "en": "My parents watched for me at the airport doors.",
+            "zh": "我的父母在機場閘門旁留意等候我。",
+            "highlight": "watched for"
+          }
+        ]
+      },
+      {
+        "titleZh": "小心；當心",
+        "titleEn": "watch out",
+        "formula": "watch out",
+        "highlight": "watch out",
+        "zh": "小心；當心",
+        "en": "Watch out! There is a car coming.",
+        "examples": [
+          {
+            "en": "Watch out! There is a car coming.",
+            "zh": "小心！有車駛過來。",
+            "highlight": "Watch out"
+          }
+        ]
+      },
+      {
+        "titleZh": "留意並提防可能帶來危險或問題的人或事物",
+        "titleEn": "watch out for somebody/something",
+        "formula": "watch out for somebody/something",
+        "highlight": "watch out for somebody/something",
+        "zh": "留意並提防可能帶來危險或問題的人或事物",
+        "en": "Staff were told to watch out for fake banknotes.",
+        "examples": [
+          {
+            "en": "Staff were told to watch out for fake banknotes.",
+            "zh": "職員獲提醒要提防假鈔。",
+            "highlight": "watch out for"
+          }
+        ]
+      },
+      {
+        "titleZh": "照看；守護；保護某人或某事物",
+        "titleEn": "watch over somebody/something",
+        "formula": "watch over somebody/something",
+        "highlight": "watch over somebody/something",
+        "zh": "照看；守護；保護某人或某事物",
+        "en": "A nurse watched over the child all night.",
+        "examples": [
+          {
+            "en": "A nurse watched over the child all night.",
+            "zh": "護士整夜照看那個孩子。",
+            "highlight": "watched over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "number": 1,
+      "titleZh": "閱讀整句，選出意思相同的 WATCH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WATCH expression that gives the same meaning.",
+      "zh": "閱讀整句，選出意思相同的 WATCH 片語動詞。",
+      "en": "Read the whole sentence and choose the WATCH expression that gives the same meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning.",
+      "examplesEn": [],
+      "sourcePage": 1
+    },
+    {
+      "number": 3,
+      "titleZh": "watch out 可以單獨用作警告；watch out for 則會指出需要留意的危險或問題。",
+      "titleEn": "Watch out is a warning by itself. Watch out for tells us what danger or problem to notice.",
+      "zh": "watch out 可以單獨用作警告；watch out for 則會指出需要留意的危險或問題。",
+      "en": "Watch out is a warning by itself. Watch out for tells us what danger or problem to notice.",
+      "examplesEn": [
+        "Watch out!",
+        "Watch out for the bike."
+      ],
+      "sourcePage": 1
+    },
+    {
+      "number": 4,
+      "titleZh": "watch for 表示留意並等候某人或某事物出現；watch over 則表示照看或保護某人或某事物。",
+      "titleEn": "Watch for means to look and wait for someone or something to appear. Watch over means to care for or protect someone or something.",
+      "zh": "watch for 表示留意並等候某人或某事物出現；watch over 則表示照看或保護某人或某事物。",
+      "en": "Watch for means to look and wait for someone or something to appear. Watch over means to care for or protect someone or something.",
+      "examplesEn": [],
+      "sourcePage": 1
+    }
+  ],
+  "referenceBank": [
+    {
+      "number": 1,
+      "formula": "watch for somebody/something",
+      "meaningZh": "留意並等候某人或某事物出現",
+      "exampleEn": "My parents watched for me at the airport doors.",
+      "exampleZh": "我的父母在機場閘門旁留意等候我。",
+      "highlight": "watched for",
+      "sourcePage": 1
+    },
+    {
+      "number": 2,
+      "formula": "watch out",
+      "meaningZh": "小心；當心",
+      "exampleEn": "Watch out! There is a car coming.",
+      "exampleZh": "小心！有車駛過來。",
+      "highlight": "Watch out",
+      "sourcePage": 2
+    },
+    {
+      "number": 3,
+      "formula": "watch out for somebody/something",
+      "meaningZh": "留意並提防可能帶來危險或問題的人或事物",
+      "exampleEn": "Staff were told to watch out for fake banknotes.",
+      "exampleZh": "職員獲提醒要提防假鈔。",
+      "highlight": "watch out for",
+      "sourcePage": 2
+    },
+    {
+      "number": 4,
+      "formula": "watch over somebody/something",
+      "meaningZh": "照看；守護；保護某人或某事物",
+      "exampleEn": "A nurse watched over the child all night.",
+      "exampleZh": "護士整夜照看那個孩子。",
+      "highlight": "watched over",
+      "sourcePage": 2
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WATCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WATCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WATCH 動詞片語句子改寫練習",
+    "titleEn": "WATCH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WATCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WATCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-09-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "Mum waited at the corner and looked for my bus.",
+      "promptZh": "媽媽在街角留意等候我的巴士到來。",
+      "starter": "Mum",
+      "answer": "Mum watched for my bus at the corner.",
+      "answerZh": "媽媽在街角留意等候我的巴士到來。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watched for"
+    },
+    {
+      "id": "phrasal-verb-09-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "Be careful because the floor near the door is wet.",
+      "promptZh": "要小心，門旁的地面是濕的。",
+      "starter": "Watch",
+      "answer": "Watch out for the wet floor near the door.",
+      "answerZh": "小心門旁濕了的地面。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "Watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "promptZhSourcePage": 3,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "Be careful! That box is falling.",
+      "promptZh": "小心！那個箱子正在掉下來。",
+      "starter": "Watch",
+      "answer": "Watch out! That box is falling.",
+      "answerZh": "小心！那個箱子正在掉下來。",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "Watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "Maya kept her little brother safe while their parents were out.",
+      "promptZh": "瑪雅在父母外出時保護她的弟弟。",
+      "starter": "Maya",
+      "answer": "Maya watched over her little brother while their parents were out.",
+      "answerZh": "瑪雅在父母外出時照看她的弟弟。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watched over"
+    },
+    {
+      "id": "phrasal-verb-09-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 12,
+      "answerZhSourcePage": 12,
+      "prompt": "We looked and waited for the first star to appear in the evening sky.",
+      "promptZh": "我們留意並等候第一顆星在夜空中出現。",
+      "starter": "We",
+      "answer": "We watched for the first star in the evening sky.",
+      "answerZh": "我們留意等候夜空中的第一顆星出現。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watched for"
+    },
+    {
+      "id": "phrasal-verb-09-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Cyclists should be careful because people may be crossing the road.",
+      "promptZh": "騎單車的人應該小心，因為可能有人正在過馬路。",
+      "starter": "Cyclists",
+      "answer": "Cyclists should watch out for people crossing the road.",
+      "answerZh": "騎單車的人應該小心正在過馬路的行人。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "A nurse stayed near the child and kept him safe through the night.",
+      "promptZh": "一名護士整夜留在孩子身旁，確保他的安全。",
+      "starter": "A",
+      "answer": "A nurse watched over the child through the night.",
+      "answerZh": "一名護士整夜照看那個孩子。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watched over"
+    },
+    {
+      "id": "phrasal-verb-09-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Be careful! The soup is very hot.",
+      "promptZh": "小心！湯很熱。",
+      "starter": "Watch",
+      "answer": "Watch out! The soup is very hot.",
+      "answerZh": "小心！湯很熱。",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "Watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "promptZhSourcePage": 4,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Ben stood by the gate and waited to see his friend arrive.",
+      "promptZh": "賓站在閘口旁，等候朋友到來。",
+      "starter": "Ben",
+      "answer": "Ben stood by the gate and watched for his friend.",
+      "answerZh": "賓站在閘口旁，留意等候他的朋友。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watched for"
+    },
+    {
+      "id": "phrasal-verb-09-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "Please be careful because there may be broken glass on the beach.",
+      "promptZh": "請小心，沙灘上可能有碎玻璃。",
+      "starter": "Please",
+      "answer": "Please watch out for broken glass on the beach.",
+      "answerZh": "請小心沙灘上的碎玻璃。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 13,
+      "answerZhSourcePage": 13,
+      "prompt": "I will keep the bags safe while you buy the tickets.",
+      "promptZh": "你買票時，我會確保這些袋子安全。",
+      "starter": "I",
+      "answer": "I will watch over the bags while you buy the tickets.",
+      "answerZh": "你買票時，我會照看這些袋子。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watch over"
+    },
+    {
+      "id": "phrasal-verb-09-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Did you hear the bike? Be careful!",
+      "promptZh": "你聽到那輛單車了嗎？小心！",
+      "starter": "Did",
+      "answer": "Did you hear the bike? Watch out!",
+      "answerZh": "你聽到那輛單車了嗎？小心！",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "Watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "The children are looking and waiting for the school bus now.",
+      "promptZh": "孩子們現在正留意並等候校巴。",
+      "starter": "The",
+      "answer": "The children are watching for the school bus now.",
+      "answerZh": "孩子們現在正留意等候校巴。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watching for"
+    },
+    {
+      "id": "phrasal-verb-09-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "You must be careful because cars may be coming when you cross here.",
+      "promptZh": "你在這裏過馬路時必須小心，因為可能有車駛來。",
+      "starter": "You",
+      "answer": "You must watch out for cars when you cross here.",
+      "answerZh": "你在這裏過馬路時必須小心來車。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "promptZhSourcePage": 5,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Who will keep the dog safe while we are away?",
+      "promptZh": "我們不在時，誰會確保這隻狗安全？",
+      "starter": "Who",
+      "answer": "Who will watch over the dog while we are away?",
+      "answerZh": "我們不在時，誰會照看這隻狗？",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watch over"
+    },
+    {
+      "id": "phrasal-verb-09-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "Be careful! That cup is full and may spill.",
+      "promptZh": "小心！那隻杯盛得很滿，可能會濺出來。",
+      "starter": "Watch",
+      "answer": "Watch out! That cup is full and may spill.",
+      "answerZh": "小心！那隻杯盛得很滿，可能會濺出來。",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "Watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 14,
+      "answerZhSourcePage": 14,
+      "prompt": "We were told to be careful of fake emails.",
+      "promptZh": "我們獲提醒要提防假電郵。",
+      "starter": "We",
+      "answer": "We were told to watch out for fake emails.",
+      "answerZh": "我們獲提醒要提防假電郵。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Has anyone been looking and waiting for the delivery van?",
+      "promptZh": "有人一直在留意並等候送貨車嗎？",
+      "starter": "Has",
+      "answer": "Has anyone been watching for the delivery van?",
+      "answerZh": "有人一直在留意等候送貨車嗎？",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watching for"
+    },
+    {
+      "id": "phrasal-verb-09-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "If the ladder moves, be careful.",
+      "promptZh": "如果梯子移動，便要小心。",
+      "starter": "If",
+      "answer": "If the ladder moves, watch out.",
+      "answerZh": "如果梯子移動，便要小心。",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "promptZhSourcePage": 6,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The old building has been guarded day and night.",
+      "promptZh": "那幢舊建築物一直有人日夜看守。",
+      "starter": "The",
+      "answer": "The old building has been watched over day and night.",
+      "answerZh": "那幢舊建築物一直有人日夜守護。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watched over"
+    },
+    {
+      "id": "phrasal-verb-09-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "Leo missed the train before, so he is looking carefully for the station sign.",
+      "promptZh": "里奧以前錯過了火車，所以現在正仔細留意車站標誌。",
+      "starter": "Leo",
+      "answer": "Leo missed the train before, so he is watching for the station sign.",
+      "answerZh": "里奧以前錯過了火車，所以現在正留意車站標誌。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watching for"
+    },
+    {
+      "id": "phrasal-verb-09-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 15,
+      "prompt": "The baby was sleeping, so I stayed nearby and kept her safe until Mum returned.",
+      "promptZh": "嬰兒正在睡覺，所以我留在附近確保她安全，直至媽媽回來。",
+      "starter": "The",
+      "answer": "The baby was sleeping, so I watched over her until Mum returned.",
+      "answerZh": "嬰兒正在睡覺，所以我照看她，直至媽媽回來。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watched over"
+    },
+    {
+      "id": "phrasal-verb-09-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 15,
+      "answerZhSourcePage": 16,
+      "prompt": "Keep your bag close and be careful of people who may steal something from it.",
+      "promptZh": "把袋子放近一點，並小心可能從袋內偷東西的人。",
+      "starter": "Keep",
+      "answer": "Keep your bag close and watch out for people who may steal something from it.",
+      "answerZh": "把袋子放近一點，並提防可能從袋內偷東西的人。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Sam shouted, “Be careful!” as the ball flew towards us.",
+      "promptZh": "球飛向我們時，森大喊：「小心！」",
+      "starter": "Sam",
+      "answer": "Sam shouted, “Watch out!” as the ball flew towards us.",
+      "answerZh": "球飛向我們時，森大喊：「小心！」",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "Watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "We did not see the taxi at first, but Dad kept looking and waiting for it.",
+      "promptZh": "我們起初看不見的士，但爸爸繼續留意並等候它。",
+      "starter": "We",
+      "answer": "We did not see the taxi at first, but Dad kept watching for it.",
+      "answerZh": "我們起初看不見的士，但爸爸繼續留意等候它。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watching for"
+    },
+    {
+      "id": "phrasal-verb-09-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 7,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "While Ella slept, her older sister stayed near and protected her.",
+      "promptZh": "埃拉睡覺時，她的姐姐留在附近保護她。",
+      "starter": "While",
+      "answer": "While Ella slept, her older sister watched over her.",
+      "answerZh": "埃拉睡覺時，她的姐姐照看着她。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watched over"
+    },
+    {
+      "id": "phrasal-verb-09-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Before you sit down, be careful because there is paint on the chair.",
+      "promptZh": "坐下前要小心，椅子上有油漆。",
+      "starter": "Before",
+      "answer": "Before you sit down, watch out for paint on the chair.",
+      "answerZh": "坐下前要小心椅子上的油漆。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 16,
+      "prompt": "Are you looking and waiting for the green light before you cross?",
+      "promptZh": "你過馬路前是否正在留意並等候綠燈？",
+      "starter": "Are",
+      "answer": "Are you watching for the green light before you cross?",
+      "answerZh": "你過馬路前是否正在留意等候綠燈？",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watching for"
+    },
+    {
+      "id": "phrasal-verb-09-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 16,
+      "answerZhSourcePage": 17,
+      "prompt": "Be careful, or you will hit your head on the shelf.",
+      "promptZh": "小心，否則你的頭會撞到架子。",
+      "starter": "Watch",
+      "answer": "Watch out, or you will hit your head on the shelf.",
+      "answerZh": "小心，否則你的頭會撞到架子。",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "Watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "A worker at the park protected the young birds until they could fly.",
+      "promptZh": "公園的一名工作人員保護幼鳥，直至牠們能夠飛翔。",
+      "starter": "A",
+      "answer": "A worker at the park watched over the young birds until they could fly.",
+      "answerZh": "公園的一名工作人員照看幼鳥，直至牠們能夠飛翔。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watched over"
+    },
+    {
+      "id": "phrasal-verb-09-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Staff should be careful of banknotes that look fake.",
+      "promptZh": "職員應小心看似假的鈔票。",
+      "starter": "Staff",
+      "answer": "Staff should watch out for banknotes that look fake.",
+      "answerZh": "職員應提防看似假的鈔票。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "promptZhSourcePage": 8,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "Be careful! The door opens towards you.",
+      "promptZh": "小心！門會朝你打開。",
+      "starter": "Watch",
+      "answer": "Watch out! The door opens towards you.",
+      "answerZh": "小心！門會朝你打開。",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "Watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "The teacher asked Mia to keep the younger children safe for two minutes.",
+      "promptZh": "老師請米婭確保年幼的孩子安全兩分鐘。",
+      "starter": "The",
+      "answer": "The teacher asked Mia to watch over the younger children for two minutes.",
+      "answerZh": "老師請米婭照看年幼的孩子兩分鐘。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watch over"
+    },
+    {
+      "id": "phrasal-verb-09-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 17,
+      "answerZhSourcePage": 17,
+      "prompt": "At the airport, my parents looked and waited for me to come through the doors.",
+      "promptZh": "在機場，我的父母留意並等候我從門口出來。",
+      "starter": "At",
+      "answer": "At the airport, my parents watched for me to come through the doors.",
+      "answerZh": "在機場，我的父母留意等候我從門口出來。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watched for"
+    },
+    {
+      "id": "phrasal-verb-09-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "When you open the cupboard, be careful of the glass bowl near the edge.",
+      "promptZh": "打開櫥櫃時，要小心邊緣附近的玻璃碗。",
+      "starter": "When",
+      "answer": "When you open the cupboard, watch out for the glass bowl near the edge.",
+      "answerZh": "打開櫥櫃時，要小心邊緣附近的玻璃碗。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The ground near the tree is uneven, so be careful.",
+      "promptZh": "樹旁的地面不平，所以要小心。",
+      "starter": "The",
+      "answer": "The ground near the tree is uneven, so watch out.",
+      "answerZh": "樹旁的地面不平，所以要小心。",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Our neighbour kept the house safe while we were on holiday.",
+      "promptZh": "我們度假時，鄰居替我們看守房子。",
+      "starter": "Our",
+      "answer": "Our neighbour watched over the house while we were on holiday.",
+      "answerZh": "我們度假時，鄰居替我們照看房子。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watched over"
+    },
+    {
+      "id": "phrasal-verb-09-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "promptZhSourcePage": 9,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "Be careful because there is a step just inside the shop.",
+      "promptZh": "要小心，店內入口處有一級台階。",
+      "starter": "Watch",
+      "answer": "Watch out for the step just inside the shop.",
+      "answerZh": "小心店內入口處的台階。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "Watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "I nearly dropped the tray, so Dad shouted, “Be careful!”",
+      "promptZh": "我差點把托盤掉在地上，所以爸爸大喊：「小心！」",
+      "starter": "I",
+      "answer": "I nearly dropped the tray, so Dad shouted, “Watch out!”",
+      "answerZh": "我差點把托盤掉在地上，所以爸爸大喊：「小心！」",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "Watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 18,
+      "answerZhSourcePage": 18,
+      "prompt": "The coach looked carefully for signs that the players were getting tired.",
+      "promptZh": "教練仔細留意球員開始感到疲倦的跡象。",
+      "starter": "The",
+      "answer": "The coach watched for signs that the players were getting tired.",
+      "answerZh": "教練留意球員開始感到疲倦的跡象。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watched for"
+    },
+    {
+      "id": "phrasal-verb-09-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "We knew the ferry would arrive soon, so we stood by the window and looked for it to appear.",
+      "promptZh": "我們知道渡輪很快便會到達，所以站在窗邊等候它出現。",
+      "starter": "We",
+      "answer": "We knew the ferry would arrive soon, so we stood by the window and watched for it.",
+      "answerZh": "我們知道渡輪很快便會到達，所以站在窗邊等候它出現。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watched for"
+    },
+    {
+      "id": "phrasal-verb-09-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The path is narrow, so be careful of runners coming from behind.",
+      "promptZh": "小徑很窄，所以要小心從後面跑來的人。",
+      "starter": "The",
+      "answer": "The path is narrow, so watch out for runners coming from behind.",
+      "answerZh": "小徑很窄，所以要提防從後面跑來的人。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "The sick puppy needed someone to keep it safe all night.",
+      "promptZh": "那隻生病的小狗需要有人整夜確保牠安全。",
+      "starter": "The",
+      "answer": "The sick puppy needed to be watched over all night.",
+      "answerZh": "那隻生病的小狗需要有人整夜照看。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watched over"
+    },
+    {
+      "id": "phrasal-verb-09-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "promptZhSourcePage": 10,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "I cried, “Be careful!” when the shelf started to fall.",
+      "promptZh": "架子開始倒下時，我大喊：「小心！」",
+      "starter": "I",
+      "answer": "I cried, “Watch out!” when the shelf started to fall.",
+      "answerZh": "架子開始倒下時，我大喊：「小心！」",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "Watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "During the test, the teacher looked for anyone raising a hand for help.",
+      "promptZh": "測驗期間，老師留意有沒有人舉手求助。",
+      "starter": "During",
+      "answer": "During the test, the teacher watched for anyone raising a hand for help.",
+      "answerZh": "測驗期間，老師留意有沒有人舉手求助。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watched for"
+    },
+    {
+      "id": "phrasal-verb-09-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 19,
+      "answerZhSourcePage": 19,
+      "prompt": "Before paying, be careful to notice extra charges on the bill.",
+      "promptZh": "付款前，要小心留意帳單上的額外收費。",
+      "starter": "Before",
+      "answer": "Before paying, watch out for extra charges on the bill.",
+      "answerZh": "付款前，要提防帳單上的額外收費。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    },
+    {
+      "id": "phrasal-verb-09-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "The train may stop suddenly, so be careful.",
+      "promptZh": "火車可能會突然停下，所以要小心。",
+      "starter": "The",
+      "answer": "The train may stop suddenly, so watch out.",
+      "answerZh": "火車可能會突然停下，所以要小心。",
+      "targetForm": "watch out",
+      "targetMeaningZh": "小心；當心",
+      "highlight": "watch out"
+    },
+    {
+      "id": "phrasal-verb-09-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "A guard protected the painting during the busy event.",
+      "promptZh": "繁忙的活動期間，一名保安員保護那幅畫。",
+      "starter": "A",
+      "answer": "A guard watched over the painting during the busy event.",
+      "answerZh": "繁忙的活動期間，一名保安員看守那幅畫。",
+      "targetForm": "watch over somebody/something",
+      "targetMeaningZh": "照看；守護；保護某人或某事物",
+      "highlight": "watched over"
+    },
+    {
+      "id": "phrasal-verb-09-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "Nina knew her new desk was arriving that morning, so she stood by the window and waited to see the van.",
+      "promptZh": "妮娜知道新書桌會在那天早上送到，所以她站在窗邊等候送貨車出現。",
+      "starter": "Nina",
+      "answer": "Nina knew her new desk was arriving that morning, so she stood by the window and watched for the van.",
+      "answerZh": "妮娜知道新書桌會在那天早上送到，所以她站在窗邊等候送貨車出現。",
+      "targetForm": "watch for somebody/something",
+      "targetMeaningZh": "留意並等候某人或某事物出現",
+      "highlight": "watched for"
+    },
+    {
+      "id": "phrasal-verb-09-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "promptZhSourcePage": 11,
+      "answerSourcePage": 20,
+      "answerZhSourcePage": 20,
+      "prompt": "When buying tickets online, be careful of websites that ask for too much personal information.",
+      "promptZh": "網上購票時，要小心要求提供過多個人資料的網站。",
+      "starter": "When",
+      "answer": "When buying tickets online, watch out for websites that ask for too much personal information.",
+      "answerZh": "網上購票時，要提防要求提供過多個人資料的網站。",
+      "targetForm": "watch out for somebody/something",
+      "targetMeaningZh": "留意並提防可能的危險或問題",
+      "highlight": "watch out for"
+    }
+  ]
+}
