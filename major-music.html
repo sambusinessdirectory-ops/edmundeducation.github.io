@@ -3,6 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>英文流行曲歌詞賞析 | EdmundEducation</title>
+  <meta name="description" content="Edmund 音樂賞析誌：英文流行曲歌詞、背景與中英賞析。">
+  <meta property="og:title" content="Edmund 音樂賞析誌">
+  <meta property="og:description" content="歌詞 · 背景 · 賞析">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Edmund 音樂賞析誌">
+  <meta name="twitter:description" content="歌詞 · 背景 · 賞析">
+  <meta name="twitter:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
   <meta name="theme-color" content="#20283d">
   <meta name="mobile-web-app-capable" content="yes">
@@ -37,7 +48,7 @@
       --panel: rgba(255,255,255,0.94);
     }
 
-    html, body, a, button, input, textarea { cursor: none; }
+    html, body, a, button, input, textarea, [contenteditable] { cursor: none; }
 
     body {
       margin: 0;
@@ -210,10 +221,16 @@
     .hero[hidden] { display: none; }
 
     .hero-link {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
       color: #fff;
       text-decoration: none;
-      display: block;
-      max-width: 760px;
+      display: flex;
+      align-items: flex-end;
+      width: 100%;
+      max-width: none;
+      padding: clamp(28px, 5vw, 54px);
     }
 
     .hero-link h1 {
@@ -222,6 +239,12 @@
 
     .hero-link:hover h1 {
       color: rgba(255,255,255,0.82);
+    }
+
+    .hero-link:focus-visible {
+      outline: 4px solid rgba(255,255,255,0.96);
+      outline-offset: -7px;
+      border-radius: 8px;
     }
 
     .hero-copy {
@@ -540,6 +563,168 @@
       font-weight: 800;
     }
 
+    .article-manager {
+      margin-bottom: 30px;
+      border: 1px solid rgba(0,0,0,0.10);
+      border-radius: 10px;
+      background: #fbfbfd;
+      overflow: hidden;
+    }
+
+    .article-manager summary {
+      min-height: 58px;
+      padding: 16px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      color: var(--ink);
+      font-size: 17px;
+      font-weight: 900;
+      list-style: none;
+      user-select: none;
+    }
+
+    .article-manager summary::-webkit-details-marker { display: none; }
+
+    .article-manager summary::after {
+      content: "＋";
+      color: var(--brand);
+      font-family: system-ui, sans-serif;
+      font-size: 21px;
+      line-height: 1;
+    }
+
+    .article-manager[open] summary::after { content: "−"; }
+
+    .manager-count {
+      margin-left: auto;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .manager-content {
+      padding: 0 18px 18px;
+    }
+
+    .manager-note {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+      font-weight: 700;
+    }
+
+    .manager-table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .manager-table {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+      font-family: system-ui, sans-serif;
+    }
+
+    .manager-table th,
+    .manager-table td {
+      padding: 12px;
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .manager-table th {
+      background: #f5f5f7;
+      color: #4b4b50;
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.03em;
+    }
+
+    .manager-table tbody tr:last-child td { border-bottom: 0; }
+
+    .manager-title {
+      max-width: 320px;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", serif;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 900;
+    }
+
+    .manager-date {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .manager-status {
+      display: inline-flex;
+      align-items: center;
+      min-height: 27px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: #e9f7ef;
+      color: #18713b;
+      font-size: 11px;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+
+    .manager-status.is-hidden {
+      background: #f5eee8;
+      color: #7d4729;
+    }
+
+    .manager-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .manager-action,
+    .cancel-edit-button {
+      min-height: 32px;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 7px;
+      padding: 6px 10px;
+      background: #fff;
+      color: var(--ink);
+      font: 800 12px/1.2 system-ui, sans-serif;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .manager-action:hover,
+    .cancel-edit-button:hover { background: #f2f2f4; }
+
+    .manager-action.is-danger {
+      color: #a1241c;
+      border-color: rgba(161,36,28,0.22);
+    }
+
+    .manager-empty {
+      padding: 24px 14px !important;
+      color: var(--muted);
+      text-align: center !important;
+      font-weight: 700;
+    }
+
+    .admin-heading-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .cancel-edit-button[hidden] { display: none; }
+
     .blog-form {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -579,6 +764,14 @@
       line-height: 1.55;
     }
 
+    .field .title-textarea {
+      min-height: 96px;
+      resize: vertical;
+      font-size: 18px;
+      line-height: 1.4;
+      font-weight: 900;
+    }
+
     .image-preview {
       min-height: 220px;
       border: 1px dashed rgba(0,0,0,0.18);
@@ -596,6 +789,264 @@
       height: 100%;
       object-fit: cover;
       display: block;
+    }
+
+    .image-preview.is-optional {
+      min-height: 180px;
+    }
+
+    .youtube-preview {
+      min-height: 0;
+      aspect-ratio: 16 / 9;
+      position: relative;
+    }
+
+    .youtube-preview[hidden] { display: none; }
+
+    .youtube-preview img {
+      position: absolute;
+      inset: 0;
+    }
+
+    .editor-section {
+      grid-column: 1 / -1;
+      min-width: 0;
+      padding: clamp(18px, 3vw, 26px);
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 8px;
+      background: #fbfbfd;
+      display: grid;
+      gap: 14px;
+    }
+
+    .editor-section h3 {
+      margin: 0;
+      color: var(--ink);
+      font-size: clamp(20px, 2vw, 27px);
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .editor-help {
+      margin: -4px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      font-weight: 700;
+    }
+
+    .format-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .format-button,
+    .add-editor-rows {
+      min-height: 38px;
+      border: 1px solid rgba(0,0,0,0.11);
+      border-radius: 8px;
+      padding: 8px 13px;
+      background: #fff;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .format-button:hover,
+    .add-editor-rows:hover {
+      border-color: rgba(0,0,0,0.24);
+      background: #f5f5f7;
+    }
+
+    .format-button[aria-pressed="true"] {
+      border-color: var(--brand);
+      background: #f5eee8;
+      color: #6d3d24;
+    }
+
+    .format-shortcut {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .rich-editor {
+      width: 100%;
+      min-height: 180px;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fff;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 15px;
+      line-height: 1.6;
+      font-weight: 500;
+      outline: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .rich-editor strong,
+    .rich-editor b {
+      font-weight: 900;
+      font-variation-settings: "wght" 900;
+      -webkit-text-stroke: 0.52px currentColor;
+      text-shadow: 0.012em 0 currentColor, -0.012em 0 currentColor;
+    }
+
+    .rich-editor span[style*="font-size"] { line-height: 1.35; }
+
+    .rich-editor a {
+      color: #12355b;
+      font-weight: 850;
+      text-decoration: underline;
+      text-decoration-thickness: 0.12em;
+      text-underline-offset: 0.16em;
+    }
+
+    .rich-editor:focus {
+      border-color: rgba(0,113,227,0.55);
+      box-shadow: 0 0 0 3px rgba(0,113,227,0.10);
+    }
+
+    .rich-editor:empty::before {
+      content: attr(data-placeholder);
+      color: #86868b;
+      pointer-events: none;
+    }
+
+    .rich-editor h3 {
+      margin: 0.7em 0 0.35em;
+      font-size: 1.3em;
+      line-height: 1.25;
+      font-weight: 900;
+    }
+
+    .rich-editor h3:first-child { margin-top: 0; }
+
+    .editor-table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      border-radius: 8px;
+    }
+
+    .editor-table {
+      width: 100%;
+      min-width: 0;
+      border-collapse: collapse;
+      background: #fff;
+      table-layout: fixed;
+    }
+
+    .editor-table th,
+    .editor-table td {
+      border: 1px solid rgba(0,0,0,0.12);
+      padding: 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    .editor-table th {
+      background: #f5f5f7;
+      color: #343437;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .metadata-table th { width: 180px; }
+
+    .metadata-table input {
+      width: 100%;
+      min-width: 0;
+      border: 0;
+      padding: 4px;
+      background: transparent;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 700;
+      outline: 0;
+    }
+
+    .lyrics-grid-table { min-width: 640px; }
+
+    .lyrics-grid-table th:last-child,
+    .lyrics-grid-table td:last-child {
+      width: 72px;
+      text-align: center;
+    }
+
+    .bilingual-row-controls {
+      background: #f7f7f9;
+      vertical-align: middle !important;
+    }
+
+    .line-control {
+      display: none;
+      width: 30px;
+      min-height: 30px;
+      margin: 3px auto;
+      border: 1px solid rgba(0,0,0,0.13);
+      border-radius: 50%;
+      background: #fff;
+      color: var(--ink);
+      font: 900 18px/1 system-ui, sans-serif;
+    }
+
+    .lyrics-grid-table.show-insert-controls [data-insert-bilingual-row],
+    .lyrics-grid-table.show-delete-controls [data-delete-bilingual-row] {
+      display: grid;
+      place-items: center;
+    }
+
+    .lyrics-grid-table.show-delete-controls [data-delete-bilingual-row] {
+      color: #a1241c;
+      border-color: rgba(161,36,28,0.22);
+    }
+
+    .table-rich-editor {
+      min-height: 64px;
+      border: 0;
+      border-radius: 4px;
+      padding: 8px;
+      box-shadow: none;
+      background: transparent;
+    }
+
+    .table-rich-editor:focus {
+      background: #fbfbfd;
+      box-shadow: inset 0 0 0 2px rgba(0,113,227,0.13);
+    }
+
+    .analysis-table .analysis-lyric td {
+      background: #f5f5f7;
+    }
+
+    .analysis-table .analysis-lyric .table-rich-editor {
+      min-height: 54px;
+      font-size: 18px;
+      line-height: 1.45;
+      font-weight: 900;
+    }
+
+    .analysis-table .analysis-copy .table-rich-editor {
+      min-height: 150px;
+    }
+
+    .analysis-pair-label {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .editor-row-actions {
+      display: flex;
+      justify-content: flex-start;
     }
 
     .form-actions {
@@ -668,7 +1119,7 @@
     }
 
     @media (max-width: 950px) {
-      html, body, a, button, input, textarea { cursor: auto; }
+      html, body, a, button, input, textarea, [contenteditable] { cursor: auto; }
       .custom-cursor { display: none; }
 
       .site-shell {
@@ -722,6 +1173,12 @@
       .admin-panel {
         margin: 34px 22px 0;
       }
+
+      .metadata-table th { width: 132px; }
+
+      .editor-section {
+        padding: 18px 14px;
+      }
     }
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
@@ -736,9 +1193,9 @@
 
   <div class="site-shell">
     <header class="music-nav">
-      <a class="music-brand" href="major-music.html" aria-label="Edmund Music Journal">
+      <a class="music-brand" href="major-music.html" aria-label="Edmund 音樂賞析誌">
         <span class="music-brand-mark">♪</span>
-        <span>Edmund Music Journal</span>
+        <span>Edmund 音樂賞析誌</span>
       </a>
 
       <nav class="music-links">
@@ -746,8 +1203,8 @@
         <a href="resources.html">回到其他英文學習資源</a>
       </nav>
 
-      <label class="nav-search" aria-label="Search posts">
-        <input type="search" placeholder="Search lyrics analysis..." data-search>
+      <label class="nav-search" aria-label="搜尋歌詞賞析文章">
+        <input type="search" placeholder="搜尋歌名、歌手、年份、監製或歌詞…" data-search>
         <span>⌕</span>
       </label>
 
@@ -775,16 +1232,47 @@
       </section>
 
       <section class="admin-panel" id="create" data-admin-panel hidden>
-        <h2>新增歌詞賞析文章</h2>
-        <p class="admin-note">登入後可以新增文章。圖片會壓縮後儲存在此瀏覽器的 localStorage，發布後會開啟新的文章頁面。</p>
+        <details class="article-manager" data-article-manager open>
+          <summary>
+            <span>目前文章管理</span>
+            <span class="manager-count" data-manager-count>0 篇文章</span>
+          </summary>
+          <div class="manager-content">
+            <p class="manager-note">文章依最新發布日期排列。隱藏文章會從公開頁面移除，完整內容仍安全保留在 Supabase 私人檔案，之後可以再次公開或匯出文字備份。</p>
+            <div class="manager-table-wrap">
+              <table class="manager-table">
+                <thead>
+                  <tr>
+                    <th scope="col">文章</th>
+                    <th scope="col">發布日期</th>
+                    <th scope="col">狀態</th>
+                    <th scope="col">管理</th>
+                  </tr>
+                </thead>
+                <tbody data-article-management-body></tbody>
+              </table>
+            </div>
+          </div>
+        </details>
+
+        <div class="admin-heading-row">
+          <h2 data-editor-title>新增歌詞賞析文章</h2>
+          <button class="cancel-edit-button" type="button" data-cancel-edit hidden>取消編輯</button>
+        </div>
+        <p class="admin-note" data-admin-note aria-live="polite">登入後可以新增文章。文章會同步到網站，讓讀者在不同裝置上開啟；這部電腦內的舊文章也會在登入後自動匯入。</p>
 
         <form class="blog-form" data-blog-form>
-          <div class="field">
+          <div class="field full">
             <label for="post-title">文章標題</label>
-            <input id="post-title" name="title" type="text" placeholder="例如：Taylor Swift 歌詞中的 metaphor" required>
+            <textarea class="title-textarea" id="post-title" name="title" rows="3" maxlength="240" placeholder="可用換行安排標題，例如：&#10;Taylor Swift&#10;歌詞中的 metaphor" required></textarea>
           </div>
 
-          <div class="field">
+          <div class="field full">
+            <label for="post-subtitle">文章副標題</label>
+            <input id="post-subtitle" name="subtitle" type="text" maxlength="360" placeholder="用一句話補充主題；如留空，首頁會改用歌曲文化背景。">
+          </div>
+
+          <div class="field full">
             <label for="post-tag">Tag</label>
             <input id="post-tag" name="tag" type="text" placeholder="例如：Lyrics / Pop / Grammar" required>
           </div>
@@ -792,16 +1280,148 @@
           <div class="field full">
             <label for="post-image">Insert an image</label>
             <input id="post-image" name="image" type="file" accept="image/*" required data-image-input>
-          </div>
-
-          <div class="field full">
             <div class="image-preview" data-image-preview>Image preview</div>
           </div>
 
           <div class="field full">
-            <label for="post-body">Write anything here</label>
-            <textarea id="post-body" name="body" placeholder="在這裡寫下你的歌詞分析、英文用法、個人觀察..." required></textarea>
+            <label for="post-youtube">Add YouTube link (optional)</label>
+            <input id="post-youtube" name="youtubeUrl" type="text" inputmode="url" autocomplete="url" placeholder="https://www.youtube.com/watch?v=..." data-youtube-input>
+            <div class="image-preview youtube-preview" data-youtube-preview hidden></div>
           </div>
+
+          <section class="editor-section" aria-labelledby="song-details-heading">
+            <h3 id="song-details-heading">歌曲資料</h3>
+            <p class="editor-help">加入讀者會在文章頂部看到的資料；發布後表格不會顯示邊框。</p>
+            <div class="editor-table-wrap">
+              <table class="editor-table metadata-table">
+                <tbody>
+                  <tr>
+                    <th scope="row"><label for="post-singers">歌手</label></th>
+                    <td><input id="post-singers" name="singers" type="text" placeholder="歌手或組合"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><label for="post-release-year">發行年份</label></th>
+                    <td><input id="post-release-year" name="releaseYear" type="text" inputmode="numeric" placeholder="例如：2024"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><label for="post-songwriter">作詞／作曲</label></th>
+                    <td><input id="post-songwriter" name="songwriter" type="text" placeholder="作詞及作曲者"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><label for="post-producer">監製</label></th>
+                    <td><input id="post-producer" name="producer" type="text" placeholder="監製"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="editor-section" data-editor-section aria-labelledby="context-heading">
+            <h3 id="context-heading">創作背景與脈絡</h3>
+            <div class="format-toolbar" aria-label="Context and background formatting controls">
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
+              <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
+              <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
+              <button class="format-button" type="button" data-editor-command="brown">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="honey">蜂蜜金色</button>
+              <button class="format-button" type="button" data-editor-command="link">加入連結</button>
+              <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
+              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H、G、P。</span>
+            </div>
+            <div id="post-context" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="Paste or write the song's context and background..."></div>
+          </section>
+
+          <section class="editor-section" data-editor-section aria-labelledby="full-lyrics-heading">
+            <h3 id="full-lyrics-heading">完整英文歌詞</h3>
+            <div class="format-toolbar" aria-label="Full English lyrics formatting controls">
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
+              <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
+              <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
+              <button class="format-button" type="button" data-editor-command="brown">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="honey">蜂蜜金色</button>
+              <button class="format-button" type="button" data-editor-command="link">加入連結</button>
+              <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
+              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H、G、P。</span>
+            </div>
+            <div id="post-full-lyrics" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="Paste the full English lyrics here..."></div>
+          </section>
+
+          <section class="editor-section" data-editor-section aria-labelledby="bilingual-lyrics-heading">
+            <h3 id="bilingual-lyrics-heading">完整歌詞：英文與中文</h3>
+            <p class="editor-help">左欄為英文，右欄為中文。完全未使用的行不會發布；如在空白行輸入空格，該行會保留作為分段留白。發布後表格不顯示邊框。</p>
+            <div class="format-toolbar" aria-label="Bilingual lyrics formatting controls">
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
+              <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
+              <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
+              <button class="format-button" type="button" data-editor-command="brown">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="honey">蜂蜜金色</button>
+              <button class="format-button" type="button" data-editor-command="link">加入連結</button>
+              <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
+              <button class="format-button" type="button" data-bilingual-control-mode="insert" aria-pressed="false">Add Between Line</button>
+              <button class="format-button" type="button" data-bilingual-control-mode="delete" aria-pressed="false">Delete a line</button>
+              <span class="format-shortcut">行管理使用右方 ＋／−；文字格式可用 ⌘/Ctrl+B、＋、−、H、G、P。</span>
+            </div>
+            <div class="editor-table-wrap">
+              <table class="editor-table lyrics-grid-table">
+                <thead>
+                  <tr>
+                    <th scope="col">English</th>
+                    <th scope="col">中文</th>
+                    <th scope="col">調整</th>
+                  </tr>
+                </thead>
+                <tbody data-bilingual-lyrics-body></tbody>
+              </table>
+            </div>
+            <div class="editor-row-actions">
+              <button class="add-editor-rows" type="button" data-add-bilingual-rows>Add 10 more rows</button>
+            </div>
+          </section>
+
+          <div class="field full">
+            <label for="post-second-image">Insert 2nd image (optional)</label>
+            <input id="post-second-image" name="secondImage" type="file" accept="image/*" data-second-image-input>
+            <div class="image-preview is-optional" data-second-image-preview>Second image preview</div>
+          </div>
+
+          <section class="editor-section" data-editor-section aria-labelledby="lyric-analysis-heading">
+            <h3 id="lyric-analysis-heading">歌詞深入賞析</h3>
+            <p class="editor-help">每段較大的歌詞之後接續分析；完全空白的組合不會發布。</p>
+            <div class="format-toolbar" aria-label="Lyrics and analysis formatting controls">
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
+              <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
+              <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
+              <button class="format-button" type="button" data-editor-command="brown">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="honey">蜂蜜金色</button>
+              <button class="format-button" type="button" data-editor-command="link">加入連結</button>
+              <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
+              <span class="format-shortcut">歌詞行與分析欄均支援 ⌘/Ctrl+B、＋、−、H、G、P。</span>
+            </div>
+            <div class="editor-table-wrap">
+              <table class="editor-table analysis-table">
+                <tbody data-lyric-analysis-body></tbody>
+              </table>
+            </div>
+            <div class="editor-row-actions">
+              <button class="add-editor-rows" type="button" data-add-analysis-lines>Add 10 more lines</button>
+            </div>
+          </section>
+
+          <section class="editor-section" data-editor-section aria-labelledby="reflection-heading">
+            <h3 id="reflection-heading">反思</h3>
+            <p class="editor-help">記錄歌曲帶來的個人反思、教學延伸或留給讀者的問題。</p>
+            <div class="format-toolbar" aria-label="Reflection formatting controls">
+              <button class="format-button" type="button" data-editor-command="bold"><strong>B</strong> 粗體</button>
+              <button class="format-button" type="button" data-editor-command="size-up">Ctrl/Cmd ＋</button>
+              <button class="format-button" type="button" data-editor-command="size-down">Ctrl/Cmd −</button>
+              <button class="format-button" type="button" data-editor-command="brown">金棕色</button>
+              <button class="format-button" type="button" data-editor-command="honey">蜂蜜金色</button>
+              <button class="format-button" type="button" data-editor-command="link">加入連結</button>
+              <button class="format-button" type="button" data-editor-command="heading">小節標題</button>
+              <span class="format-shortcut">選取文字後可用 ⌘/Ctrl+B、＋、−、H、G、P。</span>
+            </div>
+            <div id="post-reflection" class="rich-editor" contenteditable="true" role="textbox" aria-multiline="true" data-rich-editor data-placeholder="寫下這首歌帶來的反思……"></div>
+          </section>
 
           <div class="form-actions">
             <button class="post-button secondary" type="reset">Clear</button>
@@ -828,16 +1448,36 @@
     </form>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
   <script>
-    // Change your admin password here.
-    const ADMIN_PASSWORD = "edmundmusic";
-
     const POSTS_KEY = "edmundMusicPosts";
     const AUTH_KEY = "edmundMusicLoggedIn";
+    const ADMIN_TOKEN_KEY = "edmundMusicAdminToken";
+    const ADMIN_EXPIRES_KEY = "edmundMusicAdminExpiresAt";
     const POSTS_PER_LOAD = 12;
+    const INITIAL_BILINGUAL_ROWS = 20;
+    const INITIAL_ANALYSIS_LINES = 20;
+    const EXTRA_EDITOR_ROWS = 10;
+    const SUPABASE_SETTINGS = window.EDMUND_SUPABASE || {};
+    const MUSIC_SUMMARY_VIEW = SUPABASE_SETTINGS.musicJournalSummaryView || "music_journal_public_post_summaries";
+    const musicSupabase = window.supabase?.createClient && SUPABASE_SETTINGS.url && SUPABASE_SETTINGS.anonKey
+      ? window.supabase.createClient(SUPABASE_SETTINGS.url, SUPABASE_SETTINGS.anonKey, {
+          auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
+        })
+      : null;
 
     let activeFilter = "All";
     let visiblePostCount = POSTS_PER_LOAD;
+    let activeRichEditor = null;
+    let activeRichRange = null;
+    let sharedPosts = [];
+    let sharedPostsLoaded = false;
+    let sharedPostsMode = "none";
+    let editingPostId = "";
+    let editingPrimaryImage = "";
+    let editingSecondImage = "";
+    let bilingualControlMode = "";
 
     const seedPosts = [];
 
@@ -850,8 +1490,286 @@
         .replaceAll("'", "&#039;");
     }
 
+    function normalizeApostrophes(value) {
+      return String(value ?? "").replace(/\u2019/g, "'");
+    }
+
+    function titleHtml(value) {
+      return escapeHtml(normalizeApostrophes(value)).replace(/\r\n?|\n/g, "<br>");
+    }
+
+    function safeEditorLink(value) {
+      let source = normalizeApostrophes(value).trim();
+      if (!source || source.length > 2048) return "";
+      if (!/^[a-z][a-z\d+.-]*:/i.test(source)) source = `https://${source}`;
+      try {
+        const url = new URL(source);
+        return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function normalizeTextControlApostrophes(control) {
+      if (!(control instanceof HTMLInputElement || control instanceof HTMLTextAreaElement)) return;
+      if (control instanceof HTMLInputElement && control.type === "file") return;
+      const normalized = normalizeApostrophes(control.value);
+      if (normalized === control.value) return;
+      const start = control.selectionStart;
+      const end = control.selectionEnd;
+      const direction = control.selectionDirection;
+      control.value = normalized;
+      if (start !== null && end !== null) control.setSelectionRange(start, end, direction || "none");
+    }
+
     function plainExcerpt(value) {
       return String(value).replace(/\s+/g, " ").trim().slice(0, 150);
+    }
+
+    function plainRichText(value) {
+      const documentFragment = new DOMParser().parseFromString(String(value || ""), "text/html");
+      documentFragment.body.querySelectorAll("br").forEach(element => {
+        element.replaceWith(documentFragment.createTextNode("\n"));
+      });
+      documentFragment.body.querySelectorAll("p, div, h1, h2, h3, h4, h5, h6, li").forEach(element => {
+        element.append(documentFragment.createTextNode("\n"));
+      });
+      return String(documentFragment.body.textContent || "")
+        .replace(/\u00a0/g, " ")
+        .replace(/[ \t]+\n/g, "\n")
+        .replace(/\n{3,}/g, "\n\n")
+        .trim();
+    }
+
+    function richEditorHtml(editor) {
+      if (!editor) return "";
+
+      const output = document.createElement("div");
+      const allowedTags = new Map([
+        ["B", "strong"],
+        ["STRONG", "strong"],
+        ["H1", "h3"],
+        ["H2", "h3"],
+        ["H3", "h3"],
+        ["H4", "h3"],
+        ["H5", "h3"],
+        ["H6", "h3"],
+        ["P", "p"],
+        ["DIV", "div"],
+        ["BR", "br"],
+        ["SPAN", "span"],
+        ["A", "a"]
+      ]);
+
+      function copySafeInlineStyle(source, target) {
+        if (source.tagName !== "SPAN") return;
+
+        const fontSize = String(source.style.fontSize || "").trim().toLowerCase();
+        const fontSizeMatch = fontSize.match(/^(\d+(?:\.\d+)?)(%|em|px)$/);
+        if (fontSizeMatch) {
+          const amount = Number(fontSizeMatch[1]);
+          const unit = fontSizeMatch[2];
+          const isSafe = (unit === "%" && amount >= 10 && amount <= 10000)
+            || (unit === "em" && amount >= 0.1 && amount <= 100)
+            || (unit === "px" && amount >= 1 && amount <= 1600);
+          if (isSafe) target.style.fontSize = `${amount}${unit}`;
+        }
+
+        const color = String(source.style.color || "").replace(/\s+/g, "").toLowerCase();
+        if (["#9a6700", "rgb(154,103,0)"].includes(color)) {
+          target.style.color = "#9a6700";
+        } else if (["#93552f", "rgb(147,85,47)"].includes(color)) {
+          target.style.color = "#93552f";
+        }
+      }
+
+      function copySafeLink(source, target) {
+        if (source.tagName !== "A") return true;
+        const href = safeEditorLink(source.getAttribute("href") || "");
+        if (!href) return false;
+        target.setAttribute("href", href);
+        target.setAttribute("target", "_blank");
+        target.setAttribute("rel", "noopener noreferrer");
+        return true;
+      }
+
+      function appendCleanNode(source, parent) {
+        if (source.nodeType === Node.TEXT_NODE) {
+          parent.append(document.createTextNode(normalizeApostrophes(source.textContent || "")));
+          return;
+        }
+
+        if (source.nodeType !== Node.ELEMENT_NODE) return;
+
+        const safeTag = allowedTags.get(source.tagName);
+        if (!safeTag) {
+          Array.from(source.childNodes).forEach(child => appendCleanNode(child, parent));
+          return;
+        }
+
+        const cleanElement = document.createElement(safeTag);
+        copySafeInlineStyle(source, cleanElement);
+        if (!copySafeLink(source, cleanElement)) {
+          Array.from(source.childNodes).forEach(child => appendCleanNode(child, parent));
+          return;
+        }
+        Array.from(source.childNodes).forEach(child => appendCleanNode(child, cleanElement));
+        parent.append(cleanElement);
+      }
+
+      Array.from(editor.childNodes).forEach(child => appendCleanNode(child, output));
+      return plainRichText(output.innerHTML) ? output.innerHTML.trim() : "";
+    }
+
+    function setRichEditorContent(editor, value) {
+      if (!editor) return;
+      const staging = document.createElement("div");
+      staging.innerHTML = String(value || "");
+      editor.innerHTML = richEditorHtml(staging);
+    }
+
+    function getYouTubeVideoId(value) {
+      const rawValue = String(value || "").trim();
+      if (!rawValue) return "";
+
+      try {
+        const url = new URL(/^https?:\/\//i.test(rawValue) ? rawValue : `https://${rawValue}`);
+        const host = url.hostname.toLowerCase().replace(/^www\./, "");
+        let videoId = "";
+
+        if (host === "youtu.be") {
+          videoId = url.pathname.split("/").filter(Boolean)[0] || "";
+        } else if (host === "youtube.com" || host.endsWith(".youtube.com") || host === "youtube-nocookie.com" || host.endsWith(".youtube-nocookie.com")) {
+          const pathParts = url.pathname.split("/").filter(Boolean);
+          if (["embed", "shorts", "live", "v"].includes(pathParts[0])) {
+            videoId = pathParts[1] || "";
+          } else {
+            videoId = url.searchParams.get("v") || "";
+          }
+        }
+
+        return /^[A-Za-z0-9_-]{11}$/.test(videoId) ? videoId : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function bilingualRowTemplate(index) {
+      return `
+        <tr data-bilingual-row>
+          <td>
+            <div class="rich-editor table-rich-editor" contenteditable="true" role="textbox" aria-label="English lyric line ${index}" aria-multiline="true" data-rich-editor data-bilingual-english data-placeholder="English line ${index}"></div>
+          </td>
+          <td>
+            <div class="rich-editor table-rich-editor" contenteditable="true" role="textbox" aria-label="Chinese lyric line ${index}" aria-multiline="true" data-rich-editor data-bilingual-chinese data-placeholder="中文第 ${index} 行"></div>
+          </td>
+          <td class="bilingual-row-controls">
+            <button class="line-control" type="button" data-insert-bilingual-row aria-label="在第 ${index} 行之後加入一行">＋</button>
+            <button class="line-control" type="button" data-delete-bilingual-row aria-label="刪除第 ${index} 行">−</button>
+          </td>
+        </tr>
+      `;
+    }
+
+    function renumberBilingualRows() {
+      document.querySelectorAll("[data-bilingual-row]").forEach((row, rowIndex) => {
+        const index = rowIndex + 1;
+        const english = row.querySelector("[data-bilingual-english]");
+        const chinese = row.querySelector("[data-bilingual-chinese]");
+        const insertButton = row.querySelector("[data-insert-bilingual-row]");
+        const deleteButton = row.querySelector("[data-delete-bilingual-row]");
+        if (english) {
+          english.setAttribute("aria-label", `English lyric line ${index}`);
+          english.dataset.placeholder = `English line ${index}`;
+        }
+        if (chinese) {
+          chinese.setAttribute("aria-label", `Chinese lyric line ${index}`);
+          chinese.dataset.placeholder = `中文第 ${index} 行`;
+        }
+        insertButton?.setAttribute("aria-label", `在第 ${index} 行之後加入一行`);
+        deleteButton?.setAttribute("aria-label", `刪除第 ${index} 行`);
+      });
+    }
+
+    function updateBilingualControlMode(mode = "") {
+      bilingualControlMode = bilingualControlMode === mode ? "" : mode;
+      const table = document.querySelector(".lyrics-grid-table");
+      table?.classList.toggle("show-insert-controls", bilingualControlMode === "insert");
+      table?.classList.toggle("show-delete-controls", bilingualControlMode === "delete");
+      document.querySelectorAll("[data-bilingual-control-mode]").forEach(button => {
+        button.setAttribute("aria-pressed", String(button.dataset.bilingualControlMode === bilingualControlMode));
+      });
+    }
+
+    function analysisLineTemplate(index) {
+      return `
+        <tr class="analysis-lyric">
+          <td>
+            <span class="analysis-pair-label">Lyrics line ${index}</span>
+            <div class="rich-editor table-rich-editor" contenteditable="true" role="textbox" aria-label="Lyrics line ${index}" aria-multiline="true" data-rich-editor data-analysis-lyric data-placeholder="Lyrics line ${index}"></div>
+          </td>
+        </tr>
+        <tr class="analysis-copy">
+          <td>
+            <span class="analysis-pair-label">Analysis line ${index}</span>
+            <div class="rich-editor table-rich-editor" contenteditable="true" role="textbox" aria-label="Analysis line ${index}" aria-multiline="true" data-rich-editor data-analysis-copy data-placeholder="Write the analysis for lyrics line ${index}..."></div>
+          </td>
+        </tr>
+      `;
+    }
+
+    function addBilingualRows(count = EXTRA_EDITOR_ROWS) {
+      const tableBody = document.querySelector("[data-bilingual-lyrics-body]");
+      if (!tableBody) return;
+
+      const firstIndex = tableBody.querySelectorAll("[data-bilingual-row]").length + 1;
+      tableBody.insertAdjacentHTML("beforeend", Array.from({ length: count }, (_, offset) => bilingualRowTemplate(firstIndex + offset)).join(""));
+      renumberBilingualRows();
+    }
+
+    function addAnalysisLines(count = EXTRA_EDITOR_ROWS) {
+      const tableBody = document.querySelector("[data-lyric-analysis-body]");
+      if (!tableBody) return;
+
+      const firstIndex = tableBody.querySelectorAll("[data-analysis-lyric]").length + 1;
+      tableBody.insertAdjacentHTML("beforeend", Array.from({ length: count }, (_, offset) => analysisLineTemplate(firstIndex + offset)).join(""));
+    }
+
+    function resetStructuredEditors() {
+      document.querySelectorAll("[data-rich-editor]").forEach(editor => editor.replaceChildren());
+
+      const bilingualBody = document.querySelector("[data-bilingual-lyrics-body]");
+      const analysisBody = document.querySelector("[data-lyric-analysis-body]");
+      if (bilingualBody) bilingualBody.innerHTML = "";
+      if (analysisBody) analysisBody.innerHTML = "";
+      addBilingualRows(INITIAL_BILINGUAL_ROWS);
+      addAnalysisLines(INITIAL_ANALYSIS_LINES);
+      updateBilingualControlMode(bilingualControlMode);
+      bilingualControlMode = "";
+      updateBilingualControlMode();
+      activeRichEditor = null;
+    }
+
+    function readBilingualLyrics() {
+      return Array.from(document.querySelectorAll("[data-bilingual-row]")).map(row => {
+        const english = richEditorHtml(row.querySelector("[data-bilingual-english]"));
+        const chinese = richEditorHtml(row.querySelector("[data-bilingual-chinese]"));
+        const hasWords = Boolean(plainRichText(english) || plainRichText(chinese));
+        const intentionalBreak = !hasWords && row.dataset.rowTouched === "true";
+        return intentionalBreak
+          ? { english: "<br>", chinese: "<br>", intentionalBreak: true }
+          : { english, chinese, intentionalBreak: false };
+      }).filter(item => item.intentionalBreak || plainRichText(item.english) || plainRichText(item.chinese));
+    }
+
+    function readLyricAnalysis() {
+      const lyricEditors = Array.from(document.querySelectorAll("[data-analysis-lyric]"));
+      const analysisEditors = Array.from(document.querySelectorAll("[data-analysis-copy]"));
+
+      return lyricEditors.map((editor, index) => ({
+        lyric: richEditorHtml(editor),
+        analysis: richEditorHtml(analysisEditors[index])
+      })).filter(item => plainRichText(item.lyric) || plainRichText(item.analysis));
     }
 
     function getStoredPosts() {
@@ -866,6 +1784,55 @@
       localStorage.setItem(POSTS_KEY, JSON.stringify(posts));
     }
 
+    function adminSession() {
+      try {
+        const token = sessionStorage.getItem(ADMIN_TOKEN_KEY) || "";
+        const expiresAt = sessionStorage.getItem(ADMIN_EXPIRES_KEY) || "";
+        if (!token || !expiresAt || Date.parse(expiresAt) <= Date.now()) {
+          sessionStorage.removeItem(ADMIN_TOKEN_KEY);
+          sessionStorage.removeItem(ADMIN_EXPIRES_KEY);
+          sessionStorage.setItem(AUTH_KEY, "no");
+          return null;
+        }
+        return { token, expiresAt };
+      } catch {
+        return null;
+      }
+    }
+
+    function adminToken() {
+      return adminSession()?.token || "";
+    }
+
+    function storeAdminSession(session) {
+      try {
+        if (session?.token && session?.expires_at) {
+          sessionStorage.setItem(ADMIN_TOKEN_KEY, String(session.token));
+          sessionStorage.setItem(ADMIN_EXPIRES_KEY, String(session.expires_at));
+          sessionStorage.setItem(AUTH_KEY, "yes");
+        } else {
+          sessionStorage.removeItem(ADMIN_TOKEN_KEY);
+          sessionStorage.removeItem(ADMIN_EXPIRES_KEY);
+          sessionStorage.setItem(AUTH_KEY, "no");
+        }
+      } catch {}
+    }
+
+    function normalizeSharedPost(row) {
+      const payload = row?.payload && typeof row.payload === "object" ? row.payload : {};
+      const id = String(row?.id || payload.id || "").trim();
+      if (!id) return null;
+      const published = row?.published !== false;
+      return {
+        ...payload,
+        id,
+        _sortIndex: Number(row?.sort_index) || 0,
+        published,
+        isCustom: true,
+        isShared: true
+      };
+    }
+
     function postTimestamp(post) {
       if (Number.isFinite(Number(post.createdAt))) return Number(post.createdAt);
 
@@ -877,14 +1844,276 @@
     }
 
     function sortPosts(posts) {
-      return [...posts].sort((a, b) => postTimestamp(b) - postTimestamp(a));
+      return [...posts].sort((a, b) => {
+        const sortIndexDifference = (Number(b?._sortIndex) || 0) - (Number(a?._sortIndex) || 0);
+        return sortIndexDifference || postTimestamp(b) - postTimestamp(a);
+      });
     }
 
     function getAllPosts() {
-      return sortPosts([
-        ...getStoredPosts().map(post => ({ ...post, isCustom: true })),
-        ...seedPosts.map(post => ({ ...post, isCustom: false }))
-      ]);
+      const localPosts = getStoredPosts()
+        .filter(post => post?.published !== false && !post?.isHidden)
+        .map(post => ({ ...post, isCustom: true }));
+      const visibleSharedPosts = sharedPosts.filter(post => post?.published !== false);
+      const publicRemoteMode = Boolean(musicSupabase) && !isLoggedIn();
+      if (publicRemoteMode && (!sharedPostsLoaded || sharedPostsMode !== "public")) {
+        return sortPosts(seedPosts.map(post => ({ ...post, isCustom: false })));
+      }
+      if (!sharedPostsLoaded) {
+        return sortPosts([
+          ...localPosts,
+          ...seedPosts.map(post => ({ ...post, isCustom: false }))
+        ]);
+      }
+
+      const sharedIds = new Set(sharedPosts.map(post => post.id));
+      const seedOnly = sortPosts(
+        seedPosts
+          .filter(post => !sharedIds.has(post.id))
+          .map(post => ({ ...post, isCustom: false }))
+      );
+      return [...visibleSharedPosts, ...seedOnly];
+    }
+
+    function showAdminStatus(message, isError = false) {
+      const note = document.querySelector("[data-admin-note]");
+      if (!note) return;
+      note.textContent = message;
+      note.style.color = isError ? "#b42318" : "";
+    }
+
+    function getManagementPosts() {
+      const postsById = new Map();
+      getStoredPosts().forEach(post => {
+        if (!post?.id) return;
+        postsById.set(post.id, {
+          ...post,
+          published: post.published !== false && !post.isHidden,
+          isCustom: true,
+          isShared: false
+        });
+      });
+      sharedPosts.forEach(post => {
+        if (!post?.id) return;
+        postsById.set(post.id, {
+          ...(postsById.get(post.id) || {}),
+          ...post,
+          published: post.published !== false,
+          isCustom: true,
+          isShared: true
+        });
+      });
+      return sortPosts(Array.from(postsById.values()));
+    }
+
+    function renderArticleManager() {
+      const body = document.querySelector("[data-article-management-body]");
+      const count = document.querySelector("[data-manager-count]");
+      if (!body) return;
+      if (!isLoggedIn()) {
+        body.replaceChildren();
+        if (count) count.textContent = "";
+        return;
+      }
+
+      const posts = getManagementPosts();
+      if (count) count.textContent = `${posts.length} 篇文章`;
+      body.innerHTML = posts.length
+        ? posts.map(post => {
+            const published = post.published !== false;
+            return `
+              <tr>
+                <td class="manager-title">${titleHtml(post.title || "未命名文章")}</td>
+                <td class="manager-date">${escapeHtml(post.date || "—")}</td>
+                <td><span class="manager-status${published ? "" : " is-hidden"}">${published ? "已公開" : "已隱藏"}</span></td>
+                <td>
+                  <div class="manager-actions">
+                    <a class="manager-action" href="music-post.html?id=${encodeURIComponent(post.id)}" data-manager-open="${escapeHtml(post.id)}">開啟</a>
+                    <button class="manager-action" type="button" data-manager-edit="${escapeHtml(post.id)}">編輯</button>
+                    <button class="manager-action" type="button" data-manager-export="${escapeHtml(post.id)}">匯出文字</button>
+                    <button class="manager-action" type="button" data-manager-visibility="${escapeHtml(post.id)}" data-next-published="${String(!published)}">${published ? "隱藏" : "再次公開"}</button>
+                    <button class="manager-action is-danger" type="button" data-manager-delete="${escapeHtml(post.id)}">刪除</button>
+                  </div>
+                </td>
+              </tr>
+            `;
+          }).join("")
+        : `<tr><td class="manager-empty" colspan="4">目前未有文章。</td></tr>`;
+    }
+
+    function textArchive(post) {
+      const hasStructuredContent = Boolean(
+        plainRichText(post.contextBackground || post.contextHtml || "")
+        || plainRichText(post.fullLyricsEnglish || post.fullLyricsHtml || "")
+        || plainRichText(post.reflection || post.reflectionHtml || "")
+        || (Array.isArray(post.bilingualLyrics) && post.bilingualLyrics.length)
+        || (Array.isArray(post.lyricAnalysis) && post.lyricAnalysis.length)
+      );
+      const legacyBody = hasStructuredContent ? "" : plainRichText(post.body || "");
+      const lines = [
+        post.title || "未命名文章",
+        "=".repeat(Math.max(8, String(post.title || "").length)),
+        `Tag：${post.tag || ""}`,
+        `作者：${post.author || "Edmund Sir"}`,
+        `發布日期：${post.date || ""}`,
+        `狀態：${post.published === false ? "已隱藏" : "已公開"}`,
+        `副標題：${post.subtitle || ""}`,
+        "",
+        "歌曲資料",
+        `歌手：${post.singers || ""}`,
+        `發行年份：${post.releaseYear || ""}`,
+        `作詞／作曲：${post.songwriter || ""}`,
+        `監製：${post.producer || ""}`,
+        `YouTube：${post.youtubeUrl || ""}`,
+        ...(legacyBody ? ["", "文章內容（舊版文章）", legacyBody] : []),
+        "",
+        "創作背景與脈絡",
+        plainRichText(post.contextBackground || ""),
+        "",
+        "完整英文歌詞",
+        plainRichText(post.fullLyricsEnglish || ""),
+        "",
+        "完整歌詞：英文 | 中文"
+      ];
+
+      (Array.isArray(post.bilingualLyrics) ? post.bilingualLyrics : []).forEach(row => {
+        if (row?.intentionalBreak) {
+          lines.push("");
+        } else {
+          lines.push(`${plainRichText(row?.english || "")} | ${plainRichText(row?.chinese || "")}`);
+        }
+      });
+
+      lines.push("", "歌詞深入賞析");
+      (Array.isArray(post.lyricAnalysis) ? post.lyricAnalysis : []).forEach((row, index) => {
+        lines.push(`歌詞 ${index + 1}：${plainRichText(row?.lyric || "")}`);
+        lines.push(`賞析 ${index + 1}：${plainRichText(row?.analysis || "")}`, "");
+      });
+      lines.push("反思", plainRichText(post.reflection || post.reflectionHtml || ""), "");
+      return lines.join("\n").replace(/\n{4,}/g, "\n\n\n").trim() + "\n";
+    }
+
+    function downloadTextArchive(post) {
+      const blob = new Blob([textArchive(post)], { type: "text/plain;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      const filename = String(post.title || "music-journal-article")
+        .replace(/[\\/:*?"<>|]+/g, "-")
+        .replace(/\s+/g, " ")
+        .trim()
+        .slice(0, 80) || "music-journal-article";
+      link.href = url;
+      link.download = `${filename}.txt`;
+      document.body.append(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 0);
+    }
+
+    async function loadSharedPosts({ admin = isLoggedIn() } = {}) {
+      if (!musicSupabase) {
+        throw new Error("The shared publishing service is unavailable.");
+      }
+
+      let data;
+      let error;
+      if (admin && adminToken()) {
+        ({ data, error } = await musicSupabase.rpc("music_journal_list_admin", {
+          p_token: adminToken()
+        }));
+      } else {
+        ({ data, error } = await musicSupabase
+          .from(MUSIC_SUMMARY_VIEW)
+          .select("id,sort_index,payload")
+          .order("sort_index", { ascending: false }));
+      }
+
+      if (error) {
+        if (admin && /invalid|expired|session/i.test(error.message || "")) {
+          storeAdminSession(null);
+          updateAuthUi();
+        }
+        throw error;
+      }
+
+      sharedPosts = (Array.isArray(data) ? data : [])
+        .map(normalizeSharedPost)
+        .filter(Boolean);
+      sharedPostsLoaded = true;
+      sharedPostsMode = admin ? "admin" : "public";
+      refreshBlog(true);
+      return sharedPosts;
+    }
+
+    async function publishSharedPost(post) {
+      const token = adminToken();
+      if (!musicSupabase || !token) {
+        throw new Error("Please log in again before publishing.");
+      }
+
+      const { data, error } = await musicSupabase.rpc("music_journal_publish", {
+        p_token: token,
+        p_post: post
+      });
+      if (error) throw error;
+      return data;
+    }
+
+    async function deleteSharedPost(id) {
+      const token = adminToken();
+      if (!musicSupabase || !token) {
+        throw new Error("Please log in again before deleting an article.");
+      }
+
+      const { data, error } = await musicSupabase.rpc("music_journal_delete", {
+        p_token: token,
+        p_id: id
+      });
+      if (error) throw error;
+      return Boolean(data);
+    }
+
+    async function setSharedPostVisibility(id, published) {
+      const token = adminToken();
+      if (!musicSupabase || !token) {
+        throw new Error("Please log in again before changing article visibility.");
+      }
+
+      const { data, error } = await musicSupabase.rpc("music_journal_set_visibility", {
+        p_token: token,
+        p_id: id,
+        p_published: Boolean(published)
+      });
+      if (error) throw error;
+      return Boolean(data);
+    }
+
+    function localPostPayload(post, overrides = {}) {
+      const {
+        isCustom,
+        isShared,
+        isHidden,
+        _sortIndex,
+        ...payload
+      } = post || {};
+      return { ...payload, ...overrides };
+    }
+
+    function saveLocalPost(post) {
+      const localPost = localPostPayload(post);
+      const storedPosts = getStoredPosts().filter(item => item.id !== localPost.id);
+      saveStoredPosts([localPost, ...storedPosts]);
+      return localPost;
+    }
+
+    async function importLegacyPosts() {
+      const legacyPosts = getStoredPosts().filter(post => post?.published !== false && !post?.isHidden);
+      if (!legacyPosts.length) return 0;
+
+      for (const post of legacyPosts) {
+        await publishSharedPost(post);
+      }
+      return legacyPosts.length;
     }
 
     function minutesRead(body) {
@@ -905,6 +2134,48 @@
       return `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.78)), url("${safeImage}")`;
     }
 
+    function featuredSubtitle(post) {
+      const candidates = [
+        post?.subtitle,
+        post?.contextExcerpt,
+        post?.culturalContext,
+        post?.contextBackground,
+        post?.contextHtml,
+        post?.background,
+        post?.context
+      ];
+      const source = candidates.map(value => plainRichText(value || "")).find(Boolean) || "";
+      const summary = plainExcerpt(source);
+      return `${summary}${source.length > summary.length ? "..." : ""}`;
+    }
+
+    function searchablePostText(post) {
+      const bilingualLyrics = Array.isArray(post?.bilingualLyrics) ? post.bilingualLyrics : [];
+      const lyricAnalysis = Array.isArray(post?.lyricAnalysis) ? post.lyricAnalysis : [];
+      const searchableFields = [
+        post?.title,
+        post?.songName,
+        post?.producer,
+        post?.releaseYear,
+        post?.yearOfRelease,
+        post?.songYear,
+        post?.singers,
+        post?.singer,
+        post?.searchLyrics,
+        post?.fullLyricsEnglish,
+        post?.fullLyricsHtml,
+        post?.englishLyrics,
+        ...bilingualLyrics.flatMap(row => [
+          row?.english ?? row?.englishHtml ?? row?.left,
+          row?.chinese ?? row?.chineseHtml ?? row?.right
+        ]),
+        ...lyricAnalysis.map(row => row?.lyric ?? row?.lyrics ?? row?.lyricsHtml ?? row?.line)
+      ];
+      return normalizeApostrophes(
+        searchableFields.map(value => plainRichText(value || "")).join(" ")
+      ).toLowerCase();
+    }
+
     function renderFeatured(posts = getAllPosts()) {
       const hero = document.querySelector("[data-featured-hero]");
       if (!hero) return;
@@ -919,15 +2190,18 @@
 
       hero.hidden = false;
       hero.style.backgroundImage = heroBackground(post.image);
+      const publicationDate = isLoggedIn() && post.date
+        ? `${escapeHtml(post.date)} ・ `
+        : "";
       hero.innerHTML = `
         <a class="hero-link" href="music-post.html?id=${encodeURIComponent(post.id)}" data-post-link data-post-id="${escapeHtml(post.id)}">
           <div class="hero-copy">
             <span class="tag-pill">${escapeHtml(post.tag || "英文流行曲歌詞賞析")}</span>
-            <h1>${escapeHtml(post.title)}</h1>
-            <p class="hero-subtitle">${escapeHtml(plainExcerpt(post.body))}${plainExcerpt(post.body).length >= 150 ? "..." : ""}</p>
+            <h1>${titleHtml(post.title)}</h1>
+            <p class="hero-subtitle">${escapeHtml(featuredSubtitle(post))}</p>
             <div class="hero-meta">
               <strong>${escapeHtml(post.author || "Edmund Sir")}</strong>
-              ${escapeHtml(post.date || "")} ・ ${escapeHtml(post.minutes || "")}
+              ${publicationDate}${escapeHtml(post.minutes || "")}
             </div>
           </div>
         </a>
@@ -964,6 +2238,9 @@
     }
 
     function postCard(post, index = 0) {
+      const publicationDate = isLoggedIn() && post.date
+        ? `${escapeHtml(post.date)} ・ `
+        : "";
       return `
         <article class="post-card-wrap" style="--post-index: ${index % POSTS_PER_LOAD};">
           <a class="post-card" href="music-post.html?id=${encodeURIComponent(post.id)}" data-post-link data-post-id="${escapeHtml(post.id)}">
@@ -971,8 +2248,8 @@
               <img src="${escapeHtml(post.image)}" alt="">
               <span class="tag-pill">${escapeHtml(post.tag)}</span>
             </div>
-            <p class="post-meta">${escapeHtml(post.date)} ・ ${escapeHtml(post.minutes)}</p>
-            <h3 class="post-title">${escapeHtml(post.title)}</h3>
+            <p class="post-meta">${publicationDate}${escapeHtml(post.minutes)}</p>
+            <h3 class="post-title">${titleHtml(post.title)}</h3>
             <p class="post-excerpt">${escapeHtml(plainExcerpt(post.body))}...</p>
             <div class="post-author">
               <span class="author-dot">E</span>
@@ -999,11 +2276,18 @@
       if (reset) visiblePostCount = POSTS_PER_LOAD;
       activeFilter = filter || "All";
 
-      const query = (search?.value || "").trim().toLowerCase();
-      const featuredPost = getAllPosts()[0];
-      let posts = getAllPosts();
+      const query = normalizeApostrophes(search?.value || "").trim().toLowerCase();
+      const allPosts = getAllPosts();
+      const featuredPost = allPosts[0];
+      let posts = [...allPosts];
 
-      if (featuredPost) {
+      if (query) {
+        renderFeatured([]);
+      } else {
+        renderFeatured(allPosts);
+      }
+
+      if (featuredPost && !query) {
         posts = posts.filter(post => post.id !== featuredPost.id);
       }
 
@@ -1012,7 +2296,7 @@
       }
 
       if (query) {
-        posts = posts.filter(post => `${post.title} ${post.tag} ${post.body}`.toLowerCase().includes(query));
+        posts = posts.filter(post => searchablePostText(post).includes(query));
       }
 
       const visiblePosts = posts.slice(0, visiblePostCount);
@@ -1025,18 +2309,19 @@
 
     function refreshBlog(reset = true) {
       const posts = getAllPosts();
-      renderFeatured(posts);
       renderFilters(posts);
       renderPosts(activeFilter, reset);
+      renderArticleManager();
     }
 
-    function setLoggedIn(isLoggedIn) {
-      sessionStorage.setItem(AUTH_KEY, isLoggedIn ? "yes" : "no");
+    function setLoggedIn(session) {
+      storeAdminSession(session);
       updateAuthUi();
+      refreshBlog(false);
     }
 
     function isLoggedIn() {
-      return sessionStorage.getItem(AUTH_KEY) === "yes";
+      return Boolean(adminSession());
     }
 
     function updateAuthUi() {
@@ -1061,6 +2346,22 @@
     function closeLogin() {
       const modal = document.querySelector("[data-login-modal]");
       if (modal) modal.hidden = true;
+    }
+
+    async function logOut() {
+      const token = adminToken();
+      clearPostNavigationCache();
+      setLoggedIn(null);
+
+      if (musicSupabase && token) {
+        musicSupabase.rpc("music_journal_logout", { p_token: token }).then(() => {}).catch(() => {});
+      }
+
+      try {
+        await loadSharedPosts({ admin: false });
+      } catch (error) {
+        console.warn("Could not refresh public music posts after logout.", error);
+      }
     }
 
     async function readImageFile(file) {
@@ -1093,9 +2394,9 @@
       const loginForm = document.querySelector("[data-login-form]");
       const closeButton = document.querySelector("[data-close-login]");
 
-      loginButton?.addEventListener("click", () => {
+      loginButton?.addEventListener("click", async () => {
         if (isLoggedIn()) {
-          setLoggedIn(false);
+          await logOut();
           return;
         }
         openLogin();
@@ -1103,27 +2404,414 @@
 
       closeButton?.addEventListener("click", closeLogin);
 
-      loginForm?.addEventListener("submit", event => {
+      loginForm?.addEventListener("submit", async event => {
         event.preventDefault();
         const formData = new FormData(loginForm);
         const password = String(formData.get("password") || "");
         const error = document.querySelector("[data-login-error]");
+        const submitButton = loginForm.querySelector('button[type="submit"]');
+        if (error) error.textContent = "";
+        if (submitButton) {
+          submitButton.disabled = true;
+          submitButton.textContent = "Logging in...";
+        }
 
-        if (password === ADMIN_PASSWORD) {
-          setLoggedIn(true);
+        try {
+          if (!musicSupabase) throw new Error("The shared publishing service is unavailable.");
+          const { data, error: loginError } = await musicSupabase.rpc("music_journal_login", {
+            p_password: password
+          });
+          if (loginError) throw loginError;
+
+          const session = Array.isArray(data) ? data[0] : data;
+          if (!session?.token || !session?.expires_at) {
+            throw new Error("Password does not match.");
+          }
+
+          setLoggedIn(session);
           closeLogin();
           loginForm.reset();
+          showAdminStatus("已登入。正在同步這部電腦內的舊文章…");
+
+          try {
+            const importedCount = await importLegacyPosts();
+            await loadSharedPosts({ admin: true });
+            showAdminStatus(importedCount
+              ? `已同步 ${importedCount} 篇本機文章。它們現在可以在其他裝置開啟。`
+              : "已登入。新文章會同步到網站，讓讀者在不同裝置上開啟。");
+          } catch (syncError) {
+            console.error("Could not synchronize music posts.", syncError);
+            showAdminStatus("已登入，但暫時未能同步文章。你的本機文章仍然安全保留，請稍後再試。", true);
+          }
+
           document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
-        } else if (error) {
-          error.textContent = "Password does not match.";
+        } catch (loginFailure) {
+          if (error) error.textContent = loginFailure?.message || "Could not log in.";
+        } finally {
+          if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = "Log In";
+          }
         }
       });
+    }
+
+    function setupRichEditing() {
+      function rememberSelection() {
+        const selection = window.getSelection();
+        if (!selection?.rangeCount) return;
+
+        const anchorElement = selection.anchorNode?.nodeType === Node.ELEMENT_NODE
+          ? selection.anchorNode
+          : selection.anchorNode?.parentElement;
+        const editor = anchorElement?.closest?.("[data-rich-editor]");
+        if (!editor) return;
+
+        activeRichEditor = editor;
+        activeRichRange = selection.getRangeAt(0).cloneRange();
+      }
+
+      function restoreSelection(editor) {
+        const selection = window.getSelection();
+        if (!selection) return;
+
+        if (activeRichRange && editor.contains(activeRichRange.commonAncestorContainer)) {
+          selection.removeAllRanges();
+          selection.addRange(activeRichRange);
+          return;
+        }
+
+        editor.focus();
+      }
+
+      function selectionRangeFor(editor) {
+        const selection = window.getSelection();
+        if (!selection?.rangeCount) return null;
+        const range = selection.getRangeAt(0);
+        return editor.contains(range.commonAncestorContainer) ? range : null;
+      }
+
+      function wrapSelectedText(editor, styles) {
+        const range = selectionRangeFor(editor);
+        if (!range || range.collapsed) return null;
+
+        const span = document.createElement("span");
+        Object.assign(span.style, styles);
+        span.append(range.extractContents());
+        range.insertNode(span);
+        range.selectNodeContents(span);
+        const selection = window.getSelection();
+        selection?.removeAllRanges();
+        selection?.addRange(range);
+        activeRichRange = range.cloneRange();
+        return span;
+      }
+
+      function adjustSelectedFontSize(editor, direction) {
+        const range = selectionRangeFor(editor);
+        if (!range || range.collapsed) return;
+        const container = range.commonAncestorContainer.nodeType === Node.ELEMENT_NODE
+          ? range.commonAncestorContainer
+          : range.commonAncestorContainer.parentElement;
+        const baseSize = Number.parseFloat(getComputedStyle(editor).fontSize) || 15;
+        const currentSize = Number.parseFloat(getComputedStyle(container || editor).fontSize) || baseSize;
+        const nextSize = Math.min(baseSize * 100, Math.max(baseSize * 0.1, currentSize + (direction * baseSize * 0.15)));
+        wrapSelectedText(editor, { fontSize: `${Math.round(nextSize * 100) / 100}px` });
+      }
+
+      function colorSelectedText(editor, color) {
+        const range = selectionRangeFor(editor);
+        if (!range || range.collapsed) return;
+        wrapSelectedText(editor, { color });
+      }
+
+      function linkSelectedText(editor) {
+        const range = selectionRangeFor(editor);
+        if (!range || range.collapsed || !range.toString().trim()) {
+          alert("請先選取要加入連結的文字。");
+          return;
+        }
+
+        const savedRange = range.cloneRange();
+        const requestedLink = window.prompt("輸入網址（只接受 http:// 或 https://）：", "https://");
+        if (requestedLink === null) return;
+        const href = safeEditorLink(requestedLink);
+        if (!href) {
+          alert("網址無效。請輸入 http:// 或 https:// 網址。");
+          return;
+        }
+
+        const selection = window.getSelection();
+        selection?.removeAllRanges();
+        selection?.addRange(savedRange);
+        const anchor = document.createElement("a");
+        anchor.setAttribute("href", href);
+        anchor.setAttribute("target", "_blank");
+        anchor.setAttribute("rel", "noopener noreferrer");
+        anchor.append(savedRange.extractContents());
+        savedRange.insertNode(anchor);
+        savedRange.selectNodeContents(anchor);
+        selection?.removeAllRanges();
+        selection?.addRange(savedRange);
+        activeRichRange = savedRange.cloneRange();
+      }
+
+      function runEditorCommand(command, editor) {
+        if (command === "bold") {
+          document.execCommand("bold", false);
+        } else if (command === "size-up") {
+          adjustSelectedFontSize(editor, 1);
+        } else if (command === "size-down") {
+          adjustSelectedFontSize(editor, -1);
+        } else if (command === "brown") {
+          colorSelectedText(editor, "#93552f");
+        } else if (command === "honey") {
+          colorSelectedText(editor, "#9a6700");
+        } else if (command === "link") {
+          linkSelectedText(editor);
+        } else if (command === "heading") {
+          const selection = window.getSelection();
+          const anchorElement = selection?.anchorNode?.nodeType === Node.ELEMENT_NODE
+            ? selection.anchorNode
+            : selection?.anchorNode?.parentElement;
+          const heading = anchorElement?.closest?.("h3");
+          const isHeading = Boolean(heading && editor.contains(heading));
+          document.execCommand("formatBlock", false, isHeading ? "p" : "h3");
+        }
+      }
+
+      document.addEventListener("selectionchange", rememberSelection);
+
+      document.addEventListener("focusin", event => {
+        const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
+        if (editor) activeRichEditor = editor;
+      });
+
+      document.addEventListener("input", event => {
+        const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
+        const bilingualRow = editor?.closest?.("[data-bilingual-row]");
+        if (bilingualRow) bilingualRow.dataset.rowTouched = "true";
+      });
+
+      document.addEventListener("beforeinput", event => {
+        const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
+        if (!editor || !String(event.data || "").includes("’")) return;
+        event.preventDefault();
+        document.execCommand("insertText", false, normalizeApostrophes(event.data));
+        rememberSelection();
+      });
+
+      document.addEventListener("keydown", event => {
+        const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
+        if (!editor || !(event.metaKey || event.ctrlKey)) return;
+
+        const key = event.key.toLowerCase();
+        const command = key === "b"
+          ? "bold"
+          : key === "h"
+            ? "brown"
+            : key === "g"
+              ? "honey"
+              : key === "p"
+                ? "link"
+                : ["+", "="].includes(event.key)
+                  ? "size-up"
+                  : ["-", "_"].includes(event.key)
+                    ? "size-down"
+                    : "";
+        if (!command) return;
+
+        event.preventDefault();
+        activeRichEditor = editor;
+        runEditorCommand(command, editor);
+        rememberSelection();
+      });
+
+      document.addEventListener("paste", event => {
+        const editor = event.target instanceof Element ? event.target.closest("[data-rich-editor]") : null;
+        if (!editor) return;
+
+        event.preventDefault();
+        const pastedText = normalizeApostrophes(event.clipboardData?.getData("text/plain") || "");
+        if (document.execCommand("insertText", false, pastedText)) {
+          rememberSelection();
+          return;
+        }
+
+        const selection = window.getSelection();
+        if (!selection?.rangeCount) return;
+        const range = selection.getRangeAt(0);
+        range.deleteContents();
+        const fragment = document.createDocumentFragment();
+        pastedText.split(/\r?\n/).forEach((line, index) => {
+          if (index) fragment.append(document.createElement("br"));
+          fragment.append(document.createTextNode(line));
+        });
+        const lastNode = fragment.lastChild;
+        range.insertNode(fragment);
+        if (lastNode) {
+          range.setStartAfter(lastNode);
+          range.collapse(true);
+          selection.removeAllRanges();
+          selection.addRange(range);
+        }
+        rememberSelection();
+      });
+
+      document.addEventListener("mousedown", event => {
+        if (event.target instanceof Element && event.target.closest("[data-editor-command]")) {
+          event.preventDefault();
+        }
+      });
+
+      document.addEventListener("click", event => {
+        const button = event.target instanceof Element ? event.target.closest("[data-editor-command]") : null;
+        if (!button) return;
+
+        const section = button.closest("[data-editor-section]");
+        const editor = activeRichEditor && section?.contains(activeRichEditor)
+          ? activeRichEditor
+          : section?.querySelector("[data-rich-editor]");
+        if (!editor) return;
+
+        restoreSelection(editor);
+        const command = button.getAttribute("data-editor-command");
+        runEditorCommand(command, editor);
+
+        editor.focus();
+        rememberSelection();
+      });
+    }
+
+    function updateEditorModeUi() {
+      const title = document.querySelector("[data-editor-title]");
+      const cancelButton = document.querySelector("[data-cancel-edit]");
+      const submitButton = document.querySelector('[data-blog-form] button[type="submit"]');
+      if (title) title.textContent = editingPostId ? "編輯歌詞賞析文章" : "新增歌詞賞析文章";
+      if (cancelButton) cancelButton.hidden = !editingPostId;
+      if (submitButton) submitButton.textContent = editingPostId ? "儲存更新" : "發布文章";
+    }
+
+    function showStoredImage(preview, image, placeholder) {
+      if (!preview) return;
+      preview.innerHTML = image
+        ? `<img src="${escapeHtml(image)}" alt="">`
+        : escapeHtml(placeholder);
+    }
+
+    async function loadPostIntoEditor(post) {
+      const form = document.querySelector("[data-blog-form]");
+      if (!form || !post) return;
+      form.reset();
+      await new Promise(resolve => setTimeout(resolve, 0));
+
+      editingPostId = String(post.id || "");
+      editingPrimaryImage = String(post.image || "");
+      editingSecondImage = String(post.secondImage || "");
+      const setValue = (name, value) => {
+        const field = form.elements.namedItem(name);
+        if (field && "value" in field) field.value = String(value || "");
+      };
+      setValue("title", post.title);
+      setValue("tag", post.tag);
+      setValue("subtitle", post.subtitle);
+      setValue("youtubeUrl", post.youtubeUrl);
+      setValue("singers", post.singers);
+      setValue("releaseYear", post.releaseYear);
+      setValue("songwriter", post.songwriter);
+      setValue("producer", post.producer);
+
+      const imageInput = document.querySelector("[data-image-input]");
+      if (imageInput) imageInput.required = !editingPrimaryImage;
+      showStoredImage(document.querySelector("[data-image-preview]"), editingPrimaryImage, "Image preview");
+      showStoredImage(document.querySelector("[data-second-image-preview]"), editingSecondImage, "Second image preview");
+      document.querySelector("[data-youtube-input]")?.dispatchEvent(new Event("input"));
+      const hasStructuredContent = Boolean(
+        plainRichText(post.contextBackground || post.contextHtml || "")
+        || plainRichText(post.fullLyricsEnglish || post.fullLyricsHtml || "")
+        || plainRichText(post.reflection || post.reflectionHtml || "")
+        || (Array.isArray(post.bilingualLyrics) && post.bilingualLyrics.length)
+        || (Array.isArray(post.lyricAnalysis) && post.lyricAnalysis.length)
+      );
+      const editableContext = post.contextBackground || post.contextHtml
+        || (hasStructuredContent ? "" : post.body || "");
+      setRichEditorContent(document.querySelector("#post-context"), editableContext);
+      setRichEditorContent(document.querySelector("#post-full-lyrics"), post.fullLyricsEnglish || post.fullLyricsHtml);
+      setRichEditorContent(document.querySelector("#post-reflection"), post.reflection || post.reflectionHtml);
+
+      const bilingualRows = Array.isArray(post.bilingualLyrics) ? post.bilingualLyrics : [];
+      const bilingualBody = document.querySelector("[data-bilingual-lyrics-body]");
+      if (bilingualBody) {
+        bilingualBody.innerHTML = "";
+        addBilingualRows(Math.max(INITIAL_BILINGUAL_ROWS, bilingualRows.length));
+        bilingualRows.forEach((row, index) => {
+          const target = bilingualBody.querySelectorAll("[data-bilingual-row]")[index];
+          if (!target) return;
+          if (row?.intentionalBreak) {
+            target.dataset.rowTouched = "true";
+            target.querySelector("[data-bilingual-english]").innerHTML = "<br>";
+            target.querySelector("[data-bilingual-chinese]").innerHTML = "<br>";
+          } else {
+            setRichEditorContent(target.querySelector("[data-bilingual-english]"), row?.english);
+            setRichEditorContent(target.querySelector("[data-bilingual-chinese]"), row?.chinese);
+          }
+        });
+      }
+
+      const analysisRows = Array.isArray(post.lyricAnalysis) ? post.lyricAnalysis : [];
+      const analysisBody = document.querySelector("[data-lyric-analysis-body]");
+      if (analysisBody) {
+        analysisBody.innerHTML = "";
+        addAnalysisLines(Math.max(INITIAL_ANALYSIS_LINES, analysisRows.length));
+        const lyrics = analysisBody.querySelectorAll("[data-analysis-lyric]");
+        const analyses = analysisBody.querySelectorAll("[data-analysis-copy]");
+        analysisRows.forEach((row, index) => {
+          setRichEditorContent(lyrics[index], row?.lyric);
+          setRichEditorContent(analyses[index], row?.analysis);
+        });
+      }
+
+      updateEditorModeUi();
+      showAdminStatus(post.published === false
+        ? "正在編輯隱藏文章；儲存內容後仍會保持隱藏，直至你按「再次公開」。"
+        : "正在編輯現有文章。儲存後會更新同一篇文章。",
+        false);
+      document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
     function setupBlogForm() {
       const form = document.querySelector("[data-blog-form]");
       const imageInput = document.querySelector("[data-image-input]");
       const preview = document.querySelector("[data-image-preview]");
+      const youtubeInput = document.querySelector("[data-youtube-input]");
+      const youtubePreview = document.querySelector("[data-youtube-preview]");
+      const secondImageInput = document.querySelector("[data-second-image-input]");
+      const secondImagePreview = document.querySelector("[data-second-image-preview]");
+      const addBilingualButton = document.querySelector("[data-add-bilingual-rows]");
+      const addAnalysisButton = document.querySelector("[data-add-analysis-lines]");
+      const cancelEditButton = document.querySelector("[data-cancel-edit]");
+      const publishButton = form?.querySelector('button[type="submit"]');
+
+      resetStructuredEditors();
+
+      form?.addEventListener("input", event => normalizeTextControlApostrophes(event.target));
+
+      function updateYouTubePreview() {
+        if (!youtubeInput || !youtubePreview) return;
+
+        const value = youtubeInput.value.trim();
+        const videoId = getYouTubeVideoId(value);
+        youtubeInput.setCustomValidity(value && !videoId ? "Please paste a valid YouTube video link." : "");
+
+        if (!videoId) {
+          youtubePreview.hidden = true;
+          youtubePreview.replaceChildren();
+          return;
+        }
+
+        youtubePreview.hidden = false;
+        youtubePreview.innerHTML = `<img src="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg" alt="YouTube video thumbnail preview">`;
+      }
 
       imageInput?.addEventListener("change", async () => {
         const file = imageInput.files?.[0];
@@ -1132,9 +2820,56 @@
         preview.innerHTML = `<img src="${image}" alt="">`;
       });
 
+      youtubeInput?.addEventListener("input", updateYouTubePreview);
+
+      secondImageInput?.addEventListener("change", async () => {
+        const file = secondImageInput.files?.[0];
+        if (!file || !secondImagePreview) return;
+        const image = await readImageFile(file);
+        secondImagePreview.innerHTML = `<img src="${image}" alt="">`;
+      });
+
+      addBilingualButton?.addEventListener("click", () => addBilingualRows(EXTRA_EDITOR_ROWS));
+      addAnalysisButton?.addEventListener("click", () => addAnalysisLines(EXTRA_EDITOR_ROWS));
+
+      document.querySelectorAll("[data-bilingual-control-mode]").forEach(button => {
+        button.addEventListener("click", () => updateBilingualControlMode(button.dataset.bilingualControlMode || ""));
+      });
+
+      document.querySelector("[data-bilingual-lyrics-body]")?.addEventListener("click", event => {
+        const insertButton = event.target.closest("[data-insert-bilingual-row]");
+        const deleteButton = event.target.closest("[data-delete-bilingual-row]");
+        const row = event.target.closest("[data-bilingual-row]");
+        if (!row || (!insertButton && !deleteButton)) return;
+
+        if (insertButton) {
+          row.insertAdjacentHTML("afterend", bilingualRowTemplate(1));
+        } else if (document.querySelectorAll("[data-bilingual-row]").length > 1) {
+          row.remove();
+        } else {
+          row.querySelectorAll("[data-rich-editor]").forEach(editor => editor.replaceChildren());
+          delete row.dataset.rowTouched;
+        }
+        renumberBilingualRows();
+      });
+
+      cancelEditButton?.addEventListener("click", () => form?.reset());
+
       form?.addEventListener("reset", () => {
         setTimeout(() => {
           if (preview) preview.textContent = "Image preview";
+          if (secondImagePreview) secondImagePreview.textContent = "Second image preview";
+          if (youtubePreview) {
+            youtubePreview.hidden = true;
+            youtubePreview.replaceChildren();
+          }
+          if (youtubeInput) youtubeInput.setCustomValidity("");
+          editingPostId = "";
+          editingPrimaryImage = "";
+          editingSecondImage = "";
+          if (imageInput) imageInput.required = true;
+          resetStructuredEditors();
+          updateEditorModeUi();
         }, 0);
       });
 
@@ -1147,39 +2882,113 @@
 
         const formData = new FormData(form);
         const file = formData.get("image");
-        if (!(file instanceof File) || !file.size) return;
+        if ((!(file instanceof File) || !file.size) && !editingPrimaryImage) return;
 
-        const body = String(formData.get("body") || "").trim();
-        const image = await readImageFile(file);
-        const createdAt = Date.now();
+        const normalizedValue = name => normalizeApostrophes(formData.get(name) || "").trim();
+        const youtubeUrl = normalizedValue("youtubeUrl");
+        if (youtubeUrl && !getYouTubeVideoId(youtubeUrl)) {
+          youtubeInput?.setCustomValidity("Please paste a valid YouTube video link.");
+          youtubeInput?.reportValidity();
+          youtubeInput?.focus();
+          return;
+        }
+
+        const contextBackground = richEditorHtml(document.querySelector("#post-context"));
+        const fullLyricsEnglish = richEditorHtml(document.querySelector("#post-full-lyrics"));
+        const reflection = richEditorHtml(document.querySelector("#post-reflection"));
+        const bilingualLyrics = readBilingualLyrics();
+        const lyricAnalysis = readLyricAnalysis();
+        const readableSections = [
+          plainRichText(contextBackground),
+          plainRichText(fullLyricsEnglish),
+          plainRichText(reflection),
+          ...bilingualLyrics.flatMap(item => [plainRichText(item.english), plainRichText(item.chinese)]),
+          ...lyricAnalysis.flatMap(item => [plainRichText(item.lyric), plainRichText(item.analysis)])
+        ].filter(Boolean);
+
+        if (!readableSections.length) {
+          alert("Please add some article content before publishing.");
+          document.querySelector("#post-context")?.focus();
+          return;
+        }
+
+        const body = readableSections.join("\n\n");
+        const secondImageFile = formData.get("secondImage");
+        const [image, secondImage] = await Promise.all([
+          file instanceof File && file.size ? readImageFile(file) : Promise.resolve(editingPrimaryImage),
+          secondImageFile instanceof File && secondImageFile.size ? readImageFile(secondImageFile) : Promise.resolve(editingSecondImage)
+        ]);
+        const previousPost = editingPostId ? getManagementPosts().find(item => item.id === editingPostId) : null;
+        const createdAt = Number(previousPost?.createdAt) || Date.now();
+        const publicId = globalThis.crypto?.randomUUID?.() || createdAt.toString(36);
         const post = {
-          id: `music-${createdAt}`,
-          title: String(formData.get("title") || "").trim(),
-          tag: String(formData.get("tag") || "").trim(),
+          id: editingPostId || `music-${publicId}`,
+          title: normalizedValue("title"),
+          tag: normalizedValue("tag"),
+          subtitle: normalizedValue("subtitle"),
           image,
+          youtubeUrl,
+          singers: normalizedValue("singers"),
+          releaseYear: normalizedValue("releaseYear"),
+          songwriter: normalizedValue("songwriter"),
+          producer: normalizedValue("producer"),
+          contextBackground,
+          fullLyricsEnglish,
+          bilingualLyrics,
+          secondImage,
+          lyricAnalysis,
+          reflection,
           body,
           createdAt,
-          date: todayLabel(),
+          date: previousPost?.date || todayLabel(),
+          published: previousPost?.published !== false,
           minutes: minutesRead(body),
           author: "Edmund Sir"
         };
 
-        const storedPosts = getStoredPosts();
         try {
-          saveStoredPosts([post, ...storedPosts]);
-        } catch {
-          alert("This browser could not permanently save the post, likely because localStorage is full. The post will still open now, but it may not stay in the blog list after refresh.");
+          if (publishButton) {
+            publishButton.disabled = true;
+            publishButton.textContent = "Publishing...";
+          }
+
+          await publishSharedPost(post);
+
+          try {
+            saveLocalPost(post);
+          } catch {
+            alert("The article was published online, but this browser could not keep an extra local backup because its storage is full.");
+          }
+
+          preparePostForNavigation(post);
+          form.reset();
+          activeFilter = "All";
+          window.location.href = `music-post.html?id=${encodeURIComponent(post.id)}`;
+        } catch (publishError) {
+          console.error("Could not publish music article.", publishError);
+          alert(`The article was not published. ${publishError?.message || "Please check the connection and try again."}`);
+        } finally {
+          if (publishButton) {
+            publishButton.disabled = false;
+            updateEditorModeUi();
+          }
         }
-        preparePostForNavigation(post);
-        form.reset();
-        if (preview) preview.textContent = "Image preview";
-        activeFilter = "All";
-        refreshBlog(true);
-        window.location.href = `music-post.html?id=${encodeURIComponent(post.id)}`;
       });
     }
 
+    function clearPostNavigationCache() {
+      window.name = "";
+      try {
+        sessionStorage.removeItem("edmundMusicActivePost");
+      } catch {}
+    }
+
     function preparePostForNavigation(post) {
+      if (post?.published === false || post?.isHidden) {
+        clearPostNavigationCache();
+        return;
+      }
+
       const payload = JSON.stringify({
         type: "edmundMusicPost",
         post
@@ -1200,7 +3009,76 @@
         renderPosts(activeFilter, false);
       });
 
-      document.addEventListener("click", event => {
+      document.addEventListener("click", async event => {
+        const managerTarget = event.target.closest("[data-manager-open], [data-manager-edit], [data-manager-export], [data-manager-visibility], [data-manager-delete]");
+        if (managerTarget) {
+          const id = managerTarget.getAttribute("data-manager-open")
+            || managerTarget.getAttribute("data-manager-edit")
+            || managerTarget.getAttribute("data-manager-export")
+            || managerTarget.getAttribute("data-manager-visibility")
+            || managerTarget.getAttribute("data-manager-delete");
+          const post = getManagementPosts().find(item => item.id === id);
+          if (!post) return;
+
+          if (managerTarget.matches("[data-manager-open]")) {
+            preparePostForNavigation(post);
+            return;
+          }
+
+          event.preventDefault();
+          if (managerTarget.matches("[data-manager-edit]")) {
+            await loadPostIntoEditor(post);
+            return;
+          }
+          if (managerTarget.matches("[data-manager-export]")) {
+            downloadTextArchive(post);
+            return;
+          }
+          if (managerTarget.matches("[data-manager-visibility]")) {
+            const nextPublished = managerTarget.dataset.nextPublished === "true";
+            managerTarget.disabled = true;
+            try {
+              if (post.isShared) {
+                await setSharedPostVisibility(post.id, nextPublished);
+              } else if (nextPublished) {
+                await publishSharedPost(localPostPayload(post, { published: true }));
+              }
+              const updatedPost = { ...post, published: nextPublished, isHidden: !nextPublished };
+              if (!nextPublished) clearPostNavigationCache();
+              saveLocalPost(updatedPost);
+              const sharedIndex = sharedPosts.findIndex(item => item.id === post.id);
+              if (sharedIndex >= 0) sharedPosts[sharedIndex] = { ...sharedPosts[sharedIndex], published: nextPublished };
+              else if (nextPublished) sharedPosts.unshift({ ...updatedPost, isShared: true });
+              refreshBlog(true);
+              showAdminStatus(nextPublished ? "文章已再次公開。" : "文章已隱藏，完整內容仍保留在管理列表及本機備份。", false);
+            } catch (visibilityError) {
+              console.error("Could not change music article visibility.", visibilityError);
+              alert(`未能更改文章狀態。${visibilityError?.message || "請稍後再試。"}`);
+            } finally {
+              managerTarget.disabled = false;
+            }
+            return;
+          }
+          if (managerTarget.matches("[data-manager-delete]")) {
+            if (!confirm("永久刪除這篇文章及本機備份？")) return;
+            managerTarget.disabled = true;
+            try {
+              if (post.isShared) await deleteSharedPost(post.id);
+              clearPostNavigationCache();
+              saveStoredPosts(getStoredPosts().filter(item => item.id !== post.id));
+              sharedPosts = sharedPosts.filter(item => item.id !== post.id);
+              if (editingPostId === post.id) document.querySelector("[data-blog-form]")?.reset();
+              refreshBlog(true);
+            } catch (deleteError) {
+              console.error("Could not delete music article.", deleteError);
+              alert(`文章未能刪除。${deleteError?.message || "請稍後再試。"}`);
+            } finally {
+              managerTarget.disabled = false;
+            }
+            return;
+          }
+        }
+
         const deleteButton = event.target.closest("[data-delete-post]");
         if (deleteButton) {
           event.preventDefault();
@@ -1214,9 +3092,20 @@
           const id = deleteButton.getAttribute("data-delete-post");
           if (!id || !confirm("Delete this post?")) return;
 
-          const nextPosts = getStoredPosts().filter(post => post.id !== id);
-          saveStoredPosts(nextPosts);
-          refreshBlog(true);
+          deleteButton.disabled = true;
+          try {
+            await deleteSharedPost(id);
+            clearPostNavigationCache();
+            const nextPosts = getStoredPosts().filter(post => post.id !== id);
+            saveStoredPosts(nextPosts);
+            sharedPosts = sharedPosts.filter(post => post.id !== id);
+            refreshBlog(true);
+          } catch (deleteError) {
+            console.error("Could not delete music article.", deleteError);
+            alert(`The article was not deleted. ${deleteError?.message || "Please try again."}`);
+          } finally {
+            deleteButton.disabled = false;
+          }
           return;
         }
 
@@ -1249,13 +3138,32 @@
       });
     }
 
+    async function initializeSharedPosts() {
+      try {
+        await loadSharedPosts({ admin: isLoggedIn() });
+      } catch (error) {
+        console.warn("Could not load the shared music journal.", error);
+        if (!isLoggedIn()) return;
+
+        storeAdminSession(null);
+        updateAuthUi();
+        try {
+          await loadSharedPosts({ admin: false });
+        } catch (publicError) {
+          console.warn("Could not load public music posts.", publicError);
+        }
+      }
+    }
+
     refreshBlog(true);
     updateAuthUi();
     setupLogin();
+    setupRichEditing();
     setupBlogForm();
     setupPostActions();
     setupSearch();
     setupCustomCursor();
+    initializeSharedPosts();
   </script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
 </body>

@@ -3,6 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Music Post | EdmundEducation</title>
+  <meta name="description" content="Edmund 音樂賞析誌：英文流行曲歌詞、背景與中英賞析。">
+  <meta property="og:title" content="Edmund 音樂賞析誌">
+  <meta property="og:description" content="歌詞 · 背景 · 賞析">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Edmund 音樂賞析誌">
+  <meta name="twitter:description" content="歌詞 · 背景 · 賞析">
+  <meta name="twitter:image" content="https://edmundeducation.com/assets/music-journal-og.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
   <meta name="theme-color" content="#20283d">
   <meta name="mobile-web-app-capable" content="yes">
@@ -75,6 +86,13 @@
       gap: 18px;
     }
 
+    .post-brand-wrap {
+      min-width: 190px;
+      flex: 1 1 300px;
+      display: grid;
+      gap: 8px;
+    }
+
     .post-brand,
     .back-link {
       color: #1d1d1f;
@@ -98,6 +116,146 @@
       display: grid;
       place-items: center;
       font-size: 17px;
+      flex: 0 0 auto;
+    }
+
+    .post-brand-label {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .reading-progress {
+      width: min(100%, 330px);
+      height: 4px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #dedee3;
+    }
+
+    .reading-progress-bar {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      background: #050505;
+      transform: scaleX(0);
+      transform-origin: left center;
+      transition: transform 80ms linear;
+    }
+
+    .post-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .toc-wrap {
+      position: relative;
+    }
+
+    .toc-wrap > .nav-control {
+      width: 100%;
+    }
+
+    .toc-panel {
+      position: absolute;
+      top: calc(100% + 9px);
+      left: 0;
+      z-index: 40;
+      width: min(310px, calc(100vw - 28px));
+      max-height: min(68vh, 520px);
+      padding: 16px;
+      overflow-y: auto;
+      border: 1px solid rgba(29,29,31,0.12);
+      border-radius: 10px;
+      background: rgba(255,255,255,0.98);
+      box-shadow: 0 20px 56px rgba(0,0,0,0.18);
+      backdrop-filter: blur(20px);
+    }
+
+    .toc-panel[hidden] {
+      display: none;
+    }
+
+    .toc-title {
+      margin: 0 0 10px;
+      color: #1d1d1f;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .toc-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 4px;
+    }
+
+    .toc-list a {
+      display: block;
+      padding: 9px 10px;
+      border-radius: 7px;
+      color: #3f3f46;
+      font-size: 13px;
+      line-height: 1.35;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .toc-list a:hover,
+    .toc-list a:focus-visible {
+      background: #efeff2;
+      color: #050505;
+      outline: none;
+    }
+
+    .toc-list a:focus-visible {
+      box-shadow: inset 0 0 0 2px #050505;
+    }
+
+    .toc-empty {
+      margin: 0;
+      color: #6e6e73;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .nav-control {
+      min-height: 38px;
+      padding: 8px 11px;
+      border: 1px solid #d2d2d7;
+      border-radius: 7px;
+      background: rgba(255,255,255,0.78);
+      color: #303035;
+      font: inherit;
+      font-size: 12px;
+      line-height: 1.15;
+      font-weight: 900;
+      text-align: center;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 160ms ease, color 160ms ease, border-color 160ms ease, opacity 160ms ease;
+    }
+
+    .nav-control:hover,
+    .nav-control:focus-visible {
+      border-color: #050505;
+      background: #050505;
+      color: #fff;
+      outline: none;
+    }
+
+    .nav-control:focus-visible {
+      box-shadow: 0 0 0 3px rgba(0,0,0,0.16);
+    }
+
+    .top-button:disabled {
+      opacity: 0.42;
     }
 
     .back-link {
@@ -123,6 +281,7 @@
     .post-copy {
       width: min(880px, calc(100vw - 44px));
       margin: 48px auto 0;
+      overflow-wrap: anywhere;
     }
 
     .tag-pill {
@@ -147,6 +306,15 @@
       text-wrap: balance;
     }
 
+    .post-subtitle {
+      margin: 16px 0 0;
+      color: #45454b;
+      font-size: clamp(20px, 2.25vw, 30px);
+      line-height: 1.45;
+      font-weight: 750;
+      text-wrap: balance;
+    }
+
     .post-meta {
       margin: 18px 0 0;
       color: #6e6e73;
@@ -154,16 +322,608 @@
       font-weight: 800;
     }
 
+    .admin-date {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      color: #4b4b50;
+    }
+
+    .admin-date::before {
+      content: "管理員日期：";
+      padding: 3px 6px;
+      border-radius: 5px;
+      background: #e8e8ed;
+      color: #52525a;
+      font-family: system-ui, sans-serif;
+      font-size: 10px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
     .post-body {
       margin-top: 38px;
       font-size: clamp(19px, 1.7vw, 24px);
       line-height: 1.72;
-      font-weight: 700;
+      font-weight: 500;
       color: #2f2f33;
     }
 
     .post-body p {
       margin: 0 0 24px;
+    }
+
+    .structured-content {
+      margin-top: 42px;
+      display: grid;
+      gap: clamp(42px, 7vw, 74px);
+    }
+
+    .article-section {
+      min-width: 0;
+      scroll-margin-top: 190px;
+    }
+
+    .article-section:focus {
+      outline: none;
+    }
+
+    .article-section > h2,
+    .song-info caption {
+      margin: 0 0 20px;
+      color: #1d1d1f;
+      font-size: clamp(24px, 3.1vw, 38px);
+      line-height: 1.2;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      text-align: left;
+    }
+
+    .rich-content strong,
+    .rich-content b,
+    .post-body strong,
+    .post-body b,
+    .song-info strong,
+    .song-info b,
+    .lyrics-table strong,
+    .lyrics-table b {
+      font-weight: 900;
+      font-variation-settings: "wght" 900;
+      -webkit-text-stroke: 0.5px currentColor;
+      text-shadow: 0.012em 0 currentColor, -0.012em 0 currentColor;
+    }
+
+    .rich-content span[style*="font-size"] { line-height: 1.35; }
+
+    .rich-content a,
+    .song-info a,
+    .lyrics-table a {
+      color: #12355b;
+      font-weight: 800;
+      text-decoration-line: underline;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 0.18em;
+    }
+
+    .rich-content a:hover,
+    .rich-content a:focus-visible,
+    .song-info a:hover,
+    .song-info a:focus-visible,
+    .lyrics-table a:hover,
+    .lyrics-table a:focus-visible {
+      color: #081f38;
+      outline: none;
+      text-decoration-thickness: 2.5px;
+    }
+
+    .rich-content a:focus-visible,
+    .song-info a:focus-visible,
+    .lyrics-table a:focus-visible {
+      border-radius: 3px;
+      box-shadow: 0 0 0 3px rgba(18,53,91,0.18);
+    }
+
+    .rich-content {
+      color: #303035;
+      font-size: clamp(18px, 1.65vw, 22px);
+      line-height: 1.8;
+      font-weight: 500;
+      white-space: normal;
+    }
+
+    .rich-content > :first-child {
+      margin-top: 0;
+    }
+
+    .rich-content > :last-child {
+      margin-bottom: 0;
+    }
+
+    .rich-content p,
+    .rich-content div {
+      margin: 0 0 20px;
+    }
+
+    .rich-content h2,
+    .rich-content h3,
+    .rich-content h4,
+    .rich-content h5 {
+      margin: 34px 0 14px;
+      color: #1d1d1f;
+      line-height: 1.28;
+      font-weight: 900;
+    }
+
+    .rich-content h2 { font-size: clamp(25px, 3vw, 36px); }
+    .rich-content h3 { font-size: clamp(22px, 2.5vw, 30px); }
+    .rich-content h4,
+    .rich-content h5 { font-size: clamp(20px, 2vw, 25px); }
+
+    .rich-content blockquote {
+      margin: 28px 0;
+      padding: 3px 0 3px 22px;
+      border-left: 4px solid #1d1d1f;
+      color: #52525a;
+    }
+
+    .rich-content li + li {
+      margin-top: 8px;
+    }
+
+    .youtube-embed {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border-radius: 8px;
+      background: #111;
+      box-shadow: 0 16px 42px rgba(0,0,0,0.14);
+    }
+
+    .youtube-trigger,
+    .youtube-frame {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .youtube-trigger {
+      padding: 0;
+      overflow: hidden;
+      background: #111;
+    }
+
+    .youtube-trigger img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .youtube-play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 74px;
+      height: 52px;
+      border-radius: 14px;
+      background: #ff0033;
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-family: system-ui, sans-serif;
+      font-size: 25px;
+      line-height: 1;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 9px 28px rgba(0,0,0,0.32);
+    }
+
+    .youtube-fallback {
+      display: inline-flex;
+      padding: 12px 16px;
+      border-radius: 7px;
+      background: #050505;
+      color: #fff;
+      font-family: system-ui, sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .youtube-player-mount {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .youtube-replay-prompt {
+      position: absolute;
+      right: 16px;
+      bottom: 16px;
+      z-index: 4;
+      width: min(330px, calc(100% - 32px));
+      padding: 15px;
+      border: 1px solid rgba(255,255,255,0.28);
+      border-radius: 10px;
+      background: rgba(9,18,33,0.94);
+      color: #fff;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.35);
+      backdrop-filter: blur(14px);
+    }
+
+    .youtube-replay-prompt[hidden] {
+      display: none;
+    }
+
+    .youtube-replay-question {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .youtube-replay-actions {
+      margin-top: 11px;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .youtube-replay-button {
+      min-height: 34px;
+      padding: 7px 11px;
+      border: 1px solid rgba(255,255,255,0.42);
+      border-radius: 7px;
+      background: #fff;
+      color: #111827;
+      font: inherit;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .youtube-replay-button.is-secondary {
+      background: transparent;
+      color: #fff;
+    }
+
+    .youtube-replay-button:hover,
+    .youtube-replay-button:focus-visible {
+      border-color: #f4c95d;
+      background: #f4c95d;
+      color: #111827;
+      outline: none;
+    }
+
+    .youtube-replay-button:focus-visible {
+      box-shadow: 0 0 0 3px rgba(244,201,93,0.3);
+    }
+
+    .song-info {
+      width: 100%;
+      min-width: 0;
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    .song-info th,
+    .song-info td {
+      padding: 9px 0;
+      border: 0;
+      vertical-align: top;
+      text-align: left;
+      line-height: 1.55;
+    }
+
+    .song-info th {
+      width: min(32%, 220px);
+      padding-right: 24px;
+      color: #6e6e73;
+      font-family: system-ui, sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .song-info td {
+      color: #252529;
+      font-size: clamp(17px, 1.6vw, 21px);
+      font-weight: 550;
+      overflow-wrap: anywhere;
+    }
+
+    .song-info td p,
+    .song-info td div,
+    .lyrics-table td p,
+    .lyrics-table td div {
+      margin: 0 0 8px;
+    }
+
+    .song-info td > :last-child,
+    .lyrics-table td > :last-child {
+      margin-bottom: 0;
+    }
+
+    .lyrics-table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .lyrics-table {
+      width: 100%;
+      min-width: 560px;
+      table-layout: fixed;
+      border-collapse: separate;
+      border-spacing: 0 10px;
+    }
+
+    .lyrics-table th,
+    .lyrics-table td {
+      width: 50%;
+      border: 0;
+      vertical-align: top;
+      text-align: left;
+      overflow-wrap: anywhere;
+    }
+
+    .lyrics-table th {
+      padding: 0 18px 6px;
+      color: #6e6e73;
+      font-family: system-ui, sans-serif;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .lyrics-table td {
+      padding: 15px 18px;
+      background: rgba(255,255,255,0.68);
+      color: #2f2f33;
+      font-size: clamp(16px, 1.45vw, 19px);
+      line-height: 1.65;
+      font-weight: 500;
+    }
+
+    .lyrics-table td:first-child {
+      border-radius: 7px 0 0 7px;
+    }
+
+    .lyrics-table td:last-child {
+      border-radius: 0 7px 7px 0;
+    }
+
+    .lyrics-table .lyrics-line-break td {
+      height: 46px;
+      padding: 0;
+      background: transparent;
+      border-radius: 0;
+    }
+
+    .second-image {
+      margin: 0;
+    }
+
+    .second-image img {
+      display: block;
+      width: 100%;
+      max-height: 720px;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 16px 44px rgba(0,0,0,0.12);
+    }
+
+    .analysis-list {
+      display: grid;
+      gap: 26px;
+    }
+
+    .analysis-item {
+      padding: clamp(20px, 3vw, 32px);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.72);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.06);
+      break-inside: avoid;
+    }
+
+    .analysis-lyric {
+      color: #151517;
+      font-size: clamp(21px, 2.4vw, 30px);
+      line-height: 1.45;
+      font-weight: 900;
+    }
+
+    .analysis-lyric > .rich-content {
+      color: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      font-weight: inherit;
+    }
+
+    .analysis-copy {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid #e3e3e8;
+    }
+
+    .analysis-label {
+      display: block;
+      margin-bottom: 9px;
+      color: #74747b;
+      font-family: system-ui, sans-serif;
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .reader-extras {
+      width: min(1080px, calc(100vw - 44px));
+      margin: clamp(72px, 9vw, 112px) auto 0;
+      display: grid;
+      gap: clamp(58px, 7vw, 84px);
+    }
+
+    .reader-extra-section {
+      min-width: 0;
+    }
+
+    .reader-extra-section[hidden] {
+      display: none;
+    }
+
+    .reader-extra-heading {
+      margin: 0 0 22px;
+      color: #1d1d1f;
+      font-size: clamp(26px, 3.6vw, 42px);
+      line-height: 1.18;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+
+    .related-grid,
+    .course-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .related-card,
+    .course-card {
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid rgba(29,29,31,0.08);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.78);
+      color: #1d1d1f;
+      text-decoration: none;
+      box-shadow: 0 12px 34px rgba(0,0,0,0.07);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .related-card:hover,
+    .related-card:focus-visible,
+    .course-card:hover,
+    .course-card:focus-visible {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 44px rgba(0,0,0,0.13);
+      outline: none;
+    }
+
+    .related-card:focus-visible,
+    .course-card:focus-visible {
+      box-shadow: 0 0 0 3px rgba(0,0,0,0.18), 0 18px 44px rgba(0,0,0,0.13);
+    }
+
+    .related-card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .related-card-image {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #dedee3;
+    }
+
+    .related-card-image img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .related-card-copy {
+      flex: 1;
+      padding: 18px;
+    }
+
+    .related-card-tag,
+    .course-card-kicker {
+      display: block;
+      margin-bottom: 8px;
+      color: #6e6e73;
+      font-family: system-ui, sans-serif;
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .related-card-title,
+    .course-card-title {
+      margin: 0;
+      font-size: clamp(18px, 2vw, 23px);
+      line-height: 1.28;
+      font-weight: 900;
+    }
+
+    .related-card-excerpt,
+    .course-card-desc {
+      margin: 10px 0 0;
+      color: #52525a;
+      font-size: 14px;
+      line-height: 1.6;
+      font-weight: 650;
+    }
+
+    .course-card {
+      min-height: 430px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      background:
+        radial-gradient(130% 90% at 8% 0%, rgba(129,92,255,0.22), transparent 52%),
+        radial-gradient(110% 90% at 94% 12%, rgba(255,171,145,0.28), transparent 56%),
+        linear-gradient(145deg, rgba(255,255,255,0.96), rgba(250,244,255,0.92) 48%, rgba(255,247,239,0.94));
+    }
+
+    .course-card-price {
+      margin: 10px 0 18px;
+      color: #303035;
+      font-family: system-ui, sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .course-card-art {
+      min-height: 190px;
+      margin-top: auto;
+      overflow: hidden;
+      border-radius: 11px;
+      background: #fff;
+    }
+
+    .course-card-art img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 190px;
+      object-fit: contain;
+      background: #fff;
+    }
+
+    .share-status,
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .print-masthead {
+      display: none;
     }
 
     .missing {
@@ -178,6 +938,33 @@
       font-size: clamp(36px, 5vw, 64px);
     }
 
+    @media (max-width: 940px) {
+      .post-nav {
+        align-items: stretch;
+        flex-wrap: wrap;
+      }
+
+      .post-brand-wrap {
+        flex-basis: 100%;
+      }
+
+      .reading-progress {
+        width: 100%;
+        max-width: none;
+      }
+
+      .post-actions {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+
+      .related-grid,
+      .course-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
     @media (max-width: 760px) {
       html, body, a, button { cursor: auto; }
       .custom-cursor { display: none; }
@@ -189,11 +976,25 @@
 
       .post-nav {
         top: 0;
+        padding: 10px 12px 11px;
         border-radius: 0;
+        gap: 10px;
       }
 
-      .post-brand span:last-child {
-        display: none;
+      .post-brand {
+        font-size: clamp(16px, 4.6vw, 20px);
+      }
+
+      .brand-mark {
+        width: 29px;
+        height: 29px;
+        font-size: 15px;
+      }
+
+      .nav-control {
+        min-height: 36px;
+        padding: 7px 5px;
+        font-size: clamp(10px, 2.7vw, 12px);
       }
 
       .post-hero {
@@ -203,6 +1004,241 @@
 
       .post-copy {
         margin-top: 34px;
+        width: min(100% - 32px, 880px);
+      }
+
+      h1 {
+        font-size: clamp(34px, 11vw, 54px);
+      }
+
+      .post-body {
+        font-size: clamp(18px, 5vw, 21px);
+        line-height: 1.68;
+      }
+
+      .structured-content {
+        margin-top: 34px;
+        gap: 46px;
+      }
+
+      .song-info th {
+        width: 38%;
+        padding-right: 14px;
+        font-size: 11px;
+      }
+
+      .youtube-play {
+        width: 60px;
+        height: 43px;
+        border-radius: 11px;
+        font-size: 20px;
+      }
+
+      .youtube-replay-prompt {
+        right: 10px;
+        bottom: 10px;
+        width: calc(100% - 20px);
+        padding: 12px;
+      }
+
+      .analysis-item {
+        padding: 20px;
+      }
+
+      .reader-extras {
+        width: min(100% - 32px, 880px);
+      }
+
+      .related-grid,
+      .course-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .course-card {
+        min-height: 400px;
+      }
+    }
+
+    @media (max-width: 430px) {
+      .post-actions {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .toc-panel {
+        position: fixed;
+        top: 210px;
+        left: 12px;
+        width: calc(100vw - 24px);
+        max-height: calc(100vh - 226px);
+      }
+
+      .post-meta {
+        font-size: 13px;
+        line-height: 1.6;
+      }
+
+      .post-subtitle {
+        font-size: clamp(18px, 5.5vw, 24px);
+      }
+
+      .song-info th,
+      .song-info td {
+        display: block;
+        width: 100%;
+      }
+
+      .song-info th {
+        padding: 11px 0 2px;
+      }
+
+      .song-info td {
+        padding: 0 0 8px;
+      }
+    }
+
+    @media print {
+      @page {
+        size: auto;
+        margin: 16mm 15mm 18mm;
+      }
+
+      html,
+      body {
+        background: #fff !important;
+        color: #111 !important;
+        cursor: auto;
+      }
+
+      body {
+        font-weight: 500;
+      }
+
+      .page-loader,
+      .custom-cursor,
+      .post-nav,
+      .share-status,
+      .reader-extras,
+      .youtube-replay-prompt,
+      .youtube-frame {
+        display: none !important;
+      }
+
+      .post-shell {
+        width: 100%;
+        padding: 0;
+      }
+
+      .print-masthead {
+        display: block;
+        margin: 0 0 9mm;
+        padding-bottom: 4mm;
+        border-bottom: 1px solid #c9c9c9;
+        font-family: system-ui, sans-serif;
+        font-size: 11pt;
+        font-weight: 800;
+      }
+
+      .post-hero,
+      .second-image img,
+      .youtube-embed,
+      .analysis-item {
+        box-shadow: none;
+      }
+
+      .post-hero {
+        margin: 0 0 9mm;
+        border-radius: 0;
+        break-inside: avoid;
+      }
+
+      .post-hero img {
+        max-height: 105mm;
+      }
+
+      .post-copy {
+        width: 100%;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 30pt;
+      }
+
+      .post-subtitle {
+        margin-top: 4mm;
+        color: #333 !important;
+        font-size: 15pt;
+        line-height: 1.4;
+      }
+
+      .post-meta,
+      .tag-pill {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .post-body,
+      .rich-content {
+        color: #202020;
+        font-size: 11.5pt;
+        line-height: 1.58;
+      }
+
+      .structured-content {
+        gap: 9mm;
+      }
+
+      .article-section > h2,
+      .song-info caption {
+        font-size: 20pt;
+        break-after: avoid;
+      }
+
+      .youtube-section {
+        break-inside: avoid;
+      }
+
+      .youtube-embed {
+        max-height: 105mm;
+      }
+
+      .youtube-trigger,
+      .youtube-trigger[hidden] {
+        display: block !important;
+      }
+
+      .lyrics-table-wrap {
+        overflow: visible;
+      }
+
+      .lyrics-table {
+        min-width: 0;
+        border-spacing: 0 3mm;
+      }
+
+      .lyrics-table td,
+      .analysis-item {
+        background: #f6f6f6 !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .analysis-item {
+        page-break-inside: avoid;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reading-progress-bar,
+      .related-card,
+      .course-card,
+      .nav-control {
+        transition: none;
       }
     }
   </style>
@@ -218,20 +1254,65 @@
 
   <div class="post-shell">
     <header class="post-nav">
-      <a class="post-brand" href="major-music.html">
-        <span class="brand-mark">♪</span>
-        <span>Edmund Music Journal</span>
-      </a>
-      <a class="back-link" href="major-music.html">Back to music blog</a>
+      <div class="post-brand-wrap">
+        <a class="post-brand" href="major-music.html">
+          <span class="brand-mark">♪</span>
+          <span class="post-brand-label">Edmund 音樂賞析誌</span>
+        </a>
+        <div class="reading-progress" role="progressbar" aria-label="閱讀進度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-reading-progress>
+          <span class="reading-progress-bar" data-reading-progress-bar></span>
+        </div>
+      </div>
+      <div class="post-actions" aria-label="文章工具">
+        <div class="toc-wrap">
+          <button class="nav-control" type="button" aria-expanded="false" aria-controls="article-toc" data-toc-toggle>條目</button>
+          <nav class="toc-panel" id="article-toc" aria-label="文章條目" data-toc-panel hidden>
+            <p class="toc-title">文章條目</p>
+            <ol class="toc-list" data-toc-list></ol>
+            <p class="toc-empty" data-toc-empty hidden>這篇文章沒有可跳轉的分段。</p>
+          </nav>
+        </div>
+        <button class="nav-control" type="button" data-export-pdf>匯出 PDF</button>
+        <button class="nav-control" type="button" data-share-post>分享文章</button>
+        <a class="nav-control" href="major-music.html">返回音樂網誌</a>
+        <button class="nav-control top-button" type="button" aria-label="回到文章頁首" data-go-top disabled>↑ 回到頂部</button>
+      </div>
     </header>
 
+    <div class="print-masthead">Edmund 音樂賞析誌</div>
     <main data-post-root></main>
+    <p class="share-status" role="status" aria-live="polite" data-share-status></p>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
   <script>
     const POSTS_KEY = "edmundMusicPosts";
+    const AUTH_KEY = "edmundMusicLoggedIn";
+    const ADMIN_TOKEN_KEY = "edmundMusicAdminToken";
+    const ADMIN_EXPIRES_KEY = "edmundMusicAdminExpiresAt";
+    const SUPABASE_SETTINGS = window.EDMUND_SUPABASE || {};
+    const MUSIC_PUBLIC_VIEW = SUPABASE_SETTINGS.musicJournalPublicView || "music_journal_public_posts";
+    const MUSIC_SUMMARY_VIEW = SUPABASE_SETTINGS.musicJournalSummaryView || "music_journal_public_post_summaries";
+    const musicSupabase = window.supabase?.createClient && SUPABASE_SETTINGS.url && SUPABASE_SETTINGS.anonKey
+      ? window.supabase.createClient(SUPABASE_SETTINGS.url, SUPABASE_SETTINGS.anonKey, {
+          auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
+        })
+      : null;
 
     const seedPosts = [];
+    const COURSE_IMAGE_BASE_URL = "https://pub-0ecb66b14a1c40b3a65cff0a724d162d.r2.dev/course-images/";
+    const FRONT_PAGE_COURSES = [
+      { id: "adult-english", title: "成人英語進修補習班", desc: "適合大專生、打工仔", price: "$500", type: "Adult", image: "Premium Class/1.jpg" },
+      { id: "dse-full-paper", title: "免費45分鐘試堂！DSE 英文4卷全課程", desc: "Reading＋Writing＋Listening＋Speaking＋Data File＋SBA", price: "$280", type: "DSE", image: "DSE Full Paper Course/1.jpg" },
+      { id: "ielts-emergency", title: "#救得一個得一個｜IELTS 緊急補底班", desc: "專教成人英語｜免費45分鐘試堂", price: "$370", type: "IELTS", image: "IELTS 緊急補底班/1.jpg" },
+      { id: "cre-course", title: "香港公務員綜合招聘考試 CRE 英文運用測試備試課程", desc: "CRE English Use of English", price: "$370", type: "CRE", image: "CRE Course/1.jpg" },
+      { id: "grammar-course", title: "純 Grammar 文法進修補習班", desc: "適合大專生、打工仔", price: "$300", type: "Grammar", image: "Grammar Class/1.jpg" },
+      { id: "reading-speed", title: "純 Reading 加速班｜成人英文輔導班", desc: "Reading 速度及理解訓練", price: "$320", type: "Reading", image: "Reading Course Images/1.jpg" },
+      { id: "american-accent", title: "American Accent 美式口音重點培訓課程", desc: "英語口音訓練", price: "$250", type: "Accent", image: "American Accent Course/1.jpg" },
+      { id: "british-accent", title: "全港唯一 1v1 英式口音課程", desc: "British Accent 英式口音訓練", price: "$250", type: "British", image: "British Accent Course/1.jpg" },
+      { id: "clinic-assistant-english", title: "診所助理專業英文課程", desc: "職場英語服務系列", price: "$350", type: "Clinic", image: "Clinic Nurse Course/1.jpg" }
+    ];
 
     function escapeHtml(value) {
       return String(value)
@@ -240,6 +1321,45 @@
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
+    }
+
+    function assetUrl(baseUrl, path) {
+      if (!path || /^https?:\/\//i.test(path)) return path;
+      let cleanPath = String(path);
+      try {
+        cleanPath = decodeURIComponent(cleanPath);
+      } catch {
+        cleanPath = String(path);
+      }
+
+      return baseUrl + cleanPath
+        .replace(/^\/+/, "")
+        .split("/")
+        .map(segment => encodeURIComponent(segment))
+        .join("/");
+    }
+
+    function courseImageUrl(path) {
+      return assetUrl(COURSE_IMAGE_BASE_URL, path);
+    }
+
+    function shuffle(items) {
+      const copy = [...items];
+      for (let index = copy.length - 1; index > 0; index -= 1) {
+        const randomIndex = Math.floor(Math.random() * (index + 1));
+        [copy[index], copy[randomIndex]] = [copy[randomIndex], copy[index]];
+      }
+      return copy;
+    }
+
+    function plainText(value) {
+      const parsed = new DOMParser().parseFromString(String(value || ""), "text/html");
+      return (parsed.body.textContent || "").replace(/\s+/g, " ").trim();
+    }
+
+    function excerpt(value, maximum = 120) {
+      const text = plainText(value);
+      return text.length > maximum ? `${text.slice(0, maximum).trim()}…` : text;
     }
 
     function getStoredPosts() {
@@ -251,7 +1371,71 @@
     }
 
     function getAllPosts() {
-      return [...getStoredPosts(), ...seedPosts];
+      const localPosts = getStoredPosts().filter(post => (
+        isAdminView() || (post?.published !== false && !post?.isHidden)
+      ));
+      return [...localPosts, ...seedPosts];
+    }
+
+    function isAdminView() {
+      try {
+        const token = sessionStorage.getItem(ADMIN_TOKEN_KEY) || "";
+        const expiresAt = sessionStorage.getItem(ADMIN_EXPIRES_KEY) || "";
+        if (!token || !expiresAt || Date.parse(expiresAt) <= Date.now()) {
+          sessionStorage.removeItem(ADMIN_TOKEN_KEY);
+          sessionStorage.removeItem(ADMIN_EXPIRES_KEY);
+          sessionStorage.setItem(AUTH_KEY, "no");
+          return false;
+        }
+        return sessionStorage.getItem(AUTH_KEY) === "yes";
+      } catch {
+        return false;
+      }
+    }
+
+    function adminToken() {
+      if (!isAdminView()) return "";
+      try {
+        return sessionStorage.getItem(ADMIN_TOKEN_KEY) || "";
+      } catch {
+        return "";
+      }
+    }
+
+    function clearAdminSession() {
+      try {
+        sessionStorage.removeItem(ADMIN_TOKEN_KEY);
+        sessionStorage.removeItem(ADMIN_EXPIRES_KEY);
+        sessionStorage.setItem(AUTH_KEY, "no");
+      } catch {}
+    }
+
+    async function getSharedPost(id, allowAdmin = true) {
+      if (!musicSupabase || !id) return null;
+
+      if (allowAdmin && adminToken()) {
+        const { data, error } = await musicSupabase.rpc("music_journal_get_admin_post", {
+          p_token: adminToken(),
+          p_id: id
+        });
+        if (!error && data && typeof data === "object") {
+          return { ...data, id: String(data.id || id) };
+        }
+        if (error && /invalid|expired|session/i.test(error.message || "")) {
+          clearAdminSession();
+          return getSharedPost(id, false);
+        }
+        if (error) throw error;
+      }
+
+      const { data, error } = await musicSupabase
+        .from(MUSIC_PUBLIC_VIEW)
+        .select("id,payload")
+        .eq("id", id)
+        .maybeSingle();
+      if (error) throw error;
+      if (!data?.payload || typeof data.payload !== "object") return null;
+      return { ...data.payload, id: String(data.id || id) };
     }
 
     function getNavigationPost(id) {
@@ -267,7 +1451,9 @@
       for (const candidate of candidates) {
         try {
           const payload = JSON.parse(candidate);
-          if (payload?.type === "edmundMusicPost" && payload.post?.id === id) {
+          const canReadPost = isAdminView()
+            || (payload?.post?.published !== false && !payload?.post?.isHidden);
+          if (payload?.type === "edmundMusicPost" && payload.post?.id === id && canReadPost) {
             return payload.post;
           }
         } catch {}
@@ -285,41 +1471,853 @@
         .join("");
     }
 
-    function renderPost() {
+    function renderPlainLineBreaks(value) {
+      return escapeHtml(String(value || "").replace(/\r\n?/g, "\n")).replace(/\n/g, "<br>");
+    }
+
+    function hasText(value) {
+      if (value === null || value === undefined) return false;
+      const source = String(value).trim();
+      if (!source) return false;
+
+      const parsed = new DOMParser().parseFromString(source, "text/html");
+      return Boolean((parsed.body.textContent || "").replace(/\u00a0/g, " ").trim());
+    }
+
+    function sanitizeRichHtml(value) {
+      const source = String(value || "").trim();
+      if (!source) return "";
+
+      const supportedMarkup = /<\/?(?:p|div|br|strong|b|em|i|u|h[2-5]|ul|ol|li|blockquote|span|a)\b/i;
+      if (!supportedMarkup.test(source)) return renderParagraphs(source);
+
+      const template = document.createElement("template");
+      template.innerHTML = source;
+
+      const allowed = new Set([
+        "P", "DIV", "BR", "STRONG", "B", "EM", "I", "U",
+        "H2", "H3", "H4", "H5", "UL", "OL", "LI", "BLOCKQUOTE", "SPAN", "A"
+      ]);
+      const blocked = new Set([
+        "SCRIPT", "STYLE", "IFRAME", "OBJECT", "EMBED", "LINK", "META",
+        "FORM", "INPUT", "BUTTON", "TEXTAREA", "SELECT", "OPTION", "SVG", "MATH"
+      ]);
+
+      Array.from(template.content.querySelectorAll("*")).forEach(element => {
+        if (!template.content.contains(element)) return;
+
+        if (blocked.has(element.tagName)) {
+          element.remove();
+          return;
+        }
+
+        if (!allowed.has(element.tagName)) {
+          element.replaceWith(...element.childNodes);
+          return;
+        }
+
+        let safeStyle = "";
+        let safeHref = "";
+        if (element.tagName === "A") {
+          safeHref = safeHttpUrl(element.getAttribute("href"));
+          if (!safeHref) {
+            element.replaceWith(...element.childNodes);
+            return;
+          }
+        }
+
+        if (element.tagName === "SPAN") {
+          const fontSize = String(element.style.fontSize || "").trim().toLowerCase();
+          const fontSizeMatch = fontSize.match(/^(\d+(?:\.\d+)?)(%|em|px)$/);
+          if (fontSizeMatch) {
+            const amount = Number(fontSizeMatch[1]);
+            const unit = fontSizeMatch[2];
+            const isSafe = (unit === "%" && amount >= 10 && amount <= 10000)
+              || (unit === "em" && amount >= 0.1 && amount <= 100)
+              || (unit === "px" && amount >= 1 && amount <= 1600);
+            if (isSafe) safeStyle += `font-size:${amount}${unit};`;
+          }
+
+          const color = String(element.style.color || "").replace(/\s+/g, "").toLowerCase();
+          if (["#93552f", "rgb(147,85,47)"].includes(color)) {
+            safeStyle += "color:#93552f;";
+          } else if (["#9a6700", "rgb(154,103,0)"].includes(color)) {
+            safeStyle += "color:#9a6700;";
+          }
+        }
+
+        Array.from(element.attributes).forEach(attribute => element.removeAttribute(attribute.name));
+        if (safeStyle) element.setAttribute("style", safeStyle);
+        if (safeHref) {
+          element.setAttribute("href", safeHref);
+          element.setAttribute("target", "_blank");
+          element.setAttribute("rel", "noopener noreferrer");
+        }
+      });
+
+      return template.innerHTML;
+    }
+
+    function safeImageSource(value) {
+      const source = String(value || "").trim();
+      if (!source) return "";
+      if (/^data:image\/(?:avif|gif|jpeg|jpg|png|webp);/i.test(source)) return source;
+      if (/^blob:/i.test(source)) return source;
+      if (/^https?:\/\//i.test(source)) return source;
+      if (!/^[a-z][a-z\d+.-]*:/i.test(source)) return source;
+      return "";
+    }
+
+    function safeHttpUrl(value) {
+      let source = String(value || "").trim();
+      if (!source) return "";
+      if (/^(?:www\.)?(?:youtube\.com|youtu\.be)\//i.test(source)) source = `https://${source}`;
+
+      try {
+        const url = new URL(source, window.location.href);
+        return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function safeYouTubeUrl(value) {
+      const source = safeHttpUrl(value);
+      if (!source) return "";
+
+      try {
+        const url = new URL(source);
+        const host = url.hostname.toLowerCase().replace(/^www\./, "");
+        const isYouTubeHost = host === "youtu.be"
+          || host === "youtube.com"
+          || host.endsWith(".youtube.com")
+          || host === "youtube-nocookie.com"
+          || host.endsWith(".youtube-nocookie.com");
+        return isYouTubeHost ? url.href : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function youtubeVideoId(post) {
+      const direct = String(post.youtubeId || "").trim();
+      if (/^[A-Za-z0-9_-]{11}$/.test(direct)) return direct;
+
+      const source = safeYouTubeUrl(post.youtubeUrl || post.youtube || post.videoUrl);
+      if (!source) return "";
+
+      try {
+        const url = new URL(source);
+        const host = url.hostname.toLowerCase().replace(/^www\./, "");
+        let candidate = "";
+
+        if (host === "youtu.be") {
+          candidate = url.pathname.split("/").filter(Boolean)[0] || "";
+        } else if (host === "youtube.com" || host.endsWith(".youtube.com") || host === "youtube-nocookie.com" || host.endsWith(".youtube-nocookie.com")) {
+          candidate = url.searchParams.get("v") || "";
+          if (!candidate) {
+            const parts = url.pathname.split("/").filter(Boolean);
+            if (["embed", "shorts", "live"].includes(parts[0])) candidate = parts[1] || "";
+          }
+        }
+
+        return /^[A-Za-z0-9_-]{11}$/.test(candidate) ? candidate : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function postField(post, canonical, aliases = []) {
+      const metadata = post.metadata && typeof post.metadata === "object" ? post.metadata : {};
+      const candidates = [post[canonical], metadata[canonical]];
+
+      aliases.forEach(alias => {
+        candidates.push(post[alias], metadata[alias]);
+      });
+
+      return candidates.find(value => hasText(value)) ?? "";
+    }
+
+    function renderYouTube(post) {
+      const id = youtubeVideoId(post);
+      const url = safeYouTubeUrl(post.youtubeUrl || post.youtube || post.videoUrl);
+      if (!id && !url) return "";
+
+      if (!id) {
+        return `
+          <section class="article-section youtube-section" id="section-youtube" data-toc-label="YouTube 影片" tabindex="-1">
+            <h2>YouTube 影片</h2>
+            <a class="youtube-fallback" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">在 YouTube 觀看</a>
+          </section>
+        `;
+      }
+
+      const customThumbnail = safeImageSource(post.youtubeThumbnail);
+      const thumbnail = customThumbnail || `https://i.ytimg.com/vi/${encodeURIComponent(id)}/hqdefault.jpg`;
+      return `
+        <section class="article-section youtube-section" id="section-youtube" data-toc-label="YouTube 影片" tabindex="-1">
+          <h2>YouTube 影片</h2>
+          <div class="youtube-embed" data-youtube-embed>
+            <button class="youtube-trigger" type="button" data-youtube-id="${escapeHtml(id)}" aria-label="播放這段 YouTube 影片">
+              <img src="${escapeHtml(thumbnail)}" alt="YouTube 影片縮圖" loading="lazy">
+              <span class="youtube-play" aria-hidden="true">▶</span>
+            </button>
+            <div class="youtube-replay-prompt" role="group" aria-label="重播影片" data-youtube-replay-prompt hidden>
+              <p class="youtube-replay-question">要再回聽嗎？</p>
+              <div class="youtube-replay-actions">
+                <button class="youtube-replay-button" type="button" data-youtube-replay>要!</button>
+                <button class="youtube-replay-button is-secondary" type="button" data-youtube-dismiss>不需要了，謝謝</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      `;
+    }
+
+    function renderSongInfo(post) {
+      const fields = [
+        ["歌手", postField(post, "singers", ["singer"])],
+        ["發行年份", postField(post, "releaseYear", ["yearOfRelease", "songYear"])],
+        ["作詞", postField(post, "songwriter", ["songWriter", "songwriters"])],
+        ["監製", postField(post, "producer", ["producers"])]
+      ].filter(([, value]) => hasText(value));
+
+      if (!fields.length) return "";
+
+      return `
+        <section class="article-section" id="section-song-info" data-toc-label="歌曲資料" tabindex="-1">
+          <table class="song-info">
+            <caption>歌曲資料</caption>
+            <tbody>
+              ${fields.map(([label, value]) => `
+                <tr>
+                  <th scope="row">${label}</th>
+                  <td>${sanitizeRichHtml(value)}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </section>
+      `;
+    }
+
+    function renderRichSection(title, value, { extraClass = "", sectionId = "", tocLabel = title } = {}) {
+      if (!hasText(value)) return "";
+      return `
+        <section class="article-section ${extraClass}"${sectionId ? ` id="${escapeHtml(sectionId)}" data-toc-label="${escapeHtml(tocLabel)}" tabindex="-1"` : ""}>
+          <h2>${escapeHtml(title)}</h2>
+          <div class="rich-content">${sanitizeRichHtml(value)}</div>
+        </section>
+      `;
+    }
+
+    function normalizedBilingualLyrics(post) {
+      const source = post.bilingualLyrics || post.lyricsTable || post.translatedLyrics;
+      if (!Array.isArray(source)) return [];
+
+      return source.map(row => ({
+        english: row?.english ?? row?.englishHtml ?? row?.left ?? "",
+        chinese: row?.chinese ?? row?.chineseHtml ?? row?.right ?? "",
+        intentionalBreak: row?.intentionalBreak === true || row?.lineBreak === true
+      })).filter(row => row.intentionalBreak || hasText(row.english) || hasText(row.chinese));
+    }
+
+    function renderBilingualLyrics(post) {
+      const rows = normalizedBilingualLyrics(post);
+      if (!rows.length) return "";
+
+      return `
+        <section class="article-section" id="section-bilingual-lyrics" data-toc-label="完整歌詞：英文及中文" tabindex="-1">
+          <h2>完整歌詞：英文及中文</h2>
+          <div class="lyrics-table-wrap">
+            <table class="lyrics-table">
+              <thead>
+                <tr>
+                  <th scope="col">英文</th>
+                  <th scope="col">中文</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${rows.map(row => `
+                  <tr${row.intentionalBreak ? ' class="lyrics-line-break" aria-label="歌詞分段留白"' : ""}>
+                    <td>${row.intentionalBreak ? "<br>" : sanitizeRichHtml(row.english)}</td>
+                    <td>${row.intentionalBreak ? "<br>" : sanitizeRichHtml(row.chinese)}</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      `;
+    }
+
+    function normalizedLyricAnalysis(post) {
+      const source = post.lyricAnalysis || post.analysisSections || post.lyricAnalysisLines;
+      if (!Array.isArray(source)) return [];
+
+      return source.map(row => ({
+        lyric: row?.lyric ?? row?.lyrics ?? row?.lyricsHtml ?? row?.line ?? "",
+        analysis: row?.analysis ?? row?.analysisHtml ?? row?.commentary ?? ""
+      })).filter(row => hasText(row.lyric) || hasText(row.analysis));
+    }
+
+    function renderLyricAnalysis(post) {
+      const rows = normalizedLyricAnalysis(post);
+      if (!rows.length) return "";
+
+      return `
+        <section class="article-section analysis-section" id="section-analysis" data-toc-label="歌詞深入賞析" tabindex="-1">
+          <h2>歌詞深入賞析</h2>
+          <div class="analysis-list">
+            ${rows.map((row, index) => `
+              <article class="analysis-item">
+                ${hasText(row.lyric) ? `
+                  <div class="analysis-lyric">
+                    <span class="analysis-label">歌詞段落 ${index + 1}</span>
+                    <div class="rich-content">${sanitizeRichHtml(row.lyric)}</div>
+                  </div>
+                ` : ""}
+                ${hasText(row.analysis) ? `
+                  <div class="analysis-copy">
+                    <span class="analysis-label">賞析 ${index + 1}</span>
+                    <div class="rich-content">${sanitizeRichHtml(row.analysis)}</div>
+                  </div>
+                ` : ""}
+              </article>
+            `).join("")}
+          </div>
+        </section>
+      `;
+    }
+
+    function renderSecondImage(post) {
+      const image = safeImageSource(post.secondImage || post.imageTwo || post.secondaryImage);
+      if (!image) return "";
+
+      return `
+        <figure class="article-section second-image">
+          <img src="${escapeHtml(image)}" alt="" loading="lazy">
+        </figure>
+      `;
+    }
+
+    function renderStructuredContent(post) {
+      const context = postField(post, "contextBackground", ["contextHtml", "background", "context"]);
+      const fullLyrics = postField(post, "fullLyricsEnglish", ["fullLyricsHtml", "englishLyrics"]);
+      const reflection = postField(post, "reflection", ["reflectionHtml", "finalReflection", "closingReflection"]);
+      const bilingualRows = normalizedBilingualLyrics(post);
+      const analysisRows = normalizedLyricAnalysis(post);
+      const secondImage = safeImageSource(post.secondImage || post.imageTwo || post.secondaryImage);
+      const youtubeSection = renderYouTube(post);
+      const songInfoSection = renderSongInfo(post);
+      const hasStructuredContent = Boolean(
+        youtubeSection
+        || songInfoSection
+        || hasText(context)
+        || hasText(fullLyrics)
+        || bilingualRows.length
+        || secondImage
+        || analysisRows.length
+        || hasText(reflection)
+      );
+
+      if (!hasStructuredContent) return "";
+
+      return `
+        <div class="structured-content">
+          ${youtubeSection}
+          ${songInfoSection}
+          ${renderRichSection("歌曲背景", context, {
+            sectionId: "section-context",
+            tocLabel: "歌曲背景"
+          })}
+          ${renderRichSection("完整英文歌詞", fullLyrics, {
+            extraClass: "full-lyrics",
+            sectionId: "section-english-lyrics",
+            tocLabel: "完整英文歌詞"
+          })}
+          ${renderBilingualLyrics(post)}
+          ${renderSecondImage(post)}
+          ${renderLyricAnalysis(post)}
+          ${renderRichSection("反思", reflection, {
+            extraClass: "reflection-section",
+            sectionId: "section-reflection",
+            tocLabel: "反思"
+          })}
+        </div>
+      `;
+    }
+
+    function normalizeSummaryRow(row) {
+      if (!row?.payload || typeof row.payload !== "object") return null;
+      const post = { ...row.payload, id: String(row.id || row.payload.id || "") };
+      return post.id && hasText(post.title) ? post : null;
+    }
+
+    async function getRelatedPublishedPosts(currentId) {
+      if (!musicSupabase) return [];
+
+      const { data, error } = await musicSupabase
+        .from(MUSIC_SUMMARY_VIEW)
+        .select("id,sort_index,payload")
+        .neq("id", currentId)
+        .order("sort_index", { ascending: false })
+        .limit(6);
+
+      if (error) throw error;
+      return (Array.isArray(data) ? data : [])
+        .map(normalizeSummaryRow)
+        .filter(Boolean)
+        .slice(0, 3);
+    }
+
+    function renderRelatedCard(post) {
+      const image = safeImageSource(post.image);
+      const summary = excerpt(post.body || "", 125);
+      return `
+        <a class="related-card" href="music-post.html?id=${encodeURIComponent(post.id)}">
+          ${image ? `
+            <div class="related-card-image">
+              <img src="${escapeHtml(image)}" alt="${escapeHtml(post.title)}" loading="lazy">
+            </div>
+          ` : ""}
+          <div class="related-card-copy">
+            ${hasText(post.tag) ? `<span class="related-card-tag">${escapeHtml(plainText(post.tag))}</span>` : ""}
+            <h3 class="related-card-title">${escapeHtml(plainText(post.title))}</h3>
+            ${summary ? `<p class="related-card-excerpt">${escapeHtml(summary)}</p>` : ""}
+          </div>
+        </a>
+      `;
+    }
+
+    async function renderRelatedArticles(currentId) {
+      const section = document.querySelector("[data-related-section]");
+      const grid = document.querySelector("[data-related-grid]");
+      if (!section || !grid) return;
+
+      try {
+        const relatedPosts = await getRelatedPublishedPosts(currentId);
+        if (!relatedPosts.length) return;
+        grid.innerHTML = relatedPosts.map(renderRelatedCard).join("");
+        section.hidden = false;
+      } catch (error) {
+        console.warn("Could not load related music articles.", error);
+      }
+    }
+
+    function renderCourseCard(course) {
+      const image = courseImageUrl(course.image);
+      return `
+        <a class="course-card" href="course.html?id=${encodeURIComponent(course.id)}">
+          <span class="course-card-kicker">${escapeHtml(course.type)} 課程</span>
+          <h3 class="course-card-title">${escapeHtml(course.title)}</h3>
+          <p class="course-card-desc">${escapeHtml(course.desc)}</p>
+          <p class="course-card-price">${escapeHtml(course.price)}｜小時</p>
+          <div class="course-card-art">
+            <img src="${escapeHtml(image)}" alt="${escapeHtml(course.title)}" loading="lazy">
+          </div>
+        </a>
+      `;
+    }
+
+    function renderReaderExtras() {
+      const selectedCourses = shuffle(FRONT_PAGE_COURSES).slice(0, 3);
+      return `
+        <aside class="reader-extras" aria-label="延伸閱讀及英文課程">
+          <section class="reader-extra-section" aria-labelledby="related-heading" data-related-section hidden>
+            <h2 class="reader-extra-heading" id="related-heading">您可能也會喜歡：</h2>
+            <div class="related-grid" data-related-grid></div>
+          </section>
+          <section class="reader-extra-section" aria-labelledby="courses-heading">
+            <h2 class="reader-extra-heading" id="courses-heading">Edmund 英文教學課程</h2>
+            <div class="course-grid">
+              ${selectedCourses.map(renderCourseCard).join("")}
+            </div>
+          </section>
+        </aside>
+      `;
+    }
+
+    function localizedReadingTime(value) {
+      const source = String(value || "").trim();
+      const match = source.match(/^(\d+)\s*mins?\s*read$/i);
+      return match ? `${match[1]} 分鐘閱讀` : source;
+    }
+
+    function renderPostMeta(post) {
+      const parts = [`<span>${escapeHtml(post.author || "Edmund Sir")}</span>`];
+      if (isAdminView() && post.date) {
+        parts.push(`<span class="admin-date">${escapeHtml(post.date)}</span>`);
+      }
+      if (post.minutes) parts.push(`<span>${escapeHtml(localizedReadingTime(post.minutes))}</span>`);
+      return parts.join(" <span aria-hidden=\"true\">・</span> ");
+    }
+
+    async function renderPost() {
       const root = document.querySelector("[data-post-root]");
       const id = new URLSearchParams(window.location.search).get("id");
-      const post = getAllPosts().find(item => item.id === id) || getNavigationPost(id);
-
       if (!root) return;
 
+      const publicServerIsAuthority = Boolean(musicSupabase) && !isAdminView();
+      let post = publicServerIsAuthority
+        ? null
+        : getAllPosts().find(item => item.id === id) || getNavigationPost(id);
+      let loadError = null;
+      root.setAttribute("aria-busy", "true");
+
+      try {
+        const sharedPost = await getSharedPost(id);
+        if (sharedPost) {
+          post = sharedPost;
+        } else if (musicSupabase && !isAdminView()) {
+          // A successful public lookup that returns no row is authoritative:
+          // the article is hidden or deleted, so never render a stale cache.
+          post = null;
+        }
+      } catch (error) {
+        loadError = error;
+        if (musicSupabase && !isAdminView()) post = null;
+        console.warn("Could not load the shared music article.", error);
+      } finally {
+        root.removeAttribute("aria-busy");
+      }
+
       if (!post) {
-        document.title = "Post not found | EdmundEducation";
+        document.title = "找不到文章 | EdmundEducation";
         root.innerHTML = `
           <section class="missing">
             <div>
-              <h1>找不到這篇文章</h1>
-              <p class="post-meta">這篇文章可能只存在於另一個瀏覽器或已被刪除。</p>
-              <p><a class="back-link" href="major-music.html">Back to music blog</a></p>
+              <h1>${loadError ? "暫時未能載入文章" : "找不到這篇文章"}</h1>
+              <p class="post-meta">${loadError
+                ? "請檢查網絡連線後重新整理頁面。"
+                : "這篇文章可能尚未發布或已被刪除。"}</p>
+              <p><a class="back-link" href="major-music.html">返回音樂網誌</a></p>
             </div>
           </section>
         `;
         return;
       }
 
-      document.title = `${post.title} | EdmundEducation`;
+      document.title = `${plainText(post.title)} | EdmundEducation`;
+      document.body.classList.toggle("is-admin", isAdminView());
+      const heroImage = safeImageSource(post.image);
+      const subtitle = postField(post, "subtitle", ["subTitle", "articleSubtitle"]);
+      const structured = renderStructuredContent(post);
       root.innerHTML = `
-        <article>
-          <div class="post-hero">
-            <img src="${escapeHtml(post.image)}" alt="">
-          </div>
+        <article id="article-top">
+          ${heroImage ? `
+            <div class="post-hero">
+              <img src="${escapeHtml(heroImage)}" alt="${escapeHtml(plainText(post.title || ""))}">
+            </div>
+          ` : ""}
           <div class="post-copy">
-            <span class="tag-pill">${escapeHtml(post.tag)}</span>
-            <h1>${escapeHtml(post.title)}</h1>
-            <p class="post-meta">${escapeHtml(post.author || "Edmund Sir")} ・ ${escapeHtml(post.date)} ・ ${escapeHtml(post.minutes)}</p>
-            <div class="post-body">${renderParagraphs(post.body)}</div>
+            ${post.tag ? `<span class="tag-pill">${escapeHtml(post.tag)}</span>` : ""}
+            <h1>${renderPlainLineBreaks(post.title)}</h1>
+            ${hasText(subtitle) ? `<p class="post-subtitle">${renderPlainLineBreaks(subtitle)}</p>` : ""}
+            <p class="post-meta">${renderPostMeta(post)}</p>
+            ${structured || `<div class="post-body">${renderParagraphs(post.body || "")}</div>`}
           </div>
         </article>
+        ${renderReaderExtras()}
       `;
+
+      await renderRelatedArticles(String(post.id || id || ""));
+    }
+
+    function setupReadingProgress() {
+      const progress = document.querySelector("[data-reading-progress]");
+      const bar = document.querySelector("[data-reading-progress-bar]");
+      const topButton = document.querySelector("[data-go-top]");
+      if (!progress || !bar) return;
+
+      let ticking = false;
+      const update = () => {
+        const scrollable = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+        const ratio = scrollable ? Math.min(1, Math.max(0, window.scrollY / scrollable)) : 0;
+        const percent = Math.round(ratio * 100);
+        bar.style.transform = `scaleX(${ratio})`;
+        progress.setAttribute("aria-valuenow", String(percent));
+        progress.setAttribute("aria-valuetext", `已閱讀 ${percent}%`);
+        if (topButton) topButton.disabled = window.scrollY < 180;
+        ticking = false;
+      };
+
+      const requestUpdate = () => {
+        if (ticking) return;
+        ticking = true;
+        window.requestAnimationFrame(update);
+      };
+
+      window.addEventListener("scroll", requestUpdate, { passive: true });
+      window.addEventListener("resize", requestUpdate, { passive: true });
+      window.addEventListener("load", requestUpdate, { once: true });
+      document.querySelectorAll("img").forEach(image => image.addEventListener("load", requestUpdate, { once: true }));
+
+      if ("ResizeObserver" in window) {
+        const observer = new ResizeObserver(requestUpdate);
+        observer.observe(document.documentElement);
+      }
+
+      requestUpdate();
+    }
+
+    function setupTableOfContents() {
+      const button = document.querySelector("[data-toc-toggle]");
+      const panel = document.querySelector("[data-toc-panel]");
+      const list = document.querySelector("[data-toc-list]");
+      const empty = document.querySelector("[data-toc-empty]");
+      const root = document.querySelector("[data-post-root]");
+      if (!button || !panel || !list || !empty || !root) return;
+
+      const sections = Array.from(root.querySelectorAll("[data-toc-label][id]"));
+      list.innerHTML = sections.map(section => `
+        <li><a href="#${encodeURIComponent(section.id)}">${escapeHtml(section.dataset.tocLabel || "文章分段")}</a></li>
+      `).join("");
+      list.hidden = sections.length === 0;
+      empty.hidden = sections.length > 0;
+
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      const fixedHeaderOffset = () => {
+        const header = document.querySelector(".post-nav");
+        if (!header) return 20;
+        const stickyTop = Math.max(0, Number.parseFloat(getComputedStyle(header).top) || 0);
+        return header.getBoundingClientRect().height + stickyTop + 18;
+      };
+
+      const scrollToSection = (target, { updateHash = true, smooth = true } = {}) => {
+        if (!target) return;
+        const targetTop = Math.max(0, window.scrollY + target.getBoundingClientRect().top - fixedHeaderOffset());
+        if (updateHash) {
+          history.pushState(null, "", `#${encodeURIComponent(target.id)}`);
+        }
+        target.focus({ preventScroll: true });
+        window.scrollTo({
+          top: targetTop,
+          behavior: smooth && !reducedMotion.matches ? "smooth" : "auto"
+        });
+      };
+
+      const setOpen = (open, restoreFocus = false) => {
+        panel.hidden = !open;
+        button.setAttribute("aria-expanded", String(open));
+        if (restoreFocus) button.focus();
+      };
+
+      button.addEventListener("click", () => {
+        setOpen(button.getAttribute("aria-expanded") !== "true");
+      });
+
+      list.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", event => {
+          event.preventDefault();
+          const targetId = decodeURIComponent(link.getAttribute("href").slice(1));
+          const target = document.getElementById(targetId);
+          setOpen(false);
+          window.requestAnimationFrame(() => scrollToSection(target));
+        });
+      });
+
+      document.addEventListener("click", event => {
+        if (!panel.hidden && !event.target.closest(".toc-wrap")) setOpen(false);
+      });
+
+      document.addEventListener("keydown", event => {
+        if (event.key === "Escape" && !panel.hidden) setOpen(false, true);
+      });
+
+      if (window.location.hash) {
+        try {
+          const target = document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
+          if (target) window.requestAnimationFrame(() => scrollToSection(target, { updateHash: false, smooth: false }));
+        } catch {}
+      }
+    }
+
+    function copyWithFallback(text) {
+      const field = document.createElement("textarea");
+      field.value = text;
+      field.setAttribute("readonly", "");
+      field.style.position = "fixed";
+      field.style.opacity = "0";
+      document.body.appendChild(field);
+      field.select();
+      field.setSelectionRange(0, field.value.length);
+      const copied = document.execCommand("copy");
+      field.remove();
+      if (!copied) throw new Error("Copy command was unavailable");
+    }
+
+    async function copyShareLink() {
+      const url = new URL(window.location.href);
+      url.hash = "";
+
+      if (navigator.clipboard?.writeText && window.isSecureContext) {
+        await navigator.clipboard.writeText(url.href);
+      } else {
+        copyWithFallback(url.href);
+      }
+    }
+
+    function setupArticleActions() {
+      const shareButton = document.querySelector("[data-share-post]");
+      const status = document.querySelector("[data-share-status]");
+      const originalShareLabel = shareButton?.textContent || "分享文章";
+      let labelTimer = 0;
+
+      document.querySelector("[data-export-pdf]")?.addEventListener("click", () => window.print());
+      document.querySelector("[data-go-top]")?.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      shareButton?.addEventListener("click", async () => {
+        window.clearTimeout(labelTimer);
+        try {
+          await copyShareLink();
+          shareButton.textContent = "連結已複製";
+          if (status) status.textContent = "文章連結已複製到剪貼簿。";
+        } catch {
+          shareButton.textContent = "未能複製";
+          if (status) status.textContent = "瀏覽器未能複製連結，請從網址列手動複製。";
+        }
+
+        labelTimer = window.setTimeout(() => {
+          shareButton.textContent = originalShareLabel;
+        }, 2200);
+      });
+    }
+
+    let youtubeIframeApiPromise = null;
+
+    function loadYouTubeIframeApi() {
+      if (window.YT?.Player) return Promise.resolve(window.YT);
+      if (youtubeIframeApiPromise) return youtubeIframeApiPromise;
+
+      youtubeIframeApiPromise = new Promise((resolve, reject) => {
+        const previousReadyHandler = window.onYouTubeIframeAPIReady;
+        const timeout = window.setTimeout(() => reject(new Error("YouTube player API timed out")), 15000);
+
+        window.onYouTubeIframeAPIReady = () => {
+          try {
+            if (typeof previousReadyHandler === "function") previousReadyHandler();
+          } finally {
+            window.clearTimeout(timeout);
+            resolve(window.YT);
+          }
+        };
+
+        const existingScript = document.querySelector('script[src="https://www.youtube.com/iframe_api"]');
+        if (existingScript) return;
+
+        const script = document.createElement("script");
+        script.src = "https://www.youtube.com/iframe_api";
+        script.async = true;
+        script.addEventListener("error", () => {
+          window.clearTimeout(timeout);
+          reject(new Error("YouTube player API could not load"));
+        }, { once: true });
+        document.head.appendChild(script);
+      });
+
+      return youtubeIframeApiPromise;
+    }
+
+    function configureYouTubeFrame(frame) {
+      if (!frame) return;
+      frame.classList.add("youtube-frame");
+      frame.title = "YouTube 影片播放器";
+      frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      frame.allowFullscreen = true;
+      frame.referrerPolicy = "strict-origin-when-cross-origin";
+    }
+
+    function createDirectYouTubeFrame(holder, id) {
+      const frame = document.createElement("iframe");
+      configureYouTubeFrame(frame);
+      frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&playsinline=1&rel=0`;
+      holder.appendChild(frame);
+      holder.dataset.youtubePlayer = "fallback";
+    }
+
+    async function createTrackedYouTubePlayer(holder, trigger, id) {
+      holder.dataset.youtubePlayer = "loading";
+      trigger.hidden = true;
+
+      const mount = document.createElement("div");
+      mount.className = "youtube-player-mount";
+      holder.appendChild(mount);
+
+      try {
+        const youtubeApi = await loadYouTubeIframeApi();
+        const player = new youtubeApi.Player(mount, {
+          host: "https://www.youtube-nocookie.com",
+          videoId: id,
+          width: "100%",
+          height: "100%",
+          playerVars: {
+            autoplay: 1,
+            playsinline: 1,
+            rel: 0,
+            origin: window.location.origin
+          },
+          events: {
+            onReady: readyEvent => {
+              holder.youtubePlayer = readyEvent.target;
+              holder.dataset.youtubePlayer = "ready";
+              configureYouTubeFrame(readyEvent.target.getIframe());
+              readyEvent.target.playVideo();
+            },
+            onStateChange: stateEvent => {
+              const prompt = holder.querySelector("[data-youtube-replay-prompt]");
+              if (!prompt) return;
+              if (stateEvent.data === youtubeApi.PlayerState.ENDED) {
+                prompt.hidden = false;
+                window.requestAnimationFrame(() => prompt.querySelector("[data-youtube-replay]")?.focus());
+              } else if (stateEvent.data === youtubeApi.PlayerState.PLAYING) {
+                prompt.hidden = true;
+              }
+            }
+          }
+        });
+        holder.youtubePlayer = player;
+      } catch (error) {
+        console.warn("Could not enable YouTube replay controls; using the standard player.", error);
+        mount.remove();
+        createDirectYouTubeFrame(holder, id);
+      }
+    }
+
+    function setupYouTubeEmbeds() {
+      document.addEventListener("click", event => {
+        const replayButton = event.target.closest("[data-youtube-replay]");
+        if (replayButton) {
+          const holder = replayButton.closest("[data-youtube-embed]");
+          const prompt = replayButton.closest("[data-youtube-replay-prompt]");
+          const player = holder?.youtubePlayer;
+          if (player?.seekTo && player?.playVideo) {
+            prompt.hidden = true;
+            player.seekTo(0, true);
+            player.playVideo();
+            window.requestAnimationFrame(() => player.getIframe?.().focus());
+          }
+          return;
+        }
+
+        const dismissButton = event.target.closest("[data-youtube-dismiss]");
+        if (dismissButton) {
+          const holder = dismissButton.closest("[data-youtube-embed]");
+          dismissButton.closest("[data-youtube-replay-prompt]").hidden = true;
+          window.requestAnimationFrame(() => holder?.querySelector("iframe")?.focus());
+          return;
+        }
+
+        const trigger = event.target.closest("[data-youtube-id]");
+        if (!trigger) return;
+
+        const id = trigger.getAttribute("data-youtube-id");
+        const holder = trigger.closest("[data-youtube-embed]");
+        if (!id || !holder || holder.dataset.youtubePlayer) return;
+        createTrackedYouTubePlayer(holder, trigger, id);
+      });
     }
 
     function setupCustomCursor() {
@@ -337,8 +2335,16 @@
       });
     }
 
-    renderPost();
-    setupCustomCursor();
+    async function initializeArticle() {
+      await renderPost();
+      setupArticleActions();
+      setupTableOfContents();
+      setupReadingProgress();
+      setupYouTubeEmbeds();
+      setupCustomCursor();
+    }
+
+    initializeArticle();
   </script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
 </body>

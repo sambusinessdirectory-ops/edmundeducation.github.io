@@ -1,0 +1,1273 @@
+/* Generated from the reviewed lesson source. Do not edit answers by hand. */
+(function defineProverbSystemData() {
+  const data = {
+    "version": "1",
+    "system": "proverb",
+    "lessonCount": 1,
+    "questionCount": 50,
+    "lessons": [
+      {
+        "id": "proverb-01",
+        "order": 1,
+        "slug": "out-of-sight-out-of-mind",
+        "version": "1",
+        "title": "眼不見，心不念",
+        "titleEn": "Out of Sight, Out of Mind",
+        "titleZh": "眼不見，心不念",
+        "image": "assets/proverb-system/out-of-sight-out-of-mind.webp",
+        "imageWidth": 1400,
+        "imageHeight": 1050,
+        "imageAlt": "A dog plays with a tennis ball while a bone lies hidden under the sofa, illustrating ‘Out of Sight, Out of Mind’.",
+        "imageAltZh": "小狗只顧玩眼前的網球，沒有留意梳化底下的骨頭，呈現「眼不見，心不念」的意思。",
+        "imageCaption": "The hidden bone is no longer in the dog’s sight and is therefore no longer receiving its attention.",
+        "imageCaptionZh": "骨頭藏到梳化底下，不再出現在小狗眼前，也就不再受到牠注意。",
+        "source": {
+          "file": "Proverb 1 -“Out of Sight, Out of Mind”.pdf",
+          "pageCount": 33,
+          "contentPdfPages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "answerKeyPdfPages": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "formulas": [
+          {
+            "labelEn": "Target Proverb",
+            "labelZh": "目標諺語",
+            "formula": "out of sight, out of mind",
+            "highlight": "out of sight, out of mind"
+          }
+        ],
+        "examples": [
+          {
+            "labelEn": "Model Answer",
+            "labelZh": "示範答案",
+            "en": "Once Lucas put the unfinished form in a drawer, it was out of sight, out of mind for him.",
+            "zh": "Lucas 把未完成的表格放進抽屜後，便因看不見而把它拋諸腦後。",
+            "highlight": "out of sight, out of mind"
+          }
+        ],
+        "meaning": {
+          "en": "When a person, object, duty or problem is no longer seen or regularly noticed, people may easily forget it or stop giving it attention.",
+          "zh": "當一個人、一件物件、一項責任或一個問題不再出現在眼前，或不再經常受到注意時，人們便可能很容易忘記它，或不再把它放在心上。",
+          "naturalZh": [
+            "眼不見，心不念",
+            "不在眼前，便容易忘記",
+            "看不見，便不再想起",
+            "因為不再接觸而逐漸淡忘",
+            "因為事情被收起或隱藏而不再注意"
+          ],
+          "tendencyEn": "The proverb describes a common tendency rather than an absolute rule. It does not mean that everybody always forgets an absent person or hidden object.",
+          "tendencyZh": "這個諺語描述一種常見傾向，而不是絕對規律；它並不表示所有人總會忘記不在身邊的人或被收藏起來的物件。"
+        },
+        "modelExample": {
+          "sourceEn": "After Lucas put the unfinished form in a drawer, he forgot about it.",
+          "sourceZh": "Lucas 把未完成的表格放進抽屜後，便忘記了它。",
+          "answerEn": "Once Lucas put the unfinished form in a drawer, it was out of sight, out of mind for him.",
+          "answerZh": "Lucas 把未完成的表格放進抽屜後，便因看不見而把它拋諸腦後。",
+          "highlight": "out of sight, out of mind",
+          "preservedEn": [
+            "Lucas",
+            "the unfinished form",
+            "the drawer",
+            "the past tense",
+            "Lucas as the person who forgot it"
+          ],
+          "preservedZh": [
+            "Lucas",
+            "未完成的表格",
+            "抽屜",
+            "過去時態",
+            "由 Lucas 忘記表格"
+          ],
+          "compressedEn": "He could no longer see the form, so he forgot about it.",
+          "compressedZh": "他不再看見表格，因此把它忘記。"
+        },
+        "register": {
+          "labelEn": "Neutral and Widely Understood",
+          "labelZh": "中性及普遍使用",
+          "summaryEn": "The proverb is neutral and widely understood. Its tone changes according to the context.",
+          "summaryZh": "這個諺語屬中性及普遍使用的表達；實際語氣會隨語境而改變。",
+          "communicativeFunctionsEn": [
+            "explain why somebody has forgotten a person, object, task or problem",
+            "describe how attention fades when something is no longer visible or regularly mentioned",
+            "criticise people or organisations for ignoring distant or hidden problems",
+            "explain why friendships or relationships may weaken after people stop seeing each other",
+            "describe a practical method of avoiding temptation or distraction by putting something away"
+          ],
+          "communicativeFunctionsZh": [
+            "解釋某人為甚麼忘記了一個人、一件物件、一項工作或一個問題",
+            "說明某件事不再出現在眼前或不再經常被提及後，關注如何逐漸減少",
+            "批評個人或機構忽略偏遠、隱蔽或不顯眼的問題",
+            "說明人們停止見面後，友誼或關係可能逐漸變淡",
+            "說明把誘惑或令人分心的東西收起來，從而減少自己想起它的實際做法"
+          ],
+          "contextsEn": [
+            "everyday conversation",
+            "messages and informal emails",
+            "general articles",
+            "presentations",
+            "workplace discussions",
+            "personal reflections"
+          ],
+          "contextsZh": [
+            "日常對話",
+            "訊息及非正式電郵",
+            "一般文章",
+            "簡報",
+            "工作討論",
+            "個人反思"
+          ],
+          "tones": [
+            {
+              "titleEn": "Neutral Observation",
+              "titleZh": "中性觀察",
+              "en": "The speaker simply explains why something was forgotten.",
+              "zh": "說話者只是解釋某件事為甚麼被忘記。"
+            },
+            {
+              "titleEn": "Practical or Humorous",
+              "titleZh": "實用或幽默",
+              "en": "The speaker hides sweets, a phone or a shopping application to avoid thinking about it.",
+              "zh": "說話者把糖果、電話或購物應用程式收起，避免自己經常想起它。"
+            },
+            {
+              "titleEn": "Critical",
+              "titleZh": "批評",
+              "en": "The speaker criticises managers, the public or an organisation for ignoring people or problems that are not immediately visible.",
+              "zh": "說話者批評管理層、公眾或機構忽略沒有出現在眼前的人或問題。"
+            }
+          ],
+          "sensitiveContextsEn": [
+            "a lonely person",
+            "a friend who feels forgotten",
+            "people suffering after a disaster",
+            "a serious social or safety problem"
+          ],
+          "sensitiveContextsZh": [
+            "一位孤單的人",
+            "一位覺得被遺忘的朋友",
+            "災難後正在受苦的人",
+            "嚴重的社會或安全問題"
+          ],
+          "sensitivityEn": "Saying the proverb directly to somebody who feels forgotten may sound cold or uncaring. In sensitive situations, use it to criticise neglect rather than to mock the affected person.",
+          "sensitivityZh": "直接對一位感到被遺忘的人說這個諺語，可能令人覺得冷漠或無情。在敏感情況下，它較適合用來批評遺忘或忽略的行為，而不是取笑受影響的人。",
+          "formalEn": "The proverb is suitable for general communication, but a plain explanation may be clearer in highly formal or sensitive writing.",
+          "formalZh": "這個諺語適合一般溝通；在高度正式或敏感的文字中，直接說明因為不再看見而減少關注，可能更加清楚。"
+        },
+        "fixedVariable": {
+          "fixed": "out of sight, out of mind",
+          "fixedHighlight": "out of sight, out of mind",
+          "fixedEn": "All six words remain fixed, and the comma separates the two balanced parts.",
+          "fixedZh": "所有六個字及中間的逗號均屬固定部分；逗號把兩個平衡的部分分開。",
+          "correct": "out of sight, out of mind",
+          "incorrectForms": [
+            "out from sight, out from mind",
+            "out of the sight, out of the mind",
+            "out of sight and out of mind",
+            "out of eyes, out of mind",
+            "outside sight, outside mind",
+            "out of sight, away from mind"
+          ],
+          "capitalisation": [
+            {
+              "labelEn": "Standing alone",
+              "labelZh": "獨立成句",
+              "example": "Out of sight, out of mind.",
+              "highlight": "out of sight, out of mind",
+              "en": "The first letter is capitalised when the proverb stands alone.",
+              "zh": "諺語獨立成句時，第一個字母使用大寫。"
+            },
+            {
+              "labelEn": "Inside a longer sentence",
+              "labelZh": "較長句子之內",
+              "example": "The old files were out of sight, out of mind for the manager.",
+              "highlight": "out of sight, out of mind",
+              "en": "The proverb normally uses lower case inside a longer sentence.",
+              "zh": "諺語放在較長句子中時，通常使用小寫。"
+            }
+          ],
+          "variableEn": "There are no variable words inside the proverb. Students vary only the grammatical shell around it.",
+          "variableZh": "諺語內部沒有任何可變部分。學生只需要改變諺語外圍的句子結構。",
+          "variableItemsEn": [
+            "the person or thing being forgotten",
+            "the person or group who forgets",
+            "the tense",
+            "the modal verb",
+            "the time or condition",
+            "the reason something is no longer noticed"
+          ],
+          "variableItemsZh": [
+            "被忘記的人或事物",
+            "忘記事物的人或群體",
+            "時態",
+            "情態動詞",
+            "時間或條件",
+            "某件事不再受到注意的原因"
+          ],
+          "beForms": [
+            "is",
+            "are",
+            "was",
+            "were",
+            "has been",
+            "may be",
+            "can be"
+          ],
+          "forms": [
+            {
+              "form": "is",
+              "example": "Food at the back of the fridge is often out of sight, out of mind for Daniel.",
+              "exampleZh": "對丹尼爾來說，雪櫃後方的食物往往看不見便忘記。",
+              "highlight": "out of sight, out of mind"
+            },
+            {
+              "form": "are",
+              "example": "Winter clothes in the top cupboard are out of sight, out of mind for Harper during summer.",
+              "exampleZh": "夏天時，哈珀不會看到高櫃裏的冬季衣物，也不會想起它們。",
+              "highlight": "out of sight, out of mind"
+            },
+            {
+              "form": "was",
+              "example": "The old email was out of sight, out of mind for Ethan after he moved it to another folder.",
+              "exampleZh": "伊森把舊電郵移到另一個資料夾後，便因不再看到它而忘記了。",
+              "highlight": "out of sight, out of mind"
+            },
+            {
+              "form": "were",
+              "example": "For the manager, files in the bottom drawer were often out of sight, out of mind.",
+              "exampleZh": "對經理來說，底層抽屜裏的文件常常因看不見而被忘記。",
+              "highlight": "out of sight, out of mind"
+            },
+            {
+              "form": "has been",
+              "example": "The shopping list has been out of sight, out of mind for Ruby since it fell behind the desk.",
+              "exampleZh": "購物清單掉到書桌後面後，露比一直沒有再想起它。",
+              "highlight": "out of sight, out of mind"
+            },
+            {
+              "form": "may become",
+              "example": "The notice may become a case of out of sight, out of mind for the staff.",
+              "exampleZh": "通告對員工來說可能會變成眼不見、心不念的情況。",
+              "highlight": "out of sight, out of mind"
+            },
+            {
+              "form": "can be",
+              "example": "The night team can be out of sight, out of mind for managers who visit only during the day.",
+              "exampleZh": "對只在日間到訪的經理來說，夜班團隊可能因見不到而被忽略。",
+              "highlight": "out of sight, out of mind"
+            }
+          ]
+        },
+        "specificForms": [
+          {
+            "number": 1,
+            "titleEn": "Subject + Be + Proverb",
+            "titleZh": "主語＋be 動詞＋諺語",
+            "formula": "Person / object / problem + be + out of sight, out of mind + for somebody.",
+            "highlight": "out of sight, out of mind",
+            "descriptionEn": "The verb be changes according to the subject and time.",
+            "descriptionZh": "be 動詞會按照主語和時間而改變。",
+            "examples": [
+              {
+                "en": "The old files were out of sight, out of mind for the manager.",
+                "zh": "對經理來說，舊文件因不在眼前而被忘記。",
+                "highlight": "out of sight, out of mind"
+              }
+            ],
+            "notes": [
+              {
+                "en": "Possible be forms include is, are, was, were, has been, may be and can be.",
+                "zh": "可使用的 be 動詞形式包括 is、are、was、were、has been、may be 及 can be。"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "titleEn": "For + Person or Group",
+            "titleZh": "以人物或群體開首",
+            "formula": "For + person/group, + subject + be + out of sight, out of mind.",
+            "highlight": "out of sight, out of mind",
+            "descriptionEn": "The opening phrase clearly identifies who is forgetting or ignoring the subject.",
+            "descriptionZh": "開首短語清楚指出是誰忘記或忽略該人或事物。",
+            "examples": [
+              {
+                "en": "For the children, the sweets were out of sight, out of mind.",
+                "zh": "對孩子們來說，糖果看不見便不會想起。",
+                "highlight": "out of sight, out of mind"
+              }
+            ],
+            "notes": []
+          },
+          {
+            "number": 3,
+            "titleEn": "Once or When + Change",
+            "titleZh": "配合 once 或 when",
+            "formula": "Once / When + something disappears or is put away, + it + be + out of sight, out of mind.",
+            "highlight": "out of sight, out of mind",
+            "descriptionEn": "Use once or when to connect the change in visibility with the later loss of attention.",
+            "descriptionZh": "使用 once 或 when，把事物不再可見的轉變與其後關注減少連繫起來。",
+            "examples": [
+              {
+                "en": "Once the photograph was put in a box, it was out of sight, out of mind for Leo.",
+                "zh": "照片放進盒子後，里奧便把它忘記了。",
+                "highlight": "out of sight, out of mind"
+              }
+            ],
+            "notes": []
+          },
+          {
+            "number": 4,
+            "titleEn": "A Case of",
+            "titleZh": "a case of",
+            "formula": "It + be/become + a case of out of sight, out of mind.",
+            "highlight": "out of sight, out of mind",
+            "descriptionEn": "Use a case of when describing a clear example of the proverb.",
+            "descriptionZh": "當某個情況明顯反映這個諺語時，可以使用 a case of。",
+            "examples": [
+              {
+                "en": "Once the complaint was filed away, it became a case of out of sight, out of mind.",
+                "zh": "投訴被歸檔後，便成了眼不見、心不念的情況。",
+                "highlight": "out of sight, out of mind"
+              }
+            ],
+            "notes": []
+          },
+          {
+            "number": 5,
+            "titleEn": "Modal or Future Form",
+            "titleZh": "情態動詞或將來式",
+            "formula": "Subject + may / might / could / can / will + be/become + out of sight, out of mind.",
+            "highlight": "out of sight, out of mind",
+            "descriptionEn": "The modal must preserve the original degree of certainty.",
+            "descriptionZh": "情態動詞必須保留原句的確定程度。",
+            "examples": [
+              {
+                "en": "Without regular updates, the problem could become out of sight, out of mind.",
+                "zh": "如果沒有定期更新，人們可能會逐漸忘記這個問題。",
+                "highlight": "out of sight, out of mind"
+              }
+            ],
+            "notes": []
+          },
+          {
+            "number": 6,
+            "titleEn": "Negative or Limiting Use",
+            "titleZh": "否定或限制用法",
+            "formula": "Situation + does not have to mean + out of sight, out of mind.",
+            "highlight": "out of sight, out of mind",
+            "descriptionEn": "This form shows that the proverb describes a tendency, not an unavoidable result.",
+            "descriptionZh": "這個句式說明該諺語只是一種常見情況，並非必然結果。",
+            "examples": [
+              {
+                "en": "Moving away does not have to mean out of sight, out of mind.",
+                "zh": "搬走並不一定代表看不見便會忘記。",
+                "highlight": "out of sight, out of mind"
+              }
+            ],
+            "notes": []
+          },
+          {
+            "number": 7,
+            "titleEn": "Applying the Principle",
+            "titleZh": "運用這個原則",
+            "formula": "Subject + follow/use the principle of out of sight, out of mind + by + verb-ing.",
+            "highlight": "out of sight, out of mind",
+            "descriptionEn": "This form is especially suitable for avoiding sweets, unnecessary shopping, a mobile phone, games or other distractions.",
+            "descriptionZh": "這個句式尤其適合說明避開糖果、不必要的購物、手提電話、遊戲或其他令自己分心的事物。",
+            "examples": [
+              {
+                "en": "Zoe followed the principle of out of sight, out of mind by hiding the shopping application.",
+                "zh": "佐伊把購物應用程式收起，運用了眼不見、心不念的做法。",
+                "highlight": "out of sight, out of mind"
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "benefits": [
+          {
+            "number": 1,
+            "titleEn": "It Compresses a Cause-and-Effect Explanation",
+            "titleZh": "把因果解釋濃縮",
+            "en": "The proverb combines the ideas that something is no longer visible and is therefore forgotten in one concise expression.",
+            "zh": "這個諺語把「不再看見」和「因而忘記」兩個意思集中在一句簡潔的表達之中。",
+            "examples": [
+              {
+                "en": "Longer: The form was put inside a drawer. Because the manager could no longer see it, he gradually forgot about it.",
+                "zh": "較長版本：表格被放進抽屜。經理因為不再看見它，便逐漸忘記了。"
+              },
+              {
+                "en": "Proverb: The form was out of sight, out of mind for the manager once it was put in the drawer.",
+                "zh": "諺語版本：表格放進抽屜後，經理便因看不見而把它忘記。",
+                "highlight": "out of sight, out of mind"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "titleEn": "It Explains How Attention Works",
+            "titleZh": "說明注意力如何轉移",
+            "en": "People often pay more attention to things that are visible, nearby, regularly mentioned or frequently encountered.",
+            "zh": "它說明經常出現在眼前的事物通常更容易受到注意，而被收起、遮住或不再提及的事物則容易被忘記。",
+            "examples": []
+          },
+          {
+            "number": 3,
+            "titleEn": "It Can Criticise Neglect",
+            "titleZh": "可以批評忽視問題的行為",
+            "en": "Problems in distant places may receive little attention. The proverb allows a speaker to criticise this behaviour clearly and compactly.",
+            "zh": "偏遠地方的問題可能因為不在大眾眼前而被忽略。這個諺語可以簡潔地批評這種現象。",
+            "examples": []
+          },
+          {
+            "number": 4,
+            "titleEn": "It Can Describe a Practical Strategy",
+            "titleZh": "可以說明實際策略",
+            "en": "People sometimes put sweets, shopping applications or mobile phones away so that they think about them less.",
+            "zh": "人們有時會把糖果、購物應用程式或電話收起來，減少自己想起它們的機會。",
+            "examples": []
+          },
+          {
+            "number": 5,
+            "titleEn": "It Adds a Memorable Conclusion",
+            "titleZh": "提供容易記憶的總結",
+            "en": "Instead of repeating a long explanation, the speaker can summarise the situation with one balanced proverb. Use it only when absence or lack of visibility genuinely causes forgetting or reduced attention.",
+            "zh": "說話者可以使用這個結構平衡、容易記憶的諺語，總結一個較長的情況。不過，只有當「不在眼前」確實導致忘記或減少關注時，才應使用。",
+            "examples": []
+          }
+        ],
+        "origin": {
+          "statusEn": "Well Documented; Exact First Use Unknown",
+          "statusZh": "有較充分記錄；確切首次用法不明",
+          "history": [
+            {
+              "titleEn": "The Historical Background",
+              "titleZh": "歷史背景",
+              "en": "A close form appears in an English translation of Thomas à Kempis from around 1450: “Whan Man is oute of sight, son be he passith oute of mynde.” In 1546, John Heywood recorded the shorter form “Out of sight out of minde” in his collection of English proverbs. Heywood was collecting sayings already known to speakers, so the record does not prove that he personally invented the proverb.",
+              "zh": "一個十分接近現代版本的說法，約於1450年的 Thomas à Kempis 英文譯本中出現。到了1546年，John Heywood 在其英語諺語集內記錄了較精簡的「Out of sight out of minde」。Heywood 的工作主要是收集當時已有的諺語，因此不能單憑這項記錄便認定他創造了這個說法。"
+            },
+            {
+              "titleEn": "How the Meaning Developed",
+              "titleZh": "意思如何演變",
+              "en": "The wording gradually settled into its modern spelling and punctuation. The central idea remained the same: something that is no longer seen can easily be forgotten.",
+              "zh": "字詞的拼法和標點後來逐漸變成現代形式，但核心意思一直相同：不再看見的事物，很容易逐漸被人忘記。"
+            }
+          ],
+          "memoryEn": "When something leaves your sight, it may also leave your mind.",
+          "memoryZh": "當某件事物離開你的視線，也可能逐漸離開你的思想。"
+        },
+        "rules": [
+          {
+            "number": 1,
+            "titleEn": "Absence Must Cause Reduced Attention",
+            "titleZh": "不在眼前必須導致關注減少",
+            "en": "Use the proverb only when absence or reduced contact causes the forgetting. Do not use it when the cause is unrelated, such as extreme tiredness.",
+            "zh": "如果忘記事情的原因與「看不見或不再接觸」無關，便不應使用這個諺語。",
+            "examples": [
+              {
+                "en": "Suitable: The bill was out of sight, out of mind for Marcus.",
+                "zh": "適合：帳單被其他文件遮住，因此馬庫斯把它忘記。",
+                "highlight": "out of sight, out of mind"
+              },
+              {
+                "en": "Unsuitable: Marcus forgot the bill because he was extremely tired.",
+                "zh": "不適合：馬庫斯因為非常疲倦而忘記帳單。"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "titleEn": "It Does Not Mean ‘No Longer Exists’",
+            "titleZh": "不表示「已不存在」",
+            "en": "The proverb means that something is forgotten or receives less attention. It does not mean that the thing has disappeared from the world.",
+            "zh": "這個諺語表示某件事被忘記或不再受到注意，而不是表示該事物已經不存在。",
+            "examples": []
+          },
+          {
+            "number": 3,
+            "titleEn": "Being Hidden Is Not Enough",
+            "titleZh": "只是被遮住並不足夠",
+            "en": "A temporarily hidden object does not automatically justify the proverb. The context must also show that people therefore forget, ignore or stop thinking about it.",
+            "zh": "只是暫時看不見某件東西，不代表一定可以使用這個諺語。語境還必須說明人們因此忘記、忽略或不再想起它。",
+            "examples": [
+              {
+                "en": "Literal situation only: The cat is under the bed, so I cannot see it.",
+                "zh": "只有字面情況：貓在床下，所以我看不見牠。"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "titleEn": "Preserve Who Forgets",
+            "titleZh": "保留誰忘記事物",
+            "en": "Do not change the person or group who forgets the subject.",
+            "zh": "不可把忘記事物的人由原句中的人物改成另一個人。",
+            "examples": [
+              {
+                "en": "Source: The manager forgot the complaint after it was filed away.",
+                "zh": "原句：投訴被歸檔後，經理把它忘記。"
+              },
+              {
+                "en": "Correct: The complaint was out of sight, out of mind for the manager.",
+                "zh": "正確：投訴被歸檔後，經理便把它拋諸腦後。",
+                "highlight": "out of sight, out of mind"
+              },
+              {
+                "en": "Incorrect: The complaint was out of sight, out of mind for the customer.",
+                "zh": "錯誤：投訴被歸檔後，顧客便把它拋諸腦後。",
+                "highlight": "out of sight, out of mind"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "titleEn": "Preserve Tense and Certainty",
+            "titleZh": "保留時態及確定程度",
+            "en": "Do not turn a possibility into a completed fact.",
+            "zh": "錯誤答案不可把「可能發生」改成「已經發生」。",
+            "examples": [
+              {
+                "en": "Source: The staff may forget the notice.",
+                "zh": "原句：員工可能會忘記通告。"
+              },
+              {
+                "en": "Correct: The notice may become out of sight, out of mind for the staff.",
+                "zh": "正確：通告對員工來說可能會變成眼不見、心不念。",
+                "highlight": "out of sight, out of mind"
+              },
+              {
+                "en": "Incorrect: The notice was out of sight, out of mind for the staff.",
+                "zh": "錯誤：通告已被員工拋諸腦後。",
+                "highlight": "out of sight, out of mind"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "titleEn": "Do Not Repeat the Meaning",
+            "titleZh": "不要重複諺語已表達的意思",
+            "en": "Keep the context, but do not add another clause that merely says the person forgot it.",
+            "zh": "較好的答案會保留情境，但不再次解釋「他忘記了電郵」。",
+            "examples": [
+              {
+                "en": "Poor: The email was out of sight, out of mind for Ethan, so he forgot about it.",
+                "zh": "欠佳：電郵對伊森來說已是眼不見、心不念，所以他忘記了它。",
+                "highlight": "out of sight, out of mind"
+              },
+              {
+                "en": "Better: The email was out of sight, out of mind for Ethan after he moved it to another folder.",
+                "zh": "較好：伊森把電郵移到另一個資料夾後，便因不再看見而忘記了它。",
+                "highlight": "out of sight, out of mind"
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "titleEn": "It Is Not Always True",
+            "titleZh": "這個說法並非永遠正確",
+            "en": "Some people forget absent friends, while other people miss them more. The proverb expresses one possible human reaction, not a scientific law.",
+            "zh": "有些人會逐漸忘記不在身邊的朋友，但另一些人可能會更加掛念他們。這個諺語只表達一種可能的人類反應，並不是科學定律。",
+            "examples": []
+          },
+          {
+            "number": 8,
+            "titleEn": "Do Not Use It Carelessly About People",
+            "titleZh": "談及人物時不可冷漠使用",
+            "en": "It may appropriately criticise neglect, but saying it directly to a hurt friend may sound uncaring.",
+            "zh": "這個諺語可以用來批評忽視別人的行為，但直接對一位受傷的朋友說，可能顯得冷漠。",
+            "examples": [
+              {
+                "en": "Critical and appropriate: The manager treated the night team as out of sight, out of mind.",
+                "zh": "批評式而適合：經理把夜班團隊當作看不見便不用理會。",
+                "highlight": "out of sight, out of mind"
+              },
+              {
+                "en": "Potentially insensitive: You moved away, so you are out of sight, out of mind.",
+                "zh": "可能顯得冷漠：你搬走了，所以我便把你忘記。",
+                "highlight": "out of sight, out of mind"
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "titleEn": "Do Not Confuse It with the Opposite Idea",
+            "titleZh": "不要與相反意思混淆",
+            "en": "Out of sight, out of mind says that distance or absence causes people to forget. Absence makes the heart grow fonder says that distance or absence makes affection stronger.",
+            "zh": "out of sight, out of mind 表示不再見面或接觸後，人們逐漸忘記對方；absence makes the heart grow fonder 則表示分開後反而更加掛念對方。兩個諺語表達相反的可能反應。",
+            "examples": [
+              {
+                "en": "out of sight, out of mind: distance or absence causes people to forget",
+                "zh": "眼不見，心不念：距離或缺席令人逐漸忘記",
+                "highlight": "out of sight, out of mind"
+              },
+              {
+                "en": "absence makes the heart grow fonder: distance or absence makes affection stronger",
+                "zh": "小別勝新婚：距離或分開令感情更深"
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "titleEn": "Use the Exact Punctuation",
+            "titleZh": "使用正確標點",
+            "en": "The comma shows the balance between the two halves.",
+            "zh": "逗號顯示兩個部分之間的平衡，必須保留。",
+            "examples": [
+              {
+                "en": "Correct: Out of sight, out of mind.",
+                "zh": "正確：眼不見，心不念。",
+                "highlight": "out of sight, out of mind"
+              },
+              {
+                "en": "Incorrect: Out of sight out of mind.",
+                "zh": "錯誤：省略中間的逗號。",
+                "highlight": "out of sight out of mind"
+              }
+            ]
+          }
+        ],
+        "instructions": {
+          "en": "Rewrite or respond to every item using the exact proverb “out of sight, out of mind”. Preserve the original person, object, situation, tense and certainty. Do not repeat the meaning of the proverb after using it. Begin with the supplied starter.",
+          "zh": "請使用完整諺語「out of sight, out of mind」改寫句子或完成回應。保留原句的人物、事物、情境、時態及確定程度；使用諺語後，不要再次重複「因看不見而忘記」的意思，並以指定開首作答。"
+        },
+        "questions": [
+          {
+            "id": "proverb-01-q01",
+            "number": 1,
+            "sourcePage": 17,
+            "answerSourcePage": 27,
+            "prompt": "Noah put his model car in a cupboard and soon stopped thinking about it.",
+            "promptZh": "諾亞把模型車放進櫃子後，很快便不再想起它。",
+            "starter": "Once",
+            "answer": "Once Noah put the model car in a cupboard, it was out of sight, out of mind for him.",
+            "answerZh": "諾亞把模型車放進櫃子後，對他來說便是「眼不見，心不念」。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q02",
+            "number": 2,
+            "sourcePage": 17,
+            "answerSourcePage": 27,
+            "prompt": "Grace moved to another school. Some of her old classmates gradually stopped thinking about her.",
+            "promptZh": "格蕾絲轉到另一間學校。一些舊同學漸漸不再想起她。",
+            "starter": "Grace",
+            "answer": "Grace was soon out of sight, out of mind for some of her old classmates after she moved to another school.",
+            "answerZh": "格蕾絲轉校後，一些舊同學很快便把她拋諸腦後。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q03",
+            "number": 3,
+            "sourcePage": 17,
+            "answerSourcePage": 27,
+            "prompt": "Oliver’s homework note slipped under his books, so he completely forgot it.",
+            "promptZh": "奧利弗的功課便條滑到書本下面，因此他完全忘記了它。",
+            "starter": "Once",
+            "answer": "Once Oliver’s homework note slipped under his books, it was out of sight, out of mind for him.",
+            "answerZh": "奧利弗的功課便條滑到書本下面後，他便因看不見而把它忘記。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q04",
+            "number": 4,
+            "sourcePage": 17,
+            "answerSourcePage": 27,
+            "prompt": "The parents put the sweets in the top cupboard, and the children stopped asking for them.",
+            "promptZh": "父母把糖果放到高櫃裏，孩子們便不再追問糖果。",
+            "starter": "For",
+            "answer": "For the children, the sweets in the top cupboard were out of sight, out of mind.",
+            "answerZh": "對孩子們來說，放在高櫃裏的糖果看不見便不再想起。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q05",
+            "number": 5,
+            "sourcePage": 17,
+            "answerSourcePage": 27,
+            "prompt": "Chloe’s old family photo was put in a box. She soon stopped thinking about it.",
+            "promptZh": "克洛伊的舊家庭照片被放進盒子。她很快便不再想起它。",
+            "starter": "Once",
+            "answer": "Once the old family photo was put in a box, it became a case of out of sight, out of mind for Chloe.",
+            "answerZh": "舊家庭照片放進盒子後，克洛伊便把它拋諸腦後。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q06",
+            "number": 6,
+            "sourcePage": 17,
+            "answerSourcePage": 27,
+            "prompt": "The shop manager moved the broken chair to the back room and then forgot to repair it.",
+            "promptZh": "店舖經理把破椅子移到後房，之後便忘記修理它。",
+            "starter": "The",
+            "answer": "The broken chair was out of sight, out of mind for the shop manager once it was moved to the back room.",
+            "answerZh": "破椅子移到後房後，店舖經理便因看不見而忘了它。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q07",
+            "number": 7,
+            "sourcePage": 18,
+            "answerSourcePage": 27,
+            "prompt": "The class poster was taken down, and most students stopped thinking about its message.",
+            "promptZh": "班級海報被取下後，大部分學生便不再想起海報上的訊息。",
+            "starter": "Once",
+            "answer": "Once the class poster was taken down, its message was out of sight, out of mind for most students.",
+            "answerZh": "班級海報被取下後，大部分學生便不再把海報上的訊息放在心上。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q08",
+            "number": 8,
+            "sourcePage": 18,
+            "answerSourcePage": 28,
+            "prompt": "Ethan moved an old email to another folder. A few days later, he forgot to reply.",
+            "promptZh": "伊森把一封舊電郵移到另一個資料夾。數天後，他忘記了回覆。",
+            "starter": "The",
+            "answer": "The old email was out of sight, out of mind for Ethan after he moved it to another folder.",
+            "answerZh": "伊森把舊電郵移到另一個資料夾後，便因不再看到它而忘記了。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q09",
+            "number": 9,
+            "sourcePage": 18,
+            "answerSourcePage": 28,
+            "prompt": "Lily’s plant was hidden behind the curtain, so she forgot to water it.",
+            "promptZh": "莉莉的植物被窗簾遮住，因此她忘記了澆水。",
+            "starter": "For",
+            "answer": "For Lily, the plant behind the curtain was out of sight, out of mind.",
+            "answerZh": "對莉莉來說，窗簾後的植物看不見便不會想起。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q10",
+            "number": 10,
+            "sourcePage": 18,
+            "answerSourcePage": 28,
+            "prompt": "Many city residents never visit the distant village. They soon stopped paying attention to its rubbish problem.",
+            "promptZh": "許多城市居民從不到訪那個偏遠村莊。他們很快便不再關注當地的垃圾問題。",
+            "starter": "The",
+            "answer": "The rubbish problem in the distant village was out of sight, out of mind for many city residents.",
+            "answerZh": "偏遠村莊的垃圾問題不在眼前，許多城市居民便不再放在心上。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q11",
+            "number": 11,
+            "sourcePage": 18,
+            "answerSourcePage": 28,
+            "prompt": "Daniel often forgets food that is kept at the back of the fridge.",
+            "promptZh": "丹尼爾經常忘記放在雪櫃後方的食物。",
+            "starter": "Food",
+            "answer": "Food at the back of the fridge is often out of sight, out of mind for Daniel.",
+            "answerZh": "對丹尼爾來說，雪櫃後方的食物往往看不見便忘記。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q12",
+            "number": 12,
+            "sourcePage": 19,
+            "answerSourcePage": 28,
+            "prompt": "Ava left her bicycle in the shed for months. She forgot about it until she found it again.",
+            "promptZh": "艾娃把單車放在小屋內數個月。她一直忘記了它，直至再次找到它。",
+            "starter": "The",
+            "answer": "The bicycle in the shed was out of sight, out of mind for Ava until she found it again.",
+            "answerZh": "艾娃把單車放在小屋裏後便把它忘記，直到再次找到它。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q13",
+            "number": 13,
+            "sourcePage": 19,
+            "answerSourcePage": 28,
+            "prompt": "Marcus’s bill has been under a pile of papers, and he has forgotten to pay it.",
+            "promptZh": "馬庫斯的帳單一直放在一疊文件下面，而他已忘記繳付。",
+            "starter": "Since",
+            "answer": "Since the bill was placed under a pile of papers, it has been out of sight, out of mind for Marcus.",
+            "answerZh": "帳單放在一疊文件下面後，馬庫斯一直因看不見而沒有想起。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q14",
+            "number": 14,
+            "sourcePage": 19,
+            "answerSourcePage": 28,
+            "prompt": "I know I will forget the letter if I put it in a drawer.",
+            "promptZh": "我知道，如果把信放進抽屜，我便會忘記它。",
+            "starter": "If",
+            "answer": "If I put the letter in a drawer, it will be out of sight, out of mind for me.",
+            "answerZh": "如果我把信放進抽屜，它對我來說便會看不見、想不起。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q15",
+            "number": 15,
+            "sourcePage": 19,
+            "answerSourcePage": 28,
+            "prompt": "I think much less about my phone while it is kept inside my bag during study.",
+            "promptZh": "溫習時把電話放在袋裏，我便較少想起它。",
+            "starter": "For",
+            "answer": "For me, a phone kept in my bag can be out of sight, out of mind while I study.",
+            "answerZh": "對我來說，溫習時把電話放在袋裏，便較容易不再想起它。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q16",
+            "number": 16,
+            "sourcePage": 19,
+            "answerSourcePage": 29,
+            "prompt": "A: Why do you keep the biscuits in a closed cupboard?\nB: I forget about them when I cannot see them.",
+            "promptZh": "甲：你為甚麼把餅乾放在關上的櫃子裏？\n乙：我看不見它們時，便會忘記它們。",
+            "starter": "For",
+            "answer": "For me, biscuits in a closed cupboard are out of sight, out of mind.",
+            "answerZh": "對我來說，餅乾放在關上的櫃子裏，便是眼不見、心不念。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q17",
+            "number": 17,
+            "sourcePage": 19,
+            "answerSourcePage": 29,
+            "prompt": "A: Why did the class forget the science project so quickly?\nB: Its display was removed from the hall.",
+            "promptZh": "甲：為甚麼全班這麼快便忘記了那個科學專題？\n乙：因為它的展覽已從大堂移走。",
+            "starter": "Once",
+            "answer": "Once the display was removed from the hall, the science project was out of sight, out of mind for the class.",
+            "answerZh": "展覽從大堂移走後，這個科學專題便很快被全班忘記。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q18",
+            "number": 18,
+            "sourcePage": 20,
+            "answerSourcePage": 29,
+            "prompt": "The manager rarely checked the bottom drawer, so the files kept there were often forgotten.",
+            "promptZh": "經理很少檢查底層抽屜，因此放在裏面的文件經常被忘記。",
+            "starter": "For",
+            "answer": "For the manager, files in the bottom drawer were often out of sight, out of mind.",
+            "answerZh": "對經理來說，底層抽屜裏的文件常常因看不見而被忘記。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q19",
+            "number": 19,
+            "sourcePage": 20,
+            "answerSourcePage": 29,
+            "prompt": "Ruby’s shopping list fell behind the desk. She has not thought about it since then.",
+            "promptZh": "露比的購物清單掉到書桌後面。自此之後，她便沒有再想起它。",
+            "starter": "The",
+            "answer": "The shopping list has been out of sight, out of mind for Ruby since it fell behind the desk.",
+            "answerZh": "購物清單掉到書桌後面後，露比一直沒有再想起它。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q20",
+            "number": 20,
+            "sourcePage": 20,
+            "answerSourcePage": 29,
+            "prompt": "The staff may forget the notice if it is removed from the wall.",
+            "promptZh": "如果通告從牆上移走，員工可能會忘記它。",
+            "starter": "Unless",
+            "answer": "Unless the notice stays on the wall, it may become a case of out of sight, out of mind for the staff.",
+            "answerZh": "除非通告一直留在牆上，否則員工可能會因看不見而忘記它。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q21",
+            "number": 21,
+            "sourcePage": 20,
+            "answerSourcePage": 29,
+            "prompt": "A: Do your old teammates still send you messages?\nB: Not often. Since I left the club, they seem to have forgotten me.",
+            "promptZh": "甲：你的舊隊友仍然會傳訊息給你嗎？\n乙：不常會。我離開球會後，他們似乎已把我忘記。",
+            "starter": "Since",
+            "answer": "Since I left the club, I seem to be out of sight, out of mind for my old teammates.",
+            "answerZh": "我離開球會後，舊隊友似乎因不再見到我而把我忘記。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q22",
+            "number": 22,
+            "sourcePage": 21,
+            "answerSourcePage": 29,
+            "prompt": "After I turned off the application’s notifications, I stopped thinking about opening it.",
+            "promptZh": "我關掉應用程式的通知後，便不再經常想起要打開它。",
+            "starter": "For",
+            "answer": "For me, the app was out of sight, out of mind once I turned off its notifications.",
+            "answerZh": "我關掉通知後，這個應用程式便不再出現在眼前，也被我拋諸腦後。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q23",
+            "number": 23,
+            "sourcePage": 21,
+            "answerSourcePage": 30,
+            "prompt": "The customer’s complaint was filed away. The manager then stopped thinking about it.",
+            "promptZh": "顧客的投訴被歸檔後，經理便不再想起它。",
+            "starter": "Once",
+            "answer": "Once the customer’s complaint was filed away, it became a case of out of sight, out of mind for the manager.",
+            "answerZh": "顧客投訴被歸檔後，經理便因看不見而不再放在心上。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q24",
+            "number": 24,
+            "sourcePage": 21,
+            "answerSourcePage": 30,
+            "prompt": "A: Why was Ben’s library book returned late?\nB: It fell behind the shelf, and he forgot about it.",
+            "promptZh": "甲：為甚麼本遲了歸還圖書館書籍？\n乙：那本書掉到書架後面，而他忘記了它。",
+            "starter": "The",
+            "answer": "The library book was out of sight, out of mind for Ben after it fell behind the shelf.",
+            "answerZh": "圖書館書掉到書架後面後，本便因看不見而把它忘記。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q25",
+            "number": 25,
+            "sourcePage": 21,
+            "answerSourcePage": 30,
+            "prompt": "Harper does not think about her winter clothes during summer because they are kept in the top cupboard.",
+            "promptZh": "夏天時，哈珀不會想起放在高櫃裏的冬季衣物。",
+            "starter": "Winter",
+            "answer": "Winter clothes in the top cupboard are out of sight, out of mind for Harper during summer.",
+            "answerZh": "夏天時，哈珀不會看到高櫃裏的冬季衣物，也不會想起它們。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q26",
+            "number": 26,
+            "sourcePage": 21,
+            "answerSourcePage": 30,
+            "prompt": "Visitors cannot see the litter behind the beach wall, so they rarely think about the problem.",
+            "promptZh": "遊客看不到海灘圍牆後的垃圾，因此很少想起這個問題。",
+            "starter": "For",
+            "answer": "For many visitors, the litter behind the beach wall is out of sight, out of mind.",
+            "answerZh": "對很多遊客來說，海灘圍牆後的垃圾看不見便不會放在心上。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q27",
+            "number": 27,
+            "sourcePage": 22,
+            "answerSourcePage": 30,
+            "prompt": "A: Why did you put the game controller in the drawer?\nB: I do not want to think about playing games while I revise.",
+            "promptZh": "甲：你為甚麼把遊戲手掣放進抽屜？\n乙：溫習時，我不想經常想着玩遊戲。",
+            "starter": "For",
+            "answer": "For me, the game controller is out of sight, out of mind while it is in the drawer.",
+            "answerZh": "對我來說，溫習時把遊戲手掣放進抽屜，便能眼不見、心不念。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q28",
+            "number": 28,
+            "sourcePage": 22,
+            "answerSourcePage": 30,
+            "prompt": "Even after Priya moved abroad, Sam called her every week and never forgot her.",
+            "promptZh": "即使普莉雅搬到外國，森姆仍每星期致電給她，從沒有忘記她。",
+            "starter": "For",
+            "answer": "For Sam, Priya’s move did not mean out of sight, out of mind.",
+            "answerZh": "對森姆來說，普莉雅搬到外國並不代表看不見便會忘記。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q29",
+            "number": 29,
+            "sourcePage": 22,
+            "answerSourcePage": 30,
+            "prompt": "After the warning sign was removed, the building manager forgot about the unfinished repair.",
+            "promptZh": "警告牌被移走後，大廈經理忘記了尚未完成的維修。",
+            "starter": "The",
+            "answer": "The unfinished repair was out of sight, out of mind for the building manager once the warning sign was removed.",
+            "answerZh": "警告牌被移走後，大廈經理便把未完成的維修忘記了。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q30",
+            "number": 30,
+            "sourcePage": 22,
+            "answerSourcePage": 30,
+            "prompt": "The teacher said the pupils stopped thinking about their reading logs after the books were put away.",
+            "promptZh": "老師說，閱讀紀錄冊被收起後，學生便不再想起它們。",
+            "starter": "The",
+            "answer": "The teacher said that once the reading logs were put away, they were out of sight, out of mind for the pupils.",
+            "answerZh": "老師說，閱讀紀錄冊收起後，學生便因看不見而不再想起。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q31",
+            "number": 31,
+            "sourcePage": 22,
+            "answerSourcePage": 31,
+            "prompt": "Although Olivia meant to reply, newer messages covered the message and she soon forgot it.",
+            "promptZh": "雖然奧莉維亞本來打算回覆，但較新的訊息把它蓋過，她很快便忘記了。",
+            "starter": "Although",
+            "answer": "Although Olivia meant to reply, the message was soon out of sight, out of mind for her after newer messages covered it.",
+            "answerZh": "雖然奧莉維亞本來打算回覆，但新訊息把它蓋過後，她很快便忘記了。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q32",
+            "number": 32,
+            "sourcePage": 23,
+            "answerSourcePage": 31,
+            "prompt": "The spare keys were kept in a box at the back of the cupboard, so the family forgot where they were.",
+            "promptZh": "後備鎖匙放在櫃子深處的盒子裏，因此家人忘記了它們的位置。",
+            "starter": "Because",
+            "answer": "Because the spare keys were kept in a box at the back of the cupboard, they were out of sight, out of mind for the family.",
+            "answerZh": "後備鎖匙放在櫃子深處的盒子裏，家人便因看不見而忘記了。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q33",
+            "number": 33,
+            "sourcePage": 23,
+            "answerSourcePage": 31,
+            "prompt": "The family cares for the front garden every week, but they often forget the small garden behind the house because they rarely see it.",
+            "promptZh": "家人每星期都照顧前花園，但因為很少看見屋後的小花園，所以經常忘記它。",
+            "starter": "The",
+            "answer": "The front garden gets care every week, but the small garden behind the house is often out of sight, out of mind for the family.",
+            "answerZh": "前花園每星期都有人照顧，但屋後的小花園常因不在眼前而被家人忽略。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q34",
+            "number": 34,
+            "sourcePage": 23,
+            "answerSourcePage": 31,
+            "prompt": "A: Why did passengers stop using the lost-property form?\nB: It disappeared from the station website.",
+            "promptZh": "甲：為甚麼乘客不再使用失物申報表格？\n乙：因為它從車站網站消失了。",
+            "starter": "Once",
+            "answer": "Once the lost-property form disappeared from the station website, it was out of sight, out of mind for most passengers.",
+            "answerZh": "失物申報表格從車站網站消失後，大部分乘客便不再想起它。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q35",
+            "number": 35,
+            "sourcePage": 23,
+            "answerSourcePage": 31,
+            "prompt": "The managers regularly visited the main office. Workers in the far office rarely received calls and felt forgotten.",
+            "promptZh": "經理經常到訪主要辦公室。偏遠辦公室的員工很少收到來電，並感到被遺忘。",
+            "starter": "For",
+            "answer": "For the managers, the workers at the far office seemed to be out of sight, out of mind.",
+            "answerZh": "對管理層來說，偏遠辦公室的員工似乎因不常見面而被遺忘。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q36",
+            "number": 36,
+            "sourcePage": 23,
+            "answerSourcePage": 31,
+            "prompt": "People living far away may stop thinking about the flood problem if they receive no regular updates.",
+            "promptZh": "如果沒有收到定期更新，住在遠方的人可能會不再想起水災問題。",
+            "starter": "Without",
+            "answer": "Without regular updates, the flood problem could become a case of out of sight, out of mind for people living far away.",
+            "answerZh": "如果沒有定期更新，遠方的人可能會把水災問題拋諸腦後。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q37",
+            "number": 37,
+            "sourcePage": 24,
+            "answerSourcePage": 31,
+            "prompt": "Mr Wong may forget his daily medicine if the reminder card is removed.",
+            "promptZh": "如果提示卡被移走，黃先生可能會忘記每天服藥。",
+            "starter": "If",
+            "answer": "If the reminder card is removed, Mr Wong’s daily medicine may become a case of out of sight, out of mind.",
+            "answerZh": "如果移走提示卡，黃先生可能會因不再看到提醒而忘記每天服藥。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q38",
+            "number": 38,
+            "sourcePage": 24,
+            "answerSourcePage": 32,
+            "prompt": "A: Will I forget my old neighbours after I move away?\nB: Not necessarily. You can continue calling them.",
+            "promptZh": "甲：我搬走後，會不會忘記以前的鄰居？\n乙：不一定。你可以繼續致電給他們。",
+            "starter": "Moving",
+            "answer": "Moving away does not have to mean out of sight, out of mind if you stay in contact.",
+            "answerZh": "只要保持聯絡，搬走並不一定會變成眼不見、心不念。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q39",
+            "number": 39,
+            "sourcePage": 24,
+            "answerSourcePage": 32,
+            "prompt": "The children forgot the toys at the back of the cupboard until they cleaned the room.",
+            "promptZh": "孩子們忘記了櫃子後方的玩具，直至他們整理房間。",
+            "starter": "The",
+            "answer": "The toys at the back of the cupboard were out of sight, out of mind until the children cleaned the room.",
+            "answerZh": "櫃子後方的玩具一直因看不見而被孩子們忘記，直至他們整理房間。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q40",
+            "number": 40,
+            "sourcePage": 24,
+            "answerSourcePage": 32,
+            "prompt": "The reporter said that city residents often ignore problems in small villages because they never see them.",
+            "promptZh": "記者表示，城市居民因為從未看見小村莊的問題，所以經常忽略它們。",
+            "starter": "The",
+            "answer": "The reporter warned that problems in small villages can be out of sight, out of mind for people in large cities.",
+            "answerZh": "記者警告，大城市居民可能會因看不到而忽略小村莊的問題。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q41",
+            "number": 41,
+            "sourcePage": 25,
+            "answerSourcePage": 32,
+            "prompt": "After the school moved the suggestion box behind a door, the staff stopped checking the pupils’ ideas.",
+            "promptZh": "學校把意見箱移到門後後，員工便不再查看學生的意見。",
+            "starter": "Once",
+            "answer": "Once the suggestion box was moved behind a door, pupils’ ideas were out of sight, out of mind for the staff.",
+            "answerZh": "意見箱移到門後後，學生的意見便因不在眼前而被員工忘記。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q42",
+            "number": 42,
+            "sourcePage": 25,
+            "answerSourcePage": 32,
+            "prompt": "A: Why does the night team feel forgotten?\nB: The managers visit only during the day and hardly ever see them.",
+            "promptZh": "甲：為甚麼夜班團隊覺得自己被遺忘？\n乙：經理只在日間到訪，幾乎從不見到他們。",
+            "starter": "For",
+            "answer": "For managers who visit only during the day, the night team can be out of sight, out of mind.",
+            "answerZh": "對只在日間到訪的經理來說，夜班團隊可能因見不到而被忽略。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q43",
+            "number": 43,
+            "sourcePage": 25,
+            "answerSourcePage": 32,
+            "prompt": "Zoe removed the shopping application from her home screen, and she then thought less often about online shopping.",
+            "promptZh": "佐伊把購物應用程式從主畫面移除，之後便較少想起網上購物。",
+            "starter": "Zoe",
+            "answer": "Zoe followed the principle of out of sight, out of mind by removing the shopping app from her home screen.",
+            "answerZh": "佐伊把購物應用程式從主畫面移除，運用了眼不見、心不念的做法。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q44",
+            "number": 44,
+            "sourcePage": 25,
+            "answerSourcePage": 32,
+            "prompt": "The safety notice was taken down, and the workers forgot about the loose step. Someone later nearly fell.",
+            "promptZh": "安全告示被取下後，工人忘記了鬆脫的梯級。其後有人差點跌倒。",
+            "starter": "Once",
+            "answer": "Once the safety notice was taken down, the loose step was out of sight, out of mind for the workers until someone nearly fell.",
+            "answerZh": "安全告示被取下後，工人便忘記了鬆脫的梯級，直到有人差點跌倒。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q45",
+            "number": 45,
+            "sourcePage": 25,
+            "answerSourcePage": 33,
+            "prompt": "Aaron moved away and rarely appeared in the group chat. Some friends gradually stopped thinking about him.",
+            "promptZh": "亞倫搬走後，很少在群組對話出現。一些朋友逐漸不再想起他。",
+            "starter": "For",
+            "answer": "For some of his friends, Aaron was gradually out of sight, out of mind after he moved and rarely appeared in the group chat.",
+            "answerZh": "亞倫搬走後很少在群組對話出現，一些朋友便逐漸把他忘記。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q46",
+            "number": 46,
+            "sourcePage": 26,
+            "answerSourcePage": 33,
+            "prompt": "The charity must continue sharing updates, or its supporters may forget the families it helps.",
+            "promptZh": "慈善機構必須繼續發放最新消息，否則支持者可能會忘記受助家庭。",
+            "starter": "Unless",
+            "answer": "Unless the charity keeps sharing updates, the families it helps may become out of sight, out of mind for its supporters.",
+            "answerZh": "除非慈善機構繼續發放最新消息，支持者可能會把受助家庭拋諸腦後。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q47",
+            "number": 47,
+            "sourcePage": 26,
+            "answerSourcePage": 33,
+            "prompt": "A: Once the boxes are moved into storage, will the manager remember to search for the missing items?\nB: Maybe not. He rarely thinks about things he cannot see.",
+            "promptZh": "甲：箱子移到貨倉後，經理仍會記得尋找遺失物品嗎？\n乙：可能不會。他很少想起自己看不到的東西。",
+            "starter": "The",
+            "answer": "The missing items may become a case of out of sight, out of mind for the manager once the boxes are in storage.",
+            "answerZh": "箱子放進貨倉後，遺失物品可能會因不在眼前而被經理忘記。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q48",
+            "number": 48,
+            "sourcePage": 26,
+            "answerSourcePage": 33,
+            "prompt": "Some people miss their friends more when they are away, but other people slowly forget them.",
+            "promptZh": "有些人在朋友不在身邊時會更加掛念他們，但另一些人則會逐漸忘記他們。",
+            "starter": "Some",
+            "answer": "Some people miss absent friends more, but for others, absence means out of sight, out of mind.",
+            "answerZh": "有些人會更加掛念不在身邊的朋友，但對另一些人來說，離開視線便會淡忘。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q49",
+            "number": 49,
+            "sourcePage": 26,
+            "answerSourcePage": 33,
+            "prompt": "A community worker warned that older neighbours who rarely leave home may gradually be forgotten by other local residents.",
+            "promptZh": "一名社區工作者警告，甚少外出的年長鄰居可能會逐漸被其他居民遺忘。",
+            "starter": "The",
+            "answer": "The community worker warned that older neighbours who rarely leave home can be out of sight, out of mind for the rest of the community.",
+            "answerZh": "社區工作者警告，甚少外出的年長鄰居可能會被社區其他人忽略。",
+            "highlight": "out of sight, out of mind"
+          },
+          {
+            "id": "proverb-01-q50",
+            "number": 50,
+            "sourcePage": 26,
+            "answerSourcePage": 33,
+            "prompt": "The families were still fixing their homes after the flood. However, when the flood disappeared from the news, many people stopped thinking about them.",
+            "promptZh": "水災後，這些家庭仍在修理房屋。然而，當水災不再出現在新聞後，許多人便不再想起他們。",
+            "starter": "Even",
+            "answer": "Even though the families were still fixing their homes, they were soon out of sight, out of mind for many people once the flood disappeared from the news.",
+            "answerZh": "即使這些家庭仍在修理房屋，水災不再出現在新聞後，許多人很快便把他們拋諸腦後。",
+            "highlight": "out of sight, out of mind"
+          }
+        ]
+      }
+    ]
+  };
+
+  window.EDMUND_PROVERB_SYSTEM_DATA = Object.freeze(data);
+})();

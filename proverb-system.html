@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
-  <meta name="description" content="EdmundEducation 學生英文慣用語 Idiom System 學習系統">
+  <meta name="description" content="EdmundEducation 學生諺語 Proverb 學生使用系統">
   <meta name="theme-color" content="#e84a1b">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="EdmundEducation">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-idiom-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
-  <title>英文慣用語學習系統｜EdmundEducation</title>
-  <link rel="canonical" href="https://edmundeducation.com/idiom-system.html">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-proverb-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
+  <title>諺語學生使用系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/proverb-system.html">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
@@ -20,20 +20,20 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="idiom-system.css?v=20260727-3">
+  <link rel="stylesheet" href="proverb-system.css?v=20260728-1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
-<body>
-  <a class="skip-link" href="#idiom-system-main">跳至主要內容</a>
+<body data-proverb-view="login">
+  <a class="skip-link" href="#proverb-system-main">跳至主要內容</a>
 
   <header class="site-header edmund-system-header">
     <div class="header-inner edmund-system-header__inner">
-      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="idioms">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="proverbs">
         <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
           <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
           <span class="edmund-system-switcher__copy">
           <strong>EdmundEducation</strong>
-          <small>Idiom Learning System</small>
+          <small>諺語學生使用系統</small>
           </span>
           <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
         </button>
@@ -48,16 +48,16 @@
     </div>
   </header>
 
-  <main class="app-shell" id="idiom-system-main">
+  <main class="app-shell" id="proverb-system-main">
     <section class="view" data-view="login">
       <div class="login-layout">
         <article class="login-hero glass-panel">
           <div class="hero-grid" aria-hidden="true"></div>
-          <p class="eyebrow">EDMUND IDIOM LAB</p>
+          <p class="eyebrow">EDMUND PROVERB LAB</p>
           <div class="hero-copy">
             <p class="student-label">(學生使用)</p>
-            <h1>英文慣用語<br><span>Idiom</span><br>學習系統</h1>
-            <p>由意思、語氣、固定結構及歷史開始，再透過 50 題分輪改寫練習，把慣用語真正變成自己的表達能力。</p>
+            <h1>諺語<br>學生使用系統</h1>
+            <p>由意思、語氣、固定結構及歷史開始，再透過 50 題分輪改寫練習，把諺語真正變成自己的表達能力。</p>
           </div>
         </article>
 
@@ -73,12 +73,12 @@
           <form class="login-form" data-login-form novalidate>
             <label class="field">
               <span>用戶名稱</span>
-              <input id="idiom-system-username" name="username" type="text" autocomplete="username" maxlength="100" required placeholder="輸入用戶名稱">
+              <input id="proverb-system-username" name="username" type="text" autocomplete="username" maxlength="100" required placeholder="輸入用戶名稱">
             </label>
             <label class="field">
               <span>密碼</span>
               <span class="password-field">
-                <input id="idiom-system-password" name="password" type="password" autocomplete="current-password" maxlength="200" required placeholder="輸入密碼">
+                <input id="proverb-system-password" name="password" type="password" autocomplete="current-password" maxlength="200" required placeholder="輸入密碼">
                 <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
               </span>
             </label>
@@ -93,13 +93,13 @@
     <section class="view" data-view="dashboard" hidden>
       <section class="dashboard-hero glass-panel">
         <div>
-          <p class="eyebrow">CHOOSE AN IDIOM</p>
-          <h1>英文慣用語學習系統</h1>
-          <p data-dashboard-welcome>選擇一個慣用語，由完整概念開始，再完成 50 題分輪練習。</p>
+          <p class="eyebrow">(學生使用)</p>
+          <h1>諺語<br>學生使用系統</h1>
+          <p data-dashboard-welcome>選擇一個諺語，由完整概念開始，再完成 50 題分輪練習。</p>
         </div>
         <div class="dashboard-metric" aria-label="可選課題數量">
           <strong data-lesson-count>1</strong>
-          <span>個慣用語課題</span>
+          <span>個諺語課題</span>
         </div>
       </section>
 
@@ -121,7 +121,7 @@
           <article>
             <span>TIME SPENT · 練習時間</span>
             <strong data-sentence-time-all-total>0 分 00 秒</strong>
-            <small>累計用於慣用語練習的時間</small>
+            <small>累計用於諺語練習的時間</small>
           </article>
         </div>
         <div class="sentence-progress-toolbar">
@@ -141,7 +141,7 @@
           </div>
         </div>
         <div class="sentence-progress-chart-shell">
-          <svg data-sentence-progress-chart viewBox="0 0 900 320" role="group" aria-label="英文慣用語每日完成題目數量圖表；每個日期均可開啟詳情"></svg>
+          <svg data-sentence-progress-chart viewBox="0 0 900 320" role="group" aria-label="英文諺語每日完成題目數量圖表；每個日期均可開啟詳情"></svg>
         </div>
         <div class="sentence-progress-legend" aria-label="完成題目圖表圖例">
           <span><i class="sentence-legend-dot sentence-legend-daily"></i>每日完成題目</span>
@@ -163,7 +163,7 @@
             <div>
               <p class="eyebrow">EXERCISE TIME</p>
               <h2 id="sentence-time-progress-heading">練習時間走勢</h2>
-              <p>查看每天用於英文慣用語練習的時間；把滑鼠移到日期上查看時間，按日期可查看當日練習。</p>
+              <p>查看每天用於英文諺語練習的時間；把滑鼠移到日期上查看時間，按日期可查看當日練習。</p>
             </div>
             <div class="sentence-progress-ranges" data-sentence-time-progress-ranges aria-label="選擇練習時間統計時段">
               <button type="button" data-sentence-time-progress-range="week">Week</button>
@@ -175,7 +175,7 @@
             </div>
           </div>
           <div class="sentence-progress-chart-shell sentence-time-chart-shell">
-            <svg data-sentence-time-progress-chart viewBox="0 0 900 320" role="group" aria-label="英文慣用語每日練習時間圖表；每個有練習的日期均可開啟詳情"></svg>
+            <svg data-sentence-time-progress-chart viewBox="0 0 900 320" role="group" aria-label="英文諺語每日練習時間圖表；每個有練習的日期均可開啟詳情"></svg>
           </div>
           <div class="sentence-progress-legend" aria-label="練習時間圖表圖例">
             <span><i class="sentence-legend-dot sentence-legend-time"></i>每日練習時間</span>
@@ -193,7 +193,7 @@
         </section>
       </section>
 
-      <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="慣用語選擇"></section>
+      <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="諺語選擇"></section>
 
       <section class="history-panel glass-panel" aria-labelledby="history-heading">
         <div class="section-heading">
@@ -212,12 +212,12 @@
     <section class="view" data-view="lesson" hidden>
       <section class="lesson-shell glass-panel">
         <div class="lesson-topbar">
-          <button class="text-button" type="button" data-back-to-dashboard>← 返回慣用語選擇</button>
+          <button class="text-button" type="button" data-back-to-dashboard>← 返回諺語選擇</button>
           <span class="lesson-round" data-lesson-round hidden></span>
         </div>
         <div class="lesson-title-row">
           <div>
-            <p class="eyebrow" data-lesson-kicker>IDIOM STUDY</p>
+            <p class="eyebrow" data-lesson-kicker>PROVERB STUDY</p>
             <h1 data-lesson-title></h1>
           </div>
           <div class="lesson-title-actions">
@@ -226,10 +226,10 @@
           </div>
         </div>
         <nav class="lesson-stepper" data-lesson-stepper aria-label="課堂頁面">
-          <button type="button" data-step="1"><span>1</span><strong>公式＋例句</strong><small>Formula + Example</small></button>
+          <button type="button" data-step="1"><span>1</span><strong>形式＋例句</strong><small>Form + Example</small></button>
           <button type="button" data-step="2"><span>2</span><strong>語域及語氣</strong><small>Register + Tone</small></button>
           <button type="button" data-step="3"><span>3</span><strong>固定及可變部分</strong><small>Fixed + Variable</small></button>
-          <button type="button" data-step="4"><span>4</span><strong>所有特定句式</strong><small>All Forms</small></button>
+          <button type="button" data-step="4"><span>4</span><strong>所有特定形式</strong><small>All Forms</small></button>
           <button type="button" data-step="5"><span>5</span><strong>表達好處</strong><small>Benefits</small></button>
           <button type="button" data-step="6"><span>6</span><strong>歷史及來源</strong><small>History + Origin</small></button>
           <button type="button" data-step="7"><span>7</span><strong>重要規則</strong><small>Important Rules</small></button>
@@ -245,7 +245,7 @@
           <div>
             <p class="eyebrow">SAVED QUESTIONS</p>
             <h1>書簽</h1>
-            <p>收藏整個慣用語作溫習，或保留個別題目稍後再做；兩類書簽都會跟隨學生帳戶同步。</p>
+            <p>收藏整個諺語作溫習，或保留個別題目稍後再做；兩類書簽都會跟隨學生帳戶同步。</p>
           </div>
           <button class="secondary-button compact-button" type="button" data-bookmarks-back>返回學習首頁</button>
         </div>
@@ -257,8 +257,8 @@
       <section class="admin-hero glass-panel">
         <div>
           <p class="eyebrow">ADMIN CONTROL</p>
-          <h1>英文慣用語學習記錄</h1>
-          <p>查看使用共用 EdmundEducation 帳戶的學生及其慣用語練習進度。</p>
+          <h1>英文諺語學習記錄</h1>
+          <p>查看使用共用 EdmundEducation 帳戶的學生及其諺語練習進度。</p>
         </div>
         <label class="admin-search">
           <span>搜尋學生</span>
@@ -287,7 +287,7 @@
     </section>
   </main>
 
-  <template id="idiom-system-loading-template">
+  <template id="proverb-system-loading-template">
     <div class="loading-state" role="status">
       <span class="loading-spinner" aria-hidden="true"></span>
       <p>正在載入…</p>
@@ -298,9 +298,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
-  <script src="idiom-system-config.js"></script>
-  <script src="idiom-system-data.js?v=20260727-2"></script>
+  <script src="proverb-system-config.js"></script>
+  <script src="proverb-system-data.js?v=20260728-1"></script>
   <script src="shared-system-nav.js?v=20260728-2"></script>
-  <script type="module" src="idiom-system.js?v=20260727-2"></script>
+  <script type="module" src="proverb-system.js?v=20260728-1"></script>
 </body>
 </html>

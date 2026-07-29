@@ -1,0 +1,17 @@
+{
+  "name": "edmund-phrasal-verb-system-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check src/index.js && npm test && wrangler deploy --dry-run",
+    "verify:catalog": "node scripts/verify-catalog.mjs",
+    "release-check": "npm run verify:catalog && npm run check",
+    "test": "node --test test/*.test.mjs",
+    "dev": "wrangler dev",
+    "deploy": "npm run release-check && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.36.0"
+  }
+}

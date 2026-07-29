@@ -126,7 +126,7 @@ test("homepage and shared switcher both link to the Idiom portal", () => {
   const home = read("index.html");
   const sharedNav = read("shared-system-nav.js");
   const idiomCard = home.match(/<a class="category idiom-system-card"[\s\S]*?<\/a>/)?.[0] || "";
-  const idiomStyles = home.match(/\.idiom-system-card\s*\{[\s\S]*?(?=\n\s*\.schedule-system-card\s*\{)/)?.[0] || "";
+  const idiomStyles = home.match(/\.idiom-system-card\s*\{[\s\S]*?(?=\n\s*\.(?:proverb|schedule)-system-card\s*\{)/)?.[0] || "";
 
   assert.match(home, /href="idiom-system\.html"/);
   assert.match(home, /英文慣用語[\s\S]*?Idiom[\s\S]*?學習系統/);

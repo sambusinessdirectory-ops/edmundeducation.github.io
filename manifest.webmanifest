@@ -75,6 +75,12 @@
       "short_name": "英文慣用語",
       "url": "/idiom-system.html?source=pwa-shortcut",
       "icons": [{ "src": "/assets/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Phrasal Verb 動詞片語",
+      "short_name": "動詞片語",
+      "url": "/phrasal-verb-system.html?source=pwa-shortcut",
+      "icons": [{ "src": "/assets/icons/icon-192x192.png", "sizes": "192x192" }]
     }
   ]
 }
