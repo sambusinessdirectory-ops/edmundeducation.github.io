@@ -433,14 +433,17 @@
       showToast("您的帳戶尚未開放 IELTS 範文下載權限。", "error");
       return false;
     }
-    const essay = task2Essays.find(item => essayPortals.fromDownloadItem(item) === essayKey);
+    const target = essayPortals.parts(essayKey);
+    const catalogKey = target?.definition?.task === 1 ? "task1" : "task2";
+    const sourceEssays = catalogKey === "task1" ? task1Essays : task2Essays;
+    const essay = sourceEssays.find(item => essayPortals.fromDownloadItem(item) === essayKey);
     if (!essay) {
       state.requestedEssayOpened = true;
       showToast("找不到這一篇 IELTS 範文。", "error");
       return false;
     }
 
-    activateCatalog("task2");
+    activateCatalog(catalogKey);
     if (document.body.dataset.currentView !== "catalog") return false;
     state.filter = essay.category;
     state.query = "";
@@ -830,7 +833,7 @@
   }
 
   function essayPortalLinksHtml(essay) {
-    if (activeCatalog.key !== "task2" || !essayPortals) return "";
+    if (!["task1", "task2"].includes(activeCatalog.key) || !essayPortals) return "";
     const essayKey = essayPortals.fromDownloadItem(essay);
     if (!essayKey) return "";
     const flashcardsHref = essayPortals.hasFlashcards(essayKey)
@@ -869,7 +872,7 @@
           </div>
           <button class="essay-title-button" type="button" data-open-detail-id="${escapeHtml(essay.id)}">${escapeHtml(itemDisplayTitle(essay))}</button>
           <div class="essay-detail">${activeCatalog.isReading ? `Practice ${essay.number} · ` : ""}PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}</div>
-          ${activeCatalog.key === "task2" ? `<div class="essay-portal-actions">${essayPortalLinksHtml(essay)}</div>` : ""}
+          ${["task1", "task2"].includes(activeCatalog.key) ? `<div class="essay-portal-actions">${essayPortalLinksHtml(essay)}</div>` : ""}
         </div>
         <div class="essay-category">
           <span class="category-pill" data-category="${escapeHtml(essay.category)}">${escapeHtml(essay.categoryLabel)}</span>

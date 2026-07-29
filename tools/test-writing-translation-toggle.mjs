@@ -256,6 +256,52 @@ function createHarness(applicationSource, dataFiles) {
         currentPathwayLevel = "exercise";
         practiceState = defaultPracticeState(currentExercise());
       },
+      taskOnePathSnapshot(exerciseId) {
+        const sectionKey = sectionKeyForWritingExercise(exerciseId);
+        const ancestry = writingExerciseAncestry(sectionKey, exerciseId);
+        const pathway = writingPathways[sectionKey];
+        const task = getPathwayTask(pathway, ancestry.taskKey || "");
+        const essayType = getPathwayEssayType(pathway, ancestry.essayTypeKey || "");
+        currentView = "exercise";
+        currentExerciseSectionKey = sectionKey;
+        setWritingPathForExercise(sectionKey, exerciseId);
+        currentExerciseId = exerciseId;
+        currentEssayTab = "essay";
+        practiceState = null;
+        return {
+          sectionKey,
+          ancestry: { ...ancestry },
+          taskKey: task?.key || "",
+          essayTypeKey: essayType?.key || "",
+          categoryDeckIds: [...(essayType?.deckIds || [])],
+          state: {
+            currentExerciseSectionKey,
+            currentPathwayLevel,
+            currentEssayTypeKey,
+            currentExerciseId
+          },
+          breadcrumbs: writingBreadcrumbEntries().map(entry => ({
+            label: entry.label || "",
+            view: entry.route?.view || "",
+            taskKey: entry.route?.taskKey || "",
+            essayTypeKey: entry.route?.essayTypeKey || "",
+            exerciseId: entry.route?.exerciseId || ""
+          }))
+        };
+      },
+      pathwayState: () => ({
+        currentExerciseSectionKey,
+        currentPathwayLevel,
+        currentEssayTypeKey,
+        currentExerciseId,
+        breadcrumbs: writingBreadcrumbEntries().map(entry => ({
+          label: entry.label || "",
+          view: entry.route?.view || "",
+          taskKey: entry.route?.taskKey || "",
+          essayTypeKey: entry.route?.essayTypeKey || "",
+          exerciseId: entry.route?.exerciseId || ""
+        }))
+      }),
       exerciseIds: () => Object.keys(writingExercises),
       state: () => practiceState,
       exercise: () => currentExercise(),
@@ -564,6 +610,68 @@ hooks.renderView();
 
 const clickHandler = harness.documentListeners.get("click")?.[0];
 assert.equal(typeof clickHandler, "function", "writing click handler should be registered");
+
+const taskOnePathSentinels = [
+  { category: "bar-charts", label: "Bar Charts", count: 8, exerciseId: "model-essay-1-ielts-task1-bar-charts" },
+  { category: "line-graph", label: "Line Graph", count: 9, exerciseId: "model-essay-1-ielts-task1-line-graph" },
+  { category: "pie-charts", label: "Pie Charts", count: 6, exerciseId: "model-essay-1-ielts-task1-pie-charts" },
+  { category: "process-diagram", label: "Process Diagram", count: 9, exerciseId: "model-essay-1-ielts-task1-process-diagram" },
+  { category: "maps", label: "Maps", count: 10, exerciseId: "model-essay-9-ielts-task1-maps" },
+  { category: "tables", label: "Tables", count: 11, exerciseId: "model-essay-11-ielts-task1-tables" },
+  { category: "mixed-charts", label: "Mixed Charts", count: 7, exerciseId: "model-essay-7-ielts-task1-mixed-charts" }
+];
+
+for (const sentinel of taskOnePathSentinels) {
+  assert.ok(hooks.exerciseIds().includes(sentinel.exerciseId), `${sentinel.exerciseId} should be loaded into the writing runtime`);
+  const snapshot = hooks.taskOnePathSnapshot(sentinel.exerciseId);
+  assert.equal(snapshot.sectionKey, "ielts-writing", `${sentinel.exerciseId} should resolve to the IELTS section`);
+  assert.equal(snapshot.ancestry.taskKey, "task-1", `${sentinel.exerciseId} should have Task 1 ancestry`);
+  assert.equal(snapshot.ancestry.essayTypeKey, sentinel.category, `${sentinel.exerciseId} should retain its exact category ancestry`);
+  assert.equal(snapshot.taskKey, "task-1");
+  assert.equal(snapshot.essayTypeKey, sentinel.category);
+  assert.equal(snapshot.categoryDeckIds.length, sentinel.count, `${sentinel.category} should expose its complete Task 1 deck inventory`);
+  assert.ok(snapshot.categoryDeckIds.includes(sentinel.exerciseId), `${sentinel.exerciseId} should belong to its rendered category`);
+  assert.equal(snapshot.state.currentExerciseSectionKey, "ielts-writing");
+  assert.equal(snapshot.state.currentPathwayLevel, "category");
+  assert.equal(snapshot.state.currentEssayTypeKey, sentinel.category);
+  assert.equal(snapshot.state.currentExerciseId, sentinel.exerciseId);
+  assert.deepEqual(
+    Array.from(snapshot.breadcrumbs, entry => entry.label),
+    ["寫作首頁", "IELTS Writing", "Task 1 (Charts)", sentinel.label, hooks.exercise().title],
+    `${sentinel.exerciseId} should render the exact Task 1 breadcrumb chain`
+  );
+  assert.deepEqual(
+    Array.from(snapshot.breadcrumbs, entry => entry.view),
+    ["dashboard", "section", "writing-task", "essay-type", "essay"]
+  );
+  assert.equal(snapshot.breadcrumbs[2].taskKey, "task-1");
+  assert.equal(snapshot.breadcrumbs[3].taskKey, "task-1");
+  assert.equal(snapshot.breadcrumbs[3].essayTypeKey, sentinel.category);
+  assert.equal(snapshot.breadcrumbs[4].exerciseId, sentinel.exerciseId);
+
+  await clickHandler({ target: clickTarget("data-back-writing-pathway"), preventDefault() {} });
+  let backState = hooks.pathwayState();
+  assert.equal(backState.currentExerciseSectionKey, "ielts-writing");
+  assert.equal(backState.currentExerciseId, "");
+  assert.equal(backState.currentPathwayLevel, "category", `${sentinel.exerciseId} should return to its category`);
+  assert.equal(backState.currentEssayTypeKey, sentinel.category);
+  assert.deepEqual(
+    Array.from(backState.breadcrumbs, entry => entry.label),
+    ["寫作首頁", "IELTS Writing", "Task 1 (Charts)", sentinel.label]
+  );
+
+  await clickHandler({ target: clickTarget("data-pathway-back"), preventDefault() {} });
+  backState = hooks.pathwayState();
+  assert.equal(backState.currentPathwayLevel, "task-1", `${sentinel.category} should return to the Task 1 type selector`);
+  assert.equal(backState.currentEssayTypeKey, "");
+  assert.deepEqual(
+    Array.from(backState.breadcrumbs, entry => entry.label),
+    ["寫作首頁", "IELTS Writing", "Task 1 (Charts)"]
+  );
+}
+
+hooks.installExercise(fixtureExercise());
+hooks.renderView();
 
 assert.equal(hooks.state().showTranslation, false, "Chinese translation must default to hidden");
 let selectorHtml = hooks.renderMode();
@@ -1135,7 +1243,7 @@ assert.equal(hooks.state(), null, "returning to the essay should leave practice 
 const audioManifestWindow = {};
 vm.runInNewContext(readFileSync(`${repository}/writing-audio-manifest.js`, "utf8"), { window: audioManifestWindow });
 const fullAudioManifest = audioManifestWindow.EDMUND_WRITING_AUDIO;
-assert.equal(Object.keys(fullAudioManifest).length, 250, "the complete writing audio manifest should contain 250 essays");
+assert.equal(Object.keys(fullAudioManifest).length, 310, "the complete writing audio manifest should contain 310 essays");
 hooks.setAudioManifest(fullAudioManifest);
 [
   {

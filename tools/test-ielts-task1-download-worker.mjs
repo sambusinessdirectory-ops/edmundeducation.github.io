@@ -19,12 +19,15 @@ globalThis.FixedLengthStream ||= class FixedLengthStream {
 
 const source = process.argv[2];
 const secondSource = process.argv[3];
-const selectedOutput = process.argv[4];
-const allOutput = process.argv[5];
-if (!source || !secondSource || !selectedOutput || !allOutput) {
+const thirdSource = process.argv[4];
+const legacyVariantSource = process.argv[5];
+const selectedOutput = process.argv[6];
+const allOutput = process.argv[7];
+if (!source || !secondSource || !thirdSource || !legacyVariantSource || !selectedOutput || !allOutput) {
   throw new Error(
     "Usage: test-ielts-task1-download-worker.mjs <first Task 1 PDF folder> " +
-    "<second Task 1 PDF folder> <selected ZIP output> <all ZIP output>"
+    "<second Task 1 PDF folder> <Table batch folder> <legacy variants folder> " +
+    "<selected ZIP output> <all ZIP output>"
   );
 }
 
@@ -51,14 +54,24 @@ globalThis.fetch = async (url, options = {}) => {
   return originalFetch(url, options);
 };
 
-function task1Bucket(firstFolder, secondFolder) {
+function task1Bucket(firstFolder, secondFolder, thirdFolder, legacyFolder) {
   function localPath(key) {
-    const folder = String(key).startsWith(
+    const value = String(key);
+    const filename = path.basename(value);
+    const legacyVariants = new Set([
+      "Model Essay 5 - IELTS - Pie Charts - (Band 9 示範) - Task 1-1.pdf",
+      "Model Essay 8 - IELTS - Process Diagram - (Band 9 示範) - Task 1.pdf"
+    ]);
+    const folder = value.startsWith(
       "IELTS Writing Task 1/IELTS Writing Task 2 - Second Batch/"
     )
       ? secondFolder
-      : firstFolder;
-    return path.join(folder, path.basename(String(key)));
+      : value.startsWith("IELTS Writing Task 1/IELTS Writing Task 1 - Tables Batch 3/")
+        ? thirdFolder
+        : legacyVariants.has(filename)
+          ? legacyFolder
+          : firstFolder;
+    return path.join(folder, filename);
   }
 
   return {
@@ -78,7 +91,7 @@ function task1Bucket(firstFolder, secondFolder) {
   };
 }
 
-const assets = task1Bucket(source, secondSource);
+const assets = task1Bucket(source, secondSource, thirdSource, legacyVariantSource);
 const env = {
   ALLOWED_ORIGIN: "https://edmundeducation.com",
   SUPABASE_URL: "https://example.supabase.co",
@@ -118,7 +131,10 @@ const sessionResponse = await worker.fetch(new Request(
 if (sessionResponse.status !== 200) throw new Error(`Session failed: ${sessionResponse.status}`);
 const downloadToken = (await sessionResponse.json()).token;
 
-const first = TASK1_CATALOG[0];
+const tableEntries = TASK1_CATALOG.filter(item => item.filename.includes(" - IELTS - Tables - "));
+if (tableEntries.length !== 11) throw new Error(`Expected 11 Table records, found ${tableEntries.length}`);
+const first = tableEntries.find(item => /^Model Essay 11\b/.test(item.filename));
+if (!first) throw new Error("Table 11 worker sentinel is missing");
 const fileResponse = await worker.fetch(new Request(
   `https://downloads.edmundeducation.com/v1/task1/files/${first.id}`,
   {
@@ -155,7 +171,7 @@ async function writeZip(items, output, all) {
   return stat.size;
 }
 
-const selectedSize = await writeZip(TASK1_CATALOG.slice(0, 11), selectedOutput, false);
+const selectedSize = await writeZip(tableEntries, selectedOutput, false);
 const allSize = await writeZip(TASK1_CATALOG, allOutput, true);
 await Promise.all(background);
 

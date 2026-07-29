@@ -105,6 +105,62 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-practice.html?exercise=dse-writing-2014-part-a"
   },
   {
+    "id": "fill:model-essay-1-ielts-task1-bar-charts",
+    "type": "fill-blanks",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts",
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-bar-charts"
+  },
+  {
+    "id": "fill:model-essay-1-ielts-task1-line-graph",
+    "type": "fill-blanks",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph",
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-line-graph"
+  },
+  {
+    "id": "fill:model-essay-1-ielts-task1-maps",
+    "type": "fill-blanks",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps",
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-maps"
+  },
+  {
+    "id": "fill:model-essay-1-ielts-task1-mixed-charts",
+    "type": "fill-blanks",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts",
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-mixed-charts"
+  },
+  {
+    "id": "fill:model-essay-1-ielts-task1-pie-charts",
+    "type": "fill-blanks",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts",
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-pie-charts"
+  },
+  {
+    "id": "fill:model-essay-1-ielts-task1-process-diagram",
+    "type": "fill-blanks",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram",
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-process-diagram"
+  },
+  {
+    "id": "fill:model-essay-1-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-tables"
+  },
+  {
     "id": "fill:model-essay-2-ielts-advantage-disadvantage",
     "type": "fill-blanks",
     "ordinal": 2,
@@ -127,6 +183,62 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Model Essay 2 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
     "url": "writing-practice.html?exercise=model-essay-2-ielts-direct-question"
+  },
+  {
+    "id": "fill:model-essay-2-ielts-task1-bar-charts",
+    "type": "fill-blanks",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts",
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-bar-charts"
+  },
+  {
+    "id": "fill:model-essay-2-ielts-task1-line-graph",
+    "type": "fill-blanks",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph",
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-line-graph"
+  },
+  {
+    "id": "fill:model-essay-2-ielts-task1-maps",
+    "type": "fill-blanks",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps",
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-maps"
+  },
+  {
+    "id": "fill:model-essay-2-ielts-task1-mixed-charts",
+    "type": "fill-blanks",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts",
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-mixed-charts"
+  },
+  {
+    "id": "fill:model-essay-2-ielts-task1-pie-charts",
+    "type": "fill-blanks",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts",
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-pie-charts"
+  },
+  {
+    "id": "fill:model-essay-2-ielts-task1-process-diagram",
+    "type": "fill-blanks",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram",
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-process-diagram"
+  },
+  {
+    "id": "fill:model-essay-2-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-tables"
   },
   {
     "id": "fill:model-essay-3-ielts-advantage-disadvantage",
@@ -159,6 +271,62 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Model Essay 3 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-3-ielts-opinion"
+  },
+  {
+    "id": "fill:model-essay-3-ielts-task1-bar-charts",
+    "type": "fill-blanks",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts",
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-bar-charts"
+  },
+  {
+    "id": "fill:model-essay-3-ielts-task1-line-graph",
+    "type": "fill-blanks",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph",
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-line-graph"
+  },
+  {
+    "id": "fill:model-essay-3-ielts-task1-maps",
+    "type": "fill-blanks",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps",
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-maps"
+  },
+  {
+    "id": "fill:model-essay-3-ielts-task1-mixed-charts",
+    "type": "fill-blanks",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts",
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-mixed-charts"
+  },
+  {
+    "id": "fill:model-essay-3-ielts-task1-pie-charts",
+    "type": "fill-blanks",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts",
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-pie-charts"
+  },
+  {
+    "id": "fill:model-essay-3-ielts-task1-process-diagram",
+    "type": "fill-blanks",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram",
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-process-diagram"
+  },
+  {
+    "id": "fill:model-essay-3-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-tables"
   },
   {
     "id": "fill:model-essay-4-ielts-advantage-disadvantage",
@@ -201,6 +369,62 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-practice.html?exercise=model-essay-4-ielts-opinion"
   },
   {
+    "id": "fill:model-essay-4-ielts-task1-bar-charts",
+    "type": "fill-blanks",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts",
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-bar-charts"
+  },
+  {
+    "id": "fill:model-essay-4-ielts-task1-line-graph",
+    "type": "fill-blanks",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph",
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-line-graph"
+  },
+  {
+    "id": "fill:model-essay-4-ielts-task1-maps",
+    "type": "fill-blanks",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps",
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-maps"
+  },
+  {
+    "id": "fill:model-essay-4-ielts-task1-mixed-charts",
+    "type": "fill-blanks",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts",
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-mixed-charts"
+  },
+  {
+    "id": "fill:model-essay-4-ielts-task1-pie-charts",
+    "type": "fill-blanks",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts",
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-pie-charts"
+  },
+  {
+    "id": "fill:model-essay-4-ielts-task1-process-diagram",
+    "type": "fill-blanks",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram",
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-process-diagram"
+  },
+  {
+    "id": "fill:model-essay-4-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-tables"
+  },
+  {
     "id": "fill:model-essay-5-ielts-advantage-disadvantage",
     "type": "fill-blanks",
     "ordinal": 5,
@@ -231,6 +455,62 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Model Essay 5 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-5-ielts-opinion"
+  },
+  {
+    "id": "fill:model-essay-5-ielts-task1-bar-charts",
+    "type": "fill-blanks",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts",
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-bar-charts"
+  },
+  {
+    "id": "fill:model-essay-5-ielts-task1-line-graph",
+    "type": "fill-blanks",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph",
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-line-graph"
+  },
+  {
+    "id": "fill:model-essay-5-ielts-task1-maps",
+    "type": "fill-blanks",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps",
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-maps"
+  },
+  {
+    "id": "fill:model-essay-5-ielts-task1-mixed-charts",
+    "type": "fill-blanks",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts",
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-mixed-charts"
+  },
+  {
+    "id": "fill:model-essay-5-ielts-task1-pie-charts",
+    "type": "fill-blanks",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts",
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-pie-charts"
+  },
+  {
+    "id": "fill:model-essay-5-ielts-task1-process-diagram",
+    "type": "fill-blanks",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram",
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-process-diagram"
+  },
+  {
+    "id": "fill:model-essay-5-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-tables"
   },
   {
     "id": "fill:model-essay-6-ielts-advantage-disadvantage",
@@ -273,6 +553,62 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-practice.html?exercise=model-essay-6-ielts-opinion"
   },
   {
+    "id": "fill:model-essay-6-ielts-task1-bar-charts",
+    "type": "fill-blanks",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts",
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-bar-charts"
+  },
+  {
+    "id": "fill:model-essay-6-ielts-task1-line-graph",
+    "type": "fill-blanks",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph",
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-line-graph"
+  },
+  {
+    "id": "fill:model-essay-6-ielts-task1-maps",
+    "type": "fill-blanks",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps",
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-maps"
+  },
+  {
+    "id": "fill:model-essay-6-ielts-task1-mixed-charts",
+    "type": "fill-blanks",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts",
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-mixed-charts"
+  },
+  {
+    "id": "fill:model-essay-6-ielts-task1-pie-charts",
+    "type": "fill-blanks",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts",
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-pie-charts"
+  },
+  {
+    "id": "fill:model-essay-6-ielts-task1-process-diagram",
+    "type": "fill-blanks",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram",
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-process-diagram"
+  },
+  {
+    "id": "fill:model-essay-6-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-tables"
+  },
+  {
     "id": "fill:model-essay-7-ielts-advantage-disadvantage",
     "type": "fill-blanks",
     "ordinal": 7,
@@ -313,6 +649,54 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-practice.html?exercise=model-essay-7-ielts-opinion"
   },
   {
+    "id": "fill:model-essay-7-ielts-task1-bar-charts",
+    "type": "fill-blanks",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts",
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-bar-charts"
+  },
+  {
+    "id": "fill:model-essay-7-ielts-task1-line-graph",
+    "type": "fill-blanks",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph",
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-line-graph"
+  },
+  {
+    "id": "fill:model-essay-7-ielts-task1-maps",
+    "type": "fill-blanks",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps",
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-maps"
+  },
+  {
+    "id": "fill:model-essay-7-ielts-task1-mixed-charts",
+    "type": "fill-blanks",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts",
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-mixed-charts"
+  },
+  {
+    "id": "fill:model-essay-7-ielts-task1-process-diagram",
+    "type": "fill-blanks",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram",
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-process-diagram"
+  },
+  {
+    "id": "fill:model-essay-7-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-tables"
+  },
+  {
     "id": "fill:model-essay-8-ielts-advantage-disadvantage",
     "type": "fill-blanks",
     "ordinal": 8,
@@ -343,6 +727,46 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Model Essay 8 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-8-ielts-opinion"
+  },
+  {
+    "id": "fill:model-essay-8-ielts-task1-bar-charts",
+    "type": "fill-blanks",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts",
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-bar-charts"
+  },
+  {
+    "id": "fill:model-essay-8-ielts-task1-line-graph",
+    "type": "fill-blanks",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph",
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-line-graph"
+  },
+  {
+    "id": "fill:model-essay-8-ielts-task1-maps",
+    "type": "fill-blanks",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps",
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-maps"
+  },
+  {
+    "id": "fill:model-essay-8-ielts-task1-process-diagram",
+    "type": "fill-blanks",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram",
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-process-diagram"
+  },
+  {
+    "id": "fill:model-essay-8-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-tables"
   },
   {
     "id": "fill:model-essay-9-ielts-advantage-disadvantage",
@@ -385,6 +809,38 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-practice.html?exercise=model-essay-9-ielts-opinion"
   },
   {
+    "id": "fill:model-essay-9-ielts-task1-line-graph",
+    "type": "fill-blanks",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph",
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-line-graph"
+  },
+  {
+    "id": "fill:model-essay-9-ielts-task1-maps",
+    "type": "fill-blanks",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps",
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-maps"
+  },
+  {
+    "id": "fill:model-essay-9-ielts-task1-process-diagram",
+    "type": "fill-blanks",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram",
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-process-diagram"
+  },
+  {
+    "id": "fill:model-essay-9-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-tables"
+  },
+  {
     "id": "fill:model-essay-10-ielts-advantage-disadvantage",
     "type": "fill-blanks",
     "ordinal": 10,
@@ -425,6 +881,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-practice.html?exercise=model-essay-10-ielts-opinion"
   },
   {
+    "id": "fill:model-essay-10-ielts-task1-maps",
+    "type": "fill-blanks",
+    "ordinal": 10,
+    "label": "Model Essay 10 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps",
+    "url": "writing-practice.html?exercise=model-essay-10-ielts-task1-maps"
+  },
+  {
+    "id": "fill:model-essay-10-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 10,
+    "label": "Model Essay 10 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-10-ielts-task1-tables"
+  },
+  {
     "id": "fill:model-essay-11-ielts-advantage-disadvantage",
     "type": "fill-blanks",
     "ordinal": 11,
@@ -463,6 +935,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Model Essay 11 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
     "url": "writing-practice.html?exercise=model-essay-11-ielts-opinion"
+  },
+  {
+    "id": "fill:model-essay-11-ielts-task1-tables",
+    "type": "fill-blanks",
+    "ordinal": 11,
+    "label": "Model Essay 11 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables",
+    "url": "writing-practice.html?exercise=model-essay-11-ielts-task1-tables"
   },
   {
     "id": "fill:model-essay-12-ielts-advantage-disadvantage",

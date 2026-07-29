@@ -3,39 +3,108 @@
 
   const CATEGORY_DEFINITIONS = Object.freeze({
     "advantage-disadvantage": Object.freeze({
+      task: 2,
       flashType: "advantage-and-disadvantage",
       flashRef: "EdmundBd9AdDisAd",
       writingSuffix: "advantage-disadvantage",
       label: "Advantage and Disadvantage"
     }),
     opinion: Object.freeze({
+      task: 2,
       flashType: "opinions",
       flashRef: "EdmundBd9OP",
       writingSuffix: "opinion",
       label: "Opinions"
     }),
     "discuss-both-views": Object.freeze({
+      task: 2,
       flashType: "discuss-both-views-your-opinion",
       flashRef: "EdmundBd9ExpBth",
       writingSuffix: "discuss-both-views",
       label: "Express Both Views + Your Opinion"
     }),
     "cause-solution": Object.freeze({
+      task: 2,
       flashType: "problem-and-cause",
       flashRef: "EdmundBd9CnS",
       writingSuffix: "cause-solution",
       label: "Cause and Solution"
     }),
     "direct-question": Object.freeze({
+      task: 2,
       flashType: "direct-question",
       flashRef: "EdmundBd9Dir",
       writingSuffix: "direct-question",
       label: "Direct Question"
+    }),
+    "bar-charts": Object.freeze({
+      task: 1,
+      flashType: "bar-charts",
+      flashItemPrefix: "bar-chart",
+      writingSuffix: "bar-charts",
+      label: "Bar Charts",
+      count: 8
+    }),
+    "line-graph": Object.freeze({
+      task: 1,
+      flashType: "line-graphs",
+      flashItemPrefix: "line-graph",
+      writingSuffix: "line-graph",
+      label: "Line Graph",
+      count: 9
+    }),
+    "pie-charts": Object.freeze({
+      task: 1,
+      flashType: "pie-charts",
+      flashItemPrefix: "pie-chart",
+      writingSuffix: "pie-charts",
+      label: "Pie Charts",
+      count: 6
+    }),
+    "process-diagram": Object.freeze({
+      task: 1,
+      flashType: "process-diagrams",
+      flashItemPrefix: "process-diagram",
+      writingSuffix: "process-diagram",
+      label: "Process Diagram",
+      count: 9
+    }),
+    maps: Object.freeze({
+      task: 1,
+      flashType: "maps",
+      flashItemPrefix: "maps",
+      writingSuffix: "maps",
+      label: "Maps",
+      count: 10
+    }),
+    tables: Object.freeze({
+      task: 1,
+      flashType: "tables",
+      flashItemPrefix: "table",
+      writingSuffix: "tables",
+      label: "Tables",
+      count: 11
+    }),
+    "mixed-charts": Object.freeze({
+      task: 1,
+      flashType: "mixed-charts",
+      flashItemPrefix: "mixed-charts",
+      writingSuffix: "mixed-charts",
+      label: "Mixed Charts",
+      count: 7
     })
   });
 
   const FLASH_TYPE_TO_CATEGORY = Object.freeze(Object.fromEntries(
-    Object.entries(CATEGORY_DEFINITIONS).map(([category, definition]) => [definition.flashType, category])
+    Object.entries(CATEGORY_DEFINITIONS)
+      .filter(([, definition]) => definition.task === 2)
+      .map(([category, definition]) => [definition.flashType, category])
+  ));
+
+  const TASK1_FLASH_TYPE_TO_CATEGORY = Object.freeze(Object.fromEntries(
+    Object.entries(CATEGORY_DEFINITIONS)
+      .filter(([, definition]) => definition.task === 1)
+      .map(([category, definition]) => [definition.flashType, category])
   ));
 
   // These catalogue questions exist, but the published Flash Cards seed currently
@@ -64,7 +133,10 @@
   }
 
   function fromWritingExerciseId(value) {
-    const match = /^model-essay-(\d+)-ielts-(advantage-disadvantage|opinion|discuss-both-views|cause-solution|direct-question)$/i.exec(String(value || "").trim());
+    const raw = String(value || "").trim();
+    const taskOneMatch = /^model-essay-(\d+)-ielts-task1-(bar-charts|line-graph|pie-charts|process-diagram|maps|tables|mixed-charts)$/i.exec(raw);
+    if (taskOneMatch) return key(taskOneMatch[2], taskOneMatch[1]);
+    const match = /^model-essay-(\d+)-ielts-(advantage-disadvantage|opinion|discuss-both-views|cause-solution|direct-question)$/i.exec(raw);
     if (!match) return "";
     const category = Object.entries(CATEGORY_DEFINITIONS)
       .find(([, definition]) => definition.writingSuffix === match[2].toLowerCase())?.[0] || "";
@@ -72,7 +144,16 @@
   }
 
   function fromFlashDeckId(value) {
-    const match = /^ielts\/writing\/task-2\/([^/]+)\/[^/]+-Q(\d+)$/i.exec(String(value || "").trim());
+    const raw = String(value || "").trim();
+    const taskOneMatch = /^ielts\/writing\/task-1\/([^/]+)\/([^/]+)-(\d+)$/i.exec(raw);
+    if (taskOneMatch) {
+      const category = TASK1_FLASH_TYPE_TO_CATEGORY[taskOneMatch[1].toLowerCase()] || "";
+      const definition = CATEGORY_DEFINITIONS[category];
+      return definition && taskOneMatch[2].toLowerCase() === definition.flashItemPrefix
+        ? key(category, taskOneMatch[3])
+        : "";
+    }
+    const match = /^ielts\/writing\/task-2\/([^/]+)\/[^/]+-Q(\d+)$/i.exec(raw);
     return match ? key(FLASH_TYPE_TO_CATEGORY[match[1].toLowerCase()], match[2]) : "";
   }
 
@@ -95,13 +176,18 @@
   function flashDeckId(value) {
     const target = parts(value);
     if (!target) return "";
+    if (target.definition.task === 1) {
+      return `ielts/writing/task-1/${target.definition.flashType}/${target.definition.flashItemPrefix}-${target.number}`;
+    }
     return `ielts/writing/task-2/${target.definition.flashType}/${target.definition.flashRef}-Q${target.number}`;
   }
 
   function writingExerciseId(value) {
     const target = parts(value);
     return target
-      ? `model-essay-${target.number}-ielts-${target.definition.writingSuffix}`
+      ? target.definition.task === 1
+        ? `model-essay-${target.number}-ielts-task1-${target.definition.writingSuffix}`
+        : `model-essay-${target.number}-ielts-${target.definition.writingSuffix}`
       : "";
   }
 
@@ -109,6 +195,7 @@
     const target = parts(value);
     if (!target) return false;
     const number = target.number;
+    if (target.definition.task === 1) return number <= Number(target.definition.count || 0);
     if (target.category === "advantage-disadvantage") return number >= 2 && number <= 30 && number !== 13;
     if (target.category === "opinion") return number >= 3 && number <= 106 && number !== 102;
     if (target.category === "discuss-both-views") return number >= 4 && number <= 43 && number !== 38;
@@ -119,7 +206,13 @@
 
   function hasFlashcards(value) {
     const normalized = parse(value);
-    return Boolean(normalized && !FLASHCARD_UNAVAILABLE.has(normalized));
+    const target = parts(normalized);
+    if (!target || FLASHCARD_UNAVAILABLE.has(normalized)) return false;
+    if (target.definition.task === 1) {
+      return target.number <= Number(target.definition.count || 0)
+        && !(target.category === "maps" && target.number === 9);
+    }
+    return true;
   }
 
   function href(portal, value) {

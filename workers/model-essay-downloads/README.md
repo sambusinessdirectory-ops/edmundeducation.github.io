@@ -51,13 +51,16 @@ Regenerate DSE Writing Part A with `tools/build-dse-writing-part-a-download-cata
 IELTS Task 1 with `tools/build-ielts-task1-download-catalog.py`,
 Task 2 with `tools/build-model-essay-catalog.py`, and IELTS Speaking
 with `tools/build-ielts-speaking-download-catalog.py` whenever PDFs change.
-The Task 1 builder requires both local batches because it generates one combined
-52-file catalogue while preserving each batch's exact R2 prefix:
+The Task 1 builder requires all three local batches plus the two retained legacy
+variants because it generates one combined 62-file catalogue while preserving
+each batch's exact R2 prefix:
 
 ```bash
 python3 tools/build-ielts-task1-download-catalog.py \
   "/path/to/IELTS All Model Essays - Task 1" \
-  --second-source "/path/to/IELTS All Model Essay - Task 1 - Second Batch"
+  --second-source "/path/to/IELTS All Model Essay - Task 1 - Second Batch" \
+  --third-source "/path/to/IELTS Model Essay Task 1 Batch 3" \
+  --legacy-variant-source "/path/to/folder-containing-the-two-legacy-variants"
 ```
 
 Regenerate all three IELTS Reading passage catalogs with

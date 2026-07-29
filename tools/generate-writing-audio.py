@@ -207,11 +207,21 @@ def extract_essays(source_root: Path) -> dict[str, dict[str, object]]:
 
 def spoken_text(value: str) -> str:
     text = re.sub(r"(?:\.{3}|…+)", ", ", value)
+    # Kokoro reads a literal slash as the word "slash". In prose such as
+    # "solar/wind", it expresses a combined category, so speak it naturally as
+    # "and" while the visible essay and word-timing labels remain unchanged.
+    text = re.sub(r"(?<=\w)\s*/\s*(?=\w)", " and ", text)
     # Kokoro renders this long comma-linked clause clearly when it is spoken as
     # two breath groups. The visible essay remains unchanged, including "so".
     text = text.replace(
         "before sunrise, so breakfast",
         "before sunrise. So breakfast",
+    )
+    # A spoken-only semicolon keeps every word intact while preventing the
+    # exact-prompt aligner from omitting this introductory process clause.
+    text = text.replace(
+        "Once the crop has been collected, the stems",
+        "Once the crop has been collected; the stems",
     )
     text = text.replace(
         "with a senior “cooking mentor,” we can provide",
@@ -270,35 +280,57 @@ def align_sentence_words(
     visible = display_words(sentence)
     if not visible:
         return []
-    segments, _ = aligner.transcribe(
-        resample_for_alignment(audio, sample_rate),
-        language="en",
-        task="transcribe",
-        beam_size=5,
-        word_timestamps=True,
-        vad_filter=False,
-        condition_on_previous_text=False,
-        initial_prompt=spoken_text(sentence),
-    )
-    recognized: list[tuple[str, float, float]] = []
-    for segment in segments:
-        for word in segment.words or []:
-            token = normalized_chars(word.word)
-            if token and word.start is not None and word.end is not None:
-                recognized.append((token, float(word.start), float(word.end)))
+    expected_text = "".join(normalized_chars(word) for word, _ in visible)
+
+    def recognize(initial_prompt: str | None) -> list[tuple[str, float, float]]:
+        options: dict[str, object] = {
+            "language": "en",
+            "task": "transcribe",
+            "beam_size": 5,
+            "word_timestamps": True,
+            "vad_filter": False,
+            "condition_on_previous_text": False,
+        }
+        if initial_prompt:
+            options["initial_prompt"] = initial_prompt
+        segments, _ = aligner.transcribe(
+            resample_for_alignment(audio, sample_rate),
+            **options,
+        )
+        words: list[tuple[str, float, float]] = []
+        for segment in segments:
+            for word in segment.words or []:
+                token = normalized_chars(word.word)
+                if token and word.start is not None and word.end is not None:
+                    words.append((token, float(word.start), float(word.end)))
+        return words
+
+    def map_recognized(words: list[tuple[str, float, float]]) -> tuple[dict[int, int], float]:
+        recognized_text = "".join(token for token, _, _ in words)
+        matcher = difflib.SequenceMatcher(None, expected_text, recognized_text, autojunk=False)
+        mapped: dict[int, int] = {}
+        matched_chars = 0
+        for expected_start, recognized_start, size in matcher.get_matching_blocks():
+            for offset in range(size):
+                mapped[expected_start + offset] = recognized_start + offset
+            matched_chars += size
+        return mapped, matched_chars / max(1, len(expected_text))
+
+    recognized = recognize(spoken_text(sentence))
     if not recognized:
         raise ValueError(f"Speech alignment returned no words for: {sentence!r}")
-
-    expected_text = "".join(normalized_chars(word) for word, _ in visible)
-    recognized_text = "".join(token for token, _, _ in recognized)
-    matcher = difflib.SequenceMatcher(None, expected_text, recognized_text, autojunk=False)
-    char_map: dict[int, int] = {}
-    matched_chars = 0
-    for expected_start, recognized_start, size in matcher.get_matching_blocks():
-        for offset in range(size):
-            char_map[expected_start + offset] = recognized_start + offset
-        matched_chars += size
-    confidence = matched_chars / max(1, len(expected_text))
+    char_map, confidence = map_recognized(recognized)
+    if confidence < 0.82:
+        # An exact prompt occasionally makes Whisper omit an otherwise audible
+        # clause. Retry the same waveform without a prompt and keep whichever
+        # transcript maps more completely to the visible essay.
+        retry = recognize(None)
+        if retry:
+            retry_map, retry_confidence = map_recognized(retry)
+            if retry_confidence > confidence:
+                recognized = retry
+                char_map = retry_map
+                confidence = retry_confidence
     if confidence < 0.82:
         raise ValueError(
             f"Low-confidence speech alignment ({confidence:.1%}) for: {sentence!r}"

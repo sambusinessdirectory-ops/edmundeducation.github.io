@@ -25,12 +25,13 @@ const read = (file) => readFile(path.join(root, file), "utf8");
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2015, "the Homework/Schedule catalogue should include all 60 new Task 1 writing sets");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
 assert.equal((byType.flashcards || []).length, 804, "all current static and lazy-loaded flashcard leaf decks should be indexed");
-assert.equal((byType["fill-blanks"] || []).length, 250, "all current writing exercises should be indexed");
+assert.equal((byType["fill-blanks"] || []).length, 310, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 114, "all sentence structure lessons should be indexed");
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
@@ -66,6 +67,31 @@ assert.equal(
   taskOneFlashcards.find((resource) => resource.id === "flash:ielts/writing/task-1/mixed-charts/mixed-charts-7")?.url,
   "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmixed-charts%2Fmixed-charts-7",
   "Mixed Charts 7 should have an exact Homework/Schedule deep link"
+);
+
+const taskOneWriting = (byType["fill-blanks"] || []).filter((resource) =>
+  /^fill:model-essay-\d+-ielts-task1-(?:bar-charts|line-graph|pie-charts|process-diagram|tables|maps|mixed-charts)$/.test(resource.id)
+);
+assert.equal(taskOneWriting.length, 60, "all 60 logical IELTS Writing Task 1 fill-in-the-blanks sets should be indexed");
+assert.equal(
+  taskOneWriting.find((resource) => resource.id === "fill:model-essay-1-ielts-task1-bar-charts")?.url,
+  "writing-practice.html?exercise=model-essay-1-ielts-task1-bar-charts",
+  "Task 1 Bar Chart 1 should have an exact Homework/Schedule deep link"
+);
+assert.equal(
+  taskOneWriting.find((resource) => resource.id === "fill:model-essay-11-ielts-task1-tables")?.detail,
+  "IELTS Writing Task 1 · Tables",
+  "Task 1 Table 11 should retain its source-derived type in the picker"
+);
+assert.equal(
+  taskOneWriting.find((resource) => resource.id === "fill:model-essay-9-ielts-task1-maps")?.url,
+  "writing-practice.html?exercise=model-essay-9-ielts-task1-maps",
+  "Task 1 Maps 9 should remain available in Writing Practice even without a matching Flash Cards deck"
+);
+assert.equal(
+  taskOneWriting.find((resource) => resource.id === "fill:model-essay-7-ielts-task1-mixed-charts")?.url,
+  "writing-practice.html?exercise=model-essay-7-ielts-task1-mixed-charts",
+  "Task 1 Mixed Charts 7 should have an exact Homework/Schedule deep link"
 );
 
 const taskTwoFlashcards = (byType.flashcards || []).filter((resource) => resource.id.startsWith("flash:ielts/writing/task-2/"));

@@ -40,6 +40,13 @@ jobs:
           node tools/test-ielts-writing-task1-flashcards.mjs
           node tools/test-ielts-writing-task1-audio.mjs
 
+      - name: Validate IELTS Writing Task 1 practice, downloads, voice and reciprocal links
+        run: |
+          node tools/test-ielts-writing-task1-practice.mjs
+          node tools/test-ielts-task1-download-catalog.mjs
+          node tools/test-essay-portal-links.mjs
+          node tools/test-writing-translation-toggle.mjs
+
       - name: Validate Schedule System and Mass Edit clipboard
         run: |
           node tools/test-schedule-clipboard.mjs

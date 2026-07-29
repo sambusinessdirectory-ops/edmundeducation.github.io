@@ -4375,7 +4375,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="flashcards-ielts-writing-data.js?v=20260713-1"></script>
-  <script src="essay-portal-links.js?v=20260727-1"></script>
+  <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260728-2"></script>
   <script>
 window.EDMUND_FLASHCARD_SEED = {
@@ -189346,7 +189346,12 @@ window.EDMUND_FLASHCARD_SEED = {
         () => `
           <div class="option-column">
             <h3>${escapeHtml(type)}</h3>
-            ${rows.map(row => optionButton(row.title, row.deckId, row.fullTitle)).join("")}
+            ${rows.map(row => optionButton(
+              row.title,
+              row.deckId,
+              row.fullTitle,
+              flashEssayPortalLinksHtml(row.deckId)
+            )).join("")}
           </div>
         `,
         "columns-grid one"
@@ -190270,7 +190275,11 @@ window.EDMUND_FLASHCARD_SEED = {
         return false;
       }
       requestedEssayOpened = true;
-      showIeltsWritingTask2Questions(target.definition.flashType);
+      if (target.definition.task === 1) {
+        showIeltsWritingTask1Decks(target.definition.flashType);
+      } else {
+        showIeltsWritingTask2Questions(target.definition.flashType);
+      }
       openDeckStart(deckId);
       return true;
     }

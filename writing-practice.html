@@ -3415,8 +3415,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=2"></script>
-  <script src="writing-audio-manifest.js?v=writing-audio-v5-20260726-2"></script>
+  <script src="writing-audio-manifest.js?v=writing-audio-v5-20260730-1"></script>
   <script src="writing-practice-dse-part-a-data.js?v=20260726-2"></script>
+  <script src="writing-practice-ielts-task1-data.js?v=20260730-1"></script>
   <script src="writing-practice-dse-2025-q3-data.js?v=20260722-1"></script>
   <script src="writing-practice-dse-2022-q3-data.js?v=20260712-1"></script>
   <script src="writing-practice-dse-2024-q5-data.js?v=20260722-1"></script>
@@ -3434,7 +3435,7 @@
   <script src="writing-practice-model-essays-direct-39-48-data.js?v=20260715-1"></script>
   <script src="writing-practice-hkpf-compositions-data.js?v=20260715-1"></script>
   <script src="writing-progression-data.js?v=20260727-1"></script>
-  <script src="essay-portal-links.js?v=20260727-1"></script>
+  <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260728-2"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
@@ -3482,7 +3483,50 @@
             key: "task-1",
             label: "Task 1 (Charts)",
             subline: "圖表寫作",
-            essayTypes: []
+            essayTypes: [
+              {
+                key: "bar-charts",
+                label: "Bar Charts",
+                subline: "柱狀圖",
+                deckIds: Array.from({ length: 8 }, (_, index) => `model-essay-${index + 1}-ielts-task1-bar-charts`)
+              },
+              {
+                key: "line-graph",
+                label: "Line Graph",
+                subline: "折線圖",
+                deckIds: Array.from({ length: 9 }, (_, index) => `model-essay-${index + 1}-ielts-task1-line-graph`)
+              },
+              {
+                key: "pie-charts",
+                label: "Pie Charts",
+                subline: "圓餅圖",
+                deckIds: Array.from({ length: 6 }, (_, index) => `model-essay-${index + 1}-ielts-task1-pie-charts`)
+              },
+              {
+                key: "process-diagram",
+                label: "Process Diagram",
+                subline: "流程圖",
+                deckIds: Array.from({ length: 9 }, (_, index) => `model-essay-${index + 1}-ielts-task1-process-diagram`)
+              },
+              {
+                key: "maps",
+                label: "Maps",
+                subline: "地圖題",
+                deckIds: Array.from({ length: 10 }, (_, index) => `model-essay-${index + 1}-ielts-task1-maps`)
+              },
+              {
+                key: "tables",
+                label: "Tables",
+                subline: "表格題",
+                deckIds: Array.from({ length: 11 }, (_, index) => `model-essay-${index + 1}-ielts-task1-tables`)
+              },
+              {
+                key: "mixed-charts",
+                label: "Mixed Charts",
+                subline: "混合圖表",
+                deckIds: Array.from({ length: 7 }, (_, index) => `model-essay-${index + 1}-ielts-task1-mixed-charts`)
+              }
+            ]
           },
           {
             key: "task-2",
@@ -3852,6 +3896,7 @@
       window.EDMUND_DSE_WRITING_EXERCISES,
       window.EDMUND_DSE_WRITING_2022_EXERCISES,
       window.EDMUND_DSE_WRITING_2024_EXERCISES,
+      window.EDMUND_IELTS_WRITING_TASK1_EXERCISES,
       window.EDMUND_IELTS_WRITING_EXERCISES,
       window.EDMUND_IELTS_WRITING_OPINIONS_3_16_EXERCISES,
       window.EDMUND_IELTS_WRITING_17_52_EXERCISES,
@@ -7094,6 +7139,11 @@ Device: concession 讓步
         .find(type => type.key === essayTypeKey) || null;
     }
 
+    function getPathwayTaskForEssayType(pathway, essayTypeKey) {
+      return pathway?.tasks
+        ?.find(task => (task.essayTypes || []).some(type => type.key === essayTypeKey)) || null;
+    }
+
     function exerciseIdsForPathwayItem(item) {
       if (!item) return [];
       if (Array.isArray(item.deckIds)) return item.deckIds;
@@ -7204,8 +7254,10 @@ Device: concession 讓步
           });
         }
       } else if (pathway?.tasks) {
+        const selectedEssayTask = getPathwayTaskForEssayType(pathway, currentEssayTypeKey);
         const taskKey = ancestry.taskKey
-          || (["task-2", "category"].includes(currentPathwayLevel) || currentEssayTypeKey ? "task-2" : "");
+          || selectedEssayTask?.key
+          || (String(currentPathwayLevel).startsWith("task-") ? currentPathwayLevel : "");
         const task = getPathwayTask(pathway, taskKey);
         if (task) {
           entries.push({
@@ -7221,7 +7273,7 @@ Device: concession 讓步
             route: {
               view: "essay-type",
               sectionKey: currentExerciseSectionKey,
-              taskKey: taskKey || "task-2",
+              taskKey,
               essayTypeKey
             }
           });
@@ -7321,7 +7373,9 @@ Device: concession 讓步
         resetDseWritingPathwayState();
         resetGovernmentWritingPathwayState();
         currentEssayTypeKey = "";
-        currentPathwayLevel = route.taskKey === "task-2" ? "task-2" : "";
+        currentPathwayLevel = getPathwayTask(writingPathways[currentExerciseSectionKey], route.taskKey)
+          ? route.taskKey
+          : "";
         currentExerciseId = "";
       } else if (route.view === "essay-type") {
         resetDseWritingPathwayState();
@@ -7538,14 +7592,14 @@ Device: concession 讓步
         return renderGovernmentWritingPathwayView(pathway);
       }
 
-      if (currentPathwayLevel === "task-2") {
-        const task = getPathwayTask(pathway, "task-2");
+      if (String(currentPathwayLevel).startsWith("task-")) {
+        const task = getPathwayTask(pathway, currentPathwayLevel);
         return `
           <div class="pathway-card">
             <div class="pathway-head">
               <div>
-                <h2>Task 2 Essay Types</h2>
-                <p>選擇 IELTS Task 2 題型，再進入指定文章練習。</p>
+                <h2>${escapeHtml(task?.label || "Writing Types")}</h2>
+                <p>選擇 ${escapeHtml(task?.label || "IELTS Writing")} 題型，再進入指定文章練習。</p>
               </div>
               <button class="secondary-button" type="button" data-pathway-back>返回 Writing</button>
             </div>
@@ -7564,6 +7618,7 @@ Device: concession 讓步
 
       if (currentPathwayLevel === "category") {
         const essayType = getPathwayEssayType(pathway, currentEssayTypeKey);
+        const parentTask = getPathwayTaskForEssayType(pathway, currentEssayTypeKey);
         const decks = (essayType?.deckIds || []).map(exerciseById).filter(Boolean);
         return `
           <div class="pathway-card">
@@ -7572,7 +7627,7 @@ Device: concession 讓步
                 <h2>${escapeHtml(essayType?.label || "Essay Decks")}</h2>
                 <p>${escapeHtml(essayType?.subline || "請選擇文章。")}</p>
               </div>
-              <button class="secondary-button" type="button" data-pathway-back>返回 Task 2</button>
+              <button class="secondary-button" type="button" data-pathway-back>返回 ${escapeHtml(parentTask?.label || "Writing")}</button>
             </div>
             <div class="pathway-list">
               ${decks.length ? decks.map(exercise => {
@@ -7605,7 +7660,7 @@ Device: concession 讓步
               subline: task.subline,
               exerciseIds: exerciseIdsForPathwayItem(task),
               action: `data-open-pathway-task="${escapeHtml(task.key)}"`,
-              locked: task.key !== "task-2" && !exerciseIdsForPathwayItem(task).length
+              locked: !exerciseIdsForPathwayItem(task).length
             })).join("")}
           </div>
         </div>
@@ -12031,6 +12086,9 @@ Device: concession 讓步
         }
 
         if (event.target.closest("[data-back-writing-pathway]")) {
+          const returningTaskKey = writingExerciseAncestry(currentExerciseSectionKey, currentExerciseId).taskKey
+            || getPathwayTaskForEssayType(writingPathways[currentExerciseSectionKey], currentEssayTypeKey)?.key
+            || "";
           currentExerciseId = "";
           currentEssayTab = "essay";
           practiceState = null;
@@ -12039,7 +12097,7 @@ Device: concession 讓步
           } else if (currentExerciseSectionKey === "government-writing") {
             currentPathwayLevel = currentGovernmentDepartmentKey ? "government-department" : "";
           } else {
-            currentPathwayLevel = currentEssayTypeKey ? "category" : "task-2";
+            currentPathwayLevel = currentEssayTypeKey ? "category" : returningTaskKey;
           }
           renderExerciseView();
           return;
@@ -12072,7 +12130,9 @@ Device: concession 讓步
         if (pathwayTaskButton) {
           if (pathwayTaskButton.getAttribute("aria-disabled") === "true") return;
           const taskKey = pathwayTaskButton.getAttribute("data-open-pathway-task") || "";
-          currentPathwayLevel = taskKey === "task-2" ? "task-2" : "";
+          currentPathwayLevel = getPathwayTask(writingPathways[currentExerciseSectionKey], taskKey)
+            ? taskKey
+            : "";
           currentEssayTypeKey = "";
           currentExerciseId = "";
           renderExerciseView();
@@ -12130,7 +12190,10 @@ Device: concession 讓步
             currentPathwayLevel = "";
             resetGovernmentWritingPathwayState();
           } else if (currentPathwayLevel === "category") {
-            currentPathwayLevel = "task-2";
+            currentPathwayLevel = getPathwayTaskForEssayType(
+              writingPathways[currentExerciseSectionKey],
+              currentEssayTypeKey
+            )?.key || "";
             currentEssayTypeKey = "";
           } else {
             currentPathwayLevel = "";
