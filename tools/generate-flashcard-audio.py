@@ -49,6 +49,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
+        "flashcards-ielts-writing-task1-data.js",
+        "window.EDMUND_IELTS_WRITING_TASK1_SEED = ",
+        None,
+    ),
+    (
         "flashcards-dse-writing-part-a-data.js",
         "window.EDMUND_DSE_WRITING_PART_A_SEED = ",
         None,
@@ -222,6 +227,13 @@ SPOKEN_OVERRIDES = {
     "£6 million": "six million pounds",
     "a $50 fine": "a fifty dollar fine",
     "under $1 per gallon": "under one dollar per gallon",
+    "solar/wind": "solar and wind",
+    "producing…and consuming…": "producing a quantity and consuming another quantity",
+    "at…for production": "at a figure for production",
+    "generating…and using…": "generating a quantity and using another quantity",
+    "produced…but consumed only…": "produced a quantity but consumed only another quantity",
+    "with production between…and…": "with production between one figure and another",
+    "converts the energy from…into…": "converts the energy from one form into another",
 }
 
 
@@ -264,6 +276,10 @@ def spoken_text(display_text: str) -> str:
     """Apply conservative pronunciation fixes without changing the manifest key."""
     text = SPOKEN_OVERRIDES.get(display_text, display_text)
     text = re.sub(r"(?:\.{3}|…+)", ", ", text)
+    text = re.sub(r"(?<![\w.])−\s*(\d+(?:\.\d+)?)\s*%", r"minus \1 percent", text)
+    text = re.sub(r"(?<=\d)\s*[–—]\s*(?=(?:[$£€]\s*)?\d)", " to ", text)
+    text = re.sub(r"\bsolar\s*/\s*wind\b", "solar and wind", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bkWh\b", "kilowatt-hours", text, flags=re.IGNORECASE)
     text = re.sub(r"\b24/7\b", "twenty-four seven", text)
     text = re.sub(r"\band/or\b", "and or", text, flags=re.IGNORECASE)
     text = re.sub(r"\bCOVID-19\b", "COVID nineteen", text, flags=re.IGNORECASE)
@@ -286,7 +302,8 @@ def spoken_text(display_text: str) -> str:
     text = re.sub(r"\bH K\$\s*([\d,]+)", r"\1 Hong Kong dollars", text)
     text = re.sub(r"\bHK\$\s*([\d,]+)", r"\1 Hong Kong dollars", text)
     text = re.sub(r"\$\s*([\d,]+)", r"\1 dollars", text)
-    text = re.sub(r"\b(\d+)\s*km\b", r"\1 kilometres", text, flags=re.IGNORECASE)
+    text = re.sub(r"\b([\d,]+(?:\.\d+)?)\s*cm\b", r"\1 centimetres", text, flags=re.IGNORECASE)
+    text = re.sub(r"\b([\d,]+(?:\.\d+)?)\s*km\b", r"\1 kilometres", text, flags=re.IGNORECASE)
     text = re.sub(r"\b(\d+)\s+am\b", r"\1 a.m.", text, flags=re.IGNORECASE)
     text = re.sub(r"\s+", " ", text).strip(" ,")
     text = re.sub(r"\s+,", ",", text)

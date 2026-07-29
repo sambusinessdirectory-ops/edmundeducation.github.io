@@ -65,6 +65,19 @@ def main() -> int:
         "back in 1980": "back in nineteen eighty",
         "by the 1980s": "by the nineteen eighties",
         "measure 95 cm by 65 cm": "measure ninety-five centimetres by sixty-five centimetres",
+        "−3%": "minus 3 percent",
+        "8–9 units": "8 to 9 units",
+        "solar/wind": "solar and wind",
+        "530.7 billion kWh": "530.7 billion kilowatt-hours",
+        "3–8 cm": "3 to 8 centimetres",
+        "to a depth of 4.5 km": "to a depth of 4.5 kilometres",
+        "$75,000–$99,999 group": "75,000 dollars to 99,999 dollars group",
+        "producing…and consuming…": "producing a quantity and consuming another quantity",
+        "at…for production": "at a figure for production",
+        "generating…and using…": "generating a quantity and using another quantity",
+        "produced…but consumed only…": "produced a quantity but consumed only another quantity",
+        "with production between…and…": "with production between one figure and another",
+        "converts the energy from…into…": "converts the energy from one form into another",
     }
     failures = []
     for display_text, expected in cases.items():

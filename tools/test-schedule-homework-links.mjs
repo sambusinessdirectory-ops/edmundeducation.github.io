@@ -29,7 +29,7 @@ const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
-assert.equal((byType.flashcards || []).length, 745, "all current static and lazy-loaded flashcard leaf decks should be indexed");
+assert.equal((byType.flashcards || []).length, 777, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 250, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 114, "all sentence structure lessons should be indexed");
@@ -37,6 +37,21 @@ assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundB
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
 assert.ok(ids.has("speaking:ielts-part-2-book-1-exercise-01"));
 assert.ok(ids.has("sentence:ss114"));
+
+const taskOneChartFlashcards = (byType.flashcards || []).filter((resource) =>
+  /^flash:ielts\/writing\/task-1\/(?:bar-charts|line-graphs|pie-charts|process-diagrams)\//.test(resource.id)
+);
+assert.equal(taskOneChartFlashcards.length, 32, "all supplied IELTS Writing Task 1 chart decks should be indexed");
+assert.equal(
+  taskOneChartFlashcards.find((resource) => resource.id === "flash:ielts/writing/task-1/bar-charts/bar-chart-1")?.url,
+  "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fbar-charts%2Fbar-chart-1",
+  "Bar Chart 1 should have an exact Homework/Schedule deep link"
+);
+assert.equal(
+  taskOneChartFlashcards.find((resource) => resource.id === "flash:ielts/writing/task-1/process-diagrams/process-diagram-9")?.detail,
+  "IELTS / Writing / Task 1 / Process Diagrams / Process Diagram 9 · 63 cards",
+  "Process Diagram 9 should retain its source-derived card count in the picker"
+);
 
 const taskTwoFlashcards = (byType.flashcards || []).filter((resource) => resource.id.startsWith("flash:ielts/writing/task-2/"));
 assert.equal(taskTwoFlashcards.length, 232, "every current non-empty IELTS Task 2 flashcard deck should be indexed");

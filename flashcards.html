@@ -184141,6 +184141,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-ielts-writing-express-4-31-data.js?v=20260714-1"></script>
   <script src="flashcards-ielts-writing-opinions-3-38-express-32-43-data.js?v=20260714-1"></script>
   <script src="flashcards-ielts-writing-opinions-39-82-data.js?v=20260713-1"></script>
+  <script src="flashcards-ielts-writing-task1-data.js?v=20260729-1"></script>
   <script src="flashcards-dse-writing-part-a-data.js?v=20260726-1"></script>
   <script src="flashcards-dse-listening-data.js?v=20260726-2"></script>
   <script src="flashcards-dse-paper3-b2-2024-data.js?v=20260725-1"></script>
@@ -184155,7 +184156,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-dse-speaking-2019-data.js?v=20260713-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260726-3"></script>
+  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260729-1"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -184311,6 +184312,43 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     const ieltsWritingTask1Types = ["Tables", "Pie Charts", "Bar Charts", "Line Graphs", "Process Diagrams", "Maps", "Mixed Charts"];
+    const ieltsWritingTask1Decks = window.EDMUND_IELTS_WRITING_TASK1_SEED || {};
+    const ieltsWritingTask1DeckTitles = window.EDMUND_IELTS_WRITING_TASK1_TITLES || {};
+    const ieltsWritingTask1DeckTypeRoutes = new Map([
+      ["Bar Charts", "ielts-writing-task1-type|bar-charts"],
+      ["Line Graphs", "ielts-writing-task1-type|line-graphs"],
+      ["Pie Charts", "ielts-writing-task1-type|pie-charts"],
+      ["Process Diagrams", "ielts-writing-task1-type|process-diagrams"]
+    ]);
+
+    function ieltsWritingTask1TypeLabel(typeSlug) {
+      return ieltsWritingTask1Types.find(type => slugifyLabel(type) === typeSlug) || "";
+    }
+
+    function ieltsWritingTask1DeckRows(typeLabelOrSlug) {
+      const typeLabel = ieltsWritingTask1Types.includes(typeLabelOrSlug)
+        ? typeLabelOrSlug
+        : ieltsWritingTask1TypeLabel(typeLabelOrSlug);
+      if (!typeLabel) return [];
+      const typeSlug = slugifyLabel(typeLabel);
+      const typeId = `ielts/writing/task-1/${typeSlug}`;
+      const prefix = `${typeId}/`;
+      return Object.keys(ieltsWritingTask1Decks)
+        .filter(deckId => deckId.startsWith(prefix) && !deckId.slice(prefix.length).includes("/"))
+        .map(deckId => {
+          const title = ieltsWritingTask1DeckTitles[deckId] || titlePart(deckId.slice(prefix.length));
+          return {
+            deckId,
+            title,
+            fullTitle: `IELTS / Writing / Task 1 (Charts) / ${typeLabel} / ${title}`
+          };
+        })
+        .sort((left, right) => left.deckId.localeCompare(right.deckId, "en-HK", { numeric: true }));
+    }
+
+    ieltsWritingTask1Types.forEach(typeLabel => {
+      ieltsWritingTask1DeckRows(typeLabel).forEach(row => deckTitleLabels.set(row.deckId, row.fullTitle));
+    });
     const ieltsWritingTask2Types = [
       { key: "opinions", label: "Opinions" },
       { key: "discuss-both-views-your-opinion", label: "Discuss both views + Your opinion" },
@@ -187569,7 +187607,17 @@ window.EDMUND_FLASHCARD_SEED = {
 
       addAggregate("ielts/writing", "IELTS / Writing", 2);
       addAggregate("ielts/writing/task-1", "IELTS / Writing / Task 1 (Charts)", ieltsWritingTask1Types.length);
-      ieltsWritingTask1Types.forEach(type => addExact(deckIdForLabel("ielts/writing/task-1", type, true), `IELTS / Writing / Task 1 (Charts) / ${type}`));
+      ieltsWritingTask1Types.forEach(type => {
+        const typeId = deckIdForLabel("ielts/writing/task-1", type, true);
+        const typeTitle = `IELTS / Writing / Task 1 (Charts) / ${type}`;
+        const rows = ieltsWritingTask1DeckRows(type);
+        if (!rows.length) {
+          addExact(typeId, typeTitle);
+          return;
+        }
+        addAggregate(typeId, typeTitle, rows.length);
+        rows.forEach(row => addExact(row.deckId, row.fullTitle));
+      });
       addAggregate("ielts/writing/task-2", "IELTS / Writing / Task 2 (Essay)", ieltsWritingTask2Types.length);
       ieltsWritingTask2Types.forEach(type => {
         const typeId = `ielts/writing/task-2/${type.key}`;
@@ -189267,7 +189315,37 @@ window.EDMUND_FLASHCARD_SEED = {
       showOptions(
         "IELTS Writing Task 1 (Charts)",
         "選擇圖表類型。",
-        () => columnHtml("Task 1 (Charts)", ieltsWritingTask1Types, "ielts/writing/task-1", { useSlugs: true }),
+        () => `
+          <div class="option-column">
+            <h3>Task 1 (Charts)</h3>
+            ${ieltsWritingTask1Types.map(type => {
+              const typeId = deckIdForLabel("ielts/writing/task-1", type, true);
+              const rows = ieltsWritingTask1DeckRows(type);
+              const route = ieltsWritingTask1DeckTypeRoutes.get(type);
+              if (!rows.length || !route) return optionButton(type, typeId);
+              const html = routeOptionButton(type, route, typeId);
+              deckTitleLabels.set(typeId, `IELTS / Writing / Task 1 (Charts) / ${type}`);
+              return html;
+            }).join("")}
+          </div>
+        `,
+        "columns-grid one"
+      );
+    }
+
+    function showIeltsWritingTask1Decks(typeSlug) {
+      const type = ieltsWritingTask1TypeLabel(typeSlug);
+      const rows = ieltsWritingTask1DeckRows(typeSlug);
+      if (!type || !rows.length) return;
+      showOptions(
+        `IELTS Writing Task 1 - ${type}`,
+        `${rows.length} decks`,
+        () => `
+          <div class="option-column">
+            <h3>${escapeHtml(type)}</h3>
+            ${rows.map(row => optionButton(row.title, row.deckId, row.fullTitle)).join("")}
+          </div>
+        `,
         "columns-grid one"
       );
     }
@@ -192650,6 +192728,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (route === "ielts-reading") await showIeltsReading();
           if (route === "ielts-writing") showIeltsWriting();
           if (route === "ielts-writing-task1") showIeltsWritingTask1();
+          if (route.startsWith("ielts-writing-task1-type|")) showIeltsWritingTask1Decks(route.split("|")[1]);
           if (route === "ielts-writing-task2") showIeltsWritingTask2();
           if (route.startsWith("ielts-writing-task2|")) showIeltsWritingTask2Questions(route.split("|")[1]);
           if (route === "ielts-listening") showIeltsListening();
