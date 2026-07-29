@@ -40,9 +40,9 @@ function fail(message) {
   throw new Error(message);
 }
 
-if (files.length !== 52 || workerFiles.length !== 52 || meta.total !== 52) {
+if (files.length !== 62 || workerFiles.length !== 62 || meta.total !== 62) {
   fail(
-    `Expected 52 records in both catalogs and meta; ` +
+    `Expected 62 records in both catalogs and meta; ` +
     `got client=${files.length}, worker=${workerFiles.length}, meta=${meta.total}`
   );
 }
@@ -57,7 +57,7 @@ const expectedCategories = {
   "pie-charts": 7,
   "process-diagram": 10,
   maps: 10,
-  tables: 1,
+  tables: 11,
   "mixed-charts": 7
 };
 
@@ -82,9 +82,9 @@ for (const item of files) {
   if (!Number.isInteger(item.number) || item.number < 1) {
     fail(`Invalid model essay number for ${item.filename}`);
   }
-  if (![1, 2].includes(item.batch)) fail(`Invalid batch for ${item.filename}`);
-  if (item.batch === 1 && item.analysisIncluded !== true) {
-    fail(`First-batch analysis flag is incorrect for ${item.filename}`);
+  if (![1, 2, 3].includes(item.batch)) fail(`Invalid batch for ${item.filename}`);
+  if (item.batch !== 2 && item.analysisIncluded !== true) {
+    fail(`Analysis flag is incorrect for ${item.filename}`);
   }
   if (item.batch === 2 && item.analysisIncluded !== false) {
     fail(`Second-batch analysis flag is incorrect for ${item.filename}`);
@@ -121,7 +121,9 @@ for (const workerItem of workerFiles) {
   }
   const expectedPrefix = clientItem.batch === 2
     ? "IELTS Writing Task 1/IELTS Writing Task 2 - Second Batch"
-    : "IELTS Writing Task 1";
+    : clientItem.batch === 3
+      ? "IELTS Writing Task 1/IELTS Writing Task 3 - Third Batch"
+      : "IELTS Writing Task 1";
   if (workerItem.key !== `${expectedPrefix}/${workerItem.filename}`) {
     fail(`Incorrect R2 key for ${workerItem.filename}`);
   }
@@ -134,10 +136,10 @@ const html = await fs.readFile(htmlPath, "utf8");
 const client = await fs.readFile(clientPath, "utf8");
 
 if (!html.includes('data-open-catalog="task1"')) fail("Task 1 chooser card is missing");
-if (!html.includes('<script src="ielts-task1-downloads.js?v=20260729-1"></script>')) {
+if (!html.includes('<script src="ielts-task1-downloads.js?v=20260729-2"></script>')) {
   fail("Task 1 manifest script is missing");
 }
-if (!html.includes('<span class="card-tag">52 份 Band 9 範文</span>')) {
+if (!html.includes('<span class="card-tag">62 份 Band 9 範文</span>')) {
   fail("Task 1 chooser card count is incorrect");
 }
 if (html.indexOf("ielts-task1-downloads.js") > html.indexOf("model-essay-downloads.js")) {
