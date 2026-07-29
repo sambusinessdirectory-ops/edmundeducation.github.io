@@ -38,11 +38,11 @@ Deployment notes:
 6. Test the Worker URL, login, one PDF, 11 selected PDFs, and download-all for
    DSE Writing Part A, IELTS Task 1, Task 2, IELTS Speaking, and each IELTS Reading passage, plus the matching
    admin audit rows.
-7. Keep the Task 2 bucket private. The existing IELTS Speaking objects may
-   remain on the public `r2.dev` domain, as may the IELTS Reading objects, but
+7. Keep the Task 2 bucket private. The existing IELTS Task 1, Speaking, and
+   Reading objects may remain on the public `r2.dev` domain, but
    the portal deliberately routes downloads through this Worker to force
    attachment downloads, build ZIPs, apply the shared IELTS permission, and
-   record audit events. Both public collections use the existing
+   record audit events. These public collections use the existing
    `SPEAKING_ASSETS` binding for the `edmund-assets` bucket.
 
 The browser sends only catalog IDs to the ZIP endpoints. The Worker-owned
@@ -51,6 +51,15 @@ Regenerate DSE Writing Part A with `tools/build-dse-writing-part-a-download-cata
 IELTS Task 1 with `tools/build-ielts-task1-download-catalog.py`,
 Task 2 with `tools/build-model-essay-catalog.py`, and IELTS Speaking
 with `tools/build-ielts-speaking-download-catalog.py` whenever PDFs change.
+The Task 1 builder requires both local batches because it generates one combined
+52-file catalogue while preserving each batch's exact R2 prefix:
+
+```bash
+python3 tools/build-ielts-task1-download-catalog.py \
+  "/path/to/IELTS All Model Essays - Task 1" \
+  --second-source "/path/to/IELTS All Model Essay - Task 1 - Second Batch"
+```
+
 Regenerate all three IELTS Reading passage catalogs with
 `tools/build-ielts-reading-download-catalog.py` whenever their PDFs or passage
 titles change.

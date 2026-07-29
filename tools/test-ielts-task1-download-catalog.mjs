@@ -40,9 +40,9 @@ function fail(message) {
   throw new Error(message);
 }
 
-if (files.length !== 35 || workerFiles.length !== 35 || meta.total !== 35) {
+if (files.length !== 52 || workerFiles.length !== 52 || meta.total !== 52) {
   fail(
-    `Expected 35 records in both catalogs and meta; ` +
+    `Expected 52 records in both catalogs and meta; ` +
     `got client=${files.length}, worker=${workerFiles.length}, meta=${meta.total}`
   );
 }
@@ -53,12 +53,12 @@ if (new Set([...task2Files, ...files].map(item => item.id)).size !== task2Files.
 
 const expectedCategories = {
   "bar-charts": 8,
-  "line-graph": 7,
+  "line-graph": 9,
   "pie-charts": 7,
   "process-diagram": 10,
-  maps: 1,
+  maps: 10,
   tables: 1,
-  "mixed-charts": 1
+  "mixed-charts": 7
 };
 
 const clientById = new Map();
@@ -81,6 +81,13 @@ for (const item of files) {
   }
   if (!Number.isInteger(item.number) || item.number < 1) {
     fail(`Invalid model essay number for ${item.filename}`);
+  }
+  if (![1, 2].includes(item.batch)) fail(`Invalid batch for ${item.filename}`);
+  if (item.batch === 1 && item.analysisIncluded !== true) {
+    fail(`First-batch analysis flag is incorrect for ${item.filename}`);
+  }
+  if (item.batch === 2 && item.analysisIncluded !== false) {
+    fail(`Second-batch analysis flag is incorrect for ${item.filename}`);
   }
 
   clientById.set(item.id, item);
@@ -112,7 +119,10 @@ for (const workerItem of workerFiles) {
   if (workerItem.filename !== clientItem.filename || workerItem.bytes !== clientItem.bytes) {
     fail(`Client/Worker mismatch for ${workerItem.id}`);
   }
-  if (workerItem.key !== `IELTS Writing Task 1/${workerItem.filename}`) {
+  const expectedPrefix = clientItem.batch === 2
+    ? "IELTS Writing Task 1/IELTS Writing Task 2 - Second Batch"
+    : "IELTS Writing Task 1";
+  if (workerItem.key !== `${expectedPrefix}/${workerItem.filename}`) {
     fail(`Incorrect R2 key for ${workerItem.filename}`);
   }
   if (!Number.isInteger(workerItem.crc32) || workerItem.crc32 < 0 || workerItem.crc32 > 0xFFFFFFFF) {
@@ -124,8 +134,11 @@ const html = await fs.readFile(htmlPath, "utf8");
 const client = await fs.readFile(clientPath, "utf8");
 
 if (!html.includes('data-open-catalog="task1"')) fail("Task 1 chooser card is missing");
-if (!html.includes('<script src="ielts-task1-downloads.js?v=20260728-1"></script>')) {
+if (!html.includes('<script src="ielts-task1-downloads.js?v=20260729-1"></script>')) {
   fail("Task 1 manifest script is missing");
+}
+if (!html.includes('<span class="card-tag">52 份 Band 9 範文</span>')) {
+  fail("Task 1 chooser card count is incorrect");
 }
 if (html.indexOf("ielts-task1-downloads.js") > html.indexOf("model-essay-downloads.js")) {
   fail("Task 1 manifest must load before the portal client");

@@ -118,7 +118,7 @@
       emptyTitle: "找不到符合條件的 Task 1 範文",
       emptyCopy: "請嘗試另一個關鍵字或題型篩選。",
       allTitle: "確定下載全部 Task 1 範文？",
-      allCopy: "系統會把全部 35 份 IELTS Writing Task 1 Band 9 範文整理成一個 ZIP 檔案。檔案約 89 MB，下載可能需要一些時間。",
+      allCopy: `系統會把全部 ${task1Meta.total || task1Essays.length} 份 IELTS Writing Task 1 Band 9 範文整理成一個 ZIP 檔案。檔案約 ${Math.round(Number(task1Meta.totalBytes || 0) / 1048576)} MB，下載可能需要一些時間。`,
       allZipName: "Edmund-IELTS-Task-1-All-Model-Essays.zip",
       selectedZipPrefix: "Edmund-IELTS-Task-1-Selected",
       kicker: item => `MODEL ESSAY ${item.number}${item.variant > 1 ? " · VERSION 2" : ""}`,

@@ -18,11 +18,13 @@ globalThis.FixedLengthStream ||= class FixedLengthStream {
 };
 
 const source = process.argv[2];
-const selectedOutput = process.argv[3];
-const allOutput = process.argv[4];
-if (!source || !selectedOutput || !allOutput) {
+const secondSource = process.argv[3];
+const selectedOutput = process.argv[4];
+const allOutput = process.argv[5];
+if (!source || !secondSource || !selectedOutput || !allOutput) {
   throw new Error(
-    "Usage: test-ielts-task1-download-worker.mjs <Task 1 PDF folder> <selected ZIP output> <all ZIP output>"
+    "Usage: test-ielts-task1-download-worker.mjs <first Task 1 PDF folder> " +
+    "<second Task 1 PDF folder> <selected ZIP output> <all ZIP output>"
   );
 }
 
@@ -49,15 +51,24 @@ globalThis.fetch = async (url, options = {}) => {
   return originalFetch(url, options);
 };
 
-function task1Bucket(folder) {
+function task1Bucket(firstFolder, secondFolder) {
+  function localPath(key) {
+    const folder = String(key).startsWith(
+      "IELTS Writing Task 1/IELTS Writing Task 2 - Second Batch/"
+    )
+      ? secondFolder
+      : firstFolder;
+    return path.join(folder, path.basename(String(key)));
+  }
+
   return {
     async head(key) {
-      const bytes = await fs.readFile(path.join(folder, path.basename(key)));
+      const bytes = await fs.readFile(localPath(key));
       return { size: bytes.length, httpEtag: '"task1-test"' };
     },
     async get(key) {
       if (!String(key).startsWith("IELTS Writing Task 1/")) return null;
-      const bytes = await fs.readFile(path.join(folder, path.basename(key)));
+      const bytes = await fs.readFile(localPath(key));
       return {
         size: bytes.length,
         httpEtag: '"task1-test"',
@@ -67,7 +78,7 @@ function task1Bucket(folder) {
   };
 }
 
-const assets = task1Bucket(source);
+const assets = task1Bucket(source, secondSource);
 const env = {
   ALLOWED_ORIGIN: "https://edmundeducation.com",
   SUPABASE_URL: "https://example.supabase.co",
@@ -89,7 +100,7 @@ const healthResponse = await worker.fetch(
   ctx
 );
 const health = await healthResponse.json();
-if (healthResponse.status !== 200 || health.collections?.task1 !== 35) {
+if (healthResponse.status !== 200 || health.collections?.task1 !== TASK1_CATALOG.length) {
   throw new Error(`Task 1 health count is incorrect: ${JSON.stringify(health)}`);
 }
 

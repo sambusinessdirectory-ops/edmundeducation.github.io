@@ -16,35 +16,39 @@ from pathlib import Path
 
 
 R2_PREFIX = "IELTS Writing Task 1"
+SECOND_BATCH_R2_PREFIX = "IELTS Writing Task 1/IELTS Writing Task 2 - Second Batch"
 CATEGORIES = {
     "Bar Charts": ("bar-charts", "Bar Charts", 1, 8),
-    "Line Graph": ("line-graph", "Line Graph", 2, 7),
+    "Line Graph": ("line-graph", "Line Graph", 2, 9),
     "Pie Charts": ("pie-charts", "Pie Charts", 3, 7),
     "Process Diagram": ("process-diagram", "Process Diagram", 4, 10),
-    "Maps": ("maps", "Maps", 5, 1),
+    "Maps": ("maps", "Maps", 5, 10),
     "Tables": ("tables", "Tables", 6, 1),
-    "MIXED Charts": ("mixed-charts", "Mixed Charts", 7, 1),
+    "MIXED Charts": ("mixed-charts", "Mixed Charts", 7, 7),
 }
 FILENAME = re.compile(
-    r"Model Essay (\d+) - IELTS - (.+?) - \(Band 9 示範\) - Task 1(-1)?\.pdf",
+    r"(?P<without_analysis>\(Without Analysis\)\s+)?"
+    r"Model Essay (?P<number>\d+) - IELTS - (?P<category>.+?) "
+    r"- \(Band 9 示範\) - Task 1(?P<variant>-1)?\.pdf",
     flags=re.IGNORECASE,
 )
 
 
-def classify(filename: str) -> tuple[int, int, str, str, int]:
+def classify(filename: str) -> tuple[int, int, str, str, int, bool]:
     match = FILENAME.fullmatch(filename)
     if not match:
         raise ValueError(f"Unrecognised IELTS Task 1 filename: {filename}")
 
-    number = int(match.group(1))
-    raw_category = match.group(2)
+    number = int(match.group("number"))
+    raw_category = match.group("category")
     canonical = next((name for name in CATEGORIES if name.casefold() == raw_category.casefold()), None)
     if not canonical:
         raise ValueError(f"Unrecognised IELTS Task 1 category in {filename}: {raw_category}")
 
     category, label, order, _expected = CATEGORIES[canonical]
-    variant = 2 if match.group(3) else 1
-    return number, variant, category, label, order
+    variant = 2 if match.group("variant") else 1
+    analysis_included = not bool(match.group("without_analysis"))
+    return number, variant, category, label, order, analysis_included
 
 
 def page_count(pdf: Path, pdfinfo: str) -> int:
@@ -111,13 +115,15 @@ def render_thumbnail(pdf: Path, output: Path, pdftoppm: str, cwebp: str) -> None
 
 def build_entry(
     pdf: Path,
+    r2_prefix: str,
+    batch: int,
     thumbnail_dir: Path,
     pdftoppm: str,
     cwebp: str,
     pdfinfo: str,
 ) -> dict[str, object]:
     filename = pdf.name
-    number, variant, category, label, order = classify(filename)
+    number, variant, category, label, order, analysis_included = classify(filename)
     digest = hashlib.sha256(filename.encode("utf-8")).hexdigest()[:16]
     thumbnail_name = f"{digest}.webp"
     render_thumbnail(pdf, thumbnail_dir / thumbnail_name, pdftoppm, cwebp)
@@ -126,6 +132,8 @@ def build_entry(
         "id": digest,
         "number": number,
         "variant": variant,
+        "batch": batch,
+        "analysisIncluded": analysis_included,
         "filename": filename,
         "category": category,
         "categoryLabel": label,
@@ -134,14 +142,14 @@ def build_entry(
         "pages": page_count(pdf, pdfinfo),
         "bytes": pdf.stat().st_size,
         "crc32": crc32_for(pdf),
-        "key": f"{R2_PREFIX}/{filename}",
+        "key": f"{r2_prefix}/{filename}",
         "thumbnail": f"assets/ielts-task1/thumbnails/{thumbnail_name}",
     }
 
 
 def validate_inventory(entries: list[dict[str, object]]) -> None:
-    if len(entries) != 35:
-        raise ValueError(f"Expected 35 IELTS Task 1 PDFs, found {len(entries)}")
+    if len(entries) != 52:
+        raise ValueError(f"Expected 52 IELTS Task 1 PDFs, found {len(entries)}")
 
     for category_name, (category, _label, _order, expected) in CATEGORIES.items():
         actual = sum(1 for entry in entries if entry["category"] == category)
@@ -157,14 +165,34 @@ def validate_inventory(entries: list[dict[str, object]]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("source", type=Path, help="Folder containing the 35 IELTS Task 1 PDFs")
+    parser.add_argument("source", type=Path, help="Folder containing the first 35 IELTS Task 1 PDFs")
+    parser.add_argument(
+        "--second-source",
+        type=Path,
+        required=True,
+        help="Folder containing the 17 second-batch IELTS Task 1 PDFs",
+    )
+    parser.add_argument(
+        "--second-r2-prefix",
+        default=SECOND_BATCH_R2_PREFIX,
+        help="R2 prefix containing the second-batch PDFs",
+    )
     parser.add_argument("--site-root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--workers", type=int, default=6)
     args = parser.parse_args()
 
     source = args.source.expanduser().resolve()
+    second_source = args.second_source.expanduser().resolve()
     site_root = args.site_root.expanduser().resolve()
-    pdfs = sorted(source.glob("*.pdf"), key=lambda path: path.name.casefold())
+    source_groups = [
+        (source, R2_PREFIX, 1),
+        (second_source, str(args.second_r2_prefix).strip("/"), 2),
+    ]
+    pdfs = [
+        (pdf, r2_prefix, batch)
+        for folder, r2_prefix, batch in source_groups
+        for pdf in sorted(folder.glob("*.pdf"), key=lambda path: path.name.casefold())
+    ]
 
     pdftoppm = shutil.which("pdftoppm")
     cwebp = shutil.which("cwebp")
@@ -181,8 +209,17 @@ def main() -> None:
     entries: list[dict[str, object]] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.workers)) as executor:
         futures = [
-            executor.submit(build_entry, pdf, thumbnail_dir, pdftoppm, cwebp, pdfinfo)
-            for pdf in pdfs
+            executor.submit(
+                build_entry,
+                pdf,
+                r2_prefix,
+                batch,
+                thumbnail_dir,
+                pdftoppm,
+                cwebp,
+                pdfinfo,
+            )
+            for pdf, r2_prefix, batch in pdfs
         ]
         for future in concurrent.futures.as_completed(futures):
             entries.append(future.result())
@@ -196,6 +233,10 @@ def main() -> None:
         )
     )
     validate_inventory(entries)
+    expected_thumbnails = {f"{entry['id']}.webp" for entry in entries}
+    for thumbnail in thumbnail_dir.glob("*.webp"):
+        if thumbnail.name not in expected_thumbnails:
+            thumbnail.unlink()
 
     category_counts = {
         category: sum(1 for entry in entries if entry["category"] == category)
@@ -218,7 +259,7 @@ def main() -> None:
     manifest_path.write_text(
         "// Generated by tools/build-ielts-task1-download-catalog.py\n"
         f"window.EDMUND_IELTS_TASK1_DOWNLOADS=Object.freeze({json.dumps(public_entries, ensure_ascii=False, separators=(',', ':'))});\n"
-        f"window.EDMUND_IELTS_TASK1_META=Object.freeze({json.dumps({'total': len(entries), 'totalBytes': sum(int(entry['bytes']) for entry in entries), 'totalPages': sum(int(entry['pages']) for entry in entries), 'categoryCounts': category_counts, 'categoryBytes': category_bytes, 'categoryPages': category_pages, 'generatedFrom': source.name}, ensure_ascii=False, separators=(',', ':'))});\n",
+        f"window.EDMUND_IELTS_TASK1_META=Object.freeze({json.dumps({'total': len(entries), 'totalBytes': sum(int(entry['bytes']) for entry in entries), 'totalPages': sum(int(entry['pages']) for entry in entries), 'categoryCounts': category_counts, 'categoryBytes': category_bytes, 'categoryPages': category_pages, 'generatedFrom': [source.name, second_source.name]}, ensure_ascii=False, separators=(',', ':'))});\n",
         encoding="utf-8",
     )
 
