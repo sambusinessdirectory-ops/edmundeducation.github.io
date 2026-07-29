@@ -34,11 +34,30 @@ const families = [
     label: "Process Diagram",
     deckCounts: [54, 59, 52, 60, 53, 61, 52, 63, 63],
     pageCounts: [5, 6, 6, 6, 6, 6, 6, 7, 6]
+  },
+  {
+    slug: "tables",
+    label: "Table",
+    deckCounts: [69, 67, 55, 69, 76, 98, 92, 58, 85, 65, 95],
+    pageCounts: [7, 7, 6, 7, 7, 10, 10, 6, 9, 7, 10]
+  },
+  {
+    slug: "maps",
+    label: "Maps",
+    ordinals: [1, 2, 3, 4, 5, 6, 7, 8, 10],
+    deckCounts: [57, 63, 69, 61, 71, 65, 62, 58, 66],
+    pageCounts: [6, 7, 7, 7, 7, 7, 7, 6, 7]
+  },
+  {
+    slug: "mixed-charts",
+    label: "Mixed Charts",
+    deckCounts: [66, 81, 69, 74, 68, 88, 88],
+    pageCounts: [7, 9, 7, 8, 7, 8, 8]
   }
 ];
 
 const expectedDecks = families.flatMap(family => family.deckCounts.map((cardCount, index) => {
-  const ordinal = index + 1;
+  const ordinal = family.ordinals?.[index] ?? index + 1;
   const deckSlug = `${family.label.toLowerCase().replaceAll(" ", "-")}-${ordinal}`;
   return {
     familySlug: family.slug,
@@ -52,14 +71,14 @@ const expectedDecks = families.flatMap(family => family.deckCounts.map((cardCoun
 
 assert.deepEqual(
   families.map(family => family.deckCounts.length),
-  [8, 9, 6, 9],
-  "The family inventory must remain 8 Bar, 9 Line, 6 Pie and 9 Process decks"
+  [8, 9, 6, 9, 11, 9, 7],
+  "The family inventory must remain 8 Bar, 9 Line, 6 Pie, 9 Process, 11 Table, 9 Map and 7 Mixed decks"
 );
-assert.equal(expectedDecks.length, 32, "The fixed inventory must describe exactly 32 decks");
+assert.equal(expectedDecks.length, 59, "The fixed inventory must describe exactly 59 decks");
 assert.equal(
   expectedDecks.reduce((total, deck) => total + deck.cardCount, 0),
-  1696,
-  "The fixed per-deck counts must total 1,696 cards"
+  3631,
+  "The fixed per-deck counts must total 3,631 cards"
 );
 
 const dataPath = path.join(siteDir, dataFile);
@@ -79,7 +98,7 @@ assert.deepEqual(Object.keys(titles), expectedDeckIds, "Task 1 title keys must m
 assert.deepEqual(
   Object.keys(sandbox.window.EDMUND_FLASHCARD_SEED),
   expectedDeckIds,
-  "The data file must register exactly the 32 Task 1 decks in a fresh seed"
+  "The data file must register exactly the 59 Task 1 decks in a fresh seed"
 );
 
 const familyInventory = new Map(families.map(family => [family.slug, 0]));
@@ -135,14 +154,17 @@ for (const expected of expectedDecks) {
   }
 }
 
-assert.equal(cardRows, 1696, `Expected 1,696 Task 1 card rows, found ${cardRows}`);
+assert.equal(cardRows, 3631, `Expected 3,631 Task 1 card rows, found ${cardRows}`);
 assert.deepEqual(
   Object.fromEntries(familyInventory),
   {
     "bar-charts": 8,
     "line-graphs": 9,
     "pie-charts": 6,
-    "process-diagrams": 9
+    "process-diagrams": 9,
+    "tables": 11,
+    "maps": 9,
+    "mixed-charts": 7
   },
   "The generated family deck counts changed"
 );
@@ -152,8 +174,42 @@ assert.deepEqual(
     deckId: "ielts/writing/task-1/line-graphs/line-graph-1",
     front: "amateur dramatics",
     count: 2
+  }, {
+    deckId: "ielts/writing/task-1/maps/maps-5",
+    front: "after redevelopment",
+    count: 2
   }],
-  "Only the intentional duplicate ‘amateur dramatics’ may repeat within a deck"
+  "Only the two audited context-specific fronts may repeat within a deck"
+);
+
+assert.equal(
+  seed["ielts/writing/task-1/maps/maps-9"],
+  undefined,
+  "Maps 9 must remain absent until its source PDF is supplied"
+);
+const tableTenRepair = seed["ielts/writing/task-1/tables/table-10"].find(
+  card => card.front === "voluntary-controlled schools"
+);
+assert.equal(
+  tableTenRepair.examples[1].en,
+  "Voluntary-controlled schools are a type of state-funded school often linked to a foundation or religious organisation, but largely controlled by the local authority.",
+  "Table 10's source-column collision must retain the final English word"
+);
+assert.equal(
+  tableTenRepair.examples[1].zh,
+  "自願受控學校是一種通常與基金會或宗教組織有關、但主要由地方政府管理的公帑資助學校。",
+  "Table 10's source-column collision must retain a clean Chinese example"
+);
+const comparableCards = cards => cards.map(({ front, meaning, examples, sourcePage }) => ({
+  front,
+  meaning,
+  examples,
+  sourcePage
+}));
+assert.deepEqual(
+  comparableCards(seed["ielts/writing/task-1/mixed-charts/mixed-charts-7"]),
+  comparableCards(seed["ielts/writing/task-1/mixed-charts/mixed-charts-6"]),
+  "Mixed Charts 6 and 7 must preserve the byte-identical content supplied by the user"
 );
 
 const coexistenceSandbox = {

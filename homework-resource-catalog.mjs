@@ -6577,6 +6577,134 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fline-graphs%2Fline-graph-9"
   },
   {
+    "id": "flash:ielts/writing/task-1/maps/maps-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Writing / Task 1 / Maps / Maps 1",
+    "detail": "IELTS / Writing / Task 1 / Maps / Maps 1 · 57 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmaps%2Fmaps-1"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/maps/maps-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Writing / Task 1 / Maps / Maps 2",
+    "detail": "IELTS / Writing / Task 1 / Maps / Maps 2 · 63 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmaps%2Fmaps-2"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/maps/maps-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Writing / Task 1 / Maps / Maps 3",
+    "detail": "IELTS / Writing / Task 1 / Maps / Maps 3 · 69 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmaps%2Fmaps-3"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/maps/maps-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Writing / Task 1 / Maps / Maps 4",
+    "detail": "IELTS / Writing / Task 1 / Maps / Maps 4 · 61 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmaps%2Fmaps-4"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/maps/maps-5",
+    "type": "flashcards",
+    "ordinal": 5,
+    "label": "IELTS / Writing / Task 1 / Maps / Maps 5",
+    "detail": "IELTS / Writing / Task 1 / Maps / Maps 5 · 71 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmaps%2Fmaps-5"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/maps/maps-6",
+    "type": "flashcards",
+    "ordinal": 6,
+    "label": "IELTS / Writing / Task 1 / Maps / Maps 6",
+    "detail": "IELTS / Writing / Task 1 / Maps / Maps 6 · 65 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmaps%2Fmaps-6"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/maps/maps-7",
+    "type": "flashcards",
+    "ordinal": 7,
+    "label": "IELTS / Writing / Task 1 / Maps / Maps 7",
+    "detail": "IELTS / Writing / Task 1 / Maps / Maps 7 · 62 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmaps%2Fmaps-7"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/maps/maps-8",
+    "type": "flashcards",
+    "ordinal": 8,
+    "label": "IELTS / Writing / Task 1 / Maps / Maps 8",
+    "detail": "IELTS / Writing / Task 1 / Maps / Maps 8 · 58 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmaps%2Fmaps-8"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/maps/maps-10",
+    "type": "flashcards",
+    "ordinal": 10,
+    "label": "IELTS / Writing / Task 1 / Maps / Maps 10",
+    "detail": "IELTS / Writing / Task 1 / Maps / Maps 10 · 66 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmaps%2Fmaps-10"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/mixed-charts/mixed-charts-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 1",
+    "detail": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 1 · 66 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmixed-charts%2Fmixed-charts-1"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/mixed-charts/mixed-charts-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 2",
+    "detail": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 2 · 81 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmixed-charts%2Fmixed-charts-2"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/mixed-charts/mixed-charts-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 3",
+    "detail": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 3 · 69 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmixed-charts%2Fmixed-charts-3"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/mixed-charts/mixed-charts-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 4",
+    "detail": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 4 · 74 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmixed-charts%2Fmixed-charts-4"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/mixed-charts/mixed-charts-5",
+    "type": "flashcards",
+    "ordinal": 5,
+    "label": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 5",
+    "detail": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 5 · 68 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmixed-charts%2Fmixed-charts-5"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/mixed-charts/mixed-charts-6",
+    "type": "flashcards",
+    "ordinal": 6,
+    "label": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 6",
+    "detail": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 6 · 88 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmixed-charts%2Fmixed-charts-6"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/mixed-charts/mixed-charts-7",
+    "type": "flashcards",
+    "ordinal": 7,
+    "label": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 7",
+    "detail": "IELTS / Writing / Task 1 / Mixed Charts / Mixed Charts 7 · 88 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fmixed-charts%2Fmixed-charts-7"
+  },
+  {
     "id": "flash:ielts/writing/task-1/pie-charts/pie-chart-1",
     "type": "flashcards",
     "ordinal": 1,
@@ -6695,6 +6823,94 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "IELTS / Writing / Task 1 / Process Diagrams / Process Diagram 9",
     "detail": "IELTS / Writing / Task 1 / Process Diagrams / Process Diagram 9 · 63 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Fprocess-diagrams%2Fprocess-diagram-9"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 1",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 1 · 69 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-1"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 2",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 2 · 67 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-2"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 3",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 3 · 55 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-3"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 4",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 4 · 69 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-4"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-5",
+    "type": "flashcards",
+    "ordinal": 5,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 5",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 5 · 76 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-5"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-6",
+    "type": "flashcards",
+    "ordinal": 6,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 6",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 6 · 98 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-6"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-7",
+    "type": "flashcards",
+    "ordinal": 7,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 7",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 7 · 92 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-7"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-8",
+    "type": "flashcards",
+    "ordinal": 8,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 8",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 8 · 58 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-8"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-9",
+    "type": "flashcards",
+    "ordinal": 9,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 9",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 9 · 85 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-9"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-10",
+    "type": "flashcards",
+    "ordinal": 10,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 10",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 10 · 65 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-10"
+  },
+  {
+    "id": "flash:ielts/writing/task-1/tables/table-11",
+    "type": "flashcards",
+    "ordinal": 11,
+    "label": "IELTS / Writing / Task 1 / Tables / Table 11",
+    "detail": "IELTS / Writing / Task 1 / Tables / Table 11 · 95 cards",
+    "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-1%2Ftables%2Ftable-11"
   },
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q20",

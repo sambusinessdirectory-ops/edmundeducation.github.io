@@ -30,9 +30,9 @@ run("flashcards-audio-manifest.js");
 const decks = sandbox.window.EDMUND_IELTS_WRITING_TASK1_SEED;
 const manifest = sandbox.window.EDMUND_FLASHCARD_AUDIO;
 const meta = sandbox.window.EDMUND_FLASHCARD_AUDIO_META;
-assert.equal(Object.keys(decks).length, 32, "all 32 Task 1 decks must be loaded");
+assert.equal(Object.keys(decks).length, 59, "all 59 Task 1 decks must be loaded");
 assert.equal(meta.complete, true, "the female voice manifest must be complete");
-assert.equal(meta.count, 65677, "the full flashcard voice corpus count changed unexpectedly");
+assert.equal(meta.count, 67163, "the full flashcard voice corpus count changed unexpectedly");
 assert.equal(meta.engine, "Kokoro-82M");
 assert.equal(meta.name, "Edmund Neural");
 assert.equal(meta.voice, "af_heart", "Task 1 must use the established female voice");
@@ -67,13 +67,13 @@ for (const [deckId, cards] of Object.entries(decks)) {
 }
 
 assert.deepEqual(missing, [], `Missing Task 1 female audio:\n${missing.join("\n")}`);
-assert.equal(checkedCards, 1696, "all 1,696 Task 1 card rows must have female audio");
+assert.equal(checkedCards, 3631, "all 3,631 Task 1 card rows must have female audio");
 
 const html = fs.readFileSync(path.join(root, "flashcards.html"), "utf8");
 assert.match(
   html,
-  /flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260729-1/,
+  /flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260729-2/,
   "the flashcard audio cache key is stale"
 );
 
-console.log("IELTS Writing Task 1 female audio checks passed: 1,696/1,696 cards covered.");
+console.log("IELTS Writing Task 1 female audio checks passed: 3,631/3,631 cards covered.");

@@ -234,6 +234,18 @@ SPOKEN_OVERRIDES = {
     "produced…but consumed only…": "produced a quantity but consumed only another quantity",
     "with production between…and…": "with production between one figure and another",
     "converts the energy from…into…": "converts the energy from one form into another",
+    "under-11s": "under elevens",
+    "11- to 16-year-olds": "eleven to sixteen year olds",
+    "climbed from … to …": "climbed from one figure to another",
+    "climbing from … to …": "climbing from one figure to another",
+    "dropped from … to …": "dropped from one figure to another",
+    "fell from … to …": "fell from one figure to another",
+    "increased from … to …": "increased from one figure to another",
+    "plunging from … to …": "plunging from one figure to another",
+    "rising from … to …": "rising from one figure to another",
+    "has changed from … into …": "has changed from one form into another",
+    "running from…towards…": "running from one place towards another",
+    "with … being the only sector to decline": "with one sector being the only sector to decline",
 }
 
 
@@ -284,6 +296,8 @@ def spoken_text(display_text: str) -> str:
     text = re.sub(r"\band/or\b", "and or", text, flags=re.IGNORECASE)
     text = re.sub(r"\bCOVID-19\b", "COVID nineteen", text, flags=re.IGNORECASE)
     text = re.sub(r"\bWorld War II\b", "World War Two", text)
+    text = re.sub(r"\bCEOs\b", "C E O's", text)
+    text = re.sub(r"\bCDs\b", "C D's", text)
     text = re.sub(r"\b3D\b", "three D", text)
     text = re.sub(r"(?<![A-Za-z0-9])H\+(?![A-Za-z0-9])", "H plus", text)
     text = re.sub(r"\b(\d+)°C\b", r"\1 degrees Celsius", text)
@@ -295,13 +309,26 @@ def spoken_text(display_text: str) -> str:
         "USA", "DIY", "LED", "DSE", "RAE", "US", "UK", "HK", "IQ", "EQ", "DS", "BC",
         "BCE", "UN", "CD", "AFM", "GDP", "HIV", "GM", "ADHD", "EV", "SMS", "MTV", "ID",
         "ZEV", "GSM", "IPCC", "DC", "ESA", "ATM", "LPG", "LP", "USB", "MRI", "FA", "WA",
-        "EP", "AMP", "AD", "API", "PR", "URL",
+        "EP", "AMP", "AD", "API", "PR", "URL", "MRT", "CEO",
     ):
         text = re.sub(rf"\b{initialism}\b", " ".join(initialism), text)
-    text = re.sub(r"£\s*([\d,]+)", r"\1 pounds", text)
-    text = re.sub(r"\bH K\$\s*([\d,]+)", r"\1 Hong Kong dollars", text)
-    text = re.sub(r"\bHK\$\s*([\d,]+)", r"\1 Hong Kong dollars", text)
-    text = re.sub(r"\$\s*([\d,]+)", r"\1 dollars", text)
+    text = re.sub(
+        r"£\s*([\d,]+(?:\.\d+)?)\s+(million|billion)\b",
+        r"\1 \2 pounds",
+        text,
+        flags=re.IGNORECASE,
+    )
+    text = re.sub(
+        r"\$\s*([\d,]+(?:\.\d+)?)\s+(million|billion)\b",
+        r"\1 \2 dollars",
+        text,
+        flags=re.IGNORECASE,
+    )
+    text = re.sub(r"£\s*([\d,]+(?:\.\d+)?)", r"\1 pounds", text)
+    text = re.sub(r"\bH K\$\s*([\d,]+(?:\.\d+)?)", r"\1 Hong Kong dollars", text)
+    text = re.sub(r"\bHK\$\s*([\d,]+(?:\.\d+)?)", r"\1 Hong Kong dollars", text)
+    text = re.sub(r"\$\s*([\d,]+(?:\.\d+)?)", r"\1 dollars", text)
+    text = re.sub(r"(?<![\w.])(\d+(?:\.\d+)?)\s*%", r"\1 percent", text)
     text = re.sub(r"\b([\d,]+(?:\.\d+)?)\s*cm\b", r"\1 centimetres", text, flags=re.IGNORECASE)
     text = re.sub(r"\b([\d,]+(?:\.\d+)?)\s*km\b", r"\1 kilometres", text, flags=re.IGNORECASE)
     text = re.sub(r"\b(\d+)\s+am\b", r"\1 a.m.", text, flags=re.IGNORECASE)
