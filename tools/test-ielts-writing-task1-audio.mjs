@@ -32,7 +32,7 @@ const manifest = sandbox.window.EDMUND_FLASHCARD_AUDIO;
 const meta = sandbox.window.EDMUND_FLASHCARD_AUDIO_META;
 assert.equal(Object.keys(decks).length, 59, "all 59 Task 1 decks must be loaded");
 assert.equal(meta.complete, true, "the female voice manifest must be complete");
-assert.equal(meta.count, 91338, "the full flashcard voice corpus must contain 91,338 entries");
+assert.equal(meta.count, 118304, "the expanded flashcard voice corpus must contain 118,304 entries");
 assert.equal(meta.engine, "Kokoro-82M");
 assert.equal(meta.name, "Edmund Neural");
 assert.equal(meta.voice, "af_heart", "Task 1 must use the established female voice");
@@ -72,7 +72,7 @@ assert.equal(checkedCards, 3631, "all 3,631 Task 1 card rows must have female au
 const html = fs.readFileSync(path.join(root, "flashcards.html"), "utf8");
 assert.match(
   html,
-  /flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260730-1/,
+  /flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260731-1/,
   "the flashcard audio cache key is stale"
 );
 

@@ -45,6 +45,13 @@ The live library uses a hybrid layout:
   packs. Their public URLs use the release-specific
   `v1-passage1-20260722/` prefix. `workers/edmund-audio/src/flashcard-pack-index.json`
   maps each public MP3 URL to its byte range in a pack.
+- Passage 2 has its own immutable pack release and index at
+  `workers/edmund-audio/src/flashcard-pack-index-passage2.json`.
+- Later Passage 2 additions and Passage 3 recordings share the immutable
+  `v1-reading-expansion-20260731-1/` release. Its Worker routing lives in
+  `workers/edmund-audio/src/flashcard-pack-index-reading-expansion.json`, while
+  unchanged recordings continue to use their established local or earlier
+  release URLs.
 - `flashcards-audio-manifest.js` maps normalized front text to either a local
   path or an absolute URL on the read-only Edmund Neural audio Worker.
 
@@ -109,6 +116,24 @@ shard manifests, and upload checkpoints live under `.flashcards-audio-build/`
 and are never committed. Upload checkpoints are bound to the bucket, pack prefix,
 corpus hash, byte total and entry counts so they cannot be reused for another
 release accidentally.
+
+For the combined Passage 2 additions and Passage 3 release, replace the generic
+pack commands above with:
+
+```sh
+.venv-tts/bin/python tools/build-flashcard-audio-r2-packs-reading-expansion.py
+.venv-tts/bin/python tools/upload-flashcard-audio-packs-r2-reading-expansion.py \
+  --wrangler workers/speaking-system/node_modules/.bin/wrangler \
+  --check
+.venv-tts/bin/python tools/upload-flashcard-audio-packs-r2-reading-expansion.py \
+  --wrangler workers/speaking-system/node_modules/.bin/wrangler
+```
+
+After the uploader marks that index complete, deploy and live-test the updated
+audio Worker. Only then run the uploader once more with
+`--prune-source-audio`, rebuild the manifest, and publish the website. A
+completed release refuses further network uploads so immutable R2 objects cannot
+be overwritten.
 
 The audio build version is part of the directory path. Bump
 `AUDIO_BUILD_VERSION` in the generator whenever the voice, model, speed,

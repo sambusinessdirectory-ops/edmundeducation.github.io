@@ -60,7 +60,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
-const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260730-3";
+const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260731-1";
 const WEEKDAY_MASCOTS = [
   "assets/schedule/weekdays/monday-walking-to-school.webp",
   "assets/schedule/weekdays/tuesday-basketball.webp",

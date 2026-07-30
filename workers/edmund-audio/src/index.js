@@ -1,5 +1,6 @@
 import flashcardPackIndex from "./flashcard-pack-index.json" with { type: "json" };
 import flashcardPassage2PackIndex from "./flashcard-pack-index-passage2.json" with { type: "json" };
+import flashcardReadingExpansionPackIndex from "./flashcard-pack-index-reading-expansion.json" with { type: "json" };
 
 const AUDIO_PREFIXES = [
   "assets/speaking-system/audio/edmund-neural/part1/",
@@ -9,7 +10,8 @@ const AUDIO_PREFIXES = [
 const IMMUTABLE_CACHE = "public, max-age=31536000, immutable";
 const FLASHCARD_PACK_INDEXES = [
   flashcardPackIndex,
-  flashcardPassage2PackIndex
+  flashcardPassage2PackIndex,
+  flashcardReadingExpansionPackIndex
 ];
 
 function responseHeaders() {

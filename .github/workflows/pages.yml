@@ -29,6 +29,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Refresh lightweight IELTS Reading deck index
+        run: node tools/generate-ielts-reading-index.mjs
+
       - name: Refresh homework resource catalog
         run: node tools/generate-homework-resource-catalog.mjs
 
@@ -42,6 +45,14 @@ jobs:
         run: |
           node tools/test-ielts-reading-passage1-flashcards.mjs
           node tools/test-ielts-reading-passage2-flashcards.mjs
+
+      - name: Validate IELTS Reading Passage 3 flashcards, data and Homework integration
+        run: |
+          node tools/test-ielts-reading-passage3-flashcards.mjs
+          node tools/test-ielts-reading-passage3-integration.mjs
+
+      - name: Validate immutable packed flashcard audio Worker routing
+        run: node tools/test-edmund-audio-worker.mjs
 
       - name: Validate IELTS Writing Task 1 flashcards and female voice
         run: |

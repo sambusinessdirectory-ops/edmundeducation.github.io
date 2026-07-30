@@ -7,11 +7,15 @@ immutable hash-prefix packs through these generated indexes:
 
 - `src/flashcard-pack-index.json` — the established Passage 1 release
 - `src/flashcard-pack-index-passage2.json` — the Passage 2 release
+- `src/flashcard-pack-index-reading-expansion.json` — the combined Passage 2
+  additions and Passage 3 release
 
-Both layouts support browser byte-range requests and immutable one-year caching
+All packed releases support browser byte-range requests and immutable one-year caching
 metadata. Every packed release uses a distinct public URL prefix; bytes must
 never be replaced under an existing release URL. Passage 2 reuses an overlapping
-recording from the Passage 1 release instead of uploading a duplicate.
+recording from the Passage 1 release instead of uploading a duplicate. The
+Reading expansion similarly reuses every applicable recording from both earlier
+releases and the immutable pre-expansion manifest.
 
 Deploy from this directory with the pinned Wrangler installation in the
 neighbouring `speaking-system` Worker project:
@@ -40,3 +44,23 @@ python3 tools/upload-flashcard-audio-packs-r2-passage2.py \
 After pruning, rebuild `flashcards-audio-manifest.js`, test the Worker, deploy
 the Worker, and only then publish the website manifest that points at the new
 public release URLs.
+
+For the combined Passage 2 additions and Passage 3 release, use its immutable
+builder and uploader instead:
+
+```sh
+python3 tools/build-flashcard-audio-r2-packs-reading-expansion.py
+python3 tools/upload-flashcard-audio-packs-r2-reading-expansion.py \
+  --wrangler workers/speaking-system/node_modules/.bin/wrangler \
+  --check
+python3 tools/upload-flashcard-audio-packs-r2-reading-expansion.py \
+  --wrangler workers/speaking-system/node_modules/.bin/wrangler
+```
+
+Deploy and live-test the Worker after that upload. Then invoke the uploader
+again with `--prune-source-audio`; in this mode it only prunes source MP3s from
+the already-complete immutable release and performs no R2 writes.
+
+Keep all three index imports in release order in `src/index.js`: Passage 1,
+Passage 2, then the Reading expansion. Older release URLs and pack bytes remain
+unchanged when a later index is added.

@@ -34,7 +34,7 @@ run("flashcards-audio-manifest.js");
 const manifest = sandbox.window.EDMUND_FLASHCARD_AUDIO;
 const meta = sandbox.window.EDMUND_FLASHCARD_AUDIO_META;
 assert.equal(meta.complete, true, "The flashcard audio manifest must be complete");
-assert.equal(meta.count, 91338, "the full flashcard voice corpus must contain 91,338 entries");
+assert.equal(meta.count, 118304, "the expanded flashcard voice corpus must contain 118,304 entries");
 assert.equal(meta.engine, "Kokoro-82M");
 assert.equal(meta.voice, "af_heart");
 assert.equal(meta.language, "en-us");

@@ -25,12 +25,12 @@ const read = (file) => readFile(path.join(root, file), "utf8");
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2264, "the Homework/Schedule catalogue should include all current learning resources and 145 new IELTS Reading Passage 2 decks");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2434, "the Homework/Schedule catalogue should include every current learning resource and all new IELTS Reading decks");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
-assert.equal((byType.flashcards || []).length, 949, "all current static and lazy-loaded flashcard leaf decks should be indexed");
+assert.equal((byType.flashcards || []).length, 1119, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 310, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 218, "all sentence structure lessons should be indexed");
@@ -38,27 +38,39 @@ assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundB
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
 assert.ok(ids.has("speaking:ielts-part-2-book-1-exercise-01"));
 assert.ok(ids.has("sentence:ss218"));
+assert.equal(
+  HOMEWORK_RESOURCE_CATALOG.find((resource) => resource.id === "flash:ielts/reading/passage-1/Practice 1")?.label,
+  "IELTS / Reading / Passage 1 / Practice 1 — Andrea Palladio - Italian Architect",
+  "Passage 1 Practice 1 should use its requested title"
+);
 
 const passageTwoFlashcards = (byType.flashcards || []).filter((resource) =>
   resource.id.startsWith("flash:ielts/reading/passage-2/Practice ")
 );
-assert.equal(passageTwoFlashcards.length, 146, "Passage 2 should expose Practice 1 plus all 145 newly imported decks");
+assert.equal(
+  passageTwoFlashcards.find((resource) => resource.ordinal === 1)?.label,
+  "IELTS / Reading / Passage 2 / Practice 1 — Such a Fascinating Game",
+  "Passage 2 Practice 1 should retain its source title"
+);
+assert.equal(passageTwoFlashcards.length, 151, "Passage 2 should expose Practice 1 plus all 150 generated decks");
 assert.deepEqual(
   passageTwoFlashcards.map((resource) => resource.ordinal).sort((left, right) => left - right),
-  [1, ...Array.from({ length: 142 }, (_, index) => index + 28), 171, 172, 173],
+  [1, ...Array.from({ length: 150 }, (_, index) => index + 24)],
   "Passage 2 Homework links must preserve the exact source-practice inventory"
 );
 assert.equal(
   passageTwoFlashcards.some((resource) => resource.ordinal === 170),
-  false,
-  "a missing Practice 170 must not be invented"
+  true,
+  "the newly supplied Passage 2 Practice 170 must be itemized"
 );
 
 const passageTwoSentinels = [
+  [24, "Caveat Scriptor"],
   [28, "The Ant and the Mandarin"],
   [49, "Are Artists Liars?"],
   [55, "The Evolutionary Mystery: Crocodile Survives"],
-  [78, "Therapeutic Jurisprudence:An Overview"],
+  [78, "Therapeutic Jurisprudence: An Overview"],
+  [170, "Australian parrots and their adaptation to habitat change"],
   [173, "Bovids"]
 ];
 for (const [ordinal, title] of passageTwoSentinels) {
@@ -78,6 +90,48 @@ for (const [ordinal, title] of passageTwoSentinels) {
     resource.detail,
     new RegExp(`^IELTS / Reading / Passage 2 / Practice ${ordinal} · \\d+ cards$`),
     `Passage 2 Practice ${ordinal} should display its source-derived card count`
+  );
+}
+
+const passageThreeFlashcards = (byType.flashcards || []).filter((resource) =>
+  resource.id.startsWith("flash:ielts/reading/passage-3/Practice ")
+);
+assert.equal(
+  passageThreeFlashcards.find((resource) => resource.ordinal === 1)?.label,
+  "IELTS / Reading / Passage 3 / Practice 1 — ARE WE MANAGING TO DESTROY SCIENCE?",
+  "Passage 3 Practice 1 should retain its source title"
+);
+const missingPassageThreeOrdinals = new Set([2, 10, 11, 12, 13, 18, 21, 120, 155]);
+const expectedPassageThreeOrdinals = [
+  1,
+  ...Array.from({ length: 173 }, (_, index) => index + 3)
+    .filter((ordinal) => !missingPassageThreeOrdinals.has(ordinal))
+];
+assert.equal(passageThreeFlashcards.length, 166, "Passage 3 should expose existing Practice 1 plus all 165 supplied decks");
+assert.deepEqual(
+  passageThreeFlashcards.map((resource) => resource.ordinal).sort((left, right) => left - right),
+  expectedPassageThreeOrdinals,
+  "Passage 3 Homework links must preserve the exact supplied practice inventory"
+);
+const passageThreeSentinels = [
+  [3, "What’s in Blood?"],
+  [48, "Improving Patient Safety"],
+  [129, "The Bite That Heals"],
+  [169, "The fluoridation controversy"],
+  [175, "Science and the Stradivarius: Uncovering the secret of quality"]
+];
+for (const [ordinal, title] of passageThreeSentinels) {
+  const resource = passageThreeFlashcards.find((item) => item.id === `flash:ielts/reading/passage-3/Practice ${ordinal}`);
+  assert.ok(resource, `Passage 3 Practice ${ordinal} should be itemized in Homework/Schedule`);
+  assert.equal(
+    resource.label,
+    `IELTS / Reading / Passage 3 / Practice ${ordinal} — ${title}`,
+    `Passage 3 Practice ${ordinal} should use its canonical title`
+  );
+  assert.equal(
+    resource.url,
+    `flashcards.html?deck=ielts%2Freading%2Fpassage-3%2FPractice%20${ordinal}`,
+    `Passage 3 Practice ${ordinal} should have an exact fresh-session deep link`
   );
 }
 
@@ -307,6 +361,7 @@ assert.match(scheduleHtml, /data-homework-autocomplete/);
 assert.match(scheduleHtml, /data-homework-picker-search/);
 assert.match(scheduleHtml, /data-homework-attachments/);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources\)/);
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260731-1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");
 assert.match(scheduleJs, /resources\.length >= MAX_HOMEWORK_RESOURCES/, "attachment selection must enforce the resource-count cap without silent truncation");

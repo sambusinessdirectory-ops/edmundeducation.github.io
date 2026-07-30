@@ -59,31 +59,37 @@ const meta = parseAssignment(
   ";\nwindow.EDMUND_FLASHCARD_SEED"
 );
 
-const expectedOrdinals = [
-  ...Array.from({ length: 142 }, (_, index) => index + 28),
-  171,
-  172,
-  173
-];
+const expectedOrdinals = Array.from({ length: 150 }, (_, index) => index + 24);
 const deckIds = Object.keys(seed);
-assert(deckIds.length === 145, `Expected 145 generated decks, found ${deckIds.length}`);
-assert(Object.keys(titles).length === 145, `Expected 145 generated titles, found ${Object.keys(titles).length}`);
+assert(deckIds.length === 150, `Expected 150 generated decks, found ${deckIds.length}`);
+assert(Object.keys(titles).length === 150, `Expected 150 generated titles, found ${Object.keys(titles).length}`);
 assert(meta.passage === 2, `Metadata passage is ${meta.passage}`);
-assert(meta.deckCount === 145, `Metadata deck count is ${meta.deckCount}`);
-assert(meta.cardCount === 29408, `Expected 29,408 cards, found ${meta.cardCount}`);
-assert(meta.uniqueFrontCount === 26759, `Expected 26,759 unique fronts, found ${meta.uniqueFrontCount}`);
+assert(meta.deckCount === 150, `Metadata deck count is ${meta.deckCount}`);
+assert(meta.cardCount === 30371, `Expected 30,371 cards, found ${meta.cardCount}`);
+assert(meta.uniqueFrontCount === 27601, `Expected 27,601 unique fronts, found ${meta.uniqueFrontCount}`);
 assert(Array.isArray(meta.ordinals), "Metadata ordinals must be an array");
 assert(JSON.stringify(meta.ordinals) === JSON.stringify(expectedOrdinals), "Generated ordinal inventory is incorrect");
-assert(!meta.ordinals.includes(170), "Missing source Practice 170 must not be invented");
+assert(meta.ordinals.includes(170), "New source Practice 170 is missing");
 
 const expectedTitleSentinels = {
+  "Practice 24": "Caveat Scriptor",
+  "Practice 25": "The 2003 Heatwave",
+  "Practice 26": "Being Left-handed in a Right-handed World",
+  "Practice 27": "A New Ice Age",
   "Practice 28": "The Ant and the Mandarin",
-  "Practice 37": "Storytelling, From Prehistoric Craves To Modern Cinemas",
-  "Practice 47": "The History of Pencil",
+  "Practice 37": "Storytelling: From Prehistoric Caves to Modern Cinemas",
+  "Practice 47": "The History of the Pencil",
   "Practice 49": "Are Artists Liars?",
   "Practice 55": "The Evolutionary Mystery: Crocodile Survives",
-  "Practice 78": "Therapeutic Jurisprudence:An Overview",
-  "Practice 115": "Sustainable growth at Didcot The outline of a report by South Oxfordshire District Council",
+  "Practice 78": "Therapeutic Jurisprudence: An Overview",
+  "Practice 81": "Surf’s Up",
+  "Practice 115": "Sustainable Growth at Didcot: The Outline of a Report by South Oxfordshire District Council",
+  "Practice 117": "The Dinosaurs’ Footprints and Extinction",
+  "Practice 131": "Conflicting climatic phenomena co-existing on Mars",
+  "Practice 138": "Have teenagers always existed?",
+  "Practice 156": "Aqua Product: New Zealand’s Algae Biodiesel",
+  "Practice 161": "El Niño and Seabirds",
+  "Practice 170": "Australian parrots and their adaptation to habitat change",
   "Practice 173": "Bovids"
 };
 for (const [practice, expectedTitle] of Object.entries(expectedTitleSentinels)) {
@@ -92,11 +98,20 @@ for (const [practice, expectedTitle] of Object.entries(expectedTitleSentinels)) 
 const sharedTitleIndex = JSON.parse(read("tools/ielts-reading-passage-titles.json"))["2"];
 const authoritativeTitles = {
   ...sharedTitleIndex,
-  "37": "Storytelling, From Prehistoric Craves To Modern Cinemas",
-  "47": "The History of Pencil",
+  "24": "Caveat Scriptor",
+  "25": "The 2003 Heatwave",
+  "26": "Being Left-handed in a Right-handed World",
+  "27": "A New Ice Age",
   "49": "Are Artists Liars?",
   "55": "The Evolutionary Mystery: Crocodile Survives",
-  "115": "Sustainable growth at Didcot The outline of a report by South Oxfordshire District Council"
+  "78": "Therapeutic Jurisprudence: An Overview",
+  "81": "Surf’s Up",
+  "117": "The Dinosaurs’ Footprints and Extinction",
+  "131": "Conflicting climatic phenomena co-existing on Mars",
+  "138": "Have teenagers always existed?",
+  "156": "Aqua Product: New Zealand’s Algae Biodiesel",
+  "161": "El Niño and Seabirds",
+  "170": "Australian parrots and their adaptation to habitat change"
 };
 for (const ordinal of expectedOrdinals) {
   const expectedTitle = authoritativeTitles[String(ordinal)];
@@ -133,7 +148,7 @@ for (const ordinal of expectedOrdinals) {
     cardCount += 1;
   }
 }
-assert(cardCount === 29408, `Card rows total ${cardCount}, expected 29,408`);
+assert(cardCount === 30371, `Card rows total ${cardCount}, expected 30,371`);
 assert(cardCount === meta.cardCount, `Card rows total ${cardCount}, metadata says ${meta.cardCount}`);
 assert(sourceUniqueFronts.size === meta.uniqueFrontCount, `Unique fronts total ${sourceUniqueFronts.size}, metadata says ${meta.uniqueFrontCount}`);
 assert(meta.uniqueFrontCount > 0 && meta.uniqueFrontCount <= meta.cardCount, `Metadata unique-front count is invalid: ${meta.uniqueFrontCount}`);
@@ -158,8 +173,8 @@ vm.createContext(bundleSandbox);
 vm.runInContext(dataSource, bundleSandbox, { filename: "flashcards-ielts-reading-passage-2-data.js", timeout: 20_000 });
 assert(bundleSandbox.window.EDMUND_FLASHCARD_SEED, "Generated bundle did not initialize the shared flashcard seed");
 assert(
-  Object.keys(bundleSandbox.window.EDMUND_FLASHCARD_SEED).length === 145,
-  "Generated bundle did not merge all 145 decks into the shared flashcard seed"
+  Object.keys(bundleSandbox.window.EDMUND_FLASHCARD_SEED).length === 150,
+  "Generated bundle did not merge all 150 decks into the shared flashcard seed"
 );
 assert(
   bundleSandbox.window.EDMUND_FLASHCARD_SEED["ielts/reading/passage-2/Practice 173"] ===
@@ -179,16 +194,16 @@ for (const [index, source] of inlineScripts.entries()) {
   }
 }
 assert(
-  html.includes('const IELTS_READING_PASSAGE_2_DATA_URL = "flashcards-ielts-reading-passage-2-data.js?v=20260730-1"'),
+  html.includes('const IELTS_READING_PASSAGE_2_DATA_URL = "flashcards-ielts-reading-passage-2-data.js?v=20260731-1"'),
   "Passage 2 lazy-load URL is missing"
 );
-assert(html.includes("const IELTS_READING_PASSAGE_2_CARD_COUNT = 29408;"), "Unloaded Passage 2 card count does not match generated metadata");
+assert(html.includes("const IELTS_READING_PASSAGE_2_CARD_COUNT = 30371;"), "Unloaded Passage 2 card count does not match generated metadata");
 assert(!html.includes('<script src="flashcards-ielts-reading-passage-2-data.js'), "Passage 2 data should not block the login page");
 assert(html.includes("function ensureIeltsReadingPassage2Data()"), "Passage 2 lazy loader is missing");
 assert(html.includes('script.dataset.ieltsReadingPassage2 = "true"'), "Passage 2 lazy-load script is not identifiable");
-assert(/function ensureIeltsReadingData\(\)[\s\S]*?ensureIeltsReadingPassage1Data\(\)[\s\S]*?ensureIeltsReadingPassage2Data\(\)/.test(html), "Combined IELTS Reading loader does not load both passages");
+assert(!html.includes("function ensureIeltsReadingData()"), "IELTS Reading must not bulk-load every large passage bundle");
 assert(/function ensureIeltsReadingDataForDeck\(deckId\)[\s\S]*?IELTS_READING_PASSAGE_2_PREFIX[\s\S]*?return ensureIeltsReadingPassage2Data\(\)/.test(html), "Passage 2 direct links do not select the Passage 2 lazy loader");
-assert(html.includes("await ensureIeltsReadingData();"), "IELTS Reading chooser/search does not await all lazy data");
+assert(!html.includes("await ensureIeltsReadingData();"), "IELTS Reading chooser/search still downloads all passages at once");
 assert(html.includes("window.EDMUND_IELTS_READING_PASSAGE_2_TITLES?.[practice]"), "IELTS Reading labels do not use Passage 2 canonical titles");
 assert(/function deckTitleFromId\(deckId\)[\s\S]*?ieltsReadingPracticePathLabel\(passage, ieltsReadingMatch\[2\]\)/.test(html), "Direct-linked Passage 2 decks do not receive their canonical title");
 
@@ -205,9 +220,9 @@ assert(reservationPosition >= 0 && reservationPosition < lazyLoadPosition, "Home
 assert(/catch \(error\)[\s\S]*?requestedHomeworkDeckOpened = false[\s\S]*?連線問題[\s\S]*?return false/.test(directLinkBlock), "Homework direct-link handler cannot recover from a lazy-load network error");
 assert(/currentUser !== requestUser[\s\S]*?currentDeckRequest !== deckId/.test(directLinkBlock), "Homework direct-link handler can open a stale deck after account or URL changes");
 assert(html.includes('new URLSearchParams(window.location.search).get("deck")'), "Flashcard Homework deep-link query is missing");
-assert(/data-deck-search-input[\s\S]*?await ensureIeltsReadingData\(\)/.test(html), "Ordinary deck search does not load Passage 2 data");
-assert(/data-advanced-search-input[\s\S]*?await ensureIeltsReadingData\(\)/.test(html), "Advanced deck search does not load Passage 2 data");
-assert(/<script src="flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260730-\d+"><\/script>/.test(html), "Flashcard audio cache key was not refreshed for the Passage 2 release");
+assert(!/data-deck-search-input[\s\S]{0,1200}?ensureIeltsReadingData/.test(html), "Ordinary search bulk-loads every Reading passage");
+assert(!/data-advanced-search-input[\s\S]{0,1200}?ensureIeltsReadingData/.test(html), "Advanced search bulk-loads every Reading passage");
+assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260731-1"></script>'), "Flashcard audio cache key was not refreshed for the Reading expansion release");
 
 const inlineSeed = parseAssignment(html, "window.EDMUND_FLASHCARD_SEED = ", ";\n  </script>");
 assert(inlineSeed["ielts/reading/passage-2/Practice 1"]?.length === 165, "Existing Passage 2 Practice 1 changed unexpectedly");
@@ -235,6 +250,7 @@ if (!dataOnly) {
     .filter(file => /^flashcard-pack-index(?:-[\w-]+)?\.json$/.test(file))
     .sort();
   assert(cloudIndexFiles.includes("flashcard-pack-index-passage2.json"), "Passage 2 cloud-pack index is missing");
+  assert(cloudIndexFiles.includes("flashcard-pack-index-reading-expansion.json"), "Reading expansion cloud-pack index is missing");
   const cloudIndexes = cloudIndexFiles.map(file => ({ file, data: JSON.parse(read(`workers/edmund-audio/src/${file}`)) }));
   for (const { file, data } of cloudIndexes) {
     assert(data.schemaVersion === 1, `${file} schema is invalid`);
@@ -290,6 +306,7 @@ if (!dataOnly) {
   assert(!missing.length, `Missing Passage 2 audio:\n${missing.join("\n")}`);
   assert(localAudio + cloudAudio === audioUniqueFronts.size, `Validated ${localAudio + cloudAudio} of ${audioUniqueFronts.size} Passage 2 recordings`);
   assert((cloudIndexUsage.get("flashcard-pack-index-passage2.json") || 0) > 0, "No Passage 2 card resolves through the Passage 2 cloud release");
+  assert((cloudIndexUsage.get("flashcard-pack-index-reading-expansion.json") || 0) > 0, "No new Passage 2 card resolves through the Reading expansion release");
   audioResult = {
     checked: true,
     manifestEntries: Object.keys(manifest).length,
@@ -306,7 +323,7 @@ console.log(JSON.stringify({
   audioUniqueFronts: audioUniqueFronts.size,
   firstPractice: expectedOrdinals[0],
   lastPractice: expectedOrdinals.at(-1),
-  missingPractices: [170],
+  missingPractices: [],
   existingPractice1Cards: 165,
   totalPublishedPassage2Decks: deckIds.length + 1,
   audio: audioResult

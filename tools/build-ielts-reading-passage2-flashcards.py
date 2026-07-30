@@ -25,19 +25,21 @@ NUMBERED_LINE = re.compile(r"(?m)^\s*(\d{1,2})\.\s+")
 DECK_PREFIX = "ielts/reading/passage-2"
 SEED_ASSIGNMENT = "window.EDMUND_IELTS_READING_PASSAGE_2_SEED = "
 TITLE_ASSIGNMENT = "window.EDMUND_IELTS_READING_PASSAGE_2_TITLES = "
-EXPECTED_ORDINALS = [ordinal for ordinal in range(28, 174) if ordinal != 170]
+EXPECTED_ORDINALS = list(range(24, 174))
 
 # Keep flashcard-only title corrections local so the separate Reading-download
 # catalogue can retain its exact-key invariant.
 FLASHCARD_TITLE_SUPPLEMENTS = {
-    # These three rows cross columns in the title-index PDF and therefore use
-    # explicit middle-column transcription rather than its cleaned shared map.
-    "37": "Storytelling, From Prehistoric Craves To Modern Cinemas",
-    "47": "The History of Pencil",
     # These two flashcard PDFs exist, but the download inventory omits them.
     "49": "Are Artists Liars?",
     "55": "The Evolutionary Mystery: Crocodile Survives",
-    "115": "Sustainable growth at Didcot The outline of a report by South Oxfordshire District Council",
+    "78": "Therapeutic Jurisprudence: An Overview",
+    "81": "Surf’s Up",
+    "117": "The Dinosaurs’ Footprints and Extinction",
+    "131": "Conflicting climatic phenomena co-existing on Mars",
+    "138": "Have teenagers always existed?",
+    "156": "Aqua Product: New Zealand’s Algae Biodiesel",
+    "161": "El Niño and Seabirds",
 }
 
 # A few PDF table cells cross the centre divider during extraction. These
@@ -87,7 +89,13 @@ CHINESE_EXAMPLE_SUPPLEMENTS = {
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", type=Path, required=True, help="Folder containing the Passage 2 card PDFs")
+    parser.add_argument(
+        "--source",
+        type=Path,
+        action="append",
+        required=True,
+        help="Folder containing Passage 2 card PDFs; repeat for supplemental folders",
+    )
     parser.add_argument("--titles", type=Path, required=True, help="IELTS Reading passage-title JSON")
     parser.add_argument("--output", type=Path, required=True, help="Generated JavaScript seed")
     parser.add_argument("--jobs", type=int, default=4, help="Number of PDFs to parse in parallel")
@@ -207,24 +215,28 @@ def javascript_assignment(name: str, value: object) -> str:
 
 def main() -> int:
     args = parse_args()
-    source = args.source.resolve()
+    sources = [path.resolve() for path in args.source]
     title_map = json.loads(args.titles.read_text(encoding="utf-8")).get("2", {})
     title_map = {**title_map, **FLASHCARD_TITLE_SUPPLEMENTS}
-    if not source.is_dir():
-        raise ValueError(f"Source folder does not exist: {source}")
+    missing_sources = [str(path) for path in sources if not path.is_dir()]
+    if missing_sources:
+        raise ValueError(f"Source folder does not exist: {', '.join(missing_sources)}")
     if args.jobs < 1:
         raise ValueError("--jobs must be at least 1")
 
     rows: list[tuple[int, Path]] = []
-    for path in source.iterdir():
-        if path.name.startswith("."):
-            continue
-        if not path.is_file() or path.suffix.casefold() != ".pdf":
-            raise ValueError(f"Unexpected non-PDF source item: {path.name}")
-        match = FILENAME_PATTERN.fullmatch(path.name)
-        if not match:
-            raise ValueError(f"Unrecognised Passage 2 filename: {path.name}")
-        rows.append((int(match.group("ordinal")), path))
+    for source in sources:
+        for path in source.iterdir():
+            if path.name.startswith("."):
+                continue
+            if not path.is_file() or path.suffix.casefold() != ".pdf":
+                raise ValueError(f"Unexpected non-PDF source item: {path.name}")
+            if path.name.casefold().startswith("passage 3 flash cards") or path.name.casefold().startswith("superfast flpassage 3 flash cards"):
+                continue
+            match = FILENAME_PATTERN.fullmatch(path.name)
+            if not match:
+                raise ValueError(f"Unrecognised Passage 2 filename: {path.name}")
+            rows.append((int(match.group("ordinal")), path))
 
     rows.sort(key=lambda item: item[0])
     ordinals = [ordinal for ordinal, _ in rows]
@@ -238,8 +250,8 @@ def main() -> int:
             "Passage 2 ordinal inventory is incorrect: "
             f"missing={missing}, unexpected={unexpected}"
         )
-    if len(rows) != 145:
-        raise ValueError(f"Expected 145 Passage 2 PDFs, found {len(rows)}")
+    if len(rows) != 150:
+        raise ValueError(f"Expected 150 Passage 2 PDFs, found {len(rows)}")
 
     seed: dict[str, list[dict[str, object]]] = {}
     titles: dict[str, str] = {}

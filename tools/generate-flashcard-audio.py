@@ -34,6 +34,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
+        "flashcards-ielts-reading-passage-3-data.js",
+        "window.EDMUND_IELTS_READING_PASSAGE_3_SEED = ",
+        None,
+    ),
+    (
         "flashcards-ielts-writing-advantage-cause-direct-data.js",
         "window.EDMUND_IELTS_WRITING_ADVANTAGE_CAUSE_DIRECT_SEED = ",
         None,
@@ -131,6 +136,7 @@ CLOUD_PACK_INDEX_RELATIVES = (
     # retains its original public URL.
     Path("workers/edmund-audio/src/flashcard-pack-index.json"),
     Path("workers/edmund-audio/src/flashcard-pack-index-passage2.json"),
+    Path("workers/edmund-audio/src/flashcard-pack-index-reading-expansion.json"),
 )
 SPOKEN_OVERRIDES = {
     "AR": "A R",

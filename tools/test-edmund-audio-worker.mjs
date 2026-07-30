@@ -15,7 +15,20 @@ const passage2PackIndex = JSON.parse(
     "utf8"
   )
 );
-const packIndexes = [passage1PackIndex, passage2PackIndex];
+const readingExpansionPackIndex = JSON.parse(
+  fs.readFileSync(
+    path.join(
+      root,
+      "workers/edmund-audio/src/flashcard-pack-index-reading-expansion.json"
+    ),
+    "utf8"
+  )
+);
+const packIndexes = [
+  passage1PackIndex,
+  passage2PackIndex,
+  readingExpansionPackIndex
+];
 const packIndex = passage1PackIndex;
 const workerModule = await import(
   pathToFileURL(path.join(root, "workers/edmund-audio/src/index.js")).href
@@ -39,6 +52,41 @@ assert(
   "The Passage 2 public audio URL prefix is wrong"
 );
 assert(
+  readingExpansionPackIndex.audioPathPrefix ===
+    "assets/flashcards/audio/edmund-neural/v1-reading-expansion-20260731-1/",
+  "The Reading expansion public audio URL prefix is wrong"
+);
+assert(
+  readingExpansionPackIndex.meta?.release === "v1-reading-expansion-20260731-1",
+  "The Reading expansion release metadata is wrong"
+);
+assert(
+  readingExpansionPackIndex.cloudBaseUrl === "https://edmund-neural-audio.edmundeducation.workers.dev",
+  "The Reading expansion public host is wrong"
+);
+assert(readingExpansionPackIndex.meta?.baselineEntryCount === 91338, "The immutable baseline entry count changed");
+assert(
+  readingExpansionPackIndex.meta?.baselineManifestSha256 === "2d496c54e8d8104c89eff5ef28ec230c2a21e755af05b0d35fef19981b3bd950",
+  "The immutable baseline manifest hash changed"
+);
+assert(
+  readingExpansionPackIndex.meta?.baselineMappingSha256 === "4cf616f93a6b2ff5066fca610b8cae0ca8750c6429b62eac641a27974c0369c0",
+  "The immutable baseline mapping hash changed"
+);
+assert(
+  readingExpansionPackIndex.meta?.baselineCorpusSha256 === "94cc0319aba7d0d024c86a811cfb011dee35ebaf4dd641638a6ee603065298fc",
+  "The immutable baseline corpus hash changed"
+);
+const packIndexPrefixes = packIndexes.map(index => index.audioPathPrefix);
+assert(
+  packIndexPrefixes.every((prefix, index) =>
+    packIndexPrefixes.every((otherPrefix, otherIndex) =>
+      index === otherIndex || (!prefix.startsWith(otherPrefix) && !otherPrefix.startsWith(prefix))
+    )
+  ),
+  "Worker pack-index precedence is ambiguous because release URL prefixes overlap"
+);
+assert(
   packIndexes.every(index => index.meta?.r2UploadComplete === true),
   "Every Worker pack index must be marked as fully uploaded"
 );
@@ -57,9 +105,19 @@ const passage2Digest = `${passage2Prefix}${passage2Suffix}`;
 const [passage2Offset, passage2Length] =
   passage2PackIndex.entries[passage2Prefix][passage2Suffix];
 const passage2Pack = passage2PackIndex.packs[passage2Prefix];
+const readingExpansionPrefix = Object.keys(readingExpansionPackIndex.entries).sort()[0];
+assert(readingExpansionPrefix, "Reading expansion flashcard pack index has no entries");
+const readingExpansionSuffix = Object.keys(
+  readingExpansionPackIndex.entries[readingExpansionPrefix]
+).sort()[0];
+const readingExpansionDigest = `${readingExpansionPrefix}${readingExpansionSuffix}`;
+const [readingExpansionOffset, readingExpansionLength] =
+  readingExpansionPackIndex.entries[readingExpansionPrefix][readingExpansionSuffix];
+const readingExpansionPack = readingExpansionPackIndex.packs[readingExpansionPrefix];
 const packFixtures = new Map([
   [pack.key, { fill: 0x5a, pack }],
-  [passage2Pack.key, { fill: 0x6b, pack: passage2Pack }]
+  [passage2Pack.key, { fill: 0x6b, pack: passage2Pack }],
+  [readingExpansionPack.key, { fill: 0x7c, pack: readingExpansionPack }]
 ]);
 const getCalls = [];
 
@@ -227,6 +285,65 @@ assert(
 );
 
 
+const readingExpansionAudioUrl =
+  `${readingExpansionPackIndex.cloudBaseUrl}/${readingExpansionPackIndex.audioPathPrefix}` +
+  `${readingExpansionPrefix}/${readingExpansionDigest}.mp3`;
+const readingExpansionResponse = await worker.fetch(
+  new Request(readingExpansionAudioUrl),
+  env
+);
+assert(
+  readingExpansionResponse.status === 200,
+  `Reading expansion full request status was ${readingExpansionResponse.status}`
+);
+assert(
+  Number(readingExpansionResponse.headers.get("content-length")) ===
+    readingExpansionLength,
+  "Reading expansion full request length is wrong"
+);
+const expectedReadingExpansionAudio = Buffer.alloc(readingExpansionLength, 0x7c);
+const actualReadingExpansionAudio = Buffer.from(
+  await readingExpansionResponse.arrayBuffer()
+);
+assert(
+  actualReadingExpansionAudio.equals(expectedReadingExpansionAudio),
+  "Reading expansion packed response differs from the source MP3"
+);
+const readingExpansionGetCall = getCalls.at(-1);
+assert(
+  readingExpansionGetCall?.key === readingExpansionPack.key
+    && readingExpansionGetCall?.offset === readingExpansionOffset
+    && readingExpansionGetCall?.length === readingExpansionLength,
+  "Reading expansion pack lookup range is wrong"
+);
+
+const readingExpansionHeadResponse = await worker.fetch(
+  new Request(readingExpansionAudioUrl, { method: "HEAD" }),
+  env
+);
+assert(
+  readingExpansionHeadResponse.status === 200,
+  `Reading expansion HEAD status was ${readingExpansionHeadResponse.status}`
+);
+assert(
+  Number(readingExpansionHeadResponse.headers.get("content-length")) ===
+    readingExpansionLength,
+  "Reading expansion HEAD length is wrong"
+);
+
+const readingExpansionUnknownResponse = await worker.fetch(
+  new Request(
+    `${readingExpansionPackIndex.cloudBaseUrl}/` +
+      `${readingExpansionPackIndex.audioPathPrefix}00/not-a-digest.mp3`
+  ),
+  env
+);
+assert(
+  readingExpansionUnknownResponse.status === 404,
+  `Unknown Reading expansion flashcard status was ${readingExpansionUnknownResponse.status}`
+);
+
+
 const healthResponse = await worker.fetch(new Request(`${packIndex.cloudBaseUrl}/health`), env);
 const health = await healthResponse.json();
 assert(health.products.includes("flashcards"), "Worker health response omits flashcards");
@@ -240,15 +357,19 @@ console.log(JSON.stringify({
   })),
   testedDigest: digest,
   testedPassage2Digest: passage2Digest,
+  testedReadingExpansionDigest: readingExpansionDigest,
   testedBytes: length,
   testedPassage2Bytes: passage2Length,
+  testedReadingExpansionBytes: readingExpansionLength,
   fullStatus: fullResponse.status,
   passage2FullStatus: passage2Response.status,
+  readingExpansionFullStatus: readingExpansionResponse.status,
   rangeStatus: rangeResponse.status,
   ifRangeMismatchStatus: ifRangeMismatchResponse.status,
   suffixRangeStatus: suffixResponse.status,
   rangedHeadStatus: rangedHeadResponse.status,
   unknownStatus: unknownResponse.status,
   passage2UnknownStatus: passage2UnknownResponse.status,
+  readingExpansionUnknownStatus: readingExpansionUnknownResponse.status,
   conditionalStatus: cachedResponse.status
 }, null, 2));

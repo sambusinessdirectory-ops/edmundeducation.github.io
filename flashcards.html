@@ -4375,6 +4375,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="flashcards-ielts-writing-data.js?v=20260713-1"></script>
+  <script src="flashcards-ielts-reading-index.js?v=20260731-1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260728-2"></script>
   <script>
@@ -184156,7 +184157,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-dse-speaking-2019-data.js?v=20260713-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260730-1"></script>
+  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260731-1"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -184230,11 +184231,15 @@ window.EDMUND_FLASHCARD_SEED = {
     const IELTS_READING_PASSAGE_1_DATA_URL = "flashcards-ielts-reading-passage-1-data.js?v=20260722-1";
     const IELTS_READING_PASSAGE_1_PREFIX = "ielts/reading/passage-1";
     const IELTS_READING_PASSAGE_1_CARD_COUNT = 30029;
-    const IELTS_READING_PASSAGE_2_DATA_URL = "flashcards-ielts-reading-passage-2-data.js?v=20260730-1";
+    const IELTS_READING_PASSAGE_2_DATA_URL = "flashcards-ielts-reading-passage-2-data.js?v=20260731-1";
     const IELTS_READING_PASSAGE_2_PREFIX = "ielts/reading/passage-2";
-    const IELTS_READING_PASSAGE_2_CARD_COUNT = 29408;
+    const IELTS_READING_PASSAGE_2_CARD_COUNT = 30371;
+    const IELTS_READING_PASSAGE_3_DATA_URL = "flashcards-ielts-reading-passage-3-data.js?v=20260731-1";
+    const IELTS_READING_PASSAGE_3_PREFIX = "ielts/reading/passage-3";
+    const IELTS_READING_PASSAGE_3_CARD_COUNT = 33025;
     let ieltsReadingPassage1DataPromise = null;
     let ieltsReadingPassage2DataPromise = null;
+    let ieltsReadingPassage3DataPromise = null;
 
     function ensureIeltsReadingPassage1Data() {
       if (window.EDMUND_IELTS_READING_PASSAGE_1_SEED) return Promise.resolve();
@@ -184276,11 +184281,24 @@ window.EDMUND_FLASHCARD_SEED = {
       return ieltsReadingPassage2DataPromise;
     }
 
-    function ensureIeltsReadingData() {
-      return Promise.all([
-        ensureIeltsReadingPassage1Data(),
-        ensureIeltsReadingPassage2Data()
-      ]);
+    function ensureIeltsReadingPassage3Data() {
+      if (window.EDMUND_IELTS_READING_PASSAGE_3_SEED) return Promise.resolve();
+      if (ieltsReadingPassage3DataPromise) return ieltsReadingPassage3DataPromise;
+      ieltsReadingPassage3DataPromise = new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = IELTS_READING_PASSAGE_3_DATA_URL;
+        script.dataset.ieltsReadingPassage3 = "true";
+        script.onload = () => {
+          if (window.EDMUND_IELTS_READING_PASSAGE_3_SEED) resolve();
+          else reject(new Error("IELTS Reading Passage 3 data loaded without a seed."));
+        };
+        script.onerror = () => reject(new Error("Could not load IELTS Reading Passage 3 data."));
+        document.head.appendChild(script);
+      }).catch(error => {
+        ieltsReadingPassage3DataPromise = null;
+        throw error;
+      });
+      return ieltsReadingPassage3DataPromise;
     }
 
     function ensureIeltsReadingDataForDeck(deckId) {
@@ -184290,6 +184308,9 @@ window.EDMUND_FLASHCARD_SEED = {
       }
       if (value === IELTS_READING_PASSAGE_2_PREFIX || value.startsWith(`${IELTS_READING_PASSAGE_2_PREFIX}/`)) {
         return ensureIeltsReadingPassage2Data();
+      }
+      if (value === IELTS_READING_PASSAGE_3_PREFIX || value.startsWith(`${IELTS_READING_PASSAGE_3_PREFIX}/`)) {
+        return ensureIeltsReadingPassage3Data();
       }
       return Promise.resolve();
     }
@@ -184312,7 +184333,7 @@ window.EDMUND_FLASHCARD_SEED = {
     const ieltsReadingPassages = ["Passage 1", "Passage 2", "Passage 3"];
     const ieltsReadingDeckTitles = {
       "Passage 1": {
-        "Practice 1": "Italian Architect Palladio"
+        "Practice 1": "Andrea Palladio - Italian Architect"
       },
       "Passage 2": {
         "Practice 1": "Such a Fascinating Game"
@@ -184328,6 +184349,8 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function ieltsReadingPracticesForPassage(passage) {
+      const indexedRows = window.EDMUND_IELTS_READING_INDEX?.[passage];
+      if (Array.isArray(indexedRows)) return indexedRows.map(row => row.practice);
       const passageId = deckIdForLabel("ielts/reading", passage, true);
       const prefix = `${passageId}/`;
       return Object.keys(seedDecks)
@@ -184338,9 +184361,13 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function ieltsReadingPracticeTitle(passage, practice) {
+      const indexedTitle = window.EDMUND_IELTS_READING_INDEX?.[passage]
+        ?.find(row => row.practice === practice)?.title;
       return ieltsReadingDeckTitles[passage]?.[practice]
+        || indexedTitle
         || (passage === "Passage 1" ? window.EDMUND_IELTS_READING_PASSAGE_1_TITLES?.[practice] : "")
         || (passage === "Passage 2" ? window.EDMUND_IELTS_READING_PASSAGE_2_TITLES?.[practice] : "")
+        || (passage === "Passage 3" ? window.EDMUND_IELTS_READING_PASSAGE_3_TITLES?.[practice] : "")
         || practice;
     }
 
@@ -184352,6 +184379,11 @@ window.EDMUND_FLASHCARD_SEED = {
     function ieltsReadingPracticePathLabel(passage, practice) {
       const title = ieltsReadingPracticeTitle(passage, practice);
       return title === practice ? practice : `${practice} — ${title}`;
+    }
+
+    function ieltsReadingPracticeCardCount(passage, practice) {
+      return Number(window.EDMUND_IELTS_READING_INDEX?.[passage]
+        ?.find(row => row.practice === practice)?.cardCount || 0);
     }
 
     const ieltsWritingTask1Types = ["Tables", "Pie Charts", "Bar Charts", "Line Graphs", "Process Diagrams", "Maps", "Mixed Charts"];
@@ -186955,7 +186987,11 @@ window.EDMUND_FLASHCARD_SEED = {
         && (prefix === IELTS_READING_PASSAGE_2_PREFIX || IELTS_READING_PASSAGE_2_PREFIX.startsWith(`${prefix}/`))
         ? IELTS_READING_PASSAGE_2_CARD_COUNT
         : 0;
-      const unloadedIeltsReadingCount = unloadedPassage1Count + unloadedPassage2Count;
+      const unloadedPassage3Count = !window.EDMUND_IELTS_READING_PASSAGE_3_SEED
+        && (prefix === IELTS_READING_PASSAGE_3_PREFIX || IELTS_READING_PASSAGE_3_PREFIX.startsWith(`${prefix}/`))
+        ? IELTS_READING_PASSAGE_3_CARD_COUNT
+        : 0;
+      const unloadedIeltsReadingCount = unloadedPassage1Count + unloadedPassage2Count + unloadedPassage3Count;
       const exact = getDeckCards(prefix).length;
       if (exact) return exact + unloadedIeltsReadingCount;
       return getKnownDeckIds()
@@ -187555,14 +187591,16 @@ window.EDMUND_FLASHCARD_SEED = {
         rows.push({
           deckId,
           deckTitle,
-          cardCount: options.aggregate ? deckCardCount(deckId) : getDeckCards(deckId).length,
+          cardCount: Number.isFinite(options.cardCount)
+            ? Number(options.cardCount)
+            : options.aggregate ? deckCardCount(deckId) : getDeckCards(deckId).length,
           childCount: Number(options.childCount || 0),
           aggregate: Boolean(options.aggregate),
           virtual: true
         });
       };
       const addAggregate = (deckId, deckTitle, childCount = 0) => add(deckId, deckTitle, { aggregate: true, childCount });
-      const addExact = (deckId, deckTitle) => add(deckId, deckTitle, { aggregate: false });
+      const addExact = (deckId, deckTitle, options = {}) => add(deckId, deckTitle, { ...options, aggregate: false });
 
       accessSections
         .filter(section => section.kind === "deck")
@@ -187653,7 +187691,11 @@ window.EDMUND_FLASHCARD_SEED = {
         const passageId = deckIdForLabel("ielts/reading", passage, true);
         const practices = ieltsReadingPracticesForPassage(passage);
         addAggregate(passageId, `IELTS / Reading / ${passage}`, practices.length);
-        practices.forEach(practice => addExact(`${passageId}/${practice}`, `IELTS / Reading / ${passage} / ${ieltsReadingPracticePathLabel(passage, practice)}`));
+        practices.forEach(practice => addExact(
+          `${passageId}/${practice}`,
+          `IELTS / Reading / ${passage} / ${ieltsReadingPracticePathLabel(passage, practice)}`,
+          { cardCount: ieltsReadingPracticeCardCount(passage, practice) }
+        ));
       });
 
       addAggregate("ielts/writing", "IELTS / Writing", 2);
@@ -187943,8 +187985,20 @@ window.EDMUND_FLASHCARD_SEED = {
       `;
     }
 
-    function openSearchDeckResult(deckId, aggregate = false) {
+    async function openSearchDeckResult(deckId, aggregate = false) {
       if (!deckId) return;
+      const requestUser = currentUser;
+      const requestView = currentView;
+      if (!aggregate) {
+        try {
+          await ensureIeltsReadingDataForDeck(deckId);
+        } catch (error) {
+          console.error(error);
+          window.alert("下載這個 Flash Cards 卡組時出現連線問題，請稍後再試。");
+          return;
+        }
+        if (currentUser !== requestUser || currentView !== requestView) return;
+      }
       const allRows = searchableDeckRows();
       const matchedRow = allRows.find(row => row.deckId === deckId);
       if (matchedRow?.deckTitle) deckTitleLabels.set(deckId, matchedRow.deckTitle);
@@ -189301,14 +189355,30 @@ window.EDMUND_FLASHCARD_SEED = {
       );
     }
 
-    async function showIeltsReading() {
+    function showIeltsReading() {
+      showOptions(
+        "IELTS Reading",
+        "先選 Passage；系統只會下載所選 Passage 的卡片。",
+        () => routeColumnHtml("Reading", ieltsReadingPassages.map((passage, index) => ({
+          label: passage,
+          route: `ielts-reading-passage|${index + 1}`,
+          metaPrefix: deckIdForLabel("ielts/reading", passage, true)
+        }))),
+        "columns-grid one"
+      );
+    }
+
+    async function showIeltsReadingPassage(passageNumber) {
+      const passage = `Passage ${Number(passageNumber)}`;
+      if (!ieltsReadingPassages.includes(passage)) return;
+      const passageId = deckIdForLabel("ielts/reading", passage, true);
       const initiatingUser = currentUser
         ? `${currentUser.role || "student"}:${currentUser.id || currentUser.name || ""}`
         : "";
       showOptions(
-        "IELTS Reading",
-        "Loading IELTS Reading flashcards…",
-        () => '<div class="empty-state">Loading IELTS Reading Passage 1 and Passage 2…</div>',
+        `IELTS Reading ${passage}`,
+        `Loading ${passage} flashcards…`,
+        () => `<div class="empty-state">Loading ${escapeHtml(passage)}…</div>`,
         "columns-grid one"
       );
       const loadingOptions = lastOptions;
@@ -189319,13 +189389,13 @@ window.EDMUND_FLASHCARD_SEED = {
         return currentView === "options-view" && lastOptions === loadingOptions && activeUser === initiatingUser;
       };
       try {
-        await ensureIeltsReadingData();
+        await ensureIeltsReadingDataForDeck(passageId);
       } catch (error) {
         console.error(error);
         if (!requestIsCurrent()) return;
         showOptions(
-          "IELTS Reading",
-          "IELTS Reading flashcards could not be loaded.",
+          `IELTS Reading ${passage}`,
+          `${passage} flashcards could not be loaded.`,
           () => '<div class="empty-state">Please check your connection and try again.</div>',
           "columns-grid one",
           false
@@ -189334,18 +189404,18 @@ window.EDMUND_FLASHCARD_SEED = {
       }
       if (!requestIsCurrent()) return;
       showOptions(
-        "IELTS Reading",
-        "Passage 1 / Passage 2 / Passage 3",
-        () => ieltsReadingPassages.map(passage => columnHtml(
+        `IELTS Reading ${passage}`,
+        `${ieltsReadingPracticesForPassage(passage).length} 個練習`,
+        () => columnHtml(
           passage,
           ieltsReadingPracticesForPassage(passage),
-          deckIdForLabel("ielts/reading", passage, true),
+          passageId,
           {
             labelForLabel: practice => ieltsReadingPracticeLabel(passage, practice),
             titleForLabel: practice => `IELTS / Reading / ${passage} / ${ieltsReadingPracticePathLabel(passage, practice)}`
           }
-        )).join(""),
-        "columns-grid",
+        ),
+        "columns-grid one",
         false
       );
     }
@@ -192153,39 +192223,15 @@ window.EDMUND_FLASHCARD_SEED = {
         renderStudentProfile();
       });
 
-      document.addEventListener("input", async event => {
+      document.addEventListener("input", event => {
         const searchInput = event.target.closest("[data-deck-search-input]");
         if (!searchInput) return;
-        if (searchInput.value.trim() && (
-          !window.EDMUND_IELTS_READING_PASSAGE_1_SEED
-          || !window.EDMUND_IELTS_READING_PASSAGE_2_SEED
-        )) {
-          const list = document.querySelector("[data-deck-search-results]");
-          if (list) list.innerHTML = '<p class="note-text">Loading IELTS Reading flashcards…</p>';
-          try {
-            await ensureIeltsReadingData();
-          } catch (error) {
-            console.error(error);
-          }
-        }
         renderDeckSearchResults(searchInput.value);
       });
 
-      document.addEventListener("input", async event => {
+      document.addEventListener("input", event => {
         const advancedSearchInput = event.target.closest("[data-advanced-search-input]");
         if (!advancedSearchInput) return;
-        if (advancedSearchInput.value.trim() && (
-          !window.EDMUND_IELTS_READING_PASSAGE_1_SEED
-          || !window.EDMUND_IELTS_READING_PASSAGE_2_SEED
-        )) {
-          const count = document.querySelector("[data-advanced-search-count]");
-          if (count) count.textContent = "Loading IELTS Reading flashcards…";
-          try {
-            await ensureIeltsReadingData();
-          } catch (error) {
-            console.error(error);
-          }
-        }
         renderAdvancedSearchPage();
       });
 
@@ -192429,7 +192475,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const searchDeckButton = event.target.closest("[data-search-deck]");
         if (searchDeckButton) {
           if (!confirmLeaveInProgress()) return;
-          openSearchDeckResult(
+          await openSearchDeckResult(
             searchDeckButton.getAttribute("data-search-deck"),
             searchDeckButton.getAttribute("data-search-aggregate") === "true"
           );
@@ -192815,7 +192861,8 @@ window.EDMUND_FLASHCARD_SEED = {
             const [, year, setKey] = route.split("|");
             showDseSpeakingSets(year, setKey);
           }
-          if (route === "ielts-reading") await showIeltsReading();
+          if (route === "ielts-reading") showIeltsReading();
+          if (route.startsWith("ielts-reading-passage|")) await showIeltsReadingPassage(route.split("|")[1]);
           if (route === "ielts-writing") showIeltsWriting();
           if (route === "ielts-writing-task1") showIeltsWritingTask1();
           if (route.startsWith("ielts-writing-task1-type|")) showIeltsWritingTask1Decks(route.split("|")[1]);

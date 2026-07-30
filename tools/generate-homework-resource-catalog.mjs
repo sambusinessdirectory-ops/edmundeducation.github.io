@@ -119,8 +119,9 @@ async function flashcardResources(allFiles) {
     });
   });
   const readingTitlesByPassage = new Map([
-    ["1", sandbox.window.EDMUND_IELTS_READING_PASSAGE_1_TITLES || {}],
-    ["2", sandbox.window.EDMUND_IELTS_READING_PASSAGE_2_TITLES || {}]
+    ["1", { "Practice 1": "Andrea Palladio - Italian Architect", ...(sandbox.window.EDMUND_IELTS_READING_PASSAGE_1_TITLES || {}) }],
+    ["2", { "Practice 1": "Such a Fascinating Game", ...(sandbox.window.EDMUND_IELTS_READING_PASSAGE_2_TITLES || {}) }],
+    ["3", { "Practice 1": "ARE WE MANAGING TO DESTROY SCIENCE?", ...(sandbox.window.EDMUND_IELTS_READING_PASSAGE_3_TITLES || {}) }]
   ]);
 
   return Object.entries(sandbox.window.EDMUND_FLASHCARD_SEED || {})

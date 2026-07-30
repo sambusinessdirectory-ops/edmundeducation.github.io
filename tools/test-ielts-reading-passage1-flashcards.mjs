@@ -100,12 +100,8 @@ for (const [index, source] of inlineScripts.entries()) {
 }
 assert(html.includes('const IELTS_READING_PASSAGE_1_DATA_URL = "flashcards-ielts-reading-passage-1-data.js?v=20260722-1"'), "Passage 1 lazy-load URL is missing");
 assert(!html.includes('<script src="flashcards-ielts-reading-passage-1-data.js'), "Passage 1 data should not block the login page");
-assert(
-  /function ensureIeltsReadingData\(\)[\s\S]*?ensureIeltsReadingPassage1Data\(\)[\s\S]*?ensureIeltsReadingPassage2Data\(\)/.test(html)
-    && html.includes("await ensureIeltsReadingData()"),
-  "IELTS Reading does not wait for the combined Passage 1 and Passage 2 data"
-);
-assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260730-1"></script>'), "Flashcard audio cache key is stale");
+assert(!html.includes("function ensureIeltsReadingData()"), "IELTS Reading must not bulk-load every large passage bundle");
+assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260731-1"></script>'), "Flashcard audio cache key is stale");
 assert(html.includes("ieltsReadingPracticesForPassage(passage)"), "IELTS Reading chooser is not using passage-specific decks");
 assert(html.includes("ieltsReadingPracticeLabel(passage, practice)"), "IELTS Reading chooser is not rendering passage titles");
 const inlineSeed = parseAssignment(html, "window.EDMUND_FLASHCARD_SEED = ", ";\n  </script>");
@@ -125,7 +121,8 @@ if (!dataOnly) {
     ");\n"
   );
   assert(audioMeta.complete === true, "Flashcard audio manifest is incomplete");
-  assert(audioMeta.count === 91338, `Expected 91,338 manifest entries, found ${audioMeta.count}`);
+  assert(audioMeta.count === 118304, `Expected 118,304 expanded manifest entries, found ${audioMeta.count}`);
+  assert(audioMeta.count === Object.keys(manifest).length, "Expanded audio manifest count is inconsistent");
   const cloudIndex = JSON.parse(read("workers/edmund-audio/src/flashcard-pack-index.json"));
   assert(cloudIndex.schemaVersion === 1, "Flashcard cloud-pack index schema is invalid");
   assert(cloudIndex.meta?.entryCount === 27280, `Expected 27,280 cloud recordings, found ${cloudIndex.meta?.entryCount}`);
