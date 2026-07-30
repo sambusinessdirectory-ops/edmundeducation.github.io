@@ -118,15 +118,21 @@ async function flashcardResources(allFiles) {
       taskTwoTitles.set(`ielts/writing/task-2/${type}/${row.ref}`, compactText(row.question, 180));
     });
   });
-  const readingTitles = sandbox.window.EDMUND_IELTS_READING_PASSAGE_1_TITLES || {};
+  const readingTitlesByPassage = new Map([
+    ["1", sandbox.window.EDMUND_IELTS_READING_PASSAGE_1_TITLES || {}],
+    ["2", sandbox.window.EDMUND_IELTS_READING_PASSAGE_2_TITLES || {}]
+  ]);
 
   return Object.entries(sandbox.window.EDMUND_FLASHCARD_SEED || {})
     .filter(([, cards]) => Array.isArray(cards) && cards.length > 0)
     .map(([deckId, cards]) => {
-      const readingPractice = deckId.match(/^ielts\/reading\/passage-1\/(Practice \d+)$/)?.[1];
+      const readingMatch = deckId.match(/^ielts\/reading\/passage-([123])\/(Practice \d+)$/);
+      const readingPassage = readingMatch?.[1] || "";
+      const readingPractice = readingMatch?.[2] || "";
+      const readingTitle = readingTitlesByPassage.get(readingPassage)?.[readingPractice] || "";
       const exactTitle = taskTwoTitles.get(deckId)
-        || (readingPractice && readingTitles[readingPractice]
-          ? `IELTS / Reading / Passage 1 / ${readingPractice} — ${readingTitles[readingPractice]}`
+        || (readingPractice && readingTitle
+          ? `IELTS / Reading / Passage ${readingPassage} / ${readingPractice} — ${readingTitle}`
           : "");
       return {
         id: `flash:${deckId}`,

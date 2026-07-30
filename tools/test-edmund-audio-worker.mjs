@@ -6,9 +6,17 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const packIndex = JSON.parse(
+const passage1PackIndex = JSON.parse(
   fs.readFileSync(path.join(root, "workers/edmund-audio/src/flashcard-pack-index.json"), "utf8")
 );
+const passage2PackIndex = JSON.parse(
+  fs.readFileSync(
+    path.join(root, "workers/edmund-audio/src/flashcard-pack-index-passage2.json"),
+    "utf8"
+  )
+);
+const packIndexes = [passage1PackIndex, passage2PackIndex];
+const packIndex = passage1PackIndex;
 const workerModule = await import(
   pathToFileURL(path.join(root, "workers/edmund-audio/src/index.js")).href
 );
@@ -20,25 +28,54 @@ function assert(condition, message) {
 }
 
 
+assert(
+  passage1PackIndex.audioPathPrefix ===
+    "assets/flashcards/audio/edmund-neural/v1-passage1-20260722/",
+  "The established Passage 1 public audio URL prefix changed"
+);
+assert(
+  passage2PackIndex.audioPathPrefix ===
+    "assets/flashcards/audio/edmund-neural/v1-passage2-20260730-1/",
+  "The Passage 2 public audio URL prefix is wrong"
+);
+assert(
+  packIndexes.every(index => index.meta?.r2UploadComplete === true),
+  "Every Worker pack index must be marked as fully uploaded"
+);
+
+
 const prefix = Object.keys(packIndex.entries).sort()[0];
 assert(prefix, "Flashcard pack index has no entries");
 const suffix = Object.keys(packIndex.entries[prefix]).sort()[0];
 const digest = `${prefix}${suffix}`;
 const [offset, length] = packIndex.entries[prefix][suffix];
 const pack = packIndex.packs[prefix];
+const passage2Prefix = Object.keys(passage2PackIndex.entries).sort()[0];
+assert(passage2Prefix, "Passage 2 flashcard pack index has no entries");
+const passage2Suffix = Object.keys(passage2PackIndex.entries[passage2Prefix]).sort()[0];
+const passage2Digest = `${passage2Prefix}${passage2Suffix}`;
+const [passage2Offset, passage2Length] =
+  passage2PackIndex.entries[passage2Prefix][passage2Suffix];
+const passage2Pack = passage2PackIndex.packs[passage2Prefix];
+const packFixtures = new Map([
+  [pack.key, { fill: 0x5a, pack }],
+  [passage2Pack.key, { fill: 0x6b, pack: passage2Pack }]
+]);
 const getCalls = [];
 
 
 const env = {
   EDMUND_ASSETS: {
     async head(key) {
-      return key === pack.key ? { size: pack.size } : null;
+      const fixture = packFixtures.get(key);
+      return fixture ? { size: fixture.pack.size } : null;
     },
     async get(key, options = {}) {
-      if (key !== pack.key) return null;
-      const range = options.range || { offset: 0, length: pack.size };
+      const fixture = packFixtures.get(key);
+      if (!fixture) return null;
+      const range = options.range || { offset: 0, length: fixture.pack.size };
       getCalls.push({ key, ...range });
-      return { body: Buffer.alloc(range.length, 0x5a) };
+      return { body: Buffer.alloc(range.length, fixture.fill) };
     }
   }
 };
@@ -138,21 +175,80 @@ const cachedResponse = await worker.fetch(
 assert(cachedResponse.status === 304, `Conditional status was ${cachedResponse.status}`);
 
 
+const passage2AudioUrl =
+  `${passage2PackIndex.cloudBaseUrl}/${passage2PackIndex.audioPathPrefix}` +
+  `${passage2Prefix}/${passage2Digest}.mp3`;
+const passage2Response = await worker.fetch(new Request(passage2AudioUrl), env);
+assert(
+  passage2Response.status === 200,
+  `Passage 2 full request status was ${passage2Response.status}`
+);
+assert(
+  Number(passage2Response.headers.get("content-length")) === passage2Length,
+  "Passage 2 full request length is wrong"
+);
+const expectedPassage2Audio = Buffer.alloc(passage2Length, 0x6b);
+const actualPassage2Audio = Buffer.from(await passage2Response.arrayBuffer());
+assert(
+  actualPassage2Audio.equals(expectedPassage2Audio),
+  "Passage 2 packed response differs from the source MP3"
+);
+const passage2GetCall = getCalls.at(-1);
+assert(
+  passage2GetCall?.key === passage2Pack.key
+    && passage2GetCall?.offset === passage2Offset
+    && passage2GetCall?.length === passage2Length,
+  "Passage 2 pack lookup range is wrong"
+);
+
+const passage2HeadResponse = await worker.fetch(
+  new Request(passage2AudioUrl, { method: "HEAD" }),
+  env
+);
+assert(
+  passage2HeadResponse.status === 200,
+  `Passage 2 HEAD status was ${passage2HeadResponse.status}`
+);
+assert(
+  Number(passage2HeadResponse.headers.get("content-length")) === passage2Length,
+  "Passage 2 HEAD length is wrong"
+);
+
+const passage2UnknownResponse = await worker.fetch(
+  new Request(
+    `${passage2PackIndex.cloudBaseUrl}/` +
+      `${passage2PackIndex.audioPathPrefix}00/not-a-digest.mp3`
+  ),
+  env
+);
+assert(
+  passage2UnknownResponse.status === 404,
+  `Unknown Passage 2 flashcard status was ${passage2UnknownResponse.status}`
+);
+
+
 const healthResponse = await worker.fetch(new Request(`${packIndex.cloudBaseUrl}/health`), env);
 const health = await healthResponse.json();
 assert(health.products.includes("flashcards"), "Worker health response omits flashcards");
 
 
 console.log(JSON.stringify({
-  indexedRecordings: packIndex.meta.entryCount,
-  packs: packIndex.meta.packCount,
+  indexes: packIndexes.map(index => ({
+    audioPathPrefix: index.audioPathPrefix,
+    indexedRecordings: index.meta.entryCount,
+    packs: index.meta.packCount
+  })),
   testedDigest: digest,
+  testedPassage2Digest: passage2Digest,
   testedBytes: length,
+  testedPassage2Bytes: passage2Length,
   fullStatus: fullResponse.status,
+  passage2FullStatus: passage2Response.status,
   rangeStatus: rangeResponse.status,
   ifRangeMismatchStatus: ifRangeMismatchResponse.status,
   suffixRangeStatus: suffixResponse.status,
   rangedHeadStatus: rangedHeadResponse.status,
   unknownStatus: unknownResponse.status,
+  passage2UnknownStatus: passage2UnknownResponse.status,
   conditionalStatus: cachedResponse.status
 }, null, 2));

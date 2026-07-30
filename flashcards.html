@@ -184156,7 +184156,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-dse-speaking-2019-data.js?v=20260713-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260729-2"></script>
+  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260730-1"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -184230,7 +184230,11 @@ window.EDMUND_FLASHCARD_SEED = {
     const IELTS_READING_PASSAGE_1_DATA_URL = "flashcards-ielts-reading-passage-1-data.js?v=20260722-1";
     const IELTS_READING_PASSAGE_1_PREFIX = "ielts/reading/passage-1";
     const IELTS_READING_PASSAGE_1_CARD_COUNT = 30029;
+    const IELTS_READING_PASSAGE_2_DATA_URL = "flashcards-ielts-reading-passage-2-data.js?v=20260730-1";
+    const IELTS_READING_PASSAGE_2_PREFIX = "ielts/reading/passage-2";
+    const IELTS_READING_PASSAGE_2_CARD_COUNT = 29408;
     let ieltsReadingPassage1DataPromise = null;
+    let ieltsReadingPassage2DataPromise = null;
 
     function ensureIeltsReadingPassage1Data() {
       if (window.EDMUND_IELTS_READING_PASSAGE_1_SEED) return Promise.resolve();
@@ -184250,6 +184254,44 @@ window.EDMUND_FLASHCARD_SEED = {
         throw error;
       });
       return ieltsReadingPassage1DataPromise;
+    }
+
+    function ensureIeltsReadingPassage2Data() {
+      if (window.EDMUND_IELTS_READING_PASSAGE_2_SEED) return Promise.resolve();
+      if (ieltsReadingPassage2DataPromise) return ieltsReadingPassage2DataPromise;
+      ieltsReadingPassage2DataPromise = new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = IELTS_READING_PASSAGE_2_DATA_URL;
+        script.dataset.ieltsReadingPassage2 = "true";
+        script.onload = () => {
+          if (window.EDMUND_IELTS_READING_PASSAGE_2_SEED) resolve();
+          else reject(new Error("IELTS Reading Passage 2 data loaded without a seed."));
+        };
+        script.onerror = () => reject(new Error("Could not load IELTS Reading Passage 2 data."));
+        document.head.appendChild(script);
+      }).catch(error => {
+        ieltsReadingPassage2DataPromise = null;
+        throw error;
+      });
+      return ieltsReadingPassage2DataPromise;
+    }
+
+    function ensureIeltsReadingData() {
+      return Promise.all([
+        ensureIeltsReadingPassage1Data(),
+        ensureIeltsReadingPassage2Data()
+      ]);
+    }
+
+    function ensureIeltsReadingDataForDeck(deckId) {
+      const value = String(deckId || "");
+      if (value === IELTS_READING_PASSAGE_1_PREFIX || value.startsWith(`${IELTS_READING_PASSAGE_1_PREFIX}/`)) {
+        return ensureIeltsReadingPassage1Data();
+      }
+      if (value === IELTS_READING_PASSAGE_2_PREFIX || value.startsWith(`${IELTS_READING_PASSAGE_2_PREFIX}/`)) {
+        return ensureIeltsReadingPassage2Data();
+      }
+      return Promise.resolve();
     }
     const promotedSharedDecks = new Set([
       "dse/writing/part-a/2025"
@@ -184298,6 +184340,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function ieltsReadingPracticeTitle(passage, practice) {
       return ieltsReadingDeckTitles[passage]?.[practice]
         || (passage === "Passage 1" ? window.EDMUND_IELTS_READING_PASSAGE_1_TITLES?.[practice] : "")
+        || (passage === "Passage 2" ? window.EDMUND_IELTS_READING_PASSAGE_2_TITLES?.[practice] : "")
         || practice;
     }
 
@@ -186908,11 +186951,16 @@ window.EDMUND_FLASHCARD_SEED = {
         && (prefix === IELTS_READING_PASSAGE_1_PREFIX || IELTS_READING_PASSAGE_1_PREFIX.startsWith(`${prefix}/`))
         ? IELTS_READING_PASSAGE_1_CARD_COUNT
         : 0;
+      const unloadedPassage2Count = !window.EDMUND_IELTS_READING_PASSAGE_2_SEED
+        && (prefix === IELTS_READING_PASSAGE_2_PREFIX || IELTS_READING_PASSAGE_2_PREFIX.startsWith(`${prefix}/`))
+        ? IELTS_READING_PASSAGE_2_CARD_COUNT
+        : 0;
+      const unloadedIeltsReadingCount = unloadedPassage1Count + unloadedPassage2Count;
       const exact = getDeckCards(prefix).length;
-      if (exact) return exact + unloadedPassage1Count;
+      if (exact) return exact + unloadedIeltsReadingCount;
       return getKnownDeckIds()
         .filter(deckId => deckId.startsWith(`${prefix}/`))
-        .reduce((sum, deckId) => sum + getDeckCards(deckId).length, unloadedPassage1Count);
+        .reduce((sum, deckId) => sum + getDeckCards(deckId).length, unloadedIeltsReadingCount);
     }
 
     function attemptMatchesPrefix(attempt, prefix) {
@@ -189259,8 +189307,8 @@ window.EDMUND_FLASHCARD_SEED = {
         : "";
       showOptions(
         "IELTS Reading",
-        "Loading Passage 1 flashcards…",
-        () => '<div class="empty-state">Loading IELTS Reading Passage 1…</div>',
+        "Loading IELTS Reading flashcards…",
+        () => '<div class="empty-state">Loading IELTS Reading Passage 1 and Passage 2…</div>',
         "columns-grid one"
       );
       const loadingOptions = lastOptions;
@@ -189271,13 +189319,13 @@ window.EDMUND_FLASHCARD_SEED = {
         return currentView === "options-view" && lastOptions === loadingOptions && activeUser === initiatingUser;
       };
       try {
-        await ensureIeltsReadingPassage1Data();
+        await ensureIeltsReadingData();
       } catch (error) {
         console.error(error);
         if (!requestIsCurrent()) return;
         showOptions(
           "IELTS Reading",
-          "Passage 1 could not be loaded.",
+          "IELTS Reading flashcards could not be loaded.",
           () => '<div class="empty-state">Please check your connection and try again.</div>',
           "columns-grid one",
           false
@@ -189967,6 +190015,11 @@ window.EDMUND_FLASHCARD_SEED = {
     function deckTitleFromId(deckId) {
       if (deckId === BOOKMARK_DECK_ID || deckId === "bookmarks") return "書簽 / My Private Bookmarks";
       if (deckTitleLabels.has(deckId)) return deckTitleLabels.get(deckId);
+      const ieltsReadingMatch = /^ielts\/reading\/passage-([123])\/(Practice \d+)$/i.exec(String(deckId || ""));
+      if (ieltsReadingMatch) {
+        const passage = `Passage ${ieltsReadingMatch[1]}`;
+        return `IELTS / Reading / ${passage} / ${ieltsReadingPracticePathLabel(passage, ieltsReadingMatch[2])}`;
+      }
       return String(deckId || "").split("/").filter(Boolean).map(titlePart).join(" / ");
     }
 
@@ -190284,12 +190337,30 @@ window.EDMUND_FLASHCARD_SEED = {
       return true;
     }
 
-    function openRequestedHomeworkDeck() {
+    async function openRequestedHomeworkDeck() {
       if (requestedHomeworkDeckOpened || currentUser?.role !== "student") return false;
       const deckId = String(new URLSearchParams(window.location.search).get("deck") || "").trim();
       if (!deckId) return false;
+      const requestUser = currentUser;
       requestedHomeworkDeckOpened = true;
-      if (deckId.length > 500 || !getDeckCards(deckId).length) {
+      if (deckId.length > 500) {
+        window.setTimeout(() => window.alert("這個 Flash Cards 卡組目前不存在或尚未加入卡片。"), 0);
+        return false;
+      }
+      try {
+        await ensureIeltsReadingDataForDeck(deckId);
+      } catch (error) {
+        console.error(error);
+        requestedHomeworkDeckOpened = false;
+        window.setTimeout(() => window.alert("下載這個 Flash Cards 卡組時出現連線問題，請稍後再試。"), 0);
+        return false;
+      }
+      const currentDeckRequest = String(new URLSearchParams(window.location.search).get("deck") || "").trim();
+      if (currentUser !== requestUser || currentUser?.role !== "student" || currentDeckRequest !== deckId) {
+        requestedHomeworkDeckOpened = false;
+        return false;
+      }
+      if (!getDeckCards(deckId).length) {
         window.setTimeout(() => window.alert("這個 Flash Cards 卡組目前不存在或尚未加入卡片。"), 0);
         return false;
       }
@@ -190301,8 +190372,9 @@ window.EDMUND_FLASHCARD_SEED = {
       return true;
     }
 
-    function openRequestedFlashcardTarget() {
-      return openRequestedFlashcardEssay() || openRequestedHomeworkDeck();
+    async function openRequestedFlashcardTarget() {
+      if (openRequestedFlashcardEssay()) return true;
+      return openRequestedHomeworkDeck();
     }
 
     function shuffle(values) {
@@ -192084,11 +192156,14 @@ window.EDMUND_FLASHCARD_SEED = {
       document.addEventListener("input", async event => {
         const searchInput = event.target.closest("[data-deck-search-input]");
         if (!searchInput) return;
-        if (searchInput.value.trim() && !window.EDMUND_IELTS_READING_PASSAGE_1_SEED) {
+        if (searchInput.value.trim() && (
+          !window.EDMUND_IELTS_READING_PASSAGE_1_SEED
+          || !window.EDMUND_IELTS_READING_PASSAGE_2_SEED
+        )) {
           const list = document.querySelector("[data-deck-search-results]");
-          if (list) list.innerHTML = '<p class="note-text">Loading IELTS Reading Passage 1…</p>';
+          if (list) list.innerHTML = '<p class="note-text">Loading IELTS Reading flashcards…</p>';
           try {
-            await ensureIeltsReadingPassage1Data();
+            await ensureIeltsReadingData();
           } catch (error) {
             console.error(error);
           }
@@ -192099,11 +192174,14 @@ window.EDMUND_FLASHCARD_SEED = {
       document.addEventListener("input", async event => {
         const advancedSearchInput = event.target.closest("[data-advanced-search-input]");
         if (!advancedSearchInput) return;
-        if (advancedSearchInput.value.trim() && !window.EDMUND_IELTS_READING_PASSAGE_1_SEED) {
+        if (advancedSearchInput.value.trim() && (
+          !window.EDMUND_IELTS_READING_PASSAGE_1_SEED
+          || !window.EDMUND_IELTS_READING_PASSAGE_2_SEED
+        )) {
           const count = document.querySelector("[data-advanced-search-count]");
-          if (count) count.textContent = "Loading IELTS Reading Passage 1…";
+          if (count) count.textContent = "Loading IELTS Reading flashcards…";
           try {
-            await ensureIeltsReadingPassage1Data();
+            await ensureIeltsReadingData();
           } catch (error) {
             console.error(error);
           }

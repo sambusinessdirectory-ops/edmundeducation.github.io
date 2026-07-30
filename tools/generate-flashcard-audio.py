@@ -29,6 +29,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
+        "flashcards-ielts-reading-passage-2-data.js",
+        "window.EDMUND_IELTS_READING_PASSAGE_2_SEED = ",
+        None,
+    ),
+    (
         "flashcards-ielts-writing-advantage-cause-direct-data.js",
         "window.EDMUND_IELTS_WRITING_ADVANTAGE_CAUSE_DIRECT_SEED = ",
         None,
@@ -121,7 +126,12 @@ EXTERNAL_SEED_ASSIGNMENTS = (
 )
 AUDIO_BUILD_VERSION = "v1"
 STATIC_AUDIO_ROOT = f"assets/flashcards/audio/edmund-neural/{AUDIO_BUILD_VERSION}"
-CLOUD_PACK_INDEX_RELATIVE = Path("workers/edmund-audio/src/flashcard-pack-index.json")
+CLOUD_PACK_INDEX_RELATIVES = (
+    # Keep the established Passage 1 release first so an overlapping digest
+    # retains its original public URL.
+    Path("workers/edmund-audio/src/flashcard-pack-index.json"),
+    Path("workers/edmund-audio/src/flashcard-pack-index-passage2.json"),
+)
 SPOKEN_OVERRIDES = {
     "AR": "A R",
     "built-in GPS": "built-in G P S",
@@ -343,49 +353,53 @@ def audio_relative_path(text: str) -> str:
     return f"{STATIC_AUDIO_ROOT}/{digest[:2]}/{digest}.mp3"
 
 
-def load_cloud_pack_index(source_root: Path) -> dict[str, object] | None:
-    path = source_root / CLOUD_PACK_INDEX_RELATIVE
-    if not path.is_file():
-        return None
-    value = json.loads(path.read_text(encoding="utf-8"))
-    if (
-        not isinstance(value, dict)
-        or value.get("schemaVersion") != 1
-        or not isinstance(value.get("cloudBaseUrl"), str)
-        or not isinstance(value.get("audioPathPrefix"), str)
-        or not isinstance(value.get("entries"), dict)
-        or not isinstance(value.get("meta"), dict)
-        or value["meta"].get("r2UploadComplete") is not True
-    ):
-        return None
-    return value
+def load_cloud_pack_indexes(source_root: Path) -> list[dict[str, object]]:
+    indexes: list[dict[str, object]] = []
+    for relative_path in CLOUD_PACK_INDEX_RELATIVES:
+        path = source_root / relative_path
+        if not path.is_file():
+            continue
+        value = json.loads(path.read_text(encoding="utf-8"))
+        if (
+            not isinstance(value, dict)
+            or value.get("schemaVersion") != 1
+            or not isinstance(value.get("cloudBaseUrl"), str)
+            or not isinstance(value.get("audioPathPrefix"), str)
+            or not isinstance(value.get("entries"), dict)
+            or not isinstance(value.get("meta"), dict)
+            or value["meta"].get("r2UploadComplete") is not True
+        ):
+            continue
+        indexes.append(value)
+    return indexes
 
 
-def cloud_audio_url(relative_path: str, cloud_index: dict[str, object] | None) -> str:
-    if cloud_index is None:
-        return ""
-    public_prefix = str(cloud_index["audioPathPrefix"])
-    if (
-        not public_prefix.startswith("assets/flashcards/audio/edmund-neural/")
-        or ".." in public_prefix
-        or not public_prefix.endswith("/")
-        or not relative_path.endswith(".mp3")
-    ):
+def cloud_audio_url(relative_path: str, cloud_indexes: list[dict[str, object]]) -> str:
+    if not relative_path.endswith(".mp3"):
         return ""
     digest = Path(relative_path).stem
     if not re.fullmatch(r"[0-9a-f]{24}", digest):
         return ""
-    prefix_entries = cloud_index["entries"].get(digest[:2], {})
-    entry = prefix_entries.get(digest[2:]) if isinstance(prefix_entries, dict) else None
-    if (
-        not isinstance(entry, list)
-        or len(entry) != 2
-        or any(not isinstance(value, int) or value < 0 for value in entry)
-        or entry[1] <= 1000
-    ):
-        return ""
-    base_url = str(cloud_index["cloudBaseUrl"]).rstrip("/")
-    return f"{base_url}/{public_prefix}{digest[:2]}/{digest}.mp3"
+    for cloud_index in cloud_indexes:
+        public_prefix = str(cloud_index["audioPathPrefix"])
+        if (
+            not public_prefix.startswith("assets/flashcards/audio/edmund-neural/")
+            or ".." in public_prefix
+            or not public_prefix.endswith("/")
+        ):
+            continue
+        prefix_entries = cloud_index["entries"].get(digest[:2], {})
+        entry = prefix_entries.get(digest[2:]) if isinstance(prefix_entries, dict) else None
+        if (
+            not isinstance(entry, list)
+            or len(entry) != 2
+            or any(not isinstance(value, int) or value < 0 for value in entry)
+            or entry[1] <= 1000
+        ):
+            continue
+        base_url = str(cloud_index["cloudBaseUrl"]).rstrip("/")
+        return f"{base_url}/{public_prefix}{digest[:2]}/{digest}.mp3"
+    return ""
 
 
 def valid_existing_audio(path: Path) -> bool:
@@ -495,11 +509,11 @@ def main() -> int:
             if int(hashlib.sha256(text.encode("utf-8")).hexdigest(), 16) % args.shard_count == args.shard_index
         ]
 
-    cloud_index = load_cloud_pack_index(source_root)
+    cloud_indexes = load_cloud_pack_indexes(source_root)
     expected: dict[str, tuple[str, str]] = {}
     for text in texts:
         relative_path = audio_relative_path(text)
-        cloud_url = cloud_audio_url(relative_path, cloud_index)
+        cloud_url = cloud_audio_url(relative_path, cloud_indexes)
         expected[text] = (relative_path, cloud_url)
     force_pattern = re.compile(args.force_regex) if args.force_regex else None
     complete_entries: dict[str, str] = {}

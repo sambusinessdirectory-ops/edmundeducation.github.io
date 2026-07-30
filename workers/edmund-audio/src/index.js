@@ -1,4 +1,5 @@
 import flashcardPackIndex from "./flashcard-pack-index.json" with { type: "json" };
+import flashcardPassage2PackIndex from "./flashcard-pack-index-passage2.json" with { type: "json" };
 
 const AUDIO_PREFIXES = [
   "assets/speaking-system/audio/edmund-neural/part1/",
@@ -6,7 +7,10 @@ const AUDIO_PREFIXES = [
   "assets/speaking-system/audio/edmund-neural/exam/"
 ];
 const IMMUTABLE_CACHE = "public, max-age=31536000, immutable";
-const FLASHCARD_AUDIO_PREFIX = flashcardPackIndex.audioPathPrefix;
+const FLASHCARD_PACK_INDEXES = [
+  flashcardPackIndex,
+  flashcardPassage2PackIndex
+];
 
 function responseHeaders() {
   return new Headers({
@@ -54,31 +58,36 @@ function objectKey(url) {
 }
 
 function flashcardPackEntry(url) {
-  if (flashcardPackIndex.meta?.r2UploadComplete !== true) return null;
   const key = decodedObjectKey(url);
-  if (!key.startsWith(FLASHCARD_AUDIO_PREFIX) || !key.endsWith(".mp3")) return null;
-  const match = /^([0-9a-f]{2})\/([0-9a-f]{24})\.mp3$/.exec(key.slice(FLASHCARD_AUDIO_PREFIX.length));
-  if (!match || !match[2].startsWith(match[1])) return null;
-  const prefix = match[1];
-  const digest = match[2];
-  const entry = flashcardPackIndex.entries[prefix]?.[digest.slice(2)];
-  const pack = flashcardPackIndex.packs[prefix];
-  if (
-    !Array.isArray(entry)
-    || entry.length !== 2
-    || !Number.isInteger(entry[0])
-    || !Number.isInteger(entry[1])
-    || entry[0] < 0
-    || entry[1] <= 1000
-    || !pack?.key
-  ) return null;
-  return {
-    digest,
-    key,
-    length: entry[1],
-    offset: entry[0],
-    packKey: pack.key
-  };
+  if (!key.endsWith(".mp3")) return null;
+  for (const packIndex of FLASHCARD_PACK_INDEXES) {
+    if (packIndex.meta?.r2UploadComplete !== true) continue;
+    const audioPrefix = packIndex.audioPathPrefix;
+    if (typeof audioPrefix !== "string" || !key.startsWith(audioPrefix)) continue;
+    const match = /^([0-9a-f]{2})\/([0-9a-f]{24})\.mp3$/.exec(key.slice(audioPrefix.length));
+    if (!match || !match[2].startsWith(match[1])) return null;
+    const prefix = match[1];
+    const digest = match[2];
+    const entry = packIndex.entries[prefix]?.[digest.slice(2)];
+    const pack = packIndex.packs[prefix];
+    if (
+      !Array.isArray(entry)
+      || entry.length !== 2
+      || !Number.isInteger(entry[0])
+      || !Number.isInteger(entry[1])
+      || entry[0] < 0
+      || entry[1] <= 1000
+      || !pack?.key
+    ) return null;
+    return {
+      digest,
+      key,
+      length: entry[1],
+      offset: entry[0],
+      packKey: pack.key
+    };
+  }
+  return null;
 }
 
 function requestedByteRange(header, totalLength) {

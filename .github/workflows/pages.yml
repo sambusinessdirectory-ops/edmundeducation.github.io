@@ -38,6 +38,11 @@ jobs:
       - name: Validate Sentence Structure lessons and data contracts
         run: node tools/test-sentence-structure-system.mjs
 
+      - name: Validate IELTS Reading Passage 1 and Passage 2 flashcards and voice
+        run: |
+          node tools/test-ielts-reading-passage1-flashcards.mjs
+          node tools/test-ielts-reading-passage2-flashcards.mjs
+
       - name: Validate IELTS Writing Task 1 flashcards and female voice
         run: |
           node tools/test-ielts-writing-task1-flashcards.mjs
