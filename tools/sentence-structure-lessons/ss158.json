@@ -1,0 +1,1250 @@
+{
+  "id": "ss158",
+  "order": 158,
+  "slug": "all-the-more-adjective-adverb",
+  "title": "All the more + adjective / adverb",
+  "titleZh": "「All the more + adjective / adverb」句",
+  "titleEn": "Using All the more with an adjective or adverb",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 158 -「All the more + adjective _ adverb」句.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + linking verb + all the more + adjective + reason / background",
+  "formulas": [
+    {
+      "id": "ss158-formula-01",
+      "labelEn": "Adjective",
+      "labelZh": "形容詞用法",
+      "formula": "Subject + linking verb + all the more + adjective + reason / background"
+    },
+    {
+      "id": "ss158-formula-02",
+      "labelEn": "Adverb",
+      "labelZh": "副詞用法",
+      "formula": "Subject + action verb + all the more + adverb + reason / background"
+    },
+    {
+      "id": "ss158-formula-03",
+      "labelEn": "Make pattern",
+      "labelZh": "Make 結構",
+      "formula": "Cause / situation + make(s) / made + object + all the more + adjective"
+    }
+  ],
+  "example": "The task was difficult, but that made the final success all the more meaningful.",
+  "exampleZh": "這項任務很困難，但這反而令最後的成功更有意義。",
+  "examples": [
+    {
+      "id": "ss158-example-01",
+      "en": "The task was difficult, but that made the final success all the more meaningful.",
+      "zh": "這項任務很困難，但這反而令最後的成功更有意義。",
+      "highlight": "The task was difficult, but that made the final success all the more meaningful."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss158-rule-01",
+      "zh": "All the more 表示「因此更加……」 它並非單純表示程度很高，而是表示某個情況令另一項特質變得更加明顯。 （這份禮物很特別。） （手寫卡令這份禮物變得更加特別。）",
+      "en": "All the more means “consequently even more”. It does not merely indicate a high degree; it shows that one situation makes another quality more pronounced. A handwritten card, for example, can make an already special gift all the more special.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The gift was special.",
+        "The handwritten card made the gift all the more special."
+      ]
+    },
+    {
+      "id": "ss158-rule-02",
+      "zh": "不可省略 the 正確： 錯誤：",
+      "en": "Do not omit the. Write all the more meaningful or all the more carefully, not all more meaningful or all more carefully.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "all the more meaningful",
+        "all the more carefully",
+        "all more meaningful",
+        "all more carefully"
+      ]
+    },
+    {
+      "id": "ss158-rule-03",
+      "zh": "形容詞和副詞的用法不同 形容詞描述人或事物： 副詞描述動作：",
+      "en": "Adjectives and adverbs have different uses in this pattern. An adjective describes a person or thing, as in The result was all the more surprising. An adverb describes an action, as in She listened all the more carefully.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The result was all the more surprising.",
+        "She listened all the more carefully."
+      ]
+    },
+    {
+      "id": "ss158-rule-04",
+      "zh": "不要加入多餘的比較形式 正確： 錯誤：",
+      "en": "Do not add an unnecessary comparative form. Write all the more clear, all the more difficult or all the more carefully, not all the more clearer or all the more more difficult.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "all the more clear",
+        "all the more difficult",
+        "all the more carefully",
+        "all the more clearer",
+        "all the more more difficult"
+      ]
+    },
+    {
+      "id": "ss158-rule-05",
+      "zh": "通常要交代令程度增加的原因 常見原因表達包括：",
+      "en": "Normally state the reason why the degree increases. Common ways to introduce that reason include because ..., after ..., when ..., because of ..., despite ..., and but that made ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "because...",
+        "after...",
+        "when...",
+        "because of...",
+        "despite...",
+        "but that made..."
+      ]
+    },
+    {
+      "id": "ss158-rule-06",
+      "zh": "本練習不包括以下相似句型 它們可能合乎文法，但不屬於本課指定的 all the more + adjective / adverb 結構。",
+      "en": "This exercise excludes similar patterns such as all the more so, all the clearer, even more + adjective and much more + adjective. They may be grammatical, but they are not the target all the more + adjective/adverb structure.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "all the more so",
+        "all the clearer",
+        "even more + adjective",
+        "much more + adjective"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss158-benefit-01",
+      "zh": "清楚說明「為甚麼更加……」 這個句型能清楚說明，某個原因如何令另一件事變得更加重要、困難、吸引或令人難忘。",
+      "en": "It clearly explains why something becomes even more important, difficult, attractive or memorable by showing how one situation increases another situation's effect, value or importance.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss158-benefit-02",
+      "zh": "加強語氣，但不只是使用 very Very 只表示程度高；all the more 則同時說明程度增加的原因。 （這次成功很有意義。） （這個項目幾乎失敗，因此它的成功更有意義。） 第二句不但加強語氣，還解釋了成功為甚麼特別有意義。",
+      "en": "It adds emphasis without merely using very. Very only indicates a high degree, whereas all the more also explains why that degree has increased. The success was meaningful describes its degree; The project almost failed, so its success was all the more meaningful both strengthens the evaluation and explains why the success was especially meaningful.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The success was very meaningful.",
+        "The project had nearly failed, making its success all the more meaningful."
+      ]
+    },
+    {
+      "id": "ss158-benefit-03",
+      "zh": "把原因和評價連接起來 你可以把一個客觀事實和自己的評價放在同一句中，令兩個意思之間的關係更清楚。",
+      "en": "You can connect a fact and your reaction to it in one organised sentence.",
+      "enSource": "pdf",
+      "examples": [
+        "You can connect a fact and your reaction to it in one organised sentence."
+      ]
+    },
+    {
+      "id": "ss158-benefit-04",
+      "zh": "避免反覆使用 even more 你不需要反覆使用 even more... because...，可以利用這個句型增加句式變化。",
+      "en": "Instead of repeatedly writing even more... because..., you can use all the more to vary your sentences.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss158-benefit-05",
+      "zh": "適合表達較深入的評價 這個句型特別適合描述： 某項成就為甚麼更難得； 某個錯誤為甚麼更嚴重； 某段經歷為甚麼更有意義； 某個結果為甚麼更令人意外； 某項行動為甚麼更值得欣賞。 因此，它適合用於日常說話、故事、作文、報告、評論和簡報。",
+      "en": "It supports deeper evaluation: why an achievement is more remarkable, a mistake more serious, an experience more meaningful, a result more surprising or an action more admirable. It is therefore useful in everyday speech, stories, essays, reports, reviews and presentations.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using All the more + adjective / adverb.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 All the more + adjective / adverb 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss158-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The music sounded even more beautiful because the room was quiet.",
+      "promptZh": "因為房間很安靜，音樂聽起來更加優美。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The music sounded all the more beautiful because the room was quiet.",
+      "answerZh": "因為房間很安靜，音樂聽起來更顯優美。",
+      "answerZhSource": "pdf",
+      "highlight": "The music sounded all the more beautiful because the room was quiet."
+    },
+    {
+      "id": "ss158-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Her kind message made the difficult day even more bearable.",
+      "promptZh": "她親切的訊息令艱難的一天變得更加容易捱過。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her kind message made the difficult day all the more bearable.",
+      "answerZh": "她親切的訊息令艱難的一天變得更加容易捱過。",
+      "answerZhSource": "pdf",
+      "highlight": "Her kind message made the difficult day all the more bearable."
+    },
+    {
+      "id": "ss158-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The hot soup felt especially comforting in the cold weather.",
+      "promptZh": "在寒冷的天氣中，熱湯令人感到格外溫暖舒心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cold weather made the hot soup all the more comforting.",
+      "answerZh": "寒冷的天氣令熱湯更加溫暖舒心。",
+      "answerZhSource": "pdf",
+      "highlight": "The cold weather made the hot soup all the more comforting."
+    },
+    {
+      "id": "ss158-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why did his apology sound even more sincere? He admitted his mistake.",
+      "promptZh": "為甚麼他的道歉聽起來更加真誠？因為他承認了自己的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His apology sounded all the more sincere because he admitted his mistake.",
+      "answerZh": "因為他承認了自己的錯誤，他的道歉聽起來更加真誠。",
+      "answerZhSource": "pdf",
+      "highlight": "His apology sounded all the more sincere because he admitted his mistake."
+    },
+    {
+      "id": "ss158-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "They had waited for a long time. This made the good news even more exciting.",
+      "promptZh": "他們等待了很久。這令這個好消息更加令人興奮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The long wait made the good news all the more exciting.",
+      "answerZh": "漫長的等待令這個好消息更加令人興奮。",
+      "answerZhSource": "pdf",
+      "highlight": "The long wait made the good news all the more exciting."
+    },
+    {
+      "id": "ss158-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The simple design made the instructions even more effective.",
+      "promptZh": "簡單的設計令指示變得更加有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The simple design made the instructions all the more effective.",
+      "answerZh": "簡單的設計令指示變得更加有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The simple design made the instructions all the more effective."
+    },
+    {
+      "id": "ss158-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "After the teacher warned the class, she listened even more carefully.",
+      "promptZh": "老師提醒全班後，她聽得更加留心。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She listened all the more carefully after the teacher warned the class.",
+      "answerZh": "老師提醒全班後，她聽得更加留心。",
+      "answerZhSource": "pdf",
+      "highlight": "She listened all the more carefully after the teacher warned the class."
+    },
+    {
+      "id": "ss158-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The warm café felt especially welcoming because it was raining outside.",
+      "promptZh": "因為外面正在下雨，這間溫暖的咖啡店格外令人感到親切舒適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain made the warm café all the more welcoming.",
+      "answerZh": "雨天令這間溫暖的咖啡店更加令人感到親切舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain made the warm café all the more welcoming."
+    },
+    {
+      "id": "ss158-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The event was even more impressive because their budget was limited.",
+      "promptZh": "因為他們的預算有限，這項活動更令人印象深刻。",
+      "promptZhSource": "pdf",
+      "starter": "Their",
+      "answer": "Their limited budget made the event all the more impressive.",
+      "answerZh": "有限的預算令這項活動更令人印象深刻。",
+      "answerZhSource": "pdf",
+      "highlight": "Their limited budget made the event all the more impressive."
+    },
+    {
+      "id": "ss158-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The stars were even more visible because the sky was dark.",
+      "promptZh": "因為天空昏暗，星星變得更加清晰可見。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dark sky made the stars all the more visible.",
+      "answerZh": "昏暗的天空令星星更加清晰可見。",
+      "answerZhSource": "pdf",
+      "highlight": "The dark sky made the stars all the more visible."
+    },
+    {
+      "id": "ss158-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why was the sight of the hotel even more welcome? There had been an unexpected delay.",
+      "promptZh": "為甚麼看見酒店更令人感到欣慰？因為之前出現了意外延誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The unexpected delay made the sight of the hotel all the more welcome.",
+      "answerZh": "意外延誤令酒店出現在眼前時更令人感到欣慰。",
+      "answerZhSource": "pdf",
+      "highlight": "The unexpected delay made the sight of the hotel all the more welcome."
+    },
+    {
+      "id": "ss158-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "She found one error. After that, she checked the figures even more carefully.",
+      "promptZh": "她發現了一個錯誤。之後，她更加仔細地核對數字。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She checked the figures all the more carefully after finding one error.",
+      "answerZh": "她發現一個錯誤後，更加仔細地核對數字。",
+      "answerZhSource": "pdf",
+      "highlight": "She checked the figures all the more carefully after finding one error."
+    },
+    {
+      "id": "ss158-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The singer's warm performance felt especially personal because the audience was small.",
+      "promptZh": "因為觀眾人數不多，歌手溫暖的演出顯得格外親切。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The small audience made the singer's warm performance all the more personal.",
+      "answerZh": "人數不多的觀眾令歌手溫暖的演出顯得更加親切。",
+      "answerZhSource": "pdf",
+      "highlight": "The small audience made the singer's warm performance all the more personal."
+    },
+    {
+      "id": "ss158-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The guide's directions were even more useful because there were few signs.",
+      "promptZh": "因為路牌很少，導遊的指示變得更加有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lack of signs made the guide's directions all the more useful.",
+      "answerZh": "缺乏路牌令導遊的指示變得更加有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The lack of signs made the guide's directions all the more useful."
+    },
+    {
+      "id": "ss158-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The situation was already touching. The child's honesty made it even more so.",
+      "promptZh": "這個情況本來已經很感人，而孩子的誠實令它更加感人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child's honesty made the situation all the more touching.",
+      "answerZh": "孩子的誠實令這個情況更加感人。",
+      "answerZhSource": "pdf",
+      "highlight": "The child's honesty made the situation all the more touching."
+    },
+    {
+      "id": "ss158-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Because of the extra practice, the team felt even more confident before the final.",
+      "promptZh": "因為進行了額外訓練，球隊在決賽前感到更加有信心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The extra practice made the team all the more confident before the final.",
+      "answerZh": "額外訓練令球隊在決賽前更加有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "The extra practice made the team all the more confident before the final."
+    },
+    {
+      "id": "ss158-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When the room suddenly became silent, his question seemed even more serious.",
+      "promptZh": "房間突然安靜下來時，他的問題顯得更加嚴肅。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sudden silence made his question all the more serious.",
+      "answerZh": "突然出現的寂靜令他的問題顯得更加嚴肅。",
+      "answerZhSource": "pdf",
+      "highlight": "The sudden silence made his question all the more serious."
+    },
+    {
+      "id": "ss158-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The discount seemed especially attractive because the shop was closing.",
+      "promptZh": "因為店舖即將關門，這項折扣顯得格外吸引。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the shop was closing, the discount seemed all the more attractive.",
+      "answerZh": "因為店舖即將關門，這項折扣顯得更加吸引。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the shop was closing, the discount seemed all the more attractive."
+    },
+    {
+      "id": "ss158-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The gift included a handwritten card. This made it even more special.",
+      "promptZh": "這份禮物附有一張手寫卡。這令禮物變得更加特別。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The handwritten card made the gift all the more special.",
+      "answerZh": "手寫卡令這份禮物變得更加特別。",
+      "answerZhSource": "pdf",
+      "highlight": "The handwritten card made the gift all the more special."
+    },
+    {
+      "id": "ss158-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After the difficult climb, the view felt even more rewarding.",
+      "promptZh": "經過艱辛的攀登後，眼前的景色更令人覺得這番努力值得。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The difficult climb made the view all the more rewarding.",
+      "answerZh": "艱辛的攀登令眼前的景色更令人覺得這番努力值得。",
+      "answerZhSource": "pdf",
+      "highlight": "The difficult climb made the view all the more rewarding."
+    },
+    {
+      "id": "ss158-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The second plan became even more necessary after the first plan failed.",
+      "promptZh": "第一個計劃失敗後，第二個計劃變得更加必要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The failure of the first plan made the second plan all the more necessary.",
+      "answerZh": "第一個計劃的失敗令第二個計劃變得更加必要。",
+      "answerZhSource": "pdf",
+      "highlight": "The failure of the first plan made the second plan all the more necessary."
+    },
+    {
+      "id": "ss158-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The emergency instructions sounded even more reassuring because she spoke in a calm voice.",
+      "promptZh": "因為她以平靜的聲線說話，緊急指示聽起來更加令人安心。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her calm voice made the emergency instructions all the more reassuring.",
+      "answerZh": "她平靜的聲線令緊急指示聽起來更加令人安心。",
+      "answerZhSource": "pdf",
+      "highlight": "Her calm voice made the emergency instructions all the more reassuring."
+    },
+    {
+      "id": "ss158-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why was his performance especially impressive? He was new.",
+      "promptZh": "為甚麼他的表現格外令人印象深刻？因為他是新來的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that he was new made his performance all the more impressive.",
+      "answerZh": "他是新來的這個事實，令他的表現更令人印象深刻。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that he was new made his performance all the more impressive."
+    },
+    {
+      "id": "ss158-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The narrow path was even more dangerous in the strong wind.",
+      "promptZh": "在強風之中，這條狹窄的小徑變得更加危險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The strong wind made the narrow path all the more dangerous.",
+      "answerZh": "強風令這條狹窄的小徑變得更加危險。",
+      "answerZhSource": "pdf",
+      "highlight": "The strong wind made the narrow path all the more dangerous."
+    },
+    {
+      "id": "ss158-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When the doctor explained the risks, we listened even more closely.",
+      "promptZh": "醫生解釋風險時，我們聽得更加留神。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We listened all the more closely when the doctor explained the risks.",
+      "answerZh": "醫生解釋風險時，我們聽得更加留神。",
+      "answerZhSource": "pdf",
+      "highlight": "We listened all the more closely when the doctor explained the risks."
+    },
+    {
+      "id": "ss158-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Because the lighting was poor, the small print was even more difficult to read.",
+      "promptZh": "因為光線不足，細小的文字更加難以閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The poor lighting made the small print all the more difficult to read.",
+      "answerZh": "不足的光線令細小的文字更加難以閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The poor lighting made the small print all the more difficult to read."
+    },
+    {
+      "id": "ss158-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team had doubted the plan earlier. This made the final decision even more surprising.",
+      "promptZh": "球隊早前曾懷疑這個計劃。這令最後的決定更加令人意外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team's earlier doubts made the final decision all the more surprising.",
+      "answerZh": "球隊早前的疑慮令最後的決定更加令人意外。",
+      "answerZhSource": "pdf",
+      "highlight": "The team's earlier doubts made the final decision all the more surprising."
+    },
+    {
+      "id": "ss158-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "His courage seemed especially admirable because he refused to complain.",
+      "promptZh": "因為他拒絕抱怨，他的勇氣顯得格外令人敬佩。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His refusal to complain made his courage all the more admirable.",
+      "answerZh": "他拒絕抱怨，令他的勇氣更加令人敬佩。",
+      "answerZhSource": "pdf",
+      "highlight": "His refusal to complain made his courage all the more admirable."
+    },
+    {
+      "id": "ss158-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Their careful work was even more remarkable because they had little time.",
+      "promptZh": "因為他們時間不多，他們細心完成的工作更顯難得。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The limited time made their careful work all the more remarkable.",
+      "answerZh": "有限的時間令他們細心完成的工作更顯難得。",
+      "answerZhSource": "pdf",
+      "highlight": "The limited time made their careful work all the more remarkable."
+    },
+    {
+      "id": "ss158-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After the warning, we became even more cautious on the road.",
+      "promptZh": "收到警告後，我們在路上變得更加小心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The warning made us all the more cautious on the road.",
+      "answerZh": "這項警告令我們在路上變得更加小心。",
+      "answerZhSource": "pdf",
+      "highlight": "The warning made us all the more cautious on the road."
+    },
+    {
+      "id": "ss158-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The quick repair was especially valuable because of the software problem.",
+      "promptZh": "因為出現軟件問題，迅速完成的維修格外有價值。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The software problem made the quick repair all the more valuable.",
+      "answerZh": "軟件問題令迅速完成的維修更加有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "The software problem made the quick repair all the more valuable."
+    },
+    {
+      "id": "ss158-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Her clear presentation seemed even more impressive because she had been nervous earlier.",
+      "promptZh": "因為她早前一直很緊張，她清晰的簡報更令人印象深刻。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her earlier nervousness made her clear presentation all the more impressive.",
+      "answerZh": "她早前的緊張令她清晰的簡報更令人印象深刻。",
+      "answerZhSource": "pdf",
+      "highlight": "Her earlier nervousness made her clear presentation all the more impressive."
+    },
+    {
+      "id": "ss158-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The exhibition became even more appealing to families because entry to the museum was free.",
+      "promptZh": "因為博物館免費入場，這個展覽對家庭變得更加吸引。",
+      "promptZhSource": "pdf",
+      "starter": "Free",
+      "answer": "Free entry to the museum made the exhibition all the more appealing to families.",
+      "answerZh": "博物館免費入場令這個展覽對家庭更加吸引。",
+      "answerZhSource": "pdf",
+      "highlight": "Free entry to the museum made the exhibition all the more appealing to families."
+    },
+    {
+      "id": "ss158-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The scientist's conclusion was even more difficult to accept because some data was missing.",
+      "promptZh": "因為部分數據缺失，科學家的結論更加難以接受。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The missing data made the scientist's conclusion all the more difficult to accept.",
+      "answerZh": "缺失的數據令科學家的結論更加難以接受。",
+      "answerZhSource": "pdf",
+      "highlight": "The missing data made the scientist's conclusion all the more difficult to accept."
+    },
+    {
+      "id": "ss158-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Because the weather forecast was uncertain, we prepared even more thoroughly.",
+      "promptZh": "因為天氣預報並不確定，我們準備得更加周全。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We prepared all the more thoroughly because the weather forecast was uncertain.",
+      "answerZh": "因為天氣預報並不確定，我們準備得更加周全。",
+      "answerZhSource": "pdf",
+      "highlight": "We prepared all the more thoroughly because the weather forecast was uncertain."
+    },
+    {
+      "id": "ss158-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At night, the city felt even more unfamiliar because the streets were empty.",
+      "promptZh": "到了晚上，因為街道空無一人，這座城市顯得更加陌生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The empty streets made the city feel all the more unfamiliar at night.",
+      "answerZh": "空無一人的街道令這座城市在晚上顯得更加陌生。",
+      "answerZhSource": "pdf",
+      "highlight": "The empty streets made the city feel all the more unfamiliar at night."
+    },
+    {
+      "id": "ss158-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The disagreement became especially productive because he was willing to listen.",
+      "promptZh": "因為他願意聆聽，這場意見分歧反而變得格外有建設性。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His willingness to listen made the disagreement all the more productive.",
+      "answerZh": "他願意聆聽，令這場意見分歧變得更加有建設性。",
+      "answerZhSource": "pdf",
+      "highlight": "His willingness to listen made the disagreement all the more productive."
+    },
+    {
+      "id": "ss158-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "They had not spoken for a long time. This made their reunion even more emotional.",
+      "promptZh": "他們已經很久沒有交談。這令他們的重聚更加令人激動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The long period of silence made their reunion all the more emotional.",
+      "answerZh": "長時間沒有聯絡令他們的重聚更加令人激動。",
+      "answerZhSource": "pdf",
+      "highlight": "The long period of silence made their reunion all the more emotional."
+    },
+    {
+      "id": "ss158-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why was the result especially memorable? Nobody expected her to win.",
+      "promptZh": "為甚麼這個結果格外令人難忘？因為沒有人預料她會勝出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that nobody expected her to win made the result all the more memorable.",
+      "answerZh": "沒有人預料她會勝出這個事實，令結果更加令人難忘。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that nobody expected her to win made the result all the more memorable."
+    },
+    {
+      "id": "ss158-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager's mistake was even more serious because the public trusted him.",
+      "promptZh": "因為公眾信任這名經理，他所犯的錯誤變得更加嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public's trust made the manager's mistake all the more serious.",
+      "answerZh": "公眾的信任令這名經理所犯的錯誤變得更加嚴重。",
+      "answerZhSource": "pdf",
+      "highlight": "The public's trust made the manager's mistake all the more serious."
+    },
+    {
+      "id": "ss158-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The students' achievement was even more remarkable because the school had limited resources.",
+      "promptZh": "因為學校資源有限，學生的成就更顯難得。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school's limited resources made the students' achievement all the more remarkable.",
+      "answerZh": "學校有限的資源令學生的成就更顯難得。",
+      "answerZhSource": "pdf",
+      "highlight": "The school's limited resources made the students' achievement all the more remarkable."
+    },
+    {
+      "id": "ss158-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The medicine's benefits seemed even more convincing because it had few side effects.",
+      "promptZh": "因為這種藥物的副作用很少，它的好處顯得更加可信。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the medicine had few side effects, its benefits seemed all the more convincing.",
+      "answerZh": "因為這種藥物的副作用很少，它的好處顯得更加可信。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the medicine had few side effects, its benefits seemed all the more convincing."
+    },
+    {
+      "id": "ss158-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After customers reported a safety concern, the company responded even more quickly.",
+      "promptZh": "顧客報告一項安全疑慮後，公司作出回應的速度更快。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company responded all the more quickly after customers reported a safety concern.",
+      "answerZh": "顧客報告一項安全疑慮後，公司作出回應的速度更快。",
+      "answerZhSource": "pdf",
+      "highlight": "The company responded all the more quickly after customers reported a safety concern."
+    },
+    {
+      "id": "ss158-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why was the heavy traffic especially surprising? The road had recently been widened.",
+      "promptZh": "為甚麼嚴重的交通擠塞格外令人意外？因為這條道路最近已經擴闊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the road had recently been widened made the heavy traffic all the more surprising.",
+      "answerZh": "這條道路最近已經擴闊這個事實，令嚴重的交通擠塞更加令人意外。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the road had recently been widened made the heavy traffic all the more surprising."
+    },
+    {
+      "id": "ss158-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Her kindness felt even more meaningful because she chose to help even though she was busy herself.",
+      "promptZh": "雖然她自己也很忙，但她仍選擇幫忙，令她的善意顯得更加有意義。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her decision to help, despite being busy herself, made her kindness all the more meaningful.",
+      "answerZh": "儘管她自己也很忙，她仍決定幫忙，令她的善意顯得更加有意義。",
+      "answerZhSource": "pdf",
+      "highlight": "Her decision to help, despite being busy herself, made her kindness all the more meaningful."
+    },
+    {
+      "id": "ss158-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The victory was even more impressive because the team succeeded without its usual captain.",
+      "promptZh": "因為球隊在缺少慣常隊長的情況下仍然成功，這場勝利更令人印象深刻。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team's success without its usual captain made the victory all the more impressive.",
+      "answerZh": "球隊在缺少慣常隊長的情況下仍然成功，令這場勝利更令人印象深刻。",
+      "answerZhSource": "pdf",
+      "highlight": "The team's success without its usual captain made the victory all the more impressive."
+    },
+    {
+      "id": "ss158-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The official's continued silence was even more difficult to understand because the evidence was clear.",
+      "promptZh": "因為證據清楚，這名官員仍然保持沉默，更加令人難以理解。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The clear evidence made the official's continued silence all the more difficult to understand.",
+      "answerZh": "清楚的證據令這名官員持續保持沉默更加令人難以理解。",
+      "answerZhSource": "pdf",
+      "highlight": "The clear evidence made the official's continued silence all the more difficult to understand."
+    },
+    {
+      "id": "ss158-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because the earlier discussion had been confusing, the final explanation was especially important for everyone involved.",
+      "promptZh": "因為早前的討論令人困惑，最後的解釋對所有相關人士格外重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The earlier confusion made the final explanation all the more important for everyone involved.",
+      "answerZh": "早前的混亂令最後的解釋對所有相關人士更加重要。",
+      "answerZhSource": "pdf",
+      "highlight": "The earlier confusion made the final explanation all the more important for everyone involved."
+    },
+    {
+      "id": "ss158-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We learnt how much work the volunteers had done. This made the result of the clean-up even more satisfying.",
+      "promptZh": "我們得知義工付出了多少努力。這令清理工作的成果更加令人滿足。",
+      "promptZhSource": "pdf",
+      "starter": "Learning",
+      "answer": "Learning how much work the volunteers had done made the result of the clean-up all the more satisfying.",
+      "answerZh": "得知義工付出了多少努力，令清理工作的成果更加令人滿足。",
+      "answerZhSource": "pdf",
+      "highlight": "Learning how much work the volunteers had done made the result of the clean-up all the more satisfying."
+    },
+    {
+      "id": "ss158-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The project had nearly failed. This made its successful completion even more significant.",
+      "promptZh": "這個項目幾乎失敗。這令項目最後成功完成更具意義。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project had nearly failed, but that made its successful completion all the more significant.",
+      "answerZh": "這個項目幾乎失敗，但這反而令項目最後成功完成更具意義。",
+      "answerZhSource": "pdf",
+      "highlight": "The project had nearly failed, but that made its successful completion all the more significant."
+    }
+  ]
+}

@@ -1,0 +1,1201 @@
+{
+  "id": "ss175",
+  "order": 175,
+  "slug": "be-that-as-it-may",
+  "title": "Be that as it may",
+  "titleZh": "「Be that as it may」表示「即便如此」",
+  "titleEn": "Using Be that as it may to acknowledge and contrast",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 175 -「Be that as it may」.pdf",
+    "pageCount": 15,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Acknowledged point. Be that as it may, + complete main clause",
+  "formulas": [
+    {
+      "id": "ss175-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Acknowledged point. Be that as it may, + complete main clause"
+    }
+  ],
+  "example": "The proposal has several weaknesses. Be that as it may, we still need a practical solution.",
+  "exampleZh": "這項建議有幾個缺點。即便如此，我們仍然需要一個實際的解決方案。",
+  "examples": [
+    {
+      "id": "ss175-example-01",
+      "en": "The proposal has several weaknesses. Be that as it may, we still need a practical solution.",
+      "zh": "這項建議有幾個缺點。即便如此，我們仍然需要一個實際的解決方案。",
+      "highlight": "The proposal has several weaknesses. Be that as it may, we still need a practical solution."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss175-rule-01",
+      "zh": "這是一個固定說法。五個字的次序不可更改，並要在 may 後加逗號。",
+      "en": "This is a fixed expression. Keep all five words in the same order, and place a comma after may.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss175-rule-02",
+      "zh": "that 指向前面已提及的事實、觀點或困難；其後的句子才是說話者要強調的主要結論。",
+      "en": "The word that points back to a fact, opinion or difficulty already mentioned. The phrase then introduces the speaker's main conclusion. that",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss175-rule-03",
+      "zh": "本練習一律使用兩句形式：觀點 A。Be that as it may, 觀點 B。",
+      "en": "For this worksheet, always use the two-sentence form: Point A. Be that as it may, Point B.",
+      "enSource": "pdf",
+      "examples": [
+        "For this worksheet, always use the two-sentence form: Point A. Be that as it may, Point B."
+      ]
+    },
+    {
+      "id": "ss175-rule-04",
+      "zh": "這個說法語氣較審慎，也比較正式，特別適合討論、文章、報告和會議。",
+      "en": "The phrase has a thoughtful, fairly formal tone. It is especially useful in discussions, essays, reports and meetings.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss175-rule-05",
+      "zh": "How it differs from “Try as ... might” 與「Try as ... might」的分別 Be that as it may 是固定連接語，意思是「那也許是真的；即便如此……」。它回應前面整個觀點，並不表 示努力。 Try as he might, ... 的意思是「無論他怎樣努力……」，描述某人的努力：原形動詞 + as + 主語 + might, + 結果句。 比較：計劃成本很高。即便如此，我們仍必須繼續。／無論他怎樣努力，他都無法清楚解釋那個錯誤。",
+      "en": "How it differs from “Try as ... might” Be that as it may is a fixed linking phrase meaning “That may be true; even so ...”. It reacts to a whole previous point and does not describe effort. Be that as it may Try as he might, ... means “No matter how hard he tried, ...”. It is a concessive clause about a person's effort: base verb + as + subject + might, + result clause. Try as he might, ... Compare: The plan is costly. Be that as it may, we must continue. / Try as he might, he could not explain the mistake clearly.",
+      "enSource": "pdf",
+      "examples": [
+        "effort: base verb + as + subject + might, + result clause.",
+        "Try as he might, ..."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss175-benefit-01",
+      "zh": "它讓你先承認別人的觀點，再提出自己的結論，使回應聽起來較平衡，而不是直接否定對方。",
+      "en": "It helps you acknowledge another person's point before giving your own conclusion, so your response sounds balanced rather than dismissive.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss175-benefit-02",
+      "zh": "它能清楚顯示轉折：前面的觀點雖然獲得承認，但不會改變主要決定或訊息。",
+      "en": "It makes the contrast very clear: the first point is accepted, but it does not change the main decision or message.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss175-benefit-03",
+      "zh": "它把背景困難和你最想讀者記住的重點分開，令論點更有組織。",
+      "en": "It organises an argument neatly by separating the background difficulty from the point you want the reader to remember.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss175-benefit-04",
+      "zh": "它提供另一個自然的轉折說法，讓你不必在每段反覆使用 but、however 或 even so。",
+      "en": "It gives you another natural alternative to repeating but, however or even so in every paragraph.",
+      "enSource": "pdf",
+      "examples": [
+        "It gives you another natural alternative to repeating but, however or even so in every paragraph."
+      ]
+    },
+    {
+      "id": "ss175-benefit-05",
+      "zh": "當你需要由讓步觀點有禮貌地轉到明確結論時，這個固定框架很適合用於討論、文章、報告和會議。 Compare 比較： 第二句用一個固定連接語，清楚表示「我承認前面的問題，但主要結論不變」。",
+      "en": "It is a useful ready-made frame for discussions, essays, reports and meetings when you need to move politely from a concession to a firm conclusion. Compare The proposal has weaknesses. That may be true, but we still need a practical solution. The proposal has weaknesses. Be that as it may, we still need a practical solution.",
+      "enSource": "pdf",
+      "examples": [
+        "The proposal has weaknesses. That may be true, but we still need a practical solution.",
+        "The proposal has weaknesses. Be that as it may, we still need a practical solution."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Be that as it may.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Be that as it may 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss175-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "promptZhPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Although this room is small, it is comfortable.",
+      "promptZh": "雖然這個房間很小，但很舒適。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This room is small. Be that as it may, it is comfortable.",
+      "answerZh": "這個房間很小。即便如此，它仍然很舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "This room is small. Be that as it may, it is comfortable."
+    },
+    {
+      "id": "ss175-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "promptZhPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "This bus is crowded, but we can still get on.",
+      "promptZh": "這輛巴士很擠迫，但我們仍然可以上車。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bus is crowded. Be that as it may, we can still get on.",
+      "answerZh": "這輛巴士很擠迫。即便如此，我們仍然可以上車。",
+      "answerZhSource": "pdf",
+      "highlight": "This bus is crowded. Be that as it may, we can still get on."
+    },
+    {
+      "id": "ss175-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Even though the weather is cold, the children want to play outside.",
+      "promptZh": "即使天氣寒冷，孩子們仍想在外面玩。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The weather is cold. Be that as it may, the children want to play outside.",
+      "answerZh": "天氣寒冷。即便如此，孩子們仍想在外面玩。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather is cold. Be that as it may, the children want to play outside."
+    },
+    {
+      "id": "ss175-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "This book is long. However, it is easy to read.",
+      "promptZh": "這本書很長。不過，它很容易閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This book is long. Be that as it may, it is easy to read.",
+      "answerZh": "這本書很長。即便如此，它仍然很容易閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "This book is long. Be that as it may, it is easy to read."
+    },
+    {
+      "id": "ss175-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "It is true that the cafe is busy, but the service is quick.",
+      "promptZh": "這間咖啡店的確很繁忙，但服務很快捷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cafe is busy. Be that as it may, the service is quick.",
+      "answerZh": "這間咖啡店很繁忙。即便如此，服務仍然很快捷。",
+      "answerZhSource": "pdf",
+      "highlight": "The cafe is busy. Be that as it may, the service is quick."
+    },
+    {
+      "id": "ss175-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Although Mia is tired, she will finish her homework tonight.",
+      "promptZh": "雖然米婭很疲倦，但她今晚會完成功課。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is tired. Be that as it may, she will finish her homework tonight.",
+      "answerZh": "米婭很疲倦。即便如此，她今晚仍會完成功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is tired. Be that as it may, she will finish her homework tonight."
+    },
+    {
+      "id": "ss175-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "These shoes are expensive, yet they are very durable.",
+      "promptZh": "這雙鞋很昂貴，但非常耐用。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These shoes are expensive. Be that as it may, they are very durable.",
+      "answerZh": "這雙鞋很昂貴。即便如此，它們仍然非常耐用。",
+      "answerZhSource": "pdf",
+      "highlight": "These shoes are expensive. Be that as it may, they are very durable."
+    },
+    {
+      "id": "ss175-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "I understand that this road is longer, but it is safer.",
+      "promptZh": "我明白這條路較長，但它比較安全。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This road is longer. Be that as it may, it is safer.",
+      "answerZh": "這條路較長。即便如此，它比較安全。",
+      "answerZhSource": "pdf",
+      "highlight": "This road is longer. Be that as it may, it is safer."
+    },
+    {
+      "id": "ss175-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "The film received mixed reviews. Still, I enjoyed it.",
+      "promptZh": "這部電影獲得好壞參半的評價。儘管如此，我仍然喜歡它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The film received mixed reviews. Be that as it may, I enjoyed it.",
+      "answerZh": "這部電影獲得好壞參半的評價。即便如此，我仍然喜歡它。",
+      "answerZhSource": "pdf",
+      "highlight": "The film received mixed reviews. Be that as it may, I enjoyed it."
+    },
+    {
+      "id": "ss175-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Granted, this task is difficult, but we have enough time.",
+      "promptZh": "誠然，這項任務很困難，但我們有足夠時間。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This task is difficult. Be that as it may, we have enough time.",
+      "answerZh": "這項任務很困難。即便如此，我們仍有足夠時間。",
+      "answerZhSource": "pdf",
+      "highlight": "This task is difficult. Be that as it may, we have enough time."
+    },
+    {
+      "id": "ss175-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Admittedly, the hotel is old, but it is clean and well managed.",
+      "promptZh": "無可否認，這間酒店較舊，但很乾淨，而且管理良好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hotel is old. Be that as it may, it is clean and well managed.",
+      "answerZh": "這間酒店較舊。即便如此，它仍然很乾淨，而且管理良好。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel is old. Be that as it may, it is clean and well managed."
+    },
+    {
+      "id": "ss175-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "This plan may be simple. Nevertheless, it could solve the main problem.",
+      "promptZh": "這個計劃可能很簡單。不過，它或許能解決主要問題。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This plan may be simple. Be that as it may, it could solve the main problem.",
+      "answerZh": "這個計劃可能很簡單。即便如此，它或許能解決主要問題。",
+      "answerZhSource": "pdf",
+      "highlight": "This plan may be simple. Be that as it may, it could solve the main problem."
+    },
+    {
+      "id": "ss175-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "While the shop is small, it offers a wide range of products.",
+      "promptZh": "雖然這間店舖不大，但它提供種類繁多的產品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop is small. Be that as it may, it offers a wide range of products.",
+      "answerZh": "這間店舖不大。即便如此，它仍然提供種類繁多的產品。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop is small. Be that as it may, it offers a wide range of products."
+    },
+    {
+      "id": "ss175-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "No one denies that the training is demanding, but it is useful.",
+      "promptZh": "沒有人否認這項訓練要求很高，但它很有用。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one denies that the training is demanding. Be that as it may, it is useful.",
+      "answerZh": "沒有人否認這項訓練要求很高。即便如此，它仍然很有用。",
+      "answerZhSource": "pdf",
+      "highlight": "No one denies that the training is demanding. Be that as it may, it is useful."
+    },
+    {
+      "id": "ss175-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The price is higher than we expected. Even so, the machine will save time.",
+      "promptZh": "價格比我們預期的高。即使如此，這部機器仍會節省時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The price is higher than we expected. Be that as it may, the machine will save time.",
+      "answerZh": "價格比我們預期的高。即便如此，這部機器仍會節省時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The price is higher than we expected. Be that as it may, the machine will save time."
+    },
+    {
+      "id": "ss175-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "I accept that Leo made a mistake. However, he deserves a chance to explain.",
+      "promptZh": "我接受里奧犯了錯。不過，他應該有機會解釋。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I accept that Leo made a mistake. Be that as it may, he deserves a chance to explain.",
+      "answerZh": "我接受里奧犯了錯。即便如此，他仍應有機會解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "I accept that Leo made a mistake. Be that as it may, he deserves a chance to explain."
+    },
+    {
+      "id": "ss175-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Although the train leaves early, it is the most convenient service.",
+      "promptZh": "雖然這班火車很早開出，但它是最方便的班次。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train leaves early. Be that as it may, it is the most convenient service.",
+      "answerZh": "這班火車很早開出。即便如此，它仍是最方便的班次。",
+      "answerZhSource": "pdf",
+      "highlight": "The train leaves early. Be that as it may, it is the most convenient service."
+    },
+    {
+      "id": "ss175-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "You may be right that the meal looks plain, but it tastes excellent.",
+      "promptZh": "你說這頓飯看起來很普通，也許是對的，但它的味道非常好。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may be right that the meal looks plain. Be that as it may, it tastes excellent.",
+      "answerZh": "你說這頓飯看起來很普通，也許是對的。即便如此，它的味道仍然非常好。",
+      "answerZhSource": "pdf",
+      "highlight": "You may be right that the meal looks plain. Be that as it may, it tastes excellent."
+    },
+    {
+      "id": "ss175-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Despite the heavy rain, the outdoor concert continued.",
+      "promptZh": "儘管下着大雨，戶外音樂會仍然繼續。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain was heavy. Be that as it may, the outdoor concert continued.",
+      "answerZh": "雨下得很大。即便如此，戶外音樂會仍然繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain was heavy. Be that as it may, the outdoor concert continued."
+    },
+    {
+      "id": "ss175-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "These instructions are not perfect, but they are clear enough to follow.",
+      "promptZh": "這些指示並不完美，但已足夠清楚，可以依照。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These instructions are not perfect. Be that as it may, they are clear enough to follow.",
+      "answerZh": "這些指示並不完美。即便如此，它們已足夠清楚，可以依照。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions are not perfect. Be that as it may, they are clear enough to follow."
+    },
+    {
+      "id": "ss175-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "It is true that the new timetable has caused some confusion. However, most students now arrive on time.",
+      "promptZh": "新的時間表的確造成了一些混亂。不過，大部分學生目前都準時到達。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is true that the new timetable has caused some confusion. Be that as it may, most students now arrive on time.",
+      "answerZh": "新的時間表的確造成了一些混亂。即便如此，大部分學生目前都準時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "It is true that the new timetable has caused some confusion. Be that as it may, most students now arrive on time."
+    },
+    {
+      "id": "ss175-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Granted, the medicine tastes unpleasant, but you should take it as directed.",
+      "promptZh": "誠然，這種藥的味道不好，但你應按指示服用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine tastes unpleasant. Be that as it may, you should take it as directed.",
+      "answerZh": "這種藥的味道不好。即便如此，你仍應按指示服用。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine tastes unpleasant. Be that as it may, you should take it as directed."
+    },
+    {
+      "id": "ss175-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Although our budget is limited, we can improve the reception area.",
+      "promptZh": "雖然我們的預算有限，但我們可以改善接待區。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our budget is limited. Be that as it may, we can improve the reception area.",
+      "answerZh": "我們的預算有限。即便如此，我們仍可以改善接待區。",
+      "answerZhSource": "pdf",
+      "highlight": "Our budget is limited. Be that as it may, we can improve the reception area."
+    },
+    {
+      "id": "ss175-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The manager admitted that the deadline was tight, yet she refused to lower the quality standards.",
+      "promptZh": "經理承認限期很緊迫，但她拒絕降低質素標準。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager admitted that the deadline was tight. Be that as it may, she refused to lower the quality standards.",
+      "answerZh": "經理承認限期很緊迫。即便如此，她仍拒絕降低質素標準。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager admitted that the deadline was tight. Be that as it may, she refused to lower the quality standards."
+    },
+    {
+      "id": "ss175-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "This proposal has attracted criticism. Nevertheless, the committee will discuss it fairly.",
+      "promptZh": "這項建議受到批評。儘管如此，委員會仍會公平地討論它。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This proposal has attracted criticism. Be that as it may, the committee will discuss it fairly.",
+      "answerZh": "這項建議受到批評。即便如此，委員會仍會公平地討論它。",
+      "answerZhSource": "pdf",
+      "highlight": "This proposal has attracted criticism. Be that as it may, the committee will discuss it fairly."
+    },
+    {
+      "id": "ss175-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "While the first attempt failed, the team learnt several useful lessons.",
+      "promptZh": "雖然第一次嘗試失敗了，但團隊學到了幾個有用的教訓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first attempt failed. Be that as it may, the team learnt several useful lessons.",
+      "answerZh": "第一次嘗試失敗了。即便如此，團隊仍學到了幾個有用的教訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The first attempt failed. Be that as it may, the team learnt several useful lessons."
+    },
+    {
+      "id": "ss175-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "You are correct that this route involves two changes. Even so, it remains the fastest way to the airport.",
+      "promptZh": "你說這條路線需要轉車兩次，這是正確的。即使如此，它仍是前往機場最快的方法。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You are correct that this route involves two changes. Be that as it may, it remains the fastest way to the airport.",
+      "answerZh": "你說這條路線需要轉車兩次，這是正確的。即便如此，它仍是前往機場最快的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "You are correct that this route involves two changes. Be that as it may, it remains the fastest way to the airport."
+    },
+    {
+      "id": "ss175-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Admittedly, this computer is not the newest model, but it runs the required software well.",
+      "promptZh": "無可否認，這部電腦並不是最新型號，但它能順暢運行所需軟件。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This computer is not the newest model. Be that as it may, it runs the required software well.",
+      "answerZh": "這部電腦並不是最新型號。即便如此，它仍能順暢運行所需軟件。",
+      "answerZhSource": "pdf",
+      "highlight": "This computer is not the newest model. Be that as it may, it runs the required software well."
+    },
+    {
+      "id": "ss175-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Despite having little experience, Ben handled the customer complaint calmly.",
+      "promptZh": "儘管經驗不多，本仍冷靜地處理了顧客的投訴。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben had little experience. Be that as it may, he handled the customer complaint calmly.",
+      "answerZh": "本的經驗不多。即便如此，他仍冷靜地處理了顧客的投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben had little experience. Be that as it may, he handled the customer complaint calmly."
+    },
+    {
+      "id": "ss175-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The survey was completed by only a small group, but its findings are worth examining.",
+      "promptZh": "這項調查只由一小群人完成，但其結果值得研究。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The survey was completed by only a small group. Be that as it may, its findings are worth examining.",
+      "answerZh": "這項調查只由一小群人完成。即便如此，其結果仍值得研究。",
+      "answerZhSource": "pdf",
+      "highlight": "The survey was completed by only a small group. Be that as it may, its findings are worth examining."
+    },
+    {
+      "id": "ss175-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Is the repair expensive? Yes, but it is necessary for safety.",
+      "promptZh": "這項維修昂貴嗎？是的，但基於安全考慮，這項維修是必要的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repair is expensive. Be that as it may, it is necessary for safety.",
+      "answerZh": "這項維修很昂貴。即便如此，基於安全考慮，這項維修仍是必要的。",
+      "answerZhSource": "pdf",
+      "highlight": "The repair is expensive. Be that as it may, it is necessary for safety."
+    },
+    {
+      "id": "ss175-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The speaker's accent was unfamiliar. However, everyone understood the main message.",
+      "promptZh": "大家不熟悉講者的口音。不過，每個人都明白主要訊息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker's accent was unfamiliar. Be that as it may, everyone understood the main message.",
+      "answerZh": "大家不熟悉講者的口音。即便如此，每個人仍明白主要訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker's accent was unfamiliar. Be that as it may, everyone understood the main message."
+    },
+    {
+      "id": "ss175-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I realise that this policy will inconvenience some residents, but it will reduce traffic near the school.",
+      "promptZh": "我明白這項政策會為一些居民帶來不便，但它會減少學校附近的車流。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I realise that this policy will inconvenience some residents. Be that as it may, it will reduce traffic near the school.",
+      "answerZh": "我明白這項政策會為一些居民帶來不便。即便如此，它仍會減少學校附近的車流。",
+      "answerZhSource": "pdf",
+      "highlight": "I realise that this policy will inconvenience some residents. Be that as it may, it will reduce traffic near the school."
+    },
+    {
+      "id": "ss175-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Although the clinic has fewer staff this week, urgent cases will still receive prompt attention.",
+      "promptZh": "雖然診所本星期人手較少，但緊急個案仍會迅速獲得處理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The clinic has fewer staff this week. Be that as it may, urgent cases will still receive prompt attention.",
+      "answerZh": "診所本星期人手較少。即便如此，緊急個案仍會迅速獲得處理。",
+      "answerZhSource": "pdf",
+      "highlight": "The clinic has fewer staff this week. Be that as it may, urgent cases will still receive prompt attention."
+    },
+    {
+      "id": "ss175-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The old bridge is not attractive, yet it remains an important part of the village's history.",
+      "promptZh": "這座舊橋的外觀並不吸引，但它仍是村莊歷史的重要部分。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old bridge is not attractive. Be that as it may, it remains an important part of the village's history.",
+      "answerZh": "這座舊橋的外觀並不吸引。即便如此，它仍是村莊歷史的重要部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The old bridge is not attractive. Be that as it may, it remains an important part of the village's history."
+    },
+    {
+      "id": "ss175-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It may seem unnecessary to check the figures again. Nevertheless, one small error could affect the whole report.",
+      "promptZh": "再次核對數字可能看似沒有必要。不過，一個小錯誤也可能影響整份報告。",
+      "promptZhSource": "pdf",
+      "starter": "Checking",
+      "answer": "Checking the figures again may seem unnecessary. Be that as it may, one small error could affect the whole report.",
+      "answerZh": "再次核對數字可能看似沒有必要。即便如此，一個小錯誤也可能影響整份報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Checking the figures again may seem unnecessary. Be that as it may, one small error could affect the whole report."
+    },
+    {
+      "id": "ss175-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Granted, the application process takes time, but it helps prevent avoidable mistakes.",
+      "promptZh": "誠然，申請程序需時，但它有助防止可避免的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The application process takes time. Be that as it may, it helps prevent avoidable mistakes.",
+      "answerZh": "申請程序需時。即便如此，它仍有助防止可避免的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The application process takes time. Be that as it may, it helps prevent avoidable mistakes."
+    },
+    {
+      "id": "ss175-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The coach knows that the players are disappointed. Even so, he expects them to attend tomorrow's practice.",
+      "promptZh": "教練知道球員感到失望。即使如此，他仍期望他們出席明天的訓練。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach knows that the players are disappointed. Be that as it may, he expects them to attend tomorrow's practice.",
+      "answerZh": "教練知道球員感到失望。即便如此，他仍期望他們出席明天的訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach knows that the players are disappointed. Be that as it may, he expects them to attend tomorrow's practice."
+    },
+    {
+      "id": "ss175-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "While the community centre needs repairs, its evening classes can continue safely.",
+      "promptZh": "雖然社區中心需要維修，但晚間課程仍可安全地繼續。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community centre needs repairs. Be that as it may, its evening classes can continue safely.",
+      "answerZh": "社區中心需要維修。即便如此，晚間課程仍可安全地繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre needs repairs. Be that as it may, its evening classes can continue safely."
+    },
+    {
+      "id": "ss175-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "These figures were collected several years ago, but they still provide a useful starting point.",
+      "promptZh": "這些數字是在數年前收集的，但它們仍提供一個有用的起點。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These figures were collected several years ago. Be that as it may, they still provide a useful starting point.",
+      "answerZh": "這些數字是在數年前收集的。即便如此，它們仍提供一個有用的起點。",
+      "answerZhSource": "pdf",
+      "highlight": "These figures were collected several years ago. Be that as it may, they still provide a useful starting point."
+    },
+    {
+      "id": "ss175-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Some parents believe the new reading programme is too demanding. However, the school will review it only after the term ends.",
+      "promptZh": "有些家長認為新的閱讀課程要求過高。不過，學校只會在學期結束後檢討它。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some parents believe the new reading programme is too demanding. Be that as it may, the school will review it only after the term ends.",
+      "answerZh": "有些家長認為新的閱讀課程要求過高。即便如此，學校只會在學期結束後檢討它。",
+      "answerZhSource": "pdf",
+      "highlight": "Some parents believe the new reading programme is too demanding. Be that as it may, the school will review it only after the term ends."
+    },
+    {
+      "id": "ss175-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It is possible that the supplier misunderstood our order. Nevertheless, we need the correct parts by Friday.",
+      "promptZh": "供應商可能誤解了我們的訂單。儘管如此，我們仍需要在星期五前取得正確的零件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The supplier may have misunderstood our order. Be that as it may, we need the correct parts by Friday.",
+      "answerZh": "供應商可能誤解了我們的訂單。即便如此，我們仍需要在星期五前取得正確的零件。",
+      "answerZhSource": "pdf",
+      "highlight": "The supplier may have misunderstood our order. Be that as it may, we need the correct parts by Friday."
+    },
+    {
+      "id": "ss175-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Admittedly, this report does not answer every question, but it identifies the areas that require further study.",
+      "promptZh": "無可否認，這份報告並未回答每一個問題，但它指出了需要進一步研究的範疇。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This report does not answer every question. Be that as it may, it identifies the areas that require further study.",
+      "answerZh": "這份報告並未回答每一個問題。即便如此，它仍指出了需要進一步研究的範疇。",
+      "answerZhSource": "pdf",
+      "highlight": "This report does not answer every question. Be that as it may, it identifies the areas that require further study."
+    },
+    {
+      "id": "ss175-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The council accepts that the temporary road closure will cause delays. Even so, the work must be completed before winter.",
+      "promptZh": "議會承認臨時封路會造成延誤。即使如此，工程仍必須在冬季前完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council accepts that the temporary road closure will cause delays. Be that as it may, the work must be completed before winter.",
+      "answerZh": "議會承認臨時封路會造成延誤。即便如此，工程仍必須在冬季前完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The council accepts that the temporary road closure will cause delays. Be that as it may, the work must be completed before winter."
+    },
+    {
+      "id": "ss175-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although this candidate has less management experience than the others, she has a strong record of solving practical problems.",
+      "promptZh": "雖然這位候選人的管理經驗比其他人少，但她在解決實際問題方面有良好紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This candidate has less management experience than the others. Be that as it may, she has a strong record of solving practical problems.",
+      "answerZh": "這位候選人的管理經驗比其他人少。即便如此，她在解決實際問題方面仍有良好紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "This candidate has less management experience than the others. Be that as it may, she has a strong record of solving practical problems."
+    },
+    {
+      "id": "ss175-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This experiment produced an unexpected result. However, the result may lead to a more useful question.",
+      "promptZh": "這項實驗得出一個意料之外的結果。不過，這個結果可能帶出一個更有用的問題。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This experiment produced an unexpected result. Be that as it may, the result may lead to a more useful question.",
+      "answerZh": "這項實驗得出一個意料之外的結果。即便如此，這個結果可能帶出一個更有用的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "This experiment produced an unexpected result. Be that as it may, the result may lead to a more useful question."
+    },
+    {
+      "id": "ss175-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You may argue that the proposed rule is difficult to enforce, but the organisation still needs a clear standard.",
+      "promptZh": "你或會認為擬議的規則難以執行，但這個機構仍需要一項清晰的標準。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may argue that the proposed rule is difficult to enforce. Be that as it may, the organisation still needs a clear standard.",
+      "answerZh": "你或會認為擬議的規則難以執行。即便如此，這個機構仍需要一項清晰的標準。",
+      "answerZhSource": "pdf",
+      "highlight": "You may argue that the proposed rule is difficult to enforce. Be that as it may, the organisation still needs a clear standard."
+    },
+    {
+      "id": "ss175-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Granted, version one of the software contains several minor faults, yet it is stable enough for controlled testing.",
+      "promptZh": "誠然，軟件的第一個版本有幾個小問題，但它已足夠穩定，可以進行受控測試。",
+      "promptZhSource": "pdf",
+      "starter": "Version",
+      "answer": "Version one of the software contains several minor faults. Be that as it may, it is stable enough for controlled testing.",
+      "answerZh": "軟件的第一個版本有幾個小問題。即便如此，它已足夠穩定，可以進行受控測試。",
+      "answerZhSource": "pdf",
+      "highlight": "Version one of the software contains several minor faults. Be that as it may, it is stable enough for controlled testing."
+    },
+    {
+      "id": "ss175-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The hospital's waiting area is often crowded. Nevertheless, patients with urgent needs are assessed immediately.",
+      "promptZh": "醫院的候診區經常很擠迫。儘管如此，有緊急需要的病人會立即接受評估。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital's waiting area is often crowded. Be that as it may, patients with urgent needs are assessed immediately.",
+      "answerZh": "醫院的候診區經常很擠迫。即便如此，有緊急需要的病人仍會立即接受評估。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital's waiting area is often crowded. Be that as it may, patients with urgent needs are assessed immediately."
+    },
+    {
+      "id": "ss175-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "While our evidence is incomplete and some details remain uncertain, we must make the best decision available today.",
+      "promptZh": "雖然我們的證據並不完整，而且一些細節仍未確定，但我們今天必須作出目前能作出的最佳決定。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our evidence is incomplete, and some details remain uncertain. Be that as it may, we must make the best decision available today.",
+      "answerZh": "我們的證據並不完整，而且一些細節仍未確定。即便如此，我們今天必須作出目前能作出的最佳決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Our evidence is incomplete, and some details remain uncertain. Be that as it may, we must make the best decision available today."
+    }
+  ]
+}

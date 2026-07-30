@@ -1,0 +1,1267 @@
+{
+  "id": "ss218",
+  "order": 218,
+  "slug": "have-yet-to",
+  "title": "「have ／ has yet to + 動詞」表示「至今仍未……」",
+  "titleZh": "「have ／ has yet to + 動詞」表示「至今仍未……」",
+  "titleEn": "Using “have / has yet to + verb”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 217 -「have _ has yet to + 動詞」表示「至今仍未……」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 217; it is assigned system ID ss218 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Subject + have / has + yet + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss218-formula-01",
+      "labelEn": "Active",
+      "labelZh": "主動句",
+      "formula": "Subject + have / has + yet + to + base verb + other information"
+    },
+    {
+      "id": "ss218-formula-02",
+      "labelEn": "Passive",
+      "labelZh": "被動句",
+      "formula": "Subject + have / has + yet + to be + past participle + other information"
+    }
+  ],
+  "example": "The team has yet to respond.",
+  "exampleZh": "團隊至今仍未回覆。",
+  "examples": [
+    {
+      "id": "ss218-example-01",
+      "en": "The team has yet to respond.",
+      "zh": "團隊至今仍未回覆。",
+      "highlight": "The team has yet to respond."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Subject + have / has + yet + to + base verb + other information。"
+  },
+  "rules": [
+    {
+      "id": "ss218-rule-01",
+      "zh": "按照主語選擇 have 或 has 使用 have： 使用 has：",
+      "en": "Choose have or has according to the subject. Use have with I, you, we, they and plural subjects: I have yet to ...; You have yet to ...; We have yet to ...; They have yet to ...; The students have yet to .... Use has with he, she, it and singular subjects: He has yet to ...; She has yet to ...; It has yet to ...; The company has yet to ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I have yet to…",
+        "You have yet to…",
+        "We have yet to…",
+        "They have yet to…",
+        "The students have yet to…",
+        "He has yet to…",
+        "She has yet to…",
+        "It has yet to…",
+        "The company has yet to…"
+      ]
+    },
+    {
+      "id": "ss218-rule-02",
+      "zh": "yet 放在 have / has 後面 正確： 錯誤：",
+      "en": "Place yet after have or has. Correct: The manager has yet to reply. Incorrect: The manager yet has to reply.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The manager has yet to reply.",
+        "The manager yet has to reply."
+      ]
+    },
+    {
+      "id": "ss218-rule-03",
+      "zh": "to 後面使用動詞原形 正確： 錯誤：",
+      "en": "Use the base form after to. Correct: She has yet to decide. Incorrect: She has yet to decided. She has yet to deciding.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She has yet to decide.",
+        "She has yet to decided.",
+        "She has yet to deciding."
+      ]
+    },
+    {
+      "id": "ss218-rule-04",
+      "zh": "句型本身已帶有否定意思 has yet to respond 已經表示「尚未回覆」，因此不需要再加入 not。 正確： 錯誤：",
+      "en": "The structure is already negative: has yet to respond means “has not responded so far”, so do not add not. Correct: He has yet to respond. Incorrect: He has not yet to respond.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "He has yet to respond.",
+        "He has not yet to respond."
+      ]
+    },
+    {
+      "id": "ss218-rule-05",
+      "zh": "被動句使用 yet to be + 過去分詞 （日期尚未確認。） （優勝者尚未公布。）",
+      "en": "Use yet to be + past participle for the passive: The date has yet to be confirmed. The winner has yet to be announced.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The date has yet to be confirmed.",
+        "The winner has yet to be announced."
+      ]
+    },
+    {
+      "id": "ss218-rule-06",
+      "zh": "這個句型通常暗示事情仍有可能發生 這句表示公司目前仍未發表報告，但報告日後仍可能發表。",
+      "en": "The structure normally implies that the event may still happen. “The company has yet to release the report” says the report is unreleased now while leaving open the possibility that the company will release it later.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The company has yet to release the report."
+      ]
+    },
+    {
+      "id": "ss218-rule-07",
+      "zh": "與 have not…yet 的分別 較常見於一般日常對話。 較精簡，並較常見於新聞、報告、正式更新和商業寫作。 兩句的基本意思相同。",
+      "en": "Distinguish it stylistically from have not ... yet. “The committee has not announced its decision yet” is more common in everyday conversation. “The committee has yet to announce its decision” is more concise and more common in news, reports, formal updates and business writing. Their basic meaning is the same.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The committee has not announced its decision yet.",
+        "The committee has yet to announce its decision."
+      ]
+    },
+    {
+      "id": "ss218-rule-08",
+      "zh": "本練習不包括以下相似句型 以上句型雖然正確，但不屬於本課的主要目標。",
+      "en": "This exercise excludes several similar but valid structures: be yet to + verb, as in “The minister is yet to respond”; had yet to + verb, as in “They had yet to reach an agreement”; and the fixed expression “The best is yet to come.” They are grammatical but are not the main target here.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "be yet to + verb",
+        "The minister is yet to respond.",
+        "had yet to + verb",
+        "They had yet to reach an agreement.",
+        "The best is yet to come."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss218-benefit-01",
+      "zh": "這個句型能立即讓聽者或讀者知道，某件事情仍未完成，現時仍有待處理。",
+      "en": "It clearly shows that something remains unfinished This structure immediately tells the listener or reader that an action has not happened and is still outstanding.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss218-benefit-02",
+      "zh": "你不需要使用「直至目前仍未完成」等較長表達，也可以簡潔地說明事情尚未發生。 比較： 第二句更精簡直接。",
+      "en": "It expresses the idea in a concise way Instead of using a longer expression such as “has not completed the work up to now”, you can say “has yet to complete the work”. The school has not announced the results up to now. The school has yet to announce the results.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss218-benefit-03",
+      "zh": "這個句型不只是表示事情沒有發生，通常亦暗示事情日後仍有可能完成。",
+      "en": "It suggests that the action may still happen later The structure does not simply describe failure. It often leaves open the possibility that the action will happen in the future.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss218-benefit-04",
+      "zh": "你可以用這個句型交代尚未完成的工作、仍未回答的問題、待定的決定和未解決的問題。",
+      "en": "It is useful for giving progress updates You can use it to describe unfinished tasks, unanswered questions, pending decisions and unresolved problems.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss218-benefit-05",
+      "zh": "這個句型讓你不必反覆使用 have not…yet，使說話和寫作的句式更有變化。",
+      "en": "It gives you an alternative to repeating not…yet Using have / has yet to allows you to vary your sentences instead of repeatedly using have not…yet.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss218-benefit-06",
+      "zh": "這個句型特別適合用於報告、簡報、新聞寫作、會議更新和職場溝通。",
+      "en": "It is suitable for reports and formal updates The structure is especially useful in reports, presentations, news writing, meeting updates and workplace communication.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 217; it is assigned system ID ss218 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Subject + have / has + yet + to + base verb + other information.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Subject + have / has + yet + to + base verb + other information」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss218-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The team has not responded yet.",
+      "promptZh": "團隊仍未回覆。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team has yet to respond.",
+      "answerZh": "團隊尚未回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "The team has yet to respond."
+    },
+    {
+      "id": "ss218-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I have not finished the book yet.",
+      "promptZh": "我仍未讀完這本書。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have yet to finish the book.",
+      "answerZh": "我仍未讀完這本書。",
+      "answerZhSource": "pdf",
+      "highlight": "I have yet to finish the book."
+    },
+    {
+      "id": "ss218-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia has not submitted her homework yet.",
+      "promptZh": "米婭仍未提交功課。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia has yet to submit her homework.",
+      "answerZh": "米婭尚未提交功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia has yet to submit her homework."
+    },
+    {
+      "id": "ss218-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We have not chosen a date yet.",
+      "promptZh": "我們仍未選定日期。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have yet to choose a date.",
+      "answerZh": "我們尚未選定日期。",
+      "answerZhSource": "pdf",
+      "highlight": "We have yet to choose a date."
+    },
+    {
+      "id": "ss218-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The bus has not arrived yet.",
+      "promptZh": "巴士仍未到達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus has yet to arrive.",
+      "answerZh": "巴士尚未到達。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus has yet to arrive."
+    },
+    {
+      "id": "ss218-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Daniel has not called the clinic yet.",
+      "promptZh": "丹尼爾仍未致電診所。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel has yet to call the clinic.",
+      "answerZh": "丹尼爾尚未致電診所。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel has yet to call the clinic."
+    },
+    {
+      "id": "ss218-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "They have not opened the shop yet.",
+      "promptZh": "他們仍未開店。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They have yet to open the shop.",
+      "answerZh": "他們尚未開店。",
+      "answerZhSource": "pdf",
+      "highlight": "They have yet to open the shop."
+    },
+    {
+      "id": "ss218-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "My parents have not met my new teacher yet.",
+      "promptZh": "我的父母仍未見過我的新老師。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My parents have yet to meet my new teacher.",
+      "answerZh": "我的父母尚未見過我的新老師。",
+      "answerZhSource": "pdf",
+      "highlight": "My parents have yet to meet my new teacher."
+    },
+    {
+      "id": "ss218-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The computer has not restarted yet.",
+      "promptZh": "電腦仍未重新啟動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The computer has yet to restart.",
+      "answerZh": "電腦尚未重新啟動。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer has yet to restart."
+    },
+    {
+      "id": "ss218-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why is Chloe still waiting? She has not received the email yet.",
+      "promptZh": "克洛伊為甚麼仍在等候？她仍未收到電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe has yet to receive the email.",
+      "answerZh": "克洛伊尚未收到電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe has yet to receive the email."
+    },
+    {
+      "id": "ss218-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo still has not paid the fee.",
+      "promptZh": "里奧仍未繳交費用。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo has yet to pay the fee.",
+      "answerZh": "里奧尚未繳交費用。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo has yet to pay the fee."
+    },
+    {
+      "id": "ss218-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The students still have not completed the survey.",
+      "promptZh": "學生仍未完成問卷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students have yet to complete the survey.",
+      "answerZh": "學生尚未完成問卷。",
+      "answerZhSource": "pdf",
+      "highlight": "The students have yet to complete the survey."
+    },
+    {
+      "id": "ss218-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The museum has not announced the opening date so far.",
+      "promptZh": "博物館至今仍未公布開幕日期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum has yet to announce the opening date.",
+      "answerZh": "博物館尚未公布開幕日期。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum has yet to announce the opening date."
+    },
+    {
+      "id": "ss218-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Up to now, I have not found my keys.",
+      "promptZh": "直至目前，我仍未找到鑰匙。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have yet to find my keys.",
+      "answerZh": "我仍未找到鑰匙。",
+      "answerZhSource": "pdf",
+      "highlight": "I have yet to find my keys."
+    },
+    {
+      "id": "ss218-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The doctor has not reviewed the test results to date.",
+      "promptZh": "醫生至今仍未審閱檢驗結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor has yet to review the test results.",
+      "answerZh": "醫生尚未審閱檢驗結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor has yet to review the test results."
+    },
+    {
+      "id": "ss218-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We are still waiting to hear the final decision.",
+      "promptZh": "我們仍在等候最終決定。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have yet to hear the final decision.",
+      "answerZh": "我們尚未得知最終決定。",
+      "answerZhSource": "pdf",
+      "highlight": "We have yet to hear the final decision."
+    },
+    {
+      "id": "ss218-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma is still deciding which course to take.",
+      "promptZh": "艾瑪仍在考慮修讀哪個課程。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma has yet to decide which course to take.",
+      "answerZh": "艾瑪尚未決定修讀哪個課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma has yet to decide which course to take."
+    },
+    {
+      "id": "ss218-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The company has not released the new app so far.",
+      "promptZh": "公司至今仍未推出新的應用程式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company has yet to release the new app.",
+      "answerZh": "公司尚未推出新的應用程式。",
+      "answerZhSource": "pdf",
+      "highlight": "The company has yet to release the new app."
+    },
+    {
+      "id": "ss218-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No one has answered my question yet.",
+      "promptZh": "仍未有人回答我的問題。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one has yet to answer my question.",
+      "answerZh": "尚未有人回答我的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "No one has yet to answer my question."
+    },
+    {
+      "id": "ss218-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why are the lights still off? The caretaker has not switched them on yet.",
+      "promptZh": "燈為甚麼仍然關着？管理員仍未把燈打開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The caretaker has yet to switch on the lights.",
+      "answerZh": "管理員尚未把燈打開。",
+      "answerZhSource": "pdf",
+      "highlight": "The caretaker has yet to switch on the lights."
+    },
+    {
+      "id": "ss218-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "These repairs are still unfinished.",
+      "promptZh": "這些維修工程仍未完成。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These repairs have yet to be finished.",
+      "answerZh": "這些維修工程尚未完成。",
+      "answerZhSource": "pdf",
+      "highlight": "These repairs have yet to be finished."
+    },
+    {
+      "id": "ss218-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The final price remains unconfirmed.",
+      "promptZh": "最終價格仍未確認。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final price has yet to be confirmed.",
+      "answerZh": "最終價格尚未確認。",
+      "answerZhSource": "pdf",
+      "highlight": "The final price has yet to be confirmed."
+    },
+    {
+      "id": "ss218-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Engineers have not identified the cause of the error so far.",
+      "promptZh": "工程師至今仍未找出錯誤的原因。",
+      "promptZhSource": "pdf",
+      "starter": "Engineers",
+      "answer": "Engineers have yet to identify the cause of the error.",
+      "answerZh": "工程師尚未找出錯誤的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Engineers have yet to identify the cause of the error."
+    },
+    {
+      "id": "ss218-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The winner has not been announced yet.",
+      "promptZh": "優勝者仍未公布。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The winner has yet to be announced.",
+      "answerZh": "優勝者尚未公布。",
+      "answerZhSource": "pdf",
+      "highlight": "The winner has yet to be announced."
+    },
+    {
+      "id": "ss218-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Both sides still have not reached a final agreement.",
+      "promptZh": "雙方仍未達成最終協議。",
+      "promptZhSource": "pdf",
+      "starter": "Both",
+      "answer": "Both sides have yet to reach a final agreement.",
+      "answerZh": "雙方尚未達成最終協議。",
+      "answerZhSource": "pdf",
+      "highlight": "Both sides have yet to reach a final agreement."
+    },
+    {
+      "id": "ss218-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The report is still pending the manager’s approval.",
+      "promptZh": "報告仍有待經理批准。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager has yet to approve the report.",
+      "answerZh": "經理尚未批准報告。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager has yet to approve the report."
+    },
+    {
+      "id": "ss218-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school has not decided whether to cancel the trip.",
+      "promptZh": "學校仍未決定是否取消旅行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has yet to decide whether to cancel the trip.",
+      "answerZh": "學校尚未決定是否取消旅行。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has yet to decide whether to cancel the trip."
+    },
+    {
+      "id": "ss218-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Have the warehouse staff packed the order? No, they have not packed it yet.",
+      "promptZh": "倉庫職員已包裝訂單了嗎？不，他們仍未包裝訂單。",
+      "promptZhSource": "pdf",
+      "starter": "Warehouse",
+      "answer": "Warehouse staff have yet to pack the order.",
+      "answerZh": "倉庫職員尚未包裝該訂單。",
+      "answerZhSource": "pdf",
+      "highlight": "Warehouse staff have yet to pack the order."
+    },
+    {
+      "id": "ss218-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our invitation list remains incomplete.",
+      "promptZh": "我們的邀請名單仍未完成。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our invitation list has yet to be completed.",
+      "answerZh": "我們的邀請名單尚未完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Our invitation list has yet to be completed."
+    },
+    {
+      "id": "ss218-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new safety rules have not taken effect yet.",
+      "promptZh": "新的安全規則仍未生效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new safety rules have yet to take effect.",
+      "answerZh": "新的安全規則尚未生效。",
+      "answerZhSource": "pdf",
+      "highlight": "The new safety rules have yet to take effect."
+    },
+    {
+      "id": "ss218-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Despite several discussions, the committee still has not made a decision.",
+      "promptZh": "儘管經過多次討論，委員會仍未作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite several discussions, the committee has yet to make a decision.",
+      "answerZh": "儘管經過多次討論，委員會仍未作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite several discussions, the committee has yet to make a decision."
+    },
+    {
+      "id": "ss218-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient is still waiting to receive the appointment date.",
+      "promptZh": "病人仍在等候預約日期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient has yet to receive the appointment date.",
+      "answerZh": "病人尚未收到預約日期。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient has yet to receive the appointment date."
+    },
+    {
+      "id": "ss218-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The city has announced the plan, but construction has not begun.",
+      "promptZh": "市政府已公布計劃，但工程仍未展開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city has announced the plan, but construction has yet to begin.",
+      "answerZh": "市政府已公布計劃，但工程尚未展開。",
+      "answerZhSource": "pdf",
+      "highlight": "The city has announced the plan, but construction has yet to begin."
+    },
+    {
+      "id": "ss218-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The software update is already available, but I have not installed it.",
+      "promptZh": "軟件更新已經推出，但我仍未安裝。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have yet to install the software update, although it is already available.",
+      "answerZh": "雖然軟件更新已經推出，我仍未安裝。",
+      "answerZhSource": "pdf",
+      "highlight": "I have yet to install the software update, although it is already available."
+    },
+    {
+      "id": "ss218-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The restaurant is taking bookings, although it has not published the full menu.",
+      "promptZh": "餐廳已開始接受訂座，雖然仍未公布完整餐牌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant is taking bookings, although it has yet to publish the full menu.",
+      "answerZh": "餐廳已開始接受訂座，雖然尚未公布完整餐牌。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant is taking bookings, although it has yet to publish the full menu."
+    },
+    {
+      "id": "ss218-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Has Marcus signed the form? No, he has not signed it yet.",
+      "promptZh": "馬庫斯已簽署表格了嗎？不，他仍未簽署。",
+      "promptZhSource": "pdf",
+      "starter": "Marcus",
+      "answer": "Marcus has yet to sign the form.",
+      "answerZh": "馬庫斯尚未簽署表格。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus has yet to sign the form."
+    },
+    {
+      "id": "ss218-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The committee received the proposal last week, but it has not sent a reply.",
+      "promptZh": "委員會上星期收到提案，但仍未作出回覆。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee received the proposal last week but has yet to send a reply.",
+      "answerZh": "委員會上星期收到提案，但尚未作出回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee received the proposal last week but has yet to send a reply."
+    },
+    {
+      "id": "ss218-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The charity has collected the money, but it has not decided how to use it.",
+      "promptZh": "慈善機構已籌得款項，但仍未決定如何使用。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although it has collected the money, the charity has yet to decide how to use it.",
+      "answerZh": "雖然慈善機構已籌得款項，但尚未決定如何使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Although it has collected the money, the charity has yet to decide how to use it."
+    },
+    {
+      "id": "ss218-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The train should have left by now, but it is still at the platform.",
+      "promptZh": "火車現在理應已經開出，但它仍然停在月台。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although it should have left by now, the train has yet to leave the platform.",
+      "answerZh": "雖然火車理應早已開出，但它仍未離開月台。",
+      "answerZhSource": "pdf",
+      "highlight": "Although it should have left by now, the train has yet to leave the platform."
+    },
+    {
+      "id": "ss218-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The technician is examining the fault and has not found a solution so far.",
+      "promptZh": "技術員正在檢查故障，至今仍未找到解決方法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The technician is examining the fault and has yet to find a solution.",
+      "answerZh": "技術員正在檢查故障，但尚未找到解決方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The technician is examining the fault and has yet to find a solution."
+    },
+    {
+      "id": "ss218-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although applications closed yesterday, the university has not published the interview schedule.",
+      "promptZh": "儘管申請已於昨天截止，大學仍未公布面試時間表。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although applications closed yesterday, the university has yet to publish the interview schedule.",
+      "answerZh": "儘管申請已於昨天截止，大學尚未公布面試時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "Although applications closed yesterday, the university has yet to publish the interview schedule."
+    },
+    {
+      "id": "ss218-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The council promised an update this week, but residents have not received one.",
+      "promptZh": "市議會承諾本星期提供最新消息，但居民仍未收到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council promised an update this week, but residents have yet to receive one.",
+      "answerZh": "市議會承諾本星期提供最新消息，但居民尚未收到。",
+      "answerZhSource": "pdf",
+      "highlight": "The council promised an update this week, but residents have yet to receive one."
+    },
+    {
+      "id": "ss218-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital has completed the building work; however, the new ward has not opened to patients.",
+      "promptZh": "醫院已完成建築工程；然而，新病房仍未對病人開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital has completed the building work; however, the new ward has yet to open to patients.",
+      "answerZh": "醫院已完成建築工程；然而，新病房尚未對病人開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital has completed the building work; however, the new ward has yet to open to patients."
+    },
+    {
+      "id": "ss218-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The research team has gathered the data, but it has not analysed the results in detail.",
+      "promptZh": "研究團隊已收集數據，但仍未詳細分析結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team has gathered the data but has yet to analyse the results in detail.",
+      "answerZh": "研究團隊已收集數據，但尚未詳細分析結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team has gathered the data but has yet to analyse the results in detail."
+    },
+    {
+      "id": "ss218-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The supplier confirmed the order, although the goods have not been delivered to our office.",
+      "promptZh": "供應商已確認訂單，雖然貨物仍未送到我們的辦公室。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the supplier confirmed the order, the goods have yet to be delivered to our office.",
+      "answerZh": "雖然供應商已確認訂單，貨物尚未送到我們的辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the supplier confirmed the order, the goods have yet to be delivered to our office."
+    },
+    {
+      "id": "ss218-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The board has approved the budget, but the finance department has not released the funds.",
+      "promptZh": "董事會已批准預算，但財務部仍未發放款項。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The board has approved the budget, but the finance department has yet to release the funds.",
+      "answerZh": "董事會已批准預算，但財務部尚未發放款項。",
+      "answerZhSource": "pdf",
+      "highlight": "The board has approved the budget, but the finance department has yet to release the funds."
+    },
+    {
+      "id": "ss218-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school introduced the new reading programme last month, but teachers have not evaluated its effect.",
+      "promptZh": "學校上月推出新的閱讀計劃，但教師仍未評估其成效。",
+      "promptZhSource": "pdf",
+      "starter": "Last",
+      "answer": "Last month, the school introduced the new reading programme, but teachers have yet to evaluate its effect.",
+      "answerZh": "學校上月推出新的閱讀計劃，但教師尚未評估其成效。",
+      "answerZhSource": "pdf",
+      "highlight": "Last month, the school introduced the new reading programme, but teachers have yet to evaluate its effect."
+    },
+    {
+      "id": "ss218-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The police have interviewed several witnesses, but they have not established what caused the accident.",
+      "promptZh": "警方已訪問多名證人，但仍未確定意外成因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The police have interviewed several witnesses but have yet to establish what caused the accident.",
+      "answerZh": "警方已訪問多名證人，但尚未確定意外成因。",
+      "answerZhSource": "pdf",
+      "highlight": "The police have interviewed several witnesses but have yet to establish what caused the accident."
+    },
+    {
+      "id": "ss218-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company says the problem is under control, although it has not explained how customer data was exposed.",
+      "promptZh": "公司表示問題已受控制，雖然仍未解釋客戶資料如何外洩。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the company says the problem is under control, it has yet to explain how customer data was exposed.",
+      "answerZh": "雖然公司表示問題已受控制，但尚未解釋客戶資料如何外洩。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the company says the problem is under control, it has yet to explain how customer data was exposed."
+    },
+    {
+      "id": "ss218-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The two organisations signed an agreement in May, but neither side has carried out the first stage of the plan.",
+      "promptZh": "兩個機構在五月簽署協議，但雙方均未執行計劃的第一階段。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two organisations signed an agreement in May, but neither side has yet to carry out the first stage of the plan.",
+      "answerZh": "兩個機構在五月簽署協議，但雙方均尚未執行計劃的第一階段。",
+      "answerZhSource": "pdf",
+      "highlight": "The two organisations signed an agreement in May, but neither side has yet to carry out the first stage of the plan."
+    }
+  ]
+}

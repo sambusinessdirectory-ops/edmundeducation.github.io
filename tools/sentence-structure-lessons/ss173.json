@@ -1,0 +1,1223 @@
+{
+  "id": "ss173",
+  "order": 173,
+  "slug": "much-as-concession",
+  "title": "Much as",
+  "titleZh": "「Much as 句」表達讓步與對比",
+  "titleEn": "Using Much as for concession and contrast",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 173 -「Much as 句」表達讓步與對比.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Much as + subject + verb..., subject + verb...",
+  "formulas": [
+    {
+      "id": "ss173-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Much as + subject + verb..., subject + verb..."
+    }
+  ],
+  "example": "Much as I respect her opinion, I still disagree with her conclusion.",
+  "exampleZh": "雖然我很尊重她的意見，但我仍然不同意她的結論。",
+  "examples": [
+    {
+      "id": "ss173-example-01",
+      "en": "Much as I respect her opinion, I still disagree with her conclusion.",
+      "zh": "雖然我很尊重她的意見，但我仍然不同意她的結論。",
+      "highlight": "Much as I respect her opinion, I still disagree with her conclusion."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss173-rule-01",
+      "zh": "Much as 通常解作「雖然……」 它經常用來表達強烈的感受、願望、欣賞、理解或努力。 常見動詞包括：",
+      "en": "Much as normally means “although”. It often expresses a strong feeling, wish, appreciation, understanding or effort. Common verbs include like, love, respect, admire, appreciate, understand, want, wish, hope, regret and try.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss173-rule-02",
+      "zh": "本課把 Much as 子句放在句首 Much as + 完整子句, + 主要子句 （雖然我很喜歡這個計劃，但我不能支持它。）",
+      "en": "In this lesson, place the Much as clause first: Much as + complete clause, + main clause. For example: Much as I like the plan, I cannot support it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Much as I like the plan, I cannot support it."
+      ]
+    },
+    {
+      "id": "ss173-rule-03",
+      "zh": "主要子句前不要加入 but 錯誤： 正確： Much as 本身已經表達「雖然」，因此英文主要子句不需要再使用 but。",
+      "en": "Do not add but before the main clause. Much as already expresses “although”, so write Much as I like the plan, I cannot support it, not ..., but I cannot support it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Much as I like the plan, but I cannot support it.",
+        "Much as I like the plan, I cannot support it."
+      ]
+    },
+    {
+      "id": "ss173-rule-04",
+      "zh": "Much as 後面必須有主語和動詞 正確： 錯誤：",
+      "en": "Much as must be followed by a subject and verb. Write Much as she wanted to stay, she had to leave, not Much as wanting to stay ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Much as she wanted to stay, she had to leave.",
+        "Much as wanting to stay, she had to leave."
+      ]
+    },
+    {
+      "id": "ss173-rule-05",
+      "zh": "不要把 Much as 與 as much as 混淆 （雖然我很喜歡這件外套，但我不會購買。） （我不像你那麼喜歡這件外套。） 第一句的 Much as 表達讓步；第二句的 as much as 表達程度比較。",
+      "en": "Do not confuse Much as with as much as. Much as I like the coat, I will not buy it expresses concession; I do not like the coat as much as you do compares degree.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Much as I like the coat, I will not buy it.",
+        "I do not like the coat as much as you do."
+      ]
+    },
+    {
+      "id": "ss173-rule-06",
+      "zh": "Much as 的語氣通常比 although 稍正式 它特別適合用於： 作文和議論文； 報告和簡報； 有禮貌的不同意； 平衡地分析正反觀點； 較深入或較慎重的對話。",
+      "en": "Much as is normally slightly more formal than although. It is especially suitable for essays and argumentative writing, reports and presentations, polite disagreement, balanced analysis of opposing views, and deeper or more considered conversation.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss173-benefit-01",
+      "zh": "這個句型讓你先承認對方的觀點、努力或好意，再表達不同意，因此語氣不會過於直接或無禮。 （雖然我明白你的憂慮，但我不能更改這項規則。）",
+      "en": "It helps you disagree without sounding rude You can first recognise another person’s opinion, effort or good intention before stating your disagreement. Much as I understand your concern, I cannot change the rule.",
+      "enSource": "pdf",
+      "examples": [
+        "Much as I understand your concern, I cannot change the rule."
+      ]
+    },
+    {
+      "id": "ss173-benefit-02",
+      "zh": "你可以先承認另一方有合理之處，再說明自己的主要立場，令分析顯得更加平衡和公平。",
+      "en": "It makes your argument sound balanced Instead of presenting only one side, you can acknowledge a valid point before explaining your main position.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss173-benefit-03",
+      "zh": "這個句型能清楚說明：前面的感受、努力或優點確實存在，但仍然沒有改變最後的結果。 （儘管他們很努力嘗試，但仍然無法把門打開。）",
+      "en": "It shows a strong contrast clearly The structure makes it clear that the first feeling, effort or advantage is real, but it does not change the final result. Much as they tried, they could not open the door.",
+      "enSource": "pdf",
+      "examples": [
+        "Much as they tried, they could not open the door."
+      ]
+    },
+    {
+      "id": "ss173-benefit-04",
+      "zh": "你不需要把兩個相反意思分成兩句，而可以把它們流暢地連接成一句完整句子。 比較：",
+      "en": "It joins two opposing ideas smoothly Instead of writing two separate sentences, you can connect the opposing ideas in one complete sentence. I respect her opinion. However, I disagree with her conclusion. Much as I respect her opinion, I disagree with her conclusion.",
+      "enSource": "pdf",
+      "examples": [
+        "I respect her opinion. However, I disagree with her conclusion.",
+        "Much as I respect her opinion, I disagree with her conclusion."
+      ]
+    },
+    {
+      "id": "ss173-benefit-05",
+      "zh": "它提供另一種表達「雖然」的方法，避免反覆使用 although、even though 和 but，令句式更有變 化。",
+      "en": "It gives you another way to express “although” You can avoid repeatedly using although, even though and but, making your speaking and writing less repetitive.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Much as.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Much as 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss173-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Although I like the idea very much, I cannot support it.",
+      "promptZh": "雖然我很喜歡這個想法，但我不能支持它。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as I like the idea, I cannot support it.",
+      "answerZh": "雖然我很喜歡這個想法，但我不能支持它。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as I like the idea, I cannot support it."
+    },
+    {
+      "id": "ss173-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Even though she wanted to stay very much, she had to leave.",
+      "promptZh": "雖然她很想留下來，但她必須離開。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as she wanted to stay, she had to leave.",
+      "answerZh": "雖然她很想留下來，但她必須離開。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as she wanted to stay, she had to leave."
+    },
+    {
+      "id": "ss173-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "They tried very hard, but they could not open the door.",
+      "promptZh": "他們非常努力嘗試，但仍然無法把門打開。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as they tried, they could not open the door.",
+      "answerZh": "儘管他們很努力嘗試，但仍然無法把門打開。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as they tried, they could not open the door."
+    },
+    {
+      "id": "ss173-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We greatly appreciate your help. However, we still need more time.",
+      "promptZh": "我們非常感謝你的幫助。不過，我們仍然需要更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as we appreciate your help, we still need more time.",
+      "answerZh": "雖然我們非常感謝你的幫助，但仍然需要更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as we appreciate your help, we still need more time."
+    },
+    {
+      "id": "ss173-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "He has great respect for his coach, yet he sometimes questions the training plan.",
+      "promptZh": "他非常尊重教練，但有時仍會質疑訓練計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as he respects his coach, he sometimes questions the training plan.",
+      "answerZh": "雖然他非常尊重教練，但有時仍會質疑訓練計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as he respects his coach, he sometimes questions the training plan."
+    },
+    {
+      "id": "ss173-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "In spite of my love of sweets, I try not to eat them every day.",
+      "promptZh": "儘管我很喜歡甜食，但我盡量不每天吃。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as I enjoy sweets, I try not to eat them every day.",
+      "answerZh": "雖然我很喜歡甜食，但我盡量不每天吃。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as I enjoy sweets, I try not to eat them every day."
+    },
+    {
+      "id": "ss173-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The children love the park, but they cannot go there tonight.",
+      "promptZh": "孩子們很喜歡那個公園，但今晚不能到那裏去。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the children love the park, they cannot go there tonight.",
+      "answerZh": "雖然孩子們很喜歡那個公園，但今晚不能到那裏去。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the children love the park, they cannot go there tonight."
+    },
+    {
+      "id": "ss173-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Maya fully understands the reason. Even so, she feels disappointed.",
+      "promptZh": "瑪雅完全明白原因。即使如此，她仍感到失望。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as Maya understands the reason, she feels disappointed.",
+      "answerZh": "雖然瑪雅明白原因，但她仍感到失望。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as Maya understands the reason, she feels disappointed."
+    },
+    {
+      "id": "ss173-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Despite his strong hope of winning, Ben accepted the result calmly.",
+      "promptZh": "儘管本非常希望勝出，但他仍平靜地接受結果。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as Ben hoped to win, he accepted the result calmly.",
+      "answerZh": "雖然本非常希望勝出，但他仍平靜地接受結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as Ben hoped to win, he accepted the result calmly."
+    },
+    {
+      "id": "ss173-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I would very much like to join you, but I have to finish my homework.",
+      "promptZh": "我很想和你們一起去，但我必須完成家課。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as I would like to join you, I have to finish my homework.",
+      "answerZh": "雖然我很想和你們一起去，但我必須完成家課。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as I would like to join you, I have to finish my homework."
+    },
+    {
+      "id": "ss173-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although Nina likes the dress very much, she thinks it is too expensive.",
+      "promptZh": "雖然妮娜很喜歡這條連身裙，但她認為它太昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as Nina likes the dress, she thinks it is too expensive.",
+      "answerZh": "雖然妮娜很喜歡這條連身裙，但她認為它太昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as Nina likes the dress, she thinks it is too expensive."
+    },
+    {
+      "id": "ss173-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is true that the manager values speed, but she will not ignore safety.",
+      "promptZh": "經理的確重視速度，但她不會忽視安全。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the manager values speed, she will not ignore safety.",
+      "answerZh": "雖然經理很重視速度，但她不會忽視安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the manager values speed, she will not ignore safety."
+    },
+    {
+      "id": "ss173-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We were very keen to take the ferry. However, the bad weather forced us to take the train.",
+      "promptZh": "我們很想乘搭渡輪。不過，惡劣天氣迫使我們改乘火車。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as we wanted to take the ferry, the bad weather forced us to take the train.",
+      "answerZh": "雖然我們很想乘搭渡輪，但惡劣天氣迫使我們改乘火車。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as we wanted to take the ferry, the bad weather forced us to take the train."
+    },
+    {
+      "id": "ss173-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In spite of Daniel’s great admiration for the singer, he does not agree with all her views.",
+      "promptZh": "儘管丹尼爾非常欣賞這位歌手，但他並不同意她的所有觀點。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as Daniel admires the singer, he does not agree with all her views.",
+      "answerZh": "雖然丹尼爾非常欣賞這位歌手，但他並不同意她的所有觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as Daniel admires the singer, he does not agree with all her views."
+    },
+    {
+      "id": "ss173-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No matter how much the team practised, they were not ready for the final match.",
+      "promptZh": "無論球隊練習了多少，他們仍未準備好參加決賽。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the team practised, they were not ready for the final match.",
+      "answerZh": "儘管球隊努力練習，他們仍未準備好參加決賽。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the team practised, they were not ready for the final match."
+    },
+    {
+      "id": "ss173-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I fully understand your concern, but I cannot change the rule.",
+      "promptZh": "我完全明白你的憂慮，但我不能更改這項規則。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as I understand your concern, I cannot change the rule.",
+      "answerZh": "雖然我明白你的憂慮，但我不能更改這項規則。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as I understand your concern, I cannot change the rule."
+    },
+    {
+      "id": "ss173-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ava loves her old mobile phone dearly. Nevertheless, she needs a new one for work.",
+      "promptZh": "艾娃非常喜愛她的舊手機。不過，她工作上需要一部新手機。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as Ava loves her old mobile phone, she needs a new one for work.",
+      "answerZh": "雖然艾娃非常喜愛她的舊手機，但她工作上需要一部新手機。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as Ava loves her old mobile phone, she needs a new one for work."
+    },
+    {
+      "id": "ss173-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop very much wants to attract customers, but it should not make false claims.",
+      "promptZh": "這間商店很想吸引顧客，但不應作出失實聲稱。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the shop wants to attract customers, it should not make false claims.",
+      "answerZh": "雖然這間商店很想吸引顧客，但不應作出失實聲稱。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the shop wants to attract customers, it should not make false claims."
+    },
+    {
+      "id": "ss173-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "Even though Leo wanted to help very much, he did not know what to do.",
+      "promptZh": "雖然里奧很想幫忙，但他不知道應該做甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as Leo wanted to help, he did not know what to do.",
+      "answerZh": "雖然里奧很想幫忙，但他不知道應該做甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as Leo wanted to help, he did not know what to do."
+    },
+    {
+      "id": "ss173-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The teacher greatly enjoyed the discussion, yet she had to end the lesson on time.",
+      "promptZh": "老師非常享受這次討論，但她必須準時結束課堂。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the teacher enjoyed the discussion, she had to end the lesson on time.",
+      "answerZh": "雖然老師非常享受這次討論，但她必須準時結束課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the teacher enjoyed the discussion, she had to end the lesson on time."
+    },
+    {
+      "id": "ss173-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We greatly appreciate the convenience of online shopping, but we should consider its environmental cost.",
+      "promptZh": "我們非常重視網上購物帶來的便利，但也應考慮它對環境造成的代價。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as we appreciate the convenience of online shopping, we should consider its environmental cost.",
+      "answerZh": "雖然我們非常重視網上購物帶來的便利，但也應考慮它對環境造成的代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as we appreciate the convenience of online shopping, we should consider its environmental cost."
+    },
+    {
+      "id": "ss173-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No matter how hard Chloe tried to stay calm, her hands were shaking.",
+      "promptZh": "無論克洛伊多麼努力保持冷靜，她的雙手仍在顫抖。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as Chloe tried to stay calm, her hands were shaking.",
+      "answerZh": "儘管克洛伊努力保持冷靜，她的雙手仍在顫抖。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as Chloe tried to stay calm, her hands were shaking."
+    },
+    {
+      "id": "ss173-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the hospital is eager to reduce waiting times, it must still examine every patient carefully.",
+      "promptZh": "雖然醫院很希望縮短輪候時間，但仍必須仔細檢查每位病人。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the hospital is eager to reduce waiting times, it must still examine every patient carefully.",
+      "answerZh": "雖然醫院很希望縮短輪候時間，但仍必須仔細檢查每位病人。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the hospital is eager to reduce waiting times, it must still examine every patient carefully."
+    },
+    {
+      "id": "ss173-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I agree with the main idea, but I think one part needs more evidence.",
+      "promptZh": "我同意主要觀點，但認為其中一部分需要更多證據。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as I agree with the main idea, I think one part needs more evidence.",
+      "answerZh": "雖然我同意主要觀點，但認為其中一部分需要更多證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as I agree with the main idea, I think one part needs more evidence."
+    },
+    {
+      "id": "ss173-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The parents trust the school, but they still want regular updates.",
+      "promptZh": "家長信任學校，但仍希望定期收到最新消息。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the parents trust the school, they still want regular updates.",
+      "answerZh": "雖然家長信任學校，但仍希望定期收到最新消息。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the parents trust the school, they still want regular updates."
+    },
+    {
+      "id": "ss173-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company strongly hoped that the new system would save time. However, it created extra work at first.",
+      "promptZh": "公司非常希望新系統可以節省時間。不過，它起初反而增加了工作量。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the company hoped the new system would save time, it created extra work at first.",
+      "answerZh": "雖然公司非常希望新系統可以節省時間，但它起初反而增加了工作量。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the company hoped the new system would save time, it created extra work at first."
+    },
+    {
+      "id": "ss173-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ethan would very much like to accept the offer, but the working hours do not suit him.",
+      "promptZh": "伊森很想接受這份工作，但工作時間並不適合他。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as Ethan would like to accept the offer, the working hours do not suit him.",
+      "answerZh": "雖然伊森很想接受這份工作，但工作時間並不適合他。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as Ethan would like to accept the offer, the working hours do not suit him."
+    },
+    {
+      "id": "ss173-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The council strongly supports cycling, but it cannot remove every parking space.",
+      "promptZh": "市議會大力支持踏單車，但不能取消所有泊車位。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the council supports cycling, it cannot remove every parking space.",
+      "answerZh": "雖然市議會大力支持踏單車，但不能取消所有泊車位。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the council supports cycling, it cannot remove every parking space."
+    },
+    {
+      "id": "ss173-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the museum tries hard to welcome all visitors, some areas remain difficult for wheelchair users to reach.",
+      "promptZh": "雖然博物館努力歡迎所有訪客，但輪椅使用者仍難以到達部分地方。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the museum tries to welcome all visitors, some areas remain difficult for wheelchair users to reach.",
+      "answerZh": "儘管博物館努力歡迎所有訪客，但輪椅使用者仍難以到達部分地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the museum tries to welcome all visitors, some areas remain difficult for wheelchair users to reach."
+    },
+    {
+      "id": "ss173-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Sarah deeply regretted her mistake, yet she could not undo the damage.",
+      "promptZh": "莎拉對自己的錯誤深感後悔，但她無法挽回造成的損害。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as Sarah regretted her mistake, she could not undo the damage.",
+      "answerZh": "雖然莎拉對自己的錯誤深感後悔，但她無法挽回造成的損害。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as Sarah regretted her mistake, she could not undo the damage."
+    },
+    {
+      "id": "ss173-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Even though the students were very interested in the topic, they found the article difficult to understand.",
+      "promptZh": "雖然學生對這個題目很感興趣，但他們覺得文章難以理解。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the students were interested in the topic, they found the article difficult to understand.",
+      "answerZh": "雖然學生對這個題目很感興趣，但他們覺得文章難以理解。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the students were interested in the topic, they found the article difficult to understand."
+    },
+    {
+      "id": "ss173-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I deeply sympathise with his situation, but I cannot excuse his rude behaviour.",
+      "promptZh": "我非常同情他的處境，但不能原諒他的無禮行為。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as I sympathise with his situation, I cannot excuse his rude behaviour.",
+      "answerZh": "雖然我非常同情他的處境，但不能原諒他的無禮行為。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as I sympathise with his situation, I cannot excuse his rude behaviour."
+    },
+    {
+      "id": "ss173-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is true that the new road may improve traffic, but it could increase noise in the neighbourhood.",
+      "promptZh": "新道路的確可能改善交通情況，但也可能增加區內的噪音。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the new road may improve traffic, it could increase noise in the neighbourhood.",
+      "answerZh": "雖然新道路可能改善交通情況，但也可能增加區內的噪音。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the new road may improve traffic, it could increase noise in the neighbourhood."
+    },
+    {
+      "id": "ss173-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Despite preparing thoroughly for the interview, Grace still felt nervous.",
+      "promptZh": "儘管格蕾絲為面試作了充分準備，她仍然感到緊張。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as Grace had prepared thoroughly for the interview, she still felt nervous.",
+      "answerZh": "儘管格蕾絲為面試作了充分準備，她仍然感到緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as Grace had prepared thoroughly for the interview, she still felt nervous."
+    },
+    {
+      "id": "ss173-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The chef very much wanted to keep the traditional recipe. However, he had to reduce the salt.",
+      "promptZh": "廚師很想保留傳統食譜。不過，他必須減少鹽的分量。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the chef wanted to keep the traditional recipe, he had to reduce the salt.",
+      "answerZh": "雖然廚師很想保留傳統食譜，但他必須減少鹽的分量。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the chef wanted to keep the traditional recipe, he had to reduce the salt."
+    },
+    {
+      "id": "ss173-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The charity depends heavily on donations, yet it must explain clearly how the money is used.",
+      "promptZh": "這間慈善機構十分依賴捐款，但必須清楚交代款項的用途。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the charity depends heavily on donations, it must explain clearly how the money is used.",
+      "answerZh": "雖然這間慈善機構十分依賴捐款，但必須清楚交代款項的用途。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the charity depends heavily on donations, it must explain clearly how the money is used."
+    },
+    {
+      "id": "ss173-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We would greatly prefer to solve the problem today, but more information is needed.",
+      "promptZh": "我們很希望今天解決問題，但仍需要更多資料。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as we would prefer to solve the problem today, more information is needed.",
+      "answerZh": "雖然我們很希望今天解決問題，但仍需要更多資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as we would prefer to solve the problem today, more information is needed."
+    },
+    {
+      "id": "ss173-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the coach praised the players’ effort, he pointed out several mistakes.",
+      "promptZh": "雖然教練讚揚球員的努力，但也指出了幾個錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the coach praised the players’ effort, he pointed out several mistakes.",
+      "answerZh": "雖然教練讚揚球員的努力，但也指出了幾個錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the coach praised the players’ effort, he pointed out several mistakes."
+    },
+    {
+      "id": "ss173-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We value the device greatly. Nevertheless, it should not replace face-to-face communication completely.",
+      "promptZh": "我們非常重視這個裝置。不過，它不應完全取代面對面溝通。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as we value the device, it should not replace face-to-face communication completely.",
+      "answerZh": "雖然我們非常重視這個裝置，但它不應完全取代面對面溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as we value the device, it should not replace face-to-face communication completely."
+    },
+    {
+      "id": "ss173-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In spite of the residents’ strong opposition to the construction work, they recognised the need for safer buildings.",
+      "promptZh": "儘管居民強烈反對建築工程，但他們明白有需要興建更安全的樓宇。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the residents opposed the construction work, they recognised the need for safer buildings.",
+      "answerZh": "雖然居民強烈反對建築工程，但他們明白有需要興建更安全的樓宇。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the residents opposed the construction work, they recognised the need for safer buildings."
+    },
+    {
+      "id": "ss173-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school strongly encourages independent learning, but younger students still need clear guidance.",
+      "promptZh": "學校大力鼓勵自主學習，但年幼學生仍需要清晰指導。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the school encourages independent learning, younger students still need clear guidance.",
+      "answerZh": "雖然學校大力鼓勵自主學習，但年幼學生仍需要清晰指導。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the school encourages independent learning, younger students still need clear guidance."
+    },
+    {
+      "id": "ss173-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The government may wish to keep the service affordable, yet it must also cover rising costs.",
+      "promptZh": "政府可能希望把服務收費維持在可負擔水平，但也必須應付不斷上升的成本。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the government may wish to keep the service affordable, it must also cover rising costs.",
+      "answerZh": "雖然政府可能希望把服務收費維持在可負擔水平，但也必須應付不斷上升的成本。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the government may wish to keep the service affordable, it must also cover rising costs."
+    },
+    {
+      "id": "ss173-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I greatly respect people who work long hours, but I do not believe exhaustion should be treated as success.",
+      "promptZh": "我十分尊重長時間工作的人，但不認為筋疲力盡應被視為成功。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as I respect people who work long hours, I do not believe exhaustion should be treated as success.",
+      "answerZh": "雖然我十分尊重長時間工作的人，但不認為筋疲力盡應被視為成功。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as I respect people who work long hours, I do not believe exhaustion should be treated as success."
+    },
+    {
+      "id": "ss173-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the research results appear very promising, further tests are required before the treatment can be widely used.",
+      "promptZh": "雖然研究結果看來很有希望，但在這種治療方法獲廣泛使用前，仍須進行更多測試。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the research results appear promising, further tests are required before the treatment can be widely used.",
+      "answerZh": "雖然研究結果看來很有希望，但在這種治療方法獲廣泛使用前，仍須進行更多測試。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the research results appear promising, further tests are required before the treatment can be widely used."
+    },
+    {
+      "id": "ss173-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company is very keen to enter new markets quickly, but it should first understand local laws and customer needs.",
+      "promptZh": "公司很希望迅速進入新市場，但應先了解當地法例和顧客需要。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the company wants to enter new markets quickly, it should first understand local laws and customer needs.",
+      "answerZh": "雖然公司很希望迅速進入新市場，但應先了解當地法例和顧客需要。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the company wants to enter new markets quickly, it should first understand local laws and customer needs."
+    },
+    {
+      "id": "ss173-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Public transport helps to reduce traffic, but it will not solve every environmental problem on its own.",
+      "promptZh": "公共交通有助減少路面交通，但不能單獨解決所有環境問題。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as public transport helps to reduce traffic, it will not solve every environmental problem on its own.",
+      "answerZh": "雖然公共交通有助減少路面交通，但不能單獨解決所有環境問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as public transport helps to reduce traffic, it will not solve every environmental problem on its own."
+    },
+    {
+      "id": "ss173-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The committee welcomed the proposal’s main goal, but it rejected the plan because the budget was unrealistic.",
+      "promptZh": "委員會認同建議的主要目標，但因預算不切實際而否決了計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the committee welcomed the proposal’s main goal, it rejected the plan because the budget was unrealistic.",
+      "answerZh": "雖然委員會認同建議的主要目標，但因預算不切實際而否決了計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the committee welcomed the proposal’s main goal, it rejected the plan because the budget was unrealistic."
+    },
+    {
+      "id": "ss173-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager understood why the deadline had been missed. Even so, she still needed the team to present a recovery plan.",
+      "promptZh": "經理明白未能如期完成工作的原因。即使如此，她仍要求團隊提交補救計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the manager understood why the deadline had been missed, she still needed the team to present a recovery plan.",
+      "answerZh": "雖然經理明白未能如期完成工作的原因，但她仍要求團隊提交補救計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the manager understood why the deadline had been missed, she still needed the team to present a recovery plan."
+    },
+    {
+      "id": "ss173-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The city strongly hopes that tourism will create jobs, but it must protect local communities from overcrowding and rising rents.",
+      "promptZh": "城市非常希望旅遊業創造職位，但也必須保護本地社區免受過度擠迫和租金上升的影響。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as the city hopes tourism will create jobs, it must protect local communities from overcrowding and rising rents.",
+      "answerZh": "雖然城市非常希望旅遊業創造職位，但也必須保護本地社區免受過度擠迫和租金上升的影響。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as the city hopes tourism will create jobs, it must protect local communities from overcrowding and rising rents."
+    },
+    {
+      "id": "ss173-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although we may disagree strongly about the best solution, we should examine the evidence together before making a final decision.",
+      "promptZh": "雖然我們可能對最佳解決方法有很大分歧，但在作出最終決定前，仍應一起審視證據。",
+      "promptZhSource": "pdf",
+      "starter": "Much",
+      "answer": "Much as we may disagree about the best solution, we should examine the evidence together before making a final decision.",
+      "answerZh": "雖然我們可能對最佳解決方法有很大分歧，但在作出最終決定前，仍應一起審視證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Much as we may disagree about the best solution, we should examine the evidence together before making a final decision."
+    }
+  ]
+}

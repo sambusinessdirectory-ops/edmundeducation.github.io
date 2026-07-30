@@ -1,0 +1,1236 @@
+{
+  "id": "ss193",
+  "order": 193,
+  "slug": "upon-noun-or-ing",
+  "title": "「Upon + noun ／ V-ing」表示「一……便／在……之後」",
+  "titleZh": "「Upon + noun ／ V-ing」表示「一……便／在……之後」",
+  "titleEn": "Using “Upon + noun / V-ing”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 193 -「Upon + noun _ V-ing」表示「一……便／在……之後」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Upon + noun phrase / V-ing, + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss193-formula-01",
+      "labelEn": "Noun phrase",
+      "labelZh": "接名詞片語",
+      "formula": "Upon + noun phrase, + subject + verb + other information"
+    },
+    {
+      "id": "ss193-formula-02",
+      "labelEn": "V-ing phrase",
+      "labelZh": "接動名詞",
+      "formula": "Upon + V-ing, + subject + verb + other information"
+    },
+    {
+      "id": "ss193-formula-03",
+      "labelEn": "Sentence-final",
+      "labelZh": "放在句末",
+      "formula": "Subject + verb + other information + upon + noun phrase / V-ing"
+    }
+  ],
+  "example": "Upon arrival, visitors were asked to register at the front desk.",
+  "exampleZh": "抵達後，訪客被要求在前台登記。",
+  "examples": [
+    {
+      "id": "ss193-example-01",
+      "en": "Upon arrival, visitors were asked to register at the front desk.",
+      "zh": "抵達後，訪客被要求在前台登記。",
+      "highlight": "Upon arrival, visitors were asked to register at the front desk."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Upon + noun phrase / V-ing, + subject + verb + other information。"
+  },
+  "rules": [
+    {
+      "id": "ss193-rule-01",
+      "zh": "Upon 表示某事發生時，另一件事隨即或很快發生 Upon 的意思接近 when、after 或 as soon as，但通常更強調前一件事發生後，另一件事隨即發 生。",
+      "en": "Upon shows that when one event occurs, another happens immediately or very soon afterwards. It is close in meaning to when, after or as soon as, but it often gives a stronger sense of immediate sequence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is close in meaning to when, after or as soon as, but it often gives a stronger sense of"
+      ]
+    },
+    {
+      "id": "ss193-rule-02",
+      "zh": "Upon 後面接名詞或 V-ing，不接完整句子 正確： 錯誤：",
+      "en": "Follow upon with a noun or V-ing form, not a complete clause. Correct: Upon arrival, ...; Upon receiving the email, .... Incorrect: Upon she arrived, ...; Upon to receive the email, ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Correct: Upon arrival, ...",
+        "Upon receiving the email, ...",
+        "Incorrect: Upon she arrived, ...",
+        "Upon to receive the email, ...",
+        "Upon arrival, ...",
+        "Upon she arrived, ..."
+      ]
+    },
+    {
+      "id": "ss193-rule-03",
+      "zh": "使用 Upon + V-ing 時，V-ing 的動作者通常必須與主句主語相同 進入房間和開燈的人都是 Leo。",
+      "en": "With upon + V-ing, the doer of the -ing action must normally be the subject of the main clause. In “Upon entering the room, Leo switched on the light”, Leo both enters the room and switches on the light.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Upon entering the room, Leo switched on the light."
+      ]
+    },
+    {
+      "id": "ss193-rule-04",
+      "zh": "Upon 短語放在句首時，後面通常加逗號 如 Upon 短語放在主句後面，通常不需要逗號：",
+      "en": "When an upon phrase comes first, normally put a comma after it: Upon completion of the task, please inform your teacher. When it follows the main clause, a comma is normally unnecessary: Please inform your teacher upon completion of the task.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Upon completion of the task, please inform your teacher.",
+        "Please inform your teacher upon completion of the task."
+      ]
+    },
+    {
+      "id": "ss193-rule-05",
+      "zh": "Upon 比 when 或 after 較正式 Upon 特別常見於通告、指示、程序、報告及專業寫作。",
+      "en": "Upon is more formal than when or after. It is especially common in notices, instructions, procedures, reports and professional writing.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is especially common in notices, instructions, procedures, reports and professional writing."
+      ]
+    },
+    {
+      "id": "ss193-rule-06",
+      "zh": "較高階的被動形式是 Upon being + past participle （乘客獲悉延誤後，便更改了計劃。）",
+      "en": "A more advanced passive form is upon being + past participle: Upon being informed of the delay, the passengers changed their plans.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Upon being informed of the delay, the passengers changed their plans."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss193-benefit-01",
+      "zh": "清楚顯示事情發生的先後次序 讀者可以立即看出哪件事先發生，以及之後隨即發生甚麼事。",
+      "en": "It makes the order of events clear The reader can immediately see which event happened first and what followed.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss193-benefit-02",
+      "zh": "縮短較長的時間子句 你可以用較短的 Upon arrival，代替較長的 As soon as visitors arrived。",
+      "en": "It can shorten a longer time clause Instead of saying As soon as visitors arrived, you can say Upon arrival.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss193-benefit-03",
+      "zh": "適合用於指示和程序 這個句型可以清楚說明某個步驟完成後，有關人士應該做甚麼。",
+      "en": "It is useful for instructions and procedures The structure helps you explain what someone should do at a particular stage.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss193-benefit-04",
+      "zh": "令文字更精確和專業 它適合用於電郵、通告、報告、規則及工作文件。",
+      "en": "It gives writing a precise and professional tone It is useful in emails, notices, reports, rules and workplace documents.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss193-benefit-05",
+      "zh": "增加句式變化 以 Upon 開始句子，可以避免反覆使用 When 或 After，令寫作不會過於單調。 Compare 比較 （系統一收到付款，便會發送確認電郵。） 第二句較簡潔，亦更適合正式通知或工作程序。",
+      "en": "It gives you another way to begin a sentence. Beginning with Upon creates sentence variety and avoids repeatedly starting with When or After. Compare: As soon as payment is received, our system sends a confirmation email. Our system sends a confirmation email upon receipt of payment. The second sentence is more concise and better suited to a formal notice or workplace procedure.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Upon + noun phrase / V-ing, + subject + verb + other information.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Upon + noun phrase / V-ing, + subject + verb + other information」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss193-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When visitors arrived, they were asked to register at the front desk.",
+      "promptZh": "訪客抵達時，工作人員要求他們在前台登記。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon arrival, visitors were asked to register at the front desk.",
+      "answerZh": "抵達後，訪客被要求在前台登記。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon arrival, visitors were asked to register at the front desk."
+    },
+    {
+      "id": "ss193-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As soon as Mia woke up, she opened the curtains.",
+      "promptZh": "米婭一醒來，便拉開窗簾。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon waking up, Mia opened the curtains.",
+      "answerZh": "米婭醒來後，便拉開窗簾。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon waking up, Mia opened the curtains."
+    },
+    {
+      "id": "ss193-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "After the students heard the bell, they entered the classroom.",
+      "promptZh": "學生聽到鐘聲後，便進入課室。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon hearing the bell, the students entered the classroom.",
+      "answerZh": "學生聽到鐘聲後，便進入課室。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon hearing the bell, the students entered the classroom."
+    },
+    {
+      "id": "ss193-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The moment Ben received the message, he called his sister.",
+      "promptZh": "本一收到訊息，便致電給他的姐姐。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon receiving the message, Ben called his sister.",
+      "answerZh": "本收到訊息後，便致電給他的姐姐。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon receiving the message, Ben called his sister."
+    },
+    {
+      "id": "ss193-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "After you complete the form, please return it to a member of staff.",
+      "promptZh": "填妥表格後，請把它交回職員。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon completion of the form, please return it to a member of staff.",
+      "answerZh": "填妥表格後，請把它交回職員。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon completion of the form, please return it to a member of staff."
+    },
+    {
+      "id": "ss193-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As soon as Leo entered the room, he switched on the light.",
+      "promptZh": "里奧一進入房間，便開燈。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon entering the room, Leo switched on the light.",
+      "answerZh": "里奧進入房間後，便開燈。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon entering the room, Leo switched on the light."
+    },
+    {
+      "id": "ss193-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When Emma noticed that it was raining, she took an umbrella.",
+      "promptZh": "艾瑪發現正在下雨時，便帶了一把雨傘。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon noticing that it was raining, Emma took an umbrella.",
+      "answerZh": "艾瑪發現下雨後，便帶了一把雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon noticing that it was raining, Emma took an umbrella."
+    },
+    {
+      "id": "ss193-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As soon as the passengers landed, they turned on their phones.",
+      "promptZh": "乘客一落地，便開啟手機。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon landing, the passengers turned on their phones.",
+      "answerZh": "乘客落地後，便開啟手機。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon landing, the passengers turned on their phones."
+    },
+    {
+      "id": "ss193-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When I opened the box, I found a note inside.",
+      "promptZh": "我打開盒子時，發現裏面有一張字條。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon opening the box, I found a note inside.",
+      "answerZh": "我打開盒子後，發現裏面有一張字條。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon opening the box, I found a note inside."
+    },
+    {
+      "id": "ss193-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Once we had finished dinner, we washed the dishes.",
+      "promptZh": "我們吃完晚飯後，便洗碗。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon finishing dinner, we washed the dishes.",
+      "answerZh": "我們吃完晚飯後，便洗碗。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon finishing dinner, we washed the dishes."
+    },
+    {
+      "id": "ss193-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When the teacher arrived, the class became quiet.",
+      "promptZh": "老師到達時，全班便安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon the teacher's arrival, the class became quiet.",
+      "answerZh": "老師到達後，全班便安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon the teacher's arrival, the class became quiet."
+    },
+    {
+      "id": "ss193-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "After Jason reached the top of the hill, he took a photograph.",
+      "promptZh": "傑森到達山頂後，拍了一張照片。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon reaching the top of the hill, Jason took a photograph.",
+      "answerZh": "傑森到達山頂後，拍了一張照片。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon reaching the top of the hill, Jason took a photograph."
+    },
+    {
+      "id": "ss193-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As soon as payment is received, our system sends a confirmation email.",
+      "promptZh": "我們的系統一收到付款，便會發送確認電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our system sends a confirmation email upon receipt of payment.",
+      "answerZh": "我們的系統收到付款後，便會發送確認電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Our system sends a confirmation email upon receipt of payment."
+    },
+    {
+      "id": "ss193-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The moment Olivia heard her name, she looked up.",
+      "promptZh": "奧莉花一聽到自己的名字，便抬起頭來。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon hearing her name, Olivia looked up.",
+      "answerZh": "奧莉花聽到自己的名字後，便抬起頭來。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon hearing her name, Olivia looked up."
+    },
+    {
+      "id": "ss193-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "After Nurse Lee entered the room, she checked the patient's details.",
+      "promptZh": "李護士進入房間後，便核對病人的資料。",
+      "promptZhSource": "pdf",
+      "starter": "Nurse",
+      "answer": "Nurse Lee checked the patient's details upon entering the room.",
+      "answerZh": "李護士進入房間後，便核對病人的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Nurse Lee checked the patient's details upon entering the room."
+    },
+    {
+      "id": "ss193-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When the meeting ended, everyone gathered their belongings.",
+      "promptZh": "會議結束時，各人便收拾自己的物品。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon conclusion of the meeting, everyone gathered their belongings.",
+      "answerZh": "會議結束後，各人便收拾自己的物品。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon conclusion of the meeting, everyone gathered their belongings."
+    },
+    {
+      "id": "ss193-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When smoke is detected, an alarm sounds.",
+      "promptZh": "偵測到煙霧時，警報器便會響起。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An alarm sounds upon detection of smoke.",
+      "answerZh": "偵測到煙霧後，警報器便會響起。",
+      "answerZhSource": "pdf",
+      "highlight": "An alarm sounds upon detection of smoke."
+    },
+    {
+      "id": "ss193-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After you read the instructions, you should begin the task.",
+      "promptZh": "你閱讀指示後，便應開始任務。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon reading the instructions, you should begin the task.",
+      "answerZh": "閱讀指示後，你便應開始任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon reading the instructions, you should begin the task."
+    },
+    {
+      "id": "ss193-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As soon as Daniel returned home, he fed the cat.",
+      "promptZh": "丹尼爾一回到家，便餵貓。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon returning home, Daniel fed the cat.",
+      "answerZh": "丹尼爾回到家後，便餵貓。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon returning home, Daniel fed the cat."
+    },
+    {
+      "id": "ss193-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After a purchase is completed, shops issue a receipt.",
+      "promptZh": "交易完成後，店舖便會發出收據。",
+      "promptZhSource": "pdf",
+      "starter": "Shops",
+      "answer": "Shops issue a receipt upon completion of a purchase.",
+      "answerZh": "交易完成後，店舖便會發出收據。",
+      "answerZhSource": "pdf",
+      "highlight": "Shops issue a receipt upon completion of a purchase."
+    },
+    {
+      "id": "ss193-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When Grace was asked a question, she answered calmly.",
+      "promptZh": "格蕾絲被提問時，冷靜地回答。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon being asked a question, Grace answered calmly.",
+      "answerZh": "格蕾絲被提問後，冷靜地回答。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon being asked a question, Grace answered calmly."
+    },
+    {
+      "id": "ss193-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Once the team received final approval, it began production.",
+      "promptZh": "團隊取得最終批准後，便開始生產。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon receiving final approval, the team began production.",
+      "answerZh": "團隊取得最終批准後，便開始生產。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon receiving final approval, the team began production."
+    },
+    {
+      "id": "ss193-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After an applicant's details are confirmed, a library card becomes active.",
+      "promptZh": "申請人的資料獲確認後，圖書證便會啟用。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A library card becomes active upon confirmation of an applicant's details.",
+      "answerZh": "申請人的資料獲確認後，圖書證便會啟用。",
+      "answerZhSource": "pdf",
+      "highlight": "A library card becomes active upon confirmation of an applicant's details."
+    },
+    {
+      "id": "ss193-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When I noticed the mistake, I corrected it immediately.",
+      "promptZh": "我注意到錯誤時，便立即把它改正。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon noticing the mistake, I corrected it immediately.",
+      "answerZh": "我注意到錯誤後，便立即把它改正。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon noticing the mistake, I corrected it immediately."
+    },
+    {
+      "id": "ss193-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After an operation is completed, patients are taken to a recovery room.",
+      "promptZh": "手術完成後，病人會被送往復甦室。",
+      "promptZhSource": "pdf",
+      "starter": "Patients",
+      "answer": "Patients are taken to a recovery room upon completion of an operation.",
+      "answerZh": "手術完成後，病人會被送往復甦室。",
+      "answerZhSource": "pdf",
+      "highlight": "Patients are taken to a recovery room upon completion of an operation."
+    },
+    {
+      "id": "ss193-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As soon as the passengers were informed of the delay, they changed their plans.",
+      "promptZh": "乘客一獲悉延誤，便更改了計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon being informed of the delay, the passengers changed their plans.",
+      "answerZh": "乘客獲悉延誤後，便更改了計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon being informed of the delay, the passengers changed their plans."
+    },
+    {
+      "id": "ss193-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Once a delivery option has been selected, this website displays the total cost.",
+      "promptZh": "選擇送貨方式後，這個網站便會顯示總費用。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This website displays the total cost upon selection of a delivery option.",
+      "answerZh": "選擇送貨方式後，這個網站便會顯示總費用。",
+      "answerZhSource": "pdf",
+      "highlight": "This website displays the total cost upon selection of a delivery option."
+    },
+    {
+      "id": "ss193-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When employees leave the building, they must sign out.",
+      "promptZh": "僱員離開大樓時，必須簽退。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon leaving the building, employees must sign out.",
+      "answerZh": "僱員離開大樓時，必須簽退。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon leaving the building, employees must sign out."
+    },
+    {
+      "id": "ss193-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After Coach Wilson reviewed the match video, he spoke to the players.",
+      "promptZh": "威爾遜教練看完比賽影片後，便與球員談話。",
+      "promptZhSource": "pdf",
+      "starter": "Coach",
+      "answer": "Coach Wilson spoke to the players upon reviewing the match video.",
+      "answerZh": "威爾遜教練看完比賽影片後，便與球員談話。",
+      "answerZhSource": "pdf",
+      "highlight": "Coach Wilson spoke to the players upon reviewing the match video."
+    },
+    {
+      "id": "ss193-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The moment we reached the station, we realised that the last train had already left.",
+      "promptZh": "我們一到達車站，便發現尾班車已經開走。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon reaching the station, we realised that the last train had already left.",
+      "answerZh": "我們到達車站後，便發現尾班車已經開走。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon reaching the station, we realised that the last train had already left."
+    },
+    {
+      "id": "ss193-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When you hear the fire alarm, leave the building by the nearest exit.",
+      "promptZh": "聽到火警鐘時，請從最近的出口離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon hearing the fire alarm, leave the building by the nearest exit.",
+      "answerZh": "聽到火警鐘後，請從最近的出口離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon hearing the fire alarm, leave the building by the nearest exit."
+    },
+    {
+      "id": "ss193-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As soon as these doors close, they will lock automatically.",
+      "promptZh": "這些門一關上，便會自動上鎖。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These doors will lock automatically upon closure.",
+      "answerZh": "這些門關上後，便會自動上鎖。",
+      "answerZhSource": "pdf",
+      "highlight": "These doors will lock automatically upon closure."
+    },
+    {
+      "id": "ss193-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When the manager was shown the report, she requested further details.",
+      "promptZh": "經理看到報告後，要求提供更多詳情。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon being shown the report, the manager requested further details.",
+      "answerZh": "經理看到報告後，要求提供更多詳情。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon being shown the report, the manager requested further details."
+    },
+    {
+      "id": "ss193-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After the document is closed, this app saves your changes.",
+      "promptZh": "文件關閉後，這個應用程式便會儲存你的修改。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This app saves your changes upon closure of the document.",
+      "answerZh": "文件關閉後，這個應用程式便會儲存你的修改。",
+      "answerZhSource": "pdf",
+      "highlight": "This app saves your changes upon closure of the document."
+    },
+    {
+      "id": "ss193-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Once the driver learnt that the road was blocked, he chose another route.",
+      "promptZh": "司機得知道路受阻後，便選擇另一條路線。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon learning that the road was blocked, the driver chose another route.",
+      "answerZh": "司機得知道路受阻後，便選擇另一條路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon learning that the road was blocked, the driver chose another route."
+    },
+    {
+      "id": "ss193-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As soon as the trip date is confirmed, the school will contact parents.",
+      "promptZh": "旅程日期一經確認，學校便會聯絡家長。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school will contact parents upon confirmation of the trip date.",
+      "answerZh": "旅程日期確認後，學校便會聯絡家長。",
+      "answerZhSource": "pdf",
+      "highlight": "The school will contact parents upon confirmation of the trip date."
+    },
+    {
+      "id": "ss193-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you enter your password incorrectly three times, you will be locked out.",
+      "promptZh": "如果你連續三次輸入錯誤密碼，你便會無法登入帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon entering your password incorrectly three times, you will be locked out.",
+      "answerZh": "連續三次輸入錯誤密碼後，你便會無法登入帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon entering your password incorrectly three times, you will be locked out."
+    },
+    {
+      "id": "ss193-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If visitors ask for one, they can obtain a guidebook from the museum.",
+      "promptZh": "如果訪客提出要求，便可向博物館索取導覽手冊。",
+      "promptZhSource": "pdf",
+      "starter": "Visitors",
+      "answer": "Visitors can obtain a guidebook from the museum upon request.",
+      "answerZh": "訪客提出要求時，便可向博物館索取導覽手冊。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors can obtain a guidebook from the museum upon request."
+    },
+    {
+      "id": "ss193-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When the trial period expires, users must choose a payment plan.",
+      "promptZh": "試用期屆滿時，用戶必須選擇一個付款計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon expiry of the trial period, users must choose a payment plan.",
+      "answerZh": "試用期屆滿後，用戶必須選擇一個付款計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon expiry of the trial period, users must choose a payment plan."
+    },
+    {
+      "id": "ss193-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After the last employee departed, all the lights were switched off.",
+      "promptZh": "最後一名僱員離開後，所有燈便被關掉。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All the lights were switched off upon the last employee's departure.",
+      "answerZh": "最後一名僱員離開後，所有燈便被關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "All the lights were switched off upon the last employee's departure."
+    },
+    {
+      "id": "ss193-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When the customer service team receives a complaint, it records the details and sends an acknowledgement.",
+      "promptZh": "客戶服務團隊收到投訴時，會記錄詳情並發出確認通知。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon receiving a complaint, the customer service team records the details and sends an acknowledgement.",
+      "answerZh": "客戶服務團隊收到投訴後，會記錄詳情並發出確認通知。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon receiving a complaint, the customer service team records the details and sends an acknowledgement."
+    },
+    {
+      "id": "ss193-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Hospitals begin the discharge process once doctors confirm that a patient is medically fit to leave.",
+      "promptZh": "醫生確認病人的身體狀況適合出院後，醫院便會開始辦理出院程序。",
+      "promptZhSource": "pdf",
+      "starter": "Hospitals",
+      "answer": "Hospitals begin the discharge process upon confirmation that a patient is medically fit to leave.",
+      "answerZh": "病人的身體狀況獲確認適合出院後，醫院便會開始辦理出院程序。",
+      "answerZhSource": "pdf",
+      "highlight": "Hospitals begin the discharge process upon confirmation that a patient is medically fit to leave."
+    },
+    {
+      "id": "ss193-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As soon as the IT department was notified of a security problem, it temporarily disabled the affected account.",
+      "promptZh": "資訊科技部門一獲悉保安問題，便暫時停用受影響的帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon being notified of a security problem, the IT department temporarily disabled the affected account.",
+      "answerZh": "資訊科技部門獲悉保安問題後，便暫時停用受影響的帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon being notified of a security problem, the IT department temporarily disabled the affected account."
+    },
+    {
+      "id": "ss193-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Tickets will be released after full payment and the signed agreement have been received.",
+      "promptZh": "收到全數款項及已簽署的協議後，門票便會發出。",
+      "promptZhSource": "pdf",
+      "starter": "Tickets",
+      "answer": "Tickets will be released upon receipt of full payment and the signed agreement.",
+      "answerZh": "收到全數款項及已簽署的協議後，門票便會發出。",
+      "answerZhSource": "pdf",
+      "highlight": "Tickets will be released upon receipt of full payment and the signed agreement."
+    },
+    {
+      "id": "ss193-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When the accountant discovered that several figures were missing, she returned the report for revision.",
+      "promptZh": "會計師發現報告欠缺數個數字時，便把報告退回修改。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon discovering that several figures were missing, the accountant returned the report for revision.",
+      "answerZh": "會計師發現報告欠缺數個數字後，便把報告退回修改。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon discovering that several figures were missing, the accountant returned the report for revision."
+    },
+    {
+      "id": "ss193-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Officials reopened the road after the safety inspection was completed.",
+      "promptZh": "安全檢查完成後，官員重新開放道路。",
+      "promptZhSource": "pdf",
+      "starter": "Officials",
+      "answer": "Officials reopened the road upon completion of the safety inspection.",
+      "answerZh": "安全檢查完成後，官員重新開放道路。",
+      "answerZhSource": "pdf",
+      "highlight": "Officials reopened the road upon completion of the safety inspection."
+    },
+    {
+      "id": "ss193-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When candidates enter the interview room, they should greet the panel and wait to be invited to sit down.",
+      "promptZh": "應徵者進入面試室時，應向面試小組打招呼，並等候對方邀請才坐下。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon entering the interview room, candidates should greet the panel and wait to be invited to sit down.",
+      "answerZh": "應徵者進入面試室後，應向面試小組打招呼，並等候對方邀請才坐下。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon entering the interview room, candidates should greet the panel and wait to be invited to sit down."
+    },
+    {
+      "id": "ss193-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After the researchers received approval from the ethics committee, they published their findings.",
+      "promptZh": "研究人員獲得倫理委員會批准後，便公布研究結果。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers published their findings upon receiving approval from the ethics committee.",
+      "answerZh": "研究人員獲得倫理委員會批准後，便公布研究結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers published their findings upon receiving approval from the ethics committee."
+    },
+    {
+      "id": "ss193-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As soon as the organisers were informed that the venue was unavailable, they moved the event to the community centre.",
+      "promptZh": "主辦人一獲悉場地無法使用，便把活動移至社區中心。",
+      "promptZhSource": "pdf",
+      "starter": "Upon",
+      "answer": "Upon being informed that the venue was unavailable, the organisers moved the event to the community centre.",
+      "answerZh": "主辦人獲悉場地無法使用後，便把活動移至社區中心。",
+      "answerZhSource": "pdf",
+      "highlight": "Upon being informed that the venue was unavailable, the organisers moved the event to the community centre."
+    },
+    {
+      "id": "ss193-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Emergency workers began evacuating residents as soon as it was confirmed that the rising water posed an immediate danger.",
+      "promptZh": "一經確認上升的水位構成立即危險，緊急應變人員便開始疏散居民。",
+      "promptZhSource": "pdf",
+      "starter": "Emergency",
+      "answer": "Emergency workers began evacuating residents upon confirmation that the rising water posed an immediate danger.",
+      "answerZh": "確認上升的水位構成立即危險後，緊急應變人員便開始疏散居民。",
+      "answerZhSource": "pdf",
+      "highlight": "Emergency workers began evacuating residents upon confirmation that the rising water posed an immediate danger."
+    }
+  ]
+}

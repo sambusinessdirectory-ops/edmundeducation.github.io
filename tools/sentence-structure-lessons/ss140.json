@@ -1,0 +1,1204 @@
+{
+  "id": "ss140",
+  "order": 140,
+  "slug": "put-simply",
+  "title": "「Put simply」簡單來說句",
+  "titleZh": "「Put simply」簡單來說句",
+  "titleEn": "Using put simply to restate a complex idea clearly",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 140 -「Put simply」簡單來說句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Put simply, + complete sentence",
+  "formulas": [
+    {
+      "id": "ss140-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Put simply, + complete sentence"
+    }
+  ],
+  "example": "Put simply, the system failed because nobody took responsibility.",
+  "exampleZh": "簡單來說，這個制度失敗，是因為沒有人負責。",
+  "examples": [
+    {
+      "id": "ss140-example-01",
+      "en": "Put simply, the system failed because nobody took responsibility.",
+      "zh": "簡單來說，這個制度失敗，是因為沒有人負責。",
+      "highlight": "Put simply"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss140-rule-01",
+      "zh": "Put simply 通常放在句首",
+      "en": "Put simply normally appears at the beginning of a sentence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Put simply, the plan will not work."
+      ]
+    },
+    {
+      "id": "ss140-rule-02",
+      "zh": "simply 後面要加逗號 正確： 錯誤：",
+      "en": "Put a comma after simply.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss140-rule-03",
+      "zh": "後面必須接完整句子 正確： 錯誤：",
+      "en": "Follow it with a complete sentence, not an isolated phrase.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss140-rule-04",
+      "zh": "put 在這裏不是「放置」 在這個句型中，put 的意思是「表達」或「說明」。 因此，Put simply 的意思接近： 不過，本練習的所有答案必須使用指定形式：",
+      "en": "Put does not mean ‘place’ in this expression; it means ‘express’ or ‘explain’. Put simply is close to In simple terms, In other words, To put it simply and Simply put, but every answer in this exercise must use the specified form Put simply, ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "In simple terms",
+        "In other words",
+        "To put it simply",
+        "Simply put"
+      ]
+    },
+    {
+      "id": "ss140-rule-05",
+      "zh": "不可用來引入無關的新觀點 Put simply 後面的內容應該是前面資料的簡化版本、主要意思或清楚結論，而不是突然轉到另一 個話題。",
+      "en": "Do not use put simply to introduce an unrelated new point. What follows must simplify the preceding information, state its main meaning or give a clear conclusion rather than abruptly changing the subject.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss140-benefit-01",
+      "zh": "這個句型能提醒聽者或讀者：接下來就是整段內容最重要的意思。",
+      "en": "It makes the main point immediately clear. This structure tells the listener or reader that the most important message is coming next.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss140-benefit-02",
+      "zh": "當你解釋技術性、複雜或陌生的內容後，可以用這個句型把內容說得更容易明白。",
+      "en": "It makes difficult explanations easier to understand. You can use it after discussing a technical, complicated or unfamiliar subject to restate the content more accessibly.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss140-benefit-03",
+      "zh": "你不需要重複所有細節，也可以用一句清楚的句子說出核心意思。",
+      "en": "It helps you shorten a long explanation. Instead of repeating every detail, you can present the central idea in one clear sentence.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss140-benefit-04",
+      "zh": "這個句型能把詳細解釋和最後總結清楚分開，讓說話、作文、報告和簡報更有組織。",
+      "en": "It helps organize speaking and writing by clearly separating a detailed explanation from its final summary, improving the structure of speech, essays, reports and presentations.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss140-benefit-05",
+      "zh": "它讓你不必經常重複使用 in other words、basically 或 the main point is。 Compare 比較",
+      "en": "It gives you another way to express a summary and avoids repeatedly using in other words, basically or the main point is.",
+      "enSource": "pdf",
+      "examples": [
+        "The company spends more money than it earns. In other words, it is losing money.",
+        "Put simply, the company is losing money because it spends more than it earns."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using Put simply at the beginning. Preserve all important meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用置於句首的 Put simply 改寫以下句子。答案須保留原句所有重要意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss140-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "In simple terms, the system failed because nobody took responsibility.",
+      "promptZh": "簡單來說，這個制度失敗，是因為沒有人負責。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the system failed because nobody took responsibility.",
+      "answerZh": "簡單來說，這個制度失敗，是因為沒有人負責。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the system failed because nobody took responsibility."
+    },
+    {
+      "id": "ss140-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Basically, the bus is late because the road is very busy.",
+      "promptZh": "基本上，巴士遲到是因為道路非常繁忙。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the bus is late because the road is very busy.",
+      "answerZh": "簡單來說，巴士遲到是因為道路非常繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the bus is late because the road is very busy."
+    },
+    {
+      "id": "ss140-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "In other words, Mia does not have enough money for the coat.",
+      "promptZh": "換句話說，米婭沒有足夠的錢購買這件外套。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, Mia does not have enough money for the coat.",
+      "answerZh": "簡單來說，米婭沒有足夠的錢購買這件外套。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, Mia does not have enough money for the coat."
+    },
+    {
+      "id": "ss140-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The main point is that regular practice builds confidence.",
+      "promptZh": "重點是，定期練習能建立信心。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, regular practice builds confidence.",
+      "answerZh": "簡單來說，定期練習能建立信心。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, regular practice builds confidence."
+    },
+    {
+      "id": "ss140-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The simple explanation is that plants need sunlight to grow.",
+      "promptZh": "簡單的解釋是，植物需要陽光才能生長。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, plants need sunlight to grow.",
+      "answerZh": "簡單來說，植物需要陽光才能生長。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, plants need sunlight to grow."
+    },
+    {
+      "id": "ss140-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What this means is that we must leave now.",
+      "promptZh": "這意味着我們現在必須離開。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, we must leave now.",
+      "answerZh": "簡單來說，我們現在必須離開。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, we must leave now."
+    },
+    {
+      "id": "ss140-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "In plain language, the machine saves workers time.",
+      "promptZh": "用淺白的說法，這部機器能節省工人的時間。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the machine saves workers time.",
+      "answerZh": "簡單來說，這部機器能節省工人的時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the machine saves workers time."
+    },
+    {
+      "id": "ss140-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The short answer is that the room is too small for twenty people.",
+      "promptZh": "簡單的答案是，這個房間太小，容納不了二十人。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the room is too small for twenty people.",
+      "answerZh": "簡單來說，這個房間太小，容納不了二十人。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the room is too small for twenty people."
+    },
+    {
+      "id": "ss140-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "At the most basic level, enough sleep helps you think clearly.",
+      "promptZh": "最基本而言，充足的睡眠能幫助你清晰思考。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, enough sleep helps you think clearly.",
+      "answerZh": "簡單來說，充足的睡眠能幫助你清晰思考。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, enough sleep helps you think clearly."
+    },
+    {
+      "id": "ss140-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The easiest way to explain it is that the plan costs too much.",
+      "promptZh": "最容易的解釋是，這個計劃的成本太高。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the plan costs too much.",
+      "answerZh": "簡單來說，這個計劃的成本太高。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the plan costs too much."
+    },
+    {
+      "id": "ss140-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why do we need a new printer? The simplest answer is that the old one no longer works.",
+      "promptZh": "我們為甚麼需要一部新打印機？最簡單的答案是舊打印機已經不能運作。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, we need a new printer because the old one no longer works.",
+      "answerZh": "簡單來說，我們需要一部新打印機，因為舊打印機已經不能運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, we need a new printer because the old one no longer works."
+    },
+    {
+      "id": "ss140-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although the instructions are long, their basic message is that you should switch off the power first.",
+      "promptZh": "雖然指示很長，但基本意思是你應該先關掉電源。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the long instructions tell you to switch off the power first.",
+      "answerZh": "簡單來說，這些很長的指示要求你先關掉電源。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the long instructions tell you to switch off the power first."
+    },
+    {
+      "id": "ss140-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The restaurant has fewer customers than before, while its costs are rising. In other words, it is losing money.",
+      "promptZh": "這間餐廳的顧客比以前少，但成本卻正在上升。換句話說，餐廳正在虧損。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the restaurant is losing money because it has fewer customers and rising costs.",
+      "answerZh": "簡單來說，餐廳正在虧損，因為顧客減少，而成本正在上升。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the restaurant is losing money because it has fewer customers and rising costs."
+    },
+    {
+      "id": "ss140-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The app stores every file online rather than on your device. This means that it needs an internet connection.",
+      "promptZh": "這個應用程式把所有檔案儲存在網上，而不是你的裝置內。這意味着它需要互聯網連線。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the app needs an internet connection because it stores every file online rather than on your device.",
+      "answerZh": "簡單來說，這個應用程式需要互聯網連線，因為它把所有檔案儲存在網上，而不是你的裝置內。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the app needs an internet connection because it stores every file online rather than on your device."
+    },
+    {
+      "id": "ss140-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The teacher’s message can be expressed in a few words: check your answers carefully.",
+      "promptZh": "老師的訊息可以用幾個字表達：仔細檢查答案。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, check your answers carefully.",
+      "answerZh": "簡單來說，請仔細檢查你的答案。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, check your answers carefully."
+    },
+    {
+      "id": "ss140-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The company has stopped hiring and delayed several projects. The main point is that it is reducing its spending.",
+      "promptZh": "公司已停止招聘，並延遲了數個項目。重點是公司正在減少開支。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the company is reducing its spending by stopping hiring and delaying several projects.",
+      "answerZh": "簡單來說，公司正透過停止招聘和延遲數個項目來減少開支。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the company is reducing its spending by stopping hiring and delaying several projects."
+    },
+    {
+      "id": "ss140-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "At heart, the disagreement is about who should pay for the repairs.",
+      "promptZh": "歸根究柢，這場爭議是關於誰應該支付維修費用。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the disagreement is about who should pay for the repairs.",
+      "answerZh": "簡單來說，這場爭議是關於誰應該支付維修費用。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the disagreement is about who should pay for the repairs."
+    },
+    {
+      "id": "ss140-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If we remove the technical language, the rule says that every visitor must show identification.",
+      "promptZh": "撇除技術性用語，這條規則要求每名訪客出示身分證明文件。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the rule requires every visitor to show identification.",
+      "answerZh": "簡單來說，這條規則要求每名訪客出示身分證明文件。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the rule requires every visitor to show identification."
+    },
+    {
+      "id": "ss140-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The report can be summed up as follows: the river is becoming more polluted.",
+      "promptZh": "這份報告可以總結如下：河流正變得更加污染。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the river is becoming more polluted.",
+      "answerZh": "簡單來說，河流正變得更加污染。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the river is becoming more polluted."
+    },
+    {
+      "id": "ss140-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What does the warning really mean? In everyday language, do not open the door during the test.",
+      "promptZh": "這項警告的真正意思是甚麼？用日常語言來說，測試期間不要打開門。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, do not open the door during the test.",
+      "answerZh": "簡單來說，測試期間不要打開門。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, do not open the door during the test."
+    },
+    {
+      "id": "ss140-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The battery can no longer hold enough power. In plain terms, it has reached the end of its useful life and needs replacing.",
+      "promptZh": "電池已不能儲存足夠電力。簡單來說，它的使用壽命已經結束，需要更換。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the battery needs replacing because it has reached the end of its useful life and can no longer hold enough power.",
+      "answerZh": "簡單來說，電池的使用壽命已經結束，而且不能再儲存足夠電力，因此需要更換。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the battery needs replacing because it has reached the end of its useful life and can no longer hold enough power."
+    },
+    {
+      "id": "ss140-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The school has more students but no extra classrooms. The practical result is that each classroom is more crowded.",
+      "promptZh": "學校的學生增加了，但沒有額外課室。實際結果是每間課室都變得更加擠迫。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, each classroom is more crowded because the school has more students but no extra classrooms.",
+      "answerZh": "簡單來說，由於學校的學生增加了但沒有額外課室，每間課室都變得更加擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, each classroom is more crowded because the school has more students but no extra classrooms."
+    },
+    {
+      "id": "ss140-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The medicine reduces the pain, but it does not remove the cause of the illness. The basic message is that it treats the symptom, not the disease.",
+      "promptZh": "這種藥物能減輕痛楚，但不能消除疾病的成因。基本意思是它只能處理症狀，而不能治療疾病本身。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the medicine treats the symptom, not the disease.",
+      "answerZh": "簡單來說，這種藥物只能處理症狀，而不能治療疾病本身。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the medicine treats the symptom, not the disease."
+    },
+    {
+      "id": "ss140-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The customer paid twice because the first payment appeared to fail. To put the situation simply, she was charged twice for one order.",
+      "promptZh": "顧客付款兩次，因為第一次付款看似失敗。簡單地說，她為一張訂單被收取了兩次款項。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the customer was charged twice for one order because the first payment appeared to fail.",
+      "answerZh": "簡單來說，由於第一次付款看似失敗，顧客為同一張訂單被收取了兩次款項。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the customer was charged twice for one order because the first payment appeared to fail."
+    },
+    {
+      "id": "ss140-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The program checks thousands of records in seconds. The easiest explanation is that it completes routine work much faster than a person can.",
+      "promptZh": "這個程式能在數秒內檢查數千項紀錄。最容易的解釋是，它完成例行工作的速度遠高於人類。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the program checks thousands of records in seconds, so it completes routine work much faster than a person can.",
+      "answerZh": "簡單來說，這個程式能在數秒內檢查數千項紀錄，因此完成例行工作的速度遠高於人類。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the program checks thousands of records in seconds, so it completes routine work much faster than a person can."
+    },
+    {
+      "id": "ss140-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The town receives very little rain, and its water use is increasing. In short, its water supply is under pressure.",
+      "promptZh": "這個城鎮的降雨量很少，而用水量正在增加。總括而言，它的供水正承受壓力。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the town’s water supply is under pressure because it receives little rain while water use is increasing.",
+      "answerZh": "簡單來說，這個城鎮的降雨量很少，而用水量正在增加，因此供水正承受壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the town’s water supply is under pressure because it receives little rain while water use is increasing."
+    },
+    {
+      "id": "ss140-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The lift is being repaired, so residents must use the stairs. Stated plainly, there is no working lift today.",
+      "promptZh": "升降機正在維修，因此居民必須使用樓梯。直接來說，今天沒有可以使用的升降機。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, there is no working lift today because it is being repaired, so residents must use the stairs.",
+      "answerZh": "簡單來說，升降機今天正在維修，不能使用，因此居民必須使用樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, there is no working lift today because it is being repaired, so residents must use the stairs."
+    },
+    {
+      "id": "ss140-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The contract allows either side to end the agreement with thirty days’ notice. In other words, neither side is permanently tied to it.",
+      "promptZh": "合約允許任何一方在提前三十日通知後終止協議。換句話說，雙方都不會永久受到合約約束。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, neither side is permanently tied to the contract because either side can end it with thirty days’ notice.",
+      "answerZh": "簡單來說，任何一方都可以提前三十日通知後終止合約，因此雙方都不會永久受到合約約束。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, neither side is permanently tied to the contract because either side can end it with thirty days’ notice."
+    },
+    {
+      "id": "ss140-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team may still qualify, but it must win both remaining matches. The simple truth is that one more defeat will end its chance of qualifying.",
+      "promptZh": "球隊仍有可能晉級，但必須勝出餘下兩場比賽。簡單的事實是，再輸一場便會失去晉級機會。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, one more defeat will end the team’s chance of qualifying.",
+      "answerZh": "簡單來說，球隊再輸一場便會失去晉級機會。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, one more defeat will end the team’s chance of qualifying."
+    },
+    {
+      "id": "ss140-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The device records your location whenever it is switched on. The clear meaning is that it can track where you go.",
+      "promptZh": "這部裝置每次開啟時都會記錄你的位置。清楚而言，它能追蹤你的行蹤。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the device can track where you go whenever it is switched on.",
+      "answerZh": "簡單來說，這部裝置每次開啟時都能追蹤你的行蹤。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the device can track where you go whenever it is switched on."
+    },
+    {
+      "id": "ss140-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Could the shop remain open without raising prices? The straightforward answer is no, because its rent and wages have both risen.",
+      "promptZh": "商店可以在不加價的情況下繼續營業嗎？直接的答案是不可以，因為租金和工資都已上升。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the shop cannot remain open without raising prices because its rent and wages have both risen.",
+      "answerZh": "簡單來說，由於租金和工資都已上升，商店不能在不加價的情況下繼續營業。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the shop cannot remain open without raising prices because its rent and wages have both risen."
+    },
+    {
+      "id": "ss140-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hospital has enough doctors, but too few beds for the number of patients. The real issue is not staff; it is space.",
+      "promptZh": "醫院有足夠的醫生，但病床不足以應付病人數目。真正的問題不是人手，而是空間。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the hospital has enough doctors but not enough beds for its patients.",
+      "answerZh": "簡單來說，醫院有足夠的醫生，但沒有足夠病床應付病人。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the hospital has enough doctors but not enough beds for its patients."
+    },
+    {
+      "id": "ss140-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The meeting produced no decision because the two groups would not compromise. The core problem was their unwillingness to meet halfway.",
+      "promptZh": "會議未能作出決定，因為兩個團體都不願意妥協。核心問題是雙方都不願各退一步。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the meeting produced no decision because the two groups were unwilling to compromise.",
+      "answerZh": "簡單來說，會議未能作出決定，因為兩個團體都不願意妥協。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the meeting produced no decision because the two groups were unwilling to compromise."
+    },
+    {
+      "id": "ss140-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The password is not stored in a form that staff can read. In non-technical language, employees cannot see your password.",
+      "promptZh": "密碼並不是以員工能夠閱讀的形式儲存。用非技術性的說法，員工看不到你的密碼。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, staff cannot see your password because it is not stored in a readable form.",
+      "answerZh": "簡單來說，密碼並不是以可閱讀的形式儲存，因此員工看不到你的密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, staff cannot see your password because it is not stored in a readable form."
+    },
+    {
+      "id": "ss140-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company did not break the law, but it ignored the industry’s usual standards. The simplest way to describe this is that its action was legal but questionable.",
+      "promptZh": "公司沒有違法，但忽視了行業的慣常標準。最簡單的說法是，它的行動合法，但值得質疑。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the company’s action was legal but questionable because it followed the law while ignoring industry standards.",
+      "answerZh": "簡單來說，公司的行動符合法律，但忽視了行業標準，因此仍然值得質疑。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the company’s action was legal but questionable because it followed the law while ignoring industry standards."
+    },
+    {
+      "id": "ss140-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The bridge can carry normal traffic, but heavy lorries may damage it. The practical message is that large vehicles should use another route.",
+      "promptZh": "這座橋可以承受一般交通流量，但重型貨車可能會對它造成損壞。實際訊息是大型車輛應該使用另一條路線。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, large vehicles should use another route because heavy lorries may damage the bridge.",
+      "answerZh": "簡單來說，大型車輛應使用另一條路線，因為重型貨車可能會損壞這座橋。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, large vehicles should use another route because heavy lorries may damage the bridge."
+    },
+    {
+      "id": "ss140-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new policy will not affect current members; it applies only to people who join next year. In plain terms, existing members keep the old rules.",
+      "promptZh": "新政策不會影響現有會員；它只適用於明年加入的人。簡單來說，現有會員繼續遵守舊有規則。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, existing members keep the old rules because the new policy applies only to people who join next year.",
+      "answerZh": "簡單來說，現有會員繼續遵守舊有規則，因為新政策只適用於明年加入的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, existing members keep the old rules because the new policy applies only to people who join next year."
+    },
+    {
+      "id": "ss140-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The machine shuts down automatically when it becomes too hot. This can be explained simply: it protects itself from damage.",
+      "promptZh": "機器過熱時會自動關閉。簡單解釋就是，它這樣做是為了保護自己免受損壞。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the machine shuts down when it becomes too hot to protect itself from damage.",
+      "answerZh": "簡單來說，機器過熱時會自動關閉，以保護自己免受損壞。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the machine shuts down when it becomes too hot to protect itself from damage."
+    },
+    {
+      "id": "ss140-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The council has approved the project, but funding has not yet been secured. The basic position is that the plan may proceed, but it is not guaranteed.",
+      "promptZh": "市議會已批准這個項目，但資金仍未獲得確認。基本情況是計劃可能會進行，但並沒有保證。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, although the project has been approved, it may not proceed because funding has not been secured.",
+      "answerZh": "簡單來說，雖然項目已獲批准，但由於資金仍未獲得確認，項目未必能夠進行。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, although the project has been approved, it may not proceed because funding has not been secured."
+    },
+    {
+      "id": "ss140-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The data was collected from only twenty people. The main limitation is that the results may not represent the whole population.",
+      "promptZh": "數據只從二十人身上收集。主要限制是研究結果未必能代表整體人口。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the results may not represent the whole population because the data came from only twenty people.",
+      "answerZh": "簡單來說，由於數據只來自二十人，研究結果未必能代表整體人口。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the results may not represent the whole population because the data came from only twenty people."
+    },
+    {
+      "id": "ss140-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school added online lessons, evening classes and recorded materials. All these changes have one simple purpose: students can learn at times that suit them.",
+      "promptZh": "學校增加了網上課堂、夜間課程和錄影教材。所有改變都有一個簡單目的：讓學生可以在適合自己的時間學習。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the school added online lessons, evening classes and recorded materials so that students can learn at times that suit them.",
+      "answerZh": "簡單來說，學校增加了網上課堂、夜間課程和錄影教材，讓學生可以在適合自己的時間學習。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the school added online lessons, evening classes and recorded materials so that students can learn at times that suit them."
+    },
+    {
+      "id": "ss140-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The bank’s new system checks unusual payments, confirms customer details and blocks suspicious transfers. Its central function is to reduce fraud.",
+      "promptZh": "銀行的新系統會檢查異常付款、核實顧客資料，並阻止可疑轉帳。它的主要功能是減少詐騙。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the bank’s new system reduces fraud by checking unusual payments, confirming customer details and blocking suspicious transfers.",
+      "answerZh": "簡單來說，銀行的新系統透過檢查異常付款、核實顧客資料和阻止可疑轉帳來減少詐騙。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the bank’s new system reduces fraud by checking unusual payments, confirming customer details and blocking suspicious transfers."
+    },
+    {
+      "id": "ss140-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the factory produced more goods, its profit fell because energy and material costs rose even faster. In basic terms, higher production did not lead to higher profit.",
+      "promptZh": "雖然工廠生產了更多貨物，但由於能源和材料成本升幅更大，利潤反而下降。基本而言，產量增加並沒有帶來更高利潤。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, producing more goods did not increase the factory’s profit because energy and material costs rose even faster.",
+      "answerZh": "簡單來說，由於能源和材料成本升幅更大，增加產量並沒有提高工廠的利潤。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, producing more goods did not increase the factory’s profit because energy and material costs rose even faster."
+    },
+    {
+      "id": "ss140-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee agreed that the building was unsafe, but members disagreed about how and when to repair it. The disagreement concerns the solution, not the problem.",
+      "promptZh": "委員會同意大樓並不安全，但成員對維修方法和時間存在分歧。爭議在於解決方法，而不是問題本身。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the committee agreed that the building was unsafe but disagreed about how and when to repair it.",
+      "answerZh": "簡單來說，委員會同意大樓並不安全，但對維修方法和時間存在分歧。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the committee agreed that the building was unsafe but disagreed about how and when to repair it."
+    },
+    {
+      "id": "ss140-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The software can suggest an answer, but it cannot judge every situation or accept responsibility for a decision. In everyday language, it can assist people but cannot replace human judgement.",
+      "promptZh": "這個軟件可以提出答案，但不能判斷每種情況，也不能為決定承擔責任。用日常語言來說，它可以協助人類，但不能取代人類判斷。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the software can assist people, but it cannot replace human judgement or accept responsibility for decisions.",
+      "answerZh": "簡單來說，這個軟件可以協助人類，但不能取代人類判斷，也不能為決定承擔責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the software can assist people, but it cannot replace human judgement or accept responsibility for decisions."
+    },
+    {
+      "id": "ss140-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The museum removed admission fees, extended opening hours and introduced family programmes. Taken together, these changes mean that it is trying to reach more people.",
+      "promptZh": "博物館取消入場費、延長開放時間，並推出家庭活動。綜合而言，這些改變表示博物館正嘗試接觸更多人。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the museum is trying to reach more people by removing admission fees, extending opening hours and introducing family programmes.",
+      "answerZh": "簡單來說，博物館正透過取消入場費、延長開放時間和推出家庭活動來接觸更多人。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the museum is trying to reach more people by removing admission fees, extending opening hours and introducing family programmes."
+    },
+    {
+      "id": "ss140-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The employee completed every assigned task, but she rarely shared information or supported colleagues. The simple conclusion is that her individual performance was strong, but her teamwork was weak.",
+      "promptZh": "這名僱員完成了所有獲分配的工作，但很少分享資料或支援同事。簡單的結論是，她的個人表現良好，但團隊合作能力較弱。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, the employee’s individual performance was strong, but her teamwork was weak.",
+      "answerZh": "簡單來說，這名僱員的個人表現良好，但團隊合作能力較弱。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, the employee’s individual performance was strong, but her teamwork was weak."
+    },
+    {
+      "id": "ss140-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The city may build more roads, yet traffic will continue to grow if more people choose to drive. The underlying message is that road building alone cannot solve congestion.",
+      "promptZh": "城市可能興建更多道路，但如果更多人選擇駕駛，交通流量仍會繼續增加。背後的意思是，單靠興建道路不能解決擠塞問題。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, building more roads alone cannot solve congestion if more people continue to choose to drive.",
+      "answerZh": "簡單來說，如果更多人繼續選擇駕駛，單靠興建更多道路不能解決交通擠塞。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, building more roads alone cannot solve congestion if more people continue to choose to drive."
+    },
+    {
+      "id": "ss140-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The research found a link between heavy screen use and poor sleep, but it did not prove that one directly caused the other. In plain terms, the two are connected, but causation has not been established.",
+      "promptZh": "研究發現長時間使用屏幕與睡眠質素欠佳之間存在關聯，但沒有證明其中一項直接導致另一項。簡單來說，兩者有關聯，但因果關係尚未獲得證實。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, heavy screen use and poor sleep are connected, but the research did not prove that one causes the other.",
+      "answerZh": "簡單來說，長時間使用屏幕與睡眠質素欠佳有所關聯，但研究沒有證明其中一項會導致另一項。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, heavy screen use and poor sleep are connected, but the research did not prove that one causes the other."
+    },
+    {
+      "id": "ss140-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisation has a detailed plan, enough money and skilled staff, but nobody has been given final responsibility. The central lesson is that resources are useless without clear ownership.",
+      "promptZh": "這個機構擁有詳細計劃、充足資金和具備技能的員工，但沒有人獲賦予最終責任。核心教訓是，如果責任誰屬並不清晰，資源也不能發揮作用。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put simply, a detailed plan, enough money and skilled staff are useless unless someone has clear final responsibility.",
+      "answerZh": "簡單來說，即使擁有詳細計劃、充足資金和具備技能的員工，如果沒有人承擔清晰的最終責任，這些資源也不能發揮作用。",
+      "answerZhSource": "pdf",
+      "highlight": "Put simply, a detailed plan, enough money and skilled staff are useless unless someone has clear final responsibility."
+    }
+  ]
+}

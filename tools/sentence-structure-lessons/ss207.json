@@ -1,0 +1,1252 @@
+{
+  "id": "ss207",
+  "order": 207,
+  "slug": "go-so-far-as-to-say",
+  "title": "「I would go so far as to say that ...／I would not go so far as to say that ...」強調與保留判斷句",
+  "titleZh": "「I would go so far as to say that ...／I would not go so far as to say that ...」強調與保留判斷句",
+  "titleEn": "Using “go so far as to say that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 206 -「I would go so far as to say that ...／I would not go so far as to say that ...」強調與保留判斷句.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 206; it is assigned system ID ss207 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "I would / would not go so far as to say that + complete clause",
+  "formulas": [
+    {
+      "id": "ss207-formula-01",
+      "labelEn": "Strong judgement",
+      "labelZh": "強調判斷",
+      "formula": "I would go so far as to say that + complete clause"
+    },
+    {
+      "id": "ss207-formula-02",
+      "labelEn": "Reserved judgement",
+      "labelZh": "保留判斷",
+      "formula": "I would not go so far as to say that + complete clause"
+    },
+    {
+      "id": "ss207-formula-03",
+      "labelEn": "With context",
+      "labelZh": "加入背景",
+      "formula": "Context clause, + I would / would not go so far as to say that + complete clause"
+    }
+  ],
+  "example": "I would go so far as to say that trust is more valuable than talent in a team.",
+  "exampleZh": "我甚至會說，在團隊裡，信任比天分更寶貴。",
+  "examples": [
+    {
+      "id": "ss207-example-01",
+      "en": "I would go so far as to say that trust is more valuable than talent in a team.",
+      "zh": "我甚至會說，在團隊裡，信任比天分更寶貴。",
+      "highlight": "I would go so far as to say that trust is more valuable than talent in a team."
+    },
+    {
+      "id": "ss207-example-02",
+      "en": "I would not go so far as to say that talent is unimportant.",
+      "zh": "但我倒不至於說天分並不重要。",
+      "highlight": "I would not go so far as to say that talent is unimportant."
+    },
+    {
+      "id": "ss207-example-03",
+      "en": "The plan has several weaknesses, but I would not go so far as to say that it is a complete failure.",
+      "zh": "這個計劃有幾個弱點，但我倒不至於說它完全失敗。",
+      "highlight": "The plan has several weaknesses, but I would not go so far as to say that it is a complete failure."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：I would / would not go so far as to say that + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss207-rule-01",
+      "zh": "肯定形式用來加強判斷 I would go so far as to say that ... 比普通的 I think that ...、I believe that ... 或 In my view ... 更強烈。 （我認為信任很重要。） （我甚至會說，信任是一支優秀團隊的基礎。） 第二句不只是表達普通意見，而是刻意提出一個更有分量的判斷。",
+      "en": "The affirmative form strengthens a judgement. “I would go so far as to say that ...” is stronger than I think that ..., I believe that ... or In my view .... Compare: I think trust is important. I would go so far as to say that trust is the foundation of a good team. The second sentence deliberately advances a weightier claim rather than merely stating an ordinary opinion.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I think trust is important.",
+        "I would go so far as to say that trust is the foundation of a good team."
+      ]
+    },
+    {
+      "id": "ss207-rule-02",
+      "zh": "否定形式不一定表示完全相反 I would not go so far as to say that ... 通常不是說後面的內容完全錯誤，而是表示「這樣說太 盡、太強或太絕對」。 （新系統很實用，但我倒不至於說它具有革命性。） 說話者承認系統有用，只是不接受「具有革命性」這個過於強烈的評價。",
+      "en": "The negative form does not necessarily assert the complete opposite. “I would not go so far as to say that ...” normally means that the claim goes too far or is too strong or absolute. In “The new system is useful, but I would not go so far as to say that it is revolutionary”, the speaker accepts that the system is useful but rejects revolutionary as excessive.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The new system is useful, but I would not go so far as to say that it is revolutionary."
+      ]
+    },
+    {
+      "id": "ss207-rule-03",
+      "zh": "so far 在這裏不表示距離或時間 在這個固定句型中，go so far as to say 的意思是「甚至說到……的程度」，而不是「走得這麼 遠」。",
+      "en": "So far does not refer to distance or time here; go so far as to say means to make a judgement this strong.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss207-rule-04",
+      "zh": "that 後面必須接完整子句 正確： 不完整：",
+      "en": "Follow that with a complete clause. Correct: I would go so far as to say that patience is a form of strength. Incomplete: I would go so far as to say that patience.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I would go so far as to say that patience is a form of strength.",
+        "I would go so far as to say that patience."
+      ]
+    },
+    {
+      "id": "ss207-rule-05",
+      "zh": "本練習保留完整形式 日常口語中可以使用： 但本練習的參考答案統一使用完整形式：",
+      "en": "Keep the full form in this exercise. “I wouldn’t go so far as to say that ...” is natural in everyday speech, but the model answers consistently use “I would not go so far as to say that ....”",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I wouldn’t go so far as to say that ...",
+        "I would not go so far as to say that ..."
+      ]
+    },
+    {
+      "id": "ss207-rule-06",
+      "zh": "句型可以放在背景資料之後 （雖然結果令人鼓舞，但我倒不至於說問題已經解決。） 前面的內容提供背景，目標句型則清楚顯示說話者願意接受甚麼程度的判斷。",
+      "en": "The structure can follow background information: Although the results are encouraging, I would not go so far as to say that the problem has been solved. The opening supplies context, while the target structure marks exactly how strong a judgement the speaker will accept.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Although the results are encouraging, I would not go so far as to say that the problem has been"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss207-benefit-01",
+      "zh": "準確控制說法的強弱 這個句型能讓你清楚表示自己正在提出一個非常強烈的觀點，或刻意拒絕一個過於強烈的說法。 你不只是說「同意」或「不同意」，而是能表達自己願意把判斷推到甚麼程度。",
+      "en": "It precisely controls claim strength by marking either a very strong judgement or a deliberate refusal to make an excessive one. Rather than merely agreeing or disagreeing, you show exactly how far you are willing to take the claim.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss207-benefit-02",
+      "zh": "讓強烈觀點更有鋪排 直接說： 語氣可能十分斬釘截鐵。 使用： 可以讓讀者先知道這是一個經過考慮的強烈判斷，而不是隨意說出的絕對事實。",
+      "en": "It prepares the reader for a strong view. The direct “Trust is the most important part of a team” can sound categorical. “I would go so far as to say that trust is the most important part of a team” signals that the speaker is making a considered, deliberately strong judgement rather than stating a casual absolute.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss207-benefit-03",
+      "zh": "可以有禮貌地反對過度誇張的說法 直接說： 只是簡單否定。 使用： 能清楚表示：你承認計劃可能有問題，但認為「完全失敗」這個評價太過分。 這在討論、辯論、會議及回應別人意見時特別實用。",
+      "en": "It politely rejects an exaggerated claim. “The plan is not a complete failure” simply denies the claim. “I would not go so far as to say that the plan is a complete failure” acknowledges that the plan may have problems while treating complete failure as too strong. This is useful in discussions, debates, meetings and responses to other people’s views.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss207-benefit-04",
+      "zh": "適合表達平衡而有分寸的觀點 在作文、報告或口語討論中，你經常需要承認部分事實，同時避免作出過度絕對的結論。 （證據很有希望，但我倒不至於說它已具有決定性。） 這種表達能顯示你有考慮證據的限制，而不是草率下結論。",
+      "en": "It supports balanced, measured opinions. In essays, reports or discussions, you may need to acknowledge some evidence without drawing an absolute conclusion: The evidence is promising, but I would not go so far as to say that it is conclusive. This shows awareness of the evidence’s limits.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss207-benefit-05",
+      "zh": "避免反覆使用 I think 或 I disagree 這個句型提供另一種自然的表達方式，讓你的說話和寫作不會不斷重複： 它尤其適合用來提出有分量的判斷，以及委婉地限制別人的說法。",
+      "en": "It avoids repeatedly using I think, I strongly think, I disagree or I do not think. The frame offers a natural alternative for advancing a substantial judgement or tactfully limiting someone else’s claim.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss207-benefit-06",
+      "zh": "為即席說話提供完整框架 當你需要在討論或面試中迅速表達立場時，可以直接使用以下框架： 你只需把主要觀點放進空格，便能建立一個清晰、有組織而語氣準確的回答。",
+      "en": "It provides complete frames for spontaneous speaking: I would go so far as to say that ______. I would not go so far as to say that ______. Insert the main point to produce a clear, organised answer with accurately calibrated tone while speaking or interviewing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 206; it is assigned system ID ss207 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: I would / would not go so far as to say that + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「I would / would not go so far as to say that + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss207-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I strongly believe that trust is the foundation of a good team.",
+      "promptZh": "我深信，信任是一支優秀團隊的基礎。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would go so far as to say that trust is the foundation of a good team.",
+      "answerZh": "我甚至會說，信任是一支優秀團隊的基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "I would go so far as to say that trust is the foundation of a good team."
+    },
+    {
+      "id": "ss207-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I would even say that kindness sometimes matters more than intelligence.",
+      "promptZh": "我甚至認為，在某些時候，善良比才智更重要。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would go so far as to say that kindness sometimes matters more than intelligence.",
+      "answerZh": "我甚至會說，在某些時候，善良比才智更重要。",
+      "answerZhSource": "pdf",
+      "highlight": "I would go so far as to say that kindness sometimes matters more than intelligence."
+    },
+    {
+      "id": "ss207-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "In my view, the school library is the heart of the school.",
+      "promptZh": "在我看來，學校圖書館是學校的核心。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would go so far as to say that the school library is the heart of the school.",
+      "answerZh": "我甚至會說，學校圖書館是學校的核心。",
+      "answerZhSource": "pdf",
+      "highlight": "I would go so far as to say that the school library is the heart of the school."
+    },
+    {
+      "id": "ss207-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My strongest opinion is that sleep is as important as exercise for good health.",
+      "promptZh": "我最強烈的看法是，要保持健康，睡眠和運動同樣重要。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would go so far as to say that sleep is as important as exercise for good health.",
+      "answerZh": "我甚至會說，要保持健康，睡眠和運動同樣重要。",
+      "answerZhSource": "pdf",
+      "highlight": "I would go so far as to say that sleep is as important as exercise for good health."
+    },
+    {
+      "id": "ss207-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I believe that clear communication is the most important part of teamwork.",
+      "promptZh": "我相信，清晰溝通是團隊合作中最重要的部分。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would go so far as to say that clear communication is the most important part of teamwork.",
+      "answerZh": "我甚至會說，清晰溝通是團隊合作中最重要的部分。",
+      "answerZhSource": "pdf",
+      "highlight": "I would go so far as to say that clear communication is the most important part of teamwork."
+    },
+    {
+      "id": "ss207-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A good manager, I would argue, listens more than he or she speaks.",
+      "promptZh": "我認為，優秀的管理者聆聽的時間比說話多。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would go so far as to say that a good manager listens more than he or she speaks.",
+      "answerZh": "我甚至會說，優秀的管理者聆聽的時間比說話多。",
+      "answerZhSource": "pdf",
+      "highlight": "I would go so far as to say that a good manager listens more than he or she speaks."
+    },
+    {
+      "id": "ss207-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "To put it strongly, small daily habits shape our future.",
+      "promptZh": "說得強烈一點，日常的小習慣會塑造我們的未來。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would go so far as to say that small daily habits shape our future.",
+      "answerZh": "我甚至會說，日常的小習慣會塑造我們的未來。",
+      "answerZhSource": "pdf",
+      "highlight": "I would go so far as to say that small daily habits shape our future."
+    },
+    {
+      "id": "ss207-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This may sound bold, but failure can be a better teacher than success.",
+      "promptZh": "這個說法也許很大膽，但失敗可以是比成功更好的老師。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would go so far as to say that failure can be a better teacher than success.",
+      "answerZh": "我甚至會說，失敗可以是比成功更好的老師。",
+      "answerZhSource": "pdf",
+      "highlight": "I would go so far as to say that failure can be a better teacher than success."
+    },
+    {
+      "id": "ss207-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I am firmly convinced that patience is a form of strength.",
+      "promptZh": "我深信，耐性是一種力量。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would go so far as to say that patience is a form of strength.",
+      "answerZh": "我甚至會說，耐性是一種力量。",
+      "answerZhSource": "pdf",
+      "highlight": "I would go so far as to say that patience is a form of strength."
+    },
+    {
+      "id": "ss207-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I strongly believe that one honest conversation can save a friendship.",
+      "promptZh": "我深信，一次坦誠的對話可以挽救一段友誼。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would go so far as to say that one honest conversation can save a friendship.",
+      "answerZh": "我甚至會說，一次坦誠的對話可以挽救一段友誼。",
+      "answerZhSource": "pdf",
+      "highlight": "I would go so far as to say that one honest conversation can save a friendship."
+    },
+    {
+      "id": "ss207-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Calling the plan perfect would be too strong.",
+      "promptZh": "把這個計劃稱為完美，便說得太過了。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would not go so far as to say that the plan is perfect.",
+      "answerZh": "我倒不至於說這個計劃是完美的。",
+      "answerZhSource": "pdf",
+      "highlight": "I would not go so far as to say that the plan is perfect."
+    },
+    {
+      "id": "ss207-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I enjoyed the film, but calling it a masterpiece would be too strong.",
+      "promptZh": "我很喜歡這部電影，但把它稱為傑作便說得太過了。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I enjoyed the film, but I would not go so far as to say that it is a masterpiece.",
+      "answerZh": "我很喜歡這部電影，但我倒不至於說它是一部傑作。",
+      "answerZhSource": "pdf",
+      "highlight": "I enjoyed the film, but I would not go so far as to say that it is a masterpiece."
+    },
+    {
+      "id": "ss207-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The new system is useful, although I would not call it revolutionary.",
+      "promptZh": "新系統很實用，雖然我不會稱它具有革命性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system is useful, but I would not go so far as to say that it is revolutionary.",
+      "answerZh": "新系統很實用，但我倒不至於說它具有革命性。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system is useful, but I would not go so far as to say that it is revolutionary."
+    },
+    {
+      "id": "ss207-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The task is difficult, but describing it as impossible would be an exaggeration.",
+      "promptZh": "這項任務很困難，但把它形容為不可能完成便是誇大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The task is difficult, but I would not go so far as to say that it is impossible.",
+      "answerZh": "這項任務很困難，但我倒不至於說它不可能完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The task is difficult, but I would not go so far as to say that it is impossible."
+    },
+    {
+      "id": "ss207-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "He made a mistake, but it would be unfair to call him careless.",
+      "promptZh": "他犯了一個錯誤，但因此稱他為粗心大意並不公平。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He made a mistake, but I would not go so far as to say that he is careless.",
+      "answerZh": "他犯了一個錯誤，但我倒不至於說他粗心大意。",
+      "answerZhSource": "pdf",
+      "highlight": "He made a mistake, but I would not go so far as to say that he is careless."
+    },
+    {
+      "id": "ss207-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "She is talented, but I am not prepared to call her the best player.",
+      "promptZh": "她很有天分，但我不會稱她為最佳球員。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She is talented, but I would not go so far as to say that she is the best player.",
+      "answerZh": "她很有天分，但我倒不至於說她是最佳球員。",
+      "answerZhSource": "pdf",
+      "highlight": "She is talented, but I would not go so far as to say that she is the best player."
+    },
+    {
+      "id": "ss207-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The policy may help, but claiming that it will completely solve the problem goes too far.",
+      "promptZh": "這項政策可能有幫助，但聲稱它會徹底解決問題便說得太盡了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy may help, but I would not go so far as to say that it will completely solve the problem.",
+      "answerZh": "這項政策可能有幫助，但我倒不至於說它會徹底解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy may help, but I would not go so far as to say that it will completely solve the problem."
+    },
+    {
+      "id": "ss207-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We enjoyed the restaurant, but calling it the finest in the city would be excessive.",
+      "promptZh": "我們很喜歡這間餐廳，但稱它為全城最好的餐廳便過於誇張。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We enjoyed the restaurant, but I would not go so far as to say that it is the finest in the city.",
+      "answerZh": "我們很喜歡這間餐廳，但我倒不至於說它是全城最好的餐廳。",
+      "answerZhSource": "pdf",
+      "highlight": "We enjoyed the restaurant, but I would not go so far as to say that it is the finest in the city."
+    },
+    {
+      "id": "ss207-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The meeting was productive, though it would be too much to say that it changed everything.",
+      "promptZh": "這次會議很有成效，但要說它改變了一切便太過了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting was productive, but I would not go so far as to say that it changed everything.",
+      "answerZh": "這次會議很有成效，但我倒不至於說它改變了一切。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting was productive, but I would not go so far as to say that it changed everything."
+    },
+    {
+      "id": "ss207-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The evidence is promising, but I would hesitate to call it conclusive.",
+      "promptZh": "這些證據很有希望，但我不會輕易稱它具有決定性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence is promising, but I would not go so far as to say that it is conclusive.",
+      "answerZh": "這些證據很有希望，但我倒不至於說它已具有決定性。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence is promising, but I would not go so far as to say that it is conclusive."
+    },
+    {
+      "id": "ss207-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Money can make life easier, but I am not prepared to claim that it guarantees happiness.",
+      "promptZh": "金錢可以令生活更輕鬆，但我不會斷言它能保證幸福。",
+      "promptZhSource": "pdf",
+      "starter": "Money",
+      "answer": "Money can make life easier, but I would not go so far as to say that it guarantees happiness.",
+      "answerZh": "金錢可以令生活更輕鬆，但我倒不至於說它能保證幸福。",
+      "answerZhSource": "pdf",
+      "highlight": "Money can make life easier, but I would not go so far as to say that it guarantees happiness."
+    },
+    {
+      "id": "ss207-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After working with her, I firmly believe that empathy is not merely helpful but essential to leadership.",
+      "promptZh": "與她共事後，我深信同理心不只是有幫助，而是領導能力不可或缺的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After working with her, I would go so far as to say that empathy is not merely helpful but essential to leadership.",
+      "answerZh": "與她共事後，我甚至會說，同理心不只是有幫助，而是領導能力不可或缺的一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "After working with her, I would go so far as to say that empathy is not merely helpful but essential to leadership."
+    },
+    {
+      "id": "ss207-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The device is impressive, but saying that it has changed our lives would be an exaggeration.",
+      "promptZh": "這部裝置令人印象深刻，但聲稱它已改變我們的生活便是誇大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The device is impressive, but I would not go so far as to say that it has changed our lives.",
+      "answerZh": "這部裝置令人印象深刻，但我倒不至於說它已改變我們的生活。",
+      "answerZhSource": "pdf",
+      "highlight": "The device is impressive, but I would not go so far as to say that it has changed our lives."
+    },
+    {
+      "id": "ss207-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If I had to state my view in the strongest terms, I would say that education is society’s best long-term investment.",
+      "promptZh": "如果要用最強烈的方式表達我的看法，我會說教育是社會最好的長期投資。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I had to state my view in the strongest terms, I would go so far as to say that education is society’s best long-term investment.",
+      "answerZh": "如果要用最強烈的方式表達我的看法，我甚至會說教育是社會最好的長期投資。",
+      "answerZhSource": "pdf",
+      "highlight": "If I had to state my view in the strongest terms, I would go so far as to say that education is society’s best long-term investment."
+    },
+    {
+      "id": "ss207-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team played badly today, but that does not justify saying that they lack ability.",
+      "promptZh": "球隊今天表現欠佳，但這並不足以證明他們缺乏能力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team played badly today, but I would not go so far as to say that they lack ability.",
+      "answerZh": "球隊今天表現欠佳，但我倒不至於說他們缺乏能力。",
+      "answerZhSource": "pdf",
+      "highlight": "The team played badly today, but I would not go so far as to say that they lack ability."
+    },
+    {
+      "id": "ss207-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Many factors matter, yet I strongly believe that consistency matters more than short bursts of motivation.",
+      "promptZh": "很多因素都很重要，但我深信持之以恆比短暫的動力更重要。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many factors matter, yet I would go so far as to say that consistency matters more than short bursts of motivation.",
+      "answerZh": "很多因素都很重要，但我甚至會說，持之以恆比短暫的動力更重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Many factors matter, yet I would go so far as to say that consistency matters more than short bursts of motivation."
+    },
+    {
+      "id": "ss207-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the evidence points in that direction, it is still too early to claim that the treatment is completely safe.",
+      "promptZh": "雖然證據指向這個方向，但現在聲稱這種治療完全安全仍然言之過早。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the evidence points in that direction, I would not go so far as to say that the treatment is completely safe.",
+      "answerZh": "雖然證據指向這個方向，但我倒不至於說這種治療完全安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the evidence points in that direction, I would not go so far as to say that the treatment is completely safe."
+    },
+    {
+      "id": "ss207-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After years of teaching, I firmly believe that confidence grows through practice rather than luck.",
+      "promptZh": "經過多年教學，我深信信心來自練習，而不是運氣。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After years of teaching, I would go so far as to say that confidence grows through practice rather than luck.",
+      "answerZh": "經過多年教學，我甚至會說，信心來自練習，而不是運氣。",
+      "answerZhSource": "pdf",
+      "highlight": "After years of teaching, I would go so far as to say that confidence grows through practice rather than luck."
+    },
+    {
+      "id": "ss207-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company has improved its service, but calling it customer-centred would be premature.",
+      "promptZh": "公司已改善服務，但現在稱它真正以顧客為中心仍然過早。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company has improved its service, but I would not go so far as to say that it is customer-centred.",
+      "answerZh": "公司已改善服務，但我倒不至於說它真正以顧客為中心。",
+      "answerZhSource": "pdf",
+      "highlight": "The company has improved its service, but I would not go so far as to say that it is customer-centred."
+    },
+    {
+      "id": "ss207-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Based on what I have seen, I strongly believe that one supportive teacher can change a student’s future.",
+      "promptZh": "根據我的觀察，我深信一位願意支持學生的老師可以改變學生的未來。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on what I have seen, I would go so far as to say that one supportive teacher can change a student’s future.",
+      "answerZh": "根據我的觀察，我甚至會說，一位願意支持學生的老師可以改變學生的未來。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on what I have seen, I would go so far as to say that one supportive teacher can change a student’s future."
+    },
+    {
+      "id": "ss207-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although people often behave as though time were unlimited, I strongly believe that time is our most valuable resource.",
+      "promptZh": "雖然人們經常表現得好像時間無窮無盡，但我深信時間是我們最寶貴的資源。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although people often behave as though time were unlimited, I would go so far as to say that time is our most valuable resource.",
+      "answerZh": "雖然人們經常表現得好像時間無窮無盡，但我甚至會說，時間是我們最寶貴的資源。",
+      "answerZhSource": "pdf",
+      "highlight": "Although people often behave as though time were unlimited, I would go so far as to say that time is our most valuable resource."
+    },
+    {
+      "id": "ss207-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The report raises serious concerns, but saying that it proves deliberate dishonesty would be too strong.",
+      "promptZh": "這份報告引起嚴重關注，但要說它證明有人蓄意不誠實便太過了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report raises serious concerns, but I would not go so far as to say that it proves deliberate dishonesty.",
+      "answerZh": "這份報告引起嚴重關注，但我倒不至於說它證明有人蓄意不誠實。",
+      "answerZhSource": "pdf",
+      "highlight": "The report raises serious concerns, but I would not go so far as to say that it proves deliberate dishonesty."
+    },
+    {
+      "id": "ss207-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I admire his confidence, but saying that he is never wrong would clearly be excessive.",
+      "promptZh": "我欣賞他的自信，但聲稱他從不犯錯顯然過於誇張。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I admire his confidence, but I would not go so far as to say that he is never wrong.",
+      "answerZh": "我欣賞他的自信，但我倒不至於說他從不犯錯。",
+      "answerZhSource": "pdf",
+      "highlight": "I admire his confidence, but I would not go so far as to say that he is never wrong."
+    },
+    {
+      "id": "ss207-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Based on what I have seen, I firmly believe that a calm response can be more powerful than an angry one.",
+      "promptZh": "根據我的觀察，我深信冷靜的回應可以比憤怒的回應更有力量。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on what I have seen, I would go so far as to say that a calm response can be more powerful than an angry one.",
+      "answerZh": "根據我的觀察，我甚至會說，冷靜的回應可以比憤怒的回應更有力量。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on what I have seen, I would go so far as to say that a calm response can be more powerful than an angry one."
+    },
+    {
+      "id": "ss207-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The course is demanding, but it would be inaccurate to describe it as unsuitable for beginners.",
+      "promptZh": "這個課程要求很高，但把它形容為不適合初學者並不準確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course is demanding, but I would not go so far as to say that it is unsuitable for beginners.",
+      "answerZh": "這個課程要求很高，但我倒不至於說它不適合初學者。",
+      "answerZhSource": "pdf",
+      "highlight": "The course is demanding, but I would not go so far as to say that it is unsuitable for beginners."
+    },
+    {
+      "id": "ss207-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Some people call the change a complete failure, but I think that judgement goes too far.",
+      "promptZh": "有些人稱這項改變為徹底失敗，但我認為這個判斷太過武斷。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some people call the change a complete failure, but I would not go so far as to say that it is a complete failure.",
+      "answerZh": "有些人稱這項改變為徹底失敗，但我倒不至於說它完全失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "Some people call the change a complete failure, but I would not go so far as to say that it is a complete failure."
+    },
+    {
+      "id": "ss207-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Even if a team has talent, I strongly believe that trust can be more valuable than talent.",
+      "promptZh": "即使一支團隊擁有天分，我仍深信信任可以比天分更寶貴。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if a team has talent, I would go so far as to say that trust can be more valuable than talent.",
+      "answerZh": "即使一支團隊擁有天分，我甚至會說，信任可以比天分更寶貴。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if a team has talent, I would go so far as to say that trust can be more valuable than talent."
+    },
+    {
+      "id": "ss207-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new rule is inconvenient, but describing it as unreasonable would be too harsh.",
+      "promptZh": "新規則確實帶來不便，但把它形容為不合理便太苛刻了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule is inconvenient, but I would not go so far as to say that it is unreasonable.",
+      "answerZh": "新規則確實帶來不便，但我倒不至於說它不合理。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule is inconvenient, but I would not go so far as to say that it is unreasonable."
+    },
+    {
+      "id": "ss207-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Having watched her recover, I firmly believe that resilience can be built through hardship.",
+      "promptZh": "看着她逐漸康復後，我深信抗逆力可以在困境中培養出來。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having watched her recover, I would go so far as to say that resilience can be built through hardship.",
+      "answerZh": "看着她逐漸康復後，我甚至會說，抗逆力可以在困境中培養出來。",
+      "answerZhSource": "pdf",
+      "highlight": "Having watched her recover, I would go so far as to say that resilience can be built through hardship."
+    },
+    {
+      "id": "ss207-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The book contains useful ideas, but claiming that it answers every question goes too far.",
+      "promptZh": "這本書包含有用的觀點，但聲稱它能解答所有問題便說得太盡了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The book contains useful ideas, but I would not go so far as to say that it answers every question.",
+      "answerZh": "這本書包含有用的觀點，但我倒不至於說它能解答所有問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The book contains useful ideas, but I would not go so far as to say that it answers every question."
+    },
+    {
+      "id": "ss207-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Critics may disagree, but I firmly believe that the ability to learn is more important than what a person already knows.",
+      "promptZh": "批評者可能不同意，但我深信學習能力比一個人已經知道甚麼更重要。",
+      "promptZhSource": "pdf",
+      "starter": "Critics",
+      "answer": "Critics may disagree, but I would go so far as to say that the ability to learn is more important than what a person already knows.",
+      "answerZh": "批評者可能不同意，但我甚至會說，學習能力比一個人已經知道甚麼更重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Critics may disagree, but I would go so far as to say that the ability to learn is more important than what a person already knows."
+    },
+    {
+      "id": "ss207-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The figures show a clear improvement; however, they do not justify saying that the problem has been solved.",
+      "promptZh": "數字顯示情況有明顯改善；然而，它們並不足以證明問題已經解決。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The figures show a clear improvement, but I would not go so far as to say that the problem has been solved.",
+      "answerZh": "數字顯示情況有明顯改善，但我倒不至於說問題已經解決。",
+      "answerZhSource": "pdf",
+      "highlight": "The figures show a clear improvement, but I would not go so far as to say that the problem has been solved."
+    },
+    {
+      "id": "ss207-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although technology connects people instantly, I strongly believe that genuine attention has become more valuable, not less.",
+      "promptZh": "雖然科技能即時連繫人們，但我深信真誠的關注已變得更加寶貴，而不是更不重要。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although technology connects people instantly, I would go so far as to say that genuine attention has become more valuable, not less.",
+      "answerZh": "雖然科技能即時連繫人們，但我甚至會說，真誠的關注已變得更加寶貴，而不是更不重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Although technology connects people instantly, I would go so far as to say that genuine attention has become more valuable, not less."
+    },
+    {
+      "id": "ss207-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The proposal has weaknesses, yet dismissing it as completely impractical would be an overstatement.",
+      "promptZh": "這項建議有弱點，但因此把它視為完全不可行便是言過其實。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal has weaknesses, but I would not go so far as to say that it is completely impractical.",
+      "answerZh": "這項建議有弱點，但我倒不至於說它完全不可行。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal has weaknesses, but I would not go so far as to say that it is completely impractical."
+    },
+    {
+      "id": "ss207-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After years of observing successful teams, I firmly believe that psychological safety is fundamental, not optional.",
+      "promptZh": "經過多年觀察成功的團隊，我深信心理安全是不可缺少的基礎，而不是可有可無的條件。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After years of observing successful teams, I would go so far as to say that psychological safety is fundamental, not optional.",
+      "answerZh": "經過多年觀察成功的團隊，我甚至會說，心理安全是不可缺少的基礎，而不是可有可無的條件。",
+      "answerZhSource": "pdf",
+      "highlight": "After years of observing successful teams, I would go so far as to say that psychological safety is fundamental, not optional."
+    },
+    {
+      "id": "ss207-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The candidate lacks experience, but it would be unfair to conclude that she is unqualified.",
+      "promptZh": "這名候選人缺乏經驗，但因此斷定她不合資格並不公平。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The candidate lacks experience, but I would not go so far as to say that she is unqualified.",
+      "answerZh": "這名候選人缺乏經驗，但我倒不至於說她不合資格。",
+      "answerZhSource": "pdf",
+      "highlight": "The candidate lacks experience, but I would not go so far as to say that she is unqualified."
+    },
+    {
+      "id": "ss207-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Given the damage caused by one careless message, I strongly believe that words can sometimes be as powerful as actions.",
+      "promptZh": "考慮到一則草率訊息所造成的傷害，我深信言語有時可以與行動一樣有力量。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the damage caused by one careless message, I would go so far as to say that words can sometimes be as powerful as actions.",
+      "answerZh": "考慮到一則草率訊息所造成的傷害，我甚至會說，言語有時可以與行動一樣有力量。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the damage caused by one careless message, I would go so far as to say that words can sometimes be as powerful as actions."
+    },
+    {
+      "id": "ss207-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The project missed its original deadline, but that alone does not justify calling it a disaster.",
+      "promptZh": "這個項目錯過了原定限期，但單憑這一點並不足以稱它為一場災難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project missed its original deadline, but I would not go so far as to say that it was a disaster.",
+      "answerZh": "這個項目錯過了原定限期，但我倒不至於說它是一場災難。",
+      "answerZhSource": "pdf",
+      "highlight": "The project missed its original deadline, but I would not go so far as to say that it was a disaster."
+    },
+    {
+      "id": "ss207-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Even if the short-term results are modest, I strongly believe that the policy could mark the beginning of lasting change.",
+      "promptZh": "即使短期成果有限，我仍深信這項政策可能標誌着持久改變的開始。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if the short-term results are modest, I would go so far as to say that the policy could mark the beginning of lasting change.",
+      "answerZh": "即使短期成果有限，我甚至會說，這項政策可能標誌着持久改變的開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the short-term results are modest, I would go so far as to say that the policy could mark the beginning of lasting change."
+    },
+    {
+      "id": "ss207-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I accept that the discovery is significant, but claiming that it will transform the entire field is not yet justified.",
+      "promptZh": "我承認這項發現十分重要，但目前仍沒有充分理據聲稱它會徹底改變整個領域。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I accept that the discovery is significant, but I would not go so far as to say that it will transform the entire field.",
+      "answerZh": "我承認這項發現十分重要，但我倒不至於說它會徹底改變整個領域。",
+      "answerZhSource": "pdf",
+      "highlight": "I accept that the discovery is significant, but I would not go so far as to say that it will transform the entire field."
+    }
+  ]
+}

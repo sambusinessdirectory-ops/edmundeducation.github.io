@@ -17,8 +17,8 @@ declare
 begin
   if p_bookmarks is null
     or jsonb_typeof(p_bookmarks) <> 'array'
-    or jsonb_array_length(p_bookmarks) > 6000
-    or octet_length(p_bookmarks::text) > 524288
+    or jsonb_array_length(p_bookmarks) > 12000
+    or octet_length(p_bookmarks::text) > 1048576
   then
     return false;
   end if;
@@ -35,7 +35,7 @@ begin
         where key_name not in ('lessonId', 'questionId', 'includeAnswer')
       )
       or jsonb_typeof(v_item -> 'lessonId') <> 'string'
-      or coalesce(v_item ->> 'lessonId', '') !~ '^ss([1-9]|[1-9][0-9]|10[0-9]|11[0-4])$'
+      or coalesce(v_item ->> 'lessonId', '') !~ '^ss([1-9]|[1-9][0-9]|1[0-9][0-9]|20[0-9]|21[0-8])$'
       or jsonb_typeof(v_item -> 'questionId') <> 'string'
       or (
         coalesce(v_item ->> 'questionId', '') <> '__section__'

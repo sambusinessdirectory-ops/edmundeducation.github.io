@@ -30,11 +30,17 @@ def normalized(value: object) -> str:
     return re.sub(r"\s+", "", text).casefold()
 
 
-def page_contains(page_texts: list[str], page_number: int, value: object) -> bool:
-    if page_number < 1 or page_number > len(page_texts):
+def pages_contain(
+    page_texts: list[str], page_numbers: list[int], value: object
+) -> bool:
+    if not page_numbers or any(
+        page_number < 1 or page_number > len(page_texts)
+        for page_number in page_numbers
+    ):
         return False
     target = normalized(value)
-    return bool(target) and target in page_texts[page_number - 1]
+    source = "".join(page_texts[page_number - 1] for page_number in page_numbers)
+    return bool(target) and target in source
 
 
 def parse_args() -> argparse.Namespace:
@@ -51,7 +57,7 @@ def parse_args() -> argparse.Namespace:
         "--lesson-dir",
         type=Path,
         default=Path(__file__).resolve().parent / "sentence-structure-lessons",
-        help="Directory containing ss05.json through ss114.json.",
+        help="Directory containing ss05.json through ss218.json.",
     )
     parser.add_argument(
         "--first",
@@ -62,7 +68,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--last",
         type=int,
-        default=114,
+        default=218,
         help="Last lesson number to verify.",
     )
     return parser.parse_args()
@@ -92,14 +98,21 @@ def verify_lesson(json_path: Path, pdf_dir: Path) -> list[str]:
     for question in lesson.get("questions", []):
         question_id = str(question.get("id", "missing-question-id"))
         pages = question.get("source") or {}
-        checks = [("prompt", "questionPage", question.get("prompt"))]
+        checks = [
+            (
+                "prompt",
+                "questionPage",
+                "promptContinuationPage",
+                question.get("prompt"),
+            )
+        ]
         if "cueSource" in question:
             if question.get("cueSource") != "pdf":
                 errors.append(
                     f"{question_id}: unsupported cueSource {question.get('cueSource')!r}"
                 )
             else:
-                checks.append(("cue", "cuePage", question.get("cue")))
+                checks.append(("cue", "cuePage", None, question.get("cue")))
         if question.get("promptZhSource", "pdf") == "pdf":
             checks.append(
                 (
@@ -109,6 +122,7 @@ def verify_lesson(json_path: Path, pdf_dir: Path) -> list[str]:
                         if isinstance(pages.get("promptZhPage"), int)
                         else "questionPage"
                     ),
+                    None,
                     question.get("promptZh"),
                 )
             )
@@ -124,6 +138,7 @@ def verify_lesson(json_path: Path, pdf_dir: Path) -> list[str]:
                             if isinstance(pages.get(f"answerPart{index}StarterPage"), int)
                             else "starterPage"
                         ),
+                        None,
                         part.get("starter"),
                     )
                 )
@@ -137,6 +152,7 @@ def verify_lesson(json_path: Path, pdf_dir: Path) -> list[str]:
                             )
                             else "answerPage"
                         ),
+                        None,
                         part.get("answer"),
                     )
                 )
@@ -156,12 +172,22 @@ def verify_lesson(json_path: Path, pdf_dir: Path) -> list[str]:
                         (
                             f"answerParts[{index}].answerZh",
                             page_field,
+                            None,
                             part.get("answerZh"),
                         )
                     )
         else:
-            checks.append(("starter", "starterPage", question.get("starter")))
-            checks.append(("answer", "answerPage", question.get("answer")))
+            checks.append(
+                ("starter", "starterPage", None, question.get("starter"))
+            )
+            checks.append(
+                (
+                    "answer",
+                    "answerPage",
+                    "answerContinuationPage",
+                    question.get("answer"),
+                )
+            )
             if question.get("answerZhSource", "pdf") == "pdf":
                 checks.append(
                     (
@@ -171,18 +197,31 @@ def verify_lesson(json_path: Path, pdf_dir: Path) -> list[str]:
                             if isinstance(pages.get("answerZhPage"), int)
                             else "answerPage"
                         ),
+                        None,
                         question.get("answerZh"),
                     )
                 )
 
-        for field, page_field, value in checks:
+        for field, page_field, continuation_field, value in checks:
             page_number = pages.get(page_field)
             if not isinstance(page_number, int):
                 errors.append(f"{question_id}: invalid {page_field}")
                 continue
-            if not page_contains(page_texts, page_number, value):
+            page_numbers = [page_number]
+            if continuation_field is not None:
+                continuation_page = pages.get(continuation_field)
+                if continuation_page is not None:
+                    if not isinstance(continuation_page, int):
+                        errors.append(
+                            f"{question_id}: invalid {continuation_field}"
+                        )
+                        continue
+                    page_numbers.append(continuation_page)
+            if not pages_contain(page_texts, page_numbers, value):
+                page_label = " and ".join(str(page) for page in page_numbers)
                 errors.append(
-                    f"{question_id}: {field} not found on physical PDF page {page_number}"
+                    f"{question_id}: {field} not found on physical PDF page(s) "
+                    f"{page_label}"
                 )
 
     return errors

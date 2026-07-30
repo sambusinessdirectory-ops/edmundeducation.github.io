@@ -1,0 +1,1283 @@
+{
+  "id": "ss134",
+  "order": 134,
+  "slug": "imperative",
+  "title": "「Imperative 命令句（祈使句）」",
+  "titleZh": "「Imperative 命令句（祈使句）」",
+  "titleEn": "Using imperative clauses for commands, instructions and requests",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 134 -「Imperative 命令句（祈使句）」.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Base verb + object / other information",
+  "formulas": [
+    {
+      "id": "ss134-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Base verb + object / other information"
+    },
+    {
+      "id": "ss134-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Please + base verb + object / other information"
+    },
+    {
+      "id": "ss134-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Do not + base verb + object / other information"
+    },
+    {
+      "id": "ss134-formula-04",
+      "labelEn": "Pattern 4",
+      "labelZh": "句式 4",
+      "formula": "Always / Never + base verb + other information"
+    },
+    {
+      "id": "ss134-formula-05",
+      "labelEn": "Pattern 5",
+      "labelZh": "句式 5",
+      "formula": "If / When / Before / After / Once + clause, + imperative"
+    }
+  ],
+  "example": "Close the window.",
+  "exampleZh": "把窗關上。",
+  "examples": [
+    {
+      "id": "ss134-example-01",
+      "en": "Close the window.",
+      "zh": "把窗關上。",
+      "highlight": "Close the window"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss134-rule-01",
+      "zh": "命令句的對象通常是「你」或「你們」，因此一般不需要寫出主語 you，而是直接以動詞開始。",
+      "en": "The subject you is normally omitted. The person receiving the instruction is understood to be you, so an imperative normally begins directly with the verb.",
+      "enSource": "pdf",
+      "examples": [
+        "Close the window."
+      ]
+    },
+    {
+      "id": "ss134-rule-02",
+      "zh": "命令句使用動詞原形，不需要按照單數、複數或時態改變動詞。",
+      "en": "Always use the base form of the verb; it does not change for number or tense. The verb be also remains in its base form.",
+      "enSource": "pdf",
+      "examples": [
+        "Opens the door.",
+        "Open the door.",
+        "Be patient.",
+        "Be careful.",
+        "Do not be afraid."
+      ]
+    },
+    {
+      "id": "ss134-rule-03",
+      "zh": "否定命令句使用： Do not + 動詞原形",
+      "en": "Put do not before the base verb for a negative imperative: do not + base verb.",
+      "enSource": "pdf",
+      "examples": [
+        "Do not touches the screen.",
+        "Do not touch the screen."
+      ]
+    },
+    {
+      "id": "ss134-rule-04",
+      "zh": "如果題目原本是禮貌請求，答案應保留 Please，不要把禮貌語氣變成強硬命令。",
+      "en": "Preserve politeness with please. If the original is a polite request containing an expression such as Could you please or Would you please, begin the answer with Please rather than turning it into a forceful command.",
+      "enSource": "pdf",
+      "examples": [
+        "Could you please wait outside?",
+        "Please wait outside."
+      ]
+    },
+    {
+      "id": "ss134-rule-05",
+      "zh": "Always 和 Never 應放在主要動詞之前；如使用 be，亦應放在 be 之前。",
+      "en": "Put always and never before the main verb; with be, place them before be as well.",
+      "enSource": "pdf",
+      "examples": [
+        "Always read the instructions carefully.",
+        "Never open emails from unknown senders.",
+        "Always be honest.",
+        "Never be careless."
+      ]
+    },
+    {
+      "id": "ss134-rule-06",
+      "zh": "如果原句包含條件或時間，答案不應把它刪除。",
+      "en": "Retain any condition or time information. If the source includes if, when, before, after or once, the answer should normally preserve it.",
+      "enSource": "pdf",
+      "examples": [
+        "If the fire alarm rings, you must leave the building.",
+        "If the fire alarm rings, leave the building."
+      ]
+    },
+    {
+      "id": "ss134-rule-07",
+      "zh": "Let’s + 動詞 表示說話者和聽者一起做某事，與直接要求對方做事的命令句不同，因此本練習不 包括此形式。",
+      "en": "Let’s is outside this exercise. Let’s + verb proposes that the speaker and listener do something together, which differs from a direct instruction addressed to another person.",
+      "enSource": "pdf",
+      "examples": [
+        "Let’s go home."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss134-benefit-01",
+      "zh": "命令句可以直接指出對方需要做甚麼，不需要先使用 you must、you need to 或 you are required to 等較長說法。 第二句更直接，讀者可以立即找到需要完成的動作。",
+      "en": "It makes an instruction direct and clear. Instead of using a longer sentence with you must, you need to or you are required to, an imperative states the required action immediately, so readers can find it at once.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss134-benefit-02",
+      "zh": "命令句非常適合用於食譜、使用說明、課堂指示、路線指引及緊急程序，因為每一步都可以由清 楚的動作開始。",
+      "en": "It is useful for giving step-by-step instructions. Imperatives are common in recipes, manuals, classroom instructions, directions and emergency procedures because each step can begin with a clear action.",
+      "enSource": "pdf",
+      "examples": [
+        "Add two cups of water.",
+        "Turn on the machine.",
+        "Wait for five minutes."
+      ]
+    },
+    {
+      "id": "ss134-benefit-03",
+      "zh": "命令句可以按照情況調整語氣： 因此，命令句不一定代表不禮貌；重點在於你所使用的字詞及說話情境。",
+      "en": "It helps you control the strength of your message. Please makes a request more polite, do not clearly prohibits an action, never gives a particularly strong warning, and always emphasizes an important habit or rule. Imperatives are therefore not inherently impolite; their force depends on the wording and context.",
+      "enSource": "pdf",
+      "examples": [
+        "Please makes a request more polite.",
+        "Do not clearly prohibits an action.",
+        "Never gives a particularly strong warning.",
+        "Always emphasises an important habit or rule."
+      ]
+    },
+    {
+      "id": "ss134-benefit-04",
+      "zh": "由於命令句通常省略主語 you 和情態動詞，因此可以用較少文字表達完整指示。",
+      "en": "It makes sentences shorter. Because the subject you and modal verbs are usually omitted, an imperative can express the same complete instruction in fewer words.",
+      "enSource": "pdf",
+      "examples": [
+        "You should read the instructions carefully.",
+        "Read the instructions carefully."
+      ]
+    },
+    {
+      "id": "ss134-benefit-05",
+      "zh": "你可以在命令句前加入條件或時間，清楚說明對方應該在甚麼情況下採取行動。 這種寫法特別適合安全指示、工作程序和實用建議。",
+      "en": "It can connect an action with a condition or time. You can place if, when, before, after or once before an imperative to explain exactly when the action should be performed, which is especially useful for safety instructions, work procedures and practical advice.",
+      "enSource": "pdf",
+      "examples": [
+        "If you feel dizzy, sit down immediately.",
+        "Before you leave, switch off the lights."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each indirect command, request, instruction, warning or piece of advice as a direct imperative sentence.",
+      "Preserve all important information, including politeness, negative meaning, conditions, time and place.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "把以下間接命令、請求、指示、警告或建議改寫成直接的命令句。",
+      "答案須保留原句的重要資料，包括禮貌語氣、否定意思、條件、時間及地點。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss134-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You must close the window now.",
+      "promptZh": "你現在必須把窗關上。",
+      "promptZhSource": "pdf",
+      "starter": "Close",
+      "answer": "Close the window now.",
+      "answerZh": "現在把窗關上。",
+      "answerZhSource": "pdf",
+      "highlight": "Close the window now."
+    },
+    {
+      "id": "ss134-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Your teacher requires you to write your name at the top of the page.",
+      "promptZh": "老師要求你在頁面頂部寫上姓名。",
+      "promptZhSource": "pdf",
+      "starter": "Write",
+      "answer": "Write your name at the top of the page.",
+      "answerZh": "在頁面頂部寫上姓名。",
+      "answerZhSource": "pdf",
+      "highlight": "Write your name at the top of the page."
+    },
+    {
+      "id": "ss134-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You must turn off the light before you leave.",
+      "promptZh": "你離開前必須關燈。",
+      "promptZhSource": "pdf",
+      "starter": "Turn",
+      "answer": "Turn off the light before you leave.",
+      "answerZh": "離開前關燈。",
+      "answerZhSource": "pdf",
+      "highlight": "Turn off the light before you leave."
+    },
+    {
+      "id": "ss134-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You need to take this medicine after dinner.",
+      "promptZh": "你需要在晚飯後服用這種藥物。",
+      "promptZhSource": "pdf",
+      "starter": "Take",
+      "answer": "Take this medicine after dinner.",
+      "answerZh": "晚飯後服用這種藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "Take this medicine after dinner."
+    },
+    {
+      "id": "ss134-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "The notice requires you to keep the door closed.",
+      "promptZh": "告示要求你保持房門關閉。",
+      "promptZhSource": "pdf",
+      "starter": "Keep",
+      "answer": "Keep the door closed.",
+      "answerZh": "保持房門關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep the door closed."
+    },
+    {
+      "id": "ss134-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Visitors are not allowed to touch the wet paint.",
+      "promptZh": "訪客不得觸摸未乾的油漆。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not touch the wet paint.",
+      "answerZh": "不要觸摸未乾的油漆。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not touch the wet paint."
+    },
+    {
+      "id": "ss134-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Everyone is expected to be quiet in the library.",
+      "promptZh": "所有人在圖書館內都應保持安靜。",
+      "promptZhSource": "pdf",
+      "starter": "Be",
+      "answer": "Be quiet in the library.",
+      "answerZh": "在圖書館內保持安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Be quiet in the library."
+    },
+    {
+      "id": "ss134-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Your teacher wants you to bring your notebook tomorrow.",
+      "promptZh": "老師要你明天帶筆記簿回來。",
+      "promptZhSource": "pdf",
+      "starter": "Bring",
+      "answer": "Bring your notebook tomorrow.",
+      "answerZh": "明天帶筆記簿回來。",
+      "answerZhSource": "pdf",
+      "highlight": "Bring your notebook tomorrow."
+    },
+    {
+      "id": "ss134-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Could you please pass me the salt?",
+      "promptZh": "你可以把鹽遞給我嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please pass me the salt.",
+      "answerZh": "請把鹽遞給我。",
+      "answerZhSource": "pdf",
+      "highlight": "Please pass me the salt."
+    },
+    {
+      "id": "ss134-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You are required to wait here for five minutes.",
+      "promptZh": "你必須在這裏等候五分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Wait",
+      "answer": "Wait here for five minutes.",
+      "answerZh": "在這裏等候五分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "Wait here for five minutes."
+    },
+    {
+      "id": "ss134-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Would you please send me the file by noon?",
+      "promptZh": "請你在中午前把檔案傳送給我，好嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please send me the file by noon.",
+      "answerZh": "請在中午前把檔案傳送給我。",
+      "answerZhSource": "pdf",
+      "highlight": "Please send me the file by noon."
+    },
+    {
+      "id": "ss134-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "The librarian asked you to put the books back on the shelf.",
+      "promptZh": "圖書館管理員要求你把書本放回書架上。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put the books back on the shelf.",
+      "answerZh": "把書本放回書架上。",
+      "answerZhSource": "pdf",
+      "highlight": "Put the books back on the shelf."
+    },
+    {
+      "id": "ss134-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You must not leave your bag unattended.",
+      "promptZh": "你不得把袋子留在無人看管的地方。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not leave your bag unattended.",
+      "answerZh": "不要把袋子留在無人看管的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not leave your bag unattended."
+    },
+    {
+      "id": "ss134-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You should be careful on the stairs.",
+      "promptZh": "你在樓梯上應該小心。",
+      "promptZhSource": "pdf",
+      "starter": "Be",
+      "answer": "Be careful on the stairs.",
+      "answerZh": "在樓梯上小心。",
+      "answerZhSource": "pdf",
+      "highlight": "Be careful on the stairs."
+    },
+    {
+      "id": "ss134-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You should always check the date before buying food.",
+      "promptZh": "購買食物前，你應該經常檢查日期。",
+      "promptZhSource": "pdf",
+      "starter": "Always",
+      "answer": "Always check the date before buying food.",
+      "answerZh": "購買食物前，必須經常檢查日期。",
+      "answerZhSource": "pdf",
+      "highlight": "Always check the date before buying food."
+    },
+    {
+      "id": "ss134-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You must never share your password with anyone.",
+      "promptZh": "你絕對不可把密碼告訴任何人。",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never share your password with anyone.",
+      "answerZh": "絕對不要把密碼告訴任何人。",
+      "answerZhSource": "pdf",
+      "highlight": "Never share your password with anyone."
+    },
+    {
+      "id": "ss134-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Could you please speak more slowly?",
+      "promptZh": "你可以說慢一點嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please speak more slowly.",
+      "answerZh": "請說慢一點。",
+      "answerZhSource": "pdf",
+      "highlight": "Please speak more slowly."
+    },
+    {
+      "id": "ss134-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The station directions tell passengers to follow the blue signs to Platform 3.",
+      "promptZh": "車站指示要求乘客按照藍色標誌前往三號月台。",
+      "promptZhSource": "pdf",
+      "starter": "Follow",
+      "answer": "Follow the blue signs to Platform 3.",
+      "answerZh": "按照藍色標誌前往三號月台。",
+      "answerZhSource": "pdf",
+      "highlight": "Follow the blue signs to Platform 3."
+    },
+    {
+      "id": "ss134-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 19
+      },
+      "prompt": "The recipe says that you need to add two cups of water to the pot.",
+      "promptZh": "食譜說你需要在鍋裏加入兩杯水。",
+      "promptZhSource": "pdf",
+      "starter": "Add",
+      "answer": "Add two cups of water to the pot.",
+      "answerZh": "在鍋裏加入兩杯水。",
+      "answerZhSource": "pdf",
+      "highlight": "Add two cups of water to the pot."
+    },
+    {
+      "id": "ss134-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is essential for you to wash your hands before preparing food.",
+      "promptZh": "準備食物前，你必須洗手。",
+      "promptZhSource": "pdf",
+      "starter": "Wash",
+      "answer": "Wash your hands before preparing food.",
+      "answerZh": "準備食物前洗手。",
+      "answerZhSource": "pdf",
+      "highlight": "Wash your hands before preparing food."
+    },
+    {
+      "id": "ss134-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If you feel dizzy, you should sit down immediately.",
+      "promptZh": "如果你感到暈眩，便應立即坐下。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you feel dizzy, sit down immediately.",
+      "answerZh": "如果你感到暈眩，立即坐下。",
+      "answerZhSource": "pdf",
+      "highlight": "If you feel dizzy, sit down immediately."
+    },
+    {
+      "id": "ss134-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You must read the whole question before you answer.",
+      "promptZh": "你作答前必須閱讀整條問題。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before you answer, read the whole question.",
+      "answerZh": "作答前，閱讀整條問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Before you answer, read the whole question."
+    },
+    {
+      "id": "ss134-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The fire instructions state that when the alarm sounds, everyone must leave the building calmly.",
+      "promptZh": "消防指示列明，當警報響起時，所有人都必須冷靜地離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the alarm sounds, leave the building calmly.",
+      "answerZh": "當警報響起時，冷靜地離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "When the alarm sounds, leave the building calmly."
+    },
+    {
+      "id": "ss134-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Once you finish the form, you are required to sign at the bottom.",
+      "promptZh": "完成表格後，你必須在底部簽署。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once you finish the form, sign at the bottom.",
+      "answerZh": "完成表格後，在底部簽署。",
+      "answerZhSource": "pdf",
+      "highlight": "Once you finish the form, sign at the bottom."
+    },
+    {
+      "id": "ss134-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "People must not use the lift during a fire.",
+      "promptZh": "火警期間，人們不得使用升降機。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not use the lift during a fire.",
+      "answerZh": "火警期間不要使用升降機。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not use the lift during a fire."
+    },
+    {
+      "id": "ss134-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "The shop advises you to keep your receipt until the refund has been completed.",
+      "promptZh": "商店建議你保留收據，直至退款程序完成。",
+      "promptZhSource": "pdf",
+      "starter": "Keep",
+      "answer": "Keep your receipt until the refund has been completed.",
+      "answerZh": "保留收據，直至退款程序完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep your receipt until the refund has been completed."
+    },
+    {
+      "id": "ss134-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Would you please let the receptionist know if you are going to be late?",
+      "promptZh": "如果你將會遲到，請通知接待員，好嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please let the receptionist know if you are going to be late.",
+      "answerZh": "如果你將會遲到，請通知接待員。",
+      "answerZhSource": "pdf",
+      "highlight": "Please let the receptionist know if you are going to be late."
+    },
+    {
+      "id": "ss134-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You must not open the attachment unless you know the sender.",
+      "promptZh": "除非你認識寄件人，否則不得開啟附件。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not open the attachment unless you know the sender.",
+      "answerZh": "除非你認識寄件人，否則不要開啟附件。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not open the attachment unless you know the sender."
+    },
+    {
+      "id": "ss134-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It is important for you to charge your phone fully before the trip.",
+      "promptZh": "你在旅程前把電話完全充電十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "Charge",
+      "answer": "Charge your phone fully before the trip.",
+      "answerZh": "在旅程前把電話完全充電。",
+      "answerZhSource": "pdf",
+      "highlight": "Charge your phone fully before the trip."
+    },
+    {
+      "id": "ss134-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Customers are advised to take a photograph of a damaged parcel before throwing the packaging away.",
+      "promptZh": "顧客如收到損壞的包裹，應在丟棄包裝前拍照。",
+      "promptZhSource": "pdf",
+      "starter": "Take",
+      "answer": "Take a photograph of the damaged parcel before throwing the packaging away.",
+      "answerZh": "丟棄包裝前，為損壞的包裹拍照。",
+      "answerZhSource": "pdf",
+      "highlight": "Take a photograph of the damaged parcel before throwing the packaging away."
+    },
+    {
+      "id": "ss134-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If you want to reset the router, you need to unplug it for thirty seconds and then plug it back in.",
+      "promptZh": "如果你想重設路由器，需要拔掉電源三十秒，然後重新插上電源。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To reset the router, unplug it for thirty seconds and then plug it back in.",
+      "answerZh": "如要重設路由器，拔掉電源三十秒，然後重新插上電源。",
+      "answerZhSource": "pdf",
+      "highlight": "To reset the router, unplug it for thirty seconds and then plug it back in."
+    },
+    {
+      "id": "ss134-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If the machine makes an unusual noise, you must switch it off and contact your supervisor.",
+      "promptZh": "如果機器發出異常聲音，你必須把它關掉並聯絡主管。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the machine makes an unusual noise, switch it off and contact your supervisor.",
+      "answerZh": "如果機器發出異常聲音，把它關掉並聯絡主管。",
+      "answerZhSource": "pdf",
+      "highlight": "If the machine makes an unusual noise, switch it off and contact your supervisor."
+    },
+    {
+      "id": "ss134-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "Would you please keep children away from the construction area?",
+      "promptZh": "請你讓兒童遠離施工區，好嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please keep children away from the construction area.",
+      "answerZh": "請讓兒童遠離施工區。",
+      "answerZhSource": "pdf",
+      "highlight": "Please keep children away from the construction area."
+    },
+    {
+      "id": "ss134-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Drivers are prohibited from parking in front of the emergency exit, even for a minute.",
+      "promptZh": "駕駛者不得在緊急出口前泊車，即使只停一分鐘也不可以。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not park in front of the emergency exit, even for a minute.",
+      "answerZh": "不要在緊急出口前泊車，即使只停一分鐘也不可以。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not park in front of the emergency exit, even for a minute."
+    },
+    {
+      "id": "ss134-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before submitting the report, you are required to check all the names, dates and figures.",
+      "promptZh": "提交報告前，你必須檢查所有姓名、日期及數字。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before submitting the report, check all the names, dates and figures.",
+      "answerZh": "提交報告前，檢查所有姓名、日期及數字。",
+      "answerZhSource": "pdf",
+      "highlight": "Before submitting the report, check all the names, dates and figures."
+    },
+    {
+      "id": "ss134-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "You are required to store cleaning products where children cannot reach them.",
+      "promptZh": "你必須把清潔用品存放在兒童接觸不到的地方。",
+      "promptZhSource": "pdf",
+      "starter": "Store",
+      "answer": "Store cleaning products where children cannot reach them.",
+      "answerZh": "把清潔用品存放在兒童接觸不到的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Store cleaning products where children cannot reach them."
+    },
+    {
+      "id": "ss134-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If you cannot attend, you must email the office at least one day in advance.",
+      "promptZh": "如果你未能出席，必須至少提前一天電郵通知辦公室。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you cannot attend, email the office at least one day in advance.",
+      "answerZh": "如果你未能出席，至少提前一天電郵通知辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "If you cannot attend, email the office at least one day in advance."
+    },
+    {
+      "id": "ss134-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Would you please return the borrowed equipment in the same condition?",
+      "promptZh": "請你以原來的狀態歸還借用的設備，好嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please return the borrowed equipment in the same condition.",
+      "answerZh": "請以原來的狀態歸還借用的設備。",
+      "answerZhSource": "pdf",
+      "highlight": "Please return the borrowed equipment in the same condition."
+    },
+    {
+      "id": "ss134-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Nobody may enter the laboratory without safety goggles.",
+      "promptZh": "任何人都不得在沒有佩戴安全護目鏡的情況下進入實驗室。",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never enter the laboratory without safety goggles.",
+      "answerZh": "絕對不要在沒有佩戴安全護目鏡的情況下進入實驗室。",
+      "answerZhSource": "pdf",
+      "highlight": "Never enter the laboratory without safety goggles."
+    },
+    {
+      "id": "ss134-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 22
+      },
+      "prompt": "The shop advises you to keep the receipt because you may need it for an exchange.",
+      "promptZh": "商店建議你保留收據，因為換貨時可能需要使用。",
+      "promptZhSource": "pdf",
+      "starter": "Keep",
+      "answer": "Keep the receipt because you may need it for an exchange.",
+      "answerZh": "保留收據，因為換貨時可能需要使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep the receipt because you may need it for an exchange."
+    },
+    {
+      "id": "ss134-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The customer-service guide says that when you speak to an upset customer, you should listen fully before offering a solution.",
+      "promptZh": "顧客服務指引指出，與不滿的顧客交談時，應先完整聆聽，再提出解決方法。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When speaking to an upset customer, listen fully before offering a solution.",
+      "answerZh": "與不滿的顧客交談時，先完整聆聽，再提出解決方法。",
+      "answerZhSource": "pdf",
+      "highlight": "When speaking to an upset customer, listen fully before offering a solution."
+    },
+    {
+      "id": "ss134-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The information-technology policy says that if you notice a suspicious link, you must not click it and must report it to the IT team.",
+      "promptZh": "資訊科技政策指出，如果你發現可疑連結，不得按下連結，並須向資訊科技部門報告。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you notice a suspicious link, do not click it; report it to the IT team.",
+      "answerZh": "如果你發現可疑連結，不要按下連結；向資訊科技部門報告。",
+      "answerZhSource": "pdf",
+      "highlight": "If you notice a suspicious link, do not click it; report it to the IT team."
+    },
+    {
+      "id": "ss134-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Passengers are required to have their passports and boarding passes ready before boarding.",
+      "promptZh": "乘客登機前必須準備好護照及登機證。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before boarding, have your passport and boarding pass ready.",
+      "answerZh": "登機前，準備好護照及登機證。",
+      "answerZhSource": "pdf",
+      "highlight": "Before boarding, have your passport and boarding pass ready."
+    },
+    {
+      "id": "ss134-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Would you please inform the school immediately if your emergency contact details change?",
+      "promptZh": "如果你的緊急聯絡資料有所更改，請立即通知學校，好嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please inform the school immediately if your emergency contact details change.",
+      "answerZh": "如果你的緊急聯絡資料有所更改，請立即通知學校。",
+      "answerZhSource": "pdf",
+      "highlight": "Please inform the school immediately if your emergency contact details change."
+    },
+    {
+      "id": "ss134-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Users must not remove the memory card while the camera is saving an image.",
+      "promptZh": "相機正在儲存影像時，使用者不得取出記憶卡。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not remove the memory card while the camera is saving an image.",
+      "answerZh": "相機正在儲存影像時，不要取出記憶卡。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not remove the memory card while the camera is saving an image."
+    },
+    {
+      "id": "ss134-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The payment instructions require you to enter the verification code and then check the amount before you confirm the payment.",
+      "promptZh": "付款指示要求你輸入驗證碼，然後在確認付款前檢查金額。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After entering the verification code, check the amount before confirming the payment.",
+      "answerZh": "輸入驗證碼後，在確認付款前檢查金額。",
+      "answerZhSource": "pdf",
+      "highlight": "After entering the verification code, check the amount before confirming the payment."
+    },
+    {
+      "id": "ss134-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The safety advice says that if the road is flooded, drivers should turn around and choose a safer route instead of driving through the water.",
+      "promptZh": "安全建議指出，如果道路被水淹浸，駕駛者應掉頭並選擇較安全的路線，而不是駛過積水。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the road is flooded, turn around and choose a safer route instead of driving through the water.",
+      "answerZh": "如果道路被水淹浸，掉頭並選擇較安全的路線，不要駛過積水。",
+      "answerZhSource": "pdf",
+      "highlight": "If the road is flooded, turn around and choose a safer route instead of driving through the water."
+    },
+    {
+      "id": "ss134-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The label instructs you to keep the medicine in its original container so that the information remains easy to read.",
+      "promptZh": "標籤指示你把藥物保存在原裝容器內，讓資料保持清晰易讀。",
+      "promptZhSource": "pdf",
+      "starter": "Keep",
+      "answer": "Keep the medicine in its original container so that the information remains easy to read.",
+      "answerZh": "把藥物保存在原裝容器內，讓資料保持清晰易讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep the medicine in its original container so that the information remains easy to read."
+    },
+    {
+      "id": "ss134-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Could all passengers please place their sharp objects in the tray before going through security?",
+      "promptZh": "所有乘客可否在接受保安檢查前，把尖銳物品放在托盤內？",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please place all sharp objects in the tray before going through security.",
+      "answerZh": "接受保安檢查前，請把所有尖銳物品放在托盤內。",
+      "answerZhSource": "pdf",
+      "highlight": "Please place all sharp objects in the tray before going through security."
+    },
+    {
+      "id": "ss134-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The emergency procedure requires you to remain calm, follow the staff’s instructions and not stop to collect your belongings.",
+      "promptZh": "緊急程序要求你保持冷靜、遵從職員指示，並且不要停下來取回個人物品。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In an emergency, stay calm, follow the staff’s instructions and do not stop to collect your belongings.",
+      "answerZh": "發生緊急事故時，保持冷靜、遵從職員指示，並且不要停下來取回個人物品。",
+      "answerZhSource": "pdf",
+      "highlight": "In an emergency, stay calm, follow the staff’s instructions and do not stop to collect your belongings."
+    }
+  ]
+}

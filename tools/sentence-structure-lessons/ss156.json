@@ -1,0 +1,1243 @@
+{
+  "id": "ss156",
+  "order": 156,
+  "slug": "supposing-that",
+  "title": "Supposing that",
+  "titleZh": "「Supposing that ...」提出假設情況",
+  "titleEn": "Using Supposing that to introduce a hypothetical situation",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 156 -「Supposing that .pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Supposing that + subject + present simple, + what / how / where + will / can / should + subject + base verb?",
+  "formulas": [
+    {
+      "id": "ss156-formula-01",
+      "labelEn": "Likely or open condition",
+      "labelZh": "較有可能發生的情況",
+      "formula": "Supposing that + subject + present simple, + what / how / where + will / can / should + subject + base verb?"
+    },
+    {
+      "id": "ss156-formula-02",
+      "labelEn": "Imaginative condition",
+      "labelZh": "較想像性或較不可能發生的情況",
+      "formula": "Supposing that + subject + past simple, + what / how / where + would / could + subject + base verb?"
+    }
+  ],
+  "example": "Supposing that the plan fails, what would be our next step?",
+  "exampleZh": "假如計劃失敗，我們下一步會是甚麼？",
+  "examples": [
+    {
+      "id": "ss156-example-01",
+      "en": "Supposing that the plan fails, what would be our next step?",
+      "zh": "假如計劃失敗，我們下一步會是甚麼？",
+      "highlight": "Supposing that the plan fails, what would be our next step?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss156-rule-01",
+      "zh": "用來提出一個假設情況 Supposing that ... 的意思接近「假如……」或「假設……」。說話者先請對方想像一個情況，然後 討論可能的結果或下一步行動。 （假如店舖已經關門，我們會到哪裏？）",
+      "en": "Use Supposing that ... to introduce a hypothetical situation. It means roughly “suppose that” or “what if”. The speaker first asks the listener to imagine a situation and then discusses a possible result or next action, as in Supposing that the shop is closed, where will we go?",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Supposing that ...",
+        "Supposing that the shop is closed, where will we go?"
+      ]
+    },
+    {
+      "id": "ss156-rule-02",
+      "zh": "談及未來時，條件部分通常不用 will 在 Supposing that 後面，通常使用現在式表示未來可能發生的情況。",
+      "en": "When discussing the future, do not normally use will in the condition. After Supposing that, use the present tense for a possible future situation: Supposing that it rains tomorrow ..., not Supposing that it will rain tomorrow ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Supposing that it rains tomorrow, what will we do?",
+        "Supposing that it will rain tomorrow, what will we do?"
+      ]
+    },
+    {
+      "id": "ss156-rule-03",
+      "zh": "過去式可以令假設聽起來更不確定 當情況較不可能發生，或純粹屬於想像時，可以使用過去式，並在主句使用 would 或 could。 （假如你遺失了手機，你會怎樣做？）",
+      "en": "A past form can make a supposition sound less certain. When the situation is less likely or purely imaginary, use a past form in the supposing-clause and would or could in the main clause, as in Supposing that you lost your phone, what would you do?",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Supposing that you lost your phone, what would you do?"
+      ]
+    },
+    {
+      "id": "ss156-rule-04",
+      "zh": "主句的情態動詞要配合原意 主句可以使用： will：詢問將會發生的事； can：詢問可能的方法或能力； should：詢問適當的做法； would：討論想像中的結果； could：討論假設情況中的可能方法。",
+      "en": "Choose a modal in the main clause that preserves the intended meaning: will asks what will happen; can asks about a possible method or ability; should asks about the appropriate action; would discusses an imagined result; and could discusses a possible method in a hypothetical situation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "will：",
+        "can：",
+        "should：",
+        "would：",
+        "could："
+      ]
+    },
+    {
+      "id": "ss156-rule-05",
+      "zh": "本練習必須保留 that 在日常對話中，人們有時會說 Supposing ...，省略 that。不過，本練習的目標句型是完整的 Supposing that ...，因此答案不可省略 that。",
+      "en": "Keep that in every answer in this exercise. In everyday conversation, speakers sometimes omit it and say Supposing ..., but the target form here is the full Supposing that ..., so that must not be left out.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss156-rule-06",
+      "zh": "不要與 provided that 混淆 Supposing that：請對方想像某個情況。 Provided that：表示「只要某個條件得到滿足」。 （假如火車班次取消，我們會怎樣做？） （只要你持有有效車票，便可以乘車。）",
+      "en": "Do not confuse Supposing that with Provided that. Supposing that asks someone to imagine a situation, as in Supposing that the train is cancelled, what will we do? Provided that means “only if a condition is met”, as in You can travel provided that you have a valid ticket.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Supposing that：",
+        "Provided that：",
+        "Supposing that the train is cancelled, what will we do?",
+        "You can travel provided that you have a valid ticket."
+      ]
+    },
+    {
+      "id": "ss156-rule-07",
+      "zh": "假設子句放在句首時要使用逗號",
+      "en": "Use a comma after a supposing clause at the beginning.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Supposing that the weather improves, we can continue the match."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss156-benefit-01",
+      "zh": "這個句型讓你在問題真正發生前先想像相關情況，並討論應該採取甚麼行動。",
+      "en": "It helps you discuss possible problems You can use this structure to imagine a problem before it happens and discuss what action should be taken.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss156-benefit-02",
+      "zh": "聽者會立即明白你正在討論一個假設可能性，而不是表示事情一定會發生。",
+      "en": "It makes the hypothetical meaning clear The listener immediately understands that you are discussing an imagined possibility rather than stating that something will definitely happen.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss156-benefit-03",
+      "zh": "當你以 Supposing that ... 開始時，便可以有條理地詢問行動、選擇、結果或解決方法。",
+      "en": "It provides a useful speaking frame Once you begin with Supposing that ..., you can continue by asking about an action, choice, result or solution.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss156-benefit-04",
+      "zh": "這個句型能把假設情況和相關問題連接成一句完整句子，讓兩者的關係更加清楚。",
+      "en": "It connects a situation and its consequence The structure places the imagined condition and the related question in one complete sentence.",
+      "enSource": "pdf",
+      "examples": [
+        "The structure places the imagined condition and the related question in one complete sentence."
+      ]
+    },
+    {
+      "id": "ss156-benefit-05",
+      "zh": "當你不想反覆使用 if 時，可以使用 Supposing that ...，令討論、簡報或口語回答有更多句式變 化。 Compare 比較 （如果計劃失敗怎麼辦？我們會怎樣做？） （假如計劃失敗，我們下一步會是甚麼？） 第二句把假設情況和需要討論的行動連接起來，問題更加完整和集中。",
+      "en": "It gives you an alternative to repeating if and adds sentence variety to discussions, presentations and spoken answers. Compare What if the plan fails? What will we do? with Supposing that the plan fails, what would be our next step? The second version connects the hypothetical situation with the action to be discussed, making the question more complete and focused.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What if the plan fails? What will we do?",
+        "Supposing that the plan fails, what would be our next step?"
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Supposing that.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Supposing that 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss156-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "If it rains tomorrow, what will we do with the picnic?",
+      "promptZh": "如果明天下雨，我們的野餐怎麼辦？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that it rains tomorrow, what will we do with the picnic?",
+      "answerZh": "假如明天下雨，我們的野餐怎麼辦？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that it rains tomorrow, what will we do with the picnic?"
+    },
+    {
+      "id": "ss156-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What if the bus is late? How will you get to school?",
+      "promptZh": "萬一巴士遲到，你會怎樣回校？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the bus is late, how will you get to school?",
+      "answerZh": "假如巴士遲到，你會怎樣回校？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the bus is late, how will you get to school?"
+    },
+    {
+      "id": "ss156-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Imagine that you forget your homework. What will you tell the teacher?",
+      "promptZh": "想像一下你忘記帶功課。你會對老師說甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that you forget your homework, what will you tell the teacher?",
+      "answerZh": "假如你忘記帶功課，你會對老師說甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that you forget your homework, what will you tell the teacher?"
+    },
+    {
+      "id": "ss156-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If the café is full, where can we sit?",
+      "promptZh": "如果咖啡店滿座，我們可以坐在哪裏？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the café is full, where can we sit?",
+      "answerZh": "假如咖啡店滿座，我們可以坐在哪裏？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the café is full, where can we sit?"
+    },
+    {
+      "id": "ss156-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Suppose that your phone battery runs out. Who can you contact for help?",
+      "promptZh": "假設你的手機沒有電，你可以聯絡誰求助？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that your phone battery runs out, who can you contact for help?",
+      "answerZh": "假如你的手機沒有電，你可以聯絡誰求助？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that your phone battery runs out, who can you contact for help?"
+    },
+    {
+      "id": "ss156-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Let us assume that the supermarket is closed. Where will we buy milk?",
+      "promptZh": "我們假設超級市場已經關門。我們會到哪裏買牛奶？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the supermarket is closed, where will we buy milk?",
+      "answerZh": "假如超級市場已經關門，我們會到哪裏買牛奶？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the supermarket is closed, where will we buy milk?"
+    },
+    {
+      "id": "ss156-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If your friend cannot come, will you still go to the concert?",
+      "promptZh": "如果你的朋友不能來，你仍會去音樂會嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that your friend cannot come, will you still go to the concert?",
+      "answerZh": "假如你的朋友不能來，你仍會去音樂會嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that your friend cannot come, will you still go to the concert?"
+    },
+    {
+      "id": "ss156-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What if the train is already full? Will we have to wait for the next one?",
+      "promptZh": "萬一火車已經滿座，我們是否要等下一班？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the train is already full, will we have to wait for the next one?",
+      "answerZh": "假如火車已經滿座，我們是否要等下一班？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the train is already full, will we have to wait for the next one?"
+    },
+    {
+      "id": "ss156-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Imagine that the lift is out of order. How can we reach the tenth floor?",
+      "promptZh": "想像一下升降機發生故障。我們可以怎樣到達十樓？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the lift is out of order, how can we reach the tenth floor?",
+      "answerZh": "假如升降機發生故障，我們可以怎樣到達十樓？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the lift is out of order, how can we reach the tenth floor?"
+    },
+    {
+      "id": "ss156-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If you feel unwell during the lesson, what should you do?",
+      "promptZh": "如果你在上課期間感到不適，你應該怎樣做？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that you feel unwell during the lesson, what should you do?",
+      "answerZh": "假如你在上課期間感到不適，你應該怎樣做？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that you feel unwell during the lesson, what should you do?"
+    },
+    {
+      "id": "ss156-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Suppose that you found a wallet on the street. What would you do?",
+      "promptZh": "假設你在街上撿到一個銀包。你會怎樣做？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that you found a wallet on the street, what would you do?",
+      "answerZh": "假如你在街上撿到一個銀包，你會怎樣做？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that you found a wallet on the street, what would you do?"
+    },
+    {
+      "id": "ss156-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Imagine that you could live in any country. Which country would you choose?",
+      "promptZh": "想像一下你可以在任何國家居住。你會選擇哪個國家？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that you could live in any country, which country would you choose?",
+      "answerZh": "假如你可以在任何國家居住，你會選擇哪個國家？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that you could live in any country, which country would you choose?"
+    },
+    {
+      "id": "ss156-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you had an extra hour every day, how would you use it?",
+      "promptZh": "如果你每天多一小時，你會怎樣運用？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that you had an extra hour every day, how would you use it?",
+      "answerZh": "假如你每天多一小時，你會怎樣運用？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that you had an extra hour every day, how would you use it?"
+    },
+    {
+      "id": "ss156-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Let us assume that you won two free plane tickets. Who would you take with you?",
+      "promptZh": "我們假設你贏得兩張免費機票。你會帶誰同行？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that you won two free plane tickets, who would you take with you?",
+      "answerZh": "假如你贏得兩張免費機票，你會帶誰同行？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that you won two free plane tickets, who would you take with you?"
+    },
+    {
+      "id": "ss156-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What would happen if no one brought food to the party?",
+      "promptZh": "如果沒有人帶食物到派對，會發生甚麼事？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that no one brought food to the party, what would happen?",
+      "answerZh": "假如沒有人帶食物到派對，會發生甚麼事？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that no one brought food to the party, what would happen?"
+    },
+    {
+      "id": "ss156-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Assuming that your best friend moved abroad, how would you keep in touch?",
+      "promptZh": "假設你最好的朋友移居外地，你會怎樣保持聯絡？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that your best friend moved abroad, how would you keep in touch?",
+      "answerZh": "假如你最好的朋友移居外地，你會怎樣保持聯絡？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that your best friend moved abroad, how would you keep in touch?"
+    },
+    {
+      "id": "ss156-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Imagine that your school cancelled all homework for a month. How would students react?",
+      "promptZh": "想像一下你的學校取消一個月的所有功課。學生會有甚麼反應？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that your school cancelled all homework for a month, how would students react?",
+      "answerZh": "假如你的學校取消一個月的所有功課，學生會有甚麼反應？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that your school cancelled all homework for a month, how would students react?"
+    },
+    {
+      "id": "ss156-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Suppose that you became the class monitor. What would you change?",
+      "promptZh": "假設你成為班長。你會作出甚麼改變？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that you became the class monitor, what would you change?",
+      "answerZh": "假如你成為班長，你會作出甚麼改變？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that you became the class monitor, what would you change?"
+    },
+    {
+      "id": "ss156-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you could learn one skill instantly, what would it be?",
+      "promptZh": "如果你可以立即學會一項技能，你會選擇甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that you could learn one skill instantly, what would it be?",
+      "answerZh": "假如你可以立即學會一項技能，你會選擇甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that you could learn one skill instantly, what would it be?"
+    },
+    {
+      "id": "ss156-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Consider a situation in which your family had to move next week. What would you pack first?",
+      "promptZh": "想像一種情況：你的家人下星期必須搬家。你會先收拾甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that your family had to move next week, what would you pack first?",
+      "answerZh": "假如你的家人下星期必須搬家，你會先收拾甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that your family had to move next week, what would you pack first?"
+    },
+    {
+      "id": "ss156-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the school library did not open on Saturdays, where could students study?",
+      "promptZh": "如果學校圖書館星期六不開放，學生可以到哪裏溫習？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the school library did not open on Saturdays, where could students study?",
+      "answerZh": "假如學校圖書館星期六不開放，學生可以到哪裏溫習？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the school library did not open on Saturdays, where could students study?"
+    },
+    {
+      "id": "ss156-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What if the instructions were not clear? Who could we ask?",
+      "promptZh": "萬一指示不清楚，我們可以問誰？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the instructions were not clear, who could we ask?",
+      "answerZh": "假如指示不清楚，我們可以問誰？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the instructions were not clear, who could we ask?"
+    },
+    {
+      "id": "ss156-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Imagine that the road was blocked by an accident. Which route would the driver take?",
+      "promptZh": "想像一下道路因意外而受阻。司機會選擇哪條路線？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the road was blocked by an accident, which route would the driver take?",
+      "answerZh": "假如道路因意外而受阻，司機會選擇哪條路線？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the road was blocked by an accident, which route would the driver take?"
+    },
+    {
+      "id": "ss156-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In the event that the match is cancelled, how will ticket holders receive a refund?",
+      "promptZh": "如果比賽取消，持票人士會怎樣獲得退款？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the match is cancelled, how will ticket holders receive a refund?",
+      "answerZh": "假如比賽取消，持票人士會怎樣獲得退款？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the match is cancelled, how will ticket holders receive a refund?"
+    },
+    {
+      "id": "ss156-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Assume that the computer files have been deleted by mistake. Can they be recovered?",
+      "promptZh": "假設電腦檔案被錯誤刪除。這些檔案可以復原嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the computer files have been deleted by mistake, can they be recovered?",
+      "answerZh": "假如電腦檔案被錯誤刪除，這些檔案可以復原嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the computer files have been deleted by mistake, can they be recovered?"
+    },
+    {
+      "id": "ss156-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The doctor may be delayed. If that happens, what should patients do?",
+      "promptZh": "醫生可能會延誤。如果出現這種情況，病人應該怎樣做？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the doctor is delayed, what should patients do?",
+      "answerZh": "假如醫生延誤，病人應該怎樣做？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the doctor is delayed, what should patients do?"
+    },
+    {
+      "id": "ss156-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Suppose that the restaurant does not serve vegetarian food. What can Maya order?",
+      "promptZh": "假設餐廳不供應素食。瑪雅可以點甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the restaurant does not serve vegetarian food, what can Maya order?",
+      "answerZh": "假如餐廳不供應素食，瑪雅可以點甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the restaurant does not serve vegetarian food, what can Maya order?"
+    },
+    {
+      "id": "ss156-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Imagine that the fire alarm went off during the meeting. How would everyone leave safely?",
+      "promptZh": "想像一下火警鐘在會議期間響起。大家會怎樣安全離開？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the fire alarm went off during the meeting, how would everyone leave safely?",
+      "answerZh": "假如火警鐘在會議期間響起，大家會怎樣安全離開？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the fire alarm went off during the meeting, how would everyone leave safely?"
+    },
+    {
+      "id": "ss156-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If your parcel was sent to the wrong address, who would you contact?",
+      "promptZh": "如果你的包裹被送到錯誤地址，你會聯絡誰？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that your parcel was sent to the wrong address, who would you contact?",
+      "answerZh": "假如你的包裹被送到錯誤地址，你會聯絡誰？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that your parcel was sent to the wrong address, who would you contact?"
+    },
+    {
+      "id": "ss156-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Let us assume that the online payment failed. Would you try another card?",
+      "promptZh": "我們假設網上付款失敗。你會嘗試使用另一張卡嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the online payment failed, would you try another card?",
+      "answerZh": "假如網上付款失敗，你會嘗試使用另一張卡嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the online payment failed, would you try another card?"
+    },
+    {
+      "id": "ss156-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What if the new employee could not access the system? How would the manager help?",
+      "promptZh": "萬一新員工無法登入系統，經理會怎樣協助？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the new employee could not access the system, how would the manager help?",
+      "answerZh": "假如新員工無法登入系統，經理會怎樣協助？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the new employee could not access the system, how would the manager help?"
+    },
+    {
+      "id": "ss156-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Assuming that the weather improves before noon, can the sports day continue?",
+      "promptZh": "假設天氣在中午前好轉，陸運會可以繼續舉行嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the weather improves before noon, can the sports day continue?",
+      "answerZh": "假如天氣在中午前好轉，陸運會可以繼續舉行嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the weather improves before noon, can the sports day continue?"
+    },
+    {
+      "id": "ss156-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Imagine that a guest who does not speak English asks for directions. How would you help?",
+      "promptZh": "想像一位不懂英語的客人向你問路。你會怎樣幫助對方？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that a guest who does not speak English asks for directions, how would you help?",
+      "answerZh": "假如一位不懂英語的客人向你問路，你會怎樣幫助對方？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that a guest who does not speak English asks for directions, how would you help?"
+    },
+    {
+      "id": "ss156-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If the hospital lost power for several minutes, which equipment would need backup electricity?",
+      "promptZh": "如果醫院停電數分鐘，哪些設備需要後備電力？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the hospital lost power for several minutes, which equipment would need backup electricity?",
+      "answerZh": "假如醫院停電數分鐘，哪些設備需要後備電力？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the hospital lost power for several minutes, which equipment would need backup electricity?"
+    },
+    {
+      "id": "ss156-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum may close earlier than expected. If that happens, what will visitors do?",
+      "promptZh": "博物館可能比預期提早關閉。如果出現這種情況，訪客會怎樣做？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the museum closes earlier than expected, what will visitors do?",
+      "answerZh": "假如博物館比預期提早關閉，訪客會怎樣做？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the museum closes earlier than expected, what will visitors do?"
+    },
+    {
+      "id": "ss156-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Suppose that the team leader rejected your idea without explanation. How would you respond politely?",
+      "promptZh": "假設組長在沒有解釋的情況下拒絕你的建議。你會怎樣有禮貌地回應？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the team leader rejected your idea without explanation, how would you respond politely?",
+      "answerZh": "假如組長在沒有解釋的情況下拒絕你的建議，你會怎樣有禮貌地回應？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the team leader rejected your idea without explanation, how would you respond politely?"
+    },
+    {
+      "id": "ss156-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In the event that a child becomes separated from their parents, whom should the child approach?",
+      "promptZh": "如果兒童與父母失散，該名兒童應該向誰求助？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that a child becomes separated from their parents, whom should the child approach?",
+      "answerZh": "假如兒童與父母失散，該名兒童應該向誰求助？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that a child becomes separated from their parents, whom should the child approach?"
+    },
+    {
+      "id": "ss156-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Consider the possibility that the delivery driver cannot find the building. What information should we send?",
+      "promptZh": "考慮送貨司機找不到大廈的可能性。我們應該傳送甚麼資料？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the delivery driver cannot find the building, what information should we send?",
+      "answerZh": "假如送貨司機找不到大廈，我們應該傳送甚麼資料？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the delivery driver cannot find the building, what information should we send?"
+    },
+    {
+      "id": "ss156-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the machine stopped while it was being used, should workers restart it themselves?",
+      "promptZh": "如果機器在使用期間停止運作，工人應否自行重新啟動？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the machine stopped while it was being used, should workers restart it themselves?",
+      "answerZh": "假如機器在使用期間停止運作，工人應否自行重新啟動？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the machine stopped while it was being used, should workers restart it themselves?"
+    },
+    {
+      "id": "ss156-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Let us imagine that the internet connection failed during an online interview. What could the applicant do?",
+      "promptZh": "我們想像網絡連線在網上面試期間中斷。申請人可以怎樣做？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the internet connection failed during an online interview, what could the applicant do?",
+      "answerZh": "假如網絡連線在網上面試期間中斷，申請人可以怎樣做？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the internet connection failed during an online interview, what could the applicant do?"
+    },
+    {
+      "id": "ss156-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Assume that several students who need extra support join the class. How could the teacher adjust the lesson?",
+      "promptZh": "假設數名需要額外支援的學生加入班級。老師可以怎樣調整課堂？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that several students who need extra support join the class, how could the teacher adjust the lesson?",
+      "answerZh": "假如數名需要額外支援的學生加入班級，老師可以怎樣調整課堂？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that several students who need extra support join the class, how could the teacher adjust the lesson?"
+    },
+    {
+      "id": "ss156-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What if the main road remains closed throughout the morning? How will the bus company change its routes?",
+      "promptZh": "萬一主要道路整個早上仍然封閉，巴士公司會怎樣更改路線？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the main road remains closed throughout the morning, how will the bus company change its routes?",
+      "answerZh": "假如主要道路整個早上仍然封閉，巴士公司會怎樣更改路線？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the main road remains closed throughout the morning, how will the bus company change its routes?"
+    },
+    {
+      "id": "ss156-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Imagine that a customer receives a damaged product but has lost the receipt. How should the shop handle the complaint?",
+      "promptZh": "想像一名顧客收到損壞的產品，但遺失了收據。店舖應該怎樣處理投訴？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that a customer receives a damaged product but has lost the receipt, how should the shop handle the complaint?",
+      "answerZh": "假如一名顧客收到損壞的產品，但遺失了收據，店舖應該怎樣處理投訴？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that a customer receives a damaged product but has lost the receipt, how should the shop handle the complaint?"
+    },
+    {
+      "id": "ss156-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If a hospital had only one bed left, how would the staff decide which patient needed it most?",
+      "promptZh": "如果醫院只剩下一張病床，職員會怎樣決定哪名病人最需要它？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that a hospital had only one bed left, how would the staff decide which patient needed it most?",
+      "answerZh": "假如醫院只剩下一張病床，職員會怎樣決定哪名病人最需要它？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that a hospital had only one bed left, how would the staff decide which patient needed it most?"
+    },
+    {
+      "id": "ss156-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Suppose that the school’s planned outdoor event cannot go ahead because of heavy rain. What alternative activity could it arrange?",
+      "promptZh": "假設學校原定的戶外活動因大雨而無法舉行。學校可以安排甚麼替代活動？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the school’s planned outdoor event cannot go ahead because of heavy rain, what alternative activity could it arrange?",
+      "answerZh": "假如學校原定的戶外活動因大雨而無法舉行，學校可以安排甚麼替代活動？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the school’s planned outdoor event cannot go ahead because of heavy rain, what alternative activity could it arrange?"
+    },
+    {
+      "id": "ss156-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company may discover a serious error after sending the report. If this happens, what should the team do first?",
+      "promptZh": "公司可能在發出報告後發現嚴重錯誤。如果出現這種情況，團隊首先應該做甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the company discovers a serious error after sending the report, what should the team do first?",
+      "answerZh": "假如公司在發出報告後發現嚴重錯誤，團隊首先應該做甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the company discovers a serious error after sending the report, what should the team do first?"
+    },
+    {
+      "id": "ss156-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Consider a situation in which the public transport system stopped for several hours. How would people get home?",
+      "promptZh": "想像一種公共交通系統停止運作數小時的情況。人們會怎樣回家？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the public transport system stopped for several hours, how would people get home?",
+      "answerZh": "假如公共交通系統停止運作數小時，人們會怎樣回家？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the public transport system stopped for several hours, how would people get home?"
+    },
+    {
+      "id": "ss156-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Assuming that a new rule reduces costs but makes the service slower, should the organisation still adopt it?",
+      "promptZh": "假設一項新規則能降低成本，卻令服務變慢，該機構仍應採用它嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that a new rule reduces costs but makes the service slower, should the organisation still adopt it?",
+      "answerZh": "假如一項新規則能降低成本，卻令服務變慢，該機構仍應採用它嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that a new rule reduces costs but makes the service slower, should the organisation still adopt it?"
+    },
+    {
+      "id": "ss156-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Imagine that the only witness to an accident gives an unclear account. How could the police confirm what happened?",
+      "promptZh": "想像一宗意外的唯一目擊者提供含糊的說法。警方可以怎樣確認事情經過？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that the only witness to an accident gives an unclear account, how could the police confirm what happened?",
+      "answerZh": "假如一宗意外的唯一目擊者提供含糊的說法，警方可以怎樣確認事情經過？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that the only witness to an accident gives an unclear account, how could the police confirm what happened?"
+    },
+    {
+      "id": "ss156-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Let us suppose that a project fails even though the team followed the original plan. What lessons should the organisation learn before trying again?",
+      "promptZh": "我們假設一個項目即使團隊依照原定計劃執行，仍然失敗。該機構再次嘗試前應該汲取甚麼教訓？",
+      "promptZhSource": "pdf",
+      "starter": "Supposing",
+      "answer": "Supposing that a project fails even though the team followed the original plan, what lessons should the organisation learn before trying again?",
+      "answerZh": "假如一個項目即使團隊依照原定計劃執行，仍然失敗，該機構再次嘗試前應該汲取甚麼教訓？",
+      "answerZhSource": "pdf",
+      "highlight": "Supposing that a project fails even though the team followed the original plan, what lessons should the organisation learn before trying again?"
+    }
+  ]
+}

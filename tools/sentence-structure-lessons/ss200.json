@@ -1,0 +1,1220 @@
+{
+  "id": "ss200",
+  "order": 200,
+  "slug": "be-up-to-no-good",
+  "title": "「be up to no good」表示「在搞鬼／圖謀不軌」",
+  "titleZh": "「be up to no good」表示「在搞鬼／圖謀不軌」",
+  "titleEn": "Using “be up to no good”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 200 -「be up to no good」表示「在搞鬼／圖謀不軌」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Subject + be + up to no good",
+  "formulas": [
+    {
+      "id": "ss200-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Subject + be + up to no good"
+    },
+    {
+      "id": "ss200-formula-02",
+      "labelEn": "Modal",
+      "labelZh": "配合情態動詞",
+      "formula": "Subject + modal + be + up to no good"
+    },
+    {
+      "id": "ss200-formula-03",
+      "labelEn": "Perfect",
+      "labelZh": "完成式",
+      "formula": "Subject + have / has been + up to no good"
+    }
+  ],
+  "example": "Those kids are being unusually quiet. They are probably up to no good.",
+  "exampleZh": "那些孩子安靜得反常。他們大概又在搞鬼了。",
+  "examples": [
+    {
+      "id": "ss200-example-01",
+      "en": "Those kids are being unusually quiet. They are probably up to no good.",
+      "zh": "那些孩子安靜得反常。他們大概又在搞鬼了。",
+      "highlight": "Those kids are being unusually quiet. They are probably up to no good."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Subject + be + up to no good。"
+  },
+  "rules": [
+    {
+      "id": "ss200-rule-01",
+      "zh": "必須使用正確的 be 動詞 根據主語和時態選擇：",
+      "en": "Use the correct form of be for the subject and tense: I am up to no good. He is up to no good. They are up to no good. She was up to no good. We were up to no good.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I am up to no good.",
+        "He is up to no good.",
+        "They are up to no good.",
+        "She was up to no good.",
+        "We were up to no good."
+      ]
+    },
+    {
+      "id": "ss200-rule-02",
+      "zh": "這個表達通常不指出確實做了甚麼 Be up to no good 表示某人正在做、策劃或企圖做一些： ● 頑皮的事； ● 惹麻煩的事； ● 不誠實的事； ● 不應該做的事。 說話者通常有所懷疑，但未必知道對方確實在做甚麼。",
+      "en": "The expression normally does not identify the exact activity. Be up to no good suggests that someone is doing, planning or attempting something naughty, troublesome, dishonest or improper. The speaker is suspicious but may not know exactly what the person is doing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss200-rule-03",
+      "zh": "no good 已經帶有負面意思 一般不會說： 這個句子包含雙重否定，容易令人混亂。如要表示對方沒有做壞事，可以直接說： （他沒有做任何不當的事。）",
+      "en": "No good already carries a negative meaning. Avoid “He is not up to no good”, whose double negative is confusing. To say that someone is not doing anything bad, say: He is not doing anything wrong.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "He is not up to no good.",
+        "He is not doing anything wrong."
+      ]
+    },
+    {
+      "id": "ss200-rule-04",
+      "zh": "這是一個較口語化的慣用表達 它常見於： ● 日常對話； ● 故事； ● 非正式訊息； ● 對可疑行為的評論。 在正式報告、投訴或法律文件中，應直接說明具體行為，而不應只說某人 was up to no good。",
+      "en": "This is an informal idiom common in everyday conversation, stories, informal messages and comments about suspicious behaviour. In a formal report, complaint or legal document, describe the specific conduct instead of merely saying that someone was up to no good.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss200-rule-05",
+      "zh": "可用於人，也可幽默地形容寵物 （那隻狗正在搗蛋。） 這種用法通常帶有輕鬆或幽默的語氣。",
+      "en": "It can describe people and, humorously, pets: The dog is up to no good. The pet usage is normally light-hearted or humorous.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The dog is up to no good."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss200-benefit-01",
+      "zh": "在不知道確實發生甚麼時表達懷疑 當你看見可疑行為，但沒有足夠資料說明對方正在做甚麼，便可以使用這個句型。 （孩子們突然安靜下來。他們可能正在搞鬼。）",
+      "en": "It expresses suspicion when the exact activity is unknown. Use it when you notice suspicious behaviour but lack enough information to say what is happening: The children suddenly became quiet. They may be up to no good.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss200-benefit-02",
+      "zh": "把較長的說法縮短 較長說法： 較自然簡潔的說法： 這個表達能用較少文字傳達相近意思。",
+      "en": "It shortens a longer statement. Compare: They appear to be planning or doing something dishonest or troublesome. They appear to be up to no good. The idiom conveys a similar meaning more naturally and concisely.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss200-benefit-03",
+      "zh": "令故事更有懸念 使用 up to no good 時，你不必立即說明人物正在做甚麼，因此可以令讀者產生好奇。 （有人在屋外走動。他看來心懷不軌。）",
+      "en": "It creates suspense. Because up to no good does not immediately reveal what a character is doing, it can make readers curious: Someone was moving around outside the house. He seemed to be up to no good.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss200-benefit-04",
+      "zh": "適合表達不同程度的肯定 你可以配合不同字詞，控制語氣： ● may be up to no good：可能在搞鬼； ● probably up to no good：大概在搞鬼； ● clearly up to no good：顯然在搞鬼； ● must be up to no good：一定在搞鬼。",
+      "en": "It expresses different degrees of certainty. Use may be up to no good for possibility, probably up to no good for probability, clearly up to no good for an evident judgement, and must be up to no good for a strong deduction.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss200-benefit-05",
+      "zh": "讓日常英語更加自然 英語使用者在談論頑皮、可疑或不誠實的行為時，經常使用這個慣用表達。掌握它有助你理解日 常對話、電影和故事。",
+      "en": "It makes everyday English more natural. English speakers often use the idiom when discussing naughty, suspicious or dishonest behaviour, so knowing it also helps you understand everyday conversation, films and stories.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Subject + be + up to no good.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Subject + be + up to no good」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss200-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Those boys are doing something naughty.",
+      "promptZh": "那些男孩正在做頑皮的事。",
+      "promptZhSource": "pdf",
+      "starter": "Those",
+      "answer": "Those boys are up to no good.",
+      "answerZh": "那些男孩正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "Those boys are up to no good."
+    },
+    {
+      "id": "ss200-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia is planning something troublesome.",
+      "promptZh": "米婭正打算做一些惹麻煩的事。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is up to no good.",
+      "answerZh": "米婭正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is up to no good."
+    },
+    {
+      "id": "ss200-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The puppy is doing something it should not be doing.",
+      "promptZh": "那隻小狗正在做不應該做的事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The puppy is up to no good.",
+      "answerZh": "那隻小狗正在搗蛋。",
+      "answerZhSource": "pdf",
+      "highlight": "The puppy is up to no good."
+    },
+    {
+      "id": "ss200-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Our neighbours are involved in something dishonest.",
+      "promptZh": "我們的鄰居正牽涉一些不誠實的事情。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbours are up to no good.",
+      "answerZh": "我們的鄰居正在做不正當的事。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbours are up to no good."
+    },
+    {
+      "id": "ss200-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Leo was doing something wrong.",
+      "promptZh": "里奧當時正在做不當的事。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo was up to no good.",
+      "answerZh": "里奧當時正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo was up to no good."
+    },
+    {
+      "id": "ss200-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The two girls were planning some mischief.",
+      "promptZh": "那兩名女孩當時正策劃惡作劇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two girls were up to no good.",
+      "answerZh": "那兩名女孩當時正在策劃惡作劇。",
+      "answerZhSource": "pdf",
+      "highlight": "The two girls were up to no good."
+    },
+    {
+      "id": "ss200-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "There is someone here who is doing something wrong.",
+      "promptZh": "這裏有人正在做不當的事。",
+      "promptZhSource": "pdf",
+      "starter": "Someone",
+      "answer": "Someone here is up to no good.",
+      "answerZh": "這裏有人正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone here is up to no good."
+    },
+    {
+      "id": "ss200-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "That man is probably planning something dishonest.",
+      "promptZh": "那名男子大概正在策劃一些不誠實的事情。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That man is probably up to no good.",
+      "answerZh": "那名男子大概心懷不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "That man is probably up to no good."
+    },
+    {
+      "id": "ss200-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The children are clearly doing something naughty.",
+      "promptZh": "那些孩子顯然正在做頑皮的事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children are clearly up to no good.",
+      "answerZh": "那些孩子顯然正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "The children are clearly up to no good."
+    },
+    {
+      "id": "ss200-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben may be planning to cause trouble.",
+      "promptZh": "本可能正打算惹麻煩。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben may be up to no good.",
+      "answerZh": "本可能正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben may be up to no good."
+    },
+    {
+      "id": "ss200-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The students kept looking at the answer sheet. Their behaviour clearly showed that they were doing something dishonest.",
+      "promptZh": "學生一直偷看答案紙。他們的行為明顯顯示他們正在做不誠實的事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students kept looking at the answer sheet, so they were clearly up to no good.",
+      "answerZh": "學生一直偷看答案紙，所以他們顯然正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "The students kept looking at the answer sheet, so they were clearly up to no good."
+    },
+    {
+      "id": "ss200-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why is Chloe hiding the broken vase? She must be doing something she knows is wrong.",
+      "promptZh": "克洛伊為甚麼把打破的花瓶藏起來？她一定正在做一些明知不對的事。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe is hiding the broken vase, so she must be up to no good.",
+      "answerZh": "克洛伊把打破的花瓶藏起來，所以她一定正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe is hiding the broken vase, so she must be up to no good."
+    },
+    {
+      "id": "ss200-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The boys went behind the building because they planned to cause trouble.",
+      "promptZh": "男孩們走到大樓後面，因為他們打算惹麻煩。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The boys went behind the building because they were up to no good.",
+      "answerZh": "男孩們走到大樓後面，因為他們打算搞事。",
+      "answerZhSource": "pdf",
+      "highlight": "The boys went behind the building because they were up to no good."
+    },
+    {
+      "id": "ss200-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The cat was unusually quiet because it was doing something naughty.",
+      "promptZh": "那隻貓安靜得反常，因為牠正在搗蛋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cat was unusually quiet because it was up to no good.",
+      "answerZh": "那隻貓安靜得反常，因為牠正在搗蛋。",
+      "answerZhSource": "pdf",
+      "highlight": "The cat was unusually quiet because it was up to no good."
+    },
+    {
+      "id": "ss200-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The caller may have dishonest intentions, so do not give them your password.",
+      "promptZh": "來電者可能心懷不軌，因此不要把密碼告訴對方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The caller may be up to no good, so do not give them your password.",
+      "answerZh": "來電者可能心懷不軌，因此不要把密碼告訴對方。",
+      "answerZhSource": "pdf",
+      "highlight": "The caller may be up to no good, so do not give them your password."
+    },
+    {
+      "id": "ss200-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The stranger appeared to be planning something bad.",
+      "promptZh": "那名陌生人看來正在策劃不當的事情。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The stranger appeared to be up to no good.",
+      "answerZh": "那名陌生人看來心懷不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "The stranger appeared to be up to no good."
+    },
+    {
+      "id": "ss200-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Those employees seem to be involved in something dishonest.",
+      "promptZh": "那些僱員似乎正牽涉一些不誠實的事情。",
+      "promptZhSource": "pdf",
+      "starter": "Those",
+      "answer": "Those employees seem to be up to no good.",
+      "answerZh": "那些僱員似乎正在做不正當的事。",
+      "answerZhSource": "pdf",
+      "highlight": "Those employees seem to be up to no good."
+    },
+    {
+      "id": "ss200-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The twins probably had a mischievous plan when they locked the door.",
+      "promptZh": "那對雙胞胎鎖門時，大概正在策劃惡作劇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The twins were probably up to no good when they locked the door.",
+      "answerZh": "那對雙胞胎鎖門時，大概正在策劃惡作劇。",
+      "answerZhSource": "pdf",
+      "highlight": "The twins were probably up to no good when they locked the door."
+    },
+    {
+      "id": "ss200-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Anyone who keeps changing the labels may be doing something dishonest.",
+      "promptZh": "任何不斷更改標籤的人，都可能正在做不誠實的事。",
+      "promptZhSource": "pdf",
+      "starter": "Anyone",
+      "answer": "Anyone who keeps changing the labels may be up to no good.",
+      "answerZh": "任何不斷更改標籤的人，都可能正在做不正當的事。",
+      "answerZhSource": "pdf",
+      "highlight": "Anyone who keeps changing the labels may be up to no good."
+    },
+    {
+      "id": "ss200-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I think the new user is trying to cause trouble.",
+      "promptZh": "我認為那名新用戶正在企圖惹麻煩。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I think the new user is up to no good.",
+      "answerZh": "我認為那名新用戶正在圖謀不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "I think the new user is up to no good."
+    },
+    {
+      "id": "ss200-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The security guard suspected that the visitors intended to cause trouble.",
+      "promptZh": "保安員懷疑那些訪客打算惹麻煩。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The security guard suspected that the visitors were up to no good.",
+      "answerZh": "保安員懷疑那些訪客正在圖謀不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "The security guard suspected that the visitors were up to no good."
+    },
+    {
+      "id": "ss200-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the children suddenly stop talking, they may be doing something naughty.",
+      "promptZh": "如果孩子們突然停止說話，他們可能正在搞鬼。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the children suddenly stop talking, they may be up to no good.",
+      "answerZh": "如果孩子們突然停止說話，他們可能正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "If the children suddenly stop talking, they may be up to no good."
+    },
+    {
+      "id": "ss200-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher realised that someone in the class was doing something dishonest.",
+      "promptZh": "老師察覺到班上有人正在做不誠實的事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher realised that someone in the class was up to no good.",
+      "answerZh": "老師察覺到班上有人正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher realised that someone in the class was up to no good."
+    },
+    {
+      "id": "ss200-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The man standing near the back door looked as though he intended to cause trouble.",
+      "promptZh": "站在後門附近的男子看來打算惹麻煩。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The man standing near the back door looked as though he was up to no good.",
+      "answerZh": "站在後門附近的男子看來心懷不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "The man standing near the back door looked as though he was up to no good."
+    },
+    {
+      "id": "ss200-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We should check the storeroom because someone may be doing something wrong there.",
+      "promptZh": "我們應該檢查儲物室，因為那裏可能有人正在做不當的事。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should check the storeroom because someone may be up to no good there.",
+      "answerZh": "我們應該檢查儲物室，因為那裏可能有人正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "We should check the storeroom because someone may be up to no good there."
+    },
+    {
+      "id": "ss200-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The account has been sending strange links, so its owner may have dishonest intentions.",
+      "promptZh": "該帳戶一直傳送奇怪的連結，因此帳戶持有人可能心懷不軌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The account has been sending strange links, so its owner may be up to no good.",
+      "answerZh": "該帳戶一直傳送奇怪的連結，因此帳戶持有人可能心懷不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "The account has been sending strange links, so its owner may be up to no good."
+    },
+    {
+      "id": "ss200-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Whoever moved the signs clearly meant to cause trouble.",
+      "promptZh": "移動那些指示牌的人顯然有意惹麻煩。",
+      "promptZhSource": "pdf",
+      "starter": "Whoever",
+      "answer": "Whoever moved the signs was clearly up to no good.",
+      "answerZh": "移動那些指示牌的人顯然正在搞事。",
+      "answerZhSource": "pdf",
+      "highlight": "Whoever moved the signs was clearly up to no good."
+    },
+    {
+      "id": "ss200-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The dog had been doing something naughty before we found the torn cushion.",
+      "promptZh": "我們發現被撕破的坐墊前，那隻狗一直在搗蛋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog had been up to no good before we found the torn cushion.",
+      "answerZh": "我們發現被撕破的坐墊前，那隻狗一直在搗蛋。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog had been up to no good before we found the torn cushion."
+    },
+    {
+      "id": "ss200-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "There is a chance that the seller has dishonest intentions.",
+      "promptZh": "那名賣家有可能心懷不軌。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is a chance that the seller is up to no good.",
+      "answerZh": "那名賣家有可能心懷不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a chance that the seller is up to no good."
+    },
+    {
+      "id": "ss200-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The receptionist warned us that the two visitors might be planning trouble.",
+      "promptZh": "接待員警告我們，那兩名訪客可能正在策劃惹事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The receptionist warned us that the two visitors might be up to no good.",
+      "answerZh": "接待員警告我們，那兩名訪客可能心懷不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "The receptionist warned us that the two visitors might be up to no good."
+    },
+    {
+      "id": "ss200-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Do not ignore repeated false messages; someone could be trying to cause trouble.",
+      "promptZh": "不要忽視反覆出現的虛假訊息；可能有人正在企圖惹麻煩。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not ignore repeated false messages; someone could be up to no good.",
+      "answerZh": "不要忽視反覆出現的虛假訊息；可能有人正在圖謀不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not ignore repeated false messages; someone could be up to no good."
+    },
+    {
+      "id": "ss200-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager wondered whether a staff member was involved in some dishonest activity.",
+      "promptZh": "經理懷疑是否有職員牽涉某些不誠實的活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager wondered whether a staff member was up to no good.",
+      "answerZh": "經理懷疑是否有職員正在做不正當的事。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager wondered whether a staff member was up to no good."
+    },
+    {
+      "id": "ss200-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the teenagers said they were only joking, they seemed to be planning trouble.",
+      "promptZh": "雖然那些青少年聲稱只是在開玩笑，但他們看來正在策劃惹事。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the teenagers said they were only joking, they seemed to be up to no good.",
+      "answerZh": "雖然那些青少年聲稱只是在開玩笑，但他們看來正在搞事。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the teenagers said they were only joking, they seemed to be up to no good."
+    },
+    {
+      "id": "ss200-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The person who copied the keys probably had dishonest intentions.",
+      "promptZh": "複製那些鑰匙的人大概心懷不軌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The person who copied the keys was probably up to no good.",
+      "answerZh": "複製那些鑰匙的人大概心懷不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "The person who copied the keys was probably up to no good."
+    },
+    {
+      "id": "ss200-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The police officer asked whether anyone nearby had been doing something wrong.",
+      "promptZh": "警員詢問附近是否有人一直在做不當的事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The police officer asked whether anyone nearby had been up to no good.",
+      "answerZh": "警員詢問附近是否有人一直在做不正當的事。",
+      "answerZhSource": "pdf",
+      "highlight": "The police officer asked whether anyone nearby had been up to no good."
+    },
+    {
+      "id": "ss200-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Whenever the lights go out during the game, the children are usually doing something naughty.",
+      "promptZh": "每當遊戲期間燈光熄滅，孩子們通常都在搞鬼。",
+      "promptZhSource": "pdf",
+      "starter": "Whenever",
+      "answer": "Whenever the lights go out during the game, the children are usually up to no good.",
+      "answerZh": "每當遊戲期間燈光熄滅，孩子們通常都在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "Whenever the lights go out during the game, the children are usually up to no good."
+    },
+    {
+      "id": "ss200-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The customer kept asking for confidential information, which made us think he had dishonest intentions.",
+      "promptZh": "那名顧客不斷索取機密資料，令我們認為他心懷不軌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer kept asking for confidential information, which made us think he was up to no good.",
+      "answerZh": "那名顧客不斷索取機密資料，令我們認為他心懷不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer kept asking for confidential information, which made us think he was up to no good."
+    },
+    {
+      "id": "ss200-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A neighbour reported that several people had been causing trouble near the empty house.",
+      "promptZh": "一名鄰居報告說，有幾個人一直在空置房屋附近惹事。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A neighbour reported that several people had been up to no good near the empty house.",
+      "answerZh": "一名鄰居報告說，有幾個人一直在空置房屋附近搞事。",
+      "answerZhSource": "pdf",
+      "highlight": "A neighbour reported that several people had been up to no good near the empty house."
+    },
+    {
+      "id": "ss200-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The broken lock suggests that someone has been involved in something dishonest.",
+      "promptZh": "損壞的門鎖顯示可能有人一直在進行不誠實的活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The broken lock suggests that someone has been up to no good.",
+      "answerZh": "損壞的門鎖顯示可能有人一直在做不正當的事。",
+      "answerZhSource": "pdf",
+      "highlight": "The broken lock suggests that someone has been up to no good."
+    },
+    {
+      "id": "ss200-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We could tell from their whispering and sudden silence that they were planning something wrong.",
+      "promptZh": "從他們竊竊私語後突然安靜下來，我們可以看出他們正在策劃不當的事。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could tell from their whispering and sudden silence that they were up to no good.",
+      "answerZh": "從他們竊竊私語後突然安靜下來，我們可以看出他們正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "We could tell from their whispering and sudden silence that they were up to no good."
+    },
+    {
+      "id": "ss200-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The IT team is investigating whether anyone has been involved in dishonest activity on the shared account.",
+      "promptZh": "資訊科技團隊正在調查是否有人一直利用共用帳戶進行不誠實的活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The IT team is investigating whether anyone has been up to no good on the shared account.",
+      "answerZh": "資訊科技團隊正在調查是否有人一直利用共用帳戶進行不正當活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The IT team is investigating whether anyone has been up to no good on the shared account."
+    },
+    {
+      "id": "ss200-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If a person hides their identity and requests secret data, they may have dishonest intentions.",
+      "promptZh": "如果一個人隱藏身分並索取機密資料，對方可能心懷不軌。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If a person hides their identity and requests secret data, they may be up to no good.",
+      "answerZh": "如果一個人隱藏身分並索取機密資料，對方可能心懷不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "If a person hides their identity and requests secret data, they may be up to no good."
+    },
+    {
+      "id": "ss200-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The supervisor believed that whoever altered the records had been doing something dishonest.",
+      "promptZh": "主管認為，更改紀錄的人一直在做不誠實的事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The supervisor believed that whoever altered the records had been up to no good.",
+      "answerZh": "主管認為，更改紀錄的人一直在做不正當的事。",
+      "answerZhSource": "pdf",
+      "highlight": "The supervisor believed that whoever altered the records had been up to no good."
+    },
+    {
+      "id": "ss200-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The students who stayed behind after class looked as if they were planning trouble.",
+      "promptZh": "那些放學後仍然留下來的學生，看來正在策劃惹事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students who stayed behind after class looked as if they were up to no good.",
+      "answerZh": "那些放學後仍然留下來的學生，看來正在搞事。",
+      "answerZhSource": "pdf",
+      "highlight": "The students who stayed behind after class looked as if they were up to no good."
+    },
+    {
+      "id": "ss200-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even though the caller sounded polite, I suspected that he had dishonest intentions.",
+      "promptZh": "即使來電者聽起來很有禮貌，我仍懷疑他心懷不軌。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the caller sounded polite, I suspected that he was up to no good.",
+      "answerZh": "即使來電者聽起來很有禮貌，我仍懷疑他心懷不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the caller sounded polite, I suspected that he was up to no good."
+    },
+    {
+      "id": "ss200-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The repeated attempts to enter the locked office suggest that someone is trying to do something wrong.",
+      "promptZh": "有人反覆嘗試進入已上鎖的辦公室，顯示可能有人正在企圖做不當的事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repeated attempts to enter the locked office suggest that someone is up to no good.",
+      "answerZh": "有人反覆嘗試進入已上鎖的辦公室，顯示可能有人正在圖謀不軌。",
+      "answerZhSource": "pdf",
+      "highlight": "The repeated attempts to enter the locked office suggest that someone is up to no good."
+    },
+    {
+      "id": "ss200-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When we noticed that the security camera had been covered, we knew someone was doing something dishonest.",
+      "promptZh": "當我們發現閉路電視鏡頭被遮蓋時，便知道有人正在做不誠實的事。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When we noticed that the security camera had been covered, we knew someone was up to no good.",
+      "answerZh": "當我們發現閉路電視鏡頭被遮蓋時，便知道有人正在做不正當的事。",
+      "answerZhSource": "pdf",
+      "highlight": "When we noticed that the security camera had been covered, we knew someone was up to no good."
+    },
+    {
+      "id": "ss200-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The shop owner warned customers that a group outside might be planning trouble.",
+      "promptZh": "店主警告顧客，外面的一群人可能正在策劃惹事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop owner warned customers that a group outside might be up to no good.",
+      "answerZh": "店主警告顧客，外面的一群人可能正在搞事。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop owner warned customers that a group outside might be up to no good."
+    },
+    {
+      "id": "ss200-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Anyone who secretly changes other people’s passwords is clearly doing something dishonest.",
+      "promptZh": "任何人暗中更改別人的密碼，顯然都在做不誠實的事。",
+      "promptZhSource": "pdf",
+      "starter": "Anyone",
+      "answer": "Anyone who secretly changes other people’s passwords is clearly up to no good.",
+      "answerZh": "任何人暗中更改別人的密碼，顯然都在做不正當的事。",
+      "answerZhSource": "pdf",
+      "highlight": "Anyone who secretly changes other people’s passwords is clearly up to no good."
+    },
+    {
+      "id": "ss200-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "By the time the missing files were discovered, the person responsible had probably been involved in dishonest activity for several days.",
+      "promptZh": "到遺失的檔案被發現時，涉事者大概已進行了數天不誠實的活動。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the missing files were discovered, the person responsible had probably been up to no good for several days.",
+      "answerZh": "到遺失的檔案被發現時，涉事者大概已進行了數天不正當的活動。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the missing files were discovered, the person responsible had probably been up to no good for several days."
+    }
+  ]
+}

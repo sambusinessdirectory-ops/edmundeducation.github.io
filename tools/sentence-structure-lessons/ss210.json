@@ -1,0 +1,1227 @@
+{
+  "id": "ss210",
+  "order": 210,
+  "slug": "more-often-than-not",
+  "title": "「More often than not」表示「通常／多數情況下」",
+  "titleZh": "「More often than not」表示「通常／多數情況下」",
+  "titleEn": "Using “more often than not”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 209 -「More often than not」表示「通常／多數情況下」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 209; it is assigned system ID ss210 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "More often than not, + complete clause",
+  "formulas": [
+    {
+      "id": "ss210-formula-01",
+      "labelEn": "Main pattern",
+      "labelZh": "主要句式",
+      "formula": "More often than not, + complete clause"
+    },
+    {
+      "id": "ss210-formula-02",
+      "labelEn": "Advanced",
+      "labelZh": "進階句式",
+      "formula": "Introductory time / condition phrase, + more often than not, + complete clause"
+    }
+  ],
+  "example": "More often than not, trust is lost gradually rather than suddenly.",
+  "exampleZh": "多數情況下，信任並非突然失去，而是逐漸流失。",
+  "examples": [
+    {
+      "id": "ss210-example-01",
+      "en": "More often than not, trust is lost gradually rather than suddenly.",
+      "zh": "多數情況下，信任並非突然失去，而是逐漸流失。",
+      "highlight": "More often than not, trust is lost gradually rather than suddenly."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：More often than not, + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss210-rule-01",
+      "zh": "它表示「通常」，而不是「永遠」 More often than not 承認事情可能有例外。 （多數情況下，顧客購物前會比較價錢。） 這並不表示所有顧客每次都會比較價錢。",
+      "en": "It means “usually”, not “always”, and allows for exceptions. “More often than not, customers compare prices before buying” does not claim that every customer compares prices every time.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "More often than not, customers compare prices before buying."
+      ]
+    },
+    {
+      "id": "ss210-rule-02",
+      "zh": "它的語氣比 often 更強 Often 只表示「經常」，未必代表超過一半的情況。 More often than not 則表示某種情況出現的次數，通常多於相反情況。",
+      "en": "More often than not is stronger than often and normally means a situation occurs more frequently than the opposite.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss210-rule-03",
+      "zh": "這是一個固定片語 必須使用： 不可寫成：",
+      "en": "This is a fixed phrase. Use: more often than not. Do not write: more often that not; most often than not; or more usually than not.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "more often than not",
+        "more often that not",
+        "most often than not",
+        "more usually than not"
+      ]
+    },
+    {
+      "id": "ss210-rule-04",
+      "zh": "放在句首時，後面通常使用逗號 在較進階的句子中，時間或條件片語可以放在前面：",
+      "en": "At the beginning of a sentence, normally put a comma after the phrase: More often than not, people choose the simpler option. In a more advanced sentence, a time or condition clause may precede it: When rules are unclear, more often than not, people follow their own assumptions.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "More often than not, people choose the simpler option.",
+        "When rules are unclear, more often than not, people follow their own assumptions."
+      ]
+    },
+    {
+      "id": "ss210-rule-05",
+      "zh": "它適合描述反覆出現的情況或一般趨勢 它通常用來談論： ● 習慣； ● 常見行為； ● 經驗所得； ● 社會趨勢； ● 經常出現的結果。 它一般不用來描述只發生一次的獨立事件。",
+      "en": "Use it for recurring situations and general tendencies, including habits, common behaviour, patterns learned from experience, social trends and frequently occurring outcomes. It is not normally used for a single isolated event.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss210-rule-06",
+      "zh": "改寫時須保留原句的語氣 原句表示「通常」時，答案不可改成： 否則會把原意說得過於絕對。",
+      "en": "Preserve the original degree of certainty when rewriting. If the source means usually, do not change it to always, certainly, or without exception, because that makes the meaning too absolute.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss210-benefit-01",
+      "zh": "清楚指出最常見的情況 這個句型能讓讀者立即知道，你正在描述一般情況，而不是罕見例外。 （多數情況下，小問題越早處理，越容易解決。）",
+      "en": "It clearly identifies the most common situation and tells the reader that you are describing the general pattern rather than a rare exception. Example: More often than not, small problems are easier to solve early.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss210-benefit-02",
+      "zh": "作出概括時不會說得過於絕對 你可以表達一個明顯趨勢，同時承認事情仍可能有例外。這令說法較審慎，也較可信。 例如： 這句表示所有人每一次都抗拒改變，語氣過於絕對。 這句指出常見情況，但沒有聲稱毫無例外。",
+      "en": "It makes a generalisation without sounding absolute. You can state a clear tendency while admitting exceptions, which makes the claim more cautious and credible. “People always resist change” is too absolute. “More often than not, people resist change when they feel uncertain” describes a common pattern without claiming there are no exceptions.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss210-benefit-03",
+      "zh": "可以縮短較長的解釋 不用寫： 你可以較直接地寫： 這個片語本身已包含「通常如此，但並非每次如此」的意思。",
+      "en": "It shortens a longer explanation. Compare: In most cases, people choose the simpler option, although there are some exceptions. More often than not, people choose the simpler option. The phrase itself carries the idea that this is usual but not universal.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss210-benefit-04",
+      "zh": "避免重複使用 usually 學生在作文和說話中經常重複使用 usually。 More often than not 提供另一種自然表達方法，令句式較有變化。",
+      "en": "It avoids repeatedly using usually. Learners often overuse usually in speech and writing; More often than not provides a natural alternative and adds sentence variety.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss210-benefit-05",
+      "zh": "可以先突出主要趨勢 把 More often than not 放在句首，可以先提醒讀者注意最常見的結果，再說明具體內容。 讀者在句子開頭便知道，接下來描述的是一種常見規律。",
+      "en": "It foregrounds the main trend. Placing More often than not first tells the reader from the outset that the sentence describes a common pattern: More often than not, clear communication prevents unnecessary conflict.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss210-benefit-06",
+      "zh": "可以作為即用的說話框架 在討論經驗、行為、工作模式或社會現象時，可以直接使用： 這個框架能幫助你迅速組織答案，而不必從零開始設計整句。",
+      "en": "It provides a ready-made speaking frame for discussing experience, behaviour, work patterns or social phenomena: More often than not, + your main observation. The frame helps you organise an answer quickly without designing the whole sentence from scratch.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 209; it is assigned system ID ss210 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: More often than not, + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「More often than not, + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss210-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Students usually understand a rule better after seeing an example.",
+      "promptZh": "學生看到例子後，通常會更容易明白一條規則。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, students understand a rule better after seeing an example.",
+      "answerZh": "多數情況下，學生看到例子後會更容易明白一條規則。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, students understand a rule better after seeing an example."
+    },
+    {
+      "id": "ss210-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Most of the time, I make coffee before checking my phone.",
+      "promptZh": "大多數時候，我會先沖咖啡才查看手提電話。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, I make coffee before checking my phone.",
+      "answerZh": "多數時候，我會先沖咖啡才查看手提電話。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, I make coffee before checking my phone."
+    },
+    {
+      "id": "ss210-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "In most cases, buses arrive on time during the morning rush.",
+      "promptZh": "大多數情況下，巴士在早上繁忙時間都會準時到達。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, buses arrive on time during the morning rush.",
+      "answerZh": "多數情況下，巴士在早上繁忙時間都會準時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, buses arrive on time during the morning rush."
+    },
+    {
+      "id": "ss210-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Generally, clear instructions prevent unnecessary mistakes.",
+      "promptZh": "一般而言，清晰的指示能防止不必要的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, clear instructions prevent unnecessary mistakes.",
+      "answerZh": "多數情況下，清晰的指示能防止不必要的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, clear instructions prevent unnecessary mistakes."
+    },
+    {
+      "id": "ss210-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "A short walk usually helps me clear my mind.",
+      "promptZh": "短暫散步通常能幫我整理思緒。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, a short walk helps me clear my mind.",
+      "answerZh": "多數情況下，短暫散步能幫我整理思緒。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, a short walk helps me clear my mind."
+    },
+    {
+      "id": "ss210-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "People tend to choose the simpler option.",
+      "promptZh": "人們往往會選擇較簡單的做法。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, people choose the simpler option.",
+      "answerZh": "多數情況下，人們會選擇較簡單的做法。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, people choose the simpler option."
+    },
+    {
+      "id": "ss210-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What do children normally copy? They copy what adults do rather than what adults say.",
+      "promptZh": "兒童通常模仿甚麼？他們會模仿成年人所做的事，而不是成年人所說的話。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, children copy what adults do rather than what adults say.",
+      "answerZh": "多數情況下，兒童會模仿成年人所做的事，而不是成年人所說的話。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, children copy what adults do rather than what adults say."
+    },
+    {
+      "id": "ss210-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It is common for customers to ask about price before quality.",
+      "promptZh": "顧客先問價錢，再問品質，是很常見的事。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, customers ask about price before quality.",
+      "answerZh": "多數情況下，顧客會先問價錢，再問品質。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, customers ask about price before quality."
+    },
+    {
+      "id": "ss210-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The first solution is usually not the best one.",
+      "promptZh": "第一個解決方法通常不是最好的。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, the first solution is not the best one.",
+      "answerZh": "多數情況下，第一個解決方法並不是最好的。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, the first solution is not the best one."
+    },
+    {
+      "id": "ss210-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Good habits are not normally built overnight. They are usually built through small daily actions.",
+      "promptZh": "良好習慣通常不是一夜之間養成的，而是透過每天的小行動建立起來的。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, good habits are built through small daily actions rather than overnight.",
+      "answerZh": "多數情況下，良好習慣是透過每天的小行動建立起來的，而不是一夜之間養成的。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, good habits are built through small daily actions rather than overnight."
+    },
+    {
+      "id": "ss210-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The kitchen is usually busiest just before dinner.",
+      "promptZh": "廚房通常在晚餐前最忙碌。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, the kitchen is busiest just before dinner.",
+      "answerZh": "多數情況下，廚房在晚餐前最忙碌。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, the kitchen is busiest just before dinner."
+    },
+    {
+      "id": "ss210-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "People generally do not notice gradual change until it becomes obvious.",
+      "promptZh": "人們一般要到漸進的變化變得明顯時，才會察覺它。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, people do not notice gradual change until it becomes obvious.",
+      "answerZh": "多數情況下，人們要到漸進的變化變得明顯時，才會察覺它。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, people do not notice gradual change until it becomes obvious."
+    },
+    {
+      "id": "ss210-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Lost property is usually returned to the service desk.",
+      "promptZh": "遺失物品通常會被送到服務台。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, lost property is returned to the service desk.",
+      "answerZh": "多數情況下，遺失物品會被送到服務台。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, lost property is returned to the service desk."
+    },
+    {
+      "id": "ss210-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Nervous speakers tend to rush through their opening lines.",
+      "promptZh": "緊張的講者往往會匆忙講完開場幾句。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, nervous speakers rush through their opening lines.",
+      "answerZh": "多數情況下，緊張的講者會匆忙講完開場幾句。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, nervous speakers rush through their opening lines."
+    },
+    {
+      "id": "ss210-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In the majority of cases, small misunderstandings are easier to solve early.",
+      "promptZh": "大多數情況下，小誤會越早處理，越容易解決。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, small misunderstandings are easier to solve early.",
+      "answerZh": "多數情況下，小誤會越早處理，越容易解決。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, small misunderstandings are easier to solve early."
+    },
+    {
+      "id": "ss210-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What do passengers normally do while waiting? They look at their phones.",
+      "promptZh": "乘客等候時通常會做甚麼？他們會查看手提電話。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, passengers look at their phones while waiting.",
+      "answerZh": "多數情況下，乘客等候時會查看手提電話。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, passengers look at their phones while waiting."
+    },
+    {
+      "id": "ss210-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A careful reader will usually spot the clue before reaching the final paragraph.",
+      "promptZh": "細心的讀者通常會在讀到最後一段前發現線索。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, a careful reader will spot the clue before reaching the final paragraph.",
+      "answerZh": "多數情況下，細心的讀者會在讀到最後一段前發現線索。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, a careful reader will spot the clue before reaching the final paragraph."
+    },
+    {
+      "id": "ss210-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is usually the quietest person in the room who has something valuable to add.",
+      "promptZh": "通常是房間裏最安靜的人有值得補充的意見。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, the quietest person in the room has something valuable to add.",
+      "answerZh": "多數情況下，房間裏最安靜的人會有值得補充的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, the quietest person in the room has something valuable to add."
+    },
+    {
+      "id": "ss210-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Online arguments generally create more anger than understanding.",
+      "promptZh": "網上爭論通常帶來更多憤怒，而不是理解。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, online arguments create more anger than understanding.",
+      "answerZh": "多數情況下，網上爭論帶來的憤怒多於理解。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, online arguments create more anger than understanding."
+    },
+    {
+      "id": "ss210-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A plan may look complete before work begins. It usually changes once real work starts.",
+      "promptZh": "計劃在工作開始前可能看似完整，但實際工作開始後通常仍會改變。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, a plan that looks complete before work begins changes once real work starts.",
+      "answerZh": "多數情況下，在工作開始前看似完整的計劃，會在實際工作開始後改變。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, a plan that looks complete before work begins changes once real work starts."
+    },
+    {
+      "id": "ss210-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although there are exceptions, people usually remember kindness longer than clever words.",
+      "promptZh": "雖然有例外，人們通常記得別人的善意，比記得機智的說話更久。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, people remember kindness longer than clever words.",
+      "answerZh": "多數情況下，人們記得別人的善意，比記得機智的說話更久。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, people remember kindness longer than clever words."
+    },
+    {
+      "id": "ss210-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In most situations, first impressions are shaped by tone as much as content.",
+      "promptZh": "大多數情況下，第一印象受語氣與內容同樣影響。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, first impressions are shaped by tone as much as content.",
+      "answerZh": "多數情況下，第一印象受語氣與內容同樣影響。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, first impressions are shaped by tone as much as content."
+    },
+    {
+      "id": "ss210-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You can usually solve a problem faster by defining it clearly.",
+      "promptZh": "你通常可以透過清楚界定問題，更快解決它。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, you can solve a problem faster by defining it clearly.",
+      "answerZh": "多數情況下，你可以透過清楚界定問題，更快解決它。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, you can solve a problem faster by defining it clearly."
+    },
+    {
+      "id": "ss210-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If one shop is crowded, customers normally try another one nearby.",
+      "promptZh": "如果一間店舖太擠迫，顧客通常會嘗試附近另一間。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If one shop is crowded, more often than not, customers try another one nearby.",
+      "answerZh": "如果一間店舖太擠迫，多數情況下，顧客會嘗試附近另一間。",
+      "answerZhSource": "pdf",
+      "highlight": "If one shop is crowded, more often than not, customers try another one nearby."
+    },
+    {
+      "id": "ss210-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Minor complaints are resolved through a simple explanation in most cases.",
+      "promptZh": "大多數情況下，輕微投訴可以透過簡單解釋解決。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, minor complaints are resolved through a simple explanation.",
+      "answerZh": "多數情況下，輕微投訴可以透過簡單解釋解決。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, minor complaints are resolved through a simple explanation."
+    },
+    {
+      "id": "ss210-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What seems like laziness is usually a sign of uncertainty.",
+      "promptZh": "看似懶惰的表現，通常是不確定的跡象。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, what seems like laziness is a sign of uncertainty.",
+      "answerZh": "多數情況下，看似懶惰的表現，其實是不確定的跡象。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, what seems like laziness is a sign of uncertainty."
+    },
+    {
+      "id": "ss210-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Workers who ask questions early generally make fewer costly mistakes later.",
+      "promptZh": "提早提問的員工，一般會在之後少犯代價高昂的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, workers who ask questions early make fewer costly mistakes later.",
+      "answerZh": "多數情況下，提早提問的員工會在之後少犯代價高昂的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, workers who ask questions early make fewer costly mistakes later."
+    },
+    {
+      "id": "ss210-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What usually happens to a tool that saves time? It becomes part of the daily routine.",
+      "promptZh": "能節省時間的工具通常會有甚麼結果？它會成為日常工作的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, a tool that saves time becomes part of the daily routine.",
+      "answerZh": "多數情況下，能節省時間的工具會成為日常工作的一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, a tool that saves time becomes part of the daily routine."
+    },
+    {
+      "id": "ss210-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "People do not usually change their minds because of one fact alone.",
+      "promptZh": "人們通常不會只因一項事實而改變想法。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, people do not change their minds because of one fact alone.",
+      "answerZh": "多數情況下，人們不會只因一項事實而改變想法。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, people do not change their minds because of one fact alone."
+    },
+    {
+      "id": "ss210-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As a rule, success comes from consistency rather than sudden inspiration.",
+      "promptZh": "一般而言，成功來自持之以恆，而不是突如其來的靈感。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, success comes from consistency rather than sudden inspiration.",
+      "answerZh": "多數情況下，成功來自持之以恆，而不是突如其來的靈感。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, success comes from consistency rather than sudden inspiration."
+    },
+    {
+      "id": "ss210-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "During busy periods, she usually stays calm even when the timetable changes.",
+      "promptZh": "在繁忙時期，即使時間表有變，她通常仍能保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During busy periods, more often than not, she stays calm even when the timetable changes.",
+      "answerZh": "在繁忙時期，多數情況下，即使時間表有變，她仍能保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "During busy periods, more often than not, she stays calm even when the timetable changes."
+    },
+    {
+      "id": "ss210-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Projects that start without clear roles usually need extra meetings.",
+      "promptZh": "在沒有明確分工下展開的項目，通常需要額外會議。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, projects that start without clear roles need extra meetings.",
+      "answerZh": "多數情況下，在沒有明確分工下展開的項目需要額外會議。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, projects that start without clear roles need extra meetings."
+    },
+    {
+      "id": "ss210-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When a meeting runs long, the main issue has usually not been defined clearly at the start.",
+      "promptZh": "當會議拖長時，核心問題通常在一開始便沒有被清楚界定。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When a meeting runs long, more often than not, the main issue has not been defined clearly at the start.",
+      "answerZh": "當會議拖長時，多數情況下，核心問題在一開始便沒有被清楚界定。",
+      "answerZhSource": "pdf",
+      "highlight": "When a meeting runs long, more often than not, the main issue has not been defined clearly at the start."
+    },
+    {
+      "id": "ss210-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Important details are generally missed when several tasks are handled at once.",
+      "promptZh": "同時處理多項工作時，重要細節通常會被忽略。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, important details are missed when several tasks are handled at once.",
+      "answerZh": "多數情況下，同時處理多項工作時，重要細節會被忽略。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, important details are missed when several tasks are handled at once."
+    },
+    {
+      "id": "ss210-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "How do managers usually prevent conflict? They explain the reason behind a decision.",
+      "promptZh": "經理通常如何防止衝突？他們會解釋決定背後的原因。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, managers prevent conflict by explaining the reason behind a decision.",
+      "answerZh": "多數情況下，經理透過解釋決定背後的原因來防止衝突。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, managers prevent conflict by explaining the reason behind a decision."
+    },
+    {
+      "id": "ss210-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When people feel heard, they tend to become more willing to cooperate.",
+      "promptZh": "當人們感到自己的意見獲得聆聽時，他們往往更願意合作。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When people feel heard, more often than not, they become more willing to cooperate.",
+      "answerZh": "當人們感到自己的意見獲得聆聽時，多數情況下，他們會更願意合作。",
+      "answerZhSource": "pdf",
+      "highlight": "When people feel heard, more often than not, they become more willing to cooperate."
+    },
+    {
+      "id": "ss210-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The most useful feedback is usually specific rather than harsh.",
+      "promptZh": "最有用的意見通常是具體的，而不是苛刻的。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, the most useful feedback is specific rather than harsh.",
+      "answerZh": "多數情況下，最有用的意見是具體的，而不是苛刻的。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, the most useful feedback is specific rather than harsh."
+    },
+    {
+      "id": "ss210-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The usual outcome of a rushed repair is another problem.",
+      "promptZh": "倉促維修的通常結果，是造成另一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, a rushed repair creates another problem.",
+      "answerZh": "多數情況下，倉促維修會造成另一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, a rushed repair creates another problem."
+    },
+    {
+      "id": "ss210-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In everyday life, advice generally sounds simple only after someone else has done the hard thinking.",
+      "promptZh": "在日常生活中，只有在別人完成艱難的思考後，建議通常才顯得簡單。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, advice sounds simple only after someone else has done the hard thinking.",
+      "answerZh": "多數情況下，只有在別人完成艱難的思考後，建議才顯得簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, advice sounds simple only after someone else has done the hard thinking."
+    },
+    {
+      "id": "ss210-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A shortcut that looks attractive usually creates more work later.",
+      "promptZh": "看來吸引的捷徑，通常會在之後帶來更多工作。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, a shortcut that looks attractive creates more work later.",
+      "answerZh": "多數情況下，看來吸引的捷徑會在之後帶來更多工作。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, a shortcut that looks attractive creates more work later."
+    },
+    {
+      "id": "ss210-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Schools generally improve attendance when they speak with families early.",
+      "promptZh": "學校一般在及早與家庭溝通後，能改善出席率。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, schools improve attendance when they speak with families early.",
+      "answerZh": "多數情況下，學校及早與家庭溝通時，能改善出席率。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, schools improve attendance when they speak with families early."
+    },
+    {
+      "id": "ss210-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When rules are unclear, people usually follow their own assumptions.",
+      "promptZh": "規則不清楚時，人們通常會按照自己的假設行事。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When rules are unclear, more often than not, people follow their own assumptions.",
+      "answerZh": "規則不清楚時，多數情況下，人們會按照自己的假設行事。",
+      "answerZhSource": "pdf",
+      "highlight": "When rules are unclear, more often than not, people follow their own assumptions."
+    },
+    {
+      "id": "ss210-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Teams usually perform better when every member knows who owns each task.",
+      "promptZh": "當每名成員都知道每項工作由誰負責時，團隊通常表現得更好。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, teams perform better when every member knows who owns each task.",
+      "answerZh": "多數情況下，當每名成員都知道每項工作由誰負責時，團隊表現得更好。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, teams perform better when every member knows who owns each task."
+    },
+    {
+      "id": "ss210-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Technology usually removes routine work, but it does not remove the need for judgement.",
+      "promptZh": "科技通常能減少例行工作，但不能消除作出判斷的需要。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, technology removes routine work but does not remove the need for judgement.",
+      "answerZh": "多數情況下，科技能減少例行工作，但不能消除作出判斷的需要。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, technology removes routine work but does not remove the need for judgement."
+    },
+    {
+      "id": "ss210-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A decision made under pressure normally needs to be reviewed later.",
+      "promptZh": "在壓力下作出的決定，通常需要日後重新檢視。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, a decision made under pressure needs to be reviewed later.",
+      "answerZh": "多數情況下，在壓力下作出的決定需要日後重新檢視。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, a decision made under pressure needs to be reviewed later."
+    },
+    {
+      "id": "ss210-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "What do people who listen carefully usually ask? They ask better questions.",
+      "promptZh": "仔細聆聽的人通常會提出甚麼？他們會提出更好的問題。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, people who listen carefully ask better questions.",
+      "answerZh": "多數情況下，仔細聆聽的人會提出更好的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, people who listen carefully ask better questions."
+    },
+    {
+      "id": "ss210-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If a message can be interpreted in two ways, readers usually choose the less generous interpretation.",
+      "promptZh": "如果一則訊息可以有兩種解讀，讀者通常會選擇較不善意的理解。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If a message can be interpreted in two ways, more often than not, readers choose the less generous interpretation.",
+      "answerZh": "如果一則訊息可以有兩種解讀，多數情況下，讀者會選擇較不善意的理解。",
+      "answerZhSource": "pdf",
+      "highlight": "If a message can be interpreted in two ways, more often than not, readers choose the less generous interpretation."
+    },
+    {
+      "id": "ss210-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After new information appears, even strong plans usually need adjustment.",
+      "promptZh": "出現新資料後，即使是周詳的計劃，通常也需要調整。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After new information appears, more often than not, even strong plans need adjustment.",
+      "answerZh": "出現新資料後，多數情況下，即使是周詳的計劃也需要調整。",
+      "answerZhSource": "pdf",
+      "highlight": "After new information appears, more often than not, even strong plans need adjustment."
+    },
+    {
+      "id": "ss210-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Understanding an idea is not usually the hardest part of learning. Using it consistently is usually the hardest part.",
+      "promptZh": "理解一個概念通常不是學習中最困難的部分；持續運用它通常才是最困難的部分。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, the hardest part of learning is not understanding an idea but using it consistently.",
+      "answerZh": "多數情況下，學習最困難的部分不是理解一個概念，而是持續運用它。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, the hardest part of learning is not understanding an idea but using it consistently."
+    },
+    {
+      "id": "ss210-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Organisations that treat every problem as urgent tend eventually to lose sight of what truly matters.",
+      "promptZh": "把每個問題都視為緊急事項的機構，最終往往會看不清真正重要的事。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More often than not, organisations that treat every problem as urgent eventually lose sight of what truly matters.",
+      "answerZh": "多數情況下，把每個問題都視為緊急事項的機構，最終會看不清真正重要的事。",
+      "answerZhSource": "pdf",
+      "highlight": "More often than not, organisations that treat every problem as urgent eventually lose sight of what truly matters."
+    }
+  ]
+}

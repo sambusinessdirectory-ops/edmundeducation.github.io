@@ -9825,6 +9825,838 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "sentence-structure.html?lesson=ss114"
   },
   {
+    "id": "sentence:ss115",
+    "type": "sentence-structure",
+    "ordinal": 115,
+    "label": "#115 · 「Far from + 形容詞」表示「遠未／絕非」",
+    "detail": "Sentence Structure #115 · Using far from + adjective to express a large gap from a standard",
+    "url": "sentence-structure.html?lesson=ss115"
+  },
+  {
+    "id": "sentence:ss116",
+    "type": "sentence-structure",
+    "ordinal": 116,
+    "label": "#116 · 「Once 句：一旦……／……之後便……」",
+    "detail": "Sentence Structure #116 · Using once to show what happens after a stage is reached",
+    "url": "sentence-structure.html?lesson=ss116"
+  },
+  {
+    "id": "sentence:ss117",
+    "type": "sentence-structure",
+    "ordinal": 117,
+    "label": "#117 · 「By the time」表示「到……時已經……」",
+    "detail": "Sentence Structure #117 · Using by the time to show earlier completion",
+    "url": "sentence-structure.html?lesson=ss117"
+  },
+  {
+    "id": "sentence:ss118",
+    "type": "sentence-structure",
+    "ordinal": 118,
+    "label": "#118 · 「The moment _ the minute」表示「一……便……」",
+    "detail": "Sentence Structure #118 · Using the moment / the minute to show immediate sequence",
+    "url": "sentence-structure.html?lesson=ss118"
+  },
+  {
+    "id": "sentence:ss119",
+    "type": "sentence-structure",
+    "ordinal": 119,
+    "label": "#119 · 「Now that 句」",
+    "detail": "Sentence Structure #119 · Using now that to explain a result of a changed situation",
+    "url": "sentence-structure.html?lesson=ss119"
+  },
+  {
+    "id": "sentence:ss120",
+    "type": "sentence-structure",
+    "ordinal": 120,
+    "label": "#120 · 「縮短副詞子句：when _ while _ if」",
+    "detail": "Sentence Structure #120 · Reducing adverb clauses with when, while and if",
+    "url": "sentence-structure.html?lesson=ss120"
+  },
+  {
+    "id": "sentence:ss121",
+    "type": "sentence-structure",
+    "ordinal": 121,
+    "label": "#121 · 「Parenthetical Insertion 句」",
+    "detail": "Sentence Structure #121 · Using a parenthetical sentence adverb after the subject",
+    "url": "sentence-structure.html?lesson=ss121"
+  },
+  {
+    "id": "sentence:ss122",
+    "type": "sentence-structure",
+    "ordinal": 122,
+    "label": "#122 · 「So _ Neither _ Nor + Auxiliary」表示「……也是／……也不」",
+    "detail": "Sentence Structure #122 · Using so, neither and nor with an auxiliary to express agreement",
+    "url": "sentence-structure.html?lesson=ss122"
+  },
+  {
+    "id": "sentence:ss123",
+    "type": "sentence-structure",
+    "ordinal": 123,
+    "label": "#123 · 「Ellipsis 省略句：and + subject + auxiliary + too _ either」",
+    "detail": "Sentence Structure #123 · Using ellipsis with too and either to avoid repetition",
+    "url": "sentence-structure.html?lesson=ss123"
+  },
+  {
+    "id": "sentence:ss124",
+    "type": "sentence-structure",
+    "ordinal": 124,
+    "label": "#124 · 「Per se 句：表達『本身／就其本身而言』」",
+    "detail": "Sentence Structure #124 · Using per se to distinguish a thing itself from its context",
+    "url": "sentence-structure.html?lesson=ss124"
+  },
+  {
+    "id": "sentence:ss125",
+    "type": "sentence-structure",
+    "ordinal": 125,
+    "label": "#125 · 「By no means _ Under no circumstances _ Never」句首否定倒裝句",
+    "detail": "Sentence Structure #125 · Using negative fronting with by no means, under no circumstances and never",
+    "url": "sentence-structure.html?lesson=ss125"
+  },
+  {
+    "id": "sentence:ss126",
+    "type": "sentence-structure",
+    "ordinal": 126,
+    "label": "#126 · 「Somehow 句」",
+    "detail": "Sentence Structure #126 · Using somehow to express an unknown method, cause or unexpected success",
+    "url": "sentence-structure.html?lesson=ss126"
+  },
+  {
+    "id": "sentence:ss127",
+    "type": "sentence-structure",
+    "ordinal": 127,
+    "label": "#127 · 「Somewhat 句」",
+    "detail": "Sentence Structure #127 · Using somewhat as an adverb of degree",
+    "url": "sentence-structure.html?lesson=ss127"
+  },
+  {
+    "id": "sentence:ss128",
+    "type": "sentence-structure",
+    "ordinal": 128,
+    "label": "#128 · 「Insofar as 句：限制範圍、程度或適用條件」",
+    "detail": "Sentence Structure #128 · Using insofar as to limit scope, degree or applicability",
+    "url": "sentence-structure.html?lesson=ss128"
+  },
+  {
+    "id": "sentence:ss129",
+    "type": "sentence-structure",
+    "ordinal": 129,
+    "label": "#129 · 「in the sense that」精確說明意思句",
+    "detail": "Sentence Structure #129 · Using in the sense that to define a precise meaning",
+    "url": "sentence-structure.html?lesson=ss129"
+  },
+  {
+    "id": "sentence:ss130",
+    "type": "sentence-structure",
+    "ordinal": 130,
+    "label": "#130 · 「in that」說明具體方面／特定理由",
+    "detail": "Sentence Structure #130 · Using in that to explain a specific respect or reason",
+    "url": "sentence-structure.html?lesson=ss130"
+  },
+  {
+    "id": "sentence:ss131",
+    "type": "sentence-structure",
+    "ordinal": 131,
+    "label": "#131 · 「In that sense」從這個角度來說",
+    "detail": "Sentence Structure #131 · Using in that sense to draw a conclusion from a stated perspective",
+    "url": "sentence-structure.html?lesson=ss131"
+  },
+  {
+    "id": "sentence:ss132",
+    "type": "sentence-structure",
+    "ordinal": 132,
+    "label": "#132 · 「The fact that 句」",
+    "detail": "Sentence Structure #132 · Using the fact that to treat an established situation as a noun unit",
+    "url": "sentence-structure.html?lesson=ss132"
+  },
+  {
+    "id": "sentence:ss133",
+    "type": "sentence-structure",
+    "ordinal": 133,
+    "label": "#133 · 「The Idea That 句」",
+    "detail": "Sentence Structure #133 · Using the idea that to name the content of a view or concept",
+    "url": "sentence-structure.html?lesson=ss133"
+  },
+  {
+    "id": "sentence:ss134",
+    "type": "sentence-structure",
+    "ordinal": 134,
+    "label": "#134 · 「Imperative 命令句（祈使句）」",
+    "detail": "Sentence Structure #134 · Using imperative clauses for commands, instructions and requests",
+    "url": "sentence-structure.html?lesson=ss134"
+  },
+  {
+    "id": "sentence:ss135",
+    "type": "sentence-structure",
+    "ordinal": 135,
+    "label": "#135 · 「What + 名詞（+ 主語 + 動詞）」感嘆句",
+    "detail": "Sentence Structure #135 · Using What + noun in exclamative sentences",
+    "url": "sentence-structure.html?lesson=ss135"
+  },
+  {
+    "id": "sentence:ss136",
+    "type": "sentence-structure",
+    "ordinal": 136,
+    "label": "#136 · 「Especially + 例子／特別情況」句",
+    "detail": "Sentence Structure #136 · Using especially to highlight an example or special situation",
+    "url": "sentence-structure.html?lesson=ss136"
+  },
+  {
+    "id": "sentence:ss137",
+    "type": "sentence-structure",
+    "ordinal": 137,
+    "label": "#137 · 「Based on」表示「根據／以……為依據」",
+    "detail": "Sentence Structure #137 · Using based on to state the basis for a judgement or action",
+    "url": "sentence-structure.html?lesson=ss137"
+  },
+  {
+    "id": "sentence:ss138",
+    "type": "sentence-structure",
+    "ordinal": 138,
+    "label": "#138 · 「According to」引述資料來源句",
+    "detail": "Sentence Structure #138 · Using according to to attribute information to a source",
+    "url": "sentence-structure.html?lesson=ss138"
+  },
+  {
+    "id": "sentence:ss139",
+    "type": "sentence-structure",
+    "ordinal": 139,
+    "label": "#139 · 「More importantly：帶出更重要的一點」",
+    "detail": "Sentence Structure #139 · Using more importantly to introduce a higher-priority point",
+    "url": "sentence-structure.html?lesson=ss139"
+  },
+  {
+    "id": "sentence:ss140",
+    "type": "sentence-structure",
+    "ordinal": 140,
+    "label": "#140 · 「Put simply」簡單來說句",
+    "detail": "Sentence Structure #140 · Using put simply to restate a complex idea clearly",
+    "url": "sentence-structure.html?lesson=ss140"
+  },
+  {
+    "id": "sentence:ss141",
+    "type": "sentence-structure",
+    "ordinal": 141,
+    "label": "#141 · 「In other words」換言說明句",
+    "detail": "Sentence Structure #141 · Using in other words to give an equivalent clearer restatement",
+    "url": "sentence-structure.html?lesson=ss141"
+  },
+  {
+    "id": "sentence:ss142",
+    "type": "sentence-structure",
+    "ordinal": 142,
+    "label": "#142 · 「That said」承認前點後再作轉折",
+    "detail": "Sentence Structure #142 · Using that said to acknowledge a point before qualifying it",
+    "url": "sentence-structure.html?lesson=ss142"
+  },
+  {
+    "id": "sentence:ss143",
+    "type": "sentence-structure",
+    "ordinal": 143,
+    "label": "#143 · 「WH + to-infinitive 名詞句」",
+    "detail": "Sentence Structure #143 · Using WH + to-infinitive as a noun phrase",
+    "url": "sentence-structure.html?lesson=ss143"
+  },
+  {
+    "id": "sentence:ss144",
+    "type": "sentence-structure",
+    "ordinal": 144,
+    "label": "#144 · 「If + Were _ Past Tense」完全假設句",
+    "detail": "Sentence Structure #144 · Using the second conditional for unreal or unlikely situations",
+    "url": "sentence-structure.html?lesson=ss144"
+  },
+  {
+    "id": "sentence:ss145",
+    "type": "sentence-structure",
+    "ordinal": 145,
+    "label": "#145 · 「If + were to」句（較遙遠的未來假設）",
+    "detail": "Sentence Structure #145 · Using if + were to for a more remote future hypothesis",
+    "url": "sentence-structure.html?lesson=ss145"
+  },
+  {
+    "id": "sentence:ss146",
+    "type": "sentence-structure",
+    "ordinal": 146,
+    "label": "#146 · 「, which」因果句",
+    "detail": "Sentence Structure #146 · Using a non-defining which-clause to express a result",
+    "url": "sentence-structure.html?lesson=ss146"
+  },
+  {
+    "id": "sentence:ss147",
+    "type": "sentence-structure",
+    "ordinal": 147,
+    "label": "#147 · 「主句, V-ing」因果／結果句",
+    "detail": "Sentence Structure #147 · Using a supplementary -ing clause to express a result",
+    "url": "sentence-structure.html?lesson=ss147"
+  },
+  {
+    "id": "sentence:ss148",
+    "type": "sentence-structure",
+    "ordinal": 148,
+    "label": "#148 · 「Thereby 句」",
+    "detail": "Sentence Structure #148 · Using thereby + -ing to state a direct result",
+    "url": "sentence-structure.html?lesson=ss148"
+  },
+  {
+    "id": "sentence:ss149",
+    "type": "sentence-structure",
+    "ordinal": 149,
+    "label": "#149 · 「Thereafter 句」",
+    "detail": "Sentence Structure #149 · Using thereafter to introduce a later event or state",
+    "url": "sentence-structure.html?lesson=ss149"
+  },
+  {
+    "id": "sentence:ss150",
+    "type": "sentence-structure",
+    "ordinal": 150,
+    "label": "#150 · 「All-cleft 句」",
+    "detail": "Sentence Structure #150 · Using the All-cleft to emphasise the only or most important point",
+    "url": "sentence-structure.html?lesson=ss150"
+  },
+  {
+    "id": "sentence:ss151",
+    "type": "sentence-structure",
+    "ordinal": 151,
+    "label": "#151 · 「It-Cleft 強調句」",
+    "detail": "Sentence Structure #151 · Using the It-cleft to emphasise a person, thing, time, place, reason or method",
+    "url": "sentence-structure.html?lesson=ss151"
+  },
+  {
+    "id": "sentence:ss152",
+    "type": "sentence-structure",
+    "ordinal": 152,
+    "label": "#152 · 「Should you + 動詞原形」正式條件倒裝句",
+    "detail": "Sentence Structure #152 · Using Should you for formal conditional inversion",
+    "url": "sentence-structure.html?lesson=ss152"
+  },
+  {
+    "id": "sentence:ss153",
+    "type": "sentence-structure",
+    "ordinal": 153,
+    "label": "#153 · 「Had + 主語 + 過去分詞」過去完全假設倒裝句",
+    "detail": "Sentence Structure #153 · Using Had + subject + past participle for an inverted third conditional",
+    "url": "sentence-structure.html?lesson=ss153"
+  },
+  {
+    "id": "sentence:ss154",
+    "type": "sentence-structure",
+    "ordinal": 154,
+    "label": "#154 · 「Alternative Questions 選擇問句」",
+    "detail": "Sentence Structure #154 · Using alternative questions to offer stated choices",
+    "url": "sentence-structure.html?lesson=ss154"
+  },
+  {
+    "id": "sentence:ss155",
+    "type": "sentence-structure",
+    "ordinal": 155,
+    "label": "#155 · 「Declarative Question 陳述式問句」",
+    "detail": "Sentence Structure #155 · Using declarative questions for confirmation, surprise or follow-up",
+    "url": "sentence-structure.html?lesson=ss155"
+  },
+  {
+    "id": "sentence:ss156",
+    "type": "sentence-structure",
+    "ordinal": 156,
+    "label": "#156 · 「Supposing that ...」提出假設情況",
+    "detail": "Sentence Structure #156 · Using Supposing that to introduce a hypothetical situation",
+    "url": "sentence-structure.html?lesson=ss156"
+  },
+  {
+    "id": "sentence:ss157",
+    "type": "sentence-structure",
+    "ordinal": 157,
+    "label": "#157 · 「Assuming that…」假設前提句",
+    "detail": "Sentence Structure #157 · Using Assuming that to introduce an accepted assumption",
+    "url": "sentence-structure.html?lesson=ss157"
+  },
+  {
+    "id": "sentence:ss158",
+    "type": "sentence-structure",
+    "ordinal": 158,
+    "label": "#158 · 「All the more + adjective / adverb」句",
+    "detail": "Sentence Structure #158 · Using All the more with an adjective or adverb",
+    "url": "sentence-structure.html?lesson=ss158"
+  },
+  {
+    "id": "sentence:ss159",
+    "type": "sentence-structure",
+    "ordinal": 159,
+    "label": "#159 · 「All the more reason to …」表示「更有理由……」",
+    "detail": "Sentence Structure #159 · Using All the more reason to show stronger justification",
+    "url": "sentence-structure.html?lesson=ss159"
+  },
+  {
+    "id": "sentence:ss160",
+    "type": "sentence-structure",
+    "ordinal": 160,
+    "label": "#160 · 「All the same 句」",
+    "detail": "Sentence Structure #160 · Using All the same as a concessive connector",
+    "url": "sentence-structure.html?lesson=ss160"
+  },
+  {
+    "id": "sentence:ss161",
+    "type": "sentence-structure",
+    "ordinal": 161,
+    "label": "#161 · 「All the while」句",
+    "detail": "Sentence Structure #161 · Using All the while for a continuing or simultaneous situation",
+    "url": "sentence-structure.html?lesson=ss161"
+  },
+  {
+    "id": "sentence:ss162",
+    "type": "sentence-structure",
+    "ordinal": 162,
+    "label": "#162 · 「Not because…, but because…」澄清真正原因",
+    "detail": "Sentence Structure #162 · Using Not because…, but because… to clarify the real reason",
+    "url": "sentence-structure.html?lesson=ss162"
+  },
+  {
+    "id": "sentence:ss163",
+    "type": "sentence-structure",
+    "ordinal": 163,
+    "label": "#163 · 「Now is the best time to...」句",
+    "detail": "Sentence Structure #163 · Using Now is the best time to for timely action",
+    "url": "sentence-structure.html?lesson=ss163"
+  },
+  {
+    "id": "sentence:ss164",
+    "type": "sentence-structure",
+    "ordinal": 164,
+    "label": "#164 · 「Not that ..., but ...」句",
+    "detail": "Sentence Structure #164 · Using Not that ..., but ... to correct a possible misunderstanding",
+    "url": "sentence-structure.html?lesson=ss164"
+  },
+  {
+    "id": "sentence:ss165",
+    "type": "sentence-structure",
+    "ordinal": 165,
+    "label": "#165 · 「Even so」表示「即使如此／儘管如此」",
+    "detail": "Sentence Structure #165 · Using Even so to express a result that still holds",
+    "url": "sentence-structure.html?lesson=ss165"
+  },
+  {
+    "id": "sentence:ss166",
+    "type": "sentence-structure",
+    "ordinal": 166,
+    "label": "#166 · 「For all …」讓步句",
+    "detail": "Sentence Structure #166 · Using For all + noun phrase for concession",
+    "url": "sentence-structure.html?lesson=ss166"
+  },
+  {
+    "id": "sentence:ss167",
+    "type": "sentence-structure",
+    "ordinal": 167,
+    "label": "#167 · 「Do / Does / Did 強調句」",
+    "detail": "Sentence Structure #167 · Using emphatic do, does and did in affirmative clauses",
+    "url": "sentence-structure.html?lesson=ss167"
+  },
+  {
+    "id": "sentence:ss168",
+    "type": "sentence-structure",
+    "ordinal": 168,
+    "label": "#168 · 「Fronting 句：主題／賓語前置句」",
+    "detail": "Sentence Structure #168 · Using fronting to foreground a topic or object",
+    "url": "sentence-structure.html?lesson=ss168"
+  },
+  {
+    "id": "sentence:ss169",
+    "type": "sentence-structure",
+    "ordinal": 169,
+    "label": "#169 · 「There is no...」句",
+    "detail": "Sentence Structure #169 · Using There is no to express absence, lack or impossibility",
+    "url": "sentence-structure.html?lesson=ss169"
+  },
+  {
+    "id": "sentence:ss170",
+    "type": "sentence-structure",
+    "ordinal": 170,
+    "label": "#170 · 「There seems / seem to be 句」表達「似乎有……」",
+    "detail": "Sentence Structure #170 · Using There seems / seem to be to express uncertain existence",
+    "url": "sentence-structure.html?lesson=ss170"
+  },
+  {
+    "id": "sentence:ss171",
+    "type": "sentence-structure",
+    "ordinal": 171,
+    "label": "#171 · 「Have / Get + Something + V3」使役句",
+    "detail": "Sentence Structure #171 · Using Have / Get + object + past participle for arranged services",
+    "url": "sentence-structure.html?lesson=ss171"
+  },
+  {
+    "id": "sentence:ss172",
+    "type": "sentence-structure",
+    "ordinal": 172,
+    "label": "#172 · 「Get + 受詞 + to-infinitive」促成句",
+    "detail": "Sentence Structure #172 · Using Get + object + to-infinitive to cause or persuade",
+    "url": "sentence-structure.html?lesson=ss172"
+  },
+  {
+    "id": "sentence:ss173",
+    "type": "sentence-structure",
+    "ordinal": 173,
+    "label": "#173 · 「Much as 句」表達讓步與對比",
+    "detail": "Sentence Structure #173 · Using Much as for concession and contrast",
+    "url": "sentence-structure.html?lesson=ss173"
+  },
+  {
+    "id": "sentence:ss174",
+    "type": "sentence-structure",
+    "ordinal": 174,
+    "label": "#174 · 「Try as … might」讓步句",
+    "detail": "Sentence Structure #174 · Using Try as … might for unsuccessful effort",
+    "url": "sentence-structure.html?lesson=ss174"
+  },
+  {
+    "id": "sentence:ss175",
+    "type": "sentence-structure",
+    "ordinal": 175,
+    "label": "#175 · 「Be that as it may」表示「即便如此」",
+    "detail": "Sentence Structure #175 · Using Be that as it may to acknowledge and contrast",
+    "url": "sentence-structure.html?lesson=ss175"
+  },
+  {
+    "id": "sentence:ss176",
+    "type": "sentence-structure",
+    "ordinal": 176,
+    "label": "#176 · 「As + 形容詞 + as ... may be / may seem」表達讓步",
+    "detail": "Sentence Structure #176 · Using As + adjective + as ... may be / may seem for concession",
+    "url": "sentence-structure.html?lesson=ss176"
+  },
+  {
+    "id": "sentence:ss177",
+    "type": "sentence-structure",
+    "ordinal": 177,
+    "label": "#177 · 「to the extent that」表示「程度上的依存關係」",
+    "detail": "Sentence Structure #177 · Using To the extent that for a relationship of degree",
+    "url": "sentence-structure.html?lesson=ss177"
+  },
+  {
+    "id": "sentence:ss178",
+    "type": "sentence-structure",
+    "ordinal": 178,
+    "label": "#178 · 「In case of + noun」表示「如遇／若發生」",
+    "detail": "Sentence Structure #178 · Using In case of + noun for a possible situation",
+    "url": "sentence-structure.html?lesson=ss178"
+  },
+  {
+    "id": "sentence:ss179",
+    "type": "sentence-structure",
+    "ordinal": 179,
+    "label": "#179 · 「On condition that…」表示必要條件",
+    "detail": "Sentence Structure #179 · Using On condition that for a firm requirement",
+    "url": "sentence-structure.html?lesson=ss179"
+  },
+  {
+    "id": "sentence:ss180",
+    "type": "sentence-structure",
+    "ordinal": 180,
+    "label": "#180 · 「This is why / That is why」表達原因與結果",
+    "detail": "Sentence Structure #180 · Using This is why / That is why to connect reason and result",
+    "url": "sentence-structure.html?lesson=ss180"
+  },
+  {
+    "id": "sentence:ss181",
+    "type": "sentence-structure",
+    "ordinal": 181,
+    "label": "#181 · 「On the grounds that …」表達正式理由",
+    "detail": "Sentence Structure #181 · Using On the grounds that to give a formal reason",
+    "url": "sentence-structure.html?lesson=ss181"
+  },
+  {
+    "id": "sentence:ss182",
+    "type": "sentence-structure",
+    "ordinal": 182,
+    "label": "#182 · 「The reality is that ...」陳述實際情況",
+    "detail": "Sentence Structure #182 · Using The reality is that to state the actual situation",
+    "url": "sentence-structure.html?lesson=ss182"
+  },
+  {
+    "id": "sentence:ss183",
+    "type": "sentence-structure",
+    "ordinal": 183,
+    "label": "#183 · 「One more thing」補充最後一點",
+    "detail": "Sentence Structure #183 · Using One more thing to add a final related point",
+    "url": "sentence-structure.html?lesson=ss183"
+  },
+  {
+    "id": "sentence:ss184",
+    "type": "sentence-structure",
+    "ordinal": 184,
+    "label": "#184 · 「While you're at it」表達「既然都在做了，就順便……」",
+    "detail": "Sentence Structure #184 · Using “While You're at It”",
+    "url": "sentence-structure.html?lesson=ss184"
+  },
+  {
+    "id": "sentence:ss185",
+    "type": "sentence-structure",
+    "ordinal": 185,
+    "label": "#185 · 「The trouble ／ problem ／ issue with ... is that ...」指出問題所在",
+    "detail": "Sentence Structure #185 · Using “The trouble / problem / issue with ... is that ...”",
+    "url": "sentence-structure.html?lesson=ss185"
+  },
+  {
+    "id": "sentence:ss186",
+    "type": "sentence-structure",
+    "ordinal": 186,
+    "label": "#186 · 「The reason why ... is that ...」說明原因",
+    "detail": "Sentence Structure #186 · Using “The reason why ... is that ...”",
+    "url": "sentence-structure.html?lesson=ss186"
+  },
+  {
+    "id": "sentence:ss187",
+    "type": "sentence-structure",
+    "ordinal": 187,
+    "label": "#187 · 「What-焦點句」",
+    "detail": "Sentence Structure #187 · Using What-Focus Clauses",
+    "url": "sentence-structure.html?lesson=ss187"
+  },
+  {
+    "id": "sentence:ss188",
+    "type": "sentence-structure",
+    "ordinal": 188,
+    "label": "#188 · 「What makes...」表達成因、關鍵因素與定義",
+    "detail": "Sentence Structure #188 · Using “What makes ...”",
+    "url": "sentence-structure.html?lesson=ss188"
+  },
+  {
+    "id": "sentence:ss189",
+    "type": "sentence-structure",
+    "ordinal": 189,
+    "label": "#189 · 「It is not ... but ... that ...」強調對比句",
+    "detail": "Sentence Structure #189 · Using “It is not X but Y that ...”",
+    "url": "sentence-structure.html?lesson=ss189"
+  },
+  {
+    "id": "sentence:ss190",
+    "type": "sentence-structure",
+    "ordinal": 190,
+    "label": "#190 · 「As + 形容詞／副詞 + as possible」表示「盡可能……」",
+    "detail": "Sentence Structure #190 · Using “as ... as possible”",
+    "url": "sentence-structure.html?lesson=ss190"
+  },
+  {
+    "id": "sentence:ss191",
+    "type": "sentence-structure",
+    "ordinal": 191,
+    "label": "#191 · 「Prior to ...」表達「在……之前」",
+    "detail": "Sentence Structure #191 · Using “prior to ...”",
+    "url": "sentence-structure.html?lesson=ss191"
+  },
+  {
+    "id": "sentence:ss192",
+    "type": "sentence-structure",
+    "ordinal": 192,
+    "label": "#192 · 「Following + 名詞片語」表示「在……之後」",
+    "detail": "Sentence Structure #192 · Using “Following + noun phrase”",
+    "url": "sentence-structure.html?lesson=ss192"
+  },
+  {
+    "id": "sentence:ss193",
+    "type": "sentence-structure",
+    "ordinal": 193,
+    "label": "#193 · 「Upon + noun ／ V-ing」表示「一……便／在……之後」",
+    "detail": "Sentence Structure #193 · Using “Upon + noun / V-ing”",
+    "url": "sentence-structure.html?lesson=ss193"
+  },
+  {
+    "id": "sentence:ss194",
+    "type": "sentence-structure",
+    "ordinal": 194,
+    "label": "#194 · 「The instant …」表示「一……就……」",
+    "detail": "Sentence Structure #194 · Using “the instant ...”",
+    "url": "sentence-structure.html?lesson=ss194"
+  },
+  {
+    "id": "sentence:ss195",
+    "type": "sentence-structure",
+    "ordinal": 195,
+    "label": "#195 · 「Shortly after ...」表示「……後不久」",
+    "detail": "Sentence Structure #195 · Using “shortly after ...”",
+    "url": "sentence-structure.html?lesson=ss195"
+  },
+  {
+    "id": "sentence:ss196",
+    "type": "sentence-structure",
+    "ordinal": 196,
+    "label": "#196 · 「In the meantime」表示等待期間",
+    "detail": "Sentence Structure #196 · Using “in the meantime”",
+    "url": "sentence-structure.html?lesson=ss196"
+  },
+  {
+    "id": "sentence:ss197",
+    "type": "sentence-structure",
+    "ordinal": 197,
+    "label": "#197 · 「Meanwhile」表示同時發生的事情",
+    "detail": "Sentence Structure #197 · Using “Meanwhile”",
+    "url": "sentence-structure.html?lesson=ss197"
+  },
+  {
+    "id": "sentence:ss198",
+    "type": "sentence-structure",
+    "ordinal": 198,
+    "label": "#198 · 「In due course」表示「在適當時候／按正常程序稍後」",
+    "detail": "Sentence Structure #198 · Using “in due course”",
+    "url": "sentence-structure.html?lesson=ss198"
+  },
+  {
+    "id": "sentence:ss199",
+    "type": "sentence-structure",
+    "ordinal": 199,
+    "label": "#199 · 「be up to something」表示暗中有所行動",
+    "detail": "Sentence Structure #199 · Using “be up to something”",
+    "url": "sentence-structure.html?lesson=ss199"
+  },
+  {
+    "id": "sentence:ss200",
+    "type": "sentence-structure",
+    "ordinal": 200,
+    "label": "#200 · 「be up to no good」表示「在搞鬼／圖謀不軌」",
+    "detail": "Sentence Structure #200 · Using “be up to no good”",
+    "url": "sentence-structure.html?lesson=ss200"
+  },
+  {
+    "id": "sentence:ss201",
+    "type": "sentence-structure",
+    "ordinal": 201,
+    "label": "#201 · 「For good reason」句：表示「有充分理由／有其道理」",
+    "detail": "Sentence Structure #201 · Using “for good reason”",
+    "url": "sentence-structure.html?lesson=ss201"
+  },
+  {
+    "id": "sentence:ss202",
+    "type": "sentence-structure",
+    "ordinal": 202,
+    "label": "#202 · 「There is good reason to ...」表示「有充分理由……」",
+    "detail": "Sentence Structure #202 · Using “There is good reason to ...”",
+    "url": "sentence-structure.html?lesson=ss202"
+  },
+  {
+    "id": "sentence:ss203",
+    "type": "sentence-structure",
+    "ordinal": 203,
+    "label": "#203 · 「There is every reason to believe that ...」表示「有充分理由相信」",
+    "detail": "Sentence Structure #203 · Using “There is every reason to believe that ...”",
+    "url": "sentence-structure.html?lesson=ss203"
+  },
+  {
+    "id": "sentence:ss204",
+    "type": "sentence-structure",
+    "ordinal": 204,
+    "label": "#204 · 「It would be wrong to say that ...」禮貌而精確地否定過度概括",
+    "detail": "Sentence Structure #204 · Using “It would be wrong to say that ...”",
+    "url": "sentence-structure.html?lesson=ss204"
+  },
+  {
+    "id": "sentence:ss205",
+    "type": "sentence-structure",
+    "ordinal": 205,
+    "label": "#205 · 「It is fair to say that ...」作出合理而審慎的判斷",
+    "detail": "Sentence Structure #205 · Using “It is fair to say that ...”",
+    "url": "sentence-structure.html?lesson=ss205"
+  },
+  {
+    "id": "sentence:ss206",
+    "type": "sentence-structure",
+    "ordinal": 206,
+    "label": "#206 · 「I would argue that ...」提出有理據的個人立場",
+    "detail": "Sentence Structure #206 · Using “I would argue that ...”",
+    "url": "sentence-structure.html?lesson=ss206"
+  },
+  {
+    "id": "sentence:ss207",
+    "type": "sentence-structure",
+    "ordinal": 207,
+    "label": "#207 · 「I would go so far as to say that ...／I would not go so far as to say that ...」強調與保留判斷句",
+    "detail": "Sentence Structure #207 · Using “go so far as to say that ...”",
+    "url": "sentence-structure.html?lesson=ss207"
+  },
+  {
+    "id": "sentence:ss208",
+    "type": "sentence-structure",
+    "ordinal": 208,
+    "label": "#208 · 「It seems to me that ...」表達個人印象或較委婉的看法",
+    "detail": "Sentence Structure #208 · Using “It seems to me that ...”",
+    "url": "sentence-structure.html?lesson=ss208"
+  },
+  {
+    "id": "sentence:ss209",
+    "type": "sentence-structure",
+    "ordinal": 209,
+    "label": "#209 · 「As far as I am concerned, ...」表達個人立場",
+    "detail": "Sentence Structure #209 · Using “As far as I am concerned, ...”",
+    "url": "sentence-structure.html?lesson=ss209"
+  },
+  {
+    "id": "sentence:ss210",
+    "type": "sentence-structure",
+    "ordinal": 210,
+    "label": "#210 · 「More often than not」表示「通常／多數情況下」",
+    "detail": "Sentence Structure #210 · Using “more often than not”",
+    "url": "sentence-structure.html?lesson=ss210"
+  },
+  {
+    "id": "sentence:ss211",
+    "type": "sentence-structure",
+    "ordinal": 211,
+    "label": "#211 · 「By and large」表示整體情況",
+    "detail": "Sentence Structure #211 · Using “by and large”",
+    "url": "sentence-structure.html?lesson=ss211"
+  },
+  {
+    "id": "sentence:ss212",
+    "type": "sentence-structure",
+    "ordinal": 212,
+    "label": "#212 · 「In large part」表示「很大程度上／主要地」",
+    "detail": "Sentence Structure #212 · Using “in large part”",
+    "url": "sentence-structure.html?lesson=ss212"
+  },
+  {
+    "id": "sentence:ss213",
+    "type": "sentence-structure",
+    "ordinal": 213,
+    "label": "#213 · 「It follows that ...」表達邏輯結論",
+    "detail": "Sentence Structure #213 · Using “It follows that ...”",
+    "url": "sentence-structure.html?lesson=ss213"
+  },
+  {
+    "id": "sentence:ss214",
+    "type": "sentence-structure",
+    "ordinal": 214,
+    "label": "#214 · 「This raises the question of whether ...」引出值得進一步考慮的問題",
+    "detail": "Sentence Structure #214 · Using “This raises the question of whether ...”",
+    "url": "sentence-structure.html?lesson=ss214"
+  },
+  {
+    "id": "sentence:ss215",
+    "type": "sentence-structure",
+    "ordinal": 215,
+    "label": "#215 · 「Needless to say」表示「不用多說／不言而喻」",
+    "detail": "Sentence Structure #215 · Using “Needless to say”",
+    "url": "sentence-structure.html?lesson=ss215"
+  },
+  {
+    "id": "sentence:ss216",
+    "type": "sentence-structure",
+    "ordinal": 216,
+    "label": "#216 · 「In pursuit of ...」表達為實現目標而作出的努力",
+    "detail": "Sentence Structure #216 · Using “in pursuit of ...”",
+    "url": "sentence-structure.html?lesson=ss216"
+  },
+  {
+    "id": "sentence:ss217",
+    "type": "sentence-structure",
+    "ordinal": 217,
+    "label": "#217 · 「One thing ... is ...」突出一項重點",
+    "detail": "Sentence Structure #217 · Using “One thing ... is ...”",
+    "url": "sentence-structure.html?lesson=ss217"
+  },
+  {
+    "id": "sentence:ss218",
+    "type": "sentence-structure",
+    "ordinal": 218,
+    "label": "#218 · 「have ／ has yet to + 動詞」表示「至今仍未……」",
+    "detail": "Sentence Structure #218 · Using “have / has yet to + verb”",
+    "url": "sentence-structure.html?lesson=ss218"
+  },
+  {
     "id": "speaking:ielts-part-2-book-2-exercise-09",
     "type": "speaking",
     "ordinal": 9,

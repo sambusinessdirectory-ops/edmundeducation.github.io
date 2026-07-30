@@ -1,0 +1,1263 @@
+{
+  "id": "ss132",
+  "order": 132,
+  "slug": "the-fact-that",
+  "title": "「The fact that 句」",
+  "titleZh": "「The fact that 句」",
+  "titleEn": "Using the fact that to treat an established situation as a noun unit",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 132 -「The fact that 句」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + verb + the fact that + subject + verb",
+  "formulas": [
+    {
+      "id": "ss132-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Subject + verb + the fact that + subject + verb"
+    },
+    {
+      "id": "ss132-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "The fact that + subject + verb + singular verb + other information"
+    },
+    {
+      "id": "ss132-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Subject + verb/adjective + preposition + the fact that + subject + verb"
+    }
+  ],
+  "example": "The fact that the shop is closed causes a problem.",
+  "exampleZh": "商店已經關門這個事實造成了一個問題。",
+  "examples": [
+    {
+      "id": "ss132-example-01",
+      "en": "The fact that the shop is closed causes a problem.",
+      "zh": "商店已經關門這個事實造成了一個問題。",
+      "highlight": "The fact that the shop is closed"
+    },
+    {
+      "id": "ss132-example-02",
+      "en": "We should never neglect the fact that Mary betrayed us.",
+      "zh": "我們絕不應忽視 Mary 背叛了我們這個事實。",
+      "highlight": "the fact that Mary betrayed us"
+    },
+    {
+      "id": "ss132-example-03",
+      "en": "She was disappointed by the fact that nobody called her.",
+      "zh": "沒有人致電給她這件事令她感到失望。",
+      "highlight": "the fact that nobody called her"
+    },
+    {
+      "id": "ss132-example-04",
+      "en": "The match continued despite the fact that it was raining.",
+      "zh": "儘管當時正在下雨，比賽仍然繼續。",
+      "highlight": "the fact that it was raining"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss132-rule-01",
+      "zh": "that 後面必須是完整子句 that 後面通常需要有自己的主語和動詞。 這裏沒有完整表達「發生了甚麼事情」。",
+      "en": "That must be followed by a complete clause with its own subject and verb; otherwise the structure does not fully state what happened.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The fact that the train is late annoys passengers.",
+        "Subject：the train",
+        "Verb：is"
+      ]
+    },
+    {
+      "id": "ss132-rule-02",
+      "zh": "整個 the fact that 子句作主語時，視為單數 不能使用： 即使 that 子句內有複數名詞，整個 the fact that... 仍被視為一項事實，因此主要動詞通常使用單 數形式。",
+      "en": "When the fact that-clause is the subject, treat the whole unit as singular. Even if the that-clause contains plural nouns, the entire construction represents one fact, so the main verb is normally singular.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss132-rule-03",
+      "zh": "本練習必須保留 that 在部分日常 that 子句中，that 有時可以省略： 但是，在固定結構 the fact that 中，本練習必須保留 that：",
+      "en": "Keep that in the fact that structure for this lesson. Although that may sometimes be omitted in ordinary that-clauses, it must be retained in the fixed the fact that pattern practised here.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss132-rule-04",
+      "zh": "不要把未證實的說法隨意稱為 fact 使用 the fact that 表示說話者把後面的內容視為真實或已確定。 因此，當一個說法仍然有爭議、只是一種可能性或個人觀點時，不應隨意使用 fact。 較適合的詞包括：",
+      "en": "Do not call an unverified claim a fact. The fact that presents the following content as true or established, so it should not be used casually for a disputed statement, mere possibility or personal view. More suitable alternatives include the idea that, the claim that, the belief that, the possibility that and the suggestion that.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "the idea that",
+        "the claim that",
+        "the belief that",
+        "the possibility that",
+        "the suggestion that"
+      ]
+    },
+    {
+      "id": "ss132-rule-05",
+      "zh": "The fact that 與 The idea that 的分別 表示後面的內容被視為真實、已發生或已確定。 航班被取消是一項已發生的事情。 表示後面的內容是一個觀點、信念、概念或建議，不一定已被證實。 「金錢可以買到幸福」是一個可被討論的觀點，而不是公認事實。 Important Comparison 重要比較 這裏批評的是一個普遍觀念。 這裏描述的是一項已發生並可確認的事情。 Gold-Standard Reminder 核心提醒 不要只因為 the fact that 聽起來較正式，便用它代替 the idea that。 ● fact：真實或被視為已確定的事情 ● idea：觀點、概念或仍可被質疑的想法",
+      "en": "Use the fact that for content treated as true, completed or established, and the idea that for a view, belief, concept or suggestion that need not be proven. A cancelled flight is an event that happened, whereas the claim that money can buy happiness is debatable rather than an accepted fact. In the comparison, the idea that criticizes a general belief, while the fact that describes a confirmed event. Do not substitute the fact that merely because it sounds more formal: a fact is real or treated as established, while an idea is a concept or view that may still be questioned.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "fact：真實或被視為已確定的事情",
+        "idea：觀點、概念或仍可被質疑的想法",
+        "The fact that the flight was cancelled upset the passengers.",
+        "The idea that money can buy happiness is widely debated.",
+        "The idea that every student learns in the same way is unrealistic.",
+        "The fact that every student received the same paper is important."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss132-benefit-01",
+      "zh": "清楚表明某件事被視為真實 使用 the fact that 可以告訴讀者：後面的內容不是純粹的想法，而是一項已發生或已確定的事 情。",
+      "en": "It clearly presents information as real or established, telling readers that what follows is not merely an idea but something that has happened or been determined.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The fact that the road is closed means we must turn back."
+      ]
+    },
+    {
+      "id": "ss132-benefit-02",
+      "zh": "把完整情況變成一個名詞單位 你可以把一整件事情放在主語、受詞或介詞後。 在這句中，整個 the fact that she apologised 都是主語。",
+      "en": "It turns a complete situation into one noun unit that can appear as a subject, object or after a preposition; in the example, the entire phrase the fact that she apologised functions as the subject.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The fact that she apologised surprised me."
+      ]
+    },
+    {
+      "id": "ss132-benefit-03",
+      "zh": "連接一項事實與人們的反應或判斷 這個句型特別適合表達： ● 某件事令人驚訝； ● 某件事令人擔心； ● 某件事不能被忽略； ● 某件事造成某種結果。",
+      "en": "It connects a fact with a reaction or judgement and is especially useful for saying that something is surprising, worrying, impossible to ignore or responsible for a particular result.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The fact that nobody checked the door worried the manager."
+      ]
+    },
+    {
+      "id": "ss132-benefit-04",
+      "zh": "把兩個相關句子合併起來 不用分開寫兩句，你可以直接把事實與結果連接起來。 第二個版本更清楚地展示兩項資料之間的關係。",
+      "en": "It combines two related sentences by joining a fact directly to its result; the combined version displays the relationship between the two pieces of information more clearly.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The fact that the bus is often late annoys passengers."
+      ]
+    },
+    {
+      "id": "ss132-benefit-05",
+      "zh": "適合用於解釋、報告及討論 這個句型可以配合以下常用表達： 掌握這些組合後，你可以更有條理地分析問題、解釋情況或表達判斷。",
+      "en": "It is useful in explanations, reports and discussions. Common combinations include accept, recognise or ignore the fact that; be aware of the fact that; despite the fact that; and draw attention to the fact that. Mastering them helps you analyse issues, explain situations and express judgements systematically.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "accept the fact that",
+        "recognise the fact that",
+        "ignore the fact that",
+        "be aware of the fact that",
+        "despite the fact that",
+        "draw attention to the fact that"
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the fact that. Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 the fact that 改寫以下句子，並保留原句的意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss132-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Jake has a serious food allergy. We must not forget this.",
+      "promptZh": "傑克有嚴重的食物過敏。我們絕不能忘記這一點。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We must not forget the fact that Jake has a serious food allergy.",
+      "answerZh": "我們絕不能忘記傑克有嚴重食物過敏這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "We must not forget the fact that Jake has a serious food allergy."
+    },
+    {
+      "id": "ss132-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop closes at six. This annoys local workers.",
+      "promptZh": "這間商店在六時關門。這令附近的上班族感到不滿。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the shop closes at six annoys local workers.",
+      "answerZh": "這間商店在六時關門這個事實令附近的上班族感到不滿。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the shop closes at six annoys local workers."
+    },
+    {
+      "id": "ss132-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Leo forgot my birthday. I was disappointed by this.",
+      "promptZh": "里奧忘記了我的生日。我對此感到失望。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was disappointed by the fact that Leo forgot my birthday.",
+      "answerZh": "我對里奧忘記了我的生日這個事實感到失望。",
+      "answerZhSource": "pdf",
+      "highlight": "I was disappointed by the fact that Leo forgot my birthday."
+    },
+    {
+      "id": "ss132-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our team won the final. Everyone was pleased about this.",
+      "promptZh": "我們的球隊贏得決賽。大家都為此感到高興。",
+      "promptZhSource": "pdf",
+      "starter": "Everyone",
+      "answer": "Everyone was pleased about the fact that our team won the final.",
+      "answerZh": "大家都為我們的球隊贏得決賽這個事實感到高興。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone was pleased about the fact that our team won the final."
+    },
+    {
+      "id": "ss132-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bus is often late. Commuters complain about this.",
+      "promptZh": "巴士經常遲到。通勤者對此作出投訴。",
+      "promptZhSource": "pdf",
+      "starter": "Commuters",
+      "answer": "Commuters complain about the fact that the bus is often late.",
+      "answerZh": "通勤者對巴士經常遲到這個情況作出投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "Commuters complain about the fact that the bus is often late."
+    },
+    {
+      "id": "ss132-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy speaks three languages. This impressed the interviewer.",
+      "promptZh": "艾米懂得說三種語言。這令面試官留下深刻印象。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that Amy speaks three languages impressed the interviewer.",
+      "answerZh": "艾米懂得說三種語言這個事實令面試官留下深刻印象。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that Amy speaks three languages impressed the interviewer."
+    },
+    {
+      "id": "ss132-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The room has no windows. I dislike this.",
+      "promptZh": "這個房間沒有窗戶。我不喜歡這一點。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I dislike the fact that the room has no windows.",
+      "answerZh": "我不喜歡房間沒有窗戶這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "I dislike the fact that the room has no windows."
+    },
+    {
+      "id": "ss132-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Their dog can open the door. This surprised us.",
+      "promptZh": "他們的狗會自己開門。這令我們很驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that their dog can open the door surprised us.",
+      "answerZh": "他們的狗會自己開門這個事實令我們很驚訝。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that their dog can open the door surprised us."
+    },
+    {
+      "id": "ss132-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Peter finally accepted that the key was gone.",
+      "promptZh": "彼得終於接受鑰匙已經不見了。",
+      "promptZhSource": "pdf",
+      "starter": "Peter",
+      "answer": "Peter finally accepted the fact that the key was gone.",
+      "answerZh": "彼得終於接受鑰匙已經不見了這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "Peter finally accepted the fact that the key was gone."
+    },
+    {
+      "id": "ss132-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The café is closed on Mondays. We need to remember this.",
+      "promptZh": "這間咖啡店逢星期一休息。我們需要記住這一點。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to remember the fact that the café is closed on Mondays.",
+      "answerZh": "我們需要記住這間咖啡店逢星期一休息這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to remember the fact that the café is closed on Mondays."
+    },
+    {
+      "id": "ss132-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "That Nina solved the puzzle so quickly amazed her classmates.",
+      "promptZh": "妮娜這麼快便解開謎題，令她的同學大感驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that Nina solved the puzzle so quickly amazed her classmates.",
+      "answerZh": "妮娜這麼快便解開謎題這個事實令她的同學大感驚訝。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that Nina solved the puzzle so quickly amazed her classmates."
+    },
+    {
+      "id": "ss132-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I am aware that the deadline has changed.",
+      "promptZh": "我知道截止日期已經更改。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I am aware of the fact that the deadline has changed.",
+      "answerZh": "我已知悉截止日期已經更改這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "I am aware of the fact that the deadline has changed."
+    },
+    {
+      "id": "ss132-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the weather was terrible, the match continued.",
+      "promptZh": "雖然天氣十分惡劣，比賽仍然繼續。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The match continued despite the fact that the weather was terrible.",
+      "answerZh": "儘管天氣十分惡劣，比賽仍然繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The match continued despite the fact that the weather was terrible."
+    },
+    {
+      "id": "ss132-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The lift was broken, which meant that residents had to use the stairs.",
+      "promptZh": "升降機壞了，這意味着住戶必須行樓梯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the lift was broken meant that residents had to use the stairs.",
+      "answerZh": "升降機損壞意味着住戶必須行樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the lift was broken meant that residents had to use the stairs."
+    },
+    {
+      "id": "ss132-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It worries me that my grandfather lives alone.",
+      "promptZh": "外祖父獨居令我感到擔心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that my grandfather lives alone worries me.",
+      "answerZh": "外祖父獨居這個事實令我感到擔心。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that my grandfather lives alone worries me."
+    },
+    {
+      "id": "ss132-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The train has already left, and we cannot change this.",
+      "promptZh": "火車已經開出，而我們無法改變這一點。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We cannot change the fact that the train has already left.",
+      "answerZh": "我們無法改變火車已經開出這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot change the fact that the train has already left."
+    },
+    {
+      "id": "ss132-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "She was upset because nobody had told her about the meeting.",
+      "promptZh": "她感到不快，因為沒有人告訴她開會的事。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She was upset by the fact that nobody had told her about the meeting.",
+      "answerZh": "她因沒有人告訴她開會的事而感到不快。",
+      "answerZhSource": "pdf",
+      "highlight": "She was upset by the fact that nobody had told her about the meeting."
+    },
+    {
+      "id": "ss132-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is unfortunate that the library will close next month.",
+      "promptZh": "圖書館將於下月關閉，實在令人遺憾。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the library will close next month is unfortunate.",
+      "answerZh": "圖書館將於下月關閉，實在令人遺憾。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the library will close next month is unfortunate."
+    },
+    {
+      "id": "ss132-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Even though the instructions were unclear, most students finished the task.",
+      "promptZh": "即使指示不清晰，大部分學生仍完成了任務。",
+      "promptZhSource": "pdf",
+      "starter": "Most",
+      "answer": "Most students finished the task despite the fact that the instructions were unclear.",
+      "answerZh": "儘管指示不清晰，大部分學生仍完成了任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Most students finished the task despite the fact that the instructions were unclear."
+    },
+    {
+      "id": "ss132-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school has cancelled the trip. Parents are concerned about this.",
+      "promptZh": "學校取消了旅行。家長對此感到擔心。",
+      "promptZhSource": "pdf",
+      "starter": "Parents",
+      "answer": "Parents are concerned about the fact that the school has cancelled the trip.",
+      "answerZh": "家長對學校取消旅行這個事實感到擔心。",
+      "answerZhSource": "pdf",
+      "highlight": "Parents are concerned about the fact that the school has cancelled the trip."
+    },
+    {
+      "id": "ss132-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The machine uses very little electricity. This is one of its main advantages.",
+      "promptZh": "這部機器耗電量很低。這是它的主要優點之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the machine uses very little electricity is one of its main advantages.",
+      "answerZh": "這部機器耗電量很低，是它的主要優點之一。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the machine uses very little electricity is one of its main advantages."
+    },
+    {
+      "id": "ss132-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The patient is recovering well. The doctor is encouraged by this.",
+      "promptZh": "病人康復進度良好。醫生對此感到鼓舞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor is encouraged by the fact that the patient is recovering well.",
+      "answerZh": "病人康復進度良好這個情況令醫生感到鼓舞。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor is encouraged by the fact that the patient is recovering well."
+    },
+    {
+      "id": "ss132-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company recognises that some customers cannot use the new app.",
+      "promptZh": "公司承認部分顧客無法使用新的應用程式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company recognises the fact that some customers cannot use the new app.",
+      "answerZh": "公司承認部分顧客無法使用新的應用程式這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "The company recognises the fact that some customers cannot use the new app."
+    },
+    {
+      "id": "ss132-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The road was flooded, but the driver continued.",
+      "promptZh": "道路水浸，但司機仍繼續前行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The driver continued despite the fact that the road was flooded.",
+      "answerZh": "儘管道路水浸，司機仍繼續前行。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver continued despite the fact that the road was flooded."
+    },
+    {
+      "id": "ss132-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "That the painting was created by a teenager makes it more impressive.",
+      "promptZh": "這幅畫由一名青少年創作，使它更令人讚嘆。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the painting was created by a teenager makes it more impressive.",
+      "answerZh": "這幅畫由一名青少年創作，使它更令人讚嘆。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the painting was created by a teenager makes it more impressive."
+    },
+    {
+      "id": "ss132-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The two reports contain different figures. We must not overlook this.",
+      "promptZh": "兩份報告載有不同數字。我們絕不能忽略這一點。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We must not overlook the fact that the two reports contain different figures.",
+      "answerZh": "我們絕不能忽略兩份報告載有不同數字這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "We must not overlook the fact that the two reports contain different figures."
+    },
+    {
+      "id": "ss132-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Prices have risen. This has caused many families to spend less.",
+      "promptZh": "物價上升。這導致許多家庭減少開支。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that prices have risen has caused many families to spend less.",
+      "answerZh": "物價上升這個事實導致許多家庭減少開支。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that prices have risen has caused many families to spend less."
+    },
+    {
+      "id": "ss132-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager could not deny that the schedule was unrealistic.",
+      "promptZh": "經理無法否認時間表並不切實際。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager could not deny the fact that the schedule was unrealistic.",
+      "answerZh": "經理無法否認時間表並不切實際這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager could not deny the fact that the schedule was unrealistic."
+    },
+    {
+      "id": "ss132-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We appreciate that the volunteers stayed late.",
+      "promptZh": "我們很感激義工留到很晚。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We appreciate the fact that the volunteers stayed late.",
+      "answerZh": "我們很感激義工留到很晚這件事。",
+      "answerZhSource": "pdf",
+      "highlight": "We appreciate the fact that the volunteers stayed late."
+    },
+    {
+      "id": "ss132-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It shocked the village that the old bridge had collapsed.",
+      "promptZh": "舊橋倒塌一事震驚了整條村。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the old bridge had collapsed shocked the village.",
+      "answerZh": "舊橋已經倒塌這個事實震驚了整條村。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the old bridge had collapsed shocked the village."
+    },
+    {
+      "id": "ss132-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the medicine tasted unpleasant, the child took it.",
+      "promptZh": "雖然藥物味道難聞，孩子仍把它服下。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child took the medicine despite the fact that it tasted unpleasant.",
+      "answerZh": "儘管藥物味道難聞，孩子仍把它服下。",
+      "answerZhSource": "pdf",
+      "highlight": "The child took the medicine despite the fact that it tasted unpleasant."
+    },
+    {
+      "id": "ss132-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The website collects location data. Many users object to this.",
+      "promptZh": "網站會收集位置資料。許多用戶反對這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many users object to the fact that the website collects location data.",
+      "answerZh": "許多用戶反對網站收集位置資料這件事。",
+      "answerZhSource": "pdf",
+      "highlight": "Many users object to the fact that the website collects location data."
+    },
+    {
+      "id": "ss132-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is clear that the two photos were taken on different days.",
+      "promptZh": "很明顯，兩張照片是在不同日子拍攝的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the two photos were taken on different days is clear.",
+      "answerZh": "很明顯，兩張照片是在不同日子拍攝的。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the two photos were taken on different days is clear."
+    },
+    {
+      "id": "ss132-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report was submitted late. This does not affect its accuracy.",
+      "promptZh": "報告遲交。這並不影響其準確性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the report was submitted late does not affect its accuracy.",
+      "answerZh": "報告遲交這個事實並不影響其準確性。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the report was submitted late does not affect its accuracy."
+    },
+    {
+      "id": "ss132-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No one had checked the fire alarm. The principal was alarmed by this.",
+      "promptZh": "沒有人檢查過火警鐘。校長對此大感不安。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The principal was alarmed by the fact that no one had checked the fire alarm.",
+      "answerZh": "沒有人檢查過火警鐘這件事令校長大感不安。",
+      "answerZhSource": "pdf",
+      "highlight": "The principal was alarmed by the fact that no one had checked the fire alarm."
+    },
+    {
+      "id": "ss132-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We should take into account that younger children need more sleep.",
+      "promptZh": "我們應考慮年幼兒童需要較多睡眠。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should take into account the fact that younger children need more sleep.",
+      "answerZh": "我們應把年幼兒童需要較多睡眠這個事實考慮在內。",
+      "answerZhSource": "pdf",
+      "highlight": "We should take into account the fact that younger children need more sleep."
+    },
+    {
+      "id": "ss132-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The train service has improved. Commuters welcome this.",
+      "promptZh": "列車服務有所改善。通勤者對此表示歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "Commuters",
+      "answer": "Commuters welcome the fact that the train service has improved.",
+      "answerZh": "通勤者樂見列車服務有所改善。",
+      "answerZhSource": "pdf",
+      "highlight": "Commuters welcome the fact that the train service has improved."
+    },
+    {
+      "id": "ss132-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "That the witness changed her story raised serious doubts.",
+      "promptZh": "證人改變供詞，引起了嚴重疑問。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the witness changed her story raised serious doubts.",
+      "answerZh": "證人改變供詞這個事實引起了嚴重疑問。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the witness changed her story raised serious doubts."
+    },
+    {
+      "id": "ss132-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Even though the apartment is small, its rent is extremely high.",
+      "promptZh": "即使單位面積細小，租金仍極高。",
+      "promptZhSource": "pdf",
+      "starter": "Its",
+      "answer": "Its rent is extremely high despite the fact that the apartment is small.",
+      "answerZh": "儘管單位面積細小，租金仍極高。",
+      "answerZhSource": "pdf",
+      "highlight": "Its rent is extremely high despite the fact that the apartment is small."
+    },
+    {
+      "id": "ss132-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The university accepts online applications. This benefits international students.",
+      "promptZh": "大學接受網上申請。這令國際學生受惠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the university accepts online applications benefits international students.",
+      "answerZh": "大學接受網上申請這個安排令國際學生受惠。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the university accepts online applications benefits international students."
+    },
+    {
+      "id": "ss132-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Several safety checks were skipped. The investigation focused on this.",
+      "promptZh": "數項安全檢查被省略。調查集中研究這一點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The investigation focused on the fact that several safety checks were skipped.",
+      "answerZh": "調查集中研究數項安全檢查被省略這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "The investigation focused on the fact that several safety checks were skipped."
+    },
+    {
+      "id": "ss132-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The new policy will affect part-time staff most. The union has drawn attention to this.",
+      "promptZh": "新政策對兼職員工影響最大。工會已提醒公眾注意這一點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The union has drawn attention to the fact that the new policy will affect part-time staff most.",
+      "answerZh": "工會已提醒公眾注意新政策對兼職員工影響最大這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "The union has drawn attention to the fact that the new policy will affect part-time staff most."
+    },
+    {
+      "id": "ss132-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although employees can work remotely, some managers still insist on daily office attendance.",
+      "promptZh": "雖然員工可以遙距工作，一些經理仍堅持員工每天回辦公室。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some managers still insist on daily office attendance despite the fact that employees can work remotely.",
+      "answerZh": "儘管員工可以遙距工作，一些經理仍堅持員工每天回辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "Some managers still insist on daily office attendance despite the fact that employees can work remotely."
+    },
+    {
+      "id": "ss132-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The experiment produced the same result three times. This strengthens the researchers’ conclusion.",
+      "promptZh": "實驗三次得出相同結果。這加強了研究人員的結論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the experiment produced the same result three times strengthens the researchers’ conclusion.",
+      "answerZh": "實驗三次得出相同結果這個事實加強了研究人員的結論。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the experiment produced the same result three times strengthens the researchers’ conclusion."
+    },
+    {
+      "id": "ss132-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The contract contains no clear cancellation clause. Clients should be warned about this.",
+      "promptZh": "合約沒有清晰的取消條款。應提醒客戶注意這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Clients",
+      "answer": "Clients should be warned about the fact that the contract contains no clear cancellation clause.",
+      "answerZh": "應提醒客戶注意合約沒有清晰取消條款這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "Clients should be warned about the fact that the contract contains no clear cancellation clause."
+    },
+    {
+      "id": "ss132-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We cannot ignore that the poorest districts have the fewest health services.",
+      "promptZh": "我們不能忽視最貧窮地區擁有最少醫療服務。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We cannot ignore the fact that the poorest districts have the fewest health services.",
+      "answerZh": "我們不能忽視最貧窮地區擁有最少醫療服務這個事實。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot ignore the fact that the poorest districts have the fewest health services."
+    },
+    {
+      "id": "ss132-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The candidate had little experience, yet she gave the strongest presentation.",
+      "promptZh": "候選人經驗不多，但她作出了最出色的簡報。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She gave the strongest presentation despite the fact that she had little experience.",
+      "answerZh": "儘管經驗不多，她仍作出了最出色的簡報。",
+      "answerZhSource": "pdf",
+      "highlight": "She gave the strongest presentation despite the fact that she had little experience."
+    },
+    {
+      "id": "ss132-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The data was collected before the software update. This limits how we should interpret the findings.",
+      "promptZh": "數據在軟件更新前收集。這限制了我們應如何解讀研究結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the data was collected before the software update limits how we should interpret the findings.",
+      "answerZh": "數據在軟件更新前收集這個事實，限制了我們應如何解讀研究結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the data was collected before the software update limits how we should interpret the findings."
+    },
+    {
+      "id": "ss132-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The hospital reduced waiting times without hiring more staff. This surprised many health officials.",
+      "promptZh": "醫院在沒有增聘人手的情況下縮短了輪候時間。這令許多衞生官員感到驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the hospital reduced waiting times without hiring more staff surprised many health officials.",
+      "answerZh": "醫院在沒有增聘人手的情況下縮短輪候時間這個事實，令許多衞生官員感到驚訝。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the hospital reduced waiting times without hiring more staff surprised many health officials."
+    },
+    {
+      "id": "ss132-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The committee has not published the full evidence. This makes the committee’s conclusion difficult to accept.",
+      "promptZh": "委員會尚未公布完整證據。這使委員會的結論難以令人接受。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the committee has not published the full evidence makes the committee’s conclusion difficult to accept.",
+      "answerZh": "委員會尚未公布完整證據這個事實，使委員會的結論難以令人接受。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the committee has not published the full evidence makes the committee’s conclusion difficult to accept."
+    }
+  ]
+}

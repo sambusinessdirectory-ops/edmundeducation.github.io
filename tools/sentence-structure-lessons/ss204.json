@@ -1,0 +1,1230 @@
+{
+  "id": "ss204",
+  "order": 204,
+  "slug": "it-would-be-wrong-to-say-that",
+  "title": "「It would be wrong to say that ...」禮貌而精確地否定過度概括",
+  "titleZh": "「It would be wrong to say that ...」禮貌而精確地否定過度概括",
+  "titleEn": "Using “It would be wrong to say that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 203 -「It would be wrong to say that .pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 203; it is assigned system ID ss204 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It would be wrong to say that + complete clause",
+  "formulas": [
+    {
+      "id": "ss204-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "It would be wrong to say that + complete clause"
+    }
+  ],
+  "example": "It would be wrong to say that all young people are careless with money.",
+  "exampleZh": "若說所有年輕人都不懂得小心理財，便不正確。",
+  "examples": [
+    {
+      "id": "ss204-example-01",
+      "en": "It would be wrong to say that all young people are careless with money.",
+      "zh": "若說所有年輕人都不懂得小心理財，便不正確。",
+      "highlight": "It would be wrong to say that all young people are careless with money."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：It would be wrong to say that + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss204-rule-01",
+      "zh": "That 後面必須接完整句子 正確： 不完整：",
+      "en": "Follow that with a complete clause. Correct: It would be wrong to say that all students dislike homework. Incomplete: It would be wrong to say that all students disliking homework.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It would be wrong to say that all students dislike homework.",
+        "It would be wrong to say that all students disliking homework."
+      ]
+    },
+    {
+      "id": "ss204-rule-02",
+      "zh": "Wrong 在這裏不一定表示「道德上錯誤」 在這個句型中，wrong 通常表示： ● inaccurate 不準確； ● unfair 不公平； ● misleading 容易令人誤解； ● too general 過於籠統； ● unsupported 缺乏證據支持。",
+      "en": "Wrong here means inaccurate, unfair, misleading, too general or unsupported, rather than morally wrong.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss204-rule-03",
+      "zh": "Would 能令語氣較柔和 較直接： （那個說法是錯的。） 較委婉： （若說每名僱員都感到滿意，便不正確。） 第二句較適合討論、會議、作文及正式分析。",
+      "en": "Would softens the tone. Compare the direct “That statement is wrong” with the more tactful “It would be wrong to say that every employee is satisfied.” The second version still makes a clear judgement, but it frames it as a careful evaluation and therefore suits discussions, meetings, essays and formal analysis better.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "That statement is wrong.",
+        "It would be wrong to say that every employee is satisfied."
+      ]
+    },
+    {
+      "id": "ss204-rule-04",
+      "zh": "這個句型常用來修正絕對化說法 常見的絕對化字眼包括：",
+      "en": "The structure often corrects absolute claims. Common absolute words include all, every, always, never, no one, completely, only, everyone and in every case. Example: Not every expensive product is reliable. → It would be wrong to say that every expensive product is reliable.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "in every case",
+        "Not every expensive product is reliable.",
+        "→ It would be wrong to say that every expensive product is reliable."
+      ]
+    },
+    {
+      "id": "ss204-rule-05",
+      "zh": "必須保留原句的否定範圍 意思是：有些學生沒有合格。 這不等於： 意思是：沒有學生合格。 因此，改寫時不可把 not all 錯誤地變成 none。",
+      "en": "Preserve the scope of negation. “Not all students passed” means that some students did not pass; it is not equivalent to “No students passed”, which means that none passed. Do not turn not all into none when rewriting.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Not all students passed.",
+        "No students passed."
+      ]
+    },
+    {
+      "id": "ss204-rule-06",
+      "zh": "不要與 It is wrong that ... 混淆 （若說這個計劃已經失敗，便不正確。） 這句評價的是「說法」。 （有些工人受到不公平對待，是不對的。） 這句評價的是「情況或行為」。",
+      "en": "Do not confuse “It would be wrong to say that ...” with “It is wrong that ....” “It would be wrong to say that the plan has failed” evaluates a statement. “It is wrong that some workers are treated unfairly” evaluates a situation or action.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It would be wrong to say that the plan has failed.",
+        "It is wrong that some workers are treated unfairly."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss204-benefit-01",
+      "zh": "這個句型能讓你修正 all、always 和 never 等過度概括的說法，而不需要完全否定整個觀點。",
+      "en": "It helps you correct an overgeneralisation This structure allows you to challenge words such as all, always and never without rejecting the whole topic.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss204-benefit-02",
+      "zh": "與其直接說「你錯了」，這個句型讓你把焦點放在說法本身，避免令人覺得你在批評說話者。 第二種說法較冷靜、客觀，也較容易讓對方接受。",
+      "en": "It makes disagreement sound less aggressive. Instead of saying “You are wrong”, you can focus on the statement rather than attacking the speaker. Compare: You are wrong. Not every teenager is irresponsible. It would be wrong to say that every teenager is irresponsible. The second approach is calmer, more objective and easier for another person to accept.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss204-benefit-03",
+      "zh": "你可以承認某個問題確實存在，同時指出它並不適用於所有人或所有情況。",
+      "en": "It helps you express a balanced opinion You can acknowledge that a problem exists while showing that it does not apply to every person or situation.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss204-benefit-04",
+      "zh": "在作文、討論及簡報中，當你需要分析某項主張、證據、調查、政策或社會問題時，這個句型尤其 實用。",
+      "en": "It is useful in essays, discussions and presentations This structure is especially useful when evaluating claims, evidence, surveys, policies and social issues.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss204-benefit-05",
+      "zh": "這個句型能幫助你控制立場的強度，清楚指出哪一項結論過於武斷，而不是用另一個極端說法反 駁。",
+      "en": "It helps you control the strength of your claim Instead of making another extreme statement, you can explain exactly which conclusion goes too far.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss204-benefit-06",
+      "zh": "記住 It would be wrong to say that… 這個框架後，你在討論中便能迅速組織一個謹慎而有條理 的回應。",
+      "en": "It provides a ready-made speaking frame Once you remember “It would be wrong to say that…”, you can organise a careful response quickly during a discussion.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 203; it is assigned system ID ss204 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: It would be wrong to say that + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「It would be wrong to say that + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss204-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Not all teenagers dislike reading.",
+      "promptZh": "並非所有青少年都不喜歡閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that all teenagers dislike reading.",
+      "answerZh": "若說所有青少年都不喜歡閱讀，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that all teenagers dislike reading."
+    },
+    {
+      "id": "ss204-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Public transport is not always crowded.",
+      "promptZh": "公共交通工具並非時常都很擠迫。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that public transport is always crowded.",
+      "answerZh": "若說公共交通工具時常都很擠迫，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that public transport is always crowded."
+    },
+    {
+      "id": "ss204-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Some children enjoy eating vegetables. Therefore, we cannot say that no children enjoy them.",
+      "promptZh": "有些孩子喜歡吃蔬菜。因此，我們不能說沒有孩子喜歡吃蔬菜。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that no children enjoy eating vegetables.",
+      "answerZh": "若說沒有孩子喜歡吃蔬菜，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that no children enjoy eating vegetables."
+    },
+    {
+      "id": "ss204-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We should not claim that every mistake is a failure.",
+      "promptZh": "我們不應聲稱每個錯誤都是失敗。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that every mistake is a failure.",
+      "answerZh": "若說每個錯誤都是失敗，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that every mistake is a failure."
+    },
+    {
+      "id": "ss204-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Not every old building is unsafe.",
+      "promptZh": "並非每座舊建築物都不安全。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that every old building is unsafe.",
+      "answerZh": "若說每座舊建築物都不安全，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that every old building is unsafe."
+    },
+    {
+      "id": "ss204-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The weather in Hong Kong is not hot every day.",
+      "promptZh": "香港並非每天都天氣炎熱。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that the weather in Hong Kong is hot every day.",
+      "answerZh": "若說香港每天都天氣炎熱，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that the weather in Hong Kong is hot every day."
+    },
+    {
+      "id": "ss204-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Being quiet does not mean that a person lacks confidence.",
+      "promptZh": "沉默寡言並不代表一個人缺乏自信。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that quiet people lack confidence.",
+      "answerZh": "若說沉默寡言的人都缺乏自信，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that quiet people lack confidence."
+    },
+    {
+      "id": "ss204-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is not true that online games are always harmful.",
+      "promptZh": "網上遊戲總是有害的這個說法並不正確。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that online games are always harmful.",
+      "answerZh": "若說網上遊戲總是有害，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that online games are always harmful."
+    },
+    {
+      "id": "ss204-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Not all expensive products are of high quality.",
+      "promptZh": "並非所有昂貴的產品都有良好質素。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that all expensive products are of high quality.",
+      "answerZh": "若說所有昂貴的產品都有良好質素，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that all expensive products are of high quality."
+    },
+    {
+      "id": "ss204-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why should we avoid saying that examinations measure every kind of ability? They do not test every skill.",
+      "promptZh": "為甚麼我們應避免說考試能衡量所有能力？因為考試並不能測試每一種技能。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that examinations measure every kind of ability.",
+      "answerZh": "若說考試能衡量每一種能力，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that examinations measure every kind of ability."
+    },
+    {
+      "id": "ss204-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We cannot fairly say that every student learns at the same speed.",
+      "promptZh": "我們不能公平地說每名學生的學習速度都一樣。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that every student learns at the same speed.",
+      "answerZh": "若說每名學生的學習速度都一樣，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that every student learns at the same speed."
+    },
+    {
+      "id": "ss204-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "One bad meal does not mean that a restaurant is terrible.",
+      "promptZh": "一頓飯不好吃，並不代表整間餐廳都很差。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a restaurant is terrible merely because one meal was bad.",
+      "answerZh": "若只因一頓飯不好吃便說整間餐廳很差，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a restaurant is terrible merely because one meal was bad."
+    },
+    {
+      "id": "ss204-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is inaccurate to claim that technology can solve every problem.",
+      "promptZh": "聲稱科技能解決每一個問題並不準確。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that technology can solve every problem.",
+      "answerZh": "若說科技能解決每一個問題，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that technology can solve every problem."
+    },
+    {
+      "id": "ss204-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Some managers listen carefully to junior staff, so it is unfair to say that no managers do so.",
+      "promptZh": "有些經理會認真聆聽初級員工的意見，因此說所有經理都不會這樣做並不公平。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that no managers listen carefully to junior staff.",
+      "answerZh": "若說沒有經理會認真聆聽初級員工的意見，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that no managers listen carefully to junior staff."
+    },
+    {
+      "id": "ss204-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Even a useful rule can have exceptions. We should not say that a useful rule works in every situation.",
+      "promptZh": "即使是有用的規則也可能有例外。我們不應說有用的規則在所有情況下都適用。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a useful rule works in every situation.",
+      "answerZh": "若說有用的規則在所有情況下都適用，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a useful rule works in every situation."
+    },
+    {
+      "id": "ss204-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Not every person who changes jobs is disloyal.",
+      "promptZh": "並非每個轉工的人都不忠誠。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that every person who changes jobs is disloyal.",
+      "answerZh": "若說每個轉工的人都不忠誠，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that every person who changes jobs is disloyal."
+    },
+    {
+      "id": "ss204-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The report contains mixed results, so we cannot conclude that the programme was a complete failure.",
+      "promptZh": "報告顯示的結果好壞參半，因此我們不能斷定這個計劃完全失敗。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that the programme was a complete failure.",
+      "answerZh": "若說這個計劃完全失敗，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that the programme was a complete failure."
+    },
+    {
+      "id": "ss204-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Many older people use smartphones confidently. The claim that older people cannot learn new technology is therefore false.",
+      "promptZh": "很多年長人士都能有信心地使用智能電話。因此，年長人士無法學習新科技的說法並不正確。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that older people cannot learn new technology.",
+      "answerZh": "若說年長人士無法學習新科技，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that older people cannot learn new technology."
+    },
+    {
+      "id": "ss204-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We should avoid saying that people are poor only because they do not work hard.",
+      "promptZh": "我們應避免說人們貧窮只是因為他們不努力工作。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that people are poor only because they do not work hard.",
+      "answerZh": "若說人們貧窮只是因為他們不努力工作，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that people are poor only because they do not work hard."
+    },
+    {
+      "id": "ss204-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why is the statement “City life is better for everyone” too broad? Different people have different needs.",
+      "promptZh": "為甚麼「城市生活對每個人都較好」這個說法過於籠統？因為不同的人有不同需要。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that city life is better for everyone.",
+      "answerZh": "若說城市生活對每個人都較好，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that city life is better for everyone."
+    },
+    {
+      "id": "ss204-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The evidence does not support the claim that social media always causes loneliness.",
+      "promptZh": "現有證據並不支持社交媒體總會令人感到孤獨的說法。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that social media always causes loneliness.",
+      "answerZh": "若說社交媒體總會令人感到孤獨，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that social media always causes loneliness."
+    },
+    {
+      "id": "ss204-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A child who asks many questions is not necessarily being rude.",
+      "promptZh": "一個提出很多問題的孩子不一定是在無禮。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a child is being rude simply because they ask many questions.",
+      "answerZh": "若只因一個孩子提出很多問題便說他無禮，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a child is being rude simply because they ask many questions."
+    },
+    {
+      "id": "ss204-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although remote work can reduce face-to-face contact, it does not make teamwork impossible.",
+      "promptZh": "遙距工作雖然可能減少面對面接觸，但不會令團隊合作變得不可能。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that remote work makes teamwork impossible.",
+      "answerZh": "若說遙距工作會令團隊合作變得不可能，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that remote work makes teamwork impossible."
+    },
+    {
+      "id": "ss204-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A low score in one test does not prove that a student is weak in that subject.",
+      "promptZh": "一次測驗分數偏低，並不能證明學生不擅長該科目。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a student is weak in a subject merely because of one low test score.",
+      "answerZh": "若只因一次測驗分數偏低便說學生不擅長該科目，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a student is weak in a subject merely because of one low test score."
+    },
+    {
+      "id": "ss204-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The fact that a policy is unpopular does not show that it is ineffective.",
+      "promptZh": "一項政策不受歡迎，並不表示它沒有效用。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that an unpopular policy is ineffective.",
+      "answerZh": "若說一項不受歡迎的政策必定沒有效用，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that an unpopular policy is ineffective."
+    },
+    {
+      "id": "ss204-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Some small businesses grow slowly but remain healthy. Slow growth does not necessarily mean failure.",
+      "promptZh": "有些小型企業增長緩慢，但營運仍然健康。增長緩慢不一定代表失敗。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a slowly growing business is necessarily failing.",
+      "answerZh": "若說一間增長緩慢的企業必定正在失敗，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a slowly growing business is necessarily failing."
+    },
+    {
+      "id": "ss204-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Not every disagreement damages a friendship; some disagreements improve mutual understanding.",
+      "promptZh": "並非每次意見分歧都會破壞友誼；有些分歧反而能增進彼此了解。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that every disagreement damages a friendship.",
+      "answerZh": "若說每次意見分歧都會破壞友誼，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that every disagreement damages a friendship."
+    },
+    {
+      "id": "ss204-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Doctors do not always recommend medicine. Sometimes rest is sufficient.",
+      "promptZh": "醫生並非時常都會建議病人服藥；有時休息已經足夠。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that doctors always recommend medicine.",
+      "answerZh": "若說醫生時常都會建議病人服藥，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that doctors always recommend medicine."
+    },
+    {
+      "id": "ss204-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Entry to the museum is free, but that does not mean its exhibitions have little value.",
+      "promptZh": "博物館免費入場，但這並不代表它的展覽沒有甚麼價值。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that the museum’s exhibitions have little value simply because entry is free.",
+      "answerZh": "若只因博物館免費入場便說它的展覽沒有甚麼價值，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that the museum’s exhibitions have little value simply because entry is free."
+    },
+    {
+      "id": "ss204-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why can we not say that artificial intelligence can replace every worker? Many jobs require human judgement and empathy.",
+      "promptZh": "為甚麼我們不能說人工智能可以取代每名工作者？因為很多工作需要人類的判斷力和同理心。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that artificial intelligence can replace every worker.",
+      "answerZh": "若說人工智能可以取代每名工作者，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that artificial intelligence can replace every worker."
+    },
+    {
+      "id": "ss204-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Rising sales do not necessarily mean that a company is making a profit because its costs may also be increasing.",
+      "promptZh": "銷售額上升不一定代表公司正在賺取利潤，因為成本也可能正在增加。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that rising sales always mean that a company is making a profit.",
+      "answerZh": "若說銷售額上升時常都代表公司正在賺取利潤，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that rising sales always mean that a company is making a profit."
+    },
+    {
+      "id": "ss204-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "One complaint cannot prove that a service is generally poor.",
+      "promptZh": "一次投訴並不能證明某項服務整體質素欠佳。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a service is generally poor because of one complaint.",
+      "answerZh": "若因一次投訴便說某項服務的整體質素欠佳，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a service is generally poor because of one complaint."
+    },
+    {
+      "id": "ss204-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although school uniforms can create consistency, it is too simple to claim that they solve every discipline problem.",
+      "promptZh": "校服雖然能帶來一致性，但聲稱校服可以解決所有紀律問題便過於簡化。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that school uniforms solve every discipline problem.",
+      "answerZh": "若說校服可以解決所有紀律問題，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that school uniforms solve every discipline problem."
+    },
+    {
+      "id": "ss204-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The absence of visible damage does not guarantee that a device is working properly.",
+      "promptZh": "看不見任何損壞，並不保證裝置運作正常。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a device is working properly simply because no damage is visible.",
+      "answerZh": "若只因看不見任何損壞便說裝置運作正常，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a device is working properly simply because no damage is visible."
+    },
+    {
+      "id": "ss204-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Some patients recover quickly, while others need more time. The same treatment does not work equally well for everyone.",
+      "promptZh": "有些病人康復得很快，另一些則需要較長時間。同一種治療並非對每個人都有同等效果。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that the same treatment works equally well for everyone.",
+      "answerZh": "若說同一種治療對每個人都有同等效果，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that the same treatment works equally well for everyone."
+    },
+    {
+      "id": "ss204-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is unfair to describe all tourists as inconsiderate because of the actions of a few people.",
+      "promptZh": "因少數人的行為而把所有遊客形容為不顧及他人，是不公平的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that all tourists are inconsiderate because of the actions of a few people.",
+      "answerZh": "若因少數人的行為便說所有遊客都不顧及他人，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that all tourists are inconsiderate because of the actions of a few people."
+    },
+    {
+      "id": "ss204-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Being highly educated does not automatically make someone a good leader.",
+      "promptZh": "受過高等教育並不會自動令一個人成為優秀領袖。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that being highly educated automatically makes someone a good leader.",
+      "answerZh": "若說受過高等教育便會自動令一個人成為優秀領袖，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that being highly educated automatically makes someone a good leader."
+    },
+    {
+      "id": "ss204-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The survey included only fifty people, so it cannot prove that the whole community supports the proposal.",
+      "promptZh": "這項調查只訪問了五十人，因此不能證明整個社區都支持該項建議。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that the whole community supports the proposal on the basis of a survey of only fifty people.",
+      "answerZh": "若只根據一項訪問了五十人的調查便說整個社區都支持該項建議，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that the whole community supports the proposal on the basis of a survey of only fifty people."
+    },
+    {
+      "id": "ss204-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why should we not conclude that a silent employee has no ideas? Some people prefer to think carefully before speaking.",
+      "promptZh": "為甚麼我們不應斷定沉默的僱員沒有想法？有些人喜歡先仔細思考，然後才發言。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a silent employee has no ideas.",
+      "answerZh": "若說一名沉默的僱員沒有想法，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a silent employee has no ideas."
+    },
+    {
+      "id": "ss204-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A law may be well intentioned and still create unexpected problems. Therefore, not every well-intentioned law produces only good results.",
+      "promptZh": "一項法律可能出於善意，但仍會造成意料之外的問題。因此，並非每項出於善意的法律都只會帶來好結果。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that every well-intentioned law produces only good results.",
+      "answerZh": "若說每項出於善意的法律都只會帶來好結果，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that every well-intentioned law produces only good results."
+    },
+    {
+      "id": "ss204-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school’s improved results are encouraging, but one year of data is not enough to conclude that all its reforms have succeeded.",
+      "promptZh": "學校成績有所改善，確實令人鼓舞，但一年的數據不足以證明所有改革都已成功。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that all the school’s reforms have succeeded on the basis of one year of improved results.",
+      "answerZh": "若只根據一年的成績改善便說學校所有改革都已成功，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that all the school’s reforms have succeeded on the basis of one year of improved results."
+    },
+    {
+      "id": "ss204-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Hospital waiting times have fallen, but patient experience depends on more than speed. Shorter waiting times alone do not prove that the quality of care has improved in every respect.",
+      "promptZh": "醫院輪候時間有所縮短，但病人的體驗不只取決於速度。單憑輪候時間縮短，不能證明醫療服務的質素在各方面都有改善。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that shorter hospital waiting times alone prove that the quality of care has improved in every respect.",
+      "answerZh": "若說單憑醫院輪候時間縮短便能證明醫療服務的質素在各方面都有改善，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that shorter hospital waiting times alone prove that the quality of care has improved in every respect."
+    },
+    {
+      "id": "ss204-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Public opposition does not necessarily mean that a project has no value. People may instead be concerned about its design or cost.",
+      "promptZh": "公眾反對不一定表示某個項目毫無價值；人們可能只是擔心它的設計或成本。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a project has no value simply because it faces public opposition.",
+      "answerZh": "若只因一個項目受到公眾反對便說它毫無價值，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a project has no value simply because it faces public opposition."
+    },
+    {
+      "id": "ss204-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Strong economic growth can benefit a country, but the gains are not always shared equally among its citizens.",
+      "promptZh": "強勁的經濟增長可以令國家受惠，但所得利益並非時常都能由市民平均分享。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that strong economic growth benefits everyone equally.",
+      "answerZh": "若說強勁的經濟增長會令每個人同等受惠，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that strong economic growth benefits everyone equally."
+    },
+    {
+      "id": "ss204-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A company can use sustainable packaging and still have poor labour practices. One environmentally friendly policy does not make the entire business ethical.",
+      "promptZh": "一間公司可以使用可持續包裝，同時仍然採取欠佳的勞工措施。一項環保政策不會令整間企業自動變得合乎道德。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a company is fully ethical merely because it uses sustainable packaging.",
+      "answerZh": "若只因一間公司使用可持續包裝便說它完全合乎道德，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a company is fully ethical merely because it uses sustainable packaging."
+    },
+    {
+      "id": "ss204-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The algorithm made several accurate predictions, but the team should not assume that it will be correct in every future case.",
+      "promptZh": "這套演算法作出了數次準確預測，但團隊不應假設它日後在每個情況下都會正確。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that the algorithm will be correct in every future case simply because it made several accurate predictions.",
+      "answerZh": "若只因這套演算法曾作出數次準確預測，便說它日後在每個情況下都會正確，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that the algorithm will be correct in every future case simply because it made several accurate predictions."
+    },
+    {
+      "id": "ss204-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why is it unfair to describe everyone who needs financial help as irresponsible? Illness, unemployment and family duties can all cause financial hardship.",
+      "promptZh": "為甚麼把所有需要經濟援助的人形容為不負責任並不公平？疾病、失業和家庭責任都可能造成經濟困難。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that everyone who needs financial help is irresponsible.",
+      "answerZh": "若說所有需要經濟援助的人都不負責任，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that everyone who needs financial help is irresponsible."
+    },
+    {
+      "id": "ss204-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A student’s accent may differ from that of a native speaker, but the student’s speech can still be clear and effective.",
+      "promptZh": "學生的口音可能與母語使用者不同，但他的說話仍然可以清楚而有效。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a non-native accent makes communication unclear or ineffective.",
+      "answerZh": "若說非母語口音會令溝通變得不清楚或沒有效果，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a non-native accent makes communication unclear or ineffective."
+    },
+    {
+      "id": "ss204-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The report identified a link between the two factors, but it did not establish a direct cause. A connection alone does not prove causation.",
+      "promptZh": "報告發現兩項因素之間存在關聯，但沒有確立直接的因果關係。單憑關聯並不能證明因果關係。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that an observed link proves that one factor directly caused another.",
+      "answerZh": "若說觀察到兩項因素之間存在關聯，便能證明其中一項直接導致另一項，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that an observed link proves that one factor directly caused another."
+    },
+    {
+      "id": "ss204-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A policy can produce short-term benefits while causing long-term costs. Its success should not be judged from its immediate results alone.",
+      "promptZh": "一項政策可以帶來短期利益，同時造成長期代價。我們不應單憑即時結果判斷它是否成功。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wrong to say that a policy is successful simply because it produces short-term benefits.",
+      "answerZh": "若只因一項政策帶來短期利益便說它是成功的，便不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wrong to say that a policy is successful simply because it produces short-term benefits."
+    }
+  ]
+}

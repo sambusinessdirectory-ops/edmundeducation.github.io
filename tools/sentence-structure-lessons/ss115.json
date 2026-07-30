@@ -1,0 +1,1237 @@
+{
+  "id": "ss115",
+  "order": 115,
+  "slug": "far-from-adjective",
+  "title": "「Far from + 形容詞」表示「遠未／絕非」",
+  "titleZh": "「Far from + 形容詞」表示「遠未／絕非」",
+  "titleEn": "Using far from + adjective to express a large gap from a standard",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 115 - 「Far from + 形容詞」表示「遠未／絕非」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + be + far from + adjective + other information",
+  "formulas": [
+    {
+      "id": "ss115-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Subject + be + far from + adjective + other information"
+    }
+  ],
+  "example": "The work is far from complete.",
+  "exampleZh": "這項工作遠未完成。",
+  "examples": [
+    {
+      "id": "ss115-example-01",
+      "en": "The work is far from complete.",
+      "zh": "這項工作遠未完成。",
+      "highlight": "far from complete"
+    },
+    {
+      "id": "ss115-example-02",
+      "en": "Mary’s performance was far from satisfactory.",
+      "zh": "瑪麗的表現遠未令人滿意。",
+      "highlight": "far from satisfactory"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss115-rule-01",
+      "zh": "“Far from + adjective”表示程度上相差很遠 它表示某人或某事物完全未達到形容詞所描述的狀態，意思接近： ● 完全不…… ● 遠未…… ● 絕非…… ● 離……還差很遠 第二句的語氣較強，表示不但尚未完成，而且距離完成仍有一段很大的距離。",
+      "en": "“Far from + adjective” expresses a large difference in degree. It means that a person or thing is not at all, nowhere near or not even close to the state described by the adjective. The second sentence is stronger: it says not only that the work is unfinished, but that a considerable amount remains before completion.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The work is not complete.",
+        "The work is far from complete."
+      ]
+    },
+    {
+      "id": "ss115-rule-02",
+      "zh": "“Far from”後面須使用形容詞 在本課中，學生應直接把形容詞放在 far from 後面。",
+      "en": "Use an adjective after far from in this target pattern. In this lesson, students should place the adjective directly after far from.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "far from ready",
+        "far from clear",
+        "far from satisfactory",
+        "far from perfect",
+        "far from certain"
+      ]
+    },
+    {
+      "id": "ss115-rule-03",
+      "zh": "Be動詞須配合主語和時態",
+      "en": "Match the form of be to the subject and tense.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The plan is far from perfect.",
+        "The journey was far from smooth.",
+        "The figures are far from accurate."
+      ]
+    },
+    {
+      "id": "ss115-rule-04",
+      "zh": "負面形容詞要理解整個意思 如果後面的形容詞本身帶有負面意思，便要理解整個詞組，而不是逐字翻譯。",
+      "en": "Interpret the whole phrase carefully when the adjective is already negative. In that case, far from means that the negative description is not true, rather than carrying a literal word-for-word meaning.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The machine is far from useless.",
+        "The task is far from impossible."
+      ]
+    },
+    {
+      "id": "ss115-rule-05",
+      "zh": "不要與表示實際距離的“far from”混淆 這裏的 far from 表示實際距離，後面接名詞，並非本課練習的句型。",
+      "en": "Do not confuse this pattern with far from used for physical distance. In the physical-distance use, far from is followed by a noun phrase and is not the target structure in this exercise.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The school is far from my home."
+      ]
+    },
+    {
+      "id": "ss115-rule-06",
+      "zh": "本課不使用“far from + -ing” 這是另一個文法結構，意思是「不但沒有……，反而……」，不屬於本課範圍。",
+      "en": "Far from + -ing is a separate grammatical structure meaning ‘not only did something not happen; the opposite happened instead’, and it is outside the scope of this lesson.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Far from helping us, the change created more problems."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss115-benefit-01",
+      "zh": "能清楚表示「距離目標仍很遠」 這個句型不只是表示某事「不是」完整、安全或成功，而是清楚指出實際情況與理想標準仍有很大 距離。",
+      "en": "It shows a large difference clearly. This structure does more than say that something is ‘not’ complete, safe or successful. It tells the reader that the actual situation is still very different from the expected standard.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss115-benefit-02",
+      "zh": "能以較冷靜而有力的方式提出批評 使用 far from satisfactory 可以清楚表達不滿，同時令語氣較有控制，適合用於作文、報告、投 訴信和商業溝通。",
+      "en": "It helps you express criticism firmly but calmly. Instead of using emotional words such as terrible, you can make a controlled evaluation. Far from satisfactory expresses dissatisfaction clearly while keeping the tone controlled, making it suitable for essays, reports, complaint letters and business communication.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss115-benefit-03",
+      "zh": "能令評價更加準確 這個句型可以準確評價品質、進度、準備程度、安全程度、確定性和成效。",
+      "en": "It makes evaluations more precise. You can use the structure to evaluate quality, progress, preparation, safety, certainty and success.",
+      "enSource": "pdf",
+      "examples": [
+        "quality: far from satisfactory",
+        "progress: far from complete",
+        "preparation: far from ready",
+        "safety: far from safe",
+        "certainty: far from certain",
+        "success: far from successful"
+      ]
+    },
+    {
+      "id": "ss115-benefit-04",
+      "zh": "能避免重複使用簡單否定句 你可以利用這個句型改變表達方式，避免連續使用相同的否定結構，令說話和寫作更有句式變 化。",
+      "en": "It gives you another way to express strong negative meaning. Instead of repeatedly using not very, not at all or not nearly, you can use far from + adjective, adding variety to speech and writing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss115-benefit-05",
+      "zh": "適合用於作文、報告和簡報 當你要分析一個計劃、結果、制度或情況是否達到預期標準時，這個句型非常實用。",
+      "en": "It is useful in essays, reports and presentations. The structure is especially useful when discussing whether a plan, result, system or situation has reached an expected standard.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using far from + adjective. Preserve the original meaning, tense and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 far from + 形容詞 改寫以下句子。答案須保留原句的意思、時態和重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss115-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The work is not nearly complete.",
+      "promptZh": "這項工作離完成還差很遠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The work is far from complete.",
+      "answerZh": "這項工作遠未完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The work is far from complete."
+    },
+    {
+      "id": "ss115-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mary’s performance was not at all satisfactory.",
+      "promptZh": "瑪麗的表現完全不能令人滿意。",
+      "promptZhSource": "pdf",
+      "starter": "Mary’s",
+      "answer": "Mary’s performance was far from satisfactory.",
+      "answerZh": "瑪麗的表現遠未令人滿意。",
+      "answerZhSource": "pdf",
+      "highlight": "Mary’s performance was far from satisfactory."
+    },
+    {
+      "id": "ss115-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The room is nowhere near clean.",
+      "promptZh": "這個房間離乾淨的程度還差很遠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room is far from clean.",
+      "answerZh": "這個房間遠未算乾淨。",
+      "answerZhSource": "pdf",
+      "highlight": "The room is far from clean."
+    },
+    {
+      "id": "ss115-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Our plan is not even close to perfect.",
+      "promptZh": "我們的計劃離完美還差很遠。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our plan is far from perfect.",
+      "answerZh": "我們的計劃遠非完美。",
+      "answerZhSource": "pdf",
+      "highlight": "Our plan is far from perfect."
+    },
+    {
+      "id": "ss115-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The test was anything but easy.",
+      "promptZh": "這次測驗一點也不容易。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The test was far from easy.",
+      "answerZh": "這次測驗一點也不容易。",
+      "answerZhSource": "pdf",
+      "highlight": "The test was far from easy."
+    },
+    {
+      "id": "ss115-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The instructions are not at all clear.",
+      "promptZh": "這些指示完全不清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions are far from clear.",
+      "answerZh": "這些指示遠未清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions are far from clear."
+    },
+    {
+      "id": "ss115-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The soup still needs a lot more time before it is ready.",
+      "promptZh": "這鍋湯還要煮很久才可以上桌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup is far from ready.",
+      "answerZh": "這鍋湯遠未煮好。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup is far from ready."
+    },
+    {
+      "id": "ss115-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This road cannot be described as safe.",
+      "promptZh": "這條道路絕對不能算是安全。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This road is far from safe.",
+      "answerZh": "這條道路一點也不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "This road is far from safe."
+    },
+    {
+      "id": "ss115-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We are nowhere near certain about the answer.",
+      "promptZh": "我們對這個答案遠未有把握。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We are far from certain about the answer.",
+      "answerZh": "我們對這個答案遠未有把握。",
+      "answerZhSource": "pdf",
+      "highlight": "We are far from certain about the answer."
+    },
+    {
+      "id": "ss115-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There is still a great deal to do before the project is finished.",
+      "promptZh": "這個項目還有很多工作要做才算完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project is far from finished.",
+      "answerZh": "這個項目遠未完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The project is far from finished."
+    },
+    {
+      "id": "ss115-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This solution is anything but simple.",
+      "promptZh": "這個解決方法一點也不簡單。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This solution is far from simple.",
+      "answerZh": "這個解決方法一點也不簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "This solution is far from simple."
+    },
+    {
+      "id": "ss115-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The hotel cannot honestly be called cheap.",
+      "promptZh": "這間酒店實在不能算是便宜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hotel is far from cheap.",
+      "answerZh": "這間酒店一點也不便宜。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel is far from cheap."
+    },
+    {
+      "id": "ss115-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The hall was nowhere near empty when we arrived.",
+      "promptZh": "我們到達時，禮堂仍有很多人，絕不算空。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hall was far from empty when we arrived.",
+      "answerZh": "我們到達時，禮堂一點也不空。",
+      "answerZhSource": "pdf",
+      "highlight": "The hall was far from empty when we arrived."
+    },
+    {
+      "id": "ss115-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The neighbourhood is not at all quiet at night.",
+      "promptZh": "這個社區在晚上一點也不安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbourhood is far from quiet at night.",
+      "answerZh": "這個社區在晚上一點也不安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbourhood is far from quiet at night."
+    },
+    {
+      "id": "ss115-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Jason was anything but calm during the interview.",
+      "promptZh": "傑森在面試期間一點也不冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "Jason",
+      "answer": "Jason was far from calm during the interview.",
+      "answerZh": "傑森在面試期間一點也不冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason was far from calm during the interview."
+    },
+    {
+      "id": "ss115-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The patient was not even close to healthy after the operation.",
+      "promptZh": "手術後，病人遠未恢復健康。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient was far from healthy after the operation.",
+      "answerZh": "手術後，病人遠未恢復健康。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient was far from healthy after the operation."
+    },
+    {
+      "id": "ss115-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The figures in this report are nowhere near accurate.",
+      "promptZh": "這份報告內的數字遠不準確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The figures in this report are far from accurate.",
+      "answerZh": "這份報告內的數字遠未準確。",
+      "answerZhSource": "pdf",
+      "highlight": "The figures in this report are far from accurate."
+    },
+    {
+      "id": "ss115-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Most staff felt that the decision was not at all fair.",
+      "promptZh": "大部分員工認為這個決定一點也不公平。",
+      "promptZhSource": "pdf",
+      "starter": "Most",
+      "answer": "Most staff felt that the decision was far from fair.",
+      "answerZh": "大部分員工認為這個決定遠非公平。",
+      "answerZhSource": "pdf",
+      "highlight": "Most staff felt that the decision was far from fair."
+    },
+    {
+      "id": "ss115-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After the poor turnout, the event could not be considered successful.",
+      "promptZh": "由於出席人數太少，這項活動不能算是成功。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the poor turnout, the event was far from successful.",
+      "answerZh": "由於出席人數太少，這項活動遠未算成功。",
+      "answerZhSource": "pdf",
+      "highlight": "After the poor turnout, the event was far from successful."
+    },
+    {
+      "id": "ss115-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Her notes are anything but organised.",
+      "promptZh": "她的筆記毫無條理。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her notes are far from organised.",
+      "answerZh": "她的筆記遠未整理妥當。",
+      "answerZhSource": "pdf",
+      "highlight": "Her notes are far from organised."
+    },
+    {
+      "id": "ss115-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The cause of the problem is not at all obvious.",
+      "promptZh": "問題的成因完全不明顯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cause of the problem is far from obvious.",
+      "answerZh": "問題的成因一點也不明顯。",
+      "answerZhSource": "pdf",
+      "highlight": "The cause of the problem is far from obvious."
+    },
+    {
+      "id": "ss115-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Life at the camp was nowhere near normal after the storm.",
+      "promptZh": "暴風雨過後，營地的生活遠未恢復正常。",
+      "promptZhSource": "pdf",
+      "starter": "Life",
+      "answer": "Life at the camp was far from normal after the storm.",
+      "answerZh": "暴風雨過後，營地的生活遠未恢復正常。",
+      "answerZhSource": "pdf",
+      "highlight": "Life at the camp was far from normal after the storm."
+    },
+    {
+      "id": "ss115-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the proposal sounds attractive, it is not at all practical.",
+      "promptZh": "雖然這項建議聽起來很吸引，但完全不實際。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the proposal sounds attractive, it is far from practical.",
+      "answerZh": "雖然這項建議聽起來很吸引，但遠非實際可行。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the proposal sounds attractive, it is far from practical."
+    },
+    {
+      "id": "ss115-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The problem is nowhere near solved because several issues remain.",
+      "promptZh": "由於仍有數項問題存在，這個問題遠未解決。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because several issues remain, the problem is far from solved.",
+      "answerZh": "由於仍有數項問題存在，這個問題遠未解決。",
+      "answerZhSource": "pdf",
+      "highlight": "Because several issues remain, the problem is far from solved."
+    },
+    {
+      "id": "ss115-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Is the old machine useless? No, it is not useless at all.",
+      "promptZh": "這部舊機器毫無用處嗎？不是，它絕非毫無用處。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old machine is far from useless.",
+      "answerZh": "這部舊機器絕非毫無用處。",
+      "answerZhSource": "pdf",
+      "highlight": "The old machine is far from useless."
+    },
+    {
+      "id": "ss115-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Was that lecture boring? No. It was anything but boring.",
+      "promptZh": "那場講座沉悶嗎？不，它一點也不沉悶。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That lecture was far from boring.",
+      "answerZh": "那場講座一點也不沉悶。",
+      "answerZhSource": "pdf",
+      "highlight": "That lecture was far from boring."
+    },
+    {
+      "id": "ss115-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team may be young, but it is not at all weak.",
+      "promptZh": "這支球隊或許年輕，但一點也不弱。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team may be young, but it is far from weak.",
+      "answerZh": "這支球隊或許年輕，但一點也不弱。",
+      "answerZhSource": "pdf",
+      "highlight": "The team may be young, but it is far from weak."
+    },
+    {
+      "id": "ss115-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The journey was nowhere near smooth because of the delays.",
+      "promptZh": "由於多次延誤，這段旅程一點也不順利。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because of the delays, the journey was far from smooth.",
+      "answerZh": "由於多次延誤，這段旅程一點也不順利。",
+      "answerZhSource": "pdf",
+      "highlight": "Because of the delays, the journey was far from smooth."
+    },
+    {
+      "id": "ss115-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The chair looks attractive, but it is not even close to comfortable.",
+      "promptZh": "這張椅子外觀吸引，但坐起來一點也不舒適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chair looks attractive, but it is far from comfortable.",
+      "answerZh": "這張椅子外觀吸引，但坐起來一點也不舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "The chair looks attractive, but it is far from comfortable."
+    },
+    {
+      "id": "ss115-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The station may be modern, but it is not at all convenient for elderly passengers.",
+      "promptZh": "這個車站或許很現代化，但對年長乘客一點也不方便。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The station may be modern, but it is far from convenient for elderly passengers.",
+      "answerZh": "這個車站或許很現代化，但對年長乘客一點也不方便。",
+      "answerZhSource": "pdf",
+      "highlight": "The station may be modern, but it is far from convenient for elderly passengers."
+    },
+    {
+      "id": "ss115-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The information on that website is nowhere near reliable.",
+      "promptZh": "那個網站上的資料完全不可靠。",
+      "promptZhSource": "pdf",
+      "starter": "Information",
+      "answer": "Information on that website is far from reliable.",
+      "answerZh": "那個網站上的資料遠未可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Information on that website is far from reliable."
+    },
+    {
+      "id": "ss115-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The market remains anything but stable.",
+      "promptZh": "市場仍然很不穩定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The market remains far from stable.",
+      "answerZh": "市場仍遠未穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "The market remains far from stable."
+    },
+    {
+      "id": "ss115-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This child is still nowhere near independent.",
+      "promptZh": "這個孩子遠未能夠獨立。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This child is still far from independent.",
+      "answerZh": "這個孩子仍遠未能夠獨立。",
+      "answerZhSource": "pdf",
+      "highlight": "This child is still far from independent."
+    },
+    {
+      "id": "ss115-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The two job offers are not nearly equal in value.",
+      "promptZh": "這兩份工作邀請的價值遠不相等。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two job offers are far from equal in value.",
+      "answerZh": "這兩份工作邀請的價值遠不相等。",
+      "answerZhSource": "pdf",
+      "highlight": "The two job offers are far from equal in value."
+    },
+    {
+      "id": "ss115-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Nina did not feel confident at all before the presentation.",
+      "promptZh": "妮娜在簡報前完全沒有信心。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina felt far from confident before the presentation.",
+      "answerZh": "妮娜在簡報前一點也不自信。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina felt far from confident before the presentation."
+    },
+    {
+      "id": "ss115-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The discussion was anything but peaceful after the disagreement began.",
+      "promptZh": "分歧出現後，討論一點也不平和。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the disagreement began, the discussion was far from peaceful.",
+      "answerZh": "分歧出現後，討論一點也不平和。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the disagreement began, the discussion was far from peaceful."
+    },
+    {
+      "id": "ss115-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Do not assume that this chemical is harmless; it is not harmless at all.",
+      "promptZh": "不要以為這種化學品是無害的；它絕非無害。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This chemical is far from harmless.",
+      "answerZh": "這種化學品絕非無害。",
+      "answerZhSource": "pdf",
+      "highlight": "This chemical is far from harmless."
+    },
+    {
+      "id": "ss115-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Passing the exam is not impossible at all if you prepare well.",
+      "promptZh": "只要充分準備，通過考試絕非不可能。",
+      "promptZhSource": "pdf",
+      "starter": "Passing",
+      "answer": "Passing the exam is far from impossible if you prepare well.",
+      "answerZh": "只要充分準備，通過考試絕非不可能。",
+      "answerZhSource": "pdf",
+      "highlight": "Passing the exam is far from impossible if you prepare well."
+    },
+    {
+      "id": "ss115-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No one who knew the facts found the result surprising.",
+      "promptZh": "知道事實的人都不覺得這個結果令人意外。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To anyone who knew the facts, the result was far from surprising.",
+      "answerZh": "對任何知道事實的人而言，這個結果一點也不令人意外。",
+      "answerZhSource": "pdf",
+      "highlight": "To anyone who knew the facts, the result was far from surprising."
+    },
+    {
+      "id": "ss115-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager was not at all pleased with the delay.",
+      "promptZh": "經理對這次延誤十分不滿。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager was far from pleased with the delay.",
+      "answerZh": "經理對這次延誤非常不滿。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager was far from pleased with the delay."
+    },
+    {
+      "id": "ss115-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the first version contains the main ideas, it is nowhere near complete.",
+      "promptZh": "雖然第一個版本包含了主要構思，但它遠未完整。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the first version contains the main ideas, it is far from complete.",
+      "answerZh": "雖然第一個版本包含了主要構思，但它遠未完整。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the first version contains the main ideas, it is far from complete."
+    },
+    {
+      "id": "ss115-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new safety system is not nearly reliable enough for public use.",
+      "promptZh": "這套新的安全系統遠未可靠到可以供公眾使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new safety system is far from reliable enough for public use.",
+      "answerZh": "這套新的安全系統遠未可靠到可以供公眾使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The new safety system is far from reliable enough for public use."
+    },
+    {
+      "id": "ss115-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After three months of repairs, the building is still nowhere near ready.",
+      "promptZh": "經過三個月的維修後，這座大樓仍遠未準備好。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After three months of repairs, the building is still far from ready.",
+      "answerZh": "經過三個月的維修後，這座大樓仍遠未準備好。",
+      "answerZhSource": "pdf",
+      "highlight": "After three months of repairs, the building is still far from ready."
+    },
+    {
+      "id": "ss115-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even with the discount, the course is not at all affordable for many families.",
+      "promptZh": "即使已有折扣，很多家庭仍然無法負擔這個課程。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even with the discount, the course is far from affordable for many families.",
+      "answerZh": "即使已有折扣，很多家庭仍遠遠無法負擔這個課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Even with the discount, the course is far from affordable for many families."
+    },
+    {
+      "id": "ss115-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The evidence does not come close to being strong enough to prove the claim.",
+      "promptZh": "這些證據的力度遠不足以證明這項說法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence is far from strong enough to prove the claim.",
+      "answerZh": "這些證據的力度遠不足以證明這項說法。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence is far from strong enough to prove the claim."
+    },
+    {
+      "id": "ss115-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What appeared to be a small error was not harmless at all.",
+      "promptZh": "這個看似微小的錯誤絕非無害。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What appeared to be a small error was far from harmless.",
+      "answerZh": "這個看似微小的錯誤絕非無害。",
+      "answerZhSource": "pdf",
+      "highlight": "What appeared to be a small error was far from harmless."
+    },
+    {
+      "id": "ss115-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Staff surveys show that the new policy is nowhere near popular.",
+      "promptZh": "員工調查顯示，這項新政策遠不受歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff surveys show that the new policy is far from popular.",
+      "answerZh": "員工調查顯示，這項新政策遠不受歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff surveys show that the new policy is far from popular."
+    },
+    {
+      "id": "ss115-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Despite several encouraging signs, the team is still not at all certain that the plan will work.",
+      "promptZh": "儘管出現了一些令人鼓舞的跡象，團隊仍完全不確定計劃能否成功。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite several encouraging signs, the team is still far from certain that the plan will work.",
+      "answerZh": "儘管出現了一些令人鼓舞的跡象，團隊仍遠未確定計劃能否成功。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite several encouraging signs, the team is still far from certain that the plan will work."
+    },
+    {
+      "id": "ss115-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The task may be difficult, but it is certainly not impossible.",
+      "promptZh": "這項任務可能很困難，但絕非不可能完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The task may be difficult, but it is far from impossible.",
+      "answerZh": "這項任務可能很困難，但絕非不可能完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The task may be difficult, but it is far from impossible."
+    },
+    {
+      "id": "ss115-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the service has improved, it is still nowhere near satisfactory for customers who need quick support.",
+      "promptZh": "雖然服務已有改善，但對需要快速支援的顧客而言，仍遠未令人滿意。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the service has improved, it is still far from satisfactory for customers who need quick support.",
+      "answerZh": "雖然服務已有改善，但對需要快速支援的顧客而言，仍遠未令人滿意。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the service has improved, it is still far from satisfactory for customers who need quick support."
+    }
+  ]
+}

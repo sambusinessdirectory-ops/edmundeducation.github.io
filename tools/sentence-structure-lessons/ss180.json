@@ -1,0 +1,1234 @@
+{
+  "id": "ss180",
+  "order": 180,
+  "slug": "this-is-why-that-is-why",
+  "title": "This is why / That is why",
+  "titleZh": "「This is why / That is why」表達原因與結果",
+  "titleEn": "Using This is why / That is why to connect reason and result",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 180 -「This is why _ That is why」表達原因與結果.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Reason or situation. This is why + subject + verb + result",
+  "formulas": [
+    {
+      "id": "ss180-formula-01",
+      "labelEn": "This is why",
+      "labelZh": "This is why 形式",
+      "formula": "Reason or situation. This is why + subject + verb + result"
+    },
+    {
+      "id": "ss180-formula-02",
+      "labelEn": "That is why",
+      "labelZh": "That is why 形式",
+      "formula": "Earlier or previously mentioned reason. That is why + subject + verb + result"
+    }
+  ],
+  "example": "People need clear leadership. This is why communication matters so much.",
+  "exampleZh": "人們需要清晰的領導。這就是為甚麼溝通如此重要。",
+  "examples": [
+    {
+      "id": "ss180-example-01",
+      "en": "People need clear leadership. This is why communication matters so much.",
+      "zh": "人們需要清晰的領導。這就是為甚麼溝通如此重要。",
+      "highlight": "People need clear leadership. This is why communication matters so much."
+    },
+    {
+      "id": "ss180-example-02",
+      "en": "The team lacked trust. That is why the project moved slowly.",
+      "zh": "團隊缺乏信任。那就是為甚麼項目進展緩慢。",
+      "highlight": "The team lacked trust. That is why the project moved slowly."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss180-rule-01",
+      "zh": "原因放在前面，結果放在後面 第一句先交代原因或情況，第二句才使用 This is why 或 That is why 引出結果。 （道路水浸。那就是為甚麼巴士停止行駛。）",
+      "en": "Place the reason first and the result second. The first sentence states the cause or situation; the second uses This is why or That is why to introduce the result: The roads were flooded. That is why the buses stopped running.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The roads were flooded. That is why the buses stopped running."
+      ]
+    },
+    {
+      "id": "ss180-rule-02",
+      "zh": "why 後面必須接完整句子 This is why / That is why 後面應接「主語＋動詞」。",
+      "en": "Why must be followed by a complete clause with a subject and verb. Write This is why the shop is closed, not This is why the shop's closure.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "This is why the shop is closed.",
+        "This is why the shop’s closure."
+      ]
+    },
+    {
+      "id": "ss180-rule-03",
+      "zh": "This 和 That 的分別 This is why 通常指向剛剛提出、與目前情況較接近的原因。 （房間需要更多光線。這就是為甚麼我們正在拉開窗簾。） That is why 通常回指較早發生或已經提及的事情。 （火車誤點。那就是為甚麼里奧遲到了。） 在很多日常情況中，兩者都可以成立；以上分別主要反映說話者如何看待前面的原因。",
+      "en": "Choose This or That according to the reference. This is why normally points to a reason just mentioned or felt to be close to the current situation: The room needs more light. This is why we are opening the curtains. That is why normally refers back to something earlier or already mentioned: The train was delayed. That is why Leo arrived late. In many everyday contexts either is possible; the distinction mainly reflects how the speaker views the preceding reason.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The room needs more light. This is why we are opening the curtains.",
+        "The train was delayed. That is why Leo arrived late."
+      ]
+    },
+    {
+      "id": "ss180-rule-04",
+      "zh": "不要在 why 後面再加 because",
+      "en": "Do not add because after why. Write The road was closed. This is why we took another route, not This is why because the road was closed.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "This is why because the road was closed.",
+        "The road was closed. This is why we took another route."
+      ]
+    },
+    {
+      "id": "ss180-rule-05",
+      "zh": "本課使用兩個完整句子 本練習的目標是： 以下的單句形式不屬於本課目標：",
+      "en": "Use two complete sentences in this lesson: The system was too slow. This is why we replaced it. The single-sentence form The system was too slow, which is why we replaced it is grammatical but is not the target pattern here.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The system was too slow. This is why we replaced it.",
+        "The system was too slow, which is why we replaced it."
+      ]
+    },
+    {
+      "id": "ss180-rule-06",
+      "zh": "保留原句的時態和意思 改寫時，不要改變人物、動作、時間、否定意思或事情的嚴重程度。",
+      "en": "Preserve the original tense and meaning. During rewriting, do not change the people, actions, time, negative meaning or severity of the situation.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss180-benefit-01",
+      "zh": "清楚顯示原因與結果 這個句型把原因和結果分成兩個清楚步驟，讀者能立即明白兩者的關係。 （路面結冰。那就是為甚麼司機減速。）",
+      "en": "It makes cause and result very clear by presenting them in two distinct steps, so the reader immediately understands their relationship: The road was icy. That is why the driver slowed down.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The road was icy. That is why the driver slowed down."
+      ]
+    },
+    {
+      "id": "ss180-benefit-02",
+      "zh": "幫助你有條理地解釋事情 你可以先完整交代背景，再說明結果。即使原因比較長，句子仍然容易理解。",
+      "en": "It helps you organise an explanation. You can present the full background first and then state the result, so the explanation remains easy to follow even when the reason is long.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss180-benefit-03",
+      "zh": "突出事情產生的結果 This is why 和 That is why 會提醒讀者：「接下來就是前面情況所造成的結果。」",
+      "en": "It gives extra attention to the result. This is why and That is why signal to the reader that the next information is the consequence of the preceding situation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss180-benefit-04",
+      "zh": "避免反覆使用 because 和 so 兩句意思相近，但第二種寫法能改變句子的組織方式，令說話和寫作不會過分重複。",
+      "en": "It gives you an alternative to because and so Compare: The team moved slowly because it lacked trust. The team lacked trust. That is why it moved slowly.",
+      "enSource": "pdf",
+      "examples": [
+        "The team moved slowly because it lacked trust.",
+        "The team lacked trust. That is why it moved slowly."
+      ]
+    },
+    {
+      "id": "ss180-benefit-05",
+      "zh": "適合口語、作文和簡報 當你需要解釋決定、問題、行為或結果時，這個句型能提供一個容易掌握的表達框架。",
+      "en": "It is useful in speaking, essays and presentations. When explaining a decision, problem, behaviour or result, the pattern provides an easy-to-use organisational frame.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using This is why / That is why.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 This is why / That is why 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss180-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "People need clear leadership, so communication matters so much.",
+      "promptZh": "人們需要清晰的領導，因此溝通十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People need clear leadership. This is why communication matters so much.",
+      "answerZh": "人們需要清晰的領導。這就是為甚麼溝通如此重要。",
+      "answerZhSource": "pdf",
+      "highlight": "People need clear leadership. This is why communication matters so much."
+    },
+    {
+      "id": "ss180-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The project moved slowly because the team lacked trust.",
+      "promptZh": "項目進展緩慢，因為團隊缺乏信任。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team lacked trust. That is why the project moved slowly.",
+      "answerZh": "團隊缺乏信任。那就是為甚麼項目進展緩慢。",
+      "answerZhSource": "pdf",
+      "highlight": "The team lacked trust. That is why the project moved slowly."
+    },
+    {
+      "id": "ss180-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The road is wet because it has been raining.",
+      "promptZh": "路面是濕的，因為一直在下雨。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It has been raining. This is why the road is wet.",
+      "answerZh": "一直在下雨。這就是為甚麼路面是濕的。",
+      "answerZhSource": "pdf",
+      "highlight": "It has been raining. This is why the road is wet."
+    },
+    {
+      "id": "ss180-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Mia wore a thick coat because the weather was cold.",
+      "promptZh": "米婭穿上厚外套，因為天氣寒冷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The weather was cold. That is why Mia wore a thick coat.",
+      "answerZh": "天氣寒冷。那就是為甚麼米婭穿上厚外套。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather was cold. That is why Mia wore a thick coat."
+    },
+    {
+      "id": "ss180-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The traffic was heavy, so we left home early.",
+      "promptZh": "交通十分繁忙，所以我們提早離開家。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The traffic was heavy. That is why we left home early.",
+      "answerZh": "交通十分繁忙。那就是為甚麼我們提早離開家。",
+      "answerZhSource": "pdf",
+      "highlight": "The traffic was heavy. That is why we left home early."
+    },
+    {
+      "id": "ss180-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Ben studies English every day, so his speaking is improving.",
+      "promptZh": "本每天學習英語，所以他的口語正在進步。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben studies English every day. This is why his speaking is improving.",
+      "answerZh": "本每天學習英語。這就是為甚麼他的口語正在進步。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben studies English every day. This is why his speaking is improving."
+    },
+    {
+      "id": "ss180-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The baby is crying because she is hungry.",
+      "promptZh": "嬰兒正在哭，因為她肚餓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The baby is hungry. This is why she is crying.",
+      "answerZh": "嬰兒肚餓。這就是為甚麼她正在哭。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby is hungry. This is why she is crying."
+    },
+    {
+      "id": "ss180-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Jack missed the bus because he woke up late.",
+      "promptZh": "傑克錯過了巴士，因為他起床太遲。",
+      "promptZhSource": "pdf",
+      "starter": "Jack",
+      "answer": "Jack woke up late. That is why he missed the bus.",
+      "answerZh": "傑克起床太遲。那就是為甚麼他錯過了巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack woke up late. That is why he missed the bus."
+    },
+    {
+      "id": "ss180-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The shop is offering large discounts, so it is very busy.",
+      "promptZh": "商店正在提供大幅折扣，所以十分繁忙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop is offering large discounts. This is why it is very busy.",
+      "answerZh": "商店正在提供大幅折扣。這就是為甚麼商店十分繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop is offering large discounts. This is why it is very busy."
+    },
+    {
+      "id": "ss180-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Amy took an umbrella because the forecast said it would rain.",
+      "promptZh": "天氣預報表示會下雨，所以艾米帶了雨傘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The forecast said it would rain. That is why Amy took an umbrella.",
+      "answerZh": "天氣預報表示會下雨。那就是為甚麼艾米帶了雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "The forecast said it would rain. That is why Amy took an umbrella."
+    },
+    {
+      "id": "ss180-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Due to a power cut, the lift is not working.",
+      "promptZh": "由於停電，升降機無法運作。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is a power cut. This is why the lift is not working.",
+      "answerZh": "現在停電。這就是為甚麼升降機無法運作。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a power cut. This is why the lift is not working."
+    },
+    {
+      "id": "ss180-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The school closed early because of the storm.",
+      "promptZh": "學校因暴風雨而提早關閉。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was a storm. That is why the school closed early.",
+      "answerZh": "當時有暴風雨。那就是為甚麼學校提早關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "There was a storm. That is why the school closed early."
+    },
+    {
+      "id": "ss180-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Leo forgot his password; therefore, he could not log in.",
+      "promptZh": "里奧忘記了密碼，因此無法登入。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo forgot his password. That is why he could not log in.",
+      "answerZh": "里奧忘記了密碼。那就是為甚麼他無法登入。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo forgot his password. That is why he could not log in."
+    },
+    {
+      "id": "ss180-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The restaurant has excellent service. As a result, many customers return.",
+      "promptZh": "這間餐廳的服務十分出色。因此，很多顧客會再次光顧。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant has excellent service. This is why many customers return.",
+      "answerZh": "這間餐廳的服務十分出色。這就是為甚麼很多顧客會再次光顧。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant has excellent service. This is why many customers return."
+    },
+    {
+      "id": "ss180-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The train was delayed, so Olivia arrived late.",
+      "promptZh": "火車誤點，所以奧莉花遲到了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train was delayed. That is why Olivia arrived late.",
+      "answerZh": "火車誤點。那就是為甚麼奧莉花遲到了。",
+      "answerZhSource": "pdf",
+      "highlight": "The train was delayed. That is why Olivia arrived late."
+    },
+    {
+      "id": "ss180-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Nina practises regularly. For this reason, she plays the piano confidently.",
+      "promptZh": "妮娜經常練習。因此，她能自信地彈奏鋼琴。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina practises regularly. This is why she plays the piano confidently.",
+      "answerZh": "妮娜經常練習。這就是為甚麼她能自信地彈奏鋼琴。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina practises regularly. This is why she plays the piano confidently."
+    },
+    {
+      "id": "ss180-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The room feels brighter because we opened the curtains.",
+      "promptZh": "房間感覺更明亮，因為我們拉開了窗簾。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We opened the curtains. This is why the room feels brighter.",
+      "answerZh": "我們拉開了窗簾。這就是為甚麼房間感覺更明亮。",
+      "answerZhSource": "pdf",
+      "highlight": "We opened the curtains. This is why the room feels brighter."
+    },
+    {
+      "id": "ss180-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The road was icy. As a result, the driver slowed down.",
+      "promptZh": "路面結冰。因此，司機減速。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was icy. That is why the driver slowed down.",
+      "answerZh": "路面結冰。那就是為甚麼司機減速。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was icy. That is why the driver slowed down."
+    },
+    {
+      "id": "ss180-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel needed more information, so he called customer service.",
+      "promptZh": "丹尼爾需要更多資料，所以他致電顧客服務部。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel needed more information. That is why he called customer service.",
+      "answerZh": "丹尼爾需要更多資料。那就是為甚麼他致電顧客服務部。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel needed more information. That is why he called customer service."
+    },
+    {
+      "id": "ss180-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The computer became too hot because its fan was blocked.",
+      "promptZh": "電腦變得過熱，因為它的風扇被堵塞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The computer’s fan was blocked. That is why the computer became too hot.",
+      "answerZh": "電腦的風扇被堵塞。那就是為甚麼電腦變得過熱。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer’s fan was blocked. That is why the computer became too hot."
+    },
+    {
+      "id": "ss180-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why is the library extending its opening hours? More students need a quiet place to study.",
+      "promptZh": "圖書館為甚麼延長開放時間？更多學生需要一個安靜的地方溫習。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More students need a quiet place to study. This is why the library is extending its opening hours.",
+      "answerZh": "更多學生需要一個安靜的地方溫習。這就是為甚麼圖書館正在延長開放時間。",
+      "answerZhSource": "pdf",
+      "highlight": "More students need a quiet place to study. This is why the library is extending its opening hours."
+    },
+    {
+      "id": "ss180-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The match was cancelled owing to heavy rain.",
+      "promptZh": "比賽因大雨而取消。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was heavy rain. That is why the match was cancelled.",
+      "answerZh": "當時下大雨。那就是為甚麼比賽被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "There was heavy rain. That is why the match was cancelled."
+    },
+    {
+      "id": "ss180-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The manager repeated the instructions because several staff members looked confused.",
+      "promptZh": "經理重複了指示，因為數名職員看起來感到困惑。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several staff members looked confused. That is why the manager repeated the instructions.",
+      "answerZh": "數名職員看起來感到困惑。那就是為甚麼經理重複了指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Several staff members looked confused. That is why the manager repeated the instructions."
+    },
+    {
+      "id": "ss180-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The building needs to reduce electricity use, so the lights are switched off automatically at night.",
+      "promptZh": "大樓需要減少用電量，所以燈光會在晚上自動關掉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The building needs to reduce electricity use. This is why the lights are switched off automatically at night.",
+      "answerZh": "大樓需要減少用電量。這就是為甚麼燈光會在晚上自動關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "The building needs to reduce electricity use. This is why the lights are switched off automatically at night."
+    },
+    {
+      "id": "ss180-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Because the medicine can make people sleepy, patients should not drive after taking it.",
+      "promptZh": "由於這種藥物可能令人昏昏欲睡，病人服藥後不應駕駛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine can make people sleepy. This is why patients should not drive after taking it.",
+      "answerZh": "這種藥物可能令人昏昏欲睡。這就是為甚麼病人服藥後不應駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine can make people sleepy. This is why patients should not drive after taking it."
+    },
+    {
+      "id": "ss180-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bus route was changed because roadworks had blocked the usual road.",
+      "promptZh": "巴士路線被更改，因為道路工程封閉了原有道路。",
+      "promptZhSource": "pdf",
+      "starter": "Roadworks",
+      "answer": "Roadworks had blocked the usual road. That is why the bus route was changed.",
+      "answerZh": "道路工程封閉了原有道路。那就是為甚麼巴士路線被更改。",
+      "answerZhSource": "pdf",
+      "highlight": "Roadworks had blocked the usual road. That is why the bus route was changed."
+    },
+    {
+      "id": "ss180-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher gave us extra time, as the task was more difficult than expected.",
+      "promptZh": "老師給了我們額外時間，因為任務比預期困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The task was more difficult than expected. That is why the teacher gave us extra time.",
+      "answerZh": "任務比預期困難。那就是為甚麼老師給了我們額外時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The task was more difficult than expected. That is why the teacher gave us extra time."
+    },
+    {
+      "id": "ss180-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Emma did not hear the announcement because the station was very noisy.",
+      "promptZh": "艾瑪沒有聽到廣播，因為車站十分嘈吵。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The station was very noisy. That is why Emma did not hear the announcement.",
+      "answerZh": "車站十分嘈吵。那就是為甚麼艾瑪沒有聽到廣播。",
+      "answerZhSource": "pdf",
+      "highlight": "The station was very noisy. That is why Emma did not hear the announcement."
+    },
+    {
+      "id": "ss180-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The website is easy to use, so even new users can find information quickly.",
+      "promptZh": "這個網站容易使用，所以即使是新用戶也能迅速找到資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website is easy to use. This is why even new users can find information quickly.",
+      "answerZh": "這個網站容易使用。這就是為甚麼即使是新用戶也能迅速找到資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The website is easy to use. This is why even new users can find information quickly."
+    },
+    {
+      "id": "ss180-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why are the windows open? The room needs more fresh air.",
+      "promptZh": "窗戶為甚麼開着？房間需要更多新鮮空氣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room needs more fresh air. This is why the windows are open.",
+      "answerZh": "房間需要更多新鮮空氣。這就是為甚麼窗戶開着。",
+      "answerZhSource": "pdf",
+      "highlight": "The room needs more fresh air. This is why the windows are open."
+    },
+    {
+      "id": "ss180-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The company received many complaints, which is why it changed the return policy.",
+      "promptZh": "公司收到大量投訴，因此更改了退貨政策。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company received many complaints. That is why it changed the return policy.",
+      "answerZh": "公司收到大量投訴。那就是為甚麼公司更改了退貨政策。",
+      "answerZhSource": "pdf",
+      "highlight": "The company received many complaints. That is why it changed the return policy."
+    },
+    {
+      "id": "ss180-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The reason Maya avoids that road is that it becomes dangerous at night.",
+      "promptZh": "瑪雅避開那條道路的原因，是那裏在晚上會變得危險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road becomes dangerous at night. This is why Maya avoids it.",
+      "answerZh": "那條道路在晚上會變得危險。這就是為甚麼瑪雅會避開它。",
+      "answerZhSource": "pdf",
+      "highlight": "The road becomes dangerous at night. This is why Maya avoids it."
+    },
+    {
+      "id": "ss180-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The museum introduced online booking. Consequently, visitors spend less time waiting.",
+      "promptZh": "博物館推出了網上預約。因此，訪客等候的時間減少了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum introduced online booking. This is why visitors spend less time waiting.",
+      "answerZh": "博物館推出了網上預約。這就是為甚麼訪客等候的時間減少了。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum introduced online booking. This is why visitors spend less time waiting."
+    },
+    {
+      "id": "ss180-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A shortage of nurses explains why the clinic cannot open every evening.",
+      "promptZh": "護士人手不足，解釋了診所為甚麼不能每晚開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The clinic has a shortage of nurses. This is why it cannot open every evening.",
+      "answerZh": "診所的護士人手不足。這就是為甚麼診所不能每晚開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The clinic has a shortage of nurses. This is why it cannot open every evening."
+    },
+    {
+      "id": "ss180-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The device was damaged by water, so it no longer works properly.",
+      "promptZh": "裝置受到水浸損壞，所以現在不能正常運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The device was damaged by water. That is why it no longer works properly.",
+      "answerZh": "裝置受到水浸損壞。那就是為甚麼它現在不能正常運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The device was damaged by water. That is why it no longer works properly."
+    },
+    {
+      "id": "ss180-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Since public transport is limited at night, many workers take taxis home.",
+      "promptZh": "由於晚上的公共交通服務有限，很多員工會乘的士回家。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public transport is limited at night. This is why many workers take taxis home.",
+      "answerZh": "晚上的公共交通服務有限。這就是為甚麼很多員工會乘的士回家。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport is limited at night. This is why many workers take taxis home."
+    },
+    {
+      "id": "ss180-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team had not tested the system fully. As a result, several errors appeared after launch.",
+      "promptZh": "團隊未有全面測試系統。因此，系統推出後出現了數個錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team had not tested the system fully. That is why several errors appeared after launch.",
+      "answerZh": "團隊未有全面測試系統。那就是為甚麼系統推出後出現了數個錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The team had not tested the system fully. That is why several errors appeared after launch."
+    },
+    {
+      "id": "ss180-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The child could not reach the shelf because it was too high.",
+      "promptZh": "那名孩子碰不到層架，因為層架太高。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shelf was too high. That is why the child could not reach it.",
+      "answerZh": "層架太高。那就是為甚麼那名孩子碰不到它。",
+      "answerZhSource": "pdf",
+      "highlight": "The shelf was too high. That is why the child could not reach it."
+    },
+    {
+      "id": "ss180-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Because the instructions were unclear, the forms were completed incorrectly.",
+      "promptZh": "由於指示不清晰，表格被錯誤填寫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions were unclear. That is why the forms were completed incorrectly.",
+      "answerZh": "指示不清晰。那就是為甚麼表格被錯誤填寫。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were unclear. That is why the forms were completed incorrectly."
+    },
+    {
+      "id": "ss180-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The café uses local ingredients; hence, its menu changes with the seasons.",
+      "promptZh": "這間咖啡店使用本地食材，因此餐牌會隨季節改變。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café uses local ingredients. This is why its menu changes with the seasons.",
+      "answerZh": "這間咖啡店使用本地食材。這就是為甚麼它的餐牌會隨季節改變。",
+      "answerZhSource": "pdf",
+      "highlight": "The café uses local ingredients. This is why its menu changes with the seasons."
+    },
+    {
+      "id": "ss180-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council added more street lights because residents had raised concerns about safety.",
+      "promptZh": "居民曾經提出安全方面的憂慮，所以地方議會增設了更多街燈。",
+      "promptZhSource": "pdf",
+      "starter": "Residents",
+      "answer": "Residents had raised concerns about safety. That is why the council added more street lights.",
+      "answerZh": "居民曾經提出安全方面的憂慮。那就是為甚麼地方議會增設了更多街燈。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents had raised concerns about safety. That is why the council added more street lights."
+    },
+    {
+      "id": "ss180-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hospital created a new booking system, which is why patients can now change appointments online.",
+      "promptZh": "醫院建立了新的預約系統，因此病人現在可以在網上更改預約。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital created a new booking system. This is why patients can now change appointments online.",
+      "answerZh": "醫院建立了新的預約系統。這就是為甚麼病人現在可以在網上更改預約。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital created a new booking system. This is why patients can now change appointments online."
+    },
+    {
+      "id": "ss180-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company allows flexible working hours because employees have different family responsibilities.",
+      "promptZh": "公司容許彈性工作時間，因為僱員各有不同的家庭責任。",
+      "promptZhSource": "pdf",
+      "starter": "Employees",
+      "answer": "Employees have different family responsibilities. This is why the company allows flexible working hours.",
+      "answerZh": "僱員各有不同的家庭責任。這就是為甚麼公司容許彈性工作時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Employees have different family responsibilities. This is why the company allows flexible working hours."
+    },
+    {
+      "id": "ss180-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school noticed that many students were skipping breakfast. For this reason, it started a morning meal programme.",
+      "promptZh": "學校留意到很多學生沒有吃早餐。因此，學校開展了一項早餐計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school noticed that many students were skipping breakfast. That is why it started a morning meal programme.",
+      "answerZh": "學校留意到很多學生沒有吃早餐。那就是為甚麼學校開展了一項早餐計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The school noticed that many students were skipping breakfast. That is why it started a morning meal programme."
+    },
+    {
+      "id": "ss180-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The river had risen above the safe level; therefore, the bridge was closed to traffic.",
+      "promptZh": "河水已升至安全水平以上，因此大橋禁止車輛通行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The river had risen above the safe level. That is why the bridge was closed to traffic.",
+      "answerZh": "河水已升至安全水平以上。那就是為甚麼大橋禁止車輛通行。",
+      "answerZhSource": "pdf",
+      "highlight": "The river had risen above the safe level. That is why the bridge was closed to traffic."
+    },
+    {
+      "id": "ss180-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why does the app ask users to confirm their identity? It needs to protect personal information.",
+      "promptZh": "這個應用程式為甚麼要求用戶確認身分？它需要保護個人資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app needs to protect personal information. This is why it asks users to confirm their identity.",
+      "answerZh": "這個應用程式需要保護個人資料。這就是為甚麼它要求用戶確認身分。",
+      "answerZhSource": "pdf",
+      "highlight": "The app needs to protect personal information. This is why it asks users to confirm their identity."
+    },
+    {
+      "id": "ss180-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The meeting ended without a decision because the two sides could not agree on the cost.",
+      "promptZh": "會議在沒有作出決定的情況下結束，因為雙方無法就費用達成共識。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two sides could not agree on the cost. That is why the meeting ended without a decision.",
+      "answerZh": "雙方無法就費用達成共識。那就是為甚麼會議在沒有作出決定的情況下結束。",
+      "answerZhSource": "pdf",
+      "highlight": "The two sides could not agree on the cost. That is why the meeting ended without a decision."
+    },
+    {
+      "id": "ss180-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The organisation publishes its spending figures because it wants the public to understand how donations are used.",
+      "promptZh": "該機構公布開支數字，因為它希望公眾了解捐款的用途。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation wants the public to understand how donations are used. This is why it publishes its spending figures.",
+      "answerZh": "該機構希望公眾了解捐款的用途。這就是為甚麼它公布開支數字。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation wants the public to understand how donations are used. This is why it publishes its spending figures."
+    },
+    {
+      "id": "ss180-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The repair team could not enter the building, as the security code had been changed without notice.",
+      "promptZh": "維修團隊無法進入大樓，因為保安密碼在沒有通知的情況下被更改了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The security code had been changed without notice. That is why the repair team could not enter the building.",
+      "answerZh": "保安密碼在沒有通知的情況下被更改了。那就是為甚麼維修團隊無法進入大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "The security code had been changed without notice. That is why the repair team could not enter the building."
+    },
+    {
+      "id": "ss180-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A number of small problems were reported during the trial. This led the engineers to delay the full launch and carry out further tests.",
+      "promptZh": "試行期間出現了多個小問題。這導致工程師延遲全面推出系統，並進行進一步測試。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A number of small problems were reported during the trial. That is why the engineers delayed the full launch and carried out further tests.",
+      "answerZh": "試行期間出現了多個小問題。那就是為甚麼工程師延遲全面推出系統，並進行進一步測試。",
+      "answerZhSource": "pdf",
+      "highlight": "A number of small problems were reported during the trial. That is why the engineers delayed the full launch and carried out further tests."
+    }
+  ]
+}

@@ -1,0 +1,1203 @@
+{
+  "id": "ss184",
+  "order": 184,
+  "slug": "while-youre-at-it",
+  "title": "「While you're at it」表達「既然都在做了，就順便……」",
+  "titleZh": "「While you're at it」表達「既然都在做了，就順便……」",
+  "titleEn": "Using “While You're at It”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 184 - While You're at it.pdf",
+    "pageCount": 11,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "answerPages": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Context sentence. + While you're at it, + related request / suggestion / command",
+  "formulas": [
+    {
+      "id": "ss184-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "Context sentence. + While you're at it, + related request / suggestion / command"
+    }
+  ],
+  "example": "You are printing the class notes. While you're at it, print an extra copy for me.",
+  "exampleZh": "你正在列印課堂筆記。既然你都在列印了，順便幫我多印一份吧。",
+  "examples": [
+    {
+      "id": "ss184-example-01",
+      "en": "You are printing the class notes. While you're at it, print an extra copy for me.",
+      "zh": "你正在列印課堂筆記。既然你都在列印了，順便幫我多印一份吧。",
+      "highlight": "You are printing the class notes. While you're at it, print an extra copy for me."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Context sentence. + While you're at it, + related request / suggestion / command。"
+  },
+  "rules": [
+    {
+      "id": "ss184-rule-01",
+      "zh": "「it」必須有清楚所指。聽者要知道它代表前面哪一項工作。",
+      "en": "Give “it” a clear meaning. The listener must know which first task “it” refers to.",
+      "enSource": "pdf",
+      "examples": [
+        "Give “it” a clear meaning. The listener must know which first task “it” refers to."
+      ]
+    },
+    {
+      "id": "ss184-rule-02",
+      "zh": "第二項工作要有關連，例如在同一地點、同一趟路程、使用同一工具或屬於同一項工作。",
+      "en": "Keep the second task related. The extra action should fit the same place, trip, tool or job.",
+      "enSource": "pdf",
+      "examples": [
+        "Keep the second task related. The extra action should fit the same place, trip, tool or job."
+      ]
+    },
+    {
+      "id": "ss184-rule-03",
+      "zh": "這個片語後面要加逗號：While you're at it, ...",
+      "en": "Use a comma after the phrase. Write: “While you're at it, ...”",
+      "enSource": "pdf",
+      "examples": [
+        "Use a comma after the phrase. Write: “While you're at it, ...”"
+      ]
+    },
+    {
+      "id": "ss184-rule-04",
+      "zh": "本練習使用縮寫形式 you're。完整形式 you are 也正確，但縮寫在日常對話中較自然。",
+      "en": "Use “you're” in this worksheet. “You are” is also grammatical, but the contraction sounds more natural in conversation.",
+      "enSource": "pdf",
+      "examples": [
+        "Use “you're” in this worksheet. “You are” is also grammatical, but the contraction sounds",
+        "more natural in conversation."
+      ]
+    },
+    {
+      "id": "ss184-rule-05",
+      "zh": "這個句型較適合日常對話、訊息及友善的工作請求，不太適合正式作文或報告。",
+      "en": "Use it mainly in conversational English. It suits everyday speech, messages and friendly workplace requests better than formal essays or reports.",
+      "enSource": "pdf",
+      "examples": [
+        "Use it mainly in conversational English. It suits everyday speech, messages and friendly",
+        "workplace requests better than formal essays or reports."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss184-benefit-01",
+      "zh": "聽者會立即明白第二項要求與正在進行的事情有關。",
+      "en": "It makes the connection clear. The listener immediately understands that the second request belongs to the task already happening.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss184-benefit-02",
+      "zh": "「it」會指回第一項工作，因此你不需要把同一件事完整重複一次。",
+      "en": "It avoids repeating the whole first action. The word “it” points back to the first task, so you do not need to explain that task again.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss184-benefit-03",
+      "zh": "英語使用者常用這個句型加上一項實際的小要求，令對話不會顯得生硬。",
+      "en": "It sounds natural in everyday conversation. Fluent speakers often use it to add one small, practical request without making the conversation feel stiff.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss184-benefit-04",
+      "zh": "當兩件事可以在同一地點、同一趟路程或使用同一工具完成時，這個句型非常實用。",
+      "en": "It helps combine tasks efficiently. It is useful when two actions can be done in the same place, during the same trip or with the same tool.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss184-benefit-05",
+      "zh": "片語後面可以配合 could you、please、直接指示或 don't forget to，按情況調整語氣。 Compare 比較 Longer / 較長 You're going to the printer. Since you're going to the （你正要去打印機那邊。既然你要去打印機那邊，可以幫 我打印一份嗎？） Target / 目標 You're going to the printer. While you're at it, could （你正要去打印機那邊。既然你都要去了，可以順便幫我 打印一份嗎？）",
+      "en": "It lets you control the level of politeness. After the phrase, you can use “could you”, “please”, a direct instruction or “don't forget to”, depending on the situation. Compare: Longer: You're going to the printer. Since you're going to the printer, could you print one for me? Target: You're going to the printer. While you're at it, could you print one for me?",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Context sentence. + While you're at it, + related request / suggestion / command.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Context sentence. + While you're at it, + related request / suggestion / command」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss184-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "Take the recycling outside, and take out the rubbish as well.",
+      "promptZh": "把回收物拿出去，並把垃圾也拿出去。",
+      "promptZhSource": "pdf",
+      "starter": "Take",
+      "answer": "Take the recycling outside. While you're at it, take out the rubbish as well.",
+      "answerZh": "把回收物拿出去。既然你都要拿出去了，順便把垃圾也拿出去吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Take the recycling outside. While you're at it, take out the rubbish as well."
+    },
+    {
+      "id": "ss184-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "Since you're already making tea, please make a cup for Mum too.",
+      "promptZh": "既然你已經在沖茶，請也幫媽媽沖一杯。",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're already making tea. While you're at it, please make a cup for Mum too.",
+      "answerZh": "你已經在沖茶。既然你都在沖了，請順便幫媽媽沖一杯。",
+      "answerZhSource": "pdf",
+      "highlight": "You're already making tea. While you're at it, please make a cup for Mum too."
+    },
+    {
+      "id": "ss184-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "Print the class notes and an extra copy for me.",
+      "promptZh": "列印課堂筆記，並幫我多印一份。",
+      "promptZhSource": "pdf",
+      "starter": "Print",
+      "answer": "Print the class notes. While you're at it, print an extra copy for me.",
+      "answerZh": "列印課堂筆記。既然你都在列印了，順便幫我多印一份。",
+      "answerZhSource": "pdf",
+      "highlight": "Print the class notes. While you're at it, print an extra copy for me."
+    },
+    {
+      "id": "ss184-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "You're returning your books to the library. Could you return this one for me too?",
+      "promptZh": "你正把書還到圖書館。可以也幫我還這一本嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're returning your books to the library. While you're at it, could you return this one for me too?",
+      "answerZh": "你正把書還到圖書館。既然你都要還書了，可以順便幫我還這一本嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "You're returning your books to the library. While you're at it, could you return this one for me too?"
+    },
+    {
+      "id": "ss184-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "Update the meeting schedule and add the new room number.",
+      "promptZh": "更新會議時間表，並加上新的房間號碼。",
+      "promptZhSource": "pdf",
+      "starter": "Update",
+      "answer": "Update the meeting schedule. While you're at it, add the new room number.",
+      "answerZh": "更新會議時間表。既然你都在更新了，順便加上新的房間號碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Update the meeting schedule. While you're at it, add the new room number."
+    },
+    {
+      "id": "ss184-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "Buy a bus ticket and top up your travel card at the same time.",
+      "promptZh": "買一張巴士車票，並同時為交通卡增值。",
+      "promptZhSource": "pdf",
+      "starter": "Buy",
+      "answer": "Buy a bus ticket. While you're at it, top up your travel card too.",
+      "answerZh": "買一張巴士車票。既然你都在買票了，順便為交通卡增值吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Buy a bus ticket. While you're at it, top up your travel card too."
+    },
+    {
+      "id": "ss184-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "Since you're picking up some bread, could you get a carton of milk as well?",
+      "promptZh": "既然你要去買麵包，可以也買一盒牛奶嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're picking up some bread. While you're at it, could you get a carton of milk as well?",
+      "answerZh": "你要去買麵包。既然你都要去了，可以順便買一盒牛奶嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "You're picking up some bread. While you're at it, could you get a carton of milk as well?"
+    },
+    {
+      "id": "ss184-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "Charge your tablet and the keyboard.",
+      "promptZh": "為平板電腦和鍵盤充電。",
+      "promptZhSource": "pdf",
+      "starter": "Charge",
+      "answer": "Charge your tablet. While you're at it, charge the keyboard too.",
+      "answerZh": "為平板電腦充電。既然你都在充電了，順便也為鍵盤充電吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Charge your tablet. While you're at it, charge the keyboard too."
+    },
+    {
+      "id": "ss184-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "When you fill your water bottle, could you fill mine as well?",
+      "promptZh": "你為自己的水瓶加水時，可以也幫我的水瓶加水嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Fill",
+      "answer": "Fill your water bottle. While you're at it, could you fill mine as well?",
+      "answerZh": "為你的水瓶加水。既然你都在加水了，可以順便幫我的水瓶也加水嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Fill your water bottle. While you're at it, could you fill mine as well?"
+    },
+    {
+      "id": "ss184-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "Water the community garden and also water the herbs near the gate.",
+      "promptZh": "為社區花園澆水，也為閘門附近的香草植物澆水。",
+      "promptZhSource": "pdf",
+      "starter": "Water",
+      "answer": "Water the community garden. While you're at it, water the herbs near the gate too.",
+      "answerZh": "為社區花園澆水。既然你都在澆水了，順便也為閘門附近的香草植物澆水吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Water the community garden. While you're at it, water the herbs near the gate too."
+    },
+    {
+      "id": "ss184-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "As you wash the dishes, rinse the sink as well.",
+      "promptZh": "洗碗時，也把水槽沖洗乾淨。",
+      "promptZhSource": "pdf",
+      "starter": "Wash",
+      "answer": "Wash the dishes. While you're at it, rinse the sink as well.",
+      "answerZh": "洗碗。既然你都在清洗了，順便把水槽也沖洗乾淨。",
+      "answerZhSource": "pdf",
+      "highlight": "Wash the dishes. While you're at it, rinse the sink as well."
+    },
+    {
+      "id": "ss184-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "Sort the laundry and remember to separate the white clothes from the coloured ones.",
+      "promptZh": "整理要洗的衣物，並記得把白色衣物和彩色衣物分開。",
+      "promptZhSource": "pdf",
+      "starter": "Sort",
+      "answer": "Sort the laundry. While you're at it, remember to separate the white clothes from the coloured ones.",
+      "answerZh": "整理要洗的衣物。既然你都在整理了，記得順便把白色衣物和彩色衣物分開。",
+      "answerZhSource": "pdf",
+      "highlight": "Sort the laundry. While you're at it, remember to separate the white clothes from the coloured ones."
+    },
+    {
+      "id": "ss184-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "What else should you do when you check the school noticeboard? Take a photo of the new timetable.",
+      "promptZh": "查看學校告示板時，還應該做甚麼？拍下新時間表的照片。",
+      "promptZhSource": "pdf",
+      "starter": "Check",
+      "answer": "Check the school noticeboard. While you're at it, take a photo of the new timetable.",
+      "answerZh": "查看學校告示板。既然你都在查看了，順便拍下新時間表的照片。",
+      "answerZhSource": "pdf",
+      "highlight": "Check the school noticeboard. While you're at it, take a photo of the new timetable."
+    },
+    {
+      "id": "ss184-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "You're sending the report to the manager. Could you copy the finance team into the email too?",
+      "promptZh": "你正把報告電郵給經理。可以也把電郵副本傳給財務部嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're sending the report to the manager. While you're at it, could you copy the finance team into the email?",
+      "answerZh": "你正把報告電郵給經理。既然你都在發送電郵了，可以順便把副本也傳給財務部嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "You're sending the report to the manager. While you're at it, could you copy the finance team into the email?"
+    },
+    {
+      "id": "ss184-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 8,
+        "answerPage": 8,
+        "answerZhPage": 8
+      },
+      "prompt": "What else should you ask when you book the hotel room? Ask whether breakfast is included.",
+      "promptZh": "預訂酒店房間時，還應該問甚麼？問是否包括早餐。",
+      "promptZhSource": "pdf",
+      "starter": "Book",
+      "answer": "Book the hotel room. While you're at it, ask whether breakfast is included.",
+      "answerZh": "預訂酒店房間。既然你都在預訂了，順便問是否包括早餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Book the hotel room. While you're at it, ask whether breakfast is included."
+    },
+    {
+      "id": "ss184-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "You're at the pharmacy to collect your medicine. You may as well buy some plasters too.",
+      "promptZh": "你正在藥房取藥，反正也可以買一些膠布。",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're at the pharmacy to collect your medicine. While you're at it, buy some plasters too.",
+      "answerZh": "你正在藥房取藥。既然你都在藥房了，順便買一些膠布吧。",
+      "answerZhSource": "pdf",
+      "highlight": "You're at the pharmacy to collect your medicine. While you're at it, buy some plasters too."
+    },
+    {
+      "id": "ss184-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "Clean your bicycle, and check the tyres for damage too.",
+      "promptZh": "清潔單車，並檢查輪胎是否有損壞。",
+      "promptZhSource": "pdf",
+      "starter": "Clean",
+      "answer": "Clean your bicycle. While you're at it, check the tyres for damage.",
+      "answerZh": "清潔單車。既然你都在處理單車了，順便檢查輪胎是否有損壞。",
+      "answerZhSource": "pdf",
+      "highlight": "Clean your bicycle. While you're at it, check the tyres for damage."
+    },
+    {
+      "id": "ss184-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "As you add the names to the guest list, make sure no one is listed twice.",
+      "promptZh": "把名字加到賓客名單時，要確保沒有人被重複列出。",
+      "promptZhSource": "pdf",
+      "starter": "Add",
+      "answer": "Add the names to the guest list. While you're at it, make sure no one is listed twice.",
+      "answerZh": "把名字加到賓客名單。既然你都在整理名單了，順便確保沒有人被重複列出。",
+      "answerZhSource": "pdf",
+      "highlight": "Add the names to the guest list. While you're at it, make sure no one is listed twice."
+    },
+    {
+      "id": "ss184-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "Save the document and don't forget to rename the file clearly.",
+      "promptZh": "儲存文件，並別忘了為檔案改一個清楚的名稱。",
+      "promptZhSource": "pdf",
+      "starter": "Save",
+      "answer": "Save the document. While you're at it, don't forget to rename the file clearly.",
+      "answerZh": "儲存文件。既然你都在處理檔案了，別忘了順便把檔案名稱改得清楚一點。",
+      "answerZhSource": "pdf",
+      "highlight": "Save the document. While you're at it, don't forget to rename the file clearly."
+    },
+    {
+      "id": "ss184-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "Put the food away and also make sure you check the use-by dates.",
+      "promptZh": "把食物收好，也要記得查看食用期限。",
+      "promptZhSource": "pdf",
+      "starter": "Put",
+      "answer": "Put the food away. While you're at it, make sure you check the use-by dates.",
+      "answerZh": "把食物收好。既然你都在整理食物了，記得順便查看食用期限。",
+      "answerZhSource": "pdf",
+      "highlight": "Put the food away. While you're at it, make sure you check the use-by dates."
+    },
+    {
+      "id": "ss184-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "As you review the students' essays, mark any repeated spelling mistakes.",
+      "promptZh": "批改學生的作文時，也標出重複出現的串字錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Review",
+      "answer": "Review the students' essays. While you're at it, mark any repeated spelling mistakes.",
+      "answerZh": "批改學生的作文。既然你都在批改了，順便標出重複出現的串字錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Review the students' essays. While you're at it, mark any repeated spelling mistakes."
+    },
+    {
+      "id": "ss184-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "You're setting up the projector. Could you test the speakers as well?",
+      "promptZh": "你正在設置投影機。可以也測試揚聲器嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're setting up the projector. While you're at it, could you test the speakers?",
+      "answerZh": "你正在設置投影機。既然你都在設置了，可以順便測試揚聲器嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "You're setting up the projector. While you're at it, could you test the speakers?"
+    },
+    {
+      "id": "ss184-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "Since you're arranging a taxi for the visitors, confirm what time their flight lands too.",
+      "promptZh": "既然你正在為訪客安排的士，也確認一下他們的航班何時抵達。",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're arranging a taxi for the visitors. While you're at it, confirm what time their flight lands.",
+      "answerZh": "你正在為訪客安排的士。既然你都在安排了，順便確認他們的航班何時抵達。",
+      "answerZhSource": "pdf",
+      "highlight": "You're arranging a taxi for the visitors. While you're at it, confirm what time their flight lands."
+    },
+    {
+      "id": "ss184-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "Clean the first-aid cupboard and throw away any expired supplies.",
+      "promptZh": "清理急救用品櫃，並丟掉所有過期用品。",
+      "promptZhSource": "pdf",
+      "starter": "Clean",
+      "answer": "Clean the first-aid cupboard. While you're at it, throw away any expired supplies.",
+      "answerZh": "清理急救用品櫃。既然你都在清理了，順便丟掉所有過期用品。",
+      "answerZhSource": "pdf",
+      "highlight": "Clean the first-aid cupboard. While you're at it, throw away any expired supplies."
+    },
+    {
+      "id": "ss184-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "When you update the emergency contact sheet, check that every phone number is complete.",
+      "promptZh": "更新緊急聯絡表時，檢查每個電話號碼是否完整。",
+      "promptZhSource": "pdf",
+      "starter": "Update",
+      "answer": "Update the emergency contact sheet. While you're at it, check that every phone number is complete.",
+      "answerZh": "更新緊急聯絡表。既然你都在更新了，順便檢查每個電話號碼是否完整。",
+      "answerZhSource": "pdf",
+      "highlight": "Update the emergency contact sheet. While you're at it, check that every phone number is complete."
+    },
+    {
+      "id": "ss184-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "Repair the garden fence and tighten the loose gate hinge at the same time.",
+      "promptZh": "修理花園圍欄，並同時把鬆脫的閘門鉸鏈扭緊。",
+      "promptZhSource": "pdf",
+      "starter": "Repair",
+      "answer": "Repair the garden fence. While you're at it, tighten the loose gate hinge.",
+      "answerZh": "修理花園圍欄。既然你都在修理了，順便把鬆脫的閘門鉸鏈扭緊。",
+      "answerZhSource": "pdf",
+      "highlight": "Repair the garden fence. While you're at it, tighten the loose gate hinge."
+    },
+    {
+      "id": "ss184-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "You're uploading the photos. It would save time if you created a folder for the event now too.",
+      "promptZh": "你正在上載相片。如果現在也為活動建立一個資料夾，便可以節省時間。",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're uploading the photos. While you're at it, you could create a folder for the event.",
+      "answerZh": "你正在上載相片。既然你都在處理相片了，也可以順便為活動建立一個資料夾。",
+      "answerZhSource": "pdf",
+      "highlight": "You're uploading the photos. While you're at it, you could create a folder for the event."
+    },
+    {
+      "id": "ss184-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "Prepare the ingredients and also set the oven to 180 degrees.",
+      "promptZh": "準備材料，並把焗爐設定為攝氏180度。",
+      "promptZhSource": "pdf",
+      "starter": "Prepare",
+      "answer": "Prepare the ingredients. While you're at it, set the oven to 180 degrees.",
+      "answerZh": "準備材料。既然你都在準備了，順便把焗爐設定為攝氏180度。",
+      "answerZhSource": "pdf",
+      "highlight": "Prepare the ingredients. While you're at it, set the oven to 180 degrees."
+    },
+    {
+      "id": "ss184-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "What else should you find out when you check the train timetable? Find out which platform we need.",
+      "promptZh": "查看火車時間表時，還應該查出甚麼？查出我們要到哪一個月台。",
+      "promptZhSource": "pdf",
+      "starter": "Check",
+      "answer": "Check the train timetable. While you're at it, find out which platform we need.",
+      "answerZh": "查看火車時間表。既然你都在查看了，順便查出我們要到哪一個月台。",
+      "answerZhSource": "pdf",
+      "highlight": "Check the train timetable. While you're at it, find out which platform we need."
+    },
+    {
+      "id": "ss184-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "Pack for the hike and make sure the torch has fresh batteries.",
+      "promptZh": "為遠足收拾物品，並確保電筒裝有新電池。",
+      "promptZhSource": "pdf",
+      "starter": "Pack",
+      "answer": "Pack for the hike. While you're at it, make sure the torch has fresh batteries.",
+      "answerZh": "為遠足收拾物品。既然你都在準備了，順便確保電筒裝有新電池。",
+      "answerZhSource": "pdf",
+      "highlight": "Pack for the hike. While you're at it, make sure the torch has fresh batteries."
+    },
+    {
+      "id": "ss184-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "Before leaving the office, lock the filing cabinet and switch off the printer.",
+      "promptZh": "離開辦公室前，鎖好文件櫃，並關掉打印機。",
+      "promptZhSource": "pdf",
+      "starter": "Lock",
+      "answer": "Lock the filing cabinet before you leave the office. While you're at it, switch off the printer.",
+      "answerZh": "離開辦公室前鎖好文件櫃。既然你都在鎖文件櫃了，順便關掉打印機。",
+      "answerZhSource": "pdf",
+      "highlight": "Lock the filing cabinet before you leave the office. While you're at it, switch off the printer."
+    },
+    {
+      "id": "ss184-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "You're checking the online order. Could you change the delivery address as well?",
+      "promptZh": "你正在查看網上訂單。可以也更改送貨地址嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're checking the online order. While you're at it, could you change the delivery address?",
+      "answerZh": "你正在查看網上訂單。既然你都在查看了，可以順便更改送貨地址嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "You're checking the online order. While you're at it, could you change the delivery address?"
+    },
+    {
+      "id": "ss184-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "As you speak to the technician, ask why the network keeps disconnecting.",
+      "promptZh": "與技術員交談時，問一下網絡為甚麼不斷斷線。",
+      "promptZhSource": "pdf",
+      "starter": "Speak",
+      "answer": "Speak to the technician. While you're at it, ask why the network keeps disconnecting.",
+      "answerZh": "與技術員交談。既然你都在跟他談了，順便問一下網絡為甚麼不斷斷線。",
+      "answerZhSource": "pdf",
+      "highlight": "Speak to the technician. While you're at it, ask why the network keeps disconnecting."
+    },
+    {
+      "id": "ss184-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "When you book the clinic appointments, leave ten minutes between each patient.",
+      "promptZh": "安排診所預約時，在每位病人之間預留十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Book",
+      "answer": "Book the clinic appointments. While you're at it, leave ten minutes between each patient.",
+      "answerZh": "安排診所預約。既然你都在安排了，順便在每位病人之間預留十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "Book the clinic appointments. While you're at it, leave ten minutes between each patient."
+    },
+    {
+      "id": "ss184-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "What else should you do when you replace the batteries in the smoke alarm? Test the alarm as well.",
+      "promptZh": "更換煙霧警報器的電池時，還應該做甚麼？也測試警報器。",
+      "promptZhSource": "pdf",
+      "starter": "Replace",
+      "answer": "Replace the batteries in the smoke alarm. While you're at it, test the alarm as well.",
+      "answerZh": "更換煙霧警報器的電池。既然你都在處理警報器了，順便也測試警報器。",
+      "answerZhSource": "pdf",
+      "highlight": "Replace the batteries in the smoke alarm. While you're at it, test the alarm as well."
+    },
+    {
+      "id": "ss184-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Collect the litter along the beach and separate the recyclable items at the same time.",
+      "promptZh": "清理沙灘沿途的垃圾，並同時把可回收物品分開。",
+      "promptZhSource": "pdf",
+      "starter": "Collect",
+      "answer": "Collect the litter along the beach. While you're at it, separate the recyclable items.",
+      "answerZh": "清理沙灘沿途的垃圾。既然你都在清理了，順便把可回收物品分開。",
+      "answerZhSource": "pdf",
+      "highlight": "Collect the litter along the beach. While you're at it, separate the recyclable items."
+    },
+    {
+      "id": "ss184-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Proofread the school newsletter and also check that all the dates are correct.",
+      "promptZh": "校對校訊，也檢查所有日期是否正確。",
+      "promptZhSource": "pdf",
+      "starter": "Proofread",
+      "answer": "Proofread the school newsletter. While you're at it, check that all the dates are correct.",
+      "answerZh": "校對校訊。既然你都在校對了，順便檢查所有日期是否正確。",
+      "answerZhSource": "pdf",
+      "highlight": "Proofread the school newsletter. While you're at it, check that all the dates are correct."
+    },
+    {
+      "id": "ss184-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "You're taking the lift to the tenth floor. Could you leave this envelope at reception on the fifth floor too?",
+      "promptZh": "你正乘升降機到十樓。可以也把這個信封交到五樓的接待處嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're taking the lift to the tenth floor. While you're at it, could you leave this envelope at reception on the fifth floor?",
+      "answerZh": "你正乘升降機到十樓。既然你都要乘升降機了，可以順便把這個信封交到五樓的接待處嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "You're taking the lift to the tenth floor. While you're at it, could you leave this envelope at reception on the fifth floor?"
+    },
+    {
+      "id": "ss184-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Since you're ordering lunch for the team, ask whether anyone has a food allergy too.",
+      "promptZh": "既然你正在為團隊訂午餐，也問一下是否有人對食物敏感。",
+      "promptZhSource": "pdf",
+      "starter": "Order",
+      "answer": "Order lunch for the team. While you're at it, ask whether anyone has a food allergy.",
+      "answerZh": "為團隊訂午餐。既然你都在訂餐了，順便問一下是否有人對食物敏感。",
+      "answerZhSource": "pdf",
+      "highlight": "Order lunch for the team. While you're at it, ask whether anyone has a food allergy."
+    },
+    {
+      "id": "ss184-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Back up the project files and make sure you do not overwrite last month's backup.",
+      "promptZh": "備份項目檔案，並確保不要覆蓋上月的備份。",
+      "promptZhSource": "pdf",
+      "starter": "Back",
+      "answer": "Back up the project files. While you're at it, make sure you don't overwrite last month's backup.",
+      "answerZh": "備份項目檔案。既然你都在處理備份了，順便確保不要覆蓋上月的備份。",
+      "answerZhSource": "pdf",
+      "highlight": "Back up the project files. While you're at it, make sure you don't overwrite last month's backup."
+    },
+    {
+      "id": "ss184-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "As you revise the school trip letter, add the deadline for returning the permission slip.",
+      "promptZh": "修改學校旅行通告時，加上交回家長同意書的限期。",
+      "promptZhSource": "pdf",
+      "starter": "Revise",
+      "answer": "Revise the school trip letter. While you're at it, add the deadline for returning the permission slip.",
+      "answerZh": "修改學校旅行通告。既然你都在修改了，順便加上交回家長同意書的限期。",
+      "answerZhSource": "pdf",
+      "highlight": "Revise the school trip letter. While you're at it, add the deadline for returning the permission slip."
+    },
+    {
+      "id": "ss184-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "You're checking the hospital's visitor information page. Could you update the section about evening visiting hours as well?",
+      "promptZh": "你正在查看醫院的訪客資訊頁面。可以也更新晚間探病時間的部分嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're checking the hospital's visitor information page. While you're at it, could you update the section about evening visiting hours?",
+      "answerZh": "你正在查看醫院的訪客資訊頁面。既然你都在查看了，可以順便更新晚間探病時間的部分嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "You're checking the hospital's visitor information page. While you're at it, could you update the section about evening visiting hours?"
+    },
+    {
+      "id": "ss184-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "What else can you do when you renew your library card online? Reserve the book your teacher recommended.",
+      "promptZh": "在網上續期圖書證時，還可以做甚麼？預留老師推薦的那本書。",
+      "promptZhSource": "pdf",
+      "starter": "Renew",
+      "answer": "Renew your library card online. While you're at it, reserve the book your teacher recommended.",
+      "answerZh": "在網上續期圖書證。既然你都在網上處理了，順便預留老師推薦的那本書。",
+      "answerZhSource": "pdf",
+      "highlight": "Renew your library card online. While you're at it, reserve the book your teacher recommended."
+    },
+    {
+      "id": "ss184-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Since you're reporting the broken streetlight to the council, mention the damaged sign beside it too.",
+      "promptZh": "既然你要向市政部門報告損壞的街燈，也提及旁邊損壞的路牌。",
+      "promptZhSource": "pdf",
+      "starter": "Report",
+      "answer": "Report the broken streetlight to the council. While you're at it, mention the damaged sign beside it.",
+      "answerZh": "向市政部門報告損壞的街燈。既然你都在報告了，順便提及旁邊損壞的路牌。",
+      "answerZhSource": "pdf",
+      "highlight": "Report the broken streetlight to the council. While you're at it, mention the damaged sign beside it."
+    },
+    {
+      "id": "ss184-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "You're comparing the two insurance plans. It would be useful to check whether either one covers lost luggage too.",
+      "promptZh": "你正在比較兩個保險計劃。也查看其中任何一個是否保障遺失行李，會很有用。",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're comparing the two insurance plans. While you're at it, you could check whether either one covers lost luggage.",
+      "answerZh": "你正在比較兩個保險計劃。既然你都在比較了，也可以順便查看其中任何一個是否保障遺失行李。",
+      "answerZhSource": "pdf",
+      "highlight": "You're comparing the two insurance plans. While you're at it, you could check whether either one covers lost luggage."
+    },
+    {
+      "id": "ss184-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Organise the files that the new staff will need, and label each folder with the correct department name.",
+      "promptZh": "整理新員工需要的檔案，並在每個資料夾上標示正確的部門名稱。",
+      "promptZhSource": "pdf",
+      "starter": "Organise",
+      "answer": "Organise the files that the new staff will need. While you're at it, label each folder with the correct department name.",
+      "answerZh": "整理新員工需要的檔案。既然你都在整理了，順便在每個資料夾上標示正確的部門名稱。",
+      "answerZhSource": "pdf",
+      "highlight": "Organise the files that the new staff will need. While you're at it, label each folder with the correct department name."
+    },
+    {
+      "id": "ss184-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "You're calling the restaurant to review the booking. Please also tell them that one guest needs a wheelchair-accessible table.",
+      "promptZh": "你正致電餐廳確認訂位。也請告訴他們，其中一位客人需要適合輪椅使用者的餐桌。",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're calling the restaurant to review the booking. While you're at it, please tell them that one guest needs a wheelchair-accessible table.",
+      "answerZh": "你正致電餐廳確認訂位。既然你都在通話了，請順便告訴他們，其中一位客人需要適合輪椅使用者的餐桌。",
+      "answerZhSource": "pdf",
+      "highlight": "You're calling the restaurant to review the booking. While you're at it, please tell them that one guest needs a wheelchair-accessible table."
+    },
+    {
+      "id": "ss184-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Install the software update on the shared computer and check whether the security settings have changed.",
+      "promptZh": "在共用電腦上安裝軟件更新，並檢查保安設定是否有變。",
+      "promptZhSource": "pdf",
+      "starter": "Install",
+      "answer": "Install the software update on the shared computer. While you're at it, check whether the security settings have changed.",
+      "answerZh": "在共用電腦上安裝軟件更新。既然你都在更新了，順便檢查保安設定是否有變。",
+      "answerZhSource": "pdf",
+      "highlight": "Install the software update on the shared computer. While you're at it, check whether the security settings have changed."
+    },
+    {
+      "id": "ss184-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Prepare the team's presentation and don't forget to add a final slide that summarises the next steps.",
+      "promptZh": "準備團隊的簡報，並別忘了加入一張概述下一步行動的最後投影片。",
+      "promptZhSource": "pdf",
+      "starter": "Prepare",
+      "answer": "Prepare the team's presentation. While you're at it, don't forget to add a final slide that summarises the next steps.",
+      "answerZh": "準備團隊的簡報。既然你都在準備了，別忘了順便加入一張概述下一步行動的最後投影片。",
+      "answerZhSource": "pdf",
+      "highlight": "Prepare the team's presentation. While you're at it, don't forget to add a final slide that summarises the next steps."
+    },
+    {
+      "id": "ss184-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "You're meeting the building manager about the water leak. Could you ask when the lift inspection will be completed too?",
+      "promptZh": "你要與大廈經理商討漏水問題。可以也問一下升降機檢查何時完成嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You're",
+      "answer": "You're meeting the building manager about the water leak. While you're at it, could you ask when the lift inspection will be completed?",
+      "answerZh": "你要與大廈經理商討漏水問題。既然你都會見到他了，可以順便問一下升降機檢查何時完成嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "You're meeting the building manager about the water leak. While you're at it, could you ask when the lift inspection will be completed?"
+    }
+  ]
+}

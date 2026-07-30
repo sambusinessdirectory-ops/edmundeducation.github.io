@@ -1,0 +1,1215 @@
+{
+  "id": "ss149",
+  "order": 149,
+  "slug": "thereafter",
+  "title": "「Thereafter 句」",
+  "titleZh": "「Thereafter 句」",
+  "titleEn": "Using thereafter to introduce a later event or state",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 149 -「Thereafter 句」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Earlier event or period. Thereafter, + subject + verb + later event or state",
+  "formulas": [
+    {
+      "id": "ss149-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Earlier event or period. Thereafter, + subject + verb + later event or state"
+    }
+  ],
+  "example": "The first phase ended in June. Thereafter, attention shifted to training.",
+  "exampleZh": "第一階段於六月結束。其後，重點便轉到培訓上。",
+  "examples": [
+    {
+      "id": "ss149-example-01",
+      "en": "The first phase ended in June. Thereafter, attention shifted to training.",
+      "zh": "第一階段於六月結束。其後，重點便轉到培訓上。",
+      "highlight": "Thereafter"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss149-rule-01",
+      "zh": "Thereafter 必須指向前面清楚提及的事件 如果前面沒有清楚的事件，讀者便不知道 thereafter 指「甚麼之後」。",
+      "en": "Thereafter must refer to a clearly stated earlier event, time or stage. If no such event has been mentioned, readers cannot tell what thereafter means ‘after’.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The examination ended. Thereafter, the students left the hall."
+      ]
+    },
+    {
+      "id": "ss149-rule-02",
+      "zh": "本練習把 Thereafter 放在第二句句首 使用以下格式： Thereafter 後面要加逗號。",
+      "en": "In this exercise, put Thereafter at the beginning of the second sentence in the format ‘Sentence 1. Thereafter, sentence 2.’ and follow it with a comma.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss149-rule-03",
+      "zh": "Thereafter 後面必須接完整句子 正確： 錯誤： Thereafter 後面需要有主語和完整動詞。",
+      "en": "Follow Thereafter with a complete sentence containing a subject and a finite verb, not an -ing fragment.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss149-rule-04",
+      "zh": "Thereafter 不一定表示「立即」 Thereafter 表示某件事在較早事件之後發生，但不一定是立即發生。 如要強調「立即」，通常使用 immediately afterwards 或 as soon as。",
+      "en": "Thereafter does not necessarily mean immediately. It says that something happened after an earlier event, but not necessarily at once; use immediately afterwards or as soon as when immediacy must be emphasized.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The course ended in May. Thereafter, the students continued to use the online library."
+      ]
+    },
+    {
+      "id": "ss149-rule-05",
+      "zh": "Thereafter 比 then 和 after that 較正式 ● then：常用於日常說話 ● after that：日常說話和一般寫作都很常見 ● thereafter：較常見於報告、程序說明、正式記錄和歷史敘述 Thereafter 並非在所有情況下都比 then「更好」，但在較正式的文章中十分實用。",
+      "en": "Thereafter is more formal than then or after that. Then is common in everyday speech, after that is common in both everyday speech and general writing, and thereafter is more typical of reports, procedural accounts, formal records and historical narratives. It is not better than then in every context, but it is useful in formal writing.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "then：常用於日常說話",
+        "after that：日常說話和一般寫作都很常見",
+        "thereafter：較常見於報告、程序說明、正式記錄和歷史敘述"
+      ]
+    },
+    {
+      "id": "ss149-rule-06",
+      "zh": "否定意思放在 Thereafter 後面的句子內 Thereafter 本身沒有特別的否定形式。",
+      "en": "Put any negative meaning inside the sentence that follows Thereafter; thereafter itself has no special negative form.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The patient left the hospital. Thereafter, she did not require further treatment."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss149-benefit-01",
+      "zh": "讓事情的先後次序更清楚 Thereafter 能讓讀者立即明白，第二件事是在第一件事之後發生的。",
+      "en": "It makes the order of events clear. Thereafter tells readers directly that the second event happened after the first.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss149-benefit-02",
+      "zh": "避免反覆使用 then 和 after that 學生描述一連串事件時，經常重複使用 then。Thereafter 提供另一種表達方式，使文章不會顯得 單調。 兩句意思相同，但第二句較適合正式記錄。",
+      "en": "It helps you avoid repeating then and after that. Students often repeat then when describing a sequence; thereafter provides an alternative and prevents monotonous writing. The compared sentences have the same meaning, but the version with thereafter better suits a formal record.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss149-benefit-03",
+      "zh": "適合報告、程序說明和歷史敘述 你可以使用 thereafter 清楚描述項目、調查、實驗或歷史事件的不同階段。",
+      "en": "It is useful for reports, procedures and historical writing. You can use thereafter to describe different stages of a project, investigation, experiment or historical event.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss149-benefit-04",
+      "zh": "連接兩個句子，同時避免句子過長 你可以把過長的句子分成兩句，再使用 thereafter 顯示兩者的關係，使內容更容易閱讀。",
+      "en": "It connects two sentences without making one sentence too long. Instead of placing many events inside one long sentence, you can divide the information into two shorter sentences and connect them with thereafter, making it easier to read.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss149-benefit-05",
+      "zh": "可以帶出下一個階段或其後持續的情況 Thereafter 既可以描述其後發生的新事件，也可以表示某種情況從那時起一直持續。",
+      "en": "It can introduce a new stage or a continuing situation. Thereafter can describe either a later event or something that remained true from that time onwards.",
+      "enSource": "pdf",
+      "examples": [
+        "The company changed its policy. Thereafter, employees were allowed to work from home."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences by placing Thereafter at the beginning of the second sentence.",
+      "Keep the original meaning, tense, subject and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "把每題改寫成兩句，並把 Thereafter 放在第二句句首。",
+      "保留原句的意思、時態、主語和重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss149-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "After Amy finished breakfast, she left for school.",
+      "promptZh": "艾米吃完早餐後，便出發上學。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy finished breakfast. Thereafter, she left for school.",
+      "answerZh": "艾米吃完早餐。其後，她出發上學。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy finished breakfast. Thereafter, she left for school."
+    },
+    {
+      "id": "ss149-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The rain stopped, and then the children went outside.",
+      "promptZh": "雨停了，然後孩子們走到外面。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain stopped. Thereafter, the children went outside.",
+      "answerZh": "雨停了。其後，孩子們走到外面。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain stopped. Thereafter, the children went outside."
+    },
+    {
+      "id": "ss149-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Once Ben completed his homework, he watched television.",
+      "promptZh": "本完成家課後便看電視。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben completed his homework. Thereafter, he watched television.",
+      "answerZh": "本完成了家課。其後，他看電視。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben completed his homework. Thereafter, he watched television."
+    },
+    {
+      "id": "ss149-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The shop closed at six. The staff then cleaned the floor.",
+      "promptZh": "商店於六時關門。職員接着清潔地板。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop closed at six. Thereafter, the staff cleaned the floor.",
+      "answerZh": "商店於六時關門。其後，職員清潔地板。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop closed at six. Thereafter, the staff cleaned the floor."
+    },
+    {
+      "id": "ss149-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "After washing the vegetables, Mia cut them into small pieces.",
+      "promptZh": "米婭洗好蔬菜後，把它們切成小塊。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia washed the vegetables. Thereafter, she cut them into small pieces.",
+      "answerZh": "米婭洗好蔬菜。其後，她把它們切成小塊。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia washed the vegetables. Thereafter, she cut them into small pieces."
+    },
+    {
+      "id": "ss149-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "At the end of the lesson, the students packed their bags.",
+      "promptZh": "課堂結束時，學生收拾書包。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lesson ended. Thereafter, the students packed their bags.",
+      "answerZh": "課堂結束。其後，學生收拾書包。",
+      "answerZhSource": "pdf",
+      "highlight": "The lesson ended. Thereafter, the students packed their bags."
+    },
+    {
+      "id": "ss149-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Daniel first bought a ticket and then entered the cinema.",
+      "promptZh": "丹尼爾先購買戲票，然後進入電影院。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel bought a ticket. Thereafter, he entered the cinema.",
+      "answerZh": "丹尼爾購買了戲票。其後，他進入電影院。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel bought a ticket. Thereafter, he entered the cinema."
+    },
+    {
+      "id": "ss149-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "After checking Leo’s temperature, the nurse recorded it.",
+      "promptZh": "護士量度里奧的體溫後，把體溫記錄下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse checked Leo’s temperature. Thereafter, she recorded it.",
+      "answerZh": "護士量度了里奧的體溫。其後，她把體溫記錄下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse checked Leo’s temperature. Thereafter, she recorded it."
+    },
+    {
+      "id": "ss149-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "On reaching the terminal, all the passengers got off the bus.",
+      "promptZh": "巴士到達總站後，所有乘客都下車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus reached the terminal. Thereafter, all the passengers got off.",
+      "answerZh": "巴士到達總站。其後，所有乘客都下車。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus reached the terminal. Thereafter, all the passengers got off."
+    },
+    {
+      "id": "ss149-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The meeting ended at noon. Afterwards, nobody remained in the room.",
+      "promptZh": "會議於中午結束。之後，房間內再沒有任何人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting ended at noon. Thereafter, nobody remained in the room.",
+      "answerZh": "會議於中午結束。其後，房間內再沒有任何人。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting ended at noon. Thereafter, nobody remained in the room."
+    },
+    {
+      "id": "ss149-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "After the film finished, we discussed its ending.",
+      "promptZh": "電影結束後，我們討論了它的結局。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The film finished. Thereafter, we discussed its ending.",
+      "answerZh": "電影結束。其後，我們討論了它的結局。",
+      "answerZhSource": "pdf",
+      "highlight": "The film finished. Thereafter, we discussed its ending."
+    },
+    {
+      "id": "ss149-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah submitted the form. Later, a confirmation email was sent to her by the office.",
+      "promptZh": "莎拉提交表格。辦事處其後向她發出確認電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah submitted the form. Thereafter, a confirmation email was sent to her by the office.",
+      "answerZh": "莎拉提交了表格。其後，辦事處向她發出確認電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah submitted the form. Thereafter, a confirmation email was sent to her by the office."
+    },
+    {
+      "id": "ss149-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "After moving to a new town, Jack worked in a small hotel.",
+      "promptZh": "傑克搬到一個新市鎮後，在一間小型酒店工作。",
+      "promptZhSource": "pdf",
+      "starter": "Jack",
+      "answer": "Jack moved to a new town. Thereafter, he worked in a small hotel.",
+      "answerZh": "傑克搬到一個新市鎮。其後，他在一間小型酒店工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack moved to a new town. Thereafter, he worked in a small hotel."
+    },
+    {
+      "id": "ss149-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The team won the semi-final. The next stage was preparation for the final.",
+      "promptZh": "球隊在準決賽中勝出。下一個階段是為決賽作準備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team won the semi-final. Thereafter, they prepared for the final.",
+      "answerZh": "球隊在準決賽中勝出。其後，他們為決賽作準備。",
+      "answerZhSource": "pdf",
+      "highlight": "The team won the semi-final. Thereafter, they prepared for the final."
+    },
+    {
+      "id": "ss149-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The computer restarted, and the update continued afterwards.",
+      "promptZh": "電腦重新啟動，更新程序其後繼續進行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The computer restarted. Thereafter, the update continued.",
+      "answerZh": "電腦重新啟動。其後，更新程序繼續進行。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer restarted. Thereafter, the update continued."
+    },
+    {
+      "id": "ss149-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Having completed the first chapter, Olivia took a short break.",
+      "promptZh": "奧莉花完成第一章後，稍作休息。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia completed the first chapter. Thereafter, she took a short break.",
+      "answerZh": "奧莉花完成了第一章。其後，她稍作休息。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia completed the first chapter. Thereafter, she took a short break."
+    },
+    {
+      "id": "ss149-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Dinner was served after the guests arrived.",
+      "promptZh": "客人抵達後，晚餐便開始供應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guests arrived. Thereafter, dinner was served.",
+      "answerZh": "客人抵達。其後，晚餐開始供應。",
+      "answerZhSource": "pdf",
+      "highlight": "The guests arrived. Thereafter, dinner was served."
+    },
+    {
+      "id": "ss149-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ethan turned off the oven before letting the cake cool.",
+      "promptZh": "伊森先關掉焗爐，然後讓蛋糕冷卻。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan turned off the oven. Thereafter, he let the cake cool.",
+      "answerZh": "伊森關掉焗爐。其後，他讓蛋糕冷卻。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan turned off the oven. Thereafter, he let the cake cool."
+    },
+    {
+      "id": "ss149-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Following the opening of the museum’s new gallery, visitor numbers increased.",
+      "promptZh": "博物館的新展覽廳開幕後，訪客人數有所增加。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum opened its new gallery. Thereafter, visitor numbers increased.",
+      "answerZh": "博物館開放了新的展覽廳。其後，訪客人數有所增加。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum opened its new gallery. Thereafter, visitor numbers increased."
+    },
+    {
+      "id": "ss149-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The doctor explained the treatment. Several questions from the patient followed.",
+      "promptZh": "醫生解釋了治療方法。病人其後提出了數個問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained the treatment. Thereafter, the patient asked several questions.",
+      "answerZh": "醫生解釋了治療方法。其後，病人提出了數個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained the treatment. Thereafter, the patient asked several questions."
+    },
+    {
+      "id": "ss149-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Following repairs to the old bridge, buses were allowed to use it again.",
+      "promptZh": "舊橋完成維修後，巴士獲准再次使用該橋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old bridge was repaired. Thereafter, buses were allowed to use it again.",
+      "answerZh": "舊橋完成維修。其後，巴士獲准再次使用該橋。",
+      "answerZhSource": "pdf",
+      "highlight": "The old bridge was repaired. Thereafter, buses were allowed to use it again."
+    },
+    {
+      "id": "ss149-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Grace first receives the weekly report and then checks the figures for errors.",
+      "promptZh": "格蕾絲先收到每周報告，然後檢查數字是否有錯。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace receives the weekly report. Thereafter, she checks the figures for errors.",
+      "answerZh": "格蕾絲收到每周報告。其後，她檢查數字是否有錯。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace receives the weekly report. Thereafter, she checks the figures for errors."
+    },
+    {
+      "id": "ss149-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Once the alarm sounds, everyone must leave the building.",
+      "promptZh": "警報響起後，所有人都必須離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The alarm sounds. Thereafter, everyone must leave the building.",
+      "answerZh": "警報響起。其後，所有人都必須離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "The alarm sounds. Thereafter, everyone must leave the building."
+    },
+    {
+      "id": "ss149-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The application will be reviewed before the applicant receives a decision.",
+      "promptZh": "申請將先接受審核，申請人其後會收到決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The application will be reviewed. Thereafter, the applicant will receive a decision.",
+      "answerZh": "申請將接受審核。其後，申請人會收到決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The application will be reviewed. Thereafter, the applicant will receive a decision."
+    },
+    {
+      "id": "ss149-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "First back up your files, and then install the new software.",
+      "promptZh": "先備份檔案，然後安裝新軟件。",
+      "promptZhSource": "pdf",
+      "starter": "Back",
+      "answer": "Back up your files. Thereafter, install the new software.",
+      "answerZh": "備份你的檔案。其後，安裝新軟件。",
+      "answerZhSource": "pdf",
+      "highlight": "Back up your files. Thereafter, install the new software."
+    },
+    {
+      "id": "ss149-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Take the medicine with food before resting for thirty minutes.",
+      "promptZh": "隨餐服藥後，休息三十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Take",
+      "answer": "Take the medicine with food. Thereafter, rest for thirty minutes.",
+      "answerZh": "隨餐服藥。其後，休息三十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "Take the medicine with food. Thereafter, rest for thirty minutes."
+    },
+    {
+      "id": "ss149-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Following the closure of the road for repairs, traffic was diverted through the village.",
+      "promptZh": "道路因維修而封閉後，車輛改道經過村莊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was closed for repairs. Thereafter, traffic was diverted through the village.",
+      "answerZh": "道路因維修而封閉。其後，車輛改道經過村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was closed for repairs. Thereafter, traffic was diverted through the village."
+    },
+    {
+      "id": "ss149-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Upon signing the agreement, Maya received a copy by email.",
+      "promptZh": "瑪雅簽署協議後，透過電郵收到一份副本。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya signed the agreement. Thereafter, she received a copy by email.",
+      "answerZh": "瑪雅簽署了協議。其後，她透過電郵收到一份副本。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya signed the agreement. Thereafter, she received a copy by email."
+    },
+    {
+      "id": "ss149-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The emergency system started automatically after the lights went out.",
+      "promptZh": "燈光熄滅後，緊急系統自動啟動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights went out. Thereafter, the emergency system started automatically.",
+      "answerZh": "燈光熄滅。其後，緊急系統自動啟動。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights went out. Thereafter, the emergency system started automatically."
+    },
+    {
+      "id": "ss149-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After the course ended in May, the students could access the online library for another month.",
+      "promptZh": "課程於五月結束後，學生仍可使用網上圖書館多一個月。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course ended in May. Thereafter, the students could access the online library for another month.",
+      "answerZh": "課程於五月結束。其後，學生仍可使用網上圖書館多一個月。",
+      "answerZhSource": "pdf",
+      "highlight": "The course ended in May. Thereafter, the students could access the online library for another month."
+    },
+    {
+      "id": "ss149-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Once collected, the samples are sent to the laboratory.",
+      "promptZh": "樣本收集後，便會送往實驗室。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The samples are collected. Thereafter, they are sent to the laboratory.",
+      "answerZh": "樣本被收集。其後，它們會送往實驗室。",
+      "answerZhSource": "pdf",
+      "highlight": "The samples are collected. Thereafter, they are sent to the laboratory."
+    },
+    {
+      "id": "ss149-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The customer confirms the order before the warehouse prepares the goods.",
+      "promptZh": "顧客先確認訂單，然後貨倉準備貨物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer confirms the order. Thereafter, the warehouse prepares the goods.",
+      "answerZh": "顧客確認訂單。其後，貨倉準備貨物。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer confirms the order. Thereafter, the warehouse prepares the goods."
+    },
+    {
+      "id": "ss149-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Following the committee’s approval of the proposal, the finance team prepared a budget.",
+      "promptZh": "委員會批准建議後，財務團隊編製了預算。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee approved the proposal. Thereafter, the finance team prepared a budget.",
+      "answerZh": "委員會批准了建議。其後，財務團隊編製了預算。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee approved the proposal. Thereafter, the finance team prepared a budget."
+    },
+    {
+      "id": "ss149-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Repair teams entered the area after the storm passed.",
+      "promptZh": "暴風雨過後，維修隊伍進入該區。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The storm passed. Thereafter, repair teams entered the area.",
+      "answerZh": "暴風雨過去。其後，維修隊伍進入該區。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm passed. Thereafter, repair teams entered the area."
+    },
+    {
+      "id": "ss149-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Suitable candidates are invited to a second interview after the first interview is completed.",
+      "promptZh": "第一次面試完成後，合適的應徵者會獲邀參加第二次面試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first interview is completed. Thereafter, suitable candidates are invited to a second interview.",
+      "answerZh": "第一次面試完成。其後，合適的應徵者會獲邀參加第二次面試。",
+      "answerZhSource": "pdf",
+      "highlight": "The first interview is completed. Thereafter, suitable candidates are invited to a second interview."
+    },
+    {
+      "id": "ss149-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After the patient was discharged on Friday, she no longer needed to return to the hospital.",
+      "promptZh": "病人於星期五出院後，便不需要再返回醫院。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient was discharged on Friday. Thereafter, she did not need to return to the hospital.",
+      "answerZh": "病人於星期五出院。此後，她不需要再返回醫院。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient was discharged on Friday. Thereafter, she did not need to return to the hospital."
+    },
+    {
+      "id": "ss149-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Following the introduction of flexible working hours, staff turnover fell.",
+      "promptZh": "彈性工作時間推出後，員工流失率下降。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company introduced flexible working hours. Thereafter, staff turnover fell.",
+      "answerZh": "公司推出了彈性工作時間。其後，員工流失率下降。",
+      "answerZhSource": "pdf",
+      "highlight": "The company introduced flexible working hours. Thereafter, staff turnover fell."
+    },
+    {
+      "id": "ss149-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After being filtered, the water passes through a final safety check.",
+      "promptZh": "水經過濾後，會接受最後一次安全檢查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The water is filtered. Thereafter, it passes through a final safety check.",
+      "answerZh": "水經過濾。其後，它會接受最後一次安全檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The water is filtered. Thereafter, it passes through a final safety check."
+    },
+    {
+      "id": "ss149-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Noah received a formal notice after ignoring the first warning.",
+      "promptZh": "諾亞沒有理會第一次警告，其後收到正式通知。",
+      "promptZhSource": "pdf",
+      "starter": "Noah",
+      "answer": "Noah ignored the first warning. Thereafter, he received a formal notice.",
+      "answerZh": "諾亞沒有理會第一次警告。其後，他收到正式通知。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah ignored the first warning. Thereafter, he received a formal notice."
+    },
+    {
+      "id": "ss149-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After the library moved its records online, staff could find old files more quickly.",
+      "promptZh": "圖書館把記錄轉移到網上後，職員可以更快找到舊檔案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library moved its records online. Thereafter, staff could find old files more quickly.",
+      "answerZh": "圖書館把記錄轉移到網上。其後，職員可以更快找到舊檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "The library moved its records online. Thereafter, staff could find old files more quickly."
+    },
+    {
+      "id": "ss149-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Following the completion of the public consultation, the council published a revised plan.",
+      "promptZh": "公眾諮詢完成後，市議會公布了修訂計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council completed the public consultation. Thereafter, it published a revised plan.",
+      "answerZh": "市議會完成了公眾諮詢。其後，它公布了修訂計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The council completed the public consultation. Thereafter, it published a revised plan."
+    },
+    {
+      "id": "ss149-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Passenger queues became shorter after the airport added more self-service machines.",
+      "promptZh": "機場增設自助服務機後，乘客的輪候隊伍縮短了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The airport added more self-service machines. Thereafter, passenger queues became shorter.",
+      "answerZh": "機場增設了自助服務機。其後，乘客的輪候隊伍縮短了。",
+      "answerZhSource": "pdf",
+      "highlight": "The airport added more self-service machines. Thereafter, passenger queues became shorter."
+    },
+    {
+      "id": "ss149-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Having checked the raw data twice, the research team began the final analysis.",
+      "promptZh": "研究團隊檢查原始數據兩次後，開始進行最後分析。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team checked the raw data twice. Thereafter, it began the final analysis.",
+      "answerZh": "研究團隊檢查了原始數據兩次。其後，團隊開始進行最後分析。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team checked the raw data twice. Thereafter, it began the final analysis."
+    },
+    {
+      "id": "ss149-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school tested the new timetable for one term before asking parents and teachers for feedback.",
+      "promptZh": "學校先試行新時間表一個學期，然後向家長和教師收集意見。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school tested the new timetable for one term. Thereafter, it asked parents and teachers for feedback.",
+      "answerZh": "學校試行了新時間表一個學期。其後，學校向家長和教師收集意見。",
+      "answerZhSource": "pdf",
+      "highlight": "The school tested the new timetable for one term. Thereafter, it asked parents and teachers for feedback."
+    },
+    {
+      "id": "ss149-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Following the signing of the contract by both companies, work on the project officially began.",
+      "promptZh": "兩間公司簽署合約後，項目工作正式展開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The contract was signed by both companies. Thereafter, work on the project officially began.",
+      "answerZh": "合約由兩間公司簽署。其後，項目工作正式展開。",
+      "answerZhSource": "pdf",
+      "highlight": "The contract was signed by both companies. Thereafter, work on the project officially began."
+    },
+    {
+      "id": "ss149-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After the hospital opened a new booking system, patients were able to change appointments online.",
+      "promptZh": "醫院推出新的預約系統後，病人可以在網上更改預約。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital opened a new booking system. Thereafter, patients were able to change appointments online.",
+      "answerZh": "醫院推出了新的預約系統。其後，病人可以在網上更改預約。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital opened a new booking system. Thereafter, patients were able to change appointments online."
+    },
+    {
+      "id": "ss149-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Following its careful restoration, the historical building reopened as a community arts centre.",
+      "promptZh": "歷史建築經過仔細修復後，重新開放成為社區藝術中心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The historical building was carefully restored. Thereafter, it reopened as a community arts centre.",
+      "answerZh": "歷史建築經過仔細修復。其後，它重新開放成為社區藝術中心。",
+      "answerZhSource": "pdf",
+      "highlight": "The historical building was carefully restored. Thereafter, it reopened as a community arts centre."
+    },
+    {
+      "id": "ss149-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new safety procedures came into effect after the organisation completed staff training in August.",
+      "promptZh": "機構於八月完成員工培訓後，新的安全程序正式生效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation completed staff training in August. Thereafter, the new safety procedures came into effect.",
+      "answerZh": "機構於八月完成了員工培訓。其後，新的安全程序正式生效。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation completed staff training in August. Thereafter, the new safety procedures came into effect."
+    },
+    {
+      "id": "ss149-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Upon the conclusion of the investigation, the committee issued a report explaining its main findings.",
+      "promptZh": "調查結束後，委員會發表了一份解釋主要調查結果的報告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The investigation ended. Thereafter, the committee issued a report explaining its main findings.",
+      "answerZh": "調查結束。其後，委員會發表了一份解釋主要調查結果的報告。",
+      "answerZhSource": "pdf",
+      "highlight": "The investigation ended. Thereafter, the committee issued a report explaining its main findings."
+    },
+    {
+      "id": "ss149-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Once the emergency plan had received approval, each department received detailed instructions on its responsibilities.",
+      "promptZh": "緊急應變計劃獲得批准後，各部門收到有關其職責的詳細指示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency plan was approved. Thereafter, each department received detailed instructions on its responsibilities.",
+      "answerZh": "緊急應變計劃獲得批准。其後，各部門收到有關其職責的詳細指示。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency plan was approved. Thereafter, each department received detailed instructions on its responsibilities."
+    }
+  ]
+}

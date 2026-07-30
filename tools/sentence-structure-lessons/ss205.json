@@ -1,0 +1,1222 @@
+{
+  "id": "ss205",
+  "order": 205,
+  "slug": "it-is-fair-to-say-that",
+  "title": "「It is fair to say that ...」作出合理而審慎的判斷",
+  "titleZh": "「It is fair to say that ...」作出合理而審慎的判斷",
+  "titleEn": "Using “It is fair to say that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 204 -「It is fair to say that ...」作出合理而審慎的判斷.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 204; it is assigned system ID ss205 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It is fair to say that + complete clause",
+  "formulas": [
+    {
+      "id": "ss205-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "It is fair to say that + complete clause"
+    }
+  ],
+  "example": "It is fair to say that the reform has produced mixed results.",
+  "exampleZh": "可以合理地說，這場改革帶來了好壞參半的結果。",
+  "examples": [
+    {
+      "id": "ss205-example-01",
+      "en": "It is fair to say that the reform has produced mixed results.",
+      "zh": "可以合理地說，這場改革帶來了好壞參半的結果。",
+      "highlight": "It is fair to say that the reform has produced mixed results."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：It is fair to say that + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss205-rule-01",
+      "zh": "fair 在這裏不是「公平」 在這個句型中，fair 的意思是： ● reasonable 合理的 ● justified 有充分根據的 ● balanced 公允而平衡的 它不是指「公平對待每一個人」。",
+      "en": "Fair here means reasonable, justified and balanced, not equal treatment of every person.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss205-rule-02",
+      "zh": "that 後面必須接完整子句 正確： that 後面的部分必須包含主語和動詞： ● the plan = 主語 ● needs = 動詞 錯誤：",
+      "en": "Follow that with a complete clause. Correct: It is fair to say that the plan needs more work. Here, the plan is the subject and needs is the verb. Incorrect: It is fair to say that the difficult plan.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is fair to say that the plan needs more work.",
+        "It is fair to say that the difficult plan. ✗"
+      ]
+    },
+    {
+      "id": "ss205-rule-03",
+      "zh": "這個句型會適度減弱語氣 直接說： （這項政策失敗了。） 語氣十分肯定。 使用目標句型： （可以合理地說，這項政策失敗了。） 說話者仍然作出了明確判斷，但表示這是根據現有情況得出的合理結論，而不是不容質疑的絕對 事實。",
+      "en": "The structure moderately softens a judgement. “The policy failed” sounds highly certain. “It is fair to say that the policy failed” still makes a clear judgement but presents it as a reasonable conclusion from the available evidence rather than an indisputable fact.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The policy failed.",
+        "It is fair to say that the policy failed."
+      ]
+    },
+    {
+      "id": "ss205-rule-04",
+      "zh": "可以表達正面、負面或好壞參半的評價 正面： 負面： 好壞參半：",
+      "en": "The structure can introduce a positive, negative or mixed evaluation. Positive: It is fair to say that the event was successful. Negative: It is fair to say that the company responded too slowly. Mixed: It is fair to say that the app is convenient but not perfect.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is fair to say that the event was successful.",
+        "It is fair to say that the company responded too slowly.",
+        "It is fair to say that the app is convenient but not perfect."
+      ]
+    },
+    {
+      "id": "ss205-rule-05",
+      "zh": "不要寫成 fairly to say 正確： 錯誤： 這裏需要形容詞 fair，而不是副詞 fairly。",
+      "en": "Use fair, not fairly, because the structure requires the adjective fair rather than the adverb fairly. Correct: It is fair to say that .... Incorrect: It is fairly to say that ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is fair to say that...",
+        "It is fairly to say that... ✗"
+      ]
+    },
+    {
+      "id": "ss205-rule-06",
+      "zh": "判斷應該有一定根據 這個句型適合用來總結： ● 數據或調查結果 ● 多項觀察 ● 正反兩面的證據 ● 一段事件的整體表現 ● 一項政策或計劃的成效 它不適合用來包裝毫無根據的猜測。",
+      "en": "Base the judgement on evidence. The structure can summarise data or survey results, several observations, evidence on both sides, the overall performance of a series of events, or the effectiveness of a policy or plan. Do not use it to disguise an unsupported guess.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss205-benefit-01",
+      "zh": "讓判斷聽起來更平衡 這個句型能讓你提出明確看法，同時避免顯得過分武斷或自以為是。 你不是說自己的判斷一定正確，而是表示根據目前的資料，這個結論是合理的。",
+      "en": "It makes a judgement sound more balanced. You can state a clear view without sounding overly dogmatic or self-important: the wording presents the conclusion as reasonable on the available information, not as unquestionably correct.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss205-benefit-02",
+      "zh": "幫助你控制說法的強弱 直接陳述有時會令人以為你正在宣稱一件事是絕對事實。 使用 It is fair to say that...，可以清楚表示這是一個有根據的判斷，而不是百分之百確定的事 實。 比較： （這項改革帶來了好壞參半的結果。） （可以合理地說，這項改革帶來了好壞參半的結果。） 第二句的語氣較審慎，也更能容納不同觀點。",
+      "en": "It helps control claim strength. A direct statement can sound like an absolute fact, whereas “It is fair to say that ...” marks a well-founded judgement that is not one hundred per cent certain. Compare: The reform has produced mixed results. It is fair to say that the reform has produced mixed results. The second version is more cautious and leaves room for other views.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss205-benefit-03",
+      "zh": "容易總結多項證據 當你已經列出數據、例子或正反理據後，可以使用這個句型作出整體結論。 例如： 這樣可以把前面的多項資料自然地收束成一個清晰判斷。",
+      "en": "It makes it easy to summarise several pieces of evidence. After listing data, examples or arguments on both sides, use the structure for an overall conclusion: Attendance increased, costs fell and customer feedback improved. It is fair to say that the programme was successful. This neatly draws the preceding evidence into one clear judgement.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss205-benefit-04",
+      "zh": "適合處理好壞參半的情況 很多政策、產品和決定並非完全成功或完全失敗。 這個句型能幫助你作出較有分寸的評價：",
+      "en": "It suits mixed outcomes. Many policies, products and decisions are neither wholly successful nor wholly unsuccessful, so the structure supports a measured evaluation: It is fair to say that the policy created new opportunities but also caused practical difficulties.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss205-benefit-05",
+      "zh": "適合用於作文、報告、簡報和討論 這是一個現成的表達框架，能幫助你： ● 在議論文中提出整體判斷； ● 在報告中總結結果； ● 在簡報中評價表現； ● 在口語討論中表達審慎意見； ● 避免反覆使用 I think 或 In my opinion。",
+      "en": "It provides a ready-made frame for essays, reports, presentations and discussions. Use it to give an overall judgement in an argumentative essay, summarise results in a report, evaluate performance in a presentation, express a cautious opinion in discussion, and avoid repeatedly using I think or In my opinion.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 204; it is assigned system ID ss205 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: It is fair to say that + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「It is fair to say that + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss205-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It would be reasonable to say that the new timetable is easier to follow.",
+      "promptZh": "說新時間表更容易理解，是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the new timetable is easier to follow.",
+      "answerZh": "可以合理地說，新時間表更容易理解。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the new timetable is easier to follow."
+    },
+    {
+      "id": "ss205-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team played well today. That is a reasonable judgement.",
+      "promptZh": "球隊今天表現出色。這是一個合理的判斷。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the team played well today.",
+      "answerZh": "可以合理地說，球隊今天表現出色。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the team played well today."
+    },
+    {
+      "id": "ss205-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A reasonable overall judgement is that the shop offers good value for money.",
+      "promptZh": "一個合理的整體判斷是，這間商店物有所值。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the shop offers good value for money.",
+      "answerZh": "可以合理地說，這間商店物有所值。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the shop offers good value for money."
+    },
+    {
+      "id": "ss205-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It seems reasonable to conclude that the weather has improved since this morning.",
+      "promptZh": "看來可以合理地得出結論：今早以來天氣已有改善。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the weather has improved since this morning.",
+      "answerZh": "可以合理地說，今早以來天氣已有改善。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the weather has improved since this morning."
+    },
+    {
+      "id": "ss205-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The students’ comments make it reasonable to describe the lesson as useful.",
+      "promptZh": "根據學生的評語，把這堂課形容為有用是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the lesson was useful, judging from the students’ comments.",
+      "answerZh": "根據學生的評語，可以合理地說，這堂課很有用。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the lesson was useful, judging from the students’ comments."
+    },
+    {
+      "id": "ss205-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shorter travel times support the view that the new bus route saves passengers time.",
+      "promptZh": "較短的行車時間支持這個看法：新巴士路線能為乘客節省時間。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the new bus route saves passengers time, judging from the shorter travel times.",
+      "answerZh": "從較短的行車時間來看，可以合理地說，新巴士路線能為乘客節省時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the new bus route saves passengers time, judging from the shorter travel times."
+    },
+    {
+      "id": "ss205-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia dealt with the problem calmly. That is a reasonable description of her response.",
+      "promptZh": "米婭冷靜地處理了問題。這是對她反應的合理描述。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that Mia handled the problem calmly.",
+      "answerZh": "可以合理地說，米婭冷靜地處理了問題。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that Mia handled the problem calmly."
+    },
+    {
+      "id": "ss205-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The growing number of customers gives us good reason to believe that the café has become more popular.",
+      "promptZh": "顧客人數不斷增加，讓我們有充分理由相信這間咖啡店變得更受歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the café has become more popular, given the growing number of customers.",
+      "answerZh": "鑑於顧客人數不斷增加，可以合理地說，這間咖啡店變得更受歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the café has become more popular, given the growing number of customers."
+    },
+    {
+      "id": "ss205-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A balanced assessment is that the school trip was well organised.",
+      "promptZh": "一個平衡的評價是，這次學校旅行安排得很好。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the school trip was well organised.",
+      "answerZh": "可以合理地說，這次學校旅行安排得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the school trip was well organised."
+    },
+    {
+      "id": "ss205-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The plan contains some good ideas, but it would be reasonable to say that it still needs more work.",
+      "promptZh": "這個計劃包含一些好想法，但合理地說，它仍需要進一步完善。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the plan still needs more work, although it contains some good ideas.",
+      "answerZh": "雖然這個計劃包含一些好想法，但可以合理地說，它仍需要進一步完善。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the plan still needs more work, although it contains some good ideas."
+    },
+    {
+      "id": "ss205-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What is a reasonable overall view of the new app? It is convenient but not perfect.",
+      "promptZh": "對這個新應用程式作出甚麼整體評價才算合理？它很方便，但並不完美。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the new app is convenient but not perfect.",
+      "answerZh": "可以合理地說，這個新應用程式很方便，但並不完美。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the new app is convenient but not perfect."
+    },
+    {
+      "id": "ss205-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The students’ results have improved gradually, so steady progress is a reasonable description.",
+      "promptZh": "學生的成績逐步改善，因此，以穩步進步來形容他們是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the students have made steady progress.",
+      "answerZh": "可以合理地說，學生已取得穩步進展。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the students have made steady progress."
+    },
+    {
+      "id": "ss205-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Most of the comments were supportive, making a generally positive public response a reasonable assessment.",
+      "promptZh": "大部分意見都表示支持，因此，把公眾反應評為整體正面是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the public response was generally positive, given that most comments were supportive.",
+      "answerZh": "鑑於大部分意見都表示支持，可以合理地說，公眾反應整體正面。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the public response was generally positive, given that most comments were supportive."
+    },
+    {
+      "id": "ss205-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager explained the changes clearly. That conclusion is reasonable because most staff understood what to do.",
+      "promptZh": "經理清楚解釋了有關改變。由於大部分員工都明白應該怎樣做，這個結論是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the manager explained the changes clearly, given that most staff understood what to do.",
+      "answerZh": "鑑於大部分員工都明白應該怎樣做，可以合理地說，經理清楚解釋了有關改變。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the manager explained the changes clearly, given that most staff understood what to do."
+    },
+    {
+      "id": "ss205-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When compared with the original schedule, the repair can reasonably be described as taking longer than expected.",
+      "promptZh": "與原定時間表相比，可以合理地形容這次維修所需時間比預期長。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the repair took longer than expected.",
+      "answerZh": "可以合理地說，這次維修所需時間比預期長。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the repair took longer than expected."
+    },
+    {
+      "id": "ss205-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Daniel’s improved fitness test results and higher energy levels support the conclusion that the exercise programme has improved his health.",
+      "promptZh": "丹尼爾有所改善的體能測試結果和更充沛的精力，支持運動計劃已改善其健康的結論。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the exercise programme has improved Daniel’s health, judging from his improved fitness test results and higher energy levels.",
+      "answerZh": "從丹尼爾有所改善的體能測試結果和更充沛的精力來看，可以合理地說，這個運動計劃改善了他的健康。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the exercise programme has improved Daniel’s health, judging from his improved fitness test results and higher energy levels."
+    },
+    {
+      "id": "ss205-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "There is good reason to conclude that the new rules have reduced confusion.",
+      "promptZh": "有充分理由得出結論，認為新規則減少了混亂。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the new rules have reduced confusion.",
+      "answerZh": "可以合理地說，新規則減少了混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the new rules have reduced confusion."
+    },
+    {
+      "id": "ss205-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Children, adults and older people all found something to enjoy at the museum. It is therefore reasonable to call it suitable for visitors of all ages.",
+      "promptZh": "兒童、成年人和長者都能在博物館找到自己喜歡的事物。因此，把它稱為適合各年齡層訪客是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the museum is suitable for visitors of all ages.",
+      "answerZh": "可以合理地說，這間博物館適合各年齡層的訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the museum is suitable for visitors of all ages."
+    },
+    {
+      "id": "ss205-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The main decision was made and the next steps were agreed. Therefore, the meeting can reasonably be said to have achieved its main purpose.",
+      "promptZh": "主要決定已經作出，下一步亦已議定。因此，可以合理地說，會議達成了主要目的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the meeting achieved its main purpose.",
+      "answerZh": "可以合理地說，這次會議達成了主要目的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the meeting achieved its main purpose."
+    },
+    {
+      "id": "ss205-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "For everyday use, the product can reasonably be regarded as reliable.",
+      "promptZh": "就日常使用而言，可以合理地把這件產品視為可靠。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the product is reliable for everyday use.",
+      "answerZh": "可以合理地說，這件產品在日常使用方面是可靠的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the product is reliable for everyday use."
+    },
+    {
+      "id": "ss205-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Survey results and media coverage give reasonable grounds for saying that the campaign has raised public awareness.",
+      "promptZh": "調查結果和傳媒報道提供了合理依據，讓人可以說這項活動提高了公眾意識。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the campaign has raised public awareness.",
+      "answerZh": "可以合理地說，這項活動提高了公眾意識。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the campaign has raised public awareness."
+    },
+    {
+      "id": "ss205-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital handled the emergency quickly and in an orderly way. Describing its response as efficient is justified.",
+      "promptZh": "醫院迅速而有秩序地處理了緊急情況。把它的應對形容為有效率是有根據的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the hospital handled the emergency efficiently.",
+      "answerZh": "可以合理地說，醫院有效率地處理了這次緊急情況。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the hospital handled the emergency efficiently."
+    },
+    {
+      "id": "ss205-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "People can now book appointments in fewer steps, so it is reasonable to conclude that the new system has made booking appointments easier.",
+      "promptZh": "人們現在可以用較少步驟預約，因此，合理的結論是新系統令預約更容易。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the new system has made booking appointments easier.",
+      "answerZh": "可以合理地說，新系統令預約更容易。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the new system has made booking appointments easier."
+    },
+    {
+      "id": "ss205-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The policy opened new opportunities but also caused practical difficulties. A balanced conclusion is that it has created both opportunities and difficulties.",
+      "promptZh": "這項政策帶來了新機會，但亦造成實際困難。一個平衡的結論是，它同時帶來了機會和困難。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the policy has created both opportunities and difficulties.",
+      "answerZh": "可以合理地說，這項政策同時帶來了機會和困難。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the policy has created both opportunities and difficulties."
+    },
+    {
+      "id": "ss205-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Actual spending was far above the original estimate. This makes it reasonable to conclude that the company underestimated the cost of the project.",
+      "promptZh": "實際開支遠高於原來估算。這令人可以合理地得出結論，認為公司低估了項目成本。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the company underestimated the cost of the project.",
+      "answerZh": "可以合理地說，公司低估了項目成本。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the company underestimated the cost of the project."
+    },
+    {
+      "id": "ss205-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A balanced view is that online learning can support classroom teaching but cannot completely replace it.",
+      "promptZh": "一個平衡的看法是，網上學習可以支援課堂教學，但不能完全取代它。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that online learning can support classroom teaching but cannot completely replace it.",
+      "answerZh": "可以合理地說，網上學習可以支援課堂教學，但不能完全取代它。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that online learning can support classroom teaching but cannot completely replace it."
+    },
+    {
+      "id": "ss205-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Crime reports have fallen, and residents feel more secure. Taken together, these facts support the view that the neighbourhood has become safer over the past year.",
+      "promptZh": "罪案報告減少了，居民亦感到更安全。綜合而言，這些事實支持這個看法：這個社區在過去一年變得更安全。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the neighbourhood has become safer over the past year.",
+      "answerZh": "可以合理地說，這個社區在過去一年變得更安全。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the neighbourhood has become safer over the past year."
+    },
+    {
+      "id": "ss205-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The staff completed the change with few errors, which reasonably suggests that the training prepared them well.",
+      "promptZh": "員工以很少錯誤完成了轉變，這合理地顯示培訓為他們作好了準備。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the training prepared the staff well for the change.",
+      "answerZh": "可以合理地說，這項培訓令員工為轉變作好充分準備。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the training prepared the staff well for the change."
+    },
+    {
+      "id": "ss205-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The film looked remarkable, although its story was easy to predict. On balance, it was visually impressive but predictable.",
+      "promptZh": "這部電影的畫面十分出色，但故事很容易預測。總體而言，它在視覺上令人印象深刻，但情節可以預料。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the film was visually impressive, although its story was predictable.",
+      "answerZh": "可以合理地說，這部電影在視覺上令人印象深刻，雖然故事可以預料。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the film was visually impressive, although its story was predictable."
+    },
+    {
+      "id": "ss205-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The council changed two parts of the proposal after the public meetings. This makes it reasonable to say that it listened to residents’ concerns.",
+      "promptZh": "議會在公眾會議後修改了建議的兩個部分。這令人可以合理地說，它聽取了居民的憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the council listened to residents’ concerns.",
+      "answerZh": "可以合理地說，議會聽取了居民的憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the council listened to residents’ concerns."
+    },
+    {
+      "id": "ss205-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Since opening, the new library has hosted classes, study groups and local events. These activities justify the conclusion that it has become an important community space.",
+      "promptZh": "新圖書館開幕以來，曾舉辦課堂、學習小組和地區活動。這些活動足以支持它已成為重要社區空間的結論。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the new library has become an important community space.",
+      "answerZh": "可以合理地說，新圖書館已成為一個重要的社區空間。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the new library has become an important community space."
+    },
+    {
+      "id": "ss205-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The schedule was rushed and responsibilities were unclear. With better planning, the delay could probably have been avoided.",
+      "promptZh": "時間表訂得太倉促，責任亦不清晰。如果有更好的規劃，這次延誤很可能可以避免。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the delay could have been avoided with better planning.",
+      "answerZh": "可以合理地說，如果有更好的規劃，這次延誤本可避免。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the delay could have been avoided with better planning."
+    },
+    {
+      "id": "ss205-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The findings answer several questions but leave others unresolved. The most balanced conclusion is that the research provides useful evidence but not a final answer.",
+      "promptZh": "研究結果回答了若干問題，但仍有其他問題未解決。最平衡的結論是，這項研究提供了有用證據，但並非最終答案。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the research provides useful evidence but not a final answer.",
+      "answerZh": "可以合理地說，這項研究提供了有用證據，但並非最終答案。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the research provides useful evidence but not a final answer."
+    },
+    {
+      "id": "ss205-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Customers waited weeks for replies to their complaints, so describing the company’s response as too slow is justified.",
+      "promptZh": "顧客就投訴等候了數星期才收到回覆，因此，把公司的反應形容為太慢是有根據的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the company responded too slowly to the complaints.",
+      "answerZh": "可以合理地說，公司處理投訴的反應太慢。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the company responded too slowly to the complaints."
+    },
+    {
+      "id": "ss205-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Many households now separate food waste more regularly. This gives reasonable grounds for saying that the recycling scheme has changed some household habits.",
+      "promptZh": "許多家庭現在更定期地把廚餘分類。這提供了合理依據，讓人可以說回收計劃改變了部分家庭習慣。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the recycling scheme has changed some household habits.",
+      "answerZh": "可以合理地說，這項回收計劃改變了部分家庭習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the recycling scheme has changed some household habits."
+    },
+    {
+      "id": "ss205-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The class made clear improvements after receiving the teacher’s comments. It is therefore reasonable to conclude that the feedback helped the class improve.",
+      "promptZh": "全班收到老師的評語後有明顯進步。因此，合理的結論是，這些回饋幫助了全班改善。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the teacher’s feedback helped the class improve.",
+      "answerZh": "可以合理地說，老師的回饋幫助了全班進步。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the teacher’s feedback helped the class improve."
+    },
+    {
+      "id": "ss205-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The repairs disrupted traffic for several weeks, but the road is now safer and smoother. A balanced assessment is that they caused short-term inconvenience but brought long-term benefits.",
+      "promptZh": "維修工程令交通受阻數星期，但道路現在更安全、更平坦。一個平衡的評價是，工程造成短期不便，卻帶來長遠好處。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the road repairs caused short-term inconvenience but brought long-term benefits.",
+      "answerZh": "可以合理地說，道路維修工程造成短期不便，但帶來長遠好處。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the road repairs caused short-term inconvenience but brought long-term benefits."
+    },
+    {
+      "id": "ss205-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Reported thefts have fallen since the new security measures were introduced. This supports the reasonable conclusion that the measures have reduced the risk of theft.",
+      "promptZh": "自從引入新保安措施後，接報盜竊案件有所下降。這支持一個合理結論：有關措施降低了盜竊風險。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the new security measures have reduced the risk of theft.",
+      "answerZh": "可以合理地說，新保安措施降低了盜竊風險。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the new security measures have reduced the risk of theft."
+    },
+    {
+      "id": "ss205-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Customer reviews have become more positive since the new manager arrived. It is therefore reasonable to say that the restaurant’s service has improved.",
+      "promptZh": "新經理上任後，顧客評價變得更正面。因此，可以合理地說，餐廳的服務有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the restaurant’s service has improved since the new manager arrived.",
+      "answerZh": "可以合理地說，自從新經理上任後，餐廳的服務有所改善。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the restaurant’s service has improved since the new manager arrived."
+    },
+    {
+      "id": "ss205-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Compared with last year, people from more age groups and communities attended the event. The evidence supports the view that it attracted a wider audience.",
+      "promptZh": "與去年相比，來自更多年齡層和社群的人參加了這項活動。證據支持這個看法：活動吸引了更廣泛的參加者。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the event attracted a wider audience than last year.",
+      "answerZh": "可以合理地說，這項活動比去年吸引了更廣泛的參加者。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the event attracted a wider audience than last year."
+    },
+    {
+      "id": "ss205-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Some sectors improved while others faced new difficulties. On balance, the reform has produced mixed results across different sectors.",
+      "promptZh": "部分界別有所改善，另一些界別則面對新困難。總體而言，改革在不同界別產生了好壞參半的結果。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the reform has produced mixed results across different sectors.",
+      "answerZh": "可以合理地說，這項改革在不同界別產生了好壞參半的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the reform has produced mixed results across different sectors."
+    },
+    {
+      "id": "ss205-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Staff understood what the organisation wanted to achieve, but many were unsure how it would do so. The fairest summary is that it communicated its goals more clearly than it explained its methods.",
+      "promptZh": "員工明白機構想達成甚麼目標，但很多人不清楚它會怎樣實行。最公允的總結是，機構對目標的傳達比對方法的解釋更清晰。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the organisation communicated its goals more clearly than it explained its methods.",
+      "answerZh": "可以合理地說，這個機構對目標的傳達比對方法的解釋更清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the organisation communicated its goals more clearly than it explained its methods."
+    },
+    {
+      "id": "ss205-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The system completes tasks faster, yet it collects more personal data. A reasonable conclusion is that the technology has increased efficiency while creating new privacy concerns.",
+      "promptZh": "這個系統能更快完成工作，卻會收集更多個人資料。一個合理的結論是，這項科技提高了效率，同時帶來新的私隱問題。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the technology has increased efficiency while creating new privacy concerns.",
+      "answerZh": "可以合理地說，這項科技提高了效率，同時帶來新的私隱問題。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the technology has increased efficiency while creating new privacy concerns."
+    },
+    {
+      "id": "ss205-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The teams shared updates regularly, and this appears to have been a major reason for the project’s success. It is reasonable to conclude that the project succeeded because the teams shared information openly.",
+      "promptZh": "各團隊定期分享最新情況，而這似乎是項目成功的一個主要原因。合理的結論是，項目成功是因為各團隊公開分享資訊。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the project succeeded because the teams shared information openly.",
+      "answerZh": "可以合理地說，這個項目之所以成功，是因為各團隊公開分享資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the project succeeded because the teams shared information openly."
+    },
+    {
+      "id": "ss205-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Waste levels have fallen, but recycling rates remain uneven and some districts still lack facilities. A balanced judgement is that the city has made progress in reducing waste, although major challenges remain.",
+      "promptZh": "廢物量已有下降，但各區回收率仍不平均，而且部分地區仍缺乏設施。一個平衡的判斷是，城市在減廢方面取得進展，雖然重大挑戰依然存在。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the city has made progress in reducing waste, although major challenges remain.",
+      "answerZh": "可以合理地說，這座城市在減廢方面取得了進展，雖然重大挑戰依然存在。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the city has made progress in reducing waste, although major challenges remain."
+    },
+    {
+      "id": "ss205-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20,
+        "promptContinuationPage": 14
+      },
+      "prompt": "Given the information available at the time, the decision was understandable; however, it later caused several problems. It is reasonable to describe it as understandable at the time, even though it later caused problems.",
+      "promptZh": "考慮到當時掌握的資料，這項決定是可以理解的；然而，它後來造成了數個問題。即使它後來引起問題，把它形容為在當時可以理解仍屬合理。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the decision was understandable at the time, even though it later caused problems.",
+      "answerZh": "可以合理地說，這項決定在當時是可以理解的，即使它後來造成了問題。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the decision was understandable at the time, even though it later caused problems."
+    },
+    {
+      "id": "ss205-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Attendance records show that regular participants improved much more than occasional users. This supports the conclusion that the programme benefited regular participants more than occasional users.",
+      "promptZh": "出席紀錄顯示，固定參加者的進步遠多於偶爾參加者。這支持一個結論：這項計劃令固定參加者受益更多。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the programme benefited regular participants more than occasional users.",
+      "answerZh": "可以合理地說，這項計劃令固定參加者比偶爾參加者受益更多。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the programme benefited regular participants more than occasional users."
+    },
+    {
+      "id": "ss205-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The report clearly explains why the problem arose, but offers only general suggestions for dealing with it. The most reasonable summary is that it identifies the main causes without fully explaining how to solve the problem.",
+      "promptZh": "報告清楚解釋了問題出現的原因，但只提出一般性的處理建議。最合理的總結是，它指出了主要成因，卻沒有完整說明如何解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the report identifies the main causes of the problem without fully explaining how to solve it.",
+      "answerZh": "可以合理地說，這份報告指出了問題的主要成因，但沒有完整說明如何解決它。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the report identifies the main causes of the problem without fully explaining how to solve it."
+    },
+    {
+      "id": "ss205-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "More people can now use the services, although improvements vary widely from one district to another. A fair overall judgement is that the policy has improved access to services, but its effects have varied from district to district.",
+      "promptZh": "現在有更多人可以使用這些服務，雖然各區的改善程度差異很大。一個公允的整體判斷是，這項政策改善了服務的可及性，但成效因地區而異。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the policy has improved access to services, but its effects have varied from district to district.",
+      "answerZh": "可以合理地說，這項政策改善了服務的可及性，但成效因地區而異。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the policy has improved access to services, but its effects have varied from district to district."
+    },
+    {
+      "id": "ss205-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The first results are encouraging, but they cover only a short period and may not last. The most balanced conclusion is that the reform deserves cautious support because its early gains are promising but not yet secure.",
+      "promptZh": "初步結果令人鼓舞，但只涵蓋短時間，而且未必能持續。最平衡的結論是，這項改革值得審慎支持，因為早期成果令人期待，卻尚未穩固。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the reform deserves cautious support because its early gains are promising but not yet secure.",
+      "answerZh": "可以合理地說，這項改革值得審慎支持，因為早期成果令人期待，但尚未穩固。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the reform deserves cautious support because its early gains are promising but not yet secure."
+    }
+  ]
+}

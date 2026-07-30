@@ -1,0 +1,1260 @@
+{
+  "id": "ss152",
+  "order": 152,
+  "slug": "should-you-conditional-inversion",
+  "title": "Should you + 動詞原形",
+  "titleZh": "「Should you + 動詞原形」正式條件倒裝句",
+  "titleEn": "Using Should you for formal conditional inversion",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 152 -「Should you + 動詞原形」正式條件倒裝句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Should + you + base verb + other information, + main clause",
+  "formulas": [
+    {
+      "id": "ss152-formula-01",
+      "labelEn": "Formal condition",
+      "labelZh": "正式條件",
+      "formula": "Should + you + base verb + other information, + main clause"
+    }
+  ],
+  "example": "Should you need help, let me know.",
+  "exampleZh": "如你需要協助，請告訴我。",
+  "examples": [
+    {
+      "id": "ss152-example-01",
+      "en": "Should you need help, let me know.",
+      "zh": "如你需要協助，請告訴我。",
+      "highlight": "Should you need help, let me know."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss152-rule-01",
+      "zh": "把 should 移到 you 前面後，便要刪去 if。",
+      "en": "Do not use “if” together with the inverted structure After moving should before you, remove if. Should you need help, contact us. If should you need help, contact us.",
+      "enSource": "pdf",
+      "examples": [
+        "Should you need help, contact us.",
+        "If should you need help, contact us."
+      ]
+    },
+    {
+      "id": "ss152-rule-02",
+      "zh": "“Should” does not mean 「應該」 here 在這個句型中，should 並不是表示「應該」，而是提出一個可能發生的情況，意思與 if 相近。 （如果你見到彼得，請把這封信交給他。） 這句並不是說你「應該去見彼得」。",
+      "en": "“Should” does not mean “ought to” here. In this structure, should introduces a possible condition and has a meaning similar to if. Should you see Peter, give him this letter means “If you see Peter ...”; it does not mean that you ought to see Peter.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "In this structure, should introduces a possible condition. It is similar to if.",
+        "Should you see Peter, give him this letter.",
+        "The sentence does not mean that you ought to see Peter."
+      ]
+    },
+    {
+      "id": "ss152-rule-03",
+      "zh": "主語後面的動詞必須使用原形。",
+      "en": "Use the base form after “should” The verb immediately after the subject must be in its base form. Should you need help, ... Should you have a question, ... Should you be unable to attend, ... Should you require more information, ... Should you needs help, ... Should you needed help, ... Should you are unable to attend, ...",
+      "enSource": "pdf",
+      "examples": [
+        "The verb immediately after the subject must be in its base form.",
+        "Should you need help, ...",
+        "Should you have a question, ...",
+        "Should you be unable to attend, ...",
+        "Should you require more information, ...",
+        "Should you needs help, ...",
+        "Should you needed help, ...",
+        "Should you are unable to attend, ..."
+      ]
+    },
+    {
+      "id": "ss152-rule-04",
+      "zh": "否定條件要把 not 放在主語後面。 （如你沒有收到我們的電郵，請查看垃圾郵件資料夾。）",
+      "en": "Negative conditions use “Should you not…” Place not after the subject. Should you not receive our email, check your spam folder. Do not write: Should not you receive our email, ...",
+      "enSource": "pdf",
+      "examples": [
+        "Should you not receive our email, check your spam folder.",
+        "Should not you receive our email, ..."
+      ]
+    },
+    {
+      "id": "ss152-rule-05",
+      "zh": "如要表示某件事情可能已經發生，可以使用： （如你已忘記密碼，請使用重設連結。） （如你仍未收到包裹，請聯絡快遞公司。）",
+      "en": "Earlier completed situations may use “Should you have + past participle” To refer to something that may already have happened, use: Should + you + have + past participle Should you have forgotten your password, use the reset link. Should you not have received the parcel, contact the courier.",
+      "enSource": "pdf",
+      "examples": [
+        "Earlier completed situations may use “Should you have + past participle”",
+        "Should + you + have + past participle",
+        "Should you have forgotten your password, use the reset link.",
+        "Should you not have received the parcel, contact the courier."
+      ]
+    },
+    {
+      "id": "ss152-rule-06",
+      "zh": "Should you… 常見於： 正式電郵； 顧客服務訊息； 通告； 指示； 申請文件； 合約及正式文件。 在一般日常對話中，使用 If you… 通常更常見。",
+      "en": "This structure is more formal than an ordinary if-sentence. Should you ... is common in formal emails, customer-service messages, notices, instructions, applications, contracts and official documents. In ordinary conversation, If you ... is usually more common.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "formal emails;",
+        "customer-service messages;",
+        "notices;",
+        "instructions;",
+        "applications;",
+        "contracts and official documents.",
+        "In ordinary conversation, If you… is usually more common."
+      ]
+    },
+    {
+      "id": "ss152-rule-07",
+      "zh": "當句子以 Should you… 開始時，要在主要句子前加上逗號。",
+      "en": "Use a comma when the conditional clause comes first When the sentence begins with Should you…, place a comma before the main clause. Should you require assistance, please contact reception.",
+      "enSource": "pdf",
+      "examples": [
+        "Should you require assistance, please contact reception."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss152-benefit-01",
+      "zh": "這個句型可以禮貌地提出一個可能出現的問題或需要，避免語氣過於直接。 （如你有任何疑慮，請與老師商討。）",
+      "en": "It helps you express a condition politely The structure allows you to mention a possible problem or need without sounding too direct. Should you have any concerns, please speak to your teacher.",
+      "enSource": "pdf",
+      "examples": [
+        "The structure allows you to mention a possible problem or need without sounding too direct.",
+        "Should you have any concerns, please speak to your teacher."
+      ]
+    },
+    {
+      "id": "ss152-benefit-02",
+      "zh": "撰寫給顧客、同事、學校或機構的正式電郵時，你可以直接運用這個句型。 （如你需要進一步資料，請聯絡本辦事處。）",
+      "en": "It is useful in formal emails and notices You can use this ready-made structure when writing to customers, colleagues, schools or organisations. Should you require further information, please contact our office.",
+      "enSource": "pdf",
+      "examples": [
+        "Should you require further information, please contact our office."
+      ]
+    },
+    {
+      "id": "ss152-benefit-03",
+      "zh": "你不需要每個條件句都使用 if。使用 Should you… 可以增加句式變化，避免文章顯得重複。",
+      "en": "It gives you an alternative to repeatedly using “if” Instead of beginning every condition with if, you can use Should you… to create sentence variety. Compare: If you need assistance, contact us. Should you need assistance, contact us.",
+      "enSource": "pdf",
+      "examples": [
+        "If you need assistance, contact us.",
+        "Should you need assistance, contact us."
+      ]
+    },
+    {
+      "id": "ss152-benefit-04",
+      "zh": "這個句型先交代可能出現的情況，讀者之後便能更容易理解相關指示、建議或結果。 （如你錯過尾班車，請乘搭通宵巴士。）",
+      "en": "It places the possible situation clearly at the beginning The reader understands the possible condition before reading the instruction, advice or result. Should you miss the last train, use the night bus.",
+      "enSource": "pdf",
+      "examples": [
+        "The reader understands the possible condition before reading the instruction, advice or result.",
+        "Should you miss the last train, use the night bus."
+      ]
+    },
+    {
+      "id": "ss152-benefit-05",
+      "zh": "這個句型尤其適合用於申請文件、職場溝通、顧客服務回覆及正式指示，使內容顯得更有條理。",
+      "en": "It makes formal writing sound controlled and well organised This structure is especially useful in applications, workplace communication, customer-service replies and official instructions.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Should you + 動詞原形.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Should you + 動詞原形 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss152-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you need help, let me know.",
+      "promptZh": "如果你需要協助，請告訴我。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you need help, let me know.",
+      "answerZh": "如你需要協助，請告訴我。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you need help, let me know."
+    },
+    {
+      "id": "ss152-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Raise your hand if you have a question.",
+      "promptZh": "如果你有問題，請舉手。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you have a question, raise your hand.",
+      "answerZh": "如你有問題，請舉手。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you have a question, raise your hand."
+    },
+    {
+      "id": "ss152-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Tell the teacher if you feel unwell.",
+      "promptZh": "如果你感到不適，請告訴老師。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you feel unwell, tell the teacher.",
+      "answerZh": "如你感到不適，請告訴老師。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you feel unwell, tell the teacher."
+    },
+    {
+      "id": "ss152-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Use the reset link if you forget your password.",
+      "promptZh": "如果你忘記密碼，請使用重設連結。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you forget your password, use the reset link.",
+      "answerZh": "如你忘記密碼，請使用重設連結。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you forget your password, use the reset link."
+    },
+    {
+      "id": "ss152-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If you see any mistakes, correct them.",
+      "promptZh": "如果你看到任何錯誤，請把它們改正。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you see any mistakes, correct them.",
+      "answerZh": "如你看到任何錯誤，請把它們改正。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you see any mistakes, correct them."
+    },
+    {
+      "id": "ss152-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If you arrive early, wait in the reception area.",
+      "promptZh": "如果你提早到達，請在接待處等候。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you arrive early, wait in the reception area.",
+      "answerZh": "如你提早到達，請在接待處等候。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you arrive early, wait in the reception area."
+    },
+    {
+      "id": "ss152-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ask the assistant if you need more paper.",
+      "promptZh": "如果你需要更多紙張，請向助理索取。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you need more paper, ask the assistant.",
+      "answerZh": "如你需要更多紙張，請向助理索取。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you need more paper, ask the assistant."
+    },
+    {
+      "id": "ss152-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Call me tonight if you change your mind.",
+      "promptZh": "如果你改變主意，今晚請致電給我。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you change your mind, call me tonight.",
+      "answerZh": "如你改變主意，今晚請致電給我。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you change your mind, call me tonight."
+    },
+    {
+      "id": "ss152-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If you lose your ticket, speak to a member of staff.",
+      "promptZh": "如果你遺失車票，請向職員求助。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you lose your ticket, speak to a member of staff.",
+      "answerZh": "如你遺失車票，請向職員求助。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you lose your ticket, speak to a member of staff."
+    },
+    {
+      "id": "ss152-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You may have difficulty opening the file. If so, contact the office.",
+      "promptZh": "你可能在開啟檔案時遇到困難。如果是這樣，請聯絡辦事處。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you have difficulty opening the file, contact the office.",
+      "answerZh": "如你在開啟檔案時遇到困難，請聯絡辦事處。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you have difficulty opening the file, contact the office."
+    },
+    {
+      "id": "ss152-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If you ever visit London, take a walk along the river.",
+      "promptZh": "如果你日後到訪倫敦，可以沿河散步。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you ever visit London, take a walk along the river.",
+      "answerZh": "如你日後到訪倫敦，可以沿河散步。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you ever visit London, take a walk along the river."
+    },
+    {
+      "id": "ss152-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You may require a receipt. If so, reply to this message.",
+      "promptZh": "你可能需要收據。如果需要，請回覆這則訊息。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you require a receipt, reply to this message.",
+      "answerZh": "如你需要收據，請回覆這則訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you require a receipt, reply to this message."
+    },
+    {
+      "id": "ss152-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In the event that you are unable to attend, inform us by Friday.",
+      "promptZh": "如果你未能出席，請在星期五前通知我們。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you be unable to attend, inform us by Friday.",
+      "answerZh": "如你未能出席，請在星期五前通知我們。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you be unable to attend, inform us by Friday."
+    },
+    {
+      "id": "ss152-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If it becomes necessary for you to leave early, tell the supervisor.",
+      "promptZh": "如果你有需要提早離開，請告訴主管。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you need to leave early, tell the supervisor.",
+      "answerZh": "如你需要提早離開，請告訴主管。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you need to leave early, tell the supervisor."
+    },
+    {
+      "id": "ss152-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If you happen to find a blue wallet, hand it to security.",
+      "promptZh": "如果你碰巧找到一個藍色銀包，請把它交給保安人員。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you happen to find a blue wallet, hand it to security.",
+      "answerZh": "如你碰巧找到一個藍色銀包，請把它交給保安人員。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you happen to find a blue wallet, hand it to security."
+    },
+    {
+      "id": "ss152-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ask for clarification if you feel confused at any point.",
+      "promptZh": "如果你在任何時候感到困惑，請要求對方進一步解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you feel confused at any point, ask for clarification.",
+      "answerZh": "如你在任何時候感到困惑，請要求對方進一步解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you feel confused at any point, ask for clarification."
+    },
+    {
+      "id": "ss152-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If you do not receive a confirmation email, check your spam folder.",
+      "promptZh": "如果你沒有收到確認電郵，請查看垃圾郵件資料夾。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you not receive a confirmation email, check your spam folder.",
+      "answerZh": "如你沒有收到確認電郵，請查看垃圾郵件資料夾。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you not receive a confirmation email, check your spam folder."
+    },
+    {
+      "id": "ss152-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Complete this form if you are interested in joining the club.",
+      "promptZh": "如果你有興趣加入這個學會，請填寫這份表格。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you be interested in joining the club, complete this form.",
+      "answerZh": "如你有興趣加入這個學會，請填寫這份表格。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you be interested in joining the club, complete this form."
+    },
+    {
+      "id": "ss152-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What should you do if you require urgent assistance? Call this number.",
+      "promptZh": "如果你需要緊急協助，應該怎樣做？請致電這個號碼。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you require urgent assistance, call this number.",
+      "answerZh": "如你需要緊急協助，請致電這個號碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you require urgent assistance, call this number."
+    },
+    {
+      "id": "ss152-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You may receive a damaged package. If that happens, take a photograph before opening it.",
+      "promptZh": "你可能會收到一個損壞的包裹。如果發生這種情況，請在打開包裹前拍照。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you receive a damaged package, take a photograph before opening it.",
+      "answerZh": "如你收到一個損壞的包裹，請在打開包裹前拍照。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you receive a damaged package, take a photograph before opening it."
+    },
+    {
+      "id": "ss152-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If you wish to cancel your booking, give us at least 24 hours’ notice.",
+      "promptZh": "如果你希望取消預約，請至少提前二十四小時通知我們。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you wish to cancel your booking, give us at least 24 hours’ notice.",
+      "answerZh": "如你希望取消預約，請至少提前二十四小時通知我們。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you wish to cancel your booking, give us at least 24 hours’ notice."
+    },
+    {
+      "id": "ss152-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you have a change of address, update your account details.",
+      "promptZh": "如果你的地址有變更，請更新帳戶資料。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you have a change of address, update your account details.",
+      "answerZh": "如你的地址有變更，請更新帳戶資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you have a change of address, update your account details."
+    },
+    {
+      "id": "ss152-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you require special assistance at the airport, tell the airline in advance.",
+      "promptZh": "如果你在機場需要特別協助，請預先通知航空公司。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you require special assistance at the airport, tell the airline in advance.",
+      "answerZh": "如你在機場需要特別協助，請預先通知航空公司。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you require special assistance at the airport, tell the airline in advance."
+    },
+    {
+      "id": "ss152-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In the event that you miss the last train, use the night bus.",
+      "promptZh": "如果你錯過尾班車，請乘搭通宵巴士。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you miss the last train, use the night bus.",
+      "answerZh": "如你錯過尾班車，請乘搭通宵巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you miss the last train, use the night bus."
+    },
+    {
+      "id": "ss152-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you are asked to provide identification, show your passport or identity card.",
+      "promptZh": "如果有人要求你提供身分證明，請出示護照或身分證。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you be asked to provide identification, show your passport or identity card.",
+      "answerZh": "如有人要求你提供身分證明，請出示護照或身分證。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you be asked to provide identification, show your passport or identity card."
+    },
+    {
+      "id": "ss152-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you notice smoke in the building, leave immediately and call emergency services.",
+      "promptZh": "如果你發現大廈內有煙，請立即離開並致電緊急服務。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you notice smoke in the building, leave immediately and call emergency services.",
+      "answerZh": "如你發現大廈內有煙，請立即離開並致電緊急服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you notice smoke in the building, leave immediately and call emergency services."
+    },
+    {
+      "id": "ss152-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You might experience technical problems. If you do, restart the device.",
+      "promptZh": "你可能會遇到技術問題。如果遇到問題，請重新啟動裝置。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you experience technical problems, restart the device.",
+      "answerZh": "如你遇到技術問題，請重新啟動裝置。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you experience technical problems, restart the device."
+    },
+    {
+      "id": "ss152-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you wish to speak to a manager, ask at the customer service desk.",
+      "promptZh": "如果你希望與經理交談，請到顧客服務處提出要求。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you wish to speak to a manager, ask at the customer service desk.",
+      "answerZh": "如你希望與經理交談，請到顧客服務處提出要求。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you wish to speak to a manager, ask at the customer service desk."
+    },
+    {
+      "id": "ss152-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you cannot pay by card, try another payment method.",
+      "promptZh": "如果你未能以卡付款，請嘗試另一種付款方式。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you be unable to pay by card, try another payment method.",
+      "answerZh": "如你未能以卡付款，請嘗試另一種付款方式。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you be unable to pay by card, try another payment method."
+    },
+    {
+      "id": "ss152-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you need to return an item, bring the receipt and original packaging.",
+      "promptZh": "如果你需要退回貨品，請帶同收據及原裝包裝。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you need to return an item, bring the receipt and original packaging.",
+      "answerZh": "如你需要退回貨品，請帶同收據及原裝包裝。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you need to return an item, bring the receipt and original packaging."
+    },
+    {
+      "id": "ss152-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you have forgotten your login details, select “Forgot Password”.",
+      "promptZh": "如果你已忘記登入資料，請選擇「忘記密碼」。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you have forgotten your login details, select “Forgot Password”.",
+      "answerZh": "如你已忘記登入資料，請選擇「忘記密碼」。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you have forgotten your login details, select “Forgot Password”."
+    },
+    {
+      "id": "ss152-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you have not received the parcel within seven days, contact the courier.",
+      "promptZh": "如果你在七日內仍未收到包裹，請聯絡快遞公司。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you not have received the parcel within seven days, contact the courier.",
+      "answerZh": "如你在七日內仍未收到包裹，請聯絡快遞公司。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you not have received the parcel within seven days, contact the courier."
+    },
+    {
+      "id": "ss152-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you are offered a place on the course, reply within three working days.",
+      "promptZh": "如果你獲課程取錄，請在三個工作天內回覆。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you be offered a place on the course, reply within three working days.",
+      "answerZh": "如你獲課程取錄，請在三個工作天內回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you be offered a place on the course, reply within three working days."
+    },
+    {
+      "id": "ss152-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you find the instructions unclear, consult the diagram on page five.",
+      "promptZh": "如果你認為指示不清楚，請參閱第五頁的圖解。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you find the instructions unclear, consult the diagram on page five.",
+      "answerZh": "如你認為指示不清楚，請參閱第五頁的圖解。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you find the instructions unclear, consult the diagram on page five."
+    },
+    {
+      "id": "ss152-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If it becomes necessary for you to make a complaint, include your order number.",
+      "promptZh": "如果你有需要作出投訴，請提供訂單編號。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you need to make a complaint, include your order number.",
+      "answerZh": "如你需要作出投訴，請提供訂單編號。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you need to make a complaint, include your order number."
+    },
+    {
+      "id": "ss152-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Suppose you become separated from the group. Go to the meeting point.",
+      "promptZh": "假如你與隊伍失散，請前往集合地點。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you become separated from the group, go to the meeting point.",
+      "answerZh": "如你與隊伍失散，請前往集合地點。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you become separated from the group, go to the meeting point."
+    },
+    {
+      "id": "ss152-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Some information may be missing. If you discover this, leave the section blank.",
+      "promptZh": "部分資料可能有所遺漏。如果你發現這種情況，請把該部分留空。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you discover that some information is missing, leave the section blank.",
+      "answerZh": "如你發現部分資料有所遺漏，請把該部分留空。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you discover that some information is missing, leave the section blank."
+    },
+    {
+      "id": "ss152-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you can no longer attend the interview, notify us as soon as possible.",
+      "promptZh": "如果你不再能夠出席面試，請盡快通知我們。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you no longer be able to attend the interview, notify us as soon as possible.",
+      "answerZh": "如你不再能夠出席面試，請盡快通知我們。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you no longer be able to attend the interview, notify us as soon as possible."
+    },
+    {
+      "id": "ss152-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you experience an emergency while driving, pull over safely before using your phone.",
+      "promptZh": "如果你駕駛期間遇到緊急情況，請先安全地把車停在路旁，才使用電話。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you experience an emergency while driving, pull over safely before using your phone.",
+      "answerZh": "如你駕駛期間遇到緊急情況，請先安全地把車停在路旁，才使用電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you experience an emergency while driving, pull over safely before using your phone."
+    },
+    {
+      "id": "ss152-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If you decide not to accept the job offer, please tell us by Monday.",
+      "promptZh": "如果你決定不接受職位邀請，請在星期一前通知我們。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you decide not to accept the job offer, please tell us by Monday.",
+      "answerZh": "如你決定不接受職位邀請，請在星期一前通知我們。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you decide not to accept the job offer, please tell us by Monday."
+    },
+    {
+      "id": "ss152-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If you should require any further information about the application process, please contact our admissions team.",
+      "promptZh": "如果你需要更多有關申請程序的資料，請聯絡我們的招生組。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you require any further information about the application process, please contact our admissions team.",
+      "answerZh": "如你需要更多有關申請程序的資料，請聯絡我們的招生組。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you require any further information about the application process, please contact our admissions team."
+    },
+    {
+      "id": "ss152-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If you have already made the payment, please ignore this reminder.",
+      "promptZh": "如果你已經付款，請不用理會這則提示。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you have already made the payment, please ignore this reminder.",
+      "answerZh": "如你已經付款，請不用理會這則提示。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you have already made the payment, please ignore this reminder."
+    },
+    {
+      "id": "ss152-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In the event that you encounter a problem that cannot be solved using the online guide, submit a support request.",
+      "promptZh": "如果你遇到無法透過網上指南解決的問題，請提交支援申請。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you encounter a problem that cannot be solved using the online guide, submit a support request.",
+      "answerZh": "如你遇到無法透過網上指南解決的問題，請提交支援申請。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you encounter a problem that cannot be solved using the online guide, submit a support request."
+    },
+    {
+      "id": "ss152-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If you experience any change in your circumstances before the training programme begins, inform us so that we can update your record.",
+      "promptZh": "如果你的情況在培訓計劃開始前有任何變化，請通知我們，以便我們更新你的紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you experience any change in your circumstances before the training programme begins, inform us so that we can update your record.",
+      "answerZh": "如你的情況在培訓計劃開始前有任何變化，請通知我們，以便我們更新你的紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you experience any change in your circumstances before the training programme begins, inform us so that we can update your record."
+    },
+    {
+      "id": "ss152-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If you wish to request a reasonable adjustment for the assessment, provide supporting information in advance.",
+      "promptZh": "如果你希望為評估申請合理調整，請預先提供證明資料。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you wish to request a reasonable adjustment for the assessment, provide supporting information in advance.",
+      "answerZh": "如你希望為評估申請合理調整，請預先提供證明資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you wish to request a reasonable adjustment for the assessment, provide supporting information in advance."
+    },
+    {
+      "id": "ss152-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If you notice any unusual activity in your account, change your password and contact the bank immediately.",
+      "promptZh": "如果你發現帳戶內有任何異常活動，請更改密碼並立即聯絡銀行。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you notice any unusual activity in your account, change your password and contact the bank immediately.",
+      "answerZh": "如你發現帳戶內有任何異常活動，請更改密碼並立即聯絡銀行。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you notice any unusual activity in your account, change your password and contact the bank immediately."
+    },
+    {
+      "id": "ss152-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If you cannot complete the form electronically, you may print it and send it by post.",
+      "promptZh": "如果你未能以電子方式填寫表格，可以把表格列印出來並郵寄寄出。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you be unable to complete the form electronically, you may print it and send it by post.",
+      "answerZh": "如你未能以電子方式填寫表格，可以把表格列印出來並郵寄寄出。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you be unable to complete the form electronically, you may print it and send it by post."
+    },
+    {
+      "id": "ss152-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If you have previously applied for this position, state the date of your earlier application.",
+      "promptZh": "如果你以前曾申請這個職位，請列明上一次申請的日期。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you have previously applied for this position, state the date of your earlier application.",
+      "answerZh": "如你以前曾申請這個職位，請列明上一次申請的日期。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you have previously applied for this position, state the date of your earlier application."
+    },
+    {
+      "id": "ss152-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If you need to discuss confidential information, arrange a private meeting rather than sending it by email.",
+      "promptZh": "如果你需要討論機密資料，請安排私人會面，而不要透過電郵傳送資料。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you need to discuss confidential information, arrange a private meeting rather than sending it by email.",
+      "answerZh": "如你需要討論機密資料，請安排私人會面，而不要透過電郵傳送資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you need to discuss confidential information, arrange a private meeting rather than sending it by email."
+    },
+    {
+      "id": "ss152-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If you believe that the decision was based on incorrect information, submit an appeal together with the relevant evidence.",
+      "promptZh": "如果你認為該項決定是根據錯誤資料作出，請在提出上訴時一併提交相關證據。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should you believe that the decision was based on incorrect information, submit an appeal together with the relevant evidence.",
+      "answerZh": "如你認為該項決定是根據錯誤資料作出，請在提出上訴時一併提交相關證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Should you believe that the decision was based on incorrect information, submit an appeal together with the relevant evidence."
+    }
+  ]
+}

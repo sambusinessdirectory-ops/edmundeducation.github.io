@@ -1,0 +1,1212 @@
+{
+  "id": "ss192",
+  "order": 192,
+  "slug": "following-noun-phrase",
+  "title": "「Following + 名詞片語」表示「在……之後」",
+  "titleZh": "「Following + 名詞片語」表示「在……之後」",
+  "titleEn": "Using “Following + noun phrase”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 192 -「Following + 名詞片語」表示「在……之後」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Following + noun / noun phrase, + complete main clause",
+  "formulas": [
+    {
+      "id": "ss192-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "Following + noun / noun phrase, + complete main clause"
+    }
+  ],
+  "example": "Following the incident, new safety rules were introduced.",
+  "exampleZh": "事件發生後，新的安全規則被引入。",
+  "examples": [
+    {
+      "id": "ss192-example-01",
+      "en": "Following the incident, new safety rules were introduced.",
+      "zh": "事件發生後，新的安全規則被引入。",
+      "highlight": "Following the incident, new safety rules were introduced."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Following + noun / noun phrase, + complete main clause。"
+  },
+  "rules": [
+    {
+      "id": "ss192-rule-01",
+      "zh": "Following 在這個句型中表示 after （會議結束後，我們返回辦公室。） 在這個句型中，following 是介詞，意思是「在……之後」。",
+      "en": "In this structure, following is a preposition meaning after: Following the meeting, we returned to the office.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Following the meeting, we returned to the office."
+      ]
+    },
+    {
+      "id": "ss192-rule-02",
+      "zh": "Following 後面必須接名詞或名詞片語 如原句使用完整子句，通常需要把事件改成名詞片語：",
+      "en": "Following must be followed by a noun or noun phrase. Correct: Following the meeting, we returned to work. Incorrect: Following the meeting ended, we returned to work. If the source has a full clause, usually turn the event into a noun phrase: After the meeting ended → Following the end of the meeting; After the results were announced → Following the announcement of the results.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Correct: Following the meeting, we returned to work.",
+        "Incorrect: Following the meeting ended, we returned to work.",
+        "After the meeting ended → Following the end of the meeting",
+        "After the results were announced → Following the announcement of the results"
+      ]
+    },
+    {
+      "id": "ss192-rule-03",
+      "zh": "句首片語後要加逗號 當 Following + 名詞片語 放在句首時，片語後面通常要加逗號。",
+      "en": "Put a comma after an opening Following + noun phrase: Following the inspection, the building reopened.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Following the inspection**,** the building reopened."
+      ]
+    },
+    {
+      "id": "ss192-rule-04",
+      "zh": "Following 主要表示先後次序 Following 本身表示「某事之後」，不一定表示前一件事直接造成後一件事。 （會議結束後，丹尼爾發出了筆記。） 這句只清楚說明事情的先後次序。",
+      "en": "Following mainly shows sequence. It means that one event happened after another, but it does not necessarily mean the first event caused the second. “Following the meeting, Daniel sent the notes” states the order clearly without claiming causation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Following the meeting, Daniel sent the notes."
+      ]
+    },
+    {
+      "id": "ss192-rule-05",
+      "zh": "不要使用 following after Following 本身已包含 after 的意思，因此不需要再加入 after。",
+      "en": "Do not use following after, because following already contains the meaning of after. Incorrect: Following after the meeting, we returned to work. Correct: Following the meeting, we returned to work.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Incorrect: Following after the meeting, we returned to work.",
+        "Correct: Following the meeting, we returned to work."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss192-benefit-01",
+      "zh": "清楚交代事情的先後次序 這個句型能讓讀者立即知道哪件事先發生，以及之後發生了甚麼。",
+      "en": "It makes the order of events clear This structure tells the reader which event happened first and what happened afterwards.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss192-benefit-02",
+      "zh": "可以縮短較長的時間子句 你可以把以 after 開始的完整子句改成較簡潔的名詞片語。 兩句意思相同，但第二句更簡潔直接。",
+      "en": "It can shorten a longer time clause Instead of using a complete clause beginning with after, you can sometimes use a shorter noun phrase. Compare: After the meeting ended, Daniel sent the notes. Following the meeting, Daniel sent the notes.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss192-benefit-03",
+      "zh": "讓兩件事情自然連接 句首片語先交代背景事件，讓讀者更容易理解接下來發生的事情。",
+      "en": "It connects two events smoothly The opening phrase prepares the reader for the event that happened next.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss192-benefit-04",
+      "zh": "增加句首變化 你不需要每句都以主語或 after 開始，因此作文和報告的句式不會過分重複。",
+      "en": "It gives you another way to begin a sentence Instead of repeatedly beginning sentences with the subject or with after, you can begin with Following.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss192-benefit-05",
+      "zh": "適合報告、新聞及職場寫作 當你描述事件、決定、巡查、會議、公布或正式程序時，這個句型特別實用。",
+      "en": "It is useful in reports, news and workplace writing This structure is common when describing events, decisions, inspections, meetings, announcements and official procedures.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Following + noun / noun phrase, + complete main clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Following + noun / noun phrase, + complete main clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss192-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "After lunch, we returned to class.",
+      "promptZh": "午餐後，我們回到課室。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following lunch, we returned to class.",
+      "answerZh": "午餐後，我們回到課室。",
+      "answerZhSource": "pdf",
+      "highlight": "Following lunch, we returned to class."
+    },
+    {
+      "id": "ss192-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "When the lesson was over, Mia asked the teacher a question.",
+      "promptZh": "課堂結束後，米婭向老師問了一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the lesson, Mia asked the teacher a question.",
+      "answerZh": "課堂結束後，米婭向老師問了一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the lesson, Mia asked the teacher a question."
+    },
+    {
+      "id": "ss192-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Once the game had ended, the players shook hands.",
+      "promptZh": "比賽結束後，球員互相握手。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the game, the players shook hands.",
+      "answerZh": "比賽結束後，球員互相握手。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the game, the players shook hands."
+    },
+    {
+      "id": "ss192-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The rain stopped. Afterwards, the streets were wet.",
+      "promptZh": "雨停了。之後，街道仍然是濕的。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the rain, the streets were wet.",
+      "answerZh": "雨停後，街道仍然是濕的。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the rain, the streets were wet."
+    },
+    {
+      "id": "ss192-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "After the meeting, Daniel sent the notes to everyone.",
+      "promptZh": "會議結束後，丹尼爾把筆記發給所有人。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the meeting, Daniel sent the notes to everyone.",
+      "answerZh": "會議結束後，丹尼爾把筆記發給所有人。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the meeting, Daniel sent the notes to everyone."
+    },
+    {
+      "id": "ss192-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When the film ended, we discussed our favourite scene.",
+      "promptZh": "電影結束後，我們討論了最喜歡的場景。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the film, we discussed our favourite scene.",
+      "answerZh": "電影結束後，我們討論了最喜歡的場景。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the film, we discussed our favourite scene."
+    },
+    {
+      "id": "ss192-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ava completed the interview and then waited for the result.",
+      "promptZh": "艾娃完成面試，然後等待結果。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the interview, Ava waited for the result.",
+      "answerZh": "面試結束後，艾娃等待結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the interview, Ava waited for the result."
+    },
+    {
+      "id": "ss192-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "After the test was finished, the students took a short break.",
+      "promptZh": "測驗完成後，學生小休了一會。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the test, the students took a short break.",
+      "answerZh": "測驗完成後，學生小休了一會。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the test, the students took a short break."
+    },
+    {
+      "id": "ss192-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The concert ended. The audience then left the hall quietly.",
+      "promptZh": "音樂會結束了。觀眾之後安靜地離開禮堂。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the concert, the audience left the hall quietly.",
+      "answerZh": "音樂會結束後，觀眾安靜地離開禮堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the concert, the audience left the hall quietly."
+    },
+    {
+      "id": "ss192-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Once the repair was complete, the computer worked normally again.",
+      "promptZh": "維修完成後，電腦再次正常運作。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the repair, the computer worked normally again.",
+      "answerZh": "維修完成後，電腦再次正常運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the repair, the computer worked normally again."
+    },
+    {
+      "id": "ss192-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "After the school day ended, Leo went to football practice.",
+      "promptZh": "放學後，里奧去參加足球練習。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the end of the school day, Leo went to football practice.",
+      "answerZh": "放學後，里奧去參加足球練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the end of the school day, Leo went to football practice."
+    },
+    {
+      "id": "ss192-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Nina completed her homework. Afterwards, she watched television.",
+      "promptZh": "妮娜完成家課。之後，她看電視。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the completion of her homework, Nina watched television.",
+      "answerZh": "妮娜完成家課後看電視。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the completion of her homework, Nina watched television."
+    },
+    {
+      "id": "ss192-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "After the bus arrived, the passengers got on.",
+      "promptZh": "巴士到達後，乘客上車。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the arrival of the bus, the passengers got on.",
+      "answerZh": "巴士到達後，乘客上車。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the arrival of the bus, the passengers got on."
+    },
+    {
+      "id": "ss192-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "After the last guest left, the family cleaned the living room.",
+      "promptZh": "最後一位客人離開後，一家人清潔客廳。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the departure of the last guest, the family cleaned the living room.",
+      "answerZh": "最後一位客人離開後，一家人清潔客廳。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the departure of the last guest, the family cleaned the living room."
+    },
+    {
+      "id": "ss192-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The new library opened, and more students then began studying there.",
+      "promptZh": "新圖書館開幕，之後更多學生開始在那裏溫習。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the opening of the new library, more students began studying there.",
+      "answerZh": "新圖書館開幕後，更多學生開始在那裏溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the opening of the new library, more students began studying there."
+    },
+    {
+      "id": "ss192-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When the results were announced, the winners went on stage.",
+      "promptZh": "成績公布後，得獎者走上台。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the announcement of the results, the winners went on stage.",
+      "answerZh": "成績公布後，得獎者走上台。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the announcement of the results, the winners went on stage."
+    },
+    {
+      "id": "ss192-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The doctor examined Ben. Afterwards, Ben received some medicine.",
+      "promptZh": "醫生為本檢查。之後，本獲發了一些藥物。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the doctor’s examination, Ben received some medicine.",
+      "answerZh": "醫生檢查後，本獲發了一些藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the doctor’s examination, Ben received some medicine."
+    },
+    {
+      "id": "ss192-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The outdoor event was cancelled. The organisers then informed all participants.",
+      "promptZh": "戶外活動被取消。主辦單位之後通知所有參加者。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the cancellation of the outdoor event, the organisers informed all participants.",
+      "answerZh": "戶外活動取消後，主辦單位通知所有參加者。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the cancellation of the outdoor event, the organisers informed all participants."
+    },
+    {
+      "id": "ss192-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "After the package was delivered, Emma checked its contents.",
+      "promptZh": "包裹送達後，艾瑪檢查了裏面的物品。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the delivery of the package, Emma checked its contents.",
+      "answerZh": "包裹送達後，艾瑪檢查了裏面的物品。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the delivery of the package, Emma checked its contents."
+    },
+    {
+      "id": "ss192-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Once the shop had closed, the staff counted the day’s sales.",
+      "promptZh": "店舖關門後，員工點算當日銷售額。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the shop’s closure, the staff counted the day’s sales.",
+      "answerZh": "店舖關門後，員工點算當日銷售額。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the shop’s closure, the staff counted the day’s sales."
+    },
+    {
+      "id": "ss192-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There was a short delay before the train left the station.",
+      "promptZh": "列車在短暫延誤後駛離車站。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following a short delay, the train left the station.",
+      "answerZh": "短暫延誤後，列車駛離車站。",
+      "answerZhSource": "pdf",
+      "highlight": "Following a short delay, the train left the station."
+    },
+    {
+      "id": "ss192-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It rained heavily for several days. After that, the hillside was closed to visitors.",
+      "promptZh": "連續幾天下大雨。之後，山坡禁止遊人進入。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following several days of heavy rain, the hillside was closed to visitors.",
+      "answerZh": "連續幾天大雨後，山坡禁止遊人進入。",
+      "answerZhSource": "pdf",
+      "highlight": "Following several days of heavy rain, the hillside was closed to visitors."
+    },
+    {
+      "id": "ss192-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The timetable changed, and our class then began ten minutes earlier.",
+      "promptZh": "時間表有所更改，我們的課堂之後提早十分鐘開始。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following a change in the timetable, our class began ten minutes earlier.",
+      "answerZh": "時間表更改後，我們的課堂提早十分鐘開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Following a change in the timetable, our class began ten minutes earlier."
+    },
+    {
+      "id": "ss192-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After Marcus’s health improved, he returned to work.",
+      "promptZh": "馬庫斯健康改善後重返工作崗位。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following an improvement in his health, Marcus returned to work.",
+      "answerZh": "馬庫斯健康改善後重返工作崗位。",
+      "answerZhSource": "pdf",
+      "highlight": "Following an improvement in his health, Marcus returned to work."
+    },
+    {
+      "id": "ss192-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After a leak was discovered, the building manager called a plumber.",
+      "promptZh": "發現漏水後，大廈經理聯絡水喉匠。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the discovery of a leak, the building manager called a plumber.",
+      "answerZh": "發現漏水後，大廈經理聯絡水喉匠。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the discovery of a leak, the building manager called a plumber."
+    },
+    {
+      "id": "ss192-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The police issued a warning. Afterwards, drivers avoided the flooded road.",
+      "promptZh": "警方發出警告。之後，司機避開水浸道路。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following a warning from the police, drivers avoided the flooded road.",
+      "answerZh": "警方發出警告後，司機避開水浸道路。",
+      "answerZhSource": "pdf",
+      "highlight": "Following a warning from the police, drivers avoided the flooded road."
+    },
+    {
+      "id": "ss192-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After the broken part was replaced, the machine started working again.",
+      "promptZh": "更換損壞的零件後，機器再次運作。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the replacement of the broken part, the machine started working again.",
+      "answerZh": "更換損壞的零件後，機器再次運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the replacement of the broken part, the machine started working again."
+    },
+    {
+      "id": "ss192-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe was promoted to team leader. She then took on more responsibility.",
+      "promptZh": "克洛伊獲晉升為組長。之後，她承擔了更多責任。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following her promotion to team leader, Chloe took on more responsibility.",
+      "answerZh": "克洛伊獲晉升為組長後，承擔了更多責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Following her promotion to team leader, Chloe took on more responsibility."
+    },
+    {
+      "id": "ss192-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The report was published. Several newspapers discussed its findings afterwards.",
+      "promptZh": "報告發表後，多份報章討論其調查結果。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the publication of the report, several newspapers discussed its findings.",
+      "answerZh": "報告發表後，多份報章討論其調查結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the publication of the report, several newspapers discussed its findings."
+    },
+    {
+      "id": "ss192-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Local residents made a request, and the council later added more street lights.",
+      "promptZh": "居民提出要求，地方議會其後增設更多街燈。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following a request from local residents, the council added more street lights.",
+      "answerZh": "居民提出要求後，地方議會增設更多街燈。",
+      "answerZhSource": "pdf",
+      "highlight": "Following a request from local residents, the council added more street lights."
+    },
+    {
+      "id": "ss192-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After the final rehearsal had ended, the actors made a few small changes to the performance.",
+      "promptZh": "最後一次綵排結束後，演員對表演作了幾項小修改。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the final rehearsal, the actors made a few small changes to the performance.",
+      "answerZh": "最後一次綵排後，演員對表演作了幾項小修改。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the final rehearsal, the actors made a few small changes to the performance."
+    },
+    {
+      "id": "ss192-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The safety checks were completed before the aircraft was cleared for departure.",
+      "promptZh": "安全檢查完成後，飛機獲准起飛。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the completion of the safety checks, the aircraft was cleared for departure.",
+      "answerZh": "安全檢查完成後，飛機獲准起飛。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the completion of the safety checks, the aircraft was cleared for departure."
+    },
+    {
+      "id": "ss192-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Once the new booking system had been introduced, customers could make appointments online.",
+      "promptZh": "新預約系統推出後，顧客可以在網上預約。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the introduction of the new booking system, customers could make appointments online.",
+      "answerZh": "新預約系統推出後，顧客可以在網上預約。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the introduction of the new booking system, customers could make appointments online."
+    },
+    {
+      "id": "ss192-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ethan lost his bank card and immediately contacted the bank.",
+      "promptZh": "伊森遺失銀行卡後，立即聯絡銀行。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the loss of his bank card, Ethan immediately contacted the bank.",
+      "answerZh": "伊森遺失銀行卡後，立即聯絡銀行。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the loss of his bank card, Ethan immediately contacted the bank."
+    },
+    {
+      "id": "ss192-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After food prices rose, the restaurant adjusted its menu.",
+      "promptZh": "食物價格上升後，餐廳調整了餐牌。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following a rise in food prices, the restaurant adjusted its menu.",
+      "answerZh": "食物價格上升後，餐廳調整了餐牌。",
+      "answerZhSource": "pdf",
+      "highlight": "Following a rise in food prices, the restaurant adjusted its menu."
+    },
+    {
+      "id": "ss192-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The office discovered that some records were missing. It then began a full review.",
+      "promptZh": "辦公室發現部分紀錄遺失。之後，辦公室展開全面審查。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the discovery that some records were missing, the office began a full review.",
+      "answerZh": "辦公室發現部分紀錄遺失後，展開全面審查。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the discovery that some records were missing, the office began a full review."
+    },
+    {
+      "id": "ss192-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A passenger made a complaint, and the bus company then investigated the incident.",
+      "promptZh": "有乘客作出投訴，巴士公司之後調查事件。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following a complaint from a passenger, the bus company investigated the incident.",
+      "answerZh": "有乘客投訴後，巴士公司調查事件。",
+      "answerZhSource": "pdf",
+      "highlight": "Following a complaint from a passenger, the bus company investigated the incident."
+    },
+    {
+      "id": "ss192-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Power was restored, after which the hospital resumed normal operations.",
+      "promptZh": "電力恢復後，醫院恢復正常運作。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the restoration of power, the hospital resumed normal operations.",
+      "answerZh": "電力恢復後，醫院恢復正常運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the restoration of power, the hospital resumed normal operations."
+    },
+    {
+      "id": "ss192-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Online orders increased. The shop then hired two additional workers.",
+      "promptZh": "網上訂單增加。商店之後增聘兩名員工。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following an increase in online orders, the shop hired two additional workers.",
+      "answerZh": "網上訂單增加後，商店增聘兩名員工。",
+      "answerZhSource": "pdf",
+      "highlight": "Following an increase in online orders, the shop hired two additional workers."
+    },
+    {
+      "id": "ss192-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The programme was tested successfully, and the school later extended it to all classes.",
+      "promptZh": "計劃成功試行，學校其後把計劃擴展至所有班別。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the successful trial of the programme, the school extended it to all classes.",
+      "answerZh": "計劃試行成功後，學校把計劃擴展至所有班別。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the successful trial of the programme, the school extended it to all classes."
+    },
+    {
+      "id": "ss192-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After repairs to the main bridge were completed, traffic returned to its usual route.",
+      "promptZh": "主要橋樑維修完成後，車輛恢復使用原有路線。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the completion of repairs to the main bridge, traffic returned to its usual route.",
+      "answerZh": "主要橋樑維修完成後，車輛恢復使用原有路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the completion of repairs to the main bridge, traffic returned to its usual route."
+    },
+    {
+      "id": "ss192-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The factory reviewed the accident report and then introduced stricter safety procedures.",
+      "promptZh": "工廠檢視意外報告，然後引入更嚴格的安全程序。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following a review of the accident report, the factory introduced stricter safety procedures.",
+      "answerZh": "工廠檢視意外報告後，引入更嚴格的安全程序。",
+      "answerZhSource": "pdf",
+      "highlight": "Following a review of the accident report, the factory introduced stricter safety procedures."
+    },
+    {
+      "id": "ss192-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The airport announced that it would close temporarily. Several airlines then changed their schedules.",
+      "promptZh": "機場宣布將暫時關閉。多間航空公司之後更改航班時間表。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the announcement that the airport would close temporarily, several airlines changed their schedules.",
+      "answerZh": "機場宣布將暫時關閉後，多間航空公司更改航班時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the announcement that the airport would close temporarily, several airlines changed their schedules."
+    },
+    {
+      "id": "ss192-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After the company and its employees had completed their negotiations, both sides accepted the revised agreement.",
+      "promptZh": "公司與員工完成談判後，雙方接受修訂後的協議。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following negotiations between the company and its employees, both sides accepted the revised agreement.",
+      "answerZh": "公司與員工完成談判後，雙方接受修訂後的協議。",
+      "answerZhSource": "pdf",
+      "highlight": "Following negotiations between the company and its employees, both sides accepted the revised agreement."
+    },
+    {
+      "id": "ss192-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The research team discovered errors in the published figures. It then corrected the online report.",
+      "promptZh": "研究團隊發現已公布的數據有錯誤。之後，團隊修正了網上報告。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the discovery of errors in the published figures, the research team corrected the online report.",
+      "answerZh": "研究團隊發現已公布的數據有錯誤後，修正了網上報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the discovery of errors in the published figures, the research team corrected the online report."
+    },
+    {
+      "id": "ss192-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After a new recycling policy was introduced, waste from the office fell significantly.",
+      "promptZh": "新回收政策推出後，辦公室產生的廢物顯著減少。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the introduction of a new recycling policy, waste from the office fell significantly.",
+      "answerZh": "新回收政策推出後，辦公室產生的廢物顯著減少。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the introduction of a new recycling policy, waste from the office fell significantly."
+    },
+    {
+      "id": "ss192-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Public health officers inspected the restaurant. It was then allowed to reopen.",
+      "promptZh": "公共衞生人員巡查餐廳。餐廳之後獲准重新營業。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following an inspection by public health officers, the restaurant was allowed to reopen.",
+      "answerZh": "公共衞生人員巡查餐廳後，餐廳獲准重新營業。",
+      "answerZhSource": "pdf",
+      "highlight": "Following an inspection by public health officers, the restaurant was allowed to reopen."
+    },
+    {
+      "id": "ss192-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The missing hikers were rescued successfully. Afterwards, the search teams returned to base.",
+      "promptZh": "失蹤行山人士成功獲救。之後，搜救隊返回基地。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the successful rescue of the missing hikers, the search teams returned to base.",
+      "answerZh": "失蹤行山人士成功獲救後，搜救隊返回基地。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the successful rescue of the missing hikers, the search teams returned to base."
+    },
+    {
+      "id": "ss192-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company received a series of customer complaints about delivery delays. It then changed its courier service.",
+      "promptZh": "公司收到一連串有關送貨延誤的顧客投訴。之後，公司更換了速遞服務。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following a series of customer complaints about delivery delays, the company changed its courier service.",
+      "answerZh": "公司收到一連串有關送貨延誤的顧客投訴後，更換了速遞服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Following a series of customer complaints about delivery delays, the company changed its courier service."
+    },
+    {
+      "id": "ss192-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After the government decided to fund the project, construction work began earlier than expected.",
+      "promptZh": "政府決定資助項目後，建築工程比預期更早展開。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the government’s decision to fund the project, construction work began earlier than expected.",
+      "answerZh": "政府決定資助項目後，建築工程比預期更早展開。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the government’s decision to fund the project, construction work began earlier than expected."
+    }
+  ]
+}

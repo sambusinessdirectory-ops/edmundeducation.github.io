@@ -1,0 +1,1262 @@
+{
+  "id": "ss122",
+  "order": 122,
+  "slug": "so-neither-nor-auxiliary",
+  "title": "「So _ Neither _ Nor + Auxiliary」表示「……也是／……也不」",
+  "titleZh": "「So _ Neither _ Nor + Auxiliary」表示「……也是／……也不」",
+  "titleEn": "Using so, neither and nor with an auxiliary to express agreement",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 122 - 「So _ Neither _ Nor + Auxiliary」表示「……也是／……也不」.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Affirmative clause, and so + auxiliary verb / modal verb / be + subject",
+  "formulas": [
+    {
+      "id": "ss122-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Affirmative clause, and so + auxiliary verb / modal verb / be + subject"
+    },
+    {
+      "id": "ss122-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Negative clause, and neither + auxiliary verb / modal verb / be + subject"
+    },
+    {
+      "id": "ss122-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Negative clause, nor + auxiliary verb / modal verb / be + subject"
+    }
+  ],
+  "example": "I enjoy jazz, and so does my brother.",
+  "exampleZh": "我喜歡爵士樂，我哥哥也喜歡。",
+  "examples": [
+    {
+      "id": "ss122-example-01",
+      "en": "I enjoy jazz, and so does my brother.",
+      "zh": "我喜歡爵士樂，我哥哥也喜歡。",
+      "highlight": "and so does my brother"
+    },
+    {
+      "id": "ss122-example-02",
+      "en": "I haven’t finished, and neither has she.",
+      "zh": "我還未完成，她也未完成。",
+      "highlight": "and neither has she"
+    },
+    {
+      "id": "ss122-example-03",
+      "en": "I haven’t finished, nor has she.",
+      "zh": "我還未完成，她也未完成。",
+      "highlight": "nor has she"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss122-rule-01",
+      "zh": "So 用於肯定句；neither 和 nor 用於否定句",
+      "en": "Use so after an affirmative statement; use neither or nor after a negative statement.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Ella likes the film, and so does Sam.",
+        "Ella does not like the film, and neither does Sam.",
+        "Ella does not like the film, nor does Sam."
+      ]
+    },
+    {
+      "id": "ss122-rule-02",
+      "zh": "必須使用倒裝語序 在 so、neither 或 nor 後面，助動詞必須放在主語之前。 注意：So he does. 可以是正確句子，但它表示「他的確如此」，而不是「他也是」。這並非本課的目 標用法。",
+      "en": "Use inverted word order: after so, neither or nor, the auxiliary must come before the subject. So he does can be grammatical, but it means ‘he certainly does’, not ‘he does too’, and is not the target use in this lesson.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "So does he."
+      ]
+    },
+    {
+      "id": "ss122-rule-03",
+      "zh": "按照第一句的時態選擇助動詞 第一個句子的動詞 使用的助動詞 例子 一般現在時動詞 do / does Mia runs, and so does Leo. 一般過去時動詞 did Mia ran, and so did Leo. 情態動詞 重複相同的情態動詞 Mia can swim, and so can Leo.",
+      "en": "Choose the auxiliary to match the verb and tense of the first statement: use do or does for a present-tense lexical verb, did for a past-tense lexical verb, the corresponding form of be or have where present, and the same modal after a modal verb.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss122-rule-04",
+      "zh": "助動詞要配合新的主語 第一句使用 enjoy，但第二個主語是單數的 my brother，因此要使用 does。",
+      "en": "Make the auxiliary agree with the new subject. Although the first clause uses enjoy, the new singular subject my brother requires does.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I enjoy jazz, and so does my brother.",
+        "They enjoy jazz, and so do we."
+      ]
+    },
+    {
+      "id": "ss122-rule-05",
+      "zh": "Neither 和 nor 後面不要再加否定詞 Neither 和 nor 本身已經帶有否定意思，因此不可再使用 doesn’t、isn’t、can’t 等否定形式。",
+      "en": "Do not add another negative word after neither or nor. They already carry negative meaning, so forms such as doesn’t, isn’t and can’t must not follow them in this pattern.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I do not drive, and neither does Amy."
+      ]
+    },
+    {
+      "id": "ss122-rule-06",
+      "zh": "Neither 和 nor 在本句型中的分別 兩者都可以表示「另一方也不」。 ● and neither + auxiliary + subject 在日常表達中十分常見。 ● nor + auxiliary + subject 可以直接連接前面的否定句，語氣通常稍為正式。 兩句意思相同。",
+      "en": "Neither and nor have slightly different linking patterns in this construction, although both mean that another person or thing shares the negative situation. And neither + auxiliary + subject is very common in everyday expression; nor + auxiliary + subject can link directly to the preceding negative clause and usually sounds slightly more formal. The two versions have the same meaning.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "and neither + auxiliary + subject 在日常表達中十分常見。",
+        "nor + auxiliary + subject 可以直接連接前面的否定句，語氣通常稍為正式。"
+      ]
+    },
+    {
+      "id": "ss122-rule-07",
+      "zh": "與 Neither...nor... 句型的分別 這個句型連接兩個分句，表示第二個主語具有與第一個主語相同的情況。 第二部分使用： Neither...nor... 是成對連接詞，用來把兩個主語、受詞、動詞或其他平行成分放在同一句中，表示 「兩者都不」。 主要分別是： ● neither...nor... 把兩個項目組成一個完整結構。 ● neither / nor + auxiliary 先提出第一個情況，再表示另一個主語「也不」。 ● neither / nor + auxiliary 必須使用助動詞倒裝。 ● neither...nor... 不使用這種「助動詞＋主語」的附和倒裝結構。",
+      "en": "Do not confuse this agreement pattern with the correlative neither...nor structure. The target pattern links two clauses and says that the second subject shares the first subject’s situation, using neither or nor + auxiliary + subject. Correlative neither...nor joins two subjects, objects, verbs or other parallel elements into one structure meaning ‘neither one nor the other’. Thus neither...nor groups two items without agreement inversion, while neither or nor + auxiliary first states one situation, then says that another subject shares it, and requires auxiliary-subject inversion.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "neither...nor... 把兩個項目組成一個完整結構。",
+        "neither / nor + auxiliary 先提出第一個情況，再表示另一個主語「也不」。",
+        "neither / nor + auxiliary 必須使用助動詞倒裝。",
+        "neither...nor... 不使用這種「助動詞＋主語」的附和倒裝結構。",
+        "Amy cannot swim, and neither can Ben.",
+        "Neither Amy nor Ben can swim.",
+        "Neither the manager nor the employees were happy."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss122-benefit-01",
+      "zh": "避免重複整個動作 使用這個句型後，不需要重複 enjoys jazz，使句子更簡潔。",
+      "en": "It avoids repeating the whole action, such as enjoys jazz, and therefore makes the sentence more concise.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss122-benefit-02",
+      "zh": "清楚表示兩者的情況相同 So 清楚表示另一方具有相同的肯定情況；neither 和 nor 則清楚表示另一方具有相同的否定情 況。",
+      "en": "It clearly shows that two people or things share the same situation: so marks a shared affirmative situation, while neither and nor mark a shared negative one.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The students were ready, and so was the teacher.",
+        "The students were not ready, and neither was the teacher."
+      ]
+    },
+    {
+      "id": "ss122-benefit-03",
+      "zh": "讓對話聽起來更自然 這些結構是英語會話中常見的附和方式。 掌握這個句型後，你可以更自然地回應別人的經歷、喜好和意見。",
+      "en": "It makes conversation sound more natural. These are common English ways of agreeing with another person’s experience, preference or opinion, so mastering them helps you respond more naturally.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss122-benefit-04",
+      "zh": "幫助連接相關內容 這個句型能把兩個具有相同情況的人或事物連接起來，使文章更連貫，而不是寫成多個重複的短 句。",
+      "en": "It helps connect related information by linking people or things that share a situation, producing a more coherent passage instead of several repetitive short sentences.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss122-benefit-05",
+      "zh": "幫助掌握助動詞和時態 使用這個句型時，學生需要判斷應使用 do、does、did、is、were、has、can、will 等形式。因此，它 亦能加強學生對時態、主謂一致和情態動詞的掌握。",
+      "en": "It reinforces auxiliaries and tense because students must choose among forms such as do, does, did, is, were, has, can and will, strengthening their control of tense, subject-verb agreement and modal verbs.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using so, neither, or nor followed by an auxiliary verb. Do not repeat the shared verb phrase.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 so、neither 或 nor＋助動詞 改寫以下句子。不要重複兩者共有的動詞部分。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss122-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I like classical music, and my brother likes it too.",
+      "promptZh": "我喜歡古典音樂，我哥哥也喜歡。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I like classical music, and so does my brother.",
+      "answerZh": "我喜歡古典音樂，我哥哥也喜歡。",
+      "answerZhSource": "pdf",
+      "highlight": "I like classical music, and so does my brother."
+    },
+    {
+      "id": "ss122-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Emma is tired, and Mia is tired as well.",
+      "promptZh": "艾瑪很累，米婭也很累。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma is tired, and so is Mia.",
+      "answerZh": "艾瑪很累，米婭也是。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma is tired, and so is Mia."
+    },
+    {
+      "id": "ss122-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We can swim, and our neighbours can too.",
+      "promptZh": "我們會游泳，我們的鄰居也會。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can swim, and so can our neighbours.",
+      "answerZh": "我們會游泳，我們的鄰居也會。",
+      "answerZhSource": "pdf",
+      "highlight": "We can swim, and so can our neighbours."
+    },
+    {
+      "id": "ss122-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Tom went to the library, and Jack also went there.",
+      "promptZh": "湯姆去了圖書館，傑克也去了。",
+      "promptZhSource": "pdf",
+      "starter": "Tom",
+      "answer": "Tom went to the library, and so did Jack.",
+      "answerZh": "湯姆去了圖書館，傑克也去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom went to the library, and so did Jack."
+    },
+    {
+      "id": "ss122-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sarah does not eat meat, and her brother does not eat meat either.",
+      "promptZh": "莎拉不吃肉，她的弟弟也不吃肉。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah does not eat meat, and neither does her brother.",
+      "answerZh": "莎拉不吃肉，她的弟弟也不吃。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah does not eat meat, and neither does her brother."
+    },
+    {
+      "id": "ss122-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I am not ready, and my cousin is not ready either.",
+      "promptZh": "我還未準備好，我的表親也未準備好。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I am not ready, and neither is my cousin.",
+      "answerZh": "我還未準備好，我的表親也未準備好。",
+      "answerZhSource": "pdf",
+      "highlight": "I am not ready, and neither is my cousin."
+    },
+    {
+      "id": "ss122-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "They have finished the project, and we have finished it too.",
+      "promptZh": "他們已完成這個項目，我們也完成了。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They have finished the project, and so have we.",
+      "answerZh": "他們已完成這個項目，我們也完成了。",
+      "answerZhSource": "pdf",
+      "highlight": "They have finished the project, and so have we."
+    },
+    {
+      "id": "ss122-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben was excited, and Leo was excited as well.",
+      "promptZh": "本感到興奮，里奧也感到興奮。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben was excited, and so was Leo.",
+      "answerZh": "本感到興奮，里奧也是。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben was excited, and so was Leo."
+    },
+    {
+      "id": "ss122-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Maya will not join the trip, and Chloe will not join it either.",
+      "promptZh": "瑪雅不會參加這次旅行，克洛伊也不會參加。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya will not join the trip, and neither will Chloe.",
+      "answerZh": "瑪雅不會參加這次旅行，克洛伊也不會。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya will not join the trip, and neither will Chloe."
+    },
+    {
+      "id": "ss122-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The bus arrived late, and the train arrived late too.",
+      "promptZh": "巴士遲到了，火車也遲到了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus arrived late, and so did the train.",
+      "answerZh": "巴士遲到了，火車也遲到了。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus arrived late, and so did the train."
+    },
+    {
+      "id": "ss122-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My aunt works at the hospital, and my uncle works there too.",
+      "promptZh": "我的姨母在醫院工作，我的姨丈也在那裏工作。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My aunt works at the hospital, and so does my uncle.",
+      "answerZh": "我的姨母在醫院工作，我的姨丈也是。",
+      "answerZhSource": "pdf",
+      "highlight": "My aunt works at the hospital, and so does my uncle."
+    },
+    {
+      "id": "ss122-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The twins are studying in the library, and their friends are also studying there.",
+      "promptZh": "這對雙胞胎正在圖書館溫習，他們的朋友也正在那裏溫習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The twins are studying in the library, and so are their friends.",
+      "answerZh": "這對雙胞胎正在圖書館溫習，他們的朋友也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The twins are studying in the library, and so are their friends."
+    },
+    {
+      "id": "ss122-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Olivia has never seen snow, and Noah has never seen it either.",
+      "promptZh": "奧莉花從未見過雪，諾亞也從未見過。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia has never seen snow, and neither has Noah.",
+      "answerZh": "奧莉花從未見過雪，諾亞也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia has never seen snow, and neither has Noah."
+    },
+    {
+      "id": "ss122-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Daniel could solve the puzzle, and Grace could solve it too.",
+      "promptZh": "丹尼爾能夠解開這個謎題，格蕾絲也能夠解開。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel could solve the puzzle, and so could Grace.",
+      "answerZh": "丹尼爾能夠解開這個謎題，格蕾絲也能夠。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel could solve the puzzle, and so could Grace."
+    },
+    {
+      "id": "ss122-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We were not invited to the dinner, and the other team was not invited either.",
+      "promptZh": "我們沒有獲邀參加晚宴，另一隊也沒有獲邀。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We were not invited to the dinner, and neither was the other team.",
+      "answerZh": "我們沒有獲邀參加晚宴，另一隊也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "We were not invited to the dinner, and neither was the other team."
+    },
+    {
+      "id": "ss122-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Lily should apologise to the teacher, and Ethan should apologise too.",
+      "promptZh": "莉莉應該向老師道歉，伊森也應該道歉。",
+      "promptZhSource": "pdf",
+      "starter": "Lily",
+      "answer": "Lily should apologise to the teacher, and so should Ethan.",
+      "answerZh": "莉莉應該向老師道歉，伊森也應該。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily should apologise to the teacher, and so should Ethan."
+    },
+    {
+      "id": "ss122-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children had left the playground, and the teacher had left it too.",
+      "promptZh": "孩子們已經離開遊樂場，老師也已經離開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children had left the playground, and so had the teacher.",
+      "answerZh": "孩子們已經離開遊樂場，老師也已經離開。",
+      "answerZhSource": "pdf",
+      "highlight": "The children had left the playground, and so had the teacher."
+    },
+    {
+      "id": "ss122-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My phone is not working, and the printer is not working either.",
+      "promptZh": "我的電話不能運作，打印機也不能運作。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My phone is not working, and neither is the printer.",
+      "answerZh": "我的電話不能運作，打印機也不能。",
+      "answerZhSource": "pdf",
+      "highlight": "My phone is not working, and neither is the printer."
+    },
+    {
+      "id": "ss122-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Jack usually cycles to work. His manager cycles to work too.",
+      "promptZh": "傑克通常踩單車上班。他的經理也踩單車上班。",
+      "promptZhSource": "pdf",
+      "starter": "Jack",
+      "answer": "Jack usually cycles to work, and so does his manager.",
+      "answerZh": "傑克通常踩單車上班，他的經理也是。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack usually cycles to work, and so does his manager."
+    },
+    {
+      "id": "ss122-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Aisha did not understand the instructions. Marcus did not understand them either.",
+      "promptZh": "艾莎不明白指示，馬庫斯也不明白。",
+      "promptZhSource": "pdf",
+      "starter": "Aisha",
+      "answer": "Aisha did not understand the instructions, nor did Marcus.",
+      "answerZh": "艾莎不明白指示，馬庫斯也不明白。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha did not understand the instructions, nor did Marcus."
+    },
+    {
+      "id": "ss122-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Both the science club and the art club meet on Fridays.",
+      "promptZh": "科學學會和美術學會都在星期五聚會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science club meets on Fridays, and so does the art club.",
+      "answerZh": "科學學會在星期五聚會，美術學會也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The science club meets on Fridays, and so does the art club."
+    },
+    {
+      "id": "ss122-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Neither Lucy nor her sister has visited Japan.",
+      "promptZh": "露西和她的姊妹都沒有去過日本。",
+      "promptZhSource": "pdf",
+      "starter": "Lucy",
+      "answer": "Lucy has not visited Japan, and neither has her sister.",
+      "answerZh": "露西沒有去過日本，她的姊妹也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "Lucy has not visited Japan, and neither has her sister."
+    },
+    {
+      "id": "ss122-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Both the school team and the visiting team were practising in the sports hall.",
+      "promptZh": "校隊和客隊都正在體育館練習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school team was practising in the sports hall, and so was the visiting team.",
+      "answerZh": "校隊正在體育館練習，客隊也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The school team was practising in the sports hall, and so was the visiting team."
+    },
+    {
+      "id": "ss122-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Neither the manager nor the assistant can attend the meeting.",
+      "promptZh": "經理和助理都不能出席會議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager cannot attend the meeting, nor can the assistant.",
+      "answerZh": "經理不能出席會議，助理也不能。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager cannot attend the meeting, nor can the assistant."
+    },
+    {
+      "id": "ss122-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Both the old computer and the new tablet can run the same program.",
+      "promptZh": "舊電腦和新平板電腦都能運行同一個程式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old computer can run the same program, and so can the new tablet.",
+      "answerZh": "舊電腦能運行同一個程式，新平板電腦也能。",
+      "answerZhSource": "pdf",
+      "highlight": "The old computer can run the same program, and so can the new tablet."
+    },
+    {
+      "id": "ss122-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Neither my parents nor I had heard the news before today.",
+      "promptZh": "在今天之前，我的父母和我都未聽過這個消息。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My parents had not heard the news before today, and neither had I.",
+      "answerZh": "在今天之前，我的父母未聽過這個消息，我也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "My parents had not heard the news before today, and neither had I."
+    },
+    {
+      "id": "ss122-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Both the café and the bakery accept card payments.",
+      "promptZh": "咖啡店和麵包店都接受信用卡付款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café accepts card payments, and so does the bakery.",
+      "answerZh": "咖啡店接受信用卡付款，麵包店也接受。",
+      "answerZhSource": "pdf",
+      "highlight": "The café accepts card payments, and so does the bakery."
+    },
+    {
+      "id": "ss122-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The north road is not safe at night, and the south road is not safe either.",
+      "promptZh": "北面的道路在晚上不安全，南面的道路也不安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The north road is not safe at night, nor is the south road.",
+      "answerZh": "北面的道路在晚上不安全，南面的道路也不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The north road is not safe at night, nor is the south road."
+    },
+    {
+      "id": "ss122-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Both Amy and her cousin have applied for the course.",
+      "promptZh": "艾米和她的表親都已申請這個課程。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy has applied for the course, and so has her cousin.",
+      "answerZh": "艾米已申請這個課程，她的表親也已申請。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy has applied for the course, and so has her cousin."
+    },
+    {
+      "id": "ss122-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Neither the blue jacket nor the black one fits me properly.",
+      "promptZh": "藍色外套和黑色外套都不合我的身。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue jacket does not fit me properly, and neither does the black one.",
+      "answerZh": "藍色外套不合我的身，黑色外套也不合身。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue jacket does not fit me properly, and neither does the black one."
+    },
+    {
+      "id": "ss122-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report was checked by the editor, and the tables were checked by the editor as well.",
+      "promptZh": "報告由編輯檢查，表格也由編輯檢查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report was checked by the editor, and so were the tables.",
+      "answerZh": "報告由編輯檢查，表格也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was checked by the editor, and so were the tables."
+    },
+    {
+      "id": "ss122-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The museum is being renovated this summer, and the library is being renovated too.",
+      "promptZh": "博物館今年夏天正在翻新，圖書館也正在翻新。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum is being renovated this summer, and so is the library.",
+      "answerZh": "博物館今年夏天正在翻新，圖書館也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is being renovated this summer, and so is the library."
+    },
+    {
+      "id": "ss122-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team has not reached a final decision, and the committee has not reached one either.",
+      "promptZh": "團隊尚未作出最終決定，委員會也尚未作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team has not reached a final decision, nor has the committee.",
+      "answerZh": "團隊尚未作出最終決定，委員會也尚未作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The team has not reached a final decision, nor has the committee."
+    },
+    {
+      "id": "ss122-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You must wear a helmet on the bicycle, and your passenger must wear one too.",
+      "promptZh": "你踩單車時必須戴頭盔，你的乘客也必須戴頭盔。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You must wear a helmet on the bicycle, and so must your passenger.",
+      "answerZh": "你踩單車時必須戴頭盔，你的乘客也必須戴。",
+      "answerZhSource": "pdf",
+      "highlight": "You must wear a helmet on the bicycle, and so must your passenger."
+    },
+    {
+      "id": "ss122-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The lights had not been switched off before closing time, and the computers had not been switched off either.",
+      "promptZh": "在關門時間前，燈沒有被關掉，電腦也沒有被關掉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights had not been switched off before closing time, nor had the computers.",
+      "answerZh": "在關門時間前，燈沒有被關掉，電腦也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights had not been switched off before closing time, nor had the computers."
+    },
+    {
+      "id": "ss122-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I would support the proposal under these conditions, and my colleagues would support it too.",
+      "promptZh": "在這些條件下，我會支持這項建議，我的同事也會支持。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would support the proposal under these conditions, and so would my colleagues.",
+      "answerZh": "在這些條件下，我會支持這項建議，我的同事也會。",
+      "answerZhSource": "pdf",
+      "highlight": "I would support the proposal under these conditions, and so would my colleagues."
+    },
+    {
+      "id": "ss122-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Ava may be working from home today, and Daniel may be working from home as well.",
+      "promptZh": "艾娃今天可能正在家中工作，丹尼爾也可能正在家中工作。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava may be working from home today, and so may Daniel.",
+      "answerZh": "艾娃今天可能正在家中工作，丹尼爾也可能正在家中工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava may be working from home today, and so may Daniel."
+    },
+    {
+      "id": "ss122-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The new app does not store users’ passwords, and the website does not store them either.",
+      "promptZh": "新的應用程式不會儲存用戶的密碼，網站也不會儲存。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new app does not store users’ passwords, and neither does the website.",
+      "answerZh": "新的應用程式不會儲存用戶的密碼，網站也不會。",
+      "answerZhSource": "pdf",
+      "highlight": "The new app does not store users’ passwords, and neither does the website."
+    },
+    {
+      "id": "ss122-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The hospital will introduce online booking next month, and the clinic will introduce it too.",
+      "promptZh": "醫院下個月將推出網上預約，診所也會推出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital will introduce online booking next month, and so will the clinic.",
+      "answerZh": "醫院下個月將推出網上預約，診所也會。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital will introduce online booking next month, and so will the clinic."
+    },
+    {
+      "id": "ss122-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We should not ignore the warning signs, and the event organisers should not ignore them either.",
+      "promptZh": "我們不應忽視警告訊號，活動主辦者也不應忽視。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should not ignore the warning signs, nor should the event organisers.",
+      "answerZh": "我們不應忽視警告訊號，活動主辦者也不應忽視。",
+      "answerZhSource": "pdf",
+      "highlight": "We should not ignore the warning signs, nor should the event organisers."
+    },
+    {
+      "id": "ss122-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school has introduced recycling bins on every floor, and the community centre has done the same.",
+      "promptZh": "學校已在每一層設置回收箱，社區中心也採取了相同做法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has introduced recycling bins on every floor, and so has the community centre.",
+      "answerZh": "學校已在每一層設置回收箱，社區中心也已這樣做。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has introduced recycling bins on every floor, and so has the community centre."
+    },
+    {
+      "id": "ss122-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Neither the morning flight nor the evening flight has been cancelled because of the storm.",
+      "promptZh": "早上的航班和晚上的航班都沒有因暴風雨而取消。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The morning flight has not been cancelled because of the storm, nor has the evening flight.",
+      "answerZh": "早上的航班沒有因暴風雨而取消，晚上的航班也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The morning flight has not been cancelled because of the storm, nor has the evening flight."
+    },
+    {
+      "id": "ss122-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Both the sales team and the customer service team are receiving extra training this month.",
+      "promptZh": "銷售團隊和顧客服務團隊本月都正在接受額外培訓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sales team is receiving extra training this month, and so is the customer service team.",
+      "answerZh": "銷售團隊本月正在接受額外培訓，顧客服務團隊也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The sales team is receiving extra training this month, and so is the customer service team."
+    },
+    {
+      "id": "ss122-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The doctor could not explain the sudden change in the patient’s condition, and the nurse could not explain it either.",
+      "promptZh": "醫生無法解釋病人情況的突然變化，護士也無法解釋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor could not explain the sudden change in the patient’s condition, and neither could the nurse.",
+      "answerZh": "醫生無法解釋病人情況的突然變化，護士也無法解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor could not explain the sudden change in the patient’s condition, and neither could the nurse."
+    },
+    {
+      "id": "ss122-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The city council plans to improve access for cyclists, and the local university plans to do the same.",
+      "promptZh": "市議會計劃改善單車使用者的通行條件，當地大學也有相同計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city council plans to improve access for cyclists, and so does the local university.",
+      "answerZh": "市議會計劃改善單車使用者的通行條件，當地大學也有相同計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The city council plans to improve access for cyclists, and so does the local university."
+    },
+    {
+      "id": "ss122-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Neither the old rules nor the revised policy will solve the problem completely.",
+      "promptZh": "舊規則和修訂後的政策都不能徹底解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old rules will not solve the problem completely, nor will the revised policy.",
+      "answerZh": "舊規則不能徹底解決問題，修訂後的政策也不能。",
+      "answerZhSource": "pdf",
+      "highlight": "The old rules will not solve the problem completely, nor will the revised policy."
+    },
+    {
+      "id": "ss122-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The students who joined the workshop have completed the feedback survey, and the teachers who attended have completed it too.",
+      "promptZh": "參加工作坊的學生已完成意見調查，出席的老師也已完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students who joined the workshop have completed the feedback survey, and so have the teachers who attended.",
+      "answerZh": "參加工作坊的學生已完成意見調查，出席的老師也已完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The students who joined the workshop have completed the feedback survey, and so have the teachers who attended."
+    },
+    {
+      "id": "ss122-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The backup system was not tested before the launch, and the emergency plan was not tested either.",
+      "promptZh": "後備系統在推出前沒有經過測試，緊急應變計劃也沒有經過測試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The backup system was not tested before the launch, nor was the emergency plan.",
+      "answerZh": "後備系統在推出前沒有經過測試，緊急應變計劃也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The backup system was not tested before the launch, nor was the emergency plan."
+    },
+    {
+      "id": "ss122-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Our team may need more time to finish the analysis, and the finance team may need more time too.",
+      "promptZh": "我們的團隊可能需要更多時間完成分析，財務團隊也可能需要更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team may need more time to finish the analysis, and so may the finance team.",
+      "answerZh": "我們的團隊可能需要更多時間完成分析，財務團隊也可能需要更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team may need more time to finish the analysis, and so may the finance team."
+    },
+    {
+      "id": "ss122-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The new library will offer free evening classes for adults who work during the day, and the community centre will offer them as well.",
+      "promptZh": "新圖書館將為日間工作的成年人提供免費夜間課程，社區中心也會提供這些課程。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new library will offer free evening classes for adults who work during the day, and so will the community centre.",
+      "answerZh": "新圖書館將為日間工作的成年人提供免費夜間課程，社區中心也會。",
+      "answerZhSource": "pdf",
+      "highlight": "The new library will offer free evening classes for adults who work during the day, and so will the community centre."
+    }
+  ]
+}

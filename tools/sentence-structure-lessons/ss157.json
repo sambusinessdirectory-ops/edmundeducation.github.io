@@ -1,0 +1,1245 @@
+{
+  "id": "ss157",
+  "order": 157,
+  "slug": "assuming-that",
+  "title": "Assuming that",
+  "titleZh": "「Assuming that…」假設前提句",
+  "titleEn": "Using Assuming that to introduce an accepted assumption",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 157 -「Assuming that…」假設前提句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Assuming that + subject + verb, + main clause",
+  "formulas": [
+    {
+      "id": "ss157-formula-01",
+      "labelEn": "Assumption first",
+      "labelZh": "句首形式",
+      "formula": "Assuming that + subject + verb, + main clause"
+    },
+    {
+      "id": "ss157-formula-02",
+      "labelEn": "Assumption last",
+      "labelZh": "句末形式",
+      "formula": "Main clause, + assuming that + subject + verb"
+    }
+  ],
+  "example": "Assuming that the data is accurate, the strategy seems reasonable.",
+  "exampleZh": "假設數據準確，這項策略看來是合理的。",
+  "examples": [
+    {
+      "id": "ss157-example-01",
+      "en": "Assuming that the data is accurate, the strategy seems reasonable.",
+      "zh": "假設數據準確，這項策略看來是合理的。",
+      "highlight": "Assuming that the data is accurate, the strategy seems reasonable."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss157-rule-01",
+      "zh": "That 後面必須接完整子句 that 後面需要有主語和動詞。 （假設天氣好轉，我們明天便會出發。）",
+      "en": "That must be followed by a complete clause containing a subject and a verb: Assuming that the weather improves, we will leave tomorrow, not Assuming that better weather ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Assuming that the weather improves, we will leave tomorrow.",
+        "Assuming that better weather, we will leave tomorrow."
+      ]
+    },
+    {
+      "id": "ss157-rule-02",
+      "zh": "談及未來時，假設子句通常使用現在式 即使事情會在未來發生，assuming that 後面通常使用現在式，而主句可以使用 will、may、can 或 should。",
+      "en": "When referring to the future, normally use the present tense in the assumption clause. Even when the event is in the future, assuming that is usually followed by a present form, while the main clause may use will, may, can or should.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Assuming that the train arrives on time, we will reach the airport early.",
+        "Assuming that the train will arrive on time, we will reach the airport early."
+      ]
+    },
+    {
+      "id": "ss157-rule-03",
+      "zh": "放在句首時，後面通常加逗號 放在句末時，主句與假設部分之間也通常使用逗號：",
+      "en": "When the assumption comes first, normally place a comma after it. When it comes at the end, a comma also normally separates the main clause from the assumption.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Assuming that the shop is open**,** we can buy some bread.",
+        "We can buy some bread**,** assuming that the shop is open."
+      ]
+    },
+    {
+      "id": "ss157-rule-04",
+      "zh": "可以使用否定形式 （假設不下雨，比賽便會繼續。）",
+      "en": "A negative assumption is possible. For example: Assuming that it does not rain, the match will continue.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Assuming that + subject + does not / is not / cannot...",
+        "Assuming that it does not rain, the match will continue."
+      ]
+    },
+    {
+      "id": "ss157-rule-05",
+      "zh": "Assuming that 不表示前提一定是真的 這個句型只是暫時把某件事當作真實，以便繼續討論。它並不是在確認該事情一定會發生。 （假設數字正確，公司便錄得盈利。） 說話者仍然可能需要核實這些數字。",
+      "en": "Assuming that does not mean the assumption is certainly true. It treats something as true temporarily so that the discussion can continue; it does not confirm that the event will happen. In Assuming that the figures are correct, the company made a profit, the figures may still need to be checked.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Assuming that the figures are correct, the company made a profit."
+      ]
+    },
+    {
+      "id": "ss157-rule-06",
+      "zh": "Assuming that 與 Supposing that 的分別 兩者都可以表示「假設／假如」，而且在不少句子中可以互換。不過，它們通常有以下語氣差別： 較常用於把某個條件當作一個暫時的工作前提，再進行分析、計算、計劃或判斷。它的語氣通常 較中性，也較常見於會議、報告和正式討論。 （假設數據準確，這項策略看來是合理的。） 這句的重點是：先暫時接受數據準確，再判斷策略是否合理。 通常較有「假如真的發生……會怎樣？」的探索意味，語氣往往較口語化，尤其常用來提出假設性 問題。 （假如計劃失敗，我們下一步會是甚麼？） 這句的重點是：想像一個可能出現的情況，並探索應對方法。 簡單分辨 Assuming that：先接受一個前提，再作推論。 Supposing that：提出一個假想情況，再探索可能結果。 這是常見的語氣傾向，並非絕對的文法規則。 在本練習中，所有答案必須保留完整形式 assuming that，不可省略 that。",
+      "en": "Assuming that and Supposing that can both mean “assuming” or “supposing” and are interchangeable in many sentences, but they tend to differ in tone. Assuming that more often treats a condition as a temporary working premise for analysis, calculation, planning or judgement; it is usually more neutral and more common in meetings, reports and formal discussion. In Assuming that the data is accurate, the strategy seems reasonable, the data is provisionally accepted before the strategy is judged. Supposing that more often has the exploratory sense of “what if this really happens?”, is often more conversational, and is especially common in hypothetical questions. In Supposing that the plan fails, what would be our next step?, the speaker imagines a possible situation and explores a response. Put simply, Assuming that accepts a premise and then draws an inference, while Supposing that presents an imagined situation and explores a possible result. This is a common tendency, not an absolute grammatical rule. In this exercise, every answer must retain the full form assuming that; do not omit that.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Assuming that the data is accurate, the strategy seems reasonable.",
+        "Supposing that the plan fails, what would be our next step?",
+        "Assuming that：",
+        "Supposing that："
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss157-benefit-01",
+      "zh": "清楚說明推論所依據的條件 這個句型能先告訴讀者「以下結論是基於甚麼前提」，讓兩個意思之間的關係更清楚。 （假設道路暢通，我們便會在中午前到達。） 讀者可以立即明白，準時到達的預測是以道路暢通為前提。",
+      "en": "It makes the condition underlying an inference clear. The structure tells the reader which premise supports the following conclusion. In Assuming that the road is clear, we will arrive before noon, the reader can immediately see that the prediction of arriving on time depends on the road being clear.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Assuming that the road is clear, we will arrive before noon."
+      ]
+    },
+    {
+      "id": "ss157-benefit-02",
+      "zh": "避免把未經證實的事情說成事實 當資料仍未完全確認時，你可以使用這個句型，表明你的結論只是建基於某個假設。 （假設報告正確，上月的銷售額便有所上升。） 這比直接說「Sales increased」更加謹慎和準確。",
+      "en": "It helps you avoid presenting unverified information as fact. When information has not been fully confirmed, the structure shows that the conclusion rests on an assumption. Assuming that the report is correct, sales increased last month is more cautious and accurate than simply saying Sales increased.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Assuming that the report is correct, sales increased last month."
+      ]
+    },
+    {
+      "id": "ss157-benefit-03",
+      "zh": "適合用於計劃和解決問題 你可以先設定一個可能成立的條件，再討論下一步行動。 （假設所有人都同意，我們便可以在下星期開始這個項目。） 這種表達方式適合會議、團隊討論、商業計劃及日常安排。",
+      "en": "It is useful for planning and problem-solving. You can establish a condition that may hold and then discuss the next action. Assuming that everyone agrees, we can begin the project next week is suitable in meetings, team discussions, business planning and everyday arrangements.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Assuming that everyone agrees, we can begin the project next week."
+      ]
+    },
+    {
+      "id": "ss157-benefit-04",
+      "zh": "把較長的說法縮短 兩句意思相同，但第二句省略了 If we assume，表達更加直接。",
+      "en": "It can shorten a longer expression. If we assume that the data is accurate, the strategy seems reasonable and Assuming that the data is accurate, the strategy seems reasonable have the same meaning, but the second omits If we assume and is more direct.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If we assume that the data is accurate, the strategy seems reasonable.",
+        "Assuming that the data is accurate, the strategy seems reasonable."
+      ]
+    },
+    {
+      "id": "ss157-benefit-05",
+      "zh": "增加句式變化 你可以把假設放在句首，先突出前提；也可以把它放在句末，先說出主要結論。 這能避免每個條件句都以 if 開始，令說話和寫作不會過於重複。",
+      "en": "It gives you another way to organise a sentence. Put the assumption first to foreground the premise, or place it last to state the main conclusion first. This also avoids beginning every conditional sentence with if and makes speaking and writing less repetitive.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Assuming that the weather improves, we will leave tomorrow.",
+        "We will leave tomorrow, assuming that the weather improves."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Assuming that.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Assuming that 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss157-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If the shop is open, we can buy some bread.",
+      "promptZh": "如果商店正在營業，我們便可以買些麵包。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the shop is open, we can buy some bread.",
+      "answerZh": "假設商店正在營業，我們便可以買些麵包。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the shop is open, we can buy some bread."
+    },
+    {
+      "id": "ss157-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Provided that the weather stays dry, we will walk to school.",
+      "promptZh": "只要天氣保持乾爽，我們便會步行上學。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the weather stays dry, we will walk to school.",
+      "answerZh": "假設天氣保持乾爽，我們便會步行上學。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the weather stays dry, we will walk to school."
+    },
+    {
+      "id": "ss157-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia will finish the book tonight if she has enough time.",
+      "promptZh": "如果米婭有足夠時間，她今晚便會看完這本書。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia will finish the book tonight, assuming that she has enough time.",
+      "answerZh": "假設米婭有足夠時間，她今晚便會看完這本書。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia will finish the book tonight, assuming that she has enough time."
+    },
+    {
+      "id": "ss157-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Supposing that it is not too cold, we can sit outside.",
+      "promptZh": "假如天氣不太冷，我們便可以坐在戶外。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can sit outside, assuming that it is not too cold.",
+      "answerZh": "假設天氣不太冷，我們便可以坐在戶外。",
+      "answerZhSource": "pdf",
+      "highlight": "We can sit outside, assuming that it is not too cold."
+    },
+    {
+      "id": "ss157-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben will reach work before nine on the assumption that the bus arrives on time.",
+      "promptZh": "本預計會在九時前到達工作地點，前提是巴士準時到達。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the bus arrives on time, Ben will reach work before nine.",
+      "answerZh": "假設巴士準時到達，本便會在九時前到達工作地點。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the bus arrives on time, Ben will reach work before nine."
+    },
+    {
+      "id": "ss157-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If we assume that the answer is correct, you can move to the next question.",
+      "promptZh": "如果我們假設答案正確，你便可以繼續做下一題。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the answer is correct, you can move to the next question.",
+      "answerZh": "假設答案正確，你便可以繼續做下一題。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the answer is correct, you can move to the next question."
+    },
+    {
+      "id": "ss157-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The picnic will go ahead provided that it does not rain.",
+      "promptZh": "只要不下雨，野餐便會如期舉行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The picnic will go ahead, assuming that it does not rain.",
+      "answerZh": "假設不下雨，野餐便會如期舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The picnic will go ahead, assuming that it does not rain."
+    },
+    {
+      "id": "ss157-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Suppose Lily feels better tomorrow. She will return to school.",
+      "promptZh": "假設莉莉明天感覺好一點，她便會返回學校。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that Lily feels better tomorrow, she will return to school.",
+      "answerZh": "假設莉莉明天感覺好一點，她便會返回學校。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that Lily feels better tomorrow, she will return to school."
+    },
+    {
+      "id": "ss157-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We can open the cupboard if the key fits.",
+      "promptZh": "如果鑰匙合用，我們便可以打開櫥櫃。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can open the cupboard, assuming that the key fits.",
+      "answerZh": "假設鑰匙合用，我們便可以打開櫥櫃。",
+      "answerZhSource": "pdf",
+      "highlight": "We can open the cupboard, assuming that the key fits."
+    },
+    {
+      "id": "ss157-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Let us assume that ten people come. We will have enough chairs.",
+      "promptZh": "假設有十個人前來，我們便會有足夠的椅子。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We will have enough chairs, assuming that ten people come.",
+      "answerZh": "假設有十個人前來，我們便會有足夠的椅子。",
+      "answerZhSource": "pdf",
+      "highlight": "We will have enough chairs, assuming that ten people come."
+    },
+    {
+      "id": "ss157-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The class can use the hall if the teacher agrees.",
+      "promptZh": "如果老師同意，班級便可以使用禮堂。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the teacher agrees, the class can use the hall.",
+      "answerZh": "假設老師同意，班級便可以使用禮堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the teacher agrees, the class can use the hall."
+    },
+    {
+      "id": "ss157-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "On the assumption that the soup continues to cook slowly, it should be ready by seven.",
+      "promptZh": "假設湯繼續慢慢烹煮，應該可以在七時前煮好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup should be ready by seven, assuming that it continues to cook slowly.",
+      "answerZh": "假設湯繼續慢慢烹煮，應該可以在七時前煮好。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup should be ready by seven, assuming that it continues to cook slowly."
+    },
+    {
+      "id": "ss157-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy will arrive before noon provided that the train is not delayed.",
+      "promptZh": "只要火車沒有延誤，艾米便會在中午前到達。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the train is not delayed, Amy will arrive before noon.",
+      "answerZh": "假設火車沒有延誤，艾米便會在中午前到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the train is not delayed, Amy will arrive before noon."
+    },
+    {
+      "id": "ss157-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Supposing that your phone is charged, you can use the map.",
+      "promptZh": "假如你的電話已充電，你便可以使用地圖。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can use the map, assuming that your phone is charged.",
+      "answerZh": "假設你的電話已充電，你便可以使用地圖。",
+      "answerZhSource": "pdf",
+      "highlight": "You can use the map, assuming that your phone is charged."
+    },
+    {
+      "id": "ss157-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If we assume that everyone plays well, the team may win the match.",
+      "promptZh": "如果我們假設每個人都表現良好，球隊可能會勝出比賽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team may win the match, assuming that everyone plays well.",
+      "answerZh": "假設每個人都表現良好，球隊可能會勝出比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "The team may win the match, assuming that everyone plays well."
+    },
+    {
+      "id": "ss157-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We can hold the meeting in the room if it is available.",
+      "promptZh": "如果房間可以使用，我們便可以在那裏舉行會議。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the room is available, we can hold the meeting there.",
+      "answerZh": "假設房間可以使用，我們便可以在那裏舉行會議。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the room is available, we can hold the meeting there."
+    },
+    {
+      "id": "ss157-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "David can borrow the bicycle provided that he returns it before dinner.",
+      "promptZh": "只要大衛在晚飯前歸還單車，他便可以借用它。",
+      "promptZhSource": "pdf",
+      "starter": "David",
+      "answer": "David can borrow the bicycle, assuming that he returns it before dinner.",
+      "answerZh": "假設大衛在晚飯前歸還單車，他便可以借用它。",
+      "answerZhSource": "pdf",
+      "highlight": "David can borrow the bicycle, assuming that he returns it before dinner."
+    },
+    {
+      "id": "ss157-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the instructions are clear, the students should finish the task easily.",
+      "promptZh": "如果指示清楚，學生應該可以輕鬆完成任務。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the instructions are clear, the students should finish the task easily.",
+      "answerZh": "假設指示清楚，學生應該可以輕鬆完成任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the instructions are clear, the students should finish the task easily."
+    },
+    {
+      "id": "ss157-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The plants will grow well as long as they receive enough sunlight.",
+      "promptZh": "只要植物得到足夠陽光，它們便會生長良好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plants will grow well, assuming that they receive enough sunlight.",
+      "answerZh": "假設植物得到足夠陽光，它們便會生長良好。",
+      "answerZhSource": "pdf",
+      "highlight": "The plants will grow well, assuming that they receive enough sunlight."
+    },
+    {
+      "id": "ss157-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I expect the price to remain the same. On that basis, I will buy the jacket tomorrow.",
+      "promptZh": "我預計價格會維持不變。基於這個前提，我明天會買下這件外套。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the price remains the same, I will buy the jacket tomorrow.",
+      "answerZh": "假設價格維持不變，我明天會買下這件外套。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the price remains the same, I will buy the jacket tomorrow."
+    },
+    {
+      "id": "ss157-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If the road is clear, the ambulance can reach the hospital quickly.",
+      "promptZh": "如果道路暢通，救護車便可以迅速到達醫院。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the road is clear, the ambulance can reach the hospital quickly.",
+      "answerZh": "假設道路暢通，救護車便可以迅速到達醫院。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the road is clear, the ambulance can reach the hospital quickly."
+    },
+    {
+      "id": "ss157-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "On the assumption that the address is complete, the parcel should arrive on Friday.",
+      "promptZh": "假設地址完整，包裹應該會在星期五送達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel should arrive on Friday, assuming that the address is complete.",
+      "answerZh": "假設地址完整，包裹應該會在星期五送達。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel should arrive on Friday, assuming that the address is complete."
+    },
+    {
+      "id": "ss157-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Suppose no one objects. We will start the meeting early.",
+      "promptZh": "假設沒有人反對，我們便會提早開始會議。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that no one objects, we will start the meeting early.",
+      "answerZh": "假設沒有人反對，我們便會提早開始會議。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that no one objects, we will start the meeting early."
+    },
+    {
+      "id": "ss157-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The machine can be repaired today if the correct part is available.",
+      "promptZh": "如果有正確的零件，這部機器今天便可以修好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine can be repaired today, assuming that the correct part is available.",
+      "answerZh": "假設有正確的零件，這部機器今天便可以修好。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine can be repaired today, assuming that the correct part is available."
+    },
+    {
+      "id": "ss157-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Provided that the water is safe to drink, the hikers can refill their bottles.",
+      "promptZh": "只要食水適合飲用，遠足人士便可以為水瓶加水。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the water is safe to drink, the hikers can refill their bottles.",
+      "answerZh": "假設食水適合飲用，遠足人士便可以為水瓶加水。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the water is safe to drink, the hikers can refill their bottles."
+    },
+    {
+      "id": "ss157-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace may join the trip if her parents give permission.",
+      "promptZh": "如果父母准許，格蕾絲可能會參加這次旅程。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace may join the trip, assuming that her parents give permission.",
+      "answerZh": "假設父母准許，格蕾絲可能會參加這次旅程。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace may join the trip, assuming that her parents give permission."
+    },
+    {
+      "id": "ss157-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If we assume that the lights remain off, the battery should last longer.",
+      "promptZh": "如果我們假設燈一直關掉，電池應該可以維持更久。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the lights remain off, the battery should last longer.",
+      "answerZh": "假設燈一直關掉，電池應該可以維持更久。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the lights remain off, the battery should last longer."
+    },
+    {
+      "id": "ss157-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The project can stay within budget as long as no extra equipment is needed.",
+      "promptZh": "只要不需要額外設備，項目便可以維持在預算之內。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project can stay within budget, assuming that no extra equipment is needed.",
+      "answerZh": "假設不需要額外設備，項目便可以維持在預算之內。",
+      "answerZhSource": "pdf",
+      "highlight": "The project can stay within budget, assuming that no extra equipment is needed."
+    },
+    {
+      "id": "ss157-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Let us assume that the data is accurate. The report then supports our conclusion.",
+      "promptZh": "假設數據準確，報告便支持我們的結論。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the data is accurate, the report supports our conclusion.",
+      "answerZh": "假設數據準確，報告便支持我們的結論。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the data is accurate, the report supports our conclusion."
+    },
+    {
+      "id": "ss157-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We should have enough food provided that no more guests arrive.",
+      "promptZh": "只要沒有更多客人到來，我們應該會有足夠食物。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should have enough food, assuming that no more guests arrive.",
+      "answerZh": "假設沒有更多客人到來，我們應該會有足夠食物。",
+      "answerZhSource": "pdf",
+      "highlight": "We should have enough food, assuming that no more guests arrive."
+    },
+    {
+      "id": "ss157-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Supposing that the museum opens at ten, we can visit it before lunch.",
+      "promptZh": "假如博物館十時開門，我們便可以在午飯前參觀。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the museum opens at ten, we can visit it before lunch.",
+      "answerZh": "假設博物館十時開門，我們便可以在午飯前參觀。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the museum opens at ten, we can visit it before lunch."
+    },
+    {
+      "id": "ss157-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If every driver follows the new timetable, it will work.",
+      "promptZh": "如果每位司機都遵守新的時間表，這個安排便會奏效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable will work, assuming that every driver follows it.",
+      "answerZh": "假設每位司機都遵守新的時間表，這個安排便會奏效。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable will work, assuming that every driver follows it."
+    },
+    {
+      "id": "ss157-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The doctor may continue the treatment if the medicine causes no side effects.",
+      "promptZh": "如果藥物沒有引起副作用，醫生可能會繼續治療。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the medicine causes no side effects, the doctor may continue the treatment.",
+      "answerZh": "假設藥物沒有引起副作用，醫生可能會繼續治療。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the medicine causes no side effects, the doctor may continue the treatment."
+    },
+    {
+      "id": "ss157-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "On the assumption that enough students enrol, the school can offer another class.",
+      "promptZh": "假設有足夠學生報名，學校便可以增設一班。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school can offer another class, assuming that enough students enrol.",
+      "answerZh": "假設有足夠學生報名，學校便可以增設一班。",
+      "answerZhSource": "pdf",
+      "highlight": "The school can offer another class, assuming that enough students enrol."
+    },
+    {
+      "id": "ss157-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Provided that the internet connection is stable, the interview should run smoothly.",
+      "promptZh": "只要網絡連線穩定，面試應該可以順利進行。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the internet connection is stable, the interview should run smoothly.",
+      "answerZh": "假設網絡連線穩定，面試應該可以順利進行。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the internet connection is stable, the interview should run smoothly."
+    },
+    {
+      "id": "ss157-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Suppose the sea becomes calmer. The rescue boat can leave at dawn.",
+      "promptZh": "假設海面變得較平靜，救援船便可以在黎明時出發。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue boat can leave at dawn, assuming that the sea becomes calmer.",
+      "answerZh": "假設海面變得較平靜，救援船便可以在黎明時出發。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue boat can leave at dawn, assuming that the sea becomes calmer."
+    },
+    {
+      "id": "ss157-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If we treat the first test as fair, we can compare the two groups.",
+      "promptZh": "如果我們把第一次測試視為公平，便可以比較兩個組別。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the first test was fair, we can compare the two groups.",
+      "answerZh": "假設第一次測試是公平的，我們便可以比較兩個組別。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the first test was fair, we can compare the two groups."
+    },
+    {
+      "id": "ss157-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company may extend the service if customer demand remains strong.",
+      "promptZh": "如果顧客需求維持強勁，公司可能會擴展服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company may extend the service, assuming that customer demand remains strong.",
+      "answerZh": "假設顧客需求維持強勁，公司可能會擴展服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The company may extend the service, assuming that customer demand remains strong."
+    },
+    {
+      "id": "ss157-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If each box weighs less than twenty kilograms, the lift can carry them safely.",
+      "promptZh": "如果每個箱子的重量少於二十公斤，升降機便可以安全運載它們。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that each box weighs less than twenty kilograms, the lift can carry them safely.",
+      "answerZh": "假設每個箱子的重量少於二十公斤，升降機便可以安全運載它們。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that each box weighs less than twenty kilograms, the lift can carry them safely."
+    },
+    {
+      "id": "ss157-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The library can stay open later as long as more staff are available.",
+      "promptZh": "只要有更多職員，圖書館便可以延長開放時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library can stay open later, assuming that more staff are available.",
+      "answerZh": "假設有更多職員，圖書館便可以延長開放時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The library can stay open later, assuming that more staff are available."
+    },
+    {
+      "id": "ss157-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The council may approve the plan. If it does, construction can begin in September.",
+      "promptZh": "市議會可能會批准計劃。如果獲得批准，工程便可以在九月展開。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the council approves the plan, construction can begin in September.",
+      "answerZh": "假設市議會批准計劃，工程便可以在九月展開。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the council approves the plan, construction can begin in September."
+    },
+    {
+      "id": "ss157-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "On the assumption that patient numbers do not rise suddenly, the hospital should have enough beds.",
+      "promptZh": "假設病人數目沒有突然上升，醫院應該會有足夠病床。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital should have enough beds, assuming that patient numbers do not rise suddenly.",
+      "answerZh": "假設病人數目沒有突然上升，醫院應該會有足夠病床。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital should have enough beds, assuming that patient numbers do not rise suddenly."
+    },
+    {
+      "id": "ss157-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The survey may represent the whole community. If it does, the results show strong support for the new park.",
+      "promptZh": "這項調查可能代表整個社區。如果確實如此，結果便顯示居民非常支持興建新公園。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the survey represents the whole community, the results show strong support for the new park.",
+      "answerZh": "假設這項調查能代表整個社區，結果便顯示居民非常支持興建新公園。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the survey represents the whole community, the results show strong support for the new park."
+    },
+    {
+      "id": "ss157-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Provided that the supplier delivers the materials by Monday, the company can meet the deadline.",
+      "promptZh": "只要供應商在星期一前交付物料，公司便可以趕及限期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company can meet the deadline, assuming that the supplier delivers the materials by Monday.",
+      "answerZh": "假設供應商在星期一前交付物料，公司便可以趕及限期。",
+      "answerZhSource": "pdf",
+      "highlight": "The company can meet the deadline, assuming that the supplier delivers the materials by Monday."
+    },
+    {
+      "id": "ss157-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Suppose all personal details are removed from the records. The research team may then share them safely.",
+      "promptZh": "假設紀錄中的所有個人資料均已刪除，研究團隊便可以安全地分享這些紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that all personal details are removed from the records, the research team may share them safely.",
+      "answerZh": "假設紀錄中的所有個人資料均已刪除，研究團隊便可以安全地分享這些紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that all personal details are removed from the records, the research team may share them safely."
+    },
+    {
+      "id": "ss157-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school can continue the programme next year if the funding remains available.",
+      "promptZh": "如果資助仍然可獲得，學校明年便可以繼續推行這個計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school can continue the programme next year, assuming that the funding remains available.",
+      "answerZh": "假設資助仍然可獲得，學校明年便可以繼續推行這個計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The school can continue the programme next year, assuming that the funding remains available."
+    },
+    {
+      "id": "ss157-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The forecast predicts heavy rain. If that forecast is reliable, the organisers should move the event indoors.",
+      "promptZh": "天氣預報預測會有大雨。如果這項預報可靠，主辦單位便應該把活動移到室內。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that the forecast of heavy rain is reliable, the organisers should move the event indoors.",
+      "answerZh": "假設大雨預報可靠，主辦單位便應該把活動移到室內。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that the forecast of heavy rain is reliable, the organisers should move the event indoors."
+    },
+    {
+      "id": "ss157-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If customers learn how to use the new payment system quickly, it may reduce waiting time.",
+      "promptZh": "如果顧客很快學會使用新的付款系統，它可能會縮短等候時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new payment system may reduce waiting time, assuming that customers learn how to use it quickly.",
+      "answerZh": "假設顧客很快學會使用新的付款系統，它可能會縮短等候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The new payment system may reduce waiting time, assuming that customers learn how to use it quickly."
+    },
+    {
+      "id": "ss157-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Let us assume that every department follows the same procedure. The organisation can then reduce reporting errors.",
+      "promptZh": "假設每個部門都遵從相同程序，機構便可以減少報告錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Assuming",
+      "answer": "Assuming that every department follows the same procedure, the organisation can reduce reporting errors.",
+      "answerZh": "假設每個部門都遵從相同程序，機構便可以減少報告錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Assuming that every department follows the same procedure, the organisation can reduce reporting errors."
+    },
+    {
+      "id": "ss157-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The strategy seems reasonable if the data is accurate and market conditions remain stable.",
+      "promptZh": "如果數據準確，而且市場情況維持穩定，這項策略看來是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The strategy seems reasonable, assuming that the data is accurate and market conditions remain stable.",
+      "answerZh": "假設數據準確，而且市場情況維持穩定，這項策略看來是合理的。",
+      "answerZhSource": "pdf",
+      "highlight": "The strategy seems reasonable, assuming that the data is accurate and market conditions remain stable."
+    }
+  ]
+}

@@ -1,0 +1,1242 @@
+{
+  "id": "ss130",
+  "order": 130,
+  "slug": "in-that",
+  "title": "「in that」說明具體方面／特定理由",
+  "titleZh": "「in that」說明具體方面／特定理由",
+  "titleEn": "Using in that to explain a specific respect or reason",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 130 -「in that」說明具體方面／特定理由.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Main statement + in that + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss130-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Main statement + in that + subject + verb + other information"
+    },
+    {
+      "id": "ss130-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Subject + be + adjective + in that + complete clause"
+    },
+    {
+      "id": "ss130-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "A differs from B + in that + complete clause"
+    },
+    {
+      "id": "ss130-formula-04",
+      "labelEn": "Pattern 4",
+      "labelZh": "句式 4",
+      "formula": "Subject + has changed / improved + in that + complete clause"
+    }
+  ],
+  "example": "My parents are different in that they always encourage independent thinking.",
+  "exampleZh": "我的父母與眾不同之處，在於他們總是鼓勵獨立思考。",
+  "examples": [
+    {
+      "id": "ss130-example-01",
+      "en": "My parents are different in that they always encourage independent thinking.",
+      "zh": "我的父母與眾不同之處，在於他們總是鼓勵獨立思考。",
+      "highlight": "in that they always encourage independent thinking"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss130-rule-01",
+      "zh": "in that 後面必須接完整子句 完整子句需要包括主語和動詞。",
+      "en": "In that must be followed by a complete clause containing a subject and a verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The course is practical in that students complete real workplace tasks."
+      ]
+    },
+    {
+      "id": "ss130-rule-02",
+      "zh": "in that 通常接在描述、評價或比較之後 常見搭配包括：",
+      "en": "In that commonly follows a description, evaluation or comparison, including combinations such as different, similar, unique, useful, effective, limited, fair, unusual, better or differ + in that.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "different in that",
+        "similar in that",
+        "unique in that",
+        "useful in that",
+        "effective in that",
+        "limited in that",
+        "fair in that",
+        "unusual in that",
+        "better in that",
+        "differ in that"
+      ]
+    },
+    {
+      "id": "ss130-rule-03",
+      "zh": "in that 前面通常不加逗號 本練習統一使用不加逗號的形式。",
+      "en": "Normally do not put a comma before in that; this lesson consistently uses the form without a comma.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The system is secure in that it requires two passwords."
+      ]
+    },
+    {
+      "id": "ss130-rule-04",
+      "zh": "that 不可以省略",
+      "en": "Do not omit that.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The two plans differ in that one costs less."
+      ]
+    },
+    {
+      "id": "ss130-rule-05",
+      "zh": "in that 與 Because / Since / As 的分別 Because、since 和 as 通常說明一個行動、事件或結果發生的普通原因。 這裏的 because 回答： in that 則通常說明一項描述、評價或比較在哪一個具體方面成立。 這裏的 in that 回答： 因此，兩者並非在所有句子中都可以互換。 此外，since 亦可以表示「自從」，而 as 亦可以表示「當……時」或「以……方式」。 in that 沒有這些時間或方式的意思。",
+      "en": "In that identifies a specific respect, unlike the broader causal linkers because, since and as. Those linkers normally explain the ordinary cause of an action, event or result and answer ‘Why did this happen?’. In that explains the particular respect in which a description, evaluation or comparison is true and answers ‘In what particular way is this true?’, so the forms are not interchangeable in every sentence. Since can also mean ‘from a past time’, and as can also mean ‘when’ or ‘in a particular manner’; in that has none of those time or manner meanings.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I stayed at home because it was raining.",
+        "Why did I stay at home?",
+        "The plan is risky in that it depends on only one supplier.",
+        "In what particular way is the plan risky?"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss130-benefit-01",
+      "zh": "清楚指出「具體是哪一方面」 這個句型不只說某事是好、壞、特別或不同，還會立即解釋這個評價所指的具體方面。",
+      "en": "It clearly identifies the specific respect meant. The structure does more than call something good, bad, special or different: it immediately explains the precise aspect to which the evaluation applies.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The service is helpful in that it provides support throughout the night."
+      ]
+    },
+    {
+      "id": "ss130-benefit-02",
+      "zh": "令解釋更加準確 使用 because 有時只會提供一個普通原因；使用 in that 則能把讀者的注意力帶到某個特定特 點。 第二句特別強調：「成本較低」是這個計劃較優勝的其中一個具體方面。",
+      "en": "It makes an explanation more precise. Because may provide only a general reason, whereas in that directs attention to a particular feature; in the comparison, the second sentence specifically presents lower cost as one respect in which the plan is better.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss130-benefit-03",
+      "zh": "把主要觀點和支持資料連接起來 你可以先提出一項判斷，再立即加入證據或詳細解釋。",
+      "en": "It connects a main point with supporting information, allowing you to state a judgement and immediately add evidence or a detailed explanation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The report is convincing in that every claim is supported by evidence."
+      ]
+    },
+    {
+      "id": "ss130-benefit-04",
+      "zh": "避免重複使用 because 學生在作文和說話時經常重複使用 because。 in that 提供另一種表達方式，令句式更多元。",
+      "en": "It avoids repeatedly using because and gives essays and spoken answers greater structural variety.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss130-benefit-05",
+      "zh": "適合比較、分析和正式解釋 這個句型常用於作文、報告、簡報和較有分析性的討論，尤其適合： ● 解釋一項政策的特點； ● 比較兩個方案； ● 評價一個方法； ● 指出某個制度的限制； ● 說明一項改變具體發生在哪裏。",
+      "en": "It is useful for comparisons, analysis and formal explanations in essays, reports, presentations and analytical discussions, especially for explaining a policy’s features, comparing two options, evaluating a method, identifying a system’s limitations or specifying where a change has occurred.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using in that to explain the particular way or reason in which the main statement is true.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 in that 改寫以下句子，以說明前面的描述、評價或比較具體在哪一方面成立。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss130-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "My parents are different because they always encourage independent thinking.",
+      "promptZh": "我的父母與眾不同，因為他們總是鼓勵獨立思考。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My parents are different in that they always encourage independent thinking.",
+      "answerZh": "我的父母與眾不同之處，在於他們總是鼓勵獨立思考。",
+      "answerZhSource": "pdf",
+      "highlight": "My parents are different in that they always encourage independent thinking."
+    },
+    {
+      "id": "ss130-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The exam was challenging since it required critical thinking rather than memorisation.",
+      "promptZh": "這場考試很具挑戰性，因為它要求批判性思考，而不是死記硬背。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The exam was challenging in that it required critical thinking rather than memorisation.",
+      "answerZh": "這場考試具挑戰性之處，在於它要求批判性思考，而不是死記硬背。",
+      "answerZhSource": "pdf",
+      "highlight": "The exam was challenging in that it required critical thinking rather than memorisation."
+    },
+    {
+      "id": "ss130-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What makes this company unique is that employees can arrange their own schedules.",
+      "promptZh": "這家公司的獨特之處，是員工可以自行安排工作時間。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This company is unique in that employees can arrange their own schedules.",
+      "answerZh": "這家公司的獨特之處，在於員工可以自行安排工作時間。",
+      "answerZhSource": "pdf",
+      "highlight": "This company is unique in that employees can arrange their own schedules."
+    },
+    {
+      "id": "ss130-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The flat is convenient because it is close to both the station and the market.",
+      "promptZh": "這個單位很方便，因為它鄰近車站和市場。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The flat is convenient in that it is close to both the station and the market.",
+      "answerZh": "這個單位的方便之處，在於它鄰近車站和市場。",
+      "answerZhSource": "pdf",
+      "highlight": "The flat is convenient in that it is close to both the station and the market."
+    },
+    {
+      "id": "ss130-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The new phone is useful. It can translate short conversations.",
+      "promptZh": "這部新手機很實用。它可以翻譯簡短對話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new phone is useful in that it can translate short conversations.",
+      "answerZh": "這部新手機的實用之處，在於它可以翻譯簡短對話。",
+      "answerZhSource": "pdf",
+      "highlight": "The new phone is useful in that it can translate short conversations."
+    },
+    {
+      "id": "ss130-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The reason our teacher is supportive is that she gives us clear advice after class.",
+      "promptZh": "我們的老師很支持學生，原因是她在課後給我們清晰的建議。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher is supportive in that she gives us clear advice after class.",
+      "answerZh": "我們的老師支持學生之處，在於她在課後給我們清晰的建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher is supportive in that she gives us clear advice after class."
+    },
+    {
+      "id": "ss130-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why is this café unusual? It stays open all night.",
+      "promptZh": "這間咖啡店為甚麼不同尋常？它通宵營業。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This café is unusual in that it stays open all night.",
+      "answerZh": "這間咖啡店不同尋常之處，在於它通宵營業。",
+      "answerZhSource": "pdf",
+      "highlight": "This café is unusual in that it stays open all night."
+    },
+    {
+      "id": "ss130-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The job is demanding because workers must answer calls at any time.",
+      "promptZh": "這份工作要求很高，因為員工必須隨時接聽來電。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The job is demanding in that workers must answer calls at any time.",
+      "answerZh": "這份工作要求高之處，在於員工必須隨時接聽來電。",
+      "answerZhSource": "pdf",
+      "highlight": "The job is demanding in that workers must answer calls at any time."
+    },
+    {
+      "id": "ss130-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The park has a quiet garden for older residents, and this makes it special.",
+      "promptZh": "這個公園設有供年長居民使用的寧靜花園，因此很特別。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The park is special in that it has a quiet garden for older residents.",
+      "answerZh": "這個公園特別之處，在於它設有供年長居民使用的寧靜花園。",
+      "answerZhSource": "pdf",
+      "highlight": "The park is special in that it has a quiet garden for older residents."
+    },
+    {
+      "id": "ss130-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The rule applies to everyone equally, which makes it fair.",
+      "promptZh": "這項規則平等地適用於每個人，因此很公平。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rule is fair in that it applies to everyone equally.",
+      "answerZh": "這項規則公平之處，在於它平等地適用於每個人。",
+      "answerZhSource": "pdf",
+      "highlight": "The rule is fair in that it applies to everyone equally."
+    },
+    {
+      "id": "ss130-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Students on this course complete real workplace tasks, so the course is practical.",
+      "promptZh": "修讀這個課程的學生會完成真實的職場任務，因此課程很實用。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This course is practical in that students complete real workplace tasks.",
+      "answerZh": "這個課程的實用之處，在於學生會完成真實的職場任務。",
+      "answerZhSource": "pdf",
+      "highlight": "This course is practical in that students complete real workplace tasks."
+    },
+    {
+      "id": "ss130-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This book is valuable because it explains difficult ideas in simple language.",
+      "promptZh": "這本書很有價值，因為它用簡單語言解釋困難概念。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This book is valuable in that it explains difficult ideas in simple language.",
+      "answerZh": "這本書的價值，在於它用簡單語言解釋困難概念。",
+      "answerZhSource": "pdf",
+      "highlight": "This book is valuable in that it explains difficult ideas in simple language."
+    },
+    {
+      "id": "ss130-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Both brothers enjoy solving puzzles. This is one way they are similar.",
+      "promptZh": "兩兄弟都喜歡解謎。這是他們相似的一個方面。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two brothers are similar in that they both enjoy solving puzzles.",
+      "answerZh": "兩兄弟相似之處，在於他們都喜歡解謎。",
+      "answerZhSource": "pdf",
+      "highlight": "The two brothers are similar in that they both enjoy solving puzzles."
+    },
+    {
+      "id": "ss130-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The second plan is better than the first because it costs less and takes less time.",
+      "promptZh": "第二個計劃比第一個更好，因為它成本較低，而且所需時間較短。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The second plan is better than the first in that it costs less and takes less time.",
+      "answerZh": "第二個計劃比第一個優勝之處，在於它成本較低，而且所需時間較短。",
+      "answerZhSource": "pdf",
+      "highlight": "The second plan is better than the first in that it costs less and takes less time."
+    },
+    {
+      "id": "ss130-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Customers now receive replies within one day. This is how the service has improved.",
+      "promptZh": "顧客現在可在一天內收到回覆。這就是服務有所改善的地方。",
+      "promptZhSource": "pdf",
+      "starter": "Customer",
+      "answer": "Customer service has improved in that customers now receive replies within one day.",
+      "answerZh": "顧客服務有所改善之處，在於顧客現在可在一天內收到回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "Customer service has improved in that customers now receive replies within one day."
+    },
+    {
+      "id": "ss130-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What is remarkable about the old building is that it has survived several major storms.",
+      "promptZh": "這座舊建築令人讚嘆之處，是它經歷幾場嚴重風暴後仍保存下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old building is remarkable in that it has survived several major storms.",
+      "answerZh": "這座舊建築令人讚嘆之處，在於它經歷幾場嚴重風暴後仍保存下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The old building is remarkable in that it has survived several major storms."
+    },
+    {
+      "id": "ss130-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This method is effective because it helps learners remember new words for longer.",
+      "promptZh": "這個方法很有效，因為它能幫助學習者更長久地記住新詞。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This method is effective in that it helps learners remember new words for longer.",
+      "answerZh": "這個方法有效之處，在於它能幫助學習者更長久地記住新詞。",
+      "answerZhSource": "pdf",
+      "highlight": "This method is effective in that it helps learners remember new words for longer."
+    },
+    {
+      "id": "ss130-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The website has one major limitation: it does not work well on older phones.",
+      "promptZh": "這個網站有一項主要限制：它在較舊型號的手機上運作欠佳。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website is limited in that it does not work well on older phones.",
+      "answerZh": "這個網站的限制，在於它在較舊型號的手機上運作欠佳。",
+      "answerZhSource": "pdf",
+      "highlight": "The website is limited in that it does not work well on older phones."
+    },
+    {
+      "id": "ss130-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Students can choose between morning and afternoon classes, so the new timetable is flexible.",
+      "promptZh": "學生可以選擇上午或下午的課堂，因此新時間表很有彈性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable is flexible in that students can choose between morning and afternoon classes.",
+      "answerZh": "新時間表靈活之處，在於學生可以選擇上午或下午的課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable is flexible in that students can choose between morning and afternoon classes."
+    },
+    {
+      "id": "ss130-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The town is fortunate because it has clean water throughout the year.",
+      "promptZh": "這個小鎮很幸運，因為它全年都有潔淨食水。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town is fortunate in that it has clean water throughout the year.",
+      "answerZh": "這個小鎮幸運之處，在於它全年都有潔淨食水。",
+      "answerZhSource": "pdf",
+      "highlight": "The town is fortunate in that it has clean water throughout the year."
+    },
+    {
+      "id": "ss130-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The proposal reduces costs without cutting essential services. For this reason, it is sensible.",
+      "promptZh": "這項建議能降低成本，同時不削減必要服務。因此，這項建議是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This proposal is sensible in that it reduces costs without cutting essential services.",
+      "answerZh": "這項建議合理之處，在於它能降低成本，同時不削減必要服務。",
+      "answerZhSource": "pdf",
+      "highlight": "This proposal is sensible in that it reduces costs without cutting essential services."
+    },
+    {
+      "id": "ss130-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The machine is safe because it stops automatically when the door is opened.",
+      "promptZh": "這部機器很安全，因為機門打開時，它會自動停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine is safe in that it stops automatically when the door is opened.",
+      "answerZh": "這部機器安全之處，在於機門打開時，它會自動停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine is safe in that it stops automatically when the door is opened."
+    },
+    {
+      "id": "ss130-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "More young families are moving into the area. This is one way our neighbourhood is changing.",
+      "promptZh": "更多年輕家庭正遷入這個地區。這是我們社區正在轉變的一個方面。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbourhood is changing in that more young families are moving into the area.",
+      "answerZh": "我們的社區正在轉變，表現在有更多年輕家庭遷入這個地區。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbourhood is changing in that more young families are moving into the area."
+    },
+    {
+      "id": "ss130-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The policy is controversial because it helps some workers but disadvantages others.",
+      "promptZh": "這項政策具爭議性，因為它幫助部分工人，卻令另一些工人處於不利位置。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy is controversial in that it helps some workers but disadvantages others.",
+      "answerZh": "這項政策具爭議之處，在於它幫助部分工人，卻令另一些工人處於不利位置。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy is controversial in that it helps some workers but disadvantages others."
+    },
+    {
+      "id": "ss130-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "People with no previous experience may join the training programme, which makes it inclusive.",
+      "promptZh": "沒有相關經驗的人也可以參加這個培訓課程，因此課程具包容性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training programme is inclusive in that people with no previous experience may join.",
+      "answerZh": "這個培訓課程具包容性之處，在於沒有相關經驗的人也可以參加。",
+      "answerZhSource": "pdf",
+      "highlight": "The training programme is inclusive in that people with no previous experience may join."
+    },
+    {
+      "id": "ss130-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What makes the report convincing is that every claim is supported by clear evidence.",
+      "promptZh": "這份報告具說服力之處，是每項論點都有清晰證據支持。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report is convincing in that every claim is supported by clear evidence.",
+      "answerZh": "這份報告具說服力之處，在於每項論點都有清晰證據支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The report is convincing in that every claim is supported by clear evidence."
+    },
+    {
+      "id": "ss130-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This solution is only temporary because it will work until the bridge is repaired.",
+      "promptZh": "這個解決方法只是暫時性的，因為它只能維持至橋樑修復完成。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This solution is temporary in that it will work only until the bridge is repaired.",
+      "answerZh": "這個解決方法屬暫時性，因為它只能維持至橋樑修復完成。",
+      "answerZhSource": "pdf",
+      "highlight": "This solution is temporary in that it will work only until the bridge is repaired."
+    },
+    {
+      "id": "ss130-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "One system stores data locally, while the other uses cloud storage. This is how the two systems differ.",
+      "promptZh": "一個系統把資料儲存在本機，另一個則使用雲端儲存。這就是兩個系統的不同之處。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two systems differ in that one stores data locally while the other uses cloud storage.",
+      "answerZh": "兩個系統的不同之處，在於一個把資料儲存在本機，另一個則使用雲端儲存。",
+      "answerZhSource": "pdf",
+      "highlight": "The two systems differ in that one stores data locally while the other uses cloud storage."
+    },
+    {
+      "id": "ss130-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Entry to the museum is free, and every floor can be reached by lift. These features make it accessible.",
+      "promptZh": "博物館免費入場，而且可乘升降機到達每一層。這些特點令它方便不同人士使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum is accessible in that entry is free and every floor can be reached by lift.",
+      "answerZh": "博物館方便不同人士使用之處，在於它免費入場，而且可乘升降機到達每一層。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is accessible in that entry is free and every floor can be reached by lift."
+    },
+    {
+      "id": "ss130-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The warning was helpful because it told drivers exactly where the road was blocked.",
+      "promptZh": "這項警告很有幫助，因為它準確告訴司機道路在哪裏受阻。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The warning was helpful in that it told drivers exactly where the road was blocked.",
+      "answerZh": "這項警告有幫助之處，在於它準確告訴司機道路在哪裏受阻。",
+      "answerZhSource": "pdf",
+      "highlight": "The warning was helpful in that it told drivers exactly where the road was blocked."
+    },
+    {
+      "id": "ss130-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why was the experiment unusual? The second group performed better without extra practice.",
+      "promptZh": "這項實驗為甚麼不尋常？第二組在沒有額外練習的情況下表現更好。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This experiment was unusual in that the second group performed better without extra practice.",
+      "answerZh": "這項實驗不尋常之處，在於第二組在沒有額外練習的情況下表現更好。",
+      "answerZhSource": "pdf",
+      "highlight": "This experiment was unusual in that the second group performed better without extra practice."
+    },
+    {
+      "id": "ss130-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager's decision to delay the launch was reasonable because the available evidence was incomplete.",
+      "promptZh": "經理決定延遲推出產品是合理的，因為當時可用的證據並不完整。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager's decision to delay the launch was reasonable in that the available evidence was incomplete.",
+      "answerZh": "經理決定延遲推出產品合理之處，在於當時可用的證據並不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager's decision to delay the launch was reasonable in that the available evidence was incomplete."
+    },
+    {
+      "id": "ss130-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The software processes large files without slowing the computer, which makes it efficient.",
+      "promptZh": "這個軟件處理大型檔案時不會令電腦變慢，因此效率很高。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The software is efficient in that it processes large files without slowing the computer.",
+      "answerZh": "這個軟件效率高之處，在於它處理大型檔案時不會令電腦變慢。",
+      "answerZhSource": "pdf",
+      "highlight": "The software is efficient in that it processes large files without slowing the computer."
+    },
+    {
+      "id": "ss130-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The village continued to manage its own schools and clinics, so it remained independent.",
+      "promptZh": "這條村繼續自行管理學校和診所，因此仍保持獨立。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The village remained independent in that it continued to manage its own schools and clinics.",
+      "answerZh": "這條村仍保持獨立，表現在它繼續自行管理學校和診所。",
+      "answerZhSource": "pdf",
+      "highlight": "The village remained independent in that it continued to manage its own schools and clinics."
+    },
+    {
+      "id": "ss130-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This arrangement is unfair because temporary staff receive less pay for the same work.",
+      "promptZh": "這項安排不公平，因為臨時員工做同樣的工作，薪酬卻較低。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This arrangement is unfair in that temporary staff receive less pay for the same work.",
+      "answerZh": "這項安排不公平之處，在於臨時員工做同樣的工作，薪酬卻較低。",
+      "answerZhSource": "pdf",
+      "highlight": "This arrangement is unfair in that temporary staff receive less pay for the same work."
+    },
+    {
+      "id": "ss130-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new law is significant because it changes how personal data may be collected.",
+      "promptZh": "這條新法例很重要，因為它改變了收集個人資料的方式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new law is significant in that it changes how personal data may be collected.",
+      "answerZh": "這條新法例重要之處，在於它改變了收集個人資料的方式。",
+      "answerZhSource": "pdf",
+      "highlight": "The new law is significant in that it changes how personal data may be collected."
+    },
+    {
+      "id": "ss130-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What made the team's success impressive was that several key players were injured.",
+      "promptZh": "球隊的成功令人印象深刻，是因為幾名主力球員當時受了傷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team's success was impressive in that several key players were injured.",
+      "answerZh": "球隊的成功令人印象深刻之處，在於幾名主力球員當時受了傷。",
+      "answerZhSource": "pdf",
+      "highlight": "The team's success was impressive in that several key players were injured."
+    },
+    {
+      "id": "ss130-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The building uses rainwater and natural light. These features make it environmentally friendly.",
+      "promptZh": "這座建築物使用雨水和天然光。這些特點令它更環保。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The building is environmentally friendly in that it uses rainwater and natural light.",
+      "answerZh": "這座建築物環保之處，在於它使用雨水和天然光。",
+      "answerZhSource": "pdf",
+      "highlight": "The building is environmentally friendly in that it uses rainwater and natural light."
+    },
+    {
+      "id": "ss130-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This advice was misleading because it ignored the risks of borrowing money.",
+      "promptZh": "這項建議具有誤導性，因為它忽略了借貸的風險。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This advice was misleading in that it ignored the risks of borrowing money.",
+      "answerZh": "這項建議具誤導性之處，在於它忽略了借貸的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "This advice was misleading in that it ignored the risks of borrowing money."
+    },
+    {
+      "id": "ss130-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The charity shows transparency by publishing a full record of how donations are spent.",
+      "promptZh": "這間慈善機構公開捐款用途的完整紀錄，以顯示其運作透明。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity is transparent in that it publishes a full record of how donations are spent.",
+      "answerZh": "這間慈善機構運作透明之處，在於它公開捐款用途的完整紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity is transparent in that it publishes a full record of how donations are spent."
+    },
+    {
+      "id": "ss130-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The two research studies use the same age group and testing method, so they are comparable.",
+      "promptZh": "兩項研究使用相同的年齡組別和測試方法，因此可以互相比較。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two research studies are comparable in that they use the same age group and testing method.",
+      "answerZh": "兩項研究可以互相比較之處，在於它們使用相同的年齡組別和測試方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The two research studies are comparable in that they use the same age group and testing method."
+    },
+    {
+      "id": "ss130-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The transport plan aims to cut travel times across the whole region. This makes it ambitious.",
+      "promptZh": "這項交通計劃旨在縮短整個地區的出行時間，因此十分進取。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The transport plan is ambitious in that it aims to cut travel times across the whole region.",
+      "answerZh": "這項交通計劃進取之處，在於它旨在縮短整個地區的出行時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The transport plan is ambitious in that it aims to cut travel times across the whole region."
+    },
+    {
+      "id": "ss130-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Patients were treated quickly despite the sudden rise in demand. This showed that staff at the hospital responded effectively.",
+      "promptZh": "儘管需求突然上升，病人仍迅速得到治療。這顯示醫院職員應對有效。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff at the hospital responded effectively in that patients were treated quickly despite the sudden rise in demand.",
+      "answerZh": "醫院職員應對有效，表現在即使需求突然上升，病人仍迅速得到治療。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff at the hospital responded effectively in that patients were treated quickly despite the sudden rise in demand."
+    },
+    {
+      "id": "ss130-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Either side can end the agreement with only seven days' notice. This makes the agreement fragile.",
+      "promptZh": "任何一方只須提前七天通知，便可終止協議。這令協議十分脆弱。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The agreement is fragile in that either side can end it with only seven days' notice.",
+      "answerZh": "這份協議脆弱之處，在於任何一方只須提前七天通知，便可將其終止。",
+      "answerZhSource": "pdf",
+      "highlight": "The agreement is fragile in that either side can end it with only seven days' notice."
+    },
+    {
+      "id": "ss130-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The educational value of this approach comes from asking students to explain their reasoning rather than simply give an answer.",
+      "promptZh": "這種方法的教育價值，來自它要求學生解釋推理過程，而不只是給出答案。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This approach is educationally valuable in that it asks students to explain their reasoning rather than simply give an answer.",
+      "answerZh": "這種方法具教育價值之處，在於它要求學生解釋推理過程，而不只是給出答案。",
+      "answerZhSource": "pdf",
+      "highlight": "This approach is educationally valuable in that it asks students to explain their reasoning rather than simply give an answer."
+    },
+    {
+      "id": "ss130-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Several community suggestions were included in the final plan, which made the public consultation meaningful.",
+      "promptZh": "最終計劃採納了數項社區建議，因此這次公眾諮詢具有實際意義。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public consultation was meaningful in that several community suggestions were included in the final plan.",
+      "answerZh": "這次公眾諮詢具有實際意義之處，在於最終計劃採納了數項社區建議。",
+      "answerZhSource": "pdf",
+      "highlight": "The public consultation was meaningful in that several community suggestions were included in the final plan."
+    },
+    {
+      "id": "ss130-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "One candidate focuses on immediate results, whereas the other emphasises long-term reform. This is the main difference between them.",
+      "promptZh": "一名候選人重視即時成果，另一名則強調長遠改革。這是兩人最主要的分別。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two candidates are different in that one focuses on immediate results whereas the other emphasises long-term reform.",
+      "answerZh": "兩名候選人的不同之處，在於一人重視即時成果，另一人則強調長遠改革。",
+      "answerZhSource": "pdf",
+      "highlight": "The two candidates are different in that one focuses on immediate results whereas the other emphasises long-term reform."
+    },
+    {
+      "id": "ss130-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new payment system is more secure than the old one because it requires both a password and a one-time code.",
+      "promptZh": "新的付款系統比舊系統更安全，因為它同時要求密碼和一次性驗證碼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new payment system is more secure than the old one in that it requires both a password and a one-time code.",
+      "answerZh": "新的付款系統比舊系統更安全之處，在於它同時要求密碼和一次性驗證碼。",
+      "answerZhSource": "pdf",
+      "highlight": "The new payment system is more secure than the old one in that it requires both a password and a one-time code."
+    },
+    {
+      "id": "ss130-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The project met its main goal without exceeding the original budget. Therefore, it can be considered successful.",
+      "promptZh": "這個項目在沒有超出原定預算的情況下達成主要目標。因此，它可視為成功。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This project can be considered successful in that it met its main goal without exceeding the original budget.",
+      "answerZh": "這個項目可視為成功，因為它在沒有超出原定預算的情況下達成主要目標。",
+      "answerZhSource": "pdf",
+      "highlight": "This project can be considered successful in that it met its main goal without exceeding the original budget."
+    },
+    {
+      "id": "ss130-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The proposal is innovative because it combines affordable housing, public transport and community services within one development.",
+      "promptZh": "這項建議很有創意，因為它在同一發展項目內結合可負擔房屋、公共交通和社區服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal is innovative in that it combines affordable housing, public transport and community services within one development.",
+      "answerZh": "這項建議創新之處，在於它在同一發展項目內結合可負擔房屋、公共交通和社區服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal is innovative in that it combines affordable housing, public transport and community services within one development."
+    }
+  ]
+}

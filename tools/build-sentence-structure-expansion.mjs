@@ -4,9 +4,9 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const lessonDirectory = new URL("sentence-structure-lessons/", import.meta.url);
-const outputUrl = new URL("sentence-structure-lessons-5-114.js", root);
+const outputUrl = new URL("sentence-structure-lessons-5-218.js", root);
 const FIRST_LESSON = 5;
-const LAST_LESSON = 114;
+const LAST_LESSON = 218;
 const QUESTIONS_PER_LESSON = 50;
 const REQUIRED_QUESTION_FIELDS = [
   "id",
@@ -23,6 +23,12 @@ const SOURCE_PAGE_FIELDS = [
   "starterPage",
   "answerNumberPage",
   "answerPage"
+];
+const OPTIONAL_SOURCE_PAGE_FIELDS = [
+  "promptZhPage",
+  "answerZhPage",
+  "promptContinuationPage",
+  "answerContinuationPage"
 ];
 
 function fail(message) {
@@ -43,12 +49,22 @@ function occurrenceCount(text, fragment) {
   return target ? source.split(target).length - 1 : 0;
 }
 
-function validateBilingualItems(lesson, field) {
+function validateBilingualItems(lesson, field, { requireProvenance = false } = {}) {
   const items = lesson[field];
   requireCondition(Array.isArray(items) && items.length > 0, `${lesson.id}: ${field} is missing`);
   items.forEach((item, index) => {
     requireCondition(normalText(item?.en), `${lesson.id}: ${field}[${index}].en is missing`);
     requireCondition(normalText(item?.zh), `${lesson.id}: ${field}[${index}].zh is missing`);
+    if (requireProvenance) {
+      requireCondition(
+        ["pdf", "editorial-translation"].includes(item?.enSource),
+        `${lesson.id}: ${field}[${index}].enSource is missing or invalid`
+      );
+      requireCondition(
+        !/[\u3400-\u9fff]/u.test(item.en),
+        `${lesson.id}: ${field}[${index}].en contains Chinese extraction leakage`
+      );
+    }
   });
 }
 
@@ -68,8 +84,17 @@ function validateLesson(lesson, number) {
   requireCondition(normalText(lesson.exampleZh), `${lessonId}: exampleZh is missing`);
   requireCondition(Array.isArray(lesson.instructions?.en) && lesson.instructions.en.length > 0, `${lessonId}: English instructions are missing`);
   requireCondition(Array.isArray(lesson.instructions?.zh) && lesson.instructions.zh.length > 0, `${lessonId}: Chinese instructions are missing`);
-  validateBilingualItems(lesson, "benefits");
-  validateBilingualItems(lesson, "rules");
+  validateBilingualItems(lesson, "benefits", { requireProvenance: number >= 115 });
+  validateBilingualItems(lesson, "rules", { requireProvenance: number >= 115 });
+
+  if (number >= 115) {
+    for (const field of ["title", "titleZh"]) {
+      requireCondition(
+        occurrenceCount(lesson[field], "「") === occurrenceCount(lesson[field], "」"),
+        `${lesson.id}: ${field} has unbalanced Chinese quotation marks`
+      );
+    }
+  }
 
   const source = lesson.source;
   requireCondition(source && typeof source === "object" && !Array.isArray(source), `${lessonId}: source metadata is missing`);
@@ -154,7 +179,7 @@ function validateLesson(lesson, number) {
         `${expectedId}: invalid source.${field}`
       );
     }
-    for (const field of ["promptZhPage", "answerZhPage"]) {
+    for (const field of OPTIONAL_SOURCE_PAGE_FIELDS) {
       const page = question.source?.[field];
       if (page === undefined) continue;
       requireCondition(
@@ -245,7 +270,7 @@ for (let number = FIRST_LESSON; number <= LAST_LESSON; number += 1) {
   lessons.push(validateLesson(lesson, number));
 }
 
-const output = `// Generated from tools/sentence-structure-lessons/ss05.json through ss114.json.\n`
+const output = `// Generated from tools/sentence-structure-lessons/ss05.json through ss218.json.\n`
   + `// Run tools/build-sentence-structure-expansion.mjs after editing an imported lesson.\n`
   + `(function () {\n`
   + `  "use strict";\n`

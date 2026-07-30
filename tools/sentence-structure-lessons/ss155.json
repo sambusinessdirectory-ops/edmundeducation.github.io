@@ -1,0 +1,1221 @@
+{
+  "id": "ss155",
+  "order": 155,
+  "slug": "declarative-questions",
+  "title": "Declarative Question 陳述式問句",
+  "titleZh": "「Declarative Question 陳述式問句」",
+  "titleEn": "Using declarative questions for confirmation, surprise or follow-up",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 155 -「Declarative Question 陳述式問句」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + verb / auxiliary verb + other information + ?",
+  "formulas": [
+    {
+      "id": "ss155-formula-01",
+      "labelEn": "Declarative question",
+      "labelZh": "陳述式問句",
+      "formula": "Subject + verb / auxiliary verb + other information + ?"
+    }
+  ],
+  "example": "You told him already?",
+  "exampleZh": "你已經告訴他了？",
+  "examples": [
+    {
+      "id": "ss155-example-01",
+      "en": "You told him already?",
+      "zh": "你已經告訴他了？",
+      "highlight": "You told him already?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss155-rule-01",
+      "zh": "保留陳述句語序 一般問句通常把助動詞放在主語之前： 陳述式問句不使用這種倒裝：",
+      "en": "Keep statement word order. A standard question normally places the auxiliary before the subject, as in Did you call her? A declarative question does not use this inversion: You called her?",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Did you call her?",
+        "You called her?"
+      ]
+    },
+    {
+      "id": "ss155-rule-02",
+      "zh": "必要時移除 do、does 或 did 當一般問句使用 do、does 或 did 時，改寫後通常要移除這些助動詞，並把主要動詞改成正確形 式。",
+      "en": "Remove do, does or did when necessary. When a standard question uses one of these auxiliaries, the declarative question normally removes it and changes the main verb to the correct form: Does Ben work here? becomes Ben works here?; Did Emma leave early? becomes Emma left early?",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Does Ben work here?",
+        "Ben works here?",
+        "Did Emma leave early?",
+        "Emma left early?"
+      ]
+    },
+    {
+      "id": "ss155-rule-03",
+      "zh": "be 動詞、情態動詞及完成式助動詞放在主語後",
+      "en": "Keep be verbs, modal verbs and perfect auxiliaries after the subject be Is she coming? She is coming? Can you swim? You can swim? Have they finished? They have finished?",
+      "enSource": "pdf",
+      "examples": [
+        "Is she coming?",
+        "She is coming?",
+        "Can you swim?",
+        "You can swim?",
+        "Have they finished?",
+        "They have finished?"
+      ]
+    },
+    {
+      "id": "ss155-rule-04",
+      "zh": "使用上揚語調 在說話時，句尾聲調通常上揚，讓聽者知道這是一條問題，而不是普通陳述句。",
+      "en": "Use rising intonation. In speech, the voice normally rises at the end so that the listener recognises the utterance as a question rather than an ordinary statement.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss155-rule-05",
+      "zh": "主要用於確認、驚訝或追問 陳述式問句通常表示說話者已經聽到、看到或猜到某些資料，現在想確認是否正確。 這句通常表示說話者對「你勝出了」感到驚訝，並希望確認消息。",
+      "en": "Use declarative questions mainly for confirmation, surprise or follow-up questions. They normally show that the speaker has heard, seen or guessed some information and now wants to check whether it is correct. You won the competition? usually expresses surprise at the news and asks for confirmation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You won the competition?"
+      ]
+    },
+    {
+      "id": "ss155-rule-06",
+      "zh": "較常用於對話 陳述式問句常見於日常對話、電影對白及即時追問。正式問卷、正式訪問或需要完全中立地索取 資料時，一般問句通常較合適。",
+      "en": "Declarative questions are more common in conversation, film dialogue and immediate follow-up questions. Standard questions are generally more suitable in formal questionnaires or interviews, or when requesting information in a completely neutral way.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss155-benefit-01",
+      "zh": "幫助你迅速確認資料 當別人剛剛告訴你一件事時，你可以直接重複重點並加上問號，不需要重新組織一條完整的一般 問句。 （會議已經取消了？）",
+      "en": "It helps you confirm information quickly. When someone has just told you something, you can repeat the key information with a question mark instead of reorganising it as a full standard question: The meeting has been cancelled?",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The meeting has been cancelled?"
+      ]
+    },
+    {
+      "id": "ss155-benefit-02",
+      "zh": "自然表達驚訝 陳述式問句可以讓聽者立即感受到你對消息感到意外。 （你一直步行回家？）",
+      "en": "It shows surprise naturally. A declarative question lets the listener immediately hear that the news has surprised you: You walked all the way home?",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You walked all the way home?"
+      ]
+    },
+    {
+      "id": "ss155-benefit-03",
+      "zh": "令追問聽起來更像自然對話 當你正在與別人交談時，這個句型可以讓追問簡短、直接，不會像正式訪問問題一樣生硬。",
+      "en": "It makes follow-up questions sound conversational. During a conversation, the structure keeps a follow-up short and direct without making it sound as stiff as a formal interview question.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss155-benefit-04",
+      "zh": "表示你對答案已有一定猜測 一般問句可以完全中立地索取資料，而陳述式問句通常表示你已經相信某件事可能是真的，只是 希望對方確認。 Compare 比較： （你讀完整本書了嗎？） 這是一條較中立的一般問題。 （你讀完整本書了？） 這句帶有確認或驚訝的語氣。",
+      "en": "It shows that you already have an idea of the answer. A standard question can request information neutrally, whereas a declarative question normally suggests that you already think something may be true and only want confirmation. Did you finish the whole book? is neutral; You finished the whole book? conveys confirmation or surprise.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Did you finish the whole book?",
+        "You finished the whole book?"
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Declarative Question 陳述式問句.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Declarative Question 陳述式問句 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss155-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Do you live near the school?",
+      "promptZh": "你住在學校附近嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You live near the school?",
+      "answerZh": "你住在學校附近？",
+      "answerZhSource": "pdf",
+      "highlight": "You live near the school?"
+    },
+    {
+      "id": "ss155-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Is Mia your classmate?",
+      "promptZh": "米婭是你的同學嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is your classmate?",
+      "answerZh": "米婭是你的同學？",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is your classmate?"
+    },
+    {
+      "id": "ss155-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Does Ben play basketball every Saturday?",
+      "promptZh": "本每逢星期六都打籃球嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben plays basketball every Saturday?",
+      "answerZh": "本每逢星期六都打籃球？",
+      "answerZhSource": "pdf",
+      "highlight": "Ben plays basketball every Saturday?"
+    },
+    {
+      "id": "ss155-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Did they arrive before noon?",
+      "promptZh": "他們在中午前到達了嗎？",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They arrived before noon?",
+      "answerZh": "他們在中午前到達了？",
+      "answerZhSource": "pdf",
+      "highlight": "They arrived before noon?"
+    },
+    {
+      "id": "ss155-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Can you use this printer?",
+      "promptZh": "你可以使用這部打印機嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can use this printer?",
+      "answerZh": "你可以使用這部打印機？",
+      "answerZhSource": "pdf",
+      "highlight": "You can use this printer?"
+    },
+    {
+      "id": "ss155-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Does the bus stop outside the museum?",
+      "promptZh": "巴士會停在博物館外面嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus stops outside the museum?",
+      "answerZh": "巴士會停在博物館外面？",
+      "answerZhSource": "pdf",
+      "highlight": "The bus stops outside the museum?"
+    },
+    {
+      "id": "ss155-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Did Emma buy the blue dress?",
+      "promptZh": "艾瑪買了那條藍色連身裙嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma bought the blue dress?",
+      "answerZh": "艾瑪買了那條藍色連身裙？",
+      "answerZhSource": "pdf",
+      "highlight": "Emma bought the blue dress?"
+    },
+    {
+      "id": "ss155-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Does your father work from home?",
+      "promptZh": "你爸爸在家工作嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your father works from home?",
+      "answerZh": "你爸爸在家工作？",
+      "answerZhSource": "pdf",
+      "highlight": "Your father works from home?"
+    },
+    {
+      "id": "ss155-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Was Leo absent yesterday?",
+      "promptZh": "里奧昨天缺席了嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo was absent yesterday?",
+      "answerZh": "里奧昨天缺席了？",
+      "answerZhSource": "pdf",
+      "highlight": "Leo was absent yesterday?"
+    },
+    {
+      "id": "ss155-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Do we need to bring our own towels?",
+      "promptZh": "我們需要自備毛巾嗎？",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to bring our own towels?",
+      "answerZh": "我們需要自備毛巾？",
+      "answerZhSource": "pdf",
+      "highlight": "We need to bring our own towels?"
+    },
+    {
+      "id": "ss155-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Chloe has finished the report, hasn't she?",
+      "promptZh": "克洛伊已經完成報告了，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe has finished the report?",
+      "answerZh": "克洛伊已經完成報告了？",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe has finished the report?"
+    },
+    {
+      "id": "ss155-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Can I confirm that the meeting starts at nine?",
+      "promptZh": "我可以確認一下，會議是在九時開始嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting starts at nine?",
+      "answerZh": "會議在九時開始？",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting starts at nine?"
+    },
+    {
+      "id": "ss155-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Are you joining us for lunch?",
+      "promptZh": "你會和我們一起吃午飯嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You are joining us for lunch?",
+      "answerZh": "你會和我們一起吃午飯？",
+      "answerZhSource": "pdf",
+      "highlight": "You are joining us for lunch?"
+    },
+    {
+      "id": "ss155-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel knows the new manager, doesn't he?",
+      "promptZh": "丹尼爾認識新任經理，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel knows the new manager?",
+      "answerZh": "丹尼爾認識新任經理？",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel knows the new manager?"
+    },
+    {
+      "id": "ss155-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Is it true that the tickets were sold online?",
+      "promptZh": "門票確實是在網上出售的嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The tickets were sold online?",
+      "answerZh": "門票是在網上出售的？",
+      "answerZhSource": "pdf",
+      "highlight": "The tickets were sold online?"
+    },
+    {
+      "id": "ss155-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Do your neighbours have a dog?",
+      "promptZh": "你的鄰居養了一隻狗嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your neighbours have a dog?",
+      "answerZh": "你的鄰居養了一隻狗？",
+      "answerZhSource": "pdf",
+      "highlight": "Your neighbours have a dog?"
+    },
+    {
+      "id": "ss155-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This key opens the back door, doesn't it?",
+      "promptZh": "這把鑰匙可以打開後門，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This key opens the back door?",
+      "answerZh": "這把鑰匙可以打開後門？",
+      "answerZhSource": "pdf",
+      "highlight": "This key opens the back door?"
+    },
+    {
+      "id": "ss155-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Will Olivia call us tonight?",
+      "promptZh": "奧莉花今晚會致電給我們嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia will call us tonight?",
+      "answerZh": "奧莉花今晚會致電給我們？",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia will call us tonight?"
+    },
+    {
+      "id": "ss155-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Are the children allowed to use the playground?",
+      "promptZh": "孩子們獲准使用遊樂場嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children are allowed to use the playground?",
+      "answerZh": "孩子們獲准使用遊樂場？",
+      "answerZhSource": "pdf",
+      "highlight": "The children are allowed to use the playground?"
+    },
+    {
+      "id": "ss155-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Am I right in thinking that you left your umbrella on the train?",
+      "promptZh": "我理解得對嗎？你把雨傘留在火車上了？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You left your umbrella on the train?",
+      "answerZh": "你把雨傘留在火車上了？",
+      "answerZhSource": "pdf",
+      "highlight": "You left your umbrella on the train?"
+    },
+    {
+      "id": "ss155-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You haven't eaten breakfast, have you?",
+      "promptZh": "你還沒有吃早餐，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You haven't eaten breakfast?",
+      "answerZh": "你還沒有吃早餐？",
+      "answerZhSource": "pdf",
+      "highlight": "You haven't eaten breakfast?"
+    },
+    {
+      "id": "ss155-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Isn't the library open on Sundays?",
+      "promptZh": "圖書館星期日不是開放的嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library isn't open on Sundays?",
+      "answerZh": "圖書館星期日不開放？",
+      "answerZhSource": "pdf",
+      "highlight": "The library isn't open on Sundays?"
+    },
+    {
+      "id": "ss155-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Is it true that Ethan has never flown before?",
+      "promptZh": "伊森以前真的從未坐過飛機嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan has never flown before?",
+      "answerZh": "伊森以前從未坐過飛機？",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan has never flown before?"
+    },
+    {
+      "id": "ss155-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Can you confirm that the parcel was delivered this morning?",
+      "promptZh": "你可以確認包裹是在今早送達的嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel was delivered this morning?",
+      "answerZh": "包裹今早已經送達？",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel was delivered this morning?"
+    },
+    {
+      "id": "ss155-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Your phone can record high-quality video, can't it?",
+      "promptZh": "你的手機可以拍攝高清影片，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your phone can record high-quality video?",
+      "answerZh": "你的手機可以拍攝高清影片？",
+      "answerZhSource": "pdf",
+      "highlight": "Your phone can record high-quality video?"
+    },
+    {
+      "id": "ss155-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Did the doctor ask you to rest for a week?",
+      "promptZh": "醫生叫你休息一星期嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor asked you to rest for a week?",
+      "answerZh": "醫生叫你休息一星期？",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor asked you to rest for a week?"
+    },
+    {
+      "id": "ss155-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Is the school closing early because of the storm?",
+      "promptZh": "學校會因為暴風雨而提早關閉嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school is closing early because of the storm?",
+      "answerZh": "學校會因為暴風雨而提早關閉？",
+      "answerZhSource": "pdf",
+      "highlight": "The school is closing early because of the storm?"
+    },
+    {
+      "id": "ss155-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Didn't you receive my message?",
+      "promptZh": "你不是已經收到我的訊息嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You didn't receive my message?",
+      "answerZh": "你沒有收到我的訊息？",
+      "answerZhSource": "pdf",
+      "highlight": "You didn't receive my message?"
+    },
+    {
+      "id": "ss155-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Is the new machine being tested today?",
+      "promptZh": "新機器今天正在接受測試嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new machine is being tested today?",
+      "answerZh": "新機器今天正在接受測試？",
+      "answerZhSource": "pdf",
+      "highlight": "The new machine is being tested today?"
+    },
+    {
+      "id": "ss155-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah has been working here for five years, hasn't she?",
+      "promptZh": "莎拉已經在這裏工作五年了，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah has been working here for five years?",
+      "answerZh": "莎拉已經在這裏工作五年了？",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah has been working here for five years?"
+    },
+    {
+      "id": "ss155-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The customer wants a full refund. Is that right?",
+      "promptZh": "顧客要求全額退款。是這樣嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer wants a full refund?",
+      "answerZh": "顧客要求全額退款？",
+      "answerZhSource": "pdf",
+      "highlight": "The customer wants a full refund?"
+    },
+    {
+      "id": "ss155-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Were you waiting outside when I called?",
+      "promptZh": "我打電話給你時，你正在外面等候嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You were waiting outside when I called?",
+      "answerZh": "我打電話給你時，你正在外面等候？",
+      "answerZhSource": "pdf",
+      "highlight": "You were waiting outside when I called?"
+    },
+    {
+      "id": "ss155-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Should this medicine be taken after meals?",
+      "promptZh": "這種藥應該在飯後服用嗎？",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine should be taken after meals?",
+      "answerZh": "這種藥應該在飯後服用？",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine should be taken after meals?"
+    },
+    {
+      "id": "ss155-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Is it possible that the team might cancel tomorrow's practice?",
+      "promptZh": "球隊有可能取消明天的練習嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team might cancel tomorrow's practice?",
+      "answerZh": "球隊可能會取消明天的練習？",
+      "answerZhSource": "pdf",
+      "highlight": "The team might cancel tomorrow's practice?"
+    },
+    {
+      "id": "ss155-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Had your older brother already left before you arrived?",
+      "promptZh": "你到達前，你哥哥已經離開了嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your older brother had already left before you arrived?",
+      "answerZh": "你到達前，你哥哥已經離開了？",
+      "answerZhSource": "pdf",
+      "highlight": "Your older brother had already left before you arrived?"
+    },
+    {
+      "id": "ss155-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Is it correct that the hotel does not provide breakfast?",
+      "promptZh": "酒店不提供早餐，這說法正確嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hotel doesn't provide breakfast?",
+      "answerZh": "酒店不提供早餐？",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel doesn't provide breakfast?"
+    },
+    {
+      "id": "ss155-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Were the files moved to another folder?",
+      "promptZh": "檔案被移到另一個資料夾了嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The files were moved to another folder?",
+      "answerZh": "檔案被移到另一個資料夾了？",
+      "answerZhSource": "pdf",
+      "highlight": "The files were moved to another folder?"
+    },
+    {
+      "id": "ss155-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Would you choose the later flight?",
+      "promptZh": "你會選擇較晚的航班嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You would choose the later flight?",
+      "answerZh": "你會選擇較晚的航班？",
+      "answerZhSource": "pdf",
+      "highlight": "You would choose the later flight?"
+    },
+    {
+      "id": "ss155-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Does the teacher expect us to finish both tasks today?",
+      "promptZh": "老師期望我們今天完成兩項任務嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher expects us to finish both tasks today?",
+      "answerZh": "老師期望我們今天完成兩項任務？",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher expects us to finish both tasks today?"
+    },
+    {
+      "id": "ss155-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Will the road remain closed until Friday?",
+      "promptZh": "道路會封閉至星期五嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road will remain closed until Friday?",
+      "answerZh": "道路會封閉至星期五？",
+      "answerZhSource": "pdf",
+      "highlight": "The road will remain closed until Friday?"
+    },
+    {
+      "id": "ss155-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Is the company planning to open another office in Singapore?",
+      "promptZh": "公司正計劃在新加坡開設另一間辦事處嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company is planning to open another office in Singapore?",
+      "answerZh": "公司正計劃在新加坡開設另一間辦事處？",
+      "answerZhSource": "pdf",
+      "highlight": "The company is planning to open another office in Singapore?"
+    },
+    {
+      "id": "ss155-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Have you been asked to lead the presentation next week?",
+      "promptZh": "你獲要求在下星期負責簡報嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You have been asked to lead the presentation next week?",
+      "answerZh": "你獲要求在下星期負責簡報？",
+      "answerZhSource": "pdf",
+      "highlight": "You have been asked to lead the presentation next week?"
+    },
+    {
+      "id": "ss155-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum allows visitors to take photographs without flash. Is that correct?",
+      "promptZh": "博物館容許訪客在不用閃光燈的情況下拍照。這說法正確嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum allows visitors to take photographs without flash?",
+      "answerZh": "博物館容許訪客在不用閃光燈的情況下拍照？",
+      "answerZhSource": "pdf",
+      "highlight": "The museum allows visitors to take photographs without flash?"
+    },
+    {
+      "id": "ss155-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Am I right in thinking that the repair will cost more than the original price?",
+      "promptZh": "我理解得對嗎？維修費會高於原本的價格？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repair will cost more than the original price?",
+      "answerZh": "維修費會高於原本的價格？",
+      "answerZhSource": "pdf",
+      "highlight": "The repair will cost more than the original price?"
+    },
+    {
+      "id": "ss155-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Would your parents let you travel alone if you planned everything carefully?",
+      "promptZh": "如果你仔細計劃一切，你父母會讓你獨自旅行嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your parents would let you travel alone if you planned everything carefully?",
+      "answerZh": "如果你仔細計劃一切，你父母就會讓你獨自旅行？",
+      "answerZhSource": "pdf",
+      "highlight": "Your parents would let you travel alone if you planned everything carefully?"
+    },
+    {
+      "id": "ss155-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Had the train already left when you reached the platform?",
+      "promptZh": "你到達月台時，火車已經開走了嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train had already left when you reached the platform?",
+      "answerZh": "你到達月台時，火車已經開走了？",
+      "answerZhSource": "pdf",
+      "highlight": "The train had already left when you reached the platform?"
+    },
+    {
+      "id": "ss155-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Is it possible that the committee may announce its final decision before the end of the month?",
+      "promptZh": "委員會有可能在本月底前公布最終決定嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee may announce its final decision before the end of the month?",
+      "answerZh": "委員會可能會在本月底前公布最終決定？",
+      "answerZhSource": "pdf",
+      "highlight": "The committee may announce its final decision before the end of the month?"
+    },
+    {
+      "id": "ss155-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Do you mean that the system can recover all the lost data?",
+      "promptZh": "你的意思是系統可以復原所有遺失的資料嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The system can recover all the lost data?",
+      "answerZh": "系統可以復原所有遺失的資料？",
+      "answerZhSource": "pdf",
+      "highlight": "The system can recover all the lost data?"
+    },
+    {
+      "id": "ss155-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new rule applies even to staff who work from home. Is that correct?",
+      "promptZh": "新規則甚至適用於在家工作的員工。這說法正確嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule applies even to staff who work from home?",
+      "answerZh": "新規則甚至適用於在家工作的員工？",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule applies even to staff who work from home?"
+    },
+    {
+      "id": "ss155-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You completed the entire project without asking anyone for help, didn't you?",
+      "promptZh": "你在沒有向任何人求助的情況下完成了整個項目，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You completed the entire project without asking anyone for help?",
+      "answerZh": "你在沒有向任何人求助的情況下完成了整個項目？",
+      "answerZhSource": "pdf",
+      "highlight": "You completed the entire project without asking anyone for help?"
+    }
+  ]
+}

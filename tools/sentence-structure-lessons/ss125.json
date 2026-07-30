@@ -1,0 +1,1268 @@
+{
+  "id": "ss125",
+  "order": 125,
+  "slug": "negative-fronting-inversion",
+  "title": "「By no means _ Under no circumstances _ Never」句首否定倒裝句",
+  "titleZh": "「By no means _ Under no circumstances _ Never」句首否定倒裝句",
+  "titleEn": "Using negative fronting with by no means, under no circumstances and never",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 125 -「By no means _ Under no circumstances _ Never」句首否定倒裝句.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "By no means + auxiliary verb / modal verb / be + subject + other information",
+  "formulas": [
+    {
+      "id": "ss125-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "By no means + auxiliary verb / modal verb / be + subject + other information"
+    },
+    {
+      "id": "ss125-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Under no circumstances + auxiliary verb / modal verb / be + subject + other information"
+    },
+    {
+      "id": "ss125-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Never / Never before + auxiliary verb / modal verb / be + subject + other information"
+    }
+  ],
+  "example": "By no means is this restaurant cheap.",
+  "exampleZh": "這家餐廳絕對不便宜。",
+  "examples": [
+    {
+      "id": "ss125-example-01",
+      "en": "By no means is this restaurant cheap.",
+      "zh": "這家餐廳絕對不便宜。",
+      "highlight": "By no means is this restaurant cheap"
+    },
+    {
+      "id": "ss125-example-02",
+      "en": "Under no circumstances should employees ignore safety rules.",
+      "zh": "員工在任何情況下都不應忽視安全守則。",
+      "highlight": "Under no circumstances should employees ignore safety rules"
+    },
+    {
+      "id": "ss125-example-03",
+      "en": "Never have I seen such a difficult examination.",
+      "zh": "我從未見過如此困難的考試。",
+      "highlight": "Never have I seen such a difficult examination"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss125-rule-01",
+      "zh": "放在句首時，要使用倒裝句 一般句： 倒裝句： 不要寫成：",
+      "en": "Use inversion after these negative expressions when they begin a sentence: move the auxiliary before the subject rather than retaining ordinary statement order.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss125-rule-02",
+      "zh": "原句沒有助動詞時，要加入 do、does 或 did 加入 does 或 did 後，主要動詞要使用原形：",
+      "en": "Add do, does or did when the original clause has no auxiliary. After does or did, use the base form of the main verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "does Amy agree",
+        "did Sarah intend"
+      ]
+    },
+    {
+      "id": "ss125-rule-03",
+      "zh": "be 動詞要直接放在主詞前面 一般句： 倒裝句：",
+      "en": "Move the verb be directly before the subject.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss125-rule-04",
+      "zh": "情態動詞要放在主詞前面 常見情態動詞包括：",
+      "en": "Move a modal verb before the subject. Common modals in this pattern include should, must, can, could, may, will and would.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "should",
+        "must",
+        "can",
+        "could",
+        "may",
+        "will",
+        "would"
+      ]
+    },
+    {
+      "id": "ss125-rule-05",
+      "zh": "不要再加入 not By no means、Under no circumstances 和 Never 本身已經帶有否定意思，因此通常不要再加入 正確： 錯誤：",
+      "en": "Do not add not after the initial negative expression. By no means, under no circumstances and never already carry negative meaning, so an additional not is normally incorrect.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss125-rule-06",
+      "zh": "三個結構的意思並不完全相同 主要用來強烈否定一個說法、判斷或可能性。 意思是：說它簡單是完全不正確的。 主要用來表達沒有任何例外的規則、禁令、警告或承諾。 意思是：不論發生甚麼事，都不可以進入。 主要表示某件事在某段時間內一次也沒有發生，或將來永遠不會發生。",
+      "en": "By no means, under no circumstances and never do not have exactly the same meaning. By no means strongly rejects a claim, judgement or possibility and says that the description is completely wrong. Under no circumstances states a rule, prohibition, warning or promise with no exceptions. Never says that something did not happen at any time in a period or will not happen at any future time.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "By no means is the problem simple.",
+        "Under no circumstances may visitors enter this room.",
+        "Never have I visited that country.",
+        "Never will I forget your kindness."
+      ]
+    },
+    {
+      "id": "ss125-rule-07",
+      "zh": "Never 常與不同時態配合 人生經驗：Present Perfect 過去某個時間之前：Past Perfect 對未來的承諾或決心：will 習慣或一般情況：do / does",
+      "en": "Never can be used with different tenses: the present perfect for life experience, the past perfect for a time before another past event, will for a future promise or determination, and do or does for habits or general situations.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Never have I tried this dish before.",
+        "Never had she travelled alone before that trip.",
+        "Never will we share your personal information.",
+        "Never does he complain about small problems."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss125-benefit-01",
+      "zh": "讓否定意思更加清楚有力 普通的 not 只表示否定；這三個句型可以讓讀者立即知道，說話者正在作出非常強烈的否定。 比較： 第二句的立場明顯更堅定。",
+      "en": "It makes negative meaning clearer and stronger. Ordinary not merely negates, whereas these three openings immediately signal an emphatic rejection; in the comparison, the inverted version states the position much more firmly.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "This plan is not practical.",
+        "By no means is this plan practical."
+      ]
+    },
+    {
+      "id": "ss125-benefit-02",
+      "zh": "能夠表達「完全沒有例外」 Under no circumstances 特別適合用於安全規則、公司政策、正式警告和重要指示。 讀者會清楚知道這項規則沒有例外。",
+      "en": "It can express that there are absolutely no exceptions. Under no circumstances is especially suitable for safety rules, company policies, formal warnings and important instructions, making it clear that the rule admits no exception.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Under no circumstances should passwords be shared."
+      ]
+    },
+    {
+      "id": "ss125-benefit-03",
+      "zh": "能夠強調經驗、承諾和決心 Never 可以讓你有力地表達從未有過的經驗，或對將來作出的堅定承諾。",
+      "en": "It can emphasize experience, promises and determination. Never gives force to statements about unprecedented experience and firm commitments about the future.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Never have I experienced such helpful service.",
+        "Never will we accept an unsafe solution."
+      ]
+    },
+    {
+      "id": "ss125-benefit-04",
+      "zh": "適合正式寫作和重要場合 這些句型常見於： ● 作文 ● 報告 ● 演講 ● 商業政策 ● 正式電郵 ● 安全指引 ● 公開聲明 它們可以令重要立場更突出，但不適合在每一句中過度使用。",
+      "en": "It is suitable for formal writing and important situations, including essays, reports, speeches, business policies, formal emails, safety guidance and public statements. These structures make an important position prominent, but should not be overused in every sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss125-benefit-05",
+      "zh": "增加句子開頭的變化 學生經常以 I、The company、People 或 We 開始每一句。使用句首否定倒裝，可以改變句子的開 頭，令文章不會過度重複。 一般句： 倒裝句： 兩句意思相同，但第二句把「絕不」放在最顯眼的位置。",
+      "en": "It adds variety to sentence openings. Instead of beginning every sentence with I, The company, People or We, initial negative inversion foregrounds the emphatic negative and avoids repetitive openings; the meaning is unchanged, but the second version places ‘never’ in the most prominent position.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the structure shown in brackets. Begin with the first word provided and use inversion after the negative expression.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "按照括號內指定的結構改寫句子。使用題目提供的第一個字開始，並在句首否定詞語後使用倒裝 句。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss125-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This restaurant is definitely not cheap. 〔Use: By no means〕",
+      "promptZh": "這家餐廳絕對不便宜。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means is this restaurant cheap.",
+      "answerZh": "這家餐廳絕對不便宜。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means is this restaurant cheap."
+    },
+    {
+      "id": "ss125-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You must not touch this switch in any situation. 〔Use: Under no circumstances〕",
+      "promptZh": "你在任何情況下都不可觸碰這個開關。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances must you touch this switch.",
+      "answerZh": "你在任何情況下都不可觸碰這個開關。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances must you touch this switch."
+    },
+    {
+      "id": "ss125-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I have never seen such a crowded station. 〔Use: Never〕",
+      "promptZh": "我從未見過如此擠迫的車站。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never have I seen such a crowded station.",
+      "answerZh": "我從未見過如此擠迫的車站。",
+      "answerZhSource": "pdf",
+      "highlight": "Never have I seen such a crowded station."
+    },
+    {
+      "id": "ss125-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The examination is certainly not easy. 〔Use: By no means〕",
+      "promptZh": "這場考試絕對不容易。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means is the examination easy.",
+      "answerZh": "這場考試絕對不容易。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means is the examination easy."
+    },
+    {
+      "id": "ss125-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Students may not use their phones during the examination in any situation. 〔Use: Under no circumstances〕",
+      "promptZh": "學生在考試期間任何情況下都不可使用電話。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances may students use their phones during the examination.",
+      "answerZh": "學生在考試期間任何情況下都不可使用電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances may students use their phones during the examination."
+    },
+    {
+      "id": "ss125-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I will never forget my first day at school. 〔Use: Never〕",
+      "promptZh": "我永遠不會忘記上學的第一天。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never will I forget my first day at school.",
+      "answerZh": "我永遠不會忘記上學的第一天。",
+      "answerZhSource": "pdf",
+      "highlight": "Never will I forget my first day at school."
+    },
+    {
+      "id": "ss125-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Amy definitely does not agree with the decision. 〔Use: By no means〕",
+      "promptZh": "艾米絕對不同意這項決定。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means does Amy agree with the decision.",
+      "answerZh": "艾米絕對不同意這項決定。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means does Amy agree with the decision."
+    },
+    {
+      "id": "ss125-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Drivers should not park here under any circumstances. 〔Use: Under no circumstances〕",
+      "promptZh": "駕駛者在任何情況下都不應在這裏泊車。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances should drivers park here.",
+      "answerZh": "駕駛者在任何情況下都不應在這裏泊車。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances should drivers park here."
+    },
+    {
+      "id": "ss125-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Ben never complains about small problems. 〔Use: Never〕",
+      "promptZh": "本從不為小問題抱怨。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never does Ben complain about small problems.",
+      "answerZh": "本從不為小問題抱怨。",
+      "answerZhSource": "pdf",
+      "highlight": "Never does Ben complain about small problems."
+    },
+    {
+      "id": "ss125-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The room was not clean at all. 〔Use: By no means〕",
+      "promptZh": "這個房間一點也不乾淨。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means was the room clean.",
+      "answerZh": "這個房間一點也不乾淨。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means was the room clean."
+    },
+    {
+      "id": "ss125-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Visitors are not allowed to enter the staff room under any circumstances. 〔Use: Under no circumstances〕",
+      "promptZh": "訪客在任何情況下都不得進入職員室。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances are visitors allowed to enter the staff room.",
+      "answerZh": "訪客在任何情況下都不得進入職員室。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances are visitors allowed to enter the staff room."
+    },
+    {
+      "id": "ss125-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Chloe never expected to win the prize. 〔Use: Never〕",
+      "promptZh": "克洛伊從未預料自己會得獎。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never did Chloe expect to win the prize.",
+      "answerZh": "克洛伊從未預料自己會得獎。",
+      "answerZhSource": "pdf",
+      "highlight": "Never did Chloe expect to win the prize."
+    },
+    {
+      "id": "ss125-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This small bag certainly cannot hold everything. 〔Use: By no means〕",
+      "promptZh": "這個小袋子絕對不可能裝下所有東西。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means can this small bag hold everything.",
+      "answerZh": "這個小袋子絕對不可能裝下所有東西。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means can this small bag hold everything."
+    },
+    {
+      "id": "ss125-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We have never received such helpful service before. 〔Use: Never〕",
+      "promptZh": "我們以前從未得到如此周到的服務。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never have we received such helpful service before.",
+      "answerZh": "我們以前從未得到如此周到的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Never have we received such helpful service before."
+    },
+    {
+      "id": "ss125-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "This door must not be left unlocked in any situation. 〔Use: Under no circumstances〕",
+      "promptZh": "這道門在任何情況下都不可沒有鎖上。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances must this door be left unlocked.",
+      "answerZh": "這道門在任何情況下都不可沒有鎖上。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances must this door be left unlocked."
+    },
+    {
+      "id": "ss125-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager certainly did not blame one employee alone. 〔Use: By no means〕",
+      "promptZh": "經理絕對不是只責怪一名員工。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means did the manager blame one employee alone.",
+      "answerZh": "經理絕對不是只責怪一名員工。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means did the manager blame one employee alone."
+    },
+    {
+      "id": "ss125-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The library never becomes noisy in the morning. 〔Use: Never〕",
+      "promptZh": "圖書館早上從不會變得嘈吵。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never does the library become noisy in the morning.",
+      "answerZh": "圖書館早上從不會變得嘈吵。",
+      "answerZhSource": "pdf",
+      "highlight": "Never does the library become noisy in the morning."
+    },
+    {
+      "id": "ss125-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company will not share customer data with third parties in any situation. 〔Use: Under no circumstances〕",
+      "promptZh": "公司在任何情況下都不會與第三方分享顧客資料。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances will the company share customer data with third parties.",
+      "answerZh": "公司在任何情況下都不會與第三方分享顧客資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances will the company share customer data with third parties."
+    },
+    {
+      "id": "ss125-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The instructions were far from clear. 〔Use: By no means〕",
+      "promptZh": "這些指示一點也不清楚。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means were the instructions clear.",
+      "answerZh": "這些指示一點也不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means were the instructions clear."
+    },
+    {
+      "id": "ss125-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before that trip, Leo had never travelled alone. 〔Use: Never〕",
+      "promptZh": "在那次旅程之前，里奧從未獨自旅行。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never had Leo travelled alone before that trip.",
+      "answerZh": "在那次旅程之前，里奧從未獨自旅行。",
+      "answerZhSource": "pdf",
+      "highlight": "Never had Leo travelled alone before that trip."
+    },
+    {
+      "id": "ss125-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The delay should definitely not be treated as a minor issue. 〔Use: By no means〕",
+      "promptZh": "這次延誤絕對不應被視為小問題。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means should the delay be treated as a minor issue.",
+      "answerZh": "這次延誤絕對不應被視為小問題。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means should the delay be treated as a minor issue."
+    },
+    {
+      "id": "ss125-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You cannot share this medicine with another patient under any circumstances. 〔Use: Under no circumstances〕",
+      "promptZh": "你在任何情況下都不可與另一名病人共用這種藥物。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances can you share this medicine with another patient.",
+      "answerZh": "你在任何情況下都不可與另一名病人共用這種藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances can you share this medicine with another patient."
+    },
+    {
+      "id": "ss125-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The nurses have never ignored a safety warning. 〔Use: Never〕",
+      "promptZh": "護士從未忽視安全警告。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never have the nurses ignored a safety warning.",
+      "answerZh": "護士從未忽視安全警告。",
+      "answerZhSource": "pdf",
+      "highlight": "Never have the nurses ignored a safety warning."
+    },
+    {
+      "id": "ss125-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Working longer certainly does not always improve productivity. 〔Use: By no means〕",
+      "promptZh": "延長工作時間絕對不一定能提升生產力。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means does working longer always improve productivity.",
+      "answerZh": "延長工作時間絕對不一定能提升生產力。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means does working longer always improve productivity."
+    },
+    {
+      "id": "ss125-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Personal details should not be posted online without permission in any situation. 〔Use: Under no circumstances〕",
+      "promptZh": "個人資料在任何情況下都不應在未經同意下上載到網上。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances should personal details be posted online without permission.",
+      "answerZh": "個人資料在任何情況下都不應在未經同意下上載到網上。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances should personal details be posted online without permission."
+    },
+    {
+      "id": "ss125-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "At no point did the storm stop the rescue team from working. 〔Use: Never〕",
+      "promptZh": "暴風雨從未阻止救援隊工作。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never did the storm stop the rescue team from working.",
+      "answerZh": "暴風雨從未阻止救援隊工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Never did the storm stop the rescue team from working."
+    },
+    {
+      "id": "ss125-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The new system was definitely not designed to replace teachers. 〔Use: By no means〕",
+      "promptZh": "這個新系統絕對不是為取代教師而設計的。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means was the new system designed to replace teachers.",
+      "answerZh": "這個新系統絕對不是為取代教師而設計的。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means was the new system designed to replace teachers."
+    },
+    {
+      "id": "ss125-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Passengers may not open this door while the train is moving, whatever happens. 〔Use: Under no circumstances〕",
+      "promptZh": "無論發生甚麼事，乘客都不可在列車行駛時打開這道門。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances may passengers open this door while the train is moving.",
+      "answerZh": "乘客在任何情況下都不可在列車行駛時打開這道門。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances may passengers open this door while the train is moving."
+    },
+    {
+      "id": "ss125-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I have never regretted asking for help. 〔Use: Never〕",
+      "promptZh": "我從未後悔向別人求助。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never have I regretted asking for help.",
+      "answerZh": "我從未後悔向別人求助。",
+      "answerZhSource": "pdf",
+      "highlight": "Never have I regretted asking for help."
+    },
+    {
+      "id": "ss125-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "One example certainly cannot prove the whole argument. 〔Use: By no means〕",
+      "promptZh": "單憑一個例子絕對不能證明整個論點。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means can one example prove the whole argument.",
+      "answerZh": "單憑一個例子絕對不能證明整個論點。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means can one example prove the whole argument."
+    },
+    {
+      "id": "ss125-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The machine should not be operated without its safety cover under any circumstances. 〔Use: Under no circumstances〕",
+      "promptZh": "這部機器在任何情況下都不應在沒有安全罩的情況下操作。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances should the machine be operated without its safety cover.",
+      "answerZh": "這部機器在任何情況下都不應在沒有安全罩的情況下操作。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances should the machine be operated without its safety cover."
+    },
+    {
+      "id": "ss125-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before last month, the team had never faced such a tight deadline. 〔Use: Never〕",
+      "promptZh": "在上個月之前，團隊從未面對如此緊迫的限期。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never had the team faced such a tight deadline before last month.",
+      "answerZh": "在上個月之前，團隊從未面對如此緊迫的限期。",
+      "answerZhSource": "pdf",
+      "highlight": "Never had the team faced such a tight deadline before last month."
+    },
+    {
+      "id": "ss125-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "It is certainly not true that all online reviews are reliable. 〔Use: By no means〕",
+      "promptZh": "並非所有網上評論都絕對可靠。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means are all online reviews reliable.",
+      "answerZh": "並非所有網上評論都絕對可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means are all online reviews reliable."
+    },
+    {
+      "id": "ss125-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Refunds will not be issued without a receipt in any situation. 〔Use: Under no circumstances〕",
+      "promptZh": "在任何情況下，如沒有收據，都不會獲發退款。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances will refunds be issued without a receipt.",
+      "answerZh": "在任何情況下，如沒有收據，都不會獲發退款。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances will refunds be issued without a receipt."
+    },
+    {
+      "id": "ss125-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A responsible leader should never ignore evidence. 〔Use: Never〕",
+      "promptZh": "負責任的領袖絕不應忽視證據。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never should a responsible leader ignore evidence.",
+      "answerZh": "負責任的領袖絕不應忽視證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Never should a responsible leader ignore evidence."
+    },
+    {
+      "id": "ss125-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Sarah certainly did not intend to offend anyone. 〔Use: By no means〕",
+      "promptZh": "莎拉絕對無意冒犯任何人。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means did Sarah intend to offend anyone.",
+      "answerZh": "莎拉絕對無意冒犯任何人。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means did Sarah intend to offend anyone."
+    },
+    {
+      "id": "ss125-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Staff are not to disclose their passwords under any circumstances. 〔Use: Under no circumstances〕",
+      "promptZh": "職員在任何情況下都不得透露自己的密碼。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances are staff to disclose their passwords.",
+      "answerZh": "職員在任何情況下都不得透露自己的密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances are staff to disclose their passwords."
+    },
+    {
+      "id": "ss125-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 23
+      },
+      "prompt": "The museum has never displayed this painting in public. 〔Use: Never〕",
+      "promptZh": "博物館從未公開展出這幅畫。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never has the museum displayed this painting in public.",
+      "answerZh": "博物館從未公開展出這幅畫。",
+      "answerZhSource": "pdf",
+      "highlight": "Never has the museum displayed this painting in public."
+    },
+    {
+      "id": "ss125-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Learning a language is certainly not limited to memorising rules. 〔Use: By no means〕",
+      "promptZh": "學習語言絕對不只是背誦規則。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means is learning a language limited to memorising rules.",
+      "answerZh": "學習語言絕對不只是背誦規則。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means is learning a language limited to memorising rules."
+    },
+    {
+      "id": "ss125-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The patient could not possibly have left without permission. 〔Use: Under no circumstances〕",
+      "promptZh": "病人在任何情況下都不可能未經許可便離開。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances could the patient have left without permission.",
+      "answerZh": "病人在任何情況下都不可能未經許可便離開。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances could the patient have left without permission."
+    },
+    {
+      "id": "ss125-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Olivia had never imagined that a short conversation could change her career. 〔Use: Never〕",
+      "promptZh": "奧莉花從未想像過，一次短短的對話可以改變她的事業。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never had Olivia imagined that a short conversation could change her career.",
+      "answerZh": "奧莉花從未想像過，一次短短的對話可以改變她的事業。",
+      "answerZhSource": "pdf",
+      "highlight": "Never had Olivia imagined that a short conversation could change her career."
+    },
+    {
+      "id": "ss125-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A temporary fall in sales should definitely not be mistaken for failure. 〔Use: By no means〕",
+      "promptZh": "短期銷售下跌絕對不應被誤認為失敗。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means should a temporary fall in sales be mistaken for failure.",
+      "answerZh": "短期銷售下跌絕對不應被誤認為失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means should a temporary fall in sales be mistaken for failure."
+    },
+    {
+      "id": "ss125-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Confidential files may not be copied onto a personal device in any situation. 〔Use: Under no circumstances〕",
+      "promptZh": "機密檔案在任何情況下都不可複製到私人裝置。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances may confidential files be copied onto a personal device.",
+      "answerZh": "機密檔案在任何情況下都不可複製到私人裝置。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances may confidential files be copied onto a personal device."
+    },
+    {
+      "id": "ss125-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The volunteers have never allowed bad weather to cancel the event. 〔Use: Never〕",
+      "promptZh": "義工從未因惡劣天氣而讓活動取消。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never have the volunteers allowed bad weather to cancel the event.",
+      "answerZh": "義工從未因惡劣天氣而讓活動取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Never have the volunteers allowed bad weather to cancel the event."
+    },
+    {
+      "id": "ss125-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The report does not in any way suggest that every employee is responsible. 〔Use: By no means〕",
+      "promptZh": "這份報告絕對沒有暗示每名員工都需要負責。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means does the report suggest that every employee is responsible.",
+      "answerZh": "這份報告絕對沒有暗示每名員工都需要負責。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means does the report suggest that every employee is responsible."
+    },
+    {
+      "id": "ss125-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "A child should not be left alone near the swimming pool under any circumstances. 〔Use: Under no circumstances〕",
+      "promptZh": "兒童在任何情況下都不應被單獨留在泳池附近。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances should a child be left alone near the swimming pool.",
+      "answerZh": "兒童在任何情況下都不應被單獨留在泳池附近。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances should a child be left alone near the swimming pool."
+    },
+    {
+      "id": "ss125-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Our team will never accept a solution that puts customer safety at risk. 〔Use: Never〕",
+      "promptZh": "我們的團隊絕不會接受危害顧客安全的方案。〔使用：Never〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never will our team accept a solution that puts customer safety at risk.",
+      "answerZh": "我們的團隊絕不會接受危害顧客安全的方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Never will our team accept a solution that puts customer safety at risk."
+    },
+    {
+      "id": "ss125-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The absence of complaints certainly cannot be taken as proof that everyone is satisfied. 〔Use: By no means〕",
+      "promptZh": "沒有收到投訴絕對不能被視為所有人都感到滿意的證明。〔使用：By no means〕",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By no means can the absence of complaints be taken as proof that everyone is satisfied.",
+      "answerZh": "沒有收到投訴絕對不能被視為所有人都感到滿意的證明。",
+      "answerZhSource": "pdf",
+      "highlight": "By no means can the absence of complaints be taken as proof that everyone is satisfied."
+    },
+    {
+      "id": "ss125-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The hospital would not release a patient’s records without legal permission in any situation. 〔Use: Under no circumstances〕",
+      "promptZh": "醫院在任何情況下都不會在未獲法律許可下披露病人的紀錄。〔使用：Under no circumstances〕",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances would the hospital release a patient’s records without legal permission.",
+      "answerZh": "醫院在任何情況下都不會在未獲法律許可下披露病人的紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances would the hospital release a patient’s records without legal permission."
+    },
+    {
+      "id": "ss125-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Before that incident, the company had never faced a crisis that affected customers in six countries at once. 〔Use: Never before〕",
+      "promptZh": "在那宗事件之前，公司從未面對過同時影響六個國家顧客的危機。〔使用：Never before〕",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never before had the company faced a crisis that affected customers in six countries at once.",
+      "answerZh": "在那宗事件之前，公司從未面對過同時影響六個國家顧客的危機。",
+      "answerZhSource": "pdf",
+      "highlight": "Never before had the company faced a crisis that affected customers in six countries at once."
+    }
+  ]
+}

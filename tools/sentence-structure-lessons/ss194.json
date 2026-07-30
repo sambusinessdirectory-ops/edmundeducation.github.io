@@ -1,0 +1,1217 @@
+{
+  "id": "ss194",
+  "order": 194,
+  "slug": "the-instant",
+  "title": "「The instant …」表示「一……就……」",
+  "titleZh": "「The instant …」表示「一……就……」",
+  "titleEn": "Using “the instant ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 194 -「The instant …」表示「一……就……」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "The instant + subject + verb, + main clause",
+  "formulas": [
+    {
+      "id": "ss194-formula-01",
+      "labelEn": "Time clause first",
+      "labelZh": "時間子句在前",
+      "formula": "The instant + subject + verb, + main clause"
+    },
+    {
+      "id": "ss194-formula-02",
+      "labelEn": "Time clause second",
+      "labelZh": "時間子句在後",
+      "formula": "Main clause + the instant + subject + verb"
+    }
+  ],
+  "example": "The instant I saw the message, I knew something was wrong.",
+  "exampleZh": "我一看到那則訊息，就知道出事了。",
+  "examples": [
+    {
+      "id": "ss194-example-01",
+      "en": "The instant I saw the message, I knew something was wrong.",
+      "zh": "我一看到那則訊息，就知道出事了。",
+      "highlight": "The instant I saw the message, I knew something was wrong."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：The instant + subject + verb, + main clause。"
+  },
+  "rules": [
+    {
+      "id": "ss194-rule-01",
+      "zh": "“The instant” 表示事情立即發生 The instant 的意思接近 as soon as 或 the moment，表示第二件事在第一件事發生時立即出 現。 （門一打開，狗便立即跑了出去。） 它不只是表示兩件事在相近時間發生，而是強調兩者之間幾乎沒有時間間隔。",
+      "en": "“The instant” shows that something happens immediately. It is close in meaning to as soon as or the moment and shows that the second event occurs as soon as the first one happens: The instant the door opened, the dog ran outside. It emphasises that there is almost no interval between the two events, not merely that they occur around the same time.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The instant the door opened, the dog ran outside."
+      ]
+    },
+    {
+      "id": "ss194-rule-02",
+      "zh": "“The instant” 後面必須接完整子句 “The instant” 後面需要有主語和動詞。",
+      "en": "Follow “the instant” with a complete clause containing a subject and verb. Correct: The instant I arrived, she called me. Incorrect: The instant my arrival, she called me.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Correct: The instant I arrived, she called me.",
+        "Incorrect: The instant my arrival, she called me."
+      ]
+    },
+    {
+      "id": "ss194-rule-03",
+      "zh": "談及將來時，“the instant” 子句通常使用現在式 在時間子句中，即使意思指向將來，通常也不使用 will。",
+      "en": "For future meaning, normally use the present tense in the “the instant” time clause rather than will. Correct: I will call you the instant I arrive. Incorrect: I will call you the instant I will arrive.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Correct: I will call you the instant I arrive.",
+        "Incorrect: I will call you the instant I will arrive."
+      ]
+    },
+    {
+      "id": "ss194-rule-04",
+      "zh": "注意逗號位置 當 The instant … 放在句首時，時間子句後通常加逗號。 當它放在主句後面時，通常不用逗號。",
+      "en": "Pay attention to comma placement. When the “The instant ...” clause comes first, normally put a comma after it: The instant the bell rang, the students left. When it follows the main clause, a comma is normally unnecessary: The students left the instant the bell rang.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The instant the bell rang, the students left.",
+        "The students left the instant the bell rang."
+      ]
+    },
+    {
+      "id": "ss194-rule-05",
+      "zh": "本練習不使用 “that” 在一般英語中，偶爾可以看到 the instant that …，但本練習統一使用較簡潔的：",
+      "en": "Do not use that in this exercise. Although the instant that ... is occasionally seen in general English, use the more concise the instant + subject + verb here.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "the instant + subject + verb"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss194-benefit-01",
+      "zh": "這個句型能清楚表示一件事在另一件事發生時立即出現，不會令人誤以為兩件事之間相隔了一 段時間。 （我看到訊息時，打電話給她。） （我一看到訊息，便立即打電話給她。） 第二句更清楚地表示「看到訊息後立即致電」。",
+      "en": "It makes the timing extremely clear. This structure shows that one event happened immediately when another occurred, so the reader will not assume there was a gap between them. Compare: When I saw the message, I called her. The instant I saw the message, I called her. The second sentence states more clearly that the call was immediate.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss194-benefit-02",
+      "zh": "你可以把兩個緊接發生的動作自然地連成一句，不需要寫成兩個零碎的短句。",
+      "en": "It connects two actions naturally You can join two closely connected actions in one complete sentence instead of writing two separate sentences. The alarm rang. Noah woke up immediately. → The instant the alarm rang, Noah woke up.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss194-benefit-03",
+      "zh": "這個句型能把讀者的注意力帶到事情發生的那一刻，令故事、經歷或事件描述更加生動。",
+      "en": "It makes stories more vivid The structure draws attention to the exact moment when something changed or happened.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss194-benefit-04",
+      "zh": "你可以用這個句型說明某件事發生後應立即採取甚麼行動，因此特別適合指示、安排、警告及未 來計劃。 （你一到達便立即致電給我。）",
+      "en": "It is useful for instructions and future plans You can use it to tell someone what to do immediately after something happens. Call me the instant you arrive.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss194-benefit-05",
+      "zh": "除了反覆使用 as soon as，你亦可以使用 the instant，令說話和寫作的句式更多變。",
+      "en": "It gives you an alternative to “as soon as” Instead of repeatedly using as soon as, you can use the instant to create more sentence variety.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: The instant + subject + verb, + main clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「The instant + subject + verb, + main clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss194-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "As soon as I saw the message, I knew something was wrong.",
+      "promptZh": "我一看到那則訊息，就知道出事了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instant I saw the message, I knew something was wrong.",
+      "answerZh": "我一看到那則訊息，就知道出事了。",
+      "answerZhSource": "pdf",
+      "highlight": "The instant I saw the message, I knew something was wrong."
+    },
+    {
+      "id": "ss194-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Lily smiled as soon as she heard the good news.",
+      "promptZh": "莉莉一聽到好消息，便笑了。",
+      "promptZhSource": "pdf",
+      "starter": "Lily",
+      "answer": "Lily smiled the instant she heard the good news.",
+      "answerZh": "莉莉一聽到好消息，便笑了。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily smiled the instant she heard the good news."
+    },
+    {
+      "id": "ss194-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "As soon as the bell rang, the students left the classroom.",
+      "promptZh": "鐘聲一響，學生便離開課室。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instant the bell rang, the students left the classroom.",
+      "answerZh": "鐘聲一響，學生便離開課室。",
+      "answerZhSource": "pdf",
+      "highlight": "The instant the bell rang, the students left the classroom."
+    },
+    {
+      "id": "ss194-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Ben called his mother immediately after he arrived home.",
+      "promptZh": "本一到家，便立即致電給母親。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben called his mother the instant he arrived home.",
+      "answerZh": "本一到家，便立即致電給母親。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben called his mother the instant he arrived home."
+    },
+    {
+      "id": "ss194-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Mia opened her umbrella as soon as the rain started.",
+      "promptZh": "雨一開始下，米婭便打開雨傘。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia opened her umbrella the instant the rain started.",
+      "answerZh": "雨一開始下，米婭便打開雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia opened her umbrella the instant the rain started."
+    },
+    {
+      "id": "ss194-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I recognised Mr Lee the moment he entered the room.",
+      "promptZh": "李先生一走進房間，我便認出了他。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I recognised Mr Lee the instant he entered the room.",
+      "answerZh": "李先生一走進房間，我便認出了他。",
+      "answerZhSource": "pdf",
+      "highlight": "I recognised Mr Lee the instant he entered the room."
+    },
+    {
+      "id": "ss194-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When the alarm rang, Noah woke up immediately.",
+      "promptZh": "鬧鐘一響，諾亞便立即醒來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instant the alarm rang, Noah woke up.",
+      "answerZh": "鬧鐘一響，諾亞便醒來。",
+      "answerZhSource": "pdf",
+      "highlight": "The instant the alarm rang, Noah woke up."
+    },
+    {
+      "id": "ss194-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Close the door as soon as you leave the room.",
+      "promptZh": "你一離開房間，便把門關上。",
+      "promptZhSource": "pdf",
+      "starter": "Close",
+      "answer": "Close the door the instant you leave the room.",
+      "answerZh": "你一離開房間，便把門關上。",
+      "answerZhSource": "pdf",
+      "highlight": "Close the door the instant you leave the room."
+    },
+    {
+      "id": "ss194-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The room became silent as soon as the lights went out.",
+      "promptZh": "燈一熄滅，房間便安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room became silent the instant the lights went out.",
+      "answerZh": "燈一熄滅，房間便安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The room became silent the instant the lights went out."
+    },
+    {
+      "id": "ss194-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The teacher started speaking. Amy immediately began taking notes.",
+      "promptZh": "老師開始說話。艾米立即開始做筆記。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy began taking notes the instant the teacher started speaking.",
+      "answerZh": "老師一開始說話，艾米便開始做筆記。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy began taking notes the instant the teacher started speaking."
+    },
+    {
+      "id": "ss194-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I realised the soup needed more salt the moment I tasted it.",
+      "promptZh": "我一嘗那碗湯，便發現它需要加更多鹽。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I realised the soup needed more salt the instant I tasted it.",
+      "answerZh": "我一嘗那碗湯，便發現它需要加更多鹽。",
+      "answerZhSource": "pdf",
+      "highlight": "I realised the soup needed more salt the instant I tasted it."
+    },
+    {
+      "id": "ss194-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Right after the bus stopped, the passengers stood up.",
+      "promptZh": "巴士一停下，乘客便站了起來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instant the bus stopped, the passengers stood up.",
+      "answerZh": "巴士一停下，乘客便站了起來。",
+      "answerZhSource": "pdf",
+      "highlight": "The instant the bus stopped, the passengers stood up."
+    },
+    {
+      "id": "ss194-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Send me a message as soon as you reach the station.",
+      "promptZh": "你一到達車站，便傳訊息給我。",
+      "promptZhSource": "pdf",
+      "starter": "Send",
+      "answer": "Send me a message the instant you reach the station.",
+      "answerZh": "你一到達車站，便傳訊息給我。",
+      "answerZhSource": "pdf",
+      "highlight": "Send me a message the instant you reach the station."
+    },
+    {
+      "id": "ss194-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When the warning appeared on the screen, Daniel saved his work immediately.",
+      "promptZh": "警告一出現在螢幕上，丹尼爾便立即儲存他的工作。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel saved his work the instant the warning appeared on the screen.",
+      "answerZh": "警告一出現在螢幕上，丹尼爾便儲存他的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel saved his work the instant the warning appeared on the screen."
+    },
+    {
+      "id": "ss194-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Immediately after the door opened, the dog ran outside.",
+      "promptZh": "門一打開，狗便立即跑了出去。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instant the door opened, the dog ran outside.",
+      "answerZh": "門一打開，狗便跑了出去。",
+      "answerZhSource": "pdf",
+      "highlight": "The instant the door opened, the dog ran outside."
+    },
+    {
+      "id": "ss194-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The second Emma saw the puppy, she bent down to stroke it.",
+      "promptZh": "艾瑪一看到那隻小狗，便彎下身撫摸牠。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma bent down to stroke the puppy the instant she saw it.",
+      "answerZh": "艾瑪一看到那隻小狗，便彎下身撫摸牠。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma bent down to stroke the puppy the instant she saw it."
+    },
+    {
+      "id": "ss194-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Once the shop opened, the customers went inside at once.",
+      "promptZh": "商店一開門，顧客便立即走進去。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instant the shop opened, the customers went inside.",
+      "answerZh": "商店一開門，顧客便走進去。",
+      "answerZhSource": "pdf",
+      "highlight": "The instant the shop opened, the customers went inside."
+    },
+    {
+      "id": "ss194-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why did Leo laugh? He laughed as soon as he saw his friend’s costume.",
+      "promptZh": "里奧為甚麼笑？他一看到朋友的服裝便笑了。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo laughed the instant he saw his friend’s costume.",
+      "answerZh": "里奧一看到朋友的服裝，便笑了。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo laughed the instant he saw his friend’s costume."
+    },
+    {
+      "id": "ss194-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The phone rang. Sarah answered it immediately.",
+      "promptZh": "電話響了。莎拉立即接聽。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah answered the phone the instant it rang.",
+      "answerZh": "電話一響，莎拉便接聽。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah answered the phone the instant it rang."
+    },
+    {
+      "id": "ss194-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "At the very moment the sun appeared, the birds began to sing.",
+      "promptZh": "太陽一出現，鳥兒便開始歌唱。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instant the sun appeared, the birds began to sing.",
+      "answerZh": "太陽一出現，鳥兒便開始歌唱。",
+      "answerZhSource": "pdf",
+      "highlight": "The instant the sun appeared, the birds began to sing."
+    },
+    {
+      "id": "ss194-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My baby starts dancing as soon as she hears music.",
+      "promptZh": "我的寶寶一聽到音樂，便開始跳舞。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My baby starts dancing the instant she hears music.",
+      "answerZh": "我的寶寶一聽到音樂，便開始跳舞。",
+      "answerZhSource": "pdf",
+      "highlight": "My baby starts dancing the instant she hears music."
+    },
+    {
+      "id": "ss194-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I will call you as soon as I receive the results.",
+      "promptZh": "我一收到結果，便會致電給你。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will call you the instant I receive the results.",
+      "answerZh": "我一收到結果，便會致電給你。",
+      "answerZhSource": "pdf",
+      "highlight": "I will call you the instant I receive the results."
+    },
+    {
+      "id": "ss194-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you notice an error, tell the teacher immediately.",
+      "promptZh": "如果你發現錯誤，便立即告訴老師。",
+      "promptZhSource": "pdf",
+      "starter": "Tell",
+      "answer": "Tell the teacher the instant you notice an error.",
+      "answerZh": "你一發現錯誤，便立即告訴老師。",
+      "answerZhSource": "pdf",
+      "highlight": "Tell the teacher the instant you notice an error."
+    },
+    {
+      "id": "ss194-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The moment the lift doors open, people step out.",
+      "promptZh": "升降機門一打開，人們便走出來。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People step out the instant the lift doors open.",
+      "answerZh": "升降機門一打開，人們便走出來。",
+      "answerZhSource": "pdf",
+      "highlight": "People step out the instant the lift doors open."
+    },
+    {
+      "id": "ss194-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Immediately on receiving the email, Mr Wong arranged a meeting.",
+      "promptZh": "黃先生一收到電郵，便立即安排了一次會議。",
+      "promptZhSource": "pdf",
+      "starter": "Mr",
+      "answer": "Mr Wong arranged a meeting the instant he received the email.",
+      "answerZh": "黃先生一收到電郵，便安排了一次會議。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Wong arranged a meeting the instant he received the email."
+    },
+    {
+      "id": "ss194-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Upon seeing smoke, the guard pressed the alarm button at once.",
+      "promptZh": "保安員一看到煙，便立即按下警報按鈕。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guard pressed the alarm button the instant he saw smoke.",
+      "answerZh": "保安員一看到煙，便按下警報按鈕。",
+      "answerZhSource": "pdf",
+      "highlight": "The guard pressed the alarm button the instant he saw smoke."
+    },
+    {
+      "id": "ss194-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As soon as the patient woke up, a nurse checked his blood pressure.",
+      "promptZh": "病人一醒來，一名護士便為他量血壓。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A nurse checked the patient’s blood pressure the instant he woke up.",
+      "answerZh": "病人一醒來，一名護士便為他量血壓。",
+      "answerZhSource": "pdf",
+      "highlight": "A nurse checked the patient’s blood pressure the instant he woke up."
+    },
+    {
+      "id": "ss194-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When the bus driver saw the child, he braked at once.",
+      "promptZh": "巴士司機一看到那名孩子，便立即煞車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus driver braked the instant he saw the child.",
+      "answerZh": "巴士司機一看到那名孩子，便立即煞車。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus driver braked the instant he saw the child."
+    },
+    {
+      "id": "ss194-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The app sends a warning as soon as it detects unusual activity.",
+      "promptZh": "應用程式一偵測到異常活動，便會發出警告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app sends a warning the instant it detects unusual activity.",
+      "answerZh": "應用程式一偵測到異常活動，便會發出警告。",
+      "answerZhSource": "pdf",
+      "highlight": "The app sends a warning the instant it detects unusual activity."
+    },
+    {
+      "id": "ss194-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We entered the museum, and our guide welcomed us immediately.",
+      "promptZh": "我們一走進博物館，導遊便立即歡迎我們。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our guide welcomed us the instant we entered the museum.",
+      "answerZh": "我們一走進博物館，導遊便歡迎我們。",
+      "answerZhSource": "pdf",
+      "highlight": "Our guide welcomed us the instant we entered the museum."
+    },
+    {
+      "id": "ss194-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Hardly had the match started when it began to rain.",
+      "promptZh": "比賽才剛開始，天便下起雨來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instant the match started, it began to rain.",
+      "answerZh": "比賽一開始，天便下起雨來。",
+      "answerZhSource": "pdf",
+      "highlight": "The instant the match started, it began to rain."
+    },
+    {
+      "id": "ss194-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No sooner had Ava opened the parcel than she noticed the damage.",
+      "promptZh": "艾娃才剛打開包裹，便注意到損壞的地方。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava noticed the damage the instant she opened the parcel.",
+      "answerZh": "艾娃一打開包裹，便注意到損壞的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava noticed the damage the instant she opened the parcel."
+    },
+    {
+      "id": "ss194-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The door had barely closed before the lights came on.",
+      "promptZh": "門才剛關上，燈便亮了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights came on the instant the door closed.",
+      "answerZh": "門一關上，燈便亮了。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights came on the instant the door closed."
+    },
+    {
+      "id": "ss194-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Immediately after the final whistle sounded, the crowd cheered.",
+      "promptZh": "終場哨聲一響，群眾便立即歡呼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The crowd cheered the instant the final whistle sounded.",
+      "answerZh": "終場哨聲一響，群眾便歡呼。",
+      "answerZhSource": "pdf",
+      "highlight": "The crowd cheered the instant the final whistle sounded."
+    },
+    {
+      "id": "ss194-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The moment the new rule came into force, staff changed the procedure.",
+      "promptZh": "新規則一生效，職員便更改了程序。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff changed the procedure the instant the new rule came into force.",
+      "answerZh": "新規則一生效，職員便更改了程序。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff changed the procedure the instant the new rule came into force."
+    },
+    {
+      "id": "ss194-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Once the screen displays the confirmation message, remove your card immediately.",
+      "promptZh": "螢幕一顯示確認訊息，便立即取回你的卡。",
+      "promptZhSource": "pdf",
+      "starter": "Remove",
+      "answer": "Remove your card the instant the screen displays the confirmation message.",
+      "answerZh": "螢幕一顯示確認訊息，便取回你的卡。",
+      "answerZhSource": "pdf",
+      "highlight": "Remove your card the instant the screen displays the confirmation message."
+    },
+    {
+      "id": "ss194-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If anyone presses this red button, the machine stops immediately.",
+      "promptZh": "任何人一按下這個紅色按鈕，機器便會立即停止。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine stops the instant anyone presses this red button.",
+      "answerZh": "任何人一按下這個紅色按鈕，機器便會停止。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine stops the instant anyone presses this red button."
+    },
+    {
+      "id": "ss194-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When I realised I had sent the wrong file, I contacted the client immediately.",
+      "promptZh": "我一發現自己傳送了錯誤的檔案，便立即聯絡客戶。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I contacted the client the instant I realised I had sent the wrong file.",
+      "answerZh": "我一發現自己傳送了錯誤的檔案，便聯絡客戶。",
+      "answerZhSource": "pdf",
+      "highlight": "I contacted the client the instant I realised I had sent the wrong file."
+    },
+    {
+      "id": "ss194-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At the first sound of the fire alarm, everyone left the building.",
+      "promptZh": "火警鐘一響，所有人便離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Everyone",
+      "answer": "Everyone left the building the instant they heard the fire alarm.",
+      "answerZh": "所有人一聽到火警鐘，便離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone left the building the instant they heard the fire alarm."
+    },
+    {
+      "id": "ss194-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "On hearing her name, Chloe turned around immediately.",
+      "promptZh": "克洛伊一聽到自己的名字，便立即轉身。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe turned around the instant she heard her name.",
+      "answerZh": "克洛伊一聽到自己的名字，便轉身。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe turned around the instant she heard her name."
+    },
+    {
+      "id": "ss194-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As soon as the hospital received the test results, the doctor contacted the family.",
+      "promptZh": "醫院一收到檢驗結果，醫生便聯絡病人的家人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor contacted the family the instant the hospital received the test results.",
+      "answerZh": "醫院一收到檢驗結果，醫生便聯絡病人的家人。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor contacted the family the instant the hospital received the test results."
+    },
+    {
+      "id": "ss194-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No sooner had power returned than the computer systems restarted.",
+      "promptZh": "電力一恢復，電腦系統便重新啟動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The computer systems restarted the instant power returned.",
+      "answerZh": "電力一恢復，電腦系統便重新啟動。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer systems restarted the instant power returned."
+    },
+    {
+      "id": "ss194-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The online booking page opened, and many customers logged in immediately.",
+      "promptZh": "網上訂票頁面一開放，許多顧客便立即登入。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many customers logged in the instant the online booking page opened.",
+      "answerZh": "網上訂票頁面一開放，許多顧客便登入。",
+      "answerZhSource": "pdf",
+      "highlight": "Many customers logged in the instant the online booking page opened."
+    },
+    {
+      "id": "ss194-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When the teacher announced a surprise test, several students groaned at once.",
+      "promptZh": "老師一宣布突擊測驗，幾名學生便立即發出抱怨聲。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several students groaned the instant the teacher announced a surprise test.",
+      "answerZh": "老師一宣布突擊測驗，幾名學生便發出抱怨聲。",
+      "answerZhSource": "pdf",
+      "highlight": "Several students groaned the instant the teacher announced a surprise test."
+    },
+    {
+      "id": "ss194-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The security gate sounded an alarm the moment it detected metal.",
+      "promptZh": "保安閘一偵測到金屬，便響起警報。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The security gate sounded an alarm the instant it detected metal.",
+      "answerZh": "保安閘一偵測到金屬，便響起警報。",
+      "answerZhSource": "pdf",
+      "highlight": "The security gate sounded an alarm the instant it detected metal."
+    },
+    {
+      "id": "ss194-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Immediately upon learning that the flight had been cancelled, the airline staff began helping the passengers.",
+      "promptZh": "航空公司職員一得知航班已被取消，便立即開始協助乘客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The airline staff began helping the passengers the instant they learnt that the flight had been cancelled.",
+      "answerZh": "航空公司職員一得知航班已被取消，便開始協助乘客。",
+      "answerZhSource": "pdf",
+      "highlight": "The airline staff began helping the passengers the instant they learnt that the flight had been cancelled."
+    },
+    {
+      "id": "ss194-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As soon as the council issued a severe-weather warning, local schools suspended outdoor activities.",
+      "promptZh": "市政當局一發出惡劣天氣警告，區內學校便暫停戶外活動。",
+      "promptZhSource": "pdf",
+      "starter": "Local",
+      "answer": "Local schools suspended outdoor activities the instant the council issued a severe-weather warning.",
+      "answerZh": "市政當局一發出惡劣天氣警告，區內學校便暫停戶外活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Local schools suspended outdoor activities the instant the council issued a severe-weather warning."
+    },
+    {
+      "id": "ss194-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Hardly had the speaker finished the presentation when the audience started asking questions.",
+      "promptZh": "講者才剛完成簡報，觀眾便開始提問。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The audience started asking questions the instant the speaker finished the presentation.",
+      "answerZh": "講者一完成簡報，觀眾便開始提問。",
+      "answerZhSource": "pdf",
+      "highlight": "The audience started asking questions the instant the speaker finished the presentation."
+    },
+    {
+      "id": "ss194-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I asked the driver to turn back the moment I realised the address was wrong.",
+      "promptZh": "我一發現地址錯誤，便請司機掉頭。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I asked the driver to turn back the instant I realised the address was wrong.",
+      "answerZh": "我一發現地址錯誤，便請司機掉頭。",
+      "answerZhSource": "pdf",
+      "highlight": "I asked the driver to turn back the instant I realised the address was wrong."
+    },
+    {
+      "id": "ss194-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No sooner had the rescue team found the missing hiker than they radioed base camp.",
+      "promptZh": "救援隊一找到失蹤的行山人士，便以無線電聯絡大本營。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue team radioed base camp the instant they found the missing hiker.",
+      "answerZh": "救援隊一找到失蹤的行山人士，便以無線電聯絡大本營。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team radioed base camp the instant they found the missing hiker."
+    }
+  ]
+}

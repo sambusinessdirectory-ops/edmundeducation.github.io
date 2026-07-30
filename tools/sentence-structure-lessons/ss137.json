@@ -1,0 +1,1260 @@
+{
+  "id": "ss137",
+  "order": 137,
+  "slug": "based-on",
+  "title": "「Based on」表示「根據／以……為依據」",
+  "titleZh": "「Based on」表示「根據／以……為依據」",
+  "titleEn": "Using based on to state the basis for a judgement or action",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 137 -「Based on」表示「根據／以……為依據」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Based on + noun phrase / what-clause, + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss137-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Based on + noun phrase / what-clause, + subject + verb + other information"
+    },
+    {
+      "id": "ss137-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Subject + verb + object + based on + noun phrase / what-clause"
+    },
+    {
+      "id": "ss137-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Subject + be + past participle + based on + noun phrase"
+    }
+  ],
+  "example": "Based on the weather forecast, we decided to stay indoors.",
+  "exampleZh": "根據天氣預報，我們決定留在室內。",
+  "examples": [
+    {
+      "id": "ss137-example-01",
+      "en": "Based on the weather forecast, we decided to stay indoors.",
+      "zh": "根據天氣預報，我們決定留在室內。",
+      "highlight": "Based on the weather forecast"
+    },
+    {
+      "id": "ss137-example-02",
+      "en": "We made the decision based on customer feedback.",
+      "zh": "我們根據顧客意見作出了這個決定。",
+      "highlight": "based on customer feedback"
+    },
+    {
+      "id": "ss137-example-03",
+      "en": "Students were graded based on their overall performance.",
+      "zh": "學生是根據整體表現來評分的。",
+      "highlight": "based on their overall performance"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss137-rule-01",
+      "zh": "Based on 後面通常接名詞或名詞短語 也可以接以 what 開始的名詞子句：",
+      "en": "Based on is normally followed by a noun or noun phrase, but it can also take a noun clause beginning with what.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "based on the report",
+        "based on customer feedback",
+        "based on your examination results",
+        "based on the available evidence",
+        "based on what the customer told us",
+        "based on what we learned from the experiment"
+      ]
+    },
+    {
+      "id": "ss137-rule-02",
+      "zh": "Based on 表示「判斷或行動所採用的依據」 它常用來說明以下事情的依據： ● a decision 決定 ● a judgement 判斷 ● a conclusion 結論 ● an estimate 估算 ● a recommendation 建議 ● a selection 選擇 ● a calculation 計算 ● a prediction 預測",
+      "en": "Based on identifies the information or criterion used for a judgement or action, such as a decision, judgement, conclusion, estimate, recommendation, selection, calculation or prediction.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "a decision 決定",
+        "a judgement 判斷",
+        "a conclusion 結論",
+        "an estimate 估算",
+        "a recommendation 建議",
+        "a selection 選擇",
+        "a calculation 計算",
+        "a prediction 預測",
+        "The manager chose the supplier based on its service record."
+      ]
+    },
+    {
+      "id": "ss137-rule-03",
+      "zh": "Based on 與 because of 不同 Based on 表示作出判斷或決定時所使用的資料或準則。 Because of 通常表示事情直接發生的原因。 大雨直接造成道路封閉，因此使用 because of。 天氣警告是作出決定時使用的資料，因此可以使用 based on。",
+      "en": "Based on and because of have different functions. Based on identifies the information or criterion used to make a judgement or decision, whereas because of normally gives the direct cause of an event. Heavy rain directly closes a road, so because of is appropriate; a weather warning is evidence used in making a decision, so based on is appropriate.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We cancelled the trip based on the weather warning.",
+        "The road was closed because of the heavy rain."
+      ]
+    },
+    {
+      "id": "ss137-rule-04",
+      "zh": "Based on 與 according to 不完全相同 According to 通常只表示「某個來源說了甚麼」。 Based on 表示某人利用資料作出判斷、選擇或決定。",
+      "en": "Based on and according to are not exact equivalents. According to normally reports what a source says, whereas based on shows that someone used information to reach a judgement, choice or decision.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "According to the forecast, it will rain tomorrow.",
+        "Based on the forecast, we decided to cancel the picnic."
+      ]
+    },
+    {
+      "id": "ss137-rule-05",
+      "zh": "句首的 Based on 必須與後面的判斷或行動有清楚關係 自然： 不自然： 檢查結果與醫生是否友善沒有合理關係。",
+      "en": "An initial based on-phrase must clearly relate to the following judgement or action. Test results can logically support a medical recommendation, but they have no sensible connection to whether a doctor is friendly.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Based on the test results, the doctor recommended further treatment."
+      ]
+    },
+    {
+      "id": "ss137-rule-06",
+      "zh": "正式和標準英語應使用 based on 標準： 避免： 本練習只接受 based on。",
+      "en": "Use based on in standard formal English, not based off; this exercise accepts only based on.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss137-benefit-01",
+      "zh": "清楚說明決定或判斷的依據 這個句型可以讓讀者立即知道某個決定、結論或預測是根據哪些資料作出的。 讀者不但知道學校修改了規則，也知道學生意見是這個決定的依據。",
+      "en": "It clearly states the basis for a decision or judgement, showing immediately what evidence supports a decision, conclusion or prediction. Readers learn not only that the school changed a rule but also that student feedback was the basis for doing so.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The school changed the rule based on student feedback."
+      ]
+    },
+    {
+      "id": "ss137-benefit-02",
+      "zh": "把較長的解釋縮短 不用這個句型： 使用這個句型： 第二句較短，也能清楚保留原本的意思。",
+      "en": "It shortens a longer explanation while preserving the meaning, replacing a lengthy account of examining information and using it to decide with a compact based on phrase.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss137-benefit-03",
+      "zh": "令分析和建議更具說服力 當你提出建議、預測或結論時，使用 based on 可以交代背後的證據，而不是只說出個人意見。",
+      "en": "It makes analysis and recommendations more persuasive because it identifies the evidence behind a recommendation, prediction or conclusion instead of offering only a personal opinion.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Based on the survey results, we recommend extending the service hours."
+      ]
+    },
+    {
+      "id": "ss137-benefit-04",
+      "zh": "適合學校、工作和正式寫作 這個句型常見於： ● 作文 ● 報告 ● 簡報 ● 研究分析 ● 商業電郵 ● 工作建議 ● 數據說明 它能幫助你以清楚和有條理的方式交代資料與決定之間的關係。",
+      "en": "It suits school, workplace and formal writing contexts, including essays, reports, presentations, research analysis, business emails, workplace recommendations and explanations of data. It presents the relationship between information and decisions clearly and systematically.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss137-benefit-05",
+      "zh": "增加句子開首的變化 你可以把 Based on + 資料 放在句首，先突出最重要的依據。 這樣可以避免每一句都由人物或機構名稱開始。",
+      "en": "It adds variety to sentence openings. Placing Based on + information first foregrounds the most important evidence and avoids beginning every sentence with the name of a person or organization.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Based on the available evidence, the team reached a different conclusion."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using based on. Preserve the original meaning and tense.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 based on 改寫以下句子。答案必須保留原句的意思和時態。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss137-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The weather forecast says that it will rain, so we have decided to stay indoors today.",
+      "promptZh": "天氣預報表示今天會下雨，所以我們決定留在室內。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the weather forecast, we have decided to stay indoors today.",
+      "answerZh": "根據天氣預報，我們決定今天留在室內。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the weather forecast, we have decided to stay indoors today."
+    },
+    {
+      "id": "ss137-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The students’ overall performance determined their grades.",
+      "promptZh": "學生的整體表現決定了他們的成績。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students were graded based on their overall performance.",
+      "answerZh": "學生是根據整體表現來評分的。",
+      "answerZhSource": "pdf",
+      "highlight": "Students were graded based on their overall performance."
+    },
+    {
+      "id": "ss137-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We considered customer feedback before making the decision.",
+      "promptZh": "我們在作出決定前考慮了顧客的意見。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We made the decision based on customer feedback.",
+      "answerZh": "我們根據顧客意見作出了這個決定。",
+      "answerZhSource": "pdf",
+      "highlight": "We made the decision based on customer feedback."
+    },
+    {
+      "id": "ss137-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The online reviews helped us choose this restaurant.",
+      "promptZh": "網上評價幫助我們選擇了這間餐廳。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We chose this restaurant based on the online reviews.",
+      "answerZh": "我們根據網上評價選擇了這間餐廳。",
+      "answerZhSource": "pdf",
+      "highlight": "We chose this restaurant based on the online reviews."
+    },
+    {
+      "id": "ss137-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Anna looked at the map and chose the shortest route.",
+      "promptZh": "安娜查看地圖後選擇了最短的路線。",
+      "promptZhSource": "pdf",
+      "starter": "Anna",
+      "answer": "Anna chose the shortest route based on the map.",
+      "answerZh": "安娜根據地圖選擇了最短的路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Anna chose the shortest route based on the map."
+    },
+    {
+      "id": "ss137-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The coach used the training results to select the team.",
+      "promptZh": "教練利用訓練結果挑選隊員。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach selected the team based on the training results.",
+      "answerZh": "教練根據訓練結果挑選了隊員。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach selected the team based on the training results."
+    },
+    {
+      "id": "ss137-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The parcel’s weight determined the delivery fee.",
+      "promptZh": "包裹的重量決定了運費。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The delivery fee was calculated based on the parcel’s weight.",
+      "answerZh": "運費是根據包裹重量計算的。",
+      "answerZhSource": "pdf",
+      "highlight": "The delivery fee was calculated based on the parcel’s weight."
+    },
+    {
+      "id": "ss137-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel formed his opinion after listening to what both sides said.",
+      "promptZh": "丹尼爾聽取雙方的說法後形成了自己的意見。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel formed his opinion based on what both sides said.",
+      "answerZh": "丹尼爾根據雙方所說的內容形成了自己的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel formed his opinion based on what both sides said."
+    },
+    {
+      "id": "ss137-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We know from the timetable that the last bus leaves at 11 p.m.",
+      "promptZh": "我們從時間表得知尾班巴士在晚上十一時開出。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the timetable, we know that the last bus leaves at 11 p.m.",
+      "answerZh": "根據時間表，我們知道尾班巴士在晚上十一時開出。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the timetable, we know that the last bus leaves at 11 p.m."
+    },
+    {
+      "id": "ss137-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Last month’s sales figures showed strong demand, so the shop ordered more umbrellas.",
+      "promptZh": "上月的銷售數字顯示需求強勁，所以商店訂購了更多雨傘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop ordered more umbrellas based on last month’s sales figures.",
+      "answerZh": "商店根據上月的銷售數字訂購了更多雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop ordered more umbrellas based on last month’s sales figures."
+    },
+    {
+      "id": "ss137-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The chef adjusted the recipe according to the number of guests.",
+      "promptZh": "廚師按照客人的人數調整了食譜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chef adjusted the recipe based on the number of guests.",
+      "answerZh": "廚師根據客人的人數調整了食譜。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef adjusted the recipe based on the number of guests."
+    },
+    {
+      "id": "ss137-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After examining the patient’s symptoms, the doctor recommended more rest.",
+      "promptZh": "醫生檢查病人的症狀後，建議病人多休息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor recommended more rest based on the patient’s symptoms.",
+      "answerZh": "醫生根據病人的症狀建議病人多休息。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor recommended more rest based on the patient’s symptoms."
+    },
+    {
+      "id": "ss137-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The school places students in classes according to their age and language level.",
+      "promptZh": "學校按照學生的年齡和語言程度安排班別。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students are placed in classes based on their age and language level.",
+      "answerZh": "學生是根據年齡和語言程度獲安排班別的。",
+      "answerZhSource": "pdf",
+      "highlight": "Students are placed in classes based on their age and language level."
+    },
+    {
+      "id": "ss137-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The app uses your listening history to suggest songs.",
+      "promptZh": "這個應用程式利用你的收聽紀錄推薦歌曲。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app suggests songs based on your listening history.",
+      "answerZh": "這個應用程式根據你的收聽紀錄推薦歌曲。",
+      "answerZhSource": "pdf",
+      "highlight": "The app suggests songs based on your listening history."
+    },
+    {
+      "id": "ss137-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Officials postponed the outdoor event because the weather warning showed a high risk of storms.",
+      "promptZh": "由於天氣警告顯示出現暴風雨的風險很高，工作人員押後了戶外活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The outdoor event was postponed based on the weather warning.",
+      "answerZh": "戶外活動根據天氣警告而被押後。",
+      "answerZhSource": "pdf",
+      "highlight": "The outdoor event was postponed based on the weather warning."
+    },
+    {
+      "id": "ss137-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why did the bank approve Mei’s loan? Her credit record was strong.",
+      "promptZh": "銀行為甚麼批准美的貸款？她的信貸紀錄良好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bank approved Mei’s loan based on her strong credit record.",
+      "answerZh": "銀行根據美的良好信貸紀錄批准了她的貸款。",
+      "answerZhSource": "pdf",
+      "highlight": "The bank approved Mei’s loan based on her strong credit record."
+    },
+    {
+      "id": "ss137-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Judging from the footprints, the police believed that two people had entered the garden.",
+      "promptZh": "從腳印判斷，警方相信有兩個人曾經進入花園。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the footprints, the police believed that two people had entered the garden.",
+      "answerZh": "根據腳印，警方相信有兩個人曾經進入花園。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the footprints, the police believed that two people had entered the garden."
+    },
+    {
+      "id": "ss137-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The committee revised its plan after studying the survey results.",
+      "promptZh": "委員會研究調查結果後修改了計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee revised its plan based on the survey results.",
+      "answerZh": "委員會根據調查結果修改了計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee revised its plan based on the survey results."
+    },
+    {
+      "id": "ss137-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Employees receive bonuses according to their yearly performance.",
+      "promptZh": "僱員按照年度表現獲發花紅。",
+      "promptZhSource": "pdf",
+      "starter": "Employees",
+      "answer": "Employees are awarded bonuses based on their yearly performance.",
+      "answerZh": "僱員是根據年度表現獲發花紅的。",
+      "answerZhSource": "pdf",
+      "highlight": "Employees are awarded bonuses based on their yearly performance."
+    },
+    {
+      "id": "ss137-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team looked at the traffic data to estimate the journey time.",
+      "promptZh": "團隊查看交通數據，以估算行程所需時間。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the traffic data, the team estimated the journey time.",
+      "answerZh": "根據交通數據，團隊估算了行程所需時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the traffic data, the team estimated the journey time."
+    },
+    {
+      "id": "ss137-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The panel used applicants’ grades and community service records to choose the scholarship recipients.",
+      "promptZh": "評審小組利用申請人的成績和社區服務紀錄挑選獎學金得主。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scholarship recipients were chosen based on their grades and community service records.",
+      "answerZh": "獎學金得主是根據成績和社區服務紀錄挑選的。",
+      "answerZhSource": "pdf",
+      "highlight": "The scholarship recipients were chosen based on their grades and community service records."
+    },
+    {
+      "id": "ss137-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "From what the customer told us, we concluded that the parcel had been sent to the wrong address.",
+      "promptZh": "根據顧客告訴我們的資料，我們認為包裹被寄往了錯誤的地址。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on what the customer told us, we concluded that the parcel had been sent to the wrong address.",
+      "answerZh": "根據顧客告訴我們的資料，我們認為包裹被寄往了錯誤的地址。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on what the customer told us, we concluded that the parcel had been sent to the wrong address."
+    },
+    {
+      "id": "ss137-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The machine reads the room conditions and adjusts the temperature accordingly.",
+      "promptZh": "機器讀取室內環境，並按照有關情況調節溫度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine adjusts the temperature based on the room conditions.",
+      "answerZh": "機器根據室內環境調節溫度。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine adjusts the temperature based on the room conditions."
+    },
+    {
+      "id": "ss137-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The writer reached the conclusion after examining several reliable sources.",
+      "promptZh": "作者查閱數個可靠資料來源後得出了這個結論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The writer’s conclusion was based on several reliable sources.",
+      "answerZh": "作者的結論是根據數個可靠資料來源得出的。",
+      "answerZhSource": "pdf",
+      "highlight": "The writer’s conclusion was based on several reliable sources."
+    },
+    {
+      "id": "ss137-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A first impression alone should not determine how we judge a person.",
+      "promptZh": "我們不應只憑第一印象判斷一個人。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should not judge a person based only on a first impression.",
+      "answerZh": "我們不應只根據第一印象判斷一個人。",
+      "answerZhSource": "pdf",
+      "highlight": "We should not judge a person based only on a first impression."
+    },
+    {
+      "id": "ss137-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company used last year’s expenses and next year’s targets to prepare its budget.",
+      "promptZh": "公司利用去年的開支和明年的目標編製預算。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company prepared its budget based on last year’s expenses and next year’s targets.",
+      "answerZh": "公司根據去年的開支和明年的目標編製預算。",
+      "answerZhSource": "pdf",
+      "highlight": "The company prepared its budget based on last year’s expenses and next year’s targets."
+    },
+    {
+      "id": "ss137-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager considered price, delivery time and service record before choosing the supplier.",
+      "promptZh": "經理在選擇供應商前考慮了價格、交貨時間和服務紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager chose the supplier based on price, delivery time and service record.",
+      "answerZh": "經理根據價格、交貨時間和服務紀錄選擇了供應商。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager chose the supplier based on price, delivery time and service record."
+    },
+    {
+      "id": "ss137-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Examinations, projects and class participation all contribute to the final grade.",
+      "promptZh": "考試、專題習作和課堂參與都會計算入最終成績。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final grade is based on examinations, projects and class participation.",
+      "answerZh": "最終成績是根據考試、專題習作和課堂參與計算的。",
+      "answerZhSource": "pdf",
+      "highlight": "The final grade is based on examinations, projects and class participation."
+    },
+    {
+      "id": "ss137-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The early test results were encouraging, so the researchers decided to continue the trial.",
+      "promptZh": "初步測試結果令人鼓舞，所以研究人員決定繼續進行試驗。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the encouraging early test results, the researchers decided to continue the trial.",
+      "answerZh": "根據令人鼓舞的初步測試結果，研究人員決定繼續進行試驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the encouraging early test results, the researchers decided to continue the trial."
+    },
+    {
+      "id": "ss137-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The judge examined all the evidence presented in court before reaching a decision.",
+      "promptZh": "法官在作出裁決前審視了所有在法庭上呈交的證據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The judge reached a decision based on all the evidence presented in court.",
+      "answerZh": "法官根據所有在法庭上呈交的證據作出了裁決。",
+      "answerZhSource": "pdf",
+      "highlight": "The judge reached a decision based on all the evidence presented in court."
+    },
+    {
+      "id": "ss137-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Check the current traffic conditions and choose the safest route.",
+      "promptZh": "查看目前的交通情況，然後選擇最安全的路線。",
+      "promptZhSource": "pdf",
+      "starter": "Choose",
+      "answer": "Choose the safest route based on the current traffic conditions.",
+      "answerZh": "根據目前的交通情況選擇最安全的路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Choose the safest route based on the current traffic conditions."
+    },
+    {
+      "id": "ss137-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A decision that relies on only one review may be unreliable.",
+      "promptZh": "只依賴一則評價作出的決定可能並不可靠。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A decision based on only one review may be unreliable.",
+      "answerZh": "只根據一則評價作出的決定可能並不可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "A decision based on only one review may be unreliable."
+    },
+    {
+      "id": "ss137-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "How did you estimate the repair cost? I used the technician’s report.",
+      "promptZh": "你怎樣估算維修費用？我使用了技術人員的報告。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I estimated the repair cost based on the technician’s report.",
+      "answerZh": "我根據技術人員的報告估算了維修費用。",
+      "answerZhSource": "pdf",
+      "highlight": "I estimated the repair cost based on the technician’s report."
+    },
+    {
+      "id": "ss137-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Officials consider the severity of an incident and the number of people affected when setting the emergency level.",
+      "promptZh": "工作人員設定緊急級別時，會考慮事故的嚴重程度和受影響人數。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency level is set based on the severity of the incident and the number of people affected.",
+      "answerZh": "緊急級別是根據事故的嚴重程度和受影響人數設定的。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency level is set based on the severity of the incident and the number of people affected."
+    },
+    {
+      "id": "ss137-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This sales model uses past sales data to predict future demand.",
+      "promptZh": "這個銷售模型利用過往銷售數據預測未來需求。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This sales model predicts future demand based on past sales data.",
+      "answerZh": "這個銷售模型根據過往銷售數據預測未來需求。",
+      "answerZhSource": "pdf",
+      "highlight": "This sales model predicts future demand based on past sales data."
+    },
+    {
+      "id": "ss137-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Do not use a candidate’s appearance as the reason for selecting or rejecting them.",
+      "promptZh": "不要以求職者的外表作為取錄或拒絕他們的理由。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not select or reject candidates based on their appearance.",
+      "answerZh": "不要根據求職者的外表取錄或拒絕他們。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not select or reject candidates based on their appearance."
+    },
+    {
+      "id": "ss137-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Passenger counts showed that the route was crowded, so the council increased the bus service.",
+      "promptZh": "乘客人數顯示該路線十分擠迫，所以區議會增加了巴士服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council increased the bus service based on the passenger counts.",
+      "answerZh": "區議會根據乘客人數增加了巴士服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The council increased the bus service based on the passenger counts."
+    },
+    {
+      "id": "ss137-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The recommendation came from a review of the safety records and staff reports.",
+      "promptZh": "這項建議來自對安全紀錄和員工報告的審查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The recommendation was based on a review of the safety records and staff reports.",
+      "answerZh": "這項建議是根據對安全紀錄和員工報告的審查而提出的。",
+      "answerZhSource": "pdf",
+      "highlight": "The recommendation was based on a review of the safety records and staff reports."
+    },
+    {
+      "id": "ss137-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The insurer uses the assessed value of the damaged item to calculate the payment.",
+      "promptZh": "保險公司利用損壞物品的評估價值計算賠償金額。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The insurance payment is calculated based on the assessed value of the damaged item.",
+      "answerZh": "保險賠償金額是根據損壞物品的評估價值計算的。",
+      "answerZhSource": "pdf",
+      "highlight": "The insurance payment is calculated based on the assessed value of the damaged item."
+    },
+    {
+      "id": "ss137-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What made the analyst predict slower growth? Recent consumer spending data.",
+      "promptZh": "甚麼令分析員預測增長將會放緩？近期的消費者開支數據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The analyst predicted slower growth based on recent consumer spending data.",
+      "answerZh": "分析員根據近期的消費者開支數據預測增長將會放緩。",
+      "answerZhSource": "pdf",
+      "highlight": "The analyst predicted slower growth based on recent consumer spending data."
+    },
+    {
+      "id": "ss137-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school reviewed the students’ language levels and learning needs before organising the support groups.",
+      "promptZh": "學校在安排支援小組前，檢視了學生的語言程度和學習需要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school organised the support groups based on the students’ language levels and learning needs.",
+      "answerZh": "學校根據學生的語言程度和學習需要安排了支援小組。",
+      "answerZhSource": "pdf",
+      "highlight": "The school organised the support groups based on the students’ language levels and learning needs."
+    },
+    {
+      "id": "ss137-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital gives priority according to medical urgency rather than the order in which patients arrive.",
+      "promptZh": "醫院按照醫療需要的緊急程度，而不是病人的到達先後次序安排優先次序。",
+      "promptZhSource": "pdf",
+      "starter": "Patients",
+      "answer": "Patients are prioritised based on medical urgency rather than their order of arrival.",
+      "answerZh": "病人的優先次序是根據醫療需要的緊急程度，而不是到達先後次序安排的。",
+      "answerZhSource": "pdf",
+      "highlight": "Patients are prioritised based on medical urgency rather than their order of arrival."
+    },
+    {
+      "id": "ss137-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hiring panel considered interview performance, qualifications and references when making its final decision.",
+      "promptZh": "招聘小組在作出最終決定時，考慮了面試表現、資歷和推薦資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hiring panel’s final decision was based on interview performance, qualifications and references.",
+      "answerZh": "招聘小組的最終決定是根據面試表現、資歷和推薦資料作出的。",
+      "answerZhSource": "pdf",
+      "highlight": "The hiring panel’s final decision was based on interview performance, qualifications and references."
+    },
+    {
+      "id": "ss137-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After examining the witness statements, camera footage and time records, the police reconstructed the events.",
+      "promptZh": "警方審視證人供詞、閉路電視片段和時間紀錄後，重組了事件的經過。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the witness statements, camera footage and time records, the police reconstructed the events.",
+      "answerZh": "根據證人供詞、閉路電視片段和時間紀錄，警方重組了事件的經過。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the witness statements, camera footage and time records, the police reconstructed the events."
+    },
+    {
+      "id": "ss137-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The website uses the products you have viewed, your past purchases and your ratings to adjust its recommendations.",
+      "promptZh": "網站利用你瀏覽過的商品、過往購買紀錄和評分調整推薦內容。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website adjusts its recommendations based on the products you have viewed, your past purchases and your ratings.",
+      "answerZh": "網站根據你瀏覽過的商品、過往購買紀錄和評分調整推薦內容。",
+      "answerZhSource": "pdf",
+      "highlight": "The website adjusts its recommendations based on the products you have viewed, your past purchases and your ratings."
+    },
+    {
+      "id": "ss137-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The government analysed population growth, household size and construction trends before estimating future housing demand.",
+      "promptZh": "政府在估算未來房屋需求前，分析了人口增長、住戶人數和建屋趨勢。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on population growth, household size and construction trends, the government estimated future housing demand.",
+      "answerZh": "根據人口增長、住戶人數和建屋趨勢，政府估算了未來的房屋需求。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on population growth, household size and construction trends, the government estimated future housing demand."
+    },
+    {
+      "id": "ss137-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Suppliers provided updated delivery dates, so the project schedule was revised.",
+      "promptZh": "供應商提供了最新的交貨日期，所以項目時間表被修改了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project schedule was revised based on the updated delivery dates provided by the suppliers.",
+      "answerZh": "項目時間表是根據供應商提供的最新交貨日期修改的。",
+      "answerZhSource": "pdf",
+      "highlight": "The project schedule was revised based on the updated delivery dates provided by the suppliers."
+    },
+    {
+      "id": "ss137-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The committee used verified data and expert advice, rather than personal opinions, to make its recommendation.",
+      "promptZh": "委員會使用經核實的數據和專家意見，而不是個人看法，作出建議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee made its recommendation based on verified data and expert advice, rather than personal opinions.",
+      "answerZh": "委員會根據經核實的數據和專家意見，而不是個人看法，作出了建議。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee made its recommendation based on verified data and expert advice, rather than personal opinions."
+    },
+    {
+      "id": "ss137-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team redesigned the service after considering what it had learned during the pilot programme.",
+      "promptZh": "團隊考慮了在試行計劃中所得的經驗後，重新設計了服務。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on what it had learned during the pilot programme, the team redesigned the service.",
+      "answerZh": "根據在試行計劃中所得的經驗，團隊重新設計了服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on what it had learned during the pilot programme, the team redesigned the service."
+    },
+    {
+      "id": "ss137-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The final risk rating took account of the likelihood of failure, the potential damage and the effectiveness of the existing controls.",
+      "promptZh": "最終風險評級考慮了事故發生的可能性、潛在損害和現有控制措施的成效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final risk rating was determined based on the likelihood of failure, the potential damage and the effectiveness of the existing controls.",
+      "answerZh": "最終風險評級是根據事故發生的可能性、潛在損害和現有控制措施的成效釐定的。",
+      "answerZhSource": "pdf",
+      "highlight": "The final risk rating was determined based on the likelihood of failure, the potential damage and the effectiveness of the existing controls."
+    }
+  ]
+}

@@ -1,0 +1,1243 @@
+{
+  "id": "ss202",
+  "order": 202,
+  "slug": "there-is-good-reason-to",
+  "title": "「There is good reason to ...」表示「有充分理由……」",
+  "titleZh": "「There is good reason to ...」表示「有充分理由……」",
+  "titleEn": "Using “There is good reason to ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 201 -「There is good reason to ...」表示「有充分理由……」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 201; it is assigned system ID ss202 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "There is good reason to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss202-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "There is good reason to + base verb + other information"
+    },
+    {
+      "id": "ss202-formula-02",
+      "labelEn": "With context",
+      "labelZh": "加入背景",
+      "formula": "Context phrase / clause, + there is good reason to + base verb + other information"
+    }
+  ],
+  "example": "There is good reason to be cautious when the evidence is incomplete.",
+  "exampleZh": "當證據不完整時，有充分理由保持審慎。",
+  "examples": [
+    {
+      "id": "ss202-example-01",
+      "en": "There is good reason to be cautious when the evidence is incomplete.",
+      "zh": "當證據不完整時，有充分理由保持審慎。",
+      "highlight": "There is good reason to be cautious when the evidence is incomplete."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：There is good reason to + base verb + other information。"
+  },
+  "rules": [
+    {
+      "id": "ss202-rule-01",
+      "zh": "to 後面使用動詞原形 正確： 錯誤：",
+      "en": "Use the base form of the verb after to. Correct: There is good reason to wait. There is good reason to believe him. There is good reason to be cautious. Incorrect: There is good reason to waiting. There is good reason to believed him. There is good reason to being cautious.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is good reason to wait.",
+        "There is good reason to believe him.",
+        "There is good reason to be cautious.",
+        "There is good reason to waiting.",
+        "There is good reason to believed him.",
+        "There is good reason to being cautious."
+      ]
+    },
+    {
+      "id": "ss202-rule-02",
+      "zh": "there 是形式主語 這裏的 there 並不表示「那裏」。 意思不是「那裏有理由等待」，而是： 有充分理由等待。",
+      "en": "There is a dummy subject here; it does not mean a place. “There is good reason to wait” means that sufficient reason to wait exists, not that a reason is located “there”.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is good reason to wait."
+      ]
+    },
+    {
+      "id": "ss202-rule-03",
+      "zh": "good reason 前通常不加 a 表示存在充分、合理的依據，重點是「理由充分」。 （有充分理由懷疑這份報告。） 通常表示有一個具體或特定的理由。 （取消會議是有一個充分理由的。我稍後會解釋。） 兩者意思接近，但本課集中練習：",
+      "en": "Normally omit a before good reason in the target structure. “There is good reason to ...” emphasises that sufficient, valid grounds exist: There is good reason to doubt the report. “There is a good reason to ...” normally points to one specific reason: There is a good reason to cancel the meeting. I will explain it later. This lesson focuses on There is good reason to ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is good reason to ...",
+        "There is good reason to doubt the report.",
+        "There is a good reason to ...",
+        "There is a good reason to cancel the meeting. I will explain it later."
+      ]
+    },
+    {
+      "id": "ss202-rule-04",
+      "zh": "常接表示判斷、預期或審慎態度的動詞 常見搭配包括：",
+      "en": "The structure commonly takes verbs of judgement, expectation or caution. Common combinations include: There is good reason to believe ...; to expect ...; to suspect ...; to question ...; to doubt ...; to be cautious; to be concerned; and to reconsider the decision.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is good reason to believe ...",
+        "There is good reason to expect ...",
+        "There is good reason to suspect ...",
+        "There is good reason to question ...",
+        "There is good reason to doubt ...",
+        "There is good reason to be cautious.",
+        "There is good reason to be concerned.",
+        "There is good reason to reconsider the decision."
+      ]
+    },
+    {
+      "id": "ss202-rule-05",
+      "zh": "與 for good reason 及 for no good reason 的分別 這是一個完整句型，直接表示：存在充分理由去做某事或相信某事。 （有充分理由保持審慎。） 重點是提出或確認「充分理由存在」。 這是一個副詞短語，修飾前面的行動、態度或描述，意思是： 有充分理由地；這樣做是有道理的。 （她十分審慎，而且這樣做是有充分理由的。） （這條道路被視為危險道路，而且這個看法是有充分理由的。） 它通常不是用來直接帶出下一個動作，而是補充說明前面的行動或看法是合理的。 這也是副詞短語，意思是： 沒有任何充分理由；無緣無故。 它通常帶有批評意味，表示某項行為並不合理。 （他毫無充分理由地取消了預約。） （她無緣無故地生氣。） D. 真正相反的句型 There is good reason to ... 的直接否定形式是： （沒有充分理由恐慌。） 因此： ● There is good reason to ...：有充分理由做…… ● There is no good reason to ...：沒有充分理由做…… ● for good reason：某項行動是有充分理由的 ● for no good reason：某項行動毫無充分理由",
+      "en": "Distinguish the related expressions. A. There is good reason to ... is a complete structure asserting that sufficient grounds exist for an action or belief: There is good reason to be cautious. B. For good reason is an adverbial phrase that comments that a preceding action, attitude or description is justified: She was cautious, and for good reason. The road is considered dangerous, and for good reason. It normally comments on what came before rather than introducing the next action. C. For no good reason means without any valid reason and often criticises an unjustified action: He cancelled the appointment for no good reason. She became angry for no good reason. D. The direct opposite of There is good reason to ... is There is no good reason to ...: There is no good reason to panic. In short: There is good reason to ... means sufficient grounds exist; There is no good reason to ... means they do not; for good reason says an action is justified; for no good reason says it is unjustified.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "A. There is good reason to ...",
+        "There is good reason to be cautious.",
+        "B. for good reason",
+        "She was cautious, and for good reason.",
+        "The road is considered dangerous, and for good reason.",
+        "C. for no good reason",
+        "He cancelled the appointment for no good reason.",
+        "She became angry for no good reason.",
+        "There is no good reason to ...",
+        "There is no good reason to panic."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss202-benefit-01",
+      "zh": "讓你的看法聽起來有根據 這個句型能表示你的判斷並非純粹來自個人感覺，而是有證據、事實或合理情況支持。 （我認為這些數字可能有錯。） （有充分理由相信這些數字可能有錯。） 第二句更清楚地表示這個判斷有一定根據。",
+      "en": "It makes an opinion sound well founded by showing that evidence, facts or reasonable circumstances support the judgement rather than mere personal feeling. Compare: I think the figures may be wrong. There is good reason to believe the figures may be wrong. The second sentence makes the evidential basis clearer.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss202-benefit-02",
+      "zh": "適合提出審慎的判斷 你可以用它表達「相信」、「預期」、「懷疑」或「質疑」，而不需要把事情說成百分之百確定。 （有充分理由懷疑這個帳戶已受到入侵。） 這種說法能保持審慎，避免在證據不足時作出過分肯定的結論。",
+      "en": "It suits cautious judgements. You can use it with believing, expecting, suspecting or questioning without claiming absolute certainty: There is good reason to suspect that the account has been compromised. This wording avoids an overly definite conclusion when the evidence is incomplete.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss202-benefit-03",
+      "zh": "提出建議時不會過分強硬 它可以說明某項行動是合理的，而不是直接命令別人。 較直接： （你必須檢討預算。） 較客觀： （有充分理由檢討預算。） 第二句把焦點放在理由上，因此語氣較客觀。",
+      "en": "It makes a suggestion less forceful by presenting an action as reasonable instead of issuing a direct command. More direct: You must review the budget. More objective: There is good reason to review the budget. The second sentence focuses on the grounds for acting.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss202-benefit-04",
+      "zh": "能把背景和結論清楚連接起來 你可以先提出證據、情況或問題，再說明甚麼行動是合理的。 （鑑於成本上升，有充分理由檢討預算。） 讀者可以立即明白「成本上升」和「檢討預算」之間的關係。",
+      "en": "It clearly connects context with a conclusion. State the evidence, situation or problem first and then identify the reasonable action: Given the rising costs, there is good reason to review the budget. The relationship between rising costs and reviewing the budget is immediately clear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss202-benefit-05",
+      "zh": "適合作文、報告、會議和正式討論 這個句型特別適合用來： ● 分析證據； ● 提出建議； ● 評估風險； ● 解釋為何應採取行動； ● 表達有根據但仍然審慎的判斷。 它亦能減少反覆使用：",
+      "en": "It suits essays, reports, meetings and formal discussions. Use it to analyse evidence, make recommendations, evaluate risks, explain why action should be taken, or express a well-founded but cautious judgement. It also avoids repeatedly using I think ..., We should ..., It is reasonable to ..., or It makes sense to ....",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 201; it is assigned system ID ss202 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: There is good reason to + base verb + other information.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「There is good reason to + base verb + other information」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss202-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is sensible to be cautious when the evidence is incomplete.",
+      "promptZh": "當證據不完整時，保持審慎是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to be cautious when the evidence is incomplete.",
+      "answerZh": "當證據不完整時，有充分理由保持審慎。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to be cautious when the evidence is incomplete."
+    },
+    {
+      "id": "ss202-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Checking the figures again before publishing them is fully justified.",
+      "promptZh": "在公布數字前再次核對，是完全合理的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to check the figures again before publishing them.",
+      "answerZh": "在公布數字前，有充分理由再次核對。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to check the figures again before publishing them."
+    },
+    {
+      "id": "ss202-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is wise to arrive early because the roads may be busy.",
+      "promptZh": "由於道路可能十分繁忙，提早到達是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to arrive early because the roads may be busy.",
+      "answerZh": "由於道路可能十分繁忙，有充分理由提早到達。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to arrive early because the roads may be busy."
+    },
+    {
+      "id": "ss202-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Asking for help is reasonable if the instructions are unclear.",
+      "promptZh": "如果指示不清楚，尋求協助是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to ask for help if the instructions are unclear.",
+      "answerZh": "如果指示不清楚，有充分理由尋求協助。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to ask for help if the instructions are unclear."
+    },
+    {
+      "id": "ss202-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It makes sense to keep the receipt after buying an expensive item.",
+      "promptZh": "購買昂貴物品後保留收據是有道理的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to keep the receipt after buying an expensive item.",
+      "answerZh": "購買昂貴物品後，有充分理由保留收據。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to keep the receipt after buying an expensive item."
+    },
+    {
+      "id": "ss202-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Carrying an umbrella is advisable because heavy rain is expected.",
+      "promptZh": "由於預計會有大雨，攜帶雨傘是可取的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to carry an umbrella because heavy rain is expected.",
+      "answerZh": "由於預計會有大雨，有充分理由攜帶雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to carry an umbrella because heavy rain is expected."
+    },
+    {
+      "id": "ss202-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Reading the contract carefully before signing it is justified.",
+      "promptZh": "在簽署合約前仔細閱讀，是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to read the contract carefully before signing it.",
+      "answerZh": "在簽署合約前，有充分理由仔細閱讀合約。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to read the contract carefully before signing it."
+    },
+    {
+      "id": "ss202-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is sensible to save a copy of the document before editing it.",
+      "promptZh": "在編輯文件前儲存一份副本是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to save a copy of the document before editing it.",
+      "answerZh": "在編輯文件前，有充分理由儲存一份副本。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to save a copy of the document before editing it."
+    },
+    {
+      "id": "ss202-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is reasonable to speak quietly near the hospital rooms.",
+      "promptZh": "在醫院病房附近輕聲說話是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to speak quietly near the hospital rooms.",
+      "answerZh": "在醫院病房附近，有充分理由輕聲說話。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to speak quietly near the hospital rooms."
+    },
+    {
+      "id": "ss202-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is wise to wear a helmet when riding a bicycle.",
+      "promptZh": "踏單車時戴上頭盔是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to wear a helmet when riding a bicycle.",
+      "answerZh": "踏單車時，有充分理由戴上頭盔。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to wear a helmet when riding a bicycle."
+    },
+    {
+      "id": "ss202-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The dark clouds provide strong grounds for expecting rain this afternoon.",
+      "promptZh": "這些烏雲提供了充分依據，讓人預期今天下午會下雨。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the dark clouds, there is good reason to expect rain this afternoon.",
+      "answerZh": "鑑於天空出現烏雲，有充分理由預期今天下午會下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the dark clouds, there is good reason to expect rain this afternoon."
+    },
+    {
+      "id": "ss202-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Two similar errors justify checking the system again.",
+      "promptZh": "出現了兩次相似錯誤，因此再次檢查系統是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After two similar errors, there is good reason to check the system again.",
+      "answerZh": "出現兩次相似錯誤後，有充分理由再次檢查系統。",
+      "answerZhSource": "pdf",
+      "highlight": "After two similar errors, there is good reason to check the system again."
+    },
+    {
+      "id": "ss202-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The available information gives us a sound basis for believing that the missing parcel was sent to the wrong address.",
+      "promptZh": "現有資料為我們提供了充分依據，相信遺失的包裹被送到了錯誤地址。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to believe that the missing parcel was sent to the wrong address.",
+      "answerZh": "有充分理由相信遺失的包裹被送到了錯誤地址。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to believe that the missing parcel was sent to the wrong address."
+    },
+    {
+      "id": "ss202-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A claim that has no supporting evidence deserves to be questioned.",
+      "promptZh": "沒有證據支持的說法值得受到質疑。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to question a claim that has no supporting evidence.",
+      "answerZh": "有充分理由質疑沒有證據支持的說法。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to question a claim that has no supporting evidence."
+    },
+    {
+      "id": "ss202-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Delaying the trip until the storm has passed is justified.",
+      "promptZh": "把旅程延遲至暴風雨過後是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to delay the trip until the storm has passed.",
+      "answerZh": "有充分理由把旅程延遲至暴風雨過後。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to delay the trip until the storm has passed."
+    },
+    {
+      "id": "ss202-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If several students are confused, explaining the rule again is reasonable.",
+      "promptZh": "如果多名學生感到困惑，再次解釋規則是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When several students are confused, there is good reason to explain the rule again.",
+      "answerZh": "當多名學生感到困惑時，有充分理由再次解釋規則。",
+      "answerZhSource": "pdf",
+      "highlight": "When several students are confused, there is good reason to explain the rule again."
+    },
+    {
+      "id": "ss202-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The unusual login activity provides sound grounds for suspecting that the password has been shared.",
+      "promptZh": "異常的登入活動提供了充分依據，令人懷疑密碼曾被他人使用。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to suspect that the password has been shared.",
+      "answerZh": "有充分理由懷疑密碼曾被他人使用。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to suspect that the password has been shared."
+    },
+    {
+      "id": "ss202-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The rising costs make it sensible to review the budget.",
+      "promptZh": "成本上升，因此檢討預算是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In view of the rising costs, there is good reason to review the budget.",
+      "answerZh": "鑑於成本上升，有充分理由檢討預算。",
+      "answerZhSource": "pdf",
+      "highlight": "In view of the rising costs, there is good reason to review the budget."
+    },
+    {
+      "id": "ss202-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The damaged fence is a valid reason for keeping children away from it.",
+      "promptZh": "圍欄受損，是讓兒童遠離它的合理原因。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to keep children away from the damaged fence.",
+      "answerZh": "有充分理由讓兒童遠離受損的圍欄。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to keep children away from the damaged fence."
+    },
+    {
+      "id": "ss202-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The medicine may cause drowsiness, so avoiding driving after taking it is sensible.",
+      "promptZh": "這種藥物可能引致睡意，因此服藥後避免駕駛是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the medicine may cause drowsiness, there is good reason to avoid driving after taking it.",
+      "answerZh": "由於這種藥物可能引致睡意，服藥後有充分理由避免駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the medicine may cause drowsiness, there is good reason to avoid driving after taking it."
+    },
+    {
+      "id": "ss202-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The recent test results support the decision to continue the treatment.",
+      "promptZh": "最近的檢查結果支持繼續治療的決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The recent test results show that there is good reason to continue the treatment.",
+      "answerZh": "最近的檢查結果顯示，有充分理由繼續治療。",
+      "answerZhSource": "pdf",
+      "highlight": "The recent test results show that there is good reason to continue the treatment."
+    },
+    {
+      "id": "ss202-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The number of complaints justifies improving the customer service process.",
+      "promptZh": "投訴的數量顯示改善顧客服務流程是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the number of complaints, there is good reason to improve the customer service process.",
+      "answerZh": "鑑於投訴的數量，有充分理由改善顧客服務流程。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the number of complaints, there is good reason to improve the customer service process."
+    },
+    {
+      "id": "ss202-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The available evidence supports the expectation that the new timetable will reduce delays.",
+      "promptZh": "現有證據支持新時間表將能減少延誤的預期。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to expect the new timetable to reduce delays.",
+      "answerZh": "有充分理由預期新時間表將能減少延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to expect the new timetable to reduce delays."
+    },
+    {
+      "id": "ss202-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The alarm sounded twice, so a careful inspection of the building is justified.",
+      "promptZh": "警報響了兩次，因此仔細檢查大樓是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the alarm sounded twice, there is good reason to inspect the building carefully.",
+      "answerZh": "警報響了兩次後，有充分理由仔細檢查大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "After the alarm sounded twice, there is good reason to inspect the building carefully."
+    },
+    {
+      "id": "ss202-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The pattern of mistakes strongly suggests that the data was entered incorrectly.",
+      "promptZh": "錯誤的規律強烈顯示資料輸入有誤。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to believe that the data was entered incorrectly.",
+      "answerZh": "有充分理由相信資料輸入有誤。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to believe that the data was entered incorrectly."
+    },
+    {
+      "id": "ss202-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The path is wet and steep, so walking slowly is sensible.",
+      "promptZh": "小徑又濕又陡，因此慢慢步行是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the path is wet and steep, there is good reason to walk slowly.",
+      "answerZh": "由於小徑又濕又陡，有充分理由慢慢步行。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the path is wet and steep, there is good reason to walk slowly."
+    },
+    {
+      "id": "ss202-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A decision made without consulting the team deserves to be reconsidered.",
+      "promptZh": "在沒有諮詢團隊的情況下作出的決定，值得重新考慮。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to reconsider a decision made without consulting the team.",
+      "answerZh": "有充分理由重新考慮在沒有諮詢團隊的情況下作出的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to reconsider a decision made without consulting the team."
+    },
+    {
+      "id": "ss202-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The safety report justifies replacing the old equipment.",
+      "promptZh": "安全報告顯示更換舊設備是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In light of the safety report, there is good reason to replace the old equipment.",
+      "answerZh": "根據安全報告，有充分理由更換舊設備。",
+      "answerZhSource": "pdf",
+      "highlight": "In light of the safety report, there is good reason to replace the old equipment."
+    },
+    {
+      "id": "ss202-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Remaining doubtful is sensible until the witness’s account is confirmed.",
+      "promptZh": "在證人的說法得到確認前，保持懷疑是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to remain doubtful until the witness’s account is confirmed.",
+      "answerZh": "在證人的說法得到確認前，有充分理由保持懷疑。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to remain doubtful until the witness’s account is confirmed."
+    },
+    {
+      "id": "ss202-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If a payment appears twice, contacting the bank immediately is justified.",
+      "promptZh": "如果同一筆付款出現兩次，立即聯絡銀行是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When a payment appears twice, there is good reason to contact the bank immediately.",
+      "answerZh": "當同一筆付款出現兩次時，有充分理由立即聯絡銀行。",
+      "answerZhSource": "pdf",
+      "highlight": "When a payment appears twice, there is good reason to contact the bank immediately."
+    },
+    {
+      "id": "ss202-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After the sharp fall in sales, reviewing the marketing plan is sensible.",
+      "promptZh": "銷售額大幅下降後，檢討市場推廣計劃是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the sharp fall in sales, there is good reason to review the marketing plan.",
+      "answerZh": "銷售額大幅下降後，有充分理由檢討市場推廣計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "After the sharp fall in sales, there is good reason to review the marketing plan."
+    },
+    {
+      "id": "ss202-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The instructions conflict with each other, so asking the supervisor for clarification is justified.",
+      "promptZh": "這些指示互相矛盾，因此向主管要求澄清是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the instructions conflict with each other, there is good reason to ask the supervisor for clarification.",
+      "answerZh": "由於這些指示互相矛盾，有充分理由向主管要求澄清。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the instructions conflict with each other, there is good reason to ask the supervisor for clarification."
+    },
+    {
+      "id": "ss202-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The available evidence supports the belief that the road will reopen once the debris is removed.",
+      "promptZh": "現有證據支持這個看法：路面雜物清除後，道路將會重開。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to believe that the road will reopen once the debris is removed.",
+      "answerZh": "有充分理由相信路面雜物清除後，道路將會重開。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to believe that the road will reopen once the debris is removed."
+    },
+    {
+      "id": "ss202-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the same fault appears again, stopping the use of the machine is sensible.",
+      "promptZh": "如果相同故障再次出現，停止使用機器是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the same fault appears again, there is good reason to stop using the machine.",
+      "answerZh": "如果相同故障再次出現，有充分理由停止使用機器。",
+      "answerZhSource": "pdf",
+      "highlight": "If the same fault appears again, there is good reason to stop using the machine."
+    },
+    {
+      "id": "ss202-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before accepting the offer, it is wise to compare it with other options.",
+      "promptZh": "接受這項提議前，把它與其他選擇比較是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before accepting the offer, there is good reason to compare it with other options.",
+      "answerZh": "接受這項提議前，有充分理由把它與其他選擇比較。",
+      "answerZhSource": "pdf",
+      "highlight": "Before accepting the offer, there is good reason to compare it with other options."
+    },
+    {
+      "id": "ss202-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Protecting personal data from unnecessary access is fully justified.",
+      "promptZh": "保護個人資料，避免不必要的存取，是完全合理的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to protect personal data from unnecessary access.",
+      "answerZh": "有充分理由保護個人資料，避免不必要的存取。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to protect personal data from unnecessary access."
+    },
+    {
+      "id": "ss202-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The small sample requires the results to be interpreted cautiously.",
+      "promptZh": "樣本數量很少，因此必須審慎解讀結果。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the sample is small, there is good reason to interpret the results cautiously.",
+      "answerZh": "由於樣本數量很少，有充分理由審慎解讀結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the sample is small, there is good reason to interpret the results cautiously."
+    },
+    {
+      "id": "ss202-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Informing residents before changing the collection schedule is reasonable.",
+      "promptZh": "在更改收集時間表前通知居民是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to inform residents before changing the collection schedule.",
+      "answerZh": "有充分理由在更改收集時間表前通知居民。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to inform residents before changing the collection schedule."
+    },
+    {
+      "id": "ss202-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The fact that children regularly cross this road justifies installing clearer warning signs.",
+      "promptZh": "兒童經常橫過這條道路，因此安裝更清晰的警告標誌是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where children regularly cross the road, there is good reason to install clearer warning signs.",
+      "answerZh": "在兒童經常橫過道路的地方，有充分理由安裝更清晰的警告標誌。",
+      "answerZhSource": "pdf",
+      "highlight": "Where children regularly cross the road, there is good reason to install clearer warning signs."
+    },
+    {
+      "id": "ss202-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The lack of staff raises valid doubts about whether the plan can succeed.",
+      "promptZh": "人手不足令人有合理理由懷疑這項計劃能否成功。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to question whether the plan can succeed without enough staff.",
+      "answerZh": "有充分理由質疑這項計劃能否在人手不足的情況下成功。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to question whether the plan can succeed without enough staff."
+    },
+    {
+      "id": "ss202-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The repeated delays justify examining how the orders are being processed.",
+      "promptZh": "多次出現延誤，因此有理由檢查訂單的處理方式。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In light of the repeated delays, there is good reason to examine how the orders are being processed.",
+      "answerZh": "鑑於多次出現延誤，有充分理由檢查訂單的處理方式。",
+      "answerZhSource": "pdf",
+      "highlight": "In light of the repeated delays, there is good reason to examine how the orders are being processed."
+    },
+    {
+      "id": "ss202-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the first report looked reassuring, waiting for the independent review is sensible.",
+      "promptZh": "雖然第一份報告看來令人安心，但等待獨立檢討仍是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the first report looked reassuring, there is good reason to wait for the independent review.",
+      "answerZh": "雖然第一份報告看來令人安心，但仍有充分理由等待獨立檢討。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the first report looked reassuring, there is good reason to wait for the independent review."
+    },
+    {
+      "id": "ss202-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Reports from several reliable sources justify taking the warning seriously.",
+      "promptZh": "數個可靠消息來源都作出相關報道，因此認真看待這項警告是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When several reliable sources report the same problem, there is good reason to take the warning seriously.",
+      "answerZh": "當數個可靠消息來源都報道同一問題時，有充分理由認真看待這項警告。",
+      "answerZhSource": "pdf",
+      "highlight": "When several reliable sources report the same problem, there is good reason to take the warning seriously."
+    },
+    {
+      "id": "ss202-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Uncertainty about future demand makes avoiding a large immediate investment sensible.",
+      "promptZh": "未來需求存在不確定性，因此避免立即作出大額投資是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the uncertainty about future demand, there is good reason to avoid making a large investment immediately.",
+      "answerZh": "鑑於未來需求存在不確定性，有充分理由避免立即作出大額投資。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the uncertainty about future demand, there is good reason to avoid making a large investment immediately."
+    },
+    {
+      "id": "ss202-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The current evidence supports the belief that the policy will affect small businesses more than large companies.",
+      "promptZh": "現有證據支持這個看法：這項政策對小型企業的影響將大於大型公司。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is good reason to believe that the policy will affect small businesses more than large companies.",
+      "answerZh": "有充分理由相信這項政策對小型企業的影響將大於大型公司。",
+      "answerZhSource": "pdf",
+      "highlight": "There is good reason to believe that the policy will affect small businesses more than large companies."
+    },
+    {
+      "id": "ss202-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The mismatch between the records justifies investigating whether any payments are missing.",
+      "promptZh": "紀錄互不相符，因此調查是否有付款遺失是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the records do not match, there is good reason to investigate whether any payments are missing.",
+      "answerZh": "由於紀錄互不相符，有充分理由調查是否有付款遺失。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the records do not match, there is good reason to investigate whether any payments are missing."
+    },
+    {
+      "id": "ss202-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The equipment failed during two safety tests, so replacing it before the next inspection is justified.",
+      "promptZh": "設備在兩次安全測試中發生故障，因此在下次檢查前更換設備是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the equipment failed during two safety tests, there is good reason to replace it before the next inspection.",
+      "answerZh": "設備在兩次安全測試中發生故障後，有充分理由在下次檢查前更換設備。",
+      "answerZhSource": "pdf",
+      "highlight": "After the equipment failed during two safety tests, there is good reason to replace it before the next inspection."
+    },
+    {
+      "id": "ss202-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If a decision could affect vulnerable residents, consulting them before taking action is appropriate and justified.",
+      "promptZh": "如果某項決定可能影響弱勢居民，在採取行動前諮詢他們是恰當而合理的。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If a decision could affect vulnerable residents, there is good reason to consult them before taking action.",
+      "answerZh": "如果某項決定可能影響弱勢居民，有充分理由在採取行動前諮詢他們。",
+      "answerZhSource": "pdf",
+      "highlight": "If a decision could affect vulnerable residents, there is good reason to consult them before taking action."
+    },
+    {
+      "id": "ss202-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The conflicting medical advice makes it sensible to seek a second professional opinion.",
+      "promptZh": "互相矛盾的醫療建議，令尋求另一名專業人士的意見成為明智做法。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In view of the conflicting medical advice, there is good reason to seek a second professional opinion.",
+      "answerZh": "鑑於醫療建議互相矛盾，有充分理由尋求另一名專業人士的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "In view of the conflicting medical advice, there is good reason to seek a second professional opinion."
+    },
+    {
+      "id": "ss202-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the project has made progress, the unfinished key tests justify reconsidering the deadline.",
+      "promptZh": "雖然項目已有進展，但關鍵測試尚未完成，因此重新考慮限期是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the project has made progress, there is good reason to reconsider the deadline if key tests remain unfinished.",
+      "answerZh": "即使項目已有進展，如果關鍵測試仍未完成，也有充分理由重新考慮限期。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the project has made progress, there is good reason to reconsider the deadline if key tests remain unfinished."
+    }
+  ]
+}

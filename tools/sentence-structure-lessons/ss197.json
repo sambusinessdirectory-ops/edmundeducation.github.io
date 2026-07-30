@@ -1,0 +1,1203 @@
+{
+  "id": "ss197",
+  "order": 197,
+  "slug": "meanwhile",
+  "title": "「Meanwhile」表示同時發生的事情",
+  "titleZh": "「Meanwhile」表示同時發生的事情",
+  "titleEn": "Using “Meanwhile”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 197 -「Meanwhile」表示同時發生的事情.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Complete sentence A. Meanwhile, complete sentence B.",
+  "formulas": [
+    {
+      "id": "ss197-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "Complete sentence A. Meanwhile, complete sentence B."
+    }
+  ],
+  "example": "I’m preparing dinner. Meanwhile, my brother is setting the table.",
+  "exampleZh": "我正在準備晚餐。與此同時，我哥哥正在擺放餐具。",
+  "examples": [
+    {
+      "id": "ss197-example-01",
+      "en": "I’m preparing dinner. Meanwhile, my brother is setting the table.",
+      "zh": "我正在準備晚餐。與此同時，我哥哥正在擺放餐具。",
+      "highlight": "I’m preparing dinner. Meanwhile, my brother is setting the table."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Complete sentence A. Meanwhile, complete sentence B.。"
+  },
+  "rules": [
+    {
+      "id": "ss197-rule-01",
+      "zh": "Meanwhile 前後通常都是完整句子 本練習使用以下標準格式： Meanwhile 前面使用句號，而 Meanwhile 後面使用逗號。",
+      "en": "Meanwhile normally links two complete sentences. This exercise uses the standard punctuation: Sentence A. Meanwhile, sentence B. Put a full stop before Meanwhile and a comma after it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Sentence A. Meanwhile, sentence B."
+      ]
+    },
+    {
+      "id": "ss197-rule-02",
+      "zh": "兩件事情不必在完全相同的一秒發生 Meanwhile 可以表示： ● 兩個動作正在同時進行； ● 兩項工作在同一段期間內進行； ● 等待某件事情完成期間，另一件事情正在發生。 （圖書館正在翻新。與此同時，讀者可以使用隔壁的自修室。）",
+      "en": "The two events need not happen at exactly the same second. Meanwhile can show two actions in progress at once, two tasks taking place within the same period, or another event occurring while people wait for something to finish. Example: The library is being renovated. Meanwhile, readers can use the study room next door.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The library is being renovated. Meanwhile, readers can use the study room next door."
+      ]
+    },
+    {
+      "id": "ss197-rule-03",
+      "zh": "Meanwhile 不是表示先後次序 如第二件事情在第一件事情完成後才發生，應使用 then、afterwards 或 later，而不是",
+      "en": "Meanwhile does not show that one event happens after another. If the second event begins only after the first has finished, use then, afterwards, or later instead of meanwhile.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss197-rule-04",
+      "zh": "Meanwhile 和 while 的句子結構不同 While 是連接詞，可以把兩個部分連成一句： Meanwhile 通常另開一個完整句子：",
+      "en": "Meanwhile and while use different sentence structures. While is a conjunction that can join two parts in one sentence: While Mia was studying, her brother was watching television. Meanwhile normally opens a separate complete sentence: Mia was studying. Meanwhile, her brother was watching television.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "While Mia was studying, her brother was watching television.",
+        "Mia was studying. Meanwhile, her brother was watching television."
+      ]
+    },
+    {
+      "id": "ss197-rule-05",
+      "zh": "保留原句的時態和語意 改寫時，只改變連接方式。人物、動作、時間、肯定或否定意思都不應改變。",
+      "en": "Preserve the original tense and meaning; change only how the events are connected.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss197-benefit-01",
+      "zh": "這個句型能讓讀者立即明白，兩件事情正在同時或同一段期間內發生。",
+      "en": "It clearly shows that two things are happening during the same period The reader can immediately understand that the two events are taking place at the same time or within the same period.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss197-benefit-02",
+      "zh": "當兩個部分都包含較多資料時，你可以把它們分成兩個完整句子，使內容更容易理解。 第二個版本把兩項工作分開說明，讓讀者更容易掌握每個團隊正在做甚麼。",
+      "en": "It makes detailed information easier to follow Instead of placing two long ideas inside one sentence with while, you can separate them into two complete sentences. Compare: While the marketing team is planning the campaign, the design team is creating promotional materials. The marketing team is planning the campaign. Meanwhile, the design team is creating promotional materials.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss197-benefit-03",
+      "zh": "你可以把讀者的注意力由一個人物、團隊或地點轉移到另一個，同時保持兩件事情之間的時間關 係。",
+      "en": "It helps organise stories, reports and updates You can move the reader’s attention from one person, group or place to another without losing the connection between the events.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss197-benefit-04",
+      "zh": "Meanwhile 亦可以突出兩種不同甚至相反的情況正在同時發展。",
+      "en": "It can highlight a contrast between two developments Meanwhile can show that two different or even opposite situations are developing at the same time.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss197-benefit-05",
+      "zh": "適當使用 Meanwhile，可以避免反覆使用 while 或 at the same time，令作文、報告、簡報和工作 匯報的句式更有變化。",
+      "en": "It gives you an alternative to repeatedly using while or at the same time Using Meanwhile appropriately creates more sentence variety in stories, essays, reports, presentations and workplace updates.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Complete sentence A. Meanwhile, complete sentence B..",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Complete sentence A. Meanwhile, complete sentence B.」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss197-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I am washing the vegetables while my sister is boiling the water.",
+      "promptZh": "我正在清洗蔬菜，而我妹妹正在燒水。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I am washing the vegetables. Meanwhile, my sister is boiling the water.",
+      "answerZh": "我正在清洗蔬菜。與此同時，我妹妹正在燒水。",
+      "answerZhSource": "pdf",
+      "highlight": "I am washing the vegetables. Meanwhile, my sister is boiling the water."
+    },
+    {
+      "id": "ss197-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Ben is feeding the cat, and at the same time his father is making breakfast.",
+      "promptZh": "本正在餵貓，同一時間，他的父親正在準備早餐。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben is feeding the cat. Meanwhile, his father is making breakfast.",
+      "answerZh": "本正在餵貓。與此同時，他的父親正在準備早餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben is feeding the cat. Meanwhile, his father is making breakfast."
+    },
+    {
+      "id": "ss197-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Some children are drawing pictures while the others are reading books.",
+      "promptZh": "有些孩子正在畫畫，而其他孩子正在看書。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some children are drawing pictures. Meanwhile, the others are reading books.",
+      "answerZh": "有些孩子正在畫畫。與此同時，其他孩子正在看書。",
+      "answerZhSource": "pdf",
+      "highlight": "Some children are drawing pictures. Meanwhile, the others are reading books."
+    },
+    {
+      "id": "ss197-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "As the bus driver checked the route, the passengers found their seats.",
+      "promptZh": "巴士司機查看路線時，乘客找到自己的座位。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus driver checked the route. Meanwhile, the passengers found their seats.",
+      "answerZh": "巴士司機查看路線。與此同時，乘客找到自己的座位。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus driver checked the route. Meanwhile, the passengers found their seats."
+    },
+    {
+      "id": "ss197-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Mia was doing her homework, and her brother was practising the piano at the same time.",
+      "promptZh": "米婭正在做功課，而她的哥哥同時正在練習鋼琴。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia was doing her homework. Meanwhile, her brother was practising the piano.",
+      "answerZh": "米婭正在做功課。與此同時，她的哥哥正在練習鋼琴。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia was doing her homework. Meanwhile, her brother was practising the piano."
+    },
+    {
+      "id": "ss197-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "While we were setting up the tent, our friends were collecting firewood.",
+      "promptZh": "我們正在搭帳篷時，朋友們正在撿拾柴枝。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We were setting up the tent. Meanwhile, our friends were collecting firewood.",
+      "answerZh": "我們正在搭帳篷。與此同時，朋友們正在撿拾柴枝。",
+      "answerZhSource": "pdf",
+      "highlight": "We were setting up the tent. Meanwhile, our friends were collecting firewood."
+    },
+    {
+      "id": "ss197-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The shop assistant wrapped the gift. During this time, the customer paid at the counter.",
+      "promptZh": "店員包裝禮物。在此期間，顧客在櫃位付款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop assistant wrapped the gift. Meanwhile, the customer paid at the counter.",
+      "answerZh": "店員包裝禮物。與此同時，顧客在櫃位付款。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop assistant wrapped the gift. Meanwhile, the customer paid at the counter."
+    },
+    {
+      "id": "ss197-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As the teacher wrote on the board, the students copied the notes.",
+      "promptZh": "老師在黑板上書寫時，學生抄下筆記。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher wrote on the board. Meanwhile, the students copied the notes.",
+      "answerZh": "老師在黑板上書寫。與此同時，學生抄下筆記。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher wrote on the board. Meanwhile, the students copied the notes."
+    },
+    {
+      "id": "ss197-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "One nurse checked the patient’s temperature while another nurse prepared the medicine.",
+      "promptZh": "一名護士量度病人的體溫，而另一名護士準備藥物。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One nurse checked the patient’s temperature. Meanwhile, another nurse prepared the medicine.",
+      "answerZh": "一名護士量度病人的體溫。與此同時，另一名護士準備藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "One nurse checked the patient’s temperature. Meanwhile, another nurse prepared the medicine."
+    },
+    {
+      "id": "ss197-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The rain continued outside while the family played cards indoors.",
+      "promptZh": "外面持續下雨，而一家人在室內玩紙牌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain continued outside. Meanwhile, the family played cards indoors.",
+      "answerZh": "外面持續下雨。與此同時，一家人在室內玩紙牌。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain continued outside. Meanwhile, the family played cards indoors."
+    },
+    {
+      "id": "ss197-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Chloe is preparing the slides while Daniel is checking the figures.",
+      "promptZh": "克洛伊正在準備簡報投影片，而丹尼爾正在核對數字。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe is preparing the slides. Meanwhile, Daniel is checking the figures.",
+      "answerZh": "克洛伊正在準備簡報投影片。與此同時，丹尼爾正在核對數字。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe is preparing the slides. Meanwhile, Daniel is checking the figures."
+    },
+    {
+      "id": "ss197-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As the football team was warming up, the supporters were entering the stadium.",
+      "promptZh": "足球隊熱身時，支持者正在進入球場。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The football team was warming up. Meanwhile, the supporters were entering the stadium.",
+      "answerZh": "足球隊正在熱身。與此同時，支持者正在進入球場。",
+      "answerZhSource": "pdf",
+      "highlight": "The football team was warming up. Meanwhile, the supporters were entering the stadium."
+    },
+    {
+      "id": "ss197-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The chef cooked the main course, and the assistant prepared the dessert at the same time.",
+      "promptZh": "廚師烹調主菜，而助手同時準備甜品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chef cooked the main course. Meanwhile, the assistant prepared the dessert.",
+      "answerZh": "廚師烹調主菜。與此同時，助手準備甜品。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef cooked the main course. Meanwhile, the assistant prepared the dessert."
+    },
+    {
+      "id": "ss197-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "While the library is being renovated, readers can use the study room next door.",
+      "promptZh": "圖書館正在翻新期間，讀者可以使用隔壁的自修室。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is being renovated. Meanwhile, readers can use the study room next door.",
+      "answerZh": "圖書館正在翻新。與此同時，讀者可以使用隔壁的自修室。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is being renovated. Meanwhile, readers can use the study room next door."
+    },
+    {
+      "id": "ss197-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The train was delayed. During the delay, station staff gave passengers regular updates.",
+      "promptZh": "火車延誤。在延誤期間，車站職員定時向乘客提供最新消息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train was delayed. Meanwhile, station staff gave passengers regular updates.",
+      "answerZh": "火車延誤。與此同時，車站職員定時向乘客提供最新消息。",
+      "answerZhSource": "pdf",
+      "highlight": "The train was delayed. Meanwhile, station staff gave passengers regular updates."
+    },
+    {
+      "id": "ss197-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The science group tested the model while the art group designed the poster.",
+      "promptZh": "科學小組測試模型，而美術小組設計海報。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science group tested the model. Meanwhile, the art group designed the poster.",
+      "answerZh": "科學小組測試模型。與此同時，美術小組設計海報。",
+      "answerZhSource": "pdf",
+      "highlight": "The science group tested the model. Meanwhile, the art group designed the poster."
+    },
+    {
+      "id": "ss197-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I will contact the supplier. At the same time, you can review the order details.",
+      "promptZh": "我會聯絡供應商。同一時間，你可以核對訂單詳情。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will contact the supplier. Meanwhile, you can review the order details.",
+      "answerZh": "我會聯絡供應商。與此同時，你可以核對訂單詳情。",
+      "answerZhSource": "pdf",
+      "highlight": "I will contact the supplier. Meanwhile, you can review the order details."
+    },
+    {
+      "id": "ss197-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As the doctor was speaking to the patient, the receptionist was arranging the next appointment.",
+      "promptZh": "醫生與病人交談時，接待員正在安排下一次覆診。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor was speaking to the patient. Meanwhile, the receptionist was arranging the next appointment.",
+      "answerZh": "醫生正在與病人交談。與此同時，接待員正在安排下一次覆診。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor was speaking to the patient. Meanwhile, the receptionist was arranging the next appointment."
+    },
+    {
+      "id": "ss197-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "While the children were building a sandcastle, their parents were resting under an umbrella.",
+      "promptZh": "孩子們堆沙堡時，他們的父母正在太陽傘下休息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children were building a sandcastle. Meanwhile, their parents were resting under an umbrella.",
+      "answerZh": "孩子們正在堆沙堡。與此同時，他們的父母正在太陽傘下休息。",
+      "answerZhSource": "pdf",
+      "highlight": "The children were building a sandcastle. Meanwhile, their parents were resting under an umbrella."
+    },
+    {
+      "id": "ss197-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "One team is interviewing customers while the other team is analysing the survey results.",
+      "promptZh": "一個小組正在訪問顧客，而另一個小組正在分析調查結果。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One team is interviewing customers. Meanwhile, the other team is analysing the survey results.",
+      "answerZh": "一個小組正在訪問顧客。與此同時，另一個小組正在分析調查結果。",
+      "answerZhSource": "pdf",
+      "highlight": "One team is interviewing customers. Meanwhile, the other team is analysing the survey results."
+    },
+    {
+      "id": "ss197-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The company is improving its website, and at the same time its customer service team is updating the help pages.",
+      "promptZh": "公司正在改善網站，同一時間，顧客服務團隊正在更新說明頁面。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company is improving its website. Meanwhile, its customer service team is updating the help pages.",
+      "answerZh": "公司正在改善網站。與此同時，顧客服務團隊正在更新說明頁面。",
+      "answerZhSource": "pdf",
+      "highlight": "The company is improving its website. Meanwhile, its customer service team is updating the help pages."
+    },
+    {
+      "id": "ss197-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "While firefighters were controlling the fire, police officers were keeping people away from the building.",
+      "promptZh": "消防員控制火勢時，警員正阻止人們接近大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Firefighters",
+      "answer": "Firefighters were controlling the fire. Meanwhile, police officers were keeping people away from the building.",
+      "answerZh": "消防員正在控制火勢。與此同時，警員正阻止人們接近大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Firefighters were controlling the fire. Meanwhile, police officers were keeping people away from the building."
+    },
+    {
+      "id": "ss197-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The school will repair the playground. During this period, pupils will use the sports hall for physical education lessons.",
+      "promptZh": "學校將維修操場。在此期間，學生會使用體育館上體育課。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school will repair the playground. Meanwhile, pupils will use the sports hall for physical education lessons.",
+      "answerZh": "學校將維修操場。與此同時，學生會使用體育館上體育課。",
+      "answerZhSource": "pdf",
+      "highlight": "The school will repair the playground. Meanwhile, pupils will use the sports hall for physical education lessons."
+    },
+    {
+      "id": "ss197-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As the storm was moving towards the coast, local residents were preparing emergency supplies.",
+      "promptZh": "暴風雨移向海岸時，當地居民正在準備緊急物資。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The storm was moving towards the coast. Meanwhile, local residents were preparing emergency supplies.",
+      "answerZh": "暴風雨正在移向海岸。與此同時，當地居民正在準備緊急物資。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm was moving towards the coast. Meanwhile, local residents were preparing emergency supplies."
+    },
+    {
+      "id": "ss197-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Researchers are studying the new treatment while hospitals are continuing to use the existing method.",
+      "promptZh": "研究人員正在研究新的治療方法，而醫院正繼續使用現有方法。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers are studying the new treatment. Meanwhile, hospitals are continuing to use the existing method.",
+      "answerZh": "研究人員正在研究新的治療方法。與此同時，醫院正繼續使用現有方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers are studying the new treatment. Meanwhile, hospitals are continuing to use the existing method."
+    },
+    {
+      "id": "ss197-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "While the main road was closed for repairs, drivers were being directed along a temporary route.",
+      "promptZh": "主要道路因維修而關閉期間，駕駛者被引導使用臨時路線。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main road was closed for repairs. Meanwhile, drivers were being directed along a temporary route.",
+      "answerZh": "主要道路因維修而關閉。與此同時，駕駛者被引導使用臨時路線。",
+      "answerZhSource": "pdf",
+      "highlight": "The main road was closed for repairs. Meanwhile, drivers were being directed along a temporary route."
+    },
+    {
+      "id": "ss197-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As Sara was presenting the proposal, her colleagues were taking notes and preparing questions.",
+      "promptZh": "莎拉介紹建議書時，她的同事正在做筆記和準備問題。",
+      "promptZhSource": "pdf",
+      "starter": "Sara",
+      "answer": "Sara was presenting the proposal. Meanwhile, her colleagues were taking notes and preparing questions.",
+      "answerZh": "莎拉正在介紹建議書。與此同時，她的同事正在做筆記和準備問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Sara was presenting the proposal. Meanwhile, her colleagues were taking notes and preparing questions."
+    },
+    {
+      "id": "ss197-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The museum is displaying ancient objects while its education team is running workshops for children.",
+      "promptZh": "博物館正在展出古代物品，而教育團隊正在為兒童舉辦工作坊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum is displaying ancient objects. Meanwhile, its education team is running workshops for children.",
+      "answerZh": "博物館正在展出古代物品。與此同時，教育團隊正為兒童舉辦工作坊。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is displaying ancient objects. Meanwhile, its education team is running workshops for children."
+    },
+    {
+      "id": "ss197-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Heavy fog was affecting the airport, and airlines were advising passengers to check their flight status at the same time.",
+      "promptZh": "濃霧正影響機場，同一時間，航空公司建議乘客查看航班狀況。",
+      "promptZhSource": "pdf",
+      "starter": "Heavy",
+      "answer": "Heavy fog was affecting the airport. Meanwhile, airlines were advising passengers to check their flight status.",
+      "answerZh": "濃霧正影響機場。與此同時，航空公司建議乘客查看航班狀況。",
+      "answerZhSource": "pdf",
+      "highlight": "Heavy fog was affecting the airport. Meanwhile, airlines were advising passengers to check their flight status."
+    },
+    {
+      "id": "ss197-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "While the charity collected winter clothes, volunteers sorted them by size and condition.",
+      "promptZh": "慈善機構收集冬季衣物時，義工按尺碼和狀況把衣物分類。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity collected winter clothes. Meanwhile, volunteers sorted them by size and condition.",
+      "answerZh": "慈善機構收集冬季衣物。與此同時，義工按尺碼和狀況把衣物分類。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity collected winter clothes. Meanwhile, volunteers sorted them by size and condition."
+    },
+    {
+      "id": "ss197-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council is discussing the housing plan. At the same time, residents are sharing their views at a public meeting.",
+      "promptZh": "議會正在討論房屋計劃。同一時間，居民正在公眾會議上表達意見。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council is discussing the housing plan. Meanwhile, residents are sharing their views at a public meeting.",
+      "answerZh": "議會正在討論房屋計劃。與此同時，居民正在公眾會議上表達意見。",
+      "answerZhSource": "pdf",
+      "highlight": "The council is discussing the housing plan. Meanwhile, residents are sharing their views at a public meeting."
+    },
+    {
+      "id": "ss197-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "While the technicians were repairing the network, employees were using mobile data to continue their work.",
+      "promptZh": "技術人員維修網絡時，僱員正使用流動數據繼續工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The technicians were repairing the network. Meanwhile, employees were using mobile data to continue their work.",
+      "answerZh": "技術人員正在維修網絡。與此同時，僱員正使用流動數據繼續工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The technicians were repairing the network. Meanwhile, employees were using mobile data to continue their work."
+    },
+    {
+      "id": "ss197-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The factory is reducing its water use, and it is also testing new ways to cut electricity consumption during the same period.",
+      "promptZh": "工廠正在減少用水，並在同一期間測試減少耗電量的新方法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The factory is reducing its water use. Meanwhile, it is testing new ways to cut electricity consumption.",
+      "answerZh": "工廠正在減少用水。與此同時，它正在測試減少耗電量的新方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The factory is reducing its water use. Meanwhile, it is testing new ways to cut electricity consumption."
+    },
+    {
+      "id": "ss197-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As the actors were rehearsing the final scene, the stage crew was adjusting the lights.",
+      "promptZh": "演員排練最後一幕時，舞台工作人員正在調校燈光。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The actors were rehearsing the final scene. Meanwhile, the stage crew was adjusting the lights.",
+      "answerZh": "演員正在排練最後一幕。與此同時，舞台工作人員正在調校燈光。",
+      "answerZhSource": "pdf",
+      "highlight": "The actors were rehearsing the final scene. Meanwhile, the stage crew was adjusting the lights."
+    },
+    {
+      "id": "ss197-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The investigation is continuing. During this period, the organisation has introduced temporary safety measures.",
+      "promptZh": "調查仍在進行。在此期間，該機構已推出臨時安全措施。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The investigation is continuing. Meanwhile, the organisation has introduced temporary safety measures.",
+      "answerZh": "調查仍在進行。與此同時，該機構已推出臨時安全措施。",
+      "answerZhSource": "pdf",
+      "highlight": "The investigation is continuing. Meanwhile, the organisation has introduced temporary safety measures."
+    },
+    {
+      "id": "ss197-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The first group was exploring the old town while the second group was visiting the local market.",
+      "promptZh": "第一組正在遊覽舊城區，而第二組正在參觀當地市場。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first group was exploring the old town. Meanwhile, the second group was visiting the local market.",
+      "answerZh": "第一組正在遊覽舊城區。與此同時，第二組正在參觀當地市場。",
+      "answerZhSource": "pdf",
+      "highlight": "The first group was exploring the old town. Meanwhile, the second group was visiting the local market."
+    },
+    {
+      "id": "ss197-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager will meet the client. During that time, the rest of the team should finalise the cost estimate.",
+      "promptZh": "經理將與客戶會面。在此期間，團隊其他成員應完成成本估算。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager will meet the client. Meanwhile, the rest of the team should finalise the cost estimate.",
+      "answerZh": "經理將與客戶會面。與此同時，團隊其他成員應完成成本估算。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager will meet the client. Meanwhile, the rest of the team should finalise the cost estimate."
+    },
+    {
+      "id": "ss197-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital is expanding its emergency department. During this work, patients are being treated in a temporary unit.",
+      "promptZh": "醫院正在擴建急症部。在工程期間，病人正在臨時病房接受治療。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital is expanding its emergency department. Meanwhile, patients are being treated in a temporary unit.",
+      "answerZh": "醫院正在擴建急症部。與此同時，病人正在臨時病房接受治療。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital is expanding its emergency department. Meanwhile, patients are being treated in a temporary unit."
+    },
+    {
+      "id": "ss197-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "While the online system was unavailable, staff recorded each request on paper.",
+      "promptZh": "網上系統無法使用期間，職員把每項要求記錄在紙上。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The online system was unavailable. Meanwhile, staff recorded each request on paper.",
+      "answerZh": "網上系統無法使用。與此同時，職員把每項要求記錄在紙上。",
+      "answerZhSource": "pdf",
+      "highlight": "The online system was unavailable. Meanwhile, staff recorded each request on paper."
+    },
+    {
+      "id": "ss197-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As the farmers were protecting their crops from the cold, weather experts were monitoring the falling temperatures.",
+      "promptZh": "農民保護農作物免受寒冷影響時，氣象專家正在監察持續下降的氣溫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The farmers were protecting their crops from the cold. Meanwhile, weather experts were monitoring the falling temperatures.",
+      "answerZh": "農民正在保護農作物免受寒冷影響。與此同時，氣象專家正在監察持續下降的氣溫。",
+      "answerZhSource": "pdf",
+      "highlight": "The farmers were protecting their crops from the cold. Meanwhile, weather experts were monitoring the falling temperatures."
+    },
+    {
+      "id": "ss197-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "While the government is reviewing the transport policy, several districts are testing new bus routes.",
+      "promptZh": "政府檢討交通政策期間，多個地區正在測試新的巴士路線。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The government is reviewing the transport policy. Meanwhile, several districts are testing new bus routes.",
+      "answerZh": "政府正在檢討交通政策。與此同時，多個地區正在測試新的巴士路線。",
+      "answerZhSource": "pdf",
+      "highlight": "The government is reviewing the transport policy. Meanwhile, several districts are testing new bus routes."
+    },
+    {
+      "id": "ss197-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As engineers are examining the damaged bridge, traffic is being diverted through nearby streets.",
+      "promptZh": "工程師正在檢查受損大橋時，車輛正改道使用附近街道。",
+      "promptZhSource": "pdf",
+      "starter": "Engineers",
+      "answer": "Engineers are examining the damaged bridge. Meanwhile, traffic is being diverted through nearby streets.",
+      "answerZh": "工程師正在檢查受損大橋。與此同時，車輛正改道使用附近街道。",
+      "answerZhSource": "pdf",
+      "highlight": "Engineers are examining the damaged bridge. Meanwhile, traffic is being diverted through nearby streets."
+    },
+    {
+      "id": "ss197-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The university has opened applications for the new programme, and teaching staff are developing the course materials at the same time.",
+      "promptZh": "大學已開始接受新課程申請，同一時間，教學人員正在編製課程材料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university has opened applications for the new programme. Meanwhile, teaching staff are developing the course materials.",
+      "answerZh": "大學已開始接受新課程申請。與此同時，教學人員正在編製課程材料。",
+      "answerZhSource": "pdf",
+      "highlight": "The university has opened applications for the new programme. Meanwhile, teaching staff are developing the course materials."
+    },
+    {
+      "id": "ss197-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "While the rescue team was searching the mountain path, medical workers were preparing to receive the missing hikers.",
+      "promptZh": "救援隊搜索山徑時，醫護人員正準備接應失蹤的遠足人士。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue team was searching the mountain path. Meanwhile, medical workers were preparing to receive the missing hikers.",
+      "answerZh": "救援隊正在搜索山徑。與此同時，醫護人員正準備接應失蹤的遠足人士。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team was searching the mountain path. Meanwhile, medical workers were preparing to receive the missing hikers."
+    },
+    {
+      "id": "ss197-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As the company is negotiating with its main supplier, the purchasing team is looking for alternative sources.",
+      "promptZh": "公司正在與主要供應商磋商時，採購團隊正在尋找其他供應來源。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company is negotiating with its main supplier. Meanwhile, the purchasing team is looking for alternative sources.",
+      "answerZh": "公司正在與主要供應商磋商。與此同時，採購團隊正在尋找其他供應來源。",
+      "answerZhSource": "pdf",
+      "highlight": "The company is negotiating with its main supplier. Meanwhile, the purchasing team is looking for alternative sources."
+    },
+    {
+      "id": "ss197-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The court will consider the new evidence. During that time, the current court order will remain in effect.",
+      "promptZh": "法庭將考慮新證據。在此期間，現行法庭命令將繼續生效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The court will consider the new evidence. Meanwhile, the current court order will remain in effect.",
+      "answerZh": "法庭將考慮新證據。與此同時，現行法庭命令將繼續生效。",
+      "answerZhSource": "pdf",
+      "highlight": "The court will consider the new evidence. Meanwhile, the current court order will remain in effect."
+    },
+    {
+      "id": "ss197-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "While the local government is building a larger water treatment plant, officials are asking residents to reduce unnecessary water use.",
+      "promptZh": "當地政府興建更大型的濾水廠期間，官員正呼籲居民減少不必要的用水。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local government is building a larger water treatment plant. Meanwhile, officials are asking residents to reduce unnecessary water use.",
+      "answerZh": "當地政府正在興建更大型的濾水廠。與此同時，官員正呼籲居民減少不必要的用水。",
+      "answerZhSource": "pdf",
+      "highlight": "The local government is building a larger water treatment plant. Meanwhile, officials are asking residents to reduce unnecessary water use."
+    },
+    {
+      "id": "ss197-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As the research team was reviewing data from the first trial, another laboratory was repeating the experiment independently.",
+      "promptZh": "研究團隊檢視首次試驗的數據時，另一間實驗室正在獨立重複該實驗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team was reviewing data from the first trial. Meanwhile, another laboratory was repeating the experiment independently.",
+      "answerZh": "研究團隊正在檢視首次試驗的數據。與此同時，另一間實驗室正在獨立重複該實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team was reviewing data from the first trial. Meanwhile, another laboratory was repeating the experiment independently."
+    },
+    {
+      "id": "ss197-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "While the school is introducing a new assessment system, teachers are receiving training on how to apply it consistently.",
+      "promptZh": "學校推行新的評估制度期間，教師正接受培訓，學習如何一致地運用該制度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school is introducing a new assessment system. Meanwhile, teachers are receiving training on how to apply it consistently.",
+      "answerZh": "學校正在推行新的評估制度。與此同時，教師正接受培訓，學習如何一致地運用該制度。",
+      "answerZhSource": "pdf",
+      "highlight": "The school is introducing a new assessment system. Meanwhile, teachers are receiving training on how to apply it consistently."
+    },
+    {
+      "id": "ss197-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "While the international talks are continuing in private, aid agencies are preparing supplies in case the situation becomes more serious.",
+      "promptZh": "國際談判私下繼續進行期間，救援機構正準備物資，以防局勢變得更嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The international talks are continuing in private. Meanwhile, aid agencies are preparing supplies in case the situation becomes more serious.",
+      "answerZh": "國際談判仍在私下進行。與此同時，救援機構正準備物資，以防局勢變得更嚴重。",
+      "answerZhSource": "pdf",
+      "highlight": "The international talks are continuing in private. Meanwhile, aid agencies are preparing supplies in case the situation becomes more serious."
+    }
+  ]
+}

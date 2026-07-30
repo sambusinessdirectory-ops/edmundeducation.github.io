@@ -1,0 +1,1348 @@
+{
+  "id": "ss183",
+  "order": 183,
+  "slug": "one-more-thing",
+  "title": "One more thing",
+  "titleZh": "「One more thing」補充最後一點",
+  "titleEn": "Using One more thing to add a final related point",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 183 - 「One more thing」補充最後一點.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "[Main message.] + One more thing: / — + complete sentence",
+  "formulas": [
+    {
+      "id": "ss183-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "[Main message.] + One more thing: / — + complete sentence"
+    }
+  ],
+  "example": "One more thing—don't forget to lock the door before you leave.",
+  "exampleZh": "還有一件事——離開前別忘了鎖門。",
+  "examples": [
+    {
+      "id": "ss183-example-01",
+      "en": "One more thing—don't forget to lock the door before you leave.",
+      "zh": "還有一件事——離開前別忘了鎖門。",
+      "highlight": "One more thing—don't forget to lock the door before you leave."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss183-rule-01",
+      "zh": "用它帶出一個與前文有關的額外重點，而不是突然轉到完全無關的話題。",
+      "en": "Use it for one extra point that is connected to what you have just said.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss183-rule-02",
+      "zh": "後面可以接陳述、請求、指示、提醒或問題，但內容必須完整。",
+      "en": "The words after it may form a statement, request, instruction, reminder or question, but the content must be complete.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss183-rule-03",
+      "zh": "冒號適合清楚、較中性的補充；破折號適合較口語、較有即時提醒感的補充。 本練習接受兩種正確用法。",
+      "en": "Use a colon for a neat, neutral addition. Use an em dash for a quicker or more conversational afterthought. Both are accepted in this exercise.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss183-rule-04",
+      "zh": "冒號或破折號後通常用小寫字母開始；但 I、人名或專有名詞仍要大寫。",
+      "en": "After the colon or dash, begin with a lower-case letter unless the first word normally needs a capital letter, such as I or a name.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss183-rule-05",
+      "zh": "通常要刪去 also、too、in addition 或 another point 等字眼，因為 One more thing 已經表示「補充」。 Punctuation examples 標點例子 Colon 冒號 （還有一件事：請在星期五前交功課。） Em dash 破折號 （還有一件事——我們需要大家明天前提交意見。）",
+      "en": "Usually remove words such as also, too, in addition or another point, because “One more thing” already shows that you are adding information. thing Punctuation examples Colon One more thing: please submit your homework by Friday. Em dash One more thing—we'll need everyone's feedback by tomorrow.",
+      "enSource": "pdf",
+      "examples": [
+        "One more thing: please submit your homework by Friday.",
+        "One more thing—we'll need everyone's feedback by tomorrow."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss183-benefit-01",
+      "zh": "It makes the extra point easy to notice 讓補充重點更顯眼 聽者或讀者會立即知道，接下來還有一個最後的重要細節。",
+      "en": "It makes the extra point easy to notice The listener or reader immediately knows that one final detail is coming.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss183-benefit-02",
+      "zh": "It keeps your message organised 令說話或訊息更有組織 你可以先完成主要內容，再補充提醒或細節，令整段說話或訊息不會顯得凌 亂。",
+      "en": "It keeps your message organised You can finish the main message first, then add a reminder or detail without making the message feel messy.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss183-benefit-03",
+      "zh": "It is useful for reminders and requests 很適合提醒和提出要求 在日常對話、電郵或會議中，當你要補充最後一項指示、問題或要求時，這個 句型很自然。",
+      "en": "It is useful for reminders and requests The structure sounds natural when you need to add a last instruction, question or request in daily conversation, an email or a meeting.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss183-benefit-04",
+      "zh": "It helps you avoid repeating “also” 避免重複使用 also 你不需要每句都以 Also 或 And 開始，能令句式有更多變化。",
+      "en": "It helps you avoid repeating “also” Instead of beginning several sentences with “Also” or “And”, you can use this phrase to vary your sentence opening.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss183-benefit-05",
+      "zh": "It supports speaking fluency 幫助口語更流暢 One more thing 是一個可直接使用的說話框架，讓你在說話時有一點時間 整理最後一個想法。 Before and after 前後比較 （請今天交表格。另外，請在表格上寫上你的電話號碼。→ 請今天交表格。還有一件事——請在表格上寫上你 的電話號碼。）",
+      "en": "It supports speaking fluency “One more thing …” is a ready-made speaking frame. It gives you a moment to organise the final idea while you are talking. One more thing Before and after Please submit the form today. Also, write your phone number on it. → Please submit the form today. One more thing—write your phone number on it.",
+      "enSource": "pdf",
+      "examples": [
+        "Please submit the form today. Also, write your phone number on it. → Please submit the"
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using One more thing.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 One more thing 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss183-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Also, bring a reusable bag when you go to the supermarket.",
+      "promptZh": "另外，去超級市場時請帶一個可重用購物袋。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing—bring a reusable bag when you go to the supermarket.",
+      "answerZh": "還有一件事——去超級市場時請帶一個可重用購物袋。",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing—bring a reusable bag when you go to the supermarket.",
+      "acceptedAnswers": [
+        "One more thing:bring a reusable bag when you go to the supermarket."
+      ]
+    },
+    {
+      "id": "ss183-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Please also write your name at the top of the page.",
+      "promptZh": "另外，請在頁頂寫上你的姓名。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing: please write your name at the top of the page.",
+      "answerZh": "還有一件事：請在頁頂寫上你的姓名。",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing: please write your name at the top of the page.",
+      "acceptedAnswers": [
+        "One more thing— please write your name at the top of the page."
+      ]
+    },
+    {
+      "id": "ss183-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Before dinner, don't forget to feed the cat.",
+      "promptZh": "晚飯前，別忘了餵貓。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing—don't forget to feed the cat before dinner.",
+      "answerZh": "還有一件事——晚飯前別忘了餵貓。",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing—don't forget to feed the cat before dinner.",
+      "acceptedAnswers": [
+        "One more thing:don't forget to feed the cat before dinner."
+      ]
+    },
+    {
+      "id": "ss183-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Please close the window when you leave the room as well.",
+      "promptZh": "離開房間時，也請關上窗戶。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing: please close the window when you leave the room.",
+      "answerZh": "還有一件事：離開房間時請關上窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing: please close the window when you leave the room.",
+      "acceptedAnswers": [
+        "One more thing— please close the window when you leave the room."
+      ]
+    },
+    {
+      "id": "ss183-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Here is a final reminder: take your umbrella.",
+      "promptZh": "最後提醒你：帶上雨傘。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing—take your umbrella.",
+      "answerZh": "還有一件事——帶上雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing—take your umbrella.",
+      "acceptedAnswers": [
+        "One more thing:take your umbrella."
+      ]
+    },
+    {
+      "id": "ss183-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We also need some milk from the shop.",
+      "promptZh": "我們還要從店裏買些牛奶。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing—we need some milk from the shop.",
+      "answerZh": "還有一件事——我們要從店裏買些牛奶。",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing—we need some milk from the shop.",
+      "acceptedAnswers": [
+        "One more thing:we need some milk from the shop."
+      ]
+    },
+    {
+      "id": "ss183-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Could you call Grandma tonight as well?",
+      "promptZh": "你今晚也可以打電話給祖母嗎？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing—could you call Grandma tonight?",
+      "answerZh": "還有一件事——你今晚可以打電話給祖母嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing—could you call Grandma tonight?",
+      "acceptedAnswers": [
+        "One more thing:could you call Grandma tonight?"
+      ]
+    },
+    {
+      "id": "ss183-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Remember to charge your tablet before school too.",
+      "promptZh": "上學前也要記得為平板電腦充電。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing—remember to charge your tablet before school.",
+      "answerZh": "還有一件事——上學前記得為平板電腦充電。",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing—remember to charge your tablet before school.",
+      "acceptedAnswers": [
+        "One more thing:remember to charge your tablet before school."
+      ]
+    },
+    {
+      "id": "ss183-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I have another small request: put the cups in the sink.",
+      "promptZh": "我還有一個小小的請求：把杯子放進洗碗盆。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing—I have a small request: put the cups in the sink.",
+      "answerZh": "還有一件事——我有一個小小的請求：把杯子放進洗碗盆。",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing—I have a small request: put the cups in the sink.",
+      "acceptedAnswers": [
+        "One more thing:I have a small request: put the cups in the sink."
+      ]
+    },
+    {
+      "id": "ss183-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The last thing I need to tell you is that the bus leaves at eight.",
+      "promptZh": "最後要告訴你的是，巴士八時開出。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing—the bus leaves at eight.",
+      "answerZh": "還有一件事——巴士八時開出。",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing—the bus leaves at eight.",
+      "acceptedAnswers": [
+        "One more thing:the bus leaves at eight."
+      ]
+    },
+    {
+      "id": "ss183-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The homework is on page 42. Also, answer in complete sentences.",
+      "promptZh": "功課在第42頁。另外，請用完整句子作答。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The homework is on page 42. One more thing—answer in complete sentences.",
+      "answerZh": "功課在第42頁。還有一件事——請用完整句子作答。",
+      "answerZhSource": "pdf",
+      "highlight": "The homework is on page 42. One more thing—answer in complete sentences.",
+      "acceptedAnswers": [
+        "The homework is on page 42. One more thing:answer in complete sentences."
+      ]
+    },
+    {
+      "id": "ss183-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We will meet outside the library. Please bring your student card too.",
+      "promptZh": "我們會在圖書館外集合。也請帶同學生證。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We will meet outside the library. One more thing: please bring your student card.",
+      "answerZh": "我們會在圖書館外集合。還有一件事：請帶同學生證。",
+      "answerZhSource": "pdf",
+      "highlight": "We will meet outside the library. One more thing: please bring your student card.",
+      "acceptedAnswers": [
+        "We will meet outside the library. One more thing— please bring your student card."
+      ]
+    },
+    {
+      "id": "ss183-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The soup is ready. Before you sit down, please wash your hands.",
+      "promptZh": "湯已經煮好了。坐下前，請先洗手。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup is ready. One more thing: please wash your hands before you sit down.",
+      "answerZh": "湯已經煮好了。還有一件事：坐下前請先洗手。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup is ready. One more thing: please wash your hands before you sit down.",
+      "acceptedAnswers": [
+        "The soup is ready. One more thing— please wash your hands before you sit down."
+      ]
+    },
+    {
+      "id": "ss183-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I have sent the map. I almost forgot to say that parking is free after six.",
+      "promptZh": "我已經把地圖傳給你。我差點忘了說，六時後可以免費泊車。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have sent the map. One more thing—I almost forgot to say that parking is free after six.",
+      "answerZh": "我已經把地圖傳給你。還有一件事——我差點忘了說，六時後可以免費泊車。",
+      "answerZhSource": "pdf",
+      "highlight": "I have sent the map. One more thing—I almost forgot to say that parking is free after six.",
+      "acceptedAnswers": [
+        "I have sent the map. One more thing:I almost forgot to say that parking is free after six."
+      ]
+    },
+    {
+      "id": "ss183-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The film starts at 7.30 p.m. Also, the seats are not numbered.",
+      "promptZh": "電影晚上七時半開始。另外，座位不設編號。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The film starts at 7.30 p.m. One more thing—the seats are not numbered.",
+      "answerZh": "電影晚上七時半開始。還有一點——座位不設編號。",
+      "answerZhSource": "pdf",
+      "highlight": "The film starts at 7.30 p.m. One more thing—the seats are not numbered.",
+      "acceptedAnswers": [
+        "The film starts at 7.30 p.m. One more thing:the seats are not numbered."
+      ]
+    },
+    {
+      "id": "ss183-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Please save your work. Remember to name the file clearly as well.",
+      "promptZh": "請儲存你的工作內容。也要記得清楚命名檔案。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please save your work. One more thing—remember to name the file clearly.",
+      "answerZh": "請儲存你的工作內容。還有一件事——記得清楚命名檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Please save your work. One more thing—remember to name the file clearly.",
+      "acceptedAnswers": [
+        "Please save your work. One more thing:remember to name the file clearly."
+      ]
+    },
+    {
+      "id": "ss183-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We have finished today's lesson. Before we leave, what should we review for Monday?",
+      "promptZh": "今天的課堂已經結束。離開前，我們要為星期一的課堂溫習甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have finished today's lesson. One more thing—before we leave, what should we review for Monday?",
+      "answerZh": "今天的課堂已經結束。還有一件事——離開前，我們要為星期一的課堂溫習甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "We have finished today's lesson. One more thing—before we leave, what should we review for Monday?",
+      "acceptedAnswers": [
+        "We have finished today's lesson. One more thing:before we leave, what should we review for Monday?"
+      ]
+    },
+    {
+      "id": "ss183-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Your appointment is at ten. Please arrive fifteen minutes early too.",
+      "promptZh": "你的預約時間是十時。也請提早十五分鐘到達。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your appointment is at ten. One more thing: please arrive fifteen minutes early.",
+      "answerZh": "你的預約時間是十時。還有一件事：請提早十五分鐘到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Your appointment is at ten. One more thing: please arrive fifteen minutes early.",
+      "acceptedAnswers": [
+        "Your appointment is at ten. One more thing— please arrive fifteen minutes early."
+      ]
+    },
+    {
+      "id": "ss183-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I can lend you the book. Also, please return it by next Wednesday.",
+      "promptZh": "我可以把這本書借給你。另外，請在下星期三或之前歸還。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I can lend you the book. One more thing: please return it by next Wednesday.",
+      "answerZh": "我可以把這本書借給你。還有一件事：請在下星期三或之前歸還。",
+      "answerZhSource": "pdf",
+      "highlight": "I can lend you the book. One more thing: please return it by next Wednesday.",
+      "acceptedAnswers": [
+        "I can lend you the book. One more thing— please return it by next Wednesday."
+      ]
+    },
+    {
+      "id": "ss183-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop accepts cards. Another useful detail is that it closes at nine.",
+      "promptZh": "這間店接受卡付款。另一項實用資料是店舖九時關門。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop accepts cards. One more thing: it closes at nine.",
+      "answerZh": "這間店接受卡付款。還有一點：店舖九時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop accepts cards. One more thing: it closes at nine.",
+      "acceptedAnswers": [
+        "The shop accepts cards. One more thing— it closes at nine."
+      ]
+    },
+    {
+      "id": "ss183-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Take the green bus. Do not get off at the stop beside the hospital.",
+      "promptZh": "乘搭綠色巴士。不要在醫院旁邊的巴士站下車。",
+      "promptZhSource": "pdf",
+      "starter": "Take",
+      "answer": "Take the green bus. One more thing—do not get off at the stop beside the hospital.",
+      "answerZh": "乘搭綠色巴士。還有一件事——不要在醫院旁邊的巴士站下車。",
+      "answerZhSource": "pdf",
+      "highlight": "Take the green bus. One more thing—do not get off at the stop beside the hospital.",
+      "acceptedAnswers": [
+        "Take the green bus. One more thing:do not get off at the stop beside the hospital."
+      ]
+    },
+    {
+      "id": "ss183-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You should back up the photos. Also, do not delete the originals yet.",
+      "promptZh": "你應該備份相片。另外，暫時不要刪除原檔。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should back up the photos. One more thing—do not delete the originals yet.",
+      "answerZh": "你應該備份相片。還有一件事——暫時不要刪除原檔。",
+      "answerZhSource": "pdf",
+      "highlight": "You should back up the photos. One more thing—do not delete the originals yet.",
+      "acceptedAnswers": [
+        "You should back up the photos. One more thing:do not delete the originals yet."
+      ]
+    },
+    {
+      "id": "ss183-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We are meeting in Room 204. Could you also tell Priya about the change?",
+      "promptZh": "我們會在204室開會。你也可以把這項改動告訴普莉雅嗎？",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We are meeting in Room 204. One more thing—could you tell Priya about the change?",
+      "answerZh": "我們會在204室開會。還有一件事——你可以把這項改動告訴普莉雅嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "We are meeting in Room 204. One more thing—could you tell Priya about the change?",
+      "acceptedAnswers": [
+        "We are meeting in Room 204. One more thing:could you tell Priya about the change?"
+      ]
+    },
+    {
+      "id": "ss183-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The doctor said that you may exercise. He added that you should stop if you feel dizzy.",
+      "promptZh": "醫生說你可以做運動。他補充說，如果你感到頭暈，就應該停下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor said that you may exercise. One more thing—he said that you should stop if you feel dizzy.",
+      "answerZh": "醫生說你可以做運動。還有一件事——他說如果你感到頭暈，就應該停下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor said that you may exercise. One more thing—he said that you should stop if you feel dizzy.",
+      "acceptedAnswers": [
+        "The doctor said that you may exercise. One more thing:he said that you should stop if you feel dizzy."
+      ]
+    },
+    {
+      "id": "ss183-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The parcel will arrive tomorrow. Please make sure that someone is at home to receive it.",
+      "promptZh": "包裹明天送到。請確保有人在家收件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel will arrive tomorrow. One more thing: please make sure that someone is at home to receive it.",
+      "answerZh": "包裹明天送到。還有一件事：請確保有人在家收件。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel will arrive tomorrow. One more thing: please make sure that someone is at home to receive it.",
+      "acceptedAnswers": [
+        "The parcel will arrive tomorrow. One more thing— please make sure that someone is at home to receive it."
+      ]
+    },
+    {
+      "id": "ss183-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum is free on Sundays. Please note that large bags must be left at the entrance.",
+      "promptZh": "博物館逢星期日免費入場。請注意，大型袋子必須留在入口處。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum is free on Sundays. One more thing: large bags must be left at the entrance.",
+      "answerZh": "博物館逢星期日免費入場。還有一點：大型袋子必須留在入口處。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is free on Sundays. One more thing: large bags must be left at the entrance.",
+      "acceptedAnswers": [
+        "The museum is free on Sundays. One more thing— large bags must be left at the entrance."
+      ]
+    },
+    {
+      "id": "ss183-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The printer is working again. Another point is that you must select double-sided printing.",
+      "promptZh": "打印機已恢復運作。另一點是你必須選擇雙面打印。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The printer is working again. One more thing—you must select double-sided printing.",
+      "answerZh": "打印機已恢復運作。還有一件事——你必須選擇雙面打印。",
+      "answerZhSource": "pdf",
+      "highlight": "The printer is working again. One more thing—you must select double-sided printing.",
+      "acceptedAnswers": [
+        "The printer is working again. One more thing:you must select double-sided printing."
+      ]
+    },
+    {
+      "id": "ss183-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I have booked the table for six. I should also mention that the restaurant does not use nuts in any of its dishes.",
+      "promptZh": "我已預訂六時的座位。我也應該提一提，這間餐廳的任何菜式都不使用果仁。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have booked the table for six. One more thing—the restaurant does not use nuts in any of its dishes.",
+      "answerZh": "我已預訂六時的座位。還有一點——這間餐廳的任何菜式都不使用果仁。",
+      "answerZhSource": "pdf",
+      "highlight": "I have booked the table for six. One more thing—the restaurant does not use nuts in any of its dishes.",
+      "acceptedAnswers": [
+        "I have booked the table for six. One more thing:the restaurant does not use nuts in any of its dishes."
+      ]
+    },
+    {
+      "id": "ss183-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "If the weather becomes worse, stay inside. Also, keep your phone switched on.",
+      "promptZh": "如果天氣轉差，請留在室內。另外，要保持手機開機。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the weather becomes worse, stay inside. One more thing—keep your phone switched on.",
+      "answerZh": "如果天氣轉差，請留在室內。還有一件事——要保持手機開機。",
+      "answerZhSource": "pdf",
+      "highlight": "If the weather becomes worse, stay inside. One more thing—keep your phone switched on.",
+      "acceptedAnswers": [
+        "If the weather becomes worse, stay inside. One more thing:keep your phone switched on."
+      ]
+    },
+    {
+      "id": "ss183-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach wants us at the sports ground by four. He also asked everyone to bring enough water.",
+      "promptZh": "教練要我們在四時前到達運動場。他也要求每個人帶備足夠的水。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach wants us at the sports ground by four. One more thing—he asked everyone to bring enough water.",
+      "answerZh": "教練要我們在四時前到達運動場。還有一件事——他要求每個人帶備足夠的水。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach wants us at the sports ground by four. One more thing—he asked everyone to bring enough water.",
+      "acceptedAnswers": [
+        "The coach wants us at the sports ground by four. One more thing:he asked everyone to bring enough water."
+      ]
+    },
+    {
+      "id": "ss183-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Your online password has been reset. There is also a security reminder: do not share the new one with anyone.",
+      "promptZh": "你的網上密碼已經重設。還有一項保安提醒：不要把新密碼告訴任何人。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your online password has been reset. One more thing—for security, do not share the new one with anyone.",
+      "answerZh": "你的網上密碼已經重設。還有一件事——為安全起見，不要把新密碼告訴任何人。",
+      "answerZhSource": "pdf",
+      "highlight": "Your online password has been reset. One more thing—for security, do not share the new one with anyone.",
+      "acceptedAnswers": [
+        "Your online password has been reset. One more thing:for security, do not share the new one with anyone."
+      ]
+    },
+    {
+      "id": "ss183-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The meeting has moved to Friday. In addition, the final report must be sent before noon.",
+      "promptZh": "會議已改到星期五舉行。此外，最終報告必須在中午前送出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting has moved to Friday. One more thing—the final report must be sent before noon.",
+      "answerZh": "會議已改到星期五舉行。還有一點——最終報告必須在中午前送出。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting has moved to Friday. One more thing—the final report must be sent before noon.",
+      "acceptedAnswers": [
+        "The meeting has moved to Friday. One more thing:the final report must be sent before noon."
+      ]
+    },
+    {
+      "id": "ss183-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The lift is being repaired. If you have heavy luggage, please use the service lift at the back as well.",
+      "promptZh": "升降機正在維修。如果你有沉重行李，也請使用後方的服務升降機。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lift is being repaired. One more thing—if you have heavy luggage, please use the service lift at the back.",
+      "answerZh": "升降機正在維修。還有一件事——如果你有沉重行李，請使用後方的服務升降機。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift is being repaired. One more thing—if you have heavy luggage, please use the service lift at the back.",
+      "acceptedAnswers": [
+        "The lift is being repaired. One more thing:if you have heavy luggage, please use the service lift at the back."
+      ]
+    },
+    {
+      "id": "ss183-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The science fair opens at nine. Another point worth remembering is that each project must have a label.",
+      "promptZh": "科學展覽九時開放。另一項要記住的是，每個作品都必須附有標籤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science fair opens at nine. One more thing—each project must have a label.",
+      "answerZh": "科學展覽九時開放。還有一件事——每個作品都必須附有標籤。",
+      "answerZhSource": "pdf",
+      "highlight": "The science fair opens at nine. One more thing—each project must have a label.",
+      "acceptedAnswers": [
+        "The science fair opens at nine. One more thing:each project must have a label."
+      ]
+    },
+    {
+      "id": "ss183-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I have checked the figures. Before we send the report, please confirm the date on the first page.",
+      "promptZh": "我已核對數字。在我們發送報告前，請確認第一頁的日期。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have checked the figures. One more thing—before we send the report, please confirm the date on the first page.",
+      "answerZh": "我已核對數字。還有一件事——在我們發送報告前，請確認第一頁的日期。",
+      "answerZhSource": "pdf",
+      "highlight": "I have checked the figures. One more thing—before we send the report, please confirm the date on the first page.",
+      "acceptedAnswers": [
+        "I have checked the figures. One more thing:before we send the report, please confirm the date on the first page."
+      ]
+    },
+    {
+      "id": "ss183-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The library will close early today. It is also important to know that books can be returned using the box outside.",
+      "promptZh": "圖書館今天會提早關門。另一項重要資料是，可以把書籍投入外面的還書箱歸還。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library will close early today. One more thing—books can be returned using the box outside.",
+      "answerZh": "圖書館今天會提早關門。還有一點——可以把書籍投入外面的還書箱歸還。",
+      "answerZhSource": "pdf",
+      "highlight": "The library will close early today. One more thing—books can be returned using the box outside.",
+      "acceptedAnswers": [
+        "The library will close early today. One more thing:books can be returned using the box outside."
+      ]
+    },
+    {
+      "id": "ss183-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The path beside the river is open. Cyclists must also slow down near the playground.",
+      "promptZh": "河邊小徑已經開放。單車使用者在遊樂場附近也必須減速。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The path beside the river is open. One more thing—cyclists must slow down near the playground.",
+      "answerZh": "河邊小徑已經開放。還有一件事——單車使用者在遊樂場附近必須減速。",
+      "answerZhSource": "pdf",
+      "highlight": "The path beside the river is open. One more thing—cyclists must slow down near the playground.",
+      "acceptedAnswers": [
+        "The path beside the river is open. One more thing:cyclists must slow down near the playground."
+      ]
+    },
+    {
+      "id": "ss183-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We have enough chairs for the guests. Could someone also check whether the microphone is working?",
+      "promptZh": "我們有足夠椅子給客人使用。另外，可否請人檢查咪高峰是否運作正常？",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have enough chairs for the guests. One more thing—could someone check whether the microphone is working?",
+      "answerZh": "我們有足夠椅子給客人使用。還有一件事——可否請人檢查咪高峰是否運作正常？",
+      "answerZhSource": "pdf",
+      "highlight": "We have enough chairs for the guests. One more thing—could someone check whether the microphone is working?",
+      "acceptedAnswers": [
+        "We have enough chairs for the guests. One more thing:could someone check whether the microphone is working?"
+      ]
+    },
+    {
+      "id": "ss183-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Keep this medicine in a cool place. Do not take it on an empty stomach either.",
+      "promptZh": "把這種藥物放在陰涼處。也不要空腹服用。",
+      "promptZhSource": "pdf",
+      "starter": "Keep",
+      "answer": "Keep this medicine in a cool place. One more thing—do not take it on an empty stomach.",
+      "answerZh": "把這種藥物放在陰涼處。還有一件事——不要空腹服用。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep this medicine in a cool place. One more thing—do not take it on an empty stomach.",
+      "acceptedAnswers": [
+        "Keep this medicine in a cool place. One more thing:do not take it on an empty stomach."
+      ]
+    },
+    {
+      "id": "ss183-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The package includes the charger. I nearly forgot to mention that the instruction booklet is online.",
+      "promptZh": "包裝內附有充電器。我差點忘了提及，說明書可在網上找到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The package includes the charger. One more thing—I nearly forgot to mention that the instruction booklet is online.",
+      "answerZh": "包裝內附有充電器。還有一件事——我差點忘了提及，說明書可在網上找到。",
+      "answerZhSource": "pdf",
+      "highlight": "The package includes the charger. One more thing—I nearly forgot to mention that the instruction booklet is online.",
+      "acceptedAnswers": [
+        "The package includes the charger. One more thing:I nearly forgot to mention that the instruction booklet is online."
+      ]
+    },
+    {
+      "id": "ss183-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school has approved the trip. Parents must also return the permission form by 3 October.",
+      "promptZh": "學校已批准這次旅行。家長也必須在10月3日或之前交回同意書。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has approved the trip. One more thing—parents must return the permission form by 3 October.",
+      "answerZh": "學校已批准這次旅行。還有一件事——家長必須在10月3日或之前交回同意書。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has approved the trip. One more thing—parents must return the permission form by 3 October.",
+      "acceptedAnswers": [
+        "The school has approved the trip. One more thing:parents must return the permission form by 3 October."
+      ]
+    },
+    {
+      "id": "ss183-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The community centre will provide the equipment. Please tell participants that they should wear sports shoes too.",
+      "promptZh": "社區中心會提供器材。也請告訴參加者，他們應該穿運動鞋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community centre will provide the equipment. One more thing—please tell participants that they should wear sports shoes.",
+      "answerZh": "社區中心會提供器材。還有一件事——請告訴參加者，他們應該穿運動鞋。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre will provide the equipment. One more thing—please tell participants that they should wear sports shoes.",
+      "acceptedAnswers": [
+        "The community centre will provide the equipment. One more thing:please tell participants that they should wear sports shoes."
+      ]
+    },
+    {
+      "id": "ss183-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We have chosen the design that received the most votes. There is one further detail: the logo must be easy to read on a small screen.",
+      "promptZh": "我們已選出得票最多的設計。還有一項細節：標誌在小螢幕上也必須容易看清。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have chosen the design that received the most votes. One more thing—the logo must be easy to read on a small screen.",
+      "answerZh": "我們已選出得票最多的設計。還有一點——標誌在小螢幕上必須容易看清。",
+      "answerZhSource": "pdf",
+      "highlight": "We have chosen the design that received the most votes. One more thing—the logo must be easy to read on a small screen.",
+      "acceptedAnswers": [
+        "We have chosen the design that received the most votes. One more thing:the logo must be easy to read on a small screen."
+      ]
+    },
+    {
+      "id": "ss183-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital has changed the visiting hours so that patients can rest more. Visitors should also use the hand sanitiser before entering each room.",
+      "promptZh": "醫院已更改探病時間，讓病人有更多休息時間。訪客進入每個病房前，也應使用酒精搓手液。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital has changed the visiting hours so that patients can rest more. One more thing—visitors should use the hand sanitiser before entering each room.",
+      "answerZh": "醫院已更改探病時間，讓病人有更多休息時間。還有一件事——訪客進入每個病房前，應使用酒精搓手液。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital has changed the visiting hours so that patients can rest more. One more thing—visitors should use the hand sanitiser before entering each room.",
+      "acceptedAnswers": [
+        "The hospital has changed the visiting hours so that patients can rest more. One more thing:visitors should use the hand sanitiser before entering each room."
+      ]
+    },
+    {
+      "id": "ss183-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I have attached the revised proposal. Before the meeting, could you check whether the cost estimates match the latest figures?",
+      "promptZh": "我已附上修訂後的建議書。會議前，你可以檢查成本估算是否與最新數字相符嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have attached the revised proposal. One more thing—before the meeting, could you check whether the cost estimates match the latest figures?",
+      "answerZh": "我已附上修訂後的建議書。還有一件事——會議前，你可以檢查成本估算是否與最新數字相符嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "I have attached the revised proposal. One more thing—before the meeting, could you check whether the cost estimates match the latest figures?",
+      "acceptedAnswers": [
+        "I have attached the revised proposal. One more thing:before the meeting, could you check whether the cost estimates match the latest figures?"
+      ]
+    },
+    {
+      "id": "ss183-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The train service will end at midnight. Passengers should also allow extra time because the replacement buses may be crowded.",
+      "promptZh": "火車服務將於午夜結束。由於替代巴士可能很擠迫，乘客也應預留更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train service will end at midnight. One more thing—passengers should allow extra time because the replacement buses may be crowded.",
+      "answerZh": "火車服務將於午夜結束。還有一件事——由於替代巴士可能很擠迫，乘客應預留更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The train service will end at midnight. One more thing—passengers should allow extra time because the replacement buses may be crowded.",
+      "acceptedAnswers": [
+        "The train service will end at midnight. One more thing:passengers should allow extra time because the replacement buses may be crowded."
+      ]
+    },
+    {
+      "id": "ss183-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team has agreed to test the new system for two weeks. The manager also wants every problem to be recorded in the shared log.",
+      "promptZh": "團隊已同意測試新系統兩星期。經理亦希望每個問題都記錄在共用日誌中。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team has agreed to test the new system for two weeks. One more thing—the manager wants every problem to be recorded in the shared log.",
+      "answerZh": "團隊已同意測試新系統兩星期。還有一點——經理希望每個問題都記錄在共用日誌中。",
+      "answerZhSource": "pdf",
+      "highlight": "The team has agreed to test the new system for two weeks. One more thing—the manager wants every problem to be recorded in the shared log.",
+      "acceptedAnswers": [
+        "The team has agreed to test the new system for two weeks. One more thing:the manager wants every problem to be recorded in the shared log."
+      ]
+    },
+    {
+      "id": "ss183-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The workshop is suitable for beginners who have never used the software. Participants must bring a laptop with the latest update installed as well.",
+      "promptZh": "工作坊適合從未使用過這套軟件的初學者。參加者也必須帶備已安裝最新更新程式的手提電腦。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The workshop is suitable for beginners who have never used the software. One more thing—participants must bring a laptop with the latest update installed.",
+      "answerZh": "工作坊適合從未使用過這套軟件的初學者。還有一件事——參加者必須帶備已安裝最新更新程式的手提電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "The workshop is suitable for beginners who have never used the software. One more thing—participants must bring a laptop with the latest update installed.",
+      "acceptedAnswers": [
+        "The workshop is suitable for beginners who have never used the software. One more thing:participants must bring a laptop with the latest update installed."
+      ]
+    },
+    {
+      "id": "ss183-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council will collect old electrical items on Saturday. Residents should remove all batteries before leaving the items outside, too.",
+      "promptZh": "市政當局會在星期六收集舊電器。居民把物品放到戶外前，也應取出所有電池。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council will collect old electrical items on Saturday. One more thing—residents should remove all batteries before leaving the items outside.",
+      "answerZh": "市政當局會在星期六收集舊電器。還有一件事——居民把物品放到戶外前，應取出所有電池。",
+      "answerZhSource": "pdf",
+      "highlight": "The council will collect old electrical items on Saturday. One more thing—residents should remove all batteries before leaving the items outside.",
+      "acceptedAnswers": [
+        "The council will collect old electrical items on Saturday. One more thing:residents should remove all batteries before leaving the items outside."
+      ]
+    },
+    {
+      "id": "ss183-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We have covered the main safety steps for the event. Before anyone enters the hall, please make sure that every emergency exit is clear and that the first-aid kit is in place.",
+      "promptZh": "我們已講解活動的主要安全步驟。在任何人進入禮堂前，請確保每個緊急出口都暢通無阻，並確認急救箱已放好。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have covered the main safety steps for the event. One more thing—before anyone enters the hall, please make sure that every emergency exit is clear and that the first-aid kit is in place.",
+      "answerZh": "我們已講解活動的主要安全步驟。還有一件事——在任何人進入禮堂前，請確保每個緊急出口都暢通無阻，並確認急救箱已放好。",
+      "answerZhSource": "pdf",
+      "highlight": "We have covered the main safety steps for the event. One more thing—before anyone enters the hall, please make sure that every emergency exit is clear and that the first-aid kit is in place.",
+      "acceptedAnswers": [
+        "We have covered the main safety steps for the event. One more thing:before anyone enters the hall, please make sure that every emergency exit is clear and that the first-aid kit is in place."
+      ]
+    }
+  ]
+}

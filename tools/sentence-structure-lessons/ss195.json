@@ -1,0 +1,1240 @@
+{
+  "id": "ss195",
+  "order": 195,
+  "slug": "shortly-after",
+  "title": "「Shortly after ...」表示「……後不久」",
+  "titleZh": "「Shortly after ...」表示「……後不久」",
+  "titleEn": "Using “shortly after ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 195 -「Shortly after ...」表示「……後不久」.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Shortly after + noun phrase / clause / V-ing, + main clause",
+  "formulas": [
+    {
+      "id": "ss195-formula-01",
+      "labelEn": "Opening phrase",
+      "labelZh": "放在句首",
+      "formula": "Shortly after + noun phrase / clause / V-ing, + main clause"
+    },
+    {
+      "id": "ss195-formula-02",
+      "labelEn": "Later position",
+      "labelZh": "放在主句後",
+      "formula": "Main clause + shortly after + noun phrase / clause / V-ing"
+    }
+  ],
+  "example": "Shortly after the announcement, the company’s stock price fell.",
+  "exampleZh": "公告發出後不久，公司的股價便下跌了。",
+  "examples": [
+    {
+      "id": "ss195-example-01",
+      "en": "Shortly after the announcement, the company’s stock price fell.",
+      "zh": "公告發出後不久，公司的股價便下跌了。",
+      "highlight": "Shortly after the announcement, the company’s stock price fell."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Shortly after + noun phrase / clause / V-ing, + main clause。"
+  },
+  "rules": [
+    {
+      "id": "ss195-rule-01",
+      "zh": "（會議後不久，我們便收到最終決定。）",
+      "en": "shortly after + noun phrase Shortly after the meeting, we received the final decision.",
+      "enSource": "pdf",
+      "examples": [
+        "shortly after + noun phrase",
+        "Shortly after the meeting, we received the final decision."
+      ]
+    },
+    {
+      "id": "ss195-rule-02",
+      "zh": "（會議結束後不久，我們便收到最終決定。）",
+      "en": "shortly after + complete clause Shortly after the meeting ended, we received the final decision.",
+      "enSource": "pdf",
+      "examples": [
+        "shortly after + complete clause",
+        "Shortly after the meeting ended, we received the final decision."
+      ]
+    },
+    {
+      "id": "ss195-rule-03",
+      "zh": "（艾瑪抵達酒店後不久，便致電給家人。）",
+      "en": "shortly after + -ing phrase Use this form when the person doing the -ing action is clear and is normally the same as the subject of the main clause. Shortly after arriving at the hotel, Emma called her family.",
+      "enSource": "pdf",
+      "examples": [
+        "shortly after + -ing phrase",
+        "Use this form when the person doing the -ing action is clear and is normally the same as the",
+        "subject of the main clause.",
+        "Shortly after arriving at the hotel, Emma called her family."
+      ]
+    },
+    {
+      "id": "ss195-rule-04",
+      "zh": "after 後面的事情先發生；主句的事情在短時間後發生。",
+      "en": "Pay attention to the order of events The event after after happens first. The event in the main clause happens a short time later.",
+      "enSource": "pdf",
+      "examples": [
+        "Pay attention to the order of events",
+        "The event after after happens first. The event in the main clause happens a short time later."
+      ]
+    },
+    {
+      "id": "ss195-rule-05",
+      "zh": "shortly 表示「不久之後」，不一定是「立即」。",
+      "en": "shortly does not always mean immediately It means “a short time later”. The exact length depends on the situation.",
+      "enSource": "pdf",
+      "examples": [
+        "shortly does not always mean immediately",
+        "It means “a short time later”. The exact length depends on the situation."
+      ]
+    },
+    {
+      "id": "ss195-rule-06",
+      "zh": "shortly after 後面必須接名詞、-ing 片語或子句；shortly afterwards 後面不再接其他內容。",
+      "en": "shortly after ≠ shortly afterwards Shortly after must be followed by a noun, an -ing phrase or a clause. Shortly afterwards stands alone.",
+      "enSource": "pdf",
+      "examples": [
+        "shortly after ≠ shortly afterwards",
+        "Shortly after must be followed by a noun, an -ing phrase or a clause. Shortly afterwards"
+      ]
+    },
+    {
+      "id": "ss195-rule-07",
+      "zh": "（雨停後不久，孩子們便走到外面。）",
+      "en": "Use a comma after an opening Shortly after phrase Shortly after the rain stopped, the children went outside.",
+      "enSource": "pdf",
+      "examples": [
+        "Use a comma after an opening Shortly after phrase",
+        "Shortly after the rain stopped, the children went outside."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss195-benefit-01",
+      "zh": "這個句型能清楚交代哪件事先發生，以及哪件事隨後不久發生。",
+      "en": "It makes the order of events clear This structure tells the reader which event happened first and which event followed soon afterwards.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss195-benefit-02",
+      "zh": "它不只表示兩件事有先後次序，還能指出兩者相隔的時間不長。",
+      "en": "It shows that the time gap was short Instead of merely saying that one event happened after another, it tells the reader that the second event followed quite soon.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss195-benefit-03",
+      "zh": "你可以把兩個短句連成一句，使表達更連貫。",
+      "en": "It combines two short sentences smoothly Instead of writing two separate sentences, you can connect the events in one complete sentence. Compare: The announcement was made. A short time later, the company’s stock price fell. Shortly after the announcement, the company’s stock price fell.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss195-benefit-04",
+      "zh": "這個句型適合用於故事、新聞、報告和進度更新，幫助你清楚交代事件發生的時間線。",
+      "en": "It is useful for stories, news, reports and updates The structure helps you present events in a clear timeline.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss195-benefit-05",
+      "zh": "以 Shortly after ... 開始句子，可以先突出時間關係，亦能減少句首重複。",
+      "en": "It gives you another way to begin a sentence Beginning with Shortly after ... places attention on the timing and makes your sentence openings less repetitive.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Shortly after + noun phrase / clause / V-ing, + main clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Shortly after + noun phrase / clause / V-ing, + main clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss195-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The bell rang. A few moments later, the students left the classroom.",
+      "promptZh": "鐘聲響起。片刻後，學生便離開了課室。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the bell rang, the students left the classroom.",
+      "answerZh": "鐘聲響起後不久，學生便離開了課室。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the bell rang, the students left the classroom."
+    },
+    {
+      "id": "ss195-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Mia finished breakfast, and soon afterwards she went for a walk.",
+      "promptZh": "米婭吃完早餐，不久之後便出去散步。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after breakfast, Mia went for a walk.",
+      "answerZh": "早餐後不久，米婭便出去散步。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after breakfast, Mia went for a walk."
+    },
+    {
+      "id": "ss195-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "It did not take Ben long to call his mother after he arrived home.",
+      "promptZh": "本回到家後沒多久，便致電給母親。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben called his mother shortly after he arrived home.",
+      "answerZh": "本回到家後不久，便致電給母親。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben called his mother shortly after he arrived home."
+    },
+    {
+      "id": "ss195-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The rain stopped, and the children went outside not long afterwards.",
+      "promptZh": "雨停了，孩子們沒過多久便走到外面。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the rain stopped, the children went outside.",
+      "answerZh": "雨停後不久，孩子們便走到外面。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the rain stopped, the children went outside."
+    },
+    {
+      "id": "ss195-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The shop opened. Its first customer arrived within a few minutes.",
+      "promptZh": "店舖開門了。幾分鐘內，第一位顧客便到達。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the shop opened, its first customer arrived.",
+      "answerZh": "店舖開門後不久，第一位顧客便到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the shop opened, its first customer arrived."
+    },
+    {
+      "id": "ss195-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Lily took the medicine. Soon afterwards, she felt better.",
+      "promptZh": "莉莉服了藥。不久之後，她感覺好了一些。",
+      "promptZhSource": "pdf",
+      "starter": "Lily",
+      "answer": "Lily felt better shortly after taking the medicine.",
+      "answerZh": "莉莉服藥後不久，便感覺好了一些。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily felt better shortly after taking the medicine."
+    },
+    {
+      "id": "ss195-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The film had only been running for a few minutes when the lights went out.",
+      "promptZh": "電影只播放了幾分鐘，燈便熄滅了。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the film began, the lights went out.",
+      "answerZh": "電影開始後不久，燈便熄滅了。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the film began, the lights went out."
+    },
+    {
+      "id": "ss195-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We sent the email. A reply arrived not long afterwards.",
+      "promptZh": "我們寄出了電郵。沒過多久，回覆便到了。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We received a reply shortly after sending the email.",
+      "answerZh": "我們寄出電郵後不久，便收到回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "We received a reply shortly after sending the email."
+    },
+    {
+      "id": "ss195-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The bus had just left when Tom realised that he had forgotten his bag.",
+      "promptZh": "巴士剛開走，湯姆便發現自己忘了帶袋。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the bus left, Tom realised that he had forgotten his bag.",
+      "answerZh": "巴士開走後不久，湯姆便發現自己忘了帶袋。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the bus left, Tom realised that he had forgotten his bag."
+    },
+    {
+      "id": "ss195-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The family finished dinner. Only a short time later, they played a board game.",
+      "promptZh": "一家人吃完晚飯。過了很短時間，他們便玩起桌上遊戲。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after dinner, the family played a board game.",
+      "answerZh": "晚飯後不久，一家人便玩起桌上遊戲。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after dinner, the family played a board game."
+    },
+    {
+      "id": "ss195-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The lesson ended. Soon afterwards, Ava asked the teacher a question.",
+      "promptZh": "課堂結束了。不久之後，艾娃向老師問了一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the lesson ended, Ava asked the teacher a question.",
+      "answerZh": "課堂結束後不久，艾娃便向老師問了一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the lesson ended, Ava asked the teacher a question."
+    },
+    {
+      "id": "ss195-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "How long after getting into bed did Daniel fall asleep? Only a few minutes.",
+      "promptZh": "丹尼爾上床後多久便睡着了？只有幾分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel fell asleep shortly after getting into bed.",
+      "answerZh": "丹尼爾上床後不久便睡着了。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel fell asleep shortly after getting into bed."
+    },
+    {
+      "id": "ss195-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The new café opened, and it became popular with local residents not long after that.",
+      "promptZh": "新咖啡店開業後沒多久，便受到區內居民歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the new café opened, it became popular with local residents.",
+      "answerZh": "新咖啡店開業後不久，便受到區內居民歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the new café opened, it became popular with local residents."
+    },
+    {
+      "id": "ss195-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "A restart of the computer followed soon after the installation of the update.",
+      "promptZh": "更新程式安裝完成後不久，電腦便重新啟動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The computer restarted shortly after the update was installed.",
+      "answerZh": "更新程式安裝完成後不久，電腦便重新啟動。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer restarted shortly after the update was installed."
+    },
+    {
+      "id": "ss195-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Chloe heard the news, and a short time later she called her sister.",
+      "promptZh": "克洛伊聽到消息後，過了一會兒便致電給姐姐。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after she heard the news, Chloe called her sister.",
+      "answerZh": "克洛伊聽到消息後不久，便致電給姐姐。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after she heard the news, Chloe called her sister."
+    },
+    {
+      "id": "ss195-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The match ended, and the players thanked their supporters soon afterwards.",
+      "promptZh": "比賽結束後，球員很快便向支持者道謝。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The players thanked their supporters shortly after the match.",
+      "answerZh": "比賽結束後不久，球員便向支持者道謝。",
+      "answerZhSource": "pdf",
+      "highlight": "The players thanked their supporters shortly after the match."
+    },
+    {
+      "id": "ss195-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It took less than a minute for the baby to stop crying after his father picked him up.",
+      "promptZh": "父親抱起嬰兒後，不到一分鐘，嬰兒便停止哭泣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The baby stopped crying shortly after his father picked him up.",
+      "answerZh": "父親抱起嬰兒後不久，嬰兒便停止哭泣。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby stopped crying shortly after his father picked him up."
+    },
+    {
+      "id": "ss195-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The train arrived. The passengers soon began to get off.",
+      "promptZh": "列車到站了。乘客很快便開始下車。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the train arrived, the passengers began to get off.",
+      "answerZh": "列車到站後不久，乘客便開始下車。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the train arrived, the passengers began to get off."
+    },
+    {
+      "id": "ss195-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The road became busy not long after the school day ended.",
+      "promptZh": "放學後沒多久，道路便變得繁忙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road became busy shortly after the school day ended.",
+      "answerZh": "放學後不久，道路便變得繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "The road became busy shortly after the school day ended."
+    },
+    {
+      "id": "ss195-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Within seconds of turning on the tap, Noah noticed that the water was brown.",
+      "promptZh": "諾亞打開水龍頭後數秒內，便發現水呈啡色。",
+      "promptZhSource": "pdf",
+      "starter": "Noah",
+      "answer": "Noah noticed that the water was brown shortly after turning on the tap.",
+      "answerZh": "諾亞打開水龍頭後不久，便發現水呈啡色。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah noticed that the water was brown shortly after turning on the tap."
+    },
+    {
+      "id": "ss195-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It was only a short time after the alarm sounded that everyone left the building.",
+      "promptZh": "警報響起後只過了很短時間，所有人便離開了大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the alarm sounded, everyone left the building.",
+      "answerZh": "警報響起後不久，所有人便離開了大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the alarm sounded, everyone left the building."
+    },
+    {
+      "id": "ss195-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The museum reopened soon after the repairs were completed.",
+      "promptZh": "維修工程完成後不久，博物館便重新開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum reopened shortly after the repairs were completed.",
+      "answerZh": "維修工程完成後不久，博物館便重新開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum reopened shortly after the repairs were completed."
+    },
+    {
+      "id": "ss195-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Olivia submitted her application. Within minutes, she received a confirmation email.",
+      "promptZh": "奧莉花提交了申請。幾分鐘內，她便收到確認電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after Olivia submitted her application, she received a confirmation email.",
+      "answerZh": "奧莉花提交申請後不久，便收到確認電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after Olivia submitted her application, she received a confirmation email."
+    },
+    {
+      "id": "ss195-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "After the doctor examined the patient, only a short time passed before the patient was taken to a ward.",
+      "promptZh": "醫生為病人檢查後，只過了一會兒，病人便被送往病房。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient was taken to a ward shortly after the doctor examined him.",
+      "answerZh": "醫生為病人檢查後不久，病人便被送往病房。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient was taken to a ward shortly after the doctor examined him."
+    },
+    {
+      "id": "ss195-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The storm passed. Repair teams began clearing the roads soon afterwards.",
+      "promptZh": "暴風雨過去了。維修隊伍不久後便開始清理道路。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the storm passed, repair teams began clearing the roads.",
+      "answerZh": "暴風雨過後不久，維修隊伍便開始清理道路。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the storm passed, repair teams began clearing the roads."
+    },
+    {
+      "id": "ss195-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The company announced its results. Soon after that, its share price dropped sharply.",
+      "promptZh": "公司公布了業績。不久之後，其股價大幅下跌。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the company announced its results, its share price dropped sharply.",
+      "answerZh": "公司公布業績後不久，其股價便大幅下跌。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the company announced its results, its share price dropped sharply."
+    },
+    {
+      "id": "ss195-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo had locked the door only moments earlier when he remembered that his keys were inside.",
+      "promptZh": "里奧鎖門後僅過了片刻，便想起鑰匙留在屋內。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after Leo had locked the door, he remembered that his keys were inside.",
+      "answerZh": "里奧鎖門後不久，便想起鑰匙留在屋內。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after Leo had locked the door, he remembered that his keys were inside."
+    },
+    {
+      "id": "ss195-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The speaker finished her presentation, and the audience applauded moments later.",
+      "promptZh": "講者完成簡報後，觀眾過了一會兒便鼓掌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The audience applauded shortly after the speaker finished her presentation.",
+      "answerZh": "講者完成簡報後不久，觀眾便鼓掌。",
+      "answerZhSource": "pdf",
+      "highlight": "The audience applauded shortly after the speaker finished her presentation."
+    },
+    {
+      "id": "ss195-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The new rule was introduced. Complaints began to decrease not long afterwards.",
+      "promptZh": "新規則開始實施。沒過多久，投訴便開始減少。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the new rule was introduced, complaints began to decrease.",
+      "answerZh": "新規則開始實施後不久，投訴便開始減少。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the new rule was introduced, complaints began to decrease."
+    },
+    {
+      "id": "ss195-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The village regained electricity within minutes of engineers repairing the damaged cable.",
+      "promptZh": "工程師修復受損電纜後數分鐘內，村莊便恢復供電。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The village regained electricity shortly after engineers repaired the damaged cable.",
+      "answerZh": "工程師修復受損電纜後不久，村莊便恢復供電。",
+      "answerZhSource": "pdf",
+      "highlight": "The village regained electricity shortly after engineers repaired the damaged cable."
+    },
+    {
+      "id": "ss195-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Emma arrived at the hotel. A few minutes later, she called the reception desk.",
+      "promptZh": "艾瑪抵達酒店。幾分鐘後，她致電接待處。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after arriving at the hotel, Emma called the reception desk.",
+      "answerZh": "艾瑪抵達酒店後不久，便致電接待處。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after arriving at the hotel, Emma called the reception desk."
+    },
+    {
+      "id": "ss195-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Your payment will be processed, and you will receive a receipt soon afterwards.",
+      "promptZh": "你的付款會先獲處理，其後不久你便會收到收據。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You will receive a receipt shortly after your payment is processed.",
+      "answerZh": "你的付款獲處理後不久，便會收到收據。",
+      "answerZhSource": "pdf",
+      "highlight": "You will receive a receipt shortly after your payment is processed."
+    },
+    {
+      "id": "ss195-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It does not take long for the quiet study area to fill up after the library opens.",
+      "promptZh": "圖書館開門後，安靜自修區很快便會坐滿。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the library opens, the quiet study area fills up.",
+      "answerZh": "圖書館開門後不久，安靜自修區便會坐滿。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the library opens, the quiet study area fills up."
+    },
+    {
+      "id": "ss195-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Within seconds of detecting overheating, the machine switches itself off.",
+      "promptZh": "機器偵測到過熱後數秒內，便會自行關閉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine switches itself off shortly after it detects overheating.",
+      "answerZh": "機器偵測到過熱後不久，便會自行關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine switches itself off shortly after it detects overheating."
+    },
+    {
+      "id": "ss195-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The guests had left only a few minutes before we began cleaning the flat.",
+      "promptZh": "客人離開僅幾分鐘後，我們便開始清潔單位。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the guests had left, we began cleaning the flat.",
+      "answerZh": "客人離開後不久，我們便開始清潔單位。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the guests had left, we began cleaning the flat."
+    },
+    {
+      "id": "ss195-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The police received the emergency call and closed the road without much delay.",
+      "promptZh": "警方接到緊急求助電話後，沒有耽擱多久便封閉道路。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The police closed the road shortly after they received the emergency call.",
+      "answerZh": "警方接到緊急求助電話後不久，便封閉了道路。",
+      "answerZhSource": "pdf",
+      "highlight": "The police closed the road shortly after they received the emergency call."
+    },
+    {
+      "id": "ss195-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The first signs of smoke appeared. Moments later, the fire alarm went off.",
+      "promptZh": "最初的煙霧跡象出現了。片刻後，火警鐘便響起。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the first signs of smoke appeared, the fire alarm went off.",
+      "answerZh": "最初的煙霧跡象出現後不久，火警鐘便響起。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the first signs of smoke appeared, the fire alarm went off."
+    },
+    {
+      "id": "ss195-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Jason checked under the sofa. Soon afterwards, he found his missing wallet.",
+      "promptZh": "傑森查看梳化底下。不久之後，他找回了遺失的銀包。",
+      "promptZhSource": "pdf",
+      "starter": "Jason",
+      "answer": "Jason found his missing wallet shortly after checking under the sofa.",
+      "answerZh": "傑森查看梳化底下後不久，便找回了遺失的銀包。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason found his missing wallet shortly after checking under the sofa."
+    },
+    {
+      "id": "ss195-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Technicians fixed the server problem. Within minutes, the website became available again.",
+      "promptZh": "技術人員修復了伺服器問題。幾分鐘內，網站便恢復運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website became available again shortly after technicians fixed the server problem.",
+      "answerZh": "技術人員修復伺服器問題後不久，網站便恢復運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The website became available again shortly after technicians fixed the server problem."
+    },
+    {
+      "id": "ss195-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The final whistle had blown only moments before fans began celebrating in the streets.",
+      "promptZh": "終場哨聲響起後僅過了片刻，球迷便開始在街上慶祝。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the final whistle blew, fans began celebrating in the streets.",
+      "answerZh": "終場哨聲響起後不久，球迷便開始在街上慶祝。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the final whistle blew, fans began celebrating in the streets."
+    },
+    {
+      "id": "ss195-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hospital introduced the online booking system. Within a few weeks, waiting times at the reception desk fell.",
+      "promptZh": "醫院推出了網上預約系統。數星期內，接待處的輪候時間便有所下降。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the hospital introduced the online booking system, waiting times at the reception desk fell.",
+      "answerZh": "醫院推出網上預約系統後不久，接待處的輪候時間便有所下降。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the hospital introduced the online booking system, waiting times at the reception desk fell."
+    },
+    {
+      "id": "ss195-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Customers reported the billing error. The company issued a public apology soon after that.",
+      "promptZh": "顧客舉報了帳單錯誤。公司不久後便公開道歉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company issued a public apology shortly after customers reported the billing error.",
+      "answerZh": "顧客舉報帳單錯誤後不久，公司便公開道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "The company issued a public apology shortly after customers reported the billing error."
+    },
+    {
+      "id": "ss195-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council approved the plan, and workers began improving the community centre a few days later.",
+      "promptZh": "議會批准了計劃，工人幾天後便開始改善社區中心。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the council approved the plan, workers began improving the community centre.",
+      "answerZh": "議會批准計劃後不久，工人便開始改善社區中心。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the council approved the plan, workers began improving the community centre."
+    },
+    {
+      "id": "ss195-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Several flights were cancelled within an hour of the weather warning being raised to the highest level.",
+      "promptZh": "天氣警告提升至最高級別後一小時內，多班航班便被取消。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several flights were cancelled shortly after the weather warning was raised to the highest level.",
+      "answerZh": "天氣警告提升至最高級別後不久，多班航班便被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Several flights were cancelled shortly after the weather warning was raised to the highest level."
+    },
+    {
+      "id": "ss195-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The research team published its findings. Other scientists began testing the same method not long afterwards.",
+      "promptZh": "研究團隊公布了研究結果。沒過多久，其他科學家便開始測試同一方法。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the research team published its findings, other scientists began testing the same method.",
+      "answerZh": "研究團隊公布研究結果後不久，其他科學家便開始測試同一方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the research team published its findings, other scientists began testing the same method."
+    },
+    {
+      "id": "ss195-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It did not take the school long to contact parents after staff discovered that the heating system was not working.",
+      "promptZh": "職員發現暖氣系統失靈後，學校很快便聯絡了家長。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school contacted parents shortly after staff discovered that the heating system was not working.",
+      "answerZh": "職員發現暖氣系統失靈後不久，學校便聯絡了家長。",
+      "answerZhSource": "pdf",
+      "highlight": "The school contacted parents shortly after staff discovered that the heating system was not working."
+    },
+    {
+      "id": "ss195-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The charity launched its fundraising appeal. Within minutes, donations began arriving from across the city.",
+      "promptZh": "慈善機構發起了籌款呼籲。幾分鐘內，來自全市各區的捐款便陸續湧入。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the charity launched its fundraising appeal, donations began arriving from across the city.",
+      "answerZh": "慈善機構發起籌款呼籲後不久，來自全市各區的捐款便陸續湧入。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the charity launched its fundraising appeal, donations began arriving from across the city."
+    },
+    {
+      "id": "ss195-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Engineers confirmed that the damaged track was safe. The station reopened soon afterwards.",
+      "promptZh": "工程師確認受損路軌安全。不久之後，車站便重新開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The station reopened shortly after engineers confirmed that the damaged track was safe.",
+      "answerZh": "工程師確認受損路軌安全後不久，車站便重新開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The station reopened shortly after engineers confirmed that the damaged track was safe."
+    },
+    {
+      "id": "ss195-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Within hours of the government announcing the new support scheme, thousands of residents visited the application website.",
+      "promptZh": "政府公布新支援計劃後數小時內，數以千計的居民便瀏覽申請網站。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the government announced the new support scheme, thousands of residents visited the application website.",
+      "answerZh": "政府公布新支援計劃後不久，數以千計的居民便瀏覽申請網站。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the government announced the new support scheme, thousands of residents visited the application website."
+    },
+    {
+      "id": "ss195-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The release of the investigation report was followed not long afterwards by the organisation’s announcement of a full review of its safety procedures.",
+      "promptZh": "調查報告發表後不久，該機構便宣布全面檢討其安全程序。",
+      "promptZhSource": "pdf",
+      "starter": "Shortly",
+      "answer": "Shortly after the investigation report was released, the organisation announced a full review of its safety procedures.",
+      "answerZh": "調查報告發表後不久，該機構便宣布全面檢討其安全程序。",
+      "answerZhSource": "pdf",
+      "highlight": "Shortly after the investigation report was released, the organisation announced a full review of its safety procedures."
+    }
+  ]
+}

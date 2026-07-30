@@ -1,0 +1,1223 @@
+{
+  "id": "ss209",
+  "order": 209,
+  "slug": "as-far-as-i-am-concerned",
+  "title": "「As far as I am concerned, ...」表達個人立場",
+  "titleZh": "「As far as I am concerned, ...」表達個人立場",
+  "titleEn": "Using “As far as I am concerned, ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 208 -「As far as I am concerned, ...」表達個人立場.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 208; it is assigned system ID ss209 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "As far as I am concerned, + complete clause",
+  "formulas": [
+    {
+      "id": "ss209-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "As far as I am concerned, + complete clause"
+    }
+  ],
+  "example": "As far as I am concerned, respect should never depend on social status.",
+  "exampleZh": "就我而言，尊重絕不應取決於社會地位。",
+  "examples": [
+    {
+      "id": "ss209-example-01",
+      "en": "As far as I am concerned, respect should never depend on social status.",
+      "zh": "就我而言，尊重絕不應取決於社會地位。",
+      "highlight": "As far as I am concerned, respect should never depend on social status."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：As far as I am concerned, + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss209-rule-01",
+      "zh": "這是一個固定表達 必須使用： 不可寫成：",
+      "en": "This is a fixed expression. Use: As far as I am concerned. Do not write: As far as I concern; As far as me concerned; or As far as I am concern.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As far as I am concerned",
+        "As far as I concern",
+        "As far as me concerned",
+        "As far as I am concern"
+      ]
+    },
+    {
+      "id": "ss209-rule-02",
+      "zh": "開場語後面通常要加逗號",
+      "en": "Normally put a comma after the opening expression: As far as I am concerned, everyone deserves a second chance.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As far as I am concerned, everyone deserves a second chance."
+      ]
+    },
+    {
+      "id": "ss209-rule-03",
+      "zh": "concerned 在這裏並非「擔心」 在這個固定表達中，concerned 並不是 worried 的意思。整個短語合起來表示「就我的立場或意 見而言」。",
+      "en": "Concerned does not mean worried here; the fixed phrase means from my standpoint.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss209-rule-04",
+      "zh": "後面必須接完整句子 正確： 錯誤：",
+      "en": "Follow the expression with a complete clause. Correct: As far as I am concerned, the plan is practical. Incorrect: As far as I am concerned, the practical plan.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As far as I am concerned, the plan is practical.",
+        "As far as I am concerned, the practical plan."
+      ]
+    },
+    {
+      "id": "ss209-rule-05",
+      "zh": "這個句型通常比 I think 語氣更堅定 它適合表達個人判斷、原則、選擇或立場。不過，在意見分歧較大的場合，它有時會帶有「至少在 我看來，事情就是這樣」的堅定語氣。",
+      "en": "This frame is normally firmer than I think and suits personal judgements, principles, choices and positions. In a contentious setting, it can carry the emphatic nuance “at least as far as I am concerned, this is how things stand.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss209-rule-06",
+      "zh": "口語可以使用縮寫 自然口語中常說： 本練習統一使用完整形式：",
+      "en": "A contraction is natural in speech: As far as I’m concerned, .... This exercise consistently uses the full form: As far as I am concerned, ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As far as I’m concerned, ...",
+        "As far as I am concerned, ..."
+      ]
+    },
+    {
+      "id": "ss209-rule-07",
+      "zh": "不要與其他 as far as 結構混淆 ● As far as I know, ...＝據我所知 ● as far as possible＝盡可能 ● as far as the station＝遠至車站 ● As far as I am concerned, ...＝就我而言／依我看",
+      "en": "Do not confuse related as far as expressions. As far as I know means “to the best of my knowledge”; as far as possible means “to the greatest extent possible”; as far as the station expresses physical distance; As far as I am concerned means “from my point of view.”",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss209-benefit-01",
+      "zh": "清楚標示你的個人立場 這個句型能讓聽者或讀者立即知道，後面的內容是你的個人判斷，而不是你聲稱人人都必須接受 的客觀事實。",
+      "en": "It makes your personal position clear. The listener or reader immediately knows that what follows is your judgement, not an objective fact that you claim everyone must accept.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss209-benefit-02",
+      "zh": "提供一個可直接使用的開場框架 在討論、口試、作文或會議中，你可以先用這個句型整理立場，再補充理由和例子，不必每次從零 開始組織句子。",
+      "en": "It gives you a ready-made opening. In a discussion, oral examination, essay or meeting, the frame lets you state and organise your position before adding reasons and examples instead of building every sentence from scratch.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss209-benefit-03",
+      "zh": "讓立場聽起來堅定而有條理 它適合用來表達原則、建議、選擇和判斷。語氣通常比普通的 I think 更明確，但仍然是在陳述個 人立場。",
+      "en": "It helps you sound firm but controlled. The frame suits principles, recommendations, choices and judgements; it is more definite than an ordinary I think while still presenting a personal position.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss209-benefit-04",
+      "zh": "避免反覆使用 I think 學生在說話和寫作時經常重複使用 I think。這個句型能增加句式變化，令表達不會過於單調。",
+      "en": "It gives you an alternative to I think. Learners often repeat I think in speech and writing, so this frame adds sentence variety and prevents a monotonous series of identical openings.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss209-benefit-05",
+      "zh": "先提出立場，再加入理據 你可以在這個句型後面先說出核心立場，然後使用 because、although、if、when 等結構補充原 因、限制或條件。 （我認為這項規則是公平的。） （就我而言，這項規則是公平的。） 兩句都能表達意見，但第二句更清楚地把整項判斷框定為說話者的個人立場，語氣亦較堅定和完 整。",
+      "en": "It helps organise an opinion before the supporting details. State the core position after the frame, then add reasons, limits or conditions with because, although, if or when. Compare: I think the rule is fair. As far as I am concerned, the rule is fair. Both express an opinion, but the second more clearly frames the entire judgement as the speaker’s personal and relatively firm position.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 208; it is assigned system ID ss209 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: As far as I am concerned, + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「As far as I am concerned, + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss209-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "In my opinion, everyone deserves basic respect.",
+      "promptZh": "我認為，每個人都應得到基本尊重。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, everyone deserves basic respect.",
+      "answerZh": "就我而言，每個人都應得到基本尊重。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, everyone deserves basic respect."
+    },
+    {
+      "id": "ss209-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Personally, homework should be limited at weekends.",
+      "promptZh": "我個人認為，週末的功課應有所限制。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, homework should be limited at weekends.",
+      "answerZh": "就我而言，週末的功課應有所限制。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, homework should be limited at weekends."
+    },
+    {
+      "id": "ss209-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I think public libraries are still important.",
+      "promptZh": "我認為公共圖書館仍然十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, public libraries are still important.",
+      "answerZh": "就我而言，公共圖書館仍然十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, public libraries are still important."
+    },
+    {
+      "id": "ss209-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "To me, honesty matters more than popularity.",
+      "promptZh": "對我來說，誠實比受歡迎更重要。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, honesty matters more than popularity.",
+      "answerZh": "就我而言，誠實比受歡迎更重要。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, honesty matters more than popularity."
+    },
+    {
+      "id": "ss209-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "In my view, children need enough time to play.",
+      "promptZh": "在我看來，兒童需要有足夠的玩耍時間。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, children need enough time to play.",
+      "answerZh": "就我而言，兒童需要有足夠的玩耍時間。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, children need enough time to play."
+    },
+    {
+      "id": "ss209-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "From my point of view, school uniforms can reduce the pressure to wear expensive clothes.",
+      "promptZh": "依我看，校服可以減少學生穿昂貴衣服的壓力。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, school uniforms can reduce the pressure to wear expensive clothes.",
+      "answerZh": "就我而言，校服可以減少學生穿昂貴衣服的壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, school uniforms can reduce the pressure to wear expensive clothes."
+    },
+    {
+      "id": "ss209-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I believe good manners cost nothing.",
+      "promptZh": "我認為待人有禮並不需要花錢。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, good manners cost nothing.",
+      "answerZh": "就我而言，待人有禮並不需要花錢。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, good manners cost nothing."
+    },
+    {
+      "id": "ss209-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If you ask me, this room needs more natural light.",
+      "promptZh": "你若問我的意見，這個房間需要更多自然光。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, this room needs more natural light.",
+      "answerZh": "就我而言，這個房間需要更多自然光。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, this room needs more natural light."
+    },
+    {
+      "id": "ss209-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As I see it, walking is the best way to explore a city.",
+      "promptZh": "在我看來，步行是探索一座城市的最佳方式。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, walking is the best way to explore a city.",
+      "answerZh": "就我而言，步行是探索一座城市的最佳方式。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, walking is the best way to explore a city."
+    },
+    {
+      "id": "ss209-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "My view is that people should keep their promises.",
+      "promptZh": "我的看法是，人們應該信守承諾。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, people should keep their promises.",
+      "answerZh": "就我而言，人們應該信守承諾。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, people should keep their promises."
+    },
+    {
+      "id": "ss209-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It seems to me that the meeting should start on time.",
+      "promptZh": "在我看來，會議應該準時開始。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, the meeting should start on time.",
+      "answerZh": "就我而言，會議應該準時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, the meeting should start on time."
+    },
+    {
+      "id": "ss209-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I feel that online lessons work best in small groups.",
+      "promptZh": "我認為網上課堂以小組形式進行最有效。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, online lessons work best in small groups.",
+      "answerZh": "就我而言，網上課堂以小組形式進行最有效。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, online lessons work best in small groups."
+    },
+    {
+      "id": "ss209-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "To my mind, the blue version is easier to read.",
+      "promptZh": "在我看來，藍色版本更容易閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, the blue version is easier to read.",
+      "answerZh": "就我而言，藍色版本更容易閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, the blue version is easier to read."
+    },
+    {
+      "id": "ss209-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Speaking for myself, I would rather save money than buy a new phone.",
+      "promptZh": "就我自己而言，我寧願儲錢，也不願購買新電話。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, I would rather save money than buy a new phone.",
+      "answerZh": "就我而言，我寧願儲錢，也不願購買新電話。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, I would rather save money than buy a new phone."
+    },
+    {
+      "id": "ss209-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "For my part, the team handled the problem well.",
+      "promptZh": "就我而言，團隊把問題處理得很好。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, the team handled the problem well.",
+      "answerZh": "就我而言，團隊把問題處理得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, the team handled the problem well."
+    },
+    {
+      "id": "ss209-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I would say that regular practice is more useful than last-minute revision.",
+      "promptZh": "我會認為，定期練習比到最後一刻才溫習更有用。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, regular practice is more useful than last-minute revision.",
+      "answerZh": "就我而言，定期練習比到最後一刻才溫習更有用。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, regular practice is more useful than last-minute revision."
+    },
+    {
+      "id": "ss209-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The way I see it, every student should learn basic first aid.",
+      "promptZh": "依我看，每名學生都應學習基本急救知識。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, every student should learn basic first aid.",
+      "answerZh": "就我而言，每名學生都應學習基本急救知識。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, every student should learn basic first aid."
+    },
+    {
+      "id": "ss209-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My personal opinion is that there should be stricter rules for advertisements aimed at children.",
+      "promptZh": "我個人的意見是，針對兒童的廣告應受到更嚴格的規管。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, there should be stricter rules for advertisements aimed at children.",
+      "answerZh": "就我而言，針對兒童的廣告應受到更嚴格的規管。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, there should be stricter rules for advertisements aimed at children."
+    },
+    {
+      "id": "ss209-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What do you think about the plan? I think it is practical and affordable.",
+      "promptZh": "你對這個計劃有何看法？我認為它切實可行，而且價格負擔得起。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, the plan is practical and affordable.",
+      "answerZh": "就我而言，這個計劃切實可行，而且價格負擔得起。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, the plan is practical and affordable."
+    },
+    {
+      "id": "ss209-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My own view is that pets should not be left alone all day.",
+      "promptZh": "我自己的看法是，不應把寵物整天獨自留在家中。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, pets should not be left alone all day.",
+      "answerZh": "就我而言，不應把寵物整天獨自留在家中。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, pets should not be left alone all day."
+    },
+    {
+      "id": "ss209-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "From where I stand, flexible working hours can improve staff morale.",
+      "promptZh": "以我的立場來看，彈性工作時間可以提升員工士氣。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, flexible working hours can improve staff morale.",
+      "answerZh": "就我而言，彈性工作時間可以提升員工士氣。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, flexible working hours can improve staff morale."
+    },
+    {
+      "id": "ss209-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I am of the opinion that public transport should be safer at night.",
+      "promptZh": "我認為夜間公共交通應該更加安全。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, public transport should be safer at night.",
+      "answerZh": "就我而言，夜間公共交通應該更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, public transport should be safer at night."
+    },
+    {
+      "id": "ss209-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My position is that schools must deal with bullying quickly.",
+      "promptZh": "我的立場是，學校必須迅速處理欺凌問題。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, schools must deal with bullying quickly.",
+      "answerZh": "就我而言，學校必須迅速處理欺凌問題。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, schools must deal with bullying quickly."
+    },
+    {
+      "id": "ss209-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It is my belief that small businesses deserve more practical government support.",
+      "promptZh": "我相信小型企業應得到更實際的政府支援。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, small businesses deserve more practical government support.",
+      "answerZh": "就我而言，小型企業應得到更實際的政府支援。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, small businesses deserve more practical government support."
+    },
+    {
+      "id": "ss209-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I, for one, think neighbours should help one another.",
+      "promptZh": "我個人認為，鄰居應該互相幫助。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, neighbours should help one another.",
+      "answerZh": "就我而言，鄰居應該互相幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, neighbours should help one another."
+    },
+    {
+      "id": "ss209-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If you want my honest opinion, the film was too long.",
+      "promptZh": "你若想知道我的坦白意見，這部電影實在太長。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, the film was too long.",
+      "answerZh": "就我而言，這部電影實在太長。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, the film was too long."
+    },
+    {
+      "id": "ss209-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My honest view is that the company should admit its mistake.",
+      "promptZh": "我的坦白看法是，公司應該承認錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, the company should admit its mistake.",
+      "answerZh": "就我而言，公司應該承認錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, the company should admit its mistake."
+    },
+    {
+      "id": "ss209-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What is your opinion of the new rule? I think it is fair but difficult to enforce.",
+      "promptZh": "你對這項新規則有何看法？我認為它公平，但難以執行。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, the new rule is fair but difficult to enforce.",
+      "answerZh": "就我而言，這項新規則公平，但難以執行。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, the new rule is fair but difficult to enforce."
+    },
+    {
+      "id": "ss209-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When it comes to healthy eating, I think simple habits matter most.",
+      "promptZh": "談到健康飲食，我認為簡單的習慣最重要。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, simple habits matter most when it comes to healthy eating.",
+      "answerZh": "就我而言，談到健康飲食時，簡單的習慣最重要。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, simple habits matter most when it comes to healthy eating."
+    },
+    {
+      "id": "ss209-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In my judgement, the evidence is not strong enough.",
+      "promptZh": "依我的判斷，證據並不充分。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, the evidence is not strong enough.",
+      "answerZh": "就我而言，證據並不充分。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, the evidence is not strong enough."
+    },
+    {
+      "id": "ss209-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My opinion is simple: loud music should not be allowed in quiet residential areas.",
+      "promptZh": "我的看法很簡單：寧靜住宅區內不應容許播放嘈吵音樂。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, loud music should not be allowed in quiet residential areas.",
+      "answerZh": "就我而言，寧靜住宅區內不應容許播放嘈吵音樂。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, loud music should not be allowed in quiet residential areas."
+    },
+    {
+      "id": "ss209-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In my eyes, practical experience is more valuable than an impressive CV.",
+      "promptZh": "在我眼中，實際經驗比一份出色的履歷更有價值。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, practical experience is more valuable than an impressive CV.",
+      "answerZh": "就我而言，實際經驗比一份出色的履歷更有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, practical experience is more valuable than an impressive CV."
+    },
+    {
+      "id": "ss209-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If I had to choose, I would invest in staff training first.",
+      "promptZh": "假如必須作出選擇，我會先投放資源於員工培訓。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, I would invest in staff training first.",
+      "answerZh": "就我而言，我會先投放資源於員工培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, I would invest in staff training first."
+    },
+    {
+      "id": "ss209-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "For me, a sincere apology is better than a long excuse.",
+      "promptZh": "對我來說，真誠的道歉勝過冗長的藉口。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, a sincere apology is better than a long excuse.",
+      "answerZh": "就我而言，真誠的道歉勝過冗長的藉口。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, a sincere apology is better than a long excuse."
+    },
+    {
+      "id": "ss209-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What would you change first? I would improve the waiting area.",
+      "promptZh": "你會先改善甚麼？我會先改善等候區。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, I would improve the waiting area first.",
+      "answerZh": "就我而言，我會先改善等候區。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, I would improve the waiting area first."
+    },
+    {
+      "id": "ss209-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I take the view that technology should support teachers, not replace them.",
+      "promptZh": "我認為科技應該支援教師，而不是取代他們。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, technology should support teachers, not replace them.",
+      "answerZh": "就我而言，科技應該支援教師，而不是取代他們。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, technology should support teachers, not replace them."
+    },
+    {
+      "id": "ss209-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "On a personal level, a morning exercise routine is easier to maintain than an evening one.",
+      "promptZh": "就我個人而言，早上運動的習慣比晚上的更容易維持。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, a morning exercise routine is easier to maintain than an evening one.",
+      "answerZh": "就我而言，早上運動的習慣比晚上的更容易維持。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, a morning exercise routine is easier to maintain than an evening one."
+    },
+    {
+      "id": "ss209-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My feeling is that even a small act of kindness can make someone’s day better.",
+      "promptZh": "我的感覺是，即使一個小小的善舉，也能令別人的一天變得更美好。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, even a small act of kindness can make someone’s day better.",
+      "answerZh": "就我而言，即使一個小小的善舉，也能令別人的一天變得更美好。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, even a small act of kindness can make someone’s day better."
+    },
+    {
+      "id": "ss209-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I hold the view that rules should be clear enough for everyone to understand.",
+      "promptZh": "我認為，規則應該清晰得讓每個人都能明白。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, rules should be clear enough for everyone to understand.",
+      "answerZh": "就我而言，規則應該清晰得讓每個人都能明白。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, rules should be clear enough for everyone to understand."
+    },
+    {
+      "id": "ss209-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Which option is safer in your view? Delaying the trip is the safer choice.",
+      "promptZh": "依你看，哪個選擇較安全？延遲行程是較安全的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, delaying the trip is the safer choice.",
+      "answerZh": "就我而言，延遲行程是較安全的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, delaying the trip is the safer choice."
+    },
+    {
+      "id": "ss209-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What is your view on remote working? It can be effective when teams communicate clearly.",
+      "promptZh": "你對遙距工作有何看法？當團隊溝通清晰時，它可以很有效。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, remote working can be effective when teams communicate clearly.",
+      "answerZh": "就我而言，當團隊溝通清晰時，遙距工作可以很有效。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, remote working can be effective when teams communicate clearly."
+    },
+    {
+      "id": "ss209-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My personal stance is that historic buildings should be preserved whenever possible.",
+      "promptZh": "我的個人立場是，在可行情況下應保育歷史建築。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, historic buildings should be preserved whenever possible.",
+      "answerZh": "就我而言，在可行情況下應保育歷史建築。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, historic buildings should be preserved whenever possible."
+    },
+    {
+      "id": "ss209-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "From my perspective, a policy is ineffective if ordinary people cannot understand it.",
+      "promptZh": "從我的角度來看，假如一般市民無法理解一項政策，那項政策便沒有效用。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, a policy is ineffective if ordinary people cannot understand it.",
+      "answerZh": "就我而言，假如一般市民無法理解一項政策，那項政策便沒有效用。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, a policy is ineffective if ordinary people cannot understand it."
+    },
+    {
+      "id": "ss209-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you were to ask for my view, criticism is useful only when it offers a way forward.",
+      "promptZh": "假如你問我的看法，批評只有在提出改進方向時才有用。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, criticism is useful only when it offers a way forward.",
+      "answerZh": "就我而言，批評只有在提出改進方向時才有用。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, criticism is useful only when it offers a way forward."
+    },
+    {
+      "id": "ss209-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I see the matter this way: public money should be spent where it creates the greatest social benefit.",
+      "promptZh": "我對這件事的看法是：公共資金應用於能產生最大社會效益的地方。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, public money should be spent where it creates the greatest social benefit.",
+      "answerZh": "就我而言，公共資金應用於能產生最大社會效益的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, public money should be spent where it creates the greatest social benefit."
+    },
+    {
+      "id": "ss209-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "For my part, although the proposal is imperfect, it is worth testing on a small scale.",
+      "promptZh": "就我而言，雖然這項建議並不完美，但值得先作小規模試行。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, the proposal is worth testing on a small scale, although it is imperfect.",
+      "answerZh": "就我而言，這項建議雖然並不完美，但值得先作小規模試行。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, the proposal is worth testing on a small scale, although it is imperfect."
+    },
+    {
+      "id": "ss209-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My position is that employees should be judged by results rather than by how late they stay at work.",
+      "promptZh": "我的立場是，評核員工時應看成果，而不是看他們工作到多晚。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, employees should be judged by results rather than by how late they stay at work.",
+      "answerZh": "就我而言，評核員工時應看成果，而不是看他們工作到多晚。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, employees should be judged by results rather than by how late they stay at work."
+    },
+    {
+      "id": "ss209-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My view on the issue is that local communities should be consulted before major changes are approved.",
+      "promptZh": "我對這個議題的看法是，在批准重大改變前，應先諮詢本地社區。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, local communities should be consulted before major changes are approved.",
+      "answerZh": "就我而言，在批准重大改變前，應先諮詢本地社區。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, local communities should be consulted before major changes are approved."
+    },
+    {
+      "id": "ss209-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you ask for my opinion, the organisation should publish both the benefits and the risks of the plan.",
+      "promptZh": "你若問我的意見，該機構應同時公布計劃的好處和風險。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, the organisation should publish both the benefits and the risks of the plan.",
+      "answerZh": "就我而言，該機構應同時公布計劃的好處和風險。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, the organisation should publish both the benefits and the risks of the plan."
+    },
+    {
+      "id": "ss209-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As I see the issue, respect should never depend on a person’s income, job title, or social status.",
+      "promptZh": "在我看來，尊重絕不應取決於一個人的收入、職銜或社會地位。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I am concerned, respect should never depend on a person’s income, job title, or social status.",
+      "answerZh": "就我而言，尊重絕不應取決於一個人的收入、職銜或社會地位。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I am concerned, respect should never depend on a person’s income, job title, or social status."
+    }
+  ]
+}

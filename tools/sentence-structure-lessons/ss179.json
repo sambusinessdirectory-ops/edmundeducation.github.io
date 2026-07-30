@@ -1,0 +1,1236 @@
+{
+  "id": "ss179",
+  "order": 179,
+  "slug": "on-condition-that",
+  "title": "On condition that",
+  "titleZh": "「On condition that…」表示必要條件",
+  "titleEn": "Using On condition that for a firm requirement",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 179 -「On condition that…」表示必要條件.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Main clause + on condition that + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss179-formula-01",
+      "labelEn": "Condition last",
+      "labelZh": "條件在後",
+      "formula": "Main clause + on condition that + subject + verb + other information"
+    },
+    {
+      "id": "ss179-formula-02",
+      "labelEn": "Condition first",
+      "labelZh": "條件在前",
+      "formula": "On condition that + subject + verb + other information, + main clause"
+    }
+  ],
+  "example": "The funds will be released on condition that the results are made public.",
+  "exampleZh": "資金將在結果公開的條件下發放。",
+  "examples": [
+    {
+      "id": "ss179-example-01",
+      "en": "The funds will be released on condition that the results are made public.",
+      "zh": "資金將在結果公開的條件下發放。",
+      "highlight": "The funds will be released on condition that the results are made public."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss179-rule-01",
+      "zh": "That 後面必須接完整子句 On condition that 後面通常需要有主語和動詞。 （你可以進入，條件是你出示門票。）",
+      "en": "That must be followed by a complete clause, normally with a subject and verb: You may enter on condition that you show your ticket, not on condition that your ticket.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You may enter on condition that you show your ticket.",
+        "You may enter on condition that your ticket."
+      ]
+    },
+    {
+      "id": "ss179-rule-02",
+      "zh": "條件可以放在主句之前或之後 條件放在後面時，前面通常不需要逗號： 條件放在句首時，條件子句後面要加逗號：",
+      "en": "The condition can come before or after the main clause. When it follows the main clause, a comma is normally unnecessary. When it comes first, place a comma after the condition clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You may borrow the camera on condition that you handle it carefully.",
+        "On condition that you handle it carefully, you may borrow the camera."
+      ]
+    },
+    {
+      "id": "ss179-rule-03",
+      "zh": "表達將來條件時，條件子句通常使用現在式 即使主句使用 will，on condition that 後面通常使用現在式，而不是 will。",
+      "en": "For a future condition, normally use the present tense in the condition clause. Even if the main clause uses will, on condition that is normally followed by a present form, not will.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The event will proceed on condition that the weather remains safe.",
+        "The event will proceed on condition that the weather will remain safe."
+      ]
+    },
+    {
+      "id": "ss179-rule-04",
+      "zh": "可以表達否定條件 在條件子句的動詞前加入 not，便可以說明某件事不可以發生。 （你可以使用房間，條件是你不發出任何聲響。）",
+      "en": "A negative condition is possible. Put not before the verb in the condition clause to state what must not happen: You may use the room on condition that you do not make any noise.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You may use the room on condition that you do not make any noise."
+      ]
+    },
+    {
+      "id": "ss179-rule-05",
+      "zh": "兩部分的主語可以不同 主句和條件子句不必由同一個人執行。 主句主語：the landlord 條件子句主語：the tenant",
+      "en": "The two clauses may have different subjects; the same person need not perform both actions. In The landlord will allow a pet on condition that the tenant keeps the flat clean, the main-clause subject is the landlord and the condition-clause subject is the tenant.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The landlord will allow a pet on condition that the tenant keeps the flat clean."
+      ]
+    },
+    {
+      "id": "ss179-rule-06",
+      "zh": "On condition that 比普通 if 更強、更正式 If 可以表達一般條件： On condition that 表示較明確、較嚴格的要求，常用於許可、協議、政策、交易或正式安排： Provided that 和 providing that 與它意思相近；as long as 通常較適合日常會話。 On the condition that 也是正確形式，但本練習統一使用 on condition that。",
+      "en": "On condition that is stronger and more formal than ordinary if. If can state a general condition, whereas on condition that expresses a clear, strict requirement and is common in permissions, agreements, policies, transactions and formal arrangements. Provided that and providing that have similar meanings; as long as is usually more conversational. On the condition that is also grammatical, but this exercise consistently uses on condition that.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You can come if you are free.",
+        "You may use the equipment on condition that you follow the safety rules."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss179-benefit-01",
+      "zh": "清楚表達必要條件 這個句型能讓對方立即明白：相關條件不是普通建議，而是必須遵守的要求。 （禮堂可以使用，條件是緊急出口保持暢通。）",
+      "en": "It makes a necessary condition or firm requirement clear. The listener immediately understands that the condition is not merely advice but a requirement that must be met: The hall may be used on condition that the emergency exits remain clear.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The hall may be used on condition that the emergency exits remain clear."
+      ]
+    },
+    {
+      "id": "ss179-benefit-02",
+      "zh": "適合表達許可和協議 當你准許別人做某事，但同時需要對方遵守規則時，這個句型非常實用。 （你可以借用我的手提電腦，條件是你今晚歸還。）",
+      "en": "It is useful for permission and agreements. When allowing someone to do something while requiring compliance with a rule, use a sentence such as You may borrow my laptop on condition that you return it tonight.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You may borrow my laptop on condition that you return it tonight."
+      ]
+    },
+    {
+      "id": "ss179-benefit-03",
+      "zh": "把安排和條件連接起來 你可以把一項安排和它的必要條件放在同一句內，不需要使用兩句分開說明。",
+      "en": "It connects an arrangement and its condition Without the target structure: The company will offer flexible hours. Employees must complete their weekly duties. Using the target structure: The company will offer flexible hours on condition that employees complete their weekly duties.",
+      "enSource": "pdf",
+      "examples": [
+        "The company will offer flexible hours. Employees must complete their weekly duties.",
+        "The company will offer flexible hours on condition that employees complete their weekly duties."
+      ]
+    },
+    {
+      "id": "ss179-benefit-04",
+      "zh": "讓正式寫作更加準確 這個句型常見於規則、通知、商業協議、政策、報告和正式電郵，能清楚說明一項安排成立的前 提。",
+      "en": "It makes formal writing more precise. The structure is common in rules, notices, business agreements, policies, reports and formal emails, where it clearly states the prerequisite for an arrangement.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss179-benefit-05",
+      "zh": "可以突出重要條件 把 On condition that... 放在句首，可以先讓讀者注意最重要的要求。 （在每名參加者都簽署表格的條件下，活動將會進行。）",
+      "en": "It allows you to emphasise an important condition. Placing On condition that ... first makes the reader notice the requirement before the arrangement: On condition that every participant signs the form, the activity will proceed.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "On condition that every participant signs the form, the activity will proceed."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using On condition that.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 On condition that 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss179-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "You may borrow my ruler only if you return it after class.",
+      "promptZh": "你可以借用我的間尺，但必須在下課後歸還。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may borrow my ruler on condition that you return it after class.",
+      "answerZh": "你可以借用我的間尺，條件是你下課後把它歸還。",
+      "answerZhSource": "pdf",
+      "highlight": "You may borrow my ruler on condition that you return it after class."
+    },
+    {
+      "id": "ss179-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Mia can go to the park provided that she finishes her homework first.",
+      "promptZh": "只要米婭先完成功課，她便可以去公園。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia can go to the park on condition that she finishes her homework first.",
+      "answerZh": "米婭可以去公園，條件是她先完成功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia can go to the park on condition that she finishes her homework first."
+    },
+    {
+      "id": "ss179-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We will have a picnic as long as the weather stays dry.",
+      "promptZh": "只要天氣保持乾爽，我們便會去野餐。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We will have a picnic on condition that the weather stays dry.",
+      "answerZh": "我們會去野餐，條件是天氣保持乾爽。",
+      "answerZhSource": "pdf",
+      "highlight": "We will have a picnic on condition that the weather stays dry."
+    },
+    {
+      "id": "ss179-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Leo may use the computer only if he asks his parents first.",
+      "promptZh": "里奧只有先徵得父母同意，才可以使用電腦。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo may use the computer on condition that he asks his parents first.",
+      "answerZh": "里奧可以使用電腦，條件是他先徵得父母同意。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo may use the computer on condition that he asks his parents first."
+    },
+    {
+      "id": "ss179-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The children can watch television, but they must tidy their room first.",
+      "promptZh": "孩子們可以看電視，但必須先收拾房間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children can watch television on condition that they tidy their room first.",
+      "answerZh": "孩子們可以看電視，條件是他們先收拾房間。",
+      "answerZhSource": "pdf",
+      "highlight": "The children can watch television on condition that they tidy their room first."
+    },
+    {
+      "id": "ss179-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "You can take this book home provided that you bring it back tomorrow.",
+      "promptZh": "只要你明天把這本書帶回來，便可以把它帶回家。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can take this book home on condition that you bring it back tomorrow.",
+      "answerZh": "你可以把這本書帶回家，條件是你明天把它帶回來。",
+      "answerZhSource": "pdf",
+      "highlight": "You can take this book home on condition that you bring it back tomorrow."
+    },
+    {
+      "id": "ss179-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Amy will lend Ben her bicycle only if he rides it carefully.",
+      "promptZh": "艾米只有在本小心踏單車的情況下，才會把單車借給他。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy will lend Ben her bicycle on condition that he rides it carefully.",
+      "answerZh": "艾米會把單車借給本，條件是他小心踏單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy will lend Ben her bicycle on condition that he rides it carefully."
+    },
+    {
+      "id": "ss179-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I will help you with the project as long as you complete the part assigned to you.",
+      "promptZh": "只要你完成獲分配的部分，我便會協助你完成這個項目。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will help you with the project on condition that you complete the part assigned to you.",
+      "answerZh": "我會協助你完成這個項目，條件是你完成獲分配的部分。",
+      "answerZhSource": "pdf",
+      "highlight": "I will help you with the project on condition that you complete the part assigned to you."
+    },
+    {
+      "id": "ss179-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Our dog may come inside, but only if its paws are clean.",
+      "promptZh": "我們的狗只有在爪子乾淨的情況下，才可以進屋。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our dog may come inside on condition that its paws are clean.",
+      "answerZh": "我們的狗可以進屋，條件是牠的爪子乾淨。",
+      "answerZhSource": "pdf",
+      "highlight": "Our dog may come inside on condition that its paws are clean."
+    },
+    {
+      "id": "ss179-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The class can leave early provided that everyone finishes the task.",
+      "promptZh": "只要所有人完成任務，全班便可以提早離開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The class can leave early on condition that everyone finishes the task.",
+      "answerZh": "全班可以提早離開，條件是所有人完成任務。",
+      "answerZhSource": "pdf",
+      "highlight": "The class can leave early on condition that everyone finishes the task."
+    },
+    {
+      "id": "ss179-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As long as you keep the receipt, you can exchange the shirt within seven days.",
+      "promptZh": "只要你保留收據，便可以在七日內更換這件恤衫。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that you keep the receipt, you can exchange the shirt within seven days.",
+      "answerZh": "在你保留收據的條件下，你可以在七日內更換這件恤衫。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that you keep the receipt, you can exchange the shirt within seven days."
+    },
+    {
+      "id": "ss179-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Daniel may join the team only if he attends every practice.",
+      "promptZh": "丹尼爾只有每次都參加練習，才可以加入球隊。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel may join the team on condition that he attends every practice.",
+      "answerZh": "丹尼爾可以加入球隊，條件是他每次都參加練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel may join the team on condition that he attends every practice."
+    },
+    {
+      "id": "ss179-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The school has agreed to let us use the hall. We must leave it clean afterwards.",
+      "promptZh": "學校已同意讓我們使用禮堂。我們之後必須把禮堂保持整潔。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can use the school hall on condition that we leave it clean afterwards.",
+      "answerZh": "我們可以使用學校禮堂，條件是我們使用後把它保持整潔。",
+      "answerZhSource": "pdf",
+      "highlight": "We can use the school hall on condition that we leave it clean afterwards."
+    },
+    {
+      "id": "ss179-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Chloe may stay up later, but she must not make any noise.",
+      "promptZh": "克洛伊可以晚一點睡，但她不可以發出任何聲響。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe may stay up later on condition that she does not make any noise.",
+      "answerZh": "克洛伊可以晚一點睡，條件是她不發出任何聲響。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe may stay up later on condition that she does not make any noise."
+    },
+    {
+      "id": "ss179-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The café will reserve the table provided that we arrive before seven.",
+      "promptZh": "只要我們在七時前到達，咖啡店便會為我們預留桌子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café will reserve the table on condition that we arrive before seven.",
+      "answerZh": "咖啡店會為我們預留桌子，條件是我們在七時前到達。",
+      "answerZhSource": "pdf",
+      "highlight": "The café will reserve the table on condition that we arrive before seven."
+    },
+    {
+      "id": "ss179-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Passengers may board the ferry only if they show a valid ticket.",
+      "promptZh": "乘客只有出示有效船票，才可以登上渡輪。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that passengers show a valid ticket, they may board the ferry.",
+      "answerZh": "在乘客出示有效船票的條件下，他們可以登上渡輪。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that passengers show a valid ticket, they may board the ferry."
+    },
+    {
+      "id": "ss179-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You may enter the laboratory, but you must wear safety glasses.",
+      "promptZh": "你可以進入實驗室，但必須佩戴防護眼鏡。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may enter the laboratory on condition that you wear safety glasses.",
+      "answerZh": "你可以進入實驗室，條件是你佩戴防護眼鏡。",
+      "answerZhSource": "pdf",
+      "highlight": "You may enter the laboratory on condition that you wear safety glasses."
+    },
+    {
+      "id": "ss179-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The coach will let us play in the match, but we must warm up properly first.",
+      "promptZh": "教練會讓我們上場比賽，但我們必須先充分熱身。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach will let us play in the match on condition that we warm up properly first.",
+      "answerZh": "教練會讓我們上場比賽，條件是我們先充分熱身。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach will let us play in the match on condition that we warm up properly first."
+    },
+    {
+      "id": "ss179-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I will share the notes only if you do not post them online.",
+      "promptZh": "我只有在你不把筆記上載到網上的情況下，才會與你分享。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will share the notes on condition that you do not post them online.",
+      "answerZh": "我會與你分享筆記，條件是你不把它們上載到網上。",
+      "answerZhSource": "pdf",
+      "highlight": "I will share the notes on condition that you do not post them online."
+    },
+    {
+      "id": "ss179-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The landlord will allow a pet, but the tenant must keep the flat clean.",
+      "promptZh": "業主會容許租客飼養寵物，但租客必須保持單位整潔。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The landlord will allow a pet on condition that the tenant keeps the flat clean.",
+      "answerZh": "業主會容許租客飼養寵物，條件是租客保持單位整潔。",
+      "answerZhSource": "pdf",
+      "highlight": "The landlord will allow a pet on condition that the tenant keeps the flat clean."
+    },
+    {
+      "id": "ss179-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The form will be accepted only if it is signed by a parent.",
+      "promptZh": "這份表格只有在家長簽署後才會獲接納。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that the form is signed by a parent, it will be accepted.",
+      "answerZh": "在表格由家長簽署的條件下，該表格會獲接納。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that the form is signed by a parent, it will be accepted."
+    },
+    {
+      "id": "ss179-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The money will be refunded only if the product is unused.",
+      "promptZh": "只有產品未經使用，款項才會獲退還。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The money will be refunded on condition that the product is unused.",
+      "answerZh": "款項會獲退還，條件是產品未經使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The money will be refunded on condition that the product is unused."
+    },
+    {
+      "id": "ss179-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You can receive a free replacement provided that you report the fault within fourteen days.",
+      "promptZh": "只要你在十四日內報告故障，便可以免費更換產品。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can receive a free replacement on condition that you report the fault within fourteen days.",
+      "answerZh": "你可以免費更換產品，條件是你在十四日內報告故障。",
+      "answerZhSource": "pdf",
+      "highlight": "You can receive a free replacement on condition that you report the fault within fourteen days."
+    },
+    {
+      "id": "ss179-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The hikers may continue only if the guide considers the path safe.",
+      "promptZh": "只有領隊認為小徑安全，遠足人士才可以繼續前進。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hikers may continue on condition that the guide considers the path safe.",
+      "answerZh": "遠足人士可以繼續前進，條件是領隊認為小徑安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The hikers may continue on condition that the guide considers the path safe."
+    },
+    {
+      "id": "ss179-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The company will offer flexible hours as long as staff complete their weekly duties.",
+      "promptZh": "只要員工完成每星期的職責，公司便會提供彈性工作時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company will offer flexible hours on condition that staff complete their weekly duties.",
+      "answerZh": "公司會提供彈性工作時間，條件是員工完成每星期的職責。",
+      "answerZhSource": "pdf",
+      "highlight": "The company will offer flexible hours on condition that staff complete their weekly duties."
+    },
+    {
+      "id": "ss179-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If no one objects, the meeting can be moved to Friday.",
+      "promptZh": "如果沒有人反對，會議便可以改到星期五舉行。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that no one objects, the meeting can be moved to Friday.",
+      "answerZh": "在沒有人反對的條件下，會議可以改到星期五舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that no one objects, the meeting can be moved to Friday."
+    },
+    {
+      "id": "ss179-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The doctor has one requirement before approving the trip: the patient’s condition must remain stable.",
+      "promptZh": "醫生在批准這次出行前有一項要求：病人的情況必須保持穩定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor will approve the trip on condition that the patient’s condition remains stable.",
+      "answerZh": "醫生會批准這次出行，條件是病人的情況保持穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor will approve the trip on condition that the patient’s condition remains stable."
+    },
+    {
+      "id": "ss179-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The school will lend tablets to students only if their parents sign the agreement.",
+      "promptZh": "學校只有在家長簽署協議後，才會把平板電腦借給學生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school will lend tablets to students on condition that their parents sign the agreement.",
+      "answerZh": "學校會把平板電腦借給學生，條件是他們的家長簽署協議。",
+      "answerZhSource": "pdf",
+      "highlight": "The school will lend tablets to students on condition that their parents sign the agreement."
+    },
+    {
+      "id": "ss179-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We may use the community garden provided that we follow the safety rules.",
+      "promptZh": "只要我們遵守安全規則，便可以使用社區花園。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We may use the community garden on condition that we follow the safety rules.",
+      "answerZh": "我們可以使用社區花園，條件是我們遵守安全規則。",
+      "answerZhSource": "pdf",
+      "highlight": "We may use the community garden on condition that we follow the safety rules."
+    },
+    {
+      "id": "ss179-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The museum will allow photographs only if visitors do not use flash.",
+      "promptZh": "博物館只有在訪客不使用閃光燈的情況下，才會容許拍照。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum will allow photographs on condition that visitors do not use flash.",
+      "answerZh": "博物館會容許拍照，條件是訪客不使用閃光燈。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum will allow photographs on condition that visitors do not use flash."
+    },
+    {
+      "id": "ss179-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You may update the software only after you have backed up the files.",
+      "promptZh": "你只有在備份檔案後，才可以更新軟件。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that you have backed up the files, you may update the software.",
+      "answerZh": "在你已備份檔案的條件下，你可以更新軟件。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that you have backed up the files, you may update the software."
+    },
+    {
+      "id": "ss179-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bank will open the account only if the applicant provides proof of address.",
+      "promptZh": "銀行只有在申請人提供地址證明後，才會開立戶口。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bank will open the account on condition that the applicant provides proof of address.",
+      "answerZh": "銀行會開立戶口，條件是申請人提供地址證明。",
+      "answerZhSource": "pdf",
+      "highlight": "The bank will open the account on condition that the applicant provides proof of address."
+    },
+    {
+      "id": "ss179-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The airline will carry the musical instrument provided that it is packed in a hard case.",
+      "promptZh": "只要該樂器以硬身保護箱妥善包裝，航空公司便會運送它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The airline will carry the musical instrument on condition that it is packed in a hard case.",
+      "answerZh": "航空公司會運送該樂器，條件是它以硬身保護箱妥善包裝。",
+      "answerZhSource": "pdf",
+      "highlight": "The airline will carry the musical instrument on condition that it is packed in a hard case."
+    },
+    {
+      "id": "ss179-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The volunteers can assist at the event only if they receive proper training.",
+      "promptZh": "義工只有接受適當培訓，才可以在活動中提供協助。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that the volunteers receive proper training, they can assist at the event.",
+      "answerZh": "在義工接受適當培訓的條件下，他們可以在活動中提供協助。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that the volunteers receive proper training, they can assist at the event."
+    },
+    {
+      "id": "ss179-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The restaurant will prepare a special meal provided that the request is made in advance.",
+      "promptZh": "只要事先提出要求，餐廳便會準備特別餐點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant will prepare a special meal on condition that the request is made in advance.",
+      "answerZh": "餐廳會準備特別餐點，條件是事先提出要求。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant will prepare a special meal on condition that the request is made in advance."
+    },
+    {
+      "id": "ss179-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We can extend the deadline only if the client agrees in writing.",
+      "promptZh": "只有客戶以書面同意，我們才可以延長限期。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can extend the deadline on condition that the client agrees in writing.",
+      "answerZh": "我們可以延長限期，條件是客戶以書面同意。",
+      "answerZhSource": "pdf",
+      "highlight": "We can extend the deadline on condition that the client agrees in writing."
+    },
+    {
+      "id": "ss179-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The sports centre will reduce the fee if at least ten people register together.",
+      "promptZh": "如果至少十人一同報名，體育中心便會減免費用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sports centre will reduce the fee on condition that at least ten people register together.",
+      "answerZh": "體育中心會減免費用，條件是至少十人一同報名。",
+      "answerZhSource": "pdf",
+      "highlight": "The sports centre will reduce the fee on condition that at least ten people register together."
+    },
+    {
+      "id": "ss179-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Production may begin only after the machine has passed the safety test.",
+      "promptZh": "只有在機器通過安全測試後，生產工作才可以開始。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that the machine has passed the safety test, production may begin.",
+      "answerZh": "在機器已通過安全測試的條件下，生產工作可以開始。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that the machine has passed the safety test, production may begin."
+    },
+    {
+      "id": "ss179-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council will approve the outdoor market only if the organisers provide enough rubbish bins.",
+      "promptZh": "只有主辦單位提供足夠的垃圾桶，議會才會批准舉辦戶外市集。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council will approve the outdoor market on condition that the organisers provide enough rubbish bins.",
+      "answerZh": "議會會批准舉辦戶外市集，條件是主辦單位提供足夠的垃圾桶。",
+      "answerZhSource": "pdf",
+      "highlight": "The council will approve the outdoor market on condition that the organisers provide enough rubbish bins."
+    },
+    {
+      "id": "ss179-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I will allow you to use my photograph provided that you credit me as the photographer.",
+      "promptZh": "只要你註明我是攝影師，我便會容許你使用我的照片。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will allow you to use my photograph on condition that you credit me as the photographer.",
+      "answerZh": "我會容許你使用我的照片，條件是你註明我是攝影師。",
+      "answerZhSource": "pdf",
+      "highlight": "I will allow you to use my photograph on condition that you credit me as the photographer."
+    },
+    {
+      "id": "ss179-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The research session will proceed as planned only if every participant signs the consent form.",
+      "promptZh": "只有每名參加者都簽署同意書，研究活動才會按計劃進行。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that every participant signs the consent form, the research session will proceed as planned.",
+      "answerZh": "在每名參加者都簽署同意書的條件下，研究活動會按計劃進行。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that every participant signs the consent form, the research session will proceed as planned."
+    },
+    {
+      "id": "ss179-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient may leave the hospital, but a family member must stay with the patient overnight.",
+      "promptZh": "病人可以離開醫院，但必須有一名家人在晚上陪伴病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient may leave the hospital on condition that a family member stays with the patient overnight.",
+      "answerZh": "病人可以離開醫院，條件是有一名家人在晚上陪伴病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient may leave the hospital on condition that a family member stays with the patient overnight."
+    },
+    {
+      "id": "ss179-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The charity will accept the donation, but the source of the money must be verified first.",
+      "promptZh": "慈善機構會接受捐款，但必須先核實款項來源。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity will accept the donation on condition that the source of the money is verified.",
+      "answerZh": "慈善機構會接受捐款，條件是款項來源得到核實。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity will accept the donation on condition that the source of the money is verified."
+    },
+    {
+      "id": "ss179-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We will pay the remaining balance only if the supplier replaces the damaged items.",
+      "promptZh": "只有供應商更換損壞的物品，我們才會支付餘款。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that the supplier replaces the damaged items, we will pay the remaining balance.",
+      "answerZh": "在供應商更換損壞物品的條件下，我們會支付餘款。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that the supplier replaces the damaged items, we will pay the remaining balance."
+    },
+    {
+      "id": "ss179-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The university may publish the findings provided that all personal information is removed.",
+      "promptZh": "只要刪除所有個人資料，大學便可以公布研究結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university may publish the findings on condition that all personal information is removed.",
+      "answerZh": "大學可以公布研究結果，條件是刪除所有個人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The university may publish the findings on condition that all personal information is removed."
+    },
+    {
+      "id": "ss179-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The council will continue funding the programme only if the organisers publish a full report on the results.",
+      "promptZh": "只有主辦單位公布完整的成果報告，議會才會繼續資助該計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council will continue funding the programme on condition that the organisers publish a full report on the results.",
+      "answerZh": "議會會繼續資助該計劃，條件是主辦單位公布完整的成果報告。",
+      "answerZhSource": "pdf",
+      "highlight": "The council will continue funding the programme on condition that the organisers publish a full report on the results."
+    },
+    {
+      "id": "ss179-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hall may be used for the evening performance only if the emergency exits remain clear.",
+      "promptZh": "只有緊急出口保持暢通，禮堂才可以用作晚間表演。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that the emergency exits remain clear, the hall may be used for the evening performance.",
+      "answerZh": "在緊急出口保持暢通的條件下，禮堂可以用作晚間表演。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that the emergency exits remain clear, the hall may be used for the evening performance."
+    },
+    {
+      "id": "ss179-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company will renew the contract only if the service meets the agreed quality standards.",
+      "promptZh": "只有服務達到協定的質素標準，公司才會續約。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company will renew the contract on condition that the service meets the agreed quality standards.",
+      "answerZh": "公司會續約，條件是服務達到協定的質素標準。",
+      "answerZhSource": "pdf",
+      "highlight": "The company will renew the contract on condition that the service meets the agreed quality standards."
+    },
+    {
+      "id": "ss179-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Residents may continue using the rooftop garden as long as they keep noise to a minimum after nine.",
+      "promptZh": "只要居民在九時後盡量降低聲量，便可以繼續使用天台花園。",
+      "promptZhSource": "pdf",
+      "starter": "Residents",
+      "answer": "Residents may continue using the rooftop garden on condition that they keep noise to a minimum after nine.",
+      "answerZh": "居民可以繼續使用天台花園，條件是他們在九時後盡量降低聲量。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents may continue using the rooftop garden on condition that they keep noise to a minimum after nine."
+    },
+    {
+      "id": "ss179-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The committee will support the project only if the revised plan protects local trees and keeps the path accessible.",
+      "promptZh": "只有修訂後的計劃能保護區內樹木，並確保小徑可供使用，委員會才會支持該項目。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On condition that the revised plan protects local trees and keeps the path accessible, the committee will support the project.",
+      "answerZh": "在修訂後的計劃能保護區內樹木並確保小徑可供使用的條件下，委員會會支持該項目。",
+      "answerZhSource": "pdf",
+      "highlight": "On condition that the revised plan protects local trees and keeps the path accessible, the committee will support the project."
+    }
+  ]
+}

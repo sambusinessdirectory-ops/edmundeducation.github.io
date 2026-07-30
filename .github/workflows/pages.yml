@@ -35,6 +35,9 @@ jobs:
       - name: Validate homework resource catalog and numeric search
         run: node tools/test-schedule-homework-links.mjs
 
+      - name: Validate Sentence Structure lessons and data contracts
+        run: node tools/test-sentence-structure-system.mjs
+
       - name: Validate IELTS Writing Task 1 flashcards and female voice
         run: |
           node tools/test-ielts-writing-task1-flashcards.mjs

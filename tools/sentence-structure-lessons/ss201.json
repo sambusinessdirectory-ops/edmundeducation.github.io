@@ -1,0 +1,1239 @@
+{
+  "id": "ss201",
+  "order": 201,
+  "slug": "for-good-reason",
+  "title": "「For good reason」句：表示「有充分理由／有其道理」",
+  "titleZh": "「For good reason」句：表示「有充分理由／有其道理」",
+  "titleEn": "Using “for good reason”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 201 -「For good reason」句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source set contains two distinct PDFs labelled 201; this For good reason lesson retains system ID ss201."
+    ]
+  },
+  "formula": "Subject + verb / complement + for good reason",
+  "formulas": [
+    {
+      "id": "ss201-formula-01",
+      "labelEn": "Sentence-final",
+      "labelZh": "放在句末",
+      "formula": "Subject + verb / complement + for good reason"
+    },
+    {
+      "id": "ss201-formula-02",
+      "labelEn": "Clause comment",
+      "labelZh": "評論前句",
+      "formula": "Complete clause, and for good reason"
+    },
+    {
+      "id": "ss201-formula-03",
+      "labelEn": "Sentence-initial",
+      "labelZh": "放在句首",
+      "formula": "For good reason, + complete clause"
+    }
+  ],
+  "example": "The school has strict safety rules for good reason.",
+  "exampleZh": "學校制定嚴格的安全規則，是有充分理由的。",
+  "examples": [
+    {
+      "id": "ss201-example-01",
+      "en": "The school has strict safety rules for good reason.",
+      "zh": "學校制定嚴格的安全規則，是有充分理由的。",
+      "highlight": "The school has strict safety rules for good reason."
+    },
+    {
+      "id": "ss201-example-02",
+      "en": "The manager double-checks every report, and for good reason.",
+      "zh": "經理會再次檢查每份報告，而且這樣做是有充分理由的。",
+      "highlight": "The manager double-checks every report, and for good reason."
+    },
+    {
+      "id": "ss201-example-03",
+      "en": "For good reason, many companies invest heavily in cybersecurity.",
+      "zh": "許多公司大量投資網絡安全，是有充分理由的。",
+      "highlight": "For good reason, many companies invest heavily in cybersecurity."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Subject + verb / complement + for good reason。"
+  },
+  "rules": [
+    {
+      "id": "ss201-rule-01",
+      "zh": "固定說法通常不加 a 在這個慣用表達中，我們通常說： 而不是： 兩者都可以符合文法，但意思和用法略有不同： ● for good reason：表示某件事整體而言有充分理由或合理根據。 ● for a good reason：表示為了某一個具體而合理的理由。 （人們擔心這個問題，是有充分理由的。） （她因為一個合理的原因提早離開：她的兒子生病了。）",
+      "en": "The fixed expression normally has no a: for good reason. For a good reason is also grammatical, but the meanings differ slightly. For good reason says that something is justified overall: People are worried about the problem for good reason. For a good reason points to one specific valid reason: She left early for a good reason: her son was ill.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "for good reason",
+        "for a good reason",
+        "Compare: People are worried about the problem for good reason.",
+        "She left early for a good reason: her son was ill."
+      ]
+    },
+    {
+      "id": "ss201-rule-02",
+      "zh": "可以放在行動、感受或判斷之後 （居民感到擔心，是有充分理由的。） （公司檢查每筆付款，是有充分理由的。）",
+      "en": "For good reason can follow an action, feeling or judgement: The residents are concerned for good reason. The company checks every payment for good reason.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The residents are concerned for good reason.",
+        "The company checks every payment for good reason."
+      ]
+    },
+    {
+      "id": "ss201-rule-03",
+      "zh": "“and for good reason” 用來加強評論 在完整陳述後加上 and for good reason，可以強調前面的情況完全合理。 （這間餐廳很受歡迎，而且是有充分理由的。）",
+      "en": "Use “and for good reason” after a complete statement to emphasise that the preceding situation is entirely justified: The restaurant is popular, and for good reason.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The restaurant is popular, and for good reason."
+      ]
+    },
+    {
+      "id": "ss201-rule-04",
+      "zh": "放在句首時要加逗號 （醫院遵守嚴格的安全程序，是有充分理由的。）",
+      "en": "When for good reason comes first, put a comma after it: For good reason, the hospital follows strict safety procedures.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "For good reason, the hospital follows strict safety procedures."
+      ]
+    },
+    {
+      "id": "ss201-rule-05",
+      "zh": "這個句型表示「理由充分」，但通常不交代具體理由 這句表示人們有充分理由避免晚上走該道路，但沒有說明具體原因，例如照明不足、道路危險或 治安問題。",
+      "en": "The expression says that the grounds are valid but does not normally state the specific reason. “People avoid the road at night for good reason” says that their avoidance is justified without specifying whether the cause is poor lighting, danger or crime.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "People avoid the road at night for good reason."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss201-benefit-01",
+      "zh": "清楚表示某件事是合理的 這個句型能讓讀者立即明白，某個行動、感受、規則或決定並非隨意作出，而是有充分根據的。 （學校檢查每位訪客，是有充分理由的。）",
+      "en": "It clearly shows that something is justified. The reader understands that an action, feeling, rule or decision is based on sound grounds rather than made arbitrarily. Example: The school checks every visitor for good reason.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss201-benefit-02",
+      "zh": "把較長的解釋縮短 你不需要每次都寫： 你可以直接使用 for good reason。 第二句較短、更直接，也保留「做法合理」的意思。",
+      "en": "It shortens a longer explanation such as “because there is a valid reason”, “because the decision is justified” or “because there are strong reasons for doing so”. Compare: The manager checks every report because there is a valid reason for doing so. The manager checks every report for good reason. The second sentence is shorter and more direct while preserving the idea that the action is justified.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss201-benefit-03",
+      "zh": "避免重複已經知道的理由 如果讀者已經知道背景，或者具體理由不需要再次說明，你可以使用 for good reason，避免重 複整段解釋。 （航班因嚴重暴風雨而取消。乘客感到失望，但航空公司作出這個決定是有充分理由的。）",
+      "en": "It avoids repeating a reason that is already known. If the context has established the reason, or the details need not be repeated, for good reason can replace the explanation: The flight was cancelled because of the severe storm. Passengers were disappointed, but the airline made the decision for good reason.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss201-benefit-04",
+      "zh": "加強對前一句的肯定 and for good reason 可以在提出觀察或評價後，進一步表示這個情況完全合理。 （她得到整個團隊信任，而且是有充分理由的。）",
+      "en": "It reinforces a preceding evaluation. “And for good reason” follows an observation or judgement and confirms that the situation is fully justified: She is trusted by the whole team, and for good reason.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss201-benefit-05",
+      "zh": "適合多種說話及寫作情境 這個句型可以自然地用於： ● 日常對話； ● 作文； ● 報告； ● 新聞評論； ● 商業溝通； ● 說明規則或決定。 它能幫助你以簡潔而自然的方式表達「這件事有其道理」。",
+      "en": "It suits many speaking and writing contexts, including everyday conversation, essays, reports, news commentary, business communication, and explanations of rules or decisions. It provides a concise, natural way to say that something is well founded.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source set contains two distinct PDFs labelled 201; this For good reason lesson retains system ID ss201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Subject + verb / complement + for good reason.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Subject + verb / complement + for good reason」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss201-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Everyone is right to trust Mia.",
+      "promptZh": "大家信任米婭是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "Everyone",
+      "answer": "Everyone trusts Mia for good reason.",
+      "answerZh": "大家信任米婭，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone trusts Mia for good reason."
+    },
+    {
+      "id": "ss201-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "There is a valid reason why the school locks the side gate.",
+      "promptZh": "學校鎖上側門有合理原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school locks the side gate for good reason.",
+      "answerZh": "學校鎖上側門，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The school locks the side gate for good reason."
+    },
+    {
+      "id": "ss201-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben is right to check the weather before hiking.",
+      "promptZh": "本在遠足前查看天氣是明智而合理的。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben checks the weather before hiking for good reason.",
+      "answerZh": "本在遠足前查看天氣，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben checks the weather before hiking for good reason."
+    },
+    {
+      "id": "ss201-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It makes sense that the nurse asks every patient the same question.",
+      "promptZh": "護士向每位病人問同一個問題是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse asks every patient the same question for good reason.",
+      "answerZh": "護士向每位病人問同一個問題，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse asks every patient the same question for good reason."
+    },
+    {
+      "id": "ss201-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Our neighbours are justified in keeping their dog on a lead.",
+      "promptZh": "我們的鄰居有充分理由讓狗隻繫着牽繩。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbours keep their dog on a lead for good reason.",
+      "answerZh": "我們的鄰居讓狗隻繫着牽繩，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbours keep their dog on a lead for good reason."
+    },
+    {
+      "id": "ss201-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The teacher has a sound reason for repeating the key instruction.",
+      "promptZh": "老師重複重點指示有充分理由。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher repeats the key instruction for good reason.",
+      "answerZh": "老師重複重點指示，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher repeats the key instruction for good reason."
+    },
+    {
+      "id": "ss201-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There is a good reason why many people avoid that narrow road at night.",
+      "promptZh": "許多人避免晚上走那條狹窄道路，是有合理原因的。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many people avoid that narrow road at night for good reason.",
+      "answerZh": "許多人避免在晚上走那條狹窄道路，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Many people avoid that narrow road at night for good reason."
+    },
+    {
+      "id": "ss201-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe has a sensible reason for saving copies of her important files.",
+      "promptZh": "克洛伊為重要檔案保存副本有充分理由。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe saves copies of her important files for good reason.",
+      "answerZh": "克洛伊為重要檔案保存副本，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe saves copies of her important files for good reason."
+    },
+    {
+      "id": "ss201-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The restaurant’s popularity is fully justified.",
+      "promptZh": "這間餐廳受歡迎是有充分理據的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant is popular, and for good reason.",
+      "answerZh": "這間餐廳很受歡迎，而且是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant is popular, and for good reason."
+    },
+    {
+      "id": "ss201-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why does Leo wear a helmet when cycling? He has a very sensible reason.",
+      "promptZh": "里奧踏單車時為甚麼戴頭盔？他有非常合理的理由。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo wears a helmet when cycling for good reason.",
+      "answerZh": "里奧踏單車時戴頭盔，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo wears a helmet when cycling for good reason."
+    },
+    {
+      "id": "ss201-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It is understandable that parents are concerned about the broken playground gate.",
+      "promptZh": "家長擔心遊樂場閘門損壞是可以理解的。",
+      "promptZhSource": "pdf",
+      "starter": "Parents",
+      "answer": "Parents are concerned about the broken playground gate for good reason.",
+      "answerZh": "家長擔心遊樂場閘門損壞，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Parents are concerned about the broken playground gate for good reason."
+    },
+    {
+      "id": "ss201-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The company tests every update before release, and this practice is well justified.",
+      "promptZh": "公司在推出每次更新前都進行測試，而這個做法有充分理據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company tests every update before release for good reason.",
+      "answerZh": "公司在推出每次更新前都進行測試，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The company tests every update before release for good reason."
+    },
+    {
+      "id": "ss201-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The library’s request for visitors to keep quiet is fully justified.",
+      "promptZh": "圖書館要求訪客保持安靜是完全合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library asks visitors to keep quiet for good reason.",
+      "answerZh": "圖書館要求訪客保持安靜，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The library asks visitors to keep quiet for good reason."
+    },
+    {
+      "id": "ss201-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Grace had a sound reason for arriving at the airport three hours early.",
+      "promptZh": "格蕾絲提早三小時到達機場有充分理由。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace arrived at the airport three hours early for good reason.",
+      "answerZh": "格蕾絲提早三小時到達機場，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace arrived at the airport three hours early for good reason."
+    },
+    {
+      "id": "ss201-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The coach’s decision to change the training schedule was well justified.",
+      "promptZh": "教練更改訓練時間表的決定有充分理據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach changed the training schedule, and for good reason.",
+      "answerZh": "教練更改了訓練時間表，而且是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach changed the training schedule, and for good reason."
+    },
+    {
+      "id": "ss201-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There are good reasons why people speak highly of this doctor.",
+      "promptZh": "人們對這位醫生評價很高，是有充分理由的。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People speak highly of this doctor for good reason.",
+      "answerZh": "人們對這位醫生評價很高，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "People speak highly of this doctor for good reason."
+    },
+    {
+      "id": "ss201-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It makes sense for the museum to limit the number of visitors.",
+      "promptZh": "博物館限制訪客人數是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum limits the number of visitors for good reason.",
+      "answerZh": "博物館限制訪客人數，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum limits the number of visitors for good reason."
+    },
+    {
+      "id": "ss201-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel was right to refuse to share his password.",
+      "promptZh": "丹尼爾拒絕分享密碼是正確的。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel refused to share his password for good reason.",
+      "answerZh": "丹尼爾拒絕分享密碼，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel refused to share his password for good reason."
+    },
+    {
+      "id": "ss201-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The council has a valid reason for repairing the old bridge.",
+      "promptZh": "市議會維修舊橋有合理原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council is repairing the old bridge for good reason.",
+      "answerZh": "市議會正在維修舊橋，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The council is repairing the old bridge for good reason."
+    },
+    {
+      "id": "ss201-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why does the shop check large banknotes carefully? The practice is well justified.",
+      "promptZh": "商店為甚麼仔細檢查大額鈔票？這個做法有充分理據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop checks large banknotes carefully for good reason.",
+      "answerZh": "商店仔細檢查大額鈔票，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop checks large banknotes carefully for good reason."
+    },
+    {
+      "id": "ss201-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The hospital is fully justified in keeping emergency exits clear.",
+      "promptZh": "醫院保持緊急出口暢通是完全合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital keeps emergency exits clear for good reason.",
+      "answerZh": "醫院保持緊急出口暢通，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital keeps emergency exits clear for good reason."
+    },
+    {
+      "id": "ss201-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Aisha was right to question the unusually low price.",
+      "promptZh": "艾莎質疑那個異常低廉的價格是正確的。",
+      "promptZhSource": "pdf",
+      "starter": "Aisha",
+      "answer": "Aisha questioned the unusually low price for good reason.",
+      "answerZh": "艾莎質疑那個異常低廉的價格，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha questioned the unusually low price for good reason."
+    },
+    {
+      "id": "ss201-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The school cancelled the outdoor event. Its decision was well justified.",
+      "promptZh": "學校取消了戶外活動。這個決定有充分理據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school cancelled the outdoor event, and for good reason.",
+      "answerZh": "學校取消了戶外活動，而且是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The school cancelled the outdoor event, and for good reason."
+    },
+    {
+      "id": "ss201-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The engineers had a valid reason for inspecting the lift again.",
+      "promptZh": "工程師再次檢查升降機有合理原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineers inspected the lift again for good reason.",
+      "answerZh": "工程師再次檢查升降機，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineers inspected the lift again for good reason."
+    },
+    {
+      "id": "ss201-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "People have become more careful about online scams. Their greater caution is well justified.",
+      "promptZh": "人們對網上騙案變得更加警惕。他們提高警覺是有充分理據的。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People have become more careful about online scams for good reason.",
+      "answerZh": "人們對網上騙案變得更加警惕，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "People have become more careful about online scams for good reason."
+    },
+    {
+      "id": "ss201-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager had a sound reason for asking for written confirmation.",
+      "promptZh": "經理要求書面確認有充分理由。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager asked for written confirmation for good reason.",
+      "answerZh": "經理要求書面確認，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager asked for written confirmation for good reason."
+    },
+    {
+      "id": "ss201-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The village has a valid reason for limiting cars in its centre.",
+      "promptZh": "村莊限制車輛進入村中心有合理原因。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For good reason, the village limits cars in its centre.",
+      "answerZh": "村莊限制車輛進入村中心，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "For good reason, the village limits cars in its centre."
+    },
+    {
+      "id": "ss201-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It makes sense that the team is reviewing its safety procedures.",
+      "promptZh": "團隊正在檢討安全程序是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team is reviewing its safety procedures for good reason.",
+      "answerZh": "團隊正在檢討安全程序，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The team is reviewing its safety procedures for good reason."
+    },
+    {
+      "id": "ss201-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sofia was right not to open the unexpected attachment.",
+      "promptZh": "蘇菲亞沒有開啟意外收到的附件是正確的。",
+      "promptZhSource": "pdf",
+      "starter": "Sofia",
+      "answer": "Sofia did not open the unexpected attachment for good reason.",
+      "answerZh": "蘇菲亞沒有開啟意外收到的附件，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia did not open the unexpected attachment for good reason."
+    },
+    {
+      "id": "ss201-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The airline’s requirement that passengers switch off certain devices is well justified.",
+      "promptZh": "航空公司要求乘客關掉某些裝置是有充分理據的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The airline requires passengers to switch off certain devices for good reason.",
+      "answerZh": "航空公司要求乘客關掉某些裝置，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The airline requires passengers to switch off certain devices for good reason."
+    },
+    {
+      "id": "ss201-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The laboratory is justified in storing these chemicals in a locked cabinet.",
+      "promptZh": "實驗室把這些化學品存放在上鎖的櫃子裏是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The laboratory stores these chemicals in a locked cabinet for good reason.",
+      "answerZh": "實驗室把這些化學品存放在上鎖的櫃子裏，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The laboratory stores these chemicals in a locked cabinet for good reason."
+    },
+    {
+      "id": "ss201-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Marcus had a valid reason for being unwilling to sign the contract immediately.",
+      "promptZh": "馬庫斯不願立即簽署合約有合理原因。",
+      "promptZhSource": "pdf",
+      "starter": "Marcus",
+      "answer": "Marcus was unwilling to sign the contract immediately for good reason.",
+      "answerZh": "馬庫斯不願立即簽署合約，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus was unwilling to sign the contract immediately for good reason."
+    },
+    {
+      "id": "ss201-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The university has solid reasons for checking the sources in every research report.",
+      "promptZh": "大學核對每份研究報告的資料來源有充分理由。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For good reason, the university checks the sources in every research report.",
+      "answerZh": "大學核對每份研究報告的資料來源，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "For good reason, the university checks the sources in every research report."
+    },
+    {
+      "id": "ss201-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The residents opposed the plan. Their opposition was based on sound reasons.",
+      "promptZh": "居民反對該計劃。他們的反對有充分理據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The residents opposed the plan, and for good reason.",
+      "answerZh": "居民反對該計劃，而且是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The residents opposed the plan, and for good reason."
+    },
+    {
+      "id": "ss201-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The technician was right to back up the system before replacing the server.",
+      "promptZh": "技術員在更換伺服器前備份系統是正確的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The technician backed up the system before replacing the server for good reason.",
+      "answerZh": "技術員在更換伺服器前備份系統，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The technician backed up the system before replacing the server for good reason."
+    },
+    {
+      "id": "ss201-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The doctor’s advice that Ethan should not ignore the warning signs was well justified.",
+      "promptZh": "醫生勸伊森不要忽視警號，是有充分理據的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor advised Ethan not to ignore the warning signs for good reason.",
+      "answerZh": "醫生勸伊森不要忽視警號，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor advised Ethan not to ignore the warning signs for good reason."
+    },
+    {
+      "id": "ss201-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This charity has a strong reason for publishing a detailed annual report.",
+      "promptZh": "這間慈善機構發表詳細的年度報告有充分理由。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This charity publishes a detailed annual report for good reason.",
+      "answerZh": "這間慈善機構發表詳細的年度報告，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "This charity publishes a detailed annual report for good reason."
+    },
+    {
+      "id": "ss201-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The judge was justified in treating the witness’s statement cautiously.",
+      "promptZh": "法官審慎看待證人的陳述是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The judge treated the witness’s statement cautiously for good reason.",
+      "answerZh": "法官審慎看待證人的陳述，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The judge treated the witness’s statement cautiously for good reason."
+    },
+    {
+      "id": "ss201-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company’s introduction of stricter identity checks is well justified.",
+      "promptZh": "公司引入更嚴格的身分核實措施是有充分理據的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company has introduced stricter identity checks for good reason.",
+      "answerZh": "公司引入更嚴格的身分核實措施，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The company has introduced stricter identity checks for good reason."
+    },
+    {
+      "id": "ss201-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The city has compelling reasons for strengthening flood protection around the harbour.",
+      "promptZh": "市政府加強海港周邊的防洪設施有非常充分的理由。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For good reason, the city is strengthening flood protection around the harbour.",
+      "answerZh": "市政府加強海港周邊的防洪設施，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "For good reason, the city is strengthening flood protection around the harbour."
+    },
+    {
+      "id": "ss201-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The review panel was right to ask whether the data had been independently verified.",
+      "promptZh": "審查小組詢問數據是否經過獨立核實是正確的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review panel asked whether the data had been independently verified for good reason.",
+      "answerZh": "審查小組詢問數據是否經過獨立核實，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The review panel asked whether the data had been independently verified for good reason."
+    },
+    {
+      "id": "ss201-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The bank temporarily blocked the unusual transaction. Its action was fully justified.",
+      "promptZh": "銀行暫時截停了那宗異常交易。這個做法完全合理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bank temporarily blocked the unusual transaction, and for good reason.",
+      "answerZh": "銀行暫時截停了那宗異常交易，而且是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The bank temporarily blocked the unusual transaction, and for good reason."
+    },
+    {
+      "id": "ss201-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school’s requirement for written permission before students leave early is well justified.",
+      "promptZh": "學校要求學生早退前取得書面許可，是有充分理據的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school requires written permission before students leave early for good reason.",
+      "answerZh": "學校要求學生早退前取得書面許可，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The school requires written permission before students leave early for good reason."
+    },
+    {
+      "id": "ss201-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The medical team had a sound reason for waiting for the test results before changing the treatment.",
+      "promptZh": "醫療團隊等待化驗結果後才更改治療方案，有充分理由。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For good reason, the medical team waited for the test results before changing the treatment.",
+      "answerZh": "醫療團隊等待化驗結果後才更改治療方案，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "For good reason, the medical team waited for the test results before changing the treatment."
+    },
+    {
+      "id": "ss201-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The board rejected the proposal in its original form because its concerns were valid.",
+      "promptZh": "董事會否決原來版本的建議，因為其憂慮是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The board rejected the proposal in its original form for good reason.",
+      "answerZh": "董事會否決原來版本的建議，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The board rejected the proposal in its original form for good reason."
+    },
+    {
+      "id": "ss201-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "There are compelling reasons why journalists should distinguish confirmed facts from unverified claims.",
+      "promptZh": "記者應把已證實的事實與未經核實的說法區分開來，是有充分理由的。",
+      "promptZhSource": "pdf",
+      "starter": "Journalists",
+      "answer": "Journalists should distinguish confirmed facts from unverified claims for good reason.",
+      "answerZh": "記者應把已證實的事實與未經核實的說法區分開來，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "Journalists should distinguish confirmed facts from unverified claims for good reason."
+    },
+    {
+      "id": "ss201-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The regulator is justified in asking the company to explain the sudden price increase.",
+      "promptZh": "監管機構要求公司解釋價格突然上升是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The regulator is asking the company to explain the sudden price increase for good reason.",
+      "answerZh": "監管機構要求公司解釋價格突然上升，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The regulator is asking the company to explain the sudden price increase for good reason."
+    },
+    {
+      "id": "ss201-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It makes sense that the project team is reconsidering a deadline that leaves no time for safety testing.",
+      "promptZh": "項目團隊重新考慮一個完全沒有預留安全測試時間的限期，是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project team is reconsidering a deadline that leaves no time for safety testing for good reason.",
+      "answerZh": "項目團隊重新考慮一個完全沒有預留安全測試時間的限期，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The project team is reconsidering a deadline that leaves no time for safety testing for good reason."
+    },
+    {
+      "id": "ss201-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The community remains cautious about rebuilding on the same unstable slope. This caution is based on strong reasons.",
+      "promptZh": "社區對於在同一個不穩定斜坡上重建仍然保持審慎。這種審慎態度有充分理據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community remains cautious about rebuilding on the same unstable slope, and for good reason.",
+      "answerZh": "社區對於在同一個不穩定斜坡上重建仍然保持審慎，而且是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "The community remains cautious about rebuilding on the same unstable slope, and for good reason."
+    },
+    {
+      "id": "ss201-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee had compelling reasons to postpone approval until the long-term environmental effects could be assessed.",
+      "promptZh": "委員會押後批准，直至能夠評估長遠環境影響，是有非常充分理由的。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For good reason, the committee postponed approval until the long-term environmental effects could be assessed.",
+      "answerZh": "委員會押後批准，直至能夠評估長遠環境影響，是有充分理由的。",
+      "answerZhSource": "pdf",
+      "highlight": "For good reason, the committee postponed approval until the long-term environmental effects could be assessed."
+    }
+  ]
+}

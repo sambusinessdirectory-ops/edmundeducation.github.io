@@ -1,0 +1,1254 @@
+{
+  "id": "ss133",
+  "order": 133,
+  "slug": "the-idea-that",
+  "title": "「The Idea That 句」",
+  "titleZh": "「The Idea That 句」",
+  "titleEn": "Using the idea that to name the content of a view or concept",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 133 -「The Idea That 句」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "The idea that + complete clause + singular verb / complement",
+  "formulas": [
+    {
+      "id": "ss133-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "The idea that + complete clause + singular verb / complement"
+    },
+    {
+      "id": "ss133-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Subject + verb + the idea that + complete clause"
+    },
+    {
+      "id": "ss133-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Subject + preposition + the idea that + complete clause"
+    }
+  ],
+  "example": "The idea that money can buy happiness is widely debated.",
+  "exampleZh": "金錢可以買到幸福這個觀點一直備受爭議。",
+  "examples": [
+    {
+      "id": "ss133-example-01",
+      "en": "The idea that money can buy happiness is widely debated.",
+      "zh": "金錢可以買到幸福這個觀點一直備受爭議。",
+      "highlight": "The idea that money can buy happiness"
+    },
+    {
+      "id": "ss133-example-02",
+      "en": "Many people reject the idea that wealth guarantees happiness.",
+      "zh": "很多人不認同財富能保證幸福這個觀點。",
+      "highlight": "the idea that wealth guarantees happiness"
+    },
+    {
+      "id": "ss133-example-03",
+      "en": "She is uncomfortable with the idea that success requires constant competition.",
+      "zh": "她不認同成功必須依靠不斷競爭這個想法。",
+      "highlight": "the idea that success requires constant competition"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss133-rule-01",
+      "zh": "That 後面必須是完整子句 That 後面需要有自己的主語和動詞。 ＝ everyone 是主語，deserves 是動詞。",
+      "en": "That must be followed by a complete clause with its own subject and verb; in everyone deserves respect, everyone is the subject and deserves is the verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The idea that everyone deserves respect is important."
+      ]
+    },
+    {
+      "id": "ss133-rule-02",
+      "zh": "整個 the idea that 子句通常視為單數 當 The idea that... 放在句首作主語時，後面的動詞通常使用單數形式。",
+      "en": "Treat the whole the idea that-clause as singular when it functions as the subject, so the following verb is normally singular.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The idea that everyone can succeed is encouraging."
+      ]
+    },
+    {
+      "id": "ss133-rule-03",
+      "zh": "本練習需要保留 that 在日常口語中，部分 that 可以省略；不過，在 the idea that 這個句型中，保留 that 通常更清楚和 自然。",
+      "en": "Keep that in the target structure for this lesson. Although some instances of that can be omitted in everyday speech, retaining it in the idea that is normally clearer and more natural.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss133-rule-04",
+      "zh": "The idea that 與 The fact that 的分別 表示一個想法、觀點、構想、建議或假設。 說話者不一定認為內容已經獲得證實。 這是一個可以討論或質疑的觀點。 表示說話者把內容視為已知、真實或已獲證實的事實。 辦公室提早關門被視為已經發生的事實。 簡單分辨方法 ● the idea that：這是某人的想法，但未必是真的。 ● the fact that：這件事被視為真實或已經發生。",
+      "en": "The idea that introduces a thought, view, concept, proposal or hypothesis that the speaker does not necessarily regard as proven and that may be debated or challenged. The fact that presents content as known, true or established. In short, the idea that identifies someone’s idea, which may not be true, while the fact that identifies something treated as true or as having happened.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "the idea that：這是某人的想法，但未必是真的。",
+        "the fact that：這件事被視為真實或已經發生。",
+        "The idea that longer hours always improve productivity is questionable.",
+        "The fact that the office closed early surprised everyone."
+      ]
+    },
+    {
+      "id": "ss133-rule-05",
+      "zh": "The idea that 與 The idea of 的結構不同 the idea that + 完整子句 the idea of + 名詞／動名詞 本練習的目標是 the idea that + 完整子句。",
+      "en": "The idea that and the idea of have different structures: use the idea that + complete clause, but the idea of + noun or gerund. This lesson targets the idea that + complete clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The idea that she might leave worried us.",
+        "The idea of leaving worried her."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss133-benefit-01",
+      "zh": "清楚指出某個觀點的內容 這個句型可以把一個完整觀點放在 that 後面，讓讀者立即知道正在討論甚麼。",
+      "en": "It clearly states the content of an idea by placing a complete proposition after that, so readers immediately know what view is under discussion.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The idea that everyone learns differently is important."
+      ]
+    },
+    {
+      "id": "ss133-benefit-02",
+      "zh": "討論觀點時，不必表示它一定正確 使用 the idea that，你可以介紹、分析或批評一個觀點，而不需要把它當作事實。 這句是在評論一個觀點，而不是確認金錢真的能保證幸福。",
+      "en": "It lets you introduce, analyse or criticize a view without presenting it as proven. The example comments on a belief about money and happiness rather than confirming it as true.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The idea that money guarantees happiness is misleading."
+      ]
+    },
+    {
+      "id": "ss133-benefit-03",
+      "zh": "讓整個觀點成為句子的主語或受詞 一個完整想法原本可能需要幾句才能說明。使用這個句型後，可以把整個想法當作一個「東西」來 討論。",
+      "en": "It turns a whole idea into a subject or object, allowing an entire proposition that might otherwise take several sentences to be treated as one thing for discussion.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The idea that exams measure intelligence worries many students.",
+        "Many students reject the idea that exams measure intelligence."
+      ]
+    },
+    {
+      "id": "ss133-benefit-04",
+      "zh": "學生經常重複使用： 使用 the idea that 可以令句式更多元。",
+      "en": "It avoids repeatedly using Some people think that and gives sentence structure greater variety.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The idea that employees work best under pressure is not always correct."
+      ]
+    },
+    {
+      "id": "ss133-benefit-05",
+      "zh": "適合用於作文、討論、報告及工作場合 你可以在句型前後加入不同的評價詞和動詞，例如： 這能幫助你更準確地表達自己對某個觀點的態度。",
+      "en": "It is useful in essays, discussions, reports and the workplace. You can combine it with verbs and expressions such as support, reject, question or discuss the idea that; be based on the idea that; and disagree with the idea that, expressing your attitude to a view more precisely.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "support the idea that",
+        "reject the idea that",
+        "question the idea that",
+        "discuss the idea that",
+        "be based on the idea that",
+        "disagree with the idea that"
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the idea that.",
+      "The structure may appear at the beginning, middle or end of the answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 the idea that 改寫以下句子。",
+      "這個句型可以放在答案的開頭、中間或結尾。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss133-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "People often debate whether money can buy happiness.",
+      "promptZh": "人們經常爭論金錢是否能買到幸福。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that money can buy happiness is often debated.",
+      "answerZh": "金錢可以買到幸福這個觀點經常引起爭議。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that money can buy happiness is often debated."
+    },
+    {
+      "id": "ss133-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It is unrealistic to believe that every student learns in the same way.",
+      "promptZh": "認為每位學生都以相同方式學習並不切實際。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that every student learns in the same way is unrealistic.",
+      "answerZh": "每位學生都以相同方式學習這個觀點並不切實際。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that every student learns in the same way is unrealistic."
+    },
+    {
+      "id": "ss133-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It is not always true that employees work best under pressure.",
+      "promptZh": "員工在壓力下工作效率最高並不一定是真的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that employees work best under pressure is not always true.",
+      "answerZh": "員工在壓力下工作效率最高這個觀點並不一定正確。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that employees work best under pressure is not always true."
+    },
+    {
+      "id": "ss133-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Many people are familiar with the belief that breakfast is the most important meal.",
+      "promptZh": "很多人都熟悉早餐是一天中最重要一餐這個說法。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many people are familiar with the idea that breakfast is the most important meal.",
+      "answerZh": "很多人都熟悉早餐是一天中最重要一餐這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "Many people are familiar with the idea that breakfast is the most important meal."
+    },
+    {
+      "id": "ss133-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Many parents support the proposal that children should have less homework.",
+      "promptZh": "很多家長支持兒童應該有較少功課這項建議。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many parents support the idea that children should have less homework.",
+      "answerZh": "很多家長支持兒童應該有較少功課這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "Many parents support the idea that children should have less homework."
+    },
+    {
+      "id": "ss133-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It is too simple to think that a good job must pay a high salary.",
+      "promptZh": "認為好工作必定提供高薪是一種過分簡單的看法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that a good job must pay a high salary is too simple.",
+      "answerZh": "好工作必定提供高薪這個觀點過分簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that a good job must pay a high salary is too simple."
+    },
+    {
+      "id": "ss133-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "People often repeat the claim that everyone needs exactly eight hours of sleep.",
+      "promptZh": "人們經常重複每個人都需要剛好八小時睡眠這個說法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that everyone needs exactly eight hours of sleep is often repeated.",
+      "answerZh": "每個人都需要剛好八小時睡眠這個觀點經常被人重複。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that everyone needs exactly eight hours of sleep is often repeated."
+    },
+    {
+      "id": "ss133-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Some people question the belief that online learning is easier than classroom learning.",
+      "promptZh": "有些人質疑網上學習比課堂學習容易這個觀點。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some people question the idea that online learning is easier than classroom learning.",
+      "answerZh": "有些人質疑網上學習比課堂學習容易這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "Some people question the idea that online learning is easier than classroom learning."
+    },
+    {
+      "id": "ss133-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Many people find it appealing to think that pets can reduce stress.",
+      "promptZh": "很多人覺得寵物可以減輕壓力這個想法很吸引。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that pets can reduce stress appeals to many people.",
+      "answerZh": "寵物可以減輕壓力這個想法對很多人很有吸引力。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that pets can reduce stress appeals to many people."
+    },
+    {
+      "id": "ss133-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Believing that success comes quickly can create unrealistic expectations.",
+      "promptZh": "相信成功會很快來臨，可能令人產生不切實際的期望。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that success comes quickly can create unrealistic expectations.",
+      "answerZh": "成功會很快來臨這個想法可能令人產生不切實際的期望。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that success comes quickly can create unrealistic expectations."
+    },
+    {
+      "id": "ss133-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Some students reject the belief that examination results measure intelligence.",
+      "promptZh": "有些學生不認同考試成績能衡量智力這個觀點。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some students reject the idea that examination results measure intelligence.",
+      "answerZh": "有些學生不認同考試成績能衡量智力這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "Some students reject the idea that examination results measure intelligence."
+    },
+    {
+      "id": "ss133-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Many teachers believe that reading should be enjoyable, and they support this view.",
+      "promptZh": "很多老師認為閱讀應該是愉快的，並支持這個觀點。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many teachers support the idea that reading should be enjoyable.",
+      "answerZh": "很多老師支持閱讀應該是愉快的這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "Many teachers support the idea that reading should be enjoyable."
+    },
+    {
+      "id": "ss133-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I do not agree with the belief that asking for help shows weakness.",
+      "promptZh": "我不認同尋求協助代表軟弱這個觀點。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I disagree with the idea that asking for help shows weakness.",
+      "answerZh": "我不認同尋求協助代表軟弱這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "I disagree with the idea that asking for help shows weakness."
+    },
+    {
+      "id": "ss133-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "She suggested that the class could organise a book exchange.",
+      "promptZh": "她建議班上可以舉辦圖書交換活動。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She introduced the idea that the class could organise a book exchange.",
+      "answerZh": "她提出班上可以舉辦圖書交換活動這個想法。",
+      "answerZhSource": "pdf",
+      "highlight": "She introduced the idea that the class could organise a book exchange."
+    },
+    {
+      "id": "ss133-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We discussed whether the office should allow flexible working hours.",
+      "promptZh": "我們討論了辦公室是否應該容許彈性工作時間。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We discussed the idea that the office should allow flexible working hours.",
+      "answerZh": "我們討論了辦公室應該容許彈性工作時間這個構想。",
+      "answerZhSource": "pdf",
+      "highlight": "We discussed the idea that the office should allow flexible working hours."
+    },
+    {
+      "id": "ss133-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The manager questioned the claim that longer meetings lead to better decisions.",
+      "promptZh": "經理質疑會議越長，決策便越好這個說法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager questioned the idea that longer meetings lead to better decisions.",
+      "answerZh": "經理質疑會議越長，決策便越好這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager questioned the idea that longer meetings lead to better decisions."
+    },
+    {
+      "id": "ss133-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our team came to accept that the plan needed more time.",
+      "promptZh": "我們的團隊逐漸接受這個計劃需要更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team accepted the idea that the plan needed more time.",
+      "answerZh": "我們的團隊接受了這個計劃需要更多時間這個看法。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team accepted the idea that the plan needed more time."
+    },
+    {
+      "id": "ss133-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "People thought it was funny to imagine Leo cooking dinner for twenty guests.",
+      "promptZh": "人們覺得想像里奧為二十名客人準備晚餐十分有趣。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People found the idea that Leo would cook dinner for twenty guests funny.",
+      "answerZh": "人們覺得里奧會為二十名客人準備晚餐這個想法十分有趣。",
+      "answerZhSource": "pdf",
+      "highlight": "People found the idea that Leo would cook dinner for twenty guests funny."
+    },
+    {
+      "id": "ss133-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Her parents felt uncomfortable when she suggested that she might travel alone.",
+      "promptZh": "當她提出可能獨自旅行時，她的父母感到不安。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her parents were uncomfortable with the idea that she might travel alone.",
+      "answerZh": "她的父母對她可能獨自旅行這個想法感到不安。",
+      "answerZhSource": "pdf",
+      "highlight": "Her parents were uncomfortable with the idea that she might travel alone."
+    },
+    {
+      "id": "ss133-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Thinking that mistakes could be useful changed his attitude towards learning.",
+      "promptZh": "認為錯誤也可能有用，改變了他對學習的態度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that mistakes could be useful changed his attitude towards learning.",
+      "answerZh": "錯誤也可能有用這個想法改變了他對學習的態度。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that mistakes could be useful changed his attitude towards learning."
+    },
+    {
+      "id": "ss133-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The proposal to make public transport free has attracted attention.",
+      "promptZh": "免費提供公共交通服務的建議引起了關注。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that public transport should be free has attracted attention.",
+      "answerZh": "公共交通服務應該免費這個構想引起了關注。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that public transport should be free has attracted attention."
+    },
+    {
+      "id": "ss133-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The proposal to ban mobile phones during lessons has divided the class.",
+      "promptZh": "上課期間禁止使用手提電話的建議令班上出現分歧。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that mobile phones should be banned during lessons has divided the class.",
+      "answerZh": "上課期間應該禁止使用手提電話這個構想令班上出現分歧。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that mobile phones should be banned during lessons has divided the class."
+    },
+    {
+      "id": "ss133-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Several doctors challenged the assumption that one diet suits everyone.",
+      "promptZh": "幾名醫生質疑同一種飲食方式適合所有人這個假設。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several doctors challenged the idea that one diet suits everyone.",
+      "answerZh": "幾名醫生質疑同一種飲食方式適合所有人這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "Several doctors challenged the idea that one diet suits everyone."
+    },
+    {
+      "id": "ss133-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The campaign is based on the belief that small actions can protect the environment.",
+      "promptZh": "這項活動建基於小行動也能保護環境這個信念。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The campaign is based on the idea that small actions can protect the environment.",
+      "answerZh": "這項活動建基於小行動也能保護環境這個理念。",
+      "answerZhSource": "pdf",
+      "highlight": "The campaign is based on the idea that small actions can protect the environment."
+    },
+    {
+      "id": "ss133-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new app was developed around a simple principle: booking should take less than a minute.",
+      "promptZh": "這個新應用程式按照一項簡單原則開發：預約所需時間應少於一分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new app was developed around the idea that booking should take less than a minute.",
+      "answerZh": "這個新應用程式按照預約所需時間應少於一分鐘這個構想開發。",
+      "answerZhSource": "pdf",
+      "highlight": "The new app was developed around the idea that booking should take less than a minute."
+    },
+    {
+      "id": "ss133-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "He became interested in the possibility of cities growing more food locally.",
+      "promptZh": "他開始對城市在本地種植更多食物的可能性感興趣。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He became interested in the idea that cities could grow more food locally.",
+      "answerZh": "他開始對城市可以在本地種植更多食物這個構想感興趣。",
+      "answerZhSource": "pdf",
+      "highlight": "He became interested in the idea that cities could grow more food locally."
+    },
+    {
+      "id": "ss133-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is an exaggeration to claim that artificial intelligence will replace every job.",
+      "promptZh": "聲稱人工智能將取代所有工作是一種誇張的說法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that artificial intelligence will replace every job is an exaggeration.",
+      "answerZh": "人工智能將取代所有工作這個觀點是一種誇張的說法。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that artificial intelligence will replace every job is an exaggeration."
+    },
+    {
+      "id": "ss133-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The article explores the claim that loneliness can affect physical health.",
+      "promptZh": "這篇文章探討孤獨可能影響身體健康這個說法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The article explores the idea that loneliness can affect physical health.",
+      "answerZh": "這篇文章探討孤獨可能影響身體健康這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "The article explores the idea that loneliness can affect physical health."
+    },
+    {
+      "id": "ss133-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is misleading to assume that customers always choose the cheapest product.",
+      "promptZh": "假設顧客總會選擇最便宜的產品會造成誤導。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that customers always choose the cheapest product is misleading.",
+      "answerZh": "顧客總會選擇最便宜的產品這個觀點具有誤導性。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that customers always choose the cheapest product is misleading."
+    },
+    {
+      "id": "ss133-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "They built the programme on the principle that practice matters more than talent.",
+      "promptZh": "他們按照練習比天分更重要這項原則設計這個課程。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They built the programme on the idea that practice matters more than talent.",
+      "answerZh": "他們按照練習比天分更重要這個理念設計課程。",
+      "answerZhSource": "pdf",
+      "highlight": "They built the programme on the idea that practice matters more than talent."
+    },
+    {
+      "id": "ss133-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Whether old buildings should always be preserved is a question that deserves careful discussion.",
+      "promptZh": "舊建築是否應該一律保存，是一個值得仔細討論的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that old buildings should always be preserved deserves careful discussion.",
+      "answerZh": "舊建築應該一律保存這個觀點值得仔細討論。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that old buildings should always be preserved deserves careful discussion."
+    },
+    {
+      "id": "ss133-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Few residents supported the proposal to turn the park into a car park.",
+      "promptZh": "很少居民支持把公園改建成停車場的建議。",
+      "promptZhSource": "pdf",
+      "starter": "Few",
+      "answer": "Few residents supported the idea that the park should become a car park.",
+      "answerZh": "很少居民支持把公園改建成停車場這個構想。",
+      "answerZhSource": "pdf",
+      "highlight": "Few residents supported the idea that the park should become a car park."
+    },
+    {
+      "id": "ss133-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The report rejects the assumption that rising sales always mean rising profits.",
+      "promptZh": "報告否定銷售額上升必定代表利潤上升這個假設。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report rejects the idea that rising sales always mean rising profits.",
+      "answerZh": "報告否定銷售額上升必定代表利潤上升這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "The report rejects the idea that rising sales always mean rising profits."
+    },
+    {
+      "id": "ss133-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We should consider whether shorter working weeks may improve productivity.",
+      "promptZh": "我們應該考慮縮短每周工作日數是否可能提高生產力。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should examine the idea that shorter working weeks may improve productivity.",
+      "answerZh": "我們應該研究縮短每周工作日數可能提高生產力這個構想。",
+      "answerZhSource": "pdf",
+      "highlight": "We should examine the idea that shorter working weeks may improve productivity."
+    },
+    {
+      "id": "ss133-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is difficult to defend the claim that people never change.",
+      "promptZh": "人永遠不會改變這個說法很難站得住腳。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that people never change is difficult to defend.",
+      "answerZh": "人永遠不會改變這個觀點很難站得住腳。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that people never change is difficult to defend."
+    },
+    {
+      "id": "ss133-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "She was surprised when someone suggested that silence could be a strong response.",
+      "promptZh": "當有人提出沉默也可以是一種有力回應時，她感到驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She was surprised by the idea that silence could be a strong response.",
+      "answerZh": "她對沉默也可以是一種有力回應這個想法感到驚訝。",
+      "answerZhSource": "pdf",
+      "highlight": "She was surprised by the idea that silence could be a strong response."
+    },
+    {
+      "id": "ss133-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The committee seriously considered whether the library could stay open later.",
+      "promptZh": "委員會認真考慮了圖書館是否可以延長開放時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee gave serious consideration to the idea that the library could stay open later.",
+      "answerZh": "委員會認真考慮了圖書館可以延長開放時間這個構想。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee gave serious consideration to the idea that the library could stay open later."
+    },
+    {
+      "id": "ss133-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In his speech, he argued that leadership begins with listening.",
+      "promptZh": "他在演說中主張領導能力始於聆聽。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His speech promoted the idea that leadership begins with listening.",
+      "answerZh": "他的演說提倡領導能力始於聆聽這個理念。",
+      "answerZhSource": "pdf",
+      "highlight": "His speech promoted the idea that leadership begins with listening."
+    },
+    {
+      "id": "ss133-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Claiming that technology is neutral ignores how people design and use it.",
+      "promptZh": "聲稱科技是中立的，會忽略人們如何設計和使用科技。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that technology is neutral ignores how people design and use it.",
+      "answerZh": "科技是中立的這個觀點忽略了人們如何設計和使用科技。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that technology is neutral ignores how people design and use it."
+    },
+    {
+      "id": "ss133-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Many readers objected to the suggestion that privacy should be exchanged for convenience.",
+      "promptZh": "很多讀者反對以私隱換取便利這項建議。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many readers objected to the idea that privacy should be exchanged for convenience.",
+      "answerZh": "很多讀者反對以私隱換取便利這個構想。",
+      "answerZhSource": "pdf",
+      "highlight": "Many readers objected to the idea that privacy should be exchanged for convenience."
+    },
+    {
+      "id": "ss133-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The education policy reflects the belief that students learn better when they feel safe.",
+      "promptZh": "這項教育政策反映學生感到安全時會學得更好這個信念。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The education policy reflects the idea that students learn better when they feel safe.",
+      "answerZh": "這項教育政策反映學生感到安全時會學得更好這個理念。",
+      "answerZhSource": "pdf",
+      "highlight": "The education policy reflects the idea that students learn better when they feel safe."
+    },
+    {
+      "id": "ss133-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We should not leave unchallenged the assumption that economic growth benefits everyone equally.",
+      "promptZh": "我們不應任由經濟增長令所有人同等受益這個假設不受質疑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that economic growth benefits everyone equally should not go unchallenged.",
+      "answerZh": "經濟增長令所有人同等受益這個觀點不應在無人質疑下被接受。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that economic growth benefits everyone equally should not go unchallenged."
+    },
+    {
+      "id": "ss133-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Researchers are testing the hypothesis that regular contact with nature may improve concentration.",
+      "promptZh": "研究人員正在測試定期接觸大自然可能改善專注力這項假設。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers are testing the idea that regular contact with nature may improve concentration.",
+      "answerZh": "研究人員正在測試定期接觸大自然可能改善專注力這個構想。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers are testing the idea that regular contact with nature may improve concentration."
+    },
+    {
+      "id": "ss133-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The documentary asks whether historical progress is always steady.",
+      "promptZh": "這部紀錄片探討歷史進步是否總是穩定持續的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The documentary questions the idea that historical progress is always steady.",
+      "answerZh": "這部紀錄片質疑歷史進步總是穩定持續的這個觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "The documentary questions the idea that historical progress is always steady."
+    },
+    {
+      "id": "ss133-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our strategy depends on the assumption that customers will value reliability more than speed.",
+      "promptZh": "我們的策略依賴顧客會重視可靠性多於速度這個假設。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our strategy depends on the idea that customers will value reliability more than speed.",
+      "answerZh": "我們的策略依賴顧客會重視可靠性多於速度這個假設。",
+      "answerZhSource": "pdf",
+      "highlight": "Our strategy depends on the idea that customers will value reliability more than speed."
+    },
+    {
+      "id": "ss133-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The judge rejected the suggestion that a lack of evidence proved innocence.",
+      "promptZh": "法官不接受證據不足便能證明清白這個說法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The judge dismissed the idea that a lack of evidence proved innocence.",
+      "answerZh": "法官否定證據不足便能證明清白這個說法。",
+      "answerZhSource": "pdf",
+      "highlight": "The judge dismissed the idea that a lack of evidence proved innocence."
+    },
+    {
+      "id": "ss133-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is both unfair and unreliable to assume that one test can reveal a person’s full ability.",
+      "promptZh": "假設一次測驗便能反映一個人的整體能力，既不公平，也不可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea that one test can reveal a person’s full ability is both unfair and unreliable.",
+      "answerZh": "一次測驗便能反映一個人的整體能力這個觀點既不公平，也不可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea that one test can reveal a person’s full ability is both unfair and unreliable."
+    },
+    {
+      "id": "ss133-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Some employees remain doubtful about the claim that the new system will save time.",
+      "promptZh": "有些僱員仍然懷疑新系統能節省時間這個說法。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some employees remain doubtful about the idea that the new system will save time.",
+      "answerZh": "有些僱員仍然懷疑新系統能節省時間這個說法。",
+      "answerZhSource": "pdf",
+      "highlight": "Some employees remain doubtful about the idea that the new system will save time."
+    },
+    {
+      "id": "ss133-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Critics said the proposal relied on the assumption that all neighbourhoods have the same needs.",
+      "promptZh": "批評者指出，這項建議依賴所有社區都有相同需要這個假設。",
+      "promptZhSource": "pdf",
+      "starter": "Critics",
+      "answer": "Critics said the proposal relied on the idea that all neighbourhoods have the same needs.",
+      "answerZh": "批評者指出，這項建議依賴所有社區都有相同需要這個假設。",
+      "answerZhSource": "pdf",
+      "highlight": "Critics said the proposal relied on the idea that all neighbourhoods have the same needs."
+    },
+    {
+      "id": "ss133-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A healthy debate requires us to distinguish what someone thinks may be true from what has already been proved.",
+      "promptZh": "健康的討論要求我們分清某人認為可能是真的事情，以及已經獲得證實的事情。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A healthy debate requires us to separate the idea that something may be true from the fact that it has already been proved.",
+      "answerZh": "健康的討論要求我們把「某事可能是真的」這個想法，與「它已經獲得證實」這個事實區分開來。",
+      "answerZhSource": "pdf",
+      "highlight": "A healthy debate requires us to separate the idea that something may be true from the fact that it has already been proved."
+    }
+  ]
+}

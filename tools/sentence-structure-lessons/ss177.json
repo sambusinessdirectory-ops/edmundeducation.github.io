@@ -1,0 +1,1193 @@
+{
+  "id": "ss177",
+  "order": 177,
+  "slug": "to-the-extent-that",
+  "title": "To the extent that",
+  "titleZh": "「to the extent that」表示「程度上的依存關係」",
+  "titleEn": "Using To the extent that for a relationship of degree",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structuee 177 - Using _to the extent that_.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Main clause + to the extent that + complete clause",
+  "formulas": [
+    {
+      "id": "ss177-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Main clause + to the extent that + complete clause"
+    }
+  ],
+  "example": "People succeed to the extent that they are willing to learn from failure.",
+  "exampleZh": "人能成功的程度，取決於他們願意從失敗中學習的程度。",
+  "examples": [
+    {
+      "id": "ss177-example-01",
+      "en": "People succeed to the extent that they are willing to learn from failure.",
+      "zh": "人能成功的程度，取決於他們願意從失敗中學習的程度。",
+      "highlight": "People succeed to the extent that they are willing to learn from failure."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss177-rule-01",
+      "zh": "that 後面必須接完整子句，即要有主語和動詞。",
+      "en": "Use a complete clause after that, with both a subject and a verb.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss177-rule-02",
+      "zh": "當兩個概念都可以有程度上的變化時才使用這個句型；它不只是表達 一次性的原因。",
+      "en": "Use the structure when both ideas can change by degree. It is not merely a one-time reason.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss177-rule-03",
+      "zh": "本練習的每個答案都要保留 that。",
+      "en": "Keep that in every answer in this exercise.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss177-rule-04",
+      "zh": "不要把它與 to an extent（「在某程度上／部分地」）或 to such an extent that（「到如此程度以致……」，表示結果）混淆。",
+      "en": "Do not confuse it with to an extent (“partly”) or to such an extent that (“so much that”, showing a result).",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss177-rule-05",
+      "zh": "改寫時要保留原句的時態、情態動詞、行動者和意思。",
+      "en": "Preserve the original tense, modal verb, actor, and meaning.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss177-benefit-01",
+      "zh": "讀者可以立即看出，一個結果會隨另一個條件的程度而改變。",
+      "en": "It makes a degree relationship clear — The reader can see immediately that one result changes according to another condition.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss177-benefit-02",
+      "zh": "你不必把事情說成完全成功、公平、實用或可靠，而可以清楚說明這個 說法成立到甚麼程度。",
+      "en": "It helps you make balanced claims — Instead of saying something is completely successful, fair, useful, or reliable, you can show the limits of your claim.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss177-benefit-03",
+      "zh": "你可以把使用 depends on how much／how well 的較長解釋，改寫成 一句連接緊密的句子。",
+      "en": "It can shorten a long explanation — You can replace a longer sentence with \"depends on how much/how well\" by one connected sentence.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss177-benefit-04",
+      "zh": "這個句型把結果和條件放在同一句中，讓讀者更容易理解兩者的關係。",
+      "en": "It connects related ideas smoothly — The structure puts the result and the condition in one sentence, so the reader can follow the relationship more easily.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss177-benefit-05",
+      "zh": "你可以在作文、報告和討論中，更準確地評估成功、公平、成效、可靠 性、責任等概念。 Before-and-after comparison 改寫前後比較 （計劃有多成功，取決於團隊執行得有多仔細。） （計劃能成功到甚麼程度，取決於團隊執行得有多仔細。）",
+      "en": "It is useful in essays, reports, and discussions — You can use it to evaluate success, fairness, effectiveness, reliability, responsibility, and similar ideas more precisely. Before-and-after comparison How successful the plan is depends on how carefully the team follows it. The plan will succeed to the extent that the team follows it carefully.",
+      "enSource": "pdf",
+      "examples": [
+        "The plan will succeed to the extent that the team follows it carefully."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using To the extent that.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 To the extent that 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss177-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "How much students improve their English depends on how regularly they practise it.",
+      "promptZh": "學生的英語能進步多少，取決於他們有多經常練習。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students improve their English to the extent that they practise it regularly.",
+      "answerZh": "學生的英語能進步到甚麼程度，取決於他們有多經常練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Students improve their English to the extent that they practise it regularly."
+    },
+    {
+      "id": "ss177-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The more completely a plant gets the light and water it needs, the better it grows.",
+      "promptZh": "植物越充分得到所需的陽光和水分，就生長得越好。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A plant grows well to the extent that it gets the light and water it needs.",
+      "answerZh": "植物生長得有多好，取決於它得到所需陽光和水分的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "A plant grows well to the extent that it gets the light and water it needs."
+    },
+    {
+      "id": "ss177-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The more clearly members share information, the more efficiently our group works.",
+      "promptZh": "成員分享資料越清楚，我們小組的工作效率就越高。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our group works efficiently to the extent that members share information clearly.",
+      "answerZh": "我們小組的工作效率有多高，取決於成員分享資料有多清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Our group works efficiently to the extent that members share information clearly."
+    },
+    {
+      "id": "ss177-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia's understanding of the lesson depends on how carefully she listens and whether she asks questions when needed.",
+      "promptZh": "米婭對課堂內容的理解程度，取決於她聆聽得有多仔細，以及是否在需要時提問。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia understands the lesson to the extent that she listens carefully and asks questions when needed.",
+      "answerZh": "米婭能理解課堂內容到甚麼程度，取決於她有多仔細聆聽，以及是否在需要時提問。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia understands the lesson to the extent that she listens carefully and asks questions when needed."
+    },
+    {
+      "id": "ss177-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The fresher the ingredients are, the better the soup tastes.",
+      "promptZh": "材料越新鮮，湯就越美味。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup tastes good to the extent that the ingredients are fresh.",
+      "answerZh": "湯有多美味，取決於材料有多新鮮。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup tastes good to the extent that the ingredients are fresh."
+    },
+    {
+      "id": "ss177-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The amount of money you can save depends on how well you control small daily expenses.",
+      "promptZh": "你能儲蓄多少金錢，取決於你控制日常小額開支的能力。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can save money to the extent that you control small daily expenses.",
+      "answerZh": "你能儲蓄多少金錢，取決於你控制日常小額開支的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "You can save money to the extent that you control small daily expenses."
+    },
+    {
+      "id": "ss177-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The wider you open your curtains, the brighter your room becomes.",
+      "promptZh": "你把窗簾拉得越開，房間就變得越明亮。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your room becomes brighter to the extent that you open the curtains.",
+      "answerZh": "房間變得有多明亮，取決於你把窗簾拉開的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "Your room becomes brighter to the extent that you open the curtains."
+    },
+    {
+      "id": "ss177-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "How tidy the room stays depends on how consistently everyone puts things away after use.",
+      "promptZh": "房間能保持多整齊，取決於每個人使用物品後是否一直把它們放回原位。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room stays tidy to the extent that everyone puts things away after use.",
+      "answerZh": "房間能保持多整齊，取決於每個人使用物品後把它們放回原位的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The room stays tidy to the extent that everyone puts things away after use."
+    },
+    {
+      "id": "ss177-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The better Ben prepares before speaking, the more confident he feels.",
+      "promptZh": "本在發言前準備得越充分，就越有信心。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben feels confident to the extent that he prepares well before speaking.",
+      "answerZh": "本有多大信心，取決於他在發言前準備得有多充分。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben feels confident to the extent that he prepares well before speaking."
+    },
+    {
+      "id": "ss177-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The better its members communicate on the field, the better the team plays.",
+      "promptZh": "隊員在場上溝通得越好，球隊的表現就越好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team plays well to the extent that its members communicate on the field.",
+      "answerZh": "球隊表現得有多好，取決於隊員在場上溝通得有多好。",
+      "answerZhSource": "pdf",
+      "highlight": "The team plays well to the extent that its members communicate on the field."
+    },
+    {
+      "id": "ss177-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The event's success depended on the level of cooperation among the volunteers.",
+      "promptZh": "活動的成功程度，取決於義工之間的合作程度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event was successful to the extent that the volunteers worked closely together.",
+      "answerZh": "活動有多成功，取決於義工合作得有多緊密。",
+      "answerZhSource": "pdf",
+      "highlight": "The event was successful to the extent that the volunteers worked closely together."
+    },
+    {
+      "id": "ss177-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The more relaxed and included Lena felt, the more she enjoyed the trip.",
+      "promptZh": "莉娜感到越放鬆和越被接納，她就越享受這次旅程。",
+      "promptZhSource": "pdf",
+      "starter": "Lena",
+      "answer": "Lena enjoyed the trip to the extent that she felt relaxed and included.",
+      "answerZh": "莉娜有多享受這次旅程，取決於她感到有多放鬆和被接納。",
+      "answerZhSource": "pdf",
+      "highlight": "Lena enjoyed the trip to the extent that she felt relaxed and included."
+    },
+    {
+      "id": "ss177-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "How useful the instructions are depends on how easy they are for readers to follow.",
+      "promptZh": "這些指示有多實用，取決於讀者能多容易地跟從它們。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions are useful to the extent that readers can follow them easily.",
+      "answerZh": "這些指示有多實用，取決於讀者能多容易地跟從它們。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions are useful to the extent that readers can follow them easily."
+    },
+    {
+      "id": "ss177-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our garden recovered more as we watered it more regularly during the dry week.",
+      "promptZh": "在天氣乾燥的那一星期裏，我們澆水越有規律，花園就恢復得越好。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our garden recovered to the extent that we watered it regularly during the dry week.",
+      "answerZh": "花園恢復得有多好，取決於我們在天氣乾燥的那一星期裏澆水有多規律。",
+      "answerZhSource": "pdf",
+      "highlight": "Our garden recovered to the extent that we watered it regularly during the dry week."
+    },
+    {
+      "id": "ss177-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What determines how helpful the new timetable is to parents? The clarity and timing of the information it gives them.",
+      "promptZh": "甚麼決定新時間表對家長有多大幫助？就是它所提供資料的清晰程度和及時程度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable helps parents to the extent that it gives them clear and timely information.",
+      "answerZh": "新時間表對家長有多大幫助，取決於它提供的資料有多清晰和及時。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable helps parents to the extent that it gives them clear and timely information."
+    },
+    {
+      "id": "ss177-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel's ability to complete the task depended on how much guidance the examples gave him.",
+      "promptZh": "丹尼爾能完成任務到甚麼程度，取決於例子給了他多少指引。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel could complete the task to the extent that the examples guided him.",
+      "answerZh": "丹尼爾能完成任務到甚麼程度，取決於例子給了他多少指引。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel could complete the task to the extent that the examples guided him."
+    },
+    {
+      "id": "ss177-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The more each player listened to the others, the more balanced the music sounded.",
+      "promptZh": "每位樂手越留心聆聽其他人，音樂聽起來就越平衡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The music sounded balanced to the extent that each player listened to the others.",
+      "answerZh": "音樂聽起來有多平衡，取決於每位樂手聆聽其他人的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The music sounded balanced to the extent that each player listened to the others."
+    },
+    {
+      "id": "ss177-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This coat can keep you warm only as well as it can block the wind.",
+      "promptZh": "這件外套能保暖到甚麼程度，只能視乎它擋風的能力。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This coat can keep you warm to the extent that it blocks the wind.",
+      "answerZh": "這件外套能保暖到甚麼程度，取決於它擋風的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "This coat can keep you warm to the extent that it blocks the wind."
+    },
+    {
+      "id": "ss177-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The clearer the reasons students gave for their views, the more useful the class discussion became.",
+      "promptZh": "學生為自己的觀點提出的理由越清楚，課堂討論就變得越有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The class discussion became useful to the extent that students gave clear reasons for their views.",
+      "answerZh": "課堂討論變得有多有幫助，取決於學生為自己的觀點提出理由的清晰程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The class discussion became useful to the extent that students gave clear reasons for their views."
+    },
+    {
+      "id": "ss177-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our trust in the map depended on how closely its details matched the streets around us.",
+      "promptZh": "我們對地圖的信任程度，取決於圖上細節與附近街道的吻合程度。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We trusted the map to the extent that its details matched the streets around us.",
+      "answerZh": "我們有多信任這張地圖，取決於圖上細節與附近街道有多吻合。",
+      "answerZhSource": "pdf",
+      "highlight": "We trusted the map to the extent that its details matched the streets around us."
+    },
+    {
+      "id": "ss177-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "How much this medicine can help patients depends on how closely they follow the dosage instructions.",
+      "promptZh": "這種藥物能幫助病人多少，取決於他們有多依從劑量指示。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine can help patients to the extent that they follow the dosage instructions.",
+      "answerZh": "這種藥物能幫助病人到甚麼程度，取決於他們依從劑量指示的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine can help patients to the extent that they follow the dosage instructions."
+    },
+    {
+      "id": "ss177-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The quicker residents reported problems, the safer they could keep the town.",
+      "promptZh": "居民越快報告問題，就越能維持小鎮安全。",
+      "promptZhSource": "pdf",
+      "starter": "Residents",
+      "answer": "Residents could keep the town safe to the extent that they reported problems quickly.",
+      "answerZh": "居民能維持小鎮安全到甚麼程度，取決於他們報告問題的速度。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents could keep the town safe to the extent that they reported problems quickly."
+    },
+    {
+      "id": "ss177-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The degree of support a plan deserves depends on how well it protects low-income families.",
+      "promptZh": "一個計劃值得獲得多少支持，取決於它保障低收入家庭的成效。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A plan deserves support to the extent that it protects low-income families.",
+      "answerZh": "一個計劃值得獲得多少支持，取決於它保障低收入家庭的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "A plan deserves support to the extent that it protects low-income families."
+    },
+    {
+      "id": "ss177-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The website is only as accessible as it is easy for users to read and navigate.",
+      "promptZh": "這個網站是否方便使用，只視乎使用者能否輕鬆閱讀和瀏覽它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website is accessible to the extent that users can read and navigate it without difficulty.",
+      "answerZh": "這個網站方便使用到甚麼程度，取決於使用者能否輕鬆閱讀和瀏覽它。",
+      "answerZhSource": "pdf",
+      "highlight": "The website is accessible to the extent that users can read and navigate it without difficulty."
+    },
+    {
+      "id": "ss177-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The amount by which Grace reduced delays depended on how carefully she checked each booking in advance.",
+      "promptZh": "格蕾絲能減少多少延誤，取決於她事先檢查每項預訂時有多仔細。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace reduced delays to the extent that she checked each booking carefully in advance.",
+      "answerZh": "格蕾絲能減少多少延誤，取決於她事先仔細檢查每項預訂的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace reduced delays to the extent that she checked each booking carefully in advance."
+    },
+    {
+      "id": "ss177-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The effectiveness of the repairs was limited by how properly the damaged parts were replaced.",
+      "promptZh": "維修的成效，受損壞零件是否妥善更換所限制。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repairs were effective to the extent that the damaged parts were replaced properly.",
+      "answerZh": "維修有多大成效，取決於損壞的零件是否得到妥善更換。",
+      "answerZhSource": "pdf",
+      "highlight": "The repairs were effective to the extent that the damaged parts were replaced properly."
+    },
+    {
+      "id": "ss177-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The better a school understands learners' different needs, the more support it can give them.",
+      "promptZh": "學校越了解學習者的不同需要，就越能給予他們支援。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A school can support learners to the extent that it understands their different needs.",
+      "answerZh": "學校能支援學習者到甚麼程度，取決於它對他們不同需要的了解程度。",
+      "answerZhSource": "pdf",
+      "highlight": "A school can support learners to the extent that it understands their different needs."
+    },
+    {
+      "id": "ss177-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The more people noticed the warning and understood it correctly, the more useful it became.",
+      "promptZh": "越多人留意警告並正確理解它，警告就越有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The warning became more useful to the extent that more people noticed it and understood it correctly.",
+      "answerZh": "警告變得有多大作用，取決於有多少人留意並正確理解它。",
+      "answerZhSource": "pdf",
+      "highlight": "The warning became more useful to the extent that more people noticed it and understood it correctly."
+    },
+    {
+      "id": "ss177-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The amount of waste we can reduce is proportional to how much we reuse, repair, and recycle products.",
+      "promptZh": "我們能減少的廢物量，與我們重用、修理和回收產品的程度成正比。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can reduce waste to the extent that we reuse, repair, and recycle products.",
+      "answerZh": "我們能減少多少廢物，取決於我們重用、修理和回收產品的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "We can reduce waste to the extent that we reuse, repair, and recycle products."
+    },
+    {
+      "id": "ss177-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The players benefited from the coach's advice only as much as they applied it during the match.",
+      "promptZh": "球員從教練建議中得到多少幫助，只視乎他們在比賽中實踐建議的程度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach's advice helped the players to the extent that they applied it during the match.",
+      "answerZh": "教練的建議能幫助球員到甚麼程度，取決於他們在比賽中實踐建議的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach's advice helped the players to the extent that they applied it during the match."
+    },
+    {
+      "id": "ss177-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A password's strength and secrecy determine how well it protects an account.",
+      "promptZh": "密碼的強度和保密程度，決定它能多有效地保護帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A password protects an account to the extent that it is strong and kept private.",
+      "answerZh": "密碼能保護帳戶到甚麼程度，取決於它的強度和保密程度。",
+      "answerZhSource": "pdf",
+      "highlight": "A password protects an account to the extent that it is strong and kept private."
+    },
+    {
+      "id": "ss177-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The reliability of the report depends on how thoroughly its figures have been checked.",
+      "promptZh": "報告的可靠程度，取決於當中的數據是否經過徹底核對。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report is reliable to the extent that its figures have been thoroughly checked.",
+      "answerZh": "報告有多可靠，取決於當中的數據經過徹底核對的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The report is reliable to the extent that its figures have been thoroughly checked."
+    },
+    {
+      "id": "ss177-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If local groups can use the hall fairly, it will serve the community well. If access is limited, its value will also be limited.",
+      "promptZh": "如果本地團體能公平使用禮堂，它便能好好服務社區；如果使用機會有限，它的價值也會受到限制。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hall will serve the community to the extent that local groups have fair access to it.",
+      "answerZh": "禮堂能服務社區到甚麼程度，取決於本地團體能否公平使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "The hall will serve the community to the extent that local groups have fair access to it."
+    },
+    {
+      "id": "ss177-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The more sensible choices students are allowed to make, the more independence a teacher can encourage.",
+      "promptZh": "學生獲准作出的合理選擇越多，老師就越能培養他們的獨立性。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A teacher can encourage independence to the extent that students are allowed to make sensible choices.",
+      "answerZh": "老師能培養學生的獨立性到甚麼程度，取決於學生獲准作出合理選擇的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "A teacher can encourage independence to the extent that students are allowed to make sensible choices."
+    },
+    {
+      "id": "ss177-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The camera's usefulness depends on how clear the pictures it produces in low light are.",
+      "promptZh": "這部相機有多實用，取決於它在昏暗環境下拍出的相片有多清晰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The camera is useful to the extent that it produces clear pictures in low light.",
+      "answerZh": "這部相機有多實用，取決於它在昏暗環境下拍出清晰相片的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The camera is useful to the extent that it produces clear pictures in low light."
+    },
+    {
+      "id": "ss177-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The policy can reduce traffic only in proportion to the convenience of the public transport alternatives available to people.",
+      "promptZh": "這項政策能減少多少交通流量，與市民可選擇的公共交通有多方便成正比。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy can reduce traffic to the extent that people have convenient public transport alternatives.",
+      "answerZh": "這項政策能減少交通流量到甚麼程度，取決於市民可使用的公共交通選擇有多方便。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy can reduce traffic to the extent that people have convenient public transport alternatives."
+    },
+    {
+      "id": "ss177-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How fully patients recover depends on how closely they follow the treatment plan and how much rest they get.",
+      "promptZh": "病人能康復到甚麼程度，取決於他們有多依從治療計劃，以及得到多少休息。",
+      "promptZhSource": "pdf",
+      "starter": "Patients",
+      "answer": "Patients can recover to the extent that they follow the treatment plan closely and get enough rest.",
+      "answerZh": "病人能康復到甚麼程度，取決於他們依從治療計劃和得到充足休息的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "Patients can recover to the extent that they follow the treatment plan closely and get enough rest."
+    },
+    {
+      "id": "ss177-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How useful software remains depends on how well it is updated to meet users' changing needs.",
+      "promptZh": "軟件能保持多實用，取決於它是否得到妥善更新，以配合使用者不斷轉變的需要。",
+      "promptZhSource": "pdf",
+      "starter": "Software",
+      "answer": "Software remains useful to the extent that it is updated to meet users' changing needs.",
+      "answerZh": "軟件能保持多實用，取決於它得到更新以配合使用者不斷轉變需要的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "Software remains useful to the extent that it is updated to meet users' changing needs."
+    },
+    {
+      "id": "ss177-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The fairness of the committee's decision depended on the degree to which every member was given a genuine and equal chance to speak.",
+      "promptZh": "委員會決定有多公平，取決於每位成員獲得真實而平等發言機會的程度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee's decision was fair to the extent that every member was given a genuine and equal chance to speak.",
+      "answerZh": "委員會的決定有多公平，取決於每位成員獲得真實而平等發言機會的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee's decision was fair to the extent that every member was given a genuine and equal chance to speak."
+    },
+    {
+      "id": "ss177-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You can rely on this guide only as much as its information is accurate and up to date.",
+      "promptZh": "你能依賴這份指南到甚麼程度，只能視乎當中的資料有多準確和切合現況。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can rely on this guide to the extent that its information is accurate and up to date.",
+      "answerZh": "你能依賴這份指南到甚麼程度，取決於當中的資料有多準確和切合現況。",
+      "answerZhSource": "pdf",
+      "highlight": "You can rely on this guide to the extent that its information is accurate and up to date."
+    },
+    {
+      "id": "ss177-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hospital's ability to shorten waiting times depends on how efficiently it organises staff and rooms.",
+      "promptZh": "醫院能縮短輪候時間到甚麼程度，取決於它安排員工和房間的效率。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital can shorten waiting times to the extent that staff and rooms are organised efficiently.",
+      "answerZh": "醫院能縮短輪候時間到甚麼程度，取決於員工和房間安排得有多有效率。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital can shorten waiting times to the extent that staff and rooms are organised efficiently."
+    },
+    {
+      "id": "ss177-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The more openly and honestly the council explains its decisions, the more public trust will grow.",
+      "promptZh": "議會越公開和誠實地解釋決定，公眾的信任就會增加得越多。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public trust in the council will grow to the extent that its decisions are explained openly and honestly.",
+      "answerZh": "公眾對議會的信任會增加到甚麼程度，取決於議會的決定是否得到公開和誠實的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Public trust in the council will grow to the extent that its decisions are explained openly and honestly."
+    },
+    {
+      "id": "ss177-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The success of a training programme is measured by how well participants can use what they learn in real situations.",
+      "promptZh": "培訓課程的成功程度，是按參加者能否把所學應用於實際情況來衡量的。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A training programme succeeds to the extent that participants can use what they learn in real situations.",
+      "answerZh": "培訓課程有多成功，取決於參加者能把所學應用於實際情況的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "A training programme succeeds to the extent that participants can use what they learn in real situations."
+    },
+    {
+      "id": "ss177-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "How much the new bridge will improve daily life depends on how much safer and easier it makes residents' access to essential services.",
+      "promptZh": "新橋能改善日常生活多少，取決於它能在多大程度上讓居民更安全、更方便地使用必要服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new bridge will improve daily life to the extent that it gives residents safer and easier access to essential services.",
+      "answerZh": "新橋能改善日常生活到甚麼程度，取決於它讓居民更安全、更方便地使用必要服務的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The new bridge will improve daily life to the extent that it gives residents safer and easier access to essential services."
+    },
+    {
+      "id": "ss177-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The clearer, more careful, and more repeatable the methods are, the more convincing the research findings become.",
+      "promptZh": "研究方法越清晰、越嚴謹和越能重複進行，研究結果就越有說服力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research findings become more convincing to the extent that the methods are clear, careful, and repeatable.",
+      "answerZh": "研究結果變得有多具說服力，取決於研究方法有多清晰、嚴謹和能重複進行。",
+      "answerZhSource": "pdf",
+      "highlight": "The research findings become more convincing to the extent that the methods are clear, careful, and repeatable."
+    },
+    {
+      "id": "ss177-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "An emergency plan's ability to protect residents is limited by how well everyone understands their role and how regularly they take part in drills.",
+      "promptZh": "緊急應變計劃能保護居民到甚麼程度，受每個人對自己角色的了解和參與演習的頻密程度所限制。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An emergency plan protects residents to the extent that everyone understands their role and takes part in regular drills.",
+      "answerZh": "緊急應變計劃能保護居民到甚麼程度，取決於每個人是否了解自己的角色並定期參與演習。",
+      "answerZhSource": "pdf",
+      "highlight": "An emergency plan protects residents to the extent that everyone understands their role and takes part in regular drills."
+    },
+    {
+      "id": "ss177-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A school's inclusion policy is meaningful only in proportion to the practical support that students with different needs receive in everyday lessons.",
+      "promptZh": "學校的共融政策有多大實際意義，只能與有不同需要的學生在日常課堂中獲得的實際支援成正比。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A school's inclusion policy is meaningful to the extent that students with different needs receive practical support in everyday lessons.",
+      "answerZh": "學校的共融政策有多大實際意義，取決於有不同需要的學生在日常課堂中獲得實際支援的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "A school's inclusion policy is meaningful to the extent that students with different needs receive practical support in everyday lessons."
+    },
+    {
+      "id": "ss177-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "An environmental campaign changes behaviour more when its message is easier to understand and its suggested actions are more realistic.",
+      "promptZh": "環保活動的訊息越容易明白，而建議的行動越實際，它就越能改變人們的行為。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An environmental campaign changes behaviour to the extent that its message is easy to understand and its suggested actions are realistic.",
+      "answerZh": "環保活動能改變人們行為到甚麼程度，取決於它的訊息是否容易明白，以及建議的行動是否實際。",
+      "answerZhSource": "pdf",
+      "highlight": "An environmental campaign changes behaviour to the extent that its message is easy to understand and its suggested actions are realistic."
+    },
+    {
+      "id": "ss177-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The strength of the company's claim to be responsible depends on how closely its treatment of workers and the environment matches its public promises.",
+      "promptZh": "公司聲稱自己負責任的說服力，取決於它對待員工和環境的方式與公開承諾有多吻合。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company can claim to be responsible to the extent that its treatment of workers and the environment matches its public promises.",
+      "answerZh": "公司能在多大程度上聲稱自己負責任，取決於它對待員工和環境的方式與公開承諾有多吻合。",
+      "answerZhSource": "pdf",
+      "highlight": "The company can claim to be responsible to the extent that its treatment of workers and the environment matches its public promises."
+    },
+    {
+      "id": "ss177-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The more people, services, and institutions learn from past problems and prepare together for future ones, the more resilient a society becomes.",
+      "promptZh": "人們、公共服務和各種機構越能從過去的問題中學習，並共同為未來作準備，社會就越有應變能力。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A society becomes resilient to the extent that people, services, and institutions learn from past problems and prepare together for future ones.",
+      "answerZh": "社會能有多強的應變能力，取決於人們、公共服務和各種機構從過去問題中學習，並共同為未來作準備的程度。",
+      "answerZhSource": "pdf",
+      "highlight": "A society becomes resilient to the extent that people, services, and institutions learn from past problems and prepare together for future ones."
+    }
+  ]
+}

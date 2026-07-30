@@ -1,0 +1,1232 @@
+{
+  "id": "ss166",
+  "order": 166,
+  "slug": "for-all-concession",
+  "title": "For all …",
+  "titleZh": "「For all …」讓步句",
+  "titleEn": "Using For all + noun phrase for concession",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 166 -「For all …」讓步句.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "For all + noun phrase, + main clause",
+  "formulas": [
+    {
+      "id": "ss166-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "For all + noun phrase, + main clause"
+    }
+  ],
+  "example": "For all its convenience, online communication can still feel impersonal.",
+  "exampleZh": "儘管網上溝通很方便，它仍然可能令人感到缺乏人情味。",
+  "examples": [
+    {
+      "id": "ss166-example-01",
+      "en": "For all its convenience, online communication can still feel impersonal.",
+      "zh": "儘管網上溝通很方便，它仍然可能令人感到缺乏人情味。",
+      "highlight": "For all its convenience, online communication can still feel impersonal."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss166-rule-01",
+      "zh": "此處的 For all 表示「儘管」 在這個句型中，For all 的意思接近： （儘管他經驗豐富，但他仍然會犯錯。） 它不是指「為了所有……」。 （我為所有朋友買了禮物。） 這裏的 for all my friends 才表示「給所有朋友」。",
+      "en": "Here For all means “despite”, “in spite of” or “although”, as in For all his experience, he still makes mistakes. It does not mean “for every ...”, as it does in I bought gifts for all my friends.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "despite",
+        "in spite of",
+        "although",
+        "For all his experience, he still makes mistakes.",
+        "I bought gifts for all my friends."
+      ]
+    },
+    {
+      "id": "ss166-rule-02",
+      "zh": "For all 後面必須接名詞短語 不能直接在 For all 後面放完整的主詞加動詞子句。",
+      "en": "For all must be followed by a noun phrase, not directly by a complete subject-and-verb clause. Write For all his experience, Ben still makes mistakes, not For all he is experienced ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "For all his experience, Ben still makes mistakes.",
+        "For all he is experienced, Ben still makes mistakes."
+      ]
+    },
+    {
+      "id": "ss166-rule-03",
+      "zh": "形容詞通常需要變成名詞 Adjective 形容詞 Noun 名詞 例如：",
+      "en": "An adjective normally needs to be changed into a noun in this pattern. For example, small becomes small size in For all its small size, the camera takes excellent photographs.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "For all its small size, the camera takes excellent photographs."
+      ]
+    },
+    {
+      "id": "ss166-rule-04",
+      "zh": "使用正確的所有格 常見形式包括： 特別注意： its = 它的",
+      "en": "Use the correct possessive form. Common patterns include For all my efforts, your experience, his confidence, her patience, its usefulness, our preparation, their differences, Daniel's careful planning, and the evidence. Take particular care that its means “belonging to it”, whereas it's means it is.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "For all my efforts",
+        "For all your experience",
+        "For all his confidence",
+        "For all her patience",
+        "For all its usefulness",
+        "For all our preparation",
+        "For all their differences",
+        "For all Daniel’s careful planning",
+        "For all the evidence",
+        "its =",
+        "it’s = it is"
+      ]
+    },
+    {
+      "id": "ss166-rule-05",
+      "zh": "前後必須有真正的讓步或反差 「有才華」通常應該有助她找到工作，但實際結果並非如此，因此形成合理反差。 以下句子則沒有清楚反差： 前後只是重複相近意思，不適合使用這個句型。",
+      "en": "The two parts must express a genuine concession or contrast. For all her talent, Chloe has not found a full-time job works because talent would normally help her find work, yet the expected result did not occur. For all her talent, Chloe is a talented singer merely repeats a similar idea and has no clear contrast.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "For all her talent, Chloe has not found a full-time job.",
+        "For all her talent, Chloe is a talented singer."
+      ]
+    },
+    {
+      "id": "ss166-rule-06",
+      "zh": "開首短語後面要使用逗號",
+      "en": "Use a comma after the opening For all + noun phrase.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "For all the difficulties, the team completed the project."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss166-benefit-01",
+      "zh": "你可以先承認某項真正存在的優點，再指出它的限制，使觀點顯得更全面和公允。",
+      "en": "It helps you present a balanced judgement You can recognise a genuine strength or positive point before explaining its limitation.",
+      "enSource": "pdf",
+      "examples": [
+        "You can recognise a genuine strength or positive point before explaining its limitation."
+      ]
+    },
+    {
+      "id": "ss166-benefit-02",
+      "zh": "這個句型能清楚表示：前面的因素雖然重要，卻仍不足以改變後面的結果。",
+      "en": "It shows that one factor was not enough to change the result The structure makes it clear that the first fact was important, but it could not prevent the unexpected result.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss166-benefit-03",
+      "zh": "你可以把完整的 although 子句轉成較精簡的名詞短語，將兩個相關意思連接在同一句中。",
+      "en": "It can combine two ideas in a compact way Instead of using a complete although-clause, you can often turn the first idea into a shorter noun phrase.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss166-benefit-04",
+      "zh": "它能增加句式變化，避免作文或說話中不斷重複使用 although、even though 或 despite。",
+      "en": "It gives you another way to begin a sentence It provides an alternative to repeatedly beginning sentences with although, even though or despite.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss166-benefit-05",
+      "zh": "當你需要評價人物、計劃、產品、制度或情況的優點與限制時，這個句型特別實用。",
+      "en": "It is useful for thoughtful evaluations The structure is especially useful when discussing the strengths and weaknesses of a person, plan, product, system or situation.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using For all ….",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 For all … 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss166-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Although the app is convenient, it can be confusing.",
+      "promptZh": "雖然這個應用程式很方便，但它可能令人困惑。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its convenience, the app can be confusing.",
+      "answerZh": "儘管這個應用程式很方便，但它仍可能令人困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its convenience, the app can be confusing."
+    },
+    {
+      "id": "ss166-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Although Ben has a great deal of experience, he still makes mistakes.",
+      "promptZh": "雖然本經驗豐富，但他仍然會犯錯。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all his experience, Ben still makes mistakes.",
+      "answerZh": "儘管本經驗豐富，但他仍然會犯錯。",
+      "answerZhSource": "pdf",
+      "highlight": "For all his experience, Ben still makes mistakes."
+    },
+    {
+      "id": "ss166-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Amy is kind, but she can be impatient.",
+      "promptZh": "艾米很善良，但她有時會缺乏耐性。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all her kindness, Amy can be impatient.",
+      "answerZh": "儘管艾米很善良，但她有時會缺乏耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "For all her kindness, Amy can be impatient."
+    },
+    {
+      "id": "ss166-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Even though the beach is beautiful, it is difficult to reach.",
+      "promptZh": "儘管這個海灘很美，但它很難到達。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its beauty, the beach is difficult to reach.",
+      "answerZh": "儘管這個海灘很美，但它很難到達。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its beauty, the beach is difficult to reach."
+    },
+    {
+      "id": "ss166-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The players were enthusiastic. However, they lost the match.",
+      "promptZh": "球員充滿熱誠。然而，他們輸了比賽。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all their enthusiasm, the players lost the match.",
+      "answerZh": "儘管球員充滿熱誠，但他們仍然輸了比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "For all their enthusiasm, the players lost the match."
+    },
+    {
+      "id": "ss166-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Despite its low price, the bag is quite durable.",
+      "promptZh": "儘管這個袋子價錢不高，但它相當耐用。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its low price, the bag is quite durable.",
+      "answerZh": "儘管這個袋子價錢不高，但它相當耐用。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its low price, the bag is quite durable."
+    },
+    {
+      "id": "ss166-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "In spite of all his hard work, Leo did not pass the examination.",
+      "promptZh": "儘管里奧十分努力，但他沒有通過考試。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all his hard work, Leo did not pass the examination.",
+      "answerZh": "儘管里奧十分努力，但他沒有通過考試。",
+      "answerZhSource": "pdf",
+      "highlight": "For all his hard work, Leo did not pass the examination."
+    },
+    {
+      "id": "ss166-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Although the camera is small, it takes excellent photographs.",
+      "promptZh": "雖然這部相機很小，但它能拍出出色的照片。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its small size, the camera takes excellent photographs.",
+      "answerZh": "儘管這部相機體積細小，但它能拍出出色的照片。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its small size, the camera takes excellent photographs."
+    },
+    {
+      "id": "ss166-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Although Nina was confident, she was nervous before the interview.",
+      "promptZh": "雖然妮娜很有自信，但她在面試前感到緊張。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all her confidence, Nina was nervous before the interview.",
+      "answerZh": "儘管妮娜很有自信，但她在面試前感到緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "For all her confidence, Nina was nervous before the interview."
+    },
+    {
+      "id": "ss166-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "There was heavy rain, but the event continued as planned.",
+      "promptZh": "當時下着大雨，但活動仍按計劃進行。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the heavy rain, the event continued as planned.",
+      "answerZh": "儘管當時下着大雨，但活動仍按計劃進行。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the heavy rain, the event continued as planned."
+    },
+    {
+      "id": "ss166-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Despite its popularity, the restaurant is often criticised.",
+      "promptZh": "儘管這間餐廳很受歡迎，但它經常受到批評。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its popularity, the restaurant is often criticised.",
+      "answerZh": "儘管這間餐廳很受歡迎，但它經常受到批評。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its popularity, the restaurant is often criticised."
+    },
+    {
+      "id": "ss166-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Daniel planned everything carefully, but he forgot one important detail.",
+      "promptZh": "丹尼爾仔細計劃了一切，但他忘記了一個重要細節。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all his careful planning, Daniel forgot one important detail.",
+      "answerZh": "儘管丹尼爾計劃周詳，但他仍忘記了一個重要細節。",
+      "answerZhSource": "pdf",
+      "highlight": "For all his careful planning, Daniel forgot one important detail."
+    },
+    {
+      "id": "ss166-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The sisters are very different, yet they remain close.",
+      "promptZh": "這對姊妹十分不同，但她們的關係仍然親密。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all their differences, the sisters remain close.",
+      "answerZh": "儘管這對姊妹有很多不同之處，但她們的關係仍然親密。",
+      "answerZhSource": "pdf",
+      "highlight": "For all their differences, the sisters remain close."
+    },
+    {
+      "id": "ss166-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Although it was noisy outside, the baby slept peacefully.",
+      "promptZh": "雖然外面很嘈吵，但嬰兒睡得很安穩。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the noise outside, the baby slept peacefully.",
+      "answerZh": "儘管外面很嘈吵，但嬰兒睡得很安穩。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the noise outside, the baby slept peacefully."
+    },
+    {
+      "id": "ss166-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Even though the machine looks modern, it is difficult to use.",
+      "promptZh": "儘管這部機器看起來很現代化，但它很難使用。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its modern appearance, the machine is difficult to use.",
+      "answerZh": "儘管這部機器外形現代化，但它很難使用。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its modern appearance, the machine is difficult to use."
+    },
+    {
+      "id": "ss166-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Chloe is talented, but she has not found a full-time job.",
+      "promptZh": "克洛伊很有才華，但她尚未找到全職工作。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all her talent, Chloe has not found a full-time job.",
+      "answerZh": "儘管克洛伊很有才華，但她尚未找到全職工作。",
+      "answerZhSource": "pdf",
+      "highlight": "For all her talent, Chloe has not found a full-time job."
+    },
+    {
+      "id": "ss166-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The team had extra practice. Nevertheless, it did not improve much.",
+      "promptZh": "球隊進行了額外訓練。儘管如此，表現並沒有大幅改善。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the extra practice, the team did not improve much.",
+      "answerZh": "儘管球隊進行了額外訓練，但表現並沒有大幅改善。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the extra practice, the team did not improve much."
+    },
+    {
+      "id": "ss166-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The manager made many promises, but he changed nothing.",
+      "promptZh": "經理作出了很多承諾，但他甚麼也沒有改變。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all his promises, the manager changed nothing.",
+      "answerZh": "儘管經理作出了很多承諾，但他甚麼也沒有改變。",
+      "answerZhSource": "pdf",
+      "highlight": "For all his promises, the manager changed nothing."
+    },
+    {
+      "id": "ss166-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We prepared carefully. Even so, the presentation did not go smoothly.",
+      "promptZh": "我們準備得很仔細。即使如此，簡報進行得並不順利。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all our careful preparation, the presentation did not go smoothly.",
+      "answerZh": "儘管我們準備得很仔細，但簡報進行得並不順利。",
+      "answerZhSource": "pdf",
+      "highlight": "For all our careful preparation, the presentation did not go smoothly."
+    },
+    {
+      "id": "ss166-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The visitors received repeated warnings, but some of them entered the closed area.",
+      "promptZh": "訪客多次收到警告，但部分人仍進入封閉區域。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the warnings given to visitors, some of them entered the closed area.",
+      "answerZh": "儘管訪客多次收到警告，但部分人仍進入封閉區域。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the warnings given to visitors, some of them entered the closed area."
+    },
+    {
+      "id": "ss166-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The guide is useful, but it leaves some questions unanswered.",
+      "promptZh": "這份指南很有用，但仍有一些問題未得到解答。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its usefulness, the guide leaves some questions unanswered.",
+      "answerZh": "儘管這份指南很有用，但仍有一些問題未得到解答。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its usefulness, the guide leaves some questions unanswered."
+    },
+    {
+      "id": "ss166-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although Mr Lee is wealthy, he lives a simple life.",
+      "promptZh": "雖然李先生很富有，但他過着簡樸的生活。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all his wealth, Mr Lee lives a simple life.",
+      "answerZh": "儘管李先生很富有，但他過着簡樸的生活。",
+      "answerZhSource": "pdf",
+      "highlight": "For all his wealth, Mr Lee lives a simple life."
+    },
+    {
+      "id": "ss166-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Even though the teacher was patient, she could not calm the class.",
+      "promptZh": "儘管老師很有耐性，但她無法令全班安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all her patience, the teacher could not calm the class.",
+      "answerZh": "儘管老師很有耐性，但她無法令全班安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "For all her patience, the teacher could not calm the class."
+    },
+    {
+      "id": "ss166-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The update has many new features, but it has not solved the main problem.",
+      "promptZh": "這次更新加入了不少新功能，但仍未解決主要問題。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its many new features, the update has not solved the main problem.",
+      "answerZh": "儘管這次更新加入了不少新功能，但仍未解決主要問題。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its many new features, the update has not solved the main problem."
+    },
+    {
+      "id": "ss166-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ethan appeared calm, but he was deeply worried.",
+      "promptZh": "伊森看起來很冷靜，但他其實非常擔心。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all his apparent calm, Ethan was deeply worried.",
+      "answerZh": "儘管伊森表面上很冷靜，但他其實非常擔心。",
+      "answerZhSource": "pdf",
+      "highlight": "For all his apparent calm, Ethan was deeply worried."
+    },
+    {
+      "id": "ss166-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There was a great deal of evidence. Nevertheless, the committee remained unconvinced.",
+      "promptZh": "有大量證據。儘管如此，委員會仍未信服。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the evidence, the committee remained unconvinced.",
+      "answerZh": "儘管有大量證據，但委員會仍未信服。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the evidence, the committee remained unconvinced."
+    },
+    {
+      "id": "ss166-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "However fast the train service is, it is not always reliable.",
+      "promptZh": "無論這項鐵路服務有多快捷，它也並非經常可靠。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its speed, the train service is not always reliable.",
+      "answerZh": "儘管這項鐵路服務速度很快，但它並非經常可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its speed, the train service is not always reliable."
+    },
+    {
+      "id": "ss166-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Maya apologised many times, but she did not regain her friend’s trust.",
+      "promptZh": "瑪雅多次道歉，但她未能重新取得朋友的信任。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all her apologies, Maya did not regain her friend’s trust.",
+      "answerZh": "儘管瑪雅多次道歉，但她未能重新取得朋友的信任。",
+      "answerZhSource": "pdf",
+      "highlight": "For all her apologies, Maya did not regain her friend’s trust."
+    },
+    {
+      "id": "ss166-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A great deal of money was spent on repairs, but the lift still breaks down.",
+      "promptZh": "大量金錢花在維修上，但升降機仍然故障。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the money spent on repairs, the lift still breaks down.",
+      "answerZh": "儘管大量金錢花在維修上，但升降機仍然故障。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the money spent on repairs, the lift still breaks down."
+    },
+    {
+      "id": "ss166-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although they supported us, we had to make the final decision ourselves.",
+      "promptZh": "雖然他們支持我們，但我們仍須自行作出最終決定。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all their support, we had to make the final decision ourselves.",
+      "answerZh": "儘管他們支持我們，但我們仍須自行作出最終決定。",
+      "answerZhSource": "pdf",
+      "highlight": "For all their support, we had to make the final decision ourselves."
+    },
+    {
+      "id": "ss166-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although the task appears simple, it requires careful attention.",
+      "promptZh": "雖然這項任務看似簡單，但仍需要仔細處理。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its apparent simplicity, the task requires careful attention.",
+      "answerZh": "儘管這項任務表面上看來簡單，但仍需要仔細處理。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its apparent simplicity, the task requires careful attention."
+    },
+    {
+      "id": "ss166-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Despite his friendly manner, the salesman avoided our questions.",
+      "promptZh": "儘管這名售貨員態度友善，但他迴避了我們的問題。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all his friendly manner, the salesman avoided our questions.",
+      "answerZh": "儘管這名售貨員態度友善，但他迴避了我們的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "For all his friendly manner, the salesman avoided our questions."
+    },
+    {
+      "id": "ss166-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Many improvements were made to the hospital, but it still faces long waiting times.",
+      "promptZh": "醫院作出了很多改善，但仍面對輪候時間長的問題。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the improvements made, the hospital still faces long waiting times.",
+      "answerZh": "儘管醫院作出了很多改善，但仍面對輪候時間長的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the improvements made, the hospital still faces long waiting times."
+    },
+    {
+      "id": "ss166-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The job offers a great deal of freedom, but it can be lonely.",
+      "promptZh": "這份工作提供很大自由度，但有時會令人感到孤單。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the freedom the job offers, it can be lonely.",
+      "answerZh": "儘管這份工作提供很大自由度，但有時會令人感到孤單。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the freedom the job offers, it can be lonely."
+    },
+    {
+      "id": "ss166-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Grace made every effort to save money, but she could not afford the course.",
+      "promptZh": "格蕾絲竭力儲蓄，但仍無法負擔該課程的費用。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all her efforts to save money, Grace could not afford the course.",
+      "answerZh": "儘管格蕾絲竭力儲蓄，但仍無法負擔該課程的費用。",
+      "answerZhSource": "pdf",
+      "highlight": "For all her efforts to save money, Grace could not afford the course."
+    },
+    {
+      "id": "ss166-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although a great deal of information is available online, choosing the right plan remains difficult.",
+      "promptZh": "雖然網上有大量資料，但選擇合適的計劃仍然困難。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the information available online, choosing the right plan remains difficult.",
+      "answerZh": "儘管網上有大量資料，但選擇合適的計劃仍然困難。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the information available online, choosing the right plan remains difficult."
+    },
+    {
+      "id": "ss166-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Even after all the safety checks, accidents can still happen.",
+      "promptZh": "即使完成所有安全檢查，意外仍可能發生。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the safety checks, accidents can still happen.",
+      "answerZh": "儘管進行了各項安全檢查，意外仍可能發生。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the safety checks, accidents can still happen."
+    },
+    {
+      "id": "ss166-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Noah is successful at work, but he has little time for his family.",
+      "promptZh": "諾亞事業有成，但他很少有時間陪伴家人。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all his success at work, Noah has little time for his family.",
+      "answerZh": "儘管諾亞事業有成，但他很少有時間陪伴家人。",
+      "answerZhSource": "pdf",
+      "highlight": "For all his success at work, Noah has little time for his family."
+    },
+    {
+      "id": "ss166-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Though the film received a great deal of praise, it did not attract a large audience.",
+      "promptZh": "儘管這部電影獲得很多讚譽，但未能吸引大量觀眾。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the praise it received, the film did not attract a large audience.",
+      "answerZh": "儘管這部電影獲得很多讚譽，但未能吸引大量觀眾。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the praise it received, the film did not attract a large audience."
+    },
+    {
+      "id": "ss166-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Volunteers provided a great deal of help, but the centre still needs more staff.",
+      "promptZh": "義工提供了很多協助，但中心仍需要更多職員。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the help provided by volunteers, the centre still needs more staff.",
+      "answerZh": "儘管義工提供了很多協助，但中心仍需要更多職員。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the help provided by volunteers, the centre still needs more staff."
+    },
+    {
+      "id": "ss166-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The government has made many efforts to reduce waste. Nevertheless, the amount of rubbish continues to rise.",
+      "promptZh": "政府已作出很多減少廢物的努力。然而，垃圾量仍持續上升。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the government’s efforts to reduce waste, the amount of rubbish continues to rise.",
+      "answerZh": "儘管政府已作出很多減少廢物的努力，但垃圾量仍持續上升。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the government’s efforts to reduce waste, the amount of rubbish continues to rise."
+    },
+    {
+      "id": "ss166-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Remote work offers a great deal of flexibility. Even so, some employees find it hard to separate work from home life.",
+      "promptZh": "遙距工作提供很大彈性。即使如此，部分僱員仍難以把工作與家庭生活分開。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the flexibility of remote work, some employees find it hard to separate work from home life.",
+      "answerZh": "儘管遙距工作提供很大彈性，但部分僱員仍難以把工作與家庭生活分開。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the flexibility of remote work, some employees find it hard to separate work from home life."
+    },
+    {
+      "id": "ss166-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The researchers collected a large amount of data, but they could not reach a firm conclusion.",
+      "promptZh": "研究人員收集了大量數據，但未能得出明確結論。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the data collected, the researchers could not reach a firm conclusion.",
+      "answerZh": "儘管收集了大量數據，但研究人員未能得出明確結論。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the data collected, the researchers could not reach a firm conclusion."
+    },
+    {
+      "id": "ss166-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the speaker knew the subject well, she struggled to explain it clearly.",
+      "promptZh": "雖然講者熟悉這個課題，但她難以清楚解釋。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all her knowledge of the subject, the speaker struggled to explain it clearly.",
+      "answerZh": "儘管講者熟悉這個課題，但她難以清楚解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "For all her knowledge of the subject, the speaker struggled to explain it clearly."
+    },
+    {
+      "id": "ss166-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Public transport has improved greatly, but many residents still depend on cars.",
+      "promptZh": "公共交通已有很大改善，但不少居民仍依賴私家車。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the improvements in public transport, many residents still depend on cars.",
+      "answerZh": "儘管公共交通已有很大改善，但不少居民仍依賴私家車。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the improvements in public transport, many residents still depend on cars."
+    },
+    {
+      "id": "ss166-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The issue has received considerable attention, but no practical solution has yet been found.",
+      "promptZh": "這個問題已受到相當多關注，但仍未找到實際解決方案。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the attention given to the issue, no practical solution has yet been found.",
+      "answerZh": "儘管這個問題已受到相當多關注，但仍未找到實際解決方案。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the attention given to the issue, no practical solution has yet been found."
+    },
+    {
+      "id": "ss166-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Great care was taken in planning the trip. Nevertheless, unexpected delays disrupted the schedule.",
+      "promptZh": "規劃旅程時已十分小心。然而，突如其來的延誤仍打亂了行程。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the care taken in planning the trip, unexpected delays disrupted the schedule.",
+      "answerZh": "儘管規劃旅程時已十分小心，但突如其來的延誤仍打亂了行程。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the care taken in planning the trip, unexpected delays disrupted the schedule."
+    },
+    {
+      "id": "ss166-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the new technology shows promise, it may not be affordable for small businesses.",
+      "promptZh": "雖然這項新科技很有潛力，但小型企業未必負擔得起。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all its promise, the new technology may not be affordable for small businesses.",
+      "answerZh": "儘管這項新科技很有潛力，但小型企業未必負擔得起。",
+      "answerZhSource": "pdf",
+      "highlight": "For all its promise, the new technology may not be affordable for small businesses."
+    },
+    {
+      "id": "ss166-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No matter how determined and skilful the team was, it could not complete the task within the limited time.",
+      "promptZh": "無論團隊多麼有決心和技巧，也無法在有限時間內完成任務。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the team’s determination and skill, it could not complete the task within the limited time.",
+      "answerZh": "儘管團隊有決心和技巧，但仍無法在有限時間內完成任務。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the team’s determination and skill, it could not complete the task within the limited time."
+    },
+    {
+      "id": "ss166-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Online learning offers many benefits. Even so, it cannot fully replace face-to-face interaction for all students.",
+      "promptZh": "網上學習有很多好處。即使如此，它也並非對所有學生都能完全取代面對面交流。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For all the benefits online learning offers, it cannot fully replace face-to-face interaction for all students.",
+      "answerZh": "儘管網上學習有很多好處，但它也並非對所有學生都能完全取代面對面交流。",
+      "answerZhSource": "pdf",
+      "highlight": "For all the benefits online learning offers, it cannot fully replace face-to-face interaction for all students."
+    }
+  ]
+}

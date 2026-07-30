@@ -1,0 +1,1214 @@
+{
+  "id": "ss196",
+  "order": 196,
+  "slug": "in-the-meantime",
+  "title": "「In the meantime」表示等待期間",
+  "titleZh": "「In the meantime」表示等待期間",
+  "titleEn": "Using “in the meantime”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 196 -「In the meantime」表示等待期間.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Situation or expected event. In the meantime, + complete clause",
+  "formulas": [
+    {
+      "id": "ss196-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "Situation or expected event. In the meantime, + complete clause"
+    }
+  ],
+  "example": "The results are not ready yet. In the meantime, we should review the earlier findings.",
+  "exampleZh": "結果還未出來。在此期間，我們應先檢視早前的發現。",
+  "examples": [
+    {
+      "id": "ss196-example-01",
+      "en": "The results are not ready yet. In the meantime, we should review the earlier findings.",
+      "zh": "結果還未出來。在此期間，我們應先檢視早前的發現。",
+      "highlight": "The results are not ready yet. In the meantime, we should review the earlier findings."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Situation or expected event. In the meantime, + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss196-rule-01",
+      "zh": "前文必須建立一段等待時間 第一句通常表示： ● 某件事情仍未完成； ● 某人仍未回來； ● 某項結果尚未公布； ● 某件事情稍後才會發生。 （技術人員正在維修打印機。在此期間，我們可以使用樓上的打印機。）",
+      "en": "The preceding context must establish a waiting period: something is unfinished, someone has not returned, a result has not been announced, or an event will happen later. Example: The technician is repairing the printer. In the meantime, we can use the printer upstairs.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The technician is repairing the printer. In the meantime, we can use the printer upstairs."
+      ]
+    },
+    {
+      "id": "ss196-rule-02",
+      "zh": "In the meantime 後面要使用逗號 放在句首時，必須寫成： 正確： 不正確：",
+      "en": "Use a comma after an opening “In the meantime”. Pattern: In the meantime, + complete clause. Correct: In the meantime, we can prepare the documents. Incorrect: In the meantime we can prepare the documents.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "In the meantime, + complete clause",
+        "In the meantime, we can prepare the documents.",
+        "In the meantime we can prepare the documents."
+      ]
+    },
+    {
+      "id": "ss196-rule-03",
+      "zh": "後面必須接完整句子 In the meantime 後面通常要有主語和動詞。 正確： 不完整：",
+      "en": "Follow “In the meantime” with a complete clause, normally containing a subject and verb. Correct: In the meantime, the students can revise their notes. Incomplete: In the meantime, revising their notes.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "In the meantime, the students can revise their notes.",
+        "In the meantime, revising their notes."
+      ]
+    },
+    {
+      "id": "ss196-rule-04",
+      "zh": "它不是 then 或 afterwards In the meantime 表示第二件事情在等待期間發生。 Then 和 afterwards 則表示第二件事情在前一件事情完成後才發生。 （蛋糕正在焗製。在此期間，我們可以清洗碗碟。） （蛋糕焗好後，我們便把它吃掉。）",
+      "en": "Do not use “In the meantime” as though it meant then or afterwards. “In the meantime” shows that the second action occurs during a waiting period; then and afterwards show that it occurs only after the first action is complete. Compare: The cake is baking. In the meantime, we can wash the dishes. The cake finished baking. Afterwards, we ate it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The cake is baking. In the meantime, we can wash the dishes.",
+        "The cake finished baking. Afterwards, we ate it."
+      ]
+    },
+    {
+      "id": "ss196-rule-05",
+      "zh": "它與 meanwhile 並不完全相同 Meanwhile 可以單純描述兩件同時發生的事情，甚至可以把焦點轉到另一個地方或人物。 In the meantime 通常更強調「在等待某件事情發生或完成的這段空檔」。 本練習只訓練以下形式：",
+      "en": "“In the meantime” and meanwhile are not identical. Meanwhile can simply describe simultaneous events or shift attention to another place or person. “In the meantime” more specifically emphasises the available interval while someone waits for an event to happen or finish. This exercise practises: First sentence. In the meantime, second sentence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "First sentence. In the meantime, second sentence."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss196-benefit-01",
+      "zh": "這個句型能清楚說明，在另一件事情完成之前，人們可以做甚麼。",
+      "en": "It clearly shows what happens during a wait This structure tells the listener or reader what can happen before another event is completed.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss196-benefit-02",
+      "zh": "你不只可以說某件事情仍未完成，還可以進一步說明如何善用等待時間。",
+      "en": "It connects a delay with a useful action Instead of mentioning only that something is delayed, you can explain how the waiting time can be used.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss196-benefit-03",
+      "zh": "你不需要反覆使用 while we are waiting for...，也可以直接連接「等待」和「期間進行的事情」。 （維修需要兩小時。在此期間，我們可以吃午餐。）",
+      "en": "It can shorten a repeated explanation Instead of repeatedly using while we are waiting for..., you can use In the meantime to connect the ideas more directly. Compare: The repair will take two hours. While we are waiting for the repair to be completed, we can have lunch. The repair will take two hours. In the meantime, we can have lunch.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss196-benefit-04",
+      "zh": "第一句交代尚待完成的事情，第二句交代等待期間的安排，讓內容更有條理。",
+      "en": "It makes a sequence easier to follow The first sentence explains what is pending. The second sentence explains what happens during that period.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss196-benefit-05",
+      "zh": "你可以在交通、煮食、維修、學習、醫療結果、項目進度和工作安排等情況中使用這個句型。",
+      "en": "It is useful in many real situations You can use this structure when discussing travel, cooking, repairs, schoolwork, medical results, projects and workplace arrangements.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Situation or expected event. In the meantime, + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Situation or expected event. In the meantime, + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss196-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Our bus will arrive in ten minutes. While we wait, we can check the route.",
+      "promptZh": "我們的巴士會在十分鐘後到達。等候期間，我們可以查看路線。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our bus will arrive in ten minutes. In the meantime, we can check the route.",
+      "answerZh": "我們的巴士會在十分鐘後到達。在此期間，我們可以查看路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Our bus will arrive in ten minutes. In the meantime, we can check the route."
+    },
+    {
+      "id": "ss196-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia is still cooking the soup. While she does that, please set the table.",
+      "promptZh": "米婭仍在煮湯。她煮湯時，請擺好餐桌。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is still cooking the soup. In the meantime, please set the table.",
+      "answerZh": "米婭仍在煮湯。在此期間，請擺好餐桌。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is still cooking the soup. In the meantime, please set the table."
+    },
+    {
+      "id": "ss196-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "My washing machine is still running. During this time, I will fold the dry clothes.",
+      "promptZh": "我的洗衣機仍在運行。在這段時間內，我會摺好已乾的衣服。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My washing machine is still running. In the meantime, I will fold the dry clothes.",
+      "answerZh": "我的洗衣機仍在運行。在此期間，我會摺好已乾的衣服。",
+      "answerZhSource": "pdf",
+      "highlight": "My washing machine is still running. In the meantime, I will fold the dry clothes."
+    },
+    {
+      "id": "ss196-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We are waiting for the teacher to arrive. We can read the instructions while we wait.",
+      "promptZh": "我們正在等待老師到來。等候期間，我們可以閱讀指示。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We are waiting for the teacher to arrive. In the meantime, we can read the instructions.",
+      "answerZh": "我們正在等待老師到來。在此期間，我們可以閱讀指示。",
+      "answerZhSource": "pdf",
+      "highlight": "We are waiting for the teacher to arrive. In the meantime, we can read the instructions."
+    },
+    {
+      "id": "ss196-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben’s computer is restarting. He can write his notes by hand until it is ready.",
+      "promptZh": "本的電腦正在重新啟動。在電腦恢復正常前，他可以用手寫筆記。",
+      "promptZhSource": "pdf",
+      "starter": "Ben’s",
+      "answer": "Ben’s computer is restarting. In the meantime, he can write his notes by hand.",
+      "answerZh": "本的電腦正在重新啟動。在此期間，他可以用手寫筆記。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben’s computer is restarting. In the meantime, he can write his notes by hand."
+    },
+    {
+      "id": "ss196-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The soup needs five more minutes to cook. While it is cooking, let’s prepare the bread.",
+      "promptZh": "湯還需要煮五分鐘。煮湯期間，我們準備麵包吧。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup needs five more minutes to cook. In the meantime, let’s prepare the bread.",
+      "answerZh": "湯還需要煮五分鐘。在此期間，我們準備麵包吧。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup needs five more minutes to cook. In the meantime, let’s prepare the bread."
+    },
+    {
+      "id": "ss196-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our table is not ready yet. Until it is ready, we can look at the menu.",
+      "promptZh": "我們的餐桌還未準備好。在餐桌準備好之前，我們可以先看看餐牌。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our table is not ready yet. In the meantime, we can look at the menu.",
+      "answerZh": "我們的餐桌還未準備好。在此期間，我們可以先看看餐牌。",
+      "answerZhSource": "pdf",
+      "highlight": "Our table is not ready yet. In the meantime, we can look at the menu."
+    },
+    {
+      "id": "ss196-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma is speaking to the receptionist. While she does that, I will fill in the form.",
+      "promptZh": "艾瑪正在與接待員交談。她交談期間，我會填寫表格。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma is speaking to the receptionist. In the meantime, I will fill in the form.",
+      "answerZh": "艾瑪正在與接待員交談。在此期間，我會填寫表格。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma is speaking to the receptionist. In the meantime, I will fill in the form."
+    },
+    {
+      "id": "ss196-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The rain should stop soon. Until then, stay under the shelter.",
+      "promptZh": "雨應該很快便會停。在雨停之前，請留在遮蔽處。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain should stop soon. In the meantime, stay under the shelter.",
+      "answerZh": "雨應該很快便會停。在此期間，請留在遮蔽處。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain should stop soon. In the meantime, stay under the shelter."
+    },
+    {
+      "id": "ss196-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I am waiting for the kettle to boil. During this time, I will get the cups.",
+      "promptZh": "我正在等待水煲裏的水煮沸。在這段時間內，我會去拿杯子。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I am waiting for the kettle to boil. In the meantime, I will get the cups.",
+      "answerZh": "我正在等待水煲裏的水煮沸。在此期間，我會去拿杯子。",
+      "answerZhSource": "pdf",
+      "highlight": "I am waiting for the kettle to boil. In the meantime, I will get the cups."
+    },
+    {
+      "id": "ss196-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My library book has not arrived yet. For now, I can borrow another title.",
+      "promptZh": "我訂的圖書館書籍還未送到。目前，我可以先借另一本書。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My library book has not arrived yet. In the meantime, I can borrow another title.",
+      "answerZh": "我訂的圖書館書籍還未送到。在此期間，我可以先借另一本書。",
+      "answerZhSource": "pdf",
+      "highlight": "My library book has not arrived yet. In the meantime, I can borrow another title."
+    },
+    {
+      "id": "ss196-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "David is checking the price. While he does so, we should compare the features.",
+      "promptZh": "大衛正在查看價錢。他查看期間，我們應該比較各項功能。",
+      "promptZhSource": "pdf",
+      "starter": "David",
+      "answer": "David is checking the price. In the meantime, we should compare the features.",
+      "answerZh": "大衛正在查看價錢。在此期間，我們應該比較各項功能。",
+      "answerZhSource": "pdf",
+      "highlight": "David is checking the price. In the meantime, we should compare the features."
+    },
+    {
+      "id": "ss196-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our doctor is reviewing the scan and will call later. Before that happens, we can prepare our questions.",
+      "promptZh": "我們的醫生正在檢視掃描結果，稍後會致電給我們。在醫生來電前，我們可以準備問題。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our doctor is reviewing the scan and will call later. In the meantime, we can prepare our questions.",
+      "answerZh": "我們的醫生正在檢視掃描結果，稍後會致電給我們。在此期間，我們可以準備問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Our doctor is reviewing the scan and will call later. In the meantime, we can prepare our questions."
+    },
+    {
+      "id": "ss196-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A shop assistant is finding the right size. Until she returns, I will look at the other colours.",
+      "promptZh": "一名店員正在尋找合適的尺碼。在她回來之前，我會看看其他顏色。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A shop assistant is finding the right size. In the meantime, I will look at the other colours.",
+      "answerZh": "一名店員正在尋找合適的尺碼。在此期間，我會看看其他顏色。",
+      "answerZhSource": "pdf",
+      "highlight": "A shop assistant is finding the right size. In the meantime, I will look at the other colours."
+    },
+    {
+      "id": "ss196-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah is printing the handouts. While that is happening, the rest of us can arrange the chairs.",
+      "promptZh": "莎拉正在打印講義。在打印期間，我們其他人可以排列椅子。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah is printing the handouts. In the meantime, the rest of us can arrange the chairs.",
+      "answerZh": "莎拉正在打印講義。在此期間，我們其他人可以排列椅子。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah is printing the handouts. In the meantime, the rest of us can arrange the chairs."
+    },
+    {
+      "id": "ss196-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The paint is drying. We should clean the brushes during the waiting period.",
+      "promptZh": "油漆正在變乾。我們應該在等待期間清洗畫筆。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The paint is drying. In the meantime, we should clean the brushes.",
+      "answerZh": "油漆正在變乾。在此期間，我們應該清洗畫筆。",
+      "answerZhSource": "pdf",
+      "highlight": "The paint is drying. In the meantime, we should clean the brushes."
+    },
+    {
+      "id": "ss196-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our train leaves in twenty minutes. Before it arrives, let’s buy some drinks.",
+      "promptZh": "我們的火車會在二十分鐘後開出。在火車到達前，我們去買些飲品吧。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our train leaves in twenty minutes. In the meantime, let’s buy some drinks.",
+      "answerZh": "我們的火車會在二十分鐘後開出。在此期間，我們去買些飲品吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Our train leaves in twenty minutes. In the meantime, let’s buy some drinks."
+    },
+    {
+      "id": "ss196-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our food is being prepared. While we wait for it, we can discuss tomorrow’s plan.",
+      "promptZh": "我們的食物正在準備中。等候期間，我們可以討論明天的計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our food is being prepared. In the meantime, we can discuss tomorrow’s plan.",
+      "answerZh": "我們的食物正在準備中。在此期間，我們可以討論明天的計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Our food is being prepared. In the meantime, we can discuss tomorrow’s plan."
+    },
+    {
+      "id": "ss196-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A technician is updating the software. Until the update finishes, please use the other computer.",
+      "promptZh": "一名技術人員正在更新軟件。在更新完成前，請使用另一部電腦。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A technician is updating the software. In the meantime, please use the other computer.",
+      "answerZh": "一名技術人員正在更新軟件。在此期間，請使用另一部電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "A technician is updating the software. In the meantime, please use the other computer."
+    },
+    {
+      "id": "ss196-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mr Chan will return before the class begins. Until he returns, the students should review today’s vocabulary.",
+      "promptZh": "陳先生會在課堂開始前回來。在他回來前，學生應該溫習今天的詞彙。",
+      "promptZhSource": "pdf",
+      "starter": "Mr",
+      "answer": "Mr Chan will return before the class begins. In the meantime, the students should review today’s vocabulary.",
+      "answerZh": "陳先生會在課堂開始前回來。在此期間，學生應該溫習今天的詞彙。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Chan will return before the class begins. In the meantime, the students should review today’s vocabulary."
+    },
+    {
+      "id": "ss196-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Council members are considering our request, but no decision has been made. While it is pending, we will collect more evidence.",
+      "promptZh": "委員會成員正在考慮我們的要求，但仍未作出決定。在等候決定期間，我們會收集更多證據。",
+      "promptZhSource": "pdf",
+      "starter": "Council",
+      "answer": "Council members are considering our request, but no decision has been made. In the meantime, we will collect more evidence.",
+      "answerZh": "委員會成員正在考慮我們的要求，但仍未作出決定。在此期間，我們會收集更多證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Council members are considering our request, but no decision has been made. In the meantime, we will collect more evidence."
+    },
+    {
+      "id": "ss196-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A new employee account is being created. She can read the safety guidelines while waiting for access.",
+      "promptZh": "一個新僱員帳戶正在建立。她可以在等候取得使用權期間閱讀安全指引。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A new employee account is being created. In the meantime, she can read the safety guidelines.",
+      "answerZh": "一個新僱員帳戶正在建立。在此期間，她可以閱讀安全指引。",
+      "answerZhSource": "pdf",
+      "highlight": "A new employee account is being created. In the meantime, she can read the safety guidelines."
+    },
+    {
+      "id": "ss196-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our laboratory results will not be available until Friday. Before they are available, we should continue the current treatment.",
+      "promptZh": "我們的化驗結果要到星期五才會有。在結果公布前，我們應該繼續目前的治療。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our laboratory results will not be available until Friday. In the meantime, we should continue the current treatment.",
+      "answerZh": "我們的化驗結果要到星期五才會有。在此期間，我們應該繼續目前的治療。",
+      "answerZhSource": "pdf",
+      "highlight": "Our laboratory results will not be available until Friday. In the meantime, we should continue the current treatment."
+    },
+    {
+      "id": "ss196-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Stage crew members are testing the lights. While the tests continue, the performers can warm up backstage.",
+      "promptZh": "舞台工作人員正在測試燈光。測試進行期間，表演者可以在後台熱身。",
+      "promptZhSource": "pdf",
+      "starter": "Stage",
+      "answer": "Stage crew members are testing the lights. In the meantime, the performers can warm up backstage.",
+      "answerZh": "舞台工作人員正在測試燈光。在此期間，表演者可以在後台熱身。",
+      "answerZhSource": "pdf",
+      "highlight": "Stage crew members are testing the lights. In the meantime, the performers can warm up backstage."
+    },
+    {
+      "id": "ss196-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A plumber cannot arrive until this afternoon. Before he comes, we can turn off the water and move the valuables.",
+      "promptZh": "水喉匠要到今天下午才能到達。在他到來前，我們可以關掉水源並移走貴重物品。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A plumber cannot arrive until this afternoon. In the meantime, we can turn off the water and move the valuables.",
+      "answerZh": "水喉匠要到今天下午才能到達。在此期間，我們可以關掉水源並移走貴重物品。",
+      "answerZhSource": "pdf",
+      "highlight": "A plumber cannot arrive until this afternoon. In the meantime, we can turn off the water and move the valuables."
+    },
+    {
+      "id": "ss196-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Committee members are still discussing the final budget. During these discussions, each department should prepare a lower-cost option.",
+      "promptZh": "委員會成員仍在討論最終預算。討論期間，每個部門都應準備一個成本較低的方案。",
+      "promptZhSource": "pdf",
+      "starter": "Committee",
+      "answer": "Committee members are still discussing the final budget. In the meantime, each department should prepare a lower-cost option.",
+      "answerZh": "委員會成員仍在討論最終預算。在此期間，每個部門都應準備一個成本較低的方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Committee members are still discussing the final budget. In the meantime, each department should prepare a lower-cost option."
+    },
+    {
+      "id": "ss196-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Several files are being uploaded to the server. Until the upload is complete, please label the paper copies.",
+      "promptZh": "數個檔案正在上載至伺服器。在上載完成前，請為紙本文件加上標籤。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several files are being uploaded to the server. In the meantime, please label the paper copies.",
+      "answerZh": "數個檔案正在上載至伺服器。在此期間，請為紙本文件加上標籤。",
+      "answerZhSource": "pdf",
+      "highlight": "Several files are being uploaded to the server. In the meantime, please label the paper copies."
+    },
+    {
+      "id": "ss196-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nora has gone to collect the keys. While she is away, I will wait in the lobby and call the agent.",
+      "promptZh": "諾拉已前往領取鑰匙。她離開期間，我會在大堂等候並致電代理。",
+      "promptZhSource": "pdf",
+      "starter": "Nora",
+      "answer": "Nora has gone to collect the keys. In the meantime, I will wait in the lobby and call the agent.",
+      "answerZh": "諾拉已前往領取鑰匙。在此期間，我會在大堂等候並致電代理。",
+      "answerZhSource": "pdf",
+      "highlight": "Nora has gone to collect the keys. In the meantime, I will wait in the lobby and call the agent."
+    },
+    {
+      "id": "ss196-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "New vaccine stock is expected tomorrow. Before the delivery arrives, the clinic will confirm the patients’ appointments.",
+      "promptZh": "新一批疫苗預計明天送到。在貨物到達前，診所會確認病人的預約。",
+      "promptZhSource": "pdf",
+      "starter": "New",
+      "answer": "New vaccine stock is expected tomorrow. In the meantime, the clinic will confirm the patients’ appointments.",
+      "answerZh": "新一批疫苗預計明天送到。在此期間，診所會確認病人的預約。",
+      "answerZhSource": "pdf",
+      "highlight": "New vaccine stock is expected tomorrow. In the meantime, the clinic will confirm the patients’ appointments."
+    },
+    {
+      "id": "ss196-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our appeal is still under review. For the time being, the original decision remains in effect.",
+      "promptZh": "我們的上訴仍在審理中。目前，原有決定仍然有效。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our appeal is still under review. In the meantime, the original decision remains in effect.",
+      "answerZh": "我們的上訴仍在審理中。在此期間，原有決定仍然有效。",
+      "answerZhSource": "pdf",
+      "highlight": "Our appeal is still under review. In the meantime, the original decision remains in effect."
+    },
+    {
+      "id": "ss196-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The conference room is still occupied. While we wait for it to become free, we can begin with individual reading.",
+      "promptZh": "會議室仍有人使用。在等候會議室空出期間，我們可以先進行個人閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The conference room is still occupied. In the meantime, we can begin with individual reading.",
+      "answerZh": "會議室仍有人使用。在此期間，我們可以先進行個人閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The conference room is still occupied. In the meantime, we can begin with individual reading."
+    },
+    {
+      "id": "ss196-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The website is undergoing maintenance, so customers cannot place orders yet. While the work continues, they can contact sales by phone.",
+      "promptZh": "網站正在維修，因此顧客暫時無法下單。維修期間，他們可以致電銷售部。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website is undergoing maintenance, so customers cannot place orders yet. In the meantime, they can contact sales by phone.",
+      "answerZh": "網站正在維修，因此顧客暫時無法下單。在此期間，他們可以致電銷售部。",
+      "answerZhSource": "pdf",
+      "highlight": "The website is undergoing maintenance, so customers cannot place orders yet. In the meantime, they can contact sales by phone."
+    },
+    {
+      "id": "ss196-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A replacement part has been ordered, but delivery may take three days. Until it arrives, the machine should not be used.",
+      "promptZh": "替換零件已經訂購，但可能需要三天才送到。在零件到達前，不應使用該機器。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A replacement part has been ordered, but delivery may take three days. In the meantime, the machine should not be used.",
+      "answerZh": "替換零件已經訂購，但可能需要三天才送到。在此期間，不應使用該機器。",
+      "answerZhSource": "pdf",
+      "highlight": "A replacement part has been ordered, but delivery may take three days. In the meantime, the machine should not be used."
+    },
+    {
+      "id": "ss196-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our school is interviewing candidates this week. While the process continues, current staff will share the extra duties.",
+      "promptZh": "本校本星期正在面試求職者。面試過程進行期間，現有職員會分擔額外工作。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school is interviewing candidates this week. In the meantime, current staff will share the extra duties.",
+      "answerZh": "本校本星期正在面試求職者。在此期間，現有職員會分擔額外工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school is interviewing candidates this week. In the meantime, current staff will share the extra duties."
+    },
+    {
+      "id": "ss196-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Firefighters are checking the building. Before they finish, residents should remain at the assembly point.",
+      "promptZh": "消防員正在檢查大廈。在檢查完成前，居民應留在集合地點。",
+      "promptZhSource": "pdf",
+      "starter": "Firefighters",
+      "answer": "Firefighters are checking the building. In the meantime, residents should remain at the assembly point.",
+      "answerZh": "消防員正在檢查大廈。在此期間，居民應留在集合地點。",
+      "answerZhSource": "pdf",
+      "highlight": "Firefighters are checking the building. In the meantime, residents should remain at the assembly point."
+    },
+    {
+      "id": "ss196-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The editor is reviewing the final chapter. While she reviews it, the author can update the references.",
+      "promptZh": "編輯正在審閱最後一章。她審閱期間，作者可以更新參考資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The editor is reviewing the final chapter. In the meantime, the author can update the references.",
+      "answerZh": "編輯正在審閱最後一章。在此期間，作者可以更新參考資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The editor is reviewing the final chapter. In the meantime, the author can update the references."
+    },
+    {
+      "id": "ss196-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our payment is being processed by the bank. During this period, please keep the confirmation email.",
+      "promptZh": "銀行正在處理我們的款項。在這段期間，請保留確認電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our payment is being processed by the bank. In the meantime, please keep the confirmation email.",
+      "answerZh": "銀行正在處理我們的款項。在此期間，請保留確認電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Our payment is being processed by the bank. In the meantime, please keep the confirmation email."
+    },
+    {
+      "id": "ss196-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Researchers will publish the full report next month. Before publication, the public can read the executive summary.",
+      "promptZh": "研究人員將於下月發表完整報告。在報告發表前，公眾可以閱讀行政摘要。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers will publish the full report next month. In the meantime, the public can read the executive summary.",
+      "answerZh": "研究人員將於下月發表完整報告。在此期間，公眾可以閱讀行政摘要。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers will publish the full report next month. In the meantime, the public can read the executive summary."
+    },
+    {
+      "id": "ss196-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The road outside our office is being repaired. Until the work is completed, staff should use the rear entrance.",
+      "promptZh": "辦公室外的道路正在維修。在工程完成前，職員應使用後門。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road outside our office is being repaired. In the meantime, staff should use the rear entrance.",
+      "answerZh": "辦公室外的道路正在維修。在此期間，職員應使用後門。",
+      "answerZhSource": "pdf",
+      "highlight": "The road outside our office is being repaired. In the meantime, staff should use the rear entrance."
+    },
+    {
+      "id": "ss196-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our customer has asked for more time to decide. While we wait for a reply, we should keep the quotation valid.",
+      "promptZh": "我們的顧客要求更多時間作決定。在等候回覆期間，我們應維持報價有效。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our customer has asked for more time to decide. In the meantime, we should keep the quotation valid.",
+      "answerZh": "我們的顧客要求更多時間作決定。在此期間，我們應維持報價有效。",
+      "answerZhSource": "pdf",
+      "highlight": "Our customer has asked for more time to decide. In the meantime, we should keep the quotation valid."
+    },
+    {
+      "id": "ss196-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Hospital staff are waiting for a specialist to examine the scans, so the final diagnosis cannot yet be confirmed. While the review takes place, the patient will receive medicine to control the pain.",
+      "promptZh": "醫院職員正在等待專科醫生檢視掃描結果，因此仍未能確認最終診斷。在檢視期間，病人會獲得藥物控制痛楚。",
+      "promptZhSource": "pdf",
+      "starter": "Hospital",
+      "answer": "Hospital staff are waiting for a specialist to examine the scans, so the final diagnosis cannot yet be confirmed. In the meantime, the patient will receive medicine to control the pain.",
+      "answerZh": "醫院職員正在等待專科醫生檢視掃描結果，因此仍未能確認最終診斷。在此期間，病人會獲得藥物控制痛楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Hospital staff are waiting for a specialist to examine the scans, so the final diagnosis cannot yet be confirmed. In the meantime, the patient will receive medicine to control the pain."
+    },
+    {
+      "id": "ss196-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our university is replacing the old registration system, but the change will take several months. During the transition, students can use the current portal for routine requests.",
+      "promptZh": "本大學正在更換舊有登記系統，但整項改動需時數月。在過渡期間，學生可以使用現有平台處理一般申請。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our university is replacing the old registration system, but the change will take several months. In the meantime, students can use the current portal for routine requests.",
+      "answerZh": "本大學正在更換舊有登記系統，但整項改動需時數月。在此期間，學生可以使用現有平台處理一般申請。",
+      "answerZhSource": "pdf",
+      "highlight": "Our university is replacing the old registration system, but the change will take several months. In the meantime, students can use the current portal for routine requests."
+    },
+    {
+      "id": "ss196-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Negotiations with the supplier are continuing, and a new delivery date has not been agreed. Until an agreement is reached, the warehouse team should prioritise the remaining stock.",
+      "promptZh": "與供應商的談判仍在繼續，雙方尚未議定新的送貨日期。在達成協議前，倉庫團隊應優先處理剩餘存貨。",
+      "promptZhSource": "pdf",
+      "starter": "Negotiations",
+      "answer": "Negotiations with the supplier are continuing, and a new delivery date has not been agreed. In the meantime, the warehouse team should prioritise the remaining stock.",
+      "answerZh": "與供應商的談判仍在繼續，雙方尚未議定新的送貨日期。在此期間，倉庫團隊應優先處理剩餘存貨。",
+      "answerZhSource": "pdf",
+      "highlight": "Negotiations with the supplier are continuing, and a new delivery date has not been agreed. In the meantime, the warehouse team should prioritise the remaining stock."
+    },
+    {
+      "id": "ss196-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 19
+      },
+      "prompt": "Stormy weather has delayed ferry services, and the operator will issue an update at noon. Before then, passengers may wait in the terminal or change their bookings online.",
+      "promptZh": "暴風雨天氣導致渡輪服務延誤，營辦商將於中午公布最新消息。在此之前，乘客可以在客運大樓等候或在網上更改預訂。",
+      "promptZhSource": "pdf",
+      "starter": "Stormy",
+      "answer": "Stormy weather has delayed ferry services, and the operator will issue an update at noon. In the meantime, passengers may wait in the terminal or change their bookings online.",
+      "answerZh": "暴風雨天氣導致渡輪服務延誤，營辦商將於中午公布最新消息。在此期間，乘客可以在客運大樓等候或在網上更改預訂。",
+      "answerZhSource": "pdf",
+      "highlight": "Stormy weather has delayed ferry services, and the operator will issue an update at noon. In the meantime, passengers may wait in the terminal or change their bookings online."
+    },
+    {
+      "id": "ss196-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Auditors need two weeks to verify the figures. While verification is in progress, department heads should gather documents supporting any unusual expenses.",
+      "promptZh": "核數人員需要兩星期核實數字。在核實工作進行期間，各部門主管應收集支持任何異常開支的文件。",
+      "promptZhSource": "pdf",
+      "starter": "Auditors",
+      "answer": "Auditors need two weeks to verify the figures. In the meantime, department heads should gather documents supporting any unusual expenses.",
+      "answerZh": "核數人員需要兩星期核實數字。在此期間，各部門主管應收集支持任何異常開支的文件。",
+      "answerZhSource": "pdf",
+      "highlight": "Auditors need two weeks to verify the figures. In the meantime, department heads should gather documents supporting any unusual expenses."
+    },
+    {
+      "id": "ss196-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The city is building a permanent footbridge, which will not open until next year. During construction, a free shuttle bus will carry residents across the river.",
+      "promptZh": "市政府正在興建一條永久行人天橋，而天橋要到明年才會開放。在施工期間，免費接駁巴士會接載居民過河。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city is building a permanent footbridge, which will not open until next year. In the meantime, a free shuttle bus will carry residents across the river.",
+      "answerZh": "市政府正在興建一條永久行人天橋，而天橋要到明年才會開放。在此期間，免費接駁巴士會接載居民過河。",
+      "answerZhSource": "pdf",
+      "highlight": "The city is building a permanent footbridge, which will not open until next year. In the meantime, a free shuttle bus will carry residents across the river."
+    },
+    {
+      "id": "ss196-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our insurance company is assessing the damage and cannot yet approve the repairs. Before approval, the owner should photograph the affected areas and prevent further water from entering.",
+      "promptZh": "我們的保險公司正在評估損壞情況，仍未能批准維修。在獲得批准前，業主應拍攝受影響範圍，並防止更多水流入。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our insurance company is assessing the damage and cannot yet approve the repairs. In the meantime, the owner should photograph the affected areas and prevent further water from entering.",
+      "answerZh": "我們的保險公司正在評估損壞情況，仍未能批准維修。在此期間，業主應拍攝受影響範圍，並防止更多水流入。",
+      "answerZhSource": "pdf",
+      "highlight": "Our insurance company is assessing the damage and cannot yet approve the repairs. In the meantime, the owner should photograph the affected areas and prevent further water from entering."
+    },
+    {
+      "id": "ss196-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The court will decide next month whether the restriction should remain. Until the ruling is made, both sides must follow the current order.",
+      "promptZh": "法院將於下月決定是否保留該項限制。在作出裁決前，雙方都必須遵守現行命令。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The court will decide next month whether the restriction should remain. In the meantime, both sides must follow the current order.",
+      "answerZh": "法院將於下月決定是否保留該項限制。在此期間，雙方都必須遵守現行命令。",
+      "answerZhSource": "pdf",
+      "highlight": "The court will decide next month whether the restriction should remain. In the meantime, both sides must follow the current order."
+    },
+    {
+      "id": "ss196-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Engineers are testing the backup system after the outage, and normal service will resume only when the checks are complete. While they do so, staff should record urgent requests manually.",
+      "promptZh": "工程師正在停電事故後測試後備系統，正常服務要待檢查完成後才會恢復。在工程師進行測試期間，職員應以人手記錄緊急要求。",
+      "promptZhSource": "pdf",
+      "starter": "Engineers",
+      "answer": "Engineers are testing the backup system after the outage, and normal service will resume only when the checks are complete. In the meantime, staff should record urgent requests manually.",
+      "answerZh": "工程師正在停電事故後測試後備系統，正常服務要待檢查完成後才會恢復。在此期間，職員應以人手記錄緊急要求。",
+      "answerZhSource": "pdf",
+      "highlight": "Engineers are testing the backup system after the outage, and normal service will resume only when the checks are complete. In the meantime, staff should record urgent requests manually."
+    },
+    {
+      "id": "ss196-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "Our international partners are reviewing the revised agreement across several time zones, so their reply may not arrive today. While the review continues, the local team can finalise the implementation schedule and prepare answers to likely questions.",
+      "promptZh": "我們的國際合作夥伴正身處不同時區審閱修訂協議，因此今天未必能夠回覆。在審閱期間，本地團隊可以落實執行時間表，並準備回答可能提出的問題。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our international partners are reviewing the revised agreement across several time zones, so their reply may not arrive today. In the meantime, the local team can finalise the implementation schedule and prepare answers to likely questions.",
+      "answerZh": "我們的國際合作夥伴正身處不同時區審閱修訂協議，因此今天未必能夠回覆。在此期間，本地團隊可以落實執行時間表，並準備回答可能提出的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Our international partners are reviewing the revised agreement across several time zones, so their reply may not arrive today. In the meantime, the local team can finalise the implementation schedule and prepare answers to likely questions."
+    }
+  ]
+}

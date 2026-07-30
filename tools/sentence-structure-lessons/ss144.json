@@ -1,0 +1,1217 @@
+{
+  "id": "ss144",
+  "order": 144,
+  "slug": "unreal-if-past",
+  "title": "「If + Were _ Past Tense」完全假設句",
+  "titleZh": "「If + Were _ Past Tense」完全假設句",
+  "titleEn": "Using the second conditional for unreal or unlikely situations",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 144 -「If + Were _ Past Tense」完全假設句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "If + subject + were / past tense, subject + would / could / might + base verb",
+  "formulas": [
+    {
+      "id": "ss144-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "If + subject + were / past tense, subject + would / could / might + base verb"
+    },
+    {
+      "id": "ss144-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Subject + would / could / might + base verb + if + subject + were / past tense"
+    },
+    {
+      "id": "ss144-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "If + subject + were not / did not + base verb, subject + would / could / might + base verb"
+    }
+  ],
+  "example": "If I were the school principal, I would create a quiet study room.",
+  "exampleZh": "如果我是校長，我會設立一間安靜的自修室。",
+  "examples": [
+    {
+      "id": "ss144-example-01",
+      "en": "If I were the school principal, I would create a quiet study room.",
+      "zh": "如果我是校長，我會設立一間安靜的自修室。",
+      "highlight": "If I were the school principal"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss144-rule-01",
+      "zh": "過去式不一定表示過去 在這個句型中，過去式用來表示情況並非目前的事實，或未來發生的機會不大。 這句談的是想像中的現在或未來，而不是過去。",
+      "en": "The past form here does not necessarily refer to past time. It signals that the situation is not a present fact or is unlikely in the future; the example imagines a present or future situation rather than describing the past.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If I won the lottery, I would travel around the world."
+      ]
+    },
+    {
+      "id": "ss144-rule-02",
+      "zh": "Be 動詞通常使用 were 在標準的完全假設句中，I、he、she、it 等主語後面都使用 were。 本練習不使用 If I was you。",
+      "en": "Use were with be in the standard fully hypothetical form after I, he, she, it and other subjects. This lesson does not use If I was you.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss144-rule-03",
+      "zh": "If 子句不使用 would",
+      "en": "Do not use would in the if-clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If I had more time, I would exercise every day."
+      ]
+    },
+    {
+      "id": "ss144-rule-04",
+      "zh": "結果部分可以使用 would、could 或 might Would 表示在該假設下會出現的結果。 Could 表示能力或機會。 Might 表示可能性，但並不肯定。",
+      "en": "Use would, could or might in the result clause. Would gives the expected result under the imagined condition, could expresses ability or opportunity, and might expresses an uncertain possibility.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss144-rule-05",
+      "zh": "注意逗號的位置 If 子句放在前面時，兩部分之間需要逗號。 If 子句放在後面時，通常不需要逗號。",
+      "en": "Use a comma when the if-clause comes first; when it follows the result clause, no comma is normally needed.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss144-rule-06",
+      "zh": "不要與其他條件句混淆 真實或有可能發生： 完全假設或可能性較低： 與過去事實相反： 本課只練習第二種句型。",
+      "en": "Do not confuse this unreal conditional with other conditional patterns. A present-form if-clause describes a real or possible condition, the past-form second conditional describes a wholly imagined or less likely situation, and if + past perfect describes a condition contrary to past fact. This lesson practises only the second pattern.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss144-benefit-01",
+      "zh": "這個句型能立即讓聽者知道，你正在想像另一種情況，而不是描述目前的事實。",
+      "en": "It clearly separates facts from imagination. This structure tells the listener immediately that you are imagining a different situation rather than describing a real fact.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss144-benefit-02",
+      "zh": "你可以清楚說明：如果某個條件有所改變，可能會出現甚麼不同結果。 第二句把「假設條件」和「可能結果」直接連接起來，兩者的關係更加清楚。",
+      "en": "It connects an imagined condition with its result. You can clearly explain how changing one condition might produce a different result, and the conditional version links the imagined condition directly to the possible consequence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss144-benefit-03",
+      "zh": "你可以使用這個句型談論夢想、不太可能出現的情況、想像中的決定，以及可以如何改善問題。",
+      "en": "It helps you discuss dreams and possible solutions. You can use this structure to talk about dreams, unlikely possibilities, imaginary decisions and possible improvements.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss144-benefit-04",
+      "zh": "使用 If I were you, I would... 提出建議，通常比直接命令對方更加婉轉。",
+      "en": "It provides a polite way to give advice. If I were you, I would ... is usually gentler than directly telling someone what to do.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss144-benefit-05",
+      "zh": "這個句型適合用於對話、作文、討論和簡報，因為它能幫助你分析不同可能性，而不只是描述目 前的情況。",
+      "en": "It helps you develop deeper answers. This structure is useful in conversations, essays, discussions and presentations because it helps you explore possibilities instead of describing only existing facts.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using If + were / past tense to describe a completely hypothetical or unlikely situation.",
+      "Use would, could or might according to the original meaning.",
+      "The first word of each answer has been provided. Follow the word order indicated by the first-word hint."
+    ],
+    "zh": [
+      "使用 If + were／過去式 改寫以下句子，以表達完全假設或不太可能發生的情況。",
+      "請按照原句意思選擇 would、could 或 might。",
+      "每題已提供答案的第一個字。請按照提示字所顯示的語序作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss144-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I am not a bird, so I cannot fly over the mountains.",
+      "promptZh": "我不是一隻鳥，所以不能飛越群山。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I were a bird, I could fly over the mountains.",
+      "answerZh": "如果我是一隻鳥，我就能飛越群山。",
+      "answerZhSource": "pdf",
+      "highlight": "If I were a bird, I could fly over the mountains."
+    },
+    {
+      "id": "ss144-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia has very little free time, so she cannot learn the piano.",
+      "promptZh": "米婭的空閒時間很少，所以無法學習彈鋼琴。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Mia had more free time, she could learn the piano.",
+      "answerZh": "如果米婭有更多空閒時間，她就能學習彈鋼琴。",
+      "answerZhSource": "pdf",
+      "highlight": "If Mia had more free time, she could learn the piano."
+    },
+    {
+      "id": "ss144-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben does not live near the school, so he does not walk there every day.",
+      "promptZh": "本不是住在學校附近，所以不會每天步行上學。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Ben lived near the school, he would walk there every day.",
+      "answerZh": "如果本住在學校附近，他就會每天步行上學。",
+      "answerZhSource": "pdf",
+      "highlight": "If Ben lived near the school, he would walk there every day."
+    },
+    {
+      "id": "ss144-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Without a garden, we cannot grow vegetables at home.",
+      "promptZh": "沒有花園，我們便無法在家種植蔬菜。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If we owned a garden, we could grow vegetables at home.",
+      "answerZh": "如果我們擁有一個花園，便可以在家種植蔬菜。",
+      "answerZhSource": "pdf",
+      "highlight": "If we owned a garden, we could grow vegetables at home."
+    },
+    {
+      "id": "ss144-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo does not know the answer, so he cannot tell us.",
+      "promptZh": "里奧不知道答案，所以不能告訴我們。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Leo knew the answer, he could tell us.",
+      "answerZh": "如果里奧知道答案，他就能告訴我們。",
+      "answerZhSource": "pdf",
+      "highlight": "If Leo knew the answer, he could tell us."
+    },
+    {
+      "id": "ss144-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The weather is too cold for us to eat outside.",
+      "promptZh": "天氣太冷，我們不能在戶外用餐。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the weather were warmer, we would eat outside.",
+      "answerZh": "如果天氣暖和一點，我們便會在戶外用餐。",
+      "answerZhSource": "pdf",
+      "highlight": "If the weather were warmer, we would eat outside."
+    },
+    {
+      "id": "ss144-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ava has no bicycle, so she cannot ride to the park.",
+      "promptZh": "艾娃沒有單車，所以不能踏單車去公園。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Ava had a bicycle, she could ride to the park.",
+      "answerZh": "如果艾娃有一輛單車，她便可以踏單車去公園。",
+      "answerZhSource": "pdf",
+      "highlight": "If Ava had a bicycle, she could ride to the park."
+    },
+    {
+      "id": "ss144-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My room is too small for me to put a desk by the window.",
+      "promptZh": "我的房間太小，不能在窗邊放一張書桌。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If my room were bigger, I could put a desk by the window.",
+      "answerZh": "如果我的房間大一點，我便可以在窗邊放一張書桌。",
+      "answerZhSource": "pdf",
+      "highlight": "If my room were bigger, I could put a desk by the window."
+    },
+    {
+      "id": "ss144-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "They do not speak French, so they cannot talk to the visitor in French.",
+      "promptZh": "他們不會說法文，所以不能用法文跟那位訪客交談。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If they spoke French, they could talk to the visitor in French.",
+      "answerZh": "如果他們會說法文，便可以用法文跟那位訪客交談。",
+      "answerZhSource": "pdf",
+      "highlight": "If they spoke French, they could talk to the visitor in French."
+    },
+    {
+      "id": "ss144-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What opportunity would winning the lottery give you? It would give me the chance to travel around the world.",
+      "promptZh": "中彩票會給你甚麼機會？它會讓我有機會環遊世界。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I won the lottery, I could travel around the world.",
+      "answerZh": "如果我中了彩票，我便可以環遊世界。",
+      "answerZhSource": "pdf",
+      "highlight": "If I won the lottery, I could travel around the world."
+    },
+    {
+      "id": "ss144-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah does not have enough flour, so she cannot bake a cake.",
+      "promptZh": "莎拉沒有足夠的麵粉，所以不能焗蛋糕。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah could bake a cake if she had enough flour.",
+      "answerZh": "如果莎拉有足夠的麵粉，她便可以焗蛋糕。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah could bake a cake if she had enough flour."
+    },
+    {
+      "id": "ss144-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel is not tall enough to reach the top shelf.",
+      "promptZh": "丹尼爾不夠高，碰不到最高的層架。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Daniel were taller, he could reach the top shelf.",
+      "answerZh": "如果丹尼爾高一點，他便能碰到最高的層架。",
+      "answerZhSource": "pdf",
+      "highlight": "If Daniel were taller, he could reach the top shelf."
+    },
+    {
+      "id": "ss144-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The sea is too rough for us to go swimming.",
+      "promptZh": "海面太大浪，我們不能去游泳。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could go swimming if the sea were calmer.",
+      "answerZh": "如果海面平靜一點，我們便可以去游泳。",
+      "answerZhSource": "pdf",
+      "highlight": "We could go swimming if the sea were calmer."
+    },
+    {
+      "id": "ss144-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe feels tired, so she is not joining us for dinner.",
+      "promptZh": "克洛伊感到疲倦，所以不會跟我們一起吃晚餐。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Chloe did not feel tired, she would join us for dinner.",
+      "answerZh": "如果克洛伊不感到疲倦，她便會跟我們一起吃晚餐。",
+      "answerZhSource": "pdf",
+      "highlight": "If Chloe did not feel tired, she would join us for dinner."
+    },
+    {
+      "id": "ss144-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ethan likes the jacket and wants to buy it, but it is too expensive.",
+      "promptZh": "伊森喜歡這件外套，也想買下它，但它太昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan would buy the jacket if it were cheaper.",
+      "answerZh": "如果這件外套便宜一點，伊森便會買下它。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan would buy the jacket if it were cheaper."
+    },
+    {
+      "id": "ss144-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What should I do about the mistake? In your position, I would apologise to the teacher.",
+      "promptZh": "我應該怎樣處理這個錯誤？換作是你，我會向老師道歉。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I were you, I would apologise to the teacher.",
+      "answerZh": "如果我是你，我會向老師道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "If I were you, I would apologise to the teacher."
+    },
+    {
+      "id": "ss144-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The night is so cold that the dog cannot sleep outside.",
+      "promptZh": "晚上太冷，這隻狗不能睡在戶外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog could sleep outside if the night were not so cold.",
+      "answerZh": "如果晚上沒有那麼冷，這隻狗便可以睡在戶外。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog could sleep outside if the night were not so cold."
+    },
+    {
+      "id": "ss144-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Without a map, Nora cannot find the museum easily.",
+      "promptZh": "沒有地圖，諾拉不能輕易找到博物館。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Nora had a map, she could find the museum more easily.",
+      "answerZh": "如果諾拉有一張地圖，她便可以更容易找到博物館。",
+      "answerZhSource": "pdf",
+      "highlight": "If Nora had a map, she could find the museum more easily."
+    },
+    {
+      "id": "ss144-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop closes too early for us to visit it after work.",
+      "promptZh": "這間商店關門太早，我們下班後無法前往。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the shop stayed open later, we could visit it after work.",
+      "answerZh": "如果這間商店營業至更晚，我們便可以下班後前往。",
+      "answerZhSource": "pdf",
+      "highlight": "If the shop stayed open later, we could visit it after work."
+    },
+    {
+      "id": "ss144-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Jason lacks confidence, so he may not apply for the course.",
+      "promptZh": "傑森信心不足，所以可能不會報讀這個課程。",
+      "promptZhSource": "pdf",
+      "starter": "Jason",
+      "answer": "Jason might apply for the course if he felt more confident.",
+      "answerZh": "如果傑森更有信心，他可能會報讀這個課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason might apply for the course if he felt more confident."
+    },
+    {
+      "id": "ss144-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our class has too few computers, so students cannot practise coding very often.",
+      "promptZh": "我們班的電腦太少，所以學生不能經常練習編程。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If our class had more computers, students could practise coding more often.",
+      "answerZh": "如果我們班有更多電腦，學生便可以更經常練習編程。",
+      "answerZhSource": "pdf",
+      "highlight": "If our class had more computers, students could practise coding more often."
+    },
+    {
+      "id": "ss144-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Heavy traffic makes the bus journey longer.",
+      "promptZh": "繁忙的交通令巴士車程更長。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus journey would be shorter if there were less traffic.",
+      "answerZh": "如果交通沒有那麼繁忙，巴士車程便會較短。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus journey would be shorter if there were less traffic."
+    },
+    {
+      "id": "ss144-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace spends two hours travelling each day because she does not work from home.",
+      "promptZh": "格蕾絲不是在家工作，所以每天花兩小時通勤。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Grace worked from home, she would save two hours of travelling time each day.",
+      "answerZh": "如果格蕾絲在家工作，她每天便可以節省兩小時通勤時間。",
+      "answerZhSource": "pdf",
+      "highlight": "If Grace worked from home, she would save two hours of travelling time each day."
+    },
+    {
+      "id": "ss144-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Without everyone's help, we cannot finish the project sooner.",
+      "promptZh": "沒有大家的幫助，我們便不能更快完成這個項目。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could finish the project sooner if everyone helped.",
+      "answerZh": "如果每個人都幫忙，我們便可以更快完成這個項目。",
+      "answerZhSource": "pdf",
+      "highlight": "We could finish the project sooner if everyone helped."
+    },
+    {
+      "id": "ss144-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Opening the library on Sundays might encourage more families to use it.",
+      "promptZh": "星期日開放圖書館，或許會鼓勵更多家庭使用它。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the library were open on Sundays, more families might use it.",
+      "answerZh": "如果圖書館在星期日開放，可能會有更多家庭使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "If the library were open on Sundays, more families might use it."
+    },
+    {
+      "id": "ss144-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient feels nervous because the nurse has not explained the procedure.",
+      "promptZh": "病人感到緊張，因為護士尚未解釋程序。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the nurse explained the procedure, the patient would feel less nervous.",
+      "answerZh": "如果護士解釋程序，病人便不會那麼緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "If the nurse explained the procedure, the patient would feel less nervous."
+    },
+    {
+      "id": "ss144-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Maya spends so much money on snacks that she cannot save much each month.",
+      "promptZh": "瑪雅花太多錢買零食，所以每月不能儲下很多錢。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Maya did not spend so much money on snacks, she could save more each month.",
+      "answerZh": "如果瑪雅沒有花那麼多錢買零食，她每月便可以儲下更多錢。",
+      "answerZhSource": "pdf",
+      "highlight": "If Maya did not spend so much money on snacks, she could save more each month."
+    },
+    {
+      "id": "ss144-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The blue sofa does not match the curtains, so I will not choose it.",
+      "promptZh": "藍色梳化與窗簾不相襯，所以我不會選它。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would choose the blue sofa if it matched the curtains.",
+      "answerZh": "如果藍色梳化與窗簾相襯，我便會選它。",
+      "answerZhSource": "pdf",
+      "highlight": "I would choose the blue sofa if it matched the curtains."
+    },
+    {
+      "id": "ss144-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A weak battery prevents the phone from lasting all day.",
+      "promptZh": "電池效能不足，令這部電話不能維持一整天。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the phone had a stronger battery, it would last all day.",
+      "answerZh": "如果這部電話有更耐用的電池，它便可以維持一整天。",
+      "answerZhSource": "pdf",
+      "highlight": "If the phone had a stronger battery, it would last all day."
+    },
+    {
+      "id": "ss144-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Closing the road to traffic would allow the children to play outside safely.",
+      "promptZh": "封閉道路，禁止車輛行駛，便能讓孩子在戶外安全玩耍。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children could play outside safely if the road were closed to traffic.",
+      "answerZh": "如果道路封閉，禁止車輛行駛，孩子便可以在戶外安全玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The children could play outside safely if the road were closed to traffic."
+    },
+    {
+      "id": "ss144-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "With flexible working hours, more parents would apply for the job.",
+      "promptZh": "在彈性工作時間的安排下，會有更多家長申請這份工作。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the company offered flexible working hours, more parents would apply for the job.",
+      "answerZh": "如果公司提供彈性工作時間，便會有更多家長申請這份工作。",
+      "answerZhSource": "pdf",
+      "highlight": "If the company offered flexible working hours, more parents would apply for the job."
+    },
+    {
+      "id": "ss144-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Buses do not come every ten minutes, so public transport is less convenient.",
+      "promptZh": "巴士不是每十分鐘一班，所以公共交通較不方便。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public transport would be more convenient if buses came every ten minutes.",
+      "answerZh": "如果巴士每十分鐘一班，公共交通便會更加方便。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport would be more convenient if buses came every ten minutes."
+    },
+    {
+      "id": "ss144-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our building has no lift, so elderly residents cannot easily reach the upper floors.",
+      "promptZh": "我們的大廈沒有升降機，所以年長居民難以到達較高樓層。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If our building had a lift, elderly residents could reach the upper floors more easily.",
+      "answerZh": "如果我們的大廈有升降機，年長居民便可以更容易到達較高樓層。",
+      "answerZhSource": "pdf",
+      "highlight": "If our building had a lift, elderly residents could reach the upper floors more easily."
+    },
+    {
+      "id": "ss144-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Clearer instructions from the coach might help the team perform better.",
+      "promptZh": "教練提供更清楚的指示，可能會幫助球隊有更佳表現。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team might perform better if the coach gave clearer instructions.",
+      "answerZh": "如果教練提供更清楚的指示，球隊可能會有更佳表現。",
+      "answerZhSource": "pdf",
+      "highlight": "The team might perform better if the coach gave clearer instructions."
+    },
+    {
+      "id": "ss144-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why will you not volunteer to give the presentation? I cannot speak confidently in public.",
+      "promptZh": "你為甚麼不自願做簡報？我不能自信地在公眾面前說話。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I could speak confidently in public, I would volunteer to give the presentation.",
+      "answerZh": "如果我能自信地在公眾面前說話，我便會自願做簡報。",
+      "answerZhSource": "pdf",
+      "highlight": "If I could speak confidently in public, I would volunteer to give the presentation."
+    },
+    {
+      "id": "ss144-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Serving smaller portions in the canteen would help us waste less food.",
+      "promptZh": "飯堂供應較小份量的食物，會幫助我們減少浪費食物。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We would waste less food if the canteen served smaller portions.",
+      "answerZh": "如果飯堂供應較小份量的食物，我們便會浪費較少食物。",
+      "answerZhSource": "pdf",
+      "highlight": "We would waste less food if the canteen served smaller portions."
+    },
+    {
+      "id": "ss144-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "More cycle paths might encourage more people in the town to ride to work.",
+      "promptZh": "增加單車徑，可能會鼓勵鎮內更多人踏單車上班。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the town built more cycle paths, more people might ride to work.",
+      "answerZh": "如果這個城鎮興建更多單車徑，可能會有更多人踏單車上班。",
+      "answerZhSource": "pdf",
+      "highlight": "If the town built more cycle paths, more people might ride to work."
+    },
+    {
+      "id": "ss144-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The buttons are too small, so the website is difficult to use.",
+      "promptZh": "按鈕太小，所以這個網站很難使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website would be easier to use if the buttons were larger.",
+      "answerZh": "如果按鈕大一點，這個網站便會更容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The website would be easier to use if the buttons were larger."
+    },
+    {
+      "id": "ss144-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Giving students a choice of projects might make them more motivated.",
+      "promptZh": "讓學生選擇項目，可能會令他們更有動力。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If students were allowed to choose some of their projects, they might become more motivated.",
+      "answerZh": "如果學生獲准選擇部分項目，他們可能會變得更有動力。",
+      "answerZhSource": "pdf",
+      "highlight": "If students were allowed to choose some of their projects, they might become more motivated."
+    },
+    {
+      "id": "ss144-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I worry because I do not know exactly what to expect.",
+      "promptZh": "我感到擔心，因為不知道接下來究竟會發生甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would not worry so much if I knew exactly what to expect.",
+      "answerZh": "如果我清楚知道會發生甚麼，便不會那麼擔心。",
+      "answerZhSource": "pdf",
+      "highlight": "I would not worry so much if I knew exactly what to expect."
+    },
+    {
+      "id": "ss144-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why do hospital patients sometimes wait a long time for help at night? There are too few overnight staff.",
+      "promptZh": "為甚麼醫院病人晚上有時要等候很久才得到協助？因為夜更員工太少。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the hospital had more overnight staff, patients could receive help more quickly.",
+      "answerZh": "如果醫院有更多夜更員工，病人便可以更快獲得協助。",
+      "answerZhSource": "pdf",
+      "highlight": "If the hospital had more overnight staff, patients could receive help more quickly."
+    },
+    {
+      "id": "ss144-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The grant application process is complicated, so many small businesses cannot benefit from the programme.",
+      "promptZh": "資助申請程序很複雜，所以很多小型企業未能受惠於這項計劃。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More small businesses would benefit from the programme if the application process were simpler.",
+      "answerZh": "如果申請程序簡單一點，便會有更多小型企業受惠於這項計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "More small businesses would benefit from the programme if the application process were simpler."
+    },
+    {
+      "id": "ss144-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Students at the back cannot hear clearly because the classroom's sound equipment is poor.",
+      "promptZh": "坐在後排的學生聽不清楚，因為課室的音響設備質素欠佳。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the classroom had better sound equipment, students at the back could hear more clearly.",
+      "answerZh": "如果課室有更好的音響設備，坐在後排的學生便可以聽得更清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "If the classroom had better sound equipment, students at the back could hear more clearly."
+    },
+    {
+      "id": "ss144-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Repairing the broken street lights promptly would make the neighbourhood feel safer.",
+      "promptZh": "迅速修理損壞的街燈，會令社區感覺更安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbourhood would feel safer if the broken street lights were repaired promptly.",
+      "answerZh": "如果損壞的街燈迅速獲得修理，社區便會感覺更安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbourhood would feel safer if the broken street lights were repaired promptly."
+    },
+    {
+      "id": "ss144-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Starting the meeting half an hour later would allow employees from distant areas to arrive on time.",
+      "promptZh": "把會議延遲半小時開始，便能讓住在較遠地區的僱員準時到達。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the meeting started half an hour later, employees from distant areas could arrive on time.",
+      "answerZh": "如果會議延遲半小時開始，住在較遠地區的僱員便可以準時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "If the meeting started half an hour later, employees from distant areas could arrive on time."
+    },
+    {
+      "id": "ss144-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "With more refill stations in supermarkets, we might reduce plastic waste.",
+      "promptZh": "如果超級市場設有更多補充站，我們可能會減少塑膠廢物。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We might reduce plastic waste if supermarkets offered more refill stations.",
+      "answerZh": "如果超級市場提供更多補充站，我們可能會減少塑膠廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "We might reduce plastic waste if supermarkets offered more refill stations."
+    },
+    {
+      "id": "ss144-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Users lose their work during a power cut because the software does not save each change automatically.",
+      "promptZh": "停電時，用戶會失去工作內容，因為軟件不會自動儲存每項變更。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the software automatically saved each change, users would not lose their work during a power cut.",
+      "answerZh": "如果軟件自動儲存每項變更，用戶便不會在停電時失去工作內容。",
+      "answerZhSource": "pdf",
+      "highlight": "If the software automatically saved each change, users would not lose their work during a power cut."
+    },
+    {
+      "id": "ss144-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Interactive exhibitions about local history could help the museum attract more young visitors.",
+      "promptZh": "有關本地歷史的互動展覽，可以幫助博物館吸引更多年輕訪客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum could attract more young visitors if it created interactive exhibitions about local history.",
+      "answerZh": "如果博物館製作有關本地歷史的互動展覽，便可以吸引更多年輕訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum could attract more young visitors if it created interactive exhibitions about local history."
+    },
+    {
+      "id": "ss144-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You are responsible for the event. In your position, I would provide clear signs so that guests could find every room easily.",
+      "promptZh": "你負責這項活動。換作是你，我會提供清楚的指示牌，讓賓客可以輕易找到每個房間。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I were responsible for the event, I would provide clear signs so that guests could find every room easily.",
+      "answerZh": "如果我負責這項活動，我會提供清楚的指示牌，讓賓客可以輕易找到每個房間。",
+      "answerZhSource": "pdf",
+      "highlight": "If I were responsible for the event, I would provide clear signs so that guests could find every room easily."
+    },
+    {
+      "id": "ss144-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "More people using public transport instead of driving short distances would make our city healthier and quieter.",
+      "promptZh": "更多人乘搭公共交通而不是短途駕車，會令我們的城市更健康、更寧靜。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our city would be healthier and quieter if more people used public transport instead of driving short distances.",
+      "answerZh": "如果更多人乘搭公共交通，而不是短途駕車，我們的城市便會更健康、更寧靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Our city would be healthier and quieter if more people used public transport instead of driving short distances."
+    }
+  ]
+}

@@ -1,0 +1,1241 @@
+{
+  "id": "ss185",
+  "order": 185,
+  "slug": "the-problem-with-is-that",
+  "title": "「The trouble ／ problem ／ issue with ... is that ...」指出問題所在",
+  "titleZh": "「The trouble ／ problem ／ issue with ... is that ...」指出問題所在",
+  "titleEn": "Using “The trouble / problem / issue with ... is that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 185 -「The trouble _ problem _ issue with ... is that ...」指出問題所在.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "The trouble / problem / issue with + noun / noun phrase / V-ing + is / was that + complete clause",
+  "formulas": [
+    {
+      "id": "ss185-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "The trouble / problem / issue with + noun / noun phrase / V-ing + is / was that + complete clause"
+    }
+  ],
+  "example": "The trouble with simple slogans is that they hide complex realities.",
+  "exampleZh": "簡單口號的問題在於，它們掩蓋了複雜的現實。",
+  "examples": [
+    {
+      "id": "ss185-example-01",
+      "en": "The trouble with simple slogans is that they hide complex realities.",
+      "zh": "簡單口號的問題在於，它們掩蓋了複雜的現實。",
+      "highlight": "The trouble with simple slogans is that they hide complex realities."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：The trouble / problem / issue with + noun / noun phrase / V-ing + is / was that + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss185-rule-01",
+      "zh": "with 後面接名詞、名詞詞組或 -ing 形式 名詞或名詞詞組： （這個計劃的問題在於，它的成本太高。） 動名詞： （不停工作、不作休息的問題在於，你會感到疲倦。） with 後面不能直接放一個完整句子。",
+      "en": "Use a noun, noun phrase or -ing form after with. Noun or noun phrase: The problem with this plan is that it costs too much. Gerund: The problem with working without a break is that you become tired. Do not put a complete clause directly after with. Incorrect: The problem with people work too long is that they become tired. Correct: The problem with people working too long is that they become tired.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The problem with this plan is that it costs too much.",
+        "The problem with working without a break is that you become tired.",
+        "Incorrect: The problem with people work too long is that they become tired.",
+        "Correct: The problem with people working too long is that they become tired."
+      ]
+    },
+    {
+      "id": "ss185-rule-02",
+      "zh": "that 後面必須是完整句子 that 後面通常要有主語和動詞。 ● Subject 主語：two lessons ● Verb 動詞：happen",
+      "en": "Use a complete clause after that. The clause normally needs a subject and a verb. In “The issue with the timetable is that two lessons happen at the same time”, two lessons is the subject and happen is the verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The issue with the timetable is that two lessons happen at the same time."
+      ]
+    },
+    {
+      "id": "ss185-rule-03",
+      "zh": "使用 is 還是 was 使用 is 表達現在、一般情況或仍然存在的問題。 使用 was 表達過去某個情況中的問題。",
+      "en": "Choose is or was according to time. Use is for a present or general situation, or for a problem that still exists: The problem with the machine is that it makes too much noise. Use was for a problem in a past situation: The problem with the old machine was that it made too much noise.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The problem with the machine is that it makes too much noise.",
+        "The problem with the old machine was that it made too much noise."
+      ]
+    },
+    {
+      "id": "ss185-rule-04",
+      "zh": "trouble、problem 和 issue 的分別 常用來指出最令人困擾的實際困難，語氣自然，在日常說話中很常見。 意思最普遍、最中性，適合日常說話、作文、討論和報告。 語氣通常較溫和或較正式，常用於學校、工作、制度或技術討論。 三者的意思有時可以重疊。本練習的答案會根據原句用詞提供一個最合適的示範答案。",
+      "en": "Distinguish trouble, problem and issue. The trouble with ... often identifies the most troublesome practical difficulty and sounds natural in everyday speech: The trouble with this bag is that it is difficult to carry. The problem with ... is the broadest and most neutral choice for conversation, essays, discussions and reports: The problem with the plan is that it costs too much. The issue with ... is usually milder or more formal and is common in school, workplace, institutional and technical discussions: The issue with the system is that it sometimes loses information. Their meanings can overlap, so the model answers choose the most suitable word for each prompt.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The trouble with ...",
+        "The trouble with this bag is that it is difficult to carry.",
+        "The problem with ...",
+        "The problem with the plan is that it costs too much.",
+        "The issue with ...",
+        "The issue with the system is that it sometimes loses information."
+      ]
+    },
+    {
+      "id": "ss185-rule-05",
+      "zh": "進階對比形式 當你想糾正別人對問題的誤解時，可以使用： （這篇文章的問題不在於它太長，而在於它的論點不清楚。）",
+      "en": "Use the advanced contrast form when correcting a misunderstanding about the problem: The problem with + noun + is not that + clause, but that + clause. Example: The problem with the article is not that it is long, but that its argument is unclear.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The problem with + noun + is not that + clause, but that + clause.",
+        "The problem with the article is not that it is long, but that its argument is unclear."
+      ]
+    },
+    {
+      "id": "ss185-rule-06",
+      "zh": "the problem with 和 the problem of 並不完全相同 指出 X 本身有甚麼缺點或困難。 （這個計劃的問題在於，它的成本太高。） 通常把 X 當作一個需要處理的廣泛問題或社會議題。 （政府必須處理空氣污染問題。）",
+      "en": "The problem with and the problem of are not identical. The problem with X identifies a defect or difficulty in X itself: The problem with the plan is that it is too expensive. The problem of X usually presents X as a broad problem or social issue that needs to be addressed: Governments must address the problem of air pollution.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "the problem with X",
+        "The problem with the plan is that it is too expensive.",
+        "the problem of X",
+        "Governments must address the problem of air pollution."
+      ]
+    },
+    {
+      "id": "ss185-rule-07",
+      "zh": "不要與 have trouble + -ing 混淆 （我難以理解這條問題。） 這裏的 have trouble + -ing 表示「做某事有困難」，不是本課所學的句型。",
+      "en": "Do not confuse this structure with have trouble + -ing. In “I have trouble understanding this question”, have trouble + -ing means that someone finds an action difficult; it is not the target structure in this lesson.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I have trouble understanding this question."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss185-benefit-01",
+      "zh": "清楚指出問題究竟在哪裏 你不只是籠統地說某件事「不好」，而是能清楚說明它的具體缺點。 （時間表很差。） （時間表的問題在於，兩堂課在同一時間進行。）",
+      "en": "It identifies exactly where the problem lies. Instead of saying vaguely that something is “bad”, you can state its specific weakness. Less clear: The timetable is bad. Clearer: The problem with the timetable is that two lessons take place at the same time.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss185-benefit-02",
+      "zh": "把事物和問題原因連接起來 這個句型先提出要討論的事物，再用 that 說明問題，因此讀者很容易掌握兩者的關係。 （網站的問題在於，文字很難閱讀。）",
+      "en": "It connects a thing with the cause of its problem. The structure first introduces the thing being discussed and then uses that to explain the problem, making the relationship easy to follow. Example: The issue with the website is that the text is difficult to read.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss185-benefit-03",
+      "zh": "幫助你作出有理據的評價 在作文、討論、會議或簡報中，只說一個計劃「不好」並不足夠。這個句型能幫助你進一步解釋理 由。 （建議書的問題在於，它沒有解釋項目將如何獲得資金。）",
+      "en": "It helps you make a reasoned evaluation. In an essay, discussion, meeting or presentation, merely calling a plan “bad” is not enough; this structure helps you explain why. Example: The problem with the proposal is that it does not explain how the project will be funded.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss185-benefit-04",
+      "zh": "令批評較客觀，減少針對個人的感覺 你可以把焦點放在制度、做法或安排上，而不是直接責怪某個人。 （你把會議安排得很差。） （會議時間的問題在於，幾名團隊成員都未能出席。）",
+      "en": "It makes criticism more objective and less personal by focusing on a system, practice or arrangement instead of directly blaming someone. Direct and personal: You planned the meeting badly. More objective: The issue with the meeting time is that several team members are unavailable.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss185-benefit-05",
+      "zh": "讓你按照情況調整語氣 你可以使用 trouble 表達實際困難，使用 problem 作一般評論，或使用較溫和、正式的 issue 因此，這個句型適合用於： ● 日常對話； ● 英文作文； ● 問題分析； ● 工作會議； ● 報告及簡報； ● 產品或服務評價。",
+      "en": "It lets you adjust the tone to the situation. Use trouble for a practical difficulty, problem for a general criticism, or the milder, more formal issue. This makes the structure suitable for daily conversation, essays, problem analysis, workplace meetings, reports, presentations, and evaluations of products or services.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: The trouble / problem / issue with + noun / noun phrase / V-ing + is / was that + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「The trouble / problem / issue with + noun / noun phrase / V-ing + is / was that + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss185-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This chair has one clear problem: it is uncomfortable.",
+      "promptZh": "這張椅子有一個明顯問題：它坐起來不舒服。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with this chair is that it is uncomfortable.",
+      "answerZh": "這張椅子的問題在於，它坐起來不舒服。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with this chair is that it is uncomfortable."
+    },
+    {
+      "id": "ss185-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This pen is troublesome because it runs out of ink quickly.",
+      "promptZh": "這支筆很麻煩，因為它很快便會用完墨水。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with this pen is that it runs out of ink quickly.",
+      "answerZh": "這支筆的麻煩之處在於，它很快便會用完墨水。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with this pen is that it runs out of ink quickly."
+    },
+    {
+      "id": "ss185-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There is an issue concerning the room: it is too small for ten people.",
+      "promptZh": "這個房間有一個問題：它太小，容納不了十個人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with the room is that it is too small for ten people.",
+      "answerZh": "這個房間的問題在於，它太小，容納不了十個人。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with the room is that it is too small for ten people."
+    },
+    {
+      "id": "ss185-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Going to bed late is a problem because you feel tired the next day.",
+      "promptZh": "太晚睡覺會造成問題，因為你第二天會感到疲倦。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with going to bed late is that you feel tired the next day.",
+      "answerZh": "太晚睡覺的問題在於，你第二天會感到疲倦。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with going to bed late is that you feel tired the next day."
+    },
+    {
+      "id": "ss185-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why is this bus route troublesome? The buses do not come often.",
+      "promptZh": "為甚麼這條巴士路線很麻煩？因為巴士班次並不頻密。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with this bus route is that the buses do not come often.",
+      "answerZh": "這條巴士路線的麻煩之處在於，巴士班次並不頻密。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with this bus route is that the buses do not come often."
+    },
+    {
+      "id": "ss185-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The website has one issue: the text is difficult to read.",
+      "promptZh": "這個網站有一個問題：文字很難閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with the website is that the text is difficult to read.",
+      "answerZh": "這個網站的問題在於，文字很難閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with the website is that the text is difficult to read."
+    },
+    {
+      "id": "ss185-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Eating too quickly can be problematic because you may get a stomach ache.",
+      "promptZh": "吃得太快可能會造成問題，因為你可能會胃痛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with eating too quickly is that you may get a stomach ache.",
+      "answerZh": "吃得太快的問題在於，你可能會胃痛。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with eating too quickly is that you may get a stomach ache."
+    },
+    {
+      "id": "ss185-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This umbrella causes trouble because it turns inside out in strong wind.",
+      "promptZh": "這把雨傘會帶來麻煩，因為遇上強風時它會向外翻。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with this umbrella is that it turns inside out in strong wind.",
+      "answerZh": "這把雨傘的麻煩之處在於，遇上強風時會向外翻。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with this umbrella is that it turns inside out in strong wind."
+    },
+    {
+      "id": "ss185-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The homework has an issue: the instructions are unclear.",
+      "promptZh": "這份家課有一個問題：指示並不清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with the homework is that the instructions are unclear.",
+      "answerZh": "這份家課的問題在於，指示並不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with the homework is that the instructions are unclear."
+    },
+    {
+      "id": "ss185-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Carrying too many bags is a problem because you cannot move easily.",
+      "promptZh": "攜帶太多袋子會造成問題，因為你不能輕鬆移動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with carrying too many bags is that you cannot move easily.",
+      "answerZh": "攜帶太多袋子的問題在於，你不能輕鬆移動。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with carrying too many bags is that you cannot move easily."
+    },
+    {
+      "id": "ss185-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The old lift was troublesome because it often stopped between floors.",
+      "promptZh": "舊升降機很麻煩，因為它經常停在樓層之間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with the old lift was that it often stopped between floors.",
+      "answerZh": "舊升降機的麻煩之處在於，它經常停在樓層之間。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with the old lift was that it often stopped between floors."
+    },
+    {
+      "id": "ss185-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Using your phone in bed is problematic because it can disturb your sleep.",
+      "promptZh": "睡前在床上使用手機會造成問題，因為這可能會影響睡眠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with using your phone in bed is that it can disturb your sleep.",
+      "answerZh": "睡前在床上使用手機的問題在於，這可能會影響睡眠。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with using your phone in bed is that it can disturb your sleep."
+    },
+    {
+      "id": "ss185-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The new timetable contains an issue: two lessons take place at the same time.",
+      "promptZh": "新時間表有一個問題：兩堂課在同一時間進行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with the new timetable is that two lessons take place at the same time.",
+      "answerZh": "新時間表的問題在於，兩堂課在同一時間進行。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with the new timetable is that two lessons take place at the same time."
+    },
+    {
+      "id": "ss185-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Buying cheap shoes often causes trouble because they may wear out quickly.",
+      "promptZh": "買便宜鞋子經常會帶來麻煩，因為它們可能很快便磨損。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with buying cheap shoes is that they may wear out quickly.",
+      "answerZh": "買便宜鞋子的麻煩之處在於，它們可能很快便磨損。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with buying cheap shoes is that they may wear out quickly."
+    },
+    {
+      "id": "ss185-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why is this recipe a problem? It requires ingredients that are hard to find.",
+      "promptZh": "為甚麼這個食譜有問題？因為它需要一些難以找到的材料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with this recipe is that it requires ingredients that are hard to find.",
+      "answerZh": "這個食譜的問題在於，它需要一些難以找到的材料。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with this recipe is that it requires ingredients that are hard to find."
+    },
+    {
+      "id": "ss185-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The proposed meeting time creates an issue because several team members are unavailable.",
+      "promptZh": "建議的會議時間造成了一個問題，因為幾名團隊成員都未能出席。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with the proposed meeting time is that several team members are unavailable.",
+      "answerZh": "建議會議時間的問題在於，幾名團隊成員都未能出席。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with the proposed meeting time is that several team members are unavailable."
+    },
+    {
+      "id": "ss185-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Leaving food uncovered is troublesome because insects may land on it.",
+      "promptZh": "食物不加遮蓋很麻煩，因為昆蟲可能會停在上面。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with leaving food uncovered is that insects may land on it.",
+      "answerZh": "食物不加遮蓋的麻煩之處在於，昆蟲可能會停在上面。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with leaving food uncovered is that insects may land on it."
+    },
+    {
+      "id": "ss185-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school printer has a recurring problem: it jams whenever many students use it.",
+      "promptZh": "學校打印機有一個經常出現的問題：每當許多學生使用時，它便會卡紙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with the school printer is that it jams whenever many students use it.",
+      "answerZh": "學校打印機的問題在於，每當許多學生使用時，它便會卡紙。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with the school printer is that it jams whenever many students use it."
+    },
+    {
+      "id": "ss185-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Studying only before an exam is problematic because you forget the material quickly.",
+      "promptZh": "只在考試前溫習會造成問題，因為你很快便會忘記所學內容。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with studying only before an exam is that you forget the material quickly.",
+      "answerZh": "只在考試前溫習的問題在於，你很快便會忘記所學內容。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with studying only before an exam is that you forget the material quickly."
+    },
+    {
+      "id": "ss185-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why is the flat troublesome? Very little natural light reaches the living room.",
+      "promptZh": "為甚麼這個單位令人困擾？因為客廳得到的自然光很少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with the flat is that very little natural light reaches the living room.",
+      "answerZh": "這個單位的麻煩之處在於，客廳得到的自然光很少。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with the flat is that very little natural light reaches the living room."
+    },
+    {
+      "id": "ss185-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Relying on one source can be a problem because the information may be incomplete.",
+      "promptZh": "只依賴一個資料來源可能會造成問題，因為所得資料可能不完整。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with relying on one source is that the information may be incomplete.",
+      "answerZh": "只依賴一個資料來源的問題在於，所得資料可能不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with relying on one source is that the information may be incomplete."
+    },
+    {
+      "id": "ss185-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The app’s notification system has an issue: important messages look like advertisements.",
+      "promptZh": "應用程式的通知系統有一個問題：重要訊息看起來像廣告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with the app’s notification system is that important messages look like advertisements.",
+      "answerZh": "應用程式通知系統的問題在於，重要訊息看起來像廣告。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with the app’s notification system is that important messages look like advertisements."
+    },
+    {
+      "id": "ss185-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Travelling during rush hour is troublesome because even short journeys can take a long time.",
+      "promptZh": "繁忙時間出行很麻煩，因為即使路程很短也可能需時很久。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with travelling during rush hour is that even short journeys can take a long time.",
+      "answerZh": "繁忙時間出行的麻煩之處在於，即使路程很短也可能需時很久。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with travelling during rush hour is that even short journeys can take a long time."
+    },
+    {
+      "id": "ss185-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The proposal was problematic because it did not explain how the project would be funded.",
+      "promptZh": "這份建議書有問題，因為它沒有解釋項目將如何獲得資金。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with the proposal was that it did not explain how the project would be funded.",
+      "answerZh": "這份建議書的問題在於，它沒有解釋項目將如何獲得資金。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with the proposal was that it did not explain how the project would be funded."
+    },
+    {
+      "id": "ss185-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Using the same password everywhere creates a security issue because one security breach can affect all your accounts.",
+      "promptZh": "到處使用同一密碼會造成保安問題，因為一次保安漏洞便可能影響你所有帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with using the same password everywhere is that one security breach can affect all your accounts.",
+      "answerZh": "到處使用同一密碼的問題在於，一次保安漏洞便可能影響你所有帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with using the same password everywhere is that one security breach can affect all your accounts."
+    },
+    {
+      "id": "ss185-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why does speaking too softly cause trouble? People at the back cannot hear you.",
+      "promptZh": "為甚麼說話太小聲會帶來麻煩？因為後面的人聽不到你。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with speaking too softly is that people at the back cannot hear you.",
+      "answerZh": "說話太小聲的麻煩之處在於，後面的人聽不到你。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with speaking too softly is that people at the back cannot hear you."
+    },
+    {
+      "id": "ss185-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new rule has a problem: it punishes careful users as well as careless ones.",
+      "promptZh": "新規則有一個問題：它同時懲罰謹慎和粗心的使用者。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with the new rule is that it punishes careful users as well as careless ones.",
+      "answerZh": "新規則的問題在於，它同時懲罰謹慎和粗心的使用者。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with the new rule is that it punishes careful users as well as careless ones."
+    },
+    {
+      "id": "ss185-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "An issue arises when people order food through this platform: the final price appears only at checkout.",
+      "promptZh": "人們透過這個平台訂購食物時會出現一個問題：最終價格到結帳時才顯示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with ordering food through this platform is that the final price appears only at checkout.",
+      "answerZh": "透過這個平台訂購食物的問題在於，最終價格到結帳時才顯示。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with ordering food through this platform is that the final price appears only at checkout."
+    },
+    {
+      "id": "ss185-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Postponing small repairs is troublesome because minor damage can become expensive to repair later.",
+      "promptZh": "延遲處理小型維修很麻煩，因為輕微損壞日後可能需要昂貴費用才能修復。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with postponing small repairs is that minor damage can become expensive to repair later.",
+      "answerZh": "延遲處理小型維修的麻煩之處在於，輕微損壞日後可能需要昂貴費用才能修復。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with postponing small repairs is that minor damage can become expensive to repair later."
+    },
+    {
+      "id": "ss185-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This survey is problematic because some questions may lead people towards particular answers.",
+      "promptZh": "這份問卷有問題，因為部分問題可能會引導人們作出特定答案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with this survey is that some questions may lead people towards particular answers.",
+      "answerZh": "這份問卷的問題在於，部分問題可能會引導人們作出特定答案。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with this survey is that some questions may lead people towards particular answers."
+    },
+    {
+      "id": "ss185-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Replacing all face-to-face lessons with online classes raises a major issue: some students lack a quiet place to study.",
+      "promptZh": "把所有面授課堂改為網上課堂會引起一個重大問題：有些學生沒有安靜的地方溫習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with replacing all face-to-face lessons with online classes is that some students lack a quiet place to study.",
+      "answerZh": "把所有面授課堂改為網上課堂的問題在於，有些學生沒有安靜的地方溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with replacing all face-to-face lessons with online classes is that some students lack a quiet place to study."
+    },
+    {
+      "id": "ss185-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Judging employees only by short-term results causes trouble because steady long-term work may be ignored.",
+      "promptZh": "只按短期成果評價員工會帶來麻煩，因為穩定的長期工作可能被忽視。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with judging employees only by short-term results is that steady long-term work may be ignored.",
+      "answerZh": "只按短期成果評價員工的麻煩之處在於，穩定的長期工作可能被忽視。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with judging employees only by short-term results is that steady long-term work may be ignored."
+    },
+    {
+      "id": "ss185-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The machine’s design has a serious problem: workers cannot clean its inner parts safely.",
+      "promptZh": "這部機器的設計有一個嚴重問題：工人無法安全清潔其內部零件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with the machine’s design is that workers cannot clean its inner parts safely.",
+      "answerZh": "這部機器設計上的問題在於，工人無法安全清潔其內部零件。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with the machine’s design is that workers cannot clean its inner parts safely."
+    },
+    {
+      "id": "ss185-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Announcing the change so late created an issue because families had little time to make new arrangements.",
+      "promptZh": "太遲公布這項改變造成了問題，因為家庭幾乎沒有時間作出新安排。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with announcing the change so late was that families had little time to make new arrangements.",
+      "answerZh": "太遲公布這項改變的問題在於，家庭幾乎沒有時間作出新安排。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with announcing the change so late was that families had little time to make new arrangements."
+    },
+    {
+      "id": "ss185-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Depending heavily on volunteers is troublesome because the service may become unreliable during busy periods.",
+      "promptZh": "過度依賴義工很麻煩，因為服務在繁忙時期可能變得不穩定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with depending heavily on volunteers is that the service may become unreliable during busy periods.",
+      "answerZh": "過度依賴義工的麻煩之處在於，服務在繁忙時期可能變得不穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with depending heavily on volunteers is that the service may become unreliable during busy periods."
+    },
+    {
+      "id": "ss185-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The article is long, but its length is not the real problem. Its main argument is difficult to follow.",
+      "promptZh": "這篇文章很長，但篇幅並不是真正的問題。它的主要論點很難理解。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with the article is not that it is long, but that its main argument is difficult to follow.",
+      "answerZh": "這篇文章的問題不在於它太長，而在於其主要論點很難理解。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with the article is not that it is long, but that its main argument is difficult to follow."
+    },
+    {
+      "id": "ss185-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The current booking system has an issue: it allows several people to reserve the same time slot.",
+      "promptZh": "現行預約系統有一個問題：它容許幾個人預約同一時段。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with the current booking system is that it allows several people to reserve the same time slot.",
+      "answerZh": "現行預約系統的問題在於，它容許幾個人預約同一時段。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with the current booking system is that it allows several people to reserve the same time slot."
+    },
+    {
+      "id": "ss185-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why is giving every learner identical feedback troublesome? Different weaknesses are not addressed.",
+      "promptZh": "為甚麼向每位學習者提供完全相同的意見會令人困擾？因為不同弱點都沒有得到針對性處理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with giving every learner identical feedback is that different weaknesses are not addressed.",
+      "answerZh": "向每位學習者提供完全相同意見的麻煩之處在於，不同弱點都沒有得到針對性處理。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with giving every learner identical feedback is that different weaknesses are not addressed."
+    },
+    {
+      "id": "ss185-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Building the playground beside the main road would be a problem because children would face heavy traffic every day.",
+      "promptZh": "把遊樂場建在主要道路旁邊會造成問題，因為兒童每天都要面對繁忙交通。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with building the playground beside the main road is that children would face heavy traffic every day.",
+      "answerZh": "把遊樂場建在主要道路旁邊的問題在於，兒童每天都要面對繁忙交通。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with building the playground beside the main road is that children would face heavy traffic every day."
+    },
+    {
+      "id": "ss185-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The policy raises an issue: the people who need support most may find the application process hardest.",
+      "promptZh": "這項政策引起一個問題：最需要支援的人可能會覺得申請程序最困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with the policy is that the people who need support most may find the application process hardest.",
+      "answerZh": "這項政策的問題在於，最需要支援的人可能會覺得申請程序最困難。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with the policy is that the people who need support most may find the application process hardest."
+    },
+    {
+      "id": "ss185-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Using test scores as the only measure of ability is seriously flawed because they reveal little about creativity or teamwork.",
+      "promptZh": "只以考試分數衡量能力有嚴重缺陷，因為分數幾乎無法反映創意或團隊合作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with using test scores as the only measure of ability is that they reveal little about creativity or teamwork.",
+      "answerZh": "只以考試分數衡量能力的麻煩之處在於，分數幾乎無法反映創意或團隊合作。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with using test scores as the only measure of ability is that they reveal little about creativity or teamwork."
+    },
+    {
+      "id": "ss185-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company’s rapid expansion created a problem: staff training had not kept pace with recruitment.",
+      "promptZh": "公司迅速擴張造成了一個問題：員工培訓未能跟上招聘速度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with the company’s rapid expansion was that staff training had not kept pace with recruitment.",
+      "answerZh": "公司迅速擴張的問題在於，員工培訓未能跟上招聘速度。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with the company’s rapid expansion was that staff training had not kept pace with recruitment."
+    },
+    {
+      "id": "ss185-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report raised an issue because it presented precise figures without explaining how they were calculated.",
+      "promptZh": "這份報告引起一個問題，因為它列出精確數字，卻沒有解釋計算方法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with the report was that it presented precise figures without explaining how they were calculated.",
+      "answerZh": "這份報告的問題在於，它列出精確數字，卻沒有解釋計算方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with the report was that it presented precise figures without explaining how they were calculated."
+    },
+    {
+      "id": "ss185-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Building only luxury flats is troublesome because the people most affected by the housing shortage will not benefit.",
+      "promptZh": "只興建豪宅會帶來麻煩，因為受房屋短缺影響最大的人不會受惠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with building only luxury flats is that the people most affected by the housing shortage will not benefit.",
+      "answerZh": "只興建豪宅的麻煩之處在於，受房屋短缺影響最大的人不會受惠。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with building only luxury flats is that the people most affected by the housing shortage will not benefit."
+    },
+    {
+      "id": "ss185-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why is the campaign problematic? Its message appeals mainly to people who already agree with it.",
+      "promptZh": "為甚麼這項宣傳活動有問題？因為它的訊息主要只吸引本來已經認同它的人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with the campaign is that its message appeals mainly to people who already agree with it.",
+      "answerZh": "這項宣傳活動的問題在於，其訊息主要只吸引本來已經認同它的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with the campaign is that its message appeals mainly to people who already agree with it."
+    },
+    {
+      "id": "ss185-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Storing all customer data in one place creates a serious issue because a single attack could expose every record.",
+      "promptZh": "把所有客戶資料儲存在同一地方會造成嚴重問題，因為一次攻擊便可能洩露每一項紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with storing all customer data in one place is that a single attack could expose every record.",
+      "answerZh": "把所有客戶資料儲存在同一地方的問題在於，一次攻擊便可能洩露每一項紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with storing all customer data in one place is that a single attack could expose every record."
+    },
+    {
+      "id": "ss185-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Introducing a new system without consulting its users is troublesome because practical difficulties may not be discovered until after launch.",
+      "promptZh": "在沒有諮詢使用者的情況下推出新系統很麻煩，因為實際困難可能到推出後才被發現。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with introducing a new system without consulting its users is that practical difficulties may not be discovered until after launch.",
+      "answerZh": "在沒有諮詢使用者的情況下推出新系統的麻煩之處在於，實際困難可能到推出後才被發現。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with introducing a new system without consulting its users is that practical difficulties may not be discovered until after launch."
+    },
+    {
+      "id": "ss185-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Measuring productivity by hours worked is problematic because efficient employees may appear less committed than slower ones.",
+      "promptZh": "以工作時數衡量生產力有問題，因為高效率員工可能看起來不及較慢的員工投入。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with measuring productivity by hours worked is that efficient employees may appear less committed than slower ones.",
+      "answerZh": "以工作時數衡量生產力的問題在於，高效率員工可能看起來不及較慢的員工投入。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with measuring productivity by hours worked is that efficient employees may appear less committed than slower ones."
+    },
+    {
+      "id": "ss185-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The plan has a long-term issue: it saves money now but may create much higher costs later.",
+      "promptZh": "這個計劃有一個長遠問題：它現在節省金錢，但日後可能造成高得多的成本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue with the plan is that it saves money now but may create much higher costs later.",
+      "answerZh": "這個計劃的問題在於，它現在節省金錢，但日後可能造成高得多的成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue with the plan is that it saves money now but may create much higher costs later."
+    },
+    {
+      "id": "ss185-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Treating every disagreement as a personal attack causes trouble because useful criticism becomes almost impossible.",
+      "promptZh": "把每次分歧都視為人身攻擊會帶來麻煩，因為有用的批評會變得幾乎不可能。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trouble with treating every disagreement as a personal attack is that useful criticism becomes almost impossible.",
+      "answerZh": "把每次分歧都視為人身攻擊的麻煩之處在於，有用的批評會變得幾乎不可能。",
+      "answerZhSource": "pdf",
+      "highlight": "The trouble with treating every disagreement as a personal attack is that useful criticism becomes almost impossible."
+    }
+  ]
+}

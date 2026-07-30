@@ -1,0 +1,1232 @@
+{
+  "id": "ss138",
+  "order": 138,
+  "slug": "according-to",
+  "title": "「According to」引述資料來源句",
+  "titleZh": "「According to」引述資料來源句",
+  "titleEn": "Using according to to attribute information to a source",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 138 -「According to」引述資料來源句.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "According to + person / document / information source, + complete sentence",
+  "formulas": [
+    {
+      "id": "ss138-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "According to + person / document / information source, + complete sentence"
+    },
+    {
+      "id": "ss138-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Complete sentence, according to + person / document / information source"
+    }
+  ],
+  "example": "According to the weather forecast, it will rain tomorrow.",
+  "exampleZh": "根據天氣預報，明天會下雨。",
+  "examples": [
+    {
+      "id": "ss138-example-01",
+      "en": "According to the weather forecast, it will rain tomorrow.",
+      "zh": "根據天氣預報，明天會下雨。",
+      "highlight": "According to the weather forecast"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss138-rule-01",
+      "zh": "According to 後面接名詞或名詞詞組 正確： 錯誤： 不可同時使用 according to 和 says 來引入同一個來源。",
+      "en": "According to is followed by a noun or noun phrase. Do not use according to and says together to introduce the same source.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "According to the teacher, the test will be difficult."
+      ]
+    },
+    {
+      "id": "ss138-rule-02",
+      "zh": "主句必須完整 正確： 錯誤： 在逗號後面必須有完整的主語和動詞。",
+      "en": "The main clause must be complete, with a full subject and verb after the comma.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss138-rule-03",
+      "zh": "According to 通常不用來表達自己的意見 不自然： 表達自己的看法時，通常使用： According to 通常用來引述其他人或外部資料來源。",
+      "en": "Do not normally use according to to introduce your own opinion. Use an expression such as in my opinion for your view; according to normally attributes a statement to another person or an external source.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "In my opinion, the plan is unfair."
+      ]
+    },
+    {
+      "id": "ss138-rule-04",
+      "zh": "資料來源可以是人物或文件 人物 文件或資料",
+      "en": "The source may be a person, such as a teacher, manager, doctor or named individual, or a document or data source, such as a report, timetable, website, figures or instructions.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "according to the teacher",
+        "according to the manager",
+        "according to the doctor",
+        "according to Ben",
+        "according to the report",
+        "according to the timetable",
+        "according to the website",
+        "according to the latest figures",
+        "according to the instructions"
+      ]
+    },
+    {
+      "id": "ss138-rule-05",
+      "zh": "According to 可以放在句首或句末 句首： 句末： 句首形式較能突出資料來源；句末形式則先突出主要消息。",
+      "en": "According to may appear at the beginning or end. Initial position foregrounds the source, while final position foregrounds the main information.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss138-rule-06",
+      "zh": "According to 與 Based on 的分別 According to：指出「資料來自哪裏」 這句是在報告天氣預報所提供的消息。 Based on：指出「決定或判斷以甚麼為依據」 這句是在說明我們作出取消決定的依據。 簡單分辨方法 是誰說的？資料來自哪裏？ 這個決定或結論以甚麼證據為基礎？ 因此： 兩者不能在所有情況下互相替換。",
+      "en": "According to attributes information by answering ‘Who or what says this?’ or ‘Where does the information come from?’. Based on identifies the evidence used for a decision or conclusion. Thus according to reports what a forecast says, whereas based on explains why a decision was made, and the two cannot be interchanged in every context.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "According to = Who or what says this?",
+        "Based on = What evidence caused this decision or conclusion?",
+        "According to the weather forecast, heavy rain is expected.",
+        "Based on the weather forecast, we cancelled the picnic.",
+        "According to customer feedback, many users find the app confusing.",
+        "We redesigned the app based on customer feedback."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss138-benefit-01",
+      "zh": "清楚交代消息來源 這個句型能讓讀者立即知道資料是由誰提供，或來自哪一份文件。 讀者清楚知道這是醫生提供的消息，而不是說話者自己的判斷。",
+      "en": "It clearly identifies the source of information, showing immediately who supplied it or which document contains it and distinguishing that source’s report from the speaker’s own judgement.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss138-benefit-02",
+      "zh": "幫助分開「自己的意見」和「別人的說法」 使用 According to 可以避免把外部資料說成自己的看法，使表達更加準確和可靠。",
+      "en": "It separates your own opinion from somebody else’s statement, preventing external information from being presented as your own view and making the message more accurate and reliable.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss138-benefit-03",
+      "zh": "把來源和消息連成一句 不用分開寫： 可以寫成： 句子更直接，也更容易理解。",
+      "en": "It connects a source and its information in one direct, easy-to-understand sentence instead of splitting the source and message into separate statements.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss138-benefit-04",
+      "zh": "適合學校、工作和日常溝通 你可以用它引述： ● 老師的指示； ● 公司通知； ● 新聞報道； ● 調查結果； ● 時間表； ● 醫生的建議； ● 網站資料。",
+      "en": "It is useful at school, at work and in everyday communication for citing teachers’ instructions, company notices, news reports, survey results, timetables, doctors’ advice and website information.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss138-benefit-05",
+      "zh": "增加句子的組織和變化 你可以把 According to + source 放在句首，先介紹資料來源；也可以放在句末，先說出最重要 的消息。 這能避免每句都以人物或事物作為開頭。",
+      "en": "It improves organization and sentence variety. Put According to + source first to introduce the source before the message, or place it last to foreground the most important news; either choice avoids beginning every sentence with a person or thing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using according to to identify the source of the information.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 according to 改寫以下句子，以指出消息或資料的來源。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss138-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The weather forecast says that it will rain tomorrow.",
+      "promptZh": "天氣預報表示明天會下雨。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the weather forecast, it will rain tomorrow.",
+      "answerZh": "根據天氣預報，明天會下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the weather forecast, it will rain tomorrow."
+    },
+    {
+      "id": "ss138-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our teacher says that this topic will be included in the exam.",
+      "promptZh": "老師說這個課題會包括在考試內。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to our teacher, this topic will be included in the exam.",
+      "answerZh": "根據老師所說，這個課題會包括在考試內。",
+      "answerZhSource": "pdf",
+      "highlight": "According to our teacher, this topic will be included in the exam."
+    },
+    {
+      "id": "ss138-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager says that the project will be completed next week.",
+      "promptZh": "經理表示這個項目將於下星期完成。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the manager, the project will be completed next week.",
+      "answerZh": "根據經理所說，這個項目將於下星期完成。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the manager, the project will be completed next week."
+    },
+    {
+      "id": "ss138-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The bus timetable shows that the last bus leaves at 11 p.m.",
+      "promptZh": "巴士時間表顯示尾班巴士於晚上十一時開出。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the bus timetable, the last bus leaves at 11 p.m.",
+      "answerZh": "根據巴士時間表，尾班巴士於晚上十一時開出。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the bus timetable, the last bus leaves at 11 p.m."
+    },
+    {
+      "id": "ss138-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Mum says that dinner will be ready at seven.",
+      "promptZh": "媽媽說晚餐會在七時準備好。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to Mum, dinner will be ready at seven.",
+      "answerZh": "根據媽媽所說，晚餐會在七時準備好。",
+      "answerZhSource": "pdf",
+      "highlight": "According to Mum, dinner will be ready at seven."
+    },
+    {
+      "id": "ss138-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop assistant says that this jacket is available in blue.",
+      "promptZh": "店員說這件外套有藍色可供選擇。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the shop assistant, this jacket is available in blue.",
+      "answerZh": "根據店員所說，這件外套有藍色可供選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the shop assistant, this jacket is available in blue."
+    },
+    {
+      "id": "ss138-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What does the school notice say? It says that classes will end early on Friday.",
+      "promptZh": "學校通告說甚麼？通告表示星期五會提早下課。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the school notice, classes will end early on Friday.",
+      "answerZh": "根據學校通告，星期五會提早下課。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the school notice, classes will end early on Friday."
+    },
+    {
+      "id": "ss138-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The doctor says that I should get more rest.",
+      "promptZh": "醫生說我應該多休息。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the doctor, I should get more rest.",
+      "answerZh": "根據醫生所說，我應該多休息。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the doctor, I should get more rest."
+    },
+    {
+      "id": "ss138-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The map shows that the station is near the library.",
+      "promptZh": "地圖顯示車站位於圖書館附近。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the map, the station is near the library.",
+      "answerZh": "根據地圖，車站位於圖書館附近。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the map, the station is near the library."
+    },
+    {
+      "id": "ss138-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The recipe says that the soup needs two cups of water.",
+      "promptZh": "食譜說這道湯需要兩杯水。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the recipe, the soup needs two cups of water.",
+      "answerZh": "根據食譜，這道湯需要兩杯水。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the recipe, the soup needs two cups of water."
+    },
+    {
+      "id": "ss138-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum website states that admission is free on Wednesdays.",
+      "promptZh": "博物館網站表示逢星期三免費入場。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the museum website, admission is free on Wednesdays.",
+      "answerZh": "根據博物館網站，逢星期三免費入場。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the museum website, admission is free on Wednesdays."
+    },
+    {
+      "id": "ss138-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What time does the café close? Ben says that it closes at nine.",
+      "promptZh": "咖啡店甚麼時候關門？本說咖啡店在九時關門。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to Ben, the café closes at nine.",
+      "answerZh": "根據本所說，咖啡店在九時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "According to Ben, the café closes at nine."
+    },
+    {
+      "id": "ss138-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ms Lee says that the homework is due on Monday.",
+      "promptZh": "李老師說功課須於星期一繳交。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The homework is due on Monday, according to Ms Lee.",
+      "answerZh": "根據李老師所說，功課須於星期一繳交。",
+      "answerZhSource": "pdf",
+      "highlight": "The homework is due on Monday, according to Ms Lee."
+    },
+    {
+      "id": "ss138-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The news report says that the road has reopened.",
+      "promptZh": "新聞報道表示該道路已經重開。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the news report, the road has reopened.",
+      "answerZh": "根據新聞報道，該道路已經重開。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the news report, the road has reopened."
+    },
+    {
+      "id": "ss138-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The instructions say that you should press the green button first.",
+      "promptZh": "說明指示你應該先按綠色按鈕。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the instructions, you should press the green button first.",
+      "answerZh": "根據說明，你應該先按綠色按鈕。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the instructions, you should press the green button first."
+    },
+    {
+      "id": "ss138-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The delivery company says that the parcel should arrive tomorrow.",
+      "promptZh": "速遞公司表示包裹應該會在明天送抵。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel should arrive tomorrow, according to the delivery company.",
+      "answerZh": "根據速遞公司所說，包裹應該會在明天送抵。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel should arrive tomorrow, according to the delivery company."
+    },
+    {
+      "id": "ss138-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When is breakfast served? The hotel receptionist says that it is served from seven to ten.",
+      "promptZh": "早餐在甚麼時候供應？酒店接待員說早餐供應時間是七時至十時。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the hotel receptionist, breakfast is served from seven to ten.",
+      "answerZh": "根據酒店接待員所說，早餐供應時間是七時至十時。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the hotel receptionist, breakfast is served from seven to ten."
+    },
+    {
+      "id": "ss138-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The survey shows that most students prefer shorter lessons.",
+      "promptZh": "調查顯示大部分學生較喜歡時間較短的課堂。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the survey, most students prefer shorter lessons.",
+      "answerZh": "根據調查，大部分學生較喜歡時間較短的課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the survey, most students prefer shorter lessons."
+    },
+    {
+      "id": "ss138-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The coach says that the team needs more practice.",
+      "promptZh": "教練說球隊需要更多練習。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the coach, the team needs more practice.",
+      "answerZh": "根據教練所說，球隊需要更多練習。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the coach, the team needs more practice."
+    },
+    {
+      "id": "ss138-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The librarian says that the library will be closed this weekend.",
+      "promptZh": "圖書館職員說圖書館本週末將會關閉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library will be closed this weekend, according to the librarian.",
+      "answerZh": "根據圖書館職員所說，圖書館本週末將會關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "The library will be closed this weekend, according to the librarian."
+    },
+    {
+      "id": "ss138-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The safety rules state that visitors must wear helmets in this area.",
+      "promptZh": "安全規則訂明訪客在這個範圍內必須佩戴頭盔。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the safety rules, visitors must wear helmets in this area.",
+      "answerZh": "根據安全規則，訪客在這個範圍內必須佩戴頭盔。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the safety rules, visitors must wear helmets in this area."
+    },
+    {
+      "id": "ss138-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The latest figures show that food prices rose last month.",
+      "promptZh": "最新數字顯示食品價格在上月上升。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the latest figures, food prices rose last month.",
+      "answerZh": "根據最新數字，食品價格在上月上升。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the latest figures, food prices rose last month."
+    },
+    {
+      "id": "ss138-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The police officer reported that no one was injured in the accident.",
+      "promptZh": "警員報告指事故中沒有人受傷。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the police officer, no one was injured in the accident.",
+      "answerZh": "根據警員所說，事故中沒有人受傷。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the police officer, no one was injured in the accident."
+    },
+    {
+      "id": "ss138-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Several employees say that the new software is easier to use.",
+      "promptZh": "數名僱員表示新軟件較容易使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new software is easier to use, according to several employees.",
+      "answerZh": "根據數名僱員所說，新軟件較容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The new software is easier to use, according to several employees."
+    },
+    {
+      "id": "ss138-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When is the best time to visit the island? The travel guide recommends spring.",
+      "promptZh": "甚麼時候最適合遊覽這個島嶼？旅遊指南建議在春季前往。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the travel guide, spring is the best time to visit the island.",
+      "answerZh": "根據旅遊指南，春季是遊覽這個島嶼的最佳時間。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the travel guide, spring is the best time to visit the island."
+    },
+    {
+      "id": "ss138-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The laboratory results show that the water is safe to drink.",
+      "promptZh": "化驗結果顯示這些水可以安全飲用。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the laboratory results, the water is safe to drink.",
+      "answerZh": "根據化驗結果，這些水可以安全飲用。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the laboratory results, the water is safe to drink."
+    },
+    {
+      "id": "ss138-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The email from Human Resources says that the meeting has been moved to Room 402.",
+      "promptZh": "人力資源部的電郵表示會議已改到四〇二室舉行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting has been moved to Room 402, according to the email from Human Resources.",
+      "answerZh": "根據人力資源部的電郵，會議已改到四〇二室舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting has been moved to Room 402, according to the email from Human Resources."
+    },
+    {
+      "id": "ss138-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The customer reviews say that this phone has a long battery life.",
+      "promptZh": "顧客評價表示這部電話的電池續航力很長。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the customer reviews, this phone has a long battery life.",
+      "answerZh": "根據顧客評價，這部電話的電池續航力很長。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the customer reviews, this phone has a long battery life."
+    },
+    {
+      "id": "ss138-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The head teacher says that students may use the hall during lunch.",
+      "promptZh": "校長表示學生可以在午膳時間使用禮堂。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the head teacher, students may use the hall during lunch.",
+      "answerZh": "根據校長所說，學生可以在午膳時間使用禮堂。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the head teacher, students may use the hall during lunch."
+    },
+    {
+      "id": "ss138-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The maintenance manual states that the machine should be checked every six months.",
+      "promptZh": "維修手冊訂明這部機器應該每六個月檢查一次。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine should be checked every six months, according to the maintenance manual.",
+      "answerZh": "根據維修手冊，這部機器應該每六個月檢查一次。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine should be checked every six months, according to the maintenance manual."
+    },
+    {
+      "id": "ss138-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The article explains that regular walking can improve heart health.",
+      "promptZh": "文章解釋定期步行可以改善心臟健康。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the article, regular walking can improve heart health.",
+      "answerZh": "根據文章，定期步行可以改善心臟健康。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the article, regular walking can improve heart health."
+    },
+    {
+      "id": "ss138-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The station announcement says that the train may be delayed by twenty minutes.",
+      "promptZh": "車站廣播表示列車可能會延誤二十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train may be delayed by twenty minutes, according to the station announcement.",
+      "answerZh": "根據車站廣播，列車可能會延誤二十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The train may be delayed by twenty minutes, according to the station announcement."
+    },
+    {
+      "id": "ss138-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What did the witness say? The witness said that the cyclist stopped before the traffic lights changed.",
+      "promptZh": "目擊者說了甚麼？目擊者說單車使用者在交通燈轉變前停了下來。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the witness, the cyclist stopped before the traffic lights changed.",
+      "answerZh": "根據目擊者所說，單車使用者在交通燈轉變前停了下來。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the witness, the cyclist stopped before the traffic lights changed."
+    },
+    {
+      "id": "ss138-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company policy states that staff must report lost access cards immediately.",
+      "promptZh": "公司政策訂明僱員必須立即報告遺失門禁卡的情況。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the company policy, staff must report lost access cards immediately.",
+      "answerZh": "根據公司政策，僱員必須立即報告遺失門禁卡的情況。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the company policy, staff must report lost access cards immediately."
+    },
+    {
+      "id": "ss138-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Local records show that the village was founded more than two hundred years ago.",
+      "promptZh": "當地紀錄顯示這條村落在二百多年前建立。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The village was founded more than two hundred years ago, according to local records.",
+      "answerZh": "根據當地紀錄，這條村落在二百多年前建立。",
+      "answerZhSource": "pdf",
+      "highlight": "The village was founded more than two hundred years ago, according to local records."
+    },
+    {
+      "id": "ss138-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The booking confirmation shows that our flight leaves from Gate 18.",
+      "promptZh": "訂位確認通知顯示我們的航班由十八號閘口出發。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the booking confirmation, our flight leaves from Gate 18.",
+      "answerZh": "根據訂位確認通知，我們的航班由十八號閘口出發。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the booking confirmation, our flight leaves from Gate 18."
+    },
+    {
+      "id": "ss138-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The examiner’s comments say that the essay had clear ideas but weak organisation.",
+      "promptZh": "評卷員的評語指出，這篇文章的意念清晰，但組織較弱。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the examiner’s comments, the essay had clear ideas but weak organisation.",
+      "answerZh": "根據評卷員的評語，這篇文章的意念清晰，但組織較弱。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the examiner’s comments, the essay had clear ideas but weak organisation."
+    },
+    {
+      "id": "ss138-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The medicine label warns that the medicine may cause drowsiness.",
+      "promptZh": "藥物標籤警告這種藥物可能會令人昏昏欲睡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine may cause drowsiness, according to the label.",
+      "answerZh": "根據藥物標籤，這種藥物可能會令人昏昏欲睡。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine may cause drowsiness, according to the label."
+    },
+    {
+      "id": "ss138-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The charity’s annual report shows that donations increased by fifteen per cent.",
+      "promptZh": "該慈善機構的年報顯示捐款增加了百分之十五。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the charity’s annual report, donations increased by fifteen per cent.",
+      "answerZh": "根據該慈善機構的年報，捐款增加了百分之十五。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the charity’s annual report, donations increased by fifteen per cent."
+    },
+    {
+      "id": "ss138-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "How long will the repairs take? The technician says that they will take at least three days.",
+      "promptZh": "維修需要多長時間？技術人員說至少需要三天。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repairs will take at least three days, according to the technician.",
+      "answerZh": "根據技術人員所說，維修至少需要三天。",
+      "answerZhSource": "pdf",
+      "highlight": "The repairs will take at least three days, according to the technician."
+    },
+    {
+      "id": "ss138-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The council’s proposal states that two new pedestrian crossings will be built near the school.",
+      "promptZh": "區議會的建議書表示學校附近將會興建兩條新的行人過路處。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the council’s proposal, two new pedestrian crossings will be built near the school.",
+      "answerZh": "根據區議會的建議書，學校附近將會興建兩條新的行人過路處。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the council’s proposal, two new pedestrian crossings will be built near the school."
+    },
+    {
+      "id": "ss138-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The museum’s monthly records show that the number of visitors has fallen since January.",
+      "promptZh": "博物館的每月紀錄顯示訪客人數自一月起有所下降。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The number of visitors has fallen since January, according to the museum’s monthly records.",
+      "answerZh": "根據博物館的每月紀錄，訪客人數自一月起有所下降。",
+      "answerZhSource": "pdf",
+      "highlight": "The number of visitors has fallen since January, according to the museum’s monthly records."
+    },
+    {
+      "id": "ss138-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The research team says that the results should be treated with caution because the study was small.",
+      "promptZh": "研究團隊表示，由於研究規模較小，應該審慎理解研究結果。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the research team, the results should be treated with caution because the study was small.",
+      "answerZh": "根據研究團隊所說，由於研究規模較小，應該審慎理解研究結果。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the research team, the results should be treated with caution because the study was small."
+    },
+    {
+      "id": "ss138-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The company’s public announcement states that it plans to open three more branches next year.",
+      "promptZh": "公司的公開公告表示，公司計劃明年再開設三間分店。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company plans to open three more branches next year, according to its public announcement.",
+      "answerZh": "根據公司的公開公告，公司計劃明年再開設三間分店。",
+      "answerZhSource": "pdf",
+      "highlight": "The company plans to open three more branches next year, according to its public announcement."
+    },
+    {
+      "id": "ss138-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The court document states that the hearing was postponed because an important witness was unavailable.",
+      "promptZh": "法庭文件指出，由於一名重要證人未能出席，聆訊已經延期。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the court document, the hearing was postponed because an important witness was unavailable.",
+      "answerZh": "根據法庭文件，由於一名重要證人未能出席，聆訊已經延期。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the court document, the hearing was postponed because an important witness was unavailable."
+    },
+    {
+      "id": "ss138-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The transport department says that the new timetable is expected to reduce waiting times during the morning rush hour.",
+      "promptZh": "運輸部門表示，新時間表預計能縮短早上繁忙時間的候車時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable is expected to reduce waiting times during the morning rush hour, according to the transport department.",
+      "answerZh": "根據運輸部門所說，新時間表預計能縮短早上繁忙時間的候車時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable is expected to reduce waiting times during the morning rush hour, according to the transport department."
+    },
+    {
+      "id": "ss138-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The independent review found that several safety checks were completed late, although no accidents occurred.",
+      "promptZh": "獨立審查發現，雖然沒有發生意外，但數項安全檢查均延遲完成。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the independent review, several safety checks were completed late, although no accidents occurred.",
+      "answerZh": "根據獨立審查，雖然沒有發生意外，但數項安全檢查均延遲完成。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the independent review, several safety checks were completed late, although no accidents occurred."
+    },
+    {
+      "id": "ss138-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The organisation’s records show that the programme has helped more than five hundred families since it began.",
+      "promptZh": "該機構的紀錄顯示，這項計劃自推出以來已經幫助了超過五百個家庭。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme has helped more than five hundred families since it began, according to the organisation’s records.",
+      "answerZh": "根據該機構的紀錄，這項計劃自推出以來已經幫助了超過五百個家庭。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme has helped more than five hundred families since it began, according to the organisation’s records."
+    },
+    {
+      "id": "ss138-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The environmental report says that air quality improved in the city centre but worsened near the motorway.",
+      "promptZh": "環境報告指出，市中心的空氣質素有所改善，但高速公路附近的情況則有所惡化。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the environmental report, air quality improved in the city centre but worsened near the motorway.",
+      "answerZh": "根據環境報告，市中心的空氣質素有所改善，但高速公路附近的情況則有所惡化。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the environmental report, air quality improved in the city centre but worsened near the motorway."
+    },
+    {
+      "id": "ss138-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The chairperson says that the committee will reconsider the proposal after receiving further evidence.",
+      "promptZh": "主席表示委員會收到進一步證據後，將會重新考慮這項建議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee will reconsider the proposal after receiving further evidence, according to the chairperson.",
+      "answerZh": "根據主席所說，委員會收到進一步證據後，將會重新考慮這項建議。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee will reconsider the proposal after receiving further evidence, according to the chairperson."
+    }
+  ]
+}

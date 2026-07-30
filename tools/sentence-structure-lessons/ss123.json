@@ -1,0 +1,1235 @@
+{
+  "id": "ss123",
+  "order": 123,
+  "slug": "ellipsis-too-either",
+  "title": "「Ellipsis 省略句：and + subject + auxiliary + too _ either」",
+  "titleZh": "「Ellipsis 省略句：and + subject + auxiliary + too _ either」",
+  "titleEn": "Using ellipsis with too and either to avoid repetition",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 123 -「Ellipsis 省略句：and + subject + auxiliary + too _ either」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "First clause, and + subject + auxiliary / be verb / modal verb + too",
+  "formulas": [
+    {
+      "id": "ss123-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "First clause, and + subject + auxiliary / be verb / modal verb + too"
+    },
+    {
+      "id": "ss123-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "First negative clause, and + subject + auxiliary / be verb / modal verb + not + either"
+    }
+  ],
+  "example": "I liked the first chapter, and she did too.",
+  "exampleZh": "我喜歡第一章，她也喜歡。",
+  "examples": [
+    {
+      "id": "ss123-example-01",
+      "en": "I liked the first chapter, and she did too.",
+      "zh": "我喜歡第一章，她也喜歡。",
+      "highlight": "and she did too"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss123-rule-01",
+      "zh": "一般動詞使用 do、does 或 did 一般現在式： 一般過去式：",
+      "en": "Use do, does or did after an ordinary lexical verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Tom plays tennis, and Amy does too.",
+        "Tom played tennis, and Amy did too."
+      ]
+    },
+    {
+      "id": "ss123-rule-02",
+      "zh": "be 動詞須按照第二個主語改變 不能因為第一個分句使用 am，便在第二個分句繼續使用 am。",
+      "en": "Change the form of be to agree with the second subject; do not continue using am in the second clause merely because the first clause uses it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I am tired, and Daniel is too.",
+        "The rooms were cold, and the hall was too."
+      ]
+    },
+    {
+      "id": "ss123-rule-03",
+      "zh": "情態動詞可以直接保留",
+      "en": "Retain the modal verb directly.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She can swim, and her brother can too.",
+        "We should leave now, and they should too."
+      ]
+    },
+    {
+      "id": "ss123-rule-04",
+      "zh": "完成式、進行式及被動句保留第一個助動詞",
+      "en": "For perfect, progressive and passive forms, retain the first auxiliary.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Amy has finished, and Ben has too.",
+        "I am studying, and Lisa is too.",
+        "The door was repaired, and the window was too."
+      ]
+    },
+    {
+      "id": "ss123-rule-05",
+      "zh": "肯定句使用 too，否定句使用 either 肯定： 否定：",
+      "en": "Use too in affirmative clauses and either in negative clauses.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I enjoy reading, and she does too.",
+        "I do not enjoy horror films, and she does not either."
+      ]
+    },
+    {
+      "id": "ss123-rule-06",
+      "zh": "被省略的內容必須在前文十分清楚 正確： did 的意思可以清楚理解為 ordered the pasta。 不清楚： 讀者不知道兩人實際做了甚麼，因此不適合作為清晰的省略句練習。",
+      "en": "The omitted material must be completely clear from the preceding context. In the correct example, did is readily understood as ordered the pasta; in the unclear example, readers do not know what either person actually did, so it is unsuitable as a clear ellipsis exercise.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Mia ordered the pasta, and Leo did too."
+      ]
+    },
+    {
+      "id": "ss123-rule-07",
+      "zh": "本課不包括倒裝形式 本練習集中使用： 本練習不要求使用： 這些是意思相近但語序不同的句型。",
+      "en": "This lesson does not include the inverted so/neither/nor form. It focuses on subject + auxiliary + too or either and does not require the semantically related but differently ordered forms So does Leo or Neither does Leo.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss123-benefit-01",
+      "zh": "你不需要把相同的動作或描述重複寫兩次。 第二句更簡潔，但意思完全相同。",
+      "en": "It avoids unnecessary repetition. You do not need to repeat the same action or description twice; the elliptical version is more concise but has exactly the same meaning.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss123-benefit-02",
+      "zh": "當兩個人或事物有相同的動作、狀態或意見時，英語母語人士經常使用這個句型，因此句子會更 自然。",
+      "en": "It makes sentences sound more natural. Native speakers frequently use this structure when two people or things share the same action, condition or opinion.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss123-benefit-03",
+      "zh": "這個句型能立即讓讀者明白，第二個主語與第一個主語有相同的情況。",
+      "en": "It connects related information clearly. The structure immediately shows that the second subject shares the same situation as the first subject.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss123-benefit-04",
+      "zh": "你可以使用 and，把兩個內容重複的短句自然地連接起來。",
+      "en": "It helps you combine short sentences. Instead of writing two repetitive sentences, you can connect them smoothly with and.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss123-benefit-05",
+      "zh": "掌握正確的助動詞後，你便可以迅速作出回應，不需要重新說出整個長句。",
+      "en": "It improves speaking fluency. Once you know which auxiliary verb to use, you can respond quickly without repeating a long sentence.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using ellipsis with and + subject + auxiliary / be verb / modal verb + too or either.",
+      "Do not repeat the verb phrase in the second clause.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 and＋主語＋助動詞／be 動詞／情態動詞＋too 或 either 的省略句改寫以下句子。",
+      "不要在第二個分句中重複相同的動詞片語。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss123-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I like quiet cafés. My sister likes quiet cafés as well.",
+      "promptZh": "我喜歡安靜的咖啡店。我姐姐也喜歡安靜的咖啡店。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I like quiet cafés, and my sister does too.",
+      "answerZh": "我喜歡安靜的咖啡店，我姐姐也喜歡。",
+      "answerZhSource": "pdf",
+      "highlight": "I like quiet cafés, and my sister does too."
+    },
+    {
+      "id": "ss123-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Both Ben and Leo play basketball after school.",
+      "promptZh": "Ben 和 Leo 都在放學後打籃球。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben plays basketball after school, and Leo does too.",
+      "answerZh": "Ben 放學後打籃球，Leo 也是。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben plays basketball after school, and Leo does too."
+    },
+    {
+      "id": "ss123-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Maya visited the museum on Saturday. Her cousin also visited the museum.",
+      "promptZh": "Maya 在星期六參觀了博物館。她的表親也參觀了博物館。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya visited the museum on Saturday, and her cousin did too.",
+      "answerZh": "Maya 在星期六參觀了博物館，她的表親也參觀了。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya visited the museum on Saturday, and her cousin did too."
+    },
+    {
+      "id": "ss123-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We ordered the vegetable soup. Our friends also ordered it.",
+      "promptZh": "我們點了蔬菜湯。我們的朋友也點了蔬菜湯。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We ordered the vegetable soup, and our friends did too.",
+      "answerZh": "我們點了蔬菜湯，我們的朋友也點了。",
+      "answerZhSource": "pdf",
+      "highlight": "We ordered the vegetable soup, and our friends did too."
+    },
+    {
+      "id": "ss123-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ella and her brother both read before bed.",
+      "promptZh": "Ella 和她的哥哥都會在睡前閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "Ella",
+      "answer": "Ella reads before bed, and her brother does too.",
+      "answerZh": "Ella 會在睡前閱讀，她的哥哥也是。",
+      "answerZhSource": "pdf",
+      "highlight": "Ella reads before bed, and her brother does too."
+    },
+    {
+      "id": "ss123-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The students and their teacher all enjoyed the science fair.",
+      "promptZh": "學生和老師都很享受科學展覽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students enjoyed the science fair, and their teacher did too.",
+      "answerZh": "學生很享受科學展覽，他們的老師也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The students enjoyed the science fair, and their teacher did too."
+    },
+    {
+      "id": "ss123-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My father takes the bus to work. My mother takes the bus to work as well.",
+      "promptZh": "我爸爸乘搭巴士上班。我媽媽也乘搭巴士上班。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My father takes the bus to work, and my mother does too.",
+      "answerZh": "我爸爸乘搭巴士上班，我媽媽也是。",
+      "answerZhSource": "pdf",
+      "highlight": "My father takes the bus to work, and my mother does too."
+    },
+    {
+      "id": "ss123-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Nina bought a reusable bottle, and Omar also bought one.",
+      "promptZh": "Nina 買了一個可重用水瓶，Omar 也買了一個。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina bought a reusable bottle, and Omar did too.",
+      "answerZh": "Nina 買了一個可重用水瓶，Omar 也買了。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina bought a reusable bottle, and Omar did too."
+    },
+    {
+      "id": "ss123-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I need more time. The rest of the team also needs more time.",
+      "promptZh": "我需要更多時間。團隊其他成員也需要更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I need more time, and the rest of the team does too.",
+      "answerZh": "我需要更多時間，團隊其他成員也需要。",
+      "answerZhSource": "pdf",
+      "highlight": "I need more time, and the rest of the team does too."
+    },
+    {
+      "id": "ss123-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The dog followed the guide. The children followed the guide as well.",
+      "promptZh": "那隻狗跟着導遊走。孩子們也跟着導遊走。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog followed the guide, and the children did too.",
+      "answerZh": "那隻狗跟着導遊走，孩子們也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog followed the guide, and the children did too."
+    },
+    {
+      "id": "ss123-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel and I are both tired after the journey.",
+      "promptZh": "Daniel 和我在旅程後都很疲倦。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I am tired after the journey, and Daniel is too.",
+      "answerZh": "我在旅程後很疲倦，Daniel 也是。",
+      "answerZhSource": "pdf",
+      "highlight": "I am tired after the journey, and Daniel is too."
+    },
+    {
+      "id": "ss123-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The classrooms and the library were both unusually warm.",
+      "promptZh": "課室和圖書館都異常悶熱。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The classrooms were unusually warm, and the library was too.",
+      "answerZh": "課室異常悶熱，圖書館也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The classrooms were unusually warm, and the library was too."
+    },
+    {
+      "id": "ss123-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe and her colleague can both speak French.",
+      "promptZh": "Chloe 和她的同事都會說法語。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe can speak French, and her colleague can too.",
+      "answerZh": "Chloe 會說法語，她的同事也會。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe can speak French, and her colleague can too."
+    },
+    {
+      "id": "ss123-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You should check the address. Marcus should check it as well.",
+      "promptZh": "你應該核對地址。Marcus 也應該核對地址。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should check the address, and Marcus should too.",
+      "answerZh": "你應該核對地址，Marcus 也應該。",
+      "answerZhSource": "pdf",
+      "highlight": "You should check the address, and Marcus should too."
+    },
+    {
+      "id": "ss123-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our group and the design team will both join the workshop.",
+      "promptZh": "我們的小組和設計團隊都會參加工作坊。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our group will join the workshop, and the design team will too.",
+      "answerZh": "我們的小組會參加工作坊，設計團隊也會。",
+      "answerZhSource": "pdf",
+      "highlight": "Our group will join the workshop, and the design team will too."
+    },
+    {
+      "id": "ss123-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My flatmate and I do not eat meat.",
+      "promptZh": "我的室友和我都不吃肉。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do not eat meat, and my flatmate does not either.",
+      "answerZh": "我不吃肉，我的室友也不吃。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not eat meat, and my flatmate does not either."
+    },
+    {
+      "id": "ss123-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah did not understand the final question. Kevin did not understand it either.",
+      "promptZh": "Sarah 不明白最後一題。Kevin 也不明白。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah did not understand the final question, and Kevin did not either.",
+      "answerZh": "Sarah 不明白最後一題，Kevin 也不明白。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah did not understand the final question, and Kevin did not either."
+    },
+    {
+      "id": "ss123-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Neither the blue printer nor the black one is working.",
+      "promptZh": "藍色打印機和黑色打印機都不能運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue printer is not working, and the black one is not either.",
+      "answerZh": "藍色打印機不能運作，黑色打印機也不能。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue printer is not working, and the black one is not either."
+    },
+    {
+      "id": "ss123-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We cannot enter this room. The visitors cannot enter it either.",
+      "promptZh": "我們不能進入這個房間。訪客也不能進入。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We cannot enter this room, and the visitors cannot either.",
+      "answerZh": "我們不能進入這個房間，訪客也不能。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot enter this room, and the visitors cannot either."
+    },
+    {
+      "id": "ss123-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Neither Helen nor her partner was ready.",
+      "promptZh": "Helen 和她的拍檔都未準備好。",
+      "promptZhSource": "pdf",
+      "starter": "Helen",
+      "answer": "Helen was not ready, and her partner was not either.",
+      "answerZh": "Helen 未準備好，她的拍檔也未準備好。",
+      "answerZhSource": "pdf",
+      "highlight": "Helen was not ready, and her partner was not either."
+    },
+    {
+      "id": "ss123-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Grace and I are both preparing the slides.",
+      "promptZh": "Grace 和我都正在準備簡報投影片。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I am preparing the slides, and Grace is too.",
+      "answerZh": "我正在準備簡報投影片，Grace 也是。",
+      "answerZhSource": "pdf",
+      "highlight": "I am preparing the slides, and Grace is too."
+    },
+    {
+      "id": "ss123-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "They were waiting outside. The manager was also waiting outside.",
+      "promptZh": "他們當時正在外面等候。經理也正在外面等候。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They were waiting outside, and the manager was too.",
+      "answerZh": "他們當時正在外面等候，經理也是。",
+      "answerZhSource": "pdf",
+      "highlight": "They were waiting outside, and the manager was too."
+    },
+    {
+      "id": "ss123-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ethan and Olivia have both completed the online form.",
+      "promptZh": "Ethan 和 Olivia 都已經填妥網上表格。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan has completed the online form, and Olivia has too.",
+      "answerZh": "Ethan 已經填妥網上表格，Olivia 也填妥了。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan has completed the online form, and Olivia has too."
+    },
+    {
+      "id": "ss123-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We had seen that film before. Our neighbours had seen it before as well.",
+      "promptZh": "我們以前看過那部電影。我們的鄰居以前也看過。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We had seen that film before, and our neighbours had too.",
+      "answerZh": "我們以前看過那部電影，我們的鄰居也看過。",
+      "answerZhSource": "pdf",
+      "highlight": "We had seen that film before, and our neighbours had too."
+    },
+    {
+      "id": "ss123-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Both the documents and the receipts were checked yesterday.",
+      "promptZh": "文件和收據昨天都已經核對。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The documents were checked yesterday, and the receipts were too.",
+      "answerZh": "文件昨天已經核對，收據也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The documents were checked yesterday, and the receipts were too."
+    },
+    {
+      "id": "ss123-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hall and the meeting room have both been cleaned.",
+      "promptZh": "禮堂和會議室都已經清潔完畢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hall has been cleaned, and the meeting room has too.",
+      "answerZh": "禮堂已經清潔完畢，會議室也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The hall has been cleaned, and the meeting room has too."
+    },
+    {
+      "id": "ss123-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Who may attend the evening session? Mia and Jason may both attend it.",
+      "promptZh": "誰可以參加晚間課堂？Mia 和 Jason 都可以參加。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia may attend the evening session, and Jason may too.",
+      "answerZh": "Mia 可以參加晚間課堂，Jason 也可以。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia may attend the evening session, and Jason may too."
+    },
+    {
+      "id": "ss123-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Both the school and the clinic must update their records.",
+      "promptZh": "學校和診所都必須更新各自的紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school must update its records, and the clinic must too.",
+      "answerZh": "學校必須更新紀錄，診所也必須更新。",
+      "answerZhSource": "pdf",
+      "highlight": "The school must update its records, and the clinic must too."
+    },
+    {
+      "id": "ss123-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Neither my supervisor nor I have received the email.",
+      "promptZh": "我的主管和我都沒有收到電郵。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have not received the email, and my supervisor has not either.",
+      "answerZh": "我沒有收到電郵，我的主管也沒有收到。",
+      "answerZhSource": "pdf",
+      "highlight": "I have not received the email, and my supervisor has not either."
+    },
+    {
+      "id": "ss123-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Neither the buses nor the trains were running.",
+      "promptZh": "巴士和火車當時都沒有行駛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The buses were not running, and the trains were not either.",
+      "answerZh": "巴士當時沒有行駛，火車也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The buses were not running, and the trains were not either."
+    },
+    {
+      "id": "ss123-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Both the librarian and the students found the new system useful.",
+      "promptZh": "圖書館管理員和學生都認為新系統很實用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The librarian found the new system useful, and the students did too.",
+      "answerZh": "圖書館管理員認為新系統很實用，學生也有同感。",
+      "answerZhSource": "pdf",
+      "highlight": "The librarian found the new system useful, and the students did too."
+    },
+    {
+      "id": "ss123-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The café and the restaurant are both crowded.",
+      "promptZh": "咖啡店和餐廳都很擠迫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café is crowded, and the restaurant is too.",
+      "answerZh": "咖啡店很擠迫，餐廳也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The café is crowded, and the restaurant is too."
+    },
+    {
+      "id": "ss123-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Amy has joined the reading club. Her brother has also joined it.",
+      "promptZh": "Amy 已經加入閱讀學會。她的哥哥也加入了。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy has joined the reading club, and her brother has too.",
+      "answerZh": "Amy 已經加入閱讀學會，她的哥哥也加入了。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy has joined the reading club, and her brother has too."
+    },
+    {
+      "id": "ss123-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Zoe brought a calculator to the test, just like her classmates.",
+      "promptZh": "Zoe 像她的同學一樣，帶了計算機參加測驗。",
+      "promptZhSource": "pdf",
+      "starter": "Zoe",
+      "answer": "Zoe brought a calculator to the test, and her classmates did too.",
+      "answerZh": "Zoe 帶了計算機參加測驗，她的同學也帶了。",
+      "answerZhSource": "pdf",
+      "highlight": "Zoe brought a calculator to the test, and her classmates did too."
+    },
+    {
+      "id": "ss123-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which services are not working? Neither the lift nor the escalator is working.",
+      "promptZh": "哪些設施不能運作？升降機和扶手電梯都不能運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lift is not working, and the escalator is not either.",
+      "answerZh": "升降機不能運作，扶手電梯也不能。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift is not working, and the escalator is not either."
+    },
+    {
+      "id": "ss123-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Both our office and the warehouse will close early tomorrow.",
+      "promptZh": "我們的辦公室和貨倉明天都會提早關門。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our office will close early tomorrow, and the warehouse will too.",
+      "answerZh": "我們的辦公室明天會提早關門，貨倉也會。",
+      "answerZhSource": "pdf",
+      "highlight": "Our office will close early tomorrow, and the warehouse will too."
+    },
+    {
+      "id": "ss123-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher speaks slowly. The tour guide speaks slowly as well.",
+      "promptZh": "老師說話很慢。導遊說話也很慢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher speaks slowly, and the tour guide does too.",
+      "answerZh": "老師說話很慢，導遊也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher speaks slowly, and the tour guide does too."
+    },
+    {
+      "id": "ss123-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I can use the new booking system. The receptionist can use it as well.",
+      "promptZh": "我懂得使用新的預約系統。接待員也懂得使用。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I can use the new booking system, and the receptionist can too.",
+      "answerZh": "我懂得使用新的預約系統，接待員也懂得使用。",
+      "answerZhSource": "pdf",
+      "highlight": "I can use the new booking system, and the receptionist can too."
+    },
+    {
+      "id": "ss123-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Neither Alice nor her brother remembered the password.",
+      "promptZh": "Alice 和她的哥哥都不記得密碼。",
+      "promptZhSource": "pdf",
+      "starter": "Alice",
+      "answer": "Alice did not remember the password, and her brother did not either.",
+      "answerZh": "Alice 不記得密碼，她的哥哥也不記得。",
+      "answerZhSource": "pdf",
+      "highlight": "Alice did not remember the password, and her brother did not either."
+    },
+    {
+      "id": "ss123-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The local team and the visiting team had both trained in the rain.",
+      "promptZh": "本地球隊和作客球隊都曾經在雨中訓練。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local team had trained in the rain, and the visiting team had too.",
+      "answerZh": "本地球隊曾經在雨中訓練，作客球隊也曾經這樣訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The local team had trained in the rain, and the visiting team had too."
+    },
+    {
+      "id": "ss123-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "James stayed late to finish the budget. The same was true of his manager.",
+      "promptZh": "James 留下來工作至較晚時間，以完成預算。他的經理也是如此。",
+      "promptZhSource": "pdf",
+      "starter": "James",
+      "answer": "James stayed late to finish the budget, and his manager did too.",
+      "answerZh": "James 留下來工作至較晚時間，以完成預算，他的經理也是。",
+      "answerZhSource": "pdf",
+      "highlight": "James stayed late to finish the budget, and his manager did too."
+    },
+    {
+      "id": "ss123-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The community centre is offering free computer lessons. The public library is doing the same.",
+      "promptZh": "社區中心正在提供免費電腦課程。公共圖書館也在提供相同課程。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community centre is offering free computer lessons, and the public library is too.",
+      "answerZh": "社區中心正在提供免費電腦課程，公共圖書館也正在提供。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre is offering free computer lessons, and the public library is too."
+    },
+    {
+      "id": "ss123-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Who had already called the patient? Both the nurse and the doctor had already called the patient.",
+      "promptZh": "誰已經致電病人？護士和醫生都已經致電病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse had already called the patient, and the doctor had too.",
+      "answerZh": "護士已經致電病人，醫生也已經致電病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse had already called the patient, and the doctor had too."
+    },
+    {
+      "id": "ss123-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new policy does not affect part-time staff. The old policy does not affect them either.",
+      "promptZh": "新政策不影響兼職員工。舊政策也不影響他們。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new policy does not affect part-time staff, and the old policy does not either.",
+      "answerZh": "新政策不影響兼職員工，舊政策也不影響他們。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy does not affect part-time staff, and the old policy does not either."
+    },
+    {
+      "id": "ss123-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school can provide extra support for new students. The youth centre can provide the same support.",
+      "promptZh": "學校可以為新生提供額外支援。青年中心也可以提供相同支援。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school can provide extra support for new students, and the youth centre can too.",
+      "answerZh": "學校可以為新生提供額外支援，青年中心也可以。",
+      "answerZhSource": "pdf",
+      "highlight": "The school can provide extra support for new students, and the youth centre can too."
+    },
+    {
+      "id": "ss123-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What was happening to the two entrances? Both the main entrance and the side entrance were being repaired.",
+      "promptZh": "兩個入口當時正在進行甚麼工程？正門和側門都正在維修。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main entrance was being repaired, and the side entrance was too.",
+      "answerZh": "正門當時正在維修，側門也是。",
+      "answerZhSource": "pdf",
+      "highlight": "The main entrance was being repaired, and the side entrance was too."
+    },
+    {
+      "id": "ss123-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Neither the morning flight nor the evening flight has been cancelled.",
+      "promptZh": "早上的航班和晚上的航班都沒有被取消。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The morning flight has not been cancelled, and the evening flight has not either.",
+      "answerZh": "早上的航班沒有被取消，晚上的航班也沒有被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "The morning flight has not been cancelled, and the evening flight has not either."
+    },
+    {
+      "id": "ss123-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The research team will present its findings at the conference. The finance team will also present its findings there.",
+      "promptZh": "研究團隊將會在會議上發表研究結果。財務團隊也會在那裏發表其研究結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team will present its findings at the conference, and the finance team will too.",
+      "answerZh": "研究團隊將會在會議上發表研究結果，財務團隊也會。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team will present its findings at the conference, and the finance team will too."
+    },
+    {
+      "id": "ss123-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "All the volunteers had received safety training. The event organisers had received the same training as well.",
+      "promptZh": "所有義工都接受過安全訓練。活動籌辦人員也接受過相同訓練。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The volunteers had received safety training, and the event organisers had too.",
+      "answerZh": "義工接受過安全訓練，活動籌辦人員也接受過。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers had received safety training, and the event organisers had too."
+    },
+    {
+      "id": "ss123-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital must not share patient information without permission. The private clinic must not share it without permission either.",
+      "promptZh": "醫院不得在未經許可的情況下分享病人資料。私家診所也不得這樣做。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital must not share patient information without permission, and the private clinic must not either.",
+      "answerZh": "醫院不得在未經許可的情況下分享病人資料，私家診所也不得這樣做。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital must not share patient information without permission, and the private clinic must not either."
+    }
+  ]
+}

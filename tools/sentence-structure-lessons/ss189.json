@@ -1,0 +1,1235 @@
+{
+  "id": "ss189",
+  "order": 189,
+  "slug": "it-is-not-x-but-y-that",
+  "title": "「It is not ... but ... that ...」強調對比句",
+  "titleZh": "「It is not ... but ... that ...」強調對比句",
+  "titleEn": "Using “It is not X but Y that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 189 -「It is not ... but ... that ...」強調對比句.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "It + be + not + X + but + Y + that + rest of clause",
+  "formulas": [
+    {
+      "id": "ss189-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "It + be + not + X + but + Y + that + rest of clause"
+    }
+  ],
+  "example": "It is not talent but discipline that determines long-term success.",
+  "exampleZh": "決定長遠成功的，不是天分，而是紀律。",
+  "examples": [
+    {
+      "id": "ss189-example-01",
+      "en": "It is not talent but discipline that determines long-term success.",
+      "zh": "決定長遠成功的，不是天分，而是紀律。",
+      "highlight": "It is not talent but discipline that determines long-term success."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：It + be + not + X + but + Y + that + rest of clause。"
+  },
+  "rules": [
+    {
+      "id": "ss189-rule-01",
+      "zh": "X 和 Y 通常必須屬於相同的文法類別，例如兩個人物、兩件事物、兩個時間、兩個地點、兩個原因 或兩種方法。",
+      "en": "X and Y must perform the same grammatical function X and Y should normally be two people, two things, two times, two places, two reasons, two methods or two other comparable elements. Correct: It was not Amy but Ben that answered the question. Correct: It was not on Monday but on Tuesday that the shop reopened.",
+      "enSource": "pdf",
+      "examples": [
+        "X and Y must perform the same grammatical function",
+        "X and Y should normally be two people, two things, two times, two places, two reasons, two",
+        "methods or two other comparable elements.",
+        "Correct: It was not Amy but Ben that answered the question.",
+        "Correct: It was not on Monday but on Tuesday that the shop reopened."
+      ]
+    },
+    {
+      "id": "ss189-rule-02",
+      "zh": "把不正確、較不重要或要否定的內容放在 not 後面；把真正正確或重要的內容放在 but 後面。",
+      "en": "Put the rejected idea after “not” Place the incorrect, less important or rejected idea after not. Place the correct or important idea after but.",
+      "enSource": "pdf",
+      "examples": [
+        "Put the rejected idea after “not”",
+        "Place the incorrect, less important or rejected idea after not. Place the correct or important idea"
+      ]
+    },
+    {
+      "id": "ss189-rule-03",
+      "zh": "不要在 that 子句重複 X 或 Y；只保留原句其餘部分。",
+      "en": "Do not repeat X or Y in the that-clause; keep only the remaining information.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Do not repeat X or Y in the that-clause",
+        "The that-clause contains the remainder of the original sentence. Do not repeat the emphasised",
+        "Original: Discipline determines long-term success.",
+        "Correct: It is not talent but discipline that determines long-term success.",
+        "Incorrect: It is not talent but discipline that discipline determines long-term success."
+      ]
+    },
+    {
+      "id": "ss189-rule-04",
+      "zh": "按照時間選擇 is 或 was。現在情況、一般事實及不少未來安排通常使用 It is；已完成的過去事件 則使用 It was。",
+      "en": "Choose “is” or “was” according to the meaning Use It is for present facts, general truths and many future arrangements. Use It was when referring to a completed past event.",
+      "enSource": "pdf",
+      "examples": [
+        "Choose “is” or “was” according to the meaning",
+        "Use It is for present facts, general truths and many future arrangements. Use It was when",
+        "referring to a completed past event."
+      ]
+    },
+    {
+      "id": "ss189-rule-05",
+      "zh": "在一般英語中，強調人物時有時可以使用 who。不過，本練習一律使用 that，讓學生集中練習同 一個目標句型。",
+      "en": "Use “that” throughout this exercise In ordinary English, who may sometimes be used when the emphasised element is a person. However, this exercise uses that consistently so that students can practise one clear target structure.",
+      "enSource": "pdf",
+      "examples": [
+        "Use “that” throughout this exercise",
+        "In ordinary English, who may sometimes be used when the emphasised element is a person.",
+        "However, this exercise uses that consistently so that students can practise one clear target"
+      ]
+    },
+    {
+      "id": "ss189-rule-06",
+      "zh": "這個句型應該否定一個可能性，並強調另一個可能性。如果 X 和 Y 同樣正確，便不適合使用這個 句型。",
+      "en": "Use the structure only when there is a genuine contrast The sentence should reject one possibility and emphasise another. Do not use it when X and Y are both equally true.",
+      "enSource": "pdf",
+      "examples": [
+        "Use the structure only when there is a genuine contrast",
+        "The sentence should reject one possibility and emphasise another. Do not use it when X and Y",
+        "are both equally true."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss189-benefit-01",
+      "zh": "這個句型可以立即告訴聽者或讀者，哪個想法不正確，以及哪個才是正確答案。",
+      "en": "It corrects misunderstandings clearly This structure immediately tells the listener or reader which idea is wrong and which idea is correct.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss189-benefit-02",
+      "zh": "but 後面的內容會得到特別強調。因此，當你想突出真正的原因、人物、問題、解決方法或決定因 素時，這個句型非常實用。",
+      "en": "It places strong emphasis on the real point The words after but receive special attention. This is useful when you want to highlight the real cause, person, problem, solution or deciding factor.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss189-benefit-03",
+      "zh": "你不需要分開寫兩句，也可以把錯誤想法和正確重點合併成一句有組織的句子。 Compare 比較 天分並不決定長遠成功。紀律才會。 決定長遠成功的，不是天分，而是紀律。",
+      "en": "It combines a correction and a complete message Instead of writing two separate sentences, you can combine the rejected idea and the correct idea into one organised sentence. Talent does not determine long-term success. Discipline does. It is not talent but discipline that determines long-term success.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss189-benefit-04",
+      "zh": "這個句型適合用於作文、簡報、討論及職場溝通，因為你可以先糾正常見的誤解，再清楚提出自 己的主要論點。",
+      "en": "It strengthens explanations and arguments This structure is useful in essays, presentations, discussions and workplace communication because it allows you to challenge a common assumption before presenting your main argument.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss189-benefit-05",
+      "zh": "記住 It is not X but Y that... 這個框架後，你可以更快組織口語答案，不需要每次都由第一個字 重新構思整句。",
+      "en": "It provides a useful speaking frame Once you remember It is not X but Y that..., you can organise an answer quickly without planning every word from the beginning.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: It + be + not + X + but + Y + that + rest of clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「It + be + not + X + but + Y + that + rest of clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss189-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The red key does not open the cabinet; the blue key does.",
+      "promptZh": "紅色鑰匙不能打開櫃子；藍色鑰匙可以。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not the red key but the blue key that opens the cabinet.",
+      "answerZh": "打開櫃子的不是紅色鑰匙，而是藍色鑰匙。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not the red key but the blue key that opens the cabinet."
+    },
+    {
+      "id": "ss189-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma did not bring the snacks; Sarah did.",
+      "promptZh": "帶零食來的不是艾瑪，而是莎拉。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not Emma but Sarah that brought the snacks.",
+      "answerZh": "帶來零食的不是艾瑪，而是莎拉。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not Emma but Sarah that brought the snacks."
+    },
+    {
+      "id": "ss189-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We need milk rather than juice for this recipe.",
+      "promptZh": "這個食譜需要牛奶，而不是果汁。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not juice but milk that we need for this recipe.",
+      "answerZh": "我們為這個食譜所需要的不是果汁，而是牛奶。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not juice but milk that we need for this recipe."
+    },
+    {
+      "id": "ss189-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The meeting will begin at two, not at three.",
+      "promptZh": "會議將於兩時開始，而不是三時。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not at three but at two that the meeting will begin.",
+      "answerZh": "會議不是在三時，而是在兩時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not at three but at two that the meeting will begin."
+    },
+    {
+      "id": "ss189-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben left his book in the library rather than in the classroom.",
+      "promptZh": "本把書留在圖書館，而不是課室。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not in the classroom but in the library that Ben left his book.",
+      "answerZh": "本把書留下的地方不是課室，而是圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not in the classroom but in the library that Ben left his book."
+    },
+    {
+      "id": "ss189-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 15
+      },
+      "prompt": "The rain, not the wind, caused the picnic to be cancelled.",
+      "promptZh": "導致野餐取消的是雨，而不是風。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not the wind but the rain that caused the picnic to be cancelled.",
+      "answerZh": "導致野餐取消的不是風，而是雨。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not the wind but the rain that caused the picnic to be cancelled."
+    },
+    {
+      "id": "ss189-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The nurse did not call the patient; the doctor did.",
+      "promptZh": "致電病人的不是護士，而是醫生。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not the nurse but the doctor that called the patient.",
+      "answerZh": "致電病人的不是護士，而是醫生。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not the nurse but the doctor that called the patient."
+    },
+    {
+      "id": "ss189-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Press the green button instead of the yellow one.",
+      "promptZh": "請按綠色按鈕，不要按黃色按鈕。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not the yellow button but the green one that you should press.",
+      "answerZh": "你應該按的不是黃色按鈕，而是綠色按鈕。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not the yellow button but the green one that you should press."
+    },
+    {
+      "id": "ss189-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This train goes to Oxford, not to Cambridge.",
+      "promptZh": "這班火車前往牛津，而不是劍橋。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not to Cambridge but to Oxford that this train goes.",
+      "answerZh": "這班火車前往的不是劍橋，而是牛津。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not to Cambridge but to Oxford that this train goes."
+    },
+    {
+      "id": "ss189-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children chose football rather than basketball.",
+      "promptZh": "孩子們選擇了足球，而不是籃球。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not basketball but football that the children chose.",
+      "answerZh": "孩子們選擇的不是籃球，而是足球。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not basketball but football that the children chose."
+    },
+    {
+      "id": "ss189-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The floor was wet because a pipe was leaking, not because it had just been cleaned.",
+      "promptZh": "地板濕了是因為水管漏水，而不是因為剛清潔過。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not because the floor had just been cleaned but because a pipe was leaking that the floor was wet.",
+      "answerZh": "地板濕了不是因為剛清潔過，而是因為水管漏水。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not because the floor had just been cleaned but because a pipe was leaking that the floor was wet."
+    },
+    {
+      "id": "ss189-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Who designed the poster? Ava designed it; Leo did not.",
+      "promptZh": "誰設計了海報？是艾娃設計的，不是里奧。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not Leo but Ava that designed the poster.",
+      "answerZh": "設計海報的不是里奧，而是艾娃。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not Leo but Ava that designed the poster."
+    },
+    {
+      "id": "ss189-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The package arrived on Friday rather than on Thursday.",
+      "promptZh": "包裹在星期五到達，而不是星期四。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not on Thursday but on Friday that the package arrived.",
+      "answerZh": "包裹不是在星期四，而是在星期五到達。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not on Thursday but on Friday that the package arrived."
+    },
+    {
+      "id": "ss189-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "She improved her pronunciation by listening every day instead of memorising rules.",
+      "promptZh": "她透過每天聆聽改善發音，而不是靠背誦規則。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not by memorising rules but by listening every day that she improved her pronunciation.",
+      "answerZh": "她改善發音不是靠背誦規則，而是靠每天聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not by memorising rules but by listening every day that she improved her pronunciation."
+    },
+    {
+      "id": "ss189-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Members receive the discount, but non-members do not.",
+      "promptZh": "會員可以獲得折扣，但非會員不可以。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not non-members but members that receive the discount.",
+      "answerZh": "獲得折扣的不是非會員，而是會員。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not non-members but members that receive the discount."
+    },
+    {
+      "id": "ss189-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The first chapter did not confuse me; the second chapter did.",
+      "promptZh": "令我困惑的不是第一章，而是第二章。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not the first chapter but the second chapter that confused me.",
+      "answerZh": "令我困惑的不是第一章，而是第二章。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not the first chapter but the second chapter that confused me."
+    },
+    {
+      "id": "ss189-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The police closed the road because a tree had fallen, not because there had been an accident.",
+      "promptZh": "警方封路是因為有樹倒下，而不是因為發生了交通意外。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not because there had been an accident but because a tree had fallen that the police closed the road.",
+      "answerZh": "警方封路不是因為發生了交通意外，而是因為有樹倒下。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not because there had been an accident but because a tree had fallen that the police closed the road."
+    },
+    {
+      "id": "ss189-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager changed the deadline after the client called, not after the team meeting.",
+      "promptZh": "經理在客戶來電後更改截止日期，而不是在團隊會議後。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not after the team meeting but after the client called that the manager changed the deadline.",
+      "answerZh": "經理不是在團隊會議後，而是在客戶來電後更改截止日期。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not after the team meeting but after the client called that the manager changed the deadline."
+    },
+    {
+      "id": "ss189-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We should focus on safety rather than speed.",
+      "promptZh": "我們應該專注安全，而不是速度。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not speed but safety that we should focus on.",
+      "answerZh": "我們應該專注的不是速度，而是安全。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not speed but safety that we should focus on."
+    },
+    {
+      "id": "ss189-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This machine cuts metal, not wood.",
+      "promptZh": "這部機器切割金屬，而不是木材。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not wood but metal that this machine cuts.",
+      "answerZh": "這部機器切割的不是木材，而是金屬。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not wood but metal that this machine cuts."
+    },
+    {
+      "id": "ss189-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "People trust Carla because she keeps her promises, not because she speaks confidently.",
+      "promptZh": "人們信任卡拉，是因為她信守承諾，而不是因為她說話自信。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not because Carla speaks confidently but because she keeps her promises that people trust her.",
+      "answerZh": "人們信任卡拉不是因為她說話自信，而是因為她信守承諾。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not because Carla speaks confidently but because she keeps her promises that people trust her."
+    },
+    {
+      "id": "ss189-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team won through careful preparation rather than luck.",
+      "promptZh": "球隊憑周詳準備勝出，而不是靠運氣。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not through luck but through careful preparation that the team won.",
+      "answerZh": "球隊勝出不是靠運氣，而是靠周詳準備。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not through luck but through careful preparation that the team won."
+    },
+    {
+      "id": "ss189-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school built the ramp for wheelchair users, not for delivery staff.",
+      "promptZh": "學校興建斜道是供輪椅使用者使用，而不是供送貨人員使用。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not for delivery staff but for wheelchair users that the school built the ramp.",
+      "answerZh": "學校興建斜道不是為送貨人員，而是為輪椅使用者。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not for delivery staff but for wheelchair users that the school built the ramp."
+    },
+    {
+      "id": "ss189-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A parent, not the student, must sign the form.",
+      "promptZh": "必須在表格上簽署的是家長，而不是學生。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not the student but a parent that must sign the form.",
+      "answerZh": "必須在表格上簽署的不是學生，而是家長。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not the student but a parent that must sign the form."
+    },
+    {
+      "id": "ss189-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You can solve this problem with a calculator, not with a dictionary.",
+      "promptZh": "你可以使用計數機解決這個問題，而不是使用字典。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not with a dictionary but with a calculator that you can solve this problem.",
+      "answerZh": "你解決這個問題不是使用字典，而是使用計數機。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not with a dictionary but with a calculator that you can solve this problem."
+    },
+    {
+      "id": "ss189-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Regular feedback, rather than longer working hours, led to the improvement.",
+      "promptZh": "帶來改善的是定期回饋，而不是延長工時。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not longer working hours but regular feedback that led to the improvement.",
+      "answerZh": "帶來改善的不是延長工時，而是定期回饋。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not longer working hours but regular feedback that led to the improvement."
+    },
+    {
+      "id": "ss189-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum is closed on Mondays, not on Sundays.",
+      "promptZh": "博物館在星期一閉館，而不是星期日。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not on Sundays but on Mondays that the museum is closed.",
+      "answerZh": "博物館閉館的日子不是星期日，而是星期一。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not on Sundays but on Mondays that the museum is closed."
+    },
+    {
+      "id": "ss189-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "Why did Mia reject the job offer? The low salary was the reason, not the location.",
+      "promptZh": "米婭為甚麼拒絕這份工作邀請？原因是薪酬低，而不是工作地點。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not the location but the low salary that led Mia to reject the job offer.",
+      "answerZh": "令米婭拒絕這份工作邀請的不是工作地點，而是薪酬太低。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not the location but the low salary that led Mia to reject the job offer."
+    },
+    {
+      "id": "ss189-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The volunteers cleaned the beach in the morning rather than in the afternoon.",
+      "promptZh": "義工在早上清潔海灘，而不是下午。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not in the afternoon but in the morning that the volunteers cleaned the beach.",
+      "answerZh": "義工清潔海灘不是在下午，而是在早上。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not in the afternoon but in the morning that the volunteers cleaned the beach."
+    },
+    {
+      "id": "ss189-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We need clearer priorities, not more meetings.",
+      "promptZh": "我們需要更清晰的優先次序，而不是更多會議。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not more meetings but clearer priorities that we need.",
+      "answerZh": "我們需要的不是更多會議，而是更清晰的優先次序。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not more meetings but clearer priorities that we need."
+    },
+    {
+      "id": "ss189-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "He recovered because he rested properly, not because he took more medicine.",
+      "promptZh": "他康復是因為得到充分休息，而不是因為服用了更多藥物。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not because he took more medicine but because he rested properly that he recovered.",
+      "answerZh": "他康復不是因為服用了更多藥物，而是因為得到充分休息。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not because he took more medicine but because he rested properly that he recovered."
+    },
+    {
+      "id": "ss189-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Practising consistently determines success; starting quickly does not.",
+      "promptZh": "決定成功的是持續練習，而不是迅速開始。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not starting quickly but practising consistently that determines success.",
+      "answerZh": "決定成功的不是迅速開始，而是持續練習。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not starting quickly but practising consistently that determines success."
+    },
+    {
+      "id": "ss189-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Please send the report to the finance department, not to the sales team.",
+      "promptZh": "請把報告送交財務部，而不是銷售部。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not to the sales team but to the finance department that you should send the report.",
+      "answerZh": "你應該把報告送交的不是銷售部，而是財務部。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not to the sales team but to the finance department that you should send the report."
+    },
+    {
+      "id": "ss189-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new policy will take effect next month, not immediately.",
+      "promptZh": "新政策將於下月生效，而不是立即生效。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not immediately but next month that the new policy will take effect.",
+      "answerZh": "新政策不是立即生效，而是在下月生效。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not immediately but next month that the new policy will take effect."
+    },
+    {
+      "id": "ss189-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "She objected to the cost, not to the idea itself.",
+      "promptZh": "她反對的是成本，而不是構想本身。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not the idea itself but the cost that she objected to.",
+      "answerZh": "她反對的不是構想本身，而是成本。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not the idea itself but the cost that she objected to."
+    },
+    {
+      "id": "ss189-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Missing data, rather than slow software, caused the delay.",
+      "promptZh": "造成延誤的是資料缺失，而不是軟件運行緩慢。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not slow software but missing data that caused the delay.",
+      "answerZh": "造成延誤的不是軟件運行緩慢，而是資料缺失。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not slow software but missing data that caused the delay."
+    },
+    {
+      "id": "ss189-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We can prevent errors by checking the details twice instead of working faster.",
+      "promptZh": "我們可以透過把細節檢查兩次來防止錯誤，而不是加快工作速度。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not by working faster but by checking the details twice that we can prevent errors.",
+      "answerZh": "我們防止錯誤不是靠加快工作速度，而是靠把細節檢查兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not by working faster but by checking the details twice that we can prevent errors."
+    },
+    {
+      "id": "ss189-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The speaker impressed the audience with her clarity, not with complex vocabulary.",
+      "promptZh": "講者以清晰的表達打動聽眾，而不是靠複雜詞彙。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not with complex vocabulary but with her clarity that the speaker impressed the audience.",
+      "answerZh": "講者打動聽眾不是靠複雜詞彙，而是靠清晰表達。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not with complex vocabulary but with her clarity that the speaker impressed the audience."
+    },
+    {
+      "id": "ss189-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital needs more nurses at night, not more beds during the day.",
+      "promptZh": "醫院需要在夜間增加護士，而不是在日間增加病床。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not more beds during the day but more nurses at night that the hospital needs.",
+      "answerZh": "醫院需要的不是日間增加病床，而是夜間增加護士。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not more beds during the day but more nurses at night that the hospital needs."
+    },
+    {
+      "id": "ss189-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "He apologised after reading the complaint, not after speaking to the manager.",
+      "promptZh": "他在閱讀投訴後道歉，而不是在與經理交談後。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not after speaking to the manager but after reading the complaint that he apologised.",
+      "answerZh": "他不是在與經理交談後道歉，而是在閱讀投訴後道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not after speaking to the manager but after reading the complaint that he apologised."
+    },
+    {
+      "id": "ss189-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Students learn most when they apply ideas, not when they copy notes.",
+      "promptZh": "學生在應用概念時學得最多，而不是在抄寫筆記時。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not when they copy notes but when they apply ideas that students learn most.",
+      "answerZh": "學生學得最多的時候不是抄寫筆記時，而是應用概念時。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not when they copy notes but when they apply ideas that students learn most."
+    },
+    {
+      "id": "ss189-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Public confidence grows because decisions are explained clearly, not because slogans are repeated.",
+      "promptZh": "公眾信心提升，是因為決策得到清楚解釋，而不是因為口號被反覆重複。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not because slogans are repeated but because decisions are explained clearly that public confidence grows.",
+      "answerZh": "公眾信心提升不是因為口號被反覆重複，而是因為決策得到清楚解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not because slogans are repeated but because decisions are explained clearly that public confidence grows."
+    },
+    {
+      "id": "ss189-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company retained customers by solving recurring problems rather than by offering one-off discounts.",
+      "promptZh": "公司透過解決反覆出現的問題留住顧客，而不是靠提供一次性折扣。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not by offering one-off discounts but by solving recurring problems that the company retained customers.",
+      "answerZh": "公司留住顧客不是靠提供一次性折扣，而是靠解決反覆出現的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not by offering one-off discounts but by solving recurring problems that the company retained customers."
+    },
+    {
+      "id": "ss189-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The study attracted attention because its findings were unexpected, not because its sample was large.",
+      "promptZh": "這項研究受到關注，是因為研究結果出乎意料，而不是因為樣本龐大。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not because its sample was large but because its findings were unexpected that the study attracted attention.",
+      "answerZh": "這項研究受到關注不是因為樣本龐大，而是因為研究結果出乎意料。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not because its sample was large but because its findings were unexpected that the study attracted attention."
+    },
+    {
+      "id": "ss189-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee rejected the proposal because the costs were unclear, not because the environmental goals were unpopular.",
+      "promptZh": "委員會否決提案，是因為成本不清晰，而不是因為環保目標不受歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not because the environmental goals were unpopular but because the costs were unclear that the committee rejected the proposal.",
+      "answerZh": "委員會否決提案不是因為環保目標不受歡迎，而是因為成本不清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not because the environmental goals were unpopular but because the costs were unclear that the committee rejected the proposal."
+    },
+    {
+      "id": "ss189-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The new system should support frontline staff, not senior managers.",
+      "promptZh": "新系統應該支援前線員工，而不是高級管理人員。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not senior managers but frontline staff that the new system should support.",
+      "answerZh": "新系統應該支援的不是高級管理人員，而是前線員工。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not senior managers but frontline staff that the new system should support."
+    },
+    {
+      "id": "ss189-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The charity measures success by the lasting change it creates, not by the number of events it holds.",
+      "promptZh": "慈善機構按照所帶來的長遠改變衡量成效，而不是按照舉辦活動的數目。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not by the number of events it holds but by the lasting change it creates that the charity measures success.",
+      "answerZh": "慈善機構衡量成效不是按照舉辦活動的數目，而是按照所帶來的長遠改變。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not by the number of events it holds but by the lasting change it creates that the charity measures success."
+    },
+    {
+      "id": "ss189-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The lesson became memorable because the teacher linked theory to daily life, not because the slides were colourful.",
+      "promptZh": "這堂課令人難忘，是因為老師把理論與日常生活連繫起來，而不是因為投影片色彩鮮艷。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not because the slides were colourful but because the teacher linked theory to daily life that the lesson became memorable.",
+      "answerZh": "這堂課令人難忘不是因為投影片色彩鮮艷，而是因為老師把理論與日常生活連繫起來。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not because the slides were colourful but because the teacher linked theory to daily life that the lesson became memorable."
+    },
+    {
+      "id": "ss189-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "The city reduced congestion through better bus services rather than wider roads.",
+      "promptZh": "城市透過改善巴士服務減少交通擠塞，而不是靠擴闊道路。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not through wider roads but through better bus services that the city reduced congestion.",
+      "answerZh": "城市減少交通擠塞不是靠擴闊道路，而是靠改善巴士服務。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not through wider roads but through better bus services that the city reduced congestion."
+    },
+    {
+      "id": "ss189-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Whether a team learns from failure determines long-term improvement; whether it avoids every mistake does not.",
+      "promptZh": "決定長遠改善的是團隊能否從失敗中學習，而不是它能否避免每一個錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not whether a team avoids every mistake but whether it learns from failure that determines long-term improvement.",
+      "answerZh": "決定長遠改善的，不是一個團隊能否避免每一個錯誤，而是它能否從失敗中學習。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not whether a team avoids every mistake but whether it learns from failure that determines long-term improvement."
+    }
+  ]
+}

@@ -1,0 +1,1212 @@
+{
+  "id": "ss211",
+  "order": 211,
+  "slug": "by-and-large",
+  "title": "「By and large」表示整體情況",
+  "titleZh": "「By and large」表示整體情況",
+  "titleEn": "Using “by and large”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 210 -「By and large」表示整體情況.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 210; it is assigned system ID ss211 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "By and large, + complete clause",
+  "formulas": [
+    {
+      "id": "ss211-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "By and large, + complete clause"
+    }
+  ],
+  "example": "By and large, the public responded positively to the change.",
+  "exampleZh": "整體而言，公眾對這項改變反應正面。",
+  "examples": [
+    {
+      "id": "ss211-example-01",
+      "en": "By and large, the public responded positively to the change.",
+      "zh": "整體而言，公眾對這項改變反應正面。",
+      "highlight": "By and large, the public responded positively to the change."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：By and large, + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss211-rule-01",
+      "zh": "通常放在句首，後面加逗號 不要漏掉逗號：",
+      "en": "The phrase normally comes first and is followed by a comma. Incorrect: By and large the plan worked well. Correct: By and large, the plan worked well.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "By and large, the plan worked well.",
+        "By and large the plan worked well. ✗",
+        "By and large, the plan worked well. ✓"
+      ]
+    },
+    {
+      "id": "ss211-rule-02",
+      "zh": "後面必須接完整句子",
+      "en": "Follow it with a complete clause: By and large, + subject + verb + other information. Example: By and large, the students understood the lesson.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "By and large, + subject + verb + other information",
+        "By and large, the students understood the lesson."
+      ]
+    },
+    {
+      "id": "ss211-rule-03",
+      "zh": "它表示「大致上」，而不是「毫無例外」 By and large 接近： 它並不表示：",
+      "en": "It means “generally”, not “without exception”. It is close to generally, overall, on the whole, for the most part and in most cases. It does not mean always, completely, without exception or every single time.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "on the whole",
+        "for the most part",
+        "in most cases",
+        "every single time"
+      ]
+    },
+    {
+      "id": "ss211-rule-04",
+      "zh": "適合概括整體表現或普遍趨勢 它常用來總結： ● 一項計劃是否成功； ● 大部分人的反應； ● 一段時間內的整體情況； ● 一個組織或制度的普遍表現； ● 考慮多項因素後所得出的整體評價。",
+      "en": "Use by and large to summarise whether a plan succeeded, how most people responded, the overall situation during a period, the general performance of an organisation or system, or an overall evaluation reached after weighing several factors.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss211-rule-05",
+      "zh": "避免與過於絕對的字眼衝突 一般不宜寫： By and large 容許例外，但 every customer 和 completely 聽起來像完全沒有例外，意思容易 互相衝突。",
+      "en": "Avoid conflict with absolute wording. “By and large, every customer was completely satisfied” is generally unsuitable because by and large allows exceptions whereas every customer and completely suggest none.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "By and large, every customer was completely satisfied."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss211-benefit-01",
+      "zh": "這個句型讓你概括主要情況，同時避免聲稱每一個個案都完全一樣。",
+      "en": "It helps you make a balanced general statement This structure lets you describe the main situation without claiming that it is true in every single case.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss211-benefit-02",
+      "zh": "你不需要逐一列出所有成功之處、問題和例外，也可以先讓讀者掌握整體情況。",
+      "en": "It allows you to summarise a complicated situation quickly Instead of listing every success, problem and exception, you can give the reader the overall picture first.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss211-benefit-03",
+      "zh": "使用 by and large 表示你知道事情可能存在例外，因此你的意見會顯得更公允和審慎。",
+      "en": "It prevents your statement from sounding too absolute Using by and large shows that you recognise possible exceptions. This can make an opinion sound fairer and more careful.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss211-benefit-04",
+      "zh": "它讓你不必重複使用 generally、overall、in general 和 on the whole，使句式更有變化。",
+      "en": "It gives you another way to express “generally” or “overall” You can avoid repeatedly using generally, overall, in general and on the whole.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss211-benefit-05",
+      "zh": "你可以在日常對話、作文、報告、評論和簡報中，用它作出整體判斷或總結。 Compare 比較 （少數顧客作出了投訴，但大部分顧客都對服務感到滿意。） （整體而言，顧客都對服務感到滿意。） 第二句把主要情況概括得更簡潔，同時仍然容許少數例外存在。",
+      "en": "It is useful for conclusions and overall evaluations in conversations, essays, reports, reviews and presentations. Compare: A few customers complained, but most customers were satisfied with the service. By and large, customers were satisfied with the service. The second version summarises the main situation more concisely while still allowing for a few exceptions.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 210; it is assigned system ID ss211 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: By and large, + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「By and large, + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss211-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Overall, the class enjoyed the activity.",
+      "promptZh": "整體來說，全班都喜歡這項活動。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the class enjoyed the activity.",
+      "answerZh": "整體而言，全班都喜歡這項活動。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the class enjoyed the activity."
+    },
+    {
+      "id": "ss211-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Generally, the buses arrive on time.",
+      "promptZh": "一般來說，巴士都會準時到達。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the buses arrive on time.",
+      "answerZh": "整體而言，巴士都會準時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the buses arrive on time."
+    },
+    {
+      "id": "ss211-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "On the whole, the food was good.",
+      "promptZh": "總的來說，食物很好。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the food was good.",
+      "answerZh": "整體而言，食物很好。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the food was good."
+    },
+    {
+      "id": "ss211-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "For the most part, the room was clean.",
+      "promptZh": "這個房間大部分地方都很乾淨。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the room was clean.",
+      "answerZh": "整體而言，這個房間很乾淨。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the room was clean."
+    },
+    {
+      "id": "ss211-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "In general, the customers were satisfied with the service.",
+      "promptZh": "一般而言，顧客都對服務感到滿意。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the customers were satisfied with the service.",
+      "answerZh": "整體而言，顧客都對服務感到滿意。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the customers were satisfied with the service."
+    },
+    {
+      "id": "ss211-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Most of the students understood the lesson.",
+      "promptZh": "大部分學生都明白這一課。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the students understood the lesson.",
+      "answerZh": "整體而言，學生都明白這一課。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the students understood the lesson."
+    },
+    {
+      "id": "ss211-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The park is quiet most of the time.",
+      "promptZh": "這個公園大部分時間都很寧靜。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the park is quiet.",
+      "answerZh": "整體而言，這個公園很寧靜。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the park is quiet."
+    },
+    {
+      "id": "ss211-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The team played well overall.",
+      "promptZh": "球隊整體表現良好。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the team played well.",
+      "answerZh": "整體而言，球隊表現良好。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the team played well."
+    },
+    {
+      "id": "ss211-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Apart from a few delays, the journey went smoothly.",
+      "promptZh": "除了一些延誤外，旅程進行得很順利。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the journey went smoothly.",
+      "answerZh": "整體而言，旅程進行得很順利。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the journey went smoothly."
+    },
+    {
+      "id": "ss211-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The weather was pleasant on most days of our holiday.",
+      "promptZh": "在我們度假的大部分日子裏，天氣都很宜人。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the weather was pleasant during our holiday.",
+      "answerZh": "整體而言，我們度假期間的天氣很宜人。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the weather was pleasant during our holiday."
+    },
+    {
+      "id": "ss211-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Looking at the results as a whole, the new method worked.",
+      "promptZh": "從整體結果來看，新方法奏效了。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the new method worked.",
+      "answerZh": "整體而言，新方法奏效了。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the new method worked."
+    },
+    {
+      "id": "ss211-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The reviews were mainly positive.",
+      "promptZh": "這些評論主要都是正面的。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the reviews were positive.",
+      "answerZh": "整體而言，這些評論都是正面的。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the reviews were positive."
+    },
+    {
+      "id": "ss211-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "There were a few complaints, but most customers liked the service.",
+      "promptZh": "雖然有少數投訴，但大部分顧客都喜歡這項服務。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the customers liked the service.",
+      "answerZh": "整體而言，顧客都喜歡這項服務。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the customers liked the service."
+    },
+    {
+      "id": "ss211-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Generally speaking, the neighbourhood is safe.",
+      "promptZh": "一般來說，這個社區很安全。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the neighbourhood is safe.",
+      "answerZh": "整體而言，這個社區很安全。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the neighbourhood is safe."
+    },
+    {
+      "id": "ss211-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "In most respects, the report is accurate.",
+      "promptZh": "這份報告在大部分方面都是準確的。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the report is accurate.",
+      "answerZh": "整體而言，這份報告是準確的。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the report is accurate."
+    },
+    {
+      "id": "ss211-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The event was successful despite a few minor problems.",
+      "promptZh": "儘管出現了一些小問題，活動仍算成功。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the event was successful.",
+      "answerZh": "整體而言，這項活動是成功的。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the event was successful."
+    },
+    {
+      "id": "ss211-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The staff usually follow the new procedure.",
+      "promptZh": "職員通常都會遵循新程序。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the staff follow the new procedure.",
+      "answerZh": "整體而言，職員都會遵循新程序。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the staff follow the new procedure."
+    },
+    {
+      "id": "ss211-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Most of the shops close by nine o’clock.",
+      "promptZh": "大部分商店都會在九時前關門。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the shops close by nine o’clock.",
+      "answerZh": "整體而言，商店都會在九時前關門。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the shops close by nine o’clock."
+    },
+    {
+      "id": "ss211-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The students were well prepared overall.",
+      "promptZh": "學生整體上準備充足。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the students were well prepared.",
+      "answerZh": "整體而言，學生準備充足。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the students were well prepared."
+    },
+    {
+      "id": "ss211-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When all the evidence is considered, the policy has helped the community.",
+      "promptZh": "考慮所有證據後，這項政策整體上幫助了社區。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the policy has helped the community.",
+      "answerZh": "整體而言，這項政策幫助了社區。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the policy has helped the community."
+    },
+    {
+      "id": "ss211-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although some lessons were difficult, the course was useful overall.",
+      "promptZh": "雖然部分課堂很困難，但這個課程整體而言很有用。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the course was useful.",
+      "answerZh": "整體而言，這個課程很有用。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the course was useful."
+    },
+    {
+      "id": "ss211-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The hospital operates efficiently in most situations.",
+      "promptZh": "這間醫院在大部分情況下都運作有效率。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the hospital operates efficiently.",
+      "answerZh": "整體而言，這間醫院運作有效率。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the hospital operates efficiently."
+    },
+    {
+      "id": "ss211-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Taken as a whole, the proposal is practical.",
+      "promptZh": "整體來看，這項建議切實可行。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the proposal is practical.",
+      "answerZh": "整體而言，這項建議切實可行。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the proposal is practical."
+    },
+    {
+      "id": "ss211-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The public response was positive for the most part.",
+      "promptZh": "公眾的反應大致上是正面的。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the public response was positive.",
+      "answerZh": "整體而言，公眾的反應是正面的。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the public response was positive."
+    },
+    {
+      "id": "ss211-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Most people found the app easy to use, although a few experienced technical problems.",
+      "promptZh": "大部分人都認為這個應用程式容易使用，但少數人遇到了技術問題。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, people found the app easy to use.",
+      "answerZh": "整體而言，人們都認為這個應用程式容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, people found the app easy to use."
+    },
+    {
+      "id": "ss211-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The project stayed within budget except for a small rise in transport costs.",
+      "promptZh": "除了運輸成本略為增加外，這個項目並沒有超出預算。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the project stayed within budget.",
+      "answerZh": "整體而言，這個項目並沒有超出預算。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the project stayed within budget."
+    },
+    {
+      "id": "ss211-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The new timetable suits most of the employees.",
+      "promptZh": "新時間表適合大部分僱員。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the new timetable suits the employees.",
+      "answerZh": "整體而言，新時間表適合僱員。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the new timetable suits the employees."
+    },
+    {
+      "id": "ss211-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In general terms, the economy remained stable during the period.",
+      "promptZh": "概括而言，經濟在這段期間保持穩定。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the economy remained stable during the period.",
+      "answerZh": "整體而言，經濟在這段期間保持穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the economy remained stable during the period."
+    },
+    {
+      "id": "ss211-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There are exceptions, but children usually adapt quickly to the new routine.",
+      "promptZh": "雖然存在例外，但兒童通常很快便能適應新的日常安排。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, children adapt quickly to the new routine.",
+      "answerZh": "整體而言，兒童很快便能適應新的日常安排。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, children adapt quickly to the new routine."
+    },
+    {
+      "id": "ss211-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The village has kept its traditional character, although several modern buildings have appeared.",
+      "promptZh": "雖然村內出現了數座現代建築，但村莊大致保留了傳統特色。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the village has kept its traditional character.",
+      "answerZh": "整體而言，這個村莊保留了傳統特色。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the village has kept its traditional character."
+    },
+    {
+      "id": "ss211-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The committee accepted the recommendations overall, although it questioned a few details.",
+      "promptZh": "委員會整體上接受了這些建議，但對少數細節提出了疑問。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the committee accepted the recommendations.",
+      "answerZh": "整體而言，委員會接受了這些建議。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the committee accepted the recommendations."
+    },
+    {
+      "id": "ss211-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Most of the equipment worked properly during the test.",
+      "promptZh": "大部分設備在測試期間都正常運作。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the equipment worked properly during the test.",
+      "answerZh": "整體而言，設備在測試期間都正常運作。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the equipment worked properly during the test."
+    },
+    {
+      "id": "ss211-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The campaign reached its target audience in most areas.",
+      "promptZh": "這項宣傳活動在大部分地區都接觸到目標受眾。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the campaign reached its target audience.",
+      "answerZh": "整體而言，這項宣傳活動接觸到目標受眾。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the campaign reached its target audience."
+    },
+    {
+      "id": "ss211-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although two deadlines were missed, the work progressed according to plan.",
+      "promptZh": "雖然錯過了兩個期限，但工作大致按照計劃進行。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the work progressed according to plan.",
+      "answerZh": "整體而言，工作按照計劃進行。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the work progressed according to plan."
+    },
+    {
+      "id": "ss211-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The restaurant maintains a high standard on most evenings.",
+      "promptZh": "這間餐廳在大部分晚上都能維持高水平。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the restaurant maintains a high standard.",
+      "answerZh": "整體而言，這間餐廳能夠維持高水平。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the restaurant maintains a high standard."
+    },
+    {
+      "id": "ss211-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The changes have been welcomed by most staff members despite some early concern.",
+      "promptZh": "儘管初期有人感到憂慮，但大部分職員都歡迎這些改變。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the changes have been welcomed by the staff.",
+      "answerZh": "整體而言，職員都歡迎這些改變。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the changes have been welcomed by the staff."
+    },
+    {
+      "id": "ss211-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Looking at attendance, feedback and results together, the programme was effective.",
+      "promptZh": "綜合出席率、意見和成果來看，這項計劃是有效的。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the programme was effective.",
+      "answerZh": "整體而言，這項計劃是有效的。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the programme was effective."
+    },
+    {
+      "id": "ss211-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The rules are followed in most cases, although occasional mistakes occur.",
+      "promptZh": "雖然偶爾會出現錯誤，但大部分情況下人們都會遵守規則。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the rules are followed.",
+      "answerZh": "整體而言，人們都會遵守規則。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the rules are followed."
+    },
+    {
+      "id": "ss211-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Most passengers found the new booking system convenient.",
+      "promptZh": "大部分乘客都認為新的預訂系統很方便。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, passengers found the new booking system convenient.",
+      "answerZh": "整體而言，乘客都認為新的預訂系統很方便。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, passengers found the new booking system convenient."
+    },
+    {
+      "id": "ss211-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The town centre remains lively even though some smaller shops have closed.",
+      "promptZh": "儘管部分小型商店已經結業，市中心大致上仍然充滿活力。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the town centre remains lively.",
+      "answerZh": "整體而言，市中心仍然充滿活力。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the town centre remains lively."
+    },
+    {
+      "id": "ss211-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although individual experiences varied, the exchange programme benefited the students overall.",
+      "promptZh": "雖然個別學生的經歷有所不同，但交流計劃整體上令學生受益。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the exchange programme benefited the students.",
+      "answerZh": "整體而言，交流計劃令學生受益。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the exchange programme benefited the students."
+    },
+    {
+      "id": "ss211-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Considering the quality, price and service together, the hotel offers good value.",
+      "promptZh": "綜合考慮質素、價格和服務，這間酒店物有所值。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the hotel offers good value.",
+      "answerZh": "整體而言，這間酒店物有所值。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the hotel offers good value."
+    },
+    {
+      "id": "ss211-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company met its main goals despite falling slightly short in two regions.",
+      "promptZh": "儘管公司在兩個地區的表現略低於目標，但它仍大致達成了主要目標。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the company met its main goals.",
+      "answerZh": "整體而言，公司達成了主要目標。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the company met its main goals."
+    },
+    {
+      "id": "ss211-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Most residents support the redevelopment plan, although concerns remain about traffic.",
+      "promptZh": "雖然居民仍然擔心交通問題，但大部分居民都支持重建計劃。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, residents support the redevelopment plan.",
+      "answerZh": "整體而言，居民都支持重建計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, residents support the redevelopment plan."
+    },
+    {
+      "id": "ss211-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The research findings point in the same direction, with only a few unusual results.",
+      "promptZh": "研究結果大致指向同一方向，只有少數結果較為異常。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the research findings point in the same direction.",
+      "answerZh": "整體而言，研究結果指向同一方向。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the research findings point in the same direction."
+    },
+    {
+      "id": "ss211-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In most departments, the new system has reduced paperwork and saved time.",
+      "promptZh": "在大部分部門，新系統都減少了文書工作，並節省了時間。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the new system has reduced paperwork and saved time.",
+      "answerZh": "整體而言，新系統減少了文書工作，並節省了時間。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the new system has reduced paperwork and saved time."
+    },
+    {
+      "id": "ss211-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school handled the transition well apart from a few communication problems at the beginning.",
+      "promptZh": "除了初期出現一些溝通問題外，學校妥善處理了這次過渡。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the school handled the transition well.",
+      "answerZh": "整體而言，學校妥善處理了這次過渡。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the school handled the transition well."
+    },
+    {
+      "id": "ss211-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When the year is viewed as a whole, the organisation made steady progress.",
+      "promptZh": "從全年整體來看，這個機構取得了穩定進展。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the organisation made steady progress during the year.",
+      "answerZh": "整體而言，這個機構在年內取得了穩定進展。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the organisation made steady progress during the year."
+    },
+    {
+      "id": "ss211-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new safety measures have worked well in practice, although they still need minor adjustments.",
+      "promptZh": "新的安全措施在實際運作中大致成效良好，但仍需要作出輕微調整。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the new safety measures have worked well in practice.",
+      "answerZh": "整體而言，新的安全措施在實際運作中成效良好。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the new safety measures have worked well in practice."
+    },
+    {
+      "id": "ss211-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although no policy can satisfy everyone, the reforms have improved the service for most users.",
+      "promptZh": "雖然沒有任何政策可以令所有人滿意，但改革改善了大部分使用者所獲得的服務。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By and large, the reforms have improved the service for users.",
+      "answerZh": "整體而言，改革改善了使用者所獲得的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "By and large, the reforms have improved the service for users."
+    }
+  ]
+}

@@ -1,0 +1,1227 @@
+{
+  "id": "ss206",
+  "order": 206,
+  "slug": "i-would-argue-that",
+  "title": "「I would argue that ...」提出有理據的個人立場",
+  "titleZh": "「I would argue that ...」提出有理據的個人立場",
+  "titleEn": "Using “I would argue that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 205 -「I would argue that ...」提出有理據的個人立場.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 205; it is assigned system ID ss206 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "I would argue that + complete clause",
+  "formulas": [
+    {
+      "id": "ss206-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "I would argue that + complete clause"
+    }
+  ],
+  "example": "I would argue that critical thinking is more important than memorisation.",
+  "exampleZh": "我認為，批判性思考比死記硬背更重要。",
+  "examples": [
+    {
+      "id": "ss206-example-01",
+      "en": "I would argue that critical thinking is more important than memorisation.",
+      "zh": "我認為，批判性思考比死記硬背更重要。",
+      "highlight": "I would argue that critical thinking is more important than memorisation."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：I would argue that + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss206-rule-01",
+      "zh": "That 後面必須接完整子句 正確： 錯誤： That 後面必須有主語和動詞，例如：",
+      "en": "Follow that with a complete clause containing a subject and verb. Correct: I would argue that clear communication is essential. Incorrect: I would argue that clear communication. In the correct clause, clear communication is the subject and is is the verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I would argue that clear communication is essential.",
+        "I would argue that clear communication.",
+        "clear communication + is"
+      ]
+    },
+    {
+      "id": "ss206-rule-02",
+      "zh": "Would 在這裏通常不是表示將來 在 I would argue that ... 中，would 通常用來令語氣較有分寸，並不是表示「將會爭辯」。 因此，整句通常可自然理解為： ● 我認為…… ● 我會主張…… ● 我的看法是…… 不宜逐字翻譯成「我將會爭辯……」。",
+      "en": "Would does not normally express the future in “I would argue that ...”. It makes the tone more measured, so the sentence naturally means “I think ...”, “I would maintain ...” or “My view is ....” Do not translate it literally as a promise that you will argue later.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss206-rule-03",
+      "zh": "此句型適合提出可以討論的觀點 適合： （我認為，學校應該教授理財知識。） 不太適合用來陳述無需爭論的基本事實： 這個句子文法正確，但語境通常不自然，因為該內容一般不是個人立場。",
+      "en": "Use the structure for a debatable viewpoint: I would argue that schools should teach financial literacy. It is less natural for an undisputed basic fact such as “I would argue that water freezes at zero degrees Celsius”, because that statement is not normally a personal position.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I would argue that schools should teach financial literacy.",
+        "I would argue that water freezes at zero degrees Celsius."
+      ]
+    },
+    {
+      "id": "ss206-rule-04",
+      "zh": "負面意思通常放在 that 子句內 正確： （我認為，這個計劃並不實際。） I would not argue that the plan is realistic 的意思不同，表示說話者「不會主張」該計劃實際， 並不是本課練習的主要句型。",
+      "en": "Put ordinary negative meaning inside the that-clause: I would argue that the plan is not realistic. “I would not argue that the plan is realistic” has a different meaning: the speaker would not make that claim. It is not the main target pattern in this lesson.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I would argue that the plan is not realistic."
+      ]
+    },
+    {
+      "id": "ss206-rule-05",
+      "zh": "不要混淆三種不同結構 我認為該政策不公平。 我與同事爭論。 他們就該決定爭論。 本課只練習： I would argue that + 完整觀點",
+      "en": "Do not confuse three structures. “I would argue that the policy is unfair” presents a viewpoint. “I argued with my colleague” describes an argument with a person. “They argued about the decision” describes an argument about a topic. This lesson practises only I would argue that + complete viewpoint.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I would argue that the policy is unfair.",
+        "I argued with my colleague.",
+        "They argued about the decision."
+      ]
+    },
+    {
+      "id": "ss206-rule-06",
+      "zh": "改寫時須保留原句的語氣和細節 原句中的以下內容應盡量保留： ● 時態 ● 否定意思 ● should、can、may、must 等情態動詞 ● 比較關係 ● 條件 ● 原因 ● 程度 例如： 應改為： 不應把 may create 改成較肯定的 will create。",
+      "en": "Preserve the source tone and details when rewriting, including tense, negation, modal verbs such as should, can, may and must, comparisons, conditions, reasons and degree. Example: My view is that the policy may create new problems. → I would argue that the policy may create new problems. Do not strengthen may create to will create.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "My view is that the policy may create new problems.",
+        "I would argue that the policy may create new problems."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss206-benefit-01",
+      "zh": "這個句型能顯示你的說法並非一時感覺，而是一個可以用理由支持的立場。",
+      "en": "It helps you express a reasoned opinion This structure shows that your statement is not merely a sudden personal feeling. It suggests that you have reasons for your position.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss206-benefit-02",
+      "zh": "你可以清楚表明立場，同時避免把個人觀點說成絕對事實，令語氣堅定但不過分強硬。",
+      "en": "It sounds confident without being too blunt Instead of presenting an opinion as an unquestionable fact, you can state your position firmly while leaving room for discussion.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss206-benefit-03",
+      "zh": "這個句型適合用來提出作文立場、主要論點、討論題答案或工作上的建議。",
+      "en": "It is useful in essays and discussions You can use the structure to introduce: ● a thesis statement; ● a main argument; ● an answer to a discussion question; ● a professional recommendation.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss206-benefit-04",
+      "zh": "學生經常重複使用 I think。這個句型能提供另一種自然的立場表達方式，令說話和寫作不會過分 重複。",
+      "en": "It gives you an alternative to “I think” Learners often repeat I think many times. I would argue that ... gives you another natural way to introduce an opinion.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss206-benefit-05",
+      "zh": "使用這個句型提出立場後，你可以自然地補充理由、解釋、例子和結果，令整個論述更有組織。 Compare 比較 兩句都表示個人意見，但第二句更清楚地表示：這是一個說話者準備以理由支持的立場。",
+      "en": "It makes it easier to develop an argument After using I would argue that ..., you can naturally continue with: ● because; ● one reason is that; ● for example; ● this is because; ● therefore. I think public transport needs more investment. I would argue that public transport needs more investment.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 205; it is assigned system ID ss206 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: I would argue that + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「I would argue that + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss206-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I think that spending time with family is more valuable than buying expensive gifts.",
+      "promptZh": "我認為，與家人共度時間比購買昂貴禮物更有價值。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that spending time with family is more valuable than buying expensive gifts.",
+      "answerZh": "我認為，與家人共度時間比購買昂貴禮物更有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that spending time with family is more valuable than buying expensive gifts."
+    },
+    {
+      "id": "ss206-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In my opinion, students learn better when they ask questions.",
+      "promptZh": "在我看來，學生主動提問時會學得更好。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that students learn better when they ask questions.",
+      "answerZh": "我認為，學生主動提問時會學得更好。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that students learn better when they ask questions."
+    },
+    {
+      "id": "ss206-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I believe that clear instructions prevent many mistakes.",
+      "promptZh": "我相信，清晰的指示能避免很多錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that clear instructions prevent many mistakes.",
+      "answerZh": "我認為，清晰的指示能避免很多錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that clear instructions prevent many mistakes."
+    },
+    {
+      "id": "ss206-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My view is that regular exercise is more beneficial than occasional intense workouts.",
+      "promptZh": "我的看法是，規律運動比間中進行一次高強度訓練更有益。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that regular exercise is more beneficial than occasional intense workouts.",
+      "answerZh": "我認為，規律運動比間中進行一次高強度訓練更有益。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that regular exercise is more beneficial than occasional intense workouts."
+    },
+    {
+      "id": "ss206-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "I would say that public libraries remain important in the digital age.",
+      "promptZh": "我認為，在數碼時代，公共圖書館仍然十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that public libraries remain important in the digital age.",
+      "answerZh": "我認為，在數碼時代，公共圖書館仍然十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that public libraries remain important in the digital age."
+    },
+    {
+      "id": "ss206-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "From my point of view, cooking at home is usually healthier than eating takeaway food.",
+      "promptZh": "從我的角度來看，在家煮食通常比吃外賣食物健康。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that cooking at home is usually healthier than eating takeaway food.",
+      "answerZh": "我認為，在家煮食通常比吃外賣食物健康。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that cooking at home is usually healthier than eating takeaway food."
+    },
+    {
+      "id": "ss206-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As I see it, phones should be put away during family meals.",
+      "promptZh": "在我看來，家庭用餐期間應該把手機收起來。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that phones should be put away during family meals.",
+      "answerZh": "我認為，家庭用餐期間應該把手機收起來。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that phones should be put away during family meals."
+    },
+    {
+      "id": "ss206-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If you ask me, a meaningful apology must include a change in behaviour.",
+      "promptZh": "依我看，有意義的道歉必須包括行為上的改變。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that a meaningful apology must include a change in behaviour.",
+      "answerZh": "我認為，有意義的道歉必須包括行為上的改變。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that a meaningful apology must include a change in behaviour."
+    },
+    {
+      "id": "ss206-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "To my mind, children need free time as well as structured activities.",
+      "promptZh": "我認為，兒童除了需要有安排的活動，也需要自由時間。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that children need free time as well as structured activities.",
+      "answerZh": "我認為，兒童除了需要有安排的活動，也需要自由時間。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that children need free time as well as structured activities."
+    },
+    {
+      "id": "ss206-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My opinion is that planning ahead reduces unnecessary stress.",
+      "promptZh": "我的意見是，提前規劃能減少不必要的壓力。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that planning ahead reduces unnecessary stress.",
+      "answerZh": "我認為，提前規劃能減少不必要的壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that planning ahead reduces unnecessary stress."
+    },
+    {
+      "id": "ss206-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What is your view on homework? I think that short, focused tasks are better than long, repetitive ones.",
+      "promptZh": "你對家課有甚麼看法？我認為，簡短而集中的任務比冗長而重複的任務更好。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that short, focused tasks are better than long, repetitive ones.",
+      "answerZh": "我認為，簡短而集中的任務比冗長而重複的任務更好。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that short, focused tasks are better than long, repetitive ones."
+    },
+    {
+      "id": "ss206-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "My position is that group work succeeds only when everyone’s role is clear.",
+      "promptZh": "我的立場是，只有每個人的角色都清晰時，小組合作才會成功。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that group work succeeds only when everyone’s role is clear.",
+      "answerZh": "我認為，只有每個人的角色都清晰時，小組合作才會成功。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that group work succeeds only when everyone’s role is clear."
+    },
+    {
+      "id": "ss206-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I take the view that examinations should test understanding rather than memory alone.",
+      "promptZh": "我認為，考試應該測試理解能力，而不應只測試記憶力。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that examinations should test understanding rather than memory alone.",
+      "answerZh": "我認為，考試應該測試理解能力，而不應只測試記憶力。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that examinations should test understanding rather than memory alone."
+    },
+    {
+      "id": "ss206-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In my opinion, schools should teach students how to manage money.",
+      "promptZh": "在我看來，學校應該教導學生如何管理金錢。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that schools should teach students how to manage money.",
+      "answerZh": "我認為，學校應該教導學生如何管理金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that schools should teach students how to manage money."
+    },
+    {
+      "id": "ss206-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The way I see it, reading widely improves both vocabulary and judgement.",
+      "promptZh": "依我看，廣泛閱讀能同時提升詞彙量和判斷力。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that reading widely improves both vocabulary and judgement.",
+      "answerZh": "我認為，廣泛閱讀能同時提升詞彙量和判斷力。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that reading widely improves both vocabulary and judgement."
+    },
+    {
+      "id": "ss206-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I believe that employees work better when managers explain the reasons behind their decisions.",
+      "promptZh": "我相信，當管理人員解釋決定背後的原因時，員工會工作得更好。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that employees work better when managers explain the reasons behind their decisions.",
+      "answerZh": "我認為，當管理人員解釋決定背後的原因時，員工會工作得更好。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that employees work better when managers explain the reasons behind their decisions."
+    },
+    {
+      "id": "ss206-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My argument is that flexible working can improve productivity when expectations are clear.",
+      "promptZh": "我的論點是，當工作要求清晰時，彈性工作可以提升生產力。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that flexible working can improve productivity when expectations are clear.",
+      "answerZh": "我認為，當工作要求清晰時，彈性工作可以提升生產力。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that flexible working can improve productivity when expectations are clear."
+    },
+    {
+      "id": "ss206-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I would say that meetings should end with specific next steps.",
+      "promptZh": "我認為，會議結束時應該訂立具體的下一步行動。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that meetings should end with specific next steps.",
+      "answerZh": "我認為，會議結束時應該訂立具體的下一步行動。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that meetings should end with specific next steps."
+    },
+    {
+      "id": "ss206-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "From my perspective, honest feedback is more useful than empty praise.",
+      "promptZh": "從我的角度來看，坦誠的意見比空洞的稱讚更有用。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that honest feedback is more useful than empty praise.",
+      "answerZh": "我認為，坦誠的意見比空洞的稱讚更有用。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that honest feedback is more useful than empty praise."
+    },
+    {
+      "id": "ss206-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "My view is that a company should solve recurring problems instead of repeatedly apologising for them.",
+      "promptZh": "我的看法是，公司應該解決反覆出現的問題，而不是不斷為問題道歉。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that a company should solve recurring problems instead of repeatedly apologising for them.",
+      "answerZh": "我認為，公司應該解決反覆出現的問題，而不是不斷為問題道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that a company should solve recurring problems instead of repeatedly apologising for them."
+    },
+    {
+      "id": "ss206-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you want my opinion, cities should make public transport more reliable before discouraging car use.",
+      "promptZh": "依我看，城市在勸阻市民使用私家車之前，應先提高公共交通的可靠程度。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that cities should make public transport more reliable before discouraging car use.",
+      "answerZh": "我認為，城市在勸阻市民使用私家車之前，應先提高公共交通的可靠程度。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that cities should make public transport more reliable before discouraging car use."
+    },
+    {
+      "id": "ss206-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I think that online learning can be effective, but it cannot fully replace human interaction.",
+      "promptZh": "我認為，網上學習可以有效，但不能完全取代人與人之間的互動。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that online learning can be effective, but it cannot fully replace human interaction.",
+      "answerZh": "我認為，網上學習可以有效，但不能完全取代人與人之間的互動。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that online learning can be effective, but it cannot fully replace human interaction."
+    },
+    {
+      "id": "ss206-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I believe that there is a strong case for giving teenagers more practical work experience.",
+      "promptZh": "我相信，讓青少年獲得更多實際工作經驗是有充分理由支持的。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that there is a strong case for giving teenagers more practical work experience.",
+      "answerZh": "我認為，讓青少年獲得更多實際工作經驗是有充分理由支持的。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that there is a strong case for giving teenagers more practical work experience."
+    },
+    {
+      "id": "ss206-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As I see it, technology should support teachers rather than replace them.",
+      "promptZh": "在我看來，科技應該支援教師，而不是取代教師。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that technology should support teachers rather than replace them.",
+      "answerZh": "我認為，科技應該支援教師，而不是取代教師。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that technology should support teachers rather than replace them."
+    },
+    {
+      "id": "ss206-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 19
+      },
+      "prompt": "My position is that people should not share news before checking its source.",
+      "promptZh": "我的立場是，人們在查證新聞來源之前不應轉發新聞。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that people should not share news before checking its source.",
+      "answerZh": "我認為，人們在查證新聞來源之前不應轉發新聞。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that people should not share news before checking its source."
+    },
+    {
+      "id": "ss206-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I believe that health campaigns are more effective when they offer practical steps, not just warnings.",
+      "promptZh": "我相信，健康宣傳除了提出警告，也提供實際步驟時會更有效。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that health campaigns are more effective when they offer practical steps, not just warnings.",
+      "answerZh": "我認為，健康宣傳除了提出警告，也提供實際步驟時會更有效。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that health campaigns are more effective when they offer practical steps, not just warnings."
+    },
+    {
+      "id": "ss206-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To my mind, protecting personal data is as important as developing new digital services.",
+      "promptZh": "我認為，保障個人資料與開發新的數碼服務同樣重要。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that protecting personal data is as important as developing new digital services.",
+      "answerZh": "我認為，保障個人資料與開發新的數碼服務同樣重要。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that protecting personal data is as important as developing new digital services."
+    },
+    {
+      "id": "ss206-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "My considered view is that businesses should explain clearly how automated decisions are made.",
+      "promptZh": "我經過考慮後認為，企業應該清楚解釋自動化決定是如何作出的。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that businesses should explain clearly how automated decisions are made.",
+      "answerZh": "我認為，企業應該清楚解釋自動化決定是如何作出的。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that businesses should explain clearly how automated decisions are made."
+    },
+    {
+      "id": "ss206-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I would say that cheaper products are not always better value in the long run.",
+      "promptZh": "我認為，從長遠來看，價格較便宜的產品不一定更物有所值。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that cheaper products are not always better value in the long run.",
+      "answerZh": "我認為，從長遠來看，價格較便宜的產品不一定更物有所值。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that cheaper products are not always better value in the long run."
+    },
+    {
+      "id": "ss206-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In my opinion, governments should measure the results of a policy, not merely the number of activities completed.",
+      "promptZh": "在我看來，政府應該衡量政策的實際成果，而不應只計算已完成的活動數目。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that governments should measure the results of a policy, not merely the number of activities completed.",
+      "answerZh": "我認為，政府應該衡量政策的實際成果，而不應只計算已完成的活動數目。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that governments should measure the results of a policy, not merely the number of activities completed."
+    },
+    {
+      "id": "ss206-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why did the project fail? I think it was mainly because its goals were never clearly defined.",
+      "promptZh": "這個項目為甚麼失敗？我認為，主要原因是項目目標從未被清楚界定。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that the project failed mainly because its goals were never clearly defined.",
+      "answerZh": "我認為，這個項目失敗的主要原因是項目目標從未被清楚界定。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that the project failed mainly because its goals were never clearly defined."
+    },
+    {
+      "id": "ss206-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I believe that a rule is fair only if it applies consistently to everyone.",
+      "promptZh": "我相信，只有在一項規則一致地適用於所有人時，它才算公平。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that a rule is fair only if it applies consistently to everyone.",
+      "answerZh": "我認為，只有在一項規則一致地適用於所有人時，它才算公平。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that a rule is fair only if it applies consistently to everyone."
+    },
+    {
+      "id": "ss206-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In my opinion, people are more willing to accept change when they understand its purpose.",
+      "promptZh": "在我看來，當人們明白改變的目的時，便會更願意接受改變。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that people are more willing to accept change when they understand its purpose.",
+      "answerZh": "我認為，當人們明白改變的目的時，便會更願意接受改變。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that people are more willing to accept change when they understand its purpose."
+    },
+    {
+      "id": "ss206-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The argument I would make is that short-term savings can create larger costs later.",
+      "promptZh": "我會提出的論點是，短期節省可能會在日後造成更大的成本。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that short-term savings can create larger costs later.",
+      "answerZh": "我認為，短期節省可能會在日後造成更大的成本。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that short-term savings can create larger costs later."
+    },
+    {
+      "id": "ss206-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "From my perspective, a policy that looks efficient on paper may still fail in practice.",
+      "promptZh": "從我的角度來看，一項在紙面上看來有效率的政策，在實際執行時仍可能失敗。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that a policy that looks efficient on paper may still fail in practice.",
+      "answerZh": "我認為，一項在紙面上看來有效率的政策，在實際執行時仍可能失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that a policy that looks efficient on paper may still fail in practice."
+    },
+    {
+      "id": "ss206-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I take the view that public spending should be judged by the value it creates, not simply by the amount spent.",
+      "promptZh": "我認為，評價公共開支時應考慮它所創造的價值，而不應只看支出的金額。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that public spending should be judged by the value it creates, not simply by the amount spent.",
+      "answerZh": "我認為，評價公共開支時應考慮它所創造的價值，而不應只看支出的金額。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that public spending should be judged by the value it creates, not simply by the amount spent."
+    },
+    {
+      "id": "ss206-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As I see it, organisations should learn from near misses before a serious accident occurs.",
+      "promptZh": "在我看來，機構應該在嚴重事故發生前，從險些發生的事故中汲取教訓。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that organisations should learn from near misses before a serious accident occurs.",
+      "answerZh": "我認為，機構應該在嚴重事故發生前，從險些發生的事故中汲取教訓。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that organisations should learn from near misses before a serious accident occurs."
+    },
+    {
+      "id": "ss206-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "My position is that artificial intelligence can improve decisions only when humans remain accountable.",
+      "promptZh": "我的立場是，只有在人類仍然承擔責任的情況下，人工智能才能改善決策。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that artificial intelligence can improve decisions only when humans remain accountable.",
+      "answerZh": "我認為，只有在人類仍然承擔責任的情況下，人工智能才能改善決策。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that artificial intelligence can improve decisions only when humans remain accountable."
+    },
+    {
+      "id": "ss206-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I would say that customer complaints often reveal problems that internal reports overlook.",
+      "promptZh": "我認為，顧客投訴往往能揭示內部報告忽略的問題。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that customer complaints often reveal problems that internal reports overlook.",
+      "answerZh": "我認為，顧客投訴往往能揭示內部報告忽略的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that customer complaints often reveal problems that internal reports overlook."
+    },
+    {
+      "id": "ss206-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "To my mind, leaders earn trust by admitting uncertainty rather than pretending to know everything.",
+      "promptZh": "我認為，領導者承認自己有所不確定，比假裝無所不知更能贏得信任。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that leaders earn trust by admitting uncertainty rather than pretending to know everything.",
+      "answerZh": "我認為，領導者承認自己有所不確定，比假裝無所不知更能贏得信任。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that leaders earn trust by admitting uncertainty rather than pretending to know everything."
+    },
+    {
+      "id": "ss206-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "My answer is that employees should be allowed to challenge management decisions respectfully.",
+      "promptZh": "我的答案是，員工應該獲准以尊重的方式質疑管理層的決定。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that employees should be allowed to challenge management decisions respectfully.",
+      "answerZh": "我認為，員工應該獲准以尊重的方式質疑管理層的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that employees should be allowed to challenge management decisions respectfully."
+    },
+    {
+      "id": "ss206-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "My considered opinion is that economic growth should be evaluated alongside its effects on health and the environment.",
+      "promptZh": "我經過考慮後認為，評估經濟增長時，也應同時考慮它對健康和環境的影響。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that economic growth should be evaluated alongside its effects on health and the environment.",
+      "answerZh": "我認為，評估經濟增長時，也應同時考慮它對健康和環境的影響。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that economic growth should be evaluated alongside its effects on health and the environment."
+    },
+    {
+      "id": "ss206-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I believe that a system which rewards speed alone will eventually sacrifice quality.",
+      "promptZh": "我相信，一個只獎勵速度的制度最終會犧牲品質。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that a system which rewards speed alone will eventually sacrifice quality.",
+      "answerZh": "我認為，一個只獎勵速度的制度最終會犧牲品質。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that a system which rewards speed alone will eventually sacrifice quality."
+    },
+    {
+      "id": "ss206-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If you ask me, the most useful education does more than prepare people for their first job; it prepares them to keep learning.",
+      "promptZh": "依我看，最有用的教育不只幫助人們準備第一份工作，也讓他們為持續學習作好準備。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that the most useful education does more than prepare people for their first job; it prepares them to keep learning.",
+      "answerZh": "我認為，最有用的教育不只幫助人們準備第一份工作，也讓他們為持續學習作好準備。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that the most useful education does more than prepare people for their first job; it prepares them to keep learning."
+    },
+    {
+      "id": "ss206-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "My argument is that when resources are limited, prevention often deserves more attention than repair.",
+      "promptZh": "我的論點是，當資源有限時，預防往往比事後修補更值得重視。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that when resources are limited, prevention often deserves more attention than repair.",
+      "answerZh": "我認為，當資源有限時，預防往往比事後修補更值得重視。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that when resources are limited, prevention often deserves more attention than repair."
+    },
+    {
+      "id": "ss206-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "From my point of view, a proposal should not be rejected merely because it comes from an unpopular person.",
+      "promptZh": "從我的角度來看，不應只因一項建議來自不受歡迎的人，便否決該項建議。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that a proposal should not be rejected merely because it comes from an unpopular person.",
+      "answerZh": "我認為，不應只因一項建議來自不受歡迎的人，便否決該項建議。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that a proposal should not be rejected merely because it comes from an unpopular person."
+    },
+    {
+      "id": "ss206-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I take the view that data can guide judgement, but it cannot replace human judgement.",
+      "promptZh": "我認為，數據可以為判斷提供指引，但不能取代人的判斷。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that data can guide judgement, but it cannot replace human judgement.",
+      "answerZh": "我認為，數據可以為判斷提供指引，但不能取代人的判斷。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that data can guide judgement, but it cannot replace human judgement."
+    },
+    {
+      "id": "ss206-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The way I see it, organisations that punish every honest mistake make people less willing to report risks.",
+      "promptZh": "依我看，對每一次無心之失都作出懲罰的機構，會令人更不願意報告風險。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that organisations that punish every honest mistake make people less willing to report risks.",
+      "answerZh": "我認為，對每一次無心之失都作出懲罰的機構，會令人更不願意報告風險。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that organisations that punish every honest mistake make people less willing to report risks."
+    },
+    {
+      "id": "ss206-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "My position is that a decision may be legally permitted and still be ethically questionable.",
+      "promptZh": "我的立場是，一項決定即使在法律上獲得容許，在倫理上仍可能有問題。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that a decision may be legally permitted and still be ethically questionable.",
+      "answerZh": "我認為，一項決定即使在法律上獲得容許，在倫理上仍可能有問題。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that a decision may be legally permitted and still be ethically questionable."
+    },
+    {
+      "id": "ss206-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 23
+      },
+      "prompt": "In my opinion, long-term progress depends less on dramatic promises than on consistent, well-designed action.",
+      "promptZh": "在我看來，長遠進步較少取決於誇張的承諾，而較多取決於持續而經過周詳設計的行動。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would argue that long-term progress depends less on dramatic promises than on consistent, well-designed action.",
+      "answerZh": "我認為，長遠進步較少取決於誇張的承諾，而較多取決於持續而經過周詳設計的行動。",
+      "answerZhSource": "pdf",
+      "highlight": "I would argue that long-term progress depends less on dramatic promises than on consistent, well-designed action."
+    }
+  ]
+}

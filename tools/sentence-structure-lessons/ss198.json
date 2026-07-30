@@ -1,0 +1,1270 @@
+{
+  "id": "ss198",
+  "order": 198,
+  "slug": "in-due-course",
+  "title": "「In due course」表示「在適當時候／按正常程序稍後」",
+  "titleZh": "「In due course」表示「在適當時候／按正常程序稍後」",
+  "titleEn": "Using “in due course”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 198 -「In due course」表示「在適當時候／按正常程序稍後」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Subject + will / may / should + verb + in due course",
+  "formulas": [
+    {
+      "id": "ss198-formula-01",
+      "labelEn": "Sentence-final",
+      "labelZh": "放在句末",
+      "formula": "Subject + will / may / should + verb + in due course"
+    },
+    {
+      "id": "ss198-formula-02",
+      "labelEn": "Passive",
+      "labelZh": "被動句",
+      "formula": "Subject + will + be + past participle + in due course"
+    },
+    {
+      "id": "ss198-formula-03",
+      "labelEn": "Sentence-initial",
+      "labelZh": "放在句首",
+      "formula": "In due course, + complete sentence"
+    }
+  ],
+  "example": "The manager will reply in due course.",
+  "exampleZh": "經理會在適當時候回覆。",
+  "examples": [
+    {
+      "id": "ss198-example-01",
+      "en": "The manager will reply in due course.",
+      "zh": "經理會在適當時候回覆。",
+      "highlight": "The manager will reply in due course."
+    },
+    {
+      "id": "ss198-example-02",
+      "en": "The results will be announced in due course.",
+      "zh": "結果將會在適當時候公布。",
+      "highlight": "The results will be announced in due course."
+    },
+    {
+      "id": "ss198-example-03",
+      "en": "In due course, you will receive further information.",
+      "zh": "在適當時候，你會收到進一步資料。",
+      "highlight": "In due course, you will receive further information."
+    },
+    {
+      "id": "ss198-example-04",
+      "en": "The full details will be released in due course.",
+      "zh": "完整細節將會在適當時候公布。",
+      "highlight": "The full details will be released in due course."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Subject + will / may / should + verb + in due course。"
+  },
+  "rules": [
+    {
+      "id": "ss198-rule-01",
+      "zh": "它不表示確實的日期或時間 In due course 表示事情會在適當時候發生，但沒有說明確實是哪一天或多久之後。 （有關決定將會在適當時候公布。） 這句沒有承諾公布日期。",
+      "en": "It does not give an exact date or time. In due course says that something will happen at the proper time, but not on which day or after how long. “The decision will be announced in due course” does not promise an announcement date.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The decision will be announced in due course."
+      ]
+    },
+    {
+      "id": "ss198-rule-02",
+      "zh": "它不等於 soon Soon 表示「很快」，但 in due course 不一定表示很快。 （文件很快便會歸還。） （文件會在完成正常程序後，於適當時候歸還。） 第二句沒有承諾事情會迅速完成。",
+      "en": "It does not mean soon. Soon means “in a short time”, whereas in due course does not necessarily promise speed. Compare: The documents will be returned soon. The documents will be returned in due course. The second sentence says that the documents will be returned at the proper stage after the normal process, without promising that this will happen quickly.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The documents will be returned soon.",
+        "The documents will be returned in due course."
+      ]
+    },
+    {
+      "id": "ss198-rule-03",
+      "zh": "它常用於正式或半正式場合 這個片語常見於： ● 商業電郵； ● 公司通知； ● 政府或學校公告； ● 顧客服務回覆； ● 行政和法律程序； ● 正式書面溝通。 在非常輕鬆的日常對話中，人們較常使用 later、when the time is right 或 when everything is ready。",
+      "en": "It is common in formal or semi-formal contexts, including business emails, company notices, government or school announcements, customer-service replies, administrative and legal procedures, and formal writing. In casual conversation, later, when the time is right, or when everything is ready is more common.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss198-rule-04",
+      "zh": "它可以放在句末或句首 句末位置最常見： （你會在適當時候收到回覆。） 放在句首時，後面通常加逗號： （在適當時候，你會收到回覆。）",
+      "en": "It can come at the end or beginning of a sentence. The end position is most common: You will receive a reply in due course. At the beginning, it is normally followed by a comma: In due course, you will receive a reply.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You will receive a reply in due course.",
+        "In due course, you will receive a reply."
+      ]
+    },
+    {
+      "id": "ss198-rule-05",
+      "zh": "它不等於 in time In time 表示「及時、趕得及」，即在太遲之前完成。 （我們及時到達，趕上了會議。） In due course 表示「按照正常進度，在適當時候」。 （會議紀錄會在適當時候派發。）",
+      "en": "It does not mean in time. In time means early enough, before it is too late: We arrived in time for the meeting. In due course means at the proper time as the normal process continues: The meeting notes will be distributed in due course.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We arrived in time for the meeting.",
+        "The meeting notes will be distributed in due course."
+      ]
+    },
+    {
+      "id": "ss198-rule-06",
+      "zh": "它不等於 due date Due date 是截止日期。 （付款限期是星期五。） （付款會按正常程序在適當時候處理。）",
+      "en": "Do not confuse it with due date, which means a deadline. “The payment is due on Friday” gives the deadline; “The payment will be processed in due course” says it will be handled at the appropriate stage of the normal process.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The payment is due on Friday.",
+        "The payment will be processed in due course."
+      ]
+    },
+    {
+      "id": "ss198-rule-07",
+      "zh": "不要加入 the。正確：in due course。錯誤：in the due course。",
+      "en": "Do not add “the”. Correct: in due course. Incorrect: in the due course.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "in due course",
+        "in the due course"
+      ]
+    },
+    {
+      "id": "ss198-rule-08",
+      "zh": "如有明確限期，應直接說明日期 In due course 適合在確實時間尚未確定，或事情必須先經過正常程序時使用。 如對方需要知道明確期限，應直接說： （我們會在星期五前回覆。） 而不是只說： （我們會在適當時候回覆。）",
+      "en": "If there is a definite deadline, state the date directly. Use in due course when the exact time is not yet known or the matter must first go through the normal process. If the other person needs a clear deadline, say “We will reply by Friday” rather than only “We will reply in due course.”",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We will reply by Friday.",
+        "We will reply in due course."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss198-benefit-01",
+      "zh": "這個句型能清楚表達事情不會立即發生，但會在完成必要程序後，於適當時候發生。",
+      "en": "It clearly means “not now, but at the proper time” This structure tells the reader that something will happen later, after the necessary time or process.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss198-benefit-02",
+      "zh": "你不需要生硬地叫對方等待，也可以禮貌地讓對方知道事情並未被忘記。 （請等待。我們現在不能回答你。） （你會在適當時候收到答覆。） 第二句較平和，也較適合正式溝通。",
+      "en": "It gives polite reassurance. Instead of simply telling someone to wait, you can reassure them that the matter has not been forgotten. Compare: Please wait. We cannot answer you now. You will receive an answer in due course. The second version is calmer and better suited to formal communication.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss198-benefit-03",
+      "zh": "使用 soon 可能令人以為事情很快便會完成。使用 in due course 則不會作出不必要的快速承 諾。",
+      "en": "It avoids making a false promise Using soon may make people expect a quick result. In due course does not promise that the action will happen immediately.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss198-benefit-04",
+      "zh": "這個片語適合用於公告、報告、商業電郵及行政溝通，能令語氣保持正式和中立。",
+      "en": "It is useful in formal writing. The phrase suits notices, reports, business emails and administrative communication, and helps maintain a formal, neutral tone.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss198-benefit-05",
+      "zh": "你不需要每次都詳細解釋「完成正常程序後，事情便會在適當時候發生」，可以用 in due course 簡潔地表達相同概念。 第二句更加簡潔，但仍保留「按正常程序在適當時候處理」的意思。",
+      "en": "It can shorten a longer explanation. Instead of repeatedly explaining that something will happen after the normal steps have been completed, you can use in due course. Compare: We will contact you later, after the usual procedures have been completed and when the time is appropriate. We will contact you in due course. The second sentence is more concise while preserving the idea that the matter will be handled at the proper time through the normal process.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Subject + will / may / should + verb + in due course.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Subject + will / may / should + verb + in due course」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss198-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The full details will be released at the appropriate time.",
+      "promptZh": "完整細節將會在適當時候公布。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The full details will be released in due course.",
+      "answerZh": "完整細節將會在適當時候公布。",
+      "answerZhSource": "pdf",
+      "highlight": "The full details will be released in due course."
+    },
+    {
+      "id": "ss198-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We will contact you later, when the time is right.",
+      "promptZh": "我們稍後會在適當時候聯絡你。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We will contact you in due course.",
+      "answerZh": "我們會在適當時候聯絡你。",
+      "answerZhSource": "pdf",
+      "highlight": "We will contact you in due course."
+    },
+    {
+      "id": "ss198-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Your order will arrive after the normal delivery process has been completed.",
+      "promptZh": "你的訂單會在正常送貨程序完成後送達。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your order will arrive in due course.",
+      "answerZh": "你的訂單會在完成正常程序後於適當時候送達。",
+      "answerZhSource": "pdf",
+      "highlight": "Your order will arrive in due course."
+    },
+    {
+      "id": "ss198-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The manager will reply at the proper stage of the process.",
+      "promptZh": "經理會在程序的適當階段回覆。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager will reply in due course.",
+      "answerZh": "經理會在程序的適當階段回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager will reply in due course."
+    },
+    {
+      "id": "ss198-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The results will be announced when the organisers consider the time appropriate.",
+      "promptZh": "主辦單位會在認為時機適當時公布結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The results will be announced in due course.",
+      "answerZh": "結果將會在適當時候公布。",
+      "answerZhSource": "pdf",
+      "highlight": "The results will be announced in due course."
+    },
+    {
+      "id": "ss198-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Your refund will be processed later through the normal procedure.",
+      "promptZh": "你的退款稍後會按照正常程序處理。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your refund will be processed in due course.",
+      "answerZh": "你的退款會按正常程序在適當時候處理。",
+      "answerZhSource": "pdf",
+      "highlight": "Your refund will be processed in due course."
+    },
+    {
+      "id": "ss198-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The certificate will be sent after the usual administrative steps.",
+      "promptZh": "證書會在完成一般行政程序後寄出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The certificate will be sent in due course.",
+      "answerZh": "證書會在完成一般行政程序後於適當時候寄出。",
+      "answerZhSource": "pdf",
+      "highlight": "The certificate will be sent in due course."
+    },
+    {
+      "id": "ss198-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why has the school not published the timetable yet? It will publish it at the appropriate time.",
+      "promptZh": "學校為甚麼仍未公布時間表？校方會在適當時候公布。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school will publish the timetable in due course.",
+      "answerZh": "學校會在適當時候公布時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "The school will publish the timetable in due course."
+    },
+    {
+      "id": "ss198-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The committee will not decide immediately. It will make its decision at the right stage.",
+      "promptZh": "委員會不會立即作出決定，而會在適當階段作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee will make its decision in due course.",
+      "answerZh": "委員會會在適當階段作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee will make its decision in due course."
+    },
+    {
+      "id": "ss198-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "New members will receive their membership cards after the normal registration process.",
+      "promptZh": "新會員會在完成正常登記程序後收到會員證。",
+      "promptZhSource": "pdf",
+      "starter": "New",
+      "answer": "New members will receive their membership cards in due course.",
+      "answerZh": "新會員會在完成正常登記程序後於適當時候收到會員證。",
+      "answerZhSource": "pdf",
+      "highlight": "New members will receive their membership cards in due course."
+    },
+    {
+      "id": "ss198-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "More information will become available later as the normal process continues.",
+      "promptZh": "隨着正常程序繼續進行，稍後將會有更多資料公布。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In due course, more information will become available.",
+      "answerZh": "在適當時候，將會有更多資料公布。",
+      "answerZhSource": "pdf",
+      "highlight": "In due course, more information will become available."
+    },
+    {
+      "id": "ss198-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The admissions team will review your application when it reaches the proper stage.",
+      "promptZh": "招生組會在你的申請進入適當階段時進行審核。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The admissions team will review your application in due course.",
+      "answerZh": "招生組會在申請程序的適當階段審核你的申請。",
+      "answerZhSource": "pdf",
+      "highlight": "The admissions team will review your application in due course."
+    },
+    {
+      "id": "ss198-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bank will activate the account when its standard checks are complete and the time is appropriate.",
+      "promptZh": "銀行完成標準審查後，會在適當時候啟動戶口。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In due course, the bank will activate the account once its standard checks are complete.",
+      "answerZh": "銀行完成標準審查後，會在適當時候啟動戶口。",
+      "answerZhSource": "pdf",
+      "highlight": "In due course, the bank will activate the account once its standard checks are complete."
+    },
+    {
+      "id": "ss198-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The repairs will be carried out later according to the maintenance schedule.",
+      "promptZh": "維修工程稍後會按照維修時間表進行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repairs will be carried out in due course according to the maintenance schedule.",
+      "answerZh": "維修工程會按照維修時間表，在適當時候進行。",
+      "answerZhSource": "pdf",
+      "highlight": "The repairs will be carried out in due course according to the maintenance schedule."
+    },
+    {
+      "id": "ss198-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "“Will I receive written confirmation now?” “No. It will be sent at the appropriate stage.”",
+      "promptZh": "「我現在會收到書面確認嗎？」「不會。書面確認會在適當階段寄出。」",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You will receive written confirmation in due course.",
+      "answerZh": "你會在適當時候收到書面確認。",
+      "answerZhSource": "pdf",
+      "highlight": "You will receive written confirmation in due course."
+    },
+    {
+      "id": "ss198-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council will respond when the standard consultation process is complete and the time is appropriate.",
+      "promptZh": "議會完成標準諮詢程序後，會在適當時候作出回應。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In due course, the council will respond once the standard consultation process is complete.",
+      "answerZh": "標準諮詢程序完成後，議會會在適當時候作出回應。",
+      "answerZhSource": "pdf",
+      "highlight": "In due course, the council will respond once the standard consultation process is complete."
+    },
+    {
+      "id": "ss198-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The customer service team will investigate your complaint through the normal process and report back later.",
+      "promptZh": "顧客服務團隊會按照正常程序調查你的投訴，並於稍後作出回覆。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer service team will investigate your complaint and report back in due course.",
+      "answerZh": "顧客服務團隊會調查你的投訴，並按照正常程序於適當時候回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer service team will investigate your complaint and report back in due course."
+    },
+    {
+      "id": "ss198-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Students will be told the final class arrangements at the proper time.",
+      "promptZh": "學生會在適當時候獲知最終的課堂安排。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students will be told the final class arrangements in due course.",
+      "answerZh": "學生會在適當時候獲知最終的課堂安排。",
+      "answerZhSource": "pdf",
+      "highlight": "Students will be told the final class arrangements in due course."
+    },
+    {
+      "id": "ss198-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You do not need to phone again. The team will update you when the time is right.",
+      "promptZh": "你不需要再次致電。團隊會在適當時候向你提供最新消息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team will update you in due course, so you do not need to phone again.",
+      "answerZh": "團隊會在適當時候向你提供最新消息，因此你不需要再次致電。",
+      "answerZhSource": "pdf",
+      "highlight": "The team will update you in due course, so you do not need to phone again."
+    },
+    {
+      "id": "ss198-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The office will keep your original documents during processing and return them afterwards at the appropriate time.",
+      "promptZh": "辦事處會在處理期間保留你的文件正本，並在完成後於適當時候歸還。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The office will return your original documents in due course after processing them.",
+      "answerZh": "辦事處完成處理後，會在適當時候歸還你的文件正本。",
+      "answerZhSource": "pdf",
+      "highlight": "The office will return your original documents in due course after processing them."
+    },
+    {
+      "id": "ss198-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company will disclose the launch date after receiving the final approvals and when the time is appropriate.",
+      "promptZh": "公司取得最終批准後，會在適當時候公布推出日期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company will disclose the launch date in due course after receiving the final approvals.",
+      "answerZh": "公司取得最終批准後，會在適當時候公布推出日期。",
+      "answerZhSource": "pdf",
+      "highlight": "The company will disclose the launch date in due course after receiving the final approvals."
+    },
+    {
+      "id": "ss198-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As your treatment progresses, the doctor will discuss the next steps with you at the appropriate stage.",
+      "promptZh": "隨着治療進展，醫生會在適當階段與你討論下一步安排。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As your treatment progresses, the doctor will discuss the next steps with you in due course.",
+      "answerZh": "隨着治療進展，醫生會在適當階段與你討論下一步安排。",
+      "answerZhSource": "pdf",
+      "highlight": "As your treatment progresses, the doctor will discuss the next steps with you in due course."
+    },
+    {
+      "id": "ss198-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If your claim is approved, the payment will be issued after the standard checks and at the proper time.",
+      "promptZh": "如果你的申索獲得批准，款項會在完成標準審查後於適當時候發放。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If your claim is approved, the payment will be issued in due course after the standard checks.",
+      "answerZh": "如果你的申索獲得批准，款項會在完成標準審查後於適當時候發放。",
+      "answerZhSource": "pdf",
+      "highlight": "If your claim is approved, the payment will be issued in due course after the standard checks."
+    },
+    {
+      "id": "ss198-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Each old road sign will be replaced when its turn comes under the maintenance plan.",
+      "promptZh": "每個舊路牌都會按照維修計劃，在輪到時獲得更換。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each old road sign will be replaced in due course under the maintenance plan.",
+      "answerZh": "每個舊路牌都會按照維修計劃，在適當時候獲得更換。",
+      "answerZhSource": "pdf",
+      "highlight": "Each old road sign will be replaced in due course under the maintenance plan."
+    },
+    {
+      "id": "ss198-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The revised handbook will be circulated after the legal review, when the normal process allows.",
+      "promptZh": "修訂後的手冊會在法律審核完成後，按照正常程序於適當時候傳閱。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The revised handbook will be circulated in due course after the legal review.",
+      "answerZh": "法律審核完成後，修訂後的手冊會在適當時候傳閱。",
+      "answerZhSource": "pdf",
+      "highlight": "The revised handbook will be circulated in due course after the legal review."
+    },
+    {
+      "id": "ss198-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When will the winners’ names be published? They will be published after the judges complete the required checks and at the proper stage.",
+      "promptZh": "得獎者名單會在何時公布？評判完成所需核查後，名單會在適當階段公布。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The winners’ names will be published in due course after the judges complete the required checks.",
+      "answerZh": "評判完成所需核查後，得獎者名單會在適當時候公布。",
+      "answerZhSource": "pdf",
+      "highlight": "The winners’ names will be published in due course after the judges complete the required checks."
+    },
+    {
+      "id": "ss198-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company expects the technical issue to be resolved eventually through the normal support process.",
+      "promptZh": "公司預期有關技術問題最終會透過正常支援程序得到解決。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In due course, the technical issue should be resolved through the normal support process.",
+      "answerZh": "有關技術問題應會透過正常支援程序，在適當時候得到解決。",
+      "answerZhSource": "pdf",
+      "highlight": "In due course, the technical issue should be resolved through the normal support process."
+    },
+    {
+      "id": "ss198-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The service will return to normal later as the maintenance work moves through its usual stages.",
+      "promptZh": "隨着維修工作按照正常階段進行，服務稍後會恢復正常。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The service will return to normal in due course as the maintenance work progresses.",
+      "answerZh": "隨着維修工作進行，服務會在適當時候恢復正常。",
+      "answerZhSource": "pdf",
+      "highlight": "The service will return to normal in due course as the maintenance work progresses."
+    },
+    {
+      "id": "ss198-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Each archive record will be digitised when its turn comes under the long-term schedule.",
+      "promptZh": "每份檔案紀錄都會按照長期時間表，在輪到時進行數碼化。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each archive record will be digitised in due course under the long-term schedule.",
+      "answerZh": "每份檔案紀錄都會按照長期時間表，在適當時候進行數碼化。",
+      "answerZhSource": "pdf",
+      "highlight": "Each archive record will be digitised in due course under the long-term schedule."
+    },
+    {
+      "id": "ss198-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As the trainees gain experience, they will take on more responsibility when the time is right.",
+      "promptZh": "隨着受訓人員累積經驗，他們會在適當時候承擔更多責任。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In due course, the trainees will take on more responsibility as they gain experience.",
+      "answerZh": "隨着受訓人員累積經驗，他們會在適當時候承擔更多責任。",
+      "answerZhSource": "pdf",
+      "highlight": "In due course, the trainees will take on more responsibility as they gain experience."
+    },
+    {
+      "id": "ss198-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The proposal cannot be approved today. It will be considered at the appropriate stage of the next review cycle.",
+      "promptZh": "建議今天不能獲得批准。它會在下一個審核周期的適當階段獲得考慮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal will be considered in due course during the next review cycle.",
+      "answerZh": "有關建議會在下一個審核周期中的適當階段獲得考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal will be considered in due course during the next review cycle."
+    },
+    {
+      "id": "ss198-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Guests who submitted their forms will receive their badges when the registration team reaches their applications in the normal queue.",
+      "promptZh": "已提交表格的賓客會在登記組按照正常次序處理其申請時收到證章。",
+      "promptZhSource": "pdf",
+      "starter": "Guests",
+      "answer": "Guests who submitted their forms will receive their badges in due course as the registration team works through the normal queue.",
+      "answerZh": "登記組按照正常次序處理申請時，已提交表格的賓客會在適當時候收到證章。",
+      "answerZhSource": "pdf",
+      "highlight": "Guests who submitted their forms will receive their badges in due course as the registration team works through the normal queue."
+    },
+    {
+      "id": "ss198-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Please keep your receipt. If your return is accepted, the refund will be sent at the appropriate time.",
+      "promptZh": "請保留收據。如果退貨獲得接納，退款會在適當時候發出。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If your return is accepted, your refund will be sent in due course, so please keep your receipt.",
+      "answerZh": "如果退貨獲得接納，退款會在適當時候發出，因此請保留收據。",
+      "answerZhSource": "pdf",
+      "highlight": "If your return is accepted, your refund will be sent in due course, so please keep your receipt."
+    },
+    {
+      "id": "ss198-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The university is collecting evidence now and will update the policy later, when the review reaches the proper stage.",
+      "promptZh": "大學現正收集證據，並會在檢討進入適當階段時更新政策。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university will update the policy in due course as the evidence review progresses.",
+      "answerZh": "隨着證據檢討工作進行，大學會在適當時候更新政策。",
+      "answerZhSource": "pdf",
+      "highlight": "The university will update the policy in due course as the evidence review progresses."
+    },
+    {
+      "id": "ss198-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why has the new system not been introduced yet? It will be introduced when the preparations are complete and the time is right.",
+      "promptZh": "新系統為甚麼仍未推出？準備工作完成後，系統會在適當時候推出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system will be introduced in due course once the preparations are complete.",
+      "answerZh": "準備工作完成後，新系統會在適當時候推出。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system will be introduced in due course once the preparations are complete."
+    },
+    {
+      "id": "ss198-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the report is not yet finished, the complete version will be published when the process allows.",
+      "promptZh": "雖然報告尚未完成，但完整版本會在程序許可時公布。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the report is not yet finished, the complete version will be published in due course.",
+      "answerZh": "雖然報告尚未完成，但完整版本會在適當時候公布。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the report is not yet finished, the complete version will be published in due course."
+    },
+    {
+      "id": "ss198-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company has acknowledged your request. It will assign an officer later through the normal queue.",
+      "promptZh": "公司已確認收到你的要求，稍後會按照正常次序指派一名職員處理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company will assign an officer to your request in due course through the normal queue.",
+      "answerZh": "公司會按照正常次序，在適當時候指派一名職員處理你的要求。",
+      "answerZhSource": "pdf",
+      "highlight": "The company will assign an officer to your request in due course through the normal queue."
+    },
+    {
+      "id": "ss198-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After observing the results for a suitable period, the committee may revise the rule at the appropriate time.",
+      "promptZh": "委員會觀察結果一段合適時間後，可能會在適當時候修訂規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee may revise the rule in due course after observing the results for a suitable period.",
+      "answerZh": "委員會觀察結果一段合適時間後，可能會在適當時候修訂規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee may revise the rule in due course after observing the results for a suitable period."
+    },
+    {
+      "id": "ss198-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The document is being checked now. The final copy will be returned to you when the ordinary checking process is complete.",
+      "promptZh": "文件現正接受檢查。一般檢查程序完成後，最終版本會交還給你。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final copy will be returned to you in due course once the ordinary checking process is complete.",
+      "answerZh": "一般檢查程序完成後，最終版本會在適當時候交還給你。",
+      "answerZhSource": "pdf",
+      "highlight": "The final copy will be returned to you in due course once the ordinary checking process is complete."
+    },
+    {
+      "id": "ss198-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the road project receives funding, work will begin later according to the approved schedule.",
+      "promptZh": "如果道路工程獲得撥款，工程稍後會按照已批准的時間表展開。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the road project receives funding, work will begin in due course according to the approved schedule.",
+      "answerZh": "如果道路工程獲得撥款，工程會按照已批准的時間表，在適當時候展開。",
+      "answerZhSource": "pdf",
+      "highlight": "If the road project receives funding, work will begin in due course according to the approved schedule."
+    },
+    {
+      "id": "ss198-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Clients whose records are complete will be invited to the next stage when their place in the queue is reached.",
+      "promptZh": "紀錄齊全的客戶會在正常輪候次序輪到他們時，獲邀進入下一階段。",
+      "promptZhSource": "pdf",
+      "starter": "Clients",
+      "answer": "Clients whose records are complete will be invited to the next stage in due course as the queue progresses.",
+      "answerZh": "隨着輪候次序推進，紀錄齊全的客戶會在適當時候獲邀進入下一階段。",
+      "answerZhSource": "pdf",
+      "highlight": "Clients whose records are complete will be invited to the next stage in due course as the queue progresses."
+    },
+    {
+      "id": "ss198-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Experts will first inspect and catalogue the donated items. Selected items will then be displayed at the appropriate time.",
+      "promptZh": "專家會先檢查及編列捐贈物品。獲選物品其後會在適當時候展出。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After experts have inspected and catalogued the donation, selected items will be displayed in due course.",
+      "answerZh": "專家檢查及編列捐贈物品後，獲選物品會在適當時候展出。",
+      "answerZhSource": "pdf",
+      "highlight": "After experts have inspected and catalogued the donation, selected items will be displayed in due course."
+    },
+    {
+      "id": "ss198-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The legal team is reviewing the agreement. It will send any required changes to both parties at the proper stage after the review.",
+      "promptZh": "法律團隊現正審閱協議。審閱完成後，團隊會在適當階段把所需修改發送給雙方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The legal team will send any required changes to both parties in due course after reviewing the agreement.",
+      "answerZh": "法律團隊審閱協議後，會在適當時候把所需修改發送給雙方。",
+      "answerZhSource": "pdf",
+      "highlight": "The legal team will send any required changes to both parties in due course after reviewing the agreement."
+    },
+    {
+      "id": "ss198-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Residents do not need to submit duplicate requests. The department will respond to each case when the normal procedure reaches it.",
+      "promptZh": "居民不需要重複提交要求。部門會按照正常程序，在輪到每宗個案時作出回應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The department will respond to each case in due course, so residents do not need to submit duplicate requests.",
+      "answerZh": "部門會按照正常程序，在適當時候回應每宗個案，因此居民不需要重複提交要求。",
+      "answerZhSource": "pdf",
+      "highlight": "The department will respond to each case in due course, so residents do not need to submit duplicate requests."
+    },
+    {
+      "id": "ss198-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although missing records have delayed the case, your pension application will move forward at the appropriate stage once the records arrive.",
+      "promptZh": "雖然缺少紀錄令個案受到延誤，但有關紀錄送達後，你的退休金申請會在適當階段繼續處理。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite the earlier delay, your pension application will move forward in due course once the missing records arrive.",
+      "answerZh": "儘管個案早前受到延誤，但缺少的紀錄送達後，你的退休金申請會在適當時候繼續處理。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the earlier delay, your pension application will move forward in due course once the missing records arrive."
+    },
+    {
+      "id": "ss198-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The board will not announce its decision until all members have examined the evidence. The official announcement will follow at the appropriate time.",
+      "promptZh": "在所有董事會成員審閱證據前，董事會不會公布決定。正式公布會在其後的適當時候作出。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After all board members have examined the evidence, the decision will be announced in due course.",
+      "answerZh": "所有董事會成員審閱證據後，有關決定會在適當時候公布。",
+      "answerZhSource": "pdf",
+      "highlight": "After all board members have examined the evidence, the decision will be announced in due course."
+    },
+    {
+      "id": "ss198-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If the pilot succeeds, the organisation plans to extend the programme to other districts later through its normal planning process.",
+      "promptZh": "如果試行計劃成功，該機構計劃稍後透過正常規劃程序，把計劃擴展至其他地區。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the pilot succeeds, the organisation plans to extend the programme to other districts in due course through its normal planning process.",
+      "answerZh": "如果試行計劃成功，該機構計劃透過正常規劃程序，在適當時候把計劃擴展至其他地區。",
+      "answerZhSource": "pdf",
+      "highlight": "If the pilot succeeds, the organisation plans to extend the programme to other districts in due course through its normal planning process."
+    },
+    {
+      "id": "ss198-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The supplier has confirmed that the replacement parts are not available now. They will be shipped after production resumes and the order reaches the front of the queue.",
+      "promptZh": "供應商已確認替換零件現時未能供應。生產恢復並輪到該訂單後，零件便會付運。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The supplier will ship the replacement parts in due course once production resumes and the order reaches the front of the queue.",
+      "answerZh": "生產恢復並輪到該訂單後，供應商會在適當時候付運替換零件。",
+      "answerZhSource": "pdf",
+      "highlight": "The supplier will ship the replacement parts in due course once production resumes and the order reaches the front of the queue."
+    },
+    {
+      "id": "ss198-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The research team will first verify the data. It will make the findings public later, at a suitable point in the process.",
+      "promptZh": "研究團隊會先核實數據，然後在程序中的適當時候公開研究結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team will make the findings public in due course after verifying the data.",
+      "answerZh": "研究團隊核實數據後，會在適當時候公開研究結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team will make the findings public in due course after verifying the data."
+    },
+    {
+      "id": "ss198-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Applicants should not treat silence as a rejection. Each application will be assessed in the normal order, and the final outcome will be communicated at the appropriate stage.",
+      "promptZh": "申請人不應把沒有消息視為申請被拒。每份申請會按照正常次序評估，最終結果會在適當階段通知申請人。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each application will be assessed in the normal order, and the final outcome will be communicated in due course, so applicants should not treat silence as a rejection.",
+      "answerZh": "每份申請會按照正常次序評估，最終結果會在適當階段通知申請人，因此申請人不應把沒有消息視為申請被拒。",
+      "answerZhSource": "pdf",
+      "highlight": "Each application will be assessed in the normal order, and the final outcome will be communicated in due course, so applicants should not treat silence as a rejection."
+    }
+  ]
+}

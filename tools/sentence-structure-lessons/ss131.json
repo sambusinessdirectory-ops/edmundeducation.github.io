@@ -1,0 +1,1220 @@
+{
+  "id": "ss131",
+  "order": 131,
+  "slug": "in-that-sense",
+  "title": "「In that sense」從這個角度來說",
+  "titleZh": "「In that sense」從這個角度來說",
+  "titleEn": "Using in that sense to draw a conclusion from a stated perspective",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 131 - 「In that sense」從這個角度來說.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Idea / Fact 1. In that sense, + interpretation or conclusion",
+  "formulas": [
+    {
+      "id": "ss131-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Idea / Fact 1. In that sense, + interpretation or conclusion"
+    }
+  ],
+  "example": "Cooking teaches patience. In that sense, it is more than just preparing food.",
+  "exampleZh": "烹飪能培養耐心。從這個角度來說，它不只是準備食物。",
+  "examples": [
+    {
+      "id": "ss131-example-01",
+      "en": "Cooking teaches patience. In that sense, it is more than just preparing food.",
+      "zh": "烹飪能培養耐心。從這個角度來說，它不只是準備食物。",
+      "highlight": "In that sense"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss131-rule-01",
+      "zh": "前面必須先有一個完整觀點 In that sense 不能在沒有背景的情況下突然出現。前一句必須先提出一項事實、理由或觀察。",
+      "en": "A complete idea must be stated before in that sense. The phrase cannot appear abruptly without context; the previous sentence must first provide a fact, reason or observation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Reading helps us understand other people’s experiences. In that sense, it develops empathy."
+      ]
+    },
+    {
+      "id": "ss131-rule-02",
+      "zh": "句首使用時，後面要加逗號",
+      "en": "When used initially, in that sense is followed by a comma.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "In that sense, failure can be useful."
+      ]
+    },
+    {
+      "id": "ss131-rule-03",
+      "zh": "它表示「從剛才提到的角度來說」 它通常不是表示一個絕對適用於所有情況的結論，而是表示：只按照前一句所提出的觀點來看， 這個結論是合理的。 這並不是說人工智能在所有方面都與人類一樣智能。",
+      "en": "It means ‘from the perspective just mentioned’. The conclusion is usually not claimed to hold absolutely in every situation; it is reasonable only when viewed through the point made in the preceding sentence. Thus the example does not claim that artificial intelligence is intelligent in every respect in the same way as a human.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Artificial intelligence can recognise patterns quickly. In that sense, it is intelligent."
+      ]
+    },
+    {
+      "id": "ss131-rule-04",
+      "zh": "不要把它當作單純的 therefore Therefore 通常強調直接的因果結果。 In that sense 則強調「按照上述角度作出的理解」。",
+      "en": "Do not treat it as a simple synonym for therefore. Therefore normally signals a direct causal result, whereas in that sense introduces an interpretation made from the perspective just established.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It rained heavily. Therefore, the match was cancelled.",
+        "Reading requires us to imagine other people’s lives. In that sense, it is an exercise in empathy."
+      ]
+    },
+    {
+      "id": "ss131-rule-05",
+      "zh": "與相似句型的分別 功能：回指前一句，並作出角度性的總結或詮釋。 常見格式： 功能：直接解釋某個字眼、形容或說法具體是甚麼意思。 它不是先提出一個觀點再作總結，而是直接說明前面的 flexible 到底指甚麼。 功能：指出某事物具有某種特點的原因或具體表現，意思接近「因為」或「在於」。 Quick Comparison 快速比較 先提出一個觀點，再從該角度作出結論。 直接解釋「flexible」的具體意思。 說明這份工作為甚麼特別或具有某種特點。",
+      "en": "Distinguish it from related expressions that define meaning or give reasons. In that sense refers back to a complete earlier idea and offers a perspective-based summary or interpretation. In the sense that directly explains the exact meaning of a preceding word or description rather than first stating an idea and then drawing a conclusion. In that identifies the reason for, or particular respect in which, a description is true. In short: in that sense states an idea and then draws a conclusion from that angle; in the sense that defines what a description means; and in that explains why something has a particular feature.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The company lets employees choose their working hours. In that sense, it is flexible.",
+        "The company is flexible in the sense that employees can choose their working hours.",
+        "The exam was challenging in that it required critical thinking rather than memorisation."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss131-benefit-01",
+      "zh": "清楚顯示你的思考角度 這個句型能清楚告訴讀者：你的結論是根據前面哪一個觀點得出的。",
+      "en": "It clearly shows the perspective from which you are reasoning by identifying exactly which earlier idea supports the conclusion.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss131-benefit-02",
+      "zh": "幫助你由「事實」發展成「分析」 你可以先提出一項事實，再說明這項事實代表甚麼，而不只是列出資料。 第一句是觀察，第二句則把觀察發展成分析。",
+      "en": "It helps develop a fact into analysis. You can state an observation and then explain what it signifies instead of merely listing information; the first sentence supplies the observation and the second develops it analytically.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Good leaders listen carefully. In that sense, leadership is a communication skill."
+      ]
+    },
+    {
+      "id": "ss131-benefit-03",
+      "zh": "避免把結論說得過於絕對 In that sense 表示結論是在某個特定角度下成立，因此能讓說法更加準確。 這不等於聲稱人工智能在所有方面都擁有人類智慧。",
+      "en": "It prevents conclusions from sounding too absolute because in that sense limits the conclusion to a particular perspective. It does not, for example, claim that artificial intelligence possesses human intelligence in every respect.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss131-benefit-04",
+      "zh": "令兩個句子連接得更自然 你不需要把兩個觀點生硬地放在一起。這個句型能帶領讀者由第一個觀點自然過渡到第二個觀 點。",
+      "en": "It connects two sentences naturally. Rather than placing two ideas together without showing their relationship, the phrase guides readers smoothly from the first point to the second.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss131-benefit-05",
+      "zh": "適合用於口語、作文、報告和討論 這是一個容易套用的表達框架： 掌握這個框架後，你可以更有條理地解釋抽象觀點，而不必每次都重複使用 therefore、so 或 from this point of view。",
+      "en": "It is useful in speech, essays, reports and discussions. The reusable frame ‘Fact or observation → In that sense → interpretation’ helps you explain abstract ideas systematically without repeatedly using therefore, so or from this point of view.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "In that sense → interpretation"
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using In that sense to introduce the interpretation or conclusion. Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 In that sense 改寫以下句子，帶出相關的理解或結論。答案必須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss131-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "Because walking saves money, it can be regarded as a practical form of transport.",
+      "promptZh": "步行可以節省金錢，因此可被視為一種實用的交通方式。",
+      "promptZhSource": "pdf",
+      "starter": "Walking",
+      "answer": "Walking saves money. In that sense, it is a practical form of transport.",
+      "answerZh": "步行可以節省金錢。從這個角度來說，它是一種實用的交通方式。",
+      "answerZhSource": "pdf",
+      "highlight": "Walking saves money. In that sense, it is a practical form of transport."
+    },
+    {
+      "id": "ss131-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A diary helps you organise your thoughts, so writing can be a form of self-care.",
+      "promptZh": "寫日記有助你整理思緒，因此寫作可以是一種自我照顧。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A diary helps you organise your thoughts. In that sense, writing can be a form of self-care.",
+      "answerZh": "寫日記有助你整理思緒。從這個角度來說，寫作可以是一種自我照顧。",
+      "answerZhSource": "pdf",
+      "highlight": "A diary helps you organise your thoughts. In that sense, writing can be a form of self-care."
+    },
+    {
+      "id": "ss131-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Cooking teaches patience. From this point of view, it is more than just preparing food.",
+      "promptZh": "烹飪能培養耐心。從這個觀點來看，它不只是準備食物。",
+      "promptZhSource": "pdf",
+      "starter": "Cooking",
+      "answer": "Cooking teaches patience. In that sense, it is more than just preparing food.",
+      "answerZh": "烹飪能培養耐心。從這個角度來說，它不只是準備食物。",
+      "answerZhSource": "pdf",
+      "highlight": "Cooking teaches patience. In that sense, it is more than just preparing food."
+    },
+    {
+      "id": "ss131-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Reading before bed helps the mind slow down. Seen this way, it can be part of a healthy evening routine.",
+      "promptZh": "睡前閱讀有助思緒慢下來。這樣看來，它可以成為健康晚間習慣的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "Reading",
+      "answer": "Reading before bed helps the mind slow down. In that sense, it can be part of a healthy evening routine.",
+      "answerZh": "睡前閱讀有助思緒慢下來。從這個角度來說，它可以成為健康晚間習慣的一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "Reading before bed helps the mind slow down. In that sense, it can be part of a healthy evening routine."
+    },
+    {
+      "id": "ss131-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Chores can be useful life lessons because sharing household tasks teaches responsibility.",
+      "promptZh": "家務可以成為有用的生活課，因為分擔家務能培養責任感。",
+      "promptZhSource": "pdf",
+      "starter": "Sharing",
+      "answer": "Sharing household tasks teaches responsibility. In that sense, chores can be useful life lessons.",
+      "answerZh": "分擔家務能培養責任感。從這個角度來說，家務可以成為有用的生活課。",
+      "answerZhSource": "pdf",
+      "highlight": "Sharing household tasks teaches responsibility. In that sense, chores can be useful life lessons."
+    },
+    {
+      "id": "ss131-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Group work develops communication skills because students must explain their ideas.",
+      "promptZh": "小組活動能培養溝通技巧，因為學生必須解釋自己的想法。",
+      "promptZhSource": "pdf",
+      "starter": "Group",
+      "answer": "Group work requires students to explain their ideas. In that sense, it develops communication skills.",
+      "answerZh": "小組活動要求學生解釋自己的想法。從這個角度來說，它能培養溝通技巧。",
+      "answerZhSource": "pdf",
+      "highlight": "Group work requires students to explain their ideas. In that sense, it develops communication skills."
+    },
+    {
+      "id": "ss131-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why can homework measure more than memory? It shows whether students can work independently.",
+      "promptZh": "為甚麼功課衡量的不只是記憶力？因為它能顯示學生是否可以獨立完成工作。",
+      "promptZhSource": "pdf",
+      "starter": "Homework",
+      "answer": "Homework shows whether students can work independently. In that sense, it measures more than memory.",
+      "answerZh": "功課能顯示學生是否可以獨立完成工作。從這個角度來說，它衡量的不只是記憶力。",
+      "answerZhSource": "pdf",
+      "highlight": "Homework shows whether students can work independently. In that sense, it measures more than memory."
+    },
+    {
+      "id": "ss131-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A school library supports equal learning opportunities because it gives everyone access to books.",
+      "promptZh": "學校圖書館支持平等的學習機會，因為它讓每個人都可以接觸書籍。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A school library gives everyone access to books. In that sense, it supports equal learning opportunities.",
+      "answerZh": "學校圖書館讓每個人都可以接觸書籍。從這個角度來說，它支持平等的學習機會。",
+      "answerZhSource": "pdf",
+      "highlight": "A school library gives everyone access to books. In that sense, it supports equal learning opportunities."
+    },
+    {
+      "id": "ss131-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Exams mainly measure preparation. Therefore, every student has a fair chance to improve.",
+      "promptZh": "考試主要衡量準備程度。因此，每位學生都有公平的改善機會。",
+      "promptZhSource": "pdf",
+      "starter": "Exams",
+      "answer": "Exams mainly measure preparation. In that sense, every student has a fair chance to improve.",
+      "answerZh": "考試主要衡量準備程度。從這個角度來說，每位學生都有公平的改善機會。",
+      "answerZhSource": "pdf",
+      "highlight": "Exams mainly measure preparation. In that sense, every student has a fair chance to improve."
+    },
+    {
+      "id": "ss131-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We can view failure as a useful teacher because learning from mistakes strengthens judgement.",
+      "promptZh": "我們可以把失敗視為一位有用的老師，因為從錯誤中學習能加強判斷力。",
+      "promptZhSource": "pdf",
+      "starter": "Learning",
+      "answer": "Learning from mistakes strengthens judgement. In that sense, failure can be a useful teacher.",
+      "answerZh": "從錯誤中學習能加強判斷力。從這個角度來說，失敗可以是一位有用的老師。",
+      "answerZhSource": "pdf",
+      "highlight": "Learning from mistakes strengthens judgement. In that sense, failure can be a useful teacher."
+    },
+    {
+      "id": "ss131-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Public transport uses road space efficiently because a bus carries many people in one vehicle.",
+      "promptZh": "公共交通能有效運用道路空間，因為一輛巴士可以在同一輛車內接載許多人。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A bus carries many people in one vehicle. In that sense, public transport uses road space efficiently.",
+      "answerZh": "一輛巴士可以在同一輛車內接載許多人。從這個角度來說，公共交通能有效運用道路空間。",
+      "answerZhSource": "pdf",
+      "highlight": "A bus carries many people in one vehicle. In that sense, public transport uses road space efficiently."
+    },
+    {
+      "id": "ss131-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Cycling produces no exhaust fumes; from an environmental point of view, it is a cleaner way to travel.",
+      "promptZh": "踏單車不會排放廢氣；從環境角度來看，它是一種較潔淨的出行方式。",
+      "promptZhSource": "pdf",
+      "starter": "Cycling",
+      "answer": "Cycling produces no exhaust fumes. In that sense, it is a cleaner way to travel.",
+      "answerZh": "踏單車不會排放廢氣。從這個角度來說，它是一種較潔淨的出行方式。",
+      "answerZhSource": "pdf",
+      "highlight": "Cycling produces no exhaust fumes. In that sense, it is a cleaner way to travel."
+    },
+    {
+      "id": "ss131-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why does a map guide rather than control a traveller? It does not choose the traveller's route.",
+      "promptZh": "為甚麼地圖是引導旅客，而不是控制旅客？因為它不會替旅客選擇路線。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A map does not choose the traveller's route. In that sense, it guides rather than controls the traveller.",
+      "answerZh": "地圖不會替旅客選擇路線。從這個角度來說，它是引導旅客，而不是控制旅客。",
+      "answerZhSource": "pdf",
+      "highlight": "A map does not choose the traveller's route. In that sense, it guides rather than controls the traveller."
+    },
+    {
+      "id": "ss131-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Travel delays force people to change their plans. For this reason, travelling teaches flexibility.",
+      "promptZh": "交通延誤迫使人們改變計劃。因此，旅行能教人靈活應變。",
+      "promptZhSource": "pdf",
+      "starter": "Travel",
+      "answer": "Travel delays force people to change their plans. In that sense, travelling teaches flexibility.",
+      "answerZh": "交通延誤迫使人們改變計劃。從這個角度來說，旅行能教人靈活應變。",
+      "answerZhSource": "pdf",
+      "highlight": "Travel delays force people to change their plans. In that sense, travelling teaches flexibility."
+    },
+    {
+      "id": "ss131-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A queue gives everyone the same chance to be served. Viewed from this angle, waiting can be a form of fairness.",
+      "promptZh": "排隊讓每個人都有相同的接受服務機會。從這個角度看，等候可以是公平的一種體現。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A queue gives everyone the same chance to be served. In that sense, waiting can be a form of fairness.",
+      "answerZh": "排隊讓每個人都有相同的接受服務機會。從這個角度來說，等候可以是公平的一種體現。",
+      "answerZhSource": "pdf",
+      "highlight": "A queue gives everyone the same chance to be served. In that sense, waiting can be a form of fairness."
+    },
+    {
+      "id": "ss131-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Regular exercise improves both energy and mood. This means that it supports mental as well as physical health.",
+      "promptZh": "恆常運動能改善精力和心情。這表示它同時有助心理和身體健康。",
+      "promptZhSource": "pdf",
+      "starter": "Regular",
+      "answer": "Regular exercise improves both energy and mood. In that sense, it supports mental as well as physical health.",
+      "answerZh": "恆常運動能改善精力和心情。從這個角度來說，它同時有助心理和身體健康。",
+      "answerZhSource": "pdf",
+      "highlight": "Regular exercise improves both energy and mood. In that sense, it supports mental as well as physical health."
+    },
+    {
+      "id": "ss131-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Rest is part of learning because sleep allows the brain to process information.",
+      "promptZh": "休息是學習的一部分，因為睡眠讓大腦處理資訊。",
+      "promptZhSource": "pdf",
+      "starter": "Sleep",
+      "answer": "Sleep allows the brain to process information. In that sense, rest is part of learning.",
+      "answerZh": "睡眠讓大腦處理資訊。從這個角度來說，休息也是學習的一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "Sleep allows the brain to process information. In that sense, rest is part of learning."
+    },
+    {
+      "id": "ss131-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "How can safety equipment create freedom rather than restriction? Wearing a helmet reduces the risk of serious injury.",
+      "promptZh": "安全裝備怎樣能帶來自由而不是限制？戴頭盔能減低嚴重受傷的風險。",
+      "promptZhSource": "pdf",
+      "starter": "Wearing",
+      "answer": "Wearing a helmet reduces the risk of serious injury. In that sense, safety equipment creates freedom rather than restriction.",
+      "answerZh": "戴頭盔能減低嚴重受傷的風險。從這個角度來說，安全裝備帶來的是自由，而不是限制。",
+      "answerZhSource": "pdf",
+      "highlight": "Wearing a helmet reduces the risk of serious injury. In that sense, safety equipment creates freedom rather than restriction."
+    },
+    {
+      "id": "ss131-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A medical check-up can find problems before symptoms appear. Seen from this perspective, prevention begins with information.",
+      "promptZh": "身體檢查能在症狀出現前發現問題。從這個觀點來看，預防始於資訊。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A medical check-up can find problems before symptoms appear. In that sense, prevention begins with information.",
+      "answerZh": "身體檢查能在症狀出現前發現問題。從這個角度來說，預防始於資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "A medical check-up can find problems before symptoms appear. In that sense, prevention begins with information."
+    },
+    {
+      "id": "ss131-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Drinking water helps the body regulate temperature, so hydration is important even when you are not thirsty.",
+      "promptZh": "喝水有助身體調節溫度，因此即使你不口渴，補充水分仍然很重要。",
+      "promptZhSource": "pdf",
+      "starter": "Drinking",
+      "answer": "Drinking water helps the body regulate temperature. In that sense, hydration is important even when you are not thirsty.",
+      "answerZh": "喝水有助身體調節溫度。從這個角度來說，即使你不口渴，補充水分仍然很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Drinking water helps the body regulate temperature. In that sense, hydration is important even when you are not thirsty."
+    },
+    {
+      "id": "ss131-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Recycling gives used materials another purpose, which allows waste to be viewed as a resource.",
+      "promptZh": "回收賦予已使用材料另一個用途，因此廢物可以被視為資源。",
+      "promptZhSource": "pdf",
+      "starter": "Recycling",
+      "answer": "Recycling gives used materials another purpose. In that sense, waste can be viewed as a resource.",
+      "answerZh": "回收賦予已使用材料另一個用途。從這個角度來說，廢物可以被視為資源。",
+      "answerZhSource": "pdf",
+      "highlight": "Recycling gives used materials another purpose. In that sense, waste can be viewed as a resource."
+    },
+    {
+      "id": "ss131-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Trees cool streets and absorb rainwater. They can therefore be regarded as part of a city's infrastructure.",
+      "promptZh": "樹木能為街道降溫並吸收雨水。因此，它們可被視為城市基礎設施的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "Trees",
+      "answer": "Trees cool streets and absorb rainwater. In that sense, they can be regarded as part of a city's infrastructure.",
+      "answerZh": "樹木能為街道降溫並吸收雨水。從這個角度來說，它們可被視為城市基礎設施的一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "Trees cool streets and absorb rainwater. In that sense, they can be regarded as part of a city's infrastructure."
+    },
+    {
+      "id": "ss131-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Community gardens bring neighbours together. From a social point of view, growing food can also build relationships.",
+      "promptZh": "社區花園讓鄰里聚在一起。從社會角度來看，種植食物也能建立人際關係。",
+      "promptZhSource": "pdf",
+      "starter": "Community",
+      "answer": "Community gardens bring neighbours together. In that sense, growing food can also build relationships.",
+      "answerZh": "社區花園讓鄰里聚在一起。從這個角度來說，種植食物也能建立人際關係。",
+      "answerZhSource": "pdf",
+      "highlight": "Community gardens bring neighbours together. In that sense, growing food can also build relationships."
+    },
+    {
+      "id": "ss131-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Repairing an old item extends its useful life. This means repair can be seen as a form of environmental action.",
+      "promptZh": "修理舊物能延長它的使用壽命。這表示修理可以被視為一種環保行動。",
+      "promptZhSource": "pdf",
+      "starter": "Repairing",
+      "answer": "Repairing an old item extends its useful life. In that sense, repair can be seen as a form of environmental action.",
+      "answerZh": "修理舊物能延長它的使用壽命。從這個角度來說，修理可以被視為一種環保行動。",
+      "answerZhSource": "pdf",
+      "highlight": "Repairing an old item extends its useful life. In that sense, repair can be seen as a form of environmental action."
+    },
+    {
+      "id": "ss131-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A reusable bottle reduces the need for single-use plastic. Therefore, even a small habit can have a wider effect.",
+      "promptZh": "可重用水瓶能減少對即棄塑膠的需要。因此，即使是一個小習慣，也能帶來更廣泛的影響。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A reusable bottle reduces the need for single-use plastic. In that sense, even a small habit can have a wider effect.",
+      "answerZh": "可重用水瓶能減少對即棄塑膠的需要。從這個角度來說，即使是一個小習慣，也能帶來更廣泛的影響。",
+      "answerZhSource": "pdf",
+      "highlight": "A reusable bottle reduces the need for single-use plastic. In that sense, even a small habit can have a wider effect."
+    },
+    {
+      "id": "ss131-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Search engines organise information rather than create all of it. They can therefore be seen as tools for finding knowledge rather than sources of truth.",
+      "promptZh": "搜尋引擎整理資訊，而不是創造所有資訊。因此，它們可被視為尋找知識的工具，而不是真理的來源。",
+      "promptZhSource": "pdf",
+      "starter": "Search",
+      "answer": "Search engines organise information rather than create all of it. In that sense, they can be seen as tools for finding knowledge rather than sources of truth.",
+      "answerZh": "搜尋引擎整理資訊，而不是創造所有資訊。從這個角度來說，它們可被視為尋找知識的工具，而不是真理的來源。",
+      "answerZhSource": "pdf",
+      "highlight": "Search engines organise information rather than create all of it. In that sense, they can be seen as tools for finding knowledge rather than sources of truth."
+    },
+    {
+      "id": "ss131-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Why can a password be compared to a key? It protects access to personal data.",
+      "promptZh": "為甚麼密碼可以比作鑰匙？因為它保護個人資料的存取權限。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A password protects access to personal data. In that sense, it can be compared to a key.",
+      "answerZh": "密碼保護個人資料的存取權限。從這個角度來說，它可以比作鑰匙。",
+      "answerZhSource": "pdf",
+      "highlight": "A password protects access to personal data. In that sense, it can be compared to a key."
+    },
+    {
+      "id": "ss131-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Video calls remove the need to share one physical room. As a result, technology can be said to shorten distance.",
+      "promptZh": "視像通話使人們不必身處同一個實體空間。因此，可以說科技縮短了距離。",
+      "promptZhSource": "pdf",
+      "starter": "Video",
+      "answer": "Video calls remove the need to share one physical room. In that sense, technology can be said to shorten distance.",
+      "answerZh": "視像通話使人們不必身處同一個實體空間。從這個角度來說，可以說科技縮短了距離。",
+      "answerZhSource": "pdf",
+      "highlight": "Video calls remove the need to share one physical room. In that sense, technology can be said to shorten distance."
+    },
+    {
+      "id": "ss131-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "An automatic reminder supports memory but does not replace it. This shows that digital tools assist human judgement.",
+      "promptZh": "自動提醒能支援記憶，但不能取代記憶。這顯示數碼工具能輔助人類判斷。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An automatic reminder supports memory but does not replace it. In that sense, digital tools assist human judgement.",
+      "answerZh": "自動提醒能支援記憶，但不能取代記憶。從這個角度來說，數碼工具能輔助人類判斷。",
+      "answerZhSource": "pdf",
+      "highlight": "An automatic reminder supports memory but does not replace it. In that sense, digital tools assist human judgement."
+    },
+    {
+      "id": "ss131-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Artificial intelligence recognises patterns in data. Viewed in this limited way, its intelligence is different from human understanding.",
+      "promptZh": "人工智能能辨認數據中的模式。若只從這個有限角度來看，它的智能與人類理解不同。",
+      "promptZhSource": "pdf",
+      "starter": "Artificial",
+      "answer": "Artificial intelligence recognises patterns in data. In that sense, its intelligence is different from human understanding.",
+      "answerZh": "人工智能能辨認數據中的模式。從這個角度來說，它的智能與人類理解不同。",
+      "answerZhSource": "pdf",
+      "highlight": "Artificial intelligence recognises patterns in data. In that sense, its intelligence is different from human understanding."
+    },
+    {
+      "id": "ss131-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Leadership is a communication skill because good leaders spend more time listening than speaking.",
+      "promptZh": "領導力是一種溝通技巧，因為優秀的領導者花更多時間傾聽，而不是說話。",
+      "promptZhSource": "pdf",
+      "starter": "Good",
+      "answer": "Good leaders spend more time listening than speaking. In that sense, leadership is a communication skill.",
+      "answerZh": "優秀的領導者花更多時間傾聽而不是說話。從這個角度來說，領導力是一種溝通技巧。",
+      "answerZhSource": "pdf",
+      "highlight": "Good leaders spend more time listening than speaking. In that sense, leadership is a communication skill."
+    },
+    {
+      "id": "ss131-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A meeting is useful only when it leads to clearer action. Its value therefore depends on what happens afterwards.",
+      "promptZh": "會議只有在帶來更清晰的行動時才有用。因此，它的價值取決於之後發生的事情。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A meeting is useful only when it leads to clearer action. In that sense, its value depends on what happens afterwards.",
+      "answerZh": "會議只有在帶來更清晰的行動時才有用。從這個角度來說，它的價值取決於之後發生的事情。",
+      "answerZhSource": "pdf",
+      "highlight": "A meeting is useful only when it leads to clearer action. In that sense, its value depends on what happens afterwards."
+    },
+    {
+      "id": "ss131-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A flexible schedule lets employees choose when to complete their work. From that perspective, flexibility requires responsibility.",
+      "promptZh": "彈性工作時間讓員工自行選擇何時完成工作。從這個觀點來看，彈性需要責任感。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A flexible schedule lets employees choose when to complete their work. In that sense, flexibility requires responsibility.",
+      "answerZh": "彈性工作時間讓員工自行選擇何時完成工作。從這個角度來說，彈性需要責任感。",
+      "answerZhSource": "pdf",
+      "highlight": "A flexible schedule lets employees choose when to complete their work. In that sense, flexibility requires responsibility."
+    },
+    {
+      "id": "ss131-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Feedback shows employees where improvement is possible. Seen this way, criticism can be a form of support.",
+      "promptZh": "意見回饋能讓員工知道哪些地方可以改善。這樣看來，批評可以是一種支持。",
+      "promptZhSource": "pdf",
+      "starter": "Feedback",
+      "answer": "Feedback shows employees where improvement is possible. In that sense, criticism can be a form of support.",
+      "answerZh": "意見回饋能讓員工知道哪些地方可以改善。從這個角度來說，批評可以是一種支持。",
+      "answerZhSource": "pdf",
+      "highlight": "Feedback shows employees where improvement is possible. In that sense, criticism can be a form of support."
+    },
+    {
+      "id": "ss131-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A deadline helps a team decide what must be done first. To that extent, time pressure can create focus.",
+      "promptZh": "死線有助團隊決定哪些事情必須先完成。就這一點而言，時間壓力可以帶來專注。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A deadline helps a team decide what must be done first. In that sense, time pressure can create focus.",
+      "answerZh": "死線有助團隊決定哪些事情必須先完成。從這個角度來說，時間壓力可以帶來專注。",
+      "answerZhSource": "pdf",
+      "highlight": "A deadline helps a team decide what must be done first. In that sense, time pressure can create focus."
+    },
+    {
+      "id": "ss131-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A budget records choices about limited money. This is one reason budgeting can be understood as a way of setting priorities.",
+      "promptZh": "預算記錄人們如何運用有限金錢作出選擇。這是預算編製可被理解為設定優先次序的一個原因。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A budget records choices about limited money. In that sense, budgeting can be understood as a way of setting priorities.",
+      "answerZh": "預算記錄人們如何運用有限金錢作出選擇。從這個角度來說，預算編製可被理解為一種設定優先次序的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "A budget records choices about limited money. In that sense, budgeting can be understood as a way of setting priorities."
+    },
+    {
+      "id": "ss131-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Customer complaints reveal where a service has failed. They can therefore provide useful business information.",
+      "promptZh": "顧客投訴揭示服務在哪些地方出現問題。因此，它們可以提供有用的商業資訊。",
+      "promptZhSource": "pdf",
+      "starter": "Customer",
+      "answer": "Customer complaints reveal where a service has failed. In that sense, they can provide useful business information.",
+      "answerZh": "顧客投訴揭示服務在哪些地方出現問題。從這個角度來說，它們可以提供有用的商業資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "Customer complaints reveal where a service has failed. In that sense, they can provide useful business information."
+    },
+    {
+      "id": "ss131-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Training prepares staff for situations they have not faced yet. From a risk perspective, practice is a form of risk management.",
+      "promptZh": "培訓讓員工為尚未遇過的情況作準備。從風險角度來看，練習是一種風險管理。",
+      "promptZhSource": "pdf",
+      "starter": "Training",
+      "answer": "Training prepares staff for situations they have not faced yet. In that sense, practice is a form of risk management.",
+      "answerZh": "培訓讓員工為尚未遇過的情況作準備。從這個角度來說，練習是一種風險管理。",
+      "answerZhSource": "pdf",
+      "highlight": "Training prepares staff for situations they have not faced yet. In that sense, practice is a form of risk management."
+    },
+    {
+      "id": "ss131-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A contract makes expectations clear before problems arise. As a result, it can help protect the relationship between two sides.",
+      "promptZh": "合約在問題出現前把期望說清楚。因此，它有助保障雙方的關係。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A contract makes expectations clear before problems arise. In that sense, it can help protect the relationship between two sides.",
+      "answerZh": "合約在問題出現前把期望說清楚。從這個角度來說，它有助保障雙方的關係。",
+      "answerZhSource": "pdf",
+      "highlight": "A contract makes expectations clear before problems arise. In that sense, it can help protect the relationship between two sides."
+    },
+    {
+      "id": "ss131-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Why does transparency build trust? A manager who explains a decision invites people to understand the reasoning.",
+      "promptZh": "為甚麼透明度能建立信任？願意解釋決定的經理讓人們有機會理解背後的理據。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A manager who explains a decision invites people to understand the reasoning. In that sense, transparency builds trust.",
+      "answerZh": "願意解釋決定的經理讓人們有機會理解背後的理據。從這個角度來說，透明度能建立信任。",
+      "answerZhSource": "pdf",
+      "highlight": "A manager who explains a decision invites people to understand the reasoning. In that sense, transparency builds trust."
+    },
+    {
+      "id": "ss131-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Museums preserve objects that connect the present with the past. In this respect, they protect shared memory.",
+      "promptZh": "博物館保存連繫現在與過去的物件。就這一點而言，它們保護了共同記憶。",
+      "promptZhSource": "pdf",
+      "starter": "Museums",
+      "answer": "Museums preserve objects that connect the present with the past. In that sense, they protect shared memory.",
+      "answerZh": "博物館保存連繫現在與過去的物件。從這個角度來說，它們保護了共同記憶。",
+      "answerZhSource": "pdf",
+      "highlight": "Museums preserve objects that connect the present with the past. In that sense, they protect shared memory."
+    },
+    {
+      "id": "ss131-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Public parks give people space to rest without requiring them to buy anything. Seen from the viewpoint of public access, they make cities more inclusive.",
+      "promptZh": "公共公園讓人們休息，而不要求他們購買任何東西。從公眾使用的角度來看，它們令城市更具包容性。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public parks give people space to rest without requiring them to buy anything. In that sense, they make cities more inclusive.",
+      "answerZh": "公共公園讓人們休息，而不要求他們購買任何東西。從這個角度來說，它們令城市更具包容性。",
+      "answerZhSource": "pdf",
+      "highlight": "Public parks give people space to rest without requiring them to buy anything. In that sense, they make cities more inclusive."
+    },
+    {
+      "id": "ss131-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 23
+      },
+      "prompt": "Although laws cannot remove every danger, they can set common standards. This shows that regulation is a guide to behaviour rather than a guarantee of safety.",
+      "promptZh": "雖然法律不能消除所有危險，但它們可以訂立共同標準。這顯示規管是行為指引，而不是安全保證。",
+      "promptZhSource": "pdf",
+      "starter": "Laws",
+      "answer": "Laws cannot remove every danger, but they can set common standards. In that sense, regulation is a guide to behaviour rather than a guarantee of safety.",
+      "answerZh": "法律不能消除所有危險，但可以訂立共同標準。從這個角度來說，規管是行為指引，而不是安全保證。",
+      "answerZhSource": "pdf",
+      "highlight": "Laws cannot remove every danger, but they can set common standards. In that sense, regulation is a guide to behaviour rather than a guarantee of safety."
+    },
+    {
+      "id": "ss131-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "News reports influence which events receive public attention. Therefore, journalism helps shape the public conversation.",
+      "promptZh": "新聞報道會影響哪些事件得到公眾關注。因此，新聞工作有助塑造公共討論。",
+      "promptZhSource": "pdf",
+      "starter": "News",
+      "answer": "News reports influence which events receive public attention. In that sense, journalism helps shape the public conversation.",
+      "answerZh": "新聞報道會影響哪些事件得到公眾關注。從這個角度來說，新聞工作有助塑造公共討論。",
+      "answerZhSource": "pdf",
+      "highlight": "News reports influence which events receive public attention. In that sense, journalism helps shape the public conversation."
+    },
+    {
+      "id": "ss131-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A language carries the experiences and values of its speakers. From a cultural point of view, losing a language means losing part of a culture.",
+      "promptZh": "一種語言承載使用者的經歷和價值觀。從文化角度來看，失去一種語言等於失去部分文化。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A language carries the experiences and values of its speakers. In that sense, losing a language means losing part of a culture.",
+      "answerZh": "一種語言承載使用者的經歷和價值觀。從這個角度來說，失去一種語言等於失去部分文化。",
+      "answerZhSource": "pdf",
+      "highlight": "A language carries the experiences and values of its speakers. In that sense, losing a language means losing part of a culture."
+    },
+    {
+      "id": "ss131-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Why are scientific models useful tools rather than perfect copies of reality? They simplify reality so that patterns can be studied.",
+      "promptZh": "為甚麼科學模型是有用的工具，而不是現實的完美複製品？因為它們簡化現實，讓人們可以研究當中的模式。",
+      "promptZhSource": "pdf",
+      "starter": "Scientific",
+      "answer": "Scientific models simplify reality so that patterns can be studied. In that sense, they are useful tools rather than perfect copies of reality.",
+      "answerZh": "科學模型簡化現實，讓人們可以研究當中的模式。從這個角度來說，它們是有用的工具，而不是現實的完美複製品。",
+      "answerZhSource": "pdf",
+      "highlight": "Scientific models simplify reality so that patterns can be studied. In that sense, they are useful tools rather than perfect copies of reality."
+    },
+    {
+      "id": "ss131-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Education does not guarantee success, but it expands the choices available to a person. This means that it creates opportunity rather than certainty.",
+      "promptZh": "教育不能保證成功，但能擴闊一個人可作出的選擇。這表示它創造的是機會，而不是必然結果。",
+      "promptZhSource": "pdf",
+      "starter": "Education",
+      "answer": "Education does not guarantee success, but it expands the choices available to a person. In that sense, it creates opportunity rather than certainty.",
+      "answerZh": "教育不能保證成功，但能擴闊一個人可作出的選擇。從這個角度來說，它創造的是機會，而不是必然結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Education does not guarantee success, but it expands the choices available to a person. In that sense, it creates opportunity rather than certainty."
+    },
+    {
+      "id": "ss131-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Freedom of speech allows disagreement to be expressed openly. Viewed in this way, disagreement can support a healthy society.",
+      "promptZh": "言論自由讓分歧可以公開表達。這樣看來，分歧可以支持一個健康的社會。",
+      "promptZhSource": "pdf",
+      "starter": "Freedom",
+      "answer": "Freedom of speech allows disagreement to be expressed openly. In that sense, disagreement can support a healthy society.",
+      "answerZh": "言論自由讓分歧可以公開表達。從這個角度來說，分歧可以支持一個健康的社會。",
+      "answerZhSource": "pdf",
+      "highlight": "Freedom of speech allows disagreement to be expressed openly. In that sense, disagreement can support a healthy society."
+    },
+    {
+      "id": "ss131-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "A mistake exposes the gap between intention and result. This is why it can provide information that success sometimes hides.",
+      "promptZh": "錯誤揭示意圖與結果之間的差距。因此，它能提供一些成功有時會掩蓋的資訊。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A mistake exposes the gap between intention and result. In that sense, it can provide information that success sometimes hides.",
+      "answerZh": "錯誤揭示意圖與結果之間的差距。從這個角度來說，它能提供一些成功有時會掩蓋的資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "A mistake exposes the gap between intention and result. In that sense, it can provide information that success sometimes hides."
+    },
+    {
+      "id": "ss131-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "A fair system does not promise that everyone will achieve the same outcome; it ensures that the rules apply equally. From this perspective, fairness concerns opportunity more than identical results.",
+      "promptZh": "公平的制度不會承諾每個人都得到相同結果；它確保規則平等適用。從這個觀點來看，公平較關乎機會，而不是完全相同的結果。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A fair system does not promise that everyone will achieve the same outcome; it ensures that the rules apply equally. In that sense, fairness concerns opportunity more than identical results.",
+      "answerZh": "公平的制度不會承諾每個人都得到相同結果；它確保規則平等適用。從這個角度來說，公平較關乎機會，而不是完全相同的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "A fair system does not promise that everyone will achieve the same outcome; it ensures that the rules apply equally. In that sense, fairness concerns opportunity more than identical results."
+    }
+  ]
+}

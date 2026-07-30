@@ -1,0 +1,1256 @@
+{
+  "id": "ss146",
+  "order": 146,
+  "slug": "which-result-clause",
+  "title": "「, which」因果句",
+  "titleZh": "「, which」因果句",
+  "titleEn": "Using a non-defining which-clause to express a result",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 146 -「, which」因果句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Cause or event clause + , which + result verb + result information",
+  "formulas": [
+    {
+      "id": "ss146-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Cause or event clause + , which + result verb + result information"
+    },
+    {
+      "id": "ss146-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "..., which made + 人／事物 + 形容詞"
+    },
+    {
+      "id": "ss146-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "..., which caused + 人／事物 + to + 原形動詞"
+    },
+    {
+      "id": "ss146-formula-04",
+      "labelEn": "Pattern 4",
+      "labelZh": "句式 4",
+      "formula": "..., which meant + 完整句子"
+    },
+    {
+      "id": "ss146-formula-05",
+      "labelEn": "Pattern 5",
+      "labelZh": "句式 5",
+      "formula": "..., which led to / resulted in + 名詞或動名詞"
+    }
+  ],
+  "example": "The train was delayed, which made us late for the meeting.",
+  "exampleZh": "火車延誤了，這令我們開會遲到。",
+  "examples": [
+    {
+      "id": "ss146-example-01",
+      "en": "The train was delayed, which made us late for the meeting.",
+      "zh": "火車延誤了，這令我們開會遲到。",
+      "highlight": "which made us late for the meeting"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss146-rule-01",
+      "zh": "必須在 which 前使用逗號 正確： 錯誤： 這個句型屬於非限定關係子句，因此 which 前必須有逗號。",
+      "en": "Put a comma before which because this target pattern is a non-defining relative clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss146-rule-02",
+      "zh": "Which 代表前面整件事 這裏的 which 並非只代表 the road，而是代表： 即「道路被封閉」這整件事延誤了巴士。",
+      "en": "Which refers to the whole preceding event or clause, not merely the nearest noun; in the example, the fact that the road was closed, rather than the road itself, caused the delay.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss146-rule-03",
+      "zh": "不要把這個句型與普通 which 關係子句混淆 本課目標句型： Which 代表「電腦發生故障」這件事。 普通關係子句： Which 只代表 the computer，並非代表前面整件事。",
+      "en": "Do not confuse this result clause with an ordinary which relative clause modifying a noun. In the target pattern, which represents the entire event that the computer crashed; in an ordinary relative clause, which refers only to the noun the computer.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The computer crashed, which delayed my work.",
+        "The computer, which is five years old, crashed."
+      ]
+    },
+    {
+      "id": "ss146-rule-04",
+      "zh": "這個用法不能以 that 取代 which 正確： 錯誤：",
+      "en": "Do not replace which with that in this non-defining structure.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss146-rule-05",
+      "zh": "Which 本身不等於「所以」 Which 只負責連接前面的整件事。後面的動詞必須清楚表達結果，例如：",
+      "en": "Which does not itself mean so; it merely links back to the whole preceding event. The following verb must clearly express the result, for example made, caused, allowed, helped, prevented, meant, led to or resulted in.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "which made",
+        "which caused",
+        "which allowed",
+        "which helped",
+        "which prevented",
+        "which meant",
+        "which led to",
+        "which resulted in"
+      ]
+    },
+    {
+      "id": "ss146-rule-06",
+      "zh": "留意不同動詞後面的句型 ● make + 人 + 原形動詞 ● cause + 人 + to + 原形動詞 ● allow + 人 + to + 原形動詞 ● prevent + 人 + from + 動名詞 ● lead to + 名詞／動名詞 ● result in + 名詞／動名詞 ● mean + 完整句子 例子：",
+      "en": "Use the correct complement pattern after each result verb: make + person + base verb; cause or allow + person + to-infinitive; prevent + person + from + gerund; lead to or result in + noun or gerund; and mean + complete clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "make + 人 + 原形動詞",
+        "cause + 人 + to + 原形動詞",
+        "allow + 人 + to + 原形動詞",
+        "prevent + 人 + from + 動名詞",
+        "lead to + 名詞／動名詞",
+        "result in + 名詞／動名詞",
+        "mean + 完整句子"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss146-benefit-01",
+      "zh": "清楚顯示因果關係 這個句型可以讓讀者立即知道，前面的事件造成了甚麼結果。 讀者可以清楚看到： ● 原因：道路結冰 ● 結果：發生意外",
+      "en": "It clearly shows cause and result by telling readers immediately what consequence the preceding event produced; in the example, the icy road is the cause and the accident is the result.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The road was icy, which caused the accident."
+      ]
+    },
+    {
+      "id": "ss146-benefit-02",
+      "zh": "把兩個短句合併成一句 不用分開寫兩句： 你可以寫成： 這樣能把相關內容自然地連接起來。",
+      "en": "It combines two short sentences in one and connects the related information naturally.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss146-benefit-03",
+      "zh": "學生經常使用： 「, which」提供另一種自然的因果表達方式，讓文章不會重複使用相同連接詞。",
+      "en": "It avoids repeatedly using so, therefore and as a result, providing another natural cause-and-effect structure and preventing repetitive linking words.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "so",
+        "therefore",
+        "as a result"
+      ]
+    },
+    {
+      "id": "ss146-benefit-04",
+      "zh": "先交代主要事件，再補充它的影響 這個句型讓你先說出最重要的事情，然後在 which 子句中補充其後果。",
+      "en": "It states the main event before adding its effect in the which-clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The company changed the schedule, which affected every employee."
+      ]
+    },
+    {
+      "id": "ss146-benefit-05",
+      "zh": "適合用於作文、報告和解釋 當你需要說明一項決定、問題或事件所帶來的影響時，這個句型十分實用。 它可以用於： ● 日常對話 ● 英文作文 ● 工作報告 ● 新聞摘要 ● 商業簡報 ● 因果分析",
+      "en": "It is useful in essays, reports and explanations whenever you need to describe the impact of a decision, problem or event. It suits everyday conversation, English essays, workplace reports, news summaries, business presentations and cause-and-effect analysis.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using comma + which to show the result or effect of the preceding event.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 「, which」 改寫以下句子，表達前面事件所造成的結果或影響。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss146-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The rain stopped, so we were able to go outside.",
+      "promptZh": "雨停了，所以我們可以到外面去。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain stopped, which allowed us to go outside.",
+      "answerZh": "雨停了，這讓我們可以到外面去。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain stopped, which allowed us to go outside."
+    },
+    {
+      "id": "ss146-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia forgot her umbrella. As a result, her clothes got wet.",
+      "promptZh": "米婭忘記帶雨傘，結果她的衣服濕了。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia forgot her umbrella, which made her clothes wet.",
+      "answerZh": "米婭忘記帶雨傘，這令她的衣服濕了。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia forgot her umbrella, which made her clothes wet."
+    },
+    {
+      "id": "ss146-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop closed early. This surprised many customers.",
+      "promptZh": "商店提早關門，這令很多顧客感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop closed early, which surprised many customers.",
+      "answerZh": "商店提早關門，這令很多顧客感到意外。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop closed early, which surprised many customers."
+    },
+    {
+      "id": "ss146-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo studied every night, and his test results improved as a result.",
+      "promptZh": "里奧每天晚上溫習，結果他的測驗成績有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo studied every night, which improved his test results.",
+      "answerZh": "里奧每天晚上溫習，這改善了他的測驗成績。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo studied every night, which improved his test results."
+    },
+    {
+      "id": "ss146-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The bus arrived late, so Ben missed the beginning of the film.",
+      "promptZh": "巴士遲到了，所以本錯過了電影的開場部分。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus arrived late, which made Ben miss the beginning of the film.",
+      "answerZh": "巴士遲到了，這令本錯過了電影的開場部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus arrived late, which made Ben miss the beginning of the film."
+    },
+    {
+      "id": "ss146-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I left my phone at home. Therefore, I could not call anyone.",
+      "promptZh": "我把電話留在家中，因此無法致電任何人。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I left my phone at home, which meant I could not call anyone.",
+      "answerZh": "我把電話留在家中，這意味着我無法致電任何人。",
+      "answerZhSource": "pdf",
+      "highlight": "I left my phone at home, which meant I could not call anyone."
+    },
+    {
+      "id": "ss146-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The teacher spoke slowly, so the students understood the lesson more easily.",
+      "promptZh": "老師慢慢地說話，所以學生更容易明白課堂內容。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher spoke slowly, which helped the students understand the lesson more easily.",
+      "answerZh": "老師慢慢地說話，這幫助學生更容易明白課堂內容。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher spoke slowly, which helped the students understand the lesson more easily."
+    },
+    {
+      "id": "ss146-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The wind became stronger. Consequently, several branches fell.",
+      "promptZh": "風勢變得更強，結果有幾根樹枝掉了下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The wind became stronger, which caused several branches to fall.",
+      "answerZh": "風勢變得更強，這導致幾根樹枝掉下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The wind became stronger, which caused several branches to fall."
+    },
+    {
+      "id": "ss146-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sara found her lost key, so she felt relieved.",
+      "promptZh": "莎拉找回遺失的鑰匙，所以她感到如釋重負。",
+      "promptZhSource": "pdf",
+      "starter": "Sara",
+      "answer": "Sara found her lost key, which made her feel relieved.",
+      "answerZh": "莎拉找回遺失的鑰匙，這令她感到如釋重負。",
+      "answerZhSource": "pdf",
+      "highlight": "Sara found her lost key, which made her feel relieved."
+    },
+    {
+      "id": "ss146-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The lift was not working. We therefore had to use the stairs.",
+      "promptZh": "升降機不能運作，因此我們必須使用樓梯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lift was not working, which meant we had to use the stairs.",
+      "answerZh": "升降機不能運作，這意味着我們必須使用樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift was not working, which meant we had to use the stairs."
+    },
+    {
+      "id": "ss146-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Because the road was blocked, the school bus was delayed.",
+      "promptZh": "由於道路被封閉，校巴受到延誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was blocked, which delayed the school bus.",
+      "answerZh": "道路被封閉，這延誤了校巴。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was blocked, which delayed the school bus."
+    },
+    {
+      "id": "ss146-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel apologised sincerely, and this helped calm the argument.",
+      "promptZh": "丹尼爾真誠地道歉，這有助平息爭執。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel apologised sincerely, which helped calm the argument.",
+      "answerZh": "丹尼爾真誠地道歉，這有助平息爭執。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel apologised sincerely, which helped calm the argument."
+    },
+    {
+      "id": "ss146-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The café offered free Wi-Fi, and this attracted more customers.",
+      "promptZh": "咖啡店提供免費 Wi-Fi，這吸引了更多顧客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café offered free Wi-Fi, which attracted more customers.",
+      "answerZh": "咖啡店提供免費 Wi-Fi，這吸引了更多顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "The café offered free Wi-Fi, which attracted more customers."
+    },
+    {
+      "id": "ss146-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy set an alarm, so she did not oversleep.",
+      "promptZh": "艾米設定了鬧鐘，所以她沒有睡過頭。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy set an alarm, which prevented her from oversleeping.",
+      "answerZh": "艾米設定了鬧鐘，這使她沒有睡過頭。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy set an alarm, which prevented her from oversleeping."
+    },
+    {
+      "id": "ss146-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The lights suddenly went out. This frightened the children.",
+      "promptZh": "燈突然熄滅，這嚇怕了孩子們。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights suddenly went out, which frightened the children.",
+      "answerZh": "燈突然熄滅，這嚇怕了孩子們。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights suddenly went out, which frightened the children."
+    },
+    {
+      "id": "ss146-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The price was reduced, and this encouraged me to buy the jacket.",
+      "promptZh": "價格降低了，這促使我購買那件外套。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The price was reduced, which encouraged me to buy the jacket.",
+      "answerZh": "價格降低了，這促使我購買那件外套。",
+      "answerZhSource": "pdf",
+      "highlight": "The price was reduced, which encouraged me to buy the jacket."
+    },
+    {
+      "id": "ss146-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The doctor explained the treatment clearly. As a result, the patient became less anxious.",
+      "promptZh": "醫生清楚解釋了治療方法，結果病人沒有那麼焦慮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained the treatment clearly, which made the patient less anxious.",
+      "answerZh": "醫生清楚解釋了治療方法，這令病人沒有那麼焦慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained the treatment clearly, which made the patient less anxious."
+    },
+    {
+      "id": "ss146-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our team finished early. This gave us time to check the work again.",
+      "promptZh": "我們的團隊提早完成工作，這讓我們有時間再次檢查。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team finished early, which gave us time to check the work again.",
+      "answerZh": "我們的團隊提早完成工作，這讓我們有時間再次檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team finished early, which gave us time to check the work again."
+    },
+    {
+      "id": "ss146-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The library extended its opening hours, so more students could study there after school.",
+      "promptZh": "圖書館延長了開放時間，所以更多學生可以在放學後到那裏溫習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library extended its opening hours, which allowed more students to study there after school.",
+      "answerZh": "圖書館延長了開放時間，這讓更多學生可以在放學後到那裏溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "The library extended its opening hours, which allowed more students to study there after school."
+    },
+    {
+      "id": "ss146-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The message was unclear. As a result, there was a misunderstanding.",
+      "promptZh": "訊息不清楚，結果出現了誤會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The message was unclear, which led to a misunderstanding.",
+      "answerZh": "訊息不清楚，這導致了一場誤會。",
+      "answerZhSource": "pdf",
+      "highlight": "The message was unclear, which led to a misunderstanding."
+    },
+    {
+      "id": "ss146-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company changed the schedule. As a consequence, several employees had to work on Saturday.",
+      "promptZh": "公司更改了時間表，結果數名僱員必須在星期六上班。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company changed the schedule, which meant several employees had to work on Saturday.",
+      "answerZh": "公司更改了時間表，這意味着數名僱員必須在星期六上班。",
+      "answerZhSource": "pdf",
+      "highlight": "The company changed the schedule, which meant several employees had to work on Saturday."
+    },
+    {
+      "id": "ss146-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The heavy rain flooded the road, so buses could not enter the village.",
+      "promptZh": "大雨淹浸了道路，所以巴士無法進入村莊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The heavy rain flooded the road, which prevented buses from entering the village.",
+      "answerZh": "大雨淹浸了道路，這令巴士無法進入村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "The heavy rain flooded the road, which prevented buses from entering the village."
+    },
+    {
+      "id": "ss146-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Chloe saved all her files online. This allowed her to recover them after her laptop broke.",
+      "promptZh": "克洛伊把所有檔案儲存在網上。手提電腦壞掉後，她因此能夠取回檔案。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe saved all her files online, which allowed her to recover them after her laptop broke.",
+      "answerZh": "克洛伊把所有檔案儲存在網上，這讓她在手提電腦壞掉後能夠取回檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe saved all her files online, which allowed her to recover them after her laptop broke."
+    },
+    {
+      "id": "ss146-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum introduced family tickets. As a result, more parents visited with their children.",
+      "promptZh": "博物館推出家庭門票，結果更多家長帶同子女參觀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum introduced family tickets, which resulted in more parents visiting with their children.",
+      "answerZh": "博物館推出家庭門票，這使更多家長帶同子女參觀。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum introduced family tickets, which resulted in more parents visiting with their children."
+    },
+    {
+      "id": "ss146-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager rejected the first proposal. Consequently, the team had to develop a new plan.",
+      "promptZh": "經理否決了第一份建議，因此團隊必須制定新計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager rejected the first proposal, which forced the team to develop a new plan.",
+      "answerZh": "經理否決了第一份建議，這迫使團隊制定新計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager rejected the first proposal, which forced the team to develop a new plan."
+    },
+    {
+      "id": "ss146-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school added more recycling bins, and this helped reduce the amount of waste on campus.",
+      "promptZh": "學校增設了更多回收箱，這有助減少校園內的廢物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school added more recycling bins, which helped reduce the amount of waste on campus.",
+      "answerZh": "學校增設了更多回收箱，這有助減少校園內的廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "The school added more recycling bins, which helped reduce the amount of waste on campus."
+    },
+    {
+      "id": "ss146-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The flight was cancelled. Therefore, we had to book a hotel for the night.",
+      "promptZh": "航班被取消，因此我們必須預訂酒店留宿一晚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The flight was cancelled, which meant we had to book a hotel for the night.",
+      "answerZh": "航班被取消，這意味着我們必須預訂酒店留宿一晚。",
+      "answerZhSource": "pdf",
+      "highlight": "The flight was cancelled, which meant we had to book a hotel for the night."
+    },
+    {
+      "id": "ss146-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The nurse noticed the wrong label. As a result, a serious mistake was avoided.",
+      "promptZh": "護士留意到錯誤的標籤，結果避免了一個嚴重錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse noticed the wrong label, which prevented a serious mistake.",
+      "answerZh": "護士留意到錯誤的標籤，這避免了一個嚴重錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse noticed the wrong label, which prevented a serious mistake."
+    },
+    {
+      "id": "ss146-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The website was redesigned. This made it easier for customers to find information.",
+      "promptZh": "網站經過重新設計，這讓顧客更容易找到資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website was redesigned, which made it easier for customers to find information.",
+      "answerZh": "網站經過重新設計，這讓顧客更容易找到資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The website was redesigned, which made it easier for customers to find information."
+    },
+    {
+      "id": "ss146-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Oliver missed several practices, so his performance in the match was affected.",
+      "promptZh": "奧利弗缺席了數次訓練，所以他在比賽中的表現受到影響。",
+      "promptZhSource": "pdf",
+      "starter": "Oliver",
+      "answer": "Oliver missed several practices, which affected his performance in the match.",
+      "answerZh": "奧利弗缺席了數次訓練，這影響了他在比賽中的表現。",
+      "answerZhSource": "pdf",
+      "highlight": "Oliver missed several practices, which affected his performance in the match."
+    },
+    {
+      "id": "ss146-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The city opened a new cycle path. This encouraged more residents to travel by bicycle.",
+      "promptZh": "城市開設了一條新的單車徑，這鼓勵更多居民以單車出行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city opened a new cycle path, which encouraged more residents to travel by bicycle.",
+      "answerZh": "城市開設了一條新的單車徑，這鼓勵更多居民以單車出行。",
+      "answerZhSource": "pdf",
+      "highlight": "The city opened a new cycle path, which encouraged more residents to travel by bicycle."
+    },
+    {
+      "id": "ss146-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The warning was not translated. As a result, some visitors entered the restricted area.",
+      "promptZh": "警告沒有被翻譯，結果部分訪客進入了限制區域。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The warning was not translated, which caused some visitors to enter the restricted area.",
+      "answerZh": "警告沒有被翻譯，這導致部分訪客進入限制區域。",
+      "answerZhSource": "pdf",
+      "highlight": "The warning was not translated, which caused some visitors to enter the restricted area."
+    },
+    {
+      "id": "ss146-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company allowed flexible working hours, and this helped parents manage their family responsibilities.",
+      "promptZh": "公司容許彈性工作時間，這幫助家長處理家庭責任。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company allowed flexible working hours, which helped parents manage their family responsibilities.",
+      "answerZh": "公司容許彈性工作時間，這幫助家長處理家庭責任。",
+      "answerZhSource": "pdf",
+      "highlight": "The company allowed flexible working hours, which helped parents manage their family responsibilities."
+    },
+    {
+      "id": "ss146-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Grace had backed up the document. Therefore, she did not lose her work when the computer crashed.",
+      "promptZh": "格蕾絲已經為文件備份，因此電腦發生故障時，她沒有失去自己的工作成果。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace had backed up the document, which meant she did not lose her work when the computer crashed.",
+      "answerZh": "格蕾絲已經為文件備份，這意味着電腦發生故障時，她沒有失去自己的工作成果。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace had backed up the document, which meant she did not lose her work when the computer crashed."
+    },
+    {
+      "id": "ss146-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The restaurant received a poor hygiene report. As a consequence, bookings fell sharply.",
+      "promptZh": "餐廳收到一份欠佳的衞生報告，結果預訂數量大幅下降。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant received a poor hygiene report, which led to a sharp fall in bookings.",
+      "answerZh": "餐廳收到一份欠佳的衞生報告，這導致預訂數量大幅下降。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant received a poor hygiene report, which led to a sharp fall in bookings."
+    },
+    {
+      "id": "ss146-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new rule was announced without explanation. This confused both staff and customers.",
+      "promptZh": "新規則在沒有解釋的情況下公布，這令職員和顧客都感到困惑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule was announced without explanation, which confused both staff and customers.",
+      "answerZh": "新規則在沒有解釋的情況下公布，這令職員和顧客都感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule was announced without explanation, which confused both staff and customers."
+    },
+    {
+      "id": "ss146-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The coach changed the training method. This enabled the players to improve their teamwork.",
+      "promptZh": "教練改變了訓練方法，這讓球員能夠改善團隊合作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach changed the training method, which enabled the players to improve their teamwork.",
+      "answerZh": "教練改變了訓練方法，這讓球員能夠改善團隊合作。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach changed the training method, which enabled the players to improve their teamwork."
+    },
+    {
+      "id": "ss146-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A water pipe burst during the night. As a result, several homes had no water the next morning.",
+      "promptZh": "一條水管在晚上爆裂，結果翌日早上有數個家庭沒有食水供應。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A water pipe burst during the night, which left several homes without water the next morning.",
+      "answerZh": "一條水管在晚上爆裂，這令數個家庭在翌日早上沒有食水供應。",
+      "answerZhSource": "pdf",
+      "highlight": "A water pipe burst during the night, which left several homes without water the next morning."
+    },
+    {
+      "id": "ss146-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The local council repaired the broken streetlights. Therefore, the neighbourhood became safer after dark.",
+      "promptZh": "地方議會修理了損壞的街燈，因此該社區在入黑後變得更安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local council repaired the broken streetlights, which made the neighbourhood safer after dark.",
+      "answerZh": "地方議會修理了損壞的街燈，這令該社區在入黑後更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The local council repaired the broken streetlights, which made the neighbourhood safer after dark."
+    },
+    {
+      "id": "ss146-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ethan failed to check the address, so the parcel was delivered to the wrong building.",
+      "promptZh": "伊森沒有核對地址，所以包裹被送到錯誤的大廈。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan failed to check the address, which resulted in the parcel being delivered to the wrong building.",
+      "answerZh": "伊森沒有核對地址，這導致包裹被送到錯誤的大廈。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan failed to check the address, which resulted in the parcel being delivered to the wrong building."
+    },
+    {
+      "id": "ss146-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital introduced an online booking system. As a result, patients spent less time waiting on the phone.",
+      "promptZh": "醫院推出網上預約系統，結果病人等候電話接通的時間減少了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital introduced an online booking system, which reduced the time patients spent waiting on the phone.",
+      "answerZh": "醫院推出網上預約系統，這減少了病人等候電話接通的時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital introduced an online booking system, which reduced the time patients spent waiting on the phone."
+    },
+    {
+      "id": "ss146-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school divided the project into smaller stages. This made it easier for students to manage the workload.",
+      "promptZh": "學校把項目分成多個較小的階段，這讓學生更容易管理工作量。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school divided the project into smaller stages, which made it easier for students to manage the workload.",
+      "answerZh": "學校把項目分成多個較小的階段，這讓學生更容易管理工作量。",
+      "answerZhSource": "pdf",
+      "highlight": "The school divided the project into smaller stages, which made it easier for students to manage the workload."
+    },
+    {
+      "id": "ss146-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The train service was suspended during rush hour. Consequently, severe delays occurred across the entire network.",
+      "promptZh": "列車服務在繁忙時間暫停，結果整個鐵路網絡出現嚴重延誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train service was suspended during rush hour, which caused severe delays across the entire network.",
+      "answerZh": "列車服務在繁忙時間暫停，這導致整個鐵路網絡出現嚴重延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The train service was suspended during rush hour, which caused severe delays across the entire network."
+    },
+    {
+      "id": "ss146-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company did not update its safety instructions. This put new employees at unnecessary risk.",
+      "promptZh": "公司沒有更新安全指引，這令新僱員承受不必要的風險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company did not update its safety instructions, which put new employees at unnecessary risk.",
+      "answerZh": "公司沒有更新安全指引，這令新僱員承受不必要的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "The company did not update its safety instructions, which put new employees at unnecessary risk."
+    },
+    {
+      "id": "ss146-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Sofia asked several follow-up questions. This helped the speaker clarify an important point that many listeners had misunderstood.",
+      "promptZh": "蘇菲亞提出了數條跟進問題，這幫助講者澄清一個很多聽眾都誤解了的重點。",
+      "promptZhSource": "pdf",
+      "starter": "Sofia",
+      "answer": "Sofia asked several follow-up questions, which helped the speaker clarify an important point that many listeners had misunderstood.",
+      "answerZh": "蘇菲亞提出了數條跟進問題，這幫助講者澄清一個很多聽眾都誤解了的重點。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia asked several follow-up questions, which helped the speaker clarify an important point that many listeners had misunderstood."
+    },
+    {
+      "id": "ss146-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The local centre extended its weekend programme. As a result, working parents had more opportunities to join community activities.",
+      "promptZh": "地區中心延長了週末活動計劃，結果在職家長有更多機會參與社區活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local centre extended its weekend programme, which gave working parents more opportunities to join community activities.",
+      "answerZh": "地區中心延長了週末活動計劃，這讓在職家長有更多機會參與社區活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The local centre extended its weekend programme, which gave working parents more opportunities to join community activities."
+    },
+    {
+      "id": "ss146-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team tested the new system under heavy traffic. The test revealed several problems that had not appeared during earlier trials.",
+      "promptZh": "團隊在高流量下測試新系統。這次測試揭示了數個在較早測試中沒有出現的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team tested the new system under heavy traffic, which revealed several problems that had not appeared during earlier trials.",
+      "answerZh": "團隊在高流量下測試新系統，這揭示了數個在較早測試中沒有出現的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The team tested the new system under heavy traffic, which revealed several problems that had not appeared during earlier trials."
+    },
+    {
+      "id": "ss146-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The government office moved more services online, so residents in remote areas could submit applications without travelling long distances.",
+      "promptZh": "政府部門把更多服務轉移到網上，因此偏遠地區的居民無須長途跋涉便可提交申請。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The government office moved more services online, which allowed residents in remote areas to submit applications without travelling long distances.",
+      "answerZh": "政府部門把更多服務轉移到網上，這讓偏遠地區的居民無須長途跋涉便可提交申請。",
+      "answerZhSource": "pdf",
+      "highlight": "The government office moved more services online, which allowed residents in remote areas to submit applications without travelling long distances."
+    },
+    {
+      "id": "ss146-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The factory replaced its old machines with energy-efficient models. Consequently, electricity use fell and operating costs became lower.",
+      "promptZh": "工廠以節能型號取代舊機器，結果用電量下降，營運成本亦有所降低。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The factory replaced its old machines with energy-efficient models, which reduced electricity use and lowered operating costs.",
+      "answerZh": "工廠以節能型號取代舊機器，這減少了用電量，並降低了營運成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The factory replaced its old machines with energy-efficient models, which reduced electricity use and lowered operating costs."
+    },
+    {
+      "id": "ss146-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee published the evidence together with its final decision. This made the process easier for the public to understand and increased trust in the outcome.",
+      "promptZh": "委員會在公布最終決定時一併公開證據。這讓公眾更容易理解整個過程，亦提高了他們對結果的信任。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee published the evidence together with its final decision, which made the process easier for the public to understand and increased trust in the outcome.",
+      "answerZh": "委員會在公布最終決定時一併公開證據，這讓公眾更容易理解整個過程，並提高了他們對結果的信任。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee published the evidence together with its final decision, which made the process easier for the public to understand and increased trust in the outcome."
+    }
+  ]
+}

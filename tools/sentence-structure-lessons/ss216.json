@@ -1,0 +1,1219 @@
+{
+  "id": "ss216",
+  "order": 216,
+  "slug": "in-pursuit-of",
+  "title": "「In pursuit of ...」表達為實現目標而作出的努力",
+  "titleZh": "「In pursuit of ...」表達為實現目標而作出的努力",
+  "titleEn": "Using “in pursuit of ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 215 -「In pursuit of ...」表達為實現目標而作出的努力 .pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 215; it is assigned system ID ss216 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "In pursuit of + noun / noun phrase, + complete clause",
+  "formulas": [
+    {
+      "id": "ss216-formula-01",
+      "labelEn": "Sentence-initial",
+      "labelZh": "放在句首",
+      "formula": "In pursuit of + noun / noun phrase, + complete clause"
+    },
+    {
+      "id": "ss216-formula-02",
+      "labelEn": "Sentence-final",
+      "labelZh": "放在句末",
+      "formula": "Complete clause + in pursuit of + noun / noun phrase"
+    }
+  ],
+  "example": "In pursuit of fairness, the school revised its admission policy.",
+  "exampleZh": "為了追求公平，學校修訂了收生政策。",
+  "examples": [
+    {
+      "id": "ss216-example-01",
+      "en": "In pursuit of fairness, the school revised its admission policy.",
+      "zh": "為了追求公平，學校修訂了收生政策。",
+      "highlight": "In pursuit of fairness, the school revised its admission policy."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：In pursuit of + noun / noun phrase, + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss216-rule-01",
+      "zh": "of 後面須接名詞或名詞短語。 不要直接寫：",
+      "en": "Follow of with a noun or noun phrase. Correct: in pursuit of fairness; in pursuit of better health; in pursuit of a more balanced team. Do not put a verb form directly after of: in pursuit of be fair; in pursuit of improve health.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "in pursuit of fairness",
+        "in pursuit of better health",
+        "in pursuit of a more balanced team",
+        "in pursuit of be fair",
+        "in pursuit of improve health"
+      ]
+    },
+    {
+      "id": "ss216-rule-02",
+      "zh": "改寫時，經常需要把動詞或形容詞轉為名詞。",
+      "en": "Rewriting often requires a verb or adjective to become a noun or noun phrase: fair → fairness; accurate → accuracy; fluent → fluency; independent → independence; communicate clearly → clearer communication.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "fair → fairness",
+        "accurate → accuracy",
+        "fluent → fluency",
+        "independent → independence",
+        "communicate clearly → clearer communication"
+      ]
+    },
+    {
+      "id": "ss216-rule-03",
+      "zh": "這個句型表示有意識地追求目標，而不是偶然產生的結果。 它通常暗示當事人願意付出努力，並朝着尚未完全實現的目標前進。",
+      "en": "The phrase describes deliberate pursuit of a goal, not an accidental result, and implies effort towards an unrealised aim.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss216-rule-04",
+      "zh": "句型放在句首時，後面通常加逗號。 放在句尾時，前面通常不需要逗號。",
+      "en": "When the phrase comes first, normally put a comma after it: In pursuit of excellence, the team practised every day. When it comes last, a comma is normally unnecessary: The team practised every day in pursuit of excellence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "In pursuit of excellence, the team practised every day.",
+        "The team practised every day in pursuit of excellence."
+      ]
+    },
+    {
+      "id": "ss216-rule-05",
+      "zh": "in pursuit of 的語氣較正式。 它適合用於作文、報告、新聞、政策、演說及商業寫作。日常小事通常直接使用 to + verb 會更 自然。本課集中教授「追求抽象目標」的用法，而不是「追趕某人或某物」的字面意思。",
+      "en": "In pursuit of is formal and suits essays, reports, news, policies, speeches and business writing. For small everyday actions, to + verb is normally more natural. This lesson focuses on pursuing abstract goals, not the literal meaning of chasing a person or thing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss216-benefit-01",
+      "zh": "它能立即交代行動背後的目標，讓讀者迅速明白「做這件事是為了甚麼」。",
+      "en": "It makes the goal immediately clear. The reader can quickly understand what the action is trying to achieve.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss216-benefit-02",
+      "zh": "它能突出當事人正在有意識地付出努力，而不是隨意或碰巧做某件事。",
+      "en": "It highlights deliberate effort. The structure often suggests that someone is seriously working towards an important goal.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss216-benefit-03",
+      "zh": "它能把使用 because、so that 或 with the aim of 的較長解釋濃縮成一個簡潔短語。",
+      "en": "It can shorten a longer explanation. Instead of using a full clause with because, so that or with the aim of, you can express the goal in a compact phrase. Compare: The school revised its admission policy because it wanted admission decisions to be fairer. In pursuit of fairness, the school revised its admission policy.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss216-benefit-04",
+      "zh": "把句型放在句首，可以先強調目標，亦能避免每句都由主語開始，使句式更有變化。",
+      "en": "It gives you another way to begin a sentence. Placing the structure first draws attention to the goal and prevents every sentence from beginning with the subject.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss216-benefit-05",
+      "zh": "在討論公平、安全、知識、增長、平等、和平等重要目標時，這個句型尤其實用。",
+      "en": "It is useful for serious and formal topics. You can use it naturally when discussing fairness, safety, knowledge, growth, equality, peace and other important aims.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 215; it is assigned system ID ss216 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: In pursuit of + noun / noun phrase, + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「In pursuit of + noun / noun phrase, + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss216-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Mia walks for thirty minutes every morning because she wants to improve her health.",
+      "promptZh": "米婭每天早上步行三十分鐘，因為她想改善健康。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of better health, Mia walks for thirty minutes every morning.",
+      "answerZh": "為了追求更好的健康，米婭每天早上步行三十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of better health, Mia walks for thirty minutes every morning."
+    },
+    {
+      "id": "ss216-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Leo reviews his notes every evening. His goal is to get higher marks.",
+      "promptZh": "里奧每天晚上溫習筆記。他的目標是取得更高分數。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of higher marks, Leo reviews his notes every evening.",
+      "answerZh": "為了追求更高分數，里奧每天晚上溫習筆記。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of higher marks, Leo reviews his notes every evening."
+    },
+    {
+      "id": "ss216-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The school revised its admission policy to make admission decisions fairer.",
+      "promptZh": "學校修訂了收生政策，以令收生決定更加公平。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of fairness, the school revised its admission policy.",
+      "answerZh": "為了追求公平，學校修訂了收生政策。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of fairness, the school revised its admission policy."
+    },
+    {
+      "id": "ss216-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The city planted trees along busy roads so that the air would become cleaner.",
+      "promptZh": "市政府在繁忙道路旁種植樹木，好讓空氣變得更清新。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of cleaner air, the city planted trees along busy roads.",
+      "answerZh": "為了追求更清新的空氣，市政府在繁忙道路旁種植樹木。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of cleaner air, the city planted trees along busy roads."
+    },
+    {
+      "id": "ss216-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Why does Emma speak English whenever possible? She wants to become fluent.",
+      "promptZh": "艾瑪為甚麼盡可能說英語？她想說得流利。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of fluency, Emma speaks English whenever possible.",
+      "answerZh": "為了追求流利的英語表達，艾瑪盡可能說英語。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of fluency, Emma speaks English whenever possible."
+    },
+    {
+      "id": "ss216-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Daniel cooks at home instead of eating out in order to increase his savings.",
+      "promptZh": "丹尼爾在家煮食而不外出用膳，以增加儲蓄。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of greater savings, Daniel cooks at home instead of eating out.",
+      "answerZh": "為了增加儲蓄，丹尼爾在家煮食而不外出用膳。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of greater savings, Daniel cooks at home instead of eating out."
+    },
+    {
+      "id": "ss216-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Workers should wear protective gloves because they do not want to injure their hands.",
+      "promptZh": "工人應該戴上防護手套，因為他們不想弄傷雙手。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of safety, workers should wear protective gloves.",
+      "answerZh": "為了保障安全，工人應該戴上防護手套。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of safety, workers should wear protective gloves."
+    },
+    {
+      "id": "ss216-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben's reason for visiting the library every weekend is to gain more knowledge.",
+      "promptZh": "本每個週末到圖書館的原因，是希望增廣知識。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of knowledge, Ben visits the library every weekend.",
+      "answerZh": "為了追求知識，本每個週末都到圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of knowledge, Ben visits the library every weekend."
+    },
+    {
+      "id": "ss216-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why does Noah practise after school? He hopes to earn a place on the team.",
+      "promptZh": "諾亞為甚麼放學後練習？他希望取得校隊席位。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of a place on the team, Noah practises after school.",
+      "answerZh": "為了爭取校隊席位，諾亞放學後練習。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of a place on the team, Noah practises after school."
+    },
+    {
+      "id": "ss216-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The neighbours hoped for peace, so they agreed to discuss the problem calmly.",
+      "promptZh": "鄰居希望和平相處，因此同意冷靜地討論問題。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of peace, the neighbours agreed to discuss the problem calmly.",
+      "answerZh": "為了追求和平，鄰居同意冷靜地討論問題。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of peace, the neighbours agreed to discuss the problem calmly."
+    },
+    {
+      "id": "ss216-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Sarah joined a coding course because she hoped to find new career opportunities.",
+      "promptZh": "莎拉參加編程課程，因為她希望找到新的職業機會。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah joined a coding course in pursuit of new career opportunities.",
+      "answerZh": "莎拉為了尋求新的職業機會而參加編程課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah joined a coding course in pursuit of new career opportunities."
+    },
+    {
+      "id": "ss216-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The restaurant changed its menu with the aim of offering healthier dining options to customers.",
+      "promptZh": "餐廳更改餐牌，目的是為顧客提供更健康的餐飲選擇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant changed its menu in pursuit of healthier dining options for customers.",
+      "answerZh": "餐廳為了給顧客提供更健康的餐飲選擇而更改餐牌。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant changed its menu in pursuit of healthier dining options for customers."
+    },
+    {
+      "id": "ss216-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The council added more street lights so that the public would be safer at night.",
+      "promptZh": "區議會增設了更多街燈，好讓市民晚上更安全。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of greater public safety, the council added more street lights.",
+      "answerZh": "為了提升公共安全，區議會增設了更多街燈。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of greater public safety, the council added more street lights."
+    },
+    {
+      "id": "ss216-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why did the team train six days a week? Its goal was to win the championship.",
+      "promptZh": "球隊為甚麼每星期訓練六天？它的目標是贏得錦標賽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team trained six days a week in pursuit of the championship.",
+      "answerZh": "球隊為了爭奪錦標賽冠軍而每星期訓練六天。",
+      "answerZhSource": "pdf",
+      "highlight": "The team trained six days a week in pursuit of the championship."
+    },
+    {
+      "id": "ss216-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I started keeping a budget because I wanted better control over my spending.",
+      "promptZh": "我開始制定預算，因為我想更有效地控制開支。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I started keeping a budget in pursuit of better control over my spending.",
+      "answerZh": "我為了更有效地控制開支而開始制定預算。",
+      "answerZhSource": "pdf",
+      "highlight": "I started keeping a budget in pursuit of better control over my spending."
+    },
+    {
+      "id": "ss216-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe checked every figure twice in order to make sure the calculations were accurate.",
+      "promptZh": "克洛伊把每個數字檢查兩次，以確保計算準確。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of accuracy, Chloe checked every figure twice.",
+      "answerZh": "為了追求準確，克洛伊把每個數字檢查兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of accuracy, Chloe checked every figure twice."
+    },
+    {
+      "id": "ss216-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Customer satisfaction was the manager's goal, so he responded quickly.",
+      "promptZh": "令顧客滿意是經理的目標，因此他迅速作出回應。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of customer satisfaction, the manager responded quickly.",
+      "answerZh": "為了追求顧客滿意，經理迅速作出回應。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of customer satisfaction, the manager responded quickly."
+    },
+    {
+      "id": "ss216-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The family began composting food scraps in order to reduce household waste.",
+      "promptZh": "這個家庭開始把廚餘製成堆肥，以減少家居廢物。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of waste reduction, the family began composting food scraps.",
+      "answerZh": "為了減少廢物，這個家庭開始把廚餘製成堆肥。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of waste reduction, the family began composting food scraps."
+    },
+    {
+      "id": "ss216-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The students moved to another room because they were looking for a quieter place to study.",
+      "promptZh": "學生搬到另一個房間，因為他們正在尋找較安靜的溫習地方。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of a quieter study space, the students moved to another room.",
+      "answerZh": "為了尋找較安靜的溫習空間，學生搬到另一個房間。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of a quieter study space, the students moved to another room."
+    },
+    {
+      "id": "ss216-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Driven by a desire to become more independent, Ava learned to manage her own finances.",
+      "promptZh": "艾娃渴望變得更加獨立，因此學習管理自己的財務。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of independence, Ava learned to manage her own finances.",
+      "answerZh": "為了追求獨立，艾娃學習管理自己的財務。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of independence, Ava learned to manage her own finances."
+    },
+    {
+      "id": "ss216-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "To give all applicants equal opportunities, the company removed names and photos from job applications.",
+      "promptZh": "為了讓所有申請者都有平等機會，公司從求職申請中刪除姓名和相片。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of equal opportunities, the company removed names and photos from job applications.",
+      "answerZh": "為了追求平等機會，公司從求職申請中刪除姓名和相片。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of equal opportunities, the company removed names and photos from job applications."
+    },
+    {
+      "id": "ss216-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The hospital upgraded its booking system with the aim of shortening waiting times.",
+      "promptZh": "醫院升級預約系統，目的是縮短輪候時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital upgraded its booking system in pursuit of shorter waiting times.",
+      "answerZh": "醫院為了縮短輪候時間而升級預約系統。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital upgraded its booking system in pursuit of shorter waiting times."
+    },
+    {
+      "id": "ss216-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why did the residents organise monthly gatherings? They wanted to strengthen community ties.",
+      "promptZh": "居民為甚麼舉辦每月聚會？他們想加強社區聯繫。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of stronger community ties, the residents organised monthly gatherings.",
+      "answerZh": "為了加強社區聯繫，居民舉辦每月聚會。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of stronger community ties, the residents organised monthly gatherings."
+    },
+    {
+      "id": "ss216-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The scientist repeated the experiment so that the results would be reliable.",
+      "promptZh": "科學家重複進行實驗，以確保結果可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scientist repeated the experiment in pursuit of reliable results.",
+      "answerZh": "科學家為了取得可靠結果而重複進行實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The scientist repeated the experiment in pursuit of reliable results."
+    },
+    {
+      "id": "ss216-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Marcus wanted a better work-life balance, so he stopped checking email after dinner.",
+      "promptZh": "馬庫斯希望取得更好的工作與生活平衡，因此晚飯後不再查看電郵。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of a better work-life balance, Marcus stopped checking email after dinner.",
+      "answerZh": "為了追求更好的工作與生活平衡，馬庫斯晚飯後不再查看電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of a better work-life balance, Marcus stopped checking email after dinner."
+    },
+    {
+      "id": "ss216-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The school expanded its library so that more students could access learning materials.",
+      "promptZh": "學校擴建圖書館，好讓更多學生可以使用學習資源。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school expanded its library in pursuit of wider access to learning materials.",
+      "answerZh": "學校為了擴大學生取得學習資源的機會而擴建圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "The school expanded its library in pursuit of wider access to learning materials."
+    },
+    {
+      "id": "ss216-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "With a commitment to environmental responsibility, the office stopped using disposable cups.",
+      "promptZh": "辦公室致力承擔環境責任，因此停止使用即棄杯。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of environmental responsibility, the office stopped using disposable cups.",
+      "answerZh": "為了實踐環境責任，辦公室停止使用即棄杯。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of environmental responsibility, the office stopped using disposable cups."
+    },
+    {
+      "id": "ss216-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Hoping to support low-income families more effectively, the charity opened a free advice centre.",
+      "promptZh": "慈善機構希望更有效地支援低收入家庭，因此開設免費諮詢中心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity opened a free advice centre in pursuit of improved support for low-income families.",
+      "answerZh": "慈善機構為了改善對低收入家庭的支援而開設免費諮詢中心。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity opened a free advice centre in pursuit of improved support for low-income families."
+    },
+    {
+      "id": "ss216-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The business invested in staff training with the goal of achieving long-term growth.",
+      "promptZh": "企業投資於員工培訓，目標是取得長遠增長。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of long-term growth, the business invested in staff training.",
+      "answerZh": "為了追求長遠增長，企業投資於員工培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of long-term growth, the business invested in staff training."
+    },
+    {
+      "id": "ss216-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The athlete changed her diet so that she could recover faster after training.",
+      "promptZh": "運動員改變飲食習慣，以便在訓練後更快恢復。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The athlete changed her diet in pursuit of faster recovery after training.",
+      "answerZh": "運動員為了在訓練後更快恢復而改變飲食習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "The athlete changed her diet in pursuit of faster recovery after training."
+    },
+    {
+      "id": "ss216-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The committee has published the meeting minutes online so that its decisions will not appear secretive.",
+      "promptZh": "委員會已在網上公布會議紀錄，以免其決策看來欠缺透明度。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of transparency, the committee has published the meeting minutes online.",
+      "answerZh": "為了追求透明度，委員會已在網上公布會議紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of transparency, the committee has published the meeting minutes online."
+    },
+    {
+      "id": "ss216-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum added audio guides with the aim of making the visitor experience more inclusive.",
+      "promptZh": "博物館增設了語音導賞，目的是令參觀體驗更具共融性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum added audio guides in pursuit of a more inclusive visitor experience.",
+      "answerZh": "博物館為了提供更具共融性的參觀體驗而增設語音導賞。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum added audio guides in pursuit of a more inclusive visitor experience."
+    },
+    {
+      "id": "ss216-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did the police increase road-safety education? They wanted to reduce the number of traffic accidents.",
+      "promptZh": "警方為甚麼加強道路安全教育？他們希望減少交通意外數目。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of greater road safety, the police increased road-safety education.",
+      "answerZh": "為了提升道路安全，警方加強道路安全教育。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of greater road safety, the police increased road-safety education."
+    },
+    {
+      "id": "ss216-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The software team simplified the login process so that the system would be easier to use.",
+      "promptZh": "軟件團隊簡化登入程序，好讓系統更容易使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The software team simplified the login process in pursuit of a more user-friendly system.",
+      "answerZh": "軟件團隊為了建立更方便使用的系統而簡化登入程序。",
+      "answerZhSource": "pdf",
+      "highlight": "The software team simplified the login process in pursuit of a more user-friendly system."
+    },
+    {
+      "id": "ss216-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If the teachers want a fairer assessment system, they should review the marking criteria.",
+      "promptZh": "如果教師希望評核制度更加公平，他們便應該檢討評分準則。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of a fairer assessment system, the teachers should review the marking criteria.",
+      "answerZh": "為了建立更公平的評核制度，教師應該檢討評分準則。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of a fairer assessment system, the teachers should review the marking criteria."
+    },
+    {
+      "id": "ss216-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The town protected the wetland with the goals of improving flood control and conserving wildlife.",
+      "promptZh": "小鎮保護濕地，目標是改善防洪工作及保育野生動物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town protected the wetland in pursuit of better flood control and wildlife conservation.",
+      "answerZh": "小鎮為了改善防洪工作及保育野生動物而保護濕地。",
+      "answerZhSource": "pdf",
+      "highlight": "The town protected the wetland in pursuit of better flood control and wildlife conservation."
+    },
+    {
+      "id": "ss216-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The department released a detailed explanation. Its intention was to maintain public trust.",
+      "promptZh": "部門發表詳細解釋，目的是維持公眾信任。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of continued public trust, the department released a detailed explanation.",
+      "answerZh": "為了維持公眾信任，部門發表詳細解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of continued public trust, the department released a detailed explanation."
+    },
+    {
+      "id": "ss216-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company reduced unnecessary meetings in order to increase productivity.",
+      "promptZh": "公司減少不必要的會議，以提升生產力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company reduced unnecessary meetings in pursuit of higher productivity.",
+      "answerZh": "公司為了提升生產力而減少不必要的會議。",
+      "answerZhSource": "pdf",
+      "highlight": "The company reduced unnecessary meetings in pursuit of higher productivity."
+    },
+    {
+      "id": "ss216-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Seeking greater financial stability, the couple built an emergency fund.",
+      "promptZh": "這對夫婦為了尋求更穩定的財政狀況而建立應急儲備。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of financial stability, the couple built an emergency fund.",
+      "answerZh": "為了追求財政穩定，這對夫婦建立應急儲備。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of financial stability, the couple built an emergency fund."
+    },
+    {
+      "id": "ss216-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach rotated the players so that the team would be more balanced.",
+      "promptZh": "教練輪流安排球員上陣，好讓球隊更加平衡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach rotated the players in pursuit of a more balanced team.",
+      "answerZh": "教練為了建立更平衡的球隊而輪流安排球員上陣。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach rotated the players in pursuit of a more balanced team."
+    },
+    {
+      "id": "ss216-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The government provided digital devices to students who could not afford them with the aim of promoting educational equality.",
+      "promptZh": "政府向無力購買數碼裝置的學生提供相關設備，目的是促進教育平等。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of educational equality, the government provided digital devices to students who could not afford them.",
+      "answerZh": "為了促進教育平等，政府向無力購買數碼裝置的學生提供相關設備。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of educational equality, the government provided digital devices to students who could not afford them."
+    },
+    {
+      "id": "ss216-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital created a translation service so that it could communicate more clearly with patients from different language backgrounds.",
+      "promptZh": "醫院設立翻譯服務，以便與不同語言背景的病人更清楚地溝通。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital created a translation service in pursuit of clearer communication with patients from different language backgrounds.",
+      "answerZh": "醫院為了與不同語言背景的病人更清楚地溝通而設立翻譯服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital created a translation service in pursuit of clearer communication with patients from different language backgrounds."
+    },
+    {
+      "id": "ss216-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "To make evidence-based decisions, the research team collected data from several independent sources.",
+      "promptZh": "為了作出以證據為基礎的決定，研究團隊從數個獨立來源收集數據。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of evidence-based decisions, the research team collected data from several independent sources.",
+      "answerZh": "為了作出以證據為基礎的決定，研究團隊從數個獨立來源收集數據。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of evidence-based decisions, the research team collected data from several independent sources."
+    },
+    {
+      "id": "ss216-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The firm is redesigning its promotion process because it wants advancement to depend on performance rather than personal connections.",
+      "promptZh": "公司正在重新設計晉升程序，因為它希望晉升取決於工作表現，而不是私人關係。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The firm is redesigning its promotion process in pursuit of a workplace where advancement depends on performance rather than personal connections.",
+      "answerZh": "公司為了建立一個按工作表現而非私人關係決定晉升的工作環境，正在重新設計晉升程序。",
+      "answerZhSource": "pdf",
+      "highlight": "The firm is redesigning its promotion process in pursuit of a workplace where advancement depends on performance rather than personal connections."
+    },
+    {
+      "id": "ss216-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the city wants more reliable public transport, it should replace ageing buses and improve maintenance schedules.",
+      "promptZh": "如果市政府希望公共交通更加可靠，便應該更換老化巴士並改善維修時間表。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of more reliable public transport, the city should replace ageing buses and improve maintenance schedules.",
+      "answerZh": "為了建立更可靠的公共交通系統，市政府應該更換老化巴士並改善維修時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of more reliable public transport, the city should replace ageing buses and improve maintenance schedules."
+    },
+    {
+      "id": "ss216-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The university offered evening classes so that adults who worked during the day could access education more easily.",
+      "promptZh": "大學開辦夜間課程，好讓日間工作的成年人更容易接受教育。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university offered evening classes in pursuit of greater access to education for adults who worked during the day.",
+      "answerZh": "大學為了讓日間工作的成年人更容易接受教育而開辦夜間課程。",
+      "answerZhSource": "pdf",
+      "highlight": "The university offered evening classes in pursuit of greater access to education for adults who worked during the day."
+    },
+    {
+      "id": "ss216-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Their desire for lasting peace led the two sides to continue negotiations even after the early talks failed.",
+      "promptZh": "雙方渴望實現持久和平，因此即使初步會談失敗，仍繼續談判。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of lasting peace, the two sides continued negotiations even after the early talks failed.",
+      "answerZh": "為了追求持久和平，即使初步會談失敗，雙方仍繼續談判。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of lasting peace, the two sides continued negotiations even after the early talks failed."
+    },
+    {
+      "id": "ss216-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The factory introduced regular equipment checks so that workers would not be injured and production would not be delayed so often.",
+      "promptZh": "工廠推行定期設備檢查，以免工人受傷，並減少生產延誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The factory introduced regular equipment checks in pursuit of safer working conditions and fewer production delays.",
+      "answerZh": "工廠為了改善工作安全並減少生產延誤而推行定期設備檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The factory introduced regular equipment checks in pursuit of safer working conditions and fewer production delays."
+    },
+    {
+      "id": "ss216-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The agency is creating a digital system with the aim of improving both efficiency and accountability by recording every stage of each application.",
+      "promptZh": "機構正在建立數碼系統，目的是透過記錄每宗申請的各個階段，同時提升效率和問責性。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In pursuit of both efficiency and accountability, the agency is creating a digital system that records every stage of each application.",
+      "answerZh": "為了同時提升效率和問責性，機構正在建立一套記錄每宗申請各個階段的數碼系統。",
+      "answerZhSource": "pdf",
+      "highlight": "In pursuit of both efficiency and accountability, the agency is creating a digital system that records every stage of each application."
+    },
+    {
+      "id": "ss216-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school's goal was to find an approach that protected order without ignoring students' individual circumstances. It therefore changed its discipline policy.",
+      "promptZh": "學校的目標，是尋求一套既維持秩序，又不忽略學生個別情況的處理方式。因此，校方修改了紀律政策。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school changed its discipline policy in pursuit of an approach that protected order without ignoring students' individual circumstances.",
+      "answerZh": "學校為了尋求一套既維持秩序又不忽略學生個別情況的處理方式而修改紀律政策。",
+      "answerZhSource": "pdf",
+      "highlight": "The school changed its discipline policy in pursuit of an approach that protected order without ignoring students' individual circumstances."
+    }
+  ]
+}

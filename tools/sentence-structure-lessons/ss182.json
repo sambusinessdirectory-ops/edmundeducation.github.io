@@ -1,0 +1,1206 @@
+{
+  "id": "ss182",
+  "order": 182,
+  "slug": "the-reality-is-that",
+  "title": "The reality is that",
+  "titleZh": "「The reality is that ...」陳述實際情況",
+  "titleEn": "Using The reality is that to state the actual situation",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 182 - The reality is that 陳述實際情況.pdf",
+    "pageCount": 13,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerPages": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "The reality is that + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss182-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "The reality is that + subject + verb + other information"
+    },
+    {
+      "id": "ss182-formula-02",
+      "labelEn": "Expanded",
+      "labelZh": "延伸句式",
+      "formula": "Expectation / appearance + but + the reality is that + complete clause"
+    }
+  ],
+  "example": "The reality is that sustainable progress takes time.",
+  "exampleZh": "現實是，可持續的進步需要時間。",
+  "examples": [
+    {
+      "id": "ss182-example-01",
+      "en": "The reality is that sustainable progress takes time.",
+      "zh": "現實是，可持續的進步需要時間。",
+      "highlight": "The reality is that sustainable progress takes time."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss182-rule-01",
+      "zh": "that 後面必須接一個完整子句；該子句要有自己的主語和動詞。",
+      "en": "Write a complete clause after that. The clause needs its own subject and verb.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss182-rule-02",
+      "zh": "reality 是單數，所以要用 is，不要用 are。",
+      "en": "Use is, not are, because reality is singular.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss182-rule-03",
+      "zh": "這個句型用來陳述實際情況，尤其適合說明現實與人們的想法、希望、期望、說法或第一印象不同。",
+      "en": "Use this structure to state the actual situation, especially when it differs from what people think, hope, expect, claim or see at first.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss182-rule-04",
+      "zh": "保留原句的時態、否定意思，以及 may、can、should、must 等情態動詞所表達的程度。",
+      "en": "Keep the original tense, negative meaning and modal words such as may, can, should and must.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss182-rule-05",
+      "zh": "本練習每個答案都必須包含完整的 the reality is that。這個句型可以放在句首，也可以放在簡短背景之後。",
+      "en": "Every answer in this exercise must include the exact words the reality is that. The phrase may appear at the beginning or after a short context.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss182-benefit-01",
+      "zh": "這個句型會清楚告訴讀者或聽者：「以下才是實際情況。」",
+      "en": "It makes the actual situation clear by signalling to the reader or listener, “What follows is the reality.”",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It makes the actual situation clear."
+      ]
+    },
+    {
+      "id": "ss182-benefit-02",
+      "zh": "你不必直接說「你錯了」，也可以有禮貌地指出想法與事實之間的分別。",
+      "en": "It helps you correct a mistaken idea politely by distinguishing an assumption from the facts without directly saying, “You are wrong.”",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It helps you correct a mistaken idea politely."
+      ]
+    },
+    {
+      "id": "ss182-benefit-03",
+      "zh": "the reality is that 會把注意力帶到後面的事實，適合用於說話、作文、報告和簡報。",
+      "en": "It draws attention to your main point: the reality is that directs attention to the fact that follows, making it useful in speaking, essays, reports and presentations.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It draws attention to your main point."
+      ]
+    },
+    {
+      "id": "ss182-benefit-04",
+      "zh": "它可以把「人們以為怎樣」和「實際上怎樣」連接成一句清楚的句子。",
+      "en": "It connects an expectation and the actual fact in one clear sentence.",
+      "enSource": "pdf",
+      "examples": [
+        "It connects an expectation and the actual fact in one clear sentence."
+      ]
+    },
+    {
+      "id": "ss182-benefit-05",
+      "zh": "這個固定句框能幫助你在說話時更快組織答案，也能避免重複使用 actually、in fact 或簡單的 but 句。 Sentence Structure Transformation | 句型改寫練習 （人們可能期望立即見到成果，但可持續的進步需要時間。） （人們可能期望立即見到成果，但現實是，可持續的進步需要時間。）",
+      "en": "It gives you a ready-made speaking frame that helps you organise an answer quickly and avoids repeatedly using actually, in fact or simple but-sentences. Compare People may expect instant results, but sustainable progress takes time with People may expect instant results, but the reality is that sustainable progress takes time.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It gives you a ready-made speaking frame and another way to organise a sentence."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using The reality is that.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 The reality is that 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss182-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "promptZhPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "In fact, Mia is becoming more confident through regular practice.",
+      "promptZh": "事實上，米婭正透過定期練習變得更有自信。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reality is that Mia is becoming more confident through regular practice.",
+      "answerZh": "現實是，米婭正透過定期練習變得更有自信。",
+      "answerZhSource": "pdf",
+      "highlight": "The reality is that Mia is becoming more confident through regular practice."
+    },
+    {
+      "id": "ss182-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Actually, mistakes are a normal part of learning.",
+      "promptZh": "其實，犯錯是學習過程中正常的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reality is that mistakes are a normal part of learning.",
+      "answerZh": "現實是，犯錯是學習過程中正常的一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The reality is that mistakes are a normal part of learning."
+    },
+    {
+      "id": "ss182-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "For Daniel, the truth is that his report needs careful revision.",
+      "promptZh": "對丹尼爾來說，事實是他的報告需要仔細修改。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For Daniel, the reality is that his report needs careful revision.",
+      "answerZh": "對丹尼爾來說，現實是他的報告需要仔細修改。",
+      "answerZhSource": "pdf",
+      "highlight": "For Daniel, the reality is that his report needs careful revision."
+    },
+    {
+      "id": "ss182-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Healthy habits may seem easy to start, but they need time to become routine.",
+      "promptZh": "健康習慣看似容易開始，但需要時間才能成為日常習慣。",
+      "promptZhSource": "pdf",
+      "starter": "Healthy",
+      "answer": "Healthy habits may seem easy to start, but the reality is that they need time to become routine.",
+      "answerZh": "健康習慣看似容易開始，但現實是，這些習慣需要時間才能成為日常習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "Healthy habits may seem easy to start, but the reality is that they need time to become routine."
+    },
+    {
+      "id": "ss182-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "During busy hours, drivers may expect cars to be faster, but the bus is often quicker.",
+      "promptZh": "在繁忙時段，駕駛者可能以為駕車較快，但巴士往往更快。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During busy hours, drivers may expect cars to be faster, but the reality is that the bus is often quicker.",
+      "answerZh": "在繁忙時段，駕駛者可能以為駕車較快，但現實是，巴士往往更快。",
+      "answerZhSource": "pdf",
+      "highlight": "During busy hours, drivers may expect cars to be faster, but the reality is that the bus is often quicker."
+    },
+    {
+      "id": "ss182-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "For Lily, the simple truth is that she needs to use new words repeatedly to remember them.",
+      "promptZh": "對莉莉來說，簡單的事實是，她需要反覆使用新詞，才能記住它們。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For Lily, the reality is that she needs to use new words repeatedly to remember them.",
+      "answerZh": "對莉莉來說，現實是，她需要反覆使用新詞，才能記住它們。",
+      "answerZhSource": "pdf",
+      "highlight": "For Lily, the reality is that she needs to use new words repeatedly to remember them."
+    },
+    {
+      "id": "ss182-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Some people think a balanced meal must be expensive, but it does not have to be.",
+      "promptZh": "有些人認為均衡的一餐一定很昂貴，但不一定如此。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some people think a balanced meal must be expensive, but the reality is that it does not have to be.",
+      "answerZh": "有些人認為均衡的一餐一定很昂貴，但現實是，它不一定要很昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "Some people think a balanced meal must be expensive, but the reality is that it does not have to be."
+    },
+    {
+      "id": "ss182-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Many learners believe useful skills are only learnt in the classroom, but some are also learnt outside it.",
+      "promptZh": "很多學習者認為有用的技能只會在課堂上學到，但有些技能也會在課堂外學到。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many learners believe useful skills are only learnt in the classroom, but the reality is that some are also learnt outside it.",
+      "answerZh": "很多學習者認為有用的技能只會在課堂上學到，但現實是，有些技能也會在課堂外學到。",
+      "answerZhSource": "pdf",
+      "highlight": "Many learners believe useful skills are only learnt in the classroom, but the reality is that some are also learnt outside it."
+    },
+    {
+      "id": "ss182-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "At home, Noah's small daily actions are in fact reducing household waste.",
+      "promptZh": "在家中，諾亞每天所做的小事其實正減少家居廢物。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At home, the reality is that Noah's small daily actions are reducing household waste.",
+      "answerZh": "在家中，現實是，諾亞每天所做的小事正減少家居廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "At home, the reality is that Noah's small daily actions are reducing household waste."
+    },
+    {
+      "id": "ss182-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Does asking for help always waste time? No, it can save time.",
+      "promptZh": "尋求幫助總是浪費時間嗎？不，它可以節省時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reality is that asking for help can save time.",
+      "answerZh": "現實是，尋求幫助可以節省時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The reality is that asking for help can save time."
+    },
+    {
+      "id": "ss182-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Emma expects quick results; however, lasting improvement takes time.",
+      "promptZh": "艾瑪期望很快見到成果；然而，持久的進步需要時間。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma expects quick results, but the reality is that lasting improvement takes time.",
+      "answerZh": "艾瑪期望很快見到成果，但現實是，持久的進步需要時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma expects quick results, but the reality is that lasting improvement takes time."
+    },
+    {
+      "id": "ss182-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Although the course may look easy, it requires regular study.",
+      "promptZh": "雖然這個課程看似容易，但它需要定期學習。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the course may look easy, the reality is that it requires regular study.",
+      "answerZh": "雖然這個課程看似容易，但現實是，它需要定期學習。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the course may look easy, the reality is that it requires regular study."
+    },
+    {
+      "id": "ss182-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Despite the help provided by online videos, learners still need active practice.",
+      "promptZh": "儘管網上影片能提供幫助，學習者仍然需要主動練習。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although online videos are helpful, the reality is that learners still need active practice.",
+      "answerZh": "雖然網上影片很有幫助，但現實是，學習者仍然需要主動練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Although online videos are helpful, the reality is that learners still need active practice."
+    },
+    {
+      "id": "ss182-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Ava believes sale items are always cheaper; nevertheless, prices should still be compared.",
+      "promptZh": "艾娃相信減價貨品總是較便宜；儘管如此，仍然應該比較價格。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava believes sale items are always cheaper, but the reality is that prices should still be compared.",
+      "answerZh": "艾娃相信減價貨品總是較便宜，但現實是，仍然應該比較價格。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava believes sale items are always cheaper, but the reality is that prices should still be compared."
+    },
+    {
+      "id": "ss182-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The new app appears simple. In practice, it takes time to learn how to use it.",
+      "promptZh": "這個新應用程式看似簡單。實際上，要學會使用它需要時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new app appears simple, but the reality is that it takes time to learn how to use it.",
+      "answerZh": "這個新應用程式看似簡單，但現實是，要學會使用它需要時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The new app appears simple, but the reality is that it takes time to learn how to use it."
+    },
+    {
+      "id": "ss182-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Although the hotel room looks large online, it is quite small.",
+      "promptZh": "雖然酒店房間在網上看起來很大，但其實相當細小。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the hotel room looks large online, the reality is that it is quite small.",
+      "answerZh": "雖然酒店房間在網上看起來很大，但現實是，它相當細小。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the hotel room looks large online, the reality is that it is quite small."
+    },
+    {
+      "id": "ss182-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Leo hopes one lesson will solve everything; nevertheless, progress comes through steady practice.",
+      "promptZh": "里奧希望一堂課便能解決所有問題；儘管如此，進步來自持續而穩定的練習。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo hopes one lesson will solve everything, but the reality is that progress comes through steady practice.",
+      "answerZh": "里奧希望一堂課便能解決所有問題，但現實是，進步來自持續而穩定的練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo hopes one lesson will solve everything, but the reality is that progress comes through steady practice."
+    },
+    {
+      "id": "ss182-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The repair appears minor; however, it may take several days.",
+      "promptZh": "這項維修看似只是小問題；然而，它可能需要數天。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the repair appears minor, the reality is that it may take several days.",
+      "answerZh": "雖然這項維修看似只是小問題，但現實是，它可能需要數天。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the repair appears minor, the reality is that it may take several days."
+    },
+    {
+      "id": "ss182-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Sofia claims that healthy food is boring; in fact, it can be varied and tasty.",
+      "promptZh": "蘇菲亞聲稱健康食物很沉悶；事實上，健康食物可以很多樣化，也可以很美味。",
+      "promptZhSource": "pdf",
+      "starter": "Sofia",
+      "answer": "Sofia claims that healthy food is boring, but the reality is that it can be varied and tasty.",
+      "answerZh": "蘇菲亞聲稱健康食物很沉悶，但現實是，健康食物可以很多樣化，也可以很美味。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia claims that healthy food is boring, but the reality is that it can be varied and tasty."
+    },
+    {
+      "id": "ss182-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The map suggests that the journey is short; in practice, traffic can make it much longer.",
+      "promptZh": "地圖令人以為路程很短；實際上，交通情況可以令路程長得多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The map suggests that the journey is short, but the reality is that traffic can make it much longer.",
+      "answerZh": "地圖令人以為路程很短，但現實是，交通情況可以令路程長得多。",
+      "answerZhSource": "pdf",
+      "highlight": "The map suggests that the journey is short, but the reality is that traffic can make it much longer."
+    },
+    {
+      "id": "ss182-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Why do new employees receive training? Even simple jobs can involve important safety rules.",
+      "promptZh": "新僱員為甚麼要接受培訓？即使是簡單的工作，也可能涉及重要的安全規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reality is that even simple jobs can involve important safety rules, so new employees receive training.",
+      "answerZh": "現實是，即使是簡單的工作，也可能涉及重要的安全規則，所以新僱員會接受培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The reality is that even simple jobs can involve important safety rules, so new employees receive training."
+    },
+    {
+      "id": "ss182-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Despite the advert's promise of immediate change, most people need several weeks to notice a difference.",
+      "promptZh": "儘管廣告承諾可以立即帶來改變，大多數人仍需要數星期才會察覺分別。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the advert promises immediate change, the reality is that most people need several weeks to notice a difference.",
+      "answerZh": "雖然廣告承諾可以立即帶來改變，但現實是，大多數人仍需要數星期才會察覺分別。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the advert promises immediate change, the reality is that most people need several weeks to notice a difference."
+    },
+    {
+      "id": "ss182-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Some residents think recycling one bottle makes no difference, although each recycled bottle helps reduce waste.",
+      "promptZh": "有些居民認為只回收一個樽沒有分別，雖然每個回收的樽都有助減少廢物。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some residents think recycling one bottle makes no difference, but the reality is that each recycled bottle helps reduce waste.",
+      "answerZh": "有些居民認為只回收一個樽沒有分別，但現實是，每個回收的樽都有助減少廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "Some residents think recycling one bottle makes no difference, but the reality is that each recycled bottle helps reduce waste."
+    },
+    {
+      "id": "ss182-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "It may seem that everyone can work from home, but some jobs must be done on site.",
+      "promptZh": "看起來好像每個人都可以在家工作，但有些工作必須在現場完成。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may seem that everyone can work from home, but the reality is that some jobs must be done on site.",
+      "answerZh": "看起來好像每個人都可以在家工作，但現實是，有些工作必須在現場完成。",
+      "answerZhSource": "pdf",
+      "highlight": "It may seem that everyone can work from home, but the reality is that some jobs must be done on site."
+    },
+    {
+      "id": "ss182-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Omar assumes expensive equipment guarantees good results; yet skill remains essential.",
+      "promptZh": "奧馬爾假設昂貴的設備必定帶來好成果；然而，技巧仍然不可或缺。",
+      "promptZhSource": "pdf",
+      "starter": "Omar",
+      "answer": "Omar assumes expensive equipment guarantees good results, but the reality is that skill remains essential.",
+      "answerZh": "奧馬爾假設昂貴的設備必定帶來好成果，但現實是，技巧仍然不可或缺。",
+      "answerZhSource": "pdf",
+      "highlight": "Omar assumes expensive equipment guarantees good results, but the reality is that skill remains essential."
+    },
+    {
+      "id": "ss182-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "What is really happening at the library? More visitors are using its digital services, not fewer.",
+      "promptZh": "圖書館實際上發生了甚麼變化？使用其數碼服務的訪客增加了，而不是減少了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reality is that more visitors are using the library's digital services, not fewer.",
+      "answerZh": "現實是，使用圖書館數碼服務的訪客增加了，而不是減少了。",
+      "answerZhSource": "pdf",
+      "highlight": "The reality is that more visitors are using the library's digital services, not fewer."
+    },
+    {
+      "id": "ss182-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Despite sounding perfect, the plan cannot remove every risk.",
+      "promptZh": "儘管計劃聽起來很完美，但它不能消除所有風險。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the plan sounds perfect, the reality is that it cannot remove every risk.",
+      "answerZh": "雖然計劃聽起來很完美，但現實是，它不能消除所有風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the plan sounds perfect, the reality is that it cannot remove every risk."
+    },
+    {
+      "id": "ss182-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The afternoon is warm; nevertheless, the water in the lake is still very cold.",
+      "promptZh": "下午天氣溫暖；然而，湖水仍然非常冰冷。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the afternoon is warm, the reality is that the water in the lake is still very cold.",
+      "answerZh": "雖然下午天氣溫暖，但現實是，湖水仍然非常冰冷。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the afternoon is warm, the reality is that the water in the lake is still very cold."
+    },
+    {
+      "id": "ss182-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The school has bought new computers; even so, students still need guidance to use them well.",
+      "promptZh": "學校已購買新電腦；即使如此，學生仍需要指導才能好好使用它們。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the school has bought new computers, the reality is that students still need guidance to use them well.",
+      "answerZh": "雖然學校已購買新電腦，但現實是，學生仍需要指導才能好好使用它們。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the school has bought new computers, the reality is that students still need guidance to use them well."
+    },
+    {
+      "id": "ss182-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Do bigger teams always finish faster? No, because too many people can make communication harder.",
+      "promptZh": "較大的團隊總能更快完成工作嗎？不能，因為人數太多會令溝通更困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reality is that bigger teams do not always finish faster because too many people can make communication harder.",
+      "answerZh": "現實是，較大的團隊不一定能更快完成工作，因為人數太多會令溝通更困難。",
+      "answerZhSource": "pdf",
+      "highlight": "The reality is that bigger teams do not always finish faster because too many people can make communication harder."
+    },
+    {
+      "id": "ss182-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Even when a message is sent quickly, it may not be understood clearly.",
+      "promptZh": "即使訊息很快便發出，也未必能被人清楚理解。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even when a message is sent quickly, the reality is that it may not be understood clearly.",
+      "answerZh": "即使訊息很快便發出，現實是，它也未必能被人清楚理解。",
+      "answerZhSource": "pdf",
+      "highlight": "Even when a message is sent quickly, the reality is that it may not be understood clearly."
+    },
+    {
+      "id": "ss182-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Free entry to the museum does not prevent families from spending money on travel and food.",
+      "promptZh": "博物館免費入場，並不代表家庭不用在交通和食物上花錢。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the museum is free to enter, the reality is that families may still spend money on travel and food.",
+      "answerZh": "雖然博物館免費入場，但現實是，家庭仍可能在交通和食物上花錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the museum is free to enter, the reality is that families may still spend money on travel and food."
+    },
+    {
+      "id": "ss182-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Grace thinks a full schedule means high productivity; however, too many tasks can reduce the quality of work.",
+      "promptZh": "格蕾絲認為日程排得很滿便代表工作效率高；然而，工作太多會降低工作質素。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace thinks a full schedule means high productivity, but the reality is that too many tasks can reduce the quality of work.",
+      "answerZh": "格蕾絲認為日程排得很滿便代表工作效率高，但現實是，工作太多會降低工作質素。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace thinks a full schedule means high productivity, but the reality is that too many tasks can reduce the quality of work."
+    },
+    {
+      "id": "ss182-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The new road was built to reduce traffic congestion; nevertheless, delays can still happen during busy periods.",
+      "promptZh": "新道路是為減少交通擠塞而建造的；儘管如此，繁忙時段仍可能出現延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the new road was built to reduce traffic congestion, the reality is that delays can still happen during busy periods.",
+      "answerZh": "雖然新道路是為減少交通擠塞而建造的，但現實是，繁忙時段仍可能出現延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the new road was built to reduce traffic congestion, the reality is that delays can still happen during busy periods."
+    },
+    {
+      "id": "ss182-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Why should passwords be changed regularly? Old passwords can become unsafe over time.",
+      "promptZh": "為甚麼應該定期更改密碼？舊密碼可能會隨時間變得不安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reality is that old passwords can become unsafe over time, so they should be changed regularly.",
+      "answerZh": "現實是，舊密碼可能會隨時間變得不安全，所以應該定期更改密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "The reality is that old passwords can become unsafe over time, so they should be changed regularly."
+    },
+    {
+      "id": "ss182-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "You may have a detailed plan, but unexpected problems can still occur.",
+      "promptZh": "你可能有一個詳細計劃，但意料之外的問題仍可能出現。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may have a detailed plan, but the reality is that unexpected problems can still occur.",
+      "answerZh": "你可能有一個詳細計劃，但現實是，意料之外的問題仍可能出現。",
+      "answerZhSource": "pdf",
+      "highlight": "You may have a detailed plan, but the reality is that unexpected problems can still occur."
+    },
+    {
+      "id": "ss182-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 13
+      },
+      "prompt": "The park seems empty in winter; nevertheless, many birds still use it for shelter.",
+      "promptZh": "公園在冬天看似空無一人；儘管如此，很多雀鳥仍會把它當作棲身之所。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the park seems empty in winter, the reality is that many birds still use it for shelter.",
+      "answerZh": "雖然公園在冬天看似空無一人，但現實是，很多雀鳥仍會把它當作棲身之所。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the park seems empty in winter, the reality is that many birds still use it for shelter."
+    },
+    {
+      "id": "ss182-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The medicine can reduce the pain without necessarily removing the cause.",
+      "promptZh": "藥物可以減輕痛楚，卻不一定能消除根本原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine can reduce the pain, but the reality is that it may not remove the cause.",
+      "answerZh": "藥物可以減輕痛楚，但現實是，它可能無法消除根本原因。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine can reduce the pain, but the reality is that it may not remove the cause."
+    },
+    {
+      "id": "ss182-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Old buildings are often considered useless, although some of them can be safely repaired and reused.",
+      "promptZh": "舊建築物經常被視為沒有用，雖然其中一些可以安全地修復和重新使用。",
+      "promptZhSource": "pdf",
+      "starter": "Old",
+      "answer": "Old buildings are often considered useless, but the reality is that some of them can be safely repaired and reused.",
+      "answerZh": "舊建築物經常被視為沒有用，但現實是，其中一些可以安全地修復和重新使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Old buildings are often considered useless, but the reality is that some of them can be safely repaired and reused."
+    },
+    {
+      "id": "ss182-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It is wrong to assume that short instructions are always easy to follow.",
+      "promptZh": "認為簡短的指示總是容易跟從，是錯誤的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reality is that short instructions are not always easy to follow.",
+      "answerZh": "現實是，簡短的指示不一定容易跟從。",
+      "answerZhSource": "pdf",
+      "highlight": "The reality is that short instructions are not always easy to follow."
+    },
+    {
+      "id": "ss182-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "More technology at school does not automatically improve teaching because clear explanations and useful feedback still matter.",
+      "promptZh": "學校擁有更多科技，並不會自動改善教學，因為清楚的講解和有用的回饋仍然重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reality is that more technology at school does not automatically improve teaching because clear explanations and useful feedback still matter.",
+      "answerZh": "現實是，學校擁有更多科技並不會自動改善教學，因為清楚的講解和有用的回饋仍然重要。",
+      "answerZhSource": "pdf",
+      "highlight": "The reality is that more technology at school does not automatically improve teaching because clear explanations and useful feedback still matter."
+    },
+    {
+      "id": "ss182-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Even with an online booking system, not every patient can use it easily.",
+      "promptZh": "即使設有網上預約系統，也不是每位病人都能輕鬆使用它。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even with an online booking system, the reality is that not every patient can use it easily.",
+      "answerZh": "即使設有網上預約系統，現實是，仍不是每位病人都能輕鬆使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "Even with an online booking system, the reality is that not every patient can use it easily."
+    },
+    {
+      "id": "ss182-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "One large clean-up may improve an area briefly, but regular care is needed to keep it clean.",
+      "promptZh": "一次大型清潔行動可能會短暫改善一個地方，但要保持清潔，仍需要定期打理。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although one large clean-up may improve an area briefly, the reality is that regular care is needed to keep it clean.",
+      "answerZh": "雖然一次大型清潔行動可能會短暫改善一個地方，但現實是，要保持該處清潔，仍需要定期打理。",
+      "answerZhSource": "pdf",
+      "highlight": "Although one large clean-up may improve an area briefly, the reality is that regular care is needed to keep it clean."
+    },
+    {
+      "id": "ss182-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Even when a company publishes an environmental promise, its daily actions may not match it.",
+      "promptZh": "即使一間公司發表環保承諾，其日常行動也可能與該承諾不一致。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A company may publish an environmental promise, but the reality is that its daily actions may not match it.",
+      "answerZh": "一間公司可能會發表環保承諾，但現實是，其日常行動可能與該承諾不一致。",
+      "answerZhSource": "pdf",
+      "highlight": "A company may publish an environmental promise, but the reality is that its daily actions may not match it."
+    },
+    {
+      "id": "ss182-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why do community centres offer both online and face-to-face services? Different residents have different needs.",
+      "promptZh": "社區中心為甚麼同時提供網上和面對面服務？不同居民有不同需要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reality is that different residents have different needs, so community centres offer both online and face-to-face services.",
+      "answerZh": "現實是，不同居民有不同需要，所以社區中心同時提供網上和面對面服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The reality is that different residents have different needs, so community centres offer both online and face-to-face services."
+    },
+    {
+      "id": "ss182-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The team hoped the new system would remove all delays, yet it only reduced some of them.",
+      "promptZh": "團隊希望新系統能消除所有延誤，然而它只減少了部分延誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team hoped the new system would remove all delays, but the reality is that it only reduced some of them.",
+      "answerZh": "團隊希望新系統能消除所有延誤，但現實是，它只減少了部分延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The team hoped the new system would remove all delays, but the reality is that it only reduced some of them."
+    },
+    {
+      "id": "ss182-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Despite sounding attractive, a simple answer may not explain social problems with several connected causes.",
+      "promptZh": "儘管簡單的答案聽起來很吸引，但它未必能解釋有多個互相關連成因的社會問題。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although a simple answer may sound attractive, the reality is that it may not explain social problems with several connected causes.",
+      "answerZh": "雖然簡單的答案聽起來很吸引，但現實是，它未必能解釋有多個互相關連成因的社會問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Although a simple answer may sound attractive, the reality is that it may not explain social problems with several connected causes."
+    },
+    {
+      "id": "ss182-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The product is described as suitable for everyone, although users with different needs may require different settings.",
+      "promptZh": "這件產品被形容為適合所有人，雖然有不同需要的使用者可能需要不同設定。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the product is described as suitable for everyone, the reality is that users with different needs may require different settings.",
+      "answerZh": "雖然這件產品被形容為適合所有人，但現實是，有不同需要的使用者可能需要不同設定。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the product is described as suitable for everyone, the reality is that users with different needs may require different settings."
+    },
+    {
+      "id": "ss182-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Many leaders want change to happen quickly; however, staff often need training, time and support before a new system works well.",
+      "promptZh": "很多領導者希望改變可以很快發生；然而，在新系統運作良好之前，員工往往需要培訓、時間和支援。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many leaders want change to happen quickly, but the reality is that staff often need training, time and support before a new system works well.",
+      "answerZh": "很多領導者希望改變可以很快發生，但現實是，在新系統運作良好之前，員工往往需要培訓、時間和支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Many leaders want change to happen quickly, but the reality is that staff often need training, time and support before a new system works well."
+    },
+    {
+      "id": "ss182-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Some people expect new cycle lanes to solve traffic problems immediately; however, lasting improvement also requires safer junctions and better public transport.",
+      "promptZh": "有些人期望新的單車徑能立即解決交通問題；然而，持久的改善還需要更安全的路口和更好的公共交通。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some people expect new cycle lanes to solve traffic problems immediately, but the reality is that lasting improvement also requires safer junctions and better public transport.",
+      "answerZh": "有些人期望新的單車徑能立即解決交通問題，但現實是，持久的改善還需要更安全的路口和更好的公共交通。",
+      "answerZhSource": "pdf",
+      "highlight": "Some people expect new cycle lanes to solve traffic problems immediately, but the reality is that lasting improvement also requires safer junctions and better public transport."
+    }
+  ]
+}

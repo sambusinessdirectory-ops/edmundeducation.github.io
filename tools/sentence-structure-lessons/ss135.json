@@ -1,0 +1,1280 @@
+{
+  "id": "ss135",
+  "order": 135,
+  "slug": "what-exclamative",
+  "title": "「What + 名詞（+ 主語 + 動詞）」感嘆句",
+  "titleZh": "「What + 名詞（+ 主語 + 動詞）」感嘆句",
+  "titleEn": "Using What + noun in exclamative sentences",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 135 -「What + 名詞（+ 主語 + 動詞）」感嘆句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "What + a/an + (adverb) + adjective + singular countable noun + subject + verb!",
+  "formulas": [
+    {
+      "id": "ss135-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "What + a/an + (adverb) + adjective + singular countable noun + subject + verb!"
+    },
+    {
+      "id": "ss135-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "What + (adverb) + adjective + plural noun + subject + verb!"
+    },
+    {
+      "id": "ss135-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "What + (adverb) + adjective + uncountable noun + subject + verb!"
+    },
+    {
+      "id": "ss135-formula-04",
+      "labelEn": "Pattern 4",
+      "labelZh": "句式 4",
+      "formula": "What + a/an + adjective + singular noun!"
+    },
+    {
+      "id": "ss135-formula-05",
+      "labelEn": "Pattern 5",
+      "labelZh": "句式 5",
+      "formula": "What + adjective + plural/uncountable noun!"
+    }
+  ],
+  "example": "What a strange silence this is!",
+  "exampleZh": "這種寂靜真奇怪啊！",
+  "examples": [
+    {
+      "id": "ss135-example-01",
+      "en": "What a strange silence this is!",
+      "zh": "這種寂靜真奇怪啊！",
+      "highlight": "What a strange silence this is"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss135-rule-01",
+      "zh": "單數可數名詞需要 a 或 an 選擇 a 或 an 時，要按照後面第一個字的讀音，而不是只看名詞： useful 以 /j/ 音開始，所以使用 a。 unusual 以元音開始，所以使用 an。",
+      "en": "A singular countable noun requires a or an. Choose between them according to the initial sound of the following word, not the noun alone: useful begins with a /j/ sound and takes a, while unusual begins with a vowel sound and takes an.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What a beautiful house this is!",
+        "What an exciting game this is!",
+        "What a useful app this is!",
+        "What an unusual idea that is!"
+      ]
+    },
+    {
+      "id": "ss135-rule-02",
+      "zh": "複數及不可數名詞前不使用 a 或 an 正確： 錯誤：",
+      "en": "Do not use a or an before plural or uncountable nouns.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What beautiful flowers these are!",
+        "What useful information she gave us!",
+        "What a beautiful flowers these are!",
+        "What an useful information she gave us!"
+      ]
+    },
+    {
+      "id": "ss135-rule-03",
+      "zh": "完整句使用正常陳述句字序 名詞後面使用： 正確： 錯誤： 這是感嘆句，不是疑問句，因此不使用疑問句倒裝。",
+      "en": "A full what-exclamation uses normal statement word order, subject + verb, after the noun phrase. It is an exclamation, not a question, so do not use interrogative inversion.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What a beautiful house it is!",
+        "What a funny story he told!",
+        "What a beautiful house is it!",
+        "What a funny story did he tell!"
+      ]
+    },
+    {
+      "id": "ss135-rule-04",
+      "zh": "保留原句的時態 現在式： 過去式： 現在完成式： 情態動詞：",
+      "en": "Preserve the tense of the original sentence, whether it is present, past, present perfect or contains a modal verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What a wonderful night it is!",
+        "What a wonderful night it was!",
+        "What a difficult week they have had!",
+        "What a difficult issue the committee must consider!"
+      ]
+    },
+    {
+      "id": "ss135-rule-05",
+      "zh": "What 和 How 的重點不同 What 重點放在名詞 How 重點放在形容詞或副詞 兩句意思相近，但結構不同：",
+      "en": "What focuses on a noun phrase, whereas how focuses on an adjective or adverb. The two structures may have similar meanings, but their forms are What + noun phrase and How + adjective or adverb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What + noun phrase",
+        "How + adjective/adverb"
+      ]
+    },
+    {
+      "id": "ss135-rule-06",
+      "zh": "這個句型用來表達真正的感受 不要用 What 感嘆句表達完全中立、沒有感情色彩的資料。 中立資料： 強烈反應：",
+      "en": "Use this structure to express a genuine strong feeling, not completely neutral information with no emotional colouring.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The room is ten metres long.",
+        "What a long room this is!"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss135-benefit-01",
+      "zh": "立即表達強烈感受 這個句型可以讓聽者立即知道你對某個人、事物或情況感到驚訝、欣賞、喜悅、失望或不滿。 比起只說一項客觀事實，感情會更加清楚。",
+      "en": "It expresses a strong feeling immediately, showing surprise, admiration, joy, disappointment or dissatisfaction about a person, thing or situation more clearly than a merely objective statement.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What a wonderful surprise this is!",
+        "What terrible weather we are having!"
+      ]
+    },
+    {
+      "id": "ss135-benefit-02",
+      "zh": "把最值得注意的事物放在前面 使用 What + noun，可以先提出你最想強調的人或事物。 一般句： 感嘆句： 第二句一開始便把 a beautiful view 放在讀者面前，重點更加突出。",
+      "en": "It places the most notable thing first. What + noun foregrounds the person or thing you most want to emphasize; in the comparison, a beautiful view appears immediately and receives greater prominence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "This is a beautiful view.",
+        "What a beautiful view this is!"
+      ]
+    },
+    {
+      "id": "ss135-benefit-03",
+      "zh": "令說話和故事更加生動 這個句型很常用於日常對話、描述經歷、講故事及回應別人的消息。 它能讓說話聽起來更有感情，而不是只像列出資料。",
+      "en": "It makes speech and stories more vivid. The structure is common in everyday conversation, accounts of experiences, storytelling and reactions to news, and gives speech more feeling than a bare list of facts.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What a day I have had!",
+        "What an exciting match that was!",
+        "What a lucky escape he had!"
+      ]
+    },
+    {
+      "id": "ss135-benefit-04",
+      "zh": "避免重複使用同一種句子開頭 學生經常重複使用： 使用 What 感嘆句，可以改變句子的組織方式： 這能令說話和寫作的句式更加多樣。",
+      "en": "It avoids repeatedly using openings such as This is very, It was very or The thing is very by reorganizing the statement as a What-exclamation and adding structural variety to speech and writing.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "This is very...",
+        "It was very...",
+        "The thing is very...",
+        "It was a very exciting game.",
+        "What an exciting game it was!"
+      ]
+    },
+    {
+      "id": "ss135-benefit-05",
+      "zh": "可以自由使用完整或簡短形式 需要清楚交代人物、時間或動作時，可以使用完整句： 在簡短回應或口語中，可以省略已知資料： 因此，這個句型既適合完整描述，也適合即時反應。",
+      "en": "It allows either a full or shortened form. Use a complete sentence when the person, time or action must be stated clearly, but omit information already understood in a brief spoken reaction; the pattern therefore suits both full descriptions and immediate responses.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What an interesting book you chose!",
+        "What an interesting book!"
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence as an exclamation using What + noun. Preserve the original subject, tense, action and important details.",
+      "Use the complete form where it is shown in the intended answer.",
+      "The first word of each answer has been provided. Every answer in this exercise begins with What."
+    ],
+    "zh": [
+      "使用 What + 名詞 感嘆句改寫以下句子。答案須保留原句的主語、時態、動作及重要資料。",
+      "請按照預期答案使用完整句式。",
+      "每題已提供答案的第一個字。本練習所有答案均以 What 開始。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss135-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This house is so beautiful!",
+      "promptZh": "這所房子真漂亮！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a beautiful house this is!",
+      "answerZh": "這所房子真漂亮啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a beautiful house this is!"
+    },
+    {
+      "id": "ss135-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This is such a wonderful night!",
+      "promptZh": "這真是一個美好的晚上！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a wonderful night this is!",
+      "answerZh": "這真是一個美好的晚上啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a wonderful night this is!"
+    },
+    {
+      "id": "ss135-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "How strange this silence is!",
+      "promptZh": "這種寂靜真奇怪！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a strange silence this is!",
+      "answerZh": "這種寂靜真奇怪啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a strange silence this is!"
+    },
+    {
+      "id": "ss135-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This meal is really delicious!",
+      "promptZh": "這頓飯真的很美味！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a really delicious meal this is!",
+      "answerZh": "這頓飯真是非常美味啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a really delicious meal this is!"
+    },
+    {
+      "id": "ss135-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "That is such a clever idea!",
+      "promptZh": "那真是一個聰明的主意！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a clever idea that is!",
+      "answerZh": "那真是一個聰明的主意啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a clever idea that is!"
+    },
+    {
+      "id": "ss135-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "How exciting this game is!",
+      "promptZh": "這場比賽真刺激！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an exciting game this is!",
+      "answerZh": "這場比賽真刺激啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an exciting game this is!"
+    },
+    {
+      "id": "ss135-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This dog is so friendly!",
+      "promptZh": "這隻狗真友善！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a friendly dog this is!",
+      "answerZh": "這隻狗真友善啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a friendly dog this is!"
+    },
+    {
+      "id": "ss135-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This is quite a surprise!",
+      "promptZh": "這真令人意外！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a surprise this is!",
+      "answerZh": "這真令人意外啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a surprise this is!"
+    },
+    {
+      "id": "ss135-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "That question is incredibly difficult!",
+      "promptZh": "那道問題真的非常困難！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an incredibly difficult question that is!",
+      "answerZh": "那道問題真的難得令人難以置信啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an incredibly difficult question that is!"
+    },
+    {
+      "id": "ss135-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This is quite a view!",
+      "promptZh": "這景色真令人驚嘆！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a view this is!",
+      "answerZh": "這景色真令人驚嘆啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a view this is!"
+    },
+    {
+      "id": "ss135-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This morning has been unusually busy!",
+      "promptZh": "今天早上忙得異乎尋常！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an unusually busy morning this has been!",
+      "answerZh": "今天早上真是異乎尋常地忙碌啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an unusually busy morning this has been!"
+    },
+    {
+      "id": "ss135-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Mrs Lee is such a kind teacher!",
+      "promptZh": "李老師真是一位親切的老師！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a kind teacher Mrs Lee is!",
+      "answerZh": "李老師真是一位親切的老師啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a kind teacher Mrs Lee is!"
+    },
+    {
+      "id": "ss135-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You chose a very interesting book!",
+      "promptZh": "你選了一本非常有趣的書！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a very interesting book you chose!",
+      "answerZh": "你選的這本書真有趣啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a very interesting book you chose!"
+    },
+    {
+      "id": "ss135-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "That was such a long journey!",
+      "promptZh": "那真是一段漫長的旅程！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a long journey that was!",
+      "answerZh": "那真是一段漫長的旅程啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a long journey that was!"
+    },
+    {
+      "id": "ss135-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How noisy this classroom is!",
+      "promptZh": "這間課室真嘈吵！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a noisy classroom this is!",
+      "answerZh": "這間課室真嘈吵啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a noisy classroom this is!"
+    },
+    {
+      "id": "ss135-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This is a really useful app!",
+      "promptZh": "這真是一個很實用的應用程式！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a really useful app this is!",
+      "answerZh": "這個應用程式真實用啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a really useful app this is!"
+    },
+    {
+      "id": "ss135-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "That coat is incredibly expensive!",
+      "promptZh": "那件外套貴得令人難以置信！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an incredibly expensive coat that is!",
+      "answerZh": "那件外套貴得令人難以置信啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an incredibly expensive coat that is!"
+    },
+    {
+      "id": "ss135-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "He told a very funny story!",
+      "promptZh": "他講了一個非常有趣的故事！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a very funny story he told!",
+      "answerZh": "他講的故事真有趣啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a very funny story he told!"
+    },
+    {
+      "id": "ss135-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "She is such a careful driver!",
+      "promptZh": "她真是一位小心謹慎的司機！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a careful driver she is!",
+      "answerZh": "她真是一位小心謹慎的司機啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a careful driver she is!"
+    },
+    {
+      "id": "ss135-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I made such a terrible mistake!",
+      "promptZh": "我犯了一個非常嚴重的錯誤！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a terrible mistake I made!",
+      "answerZh": "我犯的錯誤真嚴重啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a terrible mistake I made!"
+    },
+    {
+      "id": "ss135-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "These flowers are so beautiful!",
+      "promptZh": "這些花真漂亮！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What beautiful flowers these are!",
+      "answerZh": "這些花真漂亮啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What beautiful flowers these are!"
+    },
+    {
+      "id": "ss135-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "They are such helpful neighbours!",
+      "promptZh": "他們真是樂於助人的鄰居！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What helpful neighbours they are!",
+      "answerZh": "他們真是樂於助人的鄰居啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What helpful neighbours they are!"
+    },
+    {
+      "id": "ss135-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "How difficult those exercises were!",
+      "promptZh": "那些練習真困難！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What difficult exercises those were!",
+      "answerZh": "那些練習真困難啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What difficult exercises those were!"
+    },
+    {
+      "id": "ss135-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We can see such bright stars tonight!",
+      "promptZh": "今晚我們可以看見非常明亮的星星！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What bright stars we can see tonight!",
+      "answerZh": "今晚我們看見的星星真明亮啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What bright stars we can see tonight!"
+    },
+    {
+      "id": "ss135-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You took such lovely photos!",
+      "promptZh": "你拍了很漂亮的相片！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What lovely photos you took!",
+      "answerZh": "你拍的相片真漂亮啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What lovely photos you took!"
+    },
+    {
+      "id": "ss135-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "How fresh this bread is!",
+      "promptZh": "這麵包真新鮮！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What fresh bread this is!",
+      "answerZh": "這麵包真新鮮啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What fresh bread this is!"
+    },
+    {
+      "id": "ss135-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We are having such terrible weather!",
+      "promptZh": "我們遇上了這麼惡劣的天氣！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What terrible weather we are having!",
+      "answerZh": "我們遇上的天氣真惡劣啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What terrible weather we are having!"
+    },
+    {
+      "id": "ss135-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The information she gave us was so useful!",
+      "promptZh": "她給我們的資料真有用！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What useful information she gave us!",
+      "answerZh": "她給我們的資料真有用啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What useful information she gave us!"
+    },
+    {
+      "id": "ss135-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "There was unbelievably heavy traffic this morning!",
+      "promptZh": "今天早上的交通擠塞嚴重得令人難以置信！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What unbelievably heavy traffic there was this morning!",
+      "answerZh": "今天早上的交通真擠塞啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What unbelievably heavy traffic there was this morning!"
+    },
+    {
+      "id": "ss135-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "They are playing such wonderful music!",
+      "promptZh": "他們正在播放非常美妙的音樂！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What wonderful music they are playing!",
+      "answerZh": "他們播放的音樂真美妙啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What wonderful music they are playing!"
+    },
+    {
+      "id": "ss135-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "He was such a patient doctor!",
+      "promptZh": "他真是一位有耐性的醫生！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a patient doctor he was!",
+      "answerZh": "他真是一位有耐性的醫生啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a patient doctor he was!"
+    },
+    {
+      "id": "ss135-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This is a really important decision!",
+      "promptZh": "這真是一個非常重要的決定！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a really important decision this is!",
+      "answerZh": "這真是一個非常重要的決定啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a really important decision this is!"
+    },
+    {
+      "id": "ss135-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "She has an exceptionally beautiful voice!",
+      "promptZh": "她的聲音格外優美！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an exceptionally beautiful voice she has!",
+      "answerZh": "她的聲音格外優美啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an exceptionally beautiful voice she has!"
+    },
+    {
+      "id": "ss135-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The student gave a very powerful speech!",
+      "promptZh": "那名學生發表了一篇非常有感染力的演說！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a very powerful speech the student gave!",
+      "answerZh": "那名學生發表的演說真有感染力啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a very powerful speech the student gave!"
+    },
+    {
+      "id": "ss135-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "He found such an unusual way to solve the problem!",
+      "promptZh": "他找到了一個非常不尋常的方法來解決問題！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an unusual way he found to solve the problem!",
+      "answerZh": "他找到的解決方法真不尋常啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an unusual way he found to solve the problem!"
+    },
+    {
+      "id": "ss135-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company made a remarkably generous offer!",
+      "promptZh": "公司提出了一個格外慷慨的提議！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a remarkably generous offer the company made!",
+      "answerZh": "公司提出的建議真慷慨啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a remarkably generous offer the company made!"
+    },
+    {
+      "id": "ss135-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager gave an unusually calm response!",
+      "promptZh": "經理作出了異常冷靜的回應！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an unusually calm response the manager gave!",
+      "answerZh": "經理作出的回應異常冷靜啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an unusually calm response the manager gave!"
+    },
+    {
+      "id": "ss135-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The class completed an extremely impressive project!",
+      "promptZh": "全班完成了一個非常出色的項目！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an extremely impressive project the class completed!",
+      "answerZh": "全班完成的項目真出色啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an extremely impressive project the class completed!"
+    },
+    {
+      "id": "ss135-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The town is facing a very serious problem!",
+      "promptZh": "這個城鎮正面對一個非常嚴重的問題！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a very serious problem the town is facing!",
+      "answerZh": "這個城鎮正面對的問題真嚴重啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a very serious problem the town is facing!"
+    },
+    {
+      "id": "ss135-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The cyclist had an incredibly lucky escape!",
+      "promptZh": "那名騎單車的人非常幸運地逃過一劫！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an incredibly lucky escape the cyclist had!",
+      "answerZh": "那名騎單車的人真幸運，竟然逃過一劫啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an incredibly lucky escape the cyclist had!"
+    },
+    {
+      "id": "ss135-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You sent me a very thoughtful message!",
+      "promptZh": "你給我傳來了一則非常貼心的訊息！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a very thoughtful message you sent me!",
+      "answerZh": "你傳給我的訊息真貼心啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a very thoughtful message you sent me!"
+    },
+    {
+      "id": "ss135-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The students have made excellent progress!",
+      "promptZh": "學生已取得很大的進步！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What excellent progress the students have made!",
+      "answerZh": "學生取得的進步真大啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What excellent progress the students have made!"
+    },
+    {
+      "id": "ss135-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The counsellor gave us such valuable advice!",
+      "promptZh": "輔導員給了我們非常寶貴的建議！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What valuable advice the counsellor gave us!",
+      "answerZh": "輔導員給我們的建議真寶貴啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What valuable advice the counsellor gave us!"
+    },
+    {
+      "id": "ss135-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital staff have had quite a week!",
+      "promptZh": "醫院員工這個星期過得真不容易！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a week the hospital staff have had!",
+      "answerZh": "醫院員工這個星期真不容易啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a week the hospital staff have had!"
+    },
+    {
+      "id": "ss135-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The neighbourhood has seen such a remarkable change!",
+      "promptZh": "這個社區出現了非常顯著的轉變！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a remarkable change the neighbourhood has seen!",
+      "answerZh": "這個社區出現的轉變真顯著啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a remarkable change the neighbourhood has seen!"
+    },
+    {
+      "id": "ss135-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Young people sometimes face such difficult choices!",
+      "promptZh": "年輕人有時要面對非常艱難的選擇！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What difficult choices young people sometimes face!",
+      "answerZh": "年輕人有時要面對的選擇真艱難啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What difficult choices young people sometimes face!"
+    },
+    {
+      "id": "ss135-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The team has developed a highly efficient system!",
+      "promptZh": "團隊研發了一套非常高效的系統！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a highly efficient system the team has developed!",
+      "answerZh": "團隊研發的系統真高效啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a highly efficient system the team has developed!"
+    },
+    {
+      "id": "ss135-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The new employees received an exceptionally warm welcome!",
+      "promptZh": "新員工受到格外熱情的歡迎！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an exceptionally warm welcome the new employees received!",
+      "answerZh": "新員工受到的歡迎真熱情啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an exceptionally warm welcome the new employees received!"
+    },
+    {
+      "id": "ss135-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The volunteers had a truly unforgettable experience!",
+      "promptZh": "義工有了一次真正難忘的經歷！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What a truly unforgettable experience the volunteers had!",
+      "answerZh": "義工的經歷真令人難忘啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What a truly unforgettable experience the volunteers had!"
+    },
+    {
+      "id": "ss135-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee must consider an extremely complicated issue!",
+      "promptZh": "委員會必須考慮一個非常複雜的議題！",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What an extremely complicated issue the committee must consider!",
+      "answerZh": "委員會必須考慮的議題真複雜啊！",
+      "answerZhSource": "pdf",
+      "highlight": "What an extremely complicated issue the committee must consider!"
+    }
+  ]
+}

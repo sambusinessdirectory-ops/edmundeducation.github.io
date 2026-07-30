@@ -1,0 +1,1251 @@
+{
+  "id": "ss212",
+  "order": 212,
+  "slug": "in-large-part",
+  "title": "「In large part」表示「很大程度上／主要地」",
+  "titleZh": "「In large part」表示「很大程度上／主要地」",
+  "titleEn": "Using “in large part”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 211 -「In large part」表示「很大程度上／主要地」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 211; it is assigned system ID ss212 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Subject + verb + in large part + because / due to / owing to + reason",
+  "formulas": [
+    {
+      "id": "ss212-formula-01",
+      "labelEn": "Main reason",
+      "labelZh": "主要原因",
+      "formula": "Subject + verb + in large part + because + clause"
+    },
+    {
+      "id": "ss212-formula-02",
+      "labelEn": "Reason preposition",
+      "labelZh": "原因介詞",
+      "formula": "Subject + be + due / owing / thanks in large part to + noun phrase"
+    },
+    {
+      "id": "ss212-formula-03",
+      "labelEn": "Passive cause",
+      "labelZh": "被動原因句",
+      "formula": "Subject + be + caused / influenced / explained in large part by + noun phrase"
+    },
+    {
+      "id": "ss212-formula-04",
+      "labelEn": "Verb and preposition",
+      "labelZh": "動詞與介詞",
+      "formula": "Subject + depend in large part on / result in large part from + noun phrase"
+    }
+  ],
+  "example": "The success of the project was due in large part to careful planning.",
+  "exampleZh": "這個項目的成功，很大程度上歸功於周詳的規劃。",
+  "examples": [
+    {
+      "id": "ss212-example-01",
+      "en": "The success of the project was due in large part to careful planning.",
+      "zh": "這個項目的成功，很大程度上歸功於周詳的規劃。",
+      "highlight": "The success of the project was due in large part to careful planning."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Subject + verb + in large part + because / due to / owing to + reason。"
+  },
+  "rules": [
+    {
+      "id": "ss212-rule-01",
+      "zh": "表示「主要」，但不表示「全部」 In large part 表示某個因素非常重要，但通常暗示還有其他因素。 （項目能夠成功，很大程度上是因為周詳的規劃。） 這句並不是說周詳規劃是唯一原因。",
+      "en": "It means “mainly”, not “entirely”. In large part presents one factor as very important while normally implying that other factors also exist. “The project succeeded in large part because of careful planning” does not say that planning was the only reason.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The project succeeded in large part because of careful planning."
+      ]
+    },
+    {
+      "id": "ss212-rule-02",
+      "zh": "不要加入 a 正確： 錯誤： In a large part of the city 是另一種意思，表示「在城市的一大片區域內」，並不表示「很大程度 上」。",
+      "en": "Do not add a. Correct: in large part. Incorrect for the target meaning: in a large part. “In a large part of the city” has a different meaning: it refers to a large physical area of the city, not to a great degree.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "in large part",
+        "in a large part"
+      ]
+    },
+    {
+      "id": "ss212-rule-03",
+      "zh": "注意常見搭配的位置 以下搭配最自然：",
+      "en": "Pay attention to the phrase’s natural position in common combinations: due in large part to; caused in large part by; influenced in large part by; shaped in large part by; based in large part on; depend in large part on; result in large part from; succeed in large part because; improve in large part through; and reduce something in large part by doing something.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "due in large part to",
+        "caused in large part by",
+        "influenced in large part by",
+        "shaped in large part by",
+        "based in large part on",
+        "depend in large part on",
+        "result in large part from",
+        "succeed in large part because",
+        "improve in large part through",
+        "reduce something in large part by doing something"
+      ]
+    },
+    {
+      "id": "ss212-rule-04",
+      "zh": "放在句首時通常加逗號 但放在句中時通常不需要逗號：",
+      "en": "When in large part comes first, normally put a comma after it: In large part, the difference resulted from regular practice. In the middle of the sentence, a comma is normally unnecessary: The difference resulted in large part from regular practice.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "In large part, the difference resulted from regular practice.",
+        "The difference resulted in large part from regular practice."
+      ]
+    },
+    {
+      "id": "ss212-rule-05",
+      "zh": "必須是影響較大的因素 如某個因素只產生很小的影響，便不宜使用 in large part。 不自然： 較自然：",
+      "en": "Use the phrase only for a factor with a substantial influence. If a factor had only a small effect, in large part is unsuitable. Unnatural: The event succeeded in large part because one guest arrived five minutes early. More natural: The event succeeded in large part because the organisers had prepared carefully.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The event succeeded in large part because one guest arrived five minutes early.",
+        "The event succeeded in large part because the organisers had prepared carefully."
+      ]
+    },
+    {
+      "id": "ss212-rule-06",
+      "zh": "與 for the most part 不完全相同 In large part 經常說明某件事在多大程度上由某個原因造成。 （這項改變很大程度上是由公眾壓力造成的。） For the most part 通常表示「大致上」或「在大多數情況下」。 （大致上，大部分學生都理解了課堂內容。）",
+      "en": "In large part and for the most part are not identical. In large part often states the degree to which a cause produced an outcome: The change happened in large part because of public pressure. For the most part normally means generally or in most cases: For the most part, the students understood the lesson.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The change happened in large part because of public pressure.",
+        "For the most part, the students understood the lesson."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss212-benefit-01",
+      "zh": "避免把說法講得過分絕對 使用普通的原因句時，讀者有時可能以為你只提出一個原因。 （項目因為周詳規劃而成功。） 加入 in large part 後，你可以清楚表示周詳規劃是主要原因，但可能仍有其他因素。 （項目能夠成功，很大程度上是因為周詳的規劃。）",
+      "en": "It helps you avoid making an overly strong claim. An ordinary causal statement may sound as though it gives the only cause: The project succeeded because of careful planning. Adding in large part identifies careful planning as the main cause while leaving room for others: The project succeeded in large part because of careful planning.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss212-benefit-02",
+      "zh": "清楚說明某個因素有多重要 這個句型不只是指出原因，還能表示該原因佔了相當大的比重。 （這項改善是由恆常練習造成的。） （這項改善很大程度上是由恆常練習造成的。） 第二句更清楚交代恆常練習的重要程度。",
+      "en": "It shows how important a factor is, not merely that it is a cause. Compare: The improvement was caused by regular practice. The improvement was caused in large part by regular practice. The second sentence makes the substantial contribution of regular practice clearer.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss212-benefit-03",
+      "zh": "為其他原因保留空間 現實中的結果通常由多個因素共同造成。使用 in large part，可以指出最重要的因素，同時避免 說它是唯一因素。 這對作文、報告、討論社會問題和分析事件特別實用。",
+      "en": "It leaves room for other explanations. Real outcomes usually have several causes; in large part identifies the most important factor without claiming that it is the only one. This is especially useful in essays, reports, discussions of social issues and analyses of events.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss212-benefit-04",
+      "zh": "令分析和解釋更清楚 你可以使用以下固定框架，有條理地連接「結果」和「主要因素」： 這些框架讓讀者立即看出兩個部分之間的關係。",
+      "en": "It helps you write clearer explanations. Frames such as be due in large part to, be caused in large part by, depend in large part on and result in large part from connect an outcome with its main factor in an orderly way and make the relationship immediately visible.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss212-benefit-05",
+      "zh": "增加句式變化 你不必每次都使用： 使用 in large part 可以令說話和寫作較少重複，並讓原因分析聽起來更自然和有分寸。",
+      "en": "It gives you more sentence variety. Instead of repeatedly using mainly because, largely because, one main reason is or a major factor is, use in large part to make causal analysis sound natural, measured and less repetitive.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 211; it is assigned system ID ss212 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Subject + verb + in large part + because / due to / owing to + reason.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Subject + verb + in large part + because / due to / owing to + reason」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss212-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The picnic was successful mainly because everyone arrived prepared.",
+      "promptZh": "這次野餐之所以成功，主要是因為每個人都有備而來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The picnic was successful in large part because everyone arrived prepared.",
+      "answerZh": "這次野餐之所以成功，很大程度上是因為每個人都有備而來。",
+      "answerZhSource": "pdf",
+      "highlight": "The picnic was successful in large part because everyone arrived prepared."
+    },
+    {
+      "id": "ss212-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Maya improved her pronunciation largely through daily practice.",
+      "promptZh": "瑪雅的發音有所改善，主要是靠每天練習。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya improved her pronunciation in large part through daily practice.",
+      "answerZh": "瑪雅的發音有所改善，很大程度上是靠每天練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya improved her pronunciation in large part through daily practice."
+    },
+    {
+      "id": "ss212-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The room feels brighter mostly because the walls are white.",
+      "promptZh": "房間感覺更明亮，主要是因為牆壁是白色的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room feels brighter in large part because the walls are white.",
+      "answerZh": "房間感覺更明亮，很大程度上是因為牆壁是白色的。",
+      "answerZhSource": "pdf",
+      "highlight": "The room feels brighter in large part because the walls are white."
+    },
+    {
+      "id": "ss212-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Good communication was a major reason our team won.",
+      "promptZh": "良好的溝通是我們球隊勝出的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team won in large part because we communicated well.",
+      "answerZh": "我們球隊能夠勝出，很大程度上是因為大家溝通良好。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team won in large part because we communicated well."
+    },
+    {
+      "id": "ss212-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The cake tasted good mainly because fresh fruit was used.",
+      "promptZh": "蛋糕味道很好，主要是因為使用了新鮮水果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cake tasted good in large part because fresh fruit was used.",
+      "answerZh": "蛋糕味道很好，很大程度上是因為使用了新鮮水果。",
+      "answerZhSource": "pdf",
+      "highlight": "The cake tasted good in large part because fresh fruit was used."
+    },
+    {
+      "id": "ss212-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Regular exercise was responsible for much of Ben's good health.",
+      "promptZh": "本能保持良好健康，很大部分歸功於恆常運動。",
+      "promptZhSource": "pdf",
+      "starter": "Ben's",
+      "answer": "Ben's good health is due in large part to regular exercise.",
+      "answerZh": "本能保持良好健康，很大程度上歸功於恆常運動。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben's good health is due in large part to regular exercise."
+    },
+    {
+      "id": "ss212-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Friendly staff are one of the main reasons the shop is popular.",
+      "promptZh": "店員友善是這間商店受歡迎的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop is popular in large part because its staff are friendly.",
+      "answerZh": "這間商店受歡迎，很大程度上是因為店員態度友善。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop is popular in large part because its staff are friendly."
+    },
+    {
+      "id": "ss212-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The uncrowded train was a key reason the journey was comfortable.",
+      "promptZh": "火車不擠迫，是這段旅程舒適的關鍵原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The journey was comfortable in large part because the train was not crowded.",
+      "answerZh": "這段旅程十分舒適，很大程度上是因為火車並不擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "The journey was comfortable in large part because the train was not crowded."
+    },
+    {
+      "id": "ss212-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher's simple examples played a major role in helping the students understand the lesson.",
+      "promptZh": "老師使用簡單例子，對學生理解課堂內容起了重要作用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students understood the lesson in large part because the teacher used simple examples.",
+      "answerZh": "學生能夠理解課堂內容，很大程度上是因為老師使用了簡單例子。",
+      "answerZhSource": "pdf",
+      "highlight": "The students understood the lesson in large part because the teacher used simple examples."
+    },
+    {
+      "id": "ss212-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Enough sunlight was largely responsible for keeping the garden healthy.",
+      "promptZh": "花園能保持健康，很大部分是因為有充足陽光。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The garden stayed healthy in large part because it received enough sunlight.",
+      "answerZh": "花園能保持健康，很大程度上是因為得到充足陽光。",
+      "answerZhSource": "pdf",
+      "highlight": "The garden stayed healthy in large part because it received enough sunlight."
+    },
+    {
+      "id": "ss212-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Free admission was one of the main reasons the event attracted many visitors.",
+      "promptZh": "免費入場是活動吸引大量訪客的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event attracted many visitors in large part because admission was free.",
+      "answerZh": "活動吸引了大量訪客，很大程度上是因為免費入場。",
+      "answerZhSource": "pdf",
+      "highlight": "The event attracted many visitors in large part because admission was free."
+    },
+    {
+      "id": "ss212-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The practical training strongly influenced Nina's choice of course.",
+      "promptZh": "實務訓練在很大程度上影響了妮娜選擇這個課程。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina chose the course in large part because it offered practical training.",
+      "answerZh": "妮娜選擇這個課程，很大程度上是因為課程提供實務訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina chose the course in large part because it offered practical training."
+    },
+    {
+      "id": "ss212-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Heavy traffic accounted for much of the delay.",
+      "promptZh": "交通擠塞是延誤的一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The delay resulted in large part from heavy traffic.",
+      "answerZh": "延誤很大程度上是由交通擠塞造成的。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay resulted in large part from heavy traffic."
+    },
+    {
+      "id": "ss212-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Regular cleaning of its parts is a major reason the machine works well.",
+      "promptZh": "定期清潔零件，是這部機器運作良好的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine works well in large part because its parts are regularly cleaned.",
+      "answerZh": "這部機器運作良好，很大程度上是因為零件獲定期清潔。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine works well in large part because its parts are regularly cleaned."
+    },
+    {
+      "id": "ss212-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Switching off unused appliances was largely responsible for the fall in our electricity bill.",
+      "promptZh": "關掉沒有使用的電器，是我們電費下降的主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our electricity bill fell in large part because we switched off unused appliances.",
+      "answerZh": "我們的電費下降，很大程度上是因為我們關掉了沒有使用的電器。",
+      "answerZhSource": "pdf",
+      "highlight": "Our electricity bill fell in large part because we switched off unused appliances."
+    },
+    {
+      "id": "ss212-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Loyal customers are a major factor in the company's growth.",
+      "promptZh": "忠實顧客是公司增長的一個主要因素。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company's growth depends in large part on loyal customers.",
+      "answerZh": "公司的增長很大程度上有賴忠實顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "The company's growth depends in large part on loyal customers."
+    },
+    {
+      "id": "ss212-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The adults' calm behaviour was a main reason the children felt safe.",
+      "promptZh": "成年人保持冷靜，是孩子感到安全的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children felt safe in large part because the adults remained calm.",
+      "answerZh": "孩子感到安全，很大程度上是因為成年人保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The children felt safe in large part because the adults remained calm."
+    },
+    {
+      "id": "ss212-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Slow cooking contributed greatly to the soup's richer flavour.",
+      "promptZh": "慢火烹煮大大增加了湯的濃郁味道。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup became richer in flavour in large part because it was cooked slowly.",
+      "answerZh": "湯的味道變得更濃郁，很大程度上是因為以慢火烹煮。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup became richer in flavour in large part because it was cooked slowly."
+    },
+    {
+      "id": "ss212-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The quiet study areas explain much of the library's popularity.",
+      "promptZh": "安靜的自修區在很大程度上解釋了圖書館受歡迎的原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library's popularity is due in large part to its quiet study areas.",
+      "answerZh": "圖書館受歡迎，很大程度上歸功於館內安靜的自修區。",
+      "answerZhSource": "pdf",
+      "highlight": "The library's popularity is due in large part to its quiet study areas."
+    },
+    {
+      "id": "ss212-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Proper rest was one of the main reasons the players recovered quickly.",
+      "promptZh": "充分休息是球員迅速康復的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The players recovered quickly in large part because they rested properly.",
+      "answerZh": "球員迅速康復，很大程度上是因為他們得到充分休息。",
+      "answerZhSource": "pdf",
+      "highlight": "The players recovered quickly in large part because they rested properly."
+    },
+    {
+      "id": "ss212-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Lower traffic levels caused much of the improvement in air quality.",
+      "promptZh": "路面交通量下降，是空氣質素改善的一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The improvement in air quality was caused in large part by lower traffic levels.",
+      "answerZh": "空氣質素有所改善，很大程度上是由路面交通量下降所致。",
+      "answerZhSource": "pdf",
+      "highlight": "The improvement in air quality was caused in large part by lower traffic levels."
+    },
+    {
+      "id": "ss212-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Support from local volunteers was largely responsible for the programme's success.",
+      "promptZh": "本地義工的支持，是這項計劃成功的主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme succeeded in large part because local volunteers supported it.",
+      "answerZh": "這項計劃能夠成功，很大程度上是因為得到本地義工支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme succeeded in large part because local volunteers supported it."
+    },
+    {
+      "id": "ss212-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Regular physiotherapy contributed greatly to the patient's return of strength.",
+      "promptZh": "定期接受物理治療，大大幫助病人恢復體力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient regained strength in large part through regular physiotherapy.",
+      "answerZh": "病人能夠恢復體力，很大程度上是透過定期接受物理治療。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient regained strength in large part through regular physiotherapy."
+    },
+    {
+      "id": "ss212-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The simplified menu accounted for much of the improvement in the website's usability.",
+      "promptZh": "簡化選單，是網站變得更易使用的一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website became easier to use in large part because the menu was simplified.",
+      "answerZh": "網站變得更容易使用，很大程度上是因為選單經過簡化。",
+      "answerZhSource": "pdf",
+      "highlight": "The website became easier to use in large part because the menu was simplified."
+    },
+    {
+      "id": "ss212-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A large share of the village's income comes from tourism.",
+      "promptZh": "這條村的大部分收入來自旅遊業。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The village depends in large part on tourism for its income.",
+      "answerZh": "這條村的收入很大程度上依賴旅遊業。",
+      "answerZhSource": "pdf",
+      "highlight": "The village depends in large part on tourism for its income."
+    },
+    {
+      "id": "ss212-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The officials' clear explanation was one of the main reasons the policy was accepted.",
+      "promptZh": "官員清楚解釋政策，是政策獲得接受的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy was accepted in large part because officials explained it clearly.",
+      "answerZh": "政策獲得接受，很大程度上是因為官員作出了清楚解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy was accepted in large part because officials explained it clearly."
+    },
+    {
+      "id": "ss212-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Poor road lighting was a major cause of the accident.",
+      "promptZh": "道路照明不足，是這宗意外的一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The accident occurred in large part because the road was poorly lit.",
+      "answerZh": "這宗意外發生，很大程度上是因為道路照明不足。",
+      "answerZhSource": "pdf",
+      "highlight": "The accident occurred in large part because the road was poorly lit."
+    },
+    {
+      "id": "ss212-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Regular speaking practice contributed greatly to the growth of the students' confidence.",
+      "promptZh": "恆常口語練習，大大提升了學生的信心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students' confidence grew in large part as a result of regular speaking practice.",
+      "answerZh": "學生的信心有所提升，很大程度上是恆常口語練習的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The students' confidence grew in large part as a result of regular speaking practice."
+    },
+    {
+      "id": "ss212-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "One major purpose behind the new service was to meet the needs of elderly residents.",
+      "promptZh": "推出這項新服務的一個主要目的，是照顧年長居民的需要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new service was developed in large part to meet the needs of elderly residents.",
+      "answerZh": "這項新服務的設立，很大程度上是為了照顧年長居民的需要。",
+      "answerZhSource": "pdf",
+      "highlight": "The new service was developed in large part to meet the needs of elderly residents."
+    },
+    {
+      "id": "ss212-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Interactive displays accounted for much of what made the exhibition memorable.",
+      "promptZh": "互動展品是這個展覽令人難忘的一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The exhibition was memorable in large part because visitors could interact with the displays.",
+      "answerZh": "這個展覽令人難忘，很大程度上是因為訪客可以與展品互動。",
+      "answerZhSource": "pdf",
+      "highlight": "The exhibition was memorable in large part because visitors could interact with the displays."
+    },
+    {
+      "id": "ss212-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school's recycling campaign caused much of the reduction in waste.",
+      "promptZh": "學校的回收運動，是廢物量減少的一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reduction in waste resulted in large part from the school's recycling campaign.",
+      "answerZh": "廢物量減少，很大程度上是學校回收運動所帶來的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The reduction in waste resulted in large part from the school's recycling campaign."
+    },
+    {
+      "id": "ss212-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Customer feedback had a major influence on the manager's decision.",
+      "promptZh": "顧客意見對經理的決定有重大影響。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager's decision was influenced in large part by customer feedback.",
+      "answerZh": "經理的決定很大程度上受到顧客意見影響。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager's decision was influenced in large part by customer feedback."
+    },
+    {
+      "id": "ss212-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Residents' safety concerns were one of the main reasons the bridge was repaired.",
+      "promptZh": "居民對安全的憂慮，是大橋獲得維修的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bridge was repaired in large part because residents had raised safety concerns.",
+      "answerZh": "大橋獲得維修，很大程度上是因為居民曾提出安全憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The bridge was repaired in large part because residents had raised safety concerns."
+    },
+    {
+      "id": "ss212-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Accurate information was a major factor in the success of the rescue operation.",
+      "promptZh": "準確資料是救援行動成功的一個主要因素。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The success of the rescue operation depended in large part on accurate information.",
+      "answerZh": "救援行動能夠成功，很大程度上有賴準確資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The success of the rescue operation depended in large part on accurate information."
+    },
+    {
+      "id": "ss212-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The arrival of new families was responsible for much of the neighbourhood's change.",
+      "promptZh": "新家庭遷入，是社區出現重大變化的一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbourhood changed in large part because new families moved into the area.",
+      "answerZh": "社區出現變化，很大程度上是因為有新家庭遷入該區。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbourhood changed in large part because new families moved into the area."
+    },
+    {
+      "id": "ss212-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "An honest review of the earlier failure played a major role in helping the team avoid further mistakes.",
+      "promptZh": "誠實檢討先前的失敗，對團隊避免再犯錯誤起了重要作用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team avoided further mistakes in large part because it reviewed the earlier failure honestly.",
+      "answerZh": "團隊能夠避免再犯錯誤，很大程度上是因為它誠實檢討了先前的失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "The team avoided further mistakes in large part because it reviewed the earlier failure honestly."
+    },
+    {
+      "id": "ss212-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The performers' close contact with the audience accounted for much of the festival's warm atmosphere.",
+      "promptZh": "表演者與觀眾的親密互動，是節日氣氛溫馨的一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In large part, the festival's warm atmosphere came from the performers' close contact with the audience.",
+      "answerZh": "這個節日的溫馨氣氛，很大程度上來自表演者與觀眾的親密互動。",
+      "answerZhSource": "pdf",
+      "highlight": "In large part, the festival's warm atmosphere came from the performers' close contact with the audience."
+    },
+    {
+      "id": "ss212-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A simpler design was largely responsible for making the device cheaper.",
+      "promptZh": "更簡單的設計，是這部裝置價格降低的主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The device's lower price was made possible in large part by a simpler design.",
+      "answerZh": "這部裝置能夠以較低價格出售，很大程度上是因為採用了更簡單的設計。",
+      "answerZhSource": "pdf",
+      "highlight": "The device's lower price was made possible in large part by a simpler design."
+    },
+    {
+      "id": "ss212-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The concerns raised during the public meeting provided much of the basis for the final report.",
+      "promptZh": "公眾會議上提出的憂慮，構成了最終報告的大部分基礎。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final report is based in large part on the concerns raised during the public meeting.",
+      "answerZh": "最終報告很大程度上以公眾會議上提出的憂慮為基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "The final report is based in large part on the concerns raised during the public meeting."
+    },
+    {
+      "id": "ss212-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Her calmness under pressure was one of the main reasons the coach selected her as the new captain.",
+      "promptZh": "她在壓力下保持冷靜，是教練選她擔任新隊長的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach selected her as the new captain in large part because she remained calm under pressure.",
+      "answerZh": "教練選她擔任新隊長，很大程度上是因為她在壓力下仍能保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach selected her as the new captain in large part because she remained calm under pressure."
+    },
+    {
+      "id": "ss212-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organisation's ability to respond quickly relies heavily on staff sharing information promptly.",
+      "promptZh": "機構能否迅速回應，在很大程度上取決於員工是否及時分享資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation's ability to respond quickly depends in large part on whether staff share information promptly.",
+      "answerZh": "機構能否迅速回應，很大程度上取決於員工是否及時分享資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation's ability to respond quickly depends in large part on whether staff share information promptly."
+    },
+    {
+      "id": "ss212-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The clearer instructions introduced last month explain much of the decline in complaints.",
+      "promptZh": "上月推出的更清晰指示，在很大程度上解釋了投訴數字下降的原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decline in complaints can be explained in large part by the clearer instructions introduced last month.",
+      "answerZh": "投訴數字下降，很大程度上可以由上月推出的更清晰指示來解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "The decline in complaints can be explained in large part by the clearer instructions introduced last month."
+    },
+    {
+      "id": "ss212-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Donations of equipment from several community groups were a major reason the school could support more students.",
+      "promptZh": "多個社區團體捐贈設備，是學校能夠支援更多學生的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school was able to support more students in large part because several community groups donated equipment.",
+      "answerZh": "學校能夠支援更多學生，很大程度上是因為多個社區團體捐贈了設備。",
+      "answerZhSource": "pdf",
+      "highlight": "The school was able to support more students in large part because several community groups donated equipment."
+    },
+    {
+      "id": "ss212-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee's decision to publish the full investigation report contributed greatly to the restoration of public trust.",
+      "promptZh": "委員會決定公開完整調查報告，大大促進了公眾信任的恢復。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public trust was restored in large part through the committee's decision to publish the full investigation report.",
+      "answerZh": "公眾信任得以恢復，很大程度上是透過委員會公開完整調查報告的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Public trust was restored in large part through the committee's decision to publish the full investigation report."
+    },
+    {
+      "id": "ss212-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Residents helping one another before outside aid arrived accounted for much of the town's recovery after the storm.",
+      "promptZh": "在外來援助抵達前，居民彼此幫助，是小鎮在風暴後復原的一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town's recovery after the storm was due in large part to residents helping one another before outside aid arrived.",
+      "answerZh": "小鎮能在風暴後復原，很大程度上歸功於居民在外來援助抵達前彼此幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "The town's recovery after the storm was due in large part to residents helping one another before outside aid arrived."
+    },
+    {
+      "id": "ss212-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The questions chosen by the team had a major influence on the research findings.",
+      "promptZh": "團隊所選擇的研究問題，對研究結果有重大影響。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research findings were shaped in large part by the questions the team chose to investigate.",
+      "answerZh": "研究結果很大程度上受到團隊所選擇研究的問題影響。",
+      "answerZhSource": "pdf",
+      "highlight": "The research findings were shaped in large part by the questions the team chose to investigate."
+    },
+    {
+      "id": "ss212-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Sharing costs among several partner organisations is one of the main reasons the service remains affordable.",
+      "promptZh": "由多個合作機構分擔成本，是服務能維持相宜收費的主要原因之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The service remains affordable in large part because costs are shared among several partner organisations.",
+      "answerZh": "這項服務能維持相宜收費，很大程度上是因為成本由多個合作機構分擔。",
+      "answerZhSource": "pdf",
+      "highlight": "The service remains affordable in large part because costs are shared among several partner organisations."
+    },
+    {
+      "id": "ss212-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "How consistently students completed the weekly practice explained much of the difference between the two classes.",
+      "promptZh": "學生是否持續完成每週練習，在很大程度上解釋了兩個班別之間的差異。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In large part, the difference between the two classes resulted from how consistently students completed the weekly practice.",
+      "answerZh": "兩個班別之間的差異，很大程度上源於學生是否持續完成每週練習。",
+      "answerZhSource": "pdf",
+      "highlight": "In large part, the difference between the two classes resulted from how consistently students completed the weekly practice."
+    },
+    {
+      "id": "ss212-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Allowing patients to complete basic forms online before arrival accounted for much of the reduction in hospital waiting times.",
+      "promptZh": "讓病人在抵達前於網上填寫基本表格，是醫院輪候時間縮短的一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital reduced waiting times in large part by allowing patients to complete basic forms online before arrival.",
+      "answerZh": "醫院能夠縮短輪候時間，很大程度上是透過讓病人在抵達前於網上填寫基本表格。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital reduced waiting times in large part by allowing patients to complete basic forms online before arrival."
+    },
+    {
+      "id": "ss212-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Early identification of the main risks and timely changes to the plan were major reasons the project met its deadline.",
+      "promptZh": "及早識別主要風險並及時調整計劃，是項目能按時完成的主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project met its deadline in large part because the team identified the main risks early and adjusted its plan before problems became serious.",
+      "answerZh": "項目能夠按時完成，很大程度上是因為團隊及早識別主要風險，並在問題變得嚴重前調整了計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The project met its deadline in large part because the team identified the main risks early and adjusted its plan before problems became serious."
+    }
+  ]
+}

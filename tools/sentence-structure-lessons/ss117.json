@@ -1,0 +1,1264 @@
+{
+  "id": "ss117",
+  "order": 117,
+  "slug": "by-the-time",
+  "title": "「By the time」表示「到……時已經……」",
+  "titleZh": "「By the time」表示「到……時已經……」",
+  "titleEn": "Using by the time to show earlier completion",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 117 -「By the time」表示「到……時已經……」.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "By the time + subject + past simple, subject + had + past participle",
+  "formulas": [
+    {
+      "id": "ss117-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "By the time + subject + past simple, subject + had + past participle"
+    },
+    {
+      "id": "ss117-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Subject + had + past participle + by the time + subject + past simple"
+    },
+    {
+      "id": "ss117-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "By the time + subject + present simple, subject + will have + past participle"
+    },
+    {
+      "id": "ss117-formula-04",
+      "labelEn": "Pattern 4",
+      "labelZh": "句式 4",
+      "formula": "Subject + will have + past participle + by the time + subject + present simple"
+    }
+  ],
+  "example": "By the time I got home, everyone had already gone to bed.",
+  "exampleZh": "我回到家時，大家都已經睡覺了。",
+  "examples": [
+    {
+      "id": "ss117-example-01",
+      "en": "By the time I got home, everyone had already gone to bed.",
+      "zh": "我回到家時，大家都已經睡覺了。",
+      "highlight": "By the time I got home, everyone had already gone to bed"
+    },
+    {
+      "id": "ss117-example-02",
+      "en": "By the time the teacher arrived, the students had finished the quiz.",
+      "zh": "老師到達時，學生已經完成了小測。",
+      "highlight": "By the time the teacher arrived, the students had finished the quiz"
+    },
+    {
+      "id": "ss117-example-03",
+      "en": "By the time we received the email, the meeting had already started.",
+      "zh": "我們收到那封電郵時，會議已經開始了。",
+      "highlight": "By the time we received the email, the meeting had already started"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss117-rule-01",
+      "zh": "By the time 表示「不遲於某個時間點」 這個句型表示一件事情在另一件事情發生之前，或最遲在那個時間點，已經完成。 「買票」先完成，「火車到達」是用來作比較的時間點。",
+      "en": "By the time means ‘no later than a stated time point’. It shows that one event was completed before another event, or by that point at the latest. Buying the tickets is completed first, while the train’s arrival is the time point used for comparison.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "By the time the train arrived, we had bought our tickets."
+      ]
+    },
+    {
+      "id": "ss117-rule-02",
+      "zh": "描述過去時，通常使用過去完成式 不要寫： 這句容易令人以為電影在莎拉到達的同一刻才開始。",
+      "en": "For past events, normally use the past perfect for the earlier event. Using the past simple for both events can suggest that the film started at the very moment Sarah arrived rather than earlier.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "By the time Sarah arrived, the film had started."
+      ]
+    },
+    {
+      "id": "ss117-rule-03",
+      "zh": "描述將來時，主句通常使用將來完成式 在 by the time 後面的時間子句中，一般使用現在式，不使用 will。 正確： 錯誤：",
+      "en": "For future events, normally use the future perfect in the main clause. In the time clause after by the time, use the present simple rather than will.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "By the time Sarah arrives, the film will have started."
+      ]
+    },
+    {
+      "id": "ss117-rule-04",
+      "zh": "Already 可以使用，但並非必須 By the time 本身已經帶有「到那時已經」的意思，因此 already 可以加入，也可以省略。 兩句都正確，但加入 already 可以加強「早已完成」的語氣。",
+      "en": "Already is possible but not compulsory. By the time already conveys ‘by then’, so already may be included or omitted; adding it gives extra emphasis to the fact that the earlier event was completed well before that point.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss117-rule-05",
+      "zh": "句子位置可以前後調動 By the time 子句放在前面時，後面通常加逗號： By the time 子句放在後面時，通常不加逗號：",
+      "en": "The by the time-clause can come before or after the main clause. When it comes first, it is normally followed by a comma; when it comes last, no comma is normally used.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss117-rule-06",
+      "zh": "否定句和被動句亦可使用 否定句 被動句 與相似句型的分別 By the time 與 When When 只指出某件事情發生的時間。兩件事情可以同時發生，不一定有「較早完成」的意思。 By the time 則強調某件事情在另一個時間點之前已經完成。 簡單而言： ● When：當某件事情發生時 ● By the time：到某件事情發生時，另一件事情已經完成 By the time 與 If If 表示條件。事情可能發生，也可能不發生。 By the time 表示時間先後，而不是條件。 ● If：如果某個條件成立 ● By the time：到某個時間點時，事情已經完成 By the time 與 Once Once 表示一件事情完成後，另一件事情便開始或變得可能，重點放在「接下來發生甚麼」。 By the time 則把某件事情當作時間界線，強調另一件事情在該時間之前已經完成。 ● Once：完成第一件事後，第二件事便發生 ● By the time：到某個時間點時，另一件事已經完成",
+      "en": "Negative and passive forms can also be used. Do not confuse by the time with when, if or once. When merely identifies when something happens and may describe simultaneous events; by the time stresses that another event was already complete before the stated point. If introduces a condition that may or may not occur; by the time expresses chronological sequence, not a condition. Once focuses on what begins or becomes possible after a first event is completed; by the time treats one event as a deadline or boundary and emphasizes that another event was completed before it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "When：當某件事情發生時",
+        "By the time：到某件事情發生時，另一件事情已經完成",
+        "If：如果某個條件成立",
+        "By the time：到某個時間點時，事情已經完成",
+        "Once：完成第一件事後，第二件事便發生",
+        "By the time：到某個時間點時，另一件事已經完成",
+        "By the time the deadline arrived, we had not finished the report.",
+        "By the time we opened the website, all the tickets had been sold.",
+        "When pressure rises, good leaders speak more carefully.",
+        "By the time the leader spoke, the pressure had already risen.",
+        "If you ignore early warnings, small problems become expensive mistakes.",
+        "By the time the company noticed the problem, it had become an expensive mistake.",
+        "Once you understand the pattern, it becomes easier.",
+        "By the time you finish this exercise, you will have understood the pattern."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss117-benefit-01",
+      "zh": "清楚交代事情的先後次序 這個句型讓讀者立即知道哪件事情較早完成，以及哪件事情是之後的時間點。 第二句更清楚地把「收到電郵」設定為時間點，並強調會議在那之前已經開始。",
+      "en": "It makes the sequence of events clear. Readers can immediately tell which event was completed earlier and which later event serves as the time point. In the comparison, the second sentence more clearly makes receipt of the email the reference point and emphasizes that the meeting had already begun.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss117-benefit-02",
+      "zh": "方便描述截止時間和進度 你可以使用這個句型說明一項工作會在某個期限或事件之前完成。 這對學校計劃、工作進度、行程安排和未來目標特別有用。",
+      "en": "It helps describe deadlines and progress. You can use the structure to say that work will be completed before a deadline or another event. It is especially useful for school plans, work progress, itineraries and future goals.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "By the time the manager returns, we will have finished the report."
+      ]
+    },
+    {
+      "id": "ss117-benefit-03",
+      "zh": "幫助讀者掌握故事時間線 在故事、新聞報道或經歷描述中，幾件事情可能在不同時間發生。By the time 可以把兩個時間點 清楚連接起來，避免讀者混淆。",
+      "en": "It helps readers follow a story timeline. In stories, news reports or accounts of experience, events may occur at different times; by the time links two time points clearly and prevents confusion.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss117-benefit-04",
+      "zh": "把兩項時間資料合併成一句 你不需要把事情分成兩個短句。 使用 By the time 後，兩項資料之間的關係更加清楚。",
+      "en": "It combines two pieces of time information in one sentence. You do not need to split the events into two short sentences, and by the time makes their relationship clearer.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss117-benefit-05",
+      "zh": "避免過度使用 When 和 Before 這個句型提供另一種自然的時間表達方法，令寫作和說話不會不斷重複 when 或 before。",
+      "en": "It avoids overusing when and before by providing another natural way to express time relationships in speech and writing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss117-benefit-06",
+      "zh": "幫助你自然運用完成式 By the time 經常與過去完成式和將來完成式一起使用。掌握這個句型後，你會更容易表達「在某 個時間之前已經完成」的意思。",
+      "en": "It helps you use perfect tenses naturally. By the time often occurs with the past perfect and future perfect, so mastering it makes it easier to express that something was or will be completed before a particular time.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using by the time. Preserve the original meaning and use the appropriate perfect tense.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 by the time 改寫以下句子。答案必須保留原意，並使用合適的完成式。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss117-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Everyone went to bed before I got home.",
+      "promptZh": "在我回到家前，大家都去睡覺了。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time I got home, everyone had already gone to bed.",
+      "answerZh": "我回到家時，大家都已經睡覺了。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time I got home, everyone had already gone to bed."
+    },
+    {
+      "id": "ss117-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The students finished the quiz before the teacher arrived.",
+      "promptZh": "學生在老師到達前完成了小測。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students had finished the quiz by the time the teacher arrived.",
+      "answerZh": "老師到達時，學生已經完成了小測。",
+      "answerZhSource": "pdf",
+      "highlight": "The students had finished the quiz by the time the teacher arrived."
+    },
+    {
+      "id": "ss117-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The meeting started before we received the email.",
+      "promptZh": "會議在我們收到電郵前已經開始。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time we received the email, the meeting had already started.",
+      "answerZh": "我們收到電郵時，會議已經開始了。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time we received the email, the meeting had already started."
+    },
+    {
+      "id": "ss117-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The café closed at 7:00. We arrived at 7:15.",
+      "promptZh": "咖啡店在七時關門。我們在七時十五分到達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café had closed by the time we arrived at 7:15.",
+      "answerZh": "我們在七時十五分到達時，咖啡店已經關門。",
+      "answerZhSource": "pdf",
+      "highlight": "The café had closed by the time we arrived at 7:15."
+    },
+    {
+      "id": "ss117-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The rain stopped before the match began.",
+      "promptZh": "雨在比賽開始前停了。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the match began, the rain had stopped.",
+      "answerZh": "比賽開始時，雨已經停了。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the match began, the rain had stopped."
+    },
+    {
+      "id": "ss117-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Lucy packed her suitcase first. The taxi arrived afterwards.",
+      "promptZh": "露西先收拾好行李箱，的士其後到達。",
+      "promptZhSource": "pdf",
+      "starter": "Lucy",
+      "answer": "Lucy had packed her suitcase by the time the taxi arrived.",
+      "answerZh": "的士到達時，露西已經收拾好行李箱。",
+      "answerZhSource": "pdf",
+      "highlight": "Lucy had packed her suitcase by the time the taxi arrived."
+    },
+    {
+      "id": "ss117-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The last bus left at 10:00. We reached the bus stop at 10:05.",
+      "promptZh": "尾班巴士在十時開出。我們在十時零五分到達巴士站。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time we reached the bus stop, the last bus had left.",
+      "answerZh": "我們到達巴士站時，尾班巴士已經開走。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time we reached the bus stop, the last bus had left."
+    },
+    {
+      "id": "ss117-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben finished his homework before his mother came home.",
+      "promptZh": "本在母親回家前完成了功課。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben had finished his homework by the time his mother came home.",
+      "answerZh": "母親回家時，本已經完成了功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben had finished his homework by the time his mother came home."
+    },
+    {
+      "id": "ss117-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The baby fell asleep before his father came home.",
+      "promptZh": "嬰兒在父親回家前睡着了。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time his father came home, the baby had fallen asleep.",
+      "answerZh": "父親回家時，嬰兒已經睡着了。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time his father came home, the baby had fallen asleep."
+    },
+    {
+      "id": "ss117-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The cleaners completed their work before the office opened.",
+      "promptZh": "清潔工人在辦公室開門前完成了工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cleaners had completed their work by the time the office opened.",
+      "answerZh": "辦公室開門時，清潔工人已經完成了工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The cleaners had completed their work by the time the office opened."
+    },
+    {
+      "id": "ss117-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We will finish the report before the manager returns.",
+      "promptZh": "我們會在經理回來前完成報告。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the manager returns, we will have finished the report.",
+      "answerZh": "經理回來時，我們便已完成報告。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the manager returns, we will have finished the report."
+    },
+    {
+      "id": "ss117-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The parcel will arrive before you return from lunch.",
+      "promptZh": "包裹會在你吃完午飯回來前送到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel will have arrived by the time you return from lunch.",
+      "answerZh": "你吃完午飯回來時，包裹便已送到。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel will have arrived by the time you return from lunch."
+    },
+    {
+      "id": "ss117-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Amelia will complete the course before she starts her new job.",
+      "promptZh": "阿米莉亞會在開始新工作前完成課程。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time Amelia starts her new job, she will have completed the course.",
+      "answerZh": "阿米莉亞開始新工作時，她便已完成課程。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time Amelia starts her new job, she will have completed the course."
+    },
+    {
+      "id": "ss117-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The workers will complete the road repairs before the school reopens.",
+      "promptZh": "工人會在學校重開前完成道路維修。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The workers will have completed the road repairs by the time the school reopens.",
+      "answerZh": "學校重開時，工人便已完成道路維修。",
+      "answerZhSource": "pdf",
+      "highlight": "The workers will have completed the road repairs by the time the school reopens."
+    },
+    {
+      "id": "ss117-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I will save enough money before the summer holiday begins.",
+      "promptZh": "我會在暑假開始前儲夠錢。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the summer holiday begins, I will have saved enough money.",
+      "answerZh": "暑假開始時，我便已儲夠錢。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the summer holiday begins, I will have saved enough money."
+    },
+    {
+      "id": "ss117-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "They will finish dinner before we call them.",
+      "promptZh": "他們會在我們打電話給他們前吃完晚飯。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They will have finished dinner by the time we call them.",
+      "answerZh": "我們打電話給他們時，他們便已吃完晚飯。",
+      "answerZhSource": "pdf",
+      "highlight": "They will have finished dinner by the time we call them."
+    },
+    {
+      "id": "ss117-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The battery will be fully charged before the online meeting begins.",
+      "promptZh": "電池會在網上會議開始前充滿電。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the online meeting begins, the battery will have been fully charged.",
+      "answerZh": "網上會議開始時，電池便已充滿電。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the online meeting begins, the battery will have been fully charged."
+    },
+    {
+      "id": "ss117-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The guests will leave before the last train departs.",
+      "promptZh": "客人會在尾班車開出前離開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guests will have left by the time the last train departs.",
+      "answerZh": "尾班車開出時，客人便已離開。",
+      "answerZhSource": "pdf",
+      "highlight": "The guests will have left by the time the last train departs."
+    },
+    {
+      "id": "ss117-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The team will complete all the tests before the product launches.",
+      "promptZh": "團隊會在產品推出前完成所有測試。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the product launches, the team will have completed all the tests.",
+      "answerZh": "產品推出時，團隊便已完成所有測試。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the product launches, the team will have completed all the tests."
+    },
+    {
+      "id": "ss117-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The shop had already closed when Mia arrived.",
+      "promptZh": "米婭到達時，店舖已經關門了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop had already closed by the time Mia arrived.",
+      "answerZh": "米婭到達時，店舖已經關門了。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop had already closed by the time Mia arrived."
+    },
+    {
+      "id": "ss117-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We reached the library after it had closed.",
+      "promptZh": "我們在圖書館關門後才到達。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time we reached the library, it had closed.",
+      "answerZh": "我們到達圖書館時，它已經關門了。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time we reached the library, it had closed."
+    },
+    {
+      "id": "ss117-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Had Sarah prepared all the food before the guests arrived? Yes, she had.",
+      "promptZh": "莎拉在客人到達前準備好所有食物嗎？是的，她準備好了。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah had prepared all the food by the time the guests arrived.",
+      "answerZh": "客人到達時，莎拉已經準備好所有食物。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah had prepared all the food by the time the guests arrived."
+    },
+    {
+      "id": "ss117-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor saw me after the nurse had checked my temperature.",
+      "promptZh": "護士為我量過體溫後，醫生才為我診症。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the doctor saw me, the nurse had checked my temperature.",
+      "answerZh": "醫生為我診症時，護士已經為我量過體溫。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the doctor saw me, the nurse had checked my temperature."
+    },
+    {
+      "id": "ss117-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "All the tickets were sold before we opened the booking page.",
+      "promptZh": "我們打開訂票網頁前，所有門票都已經售出。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All the tickets had been sold by the time we opened the booking page.",
+      "answerZh": "我們打開訂票網頁時，所有門票都已經售出。",
+      "answerZhSource": "pdf",
+      "highlight": "All the tickets had been sold by the time we opened the booking page."
+    },
+    {
+      "id": "ss117-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The snow melted before the children went outside.",
+      "promptZh": "孩子們出外前，雪已經融化。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the children went outside, the snow had melted.",
+      "answerZh": "孩子們出外時，雪已經融化。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the children went outside, the snow had melted."
+    },
+    {
+      "id": "ss117-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The shop will reopen only after we leave town.",
+      "promptZh": "店舖只會在我們離開小鎮後重開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop will not have reopened by the time we leave town.",
+      "answerZh": "我們離開小鎮時，店舖仍未重開。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop will not have reopened by the time we leave town."
+    },
+    {
+      "id": "ss117-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The deadline will arrive before the team finishes the project.",
+      "promptZh": "截止期限來臨時，團隊仍未完成項目。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the deadline arrives, the team will not have finished the project.",
+      "answerZh": "截止期限來臨時，團隊仍未完成項目。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the deadline arrives, the team will not have finished the project."
+    },
+    {
+      "id": "ss117-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The plane will take off before we reach the airport.",
+      "promptZh": "飛機會在我們到達機場前起飛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plane will have taken off by the time we reach the airport.",
+      "answerZh": "我們到達機場時，飛機便已起飛。",
+      "answerZhSource": "pdf",
+      "highlight": "The plane will have taken off by the time we reach the airport."
+    },
+    {
+      "id": "ss117-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The staff will check all the documents before the client meeting starts.",
+      "promptZh": "職員會在客戶會議開始前檢查所有文件。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the client meeting starts, the staff will have checked all the documents.",
+      "answerZh": "客戶會議開始時，職員便已檢查所有文件。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the client meeting starts, the staff will have checked all the documents."
+    },
+    {
+      "id": "ss117-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why was the office empty when we entered? The staff had already left.",
+      "promptZh": "我們進入辦公室時，為甚麼裏面沒有人？職員已經離開了。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time we entered the office, the staff had already left.",
+      "answerZh": "我們進入辦公室時，職員已經離開。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time we entered the office, the staff had already left."
+    },
+    {
+      "id": "ss117-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After Karen had read the instructions, she started the machine.",
+      "promptZh": "凱倫閱讀指示後，便啟動了機器。",
+      "promptZhSource": "pdf",
+      "starter": "Karen",
+      "answer": "Karen had read the instructions by the time she started the machine.",
+      "answerZh": "凱倫啟動機器時，她已經讀完指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Karen had read the instructions by the time she started the machine."
+    },
+    {
+      "id": "ss117-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school bell rang only after all the pupils had entered the hall.",
+      "promptZh": "所有學生進入禮堂後，校鐘才響起。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the school bell rang, all the pupils had entered the hall.",
+      "answerZh": "校鐘響起時，所有學生都已經進入禮堂。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the school bell rang, all the pupils had entered the hall."
+    },
+    {
+      "id": "ss117-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Many families moved to safer areas before the storm reached the coast.",
+      "promptZh": "很多家庭在風暴到達海岸前搬到較安全的地區。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many families had moved to safer areas by the time the storm reached the coast.",
+      "answerZh": "風暴到達海岸時，很多家庭已經搬到較安全的地區。",
+      "answerZhSource": "pdf",
+      "highlight": "Many families had moved to safer areas by the time the storm reached the coast."
+    },
+    {
+      "id": "ss117-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The gift shop will close before our guided tour ends.",
+      "promptZh": "禮品店會在我們的導賞團結束前關門。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time our guided tour ends, the gift shop will have closed.",
+      "answerZh": "我們的導賞團結束時，禮品店便已關門。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time our guided tour ends, the gift shop will have closed."
+    },
+    {
+      "id": "ss117-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "All the seats will be taken before the speaker begins.",
+      "promptZh": "講者開始發言前，所有座位都會有人坐。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All the seats will have been taken by the time the speaker begins.",
+      "answerZh": "講者開始發言時，所有座位都會已經有人坐。",
+      "answerZhSource": "pdf",
+      "highlight": "All the seats will have been taken by the time the speaker begins."
+    },
+    {
+      "id": "ss117-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The team will prepare the room before the manager arrives.",
+      "promptZh": "團隊會在經理到達前準備好房間。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the manager arrives, the team will have prepared the room.",
+      "answerZh": "經理到達時，團隊便已準備好房間。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the manager arrives, the team will have prepared the room."
+    },
+    {
+      "id": "ss117-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The hospital staff will treat the final patient before the night shift ends.",
+      "promptZh": "醫院職員會在夜班結束前診治最後一名病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital staff will have treated the final patient by the time the night shift ends.",
+      "answerZh": "夜班結束時，醫院職員便已診治最後一名病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital staff will have treated the final patient by the time the night shift ends."
+    },
+    {
+      "id": "ss117-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The software update will be installed before you switch on the computer tomorrow.",
+      "promptZh": "你明天開啟電腦前，軟件更新便會安裝完成。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time you switch on the computer tomorrow, the software update will have been installed.",
+      "answerZh": "你明天開啟電腦時，軟件更新便已安裝完成。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time you switch on the computer tomorrow, the software update will have been installed."
+    },
+    {
+      "id": "ss117-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "The rain began before the hikers reached the shelter.",
+      "promptZh": "遠足人士到達避雨處前，雨已經開始下了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain had begun by the time the hikers reached the shelter.",
+      "answerZh": "遠足人士到達避雨處時，雨已經開始下了。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain had begun by the time the hikers reached the shelter."
+    },
+    {
+      "id": "ss117-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Everyone took their seats before the judge entered.",
+      "promptZh": "法官進場前，每個人都已經坐好。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the judge entered, everyone had taken their seats.",
+      "answerZh": "法官進場時，每個人都已經坐好。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the judge entered, everyone had taken their seats."
+    },
+    {
+      "id": "ss117-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The school will send all parents the revised timetable before the new term begins.",
+      "promptZh": "學校會在新學期開始前把修訂後的時間表寄給所有家長。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the new term begins, the school will have sent all parents the revised timetable.",
+      "answerZh": "新學期開始時，學校便已把修訂後的時間表寄給所有家長。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the new term begins, the school will have sent all parents the revised timetable."
+    },
+    {
+      "id": "ss117-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The engineers will complete the safety checks before passengers are allowed onto the train.",
+      "promptZh": "工程師會在乘客獲准上車前完成安全檢查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineers will have completed the safety checks by the time passengers are allowed onto the train.",
+      "answerZh": "乘客獲准上車時，工程師便已完成安全檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineers will have completed the safety checks by the time passengers are allowed onto the train."
+    },
+    {
+      "id": "ss117-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The community centre distributed all the meal boxes before the storm became severe.",
+      "promptZh": "社區中心在風暴變得嚴重前派發了所有飯盒。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the storm became severe, the community centre had distributed all the meal boxes.",
+      "answerZh": "風暴變得嚴重時，社區中心已經派發了所有飯盒。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the storm became severe, the community centre had distributed all the meal boxes."
+    },
+    {
+      "id": "ss117-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After the customer had fully explained the problem, the support officer offered a solution.",
+      "promptZh": "顧客完整解釋問題後，支援人員提出了解決方法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer had fully explained the problem by the time the support officer offered a solution.",
+      "answerZh": "支援人員提出解決方法時，顧客已經完整解釋了問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer had fully explained the problem by the time the support officer offered a solution."
+    },
+    {
+      "id": "ss117-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The company will replace all the old computers before the new security system goes live.",
+      "promptZh": "公司會在新保安系統正式啟用前更換所有舊電腦。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the new security system goes live, the company will have replaced all the old computers.",
+      "answerZh": "新保安系統正式啟用時，公司便已更換所有舊電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the new security system goes live, the company will have replaced all the old computers."
+    },
+    {
+      "id": "ss117-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The researchers finished analysing the data before the conference started.",
+      "promptZh": "研究人員在會議開始前完成了數據分析。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The researchers had finished analysing the data by the time the conference started.",
+      "answerZh": "會議開始時，研究人員已經完成了數據分析。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers had finished analysing the data by the time the conference started."
+    },
+    {
+      "id": "ss117-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The organisers had already changed the seating plan when the final guest list arrived.",
+      "promptZh": "最終賓客名單送到時，主辦單位已經更改了座位安排。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the final guest list arrived, the organisers had already changed the seating plan.",
+      "answerZh": "最終賓客名單送到時，主辦單位已經更改了座位安排。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the final guest list arrived, the organisers had already changed the seating plan."
+    },
+    {
+      "id": "ss117-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The family will clear the old furniture from the flat before the renovation workers arrive.",
+      "promptZh": "這個家庭會在裝修工人到達前把舊家具搬離單位。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The family will have cleared the old furniture from the flat by the time the renovation workers arrive.",
+      "answerZh": "裝修工人到達時，這個家庭便已把舊家具搬離單位。",
+      "answerZhSource": "pdf",
+      "highlight": "The family will have cleared the old furniture from the flat by the time the renovation workers arrive."
+    },
+    {
+      "id": "ss117-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The emergency team reached the village after local volunteers had opened a safe route.",
+      "promptZh": "當地義工開闢安全路線後，緊急救援隊才到達村落。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the emergency team reached the village, local volunteers had opened a safe route.",
+      "answerZh": "緊急救援隊到達村落時，當地義工已經開闢了一條安全路線。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the emergency team reached the village, local volunteers had opened a safe route."
+    },
+    {
+      "id": "ss117-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Workers will install new lighting, repair the damaged shelves, and test the fire alarm before the public library reopens.",
+      "promptZh": "工人會在公共圖書館重開前安裝新照明設備、修理損壞的書架，以及測試火警鐘。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the public library reopens, workers will have installed new lighting, repaired the damaged shelves, and tested the fire alarm.",
+      "answerZh": "公共圖書館重開時，工人便已安裝新照明設備、修理損壞的書架，以及測試火警鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the public library reopens, workers will have installed new lighting, repaired the damaged shelves, and tested the fire alarm."
+    }
+  ]
+}

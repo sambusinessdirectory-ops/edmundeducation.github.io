@@ -1,0 +1,1255 @@
+{
+  "id": "ss121",
+  "order": 121,
+  "slug": "parenthetical-insertion",
+  "title": "「Parenthetical Insertion 句」",
+  "titleZh": "「Parenthetical Insertion 句」",
+  "titleEn": "Using a parenthetical sentence adverb after the subject",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 121 -「Parenthetical Insertion 句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Complete subject + , + sentence adverb + , + verb / predicate",
+  "formulas": [
+    {
+      "id": "ss121-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Complete subject + , + sentence adverb + , + verb / predicate"
+    }
+  ],
+  "example": "The proposal, frankly, was unrealistic.",
+  "exampleZh": "這份提案，坦白說，不切實際。",
+  "examples": [
+    {
+      "id": "ss121-example-01",
+      "en": "The proposal, frankly, was unrealistic.",
+      "zh": "這份提案，坦白說，不切實際。",
+      "highlight": "frankly"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss121-rule-01",
+      "zh": "把副詞放在完整主語之後 先寫完整的主語，再加入副詞。 surprisingly 不可以插入 the new software 這個完整名詞組之中。",
+      "en": "Place the sentence adverb after the complete subject. Write the full subject first; do not insert surprisingly inside the complete noun phrase the new software.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The new software, surprisingly, works very well."
+      ]
+    },
+    {
+      "id": "ss121-rule-02",
+      "zh": "副詞前後都要使用逗號 在本課所學的 parenthetical insertion 句型中，副詞屬於插入資料，因此前後都要加上逗號。",
+      "en": "Put a comma before and after the inserted adverb because it is parenthetical information in this target pattern.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The exam, fortunately, was not difficult."
+      ]
+    },
+    {
+      "id": "ss121-rule-03",
+      "zh": "使用能評論整句內容的句子副詞 常用句子副詞包括： 表達坦白或個人態度 ● honestly：老實說 ● frankly：坦白說 ● admittedly：無可否認 表達好事或壞事 ● fortunately：幸好 ● thankfully：幸好；令人欣慰地 ● unfortunately：很可惜 ● regrettably：令人遺憾地 ● luckily：幸好 表達意外或預期 ● surprisingly：令人意外地 ● unexpectedly：出乎意料地 ● understandably：可以理解地 表達肯定或不確定 ● clearly：很明顯 ● obviously：顯然 ● apparently：看來；據說 ● perhaps：也許 表達最終結果 ● ultimately：最終 ● eventually：最後；終於",
+      "en": "Use a sentence adverb that comments on the whole statement. Common choices include attitude adverbs such as honestly, frankly and admittedly; positive or negative reactions such as fortunately, thankfully, unfortunately, regrettably and luckily; surprise or expectation markers such as surprisingly, unexpectedly and understandably; certainty markers such as clearly, obviously, apparently and perhaps; and result markers such as ultimately and eventually.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "honestly：老實說",
+        "frankly：坦白說",
+        "admittedly：無可否認",
+        "fortunately：幸好",
+        "thankfully：幸好；令人欣慰地",
+        "unfortunately：很可惜",
+        "regrettably：令人遺憾地",
+        "luckily：幸好",
+        "surprisingly：令人意外地",
+        "unexpectedly：出乎意料地",
+        "understandably：可以理解地",
+        "clearly：很明顯",
+        "obviously：顯然",
+        "apparently：看來；據說",
+        "perhaps：也許",
+        "ultimately：最終",
+        "eventually：最後；終於"
+      ]
+    },
+    {
+      "id": "ss121-rule-04",
+      "zh": "不要把句子副詞與方式副詞混淆 句子副詞評論的是整句內容。 這裏的 honestly 表示說話者正在坦白表達自己的看法。 方式副詞只描述一個動作如何進行。 這裏的 honestly 只描述經理回答問題的方式，因此不屬於本課的 parenthetical insertion。",
+      "en": "Do not confuse sentence adverbs with adverbs of manner. A sentence adverb comments on the whole statement; in the parenthetical example, honestly signals that the speaker is frankly stating an opinion. An adverb of manner describes only how an action is performed; honestly in the second example describes how the manager answered and is therefore not the parenthetical insertion practised here.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The manager, honestly, did not know the answer.",
+        "The manager answered honestly."
+      ]
+    },
+    {
+      "id": "ss121-rule-05",
+      "zh": "長主語後才加入副詞 如果主語包含介詞片語或關係子句，必須等完整主語結束後才加入副詞。 完整主語是：",
+      "en": "With a long subject containing a prepositional phrase or relative clause, insert the adverb only after the full subject has ended.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Daniel, who arrived last, surprisingly, gave the strongest answer."
+      ]
+    },
+    {
+      "id": "ss121-rule-06",
+      "zh": "副詞必須符合原句意思 ● fortunately 不可用來描述壞結果。 ● unfortunately 不可用來描述好結果。 ● apparently 表示事情看來是真的，但說話者並不完全確定。 ● admittedly 通常表示說話者願意承認某個事實。 ● frankly 和 honestly 通常用來直接表達個人看法。",
+      "en": "Choose an adverb that matches the intended meaning. Fortunately cannot describe a bad result, and unfortunately cannot describe a good one. Apparently suggests that something seems true but remains uncertain; admittedly signals willingness to acknowledge a fact; and frankly or honestly normally introduces a direct personal view.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "fortunately 不可用來描述壞結果。",
+        "unfortunately 不可用來描述好結果。",
+        "apparently 表示事情看來是真的，但說話者並不完全確定。",
+        "admittedly 通常表示說話者願意承認某個事實。",
+        "frankly 和 honestly 通常用來直接表達個人看法。"
+      ]
+    },
+    {
+      "id": "ss121-rule-07",
+      "zh": "不要過度使用這個句型 Parenthetical insertion 能增加語氣和句式變化，但每一句都加入插入副詞，會令文章顯得斷續。 應在需要表達態度、反應或判斷時才使用。",
+      "en": "Do not overuse parenthetical insertion. It can vary tone and sentence structure, but inserting an adverb into every sentence makes writing feel broken up; use it when an attitude, reaction or judgement needs to be expressed.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss121-benefit-01",
+      "zh": "先提出主題，再加入個人態度 這個句型先讓讀者知道句子正在談論甚麼，再補充說話者的態度。 第二句先提出 the proposal，再插入 frankly，因此能把「提案」保持為句子的主要焦點。",
+      "en": "It states the topic before adding the speaker’s attitude. In the comparison, placing the proposal first and inserting frankly afterwards keeps the proposal as the main focus.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss121-benefit-02",
+      "zh": "把事實和評論放在同一句中 你不需要另外寫一句來表達自己的反應。 這個句型能在交代事實的同時，加入「可惜」、「幸好」或「令人意外」等評論。",
+      "en": "It combines a fact and a comment in one sentence, allowing you to report information while adding a reaction such as regret, relief or surprise instead of writing a separate comment sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss121-benefit-03",
+      "zh": "更準確地表達語氣 不同副詞可以表達不同程度的肯定和不同情緒。 ● clearly 表示證據明顯。 ● apparently 表示事情看來是真的，但仍有不確定性。 ● perhaps 表示可能性。 ● thankfully 表示說話者對結果感到欣慰。 讀者可以立即理解說話者對內容的立場。",
+      "en": "It expresses tone more precisely. Different adverbs convey different degrees of certainty and emotion: clearly points to evident proof, apparently retains uncertainty, perhaps signals possibility, and thankfully conveys relief. Readers can therefore identify the speaker’s stance immediately.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "clearly 表示證據明顯。",
+        "apparently 表示事情看來是真的，但仍有不確定性。",
+        "perhaps 表示可能性。",
+        "thankfully 表示說話者對結果感到欣慰。"
+      ]
+    },
+    {
+      "id": "ss121-benefit-04",
+      "zh": "增加句式變化 學生經常把副詞放在句首： 使用 parenthetical insertion 後，可以改為： 這讓文章不會連續出現相同的句子開頭。",
+      "en": "It adds sentence variety by moving an adverb from the beginning into a parenthetical position and avoiding a run of identical sentence openings.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss121-benefit-05",
+      "zh": "讓說話更有自然停頓 在口語中，插入副詞形成一個短暫停頓，讓說話者可以補充態度或反應。 這種停頓適合用於討論、簡報、會議及日常對話。",
+      "en": "It creates a natural pause in speech during which the speaker can add an attitude or reaction. This is useful in discussions, presentations, meetings and everyday conversation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss121-benefit-06",
+      "zh": "幫助控制表達的直接程度 frankly 和 honestly 可以表明你正在直接表達看法；apparently 和 perhaps 則可以令說 法較審慎。 語氣直接。 語氣較審慎。",
+      "en": "It helps control how direct the message sounds. Frankly and honestly signal a direct view, whereas apparently and perhaps make a statement more cautious.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence by placing an appropriate sentence adverb after the complete subject. Use commas before and after the inserted adverb.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "把原句改寫成 parenthetical insertion 句。把適當的句子副詞放在完整主語之後，並在副詞前後加 上逗號。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss121-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Honestly, the restaurant was not worth the wait.",
+      "promptZh": "老實說，那家餐廳不值得等那麼久。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant, honestly, was not worth the wait.",
+      "answerZh": "那家餐廳，老實說，不值得等那麼久。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant, honestly, was not worth the wait."
+    },
+    {
+      "id": "ss121-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our exam was easier than expected, fortunately.",
+      "promptZh": "我們的考試比預期容易，幸好如此。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our exam, fortunately, was easier than expected.",
+      "answerZh": "我們的考試，幸好，比預期容易。",
+      "answerZhSource": "pdf",
+      "highlight": "Our exam, fortunately, was easier than expected."
+    },
+    {
+      "id": "ss121-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "To be frank, this proposal is unrealistic.",
+      "promptZh": "坦白說，這份提案不切實際。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This proposal, frankly, is unrealistic.",
+      "answerZh": "這份提案，坦白說，不切實際。",
+      "answerZhSource": "pdf",
+      "highlight": "This proposal, frankly, is unrealistic."
+    },
+    {
+      "id": "ss121-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Against expectations, the new software runs much faster than the old version.",
+      "promptZh": "出乎意料的是，這套新軟件比舊版本運行得快得多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new software, surprisingly, runs much faster than the old version.",
+      "answerZh": "這套新軟件，令人意外地，比舊版本運行得快得多。",
+      "answerZhSource": "pdf",
+      "highlight": "The new software, surprisingly, runs much faster than the old version."
+    },
+    {
+      "id": "ss121-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our chosen hotel was fully booked, unfortunately.",
+      "promptZh": "我們選定的酒店已經客滿，很可惜。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our chosen hotel, unfortunately, was fully booked.",
+      "answerZh": "我們選定的酒店，很可惜，已經客滿。",
+      "answerZhSource": "pdf",
+      "highlight": "Our chosen hotel, unfortunately, was fully booked."
+    },
+    {
+      "id": "ss121-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Thankfully, the treatment worked very well.",
+      "promptZh": "幸好，這項治療非常有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The treatment, thankfully, worked very well.",
+      "answerZh": "這項治療，幸好，非常有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The treatment, thankfully, worked very well."
+    },
+    {
+      "id": "ss121-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In the end, these talks ended in an agreement.",
+      "promptZh": "最終，這輪會談達成了協議。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These talks, ultimately, ended in an agreement.",
+      "answerZh": "這輪會談，最終，達成了協議。",
+      "answerZhSource": "pdf",
+      "highlight": "These talks, ultimately, ended in an agreement."
+    },
+    {
+      "id": "ss121-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We were lucky that a bus arrived before the rain started.",
+      "promptZh": "幸好有一輛巴士在下雨前到達。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A bus, luckily, arrived before the rain started.",
+      "answerZh": "一輛巴士，幸好，在下雨前到達。",
+      "answerZhSource": "pdf",
+      "highlight": "A bus, luckily, arrived before the rain started."
+    },
+    {
+      "id": "ss121-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "That film was rather long, admittedly.",
+      "promptZh": "無可否認，那部電影頗長。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That film, admittedly, was rather long.",
+      "answerZh": "那部電影，無可否認，頗長。",
+      "answerZhSource": "pdf",
+      "highlight": "That film, admittedly, was rather long."
+    },
+    {
+      "id": "ss121-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Anyone can see that these instructions were not written for beginners.",
+      "promptZh": "任何人都看得出，這些指示並非為初學者而寫。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These instructions, clearly, were not written for beginners.",
+      "answerZh": "這些指示，很明顯，並非為初學者而寫。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions, clearly, were not written for beginners."
+    },
+    {
+      "id": "ss121-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "To be honest, the new café is too expensive.",
+      "promptZh": "老實說，那間新咖啡店太昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new café, honestly, is too expensive.",
+      "answerZh": "那間新咖啡店，老實說，太昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "The new café, honestly, is too expensive."
+    },
+    {
+      "id": "ss121-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "From what we can tell, my new neighbour works at the hospital.",
+      "promptZh": "據我們目前所知，我的新鄰居在醫院工作。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My new neighbour, apparently, works at the hospital.",
+      "answerZh": "我的新鄰居，看來，在醫院工作。",
+      "answerZhSource": "pdf",
+      "highlight": "My new neighbour, apparently, works at the hospital."
+    },
+    {
+      "id": "ss121-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We regret that our school trip had to be cancelled.",
+      "promptZh": "我們很遺憾，學校旅行不得不取消。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school trip, regrettably, had to be cancelled.",
+      "answerZh": "我們的學校旅行，很可惜，不得不取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school trip, regrettably, had to be cancelled."
+    },
+    {
+      "id": "ss121-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nobody expected the patient’s test results to improve within a week, but they did.",
+      "promptZh": "沒有人預料到病人的檢查結果會在一星期內有所改善，但結果確實如此。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient’s test results, unexpectedly, improved within a week.",
+      "answerZh": "病人的檢查結果，出乎意料地，在一星期內有所改善。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient’s test results, unexpectedly, improved within a week."
+    },
+    {
+      "id": "ss121-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Fortunately, the shop still had my size.",
+      "promptZh": "幸好，那間商店仍然有我的尺碼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop, fortunately, still had my size.",
+      "answerZh": "那間商店，幸好，仍然有我的尺碼。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop, fortunately, still had my size."
+    },
+    {
+      "id": "ss121-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sadly, rail services were delayed again.",
+      "promptZh": "很可惜，鐵路服務再次延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Rail",
+      "answer": "Rail services, unfortunately, were delayed again.",
+      "answerZh": "鐵路服務，很可惜，再次延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Rail services, unfortunately, were delayed again."
+    },
+    {
+      "id": "ss121-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Maybe this plan needs a little more time.",
+      "promptZh": "也許，這個計劃需要多一點時間。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This plan, perhaps, needs a little more time.",
+      "answerZh": "這個計劃，也許，需要多一點時間。",
+      "answerZhSource": "pdf",
+      "highlight": "This plan, perhaps, needs a little more time."
+    },
+    {
+      "id": "ss121-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is understandable that Leo’s reaction worried his parents.",
+      "promptZh": "里奧的反應令他的父母擔心，這是可以理解的。",
+      "promptZhSource": "pdf",
+      "starter": "Leo’s",
+      "answer": "Leo’s reaction, understandably, worried his parents.",
+      "answerZh": "可以理解的是，里奧的反應令他的父母擔心。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo’s reaction, understandably, worried his parents."
+    },
+    {
+      "id": "ss121-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Everyone can see that this decision will affect everyone.",
+      "promptZh": "每個人都看得出，這項決定會影響所有人。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This decision, obviously, will affect everyone.",
+      "answerZh": "這項決定，顯然，會影響每個人。",
+      "answerZhSource": "pdf",
+      "highlight": "This decision, obviously, will affect everyone."
+    },
+    {
+      "id": "ss121-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "To our relief, our online lesson continued without further problems.",
+      "promptZh": "令我們感到欣慰的是，網上課堂在之後沒有再出現問題。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our online lesson, thankfully, continued without further problems.",
+      "answerZh": "我們的網上課堂，幸好，之後沒有再出現問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Our online lesson, thankfully, continued without further problems."
+    },
+    {
+      "id": "ss121-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I must admit that this new safety rule is inconvenient.",
+      "promptZh": "我必須承認，這項新的安全規則帶來不便。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This new safety rule, admittedly, is inconvenient.",
+      "answerZh": "這項新的安全規則，無可否認，帶來不便。",
+      "answerZhSource": "pdf",
+      "highlight": "This new safety rule, admittedly, is inconvenient."
+    },
+    {
+      "id": "ss121-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "According to the available information, Mr Lee forgot to take his medicine.",
+      "promptZh": "根據現有資料，李先生似乎忘記服藥。",
+      "promptZhSource": "pdf",
+      "starter": "Mr",
+      "answer": "Mr Lee, apparently, forgot to take his medicine.",
+      "answerZh": "李先生，看來，忘記服藥。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Lee, apparently, forgot to take his medicine."
+    },
+    {
+      "id": "ss121-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Against expectations, yesterday’s weather forecast proved accurate.",
+      "promptZh": "出乎意料的是，昨天的天氣預報證實準確。",
+      "promptZhSource": "pdf",
+      "starter": "Yesterday’s",
+      "answer": "Yesterday’s weather forecast, surprisingly, proved accurate.",
+      "answerZh": "昨天的天氣預報，令人意外地，證實準確。",
+      "answerZhSource": "pdf",
+      "highlight": "Yesterday’s weather forecast, surprisingly, proved accurate."
+    },
+    {
+      "id": "ss121-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Luckily, all the computer files were recovered.",
+      "promptZh": "幸好，所有電腦檔案都已經復原。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All the computer files, fortunately, were recovered.",
+      "answerZh": "所有電腦檔案，幸好，都已經復原。",
+      "answerZhSource": "pdf",
+      "highlight": "All the computer files, fortunately, were recovered."
+    },
+    {
+      "id": "ss121-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Sadly, Friday’s meeting ended without a decision.",
+      "promptZh": "令人遺憾的是，星期五的會議在沒有作出決定的情況下結束。",
+      "promptZhSource": "pdf",
+      "starter": "Friday’s",
+      "answer": "Friday’s meeting, regrettably, ended without a decision.",
+      "answerZh": "星期五的會議，很可惜，在沒有作出決定的情況下結束。",
+      "answerZhSource": "pdf",
+      "highlight": "Friday’s meeting, regrettably, ended without a decision."
+    },
+    {
+      "id": "ss121-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our replacement part finally arrived on Friday.",
+      "promptZh": "我們的替換零件終於在星期五到達。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our replacement part, eventually, arrived on Friday.",
+      "answerZh": "我們的替換零件，終於，在星期五到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Our replacement part, eventually, arrived on Friday."
+    },
+    {
+      "id": "ss121-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is clear that Ms Wong’s explanation helped the class.",
+      "promptZh": "很明顯，黃老師的解釋對全班有所幫助。",
+      "promptZhSource": "pdf",
+      "starter": "Ms",
+      "answer": "Ms Wong’s explanation, clearly, helped the class.",
+      "answerZh": "黃老師的解釋，顯然，對全班有所幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Wong’s explanation, clearly, helped the class."
+    },
+    {
+      "id": "ss121-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Perhaps a new timetable could reduce waiting times.",
+      "promptZh": "也許，新的時間表可以縮短等候時間。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A new timetable, perhaps, could reduce waiting times.",
+      "answerZh": "新的時間表，也許，可以縮短等候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "A new timetable, perhaps, could reduce waiting times."
+    },
+    {
+      "id": "ss121-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As might be expected, Maria’s frustration increased after the second delay.",
+      "promptZh": "正如可以理解的那樣，瑪利亞的不滿情緒在第二次延誤後加劇。",
+      "promptZhSource": "pdf",
+      "starter": "Maria’s",
+      "answer": "Maria’s frustration, understandably, increased after the second delay.",
+      "answerZh": "可以理解的是，瑪利亞的不滿情緒在第二次延誤後加劇。",
+      "answerZhSource": "pdf",
+      "highlight": "Maria’s frustration, understandably, increased after the second delay."
+    },
+    {
+      "id": "ss121-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our researchers finally chose the safer method after considering every option.",
+      "promptZh": "我們的研究人員考慮所有選項後，最終選擇了較安全的方法。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our researchers, ultimately, chose the safer method after considering every option.",
+      "answerZh": "我們的研究人員考慮所有選項後，最終選擇了較安全的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Our researchers, ultimately, chose the safer method after considering every option."
+    },
+    {
+      "id": "ss121-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "To be frank, this revised budget does not solve the main problem.",
+      "promptZh": "坦白說，這份經修訂的預算並沒有解決主要問題。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This revised budget, frankly, does not solve the main problem.",
+      "answerZh": "這份經修訂的預算，坦白說，並沒有解決主要問題。",
+      "answerZhSource": "pdf",
+      "highlight": "This revised budget, frankly, does not solve the main problem."
+    },
+    {
+      "id": "ss121-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Luckily, the equipment in the science room was not damaged.",
+      "promptZh": "幸好，科學室內的設備沒有受損。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The equipment in the science room, fortunately, was not damaged.",
+      "answerZh": "科學室內的設備，幸好，沒有受損。",
+      "answerZhSource": "pdf",
+      "highlight": "The equipment in the science room, fortunately, was not damaged."
+    },
+    {
+      "id": "ss121-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Against expectations, Daniel, who arrived last, gave the strongest answer.",
+      "promptZh": "出乎意料的是，最後才到達的丹尼爾給出了最有力的答案。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel, who arrived last, surprisingly, gave the strongest answer.",
+      "answerZh": "丹尼爾雖然最後才到，但令人意外地給出了最有力的答案。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel, who arrived last, surprisingly, gave the strongest answer."
+    },
+    {
+      "id": "ss121-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "From what we can tell, the privacy settings in the app have changed since the update.",
+      "promptZh": "據目前所見，應用程式內的私隱設定自更新後已經改變。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The privacy settings in the app, apparently, have changed since the update.",
+      "answerZh": "應用程式內的私隱設定，看來，自更新後已經改變。",
+      "answerZhSource": "pdf",
+      "highlight": "The privacy settings in the app, apparently, have changed since the update."
+    },
+    {
+      "id": "ss121-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I admit that our hospital’s new booking system can be confusing at first.",
+      "promptZh": "我承認，我們醫院的新預約系統起初可能令人困惑。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our hospital’s new booking system, admittedly, can be confusing at first.",
+      "answerZh": "我們醫院的新預約系統，無可否認，起初可能令人困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "Our hospital’s new booking system, admittedly, can be confusing at first."
+    },
+    {
+      "id": "ss121-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Thankfully, this final version of the report contains no major errors.",
+      "promptZh": "幸好，這份報告的最終版本沒有重大錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This final version of the report, thankfully, contains no major errors.",
+      "answerZh": "這份報告的最終版本，幸好，沒有重大錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "This final version of the report, thankfully, contains no major errors."
+    },
+    {
+      "id": "ss121-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Sadly, local bus services may be reduced next month.",
+      "promptZh": "很可惜，本地巴士服務下月可能會縮減。",
+      "promptZhSource": "pdf",
+      "starter": "Local",
+      "answer": "Local bus services, unfortunately, may be reduced next month.",
+      "answerZh": "本地巴士服務，很可惜，下月可能會縮減。",
+      "answerZhSource": "pdf",
+      "highlight": "Local bus services, unfortunately, may be reduced next month."
+    },
+    {
+      "id": "ss121-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "To be honest, Mr Chan’s explanation did not answer our main question.",
+      "promptZh": "老實說，陳先生的解釋沒有回答我們的主要問題。",
+      "promptZhSource": "pdf",
+      "starter": "Mr",
+      "answer": "Mr Chan’s explanation, honestly, did not answer our main question.",
+      "answerZh": "陳先生的解釋，老實說，沒有回答我們的主要問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Chan’s explanation, honestly, did not answer our main question."
+    },
+    {
+      "id": "ss121-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Without question, the warning message on the screen should not be ignored.",
+      "promptZh": "毫無疑問，螢幕上的警告訊息不應被忽視。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The warning message on the screen, clearly, should not be ignored.",
+      "answerZh": "螢幕上的警告訊息，很明顯，不應被忽視。",
+      "answerZhSource": "pdf",
+      "highlight": "The warning message on the screen, clearly, should not be ignored."
+    },
+    {
+      "id": "ss121-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As might be expected, extending the library hours pleased many students.",
+      "promptZh": "正如可以預期的那樣，延長圖書館開放時間令許多學生感到高興。",
+      "promptZhSource": "pdf",
+      "starter": "Extending",
+      "answer": "Extending the library hours, understandably, pleased many students.",
+      "answerZh": "可以理解的是，延長圖書館開放時間令許多學生感到高興。",
+      "answerZhSource": "pdf",
+      "highlight": "Extending the library hours, understandably, pleased many students."
+    },
+    {
+      "id": "ss121-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I must admit that this new policy on late submissions is stricter than the old one.",
+      "promptZh": "我必須承認，這項有關遲交功課的新政策比舊政策更嚴格。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This new policy on late submissions, admittedly, is stricter than the old one.",
+      "answerZh": "這項有關遲交功課的新政策，無可否認，比舊政策更嚴格。",
+      "answerZhSource": "pdf",
+      "highlight": "This new policy on late submissions, admittedly, is stricter than the old one."
+    },
+    {
+      "id": "ss121-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "By good fortune, emergency repairs were completed before the storm arrived.",
+      "promptZh": "幸好，緊急維修工程在暴風雨來臨前完成。",
+      "promptZhSource": "pdf",
+      "starter": "Emergency",
+      "answer": "Emergency repairs, fortunately, were completed before the storm arrived.",
+      "answerZh": "緊急維修工程，幸好，在暴風雨來臨前完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Emergency repairs, fortunately, were completed before the storm arrived."
+    },
+    {
+      "id": "ss121-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Sadly, information provided by the travel company was incomplete.",
+      "promptZh": "令人遺憾的是，旅遊公司提供的資料並不完整。",
+      "promptZhSource": "pdf",
+      "starter": "Information",
+      "answer": "Information provided by the travel company, regrettably, was incomplete.",
+      "answerZh": "旅遊公司提供的資料，很可惜，並不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "Information provided by the travel company, regrettably, was incomplete."
+    },
+    {
+      "id": "ss121-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Against expectations, a small business that opened last month was already making a profit.",
+      "promptZh": "出乎意料的是，一間上月才開業的小型企業已經開始錄得盈利。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A small business that opened last month, surprisingly, was already making a profit.",
+      "answerZh": "一間上月才開業的小型企業，令人意外地，已經開始錄得盈利。",
+      "answerZhSource": "pdf",
+      "highlight": "A small business that opened last month, surprisingly, was already making a profit."
+    },
+    {
+      "id": "ss121-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "According to the initial review, the committee’s first proposal did not meet the legal requirements.",
+      "promptZh": "根據初步審查，委員會的首份提案似乎未能符合法律要求。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee’s first proposal, apparently, did not meet the legal requirements.",
+      "answerZh": "委員會的首份提案，看來，未能符合法律要求。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee’s first proposal, apparently, did not meet the legal requirements."
+    },
+    {
+      "id": "ss121-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To everyone’s relief, the medicine prescribed by the doctor caused no serious side effects.",
+      "promptZh": "令所有人感到欣慰的是，醫生處方的藥物沒有引起嚴重副作用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine prescribed by the doctor, thankfully, caused no serious side effects.",
+      "answerZh": "醫生處方的藥物，幸好，沒有引起嚴重副作用。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine prescribed by the doctor, thankfully, caused no serious side effects."
+    },
+    {
+      "id": "ss121-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Maybe these public transport changes will make some journeys easier.",
+      "promptZh": "也許，這些公共交通改動會令部分行程更方便。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These public transport changes, perhaps, will make some journeys easier.",
+      "answerZh": "這些公共交通改動，也許，會令部分行程更方便。",
+      "answerZhSource": "pdf",
+      "highlight": "These public transport changes, perhaps, will make some journeys easier."
+    },
+    {
+      "id": "ss121-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To be frank, the team’s refusal to check the figures again was difficult to understand.",
+      "promptZh": "坦白說，球隊拒絕再次核對數字，實在令人難以理解。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team’s refusal to check the figures again, frankly, was difficult to understand.",
+      "answerZh": "球隊拒絕再次核對數字，坦白說，令人難以理解。",
+      "answerZhSource": "pdf",
+      "highlight": "The team’s refusal to check the figures again, frankly, was difficult to understand."
+    },
+    {
+      "id": "ss121-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The agreement between the two companies ended up protecting both sides.",
+      "promptZh": "兩家公司之間的協議最終保障了雙方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The agreement between the two companies, ultimately, protected both sides.",
+      "answerZh": "兩家公司之間的協議，最終，保障了雙方。",
+      "answerZhSource": "pdf",
+      "highlight": "The agreement between the two companies, ultimately, protected both sides."
+    },
+    {
+      "id": "ss121-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It is fortunate that our new community centre beside the station is accessible to wheelchair users.",
+      "promptZh": "幸好，我們位於車站旁的新社區中心方便輪椅使用者進出。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our new community centre beside the station, fortunately, is accessible to wheelchair users.",
+      "answerZh": "我們位於車站旁的新社區中心，幸好，方便輪椅使用者進出。",
+      "answerZhSource": "pdf",
+      "highlight": "Our new community centre beside the station, fortunately, is accessible to wheelchair users."
+    }
+  ]
+}

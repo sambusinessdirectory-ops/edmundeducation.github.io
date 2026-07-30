@@ -22,7 +22,7 @@ const [
   correctionMigration,
   lessonMigration
 ] = await Promise.all([
-  read("sentence-structure-lessons-5-114.js"),
+  read("sentence-structure-lessons-5-218.js"),
   read("sentence-structure-data.js"),
   read("sentence-structure.js"),
   read("sentence-structure.html"),
@@ -32,7 +32,7 @@ const [
   read("supabase-sentence-structure.sql"),
   read("supabase-sentence-structure-section-bookmarks.sql"),
   read("supabase-sentence-structure-correction-state.sql"),
-  read("supabase-sentence-structure-lessons-71-114.sql")
+  read("supabase-sentence-structure-lessons-115-218.sql")
 ]);
 
 const tests = [];
@@ -43,7 +43,7 @@ const normalText = (value) => String(value ?? "").trim();
 function loadContent() {
   const sandbox = { window: {} };
   vm.createContext(sandbox);
-  vm.runInContext(expansionSource, sandbox, { filename: "sentence-structure-lessons-5-114.js" });
+  vm.runInContext(expansionSource, sandbox, { filename: "sentence-structure-lessons-5-218.js" });
   vm.runInContext(dataSource, sandbox, { filename: "sentence-structure-data.js" });
   return sandbox.window.EDMUND_SENTENCE_STRUCTURE_DATA;
 }
@@ -52,7 +52,7 @@ const content = loadContent();
 const lessons = content.lessons;
 const allQuestions = lessons.flatMap((lesson) => lesson.questions);
 const importedLessonSources = await Promise.all(
-  Array.from({ length: 110 }, (_, index) => index + 5)
+  Array.from({ length: 214 }, (_, index) => index + 5)
     .map(async (number) => JSON.parse(
       await read(`tools/sentence-structure-lessons/ss${String(number).padStart(2, "0")}.json`)
     ))
@@ -287,25 +287,35 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   };
 }
 
-test("data contract contains 114 complete 50-question lessons", () => {
+test("data contract contains 218 complete 50-question lessons", () => {
   assert.ok(Object.isFrozen(content), "top-level content should be immutable");
   assert.equal(content.version, 1);
-  const expectedIds = Array.from({ length: 114 }, (_, index) => `ss${index + 1}`);
+  const expectedIds = Array.from({ length: 218 }, (_, index) => `ss${index + 1}`);
   assert.equal(lessons.length, expectedIds.length);
   assert.deepEqual(Array.from(lessons, (lesson) => lesson.id), expectedIds);
   assert.deepEqual(
     Array.from(lessons, (lesson) => lesson.questions.length),
     Array.from({ length: expectedIds.length }, () => 50)
   );
-  assert.equal(allQuestions.length, 5700);
-  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 5700);
+  assert.equal(allQuestions.length, 10900);
+  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 10900);
   assert.equal(new Set(lessons.map((lesson) => lesson.source.file)).size, expectedIds.length);
   assert.ok(lessons.every((lesson) => lesson.source.file.endsWith(".pdf")));
   assert.deepEqual(
     JSON.parse(JSON.stringify(lessons.slice(4))),
     importedLessonSources,
-    "the public expansion bundle must match its 110 auditable JSON sources"
+    "the public expansion bundle must match its 214 auditable JSON sources"
   );
+
+  const byId = new Map(lessons.map((lesson) => [lesson.id, lesson]));
+  assert.match(byId.get("ss201").source.file, /For good reason/);
+  assert.match(byId.get("ss202").source.file, /There is good reason to/);
+  assert.match(byId.get("ss203").source.file, /^Sentence Structure 202\b/);
+  assert.match(byId.get("ss218").source.file, /^Sentence Structure 217\b/);
+  assert.equal(byId.get("ss127").source.pageCount, 20);
+  assert.ok(byId.get("ss127").source.omissions.some((note) => /blank trailing page/i.test(note)));
+  assert.ok(Number.isInteger(byId.get("ss205").questions[45].source.promptContinuationPage));
+  assert.ok(Number.isInteger(byId.get("ss214").questions[49].source.answerContinuationPage));
 });
 
 test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () => {
@@ -321,10 +331,11 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
   assert.match(supabaseSchema, /v_key_count not in \(6, 9\)/, "Supabase must accept legacy and correction-state results");
   assert.match(frontendSource, /rounds: state\.exercise\.rounds\.slice\(-250\)/, "client history must respect the server round limit");
   assert.match(frontendSource, /maxlength="1000"[^>]+data-answer-input=/, "answer inputs must respect the server answer limit");
-  assert.match(frontendSource, /const MAX_BOOKMARKS = 6000;/, "frontend bookmark capacity must cover the expanded corpus");
-  assert.match(workerSource, /const MAX_BOOKMARKS = 6000;/, "Worker bookmark capacity must match the frontend");
-  assert.match(supabaseSchema, /jsonb_array_length\(p_bookmarks\) > 6000/, "Supabase bookmark capacity must match the frontend");
-  assert.match(supabaseSchema, /octet_length\(p_bookmarks::text\) > 524288/, "Supabase bookmark payload size must cover the expanded corpus");
+  assert.match(frontendSource, /const MAX_BOOKMARKS = 12000;/, "frontend bookmark capacity must cover the expanded corpus");
+  assert.match(workerSource, /const MAX_BOOKMARKS = 12000;/, "Worker bookmark capacity must match the frontend");
+  assert.match(workerSource, /const MAX_BOOKMARK_BODY_BYTES = 1024 \* 1024;/, "Worker bookmark request size must cover the expanded corpus");
+  assert.match(supabaseSchema, /jsonb_array_length\(p_bookmarks\) > 12000/, "Supabase bookmark capacity must match the frontend");
+  assert.match(supabaseSchema, /octet_length\(p_bookmarks::text\) > 1048576/, "Supabase bookmark payload size must cover the expanded corpus");
   assert.match(workerSource, /const SECTION_BOOKMARK_ID = "__section__";/);
   assert.match(supabaseSchema, /question_id = '__section__'/);
   assert.match(bookmarkMigration, /question_id = '__section__' and include_answer = false/,
@@ -380,11 +391,11 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
   }
   assert.match(
     lessonMigration,
-    /sentence_structure_attempts_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-9\]\[0-9\]\|10\[0-9\]\|11\[0-4\]\)\$'\)/
+    /sentence_structure_attempts_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-9\]\[0-9\]\|1\[0-9\]\[0-9\]\|20\[0-9\]\|21\[0-8\]\)\$'\)/
   );
   assert.match(
     lessonMigration,
-    /sentence_structure_bookmarks_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-9\]\[0-9\]\|10\[0-9\]\|11\[0-4\]\)\$'\)/
+    /sentence_structure_bookmarks_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-9\]\[0-9\]\|1\[0-9\]\[0-9\]\|20\[0-9\]\|21\[0-8\]\)\$'\)/
   );
   assert.match(workerSource, /const BOOKMARK_PAGE_SIZE = 900;/);
   assert.ok(workerSource.includes("sentence_structure_list_bookmarks_page"));
@@ -403,6 +414,27 @@ test("every question preserves the bilingual exercise and answer contract", () =
     assert.ok(Array.isArray(lesson.benefits) && lesson.benefits.length > 0);
     assert.ok(Array.isArray(lesson.instructions.en) && lesson.instructions.en.length > 0);
     assert.ok(Array.isArray(lesson.instructions.zh) && lesson.instructions.zh.length > 0);
+    if (lesson.order >= 115) {
+      for (const field of ["title", "titleZh"]) {
+        const value = normalText(lesson[field]);
+        assert.equal(
+          occurrences(value, "「"),
+          occurrences(value, "」"),
+          `${lesson.id}: ${field} has unbalanced Chinese quotation marks`
+        );
+      }
+      for (const field of ["rules", "benefits"]) {
+        for (const item of lesson[field]) {
+          assert.match(item.zh, /[\u3400-\u9fff]/u, `${item.id}: Chinese teaching text is missing`);
+          assert.match(item.en, /[A-Za-z]/, `${item.id}: English teaching text is missing`);
+          assert.doesNotMatch(item.en, /[\u3400-\u9fff]/u, `${item.id}: English teaching text contains Chinese extraction leakage`);
+          assert.ok(
+            ["pdf", "editorial-translation"].includes(item.enSource),
+            `${item.id}: English teaching-text provenance is missing`
+          );
+        }
+      }
+    }
 
     const promptKeys = new Set();
     const answerKeys = new Set();
@@ -446,6 +478,11 @@ test("every question preserves the bilingual exercise and answer contract", () =
         assert.ok(Number.isInteger(question.source[pageField]), `${question.id}: invalid ${pageField}`);
         assert.ok(question.source[pageField] >= 1 && question.source[pageField] <= lesson.source.pageCount, `${question.id}: ${pageField} out of range`);
       }
+      for (const pageField of ["promptZhPage", "answerZhPage", "promptContinuationPage", "answerContinuationPage"]) {
+        if (question.source[pageField] === undefined) continue;
+        assert.ok(Number.isInteger(question.source[pageField]), `${question.id}: invalid ${pageField}`);
+        assert.ok(question.source[pageField] >= 1 && question.source[pageField] <= lesson.source.pageCount, `${question.id}: ${pageField} out of range`);
+      }
       const promptKey = `${question.prompt}\u0000${question.promptZh}`;
       const answerKey = `${question.answer}\u0000${question.answerZh}`;
       assert.ok(!promptKeys.has(promptKey), `${lesson.id}: duplicate prompt`);
@@ -482,6 +519,28 @@ test("every question preserves the bilingual exercise and answer contract", () =
   ]);
 });
 
+test("lesson teaching cards remain source-specific rather than generic batch filler", () => {
+  for (const field of ["rules", "benefits"]) {
+    const ownersByCard = new Map();
+    for (const lesson of lessons) {
+      for (const item of lesson[field] || []) {
+        const key = `${normalText(item.zh)}\u0000${normalText(item.en)}`;
+        const owners = ownersByCard.get(key) || [];
+        owners.push(lesson.id);
+        ownersByCard.set(key, owners);
+      }
+    }
+    const overused = [...ownersByCard.entries()]
+      .filter(([, owners]) => owners.length > 4)
+      .map(([key, owners]) => ({ text: key.split("\u0000")[0], owners }));
+    assert.deepEqual(
+      overused,
+      [],
+      `${field} must reflect each source lesson instead of repeating generic summaries across a batch`
+    );
+  }
+});
+
 test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(html, /<html[^>]+lang="zh-Hant"/);
   assert.match(html, /data-login-form/);
@@ -513,9 +572,9 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(html, /data-bookmark-list/);
   assert.match(html, /data-admin-student-list/);
   assert.match(html, /data-admin-detail/);
-  assert.match(html, /data-lesson-count>114</);
+  assert.match(html, /data-lesson-count>218</);
   const configAt = html.indexOf('src="sentence-structure-config.js"');
-  const expansionAt = html.indexOf('src="sentence-structure-lessons-5-114.js');
+  const expansionAt = html.indexOf('src="sentence-structure-lessons-5-218.js');
   const dataAt = html.indexOf('src="sentence-structure-data.js');
   const appAt = html.indexOf('type="module" src="sentence-structure.js');
   assert.ok(
@@ -1337,7 +1396,7 @@ test("bookmark normalization, secrecy, reveal, synchronization, and limit all ho
   }));
   await sut.toggleBookmark("ss1", "ss1-q02");
   assert.equal(sut.state.bookmarks.length, sut.MAX_BOOKMARKS);
-  assert.match(sut.elements.toast.textContent, /最多可儲存 6000 個書簽/);
+  assert.match(sut.elements.toast.textContent, /最多可儲存 12000 個書簽/);
 });
 
 test("dashboard progress disclosure is collapsed by default and persists per student account", () => {

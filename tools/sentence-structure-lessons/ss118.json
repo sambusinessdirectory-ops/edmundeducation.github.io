@@ -1,0 +1,1241 @@
+{
+  "id": "ss118",
+  "order": 118,
+  "slug": "the-moment-the-minute",
+  "title": "「The moment _ the minute」表示「一……便……」",
+  "titleZh": "「The moment _ the minute」表示「一……便……」",
+  "titleEn": "Using the moment / the minute to show immediate sequence",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 118 -「The moment _ the minute」表示「一……便……」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "The moment / The minute + subject + verb, subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss118-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "The moment / The minute + subject + verb, subject + verb + other information"
+    },
+    {
+      "id": "ss118-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Subject + verb + the moment / the minute + subject + verb"
+    }
+  ],
+  "example": "The moment I saw the bus, I started running.",
+  "exampleZh": "我一看見巴士，便開始跑。",
+  "examples": [
+    {
+      "id": "ss118-example-01",
+      "en": "The moment I saw the bus, I started running.",
+      "zh": "我一看見巴士，便開始跑。",
+      "highlight": "The moment I saw the bus"
+    },
+    {
+      "id": "ss118-example-02",
+      "en": "I started running the minute I saw the bus.",
+      "zh": "我一看見巴士，便開始跑。",
+      "highlight": "the minute I saw the bus"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss118-rule-01",
+      "zh": "表示第二件事立即發生 The moment 和 the minute 都表示一件事發生後，另一件事幾乎立即發生，相當於： ● 一……便…… ● 一……就……",
+      "en": "Use the structure when the second event happens almost immediately after the first. Both the moment and the minute mean ‘as soon as’ or ‘immediately when’.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "as soon as",
+        "immediately when",
+        "The moment the door opened, the dog ran outside."
+      ]
+    },
+    {
+      "id": "ss118-rule-02",
+      "zh": "The minute 並非指真正的一分鐘 在這個句型中，the minute 不表示「六十秒」，而是表示「就在……發生時」。",
+      "en": "The minute in this structure does not mean a literal sixty seconds; it means ‘at the very time that something happens’.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I called her the minute I heard the news."
+      ]
+    },
+    {
+      "id": "ss118-rule-03",
+      "zh": "兩個說法意思非常接近 The moment 和 the minute 在這個用法中意思幾乎相同。 ● the moment：適合日常說話及一般寫作。 ● the minute：語氣通常稍為口語化，但仍可用於一般寫作。",
+      "en": "The moment and the minute have almost the same meaning here. The moment suits everyday speech and general writing, while the minute is usually a little more conversational but can still be used in general writing.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "the moment：適合日常說話及一般寫作。",
+        "the minute：語氣通常稍為口語化，但仍可用於一般寫作。"
+      ]
+    },
+    {
+      "id": "ss118-rule-04",
+      "zh": "句型放在句首時要加逗號 句型放在主句後面時，通常不需要逗號。",
+      "en": "Use a comma when the time expression comes first; when it follows the main clause, a comma is not normally needed.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss118-rule-05",
+      "zh": "談及未來時，時間子句不用 will 即使整句談及未來，the moment / the minute 後面通常使用現在式。 與其他句型的分別 The moment / the minute 與 By the time The moment / the minute 強調第二件事立即發生。 By the time 表示在某個時間點之前，另一件事已經發生或完成，不一定是立即發生。 重點分別： ● the moment / the minute：一件事發生後，另一件事立即發生。 ● by the time：到某個時間點時，另一件事已經發生或完成。 The moment / the minute 與 Once Once 通常強調某件事完成或某個條件成立後，另一件事便可以發生。 The moment / the minute 則特別強調兩件事之間幾乎沒有時間間隔。 The moment / the minute 與 When When 只表示兩件事在某個時間發生，未必表示第二件事立即發生。 The moment / the minute 明確表示第二件事緊接第一件事發生。 The moment / the minute 與 If If 表示條件，事情可能發生，也可能不發生。 The moment / the minute 表示時間關係，重點是事情發生時，另一件事會立即跟着發生。",
+      "en": "For future meaning, do not use will in the time clause; use a present form after the moment or the minute. Distinguish this structure from related linkers: the moment or the minute emphasizes that the second event follows immediately, whereas by the time says that something has already happened or been completed before a reference point and need not be immediate. Once emphasizes that an event is complete or a condition is met before another event becomes possible, but the moment or the minute specifically stresses an almost nonexistent time gap. When identifies a time without necessarily implying an immediate second event. If introduces a condition that may or may not occur, while the moment or the minute expresses a time relationship and what follows immediately when the event occurs.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I will call you the moment I arrive.",
+        "the moment / the minute：一件事發生後，另一件事立即發生。",
+        "by the time：到某個時間點時，另一件事已經發生或完成。",
+        "The moment I got home, I called my mother.",
+        "By the time I got home, everyone had already gone to bed.",
+        "Once you understand the pattern, it becomes easier.",
+        "The moment you understand the pattern, you will notice the difference.",
+        "When pressure rises, good leaders speak more carefully.",
+        "The moment pressure rose, the leader called an emergency meeting.",
+        "If you ignore early warnings, small problems become expensive mistakes.",
+        "The moment you notice an early warning, report it."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss118-benefit-01",
+      "zh": "清楚表示「立即發生」 這個句型能讓讀者立即明白，第二件事並不是很久之後才發生，而是緊接第一件事發生。 第二句更清楚地表達學生立即離開。",
+      "en": "It clearly expresses that something happens immediately. Readers understand that the second event does not occur much later but follows directly after the first; in the comparison, the second sentence makes the students’ immediate departure clearer.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "When the bell rang, the students left.",
+        "The moment the bell rang, the students left."
+      ]
+    },
+    {
+      "id": "ss118-benefit-02",
+      "zh": "令故事和描述更有畫面 這個句型特別適合敘述突發事件、反應或故事情節，讓讀者感受到事情迅速發生。",
+      "en": "It makes stories and descriptions more vivid. The structure is especially effective for sudden events, reactions and plot developments because it lets readers feel how quickly events unfold.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The moment she opened the box, everyone became silent."
+      ]
+    },
+    {
+      "id": "ss118-benefit-03",
+      "zh": "把兩件相關事件連接起來 你可以把兩個短句合併成一個完整句子，清楚顯示兩件事的時間關係。",
+      "en": "It connects two related events. You can combine two short sentences into one complete sentence and show their time relationship clearly.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The minute the rain stopped, we went outside."
+      ]
+    },
+    {
+      "id": "ss118-benefit-04",
+      "zh": "避免重複使用 when 或 as soon as 這個句型提供另一種自然說法，令寫作和說話不會反覆使用相同的連接詞。",
+      "en": "It avoids repeatedly using when or as soon as by providing another natural expression and adding variety to speech and writing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss118-benefit-05",
+      "zh": "提供容易使用的說話框架 你可以先記住以下框架，再加入自己的內容：",
+      "en": "It provides an easy speaking frame: learn the pattern first, then insert your own content.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The moment I heard the news, I called my friend."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the moment or the minute to show that the second action happened immediately.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 the moment 或 the minute 改寫以下句子，表示第二件事緊接第一件事發生。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss118-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As soon as my alarm rang, I got out of bed.",
+      "promptZh": "我的鬧鐘一響，我便起床。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment my alarm rang, I got out of bed.",
+      "answerZh": "鬧鐘一響，我便起床。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment my alarm rang, I got out of bed."
+    },
+    {
+      "id": "ss118-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The students left the classroom immediately after the bell rang.",
+      "promptZh": "鐘聲響起後，學生立即離開課室。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The minute the bell rang, the students left the classroom.",
+      "answerZh": "鐘聲一響，學生便離開課室。",
+      "answerZhSource": "pdf",
+      "highlight": "The minute the bell rang, the students left the classroom."
+    },
+    {
+      "id": "ss118-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia opened her umbrella as soon as she saw the rain.",
+      "promptZh": "米婭一看見下雨，便打開雨傘。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia opened her umbrella the moment she saw the rain.",
+      "answerZh": "米婭一看見下雨，便打開雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia opened her umbrella the moment she saw the rain."
+    },
+    {
+      "id": "ss118-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben called his mother as soon as he arrived home.",
+      "promptZh": "本一回到家，便致電母親。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben called his mother the minute he arrived home.",
+      "answerZh": "本一回到家，便致電母親。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben called his mother the minute he arrived home."
+    },
+    {
+      "id": "ss118-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When did the passengers get off the bus? They got off as soon as it stopped.",
+      "promptZh": "乘客甚麼時候下車？巴士一停下來，他們便下車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment the bus stopped, the passengers got off.",
+      "answerZh": "巴士一停下來，乘客便下車。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment the bus stopped, the passengers got off."
+    },
+    {
+      "id": "ss118-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Dad took the cake out of the oven right after the timer rang.",
+      "promptZh": "計時器一響，爸爸便立即把蛋糕從焗爐取出。",
+      "promptZhSource": "pdf",
+      "starter": "Dad",
+      "answer": "Dad took the cake out of the oven the minute the timer rang.",
+      "answerZh": "計時器一響，爸爸便把蛋糕從焗爐取出。",
+      "answerZhSource": "pdf",
+      "highlight": "Dad took the cake out of the oven the minute the timer rang."
+    },
+    {
+      "id": "ss118-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I finished my homework. Immediately afterwards, I turned on the television.",
+      "promptZh": "我完成了功課。緊接着，我打開電視。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment I finished my homework, I turned on the television.",
+      "answerZh": "我一完成功課，便打開電視。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment I finished my homework, I turned on the television."
+    },
+    {
+      "id": "ss118-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma smiled as soon as she saw her friend.",
+      "promptZh": "艾瑪一看見朋友，便笑了。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma smiled the minute she saw her friend.",
+      "answerZh": "艾瑪一看見朋友，便笑了。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma smiled the minute she saw her friend."
+    },
+    {
+      "id": "ss118-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When the lights went out, the room became quiet at once.",
+      "promptZh": "燈熄滅時，房間立即安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment the lights went out, the room became quiet.",
+      "answerZh": "燈一熄滅，房間便安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment the lights went out, the room became quiet."
+    },
+    {
+      "id": "ss118-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop opened. Customers walked in immediately.",
+      "promptZh": "店舖開門了。顧客立即走進去。",
+      "promptZhSource": "pdf",
+      "starter": "Customers",
+      "answer": "Customers walked into the shop the minute it opened.",
+      "answerZh": "店舖一開門，顧客便走進去。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers walked into the shop the minute it opened."
+    },
+    {
+      "id": "ss118-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe replied to the message as soon as she received it.",
+      "promptZh": "克洛伊一收到訊息，便作出回覆。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe replied to the message the moment she received it.",
+      "answerZh": "克洛伊一收到訊息，便作出回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe replied to the message the moment she received it."
+    },
+    {
+      "id": "ss118-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The class became silent immediately after the teacher entered.",
+      "promptZh": "老師進入課室後，全班立即安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The minute the teacher entered, the class became silent.",
+      "answerZh": "老師一進入課室，全班便安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The minute the teacher entered, the class became silent."
+    },
+    {
+      "id": "ss118-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I knew the soup was too salty as soon as I tasted it.",
+      "promptZh": "我一嘗那碗湯，便知道它太鹹。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I knew the soup was too salty the moment I tasted it.",
+      "answerZh": "我一嘗那碗湯，便知道它太鹹。",
+      "answerZhSource": "pdf",
+      "highlight": "I knew the soup was too salty the moment I tasted it."
+    },
+    {
+      "id": "ss118-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What did the dog do when it heard the doorbell? It ran to the door immediately.",
+      "promptZh": "狗聽到門鈴時做了甚麼？牠立即跑到門口。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The minute the dog heard the doorbell, it ran to the door.",
+      "answerZh": "狗一聽到門鈴，便跑到門口。",
+      "answerZhSource": "pdf",
+      "highlight": "The minute the dog heard the doorbell, it ran to the door."
+    },
+    {
+      "id": "ss118-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As soon as the train arrived, commuters began to board.",
+      "promptZh": "列車一到站，乘客便開始上車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment the train arrived, commuters began to board.",
+      "answerZh": "列車一到站，乘客便開始上車。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment the train arrived, commuters began to board."
+    },
+    {
+      "id": "ss118-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah found a wallet. She took it to the customer service desk at once.",
+      "promptZh": "莎拉發現一個銀包。她立即把它交到顧客服務處。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah took the wallet to the customer service desk the minute she found it.",
+      "answerZh": "莎拉一發現那個銀包，便把它交到顧客服務處。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah took the wallet to the customer service desk the minute she found it."
+    },
+    {
+      "id": "ss118-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When the baby woke up, the parents went into the baby's room immediately.",
+      "promptZh": "嬰兒醒來時，父母立即走進嬰兒的房間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment the baby woke up, the parents went into the baby's room.",
+      "answerZh": "嬰兒一醒來，父母便走進嬰兒的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment the baby woke up, the parents went into the baby's room."
+    },
+    {
+      "id": "ss118-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When did the children go outside? They went out as soon as the rain stopped.",
+      "promptZh": "孩子甚麼時候到外面去？雨一停，他們便出去了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children went outside the minute the rain stopped.",
+      "answerZh": "雨一停，孩子便到外面去。",
+      "answerZhSource": "pdf",
+      "highlight": "The children went outside the minute the rain stopped."
+    },
+    {
+      "id": "ss118-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Press this button, and the screen will light up immediately.",
+      "promptZh": "按下這個按鈕，螢幕便會立即亮起。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment you press this button, the screen will light up.",
+      "answerZh": "你一按下這個按鈕，螢幕便會亮起。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment you press this button, the screen will light up."
+    },
+    {
+      "id": "ss118-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I opened the email. I immediately realised that it was important.",
+      "promptZh": "我打開電郵後，立即意識到它很重要。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I realised the email was important the minute I opened it.",
+      "answerZh": "我一打開電郵，便意識到它很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "I realised the email was important the minute I opened it."
+    },
+    {
+      "id": "ss118-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The traffic stopped immediately when the police officer raised her hand.",
+      "promptZh": "警員一舉手，車輛便立即停下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment the police officer raised her hand, the traffic stopped.",
+      "answerZh": "警員一舉手，車輛便停下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment the police officer raised her hand, the traffic stopped."
+    },
+    {
+      "id": "ss118-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As soon as the medicine began to work, the pain became easier to manage.",
+      "promptZh": "藥物一開始生效，痛楚便較容易控制。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The pain became easier to manage the minute the medicine began to work.",
+      "answerZh": "藥物一開始生效，痛楚便較容易控制。",
+      "answerZhSource": "pdf",
+      "highlight": "The pain became easier to manage the minute the medicine began to work."
+    },
+    {
+      "id": "ss118-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "On hearing the smoke alarm, Ava left the building immediately.",
+      "promptZh": "艾娃一聽到煙霧警報，便立即離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava left the building the moment she heard the smoke alarm.",
+      "answerZh": "艾娃一聽到煙霧警報，便離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava left the building the moment she heard the smoke alarm."
+    },
+    {
+      "id": "ss118-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What happened as soon as the museum doors opened? Visitors began to enter.",
+      "promptZh": "博物館大門一打開，便發生了甚麼？訪客開始進場。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The minute the museum doors opened, visitors began to enter.",
+      "answerZh": "博物館大門一打開，訪客便開始進場。",
+      "answerZhSource": "pdf",
+      "highlight": "The minute the museum doors opened, visitors began to enter."
+    },
+    {
+      "id": "ss118-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Noah's phone started charging immediately after he plugged in the charger.",
+      "promptZh": "諾亞插上充電器後，電話立即開始充電。",
+      "promptZhSource": "pdf",
+      "starter": "Noah's",
+      "answer": "Noah's phone started charging the moment he plugged in the charger.",
+      "answerZh": "諾亞一插上充電器，電話便開始充電。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah's phone started charging the moment he plugged in the charger."
+    },
+    {
+      "id": "ss118-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The employees started asking questions as soon as the manager announced the decision.",
+      "promptZh": "經理一公布決定，僱員便開始提問。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The minute the manager announced the decision, the employees started asking questions.",
+      "answerZh": "經理一公布決定，僱員便開始提問。",
+      "answerZhSource": "pdf",
+      "highlight": "The minute the manager announced the decision, the employees started asking questions."
+    },
+    {
+      "id": "ss118-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Upon noticing a child in the road, the cyclist applied the brakes at once.",
+      "promptZh": "單車手一發現路上有小孩，便立即煞車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cyclist applied the brakes the moment he noticed a child in the road.",
+      "answerZh": "單車手一發現路上有小孩，便立即煞車。",
+      "answerZhSource": "pdf",
+      "highlight": "The cyclist applied the brakes the moment he noticed a child in the road."
+    },
+    {
+      "id": "ss118-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school posted the results. Students checked the website straight away.",
+      "promptZh": "學校公布了成績。學生立即查看網站。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The minute the school posted the results, students checked the website.",
+      "answerZh": "學校一公布成績，學生便查看網站。",
+      "answerZhSource": "pdf",
+      "highlight": "The minute the school posted the results, students checked the website."
+    },
+    {
+      "id": "ss118-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Cars moved forward immediately when the lights changed to green.",
+      "promptZh": "交通燈一轉為綠色，車輛便立即向前行駛。",
+      "promptZhSource": "pdf",
+      "starter": "Cars",
+      "answer": "Cars moved forward the moment the lights changed to green.",
+      "answerZh": "交通燈一轉為綠色，車輛便向前行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Cars moved forward the moment the lights changed to green."
+    },
+    {
+      "id": "ss118-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The chef turned down the heat as soon as he saw the oil smoking.",
+      "promptZh": "廚師一看見油開始冒煙，便把爐火調低。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chef turned down the heat the minute he saw the oil smoking.",
+      "answerZh": "廚師一看見油開始冒煙，便把爐火調低。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef turned down the heat the minute he saw the oil smoking."
+    },
+    {
+      "id": "ss118-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I will text you as soon as I arrive at the station.",
+      "promptZh": "我一到車站，便會傳訊息給你。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will text you the moment I arrive at the station.",
+      "answerZh": "我一到車站，便會傳訊息給你。",
+      "answerZhSource": "pdf",
+      "highlight": "I will text you the moment I arrive at the station."
+    },
+    {
+      "id": "ss118-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "She will call the client immediately after she finishes the meeting.",
+      "promptZh": "她一完成會議，便會立即致電客戶。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She will call the client the minute she finishes the meeting.",
+      "answerZh": "她一完成會議，便會致電客戶。",
+      "answerZhSource": "pdf",
+      "highlight": "She will call the client the minute she finishes the meeting."
+    },
+    {
+      "id": "ss118-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As soon as the system detects unusual activity, it sends an alert.",
+      "promptZh": "系統一偵測到異常活動，便會發出警報。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment the system detects unusual activity, it sends an alert.",
+      "answerZh": "系統一偵測到異常活動，便會發出警報。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment the system detects unusual activity, it sends an alert."
+    },
+    {
+      "id": "ss118-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No sooner had the final whistle blown than the fans began cheering.",
+      "promptZh": "終場哨聲一響，球迷便開始歡呼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fans began cheering the minute the final whistle blew.",
+      "answerZh": "終場哨聲一響，球迷便開始歡呼。",
+      "answerZhSource": "pdf",
+      "highlight": "The fans began cheering the minute the final whistle blew."
+    },
+    {
+      "id": "ss118-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What did the nurse do upon seeing the patient struggling to breathe? She called the doctor immediately.",
+      "promptZh": "護士看見病人呼吸困難時做了甚麼？她立即召喚醫生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment the nurse saw the patient struggling to breathe, she called the doctor.",
+      "answerZh": "護士一看見病人呼吸困難，便召喚醫生。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment the nurse saw the patient struggling to breathe, she called the doctor."
+    },
+    {
+      "id": "ss118-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our computers restarted automatically as soon as the power returned.",
+      "promptZh": "電力一恢復，我們的電腦便自動重新啟動。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our computers restarted automatically the minute the power returned.",
+      "answerZh": "電力一恢復，我們的電腦便自動重新啟動。",
+      "answerZhSource": "pdf",
+      "highlight": "Our computers restarted automatically the minute the power returned."
+    },
+    {
+      "id": "ss118-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We went to the airline desk the instant we heard that our flight had been cancelled.",
+      "promptZh": "我們一聽到航班已被取消，便前往航空公司櫃位。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We went to the airline desk the moment we heard that our flight had been cancelled.",
+      "answerZh": "我們一聽到航班已被取消，便前往航空公司櫃位。",
+      "answerZhSource": "pdf",
+      "highlight": "We went to the airline desk the moment we heard that our flight had been cancelled."
+    },
+    {
+      "id": "ss118-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Upon realising that he had picked up the wrong bag, Leo returned it immediately.",
+      "promptZh": "里奧一發現自己拿錯了袋子，便立即把它送回。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The minute Leo realised that he had picked up the wrong bag, he returned it.",
+      "answerZh": "里奧一發現自己拿錯了袋子，便把它送回。",
+      "answerZhSource": "pdf",
+      "highlight": "The minute Leo realised that he had picked up the wrong bag, he returned it."
+    },
+    {
+      "id": "ss118-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher asked for volunteers. Maya raised her hand without delay.",
+      "promptZh": "老師徵求自願者。瑪雅立即舉手。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya raised her hand the moment the teacher asked for volunteers.",
+      "answerZh": "老師一徵求自願者，瑪雅便舉手。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya raised her hand the moment the teacher asked for volunteers."
+    },
+    {
+      "id": "ss118-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As soon as the storm warning was issued, the ferry service was suspended.",
+      "promptZh": "暴風警告一發出，渡輪服務便暫停。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The minute the storm warning was issued, the ferry service was suspended.",
+      "answerZh": "暴風警告一發出，渡輪服務便暫停。",
+      "answerZhSource": "pdf",
+      "highlight": "The minute the storm warning was issued, the ferry service was suspended."
+    },
+    {
+      "id": "ss118-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Immediately after the emergency centre received the call, a rescue team was sent to the scene.",
+      "promptZh": "緊急服務中心接到電話後，救援隊立即被派往現場。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment the emergency centre received the call, a rescue team was sent to the scene.",
+      "answerZh": "緊急服務中心一接到電話，救援隊便被派往現場。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment the emergency centre received the call, a rescue team was sent to the scene."
+    },
+    {
+      "id": "ss118-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No sooner had the online form been submitted than a confirmation email was generated automatically.",
+      "promptZh": "網上表格一提交，系統便自動產生確認電郵。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A confirmation email was generated automatically the minute the online form was submitted.",
+      "answerZh": "網上表格一提交，系統便自動產生確認電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "A confirmation email was generated automatically the minute the online form was submitted."
+    },
+    {
+      "id": "ss118-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The police informed the family as soon as the missing child was found.",
+      "promptZh": "失蹤兒童一被尋回，警方便通知家人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The police informed the family the moment the missing child was found.",
+      "answerZh": "失蹤兒童一被尋回，警方便通知家人。",
+      "answerZhSource": "pdf",
+      "highlight": "The police informed the family the moment the missing child was found."
+    },
+    {
+      "id": "ss118-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Hardly had the new timetable come into effect when commuters noticed the shorter waiting times.",
+      "promptZh": "新時間表剛一生效，通勤人士便留意到等候時間縮短了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The minute the new timetable came into effect, commuters noticed the shorter waiting times.",
+      "answerZh": "新時間表一生效，通勤人士便留意到等候時間縮短了。",
+      "answerZhSource": "pdf",
+      "highlight": "The minute the new timetable came into effect, commuters noticed the shorter waiting times."
+    },
+    {
+      "id": "ss118-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "On seeing the players losing focus, the coach immediately called a time-out.",
+      "promptZh": "教練一看見球員失去專注，便立即叫暫停。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach called a time-out the moment he saw the players losing focus.",
+      "answerZh": "教練一看見球員失去專注，便叫暫停。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach called a time-out the moment he saw the players losing focus."
+    },
+    {
+      "id": "ss118-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What did the representative do after the customer explained the billing error? She checked the account at once.",
+      "promptZh": "客戶解釋帳單錯誤後，職員做了甚麼？她立即查看帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She checked the account the minute the customer explained the billing error.",
+      "answerZh": "客戶一解釋帳單錯誤，她便查看帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "She checked the account the minute the customer explained the billing error."
+    },
+    {
+      "id": "ss118-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The researchers noticed an unexpected result. They immediately repeated the experiment.",
+      "promptZh": "研究人員發現一個意外結果。他們立即重做實驗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The moment the researchers noticed an unexpected result, they repeated the experiment.",
+      "answerZh": "研究人員一發現意外結果，便重做實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The moment the researchers noticed an unexpected result, they repeated the experiment."
+    },
+    {
+      "id": "ss118-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The bridge reopened immediately after the final safety check was completed.",
+      "promptZh": "最後安全檢查完成後，大橋立即重開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bridge reopened the minute the final safety check was completed.",
+      "answerZh": "最後安全檢查一完成，大橋便重開。",
+      "answerZhSource": "pdf",
+      "highlight": "The bridge reopened the minute the final safety check was completed."
+    },
+    {
+      "id": "ss118-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The community centre announced the free classes. Residents began registering online straight away.",
+      "promptZh": "社區中心公布免費課程後，居民立即開始網上報名。",
+      "promptZhSource": "pdf",
+      "starter": "Residents",
+      "answer": "Residents began registering online the moment the community centre announced the free classes.",
+      "answerZh": "社區中心一公布免費課程，居民便開始網上報名。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents began registering online the moment the community centre announced the free classes."
+    },
+    {
+      "id": "ss118-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No sooner had the rescue team confirmed that the area was safe than residents were allowed to return home.",
+      "promptZh": "救援隊一確認該區安全，居民便獲准回家。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The minute the rescue team confirmed that the area was safe, residents were allowed to return home.",
+      "answerZh": "救援隊一確認該區安全，居民便獲准回家。",
+      "answerZhSource": "pdf",
+      "highlight": "The minute the rescue team confirmed that the area was safe, residents were allowed to return home."
+    }
+  ]
+}

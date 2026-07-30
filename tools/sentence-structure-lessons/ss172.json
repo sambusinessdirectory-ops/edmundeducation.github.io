@@ -1,0 +1,1268 @@
+{
+  "id": "ss172",
+  "order": 172,
+  "slug": "get-object-to-infinitive",
+  "title": "Get + 受詞 + to-infinitive",
+  "titleZh": "「Get + 受詞 + to-infinitive」促成句",
+  "titleEn": "Using Get + object + to-infinitive to cause or persuade",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 172 -「Get + 受詞 + to-infinitive」促成句.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + get + object + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss172-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Subject + get + object + to + base verb + other information"
+    }
+  ],
+  "example": "She got him to apologise.",
+  "exampleZh": "她說服他道歉。",
+  "examples": [
+    {
+      "id": "ss172-example-01",
+      "en": "She got him to apologise.",
+      "zh": "她說服他道歉。",
+      "highlight": "She got him to apologise."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss172-rule-01",
+      "zh": "受詞是執行動作的人或事物 （老師讓學生練習。） 實際進行練習的是 the students，不是 the teacher。",
+      "en": "The object is the person or thing that performs the action. In The teacher got the students to practise, the students—not the teacher—do the practising.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Subject + get + object + to + verb",
+        "The teacher got the students to practise."
+      ]
+    },
+    {
+      "id": "ss172-rule-02",
+      "zh": "Get 必須按照時態改變 （我通常會叫弟弟幫助我。） （我昨天叫弟弟幫助我。） （我明天會叫弟弟幫助我。）",
+      "en": "Change get to match the tense: get/gets in the present, got in the past, will get in the future, can/should/could get after a modal, and forms such as is trying to get in a continuous construction.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Present：get / gets",
+        "Past：got",
+        "Future：will get",
+        "Modal verb：can get / should get / could get",
+        "Continuous：is trying to get",
+        "I usually get my brother to help me.",
+        "I got my brother to help me yesterday.",
+        "I will get my brother to help me tomorrow."
+      ]
+    },
+    {
+      "id": "ss172-rule-03",
+      "zh": "To 後面使用動詞原形 在這個句型中，to 不可以省略。",
+      "en": "Use the base form after to, and do not omit to in this pattern: She got him to apologise, not She got him to apologised or She got him apologise.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She got him to apologise.",
+        "She got him to apologised.",
+        "She got him apologise."
+      ]
+    },
+    {
+      "id": "ss172-rule-04",
+      "zh": "人稱代名詞必須使用受詞形式 （老師讓我們留下來。）",
+      "en": "Use the object form of a personal pronoun: me, him, her, us or them. Write The teacher got us to stay behind, not got we to stay behind.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I → me",
+        "he → him",
+        "she → her",
+        "we → us",
+        "they → them",
+        "The teacher got us to stay behind.",
+        "The teacher got we to stay behind."
+      ]
+    },
+    {
+      "id": "ss172-rule-05",
+      "zh": "否定形式 （教練說服球員不要太早復操。） 否定的是受詞所做的動作，而不是 get。",
+      "en": "For a negative action, use get + object + not to + base verb, as in The coach got the player not to return too soon. The negative applies to the action performed by the object, not to get.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Subject + get + object + not to + base verb",
+        "The coach got the player not to return too soon."
+      ]
+    },
+    {
+      "id": "ss172-rule-06",
+      "zh": "Get someone to do 與 make someone do 不同 Get + object + to + verb 通常表示說服、鼓勵、安排或設法促成某件事。 （她說服他道歉。） Make + object + verb 通常帶有較強的強迫意味，而且不使用 to。 （她迫使他道歉。）",
+      "en": "Get someone to do differs from make someone do. Get + object + to + verb normally means persuade, encourage, arrange or manage to bring about an action: She got him to apologise. Make + object + verb has a stronger sense of compulsion and takes no to: She made him apologise.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Get + object + to + verb",
+        "She got him to apologise.",
+        "Make + object + verb",
+        "She made him apologise."
+      ]
+    },
+    {
+      "id": "ss172-rule-07",
+      "zh": "不要與 get to + verb 混淆 本課目標句型 （老師說服學生參加旅行。） 在 get 和 to 之間有受詞 the students。 另一個不同句型 （學生可能有機會享受一次長洲之旅。） 這裏的 get to enjoy 表示「有機會享受」或「得以享受」。get 和 to 之間沒有受詞，因此不屬於本課 的目標句型。",
+      "en": "Do not confuse get + object + to + verb with get to + verb. In The teacher got the students to join the trip, the object the students appears between get and to, so this is the target causative pattern. In The students may get to enjoy a trip to Cheung Chau, get to enjoy means “have the opportunity to enjoy”; there is no object between get and to, so it is a different structure.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "get + object + to + verb",
+        "The teacher got the students to join the trip.",
+        "get to + verb"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss172-benefit-01",
+      "zh": "清楚表示「誰促使誰做甚麼」 這個句型能清楚交代促成事情的人，以及實際執行動作的人。 （經理安排員工出席會議。） 讀者可以立即看出：經理負責促成事情，而員工負責出席。",
+      "en": "It clearly identifies who causes an action and who actually performs it. In The manager got the staff to attend the meeting, the manager brings the action about and the staff do the attending.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The manager got the staff to attend the meeting."
+      ]
+    },
+    {
+      "id": "ss172-benefit-02",
+      "zh": "表示行動成功產生了結果 Ask someone to do something 只表示提出要求，不一定代表對方真的照做。 （她要求他道歉。） Get someone to do something 通常表示她成功令對方採取行動。 （她成功說服他道歉。）",
+      "en": "It shows that a request or attempt successfully produced the intended action. Ask someone to do something only reports a request and does not prove compliance: She asked him to apologise. Get someone to do something normally shows that the persuasion succeeded: She got him to apologise.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She asked him to apologise.",
+        "She got him to apologise."
+      ]
+    },
+    {
+      "id": "ss172-benefit-03",
+      "zh": "適合表達說服、合作和解決問題 日常生活中，我們經常需要別人幫忙、改變決定或完成工作。這個句型可以用來描述這些實際情 況。 因此，它很適合用於日常對話、學校、工作和顧客服務情境。",
+      "en": "It is useful for describing persuasion, cooperation, practical help and problem-solving in daily life, school, work and customer service.",
+      "enSource": "pdf",
+      "examples": [
+        "get a friend to help",
+        "get a customer to try something",
+        "get a company to give a refund",
+        "get a landlord to repair something"
+      ]
+    },
+    {
+      "id": "ss172-benefit-04",
+      "zh": "可以代替較長的解釋 （我與湯姆談了幾次。最後，他同意加入我們的團隊。） （我成功說服湯姆加入我們的團隊。） 這個句型能把「提出要求、進行說服和成功產生結果」濃縮在一個完整句子中。",
+      "en": "It can replace a longer explanation. I spoke to Tom several times. Finally, he agreed to join our team becomes I got Tom to join our team. The structure compresses the request, persuasion and successful result into one complete sentence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I spoke to Tom several times. Finally, he agreed to join our team.",
+        "I got Tom to join our team."
+      ]
+    },
+    {
+      "id": "ss172-benefit-05",
+      "zh": "不只可以用於人，也可以用於物件 這個句型亦可以表示設法令機器或物件正常運作。 （技術員令打印機重新運作。） 這種用法在描述科技問題、維修和日常困難時非常實用。",
+      "en": "It can refer not only to people but also to making a machine or object work: The technician got the printer to work again. This use is especially useful for technology problems, repairs and everyday difficulties.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The technician got the printer to work again."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Get + 受詞 + to-infinitive.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Get + 受詞 + to-infinitive 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss172-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia persuaded Ben to carry the box.",
+      "promptZh": "米婭說服本搬那個箱子。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia got Ben to carry the box.",
+      "answerZh": "米婭說服本搬那個箱子。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia got Ben to carry the box."
+    },
+    {
+      "id": "ss172-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher asked the class to open their books, and they did.",
+      "promptZh": "老師要求全班打開課本，而學生也照做了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher got the class to open their books.",
+      "answerZh": "老師讓全班打開課本。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher got the class to open their books."
+    },
+    {
+      "id": "ss172-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I convinced my brother to wash the dishes.",
+      "promptZh": "我說服弟弟洗碗。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I got my brother to wash the dishes.",
+      "answerZh": "我說服弟弟洗碗。",
+      "answerZhSource": "pdf",
+      "highlight": "I got my brother to wash the dishes."
+    },
+    {
+      "id": "ss172-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy asked Leo to close the window, and he agreed.",
+      "promptZh": "艾米請里奧關上窗戶，而他答應了。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy got Leo to close the window.",
+      "answerZh": "艾米讓里奧關上窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy got Leo to close the window."
+    },
+    {
+      "id": "ss172-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Dad persuaded us to leave home early.",
+      "promptZh": "爸爸說服我們提早離家。",
+      "promptZhSource": "pdf",
+      "starter": "Dad",
+      "answer": "Dad got us to leave home early.",
+      "answerZh": "爸爸讓我們提早離家。",
+      "answerZhSource": "pdf",
+      "highlight": "Dad got us to leave home early."
+    },
+    {
+      "id": "ss172-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The coach encouraged the players to practise after school, and they agreed.",
+      "promptZh": "教練鼓勵球員放學後練習，而他們答應了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach got the players to practise after school.",
+      "answerZh": "教練讓球員放學後練習。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach got the players to practise after school."
+    },
+    {
+      "id": "ss172-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nina talked her friend into lending her a pen.",
+      "promptZh": "妮娜說服朋友借一支筆給她。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina got her friend to lend her a pen.",
+      "answerZh": "妮娜說服朋友借一支筆給她。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina got her friend to lend her a pen."
+    },
+    {
+      "id": "ss172-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop assistant persuaded the customer to try on the jacket.",
+      "promptZh": "店員說服顧客試穿那件外套。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop assistant got the customer to try on the jacket.",
+      "answerZh": "店員說服顧客試穿那件外套。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop assistant got the customer to try on the jacket."
+    },
+    {
+      "id": "ss172-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We persuaded Tom to join our study group.",
+      "promptZh": "我們說服湯姆加入學習小組。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We got Tom to join our study group.",
+      "answerZh": "我們說服湯姆加入學習小組。",
+      "answerZhSource": "pdf",
+      "highlight": "We got Tom to join our study group."
+    },
+    {
+      "id": "ss172-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Mr Chan successfully encouraged the students to speak English in class.",
+      "promptZh": "陳先生成功鼓勵學生在課堂上說英語。",
+      "promptZhSource": "pdf",
+      "starter": "Mr",
+      "answer": "Mr Chan got the students to speak English in class.",
+      "answerZh": "陳先生成功鼓勵學生在課堂上說英語。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Chan got the students to speak English in class."
+    },
+    {
+      "id": "ss172-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sarah talked her sister into tidying their room.",
+      "promptZh": "莎拉說服妹妹整理她們的房間。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah got her sister to tidy their room.",
+      "answerZh": "莎拉說服妹妹整理她們的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah got her sister to tidy their room."
+    },
+    {
+      "id": "ss172-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient was persuaded by the nurse to take the medicine.",
+      "promptZh": "病人在護士的勸說下服用了藥物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse got the patient to take the medicine.",
+      "answerZh": "護士說服病人服藥。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse got the patient to take the medicine."
+    },
+    {
+      "id": "ss172-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Jason complained about the noise. His neighbour then agreed to turn the music down.",
+      "promptZh": "傑森投訴噪音。他的鄰居其後同意把音樂聲量調低。",
+      "promptZhSource": "pdf",
+      "starter": "Jason",
+      "answer": "Jason got his neighbour to turn the music down.",
+      "answerZh": "傑森說服鄰居把音樂聲量調低。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason got his neighbour to turn the music down."
+    },
+    {
+      "id": "ss172-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The visitors were asked by the guide to wait by the entrance, and they did.",
+      "promptZh": "導遊請訪客在入口旁等候，而他們也照做了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide got the visitors to wait by the entrance.",
+      "answerZh": "導遊讓訪客在入口旁等候。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide got the visitors to wait by the entrance."
+    },
+    {
+      "id": "ss172-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager arranged for everyone to attend the meeting.",
+      "promptZh": "經理安排所有人出席會議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager got everyone to attend the meeting.",
+      "answerZh": "經理安排所有人出席會議。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager got everyone to attend the meeting."
+    },
+    {
+      "id": "ss172-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Chloe convinced her parents to allow her to travel alone.",
+      "promptZh": "克洛伊說服父母准許她獨自旅行。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe got her parents to allow her to travel alone.",
+      "answerZh": "克洛伊說服父母准許她獨自旅行。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe got her parents to allow her to travel alone."
+    },
+    {
+      "id": "ss172-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Daniel asked the waiter to bring another glass of water. The waiter agreed.",
+      "promptZh": "丹尼爾請侍應再拿一杯水，而侍應答應了。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel got the waiter to bring another glass of water.",
+      "answerZh": "丹尼爾讓侍應再拿一杯水。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel got the waiter to bring another glass of water."
+    },
+    {
+      "id": "ss172-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The librarian persuaded the boys not to talk so loudly.",
+      "promptZh": "圖書館員說服那些男孩不要那麼大聲說話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The librarian got the boys not to talk so loudly.",
+      "answerZh": "圖書館員說服那些男孩不要那麼大聲說話。",
+      "answerZhSource": "pdf",
+      "highlight": "The librarian got the boys not to talk so loudly."
+    },
+    {
+      "id": "ss172-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher persuaded the students to join a trip to Cheung Chau.",
+      "promptZh": "老師說服學生參加長洲旅行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher got the students to join a trip to Cheung Chau.",
+      "answerZh": "老師說服學生參加長洲旅行。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher got the students to join a trip to Cheung Chau."
+    },
+    {
+      "id": "ss172-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The organiser convinced more people to sign up for the event.",
+      "promptZh": "主辦人說服更多人報名參加活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organiser got more people to sign up for the event.",
+      "answerZh": "主辦人促使更多人報名參加活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser got more people to sign up for the event."
+    },
+    {
+      "id": "ss172-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "How did you persuade Sam to change his mind?",
+      "promptZh": "你是怎樣說服山姆改變主意的？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How did you get Sam to change his mind?",
+      "answerZh": "你是怎樣說服山姆改變主意的？",
+      "answerZhSource": "pdf",
+      "highlight": "How did you get Sam to change his mind?"
+    },
+    {
+      "id": "ss172-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "Can you persuade the children to put away their toys?",
+      "promptZh": "你能說服孩子們收好玩具嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can you get the children to put away their toys?",
+      "answerZh": "你能讓孩子們收好玩具嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can you get the children to put away their toys?"
+    },
+    {
+      "id": "ss172-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor persuaded Marcus to exercise three times a week.",
+      "promptZh": "醫生說服馬庫斯每星期做三次運動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor got Marcus to exercise three times a week.",
+      "answerZh": "醫生說服馬庫斯每星期做三次運動。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor got Marcus to exercise three times a week."
+    },
+    {
+      "id": "ss172-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Olivia convinced the team to reconsider the plan.",
+      "promptZh": "奧莉花說服團隊重新考慮這個計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia got the team to reconsider the plan.",
+      "answerZh": "奧莉花說服團隊重新考慮這個計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia got the team to reconsider the plan."
+    },
+    {
+      "id": "ss172-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Many customers were persuaded by the advertisement to visit the new shop.",
+      "promptZh": "很多顧客受到廣告吸引，前往那間新店。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The advertisement got many customers to visit the new shop.",
+      "answerZh": "廣告促使很多顧客前往那間新店。",
+      "answerZhSource": "pdf",
+      "highlight": "The advertisement got many customers to visit the new shop."
+    },
+    {
+      "id": "ss172-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The warning sign caused drivers to slow down.",
+      "promptZh": "警告標誌使司機減速。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The warning sign got drivers to slow down.",
+      "answerZh": "警告標誌使司機減速。",
+      "answerZhSource": "pdf",
+      "highlight": "The warning sign got drivers to slow down."
+    },
+    {
+      "id": "ss172-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The technician succeeded in making the printer work again.",
+      "promptZh": "技術員成功令打印機重新運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The technician got the printer to work again.",
+      "answerZh": "技術員令打印機重新運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The technician got the printer to work again."
+    },
+    {
+      "id": "ss172-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We were unable to make the door close properly.",
+      "promptZh": "我們無法令那道門正常關上。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could not get the door to close properly.",
+      "answerZh": "我們無法令那道門正常關上。",
+      "answerZhSource": "pdf",
+      "highlight": "We could not get the door to close properly."
+    },
+    {
+      "id": "ss172-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After a long time, Emma succeeded in making the baby fall asleep.",
+      "promptZh": "經過很長時間後，艾瑪終於成功令嬰兒入睡。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After a long time, Emma got the baby to fall asleep.",
+      "answerZh": "經過很長時間後，艾瑪終於令嬰兒入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "After a long time, Emma got the baby to fall asleep."
+    },
+    {
+      "id": "ss172-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "How did the mechanic manage to start the engine?",
+      "promptZh": "機械技工是怎樣成功啟動引擎的？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How did the mechanic get the engine to start?",
+      "answerZh": "機械技工是怎樣令引擎啟動的？",
+      "answerZhSource": "pdf",
+      "highlight": "How did the mechanic get the engine to start?"
+    },
+    {
+      "id": "ss172-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You should persuade the landlord to repair the tap.",
+      "promptZh": "你應該說服業主修理水龍頭。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should get the landlord to repair the tap.",
+      "answerZh": "你應該設法讓業主修理水龍頭。",
+      "answerZhSource": "pdf",
+      "highlight": "You should get the landlord to repair the tap."
+    },
+    {
+      "id": "ss172-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If we persuade the volunteers to arrive earlier, the event will start on time.",
+      "promptZh": "如果我們說服義工提早到達，活動便能準時開始。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If we get the volunteers to arrive earlier, the event will start on time.",
+      "answerZh": "如果我們讓義工提早到達，活動便能準時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "If we get the volunteers to arrive earlier, the event will start on time."
+    },
+    {
+      "id": "ss172-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school is trying to persuade parents to complete the survey.",
+      "promptZh": "學校正嘗試說服家長完成問卷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school is trying to get parents to complete the survey.",
+      "answerZh": "學校正嘗試說服家長完成問卷。",
+      "answerZhSource": "pdf",
+      "highlight": "The school is trying to get parents to complete the survey."
+    },
+    {
+      "id": "ss172-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager will persuade the staff to follow the new safety rules.",
+      "promptZh": "經理將會說服員工遵守新的安全規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager will get the staff to follow the new safety rules.",
+      "answerZh": "經理將會說服員工遵守新的安全規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager will get the staff to follow the new safety rules."
+    },
+    {
+      "id": "ss172-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I need to find a way to make my laptop connect to the Wi-Fi.",
+      "promptZh": "我需要想辦法讓手提電腦連接無線網絡。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I need to get my laptop to connect to the Wi-Fi.",
+      "answerZh": "我需要設法讓手提電腦連接無線網絡。",
+      "answerZhSource": "pdf",
+      "highlight": "I need to get my laptop to connect to the Wi-Fi."
+    },
+    {
+      "id": "ss172-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The police officer persuaded the crowd to move away from the road.",
+      "promptZh": "警員說服人群離開馬路。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The police officer got the crowd to move away from the road.",
+      "answerZh": "警員說服人群離開馬路。",
+      "answerZhSource": "pdf",
+      "highlight": "The police officer got the crowd to move away from the road."
+    },
+    {
+      "id": "ss172-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The counsellor convinced the student not to give up.",
+      "promptZh": "輔導員說服學生不要放棄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The counsellor got the student not to give up.",
+      "answerZh": "輔導員說服學生不要放棄。",
+      "answerZhSource": "pdf",
+      "highlight": "The counsellor got the student not to give up."
+    },
+    {
+      "id": "ss172-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "By explaining the risks clearly, the doctor persuaded the patient to accept the treatment.",
+      "promptZh": "醫生透過清楚解釋風險，說服病人接受治療。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By explaining the risks clearly, the doctor got the patient to accept the treatment.",
+      "answerZh": "醫生透過清楚解釋風險，說服病人接受治療。",
+      "answerZhSource": "pdf",
+      "highlight": "By explaining the risks clearly, the doctor got the patient to accept the treatment."
+    },
+    {
+      "id": "ss172-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After we made several phone calls, the company agreed to refund the delivery fee.",
+      "promptZh": "我們打了幾次電話後，公司同意退還運費。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After we made several phone calls, we got the company to refund the delivery fee.",
+      "answerZh": "我們打了幾次電話後，成功令公司退還運費。",
+      "answerZhSource": "pdf",
+      "highlight": "After we made several phone calls, we got the company to refund the delivery fee."
+    },
+    {
+      "id": "ss172-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The host asked everyone to introduce themselves before dinner, and they did.",
+      "promptZh": "主人請所有人在晚餐前自我介紹，而大家也照做了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The host got everyone to introduce themselves before dinner.",
+      "answerZh": "主人讓所有人在晚餐前自我介紹。",
+      "answerZhSource": "pdf",
+      "highlight": "The host got everyone to introduce themselves before dinner."
+    },
+    {
+      "id": "ss172-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The principal successfully encouraged the teachers to suggest ways to reduce students’ workload.",
+      "promptZh": "校長成功鼓勵老師提出減輕學生功課量的方法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The principal got the teachers to suggest ways to reduce students’ workload.",
+      "answerZh": "校長成功鼓勵老師提出減輕學生功課量的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The principal got the teachers to suggest ways to reduce students’ workload."
+    },
+    {
+      "id": "ss172-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Hospital managers arranged for an experienced nurse to train the new staff.",
+      "promptZh": "醫院管理人員安排一名資深護士培訓新員工。",
+      "promptZhSource": "pdf",
+      "starter": "Hospital",
+      "answer": "Hospital managers got an experienced nurse to train the new staff.",
+      "answerZh": "醫院管理人員安排一名資深護士培訓新員工。",
+      "answerZhSource": "pdf",
+      "highlight": "Hospital managers got an experienced nurse to train the new staff."
+    },
+    {
+      "id": "ss172-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Staff at the community centre persuaded local shops to donate food for elderly residents.",
+      "promptZh": "社區中心的職員說服區內商店捐贈食物給年長居民。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff at the community centre got local shops to donate food for elderly residents.",
+      "answerZh": "社區中心的職員說服區內商店捐贈食物給年長居民。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff at the community centre got local shops to donate food for elderly residents."
+    },
+    {
+      "id": "ss172-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The project leader made sure that each team member reported any delay immediately.",
+      "promptZh": "項目主管確保每名團隊成員立即匯報任何延誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project leader got each team member to report any delay immediately.",
+      "answerZh": "項目主管讓每名團隊成員立即匯報任何延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The project leader got each team member to report any delay immediately."
+    },
+    {
+      "id": "ss172-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "How did our travel agent persuade the airline to change our booking without an extra charge?",
+      "promptZh": "我們的旅行代理商是怎樣說服航空公司免費更改預訂的？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How did our travel agent get the airline to change our booking without an extra charge?",
+      "answerZh": "我們的旅行代理商是怎樣說服航空公司免費更改預訂的？",
+      "answerZhSource": "pdf",
+      "highlight": "How did our travel agent get the airline to change our booking without an extra charge?"
+    },
+    {
+      "id": "ss172-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The coach convinced the injured player not to return to training too soon.",
+      "promptZh": "教練說服受傷的球員不要太早恢復訓練。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach got the injured player not to return to training too soon.",
+      "answerZh": "教練說服受傷的球員不要太早恢復訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach got the injured player not to return to training too soon."
+    },
+    {
+      "id": "ss172-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Several companies were persuaded by a local charity to provide laptops for low-income students.",
+      "promptZh": "數間公司受到一間本地慈善機構勸說，為基層學生提供手提電腦。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A local charity got several companies to provide laptops for low-income students.",
+      "answerZh": "一間本地慈善機構說服數間公司為基層學生提供手提電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "A local charity got several companies to provide laptops for low-income students."
+    },
+    {
+      "id": "ss172-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Through public talks and leaflets, council officials convinced residents to separate food waste from other rubbish.",
+      "promptZh": "議會人員透過公眾講座和傳單，說服居民把廚餘與其他垃圾分開。",
+      "promptZhSource": "pdf",
+      "starter": "Through",
+      "answer": "Through public talks and leaflets, council officials got residents to separate food waste from other rubbish.",
+      "answerZh": "議會人員透過公眾講座和傳單，說服居民把廚餘與其他垃圾分開。",
+      "answerZhSource": "pdf",
+      "highlight": "Through public talks and leaflets, council officials got residents to separate food waste from other rubbish."
+    },
+    {
+      "id": "ss172-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The editor persuaded the writer to shorten the article without removing its main message.",
+      "promptZh": "編輯說服作者縮短文章，同時保留文章的主要信息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The editor got the writer to shorten the article without removing its main message.",
+      "answerZh": "編輯說服作者縮短文章，同時保留文章的主要信息。",
+      "answerZhSource": "pdf",
+      "highlight": "The editor got the writer to shorten the article without removing its main message."
+    },
+    {
+      "id": "ss172-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "By showing the long-term savings, the engineer convinced the building owner to install a more efficient cooling system.",
+      "promptZh": "工程師透過展示長遠可節省的費用，說服大廈業主安裝更高效的冷卻系統。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By showing the long-term savings, the engineer got the building owner to install a more efficient cooling system.",
+      "answerZh": "工程師透過展示長遠可節省的費用，說服大廈業主安裝更高效的冷卻系統。",
+      "answerZhSource": "pdf",
+      "highlight": "By showing the long-term savings, the engineer got the building owner to install a more efficient cooling system."
+    }
+  ]
+}

@@ -1,0 +1,1244 @@
+{
+  "id": "ss214",
+  "order": 214,
+  "slug": "raises-the-question-whether",
+  "title": "「This raises the question of whether ...」引出值得進一步考慮的問題",
+  "titleZh": "「This raises the question of whether ...」引出值得進一步考慮的問題",
+  "titleEn": "Using “This raises the question of whether ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 213 -「This raises the question of whether ...」引出值得進一步考慮的問題.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 213; it is assigned system ID ss214 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Previous fact or proposal. This raises the question of whether + complete clause",
+  "formulas": [
+    {
+      "id": "ss214-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "Previous fact or proposal. This raises the question of whether + complete clause"
+    }
+  ],
+  "example": "This raises the question of whether the policy is sustainable in the long run.",
+  "exampleZh": "這就引出了一個問題：這項政策長遠而言是否可持續。",
+  "examples": [
+    {
+      "id": "ss214-example-01",
+      "en": "This raises the question of whether the policy is sustainable in the long run.",
+      "zh": "這就引出了一個問題：這項政策長遠而言是否可持續。",
+      "highlight": "This raises the question of whether the policy is sustainable in the long run."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Previous fact or proposal. This raises the question of whether + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss214-rule-01",
+      "zh": "“This” 必須清楚指向前面剛提及的事實、情況、結果或建議。 （如前文完全沒有提及任何學費或政策，This 的指向便不清楚。）",
+      "en": "“This” must refer clearly to an idea stated immediately before it. Correct: The school has increased its fees. This raises the question of whether every family can afford them. Incorrect: This raises the question of whether every family can afford the fees.",
+      "enSource": "pdf",
+      "examples": [
+        "“This” must refer clearly to an idea stated immediately before it.",
+        "Correct: The school has increased its fees. This raises the question of whether every family can afford",
+        "Incorrect: This raises the question of whether every family can afford the fees."
+      ]
+    },
+    {
+      "id": "ss214-rule-02",
+      "zh": "由於 whether 位於介詞 of 之後，因此不能改用 if。",
+      "en": "Use whether, not if, after “of”. Correct: This raises the question of whether the plan will work. Incorrect: This raises the question of if the plan will work.",
+      "enSource": "pdf",
+      "examples": [
+        "Use whether, not if, after “of”.",
+        "Correct: This raises the question of whether the plan will work.",
+        "Incorrect: This raises the question of if the plan will work."
+      ]
+    },
+    {
+      "id": "ss214-rule-03",
+      "zh": "whether 後面使用陳述句語序，而不是直接問句語序。",
+      "en": "Use statement word order inside the whether-clause. Correct: whether the plan is practical Incorrect: whether is the plan practical",
+      "enSource": "pdf",
+      "examples": [
+        "Use statement word order inside the whether-clause.",
+        "Correct: whether the plan is practical",
+        "Incorrect: whether is the plan practical"
+      ]
+    },
+    {
+      "id": "ss214-rule-04",
+      "zh": "整句是在指出一個問題，而不是直接向讀者發問，因此通常使用句號，而不是問號。",
+      "en": "The whole sentence normally ends with a full stop. Correct: This raises the question of whether the plan is practical. Incorrect: This raises the question of whether the plan is practical?",
+      "enSource": "pdf",
+      "examples": [
+        "The whole sentence normally ends with a full stop.",
+        "Correct: This raises the question of whether the plan is practical.",
+        "Incorrect: This raises the question of whether the plan is practical?"
+      ]
+    },
+    {
+      "id": "ss214-rule-05",
+      "zh": "原句中的時態，以及 can、may、might、will、would、should 等情態意思都應保留。",
+      "en": "Preserve the original tense and modal meaning. Source: Could the service become more expensive? Target: This raises the question of whether the service could become more expensive.",
+      "enSource": "pdf",
+      "examples": [
+        "Preserve the original tense and modal meaning.",
+        "Could the service become more expensive?",
+        "This raises the question of whether the service could become more expensive."
+      ]
+    },
+    {
+      "id": "ss214-rule-06",
+      "zh": "本練習統一使用： 不要改用： 以上說法本身可以正確，但並非本練習指定的目標句型。",
+      "en": "Use the exact target frame in this exercise. This raises the question of whether ... ● This makes us wonder if ... ● The issue is whether ... ● We need to ask whether ... ● This raises a question about whether ...",
+      "enSource": "pdf",
+      "examples": [
+        "Use the exact target frame in this exercise.",
+        "This raises the question of whether ...",
+        "This makes us wonder if ...",
+        "The issue is whether ...",
+        "We need to ask whether ...",
+        "This raises a question about whether ..."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss214-benefit-01",
+      "zh": "這個句型能把「已知事實」和「下一步需要思考的問題」清楚連接起來，避免兩個意念各自分開、互 不相干。",
+      "en": "It connects evidence with analysis. This structure shows how a fact naturally leads to a further issue, rather than placing two unrelated ideas beside each other.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss214-benefit-02",
+      "zh": "你不只是在交代事情發生了甚麼，還能指出仍未確定之處，以及下一步應該分析甚麼。",
+      "en": "It helps you show critical thinking. Instead of merely reporting what happened, you can identify what remains uncertain or what should be examined next.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss214-benefit-03",
+      "zh": "這個句型只提出需要研究的問題，不會把未經證實的看法說成已確定的結論，因此表達更準確。",
+      "en": "It prevents unsupported conclusions. The structure introduces a question without pretending that its answer has already been proved.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss214-benefit-04",
+      "zh": "在作文、報告、簡報和正式討論中，它能幫助你由背景資料自然過渡到分析或評估。",
+      "en": "It creates a smooth transition. It is useful when moving from background information to evaluation in essays, reports, presentations and formal discussions.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss214-benefit-05",
+      "zh": "它能把較零碎的直接問句改寫成與前文連接得更緊密的分析句，令文章更連貫。",
+      "en": "It turns a direct question into a connected analytical sentence. Before: The policy has become much more expensive. Is it sustainable? After: The policy has become much more expensive. This raises the question of whether it is sustainable.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss214-benefit-06",
+      "zh": "掌握這個句框後，你可以代入不同議題，更快組織有分析性的口頭或書面回應。",
+      "en": "It gives you a ready-made discussion frame. Once you know the frame, you can insert different topics and organise a thoughtful response more quickly.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 213; it is assigned system ID ss214 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Previous fact or proposal. This raises the question of whether + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Previous fact or proposal. This raises the question of whether + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss214-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "A school canteen has raised its prices. Can all students still afford lunch?",
+      "promptZh": "一所學校的飯堂已提高價格。所有學生仍能負擔午餐費用嗎？",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A school canteen has raised its prices. This raises the question of whether all students can still afford lunch.",
+      "answerZh": "一所學校的飯堂已提高價格。這就引出了一個問題：所有學生是否仍能負擔午餐費用。",
+      "answerZhSource": "pdf",
+      "highlight": "A school canteen has raised its prices. This raises the question of whether all students can still afford lunch."
+    },
+    {
+      "id": "ss214-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The last bus now leaves earlier. Can night-shift workers still get home easily?",
+      "promptZh": "尾班巴士現在提早開出。夜班工人仍能輕鬆回家嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The last bus now leaves earlier. This raises the question of whether night-shift workers can still get home easily.",
+      "answerZh": "尾班巴士現在提早開出。這就引出了一個問題：夜班工人是否仍能輕鬆回家。",
+      "answerZhSource": "pdf",
+      "highlight": "The last bus now leaves earlier. This raises the question of whether night-shift workers can still get home easily."
+    },
+    {
+      "id": "ss214-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our local library has reduced its weekend hours. Will students have enough time to study there?",
+      "promptZh": "本區圖書館已縮短週末開放時間。學生會有足夠時間在那裏溫習嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our local library has reduced its weekend hours. This raises the question of whether students will have enough time to study there.",
+      "answerZh": "本區圖書館已縮短週末開放時間。這就引出了一個問題：學生是否會有足夠時間在那裏溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "Our local library has reduced its weekend hours. This raises the question of whether students will have enough time to study there."
+    },
+    {
+      "id": "ss214-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "More lessons are being held online. Are all pupils able to learn effectively this way?",
+      "promptZh": "越來越多課堂改為網上進行。所有學生都能以這種方式有效學習嗎？",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More lessons are being held online. This raises the question of whether all pupils are able to learn effectively this way.",
+      "answerZh": "越來越多課堂改為網上進行。這就引出了一個問題：所有學生是否都能以這種方式有效學習。",
+      "answerZhSource": "pdf",
+      "highlight": "More lessons are being held online. This raises the question of whether all pupils are able to learn effectively this way."
+    },
+    {
+      "id": "ss214-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A local clinic has fewer doctors on duty. Can patients still receive prompt care?",
+      "promptZh": "一間本地診所當值醫生減少了。病人仍能及時得到診治嗎？",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A local clinic has fewer doctors on duty. This raises the question of whether patients can still receive prompt care.",
+      "answerZh": "一間本地診所當值醫生減少了。這就引出了一個問題：病人是否仍能及時得到診治。",
+      "answerZhSource": "pdf",
+      "highlight": "A local clinic has fewer doctors on duty. This raises the question of whether patients can still receive prompt care."
+    },
+    {
+      "id": "ss214-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our neighbourhood park now closes at six o’clock. Can local residents use it after work?",
+      "promptZh": "我們社區的公園現在下午六時關閉。區內居民下班後還能使用公園嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbourhood park now closes at six o’clock. This raises the question of whether local residents can use it after work.",
+      "answerZh": "我們社區的公園現在下午六時關閉。這就引出了一個問題：區內居民下班後是否還能使用公園。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbourhood park now closes at six o’clock. This raises the question of whether local residents can use it after work."
+    },
+    {
+      "id": "ss214-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A nearby shop no longer accepts cash. Will every customer be able to pay?",
+      "promptZh": "附近一間商店不再接受現金。每位顧客都能付款嗎？",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A nearby shop no longer accepts cash. This raises the question of whether every customer will be able to pay.",
+      "answerZh": "附近一間商店不再接受現金。這就引出了一個問題：每位顧客是否都能付款。",
+      "answerZhSource": "pdf",
+      "highlight": "A nearby shop no longer accepts cash. This raises the question of whether every customer will be able to pay."
+    },
+    {
+      "id": "ss214-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our football team has lost three matches in a row. Can it still reach the final?",
+      "promptZh": "我們的足球隊已連輸三場比賽。球隊仍能晉身決賽嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our football team has lost three matches in a row. This raises the question of whether it can still reach the final.",
+      "answerZh": "我們的足球隊已連輸三場比賽。這就引出了一個問題：球隊是否仍能晉身決賽。",
+      "answerZhSource": "pdf",
+      "highlight": "Our football team has lost three matches in a row. This raises the question of whether it can still reach the final."
+    },
+    {
+      "id": "ss214-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This road is often flooded after heavy rain. Is it safe for drivers to use?",
+      "promptZh": "這條道路在大雨後經常水浸。駕駛者使用這條道路是否安全？",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This road is often flooded after heavy rain. This raises the question of whether it is safe for drivers to use.",
+      "answerZh": "這條道路在大雨後經常水浸。這就引出了一個問題：駕駛者使用這條道路是否安全。",
+      "answerZhSource": "pdf",
+      "highlight": "This road is often flooded after heavy rain. This raises the question of whether it is safe for drivers to use."
+    },
+    {
+      "id": "ss214-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A growing company has cut its training budget. Will new employees receive enough support?",
+      "promptZh": "一間正在擴展的公司削減了培訓預算。新僱員會得到足夠支援嗎？",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A growing company has cut its training budget. This raises the question of whether new employees will receive enough support.",
+      "answerZh": "一間正在擴展的公司削減了培訓預算。這就引出了一個問題：新僱員是否會得到足夠支援。",
+      "answerZhSource": "pdf",
+      "highlight": "A growing company has cut its training budget. This raises the question of whether new employees will receive enough support."
+    },
+    {
+      "id": "ss214-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A secondary school plans to replace printed books with tablets. We need to consider whether every family can afford the required device.",
+      "promptZh": "一所中學計劃以平板電腦取代印刷課本。我們需要考慮每個家庭是否都能負擔所需裝置。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A secondary school plans to replace printed books with tablets. This raises the question of whether every family can afford the required device.",
+      "answerZh": "一所中學計劃以平板電腦取代印刷課本。這就引出了一個問題：每個家庭是否都能負擔所需裝置。",
+      "answerZhSource": "pdf",
+      "highlight": "A secondary school plans to replace printed books with tablets. This raises the question of whether every family can afford the required device."
+    },
+    {
+      "id": "ss214-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The city plans to build more flats near the airport. It is unclear whether residents will be affected by aircraft noise.",
+      "promptZh": "當局計劃在機場附近興建更多住宅。目前尚不清楚居民會否受到飛機噪音影響。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city plans to build more flats near the airport. This raises the question of whether residents will be affected by aircraft noise.",
+      "answerZh": "當局計劃在機場附近興建更多住宅。這就引出了一個問題：居民會否受到飛機噪音影響。",
+      "answerZhSource": "pdf",
+      "highlight": "The city plans to build more flats near the airport. This raises the question of whether residents will be affected by aircraft noise."
+    },
+    {
+      "id": "ss214-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "More people are working from home. We must ask if office buildings will still be used in the same way.",
+      "promptZh": "越來越多人在家工作。我們必須問，辦公大樓是否仍會以相同方式使用。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More people are working from home. This raises the question of whether office buildings will still be used in the same way.",
+      "answerZh": "越來越多人在家工作。這就引出了一個問題：辦公大樓是否仍會以相同方式使用。",
+      "answerZhSource": "pdf",
+      "highlight": "More people are working from home. This raises the question of whether office buildings will still be used in the same way."
+    },
+    {
+      "id": "ss214-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A hospital is introducing an appointment app. One question remains: will older patients be able to use it independently?",
+      "promptZh": "一間醫院正在推出預約應用程式。仍有一個問題：年長病人能否獨立使用它？",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A hospital is introducing an appointment app. This raises the question of whether older patients will be able to use it independently.",
+      "answerZh": "一間醫院正在推出預約應用程式。這就引出了一個問題：年長病人能否獨立使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "A hospital is introducing an appointment app. This raises the question of whether older patients will be able to use it independently."
+    },
+    {
+      "id": "ss214-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A museum will charge an entrance fee next month. People are wondering whether visitor numbers will fall.",
+      "promptZh": "一間博物館下月將收取入場費。人們想知道訪客人數會否下降。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A museum will charge an entrance fee next month. This raises the question of whether visitor numbers will fall.",
+      "answerZh": "一間博物館下月將收取入場費。這就引出了一個問題：訪客人數會否下降。",
+      "answerZhSource": "pdf",
+      "highlight": "A museum will charge an entrance fee next month. This raises the question of whether visitor numbers will fall."
+    },
+    {
+      "id": "ss214-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A river is becoming increasingly polluted. There is uncertainty about whether fish can continue to live there.",
+      "promptZh": "一條河流的污染日益嚴重。魚類能否繼續在那裏生存仍存在不確定性。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A river is becoming increasingly polluted. This raises the question of whether fish can continue to live there.",
+      "answerZh": "一條河流的污染日益嚴重。這就引出了一個問題：魚類能否繼續在那裏生存。",
+      "answerZhSource": "pdf",
+      "highlight": "A river is becoming increasingly polluted. This raises the question of whether fish can continue to live there."
+    },
+    {
+      "id": "ss214-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our school has shortened the lunch break. The issue is whether pupils will have enough time to eat.",
+      "promptZh": "我們學校縮短了午膳時間。問題在於學生是否有足夠時間用膳。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school has shortened the lunch break. This raises the question of whether pupils will have enough time to eat.",
+      "answerZh": "我們學校縮短了午膳時間。這就引出了一個問題：學生是否有足夠時間用膳。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school has shortened the lunch break. This raises the question of whether pupils will have enough time to eat."
+    },
+    {
+      "id": "ss214-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A company is using artificial intelligence to screen job applications. We do not yet know whether the system treats every applicant fairly.",
+      "promptZh": "一間公司正使用人工智能篩選求職申請。我們尚未知道該系統是否公平對待每位申請人。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A company is using artificial intelligence to screen job applications. This raises the question of whether the system treats every applicant fairly.",
+      "answerZh": "一間公司正使用人工智能篩選求職申請。這就引出了一個問題：該系統是否公平對待每位申請人。",
+      "answerZhSource": "pdf",
+      "highlight": "A company is using artificial intelligence to screen job applications. This raises the question of whether the system treats every applicant fairly."
+    },
+    {
+      "id": "ss214-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The government has reduced the transport subsidy. This change makes us wonder whether the service can remain affordable.",
+      "promptZh": "政府削減了交通資助。這項改變令人懷疑該服務能否維持在可負擔水平。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The government has reduced the transport subsidy. This raises the question of whether the service can remain affordable.",
+      "answerZh": "政府削減了交通資助。這就引出了一個問題：該服務能否維持在可負擔水平。",
+      "answerZhSource": "pdf",
+      "highlight": "The government has reduced the transport subsidy. This raises the question of whether the service can remain affordable."
+    },
+    {
+      "id": "ss214-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A restaurant has added more vegetarian dishes. Does this mean that it can now meet the needs of more customers?",
+      "promptZh": "一間餐廳增加了更多素食菜式。這是否表示它現在能滿足更多顧客的需要？",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A restaurant has added more vegetarian dishes. This raises the question of whether it can now meet the needs of more customers.",
+      "answerZh": "一間餐廳增加了更多素食菜式。這就引出了一個問題：它現在是否能滿足更多顧客的需要。",
+      "answerZhSource": "pdf",
+      "highlight": "A restaurant has added more vegetarian dishes. This raises the question of whether it can now meet the needs of more customers."
+    },
+    {
+      "id": "ss214-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A factory has installed new safety equipment. It is necessary to ask whether the equipment will actually reduce workplace accidents.",
+      "promptZh": "一間工廠安裝了新的安全設備。我們有必要問，這些設備是否真的能減少工作場所意外。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A factory has installed new safety equipment. This raises the question of whether the equipment will actually reduce workplace accidents.",
+      "answerZh": "一間工廠安裝了新的安全設備。這就引出了一個問題：這些設備是否真的能減少工作場所意外。",
+      "answerZhSource": "pdf",
+      "highlight": "A factory has installed new safety equipment. This raises the question of whether the equipment will actually reduce workplace accidents."
+    },
+    {
+      "id": "ss214-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A school is considering cameras in classrooms. We must consider whether pupils’ privacy will be protected.",
+      "promptZh": "一所學校正考慮在課室安裝攝影機。我們必須考慮學生的私隱會否受到保障。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A school is considering cameras in classrooms. This raises the question of whether pupils’ privacy will be protected.",
+      "answerZh": "一所學校正考慮在課室安裝攝影機。這就引出了一個問題：學生的私隱會否受到保障。",
+      "answerZhSource": "pdf",
+      "highlight": "A school is considering cameras in classrooms. This raises the question of whether pupils’ privacy will be protected."
+    },
+    {
+      "id": "ss214-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Several flights were cancelled without warning. The situation leaves passengers asking whether the airline’s communication system is reliable.",
+      "promptZh": "數班航班在沒有預警下取消。這種情況令乘客質疑航空公司的通訊系統是否可靠。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several flights were cancelled without warning. This raises the question of whether the airline’s communication system is reliable.",
+      "answerZh": "數班航班在沒有預警下取消。這就引出了一個問題：航空公司的通訊系統是否可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Several flights were cancelled without warning. This raises the question of whether the airline’s communication system is reliable."
+    },
+    {
+      "id": "ss214-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The government may ban cars from the town centre. We should consider whether small shops would lose customers as a result.",
+      "promptZh": "政府可能禁止汽車駛入市中心。我們應考慮小型商店會否因此流失顧客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The government may ban cars from the town centre. This raises the question of whether small shops would lose customers as a result.",
+      "answerZh": "政府可能禁止汽車駛入市中心。這就引出了一個問題：小型商店會否因此流失顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "The government may ban cars from the town centre. This raises the question of whether small shops would lose customers as a result."
+    },
+    {
+      "id": "ss214-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Several local bank branches have closed. It is uncertain whether people without internet access can still obtain essential services.",
+      "promptZh": "數間本地銀行分行已經關閉。沒有互聯網的人是否仍能獲得基本服務並不確定。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several local bank branches have closed. This raises the question of whether people without internet access can still obtain essential services.",
+      "answerZh": "數間本地銀行分行已經關閉。這就引出了一個問題：沒有互聯網的人是否仍能獲得基本服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Several local bank branches have closed. This raises the question of whether people without internet access can still obtain essential services."
+    },
+    {
+      "id": "ss214-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A new medicine has helped some patients. It is not yet known whether it is safe for long-term use.",
+      "promptZh": "一種新藥幫助了部分病人。目前尚未知道它是否適合長期使用。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A new medicine has helped some patients. This raises the question of whether it is safe for long-term use.",
+      "answerZh": "一種新藥幫助了部分病人。這就引出了一個問題：它是否適合長期使用。",
+      "answerZhSource": "pdf",
+      "highlight": "A new medicine has helped some patients. This raises the question of whether it is safe for long-term use."
+    },
+    {
+      "id": "ss214-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A private company will manage the public sports centre. We need to consider whether fees might increase.",
+      "promptZh": "一間私人公司將管理公共體育中心。我們需要考慮收費會否上升。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A private company will manage the public sports centre. This raises the question of whether fees might increase.",
+      "answerZh": "一間私人公司將管理公共體育中心。這就引出了一個問題：收費會否上升。",
+      "answerZhSource": "pdf",
+      "highlight": "A private company will manage the public sports centre. This raises the question of whether fees might increase."
+    },
+    {
+      "id": "ss214-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A university is expanding rapidly. It remains to be seen whether enough qualified teachers can be recruited.",
+      "promptZh": "一所大學正在迅速擴展。能否聘請足夠合資格教師仍有待觀察。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A university is expanding rapidly. This raises the question of whether enough qualified teachers can be recruited.",
+      "answerZh": "一所大學正在迅速擴展。這就引出了一個問題：能否聘請足夠合資格教師。",
+      "answerZhSource": "pdf",
+      "highlight": "A university is expanding rapidly. This raises the question of whether enough qualified teachers can be recruited."
+    },
+    {
+      "id": "ss214-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A village will receive a new mobile network. We need to ask whether the signal will reach every home.",
+      "promptZh": "一個村莊將獲得新的流動網絡。我們需要問，訊號能否覆蓋每個家庭。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A village will receive a new mobile network. This raises the question of whether the signal will reach every home.",
+      "answerZh": "一個村莊將獲得新的流動網絡。這就引出了一個問題：訊號能否覆蓋每個家庭。",
+      "answerZhSource": "pdf",
+      "highlight": "A village will receive a new mobile network. This raises the question of whether the signal will reach every home."
+    },
+    {
+      "id": "ss214-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A charity has received a large donation. We need to ask whether the money will be used transparently.",
+      "promptZh": "一間慈善機構收到一筆巨額捐款。我們需要問，這筆款項會否以透明方式運用。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A charity has received a large donation. This raises the question of whether the money will be used transparently.",
+      "answerZh": "一間慈善機構收到一筆巨額捐款。這就引出了一個問題：這筆款項會否以透明方式運用。",
+      "answerZhSource": "pdf",
+      "highlight": "A charity has received a large donation. This raises the question of whether the money will be used transparently."
+    },
+    {
+      "id": "ss214-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "A council says the new cycle lane will reduce traffic. It is unclear whether enough people will actually switch from cars to bicycles.",
+      "promptZh": "地方議會表示新的單車徑會減少交通流量。目前尚不清楚是否有足夠多人真的會由汽車轉用單車。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A council says the new cycle lane will reduce traffic. This raises the question of whether enough people will actually switch from cars to bicycles.",
+      "answerZh": "地方議會表示新的單車徑會減少交通流量。這就引出了一個問題：是否有足夠多人真的會由汽車轉用單車。",
+      "answerZhSource": "pdf",
+      "highlight": "A council says the new cycle lane will reduce traffic. This raises the question of whether enough people will actually switch from cars to bicycles."
+    },
+    {
+      "id": "ss214-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A school has introduced shorter examinations to reduce stress. We must consider whether this change will still measure pupils’ abilities accurately.",
+      "promptZh": "一所學校為減輕壓力而縮短考試時間。我們必須考慮這項改變能否仍然準確評估學生的能力。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A school has introduced shorter examinations to reduce stress. This raises the question of whether this change will still measure pupils’ abilities accurately.",
+      "answerZh": "一所學校為減輕壓力而縮短考試時間。這就引出了一個問題：這項改變能否仍然準確評估學生的能力。",
+      "answerZhSource": "pdf",
+      "highlight": "A school has introduced shorter examinations to reduce stress. This raises the question of whether this change will still measure pupils’ abilities accurately."
+    },
+    {
+      "id": "ss214-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A company has told its employees that no jobs will be lost after automation is introduced. They are asking whether their roles will change significantly.",
+      "promptZh": "一間公司告訴僱員，引入自動化後不會裁減職位。他們正詢問自己的職責會否大幅改變。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A company has told its employees that no jobs will be lost after automation is introduced. This raises the question of whether their roles will change significantly.",
+      "answerZh": "一間公司告訴僱員，引入自動化後不會裁減職位。這就引出了一個問題：他們的職責會否大幅改變。",
+      "answerZhSource": "pdf",
+      "highlight": "A company has told its employees that no jobs will be lost after automation is introduced. This raises the question of whether their roles will change significantly."
+    },
+    {
+      "id": "ss214-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A hospital has opened a new emergency unit. It is uncertain whether the unit has enough staff to operate around the clock.",
+      "promptZh": "一間醫院開設了新的急症部門。該部門是否有足夠人手全日運作仍不確定。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A hospital has opened a new emergency unit. This raises the question of whether the unit has enough staff to operate around the clock.",
+      "answerZh": "一間醫院開設了新的急症部門。這就引出了一個問題：該部門是否有足夠人手全日運作。",
+      "answerZhSource": "pdf",
+      "highlight": "A hospital has opened a new emergency unit. This raises the question of whether the unit has enough staff to operate around the clock."
+    },
+    {
+      "id": "ss214-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A local market is being redeveloped. Traders want to know if they will be allowed to return after the work is completed.",
+      "promptZh": "一個本地街市正在重建。商販想知道工程完成後，他們會否獲准返回經營。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A local market is being redeveloped. This raises the question of whether traders will be allowed to return after the work is completed.",
+      "answerZh": "一個本地街市正在重建。這就引出了一個問題：工程完成後，商販會否獲准返回經營。",
+      "answerZhSource": "pdf",
+      "highlight": "A local market is being redeveloped. This raises the question of whether traders will be allowed to return after the work is completed."
+    },
+    {
+      "id": "ss214-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The government has promised faster housing construction. One question remains: can quality be maintained while projects are completed more quickly?",
+      "promptZh": "政府承諾加快房屋建設。仍有一個問題：在更快完成工程的同時，質素能否維持？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The government has promised faster housing construction. This raises the question of whether quality can be maintained while projects are completed more quickly.",
+      "answerZh": "政府承諾加快房屋建設。這就引出了一個問題：在更快完成工程的同時，質素能否維持。",
+      "answerZhSource": "pdf",
+      "highlight": "The government has promised faster housing construction. This raises the question of whether quality can be maintained while projects are completed more quickly."
+    },
+    {
+      "id": "ss214-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "An online platform collects users’ locations. This has led people to ask whether the data may be shared with other companies.",
+      "promptZh": "一個網上平台收集用戶的位置資料。這令外界質疑該等資料會否與其他公司分享。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An online platform collects users’ locations. This raises the question of whether the data may be shared with other companies.",
+      "answerZh": "一個網上平台收集用戶的位置資料。這就引出了一個問題：該等資料會否與其他公司分享。",
+      "answerZhSource": "pdf",
+      "highlight": "An online platform collects users’ locations. This raises the question of whether the data may be shared with other companies."
+    },
+    {
+      "id": "ss214-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A railway operator has increased fares but not train frequency. We should ask whether passengers are receiving better value for money.",
+      "promptZh": "一間鐵路營辦商提高了票價，卻沒有增加班次。我們應該問，乘客是否更物有所值。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A railway operator has increased fares but not train frequency. This raises the question of whether passengers are receiving better value for money.",
+      "answerZh": "一間鐵路營辦商提高了票價，卻沒有增加班次。這就引出了一個問題：乘客是否更物有所值。",
+      "answerZhSource": "pdf",
+      "highlight": "A railway operator has increased fares but not train frequency. This raises the question of whether passengers are receiving better value for money."
+    },
+    {
+      "id": "ss214-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A school allows pupils to use translation software for homework. It is unclear whether they can still develop independent writing skills.",
+      "promptZh": "一所學校允許學生做功課時使用翻譯軟件。目前尚不清楚他們能否仍然培養獨立寫作能力。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A school allows pupils to use translation software for homework. This raises the question of whether they can still develop independent writing skills.",
+      "answerZh": "一所學校允許學生做功課時使用翻譯軟件。這就引出了一個問題：他們能否仍然培養獨立寫作能力。",
+      "answerZhSource": "pdf",
+      "highlight": "A school allows pupils to use translation software for homework. This raises the question of whether they can still develop independent writing skills."
+    },
+    {
+      "id": "ss214-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A company has announced an ambitious environmental target. It is worth asking whether the target is supported by a practical plan.",
+      "promptZh": "一間公司公布了一個進取的環保目標。我們值得追問，這個目標是否有實際計劃支持。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A company has announced an ambitious environmental target. This raises the question of whether the target is supported by a practical plan.",
+      "answerZh": "一間公司公布了一個進取的環保目標。這就引出了一個問題：這個目標是否有實際計劃支持。",
+      "answerZhSource": "pdf",
+      "highlight": "A company has announced an ambitious environmental target. This raises the question of whether the target is supported by a practical plan."
+    },
+    {
+      "id": "ss214-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A public hospital will rely more heavily on temporary staff during the winter. We need to consider whether patients will receive the same continuity of care.",
+      "promptZh": "一間公立醫院將在冬季更依賴臨時人員。我們需要考慮病人能否獲得同樣持續而連貫的照顧。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A public hospital will rely more heavily on temporary staff during the winter. This raises the question of whether patients will receive the same continuity of care.",
+      "answerZh": "一間公立醫院將在冬季更依賴臨時人員。這就引出了一個問題：病人能否獲得同樣持續而連貫的照顧。",
+      "answerZhSource": "pdf",
+      "highlight": "A public hospital will rely more heavily on temporary staff during the winter. This raises the question of whether patients will receive the same continuity of care."
+    },
+    {
+      "id": "ss214-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A university plans to admit more international students without building additional accommodation. We need to consider whether the city can provide enough affordable housing.",
+      "promptZh": "一所大學計劃在不增建宿舍的情況下招收更多國際學生。我們需要考慮該城市能否提供足夠可負擔的住房。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A university plans to admit more international students without building additional accommodation. This raises the question of whether the city can provide enough affordable housing.",
+      "answerZh": "一所大學計劃在不增建宿舍的情況下招收更多國際學生。這就引出了一個問題：該城市能否提供足夠可負擔的住房。",
+      "answerZhSource": "pdf",
+      "highlight": "A university plans to admit more international students without building additional accommodation. This raises the question of whether the city can provide enough affordable housing."
+    },
+    {
+      "id": "ss214-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The government has proposed a law requiring online platforms to remove harmful content quickly. The unresolved issue is whether this can be done without restricting legitimate discussion.",
+      "promptZh": "政府提出一項法例，要求網上平台迅速移除有害內容。尚未解決的問題是，這能否在不限制正當討論的情況下做到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The government has proposed a law requiring online platforms to remove harmful content quickly. This raises the question of whether this can be done without restricting legitimate discussion.",
+      "answerZh": "政府提出一項法例，要求網上平台迅速移除有害內容。這就引出了一個問題：這能否在不限制正當討論的情況下做到。",
+      "answerZhSource": "pdf",
+      "highlight": "The government has proposed a law requiring online platforms to remove harmful content quickly. This raises the question of whether this can be done without restricting legitimate discussion."
+    },
+    {
+      "id": "ss214-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "A bank uses an automated model to decide who receives a loan. People are asking whether applicants can challenge a decision made by the system.",
+      "promptZh": "一間銀行使用自動化模型決定誰可獲得貸款。人們正詢問申請人能否對系統作出的決定提出異議。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A bank uses an automated model to decide who receives a loan. This raises the question of whether applicants can challenge a decision made by the system.",
+      "answerZh": "一間銀行使用自動化模型決定誰可獲得貸款。這就引出了一個問題：申請人能否對系統作出的決定提出異議。",
+      "answerZhSource": "pdf",
+      "highlight": "A bank uses an automated model to decide who receives a loan. This raises the question of whether applicants can challenge a decision made by the system."
+    },
+    {
+      "id": "ss214-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A school has improved examination results by giving pupils more practice tests. We should consider whether this approach also develops curiosity and independent thinking.",
+      "promptZh": "一所學校透過增加模擬測驗改善考試成績。我們應考慮這種方法是否也能培養好奇心和獨立思考。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A school has improved examination results by giving pupils more practice tests. This raises the question of whether this approach also develops curiosity and independent thinking.",
+      "answerZh": "一所學校透過增加模擬測驗改善考試成績。這就引出了一個問題：這種方法是否也能培養好奇心和獨立思考。",
+      "answerZhSource": "pdf",
+      "highlight": "A school has improved examination results by giving pupils more practice tests. This raises the question of whether this approach also develops curiosity and independent thinking."
+    },
+    {
+      "id": "ss214-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A company achieved record profits while reducing its workforce. This development makes us wonder whether the gains can be sustained without damaging staff morale.",
+      "promptZh": "一間公司在縮減人手的同時錄得破紀錄利潤。這項發展令人懷疑，這些成果能否在不損害員工士氣的情況下持續。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A company achieved record profits while reducing its workforce. This raises the question of whether the gains can be sustained without damaging staff morale.",
+      "answerZh": "一間公司在縮減人手的同時錄得破紀錄利潤。這就引出了一個問題：這些成果能否在不損害員工士氣的情況下持續。",
+      "answerZhSource": "pdf",
+      "highlight": "A company achieved record profits while reducing its workforce. This raises the question of whether the gains can be sustained without damaging staff morale."
+    },
+    {
+      "id": "ss214-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A city is building flood barriers along the coast. It remains uncertain whether these measures will be sufficient if extreme weather becomes more frequent.",
+      "promptZh": "一個城市正在沿岸興建防洪設施。如果極端天氣變得更頻繁，這些措施是否足夠仍不確定。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A city is building flood barriers along the coast. This raises the question of whether these measures will be sufficient if extreme weather becomes more frequent.",
+      "answerZh": "一個城市正在沿岸興建防洪設施。這就引出了一個問題：如果極端天氣變得更頻繁，這些措施是否足夠。",
+      "answerZhSource": "pdf",
+      "highlight": "A city is building flood barriers along the coast. This raises the question of whether these measures will be sufficient if extreme weather becomes more frequent."
+    },
+    {
+      "id": "ss214-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A hospital has shortened appointment times to serve more patients each day. We need to consider whether doctors can still give complex cases enough attention.",
+      "promptZh": "一間醫院縮短診症時間，以便每日服務更多病人。我們需要考慮醫生能否仍然給予複雜個案足夠關注。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A hospital has shortened appointment times to serve more patients each day. This raises the question of whether doctors can still give complex cases enough attention.",
+      "answerZh": "一間醫院縮短診症時間，以便每日服務更多病人。這就引出了一個問題：醫生能否仍然給予複雜個案足夠關注。",
+      "answerZhSource": "pdf",
+      "highlight": "A hospital has shortened appointment times to serve more patients each day. This raises the question of whether doctors can still give complex cases enough attention."
+    },
+    {
+      "id": "ss214-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A charity has expanded into several countries within a short period. We need to ask whether its financial controls and local oversight have developed at the same pace.",
+      "promptZh": "一間慈善機構在短期內擴展至數個國家。我們需要問，其財務監控和本地監督是否以同樣速度發展。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A charity has expanded into several countries within a short period. This raises the question of whether its financial controls and local oversight have developed at the same pace.",
+      "answerZh": "一間慈善機構在短期內擴展至數個國家。這就引出了一個問題：其財務監控和本地監督是否以同樣速度發展。",
+      "answerZhSource": "pdf",
+      "highlight": "A charity has expanded into several countries within a short period. This raises the question of whether its financial controls and local oversight have developed at the same pace."
+    },
+    {
+      "id": "ss214-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21,
+        "answerContinuationPage": 21
+      },
+      "prompt": "The government plans to use facial-recognition technology in public transport hubs to improve security. We need to consider whether the expected safety benefits justify the possible loss of privacy.",
+      "promptZh": "政府計劃在公共交通樞紐使用人臉識別技術，以改善保安。我們需要考慮預期的安全效益是否值得以可能損害私隱為代價。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The government plans to use facial-recognition technology in public transport hubs to improve security. This raises the question of whether the expected safety benefits justify the possible loss of privacy.",
+      "answerZh": "政府計劃在公共交通樞紐使用人臉識別技術，以改善保安。這就引出了一個問題：預期的安全效益是否值得以可能損害私隱為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The government plans to use facial-recognition technology in public transport hubs to improve security. This raises the question of whether the expected safety benefits justify the possible loss of privacy."
+    }
+  ]
+}

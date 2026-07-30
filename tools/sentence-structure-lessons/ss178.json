@@ -1,0 +1,1260 @@
+{
+  "id": "ss178",
+  "order": 178,
+  "slug": "in-case-of-noun",
+  "title": "In case of + noun",
+  "titleZh": "「In case of + noun」表示「如遇／若發生」",
+  "titleEn": "Using In case of + noun for a possible situation",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 178 -「In case of + noun」表示「如遇／若發生」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "In case of + noun / noun phrase, + main clause",
+  "formulas": [
+    {
+      "id": "ss178-formula-01",
+      "labelEn": "Beginning",
+      "labelZh": "放在句首",
+      "formula": "In case of + noun / noun phrase, + main clause"
+    },
+    {
+      "id": "ss178-formula-02",
+      "labelEn": "End",
+      "labelZh": "放在句末",
+      "formula": "Main clause + in case of + noun / noun phrase"
+    }
+  ],
+  "example": "In case of emergency, press this button immediately.",
+  "exampleZh": "如遇緊急情況，請立即按下這個按鈕。",
+  "examples": [
+    {
+      "id": "ss178-example-01",
+      "en": "In case of emergency, press this button immediately.",
+      "zh": "如遇緊急情況，請立即按下這個按鈕。",
+      "highlight": "In case of emergency, press this button immediately."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss178-rule-01",
+      "zh": "Of 後面須使用名詞或名詞詞組，不能直接接完整句子。 錯誤：In case of it rains, stay indoors. 正確：In case of rain, stay indoors.",
+      "en": "Use a noun after of Of If it rains → in case of rain If the power fails → in case of power failure If the road is closed → in case of a road closure If the temperature drops → in case of a drop in temperature Incorrect: In case of it rains, stay indoors. Correct: In case of rain, stay indoors.",
+      "enSource": "pdf",
+      "examples": [
+        "If it rains → in case of rain",
+        "If the power fails → in case of power failure",
+        "If the road is closed → in case of a road closure",
+        "If the temperature drops → in case of a drop in temperature",
+        "Incorrect: In case of it rains, stay indoors."
+      ]
+    },
+    {
+      "id": "ss178-rule-02",
+      "zh": "改寫時，有些動詞或形容詞需要轉換成名詞。",
+      "en": "Some verbs or adjectives must be changed into nouns fail → failure cancel → cancellation close → closure lose → loss interrupt → interruption arrive late → late arrival become ill → illness",
+      "enSource": "pdf",
+      "examples": [
+        "fail → failure",
+        "cancel → cancellation",
+        "close → closure",
+        "lose → loss",
+        "interrupt → interruption",
+        "arrive late → late arrival",
+        "become ill → illness"
+      ]
+    },
+    {
+      "id": "ss178-rule-03",
+      "zh": "當 In case of... 放在句首時，名詞詞組後通常使用逗號。 放在句末時，通常不需要逗號。",
+      "en": "Use a comma after a beginning phrase In case of fire, use the stairs. Use the stairs in case of fire.",
+      "enSource": "pdf",
+      "examples": [
+        "In case of fire, use the stairs."
+      ]
+    },
+    {
+      "id": "ss178-rule-04",
+      "zh": "某些一般情況或常見固定說法通常不使用冠詞： 可數的個別事件通常需要 a 或 an：",
+      "en": "Check whether an article is needed in case of fire in case of emergency in case of rain in case of illness in case of delay in case of an accident in case of a power cut in case of a gas leak in case of a serious allergic reaction",
+      "enSource": "pdf",
+      "examples": [
+        "in case of fire",
+        "in case of emergency",
+        "in case of rain",
+        "in case of illness",
+        "in case of delay",
+        "in case of an accident",
+        "in case of a power cut",
+        "in case of a gas leak",
+        "in case of a serious allergic reaction"
+      ]
+    },
+    {
+      "id": "ss178-rule-05",
+      "zh": "這個句型帶有簡潔、程序化的語氣，常見於： safety instructions 安全指示 public notices 公共告示 workplace procedures 工作程序 school rules 學校規則 emergency plans 緊急應變計劃 customer-service information 顧客服務資訊",
+      "en": "This pattern has a concise, procedural tone and is especially common in safety instructions, public notices, workplace procedures, school rules, emergency plans and customer-service information.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "safety instructions",
+        "public notices",
+        "workplace procedures",
+        "school rules",
+        "emergency plans",
+        "customer-service information"
+      ]
+    },
+    {
+      "id": "ss178-rule-06",
+      "zh": "In case of + noun 通常表示某情況發生時應採取的行動。 （如下雨，比賽將移到室內舉行。） In case + clause 經常表示預先作好準備，以防某事發生。 （帶一把雨傘，以防下雨。）",
+      "en": "Do not confuse in case of + noun with in case + clause. In case of + noun normally introduces the action to take when a situation occurs: In case of rain, the match will be moved indoors. In case + clause often describes advance preparation against a possible event: Take an umbrella in case it rains.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Do not confuse it with in case + clause",
+        "In case of + noun",
+        "In case of rain, the match will be moved indoors.",
+        "In case + clause"
+      ]
+    },
+    {
+      "id": "ss178-rule-07",
+      "zh": "In the case of + noun 通常表示「就某人或某件事而言」，並非「如遇某情況」。 （就年幼兒童而言，額外看管是有必要的。）",
+      "en": "Do not confuse it with in the case of In the case of + noun In the case of younger children, extra supervision is necessary.",
+      "enSource": "pdf",
+      "examples": [
+        "In the case of + noun",
+        "In the case of younger children, extra supervision is necessary."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss178-benefit-01",
+      "zh": "這個句型能清楚說明在甚麼情況下，某項指示、規則或安排才會適用。",
+      "en": "It states the condition clearly This structure tells the reader exactly which situation will cause an instruction, rule or arrangement to apply.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss178-benefit-02",
+      "zh": "你不需要反覆使用 if there is... 或 if something happens... 等較長結構，也可以直接表達相關 條件。 第二句較簡潔，讀者也能立即掌握重要情況。",
+      "en": "It can shorten a longer if-clause Instead of repeatedly writing if there is... or if something happens..., you can express the condition more directly. Compare: If there is a fire, use the stairs. In case of fire, use the stairs.",
+      "enSource": "pdf",
+      "examples": [
+        "If there is a fire, use the stairs.",
+        "In case of fire, use the stairs."
+      ]
+    },
+    {
+      "id": "ss178-benefit-03",
+      "zh": "這個句型非常適合用來表達安全指示、緊急程序、學校規則及工作指引。",
+      "en": "It is useful for practical instructions You can use it when giving safety instructions, emergency procedures, school rules or workplace directions.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss178-benefit-04",
+      "zh": "把 In case of... 放在句首，可以先突出需要注意的情況，再說明應採取的行動。",
+      "en": "It can place the important situation first Beginning with In case of... draws attention to the possible problem before explaining the required action.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss178-benefit-05",
+      "zh": "適當使用這個句型，可以避免指示或較正式的文章中有太多句子都以 if 開始，使句式更有變化。",
+      "en": "It gives you an alternative to repeated if-sentences Using this structure occasionally helps your instructions and formal writing avoid too many sentences beginning with if.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using In case of + noun.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 In case of + noun 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss178-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If there is a fire, leave the building immediately.",
+      "promptZh": "如果發生火警，請立即離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of fire, leave the building immediately.",
+      "answerZh": "如遇火警，請立即離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of fire, leave the building immediately."
+    },
+    {
+      "id": "ss178-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If there is an emergency, press the red button.",
+      "promptZh": "如果發生緊急情況，請按下紅色按鈕。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of emergency, press the red button.",
+      "answerZh": "如遇緊急情況，請按下紅色按鈕。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of emergency, press the red button."
+    },
+    {
+      "id": "ss178-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If it rains, bring the chairs indoors.",
+      "promptZh": "如果下雨，請把椅子搬到室內。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of rain, bring the chairs indoors.",
+      "answerZh": "如遇雨天，請把椅子搬到室內。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of rain, bring the chairs indoors."
+    },
+    {
+      "id": "ss178-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If you become ill, tell your teacher.",
+      "promptZh": "如果你生病，請告訴老師。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of illness, tell your teacher.",
+      "answerZh": "如有不適，請告訴老師。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of illness, tell your teacher."
+    },
+    {
+      "id": "ss178-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If there is danger, call the police.",
+      "promptZh": "如果有危險，請報警。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of danger, call the police.",
+      "answerZh": "如遇危險，請報警。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of danger, call the police."
+    },
+    {
+      "id": "ss178-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If there is a power cut, use the torch.",
+      "promptZh": "如果停電，請使用電筒。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of a power cut, use the torch.",
+      "answerZh": "如遇停電，請使用電筒。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of a power cut, use the torch."
+    },
+    {
+      "id": "ss178-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If an accident happens, stop the car safely.",
+      "promptZh": "如果發生意外，請安全地把車停下來。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of an accident, stop the car safely.",
+      "answerZh": "如遇意外，請安全地把車停下來。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of an accident, stop the car safely."
+    },
+    {
+      "id": "ss178-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If there is a problem, ask the staff for help.",
+      "promptZh": "如果出現問題，請向職員求助。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of a problem, ask the staff for help.",
+      "answerZh": "如有問題，請向職員求助。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of a problem, ask the staff for help."
+    },
+    {
+      "id": "ss178-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If the weather is bad, the trip will be postponed.",
+      "promptZh": "如果天氣惡劣，行程將會延期。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of bad weather, the trip will be postponed.",
+      "answerZh": "如遇惡劣天氣，行程將會延期。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of bad weather, the trip will be postponed."
+    },
+    {
+      "id": "ss178-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A delay may occur. If it does, inform the office.",
+      "promptZh": "可能會出現延誤。如有延誤，請通知辦公室。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of delay, inform the office.",
+      "answerZh": "如有延誤，請通知辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of delay, inform the office."
+    },
+    {
+      "id": "ss178-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If there is an emergency, call this number.",
+      "promptZh": "如果發生緊急情況，請致電這個號碼。",
+      "promptZhSource": "pdf",
+      "starter": "Call",
+      "answer": "Call this number in case of emergency.",
+      "answerZh": "如遇緊急情況，請致電這個號碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Call this number in case of emergency."
+    },
+    {
+      "id": "ss178-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If a fire breaks out, use the stairs.",
+      "promptZh": "如果發生火警，請使用樓梯。",
+      "promptZhSource": "pdf",
+      "starter": "Use",
+      "answer": "Use the stairs in case of fire.",
+      "answerZh": "如遇火警，請使用樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "Use the stairs in case of fire."
+    },
+    {
+      "id": "ss178-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If there is heavy rain, close the outdoor area.",
+      "promptZh": "如果下大雨，請關閉戶外區域。",
+      "promptZhSource": "pdf",
+      "starter": "Close",
+      "answer": "Close the outdoor area in case of heavy rain.",
+      "answerZh": "如遇大雨，請關閉戶外區域。",
+      "answerZhSource": "pdf",
+      "highlight": "Close the outdoor area in case of heavy rain."
+    },
+    {
+      "id": "ss178-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you arrive late, report to reception.",
+      "promptZh": "如果你遲到，請到接待處報到。",
+      "promptZhSource": "pdf",
+      "starter": "Report",
+      "answer": "Report to reception in case of late arrival.",
+      "answerZh": "如有遲到，請到接待處報到。",
+      "answerZhSource": "pdf",
+      "highlight": "Report to reception in case of late arrival."
+    },
+    {
+      "id": "ss178-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If the weather becomes bad, check the school website.",
+      "promptZh": "如果天氣轉壞，請查看學校網站。",
+      "promptZhSource": "pdf",
+      "starter": "Check",
+      "answer": "Check the school website in case of bad weather.",
+      "answerZh": "如遇惡劣天氣，請查看學校網站。",
+      "answerZhSource": "pdf",
+      "highlight": "Check the school website in case of bad weather."
+    },
+    {
+      "id": "ss178-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When an injury occurs, clean the wound first.",
+      "promptZh": "如有人受傷，請先清潔傷口。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of injury, clean the wound first.",
+      "answerZh": "如有受傷，請先清潔傷口。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of injury, clean the wound first."
+    },
+    {
+      "id": "ss178-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you have a toothache, contact a dentist.",
+      "promptZh": "如果你牙痛，請聯絡牙醫。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of toothache, contact a dentist.",
+      "answerZh": "如有牙痛，請聯絡牙醫。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of toothache, contact a dentist."
+    },
+    {
+      "id": "ss178-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Your luggage may be lost. If this happens, contact customer service.",
+      "promptZh": "你的行李可能會遺失。如果發生這種情況，請聯絡顧客服務部。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of lost luggage, contact customer service.",
+      "answerZh": "如有行李遺失，請聯絡顧客服務部。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of lost luggage, contact customer service."
+    },
+    {
+      "id": "ss178-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If customers complain about noise, speak to the manager.",
+      "promptZh": "如果顧客投訴噪音問題，請與經理聯絡。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of noise complaints, speak to the manager.",
+      "answerZh": "如有噪音投訴，請與經理聯絡。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of noise complaints, speak to the manager."
+    },
+    {
+      "id": "ss178-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the event is cancelled, customers will receive a refund.",
+      "promptZh": "如果活動取消，顧客將會獲得退款。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of cancellation, customers will receive a refund.",
+      "answerZh": "如活動取消，顧客將會獲得退款。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of cancellation, customers will receive a refund."
+    },
+    {
+      "id": "ss178-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the power fails, the backup lights will switch on.",
+      "promptZh": "如果電力中斷，後備照明將會亮起。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of power failure, the backup lights will switch on.",
+      "answerZh": "如遇電力故障，後備照明將會亮起。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of power failure, the backup lights will switch on."
+    },
+    {
+      "id": "ss178-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the machine breaks down, turn off the main switch.",
+      "promptZh": "如果機器故障，請關掉總開關。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of machine breakdown, turn off the main switch.",
+      "answerZh": "如遇機器故障，請關掉總開關。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of machine breakdown, turn off the main switch."
+    },
+    {
+      "id": "ss178-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the network fails, restart the router.",
+      "promptZh": "如果網絡故障，請重新啟動路由器。",
+      "promptZhSource": "pdf",
+      "starter": "Restart",
+      "answer": "Restart the router in case of network failure.",
+      "answerZh": "如遇網絡故障，請重新啟動路由器。",
+      "answerZhSource": "pdf",
+      "highlight": "Restart the router in case of network failure."
+    },
+    {
+      "id": "ss178-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If a pipe leaks, close the main valve.",
+      "promptZh": "如果水管漏水，請關上總水掣。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of a pipe leak, close the main valve.",
+      "answerZh": "如遇水管漏水，請關上總水掣。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of a pipe leak, close the main valve."
+    },
+    {
+      "id": "ss178-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If gas leaks into the room, open the windows and leave.",
+      "promptZh": "如果有氣體洩漏到房間內，請打開窗戶並離開。",
+      "promptZhSource": "pdf",
+      "starter": "Open",
+      "answer": "Open the windows and leave in case of a gas leak in the room.",
+      "answerZh": "如房間內有氣體洩漏，請打開窗戶並離開。",
+      "answerZhSource": "pdf",
+      "highlight": "Open the windows and leave in case of a gas leak in the room."
+    },
+    {
+      "id": "ss178-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If there is heavy snow, trains may run less frequently.",
+      "promptZh": "如果下大雪，列車班次可能會減少。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of heavy snow, trains may run less frequently.",
+      "answerZh": "如遇大雪，列車班次可能會減少。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of heavy snow, trains may run less frequently."
+    },
+    {
+      "id": "ss178-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If someone suddenly becomes ill, ask for medical help.",
+      "promptZh": "如果有人突然生病，請尋求醫療協助。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of sudden illness, ask for medical help.",
+      "answerZh": "如有人突然生病，請尋求醫療協助。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of sudden illness, ask for medical help."
+    },
+    {
+      "id": "ss178-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If someone is seriously injured, do not move the person.",
+      "promptZh": "如果有人嚴重受傷，請勿移動傷者。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of serious injury, do not move the person.",
+      "answerZh": "如有人嚴重受傷，請勿移動傷者。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of serious injury, do not move the person."
+    },
+    {
+      "id": "ss178-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If you have a food allergy, tell the restaurant staff.",
+      "promptZh": "如果你對食物過敏，請告訴餐廳職員。",
+      "promptZhSource": "pdf",
+      "starter": "Tell",
+      "answer": "Tell the restaurant staff in case of a food allergy.",
+      "answerZh": "如有食物過敏，請告訴餐廳職員。",
+      "answerZhSource": "pdf",
+      "highlight": "Tell the restaurant staff in case of a food allergy."
+    },
+    {
+      "id": "ss178-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If a payment fails, try another card.",
+      "promptZh": "如果付款失敗，請嘗試使用另一張卡。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of payment failure, try another card.",
+      "answerZh": "如遇付款失敗，請嘗試使用另一張卡。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of payment failure, try another card."
+    },
+    {
+      "id": "ss178-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Should the alarm sound, leave the room calmly.",
+      "promptZh": "如警鐘響起，請冷靜地離開房間。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of an alarm, leave the room calmly.",
+      "answerZh": "如警鐘響起，請冷靜地離開房間。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of an alarm, leave the room calmly."
+    },
+    {
+      "id": "ss178-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Should the lift stop working, use the emergency telephone.",
+      "promptZh": "如升降機停止運作，請使用緊急電話。",
+      "promptZhSource": "pdf",
+      "starter": "Use",
+      "answer": "Use the emergency telephone in case of lift failure.",
+      "answerZh": "如遇升降機故障，請使用緊急電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Use the emergency telephone in case of lift failure."
+    },
+    {
+      "id": "ss178-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If any equipment is damaged, report it to the supervisor.",
+      "promptZh": "如果任何設備損壞，請向主管報告。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of equipment damage, report it to the supervisor.",
+      "answerZh": "如有設備損壞，請向主管報告。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of equipment damage, report it to the supervisor."
+    },
+    {
+      "id": "ss178-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What should you do if a child goes missing? Tell security immediately.",
+      "promptZh": "如果有兒童失蹤，你應該怎樣做？請立即通知保安人員。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of a missing child, tell security immediately.",
+      "answerZh": "如有兒童失蹤，請立即通知保安人員。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of a missing child, tell security immediately."
+    },
+    {
+      "id": "ss178-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If the road is closed, follow the diversion signs.",
+      "promptZh": "如果道路封閉，請依照改道標誌行駛。",
+      "promptZhSource": "pdf",
+      "starter": "Follow",
+      "answer": "Follow the diversion signs in case of a road closure.",
+      "answerZh": "如遇道路封閉，請依照改道標誌行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Follow the diversion signs in case of a road closure."
+    },
+    {
+      "id": "ss178-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the meeting is cancelled, everyone will be notified by email.",
+      "promptZh": "如果會議取消，所有人將會收到電郵通知。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of meeting cancellation, everyone will be notified by email.",
+      "answerZh": "如會議取消，所有人將會收到電郵通知。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of meeting cancellation, everyone will be notified by email."
+    },
+    {
+      "id": "ss178-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What should passengers do if there is smoke? They should move to another carriage.",
+      "promptZh": "如果車廂內有煙，乘客應該怎樣做？他們應移到另一節車廂。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of smoke, passengers should move to another carriage.",
+      "answerZh": "如遇煙霧，乘客應移到另一節車廂。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of smoke, passengers should move to another carriage."
+    },
+    {
+      "id": "ss178-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What happens if a flight is delayed? Passengers receive updated departure information.",
+      "promptZh": "如果航班延誤，會有甚麼安排？乘客會收到最新的出發資訊。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of a flight delay, passengers receive updated departure information.",
+      "answerZh": "如遇航班延誤，乘客會收到最新的出發資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of a flight delay, passengers receive updated departure information."
+    },
+    {
+      "id": "ss178-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If someone has a severe allergic reaction, use the emergency medicine.",
+      "promptZh": "如果有人出現嚴重過敏反應，請使用緊急藥物。",
+      "promptZhSource": "pdf",
+      "starter": "Use",
+      "answer": "Use the emergency medicine in case of a severe allergic reaction.",
+      "answerZh": "如有人出現嚴重過敏反應，請使用緊急藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "Use the emergency medicine in case of a severe allergic reaction."
+    },
+    {
+      "id": "ss178-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If personal data is lost, report the incident to the IT department.",
+      "promptZh": "如果個人資料遺失，請向資訊科技部門報告事件。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of data loss, report the incident to the IT department.",
+      "answerZh": "如有資料遺失，請向資訊科技部門報告事件。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of data loss, report the incident to the IT department."
+    },
+    {
+      "id": "ss178-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If there is a medical emergency during the event, contact the first-aid team.",
+      "promptZh": "如果活動期間發生醫療緊急情況，請聯絡急救隊伍。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of a medical emergency during the event, contact the first-aid team.",
+      "answerZh": "如活動期間發生醫療緊急情況，請聯絡急救隊伍。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of a medical emergency during the event, contact the first-aid team."
+    },
+    {
+      "id": "ss178-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school may close unexpectedly. If this happens, lessons will move online.",
+      "promptZh": "學校可能會突然停課。如果發生這種情況，課堂將改為網上進行。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of unexpected school closure, lessons will move online.",
+      "answerZh": "如學校突然停課，課堂將改為網上進行。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of unexpected school closure, lessons will move online."
+    },
+    {
+      "id": "ss178-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the main system fails, the backup system will start automatically.",
+      "promptZh": "如果主要系統故障，後備系統將會自動啟動。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of main system failure, the backup system will start automatically.",
+      "answerZh": "如主要系統故障，後備系統將會自動啟動。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of main system failure, the backup system will start automatically."
+    },
+    {
+      "id": "ss178-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If your luggage is damaged, complete this form before leaving the airport.",
+      "promptZh": "如果你的行李損壞，請在離開機場前填寫這份表格。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of damage to your luggage, complete this form before leaving the airport.",
+      "answerZh": "如行李損壞，請在離開機場前填寫這份表格。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of damage to your luggage, complete this form before leaving the airport."
+    },
+    {
+      "id": "ss178-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If someone enters without permission, the security team will receive an alert.",
+      "promptZh": "如果有人未經許可進入，保安團隊將會收到警報。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of unauthorised entry, the security team will receive an alert.",
+      "answerZh": "如有人未經許可進入，保安團隊將會收到警報。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of unauthorised entry, the security team will receive an alert."
+    },
+    {
+      "id": "ss178-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the temperature drops suddenly, the heating will switch on automatically.",
+      "promptZh": "如果氣溫突然下降，暖氣將會自動開啟。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of a sudden drop in temperature, the heating will switch on automatically.",
+      "answerZh": "如氣溫突然下降，暖氣將會自動開啟。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of a sudden drop in temperature, the heating will switch on automatically."
+    },
+    {
+      "id": "ss178-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the water supply is interrupted, bottled water will be provided.",
+      "promptZh": "如果食水供應中斷，將會提供樽裝水。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of interruption to the water supply, bottled water will be provided.",
+      "answerZh": "如食水供應中斷，將會提供樽裝水。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of interruption to the water supply, bottled water will be provided."
+    },
+    {
+      "id": "ss178-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If public transport is seriously disrupted, staff may work from home.",
+      "promptZh": "如果公共交通嚴重受阻，職員可以在家工作。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of major public transport disruption, staff may work from home.",
+      "answerZh": "如公共交通嚴重受阻，職員可以在家工作。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of major public transport disruption, staff may work from home."
+    },
+    {
+      "id": "ss178-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If food poisoning is suspected, keep a sample of the food and contact a doctor.",
+      "promptZh": "如果懷疑食物中毒，請保留食物樣本並聯絡醫生。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of suspected food poisoning, keep a sample of the food and contact a doctor.",
+      "answerZh": "如懷疑食物中毒，請保留食物樣本並聯絡醫生。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of suspected food poisoning, keep a sample of the food and contact a doctor."
+    },
+    {
+      "id": "ss178-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the examination schedule changes, the school will inform students and parents immediately.",
+      "promptZh": "如果考試時間表有任何更改，學校將會立即通知學生和家長。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In case of any change to the examination schedule, the school will inform students and parents immediately.",
+      "answerZh": "如考試時間表有任何更改，學校將會立即通知學生和家長。",
+      "answerZhSource": "pdf",
+      "highlight": "In case of any change to the examination schedule, the school will inform students and parents immediately."
+    }
+  ]
+}

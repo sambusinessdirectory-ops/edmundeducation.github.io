@@ -1,0 +1,1251 @@
+{
+  "id": "ss127",
+  "order": 127,
+  "slug": "somewhat",
+  "title": "「Somewhat 句」",
+  "titleZh": "「Somewhat 句」",
+  "titleEn": "Using somewhat as an adverb of degree",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 127 -「Somewhat 句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations.",
+      "Physical source page 20 is an intentionally preserved blank trailing page."
+    ]
+  },
+  "formula": "Subject + be / linking verb + somewhat + adjective",
+  "formulas": [
+    {
+      "id": "ss127-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Subject + be / linking verb + somewhat + adjective"
+    },
+    {
+      "id": "ss127-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Subject + action verb + somewhat + adverb"
+    },
+    {
+      "id": "ss127-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Subject + be / linking verb + somewhat + comparative adjective/adverb + than..."
+    },
+    {
+      "id": "ss127-formula-04",
+      "labelEn": "Pattern 4",
+      "labelZh": "句式 4",
+      "formula": "somewhat + adjective + noun"
+    }
+  ],
+  "example": "The food was somewhat spicy for me.",
+  "exampleZh": "這道菜對我來說有點辣。",
+  "examples": [
+    {
+      "id": "ss127-example-01",
+      "en": "The food was somewhat spicy for me.",
+      "zh": "這道菜對我來說有點辣。",
+      "highlight": "somewhat spicy"
+    },
+    {
+      "id": "ss127-example-02",
+      "en": "The assignment was somewhat more difficult than I expected.",
+      "zh": "這份作業比我預期稍微困難一點。",
+      "highlight": "somewhat more difficult than I expected"
+    },
+    {
+      "id": "ss127-example-03",
+      "en": "The meeting was somewhat longer than usual.",
+      "zh": "這次會議比平常稍微長了一點。",
+      "highlight": "somewhat longer than usual"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss127-rule-01",
+      "zh": "Somewhat 表示有限或中等程度 Somewhat 的意思通常是： ● 有點 ● 稍微 ● 頗為 ● 在某程度上 它所表達的程度通常比 very 或 extremely 弱。 第二句的語氣較溫和，沒有第一句那麼強烈。",
+      "en": "Somewhat expresses a limited or moderate degree, meaning a little, slightly, fairly or to some extent. It normally expresses a weaker degree than very or extremely, so the second comparison sentence sounds milder and less forceful.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The report was very confusing.",
+        "The report was somewhat confusing."
+      ]
+    },
+    {
+      "id": "ss127-rule-02",
+      "zh": "Somewhat 通常放在所修飾的字前面",
+      "en": "Place somewhat before the word it modifies.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The room was somewhat uncomfortable.",
+        "She spoke somewhat quietly.",
+        "The price was somewhat higher than expected."
+      ]
+    },
+    {
+      "id": "ss127-rule-03",
+      "zh": "不要把 somewhat 和 very 重疊使用",
+      "en": "Do not combine somewhat with very.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The examination was somewhat difficult.",
+        "The examination was very difficult."
+      ]
+    },
+    {
+      "id": "ss127-rule-04",
+      "zh": "Somewhat 與 somehow 的分別 雖然兩個字的拼法相似，但意思和功能完全不同。 Somewhat：表示程度 它回答： 「程度有多大？」 Somehow：表示不明方式、原因或設法完成某事 「怎樣做到？」或「不知為何會這樣？」 快速判斷方法 ● 表達「有點、稍微、某程度上」：使用 somewhat ● 表達「不知怎樣、不知何故、設法」：使用 somehow",
+      "en": "Although somewhat and somehow look similar, their meanings and functions are completely different. Somewhat expresses degree and answers ‘How much?’ or ‘To what degree?’. Somehow expresses an unknown manner or reason, or success in managing to do something, and answers ‘How?’, ‘By what means?’ or ‘For some unknown reason’. Use somewhat for ‘a little’, ‘slightly’ or ‘to some extent’, and somehow for ‘in an unknown way’, ‘for some unknown reason’ or ‘by managing to do it’.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "表達「有點、稍微、某程度上」：使用 somewhat",
+        "表達「不知怎樣、不知何故、設法」：使用 somehow",
+        "The food was somewhat spicy.",
+        "The meeting was somewhat longer than usual.",
+        "Somehow, I left my keys at home again.",
+        "Somehow, she managed to finish the examination on time."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss127-benefit-01",
+      "zh": "準確控制語氣的強弱 Somewhat 可以表示「有這個情況，但程度並不很強」，避免把說法說得過分絕對。 這句比 The plan is extremely risky 溫和得多。",
+      "en": "It controls the strength of tone precisely. Somewhat says that a condition exists but is not very strong, avoiding an overly absolute claim; The plan is somewhat risky is much milder than The plan is extremely risky.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The plan is somewhat risky."
+      ]
+    },
+    {
+      "id": "ss127-benefit-02",
+      "zh": "讓批評或不同意見聽起來較有禮貌 在學校、工作或正式討論中，直接說某件事「很差」可能過於尖銳。使用 somewhat 可以柔化語 氣。 這種說法既能指出問題，又不會顯得過分直接。",
+      "en": "It makes criticism or disagreement sound more polite. At school, at work or in formal discussion, a direct negative judgement may sound too sharp; somewhat softens the tone, allowing you to identify a problem without sounding excessively blunt.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Your explanation is somewhat unclear."
+      ]
+    },
+    {
+      "id": "ss127-benefit-03",
+      "zh": "幫助表達細微的比較 Somewhat 可以配合比較級，表示兩者確實有差別，但差距不大。",
+      "en": "It helps express subtle comparisons. With a comparative, somewhat indicates that a real difference exists but is not large.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "This model is somewhat cheaper than the other one."
+      ]
+    },
+    {
+      "id": "ss127-benefit-04",
+      "zh": "避免重複使用 a little 或 a bit 學生經常重複使用 a little 和 a bit。學會 somewhat 後，可以令說話和寫作更有變化。 兩句意思相近，但第二句語氣較中性，也較適合報告、作文和工作場合。",
+      "en": "It avoids repeatedly using a little or a bit and adds variety to speech and writing. The meanings are similar, but somewhat is more neutral and better suited to reports, essays and workplace contexts.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss127-benefit-05",
+      "zh": "幫助你謹慎地表達觀察和判斷 當你不想把一個判斷說得太肯定時，可以使用 somewhat。 這表示結果確實令人意外，但程度並非非常強烈。",
+      "en": "It helps you state observations and judgements cautiously when you do not want to sound too certain. For example, somewhat surprising confirms that the result was surprising but not to a very strong degree.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The results were somewhat surprising."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations.",
+    "Physical source page 20 is an intentionally preserved blank trailing page."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using somewhat without changing its original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 somewhat 改寫以下句子，不要改變原句的主要意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss127-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The food was a little spicy for me.",
+      "promptZh": "這道菜對我來說有點辣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The food was somewhat spicy for me.",
+      "answerZh": "這道菜對我來說有點辣。",
+      "answerZhSource": "pdf",
+      "highlight": "The food was somewhat spicy for me."
+    },
+    {
+      "id": "ss127-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Our classroom felt slightly cold this morning.",
+      "promptZh": "今天早上，我們的課室感覺有點冷。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our classroom felt somewhat cold this morning.",
+      "answerZh": "今天早上，我們的課室感覺有點冷。",
+      "answerZhSource": "pdf",
+      "highlight": "Our classroom felt somewhat cold this morning."
+    },
+    {
+      "id": "ss127-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I was a bit nervous before the interview.",
+      "promptZh": "面試前，我有點緊張。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was somewhat nervous before the interview.",
+      "answerZh": "面試前，我有點緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "I was somewhat nervous before the interview."
+    },
+    {
+      "id": "ss127-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This bag is a little heavy for a child.",
+      "promptZh": "這個袋子對小孩來說有點重。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bag is somewhat heavy for a child.",
+      "answerZh": "這個袋子對小孩來說有點重。",
+      "answerZhSource": "pdf",
+      "highlight": "This bag is somewhat heavy for a child."
+    },
+    {
+      "id": "ss127-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The film was a bit long.",
+      "promptZh": "這部電影有點長。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The film was somewhat long.",
+      "answerZh": "這部電影有點長。",
+      "answerZhSource": "pdf",
+      "highlight": "The film was somewhat long."
+    },
+    {
+      "id": "ss127-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This soup tastes slightly salty.",
+      "promptZh": "這碗湯嚐起來有點鹹。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This soup tastes somewhat salty.",
+      "answerZh": "這碗湯嚐起來有點鹹。",
+      "answerZhSource": "pdf",
+      "highlight": "This soup tastes somewhat salty."
+    },
+    {
+      "id": "ss127-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia spoke a little more quietly than usual during the meeting.",
+      "promptZh": "會議期間，米婭說話比平常稍微小聲一點。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia spoke somewhat more quietly than usual during the meeting.",
+      "answerZh": "會議期間，米婭說話比平常稍微小聲一點。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia spoke somewhat more quietly than usual during the meeting."
+    },
+    {
+      "id": "ss127-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "These instructions seem a bit confusing.",
+      "promptZh": "這些指示看起來有點令人困惑。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These instructions seem somewhat confusing.",
+      "answerZh": "這些指示看起來有點令人困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions seem somewhat confusing."
+    },
+    {
+      "id": "ss127-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The road became slightly slippery after the rain.",
+      "promptZh": "下雨後，路面變得有點濕滑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road became somewhat slippery after the rain.",
+      "answerZh": "下雨後，路面變得有點濕滑。",
+      "answerZhSource": "pdf",
+      "highlight": "The road became somewhat slippery after the rain."
+    },
+    {
+      "id": "ss127-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What is our new neighbour like? He is a little shy.",
+      "promptZh": "我們的新鄰居性格怎樣？他有點害羞。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our new neighbour is somewhat shy.",
+      "answerZh": "我們的新鄰居有點害羞。",
+      "answerZhSource": "pdf",
+      "highlight": "Our new neighbour is somewhat shy."
+    },
+    {
+      "id": "ss127-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This assignment was a little more difficult than I expected.",
+      "promptZh": "這份作業比我預期稍微困難一點。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This assignment was somewhat more difficult than I expected.",
+      "answerZh": "這份作業比我預期稍微困難一點。",
+      "answerZhSource": "pdf",
+      "highlight": "This assignment was somewhat more difficult than I expected."
+    },
+    {
+      "id": "ss127-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Yesterday’s meeting was slightly longer than usual.",
+      "promptZh": "昨天的會議比平常稍微長一點。",
+      "promptZhSource": "pdf",
+      "starter": "Yesterday’s",
+      "answer": "Yesterday’s meeting was somewhat longer than usual.",
+      "answerZh": "昨天的會議比平常稍微長一點。",
+      "answerZhSource": "pdf",
+      "highlight": "Yesterday’s meeting was somewhat longer than usual."
+    },
+    {
+      "id": "ss127-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This chair is a bit more comfortable than the old one.",
+      "promptZh": "這張椅子比舊的稍微舒適一點。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This chair is somewhat more comfortable than the old one.",
+      "answerZh": "這張椅子比舊的稍微舒適一點。",
+      "answerZhSource": "pdf",
+      "highlight": "This chair is somewhat more comfortable than the old one."
+    },
+    {
+      "id": "ss127-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Which question was easier? The second was a little easier than the first.",
+      "promptZh": "哪一條問題較容易？第二條比第一條稍微容易一點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The second question was somewhat easier than the first.",
+      "answerZh": "第二條問題比第一條稍微容易一點。",
+      "answerZhSource": "pdf",
+      "highlight": "The second question was somewhat easier than the first."
+    },
+    {
+      "id": "ss127-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our train arrived slightly later than normal.",
+      "promptZh": "我們的火車比平常稍遲到達。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our train arrived somewhat later than normal.",
+      "answerZh": "我們的火車比平常稍遲到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Our train arrived somewhat later than normal."
+    },
+    {
+      "id": "ss127-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "How did Kevin look after football practice? He looked a little tired.",
+      "promptZh": "足球訓練後，凱文看起來怎樣？他看起來有點疲倦。",
+      "promptZhSource": "pdf",
+      "starter": "Kevin",
+      "answer": "Kevin looked somewhat tired after football practice.",
+      "answerZh": "足球訓練後，凱文看起來有點疲倦。",
+      "answerZhSource": "pdf",
+      "highlight": "Kevin looked somewhat tired after football practice."
+    },
+    {
+      "id": "ss127-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This room appears slightly smaller with the new shelves.",
+      "promptZh": "加了新層架後，這個房間看起來稍微小了一點。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This room appears somewhat smaller with the new shelves.",
+      "answerZh": "加了新層架後，這個房間看起來稍微小了一點。",
+      "answerZhSource": "pdf",
+      "highlight": "This room appears somewhat smaller with the new shelves."
+    },
+    {
+      "id": "ss127-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The blue shirt is a bit cheaper than the black one.",
+      "promptZh": "藍色恤衫比黑色的稍微便宜一點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue shirt is somewhat cheaper than the black one.",
+      "answerZh": "藍色恤衫比黑色的稍微便宜一點。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue shirt is somewhat cheaper than the black one."
+    },
+    {
+      "id": "ss127-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our teacher showed slight disappointment at our work.",
+      "promptZh": "老師對我們的功課表現出些微失望。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher was somewhat disappointed with our work.",
+      "answerZh": "老師對我們的功課有點失望。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher was somewhat disappointed with our work."
+    },
+    {
+      "id": "ss127-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This machine is running a little more slowly than normal today.",
+      "promptZh": "今天，這部機器運作得比平常稍慢一點。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This machine is running somewhat more slowly than normal today.",
+      "answerZh": "今天，這部機器運作得比平常稍慢一點。",
+      "answerZhSource": "pdf",
+      "highlight": "This machine is running somewhat more slowly than normal today."
+    },
+    {
+      "id": "ss127-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new timetable is inconvenient to some degree for parents.",
+      "promptZh": "新時間表對家長來說在某程度上不方便。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable is somewhat inconvenient for parents.",
+      "answerZh": "新時間表對家長來說有點不方便。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable is somewhat inconvenient for parents."
+    },
+    {
+      "id": "ss127-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The final section of the report was unclear to a certain extent.",
+      "promptZh": "報告最後一部分在某程度上不太清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final section of the report was somewhat unclear.",
+      "answerZh": "報告最後一部分有點不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The final section of the report was somewhat unclear."
+    },
+    {
+      "id": "ss127-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The medicine made Daniel feel a little sleepy.",
+      "promptZh": "這種藥令丹尼爾有點睏倦。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine made Daniel feel somewhat sleepy.",
+      "answerZh": "這種藥令丹尼爾有點睏倦。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine made Daniel feel somewhat sleepy."
+    },
+    {
+      "id": "ss127-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How did several audience members react to the ending? It caused mild surprise among them.",
+      "promptZh": "幾位觀眾對結局有甚麼反應？結局令他們感到些微驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several audience members were somewhat surprised by the ending.",
+      "answerZh": "幾位觀眾對結局感到有點驚訝。",
+      "answerZhSource": "pdf",
+      "highlight": "Several audience members were somewhat surprised by the ending."
+    },
+    {
+      "id": "ss127-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At first, using new software can be difficult to a certain extent.",
+      "promptZh": "起初，使用新軟件在某程度上可能有點困難。",
+      "promptZhSource": "pdf",
+      "starter": "New",
+      "answer": "New software can be somewhat difficult to use at first.",
+      "answerZh": "新軟件起初可能有點難用。",
+      "answerZhSource": "pdf",
+      "highlight": "New software can be somewhat difficult to use at first."
+    },
+    {
+      "id": "ss127-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The weather is slightly warmer this week than last week.",
+      "promptZh": "本星期的天氣比上星期稍微暖一點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The weather is somewhat warmer this week than last week.",
+      "answerZh": "本星期的天氣比上星期稍微暖一點。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather is somewhat warmer this week than last week."
+    },
+    {
+      "id": "ss127-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The shop was busier than we expected. However, the difference was not large.",
+      "promptZh": "店舖比我們預期繁忙，但差距不大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop was somewhat busier than we expected.",
+      "answerZh": "店舖比我們預期稍微繁忙一點。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop was somewhat busier than we expected."
+    },
+    {
+      "id": "ss127-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Emma showed slight hesitation when she answered the question.",
+      "promptZh": "艾瑪回答問題時顯得有點猶豫。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma answered the question somewhat hesitantly.",
+      "answerZh": "艾瑪回答問題時有點猶豫。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma answered the question somewhat hesitantly."
+    },
+    {
+      "id": "ss127-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our team felt confident to some degree before the match.",
+      "promptZh": "比賽前，我們的球隊在某程度上感到有信心。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team felt somewhat confident before the match.",
+      "answerZh": "我們的球隊在比賽前有幾分信心。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team felt somewhat confident before the match."
+    },
+    {
+      "id": "ss127-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "His explanation was a little too general.",
+      "promptZh": "他的解釋有點過於籠統。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His explanation was somewhat too general.",
+      "answerZh": "他的解釋有點過於籠統。",
+      "answerZhSource": "pdf",
+      "highlight": "His explanation was somewhat too general."
+    },
+    {
+      "id": "ss127-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "These lights made the room look brighter. The difference was only slight.",
+      "promptZh": "這些燈令房間看起來更明亮，但分別很小。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These lights made the room look somewhat brighter.",
+      "answerZh": "這些燈令房間看起來稍微明亮一點。",
+      "answerZhSource": "pdf",
+      "highlight": "These lights made the room look somewhat brighter."
+    },
+    {
+      "id": "ss127-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The final price was higher than the original estimate. It was only a small amount higher.",
+      "promptZh": "最終價格高於原先估算，但只高了一點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final price was somewhat higher than the original estimate.",
+      "answerZh": "最終價格比原先估算稍高。",
+      "answerZhSource": "pdf",
+      "highlight": "The final price was somewhat higher than the original estimate."
+    },
+    {
+      "id": "ss127-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This village is isolated to some extent during winter.",
+      "promptZh": "冬季期間，這條村在某程度上與外界隔絕。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This village is somewhat isolated during winter.",
+      "answerZh": "冬季期間，這條村在某程度上與外界隔絕。",
+      "answerZhSource": "pdf",
+      "highlight": "This village is somewhat isolated during winter."
+    },
+    {
+      "id": "ss127-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our manager showed a small amount of caution when responding to the bad news.",
+      "promptZh": "經理回應壞消息時表現出些微謹慎。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our manager reacted somewhat cautiously to the bad news.",
+      "answerZh": "經理以較為謹慎的態度回應壞消息。",
+      "answerZhSource": "pdf",
+      "highlight": "Our manager reacted somewhat cautiously to the bad news."
+    },
+    {
+      "id": "ss127-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new rule has slowed the process slightly.",
+      "promptZh": "新規則令流程稍微慢了下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule has made the process somewhat slower.",
+      "answerZh": "新規則令流程變得稍慢。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule has made the process somewhat slower."
+    },
+    {
+      "id": "ss127-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The loud noise frightened the child a little.",
+      "promptZh": "巨響令孩子有點害怕。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child was somewhat frightened by the loud noise.",
+      "answerZh": "孩子被巨響嚇得有點害怕。",
+      "answerZhSource": "pdf",
+      "highlight": "The child was somewhat frightened by the loud noise."
+    },
+    {
+      "id": "ss127-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This article’s view of the problem is different in some respects.",
+      "promptZh": "這篇文章對這個問題的看法在某些方面有所不同。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This article takes a somewhat different view of the problem.",
+      "answerZh": "這篇文章對這個問題提出了略有不同的看法。",
+      "answerZhSource": "pdf",
+      "highlight": "This article takes a somewhat different view of the problem."
+    },
+    {
+      "id": "ss127-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Both plans are similar to a certain extent in cost.",
+      "promptZh": "兩個計劃的成本在某程度上相近。",
+      "promptZhSource": "pdf",
+      "starter": "Both",
+      "answer": "Both plans are somewhat similar in cost.",
+      "answerZh": "兩個計劃的成本在某程度上相近。",
+      "answerZhSource": "pdf",
+      "highlight": "Both plans are somewhat similar in cost."
+    },
+    {
+      "id": "ss127-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The road becomes a little narrower near the bridge.",
+      "promptZh": "靠近橋的位置，路面會稍微變窄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road becomes somewhat narrower near the bridge.",
+      "answerZh": "路面靠近橋的位置會稍微變窄。",
+      "answerZhSource": "pdf",
+      "highlight": "The road becomes somewhat narrower near the bridge."
+    },
+    {
+      "id": "ss127-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "How did the speaker explain the idea the second time? The explanation was a little clearer.",
+      "promptZh": "講者第二次怎樣解釋這個概念？解釋稍微清楚了一點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker explained the idea somewhat more clearly the second time.",
+      "answerZh": "講者第二次解釋這個概念時，講得稍微清楚一點。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker explained the idea somewhat more clearly the second time."
+    },
+    {
+      "id": "ss127-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The plan is risky to some degree, but it may still succeed.",
+      "promptZh": "這個計劃在某程度上有風險，但仍可能成功。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the plan is somewhat risky, it may still succeed.",
+      "answerZh": "雖然這個計劃有點風險，但仍可能成功。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the plan is somewhat risky, it may still succeed."
+    },
+    {
+      "id": "ss127-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The sudden change caused some concern among staff members, but not a great deal.",
+      "promptZh": "突然的改變令員工有些擔心，但不是非常擔心。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff members were somewhat concerned about the sudden change.",
+      "answerZh": "員工對突然的改變有些擔心。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff members were somewhat concerned about the sudden change."
+    },
+    {
+      "id": "ss127-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The researchers had predicted poorer results. The actual results were better, but only by a small amount.",
+      "promptZh": "研究人員原本預測結果會較差。實際結果較好，但只好了一點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The results were somewhat better than the researchers had predicted.",
+      "answerZh": "結果比研究人員預測的稍微好一點。",
+      "answerZhSource": "pdf",
+      "highlight": "The results were somewhat better than the researchers had predicted."
+    },
+    {
+      "id": "ss127-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our service has improved, but it remains unreliable to some extent.",
+      "promptZh": "我們的服務已有改善，但在某程度上仍不可靠。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our service has improved, but it is still somewhat unreliable.",
+      "answerZh": "我們的服務已有改善，但仍有點不可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Our service has improved, but it is still somewhat unreliable."
+    },
+    {
+      "id": "ss127-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A new fan was installed, but the room was still a little uncomfortable.",
+      "promptZh": "安裝了新風扇，但房間仍然有點不舒適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room remained somewhat uncomfortable despite the new fan.",
+      "answerZh": "儘管安裝了新風扇，房間仍然有點不舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "The room remained somewhat uncomfortable despite the new fan."
+    },
+    {
+      "id": "ss127-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Committee members considered the proposal impractical to a certain extent.",
+      "promptZh": "委員會成員認為這項建議在某程度上不切實際。",
+      "promptZhSource": "pdf",
+      "starter": "Committee",
+      "answer": "Committee members found the proposal somewhat impractical.",
+      "answerZh": "委員會成員認為這項建議有點不切實際。",
+      "answerZhSource": "pdf",
+      "highlight": "Committee members found the proposal somewhat impractical."
+    },
+    {
+      "id": "ss127-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The instructions gave the students less detail than they needed, but the difference was not large.",
+      "promptZh": "指示提供的細節比學生所需的少，但差距不大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions were somewhat less detailed than the students needed.",
+      "answerZh": "指示所提供的細節比學生所需的稍少。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were somewhat less detailed than the students needed."
+    },
+    {
+      "id": "ss127-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The first solution had limited effectiveness, while the second was much better.",
+      "promptZh": "第一個方案的成效有限，而第二個好得多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first solution was somewhat effective, but the second was much better.",
+      "answerZh": "第一個方案有一定成效，但第二個好得多。",
+      "answerZhSource": "pdf",
+      "highlight": "The first solution was somewhat effective, but the second was much better."
+    },
+    {
+      "id": "ss127-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our town has become more crowded since the new station opened. However, the increase has been slight.",
+      "promptZh": "新車站啟用後，我們的小鎮變得更擠迫，但增加的程度很小。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our town has become somewhat more crowded since the new station opened.",
+      "answerZh": "新車站啟用後，我們的小鎮變得稍微更擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "Our town has become somewhat more crowded since the new station opened."
+    },
+    {
+      "id": "ss127-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The client originally requested one thing. The final version differs from it in several small ways.",
+      "promptZh": "客戶原本提出了一項要求，但最終版本在幾個小地方有所不同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final version is somewhat different from what the client originally requested.",
+      "answerZh": "最終版本與客戶原本要求的有些不同。",
+      "answerZhSource": "pdf",
+      "highlight": "The final version is somewhat different from what the client originally requested."
+    }
+  ]
+}

@@ -1,0 +1,1295 @@
+{
+  "id": "ss169",
+  "order": 169,
+  "slug": "there-is-no",
+  "title": "There is no...",
+  "titleZh": "「There is no...」句",
+  "titleEn": "Using There is no to express absence, lack or impossibility",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 169 -「There is no...」句.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "There is no + singular / uncountable noun + other information",
+  "formulas": [
+    {
+      "id": "ss169-formula-01",
+      "labelEn": "Absence",
+      "labelZh": "表示某事物不存在",
+      "formula": "There is no + singular / uncountable noun + other information"
+    },
+    {
+      "id": "ss169-formula-02",
+      "labelEn": "Need, reason or way",
+      "labelZh": "沒有需要、理由或方法",
+      "formula": "There is no need / reason / way + to + base verb"
+    },
+    {
+      "id": "ss169-formula-03",
+      "labelEn": "Point or harm",
+      "labelZh": "沒有作用或沒有壞處",
+      "formula": "There is no point / harm + in + verb-ing"
+    },
+    {
+      "id": "ss169-formula-04",
+      "labelEn": "Chance or justification",
+      "labelZh": "沒有機會、藉口、根據或空間",
+      "formula": "There is no chance + of + verb-ing / no excuse, justification or basis + for + verb-ing"
+    },
+    {
+      "id": "ss169-formula-05",
+      "labelEn": "Undeniable fact",
+      "labelZh": "無法否認或沒有疑問",
+      "formula": "There is no denying / doubt / guarantee / evidence / sign + that + clause"
+    }
+  ],
+  "example": "There is no lift in this building.",
+  "exampleZh": "這座大樓沒有升降機。",
+  "examples": [
+    {
+      "id": "ss169-example-01",
+      "en": "There is no lift in this building.",
+      "zh": "這座大樓沒有升降機。",
+      "highlight": "There is no lift in this building."
+    },
+    {
+      "id": "ss169-example-02",
+      "en": "There is no need to panic.",
+      "zh": "沒有必要恐慌。",
+      "highlight": "There is no need to panic."
+    },
+    {
+      "id": "ss169-example-03",
+      "en": "There is no point in arguing.",
+      "zh": "爭論並沒有作用。",
+      "highlight": "There is no point in arguing."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss169-rule-01",
+      "zh": "no 後面不再使用 a 或 an no 本身已經包含「一個也沒有」的意思，因此不可再加 a 或 an。",
+      "en": "Do not use a or an after no. Because no already means “not even one”, write There is no hospital nearby, not There is no a hospital nearby.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no hospital nearby.",
+        "There is no a hospital nearby."
+      ]
+    },
+    {
+      "id": "ss169-rule-02",
+      "zh": "need、reason 和 way 後面通常使用 to + 動詞原形 如需要指出行動者，可以使用： （你不需要等候。）",
+      "en": "Need, reason and way are normally followed by to + base verb: There is no need to wait, no reason to worry and no way to repair it. To identify the actor, use a pattern such as There is no need for you to wait.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no need to wait.",
+        "There is no reason to worry.",
+        "There is no way to repair it.",
+        "There is no need／way for someone to + verb",
+        "There is no need for you to wait."
+      ]
+    },
+    {
+      "id": "ss169-rule-03",
+      "zh": "point 和 harm 後面使用 in + verb-ing",
+      "en": "Point and harm are followed by in + verb-ing: There is no point in complaining and There is no harm in checking again, not There is no point to complain.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no point in complaining.",
+        "There is no harm in checking again.",
+        "There is no point to complain."
+      ]
+    },
+    {
+      "id": "ss169-rule-04",
+      "zh": "chance 後面常用 of + verb-ing 如果需要清楚指出行動者，可以使用：",
+      "en": "Chance is commonly followed by of + verb-ing, as in There is no chance of catching the train. To identify the actor, use a form such as There is no chance of the team winning the match.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no chance of catching the train.",
+        "There is no chance of the team winning the match."
+      ]
+    },
+    {
+      "id": "ss169-rule-05",
+      "zh": "excuse、justification 和 basis 後面常用 for + verb-ing",
+      "en": "Excuse, justification and basis are commonly followed by for + verb-ing: There is no excuse for arriving late, no justification for blaming her and no basis for assuming that he lied.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no excuse for arriving late.",
+        "There is no justification for blaming her.",
+        "There is no basis for assuming that he lied."
+      ]
+    },
+    {
+      "id": "ss169-rule-06",
+      "zh": "denying 後面使用 that + 完整句子 不要寫：",
+      "en": "Denying is followed by that + a complete clause. Write There is no denying that the problem is serious; do not omit that in the target structure.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no denying that the problem is serious.",
+        "There is no denying the problem is serious."
+      ]
+    },
+    {
+      "id": "ss169-rule-07",
+      "zh": "本課集中練習 There is no There is no 通常配合單數或不可數名詞。 複數名詞一般使用 There are no...，但這個形式不屬於本課的主要練習範圍。",
+      "en": "This lesson focuses on There is no, which normally goes with a singular countable noun or an uncountable noun, as in There is no hospital nearby or There is no information available. Plural nouns generally use There are no ..., but that form is outside the main practice here.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no information available.",
+        "There is no hospital nearby."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss169-benefit-01",
+      "zh": "清楚而直接地表示「沒有」 這個句型能讓讀者立即知道某件事物、理由、需要或可能性並不存在。 第二句直接把「沒有升降機」放在句子的核心位置。",
+      "en": "It expresses absence clearly and directly. The structure immediately tells the reader that an object, reason, need or possibility does not exist. The building does not have a lift and There is no lift in the building have the same basic meaning, but the second puts the absence of a lift at the centre of the sentence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The building does not have a lift.",
+        "There is no lift in the building."
+      ]
+    },
+    {
+      "id": "ss169-benefit-02",
+      "zh": "讓勸告聽起來較溫和 直接說 You do not need to panic 有時會把焦點放在對方身上。 使用： 語氣較客觀，聽起來像安慰或提醒，而不是批評對方的反應。",
+      "en": "It can make advice sound gentler and less personal. You do not need to panic may focus directly on the listener, whereas There is no need to panic sounds more objective—like reassurance or a reminder rather than criticism of the person's reaction.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no need to panic."
+      ]
+    },
+    {
+      "id": "ss169-benefit-03",
+      "zh": "幫助你清楚評價某個行動 你可以用 There is no point in...、There is no reason to... 或 There is no harm in...，簡單說明 某個行動是否有用、合理或安全。",
+      "en": "It helps you give a clear judgement about whether an action is useful, reasonable or safe: There is no point in waiting, There is no reason to worry, or There is no harm in asking.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no point in waiting.",
+        "There is no reason to worry.",
+        "There is no harm in asking."
+      ]
+    },
+    {
+      "id": "ss169-benefit-04",
+      "zh": "把較長的解釋縮短 第二句使用一個固定句型，便能簡潔地表達「這樣做沒有作用」。",
+      "en": "It can shorten a longer explanation. Arguing about the decision will not achieve anything becomes the more concise There is no point in arguing about the decision, using a fixed pattern to state that the action is useless.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no point in arguing about the decision."
+      ]
+    },
+    {
+      "id": "ss169-benefit-05",
+      "zh": "適合用來提出審慎的觀點 在作文、報告、討論和簡報中，可以使用以下結構： 這些句型能讓你清楚區分「不能否認」、「毫無疑問」、「沒有證據」和「不能保證」等不同程度的判 斷。",
+      "en": "It is useful for presenting careful claims in essays, reports, discussions and presentations. Structures such as There is no denying that ..., no doubt that ..., no evidence that ... and no guarantee that ... distinguish precisely among something undeniable, something certain, a lack of evidence and a lack of guarantee.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is no denying that...",
+        "There is no doubt that...",
+        "There is no evidence that...",
+        "There is no guarantee that..."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using There is no....",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 There is no... 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss169-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You do not need to panic.",
+      "promptZh": "你不需要恐慌。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no need to panic.",
+      "answerZh": "沒有必要恐慌。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no need to panic."
+    },
+    {
+      "id": "ss169-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We do not need to hurry.",
+      "promptZh": "我們不需要匆忙。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no need for us to hurry.",
+      "answerZh": "我們毋須匆忙。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no need for us to hurry."
+    },
+    {
+      "id": "ss169-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Arguing about this will achieve nothing.",
+      "promptZh": "為這件事爭論不會有任何成果。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no point in arguing about this.",
+      "answerZh": "為這件事爭論並沒有作用。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no point in arguing about this."
+    },
+    {
+      "id": "ss169-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You did nothing wrong, so you should not feel guilty.",
+      "promptZh": "你沒有做錯任何事，所以不應感到內疚。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no reason for you to feel guilty.",
+      "answerZh": "你沒有理由感到內疚。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no reason for you to feel guilty."
+    },
+    {
+      "id": "ss169-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is impossible to open this door without the key.",
+      "promptZh": "沒有鑰匙便不可能打開這道門。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no way to open this door without the key.",
+      "answerZh": "沒有鑰匙便無法打開這道門。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no way to open this door without the key."
+    },
+    {
+      "id": "ss169-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We cannot catch the last bus now.",
+      "promptZh": "現在我們不可能趕上尾班巴士。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no chance of catching the last bus now.",
+      "answerZh": "現在已不可能趕上尾班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no chance of catching the last bus now."
+    },
+    {
+      "id": "ss169-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The room does not have enough space for another table.",
+      "promptZh": "房間沒有足夠空間再放一張桌子。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no room for another table.",
+      "answerZh": "房間沒有空間再放一張桌子。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no room for another table."
+    },
+    {
+      "id": "ss169-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is harmless to ask the teacher for help.",
+      "promptZh": "向老師求助並沒有壞處。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no harm in asking the teacher for help.",
+      "answerZh": "向老師求助並沒有壞處。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no harm in asking the teacher for help."
+    },
+    {
+      "id": "ss169-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It cannot be denied that the plan helped.",
+      "promptZh": "不能否認這個計劃有所幫助。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no denying that the plan helped.",
+      "answerZh": "不能否認這個計劃有所幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no denying that the plan helped."
+    },
+    {
+      "id": "ss169-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We do not need any more chairs.",
+      "promptZh": "我們不需要更多椅子。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no need for any more chairs.",
+      "answerZh": "沒有需要增加更多椅子。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no need for any more chairs."
+    },
+    {
+      "id": "ss169-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Complaining now will not improve anything.",
+      "promptZh": "現在投訴不會改善任何事情。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no point in complaining now.",
+      "answerZh": "現在投訴並沒有作用。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no point in complaining now."
+    },
+    {
+      "id": "ss169-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You do not have to apologise for the mistake.",
+      "promptZh": "你不必為這個錯誤道歉。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no need for you to apologise for the mistake.",
+      "answerZh": "你不必為這個錯誤道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no need for you to apologise for the mistake."
+    },
+    {
+      "id": "ss169-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nothing can excuse shouting at the staff.",
+      "promptZh": "任何事情都不能成為向職員大聲呼喝的藉口。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no excuse for shouting at the staff.",
+      "answerZh": "向職員大聲呼喝是沒有藉口的。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no excuse for shouting at the staff."
+    },
+    {
+      "id": "ss169-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is impossible to predict the exact result.",
+      "promptZh": "不可能預測確實的結果。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no way to predict the exact result.",
+      "answerZh": "沒有辦法預測確實的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no way to predict the exact result."
+    },
+    {
+      "id": "ss169-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We can be certain that Mina worked hard.",
+      "promptZh": "我們可以肯定米娜曾努力工作。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no doubt that Mina worked hard.",
+      "answerZh": "毫無疑問，米娜曾努力工作。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no doubt that Mina worked hard."
+    },
+    {
+      "id": "ss169-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The report gives no evidence that the machine is unsafe.",
+      "promptZh": "報告沒有提供證據顯示這部機器不安全。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no evidence in the report that the machine is unsafe.",
+      "answerZh": "報告沒有證據顯示這部機器不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no evidence in the report that the machine is unsafe."
+    },
+    {
+      "id": "ss169-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The shop does not have space for more shelves.",
+      "promptZh": "店舖沒有空間再加設貨架。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no room for more shelves in the shop.",
+      "answerZh": "店舖沒有空間再加設貨架。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no room for more shelves in the shop."
+    },
+    {
+      "id": "ss169-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is safe to ask for a second opinion.",
+      "promptZh": "徵詢另一個專業意見並沒有壞處。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no harm in asking for a second opinion.",
+      "answerZh": "徵詢另一個專業意見並沒有壞處。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no harm in asking for a second opinion."
+    },
+    {
+      "id": "ss169-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why keep waiting? It will not change the result.",
+      "promptZh": "為甚麼還要繼續等候？這不會改變結果。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no point in waiting any longer.",
+      "answerZh": "再繼續等候並沒有作用。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no point in waiting any longer."
+    },
+    {
+      "id": "ss169-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The organisation does not require additional equipment.",
+      "promptZh": "這個機構不需要額外設備。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no need for additional equipment.",
+      "answerZh": "沒有需要增加額外設備。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no need for additional equipment."
+    },
+    {
+      "id": "ss169-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team cannot possibly win the match now.",
+      "promptZh": "球隊現在不可能贏得這場比賽。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no chance of the team winning the match now.",
+      "answerZh": "球隊現在已沒有機會贏得這場比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no chance of the team winning the match now."
+    },
+    {
+      "id": "ss169-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is impossible for us to finish the work by noon.",
+      "promptZh": "我們不可能在中午前完成工作。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no way for us to finish the work by noon.",
+      "answerZh": "我們沒有辦法在中午前完成工作。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no way for us to finish the work by noon."
+    },
+    {
+      "id": "ss169-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Nothing proves that the rumour is true.",
+      "promptZh": "沒有任何事情能證明這個謠言是真的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no evidence that the rumour is true.",
+      "answerZh": "沒有證據顯示這個謠言是真的。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no evidence that the rumour is true."
+    },
+    {
+      "id": "ss169-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Nobody can deny that regular exercise improves health.",
+      "promptZh": "沒有人能否認定期運動可以改善健康。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no denying that regular exercise improves health.",
+      "answerZh": "不能否認定期運動可以改善健康。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no denying that regular exercise improves health."
+    },
+    {
+      "id": "ss169-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Nothing justifies blaming Zara for a decision she did not make.",
+      "promptZh": "扎拉沒有作出這項決定，因此沒有任何事情足以證明責怪她是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no justification for blaming Zara for a decision she did not make.",
+      "answerZh": "扎拉沒有作出這項決定，因此責怪她是沒有合理依據的。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no justification for blaming Zara for a decision she did not make."
+    },
+    {
+      "id": "ss169-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Delaying the decision will not help us solve the problem.",
+      "promptZh": "延遲作出決定無助於我們解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no point in delaying the decision.",
+      "answerZh": "延遲作出決定並沒有作用。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no point in delaying the decision."
+    },
+    {
+      "id": "ss169-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We cannot be certain that prices will fall next month.",
+      "promptZh": "我們不能確定價格下個月會下降。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no guarantee that prices will fall next month.",
+      "answerZh": "不能保證價格下個月會下降。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no guarantee that prices will fall next month."
+    },
+    {
+      "id": "ss169-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The schedule does not allow any delay.",
+      "promptZh": "這個時間表不容許任何延誤。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no room for delay in the schedule.",
+      "answerZh": "這個時間表不容許任何延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no room for delay in the schedule."
+    },
+    {
+      "id": "ss169-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager does not have to attend the meeting in person.",
+      "promptZh": "經理不必親身出席會議。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no need for the manager to attend the meeting in person.",
+      "answerZh": "經理不需要親身出席會議。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no need for the manager to attend the meeting in person."
+    },
+    {
+      "id": "ss169-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Trying a different method would not cause any harm.",
+      "promptZh": "嘗試另一種方法不會造成任何傷害。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no harm in trying a different method.",
+      "answerZh": "嘗試另一種方法並沒有壞處。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no harm in trying a different method."
+    },
+    {
+      "id": "ss169-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is impossible to know who sent the message.",
+      "promptZh": "不可能知道是誰傳送了這則訊息。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no way to know who sent the message.",
+      "answerZh": "沒有辦法知道是誰傳送了這則訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no way to know who sent the message."
+    },
+    {
+      "id": "ss169-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We have no alternative except to cancel the trip.",
+      "promptZh": "除了取消旅程，我們沒有其他選擇。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no alternative but to cancel the trip.",
+      "answerZh": "除了取消旅程，沒有其他選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no alternative but to cancel the trip."
+    },
+    {
+      "id": "ss169-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The policy does not allow exceptions.",
+      "promptZh": "這項政策不容許例外。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no room for exceptions under the policy.",
+      "answerZh": "這項政策不容許例外。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no room for exceptions under the policy."
+    },
+    {
+      "id": "ss169-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "They will achieve nothing by arguing over a decision that has already been made.",
+      "promptZh": "就一項已經作出的決定爭論，不會帶來任何成果。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no point in arguing over a decision that has already been made.",
+      "answerZh": "就一項已經作出的決定爭論並沒有作用。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no point in arguing over a decision that has already been made."
+    },
+    {
+      "id": "ss169-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No one doubts that the river needs protection.",
+      "promptZh": "沒有人懷疑這條河流需要受到保護。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no doubt that the river needs protection.",
+      "answerZh": "毫無疑問，這條河流需要受到保護。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no doubt that the river needs protection."
+    },
+    {
+      "id": "ss169-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The instructions do not give us any reason to remove the cover.",
+      "promptZh": "這些指示沒有給我們任何理由移除外殼。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no reason to remove the cover.",
+      "answerZh": "沒有理由移除外殼。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no reason to remove the cover."
+    },
+    {
+      "id": "ss169-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The building does not have a lift.",
+      "promptZh": "這座大樓沒有升降機。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no lift in the building.",
+      "answerZh": "這座大樓沒有升降機。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no lift in the building."
+    },
+    {
+      "id": "ss169-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The village does not have a hospital.",
+      "promptZh": "這條村莊沒有醫院。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no hospital in the village.",
+      "answerZh": "這條村莊沒有醫院。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no hospital in the village."
+    },
+    {
+      "id": "ss169-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The website shows nothing to suggest that the payment failed.",
+      "promptZh": "網站沒有顯示任何跡象，表示付款失敗。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no sign on the website that the payment failed.",
+      "answerZh": "網站沒有跡象顯示付款失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no sign on the website that the payment failed."
+    },
+    {
+      "id": "ss169-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It would be harmless to wait one more day.",
+      "promptZh": "多等一天也不會有壞處。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no harm in waiting one more day.",
+      "answerZh": "多等一天也沒有壞處。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no harm in waiting one more day."
+    },
+    {
+      "id": "ss169-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The review found nothing that would justify changing the whole system.",
+      "promptZh": "檢討沒有發現任何足以支持更改整個系統的理由。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no justification for changing the whole system.",
+      "answerZh": "沒有合理依據支持更改整個系統。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no justification for changing the whole system."
+    },
+    {
+      "id": "ss169-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Even the experts cannot determine exactly when the fault began.",
+      "promptZh": "即使是專家也無法確定故障究竟在何時開始。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no way to determine exactly when the fault began.",
+      "answerZh": "沒有辦法確定故障究竟在何時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no way to determine exactly when the fault began."
+    },
+    {
+      "id": "ss169-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It is impossible for visitors to enter after the gates have closed.",
+      "promptZh": "閘門關閉後，訪客便不可能進入。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no way for visitors to enter after the gates have closed.",
+      "answerZh": "閘門關閉後，訪客便沒有辦法進入。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no way for visitors to enter after the gates have closed."
+    },
+    {
+      "id": "ss169-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The evidence makes it impossible to deny that the company knew about the problem.",
+      "promptZh": "這些證據令人無法否認公司早已知道這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no denying that the company knew about the problem.",
+      "answerZh": "不能否認公司早已知道這個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no denying that the company knew about the problem."
+    },
+    {
+      "id": "ss169-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The contract does not promise that the work will be finished by Friday.",
+      "promptZh": "合約沒有保證工程會在星期五前完成。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no guarantee that the work will be finished by Friday.",
+      "answerZh": "不能保證工程會在星期五前完成。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no guarantee that the work will be finished by Friday."
+    },
+    {
+      "id": "ss169-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Complaining about the weather will not improve the situation.",
+      "promptZh": "抱怨天氣不會改善目前的情況。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no point in complaining about the weather.",
+      "answerZh": "抱怨天氣並沒有作用。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no point in complaining about the weather."
+    },
+    {
+      "id": "ss169-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The emergency plan allows no delay once the alarm sounds.",
+      "promptZh": "警報響起後，緊急應變計劃不容許任何延誤。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no room for delay once the alarm sounds.",
+      "answerZh": "警報響起後，事情不容許任何延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no room for delay once the alarm sounds."
+    },
+    {
+      "id": "ss169-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Employees do not need to reply unless they disagree with the proposal.",
+      "promptZh": "除非僱員不同意這項建議，否則不需要回覆。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no need for employees to reply unless they disagree with the proposal.",
+      "answerZh": "除非僱員不同意這項建議，否則不需要回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no need for employees to reply unless they disagree with the proposal."
+    },
+    {
+      "id": "ss169-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The data gives us no basis for assuming that the decline will continue.",
+      "promptZh": "這些數據沒有提供任何根據，讓我們假設跌勢會持續。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no basis for assuming that the decline will continue.",
+      "answerZh": "沒有根據假設跌勢會持續。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no basis for assuming that the decline will continue."
+    },
+    {
+      "id": "ss169-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Both options cost the same and provide the same service, so choosing one instead of the other makes no practical difference.",
+      "promptZh": "兩個選項的價格相同，提供的服務亦相同，因此選擇其中一個並沒有實際分別。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no practical difference between the two options.",
+      "answerZh": "兩個選項實際上沒有分別。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no practical difference between the two options."
+    }
+  ]
+}

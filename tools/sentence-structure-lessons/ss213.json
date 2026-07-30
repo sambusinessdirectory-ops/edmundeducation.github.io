@@ -1,0 +1,1223 @@
+{
+  "id": "ss213",
+  "order": 213,
+  "slug": "it-follows-that",
+  "title": "「It follows that ...」表達邏輯結論",
+  "titleZh": "「It follows that ...」表達邏輯結論",
+  "titleEn": "Using “It follows that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 212 -「It follows that ...」表達邏輯結論.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 212; it is assigned system ID ss213 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Premise / evidence; it follows that + complete clause",
+  "formulas": [
+    {
+      "id": "ss213-formula-01",
+      "labelEn": "After evidence",
+      "labelZh": "接在根據後",
+      "formula": "Premise / evidence; it follows that + complete clause"
+    },
+    {
+      "id": "ss213-formula-02",
+      "labelEn": "After premise",
+      "labelZh": "接在前提後",
+      "formula": "If / Since / Given that + premise, + it follows that + complete clause"
+    }
+  ],
+  "example": "If trust depends on consistency, it follows that empty promises are damaging.",
+  "exampleZh": "如果信任取決於一致性，那麼空洞的承諾自然會造成傷害。",
+  "examples": [
+    {
+      "id": "ss213-example-01",
+      "en": "If trust depends on consistency, it follows that empty promises are damaging.",
+      "zh": "如果信任取決於一致性，那麼空洞的承諾自然會造成傷害。",
+      "highlight": "If trust depends on consistency, it follows that empty promises are damaging."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Premise / evidence; it follows that + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss213-rule-01",
+      "zh": "前半部分提供根據，後半部分提出結論 （道路已經封閉，由此可見巴士無法使用原來的路線。） 道路封閉是根據，而巴士無法使用原來路線是根據該事實得出的結論。",
+      "en": "The first part supplies a basis and the second draws a conclusion. In “The road is closed; it follows that the bus cannot use its usual route”, the closure is the evidence and the route change is the conclusion inferred from it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The road is closed; it follows that the bus cannot use its usual route."
+      ]
+    },
+    {
+      "id": "ss213-rule-02",
+      "zh": "that 後面必須接完整句子 正確： 錯誤： that 後面需要有主語和動詞。",
+      "en": "Follow that with a complete clause containing a subject and verb. Correct: It follows that the plan must be changed. Incorrect: It follows that the plan.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It follows that the plan must be changed.",
+        "It follows that the plan."
+      ]
+    },
+    {
+      "id": "ss213-rule-03",
+      "zh": "it 是形式主語 在 it follows that 中，it 並不代表某個人物或物件。整個句型的意思是「由此可見」或「由此可以推 斷」。",
+      "en": "It is a dummy subject and does not refer to a person or object. The whole frame means “this shows that” or “from this, we can infer that.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss213-rule-04",
+      "zh": "結論必須得到前文支持 只有當前面的資料能合理支持後面的結論時，才適合使用這個句型。 不合理： 窗戶打開並不能證明一定是 Ben 打開的。 較合理：",
+      "en": "The conclusion must be supported by the preceding information. Use the frame only when the evidence reasonably supports the inference. Illogical: The window is open; it follows that Ben opened it. An open window does not prove who opened it. More reasonable: Ben was the only person in the room, and he admitted opening the window; it follows that he opened it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The window is open; it follows that Ben opened it.",
+        "Ben was the only person in the room, and he admitted opening the window; it follows that he"
+      ]
+    },
+    {
+      "id": "ss213-rule-05",
+      "zh": "保留原句的肯定程度 如果原句只表示可能性，答案亦應保留 may、might、probably 或 likely 等字眼。 不能把「可能下過雨」改成「一定下過雨」。",
+      "en": "Preserve the original degree of certainty. If the source expresses only possibility, retain words such as may, might, probably or likely. Example: The roads are wet, so it may have rained. → The roads are wet; it follows that it may have rained. Do not turn “may have rained” into a certainty.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The roads are wet, so it may have rained.",
+        "The roads are wet; it follows that it may have rained."
+      ]
+    },
+    {
+      "id": "ss213-rule-06",
+      "zh": "不要與相關句型混淆 ● It follows that ...：表示某個結論能夠從前文推導出來。 ● It does not follow that ...：表示某個結論不能從前文推導出來，意思相反。 ● It follows from X that ...：屬於相關但不同的延伸結構，本練習不要求使用。 ● A follows B：可以表示時間、次序或位置上的「跟隨」，並不是本課的邏輯結論用法。",
+      "en": "Distinguish related structures. It follows that ... says that a conclusion can be inferred. It does not follow that ... says the opposite: the conclusion cannot be inferred. It follows from X that ... is a related extension not required in this exercise. In “A follows B”, follow may describe temporal order, sequence or position rather than a logical conclusion.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss213-benefit-01",
+      "zh": "清楚展示「根據」和「結論」 這個句型能讓讀者立即知道，後面的觀點並不是隨意提出，而是根據前面的資料推導出來。",
+      "en": "It clearly displays the basis and conclusion. The reader immediately knows that the later point is inferred from the preceding information rather than introduced arbitrarily.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss213-benefit-02",
+      "zh": "令論述更有組織 你可以先提出規則、條件或證據，再使用 it follows that 引出結論。讀者會更容易跟上你的思路。",
+      "en": "It organises reasoning. Present a rule, condition or piece of evidence first, then use it follows that to introduce the conclusion, making the line of thought easier to follow.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss213-benefit-03",
+      "zh": "適合用於作文、報告和理性討論 這個句型帶有較正式和分析性的語氣，尤其適合議論文、研究報告、商業簡報及解釋因果關係。",
+      "en": "It suits essays, reports and reasoned discussion. Its formal, analytical tone works particularly well in argumentative essays, research reports, business presentations and explanations of causal relationships.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss213-benefit-04",
+      "zh": "可以縮短較長的表達 你不需要每次都使用較長的 therefore, we can conclude that，也能清楚表達邏輯結論。",
+      "en": "It shortens a longer expression. You need not repeatedly write “therefore, we can conclude that” to state a logical conclusion. Instead of “The road is closed. Therefore, we can conclude that the bus cannot use its usual route”, write: The road is closed; it follows that the bus cannot use its usual route.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss213-benefit-05",
+      "zh": "避免重複使用 so 和 therefore 學生經常重複使用 so 或 therefore。It follows that 提供另一種自然而準確的表達方式，讓文章 的句式更有變化。",
+      "en": "It avoids repeatedly using so and therefore. Learners often rely on those connectors, while It follows that provides another natural and precise way to express a conclusion and adds sentence variety.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 212; it is assigned system ID ss213 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Premise / evidence; it follows that + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Premise / evidence; it follows that + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss213-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "If the door is locked, then we cannot enter.",
+      "promptZh": "如果門已鎖上，那麼我們便無法進入。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the door is locked, it follows that we cannot enter.",
+      "answerZh": "如果門已鎖上，那麼可以推斷我們無法進入。",
+      "answerZhSource": "pdf",
+      "highlight": "If the door is locked, it follows that we cannot enter."
+    },
+    {
+      "id": "ss213-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The train has already left, so we cannot board it.",
+      "promptZh": "火車已經開出，因此我們無法登上火車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train has already left; it follows that we cannot board it.",
+      "answerZh": "火車已經開出，由此可見我們無法登上火車。",
+      "answerZhSource": "pdf",
+      "highlight": "The train has already left; it follows that we cannot board it."
+    },
+    {
+      "id": "ss213-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "All answers must be written in ink. Therefore, pencil answers are not allowed.",
+      "promptZh": "所有答案都必須用墨水筆書寫。因此，不得使用鉛筆作答。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All answers must be written in ink; it follows that pencil answers are not allowed.",
+      "answerZh": "所有答案都必須用墨水筆書寫，由此可見不得使用鉛筆作答。",
+      "answerZhSource": "pdf",
+      "highlight": "All answers must be written in ink; it follows that pencil answers are not allowed."
+    },
+    {
+      "id": "ss213-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When the traffic light is red, drivers must stop.",
+      "promptZh": "交通燈是紅色時，駕駛者必須停車。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the traffic light is red, it follows that drivers must stop.",
+      "answerZh": "如果交通燈是紅色，那麼可以推斷駕駛者必須停車。",
+      "answerZhSource": "pdf",
+      "highlight": "If the traffic light is red, it follows that drivers must stop."
+    },
+    {
+      "id": "ss213-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The battery is empty, so the phone will not turn on.",
+      "promptZh": "電池已經沒有電，因此電話無法開啟。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The battery is empty; it follows that the phone will not turn on.",
+      "answerZh": "電池已經沒有電，由此可見電話無法開啟。",
+      "answerZhSource": "pdf",
+      "highlight": "The battery is empty; it follows that the phone will not turn on."
+    },
+    {
+      "id": "ss213-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The café serves breakfast only until eleven. It is now noon, so breakfast is no longer available.",
+      "promptZh": "這間咖啡店只供應早餐至十一時。現在已是中午，因此不再供應早餐。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café serves breakfast only until eleven, and it is now noon; it follows that breakfast is no longer available.",
+      "answerZh": "這間咖啡店只供應早餐至十一時，而現在已是中午，由此可見早餐已不再供應。",
+      "answerZhSource": "pdf",
+      "highlight": "The café serves breakfast only until eleven, and it is now noon; it follows that breakfast is no longer available."
+    },
+    {
+      "id": "ss213-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If no one has the key, then the cupboard cannot be opened.",
+      "promptZh": "如果沒有人有鑰匙，那麼這個櫃便無法打開。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If no one has the key, it follows that the cupboard cannot be opened.",
+      "answerZh": "如果沒有人有鑰匙，那麼可以推斷這個櫃無法打開。",
+      "answerZhSource": "pdf",
+      "highlight": "If no one has the key, it follows that the cupboard cannot be opened."
+    },
+    {
+      "id": "ss213-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "All visitors need a ticket. Maya has no ticket, so she cannot enter.",
+      "promptZh": "所有訪客都需要門票。瑪雅沒有門票，因此她不能進入。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All visitors need a ticket, and Maya has no ticket; it follows that she cannot enter.",
+      "answerZh": "所有訪客都需要門票，而瑪雅沒有門票，由此可見她不能進入。",
+      "answerZhSource": "pdf",
+      "highlight": "All visitors need a ticket, and Maya has no ticket; it follows that she cannot enter."
+    },
+    {
+      "id": "ss213-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The road is closed. Therefore, the bus cannot use its usual route.",
+      "promptZh": "道路已經封閉。因此，巴士無法使用原來的路線。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road is closed; it follows that the bus cannot use its usual route.",
+      "answerZh": "道路已經封閉，由此可見巴士無法使用原來的路線。",
+      "answerZhSource": "pdf",
+      "highlight": "The road is closed; it follows that the bus cannot use its usual route."
+    },
+    {
+      "id": "ss213-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If the medicine must be kept cold, then it should not be left in the sun.",
+      "promptZh": "如果這種藥物必須冷藏，那麼便不應把它放在陽光下。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the medicine must be kept cold, it follows that it should not be left in the sun.",
+      "answerZh": "如果這種藥物必須冷藏，那麼可以推斷不應把它放在陽光下。",
+      "answerZhSource": "pdf",
+      "highlight": "If the medicine must be kept cold, it follows that it should not be left in the sun."
+    },
+    {
+      "id": "ss213-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The screen is blank, and the power light is off. This means that the computer is probably not receiving power.",
+      "promptZh": "螢幕一片空白，而且電源燈沒有亮起。這表示電腦可能沒有接收到電力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The screen is blank, and the power light is off; it follows that the computer is probably not receiving power.",
+      "answerZh": "螢幕一片空白，而且電源燈沒有亮起，由此可以推斷電腦可能沒有接收到電力。",
+      "answerZhSource": "pdf",
+      "highlight": "The screen is blank, and the power light is off; it follows that the computer is probably not receiving power."
+    },
+    {
+      "id": "ss213-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The school has announced that classes are cancelled. Consequently, students do not need to attend today.",
+      "promptZh": "學校已宣布取消課堂。因此，學生今天不需要回校上課。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has announced that classes are cancelled; it follows that students do not need to attend today.",
+      "answerZh": "學校已宣布取消課堂，由此可見學生今天不需要回校上課。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has announced that classes are cancelled; it follows that students do not need to attend today."
+    },
+    {
+      "id": "ss213-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "No food is allowed in the laboratory. Therefore, the sandwiches must stay outside.",
+      "promptZh": "實驗室內不准進食。因此，三文治必須留在外面。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No food is allowed in the laboratory; it follows that the sandwiches must stay outside.",
+      "answerZh": "實驗室內不准進食，由此可見三文治必須留在外面。",
+      "answerZhSource": "pdf",
+      "highlight": "No food is allowed in the laboratory; it follows that the sandwiches must stay outside."
+    },
+    {
+      "id": "ss213-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The last ferry leaves at ten, and it is already half past ten. We can conclude that there are no more ferries tonight.",
+      "promptZh": "尾班渡輪在十時開出，而現在已經是十時半。我們可以得出結論，今晚已經沒有其他渡輪。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The last ferry leaves at ten, and it is already half past ten; it follows that there are no more ferries tonight.",
+      "answerZh": "尾班渡輪在十時開出，而現在已經是十時半，由此可見今晚已經沒有其他渡輪。",
+      "answerZhSource": "pdf",
+      "highlight": "The last ferry leaves at ten, and it is already half past ten; it follows that there are no more ferries tonight."
+    },
+    {
+      "id": "ss213-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If every box contains twelve bottles, then four boxes contain forty-eight bottles.",
+      "promptZh": "如果每個箱子裝有十二個瓶子，那麼四個箱子便裝有四十八個瓶子。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If every box contains twelve bottles, it follows that four boxes contain forty-eight bottles.",
+      "answerZh": "如果每個箱子裝有十二個瓶子，那麼可以推斷四個箱子裝有四十八個瓶子。",
+      "answerZhSource": "pdf",
+      "highlight": "If every box contains twelve bottles, it follows that four boxes contain forty-eight bottles."
+    },
+    {
+      "id": "ss213-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why can the parcel not be delivered today? The address is incomplete, so the driver cannot find the building.",
+      "promptZh": "為甚麼包裹今天無法送達？地址並不完整，因此司機找不到那座大廈。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The address is incomplete, and the driver cannot find the building; it follows that the parcel cannot be delivered today.",
+      "answerZh": "地址並不完整，而司機找不到那座大廈，由此可見包裹今天無法送達。",
+      "answerZhSource": "pdf",
+      "highlight": "The address is incomplete, and the driver cannot find the building; it follows that the parcel cannot be delivered today."
+    },
+    {
+      "id": "ss213-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The sign says “Staff Only”. Consequently, customers should not go through this door.",
+      "promptZh": "告示寫着「只限職員」。因此，顧客不應從這道門通過。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sign says “Staff Only”; it follows that customers should not go through this door.",
+      "answerZh": "告示寫着「只限職員」，由此可見顧客不應從這道門通過。",
+      "answerZhSource": "pdf",
+      "highlight": "The sign says “Staff Only”; it follows that customers should not go through this door."
+    },
+    {
+      "id": "ss213-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The building has only one lift, and it is under repair. This means that visitors must use the stairs.",
+      "promptZh": "大廈只有一部升降機，而該升降機正在維修。這表示訪客必須使用樓梯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The building has only one lift, and it is under repair; it follows that visitors must use the stairs.",
+      "answerZh": "大廈只有一部升降機，而它正在維修，由此可見訪客必須使用樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "The building has only one lift, and it is under repair; it follows that visitors must use the stairs."
+    },
+    {
+      "id": "ss213-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The meeting starts at three, and it is already ten past three. Therefore, the meeting has begun.",
+      "promptZh": "會議在三時開始，而現在已經是三時十分。因此，會議已經開始。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting starts at three, and it is already ten past three; it follows that the meeting has begun.",
+      "answerZh": "會議在三時開始，而現在已經是三時十分，由此可見會議已經開始。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting starts at three, and it is already ten past three; it follows that the meeting has begun."
+    },
+    {
+      "id": "ss213-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the same rule applies to everyone, then managers are also required to follow it.",
+      "promptZh": "如果同一規則適用於所有人，那麼經理亦必須遵守。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the same rule applies to everyone, it follows that managers are also required to follow it.",
+      "answerZh": "如果同一規則適用於所有人，那麼可以推斷經理亦必須遵守。",
+      "answerZhSource": "pdf",
+      "highlight": "If the same rule applies to everyone, it follows that managers are also required to follow it."
+    },
+    {
+      "id": "ss213-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The report contains no supporting evidence. Therefore, its conclusion cannot be treated as certain.",
+      "promptZh": "報告沒有包含任何支持證據。因此，當中的結論不能被視為確定的事實。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report contains no supporting evidence; it follows that its conclusion cannot be treated as certain.",
+      "answerZh": "報告沒有包含任何支持證據，由此可見當中的結論不能被視為確定的事實。",
+      "answerZhSource": "pdf",
+      "highlight": "The report contains no supporting evidence; it follows that its conclusion cannot be treated as certain."
+    },
+    {
+      "id": "ss213-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "All applications are checked in the order received. This means that late applications will be checked after earlier ones.",
+      "promptZh": "所有申請都會按照收到的次序審核。這表示較遲收到的申請會在較早收到的申請之後審核。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All applications are checked in the order received; it follows that late applications will be checked after earlier ones.",
+      "answerZh": "所有申請都會按照收到的次序審核，由此可見較遲收到的申請會在較早收到的申請之後審核。",
+      "answerZhSource": "pdf",
+      "highlight": "All applications are checked in the order received; it follows that late applications will be checked after earlier ones."
+    },
+    {
+      "id": "ss213-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The machine was switched off before the test. Consequently, it could not have recorded the results.",
+      "promptZh": "機器在測試前已經關掉。因此，它不可能記錄了測試結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine was switched off before the test; it follows that it could not have recorded the results.",
+      "answerZh": "機器在測試前已經關掉，由此可見它不可能記錄了測試結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine was switched off before the test; it follows that it could not have recorded the results."
+    },
+    {
+      "id": "ss213-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the clinic accepts appointments only, then walk-in patients may not be seen immediately.",
+      "promptZh": "如果診所只接受預約，那麼沒有預約的病人可能無法立即獲得診治。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the clinic accepts appointments only, it follows that walk-in patients may not be seen immediately.",
+      "answerZh": "如果診所只接受預約，那麼可以推斷沒有預約的病人可能無法立即獲得診治。",
+      "answerZhSource": "pdf",
+      "highlight": "If the clinic accepts appointments only, it follows that walk-in patients may not be seen immediately."
+    },
+    {
+      "id": "ss213-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No changes were made to the timetable. We can therefore conclude that tomorrow’s classes will follow the original schedule.",
+      "promptZh": "時間表沒有作出任何更改。因此，我們可以得出結論，明天的課堂將按照原定時間進行。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No changes were made to the timetable; it follows that tomorrow’s classes will follow the original schedule.",
+      "answerZh": "時間表沒有作出任何更改，由此可見明天的課堂將按照原定時間進行。",
+      "answerZhSource": "pdf",
+      "highlight": "No changes were made to the timetable; it follows that tomorrow’s classes will follow the original schedule."
+    },
+    {
+      "id": "ss213-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why is the room probably empty? The lights are off, the door is locked, and no voices can be heard.",
+      "promptZh": "為甚麼房間很可能沒有人？燈已關掉，門已鎖上，而且聽不到任何說話聲。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights are off, the door is locked, and no voices can be heard; it follows that the room is probably empty.",
+      "answerZh": "燈已關掉，門已鎖上，而且聽不到任何說話聲，由此可以推斷房間很可能沒有人。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights are off, the door is locked, and no voices can be heard; it follows that the room is probably empty."
+    },
+    {
+      "id": "ss213-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The two measurements are identical. This means that the second instrument gave the same reading as the first.",
+      "promptZh": "兩個測量結果完全相同。這表示第二部儀器所得的讀數與第一部相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two measurements are identical; it follows that the second instrument gave the same reading as the first.",
+      "answerZh": "兩個測量結果完全相同，由此可見第二部儀器所得的讀數與第一部相同。",
+      "answerZhSource": "pdf",
+      "highlight": "The two measurements are identical; it follows that the second instrument gave the same reading as the first."
+    },
+    {
+      "id": "ss213-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Every route to the village is blocked. Therefore, supplies cannot reach it by road.",
+      "promptZh": "所有通往村莊的道路都被堵塞。因此，物資無法經陸路運送到村莊。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every route to the village is blocked; it follows that supplies cannot reach it by road.",
+      "answerZh": "所有通往村莊的道路都被堵塞，由此可見物資無法經陸路運送到村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "Every route to the village is blocked; it follows that supplies cannot reach it by road."
+    },
+    {
+      "id": "ss213-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The safety rule applies even during short visits. Consequently, temporary visitors must wear helmets too.",
+      "promptZh": "即使只是短暫到訪，這項安全規則仍然適用。因此，臨時訪客亦必須佩戴頭盔。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The safety rule applies even during short visits; it follows that temporary visitors must wear helmets too.",
+      "answerZh": "即使只是短暫到訪，這項安全規則仍然適用，由此可見臨時訪客亦必須佩戴頭盔。",
+      "answerZhSource": "pdf",
+      "highlight": "The safety rule applies even during short visits; it follows that temporary visitors must wear helmets too."
+    },
+    {
+      "id": "ss213-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The data were collected before the software update. Therefore, the new feature could not have affected the results.",
+      "promptZh": "這些數據是在軟件更新前收集的。因此，新功能不可能影響了結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The data were collected before the software update; it follows that the new feature could not have affected the results.",
+      "answerZh": "這些數據是在軟件更新前收集的，由此可見新功能不可能影響了結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The data were collected before the software update; it follows that the new feature could not have affected the results."
+    },
+    {
+      "id": "ss213-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Assume that each student receives one worksheet. There are thirty students, so we need thirty worksheets.",
+      "promptZh": "假設每名學生獲發一份工作紙。共有三十名學生，因此我們需要三十份工作紙。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If each student receives one worksheet and there are thirty students, it follows that we need thirty worksheets.",
+      "answerZh": "如果每名學生獲發一份工作紙，而共有三十名學生，那麼可以推斷我們需要三十份工作紙。",
+      "answerZhSource": "pdf",
+      "highlight": "If each student receives one worksheet and there are thirty students, it follows that we need thirty worksheets."
+    },
+    {
+      "id": "ss213-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company promises a refund only for unused items. This item has been used, so the customer is not entitled to a refund under this policy.",
+      "promptZh": "公司只承諾為未經使用的物品退款。這件物品已經使用，因此根據這項政策，顧客無權獲得退款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company promises a refund only for unused items, and this item has been used; it follows that the customer is not entitled to a refund under this policy.",
+      "answerZh": "公司只承諾為未經使用的物品退款，而這件物品已經使用，由此可見根據這項政策，顧客無權獲得退款。",
+      "answerZhSource": "pdf",
+      "highlight": "The company promises a refund only for unused items, and this item has been used; it follows that the customer is not entitled to a refund under this policy."
+    },
+    {
+      "id": "ss213-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The tap is still running, and the sink is blocked. As a result, the water level will continue to rise.",
+      "promptZh": "水龍頭仍然開着，而洗手盆亦被堵塞。因此，水位將會繼續上升。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The tap is still running, and the sink is blocked; it follows that the water level will continue to rise.",
+      "answerZh": "水龍頭仍然開着，而洗手盆亦被堵塞，由此可見水位將會繼續上升。",
+      "answerZhSource": "pdf",
+      "highlight": "The tap is still running, and the sink is blocked; it follows that the water level will continue to rise."
+    },
+    {
+      "id": "ss213-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The notice was successfully delivered to every registered member. Nina is registered. Therefore, she received it.",
+      "promptZh": "通知已成功送達每名已登記會員。妮娜是已登記會員。因此，她收到了通知。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The notice was successfully delivered to every registered member, and Nina is registered; it follows that she received it.",
+      "answerZh": "通知已成功送達每名已登記會員，而妮娜是已登記會員，由此可見她收到了通知。",
+      "answerZhSource": "pdf",
+      "highlight": "The notice was successfully delivered to every registered member, and Nina is registered; it follows that she received it."
+    },
+    {
+      "id": "ss213-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The password must contain at least eight characters. This password has only six, so it is invalid.",
+      "promptZh": "密碼必須包含最少八個字元。這個密碼只有六個字元，因此並不有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The password must contain at least eight characters, and this password has only six; it follows that it is invalid.",
+      "answerZh": "密碼必須包含最少八個字元，而這個密碼只有六個字元，由此可見它並不有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The password must contain at least eight characters, and this password has only six; it follows that it is invalid."
+    },
+    {
+      "id": "ss213-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If a bus departs every twenty minutes and one left at two o’clock, then the next one will leave at twenty past two.",
+      "promptZh": "如果巴士每二十分鐘開出一班，而其中一班在兩時開出，那麼下一班將在兩時二十分開出。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If a bus departs every twenty minutes and one left at two o’clock, it follows that the next one will leave at twenty past two.",
+      "answerZh": "如果巴士每二十分鐘開出一班，而其中一班在兩時開出，那麼可以推斷下一班將在兩時二十分開出。",
+      "answerZhSource": "pdf",
+      "highlight": "If a bus departs every twenty minutes and one left at two o’clock, it follows that the next one will leave at twenty past two."
+    },
+    {
+      "id": "ss213-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The patient is allergic to this ingredient. Therefore, the medicine should not be given to him.",
+      "promptZh": "這名病人對這種成分敏感。因此，不應讓他服用這種藥物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient is allergic to this ingredient; it follows that the medicine should not be given to him.",
+      "answerZh": "這名病人對這種成分敏感，由此可見不應讓他服用這種藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient is allergic to this ingredient; it follows that the medicine should not be given to him."
+    },
+    {
+      "id": "ss213-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The bridge is the only road connection to the island, and it has been closed. We must therefore conclude that vehicles cannot reach the island by road.",
+      "promptZh": "這座橋是唯一連接該島的陸路，而它已經封閉。因此，我們必須得出結論，車輛無法經陸路前往該島。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bridge is the only road connection to the island, and it has been closed; it follows that vehicles cannot reach the island by road.",
+      "answerZh": "這座橋是唯一連接該島的陸路，而它已經封閉，由此可見車輛無法經陸路前往該島。",
+      "answerZhSource": "pdf",
+      "highlight": "The bridge is the only road connection to the island, and it has been closed; it follows that vehicles cannot reach the island by road."
+    },
+    {
+      "id": "ss213-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The file was created yesterday, whereas the event happened last month. This means that the file cannot be the original record made at the time.",
+      "promptZh": "這份檔案是昨天建立的，但事件在上個月發生。這表示它不可能是事發當時製作的原始紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The file was created yesterday, whereas the event happened last month; it follows that the file cannot be the original record made at the time.",
+      "answerZh": "這份檔案是昨天建立的，但事件在上個月發生，由此可見它不可能是事發當時製作的原始紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The file was created yesterday, whereas the event happened last month; it follows that the file cannot be the original record made at the time."
+    },
+    {
+      "id": "ss213-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The rule covers anyone who handles customer data. Since interns also handle such data, they must follow the rule.",
+      "promptZh": "這項規則適用於任何處理顧客資料的人。由於實習生亦會處理這類資料，因此他們必須遵守規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rule covers anyone who handles customer data, and interns also handle such data; it follows that interns must follow the rule.",
+      "answerZh": "這項規則適用於任何處理顧客資料的人，而實習生亦會處理這類資料，由此可見實習生必須遵守規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The rule covers anyone who handles customer data, and interns also handle such data; it follows that interns must follow the rule."
+    },
+    {
+      "id": "ss213-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "All emergency exits must remain clear. Several boxes are blocking one exit. Therefore, the boxes must be moved immediately.",
+      "promptZh": "所有緊急出口都必須保持暢通。數個箱子正阻塞其中一個出口。因此，必須立即移走這些箱子。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All emergency exits must remain clear, and several boxes are blocking one exit; it follows that the boxes must be moved immediately.",
+      "answerZh": "所有緊急出口都必須保持暢通，而數個箱子正阻塞其中一個出口，由此可見必須立即移走這些箱子。",
+      "answerZhSource": "pdf",
+      "highlight": "All emergency exits must remain clear, and several boxes are blocking one exit; it follows that the boxes must be moved immediately."
+    },
+    {
+      "id": "ss213-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The survey includes only people who already use the service. Consequently, its results may not represent people who have never used it.",
+      "promptZh": "這項調查只包括已經使用該服務的人。因此，調查結果未必能代表從未使用該服務的人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The survey includes only people who already use the service; it follows that its results may not represent people who have never used it.",
+      "answerZh": "這項調查只包括已經使用該服務的人，由此可見調查結果未必能代表從未使用該服務的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The survey includes only people who already use the service; it follows that its results may not represent people who have never used it."
+    },
+    {
+      "id": "ss213-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The contract states that payment is due ten days after delivery. The goods were delivered on 5 July. Therefore, payment is due on 15 July.",
+      "promptZh": "合約列明款項須在交付貨物後十天支付。貨物在七月五日交付。因此，款項在七月十五日到期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The contract states that payment is due ten days after delivery, and the goods were delivered on 5 July; it follows that payment is due on 15 July.",
+      "answerZh": "合約列明款項須在交付貨物後十天支付，而貨物在七月五日交付，由此可見款項在七月十五日到期。",
+      "answerZhSource": "pdf",
+      "highlight": "The contract states that payment is due ten days after delivery, and the goods were delivered on 5 July; it follows that payment is due on 15 July."
+    },
+    {
+      "id": "ss213-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital has only one operating theatre, and it is being used for an emergency. This means that the scheduled operation may have to be delayed.",
+      "promptZh": "醫院只有一間手術室，而該手術室正用於處理緊急情況。這表示原定的手術可能需要延期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital has only one operating theatre, and it is being used for an emergency; it follows that the scheduled operation may have to be delayed.",
+      "answerZh": "醫院只有一間手術室，而該手術室正用於處理緊急情況，由此可見原定的手術可能需要延期。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital has only one operating theatre, and it is being used for an emergency; it follows that the scheduled operation may have to be delayed."
+    },
+    {
+      "id": "ss213-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Every reliable conclusion must be supported by evidence. This claim has no evidence, so it cannot yet be regarded as reliable.",
+      "promptZh": "每個可靠的結論都必須有證據支持。這項說法沒有證據，因此目前不能被視為可靠。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every reliable conclusion must be supported by evidence, and this claim has no evidence; it follows that the claim cannot yet be regarded as reliable.",
+      "answerZh": "每個可靠的結論都必須有證據支持，而這項說法沒有證據，由此可見它目前不能被視為可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Every reliable conclusion must be supported by evidence, and this claim has no evidence; it follows that the claim cannot yet be regarded as reliable."
+    },
+    {
+      "id": "ss213-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new rule requires permission for all vehicles entering the restricted area, including delivery vans. Therefore, delivery drivers must obtain permission before entering.",
+      "promptZh": "新規則要求所有進入限制區域的車輛事先取得許可，送貨車輛亦包括在內。因此，送貨司機必須在進入前取得許可。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule requires permission for all vehicles entering the restricted area, including delivery vans; it follows that delivery drivers must obtain permission before entering.",
+      "answerZh": "新規則要求所有進入限制區域的車輛事先取得許可，送貨車輛亦包括在內，由此可見送貨司機必須在進入前取得許可。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule requires permission for all vehicles entering the restricted area, including delivery vans; it follows that delivery drivers must obtain permission before entering."
+    },
+    {
+      "id": "ss213-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The temperature fell below freezing overnight, and the pavement was wet. It is therefore reasonable to conclude that some areas may be icy this morning.",
+      "promptZh": "昨晚氣溫降至冰點以下，而路面原本是濕的。因此，合理的結論是今早部分地方可能結冰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The temperature fell below freezing overnight, and the pavement was wet; it follows that some areas may be icy this morning.",
+      "answerZh": "昨晚氣溫降至冰點以下，而路面原本是濕的，由此可以推斷今早部分地方可能結冰。",
+      "answerZhSource": "pdf",
+      "highlight": "The temperature fell below freezing overnight, and the pavement was wet; it follows that some areas may be icy this morning."
+    },
+    {
+      "id": "ss213-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report compares only two branches, although the company has twenty. Consequently, its findings cannot automatically be applied to the whole company.",
+      "promptZh": "雖然公司共有二十間分店，但報告只比較了其中兩間。因此，報告結果不能自動套用於整間公司。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report compares only two branches, although the company has twenty; it follows that its findings cannot automatically be applied to the whole company.",
+      "answerZh": "雖然公司共有二十間分店，但報告只比較了其中兩間，由此可見報告結果不能自動套用於整間公司。",
+      "answerZhSource": "pdf",
+      "highlight": "The report compares only two branches, although the company has twenty; it follows that its findings cannot automatically be applied to the whole company."
+    },
+    {
+      "id": "ss213-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If trust depends on consistency, then repeated broken promises will weaken trust even when each promise seems small.",
+      "promptZh": "如果信任取決於言行一致，那麼即使每個承諾看似微不足道，屢次違背承諾仍會削弱信任。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If trust depends on consistency, it follows that repeated broken promises will weaken trust even when each promise seems small.",
+      "answerZh": "如果信任取決於言行一致，那麼可以推斷即使每個承諾看似微不足道，屢次違背承諾仍會削弱信任。",
+      "answerZhSource": "pdf",
+      "highlight": "If trust depends on consistency, it follows that repeated broken promises will weaken trust even when each promise seems small."
+    },
+    {
+      "id": "ss213-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The policy aims to reduce unnecessary journeys, and online appointments remove the need for many in-person visits. We can therefore conclude that expanding the online system would support the policy’s aim.",
+      "promptZh": "這項政策旨在減少不必要的行程，而網上預約能免除很多親身到訪的需要。因此，我們可以得出結論，擴展網上系統將有助達成政策目標。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy aims to reduce unnecessary journeys, and online appointments remove the need for many in-person visits; it follows that expanding the online system would support the policy’s aim.",
+      "answerZh": "這項政策旨在減少不必要的行程，而網上預約能免除很多親身到訪的需要，由此可見擴展網上系統將有助達成政策目標。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy aims to reduce unnecessary journeys, and online appointments remove the need for many in-person visits; it follows that expanding the online system would support the policy’s aim."
+    }
+  ]
+}

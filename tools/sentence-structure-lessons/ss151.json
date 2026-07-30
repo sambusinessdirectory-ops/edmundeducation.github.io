@@ -1,0 +1,1265 @@
+{
+  "id": "ss151",
+  "order": 151,
+  "slug": "it-cleft-emphasis",
+  "title": "It-Cleft 強調句",
+  "titleZh": "「It-Cleft 強調句」",
+  "titleEn": "Using the It-cleft to emphasise a person, thing, time, place, reason or method",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 151 -「It-Cleft 強調句」.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "It + is / was + person + who + clause",
+  "formulas": [
+    {
+      "id": "ss151-formula-01",
+      "labelEn": "Person focus",
+      "labelZh": "強調人物",
+      "formula": "It + is / was + person + who + clause"
+    },
+    {
+      "id": "ss151-formula-02",
+      "labelEn": "Other focus",
+      "labelZh": "強調事物、時間、地點、原因或方法",
+      "formula": "It + is / was + focused element + that + clause"
+    }
+  ],
+  "example": "It was John who saved me in the fire.",
+  "exampleZh": "在火災中救了我的正是約翰。",
+  "examples": [
+    {
+      "id": "ss151-example-01",
+      "en": "It was John who saved me in the fire.",
+      "zh": "在火災中救了我的正是約翰。",
+      "highlight": "It was John who saved me in the fire."
+    },
+    {
+      "id": "ss151-example-02",
+      "en": "It was yesterday that John called me.",
+      "zh": "約翰正是在昨天致電給我。",
+      "highlight": "It was yesterday that John called me."
+    },
+    {
+      "id": "ss151-example-03",
+      "en": "It was at the station that we met.",
+      "zh": "我們正是在車站見面。",
+      "highlight": "It was at the station that we met."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss151-rule-01",
+      "zh": "現在的事情一般使用 is；過去的事情一般使用 was。",
+      "en": "Use is for present situations and was for past situations. It is Mary who prepares the reports. It was Mary who prepared the report yesterday.",
+      "enSource": "pdf",
+      "examples": [
+        "It is Mary who prepares the reports.",
+        "It was Mary who prepared the report yesterday."
+      ]
+    },
+    {
+      "id": "ss151-rule-02",
+      "zh": "強調人物時，本練習使用 who。",
+      "en": "Use who when the focused element is a person. It was Ben who opened the door.",
+      "enSource": "pdf",
+      "examples": [
+        "It was Ben who opened the door."
+      ]
+    },
+    {
+      "id": "ss151-rule-03",
+      "zh": "強調事物、時間、地點、原因或方法時，使用 that。",
+      "en": "Use that for things, times, places, reasons and methods. It was the red bag that she bought. It was on Monday that we met. It was at school that the accident happened. It was because he was ill that he stayed home.",
+      "enSource": "pdf",
+      "examples": [
+        "It was the red bag that she bought.",
+        "It was on Monday that we met.",
+        "It was at school that the accident happened.",
+        "It was because he was ill that he stayed home."
+      ]
+    },
+    {
+      "id": "ss151-rule-04",
+      "zh": "改寫後必須保留原句的時態和意思。",
+      "en": "Keep the original tense and meaning. Amy found the key. It was Amy who found the key. Amy checks the door every night. It is Amy who checks the door every night.",
+      "enSource": "pdf",
+      "examples": [
+        "Amy found the key.",
+        "It was Amy who found the key.",
+        "Amy checks the door every night.",
+        "It is Amy who checks the door every night."
+      ]
+    },
+    {
+      "id": "ss151-rule-05",
+      "zh": "不要在答案中加入原句沒有提供的新資料。",
+      "en": "The focused information must already appear in the source sentence.",
+      "enSource": "pdf",
+      "examples": [
+        "The focused information must already appear in the source sentence."
+      ]
+    },
+    {
+      "id": "ss151-rule-06",
+      "zh": "以下句子並不是本課所學的 It-cleft 強調句：",
+      "en": "Not every sentence beginning with It is or It was is an It-cleft sentence. It is raining. It is important that you arrive early. It was difficult to understand the instructions.",
+      "enSource": "pdf",
+      "examples": [
+        "Not every sentence beginning with It is or It was is an It-cleft sentence.",
+        "It is raining.",
+        "It is important that you arrive early.",
+        "It was difficult to understand the instructions."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss151-benefit-01",
+      "zh": "這個句型能立即告訴聽者或讀者，句子中哪個人物、事物或細節最重要。 第二句清楚強調救人的人是 John，而不是其他人。",
+      "en": "It makes the most important information clear. This structure immediately tells the listener or reader which person, thing or detail is especially important. Compare: John saved me in the fire. It was John who saved me in the fire.",
+      "enSource": "pdf",
+      "examples": [
+        "It makes the most important information clear.",
+        "It was John who saved me in the fire."
+      ]
+    },
+    {
+      "id": "ss151-benefit-02",
+      "zh": "你可以使用 It-cleft 句糾正錯誤資料，清楚指出真正正確的人物或細節。 （會議是在星期一，而不是星期二舉行的。）",
+      "en": "It helps you correct a misunderstanding. You can use an It-cleft sentence to show that one detail is correct and another is not. It was Monday, not Tuesday, that the meeting took place.",
+      "enSource": "pdf",
+      "examples": [
+        "It helps you correct a misunderstanding.",
+        "You can use an It-cleft sentence to show that one detail is correct and another is not.",
+        "It was Monday, not Tuesday, that the meeting took place."
+      ]
+    },
+    {
+      "id": "ss151-benefit-03",
+      "zh": "It-cleft 句很適合用來回答 who、what、when、where、why 或 how 問題。",
+      "en": "It gives direct answers to important questions. It-cleft sentences are useful when answering questions beginning with who, what, when, where, why or how. It-cleft Who found the wallet? It was Nina who found it.",
+      "enSource": "pdf",
+      "examples": [
+        "It gives direct answers to important questions.",
+        "Who found the wallet?",
+        "It was Nina who found it."
+      ]
+    },
+    {
+      "id": "ss151-benefit-04",
+      "zh": "事件本身沒有改變，但你可以選擇希望聽者特別留意哪一部分。",
+      "en": "It changes the emphasis without changing the basic facts. The event remains the same, but you can choose which part the listener should notice. It was Nina who found the wallet. It was the wallet that Nina found. It was at the station that Nina found the wallet.",
+      "enSource": "pdf",
+      "examples": [
+        "It changes the emphasis without changing the basic facts.",
+        "The event remains the same, but you can choose which part the listener should notice.",
+        "It was Nina who found the wallet.",
+        "It was the wallet that Nina found.",
+        "It was at the station that Nina found the wallet."
+      ]
+    },
+    {
+      "id": "ss151-benefit-05",
+      "zh": "除了經常使用普通的主語開頭外，你也可以使用 It-cleft 句突出重點，令口語和寫作的句式更有變 化。",
+      "en": "It gives your speaking and writing more sentence variety. Instead of always beginning with an ordinary subject, you can use an It-cleft sentence to present an important point more effectively.",
+      "enSource": "pdf",
+      "examples": [
+        "It gives your speaking and writing more sentence variety."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using It-Cleft 強調句.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 It-Cleft 強調句 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss151-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "John saved me in the fire.",
+      "promptZh": "約翰在火災中救了我。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was John who saved me in the fire.",
+      "answerZh": "在火災中救了我的正是約翰。",
+      "answerZhSource": "pdf",
+      "highlight": "It was John who saved me in the fire."
+    },
+    {
+      "id": "ss151-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Who found the missing key? Mia found it.",
+      "promptZh": "誰找到了遺失的鎖匙？米婭找到了。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was Mia who found the missing key.",
+      "answerZh": "找到遺失鎖匙的人正是米婭。",
+      "answerZhSource": "pdf",
+      "highlight": "It was Mia who found the missing key."
+    },
+    {
+      "id": "ss151-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Daniel is the person who prepares breakfast every Sunday.",
+      "promptZh": "丹尼爾是每個星期日準備早餐的人。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is Daniel who prepares breakfast every Sunday.",
+      "answerZh": "每個星期日準備早餐的正是丹尼爾。",
+      "answerZhSource": "pdf",
+      "highlight": "It is Daniel who prepares breakfast every Sunday."
+    },
+    {
+      "id": "ss151-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Emma bought the red bag.",
+      "promptZh": "艾瑪買了那個紅色袋子。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the red bag that Emma bought.",
+      "answerZh": "艾瑪買的正是那個紅色袋子。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the red bag that Emma bought."
+    },
+    {
+      "id": "ss151-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Which button starts the machine? This button starts it.",
+      "promptZh": "哪一個按鈕可以啟動機器？這個按鈕可以。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is this button that starts the machine.",
+      "answerZh": "啟動機器的正是這個按鈕。",
+      "answerZhSource": "pdf",
+      "highlight": "It is this button that starts the machine."
+    },
+    {
+      "id": "ss151-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We first met at the library.",
+      "promptZh": "我們第一次見面是在圖書館。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was at the library that we first met.",
+      "answerZh": "我們正是在圖書館第一次見面。",
+      "answerZhSource": "pdf",
+      "highlight": "It was at the library that we first met."
+    },
+    {
+      "id": "ss151-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When did Leo call you? He called me yesterday.",
+      "promptZh": "里奧何時致電給你？他在昨天致電給我。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was yesterday that Leo called me.",
+      "answerZh": "里奧是在昨天致電給我的。",
+      "answerZhSource": "pdf",
+      "highlight": "It was yesterday that Leo called me."
+    },
+    {
+      "id": "ss151-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why does Chloe volunteer at the animal shelter? She does so because she loves animals.",
+      "promptZh": "克洛伊為甚麼在動物收容所做義工？因為她喜愛動物。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is because she loves animals that Chloe volunteers at the animal shelter.",
+      "answerZh": "克洛伊正是因為喜愛動物，才在動物收容所做義工。",
+      "answerZhSource": "pdf",
+      "highlight": "It is because she loves animals that Chloe volunteers at the animal shelter."
+    },
+    {
+      "id": "ss151-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The window was broken by Ben.",
+      "promptZh": "窗戶是本打破的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was Ben who broke the window.",
+      "answerZh": "打破窗戶的正是本。",
+      "answerZhSource": "pdf",
+      "highlight": "It was Ben who broke the window."
+    },
+    {
+      "id": "ss151-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Which notebook do you need? I need the blue notebook.",
+      "promptZh": "你需要哪本筆記簿？我需要那本藍色筆記簿。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is the blue notebook that I need.",
+      "answerZh": "我需要的正是那本藍色筆記簿。",
+      "answerZhSource": "pdf",
+      "highlight": "It is the blue notebook that I need."
+    },
+    {
+      "id": "ss151-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Who organised the class party? Sarah did.",
+      "promptZh": "誰籌辦了班級派對？是莎拉。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was Sarah who organised the class party.",
+      "answerZh": "籌辦班級派對的正是莎拉。",
+      "answerZhSource": "pdf",
+      "highlight": "It was Sarah who organised the class party."
+    },
+    {
+      "id": "ss151-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The meeting began after lunch.",
+      "promptZh": "會議在午飯後開始。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was after lunch that the meeting began.",
+      "answerZh": "會議正是在午飯後開始。",
+      "answerZhSource": "pdf",
+      "highlight": "It was after lunch that the meeting began."
+    },
+    {
+      "id": "ss151-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Where does Dad keep the spare keys? He keeps them in the top drawer.",
+      "promptZh": "爸爸把後備鎖匙放在哪裏？他把鎖匙放在最上層的抽屜裏。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is in the top drawer that Dad keeps the spare keys.",
+      "answerZh": "爸爸把後備鎖匙放在最上層的抽屜裏。",
+      "answerZhSource": "pdf",
+      "highlight": "It is in the top drawer that Dad keeps the spare keys."
+    },
+    {
+      "id": "ss151-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The match was delayed by the heavy rain.",
+      "promptZh": "比賽因為大雨而延遲。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the heavy rain that delayed the match.",
+      "answerZh": "令比賽延遲的正是大雨。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the heavy rain that delayed the match."
+    },
+    {
+      "id": "ss151-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The one thing you must bring tomorrow is your passport.",
+      "promptZh": "你明天必須帶備的東西是你的護照。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is your passport that you must bring tomorrow.",
+      "answerZh": "你明天必須帶備的正是你的護照。",
+      "answerZhSource": "pdf",
+      "highlight": "It is your passport that you must bring tomorrow."
+    },
+    {
+      "id": "ss151-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This advice was given to me by Olivia.",
+      "promptZh": "這項建議是奧莉花給我的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was Olivia who gave me this advice.",
+      "answerZh": "給我這項建議的正是奧莉花。",
+      "answerZhSource": "pdf",
+      "highlight": "It was Olivia who gave me this advice."
+    },
+    {
+      "id": "ss151-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Where did Ethan leave his umbrella? He left it on the bus.",
+      "promptZh": "伊森把雨傘遺留在哪裏？他把雨傘遺留在巴士上。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was on the bus that Ethan left his umbrella.",
+      "answerZh": "伊森正是把雨傘遺留在巴士上。",
+      "answerZhSource": "pdf",
+      "highlight": "It was on the bus that Ethan left his umbrella."
+    },
+    {
+      "id": "ss151-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why can you not concentrate? I cannot concentrate because the room is too noisy.",
+      "promptZh": "你為甚麼不能集中精神？因為房間太嘈吵。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is because the room is too noisy that I cannot concentrate.",
+      "answerZh": "我正是因為房間太嘈吵而不能集中精神。",
+      "answerZhSource": "pdf",
+      "highlight": "It is because the room is too noisy that I cannot concentrate."
+    },
+    {
+      "id": "ss151-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Someone else sent the message; Jack did not.",
+      "promptZh": "訊息是其他人發出的；不是傑克。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not Jack who sent the message.",
+      "answerZh": "發出訊息的人不是傑克。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not Jack who sent the message."
+    },
+    {
+      "id": "ss151-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Which part needs more detail? The final paragraph needs more detail.",
+      "promptZh": "哪一部分需要加入更多細節？最後一段需要更多細節。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is the final paragraph that needs more detail.",
+      "answerZh": "需要加入更多細節的正是最後一段。",
+      "answerZhSource": "pdf",
+      "highlight": "It is the final paragraph that needs more detail."
+    },
+    {
+      "id": "ss151-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The reading programme was introduced by the new teacher.",
+      "promptZh": "閱讀計劃是由新老師引入的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the new teacher who introduced the reading programme.",
+      "answerZh": "引入閱讀計劃的正是新老師。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the new teacher who introduced the reading programme."
+    },
+    {
+      "id": "ss151-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The family’s move to Canada took place last winter.",
+      "promptZh": "這家人在去年冬天搬到加拿大。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was last winter that the family moved to Canada.",
+      "answerZh": "這家人正是在去年冬天搬到加拿大。",
+      "answerZhSource": "pdf",
+      "highlight": "It was last winter that the family moved to Canada."
+    },
+    {
+      "id": "ss151-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "How do students build confidence? They build it through regular practice.",
+      "promptZh": "學生如何建立自信？他們透過定期練習建立自信。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is through regular practice that students build confidence.",
+      "answerZh": "學生正是透過定期練習建立自信。",
+      "answerZhSource": "pdf",
+      "highlight": "It is through regular practice that students build confidence."
+    },
+    {
+      "id": "ss151-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The problem was caused by a small coding error.",
+      "promptZh": "問題是由一個小小的程式編碼錯誤造成的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was a small coding error that caused the problem.",
+      "answerZh": "造成問題的正是一個小小的程式編碼錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "It was a small coding error that caused the problem."
+    },
+    {
+      "id": "ss151-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Which desk should visitors contact first? They should contact the reception desk.",
+      "promptZh": "訪客應該先聯絡哪個櫃位？他們應該先聯絡接待處。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is the reception desk that visitors should contact first.",
+      "answerZh": "訪客應該先聯絡的正是接待處。",
+      "answerZhSource": "pdf",
+      "highlight": "It is the reception desk that visitors should contact first."
+    },
+    {
+      "id": "ss151-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Who persuaded you to apply? My sister persuaded me.",
+      "promptZh": "誰說服你提出申請？是我的姐姐說服我的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was my sister who persuaded me to apply.",
+      "answerZh": "說服我提出申請的正是我的姐姐。",
+      "answerZhSource": "pdf",
+      "highlight": "It was my sister who persuaded me to apply."
+    },
+    {
+      "id": "ss151-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Where did the hikers find the injured dog? They found it beside the old bridge.",
+      "promptZh": "遠足人士在哪裏找到受傷的狗？他們在舊橋旁邊找到牠。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was beside the old bridge that the hikers found the injured dog.",
+      "answerZh": "遠足人士正是在舊橋旁邊找到受傷的狗。",
+      "answerZhSource": "pdf",
+      "highlight": "It was beside the old bridge that the hikers found the injured dog."
+    },
+    {
+      "id": "ss151-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The road is closed, and that is why the bus is late.",
+      "promptZh": "道路已經封閉，巴士正是因此而遲到。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is because the road is closed that the bus is late.",
+      "answerZh": "巴士正是因為道路封閉而遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "It is because the road is closed that the bus is late."
+    },
+    {
+      "id": "ss151-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Something else worried the customer; the price did not.",
+      "promptZh": "令顧客擔心的是其他事情；並不是價錢。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not the price that worried the customer.",
+      "answerZh": "令顧客擔心的並不是價錢。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not the price that worried the customer."
+    },
+    {
+      "id": "ss151-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "These trees were planted by the children.",
+      "promptZh": "這些樹是由孩子們種植的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the children who planted these trees.",
+      "answerZh": "種植這些樹的正是孩子們。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the children who planted these trees."
+    },
+    {
+      "id": "ss151-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The person who noticed the change in the patient’s condition was the night-shift nurse.",
+      "promptZh": "留意到病人情況有變的人是夜班護士。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the night-shift nurse who noticed the change in the patient’s condition.",
+      "answerZh": "留意到病人情況有變的正是夜班護士。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the night-shift nurse who noticed the change in the patient’s condition."
+    },
+    {
+      "id": "ss151-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The alarm stopped working during the fire drill.",
+      "promptZh": "警報器在火警演習期間停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was during the fire drill that the alarm stopped working.",
+      "answerZh": "警報器正是在火警演習期間停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "It was during the fire drill that the alarm stopped working."
+    },
+    {
+      "id": "ss151-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What do I need to enter? You need to enter the password on the back of the router.",
+      "promptZh": "我需要輸入甚麼？你需要輸入路由器背面的密碼。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is the password on the back of the router that you need to enter.",
+      "answerZh": "你需要輸入的正是路由器背面的密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "It is the password on the back of the router that you need to enter."
+    },
+    {
+      "id": "ss151-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new employees were confused by the lack of clear instructions.",
+      "promptZh": "新僱員因為缺乏清晰指示而感到困惑。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the lack of clear instructions that confused the new employees.",
+      "answerZh": "令新僱員感到困惑的正是缺乏清晰指示。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the lack of clear instructions that confused the new employees."
+    },
+    {
+      "id": "ss151-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How can a reporter uncover the truth? A reporter can do so by asking careful questions.",
+      "promptZh": "記者如何查明真相？記者可以透過提出經過仔細思考的問題查明真相。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is by asking careful questions that a reporter can uncover the truth.",
+      "answerZh": "記者正是透過提出經過仔細思考的問題查明真相。",
+      "answerZhSource": "pdf",
+      "highlight": "It is by asking careful questions that a reporter can uncover the truth."
+    },
+    {
+      "id": "ss151-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This book was recommended to our class by Professor Lee.",
+      "promptZh": "這本書是由李教授推薦給我們班的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was Professor Lee who recommended this book to our class.",
+      "answerZh": "向我們班推薦這本書的正是李教授。",
+      "answerZhSource": "pdf",
+      "highlight": "It was Professor Lee who recommended this book to our class."
+    },
+    {
+      "id": "ss151-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Where did you collect the replacement card? I collected it at the customer service counter.",
+      "promptZh": "你在哪裏領取補發的卡？我在顧客服務櫃位領取。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was at the customer service counter that I collected the replacement card.",
+      "answerZh": "我正是在顧客服務櫃位領取補發的卡。",
+      "answerZhSource": "pdf",
+      "highlight": "It was at the customer service counter that I collected the replacement card."
+    },
+    {
+      "id": "ss151-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We cannot make a final decision for one reason: the data is incomplete.",
+      "promptZh": "我們未能作出最終決定，原因是資料並不完整。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is because the data is incomplete that we cannot make a final decision.",
+      "answerZh": "我們正是因為資料並不完整而未能作出最終決定。",
+      "answerZhSource": "pdf",
+      "highlight": "It is because the data is incomplete that we cannot make a final decision."
+    },
+    {
+      "id": "ss151-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Her assistant, not the manager, approved the request.",
+      "promptZh": "批准這項申請的是經理的助理，而不是經理。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not the manager but her assistant who approved the request.",
+      "answerZh": "批准這項申請的不是經理，而是她的助理。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not the manager but her assistant who approved the request."
+    },
+    {
+      "id": "ss151-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Which switch controls the brightness? The small metal switch beside the screen controls it.",
+      "promptZh": "哪一個開關控制亮度？是螢幕旁邊的小型金屬開關。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is the small metal switch beside the screen that controls the brightness.",
+      "answerZh": "控制亮度的正是螢幕旁邊的小型金屬開關。",
+      "answerZhSource": "pdf",
+      "highlight": "It is the small metal switch beside the screen that controls the brightness."
+    },
+    {
+      "id": "ss151-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Temporary shelter was provided for the residents by the community centre.",
+      "promptZh": "社區中心為居民提供了臨時住所。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the community centre that provided temporary shelter for the residents.",
+      "answerZh": "為居民提供臨時住所的正是社區中心。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the community centre that provided temporary shelter for the residents."
+    },
+    {
+      "id": "ss151-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When did the rescue team reach the village? They arrived shortly before midnight.",
+      "promptZh": "救援隊何時到達村莊？他們在接近午夜前不久到達。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was shortly before midnight that the rescue team reached the village.",
+      "answerZh": "救援隊正是在接近午夜前不久到達村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "It was shortly before midnight that the rescue team reached the village."
+    },
+    {
+      "id": "ss151-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "All leave requests must be submitted through the new online system.",
+      "promptZh": "所有休假申請都必須透過新的網上系統提交。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is through the new online system that staff must submit all leave requests.",
+      "answerZh": "員工必須透過新的網上系統提交所有休假申請。",
+      "answerZhSource": "pdf",
+      "highlight": "It is through the new online system that staff must submit all leave requests."
+    },
+    {
+      "id": "ss151-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The delay was caused by a misunderstanding between the two departments.",
+      "promptZh": "延誤是由兩個部門之間的誤會造成的。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was a misunderstanding between the two departments that caused the delay.",
+      "answerZh": "造成延誤的正是兩個部門之間的誤會。",
+      "answerZhSource": "pdf",
+      "highlight": "It was a misunderstanding between the two departments that caused the delay."
+    },
+    {
+      "id": "ss151-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Patients should not drive because the medicine may cause drowsiness.",
+      "promptZh": "病人不應駕駛，因為這種藥物可能令人產生睡意。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is because the medicine may cause drowsiness that patients should not drive.",
+      "answerZh": "病人正是因為這種藥物可能令人產生睡意而不應駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "It is because the medicine may cause drowsiness that patients should not drive."
+    },
+    {
+      "id": "ss151-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which group raised the most money for the charity? The students from Class 3B did.",
+      "promptZh": "哪一組學生為慈善機構籌得最多款項？是3B 班的學生。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the students from Class 3B who raised the most money for the charity.",
+      "answerZh": "為慈善機構籌得最多款項的正是3B班的學生。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the students from Class 3B who raised the most money for the charity."
+    },
+    {
+      "id": "ss151-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When did the team score both goals? They scored them in the final ten minutes of the match.",
+      "promptZh": "球隊何時射入兩球？他們在比賽最後十分鐘射入兩球。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was in the final ten minutes of the match that the team scored both goals.",
+      "answerZh": "球隊正是在比賽最後十分鐘射入兩球。",
+      "answerZhSource": "pdf",
+      "highlight": "It was in the final ten minutes of the match that the team scored both goals."
+    },
+    {
+      "id": "ss151-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What must the investigators examine first? They must first examine the evidence collected at the scene.",
+      "promptZh": "調查人員必須先檢查甚麼？他們必須先檢查在現場收集的證據。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is the evidence collected at the scene that the investigators must examine first.",
+      "answerZh": "調查人員必須先檢查的正是在現場收集的證據。",
+      "answerZhSource": "pdf",
+      "highlight": "It is the evidence collected at the scene that the investigators must examine first."
+    },
+    {
+      "id": "ss151-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Poor planning, not a lack of effort, caused the project to fail.",
+      "promptZh": "導致項目失敗的是規劃不善，而不是缺乏努力。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not a lack of effort but poor planning that caused the project to fail.",
+      "answerZh": "導致項目失敗的不是缺乏努力，而是規劃不善。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not a lack of effort but poor planning that caused the project to fail."
+    },
+    {
+      "id": "ss151-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What persuaded the council to approve the plan? The promise of equal support for every resident persuaded it.",
+      "promptZh": "甚麼令議會同意這項計劃？是向每名居民提供平等支援的承諾。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the promise of equal support for every resident that persuaded the council to approve the plan.",
+      "answerZh": "令議會同意這項計劃的正是向每名居民提供平等支援的承諾。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the promise of equal support for every resident that persuaded the council to approve the plan."
+    }
+  ]
+}

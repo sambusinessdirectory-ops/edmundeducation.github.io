@@ -1,0 +1,1234 @@
+{
+  "id": "ss124",
+  "order": 124,
+  "slug": "per-se",
+  "title": "「Per se 句：表達『本身／就其本身而言』」",
+  "titleZh": "「Per se 句：表達『本身／就其本身而言』」",
+  "titleEn": "Using per se to distinguish a thing itself from its context",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 124 - 「Per se 句：表達『本身／就其本身而言』」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + be + not + adjective / noun phrase + per se; + the real issue or qualification",
+  "formulas": [
+    {
+      "id": "ss124-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Subject + be + not + adjective / noun phrase + per se; + the real issue or qualification"
+    },
+    {
+      "id": "ss124-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Subject + do / does / did + not + verb + object + per se; + qualification"
+    },
+    {
+      "id": "ss124-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Subject + be + adjective / noun phrase + per se, but + limitation"
+    }
+  ],
+  "example": "Coffee is not bad per se; drinking too much of it is.",
+  "exampleZh": "咖啡本身並沒有不好；喝太多才是問題。",
+  "examples": [
+    {
+      "id": "ss124-example-01",
+      "en": "Coffee is not bad per se; drinking too much of it is.",
+      "zh": "咖啡本身並沒有不好；喝太多才是問題。",
+      "highlight": "per se"
+    },
+    {
+      "id": "ss124-example-02",
+      "en": "Memorisation is not harmful per se, but relying on it alone can be limiting.",
+      "zh": "死記硬背本身並沒有害處，但只依賴它可能會有局限。",
+      "highlight": "per se"
+    },
+    {
+      "id": "ss124-example-03",
+      "en": "Working overtime is not the problem per se; poor planning is.",
+      "zh": "加班本身不是問題；規劃不善才是。",
+      "highlight": "per se"
+    },
+    {
+      "id": "ss124-example-04",
+      "en": "Artificial intelligence is not dangerous per se; how people use it matters more.",
+      "zh": "人工智能本身並不危險；更重要的是人們如何使用它。",
+      "highlight": "per se"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss124-rule-01",
+      "zh": "通常放在被限定的詞語或意思之後",
+      "en": "Place per se after the word or idea whose scope it limits.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Coffee is not unhealthy per se."
+      ]
+    },
+    {
+      "id": "ss124-rule-02",
+      "zh": "最常見的形式是 not … per se 這個句式不是說某件事完全沒有問題，而是指出「問題不在事物本身」。",
+      "en": "The most common pattern is not ... per se. It does not claim that there is no problem at all; it says that the problem does not lie in the thing itself.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss124-rule-03",
+      "zh": "後面常用 but 或分號補充真正問題",
+      "en": "A but-clause or semicolon often introduces the real issue.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The rule is not unfair per se, but its application may be inconsistent."
+      ]
+    },
+    {
+      "id": "ss124-rule-04",
+      "zh": "per se 與 in itself、by itself 意思相近 Per se 通常較精簡，語氣亦稍為正式，常見於作文、討論、報告及分析性說話。",
+      "en": "Per se is close in meaning to in itself or by itself. It is usually more concise and slightly formal, and is common in essays, discussions, reports and analytical speech.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss124-rule-05",
+      "zh": "必須寫成兩個字：per se 不要寫成 per say，亦不要加連字號。",
+      "en": "Write per se as two words; do not write per say or hyphenate it.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss124-rule-06",
+      "zh": "本練習集中訓練平衡評價 答案主要使用 not … per se，再指出真正原因、限制、使用方式或後果。",
+      "en": "This lesson focuses on balanced evaluation. Answers mainly use not ... per se and then identify the true cause, limitation, manner of use or consequence.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss124-benefit-01",
+      "zh": "這個句型能避免你把事情說得過分絕對。你可以指出某件事本身未必好或壞，真正情況要視乎其 他因素。",
+      "en": "It helps you avoid overgeneralising. This structure lets you explain that something is not automatically good, bad, safe or harmful simply because it exists; whether it is good or bad may depend on other factors.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss124-benefit-02",
+      "zh": "你可以把事物本身與錯誤使用、過量使用、設計不良或有害後果分開。",
+      "en": "It separates the thing from the real problem. You can distinguish an object, idea or activity from its misuse, excessive use, poor design or harmful effects.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss124-benefit-03",
+      "zh": "你不需要直接說「科技有害」，而可以更準確地說明真正造成問題的是甚麼。",
+      "en": "It makes opinions more balanced and precise. Instead of simply claiming that technology is harmful, you can identify more accurately what is actually causing the problem.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss124-benefit-04",
+      "zh": "句子前半部分先否定過分簡單的說法，後半部分再提出更重要的解釋，特別適合作文和討論。",
+      "en": "It helps you develop an argument. The first part rejects an oversimplified claim, while the second introduces the more important explanation, making the structure especially useful in essays and discussions.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss124-benefit-05",
+      "zh": "相比反覆使用較長的說法，per se 能更簡潔地表達「就事情本身而言」。",
+      "en": "It gives you a concise alternative to longer expressions. Instead of repeatedly writing in and of itself or when considered alone, you can often use per se.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using per se to show that something is not automatically or inherently the problem, quality or result.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 per se 改寫以下句子，指出某件事本身不一定就是問題、特質或結果。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss124-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Sugar is not harmful in itself; eating too much of it is the real problem.",
+      "promptZh": "糖本身並沒有害；真正的問題是攝取過量。",
+      "promptZhSource": "pdf",
+      "starter": "Sugar",
+      "answer": "Sugar is not harmful per se; eating too much of it is the real problem.",
+      "answerZh": "糖本身並沒有害；真正的問題是攝取過量。",
+      "answerZhSource": "pdf",
+      "highlight": "Sugar is not harmful per se; eating too much of it is the real problem."
+    },
+    {
+      "id": "ss124-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Homework itself is not the problem; an excessive amount of homework is.",
+      "promptZh": "功課本身不是問題；過量的功課才是。",
+      "promptZhSource": "pdf",
+      "starter": "Homework",
+      "answer": "Homework is not the problem per se; an excessive amount of homework is.",
+      "answerZh": "功課本身不是問題；過量的功課才是。",
+      "answerZhSource": "pdf",
+      "highlight": "Homework is not the problem per se; an excessive amount of homework is."
+    },
+    {
+      "id": "ss124-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mobile phones are not distracting by nature; using them during lessons is.",
+      "promptZh": "手提電話本身不會令人分心；在課堂上使用才會。",
+      "promptZhSource": "pdf",
+      "starter": "Mobile",
+      "answer": "Mobile phones are not distracting per se; using them during lessons is.",
+      "answerZh": "手提電話本身不會令人分心；在課堂上使用才會。",
+      "answerZhSource": "pdf",
+      "highlight": "Mobile phones are not distracting per se; using them during lessons is."
+    },
+    {
+      "id": "ss124-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Rain itself is not a problem; poor preparation can ruin a trip.",
+      "promptZh": "下雨本身不是問題；準備不足才可能破壞旅程。",
+      "promptZhSource": "pdf",
+      "starter": "Rain",
+      "answer": "Rain is not a problem per se; poor preparation can ruin a trip.",
+      "answerZh": "下雨本身不是問題；準備不足才可能破壞旅程。",
+      "answerZhSource": "pdf",
+      "highlight": "Rain is not a problem per se; poor preparation can ruin a trip."
+    },
+    {
+      "id": "ss124-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Working from home is not unproductive in itself; a lack of routine often causes the problem.",
+      "promptZh": "在家工作本身並非沒有效率；缺乏規律往往才是問題所在。",
+      "promptZhSource": "pdf",
+      "starter": "Working",
+      "answer": "Working from home is not unproductive per se; a lack of routine often causes the problem.",
+      "answerZh": "在家工作本身並非沒有效率；缺乏規律往往才是問題所在。",
+      "answerZhSource": "pdf",
+      "highlight": "Working from home is not unproductive per se; a lack of routine often causes the problem."
+    },
+    {
+      "id": "ss124-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A high price alone is not proof of quality.",
+      "promptZh": "高價本身並不能證明質素良好。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A high price is not proof of quality per se.",
+      "answerZh": "高價本身並不能證明質素良好。",
+      "answerZhSource": "pdf",
+      "highlight": "A high price is not proof of quality per se."
+    },
+    {
+      "id": "ss124-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Silence itself is not agreement.",
+      "promptZh": "沉默本身並不等於同意。",
+      "promptZhSource": "pdf",
+      "starter": "Silence",
+      "answer": "Silence is not agreement per se.",
+      "answerZh": "沉默本身並不等於同意。",
+      "answerZhSource": "pdf",
+      "highlight": "Silence is not agreement per se."
+    },
+    {
+      "id": "ss124-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A busy schedule alone is not a sign of productivity.",
+      "promptZh": "繁忙的日程本身並不是高生產力的證明。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A busy schedule is not a sign of productivity per se.",
+      "answerZh": "繁忙的日程本身並不是高生產力的證明。",
+      "answerZhSource": "pdf",
+      "highlight": "A busy schedule is not a sign of productivity per se."
+    },
+    {
+      "id": "ss124-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "One mistake is not failure in itself.",
+      "promptZh": "單一錯誤本身並不等於失敗。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One mistake is not failure per se.",
+      "answerZh": "單一錯誤本身並不等於失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "One mistake is not failure per se."
+    },
+    {
+      "id": "ss124-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Competition is not bad in itself; unfair rules make it harmful.",
+      "promptZh": "競爭本身並沒有不好；不公平的規則才令它變得有害。",
+      "promptZhSource": "pdf",
+      "starter": "Competition",
+      "answer": "Competition is not bad per se; unfair rules make it harmful.",
+      "answerZh": "競爭本身並沒有不好；不公平的規則才令它變得有害。",
+      "answerZhSource": "pdf",
+      "highlight": "Competition is not bad per se; unfair rules make it harmful."
+    },
+    {
+      "id": "ss124-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Exams are not stressful by nature; uncertainty and poor preparation often create the stress.",
+      "promptZh": "考試本身不一定帶來壓力；不確定感和準備不足往往才會造成壓力。",
+      "promptZhSource": "pdf",
+      "starter": "Exams",
+      "answer": "Exams are not stressful per se; uncertainty and poor preparation often create the stress.",
+      "answerZh": "考試本身不一定帶來壓力；不確定感和準備不足往往才會造成壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "Exams are not stressful per se; uncertainty and poor preparation often create the stress."
+    },
+    {
+      "id": "ss124-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Memorisation is not harmful in itself, but relying on it alone can limit understanding.",
+      "promptZh": "死記硬背本身並沒有害處，但只依賴它可能會限制理解。",
+      "promptZhSource": "pdf",
+      "starter": "Memorisation",
+      "answer": "Memorisation is not harmful per se, but relying on it alone can limit understanding.",
+      "answerZh": "死記硬背本身並沒有害處，但只依賴它可能會限制理解。",
+      "answerZhSource": "pdf",
+      "highlight": "Memorisation is not harmful per se, but relying on it alone can limit understanding."
+    },
+    {
+      "id": "ss124-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Criticism itself is not necessarily a personal attack; its tone and purpose matter.",
+      "promptZh": "批評本身不一定是人身攻擊；它的語氣和目的才重要。",
+      "promptZhSource": "pdf",
+      "starter": "Criticism",
+      "answer": "Criticism is not a personal attack per se; its tone and purpose matter.",
+      "answerZh": "批評本身不一定是人身攻擊；它的語氣和目的才重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Criticism is not a personal attack per se; its tone and purpose matter."
+    },
+    {
+      "id": "ss124-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Rules are not restrictive simply because they are rules; unclear or excessive rules can be restrictive.",
+      "promptZh": "規則不會只因為是規則就具有限制性；不清晰或過多的規則才可能造成限制。",
+      "promptZhSource": "pdf",
+      "starter": "Rules",
+      "answer": "Rules are not restrictive per se; unclear or excessive rules can be.",
+      "answerZh": "規則本身不具有限制性；不清晰或過多的規則才可能造成限制。",
+      "answerZhSource": "pdf",
+      "highlight": "Rules are not restrictive per se; unclear or excessive rules can be."
+    },
+    {
+      "id": "ss124-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Technology does not isolate people by itself; the way it is used can isolate them.",
+      "promptZh": "科技本身不會令人疏離；使用方式才可能令人疏離。",
+      "promptZhSource": "pdf",
+      "starter": "Technology",
+      "answer": "Technology does not isolate people per se; the way it is used can.",
+      "answerZh": "科技本身不會令人疏離；使用方式才可能令人疏離。",
+      "answerZhSource": "pdf",
+      "highlight": "Technology does not isolate people per se; the way it is used can."
+    },
+    {
+      "id": "ss124-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A delay on its own is not evidence of failure; some delays protect quality.",
+      "promptZh": "延誤本身並不是失敗的證據；有些延誤可以保障質素。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A delay is not evidence of failure per se; some delays protect quality.",
+      "answerZh": "延誤本身並不是失敗的證據；有些延誤可以保障質素。",
+      "answerZhSource": "pdf",
+      "highlight": "A delay is not evidence of failure per se; some delays protect quality."
+    },
+    {
+      "id": "ss124-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Is advertising dishonest by nature? No. Misleading claims are the dishonest part.",
+      "promptZh": "廣告本身就是不誠實的嗎？不是。誤導性聲稱才是不誠實的部分。",
+      "promptZhSource": "pdf",
+      "starter": "Advertising",
+      "answer": "Advertising is not dishonest per se; misleading claims are.",
+      "answerZh": "廣告本身並不等於不誠實；誤導性聲稱才是。",
+      "answerZhSource": "pdf",
+      "highlight": "Advertising is not dishonest per se; misleading claims are."
+    },
+    {
+      "id": "ss124-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Taking a break is not laziness in itself; sometimes it prevents burnout.",
+      "promptZh": "休息本身並不是懶惰；有時休息可以防止過度疲勞。",
+      "promptZhSource": "pdf",
+      "starter": "Taking",
+      "answer": "Taking a break is not laziness per se; sometimes it prevents burnout.",
+      "answerZh": "休息本身並不是懶惰；有時休息可以防止過度疲勞。",
+      "answerZhSource": "pdf",
+      "highlight": "Taking a break is not laziness per se; sometimes it prevents burnout."
+    },
+    {
+      "id": "ss124-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Being quiet is not rude in itself; cultural habits differ.",
+      "promptZh": "安靜本身並不代表無禮；不同文化的習慣並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "Being",
+      "answer": "Being quiet is not rude per se; cultural habits differ.",
+      "answerZh": "安靜本身並不代表無禮；不同文化的習慣並不相同。",
+      "answerZhSource": "pdf",
+      "highlight": "Being quiet is not rude per se; cultural habits differ."
+    },
+    {
+      "id": "ss124-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A low mark alone does not prove weak ability; it may reflect one difficult day.",
+      "promptZh": "一次低分本身不能證明能力弱；它可能只反映某一天狀態不佳。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A low mark is not proof of weak ability per se; it may reflect one difficult day.",
+      "answerZh": "一次低分本身不能證明能力弱；它可能只反映某一天狀態不佳。",
+      "answerZhSource": "pdf",
+      "highlight": "A low mark is not proof of weak ability per se; it may reflect one difficult day."
+    },
+    {
+      "id": "ss124-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Data by itself is not knowledge; it needs interpretation.",
+      "promptZh": "數據本身並不是知識；它需要經過詮釋。",
+      "promptZhSource": "pdf",
+      "starter": "Data",
+      "answer": "Data is not knowledge per se; it needs interpretation.",
+      "answerZh": "數據本身並不是知識；它需要經過詮釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Data is not knowledge per se; it needs interpretation."
+    },
+    {
+      "id": "ss124-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Automation does not cause job losses by itself; it can also change the type of work people do.",
+      "promptZh": "自動化本身不會造成職位流失；它亦可能改變人們工作的種類。",
+      "promptZhSource": "pdf",
+      "starter": "Automation",
+      "answer": "Automation does not cause job losses per se; it can also change the type of work people do.",
+      "answerZh": "自動化本身不會造成職位流失；它亦可能改變人們工作的種類。",
+      "answerZhSource": "pdf",
+      "highlight": "Automation does not cause job losses per se; it can also change the type of work people do."
+    },
+    {
+      "id": "ss124-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A disagreement by itself is not a conflict; it can lead to better decisions.",
+      "promptZh": "意見分歧本身不是衝突；它可以帶來更好的決定。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A disagreement is not a conflict per se; it can lead to better decisions.",
+      "answerZh": "意見分歧本身不是衝突；它可以帶來更好的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "A disagreement is not a conflict per se; it can lead to better decisions."
+    },
+    {
+      "id": "ss124-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Popularity alone is not evidence of quality.",
+      "promptZh": "受歡迎本身並不能證明質素良好。",
+      "promptZhSource": "pdf",
+      "starter": "Popularity",
+      "answer": "Popularity is not evidence of quality per se.",
+      "answerZh": "受歡迎本身並不能證明質素良好。",
+      "answerZhSource": "pdf",
+      "highlight": "Popularity is not evidence of quality per se."
+    },
+    {
+      "id": "ss124-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Using formal language does not, by itself, amount to professional communication; clarity and respect matter more.",
+      "promptZh": "使用正式語言本身並不等於專業溝通；清晰和尊重更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "Using",
+      "answer": "Using formal language is not professional communication per se; clarity and respect matter more.",
+      "answerZh": "使用正式語言本身並不等於專業溝通；清晰和尊重更加重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Using formal language is not professional communication per se; clarity and respect matter more."
+    },
+    {
+      "id": "ss124-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Speed alone is not efficiency; rushed work may create extra problems.",
+      "promptZh": "速度本身並不等於效率；倉促完成的工作可能製造更多問題。",
+      "promptZhSource": "pdf",
+      "starter": "Speed",
+      "answer": "Speed is not efficiency per se; rushed work may create extra problems.",
+      "answerZh": "速度本身並不等於效率；倉促完成的工作可能製造更多問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Speed is not efficiency per se; rushed work may create extra problems."
+    },
+    {
+      "id": "ss124-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Failure is not a permanent defeat in itself; it can provide useful feedback.",
+      "promptZh": "失敗本身並不是永久的挫敗；它可以提供有用的反饋。",
+      "promptZhSource": "pdf",
+      "starter": "Failure",
+      "answer": "Failure is not a permanent defeat per se; it can provide useful feedback.",
+      "answerZh": "失敗本身並不是永久的挫敗；它可以提供有用的反饋。",
+      "answerZhSource": "pdf",
+      "highlight": "Failure is not a permanent defeat per se; it can provide useful feedback."
+    },
+    {
+      "id": "ss124-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Online learning is not inferior by nature; poor course design is the real issue.",
+      "promptZh": "網上學習本身並不較差；真正的問題是課程設計欠佳。",
+      "promptZhSource": "pdf",
+      "starter": "Online",
+      "answer": "Online learning is not inferior per se; poor course design is the real issue.",
+      "answerZh": "網上學習本身並不較差；真正的問題是課程設計欠佳。",
+      "answerZhSource": "pdf",
+      "highlight": "Online learning is not inferior per se; poor course design is the real issue."
+    },
+    {
+      "id": "ss124-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Surveillance technology is not inherently unethical; its purpose and safeguards determine whether its use is acceptable.",
+      "promptZh": "監察科技本身並非不道德；其目的和保障措施決定有關使用是否可以接受。",
+      "promptZhSource": "pdf",
+      "starter": "Surveillance",
+      "answer": "Surveillance technology is not unethical per se; its purpose and safeguards determine whether its use is acceptable.",
+      "answerZh": "監察科技本身並非不道德；其目的和保障措施決定有關使用是否可以接受。",
+      "answerZhSource": "pdf",
+      "highlight": "Surveillance technology is not unethical per se; its purpose and safeguards determine whether its use is acceptable."
+    },
+    {
+      "id": "ss124-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Competition itself is not harmful. It becomes harmful when winning matters more than fairness.",
+      "promptZh": "競爭本身並沒有害處。當勝負比公平更重要時，它才會變得有害。",
+      "promptZhSource": "pdf",
+      "starter": "Competition",
+      "answer": "Competition is not harmful per se; it becomes harmful when winning matters more than fairness.",
+      "answerZh": "競爭本身並沒有害處；當勝負比公平更重要時，它才會變得有害。",
+      "answerZhSource": "pdf",
+      "highlight": "Competition is not harmful per se; it becomes harmful when winning matters more than fairness."
+    },
+    {
+      "id": "ss124-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The word “cheap” is not negative in itself; context decides whether it means affordable or poor-quality.",
+      "promptZh": "cheap 一詞本身沒有負面意思；語境會決定它表示「價格實惠」還是「質素低劣」。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The word “cheap” is not negative per se; context decides whether it means affordable or poor-quality.",
+      "answerZh": "cheap 一詞本身沒有負面意思；語境會決定它表示「價格實惠」還是「質素低劣」。",
+      "answerZhSource": "pdf",
+      "highlight": "The word “cheap” is not negative per se; context decides whether it means affordable or poor-quality."
+    },
+    {
+      "id": "ss124-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Being old does not automatically make a tradition valuable; it should also serve a meaningful purpose.",
+      "promptZh": "一項傳統不會只因歷史悠久就自然變得有價值；它亦應具有實際意義。",
+      "promptZhSource": "pdf",
+      "starter": "Being",
+      "answer": "Being old does not make a tradition valuable per se; it should also serve a meaningful purpose.",
+      "answerZh": "歷史悠久本身不會令一項傳統變得有價值；它亦應具有實際意義。",
+      "answerZhSource": "pdf",
+      "highlight": "Being old does not make a tradition valuable per se; it should also serve a meaningful purpose."
+    },
+    {
+      "id": "ss124-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "Authority by itself does not amount to legitimacy; trust and accountability are also required.",
+      "promptZh": "權力本身並不等於正當性；信任和問責亦是必要的。",
+      "promptZhSource": "pdf",
+      "starter": "Authority",
+      "answer": "Authority is not legitimacy per se; trust and accountability are also required.",
+      "answerZh": "權力本身並不等於正當性；信任和問責亦是必要的。",
+      "answerZhSource": "pdf",
+      "highlight": "Authority is not legitimacy per se; trust and accountability are also required."
+    },
+    {
+      "id": "ss124-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A degree alone is not proof of competence; practical performance matters too.",
+      "promptZh": "學位本身並不是能力的證明；實際表現亦很重要。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A degree is not proof of competence per se; practical performance matters too.",
+      "answerZh": "學位本身並不是能力的證明；實際表現亦很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "A degree is not proof of competence per se; practical performance matters too."
+    },
+    {
+      "id": "ss124-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Treating everyone in exactly the same way is not always fair in itself; unequal situations may require different support.",
+      "promptZh": "以完全相同的方式對待所有人，本身不一定公平；不平等的處境可能需要不同支援。",
+      "promptZhSource": "pdf",
+      "starter": "Equal",
+      "answer": "Equal treatment is not fairness per se; unequal situations may require different support.",
+      "answerZh": "平等對待本身並不等於公平；不平等的處境可能需要不同支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Equal treatment is not fairness per se; unequal situations may require different support."
+    },
+    {
+      "id": "ss124-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Convenience alone does not amount to progress; a convenient system may still exclude some users.",
+      "promptZh": "方便本身並不等於進步；一個方便的制度仍可能排除部分用戶。",
+      "promptZhSource": "pdf",
+      "starter": "Convenience",
+      "answer": "Convenience is not progress per se; a convenient system may still exclude some users.",
+      "answerZh": "方便本身並不等於進步；一個方便的制度仍可能排除部分用戶。",
+      "answerZhSource": "pdf",
+      "highlight": "Convenience is not progress per se; a convenient system may still exclude some users."
+    },
+    {
+      "id": "ss124-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Economic growth by itself does not guarantee social improvement; its benefits may be distributed unevenly.",
+      "promptZh": "經濟增長本身不能保證社會得到改善；其利益可能分配不均。",
+      "promptZhSource": "pdf",
+      "starter": "Economic",
+      "answer": "Economic growth is not social improvement per se; its benefits may be distributed unevenly.",
+      "answerZh": "經濟增長本身並不等於社會改善；其利益可能分配不均。",
+      "answerZhSource": "pdf",
+      "highlight": "Economic growth is not social improvement per se; its benefits may be distributed unevenly."
+    },
+    {
+      "id": "ss124-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The fact that an action is legal does not, by itself, make it ethical.",
+      "promptZh": "一項行為合法，本身並不會令它變得合乎道德。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An action is not ethical per se simply because it is legal.",
+      "answerZh": "一項行為不會只因合法，本身就變得合乎道德。",
+      "answerZhSource": "pdf",
+      "highlight": "An action is not ethical per se simply because it is legal."
+    },
+    {
+      "id": "ss124-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Public attention by itself does not mean public support; people may be watching because they are concerned.",
+      "promptZh": "公眾關注本身不等於公眾支持；人們可能因為擔心而留意。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public attention is not public support per se; people may be watching because they are concerned.",
+      "answerZh": "公眾關注本身不等於公眾支持；人們可能因為擔心而留意。",
+      "answerZhSource": "pdf",
+      "highlight": "Public attention is not public support per se; people may be watching because they are concerned."
+    },
+    {
+      "id": "ss124-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "An apology alone does not amount to accountability; it must be followed by corrective action.",
+      "promptZh": "道歉本身並不等於問責；之後必須有糾正行動。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An apology is not accountability per se; it must be followed by corrective action.",
+      "answerZh": "道歉本身並不等於問責；之後必須有糾正行動。",
+      "answerZhSource": "pdf",
+      "highlight": "An apology is not accountability per se; it must be followed by corrective action."
+    },
+    {
+      "id": "ss124-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Artificial intelligence is not dangerous in itself. The risk depends on who controls it, what data it uses, and how decisions are reviewed.",
+      "promptZh": "人工智能本身並不危險。風險取決於誰控制它、它使用甚麼數據，以及決定如何受到審查。",
+      "promptZhSource": "pdf",
+      "starter": "Artificial",
+      "answer": "Artificial intelligence is not dangerous per se; the risk depends on who controls it, what data it uses, and how decisions are reviewed.",
+      "answerZh": "人工智能本身並不危險；風險取決於誰控制它、它使用甚麼數據，以及決定如何受到審查。",
+      "answerZhSource": "pdf",
+      "highlight": "Artificial intelligence is not dangerous per se; the risk depends on who controls it, what data it uses, and how decisions are reviewed."
+    },
+    {
+      "id": "ss124-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Remote work does not guarantee flexibility by itself; employees need genuine control over when and where they work.",
+      "promptZh": "遙距工作本身不能保證有彈性；僱員需要真正掌握工作的時間和地點。",
+      "promptZhSource": "pdf",
+      "starter": "Remote",
+      "answer": "Remote work is not flexible per se; employees need genuine control over when and where they work.",
+      "answerZh": "遙距工作本身不一定有彈性；僱員需要真正掌握工作的時間和地點。",
+      "answerZhSource": "pdf",
+      "highlight": "Remote work is not flexible per se; employees need genuine control over when and where they work."
+    },
+    {
+      "id": "ss124-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Treating people equally is not always fair when they begin from unequal positions.",
+      "promptZh": "當人們的起點並不平等時，平等對待本身不一定公平。",
+      "promptZhSource": "pdf",
+      "starter": "Equal",
+      "answer": "Equal treatment is not fairness per se when people begin from unequal positions.",
+      "answerZh": "當人們的起點並不平等時，平等對待本身不一定等於公平。",
+      "answerZhSource": "pdf",
+      "highlight": "Equal treatment is not fairness per se when people begin from unequal positions."
+    },
+    {
+      "id": "ss124-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Innovation does not automatically mean improvement; a new system can be more complicated without being more useful.",
+      "promptZh": "創新不會自動等於改善；新制度可以更加複雜，卻不一定更加有用。",
+      "promptZhSource": "pdf",
+      "starter": "Innovation",
+      "answer": "Innovation is not improvement per se; a new system can be more complicated without being more useful.",
+      "answerZh": "創新本身並不等於改善；新制度可以更加複雜，卻不一定更加有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Innovation is not improvement per se; a new system can be more complicated without being more useful."
+    },
+    {
+      "id": "ss124-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Transparency alone is not the same as trust, but it gives people evidence on which trust can be built.",
+      "promptZh": "透明度本身不等於信任，但它能提供建立信任所需的證據。",
+      "promptZhSource": "pdf",
+      "starter": "Transparency",
+      "answer": "Transparency is not trust per se, but it gives people evidence on which trust can be built.",
+      "answerZh": "透明度本身不等於信任，但它能提供建立信任所需的證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Transparency is not trust per se, but it gives people evidence on which trust can be built."
+    },
+    {
+      "id": "ss124-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A policy is not automatically effective merely because it sounds strict; its results must be measured in practice.",
+      "promptZh": "一項政策不會只因聽起來嚴厲就自然有效；其成效必須在實際情況中量度。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A strict-sounding policy is not effective per se; its results must be measured in practice.",
+      "answerZh": "一項聽起來嚴厲的政策本身不一定有效；其成效必須在實際情況中量度。",
+      "answerZhSource": "pdf",
+      "highlight": "A strict-sounding policy is not effective per se; its results must be measured in practice."
+    },
+    {
+      "id": "ss124-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "Freedom does not simply mean having no rules; well-designed rules can protect everyone’s ability to act.",
+      "promptZh": "自由不只是沒有規則；設計良好的規則可以保障每個人的行動能力。",
+      "promptZhSource": "pdf",
+      "starter": "Freedom",
+      "answer": "Freedom is not the absence of rules per se; well-designed rules can protect everyone’s ability to act.",
+      "answerZh": "自由本身並不等於沒有規則；設計良好的規則可以保障每個人的行動能力。",
+      "answerZhSource": "pdf",
+      "highlight": "Freedom is not the absence of rules per se; well-designed rules can protect everyone’s ability to act."
+    },
+    {
+      "id": "ss124-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A high salary alone does not amount to job satisfaction; autonomy, purpose, and respectful management also matter.",
+      "promptZh": "高薪本身並不等於工作滿意度；自主性、工作意義和尊重員工的管理方式亦很重要。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A high salary is not job satisfaction per se; autonomy, purpose, and respectful management also matter.",
+      "answerZh": "高薪本身並不等於工作滿意度；自主性、工作意義和尊重員工的管理方式亦很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "A high salary is not job satisfaction per se; autonomy, purpose, and respectful management also matter."
+    },
+    {
+      "id": "ss124-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Globalisation does not automatically cause cultural loss; loss occurs when local voices have no power or space.",
+      "promptZh": "全球化不會自動造成文化流失；當本地聲音沒有權力或空間時，文化才會流失。",
+      "promptZhSource": "pdf",
+      "starter": "Globalisation",
+      "answer": "Globalisation is not cultural loss per se; loss occurs when local voices have no power or space.",
+      "answerZh": "全球化本身並不等於文化流失；當本地聲音沒有權力或空間時，文化才會流失。",
+      "answerZhSource": "pdf",
+      "highlight": "Globalisation is not cultural loss per se; loss occurs when local voices have no power or space."
+    },
+    {
+      "id": "ss124-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Scientific evidence by itself is not certainty. It is the strongest conclusion supported by the available data and may change with better evidence.",
+      "promptZh": "科學證據本身並不等於確定性。它是現有數據所支持的最有力結論，並可能隨着更好的證據而改變。",
+      "promptZhSource": "pdf",
+      "starter": "Scientific",
+      "answer": "Scientific evidence is not certainty per se; it is the strongest conclusion supported by the available data and may change with better evidence.",
+      "answerZh": "科學證據本身並不等於確定性；它是現有數據所支持的最有力結論，並可能隨着更好的證據而改變。",
+      "answerZhSource": "pdf",
+      "highlight": "Scientific evidence is not certainty per se; it is the strongest conclusion supported by the available data and may change with better evidence."
+    }
+  ]
+}

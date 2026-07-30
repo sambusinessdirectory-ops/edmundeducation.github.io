@@ -1,0 +1,1257 @@
+{
+  "id": "ss188",
+  "order": 188,
+  "slug": "what-makes",
+  "title": "「What makes...」表達成因、關鍵因素與定義",
+  "titleZh": "「What makes...」表達成因、關鍵因素與定義",
+  "titleEn": "Using “What makes ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 188 -「What makes...」表達成因、關鍵因素與定義.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "What makes + person / thing + adjective / base verb / noun complement + is + key factor",
+  "formulas": [
+    {
+      "id": "ss188-formula-01",
+      "labelEn": "Statement",
+      "labelZh": "陳述句",
+      "formula": "What makes + person / thing + adjective / base verb / noun complement + is + key factor"
+    },
+    {
+      "id": "ss188-formula-02",
+      "labelEn": "Question",
+      "labelZh": "問句",
+      "formula": "What makes + person / thing + adjective / base verb / noun complement?"
+    }
+  ],
+  "example": "What makes a leader effective is not power, but good judgement.",
+  "exampleZh": "令一位領導者有效的，不是權力，而是良好的判斷力。",
+  "examples": [
+    {
+      "id": "ss188-example-01",
+      "en": "What makes a leader effective is not power, but good judgement.",
+      "zh": "令一位領導者有效的，不是權力，而是良好的判斷力。",
+      "highlight": "What makes a leader effective is not power, but good judgement."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：What makes + person / thing + adjective / base verb / noun complement + is + key factor。"
+  },
+  "rules": [
+    {
+      "id": "ss188-rule-01",
+      "zh": "在受詞後可以直接使用形容詞，不需要加入 to be。",
+      "en": "Use an adjective directly after the object What makes + object + adjective ● What makes the room comfortable? ● What makes the lesson interesting? Do not add to be. ● Incorrect: What makes the room to be comfortable? ● Correct: What makes the room comfortable?",
+      "enSource": "pdf",
+      "examples": [
+        "Use an adjective directly after the object",
+        "What makes + object + adjective",
+        "What makes the room comfortable?",
+        "What makes the lesson interesting?",
+        "Do not add to be.",
+        "Incorrect: What makes the room to be comfortable?",
+        "Correct: What makes the room comfortable?"
+      ]
+    },
+    {
+      "id": "ss188-rule-02",
+      "zh": "在 makes + 受詞 後使用原形動詞，不使用 to。",
+      "en": "Use the base verb without “to” What makes + object + base verb ● What makes people laugh? ● What makes the machine stop? Do not use to + verb. ● Incorrect: What makes people to laugh? ● Correct: What makes people laugh?",
+      "enSource": "pdf",
+      "examples": [
+        "Use the base verb without “to”",
+        "What makes + object + base verb",
+        "What makes people laugh?",
+        "What makes the machine stop?",
+        "Do not use to + verb.",
+        "Incorrect: What makes people to laugh?",
+        "Correct: What makes people laugh?"
+      ]
+    },
+    {
+      "id": "ss188-rule-03",
+      "zh": "名詞亦可以用來說明某人或某事物成為甚麼。",
+      "en": "A noun complement may also be used What makes + object + noun complement ● What makes her a good teacher? ● What makes this building a landmark?",
+      "enSource": "pdf",
+      "examples": [
+        "A noun complement may also be used",
+        "What makes + object + noun complement",
+        "What makes her a good teacher?",
+        "What makes this building a landmark?"
+      ]
+    },
+    {
+      "id": "ss188-rule-04",
+      "zh": "在本課的陳述句中，整個 What makes... 部分視為一個整體，因此使用 is。",
+      "en": "Use “is” after the complete What-clause ● What makes the room special is its natural light. ● What makes the programme successful is its simple design.",
+      "enSource": "pdf",
+      "examples": [
+        "Use “is” after the complete What-clause",
+        "What makes the room special is its natural light.",
+        "What makes the programme successful is its simple design."
+      ]
+    },
+    {
+      "id": "ss188-rule-05",
+      "zh": "在這類問句中，what 本身是主語，因此不需要使用 do 或 does。",
+      "en": "Do not add “do” or “does” in questions ● Incorrect: What does make this place special? ● Correct: What makes this place special?",
+      "enSource": "pdf",
+      "examples": [
+        "Do not add “do” or “does” in questions",
+        "Incorrect: What does make this place special?",
+        "Correct: What makes this place special?"
+      ]
+    },
+    {
+      "id": "ss188-rule-06",
+      "zh": "（這個環境為甚麼良好？） （良好的環境應具備甚麼條件？）",
+      "en": "Notice the difference between these two questions What makes the environment good? This asks why one particular environment is good. What makes a good environment? This asks what qualities generally define a good environment.",
+      "enSource": "pdf",
+      "examples": [
+        "Notice the difference between these two questions",
+        "What makes the environment good?",
+        "This asks why one particular environment is good.",
+        "What makes a good environment?",
+        "This asks what qualities generally define a good environment."
+      ]
+    },
+    {
+      "id": "ss188-rule-07",
+      "zh": "本練習集中訓練現在式 What makes...，不包括過去式 What made...。",
+      "en": "Present-tense focus This worksheet focuses on What makes... in the present tense. The past-tense form What made... is not included in this exercise.",
+      "enSource": "pdf",
+      "examples": [
+        "This worksheet focuses on What makes... in the present tense. The past-tense form What",
+        "made... is not included in this exercise."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss188-benefit-01",
+      "zh": "這個句型能清楚指出，究竟是哪一項因素帶來某個結果。 讀者可以立即知道，令房間舒適的關鍵因素是自然光。",
+      "en": "It clearly identifies the key cause This structure tells the listener or reader exactly which factor produces a result. ● What makes the room comfortable is the natural light.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss188-benefit-02",
+      "zh": "關鍵答案通常放在 is 後面，因此能得到更明顯的強調。 句子的焦點並非只是「計劃成功」，而是成功背後的「周詳準備」。",
+      "en": "It places emphasis on the most important factor The key answer normally appears after is, so it receives more attention. ● What makes the plan successful is careful preparation.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss188-benefit-03",
+      "zh": "not A, but B 能先否定一個常見想法，再指出真正原因。",
+      "en": "It helps you make clear comparisons The pattern not A, but B allows you to correct a common misunderstanding and highlight the real reason. ● What makes customers stay loyal is not low prices, but good service.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss188-benefit-04",
+      "zh": "與其反覆使用 because，你可以使用 What makes... is...，把原因放在句子的焦點位置。",
+      "en": "It gives you an alternative to repeated “because” sentences Compare: ● People trust this service because the staff reply quickly. ● What makes people trust this service is that the staff reply quickly. The second sentence focuses more strongly on the reason.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss188-benefit-05",
+      "zh": "這個句型可以成為現成的表達框架，幫助你分析人物、服務、機構、產品、政策或社會議題。",
+      "en": "It provides a useful speaking and writing frame You can use the structure when analysing people, services, organisations, products, policies or social issues. ● What makes a good leader? ● What makes this policy effective? ● What makes people trust an organisation?",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: What makes + person / thing + adjective / base verb / noun complement + is + key factor.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「What makes + person / thing + adjective / base verb / noun complement + is + key factor」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss188-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A leader is effective because of good judgement, not power.",
+      "promptZh": "一位領導者之所以有效，靠的不是權力，而是良好的判斷力。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes a leader effective is not power, but good judgement.",
+      "answerZh": "令一位領導者有效的，不是權力，而是良好的判斷力。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes a leader effective is not power, but good judgement."
+    },
+    {
+      "id": "ss188-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Its warm lighting is the reason the room feels welcoming.",
+      "promptZh": "這個房間令人感到親切，是因為它有暖色燈光。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the room feel welcoming is its warm lighting.",
+      "answerZh": "令這個房間感覺親切的，是它的暖色燈光。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the room feel welcoming is its warm lighting."
+    },
+    {
+      "id": "ss188-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ms Lee is a good teacher because her explanations are clear.",
+      "promptZh": "李老師是一位好老師，因為她的講解十分清晰。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes Ms Lee a good teacher is her clear explanations.",
+      "answerZh": "令李老師成為一位好老師的，是她清晰的講解。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes Ms Lee a good teacher is her clear explanations."
+    },
+    {
+      "id": "ss188-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The fresh herbs give the soup its special taste.",
+      "promptZh": "新鮮香草令這道湯帶有特別的味道。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the soup taste special is the fresh herbs.",
+      "answerZh": "令這道湯味道特別的，是新鮮香草。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the soup taste special is the fresh herbs."
+    },
+    {
+      "id": "ss188-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "People trust the nurse because she listens patiently.",
+      "promptZh": "人們信任那位護士，因為她會耐心聆聽。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes people trust the nurse is that she listens patiently.",
+      "answerZh": "令人們信任那位護士的，是她會耐心聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes people trust the nurse is that she listens patiently."
+    },
+    {
+      "id": "ss188-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The nearby roads are quiet, and this is the reason the park is peaceful.",
+      "promptZh": "附近的道路很安靜，因此這個公園十分寧靜。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the park peaceful is that the nearby roads are quiet.",
+      "answerZh": "令這個公園寧靜的，是附近的道路十分安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the park peaceful is that the nearby roads are quiet."
+    },
+    {
+      "id": "ss188-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The game is fun because everyone can join in.",
+      "promptZh": "這個遊戲很好玩，因為所有人都可以參與。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the game fun is that everyone can join in.",
+      "answerZh": "令這個遊戲好玩的，是所有人都可以參與。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the game fun is that everyone can join in."
+    },
+    {
+      "id": "ss188-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This bag is useful because it has many pockets.",
+      "promptZh": "這個袋子很實用，因為它有很多口袋。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes this bag useful is its many pockets.",
+      "answerZh": "令這個袋子實用的，是它眾多的口袋。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes this bag useful is its many pockets."
+    },
+    {
+      "id": "ss188-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team’s success comes from honest communication among its members.",
+      "promptZh": "這個團隊的成功來自成員之間的坦誠溝通。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the team successful is honest communication among its members.",
+      "answerZh": "令這個團隊成功的，是成員之間的坦誠溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the team successful is honest communication among its members."
+    },
+    {
+      "id": "ss188-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Its simple layout is the reason the website is easy to use.",
+      "promptZh": "這個網站容易使用，是因為它的版面設計簡單。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the website easy to use is its simple layout.",
+      "answerZh": "令這個網站容易使用的，是它簡單的版面設計。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the website easy to use is its simple layout."
+    },
+    {
+      "id": "ss188-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Customers stay loyal because of good service, not low prices.",
+      "promptZh": "顧客保持忠誠，是因為良好的服務，而不是低廉的價格。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes customers stay loyal is not low prices, but good service.",
+      "answerZh": "令顧客保持忠誠的，不是低廉的價格，而是良好的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes customers stay loyal is not low prices, but good service."
+    },
+    {
+      "id": "ss188-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Children become willing to learn because of encouragement, not fear.",
+      "promptZh": "令孩子願意學習的是鼓勵，而不是恐懼。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes children willing to learn is not fear, but encouragement.",
+      "answerZh": "令孩子願意學習的，不是恐懼，而是鼓勵。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes children willing to learn is not fear, but encouragement."
+    },
+    {
+      "id": "ss188-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The alarm’s loud sound is the reason I wake up.",
+      "promptZh": "我醒來是因為鬧鐘的聲音十分響亮。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes me wake up is the alarm’s loud sound.",
+      "answerZh": "令我醒來的，是鬧鐘響亮的聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes me wake up is the alarm’s loud sound."
+    },
+    {
+      "id": "ss188-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Fresh air is the main reason people feel awake in the morning.",
+      "promptZh": "新鮮空氣是人們早上感到精神的重要原因。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes people feel awake in the morning is fresh air.",
+      "answerZh": "令人們早上感到精神的，是新鮮空氣。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes people feel awake in the morning is fresh air."
+    },
+    {
+      "id": "ss188-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Her sense of humour causes everyone to laugh.",
+      "promptZh": "她的幽默感令所有人發笑。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes everyone laugh is her sense of humour.",
+      "answerZh": "令所有人發笑的，是她的幽默感。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes everyone laugh is her sense of humour."
+    },
+    {
+      "id": "ss188-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The exit is easy to find because the system of signs is clear.",
+      "promptZh": "出口很容易找到，因為指示牌系統十分清晰。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the exit easy to find is the clear system of signs.",
+      "answerZh": "令出口容易找到的，是清晰的指示牌系統。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the exit easy to find is the clear system of signs."
+    },
+    {
+      "id": "ss188-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The gentle music causes the baby to stop crying.",
+      "promptZh": "柔和的音樂令嬰兒停止哭泣。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the baby stop crying is the gentle music.",
+      "answerZh": "令嬰兒停止哭泣的，是柔和的音樂。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the baby stop crying is the gentle music."
+    },
+    {
+      "id": "ss188-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This building is a local landmark because of its unusual roof.",
+      "promptZh": "這座建築物因為擁有獨特的屋頂而成為本地地標。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes this building a local landmark is its unusual roof.",
+      "answerZh": "令這座建築物成為本地地標的，是它獨特的屋頂。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes this building a local landmark is its unusual roof."
+    },
+    {
+      "id": "ss188-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "People remember the advert because its slogan is simple.",
+      "promptZh": "人們記得這則廣告，因為它的口號十分簡單。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes people remember the advert is its simple slogan.",
+      "answerZh": "令人們記得這則廣告的，是它簡單的口號。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes people remember the advert is its simple slogan."
+    },
+    {
+      "id": "ss188-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Customers enter the shop because they smell fresh bread.",
+      "promptZh": "顧客因為聞到新鮮麵包的香氣而走進店舖。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes customers enter the shop is the smell of fresh bread.",
+      "answerZh": "令顧客走進店舖的，是新鮮麵包的香氣。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes customers enter the shop is the smell of fresh bread."
+    },
+    {
+      "id": "ss188-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why does this neighbourhood feel safe?",
+      "promptZh": "這個社區為甚麼給人安全的感覺？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes this neighbourhood feel safe?",
+      "answerZh": "甚麼令這個社區給人安全的感覺？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes this neighbourhood feel safe?"
+    },
+    {
+      "id": "ss188-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why do students enjoy this class?",
+      "promptZh": "學生為甚麼喜歡這堂課？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes students enjoy this class?",
+      "answerZh": "甚麼令學生喜歡這堂課？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes students enjoy this class?"
+    },
+    {
+      "id": "ss188-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why does the phone battery last so long?",
+      "promptZh": "這部手機的電池為甚麼能維持這麼久？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the phone battery last so long?",
+      "answerZh": "甚麼令這部手機的電池能維持這麼久？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the phone battery last so long?"
+    },
+    {
+      "id": "ss188-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why is this restaurant so popular with families?",
+      "promptZh": "這間餐廳為甚麼深受家庭歡迎？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes this restaurant so popular with families?",
+      "answerZh": "甚麼令這間餐廳深受家庭歡迎？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes this restaurant so popular with families?"
+    },
+    {
+      "id": "ss188-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Which qualities are needed for someone to be a good friend?",
+      "promptZh": "成為一位好朋友需要具備哪些特質？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes a good friend?",
+      "answerZh": "甚麼特質能造就一位好朋友？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes a good friend?"
+    },
+    {
+      "id": "ss188-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Which qualities define a good learning environment?",
+      "promptZh": "良好的學習環境應具備哪些特質？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes a good learning environment?",
+      "answerZh": "甚麼因素能構成良好的學習環境？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes a good learning environment?"
+    },
+    {
+      "id": "ss188-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which features define a useful study app?",
+      "promptZh": "實用的學習應用程式應具備哪些特點？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes a useful study app?",
+      "answerZh": "甚麼特點能構成一個實用的學習應用程式？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes a useful study app?"
+    },
+    {
+      "id": "ss188-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why do people find this speaker convincing?",
+      "promptZh": "人們為甚麼覺得這位講者具有說服力？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes this speaker convincing?",
+      "answerZh": "甚麼令這位講者具有說服力？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes this speaker convincing?"
+    },
+    {
+      "id": "ss188-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which factor causes the machine to run quietly?",
+      "promptZh": "哪項因素令這部機器安靜地運作？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the machine run quietly?",
+      "answerZh": "甚麼令這部機器安靜地運作？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the machine run quietly?"
+    },
+    {
+      "id": "ss188-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which qualities define a responsible employee?",
+      "promptZh": "負責任的僱員應具備哪些特質？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes a responsible employee?",
+      "answerZh": "甚麼特質能造就一位負責任的僱員？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes a responsible employee?"
+    },
+    {
+      "id": "ss188-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A community’s strength comes from people helping one another.",
+      "promptZh": "一個社區的力量來自人們互相幫助。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes a community strong is the way people help one another.",
+      "answerZh": "令一個社區強大的，是人們互相幫助的方式。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes a community strong is the way people help one another."
+    },
+    {
+      "id": "ss188-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "People cooperate because the rules are clear, not because the punishments are strict.",
+      "promptZh": "人們願意合作，是因為規則清晰，而不是因為懲罰嚴厲。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes people cooperate is not strict punishment, but clear rules.",
+      "answerZh": "令人們合作的，不是嚴厲的懲罰，而是清晰的規則。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes people cooperate is not strict punishment, but clear rules."
+    },
+    {
+      "id": "ss188-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The service feels personal because staff remember regular customers’ names.",
+      "promptZh": "員工記得熟客的姓名，因此這項服務令人感到貼心。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the service feel personal is that staff remember regular customers’ names.",
+      "answerZh": "令這項服務讓人感到貼心的，是員工記得熟客的姓名。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the service feel personal is that staff remember regular customers’ names."
+    },
+    {
+      "id": "ss188-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "She remains calm under pressure because she follows a simple routine.",
+      "promptZh": "她在壓力下仍能保持冷靜，因為她遵循一套簡單的日常習慣。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes her remain calm under pressure is her simple routine.",
+      "answerZh": "令她在壓力下保持冷靜的，是她簡單的日常習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes her remain calm under pressure is her simple routine."
+    },
+    {
+      "id": "ss188-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Careful preparation is the main reason the event succeeds.",
+      "promptZh": "周詳準備是這項活動成功的主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the event successful is careful preparation.",
+      "answerZh": "令這項活動成功的，是周詳的準備。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the event successful is careful preparation."
+    },
+    {
+      "id": "ss188-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why does this small business continue to grow?",
+      "promptZh": "這間小企業為甚麼能夠持續成長？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes this small business continue to grow?",
+      "answerZh": "甚麼令這間小企業持續成長？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes this small business continue to grow?"
+    },
+    {
+      "id": "ss188-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Which feature causes the glass to remain cool?",
+      "promptZh": "哪項特點令這個玻璃杯保持冰涼？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the glass remain cool?",
+      "answerZh": "甚麼令這個玻璃杯保持冰涼？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the glass remain cool?"
+    },
+    {
+      "id": "ss188-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Which qualities define an effective public speaker?",
+      "promptZh": "出色的公眾演說者應具備哪些特質？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes an effective public speaker?",
+      "answerZh": "甚麼特質能造就一位出色的公眾演說者？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes an effective public speaker?"
+    },
+    {
+      "id": "ss188-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why do older residents use this community centre regularly?",
+      "promptZh": "年長居民為甚麼經常使用這個社區中心？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes older residents use this community centre regularly?",
+      "answerZh": "甚麼令年長居民經常使用這個社區中心？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes older residents use this community centre regularly?"
+    },
+    {
+      "id": "ss188-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why are the online lessons easy to follow?",
+      "promptZh": "這些網上課堂為甚麼容易跟上？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the online lessons easy to follow?",
+      "answerZh": "甚麼令這些網上課堂容易跟上？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the online lessons easy to follow?"
+    },
+    {
+      "id": "ss188-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Employees feel valued because managers listen to their ideas and act on useful suggestions.",
+      "promptZh": "僱員感到受重視，因為經理會聆聽他們的意見，並採納有用的建議。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes employees feel valued is that managers listen to their ideas and act on useful suggestions.",
+      "answerZh": "令僱員感到受重視的，是經理會聆聽他們的意見，並採納有用的建議。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes employees feel valued is that managers listen to their ideas and act on useful suggestions."
+    },
+    {
+      "id": "ss188-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "People trust the hospital not because it is large, but because its staff communicate clearly and treat patients with respect.",
+      "promptZh": "人們信任這間醫院，不是因為它規模龐大，而是因為員工溝通清晰，並尊重病人。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes people trust the hospital is not its size, but the way its staff communicate clearly and treat patients with respect.",
+      "answerZh": "令人們信任這間醫院的，不是它的規模，而是員工清晰溝通及尊重病人的方式。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes people trust the hospital is not its size, but the way its staff communicate clearly and treat patients with respect."
+    },
+    {
+      "id": "ss188-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The programme works because it gives beginners small goals that they can reach each week.",
+      "promptZh": "這個課程能夠奏效，因為它為初學者設定每星期都能達成的小目標。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the programme work is that it gives beginners small goals that they can reach each week.",
+      "answerZh": "令這個課程奏效的，是它為初學者設定每星期都能達成的小目標。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the programme work is that it gives beginners small goals that they can reach each week."
+    },
+    {
+      "id": "ss188-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Clear rules, quick support and respect between users are the reasons an online space is safe.",
+      "promptZh": "清晰的規則、迅速的支援和使用者之間的尊重，是網上空間安全的原因。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes an online space safe is clear rules, quick support and respect between users.",
+      "answerZh": "令網上空間安全的，是清晰的規則、迅速的支援，以及使用者之間的尊重。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes an online space safe is clear rules, quick support and respect between users."
+    },
+    {
+      "id": "ss188-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Which qualities are needed for someone to be a reliable team leader?",
+      "promptZh": "成為一位可靠的團隊領袖需要具備哪些特質？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes a reliable team leader?",
+      "answerZh": "甚麼特質能造就一位可靠的團隊領袖？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes a reliable team leader?"
+    },
+    {
+      "id": "ss188-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why does this public transport system remain efficient during busy hours?",
+      "promptZh": "這套公共交通系統為甚麼能在繁忙時段保持有效運作？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes this public transport system remain efficient during busy hours?",
+      "answerZh": "甚麼令這套公共交通系統在繁忙時段仍能有效運作？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes this public transport system remain efficient during busy hours?"
+    },
+    {
+      "id": "ss188-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The policy is practical because it protects people who need extra support without creating unnecessary work for staff.",
+      "promptZh": "這項政策實際可行，因為它既能保障需要額外支援的人，又不會為員工帶來不必要的工作。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the policy practical is that it protects people who need extra support without creating unnecessary work for staff.",
+      "answerZh": "令這項政策實際可行的，是它能保障需要額外支援的人，同時不會為員工造成不必要的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the policy practical is that it protects people who need extra support without creating unnecessary work for staff."
+    },
+    {
+      "id": "ss188-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Good teaching depends not only on subject knowledge but also on the ability to explain ideas in a way students understand.",
+      "promptZh": "良好的教學不但取決於學科知識，還取決於能否用學生明白的方式解釋概念。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes teaching effective is not only subject knowledge, but also the ability to explain ideas in a way students understand.",
+      "answerZh": "令教學有效的，不只是學科知識，還包括以學生能理解的方式解釋概念的能力。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes teaching effective is not only subject knowledge, but also the ability to explain ideas in a way students understand."
+    },
+    {
+      "id": "ss188-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Which qualities and habits are necessary for someone to be a thoughtful decision-maker?",
+      "promptZh": "成為一位深思熟慮的決策者需要具備哪些特質和習慣？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes a thoughtful decision-maker?",
+      "answerZh": "甚麼特質能造就一位深思熟慮的決策者？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes a thoughtful decision-maker?"
+    },
+    {
+      "id": "ss188-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisation earns long-term public trust because it admits mistakes, explains decisions and improves its services.",
+      "promptZh": "這個機構能贏得公眾的長期信任，因為它會承認錯誤、解釋決定，並改善服務。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the organisation earn long-term public trust is that it admits mistakes, explains decisions and improves its services.",
+      "answerZh": "令這個機構贏得公眾長期信任的，是它會承認錯誤、解釋決定，並改善服務。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the organisation earn long-term public trust is that it admits mistakes, explains decisions and improves its services."
+    }
+  ]
+}

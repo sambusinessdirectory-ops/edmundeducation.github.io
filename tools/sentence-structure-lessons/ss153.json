@@ -1,0 +1,1258 @@
+{
+  "id": "ss153",
+  "order": 153,
+  "slug": "had-subject-past-participle-inversion",
+  "title": "Had + 主語 + 過去分詞",
+  "titleZh": "「Had + 主語 + 過去分詞」過去完全假設倒裝句",
+  "titleEn": "Using Had + subject + past participle for an inverted third conditional",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 153 -「Had + 主語 + 過去分詞」過去完全假設倒裝句.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Had + subject + past participle, subject + would / could / might have + past participle",
+  "formulas": [
+    {
+      "id": "ss153-formula-01",
+      "labelEn": "Positive condition",
+      "labelZh": "肯定條件",
+      "formula": "Had + subject + past participle, subject + would / could / might have + past participle"
+    },
+    {
+      "id": "ss153-formula-02",
+      "labelEn": "Negative condition",
+      "labelZh": "否定條件",
+      "formula": "Had + subject + not + past participle, subject + would / could / might have + past participle"
+    }
+  ],
+  "example": "Had I known about her background, I would not have made the joke.",
+  "exampleZh": "如果我早知道她的背景，便不會開那個玩笑。",
+  "examples": [
+    {
+      "id": "ss153-example-01",
+      "en": "Had I known about her background, I would not have made the joke.",
+      "zh": "如果我早知道她的背景，便不會開那個玩笑。",
+      "highlight": "Had I known about her background, I would not have made the joke."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss153-rule-01",
+      "zh": "把普通第三條件句中的 if 刪除，並把 had 移到主語前面。",
+      "en": "Remove “if” and move “had” before the subject Standard third conditional: If I had known, I would have acted differently. Inverted third conditional: Had I known, I would have acted differently.",
+      "enSource": "pdf",
+      "examples": [
+        "If I had known, I would have acted differently.",
+        "Had I known, I would have acted differently."
+      ]
+    },
+    {
+      "id": "ss153-rule-02",
+      "zh": "不能使用一般過去式：",
+      "en": "The verb after the subject must be a past participle Had I known Had she seen Had they arrived Had the file been saved Incorrect: Had I knew Correct: Had I known",
+      "enSource": "pdf",
+      "examples": [
+        "Had I known",
+        "Had she seen",
+        "Had they arrived",
+        "Had the file been saved",
+        "Incorrect: Had I knew",
+        "Correct: Had I known"
+      ]
+    },
+    {
+      "id": "ss153-rule-03",
+      "zh": "（如果我早知道延誤，便會提早離開。）",
+      "en": "Use “would have” for an expected imaginary result Had I known about the delay, I would have left earlier.",
+      "enSource": "pdf",
+      "examples": [
+        "Had I known about the delay, I would have left earlier."
+      ]
+    },
+    {
+      "id": "ss153-rule-04",
+      "zh": "（如果里奧為電話充了電，他本來可以致電求助。）",
+      "en": "Use “could have” for past ability or opportunity Had Leo charged his phone, he could have called for help.",
+      "enSource": "pdf",
+      "examples": [
+        "Had Leo charged his phone, he could have called for help."
+      ]
+    },
+    {
+      "id": "ss153-rule-05",
+      "zh": "（如果球隊更經常練習，表現可能會更好。） Might have 表示這個結果有可能發生，但並不肯定。",
+      "en": "Use “might have” for an uncertain possibility Had the team practised more often, they might have performed better. Might have",
+      "enSource": "pdf",
+      "examples": [
+        "Had the team practised more often, they might have performed better."
+      ]
+    },
+    {
+      "id": "ss153-rule-06",
+      "zh": "（如果我沒有相信那些資料，便能避免這個問題。） 不要寫成：",
+      "en": "Put “not” after the subject Had I not trusted the information, I would have avoided the problem. Had not I trusted...",
+      "enSource": "pdf",
+      "examples": [
+        "Had I not trusted the information, I would have avoided the problem.",
+        "Had not I trusted..."
+      ]
+    },
+    {
+      "id": "ss153-rule-07",
+      "zh": "雖然 had 放在主語前面，看起來像疑問句，但它並不是問題。 意思是：",
+      "en": "“Had I known” is not a question Had I known, I would have helped. If I had known, I would have helped.",
+      "enSource": "pdf",
+      "examples": [
+        "Had I known, I would have helped.",
+        "If I had known, I would have helped."
+      ]
+    },
+    {
+      "id": "ss153-rule-08",
+      "zh": "它通常表示： 某件事在過去沒有發生； 說話者正在想像另一個過去結果； 現在已經無法改變當時的情況。",
+      "en": "This structure refers to an unreal past. It normally indicates that something did not happen in the past, that the speaker is imagining a different past result, and that the situation can no longer be changed.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss153-benefit-01",
+      "zh": "這個句型能準確表達遺憾、錯失的機會，以及「如果當時不同，結果便可能不同」的意思。 （如果我早知道截止日期，便會更早遞交表格。）",
+      "en": "It expresses regret and missed opportunities precisely You can clearly explain what went wrong in the past and what would have happened under different circumstances. Had I known about the deadline, I would have submitted the form earlier.",
+      "enSource": "pdf",
+      "examples": [
+        "Had I known about the deadline, I would have submitted the form earlier."
+      ]
+    },
+    {
+      "id": "ss153-benefit-02",
+      "zh": "你不需要每次都用 if 開始條件句，因此可以減少句式重複。",
+      "en": "It gives you an alternative to repeatedly using “if” Instead of beginning every conditional sentence with if, you can use Had + subject + past participle. Compare: If the company had tested the system, it might have found the error. Had the company tested the system, it might have found the error.",
+      "enSource": "pdf",
+      "examples": [
+        "Instead of beginning every conditional sentence with if, you can use Had + subject + past",
+        "If the company had tested the system, it might have found the error.",
+        "Had the company tested the system, it might have found the error."
+      ]
+    },
+    {
+      "id": "ss153-benefit-03",
+      "zh": "把 Had... 放在句首，可以先突出沒有發生的關鍵條件，讓讀者更容易理解事情為何出現某個結 果。",
+      "en": "It draws attention to the missed condition. Placing Had ... at the beginning immediately tells the reader which unrealised past condition was important, making it easier to understand why the result occurred.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss153-benefit-04",
+      "zh": "這個句型常見於作文、報告、正式解釋、演說和故事之中，可以令句式更有變化，語氣亦較成熟。",
+      "en": "It can make formal writing sound more controlled This structure is especially useful in essays, reports, formal explanations, speeches and narratives.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss153-benefit-05",
+      "zh": "它能把「過去沒有出現的條件」和「想像中的結果」清楚連接起來，不需要用多個零散短句解釋。",
+      "en": "It helps connect a past cause and an imagined result The structure places the unreal condition and its possible result in one complete sentence.",
+      "enSource": "pdf",
+      "examples": [
+        "The structure places the unreal condition and its possible result in one complete sentence."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Had + 主語 + 過去分詞.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Had + 主語 + 過去分詞 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss153-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If I had known about the rain, I would have taken an umbrella.",
+      "promptZh": "如果我早知道會下雨，我便會帶雨傘。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had I known about the rain, I would have taken an umbrella.",
+      "answerZh": "如果我早知道會下雨，我便會帶雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "Had I known about the rain, I would have taken an umbrella."
+    },
+    {
+      "id": "ss153-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If Mia had known the shop was closed, she would not have walked there.",
+      "promptZh": "如果米婭早知道店舖已關門，她便不會步行前往。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Mia known the shop was closed, she would not have walked there.",
+      "answerZh": "如果米婭早知道店舖已關門，她便不會步行前往。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Mia known the shop was closed, she would not have walked there."
+    },
+    {
+      "id": "ss153-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben would have arrived on time if he had remembered the meeting.",
+      "promptZh": "如果本記得那場會議，他便會準時到達。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Ben remembered the meeting, he would have arrived on time.",
+      "answerZh": "如果本記得那場會議，他便會準時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Ben remembered the meeting, he would have arrived on time."
+    },
+    {
+      "id": "ss153-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If we had known the road was blocked, we would have chosen another route.",
+      "promptZh": "如果我們早知道道路受阻，便會選擇另一條路線。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had we known the road was blocked, we would have chosen another route.",
+      "answerZh": "如果我們早知道道路受阻，便會選擇另一條路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Had we known the road was blocked, we would have chosen another route."
+    },
+    {
+      "id": "ss153-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe would not have touched the door if she had seen the warning sign.",
+      "promptZh": "如果克洛伊看到警告標誌，她便不會觸碰那道門。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Chloe seen the warning sign, she would not have touched the door.",
+      "answerZh": "如果克洛伊看到警告標誌，她便不會觸碰那道門。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Chloe seen the warning sign, she would not have touched the door."
+    },
+    {
+      "id": "ss153-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Leo forgot to charge his phone. If he had charged it, he could have called for help.",
+      "promptZh": "里奧忘記為電話充電。如果他充了電，本來可以致電求助。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Leo charged his phone, he could have called for help.",
+      "answerZh": "如果里奧為電話充了電，他本來可以致電求助。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Leo charged his phone, he could have called for help."
+    },
+    {
+      "id": "ss153-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The students would have studied the night before if they had known the test was that day.",
+      "promptZh": "如果學生知道測驗在那天舉行，他們便會在前一晚溫習。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the students known the test was that day, they would have studied the night before.",
+      "answerZh": "如果學生知道測驗在那天舉行，他們便會在前一晚溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the students known the test was that day, they would have studied the night before."
+    },
+    {
+      "id": "ss153-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If I had known the soup was spicy, I would have ordered something else.",
+      "promptZh": "如果我早知道湯很辣，便會點其他食物。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had I known the soup was spicy, I would have ordered something else.",
+      "answerZh": "如果我早知道湯很辣，便會點其他食物。",
+      "answerZhSource": "pdf",
+      "highlight": "Had I known the soup was spicy, I would have ordered something else."
+    },
+    {
+      "id": "ss153-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel would not have missed the last bus if he had checked the timetable.",
+      "promptZh": "如果丹尼爾查看過時間表，他便不會錯過尾班巴士。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Daniel checked the timetable, he would not have missed the last bus.",
+      "answerZh": "如果丹尼爾查看過時間表，他便不會錯過尾班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Daniel checked the timetable, he would not have missed the last bus."
+    },
+    {
+      "id": "ss153-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Emma could have read the small print if she had brought her glasses.",
+      "promptZh": "如果艾瑪帶了眼鏡，她本來可以讀到細小字體。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Emma brought her glasses, she could have read the small print.",
+      "answerZh": "如果艾瑪帶了眼鏡，她本來可以讀到細小字體。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Emma brought her glasses, she could have read the small print."
+    },
+    {
+      "id": "ss153-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sarah did not realise that she needed her passport. Otherwise, she would have brought it.",
+      "promptZh": "莎拉沒有察覺自己需要護照。否則，她便會把護照帶來。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Sarah realised that she needed her passport, she would have brought it.",
+      "answerZh": "如果莎拉察覺自己需要護照，她便會把護照帶來。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Sarah realised that she needed her passport, she would have brought it."
+    },
+    {
+      "id": "ss153-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The nurse did not know about the allergy. If she had known, she would have chosen a different medicine.",
+      "promptZh": "護士不知道病人有過敏情況。如果她知道，便會選擇另一種藥物。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the nurse known about the allergy, she would have chosen a different medicine.",
+      "answerZh": "如果護士知道病人有過敏情況，她便會選擇另一種藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the nurse known about the allergy, she would have chosen a different medicine."
+    },
+    {
+      "id": "ss153-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Jason did not hear the alarm, so he left the building late. He would have left sooner if he had heard it.",
+      "promptZh": "傑森沒有聽到警報，所以很遲才離開大樓。如果他聽到警報，便會更早離開。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Jason heard the alarm, he would have left the building sooner.",
+      "answerZh": "如果傑森聽到警報，他便會更早離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Jason heard the alarm, he would have left the building sooner."
+    },
+    {
+      "id": "ss153-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Would the driver have stopped earlier? Yes, if he had noticed the cyclist.",
+      "promptZh": "司機本來會否更早停車？會，如果他當時留意到那名踏單車的人。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the driver noticed the cyclist, he would have stopped earlier.",
+      "answerZh": "如果司機當時留意到那名踏單車的人，他便會更早停車。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the driver noticed the cyclist, he would have stopped earlier."
+    },
+    {
+      "id": "ss153-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I did not understand the instructions, so I made that mistake. Otherwise, I would not have made it.",
+      "promptZh": "我不明白指示，所以犯了那個錯誤。否則，我便不會犯錯。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had I understood the instructions, I would not have made that mistake.",
+      "answerZh": "如果我明白指示，便不會犯那個錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Had I understood the instructions, I would not have made that mistake."
+    },
+    {
+      "id": "ss153-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Olivia handled the parcel roughly because she did not know it was fragile. She would have handled it more carefully if she had known.",
+      "promptZh": "奧莉花不知道包裹容易破損，所以處理得很粗心。如果她知道，便會更小心處理。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Olivia known the parcel was fragile, she would have handled it more carefully.",
+      "answerZh": "如果奧莉花知道包裹容易破損，她便會更小心處理。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Olivia known the parcel was fragile, she would have handled it more carefully."
+    },
+    {
+      "id": "ss153-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager never received the report. With it, she could have made a better decision.",
+      "promptZh": "經理一直沒有收到報告。如果收到，她本來可以作出更好的決定。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the manager received the report, she could have made a better decision.",
+      "answerZh": "如果經理收到報告，她本來可以作出更好的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the manager received the report, she could have made a better decision."
+    },
+    {
+      "id": "ss153-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The file was not saved automatically. As a result, we lost our work; otherwise, we would not have lost it.",
+      "promptZh": "檔案沒有自動儲存，因此我們失去了工作內容；否則，我們便不會失去它。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the file been saved automatically, we would not have lost our work.",
+      "answerZh": "如果檔案已自動儲存，我們便不會失去工作內容。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the file been saved automatically, we would not have lost our work."
+    },
+    {
+      "id": "ss153-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The café did not accept cards, so we could not pay there. We could have paid if it had accepted cards.",
+      "promptZh": "那間咖啡店不接受信用卡，所以我們無法在那裏付款。如果店方接受信用卡，我們本來可以付款。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the café accepted cards, we could have paid there.",
+      "answerZh": "如果那間咖啡店接受信用卡，我們本來可以在那裏付款。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the café accepted cards, we could have paid there."
+    },
+    {
+      "id": "ss153-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Noah visited the museum in the afternoon because he did not know it closed early. If he had known, he would have gone in the morning.",
+      "promptZh": "諾亞不知道博物館提早關門，所以在下午才前往。如果他知道，便會在早上前往。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Noah known the museum closed early, he would have visited it in the morning.",
+      "answerZh": "如果諾亞知道博物館提早關門，他便會在早上前往。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Noah known the museum closed early, he would have visited it in the morning."
+    },
+    {
+      "id": "ss153-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "Grace wishes she had known how long the journey would take. She would then have left home earlier.",
+      "promptZh": "格蕾絲希望自己早已知道旅程需時多久。這樣，她便會更早離家。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Grace known how long the journey would take, she would have left home earlier.",
+      "answerZh": "如果格蕾絲早知道旅程需時多久，她便會更早離家。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Grace known how long the journey would take, she would have left home earlier."
+    },
+    {
+      "id": "ss153-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The coach did not realise the player was injured. Otherwise, he would not have sent her back onto the field.",
+      "promptZh": "教練沒有察覺那名球員受了傷。否則，他便不會讓她再次上場。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the coach realised the player was injured, he would not have sent her back onto the field.",
+      "answerZh": "如果教練察覺那名球員受了傷，他便不會讓她再次上場。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the coach realised the player was injured, he would not have sent her back onto the field."
+    },
+    {
+      "id": "ss153-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We were not told about the extra fee. If we had been told, we might have chosen a different hotel.",
+      "promptZh": "沒有人告訴我們要支付額外費用。如果有人告知，我們可能會選擇另一間酒店。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had we been told about the extra fee, we might have chosen a different hotel.",
+      "answerZh": "如果有人告訴我們要支付額外費用，我們可能會選擇另一間酒店。",
+      "answerZhSource": "pdf",
+      "highlight": "Had we been told about the extra fee, we might have chosen a different hotel."
+    },
+    {
+      "id": "ss153-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school expected fewer visitors. If it had expected so many, it would have prepared more seats.",
+      "promptZh": "學校原本預計訪客人數較少。如果校方預計有這麼多人，便會準備更多座位。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the school expected so many visitors, it would have prepared more seats.",
+      "answerZh": "如果學校預計有這麼多訪客，便會準備更多座位。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the school expected so many visitors, it would have prepared more seats."
+    },
+    {
+      "id": "ss153-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The engineers detected the fault too late. Earlier detection could have prevented the shutdown.",
+      "promptZh": "工程師太遲才發現故障。如果較早發現，本來可以避免系統停機。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the engineers detected the fault earlier, they could have prevented the shutdown.",
+      "answerZh": "如果工程師較早發現故障，他們本來可以避免系統停機。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the engineers detected the fault earlier, they could have prevented the shutdown."
+    },
+    {
+      "id": "ss153-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Aisha thought the email was genuine, so she opened the link. She would not have opened it if she had known it was a scam.",
+      "promptZh": "艾莎以為電郵是真的，所以開啟了連結。如果她知道那是騙局，便不會開啟連結。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Aisha known the email was a scam, she would not have opened the link.",
+      "answerZh": "如果艾莎知道電郵是騙局，她便不會開啟連結。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Aisha known the email was a scam, she would not have opened the link."
+    },
+    {
+      "id": "ss153-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Marcus brought the wrong key. With the correct key, we would have entered the office immediately.",
+      "promptZh": "馬庫斯帶錯了鑰匙。如果他帶了正確的鑰匙，我們便會立即進入辦公室。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had Marcus brought the correct key, we would have entered the office immediately.",
+      "answerZh": "如果馬庫斯帶了正確的鑰匙，我們便會立即進入辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "Had Marcus brought the correct key, we would have entered the office immediately."
+    },
+    {
+      "id": "ss153-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The weather was too cold, so the children could not play outside. In warmer weather, they could have played outside.",
+      "promptZh": "天氣太冷，所以孩子們不能在戶外玩耍。如果天氣較暖，他們本來可以在戶外玩耍。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the weather been warmer, the children could have played outside.",
+      "answerZh": "如果天氣較暖，孩子們本來可以在戶外玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the weather been warmer, the children could have played outside."
+    },
+    {
+      "id": "ss153-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The library closed before I arrived. If it had remained open, I would have finished my research there.",
+      "promptZh": "圖書館在我到達前已關門。如果它仍然開放，我便會在那裏完成資料搜集。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the library remained open, I would have finished my research there.",
+      "answerZh": "如果圖書館仍然開放，我便會在那裏完成資料搜集。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the library remained open, I would have finished my research there."
+    },
+    {
+      "id": "ss153-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team rarely practised together. With more regular practice, they might have performed better.",
+      "promptZh": "球隊很少一起練習。如果他們更經常一起練習，表現可能會更好。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the team practised together more often, they might have performed better.",
+      "answerZh": "如果球隊更經常一起練習，他們的表現可能會更好。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the team practised together more often, they might have performed better."
+    },
+    {
+      "id": "ss153-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisers did not check the sound system beforehand. Because of this, the event started late. With an earlier check, it would have started on time.",
+      "promptZh": "主辦單位沒有預先檢查音響系統，因此活動延遲開始。如果較早檢查，活動便會準時開始。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the organisers checked the sound system beforehand, the event would have started on time.",
+      "answerZh": "如果主辦單位預先檢查音響系統，活動便會準時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the organisers checked the sound system beforehand, the event would have started on time."
+    },
+    {
+      "id": "ss153-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The patient did not follow the doctor’s advice. If she had followed it, she might have recovered sooner.",
+      "promptZh": "病人沒有遵從醫生的建議。如果她有遵從，可能會更快康復。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the patient followed the doctor’s advice, she might have recovered sooner.",
+      "answerZh": "如果病人遵從醫生的建議，她可能會更快康復。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the patient followed the doctor’s advice, she might have recovered sooner."
+    },
+    {
+      "id": "ss153-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The police received the message late. An earlier message could have allowed them to reach the area before dark.",
+      "promptZh": "警方很遲才收到訊息。如果較早收到，他們本來可以在天黑前到達該區。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the police received the message earlier, they could have reached the area before dark.",
+      "answerZh": "如果警方較早收到訊息，他們本來可以在天黑前到達該區。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the police received the message earlier, they could have reached the area before dark."
+    },
+    {
+      "id": "ss153-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We did not tell the restaurant about our dietary needs. If the restaurant had known, it would have prepared a suitable meal.",
+      "promptZh": "我們沒有告訴餐廳我們的飲食需要。如果餐廳知道，便會準備合適的餐點。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the restaurant known about our dietary needs, it would have prepared a suitable meal.",
+      "answerZh": "如果餐廳知道我們的飲食需要，便會準備合適的餐點。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the restaurant known about our dietary needs, it would have prepared a suitable meal."
+    },
+    {
+      "id": "ss153-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The battery ran out, so the camera did not record the final moment. If it had not run out, the camera would have recorded it.",
+      "promptZh": "電池耗盡了，所以相機沒有拍下最後一刻。如果電池沒有耗盡，相機便會拍下來。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the battery not run out, the camera would have recorded the final moment.",
+      "answerZh": "如果電池沒有耗盡，相機便會拍下最後一刻。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the battery not run out, the camera would have recorded the final moment."
+    },
+    {
+      "id": "ss153-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I trusted the false information, and that led to the problem. If I had not trusted it, I would have avoided the problem.",
+      "promptZh": "我相信了錯誤資訊，因而引起問題。如果我沒有相信它，便能避免這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had I not trusted the false information, I would have avoided the problem.",
+      "answerZh": "如果我沒有相信錯誤資訊，便能避免這個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Had I not trusted the false information, I would have avoided the problem."
+    },
+    {
+      "id": "ss153-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The package was sent to the wrong address because it had not been labelled correctly. With a correct label, it would not have been sent there.",
+      "promptZh": "包裹因標籤不正確而被送到錯誤地址。如果標籤正確，包裹便不會被送到那裏。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the package been labelled correctly, it would not have been sent to the wrong address.",
+      "answerZh": "如果包裹的標籤正確，它便不會被送到錯誤地址。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the package been labelled correctly, it would not have been sent to the wrong address."
+    },
+    {
+      "id": "ss153-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company did not test the new system thoroughly enough. More thorough testing might have helped it find the error before launch.",
+      "promptZh": "公司沒有充分測試新系統。更全面的測試可能會幫助公司在推出前發現錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the company tested the new system more thoroughly, it might have found the error before launch.",
+      "answerZh": "如果公司更全面地測試新系統，可能會在推出前發現錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the company tested the new system more thoroughly, it might have found the error before launch."
+    },
+    {
+      "id": "ss153-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The villagers did not expect the river to rise so quickly. If they had known, they would have moved their belongings to higher ground.",
+      "promptZh": "村民沒有預料河水會上升得這麼快。如果他們早知道，便會把財物搬到較高的地方。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the villagers known the river would rise so quickly, they would have moved their belongings to higher ground.",
+      "answerZh": "如果村民早知道河水會上升得這麼快，便會把財物搬到較高的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the villagers known the river would rise so quickly, they would have moved their belongings to higher ground."
+    },
+    {
+      "id": "ss153-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The teacher explained the task without an example. With an example, more students could have completed it correctly.",
+      "promptZh": "老師解釋任務時沒有提供例子。如果有例子，更多學生本來可以正確完成任務。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the teacher explained the task with an example, more students could have completed it correctly.",
+      "answerZh": "如果老師以例子解釋任務，更多學生本來可以正確完成任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the teacher explained the task with an example, more students could have completed it correctly."
+    },
+    {
+      "id": "ss153-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I made the comment because I did not know it would upset her. If I had known, I would have chosen my words more carefully.",
+      "promptZh": "我不知道那句話會令她難過，所以才那樣說。如果我知道，便會更小心選擇用詞。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had I known that the comment would upset her, I would have chosen my words more carefully.",
+      "answerZh": "如果我知道那句話會令她難過，便會更小心選擇用詞。",
+      "answerZhSource": "pdf",
+      "highlight": "Had I known that the comment would upset her, I would have chosen my words more carefully."
+    },
+    {
+      "id": "ss153-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "The hospital was not informed of the power cut in advance. Advance notice could have allowed it to arrange extra generators.",
+      "promptZh": "醫院沒有預先獲知停電消息。如果早獲通知，院方便能安排額外發電機。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the hospital been informed of the power cut in advance, it could have arranged extra generators.",
+      "answerZh": "如果醫院預先獲知停電消息，院方便能安排額外發電機。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the hospital been informed of the power cut in advance, it could have arranged extra generators."
+    },
+    {
+      "id": "ss153-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The council did not consider how the road closure would affect local shops. If it had considered this, it might have changed the traffic plan.",
+      "promptZh": "市議會沒有考慮封路會如何影響區內店舖。如果曾考慮這一點，可能會更改交通安排。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the council considered how the road closure would affect local shops, it might have changed the traffic plan.",
+      "answerZh": "如果市議會考慮過封路會如何影響區內店舖，可能會更改交通安排。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the council considered how the road closure would affect local shops, it might have changed the traffic plan."
+    },
+    {
+      "id": "ss153-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The researchers collected data from a small group. With data from a larger group, their findings might have been more reliable.",
+      "promptZh": "研究人員只從一個小組收集數據。如果從更大的群組收集數據，研究結果可能會更可靠。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the researchers collected data from a larger group, their findings might have been more reliable.",
+      "answerZh": "如果研究人員從更大的群組收集數據，研究結果可能會更可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the researchers collected data from a larger group, their findings might have been more reliable."
+    },
+    {
+      "id": "ss153-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The company did not realise that demand would increase so sharply. If it had realised this, it would have ordered more stock before the holiday.",
+      "promptZh": "公司沒有察覺需求會大幅上升。如果早已察覺，便會在假期前訂購更多存貨。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the company realised that demand would increase so sharply, it would have ordered more stock before the holiday.",
+      "answerZh": "如果公司早已察覺需求會大幅上升，便會在假期前訂購更多存貨。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the company realised that demand would increase so sharply, it would have ordered more stock before the holiday."
+    },
+    {
+      "id": "ss153-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The passengers were not warned about the long delay before boarding. If they had been, some of them might have changed their travel plans.",
+      "promptZh": "乘客在登機前沒有獲告知航班會長時間延誤。如果獲告知，部分乘客可能會更改行程。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the passengers been warned about the long delay before boarding, some of them might have changed their travel plans.",
+      "answerZh": "如果乘客在登機前獲告知航班會長時間延誤，部分乘客可能會更改行程。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the passengers been warned about the long delay before boarding, some of them might have changed their travel plans."
+    },
+    {
+      "id": "ss153-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The rescue team did not know exactly where the hikers were. Exact location information could have helped it reach them several hours earlier.",
+      "promptZh": "救援隊不知道遠足人士的確實位置。準確的位置資料本來可以讓救援隊早數小時到達。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the rescue team known exactly where the hikers were, it could have reached them several hours earlier.",
+      "answerZh": "如果救援隊知道遠足人士的確實位置，便能早數小時到達他們所在之處。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the rescue team known exactly where the hikers were, it could have reached them several hours earlier."
+    },
+    {
+      "id": "ss153-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The school changed the timetable without consulting parents. If it had consulted them first, it might have avoided many complaints.",
+      "promptZh": "學校在沒有諮詢家長的情況下更改時間表。如果先諮詢家長，可能可以避免很多投訴。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the school consulted parents before changing the timetable, it might have avoided many complaints.",
+      "answerZh": "如果學校在更改時間表前諮詢家長，可能可以避免很多投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the school consulted parents before changing the timetable, it might have avoided many complaints."
+    },
+    {
+      "id": "ss153-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The developers tested the app only on new phones. If they had also tested it on older phones, they would have discovered the compatibility problem before release.",
+      "promptZh": "開發人員只在新款電話上測試應用程式。如果他們也在舊款電話上測試，便會在推出前發現兼容性問題。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the developers also tested the app on older phones, they would have discovered the compatibility problem before release.",
+      "answerZh": "如果開發人員也在舊款電話上測試應用程式，便會在推出前發現兼容性問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the developers also tested the app on older phones, they would have discovered the compatibility problem before release."
+    },
+    {
+      "id": "ss153-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The committee approved the proposal because it believed the figures were complete. If it had known they were incomplete, it would not have approved the proposal at that meeting.",
+      "promptZh": "委員會以為數字完整，所以批准了建議。如果知道數字不完整，便不會在那次會議上批准建議。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the committee known that the figures were incomplete, it would not have approved the proposal at that meeting.",
+      "answerZh": "如果委員會知道數字不完整，便不會在那次會議上批准建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the committee known that the figures were incomplete, it would not have approved the proposal at that meeting."
+    }
+  ]
+}

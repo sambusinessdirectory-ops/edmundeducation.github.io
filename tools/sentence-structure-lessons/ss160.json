@@ -1,0 +1,1223 @@
+{
+  "id": "ss160",
+  "order": 160,
+  "slug": "all-the-same",
+  "title": "All the same",
+  "titleZh": "「All the same 句」",
+  "titleEn": "Using All the same as a concessive connector",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 160 -「All the same 句」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Contrasting fact or difficulty. All the same, + complete sentence",
+  "formulas": [
+    {
+      "id": "ss160-formula-01",
+      "labelEn": "Concessive connector",
+      "labelZh": "讓步連接語",
+      "formula": "Contrasting fact or difficulty. All the same, + complete sentence"
+    }
+  ],
+  "example": "The risks were obvious. All the same, they chose to move forward.",
+  "exampleZh": "風險很明顯。儘管如此，他們仍選擇繼續前進。",
+  "examples": [
+    {
+      "id": "ss160-example-01",
+      "en": "The risks were obvious. All the same, they chose to move forward.",
+      "zh": "風險很明顯。儘管如此，他們仍選擇繼續前進。",
+      "highlight": "The risks were obvious. All the same, they chose to move forward."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss160-rule-01",
+      "zh": "All the same 表示「儘管如此」 它表示前面的情況可能令人預期另一個結果，但後面的事情仍然發生。 （旅程令人疲倦。儘管如此，我們仍很享受。）",
+      "en": "All the same means “nevertheless” or “despite that”. It shows that an earlier situation might lead us to expect a different result, yet the later event still happens. For example: The journey was tiring. All the same, we enjoyed it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The journey was tiring. All the same, we enjoyed it."
+      ]
+    },
+    {
+      "id": "ss160-rule-02",
+      "zh": "前面通常要有一個完整意思 All the same 需要回應前面提及的困難、缺點、反對理由或相反事實，不能在沒有上文的情況下 隨意使用。",
+      "en": "All the same normally refers back to a complete preceding idea. It must respond to an earlier difficulty, drawback, objection or contrary fact; do not use it without relevant context.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss160-rule-03",
+      "zh": "本課使用以下標點格式 All 使用大寫。 same 後面加逗號。 本課統一在 All the same 前使用句號。",
+      "en": "Use the punctuation format taught in this lesson: capitalise All, place a comma after same, and put a full stop before All the same.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "All",
+        "same"
+      ]
+    },
+    {
+      "id": "ss160-rule-04",
+      "zh": "後面必須接完整句子",
+      "en": "Follow it with a complete sentence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "All the same, we decided to continue.",
+        "All the same, the difficult situation."
+      ]
+    },
+    {
+      "id": "ss160-rule-05",
+      "zh": "本課不教授另一個意思 在以下句子中，all the same 表示「對我來說沒有分別」，不是「儘管如此」。 （對我來說都一樣。） 這個意思不包括在本練習內。 與近似句型的分別 意思：儘管如此／即便如此 它連接兩個意思相反或結果出乎預期的句子。 （風險很明顯。儘管如此，他們仍繼續前進。） 重點：前面的困難沒有阻止後面的事情發生。 意思：更加／反而更…… 它不是表示「儘管如此」，而是加強形容詞或副詞的程度。 （這項任務很困難，但這反而令最後的成功更有意義。） 例如： 重點：前面的情況令某種程度變得更高。 意思：更加有理由做……／更應該做…… 它表示前面的情況提供了一個更強的行動理由。 （如果犯錯代價高昂，那就更有理由做好準備。） 重點：前面的情況增加了做某事的理由。 三者的核心分別 All the same：困難存在，事情仍然發生。 All the more + adjective/adverb：某種程度反而增加。 All the more reason to + verb：做某事的理由反而更強。",
+      "en": "This lesson does not teach the other meaning of all the same. In It is all the same to me, the phrase means “it makes no difference to me”, not “nevertheless”; that meaning is outside this exercise. Also distinguish three similar structures. All the same means “nevertheless” or “even so” and links ideas with an unexpected contrast: The risks were obvious. All the same, they moved forward. The point is that the difficulty did not prevent the later event. All the more + adjective/adverb means that a degree increases; it does not mean “nevertheless”: The task was difficult, but that made the final success all the more meaningful. The point is that a quality becomes stronger. All the more reason to + verb means that an earlier situation provides a stronger reason to act: If mistakes are costly, that is all the more reason to prepare well. The core distinction is: All the same—a difficulty exists but something still happens; all the more + adjective/adverb—a degree increases; all the more reason to + verb—the reason for an action becomes stronger.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is all the same to me.",
+        "The risks were obvious. All the same, they moved forward.",
+        "B. All the more + adjective / adverb",
+        "The task was difficult, but that made the final success all the more meaningful.",
+        "all the more + adjective / adverb",
+        "all the more important",
+        "all the more impressive",
+        "all the more carefully",
+        "C. All the more reason to + verb",
+        "If mistakes are costly, that is all the more reason to prepare well.",
+        "That is all the more reason to + base verb.",
+        "All the same："
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss160-benefit-01",
+      "zh": "清楚表達「有困難，仍然繼續」 這個句型能讓讀者立即看出，前面的問題並沒有阻止後面的行動或結果。",
+      "en": "It clearly shows that an action or result continues despite an earlier difficulty.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss160-benefit-02",
+      "zh": "讓兩個意思之間的關係更清楚 它不只是列出兩件事，而是清楚顯示第二件事在第一個不利情況下仍然發生。",
+      "en": "It makes the relationship between two ideas clear by showing that the second still happens under the first unfavourable condition.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss160-benefit-03",
+      "zh": "幫助你承認問題後再表達立場 在討論、作文或工作場合中，你可以先承認風險或缺點，再說明自己的決定。 （這個計劃成本高昂。儘管如此，它仍可能值得考慮。）",
+      "en": "It helps you acknowledge a problem before stating your position. In a discussion, essay or workplace context, you can first recognise a risk or drawback and then explain your decision: The plan is expensive. All the same, it may be worth considering.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The plan is expensive. All the same, it may be worth considering."
+      ]
+    },
+    {
+      "id": "ss160-benefit-04",
+      "zh": "避免重複使用 but 或 however 學生經常重複使用 but。使用 All the same 可以增加句式變化，令說話和寫作不那麼單調。",
+      "en": "It avoids repeatedly using but or however and gives speaking and writing more sentence variety.",
+      "enSource": "pdf",
+      "examples": [
+        "The hotel was expensive, but we stayed there.",
+        "The hotel was expensive. All the same, we stayed there."
+      ]
+    },
+    {
+      "id": "ss160-benefit-05",
+      "zh": "令語氣顯得平衡而有分寸 它能表示你已經考慮過反面情況，而不是忽略問題後直接作出結論。",
+      "en": "It creates a balanced, measured tone by showing that you considered the opposing fact before reaching a conclusion.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using All the same.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 All the same 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss160-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The café was crowded, but we found a table.",
+      "promptZh": "咖啡店很擠迫，但我們找到一張桌子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café was crowded. All the same, we found a table.",
+      "answerZh": "咖啡店很擠迫。儘管如此，我們還是找到一張桌子。",
+      "answerZhSource": "pdf",
+      "highlight": "The café was crowded. All the same, we found a table."
+    },
+    {
+      "id": "ss160-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Although Mia was tired, she finished her homework.",
+      "promptZh": "雖然米婭很疲倦，但她完成了功課。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia was tired. All the same, she finished her homework.",
+      "answerZh": "米婭很疲倦。儘管如此，她還是完成了功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia was tired. All the same, she finished her homework."
+    },
+    {
+      "id": "ss160-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Even though the bus was late, Daniel arrived on time.",
+      "promptZh": "即使巴士遲到了，丹尼爾仍然準時到達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus was late. All the same, Daniel arrived on time.",
+      "answerZh": "巴士遲到了。儘管如此，丹尼爾仍然準時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus was late. All the same, Daniel arrived on time."
+    },
+    {
+      "id": "ss160-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Despite the cold weather, the children played outside.",
+      "promptZh": "儘管天氣寒冷，孩子們仍在外面玩耍。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The weather was cold. All the same, the children played outside.",
+      "answerZh": "天氣很寒冷。儘管如此，孩子們仍在外面玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather was cold. All the same, the children played outside."
+    },
+    {
+      "id": "ss160-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The instructions were unclear. Still, Ava completed the task.",
+      "promptZh": "指示不清楚。儘管如此，艾娃仍完成了任務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions were unclear. All the same, Ava completed the task.",
+      "answerZh": "指示不清楚。儘管如此，艾娃仍完成了任務。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were unclear. All the same, Ava completed the task."
+    },
+    {
+      "id": "ss160-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Those shoes were expensive, yet Leo bought them.",
+      "promptZh": "那雙鞋很昂貴，但里奧仍然買了下來。",
+      "promptZhSource": "pdf",
+      "starter": "Those",
+      "answer": "Those shoes were expensive. All the same, Leo bought them.",
+      "answerZh": "那雙鞋很昂貴。儘管如此，里奧仍然買了下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Those shoes were expensive. All the same, Leo bought them."
+    },
+    {
+      "id": "ss160-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "In spite of the rain, we went for a walk.",
+      "promptZh": "儘管下雨，我們仍然去散步。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was raining. All the same, we went for a walk.",
+      "answerZh": "當時正在下雨。儘管如此，我們仍然去散步。",
+      "answerZhSource": "pdf",
+      "highlight": "It was raining. All the same, we went for a walk."
+    },
+    {
+      "id": "ss160-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The room was small. However, it was comfortable.",
+      "promptZh": "房間很小。不過，它很舒適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room was small. All the same, it was comfortable.",
+      "answerZh": "房間很小。儘管如此，它很舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "The room was small. All the same, it was comfortable."
+    },
+    {
+      "id": "ss160-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The test was difficult. Nevertheless, Ben remained calm.",
+      "promptZh": "測驗很困難。儘管如此，本仍然保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The test was difficult. All the same, Ben remained calm.",
+      "answerZh": "測驗很困難。儘管如此，本仍然保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The test was difficult. All the same, Ben remained calm."
+    },
+    {
+      "id": "ss160-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The team had little time to practise. Even so, they played well.",
+      "promptZh": "球隊沒有多少時間練習。即便如此，他們仍表現出色。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team had little time to practise. All the same, they played well.",
+      "answerZh": "球隊沒有多少時間練習。儘管如此，他們仍表現出色。",
+      "answerZhSource": "pdf",
+      "highlight": "The team had little time to practise. All the same, they played well."
+    },
+    {
+      "id": "ss160-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although Sarah dislikes crowds, she is attending the concert tonight.",
+      "promptZh": "雖然莎拉不喜歡人多的地方，但她今晚會出席音樂會。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah dislikes crowds. All the same, she is attending the concert tonight.",
+      "answerZh": "莎拉不喜歡人多的地方。儘管如此，她今晚仍會出席音樂會。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah dislikes crowds. All the same, she is attending the concert tonight."
+    },
+    {
+      "id": "ss160-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The computer is old, but it still works well.",
+      "promptZh": "這部電腦很舊，但仍然運作良好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The computer is old. All the same, it still works well.",
+      "answerZh": "這部電腦很舊。儘管如此，它仍然運作良好。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer is old. All the same, it still works well."
+    },
+    {
+      "id": "ss160-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Was Olivia nervous? Yes, but she gave a clear presentation.",
+      "promptZh": "奧莉花緊張嗎？是的，但她仍作出了清晰的匯報。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia was nervous. All the same, she gave a clear presentation.",
+      "answerZh": "奧莉花很緊張。儘管如此，她仍作出了清晰的匯報。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia was nervous. All the same, she gave a clear presentation."
+    },
+    {
+      "id": "ss160-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The road was narrow. Nonetheless, the driver continued carefully.",
+      "promptZh": "道路很狹窄。儘管如此，司機仍小心地繼續前進。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was narrow. All the same, the driver continued carefully.",
+      "answerZh": "道路很狹窄。儘管如此，司機仍小心地繼續前進。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was narrow. All the same, the driver continued carefully."
+    },
+    {
+      "id": "ss160-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Despite being busy, Grace answered every email.",
+      "promptZh": "儘管很忙，格蕾絲仍回覆了每封電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace was busy. All the same, she answered every email.",
+      "answerZh": "格蕾絲很忙。儘管如此，她仍回覆了每封電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace was busy. All the same, she answered every email."
+    },
+    {
+      "id": "ss160-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The soup was too salty for Noah's taste, but he finished it without complaining.",
+      "promptZh": "這碗湯對諾亞來說太鹹，但他仍毫無怨言地喝完。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup was too salty for Noah's taste. All the same, he finished it without complaining.",
+      "answerZh": "這碗湯對諾亞來說太鹹。儘管如此，他仍毫無怨言地喝完。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup was too salty for Noah's taste. All the same, he finished it without complaining."
+    },
+    {
+      "id": "ss160-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although the museum was closing soon, the staff let us enter.",
+      "promptZh": "雖然博物館快要關門，但職員仍讓我們進內。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum was closing soon. All the same, the staff let us enter.",
+      "answerZh": "博物館快要關門。儘管如此，職員仍讓我們進內。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum was closing soon. All the same, the staff let us enter."
+    },
+    {
+      "id": "ss160-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The path may be longer, but take it because it is safer.",
+      "promptZh": "這條路可能較長，但請走這條路，因為它較安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The path may be longer. All the same, take it because it is safer.",
+      "answerZh": "這條路可能較長。儘管如此，請走這條路，因為它較安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The path may be longer. All the same, take it because it is safer."
+    },
+    {
+      "id": "ss160-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In spite of his limited experience, Ethan applied for the position.",
+      "promptZh": "儘管經驗有限，伊森仍申請了這個職位。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan had limited experience. All the same, he applied for the position.",
+      "answerZh": "伊森的經驗有限。儘管如此，他仍申請了這個職位。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan had limited experience. All the same, he applied for the position."
+    },
+    {
+      "id": "ss160-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The tickets were almost sold out. Even so, Chloe managed to buy two.",
+      "promptZh": "門票幾乎售罄。即便如此，克洛伊仍成功買到兩張。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The tickets were almost sold out. All the same, Chloe managed to buy two.",
+      "answerZh": "門票幾乎售罄。儘管如此，克洛伊仍成功買到兩張。",
+      "answerZhSource": "pdf",
+      "highlight": "The tickets were almost sold out. All the same, Chloe managed to buy two."
+    },
+    {
+      "id": "ss160-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although the new rule is inconvenient, everyone must follow it.",
+      "promptZh": "雖然新規則帶來不便，但所有人都必須遵守。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule is inconvenient. All the same, everyone must follow it.",
+      "answerZh": "新規則帶來不便。儘管如此，所有人都必須遵守。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule is inconvenient. All the same, everyone must follow it."
+    },
+    {
+      "id": "ss160-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The proposal was criticised, yet it was approved by the committee.",
+      "promptZh": "這項建議受到批評，但仍獲委員會通過。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal was criticised. All the same, it was approved by the committee.",
+      "answerZh": "這項建議受到批評。儘管如此，它仍獲委員會通過。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal was criticised. All the same, it was approved by the committee."
+    },
+    {
+      "id": "ss160-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Despite having a headache, Maya continued to study.",
+      "promptZh": "儘管頭痛，瑪雅仍繼續溫習。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya had a headache. All the same, she continued to study.",
+      "answerZh": "瑪雅頭痛。儘管如此，她仍繼續溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya had a headache. All the same, she continued to study."
+    },
+    {
+      "id": "ss160-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although our hotel was farther from the station than expected, we enjoyed our stay.",
+      "promptZh": "雖然我們入住的酒店比預期更遠離車站，但我們仍享受這次住宿。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our hotel was farther from the station than expected. All the same, we enjoyed our stay.",
+      "answerZh": "我們入住的酒店比預期更遠離車站。儘管如此，我們仍享受這次住宿。",
+      "answerZhSource": "pdf",
+      "highlight": "Our hotel was farther from the station than expected. All the same, we enjoyed our stay."
+    },
+    {
+      "id": "ss160-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The investigators had incomplete evidence, but they continued their work.",
+      "promptZh": "調查人員掌握的證據並不完整，但他們仍繼續工作。",
+      "promptZhSource": "pdf",
+      "starter": "Investigators",
+      "answer": "Investigators had incomplete evidence. All the same, they continued their work.",
+      "answerZh": "調查人員掌握的證據並不完整。儘管如此，他們仍繼續工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Investigators had incomplete evidence. All the same, they continued their work."
+    },
+    {
+      "id": "ss160-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Even though this machine makes a strange noise, it is operating safely.",
+      "promptZh": "即使這部機器發出奇怪聲響，它仍在安全運作。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This machine makes a strange noise. All the same, it is operating safely.",
+      "answerZh": "這部機器發出奇怪聲響。儘管如此，它仍在安全運作。",
+      "answerZhSource": "pdf",
+      "highlight": "This machine makes a strange noise. All the same, it is operating safely."
+    },
+    {
+      "id": "ss160-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The staff faced an extremely tight deadline. Nevertheless, they completed the report.",
+      "promptZh": "職員面對非常緊迫的期限。儘管如此，他們仍完成了報告。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff faced an extremely tight deadline. All the same, they completed the report.",
+      "answerZh": "職員面對非常緊迫的期限。儘管如此，他們仍完成了報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff faced an extremely tight deadline. All the same, they completed the report."
+    },
+    {
+      "id": "ss160-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The medicine tasted unpleasant, but the child took it without complaining.",
+      "promptZh": "藥物味道難受，但孩子仍毫無怨言地服用了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine tasted unpleasant. All the same, the child took it without complaining.",
+      "answerZh": "藥物味道難受。儘管如此，孩子仍毫無怨言地服用了。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine tasted unpleasant. All the same, the child took it without complaining."
+    },
+    {
+      "id": "ss160-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Poor weather was forecast, but the school continued the trip because the route was considered safe.",
+      "promptZh": "天氣預報顯示天氣不佳，但學校仍繼續行程，因為該路線被認為是安全的。",
+      "promptZhSource": "pdf",
+      "starter": "Poor",
+      "answer": "Poor weather was forecast. All the same, the school continued the trip because the route was considered safe.",
+      "answerZh": "天氣預報顯示天氣不佳。儘管如此，學校仍繼續行程，因為該路線被認為是安全的。",
+      "answerZhSource": "pdf",
+      "highlight": "Poor weather was forecast. All the same, the school continued the trip because the route was considered safe."
+    },
+    {
+      "id": "ss160-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In spite of several early mistakes, the players recovered and won the match.",
+      "promptZh": "儘管開局時犯了數個錯誤，球員仍重拾狀態並贏得比賽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The players made several early mistakes. All the same, they recovered and won the match.",
+      "answerZh": "球員開局時犯了數個錯誤。儘管如此，他們仍重拾狀態並贏得比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "The players made several early mistakes. All the same, they recovered and won the match."
+    },
+    {
+      "id": "ss160-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the queue looks long, please remain here until your number is called.",
+      "promptZh": "雖然隊伍看來很長，但請留在這裏，直至叫到你的號碼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The queue looks long. All the same, please remain here until your number is called.",
+      "answerZh": "隊伍看來很長。儘管如此，請留在這裏，直至叫到你的號碼。",
+      "answerZhSource": "pdf",
+      "highlight": "The queue looks long. All the same, please remain here until your number is called."
+    },
+    {
+      "id": "ss160-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The first experiment failed. Still, the scientists repeated it with a different method.",
+      "promptZh": "第一次實驗失敗了。儘管如此，科學家仍以另一種方法重做實驗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first experiment failed. All the same, the scientists repeated it with a different method.",
+      "answerZh": "第一次實驗失敗了。儘管如此，科學家仍以另一種方法重做實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The first experiment failed. All the same, the scientists repeated it with a different method."
+    },
+    {
+      "id": "ss160-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although this flat needs repairs, the tenants have decided to renew the lease.",
+      "promptZh": "雖然這個單位需要維修，但租客仍決定續租。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This flat needs repairs. All the same, the tenants have decided to renew the lease.",
+      "answerZh": "這個單位需要維修。儘管如此，租客仍決定續租。",
+      "answerZhSource": "pdf",
+      "highlight": "This flat needs repairs. All the same, the tenants have decided to renew the lease."
+    },
+    {
+      "id": "ss160-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A company knew that the more reliable supplier would cost extra, but it chose that supplier.",
+      "promptZh": "一家公司知道較可靠的供應商會收取較高費用，但仍選擇了該供應商。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company knew that the more reliable supplier would cost extra. All the same, it chose that supplier.",
+      "answerZh": "公司知道較可靠的供應商會收取較高費用。儘管如此，它仍選擇了該供應商。",
+      "answerZhSource": "pdf",
+      "highlight": "The company knew that the more reliable supplier would cost extra. All the same, it chose that supplier."
+    },
+    {
+      "id": "ss160-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The instructions warned that the climb would be difficult. Even so, the group continued.",
+      "promptZh": "指示警告攀登過程會很困難。即便如此，團隊仍繼續前進。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions warned that the climb would be difficult. All the same, the group continued.",
+      "answerZh": "指示警告攀登過程會很困難。儘管如此，團隊仍繼續前進。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions warned that the climb would be difficult. All the same, the group continued."
+    },
+    {
+      "id": "ss160-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although this article contains a few errors, its main argument is convincing.",
+      "promptZh": "雖然這篇文章有幾個錯誤，但主要論點仍具說服力。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This article contains a few errors. All the same, its main argument is convincing.",
+      "answerZh": "這篇文章有幾個錯誤。儘管如此，其主要論點仍具說服力。",
+      "answerZhSource": "pdf",
+      "highlight": "This article contains a few errors. All the same, its main argument is convincing."
+    },
+    {
+      "id": "ss160-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The lift was out of service, but visitors could still reach the gallery by the stairs.",
+      "promptZh": "升降機暫停服務，但訪客仍可經樓梯前往展覽廳。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lift was out of service. All the same, visitors could reach the gallery by the stairs.",
+      "answerZh": "升降機暫停服務。儘管如此，訪客仍可經樓梯前往展覽廳。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift was out of service. All the same, visitors could reach the gallery by the stairs."
+    },
+    {
+      "id": "ss160-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This plan does not solve every problem. Nonetheless, it is a useful first step.",
+      "promptZh": "這個計劃未能解決所有問題。儘管如此，它仍是有用的第一步。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This plan does not solve every problem. All the same, it is a useful first step.",
+      "answerZh": "這個計劃未能解決所有問題。儘管如此，它仍是有用的第一步。",
+      "answerZhSource": "pdf",
+      "highlight": "This plan does not solve every problem. All the same, it is a useful first step."
+    },
+    {
+      "id": "ss160-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Even though the customer had no receipt, the manager agreed to examine the faulty product.",
+      "promptZh": "即使顧客沒有收據，經理仍同意檢查有問題的產品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer had no receipt. All the same, the manager agreed to examine the faulty product.",
+      "answerZh": "顧客沒有收據。儘管如此，經理仍同意檢查有問題的產品。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer had no receipt. All the same, the manager agreed to examine the faulty product."
+    },
+    {
+      "id": "ss160-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The storm damaged several roads. However, emergency supplies reached the village.",
+      "promptZh": "暴風雨破壞了數條道路。不過，緊急物資仍送抵村莊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The storm damaged several roads. All the same, emergency supplies reached the village.",
+      "answerZh": "暴風雨破壞了數條道路。儘管如此，緊急物資仍送抵村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm damaged several roads. All the same, emergency supplies reached the village."
+    },
+    {
+      "id": "ss160-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Admittedly, staff find the training programme demanding, but it gives them valuable experience.",
+      "promptZh": "無可否認，職員認為培訓計劃要求很高，但它能給予他們寶貴經驗。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff find the training programme demanding. All the same, it gives them valuable experience.",
+      "answerZh": "職員認為培訓計劃要求很高。儘管如此，它仍能給予他們寶貴經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff find the training programme demanding. All the same, it gives them valuable experience."
+    },
+    {
+      "id": "ss160-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This survey included only a small number of people. Nevertheless, its findings deserve further study.",
+      "promptZh": "這項調查只包括少量人士。儘管如此，其結果仍值得進一步研究。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This survey included only a small number of people. All the same, its findings deserve further study.",
+      "answerZh": "這項調查只包括少量人士。儘管如此，其結果仍值得進一步研究。",
+      "answerZhSource": "pdf",
+      "highlight": "This survey included only a small number of people. All the same, its findings deserve further study."
+    },
+    {
+      "id": "ss160-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the hospital is facing staff shortages, essential services will continue.",
+      "promptZh": "雖然醫院正面對人手短缺，但必要服務仍會繼續。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital is facing staff shortages. All the same, essential services will continue.",
+      "answerZh": "醫院正面對人手短缺。儘管如此，必要服務仍會繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital is facing staff shortages. All the same, essential services will continue."
+    },
+    {
+      "id": "ss160-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A replacement part may not arrive today, but the engineer can complete the safety checks.",
+      "promptZh": "替換零件今天可能未能送達，但工程師仍可完成安全檢查。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A replacement part may not arrive today. All the same, the engineer can complete the safety checks.",
+      "answerZh": "替換零件今天可能未能送達。儘管如此，工程師仍可完成安全檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "A replacement part may not arrive today. All the same, the engineer can complete the safety checks."
+    },
+    {
+      "id": "ss160-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In spite of strong public opposition, the council voted to continue the project.",
+      "promptZh": "儘管公眾強烈反對，議會仍投票決定繼續推行項目。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was strong public opposition. All the same, the council voted to continue the project.",
+      "answerZh": "公眾強烈反對。儘管如此，議會仍投票決定繼續推行項目。",
+      "answerZhSource": "pdf",
+      "highlight": "There was strong public opposition. All the same, the council voted to continue the project."
+    },
+    {
+      "id": "ss160-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This candidate lacks direct management experience. Even so, her record shows strong leadership ability.",
+      "promptZh": "這名應徵者欠缺直接管理經驗。即便如此，她的履歷仍顯示出很強的領導能力。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This candidate lacks direct management experience. All the same, her record shows strong leadership ability.",
+      "answerZh": "這名應徵者欠缺直接管理經驗。儘管如此，她的履歷仍顯示出很強的領導能力。",
+      "answerZhSource": "pdf",
+      "highlight": "This candidate lacks direct management experience. All the same, her record shows strong leadership ability."
+    },
+    {
+      "id": "ss160-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the policy may be unpopular at first, it could reduce waste in the long term.",
+      "promptZh": "雖然這項政策起初可能不受歡迎，但長遠而言，它或可減少浪費。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy may be unpopular at first. All the same, it could reduce waste in the long term.",
+      "answerZh": "這項政策起初可能不受歡迎。儘管如此，長遠而言，它或可減少浪費。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy may be unpopular at first. All the same, it could reduce waste in the long term."
+    },
+    {
+      "id": "ss160-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Current data cannot prove that the treatment works for everyone. Still, the early results are encouraging.",
+      "promptZh": "現有數據未能證明這種治療對所有人都有效。儘管如此，初步結果仍令人鼓舞。",
+      "promptZhSource": "pdf",
+      "starter": "Current",
+      "answer": "Current data cannot prove that the treatment works for everyone. All the same, the early results are encouraging.",
+      "answerZh": "現有數據未能證明這種治療對所有人都有效。儘管如此，初步結果仍令人鼓舞。",
+      "answerZhSource": "pdf",
+      "highlight": "Current data cannot prove that the treatment works for everyone. All the same, the early results are encouraging."
+    },
+    {
+      "id": "ss160-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Negotiations were slow and sometimes frustrating, yet both sides remained willing to reach an agreement.",
+      "promptZh": "談判進展緩慢，有時令人沮喪，但雙方仍願意達成協議。",
+      "promptZhSource": "pdf",
+      "starter": "Negotiations",
+      "answer": "Negotiations were slow and sometimes frustrating. All the same, both sides remained willing to reach an agreement.",
+      "answerZh": "談判進展緩慢，有時令人沮喪。儘管如此，雙方仍願意達成協議。",
+      "answerZhSource": "pdf",
+      "highlight": "Negotiations were slow and sometimes frustrating. All the same, both sides remained willing to reach an agreement."
+    },
+    {
+      "id": "ss160-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The final design is not perfect, but it meets the safety requirements and can be improved later.",
+      "promptZh": "最終設計並不完美，但它符合安全要求，而且日後可以改進。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final design is not perfect. All the same, it meets the safety requirements and can be improved later.",
+      "answerZh": "最終設計並不完美。儘管如此，它符合安全要求，而且日後可以改進。",
+      "answerZhSource": "pdf",
+      "highlight": "The final design is not perfect. All the same, it meets the safety requirements and can be improved later."
+    }
+  ]
+}

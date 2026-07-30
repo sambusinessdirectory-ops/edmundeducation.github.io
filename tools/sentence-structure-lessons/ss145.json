@@ -1,0 +1,1233 @@
+{
+  "id": "ss145",
+  "order": 145,
+  "slug": "if-were-to",
+  "title": "「If + were to」句（較遙遠的未來假設）",
+  "titleZh": "「If + were to」句（較遙遠的未來假設）",
+  "titleEn": "Using if + were to for a more remote future hypothesis",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 145 -「If + were to」句（較遙遠的未來假設）.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "If + subject + were to + base verb + ..., subject + would / could / might + base verb + ...",
+  "formulas": [
+    {
+      "id": "ss145-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "If + subject + were to + base verb + ..., subject + would / could / might + base verb + ..."
+    },
+    {
+      "id": "ss145-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Subject + would / could / might + base verb + ... if + subject + were to + base verb + ..."
+    },
+    {
+      "id": "ss145-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "If + subject + were not to + base verb + ..."
+    },
+    {
+      "id": "ss145-formula-04",
+      "labelEn": "Pattern 4",
+      "labelZh": "句式 4",
+      "formula": "If + subject + were to be + past participle + ..."
+    }
+  ],
+  "example": "If the market were to crash, many firms would suffer.",
+  "exampleZh": "如果市場一旦崩潰，許多公司便會受到影響。",
+  "examples": [
+    {
+      "id": "ss145-example-01",
+      "en": "If the market were to crash, many firms would suffer.",
+      "zh": "如果市場一旦崩潰，許多公司便會受到影響。",
+      "highlight": "If the market were to crash"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss145-rule-01",
+      "zh": "所有主語都使用 were 在這個假設句型中，不論主語是 I、he、she、it、we 或 they，都使用 were。",
+      "en": "Use were with every subject in this hypothetical pattern, whether the subject is I, he, she, it, we or they.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If I were to leave...",
+        "If she were to leave...",
+        "If they were to leave..."
+      ]
+    },
+    {
+      "id": "ss145-rule-02",
+      "zh": "were to 後面使用原形動詞 正確： 錯誤：",
+      "en": "Use the base form of the verb after were to.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "were to lose",
+        "were to happen",
+        "were to become",
+        "were to be closed",
+        "were to lost",
+        "were to happened",
+        "were to becoming"
+      ]
+    },
+    {
+      "id": "ss145-rule-03",
+      "zh": "結果句通常使用 would、could 或 might ● would：表示預計結果 ● could：表示可能性或能力 ● might：表示較不肯定的可能性 當句子是在給予指示或建議時，結果句也可以使用命令句或 should。",
+      "en": "The result clause normally uses would, could or might: would gives an expected result, could expresses possibility or ability, and might expresses a less certain possibility. When the sentence gives instructions or advice, the result clause may instead use an imperative or should.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "would：表示預計結果",
+        "could：表示可能性或能力",
+        "might：表示較不肯定的可能性"
+      ]
+    },
+    {
+      "id": "ss145-rule-04",
+      "zh": "主要用於未來的假設情況 這個句型主要談論尚未發生、想像中或較不大可能發生的未來情況。 它通常不用來表達與過去事實相反的假設。過去的反事實情況應使用：",
+      "en": "Use the pattern mainly for hypothetical future situations that have not happened and are imagined or relatively unlikely. Do not normally use it for a condition contrary to past fact; use if + had + past participle for that meaning.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss145-rule-05",
+      "zh": "與 If + past tense 的分別 兩句都是假設句。 If + past tense 較常見、較中性，可以泛指一個不確定的未來可能。 If + were to 通常令情況聽起來： ● 更遙遠； ● 更不大可能； ● 更審慎； ● 或更正式。 因此，were to 特別適合討論風險、突發情況和未來方案。",
+      "en": "Both if + past tense and if + were to are hypothetical. The ordinary past form is more common and neutral and can describe an uncertain future possibility. If + were to makes the situation sound more remote, less likely, more cautious or more formal, so it is particularly useful for risks, emergencies and future contingency plans.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss145-rule-06",
+      "zh": "本練習不使用倒裝形式 以上是正確的倒裝形式，但屬於另一個較進階句型。本練習只要求使用完整的：",
+      "en": "This exercise does not use the inverted form. Although Were the market to crash ... is grammatical, it is a separate advanced pattern; use the complete form if + subject + were to + verb here.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss145-benefit-01",
+      "zh": "清楚表示事情只是假設 這個句型可以提醒讀者：你正在討論一個可能發生、但並非預測一定會發生的情況。",
+      "en": "It clearly shows that a situation is hypothetical, reminding readers that you are discussing something that may happen rather than predicting that it certainly will.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss145-benefit-02",
+      "zh": "適合討論較低機會或較嚴重的情況 當你談論市場崩潰、系統故障、火警或計劃失敗等情況時，were to 能令語氣更審慎。",
+      "en": "It suits lower-probability or serious scenarios. When discussing a market crash, system failure, fire or failed plan, were to creates a more cautious tone.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss145-benefit-03",
+      "zh": "幫助你分析後果和預先制訂方案 你可以先提出一個假設情況，再說明可能的結果或應對方法。這對作文、討論、報告和商業風險 分析都很實用。",
+      "en": "It helps you analyse consequences and plan ahead by presenting a hypothetical situation and then its possible result or response, which is useful in essays, discussions, reports and business risk analysis.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss145-benefit-04",
+      "zh": "讓條件句更有變化 除了反覆使用 If + past tense，你也可以使用 If + were to，令說話和寫作的句式更豐富。",
+      "en": "It adds variety to conditional sentences by providing an alternative to repeated if + past tense forms.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss145-benefit-05",
+      "zh": "提供一個容易使用的思考框架 只要套用以下框架，便可以有條理地表達「假如發生某事，結果可能會怎樣」： 第二句更突出這是一個預先設想的風險情況，而不是在暗示系統很可能會失靈。",
+      "en": "It provides an easy thinking framework for stating what might happen if a particular event occurred. In the comparison, the were to version emphasizes a pre-planned risk scenario rather than suggesting that system failure is likely.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using if + subject + were to + base verb to express an imagined future possibility.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 if + 主語 + were to + 原形動詞 改寫以下句子，以表達想像中、較遙遠或較不大可能的未來 情況。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss145-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "If it rained tomorrow, the picnic would be cancelled.",
+      "promptZh": "如果明天下雨，野餐便會取消。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If it were to rain tomorrow, the picnic would be cancelled.",
+      "answerZh": "如果明天下雨，野餐便會取消。",
+      "answerZhSource": "pdf",
+      "highlight": "If it were to rain tomorrow, the picnic would be cancelled."
+    },
+    {
+      "id": "ss145-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I would call a locksmith if I lost my key tonight.",
+      "promptZh": "如果我今晚遺失鎖匙，我會致電鎖匠。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would call a locksmith if I were to lose my key tonight.",
+      "answerZh": "如果我今晚遺失鎖匙，我會致電鎖匠。",
+      "answerZhSource": "pdf",
+      "highlight": "I would call a locksmith if I were to lose my key tonight."
+    },
+    {
+      "id": "ss145-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "If Amy missed the bus, she would be late for school.",
+      "promptZh": "如果艾米錯過巴士，她上學便會遲到。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Amy were to miss the bus, she would be late for school.",
+      "answerZh": "如果艾米錯過巴士，她上學便會遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "If Amy were to miss the bus, she would be late for school."
+    },
+    {
+      "id": "ss145-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We could eat at home if the restaurant closed early.",
+      "promptZh": "如果餐廳提早關門，我們可以在家吃飯。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could eat at home if the restaurant were to close early.",
+      "answerZh": "如果餐廳提早關門，我們可以在家吃飯。",
+      "answerZhSource": "pdf",
+      "highlight": "We could eat at home if the restaurant were to close early."
+    },
+    {
+      "id": "ss145-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "If Ben forgot his homework, the teacher would remind him.",
+      "promptZh": "如果本忘記帶功課，老師會提醒他。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Ben were to forget his homework, the teacher would remind him.",
+      "answerZh": "如果本忘記帶功課，老師會提醒他。",
+      "answerZhSource": "pdf",
+      "highlight": "If Ben were to forget his homework, the teacher would remind him."
+    },
+    {
+      "id": "ss145-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The room would become warmer if we shut all the windows.",
+      "promptZh": "如果我們關上所有窗戶，房間會變得較暖。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room would become warmer if we were to shut all the windows.",
+      "answerZh": "如果我們關上所有窗戶，房間會變得較暖。",
+      "answerZhSource": "pdf",
+      "highlight": "The room would become warmer if we were to shut all the windows."
+    },
+    {
+      "id": "ss145-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If the lift stopped working, we would use the stairs.",
+      "promptZh": "如果升降機停止運作，我們會使用樓梯。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the lift were to stop working, we would use the stairs.",
+      "answerZh": "如果升降機停止運作，我們會使用樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "If the lift were to stop working, we would use the stairs."
+    },
+    {
+      "id": "ss145-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia might feel nervous if she spoke in front of the whole class.",
+      "promptZh": "如果米婭在全班面前發言，她可能會感到緊張。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia might feel nervous if she were to speak in front of the whole class.",
+      "answerZh": "如果米婭在全班面前發言，她可能會感到緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia might feel nervous if she were to speak in front of the whole class."
+    },
+    {
+      "id": "ss145-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If the shop ran out of bread, Dad would go elsewhere.",
+      "promptZh": "如果商店的麵包售罄，爸爸會到別處購買。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the shop were to run out of bread, Dad would go elsewhere.",
+      "answerZh": "如果商店的麵包售罄，爸爸會到別處購買。",
+      "answerZhSource": "pdf",
+      "highlight": "If the shop were to run out of bread, Dad would go elsewhere."
+    },
+    {
+      "id": "ss145-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The match would be postponed if heavy rain began.",
+      "promptZh": "如果開始下大雨，比賽便會延期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The match would be postponed if heavy rain were to begin.",
+      "answerZh": "如果開始下大雨，比賽便會延期。",
+      "answerZhSource": "pdf",
+      "highlight": "The match would be postponed if heavy rain were to begin."
+    },
+    {
+      "id": "ss145-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Suppose Daniel lost his wallet. He would report the loss to the police.",
+      "promptZh": "假設丹尼爾遺失銀包，他會向警方報失。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Daniel were to lose his wallet, he would report the loss to the police.",
+      "answerZh": "如果丹尼爾遺失銀包，他會向警方報失。",
+      "answerZhSource": "pdf",
+      "highlight": "If Daniel were to lose his wallet, he would report the loss to the police."
+    },
+    {
+      "id": "ss145-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Imagine the power went off during dinner. We would light some candles.",
+      "promptZh": "試想像晚飯期間停電，我們會點燃一些蠟燭。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the power were to go off during dinner, we would light some candles.",
+      "answerZh": "如果晚飯期間停電，我們會點燃一些蠟燭。",
+      "answerZhSource": "pdf",
+      "highlight": "If the power were to go off during dinner, we would light some candles."
+    },
+    {
+      "id": "ss145-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What would Chloe do if her phone broke?",
+      "promptZh": "如果克洛伊的電話壞了，她會怎樣做？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What would Chloe do if her phone were to break?",
+      "answerZh": "如果克洛伊的電話壞了，她會怎樣做？",
+      "answerZhSource": "pdf",
+      "highlight": "What would Chloe do if her phone were to break?"
+    },
+    {
+      "id": "ss145-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If this medicine caused a rash, stop taking it and seek medical advice.",
+      "promptZh": "如果這種藥物引起皮疹，便應停止服用並尋求醫療建議。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If this medicine were to cause a rash, stop taking it and seek medical advice.",
+      "answerZh": "如果這種藥物引起皮疹，便應停止服用並尋求醫療建議。",
+      "answerZhSource": "pdf",
+      "highlight": "If this medicine were to cause a rash, stop taking it and seek medical advice."
+    },
+    {
+      "id": "ss145-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "In the unlikely event of the train arriving late, passengers would receive updates.",
+      "promptZh": "萬一火車延誤，乘客會收到最新消息。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the train were to arrive late, passengers would receive updates.",
+      "answerZh": "如果火車延誤，乘客會收到最新消息。",
+      "answerZhSource": "pdf",
+      "highlight": "If the train were to arrive late, passengers would receive updates."
+    },
+    {
+      "id": "ss145-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Should the alarm ring, leave the building calmly.",
+      "promptZh": "如果警報響起，請冷靜地離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the alarm were to ring, leave the building calmly.",
+      "answerZh": "如果警報響起，請冷靜地離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "If the alarm were to ring, leave the building calmly."
+    },
+    {
+      "id": "ss145-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The team would change its plan if the opposing side scored first.",
+      "promptZh": "如果對方先得分，球隊會改變策略。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team would change its plan if the opposing side were to score first.",
+      "answerZh": "如果對方先得分，球隊會改變策略。",
+      "answerZhSource": "pdf",
+      "highlight": "The team would change its plan if the opposing side were to score first."
+    },
+    {
+      "id": "ss145-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Suppose I moved to another city. I would miss my friends.",
+      "promptZh": "假設我搬到另一個城市，我會掛念朋友。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I were to move to another city, I would miss my friends.",
+      "answerZh": "如果我搬到另一個城市，我會掛念朋友。",
+      "answerZhSource": "pdf",
+      "highlight": "If I were to move to another city, I would miss my friends."
+    },
+    {
+      "id": "ss145-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Imagine your computer stopped responding. What would you do?",
+      "promptZh": "試想像你的電腦停止回應，你會怎樣做？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What would you do if your computer were to stop responding?",
+      "answerZh": "如果你的電腦停止回應，你會怎樣做？",
+      "answerZhSource": "pdf",
+      "highlight": "What would you do if your computer were to stop responding?"
+    },
+    {
+      "id": "ss145-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If our teacher gave us an extra day, we could improve the project.",
+      "promptZh": "如果老師多給我們一天時間，我們可以改善這個項目。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If our teacher were to give us an extra day, we could improve the project.",
+      "answerZh": "如果老師多給我們一天時間，我們可以改善這個項目。",
+      "answerZhSource": "pdf",
+      "highlight": "If our teacher were to give us an extra day, we could improve the project."
+    },
+    {
+      "id": "ss145-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "In the event of the school cancelling the trip, parents would receive a refund.",
+      "promptZh": "萬一學校取消旅行，家長會獲得退款。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the school were to cancel the trip, parents would receive a refund.",
+      "answerZh": "如果學校取消旅行，家長會獲得退款。",
+      "answerZhSource": "pdf",
+      "highlight": "If the school were to cancel the trip, parents would receive a refund."
+    },
+    {
+      "id": "ss145-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If the delivery did not arrive by Friday, we would contact the supplier.",
+      "promptZh": "如果貨物未能在星期五前送到，我們會聯絡供應商。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the delivery were not to arrive by Friday, we would contact the supplier.",
+      "answerZh": "如果貨物未能在星期五前送到，我們會聯絡供應商。",
+      "answerZhSource": "pdf",
+      "highlight": "If the delivery were not to arrive by Friday, we would contact the supplier."
+    },
+    {
+      "id": "ss145-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Suppose the hospital lost power. The backup generators would start automatically.",
+      "promptZh": "假設醫院停電，後備發電機會自動啟動。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the hospital were to lose power, the backup generators would start automatically.",
+      "answerZh": "如果醫院停電，後備發電機會自動啟動。",
+      "answerZhSource": "pdf",
+      "highlight": "If the hospital were to lose power, the backup generators would start automatically."
+    },
+    {
+      "id": "ss145-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What could happen if a driver ignored this warning light?",
+      "promptZh": "如果司機忽視這個警告燈，可能會發生甚麼事？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What could happen if a driver were to ignore this warning light?",
+      "answerZh": "如果司機忽視這個警告燈，可能會發生甚麼事？",
+      "answerZhSource": "pdf",
+      "highlight": "What could happen if a driver were to ignore this warning light?"
+    },
+    {
+      "id": "ss145-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The council might open an emergency centre if the storm became stronger.",
+      "promptZh": "如果風暴增強，市政機構可能會開設緊急中心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council might open an emergency centre if the storm were to become stronger.",
+      "answerZh": "如果風暴增強，市政機構可能會開設緊急中心。",
+      "answerZhSource": "pdf",
+      "highlight": "The council might open an emergency centre if the storm were to become stronger."
+    },
+    {
+      "id": "ss145-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Should a fire break out in the kitchen, use the nearest exit.",
+      "promptZh": "如果廚房發生火警，請使用最近的出口。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If a fire were to break out in the kitchen, use the nearest exit.",
+      "answerZh": "如果廚房發生火警，請使用最近的出口。",
+      "answerZhSource": "pdf",
+      "highlight": "If a fire were to break out in the kitchen, use the nearest exit."
+    },
+    {
+      "id": "ss145-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the company did not protect customer data, it could lose public trust.",
+      "promptZh": "如果公司不保護顧客資料，便可能失去公眾信任。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the company were not to protect customer data, it could lose public trust.",
+      "answerZh": "如果公司不保護顧客資料，便可能失去公眾信任。",
+      "answerZhSource": "pdf",
+      "highlight": "If the company were not to protect customer data, it could lose public trust."
+    },
+    {
+      "id": "ss145-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Imagine that the bridge was closed for repairs. How would commuters cross the river?",
+      "promptZh": "試想像大橋因維修而關閉，通勤人士會怎樣過河？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How would commuters cross the river if the bridge were to be closed for repairs?",
+      "answerZh": "如果大橋因維修而關閉，通勤人士會怎樣過河？",
+      "answerZhSource": "pdf",
+      "highlight": "How would commuters cross the river if the bridge were to be closed for repairs?"
+    },
+    {
+      "id": "ss145-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the new software failed, the support team could restore the old system.",
+      "promptZh": "如果新軟件失靈，支援團隊可以恢復舊系統。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the new software were to fail, the support team could restore the old system.",
+      "answerZh": "如果新軟件失靈，支援團隊可以恢復舊系統。",
+      "answerZhSource": "pdf",
+      "highlight": "If the new software were to fail, the support team could restore the old system."
+    },
+    {
+      "id": "ss145-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The event would not continue if the organisers decided that the venue was unsafe.",
+      "promptZh": "如果主辦單位認為場地不安全，活動便不會繼續。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event would not continue if the organisers were to decide that the venue was unsafe.",
+      "answerZh": "如果主辦單位認為場地不安全，活動便不會繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The event would not continue if the organisers were to decide that the venue was unsafe."
+    },
+    {
+      "id": "ss145-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Suppose the museum introduced free entry on Sundays. More families would visit.",
+      "promptZh": "假設博物館在星期日免費開放，會有更多家庭到訪。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the museum were to introduce free entry on Sundays, more families would visit.",
+      "answerZh": "如果博物館在星期日免費開放，會有更多家庭到訪。",
+      "answerZhSource": "pdf",
+      "highlight": "If the museum were to introduce free entry on Sundays, more families would visit."
+    },
+    {
+      "id": "ss145-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In the unlikely event of a patient reacting badly to the treatment, the doctor would act immediately.",
+      "promptZh": "萬一病人對治療出現不良反應，醫生會立即處理。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If a patient were to react badly to the treatment, the doctor would act immediately.",
+      "answerZh": "如果病人對治療出現不良反應，醫生會立即處理。",
+      "answerZhSource": "pdf",
+      "highlight": "If a patient were to react badly to the treatment, the doctor would act immediately."
+    },
+    {
+      "id": "ss145-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Should anyone discover an error in the report, they should inform the manager.",
+      "promptZh": "如果任何人發現報告有錯誤，便應通知經理。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If anyone were to discover an error in the report, they should inform the manager.",
+      "answerZh": "如果任何人發現報告有錯誤，便應通知經理。",
+      "answerZhSource": "pdf",
+      "highlight": "If anyone were to discover an error in the report, they should inform the manager."
+    },
+    {
+      "id": "ss145-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What would happen to local businesses if the road remained closed for a month?",
+      "promptZh": "如果道路持續關閉一個月，本地商戶會受到甚麼影響？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What would happen to local businesses if the road were to remain closed for a month?",
+      "answerZh": "如果道路持續關閉一個月，本地商戶會受到甚麼影響？",
+      "answerZhSource": "pdf",
+      "highlight": "What would happen to local businesses if the road were to remain closed for a month?"
+    },
+    {
+      "id": "ss145-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If I received an offer from the university, I would discuss it with my family before deciding.",
+      "promptZh": "如果我收到大學取錄通知，我會先與家人商量才作決定。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I were to receive an offer from the university, I would discuss it with my family before deciding.",
+      "answerZh": "如果我收到大學取錄通知，我會先與家人商量才作決定。",
+      "answerZhSource": "pdf",
+      "highlight": "If I were to receive an offer from the university, I would discuss it with my family before deciding."
+    },
+    {
+      "id": "ss145-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Imagine that the machine did not recognise your card. You could ask a member of staff for help.",
+      "promptZh": "試想像機器無法識別你的卡，你可以向職員求助。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the machine were not to recognise your card, you could ask a member of staff for help.",
+      "answerZh": "如果機器無法識別你的卡，你可以向職員求助。",
+      "answerZhSource": "pdf",
+      "highlight": "If the machine were not to recognise your card, you could ask a member of staff for help."
+    },
+    {
+      "id": "ss145-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The charity might delay the campaign if it did not receive enough volunteers.",
+      "promptZh": "如果慈善機構未能招募足夠義工，可能會推遲活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity might delay the campaign if it were not to receive enough volunteers.",
+      "answerZh": "如果慈善機構未能招募足夠義工，可能會推遲活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity might delay the campaign if it were not to receive enough volunteers."
+    },
+    {
+      "id": "ss145-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If a student who is usually punctual arrived late, the teacher would first check whether something was wrong.",
+      "promptZh": "如果一名平日準時的學生遲到，老師會先了解是否出了問題。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If a student who is usually punctual were to arrive late, the teacher would first check whether something was wrong.",
+      "answerZh": "如果一名平日準時的學生遲到，老師會先了解是否出了問題。",
+      "answerZhSource": "pdf",
+      "highlight": "If a student who is usually punctual were to arrive late, the teacher would first check whether something was wrong."
+    },
+    {
+      "id": "ss145-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Should the weather improve by noon, the rescue team could continue the search.",
+      "promptZh": "如果天氣在中午前好轉，救援隊便可以繼續搜索。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the weather were to improve by noon, the rescue team could continue the search.",
+      "answerZh": "如果天氣在中午前好轉，救援隊便可以繼續搜索。",
+      "answerZhSource": "pdf",
+      "highlight": "If the weather were to improve by noon, the rescue team could continue the search."
+    },
+    {
+      "id": "ss145-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The building would need to be evacuated if engineers found a serious structural problem.",
+      "promptZh": "如果工程師發現嚴重的結構問題，大樓便需要疏散。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The building would need to be evacuated if engineers were to find a serious structural problem.",
+      "answerZh": "如果工程師發現嚴重的結構問題，大樓便需要疏散。",
+      "answerZhSource": "pdf",
+      "highlight": "The building would need to be evacuated if engineers were to find a serious structural problem."
+    },
+    {
+      "id": "ss145-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In the unlikely event of the bank’s online system failing during a busy period, customers would be directed to other services.",
+      "promptZh": "萬一銀行的網上系統在繁忙時段停止運作，顧客會被安排使用其他服務。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the bank’s online system were to fail during a busy period, customers would be directed to other services.",
+      "answerZh": "如果銀行的網上系統在繁忙時段停止運作，顧客會被安排使用其他服務。",
+      "answerZhSource": "pdf",
+      "highlight": "If the bank’s online system were to fail during a busy period, customers would be directed to other services."
+    },
+    {
+      "id": "ss145-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Suppose the government introduced a new tax on single-use packaging. Some businesses might raise their prices.",
+      "promptZh": "假設政府對即棄包裝徵收新稅，部分商戶可能會提高價格。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the government were to introduce a new tax on single-use packaging, some businesses might raise their prices.",
+      "answerZh": "如果政府對即棄包裝徵收新稅，部分商戶可能會提高價格。",
+      "answerZhSource": "pdf",
+      "highlight": "If the government were to introduce a new tax on single-use packaging, some businesses might raise their prices."
+    },
+    {
+      "id": "ss145-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What steps would the school take if several teachers became ill on the same day?",
+      "promptZh": "如果數名教師在同一天生病，學校會採取甚麼措施？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What steps would the school take if several teachers were to become ill on the same day?",
+      "answerZh": "如果數名教師在同一天生病，學校會採取甚麼措施？",
+      "answerZhSource": "pdf",
+      "highlight": "What steps would the school take if several teachers were to become ill on the same day?"
+    },
+    {
+      "id": "ss145-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the local clinic did not receive the medicine on time, it might have to postpone some appointments.",
+      "promptZh": "如果本地診所未能準時收到藥物，可能需要押後部分預約。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the local clinic were not to receive the medicine on time, it might have to postpone some appointments.",
+      "answerZh": "如果本地診所未能準時收到藥物，可能需要押後部分預約。",
+      "answerZhSource": "pdf",
+      "highlight": "If the local clinic were not to receive the medicine on time, it might have to postpone some appointments."
+    },
+    {
+      "id": "ss145-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Should the research results challenge the original theory, the team would need to review its assumptions.",
+      "promptZh": "如果研究結果對原有理論提出質疑，團隊便需要重新檢視其假設。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the research results were to challenge the original theory, the team would need to review its assumptions.",
+      "answerZh": "如果研究結果對原有理論提出質疑，團隊便需要重新檢視其假設。",
+      "answerZhSource": "pdf",
+      "highlight": "If the research results were to challenge the original theory, the team would need to review its assumptions."
+    },
+    {
+      "id": "ss145-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Imagine that a major supplier suddenly ended its contract with the company. How would the company protect its customers?",
+      "promptZh": "試想像一間主要供應商突然終止與公司的合約，公司會怎樣保障顧客？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How would the company protect its customers if a major supplier were to end its contract suddenly?",
+      "answerZh": "如果一間主要供應商突然終止與公司的合約，公司會怎樣保障顧客？",
+      "answerZhSource": "pdf",
+      "highlight": "How would the company protect its customers if a major supplier were to end its contract suddenly?"
+    },
+    {
+      "id": "ss145-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The airport could face serious delays if its baggage system failed during the holiday rush.",
+      "promptZh": "如果機場的行李系統在假期繁忙時段失靈，機場可能會出現嚴重延誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The airport could face serious delays if its baggage system were to fail during the holiday rush.",
+      "answerZh": "如果機場的行李系統在假期繁忙時段失靈，機場可能會出現嚴重延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The airport could face serious delays if its baggage system were to fail during the holiday rush."
+    },
+    {
+      "id": "ss145-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Imagine that the community centre was closed for several months. Older residents who relied on its services might feel isolated.",
+      "promptZh": "試想像社區中心關閉數月，依賴其服務的年長居民可能會感到孤立。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the community centre were to be closed for several months, older residents who relied on its services might feel isolated.",
+      "answerZh": "如果社區中心關閉數月，依賴其服務的年長居民可能會感到孤立。",
+      "answerZhSource": "pdf",
+      "highlight": "If the community centre were to be closed for several months, older residents who relied on its services might feel isolated."
+    },
+    {
+      "id": "ss145-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In the unlikely event of the market crashing after investors had borrowed heavily, many firms could suffer severe losses.",
+      "promptZh": "萬一投資者大量借貸後市場崩潰，許多公司可能會蒙受嚴重損失。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the market were to crash after investors had borrowed heavily, many firms could suffer severe losses.",
+      "answerZh": "如果投資者大量借貸後市場崩潰，許多公司可能會蒙受嚴重損失。",
+      "answerZhSource": "pdf",
+      "highlight": "If the market were to crash after investors had borrowed heavily, many firms could suffer severe losses."
+    },
+    {
+      "id": "ss145-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What might happen if an AI system made an important decision using incomplete or biased data?",
+      "promptZh": "如果人工智能系統使用不完整或有偏差的資料作出重要決定，可能會發生甚麼事？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What might happen if an AI system were to make an important decision using incomplete or biased data?",
+      "answerZh": "如果人工智能系統使用不完整或有偏差的資料作出重要決定，可能會發生甚麼事？",
+      "answerZhSource": "pdf",
+      "highlight": "What might happen if an AI system were to make an important decision using incomplete or biased data?"
+    }
+  ]
+}

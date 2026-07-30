@@ -1,0 +1,1215 @@
+{
+  "id": "ss129",
+  "order": 129,
+  "slug": "in-the-sense-that",
+  "title": "「in the sense that」精確說明意思句",
+  "titleZh": "「in the sense that」精確說明意思句",
+  "titleEn": "Using in the sense that to define a precise meaning",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 129 -「in the sense that」精確說明意思句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Complete statement +, in the sense that + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss129-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Complete statement +, in the sense that + subject + verb + other information"
+    },
+    {
+      "id": "ss129-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Complete statement + only in the sense that + subject + verb + other information"
+    }
+  ],
+  "example": "The company is flexible, in the sense that employees can choose their working hours.",
+  "exampleZh": "這家公司很有彈性，意思是員工可以自行選擇工作時間。",
+  "examples": [
+    {
+      "id": "ss129-example-01",
+      "en": "The company is flexible, in the sense that employees can choose their working hours.",
+      "zh": "這家公司很有彈性，意思是員工可以自行選擇工作時間。",
+      "highlight": "in the sense that employees can choose their working hours"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss129-rule-01",
+      "zh": "that 後面必須接完整子句",
+      "en": "That must be followed by a complete clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The course is practical, in the sense that students solve real problems."
+      ]
+    },
+    {
+      "id": "ss129-rule-02",
+      "zh": "這是一個固定詞組 必須使用： 不要寫成：",
+      "en": "In the sense that is a fixed expression. Use that exact form, not in a sense that, in the meaning that or in the sense of that.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "in a sense that",
+        "in the meaning that",
+        "in the sense of that"
+      ]
+    },
+    {
+      "id": "ss129-rule-03",
+      "zh": "in the sense that 不等於普通的 because Because 通常解釋事情發生的原因。 In the sense that 則解釋「flexible」具體是指甚麼。",
+      "en": "In the sense that specifies meaning rather than simply giving a cause. Because normally explains why something happens, whereas in the sense that explains exactly what a general description such as flexible means.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The company is flexible because the manager trusts the employees.",
+        "The company is flexible, in the sense that employees can choose their working hours."
+      ]
+    },
+    {
+      "id": "ss129-rule-04",
+      "zh": "一般形式前通常使用逗號 當使用 only in the sense that 直接限制前面的說法時，通常不需要逗號：",
+      "en": "The general form normally follows a comma. When only in the sense that directly limits the preceding statement, a comma is not normally used.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss129-rule-05",
+      "zh": "可以用 only 限定說法 Only in the sense that 表示前面的描述並非在所有方面都成立，而只是某一方面成立。",
+      "en": "Only can limit the scope of the statement: only in the sense that shows that the preceding description is true in one particular respect rather than in every respect.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The timetable is fixed only in the sense that lessons must begin and end at set times."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss129-benefit-01",
+      "zh": "清楚解釋較籠統的詞語 像 fair、flexible、successful 和 practical 等詞語可以有多種意思。這個句型能準確告訴讀者你所 指的是哪一種意思。",
+      "en": "It explains general words clearly. Words such as fair, flexible, successful and practical can have several meanings; this structure tells the reader exactly which meaning you intend.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss129-benefit-02",
+      "zh": "避免說法過分籠統 你可以指出一個說法在哪個特定方面成立，而不會令人誤以為它在所有方面都完全正確。",
+      "en": "It prevents your claim from sounding too broad. You can explain the particular respect in which a statement is true instead of suggesting that it is true in every possible way.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss129-benefit-03",
+      "zh": "把主要說法和解釋連接起來 你可以把一個概括說法和它的具體解釋連成一句，不需要寫成兩個分開的短句。",
+      "en": "It connects a claim with its explanation. Instead of writing two separate sentences, you can place the general description and its exact meaning in one connected sentence.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss129-benefit-04",
+      "zh": "適合討論、作文和職場解釋 當你討論公平、成功、責任、效率或自由等概念時，這個句型可以幫助你準確界定自己的意思。",
+      "en": "It is useful in discussions, essays and workplace explanations. This structure helps you define what you mean when discussing ideas such as fairness, success, responsibility, efficiency or freedom.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss129-benefit-05",
+      "zh": "提供實用的口語框架 當別人要求你解釋一個較概括的說法時，你可以直接運用這個框架組織答案。",
+      "en": "It gives you a useful speaking frame. When someone asks you to explain a general statement, you can organize the answer with ‘It is ..., in the sense that ...’.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using in the sense that to explain the exact meaning of the main description.",
+      "You may use only in the sense that when the original sentence limits the description to one particular respect.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 in the sense that 改寫以下句子，準確解釋主要描述所指的意思。",
+      "如原句表示某項描述只在一個特定方面成立，你可以使用 only in the sense that。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss129-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My room is small because there is little space for furniture.",
+      "promptZh": "我的房間很小，因為沒有多少空間擺放家具。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My room is small, in the sense that there is little space for furniture.",
+      "answerZh": "我的房間很小，意思是沒有多少空間擺放家具。",
+      "answerZhSource": "pdf",
+      "highlight": "My room is small, in the sense that there is little space for furniture."
+    },
+    {
+      "id": "ss129-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When I say the soup is light, I mean that it contains very little oil.",
+      "promptZh": "我說這碗湯清淡，是指它只含很少油分。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup is light, in the sense that it contains very little oil.",
+      "answerZh": "這碗湯很清淡，意思是它只含很少油分。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup is light, in the sense that it contains very little oil."
+    },
+    {
+      "id": "ss129-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My brother is independent. He makes most decisions by himself.",
+      "promptZh": "我的哥哥很獨立。他大部分事情都自行決定。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My brother is independent, in the sense that he makes most decisions by himself.",
+      "answerZh": "我的哥哥很獨立，意思是他大部分事情都自行決定。",
+      "answerZhSource": "pdf",
+      "highlight": "My brother is independent, in the sense that he makes most decisions by himself."
+    },
+    {
+      "id": "ss129-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There is very little traffic near the park, which is why people describe it as quiet.",
+      "promptZh": "公園附近很少車輛往來，因此人們形容它很安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The park is quiet, in the sense that there is very little traffic nearby.",
+      "answerZh": "這個公園很安靜，意思是附近很少車輛往來。",
+      "answerZhSource": "pdf",
+      "highlight": "The park is quiet, in the sense that there is very little traffic nearby."
+    },
+    {
+      "id": "ss129-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This bag is practical: it has many useful pockets.",
+      "promptZh": "這個袋很實用：它有很多實用的口袋。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bag is practical, in the sense that it has many useful pockets.",
+      "answerZh": "這個袋很實用，意思是它有很多實用的口袋。",
+      "answerZhSource": "pdf",
+      "highlight": "This bag is practical, in the sense that it has many useful pockets."
+    },
+    {
+      "id": "ss129-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What makes our teacher strict is that she expects everyone to submit their work on time.",
+      "promptZh": "我們的老師之所以嚴格，是因為她要求每個人準時交功課。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher is strict, in the sense that she expects everyone to submit their work on time.",
+      "answerZh": "我們的老師很嚴格，意思是她要求每個人準時交功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher is strict, in the sense that she expects everyone to submit their work on time."
+    },
+    {
+      "id": "ss129-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Every student answered the same questions. That is why the test was considered fair.",
+      "promptZh": "每位學生都回答相同的題目，因此這次測驗被認為是公平的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The test was fair, in the sense that every student answered the same questions.",
+      "answerZh": "這次測驗很公平，意思是每位學生都回答相同的題目。",
+      "answerZhSource": "pdf",
+      "highlight": "The test was fair, in the sense that every student answered the same questions."
+    },
+    {
+      "id": "ss129-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When I call the shop convenient, I mean that it stays open until midnight.",
+      "promptZh": "當我說這間商店很方便時，我是指它營業至午夜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop is convenient, in the sense that it stays open until midnight.",
+      "answerZh": "這間商店很方便，意思是它營業至午夜。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop is convenient, in the sense that it stays open until midnight."
+    },
+    {
+      "id": "ss129-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The flat is bright. More specifically, every room receives plenty of natural light.",
+      "promptZh": "這個單位很明亮。更具體地說，每個房間都有充足的天然光。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The flat is bright, in the sense that every room receives plenty of natural light.",
+      "answerZh": "這個單位很明亮，意思是每個房間都有充足的天然光。",
+      "answerZhSource": "pdf",
+      "highlight": "The flat is bright, in the sense that every room receives plenty of natural light."
+    },
+    {
+      "id": "ss129-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Students can choose one of three class times. This is what makes our timetable flexible.",
+      "promptZh": "學生可以從三個上課時間中選擇一個。這正是我們的時間表有彈性的原因。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our timetable is flexible, in the sense that students can choose one of three class times.",
+      "answerZh": "我們的時間表很有彈性，意思是學生可以從三個上課時間中選擇一個。",
+      "answerZhSource": "pdf",
+      "highlight": "Our timetable is flexible, in the sense that students can choose one of three class times."
+    },
+    {
+      "id": "ss129-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The course is useful. In other words, it teaches skills that students can use immediately.",
+      "promptZh": "這個課程很實用。換句話說，它教授學生可以立即運用的技能。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course is useful, in the sense that it teaches skills that students can use immediately.",
+      "answerZh": "這個課程很實用，意思是它教授學生可以立即運用的技能。",
+      "answerZhSource": "pdf",
+      "highlight": "The course is useful, in the sense that it teaches skills that students can use immediately."
+    },
+    {
+      "id": "ss129-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When the designer calls the app simple, she means that new users can learn to use it quickly.",
+      "promptZh": "當設計者說這個應用程式很簡單時，她是指新用戶可以很快學會使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app is simple, in the sense that new users can learn to use it quickly.",
+      "answerZh": "這個應用程式很簡單，意思是新用戶可以很快學會使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The app is simple, in the sense that new users can learn to use it quickly."
+    },
+    {
+      "id": "ss129-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When we describe our neighbour as generous, we mean that he often shares food with elderly residents.",
+      "promptZh": "當我們形容鄰居很慷慨時，我們是指他經常與年長居民分享食物。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbour is generous, in the sense that he often shares food with elderly residents.",
+      "answerZh": "我們的鄰居很慷慨，意思是他經常與年長居民分享食物。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbour is generous, in the sense that he often shares food with elderly residents."
+    },
+    {
+      "id": "ss129-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The rule tells students exactly what they may and may not do. That is why it is clear.",
+      "promptZh": "這條規則明確說明學生可以做甚麼和不可以做甚麼，因此它很清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rule is clear, in the sense that it tells students exactly what they may and may not do.",
+      "answerZh": "這條規則很清楚，意思是它明確說明學生可以做甚麼和不可以做甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The rule is clear, in the sense that it tells students exactly what they may and may not do."
+    },
+    {
+      "id": "ss129-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The library can be described as welcoming because visitors are greeted and offered help as soon as they enter.",
+      "promptZh": "這間圖書館可被形容為親切友善，因為訪客一進內便會有人接待和提供協助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is welcoming, in the sense that visitors are greeted and offered help as soon as they enter.",
+      "answerZh": "這間圖書館很親切友善，意思是訪客一進內便會有人接待和提供協助。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is welcoming, in the sense that visitors are greeted and offered help as soon as they enter."
+    },
+    {
+      "id": "ss129-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why was the meeting productive? The team made three important decisions.",
+      "promptZh": "這次會議為甚麼很有成果？因為團隊作出了三項重要決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting was productive, in the sense that the team made three important decisions.",
+      "answerZh": "這次會議很有成果，意思是團隊作出了三項重要決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting was productive, in the sense that the team made three important decisions."
+    },
+    {
+      "id": "ss129-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This job gives staff flexibility: they can work from home twice a week.",
+      "promptZh": "這份工作給員工彈性：他們每星期可以在家工作兩天。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This job is flexible, in the sense that staff can work from home twice a week.",
+      "answerZh": "這份工作很有彈性，意思是員工每星期可以在家工作兩天。",
+      "answerZhSource": "pdf",
+      "highlight": "This job is flexible, in the sense that staff can work from home twice a week."
+    },
+    {
+      "id": "ss129-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The bus service is reliable. More specifically, buses usually arrive within a few minutes of the scheduled time.",
+      "promptZh": "巴士服務很可靠。更具體地說，巴士通常會在預定時間前後數分鐘內到達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus service is reliable, in the sense that buses usually arrive within a few minutes of the scheduled time.",
+      "answerZh": "巴士服務很可靠，意思是巴士通常會在預定時間前後數分鐘內到達。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus service is reliable, in the sense that buses usually arrive within a few minutes of the scheduled time."
+    },
+    {
+      "id": "ss129-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Here, accessible means that people can use the website on both phones and computers.",
+      "promptZh": "這裏所說的容易使用，是指人們可以在手機和電腦上使用這個網站。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website is accessible, in the sense that people can use it on both phones and computers.",
+      "answerZh": "這個網站容易使用，意思是人們可以在手機和電腦上使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "The website is accessible, in the sense that people can use it on both phones and computers."
+    },
+    {
+      "id": "ss129-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Students from more than twenty countries attend our school. This is why we call it international.",
+      "promptZh": "來自二十多個國家的學生就讀我們的學校，因此我們稱它為國際化學校。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school is international, in the sense that its students come from more than twenty countries.",
+      "answerZh": "我們的學校很國際化，意思是學生來自二十多個國家。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school is international, in the sense that its students come from more than twenty countries."
+    },
+    {
+      "id": "ss129-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The plan is realistic. By this, we mean that it can be completed with the time and money available.",
+      "promptZh": "這個計劃很切實可行。我們的意思是，它可以在現有的時間和資金內完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan is realistic, in the sense that it can be completed with the time and money available.",
+      "answerZh": "這個計劃很切實可行，意思是可以在現有的時間和資金內完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan is realistic, in the sense that it can be completed with the time and money available."
+    },
+    {
+      "id": "ss129-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new system requires two checks before any payment is approved. This is what makes it safer.",
+      "promptZh": "新系統要求任何付款獲批前都必須經過兩次核對，因此它更加安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system is safer, in the sense that it requires two checks before any payment is approved.",
+      "answerZh": "新系統更加安全，意思是任何付款獲批前都必須經過兩次核對。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system is safer, in the sense that it requires two checks before any payment is approved."
+    },
+    {
+      "id": "ss129-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The same rules apply to everyone. As a result, this policy treats employees equally.",
+      "promptZh": "相同規則適用於每個人，因此這項政策平等對待所有僱員。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This policy treats employees equally, in the sense that the same rules apply to everyone.",
+      "answerZh": "這項政策平等對待僱員，意思是相同規則適用於每個人。",
+      "answerZhSource": "pdf",
+      "highlight": "This policy treats employees equally, in the sense that the same rules apply to everyone."
+    },
+    {
+      "id": "ss129-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why was the training described as practical? Participants spent most of the day solving real workplace problems.",
+      "promptZh": "這次培訓為甚麼被形容為實務？因為參加者在大部分時間都處理真實的職場問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training was practical, in the sense that participants spent most of the day solving real workplace problems.",
+      "answerZh": "這次培訓很實務，意思是參加者在大部分時間都處理真實的職場問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The training was practical, in the sense that participants spent most of the day solving real workplace problems."
+    },
+    {
+      "id": "ss129-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The phone is environmentally friendly. That is to say, most of its parts can be recycled.",
+      "promptZh": "這部手機很環保。也就是說，它的大部分零件都可以回收。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The phone is environmentally friendly, in the sense that most of its parts can be recycled.",
+      "answerZh": "這部手機很環保，意思是它的大部分零件都可以回收。",
+      "answerZhSource": "pdf",
+      "highlight": "The phone is environmentally friendly, in the sense that most of its parts can be recycled."
+    },
+    {
+      "id": "ss129-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager considers ideas that differ from her own. That is why her colleagues see her as open-minded.",
+      "promptZh": "這位經理會考慮與自己不同的意見，因此同事認為她思想開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager is open-minded, in the sense that she considers ideas that differ from her own.",
+      "answerZh": "這位經理思想開放，意思是她會考慮與自己不同的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager is open-minded, in the sense that she considers ideas that differ from her own."
+    },
+    {
+      "id": "ss129-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Each customer speaks to the same adviser throughout the process. This is why the service is described as personal.",
+      "promptZh": "每位顧客在整個過程中都與同一位顧問溝通，因此這項服務被形容為個人化。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This service is personal, in the sense that each customer speaks to the same adviser throughout the process.",
+      "answerZh": "這項服務很個人化，意思是每位顧客在整個過程中都由同一位顧問跟進。",
+      "answerZhSource": "pdf",
+      "highlight": "This service is personal, in the sense that each customer speaks to the same adviser throughout the process."
+    },
+    {
+      "id": "ss129-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This project was successful in one limited way: it achieved its main goal without exceeding the budget.",
+      "promptZh": "這個項目只在一個特定方面算是成功：它在沒有超出預算的情況下達成主要目標。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This project was successful only in the sense that it achieved its main goal without exceeding the budget.",
+      "answerZh": "這個項目只在某個意義上算是成功：它在沒有超出預算的情況下達成主要目標。",
+      "answerZhSource": "pdf",
+      "highlight": "This project was successful only in the sense that it achieved its main goal without exceeding the budget."
+    },
+    {
+      "id": "ss129-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The neighbourhood is described as connected because residents share information and support one another.",
+      "promptZh": "這個社區被形容為連繫緊密，因為居民會分享資訊並互相支持。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbourhood is connected, in the sense that residents share information and support one another.",
+      "answerZh": "這個社區連繫緊密，意思是居民會分享資訊並互相支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbourhood is connected, in the sense that residents share information and support one another."
+    },
+    {
+      "id": "ss129-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The report presents both the advantages and the disadvantages of the proposal. For that reason, it is considered balanced.",
+      "promptZh": "這份報告同時呈現建議的優點和缺點，因此被認為是平衡的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report is balanced, in the sense that it presents both the advantages and the disadvantages of the proposal.",
+      "answerZh": "這份報告很平衡，意思是它同時呈現建議的優點和缺點。",
+      "answerZhSource": "pdf",
+      "highlight": "The report is balanced, in the sense that it presents both the advantages and the disadvantages of the proposal."
+    },
+    {
+      "id": "ss129-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The timetable is fixed in only one respect: lessons must begin and end at set times.",
+      "promptZh": "時間表只在一個方面是固定的：課堂必須在指定時間開始和結束。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The timetable is fixed only in the sense that lessons must begin and end at set times.",
+      "answerZh": "時間表只在某個意義上是固定的：課堂必須在指定時間開始和結束。",
+      "answerZhSource": "pdf",
+      "highlight": "The timetable is fixed only in the sense that lessons must begin and end at set times."
+    },
+    {
+      "id": "ss129-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This software is free in one limited sense: users do not pay to download it.",
+      "promptZh": "這個軟件只在一個有限的意義上是免費的：用戶毋須付費下載。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This software is free only in the sense that users do not pay to download it.",
+      "answerZh": "這個軟件只在某個意義上是免費的：用戶毋須付費下載。",
+      "answerZhSource": "pdf",
+      "highlight": "This software is free only in the sense that users do not pay to download it."
+    },
+    {
+      "id": "ss129-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Every committee member was allowed to vote, so the decision was democratic.",
+      "promptZh": "每位委員會成員都有權投票，因此這項決定很民主。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision was democratic, in the sense that every committee member was allowed to vote.",
+      "answerZh": "這項決定很民主，意思是每位委員會成員都有權投票。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision was democratic, in the sense that every committee member was allowed to vote."
+    },
+    {
+      "id": "ss129-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When the architect calls the building accessible, she means that wheelchair users can enter every public area without assistance.",
+      "promptZh": "當建築師說這座建築物設有無障礙通道時，她是指輪椅使用者毋須協助便可進入所有公共範圍。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The building is accessible, in the sense that wheelchair users can enter every public area without assistance.",
+      "answerZh": "這座建築物方便無障礙使用，意思是輪椅使用者毋須協助便可進入所有公共範圍。",
+      "answerZhSource": "pdf",
+      "highlight": "The building is accessible, in the sense that wheelchair users can enter every public area without assistance."
+    },
+    {
+      "id": "ss129-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Learners attend classes for six hours each day. For this reason, the programme is called intensive.",
+      "promptZh": "學員每天上課六小時，因此這個課程被稱為密集課程。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme is intensive, in the sense that learners attend classes for six hours each day.",
+      "answerZh": "這個課程很密集，意思是學員每天上課六小時。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme is intensive, in the sense that learners attend classes for six hours each day."
+    },
+    {
+      "id": "ss129-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Applicants can see how every score is calculated. That is what makes this process transparent.",
+      "promptZh": "申請人可以看到每個分數是如何計算的。這正是這個程序透明的原因。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This process is transparent, in the sense that applicants can see how every score is calculated.",
+      "answerZh": "這個程序很透明，意思是申請人可以看到每個分數是如何計算的。",
+      "answerZhSource": "pdf",
+      "highlight": "This process is transparent, in the sense that applicants can see how every score is calculated."
+    },
+    {
+      "id": "ss129-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The agreement is voluntary. More precisely, either side may leave it after giving one month’s notice.",
+      "promptZh": "這份協議屬自願性質。更準確地說，任何一方在提前一個月通知後都可以退出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The agreement is voluntary, in the sense that either side may leave it after giving one month’s notice.",
+      "answerZh": "這份協議屬自願性質，意思是任何一方在提前一個月通知後都可以退出。",
+      "answerZhSource": "pdf",
+      "highlight": "The agreement is voluntary, in the sense that either side may leave it after giving one month’s notice."
+    },
+    {
+      "id": "ss129-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The editor described the news report as neutral. He meant that it avoided emotional language and personal opinions.",
+      "promptZh": "編輯形容這篇新聞報道很中立。他的意思是，報道避免使用帶情緒的語言和個人意見。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The news report was neutral, in the sense that it avoided emotional language and personal opinions.",
+      "answerZh": "這篇新聞報道很中立，意思是它避免使用帶情緒的語言和個人意見。",
+      "answerZhSource": "pdf",
+      "highlight": "The news report was neutral, in the sense that it avoided emotional language and personal opinions."
+    },
+    {
+      "id": "ss129-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We call the team diverse because its members have different ages, skills and cultural backgrounds.",
+      "promptZh": "我們稱這個團隊為多元化團隊，因為成員有不同的年齡、技能和文化背景。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team is diverse, in the sense that its members have different ages, skills and cultural backgrounds.",
+      "answerZh": "這個團隊很多元化，意思是成員有不同的年齡、技能和文化背景。",
+      "answerZhSource": "pdf",
+      "highlight": "The team is diverse, in the sense that its members have different ages, skills and cultural backgrounds."
+    },
+    {
+      "id": "ss129-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why was this treatment considered effective? It reduced the patient’s pain within two days.",
+      "promptZh": "這項治療為甚麼被認為有效？因為它在兩天內減輕了病人的痛楚。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This treatment was effective, in the sense that it reduced the patient’s pain within two days.",
+      "answerZh": "這項治療很有效，意思是它在兩天內減輕了病人的痛楚。",
+      "answerZhSource": "pdf",
+      "highlight": "This treatment was effective, in the sense that it reduced the patient’s pain within two days."
+    },
+    {
+      "id": "ss129-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Applicants must meet clear academic requirements before they are admitted. That is why the school is selective.",
+      "promptZh": "申請人必須符合明確的學業要求才會獲取錄，因此這間學校會篩選申請人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school is selective, in the sense that applicants must meet clear academic requirements before they are admitted.",
+      "answerZh": "這間學校的收生具篩選性，意思是申請人必須符合明確的學業要求才會獲取錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The school is selective, in the sense that applicants must meet clear academic requirements before they are admitted."
+    },
+    {
+      "id": "ss129-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital is efficient. To be specific, urgent patients are assessed within ten minutes of arrival.",
+      "promptZh": "這間醫院效率很高。具體來說，緊急病人到達後十分鐘內便會接受評估。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital is efficient, in the sense that urgent patients are assessed within ten minutes of arrival.",
+      "answerZh": "這間醫院效率很高，意思是緊急病人到達後十分鐘內便會接受評估。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital is efficient, in the sense that urgent patients are assessed within ten minutes of arrival."
+    },
+    {
+      "id": "ss129-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Several suggestions from residents were included in the final plan. This is why the public consultation was meaningful.",
+      "promptZh": "居民提出的數項建議被納入最終方案，因此這次公眾諮詢具有實質意義。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public consultation was meaningful, in the sense that several suggestions from residents were included in the final plan.",
+      "answerZh": "這次公眾諮詢具有實質意義，意思是居民提出的數項建議被納入最終方案。",
+      "answerZhSource": "pdf",
+      "highlight": "The public consultation was meaningful, in the sense that several suggestions from residents were included in the final plan."
+    },
+    {
+      "id": "ss129-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This company serves customers and employs staff in many different countries. Therefore, it can be called global.",
+      "promptZh": "這家公司在許多不同國家服務顧客和聘用員工，因此可以被稱為全球性公司。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This company is global, in the sense that it serves customers and employs staff in many different countries.",
+      "answerZh": "這家公司是全球性的，意思是它在許多不同國家服務顧客和聘用員工。",
+      "answerZhSource": "pdf",
+      "highlight": "This company is global, in the sense that it serves customers and employs staff in many different countries."
+    },
+    {
+      "id": "ss129-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What makes the research reliable is that another team repeated the study and obtained similar results.",
+      "promptZh": "這項研究之所以可靠，是因為另一個團隊重複了研究並取得相近結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research is reliable, in the sense that another team repeated the study and obtained similar results.",
+      "answerZh": "這項研究很可靠，意思是另一個團隊重複了研究並取得相近結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The research is reliable, in the sense that another team repeated the study and obtained similar results."
+    },
+    {
+      "id": "ss129-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The policy supports working parents by giving them both flexible hours and emergency leave.",
+      "promptZh": "這項政策透過提供彈性工時和緊急假期，支援在職父母。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy is supportive, in the sense that it gives working parents both flexible hours and emergency leave.",
+      "answerZh": "這項政策對在職父母很有支援作用，意思是它同時提供彈性工時和緊急假期。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy is supportive, in the sense that it gives working parents both flexible hours and emergency leave."
+    },
+    {
+      "id": "ss129-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Most residents can reach schools, shops and public services without using a car. For this reason, the town is considered sustainable.",
+      "promptZh": "大部分居民毋須駕車便可到達學校、商店和公共服務設施，因此這個城鎮被認為是可持續的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town is sustainable, in the sense that most residents can reach schools, shops and public services without using a car.",
+      "answerZh": "這個城鎮很可持續，意思是大部分居民毋須駕車便可到達學校、商店和公共服務設施。",
+      "answerZhSource": "pdf",
+      "highlight": "The town is sustainable, in the sense that most residents can reach schools, shops and public services without using a car."
+    },
+    {
+      "id": "ss129-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This organisation is independent in only one respect: no government department controls its daily decisions.",
+      "promptZh": "這個機構只在一個方面是獨立的：沒有政府部門控制它的日常決策。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This organisation is independent only in the sense that no government department controls its daily decisions.",
+      "answerZh": "這個機構只在某個意義上是獨立的：沒有政府部門控制它的日常決策。",
+      "answerZhSource": "pdf",
+      "highlight": "This organisation is independent only in the sense that no government department controls its daily decisions."
+    },
+    {
+      "id": "ss129-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The reform is gradual. More specifically, each stage is tested before the next one begins.",
+      "promptZh": "這項改革是逐步進行的。更具體地說，每個階段都會在下一階段開始前先行測試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reform is gradual, in the sense that each stage is tested before the next one begins.",
+      "answerZh": "這項改革是逐步進行的，意思是每個階段都會在下一階段開始前先行測試。",
+      "answerZhSource": "pdf",
+      "highlight": "The reform is gradual, in the sense that each stage is tested before the next one begins."
+    },
+    {
+      "id": "ss129-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The education system is fair in one limited respect: every student takes the same examination. However, this does not mean that every student begins with the same opportunities.",
+      "promptZh": "教育制度只在一個有限的方面是公平的：每名學生都參加相同的考試。然而，這不代表每名學生在起步時都擁有相同機會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The education system is fair only in the sense that every student takes the same examination; it does not mean that every student begins with the same opportunities.",
+      "answerZh": "教育制度只在某個意義上是公平的：每名學生都參加相同的考試；這不代表每名學生在起步時都擁有相同機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The education system is fair only in the sense that every student takes the same examination; it does not mean that every student begins with the same opportunities."
+    }
+  ]
+}

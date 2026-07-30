@@ -1,0 +1,1261 @@
+{
+  "id": "ss136",
+  "order": 136,
+  "slug": "especially-example",
+  "title": "「Especially + 例子／特別情況」句",
+  "titleZh": "「Especially + 例子／特別情況」句",
+  "titleEn": "Using especially to highlight an example or special situation",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 136 -「Especially + 例子／特別情況」句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "General statement + , especially + highlighted example / situation",
+  "formulas": [
+    {
+      "id": "ss136-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "General statement + , especially + highlighted example / situation"
+    },
+    {
+      "id": "ss136-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Subject + verb + general category, especially + noun / noun phrase"
+    },
+    {
+      "id": "ss136-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Complete statement, especially + prepositional phrase"
+    },
+    {
+      "id": "ss136-formula-04",
+      "labelEn": "Pattern 4",
+      "labelZh": "句式 4",
+      "formula": "Complete statement, especially + when / if + clause"
+    },
+    {
+      "id": "ss136-formula-05",
+      "labelEn": "Pattern 5",
+      "labelZh": "句式 5",
+      "formula": "Complete statement, especially + those who + clause"
+    },
+    {
+      "id": "ss136-formula-06",
+      "labelEn": "Pattern 6",
+      "labelZh": "句式 6",
+      "formula": "Complete statement, especially + -ing phrase"
+    }
+  ],
+  "example": "I enjoy outdoor activities, especially hiking.",
+  "exampleZh": "我喜歡戶外活動，尤其是行山。",
+  "examples": [
+    {
+      "id": "ss136-example-01",
+      "en": "I enjoy outdoor activities, especially hiking.",
+      "zh": "我喜歡戶外活動，尤其是行山。",
+      "highlight": "especially hiking"
+    },
+    {
+      "id": "ss136-example-02",
+      "en": "Students should get enough sleep, especially before exams.",
+      "zh": "學生應該有充足睡眠，尤其是在考試前。",
+      "highlight": "especially before exams"
+    },
+    {
+      "id": "ss136-example-03",
+      "en": "Good communication is important, especially when working in a team.",
+      "zh": "良好的溝通很重要，尤其是在團隊合作時。",
+      "highlight": "especially when working in a team"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss136-rule-01",
+      "zh": "先說一般情況，再突出一個例子 Especially 前面的內容通常是一個較廣泛的類別、情況或原則；especially 後面的部分則是當中特 別值得注意的例子。 Oranges 屬於 fruit，因此兩部分的邏輯關係正確。",
+      "en": "State a general situation first, then highlight one example. The material before especially normally names a broad category, situation or principle, and what follows identifies a particularly notable member; oranges, for example, logically belong to the broader category fruit.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I like fruit, especially oranges."
+      ]
+    },
+    {
+      "id": "ss136-rule-02",
+      "zh": "Especially 後面可以接不同形式 Especially 後面可以接： ● 名詞：especially science ● 名詞詞組：especially young children ● 介詞詞組：especially in winter ● 動名詞詞組：especially reading novels ● when 子句：especially when you are tired ● if 子句：especially if the road is wet ● those who 子句：especially those who live alone",
+      "en": "Especially can be followed by several grammatical forms: a noun, noun phrase, prepositional phrase, gerund phrase, when-clause, if-clause or those who-clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "名詞：especially science",
+        "名詞詞組：especially young children",
+        "介詞詞組：especially in winter",
+        "動名詞詞組：especially reading novels",
+        "when 子句：especially when you are tired",
+        "if 子句：especially if the road is wet",
+        "those who 子句：especially those who live alone"
+      ]
+    },
+    {
+      "id": "ss136-rule-03",
+      "zh": "Especially 前面通常使用逗號 當 especially 放在主要陳述之後，加入補充例子或特別情況時，一般在 especially 前使用逗號。",
+      "en": "A comma normally comes before especially when it follows the main statement and adds an example or special situation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The road is dangerous, especially after heavy rain."
+      ]
+    },
+    {
+      "id": "ss136-rule-04",
+      "zh": "Especially 不一定表示「唯一」或「最」 Especially 表示「尤其、特別是」，突出某個例子，但不一定表示它是唯一的例子。 這句表示說話者特別喜歡爵士樂，但不代表他只喜歡爵士樂。",
+      "en": "Especially does not necessarily mean only or the most. It highlights one example without implying that it is the sole example; liking jazz especially does not mean liking only jazz.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss136-rule-05",
+      "zh": "Especially 和 specially 不同 Especially 表示「尤其、特別是」。 Specially 通常表示某物是「為某個特別目的而專門」製作或安排的。 本課只練習 especially。",
+      "en": "Especially and specially have different uses. Especially means ‘particularly’ and highlights a notable example, while specially normally means ‘for a particular purpose’ and describes something deliberately made or arranged for that purpose. This lesson practises only especially.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I enjoy cold drinks, especially lemonade.",
+        "This room was specially designed for young children."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss136-benefit-01",
+      "zh": "突出最值得注意的例子 這個句型讓你先表達一個整體意思，再立即指出當中需要特別注意的例子。 讀者可以立即知道哪一類人是句子的重點。",
+      "en": "It highlights the most notable example by stating a general point and then identifying the example that deserves particular attention, so readers immediately see which group is the focus.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Many people need support, especially elderly residents."
+      ]
+    },
+    {
+      "id": "ss136-benefit-02",
+      "zh": "把兩個短句合併成一句 你不需要分開寫一個一般句和一個例子句。 使用 especially 後，句子更簡潔，兩個意思之間的關係亦更清楚。",
+      "en": "It combines two short sentences in one. Instead of separating a general statement from its example, especially produces a more concise sentence and makes the relationship between the two ideas clearer.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss136-benefit-03",
+      "zh": "避免重複使用 for example 當你只是想突出某一個重要例子時，可以使用 especially，而不需要每次都寫 for example。 這能增加句式變化，令說話和寫作不會過於重複。",
+      "en": "It avoids repeatedly using for example when you want to highlight one important instance, adding variety to speech and writing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss136-benefit-04",
+      "zh": "清楚指出重要時間、人物或情況 Especially 不只可以介紹物件，也可以指出某個時間、群體或情況特別重要。",
+      "en": "It clearly identifies an important time, person or situation; especially can introduce not only things but also times, groups and circumstances that deserve particular attention.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You should be careful, especially when crossing the road."
+      ]
+    },
+    {
+      "id": "ss136-benefit-05",
+      "zh": "適合日常說話和正式寫作 Especially 可以自然地用於： ● 日常對話 ● 學校作文 ● 工作電郵 ● 報告 ● 簡報 ● 意見和建議 它能幫助你由一般觀點發展到更具體的重點。",
+      "en": "It suits everyday speech and formal writing, including daily conversation, school essays, workplace emails, reports, presentations, opinions and advice. It helps develop a general view into a specific focus.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using especially to highlight the important example, group, time or situation.",
+      "Preserve the original meaning. Do not add or remove important information.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 especially 改寫以下句子，突出其中一個重要例子、群體、時間或情況。",
+      "請保留原句意思，不要加入或刪去重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss136-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I enjoy many kinds of fruit. I particularly enjoy strawberries.",
+      "promptZh": "我喜歡很多種類的水果。我尤其喜歡士多啤梨。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I enjoy many kinds of fruit, especially strawberries.",
+      "answerZh": "我喜歡很多種類的水果，尤其是士多啤梨。",
+      "answerZhSource": "pdf",
+      "highlight": "I enjoy many kinds of fruit, especially strawberries."
+    },
+    {
+      "id": "ss136-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben likes many sports, and basketball is one of his favourites.",
+      "promptZh": "本喜歡很多種運動，而籃球是他特別喜歡的運動之一。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben likes many sports, especially basketball.",
+      "answerZh": "本喜歡很多種運動，尤其是籃球。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben likes many sports, especially basketball."
+    },
+    {
+      "id": "ss136-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We visit parks at different times. We go there particularly often at weekends.",
+      "promptZh": "我們會在不同時間到公園。我們在週末尤其經常到公園。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We visit parks at different times, especially at weekends.",
+      "answerZh": "我們會在不同時間到公園，尤其是在週末。",
+      "answerZhSource": "pdf",
+      "highlight": "We visit parks at different times, especially at weekends."
+    },
+    {
+      "id": "ss136-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Amy enjoys many school subjects. Science interests her more than most of them.",
+      "promptZh": "艾米喜歡很多學科。科學尤其令她感興趣。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy enjoys many school subjects, especially science.",
+      "answerZh": "艾米喜歡很多學科，尤其是科學。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy enjoys many school subjects, especially science."
+    },
+    {
+      "id": "ss136-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Hot drinks are comforting throughout the year. They are particularly comforting in winter.",
+      "promptZh": "熱飲全年都能令人感到舒服，在冬天尤其如此。",
+      "promptZhSource": "pdf",
+      "starter": "Hot",
+      "answer": "Hot drinks are comforting throughout the year, especially in winter.",
+      "answerZh": "熱飲全年都能令人感到舒服，尤其是在冬天。",
+      "answerZhSource": "pdf",
+      "highlight": "Hot drinks are comforting throughout the year, especially in winter."
+    },
+    {
+      "id": "ss136-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My brother likes different kinds of music. He has a particular liking for jazz.",
+      "promptZh": "我的弟弟喜歡不同種類的音樂，而他尤其喜歡爵士樂。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My brother likes different kinds of music, especially jazz.",
+      "answerZh": "我的弟弟喜歡不同種類的音樂，尤其是爵士樂。",
+      "answerZhSource": "pdf",
+      "highlight": "My brother likes different kinds of music, especially jazz."
+    },
+    {
+      "id": "ss136-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Students need enough rest throughout the school year. The need is greater before exams.",
+      "promptZh": "學生在整個學年都需要充足休息，在考試前尤其需要。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students need enough rest throughout the school year, especially before exams.",
+      "answerZh": "學生在整個學年都需要充足休息，尤其是在考試前。",
+      "answerZhSource": "pdf",
+      "highlight": "Students need enough rest throughout the school year, especially before exams."
+    },
+    {
+      "id": "ss136-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I use my phone for many tasks. I find checking maps particularly useful.",
+      "promptZh": "我使用電話處理很多事情，而我尤其覺得查看地圖很有用。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I use my phone for many tasks, especially checking maps.",
+      "answerZh": "我使用電話處理很多事情，尤其是查看地圖。",
+      "answerZhSource": "pdf",
+      "highlight": "I use my phone for many tasks, especially checking maps."
+    },
+    {
+      "id": "ss136-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This shop sells many snacks. Biscuits are among its most popular products.",
+      "promptZh": "這間商店售賣很多零食，而餅乾是其中很受歡迎的產品。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This shop sells many snacks, especially biscuits.",
+      "answerZh": "這間商店售賣很多零食，尤其是餅乾。",
+      "answerZhSource": "pdf",
+      "highlight": "This shop sells many snacks, especially biscuits."
+    },
+    {
+      "id": "ss136-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Exercise is good for people of all ages. It is particularly helpful for older adults.",
+      "promptZh": "運動對不同年齡的人都有好處，對年長人士尤其有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "Exercise",
+      "answer": "Exercise is good for people of all ages, especially older adults.",
+      "answerZh": "運動對不同年齡的人都有好處，尤其是年長人士。",
+      "answerZhSource": "pdf",
+      "highlight": "Exercise is good for people of all ages, especially older adults."
+    },
+    {
+      "id": "ss136-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Good lighting is useful in many situations. It is particularly useful when reading.",
+      "promptZh": "良好的照明在很多情況下都有用，在閱讀時尤其有用。",
+      "promptZhSource": "pdf",
+      "starter": "Good",
+      "answer": "Good lighting is useful in many situations, especially when reading.",
+      "answerZh": "良好的照明在很多情況下都有用，尤其是在閱讀時。",
+      "answerZhSource": "pdf",
+      "highlight": "Good lighting is useful in many situations, especially when reading."
+    },
+    {
+      "id": "ss136-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah enjoys different kinds of cooking. She particularly enjoys making soup.",
+      "promptZh": "莎拉喜歡不同種類的烹飪活動，而她尤其喜歡煮湯。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah enjoys different kinds of cooking, especially making soup.",
+      "answerZh": "莎拉喜歡不同種類的烹飪活動，尤其是煮湯。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah enjoys different kinds of cooking, especially making soup."
+    },
+    {
+      "id": "ss136-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Public transport is busy at many times. It is particularly busy during the morning rush hour.",
+      "promptZh": "公共交通在很多時段都很繁忙，在早上的繁忙時間尤其繁忙。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public transport is busy at many times, especially during the morning rush hour.",
+      "answerZh": "公共交通在很多時段都很繁忙，尤其是在早上的繁忙時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport is busy at many times, especially during the morning rush hour."
+    },
+    {
+      "id": "ss136-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You should drink water regularly. This is particularly important after exercise.",
+      "promptZh": "你應該定時喝水，而運動後尤其需要這樣做。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should drink water regularly, especially after exercise.",
+      "answerZh": "你應該定時喝水，尤其是在運動後。",
+      "answerZhSource": "pdf",
+      "highlight": "You should drink water regularly, especially after exercise."
+    },
+    {
+      "id": "ss136-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our teacher gives clear examples in many lessons. She gives particular attention to examples in grammar lessons.",
+      "promptZh": "我們的老師在很多課堂上都會提供清楚的例子，而她尤其重視文法課上的例子。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher gives clear examples in many lessons, especially in grammar lessons.",
+      "answerZh": "我們的老師在很多課堂上都會提供清楚的例子，尤其是在文法課上。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher gives clear examples in many lessons, especially in grammar lessons."
+    },
+    {
+      "id": "ss136-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This area is beautiful throughout the year. It is particularly beautiful in spring.",
+      "promptZh": "這個地區全年都很美麗，在春天尤其美麗。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This area is beautiful throughout the year, especially in spring.",
+      "answerZh": "這個地區全年都很美麗，尤其是在春天。",
+      "answerZhSource": "pdf",
+      "highlight": "This area is beautiful throughout the year, especially in spring."
+    },
+    {
+      "id": "ss136-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I do not like noisy places. Crowded restaurants are particularly unpleasant to me.",
+      "promptZh": "我不喜歡嘈雜的地方，而擠迫的餐廳尤其令我感到不舒服。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do not like noisy places, especially crowded restaurants.",
+      "answerZh": "我不喜歡嘈雜的地方，尤其是擠迫的餐廳。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not like noisy places, especially crowded restaurants."
+    },
+    {
+      "id": "ss136-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum attracts families throughout the year. Family visits are particularly common during school holidays.",
+      "promptZh": "博物館全年都吸引家庭到訪，而學校假期期間尤其多家庭到訪。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum attracts families throughout the year, especially during school holidays.",
+      "answerZh": "博物館全年都吸引家庭到訪，尤其是在學校假期期間。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum attracts families throughout the year, especially during school holidays."
+    },
+    {
+      "id": "ss136-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Warm clothes are necessary for everyone in cold weather. Young children need them in particular.",
+      "promptZh": "寒冷天氣下，每個人都需要穿着保暖衣物，幼童尤其需要。",
+      "promptZhSource": "pdf",
+      "starter": "Warm",
+      "answer": "Warm clothes are necessary for everyone in cold weather, especially for young children.",
+      "answerZh": "寒冷天氣下，每個人都需要穿着保暖衣物，幼童尤其需要。",
+      "answerZhSource": "pdf",
+      "highlight": "Warm clothes are necessary for everyone in cold weather, especially for young children."
+    },
+    {
+      "id": "ss136-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Online tools can help many learners. They are particularly useful for people who study alone.",
+      "promptZh": "網上工具可以幫助很多學習者，對獨自學習的人尤其有用。",
+      "promptZhSource": "pdf",
+      "starter": "Online",
+      "answer": "Online tools can help many learners, especially those who study alone.",
+      "answerZh": "網上工具可以幫助很多學習者，尤其是獨自學習的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Online tools can help many learners, especially those who study alone."
+    },
+    {
+      "id": "ss136-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Careful planning always matters. It becomes even more important when money is limited.",
+      "promptZh": "周詳規劃一直都很重要，在資金有限時尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "Careful",
+      "answer": "Careful planning matters, especially when money is limited.",
+      "answerZh": "周詳規劃很重要，尤其是在資金有限時。",
+      "answerZhSource": "pdf",
+      "highlight": "Careful planning matters, especially when money is limited."
+    },
+    {
+      "id": "ss136-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new programme supports many job seekers. Recent graduates receive particular help.",
+      "promptZh": "這項新計劃支援很多求職者，並特別幫助剛畢業的人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new programme supports many job seekers, especially recent graduates.",
+      "answerZh": "這項新計劃支援很多求職者，尤其是剛畢業的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The new programme supports many job seekers, especially recent graduates."
+    },
+    {
+      "id": "ss136-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You should check all the details. Give particular attention to the dates and prices.",
+      "promptZh": "你應該檢查所有細節，並特別留意日期和價錢。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should check all the details, especially the dates and prices.",
+      "answerZh": "你應該檢查所有細節，尤其是日期和價錢。",
+      "answerZhSource": "pdf",
+      "highlight": "You should check all the details, especially the dates and prices."
+    },
+    {
+      "id": "ss136-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The road can be dangerous in several conditions. It is particularly dangerous after heavy rain.",
+      "promptZh": "這條道路在數種情況下都可能有危險，在大雨過後尤其危險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road can be dangerous, especially after heavy rain.",
+      "answerZh": "這條道路可能有危險，尤其是在大雨過後。",
+      "answerZhSource": "pdf",
+      "highlight": "The road can be dangerous, especially after heavy rain."
+    },
+    {
+      "id": "ss136-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Teamwork is important in many situations. It matters even more when a task is urgent.",
+      "promptZh": "團隊合作在很多情況下都很重要，在任務緊急時尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "Teamwork",
+      "answer": "Teamwork is important, especially when a task is urgent.",
+      "answerZh": "團隊合作很重要，尤其是在任務緊急時。",
+      "answerZhSource": "pdf",
+      "highlight": "Teamwork is important, especially when a task is urgent."
+    },
+    {
+      "id": "ss136-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This medicine should always be stored carefully. Take particular care in hot weather.",
+      "promptZh": "這種藥物應該一直小心存放，在炎熱天氣下尤其需要注意。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine should be stored carefully, especially in hot weather.",
+      "answerZh": "這種藥物應該小心存放，尤其是在炎熱天氣下。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine should be stored carefully, especially in hot weather."
+    },
+    {
+      "id": "ss136-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The library is useful to many residents. It is particularly valuable to students who do not have a quiet place to study.",
+      "promptZh": "圖書館對很多居民都有用，對沒有安靜地方溫習的學生尤其有價值。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is useful to many residents, especially students who do not have a quiet place to study.",
+      "answerZh": "圖書館對很多居民都有用，尤其是沒有安靜地方溫習的學生。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is useful to many residents, especially students who do not have a quiet place to study."
+    },
+    {
+      "id": "ss136-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Managers should listen carefully to all staff. Safety concerns deserve particular attention.",
+      "promptZh": "管理人員應該仔細聆聽所有員工的意見，並特別留意安全方面的憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "Managers",
+      "answer": "Managers should listen carefully, especially when staff raise safety concerns.",
+      "answerZh": "管理人員應該仔細聆聽，尤其是在員工提出安全方面的憂慮時。",
+      "answerZhSource": "pdf",
+      "highlight": "Managers should listen carefully, especially when staff raise safety concerns."
+    },
+    {
+      "id": "ss136-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The website is easy to use on different devices. It works particularly well on a tablet.",
+      "promptZh": "這個網站在不同裝置上都容易使用，在平板電腦上尤其好用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website is easy to use, especially on a tablet.",
+      "answerZh": "這個網站容易使用，尤其是在平板電腦上。",
+      "answerZhSource": "pdf",
+      "highlight": "The website is easy to use, especially on a tablet."
+    },
+    {
+      "id": "ss136-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The doctor advised me to rest throughout my recovery. Rest was particularly important during the first few days.",
+      "promptZh": "醫生建議我在康復期間休息，而最初數天尤其需要休息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor advised me to rest, especially during the first few days.",
+      "answerZh": "醫生建議我休息，尤其是在最初數天。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor advised me to rest, especially during the first few days."
+    },
+    {
+      "id": "ss136-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Several small changes can save energy. Turning off unused lights is a clear example.",
+      "promptZh": "一些小改變可以節省能源，關掉沒有使用的燈便是一個明顯例子。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small changes can save energy, especially turning off unused lights.",
+      "answerZh": "一些小改變可以節省能源，尤其是關掉沒有使用的燈。",
+      "answerZhSource": "pdf",
+      "highlight": "Small changes can save energy, especially turning off unused lights."
+    },
+    {
+      "id": "ss136-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Customers value quick replies in many situations. They value them particularly when an order is delayed.",
+      "promptZh": "顧客在很多情況下都重視快速回覆，訂單延誤時尤其如此。",
+      "promptZhSource": "pdf",
+      "starter": "Customers",
+      "answer": "Customers value quick replies, especially when an order is delayed.",
+      "answerZh": "顧客重視快速回覆，尤其是在訂單延誤時。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers value quick replies, especially when an order is delayed."
+    },
+    {
+      "id": "ss136-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The training helped all new employees. It was particularly helpful to those with no previous experience.",
+      "promptZh": "這項培訓幫助了所有新僱員，對沒有相關經驗的人尤其有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training helped all new employees, especially those with no previous experience.",
+      "answerZh": "這項培訓幫助了所有新僱員，尤其是沒有相關經驗的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The training helped all new employees, especially those with no previous experience."
+    },
+    {
+      "id": "ss136-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The instructions must be clear for everyone. People using the machine for the first time need particularly clear guidance.",
+      "promptZh": "指示對所有人都必須清楚，而首次使用這部機器的人尤其需要清楚的指導。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions must be clear, especially for people using the machine for the first time.",
+      "answerZh": "指示必須清楚，尤其是對首次使用這部機器的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions must be clear, especially for people using the machine for the first time."
+    },
+    {
+      "id": "ss136-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We should always protect personal information. This is particularly important when using public Wi-Fi.",
+      "promptZh": "我們應該時刻保護個人資料，在使用公共 Wi-Fi 時尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should protect personal information, especially when using public Wi-Fi.",
+      "answerZh": "我們應該保護個人資料，尤其是在使用公共 Wi-Fi 時。",
+      "answerZhSource": "pdf",
+      "highlight": "We should protect personal information, especially when using public Wi-Fi."
+    },
+    {
+      "id": "ss136-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The centre provides support throughout the year. Its support is particularly important during the winter months.",
+      "promptZh": "這個中心全年提供支援，而這些支援在冬季尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The centre provides support throughout the year, especially during the winter months.",
+      "answerZh": "這個中心全年提供支援，尤其是在冬季期間。",
+      "answerZhSource": "pdf",
+      "highlight": "The centre provides support throughout the year, especially during the winter months."
+    },
+    {
+      "id": "ss136-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The plan may affect many local shops. Shops near the construction site are likely to be affected more seriously.",
+      "promptZh": "這項計劃可能影響很多本地商店，而鄰近建築工地的商店可能受到更嚴重的影響。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan may affect many local shops, especially those near the construction site.",
+      "answerZh": "這項計劃可能影響很多本地商店，尤其是鄰近建築工地的商店。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan may affect many local shops, especially those near the construction site."
+    },
+    {
+      "id": "ss136-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Regular communication is helpful for every team. It is particularly helpful if team members work in different places.",
+      "promptZh": "定期溝通對每個團隊都有幫助；如果成員在不同地點工作，便尤其有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "Regular",
+      "answer": "Regular communication is helpful, especially if team members work in different places.",
+      "answerZh": "定期溝通很有幫助，尤其是當團隊成員在不同地點工作時。",
+      "answerZhSource": "pdf",
+      "highlight": "Regular communication is helpful, especially if team members work in different places."
+    },
+    {
+      "id": "ss136-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school encourages students to read many kinds of books. It gives particular attention to books that introduce different cultures.",
+      "promptZh": "學校鼓勵學生閱讀不同種類的書籍，並特別重視介紹不同文化的書籍。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school encourages students to read many kinds of books, especially books that introduce different cultures.",
+      "answerZh": "學校鼓勵學生閱讀不同種類的書籍，尤其是介紹不同文化的書籍。",
+      "answerZhSource": "pdf",
+      "highlight": "The school encourages students to read many kinds of books, especially books that introduce different cultures."
+    },
+    {
+      "id": "ss136-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new bus route will benefit many people. Residents who live far from the railway station will gain particular benefit.",
+      "promptZh": "新巴士路線會令很多人受惠，而居住在遠離鐵路站地區的居民尤其受惠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new bus route will benefit many people, especially residents who live far from the railway station.",
+      "answerZh": "新巴士路線會令很多人受惠，尤其是居住在遠離鐵路站地區的居民。",
+      "answerZhSource": "pdf",
+      "highlight": "The new bus route will benefit many people, especially residents who live far from the railway station."
+    },
+    {
+      "id": "ss136-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Clear leadership is important in all situations. It becomes even more important when a team faces sudden change.",
+      "promptZh": "清晰的領導在任何情況下都很重要，在團隊面對突如其來的改變時尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "Clear",
+      "answer": "Clear leadership is important, especially when a team faces sudden change.",
+      "answerZh": "清晰的領導很重要，尤其是在團隊面對突如其來的改變時。",
+      "answerZhSource": "pdf",
+      "highlight": "Clear leadership is important, especially when a team faces sudden change."
+    },
+    {
+      "id": "ss136-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital must prepare carefully every day. Extra preparation is needed on days when patient numbers are unusually high.",
+      "promptZh": "醫院每天都必須作出周詳準備，在病人數目異常多的日子尤其需要額外準備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital must prepare carefully, especially for days when patient numbers are unusually high.",
+      "answerZh": "醫院必須作出周詳準備，尤其是為病人數目異常多的日子作準備。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital must prepare carefully, especially for days when patient numbers are unusually high."
+    },
+    {
+      "id": "ss136-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Digital payment is convenient for many customers. It is particularly useful for those who do not carry cash.",
+      "promptZh": "電子支付對很多顧客都很方便，對不攜帶現金的人尤其有用。",
+      "promptZhSource": "pdf",
+      "starter": "Digital",
+      "answer": "Digital payment is convenient, especially for customers who do not carry cash.",
+      "answerZh": "電子支付很方便，尤其是對不攜帶現金的顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "Digital payment is convenient, especially for customers who do not carry cash."
+    },
+    {
+      "id": "ss136-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report should explain all major risks. Give particular attention to risks that could delay the project.",
+      "promptZh": "報告應該解釋所有主要風險，並特別留意可能令項目延誤的風險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report should explain the risks, especially those that could delay the project.",
+      "answerZh": "報告應該解釋風險，尤其是可能令項目延誤的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "The report should explain the risks, especially those that could delay the project."
+    },
+    {
+      "id": "ss136-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Community programmes can reduce loneliness for many people. Elderly residents who live alone may benefit more than others.",
+      "promptZh": "社區計劃可以減少很多人的孤獨感，而獨居的年長居民可能尤其受惠。",
+      "promptZhSource": "pdf",
+      "starter": "Community",
+      "answer": "Community programmes can reduce loneliness, especially among elderly residents who live alone.",
+      "answerZh": "社區計劃可以減少孤獨感，尤其是獨居年長居民的孤獨感。",
+      "answerZhSource": "pdf",
+      "highlight": "Community programmes can reduce loneliness, especially among elderly residents who live alone."
+    },
+    {
+      "id": "ss136-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Clear instructions are necessary in every system. They are particularly important when one mistake could affect many users.",
+      "promptZh": "清楚的指示在每個系統中都有必要；當一個錯誤可能影響很多使用者時，便尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "Clear",
+      "answer": "Clear instructions are necessary, especially when one mistake could affect many users.",
+      "answerZh": "清楚的指示十分必要，尤其是當一個錯誤可能影響很多使用者時。",
+      "answerZhSource": "pdf",
+      "highlight": "Clear instructions are necessary, especially when one mistake could affect many users."
+    },
+    {
+      "id": "ss136-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The policy helps many working parents. It is particularly useful to those who have young children and limited childcare support.",
+      "promptZh": "這項政策幫助很多在職父母，對育有年幼子女而托兒支援有限的人尤其有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy helps working parents, especially those who have young children and limited childcare support.",
+      "answerZh": "這項政策幫助在職父母，尤其是育有年幼子女而托兒支援有限的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy helps working parents, especially those who have young children and limited childcare support."
+    },
+    {
+      "id": "ss136-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Good customer service matters at every stage. It matters even more after a problem has occurred.",
+      "promptZh": "良好的顧客服務在每個階段都很重要，在問題發生後尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "Good",
+      "answer": "Good customer service matters at every stage, especially after a problem has occurred.",
+      "answerZh": "良好的顧客服務在每個階段都很重要，尤其是在問題發生後。",
+      "answerZhSource": "pdf",
+      "highlight": "Good customer service matters at every stage, especially after a problem has occurred."
+    },
+    {
+      "id": "ss136-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Emergency messages must be easy for everyone to understand. This is particularly important for people who are unfamiliar with the local language.",
+      "promptZh": "緊急訊息必須讓所有人都容易理解，對不熟悉本地語言的人尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "Emergency",
+      "answer": "Emergency messages must be easy to understand, especially for people who are unfamiliar with the local language.",
+      "answerZh": "緊急訊息必須容易理解，尤其是對不熟悉本地語言的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Emergency messages must be easy to understand, especially for people who are unfamiliar with the local language."
+    },
+    {
+      "id": "ss136-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Reliable communication is vital in all international projects. It is particularly important when teams work across different time zones and must make quick decisions.",
+      "promptZh": "可靠的溝通對所有國際項目都十分重要；當團隊跨越不同時區工作，並需要迅速作出決定時，便尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "Reliable",
+      "answer": "Reliable communication is vital in international projects, especially when teams work across different time zones and must make quick decisions.",
+      "answerZh": "可靠的溝通對國際項目十分重要，尤其是當團隊跨越不同時區工作，並需要迅速作出決定時。",
+      "answerZhSource": "pdf",
+      "highlight": "Reliable communication is vital in international projects, especially when teams work across different time zones and must make quick decisions."
+    }
+  ]
+}

@@ -1,0 +1,1231 @@
+{
+  "id": "ss120",
+  "order": 120,
+  "slug": "reduced-adverb-clauses",
+  "title": "「縮短副詞子句：when _ while _ if」",
+  "titleZh": "「縮短副詞子句：when _ while _ if」",
+  "titleEn": "Reducing adverb clauses with when, while and if",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 120 - 「縮短副詞子句：when _ while _ if」.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "when / while / if + subject + be + complement, + main clause",
+  "formulas": [
+    {
+      "id": "ss120-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "when / while / if + subject + be + complement, + main clause"
+    },
+    {
+      "id": "ss120-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "when / while / if + adjective / prepositional phrase / -ing phrase / past participle, + main clause"
+    },
+    {
+      "id": "ss120-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Main clause + when / while / if + reduced phrase"
+    }
+  ],
+  "example": "When in doubt, ask questions.",
+  "exampleZh": "有疑問時，就發問。",
+  "examples": [
+    {
+      "id": "ss120-example-01",
+      "en": "When in doubt, ask questions.",
+      "zh": "有疑問時，就發問。",
+      "highlight": "When in doubt"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss120-rule-01",
+      "zh": "刪去重複的主詞和 be 動詞 當副詞子句的主詞與主句的主詞相同時，通常可以刪去副詞子句中的「主詞＋be」。",
+      "en": "Remove the repeated subject and the verb be when the adverb clause and main clause share the same subject.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "When tired, take a break.",
+        "While preparing dinner, Maya listened to the radio."
+      ]
+    },
+    {
+      "id": "ss120-rule-02",
+      "zh": "be 後面的部分必須保留 刪去主詞和 be 後，原本位於 be 後面的形容詞、介詞片語、現在分詞或過去分詞仍要保留。 形容詞 adjective 介詞片語 prepositional phrase 現在分詞 -ing phrase 過去分詞 past participle",
+      "en": "Keep the complement that followed be. After deleting the subject and be, retain the original adjective, prepositional phrase, -ing phrase or past participle.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If confused, ask for help.",
+        "When abroad, respect local customs.",
+        "While waiting, read the notice.",
+        "When connected to Wi-Fi, the device updates automatically."
+      ]
+    },
+    {
+      "id": "ss120-rule-03",
+      "zh": "when、while 和 if 的意思不同 ● when：表示某個時間、情況或每當某事發生。 ● while：表示某個動作正在進行期間。 ● if：表示某個條件成立時。",
+      "en": "When, while and if express different relationships: when marks a time, situation or repeated occasion; while marks the period during which an action is in progress; and if introduces a condition.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "when：表示某個時間、情況或每當某事發生。",
+        "while：表示某個動作正在進行期間。",
+        "if：表示某個條件成立時。"
+      ]
+    },
+    {
+      "id": "ss120-rule-04",
+      "zh": "省略後的主詞必須清楚 縮短片語所描述的人或事物，通常必須是主句的主詞。 駕駛的人是 Maya。 這句錯誤地令人以為「the rain」正在駕駛。",
+      "en": "The understood subject of the reduced clause must remain clear and is normally the subject of the main clause. In the correct example Maya is driving; the incorrect version illogically makes the rain appear to be driving.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "While driving, Maya listened to the radio."
+      ]
+    },
+    {
+      "id": "ss120-rule-05",
+      "zh": "部分固定說法可以省略 it is 以下是常見的固定縮短形式：",
+      "en": "Some fixed expressions allow it is to be omitted, including if necessary, if possible, when appropriate and if required.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "if necessary＝if it is necessary",
+        "if possible＝if it is possible",
+        "when appropriate＝when it is appropriate",
+        "if required＝if it is required"
+      ]
+    },
+    {
+      "id": "ss120-rule-06",
+      "zh": "句首的縮短副詞子句後通常要加逗號 縮短副詞子句放在句尾時，通常不需要逗號。",
+      "en": "Use a comma after an initial reduced adverb clause; when the reduced clause comes last, a comma is not normally needed.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss120-benefit-01",
+      "zh": "讓句子更短、更直接 這個句型可以刪去重複的主詞和 be 動詞，以較少的字表達相同意思。 第二句較精簡，但意思保持不變。",
+      "en": "It makes sentences shorter and more direct by deleting a repeated subject and form of be while preserving the meaning.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss120-benefit-02",
+      "zh": "避免重複相同的主詞 當兩個子句談論同一個人或事物時，不需要重複寫出主詞。 可以簡化為：",
+      "en": "It avoids repeating the same subject when both clauses concern the same person or thing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss120-benefit-03",
+      "zh": "清楚交代時間或條件 句首的 when、while 或 if 能讓讀者立即知道事情在甚麼時間或條件下發生。",
+      "en": "It states time or conditions clearly: an initial when, while or if phrase immediately tells readers when or under what condition the event occurs.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss120-benefit-04",
+      "zh": "適合指示、告示及操作說明 這類簡短句子常見於產品說明、工作指引、安全告示及規則。",
+      "en": "It is useful in instructions, notices and operating directions. Such concise sentences are common in product information, workplace guidance, safety notices and rules.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss120-benefit-05",
+      "zh": "增加句式變化 使用縮短副詞子句可以避免每句都以普通的「主詞＋動詞」開始，令作文、報告和口語表達更有變 化。",
+      "en": "It adds sentence variety by avoiding repeated ordinary subject-and-verb openings in essays, reports and spoken expression.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a reduced adverb clause with when, while, or if. Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 when、while 或 if 的縮短副詞子句改寫以下句子，並保留原意。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss120-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "When you are tired, take a short break.",
+      "promptZh": "當你感到疲倦時，休息一會兒。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When tired, take a short break.",
+      "answerZh": "感到疲倦時，休息一會兒。",
+      "answerZhSource": "pdf",
+      "highlight": "When tired, take a short break."
+    },
+    {
+      "id": "ss120-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "If you are confused, ask the teacher for help.",
+      "promptZh": "如果你感到困惑，就向老師求助。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If confused, ask the teacher for help.",
+      "answerZh": "如果感到困惑，就向老師求助。",
+      "answerZhSource": "pdf",
+      "highlight": "If confused, ask the teacher for help."
+    },
+    {
+      "id": "ss120-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "When you are at home, keep the doors locked.",
+      "promptZh": "當你在家時，要把門鎖好。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When at home, keep the doors locked.",
+      "answerZh": "在家時，要把門鎖好。",
+      "answerZhSource": "pdf",
+      "highlight": "When at home, keep the doors locked."
+    },
+    {
+      "id": "ss120-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "If it is necessary, call the office.",
+      "promptZh": "如有需要，請致電辦公室。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If necessary, call the office.",
+      "answerZh": "如有需要，請致電辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "If necessary, call the office."
+    },
+    {
+      "id": "ss120-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "When you are abroad, respect local customs.",
+      "promptZh": "當你在國外時，要尊重當地習俗。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When abroad, respect local customs.",
+      "answerZh": "在國外時，要尊重當地習俗。",
+      "answerZhSource": "pdf",
+      "highlight": "When abroad, respect local customs."
+    },
+    {
+      "id": "ss120-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "When you are hungry, eat something healthy.",
+      "promptZh": "當你感到肚餓時，吃一些健康的食物。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When hungry, eat something healthy.",
+      "answerZh": "感到肚餓時，吃一些健康的食物。",
+      "answerZhSource": "pdf",
+      "highlight": "When hungry, eat something healthy."
+    },
+    {
+      "id": "ss120-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "What should you do if you are unsure? Check the instructions again.",
+      "promptZh": "如果你不肯定，應該怎樣做？再查看一次指示。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If unsure, check the instructions again.",
+      "answerZh": "如果不肯定，就再查看一次指示。",
+      "answerZhSource": "pdf",
+      "highlight": "If unsure, check the instructions again."
+    },
+    {
+      "id": "ss120-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When you are alone, avoid opening the door to strangers.",
+      "promptZh": "當你獨自在家時，避免為陌生人開門。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When alone, avoid opening the door to strangers.",
+      "answerZh": "獨自一人時，避免為陌生人開門。",
+      "answerZhSource": "pdf",
+      "highlight": "When alone, avoid opening the door to strangers."
+    },
+    {
+      "id": "ss120-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If you are available, join the study group after school.",
+      "promptZh": "如果你有空，放學後就參加溫習小組。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If available, join the study group after school.",
+      "answerZh": "如果有空，放學後就參加溫習小組。",
+      "answerZhSource": "pdf",
+      "highlight": "If available, join the study group after school."
+    },
+    {
+      "id": "ss120-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What should you do when you are ready? Press the green button.",
+      "promptZh": "當你準備好時，應該怎樣做？按下綠色按鈕。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When ready, press the green button.",
+      "answerZh": "準備好時，按下綠色按鈕。",
+      "answerZhSource": "pdf",
+      "highlight": "When ready, press the green button."
+    },
+    {
+      "id": "ss120-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "While you are waiting for the bus, listen for announcements.",
+      "promptZh": "當你等候巴士時，要留意廣播。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While waiting for the bus, listen for announcements.",
+      "answerZh": "等候巴士期間，要留意廣播。",
+      "answerZhSource": "pdf",
+      "highlight": "While waiting for the bus, listen for announcements."
+    },
+    {
+      "id": "ss120-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When the tablet is connected to Wi-Fi, it downloads updates automatically.",
+      "promptZh": "當平板電腦連接到 Wi-Fi 時，它會自動下載更新。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When connected to Wi-Fi, the tablet downloads updates automatically.",
+      "answerZh": "連接到 Wi-Fi 時，平板電腦會自動下載更新。",
+      "answerZhSource": "pdf",
+      "highlight": "When connected to Wi-Fi, the tablet downloads updates automatically."
+    },
+    {
+      "id": "ss120-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If the item is damaged, it should be returned to the shop.",
+      "promptZh": "如果貨品有損壞，便應退回商店。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If damaged, the item should be returned to the shop.",
+      "answerZh": "如有損壞，貨品便應退回商店。",
+      "answerZhSource": "pdf",
+      "highlight": "If damaged, the item should be returned to the shop."
+    },
+    {
+      "id": "ss120-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The camera should be kept in its case when it is unused.",
+      "promptZh": "相機不使用時，應放在保護套內。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The camera should be kept in its case when unused.",
+      "answerZh": "相機不使用時，應放在保護套內。",
+      "answerZhSource": "pdf",
+      "highlight": "The camera should be kept in its case when unused."
+    },
+    {
+      "id": "ss120-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When I am busy, I turn off phone notifications.",
+      "promptZh": "當我忙碌時，我會關閉電話通知。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When busy, I turn off phone notifications.",
+      "answerZh": "忙碌時，我會關閉電話通知。",
+      "answerZhSource": "pdf",
+      "highlight": "When busy, I turn off phone notifications."
+    },
+    {
+      "id": "ss120-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The lights switch off automatically when they are unused.",
+      "promptZh": "這些燈在無人使用時會自動關掉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights switch off automatically when unused.",
+      "answerZh": "這些燈在無人使用時會自動關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights switch off automatically when unused."
+    },
+    {
+      "id": "ss120-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you are lost, show this card to a police officer.",
+      "promptZh": "如果你迷路，就把這張卡片交給警員看。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If lost, show this card to a police officer.",
+      "answerZh": "如果迷路，就把這張卡片交給警員看。",
+      "answerZhSource": "pdf",
+      "highlight": "If lost, show this card to a police officer."
+    },
+    {
+      "id": "ss120-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "While you are travelling, keep your passport in a safe place.",
+      "promptZh": "旅行期間，要把護照放在安全的地方。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While travelling, keep your passport in a safe place.",
+      "answerZh": "旅行期間，要把護照放在安全的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "While travelling, keep your passport in a safe place."
+    },
+    {
+      "id": "ss120-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When the battery is fully charged, it lasts about ten hours.",
+      "promptZh": "電池充滿電時，大約可使用十小時。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When fully charged, the battery lasts about ten hours.",
+      "answerZh": "充滿電時，電池大約可使用十小時。",
+      "answerZhSource": "pdf",
+      "highlight": "When fully charged, the battery lasts about ten hours."
+    },
+    {
+      "id": "ss120-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Speak slowly if you are nervous.",
+      "promptZh": "如果你感到緊張，就慢慢說話。",
+      "promptZhSource": "pdf",
+      "starter": "Speak",
+      "answer": "Speak slowly if nervous.",
+      "answerZh": "如果感到緊張，就慢慢說話。",
+      "answerZhSource": "pdf",
+      "highlight": "Speak slowly if nervous."
+    },
+    {
+      "id": "ss120-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When students are studying online, they should take regular breaks.",
+      "promptZh": "學生網上學習時，應定時休息。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When studying online, students should take regular breaks.",
+      "answerZh": "網上學習時，學生應定時休息。",
+      "answerZhSource": "pdf",
+      "highlight": "When studying online, students should take regular breaks."
+    },
+    {
+      "id": "ss120-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "While Maya was preparing dinner, she listened to the radio.",
+      "promptZh": "瑪雅準備晚餐期間，收聽了電台節目。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While preparing dinner, Maya listened to the radio.",
+      "answerZh": "準備晚餐期間，瑪雅收聽了電台節目。",
+      "answerZhSource": "pdf",
+      "highlight": "While preparing dinner, Maya listened to the radio."
+    },
+    {
+      "id": "ss120-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If Leo is selected for the team, he will attend extra training.",
+      "promptZh": "如果里奧獲選加入球隊，他將參加額外訓練。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If selected for the team, Leo will attend extra training.",
+      "answerZh": "如果獲選加入球隊，里奧將參加額外訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "If selected for the team, Leo will attend extra training."
+    },
+    {
+      "id": "ss120-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When this soup is heated, it should be stirred gently.",
+      "promptZh": "這鍋湯加熱時，應輕輕攪拌。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When heated, this soup should be stirred gently.",
+      "answerZh": "加熱時，這鍋湯應輕輕攪拌。",
+      "answerZhSource": "pdf",
+      "highlight": "When heated, this soup should be stirred gently."
+    },
+    {
+      "id": "ss120-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The app asks for permission when it is opened for the first time.",
+      "promptZh": "這個應用程式首次開啟時會要求使用權限。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app asks for permission when opened for the first time.",
+      "answerZh": "這個應用程式首次開啟時會要求使用權限。",
+      "answerZhSource": "pdf",
+      "highlight": "The app asks for permission when opened for the first time."
+    },
+    {
+      "id": "ss120-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If the screen is left in direct sunlight, it may become too hot.",
+      "promptZh": "如果螢幕被放在陽光直射的地方，它可能會變得過熱。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If left in direct sunlight, the screen may become too hot.",
+      "answerZh": "如果被放在陽光直射的地方，螢幕可能會變得過熱。",
+      "answerZhSource": "pdf",
+      "highlight": "If left in direct sunlight, the screen may become too hot."
+    },
+    {
+      "id": "ss120-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When good leaders are under pressure, they remain calm.",
+      "promptZh": "優秀的領導者面對壓力時，仍會保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When under pressure, good leaders remain calm.",
+      "answerZh": "面對壓力時，優秀的領導者仍會保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "When under pressure, good leaders remain calm."
+    },
+    {
+      "id": "ss120-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "While nurses are on duty, they must wear their name badges.",
+      "promptZh": "護士當值期間，必須佩戴名牌。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While on duty, nurses must wear their name badges.",
+      "answerZh": "當值期間，護士必須佩戴名牌。",
+      "answerZhSource": "pdf",
+      "highlight": "While on duty, nurses must wear their name badges."
+    },
+    {
+      "id": "ss120-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If you are unable to attend, please inform the organiser in advance.",
+      "promptZh": "如果你未能出席，請預先通知主辦人。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If unable to attend, please inform the organiser in advance.",
+      "answerZh": "如果未能出席，請預先通知主辦人。",
+      "answerZhSource": "pdf",
+      "highlight": "If unable to attend, please inform the organiser in advance."
+    },
+    {
+      "id": "ss120-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When the machine is not in use, it should be switched off.",
+      "promptZh": "機器不使用時，應把它關掉。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When not in use, the machine should be switched off.",
+      "answerZh": "不使用時，機器應關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "When not in use, the machine should be switched off."
+    },
+    {
+      "id": "ss120-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "While the candidates were waiting for the results, they stayed near the office.",
+      "promptZh": "候選人等候結果期間，留在辦公室附近。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While waiting for the results, the candidates stayed near the office.",
+      "answerZh": "等候結果期間，候選人留在辦公室附近。",
+      "answerZhSource": "pdf",
+      "highlight": "While waiting for the results, the candidates stayed near the office."
+    },
+    {
+      "id": "ss120-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the food is properly stored, it can remain fresh for three days.",
+      "promptZh": "如果食物妥善存放，便可保持新鮮三天。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If properly stored, the food can remain fresh for three days.",
+      "answerZh": "如果妥善存放，食物可保持新鮮三天。",
+      "answerZhSource": "pdf",
+      "highlight": "If properly stored, the food can remain fresh for three days."
+    },
+    {
+      "id": "ss120-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When staff are speaking to customers, they should use polite language.",
+      "promptZh": "員工與顧客說話時，應使用有禮貌的用語。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When speaking to customers, staff should use polite language.",
+      "answerZh": "與顧客說話時，員工應使用有禮貌的用語。",
+      "answerZhSource": "pdf",
+      "highlight": "When speaking to customers, staff should use polite language."
+    },
+    {
+      "id": "ss120-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The document is easier to read when it is printed in colour.",
+      "promptZh": "文件以彩色打印時會較容易閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The document is easier to read when printed in colour.",
+      "answerZh": "文件以彩色打印時會較容易閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The document is easier to read when printed in colour."
+    },
+    {
+      "id": "ss120-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What should you do if you are uncertain about the dosage? Ask a pharmacist.",
+      "promptZh": "如果你不肯定劑量，應該怎樣做？向藥劑師查詢。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If uncertain about the dosage, ask a pharmacist.",
+      "answerZh": "如果不肯定劑量，便向藥劑師查詢。",
+      "answerZhSource": "pdf",
+      "highlight": "If uncertain about the dosage, ask a pharmacist."
+    },
+    {
+      "id": "ss120-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When the rule was first introduced, it caused some confusion.",
+      "promptZh": "這項規則首次推出時，引起了一些混亂。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When first introduced, the rule caused some confusion.",
+      "answerZh": "首次推出時，這項規則引起了一些混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "When first introduced, the rule caused some confusion."
+    },
+    {
+      "id": "ss120-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "While Daniel is working from home, he keeps regular office hours.",
+      "promptZh": "丹尼爾在家工作期間，仍保持固定的辦公時間。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While working from home, Daniel keeps regular office hours.",
+      "answerZh": "在家工作期間，丹尼爾仍保持固定的辦公時間。",
+      "answerZhSource": "pdf",
+      "highlight": "While working from home, Daniel keeps regular office hours."
+    },
+    {
+      "id": "ss120-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If additional evidence is required, it must be provided.",
+      "promptZh": "如果需要額外證據，便必須提交有關證據。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If required, additional evidence must be provided.",
+      "answerZh": "如有要求，便必須提交額外證據。",
+      "answerZhSource": "pdf",
+      "highlight": "If required, additional evidence must be provided."
+    },
+    {
+      "id": "ss120-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The alarm sounds when it is activated by smoke.",
+      "promptZh": "警報器被煙霧觸發時便會響起。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The alarm sounds when activated by smoke.",
+      "answerZh": "警報器被煙霧觸發時便會響起。",
+      "answerZhSource": "pdf",
+      "highlight": "The alarm sounds when activated by smoke."
+    },
+    {
+      "id": "ss120-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When people are faced with a difficult choice, they often need more time.",
+      "promptZh": "人們面對艱難選擇時，往往需要更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When faced with a difficult choice, people often need more time.",
+      "answerZh": "面對艱難選擇時，人們往往需要更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "When faced with a difficult choice, people often need more time."
+    },
+    {
+      "id": "ss120-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "While the committee was reviewing the application, it noticed two missing documents.",
+      "promptZh": "委員會審核申請期間，發現欠缺兩份文件。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While reviewing the application, the committee noticed two missing documents.",
+      "answerZh": "審核申請期間，委員會發現欠缺兩份文件。",
+      "answerZhSource": "pdf",
+      "highlight": "While reviewing the application, the committee noticed two missing documents."
+    },
+    {
+      "id": "ss120-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If the plan is approved by the council, it will take effect next month.",
+      "promptZh": "如果計劃獲議會批准，便會在下月生效。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If approved by the council, the plan will take effect next month.",
+      "answerZh": "如果獲議會批准，計劃便會在下月生效。",
+      "answerZhSource": "pdf",
+      "highlight": "If approved by the council, the plan will take effect next month."
+    },
+    {
+      "id": "ss120-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When students are away from the classroom, they can continue their lessons through the online platform.",
+      "promptZh": "學生不在課室時，可以透過網上平台繼續上課。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When away from the classroom, students can continue their lessons through the online platform.",
+      "answerZh": "不在課室時，學生可以透過網上平台繼續上課。",
+      "answerZhSource": "pdf",
+      "highlight": "When away from the classroom, students can continue their lessons through the online platform."
+    },
+    {
+      "id": "ss120-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The equipment should be checked carefully when it is returned to the centre.",
+      "promptZh": "設備交還中心時，應接受仔細檢查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The equipment should be checked carefully when returned to the centre.",
+      "answerZh": "設備交還中心時，應接受仔細檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The equipment should be checked carefully when returned to the centre."
+    },
+    {
+      "id": "ss120-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If technicians are unable to solve the problem, they should contact the support team.",
+      "promptZh": "如果技術員未能解決問題，便應聯絡支援團隊。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If unable to solve the problem, technicians should contact the support team.",
+      "answerZh": "如果未能解決問題，技術員便應聯絡支援團隊。",
+      "answerZhSource": "pdf",
+      "highlight": "If unable to solve the problem, technicians should contact the support team."
+    },
+    {
+      "id": "ss120-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When the plant is placed near a window, it grows more quickly.",
+      "promptZh": "植物放在窗邊時，生長得更快。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When placed near a window, the plant grows more quickly.",
+      "answerZh": "放在窗邊時，植物生長得更快。",
+      "answerZhSource": "pdf",
+      "highlight": "When placed near a window, the plant grows more quickly."
+    },
+    {
+      "id": "ss120-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "While applicants are being interviewed, they should answer honestly.",
+      "promptZh": "申請人在接受面試期間，應誠實作答。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While being interviewed, applicants should answer honestly.",
+      "answerZh": "接受面試期間，申請人應誠實作答。",
+      "answerZhSource": "pdf",
+      "highlight": "While being interviewed, applicants should answer honestly."
+    },
+    {
+      "id": "ss120-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the path is considered unsafe, it will be closed to the public.",
+      "promptZh": "如果小徑被視為不安全，便會暫停對外開放。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If considered unsafe, the path will be closed to the public.",
+      "answerZh": "如果被視為不安全，小徑便會暫停對外開放。",
+      "answerZhSource": "pdf",
+      "highlight": "If considered unsafe, the path will be closed to the public."
+    },
+    {
+      "id": "ss120-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When employees are working with personal data, they must follow the company’s privacy rules.",
+      "promptZh": "員工處理個人資料時，必須遵守公司的私隱規則。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When working with personal data, employees must follow the company’s privacy rules.",
+      "answerZh": "處理個人資料時，員工必須遵守公司的私隱規則。",
+      "answerZhSource": "pdf",
+      "highlight": "When working with personal data, employees must follow the company’s privacy rules."
+    },
+    {
+      "id": "ss120-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If public facilities are not properly maintained, they may become unsafe and expensive to repair.",
+      "promptZh": "如果公共設施沒有妥善保養，可能會變得不安全，而且維修費用高昂。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not properly maintained, public facilities may become unsafe and expensive to repair.",
+      "answerZh": "如果沒有妥善保養，公共設施可能會變得不安全，而且維修費用高昂。",
+      "answerZhSource": "pdf",
+      "highlight": "If not properly maintained, public facilities may become unsafe and expensive to repair."
+    }
+  ]
+}

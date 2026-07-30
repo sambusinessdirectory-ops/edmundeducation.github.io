@@ -1,0 +1,1267 @@
+{
+  "id": "ss187",
+  "order": 187,
+  "slug": "what-focus-clauses",
+  "title": "「What-焦點句」",
+  "titleZh": "「What-焦點句」",
+  "titleEn": "Using What-Focus Clauses",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 187 -「What-焦點句」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "What matters is ... / What I mean is ... / What surprised me most was ... / What concerns me is ...",
+  "formulas": [
+    {
+      "id": "ss187-formula-01",
+      "labelEn": "What matters",
+      "labelZh": "指出重點",
+      "formula": "What matters is + noun phrase / that-clause / whether-clause / wh-clause"
+    },
+    {
+      "id": "ss187-formula-02",
+      "labelEn": "What I mean",
+      "labelZh": "澄清意思",
+      "formula": "What I mean is + that-clause / noun phrase"
+    },
+    {
+      "id": "ss187-formula-03",
+      "labelEn": "What surprised me most",
+      "labelZh": "突出意外之處",
+      "formula": "What surprised me most was + noun phrase / wh-clause"
+    },
+    {
+      "id": "ss187-formula-04",
+      "labelEn": "What concerns me",
+      "labelZh": "指出憂慮",
+      "formula": "What concerns me is + noun phrase / that-clause / whether-clause / wh-clause"
+    }
+  ],
+  "example": "What matters is not speed, but accuracy.",
+  "exampleZh": "重要的不是速度，而是準確性。",
+  "examples": [
+    {
+      "id": "ss187-example-01",
+      "en": "What matters is not speed, but accuracy.",
+      "zh": "重要的不是速度，而是準確性。",
+      "highlight": "What matters is not speed, but accuracy."
+    },
+    {
+      "id": "ss187-example-02",
+      "en": "What I mean is that good intentions are not enough by themselves.",
+      "zh": "我的意思是，單靠好意並不足夠。",
+      "highlight": "What I mean is that good intentions are not enough by themselves."
+    },
+    {
+      "id": "ss187-example-03",
+      "en": "What surprised me most was how calmly she handled the crisis.",
+      "zh": "最令我驚訝的是，她如此冷靜地處理危機。",
+      "highlight": "What surprised me most was how calmly she handled the crisis."
+    },
+    {
+      "id": "ss187-example-04",
+      "en": "What concerns me is the lack of accountability.",
+      "zh": "令我擔心的是缺乏問責。",
+      "highlight": "What concerns me is the lack of accountability."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：What matters is ... / What I mean is ... / What surprised me most was ... / What concerns me is ...。"
+  },
+  "rules": [
+    {
+      "id": "ss187-rule-01",
+      "zh": "雖然這些句子以 What 開始，但它們是陳述句，而不是問句。句末不應使用問號。",
+      "en": "These are statements, not questions Although these sentences begin with What, they are statements rather than questions. Do not place a question mark at the end. Correct: What matters is whether the information is accurate. Incorrect: What matters is whether the information is accurate?",
+      "enSource": "pdf",
+      "examples": [
+        "These are statements, not questions",
+        "Although these sentences begin with What, they are statements rather than questions. Do not",
+        "place a question mark at the end.",
+        "Correct: What matters is whether the information is accurate.",
+        "Incorrect: What matters is whether the information is accurate?"
+      ]
+    },
+    {
+      "id": "ss187-rule-02",
+      "zh": "使用正確的連綴動詞：現在概念用 is；固定描述過去反應的 What surprised me most was ... 用 was。",
+      "en": "Use is with present ideas, but was in the fixed past-reaction frame What surprised me most was ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Use the correct linking verb",
+        "Use is with present ideas:",
+        "What matters is ...",
+        "What I mean is ...",
+        "What concerns me is ...",
+        "Use was in the fixed structure describing a past reaction:",
+        "What surprised me most was ..."
+      ]
+    },
+    {
+      "id": "ss187-rule-03",
+      "zh": "在 is 或 was 後面，必須接上完整而清晰的重點內容，例如名詞詞組或完整從句。",
+      "en": "A complete idea must follow is or was The focused information may be: ● a noun phrase: her honesty ● a that-clause: that nobody checked the figures ● a whether-clause: whether the bridge is safe ● a wh-clause: how quickly the children adapted",
+      "enSource": "pdf",
+      "examples": [
+        "A complete idea must follow is or was",
+        "The focused information may be:",
+        "a noun phrase: her honesty",
+        "a that-clause: that nobody checked the figures",
+        "a whether-clause: whether the bridge is safe",
+        "a wh-clause: how quickly the children adapted"
+      ]
+    },
+    {
+      "id": "ss187-rule-04",
+      "zh": "使用 not X, but Y 時，X 和 Y 應盡量採用相同或相近的文法形式。",
+      "en": "Keep contrasted parts parallel When using not X, but Y, X and Y should have similar grammatical forms. Correct: What matters is not who made the error, but how we will correct it. Correct: What I mean is not that we should cancel the event, but that we should delay it.",
+      "enSource": "pdf",
+      "examples": [
+        "Keep contrasted parts parallel",
+        "When using not X, but Y, X and Y should have similar grammatical forms.",
+        "Correct: What matters is not who made the error, but how we will correct it.",
+        "Correct: What I mean is not that we should cancel the event, but that we should delay it."
+      ]
+    },
+    {
+      "id": "ss187-rule-05",
+      "zh": "按照目的選擇句型：指出重點、澄清意思、突出意外之處或指出憂慮。",
+      "en": "Choose the What-focus frame according to its purpose: importance, clarification, surprise or concern.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Choose the structure according to its purpose",
+        "What matters is ... identifies the most important point.",
+        "What I mean is ... clarifies an idea or corrects a misunderstanding.",
+        "What surprised me most was ... highlights the most unexpected fact.",
+        "What concerns me is ... identifies the speaker’s main worry."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss187-benefit-01",
+      "zh": "這個句型能立即指出句子中最值得留意的重點，讓讀者不會錯過你的主要訊息。 第二句把焦點更明確地放在「準確性」之上。",
+      "en": "It directs attention to the key point This structure immediately tells the listener or reader which part of the message deserves the most attention. Compare: Accuracy is more important than speed. What matters is not speed, but accuracy. The second sentence places stronger focus on accuracy.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss187-benefit-02",
+      "zh": "當別人可能誤解你的說話時，你可以使用 What I mean is ... 進一步澄清真正意思。 （我不是說這個計劃毫無用處。我的意思是，它需要更充分的準備。）",
+      "en": "It helps you explain yourself clearly You can use What I mean is ... when your first statement may be unclear or misunderstood. Example: I am not saying that the plan is useless. What I mean is that it needs more preparation.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss187-benefit-03",
+      "zh": "這個句型能把主要觀點與背景資料分開，讓讀者清楚知道哪一項才是核心。",
+      "en": "It separates the main point from background information Instead of giving several ideas equal importance, the structure shows which idea is central.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss187-benefit-04",
+      "zh": "使用 What surprised me most was ... 和 What concerns me is ...，可以準確指出究竟哪件事 令你感到驚訝或擔心。",
+      "en": "It makes reactions and concerns more precise What surprised me most was ... and What concerns me is ... help you identify the exact fact that caused your reaction.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss187-benefit-05",
+      "zh": "這些句型能提供不同的句子開頭，避免重複使用相同表達，使說話、作文、報告及簡報更有變化。",
+      "en": "It gives you more sentence variety These structures provide an alternative to repeatedly beginning sentences with: ● The important thing is ... ● I mean ... ● I was surprised by ... ● I am worried about ...",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: What matters is ... / What I mean is ... / What surprised me most was ... / What concerns me is ....",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「What matters is ... / What I mean is ... / What surprised me most was ... / What concerns me is ...」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss187-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The most important thing is accuracy, not speed.",
+      "promptZh": "最重要的不是速度，而是準確性。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is not speed, but accuracy.",
+      "answerZh": "重要的不是速度，而是準確性。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is not speed, but accuracy."
+    },
+    {
+      "id": "ss187-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My point is that we should start now.",
+      "promptZh": "我的重點是我們應該現在開始。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is that we should start now.",
+      "answerZh": "我的意思是我們應該現在開始。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is that we should start now."
+    },
+    {
+      "id": "ss187-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Her calm response surprised me more than anything else.",
+      "promptZh": "她冷靜的反應最令我驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised me most was her calm response.",
+      "answerZh": "最令我驚訝的是她冷靜的反應。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised me most was her calm response."
+    },
+    {
+      "id": "ss187-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My main concern is the lack of clear rules.",
+      "promptZh": "我最擔心的是缺乏清晰的規則。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns me is the lack of clear rules.",
+      "answerZh": "令我擔心的是缺乏清晰的規則。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns me is the lack of clear rules."
+    },
+    {
+      "id": "ss187-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The important question is whether the plan works.",
+      "promptZh": "重要的問題是這個計劃是否可行。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is whether the plan works.",
+      "answerZh": "重要的是這個計劃是否可行。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is whether the plan works."
+    },
+    {
+      "id": "ss187-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What are you trying to say? I am saying that everyone needs a fair chance.",
+      "promptZh": "你想表達甚麼？我是說，每個人都需要一個公平的機會。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is that everyone needs a fair chance.",
+      "answerZh": "我的意思是每個人都需要一個公平的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is that everyone needs a fair chance."
+    },
+    {
+      "id": "ss187-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What surprised you most? The size of the crowd surprised me most.",
+      "promptZh": "最令你驚訝的是甚麼？人群的規模最令我驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised me most was the size of the crowd.",
+      "answerZh": "最令我驚訝的是人群的規模。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised me most was the size of the crowd."
+    },
+    {
+      "id": "ss187-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The rising cost of living worries me.",
+      "promptZh": "不斷上升的生活成本令我擔心。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns me is the rising cost of living.",
+      "answerZh": "令我擔心的是不斷上升的生活成本。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns me is the rising cost of living."
+    },
+    {
+      "id": "ss187-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The most important thing is that everyone gets home safely.",
+      "promptZh": "最重要的是每個人都安全回家。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is that everyone gets home safely.",
+      "answerZh": "重要的是每個人都安全回家。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is that everyone gets home safely."
+    },
+    {
+      "id": "ss187-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My real point is not that the idea is bad, but that it is too expensive.",
+      "promptZh": "我真正的意思不是這個想法不好，而是它太昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is not that the idea is bad, but that it is too expensive.",
+      "answerZh": "我的意思不是這個想法不好，而是它太昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is not that the idea is bad, but that it is too expensive."
+    },
+    {
+      "id": "ss187-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Her honesty is the most important part of the story.",
+      "promptZh": "她的誠實是整件事最重要的部分。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is her honesty.",
+      "answerZh": "重要的是她的誠實。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is her honesty."
+    },
+    {
+      "id": "ss187-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "To put it another way, we need better communication.",
+      "promptZh": "換句話說，我們需要更好的溝通。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is that we need better communication.",
+      "answerZh": "我的意思是我們需要更好的溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is that we need better communication."
+    },
+    {
+      "id": "ss187-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I was most surprised by how quickly the children adapted.",
+      "promptZh": "最令我驚訝的是孩子們適應得那麼快。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised me most was how quickly the children adapted.",
+      "answerZh": "最令我驚訝的是孩子們適應得如此迅速。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised me most was how quickly the children adapted."
+    },
+    {
+      "id": "ss187-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I am worried that nobody has checked the figures.",
+      "promptZh": "我擔心沒有人核對過那些數字。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns me is that nobody has checked the figures.",
+      "answerZh": "令我擔心的是沒有人核對過那些數字。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns me is that nobody has checked the figures."
+    },
+    {
+      "id": "ss187-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The important thing is not how many mistakes we make, but whether we learn from them.",
+      "promptZh": "重要的不是我們犯了多少錯誤，而是我們有否從中學習。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is not how many mistakes we make, but whether we learn from them.",
+      "answerZh": "重要的不是我們犯了多少錯誤，而是我們有否從中學習。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is not how many mistakes we make, but whether we learn from them."
+    },
+    {
+      "id": "ss187-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My message is simple: asking for help is not a weakness.",
+      "promptZh": "我的訊息很簡單：尋求幫助並不是弱點。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is that asking for help is not a weakness.",
+      "answerZh": "我的意思是尋求幫助並不是弱點。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is that asking for help is not a weakness."
+    },
+    {
+      "id": "ss187-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The fact that the door was already open surprised me most.",
+      "promptZh": "門已經打開這件事最令我驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised me most was that the door was already open.",
+      "answerZh": "最令我驚訝的是門已經打開。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised me most was that the door was already open."
+    },
+    {
+      "id": "ss187-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My greatest concern is how little time we have left.",
+      "promptZh": "我最擔心的是我們剩下的時間如此少。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns me is how little time we have left.",
+      "answerZh": "令我擔心的是我們剩下的時間如此少。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns me is how little time we have left."
+    },
+    {
+      "id": "ss187-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The key issue is who will take responsibility.",
+      "promptZh": "關鍵問題是誰會承擔責任。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is who will take responsibility.",
+      "answerZh": "重要的是誰會承擔責任。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is who will take responsibility."
+    },
+    {
+      "id": "ss187-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I am not saying that we should cancel the event; I am saying that we should delay it.",
+      "promptZh": "我不是說我們應該取消活動；我是說我們應該把它延期。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is not that we should cancel the event, but that we should delay it.",
+      "answerZh": "我的意思不是我們應該取消活動，而是我們應該把它延期。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is not that we should cancel the event, but that we should delay it."
+    },
+    {
+      "id": "ss187-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In the end, the quality of the work is more important than the amount produced.",
+      "promptZh": "歸根究柢，工作的質素比產量更重要。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is the quality of the work, not the amount produced.",
+      "answerZh": "重要的是工作的質素，而不是產量。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is the quality of the work, not the amount produced."
+    },
+    {
+      "id": "ss187-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Let me clarify: the policy needs improvement, not complete replacement.",
+      "promptZh": "讓我說清楚一點：這項政策需要改善，而不是徹底取代。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is that the policy needs improvement, not complete replacement.",
+      "answerZh": "我的意思是這項政策需要改善，而不是徹底取代。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is that the policy needs improvement, not complete replacement."
+    },
+    {
+      "id": "ss187-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Of everything I noticed, I was most surprised by how quietly the machine operated.",
+      "promptZh": "在我留意到的一切之中，最令我驚訝的是這部機器運作得如此安靜。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised me most was how quietly the machine operated.",
+      "answerZh": "最令我驚訝的是這部機器運作得如此安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised me most was how quietly the machine operated."
+    },
+    {
+      "id": "ss187-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I am most worried about whether the bridge is safe.",
+      "promptZh": "我最擔心的是這座橋是否安全。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns me is whether the bridge is safe.",
+      "answerZh": "令我擔心的是這座橋是否安全。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns me is whether the bridge is safe."
+    },
+    {
+      "id": "ss187-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The crucial point is not who made the error, but how we will correct it.",
+      "promptZh": "關鍵不在於誰犯了錯，而在於我們會如何改正。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is not who made the error, but how we will correct it.",
+      "answerZh": "重要的不是誰犯了錯，而是我們會如何改正。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is not who made the error, but how we will correct it."
+    },
+    {
+      "id": "ss187-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My point is that the delay was unavoidable.",
+      "promptZh": "我的重點是延誤是無可避免的。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is that the delay was unavoidable.",
+      "answerZh": "我的意思是延誤是無可避免的。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is that the delay was unavoidable."
+    },
+    {
+      "id": "ss187-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I was more surprised by how silent the audience remained than by anything else.",
+      "promptZh": "與其他事情相比，最令我驚訝的是觀眾一直如此安靜。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised me most was how silent the audience remained.",
+      "answerZh": "最令我驚訝的是觀眾一直如此安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised me most was how silent the audience remained."
+    },
+    {
+      "id": "ss187-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I am concerned that the new system may exclude older users.",
+      "promptZh": "我擔心新系統可能會把年長使用者排除在外。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns me is that the new system may exclude older users.",
+      "answerZh": "令我擔心的是新系統可能會把年長使用者排除在外。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns me is that the new system may exclude older users."
+    },
+    {
+      "id": "ss187-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The only important question is whether the evidence is reliable.",
+      "promptZh": "唯一重要的問題是證據是否可靠。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is whether the evidence is reliable.",
+      "answerZh": "重要的是證據是否可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is whether the evidence is reliable."
+    },
+    {
+      "id": "ss187-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I am not suggesting that he lacked effort; I am saying that he needed more guidance.",
+      "promptZh": "我不是說他不夠努力；我是說他需要更多指導。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is not that he lacked effort, but that he needed more guidance.",
+      "answerZh": "我的意思不是他不夠努力，而是他需要更多指導。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is not that he lacked effort, but that he needed more guidance."
+    },
+    {
+      "id": "ss187-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The important thing is not whether the team wins or loses, but whether it plays fairly.",
+      "promptZh": "重要的不是球隊勝出還是落敗，而是它是否公平作賽。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is not whether the team wins or loses, but whether it plays fairly.",
+      "answerZh": "重要的不是球隊勝出還是落敗，而是它是否公平作賽。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is not whether the team wins or loses, but whether it plays fairly."
+    },
+    {
+      "id": "ss187-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In other words, the change will affect everyone, not just managers.",
+      "promptZh": "換句話說，這項改變會影響所有人，而不只是經理。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is that the change will affect everyone, not just managers.",
+      "answerZh": "我的意思是這項改變會影響所有人，而不只是經理。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is that the change will affect everyone, not just managers."
+    },
+    {
+      "id": "ss187-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I expected some resistance, but I was most surprised by how strong it was.",
+      "promptZh": "我預料會遇到一些反對，但最令我驚訝的是反對如此強烈。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised me most was how strong the resistance was.",
+      "answerZh": "最令我驚訝的是反對如此強烈。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised me most was how strong the resistance was."
+    },
+    {
+      "id": "ss187-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The main thing worrying me is that several patients are still waiting.",
+      "promptZh": "最令我擔心的是仍有幾名病人在等候。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns me is that several patients are still waiting.",
+      "answerZh": "令我擔心的是仍有幾名病人在等候。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns me is that several patients are still waiting."
+    },
+    {
+      "id": "ss187-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is the long-term effect, rather than the short-term cost, that is important.",
+      "promptZh": "重要的是長遠影響，而不是短期成本。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is the long-term effect, not the short-term cost.",
+      "answerZh": "重要的是長遠影響，而不是短期成本。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is the long-term effect, not the short-term cost."
+    },
+    {
+      "id": "ss187-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When I call the process simple, I am saying that it has only three steps.",
+      "promptZh": "當我說這個過程很簡單時，我的意思是它只有三個步驟。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is that the process has only three steps.",
+      "answerZh": "我的意思是這個過程只有三個步驟。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is that the process has only three steps."
+    },
+    {
+      "id": "ss187-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Nobody expected the youngest member to lead the discussion so confidently. That surprised me more than anything else.",
+      "promptZh": "沒有人預料到最年輕的成員會如此自信地帶領討論。這最令我驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised me most was how confidently the youngest member led the discussion.",
+      "answerZh": "最令我驚訝的是最年輕的成員如此自信地帶領討論。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised me most was how confidently the youngest member led the discussion."
+    },
+    {
+      "id": "ss187-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The uncertainty about future funding is my main concern.",
+      "promptZh": "我最擔心的是未來資金的不確定性。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns me is the uncertainty about future funding.",
+      "answerZh": "令我擔心的是未來資金的不確定性。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns me is the uncertainty about future funding."
+    },
+    {
+      "id": "ss187-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The important thing is not how many people attend, but how engaged they are.",
+      "promptZh": "重要的不是有多少人出席，而是他們有多投入。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is not how many people attend, but how engaged they are.",
+      "answerZh": "重要的不是有多少人出席，而是他們有多投入。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is not how many people attend, but how engaged they are."
+    },
+    {
+      "id": "ss187-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I am trying to explain that being busy and being productive are not the same.",
+      "promptZh": "我正嘗試解釋，忙碌和有生產力並不是同一回事。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is that being busy and being productive are not the same.",
+      "answerZh": "我的意思是忙碌和有生產力並不是同一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is that being busy and being productive are not the same."
+    },
+    {
+      "id": "ss187-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In a crisis, the most important thing is not acting quickly, but exercising sound judgement.",
+      "promptZh": "在危機中，最重要的不是迅速行動，而是作出穩健判斷。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is not acting quickly, but exercising sound judgement.",
+      "answerZh": "重要的不是迅速行動，而是作出穩健判斷。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is not acting quickly, but exercising sound judgement."
+    },
+    {
+      "id": "ss187-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Let me be clear: I do not oppose technology itself; I oppose using it without proper safeguards.",
+      "promptZh": "讓我說清楚：我反對的不是科技本身，而是在沒有適當保障下使用科技。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is not that I oppose technology itself, but that I oppose using it without proper safeguards.",
+      "answerZh": "我的意思不是我反對科技本身，而是我反對在沒有適當保障下使用科技。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is not that I oppose technology itself, but that I oppose using it without proper safeguards."
+    },
+    {
+      "id": "ss187-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The report contained several errors, yet the complete absence of supporting evidence shocked me most.",
+      "promptZh": "報告有數個錯誤，但最令我震驚的是完全沒有支持證據。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised me most was the complete absence of supporting evidence.",
+      "answerZh": "最令我驚訝的是完全沒有支持證據。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised me most was the complete absence of supporting evidence."
+    },
+    {
+      "id": "ss187-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "My concern is not simply that the project is late; it is that no one can explain why.",
+      "promptZh": "我擔心的不單是項目延誤，而是沒有人能解釋原因。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns me is not simply that the project is late, but that no one can explain why.",
+      "answerZh": "令我擔心的不單是項目延誤，而是沒有人能解釋原因。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns me is not simply that the project is late, but that no one can explain why."
+    },
+    {
+      "id": "ss187-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The final score is not the most important thing; the way the team responds to failure is.",
+      "promptZh": "最重要的不是最終比數，而是球隊如何面對失敗。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is not the final score, but how the team responds to failure.",
+      "answerZh": "重要的不是最終比數，而是球隊如何面對失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is not the final score, but how the team responds to failure."
+    },
+    {
+      "id": "ss187-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When I say the proposal is unrealistic, I am saying that it depends on money we do not have.",
+      "promptZh": "當我說這份建議不切實際時，我是指它依賴我們沒有的資金。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is that the proposal depends on money we do not have.",
+      "answerZh": "我的意思是這份建議依賴我們沒有的資金。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is that the proposal depends on money we do not have."
+    },
+    {
+      "id": "ss187-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I knew the neighbourhood had changed, but I was most surprised by how little of it I recognised.",
+      "promptZh": "我知道這個社區已經改變，但最令我驚訝的是我幾乎認不出當中的任何地方。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised me most was how little of the neighbourhood I recognised.",
+      "answerZh": "最令我驚訝的是我幾乎認不出這個社區的任何地方。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised me most was how little of the neighbourhood I recognised."
+    },
+    {
+      "id": "ss187-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I am not mainly worried that one mistake occurred; I am worried that the same weakness appears throughout the system.",
+      "promptZh": "我主要擔心的不是出現了一個錯誤，而是同一個弱點遍及整個系統。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns me is not that one mistake occurred, but that the same weakness appears throughout the system.",
+      "answerZh": "令我擔心的不是出現了一個錯誤，而是同一個弱點遍及整個系統。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns me is not that one mistake occurred, but that the same weakness appears throughout the system."
+    },
+    {
+      "id": "ss187-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The value of the programme does not depend on how many people join; it depends on whether those people receive real help.",
+      "promptZh": "這個計劃的價值不取決於有多少人參加，而是取決於參加者是否獲得真正的幫助。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is not how many people join the programme, but whether they receive real help.",
+      "answerZh": "重要的不是有多少人參加這個計劃，而是他們是否獲得真正的幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is not how many people join the programme, but whether they receive real help."
+    },
+    {
+      "id": "ss187-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I am not claiming that every tradition should remain unchanged. My point is that change should be made thoughtfully rather than blindly.",
+      "promptZh": "我不是說每項傳統都應該保持不變。我的重點是改變應該經過深思熟慮，而不是盲目進行。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I mean is not that every tradition should remain unchanged, but that change should be made thoughtfully rather than blindly.",
+      "answerZh": "我的意思不是每項傳統都應該保持不變，而是改變應該經過深思熟慮，而不是盲目進行。",
+      "answerZhSource": "pdf",
+      "highlight": "What I mean is not that every tradition should remain unchanged, but that change should be made thoughtfully rather than blindly."
+    }
+  ]
+}

@@ -1,0 +1,1243 @@
+{
+  "id": "ss119",
+  "order": 119,
+  "slug": "now-that",
+  "title": "「Now that 句」",
+  "titleZh": "「Now that 句」",
+  "titleEn": "Using now that to explain a result of a changed situation",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 119 -「Now that 句」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Now that + subject + verb, + main clause",
+  "formulas": [
+    {
+      "id": "ss119-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Now that + subject + verb, + main clause"
+    },
+    {
+      "id": "ss119-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Main clause + now that + subject + verb"
+    }
+  ],
+  "example": "Now that I have more free time, I can exercise every morning.",
+  "exampleZh": "既然我現在有更多空閒時間，我每天早上都可以做運動。",
+  "examples": [
+    {
+      "id": "ss119-example-01",
+      "en": "Now that I have more free time, I can exercise every morning.",
+      "zh": "既然我現在有更多空閒時間，我每天早上都可以做運動。",
+      "highlight": "Now that I have more free time"
+    },
+    {
+      "id": "ss119-example-02",
+      "en": "The students can finally relax now that the exams are over.",
+      "zh": "既然考試已經結束，學生終於可以放鬆了。",
+      "highlight": "now that the exams are over"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss119-rule-01",
+      "zh": "Now that 後面必須接完整子句 the end of the rain 沒有完整的主語和動詞，因此不能直接放在 now that 後面。",
+      "en": "Now that must be followed by a complete clause. A noun phrase such as the end of the rain has no complete subject and verb, so it cannot follow now that directly.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Now that the rain has stopped, we can go outside."
+      ]
+    },
+    {
+      "id": "ss119-rule-02",
+      "zh": "Now that 通常表示情況已經改變 這個句型不是單純說明原因，而是強調： 1. 以前的情況有所不同； 2. 現在出現了新情況； 3. 因此可以有新的結果或行動。 這句暗示說話者以前可能沒有車，因此以前不能駕車上班。",
+      "en": "Now that normally highlights a situation that has changed, rather than merely giving a reason: the earlier situation was different, a new situation now exists, and that change permits a new result or action. The example implies that the speaker may not have had a car before and therefore could not previously drive to work.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Now that I have a car, I can drive to work."
+      ]
+    },
+    {
+      "id": "ss119-rule-03",
+      "zh": "Now that 子句可以放在句首或句尾 放在句首 放在句首時，通常在子句後加上逗號。 放在句尾 放在句尾時，通常不需要在 now that 前加逗號。 兩種次序的基本意思相同，但句首形式會先強調新情況。",
+      "en": "The now that-clause may come first or last. An initial now that-clause is normally followed by a comma; when it comes last, no comma is normally placed before it. Both orders have the same basic meaning, but the initial form foregrounds the new situation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss119-rule-04",
+      "zh": "Now that 可以配合不同時態 現在式 現在完成式 過去敘述 選擇甚麼時態，要視乎事情發生的時間。",
+      "en": "Now that can be used with the present simple, present perfect and in past narratives. Choose the tense according to when the situation occurs.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Now that the shop is open, we can go inside.",
+        "Now that the rain has stopped, we can leave.",
+        "Now that the storm had passed, the rescue team could enter the village."
+      ]
+    },
+    {
+      "id": "ss119-rule-05",
+      "zh": "在本練習中不可省略 that 本課的目標句型是完整的 now that。 本練習不使用： 後者在某些語境可能出現，但不屬於本課要求練習的完整目標句型。 Now that 與 now 的分別 Now that 是連接詞，後面接完整子句。它連接一個新情況和由此產生的結果，意思接近「既然現 在……」。 這句有兩個互相關聯的意思： ● 約翰已經完成工作； ● 因此，他現在可以和瑪麗談話。 Now 是時間副詞，只表示「現在、此刻」。它通常修飾一個動作，並不自動表達原因或結果。 這兩句只說明事情在甚麼時間發生，沒有表示一個新情況帶來另一個結果。 簡單比較 now = 在甚麼時間？ now that = 既然出現了甚麼新情況，結果是甚麼？ 因此，不能只因為句子中出現「現在」，便使用 now that。句子必須同時包含： 1. 一個現在已經成立或改變的情況； 2. 由該情況帶來的結果、決定或行動。",
+      "en": "Keep that in the target structure for this lesson. Although a form without that may occur in some contexts, it is not the complete target pattern practised here. Do not confuse now that with now: now that is a conjunction followed by a complete clause and links a newly established situation to its result, decision or action; now is a time adverb meaning ‘at this moment’ and does not itself express cause or result. Thus now asks when something happens, whereas now that asks what new situation has arisen and what follows from it. Use now that only when the sentence contains both a situation that is now established or changed and a resulting action, decision or outcome.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Now that the work is complete, we can go home.",
+        "Now that John has finished his work, he can talk to Mary.",
+        "I want to eat ice cream now.",
+        "John is talking to Mary now.",
+        "Now that John is free, he can talk to Mary."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss119-benefit-01",
+      "zh": "清楚表達「情況改變後的結果」 這個句型能讓讀者立即明白：因為現在的情況已經不同，所以可以作出新的行動或決定。",
+      "en": "It clearly expresses a result of a changed situation, showing that a new action or decision is possible because circumstances are now different.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Now that I have more time, I can learn another language."
+      ]
+    },
+    {
+      "id": "ss119-benefit-02",
+      "zh": "把兩個相關意思合併成一句 沒有這個句型時，你可能需要寫兩句： 使用 now that 後，可以清楚地合併為： 這樣能讓兩個意思之間的關係更清晰。",
+      "en": "It combines two related ideas in one sentence. Instead of stating the new situation and its result separately, now that joins them and makes their relationship clearer.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Now that the rain has stopped, we can go outside."
+      ]
+    },
+    {
+      "id": "ss119-benefit-03",
+      "zh": "適合表達新的計劃和決定 當一個問題已經解決、某項工作已經完成，或一個新條件已經出現時，可以使用 now that 說明下 一步。 這個用法在日常對話、學校、工作和商業場合都很實用。",
+      "en": "It is useful for new plans and decisions. When a problem has been solved, a task completed or a new condition established, now that can introduce the next step. This is practical in everyday conversation, school, work and business contexts.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Now that the plan has been approved, we can begin the project."
+      ]
+    },
+    {
+      "id": "ss119-benefit-04",
+      "zh": "避免重複使用 because 和 so 學生經常使用： Now that 提供另一種自然的表達方法，讓說話和寫作不會過於重複。 可以改為：",
+      "en": "It avoids repeatedly using because, so and therefore by offering another natural way to connect a changed situation with its consequence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "because",
+        "so",
+        "therefore"
+      ]
+    },
+    {
+      "id": "ss119-benefit-05",
+      "zh": "幫助說話時快速組織答案 你可以記住以下說話框架： 掌握這個框架後，你可以迅速加入不同內容，不必每次從頭組織整句說話。",
+      "en": "It helps you organize spoken answers quickly. Memorising the frame ‘Now that ..., I/we can ...’ lets you insert different content without rebuilding the whole sentence each time.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Now that I know the problem, I can fix it.",
+        "Now that we have enough information, we can make a decision."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using now that. Preserve the original meaning.",
+      "The now that clause may appear at the beginning or the end of the answer. Follow the first-word hint provided.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 now that 改寫以下句子，並保留原句意思。",
+      "now that 子句可以放在答案的句首或句尾。請按照題目提供的首字作答。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss119-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I can exercise every morning because I have more free time now.",
+      "promptZh": "我現在有更多空閒時間，所以每天早上都可以做運動。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that I have more free time, I can exercise every morning.",
+      "answerZh": "既然我現在有更多空閒時間，我每天早上都可以做運動。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that I have more free time, I can exercise every morning."
+    },
+    {
+      "id": "ss119-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The students can finally relax because the exams are over.",
+      "promptZh": "考試已經結束，所以學生終於可以放鬆了。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the exams are over, the students can finally relax.",
+      "answerZh": "既然考試已經結束，學生終於可以放鬆了。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the exams are over, the students can finally relax."
+    },
+    {
+      "id": "ss119-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The rain has stopped, so we can go outside.",
+      "promptZh": "雨已經停了，所以我們可以到外面去。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the rain has stopped, we can go outside.",
+      "answerZh": "既然雨已經停了，我們可以到外面去。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the rain has stopped, we can go outside."
+    },
+    {
+      "id": "ss119-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia has a bicycle now, so she can ride to school.",
+      "promptZh": "米婭現在有一輛單車，所以她可以踏單車上學。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia can ride to school now that she has a bicycle.",
+      "answerZh": "既然米婭現在有一輛單車，她可以踏單車上學。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia can ride to school now that she has a bicycle."
+    },
+    {
+      "id": "ss119-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The kitchen is clean, so Dad can start cooking.",
+      "promptZh": "廚房已經清潔好，所以爸爸可以開始煮飯。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the kitchen is clean, Dad can start cooking.",
+      "answerZh": "既然廚房已經清潔好，爸爸可以開始煮飯。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the kitchen is clean, Dad can start cooking."
+    },
+    {
+      "id": "ss119-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I have a new phone now, so I can call you more often.",
+      "promptZh": "我現在有一部新電話，所以可以更常打電話給你。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I can call you more often now that I have a new phone.",
+      "answerZh": "既然我現在有一部新電話，我可以更常打電話給你。",
+      "answerZhSource": "pdf",
+      "highlight": "I can call you more often now that I have a new phone."
+    },
+    {
+      "id": "ss119-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben has had some rest. As a result, he feels better.",
+      "promptZh": "本休息了一會兒。因此，他感覺好多了。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben feels better now that he has had some rest.",
+      "answerZh": "既然本已經休息了一會兒，他感覺好多了。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben feels better now that he has had some rest."
+    },
+    {
+      "id": "ss119-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Since the shop is open, we can buy some bread.",
+      "promptZh": "由於店舖已經營業，我們可以買些麵包。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the shop is open, we can buy some bread.",
+      "answerZh": "既然店舖已經營業，我們可以買些麵包。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the shop is open, we can buy some bread."
+    },
+    {
+      "id": "ss119-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The weather is warmer now, so the children can play in the garden.",
+      "promptZh": "天氣現在較暖，所以孩子們可以在花園玩耍。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children can play in the garden now that the weather is warmer.",
+      "answerZh": "既然天氣現在較暖，孩子們可以在花園玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The children can play in the garden now that the weather is warmer."
+    },
+    {
+      "id": "ss119-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I know the answer now, so I can finish the form.",
+      "promptZh": "我現在知道答案，所以可以完成表格。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that I know the answer, I can finish the form.",
+      "answerZh": "既然我現在知道答案，我可以完成表格。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that I know the answer, I can finish the form."
+    },
+    {
+      "id": "ss119-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sarah lives nearby now. Therefore, we see her more often.",
+      "promptZh": "莎拉現在住在附近。因此，我們更常見到她。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that Sarah lives nearby, we see her more often.",
+      "answerZh": "既然莎拉現在住在附近，我們更常見到她。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that Sarah lives nearby, we see her more often."
+    },
+    {
+      "id": "ss119-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Everyone is ready, so we can leave.",
+      "promptZh": "每個人都準備好了，所以我們可以離開。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can leave now that everyone is ready.",
+      "answerZh": "既然每個人都準備好了，我們可以離開。",
+      "answerZhSource": "pdf",
+      "highlight": "We can leave now that everyone is ready."
+    },
+    {
+      "id": "ss119-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The lights are on now, and the room is much brighter as a result.",
+      "promptZh": "燈現在已經亮起，因此房間光亮得多。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the lights are on, the room is much brighter.",
+      "answerZh": "既然燈已經亮起，房間光亮得多。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the lights are on, the room is much brighter."
+    },
+    {
+      "id": "ss119-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Leo’s arm has healed, so he can join the team.",
+      "promptZh": "里奧的手臂已經康復，所以他可以加入球隊。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo can join the team now that his arm has healed.",
+      "answerZh": "既然里奧的手臂已經康復，他可以加入球隊。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo can join the team now that his arm has healed."
+    },
+    {
+      "id": "ss119-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As the bus has arrived, the passengers can get on.",
+      "promptZh": "由於巴士已經到達，乘客可以上車。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the bus has arrived, the passengers can get on.",
+      "answerZh": "既然巴士已經到達，乘客可以上車。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the bus has arrived, the passengers can get on."
+    },
+    {
+      "id": "ss119-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I have read the ending, so I understand the story better.",
+      "promptZh": "我已經讀過結局，所以更明白這個故事。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I understand the story better now that I have read the ending.",
+      "answerZh": "既然我已經讀過結局，我更明白這個故事。",
+      "answerZhSource": "pdf",
+      "highlight": "I understand the story better now that I have read the ending."
+    },
+    {
+      "id": "ss119-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The baby is asleep now, so we can have dinner.",
+      "promptZh": "嬰兒現在睡着了，所以我們可以吃晚飯。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the baby is asleep, we can have dinner.",
+      "answerZh": "既然嬰兒現在睡着了，我們可以吃晚飯。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the baby is asleep, we can have dinner."
+    },
+    {
+      "id": "ss119-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hall has been repaired, so the students can use it.",
+      "promptZh": "禮堂已經修理好，所以學生可以使用它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students can use the hall now that it has been repaired.",
+      "answerZh": "既然禮堂已經修理好，學生可以使用禮堂。",
+      "answerZhSource": "pdf",
+      "highlight": "The students can use the hall now that it has been repaired."
+    },
+    {
+      "id": "ss119-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The price of the tablet has fallen, so more people can afford it.",
+      "promptZh": "平板電腦的價格已經下降，所以更多人負擔得起。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the price of the tablet has fallen, more people can afford it.",
+      "answerZh": "既然平板電腦的價格已經下降，更多人負擔得起。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the price of the tablet has fallen, more people can afford it."
+    },
+    {
+      "id": "ss119-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You have finished reading the library book, so you can return it.",
+      "promptZh": "你已經讀完這本圖書館書籍，所以可以把它歸還。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can return the library book now that you have finished reading it.",
+      "answerZh": "既然你已經讀完這本圖書館書籍，你可以把它歸還。",
+      "answerZhSource": "pdf",
+      "highlight": "You can return the library book now that you have finished reading it."
+    },
+    {
+      "id": "ss119-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The road is no longer blocked, so the ambulance can move forward.",
+      "promptZh": "道路已經不再受阻，所以救護車可以向前駛。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the road is no longer blocked, the ambulance can move forward.",
+      "answerZh": "既然道路已經不再受阻，救護車可以向前駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the road is no longer blocked, the ambulance can move forward."
+    },
+    {
+      "id": "ss119-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Since we know the way, we do not need the map.",
+      "promptZh": "由於我們已經知道路線，所以不需要地圖。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We do not need the map now that we know the way.",
+      "answerZh": "既然我們已經知道路線，我們不需要地圖。",
+      "answerZhSource": "pdf",
+      "highlight": "We do not need the map now that we know the way."
+    },
+    {
+      "id": "ss119-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The password has been reset. Therefore, you can log in again.",
+      "promptZh": "密碼已經重設。因此，你可以再次登入。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the password has been reset, you can log in again.",
+      "answerZh": "既然密碼已經重設，你可以再次登入。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the password has been reset, you can log in again."
+    },
+    {
+      "id": "ss119-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new coach has arrived, so the team can begin training.",
+      "promptZh": "新教練已經到達，所以球隊可以開始訓練。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team can begin training now that the new coach has arrived.",
+      "answerZh": "既然新教練已經到達，球隊可以開始訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The team can begin training now that the new coach has arrived."
+    },
+    {
+      "id": "ss119-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Grace understands the instructions now, so she no longer needs help.",
+      "promptZh": "格蕾絲現在明白指示，所以不再需要幫助。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that Grace understands the instructions, she no longer needs help.",
+      "answerZh": "既然格蕾絲現在明白指示，她不再需要幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that Grace understands the instructions, she no longer needs help."
+    },
+    {
+      "id": "ss119-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The test results are available, so the doctor can make a decision.",
+      "promptZh": "測試結果已經備妥，所以醫生可以作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor can make a decision now that the test results are available.",
+      "answerZh": "既然測試結果已經備妥，醫生可以作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor can make a decision now that the test results are available."
+    },
+    {
+      "id": "ss119-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The broken window has been replaced, so the classroom is safe again.",
+      "promptZh": "破裂的窗戶已經更換，所以課室再次變得安全。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the broken window has been replaced, the classroom is safe again.",
+      "answerZh": "既然破裂的窗戶已經更換，課室再次變得安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the broken window has been replaced, the classroom is safe again."
+    },
+    {
+      "id": "ss119-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The document is complete, so you should save a copy.",
+      "promptZh": "文件已經完成，所以你應該儲存一份副本。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should save a copy now that the document is complete.",
+      "answerZh": "既然文件已經完成，你應該儲存一份副本。",
+      "answerZhSource": "pdf",
+      "highlight": "You should save a copy now that the document is complete."
+    },
+    {
+      "id": "ss119-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why can the residents sleep now? The noise has stopped.",
+      "promptZh": "為甚麼居民現在可以睡覺？噪音已經停止了。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the noise has stopped, the residents can sleep.",
+      "answerZh": "既然噪音已經停止，居民可以睡覺。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the noise has stopped, the residents can sleep."
+    },
+    {
+      "id": "ss119-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The exact dates have been confirmed, so we can plan the trip properly.",
+      "promptZh": "確切日期已經確認，所以我們可以妥善規劃旅程。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can plan the trip properly now that the exact dates have been confirmed.",
+      "answerZh": "既然確切日期已經確認，我們可以妥善規劃旅程。",
+      "answerZhSource": "pdf",
+      "highlight": "We can plan the trip properly now that the exact dates have been confirmed."
+    },
+    {
+      "id": "ss119-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school has added more computers. As a result, students can practise more often.",
+      "promptZh": "學校增添了更多電腦。因此，學生可以更常練習。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the school has added more computers, students can practise more often.",
+      "answerZh": "既然學校增添了更多電腦，學生可以更常練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the school has added more computers, students can practise more often."
+    },
+    {
+      "id": "ss119-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The entrance has been repaired. Therefore, the museum can welcome visitors again.",
+      "promptZh": "入口已經修理好。因此，博物館可以再次接待訪客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum can welcome visitors again now that the entrance has been repaired.",
+      "answerZh": "既然入口已經修理好，博物館可以再次接待訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum can welcome visitors again now that the entrance has been repaired."
+    },
+    {
+      "id": "ss119-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our office uses a shared calendar now, so meetings are easier to organise.",
+      "promptZh": "我們的辦公室現在使用共用日曆，所以會議更容易安排。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that our office uses a shared calendar, meetings are easier to organise.",
+      "answerZh": "既然我們的辦公室現在使用共用日曆，會議更容易安排。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that our office uses a shared calendar, meetings are easier to organise."
+    },
+    {
+      "id": "ss119-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Since the wound has healed, the nurse can remove the bandage.",
+      "promptZh": "由於傷口已經癒合，護士可以除下繃帶。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse can remove the bandage now that the wound has healed.",
+      "answerZh": "既然傷口已經癒合，護士可以除下繃帶。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse can remove the bandage now that the wound has healed."
+    },
+    {
+      "id": "ss119-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The storm had passed, so the rescue team could enter the village.",
+      "promptZh": "暴風雨已經過去，所以救援隊可以進入村莊。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the storm had passed, the rescue team could enter the village.",
+      "answerZh": "既然當時暴風雨已經過去，救援隊便可以進入村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the storm had passed, the rescue team could enter the village."
+    },
+    {
+      "id": "ss119-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The microphone was working again. As a result, we could hear the speaker clearly.",
+      "promptZh": "咪高峰再次正常運作。因此，我們可以清楚聽到講者。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could hear the speaker clearly now that the microphone was working again.",
+      "answerZh": "既然咪高峰當時再次正常運作，我們便可以清楚聽到講者。",
+      "answerZhSource": "pdf",
+      "highlight": "We could hear the speaker clearly now that the microphone was working again."
+    },
+    {
+      "id": "ss119-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The old rule no longer applies, so staff can work from home on Fridays.",
+      "promptZh": "舊規則已經不再適用，所以員工可以在星期五在家工作。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the old rule no longer applies, staff can work from home on Fridays.",
+      "answerZh": "既然舊規則已經不再適用，員工可以在星期五在家工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the old rule no longer applies, staff can work from home on Fridays."
+    },
+    {
+      "id": "ss119-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The family uses LED lights now, so it spends less on electricity.",
+      "promptZh": "這個家庭現在使用 LED 燈，所以電費支出較少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The family spends less on electricity now that it uses LED lights.",
+      "answerZh": "既然這個家庭現在使用 LED 燈，電費支出便較少。",
+      "answerZhSource": "pdf",
+      "highlight": "The family spends less on electricity now that it uses LED lights."
+    },
+    {
+      "id": "ss119-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The final design has been approved, so production can start next week.",
+      "promptZh": "最終設計已經獲批，所以生產可以在下星期開始。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the final design has been approved, production can start next week.",
+      "answerZh": "既然最終設計已經獲批，生產可以在下星期開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the final design has been approved, production can start next week."
+    },
+    {
+      "id": "ss119-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new system has been installed, which means that customers can pay online.",
+      "promptZh": "新系統已經安裝，這表示顧客可以在網上付款。",
+      "promptZhSource": "pdf",
+      "starter": "Customers",
+      "answer": "Customers can pay online now that the new system has been installed.",
+      "answerZh": "既然新系統已經安裝，顧客可以在網上付款。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers can pay online now that the new system has been installed."
+    },
+    {
+      "id": "ss119-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The council has added more bins, so the park is easier to keep clean.",
+      "promptZh": "區議會增添了更多垃圾桶，所以公園更容易保持清潔。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the council has added more bins, the park is easier to keep clean.",
+      "answerZh": "既然區議會增添了更多垃圾桶，公園更容易保持清潔。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the council has added more bins, the park is easier to keep clean."
+    },
+    {
+      "id": "ss119-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school has hired more teachers. As a result, it can offer smaller classes.",
+      "promptZh": "學校聘請了更多教師。因此，學校可以提供人數較少的班級。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school can offer smaller classes now that it has hired more teachers.",
+      "answerZh": "既然學校聘請了更多教師，學校可以提供人數較少的班級。",
+      "answerZhSource": "pdf",
+      "highlight": "The school can offer smaller classes now that it has hired more teachers."
+    },
+    {
+      "id": "ss119-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The hospital has opened a second clinic. Consequently, patients do not have to wait as long.",
+      "promptZh": "醫院開設了第二間診所。因此，病人不必等候那麼久。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the hospital has opened a second clinic, patients do not have to wait as long.",
+      "answerZh": "既然醫院開設了第二間診所，病人不必等候那麼久。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the hospital has opened a second clinic, patients do not have to wait as long."
+    },
+    {
+      "id": "ss119-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "All the costs have now been included, which allows us to compare the two plans fairly.",
+      "promptZh": "所有成本現在都已包括在內，這讓我們可以公平地比較兩個方案。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can compare the two plans fairly now that all the costs have been included.",
+      "answerZh": "既然所有成本都已包括在內，我們可以公平地比較兩個方案。",
+      "answerZhSource": "pdf",
+      "highlight": "We can compare the two plans fairly now that all the costs have been included."
+    },
+    {
+      "id": "ss119-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The safety checks are complete, so the engineers can reopen the road.",
+      "promptZh": "安全檢查已經完成，所以工程師可以重開道路。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the safety checks are complete, the engineers can reopen the road.",
+      "answerZh": "既然安全檢查已經完成，工程師可以重開道路。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the safety checks are complete, the engineers can reopen the road."
+    },
+    {
+      "id": "ss119-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The charity has received additional funding, so it can support more families.",
+      "promptZh": "慈善機構已經獲得額外資金，所以可以支援更多家庭。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity can support more families now that it has received additional funding.",
+      "answerZh": "既然慈善機構已經獲得額外資金，它可以支援更多家庭。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity can support more families now that it has received additional funding."
+    },
+    {
+      "id": "ss119-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company has explained the changes clearly. Because of this, employees are less worried.",
+      "promptZh": "公司已經清楚解釋各項改變。因此，員工沒有那麼擔心。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the company has explained the changes clearly, employees are less worried.",
+      "answerZh": "既然公司已經清楚解釋各項改變，員工沒有那麼擔心。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the company has explained the changes clearly, employees are less worried."
+    },
+    {
+      "id": "ss119-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The council has launched a mobile app. This allows residents to report problems more easily.",
+      "promptZh": "區議會推出了流動應用程式。這讓居民可以更容易地報告問題。",
+      "promptZhSource": "pdf",
+      "starter": "Residents",
+      "answer": "Residents can report problems more easily now that the council has launched a mobile app.",
+      "answerZh": "既然區議會推出了流動應用程式，居民可以更容易地報告問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents can report problems more easily now that the council has launched a mobile app."
+    },
+    {
+      "id": "ss119-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The research team has collected enough data, so it can test the main idea properly.",
+      "promptZh": "研究團隊已經收集足夠數據，所以可以妥善測試主要構想。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the research team has collected enough data, it can test the main idea properly.",
+      "answerZh": "既然研究團隊已經收集足夠數據，便可以妥善測試主要構想。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the research team has collected enough data, it can test the main idea properly."
+    },
+    {
+      "id": "ss119-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Every department has approved the final plan, so the project can move into its next stage.",
+      "promptZh": "每個部門都已批准最終方案，所以項目可以進入下一階段。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project can move into its next stage now that every department has approved the final plan.",
+      "answerZh": "既然每個部門都已批准最終方案，項目可以進入下一階段。",
+      "answerZhSource": "pdf",
+      "highlight": "The project can move into its next stage now that every department has approved the final plan."
+    }
+  ]
+}

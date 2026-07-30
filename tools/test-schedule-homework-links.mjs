@@ -25,7 +25,7 @@ const read = (file) => readFile(path.join(root, file), "utf8");
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2015, "the Homework/Schedule catalogue should include all 60 new Task 1 writing sets");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2119, "the Homework/Schedule catalogue should include all current learning resources");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -33,11 +33,11 @@ const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
 assert.equal((byType.flashcards || []).length, 804, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 310, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
-assert.equal((byType["sentence-structure"] || []).length, 114, "all sentence structure lessons should be indexed");
+assert.equal((byType["sentence-structure"] || []).length, 218, "all sentence structure lessons should be indexed");
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
 assert.ok(ids.has("speaking:ielts-part-2-book-1-exercise-01"));
-assert.ok(ids.has("sentence:ss114"));
+assert.ok(ids.has("sentence:ss218"));
 
 const taskOneFlashcards = (byType.flashcards || []).filter((resource) =>
   /^flash:ielts\/writing\/task-1\/(?:bar-charts|line-graphs|pie-charts|process-diagrams|tables|maps|mixed-charts)\//.test(resource.id)

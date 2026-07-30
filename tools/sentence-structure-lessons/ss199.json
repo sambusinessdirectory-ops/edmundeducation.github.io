@@ -1,0 +1,1248 @@
+{
+  "id": "ss199",
+  "order": 199,
+  "slug": "be-up-to-something",
+  "title": "「be up to something」表示暗中有所行動",
+  "titleZh": "「be up to something」表示暗中有所行動",
+  "titleEn": "Using “be up to something”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 199 -「be up to something」表示暗中有所行動.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Subject + be + up to something",
+  "formulas": [
+    {
+      "id": "ss199-formula-01",
+      "labelEn": "Core",
+      "labelZh": "核心句式",
+      "formula": "Subject + be + up to something"
+    },
+    {
+      "id": "ss199-formula-02",
+      "labelEn": "Modal",
+      "labelZh": "配合情態動詞",
+      "formula": "Subject + modal + be + up to something"
+    },
+    {
+      "id": "ss199-formula-03",
+      "labelEn": "Perfect",
+      "labelZh": "完成式",
+      "formula": "Subject + have / has been + up to something"
+    }
+  ],
+  "example": "The kids are being unusually quiet. They must be up to something.",
+  "exampleZh": "孩子們今天安靜得反常。他們一定在搞鬼。",
+  "examples": [
+    {
+      "id": "ss199-example-01",
+      "en": "The kids are being unusually quiet. They must be up to something.",
+      "zh": "孩子們今天安靜得反常。他們一定在搞鬼。",
+      "highlight": "The kids are being unusually quiet. They must be up to something."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Subject + be + up to something。"
+  },
+  "rules": [
+    {
+      "id": "ss199-rule-01",
+      "zh": "必須使用正確形式的 be Be 要按照主語、時態及情態動詞改變。 不能說：",
+      "en": "Use the correct form of be for the subject, tense and any modal verb. Correct: The child is up to something. The children are up to something. They were up to something yesterday. She might be up to something. He has been up to something. Incorrect: The children is up to something. She might is up to something.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The child is up to something.",
+        "The children are up to something.",
+        "They were up to something yesterday.",
+        "She might be up to something.",
+        "He has been up to something.",
+        "The children is up to something.",
+        "She might is up to something."
+      ]
+    },
+    {
+      "id": "ss199-rule-02",
+      "zh": "Something 表示具體行動仍然不清楚 使用這個表達時，說話者通常只看見一些線索，但不知道對方的完整計劃。 （學生把一些顏料藏起來。他們一定在搞鬼。） 說話者懷疑學生正在策劃某件事，但未必知道他們具體打算做甚麼。",
+      "en": "Something means that the specific activity is still unknown. The speaker normally sees clues but does not know the full plan. In “The students are hiding some paint. They must be up to something”, the speaker suspects a secret plan without necessarily knowing exactly what the students intend to do.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The students are hiding some paint. They must be up to something."
+      ]
+    },
+    {
+      "id": "ss199-rule-03",
+      "zh": "可以用不同字詞控制懷疑程度 Strong deduction 強烈推斷 Moderate judgement 中等程度判斷 Possibility 可能性 比較： （他們一定在搞鬼。） （他們可能在暗中做些甚麼。） 第一句的確定程度較高。",
+      "en": "Use different words to control the degree of suspicion. Strong deduction: must be up to something; is definitely up to something; is clearly up to something. Moderate judgement: is probably up to something; seems to be up to something; appears to be up to something. Possibility: may be up to something; might be up to something; could be up to something. Compare: They must be up to something. They might be up to something. The first sentence expresses greater certainty.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "must be up to something",
+        "is definitely up to something",
+        "is clearly up to something",
+        "is probably up to something",
+        "seems to be up to something",
+        "appears to be up to something",
+        "may be up to something",
+        "might be up to something",
+        "could be up to something",
+        "They must be up to something.",
+        "They might be up to something."
+      ]
+    },
+    {
+      "id": "ss199-rule-04",
+      "zh": "這個表達通常帶有非正式語氣 Be up to something 很常見於： ● 日常對話； ● 故事； ● 電影對白； ● 描述可疑行為； ● 開玩笑地猜測別人在準備驚喜。 在正式報告或嚴肅指控中，這個表達可能不夠具體。正式場合通常應直接說明已知事實。",
+      "en": "Be up to something is normally informal. It is common in everyday conversation, stories, film dialogue, descriptions of suspicious behaviour and joking guesses that someone is preparing a surprise. In a formal report or serious accusation, it may be too vague; state the known facts directly instead.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss199-rule-05",
+      "zh": "不一定表示嚴重的壞事 這個表達可以表示有人正在做壞事，但亦可以用於較輕鬆或帶玩笑意味的情況。 （我一進去，所有人便停止說話。他們可能正在暗中準備甚麼。） 他們可能正在準備驚喜，而不一定是在做壞事。",
+      "en": "The expression does not necessarily suggest serious wrongdoing. It can describe something bad, but it also suits light-hearted or joking situations. “Everyone stopped talking when I entered. They might be up to something” could mean that they are preparing a surprise, not necessarily doing something wrong.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Everyone stopped talking when I entered. They might be up to something."
+      ]
+    },
+    {
+      "id": "ss199-rule-06",
+      "zh": "不要與其他 up to 用法混淆 以下句子並不是本課的目標用法： （你正在做甚麼？） 這個問句很多時只是中性地詢問對方正在做甚麼。 （由你決定。） 這裏的 up to 表示「由某人負責或決定」。 （房間最多可以容納五十人。） 這裏的 up to 表示「最多」。 （他沒有能力完成這項任務。） 這裏的 up to 表示「有能力應付」。 本練習只訓練： be up to something = 正在暗中做或策劃某件事",
+      "en": "Do not confuse this target meaning with other uses of up to. “What are you up to?” is often a neutral question about what someone is doing. “It is up to you” means that you are responsible for the choice. “The room can hold up to fifty people” means at most fifty. “He is not up to the task” means that he is not capable of handling it. This lesson practises only be up to something meaning to be secretly doing or planning something.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What are you up to?",
+        "It is up to you.",
+        "The room can hold up to fifty people.",
+        "He is not up to the task."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss199-benefit-01",
+      "zh": "可以在不知道全部真相時表達懷疑 有時你看見一些可疑線索，但仍然不知道對方具體在做甚麼。這個句型讓你表達懷疑，而不需要 編造細節。 （孩子們正在收藏一個盒子。他們可能在暗中做些甚麼。）",
+      "en": "It lets you express suspicion without knowing the whole truth. When you notice suspicious clues but do not know exactly what someone is doing, the structure expresses the suspicion without inventing details. Example: The children are hiding a box. They may be up to something.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss199-benefit-02",
+      "zh": "能把較長的說法縮短 不用這個表達時，你可能要說： 使用這個句型後，可以簡化為： 這個版本更短、更自然，也較適合日常對話。",
+      "en": "It shortens a longer statement. Instead of “I think they are secretly planning or doing something, but I do not know exactly what it is”, say “I think they are up to something.” The shorter version is more natural in everyday conversation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss199-benefit-03",
+      "zh": "可以準確控制說話者的確定程度 你可以配合 must、probably、may、might、could 等字詞，表示不同程度的懷疑。 一定在搞鬼 很可能在暗中行動 可能在暗中做些甚麼 這能避免把一個不確定的猜測說成已經證實的事實。",
+      "en": "It lets you control the speaker’s degree of certainty with must, probably, may, might or could: must be up to something (strong deduction); is probably up to something (probable judgement); might be up to something (possibility). This prevents an uncertain suspicion from being presented as a proven fact.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss199-benefit-04",
+      "zh": "能自然地連接「線索」和「推斷」 這個句型特別適合先描述異常行為，再提出你的判斷。 （學生突然安靜下來。他們一定在搞鬼。） 第一句提供線索，第二句說明你的推斷，令意思容易理解。",
+      "en": "It naturally connects a clue with an inference. The structure is especially useful after a description of unusual behaviour: The pupils suddenly became silent. They must be up to something. The first sentence supplies the clue and the second states the inference.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss199-benefit-05",
+      "zh": "適合製造懸念和故事氣氛 在故事、對話或敘述中，be up to something 可以讓讀者知道某個角色正在秘密行動，但暫時不 透露完整計劃。 （那名男子一直注視後門。他似乎在暗中策劃甚麼。） 這能令故事更有懸念。",
+      "en": "It creates suspense and atmosphere. In stories, dialogue and narration, be up to something can show that a character is acting secretly without revealing the full plan: The man kept watching the back door. He seemed to be up to something. Withholding the details makes the story more suspenseful.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Subject + be + up to something.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Subject + be + up to something」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss199-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children are unusually quiet. I am certain that they are planning some mischief.",
+      "promptZh": "孩子們安靜得反常。我肯定他們正在策劃一些惡作劇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children must be up to something.",
+      "answerZh": "孩子們一定在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "must be up to something"
+    },
+    {
+      "id": "ss199-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I saw the students whispering and hiding a note. It was clear that they had a secret plan.",
+      "promptZh": "我看見那些學生竊竊私語，並把一張紙條藏起來。很明顯，他們有一個秘密計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students were clearly up to something.",
+      "answerZh": "那些學生顯然正在暗中搞些甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The students were clearly up to something."
+    },
+    {
+      "id": "ss199-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Everyone smiled when I entered the room. I think they may be planning a surprise.",
+      "promptZh": "我走進房間時，所有人都在笑。我想他們可能正在準備一個驚喜。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They might be up to something.",
+      "answerZh": "他們可能正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "They might be up to something."
+    },
+    {
+      "id": "ss199-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Max keeps looking at the cake and moving closer to the table. His behaviour shows that he is planning some mischief.",
+      "promptZh": "麥克斯一直望着蛋糕，並逐漸走近桌子。他的行為顯示他正在打甚麼壞主意。",
+      "promptZhSource": "pdf",
+      "starter": "Max",
+      "answer": "Max is up to something.",
+      "answerZh": "麥克斯正在打甚麼壞主意。",
+      "answerZhSource": "pdf",
+      "highlight": "Max is up to something."
+    },
+    {
+      "id": "ss199-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My sister closed her laptop the moment I came in. I suspect that she has a hidden plan.",
+      "promptZh": "我一進來，妹妹便立即合上手提電腦。我懷疑她有一個秘密計劃。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I suspect that my sister is up to something.",
+      "answerZh": "我懷疑妹妹正在暗中盤算甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "I suspect that my sister is up to something."
+    },
+    {
+      "id": "ss199-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why is Ella checking the front door every minute? I think she has a secret plan.",
+      "promptZh": "艾拉為甚麼每分鐘都查看前門？我想她有一個秘密計劃。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I think Ella is up to something.",
+      "answerZh": "我想艾拉正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "I think Ella is up to something."
+    },
+    {
+      "id": "ss199-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The neighbours are carrying boxes into the garage after midnight. Perhaps they are doing something secretly.",
+      "promptZh": "鄰居在午夜後把一些箱子搬進車房。他們可能正在暗中做些甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbours may be up to something.",
+      "answerZh": "鄰居可能正在暗中做些甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbours may be up to something."
+    },
+    {
+      "id": "ss199-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The cat is sitting beside the cupboard and watching us carefully. It looks ready to cause trouble.",
+      "promptZh": "那隻貓坐在櫥櫃旁邊，仔細地觀察我們。牠看來正準備搗蛋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cat seems to be up to something.",
+      "answerZh": "那隻貓似乎正準備搗蛋。",
+      "answerZhSource": "pdf",
+      "highlight": "The cat seems to be up to something."
+    },
+    {
+      "id": "ss199-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Tom and Ava stopped talking as soon as I arrived. I am sure they have a secret plan.",
+      "promptZh": "我一到達，湯姆和艾娃便停止談話。我肯定他們有一個秘密計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Tom",
+      "answer": "Tom and Ava must be up to something.",
+      "answerZh": "湯姆和艾娃一定正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom and Ava must be up to something."
+    },
+    {
+      "id": "ss199-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben keeps asking unusual questions about my birthday. It appears that he is planning something.",
+      "promptZh": "本一直問一些關於我生日的奇怪問題。他似乎正在策劃甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben appears to be up to something.",
+      "answerZh": "本似乎正在盤算甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben appears to be up to something."
+    },
+    {
+      "id": "ss199-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My colleagues whisper and hide a card whenever I walk past. They are probably planning a surprise.",
+      "promptZh": "每當我經過時，同事們便竊竊私語，並把一張卡藏起來。他們很可能正在準備驚喜。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My colleagues are probably up to something.",
+      "answerZh": "我的同事們很可能正在暗中準備甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "My colleagues are probably up to something."
+    },
+    {
+      "id": "ss199-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher noticed two pupils exchanging notes and laughing. She realised that they were planning a prank.",
+      "promptZh": "老師留意到兩名學生交換紙條並發笑。她察覺到他們正在策劃惡作劇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher realised that the two pupils were up to something.",
+      "answerZh": "老師察覺到那兩名學生正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher realised that the two pupils were up to something."
+    },
+    {
+      "id": "ss199-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This app keeps asking for access to my camera and contacts. It may have a hidden purpose.",
+      "promptZh": "這個應用程式一直要求存取我的相機和通訊錄。它可能有一個隱藏目的。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This app might be up to something.",
+      "answerZh": "這個應用程式可能正在暗中進行某些活動。",
+      "answerZhSource": "pdf",
+      "highlight": "This app might be up to something."
+    },
+    {
+      "id": "ss199-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The website keeps sending me to pages that I did not choose. It could be doing something suspicious.",
+      "promptZh": "這個網站一直把我帶到並非由我選擇的頁面。它可能正在進行一些可疑活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website could be up to something.",
+      "answerZh": "這個網站可能正在進行一些可疑活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The website could be up to something."
+    },
+    {
+      "id": "ss199-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Lisa never arrives early, but today she is arranging decorations before anyone else comes. She must have a secret plan.",
+      "promptZh": "莉莎從不提早到達，但今天她在其他人到來前佈置裝飾。她一定有一個秘密計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Lisa",
+      "answer": "Lisa must be up to something.",
+      "answerZh": "莉莎一定正在暗中準備甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Lisa must be up to something."
+    },
+    {
+      "id": "ss199-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did the guard keep watching the back entrance? He believed that two visitors had a hidden plan.",
+      "promptZh": "保安員為甚麼一直監視後門？他相信兩名訪客有一個隱藏計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guard believed that the two visitors were up to something.",
+      "answerZh": "保安員相信那兩名訪客正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The guard believed that the two visitors were up to something."
+    },
+    {
+      "id": "ss199-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I cannot prove it, but those sellers may be planning a trick.",
+      "promptZh": "我無法證明，但那些賣家可能正在策劃一個騙局。",
+      "promptZhSource": "pdf",
+      "starter": "Those",
+      "answer": "Those sellers may be up to something.",
+      "answerZh": "那些賣家可能正在策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Those sellers may be up to something."
+    },
+    {
+      "id": "ss199-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The twins bought balloons and hid them in their room. They are probably planning something.",
+      "promptZh": "這對雙胞胎買了氣球，並把它們藏在房間裏。他們很可能正在策劃甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The twins are probably up to something.",
+      "answerZh": "這對雙胞胎很可能正在暗中準備甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The twins are probably up to something."
+    },
+    {
+      "id": "ss199-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Dad keeps checking the clock and telling me not to enter the kitchen. I am certain that he has a plan.",
+      "promptZh": "爸爸一直查看時鐘，並叫我不要進入廚房。我肯定他有一個計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Dad",
+      "answer": "Dad is definitely up to something.",
+      "answerZh": "爸爸肯定正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Dad is definitely up to something."
+    },
+    {
+      "id": "ss199-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The home assistant turns on by itself and sends messages at night. It may be doing something strange.",
+      "promptZh": "智能家居助手會自行啟動，並在晚上發送訊息。它可能正在進行一些奇怪活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The home assistant may be up to something.",
+      "answerZh": "智能家居助手可能正在進行一些奇怪活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The home assistant may be up to something."
+    },
+    {
+      "id": "ss199-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Yesterday, the children became silent whenever an adult entered. I suspected that they were planning mischief.",
+      "promptZh": "昨天，每當有成年人進入時，孩子們便會安靜下來。我懷疑他們正在策劃惡作劇。",
+      "promptZhSource": "pdf",
+      "starter": "Yesterday",
+      "answer": "Yesterday, I suspected that the children were up to something.",
+      "answerZh": "昨天，我懷疑孩子們正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "Yesterday, I suspected that the children were up to something."
+    },
+    {
+      "id": "ss199-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I knew that the interns were secretly preparing something when they hid the meeting notes.",
+      "promptZh": "實習生把會議筆記藏起來時，我知道他們正在秘密準備某件事。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I knew that the interns were up to something when they hid the meeting notes.",
+      "answerZh": "實習生把會議筆記藏起來時，我便知道他們正在暗中準備甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "I knew that the interns were up to something when they hid the meeting notes."
+    },
+    {
+      "id": "ss199-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Nora has behaved strangely for several days, as though she has been carrying out a secret plan.",
+      "promptZh": "諾拉幾天以來一直表現奇怪，彷彿一直在執行某個秘密計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Nora",
+      "answer": "Nora has been up to something for several days.",
+      "answerZh": "諾拉幾天以來一直在暗中進行某些事情。",
+      "answerZhSource": "pdf",
+      "highlight": "Nora has been up to something for several days."
+    },
+    {
+      "id": "ss199-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The boys had mud on their shoes and would not explain where they had been. It was obvious that they had done something mischievous.",
+      "promptZh": "那些男孩鞋上沾滿泥濘，卻不肯解釋自己去了哪裏。很明顯，他們曾經做過一些頑皮的事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The boys had clearly been up to something.",
+      "answerZh": "那些男孩顯然曾經做過一些頑皮的事。",
+      "answerZhSource": "pdf",
+      "highlight": "The boys had clearly been up to something."
+    },
+    {
+      "id": "ss199-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If Ryan starts asking about your schedule, he is probably planning something.",
+      "promptZh": "如果瑞恩開始詢問你的行程，他很可能正在策劃甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Ryan starts asking about your schedule, he is probably up to something.",
+      "answerZh": "如果瑞恩開始詢問你的行程，他很可能正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "If Ryan starts asking about your schedule, he is probably up to something."
+    },
+    {
+      "id": "ss199-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "All those fake accounts posted the same message at the same time. They must be part of a hidden plan.",
+      "promptZh": "所有那些虛假帳戶都在同一時間發出相同訊息。它們一定正在參與某個隱藏計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Those",
+      "answer": "Those fake accounts must be up to something.",
+      "answerZh": "那些虛假帳戶一定正在參與某項隱藏活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Those fake accounts must be up to something."
+    },
+    {
+      "id": "ss199-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The printer keeps producing pages that nobody requested. It may be doing something strange.",
+      "promptZh": "打印機一直印出沒有人要求的頁面。它可能正在做一些奇怪的事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The printer may be up to something.",
+      "answerZh": "打印機可能正在做一些奇怪的事。",
+      "answerZhSource": "pdf",
+      "highlight": "The printer may be up to something."
+    },
+    {
+      "id": "ss199-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why has the committee suddenly held three private meetings? I suspect that it has a hidden plan.",
+      "promptZh": "委員會為甚麼突然舉行三次閉門會議？我懷疑它有一個隱藏計劃。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I suspect that the committee is up to something.",
+      "answerZh": "我懷疑委員會正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "I suspect that the committee is up to something."
+    },
+    {
+      "id": "ss199-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Mina looked unusually innocent after the vase broke. I suspected that she had done something mischievous.",
+      "promptZh": "花瓶打破後，米娜表現得異常無辜。我懷疑她曾經做過一些頑皮的事。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I suspected that Mina had been up to something.",
+      "answerZh": "我懷疑米娜曾經做過一些頑皮的事。",
+      "answerZhSource": "pdf",
+      "highlight": "I suspected that Mina had been up to something."
+    },
+    {
+      "id": "ss199-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The night guard saw lights in the empty office. He thought someone was doing something secretly.",
+      "promptZh": "夜班保安員看見空置辦公室裏有燈光。他認為有人正在暗中進行某些活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The night guard thought someone was up to something.",
+      "answerZh": "夜班保安員認為有人正在暗中進行某些活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The night guard thought someone was up to something."
+    },
+    {
+      "id": "ss199-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why are the children carrying tape and cardboard upstairs? They must have a secret plan.",
+      "promptZh": "孩子們為甚麼把膠紙和紙板帶到樓上？他們一定有一個秘密計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children must be up to something.",
+      "answerZh": "孩子們一定正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The children must be up to something."
+    },
+    {
+      "id": "ss199-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Whenever the supervisor leaves, those workers lower their voices. Perhaps they are hiding an activity.",
+      "promptZh": "每當主管離開時，那些員工便會降低聲量。他們可能正在隱瞞某項活動。",
+      "promptZhSource": "pdf",
+      "starter": "Those",
+      "answer": "Those workers may be up to something whenever the supervisor leaves.",
+      "answerZh": "每當主管離開時，那些員工可能便會暗中進行某些活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Those workers may be up to something whenever the supervisor leaves."
+    },
+    {
+      "id": "ss199-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I was not certain, but the man near the gate appeared to be acting with a hidden purpose.",
+      "promptZh": "我並不肯定，但閘門附近的男子看來正在帶着某個隱藏目的行動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The man near the gate seemed to be up to something.",
+      "answerZh": "閘門附近的男子似乎正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The man near the gate seemed to be up to something."
+    },
+    {
+      "id": "ss199-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our competitors have contacted nearly all our former clients. They are probably planning something.",
+      "promptZh": "我們的競爭對手已聯絡幾乎所有舊客戶。他們很可能正在策劃甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our competitors are probably up to something.",
+      "answerZh": "我們的競爭對手很可能正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Our competitors are probably up to something."
+    },
+    {
+      "id": "ss199-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new update quietly changes settings that users have already rejected. I suspect that it has a hidden purpose.",
+      "promptZh": "新的更新程式暗中更改用戶已經拒絕的設定。我懷疑它有一個隱藏目的。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I suspect that the new update is up to something.",
+      "answerZh": "我懷疑新的更新程式正在暗中進行某些活動。",
+      "answerZhSource": "pdf",
+      "highlight": "I suspect that the new update is up to something."
+    },
+    {
+      "id": "ss199-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Watch Leo carefully because he may be planning something.",
+      "promptZh": "仔細留意里奧，因為他可能正在策劃甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Watch",
+      "answer": "Watch Leo carefully; he may be up to something.",
+      "answerZh": "仔細留意里奧；他可能正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Watch Leo carefully; he may be up to something."
+    },
+    {
+      "id": "ss199-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the room suddenly becomes silent, the children are probably planning mischief.",
+      "promptZh": "如果房間突然安靜下來，孩子們很可能正在策劃惡作劇。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the room suddenly becomes silent, the children are probably up to something.",
+      "answerZh": "如果房間突然安靜下來，孩子們很可能正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "If the room suddenly becomes silent, the children are probably up to something."
+    },
+    {
+      "id": "ss199-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The teacher warned us that the boys might be planning a prank after school.",
+      "promptZh": "老師警告我們，那些男孩可能打算放學後進行惡作劇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher warned us that the boys might be up to something after school.",
+      "answerZh": "老師警告我們，那些男孩放學後可能會暗中進行某些活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher warned us that the boys might be up to something after school."
+    },
+    {
+      "id": "ss199-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At midnight, two people were moving files out of the office. Their behaviour suggested a secret plan.",
+      "promptZh": "午夜時，兩個人正在把文件搬離辦公室。他們的行為顯示背後可能有一個秘密計劃。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At midnight, the two people moving files out of the office seemed to be up to something.",
+      "answerZh": "午夜時，把文件搬離辦公室的兩個人似乎正在進行某項秘密活動。",
+      "answerZhSource": "pdf",
+      "highlight": "At midnight, the two people moving files out of the office seemed to be up to something."
+    },
+    {
+      "id": "ss199-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The children promised to behave, but their secret smiles suggested that they had a plan.",
+      "promptZh": "孩子們答應會守規矩，但他們神秘的笑容顯示他們有一個計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children’s secret smiles suggested that they were up to something.",
+      "answerZh": "孩子們神秘的笑容顯示他們正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The children’s secret smiles suggested that they were up to something."
+    },
+    {
+      "id": "ss199-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company suddenly removed several public records. Many customers suspected a hidden plan.",
+      "promptZh": "公司突然刪除了數項公開紀錄。很多顧客懷疑背後有一個隱藏計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many customers suspected that the company was up to something.",
+      "answerZh": "很多顧客懷疑公司正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Many customers suspected that the company was up to something."
+    },
+    {
+      "id": "ss199-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A patient kept changing her story about the missing medicine. The nurse thought that she was secretly planning something.",
+      "promptZh": "一名病人不斷改變她對失蹤藥物的說法。護士認為她正在暗中策劃甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse thought the patient was up to something.",
+      "answerZh": "護士認為那名病人正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse thought the patient was up to something."
+    },
+    {
+      "id": "ss199-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Several callers gave the same false address. The operator believed that they were working together on a secret scheme.",
+      "promptZh": "數名來電者提供了相同的虛假地址。接線員相信他們正在合作進行一個秘密計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The operator believed that the callers were up to something.",
+      "answerZh": "接線員相信那些來電者正在合作進行某項秘密活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The operator believed that the callers were up to something."
+    },
+    {
+      "id": "ss199-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "One account logged in from five countries within an hour. The security team thought that the person controlling it was acting secretly.",
+      "promptZh": "一個帳戶在一小時內從五個國家登入。保安團隊認為控制該帳戶的人正在暗中行動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The security team thought that whoever controlled the account was up to something.",
+      "answerZh": "保安團隊認為控制該帳戶的人正在暗中進行某些活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The security team thought that whoever controlled the account was up to something."
+    },
+    {
+      "id": "ss199-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As soon as the principal entered, the students hid the paint and stopped laughing. She immediately suspected a prank.",
+      "promptZh": "校長一進來，學生便把顏料藏起來並停止發笑。她立即懷疑他們正在策劃惡作劇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The principal immediately suspected that the students were up to something.",
+      "answerZh": "校長立即懷疑學生們正在搞鬼。",
+      "answerZhSource": "pdf",
+      "highlight": "The principal immediately suspected that the students were up to something."
+    },
+    {
+      "id": "ss199-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although Marcus answered every question calmly, his changing story made the detective suspect a hidden plan.",
+      "promptZh": "雖然馬庫斯冷靜地回答每一個問題，但他不斷改變的說法令偵探懷疑他有一個隱藏計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although Marcus answered every question calmly, the detective suspected that he was up to something.",
+      "answerZh": "雖然馬庫斯冷靜地回答每一個問題，但偵探仍懷疑他正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Although Marcus answered every question calmly, the detective suspected that he was up to something."
+    },
+    {
+      "id": "ss199-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A charity received several unusual donations from connected accounts. Its accountant suspected secret activity by the people behind them.",
+      "promptZh": "一間慈善機構收到數筆來自關聯帳戶的不尋常捐款。會計師懷疑帳戶背後的人正在進行秘密活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The accountant suspected that the people behind the connected accounts were up to something.",
+      "answerZh": "會計師懷疑那些關聯帳戶背後的人正在進行秘密活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The accountant suspected that the people behind the connected accounts were up to something."
+    },
+    {
+      "id": "ss199-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "No one knew why the rival team had booked the hall before dawn, but our coach believed that it had a secret plan.",
+      "promptZh": "沒有人知道對手球隊為甚麼在黎明前預訂禮堂，但我們的教練相信他們有一個秘密計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our coach believed that the rival team was up to something.",
+      "answerZh": "我們的教練相信對手球隊正在暗中策劃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Our coach believed that the rival team was up to something."
+    },
+    {
+      "id": "ss199-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "By the time we noticed the missing files, I had already suspected that someone had been acting secretly.",
+      "promptZh": "當我們發現文件失蹤時，我早已懷疑有人一直在暗中行動。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time we noticed the missing files, I had already suspected that someone had been up to something.",
+      "answerZh": "當我們發現文件失蹤時，我早已懷疑有人一直在暗中進行某些活動。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time we noticed the missing files, I had already suspected that someone had been up to something."
+    },
+    {
+      "id": "ss199-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The system sent harmless messages while quietly copying data. This convinced the engineers that it had a hidden purpose.",
+      "promptZh": "系統一面發送看似無害的訊息，一面暗中複製資料。這令工程師相信它有一個隱藏目的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineers became convinced that the system was up to something because it sent harmless messages while quietly copying data.",
+      "answerZh": "系統一面發送看似無害的訊息，一面暗中複製資料，因此工程師確信它正在進行某項隱藏活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineers became convinced that the system was up to something because it sent harmless messages while quietly copying data."
+    }
+  ]
+}

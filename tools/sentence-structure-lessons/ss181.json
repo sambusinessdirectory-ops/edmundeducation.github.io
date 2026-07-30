@@ -1,0 +1,1226 @@
+{
+  "id": "ss181",
+  "order": 181,
+  "slug": "on-the-grounds-that",
+  "title": "On the grounds that",
+  "titleZh": "「On the grounds that …」表達正式理由",
+  "titleEn": "Using On the grounds that to give a formal reason",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 181 - 「On the grounds that …」表達正式理由.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + decision / action + on the grounds that + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss181-formula-01",
+      "labelEn": "Sentence middle",
+      "labelZh": "句中使用",
+      "formula": "Subject + decision / action + on the grounds that + subject + verb + other information"
+    },
+    {
+      "id": "ss181-formula-02",
+      "labelEn": "Sentence beginning",
+      "labelZh": "句首使用",
+      "formula": "On the grounds that + subject + verb, + main clause"
+    }
+  ],
+  "example": "The proposal was rejected on the grounds that it lacked evidence.",
+  "exampleZh": "這個建議被否決，理由是它缺乏證據。",
+  "examples": [
+    {
+      "id": "ss181-example-01",
+      "en": "The proposal was rejected on the grounds that it lacked evidence.",
+      "zh": "這個建議被否決，理由是它缺乏證據。",
+      "highlight": "The proposal was rejected on the grounds that it lacked evidence."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss181-rule-01",
+      "zh": "That 後面必須接完整子句 That 後面需要有主語和動詞。 「incomplete information」只是名詞詞組，並不是完整子句。",
+      "en": "That must be followed by a complete clause with a subject and verb. Write The application was rejected on the grounds that the information was incomplete; incomplete information alone is only a noun phrase, not a complete clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The application was rejected on the grounds that the information was incomplete.",
+        "The application was rejected on the grounds that incomplete information."
+      ]
+    },
+    {
+      "id": "ss181-rule-02",
+      "zh": "Grounds 在本句型中使用複數 本課固定練習： 不要寫成： 雖然單數形式在部分語境中亦可成立，但不屬於本課的目標形式。",
+      "en": "Grounds is plural in the target structure. This lesson consistently practises on the grounds that, not on the ground that. Although the singular is possible in some contexts, it is outside this lesson's target form.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss181-rule-03",
+      "zh": "Grounds 在這裏解作「理由」或「依據」 它不是指地面或土地。 （學校拒絕該要求，理由是它違反規則。）",
+      "en": "Grounds here means “reasons” or “basis”, not the ground or land. For example: The school rejected the request on the grounds that it broke the rules.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The school rejected the request on the grounds that it broke the rules."
+      ]
+    },
+    {
+      "id": "ss181-rule-04",
+      "zh": "這是一個較正式的句型 它常用於： 正式決定； 投訴和申訴； 學校或公司政策； 報告和議論文； 法律或行政決定； 解釋接受、拒絕、取消或反對某事的理由。 日常小事通常直接使用 because 較自然。",
+      "en": "This is a relatively formal structure. It is common in formal decisions; complaints and appeals; school or company policies; reports and argumentative essays; legal or administrative decisions; and explanations of why something was accepted, rejected, cancelled or opposed. For minor everyday matters, because normally sounds more natural.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I went home because I was tired.",
+        "The request was refused on the grounds that it did not meet the requirements."
+      ]
+    },
+    {
+      "id": "ss181-rule-05",
+      "zh": "放在句首時，子句後面要加逗號",
+      "en": "When the on the grounds that clause comes first, place a comma after it.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss181-rule-06",
+      "zh": "不要與 on the grounds of 混淆 on the grounds that + 完整子句 on the grounds of + 名詞詞組 本練習只要求使用 on the grounds that。",
+      "en": "Do not confuse on the grounds that with on the grounds of. On the grounds that is followed by a complete clause; on the grounds of is followed by a noun phrase. This exercise requires only on the grounds that.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The claim was rejected on the grounds that the information was false.",
+        "The claim was rejected on the grounds of false information."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss181-benefit-01",
+      "zh": "清楚說明正式決定背後的理由 這個句型能讓讀者立即知道某項申請、決定、投訴或行動為甚麼獲得接受、拒絕或改變。",
+      "en": "It clearly states the reason behind a formal decision, allowing the reader to see immediately why an application, decision, complaint or action was accepted, rejected or changed.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss181-benefit-02",
+      "zh": "表明該理由是決定的正式依據 Because 只說明事情發生的原因；on the grounds that 則常表示某項理由被用來支持或證明一個 決定是合理的。 （提案因為缺乏證據而被否決。） （提案被否決，所依據的理由是它缺乏證據。） 第二句更清楚地把「缺乏證據」表達成否決提案的正式依據。",
+      "en": "It shows that the reason is being used as the formal basis or justification for a decision. Because merely states why something happened; on the grounds that often presents a reason used to support or justify the decision. The proposal was rejected on the grounds that it lacked evidence more clearly treats the lack of evidence as the official basis for rejection than The proposal was rejected because it lacked evidence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The proposal was rejected because it lacked evidence.",
+        "The proposal was rejected on the grounds that it lacked evidence."
+      ]
+    },
+    {
+      "id": "ss181-benefit-03",
+      "zh": "把決定和支持該決定的理由連接起來 你不需要分開寫： 你可以寫成： 句子會更完整，兩項資料之間的關係亦更清楚。",
+      "en": "It connects a decision and its supporting reason in one sentence The committee rejected the plan. Its reason was that the plan was too expensive. The committee rejected the plan on the grounds that it was too expensive.",
+      "enSource": "pdf",
+      "examples": [
+        "The committee rejected the plan. Its reason was that the plan was too expensive.",
+        "The committee rejected the plan on the grounds that it was too expensive."
+      ]
+    },
+    {
+      "id": "ss181-benefit-04",
+      "zh": "適合用於報告、作文、投訴和申訴 當你需要解釋一項正式立場或決定時，這個句型能使語氣更適合相關場合。",
+      "en": "It is useful in reports, essays, complaints and appeals. When explaining a formal position or decision, the structure gives the statement a tone suited to the context.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss181-benefit-05",
+      "zh": "避免反覆使用 because 在正式寫作中，你可以使用 on the grounds that 表達理由，使句式更多變。不過，它不應取代所 有 because 句，只應用於較正式或帶有「理據」意思的情況。",
+      "en": "It gives you an alternative to because in formal writing and adds sentence variety. It should not replace every because-clause; use it only in more formal contexts or when the reason functions as a stated justification.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using On the grounds that.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 On the grounds that 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss181-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The request was refused because it was incomplete.",
+      "promptZh": "這項申請被拒絕，因為資料不完整。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The request was refused on the grounds that it was incomplete.",
+      "answerZh": "這項申請被拒絕，理由是資料不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "The request was refused on the grounds that it was incomplete."
+    },
+    {
+      "id": "ss181-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Our school cancelled the picnic because the weather made travelling unsafe.",
+      "promptZh": "本校取消了野餐，因為當時的天氣令出行不安全。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school cancelled the picnic on the grounds that the weather made travelling unsafe.",
+      "answerZh": "本校取消了野餐，理由是當時的天氣令出行不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school cancelled the picnic on the grounds that the weather made travelling unsafe."
+    },
+    {
+      "id": "ss181-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Daniel's application was rejected. The reason was that he had not signed the form.",
+      "promptZh": "丹尼爾的申請被拒絕。理由是他沒有在表格上簽署。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel's",
+      "answer": "Daniel's application was rejected on the grounds that he had not signed the form.",
+      "answerZh": "丹尼爾的申請被拒絕，理由是他沒有在表格上簽署。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel's application was rejected on the grounds that he had not signed the form."
+    },
+    {
+      "id": "ss181-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The student was excused from the lesson because she was ill.",
+      "promptZh": "該學生獲准缺席該課堂，因為她生病了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The student was excused from the lesson on the grounds that she was ill.",
+      "answerZh": "該學生獲准缺席該課堂，理由是她生病了。",
+      "answerZhSource": "pdf",
+      "highlight": "The student was excused from the lesson on the grounds that she was ill."
+    },
+    {
+      "id": "ss181-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "A refund was approved since the item was damaged when it arrived.",
+      "promptZh": "退款獲得批准，因為貨品送達時已經損壞。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A refund was approved on the grounds that the item was damaged when it arrived.",
+      "answerZh": "退款獲得批准，理由是貨品送達時已經損壞。",
+      "answerZhSource": "pdf",
+      "highlight": "A refund was approved on the grounds that the item was damaged when it arrived."
+    },
+    {
+      "id": "ss181-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The meeting was postponed. The reason given was that several members were absent.",
+      "promptZh": "會議被押後。提出的理由是數名成員缺席。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting was postponed on the grounds that several members were absent.",
+      "answerZh": "會議被押後，理由是數名成員缺席。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting was postponed on the grounds that several members were absent."
+    },
+    {
+      "id": "ss181-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why did library staff refuse the request? The book was too rare to lend.",
+      "promptZh": "圖書館職員為甚麼拒絕該要求？該書過於珍貴，不宜外借。",
+      "promptZhSource": "pdf",
+      "starter": "Library",
+      "answer": "Library staff refused the request on the grounds that the book was too rare to lend.",
+      "answerZh": "圖書館職員拒絕該要求，理由是該書過於珍貴，不宜外借。",
+      "answerZhSource": "pdf",
+      "highlight": "Library staff refused the request on the grounds that the book was too rare to lend."
+    },
+    {
+      "id": "ss181-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The coach cancelled practice as the field was flooded.",
+      "promptZh": "教練取消了練習，因為球場水浸。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach cancelled practice on the grounds that the field was flooded.",
+      "answerZh": "教練取消了練習，理由是球場水浸。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach cancelled practice on the grounds that the field was flooded."
+    },
+    {
+      "id": "ss181-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "City officials closed the building because it was unsafe.",
+      "promptZh": "市政府官員關閉了該大樓，因為大樓並不安全。",
+      "promptZhSource": "pdf",
+      "starter": "City",
+      "answer": "City officials closed the building on the grounds that it was unsafe.",
+      "answerZh": "市政府官員關閉了該大樓，理由是大樓並不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "City officials closed the building on the grounds that it was unsafe."
+    },
+    {
+      "id": "ss181-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Her complaint was accepted because the photographs supported her account.",
+      "promptZh": "她的投訴獲得接納，因為照片支持她的說法。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her complaint was accepted on the grounds that the photographs supported her account.",
+      "answerZh": "她的投訴獲得接納，理由是照片支持她的說法。",
+      "answerZhSource": "pdf",
+      "highlight": "Her complaint was accepted on the grounds that the photographs supported her account."
+    },
+    {
+      "id": "ss181-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The landlord refused to renew the lease because the rent had not been paid for three months.",
+      "promptZh": "房東拒絕續租，因為租金已連續三個月未有繳交。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The landlord refused to renew the lease on the grounds that the rent had not been paid for three months.",
+      "answerZh": "房東拒絕續租，理由是租金已連續三個月未有繳交。",
+      "answerZhSource": "pdf",
+      "highlight": "The landlord refused to renew the lease on the grounds that the rent had not been paid for three months."
+    },
+    {
+      "id": "ss181-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Given that the safety check had failed, we stopped using the lift.",
+      "promptZh": "鑑於安全檢查不合格，我們停止使用升降機。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We stopped using the lift on the grounds that the safety check had failed.",
+      "answerZh": "我們停止使用升降機，理由是安全檢查不合格。",
+      "answerZhSource": "pdf",
+      "highlight": "We stopped using the lift on the grounds that the safety check had failed."
+    },
+    {
+      "id": "ss181-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The report was withdrawn. The stated reason was that two figures were inaccurate.",
+      "promptZh": "報告被撤回。所述理由是其中兩個數字不準確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report was withdrawn on the grounds that two figures were inaccurate.",
+      "answerZh": "報告被撤回，理由是其中兩個數字不準確。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was withdrawn on the grounds that two figures were inaccurate."
+    },
+    {
+      "id": "ss181-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Since the medicine had caused a serious reaction, the doctor stopped the treatment.",
+      "promptZh": "由於該藥物曾引起嚴重反應，醫生停止了治療。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the grounds that the medicine had caused a serious reaction, the doctor stopped the treatment.",
+      "answerZh": "基於該藥物曾引起嚴重反應，醫生停止了治療。",
+      "answerZhSource": "pdf",
+      "highlight": "On the grounds that the medicine had caused a serious reaction, the doctor stopped the treatment."
+    },
+    {
+      "id": "ss181-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Museum staff refused to admit the visitor because he would not leave his large bag at reception.",
+      "promptZh": "博物館職員拒絕讓該訪客入場，因為他不肯把大型袋子留在接待處。",
+      "promptZhSource": "pdf",
+      "starter": "Museum",
+      "answer": "Museum staff refused to admit the visitor on the grounds that he would not leave his large bag at reception.",
+      "answerZh": "博物館職員拒絕讓該訪客入場，理由是他不肯把大型袋子留在接待處。",
+      "answerZhSource": "pdf",
+      "highlight": "Museum staff refused to admit the visitor on the grounds that he would not leave his large bag at reception."
+    },
+    {
+      "id": "ss181-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Their proposal was rejected, with the committee citing the fact that it was too expensive.",
+      "promptZh": "他們的提案被否決，委員會指出原因是成本太高。",
+      "promptZhSource": "pdf",
+      "starter": "Their",
+      "answer": "Their proposal was rejected on the grounds that it was too expensive.",
+      "answerZh": "他們的提案被否決，理由是成本太高。",
+      "answerZhSource": "pdf",
+      "highlight": "Their proposal was rejected on the grounds that it was too expensive."
+    },
+    {
+      "id": "ss181-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The doctor refused to issue the certificate because the examination had not been completed.",
+      "promptZh": "醫生拒絕發出證明書，因為檢查尚未完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor refused to issue the certificate on the grounds that the examination had not been completed.",
+      "answerZh": "醫生拒絕發出證明書，理由是檢查尚未完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor refused to issue the certificate on the grounds that the examination had not been completed."
+    },
+    {
+      "id": "ss181-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bank froze the account because several payments appeared suspicious.",
+      "promptZh": "銀行凍結了戶口，因為數筆付款看來可疑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bank froze the account on the grounds that several payments appeared suspicious.",
+      "answerZh": "銀行凍結了戶口，理由是數筆付款看來可疑。",
+      "answerZhSource": "pdf",
+      "highlight": "The bank froze the account on the grounds that several payments appeared suspicious."
+    },
+    {
+      "id": "ss181-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Given that the documents were missing, the organiser delayed the decision.",
+      "promptZh": "鑑於文件遺失，主辦人押後了決定。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the grounds that the documents were missing, the organiser delayed the decision.",
+      "answerZh": "基於文件遺失，主辦人押後了決定。",
+      "answerZhSource": "pdf",
+      "highlight": "On the grounds that the documents were missing, the organiser delayed the decision."
+    },
+    {
+      "id": "ss181-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The organiser cancelled the booking. The official explanation was that the hall was no longer available.",
+      "promptZh": "主辦人取消了預訂。官方解釋是禮堂已不再可供使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organiser cancelled the booking on the grounds that the hall was no longer available.",
+      "answerZh": "主辦人取消了預訂，理由是禮堂已不再可供使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser cancelled the booking on the grounds that the hall was no longer available."
+    },
+    {
+      "id": "ss181-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The employee was dismissed because the records showed that he had repeatedly ignored safety rules.",
+      "promptZh": "該員工被解僱，因為記錄顯示他多次忽視安全規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The employee was dismissed on the grounds that the records showed that he had repeatedly ignored safety rules.",
+      "answerZh": "該員工被解僱，理由是記錄顯示他多次忽視安全規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The employee was dismissed on the grounds that the records showed that he had repeatedly ignored safety rules."
+    },
+    {
+      "id": "ss181-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The flight was delayed since thick fog had reduced visibility.",
+      "promptZh": "航班延誤，因為濃霧令能見度下降。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The flight was delayed on the grounds that thick fog had reduced visibility.",
+      "answerZh": "航班延誤，理由是濃霧令能見度下降。",
+      "answerZhSource": "pdf",
+      "highlight": "The flight was delayed on the grounds that thick fog had reduced visibility."
+    },
+    {
+      "id": "ss181-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why did a local resident oppose the new road? She believed it would increase noise near the school.",
+      "promptZh": "一名居民為甚麼反對興建新道路？她認為新道路會增加學校附近的噪音。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A local resident opposed the new road on the grounds that she believed it would increase noise near the school.",
+      "answerZh": "一名居民反對興建新道路，理由是她認為新道路會增加學校附近的噪音。",
+      "answerZhSource": "pdf",
+      "highlight": "A local resident opposed the new road on the grounds that she believed it would increase noise near the school."
+    },
+    {
+      "id": "ss181-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The committee defended its decision by saying that the figures had been checked independently.",
+      "promptZh": "委員會表示有關數字已經過獨立核實，以此為其決定辯護。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee defended its decision on the grounds that the figures had been checked independently.",
+      "answerZh": "委員會為其決定辯護，理由是有關數字已經過獨立核實。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee defended its decision on the grounds that the figures had been checked independently."
+    },
+    {
+      "id": "ss181-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In view of the fact that the fire exits were blocked, the inspector ordered the restaurant to close.",
+      "promptZh": "鑑於走火通道受阻，督察下令餐廳停業。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the grounds that the fire exits were blocked, the inspector ordered the restaurant to close.",
+      "answerZh": "基於走火通道受阻，督察下令餐廳停業。",
+      "answerZhSource": "pdf",
+      "highlight": "On the grounds that the fire exits were blocked, the inspector ordered the restaurant to close."
+    },
+    {
+      "id": "ss181-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company withdrew the product because tests had found a fault in the battery.",
+      "promptZh": "公司撤回了產品，因為測試發現電池有故障。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company withdrew the product on the grounds that tests had found a fault in the battery.",
+      "answerZh": "公司撤回了產品，理由是測試發現電池有故障。",
+      "answerZhSource": "pdf",
+      "highlight": "The company withdrew the product on the grounds that tests had found a fault in the battery."
+    },
+    {
+      "id": "ss181-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The judge excluded the statement because it had been obtained without legal advice.",
+      "promptZh": "法官不接納該份供詞，因為取得供詞時當事人沒有獲得法律意見。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The judge excluded the statement on the grounds that it had been obtained without legal advice.",
+      "answerZh": "法官不接納該份供詞，理由是取得供詞時當事人沒有獲得法律意見。",
+      "answerZhSource": "pdf",
+      "highlight": "The judge excluded the statement on the grounds that it had been obtained without legal advice."
+    },
+    {
+      "id": "ss181-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Website staff removed the advertisement. Their reason was that its claims could not be verified.",
+      "promptZh": "網站職員刪除了廣告。他們的理由是廣告中的說法無法核實。",
+      "promptZhSource": "pdf",
+      "starter": "Website",
+      "answer": "Website staff removed the advertisement on the grounds that its claims could not be verified.",
+      "answerZh": "網站職員刪除了廣告，理由是廣告中的說法無法核實。",
+      "answerZhSource": "pdf",
+      "highlight": "Website staff removed the advertisement on the grounds that its claims could not be verified."
+    },
+    {
+      "id": "ss181-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council opposed the development because too many trees would have to be cut down.",
+      "promptZh": "市議會反對該發展項目，因為項目需要砍伐太多樹木。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council opposed the development on the grounds that too many trees would have to be cut down.",
+      "answerZh": "市議會反對該發展項目，理由是項目需要砍伐太多樹木。",
+      "answerZhSource": "pdf",
+      "highlight": "The council opposed the development on the grounds that too many trees would have to be cut down."
+    },
+    {
+      "id": "ss181-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Because the witness could not identify the driver clearly, the police did not charge him.",
+      "promptZh": "因為證人無法清楚辨認司機，警方沒有檢控他。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the grounds that the witness could not identify the driver clearly, the police did not charge him.",
+      "answerZh": "基於證人無法清楚辨認司機，警方沒有檢控他。",
+      "answerZhSource": "pdf",
+      "highlight": "On the grounds that the witness could not identify the driver clearly, the police did not charge him."
+    },
+    {
+      "id": "ss181-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The teacher did not lower the mark because the error was minor and did not affect the answer.",
+      "promptZh": "老師沒有扣分，因為該錯誤很輕微，而且不影響答案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher did not lower the mark on the grounds that the error was minor and did not affect the answer.",
+      "answerZh": "老師沒有扣分，理由是該錯誤很輕微，而且不影響答案。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher did not lower the mark on the grounds that the error was minor and did not affect the answer."
+    },
+    {
+      "id": "ss181-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hospital refused the visitor's request because the patient had asked for privacy.",
+      "promptZh": "醫院拒絕了訪客的要求，因為病人曾要求保留私隱。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital refused the visitor's request on the grounds that the patient had asked for privacy.",
+      "answerZh": "醫院拒絕了訪客的要求，理由是病人曾要求保留私隱。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital refused the visitor's request on the grounds that the patient had asked for privacy."
+    },
+    {
+      "id": "ss181-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Given that the new rule had not been announced clearly, the school delayed its introduction.",
+      "promptZh": "鑑於新規則沒有被清楚公布，學校押後了推行時間。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the grounds that the new rule had not been announced clearly, the school delayed its introduction.",
+      "answerZh": "基於新規則沒有被清楚公布，學校押後了推行時間。",
+      "answerZhSource": "pdf",
+      "highlight": "On the grounds that the new rule had not been announced clearly, the school delayed its introduction."
+    },
+    {
+      "id": "ss181-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The insurer declined the claim because the policy did not cover damage caused by flooding.",
+      "promptZh": "保險公司拒絕了索償，因為保單不承保水浸造成的損壞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The insurer declined the claim on the grounds that the policy did not cover damage caused by flooding.",
+      "answerZh": "保險公司拒絕了索償，理由是保單不承保水浸造成的損壞。",
+      "answerZhSource": "pdf",
+      "highlight": "The insurer declined the claim on the grounds that the policy did not cover damage caused by flooding."
+    },
+    {
+      "id": "ss181-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The journal rejected the research paper. The editors said that the sample was too small.",
+      "promptZh": "期刊拒絕了該研究論文。編輯表示樣本太小。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The journal rejected the research paper on the grounds that the sample was too small.",
+      "answerZh": "期刊拒絕了該研究論文，理由是樣本太小。",
+      "answerZhSource": "pdf",
+      "highlight": "The journal rejected the research paper on the grounds that the sample was too small."
+    },
+    {
+      "id": "ss181-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The candidate was not disqualified because the delay was beyond her control.",
+      "promptZh": "該候選人沒有被取消資格，因為延誤並非她所能控制。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The candidate was not disqualified on the grounds that the delay was beyond her control.",
+      "answerZh": "該候選人沒有被取消資格，理由是延誤並非她所能控制。",
+      "answerZhSource": "pdf",
+      "highlight": "The candidate was not disqualified on the grounds that the delay was beyond her control."
+    },
+    {
+      "id": "ss181-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Since the building had not passed its final inspection, the council would not allow people to move in.",
+      "promptZh": "由於大樓尚未通過最終檢查，市議會不會准許人們入住。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the grounds that the building had not passed its final inspection, the council would not allow people to move in.",
+      "answerZh": "基於大樓尚未通過最終檢查，市議會不會准許人們入住。",
+      "answerZhSource": "pdf",
+      "highlight": "On the grounds that the building had not passed its final inspection, the council would not allow people to move in."
+    },
+    {
+      "id": "ss181-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The university refused to change the grade because the student had provided no new evidence.",
+      "promptZh": "大學拒絕更改成績，因為該學生沒有提供新證據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university refused to change the grade on the grounds that the student had provided no new evidence.",
+      "answerZh": "大學拒絕更改成績，理由是該學生沒有提供新證據。",
+      "answerZhSource": "pdf",
+      "highlight": "The university refused to change the grade on the grounds that the student had provided no new evidence."
+    },
+    {
+      "id": "ss181-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager defended the new schedule by arguing that it would reduce overtime.",
+      "promptZh": "經理辯稱新時間表可以減少超時工作，以此為安排辯護。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager defended the new schedule on the grounds that it would reduce overtime.",
+      "answerZh": "經理為新時間表辯護，理由是它可以減少超時工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager defended the new schedule on the grounds that it would reduce overtime."
+    },
+    {
+      "id": "ss181-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A customer demanded a refund. She said that the safety instructions had not been provided.",
+      "promptZh": "一名顧客要求退款。她表示公司沒有提供安全指示。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A customer demanded a refund on the grounds that the safety instructions had not been provided.",
+      "answerZh": "一名顧客要求退款，理由是公司沒有提供安全指示。",
+      "answerZhSource": "pdf",
+      "highlight": "A customer demanded a refund on the grounds that the safety instructions had not been provided."
+    },
+    {
+      "id": "ss181-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In view of the fact that the supplier had missed three delivery dates, we recommended ending the contract.",
+      "promptZh": "鑑於供應商曾三次錯過送貨日期，我們建議終止合約。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the grounds that the supplier had missed three delivery dates, we recommended ending the contract.",
+      "answerZh": "基於供應商曾三次錯過送貨日期，我們建議終止合約。",
+      "answerZhSource": "pdf",
+      "highlight": "On the grounds that the supplier had missed three delivery dates, we recommended ending the contract."
+    },
+    {
+      "id": "ss181-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The public event was cancelled because emergency services could not guarantee safe access to the site.",
+      "promptZh": "公開活動被取消，因為緊急服務部門無法保證人們可以安全進入場地。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public event was cancelled on the grounds that emergency services could not guarantee safe access to the site.",
+      "answerZh": "公開活動被取消，理由是緊急服務部門無法保證人們可以安全進入場地。",
+      "answerZhSource": "pdf",
+      "highlight": "The public event was cancelled on the grounds that emergency services could not guarantee safe access to the site."
+    },
+    {
+      "id": "ss181-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The regulator fined the company because it had failed to protect customers' personal data.",
+      "promptZh": "監管機構罰款該公司，因為公司未能保障顧客的個人資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The regulator fined the company on the grounds that it had failed to protect customers' personal data.",
+      "answerZh": "監管機構罰款該公司，理由是公司未能保障顧客的個人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The regulator fined the company on the grounds that it had failed to protect customers' personal data."
+    },
+    {
+      "id": "ss181-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because the records did not support the allegation, the panel cleared the employee.",
+      "promptZh": "因為記錄並不支持有關指控，小組裁定該員工沒有違規。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the grounds that the records did not support the allegation, the panel cleared the employee.",
+      "answerZh": "基於記錄並不支持有關指控，小組裁定該員工沒有違規。",
+      "answerZhSource": "pdf",
+      "highlight": "On the grounds that the records did not support the allegation, the panel cleared the employee."
+    },
+    {
+      "id": "ss181-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The board voted against the merger. Members argued that the expected savings were unrealistic.",
+      "promptZh": "董事會投票反對合併。成員認為預期節省的成本並不切實際。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The board voted against the merger on the grounds that the expected savings were unrealistic.",
+      "answerZh": "董事會投票反對合併，理由是預期節省的成本並不切實際。",
+      "answerZhSource": "pdf",
+      "highlight": "The board voted against the merger on the grounds that the expected savings were unrealistic."
+    },
+    {
+      "id": "ss181-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The appeal was denied because the applicant had not supplied the documents required by the deadline.",
+      "promptZh": "上訴被駁回，因為申請人未有在限期前提交所需文件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The appeal was denied on the grounds that the applicant had not supplied the documents required by the deadline.",
+      "answerZh": "上訴被駁回，理由是申請人未有在限期前提交所需文件。",
+      "answerZhSource": "pdf",
+      "highlight": "The appeal was denied on the grounds that the applicant had not supplied the documents required by the deadline."
+    },
+    {
+      "id": "ss181-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The charity ended its partnership because an independent review had identified serious weaknesses in financial control.",
+      "promptZh": "該慈善機構終止了合作關係，因為一項獨立審查發現財務監控存在嚴重弱點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity ended its partnership on the grounds that an independent review had identified serious weaknesses in financial control.",
+      "answerZh": "該慈善機構終止了合作關係，理由是一項獨立審查發現財務監控存在嚴重弱點。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity ended its partnership on the grounds that an independent review had identified serious weaknesses in financial control."
+    },
+    {
+      "id": "ss181-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Given that the proposed route would pass through a protected wetland, the planning department rejected it.",
+      "promptZh": "鑑於建議路線會穿過受保護的濕地，規劃部門否決了該方案。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the grounds that the proposed route would pass through a protected wetland, the planning department rejected it.",
+      "answerZh": "基於建議路線會穿過受保護的濕地，規劃部門否決了該方案。",
+      "answerZhSource": "pdf",
+      "highlight": "On the grounds that the proposed route would pass through a protected wetland, the planning department rejected it."
+    },
+    {
+      "id": "ss181-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The editor removed the article because several quotations could not be traced to reliable sources.",
+      "promptZh": "編輯刪除了該文章，因為數段引文無法追溯至可靠來源。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The editor removed the article on the grounds that several quotations could not be traced to reliable sources.",
+      "answerZh": "編輯刪除了該文章，理由是數段引文無法追溯至可靠來源。",
+      "answerZhSource": "pdf",
+      "highlight": "The editor removed the article on the grounds that several quotations could not be traced to reliable sources."
+    },
+    {
+      "id": "ss181-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The court dismissed the case because the evidence was too weak to support the charge.",
+      "promptZh": "法庭駁回了案件，因為證據太薄弱，無法支持控罪。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The court dismissed the case on the grounds that the evidence was too weak to support the charge.",
+      "answerZh": "法庭駁回了案件，理由是證據太薄弱，無法支持控罪。",
+      "answerZhSource": "pdf",
+      "highlight": "The court dismissed the case on the grounds that the evidence was too weak to support the charge."
+    }
+  ]
+}

@@ -1,0 +1,1237 @@
+{
+  "id": "ss208",
+  "order": 208,
+  "slug": "it-seems-to-me-that",
+  "title": "「It seems to me that ...」表達個人印象或較委婉的看法",
+  "titleZh": "「It seems to me that ...」表達個人印象或較委婉的看法",
+  "titleEn": "Using “It seems to me that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 207 -「It seems to me that ...」表達個人印象或較委婉的看法.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 207; it is assigned system ID ss208 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It seems to me that + complete clause",
+  "formulas": [
+    {
+      "id": "ss208-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "It seems to me that + complete clause"
+    }
+  ],
+  "example": "It seems to me that the debate is focusing on the wrong issue.",
+  "exampleZh": "在我看來，這場辯論似乎把焦點放錯了。",
+  "examples": [
+    {
+      "id": "ss208-example-01",
+      "en": "It seems to me that the debate is focusing on the wrong issue.",
+      "zh": "在我看來，這場辯論似乎把焦點放錯了。",
+      "highlight": "It seems to me that the debate is focusing on the wrong issue."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：It seems to me that + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss208-rule-01",
+      "zh": "It 是形式主語 句首的 It 並不代表某件具體事物。真正的內容放在 that 後面的子句中。",
+      "en": "It is a dummy subject and does not refer to a specific thing. The real content appears in the that-clause: It seems to me that the room is too small.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It seems to me that the room is too small."
+      ]
+    },
+    {
+      "id": "ss208-rule-02",
+      "zh": "that 後面使用正常陳述句語序 正確： 錯誤：",
+      "en": "Use normal statement word order after that: It seems to me that + subject + verb. Correct: It seems to me that she needs more time. Incorrect: It seems to me that does she need more time.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It seems to me that + subject + verb",
+        "It seems to me that she needs more time.",
+        "It seems to me that does she need more time."
+      ]
+    },
+    {
+      "id": "ss208-rule-03",
+      "zh": "to me 表示「這是我的個人看法」 比較： 似乎這個計劃並不切實際。 在我看來，這個計劃似乎並不切實際。 第二句清楚表示這是說話者本人的判斷。",
+      "en": "To me marks the judgement as the speaker’s personal view. Compare: It seems that the plan is unrealistic. It seems to me that the plan is unrealistic. The second sentence explicitly frames the conclusion as the speaker’s own assessment.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It seems that the plan is unrealistic.",
+        "It seems to me that the plan is unrealistic."
+      ]
+    },
+    {
+      "id": "ss208-rule-04",
+      "zh": "這個句型通常帶有不確定或審慎語氣 它適合表達： ● 個人印象； ● 根據有限資料作出的判斷； ● 尚未完全確定的結論； ● 較委婉的批評或不同意見。 如事情是毫無疑問的客觀事實，一般不需要使用這個句型。",
+      "en": "The frame signals uncertainty or caution and suits personal impressions, judgements based on limited evidence, tentative conclusions, and tactful criticism or disagreement. It is generally unnecessary for an objective fact that is beyond doubt.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss208-rule-05",
+      "zh": "否定詞和情態動詞通常放在 that 子句內 本練習不使用：",
+      "en": "Put ordinary negation and modal meaning inside the that-clause: It seems to me that the plan is not ready. It seems to me that the figures may be incomplete. This exercise does not use the alternative “It does not seem to me that ....”",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It seems to me that the plan is not ready.",
+        "It seems to me that the figures may be incomplete.",
+        "It does not seem to me that ..."
+      ]
+    },
+    {
+      "id": "ss208-rule-06",
+      "zh": "句型前面可以加入證據、時間或對比資料 在這種情況下，it 放在逗號後，因此使用小寫。",
+      "en": "Evidence, time information or a contrast can precede the structure: Based on the evidence, it seems to me that the policy has failed. Although the figures look encouraging, it seems to me that serious risks remain. After a comma in these positions, write it with a lowercase i.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Based on the evidence, it seems to me that the policy has failed.",
+        "Although the figures look encouraging, it seems to me that serious risks remain."
+      ]
+    },
+    {
+      "id": "ss208-rule-07",
+      "zh": "本練習必須保留 that 口語中有時可以省略 that，但為了讓學生完整掌握句型，本練習的所有答案均須使用：",
+      "en": "Keep that in every answer in this exercise. Although speakers sometimes omit it in conversation, use the complete frame: it seems to me that.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "it seems to me that"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss208-benefit-01",
+      "zh": "這個句型能清楚表示你正在提出個人判斷，而不是把看法當成毫無疑問的事實。",
+      "en": "It clearly marks an idea as your personal impression The listener understands that you are giving your own judgement rather than presenting the statement as an unquestionable fact.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss208-benefit-02",
+      "zh": "你不必直接說別人錯了，而可以用較冷靜和尊重的方式提出疑慮。 （你的建議忽略了主要問題。） （在我看來，你的建議似乎忽略了主要問題。） 第二句的批評仍然清楚，但語氣沒有第一句那麼直接。",
+      "en": "It makes criticism or disagreement less blunt Instead of directly saying that another person is wrong, you can present your concern in a calmer and more respectful way. Compare: Your proposal ignores the main problem. It seems to me that your proposal ignores the main problem.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss208-benefit-03",
+      "zh": "當你掌握了一些資料，但仍不能完全確定時，這個句型可以避免把判斷說得過於肯定。",
+      "en": "It shows an appropriate level of uncertainty When you have some evidence but cannot be completely certain, this structure helps you avoid making an excessively strong claim.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss208-benefit-04",
+      "zh": "你可以先交代自己看到、聽到或分析過的資料，再提出結論，令推理過程更容易理解。",
+      "en": "It helps connect evidence with a conclusion You can first mention what you have observed and then introduce your judgement. After reading both reports, it seems to me that the second one is more reliable.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss208-benefit-05",
+      "zh": "反覆使用 I think 會令說話和寫作顯得單調。這個句型提供另一種自然的方式來帶出看法。",
+      "en": "It gives you an alternative to repeatedly using I think Using the same opening again and again can make speaking and writing repetitive. This structure gives you another natural way to introduce an opinion.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss208-benefit-06",
+      "zh": "在討論、會議、文章和簡報中，當你需要審慎地下判斷、表達保留或禮貌地提出不同意見時，這個 句型尤其實用。",
+      "en": "It is useful in discussions, meetings, essays and presentations The structure is particularly useful when you need to make a careful judgement, express reservations or disagree politely.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 207; it is assigned system ID ss208 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: It seems to me that + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「It seems to me that + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss208-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I think the room is too cold.",
+      "promptZh": "我認為這個房間太冷了。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the room is too cold.",
+      "answerZh": "在我看來，這個房間似乎太冷了。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the room is too cold."
+    },
+    {
+      "id": "ss208-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "In my opinion, the bus service is getting better.",
+      "promptZh": "依我看，巴士服務正在改善。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the bus service is getting better.",
+      "answerZh": "在我看來，巴士服務似乎正在改善。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the bus service is getting better."
+    },
+    {
+      "id": "ss208-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I feel that Mia needs more time.",
+      "promptZh": "我覺得米婭需要更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that Mia needs more time.",
+      "answerZh": "在我看來，米婭似乎需要更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that Mia needs more time."
+    },
+    {
+      "id": "ss208-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "My impression is that the shop closes too early.",
+      "promptZh": "我的印象是，這間商店太早關門。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the shop closes too early.",
+      "answerZh": "在我看來，這間商店似乎太早關門。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the shop closes too early."
+    },
+    {
+      "id": "ss208-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I think this exercise is useful.",
+      "promptZh": "我認為這項練習很有用。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that this exercise is useful.",
+      "answerZh": "在我看來，這項練習似乎很有用。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that this exercise is useful."
+    },
+    {
+      "id": "ss208-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The plant looks to me as if it needs more water.",
+      "promptZh": "在我看來，這株植物好像需要更多水。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the plant needs more water.",
+      "answerZh": "在我看來，這株植物似乎需要更多水。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the plant needs more water."
+    },
+    {
+      "id": "ss208-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Tom gives me the impression that he is worried.",
+      "promptZh": "湯姆給我的印象是他有些擔心。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that Tom is worried.",
+      "answerZh": "在我看來，湯姆似乎有些擔心。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that Tom is worried."
+    },
+    {
+      "id": "ss208-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I would say the plan is too expensive.",
+      "promptZh": "我會說這個計劃太昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the plan is too expensive.",
+      "answerZh": "在我看來，這個計劃似乎太昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the plan is too expensive."
+    },
+    {
+      "id": "ss208-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The new rule looks unfair to me.",
+      "promptZh": "在我看來，這條新規則並不公平。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the new rule is unfair.",
+      "answerZh": "在我看來，這條新規則似乎並不公平。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the new rule is unfair."
+    },
+    {
+      "id": "ss208-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Perhaps the dog is hungry; that is my impression.",
+      "promptZh": "那隻狗也許餓了；這是我的印象。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the dog is hungry.",
+      "answerZh": "在我看來，那隻狗似乎餓了。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the dog is hungry."
+    },
+    {
+      "id": "ss208-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The road appears safer to me now.",
+      "promptZh": "在我看來，這條路現在好像更安全了。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the road is safer now.",
+      "answerZh": "在我看來，這條路現在似乎更安全了。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the road is safer now."
+    },
+    {
+      "id": "ss208-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Anna appears to understand the instructions, as far as I can tell.",
+      "promptZh": "據我所知，安娜似乎明白這些指示。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that Anna understands the instructions.",
+      "answerZh": "在我看來，安娜似乎明白這些指示。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that Anna understands the instructions."
+    },
+    {
+      "id": "ss208-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I have the impression that the café is usually crowded.",
+      "promptZh": "我的印象是，這間咖啡店通常很擠迫。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the café is usually crowded.",
+      "answerZh": "在我看來，這間咖啡店似乎經常很擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the café is usually crowded."
+    },
+    {
+      "id": "ss208-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you ask me, the blue jacket suits him better.",
+      "promptZh": "依我看，藍色外套更適合他。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the blue jacket suits him better.",
+      "answerZh": "在我看來，藍色外套似乎更適合他。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the blue jacket suits him better."
+    },
+    {
+      "id": "ss208-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The baby looks tired to me.",
+      "promptZh": "在我看來，那個嬰兒好像累了。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the baby is tired.",
+      "answerZh": "在我看來，那個嬰兒似乎累了。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the baby is tired."
+    },
+    {
+      "id": "ss208-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The way I see it, we need a simpler solution.",
+      "promptZh": "依我看，我們需要一個更簡單的解決方法。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that we need a simpler solution.",
+      "answerZh": "在我看來，我們似乎需要一個更簡單的解決方法。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that we need a simpler solution."
+    },
+    {
+      "id": "ss208-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "To me, it looks as though Leo has forgotten the meeting.",
+      "promptZh": "在我看來，里奧好像忘記了會議。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that Leo has forgotten the meeting.",
+      "answerZh": "在我看來，里奧似乎忘記了會議。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that Leo has forgotten the meeting."
+    },
+    {
+      "id": "ss208-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "To my mind, the ending is too sudden.",
+      "promptZh": "依我看，這個結局太突然。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the ending is too sudden.",
+      "answerZh": "在我看來，這個結局似乎太突然。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the ending is too sudden."
+    },
+    {
+      "id": "ss208-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Judging from her voice, I think Chloe is unwell.",
+      "promptZh": "從克洛伊的聲音判斷，我認為她身體不適。",
+      "promptZhSource": "pdf",
+      "starter": "Judging",
+      "answer": "Judging from her voice, it seems to me that Chloe is unwell.",
+      "answerZh": "從克洛伊的聲音判斷，在我看來，她似乎身體不適。",
+      "answerZhSource": "pdf",
+      "highlight": "Judging from her voice, it seems to me that Chloe is unwell."
+    },
+    {
+      "id": "ss208-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What is your impression of the lesson? I think it is well organised.",
+      "promptZh": "你對這堂課有甚麼印象？我認為它安排得很好。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the lesson is well organised.",
+      "answerZh": "在我看來，這堂課似乎安排得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the lesson is well organised."
+    },
+    {
+      "id": "ss208-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I do not think the problem has been solved yet.",
+      "promptZh": "我認為這個問題尚未解決。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the problem has not been solved yet.",
+      "answerZh": "在我看來，這個問題似乎尚未解決。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the problem has not been solved yet."
+    },
+    {
+      "id": "ss208-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My impression is that the figures may be incomplete.",
+      "promptZh": "我的印象是，這些數字可能並不完整。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the figures may be incomplete.",
+      "answerZh": "在我看來，這些數字可能並不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the figures may be incomplete."
+    },
+    {
+      "id": "ss208-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The door appeared to me to have been left unlocked.",
+      "promptZh": "在我看來，那扇門之前似乎沒有鎖上。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the door had been left unlocked.",
+      "answerZh": "在我看來，那扇門之前似乎沒有鎖上。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the door had been left unlocked."
+    },
+    {
+      "id": "ss208-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I have a feeling that the meeting will be postponed.",
+      "promptZh": "我有一種感覺，會議將會延期。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the meeting will be postponed.",
+      "answerZh": "在我看來，會議似乎會延期。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the meeting will be postponed."
+    },
+    {
+      "id": "ss208-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "To me, the email appears to have been sent to the wrong person.",
+      "promptZh": "在我看來，這封電郵似乎寄錯了人。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the email was sent to the wrong person.",
+      "answerZh": "在我看來，這封電郵似乎寄錯了人。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the email was sent to the wrong person."
+    },
+    {
+      "id": "ss208-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I would say the changes have made the process simpler.",
+      "promptZh": "我會說這些改動令流程變得更簡單。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the changes have made the process simpler.",
+      "answerZh": "在我看來，這些改動似乎令流程變得更簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the changes have made the process simpler."
+    },
+    {
+      "id": "ss208-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "To my mind, the warning should be clearer.",
+      "promptZh": "依我看，這項警告應該更清楚。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the warning should be clearer.",
+      "answerZh": "在我看來，這項警告應該寫得更清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the warning should be clearer."
+    },
+    {
+      "id": "ss208-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I suspect that some details may have been omitted from the report.",
+      "promptZh": "我懷疑報告可能遺漏了一些細節。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that some details may have been omitted from the report.",
+      "answerZh": "在我看來，報告可能遺漏了一些細節。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that some details may have been omitted from the report."
+    },
+    {
+      "id": "ss208-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My impression is that the plan may not work as expected.",
+      "promptZh": "我的印象是，這個計劃可能不會如預期般奏效。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the plan may not work as expected.",
+      "answerZh": "在我看來，這個計劃可能不會如預期般奏效。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the plan may not work as expected."
+    },
+    {
+      "id": "ss208-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What is your view of the new timetable? I think it gives students too little rest.",
+      "promptZh": "你對新時間表有甚麼看法？我認為它給學生的休息時間太少。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to me that the new timetable gives students too little rest.",
+      "answerZh": "在我看來，新時間表給學生的休息時間似乎太少。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to me that the new timetable gives students too little rest."
+    },
+    {
+      "id": "ss208-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Judging from the empty shelves, I think the shop has already sold out of the product.",
+      "promptZh": "從空置的貨架判斷，我認為商店已經售罄該產品。",
+      "promptZhSource": "pdf",
+      "starter": "Judging",
+      "answer": "Judging from the empty shelves, it seems to me that the shop has already sold out of the product.",
+      "answerZh": "從空置的貨架判斷，在我看來，商店似乎已經售罄該產品。",
+      "answerZhSource": "pdf",
+      "highlight": "Judging from the empty shelves, it seems to me that the shop has already sold out of the product."
+    },
+    {
+      "id": "ss208-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After reading both proposals, my impression is that the second one is more practical.",
+      "promptZh": "讀過兩份建議書後，我的印象是第二份較為實際。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reading both proposals, it seems to me that the second one is more practical.",
+      "answerZh": "讀過兩份建議書後，在我看來，第二份似乎較為實際。",
+      "answerZhSource": "pdf",
+      "highlight": "After reading both proposals, it seems to me that the second one is more practical."
+    },
+    {
+      "id": "ss208-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At the moment, I think the team is relying too heavily on one supplier.",
+      "promptZh": "目前，我認為團隊過度依賴單一供應商。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the moment, it seems to me that the team is relying too heavily on one supplier.",
+      "answerZh": "目前，在我看來，團隊似乎過度依賴單一供應商。",
+      "answerZhSource": "pdf",
+      "highlight": "At the moment, it seems to me that the team is relying too heavily on one supplier."
+    },
+    {
+      "id": "ss208-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Based on the messages I received, I get the feeling that the event may be cancelled.",
+      "promptZh": "根據我收到的訊息，我感覺活動可能會取消。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the messages I received, it seems to me that the event may be cancelled.",
+      "answerZh": "根據我收到的訊息，在我看來，活動可能會取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the messages I received, it seems to me that the event may be cancelled."
+    },
+    {
+      "id": "ss208-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When I compare the two versions, I think the earlier one is clearer.",
+      "promptZh": "當我比較兩個版本時，我認為較早的版本更清楚。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When I compare the two versions, it seems to me that the earlier one is clearer.",
+      "answerZh": "當我比較兩個版本時，在我看來，較早的版本似乎更清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "When I compare the two versions, it seems to me that the earlier one is clearer."
+    },
+    {
+      "id": "ss208-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the figures look encouraging, I think the company still faces serious risks.",
+      "promptZh": "雖然數字看來令人鼓舞，但我認為公司仍然面對重大風險。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the figures look encouraging, it seems to me that the company still faces serious risks.",
+      "answerZh": "雖然數字看來令人鼓舞，但在我看來，公司似乎仍然面對重大風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the figures look encouraging, it seems to me that the company still faces serious risks."
+    },
+    {
+      "id": "ss208-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "From the way the patient is speaking, I suspect that she is in considerable pain.",
+      "promptZh": "從病人說話的方式來看，我懷疑她正承受相當大的痛楚。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the way the patient is speaking, it seems to me that she is in considerable pain.",
+      "answerZh": "從病人說話的方式來看，在我看來，她似乎正承受相當大的痛楚。",
+      "answerZhSource": "pdf",
+      "highlight": "From the way the patient is speaking, it seems to me that she is in considerable pain."
+    },
+    {
+      "id": "ss208-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Having watched the trial lesson, I would say the course is suitable for beginners.",
+      "promptZh": "看過試堂後，我會說這個課程適合初學者。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having watched the trial lesson, it seems to me that the course is suitable for beginners.",
+      "answerZh": "看過試堂後，在我看來，這個課程似乎適合初學者。",
+      "answerZhSource": "pdf",
+      "highlight": "Having watched the trial lesson, it seems to me that the course is suitable for beginners."
+    },
+    {
+      "id": "ss208-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Given the slow response, I think the complaint was not handled promptly enough.",
+      "promptZh": "鑑於回應緩慢，我認為這宗投訴的處理不夠迅速。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the slow response, it seems to me that the complaint was not handled promptly enough.",
+      "answerZh": "鑑於回應緩慢，在我看來，這宗投訴似乎處理得不夠迅速。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the slow response, it seems to me that the complaint was not handled promptly enough."
+    },
+    {
+      "id": "ss208-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After hearing both sides, I think neither person fully understood the situation.",
+      "promptZh": "聽過雙方的說法後，我認為兩人都沒有完全了解情況。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After hearing both sides, it seems to me that neither person fully understood the situation.",
+      "answerZh": "聽過雙方的說法後，在我看來，兩人似乎都沒有完全了解情況。",
+      "answerZhSource": "pdf",
+      "highlight": "After hearing both sides, it seems to me that neither person fully understood the situation."
+    },
+    {
+      "id": "ss208-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Given the number of delays this month, my impression is that the current schedule is unrealistic.",
+      "promptZh": "鑑於本月多次延誤，我的印象是目前的時間表並不切實際。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the number of delays this month, it seems to me that the current schedule is unrealistic.",
+      "answerZh": "鑑於本月多次延誤，在我看來，目前的時間表似乎並不切實際。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the number of delays this month, it seems to me that the current schedule is unrealistic."
+    },
+    {
+      "id": "ss208-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "From the evidence available, I think the policy has created more confusion than clarity.",
+      "promptZh": "根據現有證據，我認為這項政策帶來的混亂多於清晰。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the evidence available, it seems to me that the policy has created more confusion than clarity.",
+      "answerZh": "根據現有證據，在我看來，這項政策帶來的混亂似乎多於清晰效果。",
+      "answerZhSource": "pdf",
+      "highlight": "From the evidence available, it seems to me that the policy has created more confusion than clarity."
+    },
+    {
+      "id": "ss208-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Even though the software is faster, I would say it is less reliable than the old version.",
+      "promptZh": "即使這款軟件速度更快，我仍會說它不及舊版本可靠。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the software is faster, it seems to me that it is less reliable than the old version.",
+      "answerZh": "即使這款軟件速度更快，在我看來，它似乎不及舊版本可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the software is faster, it seems to me that it is less reliable than the old version."
+    },
+    {
+      "id": "ss208-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When all the costs are included, I think outsourcing the work may not save us much money.",
+      "promptZh": "計及所有成本後，我認為把工作外判未必能為我們節省很多金錢。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When all the costs are included, it seems to me that outsourcing the work may not save us much money.",
+      "answerZh": "計及所有成本後，在我看來，把工作外判似乎未必能為我們節省很多金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "When all the costs are included, it seems to me that outsourcing the work may not save us much money."
+    },
+    {
+      "id": "ss208-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Based on what several parents have reported, I suspect that the new procedure is not being explained consistently.",
+      "promptZh": "根據數名家長的反映，我懷疑新程序沒有得到一致的解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on what several parents have reported, it seems to me that the new procedure is not being explained consistently.",
+      "answerZh": "根據數名家長的反映，在我看來，新程序似乎沒有得到一致的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on what several parents have reported, it seems to me that the new procedure is not being explained consistently."
+    },
+    {
+      "id": "ss208-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After reviewing the survey results, my impression is that younger users value convenience more than customisation.",
+      "promptZh": "檢視調查結果後，我的印象是較年輕的用戶較重視方便，而非自訂功能。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reviewing the survey results, it seems to me that younger users value convenience more than customisation.",
+      "answerZh": "檢視調查結果後，在我看來，較年輕的用戶似乎較重視方便，而非自訂功能。",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing the survey results, it seems to me that younger users value convenience more than customisation."
+    },
+    {
+      "id": "ss208-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Considering how quickly demand is rising, I think the hospital will need more staff before the end of the year.",
+      "promptZh": "考慮到需求上升得如此迅速，我認為醫院在年底前將需要更多員工。",
+      "promptZhSource": "pdf",
+      "starter": "Considering",
+      "answer": "Considering how quickly demand is rising, it seems to me that the hospital will need more staff before the end of the year.",
+      "answerZh": "考慮到需求上升得如此迅速，在我看來，醫院在年底前似乎會需要更多人手。",
+      "answerZhSource": "pdf",
+      "highlight": "Considering how quickly demand is rising, it seems to me that the hospital will need more staff before the end of the year."
+    },
+    {
+      "id": "ss208-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the project met its deadline, I feel that some important quality checks were rushed.",
+      "promptZh": "雖然項目如期完成，但我覺得部分重要的質素檢查進行得太倉促。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the project met its deadline, it seems to me that some important quality checks were rushed.",
+      "answerZh": "雖然項目如期完成，但在我看來，部分重要的質素檢查似乎進行得太倉促。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the project met its deadline, it seems to me that some important quality checks were rushed."
+    },
+    {
+      "id": "ss208-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "From the pattern of recent errors, I think the problem may lie in the way the data is being entered.",
+      "promptZh": "從近期錯誤的規律來看，我認為問題可能出在輸入數據的方式。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the pattern of recent errors, it seems to me that the problem may lie in the way the data is being entered.",
+      "answerZh": "從近期錯誤的規律來看，在我看來，問題可能出在輸入數據的方式。",
+      "answerZhSource": "pdf",
+      "highlight": "From the pattern of recent errors, it seems to me that the problem may lie in the way the data is being entered."
+    },
+    {
+      "id": "ss208-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Having considered the financial, environmental and social effects, I would say the proposal offers short-term benefits but creates serious long-term risks.",
+      "promptZh": "考慮過財務、環境和社會影響後，我會說這項建議帶來短期好處，卻造成嚴重的長遠風險。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having considered the financial, environmental and social effects, it seems to me that the proposal offers short-term benefits but creates serious long-term risks.",
+      "answerZh": "考慮過財務、環境和社會影響後，在我看來，這項建議似乎帶來短期好處，卻造成嚴重的長遠風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Having considered the financial, environmental and social effects, it seems to me that the proposal offers short-term benefits but creates serious long-term risks."
+    }
+  ]
+}

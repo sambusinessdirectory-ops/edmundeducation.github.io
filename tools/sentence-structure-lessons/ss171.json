@@ -1,0 +1,1272 @@
+{
+  "id": "ss171",
+  "order": 171,
+  "slug": "have-get-object-past-participle",
+  "title": "Have / Get + Something + V3",
+  "titleZh": "「Have / Get + Something + V3」使役句",
+  "titleEn": "Using Have / Get + object + past participle for arranged services",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 171 -「Have _ Get + Something + V3」使役句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + have / get (appropriate tense) + object + past participle + other information",
+  "formulas": [
+    {
+      "id": "ss171-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Subject + have / get (appropriate tense) + object + past participle + other information"
+    }
+  ],
+  "example": "I had my laptop repaired yesterday.",
+  "exampleZh": "我昨天找人修理了手提電腦。",
+  "examples": [
+    {
+      "id": "ss171-example-01",
+      "en": "I had my laptop repaired yesterday.",
+      "zh": "我昨天找人修理了手提電腦。",
+      "highlight": "I had my laptop repaired yesterday."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss171-rule-01",
+      "zh": "主語通常不是執行動作的人 ＝我親自修理手提電腦。 ＝我安排別人修理手提電腦。",
+      "en": "The subject is normally not the person who performs the action. I repaired my laptop means that I did the repair myself; I had my laptop repaired means that I arranged for someone else to repair it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I repaired my laptop.",
+        "I had my laptop repaired."
+      ]
+    },
+    {
+      "id": "ss171-rule-02",
+      "zh": "時態放在 have 或 get 上 Present 現在式 Past 過去式 Present Continuous 現在進行式 Future 將來式 Modal Verb 情態動詞",
+      "en": "Mark the tense on have or get. Use have/get for the present, had/got for the past, am having/am getting for the present continuous, will have/will get for the future, and forms such as should have/should get after a modal.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I have my car serviced every year.",
+        "I get my car serviced every year.",
+        "I had my car serviced yesterday.",
+        "I got my car serviced yesterday.",
+        "I am having my car serviced now.",
+        "I am getting my car serviced now.",
+        "I will have my car serviced tomorrow.",
+        "I will get my car serviced tomorrow.",
+        "You should have your eyes tested.",
+        "You should get your eyes tested."
+      ]
+    },
+    {
+      "id": "ss171-rule-03",
+      "zh": "動詞必須使用過去分詞 V3",
+      "en": "The service verb must be a past participle (V3), including regular forms such as repaired, checked and installed and irregular forms such as cut, taken, written, made and sent.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "repair → repaired",
+        "cut → cut",
+        "take → taken",
+        "write → written",
+        "make → made",
+        "send → sent",
+        "check → checked",
+        "install → installed"
+      ]
+    },
+    {
+      "id": "ss171-rule-04",
+      "zh": "物件放在 have／get 和過去分詞之間 第二句通常表示「我已經親自修理了手提電腦」，意思不同。",
+      "en": "Place the object between have/get and the past participle: I had my laptop repaired. I had repaired my laptop normally means that I personally completed the repair, so its meaning is different.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I had my laptop repaired.",
+        "I had repaired my laptop."
+      ]
+    },
+    {
+      "id": "ss171-rule-05",
+      "zh": "Have 和 get 的分別 Have something done 語氣較中性，適合日常及正式場合。 Get something done 較常用於日常會話，語氣通常較口語。 在大部分句子中，兩者都可以使用： 本練習的參考答案會交替使用 have 和 get。只要時態正確並保留原意，另一種形式通常也可以 接受。",
+      "en": "Have something done is neutral and suits both everyday and formal contexts. Get something done is more common in everyday conversation and usually sounds more informal. In most sentences both are possible, as in I had/got my hair cut. The model answers alternate between have and get; the other form is normally acceptable if the tense and meaning are preserved.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I had my hair cut.",
+        "I got my hair cut."
+      ]
+    },
+    {
+      "id": "ss171-rule-06",
+      "zh": "可以加入執行動作的人 （我請技術員修理了手提電腦。） 如執行者並不重要，可以省略 by + person：",
+      "en": "You may add the person who performs the action with by: I had my laptop repaired by a technician. If the performer is unimportant, omit the by-phrase: I had my laptop repaired.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I had my laptop repaired by a technician.",
+        "I had my laptop repaired."
+      ]
+    },
+    {
+      "id": "ss171-rule-07",
+      "zh": "本課不包括意外或不幸經歷 （我的銀包被偷了。） 這裏並不是說話者安排別人偷銀包，因此不屬於本課重點。本課主要練習安排服務或請別人完成 工作。",
+      "en": "This lesson does not cover accidental or unfortunate experiences such as I had my wallet stolen. That sentence does not mean the speaker arranged the theft. The lesson focuses on arranging a service or asking someone to complete work.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I had my wallet stolen."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss171-benefit-01",
+      "zh": "清楚表示「找別人處理」 這個句型可以清楚區分你是親自做某件事，還是安排專業人士替你處理。 表示我親自替自己剪頭髮。 表示我請髮型師替我剪頭髮。",
+      "en": "It clearly distinguishes doing something yourself from arranging for a professional or another person to do it. I cut my hair means that I did it myself; I had my hair cut means that I arranged for a hairdresser to do it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I cut my hair.",
+        "I had my hair cut."
+      ]
+    },
+    {
+      "id": "ss171-benefit-02",
+      "zh": "把較長的解釋縮短 你不需要每次都使用較長的說法，例如： 你可以更簡潔地說：",
+      "en": "It shortens a longer explanation. Instead of I asked a technician to repair my laptop, you can say more concisely, I had my laptop repaired.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I asked a technician to repair my laptop.",
+        "I had my laptop repaired."
+      ]
+    },
+    {
+      "id": "ss171-benefit-03",
+      "zh": "把重點放在服務或結果上 有時候，替你完成工作的人並不重要。你只需要說明事情已經處理好。 句子的重點是辦公室已經清潔，而不是哪一位清潔員完成工作。",
+      "en": "It places the emphasis on the service or completed result when the person who did the work is unimportant. We had the office cleaned focuses on the fact that the office was cleaned, not on which cleaner did it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We had the office cleaned."
+      ]
+    },
+    {
+      "id": "ss171-benefit-04",
+      "zh": "適合很多日常生活情境 這個句型經常用於以下情況： 剪頭髮、驗眼、洗牙、修理電器、維修汽車、送貨、印刷文件、清潔房屋、安裝設備及翻譯文件。 掌握這個句型後，你可以更自然地談論自己使用過或準備使用的服務。",
+      "en": "It applies naturally to many everyday services, including haircuts, eye tests, dental cleaning, appliance and car repairs, delivery, printing, house cleaning, equipment installation and document translation. Once you know the pattern, you can speak more naturally about services you have used or plan to use.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss171-benefit-05",
+      "zh": "可以靈活配合不同時態 你可以用這個句型談論過去、現在、將來、計劃、建議和問題：",
+      "en": "It works flexibly with past, present and future tenses, plans, advice and questions.",
+      "enSource": "pdf",
+      "examples": [
+        "I had my phone repaired yesterday.",
+        "I am having my phone repaired now.",
+        "I will have my phone repaired tomorrow.",
+        "You should get your phone repaired.",
+        "Did you have your phone repaired?"
+      ]
+    },
+    {
+      "id": "ss171-benefit-06",
+      "zh": "令說話和寫作更加自然 英語使用者通常不會把每項服務都說成： 使用 have/get something done 可以避免重複，令表達更簡潔和自然。",
+      "en": "It makes speaking and writing more concise and natural by avoiding repeated phrases such as I asked someone to or someone did something for me.",
+      "enSource": "pdf",
+      "examples": [
+        "I asked someone to...",
+        "I paid someone to..."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Have / Get + Something + V3.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Have / Get + Something + V3 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss171-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A technician repaired my laptop yesterday after I booked the service.",
+      "promptZh": "我預約維修服務後，一名技術員昨天替我修理了手提電腦。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I had my laptop repaired yesterday.",
+      "answerZh": "我昨天找人修理了手提電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "I had my laptop repaired yesterday."
+    },
+    {
+      "id": "ss171-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma booked an appointment, and a hairdresser cut her hair last Saturday.",
+      "promptZh": "艾瑪預約了時間，一名髮型師在上星期六替她剪了頭髮。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma got her hair cut last Saturday.",
+      "answerZh": "艾瑪在上星期六請髮型師剪了頭髮。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma got her hair cut last Saturday."
+    },
+    {
+      "id": "ss171-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel arranged a service, and a mechanic serviced his car this morning.",
+      "promptZh": "丹尼爾安排了維修服務，一名汽車技工今早替他的汽車進行了保養。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel had his car serviced this morning.",
+      "answerZh": "丹尼爾今早找人替汽車進行了保養。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel had his car serviced this morning."
+    },
+    {
+      "id": "ss171-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We booked a studio session, and a photographer took our family photograph.",
+      "promptZh": "我們預約了影樓服務，一名攝影師替我們拍攝了家庭照。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We had our family photograph taken at the studio.",
+      "answerZh": "我們在影樓請攝影師拍攝了家庭照。",
+      "answerZhSource": "pdf",
+      "highlight": "We had our family photograph taken at the studio."
+    },
+    {
+      "id": "ss171-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo visited an optician, who tested his eyes.",
+      "promptZh": "里奧去見視光師，而視光師替他檢查了眼睛。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo got his eyes tested by an optician.",
+      "answerZh": "里奧請視光師檢查了眼睛。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo got his eyes tested by an optician."
+    },
+    {
+      "id": "ss171-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia asked a tailor to shorten her dress.",
+      "promptZh": "米婭請裁縫把她的裙子改短。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia had her dress shortened by a tailor.",
+      "answerZh": "米婭請裁縫把裙子改短。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia had her dress shortened by a tailor."
+    },
+    {
+      "id": "ss171-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben called a plumber, who fixed his kitchen sink.",
+      "promptZh": "本致電水喉匠，而水喉匠修理了他的廚房鋅盤。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben got his kitchen sink fixed by a plumber.",
+      "answerZh": "本請水喉匠修理了廚房鋅盤。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben got his kitchen sink fixed by a plumber."
+    },
+    {
+      "id": "ss171-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe booked a dental appointment, and the dentist cleaned her teeth yesterday.",
+      "promptZh": "克洛伊預約了牙科服務，牙醫昨天替她洗牙。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe had her teeth cleaned yesterday.",
+      "answerZh": "克洛伊昨天請牙醫替她洗牙。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe had her teeth cleaned yesterday."
+    },
+    {
+      "id": "ss171-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We paid the furniture shop for delivery, and its staff brought the new sofa to our flat.",
+      "promptZh": "我們向傢俬店支付了送貨費，而店員把新梳化送到我們的住所。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We had our new sofa delivered to our flat.",
+      "answerZh": "我們安排店員把新梳化送到住所。",
+      "answerZhSource": "pdf",
+      "highlight": "We had our new sofa delivered to our flat."
+    },
+    {
+      "id": "ss171-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah asked a locksmith to make a spare key for her.",
+      "promptZh": "莎拉請鎖匠替她配製一條後備鎖匙。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah got a spare key made by a locksmith.",
+      "answerZh": "莎拉請鎖匠配製了一條後備鎖匙。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah got a spare key made by a locksmith."
+    },
+    {
+      "id": "ss171-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Olivia placed an order at the print shop, and the staff printed the invitations.",
+      "promptZh": "奧莉花在印刷店下了訂單，而店員印製了邀請卡。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia had the invitations printed at the print shop.",
+      "answerZh": "奧莉花請印刷店印製了邀請卡。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia had the invitations printed at the print shop."
+    },
+    {
+      "id": "ss171-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We asked the IT team to install the new software on all the office computers.",
+      "promptZh": "我們請資訊科技團隊在辦公室所有電腦上安裝新軟件。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We got the new software installed on all the office computers.",
+      "answerZh": "我們請資訊科技團隊在所有辦公室電腦上安裝了新軟件。",
+      "answerZhSource": "pdf",
+      "highlight": "We got the new software installed on all the office computers."
+    },
+    {
+      "id": "ss171-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ethan has arranged for a painter to repaint his front door next week.",
+      "promptZh": "伊森已安排油漆工人在下星期重新粉刷他的前門。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan will have his front door repainted next week.",
+      "answerZh": "伊森會在下星期安排工人重新粉刷前門。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan will have his front door repainted next week."
+    },
+    {
+      "id": "ss171-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Aisha is at the salon now, and a stylist is colouring her hair.",
+      "promptZh": "艾莎現在正在髮型屋，而髮型師正在替她染髮。",
+      "promptZhSource": "pdf",
+      "starter": "Aisha",
+      "answer": "Aisha is having her hair coloured at the salon now.",
+      "answerZh": "艾莎現在正在髮型屋請髮型師替她染髮。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha is having her hair coloured at the salon now."
+    },
+    {
+      "id": "ss171-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A cleaner will clean my carpets tomorrow because I booked the service.",
+      "promptZh": "我預約了清潔服務，因此清潔員明天會清洗我的地氈。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I am going to have the carpets cleaned tomorrow.",
+      "answerZh": "我明天會安排清潔員清洗地氈。",
+      "answerZhSource": "pdf",
+      "highlight": "I am going to have the carpets cleaned tomorrow."
+    },
+    {
+      "id": "ss171-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Did you ask a photographer to take your passport photograph at the studio?",
+      "promptZh": "你有沒有請攝影師在影樓替你拍攝證件相？",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did you get your passport photograph taken at the studio?",
+      "answerZh": "你有沒有在影樓請攝影師拍攝證件相？",
+      "answerZhSource": "pdf",
+      "highlight": "Did you get your passport photograph taken at the studio?"
+    },
+    {
+      "id": "ss171-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Marcus did not arrange for a technician to check the boiler last winter.",
+      "promptZh": "馬庫斯去年冬天沒有安排技術員檢查暖爐。",
+      "promptZhSource": "pdf",
+      "starter": "Marcus",
+      "answer": "Marcus did not have the boiler checked last winter.",
+      "answerZh": "馬庫斯去年冬天沒有安排技術員檢查暖爐。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus did not have the boiler checked last winter."
+    },
+    {
+      "id": "ss171-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You should ask the garage to replace the worn tyres.",
+      "promptZh": "你應該請車房更換已磨損的輪胎。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should have the worn tyres replaced at the garage.",
+      "answerZh": "你應該請車房更換已磨損的輪胎。",
+      "answerZhSource": "pdf",
+      "highlight": "You should have the worn tyres replaced at the garage."
+    },
+    {
+      "id": "ss171-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school arranged for electricians to inspect the fire alarms.",
+      "promptZh": "學校安排電工檢查火警鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school had the fire alarms inspected by electricians.",
+      "answerZh": "學校安排電工檢查了火警鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The school had the fire alarms inspected by electricians."
+    },
+    {
+      "id": "ss171-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We booked a catering service, and a chef is preparing the food for our party.",
+      "promptZh": "我們預訂了到會服務，而一名廚師正在準備派對食物。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We are having the food for our party prepared by a chef.",
+      "answerZh": "我們正在請廚師準備派對食物。",
+      "answerZhSource": "pdf",
+      "highlight": "We are having the food for our party prepared by a chef."
+    },
+    {
+      "id": "ss171-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company paid a professional designer to redesign its website.",
+      "promptZh": "公司聘請了一名專業設計師重新設計網站。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company got its website redesigned by a professional designer.",
+      "answerZh": "公司聘請專業設計師重新設計了網站。",
+      "answerZhSource": "pdf",
+      "highlight": "The company got its website redesigned by a professional designer."
+    },
+    {
+      "id": "ss171-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The doctor sent the blood sample to a laboratory so that the staff could analyse it.",
+      "promptZh": "醫生把血液樣本送到化驗所，讓職員進行分析。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor had the blood sample analysed at a laboratory.",
+      "answerZh": "醫生安排化驗所分析了血液樣本。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor had the blood sample analysed at a laboratory."
+    },
+    {
+      "id": "ss171-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A technician has already replaced my broken screen because I arranged the repair.",
+      "promptZh": "我安排了維修，因此技術員已經更換了我損壞的螢幕。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have already had my broken screen replaced.",
+      "answerZh": "我已經請技術員更換了損壞的螢幕。",
+      "answerZhSource": "pdf",
+      "highlight": "I have already had my broken screen replaced."
+    },
+    {
+      "id": "ss171-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council chose not to ask workers to remove the graffiti from the community centre.",
+      "promptZh": "市政機構決定不安排工人清除社區中心的塗鴉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council did not get the graffiti removed from the community centre.",
+      "answerZh": "市政機構沒有安排工人清除社區中心的塗鴉。",
+      "answerZhSource": "pdf",
+      "highlight": "The council did not get the graffiti removed from the community centre."
+    },
+    {
+      "id": "ss171-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A pharmacist can check your blood pressure for you.",
+      "promptZh": "藥劑師可以替你量度血壓。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can get your blood pressure checked at the pharmacy.",
+      "answerZh": "你可以在藥房請藥劑師量度血壓。",
+      "answerZhSource": "pdf",
+      "highlight": "You can get your blood pressure checked at the pharmacy."
+    },
+    {
+      "id": "ss171-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Before her trip, Nina asked a dentist to examine her teeth.",
+      "promptZh": "旅行前，妮娜請牙醫檢查她的牙齒。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina had her teeth examined before her trip.",
+      "answerZh": "妮娜在旅行前請牙醫檢查了牙齒。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina had her teeth examined before her trip."
+    },
+    {
+      "id": "ss171-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager is arranging for the printer to produce the new staff cards.",
+      "promptZh": "經理正在安排印刷公司製作新的職員證。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager is having the new staff cards printed.",
+      "answerZh": "經理正在安排印刷公司製作新的職員證。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager is having the new staff cards printed."
+    },
+    {
+      "id": "ss171-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did Aaron leave his phone at the shop? He wanted a technician to replace the battery.",
+      "promptZh": "亞倫為甚麼把電話留在店內？他想請技術員更換電池。",
+      "promptZhSource": "pdf",
+      "starter": "Aaron",
+      "answer": "Aaron left his phone at the shop to have the battery replaced.",
+      "answerZh": "亞倫把電話留在店內，以請技術員更換電池。",
+      "answerZhSource": "pdf",
+      "highlight": "Aaron left his phone at the shop to have the battery replaced."
+    },
+    {
+      "id": "ss171-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The landlord hired a contractor to repair the lift.",
+      "promptZh": "業主聘請了承建商維修升降機。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The landlord got the lift repaired by a contractor.",
+      "answerZh": "業主聘請承建商維修了升降機。",
+      "answerZhSource": "pdf",
+      "highlight": "The landlord got the lift repaired by a contractor."
+    },
+    {
+      "id": "ss171-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The organisers asked a florist to prepare the flowers before the ceremony.",
+      "promptZh": "主辦單位請花藝師在典禮前準備鮮花。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisers had the flowers prepared by a florist before the ceremony.",
+      "answerZh": "主辦單位請花藝師在典禮前準備了鮮花。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers had the flowers prepared by a florist before the ceremony."
+    },
+    {
+      "id": "ss171-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If your watch is losing time, you should ask a specialist to examine it.",
+      "promptZh": "如果你的手錶走時不準，你應該請專業人士檢查它。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If your watch is losing time, you should get it examined by a specialist.",
+      "answerZh": "如果你的手錶走時不準，你應該請專業人士檢查它。",
+      "answerZhSource": "pdf",
+      "highlight": "If your watch is losing time, you should get it examined by a specialist."
+    },
+    {
+      "id": "ss171-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Please arrange for an electrician to replace the office lights.",
+      "promptZh": "請安排電工更換辦公室的燈。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please have the office lights replaced by an electrician.",
+      "answerZh": "請安排電工更換辦公室的燈。",
+      "answerZhSource": "pdf",
+      "highlight": "Please have the office lights replaced by an electrician."
+    },
+    {
+      "id": "ss171-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After her credit card was stolen, she asked the bank to cancel it immediately.",
+      "promptZh": "她的信用卡被偷後，她立即要求銀行取消該卡。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She got her credit card cancelled immediately after it was stolen.",
+      "answerZh": "她的信用卡被偷後，立即要求銀行取消該卡。",
+      "answerZhSource": "pdf",
+      "highlight": "She got her credit card cancelled immediately after it was stolen."
+    },
+    {
+      "id": "ss171-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Guests can ask the hotel staff to wash and iron their clothes.",
+      "promptZh": "住客可以請酒店職員清洗和熨平衣服。",
+      "promptZhSource": "pdf",
+      "starter": "Guests",
+      "answer": "Guests can have their clothes washed and ironed at the hotel.",
+      "answerZh": "住客可以請酒店職員清洗和熨平衣服。",
+      "answerZhSource": "pdf",
+      "highlight": "Guests can have their clothes washed and ironed at the hotel."
+    },
+    {
+      "id": "ss171-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Has a translator translated the contract for you yet?",
+      "promptZh": "翻譯員已經替你翻譯好合約了嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Have",
+      "answer": "Have you had the contract translated yet?",
+      "answerZh": "你已經請翻譯員翻譯好合約了嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Have you had the contract translated yet?"
+    },
+    {
+      "id": "ss171-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager booked a company to install the security cameras next Monday.",
+      "promptZh": "經理預約了一間公司在下星期一安裝保安鏡頭。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager is getting the security cameras installed next Monday.",
+      "answerZh": "經理會在下星期一安排公司安裝保安鏡頭。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager is getting the security cameras installed next Monday."
+    },
+    {
+      "id": "ss171-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A laboratory checked the water sample after the council requested the test.",
+      "promptZh": "市政機構要求進行測試後，一間化驗所檢查了食水樣本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council had the water sample checked at a laboratory.",
+      "answerZh": "市政機構安排化驗所檢查了食水樣本。",
+      "answerZhSource": "pdf",
+      "highlight": "The council had the water sample checked at a laboratory."
+    },
+    {
+      "id": "ss171-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "An editor corrected the writer’s article before publication because the writer requested it.",
+      "promptZh": "應作者要求，一名編輯在文章出版前作出了修正。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The writer got the article corrected by an editor before publication.",
+      "answerZh": "作者請編輯在文章出版前作出了修正。",
+      "answerZhSource": "pdf",
+      "highlight": "The writer got the article corrected by an editor before publication."
+    },
+    {
+      "id": "ss171-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Before you sign the agreement, ask a lawyer to review it.",
+      "promptZh": "簽署協議前，請律師審閱協議。",
+      "promptZhSource": "pdf",
+      "starter": "Have",
+      "answer": "Have the agreement reviewed by a lawyer before you sign it.",
+      "answerZh": "簽署協議前，請律師審閱協議。",
+      "answerZhSource": "pdf",
+      "highlight": "Have the agreement reviewed by a lawyer before you sign it."
+    },
+    {
+      "id": "ss171-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The airline arranged for a repair team to inspect the damaged suitcase.",
+      "promptZh": "航空公司安排維修團隊檢查受損的行李箱。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The airline had the damaged suitcase inspected by a repair team.",
+      "answerZh": "航空公司安排維修團隊檢查了受損的行李箱。",
+      "answerZhSource": "pdf",
+      "highlight": "The airline had the damaged suitcase inspected by a repair team."
+    },
+    {
+      "id": "ss171-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Priya could not fix the leak herself, so she asked a plumber to replace the pipe under the sink.",
+      "promptZh": "普里雅無法自行修理漏水問題，因此她請水喉匠更換鋅盤下的水管。",
+      "promptZhSource": "pdf",
+      "starter": "Priya",
+      "answer": "Priya had the pipe under the sink replaced by a plumber because she could not fix the leak herself.",
+      "answerZh": "普里雅無法自行修理漏水問題，因此她請水喉匠更換了鋅盤下的水管。",
+      "answerZhSource": "pdf",
+      "highlight": "Priya had the pipe under the sink replaced by a plumber because she could not fix the leak herself."
+    },
+    {
+      "id": "ss171-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The museum has booked a conservator to restore the old painting before the exhibition opens.",
+      "promptZh": "博物館已預約修復師，在展覽開幕前修復那幅舊畫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum is going to have the old painting restored before the exhibition opens.",
+      "answerZh": "博物館會在展覽開幕前請修復師修復那幅舊畫。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is going to have the old painting restored before the exhibition opens."
+    },
+    {
+      "id": "ss171-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the phone still worked, Kai asked the shop to replace its cracked screen before his holiday.",
+      "promptZh": "雖然電話仍然可以運作，但啟在放假前請店舖更換破裂的螢幕。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the phone still worked, Kai had its cracked screen replaced before his holiday.",
+      "answerZh": "雖然電話仍然可以運作，但啟在放假前請店舖更換了破裂的螢幕。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the phone still worked, Kai had its cracked screen replaced before his holiday."
+    },
+    {
+      "id": "ss171-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Professional movers will pack and transport the company’s equipment because the company booked them for its office move.",
+      "promptZh": "公司預約了專業搬運工人，在搬遷辦公室時包裝和運送設備。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the company moves office, it will have its equipment packed and transported by professional movers.",
+      "answerZh": "公司搬遷辦公室時，會請專業搬運工人包裝和運送設備。",
+      "answerZhSource": "pdf",
+      "highlight": "When the company moves office, it will have its equipment packed and transported by professional movers."
+    },
+    {
+      "id": "ss171-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor advised Mei to ask a clinic to test her hearing.",
+      "promptZh": "醫生建議美怡請診所檢查她的聽力。",
+      "promptZhSource": "pdf",
+      "starter": "Mei",
+      "answer": "Mei should have her hearing tested at a clinic, as the doctor advised.",
+      "answerZh": "按照醫生的建議，美怡應該請診所檢查她的聽力。",
+      "answerZhSource": "pdf",
+      "highlight": "Mei should have her hearing tested at a clinic, as the doctor advised."
+    },
+    {
+      "id": "ss171-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A specialist will upgrade our server before Friday because we have booked the work.",
+      "promptZh": "我們預約了升級服務，因此專業技術員會在星期五前升級伺服器。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We will have our server upgraded before Friday.",
+      "answerZh": "我們會安排專業技術員在星期五前升級伺服器。",
+      "answerZhSource": "pdf",
+      "highlight": "We will have our server upgraded before Friday."
+    },
+    {
+      "id": "ss171-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council plans to hire engineers to strengthen the bridge before the rainy season.",
+      "promptZh": "市政機構計劃聘請工程師，在雨季前加固大橋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council plans to have the bridge strengthened before the rainy season.",
+      "answerZh": "市政機構計劃在雨季前安排工程師加固大橋。",
+      "answerZhSource": "pdf",
+      "highlight": "The council plans to have the bridge strengthened before the rainy season."
+    },
+    {
+      "id": "ss171-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After the customer complained, the shop arranged for an independent expert to examine the appliance.",
+      "promptZh": "顧客投訴後，店舖安排了一名獨立專家檢查該電器。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop had the appliance examined by an independent expert after the customer complained.",
+      "answerZh": "顧客投訴後，店舖安排了一名獨立專家檢查該電器。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop had the appliance examined by an independent expert after the customer complained."
+    },
+    {
+      "id": "ss171-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If your passport is damaged, you must ask the authorities to replace it before travelling.",
+      "promptZh": "如果你的護照損壞，你必須在出發前要求有關部門更換護照。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If your passport is damaged, you must have it replaced before travelling.",
+      "answerZh": "如果你的護照損壞，你必須在出發前請有關部門更換護照。",
+      "answerZhSource": "pdf",
+      "highlight": "If your passport is damaged, you must have it replaced before travelling."
+    },
+    {
+      "id": "ss171-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The production team arranged for technicians to check the sound system and replace two faulty cables before the live event.",
+      "promptZh": "製作團隊安排技術員在現場活動前檢查音響系統，並更換兩條故障電線。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The production team had the sound system checked and two faulty cables replaced before the live event.",
+      "answerZh": "製作團隊在現場活動前安排技術員檢查了音響系統，並更換了兩條故障電線。",
+      "answerZhSource": "pdf",
+      "highlight": "The production team had the sound system checked and two faulty cables replaced before the live event."
+    }
+  ]
+}

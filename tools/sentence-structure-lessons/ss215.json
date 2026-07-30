@@ -1,0 +1,1210 @@
+{
+  "id": "ss215",
+  "order": 215,
+  "slug": "needless-to-say",
+  "title": "「Needless to say」表示「不用多說／不言而喻」",
+  "titleZh": "「Needless to say」表示「不用多說／不言而喻」",
+  "titleEn": "Using “Needless to say”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 214 -「Needless to say」表示「不用多說／不言而喻」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 214; it is assigned system ID ss215 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Needless to say, + complete clause",
+  "formulas": [
+    {
+      "id": "ss215-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "Needless to say, + complete clause"
+    }
+  ],
+  "example": "Needless to say, public money should be used responsibly.",
+  "exampleZh": "不用多說，公帑應該以負責任的方式運用。",
+  "examples": [
+    {
+      "id": "ss215-example-01",
+      "en": "Needless to say, public money should be used responsibly.",
+      "zh": "不用多說，公帑應該以負責任的方式運用。",
+      "highlight": "Needless to say, public money should be used responsibly."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Needless to say, + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss215-rule-01",
+      "zh": "後面須接完整句子 Needless to say 後面須有主語和動詞。 （不用多說，安全最重要。）",
+      "en": "Follow Needless to say with a complete clause containing a subject and verb. Correct: Needless to say, safety comes first. Incorrect: Needless to say, the importance of safety.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Correct: Needless to say, safety comes first.",
+        "Incorrect: Needless to say, the importance of safety. ✗"
+      ]
+    },
+    {
+      "id": "ss215-rule-02",
+      "zh": "後面通常使用逗號 在本課所學的標準句型中，Needless to say 放在句首，後面加逗號。 （不用多說，大家都很失望。）",
+      "en": "Normally put a comma after the opening phrase. In the standard pattern taught here, write: Needless to say, everyone was disappointed.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Needless to say, everyone was disappointed."
+      ]
+    },
+    {
+      "id": "ss215-rule-03",
+      "zh": "本句型通常不加 that 本練習採用最自然和最常見的句式： 不要寫成：",
+      "en": "Normally do not add that. This exercise uses the most natural and common form: Needless to say, the plan needs more work. Do not write: Needless to say that the plan needs more work.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Needless to say, the plan needs more work. ✓",
+        "Needless to say that the plan needs more work. ✗"
+      ]
+    },
+    {
+      "id": "ss215-rule-04",
+      "zh": "只用於明顯或可以預料的事情 不要使用 Needless to say 引出尚未證實、具有爭議或令讀者意外的說法。 （不用多說，駕駛者必須遵守交通燈號。） （除非所有人都已同意，否則這項說法未必是不言而喻的。）",
+      "en": "Use the phrase only for something obvious or expected, not for an unproven, controversial or surprising assertion. Natural: Needless to say, drivers must obey traffic lights. Unnatural without prior agreement: Needless to say, this is the only possible solution.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Natural: Needless to say, drivers must obey traffic lights.",
+        "Needless to say, this is the only possible solution."
+      ]
+    },
+    {
+      "id": "ss215-rule-05",
+      "zh": "它可以帶有強調語氣 這個句型不只是說「很明顯」，也表示說話者認為這件事是基本常識、合理責任或自然結果。 因此，使用時應避免帶有高高在上或輕視別人意見的語氣。",
+      "en": "The phrase can add emphasis. It does more than label something obvious: it can present a point as basic common sense, a reasonable duty or a natural consequence. Use it carefully so that you do not sound condescending or dismissive of other views.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss215-benefit-01",
+      "zh": "能立即表示事情十分明顯 讀者或聽者一看到 Needless to say，便知道接下來的內容是合乎常理、可以預料或大家理應知 道的。 （不用多說，兒童需要一個安全的學習環境。）",
+      "en": "It immediately marks a point as obvious. On hearing or reading Needless to say, the audience expects a reasonable, predictable or commonly understood statement: Needless to say, children need a safe place to learn.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss215-benefit-02",
+      "zh": "能把較長的說法縮短 你不必每次都使用較長的 It is obvious that...。 （顯然，公帑應該以負責任的方式運用。） （不用多說，公帑應該以負責任的方式運用。） 第二句更直接，也更有力。",
+      "en": "It shortens a longer expression such as It is obvious that .... Compare: It is obvious that public money should be used responsibly. Needless to say, public money should be used responsibly. The second version is more direct and forceful.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss215-benefit-03",
+      "zh": "能引出自然或可以預料的結果 當前文已經提供足夠背景時，可以使用這個句型引出讀者早已預料到的結果。 （球隊已有數月沒有練習。不用多說，他們輸掉了比賽。）",
+      "en": "It introduces a natural or predictable outcome after the context has supplied enough background: The team had not practised for months. Needless to say, they lost the match.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss215-benefit-04",
+      "zh": "能避免重複使用 obviously 或 of course 這個句型為你提供另一種表達「顯然」的方法，令說話和寫作不會不斷重複相同的開場方式。",
+      "en": "It avoids repeatedly using obviously or of course. The frame provides another way to express obviousness and varies the openings used in speech and writing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss215-benefit-05",
+      "zh": "能令論點顯得更有把握 在討論基本責任、常識或合理後果時，這個句型可以令語氣更堅定。 不過，它帶有一定的強調意味，因此不宜在短文中過度使用。",
+      "en": "It makes a point sound more confident when discussing basic duties, common sense or reasonable consequences. Because it carries emphasis, however, do not overuse it in a short text.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 214; it is assigned system ID ss215 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Needless to say, + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Needless to say, + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss215-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It is obvious that children need enough sleep.",
+      "promptZh": "顯然，兒童需要充足睡眠。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, children need enough sleep.",
+      "answerZh": "不用多說，兒童需要充足睡眠。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, children need enough sleep."
+    },
+    {
+      "id": "ss215-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Of course, we should lock the door before leaving.",
+      "promptZh": "當然，我們離開前應該鎖門。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, we should lock the door before leaving.",
+      "answerZh": "不用多說，我們離開前應該鎖門。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, we should lock the door before leaving."
+    },
+    {
+      "id": "ss215-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Everyone knows that clean water is essential for good health.",
+      "promptZh": "人人都知道，清潔食水對良好健康十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, clean water is essential for good health.",
+      "answerZh": "不用多說，清潔食水對良好健康十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, clean water is essential for good health."
+    },
+    {
+      "id": "ss215-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Clearly, students must read the instructions carefully.",
+      "promptZh": "很明顯，學生必須仔細閱讀指示。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, students must read the instructions carefully.",
+      "answerZh": "不用多說，學生必須仔細閱讀指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, students must read the instructions carefully."
+    },
+    {
+      "id": "ss215-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "No one needs to be told that a sharp knife should be handled with care.",
+      "promptZh": "毋須別人提醒，鋒利的刀具應該小心處理。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, a sharp knife should be handled with care.",
+      "answerZh": "不用多說，鋒利的刀具應該小心處理。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, a sharp knife should be handled with care."
+    },
+    {
+      "id": "ss215-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It goes without saying that honesty is important in a friendship.",
+      "promptZh": "不言而喻，誠實在友誼中十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, honesty is important in a friendship.",
+      "answerZh": "不用多說，誠實在友誼中十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, honesty is important in a friendship."
+    },
+    {
+      "id": "ss215-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Any driver knows that drivers should stop at a red light.",
+      "promptZh": "任何駕駛者都知道，遇上紅燈便應該停車。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, drivers should stop at a red light.",
+      "answerZh": "不用多說，駕駛者遇上紅燈便應該停車。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, drivers should stop at a red light."
+    },
+    {
+      "id": "ss215-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There is no need to say that the library should remain quiet.",
+      "promptZh": "無須多說，圖書館應該保持安靜。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the library should remain quiet.",
+      "answerZh": "不用多說，圖書館應該保持安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the library should remain quiet."
+    },
+    {
+      "id": "ss215-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It is easy to see that regular practice improves pronunciation.",
+      "promptZh": "不難看出，定期練習能改善發音。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, regular practice improves pronunciation.",
+      "answerZh": "不用多說，定期練習能改善發音。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, regular practice improves pronunciation."
+    },
+    {
+      "id": "ss215-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Naturally, food must be stored properly.",
+      "promptZh": "食物自然必須妥善儲存。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, food must be stored properly.",
+      "answerZh": "不用多說，食物必須妥善儲存。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, food must be stored properly."
+    },
+    {
+      "id": "ss215-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We can all agree that the team needs time to prepare.",
+      "promptZh": "大家都同意，團隊需要時間準備。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the team needs time to prepare.",
+      "answerZh": "不用多說，團隊需要時間準備。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the team needs time to prepare."
+    },
+    {
+      "id": "ss215-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Nobody would question the fact that customers expect polite service.",
+      "promptZh": "沒有人會質疑顧客期望得到有禮貌的服務。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, customers expect polite service.",
+      "answerZh": "不用多說，顧客期望得到有禮貌的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, customers expect polite service."
+    },
+    {
+      "id": "ss215-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It should be obvious that users should back up important files.",
+      "promptZh": "理應很明顯，使用者應該備份重要檔案。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, users should back up important files.",
+      "answerZh": "不用多說，使用者應該備份重要檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, users should back up important files."
+    },
+    {
+      "id": "ss215-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As every passenger knows, passengers must keep their tickets until the journey ends.",
+      "promptZh": "每位乘客都知道，乘客必須保留車票至行程結束。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, passengers must keep their tickets until the journey ends.",
+      "answerZh": "不用多說，乘客必須保留車票至行程結束。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, passengers must keep their tickets until the journey ends."
+    },
+    {
+      "id": "ss215-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "No explanation is needed: the injured player required medical attention.",
+      "promptZh": "無須解釋，受傷的球員需要接受治療。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the injured player required medical attention.",
+      "answerZh": "不用多說，受傷的球員需要接受治療。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the injured player required medical attention."
+    },
+    {
+      "id": "ss215-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Surely, a good password should be difficult to guess.",
+      "promptZh": "當然，良好的密碼應該難以猜中。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, a good password should be difficult to guess.",
+      "answerZh": "不用多說，良好的密碼應該難以猜中。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, a good password should be difficult to guess."
+    },
+    {
+      "id": "ss215-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is self-evident that we cannot spend more than the budget allows.",
+      "promptZh": "不證自明，我們不能花費超出預算所容許的金額。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, we cannot spend more than the budget allows.",
+      "answerZh": "不用多說，我們不能花費超出預算所容許的金額。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, we cannot spend more than the budget allows."
+    },
+    {
+      "id": "ss215-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Anyone who visits the museum during public holidays knows that it becomes busier.",
+      "promptZh": "任何在公眾假期到訪博物館的人都知道，博物館會變得更繁忙。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the museum becomes busier during public holidays.",
+      "answerZh": "不用多說，博物館在公眾假期會變得更繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the museum becomes busier during public holidays."
+    },
+    {
+      "id": "ss215-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No responsible organisation would deny that employees should report safety problems immediately.",
+      "promptZh": "任何負責任的機構都不會否認，僱員應該立即報告安全問題。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, employees should report safety problems immediately.",
+      "answerZh": "不用多說，僱員應該立即報告安全問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, employees should report safety problems immediately."
+    },
+    {
+      "id": "ss215-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The result was entirely predictable: the baby was tired after such a long day.",
+      "promptZh": "結果完全可以預料：嬰兒經過漫長的一天後感到疲倦。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the baby was tired after such a long day.",
+      "answerZh": "不用多說，嬰兒經過漫長的一天後感到疲倦。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the baby was tired after such a long day."
+    },
+    {
+      "id": "ss215-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It hardly needs saying that the broken lift must be repaired as soon as possible.",
+      "promptZh": "幾乎毋須多說，損壞的升降機必須盡快維修。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the broken lift must be repaired as soon as possible.",
+      "answerZh": "不用多說，損壞的升降機必須盡快維修。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the broken lift must be repaired as soon as possible."
+    },
+    {
+      "id": "ss215-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Everyone understands that the school trip will be cancelled if the weather becomes dangerous.",
+      "promptZh": "人人都明白，如果天氣變得危險，學校旅行便會取消。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the school trip will be cancelled if the weather becomes dangerous.",
+      "answerZh": "不用多說，如果天氣變得危險，學校旅行便會取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the school trip will be cancelled if the weather becomes dangerous."
+    },
+    {
+      "id": "ss215-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There can be no doubt that people should check the source before sharing information online.",
+      "promptZh": "毫無疑問，人們在網上分享資料前應該核實來源。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, people should check the source before sharing information online.",
+      "answerZh": "不用多說，人們在網上分享資料前應該核實來源。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, people should check the source before sharing information online."
+    },
+    {
+      "id": "ss215-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The fact that staff will need time to learn the new system is obvious.",
+      "promptZh": "員工需要時間學習新系統這一點是顯而易見的。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, staff will need time to learn the new system.",
+      "answerZh": "不用多說，員工需要時間學習新系統。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, staff will need time to learn the new system."
+    },
+    {
+      "id": "ss215-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No responsible patient should need reminding that patients should follow the doctor’s instructions carefully.",
+      "promptZh": "負責任的病人不應需要別人提醒，他們應該仔細遵從醫生的指示。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, patients should follow the doctor’s instructions carefully.",
+      "answerZh": "不用多說，病人應該仔細遵從醫生的指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, patients should follow the doctor’s instructions carefully."
+    },
+    {
+      "id": "ss215-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is perfectly clear that shops cannot sell products that are past their expiry date.",
+      "promptZh": "十分明顯，商店不能售賣已過期的產品。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, shops cannot sell products that are past their expiry date.",
+      "answerZh": "不用多說，商店不能售賣已過期的產品。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, shops cannot sell products that are past their expiry date."
+    },
+    {
+      "id": "ss215-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After the sudden cancellation, it was obvious that the audience expected an explanation.",
+      "promptZh": "活動突然取消後，很明顯觀眾期望得到解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the audience expected an explanation after the sudden cancellation.",
+      "answerZh": "不用多說，活動突然取消後，觀眾期望得到解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the audience expected an explanation after the sudden cancellation."
+    },
+    {
+      "id": "ss215-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We should not have to point out that the manager must consider both cost and quality.",
+      "promptZh": "我們本來不應需要指出，經理必須同時考慮成本和品質。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the manager must consider both cost and quality.",
+      "answerZh": "不用多說，經理必須同時考慮成本和品質。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the manager must consider both cost and quality."
+    },
+    {
+      "id": "ss215-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is common sense that every candidate should arrive before the interview begins.",
+      "promptZh": "每位應徵者都應該在面試開始前到達，這是常識。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, every candidate should arrive before the interview begins.",
+      "answerZh": "不用多說，每位應徵者都應該在面試開始前到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, every candidate should arrive before the interview begins."
+    },
+    {
+      "id": "ss215-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After last year’s damage, anyone can see that the town needs better flood protection.",
+      "promptZh": "經歷去年的破壞後，任何人都看得出這個城鎮需要更完善的防洪措施。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, after last year’s damage, the town needs better flood protection.",
+      "answerZh": "不用多說，經歷去年的破壞後，這個城鎮需要更完善的防洪措施。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, after last year’s damage, the town needs better flood protection."
+    },
+    {
+      "id": "ss215-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is hardly necessary to mention that confidential documents must not be left on an open desk.",
+      "promptZh": "幾乎不必提，機密文件不得留在無人看管的桌面上。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, confidential documents must not be left on an open desk.",
+      "answerZh": "不用多說，機密文件不得留在無人看管的桌面上。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, confidential documents must not be left on an open desk."
+    },
+    {
+      "id": "ss215-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No one could reasonably deny that the restaurant should apologise for serving the wrong meal.",
+      "promptZh": "沒有人可以合理地否認，餐廳送上錯誤餐點後應該道歉。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the restaurant should apologise for serving the wrong meal.",
+      "answerZh": "不用多說，餐廳送上錯誤餐點後應該道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the restaurant should apologise for serving the wrong meal."
+    },
+    {
+      "id": "ss215-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Anyone familiar with the equipment knows that a machine cannot work properly without regular maintenance.",
+      "promptZh": "任何熟悉這種設備的人都知道，機器缺乏定期保養便不能正常運作。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, a machine cannot work properly without regular maintenance.",
+      "answerZh": "不用多說，機器缺乏定期保養便不能正常運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, a machine cannot work properly without regular maintenance."
+    },
+    {
+      "id": "ss215-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The charity must, as everyone would agree, explain how the donated money is used.",
+      "promptZh": "正如大家都會同意，慈善機構必須解釋捐款的用途。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the charity must explain how the donated money is used.",
+      "answerZh": "不用多說，慈善機構必須解釋捐款的用途。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the charity must explain how the donated money is used."
+    },
+    {
+      "id": "ss215-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is widely understood that students learn more effectively when they receive clear feedback.",
+      "promptZh": "大家普遍明白，學生得到清晰回饋時能更有效地學習。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, students learn more effectively when they receive clear feedback.",
+      "answerZh": "不用多說，學生得到清晰回饋時能更有效地學習。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, students learn more effectively when they receive clear feedback."
+    },
+    {
+      "id": "ss215-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is no surprise that the road will be crowded during the evening rush hour.",
+      "promptZh": "這條道路在傍晚繁忙時間會十分擠塞，並不令人意外。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the road will be crowded during the evening rush hour.",
+      "answerZh": "不用多說，這條道路在傍晚繁忙時間會十分擠塞。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the road will be crowded during the evening rush hour."
+    },
+    {
+      "id": "ss215-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It should be clear to everyone that the project cannot succeed without cooperation between departments.",
+      "promptZh": "大家理應清楚，如果部門之間缺乏合作，這個項目便不能成功。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the project cannot succeed without cooperation between departments.",
+      "answerZh": "不用多說，如果部門之間缺乏合作，這個項目便不能成功。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the project cannot succeed without cooperation between departments."
+    },
+    {
+      "id": "ss215-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Nobody needs reminding that residents want the construction noise to end as soon as possible.",
+      "promptZh": "毋須提醒，居民都希望工程噪音盡快停止。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, residents want the construction noise to end as soon as possible.",
+      "answerZh": "不用多說，居民都希望工程噪音盡快停止。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, residents want the construction noise to end as soon as possible."
+    },
+    {
+      "id": "ss215-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The warning is obvious: the medicine should be kept out of children’s reach.",
+      "promptZh": "這項警告十分明確：藥物應該存放在兒童接觸不到的地方。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the medicine should be kept out of children’s reach.",
+      "answerZh": "不用多說，藥物應該存放在兒童接觸不到的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the medicine should be kept out of children’s reach."
+    },
+    {
+      "id": "ss215-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The consequence is predictable: the company will lose public trust if it hides important information.",
+      "promptZh": "後果可以預料：如果公司隱瞞重要資料，便會失去公眾信任。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, the company will lose public trust if it hides important information.",
+      "answerZh": "不用多說，如果公司隱瞞重要資料，便會失去公眾信任。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, the company will lose public trust if it hides important information."
+    },
+    {
+      "id": "ss215-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After three warnings, it was clear that the late payment could no longer be ignored.",
+      "promptZh": "經過三次警告後，很明顯這筆逾期款項已不能再被忽視。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, after three warnings, the late payment could no longer be ignored.",
+      "answerZh": "不用多說，經過三次警告後，這筆逾期款項已不能再被忽視。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, after three warnings, the late payment could no longer be ignored."
+    },
+    {
+      "id": "ss215-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Given the strong evidence, it is obvious that the complaint deserves a full investigation.",
+      "promptZh": "鑑於證據有力，顯然這宗投訴值得接受全面調查。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, given the strong evidence, the complaint deserves a full investigation.",
+      "answerZh": "不用多說，鑑於證據有力，這宗投訴值得接受全面調查。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, given the strong evidence, the complaint deserves a full investigation."
+    },
+    {
+      "id": "ss215-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When public money is involved, everyone understands that every decision should be properly recorded.",
+      "promptZh": "涉及公帑時，人人都明白每項決定都應該妥善記錄。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, when public money is involved, every decision should be properly recorded.",
+      "answerZh": "不用多說，涉及公帑時，每項決定都應該妥善記錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, when public money is involved, every decision should be properly recorded."
+    },
+    {
+      "id": "ss215-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After the data breach, no one could deny that the organisation had to strengthen its security measures.",
+      "promptZh": "資料外洩後，沒有人能否認該機構必須加強保安措施。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, after the data breach, the organisation had to strengthen its security measures.",
+      "answerZh": "不用多說，資料外洩後，該機構必須加強保安措施。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, after the data breach, the organisation had to strengthen its security measures."
+    },
+    {
+      "id": "ss215-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In a hospital, it is self-evident that patient safety must come before convenience or cost.",
+      "promptZh": "在醫院，病人安全必須比便利或成本優先，這是不證自明的。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, in a hospital, patient safety must come before convenience or cost.",
+      "answerZh": "不用多說，在醫院，病人安全必須比便利或成本優先。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, in a hospital, patient safety must come before convenience or cost."
+    },
+    {
+      "id": "ss215-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the same mistake keeps happening, common sense tells us that the process needs to be reviewed.",
+      "promptZh": "如果同一錯誤一再發生，常識告訴我們，相關流程需要重新檢討。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, if the same mistake keeps happening, the process needs to be reviewed.",
+      "answerZh": "不用多說，如果同一錯誤一再發生，相關流程便需要重新檢討。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, if the same mistake keeps happening, the process needs to be reviewed."
+    },
+    {
+      "id": "ss215-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It should be beyond dispute that people affected by a policy should be told clearly how it will affect their lives.",
+      "promptZh": "受政策影響的人應該獲得清晰說明，知道政策會如何影響其生活；這一點不應存在爭議。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, people affected by a policy should be told clearly how it will affect their lives.",
+      "answerZh": "不用多說，受政策影響的人應該獲得清晰說明，知道政策會如何影響其生活。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, people affected by a policy should be told clearly how it will affect their lives."
+    },
+    {
+      "id": "ss215-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Everyone knows that a promise means little unless it is followed by action.",
+      "promptZh": "人人都知道，承諾若沒有行動配合，便沒有多大意義。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, a promise means little unless it is followed by action.",
+      "answerZh": "不用多說，承諾若沒有行動配合，便沒有多大意義。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, a promise means little unless it is followed by action."
+    },
+    {
+      "id": "ss215-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When a service fails repeatedly, it is obvious that an apology alone is not enough.",
+      "promptZh": "當一項服務一再出錯時，顯然單憑道歉並不足夠。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, when a service fails repeatedly, an apology alone is not enough.",
+      "answerZh": "不用多說，當一項服務一再出錯時，單憑道歉並不足夠。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, when a service fails repeatedly, an apology alone is not enough."
+    },
+    {
+      "id": "ss215-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The principle is beyond dispute: leaders who demand accountability from others must also accept it themselves.",
+      "promptZh": "這項原則無可爭議：要求別人承擔責任的領導者，自己也必須接受問責。",
+      "promptZhSource": "pdf",
+      "starter": "Needless",
+      "answer": "Needless to say, leaders who demand accountability from others must also accept it themselves.",
+      "answerZh": "不用多說，要求別人承擔責任的領導者，自己也必須接受問責。",
+      "answerZhSource": "pdf",
+      "highlight": "Needless to say, leaders who demand accountability from others must also accept it themselves."
+    }
+  ]
+}

@@ -1,0 +1,1279 @@
+{
+  "id": "ss150",
+  "order": 150,
+  "slug": "all-cleft",
+  "title": "All-cleft 句",
+  "titleZh": "「All-cleft 句」",
+  "titleEn": "Using the All-cleft to emphasise the only or most important point",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 150 -「All-cleft 句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "All + subject + verb + be + focused noun / phrase / clause",
+  "formulas": [
+    {
+      "id": "ss150-formula-01",
+      "labelEn": "Information focus",
+      "labelZh": "強調人、事物或資料",
+      "formula": "All + subject + verb + be + focused noun / phrase / clause"
+    },
+    {
+      "id": "ss150-formula-02",
+      "labelEn": "Action focus",
+      "labelZh": "強調某人所做的行動",
+      "formula": "All + subject + do / does / did + be + base verb"
+    },
+    {
+      "id": "ss150-formula-03",
+      "labelEn": "Necessary action",
+      "labelZh": "強調唯一需要完成的行動",
+      "formula": "All + subject + have / has / had to do + be + base verb"
+    },
+    {
+      "id": "ss150-formula-04",
+      "labelEn": "All that",
+      "labelZh": "使用 All that",
+      "formula": "All that + verb + be + focused information"
+    }
+  ],
+  "example": "All I want for Christmas is you.",
+  "exampleZh": "我聖誕節想要的只有你。",
+  "examples": [
+    {
+      "id": "ss150-example-01",
+      "en": "All I want for Christmas is you.",
+      "zh": "我聖誕節想要的只有你。",
+      "highlight": "All I want for Christmas is you."
+    },
+    {
+      "id": "ss150-example-02",
+      "en": "All you need to succeed is hard work and time.",
+      "zh": "要成功，你所需要的只是努力和時間。",
+      "highlight": "All you need to succeed is hard work and time."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss150-rule-01",
+      "zh": "All 在這個句型中通常表示「唯一的事物」 這裏的 all 通常不是指「所有人」或「所有東西」，而是接近： （我唯一需要的就是你的幫助。）",
+      "en": "In this structure, All normally means “the only thing”. Here, all does not usually mean “all people” or “all things”; it is closer to “the only thing that ...”, “the only action that ...”, or “everything that ...”. For example, All I need is your help means The only thing I need is your help.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "the only thing that……",
+        "the only action that……",
+        "everything that……",
+        "All I need is your help.",
+        "= The only thing I need is your help."
+      ]
+    },
+    {
+      "id": "ss150-rule-02",
+      "zh": "All 後面必須有一個不完整的子句 在以下句子中，need 後面缺少受詞： 因此，All I need 的意思是「我所需要的一切／我唯一需要的東西」。",
+      "en": "All must be followed by an incomplete clause. In All I need is some water, need is missing its object: I need what? The answer is some water. Thus, All I need means “everything I need” or “the only thing I need”.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "All I need is some water.",
+        "I need what?",
+        "some water"
+      ]
+    },
+    {
+      "id": "ss150-rule-03",
+      "zh": "本練習使用 is 或 was 整個 All + 子句 被視為一項資料或一件事情，因此本練習使用單數動詞： 即使後面的重點部分是複數，本練習仍以 is / was 作為標準答案。",
+      "en": "Use is or was in this exercise. The whole All + clause is treated as one piece of information or one thing, so this exercise uses a singular verb. Even when the focused element that follows is plural, is or was remains the standard answer: All I need is two pens; All she wanted was two tickets.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "All I need is two pens.",
+        "All she wanted was two tickets."
+      ]
+    },
+    {
+      "id": "ss150-rule-04",
+      "zh": "時態必須配合句子的時間 現在的情況通常使用 is： （我想要的只是一點安寧。） 過去的情況通常使用 was： （我當時想要的只是一點安寧。）",
+      "en": "The tense must match the time of the sentence. Present situations normally use is, as in All I want is some peace. Past situations normally use was, as in All I wanted was some peace.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "All I want is some peace.",
+        "All I wanted was some peace."
+      ]
+    },
+    {
+      "id": "ss150-rule-05",
+      "zh": "使用 did 時，was 後面接原形動詞 因為 did 已經表達過去時，所以後面的行動使用原形動詞。",
+      "en": "When the All-clause uses did, follow was with the base form of the verb. Because did already marks the past tense, the following action remains in the base form: All Grace did was smile, not All Grace did was smiled.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "All Grace did was smile.",
+        "All Grace did was smiled."
+      ]
+    },
+    {
+      "id": "ss150-rule-06",
+      "zh": "have to do 後面的行動也使用原形動詞 （你只須按下按鈕。） 不要寫成：",
+      "en": "The action after have to do also uses the base form. Write All you have to do is press the button, not All you have to do is pressing the button.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "All you have to do is press the button.",
+        "All you have to do is pressing the button."
+      ]
+    },
+    {
+      "id": "ss150-rule-07",
+      "zh": "重點部分可以有不同形式 重點部分可以是： 名詞： All I need is a pen. 代名詞： All I want is you. 原形動詞： All he did was wait. 其他資料： All I remember is where we met.",
+      "en": "The focused element can take different forms: a noun (All I need is a pen), a pronoun (All I want is you), a to-infinitive (All she wants is to go home), a base-form verb (All he did was wait), a that-clause (All we know is that the door is locked), or other information (All I remember is where we met).",
+      "enSource": "editorial-translation",
+      "examples": [
+        "to-infinitive： All she wants is to go home.",
+        "that-clause： All we know is that the door is locked."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss150-benefit-01",
+      "zh": "清楚突出最重要的重點 這個句型能讓讀者或聽者立即知道，哪一件事才是句子中最重要的重點。 （最重要的只有你的安全。）",
+      "en": "It clearly highlights the main point This structure tells the listener or reader that one particular thing is the main focus. All that matters is your safety.",
+      "enSource": "pdf",
+      "examples": [
+        "All that matters is your safety."
+      ]
+    },
+    {
+      "id": "ss150-benefit-02",
+      "zh": "把較長的解釋濃縮成一句 你不需要使用兩句重複的句子，也可以把相關資料合併成一句。 中文比較： 我只需要一樣東西。我需要你的幫助。 我所需要的只有你的幫助。",
+      "en": "It can shorten a longer explanation Instead of using two repetitive sentences, you can combine the information into one clear sentence. I need only one thing. I need your help. All I need is your help.",
+      "enSource": "pdf",
+      "examples": [
+        "I need only one thing. I need your help.",
+        "All I need is your help."
+      ]
+    },
+    {
+      "id": "ss150-benefit-03",
+      "zh": "讓指示簡單而直接 使用 All you have to do is...，可以清楚說明某項任務只有一個主要步驟，讓指示更容易理解。 （你只須掃描二維碼。）",
+      "en": "It makes instructions simple and direct The pattern All you have to do is... is useful when explaining that a task is easy or contains only one main step. All you have to do is scan the code.",
+      "enSource": "pdf",
+      "examples": [
+        "All you have to do is scan the code."
+      ]
+    },
+    {
+      "id": "ss150-benefit-04",
+      "zh": "提供容易使用的口語框架 掌握這個句型後，你可以直接把自己的資料放入框架中，不必由第一個字開始重新組織整句。",
+      "en": "It provides a useful speaking frame Once you know the pattern, you can quickly organise an answer without planning every word from the beginning. All I want is... All I know is... All I can say is... All we have to do is...",
+      "enSource": "pdf",
+      "examples": [
+        "All I want is...",
+        "All I know is...",
+        "All I can say is...",
+        "All we have to do is..."
+      ]
+    },
+    {
+      "id": "ss150-benefit-05",
+      "zh": "避免句子開頭過度重複 你不必反覆以 I want、I need、I know 或 I did 開始句子。All-cleft 句能增加句式變化，同時加強 語氣重點。",
+      "en": "It helps avoid repetitive sentence openings Instead of repeatedly beginning sentences with I want, I need, I know or I did, you can use an All-cleft to create sentence variety and stronger emphasis.",
+      "enSource": "pdf",
+      "examples": [
+        "All-cleft to create sentence variety and stronger emphasis."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using All-cleft 句.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 All-cleft 句 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss150-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I do not want anything else right now; I only want a glass of water.",
+      "promptZh": "我現在不想要其他東西；我只想要一杯水。",
+      "promptZhSource": "pdf",
+      "starter": "Right",
+      "answer": "Right now, all I want is a glass of water.",
+      "answerZh": "我現在只想要一杯水。",
+      "answerZhSource": "pdf",
+      "highlight": "Right now, all I want is a glass of water."
+    },
+    {
+      "id": "ss150-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The only thing Mia needs at the moment is a little more time.",
+      "promptZh": "米婭目前唯一需要的是多一點時間。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the moment, all Mia needs is a little more time.",
+      "answerZh": "米婭目前只需要多一點時間。",
+      "answerZhSource": "pdf",
+      "highlight": "At the moment, all Mia needs is a little more time."
+    },
+    {
+      "id": "ss150-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben has no more than ten dollars.",
+      "promptZh": "本只有十元。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All Ben has is ten dollars.",
+      "answerZh": "本所有的只有十元。",
+      "answerZhSource": "pdf",
+      "highlight": "All Ben has is ten dollars."
+    },
+    {
+      "id": "ss150-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We only need some food and water for the picnic.",
+      "promptZh": "我們野餐只需要一些食物和水。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the picnic, all we need is some food and water.",
+      "answerZh": "這次野餐，我們所需要的只有一些食物和水。",
+      "answerZhSource": "pdf",
+      "highlight": "For the picnic, all we need is some food and water."
+    },
+    {
+      "id": "ss150-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Leo does not want any other birthday present; he only wants a new football.",
+      "promptZh": "里奧不想要其他生日禮物；他只想要一個新足球。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For his birthday, all Leo wants is a new football.",
+      "answerZh": "里奧生日想要的只有一個新足球。",
+      "answerZhSource": "pdf",
+      "highlight": "For his birthday, all Leo wants is a new football."
+    },
+    {
+      "id": "ss150-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The baby needs nothing except some sleep.",
+      "promptZh": "嬰兒除了睡一會兒，甚麼也不需要。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All the baby needs is some sleep.",
+      "answerZh": "嬰兒所需要的只是睡一會兒。",
+      "answerZhSource": "pdf",
+      "highlight": "All the baby needs is some sleep."
+    },
+    {
+      "id": "ss150-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What is the only detail you remember about that evening? I remember her name.",
+      "promptZh": "關於那天晚上，你唯一記得的細節是甚麼？我記得她的名字。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All I remember about that evening is her name.",
+      "answerZh": "關於那天晚上，我只記得她的名字。",
+      "answerZhSource": "pdf",
+      "highlight": "All I remember about that evening is her name."
+    },
+    {
+      "id": "ss150-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "They cannot see anything from the hotel room except the sea.",
+      "promptZh": "他們從酒店房間看不到其他東西，只看到大海。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the hotel room, all they can see is the sea.",
+      "answerZh": "從酒店房間望出去，他們能看到的只有大海。",
+      "answerZhSource": "pdf",
+      "highlight": "From the hotel room, all they can see is the sea."
+    },
+    {
+      "id": "ss150-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How do you start the machine? You only have to press this button.",
+      "promptZh": "怎樣啟動這部機器？你只須按下這個按鈕。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To start the machine, all you have to do is press this button.",
+      "answerZh": "要啟動這部機器，你只須按下這個按鈕。",
+      "answerZhSource": "pdf",
+      "highlight": "To start the machine, all you have to do is press this button."
+    },
+    {
+      "id": "ss150-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace did nothing in the end except smile.",
+      "promptZh": "最後，格蕾絲甚麼也沒有做，只是微笑。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the end, all Grace did was smile.",
+      "answerZh": "最後，格蕾絲所做的只是微笑。",
+      "answerZhSource": "pdf",
+      "highlight": "In the end, all Grace did was smile."
+    },
+    {
+      "id": "ss150-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sarah has only one wish at present: to speak to the manager.",
+      "promptZh": "莎拉目前只有一個願望：與經理談話。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, all Sarah wants is to speak to the manager.",
+      "answerZh": "莎拉目前只想與經理談話。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, all Sarah wants is to speak to the manager."
+    },
+    {
+      "id": "ss150-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The only step Daniel needs to take to complete the form is to sign his name.",
+      "promptZh": "丹尼爾要填妥表格，唯一需要做的步驟就是簽名。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To complete the form, all Daniel needs to do is sign his name.",
+      "answerZh": "要填妥表格，丹尼爾只須簽名。",
+      "answerZhSource": "pdf",
+      "highlight": "To complete the form, all Daniel needs to do is sign his name."
+    },
+    {
+      "id": "ss150-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The teacher gave us just one task during class: read the first page.",
+      "promptZh": "老師在課堂上只給了我們一項任務：閱讀第一頁。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During class, all the teacher asked us to do was read the first page.",
+      "answerZh": "課堂上，老師只要求我們閱讀第一頁。",
+      "answerZhSource": "pdf",
+      "highlight": "During class, all the teacher asked us to do was read the first page."
+    },
+    {
+      "id": "ss150-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Noah took only one action when the room became hot: he opened the window.",
+      "promptZh": "房間變熱時，諾亞只採取了一個行動：打開窗戶。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the room became hot, all Noah did was open the window.",
+      "answerZh": "房間變熱時，諾亞所做的只是打開窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "When the room became hot, all Noah did was open the window."
+    },
+    {
+      "id": "ss150-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My parents want nothing more than for me to be safe.",
+      "promptZh": "我的父母最希望的就是我平安。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All my parents want is for me to be safe.",
+      "answerZh": "我的父母想要的只是我平安。",
+      "answerZhSource": "pdf",
+      "highlight": "All my parents want is for me to be safe."
+    },
+    {
+      "id": "ss150-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The only fact we know so far is that the shop closes at six.",
+      "promptZh": "目前我們唯一知道的事實是商店六時關門。",
+      "promptZhSource": "pdf",
+      "starter": "So",
+      "answer": "So far, all we know is that the shop closes at six.",
+      "answerZh": "到目前為止，我們只知道商店六時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "So far, all we know is that the shop closes at six."
+    },
+    {
+      "id": "ss150-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What could Chloe hear during the night? She could hear only the rain.",
+      "promptZh": "克洛伊晚上能聽到甚麼？她只聽到雨聲。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the night, all Chloe could hear was the rain.",
+      "answerZh": "晚上，克洛伊能聽到的只有雨聲。",
+      "answerZhSource": "pdf",
+      "highlight": "During the night, all Chloe could hear was the rain."
+    },
+    {
+      "id": "ss150-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The dog wanted nothing that morning except to go outside.",
+      "promptZh": "那天早上，狗除了想出外，甚麼也不想。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That morning, all the dog wanted was to go outside.",
+      "answerZh": "那天早上，狗只想出外。",
+      "answerZhSource": "pdf",
+      "highlight": "That morning, all the dog wanted was to go outside."
+    },
+    {
+      "id": "ss150-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Your student card is the only thing you need to bring for the exam.",
+      "promptZh": "學生證是你考試時唯一需要攜帶的東西。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the exam, all you need to bring is your student card.",
+      "answerZh": "考試時，你只需要帶學生證。",
+      "answerZhSource": "pdf",
+      "highlight": "For the exam, all you need to bring is your student card."
+    },
+    {
+      "id": "ss150-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Your effort is the only thing that matters in the end.",
+      "promptZh": "最後，唯一重要的是你的努力。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the end, all that matters is your effort.",
+      "answerZh": "到最後，真正重要的只有你的努力。",
+      "answerZhSource": "pdf",
+      "highlight": "In the end, all that matters is your effort."
+    },
+    {
+      "id": "ss150-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A new battery is the only thing the machine needs in order to work again.",
+      "promptZh": "這部機器要重新運作，唯一需要的是一枚新電池。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To work again, all the machine needs is a new battery.",
+      "answerZh": "要重新運作，這部機器所需要的只是一枚新電池。",
+      "answerZhSource": "pdf",
+      "highlight": "To work again, all the machine needs is a new battery."
+    },
+    {
+      "id": "ss150-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The visitors only had to show their tickets at the entrance.",
+      "promptZh": "訪客在入口處只須出示門票。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the entrance, all the visitors had to do was show their tickets.",
+      "answerZh": "在入口處，訪客只須出示門票。",
+      "answerZhSource": "pdf",
+      "highlight": "At the entrance, all the visitors had to do was show their tickets."
+    },
+    {
+      "id": "ss150-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What did you find in the old drawer? I found only one old photograph.",
+      "promptZh": "你在舊抽屜裏找到甚麼？我只找到一張舊照片。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the old drawer, all I could find was one old photograph.",
+      "answerZh": "在舊抽屜裏，我能找到的只有一張舊照片。",
+      "answerZhSource": "pdf",
+      "highlight": "In the old drawer, all I could find was one old photograph."
+    },
+    {
+      "id": "ss150-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The nurse gave him only one instruction during the check-up: breathe slowly.",
+      "promptZh": "檢查期間，護士只給了他一項指示：慢慢呼吸。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the check-up, all the nurse asked him to do was breathe slowly.",
+      "answerZh": "檢查期間，護士只要求他慢慢呼吸。",
+      "answerZhSource": "pdf",
+      "highlight": "During the check-up, all the nurse asked him to do was breathe slowly."
+    },
+    {
+      "id": "ss150-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A fair chance was the only thing the team wanted after months of training.",
+      "promptZh": "經過數月訓練，球隊唯一想要的是一個公平的機會。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After months of training, all the team wanted was a fair chance.",
+      "answerZh": "經過數月訓練，球隊想要的只是一個公平的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "After months of training, all the team wanted was a fair chance."
+    },
+    {
+      "id": "ss150-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Waiting is the only action available to us for now.",
+      "promptZh": "目前，等待是我們唯一可以採取的行動。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For now, all we can do is wait.",
+      "answerZh": "目前，我們唯一能做的就是等待。",
+      "answerZhSource": "pdf",
+      "highlight": "For now, all we can do is wait."
+    },
+    {
+      "id": "ss150-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After the call, she needed only one piece of news: no one had been hurt.",
+      "promptZh": "通話後，她只需要聽到一個消息：沒有人受傷。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the call, all she needed to hear was that no one had been hurt.",
+      "answerZh": "通話後，她只需要聽到沒有人受傷。",
+      "answerZhSource": "pdf",
+      "highlight": "After the call, all she needed to hear was that no one had been hurt."
+    },
+    {
+      "id": "ss150-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The children did nothing during the tour except follow the guide.",
+      "promptZh": "參觀期間，孩子們甚麼也沒有做，只是跟隨導遊。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the tour, all the children did was follow the guide.",
+      "answerZh": "參觀期間，孩子們所做的只是跟隨導遊。",
+      "answerZhSource": "pdf",
+      "highlight": "During the tour, all the children did was follow the guide."
+    },
+    {
+      "id": "ss150-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The recipe requires only two eggs and some milk for this cake.",
+      "promptZh": "這個蛋糕的食譜只需要兩隻雞蛋和一些牛奶。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For this cake, all the recipe requires is two eggs and some milk.",
+      "answerZh": "做這個蛋糕，食譜所需的只有兩隻雞蛋和一些牛奶。",
+      "answerZhSource": "pdf",
+      "highlight": "For this cake, all the recipe requires is two eggs and some milk."
+    },
+    {
+      "id": "ss150-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The only thing I want you to do at this moment is listen carefully.",
+      "promptZh": "此刻，我唯一想你做的事就是仔細聆聽。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this moment, all I want you to do is listen carefully.",
+      "answerZh": "此刻，我只想你仔細聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "At this moment, all I want you to do is listen carefully."
+    },
+    {
+      "id": "ss150-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What did the customer want after making the complaint? The customer wanted only a refund.",
+      "promptZh": "顧客提出投訴後想要甚麼？顧客只想退款。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the complaint, all the customer wanted was a refund.",
+      "answerZh": "提出投訴後，顧客想要的只是退款。",
+      "answerZhSource": "pdf",
+      "highlight": "After the complaint, all the customer wanted was a refund."
+    },
+    {
+      "id": "ss150-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The door code is the only thing you have to remember before you leave.",
+      "promptZh": "離開前，你唯一必須記住的是門鎖密碼。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before you leave, all you have to remember is the door code.",
+      "answerZh": "離開前，你只須記住門鎖密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Before you leave, all you have to remember is the door code."
+    },
+    {
+      "id": "ss150-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The wind damaged nothing during the storm except the garden fence.",
+      "promptZh": "暴風雨期間，強風只損壞了花園圍欄，沒有損壞其他東西。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the storm, all the wind damaged was the garden fence.",
+      "answerZh": "暴風雨期間，強風損壞的只有花園圍欄。",
+      "answerZhSource": "pdf",
+      "highlight": "During the storm, all the wind damaged was the garden fence."
+    },
+    {
+      "id": "ss150-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I did only two things after work: I took a shower and went to bed.",
+      "promptZh": "下班後，我只做了兩件事：洗澡和上床睡覺。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After work, all I did was take a shower and go to bed.",
+      "answerZh": "下班後，我所做的只是洗澡和上床睡覺。",
+      "answerZhSource": "pdf",
+      "highlight": "After work, all I did was take a shower and go to bed."
+    },
+    {
+      "id": "ss150-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Only a small wooden box remained inside the room.",
+      "promptZh": "房間裏只剩下一個小木箱。",
+      "promptZhSource": "pdf",
+      "starter": "Inside",
+      "answer": "Inside the room, all that remained was a small wooden box.",
+      "answerZh": "房間裏剩下的只有一個小木箱。",
+      "answerZhSource": "pdf",
+      "highlight": "Inside the room, all that remained was a small wooden box."
+    },
+    {
+      "id": "ss150-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school’s computer room is the only thing it needs to improve at present.",
+      "promptZh": "目前，學校唯一需要改善的是電腦室。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, all the school needs to improve is its computer room.",
+      "answerZh": "目前，學校需要改善的只有電腦室。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, all the school needs to improve is its computer room."
+    },
+    {
+      "id": "ss150-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We heard nothing from the speaker at the meeting except a short apology.",
+      "promptZh": "會議上，我們沒有從講者口中聽到其他內容，只有一句簡短的道歉。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the meeting, all we heard from the speaker was a short apology.",
+      "answerZh": "會議上，我們從講者口中聽到的只有一句簡短的道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "At the meeting, all we heard from the speaker was a short apology."
+    },
+    {
+      "id": "ss150-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After the examination, the doctor could tell me only one thing: I needed a few days’ rest.",
+      "promptZh": "檢查後，醫生只能告訴我一件事：我需要休息數天。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the examination, all the doctor could say was that I needed a few days’ rest.",
+      "answerZh": "檢查後，醫生只能說我需要休息數天。",
+      "answerZhSource": "pdf",
+      "highlight": "After the examination, all the doctor could say was that I needed a few days’ rest."
+    },
+    {
+      "id": "ss150-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager gave the staff only one final instruction before the deadline: check the figures again.",
+      "promptZh": "限期前，經理只給員工一項最後指示：再次核對數字。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the deadline, all the manager asked the staff to do was check the figures again.",
+      "answerZh": "限期前，經理只要求員工再次核對數字。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the deadline, all the manager asked the staff to do was check the figures again."
+    },
+    {
+      "id": "ss150-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new rule changes only one detail in practice: the application deadline.",
+      "promptZh": "實際上，新規則只改變了一項細節：申請限期。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In practice, all the new rule changes is the application deadline.",
+      "answerZh": "實際上，新規則所改變的只有申請限期。",
+      "answerZhSource": "pdf",
+      "highlight": "In practice, all the new rule changes is the application deadline."
+    },
+    {
+      "id": "ss150-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Only a free reading room is offered by the community centre on Sundays.",
+      "promptZh": "社區中心星期日只提供免費閱覽室。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On Sundays, all the community centre offers is a free reading room.",
+      "answerZh": "星期日，社區中心所提供的只有免費閱覽室。",
+      "answerZhSource": "pdf",
+      "highlight": "On Sundays, all the community centre offers is a free reading room."
+    },
+    {
+      "id": "ss150-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The passengers had only one task before boarding: scan their travel documents.",
+      "promptZh": "登機前，乘客只有一項任務：掃描旅遊證件。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before boarding, all the passengers had to do was scan their travel documents.",
+      "answerZh": "登機前，乘客只須掃描旅遊證件。",
+      "answerZhSource": "pdf",
+      "highlight": "Before boarding, all the passengers had to do was scan their travel documents."
+    },
+    {
+      "id": "ss150-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I want people to understand only one main idea in this lesson: small actions can reduce waste.",
+      "promptZh": "在這一課，我只想大家明白一個主要概念：小行動可以減少浪費。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this lesson, all I want people to understand is that small actions can reduce waste.",
+      "answerZh": "在這一課，我只想大家明白小行動可以減少浪費。",
+      "answerZhSource": "pdf",
+      "highlight": "In this lesson, all I want people to understand is that small actions can reduce waste."
+    },
+    {
+      "id": "ss150-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "According to the report, the figures support only one conclusion: sales fell slightly in June.",
+      "promptZh": "根據報告，數字只支持一個結論：六月的銷售額輕微下跌。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the report, all the figures show is that sales fell slightly in June.",
+      "answerZh": "根據報告，這些數字只顯示六月的銷售額輕微下跌。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the report, all the figures show is that sales fell slightly in June."
+    },
+    {
+      "id": "ss150-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The volunteers did nothing during the storm except deliver food to elderly residents.",
+      "promptZh": "暴風雨期間，義工甚麼也沒有做，只是向年長居民運送食物。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the storm, all the volunteers did was deliver food to elderly residents.",
+      "answerZh": "暴風雨期間，義工所做的只是向年長居民運送食物。",
+      "answerZhSource": "pdf",
+      "highlight": "During the storm, all the volunteers did was deliver food to elderly residents."
+    },
+    {
+      "id": "ss150-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What is the only difference between the two plans in the final version? Their payment schedule.",
+      "promptZh": "最終版本中，兩個方案唯一的分別是甚麼？是付款時間表。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the final version, all that separates the two plans is their payment schedule.",
+      "answerZh": "最終版本中，兩個方案之間唯一的分別是付款時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "In the final version, all that separates the two plans is their payment schedule."
+    },
+    {
+      "id": "ss150-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Only one emergency contact number was requested from parents by the school for the trip.",
+      "promptZh": "學校就這次旅程只要求家長提供一個緊急聯絡電話。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the trip, all the school asked parents to provide was one emergency contact number.",
+      "answerZh": "就這次旅程，學校只要求家長提供一個緊急聯絡電話。",
+      "answerZhSource": "pdf",
+      "highlight": "For the trip, all the school asked parents to provide was one emergency contact number."
+    },
+    {
+      "id": "ss150-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The technician required only a simple test to discover the fault.",
+      "promptZh": "技術員只需要進行一項簡單測試，便能找出故障。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To discover the fault, all the technician needed was a simple test.",
+      "answerZh": "要找出故障，技術員所需要的只是一項簡單測試。",
+      "answerZhSource": "pdf",
+      "highlight": "To discover the fault, all the technician needed was a simple test."
+    },
+    {
+      "id": "ss150-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At this stage, we are making only one request of the company: explain the delay clearly.",
+      "promptZh": "現階段，我們只向公司提出一項要求：清楚解釋延誤。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, all we are asking the company to do is explain the delay clearly.",
+      "answerZh": "現階段，我們只要求公司清楚解釋延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, all we are asking the company to do is explain the delay clearly."
+    },
+    {
+      "id": "ss150-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Only one promise can be made by the committee at this stage: every application will be reviewed fairly.",
+      "promptZh": "現階段，委員會只能作出一項承諾：每份申請都會獲得公平審核。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, all the committee can promise is that every application will be reviewed fairly.",
+      "answerZh": "現階段，委員會唯一能承諾的是每份申請都會獲得公平審核。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, all the committee can promise is that every application will be reviewed fairly."
+    }
+  ]
+}

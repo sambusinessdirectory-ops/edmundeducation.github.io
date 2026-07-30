@@ -1,0 +1,1238 @@
+{
+  "id": "ss217",
+  "order": 217,
+  "slug": "one-thing-is",
+  "title": "「One thing ... is ...」突出一項重點",
+  "titleZh": "「One thing ... is ...」突出一項重點",
+  "titleEn": "Using “One thing ... is ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 216 -「One thing ... is ...」突出一項重點.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 216; it is assigned system ID ss217 because the source set contains two distinct PDFs labelled 201.",
+      "The PDF has no separately labelled bilingual model example; the first verified answer-key sentence is used as the example."
+    ]
+  },
+  "formula": "One thing + defining clause + is / was + complement",
+  "formulas": [
+    {
+      "id": "ss217-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "One thing + defining clause + is / was + complement"
+    }
+  ],
+  "example": "One thing we cannot ignore is the cost of delay.",
+  "exampleZh": "我們不能忽視的一件事，是延誤的代價。",
+  "examples": [
+    {
+      "id": "ss217-example-01",
+      "en": "One thing we cannot ignore is the cost of delay.",
+      "zh": "我們不能忽視的一件事，是延誤的代價。",
+      "highlight": "One thing we cannot ignore is the cost of delay."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：One thing + defining clause + is / was + complement。"
+  },
+  "rules": [
+    {
+      "id": "ss217-rule-01",
+      "zh": "中間部分用來限定 one thing 所指的是甚麼 （我們需要討論的一件事，是預算。） 中間的 we need to discuss 說明是哪一件事。",
+      "en": "The middle clause defines which one thing is meant. In “One thing we need to discuss is the budget”, we need to discuss identifies the particular thing.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "One thing we need to discuss is the budget."
+      ]
+    },
+    {
+      "id": "ss217-rule-02",
+      "zh": "當 thing 是中間子句的受詞時，that 通常可以省略 以下兩句均正確： 在日常英語中，省略 that 的版本較常見。",
+      "en": "When thing is the object of the middle clause, that can normally be omitted. Both are correct: One thing that we should remember is the deadline. One thing we should remember is the deadline. The version without that is more common in everyday English.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "One thing that we should remember is the deadline.",
+        "One thing we should remember is the deadline."
+      ]
+    },
+    {
+      "id": "ss217-rule-03",
+      "zh": "當 thing 是中間子句的主詞時，that 不可省略 正確： 錯誤： 因為是那件事情「令居民擔心」，所以 that 是子句的主詞，不可刪去。",
+      "en": "When thing is the subject of the middle clause, that cannot be omitted. Correct: One thing that concerns residents is the lack of buses. Incorrect: One thing concerns residents is the lack of buses. Here, that is the subject of concerns because the thing itself concerns residents.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "One thing that concerns residents is the lack of buses.",
+        "One thing concerns residents is the lack of buses."
+      ]
+    },
+    {
+      "id": "ss217-rule-04",
+      "zh": "按照時間使用 is 或 was 現在情況： 過去情況：",
+      "en": "Choose is or was according to time. Present situation: One thing I enjoy is the flexible schedule. Past situation: One thing I noticed was how quiet the room was.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "One thing I enjoy is the flexible schedule.",
+        "One thing I noticed was how quiet the room was."
+      ]
+    },
+    {
+      "id": "ss217-rule-05",
+      "zh": "is／was 後面可以接不同內容 名詞或名詞詞組 that 子句 疑問詞子句 行動 當中間部分含有 do 時，後面通常使用原形動詞：",
+      "en": "Different complements can follow is or was: a noun or noun phrase, as in “One thing the room lacks is natural light”; a that-clause, as in “One thing we know is that regular sleep improves concentration”; a wh-clause, as in “One thing we need to discuss is how the plan will be funded”; or an action, as in “One thing you can do is ask the teacher for help.” When the middle clause contains do, the complement normally uses the base verb: One thing we should do is reduce waste.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "One thing the room lacks is natural light.",
+        "One thing we know is that regular sleep improves concentration.",
+        "One thing we need to discuss is how the plan will be funded.",
+        "One thing you can do is ask the teacher for help.",
+        "One thing we should do is reduce waste."
+      ]
+    },
+    {
+      "id": "ss217-rule-06",
+      "zh": "不要與 The thing is, ... 混淆 指出某一項具體重點： 是一個談話用語，用來引出解釋、困難或真正情況： 兩者的結構和用途並不相同。",
+      "en": "Do not confuse “One thing ... is ...” with “The thing is, ....” The first identifies one specific point: One thing we need to change is the timetable. The second is a conversational expression introducing an explanation, difficulty or real situation: The thing is, we do not have enough time. Their structures and purposes differ.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "One thing ... is ...",
+        "One thing we need to change is the timetable.",
+        "The thing is, ...",
+        "The thing is, we do not have enough time."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss217-benefit-01",
+      "zh": "把讀者的注意力集中在一項重點上 當一個話題包含很多資料時，這個句型能告訴讀者：「以下這一點值得留意。」 讀者會立即知道句子的重點是 the cost of delay。",
+      "en": "It focuses the reader on one important point. When a topic contains much information, the frame signals that the next point deserves attention. In “One thing we cannot ignore is the cost of delay”, the reader immediately recognises the cost of delay as the focus.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss217-benefit-02",
+      "zh": "幫助你逐點組織內容 在作文、報告、會議或口頭回答中，你可以逐一提出不同重點： 這樣能避免把所有資料擠在同一句中，令說明更有條理。",
+      "en": "It helps organise information point by point in essays, reports, meetings and spoken answers: One thing we need to consider is the cost. Another thing we need to consider is the time required. This avoids crowding all the information into one sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss217-benefit-03",
+      "zh": "把兩句短句合併成一句 比較： 改寫為： 第二個版本較緊湊，而且能清楚顯示「需要討論」與「預算」之間的關係。",
+      "en": "It combines two short sentences into one. Compare: We need to discuss several matters. The budget is one of them. → One thing we need to discuss is the budget. The second version is tighter and clearly connects what needs discussion with the budget.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss217-benefit-04",
+      "zh": "讓重點更加準確 中間部分可以說明為甚麼該項事情值得提出： 這不只是說「巴士不足」，而是準確說明這是令居民擔心的事情。",
+      "en": "It makes the focus more precise because the middle clause can explain why the point matters: One thing that concerns residents is the lack of late-night buses. This identifies the bus shortage specifically as a concern, not merely as a fact.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss217-benefit-05",
+      "zh": "避免重複使用 There is 或 It is important 學生經常寫： 你可以改用： 這能增加句式變化，令說話和寫作不會過分重複。",
+      "en": "It avoids repeatedly using There is or It is important. Instead of “It is important to remember the deadline”, “It is important to consider the cost” and “It is important to check the details”, write: One thing we should remember is the deadline. One thing we should consider is the cost. One thing we should check is the details. This adds sentence variety.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss217-benefit-06",
+      "zh": "提供容易使用的口語框架 在說話時，你可以先使用以下框架，再填入自己的內容： 這個框架能幫助你一邊思考，一邊有條理地表達答案。",
+      "en": "It provides easy speaking frames: One thing I like about ___ is ___. One thing we need to improve is ___. One thing that concerns me is ___. One thing I learnt from this experience is ___. Fill in the blanks to organise an answer while you think.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 216; it is assigned system ID ss217 because the source set contains two distinct PDFs labelled 201.",
+    "The PDF has no separately labelled bilingual model example; the first verified answer-key sentence is used as the example."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: One thing + defining clause + is / was + complement.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「One thing + defining clause + is / was + complement」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss217-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There is an important issue we cannot ignore: the cost of delay.",
+      "promptZh": "有一項重要問題我們不能忽視：延誤的代價。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing we cannot ignore is the cost of delay.",
+      "answerZh": "我們不能忽視的一件事，是延誤的代價。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing we cannot ignore is the cost of delay."
+    },
+    {
+      "id": "ss217-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I especially enjoy the group discussion in this class.",
+      "promptZh": "我特別喜歡這課堂的小組討論環節。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing I enjoy about this class is the group discussion.",
+      "answerZh": "我喜歡這課堂的一點，是小組討論。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing I enjoy about this class is the group discussion."
+    },
+    {
+      "id": "ss217-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You should bring one essential item: a bottle of water.",
+      "promptZh": "你應該帶一件必需品：一瓶水。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing you should bring is a bottle of water.",
+      "answerZh": "你應該帶的一樣東西，是一瓶水。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing you should bring is a bottle of water."
+    },
+    {
+      "id": "ss217-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Maya particularly needs more time to practise.",
+      "promptZh": "瑪雅特別需要更多時間練習。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing Maya needs is more time to practise.",
+      "answerZh": "瑪雅需要的一樣東西，是更多練習時間。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing Maya needs is more time to practise."
+    },
+    {
+      "id": "ss217-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The room has one clear weakness: it lacks natural light.",
+      "promptZh": "這個房間有一個明顯缺點：房內缺乏自然光。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the room lacks is natural light.",
+      "answerZh": "這個房間欠缺的一樣東西，是自然光。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the room lacks is natural light."
+    },
+    {
+      "id": "ss217-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Before we leave, we should check the train timetable.",
+      "promptZh": "離開前，我們應該查看火車時間表。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing we should check before leaving is the train timetable.",
+      "answerZh": "我們離開前應查看的一項資料，是火車時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing we should check before leaving is the train timetable."
+    },
+    {
+      "id": "ss217-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben forgot one item yesterday: his student card.",
+      "promptZh": "本昨天忘記帶一樣東西：他的學生證。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing Ben forgot yesterday was his student card.",
+      "answerZh": "本昨天忘記帶的一樣東西，是他的學生證。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing Ben forgot yesterday was his student card."
+    },
+    {
+      "id": "ss217-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This phone needs one improvement: a stronger battery.",
+      "promptZh": "這部手機需要一項改進：一枚效能更強的電池。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing this phone needs is a stronger battery.",
+      "answerZh": "這部手機需要的一項改進，是一枚效能更強的電池。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing this phone needs is a stronger battery."
+    },
+    {
+      "id": "ss217-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children especially loved the treasure hunt.",
+      "promptZh": "孩子們特別喜歡尋寶遊戲。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the children loved was the treasure hunt.",
+      "answerZh": "孩子們喜歡的一項活動，是尋寶遊戲。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the children loved was the treasure hunt."
+    },
+    {
+      "id": "ss217-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our team places particular value on honest feedback.",
+      "promptZh": "我們的團隊特別重視坦誠的意見。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing our team values is honest feedback.",
+      "answerZh": "我們團隊重視的一樣東西，是坦誠的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing our team values is honest feedback."
+    },
+    {
+      "id": "ss217-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Students should remember an important fact: good writing takes revision.",
+      "promptZh": "學生應該記住一項重要事實：好的文章需要反覆修改。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing students should remember is that good writing takes revision.",
+      "answerZh": "學生應記住的一件事，是好的文章需要反覆修改。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing students should remember is that good writing takes revision."
+    },
+    {
+      "id": "ss217-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I noticed something striking: she answered very calmly.",
+      "promptZh": "我留意到一件很突出的事情：她回答得非常冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing I noticed was how calmly she answered.",
+      "answerZh": "我留意到的一件事，是她回答得多麼冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing I noticed was how calmly she answered."
+    },
+    {
+      "id": "ss217-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The guide explained one important fact: the path becomes slippery after rain.",
+      "promptZh": "導遊解釋了一項重要事項：下雨後小徑會變得濕滑。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the guide explained was that the path becomes slippery after rain.",
+      "answerZh": "導遊解釋的一件事，是下雨後小徑會變得濕滑。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the guide explained was that the path becomes slippery after rain."
+    },
+    {
+      "id": "ss217-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We know one useful fact: regular sleep improves concentration.",
+      "promptZh": "我們知道一項有用的事實：規律睡眠有助提升專注力。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing we know is that regular sleep improves concentration.",
+      "answerZh": "我們知道的一件事，是規律睡眠有助提升專注力。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing we know is that regular sleep improves concentration."
+    },
+    {
+      "id": "ss217-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel especially appreciates the flexible schedule in his job.",
+      "promptZh": "丹尼爾特別欣賞工作中的彈性時間安排。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing Daniel appreciates about his job is the flexible schedule.",
+      "answerZh": "丹尼爾欣賞這份工作的一點，是彈性的時間安排。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing Daniel appreciates about his job is the flexible schedule."
+    },
+    {
+      "id": "ss217-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You have one simple option: ask the librarian for help.",
+      "promptZh": "你有一個簡單的選擇：向圖書館職員尋求協助。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing you can do is ask the librarian for help.",
+      "answerZh": "你可以做的一件事，是向圖書館職員尋求協助。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing you can do is ask the librarian for help."
+    },
+    {
+      "id": "ss217-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop should improve its return policy in particular.",
+      "promptZh": "這間商店尤其應該改善退貨政策。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the shop should improve is its return policy.",
+      "answerZh": "這間商店應該改善的一件事，是它的退貨政策。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the shop should improve is its return policy."
+    },
+    {
+      "id": "ss217-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The size of the crowd surprised us.",
+      "promptZh": "到場人數之多令我們感到驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that surprised us was the size of the crowd.",
+      "answerZh": "令我們感到驚訝的一件事，是到場人數之多。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that surprised us was the size of the crowd."
+    },
+    {
+      "id": "ss217-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The app’s simple design is one reason it is useful.",
+      "promptZh": "這個應用程式實用的其中一個原因，是它的設計簡潔。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that makes this app useful is its simple design.",
+      "answerZh": "令這個應用程式實用的一點，是它的簡潔設計。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that makes this app useful is its simple design."
+    },
+    {
+      "id": "ss217-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The doctor gave me one main piece of advice: drink more water.",
+      "promptZh": "醫生給了我一項主要建議：多喝水。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the doctor advised me to do was drink more water.",
+      "answerZh": "醫生建議我做的一件事，是多喝水。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the doctor advised me to do was drink more water."
+    },
+    {
+      "id": "ss217-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We need to discuss an important question: how will the new rule affect staff?",
+      "promptZh": "我們需要討論一個重要問題：新規則將如何影響員工？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing we need to discuss is how the new rule will affect staff.",
+      "answerZh": "我們需要討論的一件事，是新規則將如何影響員工。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing we need to discuss is how the new rule will affect staff."
+    },
+    {
+      "id": "ss217-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Residents are concerned about the lack of late-night buses.",
+      "promptZh": "居民擔心深夜巴士服務不足。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that concerns residents is the lack of late-night buses.",
+      "answerZh": "令居民擔心的一件事，是深夜巴士服務不足。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that concerns residents is the lack of late-night buses."
+    },
+    {
+      "id": "ss217-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The survey reveals one clear finding: customers want faster replies.",
+      "promptZh": "調查揭示了一項明確結果：顧客希望更快收到回覆。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the survey shows is that customers want faster replies.",
+      "answerZh": "調查顯示的一件事，是顧客希望更快收到回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the survey shows is that customers want faster replies."
+    },
+    {
+      "id": "ss217-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The mistake taught me that checking details is important.",
+      "promptZh": "這次錯誤令我明白，核對細節十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing I learnt from the mistake was the importance of checking details.",
+      "answerZh": "我從這次錯誤中學到的一件事，是核對細節的重要性。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing I learnt from the mistake was the importance of checking details."
+    },
+    {
+      "id": "ss217-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school can take one practical step: provide more quiet study areas.",
+      "promptZh": "學校可以採取一項實際措施：增設更多安靜的溫習區。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the school can do is provide more quiet study areas.",
+      "answerZh": "學校可以做的一件事，是增設更多安靜的溫習區。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the school can do is provide more quiet study areas."
+    },
+    {
+      "id": "ss217-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Some people do not cycle because there are not enough safe cycle paths.",
+      "promptZh": "有些人不踏單車，是因為安全單車徑不足。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that prevents some people from cycling is the lack of safe cycle paths.",
+      "answerZh": "令部分人不願踏單車的一個原因，是安全單車徑不足。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that prevents some people from cycling is the lack of safe cycle paths."
+    },
+    {
+      "id": "ss217-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The machine has one limitation: it cannot detect very small cracks.",
+      "promptZh": "這部機器有一項限制：它無法偵測非常細小的裂縫。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the machine cannot detect is very small cracks.",
+      "answerZh": "這部機器無法偵測的一樣東西，是非常細小的裂縫。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the machine cannot detect is very small cracks."
+    },
+    {
+      "id": "ss217-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We should avoid one common mistake: making promises we cannot keep.",
+      "promptZh": "我們應該避免一個常見錯誤：作出自己無法兌現的承諾。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing we should avoid is making promises we cannot keep.",
+      "answerZh": "我們應該避免的一件事，是作出自己無法兌現的承諾。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing we should avoid is making promises we cannot keep."
+    },
+    {
+      "id": "ss217-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The report leaves one question unanswered: why did costs rise so quickly?",
+      "promptZh": "報告沒有回答一個問題：成本為甚麼上升得這麼快？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the report does not explain is why costs rose so quickly.",
+      "answerZh": "報告沒有解釋的一件事，是成本為甚麼上升得這麼快。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the report does not explain is why costs rose so quickly."
+    },
+    {
+      "id": "ss217-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Her family’s support played an important part in Maya’s recovery.",
+      "promptZh": "家人的支持在瑪雅康復的過程中發揮了重要作用。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that helped Maya recover was the support of her family.",
+      "answerZh": "幫助瑪雅康復的一項因素，是家人的支持。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that helped Maya recover was the support of her family."
+    },
+    {
+      "id": "ss217-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Managers must consider an important question: is the deadline realistic?",
+      "promptZh": "管理人員必須考慮一個重要問題：這個截止日期是否實際可行？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing managers must consider is whether the deadline is realistic.",
+      "answerZh": "管理人員必須考慮的一件事，是截止日期是否實際可行。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing managers must consider is whether the deadline is realistic."
+    },
+    {
+      "id": "ss217-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new system has one useful function: it allows staff to track orders in real time.",
+      "promptZh": "新系統有一項實用功能：它讓員工即時追蹤訂單。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the new system allows staff to do is track orders in real time.",
+      "answerZh": "新系統讓員工做到的一件事，是即時追蹤訂單。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the new system allows staff to do is track orders in real time."
+    },
+    {
+      "id": "ss217-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Clearer date labelling could reduce food waste.",
+      "promptZh": "更清晰的日期標示可以減少食物浪費。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that could reduce food waste is clearer date labelling.",
+      "answerZh": "可以減少食物浪費的一項措施，是更清晰的日期標示。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that could reduce food waste is clearer date labelling."
+    },
+    {
+      "id": "ss217-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Visitors receive one instruction: keep your tickets until you leave.",
+      "promptZh": "訪客會收到一項指示：離場前須保留門票。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing visitors are asked to do is keep their tickets until they leave.",
+      "answerZh": "訪客被要求做的一件事，是保留門票直至離場。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing visitors are asked to do is keep their tickets until they leave."
+    },
+    {
+      "id": "ss217-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "During the fire drill, we learnt where the nearest exit was.",
+      "promptZh": "在火警演習期間，我們得知了最近出口的位置。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing we learnt during the fire drill was where the nearest exit was.",
+      "answerZh": "我們在火警演習中得知的一件事，是最近出口的位置。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing we learnt during the fire drill was where the nearest exit was."
+    },
+    {
+      "id": "ss217-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The council has made a clear promise: the park will remain open.",
+      "promptZh": "市議會作出了一項明確承諾：公園將會繼續開放。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the council has promised is that the park will remain open.",
+      "answerZh": "市議會承諾的一件事，是公園將會繼續開放。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the council has promised is that the park will remain open."
+    },
+    {
+      "id": "ss217-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This course differs from others because it offers practical training.",
+      "promptZh": "這個課程因為提供實務訓練，所以有別於其他課程。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that distinguishes this course from others is its practical training.",
+      "answerZh": "令這個課程有別於其他課程的一點，是它提供的實務訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that distinguishes this course from others is its practical training."
+    },
+    {
+      "id": "ss217-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Customers often complain that they have to repeat the same information.",
+      "promptZh": "顧客經常投訴，他們需要重複提供相同資料。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing customers often complain about is having to repeat the same information.",
+      "answerZh": "顧客經常投訴的一件事，是需要重複提供相同資料。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing customers often complain about is having to repeat the same information."
+    },
+    {
+      "id": "ss217-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The team must not overlook the risk of relying on one supplier.",
+      "promptZh": "團隊不可忽視依賴單一供應商的風險。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the team must not overlook is the risk of relying on one supplier.",
+      "answerZh": "團隊不可忽視的一件事，是依賴單一供應商的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the team must not overlook is the risk of relying on one supplier."
+    },
+    {
+      "id": "ss217-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Clear diagrams made the instructions easier to follow.",
+      "promptZh": "清晰的圖示令指示更容易理解和跟從。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that made the instructions easier to follow was the use of clear diagrams.",
+      "answerZh": "令指示更容易理解和跟從的一點，是使用了清晰的圖示。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that made the instructions easier to follow was the use of clear diagrams."
+    },
+    {
+      "id": "ss217-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee has yet to decide how the programme will be funded.",
+      "promptZh": "委員會仍未決定這項計劃將如何獲得資金。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the committee has yet to decide is how the programme will be funded.",
+      "answerZh": "委員會仍未決定的一件事，是這項計劃將如何獲得資金。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the committee has yet to decide is how the programme will be funded."
+    },
+    {
+      "id": "ss217-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Small businesses worry about whether they can absorb the higher costs.",
+      "promptZh": "小型企業擔心自己能否承受上升的成本。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that worries small businesses is whether they can absorb the higher costs.",
+      "answerZh": "令小型企業擔心的一件事，是它們能否承受上升的成本。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that worries small businesses is whether they can absorb the higher costs."
+    },
+    {
+      "id": "ss217-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To improve patient care, the hospital introduced a system for sharing test results more quickly.",
+      "promptZh": "為了改善病人護理，醫院引入了一套更快共享檢驗結果的系統。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the hospital introduced to improve patient care was a system for sharing test results more quickly.",
+      "answerZh": "醫院為改善病人護理而引入的一項措施，是一套更快共享檢驗結果的系統。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the hospital introduced to improve patient care was a system for sharing test results more quickly."
+    },
+    {
+      "id": "ss217-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The research cannot answer one major question: will the improvement last?",
+      "promptZh": "這項研究無法回答一個主要問題：這種改善會否持續？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the research cannot tell us is whether the improvement will last.",
+      "answerZh": "這項研究無法告訴我們的一件事，是這種改善會否持續。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the research cannot tell us is whether the improvement will last."
+    },
+    {
+      "id": "ss217-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After the meeting, it became clear that the two departments had different priorities.",
+      "promptZh": "會議結束後，大家清楚看到兩個部門有不同的優先事項。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that became clear after the meeting was that the two departments had different priorities.",
+      "answerZh": "會議結束後變得明確的一件事，是兩個部門有不同的優先事項。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that became clear after the meeting was that the two departments had different priorities."
+    },
+    {
+      "id": "ss217-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We can draw one reasonable conclusion: the policy needs more time to work.",
+      "promptZh": "我們可以得出一項合理結論：這項政策需要更多時間才能見效。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing we can reasonably conclude is that the policy needs more time to work.",
+      "answerZh": "我們可以合理得出的一項結論，是這項政策需要更多時間才能見效。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing we can reasonably conclude is that the policy needs more time to work."
+    },
+    {
+      "id": "ss217-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before expanding overseas, the company should first test the service in one smaller market.",
+      "promptZh": "公司拓展海外市場前，應該先在一個較小的市場試行這項服務。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the company should do before expanding overseas is test the service in one smaller market.",
+      "answerZh": "公司拓展海外市場前應該做的一件事，是先在一個較小的市場試行這項服務。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the company should do before expanding overseas is test the service in one smaller market."
+    },
+    {
+      "id": "ss217-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Public trust is difficult to rebuild partly because there is a gap between promises and action.",
+      "promptZh": "公眾信任難以重建，部分原因是承諾與行動之間存在落差。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing that makes public trust difficult to rebuild is the gap between promises and action.",
+      "answerZh": "令公眾信任難以重建的一項因素，是承諾與行動之間的落差。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing that makes public trust difficult to rebuild is the gap between promises and action."
+    },
+    {
+      "id": "ss217-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The coach wanted the players to understand one key idea: small mistakes matter under pressure.",
+      "promptZh": "教練希望球員明白一個重點：在壓力之下，小錯誤也十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing the coach wanted the players to understand was that small mistakes matter under pressure.",
+      "answerZh": "教練希望球員明白的一件事，是在壓力之下，小錯誤也十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing the coach wanted the players to understand was that small mistakes matter under pressure."
+    },
+    {
+      "id": "ss217-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When judging the result, we must remember an important limitation: success was assessed over a period of only six months.",
+      "promptZh": "評估結果時，我們必須記住一項重要限制：成效只按照六個月的表現作出評估。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One thing we must keep in mind when judging the result is that success was assessed over a period of only six months.",
+      "answerZh": "評估結果時，我們必須記住的一件事，是成效只按照六個月的表現作出評估。",
+      "answerZhSource": "pdf",
+      "highlight": "One thing we must keep in mind when judging the result is that success was assessed over a period of only six months."
+    }
+  ]
+}

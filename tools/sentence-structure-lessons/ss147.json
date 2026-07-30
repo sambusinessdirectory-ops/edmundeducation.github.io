@@ -1,0 +1,1261 @@
+{
+  "id": "ss147",
+  "order": 147,
+  "slug": "main-clause-ing-result",
+  "title": "「主句, V-ing」因果／結果句",
+  "titleZh": "「主句, V-ing」因果／結果句",
+  "titleEn": "Using a supplementary -ing clause to express a result",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 147 -「主句, V-ing」因果／結果句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Main clause, V-ing + other information",
+  "formulas": [
+    {
+      "id": "ss147-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Main clause, V-ing + other information"
+    },
+    {
+      "id": "ss147-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Main clause, making + object + adjective"
+    },
+    {
+      "id": "ss147-formula-03",
+      "labelEn": "Pattern 3",
+      "labelZh": "句式 3",
+      "formula": "Main clause, causing + object + to + verb"
+    },
+    {
+      "id": "ss147-formula-04",
+      "labelEn": "Pattern 4",
+      "labelZh": "句式 4",
+      "formula": "Main clause, allowing + object + to + verb"
+    },
+    {
+      "id": "ss147-formula-05",
+      "labelEn": "Pattern 5",
+      "labelZh": "句式 5",
+      "formula": "Main clause, preventing + object + from + V-ing"
+    },
+    {
+      "id": "ss147-formula-06",
+      "labelEn": "Pattern 6",
+      "labelZh": "句式 6",
+      "formula": "Main clause, leading to / resulting in + noun"
+    }
+  ],
+  "example": "The box fell off the table, making a dent in the wooden floor.",
+  "exampleZh": "箱子從桌上掉下來，在木地板上撞出一道凹痕。",
+  "examples": [
+    {
+      "id": "ss147-example-01",
+      "en": "The box fell off the table, making a dent in the wooden floor.",
+      "zh": "箱子從桌上掉下來，在木地板上撞出一道凹痕。",
+      "highlight": "making a dent in the wooden floor"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss147-rule-01",
+      "zh": "前面必須是完整主句 正確： 前面的 The cup fell 本身已經是完整句子。",
+      "en": "The preceding part must be a complete main clause; in the example, The cup fell is already a complete sentence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The cup fell, spilling water onto the floor."
+      ]
+    },
+    {
+      "id": "ss147-rule-02",
+      "zh": "V-ing 部分說明「結果」，而不是「目的」 結果： 目的： causing the boxes to fall 是實際發生的結果。 to avoid the cyclist 是司機想達到的目的。",
+      "en": "The -ing phrase expresses a result, not a purpose. Causing the boxes to fall describes what actually happened as a consequence, whereas to avoid the cyclist describes the driver’s intended goal.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The driver turned suddenly, causing the boxes to fall.",
+        "The driver turned the wheel to avoid the cyclist."
+      ]
+    },
+    {
+      "id": "ss147-rule-03",
+      "zh": "主句與 V-ing 部分之間通常要有逗號 正確： 錯誤： 在本課教授的結果用法中，應保留逗號。",
+      "en": "Normally put a comma between the main clause and the -ing result phrase in the result use taught here.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss147-rule-04",
+      "zh": "必須清楚指出誰或甚麼造成結果 正確： 改寫： 不自然： 最後一句錯誤地表示「道路從單車上掉下來」。",
+      "en": "Make it clear who or what causes the result. The natural rewrite makes the icy road the cause of Ben’s fall; the unnatural version incorrectly suggests that the road itself fell off a bicycle.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss147-rule-05",
+      "zh": "V-ing 部分沒有獨立時態 時間主要由前面的主句動詞表示。",
+      "en": "The -ing phrase has no independent tense; the verb in the preceding main clause supplies the time reference.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The dog barked, waking the baby.",
+        "The dog is barking, waking the baby.",
+        "The dog will probably bark, waking the baby."
+      ]
+    },
+    {
+      "id": "ss147-rule-06",
+      "zh": "不要與縮減關係子句混淆 Reduced relative clause 縮減關係子句 waiting outside 修飾名詞 students。 Result participle clause 分詞結果句 sending the students back to class 說明鐘聲響起所造成的結果。",
+      "en": "Do not confuse this result phrase with a reduced relative clause. A reduced relative such as waiting outside modifies a noun, whereas a result participle clause such as sending the students back to class states the consequence of the main event.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The students waiting outside are from Class 3A.",
+        "The bell rang, sending the students back to class."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss147-benefit-01",
+      "zh": "清楚顯示原因與結果 這個句型讓讀者立即明白前面的事情造成了甚麼後果。",
+      "en": "It shows cause and result clearly by telling readers immediately what consequence the preceding event produced.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The road was flooded, delaying all the buses."
+      ]
+    },
+    {
+      "id": "ss147-benefit-02",
+      "zh": "把兩個相關意思合併起來 你可以把兩句短句合併成一句，避免文章出現太多零碎句子。",
+      "en": "It combines two related ideas in one sentence and avoids a passage made up of too many fragmented short sentences.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The wind blew the door shut, trapping us outside."
+      ]
+    },
+    {
+      "id": "ss147-benefit-03",
+      "zh": "避免重複使用 so 和 as a result 學生經常重複使用： , V-ing 提供另一種自然的因果表達方法，令句式更多變。",
+      "en": "It avoids repeating so, therefore, as a result and because of this, providing another natural way to express cause and result and increasing sentence variety.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "so;",
+        "therefore;",
+        "as a result;",
+        "because of this."
+      ]
+    },
+    {
+      "id": "ss147-benefit-04",
+      "zh": "令事件發展更加連貫 這個句型把一件事及其後果緊密連接，特別適合描述故事、意外、變化和事件經過。",
+      "en": "It makes events flow more naturally by tightly linking an event to its consequence, which is especially effective for stories, accidents, changes and sequences of events.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The child knocked over the glass, spilling juice over the table."
+      ]
+    },
+    {
+      "id": "ss147-benefit-05",
+      "zh": "適合用於故事、報告和解釋 你可以使用這個句型： ● 描述一件事帶來的即時結果； ● 解釋某項決定造成的影響； ● 報告問題或意外的後果； ● 在作文中連接前因後果。",
+      "en": "It is useful in stories, reports and explanations for describing an immediate result, explaining the impact of a decision, reporting the consequence of a problem or accident, and linking causes and effects in an essay.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a comma followed by a V-ing result clause.",
+      "Preserve the original meaning, tense, subject and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用「完整主句, V-ing」改寫以下句子，以表達前面的事情所造成的結果。",
+      "答案必須保留原句的意思、時態、主體和重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss147-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The box fell off the table and made a dent in the wooden floor.",
+      "promptZh": "箱子從桌上掉下來，並在木地板上撞出一道凹痕。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The box fell off the table, making a dent in the wooden floor.",
+      "answerZh": "箱子從桌上掉下來，在木地板上撞出一道凹痕。",
+      "answerZhSource": "pdf",
+      "highlight": "The box fell off the table, making a dent in the wooden floor."
+    },
+    {
+      "id": "ss147-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ella forgot her umbrella, so she got soaked on the way home.",
+      "promptZh": "埃拉忘記帶雨傘，所以她回家途中全身濕透。",
+      "promptZhSource": "pdf",
+      "starter": "Ella",
+      "answer": "Ella forgot her umbrella, getting soaked on the way home.",
+      "answerZh": "埃拉忘記帶雨傘，結果在回家途中全身濕透。",
+      "answerZhSource": "pdf",
+      "highlight": "Ella forgot her umbrella, getting soaked on the way home."
+    },
+    {
+      "id": "ss147-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The baby dropped the cup, and milk spilled all over the table.",
+      "promptZh": "嬰兒弄跌杯子，牛奶灑滿整張桌子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The baby dropped the cup, spilling milk all over the table.",
+      "answerZh": "嬰兒弄跌杯子，把牛奶灑滿整張桌子。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby dropped the cup, spilling milk all over the table."
+    },
+    {
+      "id": "ss147-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sam opened the window. As a result, cool air entered the room.",
+      "promptZh": "山姆打開窗戶。因此，涼風進入房間。",
+      "promptZhSource": "pdf",
+      "starter": "Sam",
+      "answer": "Sam opened the window, letting cool air enter the room.",
+      "answerZh": "山姆打開窗戶，讓涼風進入房間。",
+      "answerZhSource": "pdf",
+      "highlight": "Sam opened the window, letting cool air enter the room."
+    },
+    {
+      "id": "ss147-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bell rang, so the students returned to class.",
+      "promptZh": "鐘聲響起，所以學生返回課室。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bell rang, sending the students back to class.",
+      "answerZh": "鐘聲響起，令學生返回課室。",
+      "answerZhSource": "pdf",
+      "highlight": "The bell rang, sending the students back to class."
+    },
+    {
+      "id": "ss147-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben pressed the wrong button, and this turned off the computer.",
+      "promptZh": "本按錯了按鈕，結果電腦被關掉。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben pressed the wrong button, turning off the computer.",
+      "answerZh": "本按錯了按鈕，結果把電腦關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben pressed the wrong button, turning off the computer."
+    },
+    {
+      "id": "ss147-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Heavy rain flooded the road. Consequently, traffic was delayed.",
+      "promptZh": "大雨令道路水浸。因此，交通受到延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Heavy",
+      "answer": "Heavy rain flooded the road, delaying traffic.",
+      "answerZh": "大雨令道路水浸，造成交通延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Heavy rain flooded the road, delaying traffic."
+    },
+    {
+      "id": "ss147-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe left the cake in the oven too long, and this burned the top of the cake.",
+      "promptZh": "克洛伊把蛋糕留在焗爐內太久，結果蛋糕表面燒焦了。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe left the cake in the oven too long, burning the top of the cake.",
+      "answerZh": "克洛伊把蛋糕留在焗爐內太久，令蛋糕表面燒焦。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe left the cake in the oven too long, burning the top of the cake."
+    },
+    {
+      "id": "ss147-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The dog barked loudly and woke the neighbours.",
+      "promptZh": "狗大聲吠叫，吵醒了鄰居。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog barked loudly, waking the neighbours.",
+      "answerZh": "狗大聲吠叫，吵醒了鄰居。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog barked loudly, waking the neighbours."
+    },
+    {
+      "id": "ss147-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I missed the final step, which made my answer incorrect.",
+      "promptZh": "我遺漏了最後一個步驟，令我的答案不正確。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I missed the final step, making my answer incorrect.",
+      "answerZh": "我遺漏了最後一個步驟，令我的答案不正確。",
+      "answerZhSource": "pdf",
+      "highlight": "I missed the final step, making my answer incorrect."
+    },
+    {
+      "id": "ss147-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The teacher explained the rule clearly, and this made it easy for the class to understand.",
+      "promptZh": "老師清楚解釋規則，令全班容易明白。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher explained the rule clearly, making it easy for the class to understand.",
+      "answerZh": "老師清楚解釋規則，令全班容易明白。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher explained the rule clearly, making it easy for the class to understand."
+    },
+    {
+      "id": "ss147-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The wind blew the door shut, and this trapped us outside.",
+      "promptZh": "風吹得門關上，令我們被困在外面。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The wind blew the door shut, trapping us outside.",
+      "answerZh": "風吹得門關上，令我們被困在外面。",
+      "answerZhSource": "pdf",
+      "highlight": "The wind blew the door shut, trapping us outside."
+    },
+    {
+      "id": "ss147-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nina saved the file in the wrong folder. This made it hard to find.",
+      "promptZh": "妮娜把檔案儲存在錯誤的資料夾內，令檔案難以尋找。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina saved the file in the wrong folder, making it hard to find.",
+      "answerZh": "妮娜把檔案儲存在錯誤的資料夾內，令檔案難以尋找。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina saved the file in the wrong folder, making it hard to find."
+    },
+    {
+      "id": "ss147-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop lowered its prices, and consequently more customers came.",
+      "promptZh": "商店降低價格，因此吸引了更多顧客前來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop lowered its prices, attracting more customers.",
+      "answerZh": "商店降低價格，吸引了更多顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop lowered its prices, attracting more customers."
+    },
+    {
+      "id": "ss147-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The driver braked suddenly, and this caused everyone to move forwards.",
+      "promptZh": "司機突然煞車，令所有人向前傾。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The driver braked suddenly, causing everyone to move forwards.",
+      "answerZh": "司機突然煞車，令所有人向前傾。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver braked suddenly, causing everyone to move forwards."
+    },
+    {
+      "id": "ss147-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The power cut stopped the lifts. As a result, people had to use the stairs.",
+      "promptZh": "停電令升降機停止運作。因此，人們不得不使用樓梯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The power cut stopped the lifts, forcing people to use the stairs.",
+      "answerZh": "停電令升降機停止運作，迫使人們使用樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "The power cut stopped the lifts, forcing people to use the stairs."
+    },
+    {
+      "id": "ss147-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Leo added too much salt, so the soup became difficult to eat.",
+      "promptZh": "里奧加入太多鹽，所以這碗湯變得難以下嚥。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo added too much salt, making the soup difficult to eat.",
+      "answerZh": "里奧加入太多鹽，令這碗湯變得難以下嚥。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo added too much salt, making the soup difficult to eat."
+    },
+    {
+      "id": "ss147-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school planted more trees, and this created more shade in the playground.",
+      "promptZh": "學校種植了更多樹木，令操場有更多樹蔭。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school planted more trees, creating more shade in the playground.",
+      "answerZh": "學校種植了更多樹木，令操場有更多樹蔭。",
+      "answerZhSource": "pdf",
+      "highlight": "The school planted more trees, creating more shade in the playground."
+    },
+    {
+      "id": "ss147-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Aisha spoke too softly, so some listeners could not hear her.",
+      "promptZh": "艾莎說話聲音太小，所以部分聽眾聽不到她。",
+      "promptZhSource": "pdf",
+      "starter": "Aisha",
+      "answer": "Aisha spoke too softly, leaving some listeners unable to hear her.",
+      "answerZh": "艾莎說話聲音太小，令部分聽眾無法聽到她。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha spoke too softly, leaving some listeners unable to hear her."
+    },
+    {
+      "id": "ss147-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The train doors closed early. Because of this, two passengers could not board.",
+      "promptZh": "列車車門提早關上。因此，兩名乘客未能上車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train doors closed early, preventing two passengers from boarding.",
+      "answerZh": "列車車門提早關上，令兩名乘客無法上車。",
+      "answerZhSource": "pdf",
+      "highlight": "The train doors closed early, preventing two passengers from boarding."
+    },
+    {
+      "id": "ss147-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager changed the deadline without warning. This caused confusion among the team.",
+      "promptZh": "經理在沒有預先通知的情況下更改限期，令團隊感到混亂。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager changed the deadline without warning, leading to confusion among the team.",
+      "answerZh": "經理在沒有預先通知的情況下更改限期，令團隊感到混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager changed the deadline without warning, leading to confusion among the team."
+    },
+    {
+      "id": "ss147-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A pipe burst overnight. As a result, the kitchen flooded and the cupboards were damaged.",
+      "promptZh": "水管在晚上爆裂。結果，廚房水浸，櫥櫃亦受到破壞。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A pipe burst overnight, flooding the kitchen and damaging the cupboards.",
+      "answerZh": "水管在晚上爆裂，令廚房水浸，並損壞了櫥櫃。",
+      "answerZhSource": "pdf",
+      "highlight": "A pipe burst overnight, flooding the kitchen and damaging the cupboards."
+    },
+    {
+      "id": "ss147-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The app sent repeated alerts, so I was distracted from my work.",
+      "promptZh": "這個應用程式不斷發出提示，令我工作時分心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app sent repeated alerts, distracting me from my work.",
+      "answerZh": "這個應用程式不斷發出提示，令我工作時分心。",
+      "answerZhSource": "pdf",
+      "highlight": "The app sent repeated alerts, distracting me from my work."
+    },
+    {
+      "id": "ss147-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The council repaired the broken street lights, so the street became safer at night.",
+      "promptZh": "市議會修理了損壞的街燈，令街道在晚上更加安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council repaired the broken street lights, making the street safer at night.",
+      "answerZh": "市議會修理了損壞的街燈，令街道在晚上更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The council repaired the broken street lights, making the street safer at night."
+    },
+    {
+      "id": "ss147-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Maya forgot to charge her phone. Consequently, she was unable to call a taxi.",
+      "promptZh": "瑪雅忘記為電話充電，因此無法召喚的士。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya forgot to charge her phone, leaving her unable to call a taxi.",
+      "answerZh": "瑪雅忘記為電話充電，令她無法召喚的士。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya forgot to charge her phone, leaving her unable to call a taxi."
+    },
+    {
+      "id": "ss147-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Daniel served the meal late, and several guests complained as a result.",
+      "promptZh": "丹尼爾遲了上菜，結果有幾名客人投訴。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel served the meal late, causing several guests to complain.",
+      "answerZh": "丹尼爾遲了上菜，導致幾名客人投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel served the meal late, causing several guests to complain."
+    },
+    {
+      "id": "ss147-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our museum extended its opening hours. This allowed more people to visit after work.",
+      "promptZh": "我們的博物館延長開放時間，讓更多人可以下班後參觀。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our museum extended its opening hours, allowing more people to visit after work.",
+      "answerZh": "我們的博物館延長開放時間，讓更多人可以下班後參觀。",
+      "answerZhSource": "pdf",
+      "highlight": "Our museum extended its opening hours, allowing more people to visit after work."
+    },
+    {
+      "id": "ss147-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A child kicked the ball indoors, and the ball broke a vase.",
+      "promptZh": "一名孩子在室內踢球，球打破了一個花瓶。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A child kicked the ball indoors, breaking a vase.",
+      "answerZh": "一名孩子在室內踢球，結果打破了一個花瓶。",
+      "answerZhSource": "pdf",
+      "highlight": "A child kicked the ball indoors, breaking a vase."
+    },
+    {
+      "id": "ss147-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Last night’s storm cancelled the ferry services. As a result, travellers had to stay overnight.",
+      "promptZh": "昨晚的暴風雨令渡輪服務取消，旅客因而需要留宿一晚。",
+      "promptZhSource": "pdf",
+      "starter": "Last",
+      "answer": "Last night’s storm cancelled the ferry services, forcing travellers to stay overnight.",
+      "answerZh": "昨晚的暴風雨令渡輪服務取消，迫使旅客留宿一晚。",
+      "answerZhSource": "pdf",
+      "highlight": "Last night’s storm cancelled the ferry services, forcing travellers to stay overnight."
+    },
+    {
+      "id": "ss147-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This medicine made him drowsy, so his ability to concentrate was reduced.",
+      "promptZh": "這種藥物令他昏昏欲睡，因此降低了他的集中力。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine made him drowsy, reducing his ability to concentrate.",
+      "answerZh": "這種藥物令他昏昏欲睡，降低了他的集中力。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine made him drowsy, reducing his ability to concentrate."
+    },
+    {
+      "id": "ss147-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This new software checks spelling automatically. This helps users avoid simple mistakes.",
+      "promptZh": "這個新軟件會自動檢查串字，幫助用戶避免簡單錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This new software checks spelling automatically, helping users avoid simple mistakes.",
+      "answerZh": "這個新軟件會自動檢查串字，幫助用戶避免簡單錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "This new software checks spelling automatically, helping users avoid simple mistakes."
+    },
+    {
+      "id": "ss147-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our company moved the meeting online. This allowed staff in other cities to join.",
+      "promptZh": "我們公司把會議移到網上進行，讓其他城市的職員也能參加。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our company moved the meeting online, allowing staff in other cities to join.",
+      "answerZh": "我們公司把會議移到網上進行，讓其他城市的職員也能參加。",
+      "answerZhSource": "pdf",
+      "highlight": "Our company moved the meeting online, allowing staff in other cities to join."
+    },
+    {
+      "id": "ss147-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Marcus ignored the pain in his knee. As a result, the injury became worse.",
+      "promptZh": "馬庫斯沒有理會膝部的痛楚，結果傷勢惡化。",
+      "promptZhSource": "pdf",
+      "starter": "Marcus",
+      "answer": "Marcus ignored the pain in his knee, making the injury worse.",
+      "answerZh": "馬庫斯沒有理會膝部的痛楚，令傷勢惡化。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus ignored the pain in his knee, making the injury worse."
+    },
+    {
+      "id": "ss147-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The fire alarm went off during the presentation. It interrupted the speaker and forced everyone to leave the hall.",
+      "promptZh": "火警鐘在簡報期間響起，打斷了講者，並迫使所有人離開禮堂。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fire alarm went off during the presentation, interrupting the speaker and forcing everyone to leave the hall.",
+      "answerZh": "火警鐘在簡報期間響起，打斷了講者，並迫使所有人離開禮堂。",
+      "answerZhSource": "pdf",
+      "highlight": "The fire alarm went off during the presentation, interrupting the speaker and forcing everyone to leave the hall."
+    },
+    {
+      "id": "ss147-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our library removed several desks. Consequently, students had fewer places to study.",
+      "promptZh": "我們的圖書館移走了幾張書桌，因此學生可以溫習的地方減少了。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our library removed several desks, leaving students with fewer places to study.",
+      "answerZh": "我們的圖書館移走了幾張書桌，令學生可以溫習的地方減少。",
+      "answerZhSource": "pdf",
+      "highlight": "Our library removed several desks, leaving students with fewer places to study."
+    },
+    {
+      "id": "ss147-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Roadworks blocked the main entrance. Therefore, visitors had to use the side gate.",
+      "promptZh": "道路工程阻塞了正門，因此訪客必須使用側門。",
+      "promptZhSource": "pdf",
+      "starter": "Roadworks",
+      "answer": "Roadworks blocked the main entrance, forcing visitors to use the side gate.",
+      "answerZh": "道路工程阻塞了正門，迫使訪客使用側門。",
+      "answerZhSource": "pdf",
+      "highlight": "Roadworks blocked the main entrance, forcing visitors to use the side gate."
+    },
+    {
+      "id": "ss147-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital introduced online booking. As a result, waiting times at reception became shorter.",
+      "promptZh": "醫院推出網上預約，令接待處的輪候時間縮短。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital introduced online booking, resulting in shorter waiting times at reception.",
+      "answerZh": "醫院推出網上預約，令接待處的輪候時間縮短。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital introduced online booking, resulting in shorter waiting times at reception."
+    },
+    {
+      "id": "ss147-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The sun came out after the storm, so the thin layer of ice melted.",
+      "promptZh": "暴風雨過後，太陽出來了，所以薄薄的冰層融化了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sun came out after the storm, melting the thin layer of ice.",
+      "answerZh": "暴風雨過後，太陽出來了，令薄薄的冰層融化。",
+      "answerZhSource": "pdf",
+      "highlight": "The sun came out after the storm, melting the thin layer of ice."
+    },
+    {
+      "id": "ss147-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Ms Lau changed the seating plan. This separated the students who had been talking.",
+      "promptZh": "劉老師更改座位安排，把一直談話的學生分開。",
+      "promptZhSource": "pdf",
+      "starter": "Ms",
+      "answer": "Ms Lau changed the seating plan, separating the students who had been talking.",
+      "answerZh": "劉老師更改座位安排，把一直談話的學生分開。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Lau changed the seating plan, separating the students who had been talking."
+    },
+    {
+      "id": "ss147-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A typing error changed the delivery address, so the parcel was sent to the wrong building.",
+      "promptZh": "一個輸入錯誤改變了送貨地址，令包裹被送到錯誤的大樓。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A typing error changed the delivery address, sending the parcel to the wrong building.",
+      "answerZh": "一個輸入錯誤改變了送貨地址，令包裹被送到錯誤的大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "A typing error changed the delivery address, sending the parcel to the wrong building."
+    },
+    {
+      "id": "ss147-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "One factory reduced its ventilation to save energy. Consequently, the air quality became worse.",
+      "promptZh": "一間工廠為了節省能源而減少通風，結果空氣質素變差。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One factory reduced its ventilation to save energy, causing the air quality to become worse.",
+      "answerZh": "一間工廠為了節省能源而減少通風，令空氣質素變差。",
+      "answerZhSource": "pdf",
+      "highlight": "One factory reduced its ventilation to save energy, causing the air quality to become worse."
+    },
+    {
+      "id": "ss147-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school placed all its notices online, which made them easier for parents to access.",
+      "promptZh": "學校把所有通告放到網上，令家長更容易查看。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school placed all its notices online, making them easier for parents to access.",
+      "answerZh": "學校把所有通告放到網上，令家長更容易查看。",
+      "answerZhSource": "pdf",
+      "highlight": "The school placed all its notices online, making them easier for parents to access."
+    },
+    {
+      "id": "ss147-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The bridge was closed for urgent repairs. This forced buses to take a longer route.",
+      "promptZh": "大橋因緊急維修而關閉，迫使巴士使用較長的路線。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bridge was closed for urgent repairs, forcing buses to take a longer route.",
+      "answerZh": "大橋因緊急維修而關閉，迫使巴士使用較長的路線。",
+      "answerZhSource": "pdf",
+      "highlight": "The bridge was closed for urgent repairs, forcing buses to take a longer route."
+    },
+    {
+      "id": "ss147-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "An organiser changed the venue at the last minute. As a result, several guests were confused about where to go.",
+      "promptZh": "一名籌辦人員在最後一刻更改場地，令幾名賓客不知道應前往哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An organiser changed the venue at the last minute, leaving several guests confused about where to go.",
+      "answerZh": "一名籌辦人員在最後一刻更改場地，令幾名賓客不知道應前往哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "An organiser changed the venue at the last minute, leaving several guests confused about where to go."
+    },
+    {
+      "id": "ss147-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Heavy snowfall damaged the power lines, so electricity to hundreds of homes was cut.",
+      "promptZh": "大雪破壞了電纜，令數百個家庭的電力供應中斷。",
+      "promptZhSource": "pdf",
+      "starter": "Heavy",
+      "answer": "Heavy snowfall damaged the power lines, cutting electricity to hundreds of homes.",
+      "answerZh": "大雪破壞了電纜，令數百個家庭的電力供應中斷。",
+      "answerZhSource": "pdf",
+      "highlight": "Heavy snowfall damaged the power lines, cutting electricity to hundreds of homes."
+    },
+    {
+      "id": "ss147-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Our team relied on only one supplier. This left it vulnerable when deliveries stopped.",
+      "promptZh": "我們的團隊只依賴一間供應商，令團隊在送貨停止時十分脆弱。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team relied on only one supplier, leaving it vulnerable when deliveries stopped.",
+      "answerZh": "我們的團隊只依賴一間供應商，令團隊在送貨停止時十分脆弱。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team relied on only one supplier, leaving it vulnerable when deliveries stopped."
+    },
+    {
+      "id": "ss147-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The new rule requires every form to be checked twice. As a result, the chance of serious errors is lower.",
+      "promptZh": "新規則要求每份表格檢查兩次，因而降低出現嚴重錯誤的機會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule requires every form to be checked twice, reducing the chance of serious errors.",
+      "answerZh": "新規則要求每份表格檢查兩次，降低了出現嚴重錯誤的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule requires every form to be checked twice, reducing the chance of serious errors."
+    },
+    {
+      "id": "ss147-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The speaker used several unfamiliar terms without explanation, so the main argument was difficult for beginners to follow.",
+      "promptZh": "講者使用了幾個陌生術語，但沒有加以解釋，令初學者難以理解主要論點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker used several unfamiliar terms without explanation, making the main argument difficult for beginners to follow.",
+      "answerZh": "講者使用了幾個陌生術語，但沒有加以解釋，令初學者難以理解主要論點。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker used several unfamiliar terms without explanation, making the main argument difficult for beginners to follow."
+    },
+    {
+      "id": "ss147-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "City officials converted an empty building into a shelter. This gave homeless residents a safe place to sleep.",
+      "promptZh": "市政府人員把一座空置建築物改建成收容所，讓無家可歸人士有安全的地方睡覺。",
+      "promptZhSource": "pdf",
+      "starter": "City",
+      "answer": "City officials converted an empty building into a shelter, giving homeless residents a safe place to sleep.",
+      "answerZh": "市政府人員把一座空置建築物改建成收容所，讓無家可歸人士有安全的地方睡覺。",
+      "answerZhSource": "pdf",
+      "highlight": "City officials converted an empty building into a shelter, giving homeless residents a safe place to sleep."
+    },
+    {
+      "id": "ss147-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company delayed announcing the system failure. Consequently, customers continued placing orders that could not be processed.",
+      "promptZh": "公司延遲公布系統故障，結果顧客繼續提交無法處理的訂單。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company delayed announcing the system failure, causing customers to continue placing orders that could not be processed.",
+      "answerZh": "公司延遲公布系統故障，令顧客繼續提交無法處理的訂單。",
+      "answerZhSource": "pdf",
+      "highlight": "The company delayed announcing the system failure, causing customers to continue placing orders that could not be processed."
+    }
+  ]
+}

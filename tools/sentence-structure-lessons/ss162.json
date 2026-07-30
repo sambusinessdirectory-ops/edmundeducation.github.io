@@ -1,0 +1,1214 @@
+{
+  "id": "ss162",
+  "order": 162,
+  "slug": "not-because-but-because",
+  "title": "Not because…, but because…",
+  "titleZh": "「Not because…, but because…」澄清真正原因",
+  "titleEn": "Using Not because…, but because… to clarify the real reason",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 162 -「Not because…, but because…」澄清真正原因.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + action / state + not because + rejected reason, but because + real reason",
+  "formulas": [
+    {
+      "id": "ss162-formula-01",
+      "labelEn": "Main pattern",
+      "labelZh": "主要句式",
+      "formula": "Subject + action / state + not because + rejected reason, but because + real reason"
+    },
+    {
+      "id": "ss162-formula-02",
+      "labelEn": "Alternative form",
+      "labelZh": "另一常見形式",
+      "formula": "Subject + do / does / did not + base verb + because + rejected reason, but because + real reason"
+    }
+  ],
+  "example": "People do not resist change because they are lazy, but because they are uncertain.",
+  "exampleZh": "人們抗拒改變，不是因為懶惰，而是因為感到不確定。",
+  "examples": [
+    {
+      "id": "ss162-example-01",
+      "en": "People do not resist change because they are lazy, but because they are uncertain.",
+      "zh": "人們抗拒改變，不是因為懶惰，而是因為感到不確定。",
+      "highlight": "People do not resist change because they are lazy, but because they are uncertain."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss162-rule-01",
+      "zh": "not 通常並非否定主要動作，而是否定第一個原因。 這句表示人們確實抗拒改變，只是「懶惰」並非真正原因。",
+      "en": "“Not” rejects the first reason. It does not normally deny that the main action happened; it denies only the first explanation. People resist change not because they are lazy, but because they are uncertain means that people do resist change, but laziness is not the real reason.",
+      "enSource": "pdf",
+      "examples": [
+        "People resist change not because they are lazy, but because they are uncertain."
+      ]
+    },
+    {
+      "id": "ss162-rule-02",
+      "zh": "because 後面通常要接完整子句，即主語加動詞。",
+      "en": "Use a complete clause after because Because should normally be followed by a subject and a verb. because not because the task was difficult not because she lacked experience Not used as the target structure in this exercise: not because of the difficult task not because of her lack of experience",
+      "enSource": "pdf",
+      "examples": [
+        "not because the task was difficult"
+      ]
+    },
+    {
+      "id": "ss162-rule-03",
+      "zh": "被否定的原因和真正原因必須解釋同一個動作、決定、感受或結果。",
+      "en": "Both reasons must explain the same action The rejected reason and the real reason must refer to the same event, decision, feeling or result.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss162-rule-04",
+      "zh": "兩部分應保持平衡，not 和 but 後面都使用 because。",
+      "en": "Keep the two parts parallel Use because after both not and but. not because she was careless, but because she lacked information",
+      "enSource": "pdf",
+      "examples": [
+        "not because she was careless, but because she lacked information"
+      ]
+    },
+    {
+      "id": "ss162-rule-05",
+      "zh": "在書面英語中，通常在 but 前加逗號。",
+      "en": "Place a comma before but The meeting ended early not because everyone agreed, but because the building had to close.",
+      "enSource": "pdf",
+      "examples": [
+        "The meeting ended early not because everyone agreed, but because the building had to close."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss162-benefit-01",
+      "zh": "這個句型能清楚區分錯誤原因和真正原因，避免讀者誤解事情發生的原因。",
+      "en": "It clearly separates a false reason from the real reason This structure prevents the reader from misunderstanding why something happened.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss162-benefit-02",
+      "zh": "你不需要直接說別人的想法錯誤，而可以先提及對方可能想到的原因，再指出實際情況。",
+      "en": "It helps you correct assumptions politely Instead of simply saying that another person is wrong, you can acknowledge the possible explanation and then provide the correct one.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss162-benefit-03",
+      "zh": "這個句型可以把三句較短和重複的句子合併成一句完整而流暢的句子。",
+      "en": "It combines several short sentences into one Without the structure: Leo apologised. His manager did not force him. He knew he was wrong. With the structure: Leo apologised not because his manager forced him to, but because he knew he was wrong.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss162-benefit-04",
+      "zh": "你可以比較兩個可能原因，而不只是提供一個簡單解釋，因此特別適合討論、作文、報告和簡報。",
+      "en": "It makes explanations and arguments more precise You can compare two possible causes instead of giving only one simple reason. This is useful in discussions, essays, reports and presentations.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss162-benefit-05",
+      "zh": "真正原因放在 but because 後面，通常會成為整句最突出、最容易被記住的部分。",
+      "en": "It places emphasis on the real reason The true explanation appears after but because, so it becomes the final and most memorable part of the sentence.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Not because…, but because….",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Not because…, but because… 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss162-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Emma took an umbrella because rain was expected. The cold weather was not the reason.",
+      "promptZh": "艾瑪帶了雨傘，因為預料會下雨。寒冷的天氣並不是原因。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma took an umbrella not because the weather was cold, but because rain was expected.",
+      "answerZh": "艾瑪帶雨傘，不是因為天氣寒冷，而是因為預料會下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma took an umbrella not because the weather was cold, but because rain was expected."
+    },
+    {
+      "id": "ss162-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben felt unwell, so he left the party early. He was not bored.",
+      "promptZh": "本感到不適，所以提早離開派對。他當時並不覺得沉悶。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben left the party early not because he was bored, but because he felt unwell.",
+      "answerZh": "本提早離開派對，不是因為感到沉悶，而是因為身體不適。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben left the party early not because he was bored, but because he felt unwell."
+    },
+    {
+      "id": "ss162-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Maya had a test the next morning, so she studied late. Her teacher had not told her to do so.",
+      "promptZh": "瑪雅翌日早上有測驗，所以溫習至很晚。老師並沒有叫她這樣做。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya studied late not because her teacher told her to, but because she had a test the next morning.",
+      "answerZh": "瑪雅溫習至很晚，不是因為老師叫她這樣做，而是因為她翌日早上有測驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya studied late not because her teacher told her to, but because she had a test the next morning."
+    },
+    {
+      "id": "ss162-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although the soup was cheaper, the price did not influence Jack’s choice. He wanted something warm.",
+      "promptZh": "雖然湯較便宜，但價錢沒有影響傑克的選擇。他想吃些暖的東西。",
+      "promptZhSource": "pdf",
+      "starter": "Jack",
+      "answer": "Jack chose the soup not because it was cheaper, but because he wanted something warm.",
+      "answerZh": "傑克選湯，不是因為它較便宜，而是因為他想吃些暖的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack chose the soup not because it was cheaper, but because he wanted something warm."
+    },
+    {
+      "id": "ss162-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "The noise from the street, not the cold, made Nina close the window.",
+      "promptZh": "令妮娜關窗的是街上的噪音，而不是寒冷。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina closed the window not because she was cold, but because the street was noisy.",
+      "answerZh": "妮娜關窗，不是因為她覺得冷，而是因為街上很嘈吵。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina closed the window not because she was cold, but because the street was noisy."
+    },
+    {
+      "id": "ss162-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Leo knew he was wrong and apologised willingly. His manager did not force him to apologise.",
+      "promptZh": "里奧知道自己錯了，所以自願道歉。經理沒有強迫他道歉。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo apologised not because his manager forced him to, but because he knew he was wrong.",
+      "answerZh": "里奧道歉，不是因為經理強迫他，而是因為他知道自己錯了。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo apologised not because his manager forced him to, but because he knew he was wrong."
+    },
+    {
+      "id": "ss162-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did the students run to class? The bell was about to ring; they were not racing.",
+      "promptZh": "學生為甚麼跑回課室？鐘聲快要響起；他們並不是在比賽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students ran to class not because they were racing, but because the bell was about to ring.",
+      "answerZh": "學生跑回課室，不是因為他們在比賽，而是因為鐘聲快要響起。",
+      "answerZhSource": "pdf",
+      "highlight": "The students ran to class not because they were racing, but because the bell was about to ring."
+    },
+    {
+      "id": "ss162-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sarah needed a notebook for class. She did not buy it because its cover was pretty.",
+      "promptZh": "莎拉上課需要一本筆記簿。她並不是因為封面漂亮而購買它。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah bought the notebook not because its cover was pretty, but because she needed one for class.",
+      "answerZh": "莎拉買這本筆記簿，不是因為封面漂亮，而是因為她上課需要一本筆記簿。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah bought the notebook not because its cover was pretty, but because she needed one for class."
+    },
+    {
+      "id": "ss162-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It was the red traffic light, not a passenger’s wave, that made the bus stop.",
+      "promptZh": "令巴士停下來的是紅燈，而不是乘客揮手。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus stopped not because a passenger waved, but because the traffic light turned red.",
+      "answerZh": "巴士停下來，不是因為有乘客揮手，而是因為交通燈轉為紅色。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus stopped not because a passenger waved, but because the traffic light turned red."
+    },
+    {
+      "id": "ss162-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Someone was taking Daniel’s photograph, but that was not why he smiled. He had received good news.",
+      "promptZh": "有人正在替丹尼爾拍照，但那並不是他微笑的原因。他收到了好消息。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel smiled not because someone was taking his photograph, but because he had received good news.",
+      "answerZh": "丹尼爾微笑，不是因為有人正在替他拍照，而是因為他收到了好消息。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel smiled not because someone was taking his photograph, but because he had received good news."
+    },
+    {
+      "id": "ss162-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did Chloe call her sister? She needed advice; she was not lonely.",
+      "promptZh": "克洛伊為甚麼致電姐姐？她需要意見；她並不感到寂寞。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe called her sister not because she was lonely, but because she needed some advice.",
+      "answerZh": "克洛伊致電姐姐，不是因為她感到寂寞，而是因為她需要一些意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe called her sister not because she was lonely, but because she needed some advice."
+    },
+    {
+      "id": "ss162-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Omar had not forgotten the meeting. He missed it because his train was cancelled.",
+      "promptZh": "奧馬爾沒有忘記會議。他缺席，是因為乘坐的火車班次被取消。",
+      "promptZhSource": "pdf",
+      "starter": "Omar",
+      "answer": "Omar missed the meeting not because he forgot about it, but because his train was cancelled.",
+      "answerZh": "奧馬爾缺席會議，不是因為他忘記了，而是因為他的火車班次被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Omar missed the meeting not because he forgot about it, but because his train was cancelled."
+    },
+    {
+      "id": "ss162-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Weak sales caused the shop to lower its prices; no celebration was taking place.",
+      "promptZh": "銷售疲弱令店舖減價；當時並沒有舉行任何慶祝活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop lowered its prices not because it was celebrating, but because sales were weak.",
+      "answerZh": "店舖減價，不是因為正在慶祝，而是因為銷售疲弱。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop lowered its prices not because it was celebrating, but because sales were weak."
+    },
+    {
+      "id": "ss162-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Aisha wore headphones to block the noise, not to look fashionable.",
+      "promptZh": "艾莎戴上耳機是為了隔絕噪音，而不是為了看起來時尚。",
+      "promptZhSource": "pdf",
+      "starter": "Aisha",
+      "answer": "Aisha wore headphones not because she wanted to look fashionable, but because she needed to block the noise.",
+      "answerZh": "艾莎戴上耳機，不是因為她想看起來時尚，而是因為她需要隔絕噪音。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha wore headphones not because she wanted to look fashionable, but because she needed to block the noise."
+    },
+    {
+      "id": "ss162-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Marcus wanted to focus on his work, so he turned off his phone. The battery still had power.",
+      "promptZh": "馬庫斯想專心工作，所以關掉電話。電話仍然有電。",
+      "promptZhSource": "pdf",
+      "starter": "Marcus",
+      "answer": "Marcus turned off his phone not because the battery was empty, but because he wanted to focus on his work.",
+      "answerZh": "馬庫斯關掉電話，不是因為電池沒電，而是因為他想專心工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus turned off his phone not because the battery was empty, but because he wanted to focus on his work."
+    },
+    {
+      "id": "ss162-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The match was postponed owing to heavy rain rather than a shortage of players.",
+      "promptZh": "比賽延期是由於大雨，而不是因為球員不足。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The match was postponed not because there were too few players, but because it was raining heavily.",
+      "answerZh": "比賽延期，不是因為球員太少，而是因為當時下着大雨。",
+      "answerZhSource": "pdf",
+      "highlight": "The match was postponed not because there were too few players, but because it was raining heavily."
+    },
+    {
+      "id": "ss162-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Hunger did not make the child cry; fear did.",
+      "promptZh": "令孩子哭的不是飢餓，而是恐懼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child cried not because he was hungry, but because he was frightened.",
+      "answerZh": "孩子哭，不是因為肚餓，而是因為感到害怕。",
+      "answerZhSource": "pdf",
+      "highlight": "The child cried not because he was hungry, but because he was frightened."
+    },
+    {
+      "id": "ss162-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The bright sunlight—not the person beside her—was bothering Grace, so she changed seats.",
+      "promptZh": "令格蕾絲感到不舒服的是猛烈陽光，而不是坐在她旁邊的人，所以她轉了座位。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace changed seats not because the person beside her was bothering her, but because the sunlight was too bright.",
+      "answerZh": "格蕾絲轉了座位，不是因為旁邊的人令她不舒服，而是因為陽光太猛烈。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace changed seats not because the person beside her was bothering her, but because the sunlight was too bright."
+    },
+    {
+      "id": "ss162-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why are the lights still on? The cleaner is working; nobody forgot to switch them off.",
+      "promptZh": "燈為甚麼仍然亮着？清潔工正在工作；沒有人忘記關燈。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights are still on not because someone forgot to switch them off, but because the cleaner is working.",
+      "answerZh": "燈仍然亮着，不是因為有人忘記關燈，而是因為清潔工正在工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights are still on not because someone forgot to switch them off, but because the cleaner is working."
+    },
+    {
+      "id": "ss162-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Safety concerns, rather than the cost, led the manager to reject the idea.",
+      "promptZh": "令經理否決這個構思的是安全問題，而不是成本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager rejected the idea not because it was expensive, but because it raised safety concerns.",
+      "answerZh": "經理否決這個構思，不是因為它昂貴，而是因為它引起安全方面的憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager rejected the idea not because it was expensive, but because it raised safety concerns."
+    },
+    {
+      "id": "ss162-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company introduced the new rule to protect customers, not to create extra work.",
+      "promptZh": "公司推出新規則，是為了保護顧客，而不是製造額外工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company introduced the new rule not because it wanted to create extra work, but because it wanted to protect customers.",
+      "answerZh": "公司推出新規則，不是因為想製造額外工作，而是因為想保護顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "The company introduced the new rule not because it wanted to create extra work, but because it wanted to protect customers."
+    },
+    {
+      "id": "ss162-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Olivia has avoided that road since the accident. Heavy traffic is not the reason; she feels unsafe there.",
+      "promptZh": "自從意外發生後，奧莉花一直避開那條道路。交通繁忙並不是原因；她在那裏感到不安全。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia has avoided that road not because the traffic is heavy, but because she feels unsafe there.",
+      "answerZh": "奧莉花一直避開那條道路，不是因為交通繁忙，而是因為她在那裏感到不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia has avoided that road not because the traffic is heavy, but because she feels unsafe there."
+    },
+    {
+      "id": "ss162-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why should we check the figures again? Accurate information is essential; distrust is not the issue.",
+      "promptZh": "我們為甚麼應該再次核對數字？資料準確非常重要；問題並不在於我們不信任團隊。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should check the figures again not because we distrust the team, but because we need accurate information.",
+      "answerZh": "我們應該再次核對數字，不是因為不信任團隊，而是因為我們需要準確的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "We should check the figures again not because we distrust the team, but because we need accurate information."
+    },
+    {
+      "id": "ss162-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital moved the appointment owing to an emergency rather than an administrative mistake.",
+      "promptZh": "醫院更改預約時間，是因為發生緊急事故，而不是因為行政失誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital moved the appointment not because an administrative mistake had been made, but because an emergency had occurred.",
+      "answerZh": "醫院更改預約時間，不是因為出現行政失誤，而是因為發生了緊急事故。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital moved the appointment not because an administrative mistake had been made, but because an emergency had occurred."
+    },
+    {
+      "id": "ss162-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Ethan’s experience was not the deciding factor. He was chosen as captain because he listened well to others.",
+      "promptZh": "伊森的經驗並不是決定因素。他獲選為隊長，是因為他善於聆聽別人。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan was chosen as captain not because he was experienced, but because he listened well to others.",
+      "answerZh": "伊森獲選為隊長，不是因為他經驗豐富，而是因為他善於聆聽別人。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan was chosen as captain not because he was experienced, but because he listened well to others."
+    },
+    {
+      "id": "ss162-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Several open programs are slowing the computer down; its age is not causing the problem.",
+      "promptZh": "同時開啟多個程式令電腦運作緩慢；電腦的機齡並不是問題的成因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The computer is running slowly not because it is old, but because several programs are open.",
+      "answerZh": "電腦運作緩慢，不是因為它老舊，而是因為同時開啟了多個程式。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer is running slowly not because it is old, but because several programs are open."
+    },
+    {
+      "id": "ss162-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Sofia accepted the job for the training it offered, not for a higher salary.",
+      "promptZh": "蘇菲亞接受這份工作，是因為它提供培訓，而不是因為薪酬較高。",
+      "promptZhSource": "pdf",
+      "starter": "Sofia",
+      "answer": "Sofia accepted the job not because the salary was higher, but because it offered useful training.",
+      "answerZh": "蘇菲亞接受這份工作，不是因為薪酬較高，而是因為它提供實用的培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia accepted the job not because the salary was higher, but because it offered useful training."
+    },
+    {
+      "id": "ss162-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The road was closed after a tree fell, not as part of planned repairs.",
+      "promptZh": "道路封閉是因為有樹木倒下，而不是因為進行預定維修。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was closed not because repairs had been planned, but because a tree had fallen.",
+      "answerZh": "道路封閉，不是因為已安排維修，而是因為有一棵樹倒下了。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was closed not because repairs had been planned, but because a tree had fallen."
+    },
+    {
+      "id": "ss162-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Requests from visitors, rather than a lack of work for staff, led the museum to extend its opening hours.",
+      "promptZh": "博物館延長開放時間，是因為訪客提出要求，而不是因為員工工作不足。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum extended its opening hours not because the staff had too little work, but because visitors had requested more time.",
+      "answerZh": "博物館延長開放時間，不是因為員工工作太少，而是因為訪客要求有更多參觀時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum extended its opening hours not because the staff had too little work, but because visitors had requested more time."
+    },
+    {
+      "id": "ss162-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The coach did not praise the player for scoring. He praised her for helping the whole team.",
+      "promptZh": "教練不是因為那名球員得分而表揚她。他表揚她，是因為她幫助了整支球隊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach praised the player not because she scored, but because she helped the whole team.",
+      "answerZh": "教練表揚那名球員，不是因為她得分，而是因為她幫助了整支球隊。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach praised the player not because she scored, but because she helped the whole team."
+    },
+    {
+      "id": "ss162-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The office is quiet today. It is open, but the staff are working from home.",
+      "promptZh": "辦公室今天很安靜。辦公室仍然開放，但員工正在家工作。",
+      "promptZhSource": "pdf",
+      "starter": "Today",
+      "answer": "Today, the office is quiet not because it is closed, but because the staff are working from home.",
+      "answerZh": "辦公室今天很安靜，不是因為它關閉了，而是因為員工正在家工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Today, the office is quiet not because it is closed, but because the staff are working from home."
+    },
+    {
+      "id": "ss162-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school replaced the computers because they could no longer run the required software. Their old appearance was not the reason.",
+      "promptZh": "學校更換電腦，是因為它們已不能運行所需軟件。外觀老舊並不是原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school replaced the computers not because they looked old, but because they could no longer run the required software.",
+      "answerZh": "學校更換電腦，不是因為它們看起來老舊，而是因為它們已不能運行所需軟件。",
+      "answerZhSource": "pdf",
+      "highlight": "The school replaced the computers not because they looked old, but because they could no longer run the required software."
+    },
+    {
+      "id": "ss162-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "New evidence appeared, so the report was revised. The writer had not made a careless mistake.",
+      "promptZh": "出現了新證據，所以報告被修訂。撰寫者並沒有犯下粗心的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report was revised not because the writer had made a careless mistake, but because new evidence appeared.",
+      "answerZh": "報告被修訂，不是因為撰寫者犯下粗心的錯誤，而是因為出現了新證據。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was revised not because the writer had made a careless mistake, but because new evidence appeared."
+    },
+    {
+      "id": "ss162-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "Residents use solar lamps owing to the unreliable electricity supply, rather than a dislike of modern equipment.",
+      "promptZh": "居民使用太陽能燈，是因為電力供應不穩定，而不是因為他們不喜歡現代設備。",
+      "promptZhSource": "pdf",
+      "starter": "Residents",
+      "answer": "Residents use solar lamps not because they dislike modern equipment, but because the electricity supply is unreliable.",
+      "answerZh": "居民使用太陽能燈，不是因為他們不喜歡現代設備，而是因為電力供應不穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents use solar lamps not because they dislike modern equipment, but because the electricity supply is unreliable."
+    },
+    {
+      "id": "ss162-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The customer asked for a refund because the product was damaged. Changing her mind was not the reason.",
+      "promptZh": "顧客要求退款，是因為產品損壞。她並不是因為改變主意而要求退款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer asked for a refund not because she had changed her mind, but because the product was damaged.",
+      "answerZh": "顧客要求退款，不是因為她改變了主意，而是因為產品損壞。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer asked for a refund not because she had changed her mind, but because the product was damaged."
+    },
+    {
+      "id": "ss162-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The team is changing its schedule to support new members, not to reduce training time.",
+      "promptZh": "團隊正在更改時間表，是為了支援新成員，而不是為了減少訓練時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team is changing its schedule not because it wants to reduce training time, but because new members need more support.",
+      "answerZh": "團隊正在更改時間表，不是因為想減少訓練時間，而是因為新成員需要更多支援。",
+      "answerZhSource": "pdf",
+      "highlight": "The team is changing its schedule not because it wants to reduce training time, but because new members need more support."
+    },
+    {
+      "id": "ss162-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Smoke entered the kitchen and caused the alarm to sound, although no fire had started.",
+      "promptZh": "煙霧進入廚房，令警報器響起，雖然當時並沒有發生火警。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The alarm sounded not because a fire had started, but because smoke had entered the kitchen.",
+      "answerZh": "警報器響起，不是因為發生了火警，而是因為煙霧進入了廚房。",
+      "answerZhSource": "pdf",
+      "highlight": "The alarm sounded not because a fire had started, but because smoke had entered the kitchen."
+    },
+    {
+      "id": "ss162-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Some people thought the library staff had removed the chairs to save money. In fact, the floor is being repaired.",
+      "promptZh": "有些人以為圖書館職員為了節省金錢而移走椅子。事實上，地板正在維修。",
+      "promptZhSource": "pdf",
+      "starter": "Library",
+      "answer": "Library staff removed the chairs not because they wanted to save money, but because the floor is being repaired.",
+      "answerZh": "圖書館職員移走椅子，不是因為想節省金錢，而是因為地板正在維修。",
+      "answerZhSource": "pdf",
+      "highlight": "Library staff removed the chairs not because they wanted to save money, but because the floor is being repaired."
+    },
+    {
+      "id": "ss162-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The first result was unusual, so the scientist repeated the experiment. She did not doubt her assistant’s honesty.",
+      "promptZh": "第一次結果不尋常，所以科學家重做實驗。她並沒有懷疑助手是否誠實。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scientist repeated the experiment not because she doubted her assistant’s honesty, but because the first result was unusual.",
+      "answerZh": "科學家重做實驗，不是因為她懷疑助手是否誠實，而是因為第一次結果不尋常。",
+      "answerZhSource": "pdf",
+      "highlight": "The scientist repeated the experiment not because she doubted her assistant’s honesty, but because the first result was unusual."
+    },
+    {
+      "id": "ss162-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The council planted more trees to give residents shade, not to hide the buildings.",
+      "promptZh": "市議會種植更多樹木，是為了給居民提供樹蔭，而不是為了遮擋建築物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council planted more trees not because it wanted to hide the buildings, but because it wanted to give residents more shade.",
+      "answerZh": "市議會種植更多樹木，不是因為想遮擋建築物，而是因為想為居民提供更多樹蔭。",
+      "answerZhSource": "pdf",
+      "highlight": "The council planted more trees not because it wanted to hide the buildings, but because it wanted to give residents more shade."
+    },
+    {
+      "id": "ss162-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The company discovered a security problem and delayed the launch. The marketing campaign had been ready on time.",
+      "promptZh": "公司發現保安問題，因此延遲推出產品。市場推廣活動已準時準備好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company delayed the launch not because the marketing campaign was late, but because it had discovered a security problem.",
+      "answerZh": "公司延遲推出產品，不是因為市場推廣活動延誤，而是因為公司發現了保安問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The company delayed the launch not because the marketing campaign was late, but because it had discovered a security problem."
+    },
+    {
+      "id": "ss162-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Why has this clinic changed its booking system? It wants patients to receive faster replies, not fewer appointments.",
+      "promptZh": "這間診所為甚麼更改預約系統？診所希望病人更快收到回覆，而不是減少預約數量。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This clinic has changed its booking system not because it wants to reduce the number of appointments, but because it wants patients to receive faster replies.",
+      "answerZh": "這間診所更改預約系統，不是因為想減少預約數量，而是因為想讓病人更快收到回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "This clinic has changed its booking system not because it wants to reduce the number of appointments, but because it wants patients to receive faster replies."
+    },
+    {
+      "id": "ss162-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Several parents still had unanswered questions, so the head teacher requested another meeting. She was satisfied with the teachers’ work.",
+      "promptZh": "數名家長仍有未獲解答的問題，所以校長要求再開一次會議。她對教師的工作感到滿意。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The head teacher requested another meeting not because she was dissatisfied with the teachers’ work, but because several parents still had unanswered questions.",
+      "answerZh": "校長要求再開一次會議，不是因為她不滿教師的工作，而是因為數名家長仍有未獲解答的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The head teacher requested another meeting not because she was dissatisfied with the teachers’ work, but because several parents still had unanswered questions."
+    },
+    {
+      "id": "ss162-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The larger venue was available, but the charity chose the smaller one so that more money could go to the project.",
+      "promptZh": "較大的場地可以使用，但慈善機構選擇了較小的場地，好讓更多款項用於該項目。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity chose the smaller venue not because the larger one was unavailable, but because it wanted more money to go to the project.",
+      "answerZh": "慈善機構選擇較小的場地，不是因為較大的場地無法使用，而是因為它希望把更多款項用於該項目。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity chose the smaller venue not because the larger one was unavailable, but because it wanted more money to go to the project."
+    },
+    {
+      "id": "ss162-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 23
+      },
+      "prompt": "The policy was criticised for being unclear rather than for being strict.",
+      "promptZh": "這項政策受到批評，是因為內容不清晰，而不是因為過於嚴格。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy was criticised not because it was strict, but because it was unclear.",
+      "answerZh": "這項政策受到批評，不是因為它嚴格，而是因為內容不清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy was criticised not because it was strict, but because it was unclear."
+    },
+    {
+      "id": "ss162-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Tests revealed a safety risk, so an engineer changed the design. Cost was not the problem.",
+      "promptZh": "測試顯示存在安全風險，所以一名工程師更改了設計。成本並不是問題。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An engineer changed the design not because the original version was too expensive, but because tests revealed a safety risk.",
+      "answerZh": "一名工程師更改設計，不是因為原來的版本太昂貴，而是因為測試顯示存在安全風險。",
+      "answerZhSource": "pdf",
+      "highlight": "An engineer changed the design not because the original version was too expensive, but because tests revealed a safety risk."
+    },
+    {
+      "id": "ss162-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Many residents could not call during working hours, so the public service added an evening hotline. The daytime service remained.",
+      "promptZh": "很多居民未能在辦公時間內致電，所以公共服務機構增設了晚間熱線。日間服務仍然保留。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public service added an evening hotline not because the daytime service was being removed, but because many residents could not call during working hours.",
+      "answerZh": "公共服務機構增設晚間熱線，不是因為日間服務將被取消，而是因為很多居民未能在辦公時間內致電。",
+      "answerZhSource": "pdf",
+      "highlight": "The public service added an evening hotline not because the daytime service was being removed, but because many residents could not call during working hours."
+    },
+    {
+      "id": "ss162-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The students performed better after learning to plan their answers. The exam itself had not become easier.",
+      "promptZh": "學生學會規劃答案後，表現有所改善。考試本身並沒有變得容易。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students performed better not because the exam had become easier, but because they had learnt how to plan their answers.",
+      "answerZh": "學生表現有所改善，不是因為考試變得容易，而是因為他們學會了如何規劃答案。",
+      "answerZhSource": "pdf",
+      "highlight": "The students performed better not because the exam had become easier, but because they had learnt how to plan their answers."
+    },
+    {
+      "id": "ss162-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The board approved the project because its long-term benefits justified the cost. A competitor’s similar launch did not influence the decision.",
+      "promptZh": "董事會批准這個項目，是因為長遠效益足以證明成本合理。競爭對手推出類似項目並沒有影響這項決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The board approved the project not because a competitor had launched something similar, but because the project’s long-term benefits justified the cost.",
+      "answerZh": "董事會批准這個項目，不是因為競爭對手推出了類似項目，而是因為項目的長遠效益足以證明成本合理。",
+      "answerZhSource": "pdf",
+      "highlight": "The board approved the project not because a competitor had launched something similar, but because the project’s long-term benefits justified the cost."
+    },
+    {
+      "id": "ss162-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 24
+      },
+      "prompt": "Local residents supported new housing in principle, but opposed this redevelopment because it would remove the only public garden.",
+      "promptZh": "區內居民原則上支持興建新房屋，但反對這項重建計劃，因為它會移除區內唯一的公共花園。",
+      "promptZhSource": "pdf",
+      "starter": "Local",
+      "answer": "Local residents opposed the redevelopment not because they were against all new housing, but because the plan would remove the only public garden.",
+      "answerZh": "區內居民反對這項重建計劃，不是因為他們反對所有新房屋，而是因為計劃會移除區內唯一的公共花園。",
+      "answerZhSource": "pdf",
+      "highlight": "Local residents opposed the redevelopment not because they were against all new housing, but because the plan would remove the only public garden."
+    }
+  ]
+}

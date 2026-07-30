@@ -1,0 +1,1241 @@
+{
+  "id": "ss128",
+  "order": 128,
+  "slug": "insofar-as",
+  "title": "「Insofar as 句：限制範圍、程度或適用條件」",
+  "titleZh": "「Insofar as 句：限制範圍、程度或適用條件」",
+  "titleEn": "Using insofar as to limit scope, degree or applicability",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 128 -「Insofar as 句：限制範圍、程度或適用條件」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Insofar as + subject + verb, + main clause",
+  "formulas": [
+    {
+      "id": "ss128-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Insofar as + subject + verb, + main clause"
+    },
+    {
+      "id": "ss128-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Main clause + insofar as + subject + verb"
+    }
+  ],
+  "example": "The proposal is acceptable insofar as it meets the school’s safety requirements.",
+  "exampleZh": "這份建議只有在符合學校安全要求的範圍內，才可以接受。",
+  "examples": [
+    {
+      "id": "ss128-example-01",
+      "en": "The proposal is acceptable insofar as it meets the school’s safety requirements.",
+      "zh": "這份建議只有在符合學校安全要求的範圍內，才可以接受。",
+      "highlight": "insofar as it meets the school’s safety requirements"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss128-rule-01",
+      "zh": "Insofar as 的核心意思是「在……範圍或程度內」 使用 insofar as 時，說話者通常不是完全肯定整件事情，而是指出主句只在某個範圍內成立。 這句並不是說整個計劃在所有方面都成功。",
+      "en": "Insofar as means ‘within a stated scope or degree’. It usually limits the main statement rather than affirming the whole matter without qualification; the example says that the plan succeeds in one respect, not in every respect.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The plan is successful insofar as it reduces waiting time."
+      ]
+    },
+    {
+      "id": "ss128-rule-02",
+      "zh": "Insofar as 可以放在句首或句中 句首： 句首的從句後通常使用逗號。 句中：",
+      "en": "An insofar as-clause may come first or later in the sentence. An initial clause is normally followed by a comma.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Insofar as I know, the office is closed today.",
+        "The policy is useful insofar as it protects children."
+      ]
+    },
+    {
+      "id": "ss128-rule-03",
+      "zh": "Insofar as 常用於較正式的語境 這個句型常見於： ● 作文及學術討論； ● 報告及分析； ● 商業政策； ● 法律或行政文件； ● 正式會議及評論。 在日常會話中，as far as、only if 或 provided that 通常較常見。 例如，Insofar as I know 文法上可以成立，但日常英文通常較常說：",
+      "en": "Insofar as is common in formal contexts, including essays and academic discussions, reports and analysis, business policies, legal or administrative documents, formal meetings and commentary. In everyday conversation, as far as, only if or provided that is usually more common; for example, As far as I know is more usual in daily English than Insofar as I know.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss128-rule-04",
+      "zh": "Insofar as 與 As long as 的分別 As long as 通常提出一項普通而充分的條件。只要條件成立，主句結果便可以成立。 Insofar as 則通常限制一項判斷、權利、同意或有效性的範圍。 因此，insofar as 比 as long as 更強調「只限於這個程度或方面」，而不是單純表示「只要」。",
+      "en": "Insofar as limits scope, whereas as long as normally states an ordinary sufficient condition under which the main-clause result can hold. Insofar as restricts the extent of a judgement, right, agreement or validity and therefore emphasizes ‘only to this degree or in this respect’, not merely ‘provided that’.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You may stay here as long as you remain quiet.",
+        "The rule is acceptable insofar as it protects public safety."
+      ]
+    },
+    {
+      "id": "ss128-rule-05",
+      "zh": "Insofar as 與 So long as 的分別 表示條件時，so long as 和 as long as 的意思幾乎相同。 So long as 有時比 as long as 稍有強調意味，但兩者都是一般條件句。 Insofar as 則較正式，並且主要限制： ● 一項說法的準確程度； ● 一項規則的適用範圍； ● 一項計劃的有效程度； ● 說話者同意某件事的程度。",
+      "en": "Insofar as and so long as serve different functions. For conditions, so long as and as long as are almost identical, though so long as may sound slightly more emphatic. Insofar as is more formal and principally limits the accuracy of a statement, the scope of a rule, the effectiveness of a plan or the degree to which a speaker agrees.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "So long as you practise every day, you will improve."
+      ]
+    },
+    {
+      "id": "ss128-rule-06",
+      "zh": "Insofar as 不表示時間長度 As long as 可以表示「長達某段時間」。 Insofar as 沒有這種時間意思，因此不能用來取代這類 as long as。",
+      "en": "Insofar as does not express duration. As long as can mean ‘for the greatest possible length of time’, but insofar as has no such time meaning and cannot replace it in that use.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I stayed there as long as I could."
+      ]
+    },
+    {
+      "id": "ss128-rule-07",
+      "zh": "本練習只使用連寫形式 本練習統一使用： 不使用較少見的分寫形式：",
+      "en": "Use the closed spelling insofar as in this lesson, not the less common spaced form in so far as.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss128-benefit-01",
+      "zh": "幫助你準確限制說法 這個句型讓你清楚表示某項判斷只在特定範圍內成立，避免把說法講得過分絕對。",
+      "en": "It limits a statement precisely by showing that a judgement holds only within a specified scope and preventing an overly absolute claim.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The report is reliable insofar as the figures have been checked."
+      ]
+    },
+    {
+      "id": "ss128-benefit-02",
+      "zh": "幫助你表達部分同意 你可以使用 insofar as 表示自己同意某個觀點的一部分，但並非接受整個觀點。 這比只說 “I agree” 更準確。",
+      "en": "It helps express partial agreement. You can agree with one part of a view without accepting it in full, which is more precise than simply saying I agree.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We agree with the article insofar as it explains the causes."
+      ]
+    },
+    {
+      "id": "ss128-benefit-03",
+      "zh": "讓條件和限制更加清楚 這個句型可以把一項規則、許可或安排的限制直接連接到主句。 讀者可以立即知道這項安排並非毫無限制。",
+      "en": "It makes conditions and limitations clearer by linking the limits of a rule, permission or arrangement directly to the main clause, so readers can see immediately that the arrangement is not unrestricted.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Employees may work remotely insofar as their duties allow."
+      ]
+    },
+    {
+      "id": "ss128-benefit-04",
+      "zh": "適合正式分析和評論 在作文、報告、簡報及商業文件中，insofar as 可以幫助你作出較審慎和有分寸的判斷。 它特別適合分析： ● 一項措施在哪些方面有效； ● 一項論點在哪些部分成立； ● 一項規則在哪些情況下適用。",
+      "en": "It suits formal analysis and commentary. In essays, reports, presentations and business documents, insofar as supports cautious, measured judgements about the respects in which a measure is effective, the parts of an argument that hold, or the situations in which a rule applies.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss128-benefit-05",
+      "zh": "可以縮短較長的限制說法 比較： 兩句意思相近，但第二句更集中地把「有用的程度」和「縮短輪候時間」連接起來。",
+      "en": "It can shorten a longer statement of limitation. In the comparison, both versions have similar meanings, but insofar as links the degree of usefulness more directly to the reduction in waiting time.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss128-benefit-06",
+      "zh": "讓論述不會過度誇大 使用 insofar as 可以提醒讀者：你提出的是有限度的結論，而不是聲稱它在所有情況下都正確。 這能令正式寫作顯得更謹慎、更準確，也更有說服力。",
+      "en": "It prevents an argument from sounding exaggerated by signalling that the conclusion is limited rather than universally true, making formal writing more cautious, accurate and persuasive.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using insofar as. Do not change the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 insofar as 改寫以下句子。不要改變原來的意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss128-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As far as I know, Daniel has already sent the email.",
+      "promptZh": "就我所知，丹尼爾已經寄出了電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Insofar",
+      "answer": "Insofar as I know, Daniel has already sent the email.",
+      "answerZh": "就我所知，丹尼爾已經寄出了電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Insofar as I know, Daniel has already sent the email."
+    },
+    {
+      "id": "ss128-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The idea is helpful to the extent that it saves us time.",
+      "promptZh": "這個想法在能夠節省我們時間的程度上是有幫助的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea is helpful insofar as it saves us time.",
+      "answerZh": "這個想法在能夠節省我們時間的程度上是有幫助的。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea is helpful insofar as it saves us time."
+    },
+    {
+      "id": "ss128-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This rule is fair only if it applies equally to everyone.",
+      "promptZh": "這項規則只有在平等適用於每個人的情況下才算公平。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This rule is fair insofar as it applies equally to everyone.",
+      "answerZh": "這項規則只有在平等適用於每個人的範圍內才算公平。",
+      "answerZhSource": "pdf",
+      "highlight": "This rule is fair insofar as it applies equally to everyone."
+    },
+    {
+      "id": "ss128-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As far as I can remember, the café opens at seven.",
+      "promptZh": "就我所記得，這間咖啡店七時開門。",
+      "promptZhSource": "pdf",
+      "starter": "Insofar",
+      "answer": "Insofar as I can remember, the café opens at seven.",
+      "answerZh": "就我所記得，這間咖啡店七時開門。",
+      "answerZhSource": "pdf",
+      "highlight": "Insofar as I can remember, the café opens at seven."
+    },
+    {
+      "id": "ss128-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The app is useful only when a task does not require internet access.",
+      "promptZh": "這個應用程式只在工作不需要互聯網連線時才有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app is useful insofar as a task does not require internet access.",
+      "answerZh": "這個應用程式只在工作不需要互聯網連線的情況下才有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The app is useful insofar as a task does not require internet access."
+    },
+    {
+      "id": "ss128-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Her advice is reliable only in subjects that she has studied.",
+      "promptZh": "她的建議只在她曾經研究的科目方面才可靠。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her advice is reliable insofar as it concerns subjects that she has studied.",
+      "answerZh": "她的建議只在涉及她曾經研究的科目時才可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Her advice is reliable insofar as it concerns subjects that she has studied."
+    },
+    {
+      "id": "ss128-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We support the plan only where it improves road safety.",
+      "promptZh": "我們只在這項計劃能夠改善道路安全的範圍內支持它。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We support the plan insofar as it improves road safety.",
+      "answerZh": "我們只在這項計劃能夠改善道路安全的範圍內支持它。",
+      "answerZhSource": "pdf",
+      "highlight": "We support the plan insofar as it improves road safety."
+    },
+    {
+      "id": "ss128-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The information is accurate only in relation to the first chapter.",
+      "promptZh": "這些資料只在涉及第一章的部分才準確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The information is accurate insofar as it relates to the first chapter.",
+      "answerZh": "這些資料只在涉及第一章的範圍內才準確。",
+      "answerZhSource": "pdf",
+      "highlight": "The information is accurate insofar as it relates to the first chapter."
+    },
+    {
+      "id": "ss128-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Your use of the hall is permitted provided that no other class needs it.",
+      "promptZh": "只要沒有其他班別需要使用禮堂，你便獲准使用它。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your use of the hall is permitted insofar as no other class needs it.",
+      "answerZh": "你只在沒有其他班別需要使用禮堂的情況下獲准使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "Your use of the hall is permitted insofar as no other class needs it."
+    },
+    {
+      "id": "ss128-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The new timetable works only when all the buses arrive on time.",
+      "promptZh": "新時間表只有在所有巴士準時抵達時才能順利運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable works insofar as all the buses arrive on time.",
+      "answerZh": "新時間表只有在所有巴士準時抵達的情況下才能順利運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable works insofar as all the buses arrive on time."
+    },
+    {
+      "id": "ss128-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The report is convincing in the parts supported by clear evidence.",
+      "promptZh": "這份報告在有明確證據支持的部分具有說服力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report is convincing insofar as its claims are supported by clear evidence.",
+      "answerZh": "這份報告只在其中的說法有明確證據支持的範圍內具有說服力。",
+      "answerZhSource": "pdf",
+      "highlight": "The report is convincing insofar as its claims are supported by clear evidence."
+    },
+    {
+      "id": "ss128-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As far as the teacher can tell, everyone understands the task.",
+      "promptZh": "就老師所能判斷，每個人都明白這項任務。",
+      "promptZhSource": "pdf",
+      "starter": "Insofar",
+      "answer": "Insofar as the teacher can tell, everyone understands the task.",
+      "answerZh": "就老師所能判斷，每個人都明白這項任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Insofar as the teacher can tell, everyone understands the task."
+    },
+    {
+      "id": "ss128-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The discount applies only to items marked with a blue label.",
+      "promptZh": "折扣只適用於貼有藍色標籤的貨品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The discount applies insofar as the items are marked with a blue label.",
+      "answerZh": "折扣只適用於貼有藍色標籤的貨品。",
+      "answerZhSource": "pdf",
+      "highlight": "The discount applies insofar as the items are marked with a blue label."
+    },
+    {
+      "id": "ss128-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We can accept the proposal provided that it stays within budget.",
+      "promptZh": "只要這份建議不超出預算，我們便可以接受。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can accept the proposal insofar as it stays within budget.",
+      "answerZh": "我們只在這份建議不超出預算的情況下才可以接受它。",
+      "answerZhSource": "pdf",
+      "highlight": "We can accept the proposal insofar as it stays within budget."
+    },
+    {
+      "id": "ss128-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The machine is environmentally friendly only to the degree that it uses less electricity.",
+      "promptZh": "這部機器只是在能夠減少用電的程度上屬於環保。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine is environmentally friendly insofar as it uses less electricity.",
+      "answerZh": "這部機器只是在能夠減少用電的程度上屬於環保。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine is environmentally friendly insofar as it uses less electricity."
+    },
+    {
+      "id": "ss128-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The agreement is useful only in matters related to online sales.",
+      "promptZh": "這份協議只在與網上銷售有關的事項上有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The agreement is useful insofar as it concerns online sales.",
+      "answerZh": "這份協議只在涉及網上銷售的範圍內有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The agreement is useful insofar as it concerns online sales."
+    },
+    {
+      "id": "ss128-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As far as the available records show, the payment was made on Monday.",
+      "promptZh": "根據現有紀錄所顯示，款項是在星期一支付的。",
+      "promptZhSource": "pdf",
+      "starter": "Insofar",
+      "answer": "Insofar as the available records show, the payment was made on Monday.",
+      "answerZh": "根據現有紀錄所顯示，款項是在星期一支付的。",
+      "answerZhSource": "pdf",
+      "highlight": "Insofar as the available records show, the payment was made on Monday."
+    },
+    {
+      "id": "ss128-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The policy is successful in one respect: it reduces waiting time.",
+      "promptZh": "這項政策在一方面是成功的：它縮短了輪候時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy is successful insofar as it reduces waiting time.",
+      "answerZh": "這項政策只是在能夠縮短輪候時間的程度上算是成功。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy is successful insofar as it reduces waiting time."
+    },
+    {
+      "id": "ss128-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Students may choose their own topics only if those topics are suitable for school.",
+      "promptZh": "學生只有在題目適合學校使用的情況下，才可以自行選擇題目。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students may choose their own topics insofar as those topics are suitable for school.",
+      "answerZh": "學生只可以在題目適合學校使用的情況下自行選擇題目。",
+      "answerZhSource": "pdf",
+      "highlight": "Students may choose their own topics insofar as those topics are suitable for school."
+    },
+    {
+      "id": "ss128-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The online course is flexible only within the limits allowed by the examination schedule.",
+      "promptZh": "這個網上課程只可以在考試時間表容許的範圍內靈活安排。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The online course is flexible insofar as the examination schedule allows.",
+      "answerZh": "這個網上課程只可以在考試時間表容許的範圍內靈活安排。",
+      "answerZhSource": "pdf",
+      "highlight": "The online course is flexible insofar as the examination schedule allows."
+    },
+    {
+      "id": "ss128-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The research is trustworthy to the extent that the data were collected carefully.",
+      "promptZh": "這項研究的可信程度取決於數據是否經過仔細收集。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research is trustworthy insofar as the data were collected carefully.",
+      "answerZh": "這項研究只在數據經過仔細收集的程度上值得信賴。",
+      "answerZhSource": "pdf",
+      "highlight": "The research is trustworthy insofar as the data were collected carefully."
+    },
+    {
+      "id": "ss128-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our plan can continue, but only if the landlord gives permission.",
+      "promptZh": "我們的計劃可以繼續，但前提是業主給予許可。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our plan can continue insofar as the landlord gives permission.",
+      "answerZh": "我們的計劃只可以在業主給予許可的情況下繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "Our plan can continue insofar as the landlord gives permission."
+    },
+    {
+      "id": "ss128-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager agrees with the suggestion only in relation to staff training.",
+      "promptZh": "經理只同意這項建議中與員工培訓有關的部分。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager agrees with the suggestion insofar as it relates to staff training.",
+      "answerZh": "經理只同意這項建議中與員工培訓有關的部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager agrees with the suggestion insofar as it relates to staff training."
+    },
+    {
+      "id": "ss128-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The medicine is effective only for symptoms caused by allergies.",
+      "promptZh": "這種藥物只對由敏感引起的症狀有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine is effective insofar as the symptoms are caused by allergies.",
+      "answerZh": "這種藥物只在症狀由敏感引起的情況下有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine is effective insofar as the symptoms are caused by allergies."
+    },
+    {
+      "id": "ss128-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As far as the evidence shows, no money was missing.",
+      "promptZh": "根據證據所顯示，沒有任何款項遺失。",
+      "promptZhSource": "pdf",
+      "starter": "Insofar",
+      "answer": "Insofar as the evidence shows, no money was missing.",
+      "answerZh": "根據證據所顯示，沒有任何款項遺失。",
+      "answerZhSource": "pdf",
+      "highlight": "Insofar as the evidence shows, no money was missing."
+    },
+    {
+      "id": "ss128-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school allows phone use only when teachers approve it.",
+      "promptZh": "學校只有在教師批准的情況下才容許使用電話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school allows phone use insofar as teachers approve it.",
+      "answerZh": "學校只在教師批准的情況下容許使用電話。",
+      "answerZhSource": "pdf",
+      "highlight": "The school allows phone use insofar as teachers approve it."
+    },
+    {
+      "id": "ss128-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The contract remains valid provided that both sides follow the payment terms.",
+      "promptZh": "只要雙方遵守付款條款，合約便仍然有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The contract remains valid insofar as both sides follow the payment terms.",
+      "answerZh": "合約只在雙方遵守付款條款的情況下仍然有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The contract remains valid insofar as both sides follow the payment terms."
+    },
+    {
+      "id": "ss128-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The design is practical only in rooms with enough natural light.",
+      "promptZh": "這項設計只適用於有充足自然光的房間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The design is practical insofar as it is used in rooms with enough natural light.",
+      "answerZh": "這項設計只在用於有充足自然光的房間時才實用。",
+      "answerZhSource": "pdf",
+      "highlight": "The design is practical insofar as it is used in rooms with enough natural light."
+    },
+    {
+      "id": "ss128-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We agree with the article’s explanation of the causes, but we do not agree with its solutions.",
+      "promptZh": "我們同意文章對成因的解釋，但不同意文章提出的解決方法。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We agree with the article insofar as it explains the causes, but not with its solutions.",
+      "answerZh": "我們同意文章對成因所作的解釋，但不同意文章提出的解決方法。",
+      "answerZhSource": "pdf",
+      "highlight": "We agree with the article insofar as it explains the causes, but not with its solutions."
+    },
+    {
+      "id": "ss128-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The device protects privacy only when users turn on the security settings.",
+      "promptZh": "這部裝置只有在使用者啟用保安設定時才能保障私隱。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The device protects privacy insofar as users turn on the security settings.",
+      "answerZh": "這部裝置只在使用者啟用保安設定的情況下才能保障私隱。",
+      "answerZhSource": "pdf",
+      "highlight": "The device protects privacy insofar as users turn on the security settings."
+    },
+    {
+      "id": "ss128-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The figures are dependable only to the degree that the survey included a balanced group.",
+      "promptZh": "這些數字的可靠程度取決於調查是否包含一個分布均衡的群體。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The figures are dependable insofar as the survey included a balanced group.",
+      "answerZh": "這些數字只在調查包含一個分布均衡群體的程度上可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The figures are dependable insofar as the survey included a balanced group."
+    },
+    {
+      "id": "ss128-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The law helps small businesses only in cases involving late payment.",
+      "promptZh": "這項法律只在涉及逾期付款的個案中幫助小型企業。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The law helps small businesses insofar as their cases involve late payment.",
+      "answerZh": "這項法律只在小型企業的個案涉及逾期付款時提供幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "The law helps small businesses insofar as their cases involve late payment."
+    },
+    {
+      "id": "ss128-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We can finish today only if the final files arrive before noon.",
+      "promptZh": "我們只有在最終檔案於中午前送達的情況下，才能在今天完成工作。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can finish today insofar as the final files arrive before noon.",
+      "answerZh": "我們只可以在最終檔案於中午前送達的情況下於今天完成工作。",
+      "answerZhSource": "pdf",
+      "highlight": "We can finish today insofar as the final files arrive before noon."
+    },
+    {
+      "id": "ss128-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The training programme is successful in one respect: it improves staff confidence.",
+      "promptZh": "這個培訓計劃在一方面是成功的：它提升了員工的信心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training programme is successful insofar as it improves staff confidence.",
+      "answerZh": "這個培訓計劃只是在能夠提升員工信心的程度上算是成功。",
+      "answerZhSource": "pdf",
+      "highlight": "The training programme is successful insofar as it improves staff confidence."
+    },
+    {
+      "id": "ss128-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "According to the information currently available, the delay was caused by bad weather.",
+      "promptZh": "根據目前所得的資料，延誤是由惡劣天氣造成的。",
+      "promptZhSource": "pdf",
+      "starter": "Insofar",
+      "answer": "Insofar as the currently available information indicates, the delay was caused by bad weather.",
+      "answerZh": "根據目前所得資料所顯示，延誤是由惡劣天氣造成的。",
+      "answerZhSource": "pdf",
+      "highlight": "Insofar as the currently available information indicates, the delay was caused by bad weather."
+    },
+    {
+      "id": "ss128-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The board supports the project provided that its environmental impact remains low.",
+      "promptZh": "只要項目對環境的影響維持在較低水平，董事會便會支持它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The board supports the project insofar as its environmental impact remains low.",
+      "answerZh": "董事會只在項目對環境的影響維持在較低水平的情況下支持它。",
+      "answerZhSource": "pdf",
+      "highlight": "The board supports the project insofar as its environmental impact remains low."
+    },
+    {
+      "id": "ss128-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The system is secure only in areas where access is properly controlled.",
+      "promptZh": "這個系統只在存取權限受到妥善控制的範圍內才是安全的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The system is secure insofar as access is properly controlled.",
+      "answerZh": "這個系統只在存取權限受到妥善控制的範圍內才是安全的。",
+      "answerZhSource": "pdf",
+      "highlight": "The system is secure insofar as access is properly controlled."
+    },
+    {
+      "id": "ss128-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Her explanation is correct as far as the basic theory is concerned, but it ignores recent research.",
+      "promptZh": "就基礎理論而言，她的解釋是正確的，但它忽略了近期研究。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her explanation is correct insofar as the basic theory is concerned, but it ignores recent research.",
+      "answerZh": "就基礎理論而言，她的解釋是正確的，但它忽略了近期研究。",
+      "answerZhSource": "pdf",
+      "highlight": "Her explanation is correct insofar as the basic theory is concerned, but it ignores recent research."
+    },
+    {
+      "id": "ss128-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Customers may return the product only when it is unused and kept in its original packaging.",
+      "promptZh": "顧客只有在產品未經使用並保留原有包裝的情況下才可以退貨。",
+      "promptZhSource": "pdf",
+      "starter": "Customers",
+      "answer": "Customers may return the product insofar as it is unused and kept in its original packaging.",
+      "answerZh": "顧客只可以在產品未經使用並保留原有包裝的情況下退貨。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers may return the product insofar as it is unused and kept in its original packaging."
+    },
+    {
+      "id": "ss128-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The plan respects local residents only to the extent that it limits night-time noise.",
+      "promptZh": "這項計劃只是在能夠限制夜間噪音的程度上顧及本區居民。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan respects local residents insofar as it limits night-time noise.",
+      "answerZh": "這項計劃只是在能夠限制夜間噪音的程度上顧及本區居民。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan respects local residents insofar as it limits night-time noise."
+    },
+    {
+      "id": "ss128-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The recommendation is acceptable only for departments that have enough staff to carry it out.",
+      "promptZh": "這項建議只適用於有足夠員工執行它的部門。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The recommendation is acceptable insofar as it applies to departments with enough staff to carry it out.",
+      "answerZh": "這項建議只在適用於有足夠員工執行它的部門時才可以接受。",
+      "answerZhSource": "pdf",
+      "highlight": "The recommendation is acceptable insofar as it applies to departments with enough staff to carry it out."
+    },
+    {
+      "id": "ss128-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company can expand the service only if the existing network can handle more users.",
+      "promptZh": "公司只有在現有網絡能夠應付更多使用者的情況下，才能擴展服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company can expand the service insofar as the existing network can handle more users.",
+      "answerZh": "公司只可以在現有網絡能夠應付更多使用者的情況下擴展服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The company can expand the service insofar as the existing network can handle more users."
+    },
+    {
+      "id": "ss128-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The argument is persuasive in the parts where it distinguishes facts from opinions.",
+      "promptZh": "這項論點在能夠區分事實與意見的部分具有說服力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The argument is persuasive insofar as it distinguishes facts from opinions.",
+      "answerZh": "這項論點只在能夠區分事實與意見的範圍內具有說服力。",
+      "answerZhSource": "pdf",
+      "highlight": "The argument is persuasive insofar as it distinguishes facts from opinions."
+    },
+    {
+      "id": "ss128-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As far as the audit team could establish, no false records were created.",
+      "promptZh": "就審計團隊所能確定，沒有人製造虛假紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "Insofar",
+      "answer": "Insofar as the audit team could establish, no false records were created.",
+      "answerZh": "就審計團隊所能確定，沒有人製造虛假紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Insofar as the audit team could establish, no false records were created."
+    },
+    {
+      "id": "ss128-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new rule protects workers only to the degree that managers enforce it consistently.",
+      "promptZh": "這項新規則保障員工的程度，取決於經理是否一致地執行它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule protects workers insofar as managers enforce it consistently.",
+      "answerZh": "這項新規則保障員工的程度，取決於經理是否一致地執行它。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule protects workers insofar as managers enforce it consistently."
+    },
+    {
+      "id": "ss128-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We can regard the experiment as successful only if another team can repeat the result.",
+      "promptZh": "只有在另一個團隊能夠重複得出相同結果的情況下，我們才可以視這項實驗為成功。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can regard the experiment as successful insofar as the result can be repeated by another team.",
+      "answerZh": "我們只可以在另一個團隊能夠重複得出相同結果的範圍內，視這項實驗為成功。",
+      "answerZhSource": "pdf",
+      "highlight": "We can regard the experiment as successful insofar as the result can be repeated by another team."
+    },
+    {
+      "id": "ss128-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The policy supports equal opportunity in areas where it removes unnecessary entry barriers.",
+      "promptZh": "這項政策在能夠消除不必要入職障礙的範圍內促進平等機會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy supports equal opportunity insofar as it removes unnecessary entry barriers.",
+      "answerZh": "這項政策在能夠消除不必要入職障礙的範圍內促進平等機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy supports equal opportunity insofar as it removes unnecessary entry barriers."
+    },
+    {
+      "id": "ss128-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The proposal is financially realistic only within the limits of the current funding plan.",
+      "promptZh": "這份建議只在目前資助計劃能夠負擔的範圍內，在財政上切實可行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal is financially realistic insofar as the current funding plan can support it.",
+      "answerZh": "這份建議只在目前資助計劃能夠負擔的範圍內，在財政上切實可行。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal is financially realistic insofar as the current funding plan can support it."
+    },
+    {
+      "id": "ss128-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We agree with the conclusion only on the condition that the missing data do not change the overall pattern.",
+      "promptZh": "我們只有在缺失數據不會改變整體趨勢的條件下，才同意這項結論。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We agree with the conclusion insofar as the missing data do not change the overall pattern.",
+      "answerZh": "我們只在缺失數據不會改變整體趨勢的情況下同意這項結論。",
+      "answerZhSource": "pdf",
+      "highlight": "We agree with the conclusion insofar as the missing data do not change the overall pattern."
+    },
+    {
+      "id": "ss128-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The international agreement is effective only to the extent that each country turns its promises into enforceable local rules.",
+      "promptZh": "這項國際協議的有效程度，取決於每個國家是否把承諾轉化為可以執行的本地規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The international agreement is effective insofar as each country turns its promises into enforceable local rules.",
+      "answerZh": "這項國際協議只有在各國把承諾轉化為可以執行的本地規則的程度上才有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The international agreement is effective insofar as each country turns its promises into enforceable local rules."
+    }
+  ]
+}

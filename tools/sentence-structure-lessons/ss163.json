@@ -1,0 +1,1224 @@
+{
+  "id": "ss163",
+  "order": 163,
+  "slug": "now-is-the-best-time-to",
+  "title": "Now is the best time to",
+  "titleZh": "「Now is the best time to...」句",
+  "titleEn": "Using Now is the best time to for timely action",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 163 -「Now is the best time to.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Now + is + the best time + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss163-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Now + is + the best time + to + base verb + other information"
+    }
+  ],
+  "example": "Now is the best time to study.",
+  "exampleZh": "現在是讀書的最佳時機。",
+  "examples": [
+    {
+      "id": "ss163-example-01",
+      "en": "Now is the best time to study.",
+      "zh": "現在是讀書的最佳時機。",
+      "highlight": "Now is the best time to study."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss163-rule-01",
+      "zh": "在這個句型中，best 是形容詞，用來形容名詞 time。 因此，完整句型並不是 Now is the best + adjective + to...，而是： Now is the best time to + 動詞原形",
+      "en": "The complete pattern is “Now is the best time to + base verb”. In this structure, best is an adjective describing the noun time. Write Now is the best time to study, not Now is the best to study.",
+      "enSource": "pdf",
+      "examples": [
+        "In this structure, best is an adjective describing the noun time."
+      ]
+    },
+    {
+      "id": "ss163-rule-02",
+      "zh": "在 to 後面必須使用動詞原形。",
+      "en": "Use the base form after “to” Correct： Now is the best time to start. Incorrect： Now is the best time to starting. Incorrect： Now is the best time to started.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss163-rule-03",
+      "zh": "Now 不一定只表示「這一秒」，也可以表示今天、這星期、現階段或目前的情況。",
+      "en": "“Now” does not always mean this exact second. It may refer to this moment, today, this week, the present stage or the current situation.",
+      "enSource": "pdf",
+      "examples": [
+        "this moment；",
+        "today；",
+        "this week；",
+        "the present stage；",
+        "the current situation."
+      ]
+    },
+    {
+      "id": "ss163-rule-04",
+      "zh": "這個句型的語氣比「你現在可以做」更強。它表示現在不只是可以做，而是最適合做的時機。",
+      "en": "Use this structure only when the present is especially suitable This structure is stronger than simply saying: You can do it now. It means that the present is the most suitable time.",
+      "enSource": "pdf",
+      "examples": [
+        "You can do it now.",
+        "It means that the present is the most suitable time."
+      ]
+    },
+    {
+      "id": "ss163-rule-05",
+      "zh": "（現在並不是討論這件事的最佳時機。）",
+      "en": "This exercise practises the positive form This worksheet practises: Now is the best time to... The negative form below is grammatical, but it is not the target of this exercise: Now is not the best time to discuss this.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss163-benefit-01",
+      "zh": "這個句型能立即突出「現在」的重要性，讓聽者明白不應錯過目前的時機。",
+      "en": "It clearly emphasises timing This structure immediately tells the listener that the present time is especially important or suitable.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss163-benefit-02",
+      "zh": "（現在開始儲蓄。） （現在是開始儲蓄的最佳時機。） 第二句同樣能提出明確建議，但語氣不像命令般直接，較容易讓別人接受。",
+      "en": "It gives advice without sounding like a direct order Compare: Start saving money now. Now is the best time to start saving money. The second sentence still gives strong advice, but it sounds less like a command.",
+      "enSource": "pdf",
+      "examples": [
+        "The second sentence still gives strong advice, but it sounds less like a command."
+      ]
+    },
+    {
+      "id": "ss163-benefit-03",
+      "zh": "你可以把「現在最適合」和「應該做甚麼」合併成一句，令表達更簡潔。",
+      "en": "It combines timing and action in one sentence Instead of writing: You should begin now. This is the most suitable time. You can write: Now is the best time to begin.",
+      "enSource": "pdf",
+      "examples": [
+        "You should begin now. This is the most suitable time."
+      ]
+    },
+    {
+      "id": "ss163-benefit-04",
+      "zh": "這個句型適合用來鼓勵別人開始計劃、解決問題、作出改變、把握機會，或及時採取行動。",
+      "en": "It is useful for persuasion You can use this structure when encouraging someone to: begin a plan； solve a problem； make a change； take advantage of an opportunity； act before it is too late.",
+      "enSource": "pdf",
+      "examples": [
+        "begin a plan；",
+        "solve a problem；",
+        "make a change；",
+        "take advantage of an opportunity；",
+        "act before it is too late."
+      ]
+    },
+    {
+      "id": "ss163-benefit-05",
+      "zh": "記住這個固定框架後，你可以在說話時快速加入不同動作，更容易組織完整答案。",
+      "en": "It provides a useful speaking frame Once you remember: Now is the best time to... you can quickly add your own action: Now is the best time to ask. Now is the best time to prepare. Now is the best time to make a change.",
+      "enSource": "pdf",
+      "examples": [
+        "Now is the best time to ask.",
+        "Now is the best time to prepare.",
+        "Now is the best time to make a change."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Now is the best time to.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Now is the best time to 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss163-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The present is the most suitable time for starting a regular study routine.",
+      "promptZh": "現在是開始建立固定溫習習慣的最合適時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to start a regular study routine.",
+      "answerZh": "現在是開始建立固定溫習習慣的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to start a regular study routine."
+    },
+    {
+      "id": "ss163-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You will not find a better time than the present for reviewing today’s new vocabulary.",
+      "promptZh": "你不會找到比現在更適合溫習今天所學新詞彙的時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to review today’s new vocabulary.",
+      "answerZh": "現在是溫習今天所學新詞彙的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to review today’s new vocabulary."
+    },
+    {
+      "id": "ss163-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The ideal time for asking the teacher about the difficult question is right now.",
+      "promptZh": "現在正是向老師詢問那條困難問題的理想時機。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to ask the teacher about the difficult question.",
+      "answerZh": "現在是向老師詢問那條困難問題的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to ask the teacher about the difficult question."
+    },
+    {
+      "id": "ss163-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you are going to tidy your desk before beginning your homework, the most suitable time is the present.",
+      "promptZh": "如果你打算在開始做功課前整理書桌，現在就是最合適的時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to tidy your desk before beginning your homework.",
+      "answerZh": "現在是開始做功課前整理書桌的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to tidy your desk before beginning your homework."
+    },
+    {
+      "id": "ss163-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No later time today will be better for leaving for the station before the roads become busy.",
+      "promptZh": "今天稍後不會有比現在更適合趁道路變得繁忙前前往車站的時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to leave for the station before the roads become busy.",
+      "answerZh": "現在是趁道路變得繁忙前前往車站的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to leave for the station before the roads become busy."
+    },
+    {
+      "id": "ss163-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The market has just opened, so this is the ideal time for buying fresh vegetables.",
+      "promptZh": "街市剛剛開門，因此現在是購買新鮮蔬菜的理想時機。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to buy fresh vegetables at the market.",
+      "answerZh": "現在是到街市購買新鮮蔬菜的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to buy fresh vegetables at the market."
+    },
+    {
+      "id": "ss163-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The air is cool and clean at the moment. This makes the present the most suitable time for opening the windows and letting some fresh air in.",
+      "promptZh": "現在的空氣清涼而潔淨，因此此刻最適合打開窗戶，讓新鮮空氣進來。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to open the windows and let some fresh air in.",
+      "answerZh": "現在是打開窗戶，讓新鮮空氣進來的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to open the windows and let some fresh air in."
+    },
+    {
+      "id": "ss163-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Of all possible times, the present is the most suitable for calling the doctor about your symptoms.",
+      "promptZh": "在所有可能的時間之中，現在最適合就你的症狀致電醫生。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to call the doctor about your symptoms.",
+      "answerZh": "現在是就你的症狀致電醫生的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to call the doctor about your symptoms."
+    },
+    {
+      "id": "ss163-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Because your phone battery is low and you are about to go out, charging it now is the wisest choice.",
+      "promptZh": "因為你的手機電量不足，而且你快要外出，所以現在充電是最明智的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to charge your phone before going out.",
+      "answerZh": "現在是外出前為手機充電的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to charge your phone before going out."
+    },
+    {
+      "id": "ss163-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Tomorrow will be busy, so making a simple plan now is the most sensible choice.",
+      "promptZh": "明天會很忙，因此現在為明天制訂一個簡單計劃是最明智的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to make a simple plan for tomorrow.",
+      "answerZh": "現在是為明天制訂簡單計劃的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to make a simple plan for tomorrow."
+    },
+    {
+      "id": "ss163-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The school term has just started, and there is no better time than the present for joining the reading club.",
+      "promptZh": "新學期剛剛開始，沒有比現在更適合加入閱讀學會的時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to join the school reading club.",
+      "answerZh": "現在是加入學校閱讀學會的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to join the school reading club."
+    },
+    {
+      "id": "ss163-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Because computer prices may rise, the present is the most suitable period for beginning to save for a new computer.",
+      "promptZh": "由於電腦價格可能上升，現在是開始為購買新電腦儲蓄的最合適時期。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to begin saving for a new computer.",
+      "answerZh": "現在是開始為購買新電腦儲蓄的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to begin saving for a new computer."
+    },
+    {
+      "id": "ss163-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Train tickets have just gone on sale. This is the earliest and most suitable time for booking them before prices rise.",
+      "promptZh": "火車票剛剛開始發售。現在是趁價格上升前預訂車票最早和最合適的時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to book the train tickets before prices rise.",
+      "answerZh": "現在是趁價格上升前預訂火車票的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to book the train tickets before prices rise."
+    },
+    {
+      "id": "ss163-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The misunderstanding is still small. This is the most suitable moment for apologising and clearing it up.",
+      "promptZh": "這個誤會仍然不大。現在是道歉並消除誤會的最合適時刻。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to apologise and clear up the misunderstanding.",
+      "answerZh": "現在是道歉並消除誤會的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to apologise and clear up the misunderstanding."
+    },
+    {
+      "id": "ss163-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If you want your spoken English to improve, no time is more suitable than the present for daily practice.",
+      "promptZh": "如果你想提升英語口語，沒有任何時間比現在更適合每天練習。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to practise speaking English every day.",
+      "answerZh": "現在是每天練習英語口語的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to practise speaking English every day."
+    },
+    {
+      "id": "ss163-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The smoke alarm is making a warning sound, so replacing its old batteries now is the safest and most suitable choice.",
+      "promptZh": "煙霧警報器正在發出警告聲，因此現在更換舊電池是最安全和最合適的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to replace the old batteries in the smoke alarm.",
+      "answerZh": "現在是更換煙霧警報器內舊電池的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to replace the old batteries in the smoke alarm."
+    },
+    {
+      "id": "ss163-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The weather is still mild. There will not be a better time this month for planting these flowers before it becomes hotter.",
+      "promptZh": "天氣仍然和暖。這個月不會有比現在更適合趁天氣變熱前種下這些花的時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to plant these flowers before the weather becomes hotter.",
+      "answerZh": "現在是趁天氣變得更熱前種下這些花的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to plant these flowers before the weather becomes hotter."
+    },
+    {
+      "id": "ss163-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Before either plan is approved, the present is the ideal stage for a careful comparison of the two plans.",
+      "promptZh": "在任何一個計劃獲得批准前，現在是仔細比較兩個計劃的理想階段。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to compare the two plans carefully.",
+      "answerZh": "現在是仔細比較兩個計劃的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to compare the two plans carefully."
+    },
+    {
+      "id": "ss163-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Your library books are due tomorrow. Renewing them online now is the wisest choice.",
+      "promptZh": "你的圖書館書籍明天到期。現在於網上續借是最明智的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to renew your library books online.",
+      "answerZh": "現在是在網上續借圖書館書籍的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to renew your library books online."
+    },
+    {
+      "id": "ss163-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After two hours at the screen, this is the most suitable point for taking a short break and resting your eyes.",
+      "promptZh": "看了螢幕兩小時後，現在是稍作休息並讓眼睛放鬆的最合適時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to take a short break and rest your eyes.",
+      "answerZh": "現在是稍作休息並讓眼睛放鬆的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to take a short break and rest your eyes."
+    },
+    {
+      "id": "ss163-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The next meeting is tomorrow, and the current quiet period is the most suitable time for updating the software beforehand.",
+      "promptZh": "下一次會議在明天舉行，而目前較清閒的時段最適合預先更新軟件。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to update the software before the next meeting.",
+      "answerZh": "現在是下一次會議前更新軟件的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to update the software before the next meeting."
+    },
+    {
+      "id": "ss163-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Everyone is available this afternoon, so the present is the ideal opportunity for a discussion about the budget with the whole team.",
+      "promptZh": "所有人今天下午都有空，因此現在是與整個團隊討論預算的理想機會。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to discuss the budget with the whole team.",
+      "answerZh": "現在是與整個團隊討論預算的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to discuss the budget with the whole team."
+    },
+    {
+      "id": "ss163-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The problem is still manageable. No later time will be more suitable for asking for help before it becomes more serious.",
+      "promptZh": "問題仍然可以處理。稍後不會有比現在更適合趁問題變得更嚴重前求助的時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to ask for help before the problem becomes more serious.",
+      "answerZh": "現在是趁問題變得更嚴重前求助的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to ask for help before the problem becomes more serious."
+    },
+    {
+      "id": "ss163-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The family is changing its shopping habits this week, making the present the most suitable time for reducing unnecessary plastic use at home.",
+      "promptZh": "這個家庭本星期正在改變購物習慣，因此現在最適合減少家中不必要的塑膠使用。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to reduce unnecessary plastic use at home.",
+      "answerZh": "現在是減少家中不必要塑膠使用的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to reduce unnecessary plastic use at home."
+    },
+    {
+      "id": "ss163-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Before the visa application is sent, this is the ideal time for checking the travel documents for missing information.",
+      "promptZh": "在遞交簽證申請前，現在是檢查旅行證件有沒有遺漏資料的理想時機。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to check the travel documents for missing information.",
+      "answerZh": "現在是檢查旅行證件有沒有遺漏資料的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to check the travel documents for missing information."
+    },
+    {
+      "id": "ss163-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Since everyone is at home today, there could not be a better time to prepare an emergency contact list for the family.",
+      "promptZh": "既然今天所有人都在家，便不會有比現在更適合準備家庭緊急聯絡人名單的時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to prepare an emergency contact list for the family.",
+      "answerZh": "現在是準備家庭緊急聯絡人名單的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to prepare an emergency contact list for the family."
+    },
+    {
+      "id": "ss163-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Your doctor says the present is the most suitable time for starting gentle exercise.",
+      "promptZh": "你的醫生說，現在是開始進行輕量運動的最合適時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to start exercising gently, according to your doctor.",
+      "answerZh": "按照醫生的建議，現在是開始進行輕量運動的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to start exercising gently, according to your doctor."
+    },
+    {
+      "id": "ss163-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Heavy rain is expected soon. Moving the outdoor event indoors now is the safest and most suitable decision.",
+      "promptZh": "預計很快會有大雨。現在把戶外活動移到室內是最安全和最合適的決定。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to move the outdoor event indoors.",
+      "answerZh": "現在是把戶外活動移到室內的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to move the outdoor event indoors."
+    },
+    {
+      "id": "ss163-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Applications have just opened, and this is the ideal time for applying to the training programme.",
+      "promptZh": "申請剛剛開始，而現在是申請這個培訓課程的理想時機。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to apply to the training programme.",
+      "answerZh": "現在是申請這個培訓課程的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to apply to the training programme."
+    },
+    {
+      "id": "ss163-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The water leak is still small, so the present is the most suitable time for telling the landlord about it.",
+      "promptZh": "漏水問題仍然輕微，因此現在是把問題告知業主的最合適時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to tell the landlord about the water leak.",
+      "answerZh": "現在是把漏水問題告知業主的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to tell the landlord about the water leak."
+    },
+    {
+      "id": "ss163-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "All the new staff are attending orientation today. This is the best available time for reviewing the safety rules with them.",
+      "promptZh": "所有新員工今天都在參加入職簡介會。這是與他們重溫安全規則最合適的時間。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to review the safety rules with all the new staff.",
+      "answerZh": "現在是與所有新員工重溫安全規則的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to review the safety rules with all the new staff."
+    },
+    {
+      "id": "ss163-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The system upgrade begins tonight. No time before then is more suitable for backing up the files than the present.",
+      "promptZh": "系統升級將於今晚開始。在升級前，沒有任何時間比現在更適合備份檔案。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to back up the files before the system is upgraded.",
+      "answerZh": "現在是系統升級前備份檔案的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to back up the files before the system is upgraded."
+    },
+    {
+      "id": "ss163-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The neighbourhood meeting is taking place today, creating the ideal opportunity to introduce the new recycling scheme to residents.",
+      "promptZh": "居民會議今天舉行，為向居民介紹新的回收計劃提供了理想機會。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to introduce the new recycling scheme to residents.",
+      "answerZh": "現在是向居民介紹新回收計劃的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to introduce the new recycling scheme to residents."
+    },
+    {
+      "id": "ss163-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new term has not yet become busy. This makes the present the most suitable period for arranging extra lessons for students who need support.",
+      "promptZh": "新學期還未變得繁忙，因此現在是為需要支援的學生安排額外課堂的最合適時期。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to arrange extra lessons for students who need support.",
+      "answerZh": "現在是為需要支援的學生安排額外課堂的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to arrange extra lessons for students who need support."
+    },
+    {
+      "id": "ss163-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The ground is still dry, but the rainy season is approaching. This is the ideal time for repairing the footpath before the rainy season begins.",
+      "promptZh": "地面仍然乾爽，但雨季快要來臨。現在是趁雨季開始前修補行人路的理想時機。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to repair the footpath before the rainy season begins.",
+      "answerZh": "現在是趁雨季開始前修補行人路的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to repair the footpath before the rainy season begins."
+    },
+    {
+      "id": "ss163-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Customers have begun asking questions, and all details have now been confirmed. This is the most suitable moment for explaining the changes to them in clear language.",
+      "promptZh": "顧客已開始提出問題，而所有細節現已確定。現在是以清楚用語向他們解釋改動的最合適時刻。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to explain the changes to customers in clear language.",
+      "answerZh": "現在是以清楚用語向顧客解釋改動的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to explain the changes to customers in clear language."
+    },
+    {
+      "id": "ss163-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The costs have risen and the expected benefits have fallen. The present is therefore the most appropriate point for reconsidering whether the project should continue.",
+      "promptZh": "成本已經上升，而預期效益則有所下降。因此，現在是重新考慮項目是否應該繼續的最合適時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to reconsider whether the project should continue.",
+      "answerZh": "現在是重新考慮項目是否應該繼續的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to reconsider whether the project should continue."
+    },
+    {
+      "id": "ss163-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Before the team finalises its plan, there is no better moment than the present for inviting members to share their concerns.",
+      "promptZh": "在團隊落實計劃前，沒有比現在更適合邀請成員分享憂慮的時刻。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to invite team members to share their concerns before the plan is finalised.",
+      "answerZh": "現在是在落實計劃前邀請團隊成員分享憂慮的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to invite team members to share their concerns before the plan is finalised."
+    },
+    {
+      "id": "ss163-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The next quarter starts on Monday, so setting realistic goals for the next three months now is the most sensible approach.",
+      "promptZh": "下一季度星期一開始，因此現在為未來三個月訂立實際目標是最明智的做法。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to set realistic goals for the next three months.",
+      "answerZh": "現在是為未來三個月訂立實際目標的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to set realistic goals for the next three months."
+    },
+    {
+      "id": "ss163-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The information needed for the decision is complete, and further delay will cause problems. This makes the present the most suitable moment for ending the delay and taking action.",
+      "promptZh": "作出決定所需的資料已經齊全，繼續拖延會造成問題。因此，現在是停止拖延並採取行動的最合適時刻。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to stop delaying the decision and take action.",
+      "answerZh": "現在是停止拖延決定並採取行動的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to stop delaying the decision and take action."
+    },
+    {
+      "id": "ss163-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Development has not yet begun. The ideal time for redesigning the booking system so that elderly users can use it more easily is therefore the present.",
+      "promptZh": "開發工作尚未開始。因此，現在是重新設計預訂系統，讓年長使用者更容易使用的理想時機。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to redesign the booking system so that elderly users can use it more easily before development begins.",
+      "answerZh": "現在是在開發工作開始前重新設計預訂系統，讓年長使用者更容易使用的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to redesign the booking system so that elderly users can use it more easily before development begins."
+    },
+    {
+      "id": "ss163-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The next safety inspection is one month away. No later period will be more suitable for strengthening the building’s emergency procedures before it.",
+      "promptZh": "下一次安全檢查將於一個月後進行。在檢查前，不會有比現在更適合加強大廈緊急應變程序的時期。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to strengthen the building’s emergency procedures before the next safety inspection.",
+      "answerZh": "現在是下一次安全檢查前加強大廈緊急應變程序的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to strengthen the building’s emergency procedures before the next safety inspection."
+    },
+    {
+      "id": "ss163-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Small businesses are still preparing their forms. The present is the most suitable time for giving them clearer guidance on the new application process.",
+      "promptZh": "小型企業仍在準備申請表格。現在是就新申請程序向它們提供更清晰指引的最合適時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to give small businesses clearer guidance on the new application process.",
+      "answerZh": "現在是就新申請程序向小型企業提供更清晰指引的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to give small businesses clearer guidance on the new application process."
+    },
+    {
+      "id": "ss163-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "All the evidence is now available, but no final judgement has been made. This is the ideal point for reviewing it carefully.",
+      "promptZh": "所有證據現已齊備，但尚未作出最終判斷。現在是仔細審視證據的理想時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to review the evidence carefully before making a final judgement.",
+      "answerZh": "現在是在作出最終判斷前仔細審視證據的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to review the evidence carefully before making a final judgement."
+    },
+    {
+      "id": "ss163-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Passenger demand is increasing, and no later period is expected to be more suitable for expanding the bus service.",
+      "promptZh": "乘客需求正在增加，預計稍後不會有比現在更適合擴展巴士服務的時期。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to expand the bus service while passenger demand is increasing.",
+      "answerZh": "現在是趁乘客需求增加時擴展巴士服務的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to expand the bus service while passenger demand is increasing."
+    },
+    {
+      "id": "ss163-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The tourist season begins next month, so the current period is the most suitable for training more staff to handle questions from international visitors.",
+      "promptZh": "旅遊旺季將於下個月開始，因此目前最適合培訓更多員工處理國際旅客的查詢。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to train more staff to handle questions from international visitors before the tourist season begins.",
+      "answerZh": "現在是旅遊旺季開始前培訓更多員工處理國際旅客查詢的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to train more staff to handle questions from international visitors before the tourist season begins."
+    },
+    {
+      "id": "ss163-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school has just received extra funding. This makes the present the most suitable time for improving its online resources for students who study from home.",
+      "promptZh": "學校剛剛獲得額外撥款，因此現在是改善網上學習資源，以支援在家學習學生的最合適時候。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to improve the school’s online resources for students who study from home because extra funding has just been received.",
+      "answerZh": "由於學校剛剛獲得額外撥款，現在是改善網上資源以支援在家學習學生的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to improve the school’s online resources for students who study from home because extra funding has just been received."
+    },
+    {
+      "id": "ss163-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The disagreement is still limited, but it may soon become harder to resolve. This creates the ideal moment for bringing the two groups together.",
+      "promptZh": "目前的分歧仍然有限，但可能很快變得更難解決。因此，現在是安排兩個群體會面的理想時刻。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to bring the two groups together before the disagreement becomes harder to resolve.",
+      "answerZh": "現在是趁分歧變得更難解決前安排兩個群體會面的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to bring the two groups together before the disagreement becomes harder to resolve."
+    },
+    {
+      "id": "ss163-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Financial support for cleaner equipment is still available. No later period is likely to be more favourable for investing in cleaner technology.",
+      "promptZh": "用於購買更潔淨設備的資助仍然可供申請。稍後未必會有比現在更有利於投資潔淨科技的時期。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to invest in cleaner technology while financial support is still available.",
+      "answerZh": "現在是趁資助仍然可供申請時投資潔淨科技的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to invest in cleaner technology while financial support is still available."
+    },
+    {
+      "id": "ss163-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Several long-term risks have now become clear, while the community still has enough time to respond. This is the most suitable stage for creating a long-term plan.",
+      "promptZh": "數項長期風險現已變得清晰，而社區仍有足夠時間作出回應。因此，現在是制訂長遠計劃的最合適階段。",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now is the best time to create a long-term plan because the risks are clear and the community can still respond.",
+      "answerZh": "由於風險已經清晰，而且社區仍有時間作出回應，現在是制訂長遠計劃的最佳時機。",
+      "answerZhSource": "pdf",
+      "highlight": "Now is the best time to create a long-term plan because the risks are clear and the community can still respond."
+    }
+  ]
+}

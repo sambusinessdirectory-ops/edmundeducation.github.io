@@ -1,0 +1,1243 @@
+{
+  "id": "ss191",
+  "order": 191,
+  "slug": "prior-to",
+  "title": "「Prior to ...」表達「在……之前」",
+  "titleZh": "「Prior to ...」表達「在……之前」",
+  "titleEn": "Using “prior to ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 191 -「Prior to ...」表達「在……之前」.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Prior to + noun / noun phrase / V-ing, + main clause",
+  "formulas": [
+    {
+      "id": "ss191-formula-01",
+      "labelEn": "Noun phrase",
+      "labelZh": "接名詞片語",
+      "formula": "Prior to + noun / noun phrase, + main clause"
+    },
+    {
+      "id": "ss191-formula-02",
+      "labelEn": "V-ing phrase",
+      "labelZh": "接動名詞",
+      "formula": "Prior to + V-ing phrase, + main clause"
+    },
+    {
+      "id": "ss191-formula-03",
+      "labelEn": "Sentence-final",
+      "labelZh": "放在句末",
+      "formula": "Main clause + prior to + noun phrase / V-ing phrase"
+    }
+  ],
+  "example": "Prior to the launch, the system was tested several times.",
+  "exampleZh": "在推出之前，系統已被測試了好幾次。",
+  "examples": [
+    {
+      "id": "ss191-example-01",
+      "en": "Prior to the launch, the system was tested several times.",
+      "zh": "在推出之前，系統已被測試了好幾次。",
+      "highlight": "Prior to the launch, the system was tested several times."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Prior to + noun / noun phrase / V-ing, + main clause。"
+  },
+  "rules": [
+    {
+      "id": "ss191-rule-01",
+      "zh": "Prior to 後面接名詞或名詞詞組 （在會議之前，我們核對了報告。）",
+      "en": "Use a noun or noun phrase after prior to: prior to the meeting; prior to the launch; prior to the arrival of the guests. Example: Prior to the meeting, we checked the report.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "prior to the meeting",
+        "prior to the launch",
+        "prior to the arrival of the guests",
+        "Prior to the meeting, we checked the report."
+      ]
+    },
+    {
+      "id": "ss191-rule-02",
+      "zh": "Prior to 後面也可以接 verb-ing 這裏的 to 是介詞，因此後面的動詞要使用 -ing，不能使用原形動詞。",
+      "en": "Prior to may also be followed by a verb in the -ing form. The to here is a preposition, so use -ing rather than the base form: prior to leaving ✓; prior to using the machine ✓; prior to leave ✗; prior to use the machine ✗.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "prior to leaving ✓",
+        "prior to using the machine ✓",
+        "prior to leave ✗",
+        "prior to use the machine ✗"
+      ]
+    },
+    {
+      "id": "ss191-rule-03",
+      "zh": "Prior to 後面不能直接接完整句子 應改為：",
+      "en": "Do not put a complete clause directly after prior to. Incorrect: Prior to we left, ...; Prior to the guests arrived, .... Rewrite it with an -ing form or noun phrase: Prior to leaving, ...; Prior to the guests’ arrival, ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Prior to we left, ... ✗",
+        "Prior to the guests arrived, ... ✗",
+        "Prior to leaving, ... ✓",
+        "Prior to the guests’ arrival, ... ✓"
+      ]
+    },
+    {
+      "id": "ss191-rule-04",
+      "zh": "使用 verb-ing 時，要注意動作執行者 在這句中，進入實驗室和戴上護目鏡的人都是 the visitors。 如果兩個動作由不同的人執行，通常應改用名詞詞組：",
+      "en": "When using prior to + verb-ing, make sure the implied doer of the -ing action is normally the subject of the main clause. In “Prior to entering the laboratory, the visitors put on safety glasses”, the visitors both enter and put on the glasses. If the two actions have different doers, use a noun phrase instead: Before the guests arrived, Maya prepared the living room. → Prior to the guests’ arrival, Maya prepared the living room.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Prior to entering the laboratory, the visitors put on safety glasses.",
+        "Before the guests arrived, Maya prepared the living room.",
+        "→ Prior to the guests’ arrival, Maya prepared the living room."
+      ]
+    },
+    {
+      "id": "ss191-rule-05",
+      "zh": "放在句首時，後面通常使用逗號 放在句末時，通常不需要逗號：",
+      "en": "When a prior to phrase comes first, normally put a comma after it: Prior to the interview, Marcus prepared several answers. When it comes at the end, a comma is normally unnecessary: Marcus prepared several answers prior to the interview.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Prior to the interview, Marcus prepared several answers.",
+        "Marcus prepared several answers prior to the interview."
+      ]
+    },
+    {
+      "id": "ss191-rule-06",
+      "zh": "Prior to 比 before 較正式 Prior to 常見於： ● 報告和商業文件； ● 工作程序； ● 安全指引； ● 正式通知； ● 學術或行政寫作。 在一般日常對話中，before 往往更簡單自然。因此，prior to 並非在所有情況下都比 before 更好。",
+      "en": "Prior to is more formal than before. It is common in reports, business documents, workplace procedures, safety instructions, formal notices, and academic or administrative writing. In ordinary conversation, before is often simpler and more natural, so prior to is not better in every context.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss191-benefit-01",
+      "zh": "清楚顯示事情的先後次序 這個句型能直接告訴讀者，某件事在另一件事之前發生。 （在檢查之前，機器已被關掉。）",
+      "en": "It makes the order of events clear. The structure directly tells the reader that one event happened before another. Example: Prior to the inspection, the machine was switched off.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss191-benefit-02",
+      "zh": "適合正式場合 你可以在報告、通知、工作程序和安全指引中使用 prior to，使語氣更配合正式情境。 （請在領取門票前登記。）",
+      "en": "It suits formal contexts. You can use prior to in reports, notices, workplace procedures and safety instructions to match a formal setting. Example: Please register prior to collecting your ticket.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss191-benefit-03",
+      "zh": "避免重複使用 before 如果文章中多次出現 before，可以適量使用 prior to，增加句式變化。",
+      "en": "It avoids repeating before. If before appears repeatedly in a text, use prior to selectively for sentence variety. Example: Before the meeting, we checked the figures. → Prior to the meeting, we checked the figures.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss191-benefit-04",
+      "zh": "令句子更流暢 當兩個動作由同一人執行時，可以把 before + subject + verb 改為 prior to + verb-ing。 這樣可以避免重複使用 Sarah 和 she。",
+      "en": "It can make a sentence smoother. When the same person performs both actions, a before + subject + verb clause can become prior to + verb-ing: Before Sarah answered the email, she checked the details. → Prior to answering the email, Sarah checked the details. This avoids repeating Sarah and she.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss191-benefit-05",
+      "zh": "幫助組織指示和程序 你可以用 prior to 說明某個步驟必須先完成，尤其適合工作程序和安全規則。 （進行任何維修前，請拔掉機器的電源。）",
+      "en": "It helps organise instructions and procedures by showing which step must be completed first, especially in workplace processes and safety rules. Example: Prior to carrying out any repairs, unplug the machine.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Prior to + noun / noun phrase / V-ing, + main clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Prior to + noun / noun phrase / V-ing, + main clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss191-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The system was tested several times before the launch.",
+      "promptZh": "系統在推出前經過了數次測試。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the launch, the system was tested several times.",
+      "answerZh": "在推出之前，系統經過了數次測試。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the launch, the system was tested several times."
+    },
+    {
+      "id": "ss191-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia washed her hands before dinner.",
+      "promptZh": "米婭在晚餐前洗了手。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia washed her hands prior to dinner.",
+      "answerZh": "米婭在晚餐前洗了手。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia washed her hands prior to dinner."
+    },
+    {
+      "id": "ss191-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We checked our tickets before boarding the train.",
+      "promptZh": "我們登上火車前檢查了車票。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We checked our tickets prior to boarding the train.",
+      "answerZh": "我們登上火車前檢查了車票。",
+      "answerZhSource": "pdf",
+      "highlight": "We checked our tickets prior to boarding the train."
+    },
+    {
+      "id": "ss191-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The students reviewed their notes before the test.",
+      "promptZh": "學生在測驗前溫習了筆記。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the test, the students reviewed their notes.",
+      "answerZh": "在測驗之前，學生溫習了筆記。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the test, the students reviewed their notes."
+    },
+    {
+      "id": "ss191-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel called his mother before leaving home.",
+      "promptZh": "丹尼爾離家前致電母親。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel called his mother prior to leaving home.",
+      "answerZh": "丹尼爾離家前致電母親。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel called his mother prior to leaving home."
+    },
+    {
+      "id": "ss191-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The nurse checked the patient’s name before giving the medicine.",
+      "promptZh": "護士給藥前核對了病人的姓名。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to giving the medicine, the nurse checked the patient’s name.",
+      "answerZh": "在給藥之前，護士核對了病人的姓名。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to giving the medicine, the nurse checked the patient’s name."
+    },
+    {
+      "id": "ss191-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Please turn off your phone before the film starts.",
+      "promptZh": "請在電影開始前關掉手提電話。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please turn off your phone prior to the start of the film.",
+      "answerZh": "請在電影開始前關掉手提電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Please turn off your phone prior to the start of the film."
+    },
+    {
+      "id": "ss191-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop was cleaned before opening time.",
+      "promptZh": "店舖在營業時間前已完成清潔。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop was cleaned prior to opening time.",
+      "answerZh": "店舖在營業時間前已完成清潔。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop was cleaned prior to opening time."
+    },
+    {
+      "id": "ss191-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Amy read the instructions before using the machine.",
+      "promptZh": "艾米使用機器前閱讀了說明。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy read the instructions prior to using the machine.",
+      "answerZh": "艾米使用機器前閱讀了說明。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy read the instructions prior to using the machine."
+    },
+    {
+      "id": "ss191-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The players warmed up before the match.",
+      "promptZh": "球員在比賽前熱身。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the match, the players warmed up.",
+      "answerZh": "在比賽之前，球員進行了熱身。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the match, the players warmed up."
+    },
+    {
+      "id": "ss191-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Before he went to bed, Leo set an alarm.",
+      "promptZh": "里奧睡覺前設定了鬧鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to going to bed, Leo set an alarm.",
+      "answerZh": "在睡覺之前，里奧設定了鬧鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to going to bed, Leo set an alarm."
+    },
+    {
+      "id": "ss191-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Chloe backed up her files before she updated the software.",
+      "promptZh": "克洛伊更新軟件前備份了檔案。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe backed up her files prior to updating the software.",
+      "answerZh": "克洛伊更新軟件前備份了檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe backed up her files prior to updating the software."
+    },
+    {
+      "id": "ss191-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Before they entered the laboratory, the visitors put on safety glasses.",
+      "promptZh": "訪客進入實驗室前戴上了護目鏡。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to entering the laboratory, the visitors put on safety glasses.",
+      "answerZh": "在進入實驗室之前，訪客戴上了護目鏡。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to entering the laboratory, the visitors put on safety glasses."
+    },
+    {
+      "id": "ss191-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ethan ate a light meal before going swimming.",
+      "promptZh": "伊森游泳前吃了一頓簡單的餐點。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan ate a light meal prior to going swimming.",
+      "answerZh": "伊森游泳前吃了一頓簡單的餐點。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan ate a light meal prior to going swimming."
+    },
+    {
+      "id": "ss191-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Before the lesson began, the teacher wrote the key words on the board.",
+      "promptZh": "課堂開始前，老師把關鍵詞寫在白板上。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the beginning of the lesson, the teacher wrote the key words on the board.",
+      "answerZh": "在課堂開始之前，老師把關鍵詞寫在白板上。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the beginning of the lesson, the teacher wrote the key words on the board."
+    },
+    {
+      "id": "ss191-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The driver checked the mirrors before starting the car.",
+      "promptZh": "司機開動汽車前檢查了倒後鏡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The driver checked the mirrors prior to starting the car.",
+      "answerZh": "司機開動汽車前檢查了倒後鏡。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver checked the mirrors prior to starting the car."
+    },
+    {
+      "id": "ss191-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Before Sarah answered the email, she checked the details.",
+      "promptZh": "莎拉回覆電郵前核對了資料。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to answering the email, Sarah checked the details.",
+      "answerZh": "在回覆電郵之前，莎拉核對了資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to answering the email, Sarah checked the details."
+    },
+    {
+      "id": "ss191-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We bought some water before walking up the hill.",
+      "promptZh": "我們上山前買了一些水。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We bought some water prior to walking up the hill.",
+      "answerZh": "我們上山前買了一些水。",
+      "answerZhSource": "pdf",
+      "highlight": "We bought some water prior to walking up the hill."
+    },
+    {
+      "id": "ss191-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Before the guests arrived, Maya prepared the living room.",
+      "promptZh": "客人到達前，瑪雅整理了客廳。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the guests’ arrival, Maya prepared the living room.",
+      "answerZh": "在客人到達之前，瑪雅整理了客廳。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the guests’ arrival, Maya prepared the living room."
+    },
+    {
+      "id": "ss191-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The chef tasted the sauce before serving it.",
+      "promptZh": "廚師上菜前品嘗了醬汁。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chef tasted the sauce prior to serving it.",
+      "answerZh": "廚師上菜前品嘗了醬汁。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef tasted the sauce prior to serving it."
+    },
+    {
+      "id": "ss191-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doors were checked before the building opened to the public.",
+      "promptZh": "大樓向公眾開放前，所有門均已接受檢查。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the public opening of the building, the doors were checked.",
+      "answerZh": "在大樓向公眾開放之前，所有門均已接受檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the public opening of the building, the doors were checked."
+    },
+    {
+      "id": "ss191-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager spoke to the team before the meeting started.",
+      "promptZh": "會議開始前，經理與團隊交談。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager spoke to the team prior to the start of the meeting.",
+      "answerZh": "經理在會議開始前與團隊交談。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager spoke to the team prior to the start of the meeting."
+    },
+    {
+      "id": "ss191-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You must show your passport before you enter the country.",
+      "promptZh": "你進入該國前必須出示護照。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You must show your passport prior to entering the country.",
+      "answerZh": "你進入該國前必須出示護照。",
+      "answerZhSource": "pdf",
+      "highlight": "You must show your passport prior to entering the country."
+    },
+    {
+      "id": "ss191-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Before closing the office, staff should switch off the lights.",
+      "promptZh": "關閉辦公室前，職員應關掉燈光。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff should switch off the lights prior to closing the office.",
+      "answerZh": "職員應在關閉辦公室前關掉燈光。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff should switch off the lights prior to closing the office."
+    },
+    {
+      "id": "ss191-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The application was reviewed before it was approved.",
+      "promptZh": "申請獲批前已接受審核。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to its approval, the application was reviewed.",
+      "answerZh": "在申請獲批之前，申請已接受審核。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to its approval, the application was reviewed."
+    },
+    {
+      "id": "ss191-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The road was inspected before it was reopened.",
+      "promptZh": "道路重開前已接受檢查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was inspected prior to its reopening.",
+      "answerZh": "道路在重開前已接受檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was inspected prior to its reopening."
+    },
+    {
+      "id": "ss191-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Nina checked the weather forecast. She did this before leaving for the airport.",
+      "promptZh": "妮娜查看了天氣預報。她在前往機場前完成了這件事。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina checked the weather forecast prior to leaving for the airport.",
+      "answerZh": "妮娜在前往機場前查看了天氣預報。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina checked the weather forecast prior to leaving for the airport."
+    },
+    {
+      "id": "ss191-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The doctor read the test results before speaking to the patient.",
+      "promptZh": "醫生與病人談話前閱讀了檢驗結果。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to speaking to the patient, the doctor read the test results.",
+      "answerZh": "在與病人談話之前，醫生閱讀了檢驗結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to speaking to the patient, the doctor read the test results."
+    },
+    {
+      "id": "ss191-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school sent a notice before changing the timetable.",
+      "promptZh": "學校更改時間表前發出了通知。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school sent a notice prior to changing the timetable.",
+      "answerZh": "學校在更改時間表前發出了通知。",
+      "answerZhSource": "pdf",
+      "highlight": "The school sent a notice prior to changing the timetable."
+    },
+    {
+      "id": "ss191-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before the new rule was introduced, staff received training.",
+      "promptZh": "新規則推出前，職員接受了培訓。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the introduction of the new rule, staff received training.",
+      "answerZh": "在新規則推出之前，職員接受了培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the introduction of the new rule, staff received training."
+    },
+    {
+      "id": "ss191-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "First, wash the vegetables. Then cut them into small pieces.",
+      "promptZh": "先清洗蔬菜，然後把它們切成小塊。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to cutting the vegetables into small pieces, wash them.",
+      "answerZh": "在把蔬菜切成小塊之前，先清洗它們。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to cutting the vegetables into small pieces, wash them."
+    },
+    {
+      "id": "ss191-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The team held a final practice on the day before the competition.",
+      "promptZh": "團隊在比賽前一天進行了最後一次練習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team held a final practice one day prior to the competition.",
+      "answerZh": "團隊在比賽前一天進行了最後一次練習。",
+      "answerZhSource": "pdf",
+      "highlight": "The team held a final practice one day prior to the competition."
+    },
+    {
+      "id": "ss191-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Ahead of the interview, Marcus prepared answers to common questions.",
+      "promptZh": "面試前，馬庫斯準備了常見問題的答案。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the interview, Marcus prepared answers to common questions.",
+      "answerZh": "在面試之前，馬庫斯準備了常見問題的答案。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the interview, Marcus prepared answers to common questions."
+    },
+    {
+      "id": "ss191-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The museum will close for one hour before the special event.",
+      "promptZh": "博物館會在特別活動前關閉一小時。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum will close for one hour prior to the special event.",
+      "answerZh": "博物館會在特別活動前關閉一小時。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum will close for one hour prior to the special event."
+    },
+    {
+      "id": "ss191-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In advance of the trip, we downloaded an offline map.",
+      "promptZh": "出發旅行前，我們下載了離線地圖。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the trip, we downloaded an offline map.",
+      "answerZh": "在出發旅行之前，我們下載了離線地圖。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the trip, we downloaded an offline map."
+    },
+    {
+      "id": "ss191-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The customers had to register before they could collect their tickets.",
+      "promptZh": "顧客必須先登記，才可以領取門票。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customers had to register prior to collecting their tickets.",
+      "answerZh": "顧客必須在領取門票前登記。",
+      "answerZhSource": "pdf",
+      "highlight": "The customers had to register prior to collecting their tickets."
+    },
+    {
+      "id": "ss191-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before you submit the form, make sure every section is complete.",
+      "promptZh": "提交表格前，請確保每一部分均已填妥。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to submitting the form, make sure every section is complete.",
+      "answerZh": "在提交表格之前，請確保每一部分均已填妥。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to submitting the form, make sure every section is complete."
+    },
+    {
+      "id": "ss191-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The machine must be unplugged before any repairs are carried out.",
+      "promptZh": "進行任何維修前，必須拔掉機器的電源。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to any repairs, the machine must be unplugged.",
+      "answerZh": "在進行任何維修之前，必須拔掉機器的電源。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to any repairs, the machine must be unplugged."
+    },
+    {
+      "id": "ss191-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The audience entered only after the staff had checked all the seats.",
+      "promptZh": "職員檢查所有座位後，觀眾才進場。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the audience’s entry, the staff had checked all the seats.",
+      "answerZh": "在觀眾進場之前，職員已檢查所有座位。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the audience’s entry, the staff had checked all the seats."
+    },
+    {
+      "id": "ss191-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The company tested the payment system before it made the service available to customers.",
+      "promptZh": "公司在向顧客提供服務前測試了付款系統。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company tested the payment system prior to making the service available to customers.",
+      "answerZh": "公司在向顧客提供服務前測試了付款系統。",
+      "answerZhSource": "pdf",
+      "highlight": "The company tested the payment system prior to making the service available to customers."
+    },
+    {
+      "id": "ss191-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Patients were asked to confirm their details before their appointments.",
+      "promptZh": "病人在應診前被要求確認個人資料。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to their appointments, patients were asked to confirm their details.",
+      "answerZh": "在應診之前，病人被要求確認個人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to their appointments, patients were asked to confirm their details."
+    },
+    {
+      "id": "ss191-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before the committee reached a final decision, it reviewed all the evidence.",
+      "promptZh": "委員會作出最終決定前審閱了所有證據。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to reaching a final decision, the committee reviewed all the evidence.",
+      "answerZh": "在作出最終決定之前，委員會審閱了所有證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to reaching a final decision, the committee reviewed all the evidence."
+    },
+    {
+      "id": "ss191-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Workers were not allowed to enter the area before a safety inspection had been completed.",
+      "promptZh": "安全檢查完成前，工人不獲准進入該區域。",
+      "promptZhSource": "pdf",
+      "starter": "Workers",
+      "answer": "Workers were not allowed to enter the area prior to the completion of a safety inspection.",
+      "answerZh": "在安全檢查完成之前，工人不獲准進入該區域。",
+      "answerZhSource": "pdf",
+      "highlight": "Workers were not allowed to enter the area prior to the completion of a safety inspection."
+    },
+    {
+      "id": "ss191-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Ahead of its online publication, the report was checked by two editors.",
+      "promptZh": "報告在網上發布前由兩名編輯核對。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to its online publication, the report was checked by two editors.",
+      "answerZh": "在網上發布之前，報告由兩名編輯核對。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to its online publication, the report was checked by two editors."
+    },
+    {
+      "id": "ss191-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The school consulted parents before it changed the lunch arrangements.",
+      "promptZh": "學校更改午膳安排前諮詢了家長。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to changing the lunch arrangements, the school consulted parents.",
+      "answerZh": "在更改午膳安排之前，學校諮詢了家長。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to changing the lunch arrangements, the school consulted parents."
+    },
+    {
+      "id": "ss191-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "No payment will be taken before the customer confirms the order.",
+      "promptZh": "顧客確認訂單前不會收取任何款項。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No payment will be taken prior to the customer’s confirmation of the order.",
+      "answerZh": "在顧客確認訂單之前，不會收取任何款項。",
+      "answerZhSource": "pdf",
+      "highlight": "No payment will be taken prior to the customer’s confirmation of the order."
+    },
+    {
+      "id": "ss191-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The emergency team reviewed the plan before the public event started.",
+      "promptZh": "公眾活動開始前，應急小組檢視了計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the start of the public event, the emergency team reviewed the plan.",
+      "answerZh": "在公眾活動開始之前，應急小組檢視了計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the start of the public event, the emergency team reviewed the plan."
+    },
+    {
+      "id": "ss191-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The old computer was replaced only after the data had been copied to a secure drive.",
+      "promptZh": "資料複製到安全硬碟後，舊電腦才被更換。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the replacement of the old computer, the data had been copied to a secure drive.",
+      "answerZh": "在更換舊電腦之前，資料已複製到安全硬碟。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the replacement of the old computer, the data had been copied to a secure drive."
+    },
+    {
+      "id": "ss191-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Before the new policy was put into effect, all employees were given written guidance.",
+      "promptZh": "新政策實施前，所有僱員均獲發書面指引。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the implementation of the new policy, all employees were given written guidance.",
+      "answerZh": "在新政策實施之前，所有僱員均獲發書面指引。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the implementation of the new policy, all employees were given written guidance."
+    },
+    {
+      "id": "ss191-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "By the time the public meeting began, the council had already released the full report so that residents had time to read it.",
+      "promptZh": "公眾會議開始時，議會早已發布完整報告，讓居民有時間閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "Prior",
+      "answer": "Prior to the public meeting, the council had already released the full report so that residents had time to read it.",
+      "answerZh": "在公眾會議之前，議會早已發布完整報告，讓居民有時間閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Prior to the public meeting, the council had already released the full report so that residents had time to read it."
+    }
+  ]
+}

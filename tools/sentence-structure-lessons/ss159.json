@@ -1,0 +1,1274 @@
+{
+  "id": "ss159",
+  "order": 159,
+  "slug": "all-the-more-reason-to",
+  "title": "All the more reason to",
+  "titleZh": "「All the more reason to …」表示「更有理由……」",
+  "titleEn": "Using All the more reason to show stronger justification",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 159 -「All the more reason to …」表示「更有理由……」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Situation / fact. That is all the more reason to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss159-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Situation / fact. That is all the more reason to + base verb + other information"
+    },
+    {
+      "id": "ss159-formula-02",
+      "labelEn": "If-clause",
+      "labelZh": "If 子句",
+      "formula": "If + clause, that is all the more reason to + base verb"
+    },
+    {
+      "id": "ss159-formula-03",
+      "labelEn": "Relative clause",
+      "labelZh": "關係子句",
+      "formula": "Situation / fact, which is all the more reason to + base verb"
+    },
+    {
+      "id": "ss159-formula-04",
+      "labelEn": "Give reason",
+      "labelZh": "指出人物",
+      "formula": "Situation / fact, which gives someone all the more reason to + base verb"
+    },
+    {
+      "id": "ss159-formula-05",
+      "labelEn": "Negative",
+      "labelZh": "否定形式",
+      "formula": "That is all the more reason not to + base verb"
+    }
+  ],
+  "example": "If mistakes are costly, that is all the more reason to prepare well.",
+  "exampleZh": "如果犯錯的代價高昂，正因如此，我們更有理由做好準備。",
+  "examples": [
+    {
+      "id": "ss159-example-01",
+      "en": "If mistakes are costly, that is all the more reason to prepare well.",
+      "zh": "如果犯錯的代價高昂，正因如此，我們更有理由做好準備。",
+      "highlight": "If mistakes are costly, that is all the more reason to prepare well."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss159-rule-01",
+      "zh": "這個句型表示「原本的情況令某個行動變得更有理由」 它通常用來說明： 某個問題並不是放棄的理由； 某個困難反而令準備、行動或小心處理變得更加必要； 前面的事實進一步加強後面的建議。 例如： （路程很長。正因如此，我們更有理由仔細規劃。） 路程很長並不是「不要出發」的理由，而是「更應仔細規劃」的理由。",
+      "en": "This pattern means that an existing situation gives even stronger justification for an action. It can show that a problem is not a reason to give up, that a difficulty makes preparation, action or caution more necessary, or that a preceding fact strengthens a recommendation. The journey is long. That is all the more reason to plan carefully means that the long journey is not a reason not to go; it is a stronger reason to plan carefully.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The journey is long. That is all the more reason to plan carefully."
+      ]
+    },
+    {
+      "id": "ss159-rule-02",
+      "zh": "That 或 This 必須清楚指向前面的情況 That 和 This 通常指前一句提及的事實、問題、風險或困難。 這裏的 That 指「道路危險」這個事實。 不要在沒有清楚前文的情況下突然寫： 讀者必須知道 That 指甚麼。",
+      "en": "That or This must clearly refer to the preceding situation, normally a fact, problem, risk or difficulty. In The road is dangerous. That is all the more reason to drive slowly, That refers to the fact that the road is dangerous. Do not use That is all the more reason ... without clear preceding context; the reader must know what That means.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The road is dangerous. That is all the more reason to drive slowly."
+      ]
+    },
+    {
+      "id": "ss159-rule-03",
+      "zh": "to 後面必須使用原形動詞 正確： 錯誤：",
+      "en": "Use the base form after to: all the more reason to prepare, to wait or to check, not to preparing, to prepared or to checks.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "all the more reason to prepare",
+        "all the more reason to wait",
+        "all the more reason to check",
+        "all the more reason to preparing",
+        "all the more reason to prepared",
+        "all the more reason to checks"
+      ]
+    },
+    {
+      "id": "ss159-rule-04",
+      "zh": "否定形式使用 not to （這些資料屬於私人資料。正因如此，更不應隨便分享。）",
+      "en": "Use not to for the negative form: all the more reason not to + base verb. For example: The information is private. That is all the more reason not to share it carelessly.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "all the more reason not to + base verb",
+        "The information is private. That is all the more reason not to share it carelessly."
+      ]
+    },
+    {
+      "id": "ss159-rule-05",
+      "zh": "人物不清楚時，可以明確指出行動者 （學生需要更多支援，因此學校更有理由提供額外課堂。） 句中的 the school 清楚指出應該採取行動的一方。",
+      "en": "State the actor clearly when it would otherwise be unclear. In Students need more support. This gives the school all the more reason to provide extra classes, the school identifies the party that should act.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss159-rule-06",
+      "zh": "be 和 give 可以按照時態改變 現在： 過去：",
+      "en": "Change be and give to match the tense. Present forms include That is all the more reason to ... and This gives us all the more reason to .... Past forms include That was all the more reason to ... and This gave us all the more reason to ....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "That is all the more reason to...",
+        "This gives us all the more reason to...",
+        "That was all the more reason to...",
+        "This gave us all the more reason to..."
+      ]
+    },
+    {
+      "id": "ss159-rule-07",
+      "zh": "不要把普通結果誤寫成「更有理由」 這個句型必須表達「理由被加強」，而不只是普通的結果。 普通結果： （道路濕滑，所以汽車慢慢行駛。） 加強理由： （道路濕滑。正因如此，更有理由慢慢駕駛。） 與「All the more + adjective / adverb」的分別 reason 是名詞，後面接應該採取的行動。 它回答： （為甚麼更應該這樣做？） （風險很高。正因如此，更有理由仔細檢查一切。） 重點是：採取行動的理由變得更強。 這個結構直接加強形容詞或副詞的程度。 （這項任務很困難，但這反而令最後的成功更有意義。） 重點是：某種性質或程度變得更強。 核心分別 ＝ 更有理由採取某個行動 ＝ 某種性質或做事方式的程度更強 （任務很困難。正因如此，更有理由繼續。） （任務很困難，這令我們的成功更有意義。） 第一句說明「繼續下去的理由更強」。 第二句說明「成功變得更有意義」。",
+      "en": "Do not use this pattern for an ordinary result: it must express stronger justification. The road was wet, so the car moved slowly gives an ordinary result; The road was wet. That was all the more reason to drive slowly says the wet road strengthened the reason for careful action. Also distinguish all the more reason to + verb from all the more + adjective/adverb. Reason is a noun followed by the action that should be taken and answers “Why should someone do this?”; The risk is high. That is all the more reason to check everything carefully means that the reason for acting is stronger. All the more + adjective/adverb directly increases the degree of a quality or manner, as in The task was difficult, but that made the final success all the more meaningful. In short, all the more reason to + verb means there is stronger reason to act, whereas all the more + adjective/adverb means a quality or manner has a greater degree. The task was difficult. That is all the more reason to continue strengthens the reason to continue; The task was difficult, which made our success all the more meaningful strengthens the degree of meaningfulness.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The road was wet, so the car moved slowly.",
+        "The road was wet. That was all the more reason to drive slowly.",
+        "A. All the more reason to + verb",
+        "Why should someone do this?",
+        "The risk is high. That is all the more reason to check everything carefully.",
+        "B. All the more + adjective / adverb",
+        "all the more meaningful",
+        "all the more important",
+        "all the more carefully",
+        "all the more surprising",
+        "The task was difficult, but that made the final success all the more meaningful.",
+        "All the more reason to + verb"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss159-benefit-01",
+      "zh": "這個句型能指出，問題、風險或弱點並不是放棄的理由，反而令準備或採取行動變得更加必要。",
+      "en": "It turns a difficulty into a stronger reason for action This structure helps you explain that a problem, risk or weakness is not a reason to give up. Instead, it makes preparation or action even more necessary.",
+      "enSource": "pdf",
+      "examples": [
+        "Instead, it makes preparation or action even more necessary."
+      ]
+    },
+    {
+      "id": "ss159-benefit-02",
+      "zh": "讀者可以立即看出前面的情況如何加強後面的建議，令推理更加清楚。",
+      "en": "It makes your reasoning clear The reader can immediately understand the connection between the situation and your recommendation.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss159-benefit-03",
+      "zh": "你不需要只說「你應該這樣做」，而可以先提出原因，再說明為甚麼這個行動特別有必要。 第二句更清楚強調：限期接近並不是等待的理由，而是立即開始的更強理由。",
+      "en": "It makes advice sound more convincing Instead of simply saying “You should do this,” you can first provide a clear reason and then explain why the action is especially necessary. Compare: The deadline is close, so we should start now. The deadline is close. That is all the more reason to start now.",
+      "enSource": "pdf",
+      "examples": [
+        "The deadline is close, so we should start now.",
+        "The deadline is close. That is all the more reason to start now."
+      ]
+    },
+    {
+      "id": "ss159-benefit-04",
+      "zh": "這個句型適合用於討論、作文、報告和工作溝通，特別適合回應反對意見、分析風險或加強建議。",
+      "en": "It is useful in discussions, essays, reports and workplace communication, especially when responding to an objection, analysing a risk or strengthening a recommendation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss159-benefit-05",
+      "zh": "除了反覆使用 because、so 或 therefore，你也可以利用這個句型，把一個情況和應採取的行動連 接起來。",
+      "en": "It gives you another way to connect ideas Instead of repeatedly using because, so or therefore, you can use this structure to connect a situation with an action.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using All the more reason to.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 All the more reason to 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss159-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We face a difficult exam, so it is even more important for us to prepare carefully.",
+      "promptZh": "我們要面對一場艱深的考試，因此我們更應該仔細準備。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We face a difficult exam. That is all the more reason to prepare carefully.",
+      "answerZh": "我們要面對一場艱深的考試。正因如此，我們更有理由仔細準備。",
+      "answerZhSource": "pdf",
+      "highlight": "We face a difficult exam. That is all the more reason to prepare carefully."
+    },
+    {
+      "id": "ss159-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We know the bus may be late, so we have an even stronger reason to leave home early.",
+      "promptZh": "我們知道巴士可能遲到，因此更有理由提早離家。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We know the bus may be late. That is all the more reason to leave home early.",
+      "answerZh": "我們知道巴士可能遲到。正因如此，我們更有理由提早離家。",
+      "answerZhSource": "pdf",
+      "highlight": "We know the bus may be late. That is all the more reason to leave home early."
+    },
+    {
+      "id": "ss159-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We are walking in very hot weather, which makes carrying enough water even more necessary.",
+      "promptZh": "我們正在炎熱的天氣下步行，因此攜帶足夠食水更加必要。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We are walking in very hot weather. That is all the more reason to carry enough water.",
+      "answerZh": "我們正在炎熱的天氣下步行。正因如此，我們更有理由攜帶足夠食水。",
+      "answerZhSource": "pdf",
+      "highlight": "We are walking in very hot weather. That is all the more reason to carry enough water."
+    },
+    {
+      "id": "ss159-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We do not fully understand the instructions; therefore, we should be even more willing to ask questions.",
+      "promptZh": "我們未完全明白指示，因此更應該主動發問。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We do not fully understand the instructions. That is all the more reason to ask questions.",
+      "answerZh": "我們未完全明白指示。正因如此，我們更有理由發問。",
+      "answerZhSource": "pdf",
+      "highlight": "We do not fully understand the instructions. That is all the more reason to ask questions."
+    },
+    {
+      "id": "ss159-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We need to cross a busy road, so extra care is needed when we cross.",
+      "promptZh": "我們需要橫過一條繁忙的道路，因此過馬路時要更加小心。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to cross a busy road. That is all the more reason to cross carefully.",
+      "answerZh": "我們需要橫過一條繁忙的道路。正因如此，我們更有理由小心過馬路。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to cross a busy road. That is all the more reason to cross carefully."
+    },
+    {
+      "id": "ss159-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Because we share a small room, we should make a special effort to keep it tidy.",
+      "promptZh": "因為我們共用一個細小的房間，所以更應該努力保持房間整潔。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We share a small room. That is all the more reason to keep it tidy.",
+      "answerZh": "我們共用一個細小的房間。正因如此，我們更有理由保持房間整潔。",
+      "answerZhSource": "pdf",
+      "highlight": "We share a small room. That is all the more reason to keep it tidy."
+    },
+    {
+      "id": "ss159-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Restaurant meals are expensive for us, so cooking at home makes even more sense.",
+      "promptZh": "餐廳膳食對我們來說很昂貴，因此在家煮食更加合理。",
+      "promptZhSource": "pdf",
+      "starter": "Restaurant",
+      "answer": "Restaurant meals are expensive for us. That is all the more reason to cook at home.",
+      "answerZh": "餐廳膳食對我們來說很昂貴。正因如此，我們更有理由在家煮食。",
+      "answerZhSource": "pdf",
+      "highlight": "Restaurant meals are expensive for us. That is all the more reason to cook at home."
+    },
+    {
+      "id": "ss159-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our test is tomorrow, which makes revising tonight especially important.",
+      "promptZh": "我們明天便要測驗，因此今晚溫習尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our test is tomorrow. That is all the more reason to revise tonight.",
+      "answerZh": "我們明天便要測驗。正因如此，我們更有理由今晚溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "Our test is tomorrow. That is all the more reason to revise tonight."
+    },
+    {
+      "id": "ss159-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The child is nervous around us, so we should make an extra effort to speak gently.",
+      "promptZh": "那名孩子在我們身邊感到緊張，因此我們更應該溫和地說話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child is nervous around us. That is all the more reason to speak gently.",
+      "answerZh": "那名孩子在我們身邊感到緊張。正因如此，我們更有理由溫和地說話。",
+      "answerZhSource": "pdf",
+      "highlight": "The child is nervous around us. That is all the more reason to speak gently."
+    },
+    {
+      "id": "ss159-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our team lost last week, so we have a stronger reason to practise harder.",
+      "promptZh": "我們的球隊上星期落敗，因此更有理由加倍努力練習。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team lost last week. That is all the more reason to practise harder.",
+      "answerZh": "我們的球隊上星期落敗。正因如此，我們更有理由加倍努力練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team lost last week. That is all the more reason to practise harder."
+    },
+    {
+      "id": "ss159-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the library is crowded, arriving early becomes even more important.",
+      "promptZh": "如果圖書館十分擠迫，提早到達便更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the library is crowded, that is all the more reason to arrive early.",
+      "answerZh": "如果圖書館十分擠迫，正因如此，我們更有理由提早到達。",
+      "answerZhSource": "pdf",
+      "highlight": "If the library is crowded, that is all the more reason to arrive early."
+    },
+    {
+      "id": "ss159-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If prices are rising, we should make an extra effort to compare shops carefully.",
+      "promptZh": "如果價格正在上升，我們便更應該仔細比較不同商店。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If prices are rising, that is all the more reason to compare shops carefully.",
+      "answerZh": "如果價格正在上升，正因如此，我們更有理由仔細比較不同商店。",
+      "answerZhSource": "pdf",
+      "highlight": "If prices are rising, that is all the more reason to compare shops carefully."
+    },
+    {
+      "id": "ss159-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient is weak, so the need to monitor her closely is even greater.",
+      "promptZh": "病人身體虛弱，因此更加需要密切監察她的情況。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient is weak, which is all the more reason to monitor her closely.",
+      "answerZh": "病人身體虛弱，因此更有理由密切監察她的情況。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient is weak, which is all the more reason to monitor her closely."
+    },
+    {
+      "id": "ss159-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The project has already been delayed, making a clear timetable even more important.",
+      "promptZh": "項目已經延誤，因此訂立清晰時間表更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project has already been delayed, which is all the more reason to set a clear timetable.",
+      "answerZh": "項目已經延誤，因此更有理由訂立清晰時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "The project has already been delayed, which is all the more reason to set a clear timetable."
+    },
+    {
+      "id": "ss159-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Since we store important files on this computer, regular backups are especially important.",
+      "promptZh": "由於我們在這部電腦儲存重要檔案，定期備份尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We store important files on this computer. That is all the more reason to back them up regularly.",
+      "answerZh": "我們在這部電腦儲存重要檔案。正因如此，我們更有理由定期備份檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "We store important files on this computer. That is all the more reason to back them up regularly."
+    },
+    {
+      "id": "ss159-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Because we have a long journey ahead, we should plan several rest stops.",
+      "promptZh": "因為前面的路程很長，所以我們更應該安排數個休息站。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have a long journey ahead. That is all the more reason to plan several rest stops.",
+      "answerZh": "前面的路程很長。正因如此，我們更有理由安排數個休息站。",
+      "answerZhSource": "pdf",
+      "highlight": "We have a long journey ahead. That is all the more reason to plan several rest stops."
+    },
+    {
+      "id": "ss159-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The children are watching us, so setting a good example matters even more.",
+      "promptZh": "孩子們正在看着我們，因此樹立良好榜樣更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children are watching us. That is all the more reason to set a good example.",
+      "answerZh": "孩子們正在看着我們。正因如此，我們更有理由樹立良好榜樣。",
+      "answerZhSource": "pdf",
+      "highlight": "The children are watching us. That is all the more reason to set a good example."
+    },
+    {
+      "id": "ss159-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our budget is limited, which makes wise spending especially important.",
+      "promptZh": "我們的預算有限，因此明智地運用預算尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our budget is limited. That is all the more reason to spend it wisely.",
+      "answerZh": "我們的預算有限。正因如此，我們更有理由明智地運用預算。",
+      "answerZhSource": "pdf",
+      "highlight": "Our budget is limited. That is all the more reason to spend it wisely."
+    },
+    {
+      "id": "ss159-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why should we check the figures again? Because even a small error could be costly.",
+      "promptZh": "為甚麼我們應該再次核對數字？因為即使一個小錯誤也可能造成重大損失。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even a small error could be costly. That is all the more reason to check the figures again.",
+      "answerZh": "即使一個小錯誤也可能造成重大損失。正因如此，我們更有理由再次核對數字。",
+      "answerZhSource": "pdf",
+      "highlight": "Even a small error could be costly. That is all the more reason to check the figures again."
+    },
+    {
+      "id": "ss159-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Since the customer is upset, we should make an even greater effort to listen patiently.",
+      "promptZh": "由於顧客感到不滿，我們更應該耐心聆聽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer is upset. That is all the more reason to listen patiently.",
+      "answerZh": "顧客感到不滿。正因如此，我們更有理由耐心聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer is upset. That is all the more reason to listen patiently."
+    },
+    {
+      "id": "ss159-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This medicine can cause side effects, so following the dosage instructions is especially important.",
+      "promptZh": "這種藥物可能引起副作用，因此按照劑量指示服用尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine can cause side effects. That is all the more reason to follow the dosage instructions.",
+      "answerZh": "這種藥物可能引起副作用。正因如此，我們更有理由按照劑量指示服用。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine can cause side effects. That is all the more reason to follow the dosage instructions."
+    },
+    {
+      "id": "ss159-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our neighbourhood has few trees; therefore, protecting the ones that remain is even more necessary.",
+      "promptZh": "我們的社區樹木不多，因此保護剩下的樹木更加必要。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbourhood has few trees. That is all the more reason to protect the ones that remain.",
+      "answerZh": "我們的社區樹木不多。正因如此，我們更有理由保護剩下的樹木。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbourhood has few trees. That is all the more reason to protect the ones that remain."
+    },
+    {
+      "id": "ss159-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The meeting time is short, so staying focused matters even more.",
+      "promptZh": "會議時間有限，因此保持專注更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting time is short. That is all the more reason to stay focused.",
+      "answerZh": "會議時間有限。正因如此，我們更有理由保持專注。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting time is short. That is all the more reason to stay focused."
+    },
+    {
+      "id": "ss159-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The information is confidential, so it is especially important not to share it with unauthorised staff.",
+      "promptZh": "這些資料屬於機密，因此尤其不應把它交給未經授權的職員。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The information is confidential. That is all the more reason not to share it with unauthorised staff.",
+      "answerZh": "這些資料屬於機密。正因如此，我們更不應把它交給未經授權的職員。",
+      "answerZhSource": "pdf",
+      "highlight": "The information is confidential. That is all the more reason not to share it with unauthorised staff."
+    },
+    {
+      "id": "ss159-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The machine is old, which makes it even more important not to use it without an inspection.",
+      "promptZh": "這部機器已經老舊，因此在未經檢查前更不應使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine is old. That is all the more reason not to use it without an inspection.",
+      "answerZh": "這部機器已經老舊。正因如此，未經檢查前更不應使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine is old. That is all the more reason not to use it without an inspection."
+    },
+    {
+      "id": "ss159-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the evidence is incomplete, the need not to reach a quick conclusion becomes even greater.",
+      "promptZh": "如果證據並不完整，我們便更不應倉促下結論。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the evidence is incomplete, that is all the more reason not to reach a quick conclusion.",
+      "answerZh": "如果證據並不完整，正因如此，我們更不應倉促下結論。",
+      "answerZhSource": "pdf",
+      "highlight": "If the evidence is incomplete, that is all the more reason not to reach a quick conclusion."
+    },
+    {
+      "id": "ss159-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the situation may change, reviewing the plan regularly becomes even more important.",
+      "promptZh": "如果情況可能改變，定期檢討計劃便更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the situation may change, that is all the more reason to review the plan regularly.",
+      "answerZh": "如果情況可能改變，正因如此，我們更有理由定期檢討計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "If the situation may change, that is all the more reason to review the plan regularly."
+    },
+    {
+      "id": "ss159-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The students have different needs, so the teacher has a stronger reason to explain the task in several ways.",
+      "promptZh": "學生有不同需要，因此老師更有理由以數種方式解釋任務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students have different needs, which gives the teacher all the more reason to explain the task in several ways.",
+      "answerZh": "學生有不同需要，因此老師更有理由以數種方式解釋任務。",
+      "answerZhSource": "pdf",
+      "highlight": "The students have different needs, which gives the teacher all the more reason to explain the task in several ways."
+    },
+    {
+      "id": "ss159-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The path becomes slippery after rain, so hikers have a stronger reason to wear suitable shoes.",
+      "promptZh": "小徑在下雨後會變得濕滑，因此遠足人士更有理由穿着合適的鞋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The path becomes slippery after rain, which gives hikers all the more reason to wear suitable shoes.",
+      "answerZh": "小徑在下雨後會變得濕滑，因此遠足人士更有理由穿着合適的鞋。",
+      "answerZhSource": "pdf",
+      "highlight": "The path becomes slippery after rain, which gives hikers all the more reason to wear suitable shoes."
+    },
+    {
+      "id": "ss159-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The deadline cannot be moved, so our team has an even stronger reason to divide the work clearly now.",
+      "promptZh": "限期不能更改，因此我們的團隊更有理由立即清楚分配工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The deadline cannot be moved, which gives our team all the more reason to divide the work clearly now.",
+      "answerZh": "限期不能更改，因此我們的團隊更有理由立即清楚分配工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The deadline cannot be moved, which gives our team all the more reason to divide the work clearly now."
+    },
+    {
+      "id": "ss159-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Some people may disagree, but this makes it even more important for us to explain the decision openly.",
+      "promptZh": "有些人可能不同意，但這反而令我們公開解釋決定更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some people may disagree. That is all the more reason to explain the decision openly.",
+      "answerZh": "有些人可能不同意。正因如此，我們更有理由公開解釋決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Some people may disagree. That is all the more reason to explain the decision openly."
+    },
+    {
+      "id": "ss159-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The first attempt failed, so we had a stronger reason to examine what went wrong.",
+      "promptZh": "第一次嘗試失敗，因此我們當時更有理由研究問題出在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first attempt failed, which gave us all the more reason to examine what went wrong.",
+      "answerZh": "第一次嘗試失敗，因此我們當時更有理由研究問題出在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The first attempt failed, which gave us all the more reason to examine what went wrong."
+    },
+    {
+      "id": "ss159-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The town has limited public transport, so the council has a stronger reason to improve the bus service.",
+      "promptZh": "這個市鎮的公共交通有限，因此地方議會更有理由改善巴士服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town has limited public transport, which gives the council all the more reason to improve the bus service.",
+      "answerZh": "這個市鎮的公共交通有限，因此地方議會更有理由改善巴士服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The town has limited public transport, which gives the council all the more reason to improve the bus service."
+    },
+    {
+      "id": "ss159-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new staff are inexperienced, so the company has a stronger reason to give them proper training.",
+      "promptZh": "新職員缺乏經驗，因此公司更有理由為他們提供適當培訓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new staff are inexperienced, which gives the company all the more reason to give them proper training.",
+      "answerZh": "新職員缺乏經驗，因此公司更有理由為他們提供適當培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The new staff are inexperienced, which gives the company all the more reason to give them proper training."
+    },
+    {
+      "id": "ss159-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why must the data be checked before the report is published? Because it may contain errors.",
+      "promptZh": "為甚麼在發表報告前必須檢查數據？因為數據可能包含錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The data may contain errors. That is all the more reason to verify it before publishing the report.",
+      "answerZh": "數據可能包含錯誤。正因如此，我們更有理由在發表報告前核實數據。",
+      "answerZhSource": "pdf",
+      "highlight": "The data may contain errors. That is all the more reason to verify it before publishing the report."
+    },
+    {
+      "id": "ss159-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The event will attract a large crowd, so the organisers have an even greater need to prepare an emergency plan.",
+      "promptZh": "活動將吸引大批人群，因此主辦單位更需要準備緊急應變計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event will attract a large crowd, which gives the organisers all the more reason to prepare an emergency plan.",
+      "answerZh": "活動將吸引大批人群，因此主辦單位更有理由準備緊急應變計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The event will attract a large crowd, which gives the organisers all the more reason to prepare an emergency plan."
+    },
+    {
+      "id": "ss159-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The repair will be expensive, so we should be even more careful not to accept the first quotation immediately.",
+      "promptZh": "維修費用將會很高，因此我們更不應立即接受第一份報價。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repair will be expensive. That is all the more reason not to accept the first quotation immediately.",
+      "answerZh": "維修費用將會很高。正因如此，我們更不應立即接受第一份報價。",
+      "answerZhSource": "pdf",
+      "highlight": "The repair will be expensive. That is all the more reason not to accept the first quotation immediately."
+    },
+    {
+      "id": "ss159-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The rules affect everyone, so the committee has a stronger reason to write them in clear language.",
+      "promptZh": "這些規則影響所有人，因此委員會更有理由以清晰語言編寫規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rules affect everyone, which gives the committee all the more reason to write them in clear language.",
+      "answerZh": "這些規則影響所有人，因此委員會更有理由以清晰語言編寫規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The rules affect everyone, which gives the committee all the more reason to write them in clear language."
+    },
+    {
+      "id": "ss159-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the discussion is sensitive, we should choose our words even more carefully.",
+      "promptZh": "如果討論內容敏感，我們便更應該小心選擇措辭。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the discussion is sensitive, that is all the more reason to choose our words carefully.",
+      "answerZh": "如果討論內容敏感，正因如此，我們更有理由小心選擇措辭。",
+      "answerZhSource": "pdf",
+      "highlight": "If the discussion is sensitive, that is all the more reason to choose our words carefully."
+    },
+    {
+      "id": "ss159-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school has received complaints, so the management has an even stronger reason to investigate the matter fairly.",
+      "promptZh": "學校已經收到投訴，因此管理層更有理由公平調查事件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has received complaints, which gives the management all the more reason to investigate the matter fairly.",
+      "answerZh": "學校已經收到投訴，因此管理層更有理由公平調查事件。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has received complaints, which gives the management all the more reason to investigate the matter fairly."
+    },
+    {
+      "id": "ss159-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company is growing quickly, so building reliable systems now has become even more important.",
+      "promptZh": "公司正在迅速發展，因此現在建立可靠的系統變得更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company is growing quickly, which is all the more reason to build reliable systems now.",
+      "answerZh": "公司正在迅速發展，因此更有理由現在建立可靠的系統。",
+      "answerZhSource": "pdf",
+      "highlight": "The company is growing quickly, which is all the more reason to build reliable systems now."
+    },
+    {
+      "id": "ss159-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The decision will affect several departments, so the leadership team has an even stronger reason to consult them before acting.",
+      "promptZh": "這項決定將影響數個部門，因此領導團隊更有理由在行動前諮詢各部門。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision will affect several departments, which gives the leadership team all the more reason to consult them before acting.",
+      "answerZh": "這項決定將影響數個部門，因此領導團隊更有理由在行動前諮詢各部門。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision will affect several departments, which gives the leadership team all the more reason to consult them before acting."
+    },
+    {
+      "id": "ss159-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The hospital is under pressure, so its managers have a stronger reason to protect staff from unnecessary paperwork.",
+      "promptZh": "醫院正面對壓力，因此管理人員更有理由避免職員承擔不必要的文書工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital is under pressure, which gives its managers all the more reason to protect staff from unnecessary paperwork.",
+      "answerZh": "醫院正面對壓力，因此管理人員更有理由避免職員承擔不必要的文書工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital is under pressure, which gives its managers all the more reason to protect staff from unnecessary paperwork."
+    },
+    {
+      "id": "ss159-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Some people may think the proposal's clear benefits make further review unnecessary, but they actually make examining its hidden costs even more important.",
+      "promptZh": "有些人可能認為計劃的明顯好處令進一步審查變得多餘，但這些好處反而令檢查隱藏成本更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal has clear benefits. That is all the more reason to examine its hidden costs as well.",
+      "answerZh": "這項計劃有明顯好處。正因如此，我們更有理由同時檢查它的隱藏成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal has clear benefits. That is all the more reason to examine its hidden costs as well."
+    },
+    {
+      "id": "ss159-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "An online message can be shared widely, so it is especially important not to post it before checking the facts.",
+      "promptZh": "網上訊息可以被廣泛轉發，因此在核實事實前尤其不應發布訊息。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An online message can be shared widely. That is all the more reason not to post it before checking the facts.",
+      "answerZh": "網上訊息可以被廣泛轉發。正因如此，在核實事實前更不應發布訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "An online message can be shared widely. That is all the more reason not to post it before checking the facts."
+    },
+    {
+      "id": "ss159-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Why should we prepare a backup option? Because the plan depends on several suppliers, and one of them could fail.",
+      "promptZh": "為甚麼我們應該準備後備方案？因為計劃依賴數個供應商，而其中一個供應商可能無法履行責任。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan depends on several suppliers. That is all the more reason to prepare a backup option in case one of them fails.",
+      "answerZh": "計劃依賴數個供應商。正因如此，我們更有理由準備後備方案，以防其中一個供應商無法履行責任。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan depends on several suppliers. That is all the more reason to prepare a backup option in case one of them fails."
+    },
+    {
+      "id": "ss159-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The issue has divided the community, so the council has an even stronger reason to create a fair process for hearing different views.",
+      "promptZh": "這個議題令社區出現分歧，因此地方議會更有理由建立公平程序，聽取不同意見。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue has divided the community, which gives the council all the more reason to create a fair process for hearing different views.",
+      "answerZh": "這個議題令社區出現分歧，因此地方議會更有理由建立公平程序，聽取不同意見。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue has divided the community, which gives the council all the more reason to create a fair process for hearing different views."
+    },
+    {
+      "id": "ss159-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The experiment produced an unexpected result, so the researchers had a stronger reason to repeat it under controlled conditions.",
+      "promptZh": "實驗得出意料之外的結果，因此研究人員當時更有理由在受控條件下重複實驗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The experiment produced an unexpected result, which gave the researchers all the more reason to repeat it under controlled conditions.",
+      "answerZh": "實驗得出意料之外的結果，因此研究人員當時更有理由在受控條件下重複實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The experiment produced an unexpected result, which gave the researchers all the more reason to repeat it under controlled conditions."
+    },
+    {
+      "id": "ss159-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The team works across different time zones, so it is even more important for its members to record decisions and responsibilities clearly.",
+      "promptZh": "團隊成員在不同時區工作，因此清楚記錄決定和責任更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team works across different time zones. That is all the more reason for its members to record decisions and responsibilities clearly.",
+      "answerZh": "團隊成員在不同時區工作。正因如此，成員更有理由清楚記錄決定和責任。",
+      "answerZhSource": "pdf",
+      "highlight": "The team works across different time zones. That is all the more reason for its members to record decisions and responsibilities clearly."
+    },
+    {
+      "id": "ss159-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The consequences of failure could be serious, so the engineers have an even stronger reason to test the system thoroughly before it is launched.",
+      "promptZh": "系統失敗可能帶來嚴重後果，因此工程師更有理由在系統推出前進行全面測試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The consequences of failure could be serious, which gives the engineers all the more reason to test the system thoroughly before it is launched.",
+      "answerZh": "系統失敗可能帶來嚴重後果，因此工程師更有理由在系統推出前進行全面測試。",
+      "answerZhSource": "pdf",
+      "highlight": "The consequences of failure could be serious, which gives the engineers all the more reason to test the system thoroughly before it is launched."
+    }
+  ]
+}

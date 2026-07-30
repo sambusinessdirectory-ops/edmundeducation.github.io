@@ -1,0 +1,1210 @@
+{
+  "id": "ss165",
+  "order": 165,
+  "slug": "even-so",
+  "title": "Even so",
+  "titleZh": "「Even so」表示「即使如此／儘管如此」",
+  "titleEn": "Using Even so to express a result that still holds",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 165 -「Even so」表示「即使如此／儘管如此」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Statement A. Even so, Statement B",
+  "formulas": [
+    {
+      "id": "ss165-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Statement A. Even so, Statement B"
+    }
+  ],
+  "example": "The market was unstable. Even so, some investors remained confident.",
+  "exampleZh": "市場並不穩定。即使如此，一些投資者仍保持信心。",
+  "examples": [
+    {
+      "id": "ss165-example-01",
+      "en": "The market was unstable. Even so, some investors remained confident.",
+      "zh": "市場並不穩定。即使如此，一些投資者仍保持信心。",
+      "highlight": "The market was unstable. Even so, some investors remained confident."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss165-rule-01",
+      "zh": "Even so 承接前面整個意思 Even so 是承接前面整個意思，而不是只修飾其中一個字。",
+      "en": "Even so refers back to the whole preceding idea, not merely to one word in the previous sentence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Even so refers back to the whole idea in the previous sentence."
+      ]
+    },
+    {
+      "id": "ss165-rule-02",
+      "zh": "注意標點 在本練習中，Even so 前面使用句號，後面使用逗號。",
+      "en": "Use the punctuation required in this exercise: put a full stop before Even so and a comma after it, as in The task was difficult. Even so, we completed it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "In this exercise, place a full stop before Even so and a comma after it.",
+        "The task was difficult. Even so, we completed it.",
+        "The task was difficult even so we completed it."
+      ]
+    },
+    {
+      "id": "ss165-rule-03",
+      "zh": "前後都必須是完整句子 Even so 前後兩部分都必須是完整句子。",
+      "en": "Both the part before Even so and the part after it must be complete sentences.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss165-rule-04",
+      "zh": "必須有「儘管如此，仍然……」的意思 只有當第二個意思出乎意料，或在第一個情況下仍然成立時，才使用 even so。",
+      "en": "Use Even so only when the meaning is “despite that, this still happens”. The second idea must be unexpected or remain true despite the first situation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss165-rule-05",
+      "zh": "Even though 與 Even so 的句式不同 Even though 後面直接接子句；even so 則承接前面已經完成的句子。",
+      "en": "Even though and Even so use different structures. Even though is followed directly by a clause: Even though the market was unstable, some investors remained confident. Even so refers back to an already complete sentence: The market was unstable. Even so, some investors remained confident.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Even though + subject + verb, main clause",
+        "Even though the market was unstable, some investors remained confident.",
+        "The market was unstable. Even so, some investors remained confident."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss165-benefit-01",
+      "zh": "它能清楚顯示反差 讀者可以立即明白：即使有前面的困難，後面的結果仍然發生。",
+      "en": "It makes the contrast clear The reader can immediately understand that the second result happened despite the first difficulty.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss165-benefit-02",
+      "zh": "它能自然連接兩個完整意思 你不需要把兩句話分開而不說明關係；even so 能清楚指出兩者之間的讓步關係。",
+      "en": "It connects two complete ideas naturally Instead of leaving two short sentences unrelated, even so clearly shows how they are connected.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss165-benefit-03",
+      "zh": "它能加強第二個意思 把 even so 放在主要結果前，可以突出「事情仍然發生」或「情況仍然成立」。",
+      "en": "It gives the second idea more emphasis Placing even so before the main result draws attention to what still happened or remained true.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss165-benefit-04",
+      "zh": "它能避免重複使用 but 和 however 在說話、作文、報告和簡報中，你可以用另一種自然方式表達轉折。",
+      "en": "It helps you avoid repeating but and however You gain another natural way to express contrast in speaking, essays, reports and presentations.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss165-benefit-05",
+      "zh": "它提供一個容易使用的說話框架 你可以先說明困難，稍作停頓，再用 Even so, ... 說出仍然成立的重點。 第二個版本把困難和出乎意料的結果分開呈現，因此後面的重點更加突出。",
+      "en": "It provides a useful speaking frame You can first mention a difficulty, pause, and then continue with Even so, ... Compare The market was unstable, but some investors remained confident. The market was unstable. Even so, some investors remained confident.",
+      "enSource": "pdf",
+      "examples": [
+        "You can first mention a difficulty, pause, and then continue with Even so, ...",
+        "The market was unstable, but some investors remained confident.",
+        "The market was unstable. Even so, some investors remained confident."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Even so.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Even so 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss165-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Although the weather was cold, we went for a walk.",
+      "promptZh": "雖然天氣寒冷，但我們仍然去散步。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The weather was cold. Even so, we went for a walk.",
+      "answerZh": "天氣寒冷。即使如此，我們仍然去散步。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather was cold. Even so, we went for a walk."
+    },
+    {
+      "id": "ss165-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia was tired, but she finished her homework.",
+      "promptZh": "米婭很疲倦，但她仍完成了家課。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia was tired. Even so, she finished her homework.",
+      "answerZh": "米婭很疲倦。即使如此，她仍完成了家課。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia was tired. Even so, she finished her homework."
+    },
+    {
+      "id": "ss165-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It was raining heavily. However, Ben cycled to school.",
+      "promptZh": "當時下着大雨。不過，本仍踏單車上學。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was raining heavily. Even so, Ben cycled to school.",
+      "answerZh": "當時下着大雨。即使如此，本仍踏單車上學。",
+      "answerZhSource": "pdf",
+      "highlight": "It was raining heavily. Even so, Ben cycled to school."
+    },
+    {
+      "id": "ss165-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Despite feeling nervous, I gave the speech.",
+      "promptZh": "儘管感到緊張，我仍發表了演說。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I felt nervous. Even so, I gave the speech.",
+      "answerZh": "我感到緊張。即使如此，我仍發表了演說。",
+      "answerZhSource": "pdf",
+      "highlight": "I felt nervous. Even so, I gave the speech."
+    },
+    {
+      "id": "ss165-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop was busy, yet the staff remained polite.",
+      "promptZh": "店舖十分繁忙，但職員仍保持有禮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop was busy. Even so, the staff remained polite.",
+      "answerZh": "店舖十分繁忙。即使如此，職員仍保持有禮。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop was busy. Even so, the staff remained polite."
+    },
+    {
+      "id": "ss165-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although Leo did not like the soup, he ate it to be polite.",
+      "promptZh": "雖然里奧不喜歡這碗湯，但他為了表示禮貌仍喝了湯。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo did not like the soup. Even so, he ate it to be polite.",
+      "answerZh": "里奧不喜歡這碗湯。即使如此，他為了表示禮貌仍喝了湯。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo did not like the soup. Even so, he ate it to be polite."
+    },
+    {
+      "id": "ss165-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Amy had very little time. Nevertheless, she helped her friend.",
+      "promptZh": "艾米的時間很少。儘管如此，她仍幫助了朋友。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy had very little time. Even so, she helped her friend.",
+      "answerZh": "艾米的時間很少。即使如此，她仍幫助了朋友。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy had very little time. Even so, she helped her friend."
+    },
+    {
+      "id": "ss165-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although we had to wait in a long queue, we stayed until the shop opened.",
+      "promptZh": "雖然我們要排很長的隊，但我們仍留下來等到店舖開門。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We had to wait in a long queue. Even so, we stayed until the shop opened.",
+      "answerZh": "我們要排很長的隊。即使如此，我們仍留下來等到店舖開門。",
+      "answerZhSource": "pdf",
+      "highlight": "We had to wait in a long queue. Even so, we stayed until the shop opened."
+    },
+    {
+      "id": "ss165-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel's bag was heavy, but he carried it home.",
+      "promptZh": "丹尼爾的袋子很重，但他仍把它帶回家。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel's",
+      "answer": "Daniel's bag was heavy. Even so, he carried it home.",
+      "answerZh": "丹尼爾的袋子很重。即使如此，他仍把它帶回家。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel's bag was heavy. Even so, he carried it home."
+    },
+    {
+      "id": "ss165-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although Chloe had never played the game before, she joined in and tried her best.",
+      "promptZh": "雖然克洛伊以前從未玩過這個遊戲，但她仍參與其中並盡力而為。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe had never played the game before. Even so, she joined in and tried her best.",
+      "answerZh": "克洛伊以前從未玩過這個遊戲。即使如此，她仍參與其中並盡力而為。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe had never played the game before. Even so, she joined in and tried her best."
+    },
+    {
+      "id": "ss165-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although our bus was late, we arrived before the lesson began.",
+      "promptZh": "雖然我們乘搭的巴士誤點，但我們仍在課堂開始前抵達。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our bus was late. Even so, we arrived before the lesson began.",
+      "answerZh": "我們乘搭的巴士誤點。即使如此，我們仍在課堂開始前抵達。",
+      "answerZhSource": "pdf",
+      "highlight": "Our bus was late. Even so, we arrived before the lesson began."
+    },
+    {
+      "id": "ss165-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah had a headache. Still, she attended the meeting.",
+      "promptZh": "莎拉頭痛，但她仍出席了會議。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah had a headache. Even so, she attended the meeting.",
+      "answerZh": "莎拉頭痛。即使如此，她仍出席了會議。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah had a headache. Even so, she attended the meeting."
+    },
+    {
+      "id": "ss165-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The instructions were difficult to understand; nevertheless, Omar completed the task.",
+      "promptZh": "這些指示很難理解；儘管如此，奧馬爾仍完成了任務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions were difficult to understand. Even so, Omar completed the task.",
+      "answerZh": "這些指示很難理解。即使如此，奧馬爾仍完成了任務。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were difficult to understand. Even so, Omar completed the task."
+    },
+    {
+      "id": "ss165-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although Jason had only ten dollars, he bought lunch for his sister.",
+      "promptZh": "雖然傑森只有十元，但他仍為妹妹買了午餐。",
+      "promptZhSource": "pdf",
+      "starter": "Jason",
+      "answer": "Jason had only ten dollars. Even so, he bought lunch for his sister.",
+      "answerZh": "傑森只有十元。即使如此，他仍為妹妹買了午餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason had only ten dollars. Even so, he bought lunch for his sister."
+    },
+    {
+      "id": "ss165-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The room was small. Nonetheless, it felt comfortable.",
+      "promptZh": "房間很小。儘管如此，感覺仍很舒適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room was small. Even so, it felt comfortable.",
+      "answerZh": "房間很小。即使如此，感覺仍很舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "The room was small. Even so, it felt comfortable."
+    },
+    {
+      "id": "ss165-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In spite of not knowing anyone at the party, Nina introduced herself to several people.",
+      "promptZh": "儘管在派對上不認識任何人，妮娜仍主動向幾個人自我介紹。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina did not know anyone at the party. Even so, she introduced herself to several people.",
+      "answerZh": "妮娜在派對上不認識任何人。即使如此，她仍主動向幾個人自我介紹。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina did not know anyone at the party. Even so, she introduced herself to several people."
+    },
+    {
+      "id": "ss165-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although the road was narrow, the driver travelled along it safely.",
+      "promptZh": "雖然道路狹窄，但司機仍安全地沿路行駛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was narrow. Even so, the driver travelled along it safely.",
+      "answerZh": "道路很狹窄。即使如此，司機仍安全地沿路行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was narrow. Even so, the driver travelled along it safely."
+    },
+    {
+      "id": "ss165-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our team lost the first round, yet we remained confident.",
+      "promptZh": "我們的隊伍在第一回合落敗，但我們仍保持信心。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team lost the first round. Even so, we remained confident.",
+      "answerZh": "我們的隊伍在第一回合落敗。即使如此，我們仍保持信心。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team lost the first round. Even so, we remained confident."
+    },
+    {
+      "id": "ss165-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although Grace found the book quite long, she finished it in two days.",
+      "promptZh": "雖然格蕾絲覺得這本書相當長，但她仍在兩天內看完。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace found the book quite long. Even so, she finished it in two days.",
+      "answerZh": "格蕾絲覺得這本書相當長。即使如此，她仍在兩天內看完。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace found the book quite long. Even so, she finished it in two days."
+    },
+    {
+      "id": "ss165-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did Ethan continue the race even though his leg was sore? He wanted to reach the finish line.",
+      "promptZh": "伊森的腿很痛，為甚麼仍繼續比賽？他想抵達終點。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan's",
+      "answer": "Ethan's leg was sore. Even so, he continued the race because he wanted to reach the finish line.",
+      "answerZh": "伊森的腿很痛。即使如此，他仍繼續比賽，因為他想抵達終點。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan's leg was sore. Even so, he continued the race because he wanted to reach the finish line."
+    },
+    {
+      "id": "ss165-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the plan was criticised by several employees, the manager decided to test it.",
+      "promptZh": "雖然這個計劃受到幾名僱員批評，但經理仍決定試行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan was criticised by several employees. Even so, the manager decided to test it.",
+      "answerZh": "這個計劃受到幾名僱員批評。即使如此，經理仍決定試行。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan was criticised by several employees. Even so, the manager decided to test it."
+    },
+    {
+      "id": "ss165-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum staff were preparing to close, but they still allowed the family to enter.",
+      "promptZh": "博物館職員正準備關門，但他們仍讓那個家庭進入。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum staff were preparing to close. Even so, they allowed the family to enter.",
+      "answerZh": "博物館職員正準備關門。即使如此，他們仍讓那個家庭進入。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum staff were preparing to close. Even so, they allowed the family to enter."
+    },
+    {
+      "id": "ss165-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Olivia could not find a quiet room, but she still managed to finish her report.",
+      "promptZh": "奧莉花找不到安靜的房間，但她仍設法完成報告。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia could not find a quiet room. Even so, she managed to finish her report.",
+      "answerZh": "奧莉花找不到安靜的房間。即使如此，她仍設法完成報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia could not find a quiet room. Even so, she managed to finish her report."
+    },
+    {
+      "id": "ss165-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the medicine tasted unpleasant, the child took it as instructed.",
+      "promptZh": "雖然藥物味道難吃，但孩子仍按照指示服用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine tasted unpleasant. Even so, the child took it as instructed.",
+      "answerZh": "藥物味道難吃。即使如此，孩子仍按照指示服用。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine tasted unpleasant. Even so, the child took it as instructed."
+    },
+    {
+      "id": "ss165-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In spite of its age, our computer continued to work reliably.",
+      "promptZh": "儘管我們的電腦已很舊，但它仍可靠地運作。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our computer was old. Even so, it continued to work reliably.",
+      "answerZh": "我們的電腦已很舊。即使如此，它仍可靠地運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Our computer was old. Even so, it continued to work reliably."
+    },
+    {
+      "id": "ss165-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The group had not practised the song before. Nevertheless, they performed it well.",
+      "promptZh": "這個小組以前沒有練習過這首歌。儘管如此，他們仍演繹得很好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The group had not practised the song before. Even so, they performed it well.",
+      "answerZh": "這個小組以前沒有練習過這首歌。即使如此，他們仍演繹得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "The group had not practised the song before. Even so, they performed it well."
+    },
+    {
+      "id": "ss165-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the proposal required extra work, most team members supported it.",
+      "promptZh": "雖然這項建議需要額外工作，但大部分團隊成員仍支持它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal required extra work. Even so, most team members supported it.",
+      "answerZh": "這項建議需要額外工作。即使如此，大部分團隊成員仍支持它。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal required extra work. Even so, most team members supported it."
+    },
+    {
+      "id": "ss165-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Officials had issued a warning, yet some hikers continued along the path.",
+      "promptZh": "有關人員已發出警告，但一些遠足人士仍沿小徑繼續前行。",
+      "promptZhSource": "pdf",
+      "starter": "Officials",
+      "answer": "Officials had issued a warning. Even so, some hikers continued along the path.",
+      "answerZh": "有關人員已發出警告。即使如此，一些遠足人士仍沿小徑繼續前行。",
+      "answerZhSource": "pdf",
+      "highlight": "Officials had issued a warning. Even so, some hikers continued along the path."
+    },
+    {
+      "id": "ss165-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Despite being weak after the operation, the patient could walk a few steps with help.",
+      "promptZh": "儘管病人在手術後很虛弱，但病人在協助下仍能走幾步。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the operation, the patient was weak. Even so, the patient could walk a few steps with help.",
+      "answerZh": "手術後，病人很虛弱。即使如此，病人在協助下仍能走幾步。",
+      "answerZhSource": "pdf",
+      "highlight": "After the operation, the patient was weak. Even so, the patient could walk a few steps with help."
+    },
+    {
+      "id": "ss165-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did Marcus accept the job even though the salary was lower than he had expected? He valued the training opportunity.",
+      "promptZh": "薪金比馬庫斯預期低，為甚麼他仍接受這份工作？他重視培訓機會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The salary was lower than Marcus had expected. Even so, he accepted the job because he valued the training opportunity.",
+      "answerZh": "薪金比馬庫斯預期低。即使如此，他仍接受這份工作，因為他重視培訓機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The salary was lower than Marcus had expected. Even so, he accepted the job because he valued the training opportunity."
+    },
+    {
+      "id": "ss165-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the hall may be crowded, remain calm and follow the staff's instructions.",
+      "promptZh": "雖然禮堂可能很擠迫，但仍要保持冷靜並遵從職員指示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hall may be crowded. Even so, remain calm and follow the staff's instructions.",
+      "answerZh": "禮堂可能很擠迫。即使如此，仍要保持冷靜並遵從職員指示。",
+      "answerZhSource": "pdf",
+      "highlight": "The hall may be crowded. Even so, remain calm and follow the staff's instructions."
+    },
+    {
+      "id": "ss165-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the lift was out of service, visitors could still reach every floor by using the stairs.",
+      "promptZh": "雖然升降機暫停服務，但訪客仍可使用樓梯到達每一層。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lift was out of service. Even so, visitors could reach every floor by using the stairs.",
+      "answerZh": "升降機暫停服務。即使如此，訪客仍可使用樓梯到達每一層。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift was out of service. Even so, visitors could reach every floor by using the stairs."
+    },
+    {
+      "id": "ss165-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ava had already explained the rule twice, but she explained it again to the new student.",
+      "promptZh": "艾娃已解釋規則兩次，但她仍向新同學再解釋一次。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava had already explained the rule twice. Even so, she explained it again to the new student.",
+      "answerZh": "艾娃已解釋規則兩次。即使如此，她仍向新同學再解釋一次。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava had already explained the rule twice. Even so, she explained it again to the new student."
+    },
+    {
+      "id": "ss165-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The device is inexpensive, but it performs the basic tasks well.",
+      "promptZh": "這部裝置價格低廉，但仍能妥善完成基本工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The device is inexpensive. Even so, it performs the basic tasks well.",
+      "answerZh": "這部裝置價格低廉。即使如此，它仍能妥善完成基本工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The device is inexpensive. Even so, it performs the basic tasks well."
+    },
+    {
+      "id": "ss165-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the speaker's opinion was unpopular, everyone listened respectfully.",
+      "promptZh": "雖然講者的意見不受歡迎，但每個人仍有禮地聆聽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker's opinion was unpopular. Even so, everyone listened respectfully.",
+      "answerZh": "講者的意見不受歡迎。即使如此，每個人仍有禮地聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker's opinion was unpopular. Even so, everyone listened respectfully."
+    },
+    {
+      "id": "ss165-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even if our team does not win the competition, the experience will still be valuable.",
+      "promptZh": "即使我們的隊伍未能勝出比賽，這次經驗仍會很有價值。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team may not win the competition. Even so, the experience will be valuable.",
+      "answerZh": "我們的隊伍未必能勝出比賽。即使如此，這次經驗仍會很有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team may not win the competition. Even so, the experience will be valuable."
+    },
+    {
+      "id": "ss165-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the path looked unsafe, the guide assured us that it had been checked that morning.",
+      "promptZh": "雖然小徑看來不安全，但導遊向我們保證，當天早上已有人檢查過。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The path looked unsafe. Even so, the guide assured us that it had been checked that morning.",
+      "answerZh": "小徑看來不安全。即使如此，導遊仍向我們保證，當天早上已有人檢查過。",
+      "answerZhSource": "pdf",
+      "highlight": "The path looked unsafe. Even so, the guide assured us that it had been checked that morning."
+    },
+    {
+      "id": "ss165-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The restaurant was almost full. Nevertheless, the waiter found us a table near the window.",
+      "promptZh": "餐廳幾乎滿座。儘管如此，侍應仍為我們找到一張近窗的桌子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant was almost full. Even so, the waiter found us a table near the window.",
+      "answerZh": "餐廳幾乎滿座。即使如此，侍應仍為我們找到一張近窗的桌子。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant was almost full. Even so, the waiter found us a table near the window."
+    },
+    {
+      "id": "ss165-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even if you disagree with the decision, you should still explain your concerns politely.",
+      "promptZh": "即使你不同意這項決定，也應有禮地解釋你的憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may disagree with the decision. Even so, you should explain your concerns politely.",
+      "answerZh": "你可能不同意這項決定。即使如此，你仍應有禮地解釋你的憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "You may disagree with the decision. Even so, you should explain your concerns politely."
+    },
+    {
+      "id": "ss165-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the report contained several minor errors, its main conclusion remained convincing.",
+      "promptZh": "雖然報告有幾個小錯誤，但其主要結論仍具說服力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report contained several minor errors. Even so, its main conclusion remained convincing.",
+      "answerZh": "報告有幾個小錯誤。即使如此，其主要結論仍具說服力。",
+      "answerZhSource": "pdf",
+      "highlight": "The report contained several minor errors. Even so, its main conclusion remained convincing."
+    },
+    {
+      "id": "ss165-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Despite having a limited budget, our school created a free reading programme for younger pupils.",
+      "promptZh": "儘管預算有限，我們的學校仍為年幼學生開設免費閱讀計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school had a limited budget. Even so, it created a free reading programme for younger pupils.",
+      "answerZh": "我們的學校預算有限。即使如此，學校仍為年幼學生開設免費閱讀計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school had a limited budget. Even so, it created a free reading programme for younger pupils."
+    },
+    {
+      "id": "ss165-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the hospital was extremely busy that evening, the nurses kept every patient informed.",
+      "promptZh": "雖然醫院當晚極為繁忙，但護士仍讓每名病人了解最新情況。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital was extremely busy that evening. Even so, the nurses kept every patient informed.",
+      "answerZh": "醫院當晚極為繁忙。即使如此，護士仍讓每名病人了解最新情況。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital was extremely busy that evening. Even so, the nurses kept every patient informed."
+    },
+    {
+      "id": "ss165-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new payment system caused some confusion at first; nevertheless, most customers learnt to use it within a week.",
+      "promptZh": "新的付款系統起初引起了一些混亂；儘管如此，大部分顧客仍在一星期內學會使用。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At first, the new payment system caused some confusion. Even so, most customers learnt to use it within a week.",
+      "answerZh": "起初，新的付款系統引起了一些混亂。即使如此，大部分顧客仍在一星期內學會使用。",
+      "answerZhSource": "pdf",
+      "highlight": "At first, the new payment system caused some confusion. Even so, most customers learnt to use it within a week."
+    },
+    {
+      "id": "ss165-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although our company had received several complaints, it chose not to rush the investigation.",
+      "promptZh": "雖然我們的公司收到幾宗投訴，但公司仍選擇不倉促完成調查。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our company had received several complaints. Even so, it chose not to rush the investigation.",
+      "answerZh": "我們的公司收到幾宗投訴。即使如此，公司仍選擇不倉促完成調查。",
+      "answerZhSource": "pdf",
+      "highlight": "Our company had received several complaints. Even so, it chose not to rush the investigation."
+    },
+    {
+      "id": "ss165-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Despite the forecast of strong winds, the ferry service continued under strict safety controls.",
+      "promptZh": "儘管天氣預報指會有強風，渡輪服務仍在嚴格安全管制下繼續運作。",
+      "promptZhSource": "pdf",
+      "starter": "Strong",
+      "answer": "Strong winds were forecast. Even so, the ferry service continued under strict safety controls.",
+      "answerZh": "天氣預報指會有強風。即使如此，渡輪服務仍在嚴格安全管制下繼續運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Strong winds were forecast. Even so, the ferry service continued under strict safety controls."
+    },
+    {
+      "id": "ss165-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The research sample was relatively small, but the findings still raised an important question for future studies.",
+      "promptZh": "研究樣本相對較小，但研究結果仍為日後研究提出了一個重要問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research sample was relatively small. Even so, the findings raised an important question for future studies.",
+      "answerZh": "研究樣本相對較小。即使如此，研究結果仍為日後研究提出了一個重要問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The research sample was relatively small. Even so, the findings raised an important question for future studies."
+    },
+    {
+      "id": "ss165-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although residents had no large public park in their neighbourhood, they turned several small spaces into community gardens.",
+      "promptZh": "雖然居民的社區內沒有大型公園，但他們仍把幾個小空間改造成社區花園。",
+      "promptZhSource": "pdf",
+      "starter": "Residents",
+      "answer": "Residents had no large public park in their neighbourhood. Even so, they turned several small spaces into community gardens.",
+      "answerZh": "居民的社區內沒有大型公園。即使如此，他們仍把幾個小空間改造成社區花園。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents had no large public park in their neighbourhood. Even so, they turned several small spaces into community gardens."
+    },
+    {
+      "id": "ss165-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The first version of the product failed to attract many buyers. However, the design team used the feedback to improve the next version.",
+      "promptZh": "產品的第一個版本未能吸引很多買家。不過，設計團隊仍利用意見改善下一個版本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first version of the product failed to attract many buyers. Even so, the design team used the feedback to improve the next version.",
+      "answerZh": "產品的第一個版本未能吸引很多買家。即使如此，設計團隊仍利用意見改善下一個版本。",
+      "answerZhSource": "pdf",
+      "highlight": "The first version of the product failed to attract many buyers. Even so, the design team used the feedback to improve the next version."
+    },
+    {
+      "id": "ss165-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This policy could not solve every problem, but it gave local organisations a clearer way to request support.",
+      "promptZh": "這項政策不能解決所有問題，但它仍為本地機構提供更清晰的支援申請途徑。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This policy could not solve every problem. Even so, it gave local organisations a clearer way to request support.",
+      "answerZh": "這項政策不能解決所有問題。即使如此，它仍為本地機構提供更清晰的支援申請途徑。",
+      "answerZhSource": "pdf",
+      "highlight": "This policy could not solve every problem. Even so, it gave local organisations a clearer way to request support."
+    },
+    {
+      "id": "ss165-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the negotiation lasted much longer than expected and produced no immediate agreement, both sides left with a better understanding of the remaining issues.",
+      "promptZh": "雖然談判比預期持續更久，而且沒有即時達成協議，但雙方離開時都更了解尚未解決的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The negotiation lasted much longer than expected and produced no immediate agreement. Even so, both sides left with a better understanding of the remaining issues.",
+      "answerZh": "談判比預期持續更久，而且沒有即時達成協議。即使如此，雙方離開時都更了解尚未解決的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The negotiation lasted much longer than expected and produced no immediate agreement. Even so, both sides left with a better understanding of the remaining issues."
+    }
+  ]
+}

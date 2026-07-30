@@ -1,0 +1,1221 @@
+{
+  "id": "ss186",
+  "order": 186,
+  "slug": "the-reason-why-is-that",
+  "title": "「The reason why ... is that ...」說明原因",
+  "titleZh": "「The reason why ... is that ...」說明原因",
+  "titleEn": "Using “The reason why ... is that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 186 -「The reason why ... is that ...」說明原因.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "The reason why + subject + verb + is that + subject + verb",
+  "formulas": [
+    {
+      "id": "ss186-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "The reason why + subject + verb + is that + subject + verb"
+    }
+  ],
+  "example": "The reason why many policies fail is that they ignore human behaviour.",
+  "exampleZh": "很多政策失敗的原因，是它們忽視了人類行為。",
+  "examples": [
+    {
+      "id": "ss186-example-01",
+      "en": "The reason why many policies fail is that they ignore human behaviour.",
+      "zh": "很多政策失敗的原因，是它們忽視了人類行為。",
+      "highlight": "The reason why many policies fail is that they ignore human behaviour."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：The reason why + subject + verb + is that + subject + verb。"
+  },
+  "rules": [
+    {
+      "id": "ss186-rule-01",
+      "zh": "why 後面的部分應說明「甚麼事情需要解釋」。",
+      "en": "Put the situation after why The clause after why states the situation that needs to be explained. Correct: The reason why the shop is closed is that it is a public holiday. Incorrect: The reason why is that the shop is closed it is a public holiday.",
+      "enSource": "pdf",
+      "examples": [
+        "Put the situation after why",
+        "The clause after why states the situation that needs to be explained.",
+        "Correct: The reason why the shop is closed is that it is a public holiday.",
+        "Incorrect: The reason why is that the shop is closed it is a public holiday."
+      ]
+    },
+    {
+      "id": "ss186-rule-02",
+      "zh": "即使句中有 why，也不需要使用問句語序。",
+      "en": "Use normal statement word order after why The clause after why is not a direct question. Correct: The reason why he left early is that he felt unwell. Incorrect: The reason why did he leave early is that he felt unwell.",
+      "enSource": "pdf",
+      "examples": [
+        "Use normal statement word order after why",
+        "The clause after why is not a direct question.",
+        "Correct: The reason why he left early is that he felt unwell.",
+        "Incorrect: The reason why did he leave early is that he felt unwell."
+      ]
+    },
+    {
+      "id": "ss186-rule-03",
+      "zh": "日常英語中有時會聽到 the reason is because，但在正式寫作中通常建議使用 the reason is that。本練習的所有答案都必須使用 is that。",
+      "en": "Use is that, not is because, in this exercise Target form: The reason why the lesson started late is that the teacher’s train was delayed. Excluded form in this exercise: The reason why the lesson started late is because the teacher’s train was delayed.",
+      "enSource": "pdf",
+      "examples": [
+        "Use is that, not is because, in this exercise",
+        "Target form: The reason why the lesson started late is that the teacher’s train was delayed.",
+        "Excluded form in this exercise:",
+        "The reason why the lesson started late is because the teacher’s train was delayed."
+      ]
+    },
+    {
+      "id": "ss186-rule-04",
+      "zh": "本練習不可省略 that。",
+      "en": "Do not omit that In informal conversation, speakers sometimes omit that, but every answer in this exercise must include it. Required: The reason why I called is that I needed help.",
+      "enSource": "pdf",
+      "examples": [
+        "Do not omit that",
+        "In informal conversation, speakers sometimes omit that, but every answer in this exercise must",
+        "The reason why I called is that I needed help."
+      ]
+    },
+    {
+      "id": "ss186-rule-05",
+      "zh": "即使事情發生在過去，也可以使用 is that，因為說話者現在正在解釋原因。was that 在某些過去 敘事中也可以使用，但不屬於本練習的目標形式。",
+      "en": "Use is that throughout this exercise Even when the event happened in the past, is that can introduce the explanation being given now. The reason why the meeting ended early is that several people had to leave.",
+      "enSource": "pdf",
+      "examples": [
+        "Use is that throughout this exercise",
+        "Even when the event happened in the past, is that can introduce the explanation being given",
+        "The reason why the meeting ended early is that several people had to leave."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss186-benefit-01",
+      "zh": "這個句型把「發生了甚麼事」和「事情發生的原因」清楚分開，讓讀者更容易理解兩者的關係。",
+      "en": "It clearly separates the situation from its cause The first part tells the reader what happened. The second part explains why it happened.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss186-benefit-02",
+      "zh": "以 The reason why... 開始句子，可以提醒聽者或讀者：接下來的內容將會解釋一個重要原因。",
+      "en": "It places attention on the explanation Beginning with The reason why... tells the listener that an important explanation is coming.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss186-benefit-03",
+      "zh": "在討論、作文、報告和簡報中，這個句型可以幫助你有條理地解釋事情發生的原因。",
+      "en": "It helps organise answers and paragraphs This structure is useful when answering questions about causes in discussions, essays, reports and presentations.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss186-benefit-04",
+      "zh": "你不需要每次都使用 because。這個句型可以先提出問題，再集中說明原因，使句式更有變化。",
+      "en": "It gives you an alternative to repeatedly using because Compare: Many policies fail because they ignore human behaviour. The reason why many policies fail is that they ignore human behaviour. The second sentence presents the problem first and then gives a focused explanation.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss186-benefit-05",
+      "zh": "只要記住這個固定框架，說話時便可以迅速把「情況」和「原因」放入句中，不需要每次重新組織整 個答案。",
+      "en": "It provides a useful speaking frame Once you remember: The reason why _____ is that _____ you can quickly insert your own situation and explanation.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: The reason why + subject + verb + is that + subject + verb.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「The reason why + subject + verb + is that + subject + verb」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss186-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I stayed at home because I felt unwell.",
+      "promptZh": "我留在家中，因為我感到不適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why I stayed at home is that I felt unwell.",
+      "answerZh": "我留在家中的原因，是我感到不適。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why I stayed at home is that I felt unwell."
+    },
+    {
+      "id": "ss186-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Mia opened the window since the room was too warm.",
+      "promptZh": "米婭打開窗戶，因為房間太暖。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Mia opened the window is that the room was too warm.",
+      "answerZh": "米婭打開窗戶的原因，是房間太暖。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Mia opened the window is that the room was too warm."
+    },
+    {
+      "id": "ss186-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Because the teacher was speaking, the students were quiet.",
+      "promptZh": "因為老師正在說話，所以學生保持安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the students were quiet is that the teacher was speaking.",
+      "answerZh": "學生保持安靜的原因，是老師正在說話。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the students were quiet is that the teacher was speaking."
+    },
+    {
+      "id": "ss186-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why did Ben take an umbrella? The sky looked very dark.",
+      "promptZh": "本為甚麼帶雨傘？因為天空看起來很昏暗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Ben took an umbrella is that the sky looked very dark.",
+      "answerZh": "本帶雨傘的原因，是天空看起來很昏暗。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Ben took an umbrella is that the sky looked very dark."
+    },
+    {
+      "id": "ss186-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We left early as we wanted to catch the first bus.",
+      "promptZh": "我們提早離開，因為我們想趕上第一班巴士。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why we left early is that we wanted to catch the first bus.",
+      "answerZh": "我們提早離開的原因，是我們想趕上第一班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why we left early is that we wanted to catch the first bus."
+    },
+    {
+      "id": "ss186-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Emma needed some advice, so she called her mother.",
+      "promptZh": "艾瑪需要一些意見，所以她致電母親。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Emma called her mother is that she needed some advice.",
+      "answerZh": "艾瑪致電母親的原因，是她需要一些意見。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Emma called her mother is that she needed some advice."
+    },
+    {
+      "id": "ss186-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Leo turned on the lamp because he could not see clearly.",
+      "promptZh": "里奧打開燈，因為他看不清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Leo turned on the lamp is that he could not see clearly.",
+      "answerZh": "里奧打開燈的原因，是他看不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Leo turned on the lamp is that he could not see clearly."
+    },
+    {
+      "id": "ss186-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The shop was closed. This was because it was a public holiday.",
+      "promptZh": "商店關門了。這是因為當天是公眾假期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the shop was closed is that it was a public holiday.",
+      "answerZh": "商店關門的原因，是當天是公眾假期。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the shop was closed is that it was a public holiday."
+    },
+    {
+      "id": "ss186-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Nina wore a coat owing to the cold weather.",
+      "promptZh": "妮娜因為天氣寒冷而穿上外套。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Nina wore a coat is that the weather was cold.",
+      "answerZh": "妮娜穿上外套的原因，是天氣寒冷。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Nina wore a coat is that the weather was cold."
+    },
+    {
+      "id": "ss186-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why was the dog barking? Someone was at the door.",
+      "promptZh": "狗為甚麼吠叫？因為有人在門外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the dog was barking is that someone was at the door.",
+      "answerZh": "狗吠叫的原因，是有人在門外。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the dog was barking is that someone was at the door."
+    },
+    {
+      "id": "ss186-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Jack is saving money because he wants to buy a new bicycle.",
+      "promptZh": "傑克正在存錢，因為他想買一輛新單車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Jack is saving money is that he wants to buy a new bicycle.",
+      "answerZh": "傑克正在存錢的原因，是他想買一輛新單車。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Jack is saving money is that he wants to buy a new bicycle."
+    },
+    {
+      "id": "ss186-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A delay to the teacher’s train caused the lesson to start late.",
+      "promptZh": "老師乘搭的火車延誤，導致課堂遲了開始。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the lesson started late is that the teacher’s train was delayed.",
+      "answerZh": "課堂遲了開始的原因，是老師乘搭的火車延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the lesson started late is that the teacher’s train was delayed."
+    },
+    {
+      "id": "ss186-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As Ava needed a quiet place to study, she went to the library.",
+      "promptZh": "由於艾娃需要一個安靜的地方溫習，她去了圖書館。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Ava went to the library is that she needed a quiet place to study.",
+      "answerZh": "艾娃去圖書館的原因，是她需要一個安靜的地方溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Ava went to the library is that she needed a quiet place to study."
+    },
+    {
+      "id": "ss186-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel checked the timetable because he did not want to miss the last train.",
+      "promptZh": "丹尼爾查看時間表，因為他不想錯過尾班車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Daniel checked the timetable is that he did not want to miss the last train.",
+      "answerZh": "丹尼爾查看時間表的原因，是他不想錯過尾班車。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Daniel checked the timetable is that he did not want to miss the last train."
+    },
+    {
+      "id": "ss186-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It started to rain, so the children went inside.",
+      "promptZh": "天開始下雨，所以孩子們走進室內。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the children went inside is that it started to rain.",
+      "answerZh": "孩子們走進室內的原因，是天開始下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the children went inside is that it started to rain."
+    },
+    {
+      "id": "ss186-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The computer is running slowly. This is because too many programmes are open.",
+      "promptZh": "電腦運行得很慢。這是因為開啟了太多程式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the computer is running slowly is that too many programmes are open.",
+      "answerZh": "電腦運行得很慢的原因，是開啟了太多程式。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the computer is running slowly is that too many programmes are open."
+    },
+    {
+      "id": "ss186-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why did Sarah bring a camera? She wanted to take photographs of the view.",
+      "promptZh": "莎拉為甚麼帶相機？她想拍攝景色。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Sarah brought a camera is that she wanted to take photographs of the view.",
+      "answerZh": "莎拉帶相機的原因，是她想拍攝景色。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Sarah brought a camera is that she wanted to take photographs of the view."
+    },
+    {
+      "id": "ss186-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Several staff members could not travel, so the meeting was moved online.",
+      "promptZh": "幾名職員無法出行，所以會議改為網上舉行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the meeting was moved online is that several staff members could not travel.",
+      "answerZh": "會議改為網上舉行的原因，是幾名職員無法出行。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the meeting was moved online is that several staff members could not travel."
+    },
+    {
+      "id": "ss186-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The plants are dying because they are not getting enough water.",
+      "promptZh": "植物正在枯死，因為它們沒有得到足夠的水。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the plants are dying is that they are not getting enough water.",
+      "answerZh": "植物正在枯死的原因，是它們沒有得到足夠的水。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the plants are dying is that they are not getting enough water."
+    },
+    {
+      "id": "ss186-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Tom realised that he had hurt his friend’s feelings. Because of this, he apologised.",
+      "promptZh": "湯姆意識到自己傷害了朋友的感受。因此，他道了歉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Tom apologised is that he realised he had hurt his friend’s feelings.",
+      "answerZh": "湯姆道歉的原因，是他意識到自己傷害了朋友的感受。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Tom apologised is that he realised he had hurt his friend’s feelings."
+    },
+    {
+      "id": "ss186-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A large event taking place nearby has made the road crowded.",
+      "promptZh": "附近正在舉行大型活動，令道路變得擠塞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the road is crowded is that a large event is taking place nearby.",
+      "answerZh": "道路擠塞的原因，是附近正在舉行大型活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the road is crowded is that a large event is taking place nearby."
+    },
+    {
+      "id": "ss186-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Flooding on the field caused the football match to be cancelled.",
+      "promptZh": "球場水浸，導致足球比賽被取消。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the football match was cancelled is that the field was flooded.",
+      "answerZh": "足球比賽被取消的原因，是球場水浸。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the football match was cancelled is that the field was flooded."
+    },
+    {
+      "id": "ss186-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Olivia is tired because she stayed up late to finish her report.",
+      "promptZh": "奧莉花感到疲倦，因為她熬夜完成報告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Olivia is tired is that she stayed up late to finish her report.",
+      "answerZh": "奧莉花感到疲倦的原因，是她熬夜完成報告。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Olivia is tired is that she stayed up late to finish her report."
+    },
+    {
+      "id": "ss186-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The printer is not working because it has run out of paper.",
+      "promptZh": "打印機無法運作，因為紙張已經用完。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the printer is not working is that it has run out of paper.",
+      "answerZh": "打印機無法運作的原因，是紙張已經用完。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the printer is not working is that it has run out of paper."
+    },
+    {
+      "id": "ss186-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why is the museum free today? It is celebrating its anniversary.",
+      "promptZh": "博物館今天為甚麼免費開放？因為博物館正在慶祝周年紀念。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the museum is free today is that it is celebrating its anniversary.",
+      "answerZh": "博物館今天免費開放的原因，是它正在慶祝周年紀念。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the museum is free today is that it is celebrating its anniversary."
+    },
+    {
+      "id": "ss186-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The patient had difficulty hearing, so the nurse spoke slowly.",
+      "promptZh": "病人聽力有困難，所以護士慢慢說話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the nurse spoke slowly is that the patient had difficulty hearing.",
+      "answerZh": "護士慢慢說話的原因，是病人聽力有困難。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the nurse spoke slowly is that the patient had difficulty hearing."
+    },
+    {
+      "id": "ss186-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Because the weather was extremely hot, the team practised indoors.",
+      "promptZh": "因為天氣非常炎熱，所以球隊在室內練習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the team practised indoors is that the weather was extremely hot.",
+      "answerZh": "球隊在室內練習的原因，是天氣非常炎熱。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the team practised indoors is that the weather was extremely hot."
+    },
+    {
+      "id": "ss186-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The package arrived late as the flight had been delayed.",
+      "promptZh": "包裹遲了送達，因為航班曾經延誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the package arrived late is that the flight had been delayed.",
+      "answerZh": "包裹遲了送達的原因，是航班曾經延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the package arrived late is that the flight had been delayed."
+    },
+    {
+      "id": "ss186-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace received a security warning, so she changed her password.",
+      "promptZh": "格蕾絲收到保安警告，所以她更改了密碼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Grace changed her password is that she received a security warning.",
+      "answerZh": "格蕾絲更改密碼的原因，是她收到保安警告。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Grace changed her password is that she received a security warning."
+    },
+    {
+      "id": "ss186-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The café has become popular because it serves fresh food at reasonable prices.",
+      "promptZh": "這間咖啡店變得受歡迎，因為它以合理價格供應新鮮食物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the café has become popular is that it serves fresh food at reasonable prices.",
+      "answerZh": "這間咖啡店變得受歡迎的原因，是它以合理價格供應新鮮食物。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the café has become popular is that it serves fresh food at reasonable prices."
+    },
+    {
+      "id": "ss186-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The lights were switched off because the building was empty.",
+      "promptZh": "燈被關掉，因為大樓內沒有人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the lights were switched off is that the building was empty.",
+      "answerZh": "燈被關掉的原因，是大樓內沒有人。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the lights were switched off is that the building was empty."
+    },
+    {
+      "id": "ss186-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager rejected the plan because its expected cost was too high.",
+      "promptZh": "經理拒絕了計劃，因為預計成本太高。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the manager rejected the plan is that its expected cost was too high.",
+      "answerZh": "經理拒絕計劃的原因，是預計成本太高。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the manager rejected the plan is that its expected cost was too high."
+    },
+    {
+      "id": "ss186-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We could not enter the hall since the doors had already been locked.",
+      "promptZh": "我們無法進入禮堂，因為大門已經上鎖。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why we could not enter the hall is that the doors had already been locked.",
+      "answerZh": "我們無法進入禮堂的原因，是大門已經上鎖。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why we could not enter the hall is that the doors had already been locked."
+    },
+    {
+      "id": "ss186-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Students needed easier access to drinking water, so the school added more water fountains.",
+      "promptZh": "學生需要更方便地取得飲用水，所以學校增設了更多飲水機。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the school added more water fountains is that students needed easier access to drinking water.",
+      "answerZh": "學校增設更多飲水機的原因，是學生需要更方便地取得飲用水。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the school added more water fountains is that students needed easier access to drinking water."
+    },
+    {
+      "id": "ss186-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did Ethan take the stairs? The lift was out of order.",
+      "promptZh": "伊森為甚麼行樓梯？因為升降機發生故障。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Ethan took the stairs is that the lift was out of order.",
+      "answerZh": "伊森行樓梯的原因，是升降機發生故障。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Ethan took the stairs is that the lift was out of order."
+    },
+    {
+      "id": "ss186-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Patients were waiting too long. As a result, the hospital changed its booking system.",
+      "promptZh": "病人等候的時間太長。因此，醫院更改了預約系統。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the hospital changed its booking system is that patients were waiting too long.",
+      "answerZh": "醫院更改預約系統的原因，是病人等候的時間太長。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the hospital changed its booking system is that patients were waiting too long."
+    },
+    {
+      "id": "ss186-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Maya did not answer the phone because she was attending an interview.",
+      "promptZh": "瑪雅沒有接聽電話，因為她正在參加面試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why Maya did not answer the phone is that she was attending an interview.",
+      "answerZh": "瑪雅沒有接聽電話的原因，是她正在參加面試。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why Maya did not answer the phone is that she was attending an interview."
+    },
+    {
+      "id": "ss186-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The village has fewer visitors this year owing to repairs on the main road.",
+      "promptZh": "由於主要道路正在維修，這條村今年的訪客較少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the village has fewer visitors this year is that the main road is being repaired.",
+      "answerZh": "這條村今年訪客較少的原因，是主要道路正在維修。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the village has fewer visitors this year is that the main road is being repaired."
+    },
+    {
+      "id": "ss186-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Many users found the instructions confusing, so they were rewritten.",
+      "promptZh": "很多使用者認為指示令人困惑，所以指示被重新編寫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the instructions were rewritten is that many users found them confusing.",
+      "answerZh": "指示被重新編寫的原因，是很多使用者認為它們令人困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the instructions were rewritten is that many users found them confusing."
+    },
+    {
+      "id": "ss186-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach showed the players the video because he wanted them to understand their mistakes.",
+      "promptZh": "教練向球員播放影片，因為他希望他們了解自己的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the coach showed the players the video is that he wanted them to understand their mistakes.",
+      "answerZh": "教練向球員播放影片的原因，是他希望他們了解自己的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the coach showed the players the video is that he wanted them to understand their mistakes."
+    },
+    {
+      "id": "ss186-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company allows flexible working hours since employees have different family responsibilities.",
+      "promptZh": "公司容許彈性工作時間，因為僱員有不同的家庭責任。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the company allows flexible working hours is that employees have different family responsibilities.",
+      "answerZh": "公司容許彈性工作時間的原因，是僱員有不同的家庭責任。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the company allows flexible working hours is that employees have different family responsibilities."
+    },
+    {
+      "id": "ss186-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "More students needed a place to study in the evening. This is why the library extended its opening hours.",
+      "promptZh": "更多學生需要晚上溫習的地方。因此，圖書館延長了開放時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the library extended its opening hours is that more students needed a place to study in the evening.",
+      "answerZh": "圖書館延長開放時間的原因，是更多學生需要晚上溫習的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the library extended its opening hours is that more students needed a place to study in the evening."
+    },
+    {
+      "id": "ss186-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Residents had complained about the heat. As a result, the local council planted more trees along the road.",
+      "promptZh": "居民曾經投訴天氣炎熱。因此，地方議會在道路兩旁種植了更多樹木。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the local council planted more trees along the road is that residents had complained about the heat.",
+      "answerZh": "地方議會在道路兩旁種植更多樹木的原因，是居民曾經投訴天氣炎熱。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the local council planted more trees along the road is that residents had complained about the heat."
+    },
+    {
+      "id": "ss186-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The weather forecast warned of strong winds, so the charity moved the event indoors.",
+      "promptZh": "天氣預報警告將有強風，所以慈善機構把活動移到室內舉行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the charity moved the event indoors is that the weather forecast warned of strong winds.",
+      "answerZh": "慈善機構把活動移到室內舉行的原因，是天氣預報警告將有強風。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the charity moved the event indoors is that the weather forecast warned of strong winds."
+    },
+    {
+      "id": "ss186-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The customer requested a refund because the product stopped working after two days.",
+      "promptZh": "顧客要求退款，因為產品使用兩天後便停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the customer requested a refund is that the product stopped working after two days.",
+      "answerZh": "顧客要求退款的原因，是產品使用兩天後便停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the customer requested a refund is that the product stopped working after two days."
+    },
+    {
+      "id": "ss186-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organisation did not explain its decision clearly. This caused public trust to fall.",
+      "promptZh": "該機構沒有清楚解釋其決定。這導致公眾信任下降。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why public trust fell is that the organisation did not explain its decision clearly.",
+      "answerZh": "公眾信任下降的原因，是該機構沒有清楚解釋其決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why public trust fell is that the organisation did not explain its decision clearly."
+    },
+    {
+      "id": "ss186-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The main functions were hidden in several menus. This made the new software difficult to use.",
+      "promptZh": "主要功能隱藏在數個選單內。這令新軟件難以使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the new software was difficult to use is that its main functions were hidden in several menus.",
+      "answerZh": "新軟件難以使用的原因，是其主要功能隱藏在數個選單內。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the new software was difficult to use is that its main functions were hidden in several menus."
+    },
+    {
+      "id": "ss186-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school delayed the trip because the transport company could not provide enough coaches.",
+      "promptZh": "學校延遲了旅程，因為運輸公司無法提供足夠的旅遊巴士。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the school delayed the trip is that the transport company could not provide enough coaches.",
+      "answerZh": "學校延遲旅程的原因，是運輸公司無法提供足夠的旅遊巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the school delayed the trip is that the transport company could not provide enough coaches."
+    },
+    {
+      "id": "ss186-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The small business grew quickly as its customers recommended it to their friends.",
+      "promptZh": "這間小型企業迅速發展，因為顧客把它推薦給朋友。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the small business grew quickly is that its customers recommended it to their friends.",
+      "answerZh": "這間小型企業迅速發展的原因，是顧客把它推薦給朋友。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the small business grew quickly is that its customers recommended it to their friends."
+    },
+    {
+      "id": "ss186-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The policy failed because it ignored how people actually behaved.",
+      "promptZh": "這項政策失敗了，因為它忽視了人們實際上的行為方式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reason why the policy failed is that it ignored how people actually behaved.",
+      "answerZh": "這項政策失敗的原因，是它忽視了人們實際上的行為方式。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason why the policy failed is that it ignored how people actually behaved."
+    }
+  ]
+}

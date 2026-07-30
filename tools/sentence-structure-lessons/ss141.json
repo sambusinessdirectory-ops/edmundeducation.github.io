@@ -1,0 +1,1188 @@
+{
+  "id": "ss141",
+  "order": 141,
+  "slug": "in-other-words",
+  "title": "「In other words」換言說明句",
+  "titleZh": "「In other words」換言說明句",
+  "titleEn": "Using in other words to give an equivalent clearer restatement",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 141 -「In other words」換言說明句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Statement 1. In other words, equivalent or clearer restatement",
+  "formulas": [
+    {
+      "id": "ss141-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Statement 1. In other words, equivalent or clearer restatement"
+    }
+  ],
+  "example": "The reform was not rejected. In other words, people were willing to give it a chance.",
+  "exampleZh": "這場改革並沒有被否決。換言之，人們願意給它一個機會。",
+  "examples": [
+    {
+      "id": "ss141-example-01",
+      "en": "The reform was not rejected. In other words, people were willing to give it a chance.",
+      "zh": "這場改革並沒有被否決。換言之，人們願意給它一個機會。",
+      "highlight": "In other words"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss141-rule-01",
+      "zh": "In other words 的意思是「換言之」或「也就是說」。後面的內容必須重述前面的基本意 思，而不是加入完全不同的新觀點。",
+      "en": "In other words means ‘to put it another way’ or ‘that is to say’. What follows must restate the same basic idea rather than introduce an entirely different new point.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss141-rule-02",
+      "zh": "當 In other words 放在新句子的開首時，In 要使用大寫，並在 words 後加逗號：",
+      "en": "At the beginning of a new sentence, capitalize In and put a comma after words.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss141-rule-03",
+      "zh": "不要寫成 In another word、In other word 或 In the other words。 重述時不可改變原句的語氣強度： ○ may 不可改成 will ○ should 不可改成 must ○ 否定意思必須保留 ○ 可能性不可改成確定結果",
+      "en": "Do not use the incorrect forms In another word, In other word or In the other words. When restating, preserve the strength of the original: do not change may to will or should to must, retain negative meaning, and do not turn a possibility into a certain result.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss141-rule-04",
+      "zh": "In other words 與 That is to say、To put it another way 和 Put simply 意思相近，但與以下連接語不同： ○ For example：引入例子 ○ Therefore：表達結果 ○ However：表達轉折",
+      "en": "In other words is close in meaning to That is to say, To put it another way and Put simply, but differs from For example, which introduces an example; Therefore, which expresses a result; and However, which marks contrast.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss141-benefit-01",
+      "zh": "讓較難的概念更容易明白 你可以先提出一個較抽象或較專業的詞語，再用日常語言解釋。讀者即使不熟悉該詞語，也可以 掌握意思。",
+      "en": "It makes difficult ideas easier to understand. You can introduce an abstract or technical term and then explain it in everyday language, allowing readers unfamiliar with the term to grasp its meaning.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The fee is non-refundable. In other words, you will not get your money back."
+      ]
+    },
+    {
+      "id": "ss141-benefit-02",
+      "zh": "清楚顯示兩個說法意思相同 沒有連接語時，讀者可能以為第二句是一項新資料。加入 In other words 後，讀者會知道第二句 是在解釋第一句。 第二個版本更清楚顯示兩句之間的關係。",
+      "en": "It shows that two statements express the same message. Without the linker, readers may mistake the second sentence for new information; with In other words, they know it explains the first, and the relationship becomes clearer.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss141-benefit-03",
+      "zh": "在對話中重新解釋自己的意思 當別人聽不明白時，你可以使用 In other words，換一種方式表達，而不需要重新開始整段說 話。",
+      "en": "It helps you explain yourself again in conversation. If someone does not understand, you can express the same point in another way without restarting the whole explanation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss141-benefit-04",
+      "zh": "避免逐字重複 你可以保留相同意思，但改用較簡單、具體或直接的字詞，使說話和文章不會顯得機械或重複。",
+      "en": "It helps you avoid repeating exactly the same words by preserving the meaning while choosing simpler, more concrete or more direct language, so speech and writing do not sound mechanical or repetitive.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss141-benefit-05",
+      "zh": "令解釋更有條理 這個句型能把「主要概念」和「簡單解釋」連接起來，適合用於作文、報告、簡報、會議和日常說明。",
+      "en": "It makes explanations easier to follow by linking a main concept to a simple explanation, which is useful in essays, reports, presentations, meetings and everyday explanations.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using In other words to introduce an equivalent or clearer restatement.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 In other words 改寫以下句子或句組，以引出意思相同或更清楚的重述。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss141-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "This shop is cashless. Put simply, customers must pay electronically.",
+      "promptZh": "這間商店不接受現金。簡單來說，顧客必須以電子方式付款。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This shop is cashless. In other words, customers must pay electronically.",
+      "answerZh": "這間商店不接受現金。換言之，顧客必須以電子方式付款。",
+      "answerZhSource": "pdf",
+      "highlight": "This shop is cashless. In other words, customers must pay electronically."
+    },
+    {
+      "id": "ss141-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Mia is an only child; that is to say, she has no brothers or sisters.",
+      "promptZh": "米婭是獨生女；也就是說，她沒有兄弟姊妹。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is an only child. In other words, she has no brothers or sisters.",
+      "answerZh": "米婭是獨生女。換言之，她沒有兄弟姊妹。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is an only child. In other words, she has no brothers or sisters."
+    },
+    {
+      "id": "ss141-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Only pedestrians may use this path, which means that cars and bicycles may not use it.",
+      "promptZh": "只有行人可以使用這條小徑，意思是汽車和單車都不可使用。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only pedestrians may use this path. In other words, cars and bicycles may not use it.",
+      "answerZh": "只有行人可以使用這條小徑。換言之，汽車和單車都不可使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Only pedestrians may use this path. In other words, cars and bicycles may not use it."
+    },
+    {
+      "id": "ss141-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Today's meeting has been cancelled. To put it another way, it will not take place.",
+      "promptZh": "今天的會議已取消。換一個說法，它不會舉行。",
+      "promptZhSource": "pdf",
+      "starter": "Today's",
+      "answer": "Today's meeting has been cancelled. In other words, it will not take place.",
+      "answerZh": "今天的會議已取消。換言之，它不會舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "Today's meeting has been cancelled. In other words, it will not take place."
+    },
+    {
+      "id": "ss141-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben works remotely. This means that he does his job away from the office.",
+      "promptZh": "本遙距工作。這表示他在辦公室以外的地方工作。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben works remotely. In other words, he does his job away from the office.",
+      "answerZh": "本遙距工作。換言之，他在辦公室以外的地方工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben works remotely. In other words, he does his job away from the office."
+    },
+    {
+      "id": "ss141-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This water is not safe to drink. In simple terms, you should not drink it.",
+      "promptZh": "這些水不適合飲用。簡單來說，你不應飲用。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This water is not safe to drink. In other words, you should not drink it.",
+      "answerZh": "這些水不適合飲用。換言之，你不應飲用。",
+      "answerZhSource": "pdf",
+      "highlight": "This water is not safe to drink. In other words, you should not drink it."
+    },
+    {
+      "id": "ss141-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Visitors can enter the museum for free. What this means is that they do not need to buy a ticket.",
+      "promptZh": "訪客可以免費進入博物館。這意思是他們不需要購票。",
+      "promptZhSource": "pdf",
+      "starter": "Visitors",
+      "answer": "Visitors can enter the museum for free. In other words, they do not need to buy a ticket.",
+      "answerZh": "訪客可以免費進入博物館。換言之，他們不需要購票。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors can enter the museum for free. In other words, they do not need to buy a ticket."
+    },
+    {
+      "id": "ss141-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Friday is the final deadline. The message is simple: no late work will be accepted.",
+      "promptZh": "星期五是最後限期。重點很簡單：逾期提交的作業概不接受。",
+      "promptZhSource": "pdf",
+      "starter": "Friday",
+      "answer": "Friday is the final deadline. In other words, no late work will be accepted.",
+      "answerZh": "星期五是最後限期。換言之，逾期提交的作業概不接受。",
+      "answerZhSource": "pdf",
+      "highlight": "Friday is the final deadline. In other words, no late work will be accepted."
+    },
+    {
+      "id": "ss141-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This room is soundproof. By this, I mean that very little sound can enter or leave it.",
+      "promptZh": "這個房間具有隔音功能。我所指的是，幾乎沒有聲音可以傳入或傳出。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This room is soundproof. In other words, very little sound can enter or leave it.",
+      "answerZh": "這個房間具有隔音功能。換言之，幾乎沒有聲音可以傳入或傳出。",
+      "answerZhSource": "pdf",
+      "highlight": "This room is soundproof. In other words, very little sound can enter or leave it."
+    },
+    {
+      "id": "ss141-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Trains run every fifteen minutes. Another way to say this is that the interval between trains is fifteen minutes.",
+      "promptZh": "火車每十五分鐘一班。另一種說法是，兩班火車之間相隔十五分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Trains",
+      "answer": "Trains run every fifteen minutes. In other words, the interval between trains is fifteen minutes.",
+      "answerZh": "火車每十五分鐘一班。換言之，兩班火車之間相隔十五分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "Trains run every fifteen minutes. In other words, the interval between trains is fifteen minutes."
+    },
+    {
+      "id": "ss141-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Sarah is bilingual, meaning that she can speak two languages.",
+      "promptZh": "莎拉通曉兩種語言，意思是她會說兩種語言。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah is bilingual. In other words, she can speak two languages.",
+      "answerZh": "莎拉通曉兩種語言。換言之，她會說兩種語言。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah is bilingual. In other words, she can speak two languages."
+    },
+    {
+      "id": "ss141-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This device is portable. Put another way, it is easy to carry from place to place.",
+      "promptZh": "這部裝置便於攜帶。換一個說法，它很容易由一個地方帶到另一個地方。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This device is portable. In other words, it is easy to carry from place to place.",
+      "answerZh": "這部裝置便於攜帶。換言之，它很容易由一個地方帶到另一個地方。",
+      "answerZhSource": "pdf",
+      "highlight": "This device is portable. In other words, it is easy to carry from place to place."
+    },
+    {
+      "id": "ss141-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Answering this question is optional. That is to say, you may leave it blank.",
+      "promptZh": "這道題可選擇作答。也就是說，你可以把它留空。",
+      "promptZhSource": "pdf",
+      "starter": "Answering",
+      "answer": "Answering this question is optional. In other words, you may leave it blank.",
+      "answerZh": "這道題可選擇作答。換言之，你可以把它留空。",
+      "answerZhSource": "pdf",
+      "highlight": "Answering this question is optional. In other words, you may leave it blank."
+    },
+    {
+      "id": "ss141-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our office has a flexible dress code. In practical terms, staff do not have to wear formal clothes every day.",
+      "promptZh": "我們辦公室的衣着規定較有彈性。實際而言，員工不必每天穿正式服裝。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our office has a flexible dress code. In other words, staff do not have to wear formal clothes every day.",
+      "answerZh": "我們辦公室的衣着規定較有彈性。換言之，員工不必每天穿正式服裝。",
+      "answerZhSource": "pdf",
+      "highlight": "Our office has a flexible dress code. In other words, staff do not have to wear formal clothes every day."
+    },
+    {
+      "id": "ss141-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This village is isolated. By this, we mean that it is far from other communities and difficult to reach.",
+      "promptZh": "這條村落與外界隔絕。我們的意思是，它遠離其他社區，而且不容易到達。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This village is isolated. In other words, it is far from other communities and difficult to reach.",
+      "answerZh": "這條村落與外界隔絕。換言之，它遠離其他社區，而且不容易到達。",
+      "answerZhSource": "pdf",
+      "highlight": "This village is isolated. In other words, it is far from other communities and difficult to reach."
+    },
+    {
+      "id": "ss141-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "These instructions are confidential. The point is that you must not share them with people outside the team.",
+      "promptZh": "這些指示屬於機密。重點是，你不得把它們告訴團隊以外的人。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These instructions are confidential. In other words, you must not share them with people outside the team.",
+      "answerZh": "這些指示屬於機密。換言之，你不得把它們告訴團隊以外的人。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions are confidential. In other words, you must not share them with people outside the team."
+    },
+    {
+      "id": "ss141-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "That product is out of stock: it is not available to buy at the moment.",
+      "promptZh": "那件產品現時缺貨，也就是暫時無法購買。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That product is out of stock. In other words, it is not available to buy at the moment.",
+      "answerZh": "那件產品現時缺貨。換言之，暫時無法購買。",
+      "answerZhSource": "pdf",
+      "highlight": "That product is out of stock. In other words, it is not available to buy at the moment."
+    },
+    {
+      "id": "ss141-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The hall has limited capacity. Put simply, only a limited number of people can enter it.",
+      "promptZh": "禮堂的容納人數有限。簡單來說，只有有限數目的人可以進入。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only a limited number of people can enter the hall. In other words, the hall has limited capacity.",
+      "answerZh": "只有有限數目的人可以進入禮堂。換言之，禮堂的容納人數有限。",
+      "answerZhSource": "pdf",
+      "highlight": "Only a limited number of people can enter the hall. In other words, the hall has limited capacity."
+    },
+    {
+      "id": "ss141-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The plan is unrealistic because it cannot be achieved with the time and money available.",
+      "promptZh": "這個計劃不切實際，因為現有的時間和金錢不足以實現它。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We cannot achieve this plan with the time and money available. In other words, the plan is unrealistic.",
+      "answerZh": "我們無法以現有的時間和金錢實現這個計劃。換言之，這個計劃不切實際。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot achieve this plan with the time and money available. In other words, the plan is unrealistic."
+    },
+    {
+      "id": "ss141-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The report is incomplete; in more direct language, some necessary information is missing from it.",
+      "promptZh": "這份報告並不完整；更直接地說，當中缺少一些必要資料。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some necessary information is missing from the report. In other words, the report is incomplete.",
+      "answerZh": "這份報告缺少一些必要資料。換言之，報告並不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "Some necessary information is missing from the report. In other words, the report is incomplete."
+    },
+    {
+      "id": "ss141-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The course is self-paced. What I mean is that students can complete it at their own speed.",
+      "promptZh": "這個課程可讓學生自定進度。我的意思是，學生可以按照自己的速度完成課程。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students can complete the course at their own speed. In other words, the course is self-paced.",
+      "answerZh": "學生可以按照自己的速度完成課程。換言之，這個課程可讓學生自定進度。",
+      "answerZhSource": "pdf",
+      "highlight": "Students can complete the course at their own speed. In other words, the course is self-paced."
+    },
+    {
+      "id": "ss141-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This treatment is non-invasive. A simpler explanation is that it does not require surgery or instruments to enter the body.",
+      "promptZh": "這種治療屬於非侵入性治療。較簡單的解釋是，它不需要進行手術，也不需要把器具放入身體。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This treatment is non-invasive. In other words, it does not require surgery or instruments to enter the body.",
+      "answerZh": "這種治療屬於非侵入性治療。換言之，它不需要進行手術，也不需要把器具放入身體。",
+      "answerZhSource": "pdf",
+      "highlight": "This treatment is non-invasive. In other words, it does not require surgery or instruments to enter the body."
+    },
+    {
+      "id": "ss141-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The account is inactive because no one has used it for a long time.",
+      "promptZh": "這個帳戶處於非活躍狀態，因為已經很久沒有人使用它。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one has used the account for a long time. In other words, the account is inactive.",
+      "answerZh": "已經很久沒有人使用這個帳戶。換言之，帳戶處於非活躍狀態。",
+      "answerZhSource": "pdf",
+      "highlight": "No one has used the account for a long time. In other words, the account is inactive."
+    },
+    {
+      "id": "ss141-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This software is backward-compatible. This means that it can still work with files created by older versions.",
+      "promptZh": "這套軟件向後兼容。這表示它仍可處理由舊版本建立的檔案。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This software is backward-compatible. In other words, it can still work with files created by older versions.",
+      "answerZh": "這套軟件向後兼容。換言之，它仍可處理由舊版本建立的檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "This software is backward-compatible. In other words, it can still work with files created by older versions."
+    },
+    {
+      "id": "ss141-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The decision is reversible, meaning that we can change it later.",
+      "promptZh": "這項決定可以逆轉，意思是我們日後可以更改它。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can change the decision later. In other words, the decision is reversible.",
+      "answerZh": "我們日後可以更改這項決定。換言之，這項決定可以逆轉。",
+      "answerZhSource": "pdf",
+      "highlight": "We can change the decision later. In other words, the decision is reversible."
+    },
+    {
+      "id": "ss141-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The fee is non-refundable. Put in simple terms, you will not get it back after paying it.",
+      "promptZh": "這項費用不設退款。簡單來說，你付款後不會取回款項。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You will not get the fee back after paying it. In other words, the fee is non-refundable.",
+      "answerZh": "你支付這項費用後不會取回款項。換言之，這項費用不設退款。",
+      "answerZhSource": "pdf",
+      "highlight": "You will not get the fee back after paying it. In other words, the fee is non-refundable."
+    },
+    {
+      "id": "ss141-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "The data is anonymous; that is, none of these records identifies the people who provided the information.",
+      "promptZh": "這些資料是匿名的；也就是說，這些紀錄都不會識別提供資料的人。",
+      "promptZhSource": "pdf",
+      "starter": "None",
+      "answer": "None of these records identifies the people who provided the information. In other words, the data is anonymous.",
+      "answerZh": "這些紀錄都不會識別提供資料的人。換言之，這些資料是匿名的。",
+      "answerZhSource": "pdf",
+      "highlight": "None of these records identifies the people who provided the information. In other words, the data is anonymous."
+    },
+    {
+      "id": "ss141-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This is a one-way road. To put that another way, vehicles may travel along it in only one direction.",
+      "promptZh": "這是一條單程路。換一個說法，車輛只能沿一個方向行駛。",
+      "promptZhSource": "pdf",
+      "starter": "Vehicles",
+      "answer": "Vehicles may travel along this road in only one direction. In other words, it is a one-way road.",
+      "answerZh": "車輛只能沿這條路的一個方向行駛。換言之，這是一條單程路。",
+      "answerZhSource": "pdf",
+      "highlight": "Vehicles may travel along this road in only one direction. In other words, it is a one-way road."
+    },
+    {
+      "id": "ss141-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The agreement is legally binding. In practical terms, both sides are required by law to follow it.",
+      "promptZh": "這份協議具有法律約束力。實際而言，雙方都必須依法遵守。",
+      "promptZhSource": "pdf",
+      "starter": "Both",
+      "answer": "Both sides are required by law to follow the agreement. In other words, the agreement is legally binding.",
+      "answerZh": "雙方都必須依法遵守這份協議。換言之，這份協議具有法律約束力。",
+      "answerZhSource": "pdf",
+      "highlight": "Both sides are required by law to follow the agreement. In other words, the agreement is legally binding."
+    },
+    {
+      "id": "ss141-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What does it mean that the password is case-sensitive? It means that capital and small letters are treated differently.",
+      "promptZh": "密碼會區分大小寫是甚麼意思？意思是大寫字母和小寫字母會被視為不同。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When this password is entered, capital and small letters are treated differently. In other words, the password is case-sensitive.",
+      "answerZh": "輸入這個密碼時，大寫字母和小寫字母會被視為不同。換言之，密碼會區分大小寫。",
+      "answerZhSource": "pdf",
+      "highlight": "When this password is entered, capital and small letters are treated differently. In other words, the password is case-sensitive."
+    },
+    {
+      "id": "ss141-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our school has a zero-tolerance policy on bullying; that is to say, it does not accept bullying under any circumstances.",
+      "promptZh": "我們學校對欺凌採取零容忍政策；也就是說，學校在任何情況下都不接受欺凌。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school does not accept bullying under any circumstances. In other words, it has a zero-tolerance policy on bullying.",
+      "answerZh": "我們學校在任何情況下都不接受欺凌。換言之，學校對欺凌採取零容忍政策。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school does not accept bullying under any circumstances. In other words, it has a zero-tolerance policy on bullying."
+    },
+    {
+      "id": "ss141-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This medicine provides only temporary relief. In plain language, it reduces the symptoms for a while but does not remove their cause.",
+      "promptZh": "這種藥物只能提供暫時紓緩。用簡單的話來說，它可以暫時減輕症狀，但不能消除病因。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine provides only temporary relief. In other words, it reduces the symptoms for a while but does not remove their cause.",
+      "answerZh": "這種藥物只能提供暫時紓緩。換言之，它可以暫時減輕症狀，但不能消除病因。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine provides only temporary relief. In other words, it reduces the symptoms for a while but does not remove their cause."
+    },
+    {
+      "id": "ss141-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "These figures are provisional. What this means is that they may change after the final checks.",
+      "promptZh": "這些數字屬於暫定數字。這表示它們在完成最後核對後可能會改變。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These figures are provisional. In other words, they may change after the final checks.",
+      "answerZh": "這些數字屬於暫定數字。換言之，它們在完成最後核對後可能會改變。",
+      "answerZhSource": "pdf",
+      "highlight": "These figures are provisional. In other words, they may change after the final checks."
+    },
+    {
+      "id": "ss141-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "The proposal has been postponed rather than rejected. Put another way, it may be considered again at a later date.",
+      "promptZh": "這項建議是被延後，而不是被否決。換一個說法，它日後可能會再次獲得考慮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal has been postponed rather than rejected. In other words, it may be considered again at a later date.",
+      "answerZh": "這項建議是被延後，而不是被否決。換言之，它日後可能會再次獲得考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal has been postponed rather than rejected. In other words, it may be considered again at a later date."
+    },
+    {
+      "id": "ss141-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The service operates on a first-come, first-served basis. This means that people who arrive earlier will be helped before those who arrive later.",
+      "promptZh": "這項服務採取先到先得的安排。這表示較早到達的人會先於較遲到達的人獲得協助。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People who arrive earlier will be helped before those who arrive later. In other words, the service operates on a first-come, first-served basis.",
+      "answerZh": "較早到達的人會先於較遲到達的人獲得協助。換言之，這項服務採取先到先得的安排。",
+      "answerZhSource": "pdf",
+      "highlight": "People who arrive earlier will be helped before those who arrive later. In other words, the service operates on a first-come, first-served basis."
+    },
+    {
+      "id": "ss141-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This contract renews automatically. This means that it will continue unless one side takes action to end it.",
+      "promptZh": "這份合約會自動續期。這表示除非其中一方採取行動終止合約，否則合約會繼續生效。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This contract renews automatically. In other words, it will continue unless one side takes action to end it.",
+      "answerZh": "這份合約會自動續期。換言之，除非其中一方採取行動終止合約，否則合約會繼續生效。",
+      "answerZhSource": "pdf",
+      "highlight": "This contract renews automatically. In other words, it will continue unless one side takes action to end it."
+    },
+    {
+      "id": "ss141-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This is a voluntary role. In simple terms, people take it by choice and receive no pay.",
+      "promptZh": "這是一個自願性職位。簡單來說，人們自願擔任這項工作，而且不會獲得薪酬。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People take this role by choice and receive no pay. In other words, it is a voluntary role.",
+      "answerZh": "人們自願擔任這項工作，而且不會獲得薪酬。換言之，這是一個自願性職位。",
+      "answerZhSource": "pdf",
+      "highlight": "People take this role by choice and receive no pay. In other words, it is a voluntary role."
+    },
+    {
+      "id": "ss141-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The evidence is circumstantial. By this, we mean that it suggests what may have happened without directly proving it.",
+      "promptZh": "這些屬於間接證據。我們的意思是，證據只能顯示事情可能如何發生，卻不能直接加以證明。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This evidence suggests what may have happened without directly proving it. In other words, the evidence is circumstantial.",
+      "answerZh": "這些證據只能顯示事情可能如何發生，卻不能直接加以證明。換言之，這些屬於間接證據。",
+      "answerZhSource": "pdf",
+      "highlight": "This evidence suggests what may have happened without directly proving it. In other words, the evidence is circumstantial."
+    },
+    {
+      "id": "ss141-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The system is decentralised. The point is that control is shared across several parts instead of being held in one place.",
+      "promptZh": "這個系統採取分散式管理。重點是，控制權分布於多個部分，而不是集中在一處。",
+      "promptZhSource": "pdf",
+      "starter": "Control",
+      "answer": "Control is shared across several parts of the system instead of being held in one place. In other words, the system is decentralised.",
+      "answerZh": "控制權分布於系統的多個部分，而不是集中在一處。換言之，這個系統採取分散式管理。",
+      "answerZhSource": "pdf",
+      "highlight": "Control is shared across several parts of the system instead of being held in one place. In other words, the system is decentralised."
+    },
+    {
+      "id": "ss141-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The policy applies retrospectively, which means that it also covers events that happened before the policy was introduced.",
+      "promptZh": "這項政策具有追溯效力，意思是它亦涵蓋政策推出前已發生的事情。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This policy also covers events that happened before it was introduced. In other words, it applies retrospectively.",
+      "answerZh": "這項政策亦涵蓋政策推出前已發生的事情。換言之，它具有追溯效力。",
+      "answerZhSource": "pdf",
+      "highlight": "This policy also covers events that happened before it was introduced. In other words, it applies retrospectively."
+    },
+    {
+      "id": "ss141-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "The scholarship is means-tested. In practical terms, an applicant's financial situation partly determines eligibility.",
+      "promptZh": "這項獎學金設有經濟狀況審查。實際而言，申請人的經濟狀況會在一定程度上決定其申請資格。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An applicant's financial situation partly determines eligibility for the scholarship. In other words, the scholarship is means-tested.",
+      "answerZh": "申請人的經濟狀況會在一定程度上決定其獲得獎學金的資格。換言之，這項獎學金設有經濟狀況審查。",
+      "answerZhSource": "pdf",
+      "highlight": "An applicant's financial situation partly determines eligibility for the scholarship. In other words, the scholarship is means-tested."
+    },
+    {
+      "id": "ss141-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our company's operations are carbon-neutral. To put this more plainly, the company removes or offsets as much carbon as its operations release.",
+      "promptZh": "我們公司的營運達到碳中和。說得更直接一點，公司移除或抵銷的碳量與營運所排放的碳量相同。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our company removes or offsets as much carbon as its operations release. In other words, its operations are carbon-neutral.",
+      "answerZh": "我們公司移除或抵銷的碳量與營運所排放的碳量相同。換言之，公司的營運達到碳中和。",
+      "answerZhSource": "pdf",
+      "highlight": "Our company removes or offsets as much carbon as its operations release. In other words, its operations are carbon-neutral."
+    },
+    {
+      "id": "ss141-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee reached a unanimous decision. That means every member supported the same choice.",
+      "promptZh": "委員會作出了一致決定。這表示每名成員都支持同一選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every committee member supported the same choice. In other words, the decision was unanimous.",
+      "answerZh": "每名委員會成員都支持同一選擇。換言之，這項決定是一致通過的。",
+      "answerZhSource": "pdf",
+      "highlight": "Every committee member supported the same choice. In other words, the decision was unanimous."
+    },
+    {
+      "id": "ss141-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The results show correlation, not causation. Put simply, the two factors are connected, but the study does not prove that one causes the other.",
+      "promptZh": "結果顯示的是相關關係，而不是因果關係。簡單來說，兩個因素互有關聯，但研究並未證明其中一個導致另一個。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two factors are connected, but the study does not prove that one causes the other. In other words, the results show correlation, not causation.",
+      "answerZh": "兩個因素互有關聯，但研究並未證明其中一個導致另一個。換言之，結果顯示的是相關關係，而不是因果關係。",
+      "answerZhSource": "pdf",
+      "highlight": "The two factors are connected, but the study does not prove that one causes the other. In other words, the results show correlation, not causation."
+    },
+    {
+      "id": "ss141-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The warranty covers manufacturing defects only. This is another way of saying that it does not cover damage caused by misuse or normal wear.",
+      "promptZh": "保養只涵蓋製造缺陷。另一種說法是，因不當使用或正常損耗造成的損壞不會獲得保障。",
+      "promptZhSource": "pdf",
+      "starter": "Damage",
+      "answer": "Damage caused by misuse or normal wear is not covered by the warranty. In other words, the warranty covers manufacturing defects only.",
+      "answerZh": "因不當使用或正常損耗造成的損壞不受保養保障。換言之，保養只涵蓋製造缺陷。",
+      "answerZhSource": "pdf",
+      "highlight": "Damage caused by misuse or normal wear is not covered by the warranty. In other words, the warranty covers manufacturing defects only."
+    },
+    {
+      "id": "ss141-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school uses continuous assessment. What this means is that students are assessed through work completed across the course rather than by one final examination alone.",
+      "promptZh": "學校採用持續評估。這表示學生透過整個課程期間完成的功課接受評估，而不是只由一次期末考試決定。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students are assessed through work completed across the course rather than by one final examination alone. In other words, the school uses continuous assessment.",
+      "answerZh": "學生透過整個課程期間完成的功課接受評估，而不是只由一次期末考試決定。換言之，學校採用持續評估。",
+      "answerZhSource": "pdf",
+      "highlight": "Students are assessed through work completed across the course rather than by one final examination alone. In other words, the school uses continuous assessment."
+    },
+    {
+      "id": "ss141-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The information is provided on a need-to-know basis. To put it another way, only people who require it for their work are allowed to receive it.",
+      "promptZh": "這些資料只會按工作需要提供。換一個說法，只有工作上需要這些資料的人才可獲取。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only people who require the information for their work are allowed to receive it. In other words, it is provided on a need-to-know basis.",
+      "answerZh": "只有工作上需要這些資料的人才可獲取。換言之，資料只會按工作需要提供。",
+      "answerZhSource": "pdf",
+      "highlight": "Only people who require the information for their work are allowed to receive it. In other words, it is provided on a need-to-know basis."
+    },
+    {
+      "id": "ss141-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The offer is subject to availability. In simple terms, it is available only while enough places or items remain.",
+      "promptZh": "這項優惠須視乎供應情況。簡單來說，只有在仍有足夠名額或貨品時才會提供。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The offer is available only while enough places or items remain. In other words, it is subject to availability.",
+      "answerZh": "這項優惠只會在仍有足夠名額或貨品時提供。換言之，它須視乎供應情況。",
+      "answerZhSource": "pdf",
+      "highlight": "The offer is available only while enough places or items remain. In other words, it is subject to availability."
+    },
+    {
+      "id": "ss141-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager gave conditional approval. The meaning is that the plan may proceed only if the stated requirements are met.",
+      "promptZh": "經理給予了有條件批准。意思是，計劃只有在符合所列要求時才可以推行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan may proceed only if the stated requirements are met. In other words, the manager gave conditional approval.",
+      "answerZh": "計劃只有在符合所列要求時才可以推行。換言之，經理給予了有條件批准。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan may proceed only if the stated requirements are met. In other words, the manager gave conditional approval."
+    },
+    {
+      "id": "ss141-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The reform changes the process, not the final standard. That is to say, people will follow a different method, but they must still meet the same requirements.",
+      "promptZh": "這項改革改變的是程序，而不是最終標準。也就是說，人們會採用不同方法，但仍須符合相同要求。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People will follow a different method, but they must still meet the same requirements. In other words, the reform changes the process, not the final standard.",
+      "answerZh": "人們會採用不同方法，但仍須符合相同要求。換言之，這項改革改變的是程序，而不是最終標準。",
+      "answerZhSource": "pdf",
+      "highlight": "People will follow a different method, but they must still meet the same requirements. In other words, the reform changes the process, not the final standard."
+    }
+  ]
+}

@@ -1,0 +1,1224 @@
+{
+  "id": "ss203",
+  "order": 203,
+  "slug": "there-is-every-reason-to-believe",
+  "title": "「There is every reason to believe that ...」表示「有充分理由相信」",
+  "titleZh": "「There is every reason to believe that ...」表示「有充分理由相信」",
+  "titleEn": "Using “There is every reason to believe that ...”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 202 -「There is every reason to believe that ...」表示「有充分理由相信」.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 202; it is assigned system ID ss203 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "There is every reason to believe that + complete clause",
+  "formulas": [
+    {
+      "id": "ss203-formula-01",
+      "labelEn": "Target structure",
+      "labelZh": "目標句型",
+      "formula": "There is every reason to believe that + complete clause"
+    }
+  ],
+  "example": "There is every reason to believe that the trend will continue.",
+  "exampleZh": "我們有充分理由相信，這個趨勢會持續下去。",
+  "examples": [
+    {
+      "id": "ss203-example-01",
+      "en": "There is every reason to believe that the trend will continue.",
+      "zh": "我們有充分理由相信，這個趨勢會持續下去。",
+      "highlight": "There is every reason to believe that the trend will continue."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：There is every reason to believe that + complete clause。"
+  },
+  "rules": [
+    {
+      "id": "ss203-rule-01",
+      "zh": "使用 There is，不要使用 There are Reason 是單數名詞，因此必須使用 is。",
+      "en": "Use There is, not There are, because reason is singular. Correct: There is every reason to believe that the plan will work. Incorrect: There are every reasons to believe that the plan will work.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Correct: There is every reason to believe that the plan will work.",
+        "Incorrect: There are every reasons to believe that the plan will work."
+      ]
+    },
+    {
+      "id": "ss203-rule-02",
+      "zh": "that 後面必須接完整子句 完整子句需要包含主語和動詞。",
+      "en": "Follow that with a complete clause containing a subject and verb. Correct: There is every reason to believe that the team will win. Incorrect: There is every reason to believe that the team’s victory.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Correct: There is every reason to believe that the team will win.",
+        "Incorrect: There is every reason to believe that the team’s victory."
+      ]
+    },
+    {
+      "id": "ss203-rule-03",
+      "zh": "every reason 並非逐字表示「每一個理由」 在這個固定表達中，every reason 表示「非常充分的理由」或「有力的理據」。",
+      "en": "Every reason idiomatically means very strong or compelling grounds, not a literal count of every possible reason.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss203-rule-04",
+      "zh": "這個句型表達強烈信心，但不是絕對肯定 它比以下句子更有信心： （有理由相信這個計劃會成功。） 但它沒有以下句子那麼絕對： （這個計劃肯定會成功。）",
+      "en": "The structure expresses strong confidence without absolute certainty. It is stronger than “There is reason to believe that the plan will work” but less absolute than “It is certain that the plan will work.”",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is reason to believe that the plan will work.",
+        "It is certain that the plan will work."
+      ]
+    },
+    {
+      "id": "ss203-rule-05",
+      "zh": "that 子句可以包含否定意思 （我們有充分理由相信，不會再有進一步延誤。）",
+      "en": "The that-clause may be negative: There is every reason to believe that there will be no further delay.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There is every reason to believe that there will be no further delay."
+      ]
+    },
+    {
+      "id": "ss203-rule-06",
+      "zh": "本練習使用完整形式 日常口語中可以使用： 但本練習統一使用完整形式：",
+      "en": "Use the full form in this exercise. “There’s every reason to believe that ...” is possible in everyday speech, but the model answers consistently use “There is every reason to believe that ....”",
+      "enSource": "editorial-translation",
+      "examples": [
+        "There’s every reason to believe that ...",
+        "There is every reason to believe that ..."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss203-benefit-01",
+      "zh": "表達強烈但審慎的信心 這個句型表示你有充分證據支持自己的判斷，但沒有把事情說成百分之百肯定。因此，它比直接 使用 definitely 或 certainly 更審慎。",
+      "en": "It expresses strong but careful confidence. The structure shows that substantial evidence supports the judgement without presenting it as one hundred per cent certain, so it is more cautious than definitely or certainly.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss203-benefit-02",
+      "zh": "清楚連接證據和結論 你可以先提出證據，再使用這個句型帶出合理結論，讓讀者清楚理解你的判斷從何而來。",
+      "en": "It connects evidence with a conclusion. You can present the evidence first and then use this structure to introduce a reasonable conclusion, making the basis of the judgement clear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss203-benefit-03",
+      "zh": "比反覆使用 “I think” 更客觀 後者把重點放在證據和理據上，而不是只表達個人感覺。",
+      "en": "It sounds more objective than “I think” because it focuses on evidence and reasoning rather than personal feeling. Instead of “I think the treatment is working”, write: There is every reason to believe that the treatment is working.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss203-benefit-04",
+      "zh": "適合作文、報告和簡報 這個句型可以用來提出有根據的預測、分析研究結果、評估計劃，或根據現有資料作出判斷。",
+      "en": "It is useful in essays, reports and presentations for making evidence-based predictions, analysing research findings, evaluating plans, or drawing judgements from available information.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss203-benefit-05",
+      "zh": "幫助控制說法的肯定程度 這個句型比 may、might 或 perhaps 更有信心，但仍然保留合理的審慎態度。 Comparison 對比例子 （測試結果理想，所以我認為治療正在發揮作用。） （我們有充分理由相信治療正在發揮作用，因為測試結果理想。） 第二句更清楚地把證據和結論連接起來。",
+      "en": "It helps control the strength of a claim. It expresses more confidence than may, might or perhaps while retaining reasonable caution. Compare: The test results are positive, so I think the treatment is working. There is every reason to believe that the treatment is working because the test results are positive. The second sentence connects the evidence and conclusion more clearly.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 202; it is assigned system ID ss203 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: There is every reason to believe that + complete clause.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「There is every reason to believe that + complete clause」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss203-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "All signs suggest that the trend will continue.",
+      "promptZh": "所有跡象都顯示，這個趨勢會持續下去。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the trend will continue.",
+      "answerZh": "我們有充分理由相信，這個趨勢會持續下去。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the trend will continue."
+    },
+    {
+      "id": "ss203-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Several forecasts strongly indicate that the weather will improve by the afternoon.",
+      "promptZh": "數個天氣預報都強烈顯示，天氣會在下午前好轉。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the weather will improve by the afternoon.",
+      "answerZh": "我們有充分理由相信，天氣會在下午前好轉。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the weather will improve by the afternoon."
+    },
+    {
+      "id": "ss203-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The doctor has strong grounds for expecting Mia to recover soon.",
+      "promptZh": "醫生有充分理據預期米婭很快便會康復。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that Mia will recover soon.",
+      "answerZh": "我們有充分理由相信，米婭很快便會康復。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that Mia will recover soon."
+    },
+    {
+      "id": "ss203-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The successful trials make it highly likely that the plan will succeed.",
+      "promptZh": "成功的試驗令這個計劃很有可能取得成功。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the plan will succeed.",
+      "answerZh": "我們有充分理由相信，這個計劃會取得成功。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the plan will succeed."
+    },
+    {
+      "id": "ss203-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Everything points to the train arriving on time.",
+      "promptZh": "種種跡象都顯示，火車會準時到達。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the train will arrive on time.",
+      "answerZh": "我們有充分理由相信，火車會準時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the train will arrive on time."
+    },
+    {
+      "id": "ss203-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The survey results strongly suggest that the new café will be popular.",
+      "promptZh": "調查結果強烈顯示，這間新咖啡店會很受歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the new café will be popular.",
+      "answerZh": "我們有充分理由相信，這間新咖啡店會很受歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the new café will be popular."
+    },
+    {
+      "id": "ss203-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Their success on a similar task gives us strong reason to think that the students can finish this one.",
+      "promptZh": "學生曾成功完成類似任務，這令我們有充分理由認為他們能完成這一項任務。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the students can finish this task because they completed a similar one successfully.",
+      "answerZh": "我們有充分理由相信，學生能完成這項任務，因為他們曾成功完成類似任務。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the students can finish this task because they completed a similar one successfully."
+    },
+    {
+      "id": "ss203-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The wallet contains the owner’s contact details and has been handed in, so it is highly likely to be returned soon.",
+      "promptZh": "錢包內有失主的聯絡資料，而且已有人把它交出，因此它很可能很快便會物歸原主。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the wallet will be returned soon because it contains the owner’s contact details and has been handed in.",
+      "answerZh": "我們有充分理由相信，這個錢包很快便會物歸原主，因為它內有失主的聯絡資料，而且已有人把它交出。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the wallet will be returned soon because it contains the owner’s contact details and has been handed in."
+    },
+    {
+      "id": "ss203-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team has trained consistently, and its injured players have returned. These facts strongly suggest that it will perform better in the next match.",
+      "promptZh": "球隊一直穩定訓練，而受傷的球員亦已復出。這些事實強烈顯示，球隊在下一場比賽會有更好表現。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the team will perform better in the next match because it has trained consistently and its injured players have returned.",
+      "answerZh": "我們有充分理由相信，球隊在下一場比賽會有更好表現，因為球隊一直穩定訓練，而受傷的球員亦已復出。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the team will perform better in the next match because it has trained consistently and its injured players have returned."
+    },
+    {
+      "id": "ss203-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Stable production costs and a steady supply give us strong grounds for expecting prices to remain stable.",
+      "promptZh": "穩定的生產成本和持續的供應，令我們有充分理據預期價格會保持穩定。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that prices will remain stable because production costs and supply are steady.",
+      "answerZh": "我們有充分理由相信，價格會保持穩定，因為生產成本和供應都很穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that prices will remain stable because production costs and supply are steady."
+    },
+    {
+      "id": "ss203-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Advance bookings are much higher than last year. This strongly suggests that the museum will attract more visitors.",
+      "promptZh": "預先訂票數字遠高於去年。這強烈顯示，博物館會吸引更多訪客。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the museum will attract more visitors because advance bookings are much higher than last year.",
+      "answerZh": "我們有充分理由相信，博物館會吸引更多訪客，因為預先訂票數字遠高於去年。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the museum will attract more visitors because advance bookings are much higher than last year."
+    },
+    {
+      "id": "ss203-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "The replacement parts have arrived, and the engineers are working on schedule. We can confidently expect the repairs to be completed by Friday.",
+      "promptZh": "替換零件已經到達，而工程師亦正按進度工作。我們可以有信心地預期維修會在星期五前完成。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the repairs will be completed by Friday because the replacement parts have arrived and the engineers are working on schedule.",
+      "answerZh": "我們有充分理由相信，維修會在星期五前完成，因為替換零件已經到達，而工程師亦正按進度工作。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the repairs will be completed by Friday because the replacement parts have arrived and the engineers are working on schedule."
+    },
+    {
+      "id": "ss203-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The online service passed independent security tests and uses strong encryption. The evidence indicates that it is secure.",
+      "promptZh": "這項網上服務通過了獨立保安測試，並採用強力加密技術。證據顯示，它是安全的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the online service is secure because it passed independent security tests and uses strong encryption.",
+      "answerZh": "我們有充分理由相信，這項網上服務是安全的，因為它通過了獨立保安測試，並採用強力加密技術。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the online service is secure because it passed independent security tests and uses strong encryption."
+    },
+    {
+      "id": "ss203-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The local shop has built a loyal customer base and reduced its costs. There are convincing grounds for expecting it to survive the downturn.",
+      "promptZh": "這間本地商店已建立忠實客群，並降低了成本。因此，我們有充分理據預期它能渡過經濟低迷期。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the local shop will survive the downturn because it has built a loyal customer base and reduced its costs.",
+      "answerZh": "我們有充分理由相信，這間本地商店能渡過經濟低迷期，因為它已建立忠實客群，並降低了成本。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the local shop will survive the downturn because it has built a loyal customer base and reduced its costs."
+    },
+    {
+      "id": "ss203-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The proposal addresses the main complaints and has broad support, so it is reasonable to expect the decision to benefit the community.",
+      "promptZh": "這項建議回應了主要不滿，並獲得廣泛支持，因此我們有理由預期這個決定會令社區受惠。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the decision will benefit the community because the proposal addresses the main complaints and has broad support.",
+      "answerZh": "我們有充分理由相信，這個決定會令社區受惠，因為這項建議回應了主要不滿，並獲得廣泛支持。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the decision will benefit the community because the proposal addresses the main complaints and has broad support."
+    },
+    {
+      "id": "ss203-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The trial timetable reduced waiting times. This gives us good reason to think that the new timetable will reduce delays.",
+      "promptZh": "試行時間表縮短了等候時間。這令我們有充分理由認為，新時間表會減少延誤。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the new timetable will reduce delays because the trial timetable reduced waiting times.",
+      "answerZh": "我們有充分理由相信，新時間表會減少延誤，因為試行時間表縮短了等候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the new timetable will reduce delays because the trial timetable reduced waiting times."
+    },
+    {
+      "id": "ss203-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient’s fever has fallen, and her symptoms are easing. There is strong evidence that the medicine is working.",
+      "promptZh": "病人的發燒情況已經減退，而症狀亦正在緩和。有充分證據顯示，藥物正在發揮作用。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the medicine is working because the patient’s fever has fallen and her symptoms are easing.",
+      "answerZh": "我們有充分理由相信，藥物正在發揮作用，因為病人的發燒情況已經減退，而症狀亦正在緩和。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the medicine is working because the patient’s fever has fallen and her symptoms are easing."
+    },
+    {
+      "id": "ss203-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel’s account matches the CCTV footage and the written records. We therefore have strong grounds for believing that he told the truth.",
+      "promptZh": "丹尼爾的說法與閉路電視片段和書面紀錄一致。因此，我們有充分理據相信他說了實話。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that Daniel told the truth because his account matches the CCTV footage and the written records.",
+      "answerZh": "我們有充分理由相信，丹尼爾說了實話，因為他的說法與閉路電視片段和書面紀錄一致。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that Daniel told the truth because his account matches the CCTV footage and the written records."
+    },
+    {
+      "id": "ss203-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The main costs have been fixed, and a contingency fund remains available. It is highly likely that the project can stay within budget.",
+      "promptZh": "主要成本已經確定，而備用資金仍然可用。這個項目很可能能維持在預算之內。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the project can stay within budget because the main costs have been fixed and a contingency fund remains available.",
+      "answerZh": "我們有充分理由相信，這個項目能維持在預算之內，因為主要成本已經確定，而備用資金仍然可用。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the project can stay within budget because the main costs have been fixed and a contingency fund remains available."
+    },
+    {
+      "id": "ss203-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Trial users praised the new feature and asked for it to be kept. This strongly suggests that customers will welcome the change.",
+      "promptZh": "試用者讚揚這項新功能，並要求保留它。這強烈顯示，顧客會歡迎這項改變。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that customers will welcome the change because trial users praised the new feature and asked for it to be kept.",
+      "answerZh": "我們有充分理由相信，顧客會歡迎這項改變，因為試用者讚揚這項新功能，並要求保留它。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that customers will welcome the change because trial users praised the new feature and asked for it to be kept."
+    },
+    {
+      "id": "ss203-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why do environmental experts expect the river to become cleaner? Pollution levels are already falling, and the new rules are being enforced.",
+      "promptZh": "為甚麼環境專家預期河流會變得更潔淨？污染水平正在下降，而新規例亦正在執行。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the river will become cleaner because pollution levels are already falling and the new rules are being enforced.",
+      "answerZh": "我們有充分理由相信，河流會變得更潔淨，因為污染水平正在下降，而新規例亦正在執行。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the river will become cleaner because pollution levels are already falling and the new rules are being enforced."
+    },
+    {
+      "id": "ss203-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A similar policy reduced waste elsewhere, and local businesses are cooperating. These facts strongly support the view that the policy will reduce waste here.",
+      "promptZh": "類似政策曾在其他地方減少廢物，而本地商戶亦正在合作。這些事實有力支持這項政策會在本地減少廢物的看法。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the policy will reduce waste here because a similar policy succeeded elsewhere and local businesses are cooperating.",
+      "answerZh": "我們有充分理由相信，這項政策會在本地減少廢物，因為類似政策曾在其他地方奏效，而本地商戶亦正在合作。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the policy will reduce waste here because a similar policy succeeded elsewhere and local businesses are cooperating."
+    },
+    {
+      "id": "ss203-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The device’s main components were tested under heavy use, and the results strongly indicate that it will last for several years.",
+      "promptZh": "這部裝置的主要零件曾在高強度使用下接受測試，而結果強烈顯示它能使用數年。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the device will last for several years because its main components performed well under heavy-use testing.",
+      "answerZh": "我們有充分理由相信，這部裝置能使用數年，因為它的主要零件在高強度使用測試中表現良好。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the device will last for several years because its main components performed well under heavy-use testing."
+    },
+    {
+      "id": "ss203-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The staff have completed their training, passed every safety check and prepared backup plans. All the evidence shows that they are ready for the launch.",
+      "promptZh": "員工已完成培訓、通過所有安全檢查，並準備了後備方案。所有證據都顯示，他們已為推出計劃做好準備。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the staff are ready for the launch because they have completed their training, passed every safety check and prepared backup plans.",
+      "answerZh": "我們有充分理由相信，員工已為推出計劃做好準備，因為他們已完成培訓、通過所有安全檢查，並準備了後備方案。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the staff are ready for the launch because they have completed their training, passed every safety check and prepared backup plans."
+    },
+    {
+      "id": "ss203-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The repairs are progressing on schedule, and the weather is expected to remain dry. There are convincing grounds for expecting the road to reopen tomorrow.",
+      "promptZh": "維修工程正按進度進行，而天氣預計會保持乾燥。因此，我們有充分理據預期道路會在明天重開。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the road will reopen tomorrow because the repairs are progressing on schedule and the weather is expected to remain dry.",
+      "answerZh": "我們有充分理由相信，道路會在明天重開，因為維修工程正按進度進行，而天氣預計會保持乾燥。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the road will reopen tomorrow because the repairs are progressing on schedule and the weather is expected to remain dry."
+    },
+    {
+      "id": "ss203-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why is the selection panel optimistic about the applicant? She has relevant experience and answered the interview questions clearly.",
+      "promptZh": "為甚麼遴選委員會對這名申請人感到樂觀？她具備相關經驗，而且清楚回答了面試問題。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the applicant will do well in the role because she has relevant experience and answered the interview questions clearly.",
+      "answerZh": "我們有充分理由相信，這名申請人會勝任這個職位，因為她具備相關經驗，而且清楚回答了面試問題。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the applicant will do well in the role because she has relevant experience and answered the interview questions clearly."
+    },
+    {
+      "id": "ss203-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The charity has already raised ninety per cent of the required amount, and a major sponsor has promised further support. It is very likely to reach its target.",
+      "promptZh": "慈善機構已籌得所需款項的百分之九十，而一名主要贊助者亦承諾提供進一步支援。它很可能達到籌款目標。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the charity will reach its target because it has already raised ninety per cent of the required amount and a major sponsor has promised further support.",
+      "answerZh": "我們有充分理由相信，慈善機構會達到籌款目標，因為它已籌得所需款項的百分之九十，而一名主要贊助者亦承諾提供進一步支援。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the charity will reach its target because it has already raised ninety per cent of the required amount and a major sponsor has promised further support."
+    },
+    {
+      "id": "ss203-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Backup copies have been located, and the specialists know how to restore them. The missing files can therefore probably be recovered.",
+      "promptZh": "後備副本已經找到，而技術人員亦知道如何把它們還原。因此，遺失的檔案很可能可以復原。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the missing files can be recovered because backup copies have been located and the specialists know how to restore them.",
+      "answerZh": "我們有充分理由相信，遺失的檔案可以復原，因為後備副本已經找到，而技術人員亦知道如何把它們還原。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the missing files can be recovered because backup copies have been located and the specialists know how to restore them."
+    },
+    {
+      "id": "ss203-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The cause of the failure has been identified, and new safeguards have been installed. There is no serious reason to doubt that the new system will prevent similar errors.",
+      "promptZh": "故障原因已經查明，而新的防護措施亦已安裝。我們沒有重大理由懷疑新系統能防止類似錯誤再次發生。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the new system will prevent similar errors because the cause of the failure has been identified and new safeguards have been installed.",
+      "answerZh": "我們有充分理由相信，新系統能防止類似錯誤再次發生，因為故障原因已經查明，而新的防護措施亦已安裝。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the new system will prevent similar errors because the cause of the failure has been identified and new safeguards have been installed."
+    },
+    {
+      "id": "ss203-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The permits have been issued, the performers have confirmed their attendance, and the weather forecast is favourable. Everything points to the festival going ahead as planned.",
+      "promptZh": "許可證已經批出，表演者已確認出席，而天氣預報亦相當理想。種種跡象都顯示，節慶活動會按計劃舉行。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the festival will go ahead as planned because the permits have been issued, the performers have confirmed their attendance and the weather forecast is favourable.",
+      "answerZh": "我們有充分理由相信，節慶活動會按計劃舉行，因為許可證已經批出、表演者已確認出席，而天氣預報亦相當理想。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the festival will go ahead as planned because the permits have been issued, the performers have confirmed their attendance and the weather forecast is favourable."
+    },
+    {
+      "id": "ss203-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Despite the uncertainty, investment remains strong and employment is rising. These facts strongly support the view that the economy will continue to grow.",
+      "promptZh": "儘管存在不確定因素，投資仍然強勁，而就業人數亦正在上升。這些事實有力支持經濟會持續增長的看法。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the economy will continue to grow despite the uncertainty because investment remains strong and employment is rising.",
+      "answerZh": "我們有充分理由相信，儘管存在不確定因素，經濟仍會持續增長，因為投資仍然強勁，而就業人數亦正在上升。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the economy will continue to grow despite the uncertainty because investment remains strong and employment is rising."
+    },
+    {
+      "id": "ss203-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Two independent inspections found no structural damage, and every safety system passed its test. There are convincing grounds for considering the building safe to reopen.",
+      "promptZh": "兩次獨立檢查都沒有發現結構損壞，而所有安全系統亦通過測試。因此，我們有充分理據認為大樓可以安全重開。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the building is safe to reopen because two independent inspections found no structural damage and every safety system passed its test.",
+      "answerZh": "我們有充分理由相信，大樓可以安全重開，因為兩次獨立檢查都沒有發現結構損壞，而所有安全系統亦通過測試。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the building is safe to reopen because two independent inspections found no structural damage and every safety system passed its test."
+    },
+    {
+      "id": "ss203-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The child adapted well to similar changes before, and the new school has assigned a support teacher. We can reasonably expect her to settle in quickly.",
+      "promptZh": "這名孩子過往曾順利適應類似轉變，而新學校亦已安排一名支援老師。我們可以合理預期她會很快適應。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the child will settle in quickly because she adapted well to similar changes before and the new school has assigned a support teacher.",
+      "answerZh": "我們有充分理由相信，這名孩子會很快適應，因為她過往曾順利適應類似轉變，而新學校亦已安排一名支援老師。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the child will settle in quickly because she adapted well to similar changes before and the new school has assigned a support teacher."
+    },
+    {
+      "id": "ss203-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Two independent teams repeated the experiment successfully, and the data were checked separately. This provides strong evidence that the research findings are reliable.",
+      "promptZh": "兩個獨立團隊都成功重複了實驗，而數據亦經過另行核查。這提供了有力證據，顯示研究結果是可靠的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the research findings are reliable because two independent teams repeated the experiment successfully and the data were checked separately.",
+      "answerZh": "我們有充分理由相信，研究結果是可靠的，因為兩個獨立團隊都成功重複了實驗，而數據亦經過另行核查。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the research findings are reliable because two independent teams repeated the experiment successfully and the data were checked separately."
+    },
+    {
+      "id": "ss203-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company has fulfilled its previous promises and signed a formal contract. These facts make it highly likely that it will honour this commitment.",
+      "promptZh": "公司過往一直履行承諾，並已簽署正式合約。這些事實令公司很可能會履行這項承諾。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the company will honour this commitment because it has fulfilled its previous promises and signed a formal contract.",
+      "answerZh": "我們有充分理由相信，公司會履行這項承諾，因為它過往一直履行承諾，並已簽署正式合約。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the company will honour this commitment because it has fulfilled its previous promises and signed a formal contract."
+    },
+    {
+      "id": "ss203-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Recent surveys show a clear majority in favour, and several community groups have endorsed the proposal. It is reasonable to expect the public to support it.",
+      "promptZh": "近期調查顯示，明確多數人表示贊成，而數個社區團體亦支持這項建議。因此，我們有理由預期公眾會支持它。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the public will support the proposal because recent surveys show a clear majority in favour and several community groups have endorsed it.",
+      "answerZh": "我們有充分理由相信，公眾會支持這項建議，因為近期調查顯示明確多數人表示贊成，而數個社區團體亦支持它。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the public will support the proposal because recent surveys show a clear majority in favour and several community groups have endorsed it."
+    },
+    {
+      "id": "ss203-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Both sides have accepted the same framework and resolved the main dispute. If they continue to follow the framework, the signs point to the negotiations ending in agreement.",
+      "promptZh": "雙方已接受同一框架，並解決了主要爭議。如果他們繼續遵循這個框架，種種跡象都顯示談判最終會達成協議。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the negotiations will lead to an agreement if both sides continue to follow the accepted framework.",
+      "answerZh": "我們有充分理由相信，如果雙方繼續遵循已接受的框架，談判最終會達成協議。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the negotiations will lead to an agreement if both sides continue to follow the accepted framework."
+    },
+    {
+      "id": "ss203-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The latest scans show improvement, and the patient is tolerating the treatment well. The doctors therefore have solid grounds for expecting the treatment to improve her condition.",
+      "promptZh": "最新掃描顯示病情有所改善，而病人亦能良好適應治療。因此，醫生有充分理據預期治療會改善她的情況。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the treatment will improve the patient’s condition because the latest scans show improvement and she is tolerating the treatment well.",
+      "answerZh": "我們有充分理由相信，治療會改善病人的情況，因為最新掃描顯示病情有所改善，而她亦能良好適應治療。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the treatment will improve the patient’s condition because the latest scans show improvement and she is tolerating the treatment well."
+    },
+    {
+      "id": "ss203-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The audit trail is complete, and an independent review found no sign of interference. This strongly supports the conclusion that the data have not been altered.",
+      "promptZh": "審計紀錄完整，而獨立審查亦沒有發現任何干預跡象。這有力支持數據未被更改的結論。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the data have not been altered because the audit trail is complete and an independent review found no sign of interference.",
+      "answerZh": "我們有充分理由相信，數據未被更改，因為審計紀錄完整，而獨立審查亦沒有發現任何干預跡象。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the data have not been altered because the audit trail is complete and an independent review found no sign of interference."
+    },
+    {
+      "id": "ss203-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The technical fault has been repaired, a replacement aircraft is ready, and the crew have been cleared to fly. Officials are confident that the flight will depart tonight despite the earlier delay.",
+      "promptZh": "技術故障已經修妥，替代航機已準備就緒，而機組人員亦獲准飛行。官員有信心航班儘管較早前延誤，仍會在今晚出發。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the flight will depart tonight despite the earlier delay because the technical fault has been repaired, a replacement aircraft is ready and the crew have been cleared to fly.",
+      "answerZh": "我們有充分理由相信，航班儘管較早前延誤，仍會在今晚出發，因為技術故障已經修妥、替代航機已準備就緒，而機組人員亦獲准飛行。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the flight will depart tonight despite the earlier delay because the technical fault has been repaired, a replacement aircraft is ready and the crew have been cleared to fly."
+    },
+    {
+      "id": "ss203-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The pilot programme improved results in several regions, and its costs remained manageable. These findings provide a strong case for expanding it nationwide.",
+      "promptZh": "先導計劃在數個地區改善了成效，而成本亦維持在可負擔水平。這些結果為把計劃推展至全國提供了有力理據。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the pilot programme can be expanded nationwide because it improved results in several regions while its costs remained manageable.",
+      "answerZh": "我們有充分理由相信，先導計劃可以推展至全國，因為它在數個地區改善了成效，而成本亦維持在可負擔水平。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the pilot programme can be expanded nationwide because it improved results in several regions while its costs remained manageable."
+    },
+    {
+      "id": "ss203-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The redevelopment plan includes affordable homes, better transport and new public spaces, and it was revised after extensive consultation. The evidence suggests that residents will benefit from it.",
+      "promptZh": "重建計劃包括可負擔房屋、改善交通和新增公共空間，而且在廣泛諮詢後作出修訂。證據顯示，居民會從中受惠。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that residents will benefit from the redevelopment because it includes affordable homes, better transport and new public spaces and was revised after extensive consultation.",
+      "answerZh": "我們有充分理由相信，居民會從重建計劃中受惠，因為計劃包括可負擔房屋、改善交通和新增公共空間，並在廣泛諮詢後作出修訂。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that residents will benefit from the redevelopment because it includes affordable homes, better transport and new public spaces and was revised after extensive consultation."
+    },
+    {
+      "id": "ss203-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The students who received extra tutoring improved both their attendance and the quality of their work. If the support continues, we can confidently expect them to make steady progress.",
+      "promptZh": "接受額外輔導的學生在出席率和功課質素方面都有改善。如果支援持續，我們可以有信心地預期他們會穩步進步。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the students will make steady progress if the extra support continues because their attendance and work have already improved.",
+      "answerZh": "我們有充分理由相信，如果額外支援持續，學生會穩步進步，因為他們的出席率和功課表現已經有所改善。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the students will make steady progress if the extra support continues because their attendance and work have already improved."
+    },
+    {
+      "id": "ss203-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The species has increased in number wherever its habitat has been protected. This evidence strongly indicates that it can recover if the habitat remains protected.",
+      "promptZh": "每當棲息地受到保護，這個物種的數量便會增加。這項證據強烈顯示，如果棲息地繼續受到保護，這個物種便可以復原。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the species can recover if its habitat remains protected because its numbers have risen in protected areas.",
+      "answerZh": "我們有充分理由相信，如果棲息地繼續受到保護，這個物種便可以復原，因為它在受保護地區的數量已經上升。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the species can recover if its habitat remains protected because its numbers have risen in protected areas."
+    },
+    {
+      "id": "ss203-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the first stage was slow, the later stages are now ahead of schedule and extra resources have been added. These developments make it highly likely that the organisation will meet its final target.",
+      "promptZh": "雖然第一階段進度緩慢，但後期階段目前已超前，而額外資源亦已投入。這些發展令機構很可能達到最終目標。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the organisation will meet its final target despite the slow first stage because the later stages are ahead of schedule and extra resources have been added.",
+      "answerZh": "我們有充分理由相信，儘管第一階段進度緩慢，機構仍會達到最終目標，因為後期階段已超前，而額外資源亦已投入。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the organisation will meet its final target despite the slow first stage because the later stages are ahead of schedule and extra resources have been added."
+    },
+    {
+      "id": "ss203-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The witness described key details before they appeared in media reports, and her account matches the physical evidence. We therefore have strong grounds for believing that her account is accurate.",
+      "promptZh": "證人在相關細節出現在傳媒報道前已經作出描述，而她的說法亦與實物證據一致。因此，我們有充分理據相信她的說法準確。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the witness’s account is accurate because she described key details before they appeared in media reports and her account matches the physical evidence.",
+      "answerZh": "我們有充分理由相信，證人的說法準確，因為她在相關細節出現在傳媒報道前已經作出描述，而且她的說法亦與實物證據一致。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the witness’s account is accurate because she described key details before they appeared in media reports and her account matches the physical evidence."
+    },
+    {
+      "id": "ss203-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The redesigned service was tested by disabled users and older residents, and their feedback was included in the final version. This provides strong evidence that the service will be more accessible.",
+      "promptZh": "重新設計的服務曾由殘疾使用者和年長居民測試，而他們的意見亦已納入最終版本。這提供了有力證據，顯示服務會更容易使用。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the redesigned service will be more accessible because it was tested by disabled users and older residents and their feedback was included in the final version.",
+      "answerZh": "我們有充分理由相信，重新設計的服務會更容易使用，因為它曾由殘疾使用者和年長居民測試，而他們的意見亦已納入最終版本。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the redesigned service will be more accessible because it was tested by disabled users and older residents and their feedback was included in the final version."
+    },
+    {
+      "id": "ss203-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The network has operated for a month since the repair without another fault. This gives us very good reason to think that there will be no further disruption.",
+      "promptZh": "網絡在維修後已運作一個月，期間沒有再出現故障。這令我們有充分理由認為不會再有進一步中斷。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that there will be no further disruption because the network has operated for a month since the repair without another fault.",
+      "answerZh": "我們有充分理由相信，不會再有進一步中斷，因為網絡在維修後已運作一個月，期間沒有再出現故障。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that there will be no further disruption because the network has operated for a month since the repair without another fault."
+    },
+    {
+      "id": "ss203-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The investment has already reduced operating costs, and demand is expected to grow. These facts give us strong grounds for expecting it to pay off in the long term.",
+      "promptZh": "這項投資已降低營運成本，而需求預計會增長。這些事實令我們有充分理據預期它長遠會帶來回報。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the investment will pay off in the long term because it has already reduced operating costs and demand is expected to grow.",
+      "answerZh": "我們有充分理由相信，這項投資長遠會帶來回報，因為它已降低營運成本，而需求預計會增長。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the investment will pay off in the long term because it has already reduced operating costs and demand is expected to grow."
+    },
+    {
+      "id": "ss203-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The reforms were tested in two districts, where processing became faster while support for vulnerable users was maintained. The results strongly indicate that the reforms will strengthen the system without reducing access.",
+      "promptZh": "改革措施曾在兩個地區試行，當地的處理速度加快，同時仍維持對弱勢使用者的支援。結果強烈顯示，改革會在不減少使用機會的情況下強化整個制度。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is every reason to believe that the reforms will strengthen the system without reducing access because the trials made processing faster while support for vulnerable users was maintained.",
+      "answerZh": "我們有充分理由相信，改革會在不減少使用機會的情況下強化整個制度，因為試行令處理速度加快，同時仍維持對弱勢使用者的支援。",
+      "answerZhSource": "pdf",
+      "highlight": "There is every reason to believe that the reforms will strengthen the system without reducing access because the trials made processing faster while support for vulnerable users was maintained."
+    }
+  ]
+}

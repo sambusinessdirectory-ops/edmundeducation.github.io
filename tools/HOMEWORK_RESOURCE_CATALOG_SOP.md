@@ -94,17 +94,17 @@ As of the verification commit above:
 
 | Resource type | Count |
 |---|---:|
-| Flashcards | 745 |
-| Fill in the blanks / Writing Practice | 250 |
+| Flashcards | 804 |
+| Fill in the blanks / Writing Practice | 310 |
 | Speaking | 787 |
-| Sentence Structure | 114 |
-| **Total** | **1,896** |
+| Sentence Structure | 218 |
+| **Total** | **2,119** |
 
 Additional baseline facts:
 
-- Unique final resource IDs: **1,896**
+- Unique final resource IDs: **2,119**
 - Non-empty IELTS Task 2 Flashcard decks: **232**
-- Generated catalogue size: approximately **599,718 bytes**
+- Generated catalogue size: approximately **709,321 bytes**
 - Production Pages cache currently advertises up to approximately **600 seconds**
 
 These counts are a baseline, not permanent targets. Every intentional change must explain its exact count delta.
@@ -760,10 +760,10 @@ Do not replace every expected count with whatever the generator produced. Count 
 
 Current pinned categories:
 
-- Flashcards: 745
-- Fill in the blanks: 250
+- Flashcards: 804
+- Fill in the blanks: 310
 - Speaking: 787
-- Sentence Structure: 114
+- Sentence Structure: 218
 - Non-empty IELTS Task 2 Flashcard decks: 232
 
 ### 12.10 Run mandatory automated tests

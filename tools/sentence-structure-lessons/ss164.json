@@ -1,0 +1,1225 @@
+{
+  "id": "ss164",
+  "order": 164,
+  "slug": "not-that-but",
+  "title": "Not that ..., but ...",
+  "titleZh": "「Not that ..., but ...」句",
+  "titleEn": "Using Not that ..., but ... to correct a possible misunderstanding",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 164 -「Not that ..., but ...」句.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Not that + clause, but + clause",
+  "formulas": [
+    {
+      "id": "ss164-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Not that + clause, but + clause"
+    }
+  ],
+  "example": "Not that the idea is bad, but it needs more careful planning.",
+  "exampleZh": "並不是說這個想法不好，而是它需要更周詳的規劃。",
+  "examples": [
+    {
+      "id": "ss164-example-01",
+      "en": "Not that the idea is bad, but it needs more careful planning.",
+      "zh": "並不是說這個想法不好，而是它需要更周詳的規劃。",
+      "highlight": "Not that the idea is bad, but it needs more careful planning."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss164-rule-01",
+      "zh": "在 Not that 後面通常要使用包含主語和動詞的完整子句。",
+      "en": "Use a complete clause after Not that A clause normally contains a subject and a verb. Not that the restaurant is expensive, but it is too far away. Not that the expensive restaurant, but it is too far away.",
+      "enSource": "pdf",
+      "examples": [
+        "Not that the restaurant is expensive, but it is too far away.",
+        "Not that the expensive restaurant, but it is too far away."
+      ]
+    },
+    {
+      "id": "ss164-rule-02",
+      "zh": "（並不是說我不喜歡這份工作，而是我需要更有彈性的時間安排。）",
+      "en": "The second part gives the real point The information after but should explain what the speaker actually thinks, means or wants to emphasise. Not that I dislike the job, but I need a more flexible schedule.",
+      "enSource": "pdf",
+      "examples": [
+        "Not that I dislike the job, but I need a more flexible schedule."
+      ]
+    },
+    {
+      "id": "ss164-rule-03",
+      "zh": "這句並非表示成本完全不重要，而是表示安全才是更重要的考慮。",
+      "en": "Not that does not always mean that the first idea is completely false It often means: that is not the main point; that is not the real reason; that is not what I am trying to say. Not that the cost is unimportant, but safety should come first. The speaker is not saying that cost is completely unimportant. The speaker is saying that safety is the more important consideration.",
+      "enSource": "pdf",
+      "examples": [
+        "that is not the main point;",
+        "that is not the real reason;",
+        "that is not what I am trying to say.",
+        "Not that the cost is unimportant, but safety should come first."
+      ]
+    },
+    {
+      "id": "ss164-rule-04",
+      "zh": "本課集中練習較簡潔的 Not that ..., but ... 形式。",
+      "en": "It is a shortened form of It is not that... The following two forms have similar meanings: It is not that the plan is impossible, but it requires more time. Not that the plan is impossible, but it requires more time.",
+      "enSource": "pdf",
+      "examples": [
+        "It is a shortened form of It is not that...",
+        "It is not that the plan is impossible, but it requires more time.",
+        "Not that the plan is impossible, but it requires more time."
+      ]
+    },
+    {
+      "id": "ss164-rule-05",
+      "zh": "（並不是說里奧懶惰，而是他不知道應從哪裏開始。） （里奧停止工作，不是因為懶惰，而是因為他感到不適。）",
+      "en": "Do not confuse it with not because..., but because... Not that X, but Y corrects an impression or introduces the real point. Not because X, but because Y contrasts two possible reasons for the same action. Compare: Not that Leo is lazy, but he does not know where to begin. Leo stopped working not because he was lazy, but because he felt ill.",
+      "enSource": "pdf",
+      "examples": [
+        "Not that X, but Y corrects an impression or introduces the real point.",
+        "Not because X, but because Y contrasts two possible reasons for the same action.",
+        "Not that Leo is lazy, but he does not know where to begin."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss164-benefit-01",
+      "zh": "這個句型可以幫助你較有禮貌地修正誤解。你不需要直接說對方錯了，而可以先澄清自己並非那 個意思，再說明真正的重點。",
+      "en": "It helps you correct a misunderstanding politely Instead of directly telling someone that they are wrong, you can first clarify what you do not mean and then explain your real point.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss164-benefit-02",
+      "zh": "你可以先表示某件事並非完全不好，再指出需要改善的地方，令批評聽起來不會過分直接。 （並不是說你的答案錯了，而是它需要更多支持細節。）",
+      "en": "It makes criticism sound less harsh You can acknowledge that something is not completely bad before mentioning the problem. Not that your answer is wrong, but it needs more supporting detail.",
+      "enSource": "pdf",
+      "examples": [
+        "You can acknowledge that something is not completely bad before mentioning the problem.",
+        "Not that your answer is wrong, but it needs more supporting detail."
+      ]
+    },
+    {
+      "id": "ss164-benefit-03",
+      "zh": "如果不使用這個句型，你可能需要使用兩句分開的句子，才能完成澄清和解釋。 第二個版本能更流暢地連接兩個意思。",
+      "en": "It combines clarification and explanation Without this structure, you may need two separate sentences. Compare: I am not saying that the plan is bad. I am saying that it needs more time. Not that the plan is bad, but it needs more time. The second version connects the two ideas more smoothly.",
+      "enSource": "pdf",
+      "examples": [
+        "I am not saying that the plan is bad. I am saying that it needs more time.",
+        "Not that the plan is bad, but it needs more time.",
+        "The second version connects the two ideas more smoothly."
+      ]
+    },
+    {
+      "id": "ss164-benefit-04",
+      "zh": "當一件事有優點，但同時存在限制、條件或問題時，這個句型可以幫助你表達較全面和平衡的看 法。",
+      "en": "It helps you present a more balanced opinion The structure is useful when something has strengths but also has a limitation, condition or problem.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss164-benefit-05",
+      "zh": "你可以在對話、作文、會議和給予意見時使用這個句型，以澄清立場、回應批評、解釋決定或提出 較婉轉的意見。",
+      "en": "It is useful in speaking, essays, meetings and feedback You can use it to clarify your opinion, respond to criticism, explain a decision or give careful feedback.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Not that ..., but ....",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Not that ..., but ... 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss164-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I am not saying that the soup tastes bad. It just needs a little more salt.",
+      "promptZh": "我並不是說這碗湯味道不好。它只需要多一點鹽。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the soup tastes bad, but it just needs a little more salt.",
+      "answerZh": "並不是說這碗湯味道不好，而是它只需要多一點鹽。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the soup tastes bad, but it just needs a little more salt."
+    },
+    {
+      "id": "ss164-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Amy is not unfriendly; she is rather shy.",
+      "promptZh": "艾米並非不友善；她只是比較害羞。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that Amy is unfriendly, but she is rather shy.",
+      "answerZh": "並不是說艾米不友善，而是她比較害羞。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that Amy is unfriendly, but she is rather shy."
+    },
+    {
+      "id": "ss164-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The homework is not difficult. The real problem is that it takes a long time.",
+      "promptZh": "這份功課並不困難。真正的問題是它需要很長時間完成。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the homework is difficult, but it takes a long time.",
+      "answerZh": "並不是說這份功課困難，而是它需要很長時間完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the homework is difficult, but it takes a long time."
+    },
+    {
+      "id": "ss164-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I do not dislike the book; I simply prefer the first one.",
+      "promptZh": "我並非不喜歡這本書；我只是比較喜歡第一本。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that I dislike the book, but I simply prefer the first one.",
+      "answerZh": "並不是說我不喜歡這本書，而是我比較喜歡第一本。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that I dislike the book, but I simply prefer the first one."
+    },
+    {
+      "id": "ss164-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The room is not dirty. It just feels a little untidy.",
+      "promptZh": "房間並不骯髒。它只是讓人覺得有點凌亂。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the room is dirty, but it just feels a little untidy.",
+      "answerZh": "並不是說房間骯髒，而是它讓人覺得有點凌亂。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the room is dirty, but it just feels a little untidy."
+    },
+    {
+      "id": "ss164-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben did not forget the meeting. He wrote down the wrong time.",
+      "promptZh": "本沒有忘記會議。他只是記錯了時間。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that Ben forgot the meeting, but he wrote down the wrong time.",
+      "answerZh": "並不是說本忘記了會議，而是他記錯了時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that Ben forgot the meeting, but he wrote down the wrong time."
+    },
+    {
+      "id": "ss164-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bus itself is not slow. The route is quite long.",
+      "promptZh": "巴士本身並不慢。只是行車路線頗長。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the bus is slow, but the route is quite long.",
+      "answerZh": "並不是說巴士速度慢，而是行車路線頗長。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the bus is slow, but the route is quite long."
+    },
+    {
+      "id": "ss164-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We do not doubt you. We simply need to check the details.",
+      "promptZh": "我們並不懷疑你。我們只是需要核對細節。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that we doubt you, but we simply need to check the details.",
+      "answerZh": "並不是說我們懷疑你，而是我們需要核對細節。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that we doubt you, but we simply need to check the details."
+    },
+    {
+      "id": "ss164-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shoes are not uncomfortable; they are too expensive.",
+      "promptZh": "這雙鞋並非不舒服；只是價錢太昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the shoes are uncomfortable, but they are too expensive.",
+      "answerZh": "並不是說這雙鞋不舒服，而是它們太昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the shoes are uncomfortable, but they are too expensive."
+    },
+    {
+      "id": "ss164-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I did not find the film boring. It was longer than I expected.",
+      "promptZh": "我不覺得這部電影沉悶。只是它比我預期中長。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the film was boring, but it was longer than I expected.",
+      "answerZh": "並不是說這部電影沉悶，而是它比我預期中長。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the film was boring, but it was longer than I expected."
+    },
+    {
+      "id": "ss164-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The café is not too crowded. The real problem is that the music is too loud.",
+      "promptZh": "這間咖啡店並非過分擠迫。真正的問題是音樂太大聲。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the café is too crowded, but the music is too loud.",
+      "answerZh": "並不是說這間咖啡店過分擠迫，而是音樂太大聲。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the café is too crowded, but the music is too loud."
+    },
+    {
+      "id": "ss164-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah is able to do the task, but she needs clearer instructions.",
+      "promptZh": "莎拉有能力完成這項工作，但她需要更清楚的指示。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that Sarah cannot do the task, but she needs clearer instructions.",
+      "answerZh": "並不是說莎拉沒有能力完成工作，而是她需要更清楚的指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that Sarah cannot do the task, but she needs clearer instructions."
+    },
+    {
+      "id": "ss164-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "The teacher was not angry. She was disappointed.",
+      "promptZh": "老師並沒有生氣。她只是感到失望。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the teacher was angry, but she was disappointed.",
+      "answerZh": "並不是說老師生氣，而是她感到失望。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the teacher was angry, but she was disappointed."
+    },
+    {
+      "id": "ss164-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I am not against your suggestion, but I would like more evidence.",
+      "promptZh": "我並不反對你的建議，但我希望看到更多證據。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that I object to your suggestion, but I would like more evidence.",
+      "answerZh": "並不是說我反對你的建議，而是我希望看到更多證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that I object to your suggestion, but I would like more evidence."
+    },
+    {
+      "id": "ss164-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The age of the phone is not the problem. Its battery runs out too quickly.",
+      "promptZh": "這部電話用了多久並不是問題。問題是它的電池消耗得太快。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the phone is old, but its battery runs out too quickly.",
+      "answerZh": "並不是說這部電話太舊，而是它的電池消耗得太快。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the phone is old, but its battery runs out too quickly."
+    },
+    {
+      "id": "ss164-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel is not avoiding exercise. He has been recovering from an injury.",
+      "promptZh": "丹尼爾並非逃避運動。他一直在養傷。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that Daniel avoids exercise, but he has been recovering from an injury.",
+      "answerZh": "並不是說丹尼爾逃避運動，而是他一直在養傷。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that Daniel avoids exercise, but he has been recovering from an injury."
+    },
+    {
+      "id": "ss164-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The train was not late; we reached the station too early.",
+      "promptZh": "火車並沒有遲到；只是我們太早到達車站。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the train arrived late, but we reached the station too early.",
+      "answerZh": "並不是說火車遲到，而是我們太早到達車站。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the train arrived late, but we reached the station too early."
+    },
+    {
+      "id": "ss164-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I am not saying that the new rule is unfair. Nobody explained it clearly.",
+      "promptZh": "我並不是說新規則不公平。只是沒有人清楚解釋它。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the new rule is unfair, but nobody explained it clearly.",
+      "answerZh": "並不是說新規則不公平，而是沒有人清楚解釋它。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the new rule is unfair, but nobody explained it clearly."
+    },
+    {
+      "id": "ss164-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I want to join you, but I have already made other plans.",
+      "promptZh": "我想和你們一起去，但我已經另有安排。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that I do not want to join you, but I have already made other plans.",
+      "answerZh": "並不是說我不想和你們一起去，而是我已經另有安排。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that I do not want to join you, but I have already made other plans."
+    },
+    {
+      "id": "ss164-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I would not describe the shop’s service as poor. Its opening hours are inconvenient.",
+      "promptZh": "我不會形容這間商店的服務差。只是它的營業時間不方便。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the shop offers poor service, but its opening hours are inconvenient.",
+      "answerZh": "並不是說這間商店的服務差，而是它的營業時間不方便。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the shop offers poor service, but its opening hours are inconvenient."
+    },
+    {
+      "id": "ss164-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The project did not fail, although it did not achieve all its goals.",
+      "promptZh": "這個項目並沒有失敗，儘管它未能達成所有目標。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the project failed, but it did not achieve all its goals.",
+      "answerZh": "並不是說這個項目失敗，而是它未能達成所有目標。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the project failed, but it did not achieve all its goals."
+    },
+    {
+      "id": "ss164-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The medicine may be effective, but it may take several days to work.",
+      "promptZh": "這種藥物可能有效，但它可能需要數天才會發揮作用。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the medicine is ineffective, but it may take several days to work.",
+      "answerZh": "並不是說這種藥物無效，而是它可能需要數天才會發揮作用。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the medicine is ineffective, but it may take several days to work."
+    },
+    {
+      "id": "ss164-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The road is not dangerous, although drivers need to be especially careful at night.",
+      "promptZh": "這條道路並不危險，但司機在晚上需要格外小心。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the road is dangerous, but drivers need to be especially careful at night.",
+      "answerZh": "並不是說這條道路危險，而是司機在晚上需要格外小心。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the road is dangerous, but drivers need to be especially careful at night."
+    },
+    {
+      "id": "ss164-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The computer still works, but it has become noticeably slower.",
+      "promptZh": "這部電腦仍然可以運作，但它明顯變慢了。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the computer has stopped working, but it has become noticeably slower.",
+      "answerZh": "並不是說這部電腦已經停止運作，而是它明顯變慢了。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the computer has stopped working, but it has become noticeably slower."
+    },
+    {
+      "id": "ss164-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team has talent, but the players need more time to work together.",
+      "promptZh": "這支球隊有實力，但球員需要更多時間培養合作。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the team lacks talent, but the players need more time to work together.",
+      "answerZh": "並不是說這支球隊缺乏實力，而是球員需要更多時間培養合作。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the team lacks talent, but the players need more time to work together."
+    },
+    {
+      "id": "ss164-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager did not reject the proposal. She asked for several changes.",
+      "promptZh": "經理沒有拒絕這項建議。她只是要求作出數項修改。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the manager rejected the proposal, but she asked for several changes.",
+      "answerZh": "並不是說經理拒絕了這項建議，而是她要求作出數項修改。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the manager rejected the proposal, but she asked for several changes."
+    },
+    {
+      "id": "ss164-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum is suitable for children, although some exhibits may require explanation.",
+      "promptZh": "這間博物館適合兒童參觀，但部分展品可能需要有人講解。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the museum is unsuitable for children, but some exhibits may require explanation.",
+      "answerZh": "並不是說這間博物館不適合兒童，而是部分展品可能需要有人講解。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the museum is unsuitable for children, but some exhibits may require explanation."
+    },
+    {
+      "id": "ss164-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The instructions were correct, but they were too brief for beginners.",
+      "promptZh": "這些指示是正確的，但對初學者來說過於簡略。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the instructions were incorrect, but they were too brief for beginners.",
+      "answerZh": "並不是說這些指示不正確，而是它們對初學者來說過於簡略。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the instructions were incorrect, but they were too brief for beginners."
+    },
+    {
+      "id": "ss164-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company is willing to help, but it must follow its refund policy.",
+      "promptZh": "公司願意提供協助，但它必須遵守退款政策。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the company is unwilling to help, but it must follow its refund policy.",
+      "answerZh": "並不是說公司不願意提供協助，而是它必須遵守退款政策。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the company is unwilling to help, but it must follow its refund policy."
+    },
+    {
+      "id": "ss164-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The event was not badly organised. However, the entrance became crowded just before it began.",
+      "promptZh": "活動的安排並不差。不過，活動開始前入口變得十分擠迫。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the event was badly organised, but the entrance became crowded just before it began.",
+      "answerZh": "並不是說活動安排得差，而是活動開始前入口變得十分擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the event was badly organised, but the entrance became crowded just before it began."
+    },
+    {
+      "id": "ss164-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Saving money matters, but people also need to enjoy the present.",
+      "promptZh": "儲蓄很重要，但人們也需要享受當下。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that saving money is unimportant, but people also need to enjoy the present.",
+      "answerZh": "並不是說儲蓄不重要，而是人們也需要享受當下。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that saving money is unimportant, but people also need to enjoy the present."
+    },
+    {
+      "id": "ss164-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Online learning cannot replace every classroom, but it can make education more accessible.",
+      "promptZh": "網上學習不能取代所有課堂，但它可以讓更多人獲得教育機會。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that online learning can replace every classroom, but it can make education more accessible.",
+      "answerZh": "並不是說網上學習可以取代所有課堂，而是它可以讓更多人獲得教育機會。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that online learning can replace every classroom, but it can make education more accessible."
+    },
+    {
+      "id": "ss164-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The article does not contain false information, although some of its claims lack strong evidence.",
+      "promptZh": "這篇文章沒有包含虛假資料，但其中一些論點缺乏有力證據。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the article contains false information, but some of its claims lack strong evidence.",
+      "answerZh": "並不是說這篇文章包含虛假資料，而是其中一些論點缺乏有力證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the article contains false information, but some of its claims lack strong evidence."
+    },
+    {
+      "id": "ss164-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Public transport is not always convenient, but it reduces the number of cars on the road.",
+      "promptZh": "公共交通並非總是方便，但它能減少道路上的汽車數量。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that public transport is always convenient, but it reduces the number of cars on the road.",
+      "answerZh": "並不是說公共交通總是方便，但它能減少道路上的汽車數量。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that public transport is always convenient, but it reduces the number of cars on the road."
+    },
+    {
+      "id": "ss164-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital did not ignore the complaint. Its investigation took longer than expected.",
+      "promptZh": "醫院沒有忽視這宗投訴。只是調查所需的時間比預期長。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the hospital ignored the complaint, but its investigation took longer than expected.",
+      "answerZh": "並不是說醫院忽視了這宗投訴，而是調查所需的時間比預期長。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the hospital ignored the complaint, but its investigation took longer than expected."
+    },
+    {
+      "id": "ss164-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The policy has benefits, but its costs should also be considered.",
+      "promptZh": "這項政策有好處，但它的成本也應該被考慮。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the policy has no benefits, but its costs should also be considered.",
+      "answerZh": "並不是說這項政策沒有好處，而是它的成本也應該被考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the policy has no benefits, but its costs should also be considered."
+    },
+    {
+      "id": "ss164-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The scientist did not doubt the results. She wanted the experiment to be repeated.",
+      "promptZh": "這名科學家沒有懷疑研究結果。她只是希望有人重複進行實驗。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the scientist doubted the results, but she wanted the experiment to be repeated.",
+      "answerZh": "並不是說這名科學家懷疑研究結果，而是她希望有人重複進行實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the scientist doubted the results, but she wanted the experiment to be repeated."
+    },
+    {
+      "id": "ss164-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The neighbourhood does not oppose development. Residents want their concerns to be heard.",
+      "promptZh": "這個社區並不反對發展。居民只是希望自己的顧慮能被聽見。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the neighbourhood opposes development, but residents want their concerns to be heard.",
+      "answerZh": "並不是說這個社區反對發展，而是居民希望自己的顧慮能被聽見。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the neighbourhood opposes development, but residents want their concerns to be heard."
+    },
+    {
+      "id": "ss164-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The software is not difficult to use, although new users may need a short introduction.",
+      "promptZh": "這套軟件並不難使用，但新用戶可能需要一個簡短介紹。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the software is difficult to use, but new users may need a short introduction.",
+      "answerZh": "並不是說這套軟件難以使用，而是新用戶可能需要一個簡短介紹。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the software is difficult to use, but new users may need a short introduction."
+    },
+    {
+      "id": "ss164-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The candidate had relevant experience, but another applicant matched the role more closely.",
+      "promptZh": "這名求職者擁有相關經驗，但另一名申請人更符合這個職位的要求。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the candidate lacked experience, but another applicant matched the role more closely.",
+      "answerZh": "並不是說這名求職者缺乏經驗，而是另一名申請人更符合這個職位的要求。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the candidate lacked experience, but another applicant matched the role more closely."
+    },
+    {
+      "id": "ss164-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school is not trying to reduce its activities. Limited space makes it difficult to offer every programme.",
+      "promptZh": "學校並非希望減少活動。只是有限的空間令學校難以提供所有課程。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the school wants to reduce its activities, but limited space makes it difficult to offer every programme.",
+      "answerZh": "並不是說學校希望減少活動，而是有限的空間令學校難以提供所有課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the school wants to reduce its activities, but limited space makes it difficult to offer every programme."
+    },
+    {
+      "id": "ss164-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council has not abandoned the plan. It is reviewing whether the current design meets residents’ needs.",
+      "promptZh": "議會沒有放棄這項計劃。它正在檢討現有設計是否符合居民的需要。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the council has abandoned the plan, but it is reviewing whether the current design meets residents’ needs.",
+      "answerZh": "並不是說議會已經放棄這項計劃，而是它正在檢討現有設計是否符合居民的需要。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the council has abandoned the plan, but it is reviewing whether the current design meets residents’ needs."
+    },
+    {
+      "id": "ss164-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The report does not deny the economic benefits. It warns that the gains may not be shared equally.",
+      "promptZh": "這份報告沒有否認經濟效益。它只是警告有關收益未必能被公平分享。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the report denies the economic benefits, but it warns that the gains may not be shared equally.",
+      "answerZh": "並不是說這份報告否認經濟效益，而是它警告有關收益未必能被公平分享。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the report denies the economic benefits, but it warns that the gains may not be shared equally."
+    },
+    {
+      "id": "ss164-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company is not questioning the employee’s honesty. Missing records prevent it from confirming the claim.",
+      "promptZh": "公司並非質疑該僱員的誠信。只是缺少的紀錄令公司無法確認其說法。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the company questions the employee’s honesty, but missing records prevent it from confirming the claim.",
+      "answerZh": "並不是說公司質疑該僱員的誠信，而是缺少的紀錄令公司無法確認其說法。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the company questions the employee’s honesty, but missing records prevent it from confirming the claim."
+    },
+    {
+      "id": "ss164-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The public is willing to change its habits, but people need practical alternatives before new rules are introduced.",
+      "promptZh": "公眾願意改變習慣，但在推出新規則前，人們需要實際可行的替代方案。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the public is unwilling to change its habits, but people need practical alternatives before new rules are introduced.",
+      "answerZh": "並不是說公眾不願意改變習慣，而是在推出新規則前，人們需要實際可行的替代方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the public is unwilling to change its habits, but people need practical alternatives before new rules are introduced."
+    },
+    {
+      "id": "ss164-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The treatment is generally suitable, but patients with certain conditions may require a different approach.",
+      "promptZh": "這種治療方法一般是合適的，但患有某些疾病的病人可能需要採用不同的方法。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the treatment is generally unsuitable, but patients with certain conditions may require a different approach.",
+      "answerZh": "並不是說這種治療方法一般不合適，而是患有某些疾病的病人可能需要採用不同的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the treatment is generally unsuitable, but patients with certain conditions may require a different approach."
+    },
+    {
+      "id": "ss164-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee does not believe that the proposal is unrealistic. It needs clearer costs, deadlines and responsibilities.",
+      "promptZh": "委員會並不認為這項建議不切實際。只是建議需要更清楚列明成本、期限和責任。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the committee believes the proposal is unrealistic, but it needs clearer costs, deadlines and responsibilities.",
+      "answerZh": "並不是說委員會認為這項建議不切實際，而是建議需要更清楚列明成本、期限和責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the committee believes the proposal is unrealistic, but it needs clearer costs, deadlines and responsibilities."
+    },
+    {
+      "id": "ss164-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Technology does not remove the need for human judgement, but it can help professionals make better-informed decisions.",
+      "promptZh": "科技不能取代人類判斷，但它可以幫助專業人士作出掌握更多資料的決定。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that technology removes the need for human judgement, but it can help professionals make better-informed decisions.",
+      "answerZh": "並不是說科技可以取代人類判斷，而是它可以幫助專業人士在掌握更多資料後作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that technology removes the need for human judgement, but it can help professionals make better-informed decisions."
+    },
+    {
+      "id": "ss164-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The speaker did not reject the criticism. She argued that the discussion should consider the wider context.",
+      "promptZh": "講者沒有拒絕接受批評。她只是認為討論應該考慮更廣泛的背景。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the speaker rejected the criticism, but she argued that the discussion should consider the wider context.",
+      "answerZh": "並不是說講者拒絕接受批評，而是她認為討論應該考慮更廣泛的背景。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the speaker rejected the criticism, but she argued that the discussion should consider the wider context."
+    },
+    {
+      "id": "ss164-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The programme has supported young people, but its long-term impact cannot yet be measured with confidence.",
+      "promptZh": "這個計劃曾經支援年輕人，但目前仍無法有把握地衡量其長遠成效。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not that the programme has failed to support young people, but its long-term impact cannot yet be measured with confidence.",
+      "answerZh": "並不是說這個計劃未能支援年輕人，而是目前仍無法有把握地衡量其長遠成效。",
+      "answerZhSource": "pdf",
+      "highlight": "Not that the programme has failed to support young people, but its long-term impact cannot yet be measured with confidence."
+    }
+  ]
+}

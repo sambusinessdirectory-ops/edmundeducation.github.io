@@ -1,0 +1,1235 @@
+{
+  "id": "ss168",
+  "order": 168,
+  "slug": "fronting-topic-object",
+  "title": "Fronting 主題／賓語前置句",
+  "titleZh": "「Fronting 句：主題／賓語前置句」",
+  "titleEn": "Using fronting to foreground a topic or object",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 168 -「Fronting 句：主題／賓語前置句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Topic / Object + comma + Subject + Verb + other information",
+  "formulas": [
+    {
+      "id": "ss168-formula-01",
+      "labelEn": "Standard topic fronting",
+      "labelZh": "標準主題前置",
+      "formula": "Topic / Object + comma + Subject + Verb + other information"
+    },
+    {
+      "id": "ss168-formula-02",
+      "labelEn": "Spoken left dislocation",
+      "labelZh": "口語主題前置",
+      "formula": "Topic + comma + complete clause containing a pronoun referring to the topic"
+    }
+  ],
+  "example": "That part, I completely understand.",
+  "exampleZh": "那一部分，我完全明白。",
+  "examples": [
+    {
+      "id": "ss168-example-01",
+      "en": "That part, I completely understand.",
+      "zh": "那一部分，我完全明白。",
+      "highlight": "That part, I completely understand."
+    },
+    {
+      "id": "ss168-example-02",
+      "en": "This person, I don’t know him at all.",
+      "zh": "這個人，我完全不認識他。",
+      "highlight": "This person, I don’t know him at all."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss168-rule-01",
+      "zh": "標準 Fronting 不重複賓語 不是： 在 Pattern A 中，賓語已經移到句首，原本的位置不應再加入 it、him、her 或 them。",
+      "en": "Standard fronting does not repeat the object. In Pattern A, once the object has moved to the beginning, do not add it, him, her or them again in its original position.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss168-rule-02",
+      "zh": "口語 Pattern B 可以使用代名詞 在標示為 [Spoken 口語] 的題目中，可以用代名詞再次指向句首主題： 這種說法在談話中自然，但一般不適合在正式作文、報告或學術文章中頻繁使用。",
+      "en": "Spoken Pattern B may use a pronoun to refer back to the fronted topic. This sounds natural in conversation, but it is generally unsuitable for frequent use in formal essays, reports or academic writing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss168-rule-03",
+      "zh": "前置部分後面通常使用逗號 逗號把句首主題和主要句子分開，讓結構更容易理解。",
+      "en": "Normally use a comma after the fronted element. The comma separates the opening topic from the main sentence and makes the structure easier to understand.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss168-rule-04",
+      "zh": "整個重要詞組應一起移動 不要只移動其中一個字：",
+      "en": "Move the whole important phrase together, not only one word. For example, front The final chapter as a unit in The final chapter, I enjoyed.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I enjoyed the final chapter.",
+        "The final chapter, I enjoyed."
+      ]
+    },
+    {
+      "id": "ss168-rule-05",
+      "zh": "時態、否定和情態動詞必須保留 cannot、have、had、will、may、should 等重要意思不能因改寫而消失。",
+      "en": "Preserve tense, negation and modal verbs. Important meanings carried by cannot, have, had, will, may, should and similar words must not disappear during the rewrite.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "They cannot change this decision now."
+      ]
+    },
+    {
+      "id": "ss168-rule-06",
+      "zh": "Fronting 不等於倒裝句 Fronting 後面的主語和動詞通常仍維持正常次序： 不是：",
+      "en": "Fronting is not the same as inversion. After the fronted element, the subject and verb normally retain their usual order.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss168-rule-07",
+      "zh": "Fronting 應有明確目的 Fronting 通常用來： 突出某個重點； 回應剛才提到的主題； 比較兩項事物； 表達接受一方面、拒絕另一方面； 製造較鮮明的口語語氣。 它不需要在每一句中使用。過度使用會令文章顯得刻意或戲劇化。",
+      "en": "Use fronting for a clear purpose: to highlight a key point, respond to a topic just mentioned, compare two things, accept one aspect while rejecting another, or create a more vivid conversational tone. It is not needed in every sentence; overuse can make writing sound forced or dramatic.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss168-benefit-01",
+      "zh": "讓重要主題立即成為焦點 讀者首先看到句首內容，因此會自然地把注意力放在該人物、事物或問題上。 兩句的基本意思相同，但第二句特別強調 that part。",
+      "en": "It puts the important topic in the spotlight. Because readers see the fronted content first, their attention naturally goes to that person, thing or issue. I completely understand that part and That part, I completely understand have the same basic meaning, but the second especially emphasises that part.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I completely understand that part."
+      ]
+    },
+    {
+      "id": "ss168-benefit-02",
+      "zh": "讓對比更加清楚 Fronting 可以把兩個對比項目放在相同位置： 讀者可以立即看出「第一個例子」和「第二個例子」得到不同處理。",
+      "en": "It makes contrasts easier to see by placing contrasting items in the same fronted position: The first example, I can explain, but the second one, I cannot. The reader immediately sees that the two examples receive different treatment.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The first example, I can explain, but the second one, I cannot."
+      ]
+    },
+    {
+      "id": "ss168-benefit-03",
+      "zh": "幫助你直接回應某個主題 當別人剛剛提到一件事時，你可以把該主題放在句首： 這種說法能清楚表示：「現在我要評論的是新時間表。」",
+      "en": "It helps you respond directly to a topic just mentioned. The new timetable, I fully support clearly signals, “The new timetable is what I am commenting on now.”",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The new timetable, I fully support."
+      ]
+    },
+    {
+      "id": "ss168-benefit-04",
+      "zh": "增加句子開頭的變化 學生經常以 I、we、they 或 the company 開始每一句。Fronting 能改變句子的排列方式，使連續句 子不會全部使用相同開頭。",
+      "en": "It gives you another sentence opening. Learners often begin every sentence with I, we, they or the company; fronting changes the arrangement so consecutive sentences do not all begin in the same way.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss168-benefit-05",
+      "zh": "提供容易運用的說話框架 你可以利用以下框架快速組織回應： 這個框架特別適合用來表達有保留的同意、比較或反駁。",
+      "en": "It provides a useful speaking frame, such as This part, I understand, but that part, I don't or The price, I can accept, but the waiting time, I cannot. The frame is especially useful for qualified agreement, comparison or rebuttal.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The price, I can accept, but the waiting time, I cannot."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Fronting 主題／賓語前置句.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Fronting 主題／賓語前置句 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss168-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I understand that part completely.",
+      "promptZh": "我完全明白那一部分。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That part, I completely understand.",
+      "answerZh": "那一部分，我完全明白。",
+      "answerZhSource": "pdf",
+      "highlight": "That part, I completely understand."
+    },
+    {
+      "id": "ss168-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I remember this rule clearly.",
+      "promptZh": "我清楚記得這條規則。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This rule, I remember clearly.",
+      "answerZh": "這條規則，我記得很清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "This rule, I remember clearly."
+    },
+    {
+      "id": "ss168-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I do not like that colour very much.",
+      "promptZh": "我不太喜歡那種顏色。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That colour, I do not like very much.",
+      "answerZh": "那種顏色，我不太喜歡。",
+      "answerZhSource": "pdf",
+      "highlight": "That colour, I do not like very much."
+    },
+    {
+      "id": "ss168-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "She can solve this problem easily.",
+      "promptZh": "她可以輕易解決這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This problem, she can solve easily.",
+      "answerZh": "這個問題，她可以輕易解決。",
+      "answerZhSource": "pdf",
+      "highlight": "This problem, she can solve easily."
+    },
+    {
+      "id": "ss168-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We have already discussed the first point.",
+      "promptZh": "我們已經討論過第一點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first point, we have already discussed.",
+      "answerZh": "第一點，我們已經討論過。",
+      "answerZhSource": "pdf",
+      "highlight": "The first point, we have already discussed."
+    },
+    {
+      "id": "ss168-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "He never eats mushrooms.",
+      "promptZh": "他從不吃蘑菇。",
+      "promptZhSource": "pdf",
+      "starter": "Mushrooms",
+      "answer": "Mushrooms, he never eats.",
+      "answerZh": "蘑菇，他從來不吃。",
+      "answerZhSource": "pdf",
+      "highlight": "Mushrooms, he never eats."
+    },
+    {
+      "id": "ss168-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I really enjoyed the final chapter.",
+      "promptZh": "我真的很喜歡最後一章。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final chapter, I really enjoyed.",
+      "answerZh": "最後一章，我真的很喜歡。",
+      "answerZhSource": "pdf",
+      "highlight": "The final chapter, I really enjoyed."
+    },
+    {
+      "id": "ss168-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "They cannot change this decision now.",
+      "promptZh": "他們現在不能改變這個決定。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This decision, they cannot change now.",
+      "answerZh": "這個決定，他們現在不能改變。",
+      "answerZhSource": "pdf",
+      "highlight": "This decision, they cannot change now."
+    },
+    {
+      "id": "ss168-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My brother knows that song by heart.",
+      "promptZh": "我的哥哥能把那首歌背出來。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That song, my brother knows by heart.",
+      "answerZh": "那首歌，我的哥哥能夠背出來。",
+      "answerZhSource": "pdf",
+      "highlight": "That song, my brother knows by heart."
+    },
+    {
+      "id": "ss168-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I would choose the blue one.",
+      "promptZh": "我會選擇藍色的那一個。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue one, I would choose.",
+      "answerZh": "藍色的那一個，我會選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue one, I would choose."
+    },
+    {
+      "id": "ss168-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As for the homework, I have finished it.",
+      "promptZh": "至於功課，我已經完成了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The homework, I have finished.",
+      "answerZh": "功課，我已經完成了。",
+      "answerZhSource": "pdf",
+      "highlight": "The homework, I have finished."
+    },
+    {
+      "id": "ss168-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When it comes to spicy food, Anna usually avoids it.",
+      "promptZh": "說到辛辣食物，安娜通常會避開。",
+      "promptZhSource": "pdf",
+      "starter": "Spicy",
+      "answer": "Spicy food, Anna usually avoids.",
+      "answerZh": "辛辣食物，安娜通常會避開。",
+      "answerZhSource": "pdf",
+      "highlight": "Spicy food, Anna usually avoids."
+    },
+    {
+      "id": "ss168-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Which bag do you prefer? I prefer the smaller bag.",
+      "promptZh": "你較喜歡哪個袋？我較喜歡較小的那個袋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The smaller bag, I prefer.",
+      "answerZh": "較小的那個袋，我較喜歡。",
+      "answerZhSource": "pdf",
+      "highlight": "The smaller bag, I prefer."
+    },
+    {
+      "id": "ss168-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I made this promise, and I will never break it.",
+      "promptZh": "我作出了這個承諾，而且我永遠不會違背它。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This promise, I will never break.",
+      "answerZh": "這個承諾，我永遠不會違背。",
+      "answerZhSource": "pdf",
+      "highlight": "This promise, I will never break."
+    },
+    {
+      "id": "ss168-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I can explain the first example, but I cannot explain the second one.",
+      "promptZh": "我能夠解釋第一個例子，但不能解釋第二個。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first example, I can explain, but the second one, I cannot.",
+      "answerZh": "第一個例子，我能夠解釋；但第二個，我不能。",
+      "answerZhSource": "pdf",
+      "highlight": "The first example, I can explain, but the second one, I cannot."
+    },
+    {
+      "id": "ss168-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Let us talk about the new timetable. I fully support it.",
+      "promptZh": "我們談談新時間表吧。我完全支持它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable, I fully support.",
+      "answerZh": "新時間表，我完全支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable, I fully support."
+    },
+    {
+      "id": "ss168-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What did you think of the film’s ending? I loved it.",
+      "promptZh": "你覺得這部電影的結局怎樣？我很喜歡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The film’s ending, I loved.",
+      "answerZh": "這部電影的結局，我很喜歡。",
+      "answerZhSource": "pdf",
+      "highlight": "The film’s ending, I loved."
+    },
+    {
+      "id": "ss168-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I remember the address, but I have forgotten the phone number.",
+      "promptZh": "我記得地址，但已經忘記了電話號碼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The address, I remember, but the phone number, I have forgotten.",
+      "answerZh": "地址，我記得；但電話號碼，我已經忘記了。",
+      "answerZhSource": "pdf",
+      "highlight": "The address, I remember, but the phone number, I have forgotten."
+    },
+    {
+      "id": "ss168-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My father repairs old radios, but he does not repair televisions.",
+      "promptZh": "我的父親會修理舊收音機，但不修理電視機。",
+      "promptZhSource": "pdf",
+      "starter": "Old",
+      "answer": "Old radios, my father repairs, but televisions, he does not.",
+      "answerZh": "舊收音機，我的父親會修理；但電視機，他不會。",
+      "answerZhSource": "pdf",
+      "highlight": "Old radios, my father repairs, but televisions, he does not."
+    },
+    {
+      "id": "ss168-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I have read the first two articles, but I have not read the last one.",
+      "promptZh": "我已經讀過首兩篇文章，但尚未讀最後一篇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first two articles, I have read, but the last one, I have not.",
+      "answerZh": "首兩篇文章，我已經讀過；但最後一篇，我尚未讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The first two articles, I have read, but the last one, I have not."
+    },
+    {
+      "id": "ss168-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I understand the general idea, but I do not understand this detail.",
+      "promptZh": "我明白整體概念，但不明白這個細節。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The general idea, I understand, but this detail, I do not.",
+      "answerZh": "整體概念，我明白；但這個細節，我不明白。",
+      "answerZhSource": "pdf",
+      "highlight": "The general idea, I understand, but this detail, I do not."
+    },
+    {
+      "id": "ss168-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We can accept the basic plan, but we cannot accept the extra cost.",
+      "promptZh": "我們可以接受基本計劃，但不能接受額外費用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The basic plan, we can accept, but the extra cost, we cannot.",
+      "answerZh": "基本計劃，我們可以接受；但額外費用，我們不能接受。",
+      "answerZhSource": "pdf",
+      "highlight": "The basic plan, we can accept, but the extra cost, we cannot."
+    },
+    {
+      "id": "ss168-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I trust Maria completely.",
+      "promptZh": "我完全信任瑪利亞。",
+      "promptZhSource": "pdf",
+      "starter": "Maria",
+      "answer": "Maria, I trust her completely.",
+      "answerZh": "瑪利亞，我完全信任她。",
+      "answerZhSource": "pdf",
+      "highlight": "Maria, I trust her completely."
+    },
+    {
+      "id": "ss168-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I don’t know Ms Wong at all.",
+      "promptZh": "我完全不認識黃女士。",
+      "promptZhSource": "pdf",
+      "starter": "Ms",
+      "answer": "Ms Wong, I don’t know her at all.",
+      "answerZh": "黃女士，我完全不認識她。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Wong, I don’t know her at all."
+    },
+    {
+      "id": "ss168-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children really love this playground.",
+      "promptZh": "孩子們真的很喜歡這個遊樂場。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This playground, the children really love it.",
+      "answerZh": "這個遊樂場，孩子們真的很喜歡它。",
+      "answerZhSource": "pdf",
+      "highlight": "This playground, the children really love it."
+    },
+    {
+      "id": "ss168-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We are still considering the cheaper option.",
+      "promptZh": "我們仍在考慮較便宜的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cheaper option, we are still considering.",
+      "answerZh": "較便宜的選擇，我們仍在考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The cheaper option, we are still considering."
+    },
+    {
+      "id": "ss168-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "She has never questioned his honesty.",
+      "promptZh": "她從未質疑他的誠實。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His honesty, she has never questioned.",
+      "answerZh": "他的誠實，她從未質疑。",
+      "answerZhSource": "pdf",
+      "highlight": "His honesty, she has never questioned."
+    },
+    {
+      "id": "ss168-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You should check the final total again.",
+      "promptZh": "你應該再次核對最後的總數。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final total, you should check again.",
+      "answerZh": "最後的總數，你應該再次核對。",
+      "answerZhSource": "pdf",
+      "highlight": "The final total, you should check again."
+    },
+    {
+      "id": "ss168-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I have no objection to that suggestion.",
+      "promptZh": "我不反對那項建議。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That suggestion, I have no objection to.",
+      "answerZh": "那項建議，我並不反對。",
+      "answerZhSource": "pdf",
+      "highlight": "That suggestion, I have no objection to."
+    },
+    {
+      "id": "ss168-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "They did not warn us about this risk.",
+      "promptZh": "他們沒有提醒我們這項風險。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This risk, they did not warn us about.",
+      "answerZh": "這項風險，他們沒有提醒我們。",
+      "answerZhSource": "pdf",
+      "highlight": "This risk, they did not warn us about."
+    },
+    {
+      "id": "ss168-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Finish the easy questions first, and leave the difficult ones until later.",
+      "promptZh": "先完成容易的題目，把困難的留待稍後處理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The easy questions, finish first; the difficult ones, leave until later.",
+      "answerZh": "容易的題目，先完成；困難的題目，留待稍後處理。",
+      "answerZhSource": "pdf",
+      "highlight": "The easy questions, finish first; the difficult ones, leave until later."
+    },
+    {
+      "id": "ss168-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Please keep this receipt, but throw the old one away.",
+      "promptZh": "請保留這張收據，但把舊的丟掉。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This receipt, please keep; the old one, throw away.",
+      "answerZh": "這張收據，請保留；舊的那張，請丟掉。",
+      "answerZhSource": "pdf",
+      "highlight": "This receipt, please keep; the old one, throw away."
+    },
+    {
+      "id": "ss168-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Above all else, please remember this one point.",
+      "promptZh": "最重要的是，請記住這一點。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This one point, please remember above all else.",
+      "answerZh": "這一點，請務必記住。",
+      "answerZhSource": "pdf",
+      "highlight": "This one point, please remember above all else."
+    },
+    {
+      "id": "ss168-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The team can improve its speed, but it cannot control the weather.",
+      "promptZh": "團隊可以提升速度，但不能控制天氣。",
+      "promptZhSource": "pdf",
+      "starter": "Its",
+      "answer": "Its speed, the team can improve, but the weather, it cannot control.",
+      "answerZh": "自身的速度，團隊可以提升；但天氣，它不能控制。",
+      "answerZhSource": "pdf",
+      "highlight": "Its speed, the team can improve, but the weather, it cannot control."
+    },
+    {
+      "id": "ss168-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I admire her patience more than I admire her confidence.",
+      "promptZh": "相比她的自信，我更欣賞她的耐性。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her patience, I admire more than her confidence.",
+      "answerZh": "她的耐性，我比她的自信更欣賞。",
+      "answerZhSource": "pdf",
+      "highlight": "Her patience, I admire more than her confidence."
+    },
+    {
+      "id": "ss168-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ms Lee has approved the budget, but she has rejected the schedule.",
+      "promptZh": "李女士已經批准預算，但拒絕了時間表。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The budget, Ms Lee has approved, but the schedule, she has rejected.",
+      "answerZh": "預算，李女士已經批准；但時間表，她已經拒絕。",
+      "answerZhSource": "pdf",
+      "highlight": "The budget, Ms Lee has approved, but the schedule, she has rejected."
+    },
+    {
+      "id": "ss168-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We had expected the delay, but we had not expected the cancellation.",
+      "promptZh": "我們早已預料會延誤，但沒有預料會取消。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The delay, we had expected, but the cancellation, we had not.",
+      "answerZh": "延誤，我們早已預料；但取消，我們沒有預料。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay, we had expected, but the cancellation, we had not."
+    },
+    {
+      "id": "ss168-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You may ignore small spelling mistakes, but you must correct factual errors.",
+      "promptZh": "你可以忽略輕微的串字錯誤，但必須改正事實錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small spelling mistakes, you may ignore, but factual errors, you must correct.",
+      "answerZh": "輕微的串字錯誤，你可以忽略；但事實錯誤，你必須改正。",
+      "answerZhSource": "pdf",
+      "highlight": "Small spelling mistakes, you may ignore, but factual errors, you must correct."
+    },
+    {
+      "id": "ss168-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I can forgive a late reply, but I cannot forgive dishonesty.",
+      "promptZh": "我可以原諒遲來的回覆，但不能原諒不誠實。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A late reply, I can forgive, but dishonesty, I cannot.",
+      "answerZh": "遲來的回覆，我可以原諒；但不誠實，我不能原諒。",
+      "answerZhSource": "pdf",
+      "highlight": "A late reply, I can forgive, but dishonesty, I cannot."
+    },
+    {
+      "id": "ss168-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The public will accept a difficult decision if the reason is clear.",
+      "promptZh": "如果理由清楚，公眾會接受一個艱難的決定。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A difficult decision, the public will accept if the reason is clear.",
+      "answerZh": "艱難的決定，如果理由清楚，公眾也會接受。",
+      "answerZhSource": "pdf",
+      "highlight": "A difficult decision, the public will accept if the reason is clear."
+    },
+    {
+      "id": "ss168-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I understand why the meeting was delayed, but I still cannot accept the lack of notice.",
+      "promptZh": "我明白會議為甚麼延遲，但仍然不能接受沒有預先通知。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why the meeting was delayed, I understand, but the lack of notice, I still cannot accept.",
+      "answerZh": "會議為甚麼延遲，我明白；但沒有預先通知這件事，我仍然不能接受。",
+      "answerZhSource": "pdf",
+      "highlight": "Why the meeting was delayed, I understand, but the lack of notice, I still cannot accept."
+    },
+    {
+      "id": "ss168-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We can discuss the short-term cost later; we need to decide the long-term direction now.",
+      "promptZh": "我們可以稍後討論短期成本；現在必須決定長遠方向。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The short-term cost, we can discuss later; the long-term direction, we need to decide now.",
+      "answerZh": "短期成本，我們可以稍後討論；長遠方向，我們現在必須決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The short-term cost, we can discuss later; the long-term direction, we need to decide now."
+    },
+    {
+      "id": "ss168-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The committee may support the principle, but it is unlikely to support the present wording.",
+      "promptZh": "委員會可能支持這項原則，但不大可能支持目前的字眼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The principle, the committee may support, but the present wording, it is unlikely to support.",
+      "answerZh": "這項原則，委員會可能支持；但目前的字眼，它不大可能支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The principle, the committee may support, but the present wording, it is unlikely to support."
+    },
+    {
+      "id": "ss168-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I had heard about the first complaint, but nobody had mentioned the second one to me.",
+      "promptZh": "我曾經聽說第一宗投訴，但沒有人向我提及第二宗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first complaint, I had heard about, but the second one, nobody had mentioned to me.",
+      "answerZh": "第一宗投訴，我曾經聽說；但第二宗，沒有人向我提及。",
+      "answerZhSource": "pdf",
+      "highlight": "The first complaint, I had heard about, but the second one, nobody had mentioned to me."
+    },
+    {
+      "id": "ss168-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I find the new software useful, but I still find its reporting system confusing.",
+      "promptZh": "我認為新軟件很實用，但仍覺得它的報告系統令人困惑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new software, I find useful, but its reporting system, I still find confusing.",
+      "answerZh": "新軟件，我認為很實用；但它的報告系統，我仍然覺得令人困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "The new software, I find useful, but its reporting system, I still find confusing."
+    },
+    {
+      "id": "ss168-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We respect the volunteers’ achievement, but we question the use of the money.",
+      "promptZh": "我們尊重義工取得的成果，但對資金的用途有所質疑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The volunteers’ achievement, we respect, but the use of the money, we question.",
+      "answerZh": "義工取得的成果，我們尊重；但資金的用途，我們有所質疑。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers’ achievement, we respect, but the use of the money, we question."
+    },
+    {
+      "id": "ss168-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I can live with a small inconvenience, but I cannot accept a serious safety risk.",
+      "promptZh": "我可以忍受輕微不便，但不能接受嚴重的安全風險。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A small inconvenience, I can live with, but a serious safety risk, I cannot accept.",
+      "answerZh": "輕微不便，我可以忍受；但嚴重的安全風險，我不能接受。",
+      "answerZhSource": "pdf",
+      "highlight": "A small inconvenience, I can live with, but a serious safety risk, I cannot accept."
+    },
+    {
+      "id": "ss168-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Everyone remembers what she promised, although few people understand why she changed her mind.",
+      "promptZh": "人人都記得她承諾過甚麼，儘管很少人明白她為甚麼改變主意。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What she promised, everyone remembers, although why she changed her mind, few people understand.",
+      "answerZh": "她承諾過甚麼，人人都記得；儘管她為甚麼改變主意，卻很少人明白。",
+      "answerZhSource": "pdf",
+      "highlight": "What she promised, everyone remembers, although why she changed her mind, few people understand."
+    },
+    {
+      "id": "ss168-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I do not know Mr Lau personally, but I trust his professional judgement.",
+      "promptZh": "我與劉先生並不熟稔，但我信任他的專業判斷。",
+      "promptZhSource": "pdf",
+      "starter": "Mr",
+      "answer": "Mr Lau, I do not know him personally, but his professional judgement, I trust.",
+      "answerZh": "劉先生，我與他並不熟稔；但他的專業判斷，我信任。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Lau, I do not know him personally, but his professional judgement, I trust."
+    },
+    {
+      "id": "ss168-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school can revise the rule next term, but it cannot undo the confusion that the present wording has already caused.",
+      "promptZh": "學校可以在下學期修改規則，但無法消除目前字眼已經造成的混亂。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rule, the school can revise next term, but the confusion that the present wording has already caused, it cannot undo.",
+      "answerZh": "這項規則，學校可以在下學期修改；但目前字眼已經造成的混亂，它無法消除。",
+      "answerZhSource": "pdf",
+      "highlight": "The rule, the school can revise next term, but the confusion that the present wording has already caused, it cannot undo."
+    }
+  ]
+}

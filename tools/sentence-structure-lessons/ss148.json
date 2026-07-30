@@ -1,0 +1,1237 @@
+{
+  "id": "ss148",
+  "order": 148,
+  "slug": "thereby",
+  "title": "「Thereby 句」",
+  "titleZh": "「Thereby 句」",
+  "titleEn": "Using thereby + -ing to state a direct result",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 148 -「Thereby 句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Main clause, thereby + verb-ing + other information",
+  "formulas": [
+    {
+      "id": "ss148-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Main clause, thereby + verb-ing + other information"
+    }
+  ],
+  "example": "She woke up earlier, thereby avoiding the morning traffic.",
+  "exampleZh": "她提早起床，從而避開了早上的交通擠塞。",
+  "examples": [
+    {
+      "id": "ss148-example-01",
+      "en": "She woke up earlier, thereby avoiding the morning traffic.",
+      "zh": "她提早起床，從而避開了早上的交通擠塞。",
+      "highlight": "thereby avoiding the morning traffic"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss148-rule-01",
+      "zh": "thereby 通常放在主句之後，前面加上逗號。",
+      "en": "Place thereby after the main clause, normally preceded by a comma.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss148-rule-02",
+      "zh": "常見組合： thereby 後面必須使用 V-ing，不可直接使用原形動詞。",
+      "en": "Use the -ing form after thereby. Common combinations include thereby reducing, improving, allowing, preventing, making and creating; do not use the base form directly after thereby.",
+      "enSource": "pdf",
+      "examples": [
+        "thereby reducing",
+        "thereby improving",
+        "thereby allowing",
+        "thereby preventing",
+        "thereby making",
+        "thereby creating",
+        "The company automated the process, thereby reducing costs."
+      ]
+    },
+    {
+      "id": "ss148-rule-03",
+      "zh": "主句說明行動或情況，而 thereby 部分則說明該行動或情況所帶來的結果。 兩部分之間必須有清楚的因果關係，不能只是先後發生的兩件事。",
+      "en": "The thereby phrase expresses a result. The main clause states an action or situation, and the thereby phrase states the result it produces. The two parts must have a clear cause-and-result relationship rather than merely describing two events in sequence.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss148-rule-04",
+      "zh": "時態由主句動詞表達；thereby 後面的動詞仍然使用 V-ing。",
+      "en": "The main verb carries the tense; the verb after thereby remains in the -ing form.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss148-rule-05",
+      "zh": "當結果涉及另一個人或事物時，可使用 allowing、enabling、helping、giving、making 或 preventing 等連接動詞。",
+      "en": "Use a bridge verb when another person or thing receives the result. Useful choices include thereby allowing someone to, enabling someone to, helping someone, giving someone, making it easier for someone to, and preventing someone from.",
+      "enSource": "pdf",
+      "examples": [
+        "thereby allowing someone to...",
+        "thereby enabling someone to...",
+        "thereby helping someone...",
+        "thereby giving someone...",
+        "thereby making it easier for someone to...",
+        "thereby preventing someone from...",
+        "The school installed more lights, thereby making the corridor safer."
+      ]
+    },
+    {
+      "id": "ss148-rule-06",
+      "zh": "so 後面接「主語＋完整動詞」，用來連接兩個完整分句，語氣較日常和直接。 thereby 後面接 V-ing，把結果濃縮成分詞短語。它的語氣通常較正式，並強調「透過前面的行動 ，從而產生這個結果」。 重要： 並非所有 so 分句都可以直接刪去主語來改寫。有時需要加入 causing、making、 allowing、enabling 或 preventing 等動詞。",
+      "en": "Thereby is different from so. So is followed by a subject and finite verb, links two complete clauses, and is common in everyday speech and writing. Thereby is followed by an -ing form, compresses the result into a participial phrase, usually sounds more formal, and specifically says that the preceding action produced the result. A so-clause cannot always be converted simply by deleting its subject; a bridge verb such as causing, making, allowing, enabling or preventing may be needed.",
+      "enSource": "pdf",
+      "examples": [
+        "Translations provide only simplified explanations, so important attitudes and emotions are easily lost.",
+        "Translations provide only simplified explanations, thereby causing important attitudes and emotions to be easily lost."
+      ]
+    },
+    {
+      "id": "ss148-rule-07",
+      "zh": "在本練習中，thereby 後面不可再接「主語＋完整動詞」。",
+      "en": "Do not put a complete subject-and-finite-verb clause after thereby in this exercise.",
+      "enSource": "pdf",
+      "examples": [
+        "She studied carefully, thereby avoiding mistakes."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss148-benefit-01",
+      "zh": "讀者可以立即看出哪個行動帶來後面的結果。",
+      "en": "It makes the cause-and-result relationship clear, so the reader can immediately see which action produced the result.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss148-benefit-02",
+      "zh": "你不需要再用 so 或 as a result 寫另一個完整分句，也可以簡潔地交代結果。 第二句較緊湊，並把「流程自動化」與「降低成本」的因果關係直接連接起來。",
+      "en": "It combines two ideas more concisely. Instead of adding another complete clause with so or as a result, you can express the consequence with thereby + V-ing; the result is tighter and links the cause directly to its effect.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss148-benefit-03",
+      "zh": "這個句型通常可以避免重複相同的主語，令句子更流暢。",
+      "en": "It reduces unnecessary repetition by often removing the need to repeat the same subject, making the sentence flow more smoothly.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss148-benefit-04",
+      "zh": "在作文、報告及職場寫作中，當你要解釋一項決定、方法或改變帶來甚麼影響時，thereby 十分實 用。",
+      "en": "It is useful in essays, reports and workplace writing, especially when explaining how a decision, method or change produces an effect.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss148-benefit-05",
+      "zh": "你可以準確說明一個行動是「減少、改善、容許、防止、促成」還是「創造」某個結果。",
+      "en": "It helps you describe results precisely by showing whether an action reduces a problem, improves a situation, allows another action, prevents a difficulty, enables someone to do something or creates a new result.",
+      "enSource": "pdf",
+      "examples": [
+        "reduces a problem;",
+        "improves a situation;",
+        "allows another action;",
+        "prevents a difficulty;",
+        "enables someone to do something;",
+        "or creates a new result."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using thereby + V-ing to express the result of the first action.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 thereby + V-ing 改寫以下句子，表達前面行動所帶來的結果。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss148-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "She woke up earlier, so she avoided the morning traffic.",
+      "promptZh": "她提早起床，所以避開了早上的交通擠塞。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She woke up earlier, thereby avoiding the morning traffic.",
+      "answerZh": "她提早起床，從而避開了早上的交通擠塞。",
+      "answerZhSource": "pdf",
+      "highlight": "She woke up earlier, thereby avoiding the morning traffic."
+    },
+    {
+      "id": "ss148-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The students reviewed the material carefully. As a result, they improved their exam results.",
+      "promptZh": "學生仔細溫習教材。因此，他們提升了考試成績。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students reviewed the material carefully, thereby improving their exam results.",
+      "answerZh": "學生仔細溫習教材，從而提升了考試成績。",
+      "answerZhSource": "pdf",
+      "highlight": "The students reviewed the material carefully, thereby improving their exam results."
+    },
+    {
+      "id": "ss148-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The company automated several processes, and this reduced operating costs.",
+      "promptZh": "公司把多項流程自動化，而這降低了營運成本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company automated several processes, thereby reducing operating costs.",
+      "answerZh": "公司把多項流程自動化，從而降低了營運成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The company automated several processes, thereby reducing operating costs."
+    },
+    {
+      "id": "ss148-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo closed the window, and this kept the rain out.",
+      "promptZh": "里奧關上窗戶，而這使雨水無法進入室內。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo closed the window, thereby keeping the rain out.",
+      "answerZh": "里奧關上窗戶，從而防止雨水進入室內。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo closed the window, thereby keeping the rain out."
+    },
+    {
+      "id": "ss148-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I saved the address on my phone. As a result, it became easier to find later.",
+      "promptZh": "我把地址儲存在電話裏。因此，之後要找出地址便更容易。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I saved the address on my phone, thereby making it easier to find later.",
+      "answerZh": "我把地址儲存在電話裏，從而令日後查找地址更加容易。",
+      "answerZhSource": "pdf",
+      "highlight": "I saved the address on my phone, thereby making it easier to find later."
+    },
+    {
+      "id": "ss148-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop extended its opening hours. As a result, it served more customers.",
+      "promptZh": "商店延長了營業時間。因此，它服務了更多顧客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop extended its opening hours, thereby serving more customers.",
+      "answerZh": "商店延長了營業時間，從而服務更多顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop extended its opening hours, thereby serving more customers."
+    },
+    {
+      "id": "ss148-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia turned down the music. This allowed her brother to study.",
+      "promptZh": "米婭把音樂聲調低。這讓她的弟弟可以溫習。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia turned down the music, thereby allowing her brother to study.",
+      "answerZh": "米婭把音樂聲調低，從而讓她的弟弟可以溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia turned down the music, thereby allowing her brother to study."
+    },
+    {
+      "id": "ss148-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The driver slowed down, which made the journey safer.",
+      "promptZh": "司機減慢車速，這使行程更加安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The driver slowed down, thereby making the journey safer.",
+      "answerZh": "司機減慢車速，從而令行程更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver slowed down, thereby making the journey safer."
+    },
+    {
+      "id": "ss148-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We reused the boxes. By doing so, we reduced waste.",
+      "promptZh": "我們重用紙箱。這樣做減少了廢物。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We reused the boxes, thereby reducing waste.",
+      "answerZh": "我們重用紙箱，從而減少廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "We reused the boxes, thereby reducing waste."
+    },
+    {
+      "id": "ss148-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben checked the timetable, so he avoided a long wait.",
+      "promptZh": "本查看了時間表，所以避免了長時間等候。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben checked the timetable, thereby avoiding a long wait.",
+      "answerZh": "本查看了時間表，從而避免長時間等候。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben checked the timetable, thereby avoiding a long wait."
+    },
+    {
+      "id": "ss148-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ms Wong gave a clear example. This helped the class understand the rule.",
+      "promptZh": "黃老師提供了一個清楚的例子。這幫助全班明白規則。",
+      "promptZhSource": "pdf",
+      "starter": "Ms",
+      "answer": "Ms Wong gave a clear example, thereby helping the class understand the rule.",
+      "answerZh": "黃老師提供了一個清楚的例子，從而幫助全班明白規則。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Wong gave a clear example, thereby helping the class understand the rule."
+    },
+    {
+      "id": "ss148-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sara packed her own lunch. As a result, she saved money.",
+      "promptZh": "莎拉自備午餐。因此，她節省了金錢。",
+      "promptZhSource": "pdf",
+      "starter": "Sara",
+      "answer": "Sara packed her own lunch, thereby saving money.",
+      "answerZh": "莎拉自備午餐，從而節省金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Sara packed her own lunch, thereby saving money."
+    },
+    {
+      "id": "ss148-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our school added more lights, and the corridor became safer as a result.",
+      "promptZh": "我們的學校增設了更多燈光，走廊因而變得更安全。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school added more lights, thereby making the corridor safer.",
+      "answerZh": "我們的學校增設了更多燈光，從而令走廊更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school added more lights, thereby making the corridor safer."
+    },
+    {
+      "id": "ss148-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel apologised immediately, and this prevented the argument from becoming worse.",
+      "promptZh": "丹尼爾立即道歉，而這防止爭執進一步惡化。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel apologised immediately, thereby preventing the argument from becoming worse.",
+      "answerZh": "丹尼爾立即道歉，從而防止爭執進一步惡化。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel apologised immediately, thereby preventing the argument from becoming worse."
+    },
+    {
+      "id": "ss148-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team practised every morning. Consequently, their coordination improved.",
+      "promptZh": "球隊每天早上練習。因此，他們的協調能力有所提升。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team practised every morning, thereby improving their coordination.",
+      "answerZh": "球隊每天早上練習，從而提升協調能力。",
+      "answerZhSource": "pdf",
+      "highlight": "The team practised every morning, thereby improving their coordination."
+    },
+    {
+      "id": "ss148-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This app stores your preferences, so future bookings become faster.",
+      "promptZh": "這個應用程式會儲存你的偏好，所以日後預訂會更快捷。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This app stores your preferences, thereby making future bookings faster.",
+      "answerZh": "這個應用程式會儲存你的偏好，從而令日後預訂更加快捷。",
+      "answerZhSource": "pdf",
+      "highlight": "This app stores your preferences, thereby making future bookings faster."
+    },
+    {
+      "id": "ss148-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A nurse labelled each bottle, which reduced the risk of mistakes.",
+      "promptZh": "一名護士為每個瓶子貼上標籤，這降低了出錯的風險。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A nurse labelled each bottle, thereby reducing the risk of mistakes.",
+      "answerZh": "一名護士為每個瓶子貼上標籤，從而降低出錯的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "A nurse labelled each bottle, thereby reducing the risk of mistakes."
+    },
+    {
+      "id": "ss148-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Council workers planted more trees, and this created more shade.",
+      "promptZh": "市政工作人員種植了更多樹木，而這創造了更多陰涼地方。",
+      "promptZhSource": "pdf",
+      "starter": "Council",
+      "answer": "Council workers planted more trees, thereby creating more shade.",
+      "answerZh": "市政工作人員種植了更多樹木，從而創造更多陰涼地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Council workers planted more trees, thereby creating more shade."
+    },
+    {
+      "id": "ss148-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Emma organised her notes by topic. Because of this, revision became easier.",
+      "promptZh": "艾瑪按主題整理筆記。因此，溫習變得更加容易。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma organised her notes by topic, thereby making revision easier.",
+      "answerZh": "艾瑪按主題整理筆記，從而令溫習更加容易。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma organised her notes by topic, thereby making revision easier."
+    },
+    {
+      "id": "ss148-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A mechanic replaced the worn part. As a result, the strange noise stopped.",
+      "promptZh": "一名技工更換了磨損的零件。因此，奇怪的聲響停止了。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A mechanic replaced the worn part, thereby stopping the strange noise.",
+      "answerZh": "一名技工更換了磨損的零件，從而消除了奇怪的聲響。",
+      "answerZhSource": "pdf",
+      "highlight": "A mechanic replaced the worn part, thereby stopping the strange noise."
+    },
+    {
+      "id": "ss148-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our library introduced self-service machines, with the result that waiting times became shorter.",
+      "promptZh": "我們的圖書館引入自助服務機，結果等候時間縮短了。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our library introduced self-service machines, thereby shortening waiting times.",
+      "answerZh": "我們的圖書館引入自助服務機，從而縮短等候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Our library introduced self-service machines, thereby shortening waiting times."
+    },
+    {
+      "id": "ss148-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Chloe wore gloves, so the paint did not harm her hands.",
+      "promptZh": "克洛伊戴上手套，所以油漆沒有傷害她的雙手。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe wore gloves, thereby protecting her hands from the paint.",
+      "answerZh": "克洛伊戴上手套，從而保護雙手免受油漆傷害。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe wore gloves, thereby protecting her hands from the paint."
+    },
+    {
+      "id": "ss148-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Developers redesigned the website. This made it easier for users to find information.",
+      "promptZh": "開發人員重新設計網站。這讓使用者更容易找到資料。",
+      "promptZhSource": "pdf",
+      "starter": "Developers",
+      "answer": "Developers redesigned the website, thereby making it easier for users to find information.",
+      "answerZh": "開發人員重新設計網站，從而讓使用者更容易找到資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Developers redesigned the website, thereby making it easier for users to find information."
+    },
+    {
+      "id": "ss148-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Staff moved the warning signs closer to the entrance, so people could notice them more easily.",
+      "promptZh": "職員把警告牌移近入口，所以人們可以更容易留意到它們。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff moved the warning signs closer to the entrance, thereby making them easier to notice.",
+      "answerZh": "職員把警告牌移近入口，從而讓人更容易留意到它們。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff moved the warning signs closer to the entrance, thereby making them easier to notice."
+    },
+    {
+      "id": "ss148-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach changed the training plan, and this allowed injured players more time to recover.",
+      "promptZh": "教練更改了訓練計劃，而這讓受傷球員有更多時間康復。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach changed the training plan, thereby allowing injured players more time to recover.",
+      "answerZh": "教練更改了訓練計劃，從而讓受傷球員有更多時間康復。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach changed the training plan, thereby allowing injured players more time to recover."
+    },
+    {
+      "id": "ss148-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our company switched to digital receipts. This change led to a reduction in paper use.",
+      "promptZh": "我們的公司改用電子收據。這項改變令紙張使用量減少。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our company switched to digital receipts, thereby reducing paper use.",
+      "answerZh": "我們的公司改用電子收據，從而減少紙張使用量。",
+      "answerZhSource": "pdf",
+      "highlight": "Our company switched to digital receipts, thereby reducing paper use."
+    },
+    {
+      "id": "ss148-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Volunteers divided the work into smaller tasks. By doing so, they completed the job more efficiently.",
+      "promptZh": "義工把工作分成較小的任務。這樣做讓他們更有效率地完成工作。",
+      "promptZhSource": "pdf",
+      "starter": "Volunteers",
+      "answer": "Volunteers divided the work into smaller tasks, thereby completing the job more efficiently.",
+      "answerZh": "義工把工作分成較小的任務，從而更有效率地完成工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Volunteers divided the work into smaller tasks, thereby completing the job more efficiently."
+    },
+    {
+      "id": "ss148-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A hospital created an online booking system, which enabled patients to make appointments from home.",
+      "promptZh": "一間醫院建立網上預約系統，讓病人可以在家中預約。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A hospital created an online booking system, thereby enabling patients to make appointments from home.",
+      "answerZh": "一間醫院建立網上預約系統，從而讓病人可以在家中預約。",
+      "answerZhSource": "pdf",
+      "highlight": "A hospital created an online booking system, thereby enabling patients to make appointments from home."
+    },
+    {
+      "id": "ss148-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Transport officials extended the bus route. As a result, more residents gained access to public transport.",
+      "promptZh": "運輸部門人員延長了巴士路線。因此，更多居民可以使用公共交通。",
+      "promptZhSource": "pdf",
+      "starter": "Transport",
+      "answer": "Transport officials extended the bus route, thereby giving more residents access to public transport.",
+      "answerZh": "運輸部門人員延長了巴士路線，從而讓更多居民可以使用公共交通。",
+      "answerZhSource": "pdf",
+      "highlight": "Transport officials extended the bus route, thereby giving more residents access to public transport."
+    },
+    {
+      "id": "ss148-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You should back up your files regularly because this reduces the risk of losing important work.",
+      "promptZh": "你應該定期備份檔案，因為這可以降低遺失重要工作的風險。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should back up your files regularly, thereby reducing the risk of losing important work.",
+      "answerZh": "你應該定期備份檔案，從而降低遺失重要工作的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "You should back up your files regularly, thereby reducing the risk of losing important work."
+    },
+    {
+      "id": "ss148-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "An accountant checked the figures twice and, as a result, found the error before the report was sent.",
+      "promptZh": "一名會計師核對數字兩次，因此在報告發出前發現了錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An accountant checked the figures twice, thereby finding the error before the report was sent.",
+      "answerZh": "一名會計師核對數字兩次，從而在報告發出前發現錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "An accountant checked the figures twice, thereby finding the error before the report was sent."
+    },
+    {
+      "id": "ss148-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The chef lowered the heat, so the sauce did not burn.",
+      "promptZh": "廚師調低火力，所以醬汁沒有燒焦。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chef lowered the heat, thereby preventing the sauce from burning.",
+      "answerZh": "廚師調低火力，從而防止醬汁燒焦。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef lowered the heat, thereby preventing the sauce from burning."
+    },
+    {
+      "id": "ss148-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Museum staff placed arrows on the floor. These arrows guided visitors through the exhibition.",
+      "promptZh": "博物館職員在地面放置箭嘴。這些箭嘴引導訪客參觀展覽。",
+      "promptZhSource": "pdf",
+      "starter": "Museum",
+      "answer": "Museum staff placed arrows on the floor, thereby guiding visitors through the exhibition.",
+      "answerZh": "博物館職員在地面放置箭嘴，從而引導訪客參觀展覽。",
+      "answerZhSource": "pdf",
+      "highlight": "Museum staff placed arrows on the floor, thereby guiding visitors through the exhibition."
+    },
+    {
+      "id": "ss148-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The council repaired the broken pavement. This made the street safer for older residents.",
+      "promptZh": "區議會修理了破損的行人路。這令街道對年長居民而言更加安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council repaired the broken pavement, thereby making the street safer for older residents.",
+      "answerZh": "區議會修理了破損的行人路，從而令街道對年長居民而言更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The council repaired the broken pavement, thereby making the street safer for older residents."
+    },
+    {
+      "id": "ss148-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A student used headings in her report, so her ideas became easier to follow.",
+      "promptZh": "一名學生在報告中使用標題，所以她的想法變得更容易理解。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A student used headings in her report, thereby making her ideas easier to follow.",
+      "answerZh": "一名學生在報告中使用標題，從而令她的想法更容易理解。",
+      "answerZhSource": "pdf",
+      "highlight": "A student used headings in her report, thereby making her ideas easier to follow."
+    },
+    {
+      "id": "ss148-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Both departments shared one database, and therefore they did not have to enter the same data repeatedly.",
+      "promptZh": "兩個部門共用一個資料庫，因此不必重複輸入相同資料。",
+      "promptZhSource": "pdf",
+      "starter": "Both",
+      "answer": "Both departments shared one database, thereby avoiding repeated data entry.",
+      "answerZh": "兩個部門共用一個資料庫，從而避免重複輸入資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Both departments shared one database, thereby avoiding repeated data entry."
+    },
+    {
+      "id": "ss148-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Motion sensors were fitted to the lights. As a result, unnecessary electricity use was reduced.",
+      "promptZh": "燈具安裝了動態感應器。因此，不必要的用電量有所減少。",
+      "promptZhSource": "pdf",
+      "starter": "Motion",
+      "answer": "Motion sensors were fitted to the lights, thereby reducing unnecessary electricity use.",
+      "answerZh": "燈具安裝了動態感應器，從而減少不必要的電力使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Motion sensors were fitted to the lights, thereby reducing unnecessary electricity use."
+    },
+    {
+      "id": "ss148-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "An organiser sent a reminder the day before. This led to more people attending the workshop.",
+      "promptZh": "一名主辦者在前一天發出提醒。這令更多人出席工作坊。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An organiser sent a reminder the day before, thereby increasing attendance at the workshop.",
+      "answerZh": "一名主辦者在前一天發出提醒，從而提高工作坊的出席人數。",
+      "answerZhSource": "pdf",
+      "highlight": "An organiser sent a reminder the day before, thereby increasing attendance at the workshop."
+    },
+    {
+      "id": "ss148-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our school staggered lunch times, which reduced crowding in the canteen.",
+      "promptZh": "我們的學校把午膳時間錯開，這減少了飯堂的擠迫情況。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school staggered lunch times, thereby reducing crowding in the canteen.",
+      "answerZh": "我們的學校把午膳時間錯開，從而減少飯堂的擠迫情況。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school staggered lunch times, thereby reducing crowding in the canteen."
+    },
+    {
+      "id": "ss148-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor explained the treatment in simple language. This helped the patient make an informed decision.",
+      "promptZh": "醫生用簡單的語言解釋治療方法。這幫助病人作出知情決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained the treatment in simple language, thereby helping the patient make an informed decision.",
+      "answerZh": "醫生用簡單的語言解釋治療方法，從而幫助病人作出知情決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained the treatment in simple language, thereby helping the patient make an informed decision."
+    },
+    {
+      "id": "ss148-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Warehouse managers introduced barcode scanning. As a result, staff could track each parcel more accurately.",
+      "promptZh": "倉庫管理人員引入條碼掃描。因此，職員可以更準確地追蹤每件包裹。",
+      "promptZhSource": "pdf",
+      "starter": "Warehouse",
+      "answer": "Warehouse managers introduced barcode scanning, thereby allowing staff to track each parcel more accurately.",
+      "answerZh": "倉庫管理人員引入條碼掃描，從而讓職員可以更準確地追蹤每件包裹。",
+      "answerZhSource": "pdf",
+      "highlight": "Warehouse managers introduced barcode scanning, thereby allowing staff to track each parcel more accurately."
+    },
+    {
+      "id": "ss148-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The government published the data online, and this gave the public easier access to the information.",
+      "promptZh": "政府在網上公布數據，而這讓公眾更容易取得相關資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The government published the data online, thereby giving the public easier access to the information.",
+      "answerZh": "政府在網上公布數據，從而讓公眾更容易取得相關資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The government published the data online, thereby giving the public easier access to the information."
+    },
+    {
+      "id": "ss148-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Engineers strengthened the bridge supports, which extended the bridge’s useful life.",
+      "promptZh": "工程師加固橋樑支架，這延長了橋樑的使用年期。",
+      "promptZhSource": "pdf",
+      "starter": "Engineers",
+      "answer": "Engineers strengthened the bridge supports, thereby extending the bridge’s useful life.",
+      "answerZh": "工程師加固橋樑支架，從而延長橋樑的使用年期。",
+      "answerZhSource": "pdf",
+      "highlight": "Engineers strengthened the bridge supports, thereby extending the bridge’s useful life."
+    },
+    {
+      "id": "ss148-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A delivery company combined several small deliveries. This lowered transport costs and reduced fuel use.",
+      "promptZh": "一間物流公司合併了數批小型貨運。這降低了運輸成本，並減少燃料使用。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A delivery company combined several small deliveries, thereby lowering transport costs and reducing fuel use.",
+      "answerZh": "一間物流公司合併了數批小型貨運，從而降低運輸成本並減少燃料使用。",
+      "answerZhSource": "pdf",
+      "highlight": "A delivery company combined several small deliveries, thereby lowering transport costs and reducing fuel use."
+    },
+    {
+      "id": "ss148-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The teacher divided the project into stages. This made it easier for students to manage their time.",
+      "promptZh": "老師把專題研習分成多個階段。這讓學生更容易管理時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher divided the project into stages, thereby making it easier for students to manage their time.",
+      "answerZh": "老師把專題研習分成多個階段，從而讓學生更容易管理時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher divided the project into stages, thereby making it easier for students to manage their time."
+    },
+    {
+      "id": "ss148-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A local clinic offered evening appointments, which enabled full-time workers to receive treatment after work.",
+      "promptZh": "一間本地診所提供晚間預約，讓全職僱員可以在下班後接受治療。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A local clinic offered evening appointments, thereby enabling full-time workers to receive treatment after work.",
+      "answerZh": "一間本地診所提供晚間預約，從而讓全職僱員可以在下班後接受治療。",
+      "answerZhSource": "pdf",
+      "highlight": "A local clinic offered evening appointments, thereby enabling full-time workers to receive treatment after work."
+    },
+    {
+      "id": "ss148-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This software automatically checks incomplete fields. As a result, users cannot submit forms with missing information.",
+      "promptZh": "這個軟件會自動檢查未填妥的欄位。因此，使用者無法提交資料不全的表格。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This software automatically checks incomplete fields, thereby preventing users from submitting forms with missing information.",
+      "answerZh": "這個軟件會自動檢查未填妥的欄位，從而防止使用者提交資料不全的表格。",
+      "answerZhSource": "pdf",
+      "highlight": "This software automatically checks incomplete fields, thereby preventing users from submitting forms with missing information."
+    },
+    {
+      "id": "ss148-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The community centre converted an empty room into a study area. This gave local students a quiet place to work.",
+      "promptZh": "社區中心把一個空置房間改建成自修區。這為區內學生提供了一個安靜的學習地方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community centre converted an empty room into a study area, thereby giving local students a quiet place to work.",
+      "answerZh": "社區中心把一個空置房間改建成自修區，從而為區內學生提供一個安靜的學習地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre converted an empty room into a study area, thereby giving local students a quiet place to work."
+    },
+    {
+      "id": "ss148-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "An airline simplified its online check-in process. As a result, queues at the airport became shorter and the passenger experience improved.",
+      "promptZh": "一間航空公司簡化了網上辦理登機手續的流程。因此，機場的輪候隊伍縮短了，乘客體驗亦有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An airline simplified its online check-in process, thereby shortening queues at the airport and improving the passenger experience.",
+      "answerZh": "一間航空公司簡化了網上辦理登機手續的流程，從而縮短機場的輪候隊伍並改善乘客體驗。",
+      "answerZhSource": "pdf",
+      "highlight": "An airline simplified its online check-in process, thereby shortening queues at the airport and improving the passenger experience."
+    },
+    {
+      "id": "ss148-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The research team published its methods and data. This allowed other scientists to examine the findings and repeat the study.",
+      "promptZh": "研究團隊公布了研究方法和數據。這讓其他科學家可以檢視研究結果並重複進行研究。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team published its methods and data, thereby allowing other scientists to examine the findings and repeat the study.",
+      "answerZh": "研究團隊公布了研究方法和數據，從而讓其他科學家可以檢視研究結果並重複進行研究。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team published its methods and data, thereby allowing other scientists to examine the findings and repeat the study."
+    }
+  ]
+}

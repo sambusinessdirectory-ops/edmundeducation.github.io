@@ -1,0 +1,1236 @@
+{
+  "id": "ss116",
+  "order": 116,
+  "slug": "once-clause",
+  "title": "「Once 句：一旦……／……之後便……」",
+  "titleZh": "「Once 句：一旦……／……之後便……」",
+  "titleEn": "Using once to show what happens after a stage is reached",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 116 -「Once 句：一旦……／……之後便……」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Once + subject + verb, + main clause",
+  "formulas": [
+    {
+      "id": "ss116-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Once + subject + verb, + main clause"
+    },
+    {
+      "id": "ss116-formula-02",
+      "labelEn": "Pattern 2",
+      "labelZh": "句式 2",
+      "formula": "Main clause + once + subject + verb"
+    }
+  ],
+  "example": "Once you understand the pattern, it becomes easier.",
+  "exampleZh": "一旦你明白這個規律，事情便會變得更容易。",
+  "examples": [
+    {
+      "id": "ss116-example-01",
+      "en": "Once you understand the pattern, it becomes easier.",
+      "zh": "一旦你明白這個規律，事情便會變得更容易。",
+      "highlight": "Once you understand the pattern"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss116-rule-01",
+      "zh": "Once 強調「先完成一件事，然後發生另一件事」 Once 通常帶有「到了某個階段之後」的意思。 車門打開是第一個事件；乘客進入是其後發生的事情。",
+      "en": "Once emphasizes that one event is completed or a stage is reached before the next event occurs. It often means ‘after a certain point has been reached’: the door opening is the first event, and the passengers entering is what happens afterwards.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Once the door opens, the passengers can enter."
+      ]
+    },
+    {
+      "id": "ss116-rule-02",
+      "zh": "表達將來時，once 子句通常不使用 will 在時間子句中，即使意思涉及將來，once 後通常使用現在式或現在完成式。",
+      "en": "For future meaning, do not normally use will in the once-clause. Even when the meaning concerns the future, use the present simple or present perfect after once.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Once you finish the report, I will check it.",
+        "Once you have finished the report, I will check it."
+      ]
+    },
+    {
+      "id": "ss116-rule-03",
+      "zh": "Once 子句放在前面時，通常使用逗號 Once 子句放在後面時，通常不需要逗號。",
+      "en": "Use a comma after an initial once-clause; a final once-clause normally needs no comma.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Once the rain stops, we can leave.",
+        "We can leave once the rain stops."
+      ]
+    },
+    {
+      "id": "ss116-rule-04",
+      "zh": "Once 可以配合不同時態 Present 現在： Future 將來： Past 過去： Past perfect 過去完成：",
+      "en": "Once can be used in present, future, past and past-perfect contexts.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Once I understand a topic, I remember it more easily.",
+        "Once the shop opens, we will go inside.",
+        "Once the meeting ended, everyone went home.",
+        "Once the final guest had arrived, the host began the speech."
+      ]
+    },
+    {
+      "id": "ss116-rule-05",
+      "zh": "Once 與 When 的分別 When 是較廣泛和中性的時間連接詞，可以表示： ● 某件事發生的時候； ● 兩件事同時發生； ● 每逢某件事發生； ● 將來某個時間點。 Once 則更強調第一件事已經發生、完成，或到達某個階段，然後第二件事才發生。 這裏兩件事在同一段時間發生，不適合改用 once。 這裏強調先完成閱讀，然後才還書。 在部分將來句中，when 和 once 都可以使用，但 once 更突出「第一個階段完成後」的意思。",
+      "en": "Once emphasizes completion before a later event, unlike the broader and more neutral time linker when. When can mark the time of an event, simultaneous events, repeated occasions or a future time point. Once stresses that the first event has happened or been completed, or that a stage has been reached, before the second event occurs. It is therefore unsuitable when two events merely happen at the same time. In some future sentences either when or once is possible, but once highlights completion of the first stage.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "When I was reading, the phone rang.",
+        "Once I finished reading, I returned the book."
+      ]
+    },
+    {
+      "id": "ss116-rule-06",
+      "zh": "Once 與 If 的分別 If 表示一個未必會發生的條件。 Once 通常表示說話者預期或相信這件事會發生，只是不知道確實時間。 完成報告仍帶有不確定性。 說話者預期對方會完成報告，重點是完成之後要做甚麼。 簡單來說： ● When：當……的時候，屬中性時間關係。 ● If：如果……，事情可能發生，也可能不發生。 ● Once：一旦……／……之後，通常預期第一件事會發生，並強調其後的結果。",
+      "en": "Once normally presents an expected event, whereas if presents an uncertain condition. With if, the event may or may not happen; with once, the speaker expects it to happen but does not know exactly when, and the focus is on what follows. In short, when expresses a neutral time relationship, if presents a possible condition, and once presents an expected first event and emphasizes its subsequent result.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "When：當……的時候，屬中性時間關係。",
+        "If：如果……，事情可能發生，也可能不發生。",
+        "Once：一旦……／……之後，通常預期第一件事會發生，並強調其後的結果。",
+        "If you finish the report, send it to me.",
+        "Once you finish the report, send it to me."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss116-benefit-01",
+      "zh": "讓事情的先後次序更清楚 這個句型能清楚說明哪一個動作先發生，以及其後會發生甚麼。",
+      "en": "It makes the order of events clear. This structure clearly shows which action must happen first and what happens afterwards.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss116-benefit-02",
+      "zh": "可以把兩個步驟合併成一句 你不需要使用「先……，然後……」寫成兩句，也可以運用 once 自然地連接兩個步驟。 第二句較緊密，而且能立即顯示兩件事的關係。",
+      "en": "It can combine two steps in one sentence. Instead of writing two separate sentences with first and then, you can connect the steps naturally with once. The combined version is tighter and makes the relationship between the two events immediately clear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss116-benefit-03",
+      "zh": "表示完成一個階段後，另一件事才變得可行 讀者能立即明白使用機器之前必須完成甚麼。",
+      "en": "It shows that something becomes possible after a stage is completed. The reader can immediately see what must be completed before the machine can be used.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Once the safety check is complete, the machine can be used."
+      ]
+    },
+    {
+      "id": "ss116-benefit-04",
+      "zh": "適合說明指示和計劃 你可以使用 once 說明工作流程、食譜、行程、課堂指示和其他有先後次序的安排。",
+      "en": "It is useful for instructions and plans. You can use once to explain procedures, work arrangements, recipes, travel plans, classroom instructions and other arrangements with a clear sequence.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss116-benefit-05",
+      "zh": "比 if 更能表達預期和確定性 當你預期第一件事將會發生時，once 能讓你集中說明其後的安排，而不是討論事情會否發生。",
+      "en": "It can sound more certain than if. When you expect the first event to happen, once helps you focus on what should happen next rather than questioning whether the event will happen.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using once to show that one action or stage happens before another action or result.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 once 改寫以下句子，表示一個動作或階段先發生，然後另一個動作或結果才出現。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss116-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The exercise becomes easier after you understand the rule.",
+      "promptZh": "你明白規則之後，練習便會變得更容易。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once you understand the rule, the exercise becomes easier.",
+      "answerZh": "一旦你明白規則，練習便會變得更容易。",
+      "answerZhSource": "pdf",
+      "highlight": "Once you understand the rule, the exercise becomes easier."
+    },
+    {
+      "id": "ss116-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The room will feel brighter after you open the curtains.",
+      "promptZh": "你拉開窗簾後，房間便會顯得更明亮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room will feel brighter once you open the curtains.",
+      "answerZh": "你一拉開窗簾，房間便會顯得更明亮。",
+      "answerZhSource": "pdf",
+      "highlight": "The room will feel brighter once you open the curtains."
+    },
+    {
+      "id": "ss116-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The students will leave the classroom when the bell rings.",
+      "promptZh": "鐘聲響起時，學生便會離開課室。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the bell rings, the students will leave the classroom.",
+      "answerZh": "鐘聲一響，學生便會離開課室。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the bell rings, the students will leave the classroom."
+    },
+    {
+      "id": "ss116-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I will call you after I arrive home.",
+      "promptZh": "我回到家後便會致電給你。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will call you once I arrive home.",
+      "answerZh": "我一回到家便會致電給你。",
+      "answerZhSource": "pdf",
+      "highlight": "I will call you once I arrive home."
+    },
+    {
+      "id": "ss116-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We cannot continue the game until the rain stops.",
+      "promptZh": "雨停之前，我們不能繼續比賽。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the rain stops, we can continue the game.",
+      "answerZh": "一旦雨停，我們便可以繼續比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the rain stops, we can continue the game."
+    },
+    {
+      "id": "ss116-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Wait until the water boils. Then add the noodles.",
+      "promptZh": "等水煮沸，然後加入麵條。",
+      "promptZhSource": "pdf",
+      "starter": "Add",
+      "answer": "Add the noodles once the water boils.",
+      "answerZh": "水一煮沸，便加入麵條。",
+      "answerZhSource": "pdf",
+      "highlight": "Add the noodles once the water boils."
+    },
+    {
+      "id": "ss116-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Mia must finish her homework before she can watch television.",
+      "promptZh": "米婭必須先完成家課，才可以看電視。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia can watch television once she finishes her homework.",
+      "answerZh": "米婭完成家課後，便可以看電視。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia can watch television once she finishes her homework."
+    },
+    {
+      "id": "ss116-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You may use the computer after the teacher gives permission.",
+      "promptZh": "老師准許後，你便可以使用電腦。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may use the computer once the teacher gives permission.",
+      "answerZh": "老師一准許，你便可以使用電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "You may use the computer once the teacher gives permission."
+    },
+    {
+      "id": "ss116-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Customers cannot enter before the shop opens.",
+      "promptZh": "商店開門之前，顧客不能進入。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the shop opens, customers can enter.",
+      "answerZh": "一旦商店開門，顧客便可以進入。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the shop opens, customers can enter."
+    },
+    {
+      "id": "ss116-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben spoke to his teacher. After that, he felt calmer.",
+      "promptZh": "本與老師談過之後，感到較為平靜。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben felt calmer once he spoke to his teacher.",
+      "answerZh": "本與老師談過後，便感到較為平靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben felt calmer once he spoke to his teacher."
+    },
+    {
+      "id": "ss116-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Wash the fruit first. Then cut it into small pieces.",
+      "promptZh": "先把水果洗乾淨，然後切成小塊。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once you have washed the fruit, cut it into small pieces.",
+      "answerZh": "一旦你把水果洗乾淨，便把它切成小塊。",
+      "answerZhSource": "pdf",
+      "highlight": "Once you have washed the fruit, cut it into small pieces."
+    },
+    {
+      "id": "ss116-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The website will not work properly until you update the app.",
+      "promptZh": "你更新應用程式之前，網站不會正常運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website will work properly once you update the app.",
+      "answerZh": "你更新應用程式後，網站便會正常運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The website will work properly once you update the app."
+    },
+    {
+      "id": "ss116-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The doctor will explain the results to you after she has checked them.",
+      "promptZh": "醫生檢查結果後，便會向你解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the doctor has checked the results, she will explain them to you.",
+      "answerZh": "一旦醫生檢查了結果，便會向你解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the doctor has checked the results, she will explain them to you."
+    },
+    {
+      "id": "ss116-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We have to wait for Dad to come home before we can start dinner.",
+      "promptZh": "我們要等爸爸回家後才可以開始吃晚飯。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can start dinner once Dad comes home.",
+      "answerZh": "爸爸回家後，我們便可以開始吃晚飯。",
+      "answerZhSource": "pdf",
+      "highlight": "We can start dinner once Dad comes home."
+    },
+    {
+      "id": "ss116-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The bus will move faster as soon as the traffic clears.",
+      "promptZh": "交通一恢復暢順，巴士便會行駛得更快。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the traffic clears, the bus will move faster.",
+      "answerZh": "一旦交通恢復暢順，巴士便會行駛得更快。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the traffic clears, the bus will move faster."
+    },
+    {
+      "id": "ss116-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The floor will be safe to walk on after it dries.",
+      "promptZh": "地板乾透後，便可以安全地在上面行走。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The floor will be safe to walk on once it dries.",
+      "answerZh": "地板乾透後，便可以安全地在上面行走。",
+      "answerZhSource": "pdf",
+      "highlight": "The floor will be safe to walk on once it dries."
+    },
+    {
+      "id": "ss116-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Olivia will not need the map after she learns the route.",
+      "promptZh": "奧莉花熟悉路線後，便不再需要地圖。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once Olivia learns the route, she will not need the map.",
+      "answerZh": "一旦奧莉花熟悉路線，便不再需要地圖。",
+      "answerZhSource": "pdf",
+      "highlight": "Once Olivia learns the route, she will not need the map."
+    },
+    {
+      "id": "ss116-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You may not leave until you have completed the form.",
+      "promptZh": "你填妥表格後才可以離開。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may leave once you have completed the form.",
+      "answerZh": "你填妥表格後便可以離開。",
+      "answerZhSource": "pdf",
+      "highlight": "You may leave once you have completed the form."
+    },
+    {
+      "id": "ss116-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The film will begin as soon as the lights go out.",
+      "promptZh": "燈一熄滅，電影便會開始。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the lights go out, the film will begin.",
+      "answerZh": "燈一熄滅，電影便會開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the lights go out, the film will begin."
+    },
+    {
+      "id": "ss116-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children saw the animals. At that point, they became excited.",
+      "promptZh": "孩子們看到動物時，便興奮起來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children became excited once they saw the animals.",
+      "answerZh": "孩子們一看到動物，便興奮起來。",
+      "answerZhSource": "pdf",
+      "highlight": "The children became excited once they saw the animals."
+    },
+    {
+      "id": "ss116-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "After the password has been changed, the old one will no longer work.",
+      "promptZh": "密碼更改後，舊密碼便不能再使用。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the password has been changed, the old one will no longer work.",
+      "answerZh": "一旦密碼更改，舊密碼便不能再使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the password has been changed, the old one will no longer work."
+    },
+    {
+      "id": "ss116-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The machine cannot be used before the safety check is complete.",
+      "promptZh": "安全檢查完成之前，不能使用這部機器。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine can be used once the safety check is complete.",
+      "answerZh": "安全檢查一完成，便可以使用這部機器。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine can be used once the safety check is complete."
+    },
+    {
+      "id": "ss116-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Daniel saved enough money first. He then bought a new bicycle.",
+      "promptZh": "丹尼爾先儲了足夠的錢，然後買了一輛新單車。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once Daniel had saved enough money, he bought a new bicycle.",
+      "answerZh": "丹尼爾儲了足夠的錢後，便買了一輛新單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Once Daniel had saved enough money, he bought a new bicycle."
+    },
+    {
+      "id": "ss116-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The parcel will be delivered after the address has been confirmed.",
+      "promptZh": "地址確認後，包裹便會送出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel will be delivered once the address has been confirmed.",
+      "answerZh": "地址確認後，包裹便會送出。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel will be delivered once the address has been confirmed."
+    },
+    {
+      "id": "ss116-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You may feel less stressed after you stop comparing yourself with others.",
+      "promptZh": "當你停止與別人比較後，你可能會感到較少壓力。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once you stop comparing yourself with others, you may feel less stressed.",
+      "answerZh": "一旦你停止與別人比較，便可能會感到較少壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "Once you stop comparing yourself with others, you may feel less stressed."
+    },
+    {
+      "id": "ss116-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The workers switched off the machine, and then the noise disappeared.",
+      "promptZh": "工人關掉機器後，噪音便消失了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The noise disappeared once the workers switched off the machine.",
+      "answerZh": "工人一關掉機器，噪音便消失了。",
+      "answerZhSource": "pdf",
+      "highlight": "The noise disappeared once the workers switched off the machine."
+    },
+    {
+      "id": "ss116-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The pain should become weaker when the medicine begins to work.",
+      "promptZh": "藥物開始生效時，痛楚應該會減輕。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the medicine begins to work, the pain should become weaker.",
+      "answerZh": "一旦藥物開始生效，痛楚應該會減輕。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the medicine begins to work, the pain should become weaker."
+    },
+    {
+      "id": "ss116-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Students cannot borrow the equipment until a teacher has approved the request.",
+      "promptZh": "老師批准申請後，學生才可以借用設備。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students can borrow the equipment once a teacher has approved the request.",
+      "answerZh": "老師批准申請後，學生便可以借用設備。",
+      "answerZhSource": "pdf",
+      "highlight": "Students can borrow the equipment once a teacher has approved the request."
+    },
+    {
+      "id": "ss116-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Buses started using the road again after it was repaired.",
+      "promptZh": "道路修復後，巴士再次使用這條道路。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the road was repaired, buses started using it again.",
+      "answerZh": "道路修復後，巴士便再次使用這條道路。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the road was repaired, buses started using it again."
+    },
+    {
+      "id": "ss116-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I did not realise the mistake until I read the email again.",
+      "promptZh": "我再次閱讀電郵後，才發現這個錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I realised the mistake once I read the email again.",
+      "answerZh": "我再次閱讀電郵後，便發現了這個錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "I realised the mistake once I read the email again."
+    },
+    {
+      "id": "ss116-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Leave the building calmly when the alarm sounds.",
+      "promptZh": "警報響起時，請保持冷靜並離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the alarm sounds, leave the building calmly.",
+      "answerZh": "警報一響，請保持冷靜並離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the alarm sounds, leave the building calmly."
+    },
+    {
+      "id": "ss116-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You should finish editing the document before you save a copy.",
+      "promptZh": "你應該完成文件編輯後才儲存副本。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should save a copy once you finish editing the document.",
+      "answerZh": "你完成文件編輯後，便應該儲存副本。",
+      "answerZhSource": "pdf",
+      "highlight": "You should save a copy once you finish editing the document."
+    },
+    {
+      "id": "ss116-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The warehouse can prepare the goods after the customer confirms the order.",
+      "promptZh": "顧客確認訂單後，倉庫便可以準備貨物。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the customer confirms the order, the warehouse can prepare the goods.",
+      "answerZh": "一旦顧客確認訂單，倉庫便可以準備貨物。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the customer confirms the order, the warehouse can prepare the goods."
+    },
+    {
+      "id": "ss116-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team will not publish the report until all the figures have been checked.",
+      "promptZh": "所有數據核對完成後，團隊才會發表報告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team will publish the report once all the figures have been checked.",
+      "answerZh": "所有數據核對完成後，團隊便會發表報告。",
+      "answerZhSource": "pdf",
+      "highlight": "The team will publish the report once all the figures have been checked."
+    },
+    {
+      "id": "ss116-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Please wait until the baby is asleep before closing the door quietly.",
+      "promptZh": "請等嬰兒入睡後，再輕輕關上房門。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the baby is asleep, please close the door quietly.",
+      "answerZh": "一旦嬰兒入睡，請輕輕關上房門。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the baby is asleep, please close the door quietly."
+    },
+    {
+      "id": "ss116-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We moved the plants closer to the window. After that, they grew better.",
+      "promptZh": "我們把植物移近窗邊後，植物生長得更好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plants grew better once we moved them closer to the window.",
+      "answerZh": "我們把植物移近窗邊後，植物便生長得更好。",
+      "answerZhSource": "pdf",
+      "highlight": "The plants grew better once we moved them closer to the window."
+    },
+    {
+      "id": "ss116-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The host began the speech after the final guest had arrived.",
+      "promptZh": "最後一位賓客到達後，主人便開始致辭。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the final guest had arrived, the host began the speech.",
+      "answerZh": "最後一位賓客到達後，主人便開始致辭。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the final guest had arrived, the host began the speech."
+    },
+    {
+      "id": "ss116-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You will not understand the ending until you watch the final scene.",
+      "promptZh": "你看過最後一幕後，才會明白結局。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You will understand the ending once you watch the final scene.",
+      "answerZh": "你看過最後一幕後，便會明白結局。",
+      "answerZhSource": "pdf",
+      "highlight": "You will understand the ending once you watch the final scene."
+    },
+    {
+      "id": "ss116-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The driver should take this route after the road becomes less crowded.",
+      "promptZh": "道路不再那麼擠塞後，司機應該使用這條路線。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the road becomes less crowded, the driver should take this route.",
+      "answerZh": "一旦道路不再那麼擠塞，司機便應該使用這條路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the road becomes less crowded, the driver should take this route."
+    },
+    {
+      "id": "ss116-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The printer can produce clear pages after the ink cartridge is replaced.",
+      "promptZh": "更換墨盒後，打印機便可以印出清晰的頁面。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The printer can produce clear pages once the ink cartridge is replaced.",
+      "answerZh": "更換墨盒後，打印機便可以印出清晰的頁面。",
+      "answerZhSource": "pdf",
+      "highlight": "The printer can produce clear pages once the ink cartridge is replaced."
+    },
+    {
+      "id": "ss116-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "New students cannot enter the library until they have received their cards.",
+      "promptZh": "新生領取學生證後，才可以進入圖書館。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once new students have received their cards, they can enter the library.",
+      "answerZh": "一旦新生領取了學生證，便可以進入圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "Once new students have received their cards, they can enter the library."
+    },
+    {
+      "id": "ss116-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The hospital will open the new ward after the safety inspection has been completed.",
+      "promptZh": "安全檢查完成後，醫院便會開放新病房。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital will open the new ward once the safety inspection has been completed.",
+      "answerZh": "安全檢查完成後，醫院便會開放新病房。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital will open the new ward once the safety inspection has been completed."
+    },
+    {
+      "id": "ss116-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Residents are more likely to use the recycling system correctly after they understand how it works.",
+      "promptZh": "居民明白回收系統的運作方法後，便更有可能正確使用它。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once residents understand how the recycling system works, they are more likely to use it correctly.",
+      "answerZh": "一旦居民明白回收系統的運作方法，便更有可能正確使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "Once residents understand how the recycling system works, they are more likely to use it correctly."
+    },
+    {
+      "id": "ss116-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The manager will approve the schedule after every department has confirmed its availability.",
+      "promptZh": "各部門確認可以配合的時間後，經理便會批准時間表。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager will approve the schedule once every department has confirmed its availability.",
+      "answerZh": "各部門確認可以配合的時間後，經理便會批准時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager will approve the schedule once every department has confirmed its availability."
+    },
+    {
+      "id": "ss116-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The application cannot be reviewed properly until the missing information is added.",
+      "promptZh": "補上遺漏資料後，申請才可以得到適當審核。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the missing information is added, the application can be reviewed properly.",
+      "answerZh": "一旦補上遺漏資料，申請便可以得到適當審核。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the missing information is added, the application can be reviewed properly."
+    },
+    {
+      "id": "ss116-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The public cannot use the new footbridge before the construction work is finished.",
+      "promptZh": "建築工程完成之前，公眾不能使用新行人天橋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public can use the new footbridge once the construction work is finished.",
+      "answerZh": "建築工程完成後，公眾便可以使用新行人天橋。",
+      "answerZhSource": "pdf",
+      "highlight": "The public can use the new footbridge once the construction work is finished."
+    },
+    {
+      "id": "ss116-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Employees can organise their time more effectively after they know which tasks are most urgent.",
+      "promptZh": "僱員知道哪些工作最緊急後，便可以更有效地安排時間。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once employees know which tasks are most urgent, they can organise their time more effectively.",
+      "answerZh": "一旦僱員知道哪些工作最緊急，便可以更有效地安排時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Once employees know which tasks are most urgent, they can organise their time more effectively."
+    },
+    {
+      "id": "ss116-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The school will confirm the date of the event first. It will then contact parents.",
+      "promptZh": "學校會先確認活動日期，然後聯絡家長。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school will contact parents once it has confirmed the date of the event.",
+      "answerZh": "學校確認活動日期後，便會聯絡家長。",
+      "answerZhSource": "pdf",
+      "highlight": "The school will contact parents once it has confirmed the date of the event."
+    },
+    {
+      "id": "ss116-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Local residents were allowed to return after the emergency team had made the area safe.",
+      "promptZh": "緊急應變隊伍確保該區安全後，當地居民獲准返回。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the emergency team had made the area safe, local residents were allowed to return.",
+      "answerZh": "緊急應變隊伍確保該區安全後，當地居民便獲准返回。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the emergency team had made the area safe, local residents were allowed to return."
+    },
+    {
+      "id": "ss116-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The discussion becomes more productive after everyone has had a chance to explain their concerns.",
+      "promptZh": "每個人都有機會說明自己的關注事項後，討論便會變得更有成效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The discussion becomes more productive once everyone has had a chance to explain their concerns.",
+      "answerZh": "每個人都有機會說明自己的關注事項後，討論便會變得更有成效。",
+      "answerZhSource": "pdf",
+      "highlight": "The discussion becomes more productive once everyone has had a chance to explain their concerns."
+    }
+  ]
+}

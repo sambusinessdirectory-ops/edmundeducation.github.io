@@ -1,0 +1,1193 @@
+{
+  "id": "ss139",
+  "order": 139,
+  "slug": "more-importantly",
+  "title": "「More importantly：帶出更重要的一點」",
+  "titleZh": "「More importantly：帶出更重要的一點」",
+  "titleEn": "Using more importantly to introduce a higher-priority point",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 139 -「More importantly：帶出更重要的一點」.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Less important point. More importantly, + more important point",
+  "formulas": [
+    {
+      "id": "ss139-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Less important point. More importantly, + more important point"
+    }
+  ],
+  "example": "The policy is affordable. More importantly, it is fair.",
+  "exampleZh": "這項政策是負擔得起的。更重要的是，它是公平的。",
+  "examples": [
+    {
+      "id": "ss139-example-01",
+      "en": "The policy is affordable. More importantly, it is fair.",
+      "zh": "這項政策是負擔得起的。更重要的是，它是公平的。",
+      "highlight": "More importantly"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss139-rule-01",
+      "zh": "More importantly 用來先承認第一點，再帶出一個更值得重視的第二點。",
+      "en": "Use more importantly to acknowledge a first point before introducing a second point that deserves greater attention.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss139-rule-02",
+      "zh": "在本練習中，第一點後使用句號；More importantly 放在新一句的開頭，後面加逗號。",
+      "en": "In this exercise, end the first point with a full stop, begin a new sentence with More importantly, and place a comma after the phrase.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss139-rule-03",
+      "zh": "More importantly 後面必須接完整句子，不可只接一個名詞或形容詞。 4. 第二點必須真的比第一點重要；如果兩點同等重要，便不應使用這個句型。",
+      "en": "More importantly must introduce a complete sentence, not merely a noun or adjective. The second point must genuinely be more important than the first; do not use the phrase if both points have equal importance.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss139-rule-04",
+      "zh": "不要混淆 more importantly 和 more important： More important 是形容詞比較級；More importantly 則用來連接並排列兩個觀點。",
+      "en": "Do not confuse the sentence adverb more importantly with the adjective phrase more important. More important is a comparative adjective, whereas More importantly links and ranks two points.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Safety is more important than speed.",
+        "The plan is fast. More importantly, it is safe."
+      ]
+    },
+    {
+      "id": "ss139-rule-05",
+      "zh": "More importantly 表示後一點比前一點重要；Most importantly 則通常用來帶出多個要 點之中最重要的一點。",
+      "en": "More importantly says that the later point is more important than the earlier one; most importantly normally introduces the single most important point among several.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss139-benefit-01",
+      "zh": "清楚顯示重點 這個句型能直接告訴讀者或聽者：第二點比第一點更值得留意。",
+      "en": "It clearly signals the main priority by telling readers or listeners directly that the second point deserves more attention than the first.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss139-benefit-02",
+      "zh": "令論點更有層次 你可以先提出一個普通好處，再逐步帶出較有力的理由，使作文、報告和口語答案更有組織。",
+      "en": "It gives an argument a clearer hierarchy. You can begin with an ordinary benefit and then build towards a stronger reason, making an essay, report or spoken answer better organized.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss139-benefit-03",
+      "zh": "幫助讀者跟上你的思路 More importantly 像一個路標，提醒讀者接下來才是你真正想強調的內容。",
+      "en": "It helps readers follow your reasoning by acting as a signpost that the point you most want to emphasize is coming next.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss139-benefit-04",
+      "zh": "把兩個完整觀點自然連接起來 它能避免只用 and 或 but 串連所有句子，令表達不那麼重複。",
+      "en": "It connects two complete points naturally and avoids linking every sentence with only and or but.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss139-benefit-05",
+      "zh": "用較短方式表達優先次序 你不需要每次都寫 the more important point is that，也能簡潔地帶出較重要的一點。",
+      "en": "It expresses priority concisely, introducing the more important point without repeatedly writing the more important point is that.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using More importantly to introduce the point that matters more.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 More importantly 改寫以下句子，並用它帶出較重要的一點。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss139-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "promptZhPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "This bag is inexpensive. An even more important advantage is that it is durable.",
+      "promptZh": "這個袋子價格便宜。更重要的優點是它十分耐用。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bag is inexpensive. More importantly, it is durable.",
+      "answerZh": "這個袋子價格便宜。更重要的是，它十分耐用。",
+      "answerZhSource": "pdf",
+      "highlight": "This bag is inexpensive. More importantly, it is durable."
+    },
+    {
+      "id": "ss139-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Our room is bright. The more important fact is that it is quiet.",
+      "promptZh": "我們的房間光線充足。更重要的事實是它十分安靜。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our room is bright. More importantly, it is quiet.",
+      "answerZh": "我們的房間光線充足。更重要的是，它十分安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Our room is bright. More importantly, it is quiet."
+    },
+    {
+      "id": "ss139-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "This meal tastes good. What matters more is that it is healthy.",
+      "promptZh": "這頓飯味道很好。更值得重視的是它有益健康。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This meal tastes good. More importantly, it is healthy.",
+      "answerZh": "這頓飯味道很好。更重要的是，它有益健康。",
+      "answerZhSource": "pdf",
+      "highlight": "This meal tastes good. More importantly, it is healthy."
+    },
+    {
+      "id": "ss139-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The bus is fast. It is even more important that it is reliable.",
+      "promptZh": "這班巴士速度很快。它服務可靠這個優點更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus is fast. More importantly, it is reliable.",
+      "answerZh": "這班巴士速度很快。更重要的是，它服務可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus is fast. More importantly, it is reliable."
+    },
+    {
+      "id": "ss139-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "My phone looks attractive, but the greater advantage is that it is easy to use.",
+      "promptZh": "我的電話外形吸引，但更大的優點是它容易使用。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My phone looks attractive. More importantly, it is easy to use.",
+      "answerZh": "我的電話外形吸引。更重要的是，它容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "My phone looks attractive. More importantly, it is easy to use."
+    },
+    {
+      "id": "ss139-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "This class is enjoyable. The more important point is that students learn useful skills.",
+      "promptZh": "這堂課很有趣。更重要的一點是學生能學到實用技能。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This class is enjoyable. More importantly, students learn useful skills.",
+      "answerZh": "這堂課很有趣。更重要的是，學生能學到實用技能。",
+      "answerZhSource": "pdf",
+      "highlight": "This class is enjoyable. More importantly, students learn useful skills."
+    },
+    {
+      "id": "ss139-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Our park is beautiful. The more important feature is that it is safe.",
+      "promptZh": "我們的公園很美。更重要的特點是它十分安全。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our park is beautiful. More importantly, it is safe.",
+      "answerZh": "我們的公園很美。更重要的是，它很安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Our park is beautiful. More importantly, it is safe."
+    },
+    {
+      "id": "ss139-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "My job pays well. What matters more is that it offers stable working hours.",
+      "promptZh": "我的工作薪酬不錯。更值得重視的是它提供穩定的工作時間。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My job pays well. More importantly, it offers stable working hours.",
+      "answerZh": "我的工作薪酬不錯。更重要的是，它提供穩定的工作時間。",
+      "answerZhSource": "pdf",
+      "highlight": "My job pays well. More importantly, it offers stable working hours."
+    },
+    {
+      "id": "ss139-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The hotel is near the station, but the fact that it is clean is an even more important advantage.",
+      "promptZh": "這間酒店鄰近車站，但它很清潔這一點是更加重要的優點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hotel is near the station. More importantly, it is clean.",
+      "answerZh": "這間酒店鄰近車站。更重要的是，它很清潔。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel is near the station. More importantly, it is clean."
+    },
+    {
+      "id": "ss139-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "These instructions are short. It is even more important that they are clear.",
+      "promptZh": "這些指示很簡短。更加重要的是它們內容清晰。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These instructions are short. More importantly, they are clear.",
+      "answerZh": "這些指示很簡短。更重要的是，它們十分清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions are short. More importantly, they are clear."
+    },
+    {
+      "id": "ss139-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "This laptop is light, but a more significant advantage is that its battery lasts all day.",
+      "promptZh": "這部手提電腦很輕巧，但更重要的優點是它的電池可以使用一整天。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This laptop is light. More importantly, its battery lasts all day.",
+      "answerZh": "這部手提電腦很輕巧。更重要的是，它的電池可以使用一整天。",
+      "answerZhSource": "pdf",
+      "highlight": "This laptop is light. More importantly, its battery lasts all day."
+    },
+    {
+      "id": "ss139-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Ms Lee explains the rules clearly. What is more important is that she listens carefully when students ask questions.",
+      "promptZh": "李老師清楚解釋規則。更加重要的一點是，學生提問時，她會細心聆聽。",
+      "promptZhSource": "pdf",
+      "starter": "Ms",
+      "answer": "Ms Lee explains the rules clearly. More importantly, she listens carefully when students ask questions.",
+      "answerZh": "李老師清楚解釋規則。更重要的是，學生提問時，她會細心聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Lee explains the rules clearly. More importantly, she listens carefully when students ask questions."
+    },
+    {
+      "id": "ss139-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "This treatment is affordable. Its proven safety is the more important consideration.",
+      "promptZh": "這項治療費用合理。它已證實的安全性是更重要的考慮因素。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This treatment is affordable. More importantly, it has been proven safe.",
+      "answerZh": "這項治療費用合理。更重要的是，它已證實是安全的。",
+      "answerZhSource": "pdf",
+      "highlight": "This treatment is affordable. More importantly, it has been proven safe."
+    },
+    {
+      "id": "ss139-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Our new timetable gives us longer breaks. The greater benefit is that it reduces late arrivals.",
+      "promptZh": "我們的新時間表讓我們有更長的休息時間。更大的好處是它能減少遲到的情況。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our new timetable gives us longer breaks. More importantly, it reduces late arrivals.",
+      "answerZh": "我們的新時間表讓我們有更長的休息時間。更重要的是，它能減少遲到的情況。",
+      "answerZhSource": "pdf",
+      "highlight": "Our new timetable gives us longer breaks. More importantly, it reduces late arrivals."
+    },
+    {
+      "id": "ss139-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The team has talented players. Their willingness to cooperate matters even more.",
+      "promptZh": "這支球隊有具天分的球員。他們願意合作這一點更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team has talented players. More importantly, they are willing to cooperate.",
+      "answerZh": "這支球隊有具天分的球員。更重要的是，他們願意合作。",
+      "answerZhSource": "pdf",
+      "highlight": "The team has talented players. More importantly, they are willing to cooperate."
+    },
+    {
+      "id": "ss139-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "This website has a modern design. The more important point is that people with disabilities can use it easily.",
+      "promptZh": "這個網站設計現代化。更重要的一點是殘疾人士也能輕鬆使用它。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This website has a modern design. More importantly, people with disabilities can use it easily.",
+      "answerZh": "這個網站設計現代化。更重要的是，殘疾人士也能輕鬆使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "This website has a modern design. More importantly, people with disabilities can use it easily."
+    },
+    {
+      "id": "ss139-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Our shop sells many products. What matters more is that the staff give honest advice.",
+      "promptZh": "我們的商店售賣很多產品。更值得重視的是職員會提供誠實的建議。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our shop sells many products. More importantly, the staff give honest advice.",
+      "answerZh": "我們的商店售賣很多產品。更重要的是，職員會提供誠實的建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Our shop sells many products. More importantly, the staff give honest advice."
+    },
+    {
+      "id": "ss139-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "This course includes useful videos. Its greater strength is that learners receive personal feedback.",
+      "promptZh": "這個課程包括實用影片。它更大的優點是學員能獲得個人意見。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This course includes useful videos. More importantly, learners receive personal feedback.",
+      "answerZh": "這個課程包括實用影片。更重要的是，學員能獲得個人意見。",
+      "answerZhSource": "pdf",
+      "highlight": "This course includes useful videos. More importantly, learners receive personal feedback."
+    },
+    {
+      "id": "ss139-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The flat is spacious. However, its secure location is a more important advantage.",
+      "promptZh": "這個單位很寬敞。不過，它位於安全地區是更重要的優點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The flat is spacious. More importantly, it is in a secure location.",
+      "answerZh": "這個單位很寬敞。更重要的是，它位於安全的地區。",
+      "answerZhSource": "pdf",
+      "highlight": "The flat is spacious. More importantly, it is in a secure location."
+    },
+    {
+      "id": "ss139-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why is this plan worth supporting? It may save money, but the stronger reason is that it will protect people's jobs.",
+      "promptZh": "為甚麼這個計劃值得支持？它或許可以節省金錢，但更有力的理由是它將保障人們的工作。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This plan may save money. More importantly, it will protect people's jobs.",
+      "answerZh": "這個計劃或許可以節省金錢。更重要的是，它將保障人們的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "This plan may save money. More importantly, it will protect people's jobs."
+    },
+    {
+      "id": "ss139-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This report was completed on time. The more important fact is that every figure was checked.",
+      "promptZh": "這份報告按時完成。更重要的事實是每個數字都經過核對。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This report was completed on time. More importantly, every figure was checked.",
+      "answerZh": "這份報告按時完成。更重要的是，每個數字都經過核對。",
+      "answerZhSource": "pdf",
+      "highlight": "This report was completed on time. More importantly, every figure was checked."
+    },
+    {
+      "id": "ss139-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The bridge was built quickly. Greater importance should be attached to the fact that it meets modern safety standards.",
+      "promptZh": "這座橋很快便建成。它符合現代安全標準這一點應受到更大重視。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bridge was built quickly. More importantly, it meets modern safety standards.",
+      "answerZh": "這座橋很快便建成。更重要的是，它符合現代安全標準。",
+      "answerZhSource": "pdf",
+      "highlight": "The bridge was built quickly. More importantly, it meets modern safety standards."
+    },
+    {
+      "id": "ss139-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You should choose a password that is easy to remember, but it is more important for it to be difficult for others to guess.",
+      "promptZh": "你應選擇一個容易記住的密碼，但更重要的是，它要難以被其他人猜中。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should choose a password that is easy to remember. More importantly, it should be difficult for others to guess.",
+      "answerZh": "你應選擇一個容易記住的密碼。更重要的是，它應該難以被其他人猜中。",
+      "answerZhSource": "pdf",
+      "highlight": "You should choose a password that is easy to remember. More importantly, it should be difficult for others to guess."
+    },
+    {
+      "id": "ss139-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Nurse Chan spoke calmly. What mattered more was that she explained each step before the procedure.",
+      "promptZh": "陳護士冷靜地說話。更重要的是，她在程序開始前解釋了每一個步驟。",
+      "promptZhSource": "pdf",
+      "starter": "Nurse",
+      "answer": "Nurse Chan spoke calmly. More importantly, she explained each step before the procedure.",
+      "answerZh": "陳護士冷靜地說話。更重要的是，她在程序開始前解釋了每一個步驟。",
+      "answerZhSource": "pdf",
+      "highlight": "Nurse Chan spoke calmly. More importantly, she explained each step before the procedure."
+    },
+    {
+      "id": "ss139-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Local officials could make the street more attractive. Their higher priority should be making the street safer for pedestrians.",
+      "promptZh": "地方官員可以令街道更美觀。他們更優先要做的是提高行人的安全。",
+      "promptZhSource": "pdf",
+      "starter": "Local",
+      "answer": "Local officials could make the street more attractive. More importantly, they should make the street safer for pedestrians.",
+      "answerZh": "地方官員可以令街道更美觀。更重要的是，他們應令街道對行人更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Local officials could make the street more attractive. More importantly, they should make the street safer for pedestrians."
+    },
+    {
+      "id": "ss139-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This device can store many files. Its ability to protect personal data is a more important feature.",
+      "promptZh": "這部裝置可以儲存很多檔案。它能保護個人資料是更重要的功能。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This device can store many files. More importantly, it can protect personal data.",
+      "answerZh": "這部裝置可以儲存很多檔案。更重要的是，它能保護個人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "This device can store many files. More importantly, it can protect personal data."
+    },
+    {
+      "id": "ss139-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The school trip will be enjoyable. The more important benefit is that students will learn about local history.",
+      "promptZh": "這次學校旅行會很有趣。更重要的好處是學生將會認識本地歷史。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school trip will be enjoyable. More importantly, students will learn about local history.",
+      "answerZh": "這次學校旅行會很有趣。更重要的是，學生將會認識本地歷史。",
+      "answerZhSource": "pdf",
+      "highlight": "The school trip will be enjoyable. More importantly, students will learn about local history."
+    },
+    {
+      "id": "ss139-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although our meeting helped people exchange ideas, its greater value was that it produced a clear action plan.",
+      "promptZh": "雖然我們的會議幫助大家交流意見，但它更大的價值是制訂了清晰的行動計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our meeting helped people exchange ideas. More importantly, it produced a clear action plan.",
+      "answerZh": "我們的會議幫助大家交流意見。更重要的是，它制訂了清晰的行動計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Our meeting helped people exchange ideas. More importantly, it produced a clear action plan."
+    },
+    {
+      "id": "ss139-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The emergency message was sent quickly. What was more important was that everyone understood it.",
+      "promptZh": "緊急訊息很快便發出。更重要的是，每個人都明白訊息的內容。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency message was sent quickly. More importantly, everyone understood it.",
+      "answerZh": "緊急訊息很快便發出。更重要的是，每個人都明白訊息的內容。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency message was sent quickly. More importantly, everyone understood it."
+    },
+    {
+      "id": "ss139-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "These new rules may be inconvenient at first, but their greater purpose is to prevent serious accidents.",
+      "promptZh": "這些新規則起初可能會帶來不便，但它們更重要的目的是防止嚴重意外。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These new rules may be inconvenient at first. More importantly, they are intended to prevent serious accidents.",
+      "answerZh": "這些新規則起初可能會帶來不便。更重要的是，它們旨在防止嚴重意外。",
+      "answerZhSource": "pdf",
+      "highlight": "These new rules may be inconvenient at first. More importantly, they are intended to prevent serious accidents."
+    },
+    {
+      "id": "ss139-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This camera is small enough to carry easily. Compared with this advantage, the fact that it takes clear pictures in low light is more important.",
+      "promptZh": "這部相機體積小，容易攜帶。相比這個優點，它能在光線不足時拍出清晰照片更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This camera is small enough to carry easily. More importantly, it takes clear pictures in low light.",
+      "answerZh": "這部相機體積小，容易攜帶。更重要的是，它能在光線不足時拍出清晰照片。",
+      "answerZhSource": "pdf",
+      "highlight": "This camera is small enough to carry easily. More importantly, it takes clear pictures in low light."
+    },
+    {
+      "id": "ss139-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The restaurant reduced its prices. The fact that it also improved food hygiene is even more significant.",
+      "promptZh": "這間餐廳降低了價格。它亦改善了食品衞生，而這一點更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant reduced its prices. More importantly, it improved food hygiene.",
+      "answerZh": "這間餐廳降低了價格。更重要的是，它改善了食品衞生。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant reduced its prices. More importantly, it improved food hygiene."
+    },
+    {
+      "id": "ss139-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our new app was launched with a colourful design. The stronger reason for using it is that it warns users about severe weather.",
+      "promptZh": "我們的新應用程式以色彩鮮明的設計推出。使用它更有力的理由是它能提醒用戶注意惡劣天氣。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our new app was launched with a colourful design. More importantly, it warns users about severe weather.",
+      "answerZh": "我們的新應用程式以色彩鮮明的設計推出。更重要的是，它能提醒用戶注意惡劣天氣。",
+      "answerZhSource": "pdf",
+      "highlight": "Our new app was launched with a colourful design. More importantly, it warns users about severe weather."
+    },
+    {
+      "id": "ss139-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Staff members finished early, but their careful work was more important than their speed.",
+      "promptZh": "職員提早完成工作，但他們工作仔細比速度更重要。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff members finished early. More importantly, they worked carefully.",
+      "answerZh": "職員提早完成工作。更重要的是，他們工作仔細。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff members finished early. More importantly, they worked carefully."
+    },
+    {
+      "id": "ss139-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The museum's new exhibition is entertaining. It also teaches visitors about local culture, and that deserves greater attention.",
+      "promptZh": "博物館的新展覽富有娛樂性。它亦讓訪客認識本地文化，而這一點更值得重視。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum's new exhibition is entertaining. More importantly, it teaches visitors about local culture.",
+      "answerZh": "博物館的新展覽富有娛樂性。更重要的是，它讓訪客認識本地文化。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum's new exhibition is entertaining. More importantly, it teaches visitors about local culture."
+    },
+    {
+      "id": "ss139-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This software update changed the colours on the screen. A more important improvement is that it fixes a serious security problem.",
+      "promptZh": "這次軟件更新改變了螢幕上的顏色。更重要的改進是它修正了一個嚴重的保安問題。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This software update changed the colours on the screen. More importantly, it fixes a serious security problem.",
+      "answerZh": "這次軟件更新改變了螢幕上的顏色。更重要的是，它修正了一個嚴重的保安問題。",
+      "answerZhSource": "pdf",
+      "highlight": "This software update changed the colours on the screen. More importantly, it fixes a serious security problem."
+    },
+    {
+      "id": "ss139-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our charity collected a large amount of money. The more meaningful achievement was that it reached families who had received no help before.",
+      "promptZh": "我們的慈善機構籌得大量款項。更有意義的成就是它接觸到以往從未獲得援助的家庭。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our charity collected a large amount of money. More importantly, it reached families who had received no help before.",
+      "answerZh": "我們的慈善機構籌得大量款項。更重要的是，它接觸到以往從未獲得援助的家庭。",
+      "answerZhSource": "pdf",
+      "highlight": "Our charity collected a large amount of money. More importantly, it reached families who had received no help before."
+    },
+    {
+      "id": "ss139-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The training programme made employees more confident. Its greater contribution was that it reduced workplace accidents.",
+      "promptZh": "這個培訓計劃令僱員更有信心。它更大的貢獻是減少了工作場所的意外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training programme made employees more confident. More importantly, it reduced workplace accidents.",
+      "answerZh": "這個培訓計劃令僱員更有信心。更重要的是，它減少了工作場所的意外。",
+      "answerZhSource": "pdf",
+      "highlight": "The training programme made employees more confident. More importantly, it reduced workplace accidents."
+    },
+    {
+      "id": "ss139-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Trains began running faster after the changes. They also became more reliable, and that improvement matters more to passengers.",
+      "promptZh": "改革後，列車行駛得更快。服務亦變得更可靠，而這項改善對乘客更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "Trains",
+      "answer": "Trains began running faster after the changes. More importantly, they became more reliable.",
+      "answerZh": "改革後，列車行駛得更快。更重要的是，服務變得更加可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Trains began running faster after the changes. More importantly, they became more reliable."
+    },
+    {
+      "id": "ss139-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We should ask whether the proposal is popular. We should give greater attention to whether it is fair to all residents.",
+      "promptZh": "我們應該考慮這項建議是否受歡迎。我們更應重視它對所有居民是否公平。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should ask whether the proposal is popular. More importantly, we should ask whether it is fair to all residents.",
+      "answerZh": "我們應該考慮這項建議是否受歡迎。更重要的是，我們應該考慮它對所有居民是否公平。",
+      "answerZhSource": "pdf",
+      "highlight": "We should ask whether the proposal is popular. More importantly, we should ask whether it is fair to all residents."
+    },
+    {
+      "id": "ss139-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our university's online system is convenient for students who live far away. The fact that it gives students with disabilities equal access to course materials is a more important benefit.",
+      "promptZh": "我們大學的網上系統方便居住較遠的學生使用。它讓有殘疾的學生能平等地取得課程材料是更重要的好處。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our university's online system is convenient for students who live far away. More importantly, it gives students with disabilities equal access to course materials.",
+      "answerZh": "我們大學的網上系統方便居住較遠的學生使用。更重要的是，它讓有殘疾的學生能平等地取得課程材料。",
+      "answerZhSource": "pdf",
+      "highlight": "Our university's online system is convenient for students who live far away. More importantly, it gives students with disabilities equal access to course materials."
+    },
+    {
+      "id": "ss139-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The hospital renovated its waiting area, making it more comfortable. The more important change was that patients could receive urgent care sooner.",
+      "promptZh": "醫院翻新了候診區，令它更加舒適。更重要的改變是病人可以更快獲得緊急護理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital's renovated waiting area was more comfortable. More importantly, patients could receive urgent care sooner.",
+      "answerZh": "醫院翻新後的候診區更加舒適。更重要的是，病人可以更快獲得緊急護理。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital's renovated waiting area was more comfortable. More importantly, patients could receive urgent care sooner."
+    },
+    {
+      "id": "ss139-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our company plans to reduce printing costs. It also plans to protect confidential customer information, which is a higher priority.",
+      "promptZh": "我們公司計劃減少印刷成本。公司亦計劃保護客戶的機密資料，而後者是更優先的工作。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our company plans to reduce printing costs. More importantly, it plans to protect confidential customer information.",
+      "answerZh": "我們公司計劃減少印刷成本。更重要的是，它計劃保護客戶的機密資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Our company plans to reduce printing costs. More importantly, it plans to protect confidential customer information."
+    },
+    {
+      "id": "ss139-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The town planted flowers along the main road. What matters more is that it also added safe crossings near the school.",
+      "promptZh": "小鎮在主要道路旁種植了花卉。更值得重視的是，它亦在學校附近增設了安全過路處。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town planted flowers along the main road. More importantly, it added safe crossings near the school.",
+      "answerZh": "小鎮在主要道路旁種植了花卉。更重要的是，它在學校附近增設了安全過路處。",
+      "answerZhSource": "pdf",
+      "highlight": "The town planted flowers along the main road. More importantly, it added safe crossings near the school."
+    },
+    {
+      "id": "ss139-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This research attracted public attention because its findings were surprising. The fact that its evidence was reliable mattered more to the researchers.",
+      "promptZh": "這項研究因結果令人意外而引起公眾關注。對研究人員來說，證據可靠這一點更加重要。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This research attracted public attention because its findings were surprising. More importantly, its evidence was reliable.",
+      "answerZh": "這項研究因結果令人意外而引起公眾關注。更重要的是，它的證據是可靠的。",
+      "answerZhSource": "pdf",
+      "highlight": "This research attracted public attention because its findings were surprising. More importantly, its evidence was reliable."
+    },
+    {
+      "id": "ss139-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The agreement will increase trade between the two regions. Its more important effect will be to create stable jobs for local workers.",
+      "promptZh": "這項協議將增加兩個地區之間的貿易。它更重要的影響是為本地工人創造穩定職位。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The agreement will increase trade between the two regions. More importantly, it will create stable jobs for local workers.",
+      "answerZh": "這項協議將增加兩個地區之間的貿易。更重要的是，它將為本地工人創造穩定職位。",
+      "answerZhSource": "pdf",
+      "highlight": "The agreement will increase trade between the two regions. More importantly, it will create stable jobs for local workers."
+    },
+    {
+      "id": "ss139-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our school introduced tablets, which made lessons more interesting. The more important result was that students with reading difficulties could access suitable support.",
+      "promptZh": "我們的學校引入平板電腦，令課堂更加有趣。更重要的結果是有閱讀困難的學生可以獲得合適支援。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school introduced tablets, which made lessons more interesting. More importantly, students with reading difficulties could access suitable support.",
+      "answerZh": "我們的學校引入平板電腦，令課堂更加有趣。更重要的是，有閱讀困難的學生可以獲得合適支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school introduced tablets, which made lessons more interesting. More importantly, students with reading difficulties could access suitable support."
+    },
+    {
+      "id": "ss139-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The public campaign reached millions of people online. Its greater success was that it persuaded many people to change their daily habits.",
+      "promptZh": "這項公眾宣傳活動在網上接觸到數百萬人。它更大的成功是說服了很多人改變日常習慣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public campaign reached millions of people online. More importantly, it persuaded many people to change their daily habits.",
+      "answerZh": "這項公眾宣傳活動在網上接觸到數百萬人。更重要的是，它說服了很多人改變日常習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "The public campaign reached millions of people online. More importantly, it persuaded many people to change their daily habits."
+    },
+    {
+      "id": "ss139-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Rescue workers arrived within minutes. What was even more important was that they had the equipment needed to enter the damaged building safely.",
+      "promptZh": "救援人員在數分鐘內到達。更加重要的是，他們具備安全進入受損建築物所需的裝備。",
+      "promptZhSource": "pdf",
+      "starter": "Rescue",
+      "answer": "Rescue workers arrived within minutes. More importantly, they had the equipment needed to enter the damaged building safely.",
+      "answerZh": "救援人員在數分鐘內到達。更重要的是，他們具備安全進入受損建築物所需的裝備。",
+      "answerZhSource": "pdf",
+      "highlight": "Rescue workers arrived within minutes. More importantly, they had the equipment needed to enter the damaged building safely."
+    },
+    {
+      "id": "ss139-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This policy may improve the city's international image. The point deserving greater attention is that it could give low-income families access to essential services.",
+      "promptZh": "這項政策或可改善城市的國際形象。更值得重視的一點是，它可以讓低收入家庭獲得基本服務。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This policy may improve the city's international image. More importantly, it could give low-income families access to essential services.",
+      "answerZh": "這項政策或可改善城市的國際形象。更重要的是，它可以讓低收入家庭獲得基本服務。",
+      "answerZhSource": "pdf",
+      "highlight": "This policy may improve the city's international image. More importantly, it could give low-income families access to essential services."
+    }
+  ]
+}

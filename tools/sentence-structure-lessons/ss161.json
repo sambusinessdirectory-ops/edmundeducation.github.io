@@ -1,0 +1,1235 @@
+{
+  "id": "ss161",
+  "order": 161,
+  "slug": "all-the-while",
+  "title": "All the while",
+  "titleZh": "「All the while」句",
+  "titleEn": "Using All the while for a continuing or simultaneous situation",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 161 -「All the while」句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + verb + all the while",
+  "formulas": [
+    {
+      "id": "ss161-formula-01",
+      "labelEn": "End position",
+      "labelZh": "句末位置",
+      "formula": "Subject + verb + all the while"
+    },
+    {
+      "id": "ss161-formula-02",
+      "labelEn": "Before a time clause",
+      "labelZh": "時間子句之前",
+      "formula": "Subject + verb + all the while + time clause"
+    },
+    {
+      "id": "ss161-formula-03",
+      "labelEn": "After but",
+      "labelZh": "but 之後",
+      "formula": "Main situation, but all the while + subject + verb"
+    },
+    {
+      "id": "ss161-formula-04",
+      "labelEn": "Front position",
+      "labelZh": "句首位置",
+      "formula": "All the while, + subject + verb"
+    }
+  ],
+  "example": "He stayed calm all the while, even when the discussion turned hostile.",
+  "exampleZh": "即使討論變得充滿敵意，他始終保持冷靜。",
+  "examples": [
+    {
+      "id": "ss161-example-01",
+      "en": "He stayed calm all the while, even when the discussion turned hostile.",
+      "zh": "即使討論變得充滿敵意，他始終保持冷靜。",
+      "highlight": "He stayed calm all the while, even when the discussion turned hostile."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss161-rule-01",
+      "zh": "「All the while」表示甚麼？ All the while 表示某個動作、狀態或情況在一段指定時間內一直持續。 例： （經理說話期間，她一直聆聽。） 它通常描述一段特定時間，而不是一個人的長期習慣。",
+      "en": "All the while means that an action, state or situation continues throughout a specified period—from beginning to end. For example: She listened all the while the manager was speaking. It normally describes a particular period, not a person's long-term habit.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "throughout that period；",
+        "during the whole time；",
+        "from the beginning to the end。",
+        "She listened all the while the manager was speaking."
+      ]
+    },
+    {
+      "id": "ss161-rule-02",
+      "zh": "可以連接兩件同時發生的事情 All the while 經常表示一件事情發生時，另一件事情在整段時間內持續進行。 （孩子們玩耍期間，父母一直看着他們。）",
+      "en": "All the while can link two things happening at the same time. It often shows that while one event was taking place, another action or situation continued throughout the whole period, as in The children played all the while their parents watched them.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The children played all the while their parents watched them."
+      ]
+    },
+    {
+      "id": "ss161-rule-03",
+      "zh": "可以揭示未被察覺的情況 當 all the while 放在第二個分句中，它經常表示某個情況一直存在，只是其他人當時沒有察覺。 （他看起來很有信心，但其實一直非常緊張。） 這種用法在故事、描述和解釋中尤其常見。",
+      "en": "All the while can reveal an unnoticed situation. In a second clause, it often shows that something had existed throughout although others did not notice it at the time: He appeared confident, but all the while he was extremely nervous. This use is especially common in stories, descriptions and explanations.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "He appeared confident, but all the while he was extremely nervous."
+      ]
+    },
+    {
+      "id": "ss161-rule-04",
+      "zh": "「All the while」與相似句型的分別 表示某件事情在整段時間內一直發生。 （她由始至終都保持冷靜。） 表示某件事情的程度因另一項因素而進一步增加，意思是「更加……」。 （過程的困難令這次成功更加有意義。） 它描述的是程度增加，而不是動作持續的時間。 表示某項情況令我們有更充分的理由採取某個行動。 （這條路很危險，所以我們更有理由小心駕駛。） 它表達的是更強的理由，不是「一直」。 表示「儘管如此」或「即使如此」，用來引出與前文形成讓步或轉折的內容。 （旅程令人疲倦。儘管如此，我們仍然很享受。） 它表達的是讓步或轉折，不是時間上的持續。",
+      "en": "Distinguish All the while from similar structures. All the while means that something continues throughout a period: She remained calm all the while. All the more + adjective/adverb increases the degree of a quality or manner, as in The difficulty made the success all the more meaningful; it concerns degree, not duration. All the more reason to ... says that a situation creates stronger justification for an action, as in The road is dangerous, so that is all the more reason to drive carefully; it expresses a reason, not “throughout”. All the same means “nevertheless” or “even so” and introduces a concession or contrast, as in The journey was tiring. All the same, we enjoyed it; it does not describe duration.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She remained calm all the while.",
+        "All the more + adjective / adverb",
+        "The difficulty made the success all the more meaningful.",
+        "All the more reason to...",
+        "The road is dangerous, so that is all the more reason to drive carefully.",
+        "The journey was tiring. All the same, we enjoyed it."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss161-benefit-01",
+      "zh": "清楚表示事情由始至終都在發生 這個句型能清楚說明某個動作或情況在一段時間內由始至終都沒有停止。",
+      "en": "This structure helps you show that an action or condition continued throughout a particular period.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss161-benefit-02",
+      "zh": "自然連接兩件同時發生的事情 你可以用它說明：當一件事情發生時，另一個動作或情況一直持續。 （職員檢查問題期間，乘客一直等候。）",
+      "en": "You can use it to show what continued while another event was taking place. The passengers waited all the while the staff were checking the problem.",
+      "enSource": "pdf",
+      "examples": [
+        "You can use it to show what continued while another event was taking place.",
+        "The passengers waited all the while the staff were checking the problem."
+      ]
+    },
+    {
+      "id": "ss161-benefit-03",
+      "zh": "幫助揭示表面之下的真實情況 它可以用來揭示某個一直存在、但其他人當時沒有察覺的情況。 （他在面試期間一直微笑，但其實一直很擔心。） 第二個版本更自然地突出了「外表」與「真實情況」之間的分別。",
+      "en": "It can show that one situation was secretly or unexpectedly continuing behind another situation. He smiled throughout the interview, but he was worried the whole time. He smiled during the interview, but all the while he was worried.",
+      "enSource": "pdf",
+      "examples": [
+        "It can show that one situation was secretly or unexpectedly continuing behind another situation.",
+        "He smiled throughout the interview, but he was worried the whole time.",
+        "He smiled during the interview, but all the while he was worried."
+      ]
+    },
+    {
+      "id": "ss161-benefit-04",
+      "zh": "避免重複使用 throughout 或 the whole time 你不需要經常重複使用 throughout、during the entire period 或 the whole time，也可以自然表達 「整段時間」。",
+      "en": "Instead of repeatedly using throughout, during the entire period or the whole time, you can use all the while.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss161-benefit-05",
+      "zh": "令故事和描述更有連貫性 這個句型適合用來描述兩件同時發展的事情，令故事、報告和口頭敘述更加連貫。",
+      "en": "It makes stories and descriptions more coherent. The structure is useful for describing two events that develop at the same time, giving stories, reports and oral narratives a clearer flow.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The structure is useful when describing two events that develop at the same time."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using All the while.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 All the while 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss161-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The lesson was taking place, and Mia remained quiet the entire time.",
+      "promptZh": "課堂進行期間，米婭一直保持安靜。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia remained quiet all the while the lesson was taking place.",
+      "answerZh": "課堂進行期間，米婭一直保持安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia remained quiet all the while the lesson was taking place."
+    },
+    {
+      "id": "ss161-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben smiled throughout the meal.",
+      "promptZh": "本在整頓飯期間一直微笑。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben smiled all the while he was eating.",
+      "answerZh": "本吃飯期間一直微笑。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben smiled all the while he was eating."
+    },
+    {
+      "id": "ss161-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We were travelling, and the baby slept the whole time.",
+      "promptZh": "我們正在乘車，而嬰兒全程都在睡覺。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The baby slept all the while we were travelling.",
+      "answerZh": "我們乘車期間，嬰兒一直在睡覺。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby slept all the while we were travelling."
+    },
+    {
+      "id": "ss161-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We waited calmly the entire time.",
+      "promptZh": "我們全程都平靜地等候。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We waited calmly all the while.",
+      "answerZh": "我們全程都平靜地等候。",
+      "answerZhSource": "pdf",
+      "highlight": "We waited calmly all the while."
+    },
+    {
+      "id": "ss161-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The rain continued throughout the football match.",
+      "promptZh": "整場足球賽期間，雨一直下。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain continued all the while the football match was being played.",
+      "answerZh": "足球賽進行期間，雨一直下。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain continued all the while the football match was being played."
+    },
+    {
+      "id": "ss161-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "While Leo was studying, he kept reading the whole time.",
+      "promptZh": "里奧溫習期間一直閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo kept reading all the while he was studying.",
+      "answerZh": "里奧溫習期間一直閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo kept reading all the while he was studying."
+    },
+    {
+      "id": "ss161-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We were at home all evening, and the dog stayed beside me throughout.",
+      "promptZh": "我們整晚都在家，而那隻狗一直留在我身旁。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog stayed beside me all the while we were at home that evening.",
+      "answerZh": "那天晚上我們在家期間，那隻狗一直留在我身旁。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog stayed beside me all the while we were at home that evening."
+    },
+    {
+      "id": "ss161-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "During the entire film, Amy did not say a word.",
+      "promptZh": "整套電影播放期間，艾米一句話也沒有說。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy did not say a word all the while the film was playing.",
+      "answerZh": "電影播放期間，艾米一句話也沒有說。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy did not say a word all the while the film was playing."
+    },
+    {
+      "id": "ss161-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The lights remained on during the whole time we were asleep.",
+      "promptZh": "我們睡覺期間，燈一直亮着。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights remained on all the while we were asleep.",
+      "answerZh": "我們睡覺期間，燈一直亮着。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights remained on all the while we were asleep."
+    },
+    {
+      "id": "ss161-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Tom practised the piano for an hour. He remained focused throughout.",
+      "promptZh": "湯姆練習鋼琴一小時。他全程保持專注。",
+      "promptZhSource": "pdf",
+      "starter": "Tom",
+      "answer": "Tom remained focused all the while he practised the piano.",
+      "answerZh": "湯姆練習鋼琴期間一直保持專注。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom remained focused all the while he practised the piano."
+    },
+    {
+      "id": "ss161-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah listened throughout the meeting and never checked her phone.",
+      "promptZh": "莎拉在整個會議期間一直聆聽，從沒有查看電話。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah listened all the while the meeting was in progress, without checking her phone.",
+      "answerZh": "會議進行期間，莎拉一直聆聽，沒有查看電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah listened all the while the meeting was in progress, without checking her phone."
+    },
+    {
+      "id": "ss161-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "While the children were playing, the teacher watched them continuously.",
+      "promptZh": "孩子們玩耍期間，老師一直看着他們。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher watched the children all the while they were playing.",
+      "answerZh": "孩子們玩耍期間，老師一直看着他們。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher watched the children all the while they were playing."
+    },
+    {
+      "id": "ss161-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "While we were eating, the soup stayed warm the entire time.",
+      "promptZh": "我們吃飯期間，湯一直保持溫熱。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup stayed warm all the while we were eating.",
+      "answerZh": "我們吃飯期間，湯一直保持溫熱。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup stayed warm all the while we were eating."
+    },
+    {
+      "id": "ss161-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Jack used a polite tone throughout his handling of the customer’s complaint.",
+      "promptZh": "傑克處理顧客投訴期間一直保持有禮貌的語氣。",
+      "promptZhSource": "pdf",
+      "starter": "Jack",
+      "answer": "Jack used a polite tone all the while he handled the customer’s complaint.",
+      "answerZh": "傑克處理顧客投訴期間一直保持有禮貌的語氣。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack used a polite tone all the while he handled the customer’s complaint."
+    },
+    {
+      "id": "ss161-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Nora knew the answer throughout the discussion, but she did not speak.",
+      "promptZh": "諾拉在整個討論期間都知道答案，但她沒有發言。",
+      "promptZhSource": "pdf",
+      "starter": "Nora",
+      "answer": "Nora knew the answer all the while but did not speak.",
+      "answerZh": "諾拉一直知道答案，但沒有發言。",
+      "answerZhSource": "pdf",
+      "highlight": "Nora knew the answer all the while but did not speak."
+    },
+    {
+      "id": "ss161-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The computer was updating, and I waited beside it the whole time.",
+      "promptZh": "電腦正在更新，而我全程在旁邊等候。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I waited beside the computer all the while it was updating.",
+      "answerZh": "電腦更新期間，我一直在旁邊等候。",
+      "answerZhSource": "pdf",
+      "highlight": "I waited beside the computer all the while it was updating."
+    },
+    {
+      "id": "ss161-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The guide spoke continuously while we walked through the museum.",
+      "promptZh": "我們參觀博物館期間，導遊一直講解。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide spoke all the while we were walking through the museum.",
+      "answerZh": "我們參觀博物館期間，導遊一直講解。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide spoke all the while we were walking through the museum."
+    },
+    {
+      "id": "ss161-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "During the entire examination, Daniel remained focused despite the noise.",
+      "promptZh": "儘管有噪音，丹尼爾在整場考試期間都保持專注。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel remained focused all the while the examination continued, despite the noise.",
+      "answerZh": "儘管有噪音，丹尼爾在考試期間一直保持專注。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel remained focused all the while the examination continued, despite the noise."
+    },
+    {
+      "id": "ss161-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The audience stayed silent from the opening scene until the play ended.",
+      "promptZh": "觀眾由開場一幕直至戲劇結束都保持安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The audience stayed silent all the while the play was being performed.",
+      "answerZh": "戲劇演出期間，觀眾一直保持安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The audience stayed silent all the while the play was being performed."
+    },
+    {
+      "id": "ss161-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "While I was cooking, my sister talked continuously about her new job.",
+      "promptZh": "我煮食期間，妹妹一直談論她的新工作。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My sister talked about her new job all the while I was cooking.",
+      "answerZh": "我煮食期間，妹妹一直談論她的新工作。",
+      "answerZhSource": "pdf",
+      "highlight": "My sister talked about her new job all the while I was cooking."
+    },
+    {
+      "id": "ss161-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "He acted relaxed during the interview, but he was nervous throughout it.",
+      "promptZh": "他在面試期間表現得很放鬆，但其實全程都很緊張。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He acted relaxed during the interview, but all the while he was nervous.",
+      "answerZh": "他在面試期間表現得很放鬆，但其實一直很緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "He acted relaxed during the interview, but all the while he was nervous."
+    },
+    {
+      "id": "ss161-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team looked confident. However, they were worrying about the result the whole time.",
+      "promptZh": "團隊看起來很有信心。然而，他們其實一直擔心結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team looked confident, but all the while they were worrying about the result.",
+      "answerZh": "團隊看起來很有信心，但其實一直擔心結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The team looked confident, but all the while they were worrying about the result."
+    },
+    {
+      "id": "ss161-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The patient was resting, and the nurse monitored him continuously.",
+      "promptZh": "病人休息期間，護士一直監察他的情況。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse monitored the patient all the while he was resting.",
+      "answerZh": "病人休息期間，護士一直監察他的情況。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse monitored the patient all the while he was resting."
+    },
+    {
+      "id": "ss161-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The machine made a soft sound throughout the test.",
+      "promptZh": "整個測試期間，機器一直發出輕微的聲音。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine made a soft sound all the while the test was running.",
+      "answerZh": "測試進行期間，機器一直發出輕微的聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine made a soft sound all the while the test was running."
+    },
+    {
+      "id": "ss161-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace took notes from the beginning to the end of the lecture, even when it became difficult.",
+      "promptZh": "格蕾絲由講課開始至結束都在抄筆記，即使內容變得困難也是如此。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace took notes all the while the lecture continued, even when it became difficult.",
+      "answerZh": "講課期間，格蕾絲一直抄筆記，即使內容變得困難也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace took notes all the while the lecture continued, even when it became difficult."
+    },
+    {
+      "id": "ss161-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop remained open throughout the storm, although very few customers came.",
+      "promptZh": "商店在整場暴風雨期間仍然營業，儘管很少顧客前來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop remained open all the while the storm continued, although very few customers came.",
+      "answerZh": "暴風雨持續期間，商店一直營業，儘管很少顧客前來。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop remained open all the while the storm continued, although very few customers came."
+    },
+    {
+      "id": "ss161-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I thought the room was empty, but someone was standing behind the curtain throughout our conversation.",
+      "promptZh": "我以為房間沒有人，但我們談話期間一直有人站在窗簾後面。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I thought the room was empty, but all the while someone was standing behind the curtain.",
+      "answerZh": "我以為房間沒有人，但其實一直有人站在窗簾後面。",
+      "answerZhSource": "pdf",
+      "highlight": "I thought the room was empty, but all the while someone was standing behind the curtain."
+    },
+    {
+      "id": "ss161-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The student appeared to be reading, but he was actually drawing throughout the lesson.",
+      "promptZh": "那名學生看似正在閱讀，但他整堂課其實都在畫畫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The student appeared to be reading, but all the while he was actually drawing.",
+      "answerZh": "那名學生看似正在閱讀，但其實一直在畫畫。",
+      "answerZhSource": "pdf",
+      "highlight": "The student appeared to be reading, but all the while he was actually drawing."
+    },
+    {
+      "id": "ss161-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Emma encouraged the runners from the beginning to the end of the race.",
+      "promptZh": "艾瑪由比賽開始至結束一直鼓勵參賽者。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma encouraged the runners all the while the race was taking place.",
+      "answerZh": "比賽進行期間，艾瑪一直鼓勵參賽者。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma encouraged the runners all the while the race was taking place."
+    },
+    {
+      "id": "ss161-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The announcement played repeatedly while the passengers waited.",
+      "promptZh": "乘客等候期間，廣播一直重複播放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The announcement played repeatedly all the while the passengers were waiting.",
+      "answerZh": "乘客等候期間，廣播一直重複播放。",
+      "answerZhSource": "pdf",
+      "highlight": "The announcement played repeatedly all the while the passengers were waiting."
+    },
+    {
+      "id": "ss161-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the queue moved slowly, everyone remained patient throughout the wait.",
+      "promptZh": "儘管隊伍移動得很慢，所有人在等候期間一直保持耐性。",
+      "promptZhSource": "pdf",
+      "starter": "Everyone",
+      "answer": "Everyone remained patient all the while they waited, although the queue moved slowly.",
+      "answerZh": "儘管隊伍移動得很慢，所有人在等候期間一直保持耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone remained patient all the while they waited, although the queue moved slowly."
+    },
+    {
+      "id": "ss161-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager answered questions during every part of the presentation.",
+      "promptZh": "經理在簡報的每一個部分都回答問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager answered questions all the while the presentation was in progress.",
+      "answerZh": "簡報進行期間，經理一直回答問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager answered questions all the while the presentation was in progress."
+    },
+    {
+      "id": "ss161-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We thought the pipe was fine that night. In fact, water was leaking the whole time.",
+      "promptZh": "我們以為那晚水管沒有問題。事實上，水一直在漏。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We thought the pipe was fine that night, but all the while water was leaking.",
+      "answerZh": "我們以為那晚水管沒有問題，但其實水一直在漏。",
+      "answerZhSource": "pdf",
+      "highlight": "We thought the pipe was fine that night, but all the while water was leaking."
+    },
+    {
+      "id": "ss161-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children laughed and played while their parents watched them the entire time.",
+      "promptZh": "孩子們又笑又玩，而父母全程看着他們。",
+      "promptZhSource": "pdf",
+      "starter": "Their",
+      "answer": "Their parents watched them all the while the children laughed and played.",
+      "answerZh": "孩子們又笑又玩期間，父母一直看着他們。",
+      "answerZhSource": "pdf",
+      "highlight": "Their parents watched them all the while the children laughed and played."
+    },
+    {
+      "id": "ss161-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Even as the debate became heated, the chairperson remained calm from beginning to end.",
+      "promptZh": "即使辯論變得激烈，主席仍由始至終保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chairperson remained calm all the while, even as the debate became heated.",
+      "answerZh": "即使辯論變得激烈，主席仍一直保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The chairperson remained calm all the while, even as the debate became heated."
+    },
+    {
+      "id": "ss161-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The software appeared to work normally during the demonstration, but an error was developing in the background the whole time.",
+      "promptZh": "軟件在示範期間看似運作正常，但其實背景中一直有錯誤正在形成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The software appeared to work normally during the demonstration, but all the while an error was developing in the background.",
+      "answerZh": "軟件在示範期間看似運作正常，但其實背景中一直有錯誤正在形成。",
+      "answerZhSource": "pdf",
+      "highlight": "The software appeared to work normally during the demonstration, but all the while an error was developing in the background."
+    },
+    {
+      "id": "ss161-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The rescue workers searched continuously while the rain grew heavier.",
+      "promptZh": "雨勢逐漸增強期間，救援人員一直搜索。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue workers searched all the while the rain grew heavier.",
+      "answerZh": "雨勢逐漸增強期間，救援人員一直搜索。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue workers searched all the while the rain grew heavier."
+    },
+    {
+      "id": "ss161-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital continued treating patients throughout the power cut by using backup generators.",
+      "promptZh": "醫院在停電期間使用後備發電機，繼續為病人提供治療。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital continued treating patients by using backup generators all the while the power cut lasted.",
+      "answerZh": "停電期間，醫院一直使用後備發電機為病人提供治療。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital continued treating patients by using backup generators all the while the power cut lasted."
+    },
+    {
+      "id": "ss161-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Throughout the meeting, she agreed with every suggestion, although she had already decided to leave the company.",
+      "promptZh": "她在整個會議期間都同意每項建議，儘管她早已決定離開公司。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She agreed with every suggestion all the while the meeting was in progress, although she had already decided to leave the company.",
+      "answerZh": "會議進行期間，她一直同意每項建議，儘管她早已決定離開公司。",
+      "answerZhSource": "pdf",
+      "highlight": "She agreed with every suggestion all the while the meeting was in progress, although she had already decided to leave the company."
+    },
+    {
+      "id": "ss161-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "While the hikers walked from the village to the top of the hill, the dog stayed close to them the whole time.",
+      "promptZh": "遠足人士由村莊走到山頂期間，那隻狗一直留在他們附近。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog stayed close to the hikers all the while they walked from the village to the top of the hill.",
+      "answerZh": "遠足人士由村莊走到山頂期間，那隻狗一直留在他們附近。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog stayed close to the hikers all the while they walked from the village to the top of the hill."
+    },
+    {
+      "id": "ss161-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The city appeared peaceful during the festival, but security officers watched the crowd throughout the event.",
+      "promptZh": "城市在節慶期間看似很平靜，但保安人員在整場活動期間一直監察人群。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city appeared peaceful during the festival, but all the while security officers were watching the crowd.",
+      "answerZh": "城市在節慶期間看似很平靜，但保安人員其實一直監察人群。",
+      "answerZhSource": "pdf",
+      "highlight": "The city appeared peaceful during the festival, but all the while security officers were watching the crowd."
+    },
+    {
+      "id": "ss161-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The students worked on their projects while the teacher moved around the room and offered help continuously.",
+      "promptZh": "學生進行項目期間，老師一直在課室內走動並提供協助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher moved around the room and offered help all the while the students worked on their projects.",
+      "answerZh": "學生進行項目期間，老師一直在課室內走動並提供協助。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher moved around the room and offered help all the while the students worked on their projects."
+    },
+    {
+      "id": "ss161-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor spoke gently throughout the consultation, even when explaining serious risks.",
+      "promptZh": "醫生在整次診症期間都溫和地說話，即使在解釋嚴重風險時也是如此。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor spoke gently all the while the consultation continued, even when explaining serious risks.",
+      "answerZh": "整次診症期間，醫生一直溫和地說話，即使在解釋嚴重風險時也是如此。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor spoke gently all the while the consultation continued, even when explaining serious risks."
+    },
+    {
+      "id": "ss161-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company continued operating normally while its technical team repaired a major system failure in the background.",
+      "promptZh": "公司繼續正常營運，而技術團隊一直在幕後修復嚴重的系統故障。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company continued operating normally all the while its technical team repaired a major system failure in the background.",
+      "answerZh": "技術團隊一直在幕後修復嚴重系統故障，而公司同時繼續正常營運。",
+      "answerZhSource": "pdf",
+      "highlight": "The company continued operating normally all the while its technical team repaired a major system failure in the background."
+    },
+    {
+      "id": "ss161-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The family believed their grandfather was asleep during dinner. In fact, he was listening to every word the whole time.",
+      "promptZh": "家人以為祖父在晚飯期間睡着了。事實上，他一直在聽每一句話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The family believed their grandfather was asleep during dinner, but all the while he was listening to every word.",
+      "answerZh": "家人以為祖父在晚飯期間睡着了，但他其實一直在聽每一句話。",
+      "answerZhSource": "pdf",
+      "highlight": "The family believed their grandfather was asleep during dinner, but all the while he was listening to every word."
+    },
+    {
+      "id": "ss161-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The passengers remained seated throughout the delay while airport staff continued giving them updates.",
+      "promptZh": "乘客在延誤期間一直坐着，而機場職員繼續向他們提供最新消息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The airport staff continued giving updates all the while the passengers remained seated during the delay.",
+      "answerZh": "乘客在延誤期間一直坐着，而機場職員同時繼續提供最新消息。",
+      "answerZhSource": "pdf",
+      "highlight": "The airport staff continued giving updates all the while the passengers remained seated during the delay."
+    },
+    {
+      "id": "ss161-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The research team collected data continuously while the conditions inside the chamber changed.",
+      "promptZh": "研究團隊在實驗室艙內的環境轉變期間一直收集數據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team collected data all the while the conditions inside the chamber were changing.",
+      "answerZh": "實驗室艙內的環境轉變期間，研究團隊一直收集數據。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team collected data all the while the conditions inside the chamber were changing."
+    },
+    {
+      "id": "ss161-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The volunteers kept serving food while the shelter remained open, even though supplies were limited.",
+      "promptZh": "即使物資有限，義工仍在收容中心開放期間一直派發食物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The volunteers kept serving food all the while the shelter remained open, even though supplies were limited.",
+      "answerZh": "即使物資有限，義工仍在收容中心開放期間一直派發食物。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers kept serving food all the while the shelter remained open, even though supplies were limited."
+    },
+    {
+      "id": "ss161-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The witness looked calm during questioning, but she carefully avoided certain details throughout the interview.",
+      "promptZh": "證人在接受提問時看起來很冷靜，但她在整個面談期間一直小心避開某些細節。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The witness looked calm during questioning, but all the while she was carefully avoiding certain details.",
+      "answerZh": "證人在接受提問時看起來很冷靜，但她其實一直小心避開某些細節。",
+      "answerZhSource": "pdf",
+      "highlight": "The witness looked calm during questioning, but all the while she was carefully avoiding certain details."
+    },
+    {
+      "id": "ss161-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The audience saw a smooth performance while the stage crew coordinated every change behind the curtain throughout the show.",
+      "promptZh": "觀眾看到一場流暢的演出，而舞台工作人員在整場表演期間一直在布幕後協調每項轉換。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The audience saw a smooth performance, but all the while the stage crew was coordinating every change behind the curtain.",
+      "answerZh": "觀眾看到一場流暢的演出，但舞台工作人員其實一直在布幕後協調每項轉換。",
+      "answerZhSource": "pdf",
+      "highlight": "The audience saw a smooth performance, but all the while the stage crew was coordinating every change behind the curtain."
+    }
+  ]
+}

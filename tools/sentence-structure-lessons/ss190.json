@@ -1,0 +1,1280 @@
+{
+  "id": "ss190",
+  "order": 190,
+  "slug": "as-as-possible",
+  "title": "「As + 形容詞／副詞 + as possible」表示「盡可能……」",
+  "titleZh": "「As + 形容詞／副詞 + as possible」表示「盡可能……」",
+  "titleEn": "Using “as ... as possible”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 190 -「As + 形容詞／副詞 + as possible」表示「盡可能……」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+    ]
+  },
+  "formula": "Subject + verb + as + adjective / adverb + as possible + other information",
+  "formulas": [
+    {
+      "id": "ss190-formula-01",
+      "labelEn": "Main pattern",
+      "labelZh": "主要句式",
+      "formula": "Subject + verb + as + adjective / adverb + as possible + other information"
+    },
+    {
+      "id": "ss190-formula-02",
+      "labelEn": "With an adjective",
+      "labelZh": "使用形容詞",
+      "formula": "Subject + be / keep / make + as + adjective + as possible"
+    },
+    {
+      "id": "ss190-formula-03",
+      "labelEn": "With an adverb",
+      "labelZh": "使用副詞",
+      "formula": "Subject + action verb + as + adverb + as possible"
+    },
+    {
+      "id": "ss190-formula-04",
+      "labelEn": "Time expression",
+      "labelZh": "時間句式",
+      "formula": "Subject + verb + as soon / early / late as possible"
+    }
+  ],
+  "example": "Please get home as early as possible.",
+  "exampleZh": "請儘早回家。",
+  "examples": [
+    {
+      "id": "ss190-example-01",
+      "en": "Please get home as early as possible.",
+      "zh": "請儘早回家。",
+      "highlight": "Please get home as early as possible."
+    },
+    {
+      "id": "ss190-example-02",
+      "en": "Answer the questions as carefully as possible.",
+      "zh": "請盡可能仔細地回答問題。",
+      "highlight": "Answer the questions as carefully as possible."
+    },
+    {
+      "id": "ss190-example-03",
+      "en": "We need to finish this project as quickly as possible.",
+      "zh": "我們需要盡快完成這個項目。",
+      "highlight": "We need to finish this project as quickly as possible."
+    },
+    {
+      "id": "ss190-example-04",
+      "en": "Please update the software as soon as possible.",
+      "zh": "請盡快更新軟件。",
+      "highlight": "Please update the software as soon as possible."
+    }
+  ],
+  "meaning": {
+    "zh": "本課練習目標句型：Subject + verb + as + adjective / adverb + as possible + other information。"
+  },
+  "rules": [
+    {
+      "id": "ss190-rule-01",
+      "zh": "這個句型表示：在實際情況容許下，把某種程度提高或降低至極限。 盡可能清楚 盡可能安靜 盡可能小心 它不一定表示事情必須達到絕對完美，而是表示在當時情況下，應盡力做到最高程度。",
+      "en": "The structure expresses the highest practical degree ● as clear as possible ● as quiet as possible ● as carefully as possible It does not necessarily mean that something must be absolutely perfect. It means that the person should do the best that is reasonably possible under the circumstances.",
+      "enSource": "pdf",
+      "examples": [
+        "The structure expresses the highest practical degree",
+        "as clear as possible",
+        "as quiet as possible",
+        "as carefully as possible",
+        "It does not necessarily mean that something must be absolutely perfect. It means that the",
+        "person should do the best that is reasonably possible under the circumstances."
+      ]
+    },
+    {
+      "id": "ss190-rule-02",
+      "zh": "在這個句型中，形容詞或副詞應使用原形，不使用比較級或最高級。",
+      "en": "Use the basic form of the adjective or adverb Correct: ● as quickly as possible ● as simple as possible ● as carefully as possible Incorrect: ● as more quickly as possible ● as simplest as possible ● as most carefully as possible",
+      "enSource": "pdf",
+      "examples": [
+        "Use the basic form of the adjective or adverb",
+        "Correct: as quickly as possible",
+        "as simple as possible",
+        "as carefully as possible",
+        "Incorrect: as more quickly as possible",
+        "as simplest as possible",
+        "as most carefully as possible"
+      ]
+    },
+    {
+      "id": "ss190-rule-03",
+      "zh": "形容詞通常描述人或事物的狀態： 副詞通常描述動作進行的方式：",
+      "en": "Choose an adjective or adverb according to its function. An adjective normally describes the state of a person or thing: Keep the message as short as possible. Make the road as safe as possible. An adverb normally describes how an action is performed: Write as clearly as possible. Drive as carefully as possible.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Choose an adjective or adverb according to its",
+        "Keep the message as short as possible.",
+        "Make the road as safe as possible.",
+        "Write as clearly as possible.",
+        "Drive as carefully as possible."
+      ]
+    },
+    {
+      "id": "ss190-rule-04",
+      "zh": "表示某件事應在最早可行的時間開始或發生，重點是不要延誤。 （請盡快聯絡我。） 表示某個動作應以最高可行速度完成，重點是動作的速度。 （請盡快完成表格。）",
+      "en": "“As soon as possible” and “as quickly as possible” are different. As soon as possible means that something should begin or happen at the earliest feasible time, with the focus on avoiding delay: Please contact me as soon as possible. As quickly as possible means that an action should be completed at the highest feasible speed, with the focus on how fast it is done: Please complete the form as quickly as possible.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "“As soon as possible” and “as quickly as possible” are",
+        "As soon as possible",
+        "Please contact me as soon as possible.",
+        "As quickly as possible",
+        "Please complete the form as quickly as possible."
+      ]
+    },
+    {
+      "id": "ss190-rule-05",
+      "zh": "As soon as possible 是這個句型中最常見的固定說法之一，常用於日常對話、電郵、工作指示 和緊急通知。 在較非正式的工作溝通中，有時會縮寫為 ASAP；不過，在正式寫作中使用完整說法通常較有禮 貌。",
+      "en": "“As soon as possible” is one of the most common fixed expressions in this pattern. It is common in conversation, email, workplace instructions and urgent notices. It is sometimes shortened to ASAP in informal workplace communication, although the complete expression is usually more polite in formal writing.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "“As soon as possible” is the most common fixed",
+        "expression in this pattern",
+        "It is also commonly shortened to ASAP in informal workplace communication, although the",
+        "complete expression is usually more polite in formal writing."
+      ]
+    },
+    {
+      "id": "ss190-rule-06",
+      "zh": "兩句意思十分接近，但本練習要求把其他說法改寫成：",
+      "en": "“As … as you can” has a similar meaning ● Speak as clearly as you can. ● Speak as clearly as possible. as + adjective/adverb + as possible",
+      "enSource": "pdf",
+      "examples": [
+        "“As … as you can” has a similar meaning",
+        "Speak as clearly as you can.",
+        "Speak as clearly as possible.",
+        "as + adjective/adverb + as possible"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss190-benefit-01",
+      "zh": "這個句型能準確表示你不只是希望事情「很」清楚、安全或快速，而是希望在實際情況容許下做到 最高程度。",
+      "en": "It expresses the required degree precisely This structure makes it clear that you do not merely want something to be “very” clear, safe or quick. You want the highest practical degree that the situation allows.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss190-benefit-02",
+      "zh": "例如 Please reply as soon as possible 能清楚表達事情緊急，同時保持中性和有禮貌的語氣。",
+      "en": "It makes instructions clear without sounding unnecessarily harsh Sentences such as “Please reply as soon as possible” communicate urgency clearly while remaining neutral and polite.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss190-benefit-03",
+      "zh": "這個句型可以把「在你能做到的最早時間」等較長說法縮短，使句子更加直接。",
+      "en": "It shortens longer explanations Instead of saying: Please send the document at the earliest time you can. You can say: Please send the document as soon as possible.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss190-benefit-04",
+      "zh": "你可以用它表達時間、速度、安全程度、大小、成本、清晰程度、距離和難度等不同概念。",
+      "en": "It is useful in many situations You can use it when talking about time, speed, safety, size, cost, clarity, distance, difficulty and many other qualities.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss190-benefit-05",
+      "zh": "掌握 as ___ as possible 這個框架後，你可以直接加入不同形容詞或副詞，有助你在說話時更快 組織句子。",
+      "en": "It provides a ready-made speaking frame Once you know the frame as ___ as possible, you can insert different adjectives and adverbs without planning the whole sentence from the beginning.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no English counterpart, the English explanation is a faithful editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the target structure: Subject + verb + as + adjective / adverb + as possible + other information.",
+      "The first word or opening text is provided."
+    ],
+    "zh": [
+      "使用目標句型「Subject + verb + as + adjective / adverb + as possible + other information」改寫每題。",
+      "每題已提供答案的第一個字或開首文字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss190-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Please get home as early as you can.",
+      "promptZh": "請在你能做到的最早時間回家。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please get home as early as possible.",
+      "answerZh": "請儘早回家。",
+      "answerZhSource": "pdf",
+      "highlight": "Please get home as early as possible."
+    },
+    {
+      "id": "ss190-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Answer the questions with as much care as you can.",
+      "promptZh": "請盡你所能，小心回答問題。",
+      "promptZhSource": "pdf",
+      "starter": "Answer",
+      "answer": "Answer the questions as carefully as possible.",
+      "answerZh": "請盡可能仔細地回答問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Answer the questions as carefully as possible."
+    },
+    {
+      "id": "ss190-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We need to finish this project in the shortest time we can.",
+      "promptZh": "我們需要在力所能及的最短時間內完成這個項目。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to finish this project as quickly as possible.",
+      "answerZh": "我們需要盡快完成這個項目。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to finish this project as quickly as possible."
+    },
+    {
+      "id": "ss190-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Please update the software at the earliest opportunity.",
+      "promptZh": "請在最早有機會時更新軟件。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please update the software as soon as possible.",
+      "answerZh": "請盡快更新軟件。",
+      "answerZhSource": "pdf",
+      "highlight": "Please update the software as soon as possible."
+    },
+    {
+      "id": "ss190-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Keep your voice as quiet as you can.",
+      "promptZh": "請把聲量保持在你能做到的最低程度。",
+      "promptZhSource": "pdf",
+      "starter": "Keep",
+      "answer": "Keep your voice as quiet as possible.",
+      "answerZh": "請把聲量保持得盡可能低。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep your voice as quiet as possible."
+    },
+    {
+      "id": "ss190-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Try to make the drawing as neat as you can.",
+      "promptZh": "嘗試把圖畫畫到你能力所及的最整齊程度。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try to make the drawing as neat as possible.",
+      "answerZh": "嘗試把圖畫畫得盡可能整齊。",
+      "answerZhSource": "pdf",
+      "highlight": "Try to make the drawing as neat as possible."
+    },
+    {
+      "id": "ss190-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Walk as slowly as you can without stopping.",
+      "promptZh": "請在不停下來的情況下，盡你所能慢慢走。",
+      "promptZhSource": "pdf",
+      "starter": "Walk",
+      "answer": "Walk as slowly as possible without stopping.",
+      "answerZh": "請在不停下來的情況下，走得盡可能慢。",
+      "answerZhSource": "pdf",
+      "highlight": "Walk as slowly as possible without stopping."
+    },
+    {
+      "id": "ss190-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Please explain the rule in the clearest way you can.",
+      "promptZh": "請用你能做到的最清楚方式解釋這條規則。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please explain the rule as clearly as possible.",
+      "answerZh": "請盡可能清楚地解釋這條規則。",
+      "answerZhSource": "pdf",
+      "highlight": "Please explain the rule as clearly as possible."
+    },
+    {
+      "id": "ss190-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Make the box as light as you can.",
+      "promptZh": "把箱子弄到你能做到的最輕程度。",
+      "promptZhSource": "pdf",
+      "starter": "Make",
+      "answer": "Make the box as light as possible.",
+      "answerZh": "把箱子弄得盡可能輕。",
+      "answerZhSource": "pdf",
+      "highlight": "Make the box as light as possible."
+    },
+    {
+      "id": "ss190-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Stay for the longest time you can.",
+      "promptZh": "請盡你所能逗留最長時間。",
+      "promptZhSource": "pdf",
+      "starter": "Stay",
+      "answer": "Stay as long as possible.",
+      "answerZh": "請盡可能長時間留下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Stay as long as possible."
+    },
+    {
+      "id": "ss190-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our aim is to keep the cost of the decorations at the lowest practical level.",
+      "promptZh": "我們的目標是把裝飾費用維持在最低的實際水平。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our aim is to keep the cost of the decorations as low as possible.",
+      "answerZh": "我們的目標是把裝飾費用降至盡可能低。",
+      "answerZhSource": "pdf",
+      "highlight": "Our aim is to keep the cost of the decorations as low as possible."
+    },
+    {
+      "id": "ss190-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When you write the notice, use the simplest language available.",
+      "promptZh": "寫通告時，請使用可用的最簡單語言。",
+      "promptZhSource": "pdf",
+      "starter": "Use",
+      "answer": "Use language that is as simple as possible when you write the notice.",
+      "answerZh": "寫通告時，請使用盡可能簡單的語言。",
+      "answerZhSource": "pdf",
+      "highlight": "Use language that is as simple as possible when you write the notice."
+    },
+    {
+      "id": "ss190-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The nurse asked the patient to move with the greatest care possible.",
+      "promptZh": "護士要求病人以最大程度的謹慎移動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse asked the patient to move as carefully as possible.",
+      "answerZh": "護士要求病人盡可能小心地移動。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse asked the patient to move as carefully as possible."
+    },
+    {
+      "id": "ss190-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "How soon should the report be sent? It should be sent at the earliest possible time.",
+      "promptZh": "報告應該多快寄出？報告應在最早可行的時間寄出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report should be sent as soon as possible.",
+      "answerZh": "報告應盡快寄出。",
+      "answerZhSource": "pdf",
+      "highlight": "The report should be sent as soon as possible."
+    },
+    {
+      "id": "ss190-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher wants every instruction to be the clearest it can be.",
+      "promptZh": "老師希望每項指示都達到它所能達到的最清楚程度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher wants every instruction to be as clear as possible.",
+      "answerZh": "老師希望每項指示都盡可能清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher wants every instruction to be as clear as possible."
+    },
+    {
+      "id": "ss190-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We tried to keep the bag at the lowest weight we could manage.",
+      "promptZh": "我們嘗試把袋子的重量降至力所能及的最低程度。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We tried to keep the bag as light as possible.",
+      "answerZh": "我們嘗試把袋子保持得盡可能輕。",
+      "answerZhSource": "pdf",
+      "highlight": "We tried to keep the bag as light as possible."
+    },
+    {
+      "id": "ss190-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The photographer stood at the closest point to the stage that the rules allowed.",
+      "promptZh": "攝影師站在規則容許的、最接近舞台的位置。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The photographer stood as close to the stage as possible under the rules.",
+      "answerZh": "攝影師在規則容許下，站得盡可能接近舞台。",
+      "answerZhSource": "pdf",
+      "highlight": "The photographer stood as close to the stage as possible under the rules."
+    },
+    {
+      "id": "ss190-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Keep the medicine at the lowest safe temperature without freezing it.",
+      "promptZh": "在不讓藥物結冰的情況下，把藥物保持在最低安全溫度。",
+      "promptZhSource": "pdf",
+      "starter": "Keep",
+      "answer": "Keep the medicine as cool as possible without freezing it.",
+      "answerZh": "在不讓藥物結冰的情況下，把藥物保持在盡可能低溫。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep the medicine as cool as possible without freezing it."
+    },
+    {
+      "id": "ss190-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager asked us to keep the meeting to the shortest practical length.",
+      "promptZh": "經理要求我們把會議控制在最短的實際時間內。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager asked us to keep the meeting as short as possible.",
+      "answerZh": "經理要求我們把會議時間縮至盡可能短。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager asked us to keep the meeting as short as possible."
+    },
+    {
+      "id": "ss190-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The website should load in the shortest practical time.",
+      "promptZh": "網站應在最短的實際時間內完成載入。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website should load as quickly as possible.",
+      "answerZh": "網站應該盡可能快速載入。",
+      "answerZhSource": "pdf",
+      "highlight": "The website should load as quickly as possible."
+    },
+    {
+      "id": "ss190-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A rescue message must be sent without any avoidable delay.",
+      "promptZh": "救援訊息必須在沒有任何可避免延誤的情況下發出。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A rescue message must be sent as soon as possible.",
+      "answerZh": "救援訊息必須盡快發出。",
+      "answerZhSource": "pdf",
+      "highlight": "A rescue message must be sent as soon as possible."
+    },
+    {
+      "id": "ss190-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The form was designed so that users could complete it with the least possible difficulty.",
+      "promptZh": "這份表格的設計，是要讓使用者以最少困難完成填寫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The form was designed to be as easy as possible for users to complete.",
+      "answerZh": "這份表格的設計要讓使用者盡可能容易完成填寫。",
+      "answerZhSource": "pdf",
+      "highlight": "The form was designed to be as easy as possible for users to complete."
+    },
+    {
+      "id": "ss190-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Please keep the screen brightness at the lowest comfortable level.",
+      "promptZh": "請把螢幕亮度維持在仍然舒適的最低水平。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please keep the screen brightness as low as possible without making it uncomfortable to view.",
+      "answerZh": "請在仍能舒適觀看的情況下，把螢幕亮度調至盡可能低。",
+      "answerZhSource": "pdf",
+      "highlight": "Please keep the screen brightness as low as possible without making it uncomfortable to view."
+    },
+    {
+      "id": "ss190-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our goal is to make the route safe to the greatest practical degree.",
+      "promptZh": "我們的目標是把路線的安全程度提高至實際可達的最高水平。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our goal is to make the route as safe as possible.",
+      "answerZh": "我們的目標是把路線設計得盡可能安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Our goal is to make the route as safe as possible."
+    },
+    {
+      "id": "ss190-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The speaker tried to make his explanation the simplest he could.",
+      "promptZh": "講者嘗試把解釋說到他所能做到的最簡單程度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker tried to make his explanation as simple as possible.",
+      "answerZh": "講者嘗試把解釋說得盡可能簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker tried to make his explanation as simple as possible."
+    },
+    {
+      "id": "ss190-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The workers placed the signs so that they would be as visible as they could be.",
+      "promptZh": "工人擺放標誌，好讓標誌達到他們所能做到的最高可見度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The workers placed the signs so that they would be as visible as possible.",
+      "answerZh": "工人擺放標誌，好讓標誌盡可能顯眼。",
+      "answerZhSource": "pdf",
+      "highlight": "The workers placed the signs so that they would be as visible as possible."
+    },
+    {
+      "id": "ss190-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school wants the new timetable to be the clearest it can be.",
+      "promptZh": "學校希望新時間表達到它所能達到的最清楚程度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school wants the new timetable to be as clear as possible.",
+      "answerZh": "學校希望新時間表盡可能清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The school wants the new timetable to be as clear as possible."
+    },
+    {
+      "id": "ss190-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You should keep your online password as private as you can.",
+      "promptZh": "你應該盡你所能保密網上密碼。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should keep your online password as private as possible.",
+      "answerZh": "你應該盡可能保密你的網上密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "You should keep your online password as private as possible."
+    },
+    {
+      "id": "ss190-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The chef kept the heat at the lowest level that would still cook the sauce.",
+      "promptZh": "廚師把火力維持在仍能煮熟醬汁的最低水平。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chef kept the heat as low as possible while still allowing the sauce to cook.",
+      "answerZh": "廚師把火力保持在盡可能低、但仍能煮熟醬汁的水平。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef kept the heat as low as possible while still allowing the sauce to cook."
+    },
+    {
+      "id": "ss190-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The road should remain open for the longest practical period during the repairs.",
+      "promptZh": "維修期間，道路應在實際可行的最長時間內保持開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road should remain open as long as possible during the repairs.",
+      "answerZh": "維修期間，道路應盡可能長時間保持開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The road should remain open as long as possible during the repairs."
+    },
+    {
+      "id": "ss190-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you must carry the equipment, keep it at the lowest practical weight.",
+      "promptZh": "如果你必須攜帶設備，請把它保持在最低的實際重量。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you must carry the equipment, keep it as light as possible.",
+      "answerZh": "如果你必須攜帶設備，請把設備保持得盡可能輕。",
+      "answerZhSource": "pdf",
+      "highlight": "If you must carry the equipment, keep it as light as possible."
+    },
+    {
+      "id": "ss190-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When recording the interview, sit at the nearest position that does not disturb the speaker.",
+      "promptZh": "錄製訪問時，請坐在不會打擾講者的最近位置。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When recording the interview, sit as close to the speaker as possible without disturbing them.",
+      "answerZh": "錄製訪問時，請在不打擾講者的情況下，坐得盡可能靠近講者。",
+      "answerZhSource": "pdf",
+      "highlight": "When recording the interview, sit as close to the speaker as possible without disturbing them."
+    },
+    {
+      "id": "ss190-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Arrange the documents in the clearest way your team can.",
+      "promptZh": "把文件按照你們團隊能做到的最清楚方式排列。",
+      "promptZhSource": "pdf",
+      "starter": "Arrange",
+      "answer": "Arrange the documents as clearly as possible.",
+      "answerZh": "把文件排列得盡可能清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Arrange the documents as clearly as possible."
+    },
+    {
+      "id": "ss190-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The clinic asks patients to arrive at the earliest time they can after receiving the message.",
+      "promptZh": "診所要求病人在收到訊息後，於他們能做到的最早時間到達。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After receiving the message, patients are asked to arrive at the clinic as soon as possible.",
+      "answerZh": "病人在收到訊息後，應盡快到達診所。",
+      "answerZhSource": "pdf",
+      "highlight": "After receiving the message, patients are asked to arrive at the clinic as soon as possible."
+    },
+    {
+      "id": "ss190-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The engineers are trying to reduce the machine’s noise to the lowest level they can achieve.",
+      "promptZh": "工程師正嘗試把機器的噪音降至他們能達到的最低水平。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineers are trying to make the machine as quiet as possible.",
+      "answerZh": "工程師正嘗試把機器設計得盡可能安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineers are trying to make the machine as quiet as possible."
+    },
+    {
+      "id": "ss190-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The guide spoke at the slowest speed that still sounded natural.",
+      "promptZh": "導遊以仍然聽起來自然的最慢速度說話。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While still sounding natural, the guide spoke as slowly as possible.",
+      "answerZh": "導遊在仍然聽起來自然的情況下，說得盡可能慢。",
+      "answerZhSource": "pdf",
+      "highlight": "While still sounding natural, the guide spoke as slowly as possible."
+    },
+    {
+      "id": "ss190-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company wants the instructions to use the fewest words possible without leaving out essential details.",
+      "promptZh": "公司希望指示在不遺漏重要資料的情況下，使用最少的字。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without leaving out essential details, the company wants the instructions to be as short as possible.",
+      "answerZh": "公司希望指示在不遺漏重要資料的情況下，盡可能簡短。",
+      "answerZhSource": "pdf",
+      "highlight": "Without leaving out essential details, the company wants the instructions to be as short as possible."
+    },
+    {
+      "id": "ss190-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The team will continue working until the latest safe time unless the weather gets worse.",
+      "promptZh": "除非天氣轉差，否則團隊會工作至最遲仍安全的時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team will continue working as late as possible unless the weather gets worse.",
+      "answerZh": "除非天氣轉差，否則團隊會工作至盡可能晚。",
+      "answerZhSource": "pdf",
+      "highlight": "The team will continue working as late as possible unless the weather gets worse."
+    },
+    {
+      "id": "ss190-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The file should be reduced to the smallest size that keeps the images clear.",
+      "promptZh": "檔案應縮減至仍能保持圖片清晰的最小檔案大小。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The file should be made as small as possible while the images remain clear.",
+      "answerZh": "檔案應在保持圖片清晰的情況下，縮至盡可能小。",
+      "answerZhSource": "pdf",
+      "highlight": "The file should be made as small as possible while the images remain clear."
+    },
+    {
+      "id": "ss190-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The presenter was asked to answer in the most direct way she could.",
+      "promptZh": "簡報者被要求以她能做到的最直接方式回答。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When answering, the presenter was asked to be as direct as possible.",
+      "answerZh": "簡報者被要求在回答時盡可能直接。",
+      "answerZhSource": "pdf",
+      "highlight": "When answering, the presenter was asked to be as direct as possible."
+    },
+    {
+      "id": "ss190-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "To reduce waiting times, the hospital requires staff to begin each consultation with the least possible delay.",
+      "promptZh": "為了縮短輪候時間，醫院要求職員在每次診症開始時把延誤減至最低。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To reduce waiting times, the hospital requires staff to begin each consultation as promptly as possible.",
+      "answerZh": "為了縮短輪候時間，醫院要求職員盡可能迅速地開始每次診症。",
+      "answerZhSource": "pdf",
+      "highlight": "To reduce waiting times, the hospital requires staff to begin each consultation as promptly as possible."
+    },
+    {
+      "id": "ss190-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The emergency plan requires every exit route to be made clear and accessible to the greatest practical degree.",
+      "promptZh": "緊急應變計劃要求每條出口通道在實際可行範圍內做到最清楚和最暢通。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency plan requires every exit route to be made as clear and accessible as possible.",
+      "answerZh": "緊急應變計劃要求每條出口通道都盡可能清楚和暢通易用。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency plan requires every exit route to be made as clear and accessible as possible."
+    },
+    {
+      "id": "ss190-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report should use the most recent data available.",
+      "promptZh": "報告應使用現有最新的數據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report should use data that is as recent as possible.",
+      "answerZh": "報告應使用盡可能近期的數據。",
+      "answerZhSource": "pdf",
+      "highlight": "The report should use data that is as recent as possible."
+    },
+    {
+      "id": "ss190-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "By using the strongest evidence they could find, the students tried to make their arguments as convincing as they could.",
+      "promptZh": "學生使用他們能找到的最有力證據，並嘗試令論點達到他們所能做到的最高說服力。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By using the strongest evidence they could find, the students tried to make their arguments as convincing as possible.",
+      "answerZh": "透過使用他們能找到的最有力證據，學生嘗試令論點盡可能具說服力。",
+      "answerZhSource": "pdf",
+      "highlight": "By using the strongest evidence they could find, the students tried to make their arguments as convincing as possible."
+    },
+    {
+      "id": "ss190-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The public notice must be written in the clearest practical language for readers of different ages.",
+      "promptZh": "公共通告必須使用實際可行而最清楚的語言寫成，讓不同年齡的讀者閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public notice must be written as clearly as possible for readers of different ages.",
+      "answerZh": "公共通告必須寫得盡可能清楚，讓不同年齡的讀者都能閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The public notice must be written as clearly as possible for readers of different ages."
+    },
+    {
+      "id": "ss190-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The research team kept the samples at the most stable temperature the equipment could maintain.",
+      "promptZh": "研究團隊把樣本維持在設備能保持的最穩定溫度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team kept the samples at a temperature that was as stable as possible.",
+      "answerZh": "研究團隊把樣本維持在盡可能穩定的溫度。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team kept the samples at a temperature that was as stable as possible."
+    },
+    {
+      "id": "ss190-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council wants construction noise to remain at the lowest realistically achievable level near homes.",
+      "promptZh": "市議會希望住宅附近的建築噪音維持在實際可達的最低水平。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council wants construction noise to remain as low as possible near homes.",
+      "answerZh": "市議會希望住宅附近的建築噪音保持在盡可能低的水平。",
+      "answerZhSource": "pdf",
+      "highlight": "The council wants construction noise to remain as low as possible near homes."
+    },
+    {
+      "id": "ss190-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Even if the form takes longer, the customer should provide every detail with the greatest accuracy they can.",
+      "promptZh": "即使填寫表格需要更長時間，顧客也應以力所能及的最高準確度提供每項資料。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if the form takes longer, the customer should provide every detail as accurately as possible.",
+      "answerZh": "即使填寫表格需時較長，顧客也應盡可能準確地提供每項資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the form takes longer, the customer should provide every detail as accurately as possible."
+    },
+    {
+      "id": "ss190-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisation is simplifying the application process so that people can complete it with the least possible difficulty.",
+      "promptZh": "機構正簡化申請程序，好讓人們以最少困難完成申請。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation is making the application process as easy as possible for people to complete.",
+      "answerZh": "機構正令申請程序盡可能容易完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation is making the application process as easy as possible for people to complete."
+    },
+    {
+      "id": "ss190-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "When resources are limited, the team must keep the service fast and reliable to the greatest degree it can.",
+      "promptZh": "資源有限時，團隊必須盡其所能，令服務保持高速和可靠。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When resources are limited, the team must keep the service as fast and reliable as possible.",
+      "answerZh": "資源有限時，團隊必須令服務盡可能快速和可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "When resources are limited, the team must keep the service as fast and reliable as possible."
+    }
+  ]
+}

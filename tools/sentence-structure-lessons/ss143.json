@@ -1,0 +1,1229 @@
+{
+  "id": "ss143",
+  "order": 143,
+  "slug": "wh-to-infinitive",
+  "title": "「WH + to-infinitive 名詞句」",
+  "titleZh": "「WH + to-infinitive 名詞句」",
+  "titleEn": "Using WH + to-infinitive as a noun phrase",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 143 - 「WH + to-infinitive 名詞句」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + verb / phrase + WH-word (+ noun) + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss143-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Subject + verb / phrase + WH-word (+ noun) + to + base verb + other information"
+    }
+  ],
+  "example": "I do not know what to do next.",
+  "exampleZh": "我不知道下一步該做甚麼。",
+  "examples": [
+    {
+      "id": "ss143-example-01",
+      "en": "I do not know what to do next.",
+      "zh": "我不知道下一步該做甚麼。",
+      "highlight": "what to do next"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss143-rule-01",
+      "zh": "WH + to 通常不是一條獨立問題，而是在完整句子中擔任名詞成分。",
+      "en": "The WH + to phrase forms part of a larger sentence. It is normally not an independent question, but functions as a noun element within the complete sentence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I cannot decide where to go.",
+        "Please tell me what to bring."
+      ]
+    },
+    {
+      "id": "ss143-rule-02",
+      "zh": "在 to 後面必須使用動詞原形。",
+      "en": "Use the base form after to.",
+      "enSource": "pdf",
+      "examples": [
+        "how to open the door"
+      ]
+    },
+    {
+      "id": "ss143-rule-03",
+      "zh": "把完整的間接問句縮短為 WH + to 後，不再保留主詞和 should、can 等情態動詞。",
+      "en": "Do not put a subject or question word order after the WH-word. When a full indirect question is reduced to WH + to, remove the subject and modal verbs such as should or can.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss143-rule-04",
+      "zh": "當說話者需要從幾個已知選項中作出選擇時，常使用： 如果名詞已經非常清楚，也可以省略名詞：",
+      "en": "Use which + noun + to + base verb when choosing from a limited group of known options. If the noun is already completely clear, it may be omitted.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "which + noun + to + base verb which bus to take",
+        "which topic to choose",
+        "which button to press",
+        "I cannot decide which to choose."
+      ]
+    },
+    {
+      "id": "ss143-rule-05",
+      "zh": "在現代日常英語中，通常使用： 較正式的英語有時使用 whom，但本練習統一使用較自然和常見的 who。",
+      "en": "Who is common in modern everyday English in forms such as who to ask, who to contact and who to speak to. More formal English sometimes uses whom, but this exercise consistently uses the more natural and common who.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss143-rule-06",
+      "zh": "一般不會說： 應改為完整子句： Whether to 是相關句型，但不屬於本課的 WH + to 練習範圍。",
+      "en": "Why to is not normally used in this pattern; use a complete clause such as why I should leave instead. Whether to is a related construction but is outside the WH + to practice in this lesson.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I do not know why I should leave."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss143-benefit-01",
+      "zh": "可以縮短較長的間接問句 你不需要重複主詞和 should、can 等字，也可以更直接地表達相同問題。",
+      "en": "It shortens a longer indirect question. Instead of repeating the subject and words such as should or can, you can express the same question more directly.",
+      "enSource": "pdf",
+      "examples": [
+        "I do not know what to do."
+      ]
+    },
+    {
+      "id": "ss143-benefit-02",
+      "zh": "幫助你表達決定和不確定的事情 這個句型很適合用來說明你仍未決定地點、時間、人物、方法或選項。",
+      "en": "It helps you talk about decisions and uncertainty, especially when a place, time, person, method or option has not yet been decided.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We have not decided where to stay.",
+        "She is not sure who to ask."
+      ]
+    },
+    {
+      "id": "ss143-benefit-03",
+      "zh": "讓指示更容易表達和理解 你可以用這個句型清楚說明某人需要做甚麼、在哪裏做、何時做或如何做。",
+      "en": "It makes instructions easier to give and understand by stating clearly what someone needs to do, where or when to do it, or how to do it.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The guide explained where to wait.",
+        "The website shows users how to reset their passwords."
+      ]
+    },
+    {
+      "id": "ss143-benefit-04",
+      "zh": "把相關資料合併成一句 你可以把一條問題和另一句說明合併起來，避免使用太多短句。",
+      "en": "It combines related information into one sentence by joining a question to another statement and avoiding too many short sentences.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We need to decide which train to take."
+      ]
+    },
+    {
+      "id": "ss143-benefit-05",
+      "zh": "提供實用的說話和寫作框架 只要記住以下框架，便可以加入不同內容： 這些框架適合日常對話、學校寫作、工作指示、電郵和報告。",
+      "en": "It provides useful speaking and writing frames such as I do not know what to ..., We need to decide where to ..., Please show me how to ... and She is unsure which ... to choose. These patterns suit everyday conversation, school writing, workplace instructions, emails and reports.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a WH-word + to + base verb structure.",
+      "Preserve the original meaning, subject, tense, objects and other important information.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 WH 疑問詞 + to + 動詞原形 改寫以下句子。",
+      "答案須保留原句的意思、主詞、時態、受詞及其他重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss143-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What should I do? I do not know.",
+      "promptZh": "我應該做甚麼？我不知道。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do not know what to do.",
+      "answerZh": "我不知道該做甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not know what to do."
+    },
+    {
+      "id": "ss143-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Where should Mia sit? She cannot decide.",
+      "promptZh": "米婭應該坐在哪裏？她無法決定。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia cannot decide where to sit.",
+      "answerZh": "米婭無法決定該坐在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia cannot decide where to sit."
+    },
+    {
+      "id": "ss143-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Who should Ben ask? He is still wondering.",
+      "promptZh": "本應該問誰？他仍在考慮。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben is still wondering who to ask.",
+      "answerZh": "本仍在考慮該問誰。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben is still wondering who to ask."
+    },
+    {
+      "id": "ss143-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When should we leave? We need to decide.",
+      "promptZh": "我們應該何時離開？我們需要作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to decide when to leave.",
+      "answerZh": "我們需要決定何時離開。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to decide when to leave."
+    },
+    {
+      "id": "ss143-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe understands the correct method for opening the box.",
+      "promptZh": "克洛伊明白打開這個盒子的正確方法。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe knows how to open the box.",
+      "answerZh": "克洛伊知道如何打開這個盒子。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe knows how to open the box."
+    },
+    {
+      "id": "ss143-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo cannot remember the correct place for the key.",
+      "promptZh": "里奧記不起鑰匙的正確擺放位置。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo cannot remember where to put the key.",
+      "answerZh": "里奧記不起應該把鑰匙放在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo cannot remember where to put the key."
+    },
+    {
+      "id": "ss143-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Which topic should the students choose? They are discussing it.",
+      "promptZh": "學生應該選擇哪個題目？他們正在討論這件事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students are discussing which topic to choose.",
+      "answerZh": "學生正在討論應該選擇哪個題目。",
+      "answerZhSource": "pdf",
+      "highlight": "The students are discussing which topic to choose."
+    },
+    {
+      "id": "ss143-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What should I bring? Please tell me.",
+      "promptZh": "我應該帶甚麼？請告訴我。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please tell me what to bring.",
+      "answerZh": "請告訴我應該帶甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Please tell me what to bring."
+    },
+    {
+      "id": "ss143-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Amy showed me the correct way of using the printer.",
+      "promptZh": "艾米向我示範使用打印機的正確方法。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy showed me how to use the printer.",
+      "answerZh": "艾米教我如何使用打印機。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy showed me how to use the printer."
+    },
+    {
+      "id": "ss143-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Which bus should Daniel take? He has not decided.",
+      "promptZh": "丹尼爾應該乘搭哪一班巴士？他尚未決定。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel has not decided which bus to take.",
+      "answerZh": "丹尼爾尚未決定乘搭哪一班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel has not decided which bus to take."
+    },
+    {
+      "id": "ss143-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Who should Sarah invite to the party? She is not sure.",
+      "promptZh": "莎拉應該邀請誰參加派對？她不肯定。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah is not sure who to invite to the party.",
+      "answerZh": "莎拉不肯定應該邀請誰參加派對。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah is not sure who to invite to the party."
+    },
+    {
+      "id": "ss143-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The guide explained where we should meet after lunch.",
+      "promptZh": "導遊解釋了我們午膳後應該在哪裏集合。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide explained where to meet after lunch.",
+      "answerZh": "導遊解釋了午膳後應該在哪裏集合。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide explained where to meet after lunch."
+    },
+    {
+      "id": "ss143-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I have forgotten the correct spelling of this word.",
+      "promptZh": "我忘記了這個字的正確串法。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have forgotten how to spell this word.",
+      "answerZh": "我忘記了這個字應該怎樣串。",
+      "answerZhSource": "pdf",
+      "highlight": "I have forgotten how to spell this word."
+    },
+    {
+      "id": "ss143-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Noah cannot decide what he should wear.",
+      "promptZh": "諾亞無法決定應該穿甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Noah",
+      "answer": "Noah cannot decide what to wear.",
+      "answerZh": "諾亞無法決定應該穿甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah cannot decide what to wear."
+    },
+    {
+      "id": "ss143-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The organiser told us when we should return.",
+      "promptZh": "主辦人告訴我們應該何時回來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organiser told us when to return.",
+      "answerZh": "主辦人告訴我們應該何時回來。",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser told us when to return."
+    },
+    {
+      "id": "ss143-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Olivia asked where she could buy a ticket.",
+      "promptZh": "奧莉花詢問可以在哪裏買票。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia asked where to buy a ticket.",
+      "answerZh": "奧莉花詢問可以在哪裏買票。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia asked where to buy a ticket."
+    },
+    {
+      "id": "ss143-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team needs to work out how they can solve the problem.",
+      "promptZh": "團隊需要想出可以如何解決這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team needs to work out how to solve the problem.",
+      "answerZh": "團隊需要想出如何解決這個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The team needs to work out how to solve the problem."
+    },
+    {
+      "id": "ss143-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Which button should we press? Please show us.",
+      "promptZh": "我們應該按哪個按鈕？請指給我們看。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please show us which button to press.",
+      "answerZh": "請指給我們看應該按哪個按鈕。",
+      "answerZhSource": "pdf",
+      "highlight": "Please show us which button to press."
+    },
+    {
+      "id": "ss143-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ethan is thinking about the person he should contact.",
+      "promptZh": "伊森正在考慮應該聯絡哪一個人。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan is thinking about who to contact.",
+      "answerZh": "伊森正在考慮應該聯絡誰。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan is thinking about who to contact."
+    },
+    {
+      "id": "ss143-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The children have learnt the safe way to cross the road.",
+      "promptZh": "孩子們已學會安全過馬路的方法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children have learnt how to cross the road safely.",
+      "answerZh": "孩子們已學會如何安全過馬路。",
+      "answerZhSource": "pdf",
+      "highlight": "The children have learnt how to cross the road safely."
+    },
+    {
+      "id": "ss143-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager has not decided which plan she should approve.",
+      "promptZh": "經理尚未決定應該批准哪個計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager has not decided which plan to approve.",
+      "answerZh": "經理尚未決定應該批准哪個計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager has not decided which plan to approve."
+    },
+    {
+      "id": "ss143-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You should check the place where you can collect your parcel.",
+      "promptZh": "你應該查看可以在哪裏領取包裹。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should check where to collect your parcel.",
+      "answerZh": "你應該查清楚在哪裏領取包裹。",
+      "answerZhSource": "pdf",
+      "highlight": "You should check where to collect your parcel."
+    },
+    {
+      "id": "ss143-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace could not remember when she should take the medicine.",
+      "promptZh": "格蕾絲記不起應該何時服藥。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace could not remember when to take the medicine.",
+      "answerZh": "格蕾絲記不起應該何時服藥。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace could not remember when to take the medicine."
+    },
+    {
+      "id": "ss143-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The website gives instructions for resetting your password.",
+      "promptZh": "網站提供重設密碼的指示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website explains how to reset your password.",
+      "answerZh": "網站說明如何重設密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "The website explains how to reset your password."
+    },
+    {
+      "id": "ss143-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I am unsure what I should say to the customer.",
+      "promptZh": "我不肯定應該對顧客說甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I am unsure what to say to the customer.",
+      "answerZh": "我不肯定應該對顧客說甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "I am unsure what to say to the customer."
+    },
+    {
+      "id": "ss143-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Which book should the students read next? They are considering the options.",
+      "promptZh": "學生下一本應該讀哪本書？他們正在考慮各個選擇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students are considering which book to read next.",
+      "answerZh": "學生正在考慮下一本應該讀哪本書。",
+      "answerZhSource": "pdf",
+      "highlight": "The students are considering which book to read next."
+    },
+    {
+      "id": "ss143-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The nurse told the patient where he should sit.",
+      "promptZh": "護士告訴病人應該坐在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse told the patient where to sit.",
+      "answerZh": "護士告訴病人應該坐在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse told the patient where to sit."
+    },
+    {
+      "id": "ss143-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Marcus does not know which person he should tell about the problem.",
+      "promptZh": "馬庫斯不知道應該把這個問題告訴哪一個人。",
+      "promptZhSource": "pdf",
+      "starter": "Marcus",
+      "answer": "Marcus does not know who to tell about the problem.",
+      "answerZh": "馬庫斯不知道應該把這個問題告訴誰。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus does not know who to tell about the problem."
+    },
+    {
+      "id": "ss143-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The travellers need to decide where they should stay tonight.",
+      "promptZh": "旅客需要決定今晚應該住在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The travellers need to decide where to stay tonight.",
+      "answerZh": "旅客需要決定今晚住在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The travellers need to decide where to stay tonight."
+    },
+    {
+      "id": "ss143-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Sofia asked the teacher how she could improve her pronunciation.",
+      "promptZh": "蘇菲亞問老師可以如何改善發音。",
+      "promptZhSource": "pdf",
+      "starter": "Sofia",
+      "answer": "Sofia asked the teacher how to improve her pronunciation.",
+      "answerZh": "蘇菲亞問老師如何改善發音。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia asked the teacher how to improve her pronunciation."
+    },
+    {
+      "id": "ss143-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The committee must decide how it should divide the budget fairly.",
+      "promptZh": "委員會必須決定應該如何公平分配預算。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee must decide how to divide the budget fairly.",
+      "answerZh": "委員會必須決定如何公平分配預算。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee must decide how to divide the budget fairly."
+    },
+    {
+      "id": "ss143-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This map shows visitors where they can find the lifts.",
+      "promptZh": "這張地圖向訪客顯示可以在哪裏找到升降機。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This map shows visitors where to find the lifts.",
+      "answerZh": "這張地圖向訪客顯示在哪裏可以找到升降機。",
+      "answerZhSource": "pdf",
+      "highlight": "This map shows visitors where to find the lifts."
+    },
+    {
+      "id": "ss143-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What should people do if the alarm rings? Please explain.",
+      "promptZh": "如果警報響起，人們應該做甚麼？請解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please explain what to do if the alarm rings.",
+      "answerZh": "請解釋警報響起時應該做甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Please explain what to do if the alarm rings."
+    },
+    {
+      "id": "ss143-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The supervisor instructed the workers when they should turn off the machines.",
+      "promptZh": "主管指示工人應該何時關閉機器。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The supervisor instructed the workers when to turn off the machines.",
+      "answerZh": "主管指示工人應該何時關閉機器。",
+      "answerZhSource": "pdf",
+      "highlight": "The supervisor instructed the workers when to turn off the machines."
+    },
+    {
+      "id": "ss143-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which file should I send? I cannot work it out.",
+      "promptZh": "我應該傳送哪個檔案？我想不出來。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I cannot work out which file to send.",
+      "answerZh": "我想不出應該傳送哪個檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "I cannot work out which file to send."
+    },
+    {
+      "id": "ss143-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ava has no idea how she should answer the final question.",
+      "promptZh": "艾娃完全不知道應該如何回答最後一題。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava has no idea how to answer the final question.",
+      "answerZh": "艾娃完全不知道如何回答最後一題。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava has no idea how to answer the final question."
+    },
+    {
+      "id": "ss143-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach taught the players where they should stand during a corner.",
+      "promptZh": "教練教導球員在開出角球時應該站在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach taught the players where to stand during a corner.",
+      "answerZh": "教練教導球員在開出角球時應該站在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach taught the players where to stand during a corner."
+    },
+    {
+      "id": "ss143-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The receptionist told us which person we should speak to about the booking.",
+      "promptZh": "接待員告訴我們應該與哪一個人商討預訂事宜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The receptionist told us who to speak to about the booking.",
+      "answerZh": "接待員告訴我們應該與誰商討預訂事宜。",
+      "answerZhSource": "pdf",
+      "highlight": "The receptionist told us who to speak to about the booking."
+    },
+    {
+      "id": "ss143-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "These instructions do not say which side we should attach first.",
+      "promptZh": "這些指示沒有說明應該先安裝哪一邊。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These instructions do not say which side to attach first.",
+      "answerZh": "這些指示沒有說明應該先安裝哪一邊。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions do not say which side to attach first."
+    },
+    {
+      "id": "ss143-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Both parents are discussing how they can help their child study independently.",
+      "promptZh": "父母二人正在討論如何幫助孩子獨立學習。",
+      "promptZhSource": "pdf",
+      "starter": "Both",
+      "answer": "Both parents are discussing how to help their child study independently.",
+      "answerZh": "父母二人正在討論如何幫助孩子獨立學習。",
+      "answerZhSource": "pdf",
+      "highlight": "Both parents are discussing how to help their child study independently."
+    },
+    {
+      "id": "ss143-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school must decide where it should build the new reading area.",
+      "promptZh": "學校必須決定應該在哪裏興建新的閱讀區。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school must decide where to build the new reading area.",
+      "answerZh": "學校必須決定在哪裏興建新的閱讀區。",
+      "answerZhSource": "pdf",
+      "highlight": "The school must decide where to build the new reading area."
+    },
+    {
+      "id": "ss143-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The emergency notice explains which items people should take during an evacuation.",
+      "promptZh": "緊急告示說明人們在疏散時應該帶走哪些物品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency notice explains what to take during an evacuation.",
+      "answerZh": "緊急告示說明疏散時應該帶甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency notice explains what to take during an evacuation."
+    },
+    {
+      "id": "ss143-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The project team has not agreed on which person it should assign the final task to.",
+      "promptZh": "項目團隊尚未就應該把最後一項任務交給哪一個人達成共識。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project team has not agreed on who to assign the final task to.",
+      "answerZh": "項目團隊尚未就應該把最後一項任務交給誰達成共識。",
+      "answerZhSource": "pdf",
+      "highlight": "The project team has not agreed on who to assign the final task to."
+    },
+    {
+      "id": "ss143-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At the appointment, the doctor explained the steps the patient could take to reduce the risk of infection at home.",
+      "promptZh": "在診症期間，醫生解釋了病人可以採取哪些步驟，以減低在家中感染的風險。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the appointment, the doctor explained to the patient how to reduce the risk of infection at home.",
+      "answerZh": "在診症期間，醫生向病人解釋如何在家中減低感染風險。",
+      "answerZhSource": "pdf",
+      "highlight": "At the appointment, the doctor explained to the patient how to reduce the risk of infection at home."
+    },
+    {
+      "id": "ss143-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We need clearer guidance on when we should use each safety procedure.",
+      "promptZh": "我們需要更清晰的指引，說明應該何時使用每項安全程序。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need clearer guidance on when to use each safety procedure.",
+      "answerZh": "我們需要更清晰的指引，說明何時使用每項安全程序。",
+      "answerZhSource": "pdf",
+      "highlight": "We need clearer guidance on when to use each safety procedure."
+    },
+    {
+      "id": "ss143-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Museum staff are deciding which objects they should display in the entrance hall.",
+      "promptZh": "博物館職員正在決定應該在入口大堂展示哪些物品。",
+      "promptZhSource": "pdf",
+      "starter": "Museum",
+      "answer": "Museum staff are deciding which objects to display in the entrance hall.",
+      "answerZh": "博物館職員正在決定在入口大堂展示哪些物品。",
+      "answerZhSource": "pdf",
+      "highlight": "Museum staff are deciding which objects to display in the entrance hall."
+    },
+    {
+      "id": "ss143-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new employee was shown where she should save confidential documents.",
+      "promptZh": "新員工獲指示應該把機密文件儲存在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new employee was shown where to save confidential documents.",
+      "answerZh": "新員工獲指示應該把機密文件儲存在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The new employee was shown where to save confidential documents."
+    },
+    {
+      "id": "ss143-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The residents have not decided who they should ask for help with the broken lift.",
+      "promptZh": "居民尚未決定應該向誰求助，以處理壞掉的升降機。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The residents have not decided who to ask for help with the broken lift.",
+      "answerZh": "居民尚未決定應該向誰求助，以處理壞掉的升降機。",
+      "answerZhSource": "pdf",
+      "highlight": "The residents have not decided who to ask for help with the broken lift."
+    },
+    {
+      "id": "ss143-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report offers households practical advice on how they can reduce unnecessary energy use.",
+      "promptZh": "報告向住戶提供實用建議，說明他們可以如何減少不必要的能源使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report offers households practical advice on how to reduce unnecessary energy use.",
+      "answerZh": "報告向住戶提供如何減少不必要能源使用的實用建議。",
+      "answerZhSource": "pdf",
+      "highlight": "The report offers households practical advice on how to reduce unnecessary energy use."
+    },
+    {
+      "id": "ss143-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before the event begins, the organisers must agree on what they should do if the main speaker is late.",
+      "promptZh": "活動開始前，主辦人必須就主講嘉賓遲到時應該怎樣做達成共識。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the event begins, the organisers must agree on what to do if the main speaker is late.",
+      "answerZh": "活動開始前，主辦人必須就主講嘉賓遲到時應該怎樣做達成共識。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the event begins, the organisers must agree on what to do if the main speaker is late."
+    }
+  ]
+}

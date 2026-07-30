@@ -1,0 +1,1279 @@
+{
+  "id": "ss154",
+  "order": 154,
+  "slug": "alternative-questions",
+  "title": "Alternative Questions 選擇問句",
+  "titleZh": "「Alternative Questions 選擇問句」",
+  "titleEn": "Using alternative questions to offer stated choices",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 154 -「Alternative Questions 選擇問句」.pdf",
+    "pageCount": 26,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Be + subject + option A + or + option B?",
+  "formulas": [
+    {
+      "id": "ss154-formula-01",
+      "labelEn": "Be verb",
+      "labelZh": "Be 動詞",
+      "formula": "Be + subject + option A + or + option B?"
+    },
+    {
+      "id": "ss154-formula-02",
+      "labelEn": "Present or past simple",
+      "labelZh": "一般現在式或一般過去式",
+      "formula": "Do / Does / Did + subject + base verb + option A + or + option B?"
+    },
+    {
+      "id": "ss154-formula-03",
+      "labelEn": "Modal or auxiliary",
+      "labelZh": "情態動詞或其他助動詞",
+      "formula": "Modal / Auxiliary verb + subject + verb + option A + or + option B?"
+    },
+    {
+      "id": "ss154-formula-04",
+      "labelEn": "Wh-word choice",
+      "labelZh": "疑問詞選擇問句",
+      "formula": "Wh-word + question form, + option A + or + option B?"
+    }
+  ],
+  "example": "Is the problem technical or political?",
+  "exampleZh": "這個問題是技術性的，還是政治性的？",
+  "examples": [
+    {
+      "id": "ss154-example-01",
+      "en": "Is the problem technical or political?",
+      "zh": "這個問題是技術性的，還是政治性的？",
+      "highlight": "Is the problem technical or political?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss154-rule-01",
+      "zh": "選擇問句通常不能只回答 Yes 或 No 對方通常需要選出其中一項，而不是只回答 Yes 或 No。 （問題：你想喝茶還是咖啡？） （回答：咖啡，謝謝。）",
+      "en": "An alternative question normally cannot be answered with Yes or No alone. The listener is expected to choose one of the stated options. For example, the usual answer to Would you like tea or coffee? is an option such as Coffee, please.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The listener should normally choose one of the stated options.",
+        "Question: Would you like tea or coffee?"
+      ]
+    },
+    {
+      "id": "ss154-rule-02",
+      "zh": "助動詞要放在主語前面",
+      "en": "Place the auxiliary verb before the subject.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Does Leo want the red shirt or the green shirt?",
+        "Leo does want the red shirt or the green shirt?"
+      ]
+    },
+    {
+      "id": "ss154-rule-03",
+      "zh": "Do、Does、Did 及情態動詞後使用原形動詞",
+      "en": "Use the base form after do, does, did and modal verbs.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Does she walk or take the bus?",
+        "Does she walks or takes the bus?",
+        "Should we wait or leave?",
+        "Should we waited or left?"
+      ]
+    },
+    {
+      "id": "ss154-rule-04",
+      "zh": "兩個選項應使用平行結構 兩邊最好使用相同類型的詞語或句子成分。",
+      "en": "Use parallel structures for the alternatives. The two sides should use the same type of word or sentence element, such as adjective + adjective, noun + noun, or verb phrase + verb phrase.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Adjective + adjective",
+        "Is the task easy or difficult?",
+        "Noun + noun",
+        "Would you like tea or coffee?",
+        "Verb phrase + verb phrase",
+        "Should we wait here or return home?"
+      ]
+    },
+    {
+      "id": "ss154-rule-05",
+      "zh": "相同的字詞通常不需要重複 （米婭步行上學，還是乘巴士上學？）",
+      "en": "Shared words normally do not need to be repeated. For example, Does Mia walk to school or take the bus? is preferable to repeating Does Mia and to school in both alternatives.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Does Mia walk to school or does Mia take the bus?",
+        "Does Mia walk to school or take the bus?"
+      ]
+    },
+    {
+      "id": "ss154-rule-06",
+      "zh": "如果兩個選項需要不同的助動詞，可以保留完整分句 （客人已經到達，還是仍在途中？） 這裏不能共用同一個助動詞，因為第一部分使用 have，第二部分使用 are。",
+      "en": "Keep complete clauses when the alternatives need different auxiliaries, as in Have the guests arrived, or are they still travelling? The two alternatives cannot share one auxiliary because the first uses have and the second uses are.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Have the guests arrived, or are they still travelling?"
+      ]
+    },
+    {
+      "id": "ss154-rule-07",
+      "zh": "口語中的語調 說話時，前面的選項通常使用升調，最後一個選項則使用降調。",
+      "en": "In speech, the earlier alternative normally has rising intonation and the final alternative has falling intonation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Would you like tea ↗ or coffee ↘?"
+      ]
+    },
+    {
+      "id": "ss154-rule-08",
+      "zh": "本課不集中練習 or not 這句在文法上正確，但 or not 有時帶有催促、不耐煩或要求明確答覆的語氣，因此不列入本課的 主要練習範圍。",
+      "en": "This lesson does not focus on or not. A question such as Are you coming or not? is grammatical, but or not can sometimes sound urging or impatient, or demand a definite answer, so it is outside the main practice in this lesson.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Are you coming or not?"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss154-benefit-01",
+      "zh": "清楚列出可供選擇的項目 這個句型能直接列出所有主要選項，讓對方立即知道需要在甚麼項目之間作出選擇。",
+      "en": "It makes the available choices clear This structure tells the listener exactly which possibilities they should consider.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss154-benefit-02",
+      "zh": "把兩條問題合併成一句 你不需要連續提出兩條是非問句，而可以把它們合併成一句較簡潔的問題。 （這個問題是技術性的嗎？它是政治性的嗎？） （這個問題是技術性的，還是政治性的？）",
+      "en": "It combines two questions into one Instead of asking two separate yes-or-no questions, you can ask one shorter alternative question. Compare: Is the problem technical? Is it political? Is the problem technical or political?",
+      "enSource": "pdf",
+      "examples": [
+        "Is the problem technical? Is it political?",
+        "Is the problem technical or political?"
+      ]
+    },
+    {
+      "id": "ss154-benefit-03",
+      "zh": "讓對方作出較具體的回答 一般問句可能只得到 Yes 或 No，但選擇問句會引導對方直接說出所選的項目。",
+      "en": "It encourages a specific answer A yes-or-no question may produce only “yes” or “no”. An alternative question encourages the listener to name the exact option.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss154-benefit-04",
+      "zh": "加快討論和決策 由於選項已經清楚排列在問題中，對話、會議或決策過程通常可以更快地繼續。",
+      "en": "It helps people make decisions more quickly The choices are already organised inside the question, so the conversation can move forward more efficiently.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss154-benefit-05",
+      "zh": "適用於多種真實情境 無論是點餐、安排會議、服務顧客、進行問卷調查、討論計劃或分析問題，都可以使用選擇問句。",
+      "en": "It is useful in many real situations Alternative questions are useful when ordering food, arranging meetings, serving customers, conducting surveys, discussing plans and solving problems.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss154-benefit-06",
+      "zh": "讓不同選項排列得更整齊 在 or 的兩邊使用相同的文法結構，可以讓讀者或聽者更容易比較不同選項。",
+      "en": "It helps organise alternatives in a balanced way Using the same grammatical form on both sides of or makes the alternatives easier to compare.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Alternative Questions 選擇問句.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Alternative Questions 選擇問句 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss154-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Is the bag black? Is it blue?",
+      "promptZh": "這個袋是黑色的嗎？它是藍色的嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the bag black or blue?",
+      "answerZh": "這個袋是黑色的，還是藍色的？",
+      "answerZhSource": "pdf",
+      "highlight": "Is the bag black or blue?"
+    },
+    {
+      "id": "ss154-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "Would you like tea? Would you like coffee?",
+      "promptZh": "你想喝茶嗎？你想喝咖啡嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Would",
+      "answer": "Would you like tea or coffee?",
+      "answerZh": "你想喝茶，還是咖啡？",
+      "answerZhSource": "pdf",
+      "highlight": "Would you like tea or coffee?"
+    },
+    {
+      "id": "ss154-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Does Mia walk to school? Does she take the bus?",
+      "promptZh": "米婭步行上學嗎？她乘巴士上學嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does Mia walk to school or take the bus?",
+      "answerZh": "米婭步行上學，還是乘巴士上學？",
+      "answerZhSource": "pdf",
+      "highlight": "Does Mia walk to school or take the bus?"
+    },
+    {
+      "id": "ss154-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ben may be at home or at the library. Ask where he is.",
+      "promptZh": "本可能在家，也可能在圖書館。請詢問他在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is Ben at home or at the library?",
+      "answerZh": "本在家，還是在圖書館？",
+      "answerZhSource": "pdf",
+      "highlight": "Is Ben at home or at the library?"
+    },
+    {
+      "id": "ss154-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "There are two possible meeting days: Monday and Tuesday. Ask the group to choose.",
+      "promptZh": "有兩個可能的見面日子：星期一和星期二。請詢問大家選擇哪一天。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should we meet on Monday or Tuesday?",
+      "answerZh": "我們應該在星期一，還是星期二見面？",
+      "answerZhSource": "pdf",
+      "highlight": "Should we meet on Monday or Tuesday?"
+    },
+    {
+      "id": "ss154-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This book may belong to you or your friend. Ask who owns it.",
+      "promptZh": "這本書可能屬於你，也可能屬於你的朋友。請詢問這本書屬於誰。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is this book yours or your friend’s?",
+      "answerZh": "這本書是你的，還是你朋友的？",
+      "answerZhSource": "pdf",
+      "highlight": "Is this book yours or your friend’s?"
+    },
+    {
+      "id": "ss154-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Did Leo buy the red shirt? Did he buy the green shirt?",
+      "promptZh": "里奧買了紅色恤衫嗎？他買了綠色恤衫嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did Leo buy the red shirt or the green shirt?",
+      "answerZh": "里奧買了紅色恤衫，還是綠色恤衫？",
+      "answerZhSource": "pdf",
+      "highlight": "Did Leo buy the red shirt or the green shirt?"
+    },
+    {
+      "id": "ss154-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Can Amy swim? Can she ride a bicycle?",
+      "promptZh": "艾米會游泳嗎？她會踏單車嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can Amy swim or ride a bicycle?",
+      "answerZh": "艾米會游泳，還是會踏單車？",
+      "answerZhSource": "pdf",
+      "highlight": "Can Amy swim or ride a bicycle?"
+    },
+    {
+      "id": "ss154-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The keys are either on the desk or in the drawer. Ask where they are.",
+      "promptZh": "鑰匙不是在桌上，就是在抽屜裏。請詢問它們在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "Are",
+      "answer": "Are the keys on the desk or in the drawer?",
+      "answerZh": "鑰匙在桌上，還是在抽屜裏？",
+      "answerZhSource": "pdf",
+      "highlight": "Are the keys on the desk or in the drawer?"
+    },
+    {
+      "id": "ss154-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You are deciding whether to call now or later. Ask the other person which time is better.",
+      "promptZh": "你正在決定現在還是稍後致電。請詢問對方哪個時間較好。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should I call you now or later?",
+      "answerZh": "我應該現在打給你，還是稍後再打？",
+      "answerZhSource": "pdf",
+      "highlight": "Should I call you now or later?"
+    },
+    {
+      "id": "ss154-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Does the café open at eight? Does it open at nine?",
+      "promptZh": "咖啡店在八時開門嗎？它在九時開門嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does the café open at eight or nine?",
+      "answerZh": "咖啡店在八時，還是九時開門？",
+      "answerZhSource": "pdf",
+      "highlight": "Does the café open at eight or nine?"
+    },
+    {
+      "id": "ss154-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The film may be funny or frightening. Ask someone who has seen it.",
+      "promptZh": "這部電影可能有趣，也可能嚇人。請詢問一位看過電影的人。",
+      "promptZhSource": "pdf",
+      "starter": "Was",
+      "answer": "Was the film funny or frightening?",
+      "answerZh": "這部電影有趣，還是嚇人？",
+      "answerZhSource": "pdf",
+      "highlight": "Was the film funny or frightening?"
+    },
+    {
+      "id": "ss154-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The travellers must choose between the train and the coach. Ask about their plan.",
+      "promptZh": "旅客必須在火車和長途巴士之間作出選擇。請詢問他們的計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will they travel by train or by coach?",
+      "answerZh": "他們會乘火車，還是長途巴士旅行？",
+      "answerZhSource": "pdf",
+      "highlight": "Will they travel by train or by coach?"
+    },
+    {
+      "id": "ss154-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Daniel must choose between rice and noodles. Ask what he would prefer.",
+      "promptZh": "丹尼爾必須在飯和麵之間作出選擇。請詢問他較喜歡哪一種。",
+      "promptZhSource": "pdf",
+      "starter": "Would",
+      "answer": "Would Daniel prefer rice or noodles?",
+      "answerZh": "丹尼爾較喜歡吃飯，還是吃麵？",
+      "answerZhSource": "pdf",
+      "highlight": "Would Daniel prefer rice or noodles?"
+    },
+    {
+      "id": "ss154-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "One possible answer is A. The other is B. Ask which one is correct.",
+      "promptZh": "一個可能的答案是 A，另一個是 B。請詢問哪一個正確。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the answer A or B?",
+      "answerZh": "答案是 A，還是 B？",
+      "answerZhSource": "pdf",
+      "highlight": "Is the answer A or B?"
+    },
+    {
+      "id": "ss154-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Did the meeting finish early? Did it finish late?",
+      "promptZh": "會議很早結束嗎？它很晚才結束嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did the meeting finish early or late?",
+      "answerZh": "會議很早結束，還是很晚才結束？",
+      "answerZhSource": "pdf",
+      "highlight": "Did the meeting finish early or late?"
+    },
+    {
+      "id": "ss154-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This machine has two possible printing modes: colour and black and white. Ask which mode it supports.",
+      "promptZh": "這部機器有兩種可能的列印模式：彩色和黑白。請詢問它支援哪一種模式。",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can this machine print in colour or only in black and white?",
+      "answerZh": "這部機器可以彩色列印，還是只能黑白列印？",
+      "answerZhSource": "pdf",
+      "highlight": "Can this machine print in colour or only in black and white?"
+    },
+    {
+      "id": "ss154-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Are you studying English? Are you studying Spanish?",
+      "promptZh": "你正在學英語嗎？你正在學西班牙語嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Are",
+      "answer": "Are you studying English or Spanish?",
+      "answerZh": "你正在學英語，還是西班牙語？",
+      "answerZhSource": "pdf",
+      "highlight": "Are you studying English or Spanish?"
+    },
+    {
+      "id": "ss154-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The email may have been sent by Olivia or Marcus. Ask who sent it.",
+      "promptZh": "這封電郵可能由奧莉花寄出，也可能由馬庫斯寄出。請詢問是誰寄出的。",
+      "promptZhSource": "pdf",
+      "starter": "Was",
+      "answer": "Was the email sent by Olivia or Marcus?",
+      "answerZh": "這封電郵是奧莉花寄出的，還是馬庫斯寄出的？",
+      "answerZhSource": "pdf",
+      "highlight": "Was the email sent by Olivia or Marcus?"
+    },
+    {
+      "id": "ss154-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Visitors may need to show a passport or an identity card. Ask which document is required.",
+      "promptZh": "訪客可能需要出示護照或身份證。請詢問需要哪一份證件。",
+      "promptZhSource": "pdf",
+      "starter": "Must",
+      "answer": "Must visitors show a passport or an identity card?",
+      "answerZh": "訪客必須出示護照，還是身份證？",
+      "answerZhSource": "pdf",
+      "highlight": "Must visitors show a passport or an identity card?"
+    },
+    {
+      "id": "ss154-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The teacher wants to know whether the class prefers a quiz or a group activity.",
+      "promptZh": "老師想知道全班較喜歡小測還是小組活動。",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does the class prefer a quiz or a group activity?",
+      "answerZh": "全班較喜歡小測，還是小組活動？",
+      "answerZhSource": "pdf",
+      "highlight": "Does the class prefer a quiz or a group activity?"
+    },
+    {
+      "id": "ss154-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The parcel may have arrived yesterday. It may have arrived this morning. Ask when it arrived.",
+      "promptZh": "包裹可能在昨天送到，也可能在今天早上送到。請詢問它何時到達。",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did the parcel arrive yesterday or this morning?",
+      "answerZh": "包裹在昨天，還是今天早上送到？",
+      "answerZhSource": "pdf",
+      "highlight": "Did the parcel arrive yesterday or this morning?"
+    },
+    {
+      "id": "ss154-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The nurse wants to know whether the patient feels dizzy or tired.",
+      "promptZh": "護士想知道病人感到暈眩還是疲倦。",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does the patient feel dizzy or tired?",
+      "answerZh": "病人感到暈眩，還是疲倦？",
+      "answerZhSource": "pdf",
+      "highlight": "Does the patient feel dizzy or tired?"
+    },
+    {
+      "id": "ss154-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "This road may lead to the station or the harbour. Ask where it goes.",
+      "promptZh": "這條路可能通往車站，也可能通往海港。請詢問它通往哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does this road lead to the station or the harbour?",
+      "answerZh": "這條路通往車站，還是海港？",
+      "answerZhSource": "pdf",
+      "highlight": "Does this road lead to the station or the harbour?"
+    },
+    {
+      "id": "ss154-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 22
+      },
+      "prompt": "The manager is asking whether the report is complete or still unfinished.",
+      "promptZh": "經理正在詢問報告已經完成，還是仍未完成。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the report complete or still unfinished?",
+      "answerZh": "報告已經完成，還是仍未完成？",
+      "answerZhSource": "pdf",
+      "highlight": "Is the report complete or still unfinished?"
+    },
+    {
+      "id": "ss154-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Chloe has two possible plans: joining us and staying at home. Ask what she wants to do.",
+      "promptZh": "克洛伊有兩個可能的計劃：加入我們，或留在家中。請詢問她想做哪一件事。",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does Chloe want to join us or stay at home?",
+      "answerZh": "克洛伊想加入我們，還是留在家中？",
+      "answerZhSource": "pdf",
+      "highlight": "Does Chloe want to join us or stay at home?"
+    },
+    {
+      "id": "ss154-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Would you like to pay in cash? Would you like to pay by card?",
+      "promptZh": "你想用現金付款嗎？你想用卡付款嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Would",
+      "answer": "Would you like to pay in cash or by card?",
+      "answerZh": "你想用現金，還是用卡付款？",
+      "answerZhSource": "pdf",
+      "highlight": "Would you like to pay in cash or by card?"
+    },
+    {
+      "id": "ss154-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The new policy may be temporary or permanent. Ask which description is correct.",
+      "promptZh": "新政策可能是臨時的，也可能是永久的。請詢問哪個描述正確。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the new policy temporary or permanent?",
+      "answerZh": "新政策是臨時的，還是永久的？",
+      "answerZhSource": "pdf",
+      "highlight": "Is the new policy temporary or permanent?"
+    },
+    {
+      "id": "ss154-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The students may be working in pairs or in groups. Ask how they are working.",
+      "promptZh": "學生可能正以二人一組工作，也可能以小組形式工作。請詢問他們如何合作。",
+      "promptZhSource": "pdf",
+      "starter": "Are",
+      "answer": "Are the students working in pairs or in groups?",
+      "answerZh": "學生正在二人一組工作，還是以小組形式工作？",
+      "answerZhSource": "pdf",
+      "highlight": "Are the students working in pairs or in groups?"
+    },
+    {
+      "id": "ss154-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The team must decide between revising the plan and replacing it completely. Ask what it should do.",
+      "promptZh": "團隊必須在修改計劃和徹底更換計劃之間作出決定。請詢問團隊應該怎樣做。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should the team revise the plan or replace it completely?",
+      "answerZh": "團隊應該修改計劃，還是徹底更換計劃？",
+      "answerZhSource": "pdf",
+      "highlight": "Should the team revise the plan or replace it completely?"
+    },
+    {
+      "id": "ss154-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Which drink do you prefer? The available choices are orange juice and apple juice.",
+      "promptZh": "你較喜歡哪種飲品？可選的飲品是橙汁和蘋果汁。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which drink do you prefer, orange juice or apple juice?",
+      "answerZh": "你較喜歡哪種飲品：橙汁還是蘋果汁？",
+      "answerZhSource": "pdf",
+      "highlight": "Which drink do you prefer, orange juice or apple juice?"
+    },
+    {
+      "id": "ss154-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "We need to choose a route. The two choices are the tunnel route and the bridge route.",
+      "promptZh": "我們需要選擇一條路線。兩個選擇是隧道路線和大橋路線。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which route should we take, the tunnel route or the bridge route?",
+      "answerZh": "我們應該選擇哪條路線：隧道路線還是大橋路線？",
+      "answerZhSource": "pdf",
+      "highlight": "Which route should we take, the tunnel route or the bridge route?"
+    },
+    {
+      "id": "ss154-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Someone called you. The caller may have been Mr Lee or Ms Wong. Ask who called.",
+      "promptZh": "有人致電給你。來電者可能是李先生，也可能是黃女士。請詢問是誰致電。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who called you, Mr Lee or Ms Wong?",
+      "answerZh": "是誰致電給你：李先生還是黃女士？",
+      "answerZhSource": "pdf",
+      "highlight": "Who called you, Mr Lee or Ms Wong?"
+    },
+    {
+      "id": "ss154-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Which day suits you better? The available days are Thursday and Friday.",
+      "promptZh": "哪一天較適合你？可選的日子是星期四和星期五。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which day suits you better, Thursday or Friday?",
+      "answerZh": "哪一天較適合你：星期四還是星期五？",
+      "answerZhSource": "pdf",
+      "highlight": "Which day suits you better, Thursday or Friday?"
+    },
+    {
+      "id": "ss154-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I need to choose my first task: answering the emails or checking the stock. Ask for advice.",
+      "promptZh": "我需要選擇第一項工作：回覆電郵或檢查存貨。請給我意見。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should I answer the emails or check the stock first?",
+      "answerZh": "我應該先回覆電郵，還是先檢查存貨？",
+      "answerZhSource": "pdf",
+      "highlight": "Should I answer the emails or check the stock first?"
+    },
+    {
+      "id": "ss154-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "You are the receptionist. Ask the visitor whether they have an appointment or are making a general enquiry.",
+      "promptZh": "你是接待員。請詢問訪客是否已有預約，還是只是作一般查詢。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you have an appointment, or are you making a general enquiry?",
+      "answerZh": "你有預約，還是只是作一般查詢？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you have an appointment, or are you making a general enquiry?"
+    },
+    {
+      "id": "ss154-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The doctor wants to know whether the pain began suddenly or developed gradually.",
+      "promptZh": "醫生想知道疼痛是突然開始，還是逐漸出現。",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did the pain begin suddenly or develop gradually?",
+      "answerZh": "疼痛是突然開始，還是逐漸出現？",
+      "answerZhSource": "pdf",
+      "highlight": "Did the pain begin suddenly or develop gradually?"
+    },
+    {
+      "id": "ss154-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "We are unsure whether the file was deleted by mistake or moved to another folder.",
+      "promptZh": "我們不確定檔案是被誤刪，還是移到另一個資料夾。",
+      "promptZhSource": "pdf",
+      "starter": "Was",
+      "answer": "Was the file deleted by mistake or moved to another folder?",
+      "answerZh": "檔案是被誤刪，還是移到另一個資料夾？",
+      "answerZhSource": "pdf",
+      "highlight": "Was the file deleted by mistake or moved to another folder?"
+    },
+    {
+      "id": "ss154-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The app is used in one of two ways: every day or only when necessary. Write the survey question.",
+      "promptZh": "這個應用程式有兩種使用方式：每天使用，或只在有需要時使用。請寫出問卷中的問題。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do people use the app daily or only when necessary?",
+      "answerZh": "人們每天使用這個應用程式，還是只在有需要時使用？",
+      "answerZhSource": "pdf",
+      "highlight": "Do people use the app daily or only when necessary?"
+    },
+    {
+      "id": "ss154-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The organiser needs to know whether the guests have arrived or are still travelling.",
+      "promptZh": "主辦方需要知道客人已經到達，還是仍在途中。",
+      "promptZhSource": "pdf",
+      "starter": "Have",
+      "answer": "Have the guests arrived, or are they still travelling?",
+      "answerZh": "客人已經到達，還是仍在途中？",
+      "answerZhSource": "pdf",
+      "highlight": "Have the guests arrived, or are they still travelling?"
+    },
+    {
+      "id": "ss154-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The school offers an online meeting and a face-to-face meeting. Ask which format parents would prefer.",
+      "promptZh": "學校提供網上會議和面對面會議。請詢問家長較喜歡哪種形式。",
+      "promptZhSource": "pdf",
+      "starter": "Would",
+      "answer": "Would parents prefer an online meeting or a face-to-face meeting?",
+      "answerZh": "家長較喜歡網上會議，還是面對面會議？",
+      "answerZhSource": "pdf",
+      "highlight": "Would parents prefer an online meeting or a face-to-face meeting?"
+    },
+    {
+      "id": "ss154-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The technician thinks the fault is either in the battery or in the charging cable. Ask which is correct.",
+      "promptZh": "技術員認為故障不是在電池，就是在充電線。請詢問哪個判斷正確。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is the fault in the battery or the charging cable?",
+      "answerZh": "故障出現在電池，還是充電線？",
+      "answerZhSource": "pdf",
+      "highlight": "Is the fault in the battery or the charging cable?"
+    },
+    {
+      "id": "ss154-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The committee needs to decide whether the budget should support staff training or new equipment.",
+      "promptZh": "委員會需要決定預算應該用於員工培訓，還是新設備。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should the budget support staff training or new equipment?",
+      "answerZh": "預算應該用於員工培訓，還是新設備？",
+      "answerZhSource": "pdf",
+      "highlight": "Should the budget support staff training or new equipment?"
+    },
+    {
+      "id": "ss154-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The police officer needs to find out whether the witness saw the car before the accident or afterwards.",
+      "promptZh": "警員需要確定目擊者是在意外前，還是意外後看見那輛車。",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did the witness see the car before the accident or afterwards?",
+      "answerZh": "目擊者在意外前，還是意外後看見那輛車？",
+      "answerZhSource": "pdf",
+      "highlight": "Did the witness see the car before the accident or afterwards?"
+    },
+    {
+      "id": "ss154-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The hospital can send appointment reminders by text message or by email. Ask patients which method they would rather receive.",
+      "promptZh": "醫院可以透過短訊或電郵發送預約提醒。請詢問病人較想使用哪種方式。",
+      "promptZhSource": "pdf",
+      "starter": "Would",
+      "answer": "Would patients rather receive appointment reminders by text message or by email?",
+      "answerZh": "病人較想透過短訊，還是電郵接收預約提醒？",
+      "answerZhSource": "pdf",
+      "highlight": "Would patients rather receive appointment reminders by text message or by email?"
+    },
+    {
+      "id": "ss154-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The project leader is considering two possible causes of the delay: poor planning and unexpected supply problems. Ask which cause was responsible.",
+      "promptZh": "項目主管正在考慮兩個可能的延誤原因：規劃不善和突發的供應問題。請詢問哪個原因造成延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did the delay result from poor planning or unexpected supply problems?",
+      "answerZh": "延誤是由規劃不善，還是突發的供應問題造成？",
+      "answerZhSource": "pdf",
+      "highlight": "Did the delay result from poor planning or unexpected supply problems?"
+    },
+    {
+      "id": "ss154-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The travel company needs to know whether the family will stay in a hotel, rent a flat, or camp.",
+      "promptZh": "旅遊公司需要知道這個家庭會入住酒店、租住單位，還是露營。",
+      "promptZhSource": "pdf",
+      "starter": "Will",
+      "answer": "Will the family stay in a hotel, rent a flat, or camp?",
+      "answerZh": "這個家庭會入住酒店、租住單位，還是露營？",
+      "answerZhSource": "pdf",
+      "highlight": "Will the family stay in a hotel, rent a flat, or camp?"
+    },
+    {
+      "id": "ss154-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 26
+      },
+      "prompt": "There are two possible explanations: the students misunderstood the instructions, or they simply forgot to follow them. Write the teacher’s question.",
+      "promptZh": "有兩個可能的解釋：學生誤解了指示，或只是忘記遵從指示。請寫出老師的問題。",
+      "promptZhSource": "pdf",
+      "starter": "Have",
+      "answer": "Have the students misunderstood the instructions or simply forgotten to follow them?",
+      "answerZh": "學生誤解了指示，還是只是忘記遵從指示？",
+      "answerZhSource": "pdf",
+      "highlight": "Have the students misunderstood the instructions or simply forgotten to follow them?"
+    },
+    {
+      "id": "ss154-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The council is asking residents to choose between turning the empty site into a park and using it for housing.",
+      "promptZh": "議會正請居民在把空置土地改建成公園和用作房屋發展之間作出選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should the empty site be turned into a park or be used for housing?",
+      "answerZh": "空置土地應該改建成公園，還是用作房屋發展？",
+      "answerZhSource": "pdf",
+      "highlight": "Should the empty site be turned into a park or be used for housing?"
+    },
+    {
+      "id": "ss154-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The board must establish whether the company should repair the old system now or replace it after the financial year ends.",
+      "promptZh": "董事會必須確定公司應該現在維修舊系統，還是在財政年度結束後更換系統。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should the company repair the old system now or replace it after the financial year ends?",
+      "answerZh": "公司應該現在維修舊系統，還是在財政年度結束後更換系統？",
+      "answerZhSource": "pdf",
+      "highlight": "Should the company repair the old system now or replace it after the financial year ends?"
+    }
+  ]
+}

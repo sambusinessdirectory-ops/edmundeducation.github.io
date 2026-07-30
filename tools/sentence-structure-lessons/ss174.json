@@ -1,0 +1,1246 @@
+{
+  "id": "ss174",
+  "order": 174,
+  "slug": "try-as-might",
+  "title": "Try as … might",
+  "titleZh": "「Try as … might」讓步句",
+  "titleEn": "Using Try as … might for unsuccessful effort",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 174 -「Try as … might」讓步句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Try as + subject + might, + subject / result + could not / cannot / would not / was unable to + other information",
+  "formulas": [
+    {
+      "id": "ss174-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句式",
+      "formula": "Try as + subject + might, + subject / result + could not / cannot / would not / was unable to + other information"
+    }
+  ],
+  "example": "Try as he might, he could not explain the mistake clearly.",
+  "exampleZh": "無論他怎樣努力，他都無法清楚解釋那個錯誤。",
+  "examples": [
+    {
+      "id": "ss174-example-01",
+      "en": "Try as he might, he could not explain the mistake clearly.",
+      "zh": "無論他怎樣努力，他都無法清楚解釋那個錯誤。",
+      "highlight": "Try as he might, he could not explain the mistake clearly."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss174-rule-01",
+      "zh": "使用固定語序 必須使用：",
+      "en": "Use the fixed word order Try as + subject + might, as in Try as she might, .... Do not write As she might try or Try as might she.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Try as + subject + might",
+        "Try as she might, ...",
+        "As she might try, ...",
+        "Try as might she, ..."
+      ]
+    },
+    {
+      "id": "ss174-rule-02",
+      "zh": "might 後面不要再次加入 try 句首的 Try 已經是句型中的主要動詞，因此不要寫： 正確寫法是：",
+      "en": "Do not add try again after might. The opening Try is already the main verb in the pattern, so write Try as he might, not Try as he might try.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Try as he might try, ...",
+        "Try as he might, ..."
+      ]
+    },
+    {
+      "id": "ss174-rule-03",
+      "zh": "前半句後面要加逗號",
+      "en": "Use a comma after the first clause: Try as they might, they could not open the door.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Try as they might, they could not open the door."
+      ]
+    },
+    {
+      "id": "ss174-rule-04",
+      "zh": "後半句通常表示失敗、困難或情況沒有改變 常見形式包括：",
+      "en": "The second part normally shows failure, difficulty or an unchanged situation. Common forms include could not, cannot, would not, was unable to, still did not, continued to and remained.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "could not",
+        "cannot",
+        "would not",
+        "was unable to",
+        "still did not",
+        "continued to",
+        "remained"
+      ]
+    },
+    {
+      "id": "ss174-rule-05",
+      "zh": "might 在這個句型中是固定部分 這裏的 might 並不是單純表示「可能」。整個 Try as … might 是一個固定的讓步句型，意思接近：",
+      "en": "Might is a fixed part of this structure; it does not simply mean “possibly” here. The complete concessive pattern Try as ... might means roughly “although someone tried very hard”, “no matter how hard someone tried”, or “despite someone's best efforts”.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "although someone tried very hard",
+        "no matter how hard someone tried",
+        "despite someone’s best efforts"
+      ]
+    },
+    {
+      "id": "ss174-rule-06",
+      "zh": "努力的人與結果的主語可以不同 （無論救援人員怎樣努力，倒下的樹仍然紋風不動。） 努力的人是 the rescue workers，但後半句的主語是 the fallen tree。",
+      "en": "The person trying and the subject of the result may differ. In Try as the rescue workers might, the fallen tree would not move, the rescue workers make the effort, while the fallen tree is the subject of the result clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Try as the rescue workers might, the fallen tree would not move."
+      ]
+    },
+    {
+      "id": "ss174-rule-07",
+      "zh": "本練習統一把句型放在句首 在自然英語中，try as … might 有時也可以放在句末；不過，本練習只使用句首形式，以幫助學生 掌握固定語序。",
+      "en": "In this exercise, place the target structure first. In natural English, try as ... might can sometimes appear at the end, but this worksheet uses only the opening position to help learners master the fixed word order.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss174-benefit-01",
+      "zh": "清楚表達「已經很努力，但仍然失敗」 這個句型能同時表達兩項重要資料： 某人確實付出了很大努力； 希望得到的結果仍然沒有出現。 讀者不會誤以為事情失敗是因為當事人沒有嘗試。",
+      "en": "It clearly expresses “someone tried very hard but still failed”. The structure states both that a strong effort was made and that the desired result did not occur, so readers will not assume that the failure happened because nobody tried.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss174-benefit-02",
+      "zh": "能突出努力的程度 句子以 Try 開始，會先把讀者的注意力放在當事人的努力上，然後才帶出失敗的結果。 （無論球隊怎樣努力，他們仍然無法射入扳平的一球。）",
+      "en": "It foregrounds the degree of effort. Beginning with Try directs the reader's attention to the person's effort before presenting the unsuccessful result: Try as the team might, they could not score an equaliser.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Try as the team might, they could not score an equaliser."
+      ]
+    },
+    {
+      "id": "ss174-benefit-03",
+      "zh": "能把較長的句子縮短 第二句較簡潔，但仍然保留「非常努力」和「最終失敗」兩層意思。",
+      "en": "It shortens a longer although-clause while preserving both strong effort and final failure.",
+      "enSource": "pdf",
+      "examples": [
+        "Try as he might, he could not solve the problem."
+      ]
+    },
+    {
+      "id": "ss174-benefit-04",
+      "zh": "能避免重複使用 although 或 despite 學生經常重複使用： Try as … might 提供另一種自然的表達方式，令文章的句式更有變化。",
+      "en": "It provides a natural alternative to repeatedly using although, even though, despite or no matter how hard.",
+      "enSource": "pdf",
+      "examples": [
+        "although",
+        "even though",
+        "despite",
+        "no matter how hard"
+      ]
+    },
+    {
+      "id": "ss174-benefit-05",
+      "zh": "適合用於故事、反思和正式解釋 這個句型特別適合描述： 某人面對困難時不斷嘗試； 一項問題即使經過努力仍未解決； 某個結果超出個人或團隊的控制； 努力與結果之間的強烈對比。 它可以令故事、作文、報告和口頭解釋更有層次。",
+      "en": "It is well suited to stories, reflection and formal explanation involving persistent effort, unresolved problems, uncontrollable results or a strong contrast between effort and outcome.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Try as … might.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Try as … might 改寫每個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss174-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although I tried very hard, I could not remember the password.",
+      "promptZh": "雖然我非常努力地回想，但仍然記不起密碼。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as I might, I could not remember the password.",
+      "answerZh": "無論我怎樣努力，我仍然記不起密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as I might, I could not remember the password."
+    },
+    {
+      "id": "ss174-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Lily tried again and again, but she could not open the jar.",
+      "promptZh": "莉莉試了一次又一次，但仍然無法打開玻璃瓶。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as Lily might, she could not open the jar.",
+      "answerZh": "無論莉莉怎樣努力，她仍然無法打開玻璃瓶。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as Lily might, she could not open the jar."
+    },
+    {
+      "id": "ss174-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "No matter how hard Ben tried, he could not solve the maths problem.",
+      "promptZh": "無論本怎樣努力，他都無法解答這道數學題。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as Ben might, he could not solve the maths problem.",
+      "answerZh": "無論本怎樣努力，他都無法解答這道數學題。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as Ben might, he could not solve the maths problem."
+    },
+    {
+      "id": "ss174-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We did everything we could, but we could not start the old computer.",
+      "promptZh": "我們已經用盡所有方法，但仍然無法啟動那部舊電腦。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as we might, we could not start the old computer.",
+      "answerZh": "無論我們怎樣努力，仍然無法啟動那部舊電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as we might, we could not start the old computer."
+    },
+    {
+      "id": "ss174-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Despite trying her best, Maya could not stay awake during the film.",
+      "promptZh": "儘管瑪雅已盡力，她在看電影期間仍然無法保持清醒。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as Maya might, she could not stay awake during the film.",
+      "answerZh": "無論瑪雅怎樣努力，她在看電影期間仍然無法保持清醒。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as Maya might, she could not stay awake during the film."
+    },
+    {
+      "id": "ss174-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The child made every effort to reach the top shelf, but he could not.",
+      "promptZh": "那個孩子用盡方法想碰到最高的層架，但仍然做不到。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the child might, he could not reach the top shelf.",
+      "answerZh": "無論那個孩子怎樣努力，他仍然碰不到最高的層架。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the child might, he could not reach the top shelf."
+    },
+    {
+      "id": "ss174-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although Mr Chan tried his best, he could not make the class understand the rule.",
+      "promptZh": "雖然陳先生已盡力，但仍然無法令全班明白那條規則。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as Mr Chan might, he could not make the class understand the rule.",
+      "answerZh": "無論陳先生怎樣努力，他都無法令全班明白那條規則。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as Mr Chan might, he could not make the class understand the rule."
+    },
+    {
+      "id": "ss174-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Even with their best efforts, the hikers could not find the correct path.",
+      "promptZh": "即使遠足人士已盡力，他們仍然找不到正確的小徑。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the hikers might, they could not find the correct path.",
+      "answerZh": "無論遠足人士怎樣努力，他們仍然找不到正確的小徑。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the hikers might, they could not find the correct path."
+    },
+    {
+      "id": "ss174-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In spite of all his efforts, Daniel could not repair the bicycle.",
+      "promptZh": "儘管丹尼爾已用盡方法，他仍然無法修理那輛單車。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as Daniel might, he could not repair the bicycle.",
+      "answerZh": "無論丹尼爾怎樣努力，他仍然無法修理那輛單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as Daniel might, he could not repair the bicycle."
+    },
+    {
+      "id": "ss174-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "For all the team’s efforts, they could not score an equaliser.",
+      "promptZh": "儘管球隊已付出努力，他們仍然無法射入扳平的一球。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the team might, they could not score an equaliser.",
+      "answerZh": "無論球隊怎樣努力，他們仍然無法射入扳平的一球。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the team might, they could not score an equaliser."
+    },
+    {
+      "id": "ss174-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although Sarah tried very hard, she could not persuade her brother to come.",
+      "promptZh": "雖然莎拉非常努力，但仍然無法說服弟弟前來。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as Sarah might, she could not persuade her brother to come.",
+      "answerZh": "無論莎拉怎樣努力，她仍然無法說服弟弟前來。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as Sarah might, she could not persuade her brother to come."
+    },
+    {
+      "id": "ss174-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No matter how hard the chef tried, he could not remove the stain from his apron.",
+      "promptZh": "無論廚師怎樣努力，他都無法除去圍裙上的污漬。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the chef might, he could not remove the stain from his apron.",
+      "answerZh": "無論廚師怎樣努力，他仍然無法除去圍裙上的污漬。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the chef might, he could not remove the stain from his apron."
+    },
+    {
+      "id": "ss174-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No matter how hard you try, you cannot completely ignore the noise outside.",
+      "promptZh": "無論你怎樣努力，都無法完全忽略外面的噪音。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as you might, you cannot completely ignore the noise outside.",
+      "answerZh": "無論你怎樣努力，都無法完全忽略外面的噪音。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as you might, you cannot completely ignore the noise outside."
+    },
+    {
+      "id": "ss174-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Despite the students’ repeated efforts, they could not keep the paper bridge standing.",
+      "promptZh": "儘管學生多次努力，他們仍然無法讓紙橋保持直立。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the students might, they could not keep the paper bridge standing.",
+      "answerZh": "無論學生怎樣努力，他們仍然無法讓紙橋保持直立。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the students might, they could not keep the paper bridge standing."
+    },
+    {
+      "id": "ss174-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "However hard the driver searched, she could not find a parking space near the station.",
+      "promptZh": "無論司機怎樣努力尋找，她都無法在車站附近找到泊車位。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the driver might, she could not find a parking space near the station.",
+      "answerZh": "無論司機怎樣努力，她仍然無法在車站附近找到泊車位。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the driver might, she could not find a parking space near the station."
+    },
+    {
+      "id": "ss174-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Emma did everything possible, but she could not get the baby to sleep.",
+      "promptZh": "艾瑪用盡了所有方法，但仍然無法令嬰兒入睡。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as Emma might, she could not get the baby to sleep.",
+      "answerZh": "無論艾瑪怎樣努力，她仍然無法令嬰兒入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as Emma might, she could not get the baby to sleep."
+    },
+    {
+      "id": "ss174-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In spite of her best efforts, the doctor could not identify the cause of the pain.",
+      "promptZh": "儘管醫生已盡力，她仍然無法找出疼痛的原因。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the doctor might, she could not identify the cause of the pain.",
+      "answerZh": "無論醫生怎樣努力，她仍然無法找出疼痛的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the doctor might, she could not identify the cause of the pain."
+    },
+    {
+      "id": "ss174-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I made a real effort to concentrate, but I could not focus in the noisy café.",
+      "promptZh": "我確實努力集中精神，但在嘈雜的咖啡店內仍然無法專注。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as I might, I could not focus in the noisy café.",
+      "answerZh": "無論我怎樣努力，在嘈雜的咖啡店內仍然無法專注。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as I might, I could not focus in the noisy café."
+    },
+    {
+      "id": "ss174-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Despite all her efforts, the shop assistant could not fit all the boxes on the shelf.",
+      "promptZh": "儘管店員已用盡方法，她仍然無法把所有紙箱放上層架。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the shop assistant might, she could not fit all the boxes on the shelf.",
+      "answerZh": "無論店員怎樣努力，她仍然無法把所有紙箱放上層架。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the shop assistant might, she could not fit all the boxes on the shelf."
+    },
+    {
+      "id": "ss174-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Even after repeated attempts, the band could not play the final section together.",
+      "promptZh": "即使樂隊已反覆嘗試，仍然無法整齊地合奏最後一部分。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the band might, they could not play the final section together.",
+      "answerZh": "無論樂隊怎樣努力，他們仍然無法整齊地合奏最後一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the band might, they could not play the final section together."
+    },
+    {
+      "id": "ss174-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Despite her best efforts, the candidate could not answer the final question clearly.",
+      "promptZh": "儘管應徵者已盡力，她仍然無法清楚回答最後一條問題。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the candidate might, she could not answer the final question clearly.",
+      "answerZh": "無論應徵者怎樣努力，她仍然無法清楚回答最後一條問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the candidate might, she could not answer the final question clearly."
+    },
+    {
+      "id": "ss174-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No amount of effort enabled the firefighters to force the metal door open.",
+      "promptZh": "無論消防員付出多少努力，都無法把金屬門強行打開。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the firefighters might, they could not force the metal door open.",
+      "answerZh": "無論消防員怎樣努力，他們仍然無法把金屬門強行打開。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the firefighters might, they could not force the metal door open."
+    },
+    {
+      "id": "ss174-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the researchers tried repeatedly, they could not reproduce the result under the same conditions.",
+      "promptZh": "雖然研究人員反覆嘗試，但仍然無法在相同條件下重現結果。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the researchers might, they could not reproduce the result under the same conditions.",
+      "answerZh": "無論研究人員怎樣努力，他們仍然無法在相同條件下重現結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the researchers might, they could not reproduce the result under the same conditions."
+    },
+    {
+      "id": "ss174-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Despite their best efforts, the parents could not hide the surprise party from their daughter.",
+      "promptZh": "儘管父母已盡力，他們仍然無法向女兒隱瞞驚喜派對。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the parents might, they could not hide the surprise party from their daughter.",
+      "answerZh": "無論父母怎樣努力，他們仍然無法向女兒隱瞞驚喜派對。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the parents might, they could not hide the surprise party from their daughter."
+    },
+    {
+      "id": "ss174-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "However hard the swimmer pushed herself, she could not catch the leader.",
+      "promptZh": "無論泳手怎樣奮力向前，她仍然無法追上領先者。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the swimmer might, she could not catch the leader.",
+      "answerZh": "無論泳手怎樣努力，她仍然無法追上領先者。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the swimmer might, she could not catch the leader."
+    },
+    {
+      "id": "ss174-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The committee discussed the issue for hours, yet it could not reach a unanimous decision.",
+      "promptZh": "委員會討論了數小時，但仍然無法達成一致決定。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the committee might, it could not reach a unanimous decision.",
+      "answerZh": "無論委員會怎樣努力，仍然無法達成一致決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the committee might, it could not reach a unanimous decision."
+    },
+    {
+      "id": "ss174-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The translator searched through several dictionaries, but she could not find an exact equivalent.",
+      "promptZh": "譯者翻查了數本字典，但仍然找不到完全對應的詞語。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the translator might, she could not find an exact equivalent.",
+      "answerZh": "無論譯者怎樣努力，她仍然找不到完全對應的詞語。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the translator might, she could not find an exact equivalent."
+    },
+    {
+      "id": "ss174-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the gardener tried very hard, he could not protect every young plant from the heat.",
+      "promptZh": "雖然園丁非常努力，但仍然無法保護每一株幼苗免受高溫影響。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the gardener might, he could not protect every young plant from the heat.",
+      "answerZh": "無論園丁怎樣努力，他仍然無法保護每一株幼苗免受高溫影響。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the gardener might, he could not protect every young plant from the heat."
+    },
+    {
+      "id": "ss174-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the technicians tried repeatedly, they were unable to restore the deleted file.",
+      "promptZh": "雖然技術人員反覆嘗試，但仍然無法恢復已刪除的檔案。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the technicians might, they were unable to restore the deleted file.",
+      "answerZh": "無論技術人員怎樣努力，他們仍然無法恢復已刪除的檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the technicians might, they were unable to restore the deleted file."
+    },
+    {
+      "id": "ss174-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "However hard the witness tried, she could not recall the licence plate number.",
+      "promptZh": "無論目擊者怎樣努力，她都記不起車牌號碼。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the witness might, she could not recall the licence plate number.",
+      "answerZh": "無論目擊者怎樣努力，她仍然記不起車牌號碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the witness might, she could not recall the licence plate number."
+    },
+    {
+      "id": "ss174-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even after repeated attempts, Grace could not stop the printer from jamming.",
+      "promptZh": "即使格蕾絲已反覆嘗試，仍然無法阻止打印機卡紙。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as Grace might, she could not stop the printer from jamming.",
+      "answerZh": "無論格蕾絲怎樣努力，她仍然無法阻止打印機卡紙。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as Grace might, she could not stop the printer from jamming."
+    },
+    {
+      "id": "ss174-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the police officers tried hard, they could not prevent the argument from spreading.",
+      "promptZh": "雖然警員已努力處理，但仍然無法阻止爭執擴大。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the police officers might, they could not prevent the argument from spreading.",
+      "answerZh": "無論警員怎樣努力，他們仍然無法阻止爭執擴大。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the police officers might, they could not prevent the argument from spreading."
+    },
+    {
+      "id": "ss174-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "For all the teacher’s efforts, some students still would not participate.",
+      "promptZh": "儘管老師已付出努力，部分學生仍然不願參與。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the teacher might, some students still would not participate.",
+      "answerZh": "無論老師怎樣努力，部分學生仍然不願參與。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the teacher might, some students still would not participate."
+    },
+    {
+      "id": "ss174-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No matter how hard Ethan tried, he could not remove the ring from his finger.",
+      "promptZh": "無論伊森怎樣努力，他都無法把戒指從手指上除下。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as Ethan might, he could not remove the ring from his finger.",
+      "answerZh": "無論伊森怎樣努力，他仍然無法把戒指從手指上除下。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as Ethan might, he could not remove the ring from his finger."
+    },
+    {
+      "id": "ss174-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Despite all their efforts, the customer service team could not trace the missing parcel.",
+      "promptZh": "儘管顧客服務團隊已用盡方法，仍然無法追查遺失的包裹。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the customer service team might, they could not trace the missing parcel.",
+      "answerZh": "無論顧客服務團隊怎樣努力，他們仍然無法追查遺失的包裹。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the customer service team might, they could not trace the missing parcel."
+    },
+    {
+      "id": "ss174-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "However many times the singer practised, she could not hit the final high note.",
+      "promptZh": "無論歌手練習多少次，她仍然唱不到最後的高音。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the singer might, she could not hit the final high note.",
+      "answerZh": "無論歌手怎樣努力，她仍然唱不到最後的高音。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the singer might, she could not hit the final high note."
+    },
+    {
+      "id": "ss174-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No matter how hard the builders worked, they could not finish the roof repairs before the storm arrived.",
+      "promptZh": "無論建築工人怎樣努力，他們都無法在暴風雨來臨前完成屋頂維修。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the builders might, they could not finish the roof repairs before the storm arrived.",
+      "answerZh": "無論建築工人怎樣努力，他們仍然無法在暴風雨來臨前完成屋頂維修。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the builders might, they could not finish the roof repairs before the storm arrived."
+    },
+    {
+      "id": "ss174-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the nurse tried her best, she could not keep the child still during the scan.",
+      "promptZh": "雖然護士已盡力，但仍然無法令孩子在掃描期間保持不動。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the nurse might, she could not keep the child still during the scan.",
+      "answerZh": "無論護士怎樣努力，她仍然無法令孩子在掃描期間保持不動。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the nurse might, she could not keep the child still during the scan."
+    },
+    {
+      "id": "ss174-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "For all the organisers’ efforts, the queue continued to grow.",
+      "promptZh": "儘管主辦單位已付出努力，輪候隊伍仍然繼續增長。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the organisers might, the queue continued to grow.",
+      "answerZh": "無論主辦單位怎樣努力，輪候隊伍仍然繼續增長。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the organisers might, the queue continued to grow."
+    },
+    {
+      "id": "ss174-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The goalkeeper stretched as far as he could, but the ball still went into the corner of the net.",
+      "promptZh": "守門員盡力伸展身體，但足球仍然飛入球門角落。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the goalkeeper might, the ball still went into the corner of the net.",
+      "answerZh": "無論守門員怎樣努力，足球仍然飛入球門角落。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the goalkeeper might, the ball still went into the corner of the net."
+    },
+    {
+      "id": "ss174-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Despite repeated efforts, the software team could not remove every bug before the launch.",
+      "promptZh": "儘管軟件團隊反覆嘗試，仍然無法在推出前清除所有程式錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the software team might, they could not remove every bug before the launch.",
+      "answerZh": "無論軟件團隊怎樣努力，他們仍然無法在推出前清除所有程式錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the software team might, they could not remove every bug before the launch."
+    },
+    {
+      "id": "ss174-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No matter how much effort the rescue workers made, the fallen tree would not move.",
+      "promptZh": "無論救援人員付出多少努力，倒下的樹仍然紋風不動。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the rescue workers might, the fallen tree would not move.",
+      "answerZh": "無論救援人員怎樣努力，倒下的樹仍然紋風不動。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the rescue workers might, the fallen tree would not move."
+    },
+    {
+      "id": "ss174-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "However hard the principal tried, she could not satisfy both groups of parents.",
+      "promptZh": "無論校長怎樣努力，她都無法令兩組家長都滿意。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the principal might, she could not satisfy both groups of parents.",
+      "answerZh": "無論校長怎樣努力，她仍然無法令兩組家長都滿意。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the principal might, she could not satisfy both groups of parents."
+    },
+    {
+      "id": "ss174-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In spite of their best efforts, the negotiators could not find wording that both sides would accept.",
+      "promptZh": "儘管談判人員已盡力，他們仍然找不到雙方都會接受的措辭。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the negotiators might, they could not find wording that both sides would accept.",
+      "answerZh": "無論談判人員怎樣努力，他們仍然找不到雙方都會接受的措辭。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the negotiators might, they could not find wording that both sides would accept."
+    },
+    {
+      "id": "ss174-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Despite all their efforts, the hospital staff could not reduce the waiting time that morning.",
+      "promptZh": "儘管醫院職員已用盡方法，當天早上仍然無法縮短輪候時間。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the hospital staff might, they could not reduce the waiting time that morning.",
+      "answerZh": "無論醫院職員怎樣努力，他們在當天早上仍然無法縮短輪候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the hospital staff might, they could not reduce the waiting time that morning."
+    },
+    {
+      "id": "ss174-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "However hard the engineers tried, they could not keep the bridge open.",
+      "promptZh": "無論工程師怎樣努力，他們都無法讓大橋保持開放。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the engineers might, they could not keep the bridge open.",
+      "answerZh": "無論工程師怎樣努力，他們仍然無法讓大橋保持開放。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the engineers might, they could not keep the bridge open."
+    },
+    {
+      "id": "ss174-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Despite all her efforts, the journalist was unable to verify the anonymous claim.",
+      "promptZh": "儘管記者已用盡方法，她仍然無法核實那項匿名說法。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the journalist might, she was unable to verify the anonymous claim.",
+      "answerZh": "無論記者怎樣努力，她仍然無法核實那項匿名說法。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the journalist might, she was unable to verify the anonymous claim."
+    },
+    {
+      "id": "ss174-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Even after repeated efforts, the family could not stop water from entering the basement.",
+      "promptZh": "即使一家人已反覆努力，仍然無法阻止水流入地庫。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the family might, they could not stop water from entering the basement.",
+      "answerZh": "無論一家人怎樣努力，他們仍然無法阻止水流入地庫。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the family might, they could not stop water from entering the basement."
+    },
+    {
+      "id": "ss174-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "For all its efforts, the board could not balance the budget without cutting essential services.",
+      "promptZh": "儘管董事會已付出努力，仍然無法在不削減基本服務的情況下平衡預算。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the board might, it could not balance the budget without cutting essential services.",
+      "answerZh": "無論董事會怎樣努力，仍然無法在不削減基本服務的情況下平衡預算。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the board might, it could not balance the budget without cutting essential services."
+    },
+    {
+      "id": "ss174-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "For all the mediation team’s efforts, trust between the two departments did not return.",
+      "promptZh": "儘管調解團隊已付出努力，兩個部門之間的信任仍未恢復。",
+      "promptZhSource": "pdf",
+      "starter": "Try",
+      "answer": "Try as the mediation team might, trust between the two departments did not return.",
+      "answerZh": "無論調解團隊怎樣努力，兩個部門之間的信任仍未恢復。",
+      "answerZhSource": "pdf",
+      "highlight": "Try as the mediation team might, trust between the two departments did not return."
+    }
+  ]
+}

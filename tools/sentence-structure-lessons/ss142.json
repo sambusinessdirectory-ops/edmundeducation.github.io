@@ -1,0 +1,1207 @@
+{
+  "id": "ss142",
+  "order": 142,
+  "slug": "that-said",
+  "title": "「That said」承認前點後再作轉折",
+  "titleZh": "「That said」承認前點後再作轉折",
+  "titleEn": "Using that said to acknowledge a point before qualifying it",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 142 -「That said」承認前點後再作轉折.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+    ]
+  },
+  "formula": "Complete statement. That said, + contrasting or qualifying statement",
+  "formulas": [
+    {
+      "id": "ss142-formula-01",
+      "labelEn": "Pattern 1",
+      "labelZh": "句式 1",
+      "formula": "Complete statement. That said, + contrasting or qualifying statement"
+    }
+  ],
+  "example": "The plan has clear strengths. That said, the risks should not be ignored.",
+  "exampleZh": "這個計劃有明顯優點。不過，風險也不應被忽視。",
+  "examples": [
+    {
+      "id": "ss142-example-01",
+      "en": "The plan has clear strengths. That said, the risks should not be ignored.",
+      "zh": "這個計劃有明顯優點。不過，風險也不應被忽視。",
+      "highlight": "That said"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss142-rule-01",
+      "zh": "前面必須有一個完整意思 That said 通常回應前一句的整體內容，因此不能在沒有上文的情況下隨意使用。",
+      "en": "A complete idea must come before that said because the phrase responds to the preceding statement as a whole and cannot be used without context.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The hotel is expensive. That said, the service is excellent.",
+        "That said, the service is excellent."
+      ]
+    },
+    {
+      "id": "ss142-rule-02",
+      "zh": "在本練習中，That said 放在第二句句首 That 的 T 要使用大寫，而 said 後面要加逗號。",
+      "en": "In this exercise, begin the second sentence with That said,. Capitalize That and put a comma after said.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss142-rule-03",
+      "zh": "第二句應加入轉折、限制或不同角度 第二句不是完全否定第一句，而是令整體判斷更加完整和平衡。",
+      "en": "The second sentence should add contrast, limitation or another perspective. It should not completely negate the first point, but should make the overall judgement fuller and more balanced.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The course is useful. That said, it requires a lot of time."
+      ]
+    },
+    {
+      "id": "ss142-rule-04",
+      "zh": "不要同時使用兩個轉折連接詞",
+      "en": "Do not use two contrast linkers together.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The plan is useful. That said, it is expensive."
+      ]
+    },
+    {
+      "id": "ss142-rule-05",
+      "zh": "That said 和 however 不完全相同 However 可以用來表示一般的相反關係。 That said 通常含有「我承認剛才那一點，不過仍有另一點需要考慮」的意思，因此特別適合用來 作出平衡判斷。",
+      "en": "That said acknowledges the preceding point before qualifying it, so it is not identical to however. However can mark a general contrast; that said carries the sense ‘I accept the point just made, but another consideration remains’ and is especially suitable for balanced judgement.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss142-benefit-01",
+      "zh": "讓你的觀點更加平衡 你可以先承認一項優點或事實，再提出限制或問題，避免令說話聽起來過於片面。",
+      "en": "It makes your viewpoint more balanced by acknowledging a benefit or fact before adding a limitation or problem, avoiding an overly one-sided impression.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The idea is creative. That said, it may be difficult to carry out."
+      ]
+    },
+    {
+      "id": "ss142-benefit-02",
+      "zh": "令轉折更加自然 相比突然使用 but 否定前面的內容，That said 能讓讀者感覺你已經考慮過上一點，再自然地轉 到另一個角度。",
+      "en": "It creates a more natural transition. Rather than abruptly using but to reject what came before, That said shows that the earlier point has been considered before shifting to another angle.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss142-benefit-03",
+      "zh": "幫助你提出重要的保留或提醒 你可以在承認好處之後，加入風險、例外、限制或需要注意的地方。",
+      "en": "It helps you add an important reservation or reminder by introducing a risk, exception, limitation or point requiring attention after acknowledging a benefit.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "This medicine is effective. That said, it may cause drowsiness."
+      ]
+    },
+    {
+      "id": "ss142-benefit-04",
+      "zh": "避免重複使用 but 和 however 這個句型為你提供另一種表達轉折的方法，令說話和寫作的句式更多變。",
+      "en": "It avoids repeatedly using but and however and gives speech and writing greater structural variety.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss142-benefit-05",
+      "zh": "適合討論、作文、報告和工作溝通 在分析計劃、給予意見、評估表現或比較利弊時，這個句型可以幫助你表達成熟而有分寸的判 斷。",
+      "en": "It suits discussions, essays, reports and workplace communication. When analysing plans, giving advice, evaluating performance or weighing advantages and disadvantages, it helps you express a mature, measured judgement.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits headings are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item as two sentences. Begin the second sentence with That said, and preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "把每題改寫成兩個句子。第二句必須以 That said, 開始，並保留原句的意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss142-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The room is small, but it is comfortable.",
+      "promptZh": "房間很小，但很舒適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room is small. That said, it is comfortable.",
+      "answerZh": "房間很小。不過，它很舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "The room is small. That said, it is comfortable."
+    },
+    {
+      "id": "ss142-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Although Mia is tired, she will finish her homework.",
+      "promptZh": "雖然米婭很疲倦，但她會完成功課。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is tired. That said, she will finish her homework.",
+      "answerZh": "米婭很疲倦。不過，她會完成功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is tired. That said, she will finish her homework."
+    },
+    {
+      "id": "ss142-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "This phone is cheap. However, its battery life is good.",
+      "promptZh": "這部手機價格便宜。不過，它的電池續航力很好。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This phone is cheap. That said, its battery life is good.",
+      "answerZh": "這部手機價格便宜。不過，它的電池續航力很好。",
+      "answerZhSource": "pdf",
+      "highlight": "This phone is cheap. That said, its battery life is good."
+    },
+    {
+      "id": "ss142-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The soup is hot, but it tastes good.",
+      "promptZh": "這碗湯很熱，但味道很好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup is hot. That said, it tastes good.",
+      "answerZh": "這碗湯很熱。不過，味道很好。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup is hot. That said, it tastes good."
+    },
+    {
+      "id": "ss142-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We arrived late, yet the film had not started.",
+      "promptZh": "我們遲到了，但電影還未開始。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We arrived late. That said, the film had not started.",
+      "answerZh": "我們遲到了。不過，電影還未開始。",
+      "answerZhSource": "pdf",
+      "highlight": "We arrived late. That said, the film had not started."
+    },
+    {
+      "id": "ss142-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Even though Jack is new to the team, he learns quickly.",
+      "promptZh": "即使傑克是團隊的新成員，他仍學得很快。",
+      "promptZhSource": "pdf",
+      "starter": "Jack",
+      "answer": "Jack is new to the team. That said, he learns quickly.",
+      "answerZh": "傑克是團隊的新成員。不過，他學得很快。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack is new to the team. That said, he learns quickly."
+    },
+    {
+      "id": "ss142-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The weather is cold. Still, the children want to play outside.",
+      "promptZh": "天氣寒冷。儘管如此，孩子們仍想在外面玩耍。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The weather is cold. That said, the children want to play outside.",
+      "answerZh": "天氣寒冷。不過，孩子們仍想在外面玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather is cold. That said, the children want to play outside."
+    },
+    {
+      "id": "ss142-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Although the book is long, it is easy to read.",
+      "promptZh": "雖然這本書很長，但很容易閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The book is long. That said, it is easy to read.",
+      "answerZh": "這本書很長。不過，它很容易閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The book is long. That said, it is easy to read."
+    },
+    {
+      "id": "ss142-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I do not like crowds, but I enjoyed the festival.",
+      "promptZh": "我不喜歡人多的地方，但我很享受這個節慶活動。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do not like crowds. That said, I enjoyed the festival.",
+      "answerZh": "我不喜歡人多的地方。不過，我很享受這個節慶活動。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not like crowds. That said, I enjoyed the festival."
+    },
+    {
+      "id": "ss142-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The shop is far away. However, its prices are reasonable.",
+      "promptZh": "這間商店很遠。不過，它的價格合理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop is far away. That said, its prices are reasonable.",
+      "answerZh": "這間商店很遠。不過，它的價格合理。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop is far away. That said, its prices are reasonable."
+    },
+    {
+      "id": "ss142-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Though the test was difficult, most students passed.",
+      "promptZh": "雖然測驗很難，但大部分學生都及格。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The test was difficult. That said, most students passed.",
+      "answerZh": "測驗很難。不過，大部分學生都及格。",
+      "answerZhSource": "pdf",
+      "highlight": "The test was difficult. That said, most students passed."
+    },
+    {
+      "id": "ss142-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah had little time. Even so, she helped us.",
+      "promptZh": "莎拉時間不多。即使如此，她仍幫助了我們。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah had little time. That said, she helped us.",
+      "answerZh": "莎拉時間不多。不過，她仍幫助了我們。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah had little time. That said, she helped us."
+    },
+    {
+      "id": "ss142-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The bus was crowded; nevertheless, we found two seats.",
+      "promptZh": "巴士十分擠迫；儘管如此，我們仍找到兩個座位。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus was crowded. That said, we found two seats.",
+      "answerZh": "巴士十分擠迫。不過，我們仍找到兩個座位。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus was crowded. That said, we found two seats."
+    },
+    {
+      "id": "ss142-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The meal was simple. Nonetheless, everyone enjoyed it.",
+      "promptZh": "這頓飯很簡單。儘管如此，大家都很喜歡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meal was simple. That said, everyone enjoyed it.",
+      "answerZh": "這頓飯很簡單。不過，大家都很喜歡。",
+      "answerZhSource": "pdf",
+      "highlight": "The meal was simple. That said, everyone enjoyed it."
+    },
+    {
+      "id": "ss142-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The instructions were clear, yet some people made mistakes.",
+      "promptZh": "指示很清楚，但有些人仍然犯錯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions were clear. That said, some people made mistakes.",
+      "answerZh": "指示很清楚。不過，有些人仍然犯錯。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were clear. That said, some people made mistakes."
+    },
+    {
+      "id": "ss142-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Despite the hotel's high price, the service was excellent.",
+      "promptZh": "儘管酒店收費昂貴，服務仍然非常出色。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hotel was expensive. That said, the service was excellent.",
+      "answerZh": "酒店收費昂貴。不過，服務非常出色。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel was expensive. That said, the service was excellent."
+    },
+    {
+      "id": "ss142-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The road was narrow. Still, the driver remained calm.",
+      "promptZh": "道路很狹窄。儘管如此，司機仍保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was narrow. That said, the driver remained calm.",
+      "answerZh": "道路很狹窄。不過，司機仍保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was narrow. That said, the driver remained calm."
+    },
+    {
+      "id": "ss142-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The task took longer than expected, but we completed it before lunch.",
+      "promptZh": "這項任務比預期花更長時間，但我們在午飯前完成了它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The task took longer than expected. That said, we completed it before lunch.",
+      "answerZh": "這項任務比預期花更長時間。不過，我們在午飯前完成了它。",
+      "answerZhSource": "pdf",
+      "highlight": "The task took longer than expected. That said, we completed it before lunch."
+    },
+    {
+      "id": "ss142-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "In spite of the rain, the match continued.",
+      "promptZh": "儘管下雨，比賽仍然繼續。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was raining. That said, the match continued.",
+      "answerZh": "當時正在下雨。不過，比賽仍然繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "It was raining. That said, the match continued."
+    },
+    {
+      "id": "ss142-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Admittedly, Leo was nervous, but he gave a clear presentation.",
+      "promptZh": "無可否認，里奧感到緊張，但他的簡報表達得很清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo was nervous. That said, he gave a clear presentation.",
+      "answerZh": "里奧感到緊張。不過，他的簡報表達得很清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo was nervous. That said, he gave a clear presentation."
+    },
+    {
+      "id": "ss142-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is true that online lessons can feel less personal, but they are convenient.",
+      "promptZh": "網上課堂的確可能較欠親切感，但它們很方便。",
+      "promptZhSource": "pdf",
+      "starter": "Online",
+      "answer": "Online lessons can feel less personal. That said, they are convenient.",
+      "answerZh": "網上課堂可能較欠親切感。不過，它們很方便。",
+      "answerZhSource": "pdf",
+      "highlight": "Online lessons can feel less personal. That said, they are convenient."
+    },
+    {
+      "id": "ss142-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "While the flat needs repairs, its location is excellent.",
+      "promptZh": "雖然這個單位需要維修，但地點非常理想。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The flat needs repairs. That said, its location is excellent.",
+      "answerZh": "這個單位需要維修。不過，地點非常理想。",
+      "answerZhSource": "pdf",
+      "highlight": "The flat needs repairs. That said, its location is excellent."
+    },
+    {
+      "id": "ss142-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There is no doubt that the new system is faster, but some staff need more training.",
+      "promptZh": "毫無疑問，新系統速度更快，但部分員工需要更多培訓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system is certainly faster. That said, some staff need more training.",
+      "answerZh": "新系統的速度確實更快。不過，部分員工需要更多培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system is certainly faster. That said, some staff need more training."
+    },
+    {
+      "id": "ss142-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The product is not perfect, yet it offers good value for money.",
+      "promptZh": "這件產品並不完美，但它很物有所值。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The product is not perfect. That said, it offers good value for money.",
+      "answerZh": "這件產品並不完美。不過，它很物有所值。",
+      "answerZhSource": "pdf",
+      "highlight": "The product is not perfect. That said, it offers good value for money."
+    },
+    {
+      "id": "ss142-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The smaller venue had fewer seats, so why did they choose it? It was closer to the station.",
+      "promptZh": "較小的場地座位較少，那麼他們為甚麼仍選擇它？因為它較接近車站。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The smaller venue had fewer seats. That said, they chose it because it was closer to the station.",
+      "answerZh": "較小的場地座位較少。不過，他們選擇它，因為它較接近車站。",
+      "answerZhSource": "pdf",
+      "highlight": "The smaller venue had fewer seats. That said, they chose it because it was closer to the station."
+    },
+    {
+      "id": "ss142-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The medicine might cause drowsiness. Nevertheless, it could help the patient sleep.",
+      "promptZh": "這種藥物可能令人昏昏欲睡。儘管如此，它可以幫助病人入睡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine might cause drowsiness. That said, it could help the patient sleep.",
+      "answerZh": "這種藥物可能令人昏昏欲睡。不過，它可以幫助病人入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine might cause drowsiness. That said, it could help the patient sleep."
+    },
+    {
+      "id": "ss142-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team had lost two matches in a row; however, they remained confident.",
+      "promptZh": "球隊已連續輸掉兩場比賽；然而，他們仍然充滿信心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team had lost two matches in a row. That said, they remained confident.",
+      "answerZh": "球隊已連續輸掉兩場比賽。不過，他們仍然充滿信心。",
+      "answerZhSource": "pdf",
+      "highlight": "The team had lost two matches in a row. That said, they remained confident."
+    },
+    {
+      "id": "ss142-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The library is old-fashioned in some ways. Even so, it provides a quiet place to study.",
+      "promptZh": "圖書館在某些方面較為老式。即使如此，它仍提供一個安靜的溫習地方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is old-fashioned in some ways. That said, it provides a quiet place to study.",
+      "answerZh": "圖書館在某些方面較為老式。不過，它仍提供一個安靜的溫習地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is old-fashioned in some ways. That said, it provides a quiet place to study."
+    },
+    {
+      "id": "ss142-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Granted, the deadline is tight, but the work is manageable if we share it.",
+      "promptZh": "誠然，限期很緊迫，但如果我們分工，工作仍可應付。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The deadline is tight. That said, the work is manageable if we share it.",
+      "answerZh": "限期很緊迫。不過，如果我們分工，工作仍可應付。",
+      "answerZhSource": "pdf",
+      "highlight": "The deadline is tight. That said, the work is manageable if we share it."
+    },
+    {
+      "id": "ss142-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Despite her limited experience, Chloe handled the complaint calmly.",
+      "promptZh": "儘管克洛伊經驗有限，她仍冷靜地處理了投訴。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe had limited experience. That said, she handled the complaint calmly.",
+      "answerZh": "克洛伊經驗有限。不過，她冷靜地處理了投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe had limited experience. That said, she handled the complaint calmly."
+    },
+    {
+      "id": "ss142-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The proposal has several weaknesses, but its main idea deserves further discussion.",
+      "promptZh": "這項建議有幾個弱點，但它的主要構思值得進一步討論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal has several weaknesses. That said, its main idea deserves further discussion.",
+      "answerZh": "這項建議有幾個弱點。不過，它的主要構思值得進一步討論。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal has several weaknesses. That said, its main idea deserves further discussion."
+    },
+    {
+      "id": "ss142-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although public transport is convenient in the city centre, it is less reliable in remote areas.",
+      "promptZh": "雖然市中心的公共交通很方便，但在偏遠地區較不可靠。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public transport is convenient in the city centre. That said, it is less reliable in remote areas.",
+      "answerZh": "市中心的公共交通很方便。不過，在偏遠地區較不可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport is convenient in the city centre. That said, it is less reliable in remote areas."
+    },
+    {
+      "id": "ss142-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The course provides useful theory; however, students need more practical training.",
+      "promptZh": "這個課程提供有用的理論；然而，學生需要更多實務訓練。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course provides useful theory. That said, students need more practical training.",
+      "answerZh": "這個課程提供有用的理論。不過，學生需要更多實務訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The course provides useful theory. That said, students need more practical training."
+    },
+    {
+      "id": "ss142-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The app is easy to use. Even so, users should read the privacy settings carefully.",
+      "promptZh": "這個應用程式容易使用。即使如此，使用者仍應仔細閱讀私隱設定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app is easy to use. That said, users should read the privacy settings carefully.",
+      "answerZh": "這個應用程式容易使用。不過，使用者仍應仔細閱讀私隱設定。",
+      "answerZhSource": "pdf",
+      "highlight": "The app is easy to use. That said, users should read the privacy settings carefully."
+    },
+    {
+      "id": "ss142-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is fair to say that the manager communicated clearly, but the final decision came too late.",
+      "promptZh": "公平地說，經理溝通得很清楚，但最終決定來得太遲。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is fair to say that the manager communicated clearly. That said, the final decision came too late.",
+      "answerZh": "公平地說，經理溝通得很清楚。不過，最終決定來得太遲。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that the manager communicated clearly. That said, the final decision came too late."
+    },
+    {
+      "id": "ss142-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school has increased support for new students, yet some still feel lost during their first month.",
+      "promptZh": "學校已增加對新生的支援，但仍有部分學生在首月感到迷惘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has increased support for new students. That said, some still feel lost during their first month.",
+      "answerZh": "學校已增加對新生的支援。不過，仍有部分學生在首月感到迷惘。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has increased support for new students. That said, some still feel lost during their first month."
+    },
+    {
+      "id": "ss142-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the company reported higher sales, its costs also rose sharply.",
+      "promptZh": "雖然公司錄得較高銷售額，但成本也大幅上升。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company reported higher sales. That said, its costs also rose sharply.",
+      "answerZh": "公司錄得較高銷售額。不過，成本也大幅上升。",
+      "answerZhSource": "pdf",
+      "highlight": "The company reported higher sales. That said, its costs also rose sharply."
+    },
+    {
+      "id": "ss142-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The device passed all safety tests. However, parents should still supervise young children while they use it.",
+      "promptZh": "這部裝置通過了所有安全測試。然而，家長仍應在年幼子女使用時加以看管。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The device passed all safety tests. That said, parents should still supervise young children while they use it.",
+      "answerZh": "這部裝置通過了所有安全測試。不過，家長仍應在年幼子女使用時加以看管。",
+      "answerZhSource": "pdf",
+      "highlight": "The device passed all safety tests. That said, parents should still supervise young children while they use it."
+    },
+    {
+      "id": "ss142-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Despite being well prepared, Nina found the interview more challenging than expected.",
+      "promptZh": "儘管準備充分，妮娜仍覺得面試比預期更具挑戰性。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina was well prepared. That said, she found the interview more challenging than expected.",
+      "answerZh": "妮娜準備充分。不過，她仍覺得面試比預期更具挑戰性。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina was well prepared. That said, she found the interview more challenging than expected."
+    },
+    {
+      "id": "ss142-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The neighbourhood has become busier in recent years. Still, it remains a friendly place to live.",
+      "promptZh": "這個社區近年變得更繁忙。儘管如此，它仍是個友善宜居的地方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbourhood has become busier in recent years. That said, it remains a friendly place to live.",
+      "answerZh": "這個社區近年變得更繁忙。不過，它仍是個友善宜居的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbourhood has become busier in recent years. That said, it remains a friendly place to live."
+    },
+    {
+      "id": "ss142-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital's new booking system has reduced waiting times, but older patients may need help using it.",
+      "promptZh": "醫院的新預約系統縮短了輪候時間，但年長病人使用時可能需要協助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital's new booking system has reduced waiting times. That said, older patients may need help using it.",
+      "answerZh": "醫院的新預約系統縮短了輪候時間。不過，年長病人使用時可能需要協助。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital's new booking system has reduced waiting times. That said, older patients may need help using it."
+    },
+    {
+      "id": "ss142-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the policy could reduce waste, small businesses may face higher short-term costs.",
+      "promptZh": "雖然這項政策可以減少廢物，但小型企業短期內可能面對較高成本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy could reduce waste. That said, small businesses may face higher short-term costs.",
+      "answerZh": "這項政策可以減少廢物。不過，小型企業短期內可能面對較高成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy could reduce waste. That said, small businesses may face higher short-term costs."
+    },
+    {
+      "id": "ss142-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The research sample was relatively small; nevertheless, the findings provide a useful starting point for further study.",
+      "promptZh": "研究樣本相對較小；儘管如此，研究結果仍為進一步研究提供了有用的起點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research sample was relatively small. That said, the findings provide a useful starting point for further study.",
+      "answerZh": "研究樣本相對較小。不過，研究結果仍為進一步研究提供了有用的起點。",
+      "answerZhSource": "pdf",
+      "highlight": "The research sample was relatively small. That said, the findings provide a useful starting point for further study."
+    },
+    {
+      "id": "ss142-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is certainly encouraging that more students are reading for pleasure, but many still struggle to discuss what they have read.",
+      "promptZh": "更多學生為興趣而閱讀，確實令人鼓舞，但很多學生仍難以討論自己讀過的內容。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is certainly encouraging that more students are reading for pleasure. That said, many still struggle to discuss what they have read.",
+      "answerZh": "更多學生為興趣而閱讀，確實令人鼓舞。不過，很多學生仍難以討論自己讀過的內容。",
+      "answerZhSource": "pdf",
+      "highlight": "It is certainly encouraging that more students are reading for pleasure. That said, many still struggle to discuss what they have read."
+    },
+    {
+      "id": "ss142-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The project was delivered on time and within budget. Even so, the team should review the communication problems that occurred.",
+      "promptZh": "項目按時完成，亦沒有超出預算。即使如此，團隊仍應檢討曾出現的溝通問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project was delivered on time and within budget. That said, the team should review the communication problems that occurred.",
+      "answerZh": "項目按時完成，亦沒有超出預算。不過，團隊仍應檢討曾出現的溝通問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The project was delivered on time and within budget. That said, the team should review the communication problems that occurred."
+    },
+    {
+      "id": "ss142-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "While the new transport route serves the town centre well, several villages remain poorly connected.",
+      "promptZh": "雖然新的交通路線能有效服務市中心，但數個村落的交通連接仍然不足。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new transport route serves the town centre well. That said, several villages remain poorly connected.",
+      "answerZh": "新的交通路線能有效服務市中心。不過，數個村落的交通連接仍然不足。",
+      "answerZhSource": "pdf",
+      "highlight": "The new transport route serves the town centre well. That said, several villages remain poorly connected."
+    },
+    {
+      "id": "ss142-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The charity has raised a significant amount of money. However, it must explain clearly how the funds will be used.",
+      "promptZh": "這間慈善機構已籌得一筆可觀款項。然而，它必須清楚交代款項的用途。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity has raised a significant amount of money. That said, it must explain clearly how the funds will be used.",
+      "answerZh": "這間慈善機構已籌得一筆可觀款項。不過，它必須清楚交代款項的用途。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity has raised a significant amount of money. That said, it must explain clearly how the funds will be used."
+    },
+    {
+      "id": "ss142-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "There is much to admire about the design, but its complicated controls may frustrate first-time users.",
+      "promptZh": "這項設計有很多值得欣賞之處，但複雜的操控方式可能令首次使用者感到挫敗。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is much to admire about the design. That said, its complicated controls may frustrate first-time users.",
+      "answerZh": "這項設計有很多值得欣賞之處。不過，複雜的操控方式可能令首次使用者感到挫敗。",
+      "answerZhSource": "pdf",
+      "highlight": "There is much to admire about the design. That said, its complicated controls may frustrate first-time users."
+    },
+    {
+      "id": "ss142-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Granted, the economy is showing signs of recovery, but many families are still worried about living costs.",
+      "promptZh": "誠然，經濟正顯示復蘇跡象，但很多家庭仍擔心生活成本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The economy is showing signs of recovery. That said, many families are still worried about living costs.",
+      "answerZh": "經濟正顯示復蘇跡象。不過，很多家庭仍擔心生活成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The economy is showing signs of recovery. That said, many families are still worried about living costs."
+    },
+    {
+      "id": "ss142-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The committee considered a wide range of evidence and reached a reasonable conclusion; nonetheless, several important questions remain unanswered.",
+      "promptZh": "委員會考慮了廣泛證據，並得出合理結論；儘管如此，仍有幾個重要問題未有答案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee considered a wide range of evidence and reached a reasonable conclusion. That said, several important questions remain unanswered.",
+      "answerZh": "委員會考慮了廣泛證據，並得出合理結論。不過，仍有幾個重要問題未有答案。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee considered a wide range of evidence and reached a reasonable conclusion. That said, several important questions remain unanswered."
+    }
+  ]
+}
