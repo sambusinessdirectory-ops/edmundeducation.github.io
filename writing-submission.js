@@ -1,16 +1,20 @@
 import {
   completedWritingSegments,
+  completedWritingSegmentsAffectedByEdit,
   completedWritingSegmentsOverlappingRange,
   countEnglishWords,
   formatSubmissionDate,
   insertedRange,
   isLiveCompletedWritingSegment,
   newlyCompletedWritingSegments
-} from "./writing-submission-core.js?v=20260731-2";
+} from "./writing-submission-core.js?v=20260801-loop1";
 import {
+  grammarIssueRangesOverlap,
+  isBlockedInverseWritingGrammarIssue,
   mergeWritingGrammarIssues,
-  normalizeWritingAiResponse
-} from "./writing-submission-ai.js?v=20260731-ai1";
+  normalizeWritingAiResponse,
+  rebaseWritingGrammarIssuesAfterAppliedCorrection
+} from "./writing-submission-ai.js?v=20260801-loop1";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -74,13 +78,15 @@ const state = {
   pendingChecks: 0,
   checkGeneration: 0,
   segmentChecks: new Map(),
+  latestSegmentRecords: new Map(),
+  nextSegmentRevision: 0,
   remoteGrammarQueue: [],
   remoteGrammarInFlight: 0,
   remoteGrammarControllers: new Set(),
   remoteGrammarPromises: new Set(),
   remoteGrammarBackoffUntil: 0,
-  remoteGrammarCache: new Map(),
   activeIssues: [],
+  appliedCorrections: [],
   dismissedIssueIds: new Set(),
   documentId: "",
   previousWriting: "",
@@ -89,6 +95,7 @@ const state = {
   occurrenceFlushTimer: null,
   occurrenceFlushPromise: null,
   draftSaveTimer: null,
+  manualRecheckTimer: null,
   toastTimer: null,
   submissions: [],
   selectedSubmissionId: "",
@@ -264,9 +271,11 @@ function readSession() {
 function clearSession() {
   window.clearTimeout(state.occurrenceFlushTimer);
   window.clearTimeout(state.draftSaveTimer);
+  window.clearTimeout(state.manualRecheckTimer);
   state.occurrenceFlushTimer = null;
   state.occurrenceFlushPromise = null;
   state.draftSaveTimer = null;
+  state.manualRecheckTimer = null;
   state.checkGeneration += 1;
   cancelRemoteGrammarChecks();
   state.checkQueue = Promise.resolve();
@@ -274,6 +283,7 @@ function clearSession() {
   state.user = null;
   state.authToken = "";
   state.activeIssues = [];
+  state.appliedCorrections = [];
   state.dismissedIssueIds.clear();
   state.pendingOccurrences.clear();
   state.reportedFingerprints.clear();
@@ -469,6 +479,8 @@ function updateEditorMetrics() {
 }
 
 function startNewDraft({ preserveView = false } = {}) {
+  window.clearTimeout(state.manualRecheckTimer);
+  state.manualRecheckTimer = null;
   clearStoredDraft();
   state.checkGeneration += 1;
   cancelRemoteGrammarChecks();
@@ -477,6 +489,7 @@ function startNewDraft({ preserveView = false } = {}) {
   state.documentId = newDocumentId();
   state.previousWriting = "";
   state.activeIssues = [];
+  state.appliedCorrections = [];
   state.dismissedIssueIds.clear();
   elements.topicInput.value = "";
   elements.writingInput.value = "";
@@ -489,6 +502,8 @@ function startNewDraft({ preserveView = false } = {}) {
 }
 
 function restoreDraft() {
+  window.clearTimeout(state.manualRecheckTimer);
+  state.manualRecheckTimer = null;
   state.checkGeneration += 1;
   cancelRemoteGrammarChecks();
   state.checkQueue = Promise.resolve();
@@ -496,6 +511,7 @@ function restoreDraft() {
   restoreIssueQueue();
   const draft = readDraft();
   state.documentId = draft?.documentId || newDocumentId();
+  state.appliedCorrections = [];
   elements.topicInput.value = draft?.topic || "";
   elements.writingInput.value = draft?.answer || "";
   state.previousWriting = elements.writingInput.value;
@@ -540,6 +556,7 @@ function rebaseActiveIssues(previousValue, nextValue) {
   const suffixLength = nextValue.length - change.end;
   const previousEnd = previousValue.length - suffixLength;
   const delta = (change.end - change.start) - (previousEnd - change.start);
+  const liveSegments = completedWritingSegments(nextValue);
   const rebased = [];
   for (const issue of state.activeIssues) {
     if (issue.sentenceEnd <= change.start) {
@@ -547,17 +564,71 @@ function rebaseActiveIssues(previousValue, nextValue) {
       continue;
     }
     if (issue.sentenceStart >= previousEnd) {
-      rebased.push({
+      const shifted = {
         ...issue,
         sentenceStart: issue.sentenceStart + delta,
         sentenceEnd: issue.sentenceEnd + delta,
         absoluteStart: issue.absoluteStart + delta,
         absoluteEnd: issue.absoluteEnd + delta
-      });
+      };
+      const liveSegment = liveSegments.find((segment) => (
+        segment.start === shifted.sentenceStart
+        && segment.end === shifted.sentenceEnd
+        && segment.text === shifted.sentenceText
+      ));
+      if (liveSegment && isLiveCompletedWritingSegment(nextValue, liveSegment)) {
+        rebased.push({
+          ...shifted,
+          id: `${shifted.fingerprint}:${liveSegment.ordinal}:${shifted.start}:${shifted.end}`,
+          segmentOrdinal: liveSegment.ordinal
+        });
+      }
     }
     // A change inside the checked sentence invalidates that suggestion.
   }
   state.activeIssues = rebased;
+}
+
+function rebaseAppliedCorrections(previousValue, nextValue) {
+  if (!state.appliedCorrections.length || previousValue === nextValue) return;
+  const change = insertedRange(previousValue, nextValue);
+  const suffixLength = nextValue.length - change.end;
+  const previousEnd = previousValue.length - suffixLength;
+  const delta = (change.end - change.start) - (previousEnd - change.start);
+  const rebased = [];
+  for (const correction of state.appliedCorrections) {
+    if (correction.absoluteEnd <= change.start) {
+      rebased.push(correction);
+      continue;
+    }
+    if (correction.absoluteStart >= previousEnd) {
+      rebased.push({
+        ...correction,
+        absoluteStart: correction.absoluteStart + delta,
+        absoluteEnd: correction.absoluteEnd + delta
+      });
+    }
+    // A manual or accepted edit touching this exact correction clears the
+    // lock so that a genuinely stronger correction may be considered later.
+  }
+  state.appliedCorrections = rebased;
+}
+
+function rememberAppliedCorrection(issue) {
+  const before = String(issue.originalText || "");
+  const after = String(issue.suggestedText || "");
+  if (!before || !after || before === after) return;
+  state.appliedCorrections.push({
+    generation: state.checkGeneration,
+    documentId: state.documentId,
+    absoluteStart: issue.absoluteStart,
+    absoluteEnd: issue.absoluteStart + after.length,
+    before,
+    after,
+    categoryId: String(issue.categoryId || issue.category || ""),
+    engineId: String(issue.engineId || issue.engine?.name || "")
+  });
+  if (state.appliedCorrections.length > 100) state.appliedCorrections.shift();
 }
 
 async function sha256Hex(value) {
@@ -705,27 +776,97 @@ async function flushGrammarOccurrences(options = {}) {
 }
 
 function cancelRemoteGrammarChecks() {
+  for (const record of state.latestSegmentRecords.values()) record.superseded = true;
   for (const controller of state.remoteGrammarControllers) controller.abort();
   state.remoteGrammarControllers.clear();
   for (const job of state.remoteGrammarQueue.splice(0)) job.resolve(null);
   state.segmentChecks.clear();
-  state.remoteGrammarCache.clear();
+  state.latestSegmentRecords.clear();
 }
 
-function segmentCheckKey(segment, context) {
-  return [context.generation, context.documentId, segment.start, segment.end, segment.text].join("|");
+function segmentSlotKey(segment, context) {
+  return [context.generation, context.documentId, segment.start].join("|");
+}
+
+function segmentCheckKey(segment, context, revision) {
+  return [context.generation, context.documentId, segment.start, segment.end, revision, segment.text].join("|");
+}
+
+function isLatestSegmentRecord(record) {
+  return Boolean(
+    record
+    && !record.superseded
+    && isCurrentCheckContext(record.context)
+    && state.latestSegmentRecords.get(record.slotKey) === record
+  );
+}
+
+function supersedeSegmentRecordsAffectedByEdit(previousValue, nextValue) {
+  if (previousValue === nextValue || !state.latestSegmentRecords.size) return;
+  const change = insertedRange(previousValue, nextValue);
+  const suffixLength = nextValue.length - change.end;
+  const previousEnd = previousValue.length - suffixLength;
+  const delta = (change.end - change.start) - (previousEnd - change.start);
+  const liveSegments = completedWritingSegments(nextValue);
+  for (const [slotKey, record] of [...state.latestSegmentRecords.entries()]) {
+    if (record.segment.end <= change.start) continue;
+
+    // An edit strictly before an unchanged sentence only shifts its offsets.
+    // Keep its in-flight analysis and move the slot identity with the text.
+    // Mutate the segment object in place: decorateIssue may be awaiting
+    // WebCrypto with this same reference, and replacing it would let stale
+    // absolute offsets publish after the await.
+    if (record.segment.start >= previousEnd) {
+      const shiftedStart = record.segment.start + delta;
+      const liveSegment = liveSegments.find((segment) => (
+        segment.start === shiftedStart && segment.text === record.segment.text
+      ));
+      if (!liveSegment) {
+        record.superseded = true;
+        record.remoteController?.abort();
+        if (state.latestSegmentRecords.get(slotKey) === record) state.latestSegmentRecords.delete(slotKey);
+        if (state.segmentChecks.get(record.key) === record) state.segmentChecks.delete(record.key);
+        continue;
+      }
+      const existingAtNewSlot = state.latestSegmentRecords.get(
+        segmentSlotKey(liveSegment, record.context)
+      );
+      if (existingAtNewSlot && existingAtNewSlot !== record) {
+        record.superseded = true;
+        record.remoteController?.abort();
+        if (state.latestSegmentRecords.get(slotKey) === record) state.latestSegmentRecords.delete(slotKey);
+        if (state.segmentChecks.get(record.key) === record) state.segmentChecks.delete(record.key);
+        continue;
+      }
+      const nextSlotKey = segmentSlotKey(liveSegment, record.context);
+      if (state.latestSegmentRecords.get(slotKey) === record) state.latestSegmentRecords.delete(slotKey);
+      Object.assign(record.segment, liveSegment);
+      record.slotKey = nextSlotKey;
+      state.latestSegmentRecords.set(nextSlotKey, record);
+      continue;
+    }
+
+    // An edit inside the sentence invalidates its exact analysis, even if the
+    // student later restores the same text (the A-B-A race).
+    record.superseded = true;
+    record.remoteController?.abort();
+    if (state.latestSegmentRecords.get(slotKey) === record) {
+      state.latestSegmentRecords.delete(slotKey);
+    }
+    if (state.segmentChecks.get(record.key) === record) {
+      state.segmentChecks.delete(record.key);
+    }
+  }
 }
 
 async function requestRemoteGrammarIssues(record) {
   if (
-    !isCurrentCheckContext(record.context)
+    !isLatestSegmentRecord(record)
     || record.segment.text.length > 2000
     || Date.now() < state.remoteGrammarBackoffUntil
   ) return null;
-  const cached = state.remoteGrammarCache.get(record.segment.text);
-  if (cached) return cached;
-
   const controller = new AbortController();
+  record.remoteController = controller;
   state.remoteGrammarControllers.add(controller);
   const timeout = window.setTimeout(() => controller.abort(), 12000);
   try {
@@ -735,11 +876,8 @@ async function requestRemoteGrammarIssues(record) {
       signal: controller.signal
     });
     const issues = normalizeWritingAiResponse(record.segment.text, response);
-    state.remoteGrammarCache.set(record.segment.text, issues);
-    if (state.remoteGrammarCache.size > 200) {
-      state.remoteGrammarCache.delete(state.remoteGrammarCache.keys().next().value);
-    }
-    if (isCurrentCheckContext(record.context)) {
+    if (!isLatestSegmentRecord(record)) return null;
+    if (isLatestSegmentRecord(record)) {
       updateHarperStatus(
         "ready",
         "AI 進階文法檢查已連線",
@@ -763,13 +901,14 @@ async function requestRemoteGrammarIssues(record) {
   } finally {
     window.clearTimeout(timeout);
     state.remoteGrammarControllers.delete(controller);
+    if (record.remoteController === controller) record.remoteController = null;
   }
 }
 
 function drainRemoteGrammarQueue() {
   while (state.remoteGrammarInFlight < 2 && state.remoteGrammarQueue.length) {
     const job = state.remoteGrammarQueue.shift();
-    if (!isCurrentCheckContext(job.record.context)) {
+    if (!isLatestSegmentRecord(job.record)) {
       job.resolve(null);
       continue;
     }
@@ -797,7 +936,7 @@ function publishSegmentRecord(record) {
   record.publishQueue = record.publishQueue.then(async () => {
     if (
       !record.localDone
-      || !isCurrentCheckContext(record.context)
+      || !isLatestSegmentRecord(record)
       || !isLiveCompletedWritingSegment(elements.writingInput.value, record.segment)
     ) return;
     let rawIssues;
@@ -811,17 +950,30 @@ function publishSegmentRecord(record) {
       console.warn("Grammar issue merge failed", error?.name || "unknown");
       rawIssues = mergeWritingGrammarIssues(record.segment.text, record.localIssues, []);
     }
+    rawIssues = rawIssues.filter((issue) => !isBlockedInverseWritingGrammarIssue(
+      issue,
+      record.segment,
+      record.context,
+      state.appliedCorrections
+    ));
     const issues = await Promise.all(rawIssues.map((issue) => (
       decorateIssue(issue, record.segment, record.context)
     )));
     if (
-      !isCurrentCheckContext(record.context)
+      !isLatestSegmentRecord(record)
       || !isLiveCompletedWritingSegment(elements.writingInput.value, record.segment)
     ) return;
+    const preserved = state.activeIssues.filter((issue) => (
+      issue.sentenceStart === record.segment.start
+      && issue.sentenceEnd === record.segment.end
+      && issue.sentenceText === record.segment.text
+      && record.segment.text.slice(issue.start, issue.end) === issue.originalText
+      && !issues.some((fresh) => grammarIssueRangesOverlap(fresh, issue))
+    ));
     state.activeIssues = state.activeIssues.filter((issue) => !(
       issue.sentenceStart === record.segment.start && issue.sentenceEnd === record.segment.end
     ));
-    state.activeIssues.push(...issues);
+    state.activeIssues.push(...issues, ...preserved);
     state.activeIssues.sort((left, right) => (
       left.absoluteStart - right.absoluteStart || left.ruleId.localeCompare(right.ruleId)
     ));
@@ -838,6 +990,9 @@ function finishSegmentRecord(record) {
   record.finished = true;
   record.publishQueue.finally(() => {
     if (state.segmentChecks.get(record.key) === record) state.segmentChecks.delete(record.key);
+    if (state.latestSegmentRecords.get(record.slotKey) === record) {
+      state.latestSegmentRecords.delete(record.slotKey);
+    }
     if (record.context.generation !== state.checkGeneration) return;
     state.pendingChecks = Math.max(0, state.pendingChecks - 1);
     renderGrammarIssues();
@@ -847,8 +1002,8 @@ function finishSegmentRecord(record) {
 async function runLocalSegmentCheck(record) {
   let localIssues = [];
   try {
-    const checker = await prepareGrammarChecker();
-    if (checker && isCurrentCheckContext(record.context)) {
+    const checker = isLatestSegmentRecord(record) ? await prepareGrammarChecker() : null;
+    if (checker && isLatestSegmentRecord(record)) {
       localIssues = await checker.check(record.segment.text);
     }
   } catch (error) {
@@ -873,12 +1028,31 @@ function enqueueSegmentsForCheck(segments, { remote = true } = {}) {
   const context = captureCheckContext();
   for (const segment of validSegments) {
     if (segment.text.length > 10000) continue;
-    const key = segmentCheckKey(segment, context);
-    if (state.segmentChecks.has(key)) continue;
+    const slotKey = segmentSlotKey(segment, context);
+    const previousRecord = state.latestSegmentRecords.get(slotKey);
+    if (
+      previousRecord
+      && !previousRecord.finished
+      && previousRecord.segment.end === segment.end
+      && previousRecord.segment.text === segment.text
+    ) continue;
+    if (previousRecord) {
+      previousRecord.superseded = true;
+      previousRecord.remoteController?.abort();
+      if (state.segmentChecks.get(previousRecord.key) === previousRecord) {
+        state.segmentChecks.delete(previousRecord.key);
+      }
+    }
+    const revision = ++state.nextSegmentRevision;
+    const key = segmentCheckKey(segment, context, revision);
     const record = {
       key,
+      slotKey,
+      revision,
       context,
       segment,
+      superseded: false,
+      remoteController: null,
       localDone: false,
       localIssues: [],
       remoteDone: !remote,
@@ -887,6 +1061,7 @@ function enqueueSegmentsForCheck(segments, { remote = true } = {}) {
       finished: false
     };
     state.segmentChecks.set(key, record);
+    state.latestSegmentRecords.set(slotKey, record);
     state.pendingChecks += 1;
     state.checkQueue = state.checkQueue
       .then(() => runLocalSegmentCheck(record))
@@ -984,16 +1159,48 @@ function renderGrammarIssues() {
   elements.grammarList.replaceChildren(fragment);
 }
 
+function scheduleManualGrammarRecheck(previousValue, nextValue) {
+  window.clearTimeout(state.manualRecheckTimer);
+  state.manualRecheckTimer = null;
+  const change = insertedRange(previousValue, nextValue);
+  const rangeEnd = Math.min(nextValue.length, Math.max(change.end, change.start + 1));
+  const affected = completedWritingSegmentsOverlappingRange(nextValue, change.start, rangeEnd);
+  if (!affected.length) return;
+  const context = captureCheckContext();
+  state.manualRecheckTimer = window.setTimeout(() => {
+    state.manualRecheckTimer = null;
+    if (!isCurrentCheckContext(context)) return;
+    const live = affected.filter((segment) => (
+      isLiveCompletedWritingSegment(elements.writingInput.value, segment)
+    ));
+    if (live.length) enqueueSegmentsForCheck(live);
+  }, 650);
+}
+
 function handleWritingInput() {
   const nextValue = elements.writingInput.value;
   const previousValue = state.previousWriting;
+  supersedeSegmentRecordsAffectedByEdit(previousValue, nextValue);
+  rebaseAppliedCorrections(previousValue, nextValue);
   rebaseActiveIssues(previousValue, nextValue);
   const segments = newlyCompletedWritingSegments(previousValue, nextValue);
+  const immediateSegments = segments.length
+    ? [...new Map([
+      ...segments,
+      ...completedWritingSegmentsAffectedByEdit(previousValue, nextValue)
+    ].map((segment) => [`${segment.start}:${segment.end}:${segment.text}`, segment])).values()]
+    : [];
   state.previousWriting = nextValue;
   updateEditorMetrics();
   scheduleDraftSave();
   renderGrammarIssues();
-  if (segments.length) enqueueSegmentsForCheck(segments);
+  if (immediateSegments.length) {
+    window.clearTimeout(state.manualRecheckTimer);
+    state.manualRecheckTimer = null;
+    enqueueSegmentsForCheck(immediateSegments);
+  } else {
+    scheduleManualGrammarRecheck(previousValue, nextValue);
+  }
 }
 
 function applyGrammarIssue(issueId) {
@@ -1007,9 +1214,11 @@ function applyGrammarIssue(issueId) {
     return;
   }
   const next = `${current.slice(0, issue.sentenceStart)}${issue.correctedSentence}${current.slice(issue.sentenceEnd)}`;
-  state.activeIssues = state.activeIssues.filter((candidate) => candidate.sentenceText !== issue.sentenceText || candidate.sentenceStart !== issue.sentenceStart);
+  supersedeSegmentRecordsAffectedByEdit(current, next);
+  rebaseAppliedCorrections(current, next);
+  rememberAppliedCorrection(issue);
+  state.activeIssues = rebaseWritingGrammarIssuesAfterAppliedCorrection(state.activeIssues, issue);
   state.dismissedIssueIds.clear();
-  rebaseActiveIssues(current, next);
   elements.writingInput.value = next;
   state.previousWriting = next;
   updateEditorMetrics();

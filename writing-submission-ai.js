@@ -210,6 +210,206 @@ export function grammarIssueRangesOverlap(left, right) {
   return Math.max(left.start, right.start) < Math.min(left.end, right.end);
 }
 
+export function writingGrammarEnginePriority(value) {
+  const name = typeof value === "string"
+    ? value
+    : String(value?.engineId || value?.engine?.name || "");
+  return Object.prototype.hasOwnProperty.call(ENGINE_PRIORITY, name)
+    ? ENGINE_PRIORITY[name]
+    : Number.MAX_SAFE_INTEGER;
+}
+
+function writingGrammarTokens(value) {
+  const tokens = [];
+  const pattern = /\s+|[\p{L}\p{N}_]+|[^\s\p{L}\p{N}_]+/gu;
+  for (const match of String(value || "").matchAll(pattern)) {
+    tokens.push({ text: match[0], start: match.index, end: match.index + match[0].length });
+  }
+  return tokens;
+}
+
+function writingGrammarLcsMap(sourceTokens, targetTokens) {
+  const rows = sourceTokens.length + 1;
+  const columns = targetTokens.length + 1;
+  const lengths = Array.from({ length: rows }, () => new Uint16Array(columns));
+  for (let sourceIndex = sourceTokens.length - 1; sourceIndex >= 0; sourceIndex -= 1) {
+    for (let targetIndex = targetTokens.length - 1; targetIndex >= 0; targetIndex -= 1) {
+      lengths[sourceIndex][targetIndex] = sourceTokens[sourceIndex].text === targetTokens[targetIndex].text
+        ? lengths[sourceIndex + 1][targetIndex + 1] + 1
+        : Math.max(lengths[sourceIndex + 1][targetIndex], lengths[sourceIndex][targetIndex + 1]);
+    }
+  }
+  const mapping = new Map();
+  let sourceIndex = 0;
+  let targetIndex = 0;
+  while (sourceIndex < sourceTokens.length && targetIndex < targetTokens.length) {
+    if (sourceTokens[sourceIndex].text === targetTokens[targetIndex].text) {
+      mapping.set(sourceIndex, targetIndex);
+      sourceIndex += 1;
+      targetIndex += 1;
+    } else if (lengths[sourceIndex + 1][targetIndex] >= lengths[sourceIndex][targetIndex + 1]) {
+      sourceIndex += 1;
+    } else {
+      targetIndex += 1;
+    }
+  }
+  return mapping;
+}
+
+function writingGrammarTokenSequenceOccurs(tokens, sequence, startIndex, endIndex) {
+  if (!sequence.length) return false;
+  for (let index = startIndex; index + sequence.length <= endIndex; index += 1) {
+    if (sequence.every((token, offset) => tokens[index + offset]?.text === token.text)) return true;
+  }
+  return false;
+}
+
+function isSpecificWritingGrammarFragmentReversed(original, suggested, offset, after, before) {
+  if (
+    !Number.isSafeInteger(offset)
+    || offset < 0
+    || original.slice(offset, offset + after.length) !== after
+  ) return false;
+  const sourceTokens = writingGrammarTokens(original);
+  const targetTokens = writingGrammarTokens(suggested);
+  const beforeTokens = writingGrammarTokens(before);
+  const lockedStart = offset;
+  const lockedEnd = offset + after.length;
+  const lockedIndices = sourceTokens
+    .map((token, index) => ({ token, index }))
+    .filter(({ token }) => token.end > lockedStart && token.start < lockedEnd)
+    .map(({ index }) => index);
+  if (!lockedIndices.length) {
+    return suggested.slice(offset, offset + before.length) === before;
+  }
+  const mapping = writingGrammarLcsMap(sourceTokens, targetTokens);
+  if (lockedIndices.every((index) => mapping.has(index))) return false;
+  let leftTarget = -1;
+  for (let index = lockedIndices[0] - 1; index >= 0; index -= 1) {
+    if (mapping.has(index)) {
+      leftTarget = mapping.get(index);
+      break;
+    }
+  }
+  let rightTarget = targetTokens.length;
+  for (let index = lockedIndices[lockedIndices.length - 1] + 1; index < sourceTokens.length; index += 1) {
+    if (mapping.has(index)) {
+      rightTarget = mapping.get(index);
+      break;
+    }
+  }
+  return writingGrammarTokenSequenceOccurs(
+    targetTokens,
+    beforeTokens,
+    leftTarget + 1,
+    rightTarget
+  );
+}
+
+/**
+ * Once a student accepts a correction, do not let the same or a weaker
+ * checker immediately offer the exact inverse at the same place. A stronger
+ * deterministic checker may still override an AI suggestion.
+ */
+export function isBlockedInverseWritingGrammarIssue(issue, segment, context, correctionHistory) {
+  if (!issue || !segment || !context || !Array.isArray(correctionHistory)) return false;
+  const absoluteStart = Number(segment.start) + Number(issue.start);
+  const candidatePriority = writingGrammarEnginePriority(issue);
+  return correctionHistory.some((entry) => {
+    if (
+      !entry
+      || entry.generation !== context.generation
+      || entry.documentId !== context.documentId
+      || candidatePriority < writingGrammarEnginePriority(entry.engineId)
+    ) return false;
+    const candidateOriginal = String(issue.originalText || "");
+    const candidateSuggested = String(issue.suggestedText || "");
+    const before = String(entry.before || "");
+    const after = String(entry.after || "");
+    const offset = Number(entry.absoluteStart) - absoluteStart;
+    return Boolean(before && after && isSpecificWritingGrammarFragmentReversed(
+      candidateOriginal,
+      candidateSuggested,
+      offset,
+      after,
+      before
+    ));
+  });
+}
+
+/**
+ * Apply one atomic suggestion to the active editor diagnostics without
+ * throwing away independent cards later in the same sentence.
+ */
+export function rebaseWritingGrammarIssuesAfterAppliedCorrection(issueValues, appliedIssue) {
+  if (!Array.isArray(issueValues) || !appliedIssue) return [];
+  const beforeSentence = String(appliedIssue.sentenceText || "");
+  const afterSentence = String(appliedIssue.correctedSentence || "");
+  const sentenceStart = Number(appliedIssue.sentenceStart);
+  const sentenceEnd = Number(appliedIssue.sentenceEnd);
+  const replacementDelta = afterSentence.length - beforeSentence.length;
+  if (
+    !beforeSentence
+    || !Number.isSafeInteger(sentenceStart)
+    || !Number.isSafeInteger(sentenceEnd)
+    || sentenceEnd - sentenceStart !== beforeSentence.length
+  ) return issueValues.filter((issue) => issue?.id !== appliedIssue.id);
+
+  const rebased = [];
+  for (const issue of issueValues) {
+    if (!issue || issue.id === appliedIssue.id) continue;
+
+    const belongsToOriginalSentence = (
+      issue.sentenceStart === sentenceStart
+      && issue.sentenceEnd === sentenceEnd
+      && issue.sentenceText === beforeSentence
+    );
+    if (belongsToOriginalSentence) {
+      if (grammarIssueRangesOverlap(issue, appliedIssue)) continue;
+      const shift = issue.start >= appliedIssue.end ? replacementDelta : 0;
+      const start = issue.start + shift;
+      const end = issue.end + shift;
+      if (
+        !Number.isSafeInteger(start)
+        || !Number.isSafeInteger(end)
+        || start < 0
+        || end <= start
+        || afterSentence.slice(start, end) !== issue.originalText
+      ) continue;
+      rebased.push({
+        ...issue,
+        id: issue.fingerprint
+          ? `${issue.fingerprint}:${issue.segmentOrdinal}:${start}:${end}`
+          : issue.id,
+        sentenceText: afterSentence,
+        sentenceEnd: sentenceStart + afterSentence.length,
+        start,
+        end,
+        absoluteStart: sentenceStart + start,
+        absoluteEnd: sentenceStart + end,
+        correctedSentence: `${afterSentence.slice(0, start)}${issue.suggestedText}${afterSentence.slice(end)}`
+      });
+      continue;
+    }
+
+    // Anything positioned inside the old sentence but not tied to its exact
+    // text is stale. Diagnostics in later sentences shift with the edit.
+    if (issue.sentenceStart < sentenceEnd && issue.sentenceEnd > sentenceStart) continue;
+    if (issue.sentenceStart >= sentenceEnd) {
+      rebased.push({
+        ...issue,
+        sentenceStart: issue.sentenceStart + replacementDelta,
+        sentenceEnd: issue.sentenceEnd + replacementDelta,
+        absoluteStart: issue.absoluteStart + replacementDelta,
+        absoluteEnd: issue.absoluteEnd + replacementDelta
+      });
+      continue;
+    }
+    rebased.push(issue);
+  }
+  return rebased;
+}
+
 function dedupeAndRemoveOverlaps(issues, { enginePriorityFirst = false } = {}) {
   const candidates = [...issues].sort((left, right) => (
     (enginePriorityFirst

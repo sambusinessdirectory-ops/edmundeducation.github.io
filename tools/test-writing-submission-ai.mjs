@@ -292,4 +292,256 @@ assert.equal(adapter.grammarIssueRangesOverlap(
   { start: 10, end: 15 }
 ), false, "adjacent ranges are not overlapping");
 
+const loopSentence = "Tom read a book feel exciting.";
+const loopResponse = {
+  engine: AI_ENGINE,
+  issues: [
+    workerIssue({
+      originalText: "read",
+      suggestedText: "reads",
+      start: 4,
+      end: 8,
+      message: "Tom 是第三身單數。"
+    }),
+    workerIssue({
+      category: "sentence_structure",
+      originalText: "feel",
+      suggestedText: "and felt",
+      start: 16,
+      end: 20,
+      message: "句子需要連接詞，並保持過去式。"
+    }),
+    workerIssue({
+      category: "word_form",
+      originalText: "exciting",
+      suggestedText: "excited",
+      start: 21,
+      end: 29,
+      message: "形容人感到興奮要用 excited。"
+    })
+  ]
+};
+const decoratedLoopIssues = adapter.normalizeWritingAiResponse(loopSentence, loopResponse)
+  .map((issue, index) => ({
+    ...issue,
+    id: `loop-${index}`,
+    fingerprint: `fingerprint-${index}`,
+    generation: 4,
+    documentId: "document-loop",
+    sentenceText: loopSentence,
+    sentenceStart: 0,
+    sentenceEnd: loopSentence.length,
+    segmentOrdinal: 1,
+    absoluteStart: issue.start,
+    absoluteEnd: issue.end
+  }));
+const rebasedLoopIssues = adapter.rebaseWritingGrammarIssuesAfterAppliedCorrection(
+  decoratedLoopIssues,
+  decoratedLoopIssues[0]
+);
+assert.deepEqual(
+  rebasedLoopIssues.map((issue) => [issue.originalText, issue.start, issue.end]),
+  [["feel", 17, 21], ["exciting", 22, 30]],
+  "applying the first card preserves and rebases independent later cards"
+);
+assert.deepEqual(
+  rebasedLoopIssues.map((issue) => issue.correctedSentence),
+  [
+    "Tom reads a book and felt exciting.",
+    "Tom reads a book feel excited."
+  ]
+);
+
+const inverseSentence = "Tom reads a book feel exciting.";
+const inverseIssue = adapter.normalizeWritingAiResponse(inverseSentence, {
+  engine: AI_ENGINE,
+  issues: [workerIssue({
+    originalText: "reads",
+    suggestedText: "read",
+    start: 4,
+    end: 9,
+    message: "模型作出了相反建議。"
+  })]
+})[0];
+const correctionHistory = [{
+  generation: 4,
+  documentId: "document-loop",
+  absoluteStart: 4,
+  absoluteEnd: 9,
+  before: "read",
+  after: "reads",
+  categoryId: "subject_verb_agreement",
+  engineId: "cloudflare-workers-ai"
+}];
+const inverseContext = { generation: 4, documentId: "document-loop" };
+const inverseSegment = { start: 0, text: inverseSentence };
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    inverseIssue,
+    inverseSegment,
+    inverseContext,
+    correctionHistory
+  ),
+  true,
+  "the same AI engine cannot reverse a correction the student just accepted"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      category: "verb_form_or_tense",
+      categoryId: "verb_form_or_tense",
+      ruleId: "EdmundAI:verb_form_or_tense"
+    },
+    inverseSegment,
+    inverseContext,
+    correctionHistory
+  ),
+  true,
+  "changing the AI category cannot bypass an exact inverse-correction lock"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      category: "verb_form_or_tense",
+      categoryId: "verb_form_or_tense",
+      originalText: "Tom reads",
+      suggestedText: "Tom read",
+      correctedSentence: loopSentence,
+      start: 0,
+      end: 9
+    },
+    inverseSegment,
+    inverseContext,
+    correctionHistory
+  ),
+  true,
+  "a wider replacement span cannot bypass the accepted-fragment inverse lock"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      originalText: "Tom reads a book feel exciting",
+      suggestedText: "Tom read a book felt excited",
+      correctedSentence: "Tom read a book felt excited.",
+      start: 0,
+      end: 30
+    },
+    { start: 0, text: "Tom reads a book feel exciting." },
+    inverseContext,
+    correctionHistory
+  ),
+  true,
+  "a sibling correction cannot make a wider inverse forget the accepted fragment"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      originalText: "Tom read a book felt exciting",
+      suggestedText: "Tom reads a book feel excited",
+      correctedSentence: "Tom reads a book feel excited.",
+      start: 0,
+      end: 30
+    },
+    { start: 0, text: "Tom read a book felt exciting." },
+    inverseContext,
+    [{
+      generation: 4,
+      documentId: "document-loop",
+      absoluteStart: 16,
+      absoluteEnd: 20,
+      before: "feel",
+      after: "felt",
+      engineId: "cloudflare-workers-ai"
+    }]
+  ),
+  true,
+  "an earlier length change inside a wider rewrite cannot shift the inverse past the lock"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      originalText: "Tom reads and Sam reads",
+      suggestedText: "Tom read and Sam reads",
+      start: 0,
+      end: 23
+    },
+    { start: 0, text: "Tom reads and Sam reads." },
+    inverseContext,
+    [{
+      generation: 4,
+      documentId: "document-loop",
+      absoluteStart: 18,
+      absoluteEnd: 23,
+      before: "read",
+      after: "reads",
+      engineId: "cloudflare-workers-ai"
+    }]
+  ),
+  false,
+  "changing a different repeated word must not falsely trigger the accepted-fragment lock"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      originalText: "Tom reads and Sam read",
+      suggestedText: "Tom read and Sam reads",
+      start: 0,
+      end: 22
+    },
+    { start: 0, text: "Tom reads and Sam read." },
+    inverseContext,
+    [{
+      generation: 4,
+      documentId: "document-loop",
+      absoluteStart: 4,
+      absoluteEnd: 9,
+      before: "read",
+      after: "reads",
+      engineId: "cloudflare-workers-ai"
+    }]
+  ),
+  true,
+  "the lock follows the accepted occurrence when repeated words swap forms"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      originalText: "a lot",
+      suggestedText: "a  lot",
+      start: 0,
+      end: 5
+    },
+    { start: 0, text: "a lot." },
+    inverseContext,
+    [{
+      generation: 4,
+      documentId: "document-loop",
+      absoluteStart: 0,
+      absoluteEnd: 5,
+      before: "a  lot",
+      after: "a lot",
+      engineId: "cloudflare-workers-ai"
+    }]
+  ),
+  true,
+  "whitespace-only inverse corrections cannot create an A-B-A loop"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    { ...inverseIssue, engine: LOCAL_ENGINE, engineId: "edmund-esl-basics" },
+    inverseSegment,
+    inverseContext,
+    correctionHistory
+  ),
+  false,
+  "a stronger deterministic local rule may override an AI correction"
+);
+
 console.log("Writing Submission AI browser adapter: OK");

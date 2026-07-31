@@ -274,8 +274,115 @@ test("authenticated grammar checking returns three normalized issues for the Tom
   assert.equal(ai.calls[0].model, "@cf/meta/llama-3.1-8b-instruct-fast");
   assert.equal(ai.calls[0].request.temperature, 0);
   assert.equal(ai.calls[0].request.response_format.type, "json_schema");
+  assert.match(ai.calls[0].request.messages[0].content, /inspect the ENTIRE sentence/);
+  assert.match(ai.calls[0].request.messages[0].content, /Tom read a book feel exciting\./);
+  assert.match(ai.calls[0].request.messages[0].content, /do NOT change read to reads/);
   assert.deepEqual(checkLimiter.calls, [{ key: `writing-submission-grammar-check:${STUDENT_ID}` }]);
   assert.equal(response.headers.get("Cache-Control"), "no-store");
+});
+
+test("ambiguous read keeps its possible past tense and corrects the complete remainder", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tom read a book feel exciting.";
+  const ai = aiBinding({
+    response: {
+      issues: [
+        grammarAiIssue({
+          category: "sentence_structure",
+          originalText: "feel exciting",
+          replacementText: "and felt excited",
+          explanationZhHant: "句子要用 and 連接動作，felt 配合 read，而人的感受用 excited。",
+          confidence: 0.97
+        })
+      ]
+    }
+  });
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.deepEqual(
+    body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
+    [["feel exciting", "and felt excited"]]
+  );
+  assert.equal(body.issues.some((issue) => issue.originalText === "read"), false);
+  assert.equal(body.issues[0].correctedSentence, "Tom read a book and felt excited.");
+});
+
+test("an AI may not turn ambiguous past-tense read into reads without a present marker", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = () => {};
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const ai = aiBinding({ response: { issues: [grammarAiIssue({
+    originalText: "read",
+    replacementText: "reads",
+    explanationZhHant: "模型嘗試猜測現在式。",
+    confidence: 0.99
+  })] } });
+  const response = await worker.fetch(
+    grammarCheckRequest("Tom read a book feel exciting."),
+    environment({ AI: ai })
+  );
+  assert.equal(response.status, 200);
+  assert.deepEqual((await response.json()).issues, []);
+
+  for (const issue of [
+    grammarAiIssue({
+      category: "verb_form_or_tense",
+      originalText: "read",
+      replacementText: "reads",
+      explanationZhHant: "模型改用了另一個分類。",
+      confidence: 0.99
+    }),
+    grammarAiIssue({
+      category: "word_form",
+      originalText: "Tom read",
+      replacementText: "Tom reads",
+      explanationZhHant: "模型改用了較闊的文字範圍。",
+      confidence: 0.99
+    }),
+    grammarAiIssue({
+      category: "sentence_structure",
+      originalText: "read a book feel exciting",
+      replacementText: "reads a book and feels excited",
+      explanationZhHant: "模型把相反時態改動藏在較大的句子重寫中。",
+      confidence: 0.99
+    })
+  ]) {
+    const variant = await worker.fetch(
+      grammarCheckRequest("Tom read a book feel exciting."),
+      environment({ AI: aiBinding({ response: { issues: [issue] } }) })
+    );
+    assert.equal(variant.status, 200);
+    assert.deepEqual((await variant.json()).issues, []);
+  }
+
+  const hallucinatedFragment = await worker.fetch(
+    grammarCheckRequest("Tom writes."),
+    environment({ AI: aiBinding({ response: { issues: [grammarAiIssue({
+      originalText: "read",
+      replacementText: "reads",
+      explanationZhHant: "這段文字根本不在原句中。"
+    })] } }) })
+  );
+  assert.equal(hallucinatedFragment.status, 503);
+  assert.equal((await hallucinatedFragment.json()).code, "GRAMMAR_CHECK_UNAVAILABLE");
 });
 
 test("a grammatically acceptable control returns an empty issue list without storage", async t => {
@@ -423,13 +530,29 @@ test("malformed and hallucinated grammar provider output fails closed", async t 
   );
   assert.equal(hallucinated.status, 503);
   assert.equal((await hallucinated.json()).code, "GRAMMAR_CHECK_UNAVAILABLE");
+
+  const partlyHallucinated = await worker.fetch(
+    grammarCheckRequest(sentence),
+    environment({ AI: aiBinding({
+      response: {
+        issues: [grammarAiIssue(), grammarAiIssue({ originalText: "students", replacementText: "student" })]
+      }
+    }) })
+  );
+  assert.equal(partlyHallucinated.status, 503);
+  assert.equal((await partlyHallucinated.json()).code, "GRAMMAR_CHECK_UNAVAILABLE");
   assert.equal(logs.some((entry) => entry.includes(sentence)), false);
   assert.equal(logs.some((entry) => entry.includes("not-json-provider-output")), false);
 });
 
-test("overlapping provider suggestions are deterministically reduced to one safe issue", async t => {
+test("overlapping provider suggestions fail closed instead of showing a partial scan", async t => {
   const originalFetch = globalThis.fetch;
-  t.after(() => { globalThis.fetch = originalFetch; });
+  const originalConsoleError = console.error;
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = () => {};
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
@@ -451,11 +574,10 @@ test("overlapping provider suggestions are deterministically reduced to one safe
     }
   });
   const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
-  assert.equal(response.status, 200);
+  assert.equal(response.status, 503);
   const body = await response.json();
-  assert.equal(body.issues.length, 1);
-  assert.equal(body.issues[0].originalText, "need book");
-  assert.equal(body.issues[0].correctedSentence, "Tommy needs a book.");
+  assert.equal(body.code, "GRAMMAR_CHECK_UNAVAILABLE");
+  assert.equal(Object.prototype.hasOwnProperty.call(body, "issues"), false);
 });
 
 test("provider failures return a generic 503 without logging sentence or provider output", async t => {

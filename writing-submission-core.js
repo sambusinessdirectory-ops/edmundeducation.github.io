@@ -79,6 +79,28 @@ export function completedWritingSegmentsOverlappingRange(value, startValue, endV
   ));
 }
 
+export function completedWritingSegmentsAffectedByEdit(previousValue, nextValue) {
+  const previous = String(previousValue || "");
+  const next = String(nextValue || "");
+  if (previous === next) return [];
+  const change = insertedRange(previous, next);
+  const suffixLength = next.length - change.end;
+  const previousEnd = previous.length - suffixLength;
+  const delta = (change.end - change.start) - (previousEnd - change.start);
+  const probeEnd = Math.max(previousEnd, change.start + 1);
+  const affectedPrevious = completedWritingSegments(previous).filter((segment) => (
+    segment.end > change.start && segment.start < probeEnd
+  ));
+  if (!affectedPrevious.length) return [];
+  const affectedRanges = affectedPrevious.map((segment) => ({
+    start: segment.start,
+    end: Math.max(segment.start, segment.end + delta)
+  }));
+  return completedWritingSegments(next).filter((segment) => (
+    affectedRanges.some((range) => segment.end > range.start && segment.start < range.end)
+  ));
+}
+
 export function insertedRange(previousValue, nextValue) {
   const previous = String(previousValue || "");
   const next = String(nextValue || "");

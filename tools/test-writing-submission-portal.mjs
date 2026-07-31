@@ -5,6 +5,7 @@ import test from "node:test";
 
 import {
   completedWritingSegments,
+  completedWritingSegmentsAffectedByEdit,
   completedWritingSegmentsOverlappingRange,
   countEnglishWords,
   isLiveCompletedWritingSegment,
@@ -54,6 +55,16 @@ test("a correction that inserts a sentence boundary rechecks both resulting sent
   assert.equal(isLiveCompletedWritingSegment("There are advantages..", segments[0]), false);
 });
 
+test("typing punctuation inside a completed sentence rechecks every resulting sentence", () => {
+  assert.deepEqual(
+    completedWritingSegmentsAffectedByEdit(
+      "Students feel exciting.",
+      "Students; feel exciting."
+    ).map((segment) => segment.text),
+    ["Students;", "feel exciting."]
+  );
+});
+
 test("word count handles repeated whitespace", () => {
   assert.equal(countEnglishWords("  Students   write\nclearly.  "), 3);
   assert.equal(countEnglishWords(""), 0);
@@ -93,9 +104,9 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /AI 文法提示（測試版）/);
   assert.match(html, /writing-submission\.css\?v=20260731-ai1/);
-  assert.match(html, /writing-submission\.js\?v=20260731-ai1/);
+  assert.match(html, /writing-submission\.js\?v=20260801-loop1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260731-ai1/);
-  assert.match(script, /writing-submission-ai\.js\?v=20260731-ai1/);
+  assert.match(script, /writing-submission-ai\.js\?v=20260801-loop1/);
   assert.match(script, /暫未偵測到高信心文法問題/);
   assert.match(script, /AI 及本機工具都可能遺漏問題/);
   assert.match(script, /需老師覆核/);
@@ -119,6 +130,50 @@ test("completed sentences use the authenticated AI endpoint without sending the 
   assert.match(script, /normalizeWritingAiResponse/);
   assert.match(aiAdapter, /EdmundAI:\$\{categoryId\}/);
   assert.match(aiAdapter, /cloudflare-workers-ai/);
+});
+
+test("applying one AI correction cannot create an A-B-A loop or erase sibling cards", () => {
+  assert.match(script, /latestSegmentRecords/);
+  assert.match(script, /isLatestSegmentRecord\(record\)/);
+  assert.match(script, /previousRecord\.superseded = true/);
+  assert.match(script, /previousRecord\.remoteController\?\.abort\(\)/);
+  assert.match(script, /supersedeSegmentRecordsAffectedByEdit\(previousValue, nextValue\)/);
+  assert.match(script, /scheduleManualGrammarRecheck\(previousValue, nextValue\)/);
+  assert.match(script, /completedWritingSegmentsAffectedByEdit\(previousValue, nextValue\)/);
+  assert.match(script, /completedWritingSegmentsOverlappingRange\(nextValue, change\.start, rangeEnd\)/);
+  assert.match(script, /Object\.assign\(record\.segment, liveSegment\)/);
+  assert.match(script, /isLiveCompletedWritingSegment\(nextValue, liveSegment\)/);
+  assert.doesNotMatch(script, /record\.segment\s*=\s*segment/);
+  assert.match(script, /}, 650\);/);
+  assert.match(script, /isBlockedInverseWritingGrammarIssue/);
+  assert.match(script, /rebaseWritingGrammarIssuesAfterAppliedCorrection/);
+  assert.doesNotMatch(script, /remoteGrammarCache/);
+  assert.doesNotMatch(
+    script,
+    /state\.activeIssues = state\.activeIssues\.filter\(\(candidate\) => candidate\.sentenceText !== issue\.sentenceText/
+  );
+  assert.match(aiAdapter, /same or a weaker/);
+  assert.match(aiAdapter, /independent cards later in the same sentence/);
+
+  const before = completedWritingSegments("First. Second sentence.")[1];
+  const heldByAsyncDecoration = before;
+  const after = completedWritingSegments("A longer first sentence. Second sentence.")[1];
+  Object.assign(before, after);
+  assert.equal(heldByAsyncDecoration, before, "the asynchronous decorator keeps the same segment reference");
+  assert.deepEqual(
+    [heldByAsyncDecoration.start, heldByAsyncDecoration.end, heldByAsyncDecoration.ordinal],
+    [after.start, after.end, after.ordinal],
+    "an earlier edit updates the held sentence offsets before diagnostics publish"
+  );
+  assert.equal(
+    isLiveCompletedWritingSegment("Yesterday, Tom go home.", {
+      start: 11,
+      end: 23,
+      text: "Tom go home."
+    }),
+    false,
+    "an inserted prefix invalidates the obsolete suffix card instead of duplicating it"
+  );
 });
 
 test("browser configuration contains no administrator password", () => {
