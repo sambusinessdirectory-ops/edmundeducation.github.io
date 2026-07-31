@@ -141,7 +141,9 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 18, "homepage must contain 18 numbered category cards after adding Phrasal Verb System");
+assert.equal(homepageCards.length, 19, "homepage must contain 19 numbered category cards after adding Writing Submission");
+const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
+assert.equal(homepageCardHrefs[13], "writing-submission.html", "Writing Submission must be numbered card 14 after Schedule");
 assert.match(homepage, /schedule-system-card/);
 assert.match(homepage, /href="schedule-system\.html"/);
 assert.match(homepage, /功課及溫習安排系統/);
@@ -154,6 +156,11 @@ assert.match(
   homepage,
   /href="schedule-system\.html"[\s\S]*?<span class="category-name"><span class="schedule-card-first-line">\(學生使用\) 功課及溫習<\/span><br>安排系統<\/span>/,
   "schedule homepage card must use the requested two lines"
+);
+assert.match(
+  homepage,
+  /class="category writing-submission-card" href="writing-submission\.html"[\s\S]*?<span class="writing-submission-scroll" aria-hidden="true"><\/span>[\s\S]*?<span class="writing-submission-quill" aria-hidden="true"><\/span>[\s\S]*?<span class="writing-submission-seal" aria-hidden="true">E<\/span>[\s\S]*?<span class="category-name">\(學生使用\)<br>Edmund Sir<br>Writing 交文系統<\/span>/,
+  "Writing Submission card must use the requested three-line label and original parchment decorations"
 );
 
 assert.match(modelEssayHtml, /assets\/model-essays\/essay-cover\.webp/);

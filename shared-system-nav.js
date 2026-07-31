@@ -5,6 +5,7 @@
   const SYSTEMS = Object.freeze([
     { id: "flashcards", href: "flashcards.html", zh: "Flashcard 學習卡", en: "Flashcard System" },
     { id: "writing", href: "writing-practice.html", zh: "英文寫作練習", en: "Writing Practice" },
+    { id: "writing-submission", href: "writing-submission.html", zh: "Edmund Sir Writing 交文", en: "Writing Submission" },
     { id: "speaking", href: "speaking-system.html", zh: "Speaking 說話練習", en: "Speaking System" },
     { id: "sentence", href: "sentence-structure.html", zh: "句子結構", en: "Sentence Structure" },
     { id: "idioms", href: "idiom-system.html", zh: "英文慣用語", en: "Idiom Learning" },
@@ -16,6 +17,7 @@
 
   const SESSION_KEYS = Object.freeze({
     flashcards: "edmundFlashcardSession",
+    "writing-submission": "edmund-writing-submission-session-v1",
     speaking: "edmundSpeakingSessionV1",
     sentence: "edmund-sentence-structure-session-v1",
     idioms: "edmund-idiom-system-session-v1",
@@ -70,6 +72,12 @@
           token: String(value.sessionToken), id: String(value.id || ""), name: String(value.name), role: "student"
         };
       },
+      "writing-submission"() {
+        const value = storageJson(storage, SESSION_KEYS["writing-submission"]);
+        return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
+          ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
+          : null;
+      },
       speaking() {
         const value = storageJson(storage, SESSION_KEYS.speaking);
         return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
@@ -118,7 +126,7 @@
     if (universal?.role === "student" && universal.token && universal.name) return universal;
     const active = candidates[activeSystem]?.();
     if (active) return active;
-    return candidates.flashcards() || candidates.speaking() || candidates.sentence() || candidates.idioms() || candidates.proverbs() || candidates["phrasal-verbs"]() || candidates.schedule() || candidates.downloads() || null;
+    return candidates.flashcards() || candidates["writing-submission"]() || candidates.speaking() || candidates.sentence() || candidates.idioms() || candidates.proverbs() || candidates["phrasal-verbs"]() || candidates.schedule() || candidates.downloads() || null;
   }
 
   function rememberStudentSession(value) {
@@ -175,6 +183,12 @@
       }
     }
 
+    writeStudentSession(storage, SESSION_KEYS["writing-submission"], {
+      token: universal.token,
+      id: universal.id,
+      name: universal.name,
+      role: "student"
+    }, overwrite);
     writeStudentSession(storage, SESSION_KEYS.speaking, {
       token: universal.token,
       id: universal.id,

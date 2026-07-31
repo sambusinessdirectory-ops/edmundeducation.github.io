@@ -1,0 +1,31 @@
+{
+  "package": "harper.js",
+  "version": "2.7.0",
+  "variant": "slim",
+  "license": "Apache-2.0",
+  "source": "https://registry.npmjs.org/harper.js/-/harper.js-2.7.0.tgz",
+  "npmIntegrity": "sha512-INDnUMNJvQzv5Zv9lhgGuIRYNIpDvOXcieCbo5ED/dwn8V/02zVW5kKvU6jSJJHq1MpY0VDyg+5RjE7z5D+FeA==",
+  "npmShasum": "2f087c2c620bbf4b74fa291ed3ac3a7688cb36fa",
+  "files": {
+    "index.js": {
+      "sha256": "8332e02000e07fa6625765c3f3de6d75787181586fd6d4a607b1d263af42e926",
+      "bytes": 152404
+    },
+    "BinaryModule-Aj1vLnwf.js": {
+      "sha256": "e7d39bb29884349a0f629813f9b317d631edb7963fda2d9c9ac5b9c8a2e8829c",
+      "bytes": 97063
+    },
+    "slimBinary.js": {
+      "sha256": "8c606483e2d41e272ed47edce6d4ba1f38296ae2f3a938088ad680d61cbef3ac",
+      "bytes": 257
+    },
+    "harper_wasm_slim_bg.wasm": {
+      "sha256": "0251393c6a85396059e7798c0188c97ee0393a0e2e1adba538b65592e955a2c0",
+      "bytes": 15634488
+    },
+    "LICENSE": {
+      "sha256": "516659b5ebca507444fa0fc6ed97a01863ce081c2a04771c6f0cd7befcef1008",
+      "bytes": 11343
+    }
+  }
+}

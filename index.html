@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Edmund 英文學習平台</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
-  <meta name="description" content="EdmundEducation 英文學習平台：DSE、IELTS、CRE 英文課程、學習卡、寫作、說話、句子結構、教材下載及功課溫習安排。">
+  <meta name="description" content="EdmundEducation 英文學習平台：DSE、IELTS、CRE 英文課程、學習卡、寫作、交文及文法檢查、說話、句子結構、教材下載及功課溫習安排。">
   <meta name="theme-color" content="#20283d">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1295,6 +1295,146 @@
       line-height: 1.14;
     }
 
+    .writing-submission-card {
+      --category-key-lip: #6d4323;
+      --category-key-shadow: rgba(70, 38, 18, .30);
+      padding: clamp(20px, 1.5vw, 26px) clamp(82px, 5.8vw, 104px) clamp(20px, 1.5vw, 26px) clamp(28px, 2vw, 38px);
+      overflow: hidden;
+      color: #442719;
+      border-color: rgba(110, 68, 31, .42);
+      border-radius: 20px 30px 30px 20px;
+      background:
+        repeating-linear-gradient(16deg, rgba(255,255,255,.025) 0 2px, rgba(47,20,8,.035) 2px 5px),
+        linear-gradient(135deg, #8d582f, #5a2f19);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,.38),
+        inset 0 -8px 0 rgba(49,22,10,.30),
+        0 8px 0 #6d4323,
+        0 22px 34px rgba(70,38,18,.27);
+    }
+
+    .writing-submission-card::before {
+      z-index: 9;
+      color: rgba(255,239,199,.72);
+      text-shadow: 0 2px 0 rgba(55,25,11,.55);
+    }
+
+    .writing-submission-card:hover,
+    .writing-submission-card:focus-visible {
+      background:
+        repeating-linear-gradient(16deg, rgba(255,255,255,.045) 0 2px, rgba(47,20,8,.04) 2px 5px),
+        linear-gradient(135deg, #9b6539, #67351c);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,.46),
+        inset 0 -8px 0 rgba(49,22,10,.32),
+        0 12px 0 #6d4323,
+        0 30px 46px rgba(70,38,18,.34);
+    }
+
+    .writing-submission-scroll,
+    .writing-submission-quill,
+    .writing-submission-seal {
+      position: absolute;
+      pointer-events: none;
+    }
+
+    .writing-submission-scroll {
+      inset: 12px 58px 13px 12px;
+      z-index: 0;
+      border: 1px solid rgba(120,77,36,.36);
+      border-radius: 14px 26px 26px 14px;
+      background:
+        repeating-linear-gradient(0deg, transparent 0 19px, rgba(132,91,43,.045) 20px),
+        radial-gradient(circle at 46% 36%, rgba(255,255,255,.78), transparent 54%),
+        linear-gradient(135deg, #fff5d6 0%, #f0d399 62%, #cf9f63 100%);
+      box-shadow:
+        inset 0 0 20px rgba(112,65,22,.17),
+        0 8px 18px rgba(43,20,8,.25);
+    }
+
+    .writing-submission-scroll::before,
+    .writing-submission-scroll::after {
+      content: "";
+      position: absolute;
+      top: -5px;
+      bottom: -5px;
+      width: 18px;
+      border: 1px solid rgba(105,63,27,.32);
+      border-radius: 50%;
+      background: linear-gradient(90deg, #ba844c, #f0cc89 48%, #9b632e);
+      box-shadow: inset 0 0 5px rgba(73,36,12,.28);
+    }
+
+    .writing-submission-scroll::before { left: -7px; }
+    .writing-submission-scroll::after { right: -7px; }
+
+    .writing-submission-quill {
+      z-index: 6;
+      top: 25px;
+      right: 30px;
+      width: 7px;
+      height: 118px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #7b3d13, #f5c86b 45%, #8c4a1c);
+      box-shadow: 0 3px 9px rgba(64,29,10,.34);
+      transform: rotate(24deg);
+      transform-origin: bottom center;
+    }
+
+    .writing-submission-quill::before {
+      content: "";
+      position: absolute;
+      left: -29px;
+      top: -34px;
+      width: 64px;
+      height: 93px;
+      clip-path: polygon(50% 0, 87% 12%, 100% 34%, 78% 32%, 95% 48%, 70% 45%, 86% 62%, 61% 57%, 70% 78%, 49% 64%, 26% 83%, 35% 56%, 9% 68%, 28% 43%, 0 42%, 29% 27%, 11% 21%);
+      background: linear-gradient(125deg, #fffdf3 0%, #ead4a5 56%, #bd7e3a 100%);
+      filter: drop-shadow(0 4px 5px rgba(56,25,9,.22));
+    }
+
+    .writing-submission-quill::after {
+      content: "";
+      position: absolute;
+      left: -7px;
+      bottom: -25px;
+      width: 21px;
+      height: 31px;
+      clip-path: polygon(50% 100%, 0 27%, 27% 0, 73% 0, 100% 27%);
+      background: linear-gradient(90deg, #71411f, #f2c36a 50%, #75401b);
+    }
+
+    .writing-submission-seal {
+      right: clamp(22px, 1.7vw, 31px);
+      bottom: clamp(18px, 1.35vw, 25px);
+      z-index: 8;
+      width: clamp(39px, 3vw, 50px);
+      height: clamp(39px, 3vw, 50px);
+      border: 4px double rgba(255,188,167,.42);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: rgba(255,226,211,.74);
+      background: radial-gradient(circle at 35% 28%, #d86756 0%, #9b211f 48%, #5a0b12 100%);
+      box-shadow: inset 0 0 0 2px rgba(84,7,12,.35), 0 5px 9px rgba(63,19,12,.34);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(16px, 1.25vw, 22px);
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .writing-submission-card .category-name {
+      z-index: 5;
+      width: min(100%, 230px);
+      margin-top: clamp(36px, 3vw, 52px);
+      color: #452719;
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      font-size: clamp(18px, 1.14vw, 23px);
+      line-height: 1.12;
+      letter-spacing: .012em;
+      text-shadow: 0 1px 0 rgba(255,255,255,.62);
+    }
+
     .speaking-system-card {
       --category-key-lip: #5136a7;
       --category-key-shadow: rgba(56,45,139,0.30);
@@ -2097,6 +2237,13 @@
 
         <a class="category schedule-system-card" href="schedule-system.html" aria-label="(學生使用) 功課及溫習安排系統">
           <span class="category-name"><span class="schedule-card-first-line">(學生使用) 功課及溫習</span><br>安排系統</span>
+        </a>
+
+        <a class="category writing-submission-card" href="writing-submission.html" aria-label="(學生使用) Edmund Sir Writing 交文系統">
+          <span class="writing-submission-scroll" aria-hidden="true"></span>
+          <span class="writing-submission-quill" aria-hidden="true"></span>
+          <span class="writing-submission-seal" aria-hidden="true">E</span>
+          <span class="category-name">(學生使用)<br>Edmund Sir<br>Writing 交文系統</span>
         </a>
 
         <a class="category speaking-system-card" href="speaking-system.html" aria-label="(學生使用) Speaking 說話練習系統">

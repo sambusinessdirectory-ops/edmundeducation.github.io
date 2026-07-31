@@ -71,8 +71,16 @@ jobs:
           node tools/test-schedule-clipboard.mjs
           node tools/test-schedule-system.mjs
 
-      - name: Validate PWA, mobile icons, and brand metadata
-        run: node tools/test-pwa-and-brand-metadata.mjs
+      - name: Validate PWA, shared portal navigation, mobile icons, and brand metadata
+        run: |
+          node tools/test-shared-system-nav.mjs
+          node tools/test-pwa-and-brand-metadata.mjs
+
+      - name: Validate Writing Submission portal and self-hosted grammar engine
+        run: |
+          node tools/test-writing-submission-portal.mjs
+          node tools/test-writing-submission-harper-vendor.mjs
+          node tools/test-writing-submission-harper.mjs
 
       - name: Prepare site files
         run: |

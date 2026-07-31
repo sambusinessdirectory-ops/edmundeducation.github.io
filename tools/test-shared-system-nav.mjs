@@ -57,6 +57,7 @@ test("shared student login safely bridges every Flashcard-token portal", () => {
   }), true);
 
   assert.equal(read(sessionStorage, "edmundSpeakingSessionV1").token, "11111111-1111-4111-8111-111111111111");
+  assert.equal(read(sessionStorage, "edmund-writing-submission-session-v1").token, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmund-sentence-structure-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-idiom-system-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-proverb-system-session-v1").name, "Student One");
@@ -115,6 +116,7 @@ test("student logout removes the universal and app-specific browser sessions", (
   [
     "edmund-universal-student-session-v1",
     "edmundFlashcardSession",
+    "edmund-writing-submission-session-v1",
     "edmundSpeakingSessionV1",
     "edmund-sentence-structure-session-v1",
     "edmund-idiom-system-session-v1",
@@ -130,6 +132,7 @@ test("student bridging and logout never overwrite active admin sessions", () => 
   const { api, localStorage, sessionStorage } = navigationRuntime();
   const adminSessions = {
     edmundFlashcardSession: { name: "Student Preview", role: "student", impersonatedByAdmin: true },
+    "edmund-writing-submission-session-v1": { name: "Submission Admin", role: "admin", token: "admin-submission" },
     edmundSpeakingSessionV1: { name: "Speaking Admin", role: "admin", token: "admin-speaking" },
     "edmund-sentence-structure-session-v1": { name: "Sentence Admin", role: "admin", token: "admin-sentence" },
     "edmund-idiom-system-session-v1": { name: "Idiom Admin", role: "admin", token: "admin-idiom" },
@@ -153,10 +156,11 @@ test("student bridging and logout never overwrite active admin sessions", () => 
   assert.deepEqual(read(localStorage, "edmundWritingSession"), { name: "Writing Preview", role: "student", impersonatedByAdmin: true });
 });
 
-test("all nine student portals load the shared accessible switcher", () => {
+test("all ten student portals load the shared accessible switcher", () => {
   const pages = {
     "flashcards.html": "flashcards",
     "writing-practice.html": "writing",
+    "writing-submission.html": "writing-submission",
     "speaking-system.html": "speaking",
     "sentence-structure.html": "sentence",
     "idiom-system.html": "idioms",
@@ -179,6 +183,7 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
   assert.deepEqual(Array.from(api.systems, system => system.href), [
     "flashcards.html",
     "writing-practice.html",
+    "writing-submission.html",
     "speaking-system.html",
     "sentence-structure.html",
     "idiom-system.html",
@@ -206,6 +211,8 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
   assert.match(scriptSource, /aria-current="page"/);
   assert.doesNotMatch(scriptSource, /target=["']_blank/);
   assert.doesNotMatch(cssSource, /\.edmund-system-switcher:(?:hover|focus-within)\s+\.edmund-system-switcher__menu/, "closed click and Escape state must not be overridden by CSS focus/hover selectors");
+  assert.match(cssSource, /max-height:\s*min\(78vh,\s*690px\)/, "the ten-link menu must fit small screens");
+  assert.match(cssSource, /overflow-y:\s*auto/, "the ten-link menu must scroll when needed");
 });
 
 test("Writing Practice exchanges the shared token without handling a password again", () => {

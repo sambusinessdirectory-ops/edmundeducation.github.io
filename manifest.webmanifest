@@ -53,6 +53,12 @@
       "icons": [{ "src": "/assets/icons/icon-192x192.png", "sizes": "192x192" }]
     },
     {
+      "name": "Edmund Sir Writing 交文系統",
+      "short_name": "Writing 交文",
+      "url": "/writing-submission.html?source=pwa-shortcut",
+      "icons": [{ "src": "/assets/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
       "name": "功課及溫習安排",
       "short_name": "溫習安排",
       "url": "/schedule-system.html?source=pwa-shortcut",

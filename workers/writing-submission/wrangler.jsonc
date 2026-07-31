@@ -1,0 +1,38 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "edmund-writing-submission",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-31",
+  "workers_dev": true,
+  "preview_urls": false,
+  "ratelimits": [
+    {
+      "name": "ADMIN_LOGIN_RATE_LIMITER",
+      "namespace_id": "914072060",
+      "simple": {
+        "limit": 5,
+        "period": 60
+      }
+    },
+    {
+      "name": "SUBMISSION_WRITE_RATE_LIMITER",
+      "namespace_id": "914072061",
+      "simple": {
+        "limit": 10,
+        "period": 60
+      }
+    },
+    {
+      "name": "GRAMMAR_WRITE_RATE_LIMITER",
+      "namespace_id": "914072062",
+      "simple": {
+        "limit": 60,
+        "period": 60
+      }
+    }
+  ],
+  "vars": {
+    "ALLOWED_ORIGINS": "https://edmundeducation.com,https://www.edmundeducation.com,https://edmundeducation.github.io",
+    "SUPABASE_URL": "https://ookkxzgpdclzrrhfmvqx.supabase.co"
+  }
+}

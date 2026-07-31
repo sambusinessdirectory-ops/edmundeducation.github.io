@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 學生 Writing 交文及即時文法檢查系統">
+  <meta name="theme-color" content="#272757">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-writing-submission.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self' blob:; base-uri 'self'; form-action 'self'">
+  <title>Edmund Sir Writing 交文系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/writing-submission.html">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
+  <link rel="stylesheet" href="writing-submission.css?v=20260731-1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
+</head>
+<body>
+  <a class="skip-link" href="#writing-submission-main">跳至主要內容</a>
+
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="writing-submission">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy">
+            <strong>EdmundEducation</strong>
+            <small>Writing Submission System</small>
+          </span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="header-actions edmund-system-header__actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-workspace-button hidden>交文首頁</button>
+        <button class="header-button" type="button" data-submissions-button hidden>我的文章</button>
+        <button class="header-button" type="button" data-grammar-log-button hidden>文法問題記錄</button>
+        <button class="header-button" type="button" data-admin-button hidden>學生文章</button>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-shell" id="writing-submission-main">
+    <section class="view" data-view="login">
+      <div class="login-layout">
+        <article class="login-hero glass-panel">
+          <div class="night-orbit night-orbit-one" aria-hidden="true"></div>
+          <div class="night-orbit night-orbit-two" aria-hidden="true"></div>
+          <div class="hero-parchment" aria-hidden="true">
+            <span class="hero-quill"></span>
+            <span class="hero-seal">E</span>
+            <span class="hero-ink-line hero-ink-line-one"></span>
+            <span class="hero-ink-line hero-ink-line-two"></span>
+            <span class="hero-ink-line hero-ink-line-three"></span>
+          </div>
+          <div class="hero-copy">
+            <p class="student-label">(學生使用)</p>
+            <h1>Edmund Sir<br><span>Writing</span><br>交文系統</h1>
+            <p>安靜地完成文章；每當一句以句號或分號完成，本機文法助手才會檢查該句，讓寫作思路不被打斷。</p>
+          </div>
+        </article>
+
+        <section class="login-panel glass-panel" aria-labelledby="login-title">
+          <div class="login-heading">
+            <span class="section-number">01</span>
+            <div>
+              <p class="eyebrow">STUDENT / ADMIN LOGIN</p>
+              <h2 id="login-title">登入交文系統</h2>
+              <p>使用 Flashcard、寫作練習或其他學生系統的同一個帳戶登入。</p>
+            </div>
+          </div>
+          <form class="login-form" data-login-form novalidate>
+            <label class="field">
+              <span>用戶名稱</span>
+              <input id="writing-submission-username" name="username" type="text" autocomplete="username" maxlength="100" required placeholder="輸入用戶名稱">
+            </label>
+            <label class="field">
+              <span>密碼</span>
+              <span class="password-field">
+                <input id="writing-submission-password" name="password" type="password" autocomplete="current-password" maxlength="200" required placeholder="輸入密碼">
+                <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
+              </span>
+            </label>
+            <p class="form-status" data-login-status role="status" aria-live="polite"></p>
+            <button class="primary-button login-button" type="submit" data-login-button>登入並開始寫作</button>
+          </form>
+          <p class="account-note">學生帳戶由 EdmundEducation 統一管理；本頁不會建立另一組密碼。</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="view" data-view="workspace" hidden>
+      <section class="workspace-hero glass-panel">
+        <div>
+          <p class="eyebrow">FOCUS · WRITE · REVIEW</p>
+          <h1>Edmund Sir Writing 交文系統</h1>
+          <p data-workspace-welcome>先輸入寫作題目，再專心完成文章。</p>
+        </div>
+        <div class="local-checker-pill" data-harper-status data-state="loading">
+          <span aria-hidden="true"></span>
+          <strong>正在準備本機文法檢查</strong>
+          <small>文章不會為了檢查而傳送到外部 AI</small>
+        </div>
+      </section>
+
+      <form class="writing-form" data-writing-form novalidate>
+        <section class="prompt-panel glass-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">WRITING TOPIC</p>
+              <h2>寫作題目</h2>
+            </div>
+            <span class="draft-state" data-draft-state>尚未提交</span>
+          </div>
+          <label class="writing-field">
+            <span class="sr-only">寫作題目</span>
+            <textarea data-topic-input rows="3" maxlength="4000" placeholder="請在這裡輸入寫作題目……"></textarea>
+          </label>
+        </section>
+
+        <div class="writing-layout">
+          <section class="editor-panel glass-panel">
+            <div class="section-heading editor-heading">
+              <div>
+                <p class="eyebrow">WRITING AREA</p>
+                <h2>文章內容</h2>
+              </div>
+              <div class="editor-metrics" aria-live="polite">
+                <strong data-word-count>0</strong>
+                <span>words</span>
+              </div>
+            </div>
+            <label class="writing-field writing-field-main">
+              <span class="sr-only">文章內容</span>
+              <textarea data-writing-input rows="15" maxlength="100000" spellcheck="true" placeholder="請在這裡開始寫作。文法檢查只會在您輸入句號（.）或分號（;）完成一句後開始。"></textarea>
+            </label>
+            <div class="editor-note">
+              <span aria-hidden="true">✦</span>
+              <p>完成一句後才檢查：系統不會在您仍然構思或輸入句子時打斷您。</p>
+            </div>
+            <p class="form-status submission-status" data-submission-status role="status" aria-live="polite"></p>
+            <button class="primary-button submit-writing-button" type="submit" data-submit-writing>提交文章</button>
+          </section>
+
+          <aside class="grammar-panel glass-panel" aria-labelledby="grammar-panel-title">
+            <div class="grammar-panel-heading">
+              <div>
+                <p class="eyebrow">LOCAL GRAMMAR REVIEW</p>
+                <h2 id="grammar-panel-title">文法建議</h2>
+              </div>
+              <span class="issue-count" data-issue-count>0</span>
+            </div>
+            <p class="grammar-intro">Harper 只提供基本文法檢查；只有已用句號或分號完成的句子會顯示在這裡。</p>
+            <div class="grammar-list" data-grammar-list aria-live="polite">
+              <div class="grammar-empty">
+                <span aria-hidden="true">✓</span>
+                <strong>等待完整句子</strong>
+                <p>完成一句後，文法建議會自動出現。</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </form>
+    </section>
+
+    <section class="view" data-view="submissions" hidden>
+      <section class="utility-hero glass-panel">
+        <div>
+          <p class="eyebrow">MY WRITING ARCHIVE</p>
+          <h1>我的文章</h1>
+          <p>所有已提交文章都會跟隨您的學生帳戶保存。</p>
+        </div>
+        <button class="secondary-button" type="button" data-new-writing>＋ 新文章</button>
+      </section>
+      <div class="archive-layout">
+        <section class="archive-list-panel glass-panel">
+          <div class="section-heading">
+            <div><p class="eyebrow">SUBMISSIONS</p><h2>提交記錄</h2></div>
+            <button class="small-button" type="button" data-refresh-submissions>重新整理</button>
+          </div>
+          <div class="submission-list" data-submission-list></div>
+        </section>
+        <article class="submission-detail glass-panel" data-submission-detail>
+          <div class="utility-empty"><span aria-hidden="true">✎</span><h2>選擇一篇文章</h2><p>寫作題目和文章內容會在這裡顯示。</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" data-view="grammar-log" hidden>
+      <section class="utility-hero glass-panel">
+        <div>
+          <p class="eyebrow">PERSONAL GRAMMAR PATTERNS</p>
+          <h1>我的文法問題記錄</h1>
+          <p>即使您已套用建議，系統仍會保留曾經出現過的文法問題種類，幫助您日後針對性溫習。</p>
+        </div>
+        <button class="small-button" type="button" data-refresh-grammar-log>重新整理</button>
+      </section>
+      <section class="grammar-summary-panel glass-panel">
+        <div class="grammar-summary-metrics">
+          <article><strong data-unique-rule-count>0</strong><span>種獨特問題</span></article>
+          <article><strong data-total-issue-count>0</strong><span>次問題記錄</span></article>
+        </div>
+        <div class="grammar-summary-list" data-grammar-summary-list></div>
+      </section>
+    </section>
+
+    <section class="view" data-view="admin" hidden>
+      <section class="utility-hero glass-panel">
+        <div>
+          <p class="eyebrow">ADMIN WRITING ARCHIVE</p>
+          <h1>學生文章</h1>
+          <p>查看學生使用共用 EdmundEducation 帳戶提交的文章。</p>
+        </div>
+        <label class="admin-search"><span>搜尋學生或題目</span><input type="search" data-admin-search placeholder="輸入學生名稱或題目"></label>
+      </section>
+      <div class="archive-layout">
+        <section class="archive-list-panel glass-panel">
+          <div class="section-heading"><div><p class="eyebrow">STUDENT SUBMISSIONS</p><h2>提交記錄</h2></div><span class="count-badge" data-admin-count>0</span></div>
+          <div class="submission-list" data-admin-list></div>
+        </section>
+        <article class="submission-detail glass-panel" data-admin-detail>
+          <div class="utility-empty"><span aria-hidden="true">→</span><h2>選擇一篇學生文章</h2><p>完整題目和文章會在這裡顯示。</p></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="writing-submission-config.js"></script>
+  <script src="shared-system-nav.js?v=20260728-2"></script>
+  <script type="module" src="writing-submission.js?v=20260731-1"></script>
+</body>
+</html>

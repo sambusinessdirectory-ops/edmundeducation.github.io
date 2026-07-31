@@ -31,7 +31,8 @@ const htmlPages = [
   "sentence-structure.html",
   "speaking-system.html",
   "vs.html",
-  "writing-practice.html"
+  "writing-practice.html",
+  "writing-submission.html"
 ];
 
 function pngSize(buffer) {
@@ -94,6 +95,10 @@ test("the manifest is installable and has safe Android and Apple artwork", async
   assert.ok(manifest.name && manifest.short_name && manifest.description);
   assert.deepEqual(manifest.categories, ["education", "productivity"]);
   assert.ok(manifest.shortcuts.length >= 5);
+  assert.ok(
+    manifest.shortcuts.some(({ url }) => url === "/writing-submission.html?source=pwa-shortcut"),
+    "Writing Submission must be available from installed-app shortcuts"
+  );
 
   const expectedManifestIcons = new Map([
     ["/assets/icons/icon-192x192.png", { width: 192, height: 192, purpose: "any" }],
@@ -141,7 +146,12 @@ test("the service worker is a small privacy-safe offline shell", async () => {
   assert.match(worker, /fetch\(request, \{ cache: "no-store" \}\)\.catch\(\(\) => caches\.match\("\/pwa-register\.js"\)\)/);
   assert.match(worker, /name\.startsWith\(CACHE_PREFIX\)/);
   assert.match(worker, /SKIP_WAITING/);
-  assert.doesNotMatch(worker, /cache\.put\(/, "runtime pages and student responses must never be cached");
+  assert.equal(
+    (worker.match(/cache\.put\(/g) || []).length,
+    1,
+    "only the immutable, same-origin Harper runtime may use runtime caching"
+  );
+  assert.match(worker, /if \(url\.pathname\.startsWith\(HARPER_PATH_PREFIX\)\)[\s\S]*cache\.put\(request, response\.clone\(\)\)/);
   assert.doesNotMatch(worker, /supabase|workers\.dev|r2\.dev|\.pdf|\.zip|\.mp3|\.wav|recording/i);
 
   const shellBlock = worker.match(/const SHELL_URLS = \[([\s\S]*?)\];/)?.[1] || "";
