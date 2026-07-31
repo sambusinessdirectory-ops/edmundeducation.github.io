@@ -89,6 +89,7 @@ test("Harper is self-hosted and cached as an immutable versioned runtime", () =>
   assert.match(html, /Harper 只作額外校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /文法提示（測試版）/);
+  assert.match(html, /writing-submission\.css\?v=20260731-3/);
   assert.match(html, /writing-submission\.js\?v=20260731-3/);
   assert.match(script, /writing-submission-harper\.js\?v=20260731-3/);
   assert.match(script, /暫未偵測到現有規則可識別的問題/);
