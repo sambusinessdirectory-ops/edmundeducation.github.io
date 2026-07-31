@@ -24,6 +24,17 @@ function limiter(success = true) {
   };
 }
 
+function aiBinding(result = { response: { issues: [] } }) {
+  return {
+    calls: [],
+    async run(model, request) {
+      this.calls.push({ model, request });
+      if (result instanceof Error) throw result;
+      return typeof result === "function" ? result(model, request) : result;
+    }
+  };
+}
+
 function environment(overrides = {}) {
   return {
     ALLOWED_ORIGINS: ORIGIN,
@@ -32,6 +43,8 @@ function environment(overrides = {}) {
     ADMIN_LOGIN_RATE_LIMITER: limiter(),
     SUBMISSION_WRITE_RATE_LIMITER: limiter(),
     GRAMMAR_WRITE_RATE_LIMITER: limiter(),
+    GRAMMAR_CHECK_RATE_LIMITER: limiter(),
+    AI: aiBinding(),
     ...overrides
   };
 }
@@ -83,13 +96,63 @@ function occurrence(overrides = {}) {
   };
 }
 
-test("health fails closed unless every security binding is configured", async () => {
+function grammarAiIssue(overrides = {}) {
+  return {
+    category: "subject_verb_agreement",
+    originalText: "need",
+    replacementText: "needs",
+    occurrence: 1,
+    explanationZhHant: "Tommy 是第三身單數，現在式動詞要加 s。",
+    confidence: 0.98,
+    ...overrides
+  };
+}
+
+function grammarCheckRequest(sentence, overrides = {}) {
+  return new Request("https://worker.example/v1/grammar-check", {
+    method: "POST",
+    headers: {
+      Origin: ORIGIN,
+      Authorization: `Bearer ${STUDENT_TOKEN}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ sentence }),
+    ...overrides
+  });
+}
+
+test("health keeps the core service independent and reports grammar AI readiness separately", async () => {
   const complete = await worker.fetch(
     new Request("https://worker.example/v1/health"),
     environment()
   );
   assert.equal(complete.status, 200);
-  assert.equal((await complete.json()).ok, true);
+  const completeBody = await complete.json();
+  assert.equal(completeBody.ok, true);
+  assert.equal(completeBody.grammarAi.configured, true);
+  assert.equal(completeBody.rateLimiters.grammarCheck, true);
+
+  const noAi = environment();
+  delete noAi.AI;
+  const noAiResponse = await worker.fetch(
+    new Request("https://worker.example/v1/health"),
+    noAi
+  );
+  assert.equal(noAiResponse.status, 200);
+  const noAiBody = await noAiResponse.json();
+  assert.equal(noAiBody.ok, true);
+  assert.equal(noAiBody.grammarAi.configured, false);
+
+  const noGrammarCheckLimiter = environment();
+  delete noGrammarCheckLimiter.GRAMMAR_CHECK_RATE_LIMITER;
+  const noLimiterResponse = await worker.fetch(
+    new Request("https://worker.example/v1/health"),
+    noGrammarCheckLimiter
+  );
+  assert.equal(noLimiterResponse.status, 200);
+  const noLimiterBody = await noLimiterResponse.json();
+  assert.equal(noLimiterBody.ok, true);
+  assert.equal(noLimiterBody.rateLimiters.grammarCheck, false);
 
   const missing = environment();
   delete missing.GRAMMAR_WRITE_RATE_LIMITER;
@@ -99,6 +162,25 @@ test("health fails closed unless every security binding is configured", async ()
   );
   assert.equal(incomplete.status, 503);
   assert.equal((await incomplete.json()).ok, false);
+});
+
+test("missing grammar AI bindings do not disable existing writing service routes", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const env = environment();
+  delete env.AI;
+  delete env.GRAMMAR_CHECK_RATE_LIMITER;
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/student/me",
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
+  ), env);
+  assert.equal(response.status, 200);
+  assert.equal((await response.json()).student.id, STUDENT_ID);
 });
 
 test("protected routes enforce the exact configured origin before Supabase", async t => {
@@ -140,6 +222,271 @@ test("Supabase server credentials are trimmed before becoming HTTP headers", asy
   }), env);
   assert.equal(response.status, 401);
   assert.equal((await response.json()).code, "STUDENT_AUTH_REQUIRED");
+});
+
+test("authenticated grammar checking returns three normalized issues for the Tommy sentence", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tommy need book to reading better.";
+  const ai = aiBinding({
+    response: {
+      issues: [
+        grammarAiIssue(),
+        grammarAiIssue({
+          category: "article_or_determiner",
+          originalText: "book",
+          replacementText: "a book",
+          explanationZhHant: "book 是單數可數名詞，這裡需要冠詞 a。",
+          confidence: 0.97
+        }),
+        grammarAiIssue({
+          category: "infinitive_or_gerund",
+          originalText: "reading",
+          replacementText: "read",
+          explanationZhHant: "to 後面要用動詞原形，所以用 read。",
+          confidence: 0.96
+        })
+      ]
+    }
+  });
+  const checkLimiter = limiter();
+  const response = await worker.fetch(
+    grammarCheckRequest(sentence),
+    environment({ AI: ai, GRAMMAR_CHECK_RATE_LIMITER: checkLimiter })
+  );
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.equal(body.engine.name, "cloudflare-workers-ai");
+  assert.equal(body.engine.model, "@cf/meta/llama-3.1-8b-instruct-fast");
+  assert.deepEqual(body.issues.map((issue) => issue.originalText), ["need", "book", "reading"]);
+  assert.deepEqual(body.issues.map((issue) => issue.suggestedText), ["needs", "a book", "read"]);
+  assert.equal(body.issues[0].correctedSentence, "Tommy needs book to reading better.");
+  assert.equal(body.issues[1].correctedSentence, "Tommy need a book to reading better.");
+  assert.equal(body.issues[2].correctedSentence, "Tommy need book to read better.");
+  assert.equal(ai.calls.length, 1);
+  assert.equal(ai.calls[0].model, "@cf/meta/llama-3.1-8b-instruct-fast");
+  assert.equal(ai.calls[0].request.temperature, 0);
+  assert.equal(ai.calls[0].request.response_format.type, "json_schema");
+  assert.deepEqual(checkLimiter.calls, [{ key: `writing-submission-grammar-check:${STUDENT_ID}` }]);
+  assert.equal(response.headers.get("Cache-Control"), "no-store");
+});
+
+test("a grammatically acceptable control returns an empty issue list without storage", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let rpcCount = 0;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    rpcCount += 1;
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const ai = aiBinding({ response: { issues: [] } });
+  const response = await worker.fetch(
+    grammarCheckRequest("Tommy needs a book to read better."),
+    environment({ AI: ai })
+  );
+  assert.equal(response.status, 200);
+  assert.deepEqual((await response.json()).issues, []);
+  assert.equal(ai.calls.length, 1);
+  assert.equal(rpcCount, 1, "grammar checking must authenticate but must not write to storage");
+});
+
+test("grammar checking enforces origin, authentication and rate limits before AI", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+
+  const originAi = aiBinding();
+  let upstreamCalls = 0;
+  globalThis.fetch = async () => {
+    upstreamCalls += 1;
+    throw new Error("must not be called for a rejected origin");
+  };
+  const badOrigin = await worker.fetch(
+    grammarCheckRequest("Tommy need book.", {
+      headers: {
+        Origin: BAD_ORIGIN,
+        Authorization: `Bearer ${STUDENT_TOKEN}`,
+        "Content-Type": "application/json"
+      }
+    }),
+    environment({ AI: originAi })
+  );
+  assert.equal(badOrigin.status, 403);
+  assert.equal(originAi.calls.length, 0);
+  assert.equal(upstreamCalls, 0);
+
+  const authAi = aiBinding();
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    assert.equal(rpc.name, "writing_submission_student_profile");
+    return jsonResponse([]);
+  };
+  const authLimiter = limiter();
+  const unauthenticated = await worker.fetch(
+    grammarCheckRequest("Tommy need book."),
+    environment({ AI: authAi, GRAMMAR_CHECK_RATE_LIMITER: authLimiter })
+  );
+  assert.equal(unauthenticated.status, 401);
+  assert.equal(authAi.calls.length, 0);
+  assert.equal(authLimiter.calls.length, 0);
+
+  const rateAi = aiBinding();
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    assert.equal(rpc.name, "writing_submission_student_profile");
+    return jsonResponse(studentProfile());
+  };
+  const denied = limiter(false);
+  const rateLimited = await worker.fetch(
+    grammarCheckRequest("Tommy need book."),
+    environment({ AI: rateAi, GRAMMAR_CHECK_RATE_LIMITER: denied })
+  );
+  assert.equal(rateLimited.status, 429);
+  assert.equal((await rateLimited.json()).code, "TOO_MANY_GRAMMAR_CHECKS");
+  assert.deepEqual(denied.calls, [{ key: `writing-submission-grammar-check:${STUDENT_ID}` }]);
+  assert.equal(rateAi.calls.length, 0);
+});
+
+test("grammar check bodies must have the exact shape and a completed sentence", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const ai = aiBinding();
+  const unfinished = await worker.fetch(
+    grammarCheckRequest("Tommy need book"),
+    environment({ AI: ai })
+  );
+  assert.equal(unfinished.status, 400);
+  assert.equal((await unfinished.json()).code, "INVALID_GRAMMAR_CHECK");
+
+  const extraField = await worker.fetch(new Request(
+    "https://worker.example/v1/grammar-check",
+    {
+      method: "POST",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${STUDENT_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ sentence: "Tommy need book.", documentId: SUBMISSION_ID })
+    }
+  ), environment({ AI: ai }));
+  assert.equal(extraField.status, 400);
+  assert.equal((await extraField.json()).code, "INVALID_GRAMMAR_CHECK");
+  assert.equal(ai.calls.length, 0);
+});
+
+test("malformed and hallucinated grammar provider output fails closed", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  const logs = [];
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = (...values) => { logs.push(values.join(" ")); };
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tommy need book.";
+  const malformed = await worker.fetch(
+    grammarCheckRequest(sentence),
+    environment({ AI: aiBinding({ response: "not-json-provider-output" }) })
+  );
+  assert.equal(malformed.status, 503);
+  const malformedBody = await malformed.json();
+  assert.equal(malformedBody.code, "GRAMMAR_CHECK_UNAVAILABLE");
+  assert.equal(JSON.stringify(malformedBody).includes("not-json-provider-output"), false);
+
+  const hallucinated = await worker.fetch(
+    grammarCheckRequest(sentence),
+    environment({ AI: aiBinding({
+      response: {
+        issues: [grammarAiIssue({ originalText: "students", replacementText: "student" })]
+      }
+    }) })
+  );
+  assert.equal(hallucinated.status, 503);
+  assert.equal((await hallucinated.json()).code, "GRAMMAR_CHECK_UNAVAILABLE");
+  assert.equal(logs.some((entry) => entry.includes(sentence)), false);
+  assert.equal(logs.some((entry) => entry.includes("not-json-provider-output")), false);
+});
+
+test("overlapping provider suggestions are deterministically reduced to one safe issue", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const sentence = "Tommy need book.";
+  const ai = aiBinding({
+    response: {
+      issues: [
+        grammarAiIssue({
+          category: "sentence_structure",
+          originalText: "need book",
+          replacementText: "needs a book",
+          explanationZhHant: "第三身單數動詞和單數名詞冠詞需要一併修正。",
+          confidence: 0.99
+        }),
+        grammarAiIssue({ confidence: 0.9 })
+      ]
+    }
+  });
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  assert.equal(response.status, 200);
+  const body = await response.json();
+  assert.equal(body.issues.length, 1);
+  assert.equal(body.issues[0].originalText, "need book");
+  assert.equal(body.issues[0].correctedSentence, "Tommy needs a book.");
+});
+
+test("provider failures return a generic 503 without logging sentence or provider output", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  const logs = [];
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = (...values) => { logs.push(values.join(" ")); };
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const sentence = "Tommy need confidential-book.";
+  const providerError = new Error("provider-output-internal-detail");
+  const response = await worker.fetch(
+    grammarCheckRequest(sentence),
+    environment({ AI: aiBinding(providerError) })
+  );
+  assert.equal(response.status, 503);
+  const body = await response.json();
+  assert.deepEqual(body, {
+    error: "Advanced grammar checking is temporarily unavailable",
+    code: "GRAMMAR_CHECK_UNAVAILABLE"
+  });
+  assert.deepEqual(logs, ["Writing Submission grammar provider failed"]);
+  assert.equal(logs.some((entry) => entry.includes(sentence)), false);
+  assert.equal(logs.some((entry) => entry.includes(providerError.message)), false);
 });
 
 test("a valid submission derives its owner and word count on the Worker", async t => {
@@ -533,11 +880,13 @@ test("administrator list and detail routes use only the dedicated admin token", 
   assert.equal((await detailResponse.json()).submission.answer, "Full answer");
 });
 
-test("the migration keeps tables private and provisioning unavailable to service_role", () => {
-  const migration = fs.readFileSync(
-    new URL("../../../supabase-writing-submission.sql", import.meta.url),
-    "utf8"
-  );
+test("the migration keeps tables private and provisioning unavailable to service_role", t => {
+  const migrationUrl = new URL("../../../supabase-writing-submission.sql", import.meta.url);
+  if (!fs.existsSync(migrationUrl)) {
+    t.skip("the focused Worker staging fixture does not include the repository migration");
+    return;
+  }
+  const migration = fs.readFileSync(migrationUrl, "utf8");
   for (const table of [
     "writing_submission_admin_accounts",
     "writing_submission_admin_sessions",

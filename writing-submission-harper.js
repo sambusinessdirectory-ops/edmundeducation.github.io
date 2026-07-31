@@ -322,13 +322,20 @@ export function createWritingGrammarChecker({
     const source = requireString(text, "text");
     if (!source.trim()) return Object.freeze([]);
     const localIssues = checkLocalLearnerEnglish(source);
-    await setup();
-    const organized = await linter.organizedLints(source, DEFAULT_LINT_OPTIONS);
-    const harperIssues = (await serializeOrganizedHarperLints(source, organized))
-      .filter((issue) => ![
-        "EllipsisLength", "UseEllipsisCharacter"
-      ].includes(issue.ruleId));
-    return mergeGrammarIssues(localIssues, harperIssues);
+    try {
+      await setup();
+      const organized = await linter.organizedLints(source, DEFAULT_LINT_OPTIONS);
+      const harperIssues = (await serializeOrganizedHarperLints(source, organized))
+        .filter((issue) => ![
+          "EllipsisLength", "UseEllipsisCharacter"
+        ].includes(issue.ruleId));
+      return mergeGrammarIssues(localIssues, harperIssues);
+    } catch (error) {
+      // Edmund's deterministic ESL checks do not depend on Harper's WASM
+      // runtime. Keep them available if a browser cannot load Harper.
+      console.warn("Harper unavailable; using local ESL rules", error);
+      return Object.freeze([...localIssues]);
+    }
   }
 
   async function dispose() {

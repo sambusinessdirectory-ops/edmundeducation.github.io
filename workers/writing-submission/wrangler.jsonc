@@ -5,6 +5,9 @@
   "compatibility_date": "2026-07-31",
   "workers_dev": true,
   "preview_urls": false,
+  "ai": {
+    "binding": "AI"
+  },
   "ratelimits": [
     {
       "name": "ADMIN_LOGIN_RATE_LIMITER",
@@ -27,6 +30,14 @@
       "namespace_id": "914072062",
       "simple": {
         "limit": 60,
+        "period": 60
+      }
+    },
+    {
+      "name": "GRAMMAR_CHECK_RATE_LIMITER",
+      "namespace_id": "914072063",
+      "simple": {
+        "limit": 20,
         "period": 60
       }
     }

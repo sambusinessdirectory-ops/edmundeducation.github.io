@@ -18,6 +18,7 @@ const script = fs.readFileSync(path.join(root, "writing-submission.js"), "utf8")
 const config = fs.readFileSync(path.join(root, "writing-submission-config.js"), "utf8");
 const serviceWorker = fs.readFileSync(path.join(root, "service-worker.js"), "utf8");
 const eslRules = fs.readFileSync(path.join(root, "writing-submission-esl-rules.js"), "utf8");
+const aiAdapter = fs.readFileSync(path.join(root, "writing-submission-ai.js"), "utf8");
 
 test("writing grammar checks begin only after newly completed full stops or semicolons", () => {
   assert.deepEqual(newlyCompletedWritingSegments("", "I am still writing"), []);
@@ -82,18 +83,21 @@ test("grammar history and article archives follow the deployed API contract", ()
   assert.match(script, /checkGeneration/);
 });
 
-test("Harper is self-hosted and cached as an immutable versioned runtime", () => {
+test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", () => {
   assert.match(serviceWorker, /HARPER_CACHE_PREFIX\s*=\s*"edmund-vendor-harper-"/);
   assert.match(serviceWorker, /HARPER_CACHE_NAME\s*=\s*"edmund-vendor-harper-2\.7\.0"/);
   assert.match(serviceWorker, /HARPER_PATH_PREFIX\s*=\s*"\/assets\/vendor\/harper\/2\.7\.0\/"/);
-  assert.match(html, /Harper 只作額外校對/);
+  assert.match(html, /AI GRAMMAR REVIEW/);
+  assert.match(html, /只有以句號或分號完成的單句會安全傳送至 Edmund 文法服務/);
+  assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
-  assert.match(html, /文法提示（測試版）/);
-  assert.match(html, /writing-submission\.css\?v=20260731-3/);
-  assert.match(html, /writing-submission\.js\?v=20260731-3/);
-  assert.match(script, /writing-submission-harper\.js\?v=20260731-3/);
-  assert.match(script, /暫未偵測到現有規則可識別的問題/);
-  assert.match(script, /這不代表句子完全正確/);
+  assert.match(html, /AI 文法提示（測試版）/);
+  assert.match(html, /writing-submission\.css\?v=20260731-ai1/);
+  assert.match(html, /writing-submission\.js\?v=20260731-ai1/);
+  assert.match(script, /writing-submission-harper\.js\?v=20260731-ai1/);
+  assert.match(script, /writing-submission-ai\.js\?v=20260731-ai1/);
+  assert.match(script, /暫未偵測到高信心文法問題/);
+  assert.match(script, /AI 及本機工具都可能遺漏問題/);
   assert.match(script, /需老師覆核/);
   assert.match(script, /此項局部修正後（句內仍可能有其他問題）/);
   assert.match(eslRules, /EslModalParallelVerb/);
@@ -103,6 +107,18 @@ test("Harper is self-hosted and cached as an immutable versioned runtime", () =>
   assert.match(html, /script-src 'self' 'wasm-unsafe-eval' https:\/\/cdn\.jsdelivr\.net/);
   assert.match(html, /worker-src 'self' blob:/);
   assert.doesNotMatch(script, /(?:unpkg|esm\.sh|cdn\.jsdelivr)\./i);
+});
+
+test("completed sentences use the authenticated AI endpoint without sending the whole draft", () => {
+  assert.match(script, /apiJson\("\/v1\/grammar-check"/);
+  assert.match(script, /JSON\.stringify\(\{ sentence: record\.segment\.text \}\)/);
+  assert.doesNotMatch(script, /JSON\.stringify\(\{[^}]*topic[^}]*sentence/);
+  assert.match(script, /remoteGrammarInFlight < 2/);
+  assert.match(script, /enqueueSegmentsForCheck\(completedSegments, \{ remote: false \}\)/);
+  assert.match(script, /mergeWritingGrammarIssues/);
+  assert.match(script, /normalizeWritingAiResponse/);
+  assert.match(aiAdapter, /EdmundAI:\$\{categoryId\}/);
+  assert.match(aiAdapter, /cloudflare-workers-ai/);
 });
 
 test("browser configuration contains no administrator password", () => {

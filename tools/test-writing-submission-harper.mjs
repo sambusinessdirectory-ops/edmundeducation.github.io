@@ -233,6 +233,24 @@ function assertNoFunctions(value) {
 }
 assertNoFunctions(issues);
 
+const fallbackChecker = helper.createWritingGrammarChecker({
+  linterFactory: () => ({
+    async setup() { throw new Error("simulated Harper load failure"); },
+    async organizedLints() { throw new Error("must not run"); },
+    async dispose() {}
+  })
+});
+const originalWarn = console.warn;
+console.warn = () => {};
+const fallbackIssues = await fallbackChecker.check(screenshotFirstSentence);
+console.warn = originalWarn;
+assert.deepEqual(
+  fallbackIssues.map((issue) => issue.ruleId),
+  ["EslPluralAfterQuantifier", "EslRequireObjectInfinitive"],
+  "Edmund ESL rules must keep working when Harper cannot load"
+);
+await fallbackChecker.dispose();
+
 await checker.dispose();
 await assert.rejects(() => checker.setup(), /disposed/u);
 

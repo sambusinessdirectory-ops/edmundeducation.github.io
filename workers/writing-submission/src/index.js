@@ -1,9 +1,18 @@
+import {
+  GRAMMAR_AI_ENGINE,
+  GRAMMAR_AI_MODEL,
+  grammarAiConfigured,
+  normalizeGrammarCheckPayload,
+  runGrammarAi
+} from "./grammar-ai.js";
+
 const SERVICE_NAME = "edmund-writing-submission";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const SHA256_RE = /^[0-9a-f]{64}$/;
 const CONTROL_RE = /[\u0000-\u001f\u007f]/;
 const TEXT_CONTROL_RE = /[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/;
 const MAX_LOGIN_BODY_BYTES = 4096;
+const MAX_GRAMMAR_CHECK_BODY_BYTES = 12 * 1024;
 const MAX_SUBMISSION_BODY_BYTES = 512 * 1024;
 const MAX_ISSUE_BATCH_BODY_BYTES = 512 * 1024;
 const MAX_TOPIC_CHARACTERS = 4000;
@@ -63,7 +72,12 @@ async function route(request, env) {
         rateLimiters: {
           adminLogin: rateLimiterConfigured(env.ADMIN_LOGIN_RATE_LIMITER),
           submissionWrite: rateLimiterConfigured(env.SUBMISSION_WRITE_RATE_LIMITER),
-          grammarWrite: rateLimiterConfigured(env.GRAMMAR_WRITE_RATE_LIMITER)
+          grammarWrite: rateLimiterConfigured(env.GRAMMAR_WRITE_RATE_LIMITER),
+          grammarCheck: rateLimiterConfigured(env.GRAMMAR_CHECK_RATE_LIMITER)
+        },
+        grammarAi: {
+          configured: grammarAiConfigured(env),
+          model: GRAMMAR_AI_MODEL
         }
       },
       configured ? 200 : 503,
@@ -88,6 +102,9 @@ async function route(request, env) {
   }
   if (url.pathname === "/v1/student/me" && request.method === "GET") {
     return studentMe(request, env);
+  }
+  if (url.pathname === "/v1/grammar-check" && request.method === "POST") {
+    return grammarCheck(request, env);
   }
 
   if (url.pathname === "/v1/submissions" && request.method === "GET") {
@@ -420,6 +437,52 @@ async function enforceRateLimit(binding, key, unavailableMessage, exceededCode, 
     throw new HttpError(503, "RATE_LIMIT_UNAVAILABLE", unavailableMessage);
   }
   if (!result.success) throw new HttpError(429, exceededCode, exceededMessage);
+}
+
+async function grammarCheck(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+
+  await enforceRateLimit(
+    env.GRAMMAR_CHECK_RATE_LIMITER,
+    `writing-submission-grammar-check:${student.id}`,
+    "Advanced grammar checking is temporarily unavailable",
+    "TOO_MANY_GRAMMAR_CHECKS",
+    "Too many grammar checks; please wait and try again"
+  );
+
+  let sentence;
+  try {
+    sentence = normalizeGrammarCheckPayload(
+      await readLimitedJson(request, MAX_GRAMMAR_CHECK_BODY_BYTES)
+    );
+  } catch (error) {
+    if (error instanceof HttpError) throw error;
+    throw new HttpError(400, "INVALID_GRAMMAR_CHECK", "Invalid grammar check request");
+  }
+
+  if (!grammarAiConfigured(env)) {
+    throw new HttpError(
+      503,
+      "GRAMMAR_CHECK_UNAVAILABLE",
+      "Advanced grammar checking is temporarily unavailable"
+    );
+  }
+
+  let issues;
+  try {
+    issues = await runGrammarAi(sentence, env);
+  } catch {
+    // Student text and provider output must never appear in logs.
+    console.error("Writing Submission grammar provider failed");
+    throw new HttpError(
+      503,
+      "GRAMMAR_CHECK_UNAVAILABLE",
+      "Advanced grammar checking is temporarily unavailable"
+    );
+  }
+
+  return json({ engine: GRAMMAR_AI_ENGINE, issues }, 200, request, env);
 }
 
 async function adminLogin(request, env) {

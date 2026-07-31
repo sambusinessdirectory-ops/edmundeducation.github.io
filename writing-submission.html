@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260731-3">
+  <link rel="stylesheet" href="writing-submission.css?v=20260731-ai1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
@@ -66,7 +66,7 @@
           <div class="hero-copy">
             <p class="student-label">(學生使用)</p>
             <h1>Edmund Sir<br><span>Writing</span><br>交文系統</h1>
-            <p>安靜地完成文章；每當一句以句號或分號完成，本機文法助手才會檢查該句，讓寫作思路不被打斷。</p>
+            <p>安靜地完成文章；每當一句以句號或分號完成，進階文法助手才會檢查該句，讓寫作思路不被打斷。</p>
           </div>
         </article>
 
@@ -108,8 +108,8 @@
         </div>
         <div class="local-checker-pill" data-harper-status data-state="loading">
           <span aria-hidden="true"></span>
-          <strong>正在準備本機文法檢查</strong>
-          <small>文章不會為了檢查而傳送到外部 AI</small>
+          <strong>正在準備進階文法檢查</strong>
+          <small>只會安全傳送已完成的單句；題目及整篇草稿不會送出</small>
         </div>
       </section>
 
@@ -155,12 +155,12 @@
           <aside class="grammar-panel glass-panel" aria-labelledby="grammar-panel-title">
             <div class="grammar-panel-heading">
               <div>
-                <p class="eyebrow">LOCAL GRAMMAR REVIEW</p>
-                <h2 id="grammar-panel-title">文法提示（測試版）</h2>
+                <p class="eyebrow">AI GRAMMAR REVIEW</p>
+                <h2 id="grammar-panel-title">AI 文法提示（測試版）</h2>
               </div>
               <span class="issue-count" data-issue-count>0</span>
             </div>
-            <p class="grammar-intro">本機 ESL 規則只偵測部分常見學生錯誤；Harper 只作額外校對。沒有提示不等於句子完全正確。只有已用句號或分號完成的句子會在這裡顯示。</p>
+            <p class="grammar-intro">只有以句號或分號完成的單句會安全傳送至 Edmund 文法服務；未完成內容、寫作題目及整篇草稿不會送出。本機規則及 Harper 會作後備校對。沒有提示不等於句子完全正確。</p>
             <div class="grammar-list" data-grammar-list aria-live="polite">
               <div class="grammar-empty">
                 <span aria-hidden="true">i</span>
@@ -241,6 +241,6 @@
   <script src="supabase-config.js"></script>
   <script src="writing-submission-config.js"></script>
   <script src="shared-system-nav.js?v=20260728-2"></script>
-  <script type="module" src="writing-submission.js?v=20260731-3"></script>
+  <script type="module" src="writing-submission.js?v=20260731-ai1"></script>
 </body>
 </html>
