@@ -61,6 +61,24 @@ export function completedWritingSegments(value) {
   return segments;
 }
 
+export function isLiveCompletedWritingSegment(value, candidate) {
+  if (!candidate || typeof candidate !== "object") return false;
+  return completedWritingSegments(value).some((segment) => (
+    segment.start === candidate.start
+    && segment.end === candidate.end
+    && segment.text === candidate.text
+  ));
+}
+
+export function completedWritingSegmentsOverlappingRange(value, startValue, endValue) {
+  const text = String(value || "");
+  const start = Math.max(0, Math.min(text.length, Number(startValue) || 0));
+  const end = Math.max(start, Math.min(text.length, Number(endValue) || start));
+  return completedWritingSegments(text).filter((segment) => (
+    segment.end > start && segment.start < end
+  ));
+}
+
 export function insertedRange(previousValue, nextValue) {
   const previous = String(previousValue || "");
   const next = String(nextValue || "");

@@ -27,6 +27,7 @@ if (process.env[TEST_MODE_KEY] !== "1") {
 
 const root = path.resolve(path.dirname(thisFile), "..");
 const helper = await import(pathToFileURL(path.join(root, "writing-submission-harper.js")));
+const eslRules = await import(pathToFileURL(path.join(root, "writing-submission-esl-rules.js")));
 const harper = await import(pathToFileURL(path.join(root, "assets/vendor/harper/2.7.0/index.js")));
 const binaryModule = await import(
   pathToFileURL(path.join(root, "assets/vendor/harper/2.7.0/slimBinary.js"))
@@ -87,6 +88,70 @@ assert.equal(agreement.correctedSentence, "🙂 He goes to school every day.");
 assert.equal(agreement.start, 6);
 assert.equal(agreement.end, 8);
 assert.equal(agreement.engine.version, "2.7.0");
+
+const screenshotFirstSentence = "In recent years, more and more company requires staff need to wore uniforms at work.";
+const screenshotSecondSentence = "There are some advantages of a company having a uniform for example customer can quickly locate staff in retail stores and enhanced trust and professionalism.";
+const screenshotFirstIssues = await checker.check(screenshotFirstSentence);
+const screenshotSecondIssues = await checker.check(screenshotSecondSentence);
+
+assert.deepEqual(
+  screenshotFirstIssues.map((issue) => issue.ruleId),
+  ["EslPluralAfterQuantifier", "EslRequireObjectInfinitive"]
+);
+assert.deepEqual(
+  screenshotSecondIssues.map((issue) => issue.ruleId),
+  ["EslForExamplePunctuation", "EslGenericPeoplePlural", "EslModalParallelVerb"]
+);
+
+for (const issue of [...screenshotFirstIssues, ...screenshotSecondIssues]) {
+  assert.equal(
+    issue.originalText,
+    (issue === screenshotFirstIssues[0] ? screenshotFirstSentence : issue.start < screenshotFirstSentence.length && screenshotFirstIssues.includes(issue) ? screenshotFirstSentence : screenshotSecondSentence)
+      .slice(issue.start, issue.end),
+    `${issue.ruleId} must expose exact UTF-16 editor offsets`
+  );
+  assert.equal(issue.engine.name, "edmund-esl-basics");
+}
+
+function applyLearnerRule(sentence, ruleId) {
+  const issue = eslRules.checkLocalLearnerEnglish(sentence).find((candidate) => candidate.ruleId === ruleId);
+  assert.ok(issue, `Expected ${ruleId} while correcting: ${sentence}`);
+  return issue.correctedSentence;
+}
+
+let correctedFirst = screenshotFirstSentence;
+correctedFirst = applyLearnerRule(correctedFirst, "EslPluralAfterQuantifier");
+correctedFirst = applyLearnerRule(correctedFirst, "EslRequireObjectInfinitive");
+correctedFirst = applyLearnerRule(correctedFirst, "EslPluralSubjectVerbAgreement");
+assert.equal(
+  correctedFirst,
+  "In recent years, more and more companies require staff to wear uniforms at work."
+);
+assert.equal(eslRules.checkLocalLearnerEnglish(correctedFirst).length, 0);
+
+let correctedSecond = screenshotSecondSentence;
+correctedSecond = applyLearnerRule(correctedSecond, "EslForExamplePunctuation");
+correctedSecond = applyLearnerRule(correctedSecond, "EslGenericPeoplePlural");
+correctedSecond = applyLearnerRule(correctedSecond, "EslModalParallelVerb");
+assert.equal(
+  correctedSecond,
+  "There are some advantages of a company having a uniform. For example, customers can quickly locate staff in retail stores and enhance trust and professionalism."
+);
+assert.equal(eslRules.checkLocalLearnerEnglish(correctedSecond).length, 0);
+
+for (const validSentence of [
+  "A company requires staff to wear uniforms.",
+  "More and more company leaders require staff to wear uniforms.",
+  "For example, a customer can locate staff.",
+  "For example, customer service can improve trust.",
+  "The stores enhanced trust."
+]) {
+  assert.deepEqual(
+    eslRules.checkLocalLearnerEnglish(validSentence),
+    [],
+    `High-confidence learner rules must not flag: ${validSentence}`
+  );
+}
 
 const serializedIssues = JSON.parse(JSON.stringify(issues));
 assert.deepEqual(serializedIssues, issues, "checker results must be plain JSON-safe values");

@@ -1,10 +1,12 @@
 import {
   completedWritingSegments,
+  completedWritingSegmentsOverlappingRange,
   countEnglishWords,
   formatSubmissionDate,
   insertedRange,
+  isLiveCompletedWritingSegment,
   newlyCompletedWritingSegments
-} from "./writing-submission-core.js?v=20260731-1";
+} from "./writing-submission-core.js?v=20260731-2";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -12,6 +14,7 @@ const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const HARPER_VERSION = "2.7.0";
+const ESL_RULESET_VERSION = "1.0.0";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 const elements = {
@@ -64,6 +67,7 @@ const state = {
   checkerState: "idle",
   checkerPromise: null,
   checkQueue: Promise.resolve(),
+  pendingChecks: 0,
   checkGeneration: 0,
   activeIssues: [],
   dismissedIssueIds: new Set(),
@@ -454,6 +458,7 @@ function startNewDraft({ preserveView = false } = {}) {
   clearStoredDraft();
   state.checkGeneration += 1;
   state.checkQueue = Promise.resolve();
+  state.pendingChecks = 0;
   state.documentId = newDocumentId();
   state.previousWriting = "";
   state.activeIssues = [];
@@ -471,6 +476,7 @@ function startNewDraft({ preserveView = false } = {}) {
 function restoreDraft() {
   state.checkGeneration += 1;
   state.checkQueue = Promise.resolve();
+  state.pendingChecks = 0;
   restoreIssueQueue();
   const draft = readDraft();
   state.documentId = draft?.documentId || newDocumentId();
@@ -480,6 +486,8 @@ function restoreDraft() {
   updateEditorMetrics();
   renderGrammarIssues();
   persistDraft();
+  const completedSegments = completedWritingSegments(elements.writingInput.value);
+  if (completedSegments.length) enqueueSegmentsForCheck(completedSegments);
 }
 
 function updateHarperStatus(status, title, detail) {
@@ -496,11 +504,11 @@ async function prepareGrammarChecker() {
   updateHarperStatus("loading", "正在準備本機文法檢查", "首次載入約需數秒；文章不會傳送到外部 AI");
   state.checkerPromise = (async () => {
     try {
-      const module = await import("./writing-submission-harper.js?v=20260731-1");
+      const module = await import("./writing-submission-harper.js?v=20260731-2");
       const checker = module.createWritingGrammarChecker();
       await checker.setup();
       state.checker = checker;
-      updateHarperStatus("ready", "本機文法檢查已準備", `Harper ${HARPER_VERSION} · 只檢查已完成句子`);
+      updateHarperStatus("ready", "本機文法檢查已準備", `Harper ${HARPER_VERSION} + ESL ${ESL_RULESET_VERSION} · 只檢查已完成句子`);
       return checker;
     } catch (error) {
       console.warn("Local Harper setup failed", error);
@@ -572,9 +580,10 @@ async function decorateIssue(rawIssue, segment, context) {
   const start = Math.max(0, Math.min(segment.text.length, Number.isFinite(rawStart) ? rawStart : 0));
   const end = Math.max(start, Math.min(segment.text.length, Number.isFinite(rawEnd) ? rawEnd : start));
   const ruleId = String(rawIssue.ruleId || "UnknownRule").slice(0, 120) || "UnknownRule";
-  // Stage one records each unique Harper rule once per article. This identity
+  // Stage one records each unique local rule once per article. This identity
   // survives sentence edits, offset changes and accepted suggestions.
-  const fingerprint = await sha256Hex([HARPER_VERSION, context.documentId, ruleId].join("|"));
+  const engineIdentity = `${rawIssue.engine?.name || "harper.js"}@${rawIssue.engine?.version || HARPER_VERSION}`;
+  const fingerprint = await sha256Hex([engineIdentity, context.documentId, ruleId].join("|"));
   return {
     ...rawIssue,
     id: `${fingerprint}:${segment.ordinal}:${start}:${end}`,
@@ -686,8 +695,7 @@ async function flushGrammarOccurrences(options = {}) {
 async function checkCompletedSegment(segment, context) {
   const checker = await prepareGrammarChecker();
   if (!checker || !isCurrentCheckContext(context) || segment.text.length > 10000) return;
-  const current = elements.writingInput.value.slice(segment.start, segment.end);
-  if (current !== segment.text) return;
+  if (!isLiveCompletedWritingSegment(elements.writingInput.value, segment)) return;
   let rawIssues;
   try {
     rawIssues = await checker.check(segment.text);
@@ -696,9 +704,12 @@ async function checkCompletedSegment(segment, context) {
     updateHarperStatus("error", "這一句暫時未能檢查", "您仍可繼續寫作及提交文章");
     return;
   }
-  if (!isCurrentCheckContext(context) || elements.writingInput.value.slice(segment.start, segment.end) !== segment.text) return;
+  if (!isCurrentCheckContext(context) || !isLiveCompletedWritingSegment(elements.writingInput.value, segment)) return;
   const issues = await Promise.all((Array.isArray(rawIssues) ? rawIssues : []).map((issue) => decorateIssue(issue, segment, context)));
-  if (!isCurrentCheckContext(context)) return;
+  if (
+    !isCurrentCheckContext(context)
+    || !isLiveCompletedWritingSegment(elements.writingInput.value, segment)
+  ) return;
   state.activeIssues = state.activeIssues.filter((issue) => !(
     issue.sentenceStart === segment.start && issue.sentenceEnd === segment.end
   ));
@@ -709,25 +720,37 @@ async function checkCompletedSegment(segment, context) {
 }
 
 function enqueueSegmentsForCheck(segments) {
+  const validSegments = Array.isArray(segments) ? segments.filter(Boolean) : [];
+  if (!validSegments.length) return;
   const context = captureCheckContext();
-  for (const segment of segments) {
+  state.pendingChecks += validSegments.length;
+  renderGrammarIssues();
+  for (const segment of validSegments) {
     state.checkQueue = state.checkQueue
       .then(() => checkCompletedSegment(segment, context))
-      .catch((error) => console.warn("Queued grammar check failed", error));
+      .catch((error) => console.warn("Queued grammar check failed", error))
+      .finally(() => {
+        if (context.generation !== state.checkGeneration) return;
+        state.pendingChecks = Math.max(0, state.pendingChecks - 1);
+        renderGrammarIssues();
+      });
   }
 }
 
 function grammarEmptyContent() {
   const wrapper = createElement("div", "grammar-empty");
   wrapper.append(createElement("span", "", "✓"));
-  if (state.checkerState === "loading") {
+  if (state.pendingChecks > 0) {
+    wrapper.append(createElement("strong", "", "正在檢查完整句子"));
+    wrapper.append(createElement("p", "", "本機文法助手正在整理建議，請稍候。"));
+  } else if (state.checkerState === "loading") {
     wrapper.append(createElement("strong", "", "正在準備文法檢查"));
     wrapper.append(createElement("p", "", "您可以先開始寫作；完整句子會排隊檢查。"));
   } else if (state.checkerState === "error") {
     wrapper.append(createElement("strong", "", "文法檢查暫時不可用"));
     wrapper.append(createElement("p", "", "寫作及提交功能不受影響。"));
   } else {
-    wrapper.append(createElement("strong", "", "未發現基本文法問題"));
+    wrapper.append(createElement("strong", "", "暫未偵測到本機規則可識別的問題"));
     wrapper.append(createElement("p", "", "只會檢查已用句號或分號完成的句子。"));
   }
   return wrapper;
@@ -796,16 +819,16 @@ function applyGrammarIssue(issueId) {
   }
   const next = `${current.slice(0, issue.sentenceStart)}${issue.correctedSentence}${current.slice(issue.sentenceEnd)}`;
   state.activeIssues = state.activeIssues.filter((candidate) => candidate.sentenceText !== issue.sentenceText || candidate.sentenceStart !== issue.sentenceStart);
+  state.dismissedIssueIds.clear();
   rebaseActiveIssues(current, next);
   elements.writingInput.value = next;
   state.previousWriting = next;
   updateEditorMetrics();
   scheduleDraftSave();
   renderGrammarIssues();
-  const updatedSegment = completedWritingSegments(next).find((segment) => (
-    segment.start === issue.sentenceStart && segment.text === issue.correctedSentence
-  ));
-  if (updatedSegment) enqueueSegmentsForCheck([updatedSegment]);
+  const replacementEnd = issue.sentenceStart + issue.correctedSentence.length;
+  const updatedSegments = completedWritingSegmentsOverlappingRange(next, issue.sentenceStart, replacementEnd);
+  if (updatedSegments.length) enqueueSegmentsForCheck(updatedSegments);
   showToast("已套用建議；原有問題種類已保留在您的記錄。", "success");
 }
 

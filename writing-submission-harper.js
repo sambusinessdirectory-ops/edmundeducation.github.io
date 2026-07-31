@@ -1,4 +1,8 @@
 import {
+  checkLocalLearnerEnglish,
+  mergeGrammarIssues
+} from "./writing-submission-esl-rules.js?v=20260731-2";
+import {
   Dialect,
   SuggestionKind,
   WorkerLinter
@@ -317,9 +321,14 @@ export function createWritingGrammarChecker({
   async function check(text) {
     const source = requireString(text, "text");
     if (!source.trim()) return Object.freeze([]);
+    const localIssues = checkLocalLearnerEnglish(source);
     await setup();
     const organized = await linter.organizedLints(source, DEFAULT_LINT_OPTIONS);
-    return serializeOrganizedHarperLints(source, organized);
+    const harperIssues = (await serializeOrganizedHarperLints(source, organized))
+      .filter((issue) => ![
+        "EllipsisLength", "UseEllipsisCharacter"
+      ].includes(issue.ruleId));
+    return mergeGrammarIssues(localIssues, harperIssues);
   }
 
   async function dispose() {

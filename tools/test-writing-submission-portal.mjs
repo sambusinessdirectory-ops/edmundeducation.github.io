@@ -5,7 +5,9 @@ import test from "node:test";
 
 import {
   completedWritingSegments,
+  completedWritingSegmentsOverlappingRange,
   countEnglishWords,
+  isLiveCompletedWritingSegment,
   newlyCompletedWritingSegments
 } from "../writing-submission-core.js";
 
@@ -15,6 +17,7 @@ const css = fs.readFileSync(path.join(root, "writing-submission.css"), "utf8");
 const script = fs.readFileSync(path.join(root, "writing-submission.js"), "utf8");
 const config = fs.readFileSync(path.join(root, "writing-submission-config.js"), "utf8");
 const serviceWorker = fs.readFileSync(path.join(root, "service-worker.js"), "utf8");
+const eslRules = fs.readFileSync(path.join(root, "writing-submission-esl-rules.js"), "utf8");
 
 test("writing grammar checks begin only after newly completed full stops or semicolons", () => {
   assert.deepEqual(newlyCompletedWritingSegments("", "I am still writing"), []);
@@ -36,6 +39,18 @@ test("common abbreviations do not split a completed sentence", () => {
     completedWritingSegments("Dr. Smith arrived. The lesson began." ).map((segment) => segment.text),
     ["Dr. Smith arrived.", "The lesson began."]
   );
+});
+
+test("a correction that inserts a sentence boundary rechecks both resulting sentences", () => {
+  const corrected = "There are advantages. For example, customers can locate staff.";
+  const segments = completedWritingSegmentsOverlappingRange(corrected, 0, corrected.length);
+  assert.deepEqual(
+    segments.map((segment) => segment.text),
+    ["There are advantages.", "For example, customers can locate staff."]
+  );
+  assert.equal(isLiveCompletedWritingSegment(corrected, segments[0]), true);
+  assert.equal(isLiveCompletedWritingSegment(`${corrected} Extra text`, segments[0]), true);
+  assert.equal(isLiveCompletedWritingSegment("There are advantages..", segments[0]), false);
 });
 
 test("word count handles repeated whitespace", () => {
@@ -71,7 +86,10 @@ test("Harper is self-hosted and cached as an immutable versioned runtime", () =>
   assert.match(serviceWorker, /HARPER_CACHE_PREFIX\s*=\s*"edmund-vendor-harper-"/);
   assert.match(serviceWorker, /HARPER_CACHE_NAME\s*=\s*"edmund-vendor-harper-2\.7\.0"/);
   assert.match(serviceWorker, /HARPER_PATH_PREFIX\s*=\s*"\/assets\/vendor\/harper\/2\.7\.0\/"/);
-  assert.match(html, /Harper 只提供基本文法檢查/);
+  assert.match(html, /Harper 配合本機學習者基本規則進行檢查/);
+  assert.match(html, /writing-submission\.js\?v=20260731-2/);
+  assert.match(script, /writing-submission-harper\.js\?v=20260731-2/);
+  assert.match(eslRules, /EslModalParallelVerb/);
   assert.match(html, /script-src 'self' 'wasm-unsafe-eval' https:\/\/cdn\.jsdelivr\.net/);
   assert.match(html, /worker-src 'self' blob:/);
   assert.doesNotMatch(script, /(?:unpkg|esm\.sh|cdn\.jsdelivr)\./i);
