@@ -153,6 +153,76 @@ for (const validSentence of [
   );
 }
 
+const complaintFirstSentence = "Customers are have a first impressions of business.";
+const complaintSecondSentence = "A clear illustration, if you enter an international airport with the staff do not wearing a proper uniform, you will think that there are a loss of trusts and professionalism.";
+const complaintFirstIssues = await checker.check(complaintFirstSentence);
+const complaintSecondIssues = await checker.check(complaintSecondSentence);
+
+assert.deepEqual(
+  complaintFirstIssues.map((issue) => issue.ruleId),
+  ["EslBeHaveDoubleVerb", "EslArticleSingularNoun"]
+);
+assert.deepEqual(
+  complaintSecondIssues.map((issue) => issue.ruleId),
+  [
+    "EslComplexIllustrationClauseReview",
+    "EslWithObjectNegativeGerund",
+    "EslThereBeSingularAgreement",
+    "EslAbstractNounUncountable"
+  ]
+);
+
+for (const [sentence, sentenceIssues] of [
+  [complaintFirstSentence, complaintFirstIssues],
+  [complaintSecondSentence, complaintSecondIssues]
+]) {
+  for (const issue of sentenceIssues) {
+    assert.equal(
+      issue.originalText,
+      sentence.slice(issue.start, issue.end),
+      `${issue.ruleId} must point to the exact text shown in the editor`
+    );
+    assert.equal(issue.engine.version, "1.1.0");
+  }
+}
+
+let correctedComplaintFirst = complaintFirstSentence;
+correctedComplaintFirst = applyLearnerRule(correctedComplaintFirst, "EslBeHaveDoubleVerb");
+correctedComplaintFirst = applyLearnerRule(correctedComplaintFirst, "EslArticleSingularNoun");
+assert.equal(correctedComplaintFirst, "Customers have a first impression of business.");
+assert.deepEqual(eslRules.checkLocalLearnerEnglish(correctedComplaintFirst), []);
+
+let correctedComplaintSecond = complaintSecondSentence;
+correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "EslWithObjectNegativeGerund");
+correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "EslThereBeSingularAgreement");
+correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "EslAbstractNounUncountable");
+assert.equal(
+  correctedComplaintSecond,
+  "A clear illustration, if you enter an international airport with the staff not wearing a proper uniform, you will think that there is a loss of trust and professionalism."
+);
+const remainingComplaintIssues = eslRules.checkLocalLearnerEnglish(correctedComplaintSecond);
+assert.deepEqual(remainingComplaintIssues.map((issue) => issue.ruleId), ["EslComplexIllustrationClauseReview"]);
+assert.equal(remainingComplaintIssues[0].reviewRequired, true);
+assert.equal(remainingComplaintIssues[0].suggestedText, "");
+
+for (const validSentence of [
+  "Customers are having lunch.",
+  "Customers have first impressions of several businesses.",
+  "There are a few reasons.",
+  "There are losses of trust.",
+  "There is a loss of trust.",
+  "Several family trusts manage the estate.",
+  "Staff do not wear uniforms.",
+  "With the staff not wearing uniforms, the room is quiet.",
+  "A clear illustration, if printed in colour, can be persuasive."
+]) {
+  assert.deepEqual(
+    eslRules.checkLocalLearnerEnglish(validSentence),
+    [],
+    `New ESL checks must not flag this negative control: ${validSentence}`
+  );
+}
+
 const serializedIssues = JSON.parse(JSON.stringify(issues));
 assert.deepEqual(serializedIssues, issues, "checker results must be plain JSON-safe values");
 

@@ -14,7 +14,7 @@ const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const HARPER_VERSION = "2.7.0";
-const ESL_RULESET_VERSION = "1.0.0";
+const ESL_RULESET_VERSION = "1.1.0";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 const elements = {
@@ -504,11 +504,11 @@ async function prepareGrammarChecker() {
   updateHarperStatus("loading", "正在準備本機文法檢查", "首次載入約需數秒；文章不會傳送到外部 AI");
   state.checkerPromise = (async () => {
     try {
-      const module = await import("./writing-submission-harper.js?v=20260731-2");
+      const module = await import("./writing-submission-harper.js?v=20260731-3");
       const checker = module.createWritingGrammarChecker();
       await checker.setup();
       state.checker = checker;
-      updateHarperStatus("ready", "本機文法檢查已準備", `Harper ${HARPER_VERSION} + ESL ${ESL_RULESET_VERSION} · 只檢查已完成句子`);
+      updateHarperStatus("ready", "本機文法檢查已準備", `本機 ESL 規則 ${ESL_RULESET_VERSION} + Harper ${HARPER_VERSION} 額外校對 · 只檢查已完成句子`);
       return checker;
     } catch (error) {
       console.warn("Local Harper setup failed", error);
@@ -739,7 +739,10 @@ function enqueueSegmentsForCheck(segments) {
 
 function grammarEmptyContent() {
   const wrapper = createElement("div", "grammar-empty");
-  wrapper.append(createElement("span", "", "✓"));
+  const icon = state.pendingChecks > 0 || state.checkerState === "loading"
+    ? "…"
+    : state.checkerState === "error" ? "!" : "i";
+  wrapper.append(createElement("span", "", icon));
   if (state.pendingChecks > 0) {
     wrapper.append(createElement("strong", "", "正在檢查完整句子"));
     wrapper.append(createElement("p", "", "本機文法助手正在整理建議，請稍候。"));
@@ -750,8 +753,8 @@ function grammarEmptyContent() {
     wrapper.append(createElement("strong", "", "文法檢查暫時不可用"));
     wrapper.append(createElement("p", "", "寫作及提交功能不受影響。"));
   } else {
-    wrapper.append(createElement("strong", "", "暫未偵測到本機規則可識別的問題"));
-    wrapper.append(createElement("p", "", "只會檢查已用句號或分號完成的句子。"));
+    wrapper.append(createElement("strong", "", "暫未偵測到現有規則可識別的問題"));
+    wrapper.append(createElement("p", "", "這不代表句子完全正確；本機測試版只能偵測部分常見 ESL 問題。"));
   }
   return wrapper;
 }
@@ -766,8 +769,12 @@ function renderGrammarIssues() {
   const fragment = document.createDocumentFragment();
   for (const issue of visible) {
     const card = createElement("article", "grammar-card");
+    if (issue.reviewRequired) card.dataset.review = "true";
     const head = createElement("div", "grammar-card-head");
-    head.append(createElement("strong", "", issue.title), createElement("span", "", issue.ruleId));
+    const sourceLabel = issue.reviewRequired
+      ? "需老師覆核"
+      : issue.engine?.name === "edmund-esl-basics" ? "本機 ESL 規則" : "Harper 額外校對";
+    head.append(createElement("strong", "", issue.title), createElement("span", "", sourceLabel));
     const body = createElement("div", "grammar-card-body");
 
     const problem = createElement("p", "grammar-fragment");
@@ -776,7 +783,17 @@ function renderGrammarIssues() {
     problem.append(document.createTextNode(issue.sentenceText.slice(issue.end)));
 
     const replacement = createElement("div", "grammar-replacement");
-    replacement.append(createElement("small", "", "建議修正"), createElement("p", "", issue.correctedSentence));
+    if (issue.reviewRequired) {
+      replacement.append(
+        createElement("small", "", "需要人工覆核"),
+        createElement("p", "", "此句不適合自動改寫，請交由老師確認。")
+      );
+    } else {
+      replacement.append(
+        createElement("small", "", "此項局部修正後（句內仍可能有其他問題）"),
+        createElement("p", "", issue.correctedSentence)
+      );
+    }
     const explanation = createElement("div", "grammar-explanation");
     explanation.append(createElement("small", "", "Explanation"), createElement("p", "", issue.message));
     const actions = createElement("div", "grammar-actions");

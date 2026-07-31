@@ -477,7 +477,7 @@ button { color: inherit; }
 .grammar-intro { margin: 0 0 20px; color: var(--ink-soft); font-size: 13px; line-height: 1.65; }
 .grammar-list { display: grid; gap: 14px; }
 .grammar-empty { padding: 30px 18px; border: 1px dashed rgba(39,39,87,.22); border-radius: 18px; text-align: center; }
-.grammar-empty > span { width: 46px; height: 46px; margin: 0 auto 12px; border-radius: 50%; display: grid; place-items: center; color: var(--green); background: #e9f7f0; font-size: 22px; }
+.grammar-empty > span { width: 46px; height: 46px; margin: 0 auto 12px; border-radius: 50%; display: grid; place-items: center; color: var(--orange-deep); background: #fff1df; font-size: 22px; font-weight: 800; }
 .grammar-empty strong { display: block; }
 .grammar-empty p { margin: 7px 0 0; color: var(--ink-soft); font-size: 12px; line-height: 1.55; }
 
@@ -488,6 +488,9 @@ button { color: inherit; }
   background: #fffdf9;
   box-shadow: 0 10px 28px rgba(39,39,87,.08);
 }
+.grammar-card[data-review="true"] { border-color: rgba(208,139,44,.42); background: #fffaf0; }
+.grammar-card[data-review="true"] .grammar-card-head { background: #fff0ce; }
+.grammar-card[data-review="true"] .grammar-replacement { border-left-color: #d08b2c; background: #fff6e6; }
 
 .grammar-card-head { padding: 13px 15px; display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #f0ecf8; }
 .grammar-card-head strong { color: #3b3969; font-size: 13px; }

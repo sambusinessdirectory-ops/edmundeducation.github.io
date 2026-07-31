@@ -1,6 +1,6 @@
 export const WRITING_ESL_RULE_ENGINE = Object.freeze({
   name: "edmund-esl-basics",
-  version: "1.0.0",
+  version: "1.1.0",
   locale: "zh-Hant",
   execution: "browser"
 });

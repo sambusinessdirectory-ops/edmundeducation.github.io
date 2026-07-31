@@ -1,7 +1,7 @@
 import {
   checkLocalLearnerEnglish,
   mergeGrammarIssues
-} from "./writing-submission-esl-rules.js?v=20260731-2";
+} from "./writing-submission-esl-rules.js?v=20260731-3";
 import {
   Dialect,
   SuggestionKind,
