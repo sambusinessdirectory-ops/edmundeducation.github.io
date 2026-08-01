@@ -1,6 +1,7 @@
 import {
   GRAMMAR_AI_ENGINE,
   GRAMMAR_AI_MODEL,
+  GRAMMAR_AI_REPAIR_MODEL,
   grammarAiConfigured,
   normalizeGrammarCheckPayload,
   runGrammarAi
@@ -77,7 +78,8 @@ async function route(request, env) {
         },
         grammarAi: {
           configured: grammarAiConfigured(env),
-          model: GRAMMAR_AI_MODEL
+          model: GRAMMAR_AI_MODEL,
+          repairModel: GRAMMAR_AI_REPAIR_MODEL
         }
       },
       configured ? 200 : 503,

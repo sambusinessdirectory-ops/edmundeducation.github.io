@@ -219,6 +219,8 @@ test("health keeps the core service independent and reports grammar AI readiness
   const completeBody = await complete.json();
   assert.equal(completeBody.ok, true);
   assert.equal(completeBody.grammarAi.configured, true);
+  assert.equal(completeBody.grammarAi.model, "@cf/meta/llama-3.1-8b-instruct-fast");
+  assert.equal(completeBody.grammarAi.repairModel, "@cf/meta/llama-3.3-70b-instruct-fp8-fast");
   assert.equal(completeBody.rateLimiters.grammarCheck, true);
 
   const noAi = environment();
@@ -429,7 +431,7 @@ test("dependent verb phrases combine into one coherent hate-school correction", 
     ]
   );
   assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
-  assert.equal(body.engine.version, "2026-08-01.4");
+  assert.equal(body.engine.version, "2026-08-01.5");
 
   const prompt = ai.calls[0].request.messages[0].content;
   assert.match(prompt, /Tom hate go school but enjoy watch movie\./);
@@ -706,7 +708,7 @@ test("an invalid first grammar result is retried once and returns the complete v
   assert.equal(ai.calls.length, 2);
   assert.equal(ai.calls[0].request.seed, 5194);
   assert.equal(ai.calls[1].request.seed, 5195);
-  assert.match(ai.calls[1].request.messages[1].content, /previous answer was unusable/);
+  assert.match(ai.calls[1].request.messages[1].content, /previous answer had an unusable edit map/);
   assert.deepEqual(logs, []);
 });
 
@@ -765,7 +767,10 @@ test("an incoherent enjoy-school composite is rejected and repaired as a whole",
   );
   assert.equal(ai.calls.length, 2);
   assert.equal(ai.calls[1].request.seed, 5195);
-  assert.match(ai.calls[1].request.messages[1].content, /Recheck verb complements and institutional go to school/);
+  assert.match(
+    ai.calls[1].request.messages[1].content,
+    /Recheck subject-verb agreement, missing connectors, prepositions and determiners, countability, verb complements/
+  );
   assert.deepEqual(logs, []);
 });
 
@@ -829,7 +834,7 @@ test("two malformed edit maps recover when both checks agree on the same complet
   const responseText = await response.text();
   assert.equal(response.status, 200, responseText);
   const body = JSON.parse(responseText);
-  assert.equal(body.engine.version, "2026-08-01.4");
+  assert.equal(body.engine.version, "2026-08-01.5");
   assert.equal(body.issues.length, 1);
   assert.equal(body.issues[0].category, "sentence_structure");
   assert.equal(body.issues[0].originalText, "the efficient and effective");
@@ -899,6 +904,154 @@ test("the two screenshot sentences accept coherent primary batches in one call",
     const body = JSON.parse(responseText);
     assert.equal(applyGrammarIssues(fixture.sentence, body.issues), fixture.correctedSentence);
     assert.equal(ai.calls.length, 1);
+  }
+});
+
+test("the three newest learner sentences route malformed 8B maps to one complete 70B repair", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const primaryModel = "@cf/meta/llama-3.1-8b-instruct-fast";
+  const repairModel = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
+  const fixtures = [
+    {
+      sentence: "Mary and John eats restaurant.",
+      correctedSentence: "Mary and John eat at a restaurant.",
+      primaryIssues: [grammarAiIssue({
+        originalText: "eats",
+        replacementText: "eat",
+        explanationZhHant: "複數主語使用 eat。"
+      })],
+      repairIssues: [
+        grammarAiIssue({
+          originalText: "eats",
+          replacementText: "eat",
+          explanationZhHant: "Mary and John 是由 and 連接的複數主語，所以現在式動詞用 eat。",
+          confidence: 0.99
+        }),
+        grammarAiIssue({
+          category: "preposition",
+          originalText: "restaurant",
+          replacementText: "at a restaurant",
+          explanationZhHant: "表示在餐廳用餐時，需要介詞 at；泛指一間餐廳亦要用冠詞 a。",
+          confidence: 0.98
+        })
+      ],
+      expectedEdits: [["eats", "eat"], ["restaurant", "at a restaurant"]]
+    },
+    {
+      sentence: "They go to work study together.",
+      correctedSentence: "They go to work and study together.",
+      primaryIssues: [
+        grammarAiIssue({
+          category: "sentence_structure",
+          originalText: "work study",
+          replacementText: "work and study",
+          explanationZhHant: "兩個動作需要連接。"
+        }),
+        grammarAiIssue({
+          category: "conjunction",
+          originalText: "study",
+          replacementText: "and study",
+          explanationZhHant: "加入連接詞 and。"
+        })
+      ],
+      repairIssues: [grammarAiIssue({
+        category: "conjunction",
+        originalText: "study",
+        replacementText: "and study",
+        explanationZhHant: "go to work 和 study 是兩個並列動作，所以用 and 連接。",
+        confidence: 0.9
+      })],
+      expectedEdits: [["study", "and study"]]
+    },
+    {
+      sentence: "They has a lot of moneys.",
+      correctedSentence: "They have a lot of money.",
+      primaryIssues: [grammarAiIssue({
+        originalText: "has",
+        replacementText: "have",
+        explanationZhHant: "They 後面使用 have。"
+      })],
+      repairIssues: [
+        grammarAiIssue({
+          originalText: "has",
+          replacementText: "have",
+          explanationZhHant: "They 是複數主語，所以現在式用 have。",
+          confidence: 0.99
+        }),
+        grammarAiIssue({
+          category: "countability",
+          originalText: "moneys",
+          replacementText: "money",
+          explanationZhHant: "日常表示金錢時，money 通常是不可數名詞。",
+          confidence: 0.99
+        })
+      ],
+      expectedEdits: [["has", "have"], ["moneys", "money"]]
+    }
+  ];
+
+  for (const fixture of fixtures) {
+    const ai = aiSequence(
+      grammarAiResponse(
+        fixture.sentence,
+        fixture.primaryIssues,
+        fixture.correctedSentence
+      ),
+      grammarAiResponse(
+        fixture.sentence,
+        fixture.repairIssues,
+        fixture.correctedSentence
+      )
+    );
+    const response = await worker.fetch(
+      grammarCheckRequest(fixture.sentence),
+      environment({ AI: ai })
+    );
+    const responseText = await response.text();
+    assert.equal(response.status, 200, `${fixture.sentence}: ${responseText}`);
+    const body = JSON.parse(responseText);
+
+    assert.equal(ai.calls.length, 2, `${fixture.sentence}: repair must make at most two model calls`);
+    assert.equal(ai.calls[0].model, primaryModel);
+    assert.equal(ai.calls[1].model, repairModel);
+    assert.equal(ai.calls[0].request.seed, 5194);
+    assert.equal(ai.calls[1].request.seed, 5195);
+    const repairContent = ai.calls[1].request.messages[1].content;
+    const repairPayload = JSON.parse(repairContent.slice(repairContent.indexOf("\n") + 1));
+    assert.deepEqual(repairPayload, {
+      sentence: fixture.sentence,
+      proposedCorrectedSentence: fixture.correctedSentence
+    });
+
+    assert.equal(body.engine.model, primaryModel);
+    assert.equal(body.engine.version, "2026-08-01.5");
+    assert.deepEqual(
+      body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
+      fixture.expectedEdits
+    );
+    assert.equal(
+      applyGrammarIssues(fixture.sentence, body.issues),
+      fixture.correctedSentence
+    );
+    const orderedIssues = [...body.issues].sort((left, right) => left.start - right.start);
+    for (let index = 1; index < orderedIssues.length; index += 1) {
+      assert.ok(
+        orderedIssues[index - 1].end <= orderedIssues[index].start,
+        `${fixture.sentence}: repaired issues must not overlap`
+      );
+    }
+    assert.ok(body.issues.length > 0);
+    assert.ok(body.issues.every((issue) => (
+      issue.engine?.model === repairModel
+      && issue.engine?.version === "2026-08-01.5"
+    )), `${fixture.sentence}: every repaired issue must identify the 70B repair engine`);
   }
 });
 
@@ -1127,7 +1280,10 @@ test("accepted regression corrections stay resolved without another model rewrit
     "The first advantage is that it is efficient and effective.",
     "Tom loves to eat food.",
     "Tom hates going to school but enjoys watching movies.",
-    "Tom read a book and felt excited."
+    "Tom read a book and felt excited.",
+    "Mary and John eat at a restaurant.",
+    "They go to work and study together.",
+    "They have a lot of money."
   ]) {
     const ai = aiBinding(new Error("the accepted control must not invoke AI"));
     const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
