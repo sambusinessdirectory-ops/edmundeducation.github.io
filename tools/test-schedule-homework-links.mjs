@@ -25,12 +25,12 @@ const read = (file) => readFile(path.join(root, file), "utf8");
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2434, "the Homework/Schedule catalogue should include every current learning resource and all new IELTS Reading decks");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2576, "the Homework/Schedule catalogue should include every current learning resource and all 142 August flashcard decks");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
-assert.equal((byType.flashcards || []).length, 1119, "all current static and lazy-loaded flashcard leaf decks should be indexed");
+assert.equal((byType.flashcards || []).length, 1261, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 310, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 218, "all sentence structure lessons should be indexed");
@@ -361,7 +361,7 @@ assert.match(scheduleHtml, /data-homework-autocomplete/);
 assert.match(scheduleHtml, /data-homework-picker-search/);
 assert.match(scheduleHtml, /data-homework-attachments/);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources\)/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260731-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260801-1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");
 assert.match(scheduleJs, /resources\.length >= MAX_HOMEWORK_RESOURCES/, "attachment selection must enforce the resource-count cap without silent truncation");

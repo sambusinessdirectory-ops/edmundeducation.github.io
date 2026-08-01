@@ -101,7 +101,7 @@ for (const [index, source] of inlineScripts.entries()) {
 assert(html.includes('const IELTS_READING_PASSAGE_1_DATA_URL = "flashcards-ielts-reading-passage-1-data.js?v=20260722-1"'), "Passage 1 lazy-load URL is missing");
 assert(!html.includes('<script src="flashcards-ielts-reading-passage-1-data.js'), "Passage 1 data should not block the login page");
 assert(!html.includes("function ensureIeltsReadingData()"), "IELTS Reading must not bulk-load every large passage bundle");
-assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260731-1"></script>'), "Flashcard audio cache key is stale");
+assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260801-1"></script>'), "Flashcard audio cache key is stale");
 assert(html.includes("ieltsReadingPracticesForPassage(passage)"), "IELTS Reading chooser is not using passage-specific decks");
 assert(html.includes("ieltsReadingPracticeLabel(passage, practice)"), "IELTS Reading chooser is not rendering passage titles");
 const inlineSeed = parseAssignment(html, "window.EDMUND_FLASHCARD_SEED = ", ";\n  </script>");
@@ -120,8 +120,19 @@ if (!dataOnly) {
     "window.EDMUND_FLASHCARD_AUDIO_META = Object.freeze(",
     ");\n"
   );
+  const flashcardExpansionIndex = JSON.parse(
+    read("workers/edmund-audio/src/flashcard-pack-index-flashcard-expansion.json")
+  );
+  const expectedAudioCount = 118304 + (
+    flashcardExpansionIndex.meta?.r2UploadComplete
+      ? flashcardExpansionIndex.meta.entryCount
+      : 0
+  );
   assert(audioMeta.complete === true, "Flashcard audio manifest is incomplete");
-  assert(audioMeta.count === 118304, `Expected 118,304 expanded manifest entries, found ${audioMeta.count}`);
+  assert(
+    audioMeta.count === expectedAudioCount,
+    `Expected ${expectedAudioCount.toLocaleString()} manifest entries, found ${audioMeta.count}`
+  );
   assert(audioMeta.count === Object.keys(manifest).length, "Expanded audio manifest count is inconsistent");
   const cloudIndex = JSON.parse(read("workers/edmund-audio/src/flashcard-pack-index.json"));
   assert(cloudIndex.schemaVersion === 1, "Flashcard cloud-pack index schema is invalid");

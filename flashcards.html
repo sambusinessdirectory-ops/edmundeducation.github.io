@@ -184157,7 +184157,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-dse-speaking-2019-data.js?v=20260713-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260731-1"></script>
+  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260801-1"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -184314,12 +184314,100 @@ window.EDMUND_FLASHCARD_SEED = {
       }
       return Promise.resolve();
     }
+
+    const IELTS_LISTENING_PRACTICES_2_20_DATA_URL = "flashcards-ielts-listening-practices-2-20-data.js?v=20260801-1";
+    const DSE_READING_2012_2025_DATA_URL = "flashcards-dse-reading-2012-2025-data.js?v=20260801-1";
+    const DSE_PRACTICAL_WRITING_DATA_URL = "flashcards-dse-practical-writing-data.js?v=20260801-1";
+    const DSE_PAPER3_B2_2012_2023_DATA_URL = "flashcards-dse-paper3-b2-2012-2023-data.js?v=20260801-1";
+    const IELTS_LISTENING_PREFIX = "ielts/listening";
+    const DSE_READING_PREFIX = "dse/reading";
+    const DSE_PRACTICAL_WRITING_PREFIX = "dse/paper-3/practical-english-writing/practical-formats";
+    const DSE_PAPER3_B2_PREFIX = "dse/paper-3/part-b-data-file-b2";
+    const supplementalFlashcardDataPromises = new Map();
+    const supplementalFlashcardBundles = [
+      {
+        globalName: "EDMUND_IELTS_LISTENING_PRACTICES_2_20_SEED",
+        dataUrl: IELTS_LISTENING_PRACTICES_2_20_DATA_URL,
+        datasetKey: "ieltsListeningPractices220",
+        expectedDeckId: "ielts/listening/Practice 2/task-1",
+        matches: value => value === IELTS_LISTENING_PREFIX
+          || /^ielts\/listening\/Practice (?:[2-9]|1\d|20)(?:\/|$)/.test(value)
+      },
+      {
+        globalName: "EDMUND_DSE_READING_2012_2025_SEED",
+        dataUrl: DSE_READING_2012_2025_DATA_URL,
+        datasetKey: "dseReading20122025",
+        expectedDeckId: "dse/reading/part-a/2012",
+        matches: value => value === DSE_READING_PREFIX || value.startsWith(`${DSE_READING_PREFIX}/`)
+      },
+      {
+        globalName: "EDMUND_DSE_PRACTICAL_WRITING_SEED",
+        dataUrl: DSE_PRACTICAL_WRITING_DATA_URL,
+        datasetKey: "dsePracticalWriting",
+        expectedDeckId: "dse/paper-3/practical-english-writing/practical-formats/letter-of-request",
+        matches: value => value === DSE_PRACTICAL_WRITING_PREFIX || value.startsWith(`${DSE_PRACTICAL_WRITING_PREFIX}/`)
+      },
+      {
+        globalName: "EDMUND_DSE_PAPER3_B2_2012_2023_SEED",
+        dataUrl: DSE_PAPER3_B2_2012_2023_DATA_URL,
+        datasetKey: "dsePaper3B220122023",
+        expectedDeckId: "dse/paper-3/part-b-data-file-b2/2012",
+        matches: value => value === DSE_PAPER3_B2_PREFIX
+          || /^dse\/paper-3\/part-b-data-file-b2\/(?:201[2-9]|202[0-3])(?:\/|$)/.test(value)
+      }
+    ];
+
+    function supplementalFlashcardBundleReady(bundle) {
+      return Boolean(window[bundle.globalName] && Array.isArray(seedDecks[bundle.expectedDeckId]));
+    }
+
+    function ensureSupplementalFlashcardBundle(bundle) {
+      if (supplementalFlashcardBundleReady(bundle)) return Promise.resolve();
+      if (supplementalFlashcardDataPromises.has(bundle.globalName)) {
+        return supplementalFlashcardDataPromises.get(bundle.globalName);
+      }
+      const promise = new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = bundle.dataUrl;
+        script.dataset[bundle.datasetKey] = "true";
+        script.onload = () => {
+          if (supplementalFlashcardBundleReady(bundle)) resolve();
+          else reject(new Error(`${bundle.dataUrl} loaded without its expected flashcard seed.`));
+        };
+        script.onerror = () => reject(new Error(`Could not load ${bundle.dataUrl}.`));
+        document.head.appendChild(script);
+      }).catch(error => {
+        supplementalFlashcardDataPromises.delete(bundle.globalName);
+        throw error;
+      });
+      supplementalFlashcardDataPromises.set(bundle.globalName, promise);
+      return promise;
+    }
+
+    function ensureSupplementalFlashcardDataForDeck(deckId) {
+      const value = String(deckId || "");
+      const bundle = supplementalFlashcardBundles.find(candidate => candidate.matches(value));
+      return bundle ? ensureSupplementalFlashcardBundle(bundle) : Promise.resolve();
+    }
+
+    async function ensureSupplementalFlashcardViewData(deckId) {
+      try {
+        await ensureSupplementalFlashcardDataForDeck(deckId);
+        return true;
+      } catch (error) {
+        console.error(error);
+        window.alert("下載這個 Flash Cards 分類時出現連線問題，請稍後再試。");
+        return false;
+      }
+    }
     const promotedSharedDecks = new Set([
       "dse/writing/part-a/2025"
     ]);
     const ieltsWritingTask2Questions = window.EDMUND_IELTS_WRITING_TASK2 || {};
     const deckTitleLabels = new Map();
     const dseYears = ["2012 Sample", "2012 Practice", "2012 DSE", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"];
+    const dseReadingYears = Array.from({ length: 14 }, (_, index) => String(2012 + index));
+    const dsePaper3DataYears = Array.from({ length: 14 }, (_, index) => String(2012 + index));
     const dseWritingYears = Array.from({ length: 15 }, (_, index) => String(2012 + index));
     const dseListeningYears = dseYears.filter(
       year => !["2012 Sample", "2012 Practice"].includes(year)
@@ -184330,6 +184418,7 @@ window.EDMUND_FLASHCARD_SEED = {
       return year === "2012 DSE" ? "2012" : year;
     }
     const ieltsListeningPractices = Array.from({ length: 30 }, (_, index) => `Practice ${index + 1}`);
+    const ieltsListeningPublishedPractices = ieltsListeningPractices.slice(0, 20);
     const ieltsReadingPassages = ["Passage 1", "Passage 2", "Passage 3"];
     const ieltsReadingDeckTitles = {
       "Passage 1": {
@@ -184483,19 +184572,18 @@ window.EDMUND_FLASHCARD_SEED = {
     ];
     const dsePaper3Tasks = ["Task 1 (Transcript)", "Task 2 (Transcript)", "Task 3 (Transcript)", "Task 4 (Transcript)"];
     const dsePaper3PracticalWritingSections = [
-      "Letter of Enquiry",
-      "Negative Emails",
-      "Letter of Reply",
-      "Report",
-      "Proposal",
-      "Letter of Request",
-      "Promotional Article",
-      "Letter of Invitation - Spokesperson",
-      "Letter of Invitation - To Winners",
-      "Letter of Request (Informal)",
-      "Press Release",
-      "Speech",
-      "Outline"
+      { id: "letter-of-enquiry", label: "Letter of Enquiry" },
+      { id: "negative-emails", label: "Negative Letter" },
+      { id: "letter-of-reply", label: "Letter of Reply" },
+      { id: "report", label: "Report" },
+      { id: "proposal", label: "Proposal" },
+      { id: "letter-of-request", label: "Letter of Request" },
+      { id: "letter-of-invitation-spokesperson", label: "Letter of Invitation (Spokesperson)" },
+      { id: "letter-of-invitation-to-winners", label: "Letter of Invitation (Winner)" },
+      { id: "letter-of-request-informal", label: "Informal Letter of Request" },
+      { id: "press-release", label: "Press Release" },
+      { id: "speech", label: "Speech" },
+      { id: "outline", label: "Outline / Summary" }
     ];
     const businessEnglishSections = [
       { label: "Business Concepts - Standard Response", route: "business-english-business-concepts", prefix: "business-english/business-concepts-standard-response" },
@@ -187022,14 +187110,15 @@ window.EDMUND_FLASHCARD_SEED = {
       return { count: rows.length, latest };
     }
 
-    function ieltsPartIds(practicePrefix) {
-      return ["part-1", "part-2", "part-3", "part-4"].map(part => `${practicePrefix}/${part}`);
+    function ieltsListeningChildIds(practicePrefix) {
+      const practiceLabel = String(practicePrefix || "").split("/").at(-1) || "";
+      return ieltsListeningSections(practiceLabel).map(section => `${practicePrefix}/${section.id}`);
     }
 
     function isDeckCompleted(prefix, studentName = currentUser?.name) {
       if (!studentName) return false;
       if (/^ielts\/listening\/Practice \d+$/.test(prefix)) {
-        return ieltsPartIds(prefix).every(partDeckId => isDeckCompleted(partDeckId, studentName));
+        return ieltsListeningChildIds(prefix).every(sectionDeckId => isDeckCompleted(sectionDeckId, studentName));
       }
 
       const directCards = getDeckCards(prefix).length;
@@ -187610,8 +187699,8 @@ window.EDMUND_FLASHCARD_SEED = {
       ["part-a", "part-b1", "part-b2"].forEach(partKey => {
         const partTitle = titlePart(partKey);
         const partId = `dse/reading/${partKey}`;
-        addAggregate(partId, `DSE / Reading / ${partTitle}`, dseYears.length);
-        dseYears.forEach(year => addExact(`${partId}/${year}`, `DSE / Reading / ${partTitle} / ${year}`));
+        addAggregate(partId, `DSE / Reading / ${partTitle}`, dseReadingYears.length);
+        dseReadingYears.forEach(year => addExact(`${partId}/${year}`, `DSE / Reading / ${partTitle} / ${year}`));
       });
 
       addAggregate("dse/writing", "DSE / Writing", 2);
@@ -187633,7 +187722,7 @@ window.EDMUND_FLASHCARD_SEED = {
       ];
       paper3Sections.forEach(section => {
         const sectionId = `dse/paper-3/${section.id}`;
-        const sectionYears = section.taskMode ? dseListeningYears : dseYears;
+        const sectionYears = section.taskMode ? dseListeningYears : dsePaper3DataYears;
         addAggregate(sectionId, `DSE / Paper 3 / ${section.label}`, sectionYears.length);
         sectionYears.forEach(year => {
           const displayYear = section.taskMode ? dseListeningYearLabel(year) : year;
@@ -187657,7 +187746,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const practicalFormatsId = `${practicalWritingId}/practical-formats`;
       addAggregate(practicalFormatsId, `${practicalWritingTitle} / 實用文格式`, dsePaper3PracticalWritingSections.length);
       dsePaper3PracticalWritingSections.forEach(section => {
-        addExact(deckIdForLabel(practicalFormatsId, section, true), `${practicalWritingTitle} / 實用文格式 / ${section}`);
+        addExact(`${practicalFormatsId}/${section.id}`, `${practicalWritingTitle} / 實用文格式 / ${section.label}`);
       });
       addExact(`${practicalWritingId}/past-paper-samples`, `${practicalWritingTitle} / Past Paper 範文`);
 
@@ -187719,13 +187808,13 @@ window.EDMUND_FLASHCARD_SEED = {
         questions.forEach(row => addExact(`${typeId}/${row.ref}`, `IELTS / Writing / Task 2 (Essay) / ${type.label} / ${ieltsWritingQuestionLabel(row)}`));
       });
 
-      addAggregate("ielts/listening", "IELTS / Listening", ieltsListeningPractices.length);
-      ieltsListeningPractices.forEach(practiceLabel => {
+      addAggregate("ielts/listening", "IELTS / Listening", ieltsListeningPublishedPractices.length);
+      ieltsListeningPublishedPractices.forEach(practiceLabel => {
         const practiceId = deckIdForLabel("ielts/listening", practiceLabel);
         addAggregate(practiceId, `IELTS / Listening / ${practiceLabel}`, 4);
-        ["Part 1", "Part 2", "Part 3", "Part 4"].forEach(partLabel => {
-          const partId = `${practiceId}/${partLabel.toLowerCase().replaceAll(" ", "-")}`;
-          addExact(partId, `IELTS / Listening / ${practiceLabel} / ${partLabel}`);
+        ieltsListeningSections(practiceLabel).forEach(section => {
+          const sectionId = `${practiceId}/${section.id}`;
+          addExact(sectionId, `IELTS / Listening / ${practiceLabel} / ${section.label}`);
         });
       });
 
@@ -187989,16 +188078,17 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!deckId) return;
       const requestUser = currentUser;
       const requestView = currentView;
-      if (!aggregate) {
-        try {
+      try {
+        await ensureSupplementalFlashcardDataForDeck(deckId);
+        if (!aggregate) {
           await ensureIeltsReadingDataForDeck(deckId);
-        } catch (error) {
-          console.error(error);
-          window.alert("下載這個 Flash Cards 卡組時出現連線問題，請稍後再試。");
-          return;
         }
-        if (currentUser !== requestUser || currentView !== requestView) return;
+      } catch (error) {
+        console.error(error);
+        window.alert("下載這個 Flash Cards 卡組時出現連線問題，請稍後再試。");
+        return;
       }
+      if (currentUser !== requestUser || currentView !== requestView) return;
       const allRows = searchableDeckRows();
       const matchedRow = allRows.find(row => row.deckId === deckId);
       if (matchedRow?.deckTitle) deckTitleLabels.set(deckId, matchedRow.deckTitle);
@@ -189198,13 +189288,14 @@ window.EDMUND_FLASHCARD_SEED = {
       renderOptionsContent();
     }
 
-    function showDseReading() {
+    async function showDseReading() {
+      if (!await ensureSupplementalFlashcardViewData(DSE_READING_PREFIX)) return;
       showOptions(
         "DSE Reading",
         "Part A / Part B1 / Part B2",
-        () => columnHtml("Part A", dseYears, "dse/reading/part-a") +
-          columnHtml("Part B1", dseYears, "dse/reading/part-b1") +
-          columnHtml("Part B2", dseYears, "dse/reading/part-b2"),
+        () => columnHtml("Part A", dseReadingYears, "dse/reading/part-a") +
+          columnHtml("Part B1", dseReadingYears, "dse/reading/part-b1") +
+          columnHtml("Part B2", dseReadingYears, "dse/reading/part-b2"),
         "columns-grid"
       );
     }
@@ -189275,16 +189366,26 @@ window.EDMUND_FLASHCARD_SEED = {
       );
     }
 
-    function showDsePaper3PracticalFormats() {
+    async function showDsePaper3PracticalFormats() {
+      if (!await ensureSupplementalFlashcardViewData(DSE_PRACTICAL_WRITING_PREFIX)) return;
       showOptions(
         "DSE Paper 3 實用文格式",
         "選擇文體格式。",
-        () => columnHtml("實用文格式", dsePaper3PracticalWritingSections, "dse/paper-3/practical-english-writing/practical-formats", { useSlugs: true }),
+        () => `
+          <div class="option-column">
+            <h3>實用文格式</h3>
+            ${dsePaper3PracticalWritingSections.map(section => optionButton(
+              section.label,
+              `${DSE_PRACTICAL_WRITING_PREFIX}/${section.id}`,
+              `DSE / Paper 3 / 實用文格式 / ${section.label}`
+            )).join("")}
+          </div>
+        `,
         "columns-grid wide-one"
       );
     }
 
-    function showDsePaper3Years(partKey) {
+    async function showDsePaper3Years(partKey) {
       const configs = {
         "part-a": { title: "Part A (Listening)", prefix: "dse/paper-3/part-a-listening" },
         b1: { title: "Part B (Data File) - B1", prefix: "dse/paper-3/part-b-data-file-b1" },
@@ -189292,16 +189393,18 @@ window.EDMUND_FLASHCARD_SEED = {
       };
       const config = configs[partKey];
       if (!config) return;
+      const configYears = partKey === "part-a" ? dseListeningYears : dsePaper3DataYears;
+      if (partKey === "b2" && !await ensureSupplementalFlashcardViewData(config.prefix)) return;
       showOptions(
         `DSE Paper 3 ${config.title}`,
         "選擇年份。",
         () => partKey === "part-a"
-          ? routeColumnHtml(config.title, dseListeningYears.map(year => ({
+          ? routeColumnHtml(config.title, configYears.map(year => ({
             label: dseListeningYearLabel(year),
             route: `dse-paper3-tasks|${year}`,
             metaPrefix: `${config.prefix}/${year}`
           })))
-          : columnHtml(config.title, dseYears, config.prefix),
+          : columnHtml(config.title, configYears, config.prefix),
         "columns-grid one"
       );
     }
@@ -189515,21 +189618,41 @@ window.EDMUND_FLASHCARD_SEED = {
       );
     }
 
-    function showIeltsListening() {
+    function ieltsListeningSections(practiceLabel) {
+      const practiceNumber = Number(String(practiceLabel || "").match(/^Practice (\d+)$/)?.[1] || 0);
+      const sectionName = practiceNumber === 1 ? "Part" : "Task";
+      const sectionPrefix = practiceNumber === 1 ? "part" : "task";
+      return Array.from({ length: 4 }, (_, index) => ({
+        id: `${sectionPrefix}-${index + 1}`,
+        label: `${sectionName} ${index + 1}`
+      }));
+    }
+
+    async function showIeltsListening() {
+      if (!await ensureSupplementalFlashcardViewData(IELTS_LISTENING_PREFIX)) return;
       showOptions(
         "IELTS Listening",
-        "Practice 1 至 Practice 30",
-        () => columnHtml("Listening Practice", ieltsListeningPractices, "ielts/listening"),
+        "Practice 1 至 Practice 20",
+        () => routeColumnHtml("Listening Practice", ieltsListeningPublishedPractices.map(practiceLabel => ({
+          label: practiceLabel,
+          route: `ielts-listening-practice|${practiceLabel}`,
+          metaPrefix: `${IELTS_LISTENING_PREFIX}/${practiceLabel}`
+        }))),
         "columns-grid one"
       );
     }
 
-    function showIeltsParts(practiceLabel, deckPrefix) {
+    async function showIeltsParts(practiceLabel, deckPrefix = `${IELTS_LISTENING_PREFIX}/${practiceLabel}`) {
+      if (!await ensureSupplementalFlashcardViewData(deckPrefix)) return;
       showOptions(
         `IELTS Listening ${practiceLabel}`,
-        "請選擇部分",
-        () => ["Part 1", "Part 2", "Part 3", "Part 4"]
-          .map(part => optionButton(part, `${deckPrefix}/${part.toLowerCase().replaceAll(" ", "-")}`))
+        practiceLabel === "Practice 1" ? "請選擇部分" : "請選擇 Task",
+        () => ieltsListeningSections(practiceLabel)
+          .map(section => optionButton(
+            section.label,
+            `${deckPrefix}/${section.id}`,
+            `IELTS / Listening / ${practiceLabel} / ${section.label}`
+          ))
           .join(""),
         "columns-grid one"
       );
@@ -190419,6 +190542,7 @@ window.EDMUND_FLASHCARD_SEED = {
       }
       try {
         await ensureIeltsReadingDataForDeck(deckId);
+        await ensureSupplementalFlashcardDataForDeck(deckId);
       } catch (error) {
         console.error(error);
         requestedHomeworkDeckOpened = false;
@@ -192844,16 +192968,16 @@ window.EDMUND_FLASHCARD_SEED = {
           if (!canAccessRoute(route)) return;
           if (route === "dse-home") showAppPanel("dse-home");
           if (route === "ielts-home") showAppPanel("ielts-home");
-          if (route === "dse-reading") showDseReading();
+          if (route === "dse-reading") await showDseReading();
           if (route === "dse-writing") showDseWriting();
           if (route.startsWith("dse-writing-part-b-year|")) showDseWritingPartBQuestions(route.split("|")[1]);
           if (route === "dse-paper3") showDsePaper3();
-          if (route === "dse-paper3-part-a") showDsePaper3Years("part-a");
-          if (route === "dse-paper3-b1") showDsePaper3Years("b1");
-          if (route === "dse-paper3-b2") showDsePaper3Years("b2");
+          if (route === "dse-paper3-part-a") await showDsePaper3Years("part-a");
+          if (route === "dse-paper3-b1") await showDsePaper3Years("b1");
+          if (route === "dse-paper3-b2") await showDsePaper3Years("b2");
           if (route === "dse-paper3-podcast") showDsePaper3Podcast();
           if (route === "dse-paper3-practical-writing") showDsePaper3PracticalWriting();
-          if (route === "dse-paper3-practical-formats") showDsePaper3PracticalFormats();
+          if (route === "dse-paper3-practical-formats") await showDsePaper3PracticalFormats();
           if (route.startsWith("dse-paper3-tasks|")) showDsePaper3Tasks(route.split("|")[1]);
           if (route === "dse-speaking") showDseSpeaking();
           if (route.startsWith("dse-speaking-year|")) showDseSpeakingTypes(route.split("|")[1]);
@@ -192868,7 +192992,8 @@ window.EDMUND_FLASHCARD_SEED = {
           if (route.startsWith("ielts-writing-task1-type|")) showIeltsWritingTask1Decks(route.split("|")[1]);
           if (route === "ielts-writing-task2") showIeltsWritingTask2();
           if (route.startsWith("ielts-writing-task2|")) showIeltsWritingTask2Questions(route.split("|")[1]);
-          if (route === "ielts-listening") showIeltsListening();
+          if (route === "ielts-listening") await showIeltsListening();
+          if (route.startsWith("ielts-listening-practice|")) await showIeltsParts(route.split("|")[1]);
           if (route === "ielts-speaking") showIeltsSpeaking();
           if (route === "ielts-speaking-part1") showIeltsSpeakingPart1();
           if (route.startsWith("ielts-speaking-part1-book|")) showIeltsSpeakingPart1Topics(route.split("|")[1]);
@@ -192916,7 +193041,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (/^ielts\/listening\/Practice \d+$/.test(deckId)) {
             const deckParts = deckId.split("/");
             const practiceLabel = deckParts[deckParts.length - 1];
-            showIeltsParts(practiceLabel, deckId);
+            await showIeltsParts(practiceLabel, deckId);
           } else {
             openDeckStart(deckId);
           }

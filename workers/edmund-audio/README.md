@@ -9,6 +9,9 @@ immutable hash-prefix packs through these generated indexes:
 - `src/flashcard-pack-index-passage2.json` — the Passage 2 release
 - `src/flashcard-pack-index-reading-expansion.json` — the combined Passage 2
   additions and Passage 3 release
+- `src/flashcard-pack-index-flashcard-expansion.json` — the reserved 142-deck
+  IELTS Listening/DSE expansion; the Worker ignores it until its verified R2
+  upload sets `r2UploadComplete: true`
 
 All packed releases support browser byte-range requests and immutable one-year caching
 metadata. Every packed release uses a distinct public URL prefix; bytes must
@@ -61,6 +64,20 @@ Deploy and live-test the Worker after that upload. Then invoke the uploader
 again with `--prune-source-audio`; in this mode it only prunes source MP3s from
 the already-complete immutable release and performs no R2 writes.
 
-Keep all three index imports in release order in `src/index.js`: Passage 1,
-Passage 2, then the Reading expansion. Older release URLs and pack bytes remain
-unchanged when a later index is added.
+For the fourth release, build and locally validate from the repository root:
+
+```sh
+python3 tools/build-flashcard-audio-r2-packs-flashcard-expansion.py
+python3 tools/upload-flashcard-audio-packs-r2-flashcard-expansion.py \
+  --wrangler workers/speaking-system/node_modules/.bin/wrangler \
+  --check
+```
+
+Run `wrangler deploy --dry-run` before uploading. The normal uploader reads
+every pack back from R2 and checks its complete SHA-256 before setting the
+completion flag. Deploy and run `node tools/verify-live-edmund-audio.mjs` before
+invoking the uploader again with `--prune-source-audio`.
+
+Keep all four index imports in release order in `src/index.js`: Passage 1,
+Passage 2, Reading expansion, then the 142-deck flashcard expansion. Older
+release URLs and pack bytes remain unchanged when a later index is added.

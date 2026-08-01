@@ -3185,6 +3185,102 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-a-listening%2F2025%2FTask%204%20(Transcript)"
   },
   {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2012",
+    "type": "flashcards",
+    "ordinal": 2012,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2012",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2012 · 233 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2012"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2013",
+    "type": "flashcards",
+    "ordinal": 2013,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2013",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2013 · 235 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2013"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2014",
+    "type": "flashcards",
+    "ordinal": 2014,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2014",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2014 · 266 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2014"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2015",
+    "type": "flashcards",
+    "ordinal": 2015,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2015",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2015 · 252 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2015"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2016",
+    "type": "flashcards",
+    "ordinal": 2016,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2016",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2016 · 254 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2016"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2017",
+    "type": "flashcards",
+    "ordinal": 2017,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2017",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2017 · 221 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2017"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2018",
+    "type": "flashcards",
+    "ordinal": 2018,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2018",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2018 · 194 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2018"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2019",
+    "type": "flashcards",
+    "ordinal": 2019,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2019",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2019 · 228 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2019"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2020",
+    "type": "flashcards",
+    "ordinal": 2020,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2020",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2020 · 243 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2020"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2021",
+    "type": "flashcards",
+    "ordinal": 2021,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2021",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2021 · 245 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2021"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2022",
+    "type": "flashcards",
+    "ordinal": 2022,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2022",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2022 · 239 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2022"
+  },
+  {
+    "id": "flash:dse/paper-3/part-b-data-file-b2/2023",
+    "type": "flashcards",
+    "ordinal": 2023,
+    "label": "DSE / Paper 3 / Part B Data File B2 / 2023",
+    "detail": "DSE / Paper 3 / Part B Data File B2 / 2023 · 331 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpart-b-data-file-b2%2F2023"
+  },
+  {
     "id": "flash:dse/paper-3/part-b-data-file-b2/2024",
     "type": "flashcards",
     "ordinal": 2024,
@@ -3303,6 +3399,438 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "DSE / Paper 3 / Podcast / 2025",
     "detail": "DSE / Paper 3 / Podcast / 2025 · 144 cards",
     "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpodcast%2F2025"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/letter-of-enquiry",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Enquiry",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Enquiry · 54 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Fletter-of-enquiry"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/letter-of-invitation-spokesperson",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Invitation Spokesperson",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Invitation Spokesperson · 80 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Fletter-of-invitation-spokesperson"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/letter-of-invitation-to-winners",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Invitation To Winners",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Invitation To Winners · 60 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Fletter-of-invitation-to-winners"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/letter-of-reply",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Reply",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Reply · 38 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Fletter-of-reply"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/letter-of-request",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Request",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Request · 45 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Fletter-of-request"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/letter-of-request-informal",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Request Informal",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Letter Of Request Informal · 61 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Fletter-of-request-informal"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/negative-emails",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Negative Emails",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Negative Emails · 27 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Fnegative-emails"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/outline",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Outline",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Outline · 44 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Foutline"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/press-release",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Press Release",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Press Release · 55 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Fpress-release"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/proposal",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Proposal",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Proposal · 58 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Fproposal"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/report",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Report",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Report · 40 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Freport"
+  },
+  {
+    "id": "flash:dse/paper-3/practical-english-writing/practical-formats/speech",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "DSE / Paper 3 / Practical English Writing / Practical Formats / Speech",
+    "detail": "DSE / Paper 3 / Practical English Writing / Practical Formats / Speech · 68 cards",
+    "url": "flashcards.html?deck=dse%2Fpaper-3%2Fpractical-english-writing%2Fpractical-formats%2Fspeech"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2012",
+    "type": "flashcards",
+    "ordinal": 2012,
+    "label": "DSE / Reading / Part A / 2012",
+    "detail": "DSE / Reading / Part A / 2012 · 151 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2012"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2013",
+    "type": "flashcards",
+    "ordinal": 2013,
+    "label": "DSE / Reading / Part A / 2013",
+    "detail": "DSE / Reading / Part A / 2013 · 206 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2013"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2014",
+    "type": "flashcards",
+    "ordinal": 2014,
+    "label": "DSE / Reading / Part A / 2014",
+    "detail": "DSE / Reading / Part A / 2014 · 169 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2014"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2015",
+    "type": "flashcards",
+    "ordinal": 2015,
+    "label": "DSE / Reading / Part A / 2015",
+    "detail": "DSE / Reading / Part A / 2015 · 156 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2015"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2016",
+    "type": "flashcards",
+    "ordinal": 2016,
+    "label": "DSE / Reading / Part A / 2016",
+    "detail": "DSE / Reading / Part A / 2016 · 148 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2016"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2017",
+    "type": "flashcards",
+    "ordinal": 2017,
+    "label": "DSE / Reading / Part A / 2017",
+    "detail": "DSE / Reading / Part A / 2017 · 206 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2017"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2018",
+    "type": "flashcards",
+    "ordinal": 2018,
+    "label": "DSE / Reading / Part A / 2018",
+    "detail": "DSE / Reading / Part A / 2018 · 188 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2018"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2019",
+    "type": "flashcards",
+    "ordinal": 2019,
+    "label": "DSE / Reading / Part A / 2019",
+    "detail": "DSE / Reading / Part A / 2019 · 156 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2019"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2020",
+    "type": "flashcards",
+    "ordinal": 2020,
+    "label": "DSE / Reading / Part A / 2020",
+    "detail": "DSE / Reading / Part A / 2020 · 184 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2020"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2021",
+    "type": "flashcards",
+    "ordinal": 2021,
+    "label": "DSE / Reading / Part A / 2021",
+    "detail": "DSE / Reading / Part A / 2021 · 150 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2021"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2022",
+    "type": "flashcards",
+    "ordinal": 2022,
+    "label": "DSE / Reading / Part A / 2022",
+    "detail": "DSE / Reading / Part A / 2022 · 222 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2022"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2023",
+    "type": "flashcards",
+    "ordinal": 2023,
+    "label": "DSE / Reading / Part A / 2023",
+    "detail": "DSE / Reading / Part A / 2023 · 152 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2023"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2024",
+    "type": "flashcards",
+    "ordinal": 2024,
+    "label": "DSE / Reading / Part A / 2024",
+    "detail": "DSE / Reading / Part A / 2024 · 179 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2024"
+  },
+  {
+    "id": "flash:dse/reading/part-a/2025",
+    "type": "flashcards",
+    "ordinal": 2025,
+    "label": "DSE / Reading / Part A / 2025",
+    "detail": "DSE / Reading / Part A / 2025 · 172 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-a%2F2025"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2012",
+    "type": "flashcards",
+    "ordinal": 2012,
+    "label": "DSE / Reading / Part B1 / 2012",
+    "detail": "DSE / Reading / Part B1 / 2012 · 131 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2012"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2013",
+    "type": "flashcards",
+    "ordinal": 2013,
+    "label": "DSE / Reading / Part B1 / 2013",
+    "detail": "DSE / Reading / Part B1 / 2013 · 146 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2013"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2014",
+    "type": "flashcards",
+    "ordinal": 2014,
+    "label": "DSE / Reading / Part B1 / 2014",
+    "detail": "DSE / Reading / Part B1 / 2014 · 141 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2014"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2015",
+    "type": "flashcards",
+    "ordinal": 2015,
+    "label": "DSE / Reading / Part B1 / 2015",
+    "detail": "DSE / Reading / Part B1 / 2015 · 155 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2015"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2016",
+    "type": "flashcards",
+    "ordinal": 2016,
+    "label": "DSE / Reading / Part B1 / 2016",
+    "detail": "DSE / Reading / Part B1 / 2016 · 150 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2016"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2017",
+    "type": "flashcards",
+    "ordinal": 2017,
+    "label": "DSE / Reading / Part B1 / 2017",
+    "detail": "DSE / Reading / Part B1 / 2017 · 169 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2017"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2018",
+    "type": "flashcards",
+    "ordinal": 2018,
+    "label": "DSE / Reading / Part B1 / 2018",
+    "detail": "DSE / Reading / Part B1 / 2018 · 196 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2018"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2019",
+    "type": "flashcards",
+    "ordinal": 2019,
+    "label": "DSE / Reading / Part B1 / 2019",
+    "detail": "DSE / Reading / Part B1 / 2019 · 166 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2019"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2020",
+    "type": "flashcards",
+    "ordinal": 2020,
+    "label": "DSE / Reading / Part B1 / 2020",
+    "detail": "DSE / Reading / Part B1 / 2020 · 155 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2020"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2021",
+    "type": "flashcards",
+    "ordinal": 2021,
+    "label": "DSE / Reading / Part B1 / 2021",
+    "detail": "DSE / Reading / Part B1 / 2021 · 169 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2021"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2022",
+    "type": "flashcards",
+    "ordinal": 2022,
+    "label": "DSE / Reading / Part B1 / 2022",
+    "detail": "DSE / Reading / Part B1 / 2022 · 183 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2022"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2023",
+    "type": "flashcards",
+    "ordinal": 2023,
+    "label": "DSE / Reading / Part B1 / 2023",
+    "detail": "DSE / Reading / Part B1 / 2023 · 142 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2023"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2024",
+    "type": "flashcards",
+    "ordinal": 2024,
+    "label": "DSE / Reading / Part B1 / 2024",
+    "detail": "DSE / Reading / Part B1 / 2024 · 166 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2024"
+  },
+  {
+    "id": "flash:dse/reading/part-b1/2025",
+    "type": "flashcards",
+    "ordinal": 2025,
+    "label": "DSE / Reading / Part B1 / 2025",
+    "detail": "DSE / Reading / Part B1 / 2025 · 192 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b1%2F2025"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2012",
+    "type": "flashcards",
+    "ordinal": 2012,
+    "label": "DSE / Reading / Part B2 / 2012",
+    "detail": "DSE / Reading / Part B2 / 2012 · 166 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2012"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2013",
+    "type": "flashcards",
+    "ordinal": 2013,
+    "label": "DSE / Reading / Part B2 / 2013",
+    "detail": "DSE / Reading / Part B2 / 2013 · 202 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2013"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2014",
+    "type": "flashcards",
+    "ordinal": 2014,
+    "label": "DSE / Reading / Part B2 / 2014",
+    "detail": "DSE / Reading / Part B2 / 2014 · 236 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2014"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2015",
+    "type": "flashcards",
+    "ordinal": 2015,
+    "label": "DSE / Reading / Part B2 / 2015",
+    "detail": "DSE / Reading / Part B2 / 2015 · 211 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2015"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2016",
+    "type": "flashcards",
+    "ordinal": 2016,
+    "label": "DSE / Reading / Part B2 / 2016",
+    "detail": "DSE / Reading / Part B2 / 2016 · 215 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2016"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2017",
+    "type": "flashcards",
+    "ordinal": 2017,
+    "label": "DSE / Reading / Part B2 / 2017",
+    "detail": "DSE / Reading / Part B2 / 2017 · 192 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2017"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2018",
+    "type": "flashcards",
+    "ordinal": 2018,
+    "label": "DSE / Reading / Part B2 / 2018",
+    "detail": "DSE / Reading / Part B2 / 2018 · 211 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2018"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2019",
+    "type": "flashcards",
+    "ordinal": 2019,
+    "label": "DSE / Reading / Part B2 / 2019",
+    "detail": "DSE / Reading / Part B2 / 2019 · 180 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2019"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2020",
+    "type": "flashcards",
+    "ordinal": 2020,
+    "label": "DSE / Reading / Part B2 / 2020",
+    "detail": "DSE / Reading / Part B2 / 2020 · 189 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2020"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2021",
+    "type": "flashcards",
+    "ordinal": 2021,
+    "label": "DSE / Reading / Part B2 / 2021",
+    "detail": "DSE / Reading / Part B2 / 2021 · 177 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2021"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2022",
+    "type": "flashcards",
+    "ordinal": 2022,
+    "label": "DSE / Reading / Part B2 / 2022",
+    "detail": "DSE / Reading / Part B2 / 2022 · 226 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2022"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2023",
+    "type": "flashcards",
+    "ordinal": 2023,
+    "label": "DSE / Reading / Part B2 / 2023",
+    "detail": "DSE / Reading / Part B2 / 2023 · 181 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2023"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2024",
+    "type": "flashcards",
+    "ordinal": 2024,
+    "label": "DSE / Reading / Part B2 / 2024",
+    "detail": "DSE / Reading / Part B2 / 2024 · 206 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2024"
+  },
+  {
+    "id": "flash:dse/reading/part-b2/2025",
+    "type": "flashcards",
+    "ordinal": 2025,
+    "label": "DSE / Reading / Part B2 / 2025",
+    "detail": "DSE / Reading / Part B2 / 2025 · 183 cards",
+    "url": "flashcards.html?deck=dse%2Freading%2Fpart-b2%2F2025"
   },
   {
     "id": "flash:dse/speaking/2012 DSE/passage/3.1",
@@ -5575,6 +6103,614 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "IELTS / Listening / Practice 1 / Part 4",
     "detail": "IELTS / Listening / Practice 1 / Part 4 · 182 cards",
     "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%201%2Fpart-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 2/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 2 / Task 1",
+    "detail": "IELTS / Listening / Practice 2 / Task 1 · 99 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%202%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 2/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 2 / Task 2",
+    "detail": "IELTS / Listening / Practice 2 / Task 2 · 145 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%202%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 2/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 2 / Task 3",
+    "detail": "IELTS / Listening / Practice 2 / Task 3 · 146 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%202%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 2/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 2 / Task 4",
+    "detail": "IELTS / Listening / Practice 2 / Task 4 · 177 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%202%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 3/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 3 / Task 1",
+    "detail": "IELTS / Listening / Practice 3 / Task 1 · 107 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%203%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 3/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 3 / Task 2",
+    "detail": "IELTS / Listening / Practice 3 / Task 2 · 155 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%203%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 3/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 3 / Task 3",
+    "detail": "IELTS / Listening / Practice 3 / Task 3 · 172 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%203%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 3/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 3 / Task 4",
+    "detail": "IELTS / Listening / Practice 3 / Task 4 · 146 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%203%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 4/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 4 / Task 1",
+    "detail": "IELTS / Listening / Practice 4 / Task 1 · 118 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%204%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 4/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 4 / Task 2",
+    "detail": "IELTS / Listening / Practice 4 / Task 2 · 148 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%204%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 4/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 4 / Task 3",
+    "detail": "IELTS / Listening / Practice 4 / Task 3 · 174 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%204%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 4/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 4 / Task 4",
+    "detail": "IELTS / Listening / Practice 4 / Task 4 · 136 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%204%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 5/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 5 / Task 1",
+    "detail": "IELTS / Listening / Practice 5 / Task 1 · 110 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%205%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 5/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 5 / Task 2",
+    "detail": "IELTS / Listening / Practice 5 / Task 2 · 141 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%205%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 5/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 5 / Task 3",
+    "detail": "IELTS / Listening / Practice 5 / Task 3 · 136 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%205%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 5/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 5 / Task 4",
+    "detail": "IELTS / Listening / Practice 5 / Task 4 · 136 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%205%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 6/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 6 / Task 1",
+    "detail": "IELTS / Listening / Practice 6 / Task 1 · 109 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%206%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 6/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 6 / Task 2",
+    "detail": "IELTS / Listening / Practice 6 / Task 2 · 124 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%206%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 6/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 6 / Task 3",
+    "detail": "IELTS / Listening / Practice 6 / Task 3 · 137 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%206%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 6/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 6 / Task 4",
+    "detail": "IELTS / Listening / Practice 6 / Task 4 · 155 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%206%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 7/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 7 / Task 1",
+    "detail": "IELTS / Listening / Practice 7 / Task 1 · 104 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%207%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 7/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 7 / Task 2",
+    "detail": "IELTS / Listening / Practice 7 / Task 2 · 115 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%207%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 7/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 7 / Task 3",
+    "detail": "IELTS / Listening / Practice 7 / Task 3 · 111 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%207%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 7/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 7 / Task 4",
+    "detail": "IELTS / Listening / Practice 7 / Task 4 · 141 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%207%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 8/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 8 / Task 1",
+    "detail": "IELTS / Listening / Practice 8 / Task 1 · 113 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%208%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 8/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 8 / Task 2",
+    "detail": "IELTS / Listening / Practice 8 / Task 2 · 117 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%208%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 8/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 8 / Task 3",
+    "detail": "IELTS / Listening / Practice 8 / Task 3 · 142 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%208%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 8/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 8 / Task 4",
+    "detail": "IELTS / Listening / Practice 8 / Task 4 · 163 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%208%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 9/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 9 / Task 1",
+    "detail": "IELTS / Listening / Practice 9 / Task 1 · 87 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%209%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 9/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 9 / Task 2",
+    "detail": "IELTS / Listening / Practice 9 / Task 2 · 127 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%209%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 9/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 9 / Task 3",
+    "detail": "IELTS / Listening / Practice 9 / Task 3 · 115 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%209%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 9/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 9 / Task 4",
+    "detail": "IELTS / Listening / Practice 9 / Task 4 · 128 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%209%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 10/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 10 / Task 1",
+    "detail": "IELTS / Listening / Practice 10 / Task 1 · 119 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2010%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 10/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 10 / Task 2",
+    "detail": "IELTS / Listening / Practice 10 / Task 2 · 98 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2010%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 10/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 10 / Task 3",
+    "detail": "IELTS / Listening / Practice 10 / Task 3 · 119 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2010%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 10/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 10 / Task 4",
+    "detail": "IELTS / Listening / Practice 10 / Task 4 · 121 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2010%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 11/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 11 / Task 1",
+    "detail": "IELTS / Listening / Practice 11 / Task 1 · 85 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2011%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 11/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 11 / Task 2",
+    "detail": "IELTS / Listening / Practice 11 / Task 2 · 127 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2011%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 11/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 11 / Task 3",
+    "detail": "IELTS / Listening / Practice 11 / Task 3 · 99 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2011%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 11/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 11 / Task 4",
+    "detail": "IELTS / Listening / Practice 11 / Task 4 · 116 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2011%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 12/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 12 / Task 1",
+    "detail": "IELTS / Listening / Practice 12 / Task 1 · 118 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2012%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 12/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 12 / Task 2",
+    "detail": "IELTS / Listening / Practice 12 / Task 2 · 125 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2012%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 12/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 12 / Task 3",
+    "detail": "IELTS / Listening / Practice 12 / Task 3 · 120 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2012%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 12/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 12 / Task 4",
+    "detail": "IELTS / Listening / Practice 12 / Task 4 · 135 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2012%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 13/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 13 / Task 1",
+    "detail": "IELTS / Listening / Practice 13 / Task 1 · 123 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2013%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 13/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 13 / Task 2",
+    "detail": "IELTS / Listening / Practice 13 / Task 2 · 126 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2013%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 13/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 13 / Task 3",
+    "detail": "IELTS / Listening / Practice 13 / Task 3 · 117 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2013%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 13/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 13 / Task 4",
+    "detail": "IELTS / Listening / Practice 13 / Task 4 · 120 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2013%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 14/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 14 / Task 1",
+    "detail": "IELTS / Listening / Practice 14 / Task 1 · 96 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2014%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 14/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 14 / Task 2",
+    "detail": "IELTS / Listening / Practice 14 / Task 2 · 129 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2014%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 14/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 14 / Task 3",
+    "detail": "IELTS / Listening / Practice 14 / Task 3 · 138 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2014%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 14/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 14 / Task 4",
+    "detail": "IELTS / Listening / Practice 14 / Task 4 · 124 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2014%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 15/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 15 / Task 1",
+    "detail": "IELTS / Listening / Practice 15 / Task 1 · 102 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2015%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 15/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 15 / Task 2",
+    "detail": "IELTS / Listening / Practice 15 / Task 2 · 125 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2015%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 15/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 15 / Task 3",
+    "detail": "IELTS / Listening / Practice 15 / Task 3 · 116 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2015%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 15/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 15 / Task 4",
+    "detail": "IELTS / Listening / Practice 15 / Task 4 · 141 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2015%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 16/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 16 / Task 1",
+    "detail": "IELTS / Listening / Practice 16 / Task 1 · 85 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2016%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 16/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 16 / Task 2",
+    "detail": "IELTS / Listening / Practice 16 / Task 2 · 112 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2016%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 16/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 16 / Task 3",
+    "detail": "IELTS / Listening / Practice 16 / Task 3 · 117 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2016%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 16/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 16 / Task 4",
+    "detail": "IELTS / Listening / Practice 16 / Task 4 · 129 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2016%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 17/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 17 / Task 1",
+    "detail": "IELTS / Listening / Practice 17 / Task 1 · 82 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2017%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 17/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 17 / Task 2",
+    "detail": "IELTS / Listening / Practice 17 / Task 2 · 123 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2017%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 17/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 17 / Task 3",
+    "detail": "IELTS / Listening / Practice 17 / Task 3 · 116 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2017%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 17/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 17 / Task 4",
+    "detail": "IELTS / Listening / Practice 17 / Task 4 · 127 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2017%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 18/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 18 / Task 1",
+    "detail": "IELTS / Listening / Practice 18 / Task 1 · 189 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2018%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 18/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 18 / Task 2",
+    "detail": "IELTS / Listening / Practice 18 / Task 2 · 119 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2018%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 18/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 18 / Task 3",
+    "detail": "IELTS / Listening / Practice 18 / Task 3 · 117 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2018%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 18/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 18 / Task 4",
+    "detail": "IELTS / Listening / Practice 18 / Task 4 · 140 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2018%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 19/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 19 / Task 1",
+    "detail": "IELTS / Listening / Practice 19 / Task 1 · 104 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2019%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 19/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 19 / Task 2",
+    "detail": "IELTS / Listening / Practice 19 / Task 2 · 121 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2019%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 19/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 19 / Task 3",
+    "detail": "IELTS / Listening / Practice 19 / Task 3 · 114 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2019%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 19/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 19 / Task 4",
+    "detail": "IELTS / Listening / Practice 19 / Task 4 · 127 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2019%2Ftask-4"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 20/task-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "IELTS / Listening / Practice 20 / Task 1",
+    "detail": "IELTS / Listening / Practice 20 / Task 1 · 108 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2020%2Ftask-1"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 20/task-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "IELTS / Listening / Practice 20 / Task 2",
+    "detail": "IELTS / Listening / Practice 20 / Task 2 · 109 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2020%2Ftask-2"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 20/task-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "IELTS / Listening / Practice 20 / Task 3",
+    "detail": "IELTS / Listening / Practice 20 / Task 3 · 132 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2020%2Ftask-3"
+  },
+  {
+    "id": "flash:ielts/listening/Practice 20/task-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "IELTS / Listening / Practice 20 / Task 4",
+    "detail": "IELTS / Listening / Practice 20 / Task 4 · 116 cards",
+    "url": "flashcards.html?deck=ielts%2Flistening%2FPractice%2020%2Ftask-4"
   },
   {
     "id": "flash:ielts/reading/passage-1/Practice 1",

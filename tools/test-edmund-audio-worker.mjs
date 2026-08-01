@@ -6,30 +6,37 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const passage1PackIndex = JSON.parse(
-  fs.readFileSync(path.join(root, "workers/edmund-audio/src/flashcard-pack-index.json"), "utf8")
-);
-const passage2PackIndex = JSON.parse(
-  fs.readFileSync(
-    path.join(root, "workers/edmund-audio/src/flashcard-pack-index-passage2.json"),
-    "utf8"
-  )
-);
-const readingExpansionPackIndex = JSON.parse(
-  fs.readFileSync(
-    path.join(
-      root,
-      "workers/edmund-audio/src/flashcard-pack-index-reading-expansion.json"
-    ),
-    "utf8"
-  )
-);
-const packIndexes = [
-  passage1PackIndex,
-  passage2PackIndex,
-  readingExpansionPackIndex
+const publicHost = "https://edmund-neural-audio.edmundeducation.workers.dev";
+const indexContracts = [
+  {
+    file: "flashcard-pack-index.json",
+    prefix: "assets/flashcards/audio/edmund-neural/v1-passage1-20260722/",
+    mustBeComplete: true,
+  },
+  {
+    file: "flashcard-pack-index-passage2.json",
+    prefix: "assets/flashcards/audio/edmund-neural/v1-passage2-20260730-1/",
+    mustBeComplete: true,
+  },
+  {
+    file: "flashcard-pack-index-reading-expansion.json",
+    prefix: "assets/flashcards/audio/edmund-neural/v1-reading-expansion-20260731-1/",
+    release: "v1-reading-expansion-20260731-1",
+    mustBeComplete: true,
+  },
+  {
+    file: "flashcard-pack-index-flashcard-expansion.json",
+    prefix: "assets/flashcards/audio/edmund-neural/v1-flashcard-expansion-20260801-1/",
+    release: "v1-flashcard-expansion-20260801-1",
+    mustBeComplete: false,
+  },
 ];
-const packIndex = passage1PackIndex;
+const indexes = indexContracts.map((contract) => ({
+  ...contract,
+  value: JSON.parse(
+    fs.readFileSync(path.join(root, "workers/edmund-audio/src", contract.file), "utf8")
+  ),
+}));
 const workerModule = await import(
   pathToFileURL(path.join(root, "workers/edmund-audio/src/index.js")).href
 );
@@ -41,87 +48,133 @@ function assert(condition, message) {
 }
 
 
+for (const contract of indexes) {
+  const index = contract.value;
+  assert(index.schemaVersion === 1, `${contract.file} has an invalid schema`);
+  assert(index.audioPathPrefix === contract.prefix, `${contract.file} changed public prefix`);
+  assert(index.packKeyPrefix === contract.prefix, `${contract.file} changed pack-key prefix`);
+  assert(index.cloudBaseUrl === publicHost, `${contract.file} changed public host`);
+  if (contract.release) {
+    assert(index.meta?.release === contract.release, `${contract.file} changed release name`);
+  }
+  if (contract.mustBeComplete) {
+    assert(index.meta?.r2UploadComplete === true, `${contract.file} is not complete`);
+  } else {
+    assert(
+      typeof index.meta?.r2UploadComplete === "boolean",
+      `${contract.file} has an invalid completion marker`
+    );
+    if (!index.meta.r2UploadComplete) {
+      assert(index.meta.entryCount === 0, "Pending fourth release must have zero entries");
+      assert(Object.keys(index.entries).length === 0, "Pending fourth release exposes entries");
+      assert(Object.keys(index.packs).length === 0, "Pending fourth release exposes packs");
+    }
+  }
+}
+
+const readingExpansion = indexes[2].value;
+assert(readingExpansion.meta.baselineEntryCount === 91338, "Reading baseline count changed");
 assert(
-  passage1PackIndex.audioPathPrefix ===
-    "assets/flashcards/audio/edmund-neural/v1-passage1-20260722/",
-  "The established Passage 1 public audio URL prefix changed"
+  readingExpansion.meta.baselineManifestSha256 ===
+    "2d496c54e8d8104c89eff5ef28ec230c2a21e755af05b0d35fef19981b3bd950",
+  "Reading baseline manifest hash changed"
 );
 assert(
-  passage2PackIndex.audioPathPrefix ===
-    "assets/flashcards/audio/edmund-neural/v1-passage2-20260730-1/",
-  "The Passage 2 public audio URL prefix is wrong"
+  readingExpansion.meta.baselineMappingSha256 ===
+    "4cf616f93a6b2ff5066fca610b8cae0ca8750c6429b62eac641a27974c0369c0",
+  "Reading baseline mapping hash changed"
 );
 assert(
-  readingExpansionPackIndex.audioPathPrefix ===
-    "assets/flashcards/audio/edmund-neural/v1-reading-expansion-20260731-1/",
-  "The Reading expansion public audio URL prefix is wrong"
+  readingExpansion.meta.baselineCorpusSha256 ===
+    "94cc0319aba7d0d024c86a811cfb011dee35ebaf4dd641638a6ee603065298fc",
+  "Reading baseline corpus hash changed"
+);
+
+const flashcardExpansion = indexes[3].value;
+assert(flashcardExpansion.meta.baselineEntryCount === 118304, "Fourth baseline count changed");
+assert(
+  flashcardExpansion.meta.baselineManifestSha256 ===
+    "9525ffdb8b600d50cc70ab26627fdc6959070df5dbc7bcfad852897bf3ffc1bb",
+  "Fourth baseline manifest hash changed"
 );
 assert(
-  readingExpansionPackIndex.meta?.release === "v1-reading-expansion-20260731-1",
-  "The Reading expansion release metadata is wrong"
+  flashcardExpansion.meta.baselineMappingSha256 ===
+    "59751d5405a4117a32057740f6202671118426db6ba26ce8ba5f80a5e4235eb8",
+  "Fourth baseline mapping hash changed"
 );
 assert(
-  readingExpansionPackIndex.cloudBaseUrl === "https://edmund-neural-audio.edmundeducation.workers.dev",
-  "The Reading expansion public host is wrong"
+  flashcardExpansion.meta.baselineCorpusSha256 ===
+    "eb1376e535c27570be8fb3ed385646f2ac3d4d0cf1ffc52e2b4f1ce4ec50f73f",
+  "Fourth baseline corpus hash changed"
 );
-assert(readingExpansionPackIndex.meta?.baselineEntryCount === 91338, "The immutable baseline entry count changed");
+assert(flashcardExpansion.meta.sourceDeckCount === 142, "Fourth release must cover 142 decks");
 assert(
-  readingExpansionPackIndex.meta?.baselineManifestSha256 === "2d496c54e8d8104c89eff5ef28ec230c2a21e755af05b0d35fef19981b3bd950",
-  "The immutable baseline manifest hash changed"
+  flashcardExpansion.meta.sourceSections?.map((row) => [row.id, row.deckCount]).join("|") ===
+    [
+      ["ielts-listening-practices-2-20", 76],
+      ["dse-reading-2012-2025", 42],
+      ["dse-practical-writing", 12],
+      ["dse-paper3-b2-data-files-2012-2023", 12],
+    ].join("|"),
+  "Fourth release section inventory changed"
 );
+if (flashcardExpansion.meta.r2UploadComplete) {
+  assert(flashcardExpansion.meta.entryCount === 16083, "Fourth release entry count changed");
+  assert(flashcardExpansion.meta.sourceEntryCount === 18943, "Fourth source count changed");
+  assert(flashcardExpansion.meta.sourceCardCount === 20506, "Fourth source card count changed");
+  assert(
+    flashcardExpansion.meta.excludedExistingEntryCount === 2860,
+    "Fourth baseline-overlap count changed"
+  );
+  assert(
+    flashcardExpansion.meta.sourceCorpusSha256 ===
+      "ace3c896b6bc4dfb6cc2e649b0da95432d10825527d66924a8184c22c7c53b2f",
+    "Fourth source corpus changed"
+  );
+  assert(
+    flashcardExpansion.meta.corpusSha256 ===
+      "22913b458da32795beeccc8e420effd48d2afbc31dd4e5ee07748cf1598c7878",
+    "Fourth new corpus changed"
+  );
+}
+
+const prefixes = indexes.map(({ value }) => value.audioPathPrefix);
 assert(
-  readingExpansionPackIndex.meta?.baselineMappingSha256 === "4cf616f93a6b2ff5066fca610b8cae0ca8750c6429b62eac641a27974c0369c0",
-  "The immutable baseline mapping hash changed"
-);
-assert(
-  readingExpansionPackIndex.meta?.baselineCorpusSha256 === "94cc0319aba7d0d024c86a811cfb011dee35ebaf4dd641638a6ee603065298fc",
-  "The immutable baseline corpus hash changed"
-);
-const packIndexPrefixes = packIndexes.map(index => index.audioPathPrefix);
-assert(
-  packIndexPrefixes.every((prefix, index) =>
-    packIndexPrefixes.every((otherPrefix, otherIndex) =>
+  prefixes.every((prefix, index) =>
+    prefixes.every((otherPrefix, otherIndex) =>
       index === otherIndex || (!prefix.startsWith(otherPrefix) && !otherPrefix.startsWith(prefix))
     )
   ),
-  "Worker pack-index precedence is ambiguous because release URL prefixes overlap"
-);
-assert(
-  packIndexes.every(index => index.meta?.r2UploadComplete === true),
-  "Every Worker pack index must be marked as fully uploaded"
+  "Worker pack-index precedence is ambiguous because URL prefixes overlap"
 );
 
+const completed = indexes.filter(({ value }) => value.meta.r2UploadComplete);
+const fixtures = [];
+for (const [fixtureIndex, contract] of completed.entries()) {
+  const index = contract.value;
+  const prefix = Object.keys(index.entries).sort()[0];
+  const suffix = Object.keys(index.entries[prefix] || {}).sort()[0];
+  assert(prefix && suffix, `${contract.file} has no indexed recording`);
+  const digest = `${prefix}${suffix}`;
+  const [offset, length] = index.entries[prefix][suffix];
+  const pack = index.packs[prefix];
+  assert(pack?.key && length > 1000, `${contract.file} has an invalid first recording`);
+  fixtures.push({
+    ...contract,
+    index,
+    prefix,
+    digest,
+    offset,
+    length,
+    pack,
+    fill: 0x5a + fixtureIndex * 0x11,
+  });
+}
 
-const prefix = Object.keys(packIndex.entries).sort()[0];
-assert(prefix, "Flashcard pack index has no entries");
-const suffix = Object.keys(packIndex.entries[prefix]).sort()[0];
-const digest = `${prefix}${suffix}`;
-const [offset, length] = packIndex.entries[prefix][suffix];
-const pack = packIndex.packs[prefix];
-const passage2Prefix = Object.keys(passage2PackIndex.entries).sort()[0];
-assert(passage2Prefix, "Passage 2 flashcard pack index has no entries");
-const passage2Suffix = Object.keys(passage2PackIndex.entries[passage2Prefix]).sort()[0];
-const passage2Digest = `${passage2Prefix}${passage2Suffix}`;
-const [passage2Offset, passage2Length] =
-  passage2PackIndex.entries[passage2Prefix][passage2Suffix];
-const passage2Pack = passage2PackIndex.packs[passage2Prefix];
-const readingExpansionPrefix = Object.keys(readingExpansionPackIndex.entries).sort()[0];
-assert(readingExpansionPrefix, "Reading expansion flashcard pack index has no entries");
-const readingExpansionSuffix = Object.keys(
-  readingExpansionPackIndex.entries[readingExpansionPrefix]
-).sort()[0];
-const readingExpansionDigest = `${readingExpansionPrefix}${readingExpansionSuffix}`;
-const [readingExpansionOffset, readingExpansionLength] =
-  readingExpansionPackIndex.entries[readingExpansionPrefix][readingExpansionSuffix];
-const readingExpansionPack = readingExpansionPackIndex.packs[readingExpansionPrefix];
-const packFixtures = new Map([
-  [pack.key, { fill: 0x5a, pack }],
-  [passage2Pack.key, { fill: 0x6b, pack: passage2Pack }],
-  [readingExpansionPack.key, { fill: 0x7c, pack: readingExpansionPack }]
-]);
+const packFixtures = new Map(
+  fixtures.map((fixture) => [fixture.pack.key, { fill: fixture.fill, pack: fixture.pack }])
+);
 const getCalls = [];
-
-
 const env = {
   EDMUND_ASSETS: {
     async head(key) {
@@ -134,242 +187,141 @@ const env = {
       const range = options.range || { offset: 0, length: fixture.pack.size };
       getCalls.push({ key, ...range });
       return { body: Buffer.alloc(range.length, fixture.fill) };
-    }
-  }
+    },
+  },
 };
-const audioUrl = `${packIndex.cloudBaseUrl}/${packIndex.audioPathPrefix}${prefix}/${digest}.mp3`;
 
+const results = [];
+for (const fixture of fixtures) {
+  const url =
+    `${fixture.index.cloudBaseUrl}/${fixture.index.audioPathPrefix}` +
+    `${fixture.prefix}/${fixture.digest}.mp3`;
+  const expected = Buffer.alloc(fixture.length, fixture.fill);
+  const beforeCalls = getCalls.length;
 
-const fullResponse = await worker.fetch(new Request(audioUrl), env);
-assert(fullResponse.status === 200, `Full request status was ${fullResponse.status}`);
-assert(fullResponse.headers.get("content-type") === "audio/mpeg", "Full request MIME type is wrong");
-assert(Number(fullResponse.headers.get("content-length")) === length, "Full request length is wrong");
-const expectedAudio = Buffer.alloc(length, 0x5a);
-const actualAudio = Buffer.from(await fullResponse.arrayBuffer());
-assert(actualAudio.equals(expectedAudio), "Packed response differs from the source MP3");
-assert(getCalls[0]?.offset === offset && getCalls[0]?.length === length, "Full pack lookup range is wrong");
+  const full = await worker.fetch(new Request(url), env);
+  assert(full.status === 200, `${fixture.file}: full status was ${full.status}`);
+  assert(full.headers.get("content-type") === "audio/mpeg", `${fixture.file}: wrong MIME`);
+  assert(Number(full.headers.get("content-length")) === fixture.length, `${fixture.file}: wrong length`);
+  assert(Buffer.from(await full.arrayBuffer()).equals(expected), `${fixture.file}: wrong full bytes`);
+  assert(
+    getCalls[beforeCalls]?.key === fixture.pack.key &&
+      getCalls[beforeCalls]?.offset === fixture.offset &&
+      getCalls[beforeCalls]?.length === fixture.length,
+    `${fixture.file}: wrong R2 full range`
+  );
 
+  const head = await worker.fetch(new Request(url, { method: "HEAD" }), env);
+  assert(head.status === 200, `${fixture.file}: HEAD status was ${head.status}`);
+  assert(Number(head.headers.get("content-length")) === fixture.length, `${fixture.file}: HEAD length`);
+  assert(head.headers.get("accept-ranges") === "bytes", `${fixture.file}: HEAD ranges missing`);
 
-const headResponse = await worker.fetch(new Request(audioUrl, { method: "HEAD" }), env);
-assert(headResponse.status === 200, `HEAD status was ${headResponse.status}`);
-assert(Number(headResponse.headers.get("content-length")) === length, "HEAD length is wrong");
+  const range = await worker.fetch(
+    new Request(url, { headers: { Range: "bytes=10-99" } }),
+    env
+  );
+  assert(range.status === 206, `${fixture.file}: Range status was ${range.status}`);
+  assert(
+    range.headers.get("content-range") === `bytes 10-99/${fixture.length}`,
+    `${fixture.file}: wrong Content-Range`
+  );
+  assert(
+    Buffer.from(await range.arrayBuffer()).equals(expected.subarray(10, 100)),
+    `${fixture.file}: wrong Range bytes`
+  );
 
+  const unknown = await worker.fetch(
+    new Request(
+      `${fixture.index.cloudBaseUrl}/${fixture.index.audioPathPrefix}` +
+        "00/000000000000000000000000.mp3"
+    ),
+    env
+  );
+  assert(unknown.status === 404, `${fixture.file}: unknown status was ${unknown.status}`);
+  results.push({
+    release: fixture.index.meta.release || fixture.index.audioPathPrefix,
+    digest: fixture.digest,
+    bytes: fixture.length,
+    fullStatus: full.status,
+    headStatus: head.status,
+    rangeStatus: range.status,
+    unknownStatus: unknown.status,
+  });
+}
 
-const rangeResponse = await worker.fetch(
-  new Request(audioUrl, { headers: { Range: "bytes=10-99" } }),
+const primary = fixtures[0];
+const primaryUrl =
+  `${primary.index.cloudBaseUrl}/${primary.index.audioPathPrefix}` +
+  `${primary.prefix}/${primary.digest}.mp3`;
+const ifRangeMismatch = await worker.fetch(
+  new Request(primaryUrl, {
+    headers: { Range: "bytes=10-99", "If-Range": '"stale-release"' },
+  }),
   env
 );
-assert(rangeResponse.status === 206, `Range status was ${rangeResponse.status}`);
-assert(rangeResponse.headers.get("content-range") === `bytes 10-99/${length}`, "Range header is wrong");
-const rangeBytes = Buffer.from(await rangeResponse.arrayBuffer());
-assert(rangeBytes.equals(expectedAudio.subarray(10, 100)), "Packed range differs from the source MP3");
-assert(getCalls[1]?.offset === offset + 10 && getCalls[1]?.length === 90, "Partial pack lookup range is wrong");
+assert(ifRangeMismatch.status === 200, "If-Range mismatch did not return full audio");
+assert(!ifRangeMismatch.headers.has("content-range"), "If-Range mismatch remained partial");
 
-
-const ifRangeMismatchResponse = await worker.fetch(
-  new Request(audioUrl, { headers: { Range: "bytes=10-99", "If-Range": '"stale-release"' } }),
+const suffixLength = Math.min(64, primary.length);
+const suffix = await worker.fetch(
+  new Request(primaryUrl, { headers: { Range: `bytes=-${suffixLength}` } }),
   env
 );
-assert(ifRangeMismatchResponse.status === 200, `If-Range mismatch status was ${ifRangeMismatchResponse.status}`);
-assert(!ifRangeMismatchResponse.headers.has("content-range"), "If-Range mismatch incorrectly returned a partial response");
-assert(Number(ifRangeMismatchResponse.headers.get("content-length")) === length, "If-Range mismatch length is wrong");
+assert(suffix.status === 206, `Suffix Range status was ${suffix.status}`);
 assert(
-  getCalls[2]?.offset === offset && getCalls[2]?.length === length,
-  "If-Range mismatch did not fetch the full recording"
+  suffix.headers.get("content-range") ===
+    `bytes ${primary.length - suffixLength}-${primary.length - 1}/${primary.length}`,
+  "Suffix Range metadata is wrong"
 );
 
-
-const suffixLength = Math.min(64, length);
-const suffixResponse = await worker.fetch(
-  new Request(audioUrl, { headers: { Range: `bytes=-${suffixLength}` } }),
+const rangedHead = await worker.fetch(
+  new Request(primaryUrl, { method: "HEAD", headers: { Range: "bytes=0-31" } }),
   env
 );
-assert(suffixResponse.status === 206, `Suffix range status was ${suffixResponse.status}`);
-assert(
-  suffixResponse.headers.get("content-range") === `bytes ${length - suffixLength}-${length - 1}/${length}`,
-  "Suffix range header is wrong"
-);
-const suffixBytes = Buffer.from(await suffixResponse.arrayBuffer());
-assert(suffixBytes.equals(expectedAudio.subarray(length - suffixLength)), "Packed suffix range is wrong");
-assert(
-  getCalls[3]?.offset === offset + length - suffixLength && getCalls[3]?.length === suffixLength,
-  "Suffix pack lookup range is wrong"
-);
-
-
-const rangedHeadResponse = await worker.fetch(
-  new Request(audioUrl, { method: "HEAD", headers: { Range: "bytes=0-31" } }),
-  env
-);
-assert(rangedHeadResponse.status === 206, `Ranged HEAD status was ${rangedHeadResponse.status}`);
-assert(rangedHeadResponse.headers.get("content-range") === `bytes 0-31/${length}`, "Ranged HEAD header is wrong");
-assert(Number(rangedHeadResponse.headers.get("content-length")) === 32, "Ranged HEAD length is wrong");
-
+assert(rangedHead.status === 206, `Ranged HEAD status was ${rangedHead.status}`);
+assert(Number(rangedHead.headers.get("content-length")) === 32, "Ranged HEAD length is wrong");
 
 const invalidRange = await worker.fetch(
-  new Request(audioUrl, { headers: { Range: `bytes=${length}-` } }),
+  new Request(primaryUrl, { headers: { Range: `bytes=${primary.length}-` } }),
   env
 );
-assert(invalidRange.status === 416, `Invalid range status was ${invalidRange.status}`);
+assert(invalidRange.status === 416, `Invalid Range status was ${invalidRange.status}`);
 
+const options = await worker.fetch(new Request(primaryUrl, { method: "OPTIONS" }), env);
+assert(options.status === 204, `OPTIONS status was ${options.status}`);
+assert(options.headers.get("access-control-allow-origin") === "*", "OPTIONS CORS missing");
 
-const unknownResponse = await worker.fetch(
-  new Request(`${packIndex.cloudBaseUrl}/${packIndex.audioPathPrefix}00/not-a-digest.mp3`),
+const conditional = await worker.fetch(
+  new Request(primaryUrl, { headers: { "If-None-Match": `"${primary.digest}"` } }),
   env
 );
-assert(unknownResponse.status === 404, `Unknown flashcard status was ${unknownResponse.status}`);
+assert(conditional.status === 304, `Conditional status was ${conditional.status}`);
 
+if (!flashcardExpansion.meta.r2UploadComplete) {
+  const pendingUrl =
+    `${flashcardExpansion.cloudBaseUrl}/${flashcardExpansion.audioPathPrefix}` +
+    "00/000000000000000000000000.mp3";
+  const pending = await worker.fetch(new Request(pendingUrl), env);
+  assert(pending.status === 404, "Incomplete fourth release must not be routed");
+}
 
-const optionsResponse = await worker.fetch(new Request(audioUrl, { method: "OPTIONS" }), env);
-assert(optionsResponse.status === 204, `OPTIONS status was ${optionsResponse.status}`);
-assert(optionsResponse.headers.get("access-control-allow-origin") === "*", "OPTIONS CORS is missing");
-
-
-const etag = `"${digest}"`;
-const cachedResponse = await worker.fetch(
-  new Request(audioUrl, { headers: { "If-None-Match": etag } }),
-  env
-);
-assert(cachedResponse.status === 304, `Conditional status was ${cachedResponse.status}`);
-
-
-const passage2AudioUrl =
-  `${passage2PackIndex.cloudBaseUrl}/${passage2PackIndex.audioPathPrefix}` +
-  `${passage2Prefix}/${passage2Digest}.mp3`;
-const passage2Response = await worker.fetch(new Request(passage2AudioUrl), env);
-assert(
-  passage2Response.status === 200,
-  `Passage 2 full request status was ${passage2Response.status}`
-);
-assert(
-  Number(passage2Response.headers.get("content-length")) === passage2Length,
-  "Passage 2 full request length is wrong"
-);
-const expectedPassage2Audio = Buffer.alloc(passage2Length, 0x6b);
-const actualPassage2Audio = Buffer.from(await passage2Response.arrayBuffer());
-assert(
-  actualPassage2Audio.equals(expectedPassage2Audio),
-  "Passage 2 packed response differs from the source MP3"
-);
-const passage2GetCall = getCalls.at(-1);
-assert(
-  passage2GetCall?.key === passage2Pack.key
-    && passage2GetCall?.offset === passage2Offset
-    && passage2GetCall?.length === passage2Length,
-  "Passage 2 pack lookup range is wrong"
-);
-
-const passage2HeadResponse = await worker.fetch(
-  new Request(passage2AudioUrl, { method: "HEAD" }),
-  env
-);
-assert(
-  passage2HeadResponse.status === 200,
-  `Passage 2 HEAD status was ${passage2HeadResponse.status}`
-);
-assert(
-  Number(passage2HeadResponse.headers.get("content-length")) === passage2Length,
-  "Passage 2 HEAD length is wrong"
-);
-
-const passage2UnknownResponse = await worker.fetch(
-  new Request(
-    `${passage2PackIndex.cloudBaseUrl}/` +
-      `${passage2PackIndex.audioPathPrefix}00/not-a-digest.mp3`
-  ),
-  env
-);
-assert(
-  passage2UnknownResponse.status === 404,
-  `Unknown Passage 2 flashcard status was ${passage2UnknownResponse.status}`
-);
-
-
-const readingExpansionAudioUrl =
-  `${readingExpansionPackIndex.cloudBaseUrl}/${readingExpansionPackIndex.audioPathPrefix}` +
-  `${readingExpansionPrefix}/${readingExpansionDigest}.mp3`;
-const readingExpansionResponse = await worker.fetch(
-  new Request(readingExpansionAudioUrl),
-  env
-);
-assert(
-  readingExpansionResponse.status === 200,
-  `Reading expansion full request status was ${readingExpansionResponse.status}`
-);
-assert(
-  Number(readingExpansionResponse.headers.get("content-length")) ===
-    readingExpansionLength,
-  "Reading expansion full request length is wrong"
-);
-const expectedReadingExpansionAudio = Buffer.alloc(readingExpansionLength, 0x7c);
-const actualReadingExpansionAudio = Buffer.from(
-  await readingExpansionResponse.arrayBuffer()
-);
-assert(
-  actualReadingExpansionAudio.equals(expectedReadingExpansionAudio),
-  "Reading expansion packed response differs from the source MP3"
-);
-const readingExpansionGetCall = getCalls.at(-1);
-assert(
-  readingExpansionGetCall?.key === readingExpansionPack.key
-    && readingExpansionGetCall?.offset === readingExpansionOffset
-    && readingExpansionGetCall?.length === readingExpansionLength,
-  "Reading expansion pack lookup range is wrong"
-);
-
-const readingExpansionHeadResponse = await worker.fetch(
-  new Request(readingExpansionAudioUrl, { method: "HEAD" }),
-  env
-);
-assert(
-  readingExpansionHeadResponse.status === 200,
-  `Reading expansion HEAD status was ${readingExpansionHeadResponse.status}`
-);
-assert(
-  Number(readingExpansionHeadResponse.headers.get("content-length")) ===
-    readingExpansionLength,
-  "Reading expansion HEAD length is wrong"
-);
-
-const readingExpansionUnknownResponse = await worker.fetch(
-  new Request(
-    `${readingExpansionPackIndex.cloudBaseUrl}/` +
-      `${readingExpansionPackIndex.audioPathPrefix}00/not-a-digest.mp3`
-  ),
-  env
-);
-assert(
-  readingExpansionUnknownResponse.status === 404,
-  `Unknown Reading expansion flashcard status was ${readingExpansionUnknownResponse.status}`
-);
-
-
-const healthResponse = await worker.fetch(new Request(`${packIndex.cloudBaseUrl}/health`), env);
+const healthResponse = await worker.fetch(new Request(`${publicHost}/health`), env);
 const health = await healthResponse.json();
-assert(health.products.includes("flashcards"), "Worker health response omits flashcards");
-
+assert(healthResponse.status === 200 && health.products.includes("flashcards"), "Health omits flashcards");
 
 console.log(JSON.stringify({
-  indexes: packIndexes.map(index => ({
-    audioPathPrefix: index.audioPathPrefix,
-    indexedRecordings: index.meta.entryCount,
-    packs: index.meta.packCount
+  indexes: indexes.map(({ file, value }) => ({
+    file,
+    release: value.meta.release || value.audioPathPrefix,
+    complete: value.meta.r2UploadComplete,
+    indexedRecordings: value.meta.entryCount,
+    packs: value.meta.packCount,
   })),
-  testedDigest: digest,
-  testedPassage2Digest: passage2Digest,
-  testedReadingExpansionDigest: readingExpansionDigest,
-  testedBytes: length,
-  testedPassage2Bytes: passage2Length,
-  testedReadingExpansionBytes: readingExpansionLength,
-  fullStatus: fullResponse.status,
-  passage2FullStatus: passage2Response.status,
-  readingExpansionFullStatus: readingExpansionResponse.status,
-  rangeStatus: rangeResponse.status,
-  ifRangeMismatchStatus: ifRangeMismatchResponse.status,
-  suffixRangeStatus: suffixResponse.status,
-  rangedHeadStatus: rangedHeadResponse.status,
-  unknownStatus: unknownResponse.status,
-  passage2UnknownStatus: passage2UnknownResponse.status,
-  readingExpansionUnknownStatus: readingExpansionUnknownResponse.status,
-  conditionalStatus: cachedResponse.status
+  results,
+  ifRangeMismatchStatus: ifRangeMismatch.status,
+  suffixRangeStatus: suffix.status,
+  rangedHeadStatus: rangedHead.status,
+  invalidRangeStatus: invalidRange.status,
+  conditionalStatus: conditional.status,
+  health,
 }, null, 2));

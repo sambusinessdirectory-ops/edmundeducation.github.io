@@ -11,16 +11,22 @@ const baselinePath = baselineArgument >= 0 && process.argv[baselineArgument + 1]
   ? path.resolve(process.cwd(), process.argv[baselineArgument + 1])
   : path.join(root, ".flashcards-audio-build/baseline-manifest-20260730.js");
 const currentPath = path.join(root, "flashcards-audio-manifest.js");
+const fourthIndexPath = "workers/edmund-audio/src/flashcard-pack-index-flashcard-expansion.json";
+const fourthIndex = JSON.parse(fs.readFileSync(path.join(root, fourthIndexPath), "utf8"));
+const fourthComplete = fourthIndex.meta?.r2UploadComplete === true;
 const indexPaths = [
   "workers/edmund-audio/src/flashcard-pack-index.json",
   "workers/edmund-audio/src/flashcard-pack-index-passage2.json",
   "workers/edmund-audio/src/flashcard-pack-index-reading-expansion.json",
+  ...(fourthComplete ? [fourthIndexPath] : []),
 ];
 const mappingMarker = "window.EDMUND_FLASHCARD_AUDIO = Object.freeze(";
 const metaMarker = "window.EDMUND_FLASHCARD_AUDIO_META = Object.freeze(";
 const expectedCloudBaseUrl = "https://edmund-neural-audio.edmundeducation.workers.dev";
-const expectedExpandedCount = 118304;
-const expectedExpandedCorpusSha256 = "eb1376e535c27570be8fb3ed385646f2ac3d4d0cf1ffc52e2b4f1ce4ec50f73f";
+const expectedExpandedCount = 118304 + (fourthComplete ? 16083 : 0);
+const expectedExpandedCorpusSha256 = fourthComplete
+  ? "a4471778eff2c23891bce762b0faaf8cc6387596fe0909043b9a1beb67ecc849"
+  : "eb1376e535c27570be8fb3ed385646f2ac3d4d0cf1ffc52e2b4f1ce4ec50f73f";
 
 function decodeAssignment(source, marker) {
   const start = source.indexOf(marker);

@@ -52,6 +52,10 @@ The live library uses a hybrid layout:
   `workers/edmund-audio/src/flashcard-pack-index-reading-expansion.json`, while
   unchanged recordings continue to use their established local or earlier
   release URLs.
+- The 142-deck IELTS Listening, DSE Reading, DSE B2 Data File and practical-
+  writing batch has a reserved fourth immutable release,
+  `v1-flashcard-expansion-20260801-1/`. Its index stays empty and incomplete
+  until all four generated card bundles and their Kokoro recordings validate.
 - `flashcards-audio-manifest.js` maps normalized front text to either a local
   path or an absolute URL on the read-only Edmund Neural audio Worker.
 
@@ -78,6 +82,21 @@ Reference SHA-256 checksums for this audio build:
 
 ## Generate or resume
 
+The one-time baseline snapshot for this release must be copied **before** the
+manifest is expanded:
+
+```sh
+mkdir -p .flashcards-audio-build
+cp flashcards-audio-manifest.js \
+  .flashcards-audio-build/baseline-manifest-20260801.js
+shasum -a 256 .flashcards-audio-build/baseline-manifest-20260801.js
+```
+
+Its SHA-256 must be
+`9525ffdb8b600d50cc70ab26627fdc6959070df5dbc7bcfad852897bf3ffc1bb`.
+This ignored build input is already present for the 2026-08-01 release; never
+recreate it from the expanded manifest.
+
 From the repository root:
 
 ```sh
@@ -85,7 +104,8 @@ From the repository root:
   --source-root . \
   --output-root . \
   --model /path/to/kokoro-v1.0.onnx \
-  --voices /path/to/voices-v1.0.bin
+  --voices /path/to/voices-v1.0.bin \
+  --preserve-manifest .flashcards-audio-build/baseline-manifest-20260801.js
 ```
 
 The command is resumable: valid existing MP3 files are skipped. It writes one
@@ -96,6 +116,11 @@ audio. Two build processes may use `--shard-count 2` with `--shard-index 0` and
 manifest. Shard manifests are build-only files and must not be deployed.
 Use `--prune-orphans` only with a verified full-corpus run to remove audio for
 renamed or deleted card fronts.
+
+The preservation snapshot pins all 118,304 mappings published before the
+2026-08-01 expansion. `--preserve-manifest` retains those text-to-URL mappings
+exactly even if an older source deck is replaced, and refuses to regenerate or
+redirect a published recording.
 
 After completing the Passage 1 recordings, build and validate the R2 packs:
 
@@ -134,6 +159,44 @@ audio Worker. Only then run the uploader once more with
 `--prune-source-audio`, rebuild the manifest, and publish the website. A
 completed release refuses further network uploads so immutable R2 objects cannot
 be overwritten.
+
+For the 142-deck expansion, use its dedicated fourth-release tools:
+
+The verified source inventory contains 20,506 cards and 18,943 unique fronts.
+Of those, 2,860 reuse the immutable baseline, leaving exactly 16,083 new
+Kokoro recordings for this release.
+
+```sh
+.venv-tts/bin/python tools/build-flashcard-audio-r2-packs-flashcard-expansion.py
+.venv-tts/bin/python tools/upload-flashcard-audio-packs-r2-flashcard-expansion.py \
+  --wrangler workers/speaking-system/node_modules/.bin/wrangler \
+  --check
+```
+
+Run a Worker `wrangler deploy --dry-run` before network writes. The normal
+uploader uploads the release-specific packs, downloads **every pack** back from
+R2, and compares its complete size and SHA-256 before marking the index complete.
+Deploy the Worker and run `node tools/verify-live-edmund-audio.mjs`; the fourth-
+release live gate tests one full recording and a byte range from every pack.
+Only then prune the individual staging MP3s:
+
+```sh
+.venv-tts/bin/python tools/upload-flashcard-audio-packs-r2-flashcard-expansion.py \
+  --wrangler workers/speaking-system/node_modules/.bin/wrangler \
+  --prune-source-audio
+```
+
+Finally rebuild with `--manifest-only`, preserving
+`.flashcards-audio-build/baseline-manifest-20260801.js`, then run
+`node tools/verify-flashcard-audio-flashcard-expansion.mjs`. Never publish a
+manifest that references this release before its Worker passes the live gate.
+
+If the local staging MP3s must be retained after the R2 and live checks, add
+`--prefer-cloud` to the final manifest-only command. The completed immutable
+pack URLs will be published while the local staging files remain untracked.
+Use `--allow-local-staging` with the local expansion verifier in that case;
+the Pages workflow deliberately omits this flag so a tracked staging MP3 still
+blocks production deployment.
 
 The audio build version is part of the directory path. Bump
 `AUDIO_BUILD_VERSION` in the generator whenever the voice, model, speed,

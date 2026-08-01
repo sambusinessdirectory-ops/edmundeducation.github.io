@@ -62,12 +62,17 @@ examples do not need separate audio because the sound button reads the front.
    already rendered, force-regenerate that exact front before publishing.
 4. Generate or resume the audio build:
 
+   For the 2026-08-01 release, use the already-pinned preservation snapshot;
+   do not recreate it after the manifest has been expanded. Its one-time copy
+   and SHA-256 check are documented in `tools/README-flashcard-audio.md`.
+
 ```sh
 .venv-tts/bin/python tools/generate-flashcard-audio.py \
   --source-root . \
   --output-root . \
   --model /path/to/kokoro-v1.0.onnx \
-  --voices /path/to/voices-v1.0.bin
+  --voices /path/to/voices-v1.0.bin \
+  --preserve-manifest .flashcards-audio-build/baseline-manifest-20260801.js
 ```
 
 5. Validate the complete library without synthesizing anything:
@@ -78,13 +83,21 @@ examples do not need separate audio because the sound button reads the front.
   --output-root . \
   --model /path/to/kokoro-v1.0.onnx \
   --voices /path/to/voices-v1.0.bin \
+  --preserve-manifest .flashcards-audio-build/baseline-manifest-20260801.js \
   --manifest-only
 ```
+
+After an immutable R2 release and its Worker pass all remote and live checks,
+add `--prefer-cloud` if verified local staging MP3s are intentionally being
+retained. This publishes the R2 mappings without deleting those local files.
 
 The generator skips valid existing MP3s. Normally it creates sound only for new
 or renamed fronts and refreshes `flashcards-audio-manifest.js`. User-created
 cards made inside a student's browser are not in the repository corpus and
 therefore cannot receive static audio until they are imported into the source.
+The preservation snapshot locks the 118,304 mappings published before the
+2026-08-01 expansion. This makes the manifest monotonic: replacing an old deck
+cannot silently remove or redirect one of its established recordings.
 
 ## SOP B — adding or editing writing-practice essays
 

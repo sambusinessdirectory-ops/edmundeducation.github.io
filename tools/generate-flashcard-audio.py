@@ -74,6 +74,26 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
+        "flashcards-ielts-listening-practices-2-20-data.js",
+        "window.EDMUND_IELTS_LISTENING_PRACTICES_2_20_SEED = ",
+        None,
+    ),
+    (
+        "flashcards-dse-reading-2012-2025-data.js",
+        "window.EDMUND_DSE_READING_2012_2025_SEED = ",
+        None,
+    ),
+    (
+        "flashcards-dse-practical-writing-data.js",
+        "window.EDMUND_DSE_PRACTICAL_WRITING_SEED = ",
+        None,
+    ),
+    (
+        "flashcards-dse-paper3-b2-2012-2023-data.js",
+        "window.EDMUND_DSE_PAPER3_B2_2012_2023_SEED = ",
+        None,
+    ),
+    (
         "flashcards-dse-paper3-b2-2024-data.js",
         'window.EDMUND_FLASHCARD_SEED["dse/paper-3/part-b-data-file-b2/2024"] = ',
         "dse/paper-3/part-b-data-file-b2/2024",
@@ -137,7 +157,10 @@ CLOUD_PACK_INDEX_RELATIVES = (
     Path("workers/edmund-audio/src/flashcard-pack-index.json"),
     Path("workers/edmund-audio/src/flashcard-pack-index-passage2.json"),
     Path("workers/edmund-audio/src/flashcard-pack-index-reading-expansion.json"),
+    Path("workers/edmund-audio/src/flashcard-pack-index-flashcard-expansion.json"),
 )
+MANIFEST_AUDIO_ASSIGNMENT = "window.EDMUND_FLASHCARD_AUDIO = Object.freeze("
+MANIFEST_META_ASSIGNMENT = "window.EDMUND_FLASHCARD_AUDIO_META = Object.freeze("
 SPOKEN_OVERRIDES = {
     "AR": "A R",
     "built-in GPS": "built-in G P S",
@@ -408,6 +431,45 @@ def cloud_audio_url(relative_path: str, cloud_indexes: list[dict[str, object]]) 
     return ""
 
 
+def assigned_json(source: str, assignment: str) -> object:
+    try:
+        start = source.index(assignment) + len(assignment)
+    except ValueError as error:
+        raise ValueError(f"Missing JavaScript assignment: {assignment.strip()}") from error
+    value, _ = json.JSONDecoder().raw_decode(source[start:])
+    return value
+
+
+def load_preserved_manifest(path: Path) -> tuple[dict[str, str], dict[str, object]]:
+    source = path.read_text(encoding="utf-8")
+    entries = assigned_json(source, MANIFEST_AUDIO_ASSIGNMENT)
+    meta = assigned_json(source, MANIFEST_META_ASSIGNMENT)
+    if (
+        not isinstance(entries, dict)
+        or not isinstance(meta, dict)
+        or meta.get("complete") is not True
+        or meta.get("count") != len(entries)
+        or any(
+            not isinstance(text, str)
+            or not text
+            or not isinstance(url, str)
+            or not url
+            for text, url in entries.items()
+        )
+    ):
+        raise ValueError(f"Preserved audio manifest is incomplete or invalid: {path}")
+    normalized: dict[str, str] = {}
+    for text, url in entries.items():
+        key = normalize_card_text(text)
+        if key != text:
+            raise ValueError(f"Preserved manifest contains a non-canonical key: {text!r}")
+        previous = normalized.get(key)
+        if previous is not None and previous != url:
+            raise ValueError(f"Preserved manifest has conflicting normalized text: {key!r}")
+        normalized[key] = url
+    return normalized, meta
+
+
 def valid_existing_audio(path: Path) -> bool:
     if not path.exists() or path.stat().st_size <= 1000:
         return False
@@ -484,6 +546,22 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--speed", type=float, default=0.96)
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--manifest-only", action="store_true")
+    parser.add_argument(
+        "--prefer-cloud",
+        action="store_true",
+        help=(
+            "Use completed immutable pack URLs before equivalent local MP3s. "
+            "This lets a verified release be published while retaining local staging files."
+        ),
+    )
+    parser.add_argument(
+        "--preserve-manifest",
+        type=Path,
+        help=(
+            "Complete earlier manifest whose text-to-URL mappings must remain exact. "
+            "Its keys are retained even if a source deck is later replaced."
+        ),
+    )
     parser.add_argument("--allow-incomplete", action="store_true")
     parser.add_argument("--force-regex", default="")
     parser.add_argument("--prune-orphans", action="store_true")
@@ -506,6 +584,25 @@ def main() -> int:
     )
     manifest_path = output_root / manifest_name
     texts = extract_static_fronts(source_root)
+    preserved_entries: dict[str, str] = {}
+    if args.preserve_manifest:
+        preserve_path = args.preserve_manifest.resolve()
+        preserved_entries, preserved_meta = load_preserved_manifest(preserve_path)
+        if (
+            preserved_meta.get("buildVersion") != AUDIO_BUILD_VERSION
+            or preserved_meta.get("voice") != args.voice
+            or preserved_meta.get("language") != args.lang
+            or preserved_meta.get("speed") != args.speed
+            or preserved_meta.get("sampleRate") != 24000
+            or preserved_meta.get("format") != "audio/mpeg"
+        ):
+            raise ValueError(
+                "Preserved manifest uses a different voice recipe or audio build version"
+            )
+        texts = sorted(
+            set(texts) | set(preserved_entries),
+            key=lambda value: (value.casefold(), value),
+        )
     if args.limit > 0:
         texts = texts[: args.limit]
     if args.shard_count > 1:
@@ -527,7 +624,28 @@ def main() -> int:
     for text, (relative_path, cloud_url) in expected.items():
         output_path = output_root / relative_path
         forced = bool(force_pattern and force_pattern.search(text))
-        if not forced and valid_existing_audio(output_path):
+        preserved_url = preserved_entries.get(text)
+        if preserved_url is not None:
+            if forced:
+                raise ValueError(
+                    f"Refusing to force-regenerate immutable preserved recording: {text!r}"
+                )
+            if preserved_url.startswith("https://"):
+                if cloud_url != preserved_url:
+                    raise ValueError(
+                        f"Preserved cloud mapping is no longer resolvable: {text!r} -> "
+                        f"{preserved_url}"
+                    )
+            elif preserved_url != relative_path or not valid_existing_audio(output_path):
+                raise ValueError(
+                    f"Preserved local mapping is missing or invalid: {text!r} -> "
+                    f"{preserved_url}"
+                )
+            complete_entries[text] = preserved_url
+            continue
+        if not forced and args.prefer_cloud and cloud_url:
+            complete_entries[text] = cloud_url
+        elif not forced and valid_existing_audio(output_path):
             complete_entries[text] = relative_path
         elif not forced and cloud_url:
             complete_entries[text] = cloud_url
