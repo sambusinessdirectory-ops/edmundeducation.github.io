@@ -8,6 +8,7 @@ export const REMOTE_GRAMMAR_FAILURE_KINDS = Object.freeze({
   cancelled: "cancelled",
   timeout: "timeout",
   inconclusive: "inconclusive",
+  quotaExhausted: "quota_exhausted",
   rateLimited: "rate_limited",
   network: "network"
 });
@@ -30,6 +31,12 @@ const REMOTE_GRAMMAR_FAILURE_POLICIES = Object.freeze({
     shouldWarn: true,
     backoffMs: 0,
     globalStatus: "unchanged"
+  }),
+  [REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted]: Object.freeze({
+    kind: REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted,
+    shouldWarn: true,
+    backoffMs: 60 * 60 * 1000,
+    globalStatus: "quota_exhausted"
   }),
   [REMOTE_GRAMMAR_FAILURE_KINDS.rateLimited]: Object.freeze({
     kind: REMOTE_GRAMMAR_FAILURE_KINDS.rateLimited,
@@ -60,6 +67,9 @@ export function classifyRemoteGrammarFailure(errorValue, { timedOut = false } = 
   if (error.name === "AbortError") {
     return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.cancelled];
   }
+  if (code === "GRAMMAR_CHECK_QUOTA_EXHAUSTED") {
+    return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted];
+  }
   if (status === 429) {
     return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.rateLimited];
   }
@@ -70,10 +80,22 @@ export function classifyRemoteGrammarFailure(errorValue, { timedOut = false } = 
 }
 
 /** Build the sentence-level notice without ever presenting an incomplete AI review as clean. */
-export function writingGrammarReviewNotice(warningCountValue, visibleIssueCountValue) {
-  const warningCount = Math.max(0, Number.parseInt(warningCountValue, 10) || 0);
+export function writingGrammarReviewNotice(warningKindsValue, visibleIssueCountValue) {
+  const warningKinds = Array.isArray(warningKindsValue)
+    ? warningKindsValue.filter((kind) => typeof kind === "string")
+    : [];
+  const warningCount = warningKinds.length;
   if (!warningCount) return null;
   const hasVisibleIssues = (Number.parseInt(visibleIssueCountValue, 10) || 0) > 0;
+  if (warningKinds.includes(REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted)) {
+    return Object.freeze({
+      state: "warning",
+      title: "Workers AI 每日額度已用完",
+      detail: hasVisibleIssues
+        ? "Workers AI 今日的文法檢查額度已用完，會於香港時間 08:00 重設。以下本機提示仍然保留；AI 未完成的句子可能仍有其他問題。"
+        : "Workers AI 今日的文法檢查額度已用完，會於香港時間 08:00 重設。本機暫未提出建議，但這不代表句子沒有文法問題。"
+    });
+  }
   return Object.freeze({
     state: "warning",
     title: warningCount === 1

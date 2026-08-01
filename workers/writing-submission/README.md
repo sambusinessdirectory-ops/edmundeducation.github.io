@@ -171,7 +171,7 @@ KV, R2, Durable Objects, or application logs. Responses use
 
 #### Review pipeline
 
-Version `2026-08-01.9` uses a general correction pipeline:
+Version `2026-08-01.10` uses a general correction pipeline:
 
 1. `@cf/meta/llama-3.3-70b-instruct-fp8-fast` independently reviews the entire
    sentence and proposes one complete correction. It is instructed to find
@@ -206,9 +206,15 @@ generic `503 GRAMMAR_CHECK_UNAVAILABLE` response. The browser may retain its
 limited local checker, but the absence of an AI suggestion must not be presented
 as proof that a sentence is correct.
 
+A confirmed Workers AI daily-allocation error (`4006`) stops the pipeline
+immediately instead of attempting the audit and fallback models. It returns
+`503 GRAMMAR_CHECK_QUOTA_EXHAUSTED` without exposing provider details or the
+student sentence. The browser identifies this availability state separately and
+states that Cloudflare's daily allowance resets at 08:00 Hong Kong time.
+
 #### Cost and quota implications
 
-A normal version `.9` check performs two 70B invocations: one proposal and one
+A normal version `.10` check performs two 70B invocations: one proposal and one
 independent completeness-and-meaning audit. The 8B invocation is a last-resort
 fallback and is not normally used. During the 1 August 2026 preview evaluation,
 one 70B invocation consumed approximately 39–41 Workers AI neurons and one 8B

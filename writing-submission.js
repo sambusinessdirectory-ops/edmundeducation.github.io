@@ -17,7 +17,7 @@ import {
   REMOTE_GRAMMAR_FAILURE_KINDS,
   rebaseWritingGrammarIssuesAfterAppliedCorrection,
   writingGrammarReviewNotice
-} from "./writing-submission-ai.js?v=20260801-grammar3";
+} from "./writing-submission-ai.js?v=20260801-grammar4";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -1086,6 +1086,12 @@ function applyRemoteGrammarOutcome(record, result) {
       "AI 進階檢查稍後重試",
       "本機提示仍可使用；請稍候再完成下一次進階檢查"
     );
+  } else if (failure.globalStatus === "quota_exhausted") {
+    updateHarperStatus(
+      "error",
+      "Workers AI 每日額度已用完",
+      "額度會於香港時間 08:00 重設；本機 ESL 規則及 Harper 後備檢查仍可使用"
+    );
   } else if (failure.kind === REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive) {
     updateHarperStatus(
       "ready",
@@ -1172,7 +1178,10 @@ function currentRemoteGrammarWarnings() {
 }
 
 function grammarReviewWarningContent(warnings, hasVisibleIssues) {
-  const notice = writingGrammarReviewNotice(warnings.length, hasVisibleIssues ? 1 : 0);
+  const notice = writingGrammarReviewNotice(
+    warnings.map((warning) => warning.kind),
+    hasVisibleIssues ? 1 : 0
+  );
   const wrapper = createElement("div", "grammar-empty");
   wrapper.dataset.state = notice.state;
   wrapper.append(createElement("span", "", "!"));

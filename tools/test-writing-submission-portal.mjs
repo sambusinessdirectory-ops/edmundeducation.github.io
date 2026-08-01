@@ -104,9 +104,9 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /AI 文法提示（測試版）/);
   assert.match(html, /writing-submission\.css\?v=20260731-ai1/);
-  assert.match(html, /writing-submission\.js\?v=20260801-grammar3/);
+  assert.match(html, /writing-submission\.js\?v=20260801-grammar4/);
   assert.match(script, /writing-submission-harper\.js\?v=20260801-grammar2/);
-  assert.match(script, /writing-submission-ai\.js\?v=20260801-grammar3/);
+  assert.match(script, /writing-submission-ai\.js\?v=20260801-grammar4/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"1\.2\.0"/);
   assert.match(eslRules, /writing-submission-esl-rules-core\.js\?v=20260801-grammar2/);
   assert.match(script, /暫未偵測到高信心文法問題/);
@@ -143,7 +143,10 @@ test("an incomplete AI review preserves local findings without pretending the se
   assert.match(script, /applyRemoteGrammarOutcome\(record, result\)/);
   assert.match(script, /record\.remoteIssues = Array\.isArray\(result\?\.issues\) \? result\.issues : null/);
   assert.match(script, /await publishSegmentRecord\(record\);\s*finishSegmentRecord\(record\)/);
-  assert.match(script, /writingGrammarReviewNotice\(warnings\.length, hasVisibleIssues \? 1 : 0\)/);
+  assert.match(script, /writingGrammarReviewNotice\(\s*warnings\.map\(\(warning\) => warning\.kind\),\s*hasVisibleIssues \? 1 : 0\s*\)/);
+  assert.match(aiAdapter, /code === "GRAMMAR_CHECK_QUOTA_EXHAUSTED"/);
+  assert.match(aiAdapter, /quotaExhausted: "quota_exhausted"/);
+  assert.match(script, /Workers AI 每日額度已用完/);
   assert.match(script, /state\.remoteGrammarWarnings\.clear\(\)/);
   assert.match(script, /state\.remoteGrammarBackoffUntil\s*=\s*0/);
   assert.match(script, /state\.remoteGrammarBackoffFailure\s*=\s*null/);

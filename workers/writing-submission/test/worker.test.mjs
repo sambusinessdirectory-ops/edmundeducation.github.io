@@ -495,7 +495,7 @@ test("health keeps the core service independent and reports grammar AI readiness
   const completeBody = await complete.json();
   assert.equal(completeBody.ok, true);
   assert.equal(completeBody.grammarAi.configured, true);
-  assert.equal(completeBody.grammarAi.version, "2026-08-01.9");
+  assert.equal(completeBody.grammarAi.version, "2026-08-01.10");
   assert.equal(completeBody.grammarAi.model, "@cf/meta/llama-3.3-70b-instruct-fp8-fast");
   assert.equal(completeBody.grammarAi.repairModel, "@cf/meta/llama-3.1-8b-instruct-fast");
   assert.equal(completeBody.rateLimiters.grammarCheck, true);
@@ -634,7 +634,7 @@ test("70B audit materializes every safe edit from correctedSentence despite malf
   assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
   assert.ok(body.issues.length >= 2);
   assert.ok(body.issues.every((issue) => issue.engine.model === "@cf/meta/llama-3.3-70b-instruct-fp8-fast"));
-  assert.equal(body.engine.version, "2026-08-01.9");
+  assert.equal(body.engine.version, "2026-08-01.10");
   assert.equal(ai.calls.length, 2);
   assert.ok(ai.calls.every((call) => call.model === "@cf/meta/llama-3.3-70b-instruct-fp8-fast"));
   assert.equal(ai.calls[0].request.temperature, 0);
@@ -1183,6 +1183,41 @@ test("grammar check bodies must have the exact shape and a completed sentence", 
   assert.equal(extraField.status, 400);
   assert.equal((await extraField.json()).code, "INVALID_GRAMMAR_CHECK");
   assert.equal(ai.calls.length, 0);
+});
+
+test("Workers AI daily quota exhaustion stops retries and returns a specific private response", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  const logs = [];
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = (...values) => { logs.push(values.join(" ")); };
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "A completely unseen learner sentence has several errors.";
+  const quotaError = Object.assign(
+    new Error("4006: you have used up your daily free allocation"),
+    { code: 4006 }
+  );
+  const ai = aiBinding(quotaError);
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const body = await response.json();
+
+  assert.equal(response.status, 503);
+  assert.deepEqual(body, {
+    error: "Advanced grammar checking daily allowance is exhausted; it resets at 08:00 Hong Kong time",
+    code: "GRAMMAR_CHECK_QUOTA_EXHAUSTED"
+  });
+  assert.equal(ai.calls.length, 1, "a known daily quota failure must not trigger two more model attempts");
+  assert.deepEqual(logs, ["Writing Submission grammar daily quota was exhausted"]);
+  assert.equal(JSON.stringify(body).includes(sentence), false);
+  assert.equal(JSON.stringify(body).includes("4006"), false);
 });
 
 /* Retired 8B-first, exact whitelist, and grammar-specific deterministic retry tests.

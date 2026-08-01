@@ -7,7 +7,7 @@ export {
 
 export const GRAMMAR_AI_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 export const GRAMMAR_AI_REPAIR_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
-export const GRAMMAR_AI_VERSION = "2026-08-01.9";
+export const GRAMMAR_AI_VERSION = "2026-08-01.10";
 export const MAX_GRAMMAR_SENTENCE_CHARACTERS = 2000;
 export const MAX_GRAMMAR_SENTENCE_BYTES = 8000;
 export const MAX_GRAMMAR_AI_ISSUES = 8;
@@ -149,6 +149,28 @@ function utf8Length(value) {
 
 export function grammarAiConfigured(env) {
   return Boolean(env?.AI && typeof env.AI.run === "function");
+}
+
+export function isGrammarAiQuotaError(error) {
+  if (!error || typeof error !== "object") return false;
+  const candidates = [
+    error,
+    error.cause,
+    error.error,
+    error.cause?.error
+  ].filter((value) => value && typeof value === "object");
+  if (candidates.some((value) => String(value.code || "") === "4006")) return true;
+  return candidates.some((value) => {
+    const message = String(value.message || "");
+    return /(?:^|\D)4006(?:\D|$)|daily\s+free\s+allocation|daily\s+(?:ai\s+)?(?:quota|allowance).*?(?:used|exhausted|limit)|(?:quota|allowance).*?(?:used|exhausted|limit)/iu.test(message);
+  });
+}
+
+function rethrowGrammarAiQuotaError(error) {
+  if (!isGrammarAiQuotaError(error)) return;
+  const quotaError = new TypeError("Grammar AI daily quota exhausted");
+  quotaError.code = "GRAMMAR_AI_QUOTA_EXHAUSTED";
+  throw quotaError;
 }
 
 export function normalizeGrammarCheckPayload(payload) {
@@ -1820,7 +1842,8 @@ export async function runGrammarAi(sentence, env) {
     if (isPlainObject(primaryPayload) && typeof primaryPayload.correctedSentence === "string") {
       proposedCorrectedSentence = primaryPayload.correctedSentence;
     }
-  } catch {
+  } catch (error) {
+    rethrowGrammarAiQuotaError(error);
     // The independent audit below can still review the original sentence.
   }
 
@@ -1847,7 +1870,8 @@ export async function runGrammarAi(sentence, env) {
       );
       if (audited) return audited;
     }
-  } catch {
+  } catch (error) {
+    rethrowGrammarAiQuotaError(error);
     // Fall through to the safe primary proposal or independent small model.
   }
 
@@ -1862,7 +1886,13 @@ export async function runGrammarAi(sentence, env) {
 
   // Last-resort fallback starts from the original and never sees either 70B
   // proposal, so provider or validation failures cannot anchor its answer.
-  const retryResult = await env.AI.run(GRAMMAR_AI_REPAIR_MODEL, buildGrammarAiRequest(sentence));
+  let retryResult;
+  try {
+    retryResult = await env.AI.run(GRAMMAR_AI_REPAIR_MODEL, buildGrammarAiRequest(sentence));
+  } catch (error) {
+    rethrowGrammarAiQuotaError(error);
+    throw error;
+  }
   const repaired = materializeGeneralCorrection(
     sentence,
     normalizeGeneralCorrectionResult(sentence, retryResult),

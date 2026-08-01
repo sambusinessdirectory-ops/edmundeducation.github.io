@@ -478,10 +478,20 @@ async function grammarCheck(request, env) {
     issues = await runGrammarAi(sentence, env);
   } catch (error) {
     // Student text and provider output must never appear in logs.
+    const quotaExhausted = error?.code === "GRAMMAR_AI_QUOTA_EXHAUSTED";
     const inconclusive = error?.code === "GRAMMAR_AI_INCONCLUSIVE";
-    console.error(inconclusive
-      ? "Writing Submission grammar result was inconclusive"
-      : "Writing Submission grammar provider failed");
+    console.error(quotaExhausted
+      ? "Writing Submission grammar daily quota was exhausted"
+      : inconclusive
+        ? "Writing Submission grammar result was inconclusive"
+        : "Writing Submission grammar provider failed");
+    if (quotaExhausted) {
+      throw new HttpError(
+        503,
+        "GRAMMAR_CHECK_QUOTA_EXHAUSTED",
+        "Advanced grammar checking daily allowance is exhausted; it resets at 08:00 Hong Kong time"
+      );
+    }
     throw new HttpError(
       inconclusive ? 502 : 503,
       inconclusive ? "GRAMMAR_CHECK_INCONCLUSIVE" : "GRAMMAR_CHECK_UNAVAILABLE",

@@ -92,6 +92,21 @@ assert.deepEqual(
   }
 );
 
+const quotaExhaustedFailure = adapter.classifyRemoteGrammarFailure({
+  status: 503,
+  code: "GRAMMAR_CHECK_QUOTA_EXHAUSTED"
+});
+assert.deepEqual(
+  quotaExhaustedFailure,
+  {
+    kind: "quota_exhausted",
+    shouldWarn: true,
+    backoffMs: 60 * 60 * 1000,
+    globalStatus: "quota_exhausted"
+  },
+  "the explicit Workers AI daily-quota contract receives its own one-hour in-page cooldown"
+);
+
 assert.deepEqual(
   adapter.classifyRemoteGrammarFailure(new TypeError("fetch failed")),
   {
@@ -108,6 +123,20 @@ assert.equal(
   }).kind,
   "network",
   "only the explicit inconclusive contract may avoid service-failure handling"
+);
+const genericUnavailableFailure = adapter.classifyRemoteGrammarFailure({
+  status: 503,
+  code: "GRAMMAR_CHECK_UNAVAILABLE"
+});
+assert.deepEqual(
+  genericUnavailableFailure,
+  {
+    kind: "network",
+    shouldWarn: true,
+    backoffMs: 30000,
+    globalStatus: "error"
+  },
+  "a generic provider outage must remain distinct from the explicit daily-quota response"
 );
 
 const incompleteReviewFailure = adapter.classifyRemoteGrammarFailure({
@@ -151,7 +180,10 @@ assert.deepEqual(
 );
 assert.equal(incompleteReviewFailure.globalStatus, "unchanged");
 assert.deepEqual(
-  adapter.writingGrammarReviewNotice(1, localTomLoveAfterIncompleteAi.length),
+  adapter.writingGrammarReviewNotice(
+    [incompleteReviewFailure.kind],
+    localTomLoveAfterIncompleteAi.length
+  ),
   {
     state: "warning",
     title: "AI 未能完成這句的進階檢查",
@@ -159,7 +191,7 @@ assert.deepEqual(
   }
 );
 assert.deepEqual(
-  adapter.writingGrammarReviewNotice(1, 0),
+  adapter.writingGrammarReviewNotice([incompleteReviewFailure.kind], 0),
   {
     state: "warning",
     title: "AI 未能完成這句的進階檢查",
@@ -167,7 +199,52 @@ assert.deepEqual(
   },
   "an incomplete AI review with no local card must show a warning, never a clean state"
 );
-assert.equal(adapter.writingGrammarReviewNotice(0, 0), null);
+assert.deepEqual(
+  adapter.writingGrammarReviewNotice(
+    [quotaExhaustedFailure.kind],
+    localTomLoveAfterIncompleteAi.length
+  ),
+  {
+    state: "warning",
+    title: "Workers AI 每日額度已用完",
+    detail: "Workers AI 今日的文法檢查額度已用完，會於香港時間 08:00 重設。以下本機提示仍然保留；AI 未完成的句子可能仍有其他問題。"
+  },
+  "a quota notice must preserve and qualify any local grammar cards"
+);
+assert.deepEqual(
+  adapter.writingGrammarReviewNotice([quotaExhaustedFailure.kind], 0),
+  {
+    state: "warning",
+    title: "Workers AI 每日額度已用完",
+    detail: "Workers AI 今日的文法檢查額度已用完，會於香港時間 08:00 重設。本機暫未提出建議，但這不代表句子沒有文法問題。"
+  },
+  "quota exhaustion with no local card must never be rendered as a clean review"
+);
+assert.deepEqual(
+  adapter.writingGrammarReviewNotice([genericUnavailableFailure.kind], 0),
+  {
+    state: "warning",
+    title: "AI 未能完成這句的進階檢查",
+    detail: "本機暫未提出建議，但這不代表句子沒有文法問題。請稍後再試。"
+  },
+  "generic service unavailability keeps the existing non-quota warning"
+);
+assert.equal(adapter.writingGrammarReviewNotice([], 0), null);
+
+const cleanSentence = "The students are ready.";
+assert.deepEqual(
+  adapter.normalizeWritingAiResponse(cleanSentence, {
+    engine: AI_ENGINE,
+    issues: []
+  }),
+  [],
+  "a successful 200-style response with an empty validated issue list is a genuine clean result"
+);
+assert.equal(
+  adapter.writingGrammarReviewNotice([], 0),
+  null,
+  "a successful clean response has no failure notice"
+);
 
 function workerIssue(overrides = {}) {
   return {
