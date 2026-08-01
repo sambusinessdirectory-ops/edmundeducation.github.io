@@ -35,6 +35,16 @@ function aiBinding(result = { response: { issues: [] } }) {
   };
 }
 
+function aiSequence(...results) {
+  let index = 0;
+  return aiBinding(() => {
+    const result = results[Math.min(index, results.length - 1)];
+    index += 1;
+    if (result instanceof Error) throw result;
+    return result;
+  });
+}
+
 function environment(overrides = {}) {
   return {
     ALLOWED_ORIGINS: ORIGIN,
@@ -106,6 +116,32 @@ function grammarAiIssue(overrides = {}) {
     confidence: 0.98,
     ...overrides
   };
+}
+
+function tomLoveIssues() {
+  return [
+    grammarAiIssue({
+      originalText: "love",
+      replacementText: "loves",
+      explanationZhHant: "Tom 是第三身單數；一般現在式動詞 love 要加 s。",
+      confidence: 0.99
+    }),
+    grammarAiIssue({
+      category: "infinitive_or_gerund",
+      originalText: "eat",
+      replacementText: "to eat",
+      explanationZhHant: "love 後面不能直接接動詞原形 eat；可寫 love to eat。",
+      confidence: 0.98
+    })
+  ];
+}
+
+function applyGrammarIssues(sentence, issues) {
+  return [...issues]
+    .sort((left, right) => right.start - left.start)
+    .reduce((value, issue) => (
+      `${value.slice(0, issue.start)}${issue.suggestedText}${value.slice(issue.end)}`
+    ), sentence);
 }
 
 function grammarCheckRequest(sentence, overrides = {}) {
@@ -281,6 +317,38 @@ test("authenticated grammar checking returns three normalized issues for the Tom
   assert.equal(response.headers.get("Cache-Control"), "no-store");
 });
 
+test("Tom love eat food returns both independent corrections and advertises the exact contract", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tom love eat food.";
+  const ai = aiBinding({ response: { issues: tomLoveIssues() } });
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.deepEqual(
+    body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
+    [["love", "loves"], ["eat", "to eat"]]
+  );
+  assert.equal(applyGrammarIssues(sentence, body.issues), "Tom loves to eat food.");
+  assert.equal(ai.calls.length, 1);
+
+  const request = ai.calls[0].request;
+  assert.equal(
+    request.response_format.json_schema.properties.issues.items.properties.confidence.minimum,
+    0.75
+  );
+  assert.match(request.messages[0].content, /Student sentence: Tom love eat food\./);
+  assert.match(request.messages[0].content, /love -> loves; occurrence 1/);
+  assert.match(request.messages[0].content, /eat -> to eat; occurrence 1/);
+});
+
 test("ambiguous read keeps its possible past tense and corrects the complete remainder", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -373,16 +441,6 @@ test("an AI may not turn ambiguous past-tense read into reads without a present 
     assert.deepEqual((await variant.json()).issues, []);
   }
 
-  const hallucinatedFragment = await worker.fetch(
-    grammarCheckRequest("Tom writes."),
-    environment({ AI: aiBinding({ response: { issues: [grammarAiIssue({
-      originalText: "read",
-      replacementText: "reads",
-      explanationZhHant: "這段文字根本不在原句中。"
-    })] } }) })
-  );
-  assert.equal(hallucinatedFragment.status, 503);
-  assert.equal((await hallucinatedFragment.json()).code, "GRAMMAR_CHECK_UNAVAILABLE");
 });
 
 test("a grammatically acceptable control returns an empty issue list without storage", async t => {
@@ -495,7 +553,7 @@ test("grammar check bodies must have the exact shape and a completed sentence", 
   assert.equal(ai.calls.length, 0);
 });
 
-test("malformed and hallucinated grammar provider output fails closed", async t => {
+test("an invalid first grammar result is retried once and returns the complete valid result", async t => {
   const originalFetch = globalThis.fetch;
   const originalConsoleError = console.error;
   const logs = [];
@@ -510,74 +568,109 @@ test("malformed and hallucinated grammar provider output fails closed", async t 
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
 
-  const sentence = "Tommy need book.";
-  const malformed = await worker.fetch(
-    grammarCheckRequest(sentence),
-    environment({ AI: aiBinding({ response: "not-json-provider-output" }) })
+  const sentence = "Tom love eat food.";
+  const ai = aiSequence(
+    { response: { issues: [grammarAiIssue({
+      originalText: "students",
+      replacementText: "student",
+      explanationZhHant: "這是不存在於原句的幻覺片段。"
+    })] } },
+    { response: { issues: tomLoveIssues() } }
   );
-  assert.equal(malformed.status, 503);
-  const malformedBody = await malformed.json();
-  assert.equal(malformedBody.code, "GRAMMAR_CHECK_UNAVAILABLE");
-  assert.equal(JSON.stringify(malformedBody).includes("not-json-provider-output"), false);
-
-  const hallucinated = await worker.fetch(
-    grammarCheckRequest(sentence),
-    environment({ AI: aiBinding({
-      response: {
-        issues: [grammarAiIssue({ originalText: "students", replacementText: "student" })]
-      }
-    }) })
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.deepEqual(
+    body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
+    [["love", "loves"], ["eat", "to eat"]]
   );
-  assert.equal(hallucinated.status, 503);
-  assert.equal((await hallucinated.json()).code, "GRAMMAR_CHECK_UNAVAILABLE");
-
-  const partlyHallucinated = await worker.fetch(
-    grammarCheckRequest(sentence),
-    environment({ AI: aiBinding({
-      response: {
-        issues: [grammarAiIssue(), grammarAiIssue({ originalText: "students", replacementText: "student" })]
-      }
-    }) })
-  );
-  assert.equal(partlyHallucinated.status, 503);
-  assert.equal((await partlyHallucinated.json()).code, "GRAMMAR_CHECK_UNAVAILABLE");
-  assert.equal(logs.some((entry) => entry.includes(sentence)), false);
-  assert.equal(logs.some((entry) => entry.includes("not-json-provider-output")), false);
+  assert.equal(applyGrammarIssues(sentence, body.issues), "Tom loves to eat food.");
+  assert.equal(ai.calls.length, 2);
+  assert.equal(ai.calls[0].request.seed, 5194);
+  assert.equal(ai.calls[1].request.seed, 5195);
+  assert.match(ai.calls[1].request.messages[1].content, /previous answer was unusable/);
+  assert.deepEqual(logs, []);
 });
 
-test("overlapping provider suggestions fail closed instead of showing a partial scan", async t => {
+test("two invalid grammar results return a privacy-safe inconclusive response", async t => {
   const originalFetch = globalThis.fetch;
   const originalConsoleError = console.error;
+  const logs = [];
   t.after(() => {
     globalThis.fetch = originalFetch;
     console.error = originalConsoleError;
   });
-  console.error = () => {};
+  console.error = (...values) => { logs.push(values.join(" ")); };
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
-  const sentence = "Tommy need book.";
-  const ai = aiBinding({
-    response: {
-      issues: [
-        grammarAiIssue({
-          category: "sentence_structure",
-          originalText: "need book",
-          replacementText: "needs a book",
-          explanationZhHant: "第三身單數動詞和單數名詞冠詞需要一併修正。",
-          confidence: 0.99
-        }),
-        grammarAiIssue({ confidence: 0.9 })
-      ]
-    }
-  });
+  const sentence = "Tom love eat food.";
+  const ai = aiSequence(
+    { response: "first-invalid-provider-output" },
+    { response: { issues: [grammarAiIssue({
+      originalText: "students",
+      replacementText: "student",
+      explanationZhHant: "這是第二個不存在於原句的片段。"
+    })] } }
+  );
   const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
-  assert.equal(response.status, 503);
+  assert.equal(response.status, 502);
   const body = await response.json();
-  assert.equal(body.code, "GRAMMAR_CHECK_UNAVAILABLE");
+  assert.deepEqual(body, {
+    error: "Advanced grammar checking could not safely analyse this sentence",
+    code: "GRAMMAR_CHECK_INCONCLUSIVE"
+  });
   assert.equal(Object.prototype.hasOwnProperty.call(body, "issues"), false);
+  assert.equal(ai.calls.length, 2);
+  assert.deepEqual(logs, ["Writing Submission grammar result was inconclusive"]);
+  assert.equal(logs.some((entry) => entry.includes(sentence)), false);
+  assert.equal(logs.some((entry) => entry.includes("first-invalid-provider-output")), false);
+  assert.equal(JSON.stringify(body).includes("first-invalid-provider-output"), false);
+});
+
+test("overlapping first suggestions are repaired on retry without dropping either error", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  const logs = [];
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = (...values) => { logs.push(values.join(" ")); };
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tom love eat food.";
+  const ai = aiSequence(
+    { response: { issues: [
+      grammarAiIssue({
+        category: "sentence_structure",
+        originalText: "love eat",
+        replacementText: "loves to eat",
+        explanationZhHant: "這個寬廣改寫與局部改寫重疊。",
+        confidence: 0.99
+      }),
+      ...tomLoveIssues()
+    ] } },
+    { response: { issues: tomLoveIssues() } }
+  );
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.deepEqual(
+    body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
+    [["love", "loves"], ["eat", "to eat"]]
+  );
+  assert.equal(applyGrammarIssues(sentence, body.issues), "Tom loves to eat food.");
+  assert.equal(ai.calls.length, 2);
+  assert.deepEqual(logs, []);
 });
 
 test("provider failures return a generic 503 without logging sentence or provider output", async t => {
@@ -596,9 +689,10 @@ test("provider failures return a generic 503 without logging sentence or provide
   };
   const sentence = "Tommy need confidential-book.";
   const providerError = new Error("provider-output-internal-detail");
+  const ai = aiBinding(providerError);
   const response = await worker.fetch(
     grammarCheckRequest(sentence),
-    environment({ AI: aiBinding(providerError) })
+    environment({ AI: ai })
   );
   assert.equal(response.status, 503);
   const body = await response.json();
@@ -606,6 +700,7 @@ test("provider failures return a generic 503 without logging sentence or provide
     error: "Advanced grammar checking is temporarily unavailable",
     code: "GRAMMAR_CHECK_UNAVAILABLE"
   });
+  assert.equal(ai.calls.length, 1);
   assert.deepEqual(logs, ["Writing Submission grammar provider failed"]);
   assert.equal(logs.some((entry) => entry.includes(sentence)), false);
   assert.equal(logs.some((entry) => entry.includes(providerError.message)), false);

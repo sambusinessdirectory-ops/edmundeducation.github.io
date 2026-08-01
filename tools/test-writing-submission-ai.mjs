@@ -36,7 +36,7 @@ const AI_ENGINE = Object.freeze({
 });
 const LOCAL_ENGINE = Object.freeze({
   name: "edmund-esl-basics",
-  version: "1.1.0",
+  version: "1.2.0",
   execution: "browser"
 });
 const HARPER_ENGINE = Object.freeze({
@@ -44,6 +44,130 @@ const HARPER_ENGINE = Object.freeze({
   version: "2.7.0",
   execution: "browser"
 });
+
+const cancelledFailure = adapter.classifyRemoteGrammarFailure({ name: "AbortError" });
+assert.deepEqual(cancelledFailure, {
+  kind: "cancelled",
+  shouldWarn: false,
+  backoffMs: 0,
+  globalStatus: "unchanged"
+});
+assert.ok(Object.isFrozen(cancelledFailure));
+
+assert.deepEqual(
+  adapter.classifyRemoteGrammarFailure({ name: "AbortError" }, { timedOut: true }),
+  {
+    kind: "timeout",
+    shouldWarn: true,
+    backoffMs: 0,
+    globalStatus: "unchanged"
+  },
+  "a request deadline is not an intentional cancellation and must not open a global backoff"
+);
+
+assert.deepEqual(
+  adapter.classifyRemoteGrammarFailure({
+    status: 502,
+    code: "GRAMMAR_CHECK_INCONCLUSIVE"
+  }),
+  {
+    kind: "inconclusive",
+    shouldWarn: true,
+    backoffMs: 0,
+    globalStatus: "unchanged"
+  },
+  "one rejected model response is a per-sentence incomplete review, not a service outage"
+);
+
+assert.deepEqual(
+  adapter.classifyRemoteGrammarFailure({
+    status: 429,
+    code: "TOO_MANY_GRAMMAR_CHECKS"
+  }),
+  {
+    kind: "rate_limited",
+    shouldWarn: true,
+    backoffMs: 60000,
+    globalStatus: "rate_limited"
+  }
+);
+
+assert.deepEqual(
+  adapter.classifyRemoteGrammarFailure(new TypeError("fetch failed")),
+  {
+    kind: "network",
+    shouldWarn: true,
+    backoffMs: 30000,
+    globalStatus: "error"
+  }
+);
+assert.equal(
+  adapter.classifyRemoteGrammarFailure({
+    status: 503,
+    code: "GRAMMAR_CHECK_UNAVAILABLE"
+  }).kind,
+  "network",
+  "only the explicit inconclusive contract may avoid service-failure handling"
+);
+
+const incompleteReviewFailure = adapter.classifyRemoteGrammarFailure({
+  status: 502,
+  code: "GRAMMAR_CHECK_INCONCLUSIVE"
+});
+const localTomLoveIssues = [
+  {
+    ruleId: "EslSingularNamePresentAgreement",
+    title: "單數人名與動詞一致",
+    category: "Learner English",
+    message: "Tom 是第三人稱單數；一般現在式動詞要加 s。",
+    originalText: "love",
+    suggestedText: "loves",
+    start: 4,
+    end: 8,
+    engine: LOCAL_ENGINE
+  },
+  {
+    ruleId: "EslPreferenceInfinitiveOrGerund",
+    title: "love 後用 to + 動詞或 -ing",
+    category: "Learner English",
+    message: "love 後面不能直接接另一個動詞原形。",
+    originalText: "eat",
+    suggestedText: "to eat",
+    start: 9,
+    end: 12,
+    engine: LOCAL_ENGINE
+  }
+];
+const localTomLoveAfterIncompleteAi = adapter.mergeWritingGrammarIssues(
+  "Tom love eat food.",
+  localTomLoveIssues,
+  []
+);
+assert.equal(localTomLoveAfterIncompleteAi.length, 2);
+assert.deepEqual(
+  localTomLoveAfterIncompleteAi.map((issue) => [issue.originalText, issue.suggestedText]),
+  [["love", "loves"], ["eat", "to eat"]],
+  "an inconclusive remote review must not remove either local grammar card"
+);
+assert.equal(incompleteReviewFailure.globalStatus, "unchanged");
+assert.deepEqual(
+  adapter.writingGrammarReviewNotice(1, localTomLoveAfterIncompleteAi.length),
+  {
+    state: "warning",
+    title: "AI 未能完成這句的進階檢查",
+    detail: "以下本機提示仍然保留；AI 未完成的句子可能仍有其他問題。"
+  }
+);
+assert.deepEqual(
+  adapter.writingGrammarReviewNotice(1, 0),
+  {
+    state: "warning",
+    title: "AI 未能完成這句的進階檢查",
+    detail: "本機暫未提出建議，但這不代表句子沒有文法問題。請稍後再試。"
+  },
+  "an incomplete AI review with no local card must show a warning, never a clean state"
+);
+assert.equal(adapter.writingGrammarReviewNotice(0, 0), null);
 
 function workerIssue(overrides = {}) {
   return {

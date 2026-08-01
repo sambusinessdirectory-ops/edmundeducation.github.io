@@ -9,12 +9,15 @@ import {
   newlyCompletedWritingSegments
 } from "./writing-submission-core.js?v=20260801-loop1";
 import {
+  classifyRemoteGrammarFailure,
   grammarIssueRangesOverlap,
   isBlockedInverseWritingGrammarIssue,
   mergeWritingGrammarIssues,
   normalizeWritingAiResponse,
-  rebaseWritingGrammarIssuesAfterAppliedCorrection
-} from "./writing-submission-ai.js?v=20260801-loop1";
+  REMOTE_GRAMMAR_FAILURE_KINDS,
+  rebaseWritingGrammarIssuesAfterAppliedCorrection,
+  writingGrammarReviewNotice
+} from "./writing-submission-ai.js?v=20260801-grammar2";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -22,7 +25,7 @@ const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const HARPER_VERSION = "2.7.0";
-const ESL_RULESET_VERSION = "1.1.0";
+const ESL_RULESET_VERSION = "1.2.0";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 const elements = {
@@ -85,6 +88,8 @@ const state = {
   remoteGrammarControllers: new Set(),
   remoteGrammarPromises: new Set(),
   remoteGrammarBackoffUntil: 0,
+  remoteGrammarBackoffFailure: null,
+  remoteGrammarWarnings: new Map(),
   activeIssues: [],
   appliedCorrections: [],
   dismissedIssueIds: new Set(),
@@ -535,7 +540,7 @@ async function prepareGrammarChecker() {
   if (state.checkerPromise) return state.checkerPromise;
   updateHarperStatus("loading", "正在準備進階文法檢查", "本機後備檢查首次載入約需數秒");
   state.checkerPromise = (async () => {
-    const module = await import("./writing-submission-harper.js?v=20260731-ai1");
+    const module = await import("./writing-submission-harper.js?v=20260801-grammar2");
     const checker = module.createWritingGrammarChecker();
     state.checker = checker;
     try {
@@ -779,9 +784,15 @@ function cancelRemoteGrammarChecks() {
   for (const record of state.latestSegmentRecords.values()) record.superseded = true;
   for (const controller of state.remoteGrammarControllers) controller.abort();
   state.remoteGrammarControllers.clear();
-  for (const job of state.remoteGrammarQueue.splice(0)) job.resolve(null);
+  const cancelled = remoteGrammarFailureResult(
+    classifyRemoteGrammarFailure({ name: "AbortError" })
+  );
+  for (const job of state.remoteGrammarQueue.splice(0)) job.resolve(cancelled);
   state.segmentChecks.clear();
   state.latestSegmentRecords.clear();
+  state.remoteGrammarWarnings.clear();
+  state.remoteGrammarBackoffUntil = 0;
+  state.remoteGrammarBackoffFailure = null;
 }
 
 function segmentSlotKey(segment, context) {
@@ -859,16 +870,44 @@ function supersedeSegmentRecordsAffectedByEdit(previousValue, nextValue) {
   }
 }
 
+function remoteGrammarSuccessResult(issues) {
+  return { issues, failure: null, skipped: false };
+}
+
+function remoteGrammarFailureResult(failure, { skipped = false } = {}) {
+  return { issues: null, failure, skipped };
+}
+
+function cancelledRemoteGrammarResult() {
+  return remoteGrammarFailureResult(
+    classifyRemoteGrammarFailure({ name: "AbortError" })
+  );
+}
+
+function inconclusiveRemoteGrammarResult() {
+  return remoteGrammarFailureResult(classifyRemoteGrammarFailure({
+    status: 502,
+    code: "GRAMMAR_CHECK_INCONCLUSIVE"
+  }));
+}
+
 async function requestRemoteGrammarIssues(record) {
-  if (
-    !isLatestSegmentRecord(record)
-    || record.segment.text.length > 2000
-    || Date.now() < state.remoteGrammarBackoffUntil
-  ) return null;
+  if (!isLatestSegmentRecord(record)) return cancelledRemoteGrammarResult();
+  if (record.segment.text.length > 2000) return inconclusiveRemoteGrammarResult();
+  if (Date.now() < state.remoteGrammarBackoffUntil) {
+    return remoteGrammarFailureResult(
+      state.remoteGrammarBackoffFailure || classifyRemoteGrammarFailure(new TypeError("Network backoff")),
+      { skipped: true }
+    );
+  }
   const controller = new AbortController();
   record.remoteController = controller;
   state.remoteGrammarControllers.add(controller);
-  const timeout = window.setTimeout(() => controller.abort(), 12000);
+  let timedOut = false;
+  const timeout = window.setTimeout(() => {
+    timedOut = true;
+    controller.abort();
+  }, 12000);
   try {
     const response = await apiJson("/v1/grammar-check", {
       method: "POST",
@@ -876,28 +915,18 @@ async function requestRemoteGrammarIssues(record) {
       signal: controller.signal
     });
     const issues = normalizeWritingAiResponse(record.segment.text, response);
-    if (!isLatestSegmentRecord(record)) return null;
-    if (isLatestSegmentRecord(record)) {
-      updateHarperStatus(
-        "ready",
-        "AI 進階文法檢查已連線",
-        "只傳送已完成的單句；題目、整篇草稿及學生身份不會交給模型"
-      );
-    }
-    return issues;
+    if (!isLatestSegmentRecord(record)) return cancelledRemoteGrammarResult();
+    return remoteGrammarSuccessResult(issues);
   } catch (error) {
-    if (error?.name === "AbortError") return null;
-    const delay = error?.status === 429 ? 60000 : 30000;
-    state.remoteGrammarBackoffUntil = Date.now() + delay;
-    console.warn("Advanced grammar check unavailable", error?.code || error?.status || error?.name || "unknown");
-    if (isCurrentCheckContext(record.context)) {
-      updateHarperStatus(
-        "error",
-        "進階 AI 暫時未能連線",
-        "Edmund 本機 ESL 規則及 Harper 後備檢查仍可使用"
+    if (!isLatestSegmentRecord(record)) return cancelledRemoteGrammarResult();
+    const failure = classifyRemoteGrammarFailure(error, { timedOut });
+    if (failure.kind !== REMOTE_GRAMMAR_FAILURE_KINDS.cancelled) {
+      console.warn(
+        "Advanced grammar check did not complete",
+        error?.code || error?.status || failure.kind
       );
     }
-    return null;
+    return remoteGrammarFailureResult(failure);
   } finally {
     window.clearTimeout(timeout);
     state.remoteGrammarControllers.delete(controller);
@@ -909,12 +938,14 @@ function drainRemoteGrammarQueue() {
   while (state.remoteGrammarInFlight < 2 && state.remoteGrammarQueue.length) {
     const job = state.remoteGrammarQueue.shift();
     if (!isLatestSegmentRecord(job.record)) {
-      job.resolve(null);
+      job.resolve(cancelledRemoteGrammarResult());
       continue;
     }
     state.remoteGrammarInFlight += 1;
     requestRemoteGrammarIssues(job.record)
-      .then(job.resolve, () => job.resolve(null))
+      .then(job.resolve, (error) => job.resolve(remoteGrammarFailureResult(
+        classifyRemoteGrammarFailure(error)
+      )))
       .finally(() => {
         state.remoteGrammarInFlight = Math.max(0, state.remoteGrammarInFlight - 1);
         drainRemoteGrammarQueue();
@@ -1015,10 +1046,65 @@ async function runLocalSegmentCheck(record) {
   finishSegmentRecord(record);
 }
 
+function applyRemoteGrammarOutcome(record, result) {
+  if (!isLatestSegmentRecord(record)) return;
+  const failure = result?.failure;
+  if (!failure) {
+    state.remoteGrammarWarnings.delete(record.slotKey);
+    state.remoteGrammarBackoffUntil = 0;
+    state.remoteGrammarBackoffFailure = null;
+    updateHarperStatus(
+      "ready",
+      "AI 進階文法檢查已連線",
+      "只傳送已完成的單句；題目、整篇草稿及學生身份不會交給模型"
+    );
+    return;
+  }
+  if (failure.kind === REMOTE_GRAMMAR_FAILURE_KINDS.cancelled) return;
+
+  if (failure.shouldWarn) {
+    state.remoteGrammarWarnings.set(record.slotKey, {
+      kind: failure.kind,
+      segment: {
+        start: record.segment.start,
+        end: record.segment.end,
+        text: record.segment.text
+      }
+    });
+  }
+  if (failure.backoffMs > 0 && !result?.skipped) {
+    state.remoteGrammarBackoffUntil = Date.now() + failure.backoffMs;
+    state.remoteGrammarBackoffFailure = failure;
+  }
+
+  if (failure.globalStatus === "error") {
+    updateHarperStatus(
+      "error",
+      "進階 AI 暫時未能連線",
+      "本機 ESL 規則及 Harper 後備檢查仍可使用"
+    );
+  } else if (failure.globalStatus === "rate_limited") {
+    updateHarperStatus(
+      "ready",
+      "AI 進階檢查稍後重試",
+      "本機提示仍可使用；請稍候再完成下一次進階檢查"
+    );
+  } else if (failure.kind === REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive) {
+    updateHarperStatus(
+      "ready",
+      "文法檢查已準備",
+      "AI 未能完成個別句子時，本機提示仍然會保留"
+    );
+  }
+}
+
 async function runRemoteSegmentCheck(record) {
-  record.remoteIssues = await scheduleRemoteGrammarCheck(record);
+  const result = await scheduleRemoteGrammarCheck(record);
+  record.remoteIssues = Array.isArray(result?.issues) ? result.issues : null;
+  record.remoteFailure = result?.failure || null;
   record.remoteDone = true;
-  if (Array.isArray(record.remoteIssues)) await publishSegmentRecord(record);
+  applyRemoteGrammarOutcome(record, result);
+  await publishSegmentRecord(record);
   finishSegmentRecord(record);
 }
 
@@ -1057,6 +1143,7 @@ function enqueueSegmentsForCheck(segments, { remote = true } = {}) {
       localIssues: [],
       remoteDone: !remote,
       remoteIssues: null,
+      remoteFailure: null,
       publishQueue: Promise.resolve(),
       finished: false
     };
@@ -1076,6 +1163,25 @@ function enqueueSegmentsForCheck(segments, { remote = true } = {}) {
     });
   }
   renderGrammarIssues();
+}
+
+function currentRemoteGrammarWarnings() {
+  for (const [key, warning] of state.remoteGrammarWarnings) {
+    if (!isLiveCompletedWritingSegment(elements.writingInput.value, warning.segment)) {
+      state.remoteGrammarWarnings.delete(key);
+    }
+  }
+  return [...state.remoteGrammarWarnings.values()];
+}
+
+function grammarReviewWarningContent(warnings, hasVisibleIssues) {
+  const notice = writingGrammarReviewNotice(warnings.length, hasVisibleIssues ? 1 : 0);
+  const wrapper = createElement("div", "grammar-empty");
+  wrapper.dataset.state = notice.state;
+  wrapper.append(createElement("span", "", "!"));
+  wrapper.append(createElement("strong", "", notice.title));
+  wrapper.append(createElement("p", "", notice.detail));
+  return wrapper;
 }
 
 function grammarEmptyContent() {
@@ -1110,12 +1216,18 @@ function grammarIssueSourceLabel(issue) {
 
 function renderGrammarIssues() {
   const visible = state.activeIssues.filter((issue) => !state.dismissedIssueIds.has(issue.id));
+  const warnings = currentRemoteGrammarWarnings();
   elements.issueCount.textContent = String(visible.length);
   if (!visible.length) {
-    elements.grammarList.replaceChildren(grammarEmptyContent());
+    elements.grammarList.replaceChildren(
+      warnings.length && state.pendingChecks === 0
+        ? grammarReviewWarningContent(warnings, false)
+        : grammarEmptyContent()
+    );
     return;
   }
   const fragment = document.createDocumentFragment();
+  if (warnings.length) fragment.append(grammarReviewWarningContent(warnings, true));
   for (const issue of visible) {
     const card = createElement("article", "grammar-card");
     if (issue.reviewRequired) card.dataset.review = "true";

@@ -2,7 +2,7 @@ import {
   WRITING_ESL_RULE_ENGINE,
   checkLocalLearnerEnglish as checkCoreLearnerEnglish,
   mergeGrammarIssues
-} from "./writing-submission-esl-rules-core.js?v=20260731-3";
+} from "./writing-submission-esl-rules-core.js?v=20260801-grammar2";
 
 export { WRITING_ESL_RULE_ENGINE, mergeGrammarIssues };
 

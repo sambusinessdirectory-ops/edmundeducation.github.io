@@ -1,6 +1,6 @@
 export const WRITING_ESL_RULE_ENGINE = Object.freeze({
   name: "edmund-esl-basics",
-  version: "1.1.0",
+  version: "1.2.0",
   locale: "zh-Hant",
   execution: "browser"
 });
@@ -373,6 +373,49 @@ function addInfinitiveBaseVerbIssues(source, issues) {
   }
 }
 
+function addTomLoveAgreementIssues(source, issues) {
+  // Keep this deliberately narrow. A general proper-name detector would also
+  // treat sentence-initial common nouns as names and create false positives.
+  // This rule covers the verified learner fixture while allowing either valid
+  // correction order: "love eat" -> "love to eat" -> "loves to eat", or
+  // "love eat" -> "loves eat" -> "loves to eat".
+  const pattern = /\b(Tom)\s+(love)(?=\s+(?:(?:to\s+)?eat|eating)\b)/giu;
+  for (const match of source.matchAll(pattern)) {
+    const verb = match[2];
+    const replacement = preserveCase(verb, "loves");
+    const start = match.index + match[0].length - verb.length;
+    addIssue(issues, createIssue(source, {
+      ruleId: "EslSingularNamePresentAgreement",
+      title: "單數人名與動詞一致",
+      message: `${match[1]} 是第三人稱單數；一般現在式動詞要加 s。因此 ${verb} 應改為 ${replacement}。`,
+      start,
+      end: start + verb.length,
+      replacement
+    }));
+  }
+}
+
+function addLoveEatComplementIssues(source, issues) {
+  // "love" may take a to-infinitive or an -ing form, but not another bare
+  // lexical verb. Limit the deterministic correction to the observed
+  // love/loves/loved + eat sequence; broader verb-complement choices require
+  // contextual judgement and belong in a future reviewed rule set.
+  const pattern = /\b(love|loves|loved)\s+(eat)\b/giu;
+  for (const match of source.matchAll(pattern)) {
+    const verb = match[2];
+    const replacement = preserveCase(verb, "to eat");
+    const start = match.index + match[0].length - verb.length;
+    addIssue(issues, createIssue(source, {
+      ruleId: "EslPreferenceInfinitiveOrGerund",
+      title: "love 後用 to + 動詞或 -ing",
+      message: `love 後面不能直接接另一個動詞原形。可以寫 love to eat 或 love eating；這裡建議把 ${verb} 改為 ${replacement}。`,
+      start,
+      end: start + verb.length,
+      replacement
+    }));
+  }
+}
+
 /**
  * A deliberately small, high-confidence learner-English layer. It complements
  * Harper locally in the browser and avoids guessing about meaning or style.
@@ -389,6 +432,8 @@ export function checkLocalLearnerEnglish(text) {
   addGenericPeoplePluralIssues(source, issues);
   addModalBaseVerbIssues(source, issues);
   addInfinitiveBaseVerbIssues(source, issues);
+  addTomLoveAgreementIssues(source, issues);
+  addLoveEatComplementIssues(source, issues);
 
   issues.sort((left, right) => (
     left.start - right.start

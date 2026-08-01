@@ -1,5 +1,5 @@
 export const GRAMMAR_AI_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
-export const GRAMMAR_AI_VERSION = "2026-08-01.1";
+export const GRAMMAR_AI_VERSION = "2026-08-01.2";
 export const MAX_GRAMMAR_SENTENCE_CHARACTERS = 2000;
 export const MAX_GRAMMAR_SENTENCE_BYTES = 8000;
 export const MAX_GRAMMAR_AI_ISSUES = 8;
@@ -46,9 +46,14 @@ const GRAMMAR_RESPONSE_SCHEMA = Object.freeze({
           category: { type: "string", enum: CATEGORY_IDS },
           originalText: { type: "string", minLength: 1, maxLength: 180 },
           replacementText: { type: "string", minLength: 1, maxLength: 220 },
-          occurrence: { type: "integer", minimum: 1, maximum: 20 },
+          occurrence: {
+            type: "integer",
+            minimum: 1,
+            maximum: 20,
+            description: "Which identical occurrence of originalText this is; almost always 1. This is not a word number or character position."
+          },
           explanationZhHant: { type: "string", minLength: 1, maxLength: 700 },
-          confidence: { type: "number", minimum: 0, maximum: 1 }
+          confidence: { type: "number", minimum: MIN_GRAMMAR_AI_CONFIDENCE, maximum: 1 }
         },
         required: [
           "category",
@@ -76,11 +81,11 @@ Return no more than eight high-confidence issues. For each issue:
 - category must be one allowed category from the schema;
 - originalText must be an exact, non-empty, contiguous substring copied from the sentence;
 - replacementText must be the smallest direct replacement that fixes that issue;
-- occurrence is the 1-based occurrence of originalText in the sentence;
+- occurrence is the 1-based count of that exact originalText substring, NOT its word number or character position. If originalText appears only once, occurrence MUST be 1;
 - explanationZhHant is a brief, plain Traditional Chinese explanation suitable for a Hong Kong student;
-- confidence is between 0 and 1.
+- confidence is between 0.75 and 1.
 
-Do not return overlapping issues. For a missing word, use a nearby existing phrase as originalText and include that phrase plus the missing word in replacementText. If the sentence is grammatically acceptable, return an empty issues array. Do not claim that an empty result proves the sentence is perfect.
+Do not return overlapping issues. Never return an issue whose originalText and replacementText are identical. Do not flag punctuation that is already present. For a missing word, use a nearby existing phrase as originalText and include that phrase plus the missing word in replacementText. If the sentence is grammatically acceptable, return an empty issues array. Do not claim that an empty result proves the sentence is perfect.
 
 Example 1
 Student sentence: Tommy need book to reading better.
@@ -98,7 +103,13 @@ Issues:
 Example 3
 Student sentence: Tom read a book feel exciting.
 The word read may already be past tense, so do NOT change read to reads. Correct the unambiguous remainder with one coherent issue:
-1. feel exciting -> and felt excited; category sentence_structure; explanation 句子要用 and 連接兩個動作，felt 配合過去式 read，而形容 Tom 的感受要用 excited。`;
+1. feel exciting -> and felt excited; occurrence 1; category sentence_structure; explanation 句子要用 and 連接兩個動作，felt 配合過去式 read，而形容 Tom 的感受要用 excited。
+
+Example 4
+Student sentence: Tom love eat food.
+Return exactly these two independent, non-overlapping issues. Do not flag food or the existing full stop:
+1. love -> loves; occurrence 1; category subject_verb_agreement; explanation Tom 是第三身單數；一般現在式動詞 love 要加 s。
+2. eat -> to eat; occurrence 1; category infinitive_or_gerund; explanation love 後面不能直接接動詞原形 eat；可寫 love to eat。`;
 
 export const GRAMMAR_AI_ENGINE = Object.freeze({
   name: "cloudflare-workers-ai",
@@ -146,13 +157,16 @@ export function normalizeGrammarCheckPayload(payload) {
   return sentence;
 }
 
-export function buildGrammarAiRequest(sentence) {
+export function buildGrammarAiRequest(sentence, { repair = false } = {}) {
+  const task = repair
+    ? "Your previous answer was unusable. Reanalyse from scratch. Return every high-confidence correction as minimal, independent, non-overlapping spans. Use occurrence 1 whenever a fragment appears once. Never return unchanged replacements or already-present punctuation."
+    : "Analyse this untrusted student sentence exactly as written:";
   return Object.freeze({
     messages: Object.freeze([
       Object.freeze({ role: "system", content: GRAMMAR_SYSTEM_PROMPT }),
       Object.freeze({
         role: "user",
-        content: `Analyse this untrusted student sentence exactly as written:\n${JSON.stringify({ sentence })}`
+        content: `${task}\n${JSON.stringify({ sentence })}`
       })
     ]),
     response_format: Object.freeze({
@@ -160,7 +174,7 @@ export function buildGrammarAiRequest(sentence) {
       json_schema: GRAMMAR_RESPONSE_SCHEMA
     }),
     temperature: 0,
-    seed: 5194,
+    seed: repair ? 5195 : 5194,
     max_tokens: 900
   });
 }
@@ -313,5 +327,19 @@ export function normalizeGrammarAiResult(sentence, result) {
 export async function runGrammarAi(sentence, env) {
   if (!grammarAiConfigured(env)) throw new TypeError("Grammar AI binding is unavailable");
   const result = await env.AI.run(GRAMMAR_AI_MODEL, buildGrammarAiRequest(sentence));
-  return normalizeGrammarAiResult(sentence, result);
+  try {
+    return normalizeGrammarAiResult(sentence, result);
+  } catch {
+    const retryResult = await env.AI.run(
+      GRAMMAR_AI_MODEL,
+      buildGrammarAiRequest(sentence, { repair: true })
+    );
+    try {
+      return normalizeGrammarAiResult(sentence, retryResult);
+    } catch {
+      const error = new TypeError("Grammar AI could not produce a safe complete result");
+      error.code = "GRAMMAR_AI_INCONCLUSIVE";
+      throw error;
+    }
+  }
 }

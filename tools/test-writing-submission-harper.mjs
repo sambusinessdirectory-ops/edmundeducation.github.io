@@ -119,6 +119,68 @@ function applyLearnerRule(sentence, ruleId) {
   return issue.correctedSentence;
 }
 
+const tomLoveSentence = "Tom love eat food.";
+const tomLoveRuleIds = [
+  "EslSingularNamePresentAgreement",
+  "EslPreferenceInfinitiveOrGerund"
+];
+const tomLoveLocalIssues = eslRules.checkLocalLearnerEnglish(tomLoveSentence);
+assert.deepEqual(tomLoveLocalIssues.map((issue) => issue.ruleId), tomLoveRuleIds);
+assert.deepEqual(
+  tomLoveLocalIssues.map(({ originalText, suggestedText, start, end }) => ({
+    originalText,
+    suggestedText,
+    start,
+    end
+  })),
+  [
+    { originalText: "love", suggestedText: "loves", start: 4, end: 8 },
+    { originalText: "eat", suggestedText: "to eat", start: 9, end: 12 }
+  ]
+);
+for (const issue of tomLoveLocalIssues) {
+  assert.equal(issue.originalText, tomLoveSentence.slice(issue.start, issue.end));
+  assert.equal(issue.engine.name, "edmund-esl-basics");
+  assert.equal(issue.engine.version, "1.2.0");
+}
+
+const tomLoveMergedIssues = await checker.check(tomLoveSentence);
+assert.deepEqual(
+  tomLoveMergedIssues.map((issue) => issue.ruleId),
+  tomLoveRuleIds,
+  "the actual Harper + Edmund checker must retain both deterministic fallback issues"
+);
+
+let correctedTomLove = tomLoveSentence;
+correctedTomLove = applyLearnerRule(correctedTomLove, "EslSingularNamePresentAgreement");
+assert.equal(correctedTomLove, "Tom loves eat food.");
+correctedTomLove = applyLearnerRule(correctedTomLove, "EslPreferenceInfinitiveOrGerund");
+assert.equal(correctedTomLove, "Tom loves to eat food.");
+assert.deepEqual(eslRules.checkLocalLearnerEnglish(correctedTomLove), []);
+
+let reverseCorrectedTomLove = tomLoveSentence;
+reverseCorrectedTomLove = applyLearnerRule(reverseCorrectedTomLove, "EslPreferenceInfinitiveOrGerund");
+assert.equal(reverseCorrectedTomLove, "Tom love to eat food.");
+reverseCorrectedTomLove = applyLearnerRule(reverseCorrectedTomLove, "EslSingularNamePresentAgreement");
+assert.equal(reverseCorrectedTomLove, "Tom loves to eat food.");
+assert.deepEqual(eslRules.checkLocalLearnerEnglish(reverseCorrectedTomLove), []);
+
+for (const validSentence of [
+  "Tom loves to eat food.",
+  "Tom loves eating food.",
+  "People love eating food.",
+  "Tom and Sam love eating food.",
+  "Tom's love story is popular.",
+  "Love makes people happy.",
+  "I love work."
+]) {
+  assert.deepEqual(
+    eslRules.checkLocalLearnerEnglish(validSentence),
+    [],
+    `Tom/love fallback rules must not flag this negative control: ${validSentence}`
+  );
+}
+
 let correctedFirst = screenshotFirstSentence;
 correctedFirst = applyLearnerRule(correctedFirst, "EslPluralAfterQuantifier");
 correctedFirst = applyLearnerRule(correctedFirst, "EslRequireObjectInfinitive");
@@ -182,7 +244,7 @@ for (const [sentence, sentenceIssues] of [
       sentence.slice(issue.start, issue.end),
       `${issue.ruleId} must point to the exact text shown in the editor`
     );
-    assert.equal(issue.engine.version, "1.1.0");
+    assert.equal(issue.engine.version, "1.2.0");
   }
 }
 
@@ -242,12 +304,38 @@ const fallbackChecker = helper.createWritingGrammarChecker({
 });
 const originalWarn = console.warn;
 console.warn = () => {};
-const fallbackIssues = await fallbackChecker.check(screenshotFirstSentence);
-console.warn = originalWarn;
+let fallbackIssues;
+let fallbackTomLoveIssues;
+try {
+  fallbackIssues = await fallbackChecker.check(screenshotFirstSentence);
+  fallbackTomLoveIssues = await fallbackChecker.check(tomLoveSentence);
+} finally {
+  console.warn = originalWarn;
+}
 assert.deepEqual(
   fallbackIssues.map((issue) => issue.ruleId),
   ["EslPluralAfterQuantifier", "EslRequireObjectInfinitive"],
   "Edmund ESL rules must keep working when Harper cannot load"
+);
+assert.deepEqual(
+  fallbackTomLoveIssues.map((issue) => ({
+    ruleId: issue.ruleId,
+    originalText: issue.originalText,
+    suggestedText: issue.suggestedText
+  })),
+  [
+    {
+      ruleId: "EslSingularNamePresentAgreement",
+      originalText: "love",
+      suggestedText: "loves"
+    },
+    {
+      ruleId: "EslPreferenceInfinitiveOrGerund",
+      originalText: "eat",
+      suggestedText: "to eat"
+    }
+  ],
+  "the two Edmund corrections must work even when Harper cannot load"
 );
 await fallbackChecker.dispose();
 

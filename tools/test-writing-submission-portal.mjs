@@ -104,9 +104,11 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /AI 文法提示（測試版）/);
   assert.match(html, /writing-submission\.css\?v=20260731-ai1/);
-  assert.match(html, /writing-submission\.js\?v=20260801-loop1/);
-  assert.match(script, /writing-submission-harper\.js\?v=20260731-ai1/);
-  assert.match(script, /writing-submission-ai\.js\?v=20260801-loop1/);
+  assert.match(html, /writing-submission\.js\?v=20260801-grammar2/);
+  assert.match(script, /writing-submission-harper\.js\?v=20260801-grammar2/);
+  assert.match(script, /writing-submission-ai\.js\?v=20260801-grammar2/);
+  assert.match(script, /ESL_RULESET_VERSION\s*=\s*"1\.2\.0"/);
+  assert.match(eslRules, /writing-submission-esl-rules-core\.js\?v=20260801-grammar2/);
   assert.match(script, /暫未偵測到高信心文法問題/);
   assert.match(script, /AI 及本機工具都可能遺漏問題/);
   assert.match(script, /需老師覆核/);
@@ -130,6 +132,22 @@ test("completed sentences use the authenticated AI endpoint without sending the 
   assert.match(script, /normalizeWritingAiResponse/);
   assert.match(aiAdapter, /EdmundAI:\$\{categoryId\}/);
   assert.match(aiAdapter, /cloudflare-workers-ai/);
+});
+
+test("an incomplete AI review preserves local findings without pretending the service is offline", () => {
+  assert.match(aiAdapter, /export function classifyRemoteGrammarFailure/);
+  assert.match(aiAdapter, /export function writingGrammarReviewNotice/);
+  assert.match(aiAdapter, /code === "GRAMMAR_CHECK_INCONCLUSIVE"/);
+  assert.match(script, /if \(!isLatestSegmentRecord\(record\)\) return cancelledRemoteGrammarResult\(\)/);
+  assert.match(script, /timedOut = true;\s*controller\.abort\(\)/);
+  assert.match(script, /applyRemoteGrammarOutcome\(record, result\)/);
+  assert.match(script, /record\.remoteIssues = Array\.isArray\(result\?\.issues\) \? result\.issues : null/);
+  assert.match(script, /await publishSegmentRecord\(record\);\s*finishSegmentRecord\(record\)/);
+  assert.match(script, /writingGrammarReviewNotice\(warnings\.length, hasVisibleIssues \? 1 : 0\)/);
+  assert.match(script, /state\.remoteGrammarWarnings\.clear\(\)/);
+  assert.match(script, /state\.remoteGrammarBackoffUntil\s*=\s*0/);
+  assert.match(script, /state\.remoteGrammarBackoffFailure\s*=\s*null/);
+  assert.doesNotMatch(script, /const delay = error\?\.status === 429 \? 60000 : 30000/);
 });
 
 test("applying one AI correction cannot create an A-B-A loop or erase sibling cards", () => {

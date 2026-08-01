@@ -472,13 +472,18 @@ async function grammarCheck(request, env) {
   let issues;
   try {
     issues = await runGrammarAi(sentence, env);
-  } catch {
+  } catch (error) {
     // Student text and provider output must never appear in logs.
-    console.error("Writing Submission grammar provider failed");
+    const inconclusive = error?.code === "GRAMMAR_AI_INCONCLUSIVE";
+    console.error(inconclusive
+      ? "Writing Submission grammar result was inconclusive"
+      : "Writing Submission grammar provider failed");
     throw new HttpError(
-      503,
-      "GRAMMAR_CHECK_UNAVAILABLE",
-      "Advanced grammar checking is temporarily unavailable"
+      inconclusive ? 502 : 503,
+      inconclusive ? "GRAMMAR_CHECK_INCONCLUSIVE" : "GRAMMAR_CHECK_UNAVAILABLE",
+      inconclusive
+        ? "Advanced grammar checking could not safely analyse this sentence"
+        : "Advanced grammar checking is temporarily unavailable"
     );
   }
 

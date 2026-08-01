@@ -4,6 +4,87 @@ export const WRITING_GRAMMAR_ENGINE_IDS = Object.freeze({
   ai: "cloudflare-workers-ai"
 });
 
+export const REMOTE_GRAMMAR_FAILURE_KINDS = Object.freeze({
+  cancelled: "cancelled",
+  timeout: "timeout",
+  inconclusive: "inconclusive",
+  rateLimited: "rate_limited",
+  network: "network"
+});
+
+const REMOTE_GRAMMAR_FAILURE_POLICIES = Object.freeze({
+  [REMOTE_GRAMMAR_FAILURE_KINDS.cancelled]: Object.freeze({
+    kind: REMOTE_GRAMMAR_FAILURE_KINDS.cancelled,
+    shouldWarn: false,
+    backoffMs: 0,
+    globalStatus: "unchanged"
+  }),
+  [REMOTE_GRAMMAR_FAILURE_KINDS.timeout]: Object.freeze({
+    kind: REMOTE_GRAMMAR_FAILURE_KINDS.timeout,
+    shouldWarn: true,
+    backoffMs: 0,
+    globalStatus: "unchanged"
+  }),
+  [REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive]: Object.freeze({
+    kind: REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive,
+    shouldWarn: true,
+    backoffMs: 0,
+    globalStatus: "unchanged"
+  }),
+  [REMOTE_GRAMMAR_FAILURE_KINDS.rateLimited]: Object.freeze({
+    kind: REMOTE_GRAMMAR_FAILURE_KINDS.rateLimited,
+    shouldWarn: true,
+    backoffMs: 60000,
+    globalStatus: "rate_limited"
+  }),
+  [REMOTE_GRAMMAR_FAILURE_KINDS.network]: Object.freeze({
+    kind: REMOTE_GRAMMAR_FAILURE_KINDS.network,
+    shouldWarn: true,
+    backoffMs: 30000,
+    globalStatus: "error"
+  })
+});
+
+/**
+ * Classify a remote grammar failure without mutating editor state. An
+ * inconclusive model response is a per-sentence review failure, not proof that
+ * the grammar service is offline. A timed-out request is also kept separate
+ * from an intentional AbortController cancellation.
+ */
+export function classifyRemoteGrammarFailure(errorValue, { timedOut = false } = {}) {
+  const error = errorValue && typeof errorValue === "object" ? errorValue : {};
+  const status = Number.isFinite(Number(error.status)) ? Number(error.status) : 0;
+  const code = typeof error.code === "string" ? error.code : "";
+
+  if (timedOut) return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.timeout];
+  if (error.name === "AbortError") {
+    return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.cancelled];
+  }
+  if (status === 429) {
+    return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.rateLimited];
+  }
+  if (code === "GRAMMAR_CHECK_INCONCLUSIVE") {
+    return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive];
+  }
+  return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.network];
+}
+
+/** Build the sentence-level notice without ever presenting an incomplete AI review as clean. */
+export function writingGrammarReviewNotice(warningCountValue, visibleIssueCountValue) {
+  const warningCount = Math.max(0, Number.parseInt(warningCountValue, 10) || 0);
+  if (!warningCount) return null;
+  const hasVisibleIssues = (Number.parseInt(visibleIssueCountValue, 10) || 0) > 0;
+  return Object.freeze({
+    state: "warning",
+    title: warningCount === 1
+      ? "AI 未能完成這句的進階檢查"
+      : `AI 未能完成 ${warningCount} 句的進階檢查`,
+    detail: hasVisibleIssues
+      ? "以下本機提示仍然保留；AI 未完成的句子可能仍有其他問題。"
+      : "本機暫未提出建議，但這不代表句子沒有文法問題。請稍後再試。"
+  });
+}
+
 export const WRITING_GRAMMAR_CATEGORY_TITLES = Object.freeze({
   subject_verb_agreement: "主語與動詞一致",
   article_or_determiner: "冠詞與限定詞",
