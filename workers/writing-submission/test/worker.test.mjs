@@ -3,6 +3,7 @@ import fs from "node:fs";
 import test from "node:test";
 
 import worker from "../src/index.js";
+import { deterministicDiffTokenHunks } from "../src/grammar-ai.js";
 
 const ORIGIN = "https://edmundeducation.github.io";
 const BAD_ORIGIN = "https://attacker.example";
@@ -210,6 +211,206 @@ function grammarCheckRequest(sentence, overrides = {}) {
   });
 }
 
+test("deterministic diff derives atomic UTF-16 edits without trusting model coordinates", () => {
+  const fixtures = [
+    {
+      source: "Tommy write a book call \"Super book\".",
+      target: "Tommy writes a book called \"Super book\".",
+      expected: [[6, 11, "write", "writes"], [19, 23, "call", "called"]]
+    },
+    {
+      source: "Tom is run a system call \"Super Book\".",
+      target: "Tom is running a system called \"Super Book\".",
+      expected: [[7, 10, "run", "running"], [20, 24, "call", "called"]]
+    },
+    {
+      source: "Sarah write a poem call \"My Home\".",
+      target: "Sarah writes a poem called \"My Home\".",
+      expected: [[6, 11, "write", "writes"], [19, 23, "call", "called"]]
+    },
+    {
+      source: "Yesterday, he was write a story call “Home”.",
+      target: "Yesterday, he was writing a story called “Home”.",
+      expected: [[18, 23, "write", "writing"], [32, 36, "call", "called"]]
+    },
+    {
+      source: "She likes read books.",
+      target: "She likes to read books.",
+      expected: [[10, 14, "read", "to read"]]
+    },
+    {
+      source: "He bought book.",
+      target: "He bought a book.",
+      expected: [[10, 14, "book", "a book"]]
+    },
+    {
+      source: "They work study together.",
+      target: "They work and study together.",
+      expected: [[10, 15, "study", "and study"]]
+    },
+    {
+      source: "He wants to to swim.",
+      target: "He wants to swim.",
+      expected: [[12, 19, "to swim", "swim"]]
+    },
+    {
+      source: "They go to the school every day.",
+      target: "They go to school every day.",
+      expected: [[11, 21, "the school", "school"]]
+    },
+    {
+      source: "😀 Tom write books.",
+      target: "😀 Tom writes books.",
+      expected: [[7, 12, "write", "writes"]]
+    },
+    {
+      source: "Yesterday Tom walk home.",
+      target: "Yesterday Tom walked home.",
+      expected: [[14, 18, "walk", "walked"]]
+    },
+    {
+      source: "Tom write—'Super book'.",
+      target: "Tom writes—'Super book'.",
+      expected: [[4, 9, "write", "writes"]]
+    }
+  ];
+
+  for (const { source, target, expected } of fixtures) {
+    const hunks = deterministicDiffTokenHunks(source, target);
+    assert.ok(hunks, source);
+    assert.deepEqual(
+      hunks.map((hunk) => [hunk.start, hunk.end, hunk.originalText, hunk.replacementText]),
+      expected,
+      source
+    );
+    assert.ok(hunks.every((hunk) => (
+      hunk.originalText
+      && hunk.replacementText
+      && source.slice(hunk.start, hunk.end) === hunk.originalText
+    )));
+    for (let index = 1; index < hunks.length; index += 1) {
+      assert.ok(hunks[index - 1].end <= hunks[index].start, source);
+    }
+    const reconstructed = [...hunks]
+      .sort((left, right) => right.start - left.start)
+      .reduce((value, hunk) => (
+        `${value.slice(0, hunk.start)}${hunk.replacementText}${value.slice(hunk.end)}`
+      ), source);
+    assert.equal(reconstructed, target, source);
+  }
+});
+
+test("deterministic diff rejects broad rewrites and unsafe replacements", () => {
+  for (const [source, target] of [
+    ["Tom likes tea.", "Mary hates dogs."],
+    ["Tom is bad.", "Kill them now."],
+    ["He reads books.", "She burns houses."],
+    ["Tom write a book.", "Mary sings loudly."],
+    ["Tom bought 2 books.", "Tom sold 2 cars."],
+    ["Tom writes \"X\".", "Mary sings \"X\"."],
+    ["He is kind.", "He is king."],
+    ["Tom likes tea.", "Tim likes pies."],
+    ["Tom likes cats and hates dogs.", "Tom hates cats and likes dogs."],
+    ["Tom gives Mary a book.", "Mary gives Tom a book."],
+    ["The red team beat the blue team.", "The blue team beat the red team."],
+    ["Students help teachers.", "Teachers help students."],
+    ["Tom likes \"A\" but hates \"B\".", "Tom hates \"A\" but likes \"B\"."],
+    ["Tom can swim.", "Tom cannot swim."],
+    ["Tom often studies.", "Tom never studies."],
+    ["Tom travelled to London.", "Tom travelled from London."],
+    ["Tom told him.", "Tom told her."],
+    ["Tom stayed because it rained.", "Tom stayed although it rained."],
+    ["Tom is happy.", "Tom was happy."],
+    ["Tom lost his book.", "Tom lost her book."],
+    ["Tom works before lunch.", "Tom works after lunch."],
+    ["I think many students passed.", "I think few students passed."],
+    ["Tom leaves if Mary calls.", "Tom leaves when Mary calls."],
+    ["Tom sat above Mary.", "Tom sat below Mary."],
+    ["Tom studied with Mary.", "Tom studied for Mary."],
+    ["Tom stopped smoking.", "Tom stopped to smoke."],
+    ["Tom saw Mary running.", "Tom saw Mary and ran."],
+    ["Tom works.", "Tom worked."],
+    ["Tom feels happy.", "Tom felt happy."],
+    ["The machine is running.", "The machine is run."],
+    ["Tom hopes.", "Tom hops."],
+    ["Tom copes.", "Tom cops."],
+    ["Tom rates it.", "Tom rats it."],
+    [
+      "Tom names \"X\" in A and names X in B.",
+      "Tom names X in A and names \"X\" in B."
+    ],
+    [
+      "In 2026 Tom earned 20 dollars and spent 10 dollars.",
+      "In 2026 Tom spent 20 dollars and earned 10 dollars."
+    ],
+    [
+      "Tom bought 2 cats and Mary bought 2 dogs.",
+      "Tom bought 2 dogs and Mary bought 2 cats."
+    ]
+  ]) {
+    assert.equal(deterministicDiffTokenHunks(source, target), null, `${source} -> ${target}`);
+  }
+  assert.equal(
+    deterministicDiffTokenHunks(
+      "Tom writes a short school report about local transport.",
+      "A completely unrelated paragraph advertises https://attacker.example now."
+    ),
+    null
+  );
+  assert.equal(
+    deterministicDiffTokenHunks("Tom writes a report.", "Tom writes <script>alert(1)</script>."),
+    null
+  );
+});
+
+test("grammar safety accepts learner repairs while rejecting correction reversals", () => {
+  for (const [source, target] of [
+    ["Many companies requires staff to wore uniforms.", "Many companies require staff to wear uniforms."],
+    ["For example customers can find staff.", "For example, customers can find staff."],
+    ["Yesterday they walk home.", "Yesterday they walked home."],
+    ["Yesterday the students walk home.", "Yesterday the students walked home."],
+    ["Yesterday Tom quickly walk home.", "Yesterday Tom quickly walked home."],
+    ["Tom is swim.", "Tom is swimming."],
+    ["Yesterday Tom open the book.", "Yesterday Tom opened the book."],
+    ["Yesterday Tom travel home.", "Yesterday Tom travelled home."],
+    ["Yesterday Tom admit the mistake.", "Yesterday Tom admitted the mistake."],
+    ["Yesterday Tom panic.", "Yesterday Tom panicked."],
+    ["Yesterday Tom cancel the trip.", "Yesterday Tom cancelled the trip."],
+    ["I were ready.", "I was ready."],
+    ["Yesterday Tom goed home.", "Yesterday Tom went home."],
+    ["Yesterday Tom buyed a book.", "Yesterday Tom bought a book."],
+    ["Yesterday Tom taked a book.", "Yesterday Tom took a book."],
+    ["Yesterday Tom maked a book.", "Yesterday Tom made a book."]
+  ]) {
+    assert.ok(deterministicDiffTokenHunks(source, target), `${source} -> ${target}`);
+  }
+
+  for (const [source, target] of [
+    ["They walk home.", "They walks home."],
+    ["Tom walks home.", "Tom walk home."],
+    ["They have money.", "They has money."],
+    ["I am ready.", "I is ready."],
+    ["I am ready.", "I are ready."],
+    ["I was ready.", "I were ready."],
+    ["Yesterday Tom went home.", "Yesterday Tom goed home."],
+    ["Yesterday Tom bought a book.", "Yesterday Tom buyed a book."],
+    ["Yesterday Tom took a book.", "Yesterday Tom taked a book."],
+    ["Yesterday Tom made a book.", "Yesterday Tom maked a book."],
+    ["They are ready.", "They is ready."],
+    ["He saw a log.", "He saws a log."],
+    ["Tom wishes.", "Tom wishe."],
+    ["Tom watches.", "Tom watche."],
+    ["Tom is cycling.", "Tom is cycl."],
+    ["Tom sees dogs.", "Tom sees a dogs."],
+    ["Tom bought information.", "Tom bought an information."],
+    ["Dogs bark.", "Dogs are bark."],
+    ["Let's eat, Grandma.", "Let's eat Grandma."],
+    ["Tom left. Mary stayed.", "Tom left Mary stayed."]
+  ]) {
+    assert.equal(deterministicDiffTokenHunks(source, target), null, `${source} -> ${target}`);
+  }
+});
+
 test("health keeps the core service independent and reports grammar AI readiness separately", async () => {
   const complete = await worker.fetch(
     new Request("https://worker.example/v1/health"),
@@ -219,6 +420,7 @@ test("health keeps the core service independent and reports grammar AI readiness
   const completeBody = await complete.json();
   assert.equal(completeBody.ok, true);
   assert.equal(completeBody.grammarAi.configured, true);
+  assert.equal(completeBody.grammarAi.version, "2026-08-01.6");
   assert.equal(completeBody.grammarAi.model, "@cf/meta/llama-3.1-8b-instruct-fast");
   assert.equal(completeBody.grammarAi.repairModel, "@cf/meta/llama-3.3-70b-instruct-fp8-fast");
   assert.equal(completeBody.rateLimiters.grammarCheck, true);
@@ -431,7 +633,7 @@ test("dependent verb phrases combine into one coherent hate-school correction", 
     ]
   );
   assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
-  assert.equal(body.engine.version, "2026-08-01.5");
+  assert.equal(body.engine.version, "2026-08-01.6");
 
   const prompt = ai.calls[0].request.messages[0].content;
   assert.match(prompt, /Tom hate go school but enjoy watch movie\./);
@@ -834,11 +1036,11 @@ test("two malformed edit maps recover when both checks agree on the same complet
   const responseText = await response.text();
   assert.equal(response.status, 200, responseText);
   const body = JSON.parse(responseText);
-  assert.equal(body.engine.version, "2026-08-01.5");
+  assert.equal(body.engine.version, "2026-08-01.6");
   assert.equal(body.issues.length, 1);
   assert.equal(body.issues[0].category, "sentence_structure");
-  assert.equal(body.issues[0].originalText, "the efficient and effective");
-  assert.equal(body.issues[0].suggestedText, "that it is efficient and effective");
+  assert.equal(body.issues[0].originalText, "the");
+  assert.equal(body.issues[0].suggestedText, "that it is");
   assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
   assert.equal(ai.calls.length, 2);
 });
@@ -1031,7 +1233,7 @@ test("the three newest learner sentences route malformed 8B maps to one complete
     });
 
     assert.equal(body.engine.model, primaryModel);
-    assert.equal(body.engine.version, "2026-08-01.5");
+    assert.equal(body.engine.version, "2026-08-01.6");
     assert.deepEqual(
       body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
       fixture.expectedEdits
@@ -1050,8 +1252,406 @@ test("the three newest learner sentences route malformed 8B maps to one complete
     assert.ok(body.issues.length > 0);
     assert.ok(body.issues.every((issue) => (
       issue.engine?.model === repairModel
-      && issue.engine?.version === "2026-08-01.5"
+      && issue.engine?.version === "2026-08-01.6"
     )), `${fixture.sentence}: every repaired issue must identify the 70B repair engine`);
+  }
+});
+
+test("the two failed screenshot sentences recover from invalid model positions", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const fixtures = [
+    {
+      sentence: "Tommy write a book call \"Super book\".",
+      primaryTarget: "Tommy writes a book called 'Super book'.",
+      repairTarget: "Tommy writes a book called 'Super book'.",
+      finalTarget: "Tommy writes a book called \"Super book\".",
+      expectedEdits: [["write", "writes"], ["call", "called"]]
+    },
+    {
+      sentence: "Tom is run a system call \"Super Book\".",
+      primaryTarget: "Tom is running a system call called 'Super Book'.",
+      repairTarget: "Tom is running a system called 'Super Book'.",
+      finalTarget: "Tom is running a system called \"Super Book\".",
+      expectedEdits: [["run", "running"], ["call", "called"]]
+    }
+  ];
+
+  for (const fixture of fixtures) {
+    const invalidMap = (correctedSentence) => grammarAiResponse(
+      fixture.sentence,
+      [grammarAiIssue({
+        category: "sentence_structure",
+        originalText: "not a real source span",
+        replacementText: "invented replacement",
+        occurrence: 7,
+        explanationZhHant: "模型明白完整修正，但傳回的位置資料無效。"
+      })],
+      correctedSentence
+    );
+    const ai = aiSequence(invalidMap(fixture.primaryTarget), invalidMap(fixture.repairTarget));
+    const response = await worker.fetch(
+      grammarCheckRequest(fixture.sentence),
+      environment({ AI: ai })
+    );
+    const responseText = await response.text();
+    assert.equal(response.status, 200, `${fixture.sentence}: ${responseText}`);
+    const body = JSON.parse(responseText);
+    assert.equal(ai.calls.length, 2);
+    assert.match(
+      ai.calls[0].request.messages[0].content,
+      /"Tommy write" -> "Tommy writes", not "Tommy wrote"/
+    );
+    assert.deepEqual(
+      body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
+      fixture.expectedEdits
+    );
+    assert.equal(applyGrammarIssues(fixture.sentence, body.issues), fixture.finalTarget);
+    assert.ok(body.issues.every((issue) => (
+      issue.engine.model === "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+      && issue.correctedSentence === (
+        `${fixture.sentence.slice(0, issue.start)}${issue.suggestedText}${fixture.sentence.slice(issue.end)}`
+      )
+    )));
+    assert.ok(applyGrammarIssues(fixture.sentence, body.issues).includes('"Super'));
+  }
+});
+
+test("unseen learner wording receives the same general deterministic recovery", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Sarah write a poem call \"My Home\".";
+  const correctedSentence = "Sarah writes a poem called \"My Home\".";
+  const invalid = grammarAiResponse(sentence, [grammarAiIssue({
+    originalText: "wrong position",
+    replacementText: "wrong mapping",
+    occurrence: 9
+  })], correctedSentence);
+  const ai = aiSequence(invalid, invalid);
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.deepEqual(
+    body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
+    [["write", "writes"], ["call", "called"]]
+  );
+  assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
+});
+
+test("deterministic recovery restores quoted titles by ordinal and rejects quote loss", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tommy write a book call \"Super book\".";
+  const invalid = (correctedSentence) => grammarAiResponse(sentence, [grammarAiIssue({
+    originalText: "missing source text",
+    replacementText: "invalid map",
+    occurrence: 5
+  })], correctedSentence);
+  const caseOnlyAi = aiSequence(
+    invalid("Tommy writes a book called 'Super Book'."),
+    invalid("Tommy writes a book called 'Super Book'.")
+  );
+  const caseOnlyResponse = await worker.fetch(
+    grammarCheckRequest(sentence),
+    environment({ AI: caseOnlyAi })
+  );
+  const caseOnlyText = await caseOnlyResponse.text();
+  assert.equal(caseOnlyResponse.status, 200, caseOnlyText);
+  assert.equal(
+    applyGrammarIssues(sentence, JSON.parse(caseOnlyText).issues),
+    "Tommy writes a book called \"Super book\"."
+  );
+
+  const changedAi = aiSequence(
+    invalid("Tommy writes a book called 'Amazing guide'."),
+    invalid("Tommy writes a book called 'Amazing guide'.")
+  );
+  const changedResponse = await worker.fetch(
+    grammarCheckRequest(sentence),
+    environment({ AI: changedAi })
+  );
+  const changedText = await changedResponse.text();
+  assert.equal(changedResponse.status, 200, changedText);
+  assert.equal(
+    applyGrammarIssues(sentence, JSON.parse(changedText).issues),
+    "Tommy writes a book called \"Super book\"."
+  );
+
+  for (const [quotedSentence, candidate, expected] of [
+    [
+      "Tommy write a book call 'Super book'.",
+      "Tommy writes a book called 'Amazing Guide'.",
+      "Tommy writes a book called 'Super book'."
+    ],
+    [
+      "Tommy write a book call ‘Super book’.",
+      "Tommy writes a book called ‘Amazing Guide’.",
+      "Tommy writes a book called ‘Super book’."
+    ],
+    [
+      "Tommy write a book call 'Student's Guide'.",
+      "Tommy writes a book called 'Amazing Guide'.",
+      "Tommy writes a book called 'Student's Guide'."
+    ],
+    [
+      "Tommy write a book call ‘Edmund’s Book’.",
+      "Tommy writes a book called ‘Amazing Guide’.",
+      "Tommy writes a book called ‘Edmund’s Book’."
+    ],
+    [
+      "Tom write \"First\" and \"Second\".",
+      "Tom writes \"Second\" and \"First\".",
+      "Tom writes \"First\" and \"Second\"."
+    ],
+    [
+      "Tom write—'Super book'.",
+      "Tom writes—'Super Book'.",
+      "Tom writes—'Super book'."
+    ],
+    [
+      "Tom write—‘Super book’.",
+      "Tom writes—‘Super Book’.",
+      "Tom writes—‘Super book’."
+    ]
+  ]) {
+    const mapped = (correctedSentence) => grammarAiResponse(
+      quotedSentence,
+      [grammarAiIssue({
+        originalText: "missing source text",
+        replacementText: "invalid map",
+        occurrence: 5
+      })],
+      correctedSentence
+    );
+    const ai = aiSequence(mapped(candidate), mapped(candidate));
+    const response = await worker.fetch(
+      grammarCheckRequest(quotedSentence),
+      environment({ AI: ai })
+    );
+    const responseText = await response.text();
+    assert.equal(response.status, 200, `${quotedSentence}: ${responseText}`);
+    assert.equal(applyGrammarIssues(quotedSentence, JSON.parse(responseText).issues), expected);
+  }
+
+  const duplicateSentence = "Tom write \"X\" and \"X\".";
+  const lostQuote = grammarAiResponse(
+    duplicateSentence,
+    [grammarAiIssue({
+      originalText: "missing source text",
+      replacementText: "invalid map",
+      occurrence: 5
+    })],
+    "Tom writes \"X\"."
+  );
+  const lostQuoteResponse = await worker.fetch(
+    grammarCheckRequest(duplicateSentence),
+    environment({ AI: aiSequence(lostQuote, lostQuote) })
+  );
+  assert.equal(lostQuoteResponse.status, 502);
+  assert.equal((await lostQuoteResponse.json()).code, "GRAMMAR_CHECK_INCONCLUSIVE");
+
+  const movedQuoteSentence = "Tom write \"X\" to Mary.";
+  const movedQuote = grammarAiResponse(
+    movedQuoteSentence,
+    [grammarAiIssue({
+      originalText: "missing source text",
+      replacementText: "invalid map",
+      occurrence: 5
+    })],
+    "Tom writes X to \"Mary\"."
+  );
+  const movedQuoteResponse = await worker.fetch(
+    grammarCheckRequest(movedQuoteSentence),
+    environment({ AI: aiSequence(movedQuote, movedQuote) })
+  );
+  assert.equal(movedQuoteResponse.status, 502);
+  assert.equal((await movedQuoteResponse.json()).code, "GRAMMAR_CHECK_INCONCLUSIVE");
+});
+
+test("deterministic recovery refuses safe-looking semantic rewrites", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = () => {};
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  for (const [sentence, correctedSentence] of [
+    ["Tom write a book.", "Mary sings loudly."],
+    ["Tom bought 2 books.", "Tom sold 2 cars."],
+    ["Tom writes \"X\".", "Mary sings \"X\"."],
+    ["He is kind.", "He is king."],
+    ["Tom likes cats and hates dogs.", "Tom hates cats and likes dogs."],
+    ["Tom gives Mary a book.", "Mary gives Tom a book."],
+    ["Students help teachers.", "Teachers help students."],
+    ["Tom can swim.", "Tom cannot swim."],
+    ["Tom often studies.", "Tom never studies."],
+    ["Tom travelled to London.", "Tom travelled from London."],
+    ["Tom told him.", "Tom told her."],
+    ["Tom stayed because it rained.", "Tom stayed although it rained."],
+    ["Tom is happy.", "Tom was happy."],
+    ["Tom lost his book.", "Tom lost her book."],
+    ["Tom works before lunch.", "Tom works after lunch."],
+    ["I think many students passed.", "I think few students passed."],
+    ["Tom leaves if Mary calls.", "Tom leaves when Mary calls."],
+    ["Tom sat above Mary.", "Tom sat below Mary."],
+    ["Tom studied with Mary.", "Tom studied for Mary."],
+    ["Tom stopped smoking.", "Tom stopped to smoke."],
+    ["Tom saw Mary running.", "Tom saw Mary and ran."],
+    ["Tom works.", "Tom worked."],
+    ["Tom feels happy.", "Tom felt happy."],
+    ["The machine is running.", "The machine is run."],
+    ["Tom hopes.", "Tom hops."],
+    [
+      "Tom names \"X\" in A and names X in B.",
+      "Tom names X in A and names \"X\" in B."
+    ],
+    [
+      "Tom bought 2 cats and Mary bought 2 dogs.",
+      "Tom bought 2 dogs and Mary bought 2 cats."
+    ]
+  ]) {
+    const malformed = grammarAiResponse(sentence, [grammarAiIssue({
+      originalText: "not in source",
+      replacementText: "invalid map",
+      occurrence: 8
+    })], correctedSentence);
+    const ai = aiSequence(malformed, malformed);
+    const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+    assert.equal(response.status, 502, sentence);
+    assert.equal((await response.json()).code, "GRAMMAR_CHECK_INCONCLUSIVE");
+    assert.equal(ai.calls.length, 2);
+  }
+});
+
+test("valid model maps cannot bypass protected meaning, numbers or quoted text", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = () => {};
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  for (const fixture of [
+    {
+      sentence: "Tom is happy.",
+      correctedSentence: "Tom was happy.",
+      originalText: "is",
+      replacementText: "was"
+    },
+    {
+      sentence: "Tom travelled to London.",
+      correctedSentence: "Tom travelled from London.",
+      originalText: "to",
+      replacementText: "from"
+    },
+    {
+      sentence: "Tom has 2 books.",
+      correctedSentence: "Tom has 3 books.",
+      originalText: "2",
+      replacementText: "3"
+    },
+    {
+      sentence: "Tom wrote \"Book\".",
+      correctedSentence: "Tom wrote \"Guide\".",
+      originalText: "Book",
+      replacementText: "Guide"
+    },
+    {
+      sentence: "Tom likes cats and hates dogs.",
+      correctedSentence: "Tom hates cats and likes dogs.",
+      originalText: "likes cats and hates dogs",
+      replacementText: "hates cats and likes dogs"
+    },
+    {
+      sentence: "Tom stopped smoking.",
+      correctedSentence: "Tom stopped to smoke.",
+      originalText: "smoking",
+      replacementText: "to smoke"
+    },
+    {
+      sentence: "Tom saw Mary running.",
+      correctedSentence: "Tom saw Mary and ran.",
+      originalText: "running",
+      replacementText: "and ran"
+    },
+    {
+      sentence: "Tom works.",
+      correctedSentence: "Tom worked.",
+      originalText: "works",
+      replacementText: "worked"
+    },
+    {
+      sentence: "Tom feels happy.",
+      correctedSentence: "Tom felt happy.",
+      originalText: "feels",
+      replacementText: "felt"
+    },
+    {
+      sentence: "The machine is running.",
+      correctedSentence: "The machine is run.",
+      originalText: "running",
+      replacementText: "run"
+    },
+    {
+      sentence: "Tom hopes.",
+      correctedSentence: "Tom hops.",
+      originalText: "hopes",
+      replacementText: "hops"
+    },
+    {
+      sentence: "Tom names \"X\" in A and names X in B.",
+      correctedSentence: "Tom names X in A and names \"X\" in B.",
+      originalText: "\"X\" in A and names X",
+      replacementText: "X in A and names \"X\""
+    }
+  ]) {
+    const validMap = grammarAiResponse(fixture.sentence, [grammarAiIssue({
+      category: "other_grammar",
+      originalText: fixture.originalText,
+      replacementText: fixture.replacementText,
+      explanationZhHant: "這是一個格式正確但會改變原意的模型建議。",
+      confidence: 0.99
+    })], fixture.correctedSentence);
+    const ai = aiSequence(validMap, validMap);
+    const response = await worker.fetch(
+      grammarCheckRequest(fixture.sentence),
+      environment({ AI: ai })
+    );
+    assert.equal(response.status, 502, fixture.sentence);
+    assert.equal((await response.json()).code, "GRAMMAR_CHECK_INCONCLUSIVE");
+    assert.equal(ai.calls.length, 2);
   }
 });
 
@@ -1096,7 +1696,7 @@ test("two malformed edit maps recover the agreed modal and plural correction", a
     })),
     [
       { category: "spelling_or_spacing", originalText: "it", suggestedText: "It" },
-      { category: "modal_or_auxiliary", originalText: "can to help", suggestedText: "can help" },
+      { category: "other_grammar", originalText: "to help", suggestedText: "help" },
       { category: "singular_plural", originalText: "student", suggestedText: "students" }
     ]
   );
@@ -1104,7 +1704,7 @@ test("two malformed edit maps recover the agreed modal and plural correction", a
   assert.equal(ai.calls.length, 2);
 });
 
-test("unverified agreed full-sentence recovery fails closed", async t => {
+test("a malformed edit map is rebuilt from a safe corrected sentence", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
   globalThis.fetch = async (input, init = {}) => {
@@ -1123,15 +1723,18 @@ test("unverified agreed full-sentence recovery fails closed", async t => {
   })], correctedSentence);
   const ai = aiSequence(mismatched, mismatched);
   const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
-  assert.equal(response.status, 502);
-  assert.deepEqual(await response.json(), {
-    error: "Advanced grammar checking could not safely analyse this sentence",
-    code: "GRAMMAR_CHECK_INCONCLUSIVE"
-  });
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.deepEqual(
+    body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
+    [["to swim", "swim"]]
+  );
+  assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
   assert.equal(ai.calls.length, 2);
 });
 
-test("verified recovery rejects unchanged, disagreeing and still-ungrammatical candidates", async t => {
+test("deterministic recovery rejects unchanged and still-ungrammatical candidates", async t => {
   const originalFetch = globalThis.fetch;
   const originalConsoleError = console.error;
   const logs = [];
@@ -1151,11 +1754,6 @@ test("verified recovery rejects unchanged, disagreeing and still-ungrammatical c
       sentence: "The first advantage is the efficient and effective.",
       first: "The first advantage is the efficient and effective.",
       second: "The first advantage is the efficient and effective."
-    },
-    {
-      sentence: "The first advantage is the efficient and effective.",
-      first: "The first advantage is efficiency and effectiveness.",
-      second: "The first advantage is that it is efficient and effective."
     },
     {
       sentence: "The first advantage is the efficient and effective.",
@@ -1283,7 +1881,10 @@ test("accepted regression corrections stay resolved without another model rewrit
     "Tom read a book and felt excited.",
     "Mary and John eat at a restaurant.",
     "They go to work and study together.",
-    "They have a lot of money."
+    "They have a lot of money.",
+    "Tommy writes a book called \"Super book\".",
+    "Tom is running a system called \"Super Book\".",
+    "Tom runs a system called \"Super Book\"."
   ]) {
     const ai = aiBinding(new Error("the accepted control must not invoke AI"));
     const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
