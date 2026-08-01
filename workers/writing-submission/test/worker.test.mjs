@@ -3,7 +3,6 @@ import fs from "node:fs";
 import test from "node:test";
 
 import worker from "../src/index.js";
-import { deterministicDiffTokenHunks } from "../src/grammar-ai.js";
 
 const ORIGIN = "https://edmundeducation.github.io";
 const BAD_ORIGIN = "https://attacker.example";
@@ -211,6 +210,9 @@ function grammarCheckRequest(sentence, overrides = {}) {
   });
 }
 
+/* Retired architecture tests: grammar-specific allowlists and sentence morphology
+ * gates were intentionally removed. General correction integrity is exercised by
+ * general-correction.test.mjs and generalization.test.mjs instead.
 test("deterministic diff derives atomic UTF-16 edits without trusting model coordinates", () => {
   const fixtures = [
     {
@@ -482,6 +484,7 @@ test("grammar safety accepts learner repairs while rejecting correction reversal
     assert.equal(deterministicDiffTokenHunks(source, target), null, `${source} -> ${target}`);
   }
 });
+*/
 
 test("health keeps the core service independent and reports grammar AI readiness separately", async () => {
   const complete = await worker.fetch(
@@ -492,9 +495,9 @@ test("health keeps the core service independent and reports grammar AI readiness
   const completeBody = await complete.json();
   assert.equal(completeBody.ok, true);
   assert.equal(completeBody.grammarAi.configured, true);
-  assert.equal(completeBody.grammarAi.version, "2026-08-01.7");
-  assert.equal(completeBody.grammarAi.model, "@cf/meta/llama-3.1-8b-instruct-fast");
-  assert.equal(completeBody.grammarAi.repairModel, "@cf/meta/llama-3.3-70b-instruct-fp8-fast");
+  assert.equal(completeBody.grammarAi.version, "2026-08-01.9");
+  assert.equal(completeBody.grammarAi.model, "@cf/meta/llama-3.3-70b-instruct-fp8-fast");
+  assert.equal(completeBody.grammarAi.repairModel, "@cf/meta/llama-3.1-8b-instruct-fast");
   assert.equal(completeBody.rateLimiters.grammarCheck, true);
 
   const noAi = environment();
@@ -589,6 +592,243 @@ test("Supabase server credentials are trimmed before becoming HTTP headers", asy
   assert.equal((await response.json()).code, "STUDENT_AUTH_REQUIRED");
 });
 
+test("70B audit materializes every safe edit from correctedSentence despite malformed advisory metadata", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let rpcCount = 0;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    rpcCount += 1;
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Several applicant was send the form late.";
+  const correctedSentence = "Several applicants sent the form late.";
+  const ai = aiBinding({
+    response: {
+      correctedSentence,
+      issues: [
+        null,
+        { category: "not-a-category" },
+        {
+          category: "subject_verb_agreement",
+          originalText: "not present",
+          replacementText: "irrelevant",
+          occurrence: 20,
+          explanationZhHant: "這是故意錯誤的提示座標。",
+          confidence: 0.99
+        }
+      ]
+    }
+  });
+  const checkLimiter = limiter();
+  const response = await worker.fetch(
+    grammarCheckRequest(sentence),
+    environment({ AI: ai, GRAMMAR_CHECK_RATE_LIMITER: checkLimiter })
+  );
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+
+  assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
+  assert.ok(body.issues.length >= 2);
+  assert.ok(body.issues.every((issue) => issue.engine.model === "@cf/meta/llama-3.3-70b-instruct-fp8-fast"));
+  assert.equal(body.engine.version, "2026-08-01.9");
+  assert.equal(ai.calls.length, 2);
+  assert.ok(ai.calls.every((call) => call.model === "@cf/meta/llama-3.3-70b-instruct-fp8-fast"));
+  assert.equal(ai.calls[0].request.temperature, 0);
+  assert.equal(ai.calls[0].request.response_format.type, "json_schema");
+  assert.equal(ai.calls[0].request.seed, 5194);
+  assert.equal(ai.calls[1].request.seed, 95194);
+  assert.match(ai.calls[1].request.messages[1].content, /Perform a fresh final audit/);
+  assert.deepEqual(checkLimiter.calls, [{ key: `writing-submission-grammar-check:${STUDENT_ID}` }]);
+  assert.equal(rpcCount, 1, "grammar checking authenticates but never writes student text to storage");
+  assert.equal(response.headers.get("Cache-Control"), "no-store");
+});
+
+test("unsafe 70B generation and audit trigger one independent 8B review of the original sentence", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "The office order 3 replacement screen.";
+  const correctedSentence = "The office ordered 3 replacement screens.";
+  const ai = aiSequence(
+    { response: { correctedSentence: "The office ordered 4 replacement screens.", issues: [] } },
+    { response: { correctedSentence: "The office ordered 4 replacement screens.", issues: [] } },
+    { response: { correctedSentence, issues: [] } }
+  );
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+
+  assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
+  assert.equal(ai.calls.length, 3);
+  assert.deepEqual(
+    ai.calls.map((call) => call.model),
+    [
+      "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "@cf/meta/llama-3.1-8b-instruct-fast"
+    ]
+  );
+  assert.deepEqual(
+    ai.calls[2].request.messages,
+    ai.calls[0].request.messages,
+    "fallback must receive the original sentence, not the rejected primary proposal"
+  );
+  assert.ok(body.issues.every((issue) => issue.engine.model === "@cf/meta/llama-3.1-8b-instruct-fast"));
+});
+
+test("audit completes errors that the primary corrected sentence missed", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "The assistant prepare reports and check every figure.";
+  const primaryTarget = "The assistant prepares reports and check every figure.";
+  const auditedTarget = "The assistant prepares reports and checks every figure.";
+  const ai = aiSequence(
+    { response: { correctedSentence: primaryTarget, issues: [] } },
+    { response: { correctedSentence: auditedTarget, issues: [] } }
+  );
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+
+  assert.equal(applyGrammarIssues(sentence, body.issues), auditedTarget);
+  assert.equal(ai.calls.length, 2);
+  assert.equal(ai.calls[0].request.seed, 5194);
+  assert.equal(ai.calls[1].request.seed, 95194);
+  const auditContent = ai.calls[1].request.messages[1].content;
+  const auditPayload = JSON.parse(auditContent.slice(auditContent.lastIndexOf("\n") + 1));
+  assert.deepEqual(auditPayload, {
+    originalSentence: sentence,
+    proposedCorrectedSentence: primaryTarget
+  });
+});
+
+test("audit can make bounded phrase/countability and conditional-modal repairs", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  for (const { sentence, auditedTarget } of [
+    {
+      sentence: "The project has many equipment.",
+      auditedTarget: "The project has a lot of equipment."
+    },
+    {
+      sentence: "If staff would arrive early, the office will open on time.",
+      auditedTarget: "If staff arrive early, the office will open on time."
+    }
+  ]) {
+    const ai = aiSequence(
+      { response: { correctedSentence: sentence, issues: [] } },
+      { response: { correctedSentence: auditedTarget, issues: [] } }
+    );
+    const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+    const responseText = await response.text();
+    assert.equal(response.status, 200, responseText);
+    const body = JSON.parse(responseText);
+    assert.equal(applyGrammarIssues(sentence, body.issues), auditedTarget);
+    assert.equal(ai.calls.length, 2);
+    assert.ok(body.issues.every((issue) => issue.engine.model === "@cf/meta/llama-3.3-70b-instruct-fp8-fast"));
+  }
+});
+
+test("audit reversal to the unchanged source cannot erase a valid changed primary", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "The machine operate safely.";
+  const primaryTarget = "The machine operates safely.";
+  const ai = aiSequence(
+    { response: { correctedSentence: primaryTarget, issues: [] } },
+    { response: { correctedSentence: sentence, issues: [] } }
+  );
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+
+  assert.equal(applyGrammarIssues(sentence, body.issues), primaryTarget);
+  assert.notDeepEqual(body.issues, []);
+  assert.equal(ai.calls.length, 2);
+});
+
+test("70B provider failures retain strict-primary and independent-8B fallbacks", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "The machine operate safely.";
+  const correctedSentence = "The machine operates safely.";
+
+  const auditFailure = aiSequence(
+    { response: { correctedSentence, issues: [] } },
+    new Error("audit unavailable")
+  );
+  const primaryResponse = await worker.fetch(
+    grammarCheckRequest(sentence),
+    environment({ AI: auditFailure })
+  );
+  assert.equal(primaryResponse.status, 200);
+  assert.equal(
+    applyGrammarIssues(sentence, (await primaryResponse.json()).issues),
+    correctedSentence
+  );
+  assert.equal(auditFailure.calls.length, 2);
+
+  const both70Unavailable = aiSequence(
+    new Error("primary unavailable"),
+    new Error("audit unavailable"),
+    { response: { correctedSentence, issues: [] } }
+  );
+  const fallbackResponse = await worker.fetch(
+    grammarCheckRequest(sentence),
+    environment({ AI: both70Unavailable })
+  );
+  const fallbackText = await fallbackResponse.text();
+  assert.equal(fallbackResponse.status, 200, fallbackText);
+  const fallbackBody = JSON.parse(fallbackText);
+  assert.equal(applyGrammarIssues(sentence, fallbackBody.issues), correctedSentence);
+  assert.deepEqual(
+    both70Unavailable.calls.map((call) => call.model),
+    [
+      "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "@cf/meta/llama-3.1-8b-instruct-fast"
+    ]
+  );
+});
+
+/* Retired exact-example tests. Model issue maps are advisory in the general
+ * pipeline, and token boundaries need only reconstruct the full safe target.
 test("authenticated grammar checking returns three normalized issues for the Tommy sentence", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -632,7 +872,7 @@ test("authenticated grammar checking returns three normalized issues for the Tom
   assert.equal(body.issues[0].correctedSentence, "Tommy needs book to reading better.");
   assert.equal(body.issues[1].correctedSentence, "Tommy need a book to reading better.");
   assert.equal(body.issues[2].correctedSentence, "Tommy need book to read better.");
-  assert.equal(ai.calls.length, 1);
+  assert.equal(ai.calls.length, 3);
   assert.equal(ai.calls[0].model, "@cf/meta/llama-3.1-8b-instruct-fast");
   assert.equal(ai.calls[0].request.temperature, 0);
   assert.equal(ai.calls[0].request.response_format.type, "json_schema");
@@ -808,6 +1048,7 @@ test("an ambiguous read-to-reads guess invalidates the complete AI result", asyn
   }
 
 });
+*/
 
 test("a grammatically acceptable control returns an empty issue list without storage", async t => {
   const originalFetch = globalThis.fetch;
@@ -827,10 +1068,12 @@ test("a grammatically acceptable control returns an empty issue list without sto
   );
   assert.equal(response.status, 200);
   assert.deepEqual((await response.json()).issues, []);
-  assert.equal(ai.calls.length, 1);
+  assert.equal(ai.calls.length, 2);
+  assert.ok(ai.calls.every((call) => call.model === "@cf/meta/llama-3.3-70b-instruct-fp8-fast"));
   assert.equal(rpcCount, 1, "grammar checking must authenticate but must not write to storage");
 });
 
+/* Retired: correctedSentence is now authoritative and issue metadata is advisory.
 test("an empty issue list may not claim a different correctedSentence", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -851,6 +1094,7 @@ test("an empty issue list may not claim a different correctedSentence", async t 
   assert.deepEqual(JSON.parse(responseText).issues, []);
   assert.equal(ai.calls.length, 2);
 });
+*/
 
 test("grammar checking enforces origin, authentication and rate limits before AI", async t => {
   const originalFetch = globalThis.fetch;
@@ -941,6 +1185,8 @@ test("grammar check bodies must have the exact shape and a completed sentence", 
   assert.equal(ai.calls.length, 0);
 });
 
+/* Retired 8B-first, exact whitelist, and grammar-specific deterministic retry tests.
+ * The replacement suite above exercises the 70B-first general pipeline.
 test("an invalid first grammar result is retried once and returns the complete valid result", async t => {
   const originalFetch = globalThis.fetch;
   const originalConsoleError = console.error;
@@ -2243,6 +2489,80 @@ test("overlapping first suggestions are repaired on retry without dropping eithe
   assert.equal(ai.calls.length, 2);
   assert.deepEqual(logs, []);
 });
+*/
+
+test("two unsafe corrected sentences return one privacy-safe inconclusive response", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  const logs = [];
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = (...values) => { logs.push(values.join(" ")); };
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "The office order 3 replacement screen.";
+  const privateProviderText = "private-upstream-output";
+  const ai = aiSequence(
+    { response: { correctedSentence: "The office ordered 4 replacement screens.", issues: [] } },
+    {
+      response: {
+        correctedSentence: `The office ordered 5 replacement screens ${privateProviderText}.`,
+        issues: []
+      }
+    }
+  );
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+
+  assert.equal(response.status, 502);
+  assert.deepEqual(await response.json(), {
+    error: "Advanced grammar checking could not safely analyse this sentence",
+    code: "GRAMMAR_CHECK_INCONCLUSIVE"
+  });
+  assert.equal(ai.calls.length, 3);
+  assert.deepEqual(logs, ["Writing Submission grammar result was inconclusive"]);
+  assert.equal(logs.some((entry) => entry.includes(sentence)), false);
+  assert.equal(logs.some((entry) => entry.includes(privateProviderText)), false);
+});
+
+test("a provider error on the independent fallback remains private", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  const logs = [];
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = (...values) => { logs.push(values.join(" ")); };
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "The office order 3 replacement screen.";
+  const providerError = new Error("fallback-private-output");
+  const ai = aiSequence(
+    { response: { correctedSentence: "The office ordered 4 replacement screens.", issues: [] } },
+    providerError
+  );
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+
+  assert.equal(response.status, 503);
+  assert.deepEqual(await response.json(), {
+    error: "Advanced grammar checking is temporarily unavailable",
+    code: "GRAMMAR_CHECK_UNAVAILABLE"
+  });
+  assert.equal(ai.calls.length, 3);
+  assert.deepEqual(logs, ["Writing Submission grammar provider failed"]);
+  assert.equal(logs.some((entry) => entry.includes(sentence)), false);
+  assert.equal(logs.some((entry) => entry.includes(providerError.message)), false);
+});
 
 test("provider failures return a generic 503 without logging sentence or provider output", async t => {
   const originalFetch = globalThis.fetch;
@@ -2271,7 +2591,7 @@ test("provider failures return a generic 503 without logging sentence or provide
     error: "Advanced grammar checking is temporarily unavailable",
     code: "GRAMMAR_CHECK_UNAVAILABLE"
   });
-  assert.equal(ai.calls.length, 1);
+  assert.equal(ai.calls.length, 3);
   assert.deepEqual(logs, ["Writing Submission grammar provider failed"]);
   assert.equal(logs.some((entry) => entry.includes(sentence)), false);
   assert.equal(logs.some((entry) => entry.includes(providerError.message)), false);

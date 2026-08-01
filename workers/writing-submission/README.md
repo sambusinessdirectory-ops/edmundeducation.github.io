@@ -153,58 +153,74 @@ The request body must have exactly one key:
 The student bearer token is authenticated before inference. The sentence must
 be complete with a final full stop or semicolon, contain no leading or trailing
 space, and stay within 2,000 characters / 8 KiB UTF-8. The complete request is
-limited to 12 KiB. The Worker sends only that sentence to
-`@cf/meta/llama-3.1-8b-instruct-fast`; it does not send the topic, whole essay,
-student identity, or earlier sentences.
+limited to 12 KiB.
 
-A successful response contains zero to eight strictly validated issues in the
-same serializable shape used by the browser checker:
+#### Privacy boundary
 
-```json
-{
-  "engine": {
-    "name": "cloudflare-workers-ai",
-    "model": "@cf/meta/llama-3.1-8b-instruct-fast",
-    "version": "2026-07-31.1",
-    "execution": "cloudflare-worker"
-  },
-  "issues": [
-    {
-      "ruleId": "EdmundAI:subject_verb_agreement",
-      "title": "主語與動詞一致",
-      "category": "subject_verb_agreement",
-      "message": "Tommy 是第三身單數，現在式動詞要加 s。",
-      "originalText": "need",
-      "suggestedText": "needs",
-      "correctedSentence": "Tommy needs book to reading better.",
-      "start": 6,
-      "end": 10,
-      "confidence": 0.98,
-      "suggestions": [{ "kind": "replace", "replacementText": "needs" }],
-      "engine": {
-        "name": "cloudflare-workers-ai",
-        "model": "@cf/meta/llama-3.1-8b-instruct-fast",
-        "version": "2026-07-31.1",
-        "execution": "cloudflare-worker"
-      }
-    }
-  ]
-}
-```
+The Worker sends only the completed sentence being checked. It does not send
+the writing topic, whole essay, student identity, account details, earlier
+sentences, saved submissions, or grammar-history records to Workers AI. The
+second review receives the original sentence and the first proposed correction,
+both of which contain only material derived from that same sentence.
 
-The model must copy every `originalText` from the submitted sentence, use a
-minimal replacement, choose a bounded category, and provide a brief Traditional
-Chinese explanation. Server code rejects low-confidence, malformed,
-hallucinated, unsafe, duplicate, and overlapping output before returning it.
-The Worker constructs `correctedSentence`; it never trusts a complete rewrite
-from the provider.
+The grammar service is stateless. It does not maintain a catalogue of student
+sentences, known test sentences, or manually mapped sentence combinations.
+Prompts, provider responses, and checked sentences are not written to Supabase,
+KV, R2, Durable Objects, or application logs. Responses use
+`Cache-Control: no-store`.
 
-This endpoint is stateless. It does not write prompts, provider output, or
-results to Supabase, KV, R2, Durable Objects, or logs. The existing browser may
-separately record a displayed issue through the grammar-history batch route.
-All responses use `Cache-Control: no-store`. Provider and output-validation
-failures return the same generic `503 GRAMMAR_CHECK_UNAVAILABLE` response so
-the browser can fall back to its limited local checker.
+#### Review pipeline
+
+Version `2026-08-01.9` uses a general correction pipeline:
+
+1. `@cf/meta/llama-3.3-70b-instruct-fp8-fast` independently reviews the entire
+   sentence and proposes one complete correction. It is instructed to find
+   every high-confidence grammatical problem, preserve meaning and protected
+   quoted text, and avoid stylistic rewriting.
+2. A second invocation of the same 70B model uses a different task prompt and
+   seed. It rereads the original sentence, treats the first proposal as
+   untrusted, audits every clause for missed errors, and checks that the
+   proposal did not introduce a new error or alter the student's meaning.
+3. The Worker compares the original sentence with the final validated
+   correction and derives the actual replacement ranges itself. Provider
+   fragments and occurrence metadata are advisory only; the Worker does not
+   trust provider-supplied coordinates.
+4. If the audited result is unavailable or unsafe, the Worker may use a safe
+   validated first proposal. If neither 70B result can be safely materialised,
+   `@cf/meta/llama-3.1-8b-instruct-fast` performs an independent last-resort
+   review beginning from the original sentence.
+
+This architecture generalises from grammatical principles. It does not contain
+special-case fixes for named examples, and adding a new student sentence does
+not require adding it to a sentence database.
+
+A successful response contains zero to eight validated issues in the same
+serialisable shape used by the browser checker. Every returned issue is built
+from a Worker-derived edit range, uses a bounded grammar category, and includes
+a brief Traditional Chinese explanation. The Worker rejects malformed,
+low-confidence, unsafe, overlapping, meaning-changing, duplicated, or
+unverifiable output.
+
+If all available results are inconclusive, the endpoint fails closed with the
+generic `503 GRAMMAR_CHECK_UNAVAILABLE` response. The browser may retain its
+limited local checker, but the absence of an AI suggestion must not be presented
+as proof that a sentence is correct.
+
+#### Cost and quota implications
+
+A normal version `.9` check performs two 70B invocations: one proposal and one
+independent completeness-and-meaning audit. The 8B invocation is a last-resort
+fallback and is not normally used. During the 1 August 2026 preview evaluation,
+one 70B invocation consumed approximately 39–41 Workers AI neurons and one 8B
+invocation approximately 7–9 neurons. These are observations rather than a
+billing guarantee; prompt length, completion length, model accounting, pricing,
+and quotas may change.
+
+Monitor Workers AI usage before running large evaluation suites. Quota
+exhaustion, provider failure, and validation failure are availability states,
+not grammar judgements. The existing browser may separately save a displayed
+issue through the grammar-history batch route; that durable history operation
+is distinct from the stateless AI check.
 
 ### Grammar history
 
