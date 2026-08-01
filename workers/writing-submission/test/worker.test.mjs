@@ -272,6 +272,35 @@ test("deterministic diff derives atomic UTF-16 edits without trusting model coor
       source: "Tom write—'Super book'.",
       target: "Tom writes—'Super book'.",
       expected: [[4, 9, "write", "writes"]]
+    },
+    {
+      source: "Gary love watch movie in morning.",
+      target: "Gary loves watching movies in the morning.",
+      expected: [
+        [5, 9, "love", "loves"],
+        [10, 15, "watch", "watching"],
+        [16, 21, "movie", "movies"],
+        [25, 32, "morning", "the morning"]
+      ]
+    },
+    {
+      source: "He go to park first then run at school.",
+      target: "He goes to the park first, then runs at school.",
+      expected: [
+        [3, 5, "go", "goes"],
+        [9, 13, "park", "the park"],
+        [19, 24, " then", ", then"],
+        [25, 28, "run", "runs"]
+      ]
+    },
+    {
+      source: "He goes to park first then run at school.",
+      target: "He goes to the park first and then runs at school.",
+      expected: [
+        [11, 15, "park", "the park"],
+        [22, 26, "then", "and then"],
+        [27, 30, "run", "runs"]
+      ]
     }
   ];
 
@@ -380,7 +409,19 @@ test("grammar safety accepts learner repairs while rejecting correction reversal
     ["Yesterday Tom goed home.", "Yesterday Tom went home."],
     ["Yesterday Tom buyed a book.", "Yesterday Tom bought a book."],
     ["Yesterday Tom taked a book.", "Yesterday Tom took a book."],
-    ["Yesterday Tom maked a book.", "Yesterday Tom made a book."]
+    ["Yesterday Tom maked a book.", "Yesterday Tom made a book."],
+    [
+      "Gary love watch movie in morning.",
+      "Gary loves watching movies in the morning."
+    ],
+    [
+      "He go to park first then run at school.",
+      "He goes to the park first, then runs at school."
+    ],
+    [
+      "He goes to park first then run at school.",
+      "He goes to the park first and then runs at school."
+    ]
   ]) {
     assert.ok(deterministicDiffTokenHunks(source, target), `${source} -> ${target}`);
   }
@@ -405,7 +446,38 @@ test("grammar safety accepts learner repairs while rejecting correction reversal
     ["Tom bought information.", "Tom bought an information."],
     ["Dogs bark.", "Dogs are bark."],
     ["Let's eat, Grandma.", "Let's eat Grandma."],
-    ["Tom left. Mary stayed.", "Tom left Mary stayed."]
+    ["Tom left. Mary stayed.", "Tom left Mary stayed."],
+    ["They go to school.", "They go to the school."],
+    ["Tom works in office.", "Tom works in the office."],
+    ["Tom goes to university.", "Tom goes to the university."],
+    ["He wants to park.", "He wants to the park."],
+    ["She likes to park.", "She likes to the park."],
+    ["Tom runs first then rests.", "Tom, runs first then rests."],
+    ["Tom runs quickly.", "Tom runs and then quickly."],
+    [
+      "The boys go to park first then run.",
+      "The boys go to the park first, then runs."
+    ],
+    [
+      "Many students go to park first then run.",
+      "Many students go to the park first, then runs."
+    ],
+    [
+      "Students go to park first then run.",
+      "Students go to the park first, then runs."
+    ],
+    [
+      "Mice go to park first then run.",
+      "Mice go to the park first, then runs."
+    ],
+    [
+      "He says they go to park first then run.",
+      "He says they go to the park first, then runs."
+    ],
+    [
+      "They say he goes to park first then runs.",
+      "They say he goes to the park first, then run."
+    ]
   ]) {
     assert.equal(deterministicDiffTokenHunks(source, target), null, `${source} -> ${target}`);
   }
@@ -420,7 +492,7 @@ test("health keeps the core service independent and reports grammar AI readiness
   const completeBody = await complete.json();
   assert.equal(completeBody.ok, true);
   assert.equal(completeBody.grammarAi.configured, true);
-  assert.equal(completeBody.grammarAi.version, "2026-08-01.6");
+  assert.equal(completeBody.grammarAi.version, "2026-08-01.7");
   assert.equal(completeBody.grammarAi.model, "@cf/meta/llama-3.1-8b-instruct-fast");
   assert.equal(completeBody.grammarAi.repairModel, "@cf/meta/llama-3.3-70b-instruct-fp8-fast");
   assert.equal(completeBody.rateLimiters.grammarCheck, true);
@@ -633,7 +705,7 @@ test("dependent verb phrases combine into one coherent hate-school correction", 
     ]
   );
   assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
-  assert.equal(body.engine.version, "2026-08-01.6");
+  assert.equal(body.engine.version, "2026-08-01.7");
 
   const prompt = ai.calls[0].request.messages[0].content;
   assert.match(prompt, /Tom hate go school but enjoy watch movie\./);
@@ -1036,7 +1108,7 @@ test("two malformed edit maps recover when both checks agree on the same complet
   const responseText = await response.text();
   assert.equal(response.status, 200, responseText);
   const body = JSON.parse(responseText);
-  assert.equal(body.engine.version, "2026-08-01.6");
+  assert.equal(body.engine.version, "2026-08-01.7");
   assert.equal(body.issues.length, 1);
   assert.equal(body.issues[0].category, "sentence_structure");
   assert.equal(body.issues[0].originalText, "the");
@@ -1106,6 +1178,192 @@ test("the two screenshot sentences accept coherent primary batches in one call",
     const body = JSON.parse(responseText);
     assert.equal(applyGrammarIssues(fixture.sentence, body.issues), fixture.correctedSentence);
     assert.equal(ai.calls.length, 1);
+  }
+});
+
+test("every correction survives multi-error sentence batches and malformed-map recovery", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const fixtures = [
+    {
+      sentence: "Gary love watch movie in morning.",
+      correctedSentence: "Gary loves watching movies in the morning.",
+      issues: [
+        grammarAiIssue({
+          originalText: "love",
+          replacementText: "loves",
+          explanationZhHant: "Gary 是第三身單數，所以一般現在式動詞用 loves。"
+        }),
+        grammarAiIssue({
+          category: "infinitive_or_gerund",
+          originalText: "watch",
+          replacementText: "watching",
+          explanationZhHant: "love 後面可接動名詞 watching。"
+        }),
+        grammarAiIssue({
+          category: "singular_plural",
+          originalText: "movie",
+          replacementText: "movies",
+          explanationZhHant: "泛指看電影時用複數 movies。"
+        }),
+        grammarAiIssue({
+          category: "article_or_determiner",
+          originalText: "morning",
+          replacementText: "the morning",
+          explanationZhHant: "固定時間片語是 in the morning。"
+        })
+      ],
+      expectedEdits: [
+        ["love", "loves"],
+        ["watch", "watching"],
+        ["movie", "movies"],
+        ["morning", "the morning"]
+      ]
+    },
+    {
+      sentence: "He go to park first then run at school.",
+      correctedSentence: "He goes to the park first and then runs at school.",
+      issues: [
+        grammarAiIssue({
+          originalText: "go",
+          replacementText: "goes",
+          explanationZhHant: "He 是第三身單數，所以一般現在式動詞用 goes。"
+        }),
+        grammarAiIssue({
+          category: "article_or_determiner",
+          originalText: "park",
+          replacementText: "the park",
+          explanationZhHant: "這裡指前往公園，通常寫 go to the park。"
+        }),
+        grammarAiIssue({
+          category: "conjunction",
+          originalText: "then",
+          replacementText: "and then",
+          explanationZhHant: "兩個連續動作需要用 and 連接。"
+        }),
+        grammarAiIssue({
+          originalText: "run",
+          replacementText: "runs",
+          explanationZhHant: "第二個並列動作同樣以 He 為主語，所以用 runs。"
+        })
+      ],
+      expectedEdits: [
+        ["go", "goes"],
+        ["park", "the park"],
+        ["then", "and then"],
+        ["run", "runs"]
+      ]
+    },
+    {
+      sentence: "He goes to park first then run at school.",
+      correctedSentence: "He goes to the park first and then runs at school.",
+      issues: [
+        grammarAiIssue({
+          category: "article_or_determiner",
+          originalText: "park",
+          replacementText: "the park",
+          explanationZhHant: "這裡指前往公園，通常寫 go to the park。"
+        }),
+        grammarAiIssue({
+          category: "conjunction",
+          originalText: "then",
+          replacementText: "and then",
+          explanationZhHant: "兩個連續動作需要用 and 連接。"
+        }),
+        grammarAiIssue({
+          originalText: "run",
+          replacementText: "runs",
+          explanationZhHant: "第二個並列動作同樣以 He 為主語，所以用 runs。"
+        })
+      ],
+      expectedEdits: [
+        ["park", "the park"],
+        ["then", "and then"],
+        ["run", "runs"]
+      ]
+    }
+  ];
+
+  const invalidMap = (fixture) => grammarAiResponse(
+    fixture.sentence,
+    [grammarAiIssue({
+      category: "sentence_structure",
+      originalText: "not present in the source",
+      replacementText: "invalid map",
+      occurrence: 9,
+      explanationZhHant: "模擬模型傳回無效位置資料。"
+    })],
+    fixture.correctedSentence
+  );
+
+  for (const fixture of fixtures) {
+    for (const mode of ["primary", "incomplete-primary", "recovery"]) {
+      const completeResult = grammarAiResponse(
+        fixture.sentence,
+        fixture.issues,
+        fixture.correctedSentence
+      );
+      const ai = mode === "primary"
+        ? aiBinding(completeResult)
+        : mode === "incomplete-primary"
+          ? aiSequence(
+            grammarAiResponse(fixture.sentence, [fixture.issues[0]]),
+            completeResult
+          )
+          : aiSequence(invalidMap(fixture), invalidMap(fixture));
+      const response = await worker.fetch(
+        grammarCheckRequest(fixture.sentence),
+        environment({ AI: ai })
+      );
+      const responseText = await response.text();
+      assert.equal(response.status, 200, `${mode}: ${fixture.sentence}: ${responseText}`);
+      const body = JSON.parse(responseText);
+      assert.equal(body.engine.version, "2026-08-01.7");
+      assert.equal(ai.calls.length, mode === "primary" ? 1 : 2);
+      if (mode !== "primary") {
+        assert.equal(ai.calls[0].model, "@cf/meta/llama-3.1-8b-instruct-fast");
+        assert.equal(ai.calls[1].model, "@cf/meta/llama-3.3-70b-instruct-fp8-fast");
+        const repairContent = ai.calls[1].request.messages[1].content;
+        const repairPayload = JSON.parse(repairContent.slice(repairContent.indexOf("\n") + 1));
+        assert.deepEqual(
+          repairPayload,
+          mode === "incomplete-primary"
+            ? { sentence: fixture.sentence }
+            : {
+              sentence: fixture.sentence,
+              proposedCorrectedSentence: fixture.correctedSentence
+            }
+        );
+      }
+      assert.deepEqual(
+        body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
+        fixture.expectedEdits,
+        `${mode}: ${fixture.sentence}`
+      );
+      assert.equal(body.issues.length, fixture.expectedEdits.length);
+      assert.equal(
+        applyGrammarIssues(fixture.sentence, body.issues),
+        fixture.correctedSentence
+      );
+      assert.ok(body.issues.every((issue) => (
+        issue.engine?.model === (
+          mode === "primary"
+            ? "@cf/meta/llama-3.1-8b-instruct-fast"
+            : "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+        )
+        && issue.engine?.version === "2026-08-01.7"
+      )));
+      const orderedIssues = [...body.issues].sort((left, right) => left.start - right.start);
+      for (let index = 1; index < orderedIssues.length; index += 1) {
+        assert.ok(orderedIssues[index - 1].end <= orderedIssues[index].start);
+      }
+    }
   }
 });
 
@@ -1233,7 +1491,7 @@ test("the three newest learner sentences route malformed 8B maps to one complete
     });
 
     assert.equal(body.engine.model, primaryModel);
-    assert.equal(body.engine.version, "2026-08-01.6");
+    assert.equal(body.engine.version, "2026-08-01.7");
     assert.deepEqual(
       body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
       fixture.expectedEdits
@@ -1252,7 +1510,7 @@ test("the three newest learner sentences route malformed 8B maps to one complete
     assert.ok(body.issues.length > 0);
     assert.ok(body.issues.every((issue) => (
       issue.engine?.model === repairModel
-      && issue.engine?.version === "2026-08-01.6"
+      && issue.engine?.version === "2026-08-01.7"
     )), `${fixture.sentence}: every repaired issue must identify the 70B repair engine`);
   }
 });

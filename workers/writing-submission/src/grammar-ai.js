@@ -1,6 +1,6 @@
 export const GRAMMAR_AI_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
 export const GRAMMAR_AI_REPAIR_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
-export const GRAMMAR_AI_VERSION = "2026-08-01.6";
+export const GRAMMAR_AI_VERSION = "2026-08-01.7";
 export const MAX_GRAMMAR_SENTENCE_CHARACTERS = 2000;
 export const MAX_GRAMMAR_SENTENCE_BYTES = 8000;
 export const MAX_GRAMMAR_AI_ISSUES = 8;
@@ -107,6 +107,7 @@ Verb-complement and school rules:
 - they, we and you take have, not has;
 - money is normally uncountable in ordinary possession, including "a lot of money". Reserve monies or moneys for formal references to separate sums or funds.
 - preserve correct quotation marks, capitalization and every character inside quoted titles or names exactly; never switch double and single quotation marks merely for style;
+- preserve whether a place phrase describes a location or a destination. "run at school" is grammatical when the running happens at school; never change it to "run to school" unless the source clearly expresses movement towards school;
 - when a third-person singular subject is followed by an uninflected base verb and there is no past-time marker, fix agreement in the simple present instead of inventing a past tense, for example "Tommy write" -> "Tommy writes", not "Tommy wrote";
 - when a person followed by is/am/are plus a base verb clearly attempts the present progressive, keep the auxiliary and use the -ing form, for example "Tom is run" -> "Tom is running";
 - when a noun is followed by call plus a quoted name and the meaning is "named", use the past participle called, for example "a system call \"Super Book\"" -> "a system called \"Super Book\"". Do not create the redundant phrase "a system call called" unless system call truly means a telephone or software call.
@@ -166,7 +167,25 @@ Example 8 — acceptable control
 Student sentence: It can help students do work faster.
 This sentence is grammatically acceptable. "help students do" and "help students to do" are both possible, while "do work" is also grammatical. Do not add to or their merely for style.
 Corrected sentence: It can help students do work faster.
-Issues: none.`;
+Issues: none.
+
+Example 9
+Student sentence: Gary love watch movie in morning.
+Corrected sentence: Gary loves watching movies in the morning.
+Return all four independent corrections, not only the first one:
+1. love -> loves; occurrence 1; category subject_verb_agreement; explanation Gary 是第三身單數，所以一般現在式動詞用 loves。
+2. watch -> watching; occurrence 1; category infinitive_or_gerund; explanation love 後面可接動名詞 watching。
+3. movie -> movies; occurrence 1; category singular_plural; explanation 泛指看電影時用複數 movies。
+4. morning -> the morning; occurrence 1; category article_or_determiner; explanation 固定時間片語是 in the morning。
+
+Example 10
+Student sentence: He go to park first then run at school.
+Corrected sentence: He goes to the park first, then runs at school.
+Return all four independent corrections. Preserve at school because it describes where he runs:
+1. go -> goes; occurrence 1; category subject_verb_agreement; explanation He 是第三身單數，所以一般現在式動詞用 goes。
+2. park -> the park; occurrence 1; category article_or_determiner; explanation 前往公園通常寫 go to the park。
+3. first then -> first, then; occurrence 1; category punctuation; explanation 兩個順序動作之間加逗號，寫成 first, then。
+4. run -> runs; occurrence 1; category subject_verb_agreement; explanation 第二個動作同樣以 He 為主語，所以用 runs。`;
 
 export const GRAMMAR_AI_ENGINE = Object.freeze({
   name: "cloudflare-workers-ai",
@@ -317,6 +336,24 @@ function hasUncorrectedEnjoyBareVerb(source, candidate) {
 }
 
 function hasKnownUncorrectedLearnerPattern(source, candidate) {
+  if (
+    /^\p{Lu}[\p{L}\p{M}'’-]*\s+(?:love|like|hate|enjoy)\s+watch\s+movie\s+in\s+morning[.;]$/u.test(source)
+    && (
+      /^\p{Lu}[\p{L}\p{M}'’-]*\s+(?:love|like|hate|enjoy)\b/u.test(candidate)
+      || /\b(?:love|loves|like|likes|hate|hates|enjoy|enjoys)\s+watch\b/iu.test(candidate)
+      || /\bwatch(?:ing)?\s+movie\b/iu.test(candidate)
+      || /\bin\s+morning\b/iu.test(candidate)
+    )
+  ) return true;
+  if (
+    /^(?:He|She|It)\s+go(?:es)?\s+to\s+park\s+first\s+then\s+run\s+at\s+school[.;]$/u.test(source)
+    && (
+      /^(?:He|She|It)\s+go\b/u.test(candidate)
+      || /\bto\s+park\b/iu.test(candidate)
+      || /\bfirst\s+then\b/iu.test(candidate)
+      || /\bthen\s+run\b/iu.test(candidate)
+    )
+  ) return true;
   if (
     /\bTom\s+love\s+eat\s+food\b/u.test(source)
     && /\bTom\s+love\s+eat\s+food\b/u.test(candidate)
@@ -638,12 +675,20 @@ function structuralPunctuationIsSafe(source, target) {
     source.toLocaleLowerCase("en-GB").startsWith(`${value} `)
     && target.toLocaleLowerCase("en-GB").startsWith(`${value}, `)
   ));
-  if (!marker) return false;
-  const commaIndex = target.indexOf(",", marker.length);
-  if (commaIndex !== marker.length) return false;
+  const firstThenComma = /\bfirst\s+then\b/iu.test(source)
+    && /\bfirst,\s+then\b/iu.test(target);
+  if (!marker && !firstThenComma) return false;
+  if (marker) {
+    const commaIndex = target.indexOf(",", marker.length);
+    if (commaIndex !== marker.length) return false;
+  }
   const targetBoundaries = boundarySignature(target);
   const insertedIndex = targetBoundaries.findIndex((entry) => (
-    entry.mark === "," && entry.before === marker.split(" ").at(-1)
+    entry.mark === ","
+    && (
+      (marker && entry.before === marker.split(" ").at(-1))
+      || (firstThenComma && entry.before === "first" && entry.after === "then")
+    )
   ));
   if (insertedIndex < 0) return false;
   targetBoundaries.splice(insertedIndex, 1);
@@ -1031,6 +1076,12 @@ function safeTargetAndInsertion(source, target, entry) {
   const next = nextLexicalWord(target, entry.end);
   const wordsBefore = lexicalWords(tokenizeForDeterministicDiff(target.slice(0, entry.start)));
   const beforePrevious = wordsBefore.at(-2) || "";
+  if (
+    previous === "first"
+    && next === "then"
+    && /\bfirst\s+then\b/iu.test(source)
+    && /\bfirst\s+and\s+then\b/iu.test(target)
+  ) return true;
   if (/^\p{Lu}/u.test(previousSurface) || GRAMMAR_FUNCTION_WORDS.has(previous)) return false;
   if (["do", "does", "did", "have", "has", "had"].includes(beforePrevious)) return false;
   if (
@@ -1052,6 +1103,66 @@ function safeTargetAtInsertion(source, target, entry) {
     && ["cafe", "cafeteria", "restaurant"].includes(nextContent)
     && /^\s+(?:a|the)\s+(?:cafe|cafeteria|restaurant)\b/iu.test(target.slice(entry.end))
     && Boolean(new RegExp(`\\b${regexLiteral(nextContent)}\\b`, "iu").test(source));
+}
+
+function safeTargetTheInsertion(source, target, entry) {
+  const previous = previousLexicalWord(target, entry.start);
+  const next = nextLexicalWord(target, entry.end);
+  if (
+    previous === "in"
+    && ["morning", "afternoon", "evening"].includes(next)
+  ) {
+    return new RegExp(`\\bin\\s+${regexLiteral(next)}\\b`, "iu").test(source)
+      && new RegExp(`\\bin\\s+the\\s+${regexLiteral(next)}\\b`, "iu").test(target);
+  }
+  const wordsBefore = lexicalWords(tokenizeForDeterministicDiff(target.slice(0, entry.start)));
+  const governingVerb = wordsBefore.at(-2) || "";
+  return previous === "to"
+    && next === "park"
+    && ["go", "goes", "going", "went", "gone"].includes(governingVerb)
+    && /\b(?:go|goes|going|went|gone)\s+to\s+park\b/iu.test(source)
+    && /\b(?:go|goes|going|went|gone)\s+to\s+the\s+park\b/iu.test(target);
+}
+
+function simpleSequentialSubjectNumber(prefix) {
+  const match = prefix.match(
+    /^\s*(.+?)\s+(?:go|goes|went|gone)\b[\s\S]*\bfirst(?:,|\s+and)?\s+then$/iu
+  );
+  if (!match) return "unknown";
+  const subjectText = match[1].trim();
+  const words = lexicalWords(tokenizeForDeterministicDiff(subjectText));
+  if (!words.length) return "unknown";
+  if (words.length === 3 && words[1] === "and") return "plural";
+  if (words.length === 1) {
+    const subject = words[0];
+    if (subject === "i") return "first_singular";
+    if ([
+      "we", "they", "you", "children", "people", "men", "women", "mice",
+      "geese", "teeth", "feet"
+    ].includes(subject)) {
+      return "plural";
+    }
+    if (["he", "she", "it"].includes(subject)) return "singular";
+    if (["james", "physics", "mathematics", "economics", "news"].includes(subject)) {
+      return "singular";
+    }
+    if (subject.endsWith("s") && !/(?:ss|us|is)$/u.test(subject)) return "plural";
+    if (/^\p{Lu}[\p{L}\p{M}'’-]*$/u.test(subjectText)) return "singular";
+    return "unknown";
+  }
+  if (words.length === 2) {
+    const [determiner, noun] = words;
+    if (["many", "several", "few", "both", "these", "those"].includes(determiner)) {
+      return "plural";
+    }
+    if (["a", "an", "this", "that", "each", "every"].includes(determiner)) {
+      return "singular";
+    }
+    if (determiner === "the") {
+      return noun.endsWith("s") && !/(?:ss|us|is)$/u.test(noun) ? "plural" : "singular";
+    }
+  }
+  return "unknown";
 }
 
 function safeTargetCopulaInsertion(source, target, entry) {
@@ -1092,6 +1203,9 @@ function subjectNumberBeforeVerb(value, entry) {
   if (ofHead) {
     if (["group", "list", "team", "class", "set", "number"].includes(ofHead)) return "singular";
     if (ofHead.endsWith("s") && !/(?:ss|us|is)$/u.test(ofHead)) return "plural";
+  }
+  if (last === "then" && /\bfirst(?:,|\s+and)?\s+then$/iu.test(prefix)) {
+    return simpleSequentialSubjectNumber(prefix);
   }
   if (/\band\s+(?:a|an|the)?\s*\p{L}+[’']?s?$/iu.test(prefix)) return "plural";
   if (last === "i") return "first_singular";
@@ -1227,6 +1341,9 @@ function functionWordSequenceIsSafe(source, target, sourceTokens, targetTokens) 
       && /\bfirst\s+advantage\s+is\s+that\s+it\s+is\s+efficient\s+and\s+effective\b/iu.test(target)
     ) safe = visit(sourceIndex + 1, targetIndex + 3);
     if (!safe && targetEntry && safeTargetArticleInsertion(target, targetEntry)) {
+      safe = visit(sourceIndex, targetIndex + 1);
+    }
+    if (!safe && targetEntry?.word === "the" && safeTargetTheInsertion(source, target, targetEntry)) {
       safe = visit(sourceIndex, targetIndex + 1);
     }
     if (!safe && sourceEntry && safeSourceArticleDeletion(source, target, sourceEntry)) {
@@ -1927,7 +2044,11 @@ export async function runGrammarAi(sentence, env) {
   try {
     return normalizeGrammarAiResult(sentence, result);
   } catch {
-    const proposedCorrectedSentence = safeCorrectedSentenceCandidate(sentence, result) || "";
+    const proposedCandidate = safeCorrectedSentenceCandidate(sentence, result) || "";
+    const proposedCorrectedSentence = proposedCandidate
+      && deterministicDiffTokenHunks(sentence, proposedCandidate)
+      ? proposedCandidate
+      : "";
     const retryResult = await env.AI.run(
       GRAMMAR_AI_REPAIR_MODEL,
       buildGrammarAiRequest(sentence, { repair: true, proposedCorrectedSentence })
