@@ -24,7 +24,7 @@ function limiter(success = true) {
   };
 }
 
-function aiBinding(result = { response: { issues: [] } }) {
+function aiBinding(result = { response: { correctedSentence: "No changes.", issues: [] } }) {
   return {
     calls: [],
     async run(model, request) {
@@ -134,6 +134,59 @@ function tomLoveIssues() {
       confidence: 0.98
     })
   ];
+}
+
+function hateSchoolIssues() {
+  return [
+    grammarAiIssue({
+      originalText: "hate",
+      replacementText: "hates",
+      explanationZhHant: "Tom 是第三身單數，所以現在式用 hates。",
+      confidence: 0.99
+    }),
+    grammarAiIssue({
+      category: "infinitive_or_gerund",
+      originalText: "go school",
+      replacementText: "going to school",
+      explanationZhHant: "hate 後可用 -ing，而「上學」的固定用法是 go to school。",
+      confidence: 0.98
+    }),
+    grammarAiIssue({
+      originalText: "enjoy",
+      replacementText: "enjoys",
+      explanationZhHant: "Tom 是第三身單數，所以現在式用 enjoys。",
+      confidence: 0.99
+    }),
+    grammarAiIssue({
+      category: "infinitive_or_gerund",
+      originalText: "watch movie",
+      replacementText: "watching movies",
+      explanationZhHant: "enjoy 後面用 -ing；這裡泛指看電影，所以用 movies。",
+      confidence: 0.98
+    })
+  ];
+}
+
+function applyGrammarAiPayload(sentence, issues) {
+  const positioned = issues.map((issue) => {
+    let start = -1;
+    let from = 0;
+    for (let index = 0; index < issue.occurrence; index += 1) {
+      start = sentence.indexOf(issue.originalText, from);
+      assert.notEqual(start, -1, `Missing test fragment: ${issue.originalText}`);
+      from = start + issue.originalText.length;
+    }
+    return {
+      start,
+      end: start + issue.originalText.length,
+      suggestedText: issue.replacementText
+    };
+  });
+  return applyGrammarIssues(sentence, positioned);
+}
+
+function grammarAiResponse(sentence, issues, correctedSentence = applyGrammarAiPayload(sentence, issues)) {
+  return { response: { correctedSentence, issues } };
 }
 
 function applyGrammarIssues(sentence, issues) {
@@ -270,27 +323,24 @@ test("authenticated grammar checking returns three normalized issues for the Tom
   };
 
   const sentence = "Tommy need book to reading better.";
-  const ai = aiBinding({
-    response: {
-      issues: [
-        grammarAiIssue(),
-        grammarAiIssue({
-          category: "article_or_determiner",
-          originalText: "book",
-          replacementText: "a book",
-          explanationZhHant: "book 是單數可數名詞，這裡需要冠詞 a。",
-          confidence: 0.97
-        }),
-        grammarAiIssue({
-          category: "infinitive_or_gerund",
-          originalText: "reading",
-          replacementText: "read",
-          explanationZhHant: "to 後面要用動詞原形，所以用 read。",
-          confidence: 0.96
-        })
-      ]
-    }
-  });
+  const issues = [
+    grammarAiIssue(),
+    grammarAiIssue({
+      category: "article_or_determiner",
+      originalText: "book",
+      replacementText: "a book",
+      explanationZhHant: "book 是單數可數名詞，這裡需要冠詞 a。",
+      confidence: 0.97
+    }),
+    grammarAiIssue({
+      category: "infinitive_or_gerund",
+      originalText: "reading",
+      replacementText: "read",
+      explanationZhHant: "to 後面要用動詞原形，所以用 read。",
+      confidence: 0.96
+    })
+  ];
+  const ai = aiBinding(grammarAiResponse(sentence, issues));
   const checkLimiter = limiter();
   const response = await worker.fetch(
     grammarCheckRequest(sentence),
@@ -327,7 +377,7 @@ test("Tom love eat food returns both independent corrections and advertises the 
   };
 
   const sentence = "Tom love eat food.";
-  const ai = aiBinding({ response: { issues: tomLoveIssues() } });
+  const ai = aiBinding(grammarAiResponse(sentence, tomLoveIssues()));
   const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
   const responseText = await response.text();
   assert.equal(response.status, 200, responseText);
@@ -344,9 +394,49 @@ test("Tom love eat food returns both independent corrections and advertises the 
     request.response_format.json_schema.properties.issues.items.properties.confidence.minimum,
     0.75
   );
+  assert.deepEqual(
+    request.response_format.json_schema.required,
+    ["correctedSentence", "issues"]
+  );
   assert.match(request.messages[0].content, /Student sentence: Tom love eat food\./);
   assert.match(request.messages[0].content, /love -> loves; occurrence 1/);
   assert.match(request.messages[0].content, /eat -> to eat; occurrence 1/);
+});
+
+test("dependent verb phrases combine into one coherent hate-school correction", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tom hate go school but enjoy watch movie.";
+  const correctedSentence = "Tom hates going to school but enjoys watching movies.";
+  const ai = aiBinding(grammarAiResponse(sentence, hateSchoolIssues(), correctedSentence));
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.deepEqual(
+    body.issues.map((issue) => [issue.originalText, issue.suggestedText]),
+    [
+      ["hate", "hates"],
+      ["go school", "going to school"],
+      ["enjoy", "enjoys"],
+      ["watch movie", "watching movies"]
+    ]
+  );
+  assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
+  assert.equal(body.engine.version, "2026-08-01.3");
+
+  const prompt = ai.calls[0].request.messages[0].content;
+  assert.match(prompt, /Tom hate go school but enjoy watch movie\./);
+  assert.match(prompt, /Tom hates going to school but enjoys watching movies\./);
+  assert.match(prompt, /enjoy, avoid, finish, keep, mind, suggest, consider and practise take an -ing verb/);
+  assert.match(prompt, /institutional activity is "go to school", with no a or the/);
+  assert.match(prompt, /smallest self-contained replacement/);
 });
 
 test("ambiguous read keeps its possible past tense and corrects the complete remainder", async t => {
@@ -359,19 +449,16 @@ test("ambiguous read keeps its possible past tense and corrects the complete rem
   };
 
   const sentence = "Tom read a book feel exciting.";
-  const ai = aiBinding({
-    response: {
-      issues: [
-        grammarAiIssue({
-          category: "sentence_structure",
-          originalText: "feel exciting",
-          replacementText: "and felt excited",
-          explanationZhHant: "句子要用 and 連接動作，felt 配合 read，而人的感受用 excited。",
-          confidence: 0.97
-        })
-      ]
-    }
-  });
+  const issues = [
+    grammarAiIssue({
+      category: "sentence_structure",
+      originalText: "feel exciting",
+      replacementText: "and felt excited",
+      explanationZhHant: "句子要用 and 連接動作，felt 配合 read，而人的感受用 excited。",
+      confidence: 0.97
+    })
+  ];
+  const ai = aiBinding(grammarAiResponse(sentence, issues));
   const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
   const responseText = await response.text();
   assert.equal(response.status, 200, responseText);
@@ -384,7 +471,7 @@ test("ambiguous read keeps its possible past tense and corrects the complete rem
   assert.equal(body.issues[0].correctedSentence, "Tom read a book and felt excited.");
 });
 
-test("an AI may not turn ambiguous past-tense read into reads without a present marker", async t => {
+test("an ambiguous read-to-reads guess invalidates the complete AI result", async t => {
   const originalFetch = globalThis.fetch;
   const originalConsoleError = console.error;
   t.after(() => {
@@ -397,18 +484,21 @@ test("an AI may not turn ambiguous past-tense read into reads without a present 
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
-  const ai = aiBinding({ response: { issues: [grammarAiIssue({
+  const sentence = "Tom read a book feel exciting.";
+  const readIssue = grammarAiIssue({
     originalText: "read",
     replacementText: "reads",
     explanationZhHant: "模型嘗試猜測現在式。",
     confidence: 0.99
-  })] } });
+  });
+  const ai = aiBinding(grammarAiResponse(sentence, [readIssue]));
   const response = await worker.fetch(
-    grammarCheckRequest("Tom read a book feel exciting."),
+    grammarCheckRequest(sentence),
     environment({ AI: ai })
   );
-  assert.equal(response.status, 200);
-  assert.deepEqual((await response.json()).issues, []);
+  assert.equal(response.status, 502);
+  assert.equal((await response.json()).code, "GRAMMAR_CHECK_INCONCLUSIVE");
+  assert.equal(ai.calls.length, 2);
 
   for (const issue of [
     grammarAiIssue({
@@ -434,11 +524,11 @@ test("an AI may not turn ambiguous past-tense read into reads without a present 
     })
   ]) {
     const variant = await worker.fetch(
-      grammarCheckRequest("Tom read a book feel exciting."),
-      environment({ AI: aiBinding({ response: { issues: [issue] } }) })
+      grammarCheckRequest(sentence),
+      environment({ AI: aiBinding(grammarAiResponse(sentence, [issue])) })
     );
-    assert.equal(variant.status, 200);
-    assert.deepEqual((await variant.json()).issues, []);
+    assert.equal(variant.status, 502);
+    assert.equal((await variant.json()).code, "GRAMMAR_CHECK_INCONCLUSIVE");
   }
 
 });
@@ -453,15 +543,37 @@ test("a grammatically acceptable control returns an empty issue list without sto
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
-  const ai = aiBinding({ response: { issues: [] } });
+  const sentence = "Tommy needs a book to read better.";
+  const ai = aiBinding(grammarAiResponse(sentence, []));
   const response = await worker.fetch(
-    grammarCheckRequest("Tommy needs a book to read better."),
+    grammarCheckRequest(sentence),
     environment({ AI: ai })
   );
   assert.equal(response.status, 200);
   assert.deepEqual((await response.json()).issues, []);
   assert.equal(ai.calls.length, 1);
   assert.equal(rpcCount, 1, "grammar checking must authenticate but must not write to storage");
+});
+
+test("an empty issue list may not claim a different correctedSentence", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tom enjoys watching movies.";
+  const ai = aiSequence(
+    grammarAiResponse(sentence, [], "Tom enjoys watching films."),
+    grammarAiResponse(sentence, [])
+  );
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  assert.deepEqual(JSON.parse(responseText).issues, []);
+  assert.equal(ai.calls.length, 2);
 });
 
 test("grammar checking enforces origin, authentication and rate limits before AI", async t => {
@@ -570,12 +682,17 @@ test("an invalid first grammar result is retried once and returns the complete v
 
   const sentence = "Tom love eat food.";
   const ai = aiSequence(
-    { response: { issues: [grammarAiIssue({
-      originalText: "students",
-      replacementText: "student",
-      explanationZhHant: "這是不存在於原句的幻覺片段。"
-    })] } },
-    { response: { issues: tomLoveIssues() } }
+    {
+      response: {
+        correctedSentence: sentence,
+        issues: [grammarAiIssue({
+          originalText: "students",
+          replacementText: "student",
+          explanationZhHant: "這是不存在於原句的幻覺片段。"
+        })]
+      }
+    },
+    grammarAiResponse(sentence, tomLoveIssues())
   );
   const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
   const responseText = await response.text();
@@ -591,6 +708,116 @@ test("an invalid first grammar result is retried once and returns the complete v
   assert.equal(ai.calls[1].request.seed, 5195);
   assert.match(ai.calls[1].request.messages[1].content, /previous answer was unusable/);
   assert.deepEqual(logs, []);
+});
+
+test("an incoherent enjoy-school composite is rejected and repaired as a whole", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  const logs = [];
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = (...values) => { logs.push(values.join(" ")); };
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tom hate go school but enjoy watch movie.";
+  const badIssues = [
+    grammarAiIssue({ originalText: "hate", replacementText: "hates" }),
+    grammarAiIssue({
+      category: "infinitive_or_gerund",
+      originalText: "go school",
+      replacementText: "going to the school"
+    }),
+    grammarAiIssue({ originalText: "enjoy", replacementText: "enjoys" }),
+    grammarAiIssue({
+      category: "infinitive_or_gerund",
+      originalText: "watch",
+      replacementText: "to watch"
+    }),
+    grammarAiIssue({
+      category: "singular_plural",
+      originalText: "movie",
+      replacementText: "movies"
+    })
+  ];
+  const badCorrectedSentence = "Tom hates going to the school but enjoys to watch movies.";
+  assert.equal(applyGrammarAiPayload(sentence, badIssues), badCorrectedSentence);
+  const ai = aiSequence(
+    grammarAiResponse(sentence, badIssues, badCorrectedSentence),
+    grammarAiResponse(
+      sentence,
+      hateSchoolIssues(),
+      "Tom hates going to school but enjoys watching movies."
+    )
+  );
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.equal(
+    applyGrammarIssues(sentence, body.issues),
+    "Tom hates going to school but enjoys watching movies."
+  );
+  assert.equal(ai.calls.length, 2);
+  assert.equal(ai.calls[1].request.seed, 5195);
+  assert.match(ai.calls[1].request.messages[1].content, /Recheck verb complements and institutional go to school/);
+  assert.deepEqual(logs, []);
+});
+
+test("a correctedSentence that does not equal its issues is retried", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tom love eat food.";
+  const ai = aiSequence(
+    grammarAiResponse(sentence, tomLoveIssues(), "Tom loves eating food."),
+    grammarAiResponse(sentence, tomLoveIssues())
+  );
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.equal(applyGrammarIssues(sentence, body.issues), "Tom loves to eat food.");
+  assert.equal(ai.calls.length, 2);
+});
+
+test("source-aware complement guards preserve valid infinitives and specific schools", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  for (const sentence of [
+    "Tom enjoys watching movies.",
+    "Tom wants to watch a movie.",
+    "Tom hates to watch horror movies.",
+    "Tom goes to school every day.",
+    "Tom goes to the school beside his home.",
+    "Tom goes to a school near his home.",
+    "Tom enjoys the movie.",
+    "Tom enjoys music.",
+    "Tom enjoys work."
+  ]) {
+    const ai = aiBinding(grammarAiResponse(sentence, []));
+    const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+    const responseText = await response.text();
+    assert.equal(response.status, 200, `${sentence}: ${responseText}`);
+    assert.deepEqual(JSON.parse(responseText).issues, []);
+    assert.equal(ai.calls.length, 1);
+  }
 });
 
 test("two invalid grammar results return a privacy-safe inconclusive response", async t => {
@@ -610,11 +837,16 @@ test("two invalid grammar results return a privacy-safe inconclusive response", 
   const sentence = "Tom love eat food.";
   const ai = aiSequence(
     { response: "first-invalid-provider-output" },
-    { response: { issues: [grammarAiIssue({
-      originalText: "students",
-      replacementText: "student",
-      explanationZhHant: "這是第二個不存在於原句的片段。"
-    })] } }
+    {
+      response: {
+        correctedSentence: sentence,
+        issues: [grammarAiIssue({
+          originalText: "students",
+          replacementText: "student",
+          explanationZhHant: "這是第二個不存在於原句的片段。"
+        })]
+      }
+    }
   );
   const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
   assert.equal(response.status, 502);
@@ -647,18 +879,24 @@ test("overlapping first suggestions are repaired on retry without dropping eithe
   };
 
   const sentence = "Tom love eat food.";
+  const overlappingIssues = [
+    grammarAiIssue({
+      category: "sentence_structure",
+      originalText: "love eat",
+      replacementText: "loves to eat",
+      explanationZhHant: "這個寬廣改寫與局部改寫重疊。",
+      confidence: 0.99
+    }),
+    ...tomLoveIssues()
+  ];
   const ai = aiSequence(
-    { response: { issues: [
-      grammarAiIssue({
-        category: "sentence_structure",
-        originalText: "love eat",
-        replacementText: "loves to eat",
-        explanationZhHant: "這個寬廣改寫與局部改寫重疊。",
-        confidence: 0.99
-      }),
-      ...tomLoveIssues()
-    ] } },
-    { response: { issues: tomLoveIssues() } }
+    {
+      response: {
+        correctedSentence: "Tom loves to eat food.",
+        issues: overlappingIssues
+      }
+    },
+    grammarAiResponse(sentence, tomLoveIssues())
   );
   const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
   const responseText = await response.text();

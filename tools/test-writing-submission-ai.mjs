@@ -475,6 +475,104 @@ assert.deepEqual(
     "Tom reads a book feel excited."
   ]
 );
+assert.equal(
+  adapter.hasWritingGrammarIssuesForSentence(
+    rebasedLoopIssues,
+    0,
+    "Tom reads a book feel exciting."
+  ),
+  true,
+  "the adapter can tell the editor that rebased cards from this exact sentence remain"
+);
+assert.equal(
+  adapter.hasWritingGrammarIssuesForSentence(rebasedLoopIssues, 0, loopSentence),
+  false,
+  "the original sentence revision no longer owns the rebased cards"
+);
+
+const correctionBatchSentence = "Tom hate go school but enjoy watch movie.";
+const correctionBatchIssues = adapter.normalizeWritingAiResponse(correctionBatchSentence, {
+  engine: AI_ENGINE,
+  issues: [
+    workerIssue({
+      originalText: "hate",
+      suggestedText: "hates",
+      start: 4,
+      end: 8,
+      message: "Tom 是第三身單數，動詞要用 hates。"
+    }),
+    workerIssue({
+      category: "infinitive_or_gerund",
+      originalText: "go school",
+      suggestedText: "going to school",
+      start: 9,
+      end: 18,
+      message: "hate 後可用動名詞，並要寫 go to school。"
+    }),
+    workerIssue({
+      originalText: "enjoy",
+      suggestedText: "enjoys",
+      start: 23,
+      end: 28,
+      message: "Tom 是第三身單數，動詞要用 enjoys。"
+    }),
+    workerIssue({
+      category: "infinitive_or_gerund",
+      originalText: "watch movie",
+      suggestedText: "watching movies",
+      start: 29,
+      end: 40,
+      message: "enjoy 後用動名詞；一般談電影時可用複數 movies。"
+    })
+  ]
+}).map((issue, index) => ({
+  ...issue,
+  id: `batch-${index}`,
+  fingerprint: `batch-fingerprint-${index}`,
+  generation: 8,
+  documentId: "document-batch",
+  sentenceText: correctionBatchSentence,
+  sentenceStart: 0,
+  sentenceEnd: correctionBatchSentence.length,
+  segmentOrdinal: 1,
+  absoluteStart: issue.start,
+  absoluteEnd: issue.end
+}));
+
+let correctedBatchSentence = correctionBatchSentence;
+let remainingBatchIssues = correctionBatchIssues;
+const correctionBatchSequence = [];
+while (remainingBatchIssues.length) {
+  const appliedIssue = remainingBatchIssues[0];
+  correctedBatchSentence = appliedIssue.correctedSentence;
+  remainingBatchIssues = adapter.rebaseWritingGrammarIssuesAfterAppliedCorrection(
+    remainingBatchIssues,
+    appliedIssue
+  );
+  correctionBatchSequence.push(correctedBatchSentence);
+  assert.equal(
+    adapter.hasWritingGrammarIssuesForSentence(
+      remainingBatchIssues,
+      0,
+      correctedBatchSentence
+    ),
+    remainingBatchIssues.length > 0,
+    "same-sentence batch state must remain exact after every accepted correction"
+  );
+}
+assert.deepEqual(correctionBatchSequence, [
+  "Tom hates go school but enjoy watch movie.",
+  "Tom hates going to school but enjoy watch movie.",
+  "Tom hates going to school but enjoys watch movie.",
+  "Tom hates going to school but enjoys watching movies."
+]);
+assert.equal(
+  correctedBatchSentence,
+  "Tom hates going to school but enjoys watching movies.",
+  "the coherent correction batch must end in the intended complete sentence"
+);
+assert.equal(adapter.hasWritingGrammarIssuesForSentence(null, 0, correctedBatchSentence), false);
+assert.equal(adapter.hasWritingGrammarIssuesForSentence([], 0.5, correctedBatchSentence), false);
 
 const inverseSentence = "Tom reads a book feel exciting.";
 const inverseIssue = adapter.normalizeWritingAiResponse(inverseSentence, {
@@ -499,6 +597,113 @@ const correctionHistory = [{
 }];
 const inverseContext = { generation: 4, documentId: "document-loop" };
 const inverseSegment = { start: 0, text: inverseSentence };
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      originalText: "read",
+      suggestedText: "reads",
+      start: 4,
+      end: 8
+    },
+    inverseSegment,
+    inverseContext,
+    correctionHistory
+  ),
+  true,
+  "the accepted read -> reads transform cannot repeat on the embedded read inside reads"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      originalText: "Tom read",
+      suggestedText: "Tom reads",
+      start: 0,
+      end: 8
+    },
+    inverseSegment,
+    inverseContext,
+    correctionHistory
+  ),
+  true,
+  "a checker cannot hide the repeated transform inside a wider replacement"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      originalText: "Tom reads and Sam eat",
+      suggestedText: "Tom reads and Sam eats",
+      start: 0,
+      end: 21
+    },
+    { start: 0, text: "Tom reads and Sam eat." },
+    inverseContext,
+    correctionHistory
+  ),
+  false,
+  "a wider correction may preserve the accepted text while fixing a later word"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    {
+      ...inverseIssue,
+      originalText: "read",
+      suggestedText: "reads",
+      start: 4,
+      end: 8,
+      engine: LOCAL_ENGINE,
+      engineId: "edmund-esl-basics"
+    },
+    inverseSegment,
+    inverseContext,
+    correctionHistory
+  ),
+  true,
+  "even a stronger checker must not repeat the identical accepted transform"
+);
+
+const repeatedGoSentence = "Tom to go and go.";
+const repeatedGoHistory = [{
+  generation: 4,
+  documentId: "document-loop",
+  absoluteStart: 4,
+  absoluteEnd: 9,
+  before: "go",
+  after: "to go",
+  categoryId: "infinitive_or_gerund",
+  engineId: "cloudflare-workers-ai"
+}];
+const repeatedGoIssue = {
+  ...inverseIssue,
+  category: "infinitive_or_gerund",
+  categoryId: "infinitive_or_gerund",
+  originalText: "go",
+  suggestedText: "to go",
+  start: 7,
+  end: 9
+};
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    repeatedGoIssue,
+    { start: 0, text: repeatedGoSentence },
+    inverseContext,
+    repeatedGoHistory
+  ),
+  true,
+  "go -> to go cannot compound into to to go inside its accepted replacement"
+);
+assert.equal(
+  adapter.isBlockedInverseWritingGrammarIssue(
+    { ...repeatedGoIssue, start: 14, end: 16 },
+    { start: 0, text: repeatedGoSentence },
+    inverseContext,
+    repeatedGoHistory
+  ),
+  false,
+  "the same correction remains available for a genuinely separate later occurrence"
+);
 assert.equal(
   adapter.isBlockedInverseWritingGrammarIssue(
     inverseIssue,

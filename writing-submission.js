@@ -10,14 +10,14 @@ import {
 } from "./writing-submission-core.js?v=20260801-loop1";
 import {
   classifyRemoteGrammarFailure,
-  grammarIssueRangesOverlap,
+  hasWritingGrammarIssuesForSentence,
   isBlockedInverseWritingGrammarIssue,
   mergeWritingGrammarIssues,
   normalizeWritingAiResponse,
   REMOTE_GRAMMAR_FAILURE_KINDS,
   rebaseWritingGrammarIssuesAfterAppliedCorrection,
   writingGrammarReviewNotice
-} from "./writing-submission-ai.js?v=20260801-grammar2";
+} from "./writing-submission-ai.js?v=20260801-grammar3";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -994,17 +994,14 @@ function publishSegmentRecord(record) {
       !isLatestSegmentRecord(record)
       || !isLiveCompletedWritingSegment(elements.writingInput.value, record.segment)
     ) return;
-    const preserved = state.activeIssues.filter((issue) => (
-      issue.sentenceStart === record.segment.start
-      && issue.sentenceEnd === record.segment.end
-      && issue.sentenceText === record.segment.text
-      && record.segment.text.slice(issue.start, issue.end) === issue.originalText
-      && !issues.some((fresh) => grammarIssueRangesOverlap(fresh, issue))
-    ));
+    // A completed analysis is authoritative for this exact sentence revision.
+    // Never carry cards forward from an older revision merely because their
+    // ranges do not overlap: those cards may depend on grammar that an accepted
+    // sibling correction has already changed.
     state.activeIssues = state.activeIssues.filter((issue) => !(
       issue.sentenceStart === record.segment.start && issue.sentenceEnd === record.segment.end
     ));
-    state.activeIssues.push(...issues, ...preserved);
+    state.activeIssues.push(...issues);
     state.activeIssues.sort((left, right) => (
       left.absoluteStart - right.absoluteStart || left.ruleId.localeCompare(right.ruleId)
     ));
@@ -1330,15 +1327,25 @@ function applyGrammarIssue(issueId) {
   rebaseAppliedCorrections(current, next);
   rememberAppliedCorrection(issue);
   state.activeIssues = rebaseWritingGrammarIssuesAfterAppliedCorrection(state.activeIssues, issue);
+  const hasRemainingSentenceIssues = hasWritingGrammarIssuesForSentence(
+    state.activeIssues,
+    issue.sentenceStart,
+    issue.correctedSentence
+  );
   state.dismissedIssueIds.clear();
   elements.writingInput.value = next;
   state.previousWriting = next;
   updateEditorMetrics();
   scheduleDraftSave();
   renderGrammarIssues();
-  const replacementEnd = issue.sentenceStart + issue.correctedSentence.length;
-  const updatedSegments = completedWritingSegmentsOverlappingRange(next, issue.sentenceStart, replacementEnd);
-  if (updatedSegments.length) enqueueSegmentsForCheck(updatedSegments);
+  // The AI returns one coherent correction batch. Let the student finish that
+  // batch before checking the resulting sentence again; otherwise responses
+  // for intermediate sentence versions can mix with the still-visible cards.
+  if (!hasRemainingSentenceIssues) {
+    const replacementEnd = issue.sentenceStart + issue.correctedSentence.length;
+    const updatedSegments = completedWritingSegmentsOverlappingRange(next, issue.sentenceStart, replacementEnd);
+    if (updatedSegments.length) enqueueSegmentsForCheck(updatedSegments);
+  }
   showToast("已套用建議；原有問題種類已保留在您的記錄。", "success");
 }
 

@@ -387,10 +387,57 @@ function isSpecificWritingGrammarFragmentReversed(original, suggested, offset, a
   );
 }
 
+function isRepeatedWritingGrammarCorrectionInsideAcceptedReplacement(
+  issue,
+  absoluteStart,
+  entry,
+  before,
+  after
+) {
+  const candidateOriginal = String(issue?.originalText || "");
+  const candidateSuggested = String(issue?.suggestedText || "");
+  const acceptedStart = Number(entry?.absoluteStart);
+  const acceptedEnd = Number(entry?.absoluteEnd);
+  if (
+    !before
+    || !after
+    || !Number.isSafeInteger(absoluteStart)
+    || !Number.isSafeInteger(acceptedStart)
+    || !Number.isSafeInteger(acceptedEnd)
+    || acceptedEnd - acceptedStart !== after.length
+  ) return false;
+
+  if (absoluteStart >= acceptedStart) {
+    const relativeInsideAccepted = absoluteStart - acceptedStart;
+    return (
+      candidateOriginal === before
+      && candidateSuggested === after
+      && after.slice(relativeInsideAccepted, relativeInsideAccepted + before.length) === before
+    );
+  }
+
+  const relativeStart = acceptedStart - absoluteStart;
+  const candidateEnd = absoluteStart + candidateOriginal.length;
+  // A wider suggestion may legitimately retain the accepted wording and fix
+  // something later in that phrase. A source span containing the complete
+  // accepted replacement is preserving it, not repeating the old transform.
+  if (
+    candidateEnd >= acceptedEnd
+    && candidateOriginal.slice(relativeStart, relativeStart + after.length) === after
+  ) return false;
+  return (
+    candidateOriginal.slice(0, relativeStart) === candidateSuggested.slice(0, relativeStart)
+    && candidateOriginal.slice(relativeStart, relativeStart + before.length) === before
+    && candidateSuggested.slice(relativeStart, relativeStart + after.length) === after
+  );
+}
+
 /**
- * Once a student accepts a correction, do not let the same or a weaker
- * checker immediately offer the exact inverse at the same place. A stronger
- * deterministic checker may still override an AI suggestion.
+ * Once a student accepts a correction, do not let any checker repeat that
+ * same transform inside the newly inserted replacement. Also prevent the
+ * same or a weaker checker from offering the exact inverse at that place. A
+ * stronger deterministic checker may still override an AI suggestion with a
+ * genuinely different correction.
  */
 export function isBlockedInverseWritingGrammarIssue(issue, segment, context, correctionHistory) {
   if (!issue || !segment || !context || !Array.isArray(correctionHistory)) return false;
@@ -401,12 +448,19 @@ export function isBlockedInverseWritingGrammarIssue(issue, segment, context, cor
       !entry
       || entry.generation !== context.generation
       || entry.documentId !== context.documentId
-      || candidatePriority < writingGrammarEnginePriority(entry.engineId)
     ) return false;
     const candidateOriginal = String(issue.originalText || "");
     const candidateSuggested = String(issue.suggestedText || "");
     const before = String(entry.before || "");
     const after = String(entry.after || "");
+    if (isRepeatedWritingGrammarCorrectionInsideAcceptedReplacement(
+      issue,
+      absoluteStart,
+      entry,
+      before,
+      after
+    )) return true;
+    if (candidatePriority < writingGrammarEnginePriority(entry.engineId)) return false;
     const offset = Number(entry.absoluteStart) - absoluteStart;
     return Boolean(before && after && isSpecificWritingGrammarFragmentReversed(
       candidateOriginal,
@@ -489,6 +543,20 @@ export function rebaseWritingGrammarIssuesAfterAppliedCorrection(issueValues, ap
     rebased.push(issue);
   }
   return rebased;
+}
+
+/** Return whether this exact completed sentence still has active issue cards. */
+export function hasWritingGrammarIssuesForSentence(issueValues, sentenceStart, sentenceText) {
+  if (
+    !Array.isArray(issueValues)
+    || !Number.isSafeInteger(sentenceStart)
+    || typeof sentenceText !== "string"
+  ) return false;
+  return issueValues.some((issue) => (
+    issue
+    && issue.sentenceStart === sentenceStart
+    && issue.sentenceText === sentenceText
+  ));
 }
 
 function dedupeAndRemoveOverlaps(issues, { enginePriorityFirst = false } = {}) {

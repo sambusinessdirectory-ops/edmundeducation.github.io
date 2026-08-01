@@ -104,9 +104,9 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /AI 文法提示（測試版）/);
   assert.match(html, /writing-submission\.css\?v=20260731-ai1/);
-  assert.match(html, /writing-submission\.js\?v=20260801-grammar2/);
+  assert.match(html, /writing-submission\.js\?v=20260801-grammar3/);
   assert.match(script, /writing-submission-harper\.js\?v=20260801-grammar2/);
-  assert.match(script, /writing-submission-ai\.js\?v=20260801-grammar2/);
+  assert.match(script, /writing-submission-ai\.js\?v=20260801-grammar3/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"1\.2\.0"/);
   assert.match(eslRules, /writing-submission-esl-rules-core\.js\?v=20260801-grammar2/);
   assert.match(script, /暫未偵測到高信心文法問題/);
@@ -165,6 +165,9 @@ test("applying one AI correction cannot create an A-B-A loop or erase sibling ca
   assert.match(script, /}, 650\);/);
   assert.match(script, /isBlockedInverseWritingGrammarIssue/);
   assert.match(script, /rebaseWritingGrammarIssuesAfterAppliedCorrection/);
+  assert.match(script, /hasWritingGrammarIssuesForSentence/);
+  assert.match(script, /if \(!hasRemainingSentenceIssues\)/);
+  assert.doesNotMatch(script, /const preserved = state\.activeIssues/);
   assert.doesNotMatch(script, /remoteGrammarCache/);
   assert.doesNotMatch(
     script,
