@@ -429,7 +429,7 @@ test("dependent verb phrases combine into one coherent hate-school correction", 
     ]
   );
   assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
-  assert.equal(body.engine.version, "2026-08-01.3");
+  assert.equal(body.engine.version, "2026-08-01.4");
 
   const prompt = ai.calls[0].request.messages[0].content;
   assert.match(prompt, /Tom hate go school but enjoy watch movie\./);
@@ -791,6 +791,290 @@ test("a correctedSentence that does not equal its issues is retried", async t =>
   assert.equal(ai.calls.length, 2);
 });
 
+test("two malformed edit maps recover when both checks agree on the same complete adjective correction", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "The first advantage is the efficient and effective.";
+  const correctedSentence = "The first advantage is that it is efficient and effective.";
+  const ai = aiSequence(
+    grammarAiResponse(sentence, [grammarAiIssue({
+      category: "sentence_structure",
+      originalText: "The first advantage is",
+      replacementText: "The first advantage is that it is",
+      explanationZhHant: "需要完整 that 子句。"
+    })], correctedSentence),
+    grammarAiResponse(sentence, [
+      grammarAiIssue({
+        category: "sentence_structure",
+        originalText: "is",
+        replacementText: "that it is",
+        explanationZhHant: "需要完整 that 子句。"
+      }),
+      grammarAiIssue({
+        category: "article_or_determiner",
+        originalText: "efficient and effective",
+        replacementText: "the efficient and effective",
+        explanationZhHant: "這個局部建議與完整句子不一致。"
+      })
+    ], correctedSentence)
+  );
+
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.equal(body.engine.version, "2026-08-01.4");
+  assert.equal(body.issues.length, 1);
+  assert.equal(body.issues[0].category, "sentence_structure");
+  assert.equal(body.issues[0].originalText, "the efficient and effective");
+  assert.equal(body.issues[0].suggestedText, "that it is efficient and effective");
+  assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
+  assert.equal(ai.calls.length, 2);
+});
+
+test("the two screenshot sentences accept coherent primary batches in one call", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const fixtures = [
+    {
+      sentence: "The first advantage is the efficient and effective.",
+      correctedSentence: "The first advantage is efficiency and effectiveness.",
+      issues: [grammarAiIssue({
+        category: "word_form",
+        originalText: "the efficient and effective",
+        replacementText: "efficiency and effectiveness",
+        explanationZhHant: "形容詞要改為名詞作補語。"
+      })]
+    },
+    {
+      sentence: "it can to help student do work faster.",
+      correctedSentence: "It can help students do work faster.",
+      issues: [
+        grammarAiIssue({
+          category: "spelling_or_spacing",
+          originalText: "it",
+          replacementText: "It",
+          explanationZhHant: "句子開首要用大寫。"
+        }),
+        grammarAiIssue({
+          category: "modal_or_auxiliary",
+          originalText: "can to help",
+          replacementText: "can help",
+          explanationZhHant: "can 後面直接用動詞原形。"
+        }),
+        grammarAiIssue({
+          category: "singular_plural",
+          originalText: "student",
+          replacementText: "students",
+          explanationZhHant: "泛指多名學生要用複數。"
+        })
+      ]
+    }
+  ];
+
+  for (const fixture of fixtures) {
+    const ai = aiBinding(grammarAiResponse(
+      fixture.sentence,
+      fixture.issues,
+      fixture.correctedSentence
+    ));
+    const response = await worker.fetch(
+      grammarCheckRequest(fixture.sentence),
+      environment({ AI: ai })
+    );
+    const responseText = await response.text();
+    assert.equal(response.status, 200, responseText);
+    const body = JSON.parse(responseText);
+    assert.equal(applyGrammarIssues(fixture.sentence, body.issues), fixture.correctedSentence);
+    assert.equal(ai.calls.length, 1);
+  }
+});
+
+test("two malformed edit maps recover the agreed modal and plural correction", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "it can to help student do work faster.";
+  const correctedSentence = "It can help students do work faster.";
+  const malformedIssues = [
+    grammarAiIssue({
+      category: "spelling_or_spacing",
+      originalText: "it",
+      replacementText: "It",
+      explanationZhHant: "句子開首要用大寫。"
+    }),
+    grammarAiIssue({
+      category: "singular_plural",
+      originalText: "student",
+      replacementText: "students",
+      explanationZhHant: "泛指多名學生要用複數。"
+    })
+  ];
+  const ai = aiSequence(
+    grammarAiResponse(sentence, malformedIssues, correctedSentence),
+    grammarAiResponse(sentence, [...malformedIssues].reverse(), correctedSentence)
+  );
+
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+  assert.equal(body.issues.length, 3);
+  assert.deepEqual(
+    body.issues.map(({ category, originalText, suggestedText }) => ({
+      category, originalText, suggestedText
+    })),
+    [
+      { category: "spelling_or_spacing", originalText: "it", suggestedText: "It" },
+      { category: "modal_or_auxiliary", originalText: "can to help", suggestedText: "can help" },
+      { category: "singular_plural", originalText: "student", suggestedText: "students" }
+    ]
+  );
+  assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
+  assert.equal(ai.calls.length, 2);
+});
+
+test("unverified agreed full-sentence recovery fails closed", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "Tom can to swim.";
+  const correctedSentence = "Tom can swim.";
+  const mismatched = grammarAiResponse(sentence, [grammarAiIssue({
+    category: "modal_or_auxiliary",
+    originalText: "can",
+    replacementText: "can swim",
+    explanationZhHant: "這個座標未能重建完整句子。"
+  })], correctedSentence);
+  const ai = aiSequence(mismatched, mismatched);
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  assert.equal(response.status, 502);
+  assert.deepEqual(await response.json(), {
+    error: "Advanced grammar checking could not safely analyse this sentence",
+    code: "GRAMMAR_CHECK_INCONCLUSIVE"
+  });
+  assert.equal(ai.calls.length, 2);
+});
+
+test("verified recovery rejects unchanged, disagreeing and still-ungrammatical candidates", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  const logs = [];
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = (...values) => { logs.push(values.join(" ")); };
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const fixtures = [
+    {
+      sentence: "The first advantage is the efficient and effective.",
+      first: "The first advantage is the efficient and effective.",
+      second: "The first advantage is the efficient and effective."
+    },
+    {
+      sentence: "The first advantage is the efficient and effective.",
+      first: "The first advantage is efficiency and effectiveness.",
+      second: "The first advantage is that it is efficient and effective."
+    },
+    {
+      sentence: "The first advantage is the efficient and effective.",
+      first: "The first advantage are efficient and effective.",
+      second: "The first advantage are efficient and effective."
+    },
+    {
+      sentence: "it can to help student do work faster.",
+      first: "It can help student do work faster.",
+      second: "It can help student do work faster."
+    }
+  ];
+
+  for (const fixture of fixtures) {
+    const malformed = (correctedSentence) => ({
+      response: { correctedSentence, issues: [{}] }
+    });
+    const ai = aiSequence(malformed(fixture.first), malformed(fixture.second));
+    const response = await worker.fetch(
+      grammarCheckRequest(fixture.sentence),
+      environment({ AI: ai })
+    );
+    const body = await response.json();
+    assert.equal(response.status, 502);
+    assert.deepEqual(body, {
+      error: "Advanced grammar checking could not safely analyse this sentence",
+      code: "GRAMMAR_CHECK_INCONCLUSIVE"
+    });
+    assert.equal(ai.calls.length, 2);
+    const publicBody = JSON.stringify(body);
+    assert.equal(publicBody.includes(fixture.sentence), false);
+    assert.equal(publicBody.includes(fixture.first), false);
+    assert.equal(publicBody.includes(fixture.second), false);
+  }
+  assert.equal(logs.length, fixtures.length);
+  assert.ok(logs.every((entry) => entry === "Writing Submission grammar result was inconclusive"));
+  assert.equal(logs.some((entry) => fixtures.some((fixture) => entry.includes(fixture.sentence))), false);
+});
+
+test("a provider error on the repair pass returns a private 503 after exactly two calls", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  const logs = [];
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = (...values) => { logs.push(values.join(" ")); };
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "The first advantage is the efficient and effective.";
+  const ai = aiSequence(
+    { response: "invalid-first-result" },
+    new Error("private-second-provider-error")
+  );
+  const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+  const body = await response.json();
+  assert.equal(response.status, 503);
+  assert.deepEqual(body, {
+    error: "Advanced grammar checking is temporarily unavailable",
+    code: "GRAMMAR_CHECK_UNAVAILABLE"
+  });
+  assert.equal(ai.calls.length, 2);
+  assert.deepEqual(logs, ["Writing Submission grammar provider failed"]);
+  assert.equal(JSON.stringify(body).includes(sentence), false);
+  assert.equal(JSON.stringify(body).includes("private-second-provider-error"), false);
+});
+
 test("source-aware complement guards preserve valid infinitives and specific schools", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -809,7 +1093,15 @@ test("source-aware complement guards preserve valid infinitives and specific sch
     "Tom goes to a school near his home.",
     "Tom enjoys the movie.",
     "Tom enjoys music.",
-    "Tom enjoys work."
+    "Tom enjoys work.",
+    "His will to succeed is strong.",
+    "I asked May to help.",
+    "A strong will to succeed is important.",
+    "Free will to choose is important.",
+    "The political will to act is necessary.",
+    "He used all his might to lift it.",
+    "We bought a can to store paint.",
+    "This is a must to complete the course."
   ]) {
     const ai = aiBinding(grammarAiResponse(sentence, []));
     const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
@@ -817,6 +1109,32 @@ test("source-aware complement guards preserve valid infinitives and specific sch
     assert.equal(response.status, 200, `${sentence}: ${responseText}`);
     assert.deepEqual(JSON.parse(responseText).issues, []);
     assert.equal(ai.calls.length, 1);
+  }
+});
+
+test("accepted regression corrections stay resolved without another model rewrite", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  for (const sentence of [
+    "It can help students do work faster.",
+    "The first advantage is efficiency and effectiveness.",
+    "The first advantage is that it is efficient and effective.",
+    "Tom loves to eat food.",
+    "Tom hates going to school but enjoys watching movies.",
+    "Tom read a book and felt excited."
+  ]) {
+    const ai = aiBinding(new Error("the accepted control must not invoke AI"));
+    const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+    const responseText = await response.text();
+    assert.equal(response.status, 200, `${sentence}: ${responseText}`);
+    assert.deepEqual(JSON.parse(responseText).issues, []);
+    assert.equal(ai.calls.length, 0);
   }
 });
 
