@@ -17,6 +17,8 @@ explicitly granted by `../../supabase-writing-submission.sql`.
 
 Apply the repository's shared Flashcard-account migrations first. Then run
 `../../supabase-writing-submission.sql` in a private Supabase SQL session.
+Apply `../../supabase-writing-grammar-corpus.sql` next, followed by the
+generated `../../grammar-corpus/seed-corpus-v1.sql` release seed.
 
 The migration creates:
 
@@ -25,6 +27,10 @@ The migration creates:
 - deduplicated grammar occurrences that can be saved before final submission;
 - per-rule grammar-problem summaries; and
 - service-role-only student and administrator RPCs.
+
+The separate corpus migration creates a normalized, versioned private archive
+for teacher-approved paragraphs, sentences, issues, reusable rules and valid
+counterexamples. Its tables also have RLS enabled with no browser policies.
 
 Do not run the migration from browser code. Do not grant its tables to `anon`
 or `authenticated`.
@@ -163,36 +169,48 @@ sentences, saved submissions, or grammar-history records to Workers AI. The
 second review receives the original sentence and the first proposed correction,
 both of which contain only material derived from that same sentence.
 
-The grammar service is stateless. It does not maintain a catalogue of student
-sentences, known test sentences, or manually mapped sentence combinations.
-Prompts, provider responses, and checked sentences are not written to Supabase,
-KV, R2, Durable Objects, or application logs. Responses use
-`Cache-Control: no-store`.
+The grammar service does not learn from live student submissions. Prompts,
+provider responses, checked sentences and accepted suggestions are not added
+to the teacher corpus or written to KV, R2, Durable Objects or application
+logs. Responses use `Cache-Control: no-store`.
+
+The reviewed corpus is authored and audited in the version-controlled source
+JSON (or a reviewed workbook normalized into it), then archived in Supabase and
+published as a versioned read-only Worker snapshot from that same validated
+source. Exact lookup therefore does not send the student's sentence to Supabase
+or add a database round-trip. Only deliberately teacher-approved examples
+appear in the snapshot; runtime detections can never promote themselves.
 
 #### Review pipeline
 
-Version `2026-08-01.10` uses a general correction pipeline:
+Version `2026-08-01.11` uses a corpus-assisted general correction pipeline:
 
-1. `@cf/meta/llama-3.3-70b-instruct-fp8-fast` independently reviews the entire
+1. The Worker checks for an exact teacher-approved source sentence. A match is
+   returned from the bundled release without calling Workers AI. The generic
+   safety materializer still derives and verifies every edit range.
+2. `@cf/meta/llama-3.3-70b-instruct-fp8-fast` independently reviews the entire
    sentence and proposes one complete correction. It is instructed to find
    every high-confidence grammatical problem, preserve meaning and protected
    quoted text, and avoid stylistic rewriting.
-2. A second invocation of the same 70B model uses a different task prompt and
+3. A second invocation of the same 70B model uses a different task prompt and
    seed. It rereads the original sentence, treats the first proposal as
    untrusted, audits every clause for missed errors, and checks that the
-   proposal did not introduce a new error or alter the student's meaning.
-3. The Worker compares the original sentence with the final validated
+   proposal did not introduce a new error or alter the student's meaning. The
+   audit may receive at most two structurally relevant teacher-approved
+   examples. They are reference data, never answers, and vocabulary or facts
+   may not be copied from them.
+4. The Worker compares the original sentence with the final validated
    correction and derives the actual replacement ranges itself. Provider
    fragments and occurrence metadata are advisory only; the Worker does not
    trust provider-supplied coordinates.
-4. If the audited result is unavailable or unsafe, the Worker may use a safe
+5. If the audited result is unavailable or unsafe, the Worker may use a safe
    validated first proposal. If neither 70B result can be safely materialised,
    `@cf/meta/llama-3.1-8b-instruct-fast` performs an independent last-resort
    review beginning from the original sentence.
 
-This architecture generalises from grammatical principles. It does not contain
-special-case fixes for named examples, and adding a new student sentence does
-not require adding it to a sentence database.
+The exact corpus path is intentionally narrow. Near matches never inherit an
+approved correction. Unseen sentences remain AI judgements, with corpus
+examples used only as reusable structural guidance.
 
 A successful response contains zero to eight validated issues in the same
 serialisable shape used by the browser checker. Every returned issue is built
@@ -214,7 +232,7 @@ states that Cloudflare's daily allowance resets at 08:00 Hong Kong time.
 
 #### Cost and quota implications
 
-A normal version `.10` check performs two 70B invocations: one proposal and one
+A normal version `.11` non-exact check performs two 70B invocations: one proposal and one
 independent completeness-and-meaning audit. The 8B invocation is a last-resort
 fallback and is not normally used. During the 1 August 2026 preview evaluation,
 one 70B invocation consumed approximately 39–41 Workers AI neurons and one 8B
@@ -227,6 +245,9 @@ exhaustion, provider failure, and validation failure are availability states,
 not grammar judgements. The existing browser may separately save a displayed
 issue through the grammar-history batch route; that durable history operation
 is distinct from the stateless AI check.
+
+An exact teacher-approved corpus match performs no Workers AI invocation and
+therefore consumes no Workers AI neurons.
 
 ### Grammar history
 

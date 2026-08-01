@@ -1,4 +1,5 @@
 export const WRITING_GRAMMAR_ENGINE_IDS = Object.freeze({
+  corpus: "edmund-approved-grammar-corpus",
   local: "edmund-esl-basics",
   harper: "harper.js",
   ai: "cloudflare-workers-ai"
@@ -130,11 +131,16 @@ export const WRITING_GRAMMAR_CATEGORY_TITLES = Object.freeze({
 });
 
 const ENGINE_PRIORITY = Object.freeze({
+  [WRITING_GRAMMAR_ENGINE_IDS.corpus]: -1,
   [WRITING_GRAMMAR_ENGINE_IDS.local]: 0,
   [WRITING_GRAMMAR_ENGINE_IDS.harper]: 1,
   [WRITING_GRAMMAR_ENGINE_IDS.ai]: 2
 });
 const KNOWN_ENGINE_IDS = new Set(Object.keys(ENGINE_PRIORITY));
+const REMOTE_ENGINE_IDS = new Set([
+  WRITING_GRAMMAR_ENGINE_IDS.corpus,
+  WRITING_GRAMMAR_ENGINE_IDS.ai
+]);
 const KNOWN_CATEGORY_IDS = new Set(Object.keys(WRITING_GRAMMAR_CATEGORY_TITLES));
 const MAX_AI_ISSUES = 8;
 const MAX_ORIGINAL_LENGTH = 180;
@@ -230,7 +236,8 @@ function issueSuggestion(issue) {
 
 function normalizeIssue(sentence, issue, {
   expectedEngineId = "",
-  ai = false
+  ai = false,
+  teacherApproved = false
 } = {}) {
   if (!isPlainObject(issue)) return null;
   const engine = normalizeEngine(issue.engine, expectedEngineId);
@@ -268,7 +275,9 @@ function normalizeIssue(sentence, issue, {
   const localTitle = boundedText(issue.title, MAX_TITLE_LENGTH);
   const title = ai ? canonicalTitle : (localTitle || canonicalTitle);
   const ruleId = ai
-    ? `EdmundAI:${categoryId}`
+    ? (teacherApproved
+      ? (boundedText(issue.ruleId, MAX_TITLE_LENGTH) || `EdmundCorpus:${categoryId}`)
+      : `EdmundAI:${categoryId}`)
     : (boundedText(issue.ruleId, MAX_TITLE_LENGTH) || `${engine.name}:${categoryId}`);
   const correctedSentence = reviewRequired || !suggestedText
     ? sentence
@@ -634,11 +643,13 @@ export function normalizeWritingAiResponse(sentenceValue, responseValue) {
   }
 
   const topLevelEngine = container.engine ?? responseValue.engine;
+  let remoteEngineId = WRITING_GRAMMAR_ENGINE_IDS.ai;
   if (topLevelEngine !== undefined) {
     const normalized = normalizeEngine(topLevelEngine);
-    if (!normalized || normalized.name !== WRITING_GRAMMAR_ENGINE_IDS.ai) {
+    if (!normalized || !REMOTE_ENGINE_IDS.has(normalized.name)) {
       throw new TypeError("Grammar AI response uses an unknown engine");
     }
+    remoteEngineId = normalized.name;
   }
 
   const normalized = container.issues
@@ -646,8 +657,9 @@ export function normalizeWritingAiResponse(sentenceValue, responseValue) {
       ...issue,
       engine: issue?.engine ?? topLevelEngine
     }, {
-      expectedEngineId: WRITING_GRAMMAR_ENGINE_IDS.ai,
-      ai: true
+      expectedEngineId: remoteEngineId,
+      ai: true,
+      teacherApproved: remoteEngineId === WRITING_GRAMMAR_ENGINE_IDS.corpus
     }))
     .filter(Boolean);
 
@@ -671,43 +683,26 @@ export function normalizeLocalGrammarIssues(sentenceValue, issueValues) {
 }
 
 /**
- * Merge immediate local/Harper findings with Worker AI findings. Local ESL is
- * authoritative, Harper is second, and AI is accepted only where neither
- * local source already owns an overlapping editor span.
+ * Merge immediate local/Harper findings with Worker findings. An exact,
+ * teacher-approved corpus record is authoritative, local ESL is next, Harper
+ * follows, and generated AI is accepted only where no stronger source already
+ * owns an overlapping editor span.
  */
 export function mergeWritingGrammarIssues(sentenceValue, localIssueValues, aiValue) {
   const sentence = requireSentence(sentenceValue);
   const local = normalizeLocalGrammarIssues(sentence, localIssueValues || []);
   const ai = Array.isArray(aiValue)
     ? dedupeAndRemoveOverlaps(aiValue
-      .map((issue) => normalizeIssue(sentence, issue, {
-        expectedEngineId: WRITING_GRAMMAR_ENGINE_IDS.ai,
-        ai: true
-      }))
+      .map((issue) => {
+        const remoteEngineId = String(issue?.engineId || issue?.engine?.name || "");
+        if (!REMOTE_ENGINE_IDS.has(remoteEngineId)) return null;
+        return normalizeIssue(sentence, issue, {
+          expectedEngineId: remoteEngineId,
+          ai: true,
+          teacherApproved: remoteEngineId === WRITING_GRAMMAR_ENGINE_IDS.corpus
+        });
+      })
       .filter(Boolean))
     : normalizeWritingAiResponse(sentence, aiValue || { issues: [] });
-
-  const accepted = [];
-  const localByPriority = [...local].sort((left, right) => (
-    ENGINE_PRIORITY[left.engineId] - ENGINE_PRIORITY[right.engineId]
-    || issueSelectionOrder(left, right)
-  ));
-  for (const issue of localByPriority) {
-    if (!accepted.some((existing) => grammarIssueRangesOverlap(existing, issue))) {
-      accepted.push(issue);
-    }
-  }
-  for (const issue of ai) {
-    if (!accepted.some((existing) => grammarIssueRangesOverlap(existing, issue))) {
-      accepted.push(issue);
-    }
-  }
-
-  accepted.sort((left, right) => (
-    left.start - right.start
-    || left.end - right.end
-    || ENGINE_PRIORITY[left.engineId] - ENGINE_PRIORITY[right.engineId]
-    || left.ruleId.localeCompare(right.ruleId)
-  ));
-  return Object.freeze(accepted);
+  return dedupeAndRemoveOverlaps([...local, ...ai], { enginePriorityFirst: true });
 }

@@ -1,4 +1,5 @@
 import { materializeGeneralCorrection } from "./general-correction.js";
+import { selectApprovedGrammarGuides } from "./grammar-corpus.js";
 
 export {
   deriveGeneralCorrectionHunks,
@@ -7,7 +8,7 @@ export {
 
 export const GRAMMAR_AI_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 export const GRAMMAR_AI_REPAIR_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
-export const GRAMMAR_AI_VERSION = "2026-08-01.10";
+export const GRAMMAR_AI_VERSION = "2026-08-01.11";
 export const MAX_GRAMMAR_SENTENCE_CHARACTERS = 2000;
 export const MAX_GRAMMAR_SENTENCE_BYTES = 8000;
 export const MAX_GRAMMAR_AI_ISSUES = 8;
@@ -212,8 +213,37 @@ export function buildGrammarAiRequest(sentence) {
   });
 }
 
-export function buildGrammarAiAuditRequest(sentence, proposedCorrectedSentence) {
-  const audit = `Perform a fresh final audit. The proposed correction is untrusted and may be incomplete or may have introduced a new error. Re-read the ORIGINAL sentence independently, then check every clause and every word of the proposal. Return one fully grammatical final correctedSentence that fixes every high-confidence grammar problem while preserving the original meaning. Do not merely approve the proposal. Reject stylistic paraphrasing, new obligations, new facts, removed facts, and vocabulary substitutions that are not required for grammar. All issue metadata must describe changes from ORIGINAL to the final correctedSentence.`;
+export function buildGrammarAiAuditRequest(
+  sentence,
+  proposedCorrectedSentence,
+  teacherApprovedPatternGuides = []
+) {
+  const guides = (Array.isArray(teacherApprovedPatternGuides)
+    ? teacherApprovedPatternGuides.slice(0, 3)
+    : []
+  ).flatMap((guide) => {
+    if (!isPlainObject(guide)) return [];
+    const sourceSentence = typeof guide.sourceSentence === "string"
+      ? guide.sourceSentence.slice(0, 2000)
+      : "";
+    const correctedSentence = typeof guide.correctedSentence === "string"
+      ? guide.correctedSentence.slice(0, 4000)
+      : "";
+    if (!sourceSentence || !correctedSentence) return [];
+    return [{
+      sourceSentence,
+      correctedSentence,
+      categories: Array.isArray(guide.categories)
+        ? guide.categories.filter((value) => typeof value === "string").slice(0, 8)
+        : [],
+      explanationZhHant: typeof guide.explanationZhHant === "string"
+        ? guide.explanationZhHant.slice(0, 700)
+        : ""
+    }];
+  });
+  const audit = `Perform a fresh final audit. The proposed correction is untrusted and may be incomplete or may have introduced a new error. Re-read the ORIGINAL sentence independently, then check every clause and every word of the proposal. Return one fully grammatical final correctedSentence that fixes every high-confidence grammar problem while preserving the original meaning. Do not merely approve the proposal. Reject stylistic paraphrasing, new obligations, new facts, removed facts, and vocabulary substitutions that are not required for grammar. All issue metadata must describe changes from ORIGINAL to the final correctedSentence.
+
+The optional teacherApprovedPatternGuides below are reference DATA showing reusable grammar structures. They are not answers to the current sentence. Never copy their names, nouns, facts, tense, polarity or wording. Use a guide only if its grammatical structure genuinely applies, and still analyse the ORIGINAL sentence independently.`;
   return Object.freeze({
     messages: Object.freeze([
       Object.freeze({ role: "system", content: GRAMMAR_SYSTEM_PROMPT }),
@@ -221,7 +251,8 @@ export function buildGrammarAiAuditRequest(sentence, proposedCorrectedSentence) 
         role: "user",
         content: `${audit}\n${JSON.stringify({
           originalSentence: sentence,
-          proposedCorrectedSentence
+          proposedCorrectedSentence,
+          teacherApprovedPatternGuides: guides
         })}`
       })
     ]),
@@ -1835,17 +1866,29 @@ export async function runGrammarAi(sentence, env) {
   let primaryResult = null;
   let normalizedPrimary = null;
   let proposedCorrectedSentence = sentence;
+  let categoryHints = [];
   try {
     primaryResult = await env.AI.run(GRAMMAR_AI_MODEL, buildGrammarAiRequest(sentence));
     normalizedPrimary = normalizeGeneralCorrectionResult(sentence, primaryResult);
     const primaryPayload = parseAiResponse(normalizedPrimary);
     if (isPlainObject(primaryPayload) && typeof primaryPayload.correctedSentence === "string") {
       proposedCorrectedSentence = primaryPayload.correctedSentence;
+      categoryHints = Array.isArray(primaryPayload.issues)
+        ? primaryPayload.issues
+          .map((issue) => issue?.category)
+          .filter((category) => typeof category === "string")
+        : [];
     }
   } catch (error) {
     rethrowGrammarAiQuotaError(error);
     // The independent audit below can still review the original sentence.
   }
+
+  const teacherApprovedPatternGuides = selectApprovedGrammarGuides(
+    sentence,
+    categoryHints,
+    { limit: 2 }
+  );
 
   // A second 70B pass is deliberately a different task, seed and prompt. It
   // audits completeness and meaning instead of simply repeating generation.
@@ -1853,7 +1896,11 @@ export async function runGrammarAi(sentence, env) {
   try {
     const auditResult = await env.AI.run(
       GRAMMAR_AI_MODEL,
-      buildGrammarAiAuditRequest(sentence, proposedCorrectedSentence)
+      buildGrammarAiAuditRequest(
+        sentence,
+        proposedCorrectedSentence,
+        teacherApprovedPatternGuides
+      )
     );
     const normalizedAudit = normalizeGeneralCorrectionResult(sentence, auditResult);
     const auditPayload = parseAiResponse(normalizedAudit);

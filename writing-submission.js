@@ -1214,6 +1214,7 @@ function grammarEmptyContent() {
 
 function grammarIssueSourceLabel(issue) {
   if (issue.reviewRequired) return "需老師覆核";
+  if (issue.engine?.name === "edmund-approved-grammar-corpus") return "Edmund Sir 已審核文法庫";
   if (issue.engine?.name === "cloudflare-workers-ai") return "Edmund AI 進階檢查";
   if (issue.engine?.name === "edmund-esl-basics") return "Edmund 本機規則";
   if (issue.engine?.name === "harper.js") return "Harper 額外校對";

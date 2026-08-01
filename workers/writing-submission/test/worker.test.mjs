@@ -495,9 +495,12 @@ test("health keeps the core service independent and reports grammar AI readiness
   const completeBody = await complete.json();
   assert.equal(completeBody.ok, true);
   assert.equal(completeBody.grammarAi.configured, true);
-  assert.equal(completeBody.grammarAi.version, "2026-08-01.10");
+  assert.equal(completeBody.grammarAi.version, "2026-08-01.11");
   assert.equal(completeBody.grammarAi.model, "@cf/meta/llama-3.3-70b-instruct-fp8-fast");
   assert.equal(completeBody.grammarAi.repairModel, "@cf/meta/llama-3.1-8b-instruct-fast");
+  assert.equal(completeBody.grammarCorpus.version, "2026-08-01.1");
+  assert.equal(completeBody.grammarCorpus.approvedSentenceCount, 14);
+  assert.equal(completeBody.grammarCorpus.execution, "worker-bundled");
   assert.equal(completeBody.rateLimiters.grammarCheck, true);
 
   const noAi = environment();
@@ -551,6 +554,53 @@ test("missing grammar AI bindings do not disable existing writing service routes
   assert.equal((await response.json()).student.id, STUDENT_ID);
 });
 
+test("an exact teacher-approved corpus sentence works without AI or an extra Supabase lookup", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let rpcCount = 0;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    rpcCount += 1;
+    if (rpc.name === "writing_submission_student_profile") {
+      assert.deepEqual(rpc.body, { p_token: STUDENT_TOKEN });
+      return jsonResponse(studentProfile());
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const env = environment();
+  const ai = env.AI;
+  delete env.AI;
+  const sentence = "This policy have several advantage for both workers and customer.";
+  const response = await worker.fetch(grammarCheckRequest(sentence), env);
+  const responseText = await response.text();
+  assert.equal(response.status, 200, responseText);
+  const body = JSON.parse(responseText);
+
+  assert.equal(body.engine.name, "edmund-approved-grammar-corpus");
+  assert.equal(body.engine.version, "2026-08-01.1");
+  assert.equal(body.corpus.paragraphId, "PARA-0001");
+  assert.equal(body.corpus.sentenceId, "PARA-0001-S02");
+  assert.equal(body.issues.length, 3);
+  assert.equal(
+    applyGrammarIssues(sentence, body.issues),
+    "This policy has several advantages for both workers and customers."
+  );
+  assert.equal(ai.calls.length, 0);
+  assert.equal(rpcCount, 1, "only the existing student-authentication RPC may run");
+  assert.equal(response.headers.get("Cache-Control"), "no-store");
+
+  const alreadyCorrect = "This policy has several advantages for both workers and customers.";
+  const cleanResponse = await worker.fetch(grammarCheckRequest(alreadyCorrect), env);
+  const cleanText = await cleanResponse.text();
+  assert.equal(cleanResponse.status, 200, cleanText);
+  const cleanBody = JSON.parse(cleanText);
+  assert.equal(cleanBody.engine.name, "edmund-approved-grammar-corpus");
+  assert.deepEqual(cleanBody.issues, []);
+  assert.equal(ai.calls.length, 0);
+  assert.equal(rpcCount, 2, "each request performs authentication and no corpus storage lookup");
+});
+
 test("protected routes enforce the exact configured origin before Supabase", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -599,7 +649,10 @@ test("70B audit materializes every safe edit from correctedSentence despite malf
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     rpcCount += 1;
-    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_student_profile") {
+      assert.deepEqual(rpc.body, { p_token: STUDENT_TOKEN });
+      return jsonResponse(studentProfile());
+    }
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
 
@@ -634,7 +687,7 @@ test("70B audit materializes every safe edit from correctedSentence despite malf
   assert.equal(applyGrammarIssues(sentence, body.issues), correctedSentence);
   assert.ok(body.issues.length >= 2);
   assert.ok(body.issues.every((issue) => issue.engine.model === "@cf/meta/llama-3.3-70b-instruct-fp8-fast"));
-  assert.equal(body.engine.version, "2026-08-01.10");
+  assert.equal(body.engine.version, "2026-08-01.11");
   assert.equal(ai.calls.length, 2);
   assert.ok(ai.calls.every((call) => call.model === "@cf/meta/llama-3.3-70b-instruct-fp8-fast"));
   assert.equal(ai.calls[0].request.temperature, 0);
@@ -713,10 +766,29 @@ test("audit completes errors that the primary corrected sentence missed", async 
   assert.equal(ai.calls[1].request.seed, 95194);
   const auditContent = ai.calls[1].request.messages[1].content;
   const auditPayload = JSON.parse(auditContent.slice(auditContent.lastIndexOf("\n") + 1));
-  assert.deepEqual(auditPayload, {
+  assert.deepEqual({
+    originalSentence: auditPayload.originalSentence,
+    proposedCorrectedSentence: auditPayload.proposedCorrectedSentence
+  }, {
     originalSentence: sentence,
     proposedCorrectedSentence: primaryTarget
   });
+  assert.ok(Array.isArray(auditPayload.teacherApprovedPatternGuides));
+  assert.ok(auditPayload.teacherApprovedPatternGuides.length > 0);
+  assert.ok(auditPayload.teacherApprovedPatternGuides.length <= 3);
+  for (const guide of auditPayload.teacherApprovedPatternGuides) {
+    assert.deepEqual(Object.keys(guide).sort(), [
+      "categories",
+      "correctedSentence",
+      "explanationZhHant",
+      "sourceSentence"
+    ]);
+    assert.notEqual(guide.sourceSentence, sentence);
+    assert.ok(Array.isArray(guide.categories));
+    assert.ok(guide.categories.length > 0);
+    assert.equal(typeof guide.correctedSentence, "string");
+    assert.equal(typeof guide.explanationZhHant, "string");
+  }
 });
 
 test("audit can make bounded phrase/countability and conditional-modal repairs", async t => {

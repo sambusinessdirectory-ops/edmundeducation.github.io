@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node --check src/index.js && npm test && wrangler deploy --dry-run",
+    "corpus:check": "node ../../grammar-corpus/validate-and-generate.mjs",
+    "check": "npm run corpus:check && node --check src/index.js && npm test && wrangler deploy --dry-run",
     "test": "node --test test/*.test.mjs",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"

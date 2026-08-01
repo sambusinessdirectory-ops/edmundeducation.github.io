@@ -7,6 +7,11 @@ import {
   normalizeGrammarCheckPayload,
   runGrammarAi
 } from "./grammar-ai.js";
+import {
+  GRAMMAR_CORPUS_SIZE,
+  GRAMMAR_CORPUS_VERSION,
+  lookupApprovedExactCorrection
+} from "./grammar-corpus.js";
 
 const SERVICE_NAME = "edmund-writing-submission";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -82,6 +87,11 @@ async function route(request, env) {
           version: GRAMMAR_AI_VERSION,
           model: GRAMMAR_AI_MODEL,
           repairModel: GRAMMAR_AI_REPAIR_MODEL
+        },
+        grammarCorpus: {
+          version: GRAMMAR_CORPUS_VERSION,
+          approvedSentenceCount: GRAMMAR_CORPUS_SIZE,
+          execution: "worker-bundled"
         }
       },
       configured ? 200 : 503,
@@ -463,6 +473,19 @@ async function grammarCheck(request, env) {
   } catch (error) {
     if (error instanceof HttpError) throw error;
     throw new HttpError(400, "INVALID_GRAMMAR_CHECK", "Invalid grammar check request");
+  }
+
+  const approvedReview = lookupApprovedExactCorrection(sentence);
+  if (approvedReview) {
+    return json({
+      engine: approvedReview.engine,
+      corpus: {
+        version: approvedReview.corpusVersion,
+        paragraphId: approvedReview.paragraphId,
+        sentenceId: approvedReview.sentenceId
+      },
+      issues: approvedReview.issues
+    }, 200, request, env);
   }
 
   if (!grammarAiConfigured(env)) {

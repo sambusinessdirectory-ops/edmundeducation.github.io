@@ -44,6 +44,11 @@ const HARPER_ENGINE = Object.freeze({
   version: "2.7.0",
   execution: "browser"
 });
+const CORPUS_ENGINE = Object.freeze({
+  name: "edmund-approved-grammar-corpus",
+  version: "2026-08-01.1",
+  execution: "cloudflare-worker"
+});
 
 const cancelledFailure = adapter.classifyRemoteGrammarFailure({ name: "AbortError" });
 assert.deepEqual(cancelledFailure, {
@@ -230,6 +235,57 @@ assert.deepEqual(
   "generic service unavailability keeps the existing non-quota warning"
 );
 assert.equal(adapter.writingGrammarReviewNotice([], 0), null);
+
+const approvedSentence = "Many company requires uniforms.";
+const approvedResponse = {
+  engine: CORPUS_ENGINE,
+  issues: [{
+    ruleId: "MANY_PLURAL_NOUN",
+    title: "Teacher-authored title is normalized by category",
+    category: "singular_plural",
+    message: "many 後面的可數名詞通常要用複數，所以寫 companies。",
+    originalText: "company",
+    suggestedText: "companies",
+    start: 5,
+    end: 12,
+    confidence: 1,
+    engine: CORPUS_ENGINE
+  }]
+};
+const approvedIssues = adapter.normalizeWritingAiResponse(approvedSentence, approvedResponse);
+assert.equal(approvedIssues.length, 1);
+assert.equal(approvedIssues[0].ruleId, "MANY_PLURAL_NOUN");
+assert.equal(approvedIssues[0].engineId, "edmund-approved-grammar-corpus");
+assert.equal(adapter.writingGrammarEnginePriority(approvedIssues[0]), -1);
+assert.throws(
+  () => adapter.normalizeWritingAiResponse(approvedSentence, {
+    engine: { name: "invented-remote-engine" },
+    issues: approvedResponse.issues
+  }),
+  /unknown engine/,
+  "only the two explicit Worker grammar engines are accepted"
+);
+
+const overlappingLocalIssue = {
+  ruleId: "LocalCompanyPlural",
+  title: "本機單複數",
+  category: "singular_plural",
+  message: "本機提示。",
+  originalText: "company",
+  suggestedText: "companies",
+  start: 5,
+  end: 12,
+  engine: LOCAL_ENGINE
+};
+assert.deepEqual(
+  adapter.mergeWritingGrammarIssues(
+    approvedSentence,
+    [overlappingLocalIssue],
+    approvedResponse
+  ).map((issue) => issue.engineId),
+  ["edmund-approved-grammar-corpus"],
+  "an exact teacher-approved issue must outrank an overlapping local heuristic"
+);
 
 const cleanSentence = "The students are ready.";
 assert.deepEqual(
