@@ -106,9 +106,9 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
   assert.match(html, /writing-submission\.css\?v=20260802-grammar1/);
-  assert.match(html, /writing-submission\.js\?v=20260802-grammar3/);
+  assert.match(html, /writing-submission\.js\?v=20260802-grammar4/);
   assert.match(script, /writing-submission-harper\.js\?v=20260802-grammar3/);
-  assert.match(script, /writing-submission-ai\.js\?v=20260802-grammar3/);
+  assert.match(script, /writing-submission-ai\.js\?v=20260802-grammar4/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
   assert.match(eslRules, /writing-submission-esl-rules-core\.js\?v=20260802-grammar3/);
   assert.match(script, /暫未偵測到高信心文法問題/);
@@ -128,6 +128,9 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
 test("completed sentences use the authenticated AI endpoint without sending the whole draft", () => {
   assert.match(script, /apiJson\("\/v1\/grammar-check"/);
   assert.match(script, /JSON\.stringify\(\{ sentence: record\.segment\.text \}\)/);
+  assert.match(aiAdapter, /REMOTE_GRAMMAR_REQUEST_TIMEOUT_MS\s*=\s*300_000/);
+  assert.match(script, /}, REMOTE_GRAMMAR_REQUEST_TIMEOUT_MS\);/);
+  assert.doesNotMatch(script, /}, 12000\);/);
   assert.doesNotMatch(script, /JSON\.stringify\(\{[^}]*topic[^}]*sentence/);
   assert.match(script, /remoteGrammarInFlight < 2/);
   assert.match(script, /enqueueSegmentsForCheck\(completedSegments, \{ remote: false \}\)/);

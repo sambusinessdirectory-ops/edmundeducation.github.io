@@ -15,10 +15,11 @@ import {
   mergeWritingGrammarIssues,
   normalizeWritingAiResponse,
   REMOTE_GRAMMAR_FAILURE_KINDS,
+  REMOTE_GRAMMAR_REQUEST_TIMEOUT_MS,
   rebaseWritingGrammarIssuesAfterAppliedCorrection,
   remoteGrammarRetryDelayMs,
   writingGrammarReviewNotice
-} from "./writing-submission-ai.js?v=20260802-grammar3";
+} from "./writing-submission-ai.js?v=20260802-grammar4";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -915,7 +916,7 @@ async function performRemoteGrammarRequest(record) {
   const timeout = window.setTimeout(() => {
     timedOut = true;
     controller.abort();
-  }, 12000);
+  }, REMOTE_GRAMMAR_REQUEST_TIMEOUT_MS);
   try {
     const response = await apiJson("/v1/grammar-check", {
       method: "POST",

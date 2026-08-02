@@ -302,6 +302,8 @@ not expose Flashcard passwords or student session tokens.
 - Answer: 100,000 characters / 400 KiB UTF-8
 - Grammar-check request: 12 KiB
 - Completed grammar-check sentence: 2,000 characters / 8 KiB UTF-8
+- Browser grammar-check request deadline: 5 minutes (300,000 ms); the Worker
+  or Workers AI provider may return a classified failure sooner
 - Advanced grammar issues returned: at most 8
 - Retained submissions: 2,000 per student
 - Grammar occurrences: 50,000 per student
