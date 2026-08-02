@@ -46,7 +46,7 @@ const HARPER_ENGINE = Object.freeze({
 });
 const CORPUS_ENGINE = Object.freeze({
   name: "edmund-approved-grammar-corpus",
-  version: "2026-08-01.1",
+  version: "2026-08-02.1",
   execution: "cloudflare-worker"
 });
 
@@ -191,15 +191,15 @@ assert.deepEqual(
   ),
   {
     state: "warning",
-    title: "AI 未能完成這句的進階檢查",
-    detail: "以下本機提示仍然保留；AI 未完成的句子可能仍有其他問題。"
+    title: "未能完成這句的文法偵測",
+    detail: "以下本機提示仍然保留；未完成文法偵測的句子可能仍有其他問題。"
   }
 );
 assert.deepEqual(
   adapter.writingGrammarReviewNotice([incompleteReviewFailure.kind], 0),
   {
     state: "warning",
-    title: "AI 未能完成這句的進階檢查",
+    title: "未能完成這句的文法偵測",
     detail: "本機暫未提出建議，但這不代表句子沒有文法問題。請稍後再試。"
   },
   "an incomplete AI review with no local card must show a warning, never a clean state"
@@ -211,8 +211,8 @@ assert.deepEqual(
   ),
   {
     state: "warning",
-    title: "Workers AI 每日額度已用完",
-    detail: "Workers AI 今日的文法檢查額度已用完，會於香港時間 08:00 重設。以下本機提示仍然保留；AI 未完成的句子可能仍有其他問題。"
+    title: "文法偵測今日額度已用完",
+    detail: "文法偵測今日額度已用完，會於香港時間 08:00 重設。以下本機提示仍然保留；未完成文法偵測的句子可能仍有其他問題。"
   },
   "a quota notice must preserve and qualify any local grammar cards"
 );
@@ -220,8 +220,8 @@ assert.deepEqual(
   adapter.writingGrammarReviewNotice([quotaExhaustedFailure.kind], 0),
   {
     state: "warning",
-    title: "Workers AI 每日額度已用完",
-    detail: "Workers AI 今日的文法檢查額度已用完，會於香港時間 08:00 重設。本機暫未提出建議，但這不代表句子沒有文法問題。"
+    title: "文法偵測今日額度已用完",
+    detail: "文法偵測今日額度已用完，會於香港時間 08:00 重設。本機暫未提出建議，但這不代表句子沒有文法問題。"
   },
   "quota exhaustion with no local card must never be rendered as a clean review"
 );
@@ -229,7 +229,7 @@ assert.deepEqual(
   adapter.writingGrammarReviewNotice([genericUnavailableFailure.kind], 0),
   {
     state: "warning",
-    title: "AI 未能完成這句的進階檢查",
+    title: "未能完成這句的文法偵測",
     detail: "本機暫未提出建議，但這不代表句子沒有文法問題。請稍後再試。"
   },
   "generic service unavailability keeps the existing non-quota warning"

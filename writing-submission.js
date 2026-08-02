@@ -17,7 +17,7 @@ import {
   REMOTE_GRAMMAR_FAILURE_KINDS,
   rebaseWritingGrammarIssuesAfterAppliedCorrection,
   writingGrammarReviewNotice
-} from "./writing-submission-ai.js?v=20260801-grammar4";
+} from "./writing-submission-ai.js?v=20260802-grammar1";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -538,17 +538,17 @@ function updateHarperStatus(status, title, detail) {
 
 async function prepareGrammarChecker() {
   if (state.checkerPromise) return state.checkerPromise;
-  updateHarperStatus("loading", "正在準備進階文法檢查", "本機後備檢查首次載入約需數秒");
+  updateHarperStatus("loading", "正在準備文法偵測", "本機後備檢查首次載入約需數秒");
   state.checkerPromise = (async () => {
     const module = await import("./writing-submission-harper.js?v=20260801-grammar2");
     const checker = module.createWritingGrammarChecker();
     state.checker = checker;
     try {
       await checker.setup();
-      updateHarperStatus("ready", "文法檢查已準備", `AI 進階檢查 + 本機 ESL ${ESL_RULESET_VERSION} + Harper ${HARPER_VERSION} 後備校對`);
+      updateHarperStatus("ready", "文法偵測已準備", `文法偵測 + 本機 ESL ${ESL_RULESET_VERSION} + Harper ${HARPER_VERSION} 後備校對`);
     } catch (error) {
       console.warn("Local Harper setup failed", error);
-      updateHarperStatus("ready", "AI 文法檢查已準備", "Edmund 本機規則仍可使用；Harper 暫時不可用");
+      updateHarperStatus("ready", "文法偵測已準備", "Edmund 本機規則仍可使用；Harper 暫時不可用");
     }
     return checker;
   })();
@@ -1052,8 +1052,8 @@ function applyRemoteGrammarOutcome(record, result) {
     state.remoteGrammarBackoffFailure = null;
     updateHarperStatus(
       "ready",
-      "AI 進階文法檢查已連線",
-      "只傳送已完成的單句；題目、整篇草稿及學生身份不會交給模型"
+      "文法偵測已連線",
+      "只傳送已完成的單句；題目、整篇草稿及學生身份不會送出"
     );
     return;
   }
@@ -1077,26 +1077,26 @@ function applyRemoteGrammarOutcome(record, result) {
   if (failure.globalStatus === "error") {
     updateHarperStatus(
       "error",
-      "進階 AI 暫時未能連線",
+      "文法偵測暫時未能連線",
       "本機 ESL 規則及 Harper 後備檢查仍可使用"
     );
   } else if (failure.globalStatus === "rate_limited") {
     updateHarperStatus(
       "ready",
-      "AI 進階檢查稍後重試",
+      "文法偵測稍後重試",
       "本機提示仍可使用；請稍候再完成下一次進階檢查"
     );
   } else if (failure.globalStatus === "quota_exhausted") {
     updateHarperStatus(
       "error",
-      "Workers AI 每日額度已用完",
+      "文法偵測今日額度已用完",
       "額度會於香港時間 08:00 重設；本機 ESL 規則及 Harper 後備檢查仍可使用"
     );
   } else if (failure.kind === REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive) {
     updateHarperStatus(
       "ready",
-      "文法檢查已準備",
-      "AI 未能完成個別句子時，本機提示仍然會保留"
+      "文法偵測已準備",
+      "文法偵測未能完成個別句子時，本機提示仍然會保留"
     );
   }
 }
@@ -1198,16 +1198,16 @@ function grammarEmptyContent() {
   wrapper.append(createElement("span", "", icon));
   if (state.pendingChecks > 0) {
     wrapper.append(createElement("strong", "", "正在檢查完整句子"));
-    wrapper.append(createElement("p", "", "AI 文法助手及本機後備規則正在整理建議，請稍候。"));
+    wrapper.append(createElement("p", "", "文法偵測及本機後備規則正在整理建議，請稍候。"));
   } else if (state.checkerState === "loading") {
-    wrapper.append(createElement("strong", "", "正在準備文法檢查"));
+    wrapper.append(createElement("strong", "", "正在準備文法偵測"));
     wrapper.append(createElement("p", "", "您可以先開始寫作；完整句子會排隊檢查。"));
   } else if (state.checkerState === "error") {
-    wrapper.append(createElement("strong", "", "進階 AI 暫時未能連線"));
+    wrapper.append(createElement("strong", "", "文法偵測暫時未能連線"));
     wrapper.append(createElement("p", "", "本機後備檢查、寫作及提交功能不受影響。"));
   } else {
     wrapper.append(createElement("strong", "", "暫未偵測到高信心文法問題"));
-    wrapper.append(createElement("p", "", "這不代表句子完全正確；AI 及本機工具都可能遺漏問題。"));
+    wrapper.append(createElement("p", "", "這不代表句子完全正確；文法偵測可能遺漏問題。"));
   }
   return wrapper;
 }
@@ -1215,10 +1215,10 @@ function grammarEmptyContent() {
 function grammarIssueSourceLabel(issue) {
   if (issue.reviewRequired) return "需老師覆核";
   if (issue.engine?.name === "edmund-approved-grammar-corpus") return "Edmund Sir 已審核文法庫";
-  if (issue.engine?.name === "cloudflare-workers-ai") return "Edmund AI 進階檢查";
+  if (issue.engine?.name === "cloudflare-workers-ai") return "Edmund 文法偵測";
   if (issue.engine?.name === "edmund-esl-basics") return "Edmund 本機規則";
   if (issue.engine?.name === "harper.js") return "Harper 額外校對";
-  return "文法提示";
+  return "文法偵測";
 }
 
 function renderGrammarIssues() {
@@ -1348,7 +1348,7 @@ function applyGrammarIssue(issueId) {
   updateEditorMetrics();
   scheduleDraftSave();
   renderGrammarIssues();
-  // The AI returns one coherent correction batch. Let the student finish that
+  // The remote grammar checker returns one coherent correction batch. Let the student finish that
   // batch before checking the resulting sentence again; otherwise responses
   // for intermediate sentence versions can mix with the still-visible cards.
   if (!hasRemainingSentenceIssues) {
@@ -1423,7 +1423,7 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
     createElement("span", "", formatSubmissionDate(submission.submittedAt)),
     createElement("span", "", `${submission.wordCount} words`)
   );
-  if (submission.occurrenceCount) meta.append(createElement("span", "", `${submission.occurrenceCount} 個文法提示`));
+  if (submission.occurrenceCount) meta.append(createElement("span", "", `${submission.occurrenceCount} 個文法偵測結果`));
   header.append(meta);
   const content = createElement("div", "submission-content", submission.answer || "（文章內容為空）");
   container.replaceChildren(header, content);

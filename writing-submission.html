@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
-  <meta name="description" content="EdmundEducation 學生 Writing 交文及即時文法檢查系統">
+  <meta name="description" content="EdmundEducation 學生 Writing 交文及即時文法偵測系統">
   <meta name="theme-color" content="#272757">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260731-ai1">
+  <link rel="stylesheet" href="writing-submission.css?v=20260802-grammar1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
@@ -66,7 +66,7 @@
           <div class="hero-copy">
             <p class="student-label">(學生使用)</p>
             <h1>Edmund Sir<br><span>Writing</span><br>交文系統</h1>
-            <p>安靜地完成文章；每當一句以句號或分號完成，進階文法助手才會檢查該句，讓寫作思路不被打斷。</p>
+            <p>安靜地完成文章；每當一句以句號或分號完成，文法偵測才會檢查該句，讓寫作思路不被打斷。</p>
           </div>
         </article>
 
@@ -108,7 +108,7 @@
         </div>
         <div class="local-checker-pill" data-harper-status data-state="loading">
           <span aria-hidden="true"></span>
-          <strong>正在準備進階文法檢查</strong>
+          <strong>正在準備文法偵測</strong>
           <small>只會安全傳送已完成的單句；題目及整篇草稿不會送出</small>
         </div>
       </section>
@@ -142,7 +142,7 @@
             </div>
             <label class="writing-field writing-field-main">
               <span class="sr-only">文章內容</span>
-              <textarea data-writing-input rows="15" maxlength="100000" spellcheck="true" placeholder="請在這裡開始寫作。文法檢查只會在您輸入句號（.）或分號（;）完成一句後開始。"></textarea>
+              <textarea data-writing-input rows="15" maxlength="100000" spellcheck="true" placeholder="請在這裡開始寫作。文法偵測只會在您輸入句號（.）或分號（;）完成一句後開始。"></textarea>
             </label>
             <div class="editor-note">
               <span aria-hidden="true">✦</span>
@@ -155,8 +155,8 @@
           <aside class="grammar-panel glass-panel" aria-labelledby="grammar-panel-title">
             <div class="grammar-panel-heading">
               <div>
-                <p class="eyebrow">AI GRAMMAR REVIEW</p>
-                <h2 id="grammar-panel-title">AI 文法提示（測試版）</h2>
+                <p class="eyebrow">GRAMMAR DETECTION</p>
+                <h2 id="grammar-panel-title">文法偵測</h2>
               </div>
               <span class="issue-count" data-issue-count>0</span>
             </div>
@@ -165,7 +165,7 @@
               <div class="grammar-empty">
                 <span aria-hidden="true">i</span>
                 <strong>等待完整句子</strong>
-                <p>完成一句後，文法提示會自動出現。</p>
+                <p>完成一句後，文法偵測結果會自動出現。</p>
               </div>
             </div>
           </aside>
@@ -241,6 +241,6 @@
   <script src="supabase-config.js"></script>
   <script src="writing-submission-config.js"></script>
   <script src="shared-system-nav.js?v=20260728-2"></script>
-  <script type="module" src="writing-submission.js?v=20260801-grammar4"></script>
+  <script type="module" src="writing-submission.js?v=20260802-grammar1"></script>
 </body>
 </html>

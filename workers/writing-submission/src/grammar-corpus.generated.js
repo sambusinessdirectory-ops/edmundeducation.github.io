@@ -1,7 +1,7 @@
 // GENERATED FILE. Edit grammar-corpus/corpus-v1.json and run
 // node grammar-corpus/validate-and-generate.mjs instead.
 
-export const CORPUS_VERSION = "2026-08-01.1";
+export const CORPUS_VERSION = "2026-08-02.1";
 
 export const CORPUS_SENTENCES = Object.freeze([
   {

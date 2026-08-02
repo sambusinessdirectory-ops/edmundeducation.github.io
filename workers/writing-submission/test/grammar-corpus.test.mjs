@@ -1,5 +1,8 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
 import test from "node:test";
+import { fileURLToPath } from "node:url";
 
 import {
   GRAMMAR_CORPUS_SIZE,
@@ -7,6 +10,12 @@ import {
   createGrammarCorpusRuntime,
   lookupApprovedExactCorrection
 } from "../src/grammar-corpus.js";
+
+const TEST_DIRECTORY = path.dirname(fileURLToPath(import.meta.url));
+const SOURCE_CORPUS = JSON.parse(fs.readFileSync(
+  path.resolve(TEST_DIRECTORY, "../../../grammar-corpus/corpus-v1.json"),
+  "utf8"
+));
 
 const FIXTURES = Object.freeze([
   Object.freeze({
@@ -83,8 +92,8 @@ function runtime(sentences = FIXTURES) {
 }
 
 test("generated approved corpus is loaded and materialized at module initialization", () => {
-  assert.match(GRAMMAR_CORPUS_VERSION, /^\d{4}-\d{2}-\d{2}\.\d+$/u);
-  assert.ok(GRAMMAR_CORPUS_SIZE >= 14);
+  assert.equal(GRAMMAR_CORPUS_VERSION, "2026-08-02.1");
+  assert.equal(GRAMMAR_CORPUS_SIZE, 14);
 
   const result = lookupApprovedExactCorrection(
     "In recent years, many company requires their staffs to wears uniforms at work."
@@ -95,6 +104,34 @@ test("generated approved corpus is loaded and materialized at module initializat
   assert.equal(result.issues.length, 4);
   assert.equal(result.issues[0].category, "singular_plural");
   assert.equal(result.issues[0].message, "many 後面的可數名詞通常要用複數，所以寫 companies。");
+});
+
+test("datasets 3–18 are complete development records and stay outside runtime retrieval", () => {
+  assert.equal(SOURCE_CORPUS.groups.length, 18);
+  assert.equal(SOURCE_CORPUS.paragraphs.length, 18);
+  assert.equal(SOURCE_CORPUS.sentences.length, 322);
+  assert.equal(SOURCE_CORPUS.issues.length, 724);
+  assert.equal(SOURCE_CORPUS.rules.length, 640);
+  assert.equal(SOURCE_CORPUS.exceptions.length, 13);
+
+  const importedParagraphs = SOURCE_CORPUS.paragraphs.filter(({ paragraphId }) => (
+    Number(paragraphId.slice(5)) >= 3
+  ));
+  assert.equal(importedParagraphs.length, 16);
+  assert.ok(importedParagraphs.every((paragraph) => (
+    paragraph.retrievalEligible === false && paragraph.evaluationHoldout === false
+  )));
+  assert.ok(SOURCE_CORPUS.groups.slice(2).every(({ partition }) => partition === "development"));
+  assert.ok(SOURCE_CORPUS.sentences.slice(14).every(({ reviewPolicy }) => reviewPolicy === "guidance"));
+
+  const dataset17 = SOURCE_CORPUS.paragraphs.find(({ paragraphId }) => paragraphId === "PARA-0017");
+  assert.equal(dataset17.issueCount, 99, "store the 99 physical PDF rows, not its incorrect declared total");
+
+  const denseSentenceIssues = SOURCE_CORPUS.issues.filter(({ sentenceId }) => (
+    sentenceId === "PARA-0012-S08"
+  ));
+  assert.equal(denseSentenceIssues.length, 16, "development guidance preserves every mapped issue");
+  assert.equal(GRAMMAR_CORPUS_SIZE, 14, "development guidance must not enter the Worker snapshot");
 });
 
 test("exact approved lookup is authoritative and exposes safe Worker-derived ranges", () => {
