@@ -28,6 +28,8 @@ pairs; no sentence was fabricated. Dataset 20's table contains 116 source rows
 despite declaring 115. Its source rows normalize to 127 legacy-compatible spans,
 and Dataset 21's 83 source rows normalize to 86 spans. The two unlabelled,
 grammatical target variations are intentionally excluded.
+Dataset 22 is stored only in the stricter executable-rule layer described below;
+it does not change this legacy corpus release or its generated outputs.
 
 All non-holdout records enter two bounded runtime layers: a 381-sentence
 structural-guidance pool for the Worker and 937 context-anchored browser
@@ -58,9 +60,9 @@ then run the generator.
 
 ## Executable rule-family layer
 
-Sets 19–21 also use the stricter authoring and compiler layer documented in
-`../tools/grammar-detector-v2/README.md`. It stores all 303 supplied source
-issues as 219 deduplicated families, then publishes only 53 patterns across 44
+Sets 19–22 also use the stricter authoring and compiler layer documented in
+`../tools/grammar-detector-v2/README.md`. It stores all 314 supplied source
+issues as 224 deduplicated families, then publishes only 65 patterns across 49
 runtime families that pass the evidence, capability, approval, confidence,
 holdout, conflict and 124-sentence adversarial-control gates.
 The generated browser module is

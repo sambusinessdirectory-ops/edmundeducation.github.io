@@ -4,7 +4,7 @@ import {
   EXECUTABLE_GRAMMAR_FAMILIES,
   EXECUTABLE_GRAMMAR_PATTERNS,
   EXECUTABLE_GRAMMAR_VERSION
-} from "./writing-submission-executable-grammar.generated.js?v=20260802-grammar3";
+} from "./writing-submission-executable-grammar.generated.js?v=20260802-grammar5";
 
 export {
   EXECUTABLE_GRAMMAR_COUNTS,

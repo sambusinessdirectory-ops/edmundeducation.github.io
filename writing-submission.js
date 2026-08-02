@@ -550,7 +550,7 @@ async function prepareGrammarChecker() {
   if (state.checkerPromise) return state.checkerPromise;
   updateHarperStatus("loading", "正在準備文法偵測", "本機後備檢查首次載入約需數秒");
   state.checkerPromise = (async () => {
-    const module = await import("./writing-submission-harper.js?v=20260802-grammar3");
+    const module = await import("./writing-submission-harper.js?v=20260802-grammar5");
     const checker = module.createWritingGrammarChecker();
     state.checker = checker;
     try {

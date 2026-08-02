@@ -1,18 +1,20 @@
-# Executable Grammar Detector — Sets 19–21
+# Executable Grammar Detector — Sets 19–22
 
-This directory is the version-controlled authoring layer that turns the three
+This directory is the version-controlled authoring layer that turns the four
 source datasets into bounded, testable detector records. The browser loads only
 the generated module at `../../writing-submission-executable-grammar.generated.js`;
 it never parses these large authoring files at runtime.
 
 ## Release contents
 
-- 303 physically supplied source issues: Set 19 = 104, Set 20 = 116, Set 21 = 83;
-- 219 deduplicated rule families;
-- 90 correct controls and 914 development, regression, or sealed-holdout cases;
+- 314 physically supplied source issues: Set 19 = 104, Set 20 = 116, Set 21 = 83,
+  Set 22 = 11;
+- 224 deduplicated rule families;
+- 99 correct controls and 944 development, regression, or sealed-holdout cases;
 - 124 exact adversarial controls for grammatical unseen sentences; and
-- 53 approved bounded surface patterns across 44 browser-runtime families:
-  Set 19 = 9 review-only patterns, Set 20 = 24 patterns, Set 21 = 20 patterns.
+- 65 approved bounded surface patterns across 49 browser-runtime families:
+  Set 19 = 9 review-only patterns, Set 20 = 24 patterns, Set 21 = 20 patterns,
+  Set 22 = 10 automatic patterns and 2 review-only patterns.
 
 Set 19's supplied attachment starts at its issue table and omits both passages
 and all 34 sentence pairs. Its complete issue metadata is stored. Of 33
@@ -20,6 +22,12 @@ phrase-triage candidates, 9 remain active as review-only findings after
 adversarial testing.
 No Set 19 sentence was invented. Set 20 declares 115 issues but contains 116
 distinct rows; all 116 are retained.
+Set 22 preserves its parser-oriented rule designs as inactive authoring metadata
+and adds a separate, browser-safe surface matcher for each supplied issue. The
+`TV show` item remains review-only because both `TV shows` and `a TV show` can be
+valid repairs. Its two bounded variants cover both the workbook sentence and
+the reported `loves to watch TV show` incident. The unambiguous `at the night`
+item can safely offer `at night` within its bounded source context.
 
 ## Build and test
 
@@ -45,9 +53,9 @@ Parser-dependent, semantic, discourse, and style families remain available in
 the authoring data but are not silently downgraded into unreliable browser
 rules. Holdout cases are never compiled. The production test also proves that
 all correct controls and corrected source sentences remain clean, that literal
-regex characters and whitespace are handled safely, and that the Set 20 and
-Set 21 constructions run in altered surrounding prose rather than only their
-original dataset sentences.
+regex characters and whitespace are handled safely, and that the Set 20, Set
+21, and Set 22 constructions run in altered surrounding prose rather than only
+their original dataset sentences.
 
-Do not edit the generated module. Edit the three files in `data/`, rerun the
+Do not edit the generated module. Edit the four files in `data/`, rerun the
 compiler, inspect the diff, and run both commands above.

@@ -9,7 +9,13 @@ const DATA_DIRECTORY = path.join(DIRECTORY, "data");
 const ADVERSARIAL_CONTROLS_PATH = path.join(DIRECTORY, "adversarial-controls.json");
 const OUTPUT_PATH = path.join(ROOT, "writing-submission-executable-grammar.generated.js");
 
-export const EXPECTED_SET_IDS = Object.freeze(["SET-0019", "SET-0020", "SET-0021"]);
+export const EXPECTED_SET_IDS = Object.freeze([
+  "SET-0019",
+  "SET-0020",
+  "SET-0021",
+  "SET-0022"
+]);
+export const EXECUTABLE_GRAMMAR_VERSION = "2026-08-02.19-22.1";
 export const RUNTIME_APPROVAL_STATUS = "approved_for_bounded_surface_runtime";
 export const KNOWN_CAPABILITIES = Object.freeze([
   "case_preservation",
@@ -222,7 +228,7 @@ export function readPackages({ dataDirectory = DATA_DIRECTORY } = {}) {
     .sort();
   const packages = files.map((name) => JSON.parse(fs.readFileSync(path.join(dataDirectory, name), "utf8")));
   const actualIds = packages.map((item) => item?.set?.setId).sort();
-  assert.deepEqual(actualIds, [...EXPECTED_SET_IDS], "Executable grammar set files do not match 19–21");
+  assert.deepEqual(actualIds, [...EXPECTED_SET_IDS], "Executable grammar set files do not match 19–22");
   return packages;
 }
 
@@ -230,6 +236,9 @@ export function validateSet(data) {
   requireObject(data, "set package");
   if (data.schemaName !== "edmund_executable_grammar_authoring") fail("unknown schemaName");
   requireEnum(data.schemaVersion, SCHEMA_VERSIONS, `${data.set?.setId}.schemaVersion`);
+  if (data.corpusVersion !== EXECUTABLE_GRAMMAR_VERSION) {
+    fail(`${data.set?.setId || "set package"} must use corpusVersion ${EXECUTABLE_GRAMMAR_VERSION}`);
+  }
   requireObject(data.set, "set");
   const setId = requireString(data.set.setId, "set.setId", 40);
   if (!EXPECTED_SET_IDS.includes(setId) || !/^SET-[0-9]{4}$/u.test(setId)) fail(`unexpected set ${setId}`);
@@ -490,6 +499,7 @@ export function validateSet(data) {
   }
   if (setId === "SET-0020" && issues.length !== 116) fail("SET-0020 must preserve all 116 physical rows");
   if (setId === "SET-0021" && bindings.length !== 85) fail("SET-0021 must preserve 85 atomic bindings");
+  if (setId === "SET-0022" && issues.length !== 11) fail("SET-0022 must preserve all 11 physical issue rows");
   return {
     setId,
     issues,
@@ -604,7 +614,7 @@ export function compile(packages) {
     cases: validated.reduce((total, entry) => total + entry.cases.length, 0),
     unsupportedFamilies: families.filter((family) => !family.browserRuntimeSupported).length
   };
-  const version = "2026-08-02.19-21.1";
+  const version = EXECUTABLE_GRAMMAR_VERSION;
   return { version, counts, families, patterns };
 }
 

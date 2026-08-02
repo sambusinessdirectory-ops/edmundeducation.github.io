@@ -1,16 +1,16 @@
 // GENERATED FILE. Edit tools/grammar-detector-v2/data and run
 // node tools/grammar-detector-v2/validate-and-compile.mjs instead.
 
-export const EXECUTABLE_GRAMMAR_VERSION = "2026-08-02.19-21.1";
+export const EXECUTABLE_GRAMMAR_VERSION = "2026-08-02.19-22.1";
 
 export const EXECUTABLE_GRAMMAR_COUNTS = Object.freeze({
-  "sets": 3,
-  "sourceIssues": 303,
-  "families": 219,
-  "runtimeFamilies": 44,
-  "patterns": 53,
-  "controls": 90,
-  "cases": 914,
+  "sets": 4,
+  "sourceIssues": 314,
+  "families": 224,
+  "runtimeFamilies": 49,
+  "patterns": 65,
+  "controls": 99,
+  "cases": 944,
   "unsupportedFamilies": 175
 });
 
@@ -457,6 +457,42 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     ]
   },
   {
+    "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+    "name": "Zero article in the fixed temporal expression at night",
+    "nameZhHant": "固定時間片語 at night 不用定冠詞",
+    "classification": "lexical_frame",
+    "executionPolicy": "local_auto",
+    "grammarCategory": "article_or_determiner",
+    "explanationZhHant": "表示一般「在夜間」時使用固定片語 at night；只有 night 屬於帶修飾語的名詞片語或具指涉、標題等讀法時才保留 the。",
+    "version": 1,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "sourceSetIds": [
+      "SET-0022"
+    ],
+    "sourceIssueIds": [
+      "PARA-0022-S02-I02"
+    ],
+    "requiredCapabilities": [
+      "case_preservation",
+      "dependency_parse",
+      "lexeme_frames",
+      "lexical_context",
+      "morphology",
+      "semantic_roles",
+      "sentence_boundaries",
+      "surface_literal",
+      "tokenize",
+      "unicode_word_boundaries"
+    ],
+    "browserRuntimeSupported": true,
+    "parserCapabilitiesMissing": [
+      "dependency_parse",
+      "lexeme_frames",
+      "morphology",
+      "semantic_roles"
+    ]
+  },
+  {
     "familyId": "GF_AT_NO_STAGE_DETERMINER",
     "name": "No, not none, directly determines singular stage",
     "nameZhHant": "",
@@ -611,6 +647,42 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     "browserRuntimeSupported": false,
     "parserCapabilitiesMissing": [
       "lexeme_frames"
+    ]
+  },
+  {
+    "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+    "name": "Determination or plural marking for a bare singular count-noun argument",
+    "nameZhHant": "裸用單數可數名詞須加限定語或改為複數",
+    "classification": "structural",
+    "executionPolicy": "local_review",
+    "grammarCategory": "countability",
+    "explanationZhHant": "單數可數名詞作論元時，通常需要冠詞、所有格、數詞或其他限定語；若語意是一般或重複多個事物，可改用複數。當兩種讀法都成立時，只提示覆核並保留候選答案。",
+    "version": 1,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "sourceSetIds": [
+      "SET-0022"
+    ],
+    "sourceIssueIds": [
+      "PARA-0022-S02-I01"
+    ],
+    "requiredCapabilities": [
+      "case_preservation",
+      "dependency_parse",
+      "lexeme_frames",
+      "lexical_context",
+      "morphology",
+      "semantic_roles",
+      "sentence_boundaries",
+      "surface_literal",
+      "tokenize",
+      "unicode_word_boundaries"
+    ],
+    "browserRuntimeSupported": true,
+    "parserCapabilitiesMissing": [
+      "dependency_parse",
+      "lexeme_frames",
+      "morphology",
+      "semantic_roles"
     ]
   },
   {
@@ -1032,6 +1104,42 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     ],
     "browserRuntimeSupported": false,
     "parserCapabilitiesMissing": [
+      "semantic_roles"
+    ]
+  },
+  {
+    "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+    "name": "At introduces a precise clock time",
+    "nameZhHant": "精確鐘點前使用 at",
+    "classification": "lexical_frame",
+    "executionPolicy": "local_auto",
+    "grammarCategory": "preposition",
+    "explanationZhHant": "精確鐘點通常由 at 引入，例如 at eleven o'clock；若介詞屬於其他詞彙配價、標題或時限結構，則不可直接套用。",
+    "version": 1,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "sourceSetIds": [
+      "SET-0022"
+    ],
+    "sourceIssueIds": [
+      "PARA-0022-S09-I02"
+    ],
+    "requiredCapabilities": [
+      "case_preservation",
+      "dependency_parse",
+      "lexeme_frames",
+      "lexical_context",
+      "morphology",
+      "semantic_roles",
+      "sentence_boundaries",
+      "surface_literal",
+      "tokenize",
+      "unicode_word_boundaries"
+    ],
+    "browserRuntimeSupported": true,
+    "parserCapabilitiesMissing": [
+      "dependency_parse",
+      "lexeme_frames",
+      "morphology",
       "semantic_roles"
     ]
   },
@@ -1718,6 +1826,38 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     ],
     "browserRuntimeSupported": false,
     "parserCapabilitiesMissing": [
+      "morphology"
+    ]
+  },
+  {
+    "familyId": "GF_DO_SUPPORT_BASE_VERB",
+    "name": "Base-form lexical verb after finite do-support",
+    "nameZhHant": "do 助動詞後使用動詞原形",
+    "classification": "structural",
+    "executionPolicy": "local_auto",
+    "grammarCategory": "verb_form_or_tense",
+    "explanationZhHant": "do、does 或 did 已承擔時態及人稱屈折，後面的實義動詞必須使用原形。",
+    "version": 1,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "sourceSetIds": [
+      "SET-0022"
+    ],
+    "sourceIssueIds": [
+      "PARA-0022-S07-I01"
+    ],
+    "requiredCapabilities": [
+      "case_preservation",
+      "dependency_parse",
+      "lexical_context",
+      "morphology",
+      "sentence_boundaries",
+      "surface_literal",
+      "tokenize",
+      "unicode_word_boundaries"
+    ],
+    "browserRuntimeSupported": true,
+    "parserCapabilitiesMissing": [
+      "dependency_parse",
       "morphology"
     ]
   },
@@ -3647,6 +3787,40 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     ]
   },
   {
+    "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+    "name": "Plural count noun after a numeral greater than one",
+    "nameZhHant": "大於一的數詞後使用可數名詞複數",
+    "classification": "structural",
+    "executionPolicy": "local_auto",
+    "grammarCategory": "singular_plural",
+    "explanationZhHant": "當數詞表示大於一的完整個體，後面的可數名詞通常使用複數；複合修飾語、零複數及單位符號須另作保護。",
+    "version": 1,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "sourceSetIds": [
+      "SET-0022"
+    ],
+    "sourceIssueIds": [
+      "PARA-0022-S09-I01"
+    ],
+    "requiredCapabilities": [
+      "case_preservation",
+      "dependency_parse",
+      "lexeme_frames",
+      "lexical_context",
+      "morphology",
+      "sentence_boundaries",
+      "surface_literal",
+      "tokenize",
+      "unicode_word_boundaries"
+    ],
+    "browserRuntimeSupported": true,
+    "parserCapabilitiesMissing": [
+      "dependency_parse",
+      "lexeme_frames",
+      "morphology"
+    ]
+  },
+  {
     "familyId": "GF_NUMERAL_MORE_COUNT_NOUN_THAN",
     "name": "Numeral plus more plus count noun plus than comparison",
     "nameZhHant": "",
@@ -5385,7 +5559,8 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
     "sourceSetIds": [
       "SET-0019",
       "SET-0020",
-      "SET-0021"
+      "SET-0021",
+      "SET-0022"
     ],
     "sourceIssueIds": [
       "PARA-0019-S02-I01",
@@ -5397,7 +5572,13 @@ export const EXECUTABLE_GRAMMAR_FAMILIES = Object.freeze([
       "PARA-0020-S26-I06",
       "PARA-0020-S28-I03",
       "PARA-0021-S18-I03",
-      "PARA-0021-S29-I03"
+      "PARA-0021-S29-I03",
+      "PARA-0022-S01-I01",
+      "PARA-0022-S03-I01",
+      "PARA-0022-S03-I02",
+      "PARA-0022-S04-I01",
+      "PARA-0022-S06-I01",
+      "PARA-0022-S08-I01"
     ],
     "requiredCapabilities": [
       "case_preservation",
@@ -8035,6 +8216,482 @@ export const EXECUTABLE_GRAMMAR_PATTERNS = Object.freeze([
     "priority": 1531,
     "conflictGroup": "GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL",
     "explanationZhHant": "although 後面接完整分句。despite 後面接名詞或動名詞，例如 despite the procedure being linear。"
+  },
+  {
+    "patternId": "SET-0022-S01-I01-P001",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceIssueId": "PARA-0022-S01-I01",
+    "evidenceCaseId": "SET-0022-S01-I01-P001-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S01",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_auto",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "who enjoy",
+    "replacementText": "who enjoys",
+    "acceptableAlternatives": [],
+    "leftContext": [
+      "primary",
+      "school",
+      "student"
+    ],
+    "rightContext": [
+      "watching",
+      "television"
+    ],
+    "startsSentence": false,
+    "endsSentence": false,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.995,
+    "priority": 1600,
+    "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "explanationZhHant": "關係代名詞 who 指向單數的 student，因此現在式動詞要用第三人稱單數 enjoys。"
+  },
+  {
+    "patternId": "SET-0022-S02-I01-P002",
+    "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+    "matcherId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT_SM01",
+    "sourceIssueId": "PARA-0022-S02-I01",
+    "evidenceCaseId": "SET-0022-S02-I01-P002-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S02",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_review",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "watches TV show",
+    "replacementText": "watches TV shows",
+    "acceptableAlternatives": [
+      "watches a TV show"
+    ],
+    "leftContext": [
+      "and",
+      "then"
+    ],
+    "rightContext": [
+      "at",
+      "the",
+      "night"
+    ],
+    "startsSentence": false,
+    "endsSentence": false,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.98,
+    "priority": 1599,
+    "conflictGroup": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+    "explanationZhHant": "show 是可數名詞單數，作動詞受詞時不能在沒有冠詞、所有格、數詞或其他限定語的情況下單獨使用。此句的 usually 表示習慣，所以教師版本採用 TV shows；若意思是每晚看一個未指明的節目，a TV show 亦正確。"
+  },
+  {
+    "patternId": "SET-0022-S02-I01-P012",
+    "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+    "matcherId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT_SM01",
+    "sourceIssueId": "PARA-0022-S02-I01",
+    "evidenceCaseId": "SET-0022-S02-I01-P012-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S02",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_review",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "watch TV show",
+    "replacementText": "watch TV shows",
+    "acceptableAlternatives": [
+      "watch a TV show"
+    ],
+    "leftContext": [
+      "to"
+    ],
+    "rightContext": [
+      "at",
+      "the",
+      "night"
+    ],
+    "startsSentence": false,
+    "endsSentence": false,
+    "evidenceSetId": "SET-0022",
+    "partition": "regression",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.98,
+    "priority": 1589,
+    "conflictGroup": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+    "explanationZhHant": "show 是可數名詞單數，作動詞受詞時不能在沒有冠詞、所有格、數詞或其他限定語的情況下單獨使用。此句的 usually 表示習慣，所以教師版本採用 TV shows；若意思是每晚看一個未指明的節目，a TV show 亦正確。"
+  },
+  {
+    "patternId": "SET-0022-S02-I02-P003",
+    "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+    "matcherId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION_SM01",
+    "sourceIssueId": "PARA-0022-S02-I02",
+    "evidenceCaseId": "SET-0022-S02-I02-P003-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S02",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_auto",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "at the night",
+    "replacementText": "at night",
+    "acceptableAlternatives": [],
+    "leftContext": [
+      "tv",
+      "show"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.995,
+    "priority": 1598,
+    "conflictGroup": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+    "explanationZhHant": "表示「在夜間」的固定時間副詞片語是 at night，不用定冠詞。只有當 night 屬於較大的名詞片語時才可保留 the，例如 stared at the night sky。"
+  },
+  {
+    "patternId": "SET-0022-S03-I01-P004",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceIssueId": "PARA-0022-S03-I01",
+    "evidenceCaseId": "SET-0022-S03-I01-P004-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S03",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_auto",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "programmes is",
+    "replacementText": "programmes are",
+    "acceptableAlternatives": [],
+    "leftContext": [
+      "her",
+      "favourite"
+    ],
+    "rightContext": [
+      "cartoons",
+      "because"
+    ],
+    "startsSentence": false,
+    "endsSentence": false,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.995,
+    "priority": 1597,
+    "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "explanationZhHant": "主語 programmes 是複數，因此連綴動詞 be 要用 are。"
+  },
+  {
+    "patternId": "SET-0022-S03-I02-P005",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceIssueId": "PARA-0022-S03-I02",
+    "evidenceCaseId": "SET-0022-S03-I02-P005-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S03",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_auto",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "they makes",
+    "replacementText": "they make",
+    "acceptableAlternatives": [],
+    "leftContext": [
+      "cartoons",
+      "because"
+    ],
+    "rightContext": [
+      "her",
+      "laugh"
+    ],
+    "startsSentence": false,
+    "endsSentence": false,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.995,
+    "priority": 1596,
+    "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "explanationZhHant": "主語 they 是複數，所以一般現在式動詞使用原形 make，不加 -s。"
+  },
+  {
+    "patternId": "SET-0022-S04-I01-P006",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceIssueId": "PARA-0022-S04-I01",
+    "evidenceCaseId": "SET-0022-S04-I01-P006-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S04",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_auto",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "Sometimes her younger brother sit",
+    "replacementText": "Sometimes her younger brother sits",
+    "acceptableAlternatives": [],
+    "leftContext": [],
+    "rightContext": [
+      "beside",
+      "her"
+    ],
+    "startsSentence": true,
+    "endsSentence": false,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.995,
+    "priority": 1595,
+    "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "explanationZhHant": "主語 her younger brother 是第三人稱單數，因此一般現在式動詞要用 sits。"
+  },
+  {
+    "patternId": "SET-0022-S06-I01-P007",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceIssueId": "PARA-0022-S06-I01",
+    "evidenceCaseId": "SET-0022-S06-I01-P007-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S06",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_auto",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "they was",
+    "replacementText": "they were",
+    "acceptableAlternatives": [],
+    "leftContext": [
+      "yesterday"
+    ],
+    "rightContext": [
+      "watching",
+      "a",
+      "new",
+      "comedy"
+    ],
+    "startsSentence": false,
+    "endsSentence": false,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.995,
+    "priority": 1594,
+    "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "explanationZhHant": "複數代名詞 they 在過去進行式中要配合 were，不用 was。"
+  },
+  {
+    "patternId": "SET-0022-S07-I01-P008",
+    "familyId": "GF_DO_SUPPORT_BASE_VERB",
+    "matcherId": "GF_DO_SUPPORT_BASE_VERB_SM01",
+    "sourceIssueId": "PARA-0022-S07-I01",
+    "evidenceCaseId": "SET-0022-S07-I01-P008-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S07",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_auto",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "did not saw",
+    "replacementText": "did not see",
+    "acceptableAlternatives": [],
+    "leftContext": [
+      "because",
+      "she"
+    ],
+    "rightContext": [
+      "the",
+      "ending"
+    ],
+    "startsSentence": false,
+    "endsSentence": false,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.995,
+    "priority": 1593,
+    "conflictGroup": "GF_DO_SUPPORT_BASE_VERB",
+    "explanationZhHant": "過去式已由助動詞 did 表示，後面的實義動詞必須回復原形 see，不能再用過去式 saw。"
+  },
+  {
+    "patternId": "SET-0022-S08-I01-P009",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceIssueId": "PARA-0022-S08-I01",
+    "evidenceCaseId": "SET-0022-S08-I01-P009-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S08",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_auto",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "the children was not interested",
+    "replacementText": "the children were not interested",
+    "acceptableAlternatives": [],
+    "leftContext": [
+      "but"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.995,
+    "priority": 1592,
+    "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "explanationZhHant": "children 是 child 的複數形式，因此過去式 be 要用 were。"
+  },
+  {
+    "patternId": "SET-0022-S09-I01-P010",
+    "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+    "matcherId": "GF_NUMERAL_COUNT_NOUN_PLURAL_SM01",
+    "sourceIssueId": "PARA-0022-S09-I01",
+    "evidenceCaseId": "SET-0022-S09-I01-P010-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S09",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_auto",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "watched two episode",
+    "replacementText": "watched two episodes",
+    "acceptableAlternatives": [],
+    "leftContext": [
+      "mary"
+    ],
+    "rightContext": [
+      "and",
+      "went",
+      "to",
+      "bed"
+    ],
+    "startsSentence": false,
+    "endsSentence": false,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.995,
+    "priority": 1591,
+    "conflictGroup": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+    "explanationZhHant": "可數名詞在大於一的數詞後通常要用複數，因此是 two episodes。"
+  },
+  {
+    "patternId": "SET-0022-S09-I02-P011",
+    "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+    "matcherId": "GF_CLOCK_TIME_PREPOSITION_AT_SM01",
+    "sourceIssueId": "PARA-0022-S09-I02",
+    "evidenceCaseId": "SET-0022-S09-I02-P011-EVIDENCE",
+    "evidenceKind": "full_sentence",
+    "sentenceId": "PARA-0022-S09",
+    "matcherType": "surface_literal",
+    "executionPolicy": "local_auto",
+    "runtimeEligible": true,
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+    "matchText": "in eleven o'clock",
+    "replacementText": "at eleven o'clock",
+    "acceptableAlternatives": [],
+    "leftContext": [
+      "went",
+      "to",
+      "bed"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true,
+    "evidenceSetId": "SET-0022",
+    "partition": "development",
+    "requiredCapabilities": [
+      "tokenize",
+      "surface_literal",
+      "unicode_word_boundaries",
+      "sentence_boundaries",
+      "lexical_context",
+      "case_preservation"
+    ],
+    "confidence": 0.995,
+    "priority": 1590,
+    "conflictGroup": "GF_CLOCK_TIME_PREPOSITION_AT",
+    "explanationZhHant": "指出精確鐘點時使用介詞 at，例如 at eleven o'clock；in 通常用於月份、年份、較長時段或表示多久之後。"
   }
 ].map((pattern) => Object.freeze({
   ...pattern,

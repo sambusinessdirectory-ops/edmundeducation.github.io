@@ -61,6 +61,7 @@ function fixturePackage({
   return {
     schemaName: "edmund_executable_grammar_authoring",
     schemaVersion: "2.0.0-draft",
+    corpusVersion: compiler.EXECUTABLE_GRAMMAR_VERSION,
     set: {
       setId: "SET-0019",
       paragraphId: "PARA-0019",
@@ -206,6 +207,7 @@ function fixtureRuntime(options) {
 
 // Approval, capability, confidence, context, policy and relational gates fail closed.
 for (const mutate of [
+  (value) => { value.corpusVersion = "outdated-release"; },
   (value) => { value.ruleFamilies[0].runtimeApprovalStatus = "pending"; },
   (value) => { value.matchers[0].requiredCapabilities.push("dependency_parse"); },
   (value) => { value.runtimeSurfacePatterns[0].requiredCapabilities.push("dependency_parse"); },
@@ -280,13 +282,26 @@ const packages = packageFiles.map((name) => JSON.parse(fs.readFileSync(path.join
 const packageIds = packages.map((item) => item?.set?.setId);
 
 // The source packages are written concurrently. Run full release assertions as soon as all are present.
-if (JSON.stringify(packageIds) === JSON.stringify(["SET-0019", "SET-0020", "SET-0021"])) {
+if (JSON.stringify(packageIds) === JSON.stringify([
+  "SET-0019",
+  "SET-0020",
+  "SET-0021",
+  "SET-0022"
+])) {
   const compiledProduction = compiler.compile(packages);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_VERSION, compiler.EXECUTABLE_GRAMMAR_VERSION);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_VERSION, compiledProduction.version);
   assert.deepEqual(runtime.EXECUTABLE_GRAMMAR_COUNTS, compiledProduction.counts);
   assert.deepEqual(runtime.EXECUTABLE_GRAMMAR_FAMILIES, compiledProduction.families);
   assert.deepEqual(runtime.EXECUTABLE_GRAMMAR_PATTERNS, compiledProduction.patterns);
-  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.sets, 3);
-  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.sourceIssues, 303);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.sets, 4);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.sourceIssues, 314);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.families, 224);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.runtimeFamilies, 49);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.patterns, 65);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.controls, 99);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.cases, 944);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.unsupportedFamilies, 175);
   assert.equal(runtime.EXECUTABLE_GRAMMAR_PATTERNS.length, runtime.EXECUTABLE_GRAMMAR_COUNTS.patterns);
   assert.equal(runtime.EXECUTABLE_GRAMMAR_FAMILIES.length, runtime.EXECUTABLE_GRAMMAR_COUNTS.families);
   assert.ok(runtime.EXECUTABLE_GRAMMAR_COUNTS.runtimeFamilies > 0);
@@ -384,7 +399,7 @@ if (JSON.stringify(packageIds) === JSON.stringify(["SET-0019", "SET-0020", "SET-
     }
   }
 
-  for (const setId of ["SET-0020", "SET-0021"]) {
+  for (const setId of ["SET-0020", "SET-0021", "SET-0022"]) {
     const pattern = runtime.EXECUTABLE_GRAMMAR_PATTERNS.find((item) => item.evidenceSetId === setId);
     assert.ok(pattern, `${setId} has no active bounded surface pattern`);
     const alteredProse = [
@@ -404,6 +419,44 @@ if (JSON.stringify(packageIds) === JSON.stringify(["SET-0019", "SET-0020", "SET-
     );
   }
 
+  const set22Sample = runtime.checkExecutableGrammar(
+    "Mary loves to watch TV show at the night.",
+    { maximumIssues: 32 }
+  );
+  assert.equal(set22Sample.length, 2);
+  const set22NounIssue = set22Sample.find((issue) => (
+    issue.ruleId === "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT"
+  ));
+  assert.ok(set22NounIssue, "SET-0022 omitted the alternative-aware TV-show finding");
+  assert.equal(set22NounIssue.originalText.includes("TV show"), true);
+  assert.equal(set22NounIssue.suggestedText, "");
+  assert.equal(set22NounIssue.reviewRequired, true);
+  const set22TemporalIssue = set22Sample.find((issue) => (
+    issue.ruleId === "GF_AT_NIGHT_TEMPORAL_EXPRESSION"
+  ));
+  assert.ok(set22TemporalIssue, "SET-0022 omitted the safe temporal finding");
+  assert.equal(set22TemporalIssue.originalText, "at the night");
+  assert.equal(set22TemporalIssue.suggestedText, "at night");
+  assert.equal(set22TemporalIssue.reviewRequired, false);
+  for (const cleanSentence of [
+    "Mary watches a TV show after dinner.",
+    "Mary watches TV shows after dinner.",
+    "She stared at the night sky.",
+    "I watched her younger brother sit beside her.",
+    "The machine did not saw the timber.",
+    "One benefit of these programmes is greater access.",
+    "The charity for children was founded in 1990.",
+    "The two episode summaries are ready.",
+    "The pronoun they was underlined.",
+    "The apostrophe in eleven o'clock marks omitted letters."
+  ]) {
+    assert.deepEqual(
+      runtime.checkExecutableGrammar(cleanSentence, { maximumIssues: 32 }),
+      [],
+      `SET-0022 bounded patterns triggered a clean counterexample: ${cleanSentence}`
+    );
+  }
+
   const localAutoPattern = runtime.EXECUTABLE_GRAMMAR_PATTERNS.find((pattern) => (
     pattern.executionPolicy === "local_auto"
   ));
@@ -420,8 +473,8 @@ if (JSON.stringify(packageIds) === JSON.stringify(["SET-0019", "SET-0020", "SET-
     );
   }
 } else {
-  assert.ok(packageFiles.length < 3, "partial v2 package directory contains unexpected files");
-  console.log("Executable grammar production-package assertions deferred until Sets 19–21 are present.");
+  assert.ok(packageFiles.length < 4, "partial v2 package directory contains unexpected files");
+  console.log("Executable grammar production-package assertions deferred until Sets 19–22 are present.");
 }
 
 console.log("Writing Submission executable grammar hardening: OK");
