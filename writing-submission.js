@@ -18,7 +18,7 @@ import {
   rebaseWritingGrammarIssuesAfterAppliedCorrection,
   remoteGrammarRetryDelayMs,
   writingGrammarReviewNotice
-} from "./writing-submission-ai.js?v=20260802-resilience1";
+} from "./writing-submission-ai.js?v=20260802-grammar3";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -549,16 +549,17 @@ async function prepareGrammarChecker() {
   if (state.checkerPromise) return state.checkerPromise;
   updateHarperStatus("loading", "正在準備文法偵測", "本機後備檢查首次載入約需數秒");
   state.checkerPromise = (async () => {
-    const module = await import("./writing-submission-harper.js?v=20260802-grammar2");
+    const module = await import("./writing-submission-harper.js?v=20260802-grammar3");
     const checker = module.createWritingGrammarChecker();
     state.checker = checker;
     try {
       await checker.setup();
       const corpusRuleCount = Number(module.CORPUS_COMPILED_RULE_COUNT) || 0;
+      const executableFamilyCount = Number(module.EXECUTABLE_COMPILED_FAMILY_COUNT) || 0;
       updateHarperStatus(
         "ready",
         "文法偵測已準備",
-        `${corpusRuleCount} 條教師審核規則 + 通用文法 ${ESL_RULESET_VERSION} + Harper ${HARPER_VERSION} 後備校對`
+        `${corpusRuleCount} 條語料規則 + ${executableFamilyCount} 個可執行規則家族 + 通用文法 ${ESL_RULESET_VERSION} + Harper ${HARPER_VERSION} 後備校對`
       );
     } catch (error) {
       console.warn("Local Harper setup failed", error);

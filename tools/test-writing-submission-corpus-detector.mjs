@@ -52,18 +52,18 @@ function nthOccurrence(source, fragment, occurrence) {
 }
 
 test("compiler publishes all approved rules and issue mappings with exact answers kept separate", () => {
-  assert.equal(CORPUS_COMPILED_RULE_COUNT, 640);
-  assert.equal(CORPUS_COMPILED_PATTERN_COUNT, 724);
+  assert.equal(CORPUS_COMPILED_RULE_COUNT, 769);
+  assert.equal(CORPUS_COMPILED_PATTERN_COUNT, 937);
   assert.equal(CORPUS_DETECTOR_PATTERNS.every((pattern) => pattern.source === "issue"), true);
-  assert.equal(CORPUS_APPROVED_INCORRECT_SENTENCES.length, 322);
+  assert.equal(CORPUS_APPROVED_INCORRECT_SENTENCES.length, 381);
   assert.equal(CORPUS_SENTENCES.length, 14);
   assert.equal(CORPUS_SENTENCES.every((sentence) => (
     sentence.partition === "retrieval" && sentence.reviewPolicy === "exact"
   )), true);
-  assert.equal(CORPUS_GUIDANCE_SENTENCES.length, 322);
+  assert.equal(CORPUS_GUIDANCE_SENTENCES.length, 381);
   assert.equal(CORPUS_GUIDANCE_SENTENCES.filter((sentence) => (
     sentence.partition === "development" && sentence.reviewPolicy === "guidance"
-  )).length, 308);
+  )).length, 367);
   assert.equal(CORPUS_GUIDANCE_SENTENCES.every((sentence) => !Object.hasOwn(sentence, "issues")), true);
 });
 
@@ -112,8 +112,11 @@ test("anchored mappings still work when the surrounding sentence is not an exact
       }
     }
   }
-  assert.equal(expected, 724);
-  assert.ok(detected >= 600, `expected broad anchored reuse, received ${detected}/724`);
+  assert.equal(expected, 937);
+  assert.ok(
+    detected >= Math.floor(expected * 0.8),
+    `expected broad anchored reuse, received ${detected}/${expected}`
+  );
 });
 
 test("corrected corpus sentences remain clean without relying on exact-string suppression", () => {
@@ -173,7 +176,7 @@ test("emitted issue contract uses UTF-16 offsets and the accepted local engine i
 });
 
 test("generated clean references remain test data rather than a runtime mask", () => {
-  assert.equal(CORPUS_APPROVED_CLEAN_SENTENCES.length, 335);
+  assert.equal(CORPUS_APPROVED_CLEAN_SENTENCES.length, 394);
   const unseenClean = "Yesterday, the staff received much information. This is documented.";
   assert.equal(CORPUS_APPROVED_CLEAN_SENTENCES.includes(unseenClean), false);
   assert.deepEqual(checkCorpusGrammar(unseenClean, { maximumIssues: 32 }), []);

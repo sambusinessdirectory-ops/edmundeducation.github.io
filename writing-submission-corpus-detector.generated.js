@@ -1,7 +1,7 @@
 // GENERATED FILE. Edit grammar-corpus/corpus-v1.json and run
 // node grammar-corpus/validate-and-generate.mjs instead.
 
-export const CORPUS_DETECTOR_VERSION = "2026-08-02.1";
+export const CORPUS_DETECTOR_VERSION = "2026-08-02.2";
 
 export const CORPUS_DETECTOR_RULES = Object.freeze([
   {
@@ -10442,6 +10442,2514 @@ export const CORPUS_DETECTOR_RULES = Object.freeze([
     "explanationZhHant": "work 是動作，應由副詞 slowly 修飾。表示動作逐漸變慢，用 more and more slowly。 become slower 可描述人或事物的狀態，但不能直接放在 they work 後形成雙重謂語。",
     "englishVariant": "British English",
     "exceptions": []
+  },
+  {
+    "ruleId": "GF_ABSTRACT_CATEGORY_IN_WHICH",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：Abstract category in which",
+    "formula": "GF_ABSTRACT_CATEGORY_IN_WHICH",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_ABSTRACT_CATEGORY_IN_WHICH",
+      "classification:style",
+      "execution_policy:guidance_only",
+      "matcher_type:register_construction",
+      "source_rule:CLAUSE.ABSTRACT_CATEGORY.IN_WHICH"
+    ],
+    "incorrectPattern": "where",
+    "correctPattern": "in which",
+    "explanationZhHant": "正式圖表寫作中，可用 category in which。category where 在非正式英文中也可見，不宜設為絕對高置信度錯誤。 [規則族：GF_ABSTRACT_CATEGORY_IN_WHICH；來源規則：CLAUSE.ABSTRACT_CATEGORY.IN_WHICH.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_ACCOMPANY_DIRECT_OBJECT",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Accompany takes a direct object in the active voice",
+    "formula": "GF_ACCOMPANY_DIRECT_OBJECT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_ACCOMPANY_DIRECT_OBJECT",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:VERB.ACCOMPANY.DIRECT_OBJECT.NO_WITH"
+    ],
+    "incorrectPattern": "with the",
+    "correctPattern": "the",
+    "explanationZhHant": "accompany 是及物動詞，直接接同行的人或物，不加 with。be accompanied by 則是被動結構。 [規則族：GF_ACCOMPANY_DIRECT_OBJECT；來源規則：VERB.ACCOMPANY.DIRECT_OBJECT.NO_WITH.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_ACCOUNT_FOR_PROPORTION",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Account for a stated proportion",
+    "formula": "GF_ACCOUNT_FOR_PROPORTION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_ACCOUNT_FOR_PROPORTION",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:PHRASAL.ACCOUNT_FOR.PROPORTION"
+    ],
+    "incorrectPattern": "accounted",
+    "correctPattern": "together accounted",
+    "explanationZhHant": "account for 表示構成某個比例。 [規則族：GF_ACCOUNT_FOR_PROPORTION；來源規則：PHRASAL.ACCOUNT_FOR.PROPORTION.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_AFTER_MODAL_BASE_VERB",
+    "category": "modal_or_auxiliary",
+    "titleZhHant": "文法規則：After modal base verb",
+    "formula": "GF_AFTER_MODAL_BASE_VERB",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_AFTER_MODAL_BASE_VERB",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_construction",
+      "source_rule:MODAL.AFTER_MODAL.BASE_VERB"
+    ],
+    "incorrectPattern": "chose",
+    "correctPattern": "choose",
+    "explanationZhHant": "could 後面使用動詞原形 choose，不用過去式 chose。 [規則族：GF_AFTER_MODAL_BASE_VERB；來源規則：MODAL.AFTER_MODAL.BASE_VERB.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_AFTER_WHICH_SENTENTIAL_SEQUENCE",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：After which as an integrated sentential sequencer",
+    "formula": "GF_AFTER_WHICH_SENTENTIAL_SEQUENCE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_AFTER_WHICH_SENTENTIAL_SEQUENCE",
+      "classification:structural",
+      "execution_policy:local_review",
+      "matcher_type:clause_boundary",
+      "source_rule:CLAUSE.AFTER_WHICH.SEQUENCE"
+    ],
+    "incorrectPattern": "that",
+    "correctPattern": "which",
+    "explanationZhHant": "after which 指回前面的整個步驟，並連接下一個完整分句。也可使用句號後另寫 After that, ...。 [規則族：GF_AFTER_WHICH_SENTENTIAL_SEQUENCE；來源規則：CLAUSE.AFTER_WHICH.SEQUENCE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_AHEAD_OF",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Ahead of",
+    "formula": "GF_AHEAD_OF",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_AHEAD_OF",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:PREP.AHEAD_OF"
+    ],
+    "incorrectPattern": "than",
+    "correctPattern": "of",
+    "explanationZhHant": "固定比較結構是 ahead of + 對象，不用 than。 [規則族：GF_AHEAD_OF；來源規則：PREP.AHEAD_OF.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL",
+    "category": "conjunction",
+    "titleZhHant": "文法規則：Although before a finite clause; despite before a nominal or gerund",
+    "formula": "GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:clause_pattern",
+      "source_rule:CONJ.ALTHOUGH.FINITE.NOT_DESPITE"
+    ],
+    "incorrectPattern": "despite",
+    "correctPattern": "although",
+    "explanationZhHant": "although 後面接完整分句；despite 後面接名詞或動名詞。 [規則族：GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL；來源規則：CONJ.ALTHOUGH.FINITE.NOT_DESPITE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_AMONG_GROUP",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Among group",
+    "formula": "GF_AMONG_GROUP",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_AMONG_GROUP",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:PREP.AMONG.GROUP"
+    ],
+    "incorrectPattern": "between",
+    "correctPattern": "among",
+    "explanationZhHant": "表示某選項在一個多人群體中最受歡迎，用 among。between 主要連接兩個明確項目。 [規則族：GF_AMONG_GROUP；來源規則：PREP.AMONG.GROUP.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_ANOTHER_SINGULAR_COUNT_NOUN",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Another selects one singular member of an open set",
+    "formula": "GF_ANOTHER_SINGULAR_COUNT_NOUN",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_ANOTHER_SINGULAR_COUNT_NOUN",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:DETERMINER.ANOTHER.SINGULAR_NOUN",
+      "source_rule:DETERMINER.ANOTHER.SINGULAR_OPEN_SET"
+    ],
+    "incorrectPattern": "other",
+    "correctPattern": "another",
+    "explanationZhHant": "單數可數名詞前表示另一個，用 another。other 通常配複數名詞或帶另一限定詞。 [規則族：GF_ANOTHER_SINGULAR_COUNT_NOUN；來源規則：DETERMINER.ANOTHER.SINGULAR_NOUN.v1, DETERMINER.ANOTHER.SINGULAR_OPEN_SET.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_AS_MANY_AS_PLURAL_COUNT",
+    "category": "countability",
+    "titleZhHant": "文法規則：As many as plural count",
+    "formula": "GF_AS_MANY_AS_PLURAL_COUNT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_AS_MANY_AS_PLURAL_COUNT",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:QUANTIFIER.AS_MANY_AS.PLURAL_COUNT"
+    ],
+    "incorrectPattern": "much",
+    "correctPattern": "many",
+    "explanationZhHant": "women 是複數可數名詞，因此使用 as many as。as much as 修飾不可數名詞。 [規則族：GF_AS_MANY_AS_PLURAL_COUNT；來源規則：QUANTIFIER.AS_MANY_AS.PLURAL_COUNT.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_AS_OPPOSED_TO",
+    "category": "preposition",
+    "titleZhHant": "文法規則：As opposed to",
+    "formula": "GF_AS_OPPOSED_TO",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_AS_OPPOSED_TO",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:PREP.AS_OPPOSED_TO"
+    ],
+    "incorrectPattern": "with",
+    "correctPattern": "to",
+    "explanationZhHant": "固定比較短語是 as opposed to。 [規則族：GF_AS_OPPOSED_TO；來源規則：PREP.AS_OPPOSED_TO.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_AT_BOTTOM_LOCATION",
+    "category": "preposition",
+    "titleZhHant": "文法規則：At the bottom of for a location at a container boundary",
+    "formula": "GF_AT_BOTTOM_LOCATION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_AT_BOTTOM_LOCATION",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:spatial_semantics",
+      "source_rule:PREP.AT_THE_BOTTOM_OF"
+    ],
+    "incorrectPattern": "in",
+    "correctPattern": "at",
+    "explanationZhHant": "表示位於容器底部的位置，通常使用 at the bottom of。in the bottom 可指物體內部的底層部分，語意不同。 [規則族：GF_AT_BOTTOM_LOCATION；來源規則：PREP.AT_THE_BOTTOM_OF.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_ATTRIBUTIVE_COMPOUND_HYPHENATION",
+    "category": "singular_plural",
+    "titleZhHant": "文法規則：Hyphenate a multiword attributive compound under the selected style guide",
+    "formula": "GF_ATTRIBUTIVE_COMPOUND_HYPHENATION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_ATTRIBUTIVE_COMPOUND_HYPHENATION",
+      "classification:style",
+      "execution_policy:guidance_only",
+      "matcher_type:orthographic_style",
+      "source_rule:NOUN.QUALITY_CONTROL.ATTRIBUTIVE_COMPOUND"
+    ],
+    "incorrectPattern": "tests of quality control.",
+    "correctPattern": "quality-control tests.",
+    "explanationZhHant": "quality-control 共同放在 tests 前作複合修飾語，因此加連字號。two tests for quality control 也是可接受替代。 [規則族：GF_ATTRIBUTIVE_COMPOUND_HYPHENATION；來源規則：NOUN.QUALITY_CONTROL.ATTRIBUTIVE_COMPOUND.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_CAPABLE_OF_GERUND",
+    "category": "word_form",
+    "titleZhHant": "文法規則：Capable of a noun or gerund",
+    "formula": "GF_CAPABLE_OF_GERUND",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_CAPABLE_OF_GERUND",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:ADJ.CAPABLE.OF.GERUND"
+    ],
+    "incorrectPattern": "to reach",
+    "correctPattern": "of reaching",
+    "explanationZhHant": "固定結構是 capable of + 名詞／動名詞。 [規則族：GF_CAPABLE_OF_GERUND；來源規則：ADJ.CAPABLE.OF.GERUND.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_CARDINAL_COUNT_NOUN_PLURAL",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Plural count noun after a cardinal greater than one or several",
+    "formula": "GF_CARDINAL_COUNT_NOUN_PLURAL",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_CARDINAL_COUNT_NOUN_PLURAL",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:ARTICLE.ORDINAL.PLURAL_POSITIONS",
+      "source_rule:COUNT.NUMBER.OF_EMPLOYEES",
+      "source_rule:FRACTION.OF_THE_TOTAL_SELECTIONS",
+      "source_rule:NOUN.NUMERAL.PLURAL",
+      "source_rule:NOUN.NUMERAL.PLURAL_SELECTIONS",
+      "source_rule:NOUN.SEVERAL.PLURAL"
+    ],
+    "incorrectPattern": "selection.",
+    "correctPattern": "selections.",
+    "explanationZhHant": "大於一的數字後使用複數可數名詞。 [規則族：GF_CARDINAL_COUNT_NOUN_PLURAL；來源規則：ARTICLE.ORDINAL.PLURAL_POSITIONS.v1, COUNT.NUMBER.OF_EMPLOYEES.v1, FRACTION.OF_THE_TOTAL_SELECTIONS.v1, NOUN.NUMERAL.PLURAL.v1, NOUN.NUMERAL.PLURAL_SELECTIONS.v1, NOUN.SEVERAL.PLURAL.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_CATEGORY_RECORD_ACTIVE_FIGURE",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Category record active figure",
+    "formula": "GF_CATEGORY_RECORD_ACTIVE_FIGURE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_CATEGORY_RECORD_ACTIVE_FIGURE",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_frame",
+      "source_rule:VERB.CATEGORY.RECORD.ACTIVE_FIGURE"
+    ],
+    "incorrectPattern": "was recorded",
+    "correctPattern": "recorded",
+    "explanationZhHant": "在圖表描述中，某類別可主動「錄得」一個數值：Private insurance recorded...。被動式需要改換主語。 [規則族：GF_CATEGORY_RECORD_ACTIVE_FIGURE；來源規則：VERB.CATEGORY.RECORD.ACTIVE_FIGURE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT",
+    "category": "verb_form_or_tense",
+    "titleZhHant": "文法規則：A category is selected by respondents; by introduces the agent",
+    "formula": "GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:PASSIVE.AGENT.BY_RESPONDENTS",
+      "source_rule:PASSIVE.CATEGORY.WAS_SELECTED_BY"
+    ],
+    "incorrectPattern": "from",
+    "correctPattern": "by",
+    "explanationZhHant": "被動句中選擇該項目的執行者由 by 引出。from 可引出來源或選項集合。 [規則族：GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT；來源規則：PASSIVE.AGENT.BY_RESPONDENTS.v1, PASSIVE.CATEGORY.WAS_SELECTED_BY.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_CLOSE_TO_EACH_OTHER",
+    "category": "word_form",
+    "titleZhHant": "文法規則：Close to each other",
+    "formula": "GF_CLOSE_TO_EACH_OTHER",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_CLOSE_TO_EACH_OTHER",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_frame",
+      "source_rule:ADJ.CLOSE.TO_EACH_OTHER"
+    ],
+    "incorrectPattern": "each",
+    "correctPattern": "to each",
+    "explanationZhHant": "表示兩個數值接近，用 close to each other。 [規則族：GF_CLOSE_TO_EACH_OTHER；來源規則：ADJ.CLOSE.TO_EACH_OTHER.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_COLLECT_FROM_SOURCE",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Collect from a source",
+    "formula": "GF_COLLECT_FROM_SOURCE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_COLLECT_FROM_SOURCE",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_semantic_frame",
+      "source_rule:PREP.COLLECT.FROM_SOURCE"
+    ],
+    "incorrectPattern": "out of",
+    "correctPattern": "from",
+    "explanationZhHant": "表示物品的來源，用 collect from + 地點／人。out of 強調從內部移出。 [規則族：GF_COLLECT_FROM_SOURCE；來源規則：PREP.COLLECT.FROM_SOURCE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_COMBINE_WITH_COTHEME",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Combine one entity with another",
+    "formula": "GF_COMBINE_WITH_COTHEME",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_COMBINE_WITH_COTHEME",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:PREP.COMBINE.WITH"
+    ],
+    "incorrectPattern": "to",
+    "correctPattern": "with",
+    "explanationZhHant": "表示兩種材料混合，用 combine A with B。被動式為 A is combined with B。 [規則族：GF_COMBINE_WITH_COTHEME；來源規則：PREP.COMBINE.WITH.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_COMBINED_CATEGORIES_AND_TOGETHER",
+    "category": "parallelism",
+    "titleZhHant": "文法規則：Combined categories and together",
+    "formula": "GF_COMBINED_CATEGORIES_AND_TOGETHER",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_COMBINED_CATEGORIES_AND_TOGETHER",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:PARALLEL.COMBINED_CATEGORIES.AND_TOGETHER"
+    ],
+    "incorrectPattern": "together with",
+    "correctPattern": "and",
+    "explanationZhHant": "要把兩項的數值相加，可用 A and B together。together with 不一定把兩者組成同等並列主語。 [規則族：GF_COMBINED_CATEGORIES_AND_TOGETHER；來源規則：PARALLEL.COMBINED_CATEGORIES.AND_TOGETHER.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_COMPARED_WITH_SUPPLEMENT",
+    "category": "infinitive_or_gerund",
+    "titleZhHant": "文法規則：Compared with introduces the intended comparison baseline",
+    "formula": "GF_COMPARED_WITH_SUPPLEMENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_COMPARED_WITH_SUPPLEMENT",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:PARTICIPLE.COMPARED_WITH.BASELINE",
+      "source_rule:PARTICIPLE.COMPARED_WITH.FIGURE",
+      "source_rule:PARTICIPLE.COMPARED_WITH.SUPPLEMENT"
+    ],
+    "incorrectPattern": "in comparison",
+    "correctPattern": "compared",
+    "explanationZhHant": "補充比較另一組數值時，可使用過去分詞短語 compared with。原名詞結構並非絕對錯誤，但在此句中較笨重。 [規則族：GF_COMPARED_WITH_SUPPLEMENT；來源規則：PARTICIPLE.COMPARED_WITH.BASELINE.v1, PARTICIPLE.COMPARED_WITH.FIGURE.v1, PARTICIPLE.COMPARED_WITH.SUPPLEMENT.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_COMPLEMENTIZER_WH_EXCLUSION",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：No declarative that immediately before an embedded wh-clause",
+    "formula": "GF_COMPLEMENTIZER_WH_EXCLUSION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_COMPLEMENTIZER_WH_EXCLUSION",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_sequence",
+      "source_rule:CLAUSE.ILLUSTRATE.WH_CLAUSE.NO_THAT"
+    ],
+    "incorrectPattern": "that how",
+    "correctPattern": "how",
+    "explanationZhHant": "illustrate 後面可直接接由 how 引出的內容分句，不同時使用 that how。對照：illustrates that the process is efficient。 [規則族：GF_COMPLEMENTIZER_WH_EXCLUSION；來源規則：CLAUSE.ILLUSTRATE.WH_CLAUSE.NO_THAT.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_CONTEXTUAL_MASS_NOUN_NUMBER",
+    "category": "countability",
+    "titleZhHant": "文法規則：Contextual mass-noun number for undifferentiated substances or material",
+    "formula": "GF_CONTEXTUAL_MASS_NOUN_NUMBER",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_CONTEXTUAL_MASS_NOUN_NUMBER",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:lexical_sense_discourse",
+      "source_rule:COUNT.WASTEWATER.UNCOUNTABLE",
+      "source_rule:COUNT.MATERIAL.GENERIC_UNCOUNTABLE"
+    ],
+    "incorrectPattern": "Wastewaters",
+    "correctPattern": "Wastewater",
+    "explanationZhHant": "wastewater 表示廢水整體時通常不可數。不同類別可寫 types of wastewater。 [規則族：GF_CONTEXTUAL_MASS_NOUN_NUMBER；來源規則：COUNT.WASTEWATER.UNCOUNTABLE.v1, COUNT.MATERIAL.GENERIC_UNCOUNTABLE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_COORDINATE_LIST_FINAL_CONJUNCTION",
+    "category": "conjunction",
+    "titleZhHant": "文法規則：Explicit conjunction before the final item in a prose list",
+    "formula": "GF_COORDINATE_LIST_FINAL_CONJUNCTION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_COORDINATE_LIST_FINAL_CONJUNCTION",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:coordination",
+      "source_rule:CONJ.LIST.FINAL_AND"
+    ],
+    "incorrectPattern": "pressure, as well",
+    "correctPattern": "pressure and",
+    "explanationZhHant": "三項並列時，最後一項前用 and。若使用 as well as，必須完整寫出。 [規則族：GF_COORDINATE_LIST_FINAL_CONJUNCTION；來源規則：CONJ.LIST.FINAL_AND.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_COORDINATED_FIGURES_AND",
+    "category": "conjunction",
+    "titleZhHant": "文法規則：Coordinated figures and",
+    "formula": "GF_COORDINATED_FIGURES_AND",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_COORDINATED_FIGURES_AND",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_construction",
+      "source_rule:CONJ.COORDINATED_FIGURES.AND"
+    ],
+    "incorrectPattern": "beside",
+    "correctPattern": "and",
+    "explanationZhHant": "這裡只是列出兩個平行數值，用 and。beside 表示空間位置。 [規則族：GF_COORDINATED_FIGURES_AND；來源規則：CONJ.COORDINATED_FIGURES.AND.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_COPULAR_COMPLEMENT_ADJECTIVE",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Adjective, not manner adverb, as terminal copular complement",
+    "formula": "GF_COPULAR_COMPLEMENT_ADJECTIVE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_COPULAR_COMPLEMENT_ADJECTIVE",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency",
+      "source_rule:LINKING.BE.ADJECTIVE.MECHANICAL"
+    ],
+    "incorrectPattern": "mechanically,",
+    "correctPattern": "mechanical,",
+    "explanationZhHant": "are 是連繫動詞，後面使用形容詞 mechanical 描述 stages，不用副詞 mechanically。 [規則族：GF_COPULAR_COMPLEMENT_ADJECTIVE；來源規則：LINKING.BE.ADJECTIVE.MECHANICAL.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_COUNT_NOUN_NUMBER",
+    "category": "singular_plural",
+    "titleZhHant": "文法規則：Count noun number follows the construed number of referents",
+    "formula": "GF_COUNT_NOUN_NUMBER",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_COUNT_NOUN_NUMBER",
+      "classification:structural",
+      "execution_policy:local_review",
+      "matcher_type:token_morphology_construction",
+      "source_rule:NOUN.COMPARISONS.BETWEEN.PREFERENCES",
+      "source_rule:PREP.SIZES.OF_THE_TWO_GROUPS"
+    ],
+    "incorrectPattern": "comparison among",
+    "correctPattern": "comparisons between",
+    "explanationZhHant": "比較多組偏好時中心名詞用複數；比較關係用 between；不同選項的偏好用複數 preferences。 [規則族：GF_COUNT_NOUN_NUMBER；來源規則：NOUN.COMPARISONS.BETWEEN.PREFERENCES.v1, PREP.SIZES.OF_THE_TWO_GROUPS.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_DEFINITE_COMPARISON_REFERENT",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Definite article for an already established comparison group or figure",
+    "formula": "GF_DEFINITE_COMPARISON_REFERENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_DEFINITE_COMPARISON_REFERENT",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:discourse_coreference",
+      "source_rule:ARTICLE.DEFINED_FEMALE_FIGURE.THE",
+      "source_rule:ARTICLE.DEFINED_GROUP_TOTAL.THE",
+      "source_rule:ARTICLE.DEFINED_MALE_FIGURE.THE",
+      "source_rule:ARTICLE.DEFINED_TWO_GROUPS.THE",
+      "source_rule:ARTICLE.MULTIPLIER.DEFINED_BASE"
+    ],
+    "incorrectPattern": "two",
+    "correctPattern": "the two",
+    "explanationZhHant": "這裡指前文已知的男性和女性兩組，因此使用 the。 [規則族：GF_DEFINITE_COMPARISON_REFERENT；來源規則：ARTICLE.DEFINED_FEMALE_FIGURE.THE.v1, ARTICLE.DEFINED_GROUP_TOTAL.THE.v1, ARTICLE.DEFINED_MALE_FIGURE.THE.v1, ARTICLE.DEFINED_TWO_GROUPS.THE.v1, ARTICLE.MULTIPLIER.DEFINED_BASE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_DEFINITE_PROCESSED_REFERENT",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Definite article for a previously introduced processed batch",
+    "formula": "GF_DEFINITE_PROCESSED_REFERENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_DEFINITE_PROCESSED_REFERENT",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:discourse_coreference",
+      "source_rule:ARTICLE.DEFINED.PROCESSED_MATERIAL.THE"
+    ],
+    "incorrectPattern": "dried",
+    "correctPattern": "the dried",
+    "explanationZhHant": "指前文已處理並乾燥的那批 flakes，使用 the。 [規則族：GF_DEFINITE_PROCESSED_REFERENT；來源規則：ARTICLE.DEFINED.PROCESSED_MATERIAL.THE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_DEGREE_ADVERB_FORM",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Use an adverb as a degree modifier of an adjective, comparison, or value",
+    "formula": "GF_DEGREE_ADVERB_FORM",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_DEGREE_ADVERB_FORM",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:PREP.FLUCTUATE.AROUND.AVERAGE",
+      "source_rule:WORDFORM.APPROXIMATELY.NUMBER",
+      "source_rule:WORDFORM.APPROXIMATELY.PER_CENT",
+      "source_rule:WORDFORM.BROADLY_COMPARABLE",
+      "source_rule:WORDFORM.SLIGHTLY.MORE_THAN",
+      "source_rule:WORDFORM.SLIGHTLY_OVER",
+      "source_rule:WORDFORM.VIRTUALLY_UNCHANGED"
+    ],
+    "incorrectPattern": "approximate",
+    "correctPattern": "approximately",
+    "explanationZhHant": "修飾數字用副詞 approximately；數字後的比例單位使用不變形式 per cent。 [規則族：GF_DEGREE_ADVERB_FORM；來源規則：PREP.FLUCTUATE.AROUND.AVERAGE.v1, WORDFORM.APPROXIMATELY.NUMBER.v1, WORDFORM.APPROXIMATELY.PER_CENT.v1, WORDFORM.BROADLY_COMPARABLE.v1, WORDFORM.SLIGHTLY.MORE_THAN.v1, WORDFORM.SLIGHTLY_OVER.v1, WORDFORM.VIRTUALLY_UNCHANGED.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_DIFFERENT_TO_DIFFERENCE",
+    "category": "word_form",
+    "titleZhHant": "文法規則：Different to difference",
+    "formula": "GF_DIFFERENT_TO_DIFFERENCE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_DIFFERENT_TO_DIFFERENCE",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:WORDFORM.DIFFERENT_TO_DIFFERENCE"
+    ],
+    "incorrectPattern": "different",
+    "correctPattern": "difference",
+    "explanationZhHant": "different 是形容詞；本句需要名詞主語 difference。 [規則族：GF_DIFFERENT_TO_DIFFERENCE；來源規則：WORDFORM.DIFFERENT_TO_DIFFERENCE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_EACH_OF_NUMERAL_SET",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Each of numeral set",
+    "formula": "GF_EACH_OF_NUMERAL_SET",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_EACH_OF_NUMERAL_SET",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:DETERMINER.EACH_OF.NUMERAL_SET"
+    ],
+    "incorrectPattern": "from",
+    "correctPattern": "of",
+    "explanationZhHant": "表示六項中的每一項，用 each of + 數字 + 複數名詞。 [規則族：GF_EACH_OF_NUMERAL_SET；來源規則：DETERMINER.EACH_OF.NUMERAL_SET.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_EACH_SINGULAR_COUNT_NOUN",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Singular count noun after determiner each",
+    "formula": "GF_EACH_SINGULAR_COUNT_NOUN",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_EACH_SINGULAR_COUNT_NOUN",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_morphology",
+      "source_rule:DETERMINER.EACH.SINGULAR_NOUN"
+    ],
+    "incorrectPattern": "every employees",
+    "correctPattern": "each employee",
+    "explanationZhHant": "each 和 every 後面都接單數名詞。目標使用 each employee，強調每人可作多項選擇。 [規則族：GF_EACH_SINGULAR_COUNT_NOUN；來源規則：DETERMINER.EACH.SINGULAR_NOUN.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_EITHER_OF_TWO_GROUPS",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Either of two groups",
+    "formula": "GF_EITHER_OF_TWO_GROUPS",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_EITHER_OF_TWO_GROUPS",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:DETERMINER.EITHER.OF_TWO_GROUPS"
+    ],
+    "incorrectPattern": "employee on neither",
+    "correctPattern": "employees in either",
+    "explanationZhHant": "否定句中的「兩組任何一組」使用 either。資料位於某組內，用 in。 [規則族：GF_EITHER_OF_TWO_GROUPS；來源規則：DETERMINER.EITHER.OF_TWO_GROUPS.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_ELLIPSIS_MENS_TOTAL",
+    "category": "possessive",
+    "titleZhHant": "文法規則：Ellipsis mens total",
+    "formula": "GF_ELLIPSIS_MENS_TOTAL",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_ELLIPSIS_MENS_TOTAL",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:discourse_coreference",
+      "source_rule:POSSESSIVE.ELLIPSIS.MENS_TOTAL"
+    ],
+    "incorrectPattern": "one of men,",
+    "correctPattern": "men's,",
+    "explanationZhHant": "所有格 the men's 可省略已出現的 total。the one of men 不是自然的所有格省略。 [規則族：GF_ELLIPSIS_MENS_TOTAL；來源規則：POSSESSIVE.ELLIPSIS.MENS_TOTAL.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_EXCEED_ACTIVE_DIRECT_OBJECT",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Exceed active direct object",
+    "formula": "GF_EXCEED_ACTIVE_DIRECT_OBJECT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_EXCEED_ACTIVE_DIRECT_OBJECT",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:VERB.EXCEED.ACTIVE.DIRECT_OBJECT"
+    ],
+    "incorrectPattern": "was exceeded",
+    "correctPattern": "exceeded",
+    "explanationZhHant": "主語是 the male figure，它主動超過 female figure，因此不用被動助動詞 was。 [規則族：GF_EXCEED_ACTIVE_DIRECT_OBJECT；來源規則：VERB.EXCEED.ACTIVE.DIRECT_OBJECT.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_FAIL_TEST_DIRECT_OBJECT",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Fail takes a test as its direct object",
+    "formula": "GF_FAIL_TEST_DIRECT_OBJECT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_FAIL_TEST_DIRECT_OBJECT",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:VERB.FAIL.DIRECT_OBJECT.TEST"
+    ],
+    "incorrectPattern": "from either",
+    "correctPattern": "either",
+    "explanationZhHant": "fail 表示未能通過某項測試時，直接接賓語，不加 from。 [規則族：GF_FAIL_TEST_DIRECT_OBJECT；來源規則：VERB.FAIL.DIRECT_OBJECT.TEST.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_FEWER_PLURAL_COUNT_NOUN",
+    "category": "countability",
+    "titleZhHant": "文法規則：Fewer plural count noun",
+    "formula": "GF_FEWER_PLURAL_COUNT_NOUN",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_FEWER_PLURAL_COUNT_NOUN",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:QUANTIFIER.FEWER.PLURAL_COUNT_NOUN"
+    ],
+    "incorrectPattern": "less",
+    "correctPattern": "fewer",
+    "explanationZhHant": "women 是可數名詞複數，所以用 fewer。 [規則族：GF_FEWER_PLURAL_COUNT_NOUN；來源規則：QUANTIFIER.FEWER.PLURAL_COUNT_NOUN.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+    "category": "verb_form_or_tense",
+    "titleZhHant": "文法規則：Insert an agreeing be auxiliary for a finite passive predicate",
+    "formula": "GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+      "classification:structural",
+      "execution_policy:local_review",
+      "matcher_type:dependency_semantic",
+      "source_rule:PASSIVE.PRESENT.ARE_TRANSPORTED",
+      "source_rule:PASSIVE.MOULDS.ARE_REPAIRED.ADVERB"
+    ],
+    "incorrectPattern": "categories",
+    "correctPattern": "the categories",
+    "explanationZhHant": "categories 是被排列的項目，因此需要被動助動詞 are。 [規則族：GF_FINITE_PASSIVE_INSERT_AUXILIARY；來源規則：PASSIVE.PRESENT.ARE_TRANSPORTED.v1, PASSIVE.MOULDS.ARE_REPAIRED.ADVERB.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_FOR_ACTION_COMPLEMENT_GERUND",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Gerund for an action complement governed by for",
+    "formula": "GF_FOR_ACTION_COMPLEMENT_GERUND",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_FOR_ACTION_COMPLEMENT_GERUND",
+      "classification:structural",
+      "execution_policy:local_review",
+      "matcher_type:morphology_lexicon",
+      "source_rule:VERB.SEND.FOR.GERUND_PROCESS",
+      "source_rule:PREP.FOR.GERUND.REPROCESSING"
+    ],
+    "incorrectPattern": "shred.",
+    "correctPattern": "shredding.",
+    "explanationZhHant": "for 是介詞，後面的動作用動名詞：sent for shredding。另一個正確寫法是 sent to be shredded。 [規則族：GF_FOR_ACTION_COMPLEMENT_GERUND；來源規則：VERB.SEND.FOR.GERUND_PROCESS.v1, PREP.FOR.GERUND.REPROCESSING.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_FOR_BASE_PURPOSE_TO_INFINITIVE",
+    "category": "infinitive_or_gerund",
+    "titleZhHant": "文法規則：Replace for plus bare verb with a purpose infinitive",
+    "formula": "GF_FOR_BASE_PURPOSE_TO_INFINITIVE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_FOR_BASE_PURPOSE_TO_INFINITIVE",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_sequence",
+      "source_rule:INFINITIVE.PURPOSE.INSPECT_TO_DETERMINE"
+    ],
+    "incorrectPattern": "for",
+    "correctPattern": "to",
+    "explanationZhHant": "表示檢查的目的，用 to + 動詞原形：inspected to determine...。 [規則族：GF_FOR_BASE_PURPOSE_TO_INFINITIVE；來源規則：INFINITIVE.PURPOSE.INSPECT_TO_DETERMINE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_FOR_MEASURED_DURATION",
+    "category": "preposition",
+    "titleZhHant": "文法規則：For introduces an elapsed duration; during introduces an event",
+    "formula": "GF_FOR_MEASURED_DURATION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_FOR_MEASURED_DURATION",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:measure_phrase",
+      "source_rule:PREP.FOR.DURATION"
+    ],
+    "incorrectPattern": "during",
+    "correctPattern": "for",
+    "explanationZhHant": "表示持續時間的長度，用 for + 時段。during 後面接事件或時期，如 during the drying stage。 [規則族：GF_FOR_MEASURED_DURATION；來源規則：PREP.FOR.DURATION.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_FORMAL_WHETHER_PREFERENCE",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：Whether preferred for an explicit binary embedded alternative in formal prose",
+    "formula": "GF_FORMAL_WHETHER_PREFERENCE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_FORMAL_WHETHER_PREFERENCE",
+      "classification:style",
+      "execution_policy:guidance_only",
+      "matcher_type:register_style",
+      "source_rule:CLAUSE.FORMAL_EMBEDDED.WHETHER"
+    ],
+    "incorrectPattern": "if",
+    "correctPattern": "whether",
+    "explanationZhHant": "正式寫作中，表示測試兩種可能結果，使用 whether。if 在部分間接問句中可成立，但在 measure whether 中較標準。 [規則族：GF_FORMAL_WHETHER_PREFERENCE；來源規則：CLAUSE.FORMAL_EMBEDDED.WHETHER.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_FRACTION_DENOMINATOR_PLURAL",
+    "category": "comparison",
+    "titleZhHant": "文法規則：Plural denominator in non-unit common fractions",
+    "formula": "GF_FRACTION_DENOMINATOR_PLURAL",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_FRACTION_DENOMINATOR_PLURAL",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:FRACTION.JUST_OVER.TWO_FIFTHS",
+      "source_rule:FRACTION.PLURAL_DENOMINATOR",
+      "source_rule:FRACTION.THREE_QUARTERS.PLURAL"
+    ],
+    "incorrectPattern": "above",
+    "correctPattern": "over",
+    "explanationZhHant": "表示略高於某比例，常用 just over。分子為二，分母用複數 fifths。 [規則族：GF_FRACTION_DENOMINATOR_PLURAL；來源規則：FRACTION.JUST_OVER.TWO_FIFTHS.v1, FRACTION.PLURAL_DENOMINATOR.v1, FRACTION.THREE_QUARTERS.PLURAL.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_FRACTION_OF_BASE",
+    "category": "comparison",
+    "titleZhHant": "文法規則：A fraction selects an of-complement naming its base",
+    "formula": "GF_FRACTION_OF_BASE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_FRACTION_OF_BASE",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:FRACTION.OF_THE_TOTAL_SELECTIONS"
+    ],
+    "incorrectPattern": "quarter from",
+    "correctPattern": "quarters of the",
+    "explanationZhHant": "分數的整體基數由 of 引出；特定的 370 項用 the，名詞用複數。 [規則族：GF_FRACTION_OF_BASE；來源規則：FRACTION.OF_THE_TOTAL_SELECTIONS.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_FRACTION_OF_TOTAL_ATTRIBUTIVE_FEMALE",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Fraction of total attributive female",
+    "formula": "GF_FRACTION_OF_TOTAL_ATTRIBUTIVE_FEMALE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_FRACTION_OF_TOTAL_ATTRIBUTIVE_FEMALE",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:PREP.FRACTION.OF_TOTAL_ATTRIBUTIVE_FEMALE"
+    ],
+    "incorrectPattern": "from",
+    "correctPattern": "of",
+    "explanationZhHant": "比例基數由 of 引出；名詞前作修飾語用單數形容詞形式 female。 [規則族：GF_FRACTION_OF_TOTAL_ATTRIBUTIVE_FEMALE；來源規則：PREP.FRACTION.OF_TOTAL_ATTRIBUTIVE_FEMALE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_GENERATED_DURING_EVENT",
+    "category": "preposition",
+    "titleZhHant": "文法規則：During introduces the event in which a by-product is generated",
+    "formula": "GF_GENERATED_DURING_EVENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_GENERATED_DURING_EVENT",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role",
+      "source_rule:PREP.GENERATED.DURING.PROCESS"
+    ],
+    "incorrectPattern": "from",
+    "correctPattern": "during",
+    "explanationZhHant": "表示廢水在清洗階段產生，用 during washing。generated from 可引出產生它的原材料或來源。 [規則族：GF_GENERATED_DURING_EVENT；來源規則：PREP.GENERATED.DURING.PROCESS.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_IN_CATEGORY",
+    "category": "preposition",
+    "titleZhHant": "文法規則：In introduces a chart category as the domain of a contrast or value",
+    "formula": "GF_IN_CATEGORY",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_IN_CATEGORY",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:PREP.CONTRAST.APPEAR_IN_CATEGORY",
+      "source_rule:PREP.IN_A_CATEGORY"
+    ],
+    "incorrectPattern": "on",
+    "correctPattern": "in",
+    "explanationZhHant": "表示某種差異出現在某一類別中，用 in。 [規則族：GF_IN_CATEGORY；來源規則：PREP.CONTRAST.APPEAR_IN_CATEGORY.v1, PREP.IN_A_CATEGORY.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_IN_OTHER_WORDS",
+    "category": "word_choice",
+    "titleZhHant": "文法規則：In other words",
+    "formula": "GF_IN_OTHER_WORDS",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_IN_OTHER_WORDS",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_frame",
+      "source_rule:FIXED.IN_OTHER_WORDS"
+    ],
+    "incorrectPattern": "another",
+    "correctPattern": "other",
+    "explanationZhHant": "固定連接語是複數 in other words。 [規則族：GF_IN_OTHER_WORDS；來源規則：FIXED.IN_OTHER_WORDS.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_INSTEAD_OF_GERUND",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Instead of plus noun or gerund, including passive being plus participle",
+    "formula": "GF_INSTEAD_OF_GERUND",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_INSTEAD_OF_GERUND",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology",
+      "source_rule:PREP.INSTEAD_OF.PASSIVE_GERUND"
+    ],
+    "incorrectPattern": "to be",
+    "correctPattern": "of being",
+    "explanationZhHant": "固定結構是 instead of + 名詞／動名詞。被動形式為 instead of being + 過去分詞。 [規則族：GF_INSTEAD_OF_GERUND；來源規則：PREP.INSTEAD_OF.PASSIVE_GERUND.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_IRREGULAR_MAN_WOMAN_PLURAL",
+    "category": "singular_plural",
+    "titleZhHant": "文法規則：Use men and women as irregular plurals without an added s",
+    "formula": "GF_IRREGULAR_MAN_WOMAN_PLURAL",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_IRREGULAR_MAN_WOMAN_PLURAL",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:NOUN.IRREGULAR.MAN_MEN.NO_S",
+      "source_rule:NOUN.IRREGULAR.MAN_MEN",
+      "source_rule:NOUN.IRREGULAR.WOMAN_WOMEN.NO_S",
+      "source_rule:NOUN.IRREGULAR.WOMAN_WOMEN"
+    ],
+    "incorrectPattern": "woman,",
+    "correctPattern": "women,",
+    "explanationZhHant": "woman 的複數是 women。number of 後面接複數可數名詞。 [規則族：GF_IRREGULAR_MAN_WOMAN_PLURAL；來源規則：NOUN.IRREGULAR.MAN_MEN.NO_S.v1, NOUN.IRREGULAR.MAN_MEN.v1, NOUN.IRREGULAR.WOMAN_WOMEN.NO_S.v1, NOUN.IRREGULAR.WOMAN_WOMEN.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_KNOWN_BENEFIT_THE",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Known benefit the",
+    "formula": "GF_KNOWN_BENEFIT_THE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_KNOWN_BENEFIT_THE",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:discourse_coreference",
+      "source_rule:ARTICLE.KNOWN_BENEFIT.THE"
+    ],
+    "incorrectPattern": "benefit,",
+    "correctPattern": "the benefit,",
+    "explanationZhHant": "指本句已討論的特定 gym membership benefit，使用 the。 [規則族：GF_KNOWN_BENEFIT_THE；來源規則：ARTICLE.KNOWN_BENEFIT.THE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_LEAVE_PATIENT_TO_INFINITIVE",
+    "category": "verb_form_or_tense",
+    "titleZhHant": "文法規則：Leave a patient to undergo an autonomous state change",
+    "formula": "GF_LEAVE_PATIENT_TO_INFINITIVE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_LEAVE_PATIENT_TO_INFINITIVE",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_semantic_frame",
+      "source_rule:CAUSATIVE.LEAVE.OBJECT.TO_INFINITIVE"
+    ],
+    "incorrectPattern": "cooling",
+    "correctPattern": "to cool",
+    "explanationZhHant": "表示讓材料自行冷卻，用 leave + 物件 + to + 動詞原形。leave something cooling 在特定動態語境可能成立，但不是本程序的預定階段寫法。 [規則族：GF_LEAVE_PATIENT_TO_INFINITIVE；來源規則：CAUSATIVE.LEAVE.OBJECT.TO_INFINITIVE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_LESS_ADJECTIVE_NOT_FEWER",
+    "category": "comparison",
+    "titleZhHant": "文法規則：Less adjective not fewer",
+    "formula": "GF_LESS_ADJECTIVE_NOT_FEWER",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_LESS_ADJECTIVE_NOT_FEWER",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:DEGREE.LESS.ADJECTIVE.NOT_FEWER"
+    ],
+    "incorrectPattern": "fewer",
+    "correctPattern": "less",
+    "explanationZhHant": "popular 是形容詞，其較低程度用 less。fewer 只修飾複數可數名詞。 [規則族：GF_LESS_ADJECTIVE_NOT_FEWER；來源規則：DEGREE.LESS.ADJECTIVE.NOT_FEWER.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MAKE_A_SELECTION",
+    "category": "word_choice",
+    "titleZhHant": "文法規則：Make a selection",
+    "formula": "GF_MAKE_A_SELECTION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MAKE_A_SELECTION",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_frame",
+      "source_rule:COLLOC.MAKE_A_SELECTION"
+    ],
+    "incorrectPattern": "did",
+    "correctPattern": "made",
+    "explanationZhHant": "固定搭配是 make a selection／make selections，不用 do selections。 [規則族：GF_MAKE_A_SELECTION；來源規則：COLLOC.MAKE_A_SELECTION.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MAKE_UP_PROPORTION",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Make up proportion",
+    "formula": "GF_MAKE_UP_PROPORTION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MAKE_UP_PROPORTION",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_frame",
+      "source_rule:PHRASAL.MAKE_UP.PROPORTION"
+    ],
+    "incorrectPattern": "about",
+    "correctPattern": "up about",
+    "explanationZhHant": "表示某群體構成整體的比例，用 make up。 [規則族：GF_MAKE_UP_PROPORTION；來源規則：PHRASAL.MAKE_UP.PROPORTION.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MALE_ADVANTAGE_CATEGORY",
+    "category": "word_choice",
+    "titleZhHant": "文法規則：Male advantage category",
+    "formula": "GF_MALE_ADVANTAGE_CATEGORY",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MALE_ADVANTAGE_CATEGORY",
+      "classification:style",
+      "execution_policy:guidance_only",
+      "matcher_type:register_construction",
+      "source_rule:COLLOC.MALE_ADVANTAGE.CATEGORY"
+    ],
+    "incorrectPattern": "advantage for males.",
+    "correctPattern": "male advantage.",
+    "explanationZhHant": "圖表中表示男性數值較高，可簡潔寫 a male advantage。原結構可理解，宜設為寫法建議而非硬性錯誤。 [規則族：GF_MALE_ADVANTAGE_CATEGORY；來源規則：COLLOC.MALE_ADVANTAGE.CATEGORY.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MANNER_ADVERB_FORM",
+    "category": "verb_form_or_tense",
+    "titleZhHant": "文法規則：Adverb form for a manner modifier of a verb",
+    "formula": "GF_MANNER_ADVERB_FORM",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MANNER_ADVERB_FORM",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_morphology",
+      "source_rule:PASSIVE.MOULDS.ARE_REPAIRED.ADVERB"
+    ],
+    "incorrectPattern": "separate,",
+    "correctPattern": "separately, the",
+    "explanationZhHant": "修飾動詞 ranked 使用副詞 separately。 [規則族：GF_MANNER_ADVERB_FORM；來源規則：PASSIVE.MOULDS.ARE_REPAIRED.ADVERB.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MARGIN_BY_AMOUNT",
+    "category": "comparison",
+    "titleZhHant": "文法規則：By introduces the size of a difference or change",
+    "formula": "GF_MARGIN_BY_AMOUNT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MARGIN_BY_AMOUNT",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:COMP.BY_FEWER_THAN.COUNT_NOUN",
+      "source_rule:PREP.EXCEED.BY_MARGIN",
+      "source_rule:PREP.OUTNUMBER.BY_MARGIN",
+      "source_rule:VERB.NARROW.BY_AMOUNT"
+    ],
+    "incorrectPattern": "with",
+    "correctPattern": "by",
+    "explanationZhHant": "表示多出多少，用 outnumber A by + 差額／比例。 [規則族：GF_MARGIN_BY_AMOUNT；來源規則：COMP.BY_FEWER_THAN.COUNT_NOUN.v1, PREP.EXCEED.BY_MARGIN.v1, PREP.OUTNUMBER.BY_MARGIN.v1, VERB.NARROW.BY_AMOUNT.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MARK_WITH_INFORMATION",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Mark an item with information",
+    "formula": "GF_MARK_WITH_INFORMATION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MARK_WITH_INFORMATION",
+      "classification:semantic",
+      "execution_policy:local_review",
+      "matcher_type:lexical_semantic_frame",
+      "source_rule:PREP.MARK.WITH.INFORMATION"
+    ],
+    "incorrectPattern": "by its",
+    "correctPattern": "with their",
+    "explanationZhHant": "表示產品上標有某項資料，用 marked with + 資料。marked by 可表示某時期以某特徵著稱。 [規則族：GF_MARK_WITH_INFORMATION；來源規則：PREP.MARK.WITH.INFORMATION.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MEASUREMENT_UNIT_NUMBER",
+    "category": "word_choice",
+    "titleZhHant": "文法規則：Plural measurement unit after a non-unit number",
+    "formula": "GF_MEASUREMENT_UNIT_NUMBER",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MEASUREMENT_UNIT_NUMBER",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:measure_phrase",
+      "source_rule:UNIT.DEGREES.CELSIUS.PLURAL"
+    ],
+    "incorrectPattern": "degree",
+    "correctPattern": "degrees",
+    "explanationZhHant": "數值大於一時使用複數 degrees Celsius。作前置複合修飾語時可寫 an 80-degree chamber。 [規則族：GF_MEASUREMENT_UNIT_NUMBER；來源規則：UNIT.DEGREES.CELSIUS.PLURAL.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MORE_THAN_FRACTION",
+    "category": "countability",
+    "titleZhHant": "文法規則：More than fraction",
+    "formula": "GF_MORE_THAN_FRACTION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MORE_THAN_FRACTION",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:QUANTIFIER.MORE_THAN.FRACTION"
+    ],
+    "incorrectPattern": "one",
+    "correctPattern": "than one",
+    "explanationZhHant": "表示超過某分數，使用 more than + 分數。 [規則族：GF_MORE_THAN_FRACTION；來源規則：QUANTIFIER.MORE_THAN.FRACTION.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MORE_THAN_ONE_SINGULAR",
+    "category": "countability",
+    "titleZhHant": "文法規則：More than one selects a singular count noun",
+    "formula": "GF_MORE_THAN_ONE_SINGULAR",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MORE_THAN_ONE_SINGULAR",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:QUANTIFIER.MORE_THAN_ONE.SINGULAR"
+    ],
+    "incorrectPattern": "then",
+    "correctPattern": "than",
+    "explanationZhHant": "比較詞是 than；固定結構 more than one 後面使用單數名詞。 [規則族：GF_MORE_THAN_ONE_SINGULAR；來源規則：QUANTIFIER.MORE_THAN_ONE.SINGULAR.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MOTION_REALIZED_DESTINATION_TO",
+    "category": "preposition",
+    "titleZhHant": "文法規則：To for a realized motion destination",
+    "formula": "GF_MOTION_REALIZED_DESTINATION_TO",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MOTION_REALIZED_DESTINATION_TO",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role",
+      "source_rule:PREP.TRANSPORT.TO_DESTINATION",
+      "source_rule:PREP.TO.DEFINITE_ENDPOINT",
+      "source_rule:PREP.TRANSPORT.TO.DESTINATION"
+    ],
+    "incorrectPattern": "at",
+    "correctPattern": "to",
+    "explanationZhHant": "to 引出運送目的地；at 表示物件已位於該地點。 [規則族：GF_MOTION_REALIZED_DESTINATION_TO；來源規則：PREP.TRANSPORT.TO_DESTINATION.v1, PREP.TO.DEFINITE_ENDPOINT.v1, PREP.TRANSPORT.TO.DESTINATION.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_MULTIPLIER_THREE_TIMES_BASE",
+    "category": "comparison",
+    "titleZhHant": "文法規則：Multiplier three times base",
+    "formula": "GF_MULTIPLIER_THREE_TIMES_BASE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_MULTIPLIER_THREE_TIMES_BASE",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:COMP.MULTIPLIER.THREE_TIMES_BASE"
+    ],
+    "incorrectPattern": "higher than",
+    "correctPattern": "the",
+    "explanationZhHant": "若女性數值是男性數值的三倍，應寫 three times the male figure。three times higher than 可能被解讀為四倍，倍數意思不安全。 [規則族：GF_MULTIPLIER_THREE_TIMES_BASE；來源規則：COMP.MULTIPLIER.THREE_TIMES_BASE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_NUMBER_OF_COUNT_PEOPLE",
+    "category": "countability",
+    "titleZhHant": "文法規則：Number of, not amount of, quantifies plural countable people",
+    "formula": "GF_NUMBER_OF_COUNT_PEOPLE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_NUMBER_OF_COUNT_PEOPLE",
+      "classification:structural",
+      "execution_policy:local_review",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:COUNT.NUMBER.OF_EMPLOYEES",
+      "source_rule:COUNT.NUMBER.OF_PEOPLE.NOT_AMOUNT",
+      "source_rule:NOUN.NUMBER_OF.PASSENGERS.ORDER"
+    ],
+    "incorrectPattern": "amount",
+    "correctPattern": "numbers",
+    "explanationZhHant": "employees 是複數可數名詞，因此使用 number。amount 修飾不可數名詞，如 the amount of money。 [規則族：GF_NUMBER_OF_COUNT_PEOPLE；來源規則：COUNT.NUMBER.OF_EMPLOYEES.v1, COUNT.NUMBER.OF_PEOPLE.NOT_AMOUNT.v1, NOUN.NUMBER_OF.PASSENGERS.ORDER.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_NUMERAL_ATTRIBUTIVE_NOUN_SINGULAR",
+    "category": "singular_plural",
+    "titleZhHant": "文法規則：Singular unit noun in numeral compound modifier",
+    "formula": "GF_NUMERAL_ATTRIBUTIVE_NOUN_SINGULAR",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_NUMERAL_ATTRIBUTIVE_NOUN_SINGULAR",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency",
+      "source_rule:NOUN.NUMERAL.COMPOUND.SINGULAR_STAGE"
+    ],
+    "incorrectPattern": "twelve-stages",
+    "correctPattern": "twelve-stage",
+    "explanationZhHant": "數字和名詞共同放在另一名詞前作修飾語時，名詞保持單數：a twelve-stage process。 [規則族：GF_NUMERAL_ATTRIBUTIVE_NOUN_SINGULAR；來源規則：NOUN.NUMERAL.COMPOUND.SINGULAR_STAGE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_NUMERAL_BEFORE_COMPARATIVE",
+    "category": "comparison",
+    "titleZhHant": "文法規則：Numeral before comparative",
+    "formula": "GF_NUMERAL_BEFORE_COMPARATIVE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_NUMERAL_BEFORE_COMPARATIVE",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:COMP.NUMERAL_BEFORE_COMPARATIVE"
+    ],
+    "incorrectPattern": "higher 80",
+    "correctPattern": "80",
+    "explanationZhHant": "差額數字放在比較級前：80 higher than。 [規則族：GF_NUMERAL_BEFORE_COMPARATIVE；來源規則：COMP.NUMERAL_BEFORE_COMPARATIVE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+    "category": "comparison",
+    "titleZhHant": "文法規則：Numeral plus more plus count noun plus than comparison",
+    "formula": "GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:COMP.NUMERAL_MORE_NOUN_THAN"
+    ],
+    "incorrectPattern": "more 60",
+    "correctPattern": "60",
+    "explanationZhHant": "差額放在 more 前：60 more women than men。比較對象由 than 引出。 [規則族：GF_NUMERAL_MORE_COUNT_NOUN_THAN；來源規則：COMP.NUMERAL_MORE_NOUN_THAN.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_OCCUPY_RANK_POSITION",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Occupy rank position",
+    "formula": "GF_OCCUPY_RANK_POSITION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_OCCUPY_RANK_POSITION",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_frame",
+      "source_rule:VERB.OCCUPY.RANK_POSITION"
+    ],
+    "incorrectPattern": "locates at the",
+    "correctPattern": "occupies",
+    "explanationZhHant": "表示某類別位居某一名次，可用 occupy + position/place。locate 通常表示找出或設置實體位置。 [規則族：GF_OCCUPY_RANK_POSITION；來源規則：VERB.OCCUPY.RANK_POSITION.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_ONCE_CLAUSE_REDUCTION",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：Well-formed finite or adjectival clause after once",
+    "formula": "GF_ONCE_CLAUSE_REDUCTION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_ONCE_CLAUSE_REDUCTION",
+      "classification:structural",
+      "execution_policy:local_review",
+      "matcher_type:clause_pattern",
+      "source_rule:CLAUSE.ONCE.FINITE_OR_ADJECTIVE",
+      "source_rule:CLAUSE.ONCE.ADJECTIVE.REDUCTION"
+    ],
+    "incorrectPattern": "cleaning,",
+    "correctPattern": "they are clean,",
+    "explanationZhHant": "once 後可接完整分句 once they are clean，或縮減為 once clean。once cleaning 會錯誤地表示瓶子主動清洗其他東西。 [規則族：GF_ONCE_CLAUSE_REDUCTION；來源規則：CLAUSE.ONCE.FINITE_OR_ADJECTIVE.v1, CLAUSE.ONCE.ADJECTIVE.REDUCTION.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_ONE_SIXTH_OF_BASE",
+    "category": "comparison",
+    "titleZhHant": "文法規則：One sixth of base",
+    "formula": "GF_ONE_SIXTH_OF_BASE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_ONE_SIXTH_OF_BASE",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:FRACTION.ONE_SIXTH.OF_BASE"
+    ],
+    "incorrectPattern": "from",
+    "correctPattern": "of",
+    "explanationZhHant": "分數所參照的基數由 of 引出：one sixth of the male figure。 [規則族：GF_ONE_SIXTH_OF_BASE；來源規則：FRACTION.ONE_SIXTH.OF_BASE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_ONLY_SINGULAR_CATEGORY_THE",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Only singular category the",
+    "formula": "GF_ONLY_SINGULAR_CATEGORY_THE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_ONLY_SINGULAR_CATEGORY_THE",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:discourse_coreference",
+      "source_rule:ARTICLE.ONLY.SINGULAR_CATEGORY.THE"
+    ],
+    "incorrectPattern": "only",
+    "correctPattern": "the only",
+    "explanationZhHant": "only 界定唯一的一項，單數名詞前使用 the。 [規則族：GF_ONLY_SINGULAR_CATEGORY_THE；來源規則：ARTICLE.ONLY.SINGULAR_CATEGORY.THE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_OPPOSITE_PATTERN_THE",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Opposite pattern the",
+    "formula": "GF_OPPOSITE_PATTERN_THE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_OPPOSITE_PATTERN_THE",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:discourse_coreference",
+      "source_rule:ARTICLE.OPPOSITE_PATTERN.THE"
+    ],
+    "incorrectPattern": "showed an",
+    "correctPattern": "displayed the",
+    "explanationZhHant": "opposite 表示與剛提及模式相反的那一種特定模式，因此用 the。 [規則族：GF_OPPOSITE_PATTERN_THE；來源規則：ARTICLE.OPPOSITE_PATTERN.THE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_OUTNUMBER_PEOPLE",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Outnumber people",
+    "formula": "GF_OUTNUMBER_PEOPLE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_OUTNUMBER_PEOPLE",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_frame",
+      "source_rule:VERB.OUTNUMBER.PEOPLE"
+    ],
+    "incorrectPattern": "exceeded",
+    "correctPattern": "outnumbered",
+    "explanationZhHant": "比較兩群人的人數時，用 outnumber + 人群。exceed 通常由數值或數量作主語，如 the female figure exceeded...。 [規則族：GF_OUTNUMBER_PEOPLE；來源規則：VERB.OUTNUMBER.PEOPLE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_OVERALL_NO_IN",
+    "category": "word_form",
+    "titleZhHant": "文法規則：Overall no in",
+    "formula": "GF_OVERALL_NO_IN",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_OVERALL_NO_IN",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:ADVERB.OVERALL.NO_IN"
+    ],
+    "incorrectPattern": "in overall",
+    "correctPattern": "overall",
+    "explanationZhHant": "overall 可直接作副詞，表示整體而言，不在前面加 in。 [規則族：GF_OVERALL_NO_IN；來源規則：ADVERB.OVERALL.NO_IN.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PACK_IN_GROUPS",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Pack in groups of a stated size",
+    "formula": "GF_PACK_IN_GROUPS",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PACK_IN_GROUPS",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:construction",
+      "source_rule:PREP.PACK.IN.GROUPS_OF"
+    ],
+    "incorrectPattern": "by",
+    "correctPattern": "in",
+    "explanationZhHant": "表示包裝的分組方式，用 in groups of + 數字。 [規則族：GF_PACK_IN_GROUPS；來源規則：PREP.PACK.IN.GROUPS_OF.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PARTICIPIAL_PREMODIFIER_ATTACHMENT",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：Rewrite a heavy eventive participial premodifier as a relative clause",
+    "formula": "GF_PARTICIPIAL_PREMODIFIER_ATTACHMENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PARTICIPIAL_PREMODIFIER_ATTACHMENT",
+      "classification:structural",
+      "execution_policy:remote_review",
+      "matcher_type:constituency_dependency",
+      "source_rule:CLAUSE.PARTICIPIAL_PREMODIFIER.MISATTACHMENT"
+    ],
+    "incorrectPattern": "Passing",
+    "correctPattern": "Blocks that pass",
+    "explanationZhHant": "長而複雜的現在分詞片語不能自然放在 blocks 前。使用後置關係分句可清楚表示是 blocks 通過測試。 [規則族：GF_PARTICIPIAL_PREMODIFIER_ATTACHMENT；來源規則：CLAUSE.PARTICIPIAL_PREMODIFIER.MISATTACHMENT.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PASSIVE_BE_PAST_PARTICIPLE",
+    "category": "verb_form_or_tense",
+    "titleZhHant": "文法規則：Past participle after passive be",
+    "formula": "GF_PASSIVE_BE_PAST_PARTICIPLE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PASSIVE_BE_PAST_PARTICIPLE",
+      "classification:structural",
+      "execution_policy:local_review",
+      "matcher_type:dependency_semantic",
+      "source_rule:PASSIVE.PRESENT.HEAT.IS_APPLIED"
+    ],
+    "incorrectPattern": "applying",
+    "correctPattern": "applied",
+    "explanationZhHant": "heat 是被施加的事物，所以使用現在被動語態 is applied。 [規則族：GF_PASSIVE_BE_PAST_PARTICIPLE；來源規則：PASSIVE.PRESENT.HEAT.IS_APPLIED.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PASSIVE_CANNOT_BE_USED",
+    "category": "modal_or_auxiliary",
+    "titleZhHant": "文法規則：Passive cannot be used",
+    "formula": "GF_PASSIVE_CANNOT_BE_USED",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PASSIVE_CANNOT_BE_USED",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_construction",
+      "source_rule:MODAL.PASSIVE.CANNOT_BE_USED"
+    ],
+    "incorrectPattern": "use for",
+    "correctPattern": "be used to",
+    "explanationZhHant": "chart 是被用來計算的工具，所以使用情態動詞被動語態。 [規則族：GF_PASSIVE_CANNOT_BE_USED；來源規則：MODAL.PASSIVE.CANNOT_BE_USED.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PATH_ALONG_LINEAR_SUPPORT",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Along for motion following a linear support",
+    "formula": "GF_PATH_ALONG_LINEAR_SUPPORT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PATH_ALONG_LINEAR_SUPPORT",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role",
+      "source_rule:PREP.TRAVEL.ALONG.CONVEYOR"
+    ],
+    "incorrectPattern": "through",
+    "correctPattern": "along",
+    "explanationZhHant": "物件沿着輸送帶移動，用 along。through 表示從某空間或通道內部穿過。 [規則族：GF_PATH_ALONG_LINEAR_SUPPORT；來源規則：PREP.TRAVEL.ALONG.CONVEYOR.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PERFECT_PASSIVE_INSERT_BEEN",
+    "category": "verb_form_or_tense",
+    "titleZhHant": "文法規則：Have been plus past participle for perfect passive",
+    "formula": "GF_PERFECT_PASSIVE_INSERT_BEEN",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PERFECT_PASSIVE_INSERT_BEEN",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_semantic",
+      "source_rule:PASSIVE.PRESENT_PERFECT.HAVE_BEEN_COATED",
+      "source_rule:PASSIVE.PRESENT_PERFECT.MOULDS_FILLED"
+    ],
+    "incorrectPattern": "coated",
+    "correctPattern": "been coated",
+    "explanationZhHant": "surfaces 是被塗油的事物，現在完成式被動使用 have been + 過去分詞。 [規則族：GF_PERFECT_PASSIVE_INSERT_BEEN；來源規則：PASSIVE.PRESENT_PERFECT.HAVE_BEEN_COATED.v1, PASSIVE.PRESENT_PERFECT.MOULDS_FILLED.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PLACE_ON_CONTACT_SURFACE",
+    "category": "preposition",
+    "titleZhHant": "文法規則：On for placement in contact with a supporting surface",
+    "formula": "GF_PLACE_ON_CONTACT_SURFACE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PLACE_ON_CONTACT_SURFACE",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:spatial_semantics",
+      "source_rule:PREP.PLACE.ON.SURFACE"
+    ],
+    "incorrectPattern": "over",
+    "correctPattern": "on",
+    "explanationZhHant": "物件放在托盤表面，用 on。over 表示在上方但未必接觸。 [規則族：GF_PLACE_ON_CONTACT_SURFACE；來源規則：PREP.PLACE.ON.SURFACE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_POSSESSIVE_PRONOUN_NUMBER_AGREEMENT",
+    "category": "pronoun",
+    "titleZhHant": "文法規則：Possessive pronoun agrees with its coreferent",
+    "formula": "GF_POSSESSIVE_PRONOUN_NUMBER_AGREEMENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_POSSESSIVE_PRONOUN_NUMBER_AGREEMENT",
+      "classification:structural",
+      "execution_policy:remote_review",
+      "matcher_type:coreference_morphology",
+      "source_rule:PRONOUN.PLURAL_FLAKES.THEIR",
+      "source_rule:PRONOUN.PLURAL_BLOCKS.THEIR"
+    ],
+    "incorrectPattern": "its",
+    "correctPattern": "their",
+    "explanationZhHant": "所有格指回複數 flakes，因此使用 their。 [規則族：GF_POSSESSIVE_PRONOUN_NUMBER_AGREEMENT；來源規則：PRONOUN.PLURAL_FLAKES.THEIR.v1, PRONOUN.PLURAL_BLOCKS.THEIR.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_POUR_INTO_CONTAINER",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Into for caused motion entering a container",
+    "formula": "GF_POUR_INTO_CONTAINER",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_POUR_INTO_CONTAINER",
+      "classification:semantic",
+      "execution_policy:local_review",
+      "matcher_type:lexical_semantic_frame",
+      "source_rule:PREP.POUR.INTO.CONTAINER"
+    ],
+    "incorrectPattern": "in",
+    "correctPattern": "into",
+    "explanationZhHant": "液體由外部進入容器，用 pour into。in 表示已在容器內。 [規則族：GF_POUR_INTO_CONTAINER；來源規則：PREP.POUR.INTO.CONTAINER.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PRESSURE_PREPOSITION_FRAME",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Under or at a pressure, not with a pressure",
+    "formula": "GF_PRESSURE_PREPOSITION_FRAME",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PRESSURE_PREPOSITION_FRAME",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:construction",
+      "source_rule:PREP.UNDER.A_PRESSURE_OF"
+    ],
+    "incorrectPattern": "with",
+    "correctPattern": "under",
+    "explanationZhHant": "表示物件承受某個壓力，用 under a pressure of + 數值。也可寫 compressed at a pressure of...。 [規則族：GF_PRESSURE_PREPOSITION_FRAME；來源規則：PREP.UNDER.A_PRESSURE_OF.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PRIOR_TO_OR_BEFORE_GERUND",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Prior to plus gerund, or before plus gerund",
+    "formula": "GF_PRIOR_TO_OR_BEFORE_GERUND",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PRIOR_TO_OR_BEFORE_GERUND",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology",
+      "source_rule:PREP.PRIOR_TO.OR_BEFORE_GERUND"
+    ],
+    "incorrectPattern": "prior",
+    "correctPattern": "before",
+    "explanationZhHant": "prior 若作介詞短語，必須寫 prior to + 動名詞。較簡單的寫法是 before authorising。 [規則族：GF_PRIOR_TO_OR_BEFORE_GERUND；來源規則：PREP.PRIOR_TO.OR_BEFORE_GERUND.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PROCESS_BOUNDARY_WITH",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Begin/end with a named process stage",
+    "formula": "GF_PROCESS_BOUNDARY_WITH",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PROCESS_BOUNDARY_WITH",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_frame",
+      "source_rule:PROCESS.BEGIN.WITH.STAGE_NOUN",
+      "source_rule:PROCESS.END.WITH.STAGE_NOUN"
+    ],
+    "incorrectPattern": "from collecting",
+    "correctPattern": "with the collection",
+    "explanationZhHant": "描述程序的第一個階段，常用 begin with + 名詞／動名詞。begin from 通常引出時間或空間起點。 [規則族：GF_PROCESS_BOUNDARY_WITH；來源規則：PROCESS.BEGIN.WITH.STAGE_NOUN.v1, PROCESS.END.WITH.STAGE_NOUN.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PROCESS_NOUN_COUNT_CONSTRUAL",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Mass-process versus count-event article construal",
+    "formula": "GF_PROCESS_NOUN_COUNT_CONSTRUAL",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PROCESS_NOUN_COUNT_CONSTRUAL",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:lexical_sense",
+      "source_rule:VERB.UNDERGO.PROCESS_NOUN.ZERO_ARTICLE"
+    ],
+    "incorrectPattern": "a washing",
+    "correctPattern": "washing",
+    "explanationZhHant": "表示接受某種加工過程時，可寫 undergo washing/testing/treatment。若指一次獨立的清洗，可寫 undergo a wash。 [規則族：GF_PROCESS_NOUN_COUNT_CONSTRUAL；來源規則：VERB.UNDERGO.PROCESS_NOUN.ZERO_ARTICLE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_PURPOSE_TO_INFINITIVE_PREFERENCE",
+    "category": "infinitive_or_gerund",
+    "titleZhHant": "文法規則：Purpose infinitive preferred over for plus gerund after an action",
+    "formula": "GF_PURPOSE_TO_INFINITIVE_PREFERENCE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_PURPOSE_TO_INFINITIVE_PREFERENCE",
+      "classification:style",
+      "execution_policy:guidance_only",
+      "matcher_type:style_pattern",
+      "source_rule:INFINITIVE.PURPOSE.TO_PREVENT"
+    ],
+    "incorrectPattern": "for preventing",
+    "correctPattern": "to prevent",
+    "explanationZhHant": "表示塗油這個動作的具體目的，用 to + 動詞原形。for preventing 可在名詞用途描述中成立，但此處較不合適。 [規則族：GF_PURPOSE_TO_INFINITIVE_PREFERENCE；來源規則：INFINITIVE.PURPOSE.TO_PREVENT.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_RANK_FOR_GROUP",
+    "category": "preposition",
+    "titleZhHant": "文法規則：For introduces the group whose ranking is stated",
+    "formula": "GF_RANK_FOR_GROUP",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_RANK_FOR_GROUP",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:PREP.RANKING.FOR_GROUP",
+      "source_rule:RANK.FIFTH_FOR_GROUP",
+      "source_rule:SVA.SINGULAR_ORDER.FOR_GROUP"
+    ],
+    "incorrectPattern": "position of",
+    "correctPattern": "positions for",
+    "explanationZhHant": "表示屬於某組的排名，用 positions for women。 [規則族：GF_RANK_FOR_GROUP；來源規則：PREP.RANKING.FOR_GROUP.v1, RANK.FIFTH_FOR_GROUP.v1, SVA.SINGULAR_ORDER.FOR_GROUP.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_RANK_FOURTH_NO_THE",
+    "category": "word_form",
+    "titleZhHant": "文法規則：Rank fourth no the",
+    "formula": "GF_RANK_FOURTH_NO_THE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_RANK_FOURTH_NO_THE",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:ADVERB.RANK.FOURTH.NO_THE"
+    ],
+    "incorrectPattern": "the fourth",
+    "correctPattern": "fourth",
+    "explanationZhHant": "rank fourth 中序數詞作排名補語，不加 the。名詞結構則寫 in fourth place。 [規則族：GF_RANK_FOURTH_NO_THE；來源規則：ADVERB.RANK.FOURTH.NO_THE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_RATHER_THAN_COMPARISON",
+    "category": "conjunction",
+    "titleZhHant": "文法規則：Rather than comparison",
+    "formula": "GF_RATHER_THAN_COMPARISON",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_RATHER_THAN_COMPARISON",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_construction",
+      "source_rule:CONJ.RATHER_THAN.COMPARISON"
+    ],
+    "incorrectPattern": "instead",
+    "correctPattern": "rather than",
+    "explanationZhHant": "rather than 可直接連接兩個平行名詞。若使用 instead，通常要寫 instead of percentages。 [規則族：GF_RATHER_THAN_COMPARISON；來源規則：CONJ.RATHER_THAN.COMPARISON.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_RATIO_OF_A_TO_B",
+    "category": "singular_plural",
+    "titleZhHant": "文法規則：Ratio of A to B",
+    "formula": "GF_RATIO_OF_A_TO_B",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_RATIO_OF_A_TO_B",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:construction",
+      "source_rule:NOUN.RATIO.OF.COMPONENT",
+      "source_rule:NOUN.RATIO.A_TO_B"
+    ],
+    "incorrectPattern": "from",
+    "correctPattern": "of",
+    "explanationZhHant": "名詞 ratio 後用 of 引出比例的組成。 [規則族：GF_RATIO_OF_A_TO_B；來源規則：NOUN.RATIO.OF.COMPONENT.v1, NOUN.RATIO.A_TO_B.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_REDUCED_RELATIVE_VOICE_FORM",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：Active present participle in a reduced relative clause",
+    "formula": "GF_REDUCED_RELATIVE_VOICE_FORM",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_REDUCED_RELATIVE_VOICE_FORM",
+      "classification:structural",
+      "execution_policy:remote_review",
+      "matcher_type:dependency_semantic",
+      "source_rule:CLAUSE.REDUCED_RELATIVE.ACTIVE.SPILLING"
+    ],
+    "incorrectPattern": "spilled",
+    "correctPattern": "spilling",
+    "explanationZhHant": "mixture 主動溢出，所以縮減關係分句使用現在分詞 spilling。spilled 會暗示混合物被別人潑灑。 [規則族：GF_REDUCED_RELATIVE_VOICE_FORM；來源規則：CLAUSE.REDUCED_RELATIVE.ACTIVE.SPILLING.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_REDUNDANT_PATH_PREPOSITION_STACK",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Remove an incompatible path preposition before beneath",
+    "formula": "GF_REDUNDANT_PATH_PREPOSITION_STACK",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_REDUNDANT_PATH_PREPOSITION_STACK",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_dependency",
+      "source_rule:PREP.PASS.BENEATH.NO_THROUGH"
+    ],
+    "incorrectPattern": "through beneath",
+    "correctPattern": "beneath",
+    "explanationZhHant": "beneath 已直接表示從磁鐵下方經過，不再加入 through。 [規則族：GF_REDUNDANT_PATH_PREPOSITION_STACK；來源規則：PREP.PASS.BENEATH.NO_THROUGH.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_REMAIN_UNTIL_TERMINUS",
+    "category": "conjunction",
+    "titleZhHant": "文法規則：Until marks the event terminating a continuing state",
+    "formula": "GF_REMAIN_UNTIL_TERMINUS",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_REMAIN_UNTIL_TERMINUS",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:aspectual_semantics",
+      "source_rule:CONJ.REMAIN.UNTIL.EVENT"
+    ],
+    "incorrectPattern": "before",
+    "correctPattern": "until",
+    "explanationZhHant": "表示一直留在某處，直至另一事件發生，用 remain...until...。before 只表達先後，不一定表示持續。 [規則族：GF_REMAIN_UNTIL_TERMINUS；來源規則：CONJ.REMAIN.UNTIL.EVENT.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_REMOVE_FROM_ORIGIN",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Remove an object from its origin or container",
+    "formula": "GF_REMOVE_FROM_ORIGIN",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_REMOVE_FROM_ORIGIN",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:PREP.REMOVE.FROM_SOURCE",
+      "source_rule:PREP.REMOVE.FROM.CONTAINER"
+    ],
+    "incorrectPattern": "off",
+    "correctPattern": "from",
+    "explanationZhHant": "remove + 物件 + from + 地點 表示把某物從一處移走。 [規則族：GF_REMOVE_FROM_ORIGIN；來源規則：PREP.REMOVE.FROM_SOURCE.v1, PREP.REMOVE.FROM.CONTAINER.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_REQUIRED_TIME_REDUCED_PASSIVE",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：Time required to perform an action",
+    "formula": "GF_REQUIRED_TIME_REDUCED_PASSIVE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_REQUIRED_TIME_REDUCED_PASSIVE",
+      "classification:structural",
+      "execution_policy:local_review",
+      "matcher_type:clause_semantic",
+      "source_rule:CLAUSE.REDUCED_RELATIVE.PASSIVE.REQUIRED"
+    ],
+    "incorrectPattern": "requiring for collecting",
+    "correctPattern": "required to collect",
+    "explanationZhHant": "time 是收集瓶子所需要的時間，所以用過去分詞 required；其後接目的不定詞 to collect。 [規則族：GF_REQUIRED_TIME_REDUCED_PASSIVE；來源規則：CLAUSE.REDUCED_RELATIVE.PASSIVE.REQUIRED.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_RESISTANCE_TO_FRAME",
+    "category": "singular_plural",
+    "titleZhHant": "文法規則：Resistance to a substance, force, or influence",
+    "formula": "GF_RESISTANCE_TO_FRAME",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_RESISTANCE_TO_FRAME",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:NOUN.RESISTANCE.TO"
+    ],
+    "incorrectPattern": "against",
+    "correctPattern": "to",
+    "explanationZhHant": "固定搭配是 resistance to + 物質／力量。protection against water 則使用 against。 [規則族：GF_RESISTANCE_TO_FRAME；來源規則：NOUN.RESISTANCE.TO.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_RESULTATIVE_INTO_FRAME",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Into introduces the result of material transformation",
+    "formula": "GF_RESULTATIVE_INTO_FRAME",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_RESULTATIVE_INTO_FRAME",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_semantic_frame",
+      "source_rule:VERB.CUT.NP.INTO_PARTS",
+      "source_rule:VERB.MELT.NP.INTO.RESULT"
+    ],
+    "incorrectPattern": "to",
+    "correctPattern": "into",
+    "explanationZhHant": "把一個物件切成多個部分，用 cut + 物件 + into + 部分。 [規則族：GF_RESULTATIVE_INTO_FRAME；來源規則：VERB.CUT.NP.INTO_PARTS.v1, VERB.MELT.NP.INTO.RESULT.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_RESULTING_PARTICIPLE_MODIFIER",
+    "category": "infinitive_or_gerund",
+    "titleZhHant": "文法規則：Resulting, not resulted, as an active attributive participle",
+    "formula": "GF_RESULTING_PARTICIPLE_MODIFIER",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_RESULTING_PARTICIPLE_MODIFIER",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphology_dependency",
+      "source_rule:PARTICIPLE.RESULTING.NOT_RESULTED"
+    ],
+    "incorrectPattern": "resulted",
+    "correctPattern": "resulting",
+    "explanationZhHant": "resulting 表示「由前一步產生的」。resulted 通常不直接作這種前置形容詞。 [規則族：GF_RESULTING_PARTICIPLE_MODIFIER；來源規則：PARTICIPLE.RESULTING.NOT_RESULTED.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_RETURN_BACK_REDUNDANCY",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Avoid redundant back after return in formal process prose",
+    "formula": "GF_RETURN_BACK_REDUNDANCY",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_RETURN_BACK_REDUNDANCY",
+      "classification:style",
+      "execution_policy:guidance_only",
+      "matcher_type:style_sequence",
+      "source_rule:VERB.RETURN.NO_REDUNDANT_BACK",
+      "source_rule:VERB.RETURN.TO.STAGE.NO_BACK"
+    ],
+    "incorrectPattern": "back to",
+    "correctPattern": "to",
+    "explanationZhHant": "return 本身已包含「回去」的意思，一般不再加入 back。非正式語言中可見，但正式 Task 1 宜避免。 [規則族：GF_RETURN_BACK_REDUNDANCY；來源規則：VERB.RETURN.NO_REDUNDANT_BACK.v1, VERB.RETURN.TO.STAGE.NO_BACK.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_RETURN_TO_PROCESS_STAGE",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Return to a process stage",
+    "formula": "GF_RETURN_TO_PROCESS_STAGE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_RETURN_TO_PROCESS_STAGE",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_semantic_frame",
+      "source_rule:VERB.RETURN.TO.STAGE.NO_BACK",
+      "source_rule:PREP.RETURN.TO.PROCESS_STAGE"
+    ],
+    "incorrectPattern": "back into",
+    "correctPattern": "to",
+    "explanationZhHant": "return to + 階段／地點；return 已包含返回意思，且不使用 into 表示程序階段。 [規則族：GF_RETURN_TO_PROCESS_STAGE；來源規則：VERB.RETURN.TO.STAGE.NO_BACK.v1, PREP.RETURN.TO.PROCESS_STAGE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SCRAPE_OFF_SURFACE",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Scrape material off a surface",
+    "formula": "GF_SCRAPE_OFF_SURFACE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SCRAPE_OFF_SURFACE",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:lexical_semantic_frame",
+      "source_rule:PHRASAL.SCRAPE.OFF.SURFACE"
+    ],
+    "incorrectPattern": "out",
+    "correctPattern": "off",
+    "explanationZhHant": "表示從表面刮走物料，用 scrape off。scrape out 表示從容器內部刮出。 [規則族：GF_SCRAPE_OFF_SURFACE；來源規則：PHRASAL.SCRAPE.OFF.SURFACE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SIZES_OF_GROUPS_COMPLEMENT",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Sizes of the groups uses an of-complement",
+    "formula": "GF_SIZES_OF_GROUPS_COMPLEMENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SIZES_OF_GROUPS_COMPLEMENT",
+      "classification:lexical_frame",
+      "execution_policy:local_review",
+      "matcher_type:lexical_frame",
+      "source_rule:PREP.SIZES.OF_THE_TWO_GROUPS"
+    ],
+    "incorrectPattern": "size for both group.",
+    "correctPattern": "sizes of the two groups.",
+    "explanationZhHant": "名詞 sizes 用 of 引出所屬群組；已明確是兩組，因此使用 the two groups。 [規則族：GF_SIZES_OF_GROUPS_COMPLEMENT；來源規則：PREP.SIZES.OF_THE_TWO_GROUPS.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SO_THAT_FINITE_CLAUSE",
+    "category": "conjunction",
+    "titleZhHant": "文法規則：So that before a finite result or purpose clause",
+    "formula": "GF_SO_THAT_FINITE_CLAUSE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SO_THAT_FINITE_CLAUSE",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:clause_pattern",
+      "source_rule:CONJ.SO_THAT.FINITE_RESULT"
+    ],
+    "incorrectPattern": "as",
+    "correctPattern": "that",
+    "explanationZhHant": "後面是完整分句，使用 so that + 主語 + 動詞。so as to 後面則接動詞原形。 [規則族：GF_SO_THAT_FINITE_CLAUSE；來源規則：CONJ.SO_THAT.FINITE_RESULT.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SPECIFIC_PERCENTAGE_THE",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Specific percentage the",
+    "formula": "GF_SPECIFIC_PERCENTAGE_THE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SPECIFIC_PERCENTAGE_THE",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:ARTICLE.SPECIFIC_PERCENTAGE.THE"
+    ],
+    "incorrectPattern": "percentage",
+    "correctPattern": "the percentage",
+    "explanationZhHant": "指每項選擇所對應的特定百分比，使用 the。 [規則族：GF_SPECIFIC_PERCENTAGE_THE；來源規則：ARTICLE.SPECIFIC_PERCENTAGE.THE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_STATIC_CHART_VERB_SIMPLE_PRESENT",
+    "category": "verb_form_or_tense",
+    "titleZhHant": "文法規則：Use simple present for a static chart or projection statement in Task 1",
+    "formula": "GF_STATIC_CHART_VERB_SIMPLE_PRESENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_STATIC_CHART_VERB_SIMPLE_PRESENT",
+      "classification:style",
+      "execution_policy:guidance_only",
+      "matcher_type:register_construction",
+      "source_rule:ASPECT.FIGURE.REPRESENT.SIMPLE_PRESENT",
+      "source_rule:ASPECT.PROJECTION.SIMPLE_PRESENT_SUGGEST"
+    ],
+    "incorrectPattern": "are representing",
+    "correctPattern": "represent",
+    "explanationZhHant": "圖表數字恆常代表某種數據，用一般現在式。進行式不適合這種圖表功能描述。 [規則族：GF_STATIC_CHART_VERB_SIMPLE_PRESENT；來源規則：ASPECT.FIGURE.REPRESENT.SIMPLE_PRESENT.v1, ASPECT.PROJECTION.SIMPLE_PRESENT_SUGGEST.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_STORE_IN_INTERIOR",
+    "category": "preposition",
+    "titleZhHant": "文法規則：In for storage inside a building",
+    "formula": "GF_STORE_IN_INTERIOR",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_STORE_IN_INTERIOR",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:spatial_semantics",
+      "source_rule:PREP.STORE.IN.BUILDING"
+    ],
+    "incorrectPattern": "at",
+    "correctPattern": "in",
+    "explanationZhHant": "表示存放在建築物內部，用 in。at the warehouse 可表示較概括的位置。 [規則族：GF_STORE_IN_INTERIOR；來源規則：PREP.STORE.IN.BUILDING.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "category": "subject_verb_agreement",
+    "titleZhHant": "文法規則：Finite verb agrees with its syntactic subject",
+    "formula": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_morphology",
+      "source_rule:SVA.RELATIVE.SINGULAR_BATCH.REMAINS",
+      "source_rule:SVA.UNCOUNTABLE.WASTEWATER.SINGULAR"
+    ],
+    "incorrectPattern": "was",
+    "correctPattern": "were",
+    "explanationZhHant": "flexible working hours 在這裡保留複數語法形式，因此被動助動詞使用 were。若圖例把它明確當作一個單一標籤，需記錄產品的標籤一致政策。 [規則族：GF_SUBJECT_VERB_NUMBER_AGREEMENT；來源規則：SVA.RELATIVE.SINGULAR_BATCH.REMAINS.v1, SVA.UNCOUNTABLE.WASTEWATER.SINGULAR.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SUBJECTED_TO_TEST_FRAME",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Be subjected to a test or process",
+    "formula": "GF_SUBJECTED_TO_TEST_FRAME",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SUBJECTED_TO_TEST_FRAME",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:VERB.SUBJECT.NP.TO_TEST"
+    ],
+    "incorrectPattern": "subject for",
+    "correctPattern": "subjected to",
+    "explanationZhHant": "表示物件接受測試，用動詞被動結構 be subjected to。be subject to 也可表示受某條件支配，但不用 for。 [規則族：GF_SUBJECTED_TO_TEST_FRAME；來源規則：VERB.SUBJECT.NP.TO_TEST.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SUBSTANCE_WITH_NOT_AGENT_BY",
+    "category": "preposition",
+    "titleZhHant": "文法規則：With for applied substance; by for agent",
+    "formula": "GF_SUBSTANCE_WITH_NOT_AGENT_BY",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SUBSTANCE_WITH_NOT_AGENT_BY",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role",
+      "source_rule:PREP.WASH.WITH_SUBSTANCE",
+      "source_rule:PREP.COAT.WITH.SUBSTANCE"
+    ],
+    "incorrectPattern": "by",
+    "correctPattern": "with",
+    "explanationZhHant": "用甚麼物質清洗，使用 with。by 可引出執行者或方法，如 washed by a machine。 [規則族：GF_SUBSTANCE_WITH_NOT_AGENT_BY；來源規則：PREP.WASH.WITH_SUBSTANCE.v1, PREP.COAT.WITH.SUBSTANCE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SUBSTITUTE_PRONOUN_NUMBER_AGREEMENT",
+    "category": "pronoun",
+    "titleZhHant": "文法規則：That or those agrees with the number of the omitted head",
+    "formula": "GF_SUBSTITUTE_PRONOUN_NUMBER_AGREEMENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SUBSTITUTE_PRONOUN_NUMBER_AGREEMENT",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:discourse_coreference",
+      "source_rule:REFERENCE.THAT.SINGULAR_FIGURE",
+      "source_rule:REFERENCE.THAT.SINGULAR_NUMBER",
+      "source_rule:REFERENCE.THOSE.PLURAL_FIGURES"
+    ],
+    "incorrectPattern": "time those",
+    "correctPattern": "times that",
+    "explanationZhHant": "被代替的是單數名詞 number，所以用 that；those 代替複數。 [規則族：GF_SUBSTITUTE_PRONOUN_NUMBER_AGREEMENT；來源規則：REFERENCE.THAT.SINGULAR_FIGURE.v1, REFERENCE.THAT.SINGULAR_NUMBER.v1, REFERENCE.THOSE.PLURAL_FIGURES.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SUPERLATIVE_DEFINITE_ARTICLE",
+    "category": "article_or_determiner",
+    "titleZhHant": "文法規則：Attributive superlative normally takes the definite article",
+    "formula": "GF_SUPERLATIVE_DEFINITE_ARTICLE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SUPERLATIVE_DEFINITE_ARTICLE",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:ARTICLE.SUPERLATIVE.THE",
+      "source_rule:PARALLEL.TWO_CATEGORIES.PLURAL_FIGURES"
+    ],
+    "incorrectPattern": "most",
+    "correctPattern": "the most",
+    "explanationZhHant": "最高級通常由 the 限定。 [規則族：GF_SUPERLATIVE_DEFINITE_ARTICLE；來源規則：ARTICLE.SUPERLATIVE.THE.v1, PARALLEL.TWO_CATEGORIES.PLURAL_FIGURES.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SUPPLEMENTARY_RESULT_PRESENT_PARTICIPLE",
+    "category": "infinitive_or_gerund",
+    "titleZhHant": "文法規則：Present participle supplies a result supplement after a comma",
+    "formula": "GF_SUPPLEMENTARY_RESULT_PRESENT_PARTICIPLE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SUPPLEMENTARY_RESULT_PRESENT_PARTICIPLE",
+      "classification:structural",
+      "execution_policy:local_review",
+      "matcher_type:dependency_construction",
+      "source_rule:PARTICIPLE.RESULT.GIVING_TOTAL",
+      "source_rule:PARTICIPLE.RESULT.REACHING",
+      "source_rule:PARTICIPLE.RESULT.REMAINING"
+    ],
+    "incorrectPattern": "gave",
+    "correctPattern": "giving",
+    "explanationZhHant": "逗號後用現在分詞補充前述兩個數值相加的結果。 [規則族：GF_SUPPLEMENTARY_RESULT_PRESENT_PARTICIPLE；來源規則：PARTICIPLE.RESULT.GIVING_TOTAL.v1, PARTICIPLE.RESULT.REACHING.v1, PARTICIPLE.RESULT.REMAINING.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SURVEY_CONDUCTED_AT_OR_IN_COMPANY",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Survey conducted at or in company",
+    "formula": "GF_SURVEY_CONDUCTED_AT_OR_IN_COMPANY",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SURVEY_CONDUCTED_AT_OR_IN_COMPANY",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:PREP.SURVEY.CONDUCTED_AT_OR_IN_COMPANY"
+    ],
+    "incorrectPattern": "on",
+    "correctPattern": "at",
+    "explanationZhHant": "表示調查在某公司內進行，可用 at 或 in。conducted on a company 會表示公司本身是研究對象。 [規則族：GF_SURVEY_CONDUCTED_AT_OR_IN_COMPANY；來源規則：PREP.SURVEY.CONDUCTED_AT_OR_IN_COMPANY.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_SYNTHETIC_SUPERLATIVE_NO_MOST",
+    "category": "comparison",
+    "titleZhHant": "文法規則：Do not combine most with an -est superlative",
+    "formula": "GF_SYNTHETIC_SUPERLATIVE_NO_MOST",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_SYNTHETIC_SUPERLATIVE_NO_MOST",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology_construction",
+      "source_rule:COMP.DOUBLE_SUPERLATIVE.NO_MOST"
+    ],
+    "incorrectPattern": "most highest",
+    "correctPattern": "highest",
+    "explanationZhHant": "highest 已是最高級，不再加入 most。 [規則族：GF_SYNTHETIC_SUPERLATIVE_NO_MOST；來源規則：COMP.DOUBLE_SUPERLATIVE.NO_MOST.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_TAKE_DURATION_FRAME",
+    "category": "other_grammar",
+    "titleZhHant": "文法規則：Take plus duration, optionally followed by a to-infinitive",
+    "formula": "GF_TAKE_DURATION_FRAME",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_TAKE_DURATION_FRAME",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:construction",
+      "source_rule:VERB.PROCESS.TAKES.DURATION",
+      "source_rule:INFINITIVE.TIME.TO_COMPLETE"
+    ],
+    "incorrectPattern": "is taken",
+    "correctPattern": "takes",
+    "explanationZhHant": "表示程序需要多長時間，用主動結構 The process takes...。人作主語時可寫 It takes workers six hours...。 [規則族：GF_TAKE_DURATION_FRAME；來源規則：VERB.PROCESS.TAKES.DURATION.v1, INFINITIVE.TIME.TO_COMPLETE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_TEMPORAL_PREPOSITION_GERUND_COMPLEMENT",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：Gerund or finite clause after temporal before",
+    "formula": "GF_TEMPORAL_PREPOSITION_GERUND_COMPLEMENT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_TEMPORAL_PREPOSITION_GERUND_COMPLEMENT",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:token_morphology",
+      "source_rule:CLAUSE.BEFORE.GERUND"
+    ],
+    "incorrectPattern": "to enter",
+    "correctPattern": "entering",
+    "explanationZhHant": "before 作介詞時，後面的動作用動名詞。也可寫完整分句 before they enter。 [規則族：GF_TEMPORAL_PREPOSITION_GERUND_COMPLEMENT；來源規則：CLAUSE.BEFORE.GERUND.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_TOTAL_OF_QUANTITY",
+    "category": "singular_plural",
+    "titleZhHant": "文法規則：The noun total selects an of-complement containing the quantity",
+    "formula": "GF_TOTAL_OF_QUANTITY",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_TOTAL_OF_QUANTITY",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:NOUN.A_TOTAL_OF",
+      "source_rule:NOUN.TOTAL.OF_VALUE"
+    ],
+    "incorrectPattern": "with",
+    "correctPattern": "of",
+    "explanationZhHant": "名詞 total 用 of 引出總數。 [規則族：GF_TOTAL_OF_QUANTITY；來源規則：NOUN.A_TOTAL_OF.v1, NOUN.TOTAL.OF_VALUE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_TRIM_TO_PRODUCE_RESULT",
+    "category": "infinitive_or_gerund",
+    "titleZhHant": "文法規則：Purpose/result infinitive after trimming",
+    "formula": "GF_TRIM_TO_PRODUCE_RESULT",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_TRIM_TO_PRODUCE_RESULT",
+      "classification:lexical_frame",
+      "execution_policy:local_auto",
+      "matcher_type:lexical_frame",
+      "source_rule:INFINITIVE.RESULT.TRIM.TO_PRODUCE"
+    ],
+    "incorrectPattern": "into producing",
+    "correctPattern": "to produce",
+    "explanationZhHant": "表示修邊的目的或結果，用 trimmed to produce...。 [規則族：GF_TRIM_TO_PRODUCE_RESULT；來源規則：INFINITIVE.RESULT.TRIM.TO_PRODUCE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_TWO_ITEM_AND_COORDINATION",
+    "category": "parallelism",
+    "titleZhHant": "文法規則：Use and to coordinate two parallel category names",
+    "formula": "GF_TWO_ITEM_AND_COORDINATION",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_TWO_ITEM_AND_COORDINATION",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:morphosyntactic_agreement",
+      "source_rule:PARALLEL.TWO_CATEGORIES.PLURAL_FIGURES"
+    ],
+    "incorrectPattern": "as well",
+    "correctPattern": "and",
+    "explanationZhHant": "兩個類別用 and 連接；兩者各有數值，所以用複數 figures；最高級前加 the。 [規則族：GF_TWO_ITEM_AND_COORDINATION；來源規則：PARALLEL.TWO_CATEGORIES.PLURAL_FIGURES.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_UNTIL_COMPLETION_CLAUSE",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：Finite completion clause after until",
+    "formula": "GF_UNTIL_COMPLETION_CLAUSE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_UNTIL_COMPLETION_CLAUSE",
+      "classification:structural",
+      "execution_policy:local_review",
+      "matcher_type:clause_pattern",
+      "source_rule:CLAUSE.UNTIL.PRESENT_PERFECT.COMPLETION"
+    ],
+    "incorrectPattern": "completely",
+    "correctPattern": "they have completely",
+    "explanationZhHant": "until 後需要完整分句，或合適的非限定結構。現在完成式強調完全凝固後才進入下一階段。 [規則族：GF_UNTIL_COMPLETION_CLAUSE；來源規則：CLAUSE.UNTIL.PRESENT_PERFECT.COMPLETION.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_WITH_NP_PRESENT_PARTICIPLE",
+    "category": "sentence_structure",
+    "titleZhHant": "文法規則：With plus NP plus present participle for an active supplement",
+    "formula": "GF_WITH_NP_PRESENT_PARTICIPLE",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_WITH_NP_PRESENT_PARTICIPLE",
+      "classification:structural",
+      "execution_policy:local_auto",
+      "matcher_type:dependency_construction",
+      "source_rule:CLAUSE.WITH.NP.PRESENT_PARTICIPLE"
+    ],
+    "incorrectPattern": "accounted",
+    "correctPattern": "accounting for",
+    "explanationZhHant": "with + 名詞 + 現在分詞 表示伴隨的數值關係：with men accounting...。 [規則族：GF_WITH_NP_PRESENT_PARTICIPLE；來源規則：CLAUSE.WITH.NP.PRESENT_PARTICIPLE.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_WITHOUT_GERUND",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Without gerund",
+    "formula": "GF_WITHOUT_GERUND",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_WITHOUT_GERUND",
+      "classification:semantic",
+      "execution_policy:remote_review",
+      "matcher_type:semantic_role_frame",
+      "source_rule:PREP.WITHOUT.GERUND"
+    ],
+    "incorrectPattern": "know",
+    "correctPattern": "knowing",
+    "explanationZhHant": "without 是介詞，後面的動作用動名詞。 [規則族：GF_WITHOUT_GERUND；來源規則：PREP.WITHOUT.GERUND.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_WOMENS_TOTAL",
+    "category": "possessive",
+    "titleZhHant": "文法規則：Womens total",
+    "formula": "GF_WOMENS_TOTAL",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_WOMENS_TOTAL",
+      "classification:style",
+      "execution_policy:guidance_only",
+      "matcher_type:register_construction",
+      "source_rule:POSSESSIVE.WOMENS_TOTAL"
+    ],
+    "incorrectPattern": "total",
+    "correctPattern": "women's total",
+    "explanationZhHant": "表示屬於女性組的總數，可用 the women's total。the total for women 也是標準替代；原寫法較不自然。 [規則族：GF_WOMENS_TOTAL；來源規則：POSSESSIVE.WOMENS_TOTAL.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
+  },
+  {
+    "ruleId": "GF_WRAP_IN_MATERIAL",
+    "category": "preposition",
+    "titleZhHant": "文法規則：Wrap an item in a covering material",
+    "formula": "GF_WRAP_IN_MATERIAL",
+    "structuralSignature": [
+      "generated:set20_21_legacy_integration",
+      "family:GF_WRAP_IN_MATERIAL",
+      "classification:semantic",
+      "execution_policy:local_review",
+      "matcher_type:lexical_semantic_frame",
+      "source_rule:PREP.WRAP.IN.MATERIAL"
+    ],
+    "incorrectPattern": "by",
+    "correctPattern": "in",
+    "explanationZhHant": "包裹物所使用的材料由 in 引出。被動句中的施事者才用 by。 [規則族：GF_WRAP_IN_MATERIAL；來源規則：PREP.WRAP.IN.MATERIAL.v1。]",
+    "englishVariant": "British English",
+    "exceptions": []
   }
 ].map((rule) => Object.freeze({
   ...rule,
@@ -13347,12 +15855,14 @@ export const CORPUS_DETECTOR_PATTERNS = Object.freeze([
     "acceptableAlternatives": [],
     "confidence": 0.9,
     "leftContext": [
+      "for",
       "poorer",
       "families"
     ],
     "rightContext": [
       "may",
-      "lack"
+      "lack",
+      "of"
     ],
     "startsSentence": false,
     "endsSentence": false
@@ -19079,12 +21589,14 @@ export const CORPUS_DETECTOR_PATTERNS = Object.freeze([
     "acceptableAlternatives": [],
     "confidence": 0.9,
     "leftContext": [
+      "the",
       "library",
       "and"
     ],
     "rightContext": [
       "is",
-      "inside"
+      "inside",
+      "the"
     ],
     "startsSentence": false,
     "endsSentence": false
@@ -21308,12 +23820,14 @@ export const CORPUS_DETECTOR_PATTERNS = Object.freeze([
     "acceptableAlternatives": [],
     "confidence": 0.9,
     "leftContext": [
+      "pedestrian",
       "access",
       "while"
     ],
     "rightContext": [
       "the",
-      "central"
+      "central",
+      "park"
     ],
     "startsSentence": false,
     "endsSentence": false
@@ -22802,12 +25316,14 @@ export const CORPUS_DETECTOR_PATTERNS = Object.freeze([
     "acceptableAlternatives": [],
     "confidence": 0.9,
     "leftContext": [
+      "with",
       "the",
       "station"
     ],
     "rightContext": [
       "a",
-      "road"
+      "road",
+      "branched"
     ],
     "startsSentence": false,
     "endsSentence": false
@@ -24421,6 +26937,4307 @@ export const CORPUS_DETECTOR_PATTERNS = Object.freeze([
     "rightContext": [],
     "startsSentence": false,
     "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I001",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S01",
+    "ruleId": "VERB_COMPARE_DIRECT_OBJECT_NO_BETWEEN",
+    "matchText": "between the",
+    "replacementText": "the",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "chart",
+      "compares"
+    ],
+    "rightContext": [
+      "amount",
+      "of"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I002",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S01",
+    "ruleId": "GF_NUMBER_OF_COUNT_PEOPLE",
+    "matchText": "amount",
+    "replacementText": "numbers",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "compares",
+      "between",
+      "the"
+    ],
+    "rightContext": [
+      "of",
+      "male",
+      "and"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I003",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S01",
+    "ruleId": "PRONOUN_RELATIVE_HUMAN_WHO",
+    "matchText": "which",
+    "replacementText": "who",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "and",
+      "female",
+      "employees"
+    ],
+    "rightContext": [
+      "selected",
+      "each",
+      "from"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I004",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S01",
+    "ruleId": "GF_EACH_OF_NUMERAL_SET",
+    "matchText": "from",
+    "replacementText": "of",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "which",
+      "selected",
+      "each"
+    ],
+    "rightContext": [
+      "six",
+      "workplace",
+      "benefits"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I005",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S01",
+    "ruleId": "GF_SURVEY_CONDUCTED_AT_OR_IN_COMPANY",
+    "matchText": "on",
+    "replacementText": "at",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "a",
+      "survey",
+      "conducted"
+    ],
+    "rightContext": [
+      "a",
+      "company"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I006",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S02",
+    "ruleId": "GF_STATIC_CHART_VERB_SIMPLE_PRESENT",
+    "matchText": "are representing",
+    "replacementText": "represent",
+    "acceptableAlternatives": [],
+    "confidence": 0.6,
+    "leftContext": [
+      "the",
+      "figures"
+    ],
+    "rightContext": [
+      "selections",
+      "instead"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I007",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S02",
+    "ruleId": "GF_RATHER_THAN_COMPARISON",
+    "matchText": "instead",
+    "replacementText": "rather than",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "representing",
+      "selections"
+    ],
+    "rightContext": [
+      "percentages",
+      "and"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I008",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S02",
+    "ruleId": "GF_AFTER_MODAL_BASE_VERB",
+    "matchText": "chose",
+    "replacementText": "choose",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "respondents",
+      "could"
+    ],
+    "rightContext": [
+      "more",
+      "then"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I009",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S02",
+    "ruleId": "GF_MORE_THAN_ONE_SINGULAR",
+    "matchText": "then",
+    "replacementText": "than",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "chose",
+      "more"
+    ],
+    "rightContext": [
+      "one",
+      "options"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I010",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S02",
+    "ruleId": "GF_MORE_THAN_ONE_SINGULAR",
+    "matchText": "options.",
+    "replacementText": "option.",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "then",
+      "one"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0020-I011",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S03",
+    "ruleId": "GF_SYNTHETIC_SUPERLATIVE_NO_MOST",
+    "matchText": "most highest",
+    "replacementText": "highest",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "attracted",
+      "the"
+    ],
+    "rightContext": [
+      "number",
+      "of"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I012",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S03",
+    "ruleId": "GF_IRREGULAR_MAN_WOMAN_PLURAL",
+    "matchText": "woman,",
+    "replacementText": "women,",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "number",
+      "of"
+    ],
+    "rightContext": [
+      "whereas",
+      "remote"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I013",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S03",
+    "ruleId": "GF_SUPERLATIVE_DEFINITE_ARTICLE",
+    "matchText": "most",
+    "replacementText": "the most",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "work",
+      "was"
+    ],
+    "rightContext": [
+      "popular",
+      "choice"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I014",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S03",
+    "ruleId": "GF_AMONG_GROUP",
+    "matchText": "between",
+    "replacementText": "among",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "popular",
+      "choice"
+    ],
+    "rightContext": [
+      "men"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I015",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S04",
+    "ruleId": "GF_SYNTHETIC_SUPERLATIVE_NO_MOST",
+    "matchText": "most widest",
+    "replacementText": "widest",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "showed",
+      "the"
+    ],
+    "rightContext": [
+      "gender",
+      "gap"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I016",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S04",
+    "ruleId": "GF_TWO_ITEM_AND_COORDINATION",
+    "matchText": "as well",
+    "replacementText": "and",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "while",
+      "training"
+    ],
+    "rightContext": [
+      "private",
+      "health"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I017",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S04",
+    "ruleId": "GF_TWO_ITEM_AND_COORDINATION",
+    "matchText": "most",
+    "replacementText": "the most",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "insurance",
+      "produced"
+    ],
+    "rightContext": [
+      "similar",
+      "figure"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I018",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S04",
+    "ruleId": "GF_TWO_ITEM_AND_COORDINATION",
+    "matchText": "figure.",
+    "replacementText": "figures.",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "most",
+      "similar"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0020-I019",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S05",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "was",
+    "replacementText": "were",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "flexible",
+      "hours"
+    ],
+    "rightContext": [
+      "chosen",
+      "from",
+      "420"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I020",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S05",
+    "ruleId": "GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT",
+    "matchText": "from",
+    "replacementText": "by",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "hours",
+      "was",
+      "chosen"
+    ],
+    "rightContext": [
+      "420",
+      "women",
+      "and"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I021",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S06",
+    "ruleId": "GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+    "matchText": "more 60",
+    "replacementText": "60",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "thus"
+    ],
+    "rightContext": [
+      "women",
+      "compared"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I022",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S06",
+    "ruleId": "GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+    "matchText": "women",
+    "replacementText": "more women",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "more",
+      "60"
+    ],
+    "rightContext": [
+      "compared",
+      "to"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I023",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S06",
+    "ruleId": "GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+    "matchText": "compared to",
+    "replacementText": "than",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "60",
+      "women"
+    ],
+    "rightContext": [
+      "men",
+      "selected"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I024",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S06",
+    "ruleId": "GF_OUTNUMBER_PEOPLE",
+    "matchText": "exceeded",
+    "replacementText": "outnumbered",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "and",
+      "women"
+    ],
+    "rightContext": [
+      "men",
+      "with"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I025",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S06",
+    "ruleId": "GF_MARGIN_BY_AMOUNT",
+    "matchText": "with",
+    "replacementText": "by",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "women",
+      "exceeded",
+      "men"
+    ],
+    "rightContext": [
+      "roughly",
+      "one",
+      "sixth"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I026",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S06",
+    "ruleId": "GF_ONE_SIXTH_OF_BASE",
+    "matchText": "from",
+    "replacementText": "of",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "roughly",
+      "one",
+      "sixth"
+    ],
+    "rightContext": [
+      "the",
+      "male",
+      "figure"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I027",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S07",
+    "ruleId": "GF_OPPOSITE_PATTERN_THE",
+    "matchText": "showed an",
+    "replacementText": "displayed the",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "remote",
+      "work"
+    ],
+    "rightContext": [
+      "opposite",
+      "pattern"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I028",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S08",
+    "ruleId": "GF_IRREGULAR_MAN_WOMAN_PLURAL",
+    "matchText": "mens, comparing",
+    "replacementText": "men, compared",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "attracted",
+      "410"
+    ],
+    "rightContext": [
+      "with",
+      "390"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I029",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S08",
+    "ruleId": "GF_IRREGULAR_MAN_WOMAN_PLURAL",
+    "matchText": "womens,",
+    "replacementText": "women,",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "with",
+      "390"
+    ],
+    "rightContext": [
+      "so",
+      "the"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I030",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S08",
+    "ruleId": "GF_EXCEED_ACTIVE_DIRECT_OBJECT",
+    "matchText": "was exceeded",
+    "replacementText": "exceeded",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "male",
+      "figure"
+    ],
+    "rightContext": [
+      "the",
+      "female"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I031",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S08",
+    "ruleId": "GF_MARGIN_BY_AMOUNT",
+    "matchText": "for",
+    "replacementText": "by",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "the",
+      "female",
+      "figure"
+    ],
+    "rightContext": [
+      "only",
+      "20"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I032",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S09",
+    "ruleId": "GF_ONLY_SINGULAR_CATEGORY_THE",
+    "matchText": "only",
+    "replacementText": "the only",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "this",
+      "was"
+    ],
+    "rightContext": [
+      "category",
+      "where",
+      "men's"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I033",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S09",
+    "ruleId": "GF_ABSTRACT_CATEGORY_IN_WHICH",
+    "matchText": "where",
+    "replacementText": "in which",
+    "acceptableAlternatives": [],
+    "confidence": 0.6,
+    "leftContext": [
+      "only",
+      "category"
+    ],
+    "rightContext": [
+      "men's",
+      "participation"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I034",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S09",
+    "ruleId": "COMP_DOUBLE_COMPARATIVE_NO_MORE",
+    "matchText": "more higher",
+    "replacementText": "higher",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "participation",
+      "was"
+    ],
+    "rightContext": [
+      "with",
+      "less"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I035",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S09",
+    "ruleId": "GF_MARGIN_BY_AMOUNT",
+    "matchText": "with less",
+    "replacementText": "by fewer",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "more",
+      "higher"
+    ],
+    "rightContext": [
+      "than",
+      "30"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I036",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S10",
+    "ruleId": "GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT",
+    "matchText": "selected",
+    "replacementText": "was selected",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "training"
+    ],
+    "rightContext": [
+      "300",
+      "men"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I037",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S10",
+    "ruleId": "GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT",
+    "matchText": "300",
+    "replacementText": "by 300",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "training",
+      "selected"
+    ],
+    "rightContext": [
+      "men",
+      "and",
+      "260"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I038",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S10",
+    "ruleId": "GF_SUPPLEMENTARY_RESULT_PRESENT_PARTICIPLE",
+    "matchText": "gave",
+    "replacementText": "giving",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "260",
+      "women"
+    ],
+    "rightContext": [
+      "a",
+      "combined"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I039",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S10",
+    "ruleId": "GF_TOTAL_OF_QUANTITY",
+    "matchText": "with",
+    "replacementText": "of",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "a",
+      "combined",
+      "total"
+    ],
+    "rightContext": [
+      "560",
+      "selection"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I040",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S10",
+    "ruleId": "GF_CARDINAL_COUNT_NOUN_PLURAL",
+    "matchText": "selection.",
+    "replacementText": "selections.",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "with",
+      "560"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0020-I041",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S11",
+    "ruleId": "GF_DIFFERENT_TO_DIFFERENCE",
+    "matchText": "different",
+    "replacementText": "difference",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "the"
+    ],
+    "rightContext": [
+      "between",
+      "two"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I042",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S11",
+    "ruleId": "GF_DEFINITE_COMPARISON_REFERENT",
+    "matchText": "two",
+    "replacementText": "the two",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "the",
+      "different",
+      "between"
+    ],
+    "rightContext": [
+      "groups",
+      "were",
+      "40"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I043",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S11",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "were",
+    "replacementText": "was",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "between",
+      "two",
+      "groups"
+    ],
+    "rightContext": [
+      "40",
+      "and",
+      "male"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I044",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S11",
+    "ruleId": "GF_DEFINITE_COMPARISON_REFERENT",
+    "matchText": "male",
+    "replacementText": "the male",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "40",
+      "and"
+    ],
+    "rightContext": [
+      "figure",
+      "was"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I045",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S11",
+    "ruleId": "GF_DEGREE_ADVERB_FORM",
+    "matchText": "approximate",
+    "replacementText": "approximately",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "figure",
+      "was"
+    ],
+    "rightContext": [
+      "15",
+      "percentage"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I046",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S11",
+    "ruleId": "GF_DEGREE_ADVERB_FORM",
+    "matchText": "percentage",
+    "replacementText": "per cent",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "was",
+      "approximate",
+      "15"
+    ],
+    "rightContext": [
+      "higher",
+      "than",
+      "female"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I047",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S11",
+    "ruleId": "GF_DEFINITE_COMPARISON_REFERENT",
+    "matchText": "female",
+    "replacementText": "the female",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "higher",
+      "than"
+    ],
+    "rightContext": [
+      "figure"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I048",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S12",
+    "ruleId": "GF_CATEGORY_RECORD_ACTIVE_FIGURE",
+    "matchText": "was recorded",
+    "replacementText": "recorded",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "health",
+      "insurance"
+    ],
+    "rightContext": [
+      "340",
+      "male"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I049",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S12",
+    "ruleId": "GF_COORDINATED_FIGURES_AND",
+    "matchText": "beside",
+    "replacementText": "and",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "male",
+      "selections"
+    ],
+    "rightContext": [
+      "310",
+      "female"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I050",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S12",
+    "ruleId": "GF_CARDINAL_COUNT_NOUN_PLURAL",
+    "matchText": "selection.",
+    "replacementText": "selections.",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "310",
+      "female"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0020-I051",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S13",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "figure was",
+    "replacementText": "figures were",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "these"
+    ],
+    "rightContext": [
+      "close",
+      "each"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I052",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S13",
+    "ruleId": "GF_CLOSE_TO_EACH_OTHER",
+    "matchText": "each",
+    "replacementText": "to each",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "was",
+      "close"
+    ],
+    "rightContext": [
+      "other",
+      "with"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I053",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S13",
+    "ruleId": "GF_WITH_NP_PRESENT_PARTICIPLE",
+    "matchText": "accounted",
+    "replacementText": "accounting for",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "other",
+      "with",
+      "men"
+    ],
+    "rightContext": [
+      "30",
+      "selections",
+      "more"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I054",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S13",
+    "ruleId": "GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+    "matchText": "selections more",
+    "replacementText": "more",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "accounted",
+      "30"
+    ],
+    "rightContext": [
+      "as",
+      "women"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I055",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S13",
+    "ruleId": "GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+    "matchText": "as",
+    "replacementText": "selections than",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "30",
+      "selections",
+      "more"
+    ],
+    "rightContext": [
+      "women"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I056",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S14",
+    "ruleId": "GF_SYNTHETIC_SUPERLATIVE_NO_MOST",
+    "matchText": "most greatest",
+    "replacementText": "greatest",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "the"
+    ],
+    "rightContext": [
+      "contrast",
+      "appeared"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I057",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S14",
+    "ruleId": "GF_IN_CATEGORY",
+    "matchText": "on",
+    "replacementText": "in",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "greatest",
+      "contrast",
+      "appeared"
+    ],
+    "rightContext": [
+      "childcare",
+      "support"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I058",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S15",
+    "ruleId": "GF_AS_MANY_AS_PLURAL_COUNT",
+    "matchText": "much",
+    "replacementText": "many",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "as"
+    ],
+    "rightContext": [
+      "as",
+      "280"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I059",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S15",
+    "ruleId": "GF_COMPARED_WITH_SUPPLEMENT",
+    "matchText": "in comparison",
+    "replacementText": "compared",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "this",
+      "option"
+    ],
+    "rightContext": [
+      "with",
+      "only"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I060",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S15",
+    "ruleId": "GF_COMPARED_WITH_SUPPLEMENT",
+    "matchText": "only",
+    "replacementText": "just",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "in",
+      "comparison",
+      "with"
+    ],
+    "rightContext": [
+      "90",
+      "man"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I061",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S15",
+    "ruleId": "GF_IRREGULAR_MAN_WOMAN_PLURAL",
+    "matchText": "man.",
+    "replacementText": "men.",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "with",
+      "only",
+      "90"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0020-I062",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S16",
+    "ruleId": "GF_DEGREE_ADVERB_FORM",
+    "matchText": "slight",
+    "replacementText": "slightly",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "was",
+      "therefore"
+    ],
+    "rightContext": [
+      "more",
+      "than"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I063",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S16",
+    "ruleId": "GF_MULTIPLIER_THREE_TIMES_BASE",
+    "matchText": "higher than",
+    "replacementText": "the",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "three",
+      "times"
+    ],
+    "rightContext": [
+      "male",
+      "figure"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I064",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S16",
+    "ruleId": "GF_MAKE_UP_PROPORTION",
+    "matchText": "about",
+    "replacementText": "up about",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "women",
+      "made"
+    ],
+    "rightContext": [
+      "three",
+      "quarter"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I065",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S16",
+    "ruleId": "GF_FRACTION_OF_BASE",
+    "matchText": "quarter from",
+    "replacementText": "quarters of the",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "about",
+      "three"
+    ],
+    "rightContext": [
+      "370",
+      "selection"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I066",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S16",
+    "ruleId": "GF_FRACTION_OF_BASE",
+    "matchText": "selection on",
+    "replacementText": "selections in",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "from",
+      "370"
+    ],
+    "rightContext": [
+      "this",
+      "category"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I067",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S17",
+    "ruleId": "GF_SUPERLATIVE_DEFINITE_ARTICLE",
+    "matchText": "least",
+    "replacementText": "the least",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "was",
+      "also"
+    ],
+    "rightContext": [
+      "popular",
+      "option"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I068",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S17",
+    "ruleId": "GF_AMONG_GROUP",
+    "matchText": "between",
+    "replacementText": "among",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "popular",
+      "option"
+    ],
+    "rightContext": [
+      "men",
+      "despite"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I069",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S17",
+    "ruleId": "GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL",
+    "matchText": "despite",
+    "replacementText": "although",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "between",
+      "men"
+    ],
+    "rightContext": [
+      "it",
+      "ranked"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I070",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S17",
+    "ruleId": "GF_RANK_FOURTH_NO_THE",
+    "matchText": "the fourth",
+    "replacementText": "fourth",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "it",
+      "ranked"
+    ],
+    "rightContext": [
+      "among",
+      "women"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I071",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S18",
+    "ruleId": "GF_ANOTHER_SINGULAR_COUNT_NOUN",
+    "matchText": "other",
+    "replacementText": "another",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "membership",
+      "showed"
+    ],
+    "rightContext": [
+      "clear",
+      "advantage"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I072",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S18",
+    "ruleId": "GF_MALE_ADVANTAGE_CATEGORY",
+    "matchText": "advantage for males.",
+    "replacementText": "male advantage.",
+    "acceptableAlternatives": [],
+    "confidence": 0.6,
+    "leftContext": [
+      "other",
+      "clear"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0020-I073",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S19",
+    "ruleId": "GF_TOTAL_OF_QUANTITY",
+    "matchText": "250",
+    "replacementText": "of 250",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "a",
+      "total"
+    ],
+    "rightContext": [
+      "men",
+      "chose",
+      "it"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I074",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S19",
+    "ruleId": "GF_AS_OPPOSED_TO",
+    "matchText": "with",
+    "replacementText": "to",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "it",
+      "as",
+      "opposed"
+    ],
+    "rightContext": [
+      "170",
+      "women"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I075",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S20",
+    "ruleId": "GF_IN_OTHER_WORDS",
+    "matchText": "another",
+    "replacementText": "other",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "in"
+    ],
+    "rightContext": [
+      "words",
+      "80",
+      "less"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I076",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S20",
+    "ruleId": "GF_FEWER_PLURAL_COUNT_NOUN",
+    "matchText": "less",
+    "replacementText": "fewer",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "words",
+      "80"
+    ],
+    "rightContext": [
+      "women",
+      "than"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I077",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S20",
+    "ruleId": "GF_KNOWN_BENEFIT_THE",
+    "matchText": "benefit,",
+    "replacementText": "the benefit,",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "than",
+      "men",
+      "selected"
+    ],
+    "rightContext": [
+      "and",
+      "number",
+      "of"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I078",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S20",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "number",
+    "replacementText": "the number",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "benefit",
+      "and"
+    ],
+    "rightContext": [
+      "of",
+      "men"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I079",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S20",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "were",
+    "replacementText": "was",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "number",
+      "of",
+      "men"
+    ],
+    "rightContext": [
+      "nearly",
+      "one",
+      "and"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I080",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S20",
+    "ruleId": "NUMERAL_ONE_AND_A_HALF",
+    "matchText": "half",
+    "replacementText": "a half",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "one",
+      "and"
+    ],
+    "rightContext": [
+      "time",
+      "those"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I081",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S20",
+    "ruleId": "GF_SUBSTITUTE_PRONOUN_NUMBER_AGREEMENT",
+    "matchText": "time those",
+    "replacementText": "times that",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "and",
+      "half"
+    ],
+    "rightContext": [
+      "of",
+      "women"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I082",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S21",
+    "ruleId": "GF_LESS_ADJECTIVE_NOT_FEWER",
+    "matchText": "fewer",
+    "replacementText": "less",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "membership",
+      "remained"
+    ],
+    "rightContext": [
+      "popular",
+      "in"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I083",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S21",
+    "ruleId": "GF_OVERALL_NO_IN",
+    "matchText": "in overall",
+    "replacementText": "overall",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "fewer",
+      "popular"
+    ],
+    "rightContext": [
+      "than",
+      "flexible"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I084",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S22",
+    "ruleId": "GF_CARDINAL_COUNT_NOUN_PLURAL",
+    "matchText": "benefit,",
+    "replacementText": "benefits,",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "across",
+      "all",
+      "six"
+    ],
+    "rightContext": [
+      "women",
+      "did",
+      "1"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I085",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S22",
+    "ruleId": "GF_MAKE_A_SELECTION",
+    "matchText": "did",
+    "replacementText": "made",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "six",
+      "benefit",
+      "women"
+    ],
+    "rightContext": [
+      "1",
+      "830",
+      "selections"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I086",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S23",
+    "ruleId": "GF_WOMENS_TOTAL",
+    "matchText": "total",
+    "replacementText": "women's total",
+    "acceptableAlternatives": [],
+    "confidence": 0.6,
+    "leftContext": [
+      "the"
+    ],
+    "rightContext": [
+      "of",
+      "women"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I087",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S23",
+    "ruleId": "GF_WOMENS_TOTAL",
+    "matchText": "of women was",
+    "replacementText": "was",
+    "acceptableAlternatives": [],
+    "confidence": 0.6,
+    "leftContext": [
+      "the",
+      "total"
+    ],
+    "rightContext": [
+      "therefore",
+      "higher"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I088",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S23",
+    "ruleId": "GF_NUMERAL_BEFORE_COMPARATIVE",
+    "matchText": "higher 80",
+    "replacementText": "80",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "was",
+      "therefore"
+    ],
+    "rightContext": [
+      "than",
+      "the"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I089",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S23",
+    "ruleId": "GF_NUMERAL_BEFORE_COMPARATIVE",
+    "matchText": "than",
+    "replacementText": "higher than",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "therefore",
+      "higher",
+      "80"
+    ],
+    "rightContext": [
+      "the",
+      "one",
+      "of"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I090",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S23",
+    "ruleId": "GF_ELLIPSIS_MENS_TOTAL",
+    "matchText": "one of men,",
+    "replacementText": "men's,",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "than",
+      "the"
+    ],
+    "rightContext": [
+      "although",
+      "both"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I091",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S23",
+    "ruleId": "GF_DEGREE_ADVERB_FORM",
+    "matchText": "broad",
+    "replacementText": "broadly",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "totals",
+      "were"
+    ],
+    "rightContext": [
+      "comparable"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I092",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S24",
+    "ruleId": "GF_COMBINED_CATEGORIES_AND_TOGETHER",
+    "matchText": "together with",
+    "replacementText": "and",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "flexible",
+      "hours"
+    ],
+    "rightContext": [
+      "childcare",
+      "accounted"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I093",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S24",
+    "ruleId": "GF_ACCOUNT_FOR_PROPORTION",
+    "matchText": "accounted",
+    "replacementText": "together accounted",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "together",
+      "with",
+      "childcare"
+    ],
+    "rightContext": [
+      "more",
+      "one",
+      "third"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I094",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S24",
+    "ruleId": "GF_ACCOUNT_FOR_PROPORTION",
+    "matchText": "more",
+    "replacementText": "for more",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "childcare",
+      "accounted"
+    ],
+    "rightContext": [
+      "one",
+      "third"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I095",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S24",
+    "ruleId": "GF_MORE_THAN_FRACTION",
+    "matchText": "one",
+    "replacementText": "than one",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "childcare",
+      "accounted",
+      "more"
+    ],
+    "rightContext": [
+      "third",
+      "from",
+      "all"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I096",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S24",
+    "ruleId": "GF_FRACTION_OF_TOTAL_ATTRIBUTIVE_FEMALE",
+    "matchText": "from",
+    "replacementText": "of",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "more",
+      "one",
+      "third"
+    ],
+    "rightContext": [
+      "all",
+      "females",
+      "selections"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I097",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S24",
+    "ruleId": "GF_FRACTION_OF_TOTAL_ATTRIBUTIVE_FEMALE",
+    "matchText": "females",
+    "replacementText": "female",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "from",
+      "all"
+    ],
+    "rightContext": [
+      "selections"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I098",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S25",
+    "ruleId": "GF_FRACTION_DENOMINATOR_PLURAL",
+    "matchText": "above",
+    "replacementText": "over",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "represented",
+      "just"
+    ],
+    "rightContext": [
+      "two",
+      "fifth"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I099",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S25",
+    "ruleId": "GF_FRACTION_DENOMINATOR_PLURAL",
+    "matchText": "fifth",
+    "replacementText": "fifths",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "above",
+      "two"
+    ],
+    "rightContext": [
+      "of",
+      "male"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I100",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S25",
+    "ruleId": "GF_DEFINITE_COMPARISON_REFERENT",
+    "matchText": "male",
+    "replacementText": "the male",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "fifth",
+      "of"
+    ],
+    "rightContext": [
+      "total"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I101",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S26",
+    "ruleId": "GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+    "matchText": "categories",
+    "replacementText": "the categories",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "when"
+    ],
+    "rightContext": [
+      "ranked",
+      "separate"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I102",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S26",
+    "ruleId": "GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+    "matchText": "ranked",
+    "replacementText": "are ranked",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "when",
+      "categories"
+    ],
+    "rightContext": [
+      "separate",
+      "first"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I103",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S26",
+    "ruleId": "GF_MANNER_ADVERB_FORM",
+    "matchText": "separate,",
+    "replacementText": "separately, the",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "categories",
+      "ranked"
+    ],
+    "rightContext": [
+      "first",
+      "three"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I104",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S26",
+    "ruleId": "GF_RANK_FOR_GROUP",
+    "matchText": "position of",
+    "replacementText": "positions for",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "first",
+      "three"
+    ],
+    "rightContext": [
+      "women",
+      "is"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I105",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S26",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "is",
+    "replacementText": "are",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "position",
+      "of",
+      "women"
+    ],
+    "rightContext": [
+      "flexible",
+      "hours",
+      "remote"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I106",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S26",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "order",
+    "replacementText": "the order",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "insurance",
+      "while"
+    ],
+    "rightContext": [
+      "of",
+      "men"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I107",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S26",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "of",
+    "replacementText": "for",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "insurance",
+      "while",
+      "order"
+    ],
+    "rightContext": [
+      "men",
+      "are",
+      "remote"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I108",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S26",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "are",
+    "replacementText": "is",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "order",
+      "of",
+      "men"
+    ],
+    "rightContext": [
+      "remote",
+      "work",
+      "flexible"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I109",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S27",
+    "ruleId": "GF_OCCUPY_RANK_POSITION",
+    "matchText": "locates at the",
+    "replacementText": "occupies",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "training"
+    ],
+    "rightContext": [
+      "fourth",
+      "place"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I110",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S27",
+    "ruleId": "GF_RANK_FOR_GROUP",
+    "matchText": "of",
+    "replacementText": "for",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "the",
+      "fourth",
+      "place"
+    ],
+    "rightContext": [
+      "men",
+      "but",
+      "on"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I111",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S27",
+    "ruleId": "GF_RANK_FOR_GROUP",
+    "matchText": "on fifth",
+    "replacementText": "fifth",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "men",
+      "but"
+    ],
+    "rightContext": [
+      "of",
+      "women"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I112",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S27",
+    "ruleId": "GF_RANK_FOR_GROUP",
+    "matchText": "of",
+    "replacementText": "for",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "but",
+      "on",
+      "fifth"
+    ],
+    "rightContext": [
+      "women",
+      "ahead",
+      "than"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I113",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S27",
+    "ruleId": "GF_AHEAD_OF",
+    "matchText": "than",
+    "replacementText": "of",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "of",
+      "women",
+      "ahead"
+    ],
+    "rightContext": [
+      "gym",
+      "membership",
+      "in"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I114",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S27",
+    "ruleId": "REFERENCE_LATTER_SECOND_OF_TWO",
+    "matchText": "former",
+    "replacementText": "the latter",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "membership",
+      "in"
+    ],
+    "rightContext": [
+      "ranking"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I115",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S28",
+    "ruleId": "GF_EACH_SINGULAR_COUNT_NOUN",
+    "matchText": "every employees",
+    "replacementText": "each employee",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "because"
+    ],
+    "rightContext": [
+      "could",
+      "select"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I116",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S28",
+    "ruleId": "GF_CARDINAL_COUNT_NOUN_PLURAL",
+    "matchText": "benefit,",
+    "replacementText": "benefits,",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "could",
+      "select",
+      "several"
+    ],
+    "rightContext": [
+      "the",
+      "combined",
+      "figure"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I117",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S28",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "figure does",
+    "replacementText": "figures do",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "the",
+      "combined"
+    ],
+    "rightContext": [
+      "not",
+      "indicate"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I118",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S28",
+    "ruleId": "GF_NUMBER_OF_COUNT_PEOPLE",
+    "matchText": "amount",
+    "replacementText": "the number",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "does",
+      "not",
+      "indicate"
+    ],
+    "rightContext": [
+      "of",
+      "individual",
+      "employee"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I119",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S28",
+    "ruleId": "GF_EITHER_OF_TWO_GROUPS",
+    "matchText": "employee on neither",
+    "replacementText": "employees in either",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "of",
+      "individual"
+    ],
+    "rightContext": [
+      "gender",
+      "groups"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I120",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S28",
+    "ruleId": "GF_EITHER_OF_TWO_GROUPS",
+    "matchText": "groups.",
+    "replacementText": "group.",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "neither",
+      "gender"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0020-I121",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S29",
+    "ruleId": "GF_COUNT_NOUN_NUMBER",
+    "matchText": "comparison among",
+    "replacementText": "comparisons between",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "therefore",
+      "supports"
+    ],
+    "rightContext": [
+      "benefit",
+      "preference"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I122",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S29",
+    "ruleId": "GF_COUNT_NOUN_NUMBER",
+    "matchText": "preference,",
+    "replacementText": "preferences,",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "among",
+      "benefit"
+    ],
+    "rightContext": [
+      "but",
+      "it"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I123",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S29",
+    "ruleId": "GF_PASSIVE_CANNOT_BE_USED",
+    "matchText": "use for",
+    "replacementText": "be used to",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "it",
+      "cannot"
+    ],
+    "rightContext": [
+      "calculate",
+      "percentage"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I124",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S29",
+    "ruleId": "GF_SPECIFIC_PERCENTAGE_THE",
+    "matchText": "percentage",
+    "replacementText": "the percentage",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "use",
+      "for",
+      "calculate"
+    ],
+    "rightContext": [
+      "of",
+      "employees",
+      "which"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I125",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S29",
+    "ruleId": "GF_EACH_SINGULAR_COUNT_NOUN",
+    "matchText": "which choose every options",
+    "replacementText": "choosing each option",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "of",
+      "employees"
+    ],
+    "rightContext": [
+      "without",
+      "know"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I126",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S29",
+    "ruleId": "GF_WITHOUT_GERUND",
+    "matchText": "know",
+    "replacementText": "knowing",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "options",
+      "without"
+    ],
+    "rightContext": [
+      "the",
+      "size"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0020-I127",
+    "source": "issue",
+    "sentenceId": "PARA-0020-S29",
+    "ruleId": "GF_SIZES_OF_GROUPS_COMPLEMENT",
+    "matchText": "size for both group.",
+    "replacementText": "sizes of the two groups.",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "know",
+      "the"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0021-I001",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S01",
+    "ruleId": "GF_COMPLEMENTIZER_WH_EXCLUSION",
+    "matchText": "that how",
+    "replacementText": "how",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "diagram",
+      "illustrates"
+    ],
+    "rightContext": [
+      "discarded",
+      "plastic"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I002",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S01",
+    "ruleId": "GF_NUMERAL_ATTRIBUTIVE_NOUN_SINGULAR",
+    "matchText": "twelve-stages",
+    "replacementText": "twelve-stage",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "through",
+      "a"
+    ],
+    "rightContext": [
+      "linear",
+      "process"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I003",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S02",
+    "ruleId": "GF_PROCESS_BOUNDARY_WITH",
+    "matchText": "from collecting",
+    "replacementText": "with the collection",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "procedure",
+      "begins"
+    ],
+    "rightContext": [
+      "and",
+      "inspecting"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I004",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S02",
+    "ruleId": "GF_PROCESS_BOUNDARY_WITH",
+    "matchText": "inspecting",
+    "replacementText": "inspection of",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "collecting",
+      "and"
+    ],
+    "rightContext": [
+      "used",
+      "bottles"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I005",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S02",
+    "ruleId": "GF_PROCESS_BOUNDARY_WITH",
+    "matchText": "by",
+    "replacementText": "with the",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "bottles",
+      "and",
+      "ends"
+    ],
+    "rightContext": [
+      "packaging",
+      "tested",
+      "blocks"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I006",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S02",
+    "ruleId": "GF_PROCESS_BOUNDARY_WITH",
+    "matchText": "tested",
+    "replacementText": "of tested",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "by",
+      "packaging"
+    ],
+    "rightContext": [
+      "blocks"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I007",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S03",
+    "ruleId": "GF_COPULAR_COMPLEMENT_ADJECTIVE",
+    "matchText": "mechanically,",
+    "replacementText": "mechanical,",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "stages",
+      "are"
+    ],
+    "rightContext": [
+      "although",
+      "heat"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I008",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S03",
+    "ruleId": "GF_PASSIVE_BE_PAST_PARTICIPLE",
+    "matchText": "applying",
+    "replacementText": "applied",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "heat",
+      "is"
+    ],
+    "rightContext": [
+      "during",
+      "melting"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I009",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S03",
+    "ruleId": "GF_LEAVE_PATIENT_TO_INFINITIVE",
+    "matchText": "cooling",
+    "replacementText": "to cool",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "is",
+      "left"
+    ],
+    "rightContext": [
+      "before",
+      "testing"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I010",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S04",
+    "ruleId": "GF_COLLECT_FROM_SOURCE",
+    "matchText": "out of",
+    "replacementText": "from",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "are",
+      "collected"
+    ],
+    "rightContext": [
+      "households",
+      "and"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I011",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S04",
+    "ruleId": "GF_MOTION_REALIZED_DESTINATION_TO",
+    "matchText": "at",
+    "replacementText": "to",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "households",
+      "and",
+      "transported"
+    ],
+    "rightContext": [
+      "a",
+      "recycling",
+      "facility"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I012",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S05",
+    "ruleId": "GF_FOR_BASE_PURPOSE_TO_INFINITIVE",
+    "matchText": "for",
+    "replacementText": "to",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "bottle",
+      "is",
+      "inspected"
+    ],
+    "rightContext": [
+      "determine",
+      "whether",
+      "it"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I013",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S06",
+    "ruleId": "GF_REMOVE_FROM_ORIGIN",
+    "matchText": "off",
+    "replacementText": "from",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "items",
+      "are",
+      "removed"
+    ],
+    "rightContext": [
+      "the",
+      "production",
+      "line"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I014",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S06",
+    "ruleId": "GF_PATH_ALONG_LINEAR_SUPPORT",
+    "matchText": "through",
+    "replacementText": "along",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "acceptable",
+      "bottles",
+      "travel"
+    ],
+    "rightContext": [
+      "a",
+      "conveyor",
+      "belt"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I015",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S07",
+    "ruleId": "GF_AFTER_WHICH_SENTENTIAL_SEQUENCE",
+    "matchText": "that",
+    "replacementText": "which",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "then",
+      "removed",
+      "after"
+    ],
+    "rightContext": [
+      "the",
+      "bottles",
+      "undergo"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I016",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S07",
+    "ruleId": "GF_PROCESS_NOUN_COUNT_CONSTRUAL",
+    "matchText": "a washing",
+    "replacementText": "washing",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "bottles",
+      "undergo"
+    ],
+    "rightContext": [
+      "by",
+      "hot"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I017",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S07",
+    "ruleId": "GF_SUBSTANCE_WITH_NOT_AGENT_BY",
+    "matchText": "by",
+    "replacementText": "with",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "undergo",
+      "a",
+      "washing"
+    ],
+    "rightContext": [
+      "hot",
+      "water",
+      "and"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I018",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S08",
+    "ruleId": "GF_ONCE_CLAUSE_REDUCTION",
+    "matchText": "cleaning,",
+    "replacementText": "they are clean,",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "once"
+    ],
+    "rightContext": [
+      "the",
+      "bottles"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I019",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S08",
+    "ruleId": "GF_FOR_ACTION_COMPLEMENT_GERUND",
+    "matchText": "shred.",
+    "replacementText": "shredding.",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "sent",
+      "for"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0021-I020",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S09",
+    "ruleId": "GF_RESULTATIVE_INTO_FRAME",
+    "matchText": "to",
+    "replacementText": "into",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "blades",
+      "cut",
+      "them"
+    ],
+    "rightContext": [
+      "small",
+      "flakes",
+      "which"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I021",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S09",
+    "ruleId": "GF_REDUNDANT_PATH_PREPOSITION_STACK",
+    "matchText": "through beneath",
+    "replacementText": "beneath",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "subsequently",
+      "pass"
+    ],
+    "rightContext": [
+      "a",
+      "magnet"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I022",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S09",
+    "ruleId": "GF_SO_THAT_FINITE_CLAUSE",
+    "matchText": "as",
+    "replacementText": "that",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "a",
+      "magnet",
+      "so"
+    ],
+    "rightContext": [
+      "any",
+      "metal",
+      "fragments"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I023",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S10",
+    "ruleId": "GF_FOR_MEASURED_DURATION",
+    "matchText": "during",
+    "replacementText": "for",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "are",
+      "dried"
+    ],
+    "rightContext": [
+      "thirty",
+      "minutes"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I024",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S10",
+    "ruleId": "GF_MEASUREMENT_UNIT_NUMBER",
+    "matchText": "degree",
+    "replacementText": "degrees",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "at",
+      "80"
+    ],
+    "rightContext": [
+      "celsius",
+      "before"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I025",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S10",
+    "ruleId": "GF_TEMPORAL_PREPOSITION_GERUND_COMPLEMENT",
+    "matchText": "to enter",
+    "replacementText": "entering",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "celsius",
+      "before"
+    ],
+    "rightContext": [
+      "a",
+      "heated"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I026",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S11",
+    "ruleId": "GF_CAPABLE_OF_GERUND",
+    "matchText": "to reach",
+    "replacementText": "of reaching",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "is",
+      "capable"
+    ],
+    "rightContext": [
+      "180",
+      "degrees"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I027",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S11",
+    "ruleId": "GF_RESULTATIVE_INTO_FRAME",
+    "matchText": "to",
+    "replacementText": "into",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "melts",
+      "the",
+      "flakes"
+    ],
+    "rightContext": [
+      "a",
+      "uniform",
+      "liquid"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I028",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S12",
+    "ruleId": "GF_COMBINE_WITH_COTHEME",
+    "matchText": "to",
+    "replacementText": "with",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "plastic",
+      "is",
+      "combined"
+    ],
+    "rightContext": [
+      "recycled",
+      "sand",
+      "in"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I029",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S12",
+    "ruleId": "GF_RATIO_OF_A_TO_B",
+    "matchText": "from",
+    "replacementText": "of",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "in",
+      "a",
+      "ratio"
+    ],
+    "rightContext": [
+      "three",
+      "parts",
+      "plastic"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I030",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S12",
+    "ruleId": "GF_RATIO_OF_A_TO_B",
+    "matchText": "against",
+    "replacementText": "to",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "parts",
+      "plastic"
+    ],
+    "rightContext": [
+      "one",
+      "part"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I031",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S13",
+    "ruleId": "VERB_PREVENT_NP_FROM_GERUND",
+    "matchText": "settling",
+    "replacementText": "from settling",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "heavier",
+      "particles"
+    ],
+    "rightContext": [
+      "in",
+      "the"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I032",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S13",
+    "ruleId": "GF_AT_BOTTOM_LOCATION",
+    "matchText": "in",
+    "replacementText": "at",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "heavier",
+      "particles",
+      "settling"
+    ],
+    "rightContext": [
+      "the",
+      "bottom",
+      "of"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I033",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S14",
+    "ruleId": "GF_RESULTING_PARTICIPLE_MODIFIER",
+    "matchText": "resulted",
+    "replacementText": "resulting",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "the"
+    ],
+    "rightContext": [
+      "mixture",
+      "is"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I034",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S14",
+    "ruleId": "GF_POUR_INTO_CONTAINER",
+    "matchText": "in",
+    "replacementText": "into",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "mixture",
+      "is",
+      "poured"
+    ],
+    "rightContext": [
+      "rectangular",
+      "moulds",
+      "which"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I035",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S14",
+    "ruleId": "PRONOUN_RELATIVE_WHOSE_POSSESSIVE",
+    "matchText": "which",
+    "replacementText": "whose",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "in",
+      "rectangular",
+      "moulds"
+    ],
+    "rightContext": [
+      "inner",
+      "surfaces",
+      "have"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I036",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S14",
+    "ruleId": "GF_PERFECT_PASSIVE_INSERT_BEEN",
+    "matchText": "coated",
+    "replacementText": "been coated",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "surfaces",
+      "have"
+    ],
+    "rightContext": [
+      "by",
+      "oil"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I037",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S14",
+    "ruleId": "GF_SUBSTANCE_WITH_NOT_AGENT_BY",
+    "matchText": "by",
+    "replacementText": "with",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "surfaces",
+      "have",
+      "coated"
+    ],
+    "rightContext": [
+      "oil",
+      "for",
+      "preventing"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I038",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S14",
+    "ruleId": "GF_PURPOSE_TO_INFINITIVE_PREFERENCE",
+    "matchText": "for preventing",
+    "replacementText": "to prevent",
+    "acceptableAlternatives": [],
+    "confidence": 0.6,
+    "leftContext": [
+      "by",
+      "oil"
+    ],
+    "rightContext": [
+      "sticking"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I039",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S15",
+    "ruleId": "GF_PERFECT_PASSIVE_INSERT_BEEN",
+    "matchText": "filled,",
+    "replacementText": "been filled,",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "moulds",
+      "have"
+    ],
+    "rightContext": [
+      "they",
+      "are"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I040",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S15",
+    "ruleId": "GF_PRESSURE_PREPOSITION_FRAME",
+    "matchText": "with",
+    "replacementText": "under",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "they",
+      "are",
+      "compressed"
+    ],
+    "rightContext": [
+      "a",
+      "pressure",
+      "of"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I041",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S15",
+    "ruleId": "GF_FOR_MEASURED_DURATION",
+    "matchText": "during",
+    "replacementText": "for",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "twelve",
+      "tonnes"
+    ],
+    "rightContext": [
+      "five",
+      "minutes"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I042",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S16",
+    "ruleId": "GF_LEAVE_PATIENT_TO_INFINITIVE",
+    "matchText": "cooling",
+    "replacementText": "to cool",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "then",
+      "left"
+    ],
+    "rightContext": [
+      "at",
+      "room"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I043",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S16",
+    "ruleId": "GF_UNTIL_COMPLETION_CLAUSE",
+    "matchText": "completely",
+    "replacementText": "they have completely",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "temperature",
+      "until"
+    ],
+    "rightContext": [
+      "solidifying"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I044",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S16",
+    "ruleId": "GF_UNTIL_COMPLETION_CLAUSE",
+    "matchText": "solidifying.",
+    "replacementText": "solidified.",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "until",
+      "completely"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0021-I045",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S17",
+    "ruleId": "GF_ONCE_CLAUSE_REDUCTION",
+    "matchText": "being solid,",
+    "replacementText": "solid,",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "once"
+    ],
+    "rightContext": [
+      "they",
+      "are"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I046",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S17",
+    "ruleId": "GF_REMOVE_FROM_ORIGIN",
+    "matchText": "out from",
+    "replacementText": "from",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "are",
+      "removed"
+    ],
+    "rightContext": [
+      "the",
+      "moulds"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I047",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S17",
+    "ruleId": "GF_TRIM_TO_PRODUCE_RESULT",
+    "matchText": "into producing",
+    "replacementText": "to produce",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "are",
+      "trimmed"
+    ],
+    "rightContext": [
+      "an",
+      "even"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I048",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S18",
+    "ruleId": "GF_DEFINITE_PROCESSED_REFERENT",
+    "matchText": "dried",
+    "replacementText": "the dried",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "before"
+    ],
+    "rightContext": [
+      "flakes",
+      "enter"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I049",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S18",
+    "ruleId": "GF_POSSESSIVE_PRONOUN_NUMBER_AGREEMENT",
+    "matchText": "its",
+    "replacementText": "their",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "a",
+      "sensor",
+      "records"
+    ],
+    "rightContext": [
+      "moisture",
+      "level",
+      "and"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I050",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S18",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "remain",
+    "replacementText": "remains",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "any",
+      "batch",
+      "that"
+    ],
+    "rightContext": [
+      "too",
+      "wet"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I051",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S19",
+    "ruleId": "GF_REDUCED_RELATIVE_VOICE_FORM",
+    "matchText": "spilled",
+    "replacementText": "spilling",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "excess",
+      "mixture"
+    ],
+    "rightContext": [
+      "over",
+      "the"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I052",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S19",
+    "ruleId": "GF_SCRAPE_OFF_SURFACE",
+    "matchText": "out",
+    "replacementText": "off",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "sides",
+      "is",
+      "scraped"
+    ],
+    "rightContext": [
+      "and",
+      "returned",
+      "back"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I053",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S19",
+    "ruleId": "GF_RETURN_BACK_REDUNDANCY",
+    "matchText": "back to",
+    "replacementText": "to",
+    "acceptableAlternatives": [],
+    "confidence": 0.6,
+    "leftContext": [
+      "and",
+      "returned"
+    ],
+    "rightContext": [
+      "the",
+      "tank"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I054",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S20",
+    "ruleId": "GF_COORDINATE_LIST_FINAL_CONJUNCTION",
+    "matchText": "pressure, as well",
+    "replacementText": "pressure and",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "the",
+      "temperature"
+    ],
+    "rightContext": [
+      "processing",
+      "time"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I055",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S20",
+    "ruleId": "GF_EACH_SINGULAR_COUNT_NOUN",
+    "matchText": "batches.",
+    "replacementText": "batch.",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "for",
+      "each"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0021-I056",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S21",
+    "ruleId": "GF_ACCOMPANY_DIRECT_OBJECT",
+    "matchText": "with the",
+    "replacementText": "the",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "records",
+      "accompany"
+    ],
+    "rightContext": [
+      "finished",
+      "blocks"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I057",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S21",
+    "ruleId": "GF_MOTION_REALIZED_DESTINATION_TO",
+    "matchText": "toward",
+    "replacementText": "to",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "finished",
+      "blocks"
+    ],
+    "rightContext": [
+      "the",
+      "testing"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I058",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S21",
+    "ruleId": "GF_PRIOR_TO_OR_BEFORE_GERUND",
+    "matchText": "prior",
+    "replacementText": "before",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "factory",
+      "standard"
+    ],
+    "rightContext": [
+      "authorising",
+      "the"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I059",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S22",
+    "ruleId": "GF_SUBJECTED_TO_TEST_FRAME",
+    "matchText": "subject for",
+    "replacementText": "subjected to",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "is",
+      "subsequently"
+    ],
+    "rightContext": [
+      "two",
+      "tests"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I060",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S22",
+    "ruleId": "GF_ATTRIBUTIVE_COMPOUND_HYPHENATION",
+    "matchText": "tests of quality control.",
+    "replacementText": "quality-control tests.",
+    "acceptableAlternatives": [],
+    "confidence": 0.6,
+    "leftContext": [
+      "for",
+      "two"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0021-I061",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S23",
+    "ruleId": "GF_FORMAL_WHETHER_PREFERENCE",
+    "matchText": "if",
+    "replacementText": "whether",
+    "acceptableAlternatives": [],
+    "confidence": 0.6,
+    "leftContext": [
+      "the",
+      "first",
+      "measures"
+    ],
+    "rightContext": [
+      "the",
+      "block",
+      "can"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I062",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S23",
+    "ruleId": "GF_RESISTANCE_TO_FRAME",
+    "matchText": "against",
+    "replacementText": "to",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "its",
+      "resistance"
+    ],
+    "rightContext": [
+      "water"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I063",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S24",
+    "ruleId": "GF_FAIL_TEST_DIRECT_OBJECT",
+    "matchText": "from either",
+    "replacementText": "either",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "which",
+      "fails"
+    ],
+    "rightContext": [
+      "test",
+      "is"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I064",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S24",
+    "ruleId": "GF_RETURN_TO_PROCESS_STAGE",
+    "matchText": "back into",
+    "replacementText": "to",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "is",
+      "returned"
+    ],
+    "rightContext": [
+      "the",
+      "melting"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I065",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S24",
+    "ruleId": "GF_FOR_ACTION_COMPLEMENT_GERUND",
+    "matchText": "reprocess.",
+    "replacementText": "reprocessing.",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "stage",
+      "for"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0021-I066",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S25",
+    "ruleId": "GF_PARTICIPIAL_PREMODIFIER_ATTACHMENT",
+    "matchText": "Passing",
+    "replacementText": "Blocks that pass",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [],
+    "rightContext": [
+      "both",
+      "tests"
+    ],
+    "startsSentence": true,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I067",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S25",
+    "ruleId": "GF_PARTICIPIAL_PREMODIFIER_ATTACHMENT",
+    "matchText": "blocks are",
+    "replacementText": "are",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "both",
+      "tests"
+    ],
+    "rightContext": [
+      "marked",
+      "by"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I068",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S25",
+    "ruleId": "GF_MARK_WITH_INFORMATION",
+    "matchText": "by its",
+    "replacementText": "with their",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "are",
+      "marked"
+    ],
+    "rightContext": [
+      "production",
+      "date"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I069",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S25",
+    "ruleId": "GF_PACK_IN_GROUPS",
+    "matchText": "by",
+    "replacementText": "in",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "date",
+      "and",
+      "packed"
+    ],
+    "rightContext": [
+      "groups",
+      "of",
+      "twenty"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I070",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S26",
+    "ruleId": "GF_PLACE_ON_CONTACT_SURFACE",
+    "matchText": "over",
+    "replacementText": "on",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "are",
+      "placed"
+    ],
+    "rightContext": [
+      "pallets",
+      "wrapped"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I071",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S26",
+    "ruleId": "GF_WRAP_IN_MATERIAL",
+    "matchText": "by",
+    "replacementText": "in",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "over",
+      "pallets",
+      "wrapped"
+    ],
+    "rightContext": [
+      "protective",
+      "film",
+      "and"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I072",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S26",
+    "ruleId": "GF_STORE_IN_INTERIOR",
+    "matchText": "at",
+    "replacementText": "in",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "film",
+      "and",
+      "stored"
+    ],
+    "rightContext": [
+      "a",
+      "dry",
+      "warehouse"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I073",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S27",
+    "ruleId": "GF_REMAIN_UNTIL_TERMINUS",
+    "matchText": "before",
+    "replacementText": "until",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "remain",
+      "there"
+    ],
+    "rightContext": [
+      "they",
+      "transported"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I074",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S27",
+    "ruleId": "GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+    "matchText": "transported",
+    "replacementText": "are transported",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "before",
+      "they"
+    ],
+    "rightContext": [
+      "towards",
+      "construction"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I075",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S27",
+    "ruleId": "GF_MOTION_REALIZED_DESTINATION_TO",
+    "matchText": "towards",
+    "replacementText": "to",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "they",
+      "transported"
+    ],
+    "rightContext": [
+      "construction",
+      "sites"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I076",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S28",
+    "ruleId": "GF_TAKE_DURATION_FRAME",
+    "matchText": "is taken",
+    "replacementText": "takes",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "complete",
+      "process"
+    ],
+    "rightContext": [
+      "approximately",
+      "six"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I077",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S28",
+    "ruleId": "GF_TAKE_DURATION_FRAME",
+    "matchText": "hours for completing,",
+    "replacementText": "hours,",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "approximately",
+      "six"
+    ],
+    "rightContext": [
+      "excluding",
+      "the"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I078",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S28",
+    "ruleId": "GF_REQUIRED_TIME_REDUCED_PASSIVE",
+    "matchText": "requiring for collecting",
+    "replacementText": "required to collect",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "the",
+      "time"
+    ],
+    "rightContext": [
+      "the",
+      "bottles"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I079",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S29",
+    "ruleId": "GF_CONTEXTUAL_MASS_NOUN_NUMBER",
+    "matchText": "Wastewaters",
+    "replacementText": "Wastewater",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [],
+    "rightContext": [
+      "generated",
+      "from"
+    ],
+    "startsSentence": true,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I080",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S29",
+    "ruleId": "GF_GENERATED_DURING_EVENT",
+    "matchText": "from",
+    "replacementText": "during",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "wastewaters",
+      "generated"
+    ],
+    "rightContext": [
+      "washing",
+      "are",
+      "filtered"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I081",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S29",
+    "ruleId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matchText": "are",
+    "replacementText": "is",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "generated",
+      "from",
+      "washing"
+    ],
+    "rightContext": [
+      "filtered",
+      "and",
+      "reused"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I082",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S29",
+    "ruleId": "GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+    "matchText": "repair separate.",
+    "replacementText": "are repaired separately.",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "damaged",
+      "moulds"
+    ],
+    "rightContext": [],
+    "startsSentence": false,
+    "endsSentence": true
+  },
+  {
+    "patternId": "PARA-0021-I083",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S30",
+    "ruleId": "GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL",
+    "matchText": "despite",
+    "replacementText": "although",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "thus"
+    ],
+    "rightContext": [
+      "the",
+      "procedure"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I084",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S30",
+    "ruleId": "GF_CONTEXTUAL_MASS_NOUN_NUMBER",
+    "matchText": "materials",
+    "replacementText": "material",
+    "acceptableAlternatives": [],
+    "confidence": 0.75,
+    "leftContext": [
+      "some",
+      "rejected"
+    ],
+    "rightContext": [
+      "and",
+      "water"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I085",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S30",
+    "ruleId": "GF_RETURN_TO_PROCESS_STAGE",
+    "matchText": "into",
+    "replacementText": "to",
+    "acceptableAlternatives": [],
+    "confidence": 0.9,
+    "leftContext": [
+      "are",
+      "returned"
+    ],
+    "rightContext": [
+      "earlier",
+      "stages"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
+  },
+  {
+    "patternId": "PARA-0021-I086",
+    "source": "issue",
+    "sentenceId": "PARA-0021-S30",
+    "ruleId": "GF_INSTEAD_OF_GERUND",
+    "matchText": "to be",
+    "replacementText": "of being",
+    "acceptableAlternatives": [],
+    "confidence": 0.99,
+    "leftContext": [
+      "stages",
+      "instead"
+    ],
+    "rightContext": [
+      "discarded"
+    ],
+    "startsSentence": false,
+    "endsSentence": false
   }
 ].map((pattern) => Object.freeze({
   ...pattern,
@@ -24443,7 +31260,11 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "A number of applications were incomplete, whereas the number of rejections was small.",
   "A road bridge was constructed across the river, linking the main road with the station.",
   "A row of cottages stood on the north side of the road, opposite a small park.",
+  "A technician also records the temperature, pressure and processing time for each batch.",
+  "A total of 250 men chose it, as opposed to 170 women.",
+  "Across all six benefits, women made 1,830 selections, while men made 1,750.",
   "After peaking, consumption fell by 1.1 MWh to 3.4 MWh in 2025.",
+  "After the moulds have been filled, they are compressed under a pressure of twelve tonnes for five minutes.",
   "Also, the employees can choose not to read or reply to the work messages after work, and their bosses cannot punish them or give them bad reviews for this.",
   "Also, workers should set boundaries for their working hours and avoid excessive workloads to keep themselves healthy.",
   "Although it was raining heavily, the temple was more beautiful than I expected.",
@@ -24455,11 +31276,13 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "Another reason is that preventive spending creates a fairer society.",
   "Another student apologised to the tutor for arriving late and blamed the delay on a cancelled train.",
   "Another volunteer insisted on checking each cable twice and said that he was responsible for recording every repair.",
+  "Any block which fails either test is returned to the melting stage for reprocessing.",
   "Applications submitted after the deadline will be considered only if evidence of an emergency is provided.",
   "As a clear illustration, if you enter an international airport where the staff are not wearing a proper uniform, you will think that there is a loss of trust and professionalism.",
   "As a result, a person may be physically at home, but mentally still at the office desk.",
   "As a result, they have less chance to relieve their stress during holidays, which may boost their anxiety under stress.",
   "As employers are able to connect with them at all times, they can assign duties and request work on urgent projects.",
+  "As many as 280 women selected this option, compared with just 90 men.",
   "As such, employees may sacrifice their holidays and take on an extra amount of work.",
   "At closing time, two students were responsible for both sorting spare parts and cleaning the tables.",
   "At the college, they meet in the main library rather than in class.",
@@ -24469,18 +31292,24 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "At the final meeting, the coordinator asked whether the survey had represented every group fairly.",
   "At the same time, people should set clear boundaries for work.",
   "At the south-eastern corner of the district, part of the farmland will be divided into plots for detached houses.",
+  "Because each employee could select several benefits, the combined figures do not indicate the number of individual employees in either gender group.",
   "Because they do not have enough rest for a long time, they work more and more slowly and need more time to finish the work; after that, they lose their personal life.",
   "Before leaving, every child returned a name card to the front desk.",
+  "Before the dried flakes enter the chamber, a sensor records their moisture level and diverts any batch that remains too wet.",
   "Besides, working on holidays imposes high pressure on employees.",
   "Between my neighbour and me, we carried the volunteers' tools to a cupboard beside a resident whose bicycle had been repaired.",
+  "Blocks that pass both tests are marked with their production date and packed in groups of twenty.",
   "But, as far as I am concerned, this is more beneficial to employers than workers, as workers have no obligation to work on every occasion.",
   "By 2020, Eastport had surpassed Northland by 0.6 MWh.",
   "By 2035, a walkway is planned to connect the station to the public square, and bicycle parking will be provided on both sides of the southern ramp.",
   "By 2035, most residents will live within walking distance of shops, public transport and open space.",
   "By 2035, the figure is forecast to have fallen further to 3.0 MWh.",
   "By 2050, this trend will be reversed.",
+  "By contrast, remote work and private insurance represented just over two fifths of the male total.",
   "By next June, the new monitoring team will have taken over from the temporary inspectors.",
   "By the time the doors closed, the final guest had already left; the coordinator still had three forms to check before the next community event in early autumn.",
+  "Childcare showed the widest gender gap, while training and private health insurance produced the most similar figures.",
+  "Childcare was also the least popular option among men, although it ranked fourth among women.",
   "Coal will experience the sharpest fall of the three, while gas will remain the second-largest source.",
   "Coal's share is forecast to fall to 20 per cent, a decrease of 25 percentage points.",
   "Compared with 2005, the projected 2035 energy mix contains a much smaller coal share.",
@@ -24491,8 +31320,10 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "Dr Chen works at Northbridge University, while her brother works at the University of Westhaven.",
   "Due to the fact that workers have to stay alert for phone calls from employers, they may devote less time to relaxation and be prepared for requests.",
   "During May, the museum received 312 submissions from schools, shops and residents.",
+  "During moulding, excess mixture spilling over the sides is scraped off and returned to the tank.",
   "During the first week, students attend university by day and return home by bus in the evening.",
   "During the tour, the guide stopped to explain the ticket machine and reminded students to lock their rooms.",
+  "Each block is subsequently subjected to two quality-control tests.",
   "Each name must retain its official article pattern.",
   "Each of the students received a card, and all of them were asked to keep it.",
   "Each visitor later chose between taking the item home and leaving it for collection.",
@@ -24502,7 +31333,11 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "Every file needed checking, but staff had better confirm whether its label matched the box.",
   "Faced with high house prices, rising bus fares and food prices, people give up their free time and face heavy work stress just to keep their jobs.",
   "Finally, the footbridge will remain unchanged, but the nearby riverbank will be widened to create a viewing area.",
+  "Finally, the packaged blocks are placed on pallets, wrapped in protective film and stored in a dry warehouse.",
+  "First, bottles are collected from households and transported to a recycling facility.",
   "First, customers can identify employees quickly, especially when they need help.",
+  "Flexible hours and childcare together accounted for more than one third of all female selections.",
+  "Flexible hours were chosen by 420 women and 360 men.",
   "Following last winter’s floods, the council set up a panel to look into why the drainage programme had fallen behind schedule.",
   "For example, after a student finishes a PE lesson, their T-shirt always gets wet, and their jacket is too thin to keep them warm.",
   "For example, after work, people can turn off work notifications and leave more time for doing exercise and having family dinners.",
@@ -24514,6 +31349,7 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "Gas, by contrast, is projected to decline slightly, from 37 to 33 per cent.",
   "Good health policy should not begin at the hospital door.",
   "Guests borrowed devices; the curator told them to turn them off and parents to look after their children.",
+  "Gym membership showed another clear male advantage.",
   "Had the council acted sooner, it might have prevented damage that is believed to have cost local businesses millions.",
   "Having reviewed the evidence, the panel concluded that what the city needs is not another short-term campaign but a permanent maintenance strategy.",
   "However complicated the repairs may become, officials must deal with them transparently.",
@@ -24550,6 +31386,7 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "In Italy, the 15–59 age group is expected to remain the largest segment in both 2000 and 2050.",
   "In many schools, uniforms are required in order to instil discipline in students.",
   "In my opinion, companies should provide suitable uniforms and allow employees to choose between several styles, so the policy can remain professional without causing unnecessary discomfort at work.",
+  "In other words, 80 fewer women than men selected the benefit, and the number of men was nearly one and a half times that of women.",
   "In recent years, many companies require their staff to wear uniforms at work.",
   "In recent years, more and more companies require staff to wear uniforms at work.",
   "In the 2035 proposal, the medical centre is due to be extended to the north, and a pharmacy will be added beside it.",
@@ -24559,12 +31396,14 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "In today's society, work has become a part of our lives, so our private time has been connected with our work.",
   "In Yemen, people aged 0–14 accounted for 50.1% of the population, slightly higher than the 46.3% recorded for those aged 15–59.",
   "It also asked each participant to check that their address was correct.",
+  "It attracted 410 men, compared with 390 women, so the male figure exceeded the female figure by only 20.",
   "It bottomed out at 2.7 MWh in 2015, recovered to 3.1 MWh in 2020 and levelled off at 3.0 MWh.",
   "It has operated for six months and used to offer help only with lamps, but it now accepts bicycles, radios and small kitchen machines.",
   "It is essential that the revised system be tested before the rainy season begins, lest another breakdown leave families without assistance.",
   "It is high time the council provided funding, and residents wish it had approved the second phase last year.",
   "It is predicted to fall from 61.6% to 46.2%.",
   "It was not until auditors finished that the council released payment.",
+  "Labels and caps are then removed, after which the bottles undergo washing with hot water and detergent.",
   "Last Monday, the coordinator told applicants that the timetable had changed.",
   "Last month, I joined a community reading programme at the library.",
   "Last Saturday, the volunteers managed to fix twenty items and prevented several batteries from ending up in the rubbish.",
@@ -24572,13 +31411,17 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "Many a traveller has made this mistake.",
   "Many residents look forward to learning simple skills instead of throwing damaged objects away.",
   "Maya, the programme officer, will review reports written in languages other than English.",
+  "Mechanical paddles continuously stir the two ingredients, preventing heavier particles from settling at the bottom of the tank.",
   "More than one volunteer was uncertain, and Lena is one of those assistants who work late answering questions.",
   "Moreover, employees who need to work 24/7 may spend less time with their friends or partners.",
+  "Most stages are mechanical, although heat is applied during melting and the material is left to cool before testing.",
   "Most students have found the maps useful, but most of the students interviewed asked for clearer fare information.",
   "Most visitors prefer repairing old things to buying new ones, and several said they would rather donate unused tools than throw them away.",
   "Much as the mayor wanted to defend the original scheme, she admitted that the authority had failed to live up to its promises.",
   "My main duty was to help children to choose books that were suitable for their age.",
   "My mother asked me where we could buy cheaper fruit, but I was not sure.",
+  "Nevertheless, gym membership remained less popular overall than flexible hours, remote work, training and private insurance.",
+  "Next, the molten plastic is combined with recycled sand in a ratio of three parts plastic to one part sand.",
   "No road bridge crossed the river, and there was no direct connection between the station and the town centre.",
   "No sooner had the investigators drawn up a timetable than one supplier pulled out of the project.",
   "Nobody answered immediately, but no candidate had forgotten the requirement.",
@@ -24590,7 +31433,10 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "Nowadays, messaging apps are common, causing staff to have a lot of email messages to reply to; since it is so convenient to manage documents and meetings, the end of the working day no longer feels like a real end.",
   "Of the three sources, renewables will record the largest absolute increase.",
   "Of the two interview rooms, one is beside the library and the other is inside the student centre.",
+  "On arrival, each bottle is inspected to determine whether it contains unsuitable material.",
   "On the first day, we collected much information from a tourist centre and asked the staff where we should go.",
+  "Once solid, they are removed from the moulds, and their edges are trimmed to produce an even shape.",
+  "Once they are clean, the bottles are sent for shredding.",
   "One applicant asked, “Why did the portal reject my form?”",
   "One boy said he was interested in space, so I showed him a book about planets.",
   "One instructor advised avoiding touching loose wires and suggested considering replacing any cracked plug.",
@@ -24606,20 +31452,26 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "Over the following thirty years, the cottages were replaced by three apartment blocks, and the grocery shop was converted into a medical centre.",
   "Over the period, its values ranged from 2.7 to 3.3 MWh.",
   "Over time, their bodies become tired as they work to make money.",
+  "Overall, flexible working hours attracted the highest number of women, whereas remote work was the most popular choice among men.",
   "Overall, Northland led initially but Eastport overtook it, whereas Westmere remained the lowest of the four for most of the period.",
   "Overall, the area has evolved from a lightly developed riverside settlement into a denser mixed-use neighbourhood, and the next phase is intended to improve pedestrian access while retaining the central park.",
   "Overall, the journey gave us many memories and broadened our knowledge.",
+  "Overall, the procedure begins with the collection and inspection of used bottles and ends with the packaging of tested blocks.",
   "Overall, they bring clear learning environment benefits, while also creating practical and personal drawbacks.",
   "Overall, Yemen's population was younger than Italy's in 2000, and this contrast is expected to become more pronounced by 2050.",
   "Parents were happy because the organisers let children test safe tools, although they made everyone wear eye protection.",
   "Participants conduct research in the library, but they go to university to study.",
   "Prevention, therefore, does not merely reduce costs; it protects people from pain that no medicine can fully erase.",
+  "Private health insurance recorded 340 male selections and 310 female selections.",
   "Professor Malik, the programme director, said that the fellowship had received a large number of applications but only a little funding.",
   "Rarely had the museum received donations, and volunteers worked hard to catalogue them.",
+  "Rejected items are removed from the production line, while the acceptable bottles travel along a conveyor belt.",
+  "Remote work displayed the opposite pattern.",
   "Renewables are expected to rise from 18 to 47 per cent, gaining 29 percentage points.",
   "Replacing the card meant completing another form, but she did not mean to delay the group.",
   "Requiring pupils to wear a uniform has several clear benefits, especially because wearing a uniform can help students focus more on studies, but schools allowing casual wear will increase the time and cost and even cause psychological problems.",
   "Residents would rather the council published all future reports than withheld inconvenient findings.",
+  "Rotating blades cut them into small flakes, which subsequently pass beneath a magnet so that any metal fragments can be extracted.",
   "Schools have stringent uniform requirements.",
   "Second, a uniform can reduce how much money staff spend on work clothes.",
   "Several questions nevertheless remain.",
@@ -24650,29 +31502,40 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "The 15–59 age group will exceed the 0–14 age group and rise to 57.3%.",
   "The 2035 figure is projected to be about one and a half times the 2005 level.",
   "The app showed much information and allowed customers to compare prices between shops.",
+  "The bar chart compares the numbers of male and female employees who selected each of six workplace benefits in a survey conducted at a company.",
   "The bar chart presents the proportions of electricity generated from coal, gas and renewables.",
+  "The blocks are then left to cool at room temperature until they have completely solidified.",
   "The central apartment block will be demolished, with the site becoming a public square surrounded by cafés.",
   "The chair asked engineers to follow up on every complaint and come up with a plan that would account for the failures.",
   "The chair explained that a solution to the delay depended on cooperation among departments.",
+  "The chart therefore supports comparisons between benefit preferences, but it cannot be used to calculate the percentage of employees choosing each option without knowing the sizes of the two groups.",
   "The college is also reviewing reports submitted by students living outside the city.",
   "The combined regional total is projected to rise from 12.1 to 14.3 MWh.",
   "The committee recommended that each contractor provide monthly evidence and that emergency drills be carried out twice a year.",
   "The committee rejected the original timetable because the timetable was unrealistic, although the committee itself had drafted it.",
   "The committee therefore requested more information from students whose journeys involved more than one form of transport.",
+  "The complete process takes approximately six hours, excluding the time required to collect the bottles.",
   "The coordinator replied that references submitted without signatures would be returned.",
   "The curator and I disagreed, although the chair asked me to prepare a proposal.",
   "The database contains twenty criteria, although each application is judged against only one criterion at a time.",
   "The decision will follow after lawyers have given some advice.",
   "The department owns two recorders, and the equipment belongs to the university.",
+  "The diagram illustrates how discarded plastic bottles are converted into paving blocks through a twelve-stage linear process.",
   "The difference between the fastest-growing and slowest-growing regions is projected to widen.",
+  "The difference between the two groups was 40, and the male figure was approximately 15 per cent higher than the female figure.",
   "The driver could deliver the bags before dinner.",
   "The elderly population will remain comparatively small, though it is expected to increase from 3.6% to 5.7%.",
   "The equipment is stored there.",
   "The existing car park will be moved underground, allowing the land above it to be used as a playground.",
   "The extension depends on whether the museum can prove its value.",
+  "The female figure was therefore slightly more than three times the male figure, and women made up about three quarters of the 370 selections in this category.",
   "The figures for coal, gas and renewables will be 20, 33 and 47 per cent, respectively.",
+  "The figures represent selections rather than percentages, and respondents could choose more than one option.",
+  "The first measures whether the block can support the required load, while the second checks its resistance to water.",
   "The first reason is that prevention saves both money and human suffering.",
+  "The flakes are dried for thirty minutes at 80 degrees Celsius before entering a heated chamber.",
   "The gap between gas and renewables will shift from 19 percentage points favouring gas to 14 percentage points favouring renewables.",
+  "The greatest contrast appeared in childcare support.",
   "The journey may broaden our knowledge.",
   "The leader said we must bring water, and she asked each member to arrive at the station by eight.",
   "The line graph illustrates annual household electricity use in four regions, measured in MWh, between 2005 and 2035, while the bar chart compares its sources.",
@@ -24701,6 +31564,7 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "The red folders were stronger than the blue ones, although the latter were cheaper.",
   "The red route is faster than the blue one, while the latter is cheaper.",
   "The reports contain several analyses of travel patterns, two series of photographs and three appendices.",
+  "The resulting mixture is poured into rectangular moulds whose inner surfaces have been coated with oil to prevent sticking.",
   "The scanner is twice as efficient as its predecessor, and its output is superior to that of the earlier model.",
   "The scheme also requires more careful use of articles and institutional names.",
   "The section of road beside the park was pedestrianised, with traffic diverted onto a new bypass running around the northern edge of the district.",
@@ -24714,6 +31578,7 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "The warehouse was demolished, and a supermarket was built on its former site.",
   "The way in which volunteers describe images must be consistent, because the fact that some diaries contain private details requires care.",
   "The weather was rainy.",
+  "The women's total was therefore 80 higher than the men's, although both totals were broadly comparable.",
   "The youngest age group is projected to remain relatively stable over the period, shrinking only slightly from 14.3% to 11.5%.",
   "Their share will therefore be more than two and a half times its 2005 level.",
   "There are fewer buses in the morning, so everyone must arrive on time.",
@@ -24722,12 +31587,16 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "There was little time during the first session, although tutors allowed a little extra time for questions.",
   "Therefore, children will face mental health problems.",
   "Therefore, uniforms may solve social problems at schools, but they can also create economic difficulties for parents and students.",
+  "These figures were close to each other, with men accounting for 30 more selections than women.",
   "These homes will face the river and will be connected to the station by a road branching off Station Road.",
+  "These records accompany the finished blocks to the testing area, where inspectors compare the results with the factory standard before authorising the batch for storage and delivery.",
   "They have breakfast in their residences before taking the number 12 bus.",
+  "They remain there until they are transported to construction sites.",
   "They suggested that we visit an ancient temple that was built over five hundred years ago.",
   "They suggested to us that we visit the temple.",
   "They suggested visiting the temple.",
   "This bag is for carrying books.",
+  "This chamber, which is capable of reaching 180 degrees Celsius, melts the flakes into a uniform liquid.",
   "This generally destroys their social bonding with peers and has negative effects on their social relationships.",
   "This is equivalent to a reduction of 56 per cent relative to its share.",
   "This is especially important for poorer families, who may lack access to nutritious food, safe housing, mental-health support, or regular medical checks.",
@@ -24735,8 +31604,13 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "This policy has several advantages for both workers and customers.",
   "This problem is usually caused by excessive workloads, which lead to work stress and weakened boundaries between professional and private life.",
   "This represented a rise of 1.6 MWh, or 50 per cent.",
+  "This was the only category in which men's participation was higher by fewer than 30 respondents.",
+  "Thus, 60 more women than men selected this benefit, and women outnumbered men by roughly one sixth of the male figure.",
+  "Thus, although the procedure is linear, some rejected material and water are returned to earlier stages instead of being discarded.",
   "To begin with, the advantage is that customers can easily locate staff who are wearing uniforms.",
   "To sum up, employers should avoid contacting their workers during holidays, which can protect them from excessive work and loads of stress and can help them maintain close relationships with their friends.",
+  "Training occupies fourth place for men but fifth for women, ahead of gym membership in the latter ranking.",
+  "Training was selected by 300 men and 260 women, giving a combined total of 560 selections.",
   "Treating illness matters, but preventing it is the wiser use of public money.",
   "Treatment often reaches people only after damage has been done, whereas prevention can protect whole communities before illness takes root.",
   "Two ramps will provide access to the path from either side of the bridge.",
@@ -24745,6 +31619,7 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "Uniforms may also make workers feel that they have less personal freedom.",
   "Unless the server fails, staff will keep an offline copy in case the database becomes unavailable.",
   "Until all recommendations have been implemented, no department can take it for granted that public confidence will simply return without sustained effort or scrutiny.",
+  "Wastewater generated during washing is filtered and reused, while damaged moulds are repaired separately.",
   "We decided to order from a supermarket that was located near our home.",
   "We met the workers who built the temple.",
   "We received three pieces of information.",
@@ -24759,6 +31634,7 @@ export const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze([
   "Whatever the outcome, the archive has encouraged residents to value records that might otherwise disappear.",
   "Whatever the results show, the college will continue throughout the year to provide guidance, and students will know whom to contact when a problem arises.",
   "When governments invest in health education, vaccination programmes, early screening, safe parks, and better nutrition in schools, many serious conditions can be stopped before they become expensive medical crises.",
+  "When the categories are ranked separately, the first three positions for women are flexible hours, remote work and private insurance, while the order for men is remote work, flexible hours and private insurance.",
   "When the order arrived, two bottles of milk were missing.",
   "Whoever wants to withdraw a photograph may do so, and the archive will return all that families reject.",
   "Wind and solar together will make up 47 per cent of total generation.",
@@ -26055,5 +32931,241 @@ export const CORPUS_APPROVED_INCORRECT_SENTENCES = Object.freeze([
   {
     "sentenceId": "PARA-0018-S33",
     "sourceSentence": "At end of the period, Eastport will rank the first, followed with Southvale and Westmere, with Northland at last."
+  },
+  {
+    "sentenceId": "PARA-0020-S01",
+    "sourceSentence": "The bar chart compares between the amount of male and female employees which selected each from six workplace benefits in a survey conducted on a company."
+  },
+  {
+    "sentenceId": "PARA-0020-S02",
+    "sourceSentence": "The figures are representing selections instead percentages, and respondents could chose more then one options."
+  },
+  {
+    "sentenceId": "PARA-0020-S03",
+    "sourceSentence": "Overall, flexible working hours attracted the most highest number of woman, whereas remote work was most popular choice between men."
+  },
+  {
+    "sentenceId": "PARA-0020-S04",
+    "sourceSentence": "Childcare showed the most widest gender gap, while training as well private health insurance produced most similar figure."
+  },
+  {
+    "sentenceId": "PARA-0020-S05",
+    "sourceSentence": "Flexible hours was chosen from 420 women and 360 men."
+  },
+  {
+    "sentenceId": "PARA-0020-S06",
+    "sourceSentence": "Thus, more 60 women compared to men selected this benefit, and women exceeded men with roughly one sixth from the male figure."
+  },
+  {
+    "sentenceId": "PARA-0020-S07",
+    "sourceSentence": "Remote work showed an opposite pattern."
+  },
+  {
+    "sentenceId": "PARA-0020-S08",
+    "sourceSentence": "It attracted 410 mens, comparing with 390 womens, so the male figure was exceeded the female figure for only 20."
+  },
+  {
+    "sentenceId": "PARA-0020-S09",
+    "sourceSentence": "This was only category where men's participation was more higher with less than 30 respondents."
+  },
+  {
+    "sentenceId": "PARA-0020-S10",
+    "sourceSentence": "Training selected 300 men and 260 women, gave a combined total with 560 selection."
+  },
+  {
+    "sentenceId": "PARA-0020-S11",
+    "sourceSentence": "The different between two groups were 40, and male figure was approximate 15 percentage higher than female figure."
+  },
+  {
+    "sentenceId": "PARA-0020-S12",
+    "sourceSentence": "Private health insurance was recorded 340 male selections beside 310 female selection."
+  },
+  {
+    "sentenceId": "PARA-0020-S13",
+    "sourceSentence": "These figure was close each other, with men accounted 30 selections more as women."
+  },
+  {
+    "sentenceId": "PARA-0020-S14",
+    "sourceSentence": "The most greatest contrast appeared on childcare support."
+  },
+  {
+    "sentenceId": "PARA-0020-S15",
+    "sourceSentence": "As much as 280 women selected this option, in comparison with only 90 man."
+  },
+  {
+    "sentenceId": "PARA-0020-S16",
+    "sourceSentence": "The female figure was therefore slight more than three times higher than male figure, and women made about three quarter from 370 selection on this category."
+  },
+  {
+    "sentenceId": "PARA-0020-S17",
+    "sourceSentence": "Childcare was also least popular option between men, despite it ranked the fourth among women."
+  },
+  {
+    "sentenceId": "PARA-0020-S18",
+    "sourceSentence": "Gym membership showed other clear advantage for males."
+  },
+  {
+    "sentenceId": "PARA-0020-S19",
+    "sourceSentence": "A total 250 men chose it, as opposed with 170 women."
+  },
+  {
+    "sentenceId": "PARA-0020-S20",
+    "sourceSentence": "In another words, 80 less women than men selected benefit, and number of men were nearly one and half time those of women."
+  },
+  {
+    "sentenceId": "PARA-0020-S21",
+    "sourceSentence": "Nevertheless, gym membership remained fewer popular in overall than flexible hours, remote work, training and private insurance."
+  },
+  {
+    "sentenceId": "PARA-0020-S22",
+    "sourceSentence": "Across all six benefit, women did 1,830 selections, while men made 1,750."
+  },
+  {
+    "sentenceId": "PARA-0020-S23",
+    "sourceSentence": "The total of women was therefore higher 80 than the one of men, although both totals were broad comparable."
+  },
+  {
+    "sentenceId": "PARA-0020-S24",
+    "sourceSentence": "Flexible hours together with childcare accounted more one third from all females selections."
+  },
+  {
+    "sentenceId": "PARA-0020-S25",
+    "sourceSentence": "By contrast, remote work and private insurance represented just above two fifth of male total."
+  },
+  {
+    "sentenceId": "PARA-0020-S26",
+    "sourceSentence": "When categories ranked separate, first three position of women is flexible hours, remote work and private insurance, while order of men are remote work, flexible hours and private insurance."
+  },
+  {
+    "sentenceId": "PARA-0020-S27",
+    "sourceSentence": "Training locates at the fourth place of men but on fifth of women, ahead than gym membership in former ranking."
+  },
+  {
+    "sentenceId": "PARA-0020-S28",
+    "sourceSentence": "Because every employees could select several benefit, the combined figure does not indicate amount of individual employee on neither gender groups."
+  },
+  {
+    "sentenceId": "PARA-0020-S29",
+    "sourceSentence": "The chart therefore supports comparison among benefit preference, but it cannot use for calculate percentage of employees which choose every options without know the size for both group."
+  },
+  {
+    "sentenceId": "PARA-0021-S01",
+    "sourceSentence": "The diagram illustrates that how discarded plastic bottles are converted into paving blocks through a twelve-stages linear process."
+  },
+  {
+    "sentenceId": "PARA-0021-S02",
+    "sourceSentence": "Overall, the procedure begins from collecting and inspecting used bottles and ends by packaging tested blocks."
+  },
+  {
+    "sentenceId": "PARA-0021-S03",
+    "sourceSentence": "Most stages are mechanically, although heat is applying during melting and the material is left cooling before testing."
+  },
+  {
+    "sentenceId": "PARA-0021-S04",
+    "sourceSentence": "First, bottles are collected out of households and transported at a recycling facility."
+  },
+  {
+    "sentenceId": "PARA-0021-S05",
+    "sourceSentence": "On arrival, each bottle is inspected for determine whether it contains unsuitable material."
+  },
+  {
+    "sentenceId": "PARA-0021-S06",
+    "sourceSentence": "Rejected items are removed off the production line, while the acceptable bottles travel through a conveyor belt."
+  },
+  {
+    "sentenceId": "PARA-0021-S07",
+    "sourceSentence": "Labels and caps are then removed, after that the bottles undergo a washing by hot water and detergent."
+  },
+  {
+    "sentenceId": "PARA-0021-S08",
+    "sourceSentence": "Once cleaning, the bottles are sent for shred."
+  },
+  {
+    "sentenceId": "PARA-0021-S09",
+    "sourceSentence": "Rotating blades cut them to small flakes, which subsequently pass through beneath a magnet so as any metal fragments can be extracted."
+  },
+  {
+    "sentenceId": "PARA-0021-S10",
+    "sourceSentence": "The flakes are dried during thirty minutes at 80 degree Celsius before to enter a heated chamber."
+  },
+  {
+    "sentenceId": "PARA-0021-S11",
+    "sourceSentence": "This chamber, which is capable to reach 180 degrees Celsius, melts the flakes to a uniform liquid."
+  },
+  {
+    "sentenceId": "PARA-0021-S12",
+    "sourceSentence": "Next, the molten plastic is combined to recycled sand in a ratio from three parts plastic against one part sand."
+  },
+  {
+    "sentenceId": "PARA-0021-S13",
+    "sourceSentence": "Mechanical paddles continuously stir the two ingredients, preventing heavier particles settling in the bottom of the tank."
+  },
+  {
+    "sentenceId": "PARA-0021-S14",
+    "sourceSentence": "The resulted mixture is poured in rectangular moulds which inner surfaces have coated by oil for preventing sticking."
+  },
+  {
+    "sentenceId": "PARA-0021-S15",
+    "sourceSentence": "After the moulds have filled, they are compressed with a pressure of twelve tonnes during five minutes."
+  },
+  {
+    "sentenceId": "PARA-0021-S16",
+    "sourceSentence": "The blocks are then left cooling at room temperature until completely solidifying."
+  },
+  {
+    "sentenceId": "PARA-0021-S17",
+    "sourceSentence": "Once being solid, they are removed out from the moulds, and their edges are trimmed into producing an even shape."
+  },
+  {
+    "sentenceId": "PARA-0021-S18",
+    "sourceSentence": "Before dried flakes enter the chamber, a sensor records its moisture level and diverts any batch that remain too wet."
+  },
+  {
+    "sentenceId": "PARA-0021-S19",
+    "sourceSentence": "During moulding, excess mixture spilled over the sides is scraped out and returned back to the tank."
+  },
+  {
+    "sentenceId": "PARA-0021-S20",
+    "sourceSentence": "A technician also records the temperature, pressure, as well processing time for each batches."
+  },
+  {
+    "sentenceId": "PARA-0021-S21",
+    "sourceSentence": "These records accompany with the finished blocks toward the testing area, where inspectors compare the results with the factory standard prior authorising the batch for storage and delivery."
+  },
+  {
+    "sentenceId": "PARA-0021-S22",
+    "sourceSentence": "Each block is subsequently subject for two tests of quality control."
+  },
+  {
+    "sentenceId": "PARA-0021-S23",
+    "sourceSentence": "The first measures if the block can support the required load, while the second checks its resistance against water."
+  },
+  {
+    "sentenceId": "PARA-0021-S24",
+    "sourceSentence": "Any block which fails from either test is returned back into the melting stage for reprocess."
+  },
+  {
+    "sentenceId": "PARA-0021-S25",
+    "sourceSentence": "Passing both tests blocks are marked by its production date and packed by groups of twenty."
+  },
+  {
+    "sentenceId": "PARA-0021-S26",
+    "sourceSentence": "Finally, the packaged blocks are placed over pallets, wrapped by protective film and stored at a dry warehouse."
+  },
+  {
+    "sentenceId": "PARA-0021-S27",
+    "sourceSentence": "They remain there before they transported towards construction sites."
+  },
+  {
+    "sentenceId": "PARA-0021-S28",
+    "sourceSentence": "The complete process is taken approximately six hours for completing, excluding the time requiring for collecting the bottles."
+  },
+  {
+    "sentenceId": "PARA-0021-S29",
+    "sourceSentence": "Wastewaters generated from washing are filtered and reused, while damaged moulds repair separate."
+  },
+  {
+    "sentenceId": "PARA-0021-S30",
+    "sourceSentence": "Thus, despite the procedure is linear, some rejected materials and water are returned into earlier stages instead to be discarded."
   }
 ].map((entry) => Object.freeze(entry)));

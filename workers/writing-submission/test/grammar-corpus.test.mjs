@@ -96,9 +96,9 @@ function runtime(sentences = FIXTURES) {
 }
 
 test("generated approved corpus is loaded and materialized at module initialization", () => {
-  assert.equal(GRAMMAR_CORPUS_VERSION, "2026-08-02.1");
+  assert.equal(GRAMMAR_CORPUS_VERSION, "2026-08-02.2");
   assert.equal(GRAMMAR_CORPUS_SIZE, 14);
-  assert.equal(GRAMMAR_CORPUS_GUIDE_SIZE, 322);
+  assert.equal(GRAMMAR_CORPUS_GUIDE_SIZE, 381);
 
   const result = lookupApprovedExactCorrection(
     "In recent years, many company requires their staffs to wears uniforms at work."
@@ -111,18 +111,23 @@ test("generated approved corpus is loaded and materialized at module initializat
   assert.equal(result.issues[0].message, "many 後面的可數名詞通常要用複數，所以寫 companies。");
 });
 
-test("datasets 3–18 are complete development records and stay outside runtime retrieval", () => {
-  assert.equal(SOURCE_CORPUS.groups.length, 18);
-  assert.equal(SOURCE_CORPUS.paragraphs.length, 18);
-  assert.equal(SOURCE_CORPUS.sentences.length, 322);
-  assert.equal(SOURCE_CORPUS.issues.length, 724);
-  assert.equal(SOURCE_CORPUS.rules.length, 640);
+test("datasets 3–18 and 20–21 are development records and stay outside runtime retrieval", () => {
+  assert.equal(SOURCE_CORPUS.groups.length, 20);
+  assert.equal(SOURCE_CORPUS.paragraphs.length, 20);
+  assert.equal(SOURCE_CORPUS.sentences.length, 381);
+  assert.equal(SOURCE_CORPUS.issues.length, 937);
+  assert.equal(SOURCE_CORPUS.rules.length, 769);
   assert.equal(SOURCE_CORPUS.exceptions.length, 13);
 
   const importedParagraphs = SOURCE_CORPUS.paragraphs.filter(({ paragraphId }) => (
     Number(paragraphId.slice(5)) >= 3
   ));
-  assert.equal(importedParagraphs.length, 16);
+  assert.equal(importedParagraphs.length, 18);
+  assert.equal(
+    importedParagraphs.some(({ paragraphId }) => paragraphId === "PARA-0019"),
+    false,
+    "Dataset 19 has no supplied sentence evidence and must not be fabricated"
+  );
   assert.ok(importedParagraphs.every((paragraph) => (
     paragraph.retrievalEligible === false && paragraph.evaluationHoldout === false
   )));
@@ -137,7 +142,7 @@ test("datasets 3–18 are complete development records and stay outside runtime 
   ));
   assert.equal(denseSentenceIssues.length, 16, "development guidance preserves every mapped issue");
   assert.equal(GRAMMAR_CORPUS_SIZE, 14, "development guidance must not enter the Worker snapshot");
-  assert.equal(GRAMMAR_CORPUS_GUIDE_SIZE, 322, "all non-holdout records may enter guidance");
+  assert.equal(GRAMMAR_CORPUS_GUIDE_SIZE, 381, "all non-holdout records may enter guidance");
   assert.equal(
     lookupApprovedExactCorrection(CORPUS_GUIDANCE_SENTENCES[14].sourceSentence),
     null,
@@ -145,11 +150,11 @@ test("datasets 3–18 are complete development records and stay outside runtime 
   );
 });
 
-test("all 308 development sentences are valid selectable guides, never exact answers", () => {
+test("all 367 development sentences are valid selectable guides, never exact answers", () => {
   const developmentGuides = CORPUS_GUIDANCE_SENTENCES.filter((entry) => (
     entry.partition === "development" && entry.reviewPolicy === "guidance"
   ));
-  assert.equal(developmentGuides.length, 308);
+  assert.equal(developmentGuides.length, 367);
 
   for (const guide of developmentGuides) {
     const guideRuntime = createGrammarCorpusRuntime({

@@ -57,7 +57,9 @@ const positives = Object.freeze([
   ["People enjoy read books.", [[13, 17, "read", "reading"]]],
   ["They avoid eat sugar.", [[11, 14, "eat", "eating"]]],
   ["We decide leave early.", [[10, 15, "leave", "to leave"]]],
-  ["I want study medicine.", [[7, 12, "study", "to study"]]]
+  ["I want study medicine.", [[7, 12, "study", "to study"]]],
+  ["Maria support disabled students.", [[6, 13, "support", "supports"]]],
+  ["John work displayed examples.", [[5, 9, "work", "works"]]]
 ]);
 
 for (const [sentence, expected] of positives) {
@@ -108,6 +110,14 @@ const negatives = Object.freeze([
   "John may eat food.",
   "Reading helps students.",
   "Swimming keeps us healthy.",
+  "Remote work displayed the opposite pattern.",
+  "Hybrid work clearly improved productivity.",
+  "The complete process takes six hours.",
+  "Our report compares the towns.",
+  "By design, the system works.",
+  "At present, demand is stable.",
+  "In contrast, costs fell.",
+  "On balance, the plan works.",
   "The students like reading.",
   "Every student needs help.",
   "My brother enjoys playing football."
@@ -115,6 +125,17 @@ const negatives = Object.freeze([
 
 for (const sentence of negatives) {
   assert.deepEqual(checkLocalLearnerEnglish(sentence), [], sentence);
+}
+
+// A sentence-initial determiner phrase must not revive the old speculative
+// name/agreement false positive. The former bare "compares between" surface
+// rule is intentionally inactive because it collides with numeric ranges.
+{
+  const issues = checkLocalLearnerEnglish("Our report compares between towns.");
+  assert.equal(
+    issues.some((issue) => issue.ruleId === "EslSingularNamePresentAgreement"),
+    false
+  );
 }
 
 for (const sentence of corpus.sentences) {

@@ -3,7 +3,7 @@ import {
   CORPUS_DETECTOR_PATTERNS,
   CORPUS_DETECTOR_RULES,
   CORPUS_DETECTOR_VERSION
-} from "./writing-submission-corpus-detector.generated.js?v=20260802-grammar2";
+} from "./writing-submission-corpus-detector.generated.js?v=20260802-grammar3";
 
 export {
   CORPUS_DETECTOR_PATTERNS,

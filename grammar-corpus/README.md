@@ -10,24 +10,30 @@ code by hand.
 
 ## One source, three generated outputs
 
-`corpus-v1.json` is the single source of truth for release `2026-08-02.1`.
+`corpus-v1.json` is the single source of truth for release `2026-08-02.2`.
 It currently contains:
 
-- 18 approved paragraphs;
-- 322 approved sentences;
-- 724 individually annotated issues;
-- 640 reusable rule records; and
+- 20 release paragraphs;
+- 381 release sentences;
+- 937 exact, non-overlapping issue spans;
+- 769 reusable rule records; and
 - 13 exceptions or valid counterexamples.
 
 The original two paragraph families remain eligible for authoritative exact
-retrieval. Datasets 3–18 are preserved as 16 approved development families,
-with 308 sentences and all 693 issue rows physically present in the supplied
-source. They do not become exact answers, but all approved non-holdout records
-now enter two bounded runtime layers: a 322-sentence structural guidance pool
-for the Worker and 724 context-anchored browser patterns backed by all 640 rule
-records. Dataset 17 declares 100 mappings, but its source contains 99 numbered
-rows; the release records the 99 real rows and does not fabricate a missing
-mapping.
+retrieval. Datasets 3–18 and 20–21 are preserved as 18 development families,
+with 367 guidance sentences. They do not become exact answers. Dataset 19 is
+represented in the executable-rule source but is absent from this sentence
+corpus because the supplied attachment omits both passages and all 34 sentence
+pairs; no sentence was fabricated. Dataset 20's table contains 116 source rows
+despite declaring 115. Its source rows normalize to 127 legacy-compatible spans,
+and Dataset 21's 83 source rows normalize to 86 spans. The two unlabelled,
+grammatical target variations are intentionally excluded.
+
+All non-holdout records enter two bounded runtime layers: a 381-sentence
+structural-guidance pool for the Worker and 937 context-anchored browser
+patterns backed by all 769 rule records. Dataset 17 declares 100 mappings, but
+its source contains 99 numbered rows; the release records the 99 real rows and
+does not fabricate a missing mapping.
 
 Running:
 
@@ -39,9 +45,9 @@ performs all integrity checks and regenerates:
 
 1. `workers/writing-submission/src/grammar-corpus.generated.js` — the compact,
    read-only Worker snapshot used for 14 authoritative exact matches and a
-   separate 322-sentence bounded structural-guidance pool;
-2. `../writing-submission-corpus-detector.generated.js` — 640 approved rule
-   records and 724 context-anchored issue patterns for deterministic browser
+   separate 381-sentence bounded structural-guidance pool;
+2. `../writing-submission-corpus-detector.generated.js` — 769 rule records and
+   937 context-anchored issue patterns for deterministic browser
    checking;
 3. `seed-corpus-v1.sql` — the immutable, idempotent Supabase seed; and
 4. `sheets-v1/*.csv` — six spreadsheet tabs suitable for Excel or Google
@@ -49,6 +55,18 @@ performs all integrity checks and regenerates:
 
 Never edit a generated output. Edit the source JSON or a reviewed workbook,
 then run the generator.
+
+## Executable rule-family layer
+
+Sets 19–21 also use the stricter authoring and compiler layer documented in
+`../tools/grammar-detector-v2/README.md`. It stores all 303 supplied source
+issues as 219 deduplicated families, then publishes only 53 patterns across 44
+runtime families that pass the evidence, capability, approval, confidence,
+holdout, conflict and 124-sentence adversarial-control gates.
+The generated browser module is
+`../writing-submission-executable-grammar.generated.js`. Parser-dependent or
+semantic families remain stored but inactive until the required runtime and
+tests exist.
 
 ## Spreadsheet workflow
 
@@ -110,7 +128,7 @@ generalise merely because it saw almost the same sentence.
 The initial two examples retain the user-approved values
 `retrievalEligible: true` and `evaluationHoldout: false`. Begin allocating
 holdout families once there are enough independent examples for a meaningful
-evaluation set. The 16 newly imported families use the `development`
+evaluation set. The 18 sentence-backed imported families use the `development`
 partition with `reviewPolicy: "guidance"`, `retrievalEligible: false`, and
 `evaluationHoldout: false`.
 

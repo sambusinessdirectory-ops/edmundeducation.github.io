@@ -498,7 +498,7 @@ test("health keeps the core service independent and reports grammar AI readiness
   assert.equal(completeBody.grammarAi.version, "2026-08-01.11");
   assert.equal(completeBody.grammarAi.model, "@cf/meta/llama-3.3-70b-instruct-fp8-fast");
   assert.equal(completeBody.grammarAi.repairModel, "@cf/meta/llama-3.1-8b-instruct-fast");
-  assert.equal(completeBody.grammarCorpus.version, "2026-08-02.1");
+  assert.equal(completeBody.grammarCorpus.version, "2026-08-02.2");
   assert.equal(completeBody.grammarCorpus.approvedSentenceCount, 14);
   assert.equal(completeBody.grammarCorpus.execution, "worker-bundled");
   assert.equal(completeBody.rateLimiters.grammarCheck, true);
@@ -578,7 +578,7 @@ test("an exact teacher-approved corpus sentence works without AI or an extra Sup
   const body = JSON.parse(responseText);
 
   assert.equal(body.engine.name, "edmund-approved-grammar-corpus");
-  assert.equal(body.engine.version, "2026-08-02.1");
+  assert.equal(body.engine.version, "2026-08-02.2");
   assert.equal(body.corpus.paragraphId, "PARA-0001");
   assert.equal(body.corpus.sentenceId, "PARA-0001-S02");
   assert.equal(body.issues.length, 3);

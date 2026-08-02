@@ -46,7 +46,7 @@ const HARPER_ENGINE = Object.freeze({
 });
 const CORPUS_ENGINE = Object.freeze({
   name: "edmund-approved-grammar-corpus",
-  version: "2026-08-02.1",
+  version: "2026-08-02.2",
   execution: "cloudflare-worker"
 });
 

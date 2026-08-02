@@ -1,7 +1,7 @@
 // GENERATED FILE. Edit grammar-corpus/corpus-v1.json and run
 // node grammar-corpus/validate-and-generate.mjs instead.
 
-export const CORPUS_VERSION = "2026-08-02.1";
+export const CORPUS_VERSION = "2026-08-02.2";
 
 export const CORPUS_SENTENCES = Object.freeze([
   {
@@ -9123,6 +9123,1708 @@ export const CORPUS_GUIDANCE_SENTENCES = Object.freeze([
       "verb_ed_surface"
     ],
     "explanationZhHant": "「At」在此應改為「At the」。固定結構是 at the end of + 時段／事物。 in the end 則表示「最終」。 「the first」在此應改為「first」。first 在 rank first 中作排名補語，不使用冠詞。對照名詞詞組： the first position。 「with」在此應改為「by」。表示排名次序中後面接着甚麼，用被動結構 be followed by。 「at last」在此應改為「last」。last 可直接作排名補語： Northland was last。 at last 表示等待一段時間後「終於」，意思不同。"
+  },
+  {
+    "sentenceId": "PARA-0020-S01",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The bar chart compares between the amount of male and female employees which selected each from six workplace benefits in a survey conducted on a company.",
+    "correctedSentence": "The bar chart compares the numbers of male and female employees who selected each of six workplace benefits in a survey conducted at a company.",
+    "categories": [
+      "article_or_determiner",
+      "countability",
+      "other_grammar",
+      "preposition",
+      "pronoun"
+    ],
+    "ruleIds": [
+      "GF_EACH_OF_NUMERAL_SET",
+      "GF_NUMBER_OF_COUNT_PEOPLE",
+      "GF_SURVEY_CONDUCTED_AT_OR_IN_COMPANY",
+      "PRONOUN_RELATIVE_HUMAN_WHO",
+      "VERB_COMPARE_DIRECT_OBJECT_NO_BETWEEN"
+    ],
+    "structureTags": [
+      "category:article_or_determiner",
+      "category:countability",
+      "category:other_grammar",
+      "category:preposition",
+      "category:pronoun",
+      "coordination",
+      "rule:GF_EACH_OF_NUMERAL_SET",
+      "rule:GF_NUMBER_OF_COUNT_PEOPLE",
+      "rule:GF_SURVEY_CONDUCTED_AT_OR_IN_COMPANY",
+      "rule:PRONOUN_RELATIVE_HUMAN_WHO",
+      "rule:VERB_COMPARE_DIRECT_OBJECT_NO_BETWEEN",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "compare 作動詞時直接接比較對象。名詞結構才使用 a comparison between A and B。 [來源：PARA-0020-S01-I01；原始規則：VERB.COMPARE.DIRECT_OBJECT.NO_BETWEEN.v1；規則族：GF_COMPARE_DIRECT_OBJECT_NO_BETWEEN；正規化編輯：PARA-0020-S01-E01；舊版結構錨點：right_stable_token。] employees 是複數可數名詞，因此使用 number。amount 修飾不可數名詞，如 the amount of money。 [來源：PARA-0020-S01-I02；原始規則：COUNT.NUMBER.OF_PEOPLE.NOT_AMOUNT.v1；規則族：GF_NUMBER_OF_COUNT_PEOPLE；正規化編輯：PARA-0020-S01-E02。] 指人並在關係分句中作主語，使用 who；限制性分句中的 that 也可成立。 [來源：PARA-0020-S01-I03；原始規則：PRONOUN.RELATIVE.HUMAN_WHO.v1；規則族：GF_RELATIVE_HUMAN_WHO；正規化編輯：PARA-0020-S01-E03。] 表示六項中的每一項，用 each of + 數字 + 複數名詞。 [來源：PARA-0020-S01-I04；原始規則：DETERMINER.EACH_OF.NUMERAL_SET.v1；規則族：GF_EACH_OF_NUMERAL_SET；正規化編輯：PARA-0020-S01-E04。] 表示調查在某公司內進行，可用 at 或 in。conducted on a company 會表示公司本身是研究對象。 [來源：PARA-0020-S01-I05；原始規則：PREP.SURVEY.CONDUCTED_AT_OR_IN_COMPANY.v1；規則族：GF_SURVEY_CONDUCTED_AT_OR_IN_COMPANY；正規化編輯：PARA-0020-S01-E05。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S02",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The figures are representing selections instead percentages, and respondents could chose more then one options.",
+    "correctedSentence": "The figures represent selections rather than percentages, and respondents could choose more than one option.",
+    "categories": [
+      "conjunction",
+      "countability",
+      "modal_or_auxiliary",
+      "verb_form_or_tense"
+    ],
+    "ruleIds": [
+      "GF_AFTER_MODAL_BASE_VERB",
+      "GF_MORE_THAN_ONE_SINGULAR",
+      "GF_RATHER_THAN_COMPARISON",
+      "GF_STATIC_CHART_VERB_SIMPLE_PRESENT"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:conjunction",
+      "category:countability",
+      "category:modal_or_auxiliary",
+      "category:verb_form_or_tense",
+      "coordination",
+      "modal",
+      "rule:GF_AFTER_MODAL_BASE_VERB",
+      "rule:GF_MORE_THAN_ONE_SINGULAR",
+      "rule:GF_RATHER_THAN_COMPARISON",
+      "rule:GF_STATIC_CHART_VERB_SIMPLE_PRESENT",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "圖表數字恆常代表某種數據，用一般現在式。進行式不適合這種圖表功能描述。 [來源：PARA-0020-S02-I01；原始規則：ASPECT.FIGURE.REPRESENT.SIMPLE_PRESENT.v1；規則族：GF_STATIC_CHART_VERB_SIMPLE_PRESENT；正規化編輯：PARA-0020-S02-E01。] rather than 可直接連接兩個平行名詞。若使用 instead，通常要寫 instead of percentages。 [來源：PARA-0020-S02-I02；原始規則：CONJ.RATHER_THAN.COMPARISON.v1；規則族：GF_RATHER_THAN_COMPARISON；正規化編輯：PARA-0020-S02-E02。] could 後面使用動詞原形 choose，不用過去式 chose。 [來源：PARA-0020-S02-I03；原始規則：MODAL.AFTER_MODAL.BASE_VERB.v1；規則族：GF_AFTER_MODAL_BASE_VERB；正規化編輯：PARA-0020-S02-E03。] 比較詞是 than；固定結構 more than one 後面使用單數名詞。 [來源：PARA-0020-S02-I04；原始規則：QUANTIFIER.MORE_THAN_ONE.SINGULAR.v1；規則族：GF_THAN_NOT_THEN, GF_MORE_THAN_ONE_SINGULAR；正規化編輯：PARA-0020-S02-E04。] 比較詞是 than；固定結構 more than one 後面使用單數名詞。 [來源：PARA-0020-S02-I04；原始規則：QUANTIFIER.MORE_THAN_ONE.SINGULAR.v1；規則族：GF_THAN_NOT_THEN, GF_MORE_THAN_ONE_SINGULAR；正規化編輯：PARA-0020-S02-E05。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S03",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Overall, flexible working hours attracted the most highest number of woman, whereas remote work was most popular choice between men.",
+    "correctedSentence": "Overall, flexible working hours attracted the highest number of women, whereas remote work was the most popular choice among men.",
+    "categories": [
+      "article_or_determiner",
+      "comparison",
+      "preposition",
+      "singular_plural"
+    ],
+    "ruleIds": [
+      "GF_AMONG_GROUP",
+      "GF_IRREGULAR_MAN_WOMAN_PLURAL",
+      "GF_SUPERLATIVE_DEFINITE_ARTICLE",
+      "GF_SYNTHETIC_SUPERLATIVE_NO_MOST"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:article_or_determiner",
+      "category:comparison",
+      "category:preposition",
+      "category:singular_plural",
+      "rule:GF_AMONG_GROUP",
+      "rule:GF_IRREGULAR_MAN_WOMAN_PLURAL",
+      "rule:GF_SUPERLATIVE_DEFINITE_ARTICLE",
+      "rule:GF_SYNTHETIC_SUPERLATIVE_NO_MOST",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "highest 已是最高級，不再加入 most。 [來源：PARA-0020-S03-I01；原始規則：COMP.DOUBLE_SUPERLATIVE.NO_MOST.v1；規則族：GF_SYNTHETIC_SUPERLATIVE_NO_MOST；正規化編輯：PARA-0020-S03-E01；舊版結構錨點：right_stable_token。] woman 的複數是 women。number of 後面接複數可數名詞。 [來源：PARA-0020-S03-I02；原始規則：NOUN.IRREGULAR.WOMAN_WOMEN.v1；規則族：GF_IRREGULAR_MAN_WOMAN_PLURAL；正規化編輯：PARA-0020-S03-E02。] 最高級通常由 the 限定。 [來源：PARA-0020-S03-I03；原始規則：ARTICLE.SUPERLATIVE.THE.v1；規則族：GF_SUPERLATIVE_DEFINITE_ARTICLE；正規化編輯：PARA-0020-S03-E03。] 表示某選項在一個多人群體中最受歡迎，用 among。between 主要連接兩個明確項目。 [來源：PARA-0020-S03-I04；原始規則：PREP.AMONG.GROUP.v1；規則族：GF_AMONG_GROUP；正規化編輯：PARA-0020-S03-E04。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S04",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Childcare showed the most widest gender gap, while training as well private health insurance produced most similar figure.",
+    "correctedSentence": "Childcare showed the widest gender gap, while training and private health insurance produced the most similar figures.",
+    "categories": [
+      "comparison",
+      "parallelism"
+    ],
+    "ruleIds": [
+      "GF_SYNTHETIC_SUPERLATIVE_NO_MOST",
+      "GF_TWO_ITEM_AND_COORDINATION"
+    ],
+    "structureTags": [
+      "category:comparison",
+      "category:parallelism",
+      "rule:GF_SYNTHETIC_SUPERLATIVE_NO_MOST",
+      "rule:GF_TWO_ITEM_AND_COORDINATION",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "widest 已含最高級意思，不使用 most widest。 [來源：PARA-0020-S04-I01；原始規則：COMP.DOUBLE_SUPERLATIVE.NO_MOST.v1；規則族：GF_SYNTHETIC_SUPERLATIVE_NO_MOST；正規化編輯：PARA-0020-S04-E01；舊版結構錨點：right_stable_token。] 兩個類別用 and 連接；兩者各有數值，所以用複數 figures；最高級前加 the。 [來源：PARA-0020-S04-I02；原始規則：PARALLEL.TWO_CATEGORIES.PLURAL_FIGURES.v1；規則族：GF_TWO_ITEM_AND_COORDINATION, GF_SUPERLATIVE_DEFINITE_ARTICLE, GF_COORDINATED_REFERENTS_PLURAL_NOUN；正規化編輯：PARA-0020-S04-E02。] 兩個類別用 and 連接；兩者各有數值，所以用複數 figures；最高級前加 the。 [來源：PARA-0020-S04-I02；原始規則：PARALLEL.TWO_CATEGORIES.PLURAL_FIGURES.v1；規則族：GF_TWO_ITEM_AND_COORDINATION, GF_SUPERLATIVE_DEFINITE_ARTICLE, GF_COORDINATED_REFERENTS_PLURAL_NOUN；正規化編輯：PARA-0020-S04-E03。] 兩個類別用 and 連接；兩者各有數值，所以用複數 figures；最高級前加 the。 [來源：PARA-0020-S04-I02；原始規則：PARALLEL.TWO_CATEGORIES.PLURAL_FIGURES.v1；規則族：GF_TWO_ITEM_AND_COORDINATION, GF_SUPERLATIVE_DEFINITE_ARTICLE, GF_COORDINATED_REFERENTS_PLURAL_NOUN；正規化編輯：PARA-0020-S04-E04。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S05",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Flexible hours was chosen from 420 women and 360 men.",
+    "correctedSentence": "Flexible hours were chosen by 420 women and 360 men.",
+    "categories": [
+      "subject_verb_agreement",
+      "verb_form_or_tense"
+    ],
+    "ruleIds": [
+      "GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT",
+      "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:subject_verb_agreement",
+      "category:verb_form_or_tense",
+      "coordination",
+      "rule:GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT",
+      "rule:GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+    ],
+    "explanationZhHant": "flexible working hours 在這裡保留複數語法形式，因此被動助動詞使用 were。若圖例把它明確當作一個單一標籤，需記錄產品的標籤一致政策。 [來源：PARA-0020-S05-I01；原始規則：SVA.CATEGORY_LABEL.PLURAL_HOURS.WERE.v1；規則族：GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0020-S05-E01。] 被動句中選擇該項目的執行者由 by 引出。from 可引出來源或選項集合。 [來源：PARA-0020-S05-I02；原始規則：PASSIVE.AGENT.BY_RESPONDENTS.v1；規則族：GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT；正規化編輯：PARA-0020-S05-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S06",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Thus, more 60 women compared to men selected this benefit, and women exceeded men with roughly one sixth from the male figure.",
+    "correctedSentence": "Thus, 60 more women than men selected this benefit, and women outnumbered men by roughly one sixth of the male figure.",
+    "categories": [
+      "comparison",
+      "other_grammar"
+    ],
+    "ruleIds": [
+      "GF_MARGIN_BY_AMOUNT",
+      "GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+      "GF_ONE_SIXTH_OF_BASE",
+      "GF_OUTNUMBER_PEOPLE"
+    ],
+    "structureTags": [
+      "category:comparison",
+      "category:other_grammar",
+      "coordination",
+      "infinitive_to",
+      "rule:GF_MARGIN_BY_AMOUNT",
+      "rule:GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+      "rule:GF_ONE_SIXTH_OF_BASE",
+      "rule:GF_OUTNUMBER_PEOPLE",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "差額放在 more 前：60 more women than men。比較對象由 than 引出。 [來源：PARA-0020-S06-I01；原始規則：COMP.NUMERAL_MORE_NOUN_THAN.v1；規則族：GF_NUMERAL_MORE_COUNT_NOUN_THAN；正規化編輯：PARA-0020-S06-E01；舊版結構錨點：right_stable_token。] 差額放在 more 前：60 more women than men。比較對象由 than 引出。 [來源：PARA-0020-S06-I01；原始規則：COMP.NUMERAL_MORE_NOUN_THAN.v1；規則族：GF_NUMERAL_MORE_COUNT_NOUN_THAN；正規化編輯：PARA-0020-S06-E02。] 差額放在 more 前：60 more women than men。比較對象由 than 引出。 [來源：PARA-0020-S06-I01；原始規則：COMP.NUMERAL_MORE_NOUN_THAN.v1；規則族：GF_NUMERAL_MORE_COUNT_NOUN_THAN；正規化編輯：PARA-0020-S06-E03。] 比較兩群人的人數時，用 outnumber + 人群。exceed 通常由數值或數量作主語，如 the female figure exceeded...。 [來源：PARA-0020-S06-I02；原始規則：VERB.OUTNUMBER.PEOPLE.v1；規則族：GF_OUTNUMBER_PEOPLE；正規化編輯：PARA-0020-S06-E04。] 表示多出多少，用 outnumber A by + 差額／比例。 [來源：PARA-0020-S06-I03；原始規則：PREP.OUTNUMBER.BY_MARGIN.v1；規則族：GF_MARGIN_BY_AMOUNT；正規化編輯：PARA-0020-S06-E05。] 分數所參照的基數由 of 引出：one sixth of the male figure。 [來源：PARA-0020-S06-I04；原始規則：FRACTION.ONE_SIXTH.OF_BASE.v1；規則族：GF_ONE_SIXTH_OF_BASE；正規化編輯：PARA-0020-S06-E06。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S07",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Remote work showed an opposite pattern.",
+    "correctedSentence": "Remote work displayed the opposite pattern.",
+    "categories": [
+      "article_or_determiner"
+    ],
+    "ruleIds": [
+      "GF_OPPOSITE_PATTERN_THE"
+    ],
+    "structureTags": [
+      "category:article_or_determiner",
+      "rule:GF_OPPOSITE_PATTERN_THE",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "opposite 表示與剛提及模式相反的那一種特定模式，因此用 the。 [來源：PARA-0020-S07-I01；原始規則：ARTICLE.OPPOSITE_PATTERN.THE.v1；規則族：GF_OPPOSITE_PATTERN_THE；正規化編輯：PARA-0020-S07-E01。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S08",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "It attracted 410 mens, comparing with 390 womens, so the male figure was exceeded the female figure for only 20.",
+    "correctedSentence": "It attracted 410 men, compared with 390 women, so the male figure exceeded the female figure by only 20.",
+    "categories": [
+      "comparison",
+      "other_grammar",
+      "singular_plural"
+    ],
+    "ruleIds": [
+      "GF_EXCEED_ACTIVE_DIRECT_OBJECT",
+      "GF_IRREGULAR_MAN_WOMAN_PLURAL",
+      "GF_MARGIN_BY_AMOUNT"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:comparison",
+      "category:other_grammar",
+      "category:singular_plural",
+      "rule:GF_EXCEED_ACTIVE_DIRECT_OBJECT",
+      "rule:GF_IRREGULAR_MAN_WOMAN_PLURAL",
+      "rule:GF_MARGIN_BY_AMOUNT",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "man 的複數是 men，不再加 s。 [來源：PARA-0020-S08-I01, PARA-0020-S08-I02；原始規則：NOUN.IRREGULAR.MAN_MEN.NO_S.v1, PARTICIPLE.COMPARED_WITH.SUPPLEMENT.v1；規則族：GF_IRREGULAR_MAN_WOMAN_PLURAL, GF_COMPARED_WITH_SUPPLEMENT；正規化編輯：PARA-0020-S08-E01。] women 已是複數形式，不加 s。 [來源：PARA-0020-S08-I03；原始規則：NOUN.IRREGULAR.WOMAN_WOMEN.NO_S.v1；規則族：GF_IRREGULAR_MAN_WOMAN_PLURAL；正規化編輯：PARA-0020-S08-E02。] 主語是 the male figure，它主動超過 female figure，因此不用被動助動詞 was。 [來源：PARA-0020-S08-I04；原始規則：VERB.EXCEED.ACTIVE.DIRECT_OBJECT.v1；規則族：GF_EXCEED_ACTIVE_DIRECT_OBJECT；正規化編輯：PARA-0020-S08-E03；舊版結構錨點：right_stable_token。] exceed A by 20 表示比 A 高出 20。 [來源：PARA-0020-S08-I05；原始規則：PREP.EXCEED.BY_MARGIN.v1；規則族：GF_MARGIN_BY_AMOUNT；正規化編輯：PARA-0020-S08-E04。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S09",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "This was only category where men's participation was more higher with less than 30 respondents.",
+    "correctedSentence": "This was the only category in which men's participation was higher by fewer than 30 respondents.",
+    "categories": [
+      "article_or_determiner",
+      "comparison",
+      "sentence_structure"
+    ],
+    "ruleIds": [
+      "COMP_DOUBLE_COMPARATIVE_NO_MORE",
+      "GF_ABSTRACT_CATEGORY_IN_WHICH",
+      "GF_MARGIN_BY_AMOUNT",
+      "GF_ONLY_SINGULAR_CATEGORY_THE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:article_or_determiner",
+      "category:comparison",
+      "category:sentence_structure",
+      "question_word",
+      "rule:COMP_DOUBLE_COMPARATIVE_NO_MORE",
+      "rule:GF_ABSTRACT_CATEGORY_IN_WHICH",
+      "rule:GF_MARGIN_BY_AMOUNT",
+      "rule:GF_ONLY_SINGULAR_CATEGORY_THE"
+    ],
+    "explanationZhHant": "only 界定唯一的一項，單數名詞前使用 the。 [來源：PARA-0020-S09-I01；原始規則：ARTICLE.ONLY.SINGULAR_CATEGORY.THE.v1；規則族：GF_ONLY_SINGULAR_CATEGORY_THE；正規化編輯：PARA-0020-S09-E01。] 正式圖表寫作中，可用 category in which。category where 在非正式英文中也可見，不宜設為絕對高置信度錯誤。 [來源：PARA-0020-S09-I02；原始規則：CLAUSE.ABSTRACT_CATEGORY.IN_WHICH.v1；規則族：GF_ABSTRACT_CATEGORY_IN_WHICH；正規化編輯：PARA-0020-S09-E02。] higher 已是比較級，不再加入 more。 [來源：PARA-0020-S09-I03；原始規則：COMP.DOUBLE_COMPARATIVE.NO_MORE.v1；規則族：GF_SYNTHETIC_COMPARATIVE_NO_MORE；正規化編輯：PARA-0020-S09-E03；舊版結構錨點：right_stable_token。] 差額用 by；respondents 是可數名詞複數，所以用 fewer。 [來源：PARA-0020-S09-I04；原始規則：COMP.BY_FEWER_THAN.COUNT_NOUN.v1；規則族：GF_MARGIN_BY_AMOUNT, GF_FEWER_FOR_PLURAL_COUNT；正規化編輯：PARA-0020-S09-E04。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S10",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Training selected 300 men and 260 women, gave a combined total with 560 selection.",
+    "correctedSentence": "Training was selected by 300 men and 260 women, giving a combined total of 560 selections.",
+    "categories": [
+      "article_or_determiner",
+      "infinitive_or_gerund",
+      "singular_plural",
+      "verb_form_or_tense"
+    ],
+    "ruleIds": [
+      "GF_CARDINAL_COUNT_NOUN_PLURAL",
+      "GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT",
+      "GF_SUPPLEMENTARY_RESULT_PRESENT_PARTICIPLE",
+      "GF_TOTAL_OF_QUANTITY"
+    ],
+    "structureTags": [
+      "category:article_or_determiner",
+      "category:infinitive_or_gerund",
+      "category:singular_plural",
+      "category:verb_form_or_tense",
+      "coordination",
+      "rule:GF_CARDINAL_COUNT_NOUN_PLURAL",
+      "rule:GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT",
+      "rule:GF_SUPPLEMENTARY_RESULT_PRESENT_PARTICIPLE",
+      "rule:GF_TOTAL_OF_QUANTITY",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "Benefit 是被選擇的項目，因此使用過去被動語態。 [來源：PARA-0020-S10-I01；原始規則：PASSIVE.CATEGORY.WAS_SELECTED_BY.v1；規則族：GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT；正規化編輯：PARA-0020-S10-E01。] Benefit 是被選擇的項目，因此使用過去被動語態。 [來源：PARA-0020-S10-I01；原始規則：PASSIVE.CATEGORY.WAS_SELECTED_BY.v1；規則族：GF_CATEGORY_SELECTION_PASSIVE_BY_AGENT；正規化編輯：PARA-0020-S10-E02。] 逗號後用現在分詞補充前述兩個數值相加的結果。 [來源：PARA-0020-S10-I02；原始規則：PARTICIPLE.RESULT.GIVING_TOTAL.v1；規則族：GF_SUPPLEMENTARY_RESULT_PRESENT_PARTICIPLE；正規化編輯：PARA-0020-S10-E03。] 名詞 total 用 of 引出總數。 [來源：PARA-0020-S10-I03；原始規則：NOUN.TOTAL.OF_VALUE.v1；規則族：GF_TOTAL_OF_QUANTITY；正規化編輯：PARA-0020-S10-E04。] 大於一的數字後使用複數可數名詞。 [來源：PARA-0020-S10-I04；原始規則：NOUN.NUMERAL.PLURAL_SELECTIONS.v1；規則族：GF_CARDINAL_COUNT_NOUN_PLURAL；正規化編輯：PARA-0020-S10-E05。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S11",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The different between two groups were 40, and male figure was approximate 15 percentage higher than female figure.",
+    "correctedSentence": "The difference between the two groups was 40, and the male figure was approximately 15 per cent higher than the female figure.",
+    "categories": [
+      "article_or_determiner",
+      "preposition",
+      "subject_verb_agreement",
+      "word_form"
+    ],
+    "ruleIds": [
+      "GF_DEFINITE_COMPARISON_REFERENT",
+      "GF_DEGREE_ADVERB_FORM",
+      "GF_DIFFERENT_TO_DIFFERENCE",
+      "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:article_or_determiner",
+      "category:preposition",
+      "category:subject_verb_agreement",
+      "category:word_form",
+      "coordination",
+      "rule:GF_DEFINITE_COMPARISON_REFERENT",
+      "rule:GF_DEGREE_ADVERB_FORM",
+      "rule:GF_DIFFERENT_TO_DIFFERENCE",
+      "rule:GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+    ],
+    "explanationZhHant": "different 是形容詞；本句需要名詞主語 difference。 [來源：PARA-0020-S11-I01, PARA-0020-S11-I03；原始規則：WORDFORM.DIFFERENT_TO_DIFFERENCE.v1, SVA.SINGULAR_DIFFERENCE.WAS.v1；規則族：GF_DIFFERENT_TO_DIFFERENCE, GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0020-S11-E01。] 這裡指前文已知的男性和女性兩組，因此使用 the。 [來源：PARA-0020-S11-I02, PARA-0020-S11-I03；原始規則：ARTICLE.DEFINED_TWO_GROUPS.THE.v1, SVA.SINGULAR_DIFFERENCE.WAS.v1；規則族：GF_DEFINITE_COMPARISON_REFERENT, GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0020-S11-E02。] 中心主語 difference 是單數，所以用 was。 [來源：PARA-0020-S11-I03；原始規則：SVA.SINGULAR_DIFFERENCE.WAS.v1；規則族：GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0020-S11-E03。] 這裡指該類別中已知的男性數值，因此使用 the。 [來源：PARA-0020-S11-I04；原始規則：ARTICLE.DEFINED_MALE_FIGURE.THE.v1；規則族：GF_DEFINITE_COMPARISON_REFERENT；正規化編輯：PARA-0020-S11-E04。] 修飾數字用副詞 approximately；數字後的比例單位使用不變形式 per cent。 [來源：PARA-0020-S11-I05；原始規則：WORDFORM.APPROXIMATELY.PER_CENT.v1；規則族：GF_DEGREE_ADVERB_FORM, GF_PERCENT_UNIT_FORM；正規化編輯：PARA-0020-S11-E05。] 修飾數字用副詞 approximately；數字後的比例單位使用不變形式 per cent。 [來源：PARA-0020-S11-I05；原始規則：WORDFORM.APPROXIMATELY.PER_CENT.v1；規則族：GF_DEGREE_ADVERB_FORM, GF_PERCENT_UNIT_FORM；正規化編輯：PARA-0020-S11-E06。] 指特定類別內的女性數值時使用 the。 [來源：PARA-0020-S11-I06；原始規則：ARTICLE.DEFIN"
+  },
+  {
+    "sentenceId": "PARA-0020-S12",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Private health insurance was recorded 340 male selections beside 310 female selection.",
+    "correctedSentence": "Private health insurance recorded 340 male selections and 310 female selections.",
+    "categories": [
+      "article_or_determiner",
+      "conjunction",
+      "other_grammar"
+    ],
+    "ruleIds": [
+      "GF_CARDINAL_COUNT_NOUN_PLURAL",
+      "GF_CATEGORY_RECORD_ACTIVE_FIGURE",
+      "GF_COORDINATED_FIGURES_AND"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:article_or_determiner",
+      "category:conjunction",
+      "category:other_grammar",
+      "rule:GF_CARDINAL_COUNT_NOUN_PLURAL",
+      "rule:GF_CATEGORY_RECORD_ACTIVE_FIGURE",
+      "rule:GF_COORDINATED_FIGURES_AND",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "在圖表描述中，某類別可主動「錄得」一個數值：Private insurance recorded...。被動式需要改換主語。 [來源：PARA-0020-S12-I01；原始規則：VERB.CATEGORY.RECORD.ACTIVE_FIGURE.v1；規則族：GF_CATEGORY_RECORD_ACTIVE_FIGURE；正規化編輯：PARA-0020-S12-E01；舊版結構錨點：right_stable_token。] 這裡只是列出兩個平行數值，用 and。beside 表示空間位置。 [來源：PARA-0020-S12-I02；原始規則：CONJ.COORDINATED_FIGURES.AND.v1；規則族：GF_COORDINATED_FIGURES_AND；正規化編輯：PARA-0020-S12-E02。] 數字 310 後面用複數。 [來源：PARA-0020-S12-I02, PARA-0020-S12-I03；原始規則：CONJ.COORDINATED_FIGURES.AND.v1, NOUN.NUMERAL.PLURAL_SELECTIONS.v1；規則族：GF_COORDINATED_FIGURES_AND, GF_CARDINAL_COUNT_NOUN_PLURAL；正規化編輯：PARA-0020-S12-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S13",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "These figure was close each other, with men accounted 30 selections more as women.",
+    "correctedSentence": "These figures were close to each other, with men accounting for 30 more selections than women.",
+    "categories": [
+      "comparison",
+      "sentence_structure",
+      "subject_verb_agreement",
+      "word_form"
+    ],
+    "ruleIds": [
+      "GF_CLOSE_TO_EACH_OTHER",
+      "GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+      "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "GF_WITH_NP_PRESENT_PARTICIPLE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:comparison",
+      "category:sentence_structure",
+      "category:subject_verb_agreement",
+      "category:word_form",
+      "rule:GF_CLOSE_TO_EACH_OTHER",
+      "rule:GF_NUMERAL_MORE_COUNT_NOUN_THAN",
+      "rule:GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "rule:GF_WITH_NP_PRESENT_PARTICIPLE",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "these 後面接複數名詞，並配合複數動詞 were。 [來源：PARA-0020-S13-I01；原始規則：SVA.THESE.PLURAL_FIGURES.WERE.v1；規則族：GF_DEMONSTRATIVE_NOUN_NUMBER_AGREEMENT, GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0020-S13-E01。] 表示兩個數值接近，用 close to each other。 [來源：PARA-0020-S13-I02；原始規則：ADJ.CLOSE.TO_EACH_OTHER.v1；規則族：GF_CLOSE_TO_EACH_OTHER；正規化編輯：PARA-0020-S13-E02。] with + 名詞 + 現在分詞 表示伴隨的數值關係：with men accounting...。 [來源：PARA-0020-S13-I03；原始規則：CLAUSE.WITH.NP.PRESENT_PARTICIPLE.v1；規則族：GF_WITH_NP_PRESENT_PARTICIPLE；正規化編輯：PARA-0020-S13-E03。] 正確次序為 數字 + more + 名詞 + than。 [來源：PARA-0020-S13-I04；原始規則：COMP.NUMERAL_MORE_NOUN_THAN.v1；規則族：GF_NUMERAL_MORE_COUNT_NOUN_THAN；正規化編輯：PARA-0020-S13-E04；舊版結構錨點：right_stable_token。] 正確次序為 數字 + more + 名詞 + than。 [來源：PARA-0020-S13-I04；原始規則：COMP.NUMERAL_MORE_NOUN_THAN.v1；規則族：GF_NUMERAL_MORE_COUNT_NOUN_THAN；正規化編輯：PARA-0020-S13-E05。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S14",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The most greatest contrast appeared on childcare support.",
+    "correctedSentence": "The greatest contrast appeared in childcare support.",
+    "categories": [
+      "comparison",
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_IN_CATEGORY",
+      "GF_SYNTHETIC_SUPERLATIVE_NO_MOST"
+    ],
+    "structureTags": [
+      "category:comparison",
+      "category:preposition",
+      "rule:GF_IN_CATEGORY",
+      "rule:GF_SYNTHETIC_SUPERLATIVE_NO_MOST",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "greatest 已是最高級。 [來源：PARA-0020-S14-I01；原始規則：COMP.DOUBLE_SUPERLATIVE.NO_MOST.v1；規則族：GF_SYNTHETIC_SUPERLATIVE_NO_MOST；正規化編輯：PARA-0020-S14-E01；舊版結構錨點：right_stable_token。] 表示某種差異出現在某一類別中，用 in。 [來源：PARA-0020-S14-I02；原始規則：PREP.CONTRAST.APPEAR_IN_CATEGORY.v1；規則族：GF_IN_CATEGORY；正規化編輯：PARA-0020-S14-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S15",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "As much as 280 women selected this option, in comparison with only 90 man.",
+    "correctedSentence": "As many as 280 women selected this option, compared with just 90 men.",
+    "categories": [
+      "countability",
+      "infinitive_or_gerund",
+      "singular_plural"
+    ],
+    "ruleIds": [
+      "GF_AS_MANY_AS_PLURAL_COUNT",
+      "GF_COMPARED_WITH_SUPPLEMENT",
+      "GF_IRREGULAR_MAN_WOMAN_PLURAL"
+    ],
+    "structureTags": [
+      "category:countability",
+      "category:infinitive_or_gerund",
+      "category:singular_plural",
+      "quantifier",
+      "rule:GF_AS_MANY_AS_PLURAL_COUNT",
+      "rule:GF_COMPARED_WITH_SUPPLEMENT",
+      "rule:GF_IRREGULAR_MAN_WOMAN_PLURAL",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "women 是複數可數名詞，因此使用 as many as。as much as 修飾不可數名詞。 [來源：PARA-0020-S15-I01；原始規則：QUANTIFIER.AS_MANY_AS.PLURAL_COUNT.v1；規則族：GF_AS_MANY_AS_PLURAL_COUNT；正規化編輯：PARA-0020-S15-E01。] 補充比較另一組數值時，可使用過去分詞短語 compared with。原名詞結構並非絕對錯誤，但在此句中較笨重。 [來源：PARA-0020-S15-I02；原始規則：PARTICIPLE.COMPARED_WITH.FIGURE.v1；規則族：GF_COMPARED_WITH_SUPPLEMENT；正規化編輯：PARA-0020-S15-E02。] 補充比較另一組數值時，可使用過去分詞短語 compared with。原名詞結構並非絕對錯誤，但在此句中較笨重。 [來源：PARA-0020-S15-I02；原始規則：PARTICIPLE.COMPARED_WITH.FIGURE.v1；規則族：GF_COMPARED_WITH_SUPPLEMENT；正規化編輯：PARA-0020-S15-E03。] 數字 90 後使用複數 men。 [來源：PARA-0020-S15-I02, PARA-0020-S15-I03；原始規則：PARTICIPLE.COMPARED_WITH.FIGURE.v1, NOUN.IRREGULAR.MAN_MEN.v1；規則族：GF_COMPARED_WITH_SUPPLEMENT, GF_IRREGULAR_MAN_WOMAN_PLURAL；正規化編輯：PARA-0020-S15-E04。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S16",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The female figure was therefore slight more than three times higher than male figure, and women made about three quarter from 370 selection on this category.",
+    "correctedSentence": "The female figure was therefore slightly more than three times the male figure, and women made up about three quarters of the 370 selections in this category.",
+    "categories": [
+      "comparison",
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_DEGREE_ADVERB_FORM",
+      "GF_FRACTION_OF_BASE",
+      "GF_MAKE_UP_PROPORTION",
+      "GF_MULTIPLIER_THREE_TIMES_BASE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:comparison",
+      "category:preposition",
+      "coordination",
+      "rule:GF_DEGREE_ADVERB_FORM",
+      "rule:GF_FRACTION_OF_BASE",
+      "rule:GF_MAKE_UP_PROPORTION",
+      "rule:GF_MULTIPLIER_THREE_TIMES_BASE"
+    ],
+    "explanationZhHant": "修飾比較短語 more than 要使用副詞 slightly。 [來源：PARA-0020-S16-I01；原始規則：WORDFORM.SLIGHTLY.MORE_THAN.v1；規則族：GF_DEGREE_ADVERB_FORM；正規化編輯：PARA-0020-S16-E01。] 若女性數值是男性數值的三倍，應寫 three times the male figure。three times higher than 可能被解讀為四倍，倍數意思不安全。 [來源：PARA-0020-S16-I02, PARA-0020-S16-I03；原始規則：COMP.MULTIPLIER.THREE_TIMES_BASE.v1, ARTICLE.MULTIPLIER.DEFINED_BASE.v1；規則族：GF_MULTIPLIER_THREE_TIMES_BASE, GF_DEFINITE_COMPARISON_REFERENT；正規化編輯：PARA-0020-S16-E02。] 表示某群體構成整體的比例，用 make up。 [來源：PARA-0020-S16-I04；原始規則：PHRASAL.MAKE_UP.PROPORTION.v1；規則族：GF_MAKE_UP_PROPORTION；正規化編輯：PARA-0020-S16-E03。] 分數的整體基數由 of 引出；特定的 370 項用 the，名詞用複數。 [來源：PARA-0020-S16-I05, PARA-0020-S16-I06；原始規則：FRACTION.THREE_QUARTERS.PLURAL.v1, FRACTION.OF_THE_TOTAL_SELECTIONS.v1；規則族：GF_FRACTION_DENOMINATOR_PLURAL, GF_FRACTION_OF_BASE, GF_DEFINITE_TOTAL_REFERENCE, GF_CARDINAL_COUNT_NOUN_PLURAL；正規化編輯：PARA-0020-S16-E04。] 分數的整體基數由 of 引出；特定的 370 項用 the，名詞用複數。 [來源：PARA-0020-S16-I06, PARA-0020-S16-I07；原始規則：FRACTION.OF_THE_TOTAL_SELECTIONS.v1, PREP.IN_A_CATEGORY.v1；規則族：GF_FRACTION_OF_BASE, GF_DEFINITE_TOTAL_REFERENCE, GF_CARDINAL_COUNT_NOUN_PLURAL, GF_IN_CATEGORY；正規化編輯：PARA-0020-S16-E05。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S17",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Childcare was also least popular option between men, despite it ranked the fourth among women.",
+    "correctedSentence": "Childcare was also the least popular option among men, although it ranked fourth among women.",
+    "categories": [
+      "article_or_determiner",
+      "conjunction",
+      "preposition",
+      "word_form"
+    ],
+    "ruleIds": [
+      "GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL",
+      "GF_AMONG_GROUP",
+      "GF_RANK_FOURTH_NO_THE",
+      "GF_SUPERLATIVE_DEFINITE_ARTICLE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:article_or_determiner",
+      "category:conjunction",
+      "category:preposition",
+      "category:word_form",
+      "rule:GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL",
+      "rule:GF_AMONG_GROUP",
+      "rule:GF_RANK_FOURTH_NO_THE",
+      "rule:GF_SUPERLATIVE_DEFINITE_ARTICLE",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "最高級前使用 the。 [來源：PARA-0020-S17-I01；原始規則：ARTICLE.SUPERLATIVE.THE.v1；規則族：GF_SUPERLATIVE_DEFINITE_ARTICLE；正規化編輯：PARA-0020-S17-E01。] 表示在整個男性群體中，用 among。 [來源：PARA-0020-S17-I02；原始規則：PREP.AMONG.GROUP.v1；規則族：GF_AMONG_GROUP；正規化編輯：PARA-0020-S17-E02。] although 後面接完整分句；despite 後面接名詞或動名詞。 [來源：PARA-0020-S17-I03；原始規則：CONJ.ALTHOUGH.FINITE_NOT_DESPITE.v1；規則族：GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL；正規化編輯：PARA-0020-S17-E03。] rank fourth 中序數詞作排名補語，不加 the。名詞結構則寫 in fourth place。 [來源：PARA-0020-S17-I04；原始規則：ADVERB.RANK.FOURTH.NO_THE.v1；規則族：GF_RANK_FOURTH_NO_THE；正規化編輯：PARA-0020-S17-E04；舊版結構錨點：right_stable_token。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S18",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Gym membership showed other clear advantage for males.",
+    "correctedSentence": "Gym membership showed another clear male advantage.",
+    "categories": [
+      "article_or_determiner",
+      "word_choice"
+    ],
+    "ruleIds": [
+      "GF_ANOTHER_SINGULAR_COUNT_NOUN",
+      "GF_MALE_ADVANTAGE_CATEGORY"
+    ],
+    "structureTags": [
+      "category:article_or_determiner",
+      "category:word_choice",
+      "rule:GF_ANOTHER_SINGULAR_COUNT_NOUN",
+      "rule:GF_MALE_ADVANTAGE_CATEGORY",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "單數可數名詞前表示另一個，用 another。other 通常配複數名詞或帶另一限定詞。 [來源：PARA-0020-S18-I01；原始規則：DETERMINER.ANOTHER.SINGULAR_NOUN.v1；規則族：GF_ANOTHER_SINGULAR_COUNT_NOUN；正規化編輯：PARA-0020-S18-E01。] 圖表中表示男性數值較高，可簡潔寫 a male advantage。原結構可理解，宜設為寫法建議而非硬性錯誤。 [來源：PARA-0020-S18-I01, PARA-0020-S18-I02；原始規則：DETERMINER.ANOTHER.SINGULAR_NOUN.v1, COLLOC.MALE_ADVANTAGE.CATEGORY.v1；規則族：GF_ANOTHER_SINGULAR_COUNT_NOUN, GF_MALE_ADVANTAGE_CATEGORY；正規化編輯：PARA-0020-S18-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S19",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "A total 250 men chose it, as opposed with 170 women.",
+    "correctedSentence": "A total of 250 men chose it, as opposed to 170 women.",
+    "categories": [
+      "preposition",
+      "singular_plural"
+    ],
+    "ruleIds": [
+      "GF_AS_OPPOSED_TO",
+      "GF_TOTAL_OF_QUANTITY"
+    ],
+    "structureTags": [
+      "category:preposition",
+      "category:singular_plural",
+      "rule:GF_AS_OPPOSED_TO",
+      "rule:GF_TOTAL_OF_QUANTITY",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "固定數量結構是 a total of + 數字 + 名詞。 [來源：PARA-0020-S19-I01；原始規則：NOUN.A_TOTAL_OF.v1；規則族：GF_TOTAL_OF_QUANTITY；正規化編輯：PARA-0020-S19-E01。] 固定比較短語是 as opposed to。 [來源：PARA-0020-S19-I02；原始規則：PREP.AS_OPPOSED_TO.v1；規則族：GF_AS_OPPOSED_TO；正規化編輯：PARA-0020-S19-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S20",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "In another words, 80 less women than men selected benefit, and number of men were nearly one and half time those of women.",
+    "correctedSentence": "In other words, 80 fewer women than men selected the benefit, and the number of men was nearly one and a half times that of women.",
+    "categories": [
+      "article_or_determiner",
+      "countability",
+      "pronoun",
+      "subject_verb_agreement",
+      "word_choice"
+    ],
+    "ruleIds": [
+      "GF_FEWER_PLURAL_COUNT_NOUN",
+      "GF_IN_OTHER_WORDS",
+      "GF_KNOWN_BENEFIT_THE",
+      "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "GF_SUBSTITUTE_PRONOUN_NUMBER_AGREEMENT",
+      "NUMERAL_ONE_AND_A_HALF"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:article_or_determiner",
+      "category:countability",
+      "category:pronoun",
+      "category:subject_verb_agreement",
+      "category:word_choice",
+      "coordination",
+      "rule:GF_FEWER_PLURAL_COUNT_NOUN",
+      "rule:GF_IN_OTHER_WORDS",
+      "rule:GF_KNOWN_BENEFIT_THE",
+      "rule:GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "rule:GF_SUBSTITUTE_PRONOUN_NUMBER_AGREEMENT",
+      "rule:NUMERAL_ONE_AND_A_HALF",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "固定連接語是複數 in other words。 [來源：PARA-0020-S20-I01；原始規則：FIXED.IN_OTHER_WORDS.v1；規則族：GF_IN_OTHER_WORDS；正規化編輯：PARA-0020-S20-E01。] women 是可數名詞複數，所以用 fewer。 [來源：PARA-0020-S20-I02；原始規則：QUANTIFIER.FEWER.PLURAL_COUNT_NOUN.v1；規則族：GF_FEWER_PLURAL_COUNT_NOUN；正規化編輯：PARA-0020-S20-E02。] 指本句已討論的特定 gym membership benefit，使用 the。 [來源：PARA-0020-S20-I03；原始規則：ARTICLE.KNOWN_BENEFIT.THE.v1；規則族：GF_KNOWN_BENEFIT_THE；正規化編輯：PARA-0020-S20-E03。] the number of... 的中心詞是單數 number，所以使用 was。 [來源：PARA-0020-S20-I04；原始規則：SVA.THE_NUMBER_OF.SINGULAR.v1；規則族：GF_THE_NUMBER_OF_CONSTRUCTION, GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0020-S20-E04。] the number of... 的中心詞是單數 number，所以使用 was。 [來源：PARA-0020-S20-I04；原始規則：SVA.THE_NUMBER_OF.SINGULAR.v1；規則族：GF_THE_NUMBER_OF_CONSTRUCTION, GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0020-S20-E05。] 標準分數倍數寫法是 one and a half。 [來源：PARA-0020-S20-I05, PARA-0020-S20-I06；原始規則：NUMERAL.ONE_AND_A_HALF.v1, COMP.MULTIPLIER.PLURAL_TIMES.v1；規則族：GF_ONE_AND_A_HALF, GF_MULTIPLIER_PLURAL_TIMES；正規化編輯：PARA-0020-S20-E06。] 被代替的是單數名詞 number，所以用 that；those 代替複數。 [來源：PARA-0020-S20-I06, PARA-0020-S20-I07；原始規則：COMP.MULTIPLIER.PLURAL_TIMES.v1, REFERENCE.THAT.SINGULAR_NUMBER.v1；規則族：GF_MULTIPLIER_PLURAL_TIMES, GF_SU"
+  },
+  {
+    "sentenceId": "PARA-0020-S21",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Nevertheless, gym membership remained fewer popular in overall than flexible hours, remote work, training and private insurance.",
+    "correctedSentence": "Nevertheless, gym membership remained less popular overall than flexible hours, remote work, training and private insurance.",
+    "categories": [
+      "comparison",
+      "word_form"
+    ],
+    "ruleIds": [
+      "GF_LESS_ADJECTIVE_NOT_FEWER",
+      "GF_OVERALL_NO_IN"
+    ],
+    "structureTags": [
+      "category:comparison",
+      "category:word_form",
+      "coordination",
+      "rule:GF_LESS_ADJECTIVE_NOT_FEWER",
+      "rule:GF_OVERALL_NO_IN",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "popular 是形容詞，其較低程度用 less。fewer 只修飾複數可數名詞。 [來源：PARA-0020-S21-I01；原始規則：DEGREE.LESS.ADJECTIVE.NOT_FEWER.v1；規則族：GF_LESS_ADJECTIVE_NOT_FEWER；正規化編輯：PARA-0020-S21-E01。] overall 可直接作副詞，表示整體而言，不在前面加 in。 [來源：PARA-0020-S21-I02；原始規則：ADVERB.OVERALL.NO_IN.v1；規則族：GF_OVERALL_NO_IN；正規化編輯：PARA-0020-S21-E02；舊版結構錨點：right_stable_token。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S22",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Across all six benefit, women did 1,830 selections, while men made 1,750.",
+    "correctedSentence": "Across all six benefits, women made 1,830 selections, while men made 1,750.",
+    "categories": [
+      "article_or_determiner",
+      "word_choice"
+    ],
+    "ruleIds": [
+      "GF_CARDINAL_COUNT_NOUN_PLURAL",
+      "GF_MAKE_A_SELECTION"
+    ],
+    "structureTags": [
+      "category:article_or_determiner",
+      "category:word_choice",
+      "rule:GF_CARDINAL_COUNT_NOUN_PLURAL",
+      "rule:GF_MAKE_A_SELECTION"
+    ],
+    "explanationZhHant": "數字六後面使用複數可數名詞。 [來源：PARA-0020-S22-I01；原始規則：NOUN.NUMERAL.PLURAL.v1；規則族：GF_CARDINAL_COUNT_NOUN_PLURAL；正規化編輯：PARA-0020-S22-E01。] 固定搭配是 make a selection／make selections，不用 do selections。 [來源：PARA-0020-S22-I02；原始規則：COLLOC.MAKE_A_SELECTION.v1；規則族：GF_MAKE_A_SELECTION；正規化編輯：PARA-0020-S22-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S23",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The total of women was therefore higher 80 than the one of men, although both totals were broad comparable.",
+    "correctedSentence": "The women's total was therefore 80 higher than the men's, although both totals were broadly comparable.",
+    "categories": [
+      "comparison",
+      "possessive",
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_DEGREE_ADVERB_FORM",
+      "GF_ELLIPSIS_MENS_TOTAL",
+      "GF_NUMERAL_BEFORE_COMPARATIVE",
+      "GF_WOMENS_TOTAL"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:comparison",
+      "category:possessive",
+      "category:preposition",
+      "rule:GF_DEGREE_ADVERB_FORM",
+      "rule:GF_ELLIPSIS_MENS_TOTAL",
+      "rule:GF_NUMERAL_BEFORE_COMPARATIVE",
+      "rule:GF_WOMENS_TOTAL"
+    ],
+    "explanationZhHant": "表示屬於女性組的總數，可用 the women's total。the total for women 也是標準替代；原寫法較不自然。 [來源：PARA-0020-S23-I01；原始規則：POSSESSIVE.WOMENS_TOTAL.v1；規則族：GF_WOMENS_TOTAL；正規化編輯：PARA-0020-S23-E01。] 表示屬於女性組的總數，可用 the women's total。the total for women 也是標準替代；原寫法較不自然。 [來源：PARA-0020-S23-I01；原始規則：POSSESSIVE.WOMENS_TOTAL.v1；規則族：GF_WOMENS_TOTAL；正規化編輯：PARA-0020-S23-E02；舊版結構錨點：right_stable_token。] 差額數字放在比較級前：80 higher than。 [來源：PARA-0020-S23-I02；原始規則：COMP.NUMERAL_BEFORE_COMPARATIVE.v1；規則族：GF_NUMERAL_BEFORE_COMPARATIVE；正規化編輯：PARA-0020-S23-E03；舊版結構錨點：right_stable_token。] 差額數字放在比較級前：80 higher than。 [來源：PARA-0020-S23-I02；原始規則：COMP.NUMERAL_BEFORE_COMPARATIVE.v1；規則族：GF_NUMERAL_BEFORE_COMPARATIVE；正規化編輯：PARA-0020-S23-E04。] 所有格 the men's 可省略已出現的 total。the one of men 不是自然的所有格省略。 [來源：PARA-0020-S23-I03；原始規則：POSSESSIVE.ELLIPSIS.MENS_TOTAL.v1；規則族：GF_ELLIPSIS_MENS_TOTAL；正規化編輯：PARA-0020-S23-E05。] 修飾形容詞 comparable 使用副詞 broadly。 [來源：PARA-0020-S23-I04；原始規則：WORDFORM.BROADLY_COMPARABLE.v1；規則族：GF_DEGREE_ADVERB_FORM；正規化編輯：PARA-0020-S23-E07。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S24",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Flexible hours together with childcare accounted more one third from all females selections.",
+    "correctedSentence": "Flexible hours and childcare together accounted for more than one third of all female selections.",
+    "categories": [
+      "countability",
+      "parallelism",
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_ACCOUNT_FOR_PROPORTION",
+      "GF_COMBINED_CATEGORIES_AND_TOGETHER",
+      "GF_FRACTION_OF_TOTAL_ATTRIBUTIVE_FEMALE",
+      "GF_MORE_THAN_FRACTION"
+    ],
+    "structureTags": [
+      "category:countability",
+      "category:parallelism",
+      "category:preposition",
+      "rule:GF_ACCOUNT_FOR_PROPORTION",
+      "rule:GF_COMBINED_CATEGORIES_AND_TOGETHER",
+      "rule:GF_FRACTION_OF_TOTAL_ATTRIBUTIVE_FEMALE",
+      "rule:GF_MORE_THAN_FRACTION",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "要把兩項的數值相加，可用 A and B together。together with 不一定把兩者組成同等並列主語。 [來源：PARA-0020-S24-I01；原始規則：PARALLEL.COMBINED_CATEGORIES.AND_TOGETHER.v1；規則族：GF_COMBINED_CATEGORIES_AND_TOGETHER；正規化編輯：PARA-0020-S24-E01。] account for 表示構成某個比例。 [來源：PARA-0020-S24-I01, PARA-0020-S24-I02；原始規則：PARALLEL.COMBINED_CATEGORIES.AND_TOGETHER.v1, PHRASAL.ACCOUNT_FOR.PROPORTION.v1；規則族：GF_COMBINED_CATEGORIES_AND_TOGETHER, GF_ACCOUNT_FOR_PROPORTION；正規化編輯：PARA-0020-S24-E02。] account for 表示構成某個比例。 [來源：PARA-0020-S24-I02, PARA-0020-S24-I03；原始規則：PHRASAL.ACCOUNT_FOR.PROPORTION.v1, QUANTIFIER.MORE_THAN.FRACTION.v1；規則族：GF_ACCOUNT_FOR_PROPORTION, GF_MORE_THAN_FRACTION；正規化編輯：PARA-0020-S24-E03。] 表示超過某分數，使用 more than + 分數。 [來源：PARA-0020-S24-I03；原始規則：QUANTIFIER.MORE_THAN.FRACTION.v1；規則族：GF_MORE_THAN_FRACTION；正規化編輯：PARA-0020-S24-E04。] 比例基數由 of 引出；名詞前作修飾語用單數形容詞形式 female。 [來源：PARA-0020-S24-I04；原始規則：PREP.FRACTION.OF_TOTAL_ATTRIBUTIVE_FEMALE.v1；規則族：GF_FRACTION_OF_TOTAL_ATTRIBUTIVE_FEMALE；正規化編輯：PARA-0020-S24-E05。] 比例基數由 of 引出；名詞前作修飾語用單數形容詞形式 female。 [來源：PARA-0020-S24-I04；原始規則：PREP.FRACTION.OF_TOTAL_ATTRIBUTIVE_FEMALE.v1；規則族：GF_FRACTION_OF_TOTAL_ATTRIBUTIVE_FEMALE；正規化編輯：PARA-0020-S24-E06。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S25",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "By contrast, remote work and private insurance represented just above two fifth of male total.",
+    "correctedSentence": "By contrast, remote work and private insurance represented just over two fifths of the male total.",
+    "categories": [
+      "article_or_determiner",
+      "comparison"
+    ],
+    "ruleIds": [
+      "GF_DEFINITE_COMPARISON_REFERENT",
+      "GF_FRACTION_DENOMINATOR_PLURAL"
+    ],
+    "structureTags": [
+      "category:article_or_determiner",
+      "category:comparison",
+      "coordination",
+      "rule:GF_DEFINITE_COMPARISON_REFERENT",
+      "rule:GF_FRACTION_DENOMINATOR_PLURAL",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "表示略高於某比例，常用 just over。分子為二，分母用複數 fifths。 [來源：PARA-0020-S25-I01；原始規則：FRACTION.JUST_OVER.TWO_FIFTHS.v1；規則族：GF_FRACTION_DENOMINATOR_PLURAL；正規化編輯：PARA-0020-S25-E01。] 分子大於一時，分母使用複數。 [來源：PARA-0020-S25-I01, PARA-0020-S25-I02；原始規則：FRACTION.JUST_OVER.TWO_FIFTHS.v1, FRACTION.PLURAL_DENOMINATOR.v1；規則族：GF_FRACTION_DENOMINATOR_PLURAL；正規化編輯：PARA-0020-S25-E02。] 指前文計算出的特定男性總數，使用 the。 [來源：PARA-0020-S25-I03；原始規則：ARTICLE.DEFINED_GROUP_TOTAL.THE.v1；規則族：GF_DEFINITE_COMPARISON_REFERENT；正規化編輯：PARA-0020-S25-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S26",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "When categories ranked separate, first three position of women is flexible hours, remote work and private insurance, while order of men are remote work, flexible hours and private insurance.",
+    "correctedSentence": "When the categories are ranked separately, the first three positions for women are flexible hours, remote work and private insurance, while the order for men is remote work, flexible hours and private insurance.",
+    "categories": [
+      "preposition",
+      "subject_verb_agreement",
+      "verb_form_or_tense"
+    ],
+    "ruleIds": [
+      "GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+      "GF_MANNER_ADVERB_FORM",
+      "GF_RANK_FOR_GROUP",
+      "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:preposition",
+      "category:subject_verb_agreement",
+      "category:verb_form_or_tense",
+      "coordination",
+      "question_word",
+      "rule:GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+      "rule:GF_MANNER_ADVERB_FORM",
+      "rule:GF_RANK_FOR_GROUP",
+      "rule:GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "categories 是被排列的項目，因此需要被動助動詞 are。 [來源：PARA-0020-S26-I01；原始規則：PASSIVE.CATEGORIES.ARE_RANKED.v1；規則族：GF_FINITE_PASSIVE_INSERT_AUXILIARY；正規化編輯：PARA-0020-S26-E01。] categories 是被排列的項目，因此需要被動助動詞 are。 [來源：PARA-0020-S26-I01, PARA-0020-S26-I02；原始規則：PASSIVE.CATEGORIES.ARE_RANKED.v1, WORDFORM.RANKED_SEPARATELY.v1；規則族：GF_FINITE_PASSIVE_INSERT_AUXILIARY, GF_MANNER_ADVERB_FORM；正規化編輯：PARA-0020-S26-E02。] 修飾動詞 ranked 使用副詞 separately。 [來源：PARA-0020-S26-I02, PARA-0020-S26-I03；原始規則：WORDFORM.RANKED_SEPARATELY.v1, ARTICLE.ORDINAL.PLURAL_POSITIONS.v1；規則族：GF_MANNER_ADVERB_FORM, GF_ORDINAL_PHRASE_DEFINITE_ARTICLE, GF_CARDINAL_COUNT_NOUN_PLURAL；正規化編輯：PARA-0020-S26-E03。] 表示屬於某組的排名，用 positions for women。 [來源：PARA-0020-S26-I03, PARA-0020-S26-I04, PARA-0020-S26-I05；原始規則：ARTICLE.ORDINAL.PLURAL_POSITIONS.v1, PREP.RANKING.FOR_GROUP.v1, SVA.PLURAL_POSITIONS.ARE.v1；規則族：GF_ORDINAL_PHRASE_DEFINITE_ARTICLE, GF_CARDINAL_COUNT_NOUN_PLURAL, GF_RANK_FOR_GROUP, GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0020-S26-E04。] 複數主語 positions 配合 are。 [來源：PARA-0020-S26-I05；原始規則：SVA.PLURAL_POSITIONS.ARE.v1；規則族：GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0020-S26-E05。] 指特定排名次序用 the order；某組的次序用 for；中心詞 order 是單數，配合 is。 [來源：PARA-0020-S26"
+  },
+  {
+    "sentenceId": "PARA-0020-S27",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Training locates at the fourth place of men but on fifth of women, ahead than gym membership in former ranking.",
+    "correctedSentence": "Training occupies fourth place for men but fifth for women, ahead of gym membership in the latter ranking.",
+    "categories": [
+      "other_grammar",
+      "preposition",
+      "pronoun"
+    ],
+    "ruleIds": [
+      "GF_AHEAD_OF",
+      "GF_OCCUPY_RANK_POSITION",
+      "GF_RANK_FOR_GROUP",
+      "REFERENCE_LATTER_SECOND_OF_TWO"
+    ],
+    "structureTags": [
+      "category:other_grammar",
+      "category:preposition",
+      "category:pronoun",
+      "coordination",
+      "rule:GF_AHEAD_OF",
+      "rule:GF_OCCUPY_RANK_POSITION",
+      "rule:GF_RANK_FOR_GROUP",
+      "rule:REFERENCE_LATTER_SECOND_OF_TWO",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "表示某類別位居某一名次，可用 occupy + position/place。locate 通常表示找出或設置實體位置。 [來源：PARA-0020-S27-I01, PARA-0020-S27-I02；原始規則：VERB.OCCUPY.RANK_POSITION.v1, RANK.FOURTH_PLACE.NO_THE_AFTER_OCCUPY.v1；規則族：GF_OCCUPY_RANK_POSITION, GF_FOURTH_PLACE_NO_THE_AFTER_OCCUPY；正規化編輯：PARA-0020-S27-E01。] 表示在男性組別中的排名，用 for men。 [來源：PARA-0020-S27-I03；原始規則：PREP.RANKING.FOR_GROUP.v1；規則族：GF_RANK_FOR_GROUP；正規化編輯：PARA-0020-S27-E02。] occupies 同時控制兩個排名補語：fourth for men but fifth for women。 [來源：PARA-0020-S27-I04；原始規則：RANK.FIFTH_FOR_GROUP.v1；規則族：GF_BARE_ORDINAL_RANK, GF_RANK_FOR_GROUP；正規化編輯：PARA-0020-S27-E03；舊版結構錨點：right_stable_token。] occupies 同時控制兩個排名補語：fourth for men but fifth for women。 [來源：PARA-0020-S27-I04；原始規則：RANK.FIFTH_FOR_GROUP.v1；規則族：GF_BARE_ORDINAL_RANK, GF_RANK_FOR_GROUP；正規化編輯：PARA-0020-S27-E04。] 固定比較結構是 ahead of + 對象，不用 than。 [來源：PARA-0020-S27-I05；原始規則：PREP.AHEAD_OF.v1；規則族：GF_AHEAD_OF；正規化編輯：PARA-0020-S27-E05。] 前面先提男性排名，再提女性排名；此處指第二個，即 the latter ranking。 [來源：PARA-0020-S27-I06；原始規則：REFERENCE.LATTER.SECOND_OF_TWO.v1；規則族：GF_LATTER_SECOND_OF_TWO；正規化編輯：PARA-0020-S27-E06。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S28",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Because every employees could select several benefit, the combined figure does not indicate amount of individual employee on neither gender groups.",
+    "correctedSentence": "Because each employee could select several benefits, the combined figures do not indicate the number of individual employees in either gender group.",
+    "categories": [
+      "article_or_determiner",
+      "countability",
+      "subject_verb_agreement"
+    ],
+    "ruleIds": [
+      "GF_CARDINAL_COUNT_NOUN_PLURAL",
+      "GF_EACH_SINGULAR_COUNT_NOUN",
+      "GF_EITHER_OF_TWO_GROUPS",
+      "GF_NUMBER_OF_COUNT_PEOPLE",
+      "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+    ],
+    "structureTags": [
+      "category:article_or_determiner",
+      "category:countability",
+      "category:subject_verb_agreement",
+      "modal",
+      "negation",
+      "quantifier",
+      "rule:GF_CARDINAL_COUNT_NOUN_PLURAL",
+      "rule:GF_EACH_SINGULAR_COUNT_NOUN",
+      "rule:GF_EITHER_OF_TWO_GROUPS",
+      "rule:GF_NUMBER_OF_COUNT_PEOPLE",
+      "rule:GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "each 和 every 後面都接單數名詞。目標使用 each employee，強調每人可作多項選擇。 [來源：PARA-0020-S28-I01；原始規則：DETERMINER.EACH.SINGULAR_NOUN.v1；規則族：GF_EACH_SINGULAR_COUNT_NOUN；正規化編輯：PARA-0020-S28-E01。] several 後面接複數可數名詞。 [來源：PARA-0020-S28-I02；原始規則：NOUN.SEVERAL.PLURAL.v1；規則族：GF_CARDINAL_COUNT_NOUN_PLURAL；正規化編輯：PARA-0020-S28-E02。] 這裡有男女兩組總數，因此用複數 figures 和助動詞 do。 [來源：PARA-0020-S28-I03；原始規則：SVA.PLURAL_COMBINED_FIGURES.DO.v1；規則族：GF_COORDINATED_REFERENTS_PLURAL_NOUN, GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0020-S28-E03。] employees 可數，使用 number；泛指多名個別員工時用複數。 [來源：PARA-0020-S28-I04；原始規則：COUNT.NUMBER.OF_EMPLOYEES.v1；規則族：GF_NUMBER_OF_COUNT_PEOPLE, GF_CARDINAL_COUNT_NOUN_PLURAL；正規化編輯：PARA-0020-S28-E04。] 否定句中的「兩組任何一組」使用 either。資料位於某組內，用 in。 [來源：PARA-0020-S28-I04, PARA-0020-S28-I05；原始規則：COUNT.NUMBER.OF_EMPLOYEES.v1, DETERMINER.EITHER.OF_TWO_GROUPS.v1；規則族：GF_NUMBER_OF_COUNT_PEOPLE, GF_CARDINAL_COUNT_NOUN_PLURAL, GF_EITHER_OF_TWO_GROUPS；正規化編輯：PARA-0020-S28-E05。] 否定句中的「兩組任何一組」使用 either。資料位於某組內，用 in。 [來源：PARA-0020-S28-I05；原始規則：DETERMINER.EITHER.OF_TWO_GROUPS.v1；規則族：GF_EITHER_OF_TWO_GROUPS；正規化編輯：PARA-0020-S28-E06。]"
+  },
+  {
+    "sentenceId": "PARA-0020-S29",
+    "paragraphId": "PARA-0020",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The chart therefore supports comparison among benefit preference, but it cannot use for calculate percentage of employees which choose every options without know the size for both group.",
+    "correctedSentence": "The chart therefore supports comparisons between benefit preferences, but it cannot be used to calculate the percentage of employees choosing each option without knowing the sizes of the two groups.",
+    "categories": [
+      "article_or_determiner",
+      "modal_or_auxiliary",
+      "preposition",
+      "singular_plural"
+    ],
+    "ruleIds": [
+      "GF_COUNT_NOUN_NUMBER",
+      "GF_EACH_SINGULAR_COUNT_NOUN",
+      "GF_PASSIVE_CANNOT_BE_USED",
+      "GF_SIZES_OF_GROUPS_COMPLEMENT",
+      "GF_SPECIFIC_PERCENTAGE_THE",
+      "GF_WITHOUT_GERUND"
+    ],
+    "structureTags": [
+      "category:article_or_determiner",
+      "category:modal_or_auxiliary",
+      "category:preposition",
+      "category:singular_plural",
+      "coordination",
+      "rule:GF_COUNT_NOUN_NUMBER",
+      "rule:GF_EACH_SINGULAR_COUNT_NOUN",
+      "rule:GF_PASSIVE_CANNOT_BE_USED",
+      "rule:GF_SIZES_OF_GROUPS_COMPLEMENT",
+      "rule:GF_SPECIFIC_PERCENTAGE_THE",
+      "rule:GF_WITHOUT_GERUND"
+    ],
+    "explanationZhHant": "比較多組偏好時中心名詞用複數；比較關係用 between；不同選項的偏好用複數 preferences。 [來源：PARA-0020-S29-I01；原始規則：NOUN.COMPARISONS.BETWEEN.PREFERENCES.v1；規則族：GF_COUNT_NOUN_NUMBER, GF_BETWEEN_TWO_SETS；正規化編輯：PARA-0020-S29-E01。] 比較多組偏好時中心名詞用複數；比較關係用 between；不同選項的偏好用複數 preferences。 [來源：PARA-0020-S29-I01；原始規則：NOUN.COMPARISONS.BETWEEN.PREFERENCES.v1；規則族：GF_COUNT_NOUN_NUMBER, GF_BETWEEN_TWO_SETS；正規化編輯：PARA-0020-S29-E02。] chart 是被用來計算的工具，所以使用情態動詞被動語態。 [來源：PARA-0020-S29-I02, PARA-0020-S29-I03；原始規則：MODAL.PASSIVE.CANNOT_BE_USED.v1, INFINITIVE.PURPOSE.TO_CALCULATE.v1；規則族：GF_PASSIVE_CANNOT_BE_USED, GF_FOR_BASE_PURPOSE_TO_INFINITIVE；正規化編輯：PARA-0020-S29-E03。] 指每項選擇所對應的特定百分比，使用 the。 [來源：PARA-0020-S29-I04；原始規則：ARTICLE.SPECIFIC_PERCENTAGE.THE.v1；規則族：GF_SPECIFIC_PERCENTAGE_THE；正規化編輯：PARA-0020-S29-E04。] each/every 後面接單數；目標使用 each option。 [來源：PARA-0020-S29-I05, PARA-0020-S29-I06；原始規則：PRONOUN.RELATIVE.HUMAN_WHO.v1, DETERMINER.EACH.SINGULAR_OPTION.v1；規則族：GF_RELATIVE_HUMAN_WHO, GF_EACH_VS_EVERY_STYLE, GF_EACH_SINGULAR_COUNT_NOUN；正規化編輯：PARA-0020-S29-E05。] without 是介詞，後面的動作用動名詞。 [來源：PARA-0020-S29-I07；原始規則：PREP.WITHOUT.GERUND.v1；規則族：GF_WITHOUT_GERUND；正規化編輯：PARA-0020-S29-E06。] 名詞 sizes 用 of 引出所屬群組；已明確是兩組，因此使用 the two groups。 [來源：PARA-0020-S29"
+  },
+  {
+    "sentenceId": "PARA-0021-S01",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The diagram illustrates that how discarded plastic bottles are converted into paving blocks through a twelve-stages linear process.",
+    "correctedSentence": "The diagram illustrates how discarded plastic bottles are converted into paving blocks through a twelve-stage linear process.",
+    "categories": [
+      "sentence_structure",
+      "singular_plural"
+    ],
+    "ruleIds": [
+      "GF_COMPLEMENTIZER_WH_EXCLUSION",
+      "GF_NUMERAL_ATTRIBUTIVE_NOUN_SINGULAR"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:sentence_structure",
+      "category:singular_plural",
+      "question_word",
+      "rule:GF_COMPLEMENTIZER_WH_EXCLUSION",
+      "rule:GF_NUMERAL_ATTRIBUTIVE_NOUN_SINGULAR",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "illustrate 後面可直接接由 how 引出的內容分句，不同時使用 that how。對照：illustrates that the process is efficient。 [來源：PARA-0021-S01-I01；原始規則：CLAUSE.ILLUSTRATE.WH_CLAUSE.NO_THAT.v1；規則族：GF_COMPLEMENTIZER_WH_EXCLUSION；正規化編輯：PARA-0021-S01-E01；舊版結構錨點：right_stable_token。] 數字和名詞共同放在另一名詞前作修飾語時，名詞保持單數：a twelve-stage process。 [來源：PARA-0021-S01-I02；原始規則：NOUN.NUMERAL.COMPOUND.SINGULAR_STAGE.v1；規則族：GF_NUMERAL_ATTRIBUTIVE_NOUN_SINGULAR；正規化編輯：PARA-0021-S01-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S02",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Overall, the procedure begins from collecting and inspecting used bottles and ends by packaging tested blocks.",
+    "correctedSentence": "Overall, the procedure begins with the collection and inspection of used bottles and ends with the packaging of tested blocks.",
+    "categories": [
+      "other_grammar"
+    ],
+    "ruleIds": [
+      "GF_PROCESS_BOUNDARY_WITH"
+    ],
+    "structureTags": [
+      "category:other_grammar",
+      "coordination",
+      "rule:GF_PROCESS_BOUNDARY_WITH",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "描述程序的第一個階段，常用 begin with + 名詞／動名詞。begin from 通常引出時間或空間起點。 [來源：PARA-0021-S02-I01；原始規則：PROCESS.BEGIN.WITH.STAGE_NOUN.v1；規則族：GF_PROCESS_BOUNDARY_WITH；正規化編輯：PARA-0021-S02-E01。] 描述程序的第一個階段，常用 begin with + 名詞／動名詞。begin from 通常引出時間或空間起點。 [來源：PARA-0021-S02-I01；原始規則：PROCESS.BEGIN.WITH.STAGE_NOUN.v1；規則族：GF_PROCESS_BOUNDARY_WITH；正規化編輯：PARA-0021-S02-E02。] 描述最後階段用 end with + 名詞／動名詞。end by doing 可表示最終採取的行為，但本句是在命名階段。 [來源：PARA-0021-S02-I02；原始規則：PROCESS.END.WITH.STAGE_NOUN.v1；規則族：GF_PROCESS_BOUNDARY_WITH；正規化編輯：PARA-0021-S02-E03。] 描述最後階段用 end with + 名詞／動名詞。end by doing 可表示最終採取的行為，但本句是在命名階段。 [來源：PARA-0021-S02-I02；原始規則：PROCESS.END.WITH.STAGE_NOUN.v1；規則族：GF_PROCESS_BOUNDARY_WITH；正規化編輯：PARA-0021-S02-E04。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S03",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Most stages are mechanically, although heat is applying during melting and the material is left cooling before testing.",
+    "correctedSentence": "Most stages are mechanical, although heat is applied during melting and the material is left to cool before testing.",
+    "categories": [
+      "other_grammar",
+      "verb_form_or_tense"
+    ],
+    "ruleIds": [
+      "GF_COPULAR_COMPLEMENT_ADJECTIVE",
+      "GF_LEAVE_PATIENT_TO_INFINITIVE",
+      "GF_PASSIVE_BE_PAST_PARTICIPLE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:other_grammar",
+      "category:verb_form_or_tense",
+      "coordination",
+      "rule:GF_COPULAR_COMPLEMENT_ADJECTIVE",
+      "rule:GF_LEAVE_PATIENT_TO_INFINITIVE",
+      "rule:GF_PASSIVE_BE_PAST_PARTICIPLE",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "are 是連繫動詞，後面使用形容詞 mechanical 描述 stages，不用副詞 mechanically。 [來源：PARA-0021-S03-I01；原始規則：LINKING.BE.ADJECTIVE.MECHANICAL.v1；規則族：GF_COPULAR_COMPLEMENT_ADJECTIVE；正規化編輯：PARA-0021-S03-E01。] heat 是被施加的事物，所以使用現在被動語態 is applied。 [來源：PARA-0021-S03-I02；原始規則：PASSIVE.PRESENT.HEAT.IS_APPLIED.v1；規則族：GF_PASSIVE_BE_PAST_PARTICIPLE；正規化編輯：PARA-0021-S03-E02。] 表示讓材料自行冷卻，用 leave + 物件 + to + 動詞原形。leave something cooling 在特定動態語境可能成立，但不是本程序的預定階段寫法。 [來源：PARA-0021-S03-I03；原始規則：CAUSATIVE.LEAVE.OBJECT.TO_INFINITIVE.v1；規則族：GF_LEAVE_PATIENT_TO_INFINITIVE；正規化編輯：PARA-0021-S03-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S04",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "First, bottles are collected out of households and transported at a recycling facility.",
+    "correctedSentence": "First, bottles are collected from households and transported to a recycling facility.",
+    "categories": [
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_COLLECT_FROM_SOURCE",
+      "GF_MOTION_REALIZED_DESTINATION_TO"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:preposition",
+      "coordination",
+      "rule:GF_COLLECT_FROM_SOURCE",
+      "rule:GF_MOTION_REALIZED_DESTINATION_TO",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "表示物品的來源，用 collect from + 地點／人。out of 強調從內部移出。 [來源：PARA-0021-S04-I01；原始規則：PREP.COLLECT.FROM_SOURCE.v1；規則族：GF_COLLECT_FROM_SOURCE；正規化編輯：PARA-0021-S04-E01。] to 引出運送目的地；at 表示物件已位於該地點。 [來源：PARA-0021-S04-I02；原始規則：PREP.TRANSPORT.TO_DESTINATION.v1；規則族：GF_MOTION_REALIZED_DESTINATION_TO；正規化編輯：PARA-0021-S04-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S05",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "On arrival, each bottle is inspected for determine whether it contains unsuitable material.",
+    "correctedSentence": "On arrival, each bottle is inspected to determine whether it contains unsuitable material.",
+    "categories": [
+      "infinitive_or_gerund"
+    ],
+    "ruleIds": [
+      "GF_FOR_BASE_PURPOSE_TO_INFINITIVE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:infinitive_or_gerund",
+      "rule:GF_FOR_BASE_PURPOSE_TO_INFINITIVE",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "表示檢查的目的，用 to + 動詞原形：inspected to determine...。 [來源：PARA-0021-S05-I01；原始規則：INFINITIVE.PURPOSE.INSPECT_TO_DETERMINE.v1；規則族：GF_FOR_BASE_PURPOSE_TO_INFINITIVE；正規化編輯：PARA-0021-S05-E01。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S06",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Rejected items are removed off the production line, while the acceptable bottles travel through a conveyor belt.",
+    "correctedSentence": "Rejected items are removed from the production line, while the acceptable bottles travel along a conveyor belt.",
+    "categories": [
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_PATH_ALONG_LINEAR_SUPPORT",
+      "GF_REMOVE_FROM_ORIGIN"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:preposition",
+      "rule:GF_PATH_ALONG_LINEAR_SUPPORT",
+      "rule:GF_REMOVE_FROM_ORIGIN",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "remove + 物件 + from + 地點 表示把某物從一處移走。 [來源：PARA-0021-S06-I01；原始規則：PREP.REMOVE.FROM_SOURCE.v1；規則族：GF_REMOVE_FROM_ORIGIN；正規化編輯：PARA-0021-S06-E01。] 物件沿着輸送帶移動，用 along。through 表示從某空間或通道內部穿過。 [來源：PARA-0021-S06-I02；原始規則：PREP.TRAVEL.ALONG.CONVEYOR.v1；規則族：GF_PATH_ALONG_LINEAR_SUPPORT；正規化編輯：PARA-0021-S06-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S07",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Labels and caps are then removed, after that the bottles undergo a washing by hot water and detergent.",
+    "correctedSentence": "Labels and caps are then removed, after which the bottles undergo washing with hot water and detergent.",
+    "categories": [
+      "other_grammar",
+      "preposition",
+      "sentence_structure"
+    ],
+    "ruleIds": [
+      "GF_AFTER_WHICH_SENTENTIAL_SEQUENCE",
+      "GF_PROCESS_NOUN_COUNT_CONSTRUAL",
+      "GF_SUBSTANCE_WITH_NOT_AGENT_BY"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:other_grammar",
+      "category:preposition",
+      "category:sentence_structure",
+      "coordination",
+      "rule:GF_AFTER_WHICH_SENTENTIAL_SEQUENCE",
+      "rule:GF_PROCESS_NOUN_COUNT_CONSTRUAL",
+      "rule:GF_SUBSTANCE_WITH_NOT_AGENT_BY",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "after which 指回前面的整個步驟，並連接下一個完整分句。也可使用句號後另寫 After that, ...。 [來源：PARA-0021-S07-I01；原始規則：CLAUSE.AFTER_WHICH.SEQUENCE.v1；規則族：GF_AFTER_WHICH_SENTENTIAL_SEQUENCE；正規化編輯：PARA-0021-S07-E01。] 表示接受某種加工過程時，可寫 undergo washing/testing/treatment。若指一次獨立的清洗，可寫 undergo a wash。 [來源：PARA-0021-S07-I02；原始規則：VERB.UNDERGO.PROCESS_NOUN.ZERO_ARTICLE.v1；規則族：GF_PROCESS_NOUN_COUNT_CONSTRUAL；正規化編輯：PARA-0021-S07-E02；舊版結構錨點：right_stable_token。] 用甚麼物質清洗，使用 with。by 可引出執行者或方法，如 washed by a machine。 [來源：PARA-0021-S07-I03；原始規則：PREP.WASH.WITH_SUBSTANCE.v1；規則族：GF_SUBSTANCE_WITH_NOT_AGENT_BY；正規化編輯：PARA-0021-S07-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S08",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Once cleaning, the bottles are sent for shred.",
+    "correctedSentence": "Once they are clean, the bottles are sent for shredding.",
+    "categories": [
+      "other_grammar",
+      "sentence_structure"
+    ],
+    "ruleIds": [
+      "GF_FOR_ACTION_COMPLEMENT_GERUND",
+      "GF_ONCE_CLAUSE_REDUCTION"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:other_grammar",
+      "category:sentence_structure",
+      "rule:GF_FOR_ACTION_COMPLEMENT_GERUND",
+      "rule:GF_ONCE_CLAUSE_REDUCTION",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "once 後可接完整分句 once they are clean，或縮減為 once clean。once cleaning 會錯誤地表示瓶子主動清洗其他東西。 [來源：PARA-0021-S08-I01；原始規則：CLAUSE.ONCE.FINITE_OR_ADJECTIVE.v1；規則族：GF_ONCE_CLAUSE_REDUCTION；正規化編輯：PARA-0021-S08-E01。] for 是介詞，後面的動作用動名詞：sent for shredding。另一個正確寫法是 sent to be shredded。 [來源：PARA-0021-S08-I02；原始規則：VERB.SEND.FOR.GERUND_PROCESS.v1；規則族：GF_FOR_ACTION_COMPLEMENT_GERUND；正規化編輯：PARA-0021-S08-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S09",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Rotating blades cut them to small flakes, which subsequently pass through beneath a magnet so as any metal fragments can be extracted.",
+    "correctedSentence": "Rotating blades cut them into small flakes, which subsequently pass beneath a magnet so that any metal fragments can be extracted.",
+    "categories": [
+      "conjunction",
+      "other_grammar",
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_REDUNDANT_PATH_PREPOSITION_STACK",
+      "GF_RESULTATIVE_INTO_FRAME",
+      "GF_SO_THAT_FINITE_CLAUSE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:conjunction",
+      "category:other_grammar",
+      "category:preposition",
+      "infinitive_to",
+      "modal",
+      "rule:GF_REDUNDANT_PATH_PREPOSITION_STACK",
+      "rule:GF_RESULTATIVE_INTO_FRAME",
+      "rule:GF_SO_THAT_FINITE_CLAUSE",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "把一個物件切成多個部分，用 cut + 物件 + into + 部分。 [來源：PARA-0021-S09-I01；原始規則：VERB.CUT.NP.INTO_PARTS.v1；規則族：GF_RESULTATIVE_INTO_FRAME；正規化編輯：PARA-0021-S09-E01。] beneath 已直接表示從磁鐵下方經過，不再加入 through。 [來源：PARA-0021-S09-I02；原始規則：PREP.PASS.BENEATH.NO_THROUGH.v1；規則族：GF_REDUNDANT_PATH_PREPOSITION_STACK；正規化編輯：PARA-0021-S09-E02；舊版結構錨點：right_stable_token。] 後面是完整分句，使用 so that + 主語 + 動詞。so as to 後面則接動詞原形。 [來源：PARA-0021-S09-I03；原始規則：CONJ.SO_THAT.FINITE_RESULT.v1；規則族：GF_SO_THAT_FINITE_CLAUSE；正規化編輯：PARA-0021-S09-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S10",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The flakes are dried during thirty minutes at 80 degree Celsius before to enter a heated chamber.",
+    "correctedSentence": "The flakes are dried for thirty minutes at 80 degrees Celsius before entering a heated chamber.",
+    "categories": [
+      "preposition",
+      "sentence_structure",
+      "word_choice"
+    ],
+    "ruleIds": [
+      "GF_FOR_MEASURED_DURATION",
+      "GF_MEASUREMENT_UNIT_NUMBER",
+      "GF_TEMPORAL_PREPOSITION_GERUND_COMPLEMENT"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:preposition",
+      "category:sentence_structure",
+      "category:word_choice",
+      "infinitive_to",
+      "rule:GF_FOR_MEASURED_DURATION",
+      "rule:GF_MEASUREMENT_UNIT_NUMBER",
+      "rule:GF_TEMPORAL_PREPOSITION_GERUND_COMPLEMENT",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "表示持續時間的長度，用 for + 時段。during 後面接事件或時期，如 during the drying stage。 [來源：PARA-0021-S10-I01；原始規則：PREP.FOR.DURATION.v1；規則族：GF_FOR_MEASURED_DURATION；正規化編輯：PARA-0021-S10-E01。] 數值大於一時使用複數 degrees Celsius。作前置複合修飾語時可寫 an 80-degree chamber。 [來源：PARA-0021-S10-I02；原始規則：UNIT.DEGREES.CELSIUS.PLURAL.v1；規則族：GF_MEASUREMENT_UNIT_NUMBER；正規化編輯：PARA-0021-S10-E02。] before 作介詞時，後面的動作用動名詞。也可寫完整分句 before they enter。 [來源：PARA-0021-S10-I03；原始規則：CLAUSE.BEFORE.GERUND.v1；規則族：GF_TEMPORAL_PREPOSITION_GERUND_COMPLEMENT；正規化編輯：PARA-0021-S10-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S11",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "This chamber, which is capable to reach 180 degrees Celsius, melts the flakes to a uniform liquid.",
+    "correctedSentence": "This chamber, which is capable of reaching 180 degrees Celsius, melts the flakes into a uniform liquid.",
+    "categories": [
+      "other_grammar",
+      "word_form"
+    ],
+    "ruleIds": [
+      "GF_CAPABLE_OF_GERUND",
+      "GF_RESULTATIVE_INTO_FRAME"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:other_grammar",
+      "category:word_form",
+      "infinitive_to",
+      "rule:GF_CAPABLE_OF_GERUND",
+      "rule:GF_RESULTATIVE_INTO_FRAME"
+    ],
+    "explanationZhHant": "固定結構是 capable of + 名詞／動名詞。 [來源：PARA-0021-S11-I01；原始規則：ADJ.CAPABLE.OF.GERUND.v1；規則族：GF_CAPABLE_OF_GERUND；正規化編輯：PARA-0021-S11-E01。] 表示物質轉化成另一種形態，用 melt/transform A into B。 [來源：PARA-0021-S11-I02；原始規則：VERB.MELT.NP.INTO.RESULT.v1；規則族：GF_RESULTATIVE_INTO_FRAME；正規化編輯：PARA-0021-S11-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S12",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Next, the molten plastic is combined to recycled sand in a ratio from three parts plastic against one part sand.",
+    "correctedSentence": "Next, the molten plastic is combined with recycled sand in a ratio of three parts plastic to one part sand.",
+    "categories": [
+      "preposition",
+      "singular_plural"
+    ],
+    "ruleIds": [
+      "GF_COMBINE_WITH_COTHEME",
+      "GF_RATIO_OF_A_TO_B"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:preposition",
+      "category:singular_plural",
+      "infinitive_to",
+      "rule:GF_COMBINE_WITH_COTHEME",
+      "rule:GF_RATIO_OF_A_TO_B",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "表示兩種材料混合，用 combine A with B。被動式為 A is combined with B。 [來源：PARA-0021-S12-I01；原始規則：PREP.COMBINE.WITH.v1；規則族：GF_COMBINE_WITH_COTHEME；正規化編輯：PARA-0021-S12-E01。] 名詞 ratio 後用 of 引出比例的組成。 [來源：PARA-0021-S12-I02；原始規則：NOUN.RATIO.OF.COMPONENT.v1；規則族：GF_RATIO_OF_A_TO_B；正規化編輯：PARA-0021-S12-E02。] 比例的兩部分由 to 連接：three parts A to one part B。 [來源：PARA-0021-S12-I03；原始規則：NOUN.RATIO.A_TO_B.v1；規則族：GF_RATIO_OF_A_TO_B；正規化編輯：PARA-0021-S12-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S13",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Mechanical paddles continuously stir the two ingredients, preventing heavier particles settling in the bottom of the tank.",
+    "correctedSentence": "Mechanical paddles continuously stir the two ingredients, preventing heavier particles from settling at the bottom of the tank.",
+    "categories": [
+      "infinitive_or_gerund",
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_AT_BOTTOM_LOCATION",
+      "VERB_PREVENT_NP_FROM_GERUND"
+    ],
+    "structureTags": [
+      "category:infinitive_or_gerund",
+      "category:preposition",
+      "rule:GF_AT_BOTTOM_LOCATION",
+      "rule:VERB_PREVENT_NP_FROM_GERUND",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "固定結構是 prevent + 人／物 + from + 動名詞。 [來源：PARA-0021-S13-I01；原始規則：VERB.PREVENT.NP.FROM.GERUND.v1；規則族：GF_PREVENT_FROM_GERUND；正規化編輯：PARA-0021-S13-E01。] 表示位於容器底部的位置，通常使用 at the bottom of。in the bottom 可指物體內部的底層部分，語意不同。 [來源：PARA-0021-S13-I02；原始規則：PREP.AT_THE_BOTTOM_OF.v1；規則族：GF_AT_BOTTOM_LOCATION；正規化編輯：PARA-0021-S13-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S14",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The resulted mixture is poured in rectangular moulds which inner surfaces have coated by oil for preventing sticking.",
+    "correctedSentence": "The resulting mixture is poured into rectangular moulds whose inner surfaces have been coated with oil to prevent sticking.",
+    "categories": [
+      "infinitive_or_gerund",
+      "preposition",
+      "pronoun",
+      "verb_form_or_tense"
+    ],
+    "ruleIds": [
+      "GF_PERFECT_PASSIVE_INSERT_BEEN",
+      "GF_POUR_INTO_CONTAINER",
+      "GF_PURPOSE_TO_INFINITIVE_PREFERENCE",
+      "GF_RESULTING_PARTICIPLE_MODIFIER",
+      "GF_SUBSTANCE_WITH_NOT_AGENT_BY",
+      "PRONOUN_RELATIVE_WHOSE_POSSESSIVE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:infinitive_or_gerund",
+      "category:preposition",
+      "category:pronoun",
+      "category:verb_form_or_tense",
+      "have_auxiliary",
+      "rule:GF_PERFECT_PASSIVE_INSERT_BEEN",
+      "rule:GF_POUR_INTO_CONTAINER",
+      "rule:GF_PURPOSE_TO_INFINITIVE_PREFERENCE",
+      "rule:GF_RESULTING_PARTICIPLE_MODIFIER",
+      "rule:GF_SUBSTANCE_WITH_NOT_AGENT_BY",
+      "rule:PRONOUN_RELATIVE_WHOSE_POSSESSIVE",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "resulting 表示「由前一步產生的」。resulted 通常不直接作這種前置形容詞。 [來源：PARA-0021-S14-I01；原始規則：PARTICIPLE.RESULTING.NOT_RESULTED.v1；規則族：GF_RESULTING_PARTICIPLE_MODIFIER；正規化編輯：PARA-0021-S14-E01。] 液體由外部進入容器，用 pour into。in 表示已在容器內。 [來源：PARA-0021-S14-I02；原始規則：PREP.POUR.INTO.CONTAINER.v1；規則族：GF_POUR_INTO_CONTAINER；正規化編輯：PARA-0021-S14-E02。] surfaces 屬於 moulds，因此使用所有格關係代名詞 whose。whose 亦可指物。 [來源：PARA-0021-S14-I03；原始規則：PRONOUN.RELATIVE.WHOSE.POSSESSIVE.v1；規則族：GF_RELATIVE_WHOSE_POSSESSOR；正規化編輯：PARA-0021-S14-E03。] surfaces 是被塗油的事物，現在完成式被動使用 have been + 過去分詞。 [來源：PARA-0021-S14-I04, PARA-0021-S14-I05；原始規則：PASSIVE.PRESENT_PERFECT.HAVE_BEEN_COATED.v1, PREP.COAT.WITH.SUBSTANCE.v1；規則族：GF_PERFECT_PASSIVE_INSERT_BEEN, GF_SUBSTANCE_WITH_NOT_AGENT_BY；正規化編輯：PARA-0021-S14-E04。] with 引出覆蓋物或塗料；by 通常引出進行塗層工作的施事者。 [來源：PARA-0021-S14-I05；原始規則：PREP.COAT.WITH.SUBSTANCE.v1；規則族：GF_SUBSTANCE_WITH_NOT_AGENT_BY；正規化編輯：PARA-0021-S14-E05。] 表示塗油這個動作的具體目的，用 to + 動詞原形。for preventing 可在名詞用途描述中成立，但此處較不合適。 [來源：PARA-0021-S14-I06；原始規則：INFINITIVE.PURPOSE.TO_PREVENT.v1；規則族：GF_PURPOSE_TO_INFINITIVE_PREFERENCE；正規化編輯：PARA-0021-S14-E06。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S15",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "After the moulds have filled, they are compressed with a pressure of twelve tonnes during five minutes.",
+    "correctedSentence": "After the moulds have been filled, they are compressed under a pressure of twelve tonnes for five minutes.",
+    "categories": [
+      "preposition",
+      "verb_form_or_tense"
+    ],
+    "ruleIds": [
+      "GF_FOR_MEASURED_DURATION",
+      "GF_PERFECT_PASSIVE_INSERT_BEEN",
+      "GF_PRESSURE_PREPOSITION_FRAME"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:preposition",
+      "category:verb_form_or_tense",
+      "have_auxiliary",
+      "rule:GF_FOR_MEASURED_DURATION",
+      "rule:GF_PERFECT_PASSIVE_INSERT_BEEN",
+      "rule:GF_PRESSURE_PREPOSITION_FRAME",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "moulds 是被填滿的容器，所以使用現在完成式被動。 [來源：PARA-0021-S15-I01；原始規則：PASSIVE.PRESENT_PERFECT.MOULDS_FILLED.v1；規則族：GF_PERFECT_PASSIVE_INSERT_BEEN；正規化編輯：PARA-0021-S15-E01。] 表示物件承受某個壓力，用 under a pressure of + 數值。也可寫 compressed at a pressure of...。 [來源：PARA-0021-S15-I02；原始規則：PREP.UNDER.A_PRESSURE_OF.v1；規則族：GF_PRESSURE_PREPOSITION_FRAME；正規化編輯：PARA-0021-S15-E02。] for 表示動作持續的時間長度。 [來源：PARA-0021-S15-I03；原始規則：PREP.FOR.DURATION.v1；規則族：GF_FOR_MEASURED_DURATION；正規化編輯：PARA-0021-S15-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S16",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The blocks are then left cooling at room temperature until completely solidifying.",
+    "correctedSentence": "The blocks are then left to cool at room temperature until they have completely solidified.",
+    "categories": [
+      "sentence_structure",
+      "verb_form_or_tense"
+    ],
+    "ruleIds": [
+      "GF_LEAVE_PATIENT_TO_INFINITIVE",
+      "GF_UNTIL_COMPLETION_CLAUSE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:sentence_structure",
+      "category:verb_form_or_tense",
+      "rule:GF_LEAVE_PATIENT_TO_INFINITIVE",
+      "rule:GF_UNTIL_COMPLETION_CLAUSE",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "表示把成品放置一段時間，使其冷卻，用 be left to cool。 [來源：PARA-0021-S16-I01；原始規則：CAUSATIVE.LEAVE.OBJECT.TO_INFINITIVE.v1；規則族：GF_LEAVE_PATIENT_TO_INFINITIVE；正規化編輯：PARA-0021-S16-E01。] until 後需要完整分句，或合適的非限定結構。現在完成式強調完全凝固後才進入下一階段。 [來源：PARA-0021-S16-I02；原始規則：CLAUSE.UNTIL.PRESENT_PERFECT.COMPLETION.v1；規則族：GF_UNTIL_COMPLETION_CLAUSE；正規化編輯：PARA-0021-S16-E02。] until 後需要完整分句，或合適的非限定結構。現在完成式強調完全凝固後才進入下一階段。 [來源：PARA-0021-S16-I02；原始規則：CLAUSE.UNTIL.PRESENT_PERFECT.COMPLETION.v1；規則族：GF_UNTIL_COMPLETION_CLAUSE；正規化編輯：PARA-0021-S16-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S17",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Once being solid, they are removed out from the moulds, and their edges are trimmed into producing an even shape.",
+    "correctedSentence": "Once solid, they are removed from the moulds, and their edges are trimmed to produce an even shape.",
+    "categories": [
+      "infinitive_or_gerund",
+      "preposition",
+      "sentence_structure"
+    ],
+    "ruleIds": [
+      "GF_ONCE_CLAUSE_REDUCTION",
+      "GF_REMOVE_FROM_ORIGIN",
+      "GF_TRIM_TO_PRODUCE_RESULT"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:infinitive_or_gerund",
+      "category:preposition",
+      "category:sentence_structure",
+      "coordination",
+      "rule:GF_ONCE_CLAUSE_REDUCTION",
+      "rule:GF_REMOVE_FROM_ORIGIN",
+      "rule:GF_TRIM_TO_PRODUCE_RESULT",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "once + 形容詞 可縮減 once they are solid。不需要加入 being。 [來源：PARA-0021-S17-I01；原始規則：CLAUSE.ONCE.ADJECTIVE.REDUCTION.v1；規則族：GF_ONCE_CLAUSE_REDUCTION；正規化編輯：PARA-0021-S17-E01；舊版結構錨點：right_stable_token。] remove A from B 已完整表示把物件從容器取出，不加入 out。 [來源：PARA-0021-S17-I02；原始規則：PREP.REMOVE.FROM.CONTAINER.v1；規則族：GF_REMOVE_FROM_ORIGIN；正規化編輯：PARA-0021-S17-E02；舊版結構錨點：right_stable_token。] 表示修邊的目的或結果，用 trimmed to produce...。 [來源：PARA-0021-S17-I03；原始規則：INFINITIVE.RESULT.TRIM.TO_PRODUCE.v1；規則族：GF_TRIM_TO_PRODUCE_RESULT；正規化編輯：PARA-0021-S17-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S18",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Before dried flakes enter the chamber, a sensor records its moisture level and diverts any batch that remain too wet.",
+    "correctedSentence": "Before the dried flakes enter the chamber, a sensor records their moisture level and diverts any batch that remains too wet.",
+    "categories": [
+      "article_or_determiner",
+      "pronoun",
+      "subject_verb_agreement"
+    ],
+    "ruleIds": [
+      "GF_DEFINITE_PROCESSED_REFERENT",
+      "GF_POSSESSIVE_PRONOUN_NUMBER_AGREEMENT",
+      "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+    ],
+    "structureTags": [
+      "category:article_or_determiner",
+      "category:pronoun",
+      "category:subject_verb_agreement",
+      "coordination",
+      "rule:GF_DEFINITE_PROCESSED_REFERENT",
+      "rule:GF_POSSESSIVE_PRONOUN_NUMBER_AGREEMENT",
+      "rule:GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "指前文已處理並乾燥的那批 flakes，使用 the。 [來源：PARA-0021-S18-I01；原始規則：ARTICLE.DEFINED.PROCESSED_MATERIAL.THE.v1；規則族：GF_DEFINITE_PROCESSED_REFERENT；正規化編輯：PARA-0021-S18-E01。] 所有格指回複數 flakes，因此使用 their。 [來源：PARA-0021-S18-I02；原始規則：PRONOUN.PLURAL_FLAKES.THEIR.v1；規則族：GF_POSSESSIVE_PRONOUN_NUMBER_AGREEMENT；正規化編輯：PARA-0021-S18-E02。] that 指回單數 batch，一般現在式用 remains。 [來源：PARA-0021-S18-I03；原始規則：SVA.RELATIVE.SINGULAR_BATCH.REMAINS.v1；規則族：GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0021-S18-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S19",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "During moulding, excess mixture spilled over the sides is scraped out and returned back to the tank.",
+    "correctedSentence": "During moulding, excess mixture spilling over the sides is scraped off and returned to the tank.",
+    "categories": [
+      "other_grammar",
+      "preposition",
+      "sentence_structure"
+    ],
+    "ruleIds": [
+      "GF_REDUCED_RELATIVE_VOICE_FORM",
+      "GF_RETURN_BACK_REDUNDANCY",
+      "GF_SCRAPE_OFF_SURFACE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:other_grammar",
+      "category:preposition",
+      "category:sentence_structure",
+      "coordination",
+      "infinitive_to",
+      "rule:GF_REDUCED_RELATIVE_VOICE_FORM",
+      "rule:GF_RETURN_BACK_REDUNDANCY",
+      "rule:GF_SCRAPE_OFF_SURFACE",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "mixture 主動溢出，所以縮減關係分句使用現在分詞 spilling。spilled 會暗示混合物被別人潑灑。 [來源：PARA-0021-S19-I01；原始規則：CLAUSE.REDUCED_RELATIVE.ACTIVE.SPILLING.v1；規則族：GF_REDUCED_RELATIVE_VOICE_FORM；正規化編輯：PARA-0021-S19-E01。] 表示從表面刮走物料，用 scrape off。scrape out 表示從容器內部刮出。 [來源：PARA-0021-S19-I02；原始規則：PHRASAL.SCRAPE.OFF.SURFACE.v1；規則族：GF_SCRAPE_OFF_SURFACE；正規化編輯：PARA-0021-S19-E02。] return 本身已包含「回去」的意思，一般不再加入 back。非正式語言中可見，但正式 Task 1 宜避免。 [來源：PARA-0021-S19-I03；原始規則：VERB.RETURN.NO_REDUNDANT_BACK.v1；規則族：GF_RETURN_BACK_REDUNDANCY；正規化編輯：PARA-0021-S19-E03；舊版結構錨點：right_stable_token。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S20",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "A technician also records the temperature, pressure, as well processing time for each batches.",
+    "correctedSentence": "A technician also records the temperature, pressure and processing time for each batch.",
+    "categories": [
+      "article_or_determiner",
+      "conjunction"
+    ],
+    "ruleIds": [
+      "GF_COORDINATE_LIST_FINAL_CONJUNCTION",
+      "GF_EACH_SINGULAR_COUNT_NOUN"
+    ],
+    "structureTags": [
+      "category:article_or_determiner",
+      "category:conjunction",
+      "rule:GF_COORDINATE_LIST_FINAL_CONJUNCTION",
+      "rule:GF_EACH_SINGULAR_COUNT_NOUN",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "三項並列時，最後一項前用 and。若使用 as well as，必須完整寫出。 [來源：PARA-0021-S20-I01；原始規則：CONJ.LIST.FINAL_AND.v1；規則族：GF_COORDINATE_LIST_FINAL_CONJUNCTION；正規化編輯：PARA-0021-S20-E01。] each 後面接單數可數名詞。 [來源：PARA-0021-S20-I02；原始規則：DETERMINER.EACH.SINGULAR_NOUN.v1；規則族：GF_EACH_SINGULAR_COUNT_NOUN；正規化編輯：PARA-0021-S20-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S21",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "These records accompany with the finished blocks toward the testing area, where inspectors compare the results with the factory standard prior authorising the batch for storage and delivery.",
+    "correctedSentence": "These records accompany the finished blocks to the testing area, where inspectors compare the results with the factory standard before authorising the batch for storage and delivery.",
+    "categories": [
+      "other_grammar",
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_ACCOMPANY_DIRECT_OBJECT",
+      "GF_MOTION_REALIZED_DESTINATION_TO",
+      "GF_PRIOR_TO_OR_BEFORE_GERUND"
+    ],
+    "structureTags": [
+      "category:other_grammar",
+      "category:preposition",
+      "coordination",
+      "question_word",
+      "rule:GF_ACCOMPANY_DIRECT_OBJECT",
+      "rule:GF_MOTION_REALIZED_DESTINATION_TO",
+      "rule:GF_PRIOR_TO_OR_BEFORE_GERUND",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "accompany 是及物動詞，直接接同行的人或物，不加 with。be accompanied by 則是被動結構。 [來源：PARA-0021-S21-I01；原始規則：VERB.ACCOMPANY.DIRECT_OBJECT.NO_WITH.v1；規則族：GF_ACCOMPANY_DIRECT_OBJECT；正規化編輯：PARA-0021-S21-E01；舊版結構錨點：right_stable_token。] to 表示實際到達指定終點；towards 只表示朝某方向移動，未必到達。 [來源：PARA-0021-S21-I02；原始規則：PREP.TO.DEFINITE_ENDPOINT.v1；規則族：GF_MOTION_REALIZED_DESTINATION_TO；正規化編輯：PARA-0021-S21-E02。] prior 若作介詞短語，必須寫 prior to + 動名詞。較簡單的寫法是 before authorising。 [來源：PARA-0021-S21-I03；原始規則：PREP.PRIOR_TO.OR_BEFORE_GERUND.v1；規則族：GF_PRIOR_TO_OR_BEFORE_GERUND；正規化編輯：PARA-0021-S21-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S22",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Each block is subsequently subject for two tests of quality control.",
+    "correctedSentence": "Each block is subsequently subjected to two quality-control tests.",
+    "categories": [
+      "other_grammar",
+      "singular_plural"
+    ],
+    "ruleIds": [
+      "GF_ATTRIBUTIVE_COMPOUND_HYPHENATION",
+      "GF_SUBJECTED_TO_TEST_FRAME"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:other_grammar",
+      "category:singular_plural",
+      "rule:GF_ATTRIBUTIVE_COMPOUND_HYPHENATION",
+      "rule:GF_SUBJECTED_TO_TEST_FRAME"
+    ],
+    "explanationZhHant": "表示物件接受測試，用動詞被動結構 be subjected to。be subject to 也可表示受某條件支配，但不用 for。 [來源：PARA-0021-S22-I01；原始規則：VERB.SUBJECT.NP.TO_TEST.v1；規則族：GF_SUBJECTED_TO_TEST_FRAME；正規化編輯：PARA-0021-S22-E01。] quality-control 共同放在 tests 前作複合修飾語，因此加連字號。two tests for quality control 也是可接受替代。 [來源：PARA-0021-S22-I02；原始規則：NOUN.QUALITY_CONTROL.ATTRIBUTIVE_COMPOUND.v1；規則族：GF_ATTRIBUTIVE_COMPOUND_HYPHENATION；正規化編輯：PARA-0021-S22-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S23",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The first measures if the block can support the required load, while the second checks its resistance against water.",
+    "correctedSentence": "The first measures whether the block can support the required load, while the second checks its resistance to water.",
+    "categories": [
+      "sentence_structure",
+      "singular_plural"
+    ],
+    "ruleIds": [
+      "GF_FORMAL_WHETHER_PREFERENCE",
+      "GF_RESISTANCE_TO_FRAME"
+    ],
+    "structureTags": [
+      "category:sentence_structure",
+      "category:singular_plural",
+      "conditional",
+      "modal",
+      "rule:GF_FORMAL_WHETHER_PREFERENCE",
+      "rule:GF_RESISTANCE_TO_FRAME",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "正式寫作中，表示測試兩種可能結果，使用 whether。if 在部分間接問句中可成立，但在 measure whether 中較標準。 [來源：PARA-0021-S23-I01；原始規則：CLAUSE.FORMAL_EMBEDDED.WHETHER.v1；規則族：GF_FORMAL_WHETHER_PREFERENCE；正規化編輯：PARA-0021-S23-E01。] 固定搭配是 resistance to + 物質／力量。protection against water 則使用 against。 [來源：PARA-0021-S23-I02；原始規則：NOUN.RESISTANCE.TO.v1；規則族：GF_RESISTANCE_TO_FRAME；正規化編輯：PARA-0021-S23-E02。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S24",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Any block which fails from either test is returned back into the melting stage for reprocess.",
+    "correctedSentence": "Any block which fails either test is returned to the melting stage for reprocessing.",
+    "categories": [
+      "other_grammar"
+    ],
+    "ruleIds": [
+      "GF_FAIL_TEST_DIRECT_OBJECT",
+      "GF_FOR_ACTION_COMPLEMENT_GERUND",
+      "GF_RETURN_TO_PROCESS_STAGE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:other_grammar",
+      "rule:GF_FAIL_TEST_DIRECT_OBJECT",
+      "rule:GF_FOR_ACTION_COMPLEMENT_GERUND",
+      "rule:GF_RETURN_TO_PROCESS_STAGE",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "fail 表示未能通過某項測試時，直接接賓語，不加 from。 [來源：PARA-0021-S24-I01；原始規則：VERB.FAIL.DIRECT_OBJECT.TEST.v1；規則族：GF_FAIL_TEST_DIRECT_OBJECT；正規化編輯：PARA-0021-S24-E02；舊版結構錨點：right_stable_token。] return to + 階段／地點；return 已包含返回意思，且不使用 into 表示程序階段。 [來源：PARA-0021-S24-I02；原始規則：VERB.RETURN.TO.STAGE.NO_BACK.v1；規則族：GF_RETURN_TO_PROCESS_STAGE, GF_RETURN_BACK_REDUNDANCY；正規化編輯：PARA-0021-S24-E03。] for 後面的動作用動名詞 reprocessing。 [來源：PARA-0021-S24-I03；原始規則：PREP.FOR.GERUND.REPROCESSING.v1；規則族：GF_FOR_ACTION_COMPLEMENT_GERUND；正規化編輯：PARA-0021-S24-E04。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S25",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Passing both tests blocks are marked by its production date and packed by groups of twenty.",
+    "correctedSentence": "Blocks that pass both tests are marked with their production date and packed in groups of twenty.",
+    "categories": [
+      "preposition",
+      "sentence_structure"
+    ],
+    "ruleIds": [
+      "GF_MARK_WITH_INFORMATION",
+      "GF_PACK_IN_GROUPS",
+      "GF_PARTICIPIAL_PREMODIFIER_ATTACHMENT"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:preposition",
+      "category:sentence_structure",
+      "coordination",
+      "rule:GF_MARK_WITH_INFORMATION",
+      "rule:GF_PACK_IN_GROUPS",
+      "rule:GF_PARTICIPIAL_PREMODIFIER_ATTACHMENT",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "長而複雜的現在分詞片語不能自然放在 blocks 前。使用後置關係分句可清楚表示是 blocks 通過測試。 [來源：PARA-0021-S25-I01；原始規則：CLAUSE.PARTICIPIAL_PREMODIFIER.MISATTACHMENT.v1；規則族：GF_PARTICIPIAL_PREMODIFIER_ATTACHMENT；正規化編輯：PARA-0021-S25-E01。] 長而複雜的現在分詞片語不能自然放在 blocks 前。使用後置關係分句可清楚表示是 blocks 通過測試。 [來源：PARA-0021-S25-I01；原始規則：CLAUSE.PARTICIPIAL_PREMODIFIER.MISATTACHMENT.v1；規則族：GF_PARTICIPIAL_PREMODIFIER_ATTACHMENT；正規化編輯：PARA-0021-S25-E02；舊版結構錨點：right_stable_token。] 表示產品上標有某項資料，用 marked with + 資料。marked by 可表示某時期以某特徵著稱。 [來源：PARA-0021-S25-I02, PARA-0021-S25-I03；原始規則：PRONOUN.PLURAL_BLOCKS.THEIR.v1, PREP.MARK.WITH.INFORMATION.v1；規則族：GF_POSSESSIVE_PRONOUN_NUMBER_AGREEMENT, GF_MARK_WITH_INFORMATION；正規化編輯：PARA-0021-S25-E03。] 表示包裝的分組方式，用 in groups of + 數字。 [來源：PARA-0021-S25-I04；原始規則：PREP.PACK.IN.GROUPS_OF.v1；規則族：GF_PACK_IN_GROUPS；正規化編輯：PARA-0021-S25-E04。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S26",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Finally, the packaged blocks are placed over pallets, wrapped by protective film and stored at a dry warehouse.",
+    "correctedSentence": "Finally, the packaged blocks are placed on pallets, wrapped in protective film and stored in a dry warehouse.",
+    "categories": [
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_PLACE_ON_CONTACT_SURFACE",
+      "GF_STORE_IN_INTERIOR",
+      "GF_WRAP_IN_MATERIAL"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:preposition",
+      "coordination",
+      "rule:GF_PLACE_ON_CONTACT_SURFACE",
+      "rule:GF_STORE_IN_INTERIOR",
+      "rule:GF_WRAP_IN_MATERIAL",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "物件放在托盤表面，用 on。over 表示在上方但未必接觸。 [來源：PARA-0021-S26-I01；原始規則：PREP.PLACE.ON.SURFACE.v1；規則族：GF_PLACE_ON_CONTACT_SURFACE；正規化編輯：PARA-0021-S26-E01。] 包裹物所使用的材料由 in 引出。被動句中的施事者才用 by。 [來源：PARA-0021-S26-I02；原始規則：PREP.WRAP.IN.MATERIAL.v1；規則族：GF_WRAP_IN_MATERIAL；正規化編輯：PARA-0021-S26-E02。] 表示存放在建築物內部，用 in。at the warehouse 可表示較概括的位置。 [來源：PARA-0021-S26-I03；原始規則：PREP.STORE.IN.BUILDING.v1；規則族：GF_STORE_IN_INTERIOR；正規化編輯：PARA-0021-S26-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S27",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "They remain there before they transported towards construction sites.",
+    "correctedSentence": "They remain there until they are transported to construction sites.",
+    "categories": [
+      "conjunction",
+      "preposition",
+      "verb_form_or_tense"
+    ],
+    "ruleIds": [
+      "GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+      "GF_MOTION_REALIZED_DESTINATION_TO",
+      "GF_REMAIN_UNTIL_TERMINUS"
+    ],
+    "structureTags": [
+      "category:conjunction",
+      "category:preposition",
+      "category:verb_form_or_tense",
+      "rule:GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+      "rule:GF_MOTION_REALIZED_DESTINATION_TO",
+      "rule:GF_REMAIN_UNTIL_TERMINUS",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "表示一直留在某處，直至另一事件發生，用 remain...until...。before 只表達先後，不一定表示持續。 [來源：PARA-0021-S27-I01；原始規則：CONJ.REMAIN.UNTIL.EVENT.v1；規則族：GF_REMAIN_UNTIL_TERMINUS；正規化編輯：PARA-0021-S27-E01。] blocks 是被運送的物件，需要現在被動語態。 [來源：PARA-0021-S27-I02, PARA-0021-S27-I03；原始規則：PASSIVE.PRESENT.ARE_TRANSPORTED.v1, PREP.TRANSPORT.TO.DESTINATION.v1；規則族：GF_FINITE_PASSIVE_INSERT_AUXILIARY, GF_MOTION_REALIZED_DESTINATION_TO；正規化編輯：PARA-0021-S27-E02。] 已知成品會送抵工地，因此用 to。 [來源：PARA-0021-S27-I03；原始規則：PREP.TRANSPORT.TO.DESTINATION.v1；規則族：GF_MOTION_REALIZED_DESTINATION_TO；正規化編輯：PARA-0021-S27-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S28",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "The complete process is taken approximately six hours for completing, excluding the time requiring for collecting the bottles.",
+    "correctedSentence": "The complete process takes approximately six hours, excluding the time required to collect the bottles.",
+    "categories": [
+      "other_grammar",
+      "sentence_structure"
+    ],
+    "ruleIds": [
+      "GF_REQUIRED_TIME_REDUCED_PASSIVE",
+      "GF_TAKE_DURATION_FRAME"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:other_grammar",
+      "category:sentence_structure",
+      "rule:GF_REQUIRED_TIME_REDUCED_PASSIVE",
+      "rule:GF_TAKE_DURATION_FRAME",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "表示程序需要多長時間，用主動結構 The process takes...。人作主語時可寫 It takes workers six hours...。 [來源：PARA-0021-S28-I01；原始規則：VERB.PROCESS.TAKES.DURATION.v1；規則族：GF_TAKE_DURATION_FRAME；正規化編輯：PARA-0021-S28-E01。] take + 時間 + to + 動詞原形 是表示完成所需時間的標準結構。 [來源：PARA-0021-S28-I01, PARA-0021-S28-I02；原始規則：VERB.PROCESS.TAKES.DURATION.v1, INFINITIVE.TIME.TO_COMPLETE.v1；規則族：GF_TAKE_DURATION_FRAME；正規化編輯：PARA-0021-S28-E02。] time 是收集瓶子所需要的時間，所以用過去分詞 required；其後接目的不定詞 to collect。 [來源：PARA-0021-S28-I03；原始規則：CLAUSE.REDUCED_RELATIVE.PASSIVE.REQUIRED.v1；規則族：GF_REQUIRED_TIME_REDUCED_PASSIVE；正規化編輯：PARA-0021-S28-E03。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S29",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Wastewaters generated from washing are filtered and reused, while damaged moulds repair separate.",
+    "correctedSentence": "Wastewater generated during washing is filtered and reused, while damaged moulds are repaired separately.",
+    "categories": [
+      "countability",
+      "preposition",
+      "subject_verb_agreement",
+      "verb_form_or_tense"
+    ],
+    "ruleIds": [
+      "GF_CONTEXTUAL_MASS_NOUN_NUMBER",
+      "GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+      "GF_GENERATED_DURING_EVENT",
+      "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:countability",
+      "category:preposition",
+      "category:subject_verb_agreement",
+      "category:verb_form_or_tense",
+      "coordination",
+      "rule:GF_CONTEXTUAL_MASS_NOUN_NUMBER",
+      "rule:GF_FINITE_PASSIVE_INSERT_AUXILIARY",
+      "rule:GF_GENERATED_DURING_EVENT",
+      "rule:GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "verb_ed_surface",
+      "verb_ing_surface"
+    ],
+    "explanationZhHant": "wastewater 表示廢水整體時通常不可數。不同類別可寫 types of wastewater。 [來源：PARA-0021-S29-I01, PARA-0021-S29-I03；原始規則：COUNT.WASTEWATER.UNCOUNTABLE.v1, SVA.UNCOUNTABLE.WASTEWATER.SINGULAR.v1；規則族：GF_CONTEXTUAL_MASS_NOUN_NUMBER, GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0021-S29-E01。] 表示廢水在清洗階段產生，用 during washing。generated from 可引出產生它的原材料或來源。 [來源：PARA-0021-S29-I02, PARA-0021-S29-I03；原始規則：PREP.GENERATED.DURING.PROCESS.v1, SVA.UNCOUNTABLE.WASTEWATER.SINGULAR.v1；規則族：GF_GENERATED_DURING_EVENT, GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0021-S29-E02。] 不可數主語按單數處理，所以配合 is。 [來源：PARA-0021-S29-I03；原始規則：SVA.UNCOUNTABLE.WASTEWATER.SINGULAR.v1；規則族：GF_SUBJECT_VERB_NUMBER_AGREEMENT；正規化編輯：PARA-0021-S29-E03。] moulds 是被維修的物件，需要被動語態；修飾動作 repaired 使用副詞 separately。 [來源：PARA-0021-S29-I04；原始規則：PASSIVE.MOULDS.ARE_REPAIRED.ADVERB.v1；規則族：GF_FINITE_PASSIVE_INSERT_AUXILIARY, GF_MANNER_ADVERB_FORM；正規化編輯：PARA-0021-S29-E04。]"
+  },
+  {
+    "sentenceId": "PARA-0021-S30",
+    "paragraphId": "PARA-0021",
+    "partition": "development",
+    "reviewPolicy": "guidance",
+    "sourceSentence": "Thus, despite the procedure is linear, some rejected materials and water are returned into earlier stages instead to be discarded.",
+    "correctedSentence": "Thus, although the procedure is linear, some rejected material and water are returned to earlier stages instead of being discarded.",
+    "categories": [
+      "conjunction",
+      "countability",
+      "other_grammar",
+      "preposition"
+    ],
+    "ruleIds": [
+      "GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL",
+      "GF_CONTEXTUAL_MASS_NOUN_NUMBER",
+      "GF_INSTEAD_OF_GERUND",
+      "GF_RETURN_TO_PROCESS_STAGE"
+    ],
+    "structureTags": [
+      "be_auxiliary",
+      "category:conjunction",
+      "category:countability",
+      "category:other_grammar",
+      "category:preposition",
+      "coordination",
+      "infinitive_to",
+      "quantifier",
+      "rule:GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL",
+      "rule:GF_CONTEXTUAL_MASS_NOUN_NUMBER",
+      "rule:GF_INSTEAD_OF_GERUND",
+      "rule:GF_RETURN_TO_PROCESS_STAGE",
+      "verb_ed_surface"
+    ],
+    "explanationZhHant": "although 後面接完整分句。despite 後面接名詞或動名詞，例如 despite the procedure being linear。 [來源：PARA-0021-S30-I01；原始規則：CONJ.ALTHOUGH.FINITE.NOT_DESPITE.v1；規則族：GF_ALTHOUGH_FINITE_VS_DESPITE_NOMINAL；正規化編輯：PARA-0021-S30-E01。] material 表示一批加工物料時可作不可數名詞。若指不同種類，可使用複數 materials；規則需按意思判斷。 [來源：PARA-0021-S30-I02；原始規則：COUNT.MATERIAL.GENERIC_UNCOUNTABLE.v1；規則族：GF_CONTEXTUAL_MASS_NOUN_NUMBER；正規化編輯：PARA-0021-S30-E02。] 程序返回某個階段，使用 return to + stage。 [來源：PARA-0021-S30-I03；原始規則：PREP.RETURN.TO.PROCESS_STAGE.v1；規則族：GF_RETURN_TO_PROCESS_STAGE；正規化編輯：PARA-0021-S30-E03。] 固定結構是 instead of + 名詞／動名詞。被動形式為 instead of being + 過去分詞。 [來源：PARA-0021-S30-I04；原始規則：PREP.INSTEAD_OF.PASSIVE_GERUND.v1；規則族：GF_INSTEAD_OF_GERUND；正規化編輯：PARA-0021-S30-E04。]"
   }
 ].map((entry) => Object.freeze({
   ...entry,

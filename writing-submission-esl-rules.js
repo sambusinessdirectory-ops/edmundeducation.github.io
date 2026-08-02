@@ -2,17 +2,28 @@ import {
   WRITING_ESL_RULE_ENGINE,
   checkLocalLearnerEnglish as checkCoreLearnerEnglish,
   mergeGrammarIssues
-} from "./writing-submission-esl-rules-core.js?v=20260802-grammar2";
+} from "./writing-submission-esl-rules-core.js?v=20260802-grammar3";
 import {
   CORPUS_COMPILED_PATTERN_COUNT,
   CORPUS_COMPILED_RULE_COUNT,
   approvedCorpusIncorrectSentenceId,
   checkCorpusGrammar
-} from "./writing-submission-corpus-detector.js?v=20260802-grammar2";
+} from "./writing-submission-corpus-detector.js?v=20260802-grammar3";
+import {
+  EXECUTABLE_COMPILED_FAMILY_COUNT,
+  EXECUTABLE_COMPILED_PATTERN_COUNT,
+  EXECUTABLE_GRAMMAR_COUNTS,
+  EXECUTABLE_GRAMMAR_VERSION,
+  checkExecutableGrammar
+} from "./writing-submission-executable-grammar.js?v=20260802-grammar3";
 
 export {
   CORPUS_COMPILED_PATTERN_COUNT,
   CORPUS_COMPILED_RULE_COUNT,
+  EXECUTABLE_COMPILED_FAMILY_COUNT,
+  EXECUTABLE_COMPILED_PATTERN_COUNT,
+  EXECUTABLE_GRAMMAR_COUNTS,
+  EXECUTABLE_GRAMMAR_VERSION,
   WRITING_ESL_RULE_ENGINE,
   approvedCorpusIncorrectSentenceId,
   mergeGrammarIssues
@@ -328,11 +339,13 @@ export function checkLocalLearnerEnglish(text) {
   const source = String(text || "");
   const corpusIssues = checkCorpusGrammar(source, { maximumIssues: 32 });
   if (approvedCorpusIncorrectSentenceId(source)) return corpusIssues;
+  const executableIssues = checkExecutableGrammar(source, { maximumIssues: 32 });
   const coreIssues = checkCoreLearnerEnglish(source)
     .map((issue) => refineCoreIssue(source, issue))
     .filter(Boolean);
   return mergeGrammarIssues(
     corpusIssues,
+    executableIssues,
     coreIssues,
     modalParallelIssues(source),
     beHaveDoubleVerbIssues(source),
