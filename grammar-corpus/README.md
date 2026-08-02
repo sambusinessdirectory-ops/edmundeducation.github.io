@@ -19,11 +19,13 @@ It currently contains:
 - 640 reusable rule records; and
 - 13 exceptions or valid counterexamples.
 
-The original two paragraph families remain eligible for retrieval. Datasets
-3–18 are preserved as 16 approved development families, with 308 sentences
-and all 693 issue rows physically present in the supplied source. They remain
-excluded from the Worker snapshot until a separate production-retrieval
-review. Dataset 17 declares 100 mappings, but its source contains 99 numbered
+The original two paragraph families remain eligible for authoritative exact
+retrieval. Datasets 3–18 are preserved as 16 approved development families,
+with 308 sentences and all 693 issue rows physically present in the supplied
+source. They do not become exact answers, but all approved non-holdout records
+now enter two bounded runtime layers: a 322-sentence structural guidance pool
+for the Worker and 724 context-anchored browser patterns backed by all 640 rule
+records. Dataset 17 declares 100 mappings, but its source contains 99 numbered
 rows; the release records the 99 real rows and does not fabricate a missing
 mapping.
 
@@ -36,10 +38,13 @@ node grammar-corpus/validate-and-generate.mjs
 performs all integrity checks and regenerates:
 
 1. `workers/writing-submission/src/grammar-corpus.generated.js` — the compact,
-   read-only Worker snapshot used for zero-latency exact matches and bounded
-   structural guidance;
-2. `seed-corpus-v1.sql` — the immutable, idempotent Supabase seed; and
-3. `sheets-v1/*.csv` — six spreadsheet tabs suitable for Excel or Google
+   read-only Worker snapshot used for 14 authoritative exact matches and a
+   separate 322-sentence bounded structural-guidance pool;
+2. `../writing-submission-corpus-detector.generated.js` — 640 approved rule
+   records and 724 context-anchored issue patterns for deterministic browser
+   checking;
+3. `seed-corpus-v1.sql` — the immutable, idempotent Supabase seed; and
+4. `sheets-v1/*.csv` — six spreadsheet tabs suitable for Excel or Google
    Sheets review.
 
 Never edit a generated output. Edit the source JSON or a reviewed workbook,
@@ -134,11 +139,16 @@ Therefore corpus lookup:
 - does not place raw student sentences in a corpus-query log; and
 - avoids reintroducing the earlier Supabase latency problem.
 
-An exact approved sentence uses the teacher correction without an AI call,
-after the existing generic safety materializer verifies it. A non-exact
-sentence may receive at most a few structurally relevant examples as guidance;
-those examples are never treated as its answer, and the AI must analyse the
-new sentence independently.
+An exact retrieval-approved sentence uses the teacher correction without a
+remote call, after the existing generic safety materializer verifies it. In
+the browser, every approved non-holdout issue mapping can also run as a
+deterministic matcher, but short or ambiguous text is guarded by two or three
+lexical anchors and approved exceptions. Exact known sources are priority
+locked to their teacher-reviewed issue set. A separate typed local parser
+generalises reusable structures such as subject–verb agreement and verb
+complements to unseen names and vocabulary. Non-exact remote checks may receive
+at most a few structurally relevant examples as guidance; those examples are
+never treated as the student's answer.
 
 ## Approval boundary
 

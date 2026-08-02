@@ -10,6 +10,10 @@ const WORKER_OUTPUT = path.resolve(
   DIRECTORY,
   "../workers/writing-submission/src/grammar-corpus.generated.js"
 );
+const DETECTOR_OUTPUT = path.resolve(
+  DIRECTORY,
+  "../writing-submission-corpus-detector.generated.js"
+);
 const SQL_OUTPUT = path.join(DIRECTORY, "seed-corpus-v1.sql");
 const CSV_DIRECTORY = path.join(DIRECTORY, "sheets-v1");
 
@@ -396,19 +400,145 @@ function validateCorpus(corpus) {
   return { groups, rules, paragraphs, sentences, issues, exceptions, paragraphMap, sentenceMap, ruleMap, issuesBySentence };
 }
 
-function generatedWorkerModule(corpus, validated) {
-  const entries = validated.sentences.flatMap((sentence) => {
+const DETECTOR_WORD_RE = /[\p{L}\p{M}\p{N}]+(?:[\u2019'\-][\p{L}\p{M}\p{N}]+)*/gu;
+const DETECTOR_FUNCTION_WORDS = new Set([
+  "a", "an", "and", "as", "at", "be", "been", "being", "but", "by", "do",
+  "does", "did", "for", "from", "had", "has", "have", "he", "her", "hers",
+  "him", "his", "i", "in", "is", "it", "its", "me", "my", "nor", "of", "on",
+  "or", "our", "ours", "she", "so", "than", "that", "the", "their", "theirs",
+  "them", "they", "this", "those", "to", "us", "was", "we", "were", "with",
+  "you", "your", "yours"
+]);
+
+function detectorWords(value) {
+  return [...String(value).matchAll(DETECTOR_WORD_RE)].map((match) => ({
+    value: match[0].toLocaleLowerCase("en-GB"),
+    start: match.index,
+    end: match.index + match[0].length
+  }));
+}
+
+function detectorContext(sentence, start, end, { left = 0, right = 0 } = {}) {
+  const words = detectorWords(sentence);
+  const preceding = words.filter((word) => word.end <= start).slice(-left).map((word) => word.value);
+  const following = words.filter((word) => word.start >= end).slice(0, right).map((word) => word.value);
+  return { preceding, following };
+}
+
+function detectorContextSize(issue, conflictingReplacementCount) {
+  const words = detectorWords(issue.wrongText).map((word) => word.value);
+  if (!words.length) return { left: 3, right: 3 };
+  if (conflictingReplacementCount > 1) return { left: 3, right: 3 };
+  const risky = (
+    words.length === 1
+    && (words[0].length <= 3 || DETECTOR_FUNCTION_WORDS.has(words[0]))
+  );
+  return risky ? { left: 3, right: 3 } : { left: 2, right: 2 };
+}
+
+function generatedDetectorModule(corpus, validated) {
+  const groupByKey = new Map(validated.groups.map((group) => [group.groupKey, group]));
+  const exceptionsByRule = new Map();
+  for (const exception of validated.exceptions) {
+    const bucket = exceptionsByRule.get(exception.ruleId) || [];
+    bucket.push({
+      exceptionId: exception.exceptionId,
+      exampleText: exception.exampleText,
+      explanationZhHant: exception.explanationZhHant,
+      englishVariant: exception.englishVariant
+    });
+    exceptionsByRule.set(exception.ruleId, bucket);
+  }
+
+  const eligibleSentences = validated.sentences.filter((sentence) => {
     const paragraph = validated.paragraphMap.get(sentence.paragraphId);
-    const group = validated.groups.find((value) => value.groupKey === paragraph.groupKey);
-    if (
-      corpus.status !== "approved"
-      || paragraph.status !== "approved"
-      || sentence.status !== "approved"
-      || sentence.reviewPolicy !== "exact"
-      || !paragraph.retrievalEligible
-      || paragraph.evaluationHoldout
-      || group?.partition !== "retrieval"
-    ) return [];
+    const group = groupByKey.get(paragraph?.groupKey);
+    return (
+      corpus.status === "approved"
+      && paragraph?.status === "approved"
+      && sentence.status === "approved"
+      && sentence.reviewPolicy !== "abstain"
+      && !paragraph.evaluationHoldout
+      && group?.partition !== "holdout"
+    );
+  });
+  const eligibleSentenceIds = new Set(eligibleSentences.map((sentence) => sentence.sentenceId));
+
+  const replacementsByWrongText = new Map();
+  for (const issue of validated.issues) {
+    if (!eligibleSentenceIds.has(issue.sentenceId)) continue;
+    const key = issue.wrongText.toLocaleLowerCase("en-GB").replace(/\s+/gu, " ").trim();
+    const replacements = replacementsByWrongText.get(key) || new Set();
+    replacements.add(issue.replacementText.toLocaleLowerCase("en-GB").replace(/\s+/gu, " ").trim());
+    replacementsByWrongText.set(key, replacements);
+  }
+
+  const issuePatterns = [];
+  for (const sentence of eligibleSentences) {
+    const sentenceIssues = (validated.issuesBySentence.get(sentence.sentenceId) || [])
+      .sort((left, right) => left.order - right.order);
+    const ranges = issueRangesForSentence(sentence, sentenceIssues);
+    for (const range of ranges) {
+      const issue = range.issue;
+      const wrongKey = issue.wrongText.toLocaleLowerCase("en-GB").replace(/\s+/gu, " ").trim();
+      const requestedContext = detectorContextSize(
+        issue,
+        replacementsByWrongText.get(wrongKey)?.size || 1
+      );
+      const context = detectorContext(
+        sentence.incorrectSentence,
+        range.start,
+        range.end,
+        requestedContext
+      );
+      issuePatterns.push({
+        patternId: issue.issueId,
+        source: "issue",
+        sentenceId: sentence.sentenceId,
+        ruleId: issue.ruleId,
+        matchText: issue.wrongText,
+        replacementText: issue.replacementText,
+        acceptableAlternatives: issue.acceptableAlternatives,
+        confidence: issue.confidence,
+        leftContext: context.preceding,
+        rightContext: context.following,
+        startsSentence: !sentence.incorrectSentence.slice(0, range.start).trim(),
+        endsSentence: !sentence.incorrectSentence.slice(range.end).trim()
+      });
+    }
+  }
+
+  const patterns = issuePatterns;
+
+  const rules = validated.rules.map((rule) => ({
+    ruleId: rule.ruleId,
+    category: rule.grammarCategory,
+    titleZhHant: rule.titleZhHant,
+    formula: rule.formula,
+    structuralSignature: rule.structuralSignature,
+    incorrectPattern: rule.incorrectPattern,
+    correctPattern: rule.correctPattern,
+    explanationZhHant: rule.explanationZhHant,
+    englishVariant: rule.englishVariant,
+    exceptions: exceptionsByRule.get(rule.ruleId) || []
+  }));
+  const approvedCleanSentences = [...new Set([
+    ...eligibleSentences.map((sentence) => sentence.correctedSentence),
+    ...validated.exceptions.map((exception) => exception.exampleText)
+  ])].sort((left, right) => left.localeCompare(right, "en-GB"));
+  const approvedIncorrectSentences = eligibleSentences.map((sentence) => ({
+    sentenceId: sentence.sentenceId,
+    sourceSentence: sentence.incorrectSentence
+  }));
+
+  return `// GENERATED FILE. Edit grammar-corpus/corpus-v1.json and run\n// node grammar-corpus/validate-and-generate.mjs instead.\n\nexport const CORPUS_DETECTOR_VERSION = ${JSON.stringify(corpus.corpusVersion)};\n\nexport const CORPUS_DETECTOR_RULES = Object.freeze(${JSON.stringify(rules, null, 2)}.map((rule) => Object.freeze({\n  ...rule,\n  structuralSignature: Object.freeze(rule.structuralSignature),\n  exceptions: Object.freeze(rule.exceptions.map((exception) => Object.freeze(exception)))\n})));\n\nexport const CORPUS_DETECTOR_PATTERNS = Object.freeze(${JSON.stringify(patterns, null, 2)}.map((pattern) => Object.freeze({\n  ...pattern,\n  acceptableAlternatives: Object.freeze(pattern.acceptableAlternatives),\n  leftContext: Object.freeze(pattern.leftContext),\n  rightContext: Object.freeze(pattern.rightContext)\n})));\n\nexport const CORPUS_APPROVED_CLEAN_SENTENCES = Object.freeze(${JSON.stringify(approvedCleanSentences, null, 2)});\n\nexport const CORPUS_APPROVED_INCORRECT_SENTENCES = Object.freeze(${JSON.stringify(approvedIncorrectSentences, null, 2)}.map((entry) => Object.freeze(entry)));\n`;
+}
+
+function generatedWorkerModule(corpus, validated) {
+  const groupByKey = new Map(validated.groups.map((group) => [group.groupKey, group]));
+  const sentenceEntry = (sentence, { includeIssues }) => {
+    const paragraph = validated.paragraphMap.get(sentence.paragraphId);
+    const group = groupByKey.get(paragraph.groupKey);
     const sentenceIssues = (validated.issuesBySentence.get(sentence.sentenceId) || [])
       .sort((left, right) => left.order - right.order)
       .map((issue) => ({
@@ -421,19 +551,56 @@ function generatedWorkerModule(corpus, validated) {
         explanationZhHant: issue.explanationZhHant,
         confidence: issue.confidence
       }));
-    return [{
+    return {
       sentenceId: sentence.sentenceId,
       paragraphId: sentence.paragraphId,
+      partition: group.partition,
+      reviewPolicy: sentence.reviewPolicy,
       sourceSentence: sentence.incorrectSentence,
       correctedSentence: sentence.correctedSentence,
       categories: [...new Set(sentenceIssues.map((issue) => issue.category))].sort(),
       ruleIds: [...new Set(sentenceIssues.map((issue) => issue.ruleId))].sort(),
       structureTags: structureTags(sentence, sentenceIssues),
-      issues: sentenceIssues
-    }];
+      explanationZhHant: sentenceIssues.map((issue) => issue.explanationZhHant).join(" ").slice(0, 1200),
+      ...(includeIssues ? { issues: sentenceIssues } : {})
+    };
+  };
+
+  // Exact answers remain restricted to the separately approved retrieval
+  // partition. Development guidance never becomes an authoritative answer.
+  const entries = validated.sentences.flatMap((sentence) => {
+    const paragraph = validated.paragraphMap.get(sentence.paragraphId);
+    const group = groupByKey.get(paragraph.groupKey);
+    if (
+      corpus.status !== "approved"
+      || paragraph.status !== "approved"
+      || sentence.status !== "approved"
+      || sentence.reviewPolicy !== "exact"
+      || !paragraph.retrievalEligible
+      || paragraph.evaluationHoldout
+      || group?.partition !== "retrieval"
+    ) return [];
+    return [sentenceEntry(sentence, { includeIssues: true })];
   });
 
-  return `// GENERATED FILE. Edit grammar-corpus/corpus-v1.json and run\n// node grammar-corpus/validate-and-generate.mjs instead.\n\nexport const CORPUS_VERSION = ${JSON.stringify(corpus.corpusVersion)};\n\nexport const CORPUS_SENTENCES = Object.freeze(${JSON.stringify(entries, null, 2)}.map((entry) => Object.freeze({\n  ...entry,\n  categories: Object.freeze(entry.categories),\n  ruleIds: Object.freeze(entry.ruleIds),\n  structureTags: Object.freeze(entry.structureTags),\n  issues: Object.freeze(entry.issues.map((issue) => Object.freeze(issue)))\n})));\n`;
+  // Guidance is a separate, non-authoritative pool. It can inform structural
+  // analysis, but callers must never return its full correction as an exact
+  // answer for a different student sentence.
+  const guidanceEntries = validated.sentences.flatMap((sentence) => {
+    const paragraph = validated.paragraphMap.get(sentence.paragraphId);
+    const group = groupByKey.get(paragraph.groupKey);
+    if (
+      corpus.status !== "approved"
+      || paragraph.status !== "approved"
+      || sentence.status !== "approved"
+      || sentence.reviewPolicy === "abstain"
+      || paragraph.evaluationHoldout
+      || group?.partition === "holdout"
+    ) return [];
+    return [sentenceEntry(sentence, { includeIssues: false })];
+  });
+
+  return `// GENERATED FILE. Edit grammar-corpus/corpus-v1.json and run\n// node grammar-corpus/validate-and-generate.mjs instead.\n\nexport const CORPUS_VERSION = ${JSON.stringify(corpus.corpusVersion)};\n\nexport const CORPUS_SENTENCES = Object.freeze(${JSON.stringify(entries, null, 2)}.map((entry) => Object.freeze({\n  ...entry,\n  categories: Object.freeze(entry.categories),\n  ruleIds: Object.freeze(entry.ruleIds),\n  structureTags: Object.freeze(entry.structureTags),\n  issues: Object.freeze(entry.issues.map((issue) => Object.freeze(issue)))\n})));\n\nexport const CORPUS_GUIDANCE_SENTENCES = Object.freeze(${JSON.stringify(guidanceEntries, null, 2)}.map((entry) => Object.freeze({\n  ...entry,\n  categories: Object.freeze(entry.categories),\n  ruleIds: Object.freeze(entry.ruleIds),\n  structureTags: Object.freeze(entry.structureTags)\n})));\n`;
 }
 
 function seedSql(corpus, validated, contentHash) {
@@ -581,6 +748,7 @@ const canonical = canonicalJson(corpus);
 const contentHash = crypto.createHash("sha256").update(canonical).digest("hex");
 
 fs.writeFileSync(WORKER_OUTPUT, generatedWorkerModule(corpus, validated));
+fs.writeFileSync(DETECTOR_OUTPUT, generatedDetectorModule(corpus, validated));
 fs.writeFileSync(SQL_OUTPUT, seedSql(corpus, validated, contentHash));
 writeSheets(validated);
 
@@ -594,6 +762,7 @@ console.log(JSON.stringify({
   rules: validated.rules.length,
   exceptions: validated.exceptions.length,
   workerOutput: WORKER_OUTPUT,
+  detectorOutput: DETECTOR_OUTPUT,
   sqlOutput: SQL_OUTPUT,
   csvDirectory: CSV_DIRECTORY
 }, null, 2));

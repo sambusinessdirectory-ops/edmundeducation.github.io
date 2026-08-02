@@ -152,14 +152,22 @@ export function grammarAiConfigured(env) {
   return Boolean(env?.AI && typeof env.AI.run === "function");
 }
 
+export const GRAMMAR_AI_FAILURE_KINDS = Object.freeze({
+  quotaExhausted: "quota_exhausted",
+  rateLimited: "rate_limited",
+  timeout: "timeout",
+  inconclusive: "inconclusive",
+  providerFailure: "provider_failure"
+});
+
+function grammarAiErrorCandidates(error) {
+  if (!error || typeof error !== "object") return [];
+  return [error, error.cause, error.error, error.cause?.error]
+    .filter((value) => value && typeof value === "object");
+}
+
 export function isGrammarAiQuotaError(error) {
-  if (!error || typeof error !== "object") return false;
-  const candidates = [
-    error,
-    error.cause,
-    error.error,
-    error.cause?.error
-  ].filter((value) => value && typeof value === "object");
+  const candidates = grammarAiErrorCandidates(error);
   if (candidates.some((value) => String(value.code || "") === "4006")) return true;
   return candidates.some((value) => {
     const message = String(value.message || "");
@@ -167,11 +175,61 @@ export function isGrammarAiQuotaError(error) {
   });
 }
 
+/** Classify provider failures using metadata only; callers must not log the error or sentence. */
+export function classifyGrammarAiFailure(error) {
+  if (isGrammarAiQuotaError(error)) return GRAMMAR_AI_FAILURE_KINDS.quotaExhausted;
+  const candidates = grammarAiErrorCandidates(error);
+  const codes = candidates.map((value) => String(value.code || "").toUpperCase());
+  const statuses = candidates
+    .map((value) => Number(value.status || value.statusCode || 0))
+    .filter(Number.isFinite);
+  const names = candidates.map((value) => String(value.name || "").toUpperCase());
+  if (codes.includes("GRAMMAR_AI_INCONCLUSIVE")) {
+    return GRAMMAR_AI_FAILURE_KINDS.inconclusive;
+  }
+  if (
+    statuses.includes(429)
+    || codes.some((code) => [
+      "429",
+      "RATE_LIMITED",
+      "TOO_MANY_REQUESTS",
+      "GRAMMAR_AI_RATE_LIMITED"
+    ].includes(code))
+  ) return GRAMMAR_AI_FAILURE_KINDS.rateLimited;
+  if (
+    statuses.some((status) => status === 408 || status === 504)
+    || codes.some((code) => [
+      "408",
+      "504",
+      "ETIMEDOUT",
+      "TIMEOUT",
+      "GRAMMAR_AI_TIMEOUT"
+    ].includes(code))
+    || names.some((name) => name === "TIMEOUTERROR" || name === "ABORTERROR")
+  ) return GRAMMAR_AI_FAILURE_KINDS.timeout;
+  return GRAMMAR_AI_FAILURE_KINDS.providerFailure;
+}
+
 function rethrowGrammarAiQuotaError(error) {
   if (!isGrammarAiQuotaError(error)) return;
   const quotaError = new TypeError("Grammar AI daily quota exhausted");
   quotaError.code = "GRAMMAR_AI_QUOTA_EXHAUSTED";
   throw quotaError;
+}
+
+function rethrowGrammarAiNonRepeatableError(error) {
+  rethrowGrammarAiQuotaError(error);
+  const kind = classifyGrammarAiFailure(error);
+  if (kind === GRAMMAR_AI_FAILURE_KINDS.rateLimited) {
+    const rateError = new TypeError("Grammar AI provider rate limited");
+    rateError.code = "GRAMMAR_AI_RATE_LIMITED";
+    throw rateError;
+  }
+  if (kind === GRAMMAR_AI_FAILURE_KINDS.timeout) {
+    const timeoutError = new TypeError("Grammar AI provider timed out");
+    timeoutError.code = "GRAMMAR_AI_TIMEOUT";
+    throw timeoutError;
+  }
 }
 
 export function normalizeGrammarCheckPayload(payload) {
@@ -1880,7 +1938,7 @@ export async function runGrammarAi(sentence, env) {
         : [];
     }
   } catch (error) {
-    rethrowGrammarAiQuotaError(error);
+    rethrowGrammarAiNonRepeatableError(error);
     // The independent audit below can still review the original sentence.
   }
 
@@ -1918,7 +1976,7 @@ export async function runGrammarAi(sentence, env) {
       if (audited) return audited;
     }
   } catch (error) {
-    rethrowGrammarAiQuotaError(error);
+    rethrowGrammarAiNonRepeatableError(error);
     // Fall through to the safe primary proposal or independent small model.
   }
 
@@ -1937,7 +1995,7 @@ export async function runGrammarAi(sentence, env) {
   try {
     retryResult = await env.AI.run(GRAMMAR_AI_REPAIR_MODEL, buildGrammarAiRequest(sentence));
   } catch (error) {
-    rethrowGrammarAiQuotaError(error);
+    rethrowGrammarAiNonRepeatableError(error);
     throw error;
   }
   const repaired = materializeGeneralCorrection(

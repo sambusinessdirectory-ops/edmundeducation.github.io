@@ -3,6 +3,8 @@ import {
   GRAMMAR_AI_MODEL,
   GRAMMAR_AI_REPAIR_MODEL,
   GRAMMAR_AI_VERSION,
+  GRAMMAR_AI_FAILURE_KINDS,
+  classifyGrammarAiFailure,
   grammarAiConfigured,
   normalizeGrammarCheckPayload,
   runGrammarAi
@@ -39,7 +41,15 @@ export default {
       return await route(request, env);
     } catch (error) {
       if (error instanceof HttpError) {
-        return json({ error: error.message, code: error.code }, error.status, request, env);
+        return json(
+          { error: error.message, code: error.code },
+          error.status,
+          request,
+          env,
+          error.retryAfterSeconds > 0
+            ? { "Retry-After": String(error.retryAfterSeconds) }
+            : undefined
+        );
       }
       console.error("Writing Submission Worker request failed", safeErrorMessage(error));
       return json(
@@ -154,11 +164,12 @@ async function route(request, env) {
 }
 
 class HttpError extends Error {
-  constructor(status, code, message) {
+  constructor(status, code, message, { retryAfterSeconds = 0 } = {}) {
     super(message);
     this.name = "HttpError";
     this.status = status;
     this.code = code;
+    this.retryAfterSeconds = Math.max(0, Number.parseInt(retryAfterSeconds, 10) || 0);
   }
 }
 
@@ -216,14 +227,18 @@ function corsHeaders(origin, env) {
   const headers = securityHeaders();
   headers.set("Access-Control-Allow-Headers", "Authorization, Content-Type");
   headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, OPTIONS");
+  headers.set("Access-Control-Expose-Headers", "Retry-After");
   headers.set("Vary", "Origin");
   if (isAllowedOrigin(origin, env)) headers.set("Access-Control-Allow-Origin", origin);
   return headers;
 }
 
-function json(value, status, request, env) {
+function json(value, status, request, env, additionalHeaders = undefined) {
   const headers = corsHeaders(request.headers.get("Origin") || "", env);
   headers.set("Content-Type", "application/json; charset=utf-8");
+  if (additionalHeaders && typeof additionalHeaders === "object") {
+    for (const [name, value] of Object.entries(additionalHeaders)) headers.set(name, String(value));
+  }
   return new Response(JSON.stringify(value), { status, headers });
 }
 
@@ -450,7 +465,9 @@ async function enforceRateLimit(binding, key, unavailableMessage, exceededCode, 
   } catch {
     throw new HttpError(503, "RATE_LIMIT_UNAVAILABLE", unavailableMessage);
   }
-  if (!result.success) throw new HttpError(429, exceededCode, exceededMessage);
+  if (!result.success) {
+    throw new HttpError(429, exceededCode, exceededMessage, { retryAfterSeconds: 60 });
+  }
 }
 
 async function grammarCheck(request, env) {
@@ -491,8 +508,9 @@ async function grammarCheck(request, env) {
   if (!grammarAiConfigured(env)) {
     throw new HttpError(
       503,
-      "GRAMMAR_CHECK_UNAVAILABLE",
-      "Advanced grammar checking is temporarily unavailable"
+      "GRAMMAR_CHECK_PROVIDER_FAILURE",
+      "Advanced grammar checking is temporarily unavailable",
+      { retryAfterSeconds: 1 }
     );
   }
 
@@ -501,26 +519,49 @@ async function grammarCheck(request, env) {
     issues = await runGrammarAi(sentence, env);
   } catch (error) {
     // Student text and provider output must never appear in logs.
-    const quotaExhausted = error?.code === "GRAMMAR_AI_QUOTA_EXHAUSTED";
-    const inconclusive = error?.code === "GRAMMAR_AI_INCONCLUSIVE";
-    console.error(quotaExhausted
-      ? "Writing Submission grammar daily quota was exhausted"
-      : inconclusive
-        ? "Writing Submission grammar result was inconclusive"
-        : "Writing Submission grammar provider failed");
-    if (quotaExhausted) {
+    const failureKind = classifyGrammarAiFailure(error);
+    const logByFailureKind = {
+      [GRAMMAR_AI_FAILURE_KINDS.quotaExhausted]: "Writing Submission grammar daily quota was exhausted",
+      [GRAMMAR_AI_FAILURE_KINDS.rateLimited]: "Writing Submission grammar provider rate limited",
+      [GRAMMAR_AI_FAILURE_KINDS.timeout]: "Writing Submission grammar provider timed out",
+      [GRAMMAR_AI_FAILURE_KINDS.inconclusive]: "Writing Submission grammar result was inconclusive",
+      [GRAMMAR_AI_FAILURE_KINDS.providerFailure]: "Writing Submission grammar provider failed"
+    };
+    console.error(logByFailureKind[failureKind]);
+    if (failureKind === GRAMMAR_AI_FAILURE_KINDS.quotaExhausted) {
       throw new HttpError(
         503,
         "GRAMMAR_CHECK_QUOTA_EXHAUSTED",
         "Advanced grammar checking daily allowance is exhausted; it resets at 08:00 Hong Kong time"
       );
     }
+    if (failureKind === GRAMMAR_AI_FAILURE_KINDS.rateLimited) {
+      throw new HttpError(
+        429,
+        "GRAMMAR_CHECK_PROVIDER_RATE_LIMITED",
+        "Advanced grammar checking provider is temporarily rate limited",
+        { retryAfterSeconds: 60 }
+      );
+    }
+    if (failureKind === GRAMMAR_AI_FAILURE_KINDS.timeout) {
+      throw new HttpError(
+        504,
+        "GRAMMAR_CHECK_PROVIDER_TIMEOUT",
+        "Advanced grammar checking provider timed out"
+      );
+    }
+    if (failureKind === GRAMMAR_AI_FAILURE_KINDS.inconclusive) {
+      throw new HttpError(
+        502,
+        "GRAMMAR_CHECK_INCONCLUSIVE",
+        "Advanced grammar checking could not safely analyse this sentence"
+      );
+    }
     throw new HttpError(
-      inconclusive ? 502 : 503,
-      inconclusive ? "GRAMMAR_CHECK_INCONCLUSIVE" : "GRAMMAR_CHECK_UNAVAILABLE",
-      inconclusive
-        ? "Advanced grammar checking could not safely analyse this sentence"
-        : "Advanced grammar checking is temporarily unavailable"
+      503,
+      "GRAMMAR_CHECK_PROVIDER_FAILURE",
+      "Advanced grammar checking is temporarily unavailable",
+      { retryAfterSeconds: 1 }
     );
   }
 

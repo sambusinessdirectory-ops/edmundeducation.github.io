@@ -85,7 +85,16 @@ jobs:
 
       - name: Validate Writing Submission portal and self-hosted grammar engine
         run: |
+          node grammar-corpus/validate-and-generate.mjs
+          git diff --exit-code -- \
+            grammar-corpus/seed-corpus-v1.sql \
+            grammar-corpus/sheets-v1 \
+            workers/writing-submission/src/grammar-corpus.generated.js \
+            writing-submission-corpus-detector.generated.js
           node tools/test-writing-submission-portal.mjs
+          node tools/test-writing-submission-ai.mjs
+          node --test tools/test-writing-submission-corpus-detector.mjs
+          node tools/test-writing-submission-generalized-rules.mjs
           node tools/test-writing-submission-harper-vendor.mjs
           node tools/test-writing-submission-harper.mjs
 

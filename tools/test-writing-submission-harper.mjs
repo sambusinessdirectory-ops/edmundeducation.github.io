@@ -78,16 +78,16 @@ const checker = helper.createWritingGrammarChecker({ linterFactory: () => localL
 
 await checker.setup();
 const issues = await checker.check("🙂 He go to school every day.");
-const agreement = issues.find((issue) => issue.ruleId === "PronounVerbAgreement");
-assert.ok(agreement, "Harper should report the known pronoun/verb agreement fixture");
-assert.equal(agreement.title, "Pronoun Verb Agreement");
-assert.equal(agreement.category, "Agreement");
+const agreement = issues.find((issue) => issue.ruleId === "EslPresentSubjectVerbAgreement");
+assert.ok(agreement, "the generalized local parser should report the pronoun/verb agreement fixture");
+assert.equal(agreement.title, "主語與動詞一致");
+assert.equal(agreement.category, "Learner English");
 assert.equal(agreement.originalText, "go");
 assert.equal(agreement.suggestedText, "goes");
 assert.equal(agreement.correctedSentence, "🙂 He goes to school every day.");
 assert.equal(agreement.start, 6);
 assert.equal(agreement.end, 8);
-assert.equal(agreement.engine.version, "2.7.0");
+assert.equal(agreement.engine.version, "2.0.0");
 
 const screenshotFirstSentence = "In recent years, more and more company requires staff need to wore uniforms at work.";
 const screenshotSecondSentence = "There are some advantages of a company having a uniform for example customer can quickly locate staff in retail stores and enhanced trust and professionalism.";
@@ -100,7 +100,11 @@ assert.deepEqual(
 );
 assert.deepEqual(
   screenshotSecondIssues.map((issue) => issue.ruleId),
-  ["EslForExamplePunctuation", "EslGenericPeoplePlural", "EslModalParallelVerb"]
+  [
+    "LEXICAL_UNIFORM_POLICY_COMPANY_CONTEXT",
+    "NOUN_GENERIC_CUSTOMER_PLURAL",
+    "CLAUSE_COORDINATED_MISSING_SUBJECT_FINITE_VERB"
+  ]
 );
 
 for (const issue of [...screenshotFirstIssues, ...screenshotSecondIssues]) {
@@ -141,7 +145,7 @@ assert.deepEqual(
 for (const issue of tomLoveLocalIssues) {
   assert.equal(issue.originalText, tomLoveSentence.slice(issue.start, issue.end));
   assert.equal(issue.engine.name, "edmund-esl-basics");
-  assert.equal(issue.engine.version, "1.2.0");
+  assert.equal(issue.engine.version, "2.0.0");
 }
 
 const tomLoveMergedIssues = await checker.check(tomLoveSentence);
@@ -192,12 +196,12 @@ assert.equal(
 assert.equal(eslRules.checkLocalLearnerEnglish(correctedFirst).length, 0);
 
 let correctedSecond = screenshotSecondSentence;
-correctedSecond = applyLearnerRule(correctedSecond, "EslForExamplePunctuation");
-correctedSecond = applyLearnerRule(correctedSecond, "EslGenericPeoplePlural");
-correctedSecond = applyLearnerRule(correctedSecond, "EslModalParallelVerb");
+correctedSecond = applyLearnerRule(correctedSecond, "LEXICAL_UNIFORM_POLICY_COMPANY_CONTEXT");
+correctedSecond = applyLearnerRule(correctedSecond, "NOUN_GENERIC_CUSTOMER_PLURAL");
+correctedSecond = applyLearnerRule(correctedSecond, "CLAUSE_COORDINATED_MISSING_SUBJECT_FINITE_VERB");
 assert.equal(
   correctedSecond,
-  "There are some advantages of a company having a uniform. For example, customers can quickly locate staff in retail stores and enhance trust and professionalism."
+  "There are some advantages of a company having a uniform policy; for example, customers can quickly locate staff in retail stores, and uniforms enhance trust and professionalism."
 );
 assert.equal(eslRules.checkLocalLearnerEnglish(correctedSecond).length, 0);
 
@@ -227,10 +231,11 @@ assert.deepEqual(
 assert.deepEqual(
   complaintSecondIssues.map((issue) => issue.ruleId),
   [
-    "EslComplexIllustrationClauseReview",
-    "EslWithObjectNegativeGerund",
-    "EslThereBeSingularAgreement",
-    "EslAbstractNounUncountable"
+    "CLAUSE_ILLUSTRATION_AS_ADJUNCT",
+    "CLAUSE_RELATIVE_LOCATION_WHERE",
+    "AUXILIARY_PROGRESSIVE_BE_NOT_ING",
+    "SVA_EXISTENTIAL_THERE_SINGULAR_HEAD_IS",
+    "COUNT_TRUST_ABSTRACT_UNCOUNTABLE"
   ]
 );
 
@@ -244,7 +249,7 @@ for (const [sentence, sentenceIssues] of [
       sentence.slice(issue.start, issue.end),
       `${issue.ruleId} must point to the exact text shown in the editor`
     );
-    assert.equal(issue.engine.version, "1.2.0");
+    assert.equal(issue.engine.version, "2.0.0");
   }
 }
 
@@ -255,17 +260,16 @@ assert.equal(correctedComplaintFirst, "Customers have a first impression of busi
 assert.deepEqual(eslRules.checkLocalLearnerEnglish(correctedComplaintFirst), []);
 
 let correctedComplaintSecond = complaintSecondSentence;
-correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "EslWithObjectNegativeGerund");
-correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "EslThereBeSingularAgreement");
-correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "EslAbstractNounUncountable");
+correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "CLAUSE_ILLUSTRATION_AS_ADJUNCT");
+correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "CLAUSE_RELATIVE_LOCATION_WHERE");
+correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "AUXILIARY_PROGRESSIVE_BE_NOT_ING");
+correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "SVA_EXISTENTIAL_THERE_SINGULAR_HEAD_IS");
+correctedComplaintSecond = applyLearnerRule(correctedComplaintSecond, "COUNT_TRUST_ABSTRACT_UNCOUNTABLE");
 assert.equal(
   correctedComplaintSecond,
-  "A clear illustration, if you enter an international airport with the staff not wearing a proper uniform, you will think that there is a loss of trust and professionalism."
+  "As a clear illustration, if you enter an international airport where the staff are not wearing a proper uniform, you will think that there is a loss of trust and professionalism."
 );
-const remainingComplaintIssues = eslRules.checkLocalLearnerEnglish(correctedComplaintSecond);
-assert.deepEqual(remainingComplaintIssues.map((issue) => issue.ruleId), ["EslComplexIllustrationClauseReview"]);
-assert.equal(remainingComplaintIssues[0].reviewRequired, true);
-assert.equal(remainingComplaintIssues[0].suggestedText, "");
+assert.deepEqual(eslRules.checkLocalLearnerEnglish(correctedComplaintSecond), []);
 
 for (const validSentence of [
   "Customers are having lunch.",

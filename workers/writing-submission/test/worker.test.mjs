@@ -1220,6 +1220,7 @@ test("grammar checking enforces origin, authentication and rate limits before AI
   );
   assert.equal(rateLimited.status, 429);
   assert.equal((await rateLimited.json()).code, "TOO_MANY_GRAMMAR_CHECKS");
+  assert.equal(rateLimited.headers.get("Retry-After"), "60");
   assert.deepEqual(denied.calls, [{ key: `writing-submission-grammar-check:${STUDENT_ID}` }]);
   assert.equal(rateAi.calls.length, 0);
 });
@@ -1290,6 +1291,55 @@ test("Workers AI daily quota exhaustion stops retries and returns a specific pri
   assert.deepEqual(logs, ["Writing Submission grammar daily quota was exhausted"]);
   assert.equal(JSON.stringify(body).includes(sentence), false);
   assert.equal(JSON.stringify(body).includes("4006"), false);
+});
+
+test("provider rate limits and timeouts stop model repeats and expose precise private codes", async t => {
+  const originalFetch = globalThis.fetch;
+  const originalConsoleError = console.error;
+  const logs = [];
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+    console.error = originalConsoleError;
+  });
+  console.error = (...values) => { logs.push(values.join(" ")); };
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const sentence = "A private learner sentence needs provider review.";
+  const fixtures = [
+    {
+      error: Object.assign(new Error("private-provider-rate-detail"), { status: 429 }),
+      status: 429,
+      code: "GRAMMAR_CHECK_PROVIDER_RATE_LIMITED",
+      retryAfter: "60",
+      log: "Writing Submission grammar provider rate limited"
+    },
+    {
+      error: Object.assign(new Error("private-provider-timeout-detail"), { status: 504 }),
+      status: 504,
+      code: "GRAMMAR_CHECK_PROVIDER_TIMEOUT",
+      retryAfter: null,
+      log: "Writing Submission grammar provider timed out"
+    }
+  ];
+
+  for (const fixture of fixtures) {
+    const ai = aiBinding(fixture.error);
+    const response = await worker.fetch(grammarCheckRequest(sentence), environment({ AI: ai }));
+    const body = await response.json();
+    assert.equal(response.status, fixture.status);
+    assert.equal(body.code, fixture.code);
+    assert.equal(response.headers.get("Retry-After"), fixture.retryAfter);
+    assert.equal(ai.calls.length, 1, "quota-like provider limits must not start another inference");
+    assert.equal(JSON.stringify(body).includes(sentence), false);
+    assert.equal(JSON.stringify(body).includes(fixture.error.message), false);
+  }
+  assert.deepEqual(logs, fixtures.map((fixture) => fixture.log));
+  assert.equal(logs.some((entry) => entry.includes(sentence)), false);
+  assert.equal(logs.some((entry) => fixtures.some((fixture) => entry.includes(fixture.error.message))), false);
 });
 
 /* Retired 8B-first, exact whitelist, and grammar-specific deterministic retry tests.
@@ -2663,8 +2713,9 @@ test("a provider error on the independent fallback remains private", async t => 
   assert.equal(response.status, 503);
   assert.deepEqual(await response.json(), {
     error: "Advanced grammar checking is temporarily unavailable",
-    code: "GRAMMAR_CHECK_UNAVAILABLE"
+    code: "GRAMMAR_CHECK_PROVIDER_FAILURE"
   });
+  assert.equal(response.headers.get("Retry-After"), "1");
   assert.equal(ai.calls.length, 3);
   assert.deepEqual(logs, ["Writing Submission grammar provider failed"]);
   assert.equal(logs.some((entry) => entry.includes(sentence)), false);
@@ -2696,8 +2747,9 @@ test("provider failures return a generic 503 without logging sentence or provide
   const body = await response.json();
   assert.deepEqual(body, {
     error: "Advanced grammar checking is temporarily unavailable",
-    code: "GRAMMAR_CHECK_UNAVAILABLE"
+    code: "GRAMMAR_CHECK_PROVIDER_FAILURE"
   });
+  assert.equal(response.headers.get("Retry-After"), "1");
   assert.equal(ai.calls.length, 3);
   assert.deepEqual(logs, ["Writing Submission grammar provider failed"]);
   assert.equal(logs.some((entry) => entry.includes(sentence)), false);

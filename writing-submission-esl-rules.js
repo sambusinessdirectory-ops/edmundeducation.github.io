@@ -2,9 +2,21 @@ import {
   WRITING_ESL_RULE_ENGINE,
   checkLocalLearnerEnglish as checkCoreLearnerEnglish,
   mergeGrammarIssues
-} from "./writing-submission-esl-rules-core.js?v=20260801-grammar2";
+} from "./writing-submission-esl-rules-core.js?v=20260802-grammar2";
+import {
+  CORPUS_COMPILED_PATTERN_COUNT,
+  CORPUS_COMPILED_RULE_COUNT,
+  approvedCorpusIncorrectSentenceId,
+  checkCorpusGrammar
+} from "./writing-submission-corpus-detector.js?v=20260802-grammar2";
 
-export { WRITING_ESL_RULE_ENGINE, mergeGrammarIssues };
+export {
+  CORPUS_COMPILED_PATTERN_COUNT,
+  CORPUS_COMPILED_RULE_COUNT,
+  WRITING_ESL_RULE_ENGINE,
+  approvedCorpusIncorrectSentenceId,
+  mergeGrammarIssues
+};
 
 const QUANTIFIED_NOUN_FOLLOWERS = new Set([
   "allow", "allows", "are", "can", "carry", "carries", "could", "create", "creates",
@@ -55,6 +67,17 @@ const ARTICLE_PLURAL_TO_SINGULAR = Object.freeze({
   workers: "worker",
   years: "year"
 });
+
+// Only adjective-like modifiers are allowed between a/an and the noun. The
+// previous any-word window could cross a complete verb phrase (for example,
+// "a uniform can help students") and incorrectly treat its object as the
+// noun governed by the article.
+const ARTICLE_ADJECTIVE_MODIFIERS = Object.freeze([
+  "additional", "big", "clear", "common", "different", "essential", "extra",
+  "first", "good", "important", "international", "large", "local", "main",
+  "major", "new", "old", "personal", "possible", "practical", "proper", "real",
+  "serious", "significant", "simple", "small", "suitable", "useful", "workplace"
+]);
 
 const ARTICLE_QUANTIFIER_PHRASES = [
   "couple of", "few", "group of", "lot of", "number of", "pair of", "range of",
@@ -200,7 +223,8 @@ function beHaveDoubleVerbIssues(source) {
 function articleNumberAgreementIssues(source) {
   const issues = [];
   const plural = escapedAlternation(Object.keys(ARTICLE_PLURAL_TO_SINGULAR));
-  const pattern = new RegExp(`\\b(a|an)\\s+((?:[A-Za-z][A-Za-z'-]*\\s+){0,3})(${plural})\\b`, "giu");
+  const adjective = escapedAlternation(ARTICLE_ADJECTIVE_MODIFIERS);
+  const pattern = new RegExp(`\\b(a|an)\\s+((?:(?:${adjective})\\s+){0,2})(${plural})\\b`, "giu");
   for (const match of source.matchAll(pattern)) {
     const modifier = match[2].trim().toLocaleLowerCase("en-GB");
     if (ARTICLE_QUANTIFIER_PHRASES.some((phrase) => modifier.endsWith(phrase))) continue;
@@ -302,10 +326,13 @@ function complexClauseReviewIssues(source) {
  */
 export function checkLocalLearnerEnglish(text) {
   const source = String(text || "");
+  const corpusIssues = checkCorpusGrammar(source, { maximumIssues: 32 });
+  if (approvedCorpusIncorrectSentenceId(source)) return corpusIssues;
   const coreIssues = checkCoreLearnerEnglish(source)
     .map((issue) => refineCoreIssue(source, issue))
     .filter(Boolean);
   return mergeGrammarIssues(
+    corpusIssues,
     coreIssues,
     modalParallelIssues(source),
     beHaveDoubleVerbIssues(source),

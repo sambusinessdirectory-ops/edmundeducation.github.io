@@ -36,7 +36,7 @@ const AI_ENGINE = Object.freeze({
 });
 const LOCAL_ENGINE = Object.freeze({
   name: "edmund-esl-basics",
-  version: "1.2.0",
+  version: "2.0.0",
   execution: "browser"
 });
 const HARPER_ENGINE = Object.freeze({
@@ -65,7 +65,7 @@ assert.deepEqual(
     kind: "timeout",
     shouldWarn: true,
     backoffMs: 0,
-    globalStatus: "unchanged"
+    globalStatus: "timeout"
   },
   "a request deadline is not an intentional cancellation and must not open a global backoff"
 );
@@ -79,7 +79,7 @@ assert.deepEqual(
     kind: "inconclusive",
     shouldWarn: true,
     backoffMs: 0,
-    globalStatus: "unchanged"
+    globalStatus: "inconclusive"
   },
   "one rejected model response is a per-sentence incomplete review, not a service outage"
 );
@@ -95,6 +95,21 @@ assert.deepEqual(
     backoffMs: 60000,
     globalStatus: "rate_limited"
   }
+);
+assert.deepEqual(
+  adapter.classifyRemoteGrammarFailure({
+    status: 429,
+    code: "TOO_MANY_GRAMMAR_CHECKS",
+    retryAfterMs: 90000
+  }),
+  {
+    kind: "rate_limited",
+    shouldWarn: true,
+    backoffMs: 90000,
+    globalStatus: "rate_limited",
+    retryAfterMs: 90000
+  },
+  "the browser must honor a longer server-provided rate-limit window"
 );
 
 const quotaExhaustedFailure = adapter.classifyRemoteGrammarFailure({
@@ -118,7 +133,7 @@ assert.deepEqual(
     kind: "network",
     shouldWarn: true,
     backoffMs: 30000,
-    globalStatus: "error"
+    globalStatus: "network"
   }
 );
 assert.equal(
@@ -126,8 +141,8 @@ assert.equal(
     status: 503,
     code: "GRAMMAR_CHECK_UNAVAILABLE"
   }).kind,
-  "network",
-  "only the explicit inconclusive contract may avoid service-failure handling"
+  "provider_failure",
+  "an explicit Worker service failure must not be mislabeled as a browser network failure"
 );
 const genericUnavailableFailure = adapter.classifyRemoteGrammarFailure({
   status: 503,
@@ -136,12 +151,49 @@ const genericUnavailableFailure = adapter.classifyRemoteGrammarFailure({
 assert.deepEqual(
   genericUnavailableFailure,
   {
-    kind: "network",
+    kind: "provider_failure",
     shouldWarn: true,
     backoffMs: 30000,
-    globalStatus: "error"
+    globalStatus: "provider_failure"
   },
   "a generic provider outage must remain distinct from the explicit daily-quota response"
+);
+
+const retryableProviderFailure = adapter.classifyRemoteGrammarFailure({
+  status: 503,
+  code: "GRAMMAR_CHECK_PROVIDER_FAILURE",
+  retryAfterMs: 1200
+});
+assert.deepEqual(retryableProviderFailure, {
+  kind: "provider_failure",
+  shouldWarn: true,
+  backoffMs: 30000,
+  globalStatus: "provider_failure",
+  retryAfterMs: 1200
+});
+assert.equal(adapter.remoteGrammarRetryDelayMs(retryableProviderFailure, 0), 1200);
+assert.equal(
+  adapter.remoteGrammarRetryDelayMs(retryableProviderFailure, 1),
+  null,
+  "an explicit provider failure receives at most one automatic retry"
+);
+assert.equal(
+  adapter.remoteGrammarRetryDelayMs(
+    adapter.classifyRemoteGrammarFailure({ name: "AbortError" }, { timedOut: true }),
+    0
+  ),
+  null,
+  "an outcome-ambiguous browser timeout must not be retried"
+);
+assert.equal(
+  adapter.remoteGrammarRetryDelayMs(adapter.classifyRemoteGrammarFailure(new TypeError("offline")), 0),
+  null,
+  "an outcome-ambiguous browser network failure must not be retried"
+);
+assert.equal(
+  adapter.remoteGrammarRetryDelayMs({ ...retryableProviderFailure, retryAfterMs: 5000 }, 0),
+  null,
+  "a Retry-After beyond the bounded retry window is honored by deferring to page backoff"
 );
 
 const incompleteReviewFailure = adapter.classifyRemoteGrammarFailure({
@@ -183,7 +235,7 @@ assert.deepEqual(
   [["love", "loves"], ["eat", "to eat"]],
   "an inconclusive remote review must not remove either local grammar card"
 );
-assert.equal(incompleteReviewFailure.globalStatus, "unchanged");
+assert.equal(incompleteReviewFailure.globalStatus, "inconclusive");
 assert.deepEqual(
   adapter.writingGrammarReviewNotice(
     [incompleteReviewFailure.kind],
@@ -191,16 +243,16 @@ assert.deepEqual(
   ),
   {
     state: "warning",
-    title: "未能完成這句的文法偵測",
-    detail: "以下本機提示仍然保留；未完成文法偵測的句子可能仍有其他問題。"
+    title: "未能安全判定這句文法",
+    detail: "服務收到結果，但未能安全確認完整修正，因此沒有把它當作正確或無錯。以下本機提示仍然保留；未完成文法偵測的句子可能仍有其他問題。"
   }
 );
 assert.deepEqual(
   adapter.writingGrammarReviewNotice([incompleteReviewFailure.kind], 0),
   {
     state: "warning",
-    title: "未能完成這句的文法偵測",
-    detail: "本機暫未提出建議，但這不代表句子沒有文法問題。請稍後再試。"
+    title: "未能安全判定這句文法",
+    detail: "服務收到結果，但未能安全確認完整修正，因此沒有把它當作正確或無錯。本機暫未提出建議，但這不代表句子沒有文法問題。"
   },
   "an incomplete AI review with no local card must show a warning, never a clean state"
 );
@@ -229,10 +281,19 @@ assert.deepEqual(
   adapter.writingGrammarReviewNotice([genericUnavailableFailure.kind], 0),
   {
     state: "warning",
-    title: "未能完成這句的文法偵測",
-    detail: "本機暫未提出建議，但這不代表句子沒有文法問題。請稍後再試。"
+    title: "文法偵測服務暫時故障",
+    detail: "上游文法服務未能完成檢查；系統只會在確認首個要求已失敗後作一次短暫重試。本機暫未提出建議，但這不代表句子沒有文法問題。"
   },
-  "generic service unavailability keeps the existing non-quota warning"
+  "provider failure receives a precise notice instead of looking like a network failure"
+);
+assert.deepEqual(
+  adapter.writingGrammarReviewNotice(["timeout", "network"], 0),
+  {
+    state: "warning",
+    title: "未能完成 2 句的文法偵測",
+    detail: "原因：回應逾時 1 句、網絡連線失敗 1 句。本機暫未提出建議，但這不代表句子沒有文法問題。"
+  },
+  "mixed failures remain individually observable"
 );
 assert.equal(adapter.writingGrammarReviewNotice([], 0), null);
 

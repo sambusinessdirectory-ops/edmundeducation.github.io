@@ -1,4 +1,5 @@
 import {
+  CORPUS_GUIDANCE_SENTENCES,
   CORPUS_SENTENCES,
   CORPUS_VERSION
 } from "./grammar-corpus.generated.js";
@@ -28,7 +29,8 @@ const TOKEN_RE = /[\p{L}\p{M}]+(?:['’\-][\p{L}\p{M}]+)*|\p{N}+(?:[.,:/-]\p{N}+
 const GUIDE_SIGNAL_TAGS = new Set([
   "contains_modal", "contains_auxiliary", "contains_to", "coordination",
   "conditional", "comparison", "negation", "semicolon", "question",
-  "quoted_text"
+  "quoted_text", "suspect_preference_bare_complement",
+  "suspect_singular_subject_base_verb"
 ]);
 
 // Closed-class words carry useful grammatical structure. Content words are
@@ -56,6 +58,31 @@ const MODALS = new Set([
 const AUXILIARIES = new Set([
   "am", "is", "are", "was", "were", "be", "been", "being",
   "have", "has", "had", "having", "do", "does", "did", "doing", "done"
+]);
+const SIMPLE_BASE_VERBS = new Set([
+  "accept", "allow", "answer", "arrive", "ask", "avoid", "become", "begin",
+  "believe", "bring", "build", "buy", "call", "carry", "change", "choose",
+  "collect", "consider", "create", "decide", "deliver", "deny", "develop",
+  "discuss", "drink", "drive", "eat", "enjoy", "expect", "explain", "feel",
+  "find", "finish", "follow", "get", "give", "go", "grow", "hate", "help",
+  "hope", "imagine", "improve", "include", "increase", "keep", "know", "learn",
+  "leave", "like", "live", "look", "love", "make", "manage", "mean", "need",
+  "offer", "open", "pay", "plan", "play", "prefer", "prepare", "provide",
+  "read", "receive", "recommend", "reduce", "remember", "repair", "reply",
+  "require", "return", "risk", "run", "save", "say", "see", "sell", "send",
+  "show", "sleep", "spend", "start", "stay", "stop", "study", "suggest",
+  "support", "take", "talk", "teach", "tell", "think", "travel", "try", "use",
+  "visit", "wait", "walk", "want", "watch", "wear", "win", "work", "write"
+]);
+const PREFERENCE_VERBS = new Set([
+  "hate", "hates", "like", "likes", "love", "loves", "prefer", "prefers"
+]);
+const NON_NAME_INITIALS = new Set([
+  "always", "although", "every", "many", "may", "never", "please", "some",
+  "the", "these", "those", "to"
+]);
+const SINGULAR_DETERMINERS = new Set([
+  "a", "an", "each", "every", "her", "his", "its", "my", "that", "the", "this"
 ]);
 
 function freezeArray(values) {
@@ -127,9 +154,57 @@ function contentWordShape(word) {
   return "WORD";
 }
 
+function inferredStructuralCategories(sentence) {
+  const words = [...sentence.matchAll(/[\p{L}\p{M}]+(?:['’\-][\p{L}\p{M}]+)*/gu)]
+    .map((match) => ({
+      exact: match[0],
+      lower: match[0].toLocaleLowerCase("en-GB")
+    }));
+  const categories = new Set();
+  for (let index = 0; index < words.length - 1; index += 1) {
+    if (
+      PREFERENCE_VERBS.has(words[index].lower)
+      && SIMPLE_BASE_VERBS.has(words[index + 1].lower)
+    ) {
+      categories.add("infinitive_or_gerund");
+    }
+  }
+  const first = words[0];
+  const second = words[1];
+  if (first && second && SIMPLE_BASE_VERBS.has(second.lower)) {
+    const singularPronoun = ["he", "it", "she", "that", "this"].includes(first.lower);
+    const likelyProperName = (
+      /^[\p{Lu}][\p{L}\p{M}'’\-]*$/u.test(first.exact)
+      && !NON_NAME_INITIALS.has(first.lower)
+    );
+    if (singularPronoun || likelyProperName) {
+      categories.add("subject_verb_agreement");
+    }
+  }
+  const third = words[2];
+  if (
+    first
+    && second
+    && third
+    && SINGULAR_DETERMINERS.has(first.lower)
+    && !/s$/u.test(second.lower)
+    && SIMPLE_BASE_VERBS.has(third.lower)
+  ) {
+    categories.add("subject_verb_agreement");
+  }
+  return categories;
+}
+
 function structuralProfile(sentence) {
   const tokens = [];
   const tags = new Set();
+  const inferredCategories = inferredStructuralCategories(sentence);
+  if (inferredCategories.has("subject_verb_agreement")) {
+    tags.add("suspect_singular_subject_base_verb");
+  }
+  if (inferredCategories.has("infinitive_or_gerund")) {
+    tags.add("suspect_preference_bare_complement");
+  }
   for (const match of sentence.matchAll(TOKEN_RE)) {
     const token = match[0];
     if (/^\p{N}/u.test(token)) {
@@ -171,7 +246,8 @@ function structuralProfile(sentence) {
     tokens: Object.freeze(tokens),
     unigrams,
     bigrams,
-    tags
+    tags,
+    inferredCategories
   });
 }
 
@@ -193,7 +269,7 @@ function guideExplanation(entry) {
   if (typeof entry.explanationZhHant === "string" && entry.explanationZhHant.trim()) {
     return entry.explanationZhHant.trim().slice(0, MAX_GUIDE_EXPLANATION_CHARACTERS);
   }
-  const explanations = entry.issues
+  const explanations = (Array.isArray(entry.issues) ? entry.issues : [])
     .map((issue) => issue?.explanationZhHant)
     .filter((value) => typeof value === "string" && value.trim());
   return explanations.join(" ").slice(0, MAX_GUIDE_EXPLANATION_CHARACTERS);
@@ -261,6 +337,51 @@ function normalizeEntry(value, engine) {
   });
 }
 
+function normalizeGuideEntry(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    throw new TypeError("Approved grammar corpus guide must be an object");
+  }
+  if (
+    value.evaluationHoldout === true
+    || value.partition === "holdout"
+    || value.reviewPolicy === "abstain"
+    || (value.status !== undefined && value.status !== "approved")
+  ) {
+    throw new TypeError("Holdout or abstaining grammar corpus material cannot enter guidance");
+  }
+  const sentenceId = requireBoundedString(value.sentenceId, "guide sentence id", 120);
+  const paragraphId = requireBoundedString(value.paragraphId, "guide paragraph id", 120);
+  const sourceSentence = requireBoundedString(
+    value.sourceSentence,
+    "guide source sentence",
+    GENERAL_CORRECTION_MAX_SOURCE_CHARACTERS
+  );
+  const correctedSentence = requireBoundedString(
+    value.correctedSentence,
+    "guide corrected sentence",
+    GENERAL_CORRECTION_MAX_TARGET_CHARACTERS
+  );
+  const categories = normalizedStringArray(
+    value.categories,
+    "guide categories",
+    { allowed: CATEGORY_IDS }
+  );
+  const ruleIds = normalizedStringArray(value.ruleIds, "guide rule ids");
+  const explicitTags = normalizedStringArray(value.structureTags, "guide structure tags");
+  const profile = structuralProfile(sourceSentence);
+  return Object.freeze({
+    sentenceId,
+    paragraphId,
+    sourceSentence,
+    correctedSentence,
+    categories,
+    ruleIds,
+    structureTags: new Set([...explicitTags, ...profile.tags]),
+    profile,
+    explanationZhHant: guideExplanation(value)
+  });
+}
+
 function guideFromEntry(entry) {
   return Object.freeze({
     sentenceId: entry.sentenceId,
@@ -276,11 +397,18 @@ function guideFromEntry(entry) {
 
 export function createGrammarCorpusRuntime({
   corpusVersion = CORPUS_VERSION,
-  corpusSentences = CORPUS_SENTENCES
+  corpusSentences = CORPUS_SENTENCES,
+  corpusGuidanceSentences = null
 } = {}) {
   const version = requireBoundedString(corpusVersion, "version", 120);
   if (!Array.isArray(corpusSentences)) {
     throw new TypeError("CORPUS_SENTENCES must be an array");
+  }
+  const guidanceSource = corpusGuidanceSentences === null
+    ? (corpusSentences === CORPUS_SENTENCES ? CORPUS_GUIDANCE_SENTENCES : corpusSentences)
+    : corpusGuidanceSentences;
+  if (!Array.isArray(guidanceSource)) {
+    throw new TypeError("CORPUS_GUIDANCE_SENTENCES must be an array");
   }
   const engine = Object.freeze({
     name: "edmund-approved-grammar-corpus",
@@ -289,9 +417,11 @@ export function createGrammarCorpusRuntime({
     execution: "cloudflare-worker"
   });
   const entries = corpusSentences.map((entry) => normalizeEntry(entry, engine));
+  const guides = guidanceSource.map(normalizeGuideEntry);
   const exact = new Map();
   const approvedClean = new Map();
   const ids = new Set();
+  const guideIds = new Set();
   for (const entry of entries) {
     if (ids.has(entry.sentenceId)) {
       throw new TypeError(`Duplicate approved grammar corpus sentence id: ${entry.sentenceId}`);
@@ -301,6 +431,12 @@ export function createGrammarCorpusRuntime({
     }
     ids.add(entry.sentenceId);
     exact.set(entry.sourceSentence, entry);
+  }
+  for (const guide of guides) {
+    if (guideIds.has(guide.sentenceId)) {
+      throw new TypeError(`Duplicate approved grammar corpus guide id: ${guide.sentenceId}`);
+    }
+    guideIds.add(guide.sentenceId);
   }
   for (const entry of entries) {
     const conflictingSource = exact.get(entry.correctedSentence);
@@ -343,16 +479,18 @@ export function createGrammarCorpusRuntime({
       Number.isSafeInteger(limit) ? limit : MAX_GUIDES
     ));
     if (!requestedLimit || !sentence.trim()) return Object.freeze([]);
-    const categories = new Set(
-      (Array.isArray(categoryHints) ? categoryHints : [])
-        .filter((category) => CATEGORY_IDS.has(category))
-    );
     const profile = structuralProfile(sentence);
+    const categories = new Set([
+      ...profile.inferredCategories,
+      ...(Array.isArray(categoryHints) ? categoryHints : [])
+        .filter((category) => CATEGORY_IDS.has(category))
+    ]);
     const ranked = [];
-    for (const entry of entries) {
-      if (entry.sourceSentence === sentence || entry.sourceSentence === entry.correctedSentence) continue;
+    for (const entry of guides) {
+      if (entry.sourceSentence === sentence) continue;
       const entryCategories = new Set(entry.categories);
       const categoryOverlap = intersectionCount(categories, entryCategories);
+      if (categories.size && !categoryOverlap) continue;
       const tagOverlap = intersectionCount(profile.tags, entry.structureTags);
       const signalTagOverlap = intersectionCount(
         new Set([...profile.tags].filter((tag) => GUIDE_SIGNAL_TAGS.has(tag))),
@@ -408,6 +546,7 @@ export function createGrammarCorpusRuntime({
     version,
     engine,
     size: entries.length,
+    guideSize: guides.length,
     lookupApprovedExactCorrection,
     selectApprovedGrammarGuides
   });
@@ -418,5 +557,6 @@ const DEFAULT_RUNTIME = createGrammarCorpusRuntime();
 export const GRAMMAR_CORPUS_ENGINE = DEFAULT_RUNTIME.engine;
 export const GRAMMAR_CORPUS_VERSION = DEFAULT_RUNTIME.version;
 export const GRAMMAR_CORPUS_SIZE = DEFAULT_RUNTIME.size;
+export const GRAMMAR_CORPUS_GUIDE_SIZE = DEFAULT_RUNTIME.guideSize;
 export const lookupApprovedExactCorrection = DEFAULT_RUNTIME.lookupApprovedExactCorrection;
 export const selectApprovedGrammarGuides = DEFAULT_RUNTIME.selectApprovedGrammarGuides;
