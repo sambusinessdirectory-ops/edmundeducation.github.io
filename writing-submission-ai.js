@@ -11,8 +11,16 @@ export const REMOTE_GRAMMAR_FAILURE_KINDS = Object.freeze({
   inconclusive: "inconclusive",
   quotaExhausted: "quota_exhausted",
   rateLimited: "rate_limited",
+  providerFailure: "provider_failure",
   network: "network"
 });
+
+export const REMOTE_GRAMMAR_MAX_AUTOMATIC_RETRIES = 1;
+// This is the user's end-to-end browser deadline. The Worker and Workers AI
+// provider may still return a classified failure before this deadline.
+export const REMOTE_GRAMMAR_REQUEST_TIMEOUT_MS = 300_000;
+const REMOTE_GRAMMAR_DEFAULT_RETRY_DELAY_MS = 750;
+const REMOTE_GRAMMAR_MAX_RETRY_DELAY_MS = 2500;
 
 const REMOTE_GRAMMAR_FAILURE_POLICIES = Object.freeze({
   [REMOTE_GRAMMAR_FAILURE_KINDS.cancelled]: Object.freeze({
@@ -25,13 +33,13 @@ const REMOTE_GRAMMAR_FAILURE_POLICIES = Object.freeze({
     kind: REMOTE_GRAMMAR_FAILURE_KINDS.timeout,
     shouldWarn: true,
     backoffMs: 0,
-    globalStatus: "unchanged"
+    globalStatus: "timeout"
   }),
   [REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive]: Object.freeze({
     kind: REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive,
     shouldWarn: true,
     backoffMs: 0,
-    globalStatus: "unchanged"
+    globalStatus: "inconclusive"
   }),
   [REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted]: Object.freeze({
     kind: REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted,
@@ -45,13 +53,30 @@ const REMOTE_GRAMMAR_FAILURE_POLICIES = Object.freeze({
     backoffMs: 60000,
     globalStatus: "rate_limited"
   }),
+  [REMOTE_GRAMMAR_FAILURE_KINDS.providerFailure]: Object.freeze({
+    kind: REMOTE_GRAMMAR_FAILURE_KINDS.providerFailure,
+    shouldWarn: true,
+    backoffMs: 30000,
+    globalStatus: "provider_failure"
+  }),
   [REMOTE_GRAMMAR_FAILURE_KINDS.network]: Object.freeze({
     kind: REMOTE_GRAMMAR_FAILURE_KINDS.network,
     shouldWarn: true,
     backoffMs: 30000,
-    globalStatus: "error"
+    globalStatus: "network"
   })
 });
+
+function remoteGrammarPolicyWithRetryAfter(policy, error) {
+  const retryAfterMs = Number(error?.retryAfterMs);
+  if (!Number.isFinite(retryAfterMs) || retryAfterMs <= 0) return policy;
+  const normalizedRetryAfterMs = Math.ceil(retryAfterMs);
+  return Object.freeze({
+    ...policy,
+    retryAfterMs: normalizedRetryAfterMs,
+    backoffMs: Math.max(policy.backoffMs, normalizedRetryAfterMs)
+  });
+}
 
 /**
  * Classify a remote grammar failure without mutating editor state. An
@@ -72,12 +97,45 @@ export function classifyRemoteGrammarFailure(errorValue, { timedOut = false } = 
     return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted];
   }
   if (status === 429) {
-    return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.rateLimited];
+    return remoteGrammarPolicyWithRetryAfter(
+      REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.rateLimited],
+      error
+    );
+  }
+  if (code === "GRAMMAR_CHECK_PROVIDER_TIMEOUT") {
+    return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.timeout];
   }
   if (code === "GRAMMAR_CHECK_INCONCLUSIVE") {
     return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive];
   }
+  if (code === "GRAMMAR_CHECK_PROVIDER_FAILURE" || code === "GRAMMAR_CHECK_UNAVAILABLE") {
+    return remoteGrammarPolicyWithRetryAfter(
+      REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.providerFailure],
+      error
+    );
+  }
   return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.network];
+}
+
+/**
+ * Return a bounded retry delay only when the Worker explicitly completed with
+ * a provider failure. Browser timeouts and network failures have an ambiguous
+ * outcome and are never retried because the first inference may still run.
+ */
+export function remoteGrammarRetryDelayMs(failureValue, completedRetriesValue = 0) {
+  const failure = failureValue && typeof failureValue === "object" ? failureValue : {};
+  const completedRetries = Math.max(0, Number.parseInt(completedRetriesValue, 10) || 0);
+  if (
+    failure.kind !== REMOTE_GRAMMAR_FAILURE_KINDS.providerFailure
+    || completedRetries >= REMOTE_GRAMMAR_MAX_AUTOMATIC_RETRIES
+  ) return null;
+  const requestedDelay = Number(failure.retryAfterMs);
+  if (Number.isFinite(requestedDelay) && requestedDelay > REMOTE_GRAMMAR_MAX_RETRY_DELAY_MS) {
+    return null;
+  }
+  return Number.isFinite(requestedDelay) && requestedDelay > 0
+    ? Math.max(0, Math.ceil(requestedDelay))
+    : REMOTE_GRAMMAR_DEFAULT_RETRY_DELAY_MS;
 }
 
 /** Build the sentence-level notice without ever presenting an incomplete grammar review as clean. */
@@ -88,13 +146,76 @@ export function writingGrammarReviewNotice(warningKindsValue, visibleIssueCountV
   const warningCount = warningKinds.length;
   if (!warningCount) return null;
   const hasVisibleIssues = (Number.parseInt(visibleIssueCountValue, 10) || 0) > 0;
-  if (warningKinds.includes(REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted)) {
+  const counts = new Map();
+  for (const kind of warningKinds) counts.set(kind, (counts.get(kind) || 0) + 1);
+  if (counts.size === 1 && counts.has(REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted)) {
     return Object.freeze({
       state: "warning",
       title: "文法偵測今日額度已用完",
       detail: hasVisibleIssues
         ? "文法偵測今日額度已用完，會於香港時間 08:00 重設。以下本機提示仍然保留；未完成文法偵測的句子可能仍有其他問題。"
         : "文法偵測今日額度已用完，會於香港時間 08:00 重設。本機暫未提出建議，但這不代表句子沒有文法問題。"
+    });
+  }
+  const noticeByKind = Object.freeze({
+    [REMOTE_GRAMMAR_FAILURE_KINDS.timeout]: Object.freeze({
+      title: "文法偵測回應逾時",
+      multiTitle: "句的文法偵測回應逾時",
+      reason: "回應逾時",
+      detail: "伺服器未能在時限內回覆；為免重複計算，本次不會自動重試。"
+    }),
+    [REMOTE_GRAMMAR_FAILURE_KINDS.network]: Object.freeze({
+      title: "文法偵測網絡連線失敗",
+      multiTitle: "句的文法偵測網絡連線失敗",
+      reason: "網絡連線失敗",
+      detail: "瀏覽器未能連接文法偵測服務；請檢查網絡後再試。"
+    }),
+    [REMOTE_GRAMMAR_FAILURE_KINDS.rateLimited]: Object.freeze({
+      title: "文法偵測要求太頻繁",
+      multiTitle: "句的文法偵測要求太頻繁",
+      reason: "要求太頻繁",
+      detail: "服務已暫停新的檢查要求；系統會依照指定等候時間後再接受檢查。"
+    }),
+    [REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive]: Object.freeze({
+      title: "未能安全判定這句文法",
+      multiTitle: "句未能安全判定文法",
+      reason: "未能安全判定",
+      detail: "服務收到結果，但未能安全確認完整修正，因此沒有把它當作正確或無錯。"
+    }),
+    [REMOTE_GRAMMAR_FAILURE_KINDS.providerFailure]: Object.freeze({
+      title: "文法偵測服務暫時故障",
+      multiTitle: "句因文法偵測服務故障而未完成",
+      reason: "服務暫時故障",
+      detail: "上游文法服務未能完成檢查；系統只會在確認首個要求已失敗後作一次短暫重試。"
+    }),
+    [REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted]: Object.freeze({
+      title: "文法偵測今日額度已用完",
+      multiTitle: "句因今日額度用完而未完成",
+      reason: "今日額度已用完",
+      detail: "文法偵測今日額度已用完，會於香港時間 08:00 重設。"
+    })
+  });
+  const knownEntries = [...counts.entries()].filter(([kind]) => noticeByKind[kind]);
+  const localQualification = hasVisibleIssues
+    ? "以下本機提示仍然保留；未完成文法偵測的句子可能仍有其他問題。"
+    : "本機暫未提出建議，但這不代表句子沒有文法問題。";
+  if (knownEntries.length === 1) {
+    const [kind, count] = knownEntries[0];
+    const content = noticeByKind[kind];
+    return Object.freeze({
+      state: "warning",
+      title: count === 1 ? content.title : `${count} ${content.multiTitle}`,
+      detail: `${content.detail}${localQualification}`
+    });
+  }
+  if (knownEntries.length > 1) {
+    const reasons = knownEntries
+      .map(([kind, count]) => `${noticeByKind[kind].reason} ${count} 句`)
+      .join("、");
+    return Object.freeze({
+      state: "warning",
+      title: `未能完成 ${warningCount} 句的文法偵測`,
+      detail: `原因：${reasons}。${localQualification}`
     });
   }
   return Object.freeze({
@@ -270,6 +391,14 @@ function normalizeIssue(sentence, issue, {
   if (confidence !== null && (!Number.isFinite(confidence) || confidence < 0 || confidence > 1)) {
     return null;
   }
+  const detectorPriority = ai || issue.detectorPriority === undefined
+    ? 0
+    : Number(issue.detectorPriority);
+  if (
+    !Number.isSafeInteger(detectorPriority)
+    || detectorPriority < 0
+    || detectorPriority > 100000
+  ) return null;
 
   const canonicalTitle = WRITING_GRAMMAR_CATEGORY_TITLES[categoryId];
   const localTitle = boundedText(issue.title, MAX_TITLE_LENGTH);
@@ -301,6 +430,7 @@ function normalizeIssue(sentence, issue, {
     start: span.start,
     end: span.end,
     ...(confidence === null ? {} : { confidence }),
+    ...(detectorPriority > 0 ? { detectorPriority } : {}),
     ...(reviewRequired ? { reviewRequired: true } : {}),
     suggestions,
     engine,
@@ -310,7 +440,8 @@ function normalizeIssue(sentence, issue, {
 
 function issueSelectionOrder(left, right) {
   return (
-    left.start - right.start
+    (right.detectorPriority ?? 0) - (left.detectorPriority ?? 0)
+    || left.start - right.start
     || (left.end - left.start) - (right.end - right.start)
     || (right.confidence ?? 0) - (left.confidence ?? 0)
     || left.categoryId.localeCompare(right.categoryId)

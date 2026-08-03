@@ -5,11 +5,15 @@ import test from "node:test";
 import { fileURLToPath } from "node:url";
 
 import {
+  GRAMMAR_CORPUS_GUIDE_SIZE,
   GRAMMAR_CORPUS_SIZE,
   GRAMMAR_CORPUS_VERSION,
   createGrammarCorpusRuntime,
   lookupApprovedExactCorrection
 } from "../src/grammar-corpus.js";
+import {
+  CORPUS_GUIDANCE_SENTENCES
+} from "../src/grammar-corpus.generated.js";
 
 const TEST_DIRECTORY = path.dirname(fileURLToPath(import.meta.url));
 const SOURCE_CORPUS = JSON.parse(fs.readFileSync(
@@ -92,8 +96,9 @@ function runtime(sentences = FIXTURES) {
 }
 
 test("generated approved corpus is loaded and materialized at module initialization", () => {
-  assert.equal(GRAMMAR_CORPUS_VERSION, "2026-08-02.1");
+  assert.equal(GRAMMAR_CORPUS_VERSION, "2026-08-02.2");
   assert.equal(GRAMMAR_CORPUS_SIZE, 14);
+  assert.equal(GRAMMAR_CORPUS_GUIDE_SIZE, 381);
 
   const result = lookupApprovedExactCorrection(
     "In recent years, many company requires their staffs to wears uniforms at work."
@@ -106,18 +111,23 @@ test("generated approved corpus is loaded and materialized at module initializat
   assert.equal(result.issues[0].message, "many 後面的可數名詞通常要用複數，所以寫 companies。");
 });
 
-test("datasets 3–18 are complete development records and stay outside runtime retrieval", () => {
-  assert.equal(SOURCE_CORPUS.groups.length, 18);
-  assert.equal(SOURCE_CORPUS.paragraphs.length, 18);
-  assert.equal(SOURCE_CORPUS.sentences.length, 322);
-  assert.equal(SOURCE_CORPUS.issues.length, 724);
-  assert.equal(SOURCE_CORPUS.rules.length, 640);
+test("datasets 3–18 and 20–21 are development records and stay outside runtime retrieval", () => {
+  assert.equal(SOURCE_CORPUS.groups.length, 20);
+  assert.equal(SOURCE_CORPUS.paragraphs.length, 20);
+  assert.equal(SOURCE_CORPUS.sentences.length, 381);
+  assert.equal(SOURCE_CORPUS.issues.length, 937);
+  assert.equal(SOURCE_CORPUS.rules.length, 769);
   assert.equal(SOURCE_CORPUS.exceptions.length, 13);
 
   const importedParagraphs = SOURCE_CORPUS.paragraphs.filter(({ paragraphId }) => (
     Number(paragraphId.slice(5)) >= 3
   ));
-  assert.equal(importedParagraphs.length, 16);
+  assert.equal(importedParagraphs.length, 18);
+  assert.equal(
+    importedParagraphs.some(({ paragraphId }) => paragraphId === "PARA-0019"),
+    false,
+    "Dataset 19 has no supplied sentence evidence and must not be fabricated"
+  );
   assert.ok(importedParagraphs.every((paragraph) => (
     paragraph.retrievalEligible === false && paragraph.evaluationHoldout === false
   )));
@@ -132,6 +142,50 @@ test("datasets 3–18 are complete development records and stay outside runtime 
   ));
   assert.equal(denseSentenceIssues.length, 16, "development guidance preserves every mapped issue");
   assert.equal(GRAMMAR_CORPUS_SIZE, 14, "development guidance must not enter the Worker snapshot");
+  assert.equal(GRAMMAR_CORPUS_GUIDE_SIZE, 381, "all non-holdout records may enter guidance");
+  assert.equal(
+    lookupApprovedExactCorrection(CORPUS_GUIDANCE_SENTENCES[14].sourceSentence),
+    null,
+    "development guidance must never become an authoritative exact answer"
+  );
+});
+
+test("all 367 development sentences are valid selectable guides, never exact answers", () => {
+  const developmentGuides = CORPUS_GUIDANCE_SENTENCES.filter((entry) => (
+    entry.partition === "development" && entry.reviewPolicy === "guidance"
+  ));
+  assert.equal(developmentGuides.length, 367);
+
+  for (const guide of developmentGuides) {
+    const guideRuntime = createGrammarCorpusRuntime({
+      corpusVersion: "test-development-guide",
+      corpusSentences: FIXTURES,
+      corpusGuidanceSentences: [guide]
+    });
+    const selected = guideRuntime.selectApprovedGrammarGuides(
+      `${guide.sourceSentence} Additional context.`,
+      guide.categories,
+      { limit: 1 }
+    );
+    assert.equal(selected[0]?.sentenceId, guide.sentenceId);
+    assert.equal(guideRuntime.lookupApprovedExactCorrection(guide.sourceSentence), null);
+  }
+});
+
+test("simple SVA and bare preference-complement wording retrieves relevant guidance only", () => {
+  const sentence = "John like eat food.";
+  assert.equal(lookupApprovedExactCorrection(sentence), null);
+
+  const guides = createGrammarCorpusRuntime().selectApprovedGrammarGuides(
+    sentence,
+    [],
+    { limit: 3 }
+  );
+  assert.ok(guides.length > 0);
+  const categories = new Set(guides.flatMap((guide) => guide.categories));
+  assert.equal(categories.has("subject_verb_agreement"), true);
+  assert.equal(categories.has("infinitive_or_gerund"), true);
+  assert.ok(guides.some((guide) => guide.sentenceId.startsWith("PARA-00")));
 });
 
 test("exact approved lookup is authoritative and exposes safe Worker-derived ranges", () => {
@@ -237,6 +291,17 @@ test("corrupt or conflicting generated data fails closed", () => {
       { ...FIXTURES[0], sentenceId: "TEST-HOLDOUT", ...partitionMarker }
     ]), /Non-retrieval grammar corpus material/);
   }
+
+  assert.throws(() => createGrammarCorpusRuntime({
+    corpusVersion: "test-corpus-guide-holdout",
+    corpusSentences: FIXTURES,
+    corpusGuidanceSentences: [{ ...FIXTURES[0], partition: "holdout" }]
+  }), /cannot enter guidance/);
+  assert.throws(() => createGrammarCorpusRuntime({
+    corpusVersion: "test-corpus-guide-duplicate",
+    corpusSentences: FIXTURES,
+    corpusGuidanceSentences: [FIXTURES[0], FIXTURES[0]]
+  }), /Duplicate approved grammar corpus guide id/);
 });
 
 test("guide selection gives category agreement priority over names and subject matter", () => {

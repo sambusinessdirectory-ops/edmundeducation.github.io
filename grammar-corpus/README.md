@@ -10,22 +10,32 @@ code by hand.
 
 ## One source, three generated outputs
 
-`corpus-v1.json` is the single source of truth for release `2026-08-02.1`.
+`corpus-v1.json` is the single source of truth for release `2026-08-02.2`.
 It currently contains:
 
-- 18 approved paragraphs;
-- 322 approved sentences;
-- 724 individually annotated issues;
-- 640 reusable rule records; and
+- 20 release paragraphs;
+- 381 release sentences;
+- 937 exact, non-overlapping issue spans;
+- 769 reusable rule records; and
 - 13 exceptions or valid counterexamples.
 
-The original two paragraph families remain eligible for retrieval. Datasets
-3–18 are preserved as 16 approved development families, with 308 sentences
-and all 693 issue rows physically present in the supplied source. They remain
-excluded from the Worker snapshot until a separate production-retrieval
-review. Dataset 17 declares 100 mappings, but its source contains 99 numbered
-rows; the release records the 99 real rows and does not fabricate a missing
-mapping.
+The original two paragraph families remain eligible for authoritative exact
+retrieval. Datasets 3–18 and 20–21 are preserved as 18 development families,
+with 367 guidance sentences. They do not become exact answers. Dataset 19 is
+represented in the executable-rule source but is absent from this sentence
+corpus because the supplied attachment omits both passages and all 34 sentence
+pairs; no sentence was fabricated. Dataset 20's table contains 116 source rows
+despite declaring 115. Its source rows normalize to 127 legacy-compatible spans,
+and Dataset 21's 83 source rows normalize to 86 spans. The two unlabelled,
+grammatical target variations are intentionally excluded.
+Dataset 22 is stored only in the stricter executable-rule layer described below;
+it does not change this legacy corpus release or its generated outputs.
+
+All non-holdout records enter two bounded runtime layers: a 381-sentence
+structural-guidance pool for the Worker and 937 context-anchored browser
+patterns backed by all 769 rule records. Dataset 17 declares 100 mappings, but
+its source contains 99 numbered rows; the release records the 99 real rows and
+does not fabricate a missing mapping.
 
 Running:
 
@@ -36,14 +46,29 @@ node grammar-corpus/validate-and-generate.mjs
 performs all integrity checks and regenerates:
 
 1. `workers/writing-submission/src/grammar-corpus.generated.js` — the compact,
-   read-only Worker snapshot used for zero-latency exact matches and bounded
-   structural guidance;
-2. `seed-corpus-v1.sql` — the immutable, idempotent Supabase seed; and
-3. `sheets-v1/*.csv` — six spreadsheet tabs suitable for Excel or Google
+   read-only Worker snapshot used for 14 authoritative exact matches and a
+   separate 381-sentence bounded structural-guidance pool;
+2. `../writing-submission-corpus-detector.generated.js` — 769 rule records and
+   937 context-anchored issue patterns for deterministic browser
+   checking;
+3. `seed-corpus-v1.sql` — the immutable, idempotent Supabase seed; and
+4. `sheets-v1/*.csv` — six spreadsheet tabs suitable for Excel or Google
    Sheets review.
 
 Never edit a generated output. Edit the source JSON or a reviewed workbook,
 then run the generator.
+
+## Executable rule-family layer
+
+Sets 19–22 also use the stricter authoring and compiler layer documented in
+`../tools/grammar-detector-v2/README.md`. It stores all 314 supplied source
+issues as 224 deduplicated families, then publishes only 65 patterns across 49
+runtime families that pass the evidence, capability, approval, confidence,
+holdout, conflict and 124-sentence adversarial-control gates.
+The generated browser module is
+`../writing-submission-executable-grammar.generated.js`. Parser-dependent or
+semantic families remain stored but inactive until the required runtime and
+tests exist.
 
 ## Spreadsheet workflow
 
@@ -105,7 +130,7 @@ generalise merely because it saw almost the same sentence.
 The initial two examples retain the user-approved values
 `retrievalEligible: true` and `evaluationHoldout: false`. Begin allocating
 holdout families once there are enough independent examples for a meaningful
-evaluation set. The 16 newly imported families use the `development`
+evaluation set. The 18 sentence-backed imported families use the `development`
 partition with `reviewPolicy: "guidance"`, `retrievalEligible: false`, and
 `evaluationHoldout: false`.
 
@@ -134,11 +159,16 @@ Therefore corpus lookup:
 - does not place raw student sentences in a corpus-query log; and
 - avoids reintroducing the earlier Supabase latency problem.
 
-An exact approved sentence uses the teacher correction without an AI call,
-after the existing generic safety materializer verifies it. A non-exact
-sentence may receive at most a few structurally relevant examples as guidance;
-those examples are never treated as its answer, and the AI must analyse the
-new sentence independently.
+An exact retrieval-approved sentence uses the teacher correction without a
+remote call, after the existing generic safety materializer verifies it. In
+the browser, every approved non-holdout issue mapping can also run as a
+deterministic matcher, but short or ambiguous text is guarded by two or three
+lexical anchors and approved exceptions. Exact known sources are priority
+locked to their teacher-reviewed issue set. A separate typed local parser
+generalises reusable structures such as subject–verb agreement and verb
+complements to unseen names and vocabulary. Non-exact remote checks may receive
+at most a few structurally relevant examples as guidance; those examples are
+never treated as the student's answer.
 
 ## Approval boundary
 

@@ -1,0 +1,3583 @@
+{
+  "schemaName": "edmund_executable_grammar_authoring",
+  "schemaVersion": "2.1.0-runtime",
+  "corpusVersion": "2026-08-02.19-22.1",
+  "status": "approved_for_bounded_surface_runtime",
+  "generatedAt": "2026-08-02T12:00:00.000Z",
+  "set": {
+    "setId": "SET-0022",
+    "paragraphId": "PARA-0022",
+    "title": "Television and Evening Routines",
+    "topicCategory": "General English / daily-routine narrative",
+    "studentLevel": "A2–B1",
+    "dialect": "British English",
+    "setType": "teacher-authored executable-authoring workbook",
+    "partition": "development",
+    "incorrectWordCount": 108,
+    "correctedWordCount": 107,
+    "sentenceCount": 9,
+    "sourceIssueCount": 11,
+    "intendedMeaning": "Mary's television-viewing routine and a short interruption to it.",
+    "protectedContent": "Mary; television; TV; one hour; eleven o'clock",
+    "provenance": "Teacher-supplied SET-0022 executable authoring workbook",
+    "privacyStatus": "clear",
+    "retrievalEligible": false,
+    "evaluationHoldout": false,
+    "approvalStatus": "draft",
+    "reviewer": "Edmund Sir — pending",
+    "sopVersion": "1.0",
+    "sourceReviewStatus": "draft",
+    "teacherApproval": "pending",
+    "runtimeApprovalStatus": "approved_for_bounded_surface_runtime"
+  },
+  "compilerContract": {
+    "pipeline": [
+      "tokenize_and_morphologically_analyse",
+      "dependency_parse",
+      "link_lexeme_frames_and_countability_senses",
+      "assign_semantic_roles",
+      "resolve_coreference_and_discourse_status",
+      "run_structural_matchers",
+      "run_lexical_frame_matchers",
+      "run_semantic_and_style_matchers",
+      "apply_guards_and_policy_gate",
+      "merge_atomic_edits_by_conflict_group",
+      "inflect_generated_tokens",
+      "verify_reparse_and_protected_content"
+    ],
+    "policy_gate": {
+      "local_auto": {
+        "may_mutate": true,
+        "requires_confidence_at_least": 0.99
+      },
+      "local_review": {
+        "may_mutate": false,
+        "return_candidates": true
+      },
+      "remote_review": {
+        "may_mutate": false,
+        "requires_context_model": true
+      },
+      "guidance_only": {
+        "may_mutate": false,
+        "mark_as_error": false
+      }
+    },
+    "conflict_resolution": [
+      "Prefer a longer construction-specific match over an overlapping generic match.",
+      "Compose non-overlapping atomic edits belonging to the same issue.",
+      "If candidate repairs alter protected quantities or process order, suppress them.",
+      "Reparse each candidate; reject repairs that create a new high-confidence finding."
+    ]
+  },
+  "matcherDsl": {
+    "token_features": [
+      "text",
+      "lemma",
+      "upos",
+      "morph",
+      "is_measure",
+      "is_clause_boundary"
+    ],
+    "dependency_features": [
+      "head",
+      "deprel",
+      "subject",
+      "object",
+      "complement",
+      "relative_antecedent"
+    ],
+    "semantic_features": [
+      "SOURCE",
+      "DESTINATION",
+      "PATH",
+      "CONTACT_SURFACE",
+      "CONTAINER_INTERIOR",
+      "SUBSTANCE",
+      "INFORMATION",
+      "DURATION",
+      "EVENT",
+      "PATIENT",
+      "AGENT",
+      "PROCESS_STAGE"
+    ],
+    "discourse_features": [
+      "coreference_chain",
+      "number",
+      "givenness",
+      "previously_mentioned",
+      "intended_endpoint_reached"
+    ],
+    "operations": [
+      "delete",
+      "insert",
+      "replace",
+      "inflect",
+      "reorder",
+      "rewrite_span",
+      "hyphenate",
+      "emit_guidance"
+    ]
+  },
+  "releaseRequirements": {
+    "per_family_minimum": {
+      "varied_incorrect_examples": 4,
+      "correct_controls_and_minimal_pairs": 8,
+      "ambiguity_or_exception_cases": 2,
+      "sealed_unseen_lexeme_holdouts": 2,
+      "collision_tests": 1
+    },
+    "promotion_rules": [
+      "No parser-general family may be promoted solely on SET-0022 evidence; only separately approved bounded surface patterns are executable.",
+      "local_auto requires zero false positives on approved controls and at least 0.99 precision on sealed evaluation data.",
+      "Semantic and coreference families remain review-only even when their candidate repair matches the source target.",
+      "Style families must not contribute to grammatical-error counts.",
+      "Holdouts must contain vocabulary absent from the development examples and must stay partition-separated."
+    ]
+  },
+  "counts": {
+    "sentences": 9,
+    "sourceIssues": 11,
+    "sourceRuleIds": 6,
+    "ruleFamilies": 6,
+    "matchers": 12,
+    "lexemeFrames": 2,
+    "atomicIssueBindings": 11,
+    "sourceControls": 9,
+    "testCases": 30,
+    "sourceTestCases": 18,
+    "runtimeEvidenceCases": 12,
+    "runtimeSurfacePatterns": 12,
+    "activeRuntimeSurfacePatterns": 12,
+    "inactiveRuntimeSurfacePatterns": 0,
+    "localAutoRuntimePatterns": 10,
+    "localReviewRuntimePatterns": 2
+  },
+  "passages": {
+    "incorrect": "Mary is a primary school student who enjoy watching television. After dinner, she usually finishes her homework and then watches TV show at the night. Her favourite programmes is cartoons because they makes her laugh. Sometimes her younger brother sit beside her, but he does not always understand the story. Their parents allow them to watch television for one hour. Yesterday, they was watching a new comedy when the electricity suddenly stopped. Mary was disappointed because she did not saw the ending. Her father told them to read a book, but the children was not interested. Later, Mary watched two episode and went to bed in eleven o'clock.",
+    "fullyMinimallyCorrected": "Mary is a primary school student who enjoys watching television. After dinner, she usually finishes her homework and then watches TV shows at night. Her favourite programmes are cartoons because they make her laugh. Sometimes her younger brother sits beside her, but he does not always understand the story. Their parents allow them to watch television for one hour. Yesterday, they were watching a new comedy when the electricity suddenly stopped. Mary was disappointed because she did not see the ending. Her father told them to read a book, but the children were not interested. Later, Mary watched two episodes and went to bed at eleven o'clock."
+  },
+  "sentences": [
+    {
+      "sentenceId": "PARA-0022-S01",
+      "order": 1,
+      "paragraphId": "PARA-0022",
+      "incorrectSentence": "Mary is a primary school student who enjoy watching television.",
+      "correctedSentence": "Mary is a primary school student who enjoys watching television.",
+      "sourceIssueIds": [
+        "PARA-0022-S01-I01"
+      ],
+      "sourceIssueCount": 1,
+      "partition": "development",
+      "reviewPolicy": "guidance",
+      "status": "draft",
+      "sourceAvailability": "supplied_sentence_pair",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "sentenceId": "PARA-0022-S02",
+      "order": 2,
+      "paragraphId": "PARA-0022",
+      "incorrectSentence": "After dinner, she usually finishes her homework and then watches TV show at the night.",
+      "correctedSentence": "After dinner, she usually finishes her homework and then watches TV shows at night.",
+      "sourceIssueIds": [
+        "PARA-0022-S02-I01",
+        "PARA-0022-S02-I02"
+      ],
+      "sourceIssueCount": 2,
+      "partition": "development",
+      "reviewPolicy": "guidance",
+      "status": "draft",
+      "sourceAvailability": "supplied_sentence_pair",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "sentenceId": "PARA-0022-S03",
+      "order": 3,
+      "paragraphId": "PARA-0022",
+      "incorrectSentence": "Her favourite programmes is cartoons because they makes her laugh.",
+      "correctedSentence": "Her favourite programmes are cartoons because they make her laugh.",
+      "sourceIssueIds": [
+        "PARA-0022-S03-I01",
+        "PARA-0022-S03-I02"
+      ],
+      "sourceIssueCount": 2,
+      "partition": "development",
+      "reviewPolicy": "guidance",
+      "status": "draft",
+      "sourceAvailability": "supplied_sentence_pair",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "sentenceId": "PARA-0022-S04",
+      "order": 4,
+      "paragraphId": "PARA-0022",
+      "incorrectSentence": "Sometimes her younger brother sit beside her, but he does not always understand the story.",
+      "correctedSentence": "Sometimes her younger brother sits beside her, but he does not always understand the story.",
+      "sourceIssueIds": [
+        "PARA-0022-S04-I01"
+      ],
+      "sourceIssueCount": 1,
+      "partition": "development",
+      "reviewPolicy": "guidance",
+      "status": "draft",
+      "sourceAvailability": "supplied_sentence_pair",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "sentenceId": "PARA-0022-S05",
+      "order": 5,
+      "paragraphId": "PARA-0022",
+      "incorrectSentence": "Their parents allow them to watch television for one hour.",
+      "correctedSentence": "Their parents allow them to watch television for one hour.",
+      "sourceIssueIds": [],
+      "sourceIssueCount": 0,
+      "partition": "development",
+      "reviewPolicy": "guidance",
+      "status": "draft",
+      "sourceAvailability": "supplied_sentence_pair",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "sentenceId": "PARA-0022-S06",
+      "order": 6,
+      "paragraphId": "PARA-0022",
+      "incorrectSentence": "Yesterday, they was watching a new comedy when the electricity suddenly stopped.",
+      "correctedSentence": "Yesterday, they were watching a new comedy when the electricity suddenly stopped.",
+      "sourceIssueIds": [
+        "PARA-0022-S06-I01"
+      ],
+      "sourceIssueCount": 1,
+      "partition": "development",
+      "reviewPolicy": "guidance",
+      "status": "draft",
+      "sourceAvailability": "supplied_sentence_pair",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "sentenceId": "PARA-0022-S07",
+      "order": 7,
+      "paragraphId": "PARA-0022",
+      "incorrectSentence": "Mary was disappointed because she did not saw the ending.",
+      "correctedSentence": "Mary was disappointed because she did not see the ending.",
+      "sourceIssueIds": [
+        "PARA-0022-S07-I01"
+      ],
+      "sourceIssueCount": 1,
+      "partition": "development",
+      "reviewPolicy": "guidance",
+      "status": "draft",
+      "sourceAvailability": "supplied_sentence_pair",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "sentenceId": "PARA-0022-S08",
+      "order": 8,
+      "paragraphId": "PARA-0022",
+      "incorrectSentence": "Her father told them to read a book, but the children was not interested.",
+      "correctedSentence": "Her father told them to read a book, but the children were not interested.",
+      "sourceIssueIds": [
+        "PARA-0022-S08-I01"
+      ],
+      "sourceIssueCount": 1,
+      "partition": "development",
+      "reviewPolicy": "guidance",
+      "status": "draft",
+      "sourceAvailability": "supplied_sentence_pair",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "sentenceId": "PARA-0022-S09",
+      "order": 9,
+      "paragraphId": "PARA-0022",
+      "incorrectSentence": "Later, Mary watched two episode and went to bed in eleven o'clock.",
+      "correctedSentence": "Later, Mary watched two episodes and went to bed at eleven o'clock.",
+      "sourceIssueIds": [
+        "PARA-0022-S09-I01",
+        "PARA-0022-S09-I02"
+      ],
+      "sourceIssueCount": 2,
+      "partition": "development",
+      "reviewPolicy": "guidance",
+      "status": "draft",
+      "sourceAvailability": "supplied_sentence_pair",
+      "sourceReviewStatus": "draft"
+    }
+  ],
+  "sourceIssues": [
+    {
+      "issueId": "PARA-0022-S01-I01",
+      "sentenceId": "PARA-0022-S01",
+      "order": 1,
+      "sentenceIssueOrder": 1,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "who enjoy",
+      "replacementLabel": "who enjoys",
+      "sourceRuleId": "SUBJECT.VERB.NUMBER.AGREEMENT.v1",
+      "sourceRuleAlias": "SUBJECT_VERB_NUMBER_AGREEMENT_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "關係代名詞 who 指向單數的 student，因此現在式動詞要用第三人稱單數 enjoys。",
+      "familyIds": [
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+      ],
+      "primaryFamilyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "literal_source_evidence",
+      "sourceNotes": [],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    },
+    {
+      "issueId": "PARA-0022-S02-I01",
+      "sentenceId": "PARA-0022-S02",
+      "order": 2,
+      "sentenceIssueOrder": 1,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "watches TV show",
+      "replacementLabel": "watches TV shows",
+      "sourceRuleId": "NOUN.COUNT.SINGULAR.ARGUMENT.REQUIRES_DETERMINATION.v1",
+      "sourceRuleAlias": "NOUN_COUNT_SINGULAR_ARGUMENT_REQUIRES_DETERMINATION_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "show 是可數名詞單數，作動詞受詞時不能在沒有冠詞、所有格、數詞或其他限定語的情況下單獨使用。此句的 usually 表示習慣，所以教師版本採用 TV shows；若意思是每晚看一個未指明的節目，a TV show 亦正確。",
+      "familyIds": [
+        "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT"
+      ],
+      "primaryFamilyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "classification": "structural",
+      "executionPolicy": "local_review",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "alternative_repair_not_materialised_in_target",
+      "sourceNotes": [
+        "教師目標答案為複數，但不定冠詞單數亦可；執行時只提示覆核，不自動改寫。"
+      ],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    },
+    {
+      "issueId": "PARA-0022-S02-I02",
+      "sentenceId": "PARA-0022-S02",
+      "order": 3,
+      "sentenceIssueOrder": 2,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "at the night",
+      "replacementLabel": "at night",
+      "sourceRuleId": "TIME.AT_NIGHT.NO_DEFINITE_ARTICLE.v1",
+      "sourceRuleAlias": "TIME_AT_NIGHT_NO_DEFINITE_ARTICLE_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "表示「在夜間」的固定時間副詞片語是 at night，不用定冠詞。只有當 night 屬於較大的名詞片語時才可保留 the，例如 stared at the night sky。",
+      "familyIds": [
+        "GF_AT_NIGHT_TEMPORAL_EXPRESSION"
+      ],
+      "primaryFamilyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "classification": "lexical_frame",
+      "executionPolicy": "local_auto",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "literal_source_evidence",
+      "sourceNotes": [],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    },
+    {
+      "issueId": "PARA-0022-S03-I01",
+      "sentenceId": "PARA-0022-S03",
+      "order": 4,
+      "sentenceIssueOrder": 1,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "programmes is",
+      "replacementLabel": "programmes are",
+      "sourceRuleId": "SUBJECT.VERB.NUMBER.AGREEMENT.v1",
+      "sourceRuleAlias": "SUBJECT_VERB_NUMBER_AGREEMENT_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "主語 programmes 是複數，因此連綴動詞 be 要用 are。",
+      "familyIds": [
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+      ],
+      "primaryFamilyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "literal_source_evidence",
+      "sourceNotes": [],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    },
+    {
+      "issueId": "PARA-0022-S03-I02",
+      "sentenceId": "PARA-0022-S03",
+      "order": 5,
+      "sentenceIssueOrder": 2,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "they makes",
+      "replacementLabel": "they make",
+      "sourceRuleId": "SUBJECT.VERB.NUMBER.AGREEMENT.v1",
+      "sourceRuleAlias": "SUBJECT_VERB_NUMBER_AGREEMENT_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "主語 they 是複數，所以一般現在式動詞使用原形 make，不加 -s。",
+      "familyIds": [
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+      ],
+      "primaryFamilyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "literal_source_evidence",
+      "sourceNotes": [],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    },
+    {
+      "issueId": "PARA-0022-S04-I01",
+      "sentenceId": "PARA-0022-S04",
+      "order": 6,
+      "sentenceIssueOrder": 1,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "brother sit",
+      "replacementLabel": "brother sits",
+      "sourceRuleId": "SUBJECT.VERB.NUMBER.AGREEMENT.v1",
+      "sourceRuleAlias": "SUBJECT_VERB_NUMBER_AGREEMENT_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "主語 her younger brother 是第三人稱單數，因此一般現在式動詞要用 sits。",
+      "familyIds": [
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+      ],
+      "primaryFamilyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "literal_source_evidence",
+      "sourceNotes": [],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    },
+    {
+      "issueId": "PARA-0022-S06-I01",
+      "sentenceId": "PARA-0022-S06",
+      "order": 7,
+      "sentenceIssueOrder": 1,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "they was",
+      "replacementLabel": "they were",
+      "sourceRuleId": "SUBJECT.VERB.NUMBER.AGREEMENT.v1",
+      "sourceRuleAlias": "SUBJECT_VERB_NUMBER_AGREEMENT_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "複數代名詞 they 在過去進行式中要配合 were，不用 was。",
+      "familyIds": [
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+      ],
+      "primaryFamilyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "literal_source_evidence",
+      "sourceNotes": [],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    },
+    {
+      "issueId": "PARA-0022-S07-I01",
+      "sentenceId": "PARA-0022-S07",
+      "order": 8,
+      "sentenceIssueOrder": 1,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "did not saw",
+      "replacementLabel": "did not see",
+      "sourceRuleId": "VERB.DO_SUPPORT.REQUIRES_BASE_FORM.v1",
+      "sourceRuleAlias": "VERB_DO_SUPPORT_REQUIRES_BASE_FORM_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "過去式已由助動詞 did 表示，後面的實義動詞必須回復原形 see，不能再用過去式 saw。",
+      "familyIds": [
+        "GF_DO_SUPPORT_BASE_VERB"
+      ],
+      "primaryFamilyId": "GF_DO_SUPPORT_BASE_VERB",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "literal_source_evidence",
+      "sourceNotes": [],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    },
+    {
+      "issueId": "PARA-0022-S08-I01",
+      "sentenceId": "PARA-0022-S08",
+      "order": 9,
+      "sentenceIssueOrder": 1,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "children was",
+      "replacementLabel": "children were",
+      "sourceRuleId": "SUBJECT.VERB.NUMBER.AGREEMENT.v1",
+      "sourceRuleAlias": "SUBJECT_VERB_NUMBER_AGREEMENT_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "children 是 child 的複數形式，因此過去式 be 要用 were。",
+      "familyIds": [
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+      ],
+      "primaryFamilyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "literal_source_evidence",
+      "sourceNotes": [],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    },
+    {
+      "issueId": "PARA-0022-S09-I01",
+      "sentenceId": "PARA-0022-S09",
+      "order": 10,
+      "sentenceIssueOrder": 1,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "two episode",
+      "replacementLabel": "two episodes",
+      "sourceRuleId": "NOUN.NUMERAL.COUNT.REQUIRES_PLURAL.v1",
+      "sourceRuleAlias": "NOUN_NUMERAL_COUNT_REQUIRES_PLURAL_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "可數名詞在大於一的數詞後通常要用複數，因此是 two episodes。",
+      "familyIds": [
+        "GF_NUMERAL_COUNT_NOUN_PLURAL"
+      ],
+      "primaryFamilyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "literal_source_evidence",
+      "sourceNotes": [],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    },
+    {
+      "issueId": "PARA-0022-S09-I02",
+      "sentenceId": "PARA-0022-S09",
+      "order": 11,
+      "sentenceIssueOrder": 2,
+      "pedagogicalBand": "beginner_to_lower_intermediate",
+      "wrongLabel": "in eleven o'clock",
+      "replacementLabel": "at eleven o'clock",
+      "sourceRuleId": "TIME.CLOCK.PREPOSITION.AT.v1",
+      "sourceRuleAlias": "TIME_CLOCK_PREPOSITION_AT_v1",
+      "sourceRuleVersion": 1,
+      "explanationZhHantHk": "指出精確鐘點時使用介詞 at，例如 at eleven o'clock；in 通常用於月份、年份、較長時段或表示多久之後。",
+      "familyIds": [
+        "GF_CLOCK_TIME_PREPOSITION_AT"
+      ],
+      "primaryFamilyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "classification": "lexical_frame",
+      "executionPolicy": "local_auto",
+      "literalWrongSpan": true,
+      "literalReplacementSpan": true,
+      "compilerEvidenceStatus": "literal_source_evidence",
+      "sourceNotes": [],
+      "status": "draft",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending"
+    }
+  ],
+  "sourceRuleAliases": [
+    {
+      "sourceRuleId": "SUBJECT.VERB.NUMBER.AGREEMENT.v1",
+      "sourceRuleAlias": "SUBJECT_VERB_NUMBER_AGREEMENT_v1",
+      "sourceRuleVersion": 1
+    },
+    {
+      "sourceRuleId": "NOUN.COUNT.SINGULAR.ARGUMENT.REQUIRES_DETERMINATION.v1",
+      "sourceRuleAlias": "NOUN_COUNT_SINGULAR_ARGUMENT_REQUIRES_DETERMINATION_v1",
+      "sourceRuleVersion": 1
+    },
+    {
+      "sourceRuleId": "TIME.AT_NIGHT.NO_DEFINITE_ARTICLE.v1",
+      "sourceRuleAlias": "TIME_AT_NIGHT_NO_DEFINITE_ARTICLE_v1",
+      "sourceRuleVersion": 1
+    },
+    {
+      "sourceRuleId": "VERB.DO_SUPPORT.REQUIRES_BASE_FORM.v1",
+      "sourceRuleAlias": "VERB_DO_SUPPORT_REQUIRES_BASE_FORM_v1",
+      "sourceRuleVersion": 1
+    },
+    {
+      "sourceRuleId": "NOUN.NUMERAL.COUNT.REQUIRES_PLURAL.v1",
+      "sourceRuleAlias": "NOUN_NUMERAL_COUNT_REQUIRES_PLURAL_v1",
+      "sourceRuleVersion": 1
+    },
+    {
+      "sourceRuleId": "TIME.CLOCK.PREPOSITION.AT.v1",
+      "sourceRuleAlias": "TIME_CLOCK_PREPOSITION_AT_v1",
+      "sourceRuleVersion": 1
+    }
+  ],
+  "ruleFamilies": [
+    {
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "name": "Finite verb agrees with its syntactic subject",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "version": 1,
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceRuleIds": [
+        "SUBJECT.VERB.NUMBER.AGREEMENT.v1"
+      ],
+      "sourceIssueIds": [
+        "PARA-0022-S01-I01",
+        "PARA-0022-S03-I01",
+        "PARA-0022-S03-I02",
+        "PARA-0022-S04-I01",
+        "PARA-0022-S06-I01",
+        "PARA-0022-S08-I01"
+      ],
+      "matcherIds": [
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT_M01",
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01"
+      ],
+      "teacherApproval": "pending",
+      "nameZhHant": "",
+      "grammarCategory": "subject_verb_agreement",
+      "explanationZhHant": "這個規則族處理「Finite verb agrees with its syntactic subject」所描述的文法結構；執行時必須同時符合已核准的比對條件與保護條件。",
+      "sourceReviewStatus": "draft",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    },
+    {
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "name": "Determination or plural marking for a bare singular count-noun argument",
+      "classification": "structural",
+      "executionPolicy": "local_review",
+      "version": 1,
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceRuleIds": [
+        "NOUN.COUNT.SINGULAR.ARGUMENT.REQUIRES_DETERMINATION.v1"
+      ],
+      "sourceIssueIds": [
+        "PARA-0022-S02-I01"
+      ],
+      "matcherIds": [
+        "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT_M01",
+        "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT_SM01"
+      ],
+      "teacherApproval": "pending",
+      "nameZhHant": "裸用單數可數名詞須加限定語或改為複數",
+      "grammarCategory": "countability",
+      "explanationZhHant": "單數可數名詞作論元時，通常需要冠詞、所有格、數詞或其他限定語；若語意是一般或重複多個事物，可改用複數。當兩種讀法都成立時，只提示覆核並保留候選答案。",
+      "sourceReviewStatus": "draft",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    },
+    {
+      "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "name": "Zero article in the fixed temporal expression at night",
+      "classification": "lexical_frame",
+      "executionPolicy": "local_auto",
+      "version": 1,
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceRuleIds": [
+        "TIME.AT_NIGHT.NO_DEFINITE_ARTICLE.v1"
+      ],
+      "sourceIssueIds": [
+        "PARA-0022-S02-I02"
+      ],
+      "matcherIds": [
+        "GF_AT_NIGHT_TEMPORAL_EXPRESSION_M01",
+        "GF_AT_NIGHT_TEMPORAL_EXPRESSION_SM01"
+      ],
+      "teacherApproval": "pending",
+      "nameZhHant": "固定時間片語 at night 不用定冠詞",
+      "grammarCategory": "article_or_determiner",
+      "explanationZhHant": "表示一般「在夜間」時使用固定片語 at night；只有 night 屬於帶修飾語的名詞片語或具指涉、標題等讀法時才保留 the。",
+      "sourceReviewStatus": "draft",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    },
+    {
+      "familyId": "GF_DO_SUPPORT_BASE_VERB",
+      "name": "Base-form lexical verb after finite do-support",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "version": 1,
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceRuleIds": [
+        "VERB.DO_SUPPORT.REQUIRES_BASE_FORM.v1"
+      ],
+      "sourceIssueIds": [
+        "PARA-0022-S07-I01"
+      ],
+      "matcherIds": [
+        "GF_DO_SUPPORT_BASE_VERB_M01",
+        "GF_DO_SUPPORT_BASE_VERB_SM01"
+      ],
+      "teacherApproval": "pending",
+      "nameZhHant": "do 助動詞後使用動詞原形",
+      "grammarCategory": "verb_form_or_tense",
+      "explanationZhHant": "do、does 或 did 已承擔時態及人稱屈折，後面的實義動詞必須使用原形。",
+      "sourceReviewStatus": "draft",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    },
+    {
+      "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "name": "Plural count noun after a numeral greater than one",
+      "classification": "structural",
+      "executionPolicy": "local_auto",
+      "version": 1,
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceRuleIds": [
+        "NOUN.NUMERAL.COUNT.REQUIRES_PLURAL.v1"
+      ],
+      "sourceIssueIds": [
+        "PARA-0022-S09-I01"
+      ],
+      "matcherIds": [
+        "GF_NUMERAL_COUNT_NOUN_PLURAL_M01",
+        "GF_NUMERAL_COUNT_NOUN_PLURAL_SM01"
+      ],
+      "teacherApproval": "pending",
+      "nameZhHant": "大於一的數詞後使用可數名詞複數",
+      "grammarCategory": "singular_plural",
+      "explanationZhHant": "當數詞表示大於一的完整個體，後面的可數名詞通常使用複數；複合修飾語、零複數及單位符號須另作保護。",
+      "sourceReviewStatus": "draft",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    },
+    {
+      "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "name": "At introduces a precise clock time",
+      "classification": "lexical_frame",
+      "executionPolicy": "local_auto",
+      "version": 1,
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceRuleIds": [
+        "TIME.CLOCK.PREPOSITION.AT.v1"
+      ],
+      "sourceIssueIds": [
+        "PARA-0022-S09-I02"
+      ],
+      "matcherIds": [
+        "GF_CLOCK_TIME_PREPOSITION_AT_M01",
+        "GF_CLOCK_TIME_PREPOSITION_AT_SM01"
+      ],
+      "teacherApproval": "pending",
+      "nameZhHant": "精確鐘點前使用 at",
+      "grammarCategory": "preposition",
+      "explanationZhHant": "精確鐘點通常由 at 引入，例如 at eleven o'clock；若介詞屬於其他詞彙配價、標題或時限結構，則不可直接套用。",
+      "sourceReviewStatus": "draft",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    }
+  ],
+  "matchers": [
+    {
+      "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_M01",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "matcherType": "dependency_morphology",
+      "match": {
+        "type": "dependency_morphology",
+        "variants": [
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V01",
+            "source_rule_id": "PARALLEL.LINE_NAMES.PLURAL_AGREEMENT.v1",
+            "pattern_ast": [
+              {
+                "capture": "slot_1"
+              },
+              {
+                "capture": "slot_2"
+              }
+            ],
+            "captures": [
+              {
+                "name": "slot_1",
+                "lemma_or_value": "line",
+                "source_example": "line",
+                "type": "LEXEME_CLASS"
+              },
+              {
+                "name": "slot_2",
+                "lemma_or_value": "follow",
+                "source_example": "follows",
+                "type": "LEXEME_CLASS"
+              }
+            ],
+            "generalization": "Literals define the grammatical frame; captured slots accept new lexemes of the declared type after morphological and semantic checks."
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V02",
+            "source_rule_id": "SVA.CATEGORY_LABEL.PLURAL_HOURS.WERE.v1",
+            "pattern_ast": [
+              {
+                "capture": "slot_1"
+              },
+              {
+                "capture": "slot_2"
+              },
+              {
+                "literal": "was"
+              },
+              {
+                "capture": "slot_3"
+              }
+            ],
+            "captures": [
+              {
+                "name": "slot_1",
+                "lemma_or_value": "flexible",
+                "source_example": "Flexible",
+                "type": "LEXEME_CLASS"
+              },
+              {
+                "name": "slot_2",
+                "lemma_or_value": "hour",
+                "source_example": "hours",
+                "type": "LEXEME_CLASS"
+              },
+              {
+                "name": "slot_3",
+                "lemma_or_value": "chosen",
+                "source_example": "chosen",
+                "type": "LEXEME_CLASS"
+              }
+            ],
+            "generalization": "Literals define the grammatical frame; captured slots accept new lexemes of the declared type after morphological and semantic checks."
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V03",
+            "source_rule_id": "SVA.SINGULAR_DIFFERENCE.WAS.v1",
+            "pattern_ast": [
+              {
+                "capture": "slot_1"
+              },
+              {
+                "literal": "..."
+              },
+              {
+                "literal": "were"
+              },
+              {
+                "capture": "slot_2"
+              }
+            ],
+            "captures": [
+              {
+                "name": "slot_1",
+                "lemma_or_value": "difference",
+                "source_example": "difference",
+                "type": "LEXEME_CLASS"
+              },
+              {
+                "name": "slot_2",
+                "lemma_or_value": "40",
+                "source_example": "40",
+                "type": "MEASURE_OR_YEAR"
+              }
+            ],
+            "generalization": "Literals define the grammatical frame; captured slots accept new lexemes of the declared type after morphological and semantic checks."
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V04",
+            "source_rule_id": "SVA.THESE.PLURAL_FIGURES.WERE.v1",
+            "pattern_ast": [
+              {
+                "literal": "was"
+              }
+            ],
+            "captures": [],
+            "generalization": "Literals define the grammatical frame; captured slots accept new lexemes of the declared type after morphological and semantic checks."
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V05",
+            "source_rule_id": "SVA.THE_NUMBER_OF.SINGULAR.v1",
+            "pattern_ast": [
+              {
+                "literal": "were"
+              }
+            ],
+            "captures": [],
+            "generalization": "Literals define the grammatical frame; captured slots accept new lexemes of the declared type after morphological and semantic checks."
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V06",
+            "source_rule_id": "SVA.PLURAL_POSITIONS.ARE.v1",
+            "pattern_ast": [
+              {
+                "capture": "slot_1"
+              },
+              {
+                "literal": "..."
+              },
+              {
+                "literal": "is"
+              }
+            ],
+            "captures": [
+              {
+                "name": "slot_1",
+                "lemma_or_value": "position",
+                "source_example": "positions",
+                "type": "LEXEME_CLASS"
+              }
+            ],
+            "generalization": "Literals define the grammatical frame; captured slots accept new lexemes of the declared type after morphological and semantic checks."
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V07",
+            "source_rule_id": "SVA.SINGULAR_ORDER.FOR_GROUP.v1",
+            "pattern_ast": [
+              {
+                "literal": "are"
+              }
+            ],
+            "captures": [],
+            "generalization": "Literals define the grammatical frame; captured slots accept new lexemes of the declared type after morphological and semantic checks."
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V08",
+            "source_rule_id": "SVA.PLURAL_COMBINED_FIGURES.DO.v1",
+            "pattern_ast": [
+              {
+                "literal": "does"
+              }
+            ],
+            "captures": [],
+            "generalization": "Literals define the grammatical frame; captured slots accept new lexemes of the declared type after morphological and semantic checks."
+          }
+        ]
+      },
+      "guards": [
+        {
+          "exclude": {
+            "modal_or_mandative_subjunctive": true
+          }
+        },
+        {
+          "exclude": {
+            "coordinated_or_notional_agreement_exception": true
+          }
+        },
+        {
+          "require": {
+            "parse_confidence_at_least": 0.97
+          }
+        },
+        {
+          "exclude": {
+            "quoted_metalinguistic_or_protected_numeric_content": true
+          }
+        }
+      ],
+      "repair": {
+        "strategy": "captured_slot_template",
+        "variants": [
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V01",
+            "source_rule_id": "PARALLEL.LINE_NAMES.PLURAL_AGREEMENT.v1",
+            "operation": "rewrite_span",
+            "template_ast": [
+              {
+                "capture": "slot_1",
+                "realize_as": "lines"
+              },
+              {
+                "capture": "slot_2",
+                "realize_as": "follow"
+              }
+            ],
+            "preserve_captures": [
+              "slot_1",
+              "slot_2"
+            ]
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V02",
+            "source_rule_id": "SVA.CATEGORY_LABEL.PLURAL_HOURS.WERE.v1",
+            "operation": "rewrite_span",
+            "template_ast": [
+              {
+                "capture": "slot_1"
+              },
+              {
+                "capture": "slot_2"
+              },
+              {
+                "literal": "were"
+              },
+              {
+                "capture": "slot_3"
+              }
+            ],
+            "preserve_captures": [
+              "slot_1",
+              "slot_2",
+              "slot_3"
+            ]
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V03",
+            "source_rule_id": "SVA.SINGULAR_DIFFERENCE.WAS.v1",
+            "operation": "rewrite_span",
+            "template_ast": [
+              {
+                "capture": "slot_1"
+              },
+              {
+                "literal": "..."
+              },
+              {
+                "literal": "was"
+              },
+              {
+                "capture": "slot_2"
+              }
+            ],
+            "preserve_captures": [
+              "slot_1",
+              "slot_2"
+            ]
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V04",
+            "source_rule_id": "SVA.THESE.PLURAL_FIGURES.WERE.v1",
+            "operation": "rewrite_span",
+            "template_ast": [
+              {
+                "literal": "were"
+              }
+            ],
+            "preserve_captures": []
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V05",
+            "source_rule_id": "SVA.THE_NUMBER_OF.SINGULAR.v1",
+            "operation": "rewrite_span",
+            "template_ast": [
+              {
+                "literal": "was"
+              }
+            ],
+            "preserve_captures": []
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V06",
+            "source_rule_id": "SVA.PLURAL_POSITIONS.ARE.v1",
+            "operation": "rewrite_span",
+            "template_ast": [
+              {
+                "capture": "slot_1"
+              },
+              {
+                "literal": "..."
+              },
+              {
+                "literal": "are"
+              }
+            ],
+            "preserve_captures": [
+              "slot_1"
+            ]
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V07",
+            "source_rule_id": "SVA.SINGULAR_ORDER.FOR_GROUP.v1",
+            "operation": "rewrite_span",
+            "template_ast": [
+              {
+                "literal": "is"
+              }
+            ],
+            "preserve_captures": []
+          },
+          {
+            "variant_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT-V08",
+            "source_rule_id": "SVA.PLURAL_COMBINED_FIGURES.DO.v1",
+            "operation": "rewrite_span",
+            "template_ast": [
+              {
+                "literal": "do"
+              }
+            ],
+            "preserve_captures": []
+          }
+        ]
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "morphology",
+        "dependency_parse"
+      ],
+      "priority": 100,
+      "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "confidenceThreshold": 0.99,
+      "sourceRuleIds": [
+        "SVA.RELATIVE.SINGULAR_BATCH.REMAINS.v1",
+        "SVA.UNCOUNTABLE.WASTEWATER.SINGULAR.v1"
+      ],
+      "status": "design_complete_testing_required",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "matcherType": "surface_literal",
+      "match": {
+        "type": "surface_literal",
+        "source": "runtimeSurfacePatterns"
+      },
+      "guards": [],
+      "repair": {
+        "operation": "replace_from_runtime_pattern"
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "priority": 1000,
+      "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "confidenceThreshold": 0.99,
+      "sourceRuleIds": [
+        "SVA.RELATIVE.SINGULAR_BATCH.REMAINS.v1",
+        "SVA.UNCOUNTABLE.WASTEWATER.SINGULAR.v1"
+      ],
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    },
+    {
+      "matcherId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT_M01",
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "matcherType": "dependency_semantic_np",
+      "match": {
+        "type": "dependency_semantic_np",
+        "pattern": {
+          "head": {
+            "upos": "NOUN",
+            "morph.Number": "Sing",
+            "lexical_countability": "COUNT"
+          },
+          "determination": {
+            "determiner_present": false,
+            "possessive_present": false,
+            "numeral_present": false,
+            "quantifier_present": false
+          },
+          "syntactic_role_in": [
+            "nsubj",
+            "obj",
+            "iobj",
+            "obl",
+            "pobj"
+          ],
+          "compound_modifiers": "allowed"
+        }
+      },
+      "guards": [
+        {
+          "require": {
+            "head_is_np_head": true,
+            "count_sense_confidence_gte": 0.97
+          }
+        },
+        {
+          "exclude": {
+            "head_upos": "PROPN"
+          }
+        },
+        {
+          "exclude": {
+            "licensed_bare_singular_frame": true
+          }
+        },
+        {
+          "exclude": {
+            "institutional_or_transport_expression": true
+          }
+        },
+        {
+          "exclude": {
+            "predicative_role_or_title": true
+          }
+        },
+        {
+          "exclude": {
+            "headline_label_or_note_register": true
+          }
+        },
+        {
+          "exclude": {
+            "mass_or_count_sense_unresolved": true
+          }
+        },
+        {
+          "exclude": {
+            "coordination_or_reduplicative_idiom": true
+          }
+        }
+      ],
+      "repair": {
+        "operation": "emit_alternatives",
+        "target": "noun_phrase",
+        "candidates": [
+          {
+            "operation": "insert",
+            "position": "before_np",
+            "value_from": "indefinite_article_phonology",
+            "condition": "one_unspecified_referent"
+          },
+          {
+            "operation": "inflect",
+            "target": "head_noun",
+            "features": {
+              "Number": "Plur"
+            },
+            "condition": "generic_repeated_or_multiple_reference"
+          }
+        ],
+        "preserve_dependents": [
+          "compound",
+          "amod"
+        ]
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "morphology",
+        "dependency_parse",
+        "lexeme_frames",
+        "semantic_roles"
+      ],
+      "priority": 80,
+      "conflictGroup": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "confidenceThreshold": 0.97,
+      "sourceRuleIds": [
+        "NOUN.COUNT.SINGULAR.ARGUMENT.REQUIRES_DETERMINATION.v1"
+      ],
+      "status": "design_complete_testing_required",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "matcherId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT_SM01",
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "matcherType": "surface_literal",
+      "match": {
+        "type": "surface_literal",
+        "source": "runtimeSurfacePatterns"
+      },
+      "guards": [],
+      "repair": {
+        "operation": "replace_from_runtime_pattern"
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "priority": 1000,
+      "conflictGroup": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "confidenceThreshold": 0.97,
+      "sourceRuleIds": [
+        "NOUN.COUNT.SINGULAR.ARGUMENT.REQUIRES_DETERMINATION.v1"
+      ],
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    },
+    {
+      "matcherId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION_M01",
+      "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "matcherType": "dependency_semantic_frame",
+      "match": {
+        "type": "dependency_semantic_frame",
+        "pattern": {
+          "preposition": {
+            "lemma": "at",
+            "upos": "ADP"
+          },
+          "object_np": {
+            "head": {
+              "lemma": "night",
+              "upos": "NOUN",
+              "morph.Number": "Sing"
+            },
+            "determiner": {
+              "lemma": "the"
+            }
+          },
+          "pp_role": "TEMPORAL_ADJUNCT"
+        }
+      },
+      "guards": [
+        {
+          "require": {
+            "night_is_np_head": true,
+            "pp_is_temporal_adjunct": true
+          }
+        },
+        {
+          "require": {
+            "night_has_no_premodifier": true,
+            "night_has_no_postmodifier": true,
+            "night_has_no_coordination": true
+          }
+        },
+        {
+          "exclude": {
+            "governor_selects_at_complement": true
+          }
+        },
+        {
+          "exclude": {
+            "night_is_compound_modifier": true
+          }
+        },
+        {
+          "exclude": {
+            "quoted_title_or_proper_name": true
+          }
+        },
+        {
+          "exclude": {
+            "referential_or_poetic_night_reading": true
+          }
+        }
+      ],
+      "repair": {
+        "operation": "delete",
+        "target": {
+          "lemma": "the",
+          "relation": "determiner_of_night"
+        }
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "morphology",
+        "dependency_parse",
+        "semantic_roles",
+        "lexeme_frames"
+      ],
+      "priority": 100,
+      "conflictGroup": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "confidenceThreshold": 0.99,
+      "sourceRuleIds": [
+        "TIME.AT_NIGHT.NO_DEFINITE_ARTICLE.v1"
+      ],
+      "status": "design_complete_testing_required",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "matcherId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION_SM01",
+      "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "matcherType": "surface_literal",
+      "match": {
+        "type": "surface_literal",
+        "source": "runtimeSurfacePatterns"
+      },
+      "guards": [],
+      "repair": {
+        "operation": "replace_from_runtime_pattern"
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "priority": 1000,
+      "conflictGroup": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "confidenceThreshold": 0.99,
+      "sourceRuleIds": [
+        "TIME.AT_NIGHT.NO_DEFINITE_ARTICLE.v1"
+      ],
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    },
+    {
+      "matcherId": "GF_DO_SUPPORT_BASE_VERB_M01",
+      "familyId": "GF_DO_SUPPORT_BASE_VERB",
+      "matcherType": "dependency_morphology",
+      "match": {
+        "type": "dependency_morphology",
+        "pattern": {
+          "auxiliary": {
+            "lemma": "do",
+            "finite": true
+          },
+          "lexical_verb": {
+            "upos": "VERB",
+            "surface_is_inflected_nonbase": true
+          },
+          "auxiliary_governs_lexical_verb": true
+        }
+      },
+      "guards": [
+        {
+          "require": {
+            "do_is_auxiliary_not_lexical": true
+          }
+        },
+        {
+          "exclude": {
+            "lexical_verb_is_quoted_or_metalinguistic": true
+          }
+        },
+        {
+          "exclude": {
+            "tokenisation_or_tagging_confidence_below": 0.98
+          }
+        }
+      ],
+      "repair": {
+        "operation": "inflect",
+        "target": "lexical_verb",
+        "features": {
+          "VerbForm": "Inf",
+          "Tense": null,
+          "Person": null,
+          "Number": null
+        }
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "morphology",
+        "dependency_parse"
+      ],
+      "priority": 100,
+      "conflictGroup": "GF_DO_SUPPORT_BASE_VERB",
+      "confidenceThreshold": 0.99,
+      "sourceRuleIds": [
+        "VERB.DO_SUPPORT.REQUIRES_BASE_FORM.v1"
+      ],
+      "status": "design_complete_testing_required",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "matcherId": "GF_DO_SUPPORT_BASE_VERB_SM01",
+      "familyId": "GF_DO_SUPPORT_BASE_VERB",
+      "matcherType": "surface_literal",
+      "match": {
+        "type": "surface_literal",
+        "source": "runtimeSurfacePatterns"
+      },
+      "guards": [],
+      "repair": {
+        "operation": "replace_from_runtime_pattern"
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "priority": 1000,
+      "conflictGroup": "GF_DO_SUPPORT_BASE_VERB",
+      "confidenceThreshold": 0.99,
+      "sourceRuleIds": [
+        "VERB.DO_SUPPORT.REQUIRES_BASE_FORM.v1"
+      ],
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    },
+    {
+      "matcherId": "GF_NUMERAL_COUNT_NOUN_PLURAL_M01",
+      "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "matcherType": "dependency_morphology",
+      "match": {
+        "type": "dependency_morphology",
+        "pattern": {
+          "numeral": {
+            "deprel": "nummod",
+            "numeric_value": {
+              "greater_than": 1
+            }
+          },
+          "head_noun": {
+            "upos": "NOUN",
+            "morph.Number": "Sing",
+            "lexical_countability": "COUNT"
+          },
+          "noun_is_head_of_number_phrase": true
+        }
+      },
+      "guards": [
+        {
+          "exclude": {
+            "attributive_compound_scope": true
+          }
+        },
+        {
+          "exclude": {
+            "invariant_or_zero_plural_lexeme": true
+          }
+        },
+        {
+          "exclude": {
+            "unit_symbol_or_abbreviation": true
+          }
+        },
+        {
+          "exclude": {
+            "fractional_or_distributive_reading": true
+          }
+        },
+        {
+          "require": {
+            "count_sense_confidence_gte": 0.98
+          }
+        }
+      ],
+      "repair": {
+        "operation": "inflect",
+        "target": "head_noun",
+        "features": {
+          "Number": "Plur"
+        }
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "morphology",
+        "dependency_parse",
+        "lexeme_frames"
+      ],
+      "priority": 100,
+      "conflictGroup": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "confidenceThreshold": 0.99,
+      "sourceRuleIds": [
+        "NOUN.NUMERAL.COUNT.REQUIRES_PLURAL.v1"
+      ],
+      "status": "design_complete_testing_required",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "matcherId": "GF_NUMERAL_COUNT_NOUN_PLURAL_SM01",
+      "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "matcherType": "surface_literal",
+      "match": {
+        "type": "surface_literal",
+        "source": "runtimeSurfacePatterns"
+      },
+      "guards": [],
+      "repair": {
+        "operation": "replace_from_runtime_pattern"
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "priority": 1000,
+      "conflictGroup": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "confidenceThreshold": 0.99,
+      "sourceRuleIds": [
+        "NOUN.NUMERAL.COUNT.REQUIRES_PLURAL.v1"
+      ],
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    },
+    {
+      "matcherId": "GF_CLOCK_TIME_PREPOSITION_AT_M01",
+      "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "matcherType": "temporal_expression",
+      "match": {
+        "type": "temporal_expression",
+        "pattern": {
+          "preposition": {
+            "lemma_in": [
+              "in",
+              "on"
+            ]
+          },
+          "complement": {
+            "semantic_type": "PRECISE_CLOCK_TIME",
+            "surface_pattern": "CLOCK_OR_OCLOCK"
+          }
+        }
+      },
+      "guards": [
+        {
+          "require": {
+            "preposition_heads_time_expression": true
+          }
+        },
+        {
+          "exclude": {
+            "time_expression_is_duration_or_deadline_window": true
+          }
+        },
+        {
+          "exclude": {
+            "quoted_title_or_named_event": true
+          }
+        },
+        {
+          "exclude": {
+            "preposition_belongs_to_governing_lexeme": true
+          }
+        }
+      ],
+      "repair": {
+        "operation": "replace",
+        "target": "time_preposition",
+        "value": "at"
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "morphology",
+        "dependency_parse",
+        "semantic_roles",
+        "lexeme_frames"
+      ],
+      "priority": 100,
+      "conflictGroup": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "confidenceThreshold": 0.99,
+      "sourceRuleIds": [
+        "TIME.CLOCK.PREPOSITION.AT.v1"
+      ],
+      "status": "design_complete_testing_required",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "matcherId": "GF_CLOCK_TIME_PREPOSITION_AT_SM01",
+      "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "matcherType": "surface_literal",
+      "match": {
+        "type": "surface_literal",
+        "source": "runtimeSurfacePatterns"
+      },
+      "guards": [],
+      "repair": {
+        "operation": "replace_from_runtime_pattern"
+      },
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "priority": 1000,
+      "conflictGroup": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "confidenceThreshold": 0.99,
+      "sourceRuleIds": [
+        "TIME.CLOCK.PREPOSITION.AT.v1"
+      ],
+      "status": "approved_for_bounded_surface_runtime",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved"
+    }
+  ],
+  "lexemeFrames": [
+    {
+      "frameId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION_LF01",
+      "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "anchorLemmas": [
+        "night"
+      ],
+      "matcherType": "lexical_semantic_frame",
+      "frame": {
+        "type": "lexical_semantic_frame",
+        "frame": {
+          "sequence": [
+            "at",
+            {
+              "optional_determiner": "the"
+            },
+            {
+              "lemma": "night"
+            }
+          ],
+          "intended_role": "TEMPORAL_ADJUNCT",
+          "licensed_surface": "at night"
+        }
+      },
+      "guards": [
+        {
+          "require": {
+            "night_is_np_head": true,
+            "night_has_no_modifier": true
+          }
+        },
+        {
+          "exclude": {
+            "night_is_modifier_of_another_noun": true
+          }
+        },
+        {
+          "exclude": {
+            "governor_selects_referential_np": true
+          }
+        }
+      ],
+      "repair": {
+        "operation": "delete",
+        "target": "definite_article_before_night"
+      },
+      "executionPolicy": "local_auto",
+      "dialect": "British English",
+      "status": "provisional_teacher_review"
+    },
+    {
+      "frameId": "GF_CLOCK_TIME_PREPOSITION_AT_LF01",
+      "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "anchorLemmas": [
+        "o'clock"
+      ],
+      "matcherType": "temporal_expression",
+      "frame": {
+        "type": "temporal_expression",
+        "frame": {
+          "complement_semantic_type": "PRECISE_CLOCK_TIME",
+          "licensed_preposition": "at",
+          "surface_variants": [
+            "NUMBER o'clock",
+            "HH:MM",
+            "noon",
+            "midnight"
+          ]
+        }
+      },
+      "guards": [
+        {
+          "exclude": {
+            "expression_is_duration_or_time_limit": true
+          }
+        },
+        {
+          "require": {
+            "time_phrase_is_temporal_adjunct_or_complement": true
+          }
+        }
+      ],
+      "repair": {
+        "operation": "replace",
+        "target": "time_preposition",
+        "value": "at"
+      },
+      "executionPolicy": "local_auto",
+      "dialect": "British English",
+      "status": "provisional_teacher_review"
+    }
+  ],
+  "issueBindings": [
+    {
+      "bindingId": "PARA-0022-S01-I01::GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "issueId": "PARA-0022-S01-I01",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceMatcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "who enjoy",
+      "sourceReplacementLabel": "who enjoys",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": true,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "bindingId": "PARA-0022-S02-I01::GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+    "issueId": "PARA-0022-S02-I01",
+    "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+    "matcherId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT_SM01",
+    "sourceMatcherId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "watches TV show",
+      "sourceReplacementLabel": "watches TV shows",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": false,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "bindingId": "PARA-0022-S02-I02::GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+    "issueId": "PARA-0022-S02-I02",
+    "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+    "matcherId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION_SM01",
+    "sourceMatcherId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "at the night",
+      "sourceReplacementLabel": "at night",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": true,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "bindingId": "PARA-0022-S03-I01::GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "issueId": "PARA-0022-S03-I01",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceMatcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "programmes is",
+      "sourceReplacementLabel": "programmes are",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": true,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "bindingId": "PARA-0022-S03-I02::GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "issueId": "PARA-0022-S03-I02",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceMatcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "they makes",
+      "sourceReplacementLabel": "they make",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": true,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "bindingId": "PARA-0022-S04-I01::GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "issueId": "PARA-0022-S04-I01",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceMatcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "brother sit",
+      "sourceReplacementLabel": "brother sits",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": true,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "bindingId": "PARA-0022-S06-I01::GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "issueId": "PARA-0022-S06-I01",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceMatcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "they was",
+      "sourceReplacementLabel": "they were",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": true,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "bindingId": "PARA-0022-S07-I01::GF_DO_SUPPORT_BASE_VERB",
+    "issueId": "PARA-0022-S07-I01",
+    "familyId": "GF_DO_SUPPORT_BASE_VERB",
+    "matcherId": "GF_DO_SUPPORT_BASE_VERB_SM01",
+    "sourceMatcherId": "GF_DO_SUPPORT_BASE_VERB_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "did not saw",
+      "sourceReplacementLabel": "did not see",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": true,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "bindingId": "PARA-0022-S08-I01::GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "issueId": "PARA-0022-S08-I01",
+    "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+    "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+    "sourceMatcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "children was",
+      "sourceReplacementLabel": "children were",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": true,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "bindingId": "PARA-0022-S09-I01::GF_NUMERAL_COUNT_NOUN_PLURAL",
+    "issueId": "PARA-0022-S09-I01",
+    "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+    "matcherId": "GF_NUMERAL_COUNT_NOUN_PLURAL_SM01",
+    "sourceMatcherId": "GF_NUMERAL_COUNT_NOUN_PLURAL_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "two episode",
+      "sourceReplacementLabel": "two episodes",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": true,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "bindingId": "PARA-0022-S09-I02::GF_CLOCK_TIME_PREPOSITION_AT",
+    "issueId": "PARA-0022-S09-I02",
+    "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+    "matcherId": "GF_CLOCK_TIME_PREPOSITION_AT_SM01",
+    "sourceMatcherId": "GF_CLOCK_TIME_PREPOSITION_AT_M01",
+      "atomicOrder": 1,
+      "compositeSourceIssue": false,
+      "sourceWrongLabel": "in eleven o'clock",
+      "sourceReplacementLabel": "at eleven o'clock",
+      "bindingStatus": "approved_for_bounded_surface_runtime",
+      "compileToLiteralEdit": true,
+      "teacherApproval": "pending",
+      "sourceReviewStatus": "draft"
+    }
+  ],
+  "sourceControls": [
+    {
+      "controlId": "CTRL-0022-01",
+      "order": 1,
+      "correctExample": "Mary is a student who enjoys watching television.",
+      "boundaryZhHantHk": "關係代名詞 who 的先行詞是單數 student，因此動詞用 enjoys。",
+      "familyIds": [
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+      ],
+      "status": "teacher_source_draft",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "controlId": "CTRL-0022-02",
+      "order": 2,
+      "correctExample": "Mary watches a TV show after dinner. Mary watches TV shows after dinner.",
+      "boundaryZhHantHk": "a TV show 表示一個未指明節目；TV shows 表示一般或重複習慣，兩者都可避免裸用可數名詞單數。",
+      "familyIds": [
+        "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT"
+      ],
+      "status": "teacher_source_draft",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "controlId": "CTRL-0022-03",
+      "order": 3,
+      "correctExample": "Mary watches television at night. She stared at the night sky.",
+      "boundaryZhHantHk": "時間副詞片語用 at night；night 修飾 sky 時，the 屬於整個 the night sky 名詞片語。",
+      "familyIds": [
+        "GF_AT_NIGHT_TEMPORAL_EXPRESSION"
+      ],
+      "status": "teacher_source_draft",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "controlId": "CTRL-0022-04",
+      "order": 4,
+      "correctExample": "Her favourite programmes are cartoons, and they make her laugh.",
+      "boundaryZhHantHk": "複數主語 programmes 和 they 分別配合 are 和 make。",
+      "familyIds": [
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+      ],
+      "status": "teacher_source_draft",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "controlId": "CTRL-0022-05",
+      "order": 5,
+      "correctExample": "Their parents allow them to watch television for one hour.",
+      "boundaryZhHantHk": "此句是完整的乾淨控制：allow + object + to-infinitive；for one hour 表示時長。",
+      "familyIds": [],
+      "status": "teacher_source_draft",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "controlId": "CTRL-0022-06",
+      "order": 6,
+      "correctExample": "Mary did not see the ending.",
+      "boundaryZhHantHk": "did 已承擔過去時，後面的動詞使用原形 see。",
+      "familyIds": [
+        "GF_DO_SUPPORT_BASE_VERB"
+      ],
+      "status": "teacher_source_draft",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "controlId": "CTRL-0022-07",
+      "order": 7,
+      "correctExample": "The children were not interested.",
+      "boundaryZhHantHk": "children 是複數，過去式 be 使用 were。",
+      "familyIds": [
+        "GF_SUBJECT_VERB_NUMBER_AGREEMENT"
+      ],
+      "status": "teacher_source_draft",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "controlId": "CTRL-0022-08",
+      "order": 8,
+      "correctExample": "Mary watched two episodes.",
+      "boundaryZhHantHk": "數詞 two 後的可數名詞 episode 使用複數 episodes。",
+      "familyIds": [
+        "GF_NUMERAL_COUNT_NOUN_PLURAL"
+      ],
+      "status": "teacher_source_draft",
+      "sourceReviewStatus": "draft"
+    },
+    {
+      "controlId": "CTRL-0022-09",
+      "order": 9,
+      "correctExample": "Mary went to bed at eleven o'clock.",
+      "boundaryZhHantHk": "精確鐘點前使用 at。",
+      "familyIds": [
+        "GF_CLOCK_TIME_PREPOSITION_AT"
+      ],
+      "status": "teacher_source_draft",
+      "sourceReviewStatus": "draft"
+    }
+  ],
+  "testCases": [
+    {
+      "caseId": "SET-0022-GF_SUBJECT_VERB_NUMBER_AGREEMENT-C001",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "sourceRuleIds": [
+        "SUBJECT.VERB.NUMBER.AGREEMENT.v1"
+      ],
+      "caseKind": "source_positive",
+      "partition": "development",
+      "inputText": "Mary is a primary school student who enjoy watching television.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Mary is a primary school student who enjoys watching television.",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": false,
+      "evaluationUse": "source_evidence_only",
+      "boundaryNote": "Published SET-0022 evidence for finite subject–verb number agreement.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_SUBJECT_VERB_NUMBER_AGREEMENT-C002",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "sourceRuleIds": [
+        "SUBJECT.VERB.NUMBER.AGREEMENT.v1"
+      ],
+      "caseKind": "correct_control",
+      "partition": "regression",
+      "inputText": "Mary and Ben enjoy watching television.",
+      "expectedFindings": [],
+      "expectedCorrectedText": "",
+      "expectedOutcome": "no_finding",
+      "isolatedCase": true,
+      "evaluationUse": "boundary_regression",
+      "boundaryNote": "A plural coordinated subject correctly takes the base present form.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_control",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_SUBJECT_VERB_NUMBER_AGREEMENT-C003",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "sourceRuleIds": [
+        "SUBJECT.VERB.NUMBER.AGREEMENT.v1"
+      ],
+      "caseKind": "holdout_positive",
+      "partition": "holdout",
+      "inputText": "The new student walk to school every morning.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "The new student walks to school every morning.",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": true,
+      "evaluationUse": "unseen_vocabulary_holdout",
+      "boundaryNote": "A singular present-tense subject requires third-person singular inflection.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_holdout",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT-C004",
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "sourceRuleIds": [
+        "NOUN.COUNT.SINGULAR.ARGUMENT.REQUIRES_DETERMINATION.v1"
+      ],
+      "caseKind": "source_positive",
+      "partition": "development",
+      "inputText": "After dinner, she usually finishes her homework and then watches TV show at the night.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+          "action": "review",
+          "alternatives": [
+            "watches a TV show",
+            "watches TV shows"
+          ]
+        }
+      ],
+      "expectedCorrectedText": "",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": false,
+      "evaluationUse": "source_evidence_only",
+      "boundaryNote": "Published evidence is alternative-aware: the generic plural and an indefinite singular are both grammatical.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT-C005",
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "sourceRuleIds": [
+        "NOUN.COUNT.SINGULAR.ARGUMENT.REQUIRES_DETERMINATION.v1"
+      ],
+      "caseKind": "correct_control",
+      "partition": "regression",
+      "inputText": "Mary watches a TV show after dinner.",
+      "expectedFindings": [],
+      "expectedCorrectedText": "",
+      "expectedOutcome": "no_finding",
+      "isolatedCase": true,
+      "evaluationUse": "boundary_regression",
+      "boundaryNote": "The indefinite article licenses the singular count-noun phrase.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_control",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT-C006",
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "sourceRuleIds": [
+        "NOUN.COUNT.SINGULAR.ARGUMENT.REQUIRES_DETERMINATION.v1"
+      ],
+      "caseKind": "holdout_positive",
+      "partition": "holdout",
+      "inputText": "Leo usually reads comic book before bed.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+          "action": "review",
+          "alternatives": [
+            "reads a comic book",
+            "reads comic books"
+          ]
+        }
+      ],
+      "expectedCorrectedText": "",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": true,
+      "evaluationUse": "unseen_vocabulary_holdout",
+      "boundaryNote": "Detect the bare singular head book while preserving the compound modifier comic.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_holdout",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_AT_NIGHT_TEMPORAL_EXPRESSION-C007",
+      "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "sourceRuleIds": [
+        "TIME.AT_NIGHT.NO_DEFINITE_ARTICLE.v1"
+      ],
+      "caseKind": "source_positive",
+      "partition": "development",
+      "inputText": "After dinner, she usually finishes her homework and then watches TV show at the night.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "After dinner, she usually finishes her homework and then watches TV shows at night.",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": false,
+      "evaluationUse": "source_evidence_only",
+      "boundaryNote": "Published SET-0022 evidence for the fixed temporal expression at night.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_AT_NIGHT_TEMPORAL_EXPRESSION-C008",
+      "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "sourceRuleIds": [
+        "TIME.AT_NIGHT.NO_DEFINITE_ARTICLE.v1"
+      ],
+      "caseKind": "correct_control",
+      "partition": "regression",
+      "inputText": "They stared at the night sky.",
+      "expectedFindings": [],
+      "expectedCorrectedText": "",
+      "expectedOutcome": "no_finding",
+      "isolatedCase": true,
+      "evaluationUse": "boundary_regression",
+      "boundaryNote": "The head noun is sky; night is a compound modifier, so the article is valid.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_control",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_AT_NIGHT_TEMPORAL_EXPRESSION-C009",
+      "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "sourceRuleIds": [
+        "TIME.AT_NIGHT.NO_DEFINITE_ARTICLE.v1"
+      ],
+      "caseKind": "holdout_positive",
+      "partition": "holdout",
+      "inputText": "Owls usually hunt at the night.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Owls usually hunt at night.",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": true,
+      "evaluationUse": "unseen_vocabulary_holdout",
+      "boundaryNote": "A bare temporal adjunct uses at night without the definite article.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_holdout",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_DO_SUPPORT_BASE_VERB-C010",
+      "familyId": "GF_DO_SUPPORT_BASE_VERB",
+      "sourceRuleIds": [
+        "VERB.DO_SUPPORT.REQUIRES_BASE_FORM.v1"
+      ],
+      "caseKind": "source_positive",
+      "partition": "development",
+      "inputText": "Mary was disappointed because she did not saw the ending.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_DO_SUPPORT_BASE_VERB",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Mary was disappointed because she did not see the ending.",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": false,
+      "evaluationUse": "source_evidence_only",
+      "boundaryNote": "Published SET-0022 evidence for a base-form lexical verb after did.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_DO_SUPPORT_BASE_VERB-C011",
+      "familyId": "GF_DO_SUPPORT_BASE_VERB",
+      "sourceRuleIds": [
+        "VERB.DO_SUPPORT.REQUIRES_BASE_FORM.v1"
+      ],
+      "caseKind": "correct_control",
+      "partition": "regression",
+      "inputText": "Mary did not see the ending.",
+      "expectedFindings": [],
+      "expectedCorrectedText": "",
+      "expectedOutcome": "no_finding",
+      "isolatedCase": true,
+      "evaluationUse": "boundary_regression",
+      "boundaryNote": "The lexical verb is already in the required base form.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_control",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_DO_SUPPORT_BASE_VERB-C012",
+      "familyId": "GF_DO_SUPPORT_BASE_VERB",
+      "sourceRuleIds": [
+        "VERB.DO_SUPPORT.REQUIRES_BASE_FORM.v1"
+      ],
+      "caseKind": "holdout_positive",
+      "partition": "holdout",
+      "inputText": "Ben did not went home early.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_DO_SUPPORT_BASE_VERB",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Ben did not go home early.",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": true,
+      "evaluationUse": "unseen_vocabulary_holdout",
+      "boundaryNote": "Finite did carries tense, so the following lexical verb must be base form.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_holdout",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_NUMERAL_COUNT_NOUN_PLURAL-C013",
+      "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "sourceRuleIds": [
+        "NOUN.NUMERAL.COUNT.REQUIRES_PLURAL.v1"
+      ],
+      "caseKind": "source_positive",
+      "partition": "development",
+      "inputText": "Later, Mary watched two episode and went to bed in eleven o'clock.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Later, Mary watched two episodes and went to bed at eleven o'clock.",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": false,
+      "evaluationUse": "source_evidence_only",
+      "boundaryNote": "Published SET-0022 evidence for plural marking after a numeral greater than one.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_NUMERAL_COUNT_NOUN_PLURAL-C014",
+      "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "sourceRuleIds": [
+        "NOUN.NUMERAL.COUNT.REQUIRES_PLURAL.v1"
+      ],
+      "caseKind": "correct_control",
+      "partition": "regression",
+      "inputText": "Mary watched one episode.",
+      "expectedFindings": [],
+      "expectedCorrectedText": "",
+      "expectedOutcome": "no_finding",
+      "isolatedCase": true,
+      "evaluationUse": "boundary_regression",
+      "boundaryNote": "The numeral one correctly licenses a singular count noun.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_control",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_NUMERAL_COUNT_NOUN_PLURAL-C015",
+      "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "sourceRuleIds": [
+        "NOUN.NUMERAL.COUNT.REQUIRES_PLURAL.v1"
+      ],
+      "caseKind": "holdout_positive",
+      "partition": "holdout",
+      "inputText": "We bought three ticket for the concert.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "We bought three tickets for the concert.",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": true,
+      "evaluationUse": "unseen_vocabulary_holdout",
+      "boundaryNote": "A count noun after three requires plural inflection.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_holdout",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_CLOCK_TIME_PREPOSITION_AT-C016",
+      "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "sourceRuleIds": [
+        "TIME.CLOCK.PREPOSITION.AT.v1"
+      ],
+      "caseKind": "source_positive",
+      "partition": "development",
+      "inputText": "Later, Mary watched two episode and went to bed in eleven o'clock.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_CLOCK_TIME_PREPOSITION_AT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Later, Mary watched two episodes and went to bed at eleven o'clock.",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": false,
+      "evaluationUse": "source_evidence_only",
+      "boundaryNote": "Published SET-0022 evidence for at before a precise clock time.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_CLOCK_TIME_PREPOSITION_AT-C017",
+      "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "sourceRuleIds": [
+        "TIME.CLOCK.PREPOSITION.AT.v1"
+      ],
+      "caseKind": "correct_control",
+      "partition": "regression",
+      "inputText": "The lesson ends at eleven o'clock.",
+      "expectedFindings": [],
+      "expectedCorrectedText": "",
+      "expectedOutcome": "no_finding",
+      "isolatedCase": true,
+      "evaluationUse": "boundary_regression",
+      "boundaryNote": "At correctly introduces the precise clock time.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_control",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-GF_CLOCK_TIME_PREPOSITION_AT-C018",
+      "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "sourceRuleIds": [
+        "TIME.CLOCK.PREPOSITION.AT.v1"
+      ],
+      "caseKind": "holdout_positive",
+      "partition": "holdout",
+      "inputText": "The train leaves on six o'clock.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_CLOCK_TIME_PREPOSITION_AT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "The train leaves at six o'clock.",
+      "expectedOutcome": "finding_or_review",
+      "isolatedCase": true,
+      "evaluationUse": "unseen_vocabulary_holdout",
+      "boundaryNote": "Replace on with at when the complement is a precise clock time.",
+      "reviewStatus": "provisional_teacher_review",
+      "runtimeEligible": false,
+      "evidenceKind": "synthetic_holdout",
+      "evidenceSetId": "SET-0022",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "not_approved",
+      "approvalStatus": "not_approved"
+    },
+    {
+      "caseId": "SET-0022-S01-I01-P001-EVIDENCE",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "sourceRuleIds": [
+        "SUBJECT.VERB.NUMBER.AGREEMENT.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S01-I01",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "Mary is a primary school student who enjoy watching television.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Mary is a primary school student who enjoys watching television.",
+      "expectedOutcome": "bounded_surface_replacement",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the runtime matcher is bounded to the approved literal and lexical or sentence-boundary context.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S02-I01-P002-EVIDENCE",
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "sourceRuleIds": [
+        "NOUN.COUNT.SINGULAR.ARGUMENT.REQUIRES_DETERMINATION.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S02-I01",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "After dinner, she usually finishes her homework and then watches TV show at the night.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+          "action": "review"
+        }
+      ],
+      "expectedCorrectedText": "After dinner, she usually finishes her homework and then watches TV shows at night.",
+      "expectedOutcome": "bounded_surface_review",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the detector flags the bounded phrase for review and preserves both grammatical repair alternatives.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S02-I02-P003-EVIDENCE",
+      "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "sourceRuleIds": [
+        "TIME.AT_NIGHT.NO_DEFINITE_ARTICLE.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S02-I02",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "After dinner, she usually finishes her homework and then watches TV show at the night.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "After dinner, she usually finishes her homework and then watches TV shows at night.",
+      "expectedOutcome": "bounded_surface_replacement",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the runtime matcher is bounded to the approved literal and lexical or sentence-boundary context.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S03-I01-P004-EVIDENCE",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "sourceRuleIds": [
+        "SUBJECT.VERB.NUMBER.AGREEMENT.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S03-I01",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "Her favourite programmes is cartoons because they makes her laugh.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Her favourite programmes are cartoons because they make her laugh.",
+      "expectedOutcome": "bounded_surface_replacement",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the runtime matcher is bounded to the approved literal and lexical or sentence-boundary context.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S03-I02-P005-EVIDENCE",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "sourceRuleIds": [
+        "SUBJECT.VERB.NUMBER.AGREEMENT.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S03-I02",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "Her favourite programmes is cartoons because they makes her laugh.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Her favourite programmes are cartoons because they make her laugh.",
+      "expectedOutcome": "bounded_surface_replacement",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the runtime matcher is bounded to the approved literal and lexical or sentence-boundary context.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S04-I01-P006-EVIDENCE",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "sourceRuleIds": [
+        "SUBJECT.VERB.NUMBER.AGREEMENT.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S04-I01",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "Sometimes her younger brother sit beside her, but he does not always understand the story.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Sometimes her younger brother sits beside her, but he does not always understand the story.",
+      "expectedOutcome": "bounded_surface_replacement",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the runtime matcher is bounded to the approved literal and lexical or sentence-boundary context.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S06-I01-P007-EVIDENCE",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "sourceRuleIds": [
+        "SUBJECT.VERB.NUMBER.AGREEMENT.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S06-I01",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "Yesterday, they was watching a new comedy when the electricity suddenly stopped.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Yesterday, they were watching a new comedy when the electricity suddenly stopped.",
+      "expectedOutcome": "bounded_surface_replacement",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the runtime matcher is bounded to the approved literal and lexical or sentence-boundary context.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S07-I01-P008-EVIDENCE",
+      "familyId": "GF_DO_SUPPORT_BASE_VERB",
+      "sourceRuleIds": [
+        "VERB.DO_SUPPORT.REQUIRES_BASE_FORM.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S07-I01",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "Mary was disappointed because she did not saw the ending.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_DO_SUPPORT_BASE_VERB",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Mary was disappointed because she did not see the ending.",
+      "expectedOutcome": "bounded_surface_replacement",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the runtime matcher is bounded to the approved literal and lexical or sentence-boundary context.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S08-I01-P009-EVIDENCE",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "sourceRuleIds": [
+        "SUBJECT.VERB.NUMBER.AGREEMENT.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S08-I01",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "Her father told them to read a book, but the children was not interested.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Her father told them to read a book, but the children were not interested.",
+      "expectedOutcome": "bounded_surface_replacement",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the runtime matcher is bounded to the approved literal and lexical or sentence-boundary context.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S09-I01-P010-EVIDENCE",
+      "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "sourceRuleIds": [
+        "NOUN.NUMERAL.COUNT.REQUIRES_PLURAL.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S09-I01",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "Later, Mary watched two episode and went to bed in eleven o'clock.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Later, Mary watched two episodes and went to bed at eleven o'clock.",
+      "expectedOutcome": "bounded_surface_replacement",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the runtime matcher is bounded to the approved literal and lexical or sentence-boundary context.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S09-I02-P011-EVIDENCE",
+      "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "sourceRuleIds": [
+        "TIME.CLOCK.PREPOSITION.AT.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S09-I02",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "development",
+      "inputText": "Later, Mary watched two episode and went to bed in eleven o'clock.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_CLOCK_TIME_PREPOSITION_AT",
+          "action": "correct"
+        }
+      ],
+      "expectedCorrectedText": "Later, Mary watched two episodes and went to bed at eleven o'clock.",
+      "expectedOutcome": "bounded_surface_replacement",
+      "isolatedCase": false,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "Published source sentence; the runtime matcher is bounded to the approved literal and lexical or sentence-boundary context.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    },
+    {
+      "caseId": "SET-0022-S02-I01-P012-EVIDENCE",
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "sourceRuleIds": [
+        "NOUN.COUNT.SINGULAR.ARGUMENT.REQUIRES_DETERMINATION.v1"
+      ],
+      "sourceIssueId": "PARA-0022-S02-I01",
+      "caseKind": "runtime_surface_evidence",
+      "partition": "regression",
+      "inputText": "Mary loves to watch TV show at the night.",
+      "expectedFindings": [
+        {
+          "family_id": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+          "action": "review"
+        }
+      ],
+      "expectedCorrectedText": "Mary loves to watch TV shows at night.",
+      "expectedOutcome": "bounded_surface_review",
+      "isolatedCase": true,
+      "evaluationUse": "bounded_runtime_evidence",
+      "boundaryNote": "User-reported production incident; bounded to infinitival watch followed by the same erroneous temporal phrase.",
+      "evidenceKind": "full_sentence",
+      "evidenceSetId": "SET-0022",
+      "reviewStatus": "runtime_approved_source_review_pending",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "runtimeEligible": true
+    }
+  ],
+  "runtimeSurfacePatterns": [
+    {
+      "patternId": "SET-0022-S01-I01-P001",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+      "sourceIssueId": "PARA-0022-S01-I01",
+      "evidenceCaseId": "SET-0022-S01-I01-P001-EVIDENCE",
+      "caseId": "SET-0022-S01-I01-P001-EVIDENCE",
+      "sentenceId": "PARA-0022-S01",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_auto",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "who enjoy",
+      "replacementText": "who enjoys",
+      "acceptableAlternatives": [],
+      "leftContext": [
+        "primary",
+        "school",
+        "student"
+      ],
+      "rightContext": [
+        "watching",
+        "television"
+      ],
+      "startsSentence": false,
+      "endsSentence": false,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.995,
+      "priority": 1600,
+      "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "explanationZhHant": "關係代名詞 who 指向單數的 student，因此現在式動詞要用第三人稱單數 enjoys。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S02-I01-P002",
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "matcherId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT_SM01",
+      "sourceIssueId": "PARA-0022-S02-I01",
+      "evidenceCaseId": "SET-0022-S02-I01-P002-EVIDENCE",
+      "caseId": "SET-0022-S02-I01-P002-EVIDENCE",
+      "sentenceId": "PARA-0022-S02",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_review",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "watches TV show",
+      "replacementText": "watches TV shows",
+      "acceptableAlternatives": [
+        "watches a TV show"
+      ],
+      "leftContext": [
+        "and",
+        "then"
+      ],
+      "rightContext": [
+        "at",
+        "the",
+        "night"
+      ],
+      "startsSentence": false,
+      "endsSentence": false,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.98,
+      "priority": 1599,
+      "conflictGroup": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "explanationZhHant": "show 是可數名詞單數，作動詞受詞時不能在沒有冠詞、所有格、數詞或其他限定語的情況下單獨使用。此句的 usually 表示習慣，所以教師版本採用 TV shows；若意思是每晚看一個未指明的節目，a TV show 亦正確。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S02-I02-P003",
+      "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "matcherId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION_SM01",
+      "sourceIssueId": "PARA-0022-S02-I02",
+      "evidenceCaseId": "SET-0022-S02-I02-P003-EVIDENCE",
+      "caseId": "SET-0022-S02-I02-P003-EVIDENCE",
+      "sentenceId": "PARA-0022-S02",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_auto",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "at the night",
+      "replacementText": "at night",
+      "acceptableAlternatives": [],
+      "leftContext": [
+        "tv",
+        "show"
+      ],
+      "rightContext": [],
+      "startsSentence": false,
+      "endsSentence": true,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.995,
+      "priority": 1598,
+      "conflictGroup": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "explanationZhHant": "表示「在夜間」的固定時間副詞片語是 at night，不用定冠詞。只有當 night 屬於較大的名詞片語時才可保留 the，例如 stared at the night sky。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S03-I01-P004",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+      "sourceIssueId": "PARA-0022-S03-I01",
+      "evidenceCaseId": "SET-0022-S03-I01-P004-EVIDENCE",
+      "caseId": "SET-0022-S03-I01-P004-EVIDENCE",
+      "sentenceId": "PARA-0022-S03",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_auto",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "programmes is",
+      "replacementText": "programmes are",
+      "acceptableAlternatives": [],
+      "leftContext": [
+        "her",
+        "favourite"
+      ],
+      "rightContext": [
+        "cartoons",
+        "because"
+      ],
+      "startsSentence": false,
+      "endsSentence": false,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.995,
+      "priority": 1597,
+      "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "explanationZhHant": "主語 programmes 是複數，因此連綴動詞 be 要用 are。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S03-I02-P005",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+      "sourceIssueId": "PARA-0022-S03-I02",
+      "evidenceCaseId": "SET-0022-S03-I02-P005-EVIDENCE",
+      "caseId": "SET-0022-S03-I02-P005-EVIDENCE",
+      "sentenceId": "PARA-0022-S03",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_auto",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "they makes",
+      "replacementText": "they make",
+      "acceptableAlternatives": [],
+      "leftContext": [
+        "cartoons",
+        "because"
+      ],
+      "rightContext": [
+        "her",
+        "laugh"
+      ],
+      "startsSentence": false,
+      "endsSentence": false,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.995,
+      "priority": 1596,
+      "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "explanationZhHant": "主語 they 是複數，所以一般現在式動詞使用原形 make，不加 -s。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S04-I01-P006",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+      "sourceIssueId": "PARA-0022-S04-I01",
+      "evidenceCaseId": "SET-0022-S04-I01-P006-EVIDENCE",
+      "caseId": "SET-0022-S04-I01-P006-EVIDENCE",
+      "sentenceId": "PARA-0022-S04",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_auto",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "Sometimes her younger brother sit",
+      "replacementText": "Sometimes her younger brother sits",
+      "acceptableAlternatives": [],
+      "leftContext": [],
+      "rightContext": [
+        "beside",
+        "her"
+      ],
+      "startsSentence": true,
+      "endsSentence": false,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.995,
+      "priority": 1595,
+      "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "explanationZhHant": "主語 her younger brother 是第三人稱單數，因此一般現在式動詞要用 sits。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S06-I01-P007",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+      "sourceIssueId": "PARA-0022-S06-I01",
+      "evidenceCaseId": "SET-0022-S06-I01-P007-EVIDENCE",
+      "caseId": "SET-0022-S06-I01-P007-EVIDENCE",
+      "sentenceId": "PARA-0022-S06",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_auto",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "they was",
+      "replacementText": "they were",
+      "acceptableAlternatives": [],
+      "leftContext": [
+        "yesterday"
+      ],
+      "rightContext": [
+        "watching",
+        "a",
+        "new",
+        "comedy"
+      ],
+      "startsSentence": false,
+      "endsSentence": false,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.995,
+      "priority": 1594,
+      "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "explanationZhHant": "複數代名詞 they 在過去進行式中要配合 were，不用 was。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S07-I01-P008",
+      "familyId": "GF_DO_SUPPORT_BASE_VERB",
+      "matcherId": "GF_DO_SUPPORT_BASE_VERB_SM01",
+      "sourceIssueId": "PARA-0022-S07-I01",
+      "evidenceCaseId": "SET-0022-S07-I01-P008-EVIDENCE",
+      "caseId": "SET-0022-S07-I01-P008-EVIDENCE",
+      "sentenceId": "PARA-0022-S07",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_auto",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "did not saw",
+      "replacementText": "did not see",
+      "acceptableAlternatives": [],
+      "leftContext": [
+        "because",
+        "she"
+      ],
+      "rightContext": [
+        "the",
+        "ending"
+      ],
+      "startsSentence": false,
+      "endsSentence": false,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.995,
+      "priority": 1593,
+      "conflictGroup": "GF_DO_SUPPORT_BASE_VERB",
+      "explanationZhHant": "過去式已由助動詞 did 表示，後面的實義動詞必須回復原形 see，不能再用過去式 saw。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S08-I01-P009",
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "matcherId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT_SM01",
+      "sourceIssueId": "PARA-0022-S08-I01",
+      "evidenceCaseId": "SET-0022-S08-I01-P009-EVIDENCE",
+      "caseId": "SET-0022-S08-I01-P009-EVIDENCE",
+      "sentenceId": "PARA-0022-S08",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_auto",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "the children was not interested",
+      "replacementText": "the children were not interested",
+      "acceptableAlternatives": [],
+      "leftContext": [
+        "but"
+      ],
+      "rightContext": [],
+      "startsSentence": false,
+      "endsSentence": true,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.995,
+      "priority": 1592,
+      "conflictGroup": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "explanationZhHant": "children 是 child 的複數形式，因此過去式 be 要用 were。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S09-I01-P010",
+      "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "matcherId": "GF_NUMERAL_COUNT_NOUN_PLURAL_SM01",
+      "sourceIssueId": "PARA-0022-S09-I01",
+      "evidenceCaseId": "SET-0022-S09-I01-P010-EVIDENCE",
+      "caseId": "SET-0022-S09-I01-P010-EVIDENCE",
+      "sentenceId": "PARA-0022-S09",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_auto",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "watched two episode",
+      "replacementText": "watched two episodes",
+      "acceptableAlternatives": [],
+      "leftContext": [
+        "mary"
+      ],
+      "rightContext": [
+        "and",
+        "went",
+        "to",
+        "bed"
+      ],
+      "startsSentence": false,
+      "endsSentence": false,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.995,
+      "priority": 1591,
+      "conflictGroup": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "explanationZhHant": "可數名詞在大於一的數詞後通常要用複數，因此是 two episodes。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S09-I02-P011",
+      "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "matcherId": "GF_CLOCK_TIME_PREPOSITION_AT_SM01",
+      "sourceIssueId": "PARA-0022-S09-I02",
+      "evidenceCaseId": "SET-0022-S09-I02-P011-EVIDENCE",
+      "caseId": "SET-0022-S09-I02-P011-EVIDENCE",
+      "sentenceId": "PARA-0022-S09",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_auto",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "in eleven o'clock",
+      "replacementText": "at eleven o'clock",
+      "acceptableAlternatives": [],
+      "leftContext": [
+        "went",
+        "to",
+        "bed"
+      ],
+      "rightContext": [],
+      "startsSentence": false,
+      "endsSentence": true,
+      "evidenceSetId": "SET-0022",
+      "partition": "development",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.995,
+      "priority": 1590,
+      "conflictGroup": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "explanationZhHant": "指出精確鐘點時使用介詞 at，例如 at eleven o'clock；in 通常用於月份、年份、較長時段或表示多久之後。",
+      "reasonDisabled": ""
+    },
+    {
+      "patternId": "SET-0022-S02-I01-P012",
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "matcherId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT_SM01",
+      "sourceIssueId": "PARA-0022-S02-I01",
+      "evidenceCaseId": "SET-0022-S02-I01-P012-EVIDENCE",
+      "caseId": "SET-0022-S02-I01-P012-EVIDENCE",
+      "sentenceId": "PARA-0022-S02",
+      "matcherType": "surface_literal",
+      "executionPolicy": "local_review",
+      "runtimeEligible": true,
+      "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+      "approvalStatus": "approved",
+      "sourceReviewStatus": "draft",
+      "teacherApproval": "pending",
+      "matchText": "watch TV show",
+      "replacementText": "watch TV shows",
+      "acceptableAlternatives": [
+        "watch a TV show"
+      ],
+      "leftContext": [
+        "to"
+      ],
+      "rightContext": [
+        "at",
+        "the",
+        "night"
+      ],
+      "startsSentence": false,
+      "endsSentence": false,
+      "evidenceSetId": "SET-0022",
+      "partition": "regression",
+      "evidenceKind": "full_sentence",
+      "requiredCapabilities": [
+        "tokenize",
+        "surface_literal",
+        "unicode_word_boundaries",
+        "sentence_boundaries",
+        "lexical_context",
+        "case_preservation"
+      ],
+      "confidence": 0.98,
+      "priority": 1589,
+      "conflictGroup": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "explanationZhHant": "show 是可數名詞單數，作動詞受詞時不能在沒有冠詞、所有格、數詞或其他限定語的情況下單獨使用。此句的 usually 表示習慣，所以教師版本採用 TV shows；若意思是每晚看一個未指明的節目，a TV show 亦正確。",
+      "reasonDisabled": ""
+    }
+  ],
+  "familyCoverage": [
+    {
+      "familyId": "GF_SUBJECT_VERB_NUMBER_AGREEMENT",
+      "sourceIssueCount": 6,
+      "sourceControlCount": 3,
+      "sourceTestCount": 3,
+      "activeRuntimePatternCount": 6
+    },
+    {
+      "familyId": "GF_BARE_SINGULAR_COUNT_NOUN_ARGUMENT",
+      "sourceIssueCount": 1,
+      "sourceControlCount": 1,
+      "sourceTestCount": 3,
+      "activeRuntimePatternCount": 2
+    },
+    {
+      "familyId": "GF_AT_NIGHT_TEMPORAL_EXPRESSION",
+      "sourceIssueCount": 1,
+      "sourceControlCount": 1,
+      "sourceTestCount": 3,
+      "activeRuntimePatternCount": 1
+    },
+    {
+      "familyId": "GF_DO_SUPPORT_BASE_VERB",
+      "sourceIssueCount": 1,
+      "sourceControlCount": 1,
+      "sourceTestCount": 3,
+      "activeRuntimePatternCount": 1
+    },
+    {
+      "familyId": "GF_NUMERAL_COUNT_NOUN_PLURAL",
+      "sourceIssueCount": 1,
+      "sourceControlCount": 1,
+      "sourceTestCount": 3,
+      "activeRuntimePatternCount": 1
+    },
+    {
+      "familyId": "GF_CLOCK_TIME_PREPOSITION_AT",
+      "sourceIssueCount": 1,
+      "sourceControlCount": 1,
+      "sourceTestCount": 3,
+      "activeRuntimePatternCount": 1
+    }
+  ],
+  "sourceInconsistencies": [
+    {
+      "kind": "release_gate_normalisation",
+      "sourceValue": "RELEASE STATUS — NOT PRODUCTION READY",
+      "normalizedValue": "approved_for_bounded_surface_runtime",
+      "resolution": "The workbook's six parser/general matchers remain non-runtime metadata. Only twelve separately reviewed, source-grounded or incident-grounded and tightly context-bounded surface patterns are executable."
+    },
+    {
+      "kind": "capability_vocabulary",
+      "sourceValue": "countability_lexicon; sentence_semantics; temporal_expression_recognition; irregular_inflection_lexicon",
+      "normalizedValue": "lexeme_frames; semantic_roles; morphology",
+      "resolution": "Workbook capability labels were mapped to the compiler's known metadata vocabulary; none of these parser capabilities are available to the browser runtime."
+    },
+    {
+      "kind": "global_matcher_reuse",
+      "sourceValue": "SET-0022 draft GF_SUBJECT_VERB_NUMBER_AGREEMENT_M01",
+      "normalizedValue": "existing canonical GF_SUBJECT_VERB_NUMBER_AGREEMENT_M01 and SM01",
+      "resolution": "The established global family and matcher definitions are reused unchanged to prevent cross-set definition drift."
+    }
+  ],
+  "releaseStatus": "approved_for_bounded_surface_runtime",
+  "sourceReviewStatus": "draft",
+  "teacherApproval": "pending",
+  "runtimeApprovalStatus": "approved_for_bounded_surface_runtime",
+  "validation": {
+    "schemaValid": true,
+    "sourceReviewStatus": "draft_teacher_review_required",
+    "runtimeApprovalScope": "bounded_surface_patterns_only",
+    "checks": {
+      "allSourceIssuesPreserved": true,
+      "allFamiliesHaveIssues": true,
+      "allIssuesMapped": true,
+      "allBindingsResolvable": true,
+      "activePatternsBounded": true,
+      "activePatternsApproved": true,
+      "activeFamiliesApproved": true,
+      "noHoldoutRuntimeLeakage": true,
+      "noCleanControlOrCorrectedCollision": true,
+      "noSemanticOrStyleRuntime": true,
+      "teacherApprovalRemainsPending": true,
+      "sourceReviewRemainsDraft": true
+    },
+    "boundedRuntimeProductionReady": true,
+    "sourceTeacherApproved": false,
+    "productionBlockers": [
+      "Teacher/source review remains draft and pending.",
+      "Only the twelve explicitly approved bounded surface patterns are executable.",
+      "Parser-general, morphology-dependent, semantic and holdout material remains non-executable."
+    ]
+  }
+}

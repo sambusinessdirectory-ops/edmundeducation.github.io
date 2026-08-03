@@ -15,9 +15,11 @@ import {
   mergeWritingGrammarIssues,
   normalizeWritingAiResponse,
   REMOTE_GRAMMAR_FAILURE_KINDS,
+  REMOTE_GRAMMAR_REQUEST_TIMEOUT_MS,
   rebaseWritingGrammarIssuesAfterAppliedCorrection,
+  remoteGrammarRetryDelayMs,
   writingGrammarReviewNotice
-} from "./writing-submission-ai.js?v=20260802-grammar1";
+} from "./writing-submission-ai.js?v=20260803-grammar-progress1";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -27,7 +29,7 @@ const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const TOPIC_CATALOG_VERSION = "20260803-progress1";
 const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
 const HARPER_VERSION = "2.7.0";
-const ESL_RULESET_VERSION = "1.2.0";
+const ESL_RULESET_VERSION = "2.0.0";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 const elements = {
@@ -263,6 +265,14 @@ async function parseApiError(response) {
   const error = new Error(message);
   error.status = response.status;
   error.code = code;
+  const retryAfter = String(response.headers.get("Retry-After") || "").trim();
+  if (retryAfter) {
+    const seconds = Number(retryAfter);
+    const retryAt = Number.isFinite(seconds)
+      ? Date.now() + (Math.max(0, seconds) * 1000)
+      : Date.parse(retryAfter);
+    if (Number.isFinite(retryAt)) error.retryAfterMs = Math.max(0, retryAt - Date.now());
+  }
   return error;
 }
 
@@ -862,12 +872,18 @@ async function prepareGrammarChecker() {
   if (state.checkerPromise) return state.checkerPromise;
   updateHarperStatus("loading", "正在準備文法偵測", "本機後備檢查首次載入約需數秒");
   state.checkerPromise = (async () => {
-    const module = await import("./writing-submission-harper.js?v=20260801-grammar2");
+    const module = await import("./writing-submission-harper.js?v=20260802-grammar5");
     const checker = module.createWritingGrammarChecker();
     state.checker = checker;
     try {
       await checker.setup();
-      updateHarperStatus("ready", "文法偵測已準備", `文法偵測 + 本機 ESL ${ESL_RULESET_VERSION} + Harper ${HARPER_VERSION} 後備校對`);
+      const corpusRuleCount = Number(module.CORPUS_COMPILED_RULE_COUNT) || 0;
+      const executableFamilyCount = Number(module.EXECUTABLE_COMPILED_FAMILY_COUNT) || 0;
+      updateHarperStatus(
+        "ready",
+        "文法偵測已準備",
+        `${corpusRuleCount} 條語料規則 + ${executableFamilyCount} 個可執行規則家族 + 通用文法 ${ESL_RULESET_VERSION} + Harper ${HARPER_VERSION} 後備校對`
+      );
     } catch (error) {
       console.warn("Local Harper setup failed", error);
       updateHarperStatus("ready", "文法偵測已準備", "Edmund 本機規則仍可使用；Harper 暫時不可用");
@@ -1306,16 +1322,9 @@ function inconclusiveRemoteGrammarResult() {
   }));
 }
 
-async function requestRemoteGrammarIssues(record) {
+async function performRemoteGrammarRequest(record) {
   if (!state.grammarDetectionEnabled) return cancelledRemoteGrammarResult();
   if (!isLatestSegmentRecord(record)) return cancelledRemoteGrammarResult();
-  if (record.segment.text.length > 2000) return inconclusiveRemoteGrammarResult();
-  if (Date.now() < state.remoteGrammarBackoffUntil) {
-    return remoteGrammarFailureResult(
-      state.remoteGrammarBackoffFailure || classifyRemoteGrammarFailure(new TypeError("Network backoff")),
-      { skipped: true }
-    );
-  }
   const controller = new AbortController();
   record.remoteController = controller;
   state.remoteGrammarControllers.add(controller);
@@ -1323,7 +1332,7 @@ async function requestRemoteGrammarIssues(record) {
   const timeout = window.setTimeout(() => {
     timedOut = true;
     controller.abort();
-  }, 12000);
+  }, REMOTE_GRAMMAR_REQUEST_TIMEOUT_MS);
   try {
     const response = await apiJson("/v1/grammar-check", {
       method: "POST",
@@ -1347,6 +1356,29 @@ async function requestRemoteGrammarIssues(record) {
     window.clearTimeout(timeout);
     state.remoteGrammarControllers.delete(controller);
     if (record.remoteController === controller) record.remoteController = null;
+  }
+}
+
+async function requestRemoteGrammarIssues(record) {
+  if (!state.grammarDetectionEnabled) return cancelledRemoteGrammarResult();
+  if (!isLatestSegmentRecord(record)) return cancelledRemoteGrammarResult();
+  if (record.segment.text.length > 2000) return inconclusiveRemoteGrammarResult();
+  if (Date.now() < state.remoteGrammarBackoffUntil) {
+    return remoteGrammarFailureResult(
+      state.remoteGrammarBackoffFailure || classifyRemoteGrammarFailure(new TypeError("Network backoff")),
+      { skipped: true }
+    );
+  }
+
+  let completedRetries = 0;
+  while (true) {
+    const result = await performRemoteGrammarRequest(record);
+    if (!result?.failure || !isLatestSegmentRecord(record)) return result;
+    const retryDelayMs = remoteGrammarRetryDelayMs(result.failure, completedRetries);
+    if (retryDelayMs === null) return result;
+    completedRetries += 1;
+    await new Promise((resolve) => window.setTimeout(resolve, retryDelayMs));
+    if (!isLatestSegmentRecord(record)) return cancelledRemoteGrammarResult();
   }
 }
 
@@ -1490,11 +1522,23 @@ function applyRemoteGrammarOutcome(record, result) {
     state.remoteGrammarBackoffFailure = failure;
   }
 
-  if (failure.globalStatus === "error") {
+  if (failure.globalStatus === "network") {
     updateHarperStatus(
       "error",
       "文法偵測暫時未能連線",
       "本機 ESL 規則及 Harper 後備檢查仍可使用"
+    );
+  } else if (failure.globalStatus === "timeout") {
+    updateHarperStatus(
+      "error",
+      "文法偵測回應逾時",
+      "為免重複計算，本次不會自動重試；本機後備檢查仍可使用"
+    );
+  } else if (failure.globalStatus === "provider_failure") {
+    updateHarperStatus(
+      "error",
+      "文法偵測服務暫時故障",
+      "系統只會在安全情況下重試一次；本機 ESL 規則及 Harper 後備檢查仍可使用"
     );
   } else if (failure.globalStatus === "rate_limited") {
     updateHarperStatus(
@@ -1508,11 +1552,11 @@ function applyRemoteGrammarOutcome(record, result) {
       "文法偵測今日額度已用完",
       "額度會於香港時間 08:00 重設；本機 ESL 規則及 Harper 後備檢查仍可使用"
     );
-  } else if (failure.kind === REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive) {
+  } else if (failure.globalStatus === "inconclusive") {
     updateHarperStatus(
       "ready",
-      "文法偵測已準備",
-      "文法偵測未能完成個別句子時，本機提示仍然會保留"
+      "未能安全判定這句文法",
+      "沒有把未能確認的結果當作正確；本機提示仍然會保留"
     );
   }
 }

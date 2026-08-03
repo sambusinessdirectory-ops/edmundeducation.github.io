@@ -1,7 +1,12 @@
 import {
+  CORPUS_COMPILED_PATTERN_COUNT,
+  CORPUS_COMPILED_RULE_COUNT,
+  EXECUTABLE_COMPILED_FAMILY_COUNT,
+  EXECUTABLE_COMPILED_PATTERN_COUNT,
+  approvedCorpusIncorrectSentenceId,
   checkLocalLearnerEnglish,
   mergeGrammarIssues
-} from "./writing-submission-esl-rules.js?v=20260801-grammar2";
+} from "./writing-submission-esl-rules.js?v=20260802-grammar5";
 import {
   Dialect,
   SuggestionKind,
@@ -16,12 +21,37 @@ export const WRITING_GRAMMAR_ENGINE = Object.freeze({
   dialect: "British"
 });
 
+export {
+  CORPUS_COMPILED_PATTERN_COUNT,
+  CORPUS_COMPILED_RULE_COUNT,
+  EXECUTABLE_COMPILED_FAMILY_COUNT,
+  EXECUTABLE_COMPILED_PATTERN_COUNT
+};
+
 const TERMINATORS = new Set([".", ";"]);
 const DEFAULT_LINT_OPTIONS = Object.freeze({
   language: "plaintext",
   dedup: true,
   isolateEnglish: false
 });
+
+// Harper's slim dictionary is intentionally secondary to the reviewed Edmund
+// corpus. Only rules that have positive learner-error coverage and zero hits
+// across all teacher-corrected corpus sentences are shown. This prevents
+// proper names, MWh, Oxford-comma style and other non-errors from becoming
+// grammar cards while retaining Harper's useful structural checks.
+const REVIEWED_HARPER_RULE_IDS = new Set([
+  "AdjectiveDoubleDegree",
+  "Alongside",
+  "AnA",
+  "AwareOf",
+  "Discuss",
+  "InterestedIn",
+  "PronounVerbAgreement",
+  "SentenceCapitalization",
+  "SinceDuration",
+  "WhomSubjectOfVerb"
+]);
 
 function requireString(value, name) {
   if (typeof value !== "string") {
@@ -322,13 +352,14 @@ export function createWritingGrammarChecker({
     const source = requireString(text, "text");
     if (!source.trim()) return Object.freeze([]);
     const localIssues = checkLocalLearnerEnglish(source);
+    // The teacher-approved issue set is authoritative for an exact corpus
+    // source. Lower-priority parsers must not add competing cards.
+    if (approvedCorpusIncorrectSentenceId(source)) return localIssues;
     try {
       await setup();
       const organized = await linter.organizedLints(source, DEFAULT_LINT_OPTIONS);
       const harperIssues = (await serializeOrganizedHarperLints(source, organized))
-        .filter((issue) => ![
-          "EllipsisLength", "UseEllipsisCharacter"
-        ].includes(issue.ruleId));
+        .filter((issue) => REVIEWED_HARPER_RULE_IDS.has(issue.ruleId));
       return mergeGrammarIssues(localIssues, harperIssues);
     } catch (error) {
       // Edmund's deterministic ESL checks do not depend on Harper's WASM

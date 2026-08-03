@@ -1,9 +1,83 @@
 export const WRITING_ESL_RULE_ENGINE = Object.freeze({
   name: "edmund-esl-basics",
-  version: "1.2.0",
+  version: "2.0.0",
   locale: "zh-Hant",
   execution: "browser"
 });
+
+// These verbs support the small deterministic parser below. Keeping an
+// explicit lexicon prevents sentence-initial nouns from being guessed to be
+// verbs merely because they have a familiar-looking ending. The corpus-backed
+// matcher supplies the long tail of reviewed phrases; this list covers the
+// reusable agreement, auxiliary and complement structures.
+const KNOWN_BASE_VERBS = new Set([
+  "accept", "access", "add", "admit", "advise", "affect", "agree", "allow",
+  "answer", "apologise", "apologize", "appear", "apply", "arrange", "arrive",
+  "ask", "avoid", "be", "become", "begin", "believe", "belong", "bring",
+  "build", "buy", "call", "carry", "cause", "change", "check", "choose",
+  "clean", "collect", "compare", "complete", "consider", "contain", "continue",
+  "cook", "cost", "create", "decide", "deliver", "deny", "describe", "develop",
+  "discuss", "do", "drink", "drive", "eat", "encourage", "end", "enjoy",
+  "enter", "expect", "explain", "fall", "feel", "find", "finish", "follow",
+  "forget", "get", "give", "go", "grow", "happen", "hate", "have", "help",
+  "hope", "identify", "imagine", "improve", "include", "increase", "invite",
+  "join", "keep", "know", "learn", "leave", "like", "live", "locate", "look",
+  "love", "make", "manage", "mean", "mind", "miss", "move", "need", "notice",
+  "offer", "open", "order", "organise", "organize", "pay", "plan", "play",
+  "practise", "practice", "prefer", "prepare", "prevent", "produce", "promise",
+  "protect", "provide", "read", "receive", "recommend", "reduce", "refund",
+  "refuse", "rely", "remain", "remember", "remind", "repair", "replace", "reply",
+  "report", "require", "return", "rise", "risk", "run", "save", "say", "see",
+  "sell", "seem", "send", "show", "sleep", "solve", "spend", "start", "stay",
+  "stop", "study", "suggest", "support", "take", "talk", "teach", "tell", "think",
+  "travel", "try", "understand", "use", "visit", "wait", "walk", "want", "watch",
+  "wear", "win", "work", "write"
+]);
+
+const IRREGULAR_THIRD_PERSON = Object.freeze({
+  be: "is",
+  do: "does",
+  go: "goes",
+  have: "has"
+});
+
+const IRREGULAR_PAST_TO_BASE = Object.freeze({
+  became: "become", began: "begin", been: "be", brought: "bring", built: "build",
+  bought: "buy", chose: "choose", did: "do", drank: "drink", drove: "drive",
+  ate: "eat", fell: "fall", felt: "feel", found: "find", forgot: "forget",
+  got: "get", gave: "give", gone: "go", grew: "grow", had: "have", knew: "know",
+  left: "leave", made: "make", meant: "mean", paid: "pay", read: "read",
+  rose: "rise", ran: "run", said: "say", saw: "see", sent: "send", slept: "sleep",
+  spent: "spend", took: "take", taught: "teach", told: "tell", thought: "think",
+  understood: "understand", went: "go", won: "win", wore: "wear", written: "write",
+  wrote: "write", was: "be", were: "be"
+});
+
+function thirdPersonForm(baseValue) {
+  const base = String(baseValue || "").toLocaleLowerCase("en-GB");
+  if (IRREGULAR_THIRD_PERSON[base]) return IRREGULAR_THIRD_PERSON[base];
+  if (/[^aeiou]y$/u.test(base)) return `${base.slice(0, -1)}ies`;
+  if (/(?:s|sh|ch|x|z|o)$/u.test(base)) return `${base}es`;
+  return `${base}s`;
+}
+
+function regularPastForm(baseValue) {
+  const base = String(baseValue || "").toLocaleLowerCase("en-GB");
+  if (base.endsWith("e")) return `${base}d`;
+  if (/[^aeiou]y$/u.test(base)) return `${base.slice(0, -1)}ied`;
+  return `${base}ed`;
+}
+
+function gerundForm(baseValue) {
+  const base = String(baseValue || "").toLocaleLowerCase("en-GB");
+  if (base === "be") return "being";
+  if (["die", "lie", "tie"].includes(base)) return `${base.slice(0, -2)}ying`;
+  if (["begin", "get", "plan", "run", "sit", "stop", "swim", "win"].includes(base)) {
+    return `${base}${base.at(-1)}ing`;
+  }
+  if (base.endsWith("e") && !/(?:ee|oe|ye)$/u.test(base)) return `${base.slice(0, -1)}ing`;
+  return `${base}ing`;
+}
 
 const COUNTABLE_PLURALS = Object.freeze({
   advantage: "advantages",
@@ -37,73 +111,18 @@ const PLURAL_SUBJECTS = Object.freeze([
   "teachers", "uniforms", "workers"
 ]);
 
-const THIRD_PERSON_TO_BASE = Object.freeze({
-  allows: "allow",
-  carries: "carry",
-  creates: "create",
-  does: "do",
-  finds: "find",
-  gives: "give",
-  goes: "go",
-  has: "have",
-  helps: "help",
-  improves: "improve",
-  increases: "increase",
-  is: "are",
-  locates: "locate",
-  makes: "make",
-  needs: "need",
-  offers: "offer",
-  provides: "provide",
-  reduces: "reduce",
-  relies: "rely",
-  requires: "require",
-  sells: "sell",
-  spends: "spend",
-  studies: "study",
-  tries: "try",
-  uses: "use",
-  wants: "want",
-  wears: "wear",
-  works: "work"
-});
+const THIRD_PERSON_TO_BASE = Object.freeze(Object.fromEntries(
+  [...KNOWN_BASE_VERBS].map((base) => [thirdPersonForm(base), base])
+));
 
 const NON_BASE_TO_BASE = Object.freeze({
-  asked: "ask",
-  carried: "carry",
-  created: "create",
-  did: "do",
-  followed: "follow",
-  found: "find",
-  gave: "give",
-  gone: "go",
-  had: "have",
-  helped: "help",
-  improved: "improve",
-  increased: "increase",
-  located: "locate",
-  made: "make",
-  needed: "need",
-  offered: "offer",
-  provided: "provide",
-  reduced: "reduce",
-  required: "require",
-  saved: "save",
-  saw: "see",
+  ...Object.fromEntries([...KNOWN_BASE_VERBS].map((base) => [regularPastForm(base), base])),
+  ...IRREGULAR_PAST_TO_BASE,
+  are: "be",
+  being: "be",
+  done: "do",
   seen: "see",
-  sold: "sell",
-  spent: "spend",
-  studied: "study",
-  took: "take",
-  tried: "try",
-  trusted: "trust",
-  used: "use",
-  went: "go",
-  wore: "wear",
   worn: "wear",
-  worked: "work",
-  wrote: "write",
-  written: "write",
   ...THIRD_PERSON_TO_BASE
 });
 
@@ -123,8 +142,9 @@ const MODALS = Object.freeze([
 ]);
 
 const COMMON_ADVERBS = Object.freeze([
-  "also", "always", "easily", "generally", "never", "normally", "often", "quickly",
-  "really", "still", "usually"
+  "also", "always", "clearly", "easily", "generally", "gradually", "never", "normally",
+  "often", "quickly", "rapidly", "really", "sharply", "significantly", "slightly",
+  "steadily", "still", "usually"
 ]);
 
 function escapedAlternation(values) {
@@ -240,7 +260,11 @@ function addPluralSubjectAgreementIssues(source, issues) {
   const pattern = new RegExp(`\\b(${subjectAlternation})\\s+(?:(?:${adverbAlternation})\\s+)?(${verbAlternation})\\b`, "giu");
   for (const match of source.matchAll(pattern)) {
     const verb = match[2];
-    const replacement = preserveCase(verb, THIRD_PERSON_TO_BASE[verb.toLocaleLowerCase("en-GB")]);
+    const verbLower = verb.toLocaleLowerCase("en-GB");
+    const replacement = preserveCase(
+      verb,
+      verbLower === "is" ? "are" : THIRD_PERSON_TO_BASE[verbLower]
+    );
     const start = match.index + match[0].length - verb.length;
     addIssue(issues, createIssue(source, {
       ruleId: "EslPluralSubjectVerbAgreement",
@@ -341,6 +365,9 @@ function addModalBaseVerbIssues(source, issues) {
   const verbAlternation = escapedAlternation(Object.keys(NON_BASE_TO_BASE));
   const pattern = new RegExp(`\\b(${modalAlternation})\\s+(?:not\\s+)?(?:(?:${adverbAlternation})\\s+)?(${verbAlternation})\\b`, "giu");
   for (const match of source.matchAll(pattern)) {
+    // Sentence-initial May can be a person's name ("May helps students.").
+    // Do not reinterpret that proper name as the modal may.
+    if (match.index === 0 && match[1] === "May") continue;
     const verb = match[2];
     const replacement = preserveCase(verb, NON_BASE_TO_BASE[verb.toLocaleLowerCase("en-GB")]);
     const start = match.index + match[0].length - verb.length;
@@ -373,45 +400,353 @@ function addInfinitiveBaseVerbIssues(source, issues) {
   }
 }
 
-function addTomLoveAgreementIssues(source, issues) {
-  // Keep this deliberately narrow. A general proper-name detector would also
-  // treat sentence-initial common nouns as names and create false positives.
-  // This rule covers the verified learner fixture while allowing either valid
-  // correction order: "love eat" -> "love to eat" -> "loves to eat", or
-  // "love eat" -> "loves eat" -> "loves to eat".
-  const pattern = /\b(Tom)\s+(love)(?=\s+(?:(?:to\s+)?eat|eating)\b)/giu;
-  for (const match of source.matchAll(pattern)) {
-    const verb = match[2];
-    const replacement = preserveCase(verb, "loves");
-    const start = match.index + match[0].length - verb.length;
-    addIssue(issues, createIssue(source, {
-      ruleId: "EslSingularNamePresentAgreement",
-      title: "單數人名與動詞一致",
-      message: `${match[1]} 是第三人稱單數；一般現在式動詞要加 s。因此 ${verb} 應改為 ${replacement}。`,
-      start,
-      end: start + verb.length,
-      replacement
-    }));
+const SINGULAR_PRONOUN_SUBJECTS = new Set([
+  "he", "it", "she", "somebody", "someone", "something", "this", "that"
+]);
+const PLURAL_PRONOUN_SUBJECTS = new Set(["i", "they", "we", "you"]);
+const NON_NAME_SENTENCE_INITIALS = new Set([
+  "advice", "after", "all", "although", "always", "another", "before", "children", "customers",
+  "data", "each", "equipment", "every", "evidence", "feedback", "first", "however",
+  "information", "many", "money", "news", "nowadays", "overall", "people", "police",
+  "never", "please", "research", "second", "some", "staff", "students", "teachers", "there", "therefore",
+  "these", "those", "to", "uniforms", "water", "when", "while", "workers"
+]);
+const PRESENT_AND_PAST_HOMOGRAPHS = new Set(["cost", "cut", "hit", "hurt", "let", "put", "read", "set"]);
+const PRESENT_AGREEMENT_ADVERBS = new Set(COMMON_ADVERBS);
+const PAST_TIME_CUE_RE = /\b(?:ago|last\s+(?:night|week|month|year|summer)|yesterday|previously|in\s+(?:19|20)\d{2})\b/iu;
+const SINGULAR_NP_DETERMINERS = new Set([
+  "a", "an", "each", "every", "her", "his", "its", "my", "our", "that", "the",
+  "their", "this", "your"
+]);
+const SENTENCE_INITIAL_DETERMINERS = new Set([
+  ...SINGULAR_NP_DETERMINERS,
+  "all", "another", "any", "both", "either", "enough", "few", "fewer", "little",
+  "many", "more", "most", "much", "neither", "no", "several", "some", "such",
+  "these", "those", "what", "whatever", "which", "whichever", "whose"
+]);
+const SENTENCE_INITIAL_PREPOSITIONS = new Set([
+  "about", "above", "across", "after", "against", "along", "among", "around", "as", "at",
+  "before", "behind", "below", "beneath", "beside", "between", "beyond", "by", "despite",
+  "during", "except", "for", "from", "in", "inside", "into", "near", "of", "off", "on",
+  "onto", "opposite", "outside", "over", "past", "since", "through", "throughout", "to",
+  "toward", "towards", "under", "underneath", "until", "up", "upon", "via", "with",
+  "within", "without"
+]);
+const SENTENCE_INITIAL_FUNCTION_WORDS = new Set([
+  "although", "and", "because", "but", "can", "could", "if", "may", "might", "must",
+  "nor", "or", "shall", "should", "so", "than", "though", "unless", "when", "whenever",
+  "where", "whereas", "wherever", "whether", "while", "will", "would", "yet"
+]);
+const SENTENCE_INITIAL_ADJECTIVE_MODIFIERS = new Set([
+  "annual", "average", "clear", "complete", "current", "daily", "different", "elderly",
+  "existing", "final", "flexible", "future", "good", "hybrid", "important", "initial",
+  "international", "local", "main", "major", "monthly", "national", "new", "old", "online",
+  "personal", "plastic", "private", "proposed", "public", "recent", "recycled", "remote",
+  "rural", "school", "serious", "similar", "small", "total", "urban", "weekly"
+]);
+const PLURAL_NOUN_HEADS = new Set([
+  "children", "data", "feet", "men", "people", "police", "staff", "teeth", "women"
+]);
+const MANDATIVE_SUBJUNCTIVE_VERBS = new Set([
+  "ask", "demand", "insist", "propose", "recommend", "request", "require", "suggest"
+]);
+const PREFERENCE_COMPLEMENT_VERBS = new Set(["hate", "like", "love", "prefer"]);
+const GERUND_COMPLEMENT_VERBS = new Set([
+  "admit", "avoid", "consider", "deny", "enjoy", "finish", "imagine", "keep",
+  "mind", "miss", "practise", "practice", "recommend", "risk", "suggest"
+]);
+const INFINITIVE_COMPLEMENT_VERBS = new Set([
+  "agree", "appear", "arrange", "choose", "decide", "expect", "hope", "learn",
+  "manage", "need", "offer", "plan", "prepare", "promise", "refuse", "seem",
+  "try", "want"
+]);
+const AMBIGUOUS_NOUN_OR_VERB_COMPLEMENTS = new Set([
+  "access", "answer", "change", "drink", "help", "order", "play", "practice",
+  "repair", "report", "research", "run", "sleep", "study", "support", "use",
+  "visit", "walk", "work"
+]);
+const AMBIGUOUS_COMPLEMENT_OBJECT_HINTS = Object.freeze({
+  play: new Set(["badminton", "basketball", "football", "games", "hockey", "music", "sports", "tennis"]),
+  study: new Set(["biology", "chemistry", "english", "history", "law", "mathematics", "medicine", "physics", "science"])
+});
+
+function learnerWordTokens(source) {
+  return [...source.matchAll(/[A-Za-z]+(?:['’][A-Za-z]+)*/gu)].map((match) => Object.freeze({
+    text: match[0],
+    lower: match[0].toLocaleLowerCase("en-GB"),
+    start: match.index,
+    end: match.index + match[0].length
+  }));
+}
+
+function isSentenceInitialToken(source, token) {
+  return /(?:^|[.!?;]\s*)$/u.test(source.slice(0, token.start));
+}
+
+function nextVerbToken(tokens, subjectIndex) {
+  let index = subjectIndex + 1;
+  if (PRESENT_AGREEMENT_ADVERBS.has(tokens[index]?.lower)) index += 1;
+  return { token: tokens[index] || null, index };
+}
+
+function looksLikePastPredicate(token) {
+  const lower = token?.lower || "";
+  if (!lower) return false;
+  if (IRREGULAR_PAST_TO_BASE[lower]) return true;
+  const knownBase = NON_BASE_TO_BASE[lower];
+  if (knownBase && regularPastForm(knownBase) === lower) return true;
+  // The intentionally small verb lexicon cannot enumerate every regular
+  // predicate (for example, displayed). A bounded suffix fallback is safe
+  // here because it only suppresses a speculative proper-name correction.
+  return lower.length >= 5 && /(?:ied|[^e]ed)$/u.test(lower);
+}
+
+function sentenceInitialHasFunctionRole(value) {
+  return (
+    NON_NAME_SENTENCE_INITIALS.has(value)
+    || SENTENCE_INITIAL_DETERMINERS.has(value)
+    || SENTENCE_INITIAL_PREPOSITIONS.has(value)
+    || SENTENCE_INITIAL_FUNCTION_WORDS.has(value)
+  );
+}
+
+function looksLikeFinitePredicate(token) {
+  const lower = token?.lower || "";
+  return (
+    looksLikePastPredicate(token)
+    || Boolean(THIRD_PERSON_TO_BASE[lower])
+    || KNOWN_BASE_VERBS.has(lower)
+    || MODALS.includes(lower)
+    || ["am", "are"].includes(lower)
+  );
+}
+
+function modifierNounPrecedesFinitePredicate(tokens, subjectIndex, candidateIndex) {
+  if (!SENTENCE_INITIAL_ADJECTIVE_MODIFIERS.has(tokens[subjectIndex]?.lower)) return false;
+  if (!AMBIGUOUS_NOUN_OR_VERB_COMPLEMENTS.has(tokens[candidateIndex]?.lower)) return false;
+  let predicateIndex = candidateIndex + 1;
+  while (PRESENT_AGREEMENT_ADVERBS.has(tokens[predicateIndex]?.lower)) predicateIndex += 1;
+  return looksLikeFinitePredicate(tokens[predicateIndex]);
+}
+
+function isPluralNounHead(value) {
+  const word = String(value || "").toLocaleLowerCase("en-GB");
+  if (PLURAL_NOUN_HEADS.has(word)) return true;
+  if (["news", "physics", "mathematics", "economics"].includes(word)) return false;
+  return word.length > 3 && /s$/u.test(word) && !/(?:ss|us|is)$/u.test(word);
+}
+
+function isMandativeSubjunctive(tokens, subjectIndex) {
+  if (tokens[subjectIndex - 1]?.lower !== "that") return false;
+  const governing = complementVerbLemma(tokens[subjectIndex - 2]?.lower || "");
+  return MANDATIVE_SUBJUNCTIVE_VERBS.has(governing);
+}
+
+function addSimpleNounPhraseAgreementIssues(source, issues, tokens, hasPastTimeCue) {
+  if (hasPastTimeCue || tokens.length < 3) return;
+  const startsWithDeterminer = SINGULAR_NP_DETERMINERS.has(tokens[0].lower);
+  const startsWithAdjectiveLikeModifier = SENTENCE_INITIAL_ADJECTIVE_MODIFIERS.has(tokens[0].lower);
+  if (!startsWithDeterminer && !startsWithAdjectiveLikeModifier) return;
+
+  // Parse one compact noun phrase only. Never scan across an auxiliary,
+  // infinitive, prepositional phrase or earlier finite verb looking for a
+  // later word that happens to be in the verb lexicon.
+  const hasDeterminerAdjective = (
+    startsWithDeterminer
+    && SENTENCE_INITIAL_ADJECTIVE_MODIFIERS.has(tokens[1]?.lower)
+  );
+  const headIndex = hasDeterminerAdjective ? 2 : 1;
+  const verbIndex = headIndex + 1;
+  const head = tokens[headIndex];
+  const verb = tokens[verbIndex];
+  if (!head || !verb || ["and", "or"].includes(head.lower)) return;
+  const subjectText = source.slice(tokens[0].start, head.end);
+  const pluralSubject = isPluralNounHead(head.lower);
+
+  if (pluralSubject) {
+    const base = THIRD_PERSON_TO_BASE[verb.lower];
+    if (!base) return;
+    addPresentAgreementIssue(
+      source,
+      issues,
+      subjectText,
+      verb,
+      preserveCase(verb.text, verb.lower === "is" ? "are" : base)
+    );
+    return;
+  }
+
+  if (
+    KNOWN_BASE_VERBS.has(verb.lower)
+    && !PRESENT_AND_PAST_HOMOGRAPHS.has(verb.lower)
+  ) {
+    addPresentAgreementIssue(
+      source,
+      issues,
+      subjectText,
+      verb,
+      preserveCase(verb.text, thirdPersonForm(verb.lower))
+    );
   }
 }
 
-function addLoveEatComplementIssues(source, issues) {
-  // "love" may take a to-infinitive or an -ing form, but not another bare
-  // lexical verb. Limit the deterministic correction to the observed
-  // love/loves/loved + eat sequence; broader verb-complement choices require
-  // contextual judgement and belong in a future reviewed rule set.
-  const pattern = /\b(love|loves|loved)\s+(eat)\b/giu;
-  for (const match of source.matchAll(pattern)) {
-    const verb = match[2];
-    const replacement = preserveCase(verb, "to eat");
-    const start = match.index + match[0].length - verb.length;
+function addPresentAgreementIssue(source, issues, subject, verb, replacement, {
+  properName = false,
+  coordinated = false
+} = {}) {
+  const ruleId = coordinated
+    ? "EslCoordinatedSubjectVerbAgreement"
+    : properName
+      ? "EslSingularNamePresentAgreement"
+      : "EslPresentSubjectVerbAgreement";
+  const title = coordinated
+    ? "並列主語與動詞一致"
+    : properName
+      ? "單數人名與動詞一致"
+      : "主語與動詞一致";
+  addIssue(issues, createIssue(source, {
+    ruleId,
+    title,
+    message: `${subject} 與一般現在式動詞要保持單複數一致。因此 ${verb.text} 應改為 ${replacement}。`,
+    start: verb.start,
+    end: verb.end,
+    replacement
+  }));
+}
+
+function addGeneralPresentAgreementIssues(source, issues) {
+  const tokens = learnerWordTokens(source);
+  const hasPastTimeCue = PAST_TIME_CUE_RE.test(source);
+
+  addSimpleNounPhraseAgreementIssues(source, issues, tokens, hasPastTimeCue);
+
+  for (let index = 0; index < tokens.length; index += 1) {
+    const subject = tokens[index];
+    const lowerSubject = subject.lower;
+
+    // Two singular names joined by and form a plural subject.
+    if (
+      /^[A-Z][A-Za-z'’\-]*$/u.test(subject.text)
+      && tokens[index + 1]?.lower === "and"
+      && /^[A-Z][A-Za-z'’\-]*$/u.test(tokens[index + 2]?.text || "")
+    ) {
+      const { token: verb } = nextVerbToken(tokens, index + 2);
+      const base = THIRD_PERSON_TO_BASE[verb?.lower];
+      if (verb && base) {
+        const replacement = preserveCase(verb.text, verb.lower === "is" ? "are" : base);
+        addPresentAgreementIssue(
+          source,
+          issues,
+          `${subject.text} and ${tokens[index + 2].text}`,
+          verb,
+          replacement,
+          { coordinated: true }
+        );
+      }
+      index += 2;
+      continue;
+    }
+
+    const { token: verb, index: verbIndex } = nextVerbToken(tokens, index);
+    if (!verb) continue;
+
+    if (PLURAL_PRONOUN_SUBJECTS.has(lowerSubject)) {
+      const base = THIRD_PERSON_TO_BASE[verb.lower];
+      if (!base) continue;
+      const replacement = preserveCase(verb.text, verb.lower === "is" ? "are" : base);
+      addPresentAgreementIssue(source, issues, subject.text, verb, replacement);
+      continue;
+    }
+
+    if (SINGULAR_PRONOUN_SUBJECTS.has(lowerSubject)) {
+      if (
+        !KNOWN_BASE_VERBS.has(verb.lower)
+        || PRESENT_AND_PAST_HOMOGRAPHS.has(verb.lower)
+        || hasPastTimeCue
+        || isMandativeSubjunctive(tokens, index)
+      ) continue;
+      addPresentAgreementIssue(
+        source,
+        issues,
+        subject.text,
+        verb,
+        preserveCase(verb.text, thirdPersonForm(verb.lower))
+      );
+      continue;
+    }
+
+    const looksLikeSingularName = (
+      /^[A-Z][A-Za-z'’\-]*$/u.test(subject.text)
+      && isSentenceInitialToken(source, subject)
+      && !sentenceInitialHasFunctionRole(lowerSubject)
+      && !lowerSubject.endsWith("s")
+      && tokens[index - 1]?.lower !== "and"
+      && !modifierNounPrecedesFinitePredicate(tokens, index, verbIndex)
+    );
+    if (
+      looksLikeSingularName
+      && KNOWN_BASE_VERBS.has(verb.lower)
+      && !PRESENT_AND_PAST_HOMOGRAPHS.has(verb.lower)
+      && !hasPastTimeCue
+    ) {
+      addPresentAgreementIssue(
+        source,
+        issues,
+        subject.text,
+        verb,
+        preserveCase(verb.text, thirdPersonForm(verb.lower)),
+        { properName: true }
+      );
+    }
+  }
+}
+
+function complementVerbLemma(surface) {
+  if (KNOWN_BASE_VERBS.has(surface)) return surface;
+  return THIRD_PERSON_TO_BASE[surface] || NON_BASE_TO_BASE[surface] || "";
+}
+
+function addGeneralVerbComplementIssues(source, issues) {
+  const tokens = learnerWordTokens(source);
+  for (let index = 0; index + 1 < tokens.length; index += 1) {
+    const governing = tokens[index];
+    const complement = tokens[index + 1];
+    const governingLemma = complementVerbLemma(governing.lower);
+    if (!governingLemma || !KNOWN_BASE_VERBS.has(complement.lower)) continue;
+    if (AMBIGUOUS_NOUN_OR_VERB_COMPLEMENTS.has(complement.lower)) {
+      const objectHints = AMBIGUOUS_COMPLEMENT_OBJECT_HINTS[complement.lower];
+      if (!objectHints?.has(tokens[index + 2]?.lower || "")) continue;
+    }
+
+    let replacement = "";
+    let title = "動詞後的補語形式";
+    let message = "";
+    if (PREFERENCE_COMPLEMENT_VERBS.has(governingLemma)) {
+      replacement = `to ${complement.lower}`;
+      title = `${governingLemma} 後用 to + 動詞或 -ing`;
+      message = `${governing.text} 後面不能直接接另一個動詞原形。可用 to + 動詞或 -ing；這裡建議改為 ${replacement}。`;
+    } else if (GERUND_COMPLEMENT_VERBS.has(governingLemma)) {
+      replacement = gerundForm(complement.lower);
+      title = `${governingLemma} 後用 -ing`;
+      message = `${governing.text} 後面的動作通常要用 -ing 形式，因此 ${complement.text} 應改為 ${replacement}。`;
+    } else if (INFINITIVE_COMPLEMENT_VERBS.has(governingLemma)) {
+      replacement = `to ${complement.lower}`;
+      title = `${governingLemma} 後用 to + 動詞`;
+      message = `${governing.text} 後面的動作通常要用 to + 動詞原形，因此 ${complement.text} 應改為 ${replacement}。`;
+    }
+    if (!replacement) continue;
+
     addIssue(issues, createIssue(source, {
-      ruleId: "EslPreferenceInfinitiveOrGerund",
-      title: "love 後用 to + 動詞或 -ing",
-      message: `love 後面不能直接接另一個動詞原形。可以寫 love to eat 或 love eating；這裡建議把 ${verb} 改為 ${replacement}。`,
-      start,
-      end: start + verb.length,
-      replacement
+      ruleId: PREFERENCE_COMPLEMENT_VERBS.has(governingLemma)
+        ? "EslPreferenceInfinitiveOrGerund"
+        : GERUND_COMPLEMENT_VERBS.has(governingLemma)
+          ? "EslGerundVerbComplement"
+          : "EslInfinitiveVerbComplement",
+      title,
+      message,
+      start: complement.start,
+      end: complement.end,
+      replacement: preserveCase(complement.text, replacement)
     }));
   }
 }
@@ -432,8 +767,8 @@ export function checkLocalLearnerEnglish(text) {
   addGenericPeoplePluralIssues(source, issues);
   addModalBaseVerbIssues(source, issues);
   addInfinitiveBaseVerbIssues(source, issues);
-  addTomLoveAgreementIssues(source, issues);
-  addLoveEatComplementIssues(source, issues);
+  addGeneralPresentAgreementIssues(source, issues);
+  addGeneralVerbComplementIssues(source, issues);
 
   issues.sort((left, right) => (
     left.start - right.start
