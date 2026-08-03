@@ -915,7 +915,18 @@
       background: var(--paper-solid);
       box-shadow: 0 34px 100px rgba(29, 15, 8, .36);
     }
-    dialog[data-entry-dialog] { width: min(720px, calc(100% - 28px)); }
+    dialog[data-entry-dialog] {
+      width: min(720px, calc(100% - 28px));
+      height: min(760px, calc(100dvh - 28px));
+      max-height: calc(100dvh - 28px);
+      overflow: hidden;
+    }
+    dialog[data-entry-dialog] .dialog-card {
+      box-sizing: border-box;
+      height: 100%;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
 
     dialog::backdrop { background: rgba(36, 22, 16, .54); backdrop-filter: blur(5px); }
     .dialog-card { padding: 28px; }
@@ -957,7 +968,7 @@
       font-weight: 850;
     }
     .homework-picker-search { width: 100%; min-height: 42px; }
-    .homework-picker-results { display: grid; gap: 7px; max-height: 244px; overflow: auto; overscroll-behavior: contain; }
+    .homework-picker-results { display: grid; gap: 7px; height: min(244px, 30dvh); max-height: 244px; overflow: auto; overscroll-behavior: contain; }
     .homework-picker-result {
       display: grid;
       gap: 3px;
@@ -1045,6 +1056,27 @@
     .metric-card span { display: block; color: #5f4b41; font-size: 13px; font-weight: 800; }
     .metric-card strong { display: block; margin-top: 10px; color: var(--amber-dark); font-size: clamp(34px, 4vw, 50px); line-height: 1; }
     .metric-card.completed strong { color: #2e7749; }
+
+    .homework-type-dashboard { margin-top: 20px; padding: clamp(22px, 3vw, 34px); }
+    .homework-type-summary { display: flex; align-items: flex-end; justify-content: space-between; gap: 18px; margin-bottom: 18px; }
+    .homework-type-total { margin: 0; color: #5f4b41; text-align: right; font-size: 13px; font-weight: 800; }
+    .homework-type-total strong { display: block; margin-bottom: 4px; color: var(--amber-dark); font-size: clamp(34px, 4vw, 50px); line-height: 1; }
+    .homework-type-layout { display: grid; grid-template-columns: minmax(220px, .72fr) minmax(320px, 1.28fr); align-items: center; gap: clamp(22px, 4vw, 52px); }
+    .homework-type-pie-shell { display: grid; place-items: center; }
+    .homework-type-pie {
+      width: min(270px, 70vw);
+      aspect-ratio: 1;
+      border: 12px solid rgba(255, 253, 248, .86);
+      border-radius: 50%;
+      background: conic-gradient(#ded8cf 0 100%);
+      box-shadow: 0 14px 34px rgba(54, 31, 18, .13), inset 0 0 0 1px rgba(82, 55, 40, .08);
+    }
+    .homework-type-legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; margin: 0; padding: 0; list-style: none; }
+    .homework-type-legend li { display: flex; align-items: center; justify-content: space-between; gap: 12px; border: 1px solid rgba(82, 55, 40, .13); border-radius: 13px; padding: 11px 12px; background: rgba(255, 253, 248, .78); }
+    .homework-type-identity { display: flex; align-items: center; gap: 8px; min-width: 0; color: #4f3d35; font-size: 12px; font-weight: 850; }
+    .homework-type-swatch { width: 12px; height: 12px; flex: 0 0 12px; border-radius: 50%; box-shadow: 0 0 0 3px rgba(82, 55, 40, .06); }
+    .homework-type-legend strong { flex: 0 0 auto; color: var(--amber-dark); font-size: 12px; }
+    .homework-type-note { margin: 15px 0 0; color: var(--muted); font-size: 12px; }
 
     .countdown-dashboard { margin-top: 20px; padding: clamp(22px, 3vw, 34px); }
     .countdown-toolbar { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
@@ -1146,6 +1178,10 @@
       .mass-edit-buttons { width: 100%; justify-content: flex-start; }
       .dialog-card { padding: 22px; }
       .homework-picker-results { max-height: 210px; }
+      .homework-type-summary { align-items: flex-start; flex-direction: column; }
+      .homework-type-total { text-align: left; }
+      .homework-type-layout { grid-template-columns: 1fr; }
+      .homework-type-legend { grid-template-columns: 1fr; }
       .countdown-toolbar { align-items: flex-start; flex-direction: column; }
       .countdown-form-grid { grid-template-columns: 1fr; }
       .study-main { grid-template-columns: 1fr 90px; }
@@ -1367,6 +1403,23 @@
         </div>
       </section>
 
+      <section class="homework-type-dashboard glass-card" aria-labelledby="schedule-homework-type-heading">
+        <div class="homework-type-summary">
+          <div class="progress-heading">
+            <p>HOMEWORK TYPE BREAKDOWN</p>
+            <h2 id="schedule-homework-type-heading">功課類型分佈</h2>
+          </div>
+          <p class="homework-type-total"><strong data-homework-type-total>—</strong>累計已分類功課</p>
+        </div>
+        <div class="homework-type-layout">
+          <div class="homework-type-pie-shell">
+            <div class="homework-type-pie" data-homework-type-pie role="img" aria-label="暫未有附上系統連結的已分類功課"></div>
+          </div>
+          <ul class="homework-type-legend" data-homework-type-legend aria-label="各類功課數目及百分比"></ul>
+        </div>
+        <p class="homework-type-note" data-homework-type-note>加入系統功課連結後，這裡會按類型顯示累計分佈。</p>
+      </section>
+
       <section class="countdown-dashboard glass-card" aria-labelledby="schedule-countdown-heading">
         <div class="countdown-toolbar">
           <div class="progress-heading">
@@ -1452,7 +1505,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script src="shared-system-nav.js?v=20260728-2"></script>
-  <script type="module" src="schedule-system.js?v=20260801-1"></script>
+  <script src="shared-system-nav.js?v=20260803-1"></script>
+  <script type="module" src="schedule-system.js?v=20260803-1"></script>
 </body>
 </html>

@@ -76,12 +76,17 @@ test("portal exposes the requested stage-one writing, archive and grammar-log in
   assert.match(html, /<h2>文章內容<\/h2>/);
   assert.match(html, /我的文章/);
   assert.match(html, /我的文法問題記錄/);
-  assert.match(html, /文法檢查只會在您輸入句號（\.）或分號（;）完成一句後開始/);
+  assert.match(html, /文法偵測只會在您輸入句號（\.）或分號（;）完成一句後開始/);
   assert.match(css, /--midnight:\s*#272757/i);
   assert.match(script, /newlyCompletedWritingSegments\(previousValue, nextValue\)/);
   assert.match(script, /\/v1\/grammar-occurrences\/batch/);
   assert.match(script, /\/v1\/grammar-problems/);
   assert.match(script, /method:\s*"PUT"/);
+  assert.match(html, /data-grammar-toggle/);
+  assert.match(html, /data-topic-picker-open/);
+  assert.match(html, /data-writing-articles-chart/);
+  assert.match(html, /data-writing-time-chart/);
+  assert.match(html, /data-writing-average-chart/);
 });
 
 test("grammar history and article archives follow the deployed API contract", () => {
@@ -98,19 +103,22 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(serviceWorker, /HARPER_CACHE_PREFIX\s*=\s*"edmund-vendor-harper-"/);
   assert.match(serviceWorker, /HARPER_CACHE_NAME\s*=\s*"edmund-vendor-harper-2\.7\.0"/);
   assert.match(serviceWorker, /HARPER_PATH_PREFIX\s*=\s*"\/assets\/vendor\/harper\/2\.7\.0\/"/);
-  assert.match(html, /AI GRAMMAR REVIEW/);
+  assert.match(html, /GRAMMAR DETECTION/);
+  assert.doesNotMatch(html, /\bAI\b|進階文法助手|進階文法檢查/);
+  assert.match(html, /文法偵測才會檢查該句/);
   assert.match(html, /只有以句號或分號完成的單句會安全傳送至 Edmund 文法服務/);
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
-  assert.match(html, /AI 文法提示（測試版）/);
-  assert.match(html, /writing-submission\.css\?v=20260731-ai1/);
-  assert.match(html, /writing-submission\.js\?v=20260801-grammar4/);
+  assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
+  assert.match(html, /writing-submission\.css\?v=20260803-progress1/);
+  assert.match(html, /writing-submission\.js\?v=20260803-progress1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260801-grammar2/);
-  assert.match(script, /writing-submission-ai\.js\?v=20260801-grammar4/);
+  assert.match(script, /writing-submission-ai\.js\?v=20260802-grammar1/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"1\.2\.0"/);
   assert.match(eslRules, /writing-submission-esl-rules-core\.js\?v=20260801-grammar2/);
   assert.match(script, /暫未偵測到高信心文法問題/);
-  assert.match(script, /AI 及本機工具都可能遺漏問題/);
+  assert.match(script, /正在準備文法偵測/);
+  assert.match(script, /文法偵測可能遺漏問題/);
   assert.match(script, /需老師覆核/);
   assert.match(script, /此項局部修正後（句內仍可能有其他問題）/);
   assert.match(eslRules, /EslModalParallelVerb/);
@@ -120,6 +128,26 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /script-src 'self' 'wasm-unsafe-eval' https:\/\/cdn\.jsdelivr\.net/);
   assert.match(html, /worker-src 'self' blob:/);
   assert.doesNotMatch(script, /(?:unpkg|esm\.sh|cdn\.jsdelivr)\./i);
+});
+
+test("writing preferences, topic selection, timing, progress and recoverable deletion are wired", () => {
+  assert.match(script, /apiJson\("\/v1\/preferences"/);
+  assert.match(script, /grammarDetectionEnabled:\s*enabled/);
+  assert.match(script, /if \(!state\.grammarDetectionEnabled\) return cancelledRemoteGrammarResult\(\)/);
+  assert.match(script, /startGrammarDetection\(\{ scanCurrentWriting \}\)/);
+  assert.match(script, /homework-resource-catalog\.mjs/);
+  assert.match(script, /questionPrompt\.join\("\\n\\n"\)/);
+  assert.match(script, /dataset\.selectWritingTopic/);
+  assert.match(script, /submissionDurationSeconds:\s*state\.submissionDurationSeconds/);
+  assert.match(script, /durationSeconds:\s*submittedDurationSeconds/);
+  assert.match(script, /source\.startsWith\("\/\/"\)/, "topic preview images must reject protocol-relative external URLs");
+  assert.match(script, /apiJson\("\/v1\/progress"\)/);
+  assert.match(script, /method:\s*"DELETE"/);
+  assert.match(script, /文法問題記錄仍會保留給管理員/);
+  assert.match(css, /\.submission-detail-head h2[^}]*font-size:\s*clamp\(20px, 2\.1vw, 25px\)/s);
+  assert.match(css, /\.submission-progress-grid/);
+  assert.match(css, /\.grammar-toggle input:checked/);
+  assert.match(css, /\.topic-picker-dialog/);
 });
 
 test("completed sentences use the authenticated AI endpoint without sending the whole draft", () => {
@@ -146,7 +174,7 @@ test("an incomplete AI review preserves local findings without pretending the se
   assert.match(script, /writingGrammarReviewNotice\(\s*warnings\.map\(\(warning\) => warning\.kind\),\s*hasVisibleIssues \? 1 : 0\s*\)/);
   assert.match(aiAdapter, /code === "GRAMMAR_CHECK_QUOTA_EXHAUSTED"/);
   assert.match(aiAdapter, /quotaExhausted: "quota_exhausted"/);
-  assert.match(script, /Workers AI 每日額度已用完/);
+  assert.match(script, /文法偵測今日額度已用完/);
   assert.match(script, /state\.remoteGrammarWarnings\.clear\(\)/);
   assert.match(script, /state\.remoteGrammarBackoffUntil\s*=\s*0/);
   assert.match(script, /state\.remoteGrammarBackoffFailure\s*=\s*null/);

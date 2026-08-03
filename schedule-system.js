@@ -33,11 +33,12 @@ import {
   filterHomeworkResources,
   fullHomeworkTriggerAtCursor,
   homeworkAutocomplete,
+  insertHomeworkResourceTitle,
   normalizeHomeworkHref,
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20260727-2";
+} from "./schedule-homework-links.mjs?v=20260803-1";
 import {
   ScheduleClipboardError,
   createScheduleClipboardPayload,
@@ -60,7 +61,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
-const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260801-1";
+const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260803-1";
 const WEEKDAY_MASCOTS = [
   "assets/schedule/weekdays/monday-walking-to-school.webp",
   "assets/schedule/weekdays/tuesday-basketball.webp",
@@ -128,6 +129,10 @@ const elements = {
   metricTotalGoals: document.querySelector("[data-metric-total-goals]"),
   metricWeekCompleted: document.querySelector("[data-metric-week-completed]"),
   metricTotalCompleted: document.querySelector("[data-metric-total-completed]"),
+  homeworkTypeTotal: document.querySelector("[data-homework-type-total]"),
+  homeworkTypePie: document.querySelector("[data-homework-type-pie]"),
+  homeworkTypeLegend: document.querySelector("[data-homework-type-legend]"),
+  homeworkTypeNote: document.querySelector("[data-homework-type-note]"),
   countdownGrid: document.querySelector("[data-countdown-grid]"),
   countdownStatus: document.querySelector("[data-countdown-status]"),
   addCountdowns: document.querySelector("[data-add-countdowns]"),
@@ -202,7 +207,8 @@ const state = {
   scheduleClipboardSerialized: "",
   scheduleClipboardPayload: null,
   homeworkCompletion: null,
-  homeworkPickerType: ""
+  homeworkPickerType: "",
+  homeworkPickerReplacement: null
 };
 
 let homeworkResourceCatalog = null;
@@ -234,7 +240,8 @@ function emptyWeekPayload() {
       weekGoals: 0,
       totalGoals: 0,
       weekCompleted: 0,
-      totalCompleted: 0
+      totalCompleted: 0,
+      homeworkTypeCounts: Object.fromEntries(HOMEWORK_RESOURCE_TYPES.map((definition) => [definition.type, 0]))
     },
     countdownCapacity: MIN_COUNTDOWNS,
     countdowns: []
@@ -284,6 +291,7 @@ function homeworkTypeDefinition(type) {
 
 function closeHomeworkPicker({ keepSearch = false } = {}) {
   state.homeworkPickerType = "";
+  state.homeworkPickerReplacement = null;
   elements.homeworkPicker.hidden = true;
   if (!keepSearch) elements.homeworkPickerSearch.value = "";
 }
@@ -337,11 +345,12 @@ function renderHomeworkPickerResults() {
   elements.homeworkPickerResults.append(fragment);
 }
 
-async function openHomeworkPicker(type, { focusSearch = false } = {}) {
+async function openHomeworkPicker(type, { focusSearch = false, replacement = null } = {}) {
   const definition = homeworkTypeDefinition(type);
   if (!definition || elements.entryMessage.readOnly) return;
   const changed = state.homeworkPickerType !== type;
   state.homeworkPickerType = type;
+  state.homeworkPickerReplacement = replacement;
   elements.homeworkPicker.hidden = false;
   elements.homeworkPickerTitle.textContent = `選擇 ${definition.label} 練習`;
   if (changed) elements.homeworkPickerSearch.value = "";
@@ -408,7 +417,12 @@ function addHomeworkResource(resourceId) {
     return;
   }
   const nextResources = [...resources, resource];
-  const nextMessage = serializeScheduleMessage(elements.entryMessage.value.trim(), nextResources);
+  const visibleMessage = insertHomeworkResourceTitle(
+    elements.entryMessage.value,
+    state.homeworkPickerReplacement,
+    resource.label
+  );
+  const nextMessage = serializeScheduleMessage(visibleMessage.value.trim(), nextResources);
   if (nextMessage.length > SCHEDULE_MESSAGE_MAX_LENGTH) {
     const message = "未能加入連結：功課內容連同連結最多 2,000 個字元。請縮短內容或移除其他連結。";
     setStatus(elements.entryStatus, message, "error");
@@ -416,9 +430,11 @@ function addHomeworkResource(resourceId) {
     return;
   }
   state.editing.resources = nextResources;
+  elements.entryMessage.value = visibleMessage.value;
   renderHomeworkAttachments();
   closeHomeworkPicker();
   elements.entryMessage.focus();
+  elements.entryMessage.setSelectionRange(visibleMessage.cursor, visibleMessage.cursor);
   setStatus(elements.entryStatus, "");
   showToast("功課連結已加入；儲存本格後學生即可開啟。", "success");
 }
@@ -443,7 +459,7 @@ function updateHomeworkAutocomplete() {
   elements.homeworkAutocomplete.hidden = !state.homeworkCompletion;
   elements.homeworkAutocompleteText.textContent = state.homeworkCompletion?.trigger || "";
   const fullTrigger = fullHomeworkTriggerAtCursor(elements.entryMessage.value, cursor);
-  if (fullTrigger) openHomeworkPicker(fullTrigger.type);
+  if (fullTrigger) openHomeworkPicker(fullTrigger.type, { replacement: fullTrigger });
   else closeHomeworkPicker();
 }
 
@@ -1182,6 +1198,7 @@ function renderMetrics() {
   elements.metricTotalGoals.textContent = String(Number(metrics.totalGoals) || 0);
   elements.metricWeekCompleted.textContent = String(Number(metrics.weekCompleted) || 0);
   elements.metricTotalCompleted.textContent = String(Number(metrics.totalCompleted) || 0);
+  renderHomeworkTypeDashboard(metrics.homeworkTypeCounts);
 }
 
 function setMetricsUnavailable() {
@@ -1189,6 +1206,57 @@ function setMetricsUnavailable() {
   elements.metricTotalGoals.textContent = "—";
   elements.metricWeekCompleted.textContent = "—";
   elements.metricTotalCompleted.textContent = "—";
+  renderHomeworkTypeDashboard();
+}
+
+function renderHomeworkTypeDashboard(rawCounts = {}) {
+  if (!elements.homeworkTypePie || !elements.homeworkTypeLegend || !elements.homeworkTypeTotal) return;
+  const rows = HOMEWORK_RESOURCE_TYPES.map((definition) => ({
+    ...definition,
+    count: Math.max(0, Number(rawCounts?.[definition.type]) || 0)
+  }));
+  const total = rows.reduce((sum, row) => sum + row.count, 0);
+  elements.homeworkTypeTotal.textContent = String(total);
+  elements.homeworkTypeLegend.replaceChildren();
+
+  let consumed = 0;
+  const segments = [];
+  rows.forEach((row) => {
+    const percentage = total ? row.count / total * 100 : 0;
+    if (row.count) {
+      segments.push(`${row.color} ${consumed.toFixed(3)}% ${(consumed + percentage).toFixed(3)}%`);
+      consumed += percentage;
+    }
+    const item = document.createElement("li");
+    const identity = document.createElement("span");
+    identity.className = "homework-type-identity";
+    const swatch = document.createElement("i");
+    swatch.className = "homework-type-swatch";
+    swatch.style.backgroundColor = row.color;
+    swatch.setAttribute("aria-hidden", "true");
+    const label = document.createElement("span");
+    label.textContent = row.label;
+    identity.append(swatch, label);
+    const value = document.createElement("strong");
+    value.textContent = `${row.count} · ${percentage.toFixed(total ? 1 : 0)}%`;
+    item.append(identity, value);
+    elements.homeworkTypeLegend.append(item);
+  });
+
+  elements.homeworkTypePie.style.background = total
+    ? `conic-gradient(${segments.join(", ")})`
+    : "conic-gradient(#ded8cf 0 100%)";
+  elements.homeworkTypePie.setAttribute(
+    "aria-label",
+    total
+      ? `累計 ${total} 項已分類功課：${rows.map((row) => `${row.label} ${row.count} 項`).join("；")}`
+      : "暫未有附上系統連結的已分類功課"
+  );
+  if (elements.homeworkTypeNote) {
+    elements.homeworkTypeNote.textContent = total
+      ? `按所有已儲存安排內的功課連結累計，共 ${total} 項；圓形圖合計為 100%。`
+      : "加入系統功課連結後，這裡會按類型顯示累計分佈。";
+  }
 }
 
 function todayISO() {
@@ -2029,7 +2097,11 @@ async function loadWeek(focusTarget = null) {
             weekGoals: Number(payload.metrics.weekGoals) || 0,
             totalGoals: Number(payload.metrics.totalGoals) || 0,
             weekCompleted: Number(payload.metrics.weekCompleted) || 0,
-            totalCompleted: Number(payload.metrics.totalCompleted) || 0
+            totalCompleted: Number(payload.metrics.totalCompleted) || 0,
+            homeworkTypeCounts: Object.fromEntries(HOMEWORK_RESOURCE_TYPES.map((definition) => [
+              definition.type,
+              Math.max(0, Number(payload.metrics.homeworkTypeCounts?.[definition.type]) || 0)
+            ]))
           }
         : emptyWeekPayload().metrics,
       countdownCapacity: Math.max(MIN_COUNTDOWNS, Math.min(MAX_COUNTDOWNS, Number(payload.countdownCapacity) || MIN_COUNTDOWNS)),
@@ -3586,7 +3658,7 @@ elements.entryMessage.addEventListener("keydown", (event) => {
       elements.entryMessage.setSelectionRange(accepted.cursor, accepted.cursor);
       state.homeworkCompletion = null;
       elements.homeworkAutocomplete.hidden = true;
-      openHomeworkPicker(accepted.type);
+      openHomeworkPicker(accepted.type, { replacement: accepted });
       return;
     }
   }

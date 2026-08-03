@@ -40,6 +40,13 @@ const test = (name, run) => tests.push({ name, run });
 const occurrences = (text, fragment) => text.split(fragment).length - 1;
 const normalText = (value) => String(value ?? "").trim();
 
+function normalizeStudentNames(value) {
+  if (typeof value === "string") return value.replace(/\bMia\b/g, "Tom").replaceAll("米婭", "湯姆");
+  if (Array.isArray(value)) value.forEach((item, index) => { value[index] = normalizeStudentNames(item); });
+  else if (value && typeof value === "object") Object.keys(value).forEach((key) => { value[key] = normalizeStudentNames(value[key]); });
+  return value;
+}
+
 function loadContent() {
   const sandbox = { window: {} };
   vm.createContext(sandbox);
@@ -53,9 +60,9 @@ const lessons = content.lessons;
 const allQuestions = lessons.flatMap((lesson) => lesson.questions);
 const importedLessonSources = await Promise.all(
   Array.from({ length: 214 }, (_, index) => index + 5)
-    .map(async (number) => JSON.parse(
+    .map(async (number) => normalizeStudentNames(JSON.parse(
       await read(`tools/sentence-structure-lessons/ss${String(number).padStart(2, "0")}.json`)
-    ))
+    )))
 );
 
 function makeElement(seed = {}) {
@@ -299,6 +306,8 @@ test("data contract contains 218 complete 50-question lessons", () => {
   );
   assert.equal(allQuestions.length, 10900);
   assert.equal(new Set(allQuestions.map((question) => question.id)).size, 10900);
+  assert.doesNotMatch(JSON.stringify(lessons), /\bMia\b|米婭/);
+  assert.match(JSON.stringify(lessons), /\bTom\b|湯姆/);
   assert.equal(new Set(lessons.map((lesson) => lesson.source.file)).size, expectedIds.length);
   assert.ok(lessons.every((lesson) => lesson.source.file.endsWith(".pdf")));
   assert.deepEqual(
@@ -1038,7 +1047,8 @@ test("wrong answers can enter an immediate correction round and return to the un
   assert.deepEqual(Array.from(sut.state.exercise.correctionIds), [q2.id]);
   assert.deepEqual(Array.from(sut.submissionQuestions(), (question) => question.id), [q2.id]);
   assert.equal((sut.elements.lessonContent.innerHTML.match(/data-question-id=/g) || []).length, 1);
-  assert.match(sut.elements.lessonContent.innerHTML, /Correction Round · 改正輪/);
+  assert.match(sut.elements.lessonContent.innerHTML, /錯題改正/);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /第\s*\d+\s*輪|分輪|改正輪/);
   assert.match(sut.elements.lessonContent.innerHTML, /暫時隱藏參考答案/);
   assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /answer-reveal/);
   assert.ok(!sut.elements.lessonContent.innerHTML.includes(q2.answer));
@@ -1679,6 +1689,29 @@ test("admin list and detail show per-student attempts, completions, and bookmark
   assert.match(sut.elements.adminDetail.innerHTML, /<strong>1<\/strong><span>完成次數<\/span>/);
   assert.match(sut.elements.adminDetail.innerHTML, /<strong>1<\/strong><span>書簽數量<\/span>/);
   assert.doesNotMatch(sut.elements.adminDetail.innerHTML, /data-resume-attempt=/);
+});
+
+test("Sentence Structure question totals stay unique across retries and later attempts", () => {
+  const { sut } = createFrontendHarness();
+  const [q1, q2] = sut.getLesson("ss1").questions;
+  sut.state.attempts = [
+    { id: "attempt-1", lessonId: "ss1", result: { rounds: [
+      { round: 1, submittedAt: "2026-07-01T10:00:00.000Z", checkedIds: [q1.id, q1.id], correctIds: [], incorrectIds: [q1.id] },
+      { round: 2, submittedAt: "2026-07-02T10:00:00.000Z", checkedIds: [q1.id, q2.id], correctIds: [q1.id], incorrectIds: [q2.id] }
+    ] } },
+    { id: "attempt-2", lessonId: "ss1", result: { rounds: [
+      { round: 3, submittedAt: "2026-07-03T10:00:00.000Z", checkedIds: [q2.id], correctIds: [q2.id], incorrectIds: [] }
+    ] } }
+  ];
+  const rows = sut.questionActivityRows();
+  assert.equal(rows.length, 2);
+  assert.equal(rows.find(({ questionId }) => questionId === q1.id).time, Date.parse("2026-07-01T10:00:00.000Z"));
+  assert.equal(rows.find(({ questionId }) => questionId === q1.id).correctedAt, Date.parse("2026-07-02T10:00:00.000Z"));
+  assert.equal(rows.find(({ questionId }) => questionId === q2.id).correctedAt, Date.parse("2026-07-03T10:00:00.000Z"));
+});
+
+test("student-facing Sentence Structure copy contains no round counter", () => {
+  assert.doesNotMatch(`${html}\n${frontendSource}`, /第\s*\$?\{?[^\n<]{0,30}輪|分輪|改正輪/);
 });
 
 let failed = 0;

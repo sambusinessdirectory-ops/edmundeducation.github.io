@@ -260,3 +260,38 @@ test("published Proverb data satisfies the frontend contract", { skip: !fs.exist
     });
   }
 });
+
+test("student search indexes titles, teaching pages, and exact exercise questions", () => {
+  const source = [
+    "let lessonSearchIndexCache = null; const EXERCISE_PAGE = 8;",
+    functionSource("collectLessonSearchStrings", "normalizeLessonSearchText"),
+    functionSource("normalizeLessonSearchText", "lessonSearchIndex"),
+    functionSource("lessonSearchIndex", "searchLessons"),
+    functionSource("searchLessons", "renderLessonSearch")
+  ].join("\n");
+  const lesson = { ...syntheticLesson(), slug: "out-of-sight", benefits: [{ zh: "合作表達", en: "cooperative expression" }], rules: [{ zh: "重要規則", en: "important rule" }] };
+  const globals = { lessonList: () => [lesson], lessonTitle: (item) => item.titleZh, lessonEnglishTitle: (item) => item.titleEn };
+  const benefit = runInSandbox(source, "searchLessons('COOPERATIVE')", globals);
+  assert.equal(benefit[0].page, 5);
+  const question = runInSandbox(source, "searchLessons('中文題目 7')", globals).find(({ questionId }) => questionId === "proverb-01-q07");
+  assert.equal(question.page, 8);
+  assert.equal(question.questionId, "proverb-01-q07");
+  assert.match(html, /data-lesson-search-input/);
+  assert.match(app, /data-search-question/);
+});
+
+test("progress dashboard counts each Proverb question once across retries", () => {
+  const source = functionSource("questionActivityRows", "progressRangeStart");
+  const attempts = [{ id: "attempt-1", lessonId: "proverb-01", result: { rounds: [
+    { round: 1, submittedAt: "2026-07-01T10:00:00.000Z", checkedIds: ["proverb-01-q01", "proverb-01-q01"], correctIds: [], incorrectIds: ["proverb-01-q01"] },
+    { round: 2, submittedAt: "2026-07-02T10:00:00.000Z", checkedIds: ["proverb-01-q01", "proverb-01-q02"], correctIds: ["proverb-01-q01", "proverb-01-q02"], incorrectIds: [] }
+  ] } }];
+  const rows = runInSandbox(source, "questionActivityRows(input)", { input: attempts, state: { attempts: [] }, getQuestion: (_lessonId, questionId) => ({ id: questionId }) });
+  assert.equal(rows.length, 2);
+  assert.equal(rows.find(({ questionId }) => questionId.endsWith("q01")).time, Date.parse("2026-07-01T10:00:00.000Z"));
+  assert.equal(rows.find(({ questionId }) => questionId.endsWith("q01")).correctedAt, Date.parse("2026-07-02T10:00:00.000Z"));
+});
+
+test("student-facing Proverb copy contains no round counter", () => {
+  assert.doesNotMatch(`${html}\n${app}`, /第\s*\$?\{?[^\n<]{0,30}輪|分輪|改正輪/);
+});

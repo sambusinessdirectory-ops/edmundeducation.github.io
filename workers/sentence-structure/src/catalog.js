@@ -14,7 +14,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "We went to the supermarket to buy some fresh fruit."
   ],
   "ss1-q05": [
-    "Mia opened the window to get some fresh air."
+    "Tom opened the window to get some fresh air."
   ],
   "ss1-q06": [
     "Jack is saving money to buy a new bicycle."
@@ -454,7 +454,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The emergency instructions are easy for passengers to follow even under pressure."
   ],
   "ss4-q01": [
-    "Although it was raining, Mia walked to school."
+    "Although it was raining, Tom walked to school."
   ],
   "ss4-q02": [
     "Although Ben was tired, he finished his homework."
@@ -604,7 +604,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Although the proposal could improve public transport, some residents oppose it because they are worried about construction noise."
   ],
   "ss5-q01": [
-    "While Mia is tired, she is finishing her homework."
+    "While Tom is tired, she is finishing her homework."
   ],
   "ss5-q02": [
     "While the bag is small, it can hold many books."
@@ -781,7 +781,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Despite his busy schedule, Mr Chan attended the school event."
   ],
   "ss6-q10": [
-    "Mia cooked dinner despite arriving home late."
+    "Tom cooked dinner despite arriving home late."
   ],
   "ss6-q11": [
     "Despite the high price, Sarah bought the coat."
@@ -904,7 +904,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The scientists continued the experiment despite having encountered several unexpected technical problems."
   ],
   "ss7-q01": [
-    "Mia likes tea, whereas Leo prefers coffee."
+    "Tom likes tea, whereas Leo prefers coffee."
   ],
   "ss7-q02": [
     "I study best in the morning, whereas my friend works better at night."
@@ -1060,7 +1060,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "From Monday to Friday, the school office is open."
   ],
   "ss8-q03": [
-    "From the first lesson to the last lesson, Mia takes notes in every class."
+    "From the first lesson to the last lesson, Tom takes notes in every class."
   ],
   "ss8-q04": [
     "From the opening scene to the final scene, Ben keeps his phone silent."
@@ -1207,7 +1207,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I must choose between the red shirt and the blue shirt."
   ],
   "ss9-q02": [
-    "Mia noticed a difference between the two pictures."
+    "Tom noticed a difference between the two pictures."
   ],
   "ss9-q03": [
     "We need to divide our time between work and rest."
@@ -1357,7 +1357,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "There are a few biscuits on the plate."
   ],
   "ss10-q02": [
-    "Mia added a little salt to the soup."
+    "Tom added a little salt to the soup."
   ],
   "ss10-q03": [
     "We have a little time before the lesson starts."
@@ -1546,7 +1546,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Few playgrounds are available in this neighbourhood."
   ],
   "ss11-q15": [
-    "Mia knows few people at her new school."
+    "Tom knows few people at her new school."
   ],
   "ss11-q16": [
     "We made little progress during the first week."
@@ -1654,7 +1654,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Although the city added more recycling bins, few residents changed their habits."
   ],
   "ss12-q01": [
-    "Mia left home without eating breakfast."
+    "Tom left home without eating breakfast."
   ],
   "ss12-q02": [
     "Ben answered the question without checking it carefully."
@@ -1960,7 +1960,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The library is closing soon, so we must choose our books quickly."
   ],
   "ss14-q03": [
-    "Mia has a fever, so she must stay home today."
+    "Tom has a fever, so she must stay home today."
   ],
   "ss14-q04": [
     "The form is incomplete, so you must fill in the missing section."
@@ -2302,7 +2302,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Leo took the stairs instead of using the lift."
   ],
   "ss16-q17": [
-    "Mia is having lunch at home instead of eating at a restaurant."
+    "Tom is having lunch at home instead of eating at a restaurant."
   ],
   "ss16-q18": [
     "The coach chose Nina instead of me to lead the warm-up."
@@ -2404,7 +2404,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The project team informed the client early and proposed a revised schedule instead of hiding the delay."
   ],
   "ss17-q01": [
-    "Mia did not buy juice. Instead, she bought water."
+    "Tom did not buy juice. Instead, she bought water."
   ],
   "ss17-q02": [
     "Ben did not take the bus. Instead, he walked to school."
@@ -2866,7 +2866,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This village has a clinic and even a small library."
   ],
   "ss20-q05": [
-    "Mia cleaned the kitchen and even washed the windows."
+    "Tom cleaned the kitchen and even washed the windows."
   ],
   "ss20-q06": [
     "Your ticket includes lunch and even a free drink."
@@ -3004,7 +3004,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The emergency team delivered food, repaired the water supply and even reopened the clinic within two days."
   ],
   "ss21-q01": [
-    "Mia did not even open the important message."
+    "Tom did not even open the important message."
   ],
   "ss21-q02": [
     "The room did not even have a chair."
@@ -3181,7 +3181,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Grace will watch the film until the end even if it is long."
   ],
   "ss22-q10": [
-    "Mia will wait for her turn even if the shop is busy."
+    "Tom will wait for her turn even if the shop is busy."
   ],
   "ss22-q11": [
     "Please listen to my explanation even if you do not agree with me."
@@ -3307,7 +3307,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Given that the shop is closed, we need to come back tomorrow."
   ],
   "ss23-q02": [
-    "Given that Mia is feeling unwell, she will stay at home today."
+    "Given that Tom is feeling unwell, she will stay at home today."
   ],
   "ss23-q03": [
     "Given that the bus is full, we will wait for the next one."
@@ -3458,8 +3458,8 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "You may borrow my pen providing that you return it after class."
   ],
   "ss24-q02": [
-    "Mia can join the trip providing that her parents agree.",
-    "Mia can join the trip provided that her parents agree."
+    "Tom can join the trip providing that her parents agree.",
+    "Tom can join the trip provided that her parents agree."
   ],
   "ss24-q03": [
     "We will have a picnic provided that the weather stays dry.",
@@ -3657,7 +3657,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I do not know what the answer is."
   ],
   "ss25-q02": [
-    "Mia knows where Ben lives."
+    "Tom knows where Ben lives."
   ],
   "ss25-q03": [
     "We remember when the shop closes."
@@ -3816,7 +3816,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Ben wrote down the address in case he forgot it."
   ],
   "ss26-q05": [
-    "Mia charges her phone before leaving in case the battery runs low while she is out."
+    "Tom charges her phone before leaving in case the battery runs low while she is out."
   ],
   "ss26-q06": [
     "Jack brought a jacket in case the weather became cold."
@@ -3960,7 +3960,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Put your keys by the door. That way, you can find them quickly tomorrow."
   ],
   "ss27-q03": [
-    "Mia writes new words in a notebook. That way, she can remember them more easily."
+    "Tom writes new words in a notebook. That way, she can remember them more easily."
   ],
   "ss27-q04": [
     "We should leave home now. That way, we can catch the early bus."
@@ -4158,7 +4158,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "You had better keep the receipt because you may need it if you return the item."
   ],
   "ss28-q19": [
-    "Mia is very tired, so she had better not drive tonight."
+    "Tom is very tired, so she had better not drive tonight."
   ],
   "ss28-q20": [
     "The team had better practise the presentation again, or the audience may not understand it."
@@ -4260,7 +4260,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Hurry, or you will miss the bus."
   ],
   "ss29-q03": [
-    "Mia needs to charge her phone. Otherwise, it may run out of power."
+    "Tom needs to charge her phone. Otherwise, it may run out of power."
   ],
   "ss29-q04": [
     "Keep the milk in the fridge, or it may go bad."
@@ -4410,7 +4410,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "As the weather gets colder, people wear thicker clothes."
   ],
   "ss30-q03": [
-    "As Mia practises more, her pronunciation becomes clearer."
+    "As Tom practises more, her pronunciation becomes clearer."
   ],
   "ss30-q04": [
     "As the sun rises, the sky becomes brighter."
@@ -4572,7 +4572,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "As the chef, Ben tastes the soup before serving it."
   ],
   "ss31-q07": [
-    "As a driver, Mia follows the traffic rules."
+    "As a driver, Tom follows the traffic rules."
   ],
   "ss31-q08": [
     "As our neighbour, Tom helps the elderly couple next door."
@@ -4857,7 +4857,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Whether or not it rains, we will go for a walk."
   ],
   "ss33-q02": [
-    "Whether or not Mia wins the game, her family will be proud of her."
+    "Whether or not Tom wins the game, her family will be proud of her."
   ],
   "ss33-q03": [
     "I will attend the meeting whether or not Leo comes."
@@ -5007,7 +5007,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Some students enjoy group work, while others prefer to study alone."
   ],
   "ss34-q02": [
-    "Mia gets up early, while her brother sleeps until late."
+    "Tom gets up early, while her brother sleeps until late."
   ],
   "ss34-q03": [
     "The red backpack is cheaper, while the blue one is stronger."
@@ -5199,7 +5199,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "It is sensible to check the weather before a day trip."
   ],
   "ss35-q16": [
-    "It is unusual for Mia to arrive late for class."
+    "It is unusual for Tom to arrive late for class."
   ],
   "ss35-q17": [
     "It is impossible for us to finish all the work before noon."
@@ -5307,7 +5307,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "It is important that we drink enough water every day."
   ],
   "ss36-q02": [
-    "It is clear that Mia understands the instructions."
+    "It is clear that Tom understands the instructions."
   ],
   "ss36-q03": [
     "It is good that the children are playing outside."
@@ -5913,7 +5913,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The high price is another problem for many families."
   ],
   "ss40-q04": [
-    "Mia suggested another idea for the class project."
+    "Tom suggested another idea for the class project."
   ],
   "ss40-q05": [
     "The library is another quiet place where students can study."
@@ -6147,7 +6147,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Each time the bell rings, the students change classrooms."
   ],
   "ss41-q32": [
-    "Each time Mia visits her grandmother, she brings some fruit."
+    "Each time Tom visits her grandmother, she brings some fruit."
   ],
   "ss41-q33": [
     "Each completed task moves the project one step forward."
@@ -6210,7 +6210,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Every room in the flat has a window."
   ],
   "ss42-q03": [
-    "Mia checked every page before submitting her work."
+    "Tom checked every page before submitting her work."
   ],
   "ss42-q04": [
     "Every bus on this route stops near the station."
@@ -6447,7 +6447,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Each time the bell rings, the students change classrooms."
   ],
   "ss43-q32": [
-    "Each time Mia visits her grandmother, she brings some fruit."
+    "Each time Tom visits her grandmother, she brings some fruit."
   ],
   "ss43-q33": [
     "Each completed task moves the project one step forward."
@@ -6504,7 +6504,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Each decision made during the planning stage affects the final result."
   ],
   "ss44-q01": [
-    "Mia and Leo helped each other."
+    "Tom and Leo helped each other."
   ],
   "ss44-q02": [
     "Ben and Ava smiled at each other."
@@ -6672,7 +6672,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "One of the best ways to learn new words is to keep a vocabulary notebook."
   ],
   "ss45-q07": [
-    "Mia is one of the students in our class."
+    "Tom is one of the students in our class."
   ],
   "ss45-q08": [
     "The clock tower is one of the oldest buildings in the town."
@@ -6963,7 +6963,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This café is too crowded, so let us eat elsewhere."
   ],
   "ss47-q04": [
-    "Mia wants to live somewhere quiet near the sea, but she has not chosen a location yet."
+    "Tom wants to live somewhere quiet near the sea, but she has not chosen a location yet."
   ],
   "ss47-q05": [
     "There is nowhere for me to charge my phone."
@@ -7134,7 +7134,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Did you see my phone anywhere in the house?"
   ],
   "ss48-q11": [
-    "Everywhere Mia went, people recognised her."
+    "Everywhere Tom went, people recognised her."
   ],
   "ss48-q12": [
     "Daniel can work anywhere with an internet connection."
@@ -7257,7 +7257,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I want something sweet to eat after dinner."
   ],
   "ss49-q02": [
-    "Mia heard something strange outside the window."
+    "Tom heard something strange outside the window."
   ],
   "ss49-q03": [
     "We need something simple to make for the class project."
@@ -7407,7 +7407,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "We need somewhere quiet to study."
   ],
   "ss50-q02": [
-    "Mia wants to sit somewhere warm."
+    "Tom wants to sit somewhere warm."
   ],
   "ss50-q03": [
     "There is nowhere safe to leave the bicycle."
@@ -7557,7 +7557,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I need somewhere quiet to study."
   ],
   "ss51-q02": [
-    "Mia wants to sit somewhere warm."
+    "Tom wants to sit somewhere warm."
   ],
   "ss51-q03": [
     "We found somewhere safe for the bags."
@@ -7866,7 +7866,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "We visited the supermarket in order to buy some fresh fruit."
   ],
   "ss53-q05": [
-    "Mia opened the window in order to get some fresh air."
+    "Tom opened the window in order to get some fresh air."
   ],
   "ss53-q06": [
     "Jack is saving money in order to buy a new bicycle."
@@ -8016,7 +8016,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "We opened the windows so that some fresh air could come in."
   ],
   "ss54-q05": [
-    "Mia wrote down the address so that she would not forget it."
+    "Tom wrote down the address so that she would not forget it."
   ],
   "ss54-q06": [
     "Jack is saving money so that he can buy a new bicycle."
@@ -8181,7 +8181,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Taking notes helps you remember lessons better."
   ],
   "ss55-q10": [
-    "Getting up before sunrise was hard for Mia."
+    "Getting up before sunrise was hard for Tom."
   ],
   "ss55-q11": [
     "Travelling by bus costs less than travelling by taxi."
@@ -8304,7 +8304,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Preparing for possible emergencies protects both staff and customers."
   ],
   "ss56-q01": [
-    "Mia decided to join the school choir."
+    "Tom decided to join the school choir."
   ],
   "ss56-q02": [
     "Leo plans to save enough money for a new bicycle."
@@ -8604,7 +8604,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Several examples from daily life helped the students understand how the rule worked in different situations."
   ],
   "ss58-q01": [
-    "Mia enjoys reading comic books after school."
+    "Tom enjoys reading comic books after school."
   ],
   "ss58-q02": [
     "Ben avoids using his phone during family meals."
@@ -8760,7 +8760,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I am happy to help as long as you tell me what you need."
   ],
   "ss59-q03": [
-    "Mia may play outside as long as she finishes her homework first."
+    "Tom may play outside as long as she finishes her homework first."
   ],
   "ss59-q04": [
     "We can have dinner in the garden as long as it does not rain."
@@ -8916,7 +8916,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The baby will sleep well so long as the room remains quiet."
   ],
   "ss60-q05": [
-    "So long as Mia saves enough money, she will be able to buy the bicycle."
+    "So long as Tom saves enough money, she will be able to buy the bicycle."
   ],
   "ss60-q06": [
     "We can finish the task today so long as everyone helps."
@@ -9057,7 +9057,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "We had no choice but to wait for the next bus."
   ],
   "ss61-q02": [
-    "Mia has no choice but to walk home."
+    "Tom has no choice but to walk home."
   ],
   "ss61-q03": [
     "I had no choice but to call the doctor."
@@ -9207,7 +9207,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "If only I had more time to finish the book."
   ],
   "ss62-q02": [
-    "If only Mia lived closer to school."
+    "If only Tom lived closer to school."
   ],
   "ss62-q03": [
     "If only the room were warmer."
@@ -9357,7 +9357,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "You may enter the library only if you have a valid card."
   ],
   "ss63-q02": [
-    "Mia can watch television only if she finishes her homework."
+    "Tom can watch television only if she finishes her homework."
   ],
   "ss63-q03": [
     "We will go for a picnic only if the weather is dry."
@@ -9507,7 +9507,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I am about to start my homework."
   ],
   "ss64-q02": [
-    "Mia is about to open the door."
+    "Tom is about to open the door."
   ],
   "ss64-q03": [
     "The lesson is about to begin."
@@ -9684,7 +9684,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "It was time to open the shop."
   ],
   "ss65-q11": [
-    "Mia realised it was time to apologise to her friend."
+    "Tom realised it was time to apologise to her friend."
   ],
   "ss65-q12": [
     "Ben knew it was time to replace his old shoes."
@@ -9810,7 +9810,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "It’s time you started your homework."
   ],
   "ss66-q03": [
-    "It’s time Mia went to bed."
+    "It’s time Tom went to bed."
   ],
   "ss66-q04": [
     "It’s time the lesson started."
@@ -10125,7 +10125,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This nurse is used to working at night."
   ],
   "ss68-q08": [
-    "Mia is used to carrying a laptop to school."
+    "Tom is used to carrying a laptop to school."
   ],
   "ss68-q09": [
     "Ben is used to the strong taste of black coffee."
@@ -10260,7 +10260,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The room was small; nevertheless, it was comfortable."
   ],
   "ss69-q03": [
-    "Mia was tired; nonetheless, she finished her homework."
+    "Tom was tired; nonetheless, she finished her homework."
   ],
   "ss69-q04": [
     "The bus was late; nevertheless, we arrived on time."
@@ -10407,7 +10407,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I would rather walk to school than take the bus."
   ],
   "ss70-q02": [
-    "Mia would rather read a book than watch television."
+    "Tom would rather read a book than watch television."
   ],
   "ss70-q03": [
     "Ben would rather drink water than have a fizzy drink."
@@ -10710,7 +10710,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This bag is too heavy for me to carry."
   ],
   "ss72-q03": [
-    "Mia was too tired to finish her homework."
+    "Tom was too tired to finish her homework."
   ],
   "ss72-q04": [
     "The music is too loud for us to hear the teacher."
@@ -10857,7 +10857,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The box was so heavy that Ben could not lift it."
   ],
   "ss73-q02": [
-    "Mia was so tired that she fell asleep on the sofa."
+    "Tom was so tired that she fell asleep on the sofa."
   ],
   "ss73-q03": [
     "I was so hungry that I ate two sandwiches."
@@ -11007,7 +11007,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I cannot boil an egg, let alone cook a full dinner."
   ],
   "ss74-q02": [
-    "Mia cannot lift this small box, let alone the heavy suitcase."
+    "Tom cannot lift this small box, let alone the heavy suitcase."
   ],
   "ss74-q03": [
     "Ben has never travelled outside Hong Kong, let alone lived abroad."
@@ -11304,7 +11304,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This community programme has improved children’s reading skills, not to mention giving parents practical ways to support learning at home."
   ],
   "ss76-q01": [
-    "Mia looks as if she is tired."
+    "Tom looks as if she is tired."
   ],
   "ss76-q02": [
     "The soup smells as though it is burning."
@@ -11475,7 +11475,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Why not walk to school if it is nearby?"
   ],
   "ss77-q08": [
-    "Why not call Mia if she knows the answer?"
+    "Why not call Tom if she knows the answer?"
   ],
   "ss77-q09": [
     "Why not turn off the lights if nobody is using the room?"
@@ -11937,7 +11937,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The problem with the printer is that it keeps stopping."
   ],
   "ss80-q12": [
-    "Mia’s reason for being upset was that nobody had told her about the change."
+    "Tom’s reason for being upset was that nobody had told her about the change."
   ],
   "ss80-q13": [
     "The main difference between the two phones is that one has a larger screen."
@@ -12066,7 +12066,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "We went to the market so as to buy some fresh vegetables."
   ],
   "ss81-q05": [
-    "Mia opened the window so as to let some fresh air in."
+    "Tom opened the window so as to let some fresh air in."
   ],
   "ss81-q06": [
     "Jack is saving money so as to buy a new bicycle."
@@ -12210,7 +12210,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Granted, the room is small. However, it is comfortable."
   ],
   "ss82-q03": [
-    "Granted, Mia is tired. However, she will finish her homework."
+    "Granted, Tom is tired. However, she will finish her homework."
   ],
   "ss82-q04": [
     "Granted, the bus is slow. However, it is reliable."
@@ -12513,7 +12513,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This water was warm enough for us to swim in."
   ],
   "ss84-q04": [
-    "Mia spoke loudly enough for everyone to hear her."
+    "Tom spoke loudly enough for everyone to hear her."
   ],
   "ss84-q05": [
     "This bag was light enough for Leo to carry."
@@ -12657,7 +12657,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The more you read, the more words you learn."
   ],
   "ss85-q02": [
-    "The more often Mia practises the piano, the more confident she becomes."
+    "The more often Tom practises the piano, the more confident she becomes."
   ],
   "ss85-q03": [
     "The more water I drink, the less thirsty I feel."
@@ -12816,7 +12816,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Aren’t these keys yours?"
   ],
   "ss86-q05": [
-    "Doesn’t Mia live near the station?"
+    "Doesn’t Tom live near the station?"
   ],
   "ss86-q06": [
     "Don’t we need more time?"
@@ -13110,7 +13110,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I value honesty more than popularity."
   ],
   "ss88-q03": [
-    "Mia enjoys reading more than gaming."
+    "Tom enjoys reading more than gaming."
   ],
   "ss88-q04": [
     "Ben trusts facts more than rumours."
@@ -13254,7 +13254,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Organisations build trust more through honest communication than through attractive advertising."
   ],
   "ss89-q01": [
-    "Mia sings more confidently now than she did last year."
+    "Tom sings more confidently now than she did last year."
   ],
   "ss89-q02": [
     "Ben runs faster than Leo."
@@ -13404,7 +13404,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Before choosing the revised plan, the committee examined the long-term risks more carefully than it had before."
   ],
   "ss90-q01": [
-    "Mia types faster than Leo does."
+    "Tom types faster than Leo does."
   ],
   "ss90-q02": [
     "The new classroom is brighter than the old classroom was."
@@ -13557,7 +13557,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This is the tallest building in our town."
   ],
   "ss91-q02": [
-    "Mia is the fastest runner in the class."
+    "Tom is the fastest runner in the class."
   ],
   "ss91-q03": [
     "Monday was the busiest day of the week."
@@ -13704,7 +13704,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Comparing several sources is the most reliable way to decide whether a claim is true."
   ],
   "ss92-q01": [
-    "Mia bought more notebooks than folders."
+    "Tom bought more notebooks than folders."
   ],
   "ss92-q02": [
     "Ben ate fewer biscuits than sandwiches."
@@ -13884,7 +13884,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This week’s test is as difficult as last week’s test."
   ],
   "ss93-q11": [
-    "Mia is as friendly as Zoe."
+    "Tom is as friendly as Zoe."
   ],
   "ss93-q12": [
     "The riverside park is as clean as the town park."
@@ -14019,7 +14019,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Rarely do I eat after 10 p.m."
   ],
   "ss94-q06": [
-    "Mia barely passed the test."
+    "Tom barely passed the test."
   ],
   "ss94-q07": [
     "I could hardly understand the final instruction."
@@ -14169,7 +14169,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Strong character always shows under pressure."
   ],
   "ss95-q06": [
-    "Mia never leaves wet towels on the bed."
+    "Tom never leaves wet towels on the bed."
   ],
   "ss95-q07": [
     "Ben seldom misses the first bus."
@@ -14307,7 +14307,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Long-term investment is not always a waste of money."
   ],
   "ss96-q02": [
-    "Mia does not always eat breakfast before school."
+    "Tom does not always eat breakfast before school."
   ],
   "ss96-q03": [
     "The bus is not always crowded in the morning."
@@ -14457,7 +14457,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Seldom do I eat breakfast before seven o’clock."
   ],
   "ss97-q02": [
-    "Rarely does Mia complain about her homework."
+    "Rarely does Tom complain about her homework."
   ],
   "ss97-q03": [
     "Never did we see the lost dog again after that day."
@@ -14916,7 +14916,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Different forms of transport are available here."
   ],
   "ss100-q05": [
-    "Mia enjoys different kinds of music."
+    "Tom enjoys different kinds of music."
   ],
   "ss100-q06": [
     "The market sells different types of fruit."
@@ -15057,7 +15057,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The shop sells all kinds of bags."
   ],
   "ss101-q02": [
-    "Mia enjoys all types of music listed in the course."
+    "Tom enjoys all types of music listed in the course."
   ],
   "ss101-q03": [
     "This market offers all sorts of fruit."
@@ -15354,7 +15354,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Sustainable development is impossible without long-term public support."
   ],
   "ss103-q01": [
-    "By reading the instructions carefully, Mia completed the task correctly."
+    "By reading the instructions carefully, Tom completed the task correctly."
   ],
   "ss103-q02": [
     "With more time, I could finish the report properly."
@@ -15507,7 +15507,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Either John or Mary needs to go."
   ],
   "ss104-q02": [
-    "I can either call Mia or send her a message."
+    "I can either call Tom or send her a message."
   ],
   "ss104-q03": [
     "We will either take the bus or walk home."
@@ -15654,7 +15654,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The committee must either approve the proposal with minor changes or reject it and request a completely new version."
   ],
   "ss105-q01": [
-    "Mia likes neither tea nor coffee."
+    "Tom likes neither tea nor coffee."
   ],
   "ss105-q02": [
     "Neither Ben nor Leo is at home."
@@ -15807,7 +15807,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I do not know whether the shop is open or closed."
   ],
   "ss106-q02": [
-    "Mia cannot decide whether to wear the blue dress or the black one."
+    "Tom cannot decide whether to wear the blue dress or the black one."
   ],
   "ss106-q03": [
     "Ben is wondering whether the bus stops here or at the next corner."
@@ -15957,7 +15957,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The sooner you finish your homework, the better."
   ],
   "ss107-q02": [
-    "For Mia, the sooner she goes to bed, the better."
+    "For Tom, the sooner she goes to bed, the better."
   ],
   "ss107-q03": [
     "The sooner we leave home, the better."
@@ -16107,7 +16107,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The soup is not only hot but also spicy."
   ],
   "ss108-q02": [
-    "Mia is not only kind but also patient."
+    "Tom is not only kind but also patient."
   ],
   "ss108-q03": [
     "Ben bought not only bread but also milk."
@@ -16269,7 +16269,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "We visited the museum and the park. I enjoyed the former more."
   ],
   "ss109-q06": [
-    "Mia bought apples and oranges. The latter were sweeter."
+    "Tom bought apples and oranges. The latter were sweeter."
   ],
   "ss109-q07": [
     "David tried swimming and cycling. He found the latter easier."
@@ -16437,7 +16437,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "You are the class monitor, and as such, you must collect the homework."
   ],
   "ss110-q12": [
-    "Mia is the team captain, and as such, she should encourage the other players."
+    "Tom is the team captain, and as such, she should encourage the other players."
   ],
   "ss110-q13": [
     "Mr Chan is the owner of the restaurant, and as such, he is responsible for its safety."
@@ -16560,7 +16560,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This app is set up such that users can save their work automatically."
   ],
   "ss111-q03": [
-    "Mia organised the files such that each subject had its own folder."
+    "Tom organised the files such that each subject had its own folder."
   ],
   "ss111-q04": [
     "This door was designed such that it closes by itself."
@@ -16728,7 +16728,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "We drove along such a narrow road that two cars could not pass each other."
   ],
   "ss112-q09": [
-    "Mia chose such an interesting book that she finished it in one day."
+    "Tom chose such an interesting book that she finished it in one day."
   ],
   "ss112-q10": [
     "There was such heavy rain that the football match was cancelled."
@@ -16857,7 +16857,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "He loved the city, so much so that he moved there."
   ],
   "ss113-q02": [
-    "Mia was tired, so much so that she fell asleep on the bus."
+    "Tom was tired, so much so that she fell asleep on the bus."
   ],
   "ss113-q03": [
     "The soup was spicy, so much so that Leo drank three glasses of water."
@@ -17322,7 +17322,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Add the noodles once the water boils."
   ],
   "ss116-q07": [
-    "Mia can watch television once she finishes her homework."
+    "Tom can watch television once she finishes her homework."
   ],
   "ss116-q08": [
     "You may use the computer once the teacher gives permission."
@@ -17511,7 +17511,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "By the time the product launches, the team will have completed all the tests."
   ],
   "ss117-q20": [
-    "The shop had already closed by the time Mia arrived."
+    "The shop had already closed by the time Tom arrived."
   ],
   "ss117-q21": [
     "By the time we reached the library, it had closed."
@@ -17610,7 +17610,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The minute the bell rang, the students left the classroom."
   ],
   "ss118-q03": [
-    "Mia opened her umbrella the moment she saw the rain."
+    "Tom opened her umbrella the moment she saw the rain."
   ],
   "ss118-q04": [
     "Ben called his mother the minute he arrived home."
@@ -17763,7 +17763,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Now that the rain has stopped, we can go outside."
   ],
   "ss119-q04": [
-    "Mia can ride to school now that she has a bicycle."
+    "Tom can ride to school now that she has a bicycle."
   ],
   "ss119-q05": [
     "Now that the kitchen is clean, Dad can start cooking."
@@ -18207,7 +18207,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I like classical music, and so does my brother."
   ],
   "ss122-q02": [
-    "Emma is tired, and so is Mia."
+    "Emma is tired, and so is Tom."
   ],
   "ss122-q03": [
     "We can swim, and so can our neighbours."
@@ -18432,7 +18432,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The hall has been cleaned, and the meeting room has too."
   ],
   "ss123-q27": [
-    "Mia may attend the evening session, and Jason may too."
+    "Tom may attend the evening session, and Jason may too."
   ],
   "ss123-q28": [
     "The school must update its records, and the clinic must too."
@@ -18807,7 +18807,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Somehow, I left my keys at home again."
   ],
   "ss126-q02": [
-    "Somehow, Mia finished her homework before dinner."
+    "Somehow, Tom finished her homework before dinner."
   ],
   "ss126-q03": [
     "Ben somehow found his missing wallet under the sofa."
@@ -18972,7 +18972,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This soup tastes somewhat salty."
   ],
   "ss127-q07": [
-    "Mia spoke somewhat more quietly than usual during the meeting."
+    "Tom spoke somewhat more quietly than usual during the meeting."
   ],
   "ss127-q08": [
     "These instructions seem somewhat confusing."
@@ -20910,7 +20910,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Put simply, the bus is late because the road is very busy."
   ],
   "ss140-q03": [
-    "Put simply, Mia does not have enough money for the coat."
+    "Put simply, Tom does not have enough money for the coat."
   ],
   "ss140-q04": [
     "Put simply, regular practice builds confidence."
@@ -21057,7 +21057,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This shop is cashless. In other words, customers must pay electronically."
   ],
   "ss141-q02": [
-    "Mia is an only child. In other words, she has no brothers or sisters."
+    "Tom is an only child. In other words, she has no brothers or sisters."
   ],
   "ss141-q03": [
     "Only pedestrians may use this path. In other words, cars and bicycles may not use it."
@@ -21207,7 +21207,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The room is small. That said, it is comfortable."
   ],
   "ss142-q02": [
-    "Mia is tired. That said, she will finish her homework."
+    "Tom is tired. That said, she will finish her homework."
   ],
   "ss142-q03": [
     "This phone is cheap. That said, its battery life is good."
@@ -21357,7 +21357,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I do not know what to do."
   ],
   "ss143-q02": [
-    "Mia cannot decide where to sit."
+    "Tom cannot decide where to sit."
   ],
   "ss143-q03": [
     "Ben is still wondering who to ask."
@@ -21507,7 +21507,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "If I were a bird, I could fly over the mountains."
   ],
   "ss144-q02": [
-    "If Mia had more free time, she could learn the piano."
+    "If Tom had more free time, she could learn the piano."
   ],
   "ss144-q03": [
     "If Ben lived near the school, he would walk there every day."
@@ -21675,7 +21675,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "If the lift were to stop working, we would use the stairs."
   ],
   "ss145-q08": [
-    "Mia might feel nervous if she were to speak in front of the whole class."
+    "Tom might feel nervous if she were to speak in front of the whole class."
   ],
   "ss145-q09": [
     "If the shop were to run out of bread, Dad would go elsewhere."
@@ -21807,7 +21807,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The rain stopped, which allowed us to go outside."
   ],
   "ss146-q02": [
-    "Mia forgot her umbrella, which made her clothes wet."
+    "Tom forgot her umbrella, which made her clothes wet."
   ],
   "ss146-q03": [
     "The shop closed early, which surprised many customers."
@@ -22122,7 +22122,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The shop extended its opening hours, thereby serving more customers."
   ],
   "ss148-q07": [
-    "Mia turned down the music, thereby allowing her brother to study."
+    "Tom turned down the music, thereby allowing her brother to study."
   ],
   "ss148-q08": [
     "The driver slowed down, thereby making the journey safer."
@@ -22266,7 +22266,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The shop closed at six. Thereafter, the staff cleaned the floor."
   ],
   "ss149-q05": [
-    "Mia washed the vegetables. Thereafter, she cut them into small pieces."
+    "Tom washed the vegetables. Thereafter, she cut them into small pieces."
   ],
   "ss149-q06": [
     "The lesson ended. Thereafter, the students packed their bags."
@@ -22407,7 +22407,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Right now, all I want is a glass of water."
   ],
   "ss150-q02": [
-    "At the moment, all Mia needs is a little more time."
+    "At the moment, all Tom needs is a little more time."
   ],
   "ss150-q03": [
     "All Ben has is ten dollars."
@@ -22557,7 +22557,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "It was John who saved me in the fire."
   ],
   "ss151-q02": [
-    "It was Mia who found the missing key."
+    "It was Tom who found the missing key."
   ],
   "ss151-q03": [
     "It is Daniel who prepares breakfast every Sunday."
@@ -22857,7 +22857,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Had I known about the rain, I would have taken an umbrella."
   ],
   "ss153-q02": [
-    "Had Mia known the shop was closed, she would not have walked there."
+    "Had Tom known the shop was closed, she would not have walked there."
   ],
   "ss153-q03": [
     "Had Ben remembered the meeting, he would have arrived on time."
@@ -23010,7 +23010,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Would you like tea or coffee?"
   ],
   "ss154-q03": [
-    "Does Mia walk to school or take the bus?"
+    "Does Tom walk to school or take the bus?"
   ],
   "ss154-q04": [
     "Is Ben at home or at the library?"
@@ -23157,7 +23157,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "You live near the school?"
   ],
   "ss155-q02": [
-    "Mia is your classmate?"
+    "Tom is your classmate?"
   ],
   "ss155-q03": [
     "Ben plays basketball every Saturday?"
@@ -23460,7 +23460,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Assuming that the weather stays dry, we will walk to school."
   ],
   "ss157-q03": [
-    "Mia will finish the book tonight, assuming that she has enough time."
+    "Tom will finish the book tonight, assuming that she has enough time."
   ],
   "ss157-q04": [
     "We can sit outside, assuming that it is not too cold."
@@ -23907,7 +23907,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The café was crowded. All the same, we found a table."
   ],
   "ss160-q02": [
-    "Mia was tired. All the same, she finished her homework."
+    "Tom was tired. All the same, she finished her homework."
   ],
   "ss160-q03": [
     "The bus was late. All the same, Daniel arrived on time."
@@ -24054,7 +24054,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The final design is not perfect. All the same, it meets the safety requirements and can be improved later."
   ],
   "ss161-q01": [
-    "Mia remained quiet all the while the lesson was taking place."
+    "Tom remained quiet all the while the lesson was taking place."
   ],
   "ss161-q02": [
     "Ben smiled all the while he was eating."
@@ -24657,7 +24657,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The weather was cold. Even so, we went for a walk."
   ],
   "ss165-q02": [
-    "Mia was tired. Even so, she finished her homework."
+    "Tom was tired. Even so, she finished her homework."
   ],
   "ss165-q03": [
     "It was raining heavily. Even so, Ben cycled to school."
@@ -24963,7 +24963,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I do wish this could work."
   ],
   "ss167-q04": [
-    "Mia does like this song."
+    "Tom does like this song."
   ],
   "ss167-q05": [
     "We do appreciate your help."
@@ -25569,7 +25569,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Leo got his eyes tested by an optician."
   ],
   "ss171-q06": [
-    "Mia had her dress shortened by a tailor."
+    "Tom had her dress shortened by a tailor."
   ],
   "ss171-q07": [
     "Ben got his kitchen sink fixed by a plumber."
@@ -25704,7 +25704,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The production team had the sound system checked and two faulty cables replaced before the live event."
   ],
   "ss172-q01": [
-    "Mia got Ben to carry the box."
+    "Tom got Ben to carry the box."
   ],
   "ss172-q02": [
     "The teacher got the class to open their books."
@@ -26169,7 +26169,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The cafe is busy. Be that as it may, the service is quick."
   ],
   "ss175-q06": [
-    "Mia is tired. Be that as it may, she will finish her homework tonight."
+    "Tom is tired. Be that as it may, she will finish her homework tonight."
   ],
   "ss175-q07": [
     "These shoes are expensive. Be that as it may, they are very durable."
@@ -26322,7 +26322,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "As serious as the film may seem, it includes several funny moments."
   ],
   "ss176-q07": [
-    "As difficult as the homework may be, Mia will finish it tonight."
+    "As difficult as the homework may be, Tom will finish it tonight."
   ],
   "ss176-q08": [
     "As cold as the weather may be, the children want to play outside."
@@ -26463,7 +26463,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Our group works efficiently to the extent that members share information clearly."
   ],
   "ss177-q04": [
-    "Mia understands the lesson to the extent that she listens carefully and asks questions when needed."
+    "Tom understands the lesson to the extent that she listens carefully and asks questions when needed."
   ],
   "ss177-q05": [
     "The soup tastes good to the extent that the ingredients are fresh."
@@ -26757,7 +26757,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "You may borrow my ruler on condition that you return it after class."
   ],
   "ss179-q02": [
-    "Mia can go to the park on condition that she finishes her homework first."
+    "Tom can go to the park on condition that she finishes her homework first."
   ],
   "ss179-q03": [
     "We will have a picnic on condition that the weather stays dry."
@@ -26913,7 +26913,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "It has been raining. This is why the road is wet."
   ],
   "ss180-q04": [
-    "The weather was cold. That is why Mia wore a thick coat."
+    "The weather was cold. That is why Tom wore a thick coat."
   ],
   "ss180-q05": [
     "The traffic was heavy. That is why we left home early."
@@ -27204,7 +27204,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The court dismissed the case on the grounds that the evidence was too weak to support the charge."
   ],
   "ss182-q01": [
-    "The reality is that Mia is becoming more confident through regular practice."
+    "The reality is that Tom is becoming more confident through regular practice."
   ],
   "ss182-q02": [
     "The reality is that mistakes are a normal part of learning."
@@ -27857,7 +27857,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The reason why I stayed at home is that I felt unwell."
   ],
   "ss186-q02": [
-    "The reason why Mia opened the window is that the room was too warm."
+    "The reason why Tom opened the window is that the room was too warm."
   ],
   "ss186-q03": [
     "The reason why the students were quiet is that the teacher was speaking."
@@ -28385,7 +28385,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "It is not on Sundays but on Mondays that the museum is closed."
   ],
   "ss189-q28": [
-    "It was not the location but the low salary that led Mia to reject the job offer."
+    "It was not the location but the low salary that led Tom to reject the job offer."
   ],
   "ss189-q29": [
     "It was not in the afternoon but in the morning that the volunteers cleaned the beach."
@@ -28607,7 +28607,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Prior to the launch, the system was tested several times."
   ],
   "ss191-q02": [
-    "Mia washed her hands prior to dinner."
+    "Tom washed her hands prior to dinner."
   ],
   "ss191-q03": [
     "We checked our tickets prior to boarding the train."
@@ -28757,7 +28757,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Following lunch, we returned to class."
   ],
   "ss192-q02": [
-    "Following the lesson, Mia asked the teacher a question."
+    "Following the lesson, Tom asked the teacher a question."
   ],
   "ss192-q03": [
     "Following the game, the players shook hands."
@@ -28907,7 +28907,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Upon arrival, visitors were asked to register at the front desk."
   ],
   "ss193-q02": [
-    "Upon waking up, Mia opened the curtains."
+    "Upon waking up, Tom opened the curtains."
   ],
   "ss193-q03": [
     "Upon hearing the bell, the students entered the classroom."
@@ -29066,7 +29066,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Ben called his mother the instant he arrived home."
   ],
   "ss194-q05": [
-    "Mia opened her umbrella the instant the rain started."
+    "Tom opened her umbrella the instant the rain started."
   ],
   "ss194-q06": [
     "I recognised Mr Lee the instant he entered the room."
@@ -29207,7 +29207,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Shortly after the bell rang, the students left the classroom."
   ],
   "ss195-q02": [
-    "Shortly after breakfast, Mia went for a walk."
+    "Shortly after breakfast, Tom went for a walk."
   ],
   "ss195-q03": [
     "Ben called his mother shortly after he arrived home."
@@ -29357,7 +29357,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Our bus will arrive in ten minutes. In the meantime, we can check the route."
   ],
   "ss196-q02": [
-    "Mia is still cooking the soup. In the meantime, please set the table."
+    "Tom is still cooking the soup. In the meantime, please set the table."
   ],
   "ss196-q03": [
     "My washing machine is still running. In the meantime, I will fold the dry clothes."
@@ -29516,7 +29516,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The bus driver checked the route. Meanwhile, the passengers found their seats."
   ],
   "ss197-q05": [
-    "Mia was doing her homework. Meanwhile, her brother was practising the piano."
+    "Tom was doing her homework. Meanwhile, her brother was practising the piano."
   ],
   "ss197-q06": [
     "We were setting up the tent. Meanwhile, our friends were collecting firewood."
@@ -29957,7 +29957,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Those boys are up to no good."
   ],
   "ss200-q02": [
-    "Mia is up to no good."
+    "Tom is up to no good."
   ],
   "ss200-q03": [
     "The puppy is up to no good."
@@ -30104,7 +30104,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "By the time the missing files were discovered, the person responsible had probably been up to no good for several days."
   ],
   "ss201-q01": [
-    "Everyone trusts Mia for good reason."
+    "Everyone trusts Tom for good reason."
   ],
   "ss201-q02": [
     "The school locks the side gate for good reason."
@@ -30410,7 +30410,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "There is every reason to believe that the weather will improve by the afternoon."
   ],
   "ss203-q03": [
-    "There is every reason to believe that Mia will recover soon."
+    "There is every reason to believe that Tom will recover soon."
   ],
   "ss203-q04": [
     "There is every reason to believe that the plan will succeed."
@@ -30722,7 +30722,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "It is fair to say that the new bus route saves passengers time, judging from the shorter travel times."
   ],
   "ss205-q07": [
-    "It is fair to say that Mia handled the problem calmly."
+    "It is fair to say that Tom handled the problem calmly."
   ],
   "ss205-q08": [
     "It is fair to say that the café has become more popular, given the growing number of customers."
@@ -31160,7 +31160,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "It seems to me that the bus service is getting better."
   ],
   "ss208-q03": [
-    "It seems to me that Mia needs more time."
+    "It seems to me that Tom needs more time."
   ],
   "ss208-q04": [
     "It seems to me that the shop closes too early."
@@ -32354,7 +32354,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Needless to say, leaders who demand accountability from others must also accept it themselves."
   ],
   "ss216-q01": [
-    "In pursuit of better health, Mia walks for thirty minutes every morning."
+    "In pursuit of better health, Tom walks for thirty minutes every morning."
   ],
   "ss216-q02": [
     "In pursuit of higher marks, Leo reviews his notes every evening."
@@ -32660,7 +32660,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I have yet to finish the book."
   ],
   "ss218-q03": [
-    "Mia has yet to submit her homework."
+    "Tom has yet to submit her homework."
   ],
   "ss218-q04": [
     "We have yet to choose a date."

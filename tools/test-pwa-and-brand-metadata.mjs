@@ -30,6 +30,7 @@ const htmlPages = [
   "schedule-system.html",
   "sentence-structure.html",
   "speaking-system.html",
+  "student-progress.html",
   "vs.html",
   "writing-practice.html",
   "writing-submission.html"
@@ -98,6 +99,10 @@ test("the manifest is installable and has safe Android and Apple artwork", async
   assert.ok(
     manifest.shortcuts.some(({ url }) => url === "/writing-submission.html?source=pwa-shortcut"),
     "Writing Submission must be available from installed-app shortcuts"
+  );
+  assert.ok(
+    manifest.shortcuts.some(({ url }) => url === "/student-progress.html?source=pwa-shortcut"),
+    "Student Progress must be available from installed-app shortcuts"
   );
 
   const expectedManifestIcons = new Map([

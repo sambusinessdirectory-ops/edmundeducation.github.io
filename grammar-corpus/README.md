@@ -10,14 +10,22 @@ code by hand.
 
 ## One source, three generated outputs
 
-`corpus-v1.json` is the single source of truth for release `2026-08-01.1`.
+`corpus-v1.json` is the single source of truth for release `2026-08-02.1`.
 It currently contains:
 
-- 2 approved paragraphs;
-- 14 approved sentences;
-- 31 individually annotated issues;
-- 23 reusable rule records; and
+- 18 approved paragraphs;
+- 322 approved sentences;
+- 724 individually annotated issues;
+- 640 reusable rule records; and
 - 13 exceptions or valid counterexamples.
+
+The original two paragraph families remain eligible for retrieval. Datasets
+3–18 are preserved as 16 approved development families, with 308 sentences
+and all 693 issue rows physically present in the supplied source. They remain
+excluded from the Worker snapshot until a separate production-retrieval
+review. Dataset 17 declares 100 mappings, but its source contains 99 numbered
+rows; the release records the 99 real rows and does not fabricate a missing
+mapping.
 
 Running:
 
@@ -79,7 +87,8 @@ Before publication, the validator enforces:
 - ordered sentence joins that reproduce both full paragraphs;
 - non-overlapping issue spans;
 - issue replacements that reproduce the approved corrected sentence;
-- no more than eight displayed issues per sentence;
+- no more than eight displayed issues per exact retrieval sentence (dense
+  development guidance may retain more for review);
 - an existing reusable rule for every issue; and
 - retrieval and holdout flags agreeing with the family's partition.
 
@@ -96,7 +105,9 @@ generalise merely because it saw almost the same sentence.
 The initial two examples retain the user-approved values
 `retrievalEligible: true` and `evaluationHoldout: false`. Begin allocating
 holdout families once there are enough independent examples for a meaningful
-evaluation set.
+evaluation set. The 16 newly imported families use the `development`
+partition with `reviewPolicy: "guidance"`, `retrievalEligible: false`, and
+`evaluationHoldout: false`.
 
 ## Database deployment order
 

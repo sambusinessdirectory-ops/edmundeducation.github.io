@@ -141,7 +141,7 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 19, "homepage must contain 19 numbered category cards after adding Writing Submission");
+assert.equal(homepageCards.length, 20, "homepage must contain 20 numbered category cards after adding Student Progress");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
 assert.equal(homepageCardHrefs[13], "writing-submission.html", "Writing Submission must be numbered card 14 after Schedule");
 assert.match(homepage, /schedule-system-card/);
@@ -225,6 +225,16 @@ assert.match(scheduleHtml, /schedule-estimated-minutes/);
 assert.match(scheduleHtml, /預計需時/);
 assert.match(scheduleHtml, /重大事件倒數/);
 assert.match(scheduleHtml, /data-countdown-grid/);
+assert.match(scheduleHtml, /data-homework-type-total/);
+assert.match(scheduleHtml, /data-homework-type-pie[^>]*role="img"/);
+assert.match(scheduleHtml, /data-homework-type-legend/);
+assert.ok(
+  scheduleHtml.indexOf("data-homework-type-pie") < scheduleHtml.indexOf("data-countdown-grid"),
+  "homework-type dashboard should appear above the major-events countdown"
+);
+assert.match(scheduleHtml, /dialog\[data-entry-dialog\]\s*\{[^}]*height:\s*min\(760px,\s*calc\(100dvh - 28px\)\)[^}]*overflow:\s*hidden/s);
+assert.match(scheduleHtml, /dialog\[data-entry-dialog\] \.dialog-card\s*\{[^}]*height:\s*100%[^}]*overflow-y:\s*auto/s);
+assert.match(scheduleHtml, /\.homework-picker-results\s*\{[^}]*height:\s*min\(244px,\s*30dvh\)[^}]*overflow:\s*auto/s);
 assert.match(scheduleHtml, /data-add-countdowns/);
 assert.match(scheduleHtml, /data-remove-countdowns/);
 assert.match(scheduleHtml, />增加 5 個倒數鐘</);
@@ -268,7 +278,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260801-1/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260803-1/);
 
 const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
 assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");
@@ -409,10 +419,13 @@ assert.match(scheduleJs, /schedule_student_apply_entry_batch/);
 assert.match(scheduleJs, /schedule_admin_apply_entry_batch/);
 assert.match(scheduleJs, /window\.addEventListener\("beforeunload"/);
 assert.match(scheduleJs, /schedule-clipboard\.mjs\?v=20260727-1/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260801-1"/);
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260803-1"/);
 assert.match(scheduleJs, /homeworkCatalogPromise = import\(HOMEWORK_CATALOG_URL\)/);
 assert.doesNotMatch(scheduleJs, /^import\s+\{\s*HOMEWORK_RESOURCE_CATALOG\s*\}/m, "the large exercise catalogue must not block login or Supabase startup");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260727-2/);
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260803-1/);
+assert.match(scheduleJs, /insertHomeworkResourceTitle\(/);
+assert.match(scheduleJs, /function renderHomeworkTypeDashboard\(/);
+assert.match(scheduleJs, /conic-gradient/);
 assert.match(scheduleJs, /clipboardSelectedEntryIds:\s*new Set\(\)/);
 assert.match(scheduleJs, /function beginClipboardMarquee\(/);
 assert.match(scheduleJs, /function updateClipboardMarquee\(/);
@@ -624,6 +637,22 @@ assert.match(scheduleSql, /'countdowns'/);
 assert.match(scheduleSql, /'estimatedMinutes'/);
 assert.match(scheduleSql, /'spanGroupId'/);
 assert.match(scheduleSql, /'isInProgress'/);
+assert.match(scheduleSql, /create or replace function public\._schedule_homework_types\b/);
+assert.match(scheduleSql, /pg_catalog\.regexp_matches\(/);
+assert.match(scheduleSql, /pg_catalog\.decode\(v_encoded, 'base64'\)/);
+assert.match(scheduleSql, /'homeworkTypeCounts'/);
+for (const homeworkType of [
+  "flashcards",
+  "fill-blanks",
+  "writing-submission",
+  "idiom",
+  "proverb",
+  "phrasal-verb",
+  "speaking",
+  "sentence-structure"
+]) {
+  assert.match(scheduleSql, new RegExp(`'${homeworkType.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&")}'`));
+}
 assert.match(scheduleSql, /'swapped'/);
 assert.match(scheduleSql, /create or replace function public\._schedule_move_entry_checked\b/);
 assert.match(scheduleSql, /p_target_expected_updated_at timestamptz/);

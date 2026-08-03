@@ -523,6 +523,20 @@ body > .site-header.edmund-system-header {
 .sentence-progress-disclosure small { color: var(--muted); font-size: 11px; font-weight: 750; }
 .sentence-progress-disclosure-state { flex: 0 0 auto; border-radius: 999px; padding: 7px 12px; color: #fff; background: var(--navy); font-size: 12px; font-weight: 900; }
 
+.lesson-search-panel { margin: 24px 0; padding: 24px; display: grid; gap: 15px; }
+.lesson-search-panel h2 { margin: 3px 0 0; }
+.lesson-search-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; }
+.lesson-search-form input { min-width: 0; border: 1px solid var(--line); border-radius: 14px; padding: 13px 15px; color: var(--navy); background: rgba(255, 255, 255, .92); font: inherit; }
+.lesson-search-form input:focus { outline: 3px solid color-mix(in srgb, var(--blue) 24%, transparent); border-color: var(--blue); }
+.lesson-search-form button { border: 0; border-radius: 14px; padding: 0 22px; color: #fff; background: var(--navy); font: inherit; font-weight: 900; cursor: pointer; }
+.lesson-search-summary { margin: 0; color: var(--muted); }
+.lesson-search-results { display: grid; gap: 9px; max-height: 520px; overflow: auto; }
+.lesson-search-result { width: 100%; border: 1px solid var(--line); border-radius: 14px; padding: 13px 15px; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 5px 12px; text-align: left; color: var(--navy); background: rgba(255, 255, 255, .9); cursor: pointer; }
+.lesson-search-result:hover, .lesson-search-result:focus-visible { border-color: var(--blue); transform: translateY(-1px); }
+.lesson-search-result > span { grid-row: 1 / span 2; align-self: start; border-radius: 999px; padding: 4px 8px; color: #fff; background: var(--blue); font-size: 11px; font-weight: 900; }
+.lesson-search-result strong, .lesson-search-result small { min-width: 0; }
+.lesson-search-result small { color: var(--muted); line-height: 1.45; }
+
 .lesson-choice-grid {
   margin: 24px 0;
   display: grid;

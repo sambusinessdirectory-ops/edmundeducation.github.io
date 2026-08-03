@@ -58,7 +58,7 @@
     [2, 1, 9, "Lily got up early so that she could catch the first bus.", "莉莉早起，以便趕上第一班巴士。", "Lily", "Lily got up early to catch the first bus.", "莉莉早起，以趕上第一班巴士。", "to catch the first bus"],
     [3, 1, 9, "Tom needed to ask a question, so he called his teacher.", "湯姆需要問一個問題，所以他打電話給老師。", "Tom", "Tom called his teacher to ask a question.", "湯姆打電話給老師問一個問題。", "to ask a question"],
     [4, 2, 10, "We went to the supermarket for some fresh fruit.", "我們去超級市場買一些新鮮水果。", "We", "We went to the supermarket to buy some fresh fruit.", "我們去超級市場買一些新鮮水果。", "to buy some fresh fruit"],
-    [5, 2, 10, "Mia opened the window because she wanted to get some fresh air.", "米婭打開窗戶，因為她想呼吸一些新鮮空氣。", "Mia", "Mia opened the window to get some fresh air.", "米婭打開窗戶，以呼吸一些新鮮空氣。", "to get some fresh air"],
+    [5, 2, 10, "Tom opened the window because he wanted to get some fresh air.", "湯姆打開窗戶，因為他想呼吸一些新鮮空氣。", "Tom", "Tom opened the window to get some fresh air.", "湯姆打開窗戶，以呼吸一些新鮮空氣。", "to get some fresh air"],
     [6, 2, 10, "Jack is saving money because he wants to buy a new bicycle.", "傑克正在存錢，因為他想買一輛新單車。", "Jack", "Jack is saving money to buy a new bicycle.", "傑克正在存錢買一輛新單車。", "to buy a new bicycle"],
     [7, 2, 10, "Why did Ben visit the doctor? He wanted to get some advice.", "本為甚麼去看醫生？他想得到一些建議。", "Ben", "Ben visited the doctor to get some advice.", "本去看醫生，以得到一些建議。", "to get some advice"],
     [8, 2, 10, "I use a notebook for writing down new words.", "我使用筆記簿來記下新單字。", "I", "I use a notebook to write down new words.", "我使用筆記簿記下新單字。", "to write down new words"],
@@ -595,7 +595,7 @@
   };
 
   const althoughQuestions = makeQuestions("ss4", [
-    [1, 2, 10, "It was raining, but Mia walked to school.", "當時正在下雨，但米婭仍然步行上學。", "Although", "Although it was raining, Mia walked to school.", "雖然當時正在下雨，但米婭仍然步行上學。", "Although it was raining, Mia walked to school."],
+    [1, 2, 10, "It was raining, but Tom walked to school.", "當時正在下雨，但湯姆仍然步行上學。", "Although", "Although it was raining, Tom walked to school.", "雖然當時正在下雨，但湯姆仍然步行上學。", "Although it was raining, Tom walked to school."],
     [2, 2, 10, "Ben was tired. However, he finished his homework.", "本很疲倦。不過，他仍然完成了家課。", "Although", "Although Ben was tired, he finished his homework.", "雖然本很疲倦，但他仍然完成了家課。", "Although Ben was tired, he finished his homework."],
     [3, 2, 10, "The bag was heavy, but Lily carried it upstairs.", "那個袋子很重，但莉莉仍把它搬到樓上。", "Although", "Although the bag was heavy, Lily carried it upstairs.", "雖然那個袋子很重，但莉莉仍把它搬到樓上。", "Although the bag was heavy, Lily carried it upstairs."],
     [4, 2, 10, "The soup was hot. Even so, Tom began eating it immediately.", "那碗湯很熱。即使如此，湯姆仍立即開始喝湯。", "Although", "Although the soup was hot, Tom began eating it immediately.", "雖然那碗湯很熱，但湯姆仍立即開始喝湯。", "Although the soup was hot, Tom began eating it immediately."],
@@ -749,14 +749,26 @@
     ? window.EDMUND_SENTENCE_STRUCTURE_EXPANSION
     : [];
 
+  function normalizeStudentNames(value) {
+    if (typeof value === "string") return value.replace(/\bMia\b/g, "Tom").replaceAll("米婭", "湯姆");
+    if (Array.isArray(value)) {
+      value.forEach((item, index) => { value[index] = normalizeStudentNames(item); });
+    } else if (value && typeof value === "object") {
+      Object.keys(value).forEach((key) => { value[key] = normalizeStudentNames(value[key]); });
+    }
+    return value;
+  }
+
+  const lessons = normalizeStudentNames([
+    purposeLesson,
+    adjectiveNounLesson,
+    adjectiveInfinitiveLesson,
+    althoughLesson,
+    ...importedLessons
+  ]);
+
   window.EDMUND_SENTENCE_STRUCTURE_DATA = Object.freeze({
     version: 1,
-    lessons: [
-      purposeLesson,
-      adjectiveNounLesson,
-      adjectiveInfinitiveLesson,
-      althoughLesson,
-      ...importedLessons
-    ]
+    lessons
   });
 })();

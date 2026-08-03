@@ -57,7 +57,7 @@
           <div class="hero-copy">
             <p class="student-label">(學生使用)</p>
             <h1>諺語<br>學生使用系統</h1>
-            <p>由意思、語氣、固定結構及歷史開始，再透過 50 題分輪改寫練習，把諺語真正變成自己的表達能力。</p>
+            <p>由意思、語氣、固定結構及歷史開始，再透過 50 題改寫練習，把諺語真正變成自己的表達能力。</p>
           </div>
         </article>
 
@@ -95,7 +95,7 @@
         <div>
           <p class="eyebrow">(學生使用)</p>
           <h1>諺語<br>學生使用系統</h1>
-          <p data-dashboard-welcome>選擇一個諺語，由完整概念開始，再完成 50 題分輪練習。</p>
+          <p data-dashboard-welcome>選擇一個諺語，由完整概念開始，再完成 50 題練習。</p>
         </div>
         <div class="dashboard-metric" aria-label="可選課題數量">
           <strong data-lesson-count>1</strong>
@@ -193,6 +193,20 @@
         </section>
       </section>
 
+      <section class="lesson-search-panel glass-panel" aria-labelledby="proverb-search-heading">
+        <div>
+          <p class="eyebrow">SEARCH ALL LESSON CONTENT</p>
+          <h2 id="proverb-search-heading">搜尋諺語教材</h2>
+        </div>
+        <form class="lesson-search-form" data-lesson-search-form role="search">
+          <label class="sr-only" for="proverb-lesson-search">搜尋標題、例句、規則或練習題</label>
+          <input id="proverb-lesson-search" type="search" data-lesson-search-input autocomplete="off" placeholder="輸入標題、例句、規則或練習題關鍵字">
+          <button type="submit">搜尋</button>
+        </form>
+        <p class="lesson-search-summary" data-lesson-search-summary>可搜尋全部諺語的標題、八個學習頁面及練習題。</p>
+        <div class="lesson-search-results" data-lesson-search-results hidden aria-live="polite"></div>
+      </section>
+
       <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="諺語選擇"></section>
 
       <section class="history-panel glass-panel" aria-labelledby="history-heading">
@@ -280,7 +294,7 @@
           <div class="admin-empty">
             <span aria-hidden="true">→</span>
             <h2>選擇一位學生</h2>
-            <p>學生的完成進度、分輪結果及書簽會顯示在這裡。</p>
+            <p>學生的完成進度、練習結果及書簽會顯示在這裡。</p>
           </div>
         </div>
       </section>
@@ -300,7 +314,7 @@
   <script src="supabase-config.js"></script>
   <script src="proverb-system-config.js"></script>
   <script src="proverb-system-data.js?v=20260728-1"></script>
-  <script src="shared-system-nav.js?v=20260728-2"></script>
+  <script src="shared-system-nav.js?v=20260803-1"></script>
   <script type="module" src="proverb-system.js?v=20260728-1"></script>
 </body>
 </html>

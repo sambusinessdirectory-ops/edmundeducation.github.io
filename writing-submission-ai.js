@@ -80,7 +80,7 @@ export function classifyRemoteGrammarFailure(errorValue, { timedOut = false } = 
   return REMOTE_GRAMMAR_FAILURE_POLICIES[REMOTE_GRAMMAR_FAILURE_KINDS.network];
 }
 
-/** Build the sentence-level notice without ever presenting an incomplete AI review as clean. */
+/** Build the sentence-level notice without ever presenting an incomplete grammar review as clean. */
 export function writingGrammarReviewNotice(warningKindsValue, visibleIssueCountValue) {
   const warningKinds = Array.isArray(warningKindsValue)
     ? warningKindsValue.filter((kind) => typeof kind === "string")
@@ -91,19 +91,19 @@ export function writingGrammarReviewNotice(warningKindsValue, visibleIssueCountV
   if (warningKinds.includes(REMOTE_GRAMMAR_FAILURE_KINDS.quotaExhausted)) {
     return Object.freeze({
       state: "warning",
-      title: "Workers AI 每日額度已用完",
+      title: "文法偵測今日額度已用完",
       detail: hasVisibleIssues
-        ? "Workers AI 今日的文法檢查額度已用完，會於香港時間 08:00 重設。以下本機提示仍然保留；AI 未完成的句子可能仍有其他問題。"
-        : "Workers AI 今日的文法檢查額度已用完，會於香港時間 08:00 重設。本機暫未提出建議，但這不代表句子沒有文法問題。"
+        ? "文法偵測今日額度已用完，會於香港時間 08:00 重設。以下本機提示仍然保留；未完成文法偵測的句子可能仍有其他問題。"
+        : "文法偵測今日額度已用完，會於香港時間 08:00 重設。本機暫未提出建議，但這不代表句子沒有文法問題。"
     });
   }
   return Object.freeze({
     state: "warning",
     title: warningCount === 1
-      ? "AI 未能完成這句的進階檢查"
-      : `AI 未能完成 ${warningCount} 句的進階檢查`,
+      ? "未能完成這句的文法偵測"
+      : `未能完成 ${warningCount} 句的文法偵測`,
     detail: hasVisibleIssues
-      ? "以下本機提示仍然保留；AI 未完成的句子可能仍有其他問題。"
+      ? "以下本機提示仍然保留；未完成文法偵測的句子可能仍有其他問題。"
       : "本機暫未提出建議，但這不代表句子沒有文法問題。請稍後再試。"
   });
 }
@@ -467,7 +467,7 @@ function isRepeatedWritingGrammarCorrectionInsideAcceptedReplacement(
  * Once a student accepts a correction, do not let any checker repeat that
  * same transform inside the newly inserted replacement. Also prevent the
  * same or a weaker checker from offering the exact inverse at that place. A
- * stronger deterministic checker may still override an AI suggestion with a
+ * stronger deterministic checker may still override a remote suggestion with a
  * genuinely different correction.
  */
 export function isBlockedInverseWritingGrammarIssue(issue, segment, context, correctionHistory) {
@@ -621,7 +621,7 @@ function dedupeAndRemoveOverlaps(issues, { enginePriorityFirst = false } = {}) {
 }
 
 function responseContainer(value) {
-  if (!isPlainObject(value)) throw new TypeError("Grammar AI response must be an object");
+  if (!isPlainObject(value)) throw new TypeError("Grammar detection response must be an object");
   if (isPlainObject(value.grammarReview)) return value.grammarReview;
   return value;
 }
@@ -636,10 +636,10 @@ export function normalizeWritingAiResponse(sentenceValue, responseValue) {
   const sentence = requireSentence(sentenceValue);
   const container = responseContainer(responseValue);
   if (!Array.isArray(container.issues)) {
-    throw new TypeError("Grammar AI response must contain an issues array");
+    throw new TypeError("Grammar detection response must contain an issues array");
   }
   if (container.issues.length > MAX_AI_ISSUES) {
-    throw new RangeError("Grammar AI response contains too many issues");
+    throw new RangeError("Grammar detection response contains too many issues");
   }
 
   const topLevelEngine = container.engine ?? responseValue.engine;
@@ -647,7 +647,7 @@ export function normalizeWritingAiResponse(sentenceValue, responseValue) {
   if (topLevelEngine !== undefined) {
     const normalized = normalizeEngine(topLevelEngine);
     if (!normalized || !REMOTE_ENGINE_IDS.has(normalized.name)) {
-      throw new TypeError("Grammar AI response uses an unknown engine");
+      throw new TypeError("Grammar detection response uses an unknown engine");
     }
     remoteEngineId = normalized.name;
   }
@@ -664,7 +664,7 @@ export function normalizeWritingAiResponse(sentenceValue, responseValue) {
     .filter(Boolean);
 
   if (container.issues.length > 0 && normalized.length === 0) {
-    throw new TypeError("Grammar AI response contains no usable issues");
+    throw new TypeError("Grammar detection response contains no usable issues");
   }
   return dedupeAndRemoveOverlaps(normalized);
 }
@@ -685,7 +685,7 @@ export function normalizeLocalGrammarIssues(sentenceValue, issueValues) {
 /**
  * Merge immediate local/Harper findings with Worker findings. An exact,
  * teacher-approved corpus record is authoritative, local ESL is next, Harper
- * follows, and generated AI is accepted only where no stronger source already
+ * follows, and generated remote guidance is accepted only where no stronger source already
  * owns an overlapping editor span.
  */
 export function mergeWritingGrammarIssues(sentenceValue, localIssueValues, aiValue) {

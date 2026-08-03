@@ -17,13 +17,17 @@ explicitly granted by `../../supabase-writing-submission.sql`.
 
 Apply the repository's shared Flashcard-account migrations first. Then run
 `../../supabase-writing-submission.sql` in a private Supabase SQL session.
-Apply `../../supabase-writing-grammar-corpus.sql` next, followed by the
+Apply `../../supabase-writing-submission-enhancements.sql` immediately after
+it, then apply `../../supabase-writing-grammar-corpus.sql`, followed by the
 generated `../../grammar-corpus/seed-corpus-v1.sql` release seed.
 
 The migration creates:
 
 - subsystem-specific administrator accounts and hash-only eight-hour sessions;
 - immutable, idempotent student submissions keyed to `flashcard_students.id`;
+- account-backed grammar-detection preferences and per-composition timing;
+- recoverable student archive deletion that keeps the administrator record;
+- daily article, total-time and average-time progress aggregates;
 - deduplicated grammar occurrences that can be saved before final submission;
 - per-rule grammar-problem summaries; and
 - service-role-only student and administrator RPCs.
@@ -128,21 +132,28 @@ both receive the same generic `401` response.
 
 ### Student writing
 
+- `GET /v1/preferences`
+- `PUT /v1/preferences` with `{ "grammarDetectionEnabled": true | false }`
+- `GET /v1/progress`
 - `GET /v1/submissions?page=1&pageSize=20`
 - `GET /v1/submissions/<submission-uuid>`
+- `DELETE /v1/submissions/<submission-uuid>` (student archive soft-delete)
 - `PUT /v1/submissions/<submission-uuid>` with:
 
 ```json
 {
   "topic": "The writing prompt",
-  "answer": "The student's complete answer."
+  "answer": "The student's complete answer.",
+  "durationSeconds": 725
 }
 ```
 
 The client generates the submission UUID. The server derives the owner from
 the bearer token, calculates word count, and supplies submission time. A saved
 submission is immutable. Retrying the identical UUID and content is safe;
-reusing it with changed content is rejected.
+reusing it with changed content or duration is rejected. Student deletion only
+hides an article from the personal archive; the saved article, grammar history,
+and historical progress remain available to the administrator.
 
 ### Advanced grammar checking
 

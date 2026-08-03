@@ -2366,6 +2366,57 @@ $$;
 
 -- Schedule enhancements: progress state, estimates, multi-day projects and
 -- persistent important-event countdowns.
+create or replace function public._schedule_homework_types(p_message text)
+returns text[]
+language plpgsql
+immutable
+strict
+set search_path = ''
+as $$
+declare
+  v_match text[];
+  v_encoded text;
+  v_payload jsonb;
+  v_type text;
+  v_types text[] := array[]::text[];
+begin
+  for v_match in
+    select marker.capture
+    from pg_catalog.regexp_matches(
+      p_message,
+      '\[\[@edmund-homework:v1:([A-Za-z0-9_-]+)\]\]',
+      'g'
+    ) as marker(capture)
+  loop
+    begin
+      v_encoded := pg_catalog.translate(v_match[1], '-_', '+/');
+      v_encoded := v_encoded || pg_catalog.repeat('=', (4 - pg_catalog.length(v_encoded) % 4) % 4);
+      v_payload := pg_catalog.convert_from(pg_catalog.decode(v_encoded, 'base64'), 'UTF8')::jsonb;
+      v_type := v_payload ->> 'type';
+      if v_type = any(array[
+        'flashcards',
+        'fill-blanks',
+        'writing-submission',
+        'idiom',
+        'proverb',
+        'phrasal-verb',
+        'speaking',
+        'sentence-structure'
+      ]::text[]) then
+        v_types := pg_catalog.array_append(v_types, v_type);
+      end if;
+    exception when others then
+      -- A malformed legacy marker must not prevent the student's week loading.
+      null;
+    end;
+  end loop;
+  return v_types;
+end;
+$$;
+
+revoke all on function public._schedule_homework_types(text)
+  from public, anon, authenticated;
+
 create or replace function public._schedule_week_payload(
   p_student_id uuid,
   p_week_start date
@@ -2395,22 +2446,47 @@ as $$
     from public.schedule_entries entry
     where entry.student_id = p_student_id
       and entry.schedule_date between p_week_start and p_week_start + 6
-  ), all_metrics as (
-    select count(*)::integer as total_goals,
-      count(*) filter (where entry.is_completed)::integer as total_completed
+  ), metric_all_entries as (
+    select entry.*
     from public.schedule_entries entry
     where entry.student_id = p_student_id
-      and entry.span_group_id is null
-      or (
-        entry.student_id = p_student_id
-        and entry.span_group_id is not null
-        and entry.schedule_date = (
+      and (
+        entry.span_group_id is null
+        or entry.schedule_date = (
           select min(member.schedule_date)
           from public.schedule_entries member
           where member.student_id = entry.student_id
             and member.span_group_id = entry.span_group_id
         )
       )
+  ), all_metrics as (
+    select count(*)::integer as total_goals,
+      count(*) filter (where entry.is_completed)::integer as total_completed
+    from metric_all_entries entry
+  ), homework_type_counts as (
+    select homework_type.type_name,
+      count(*)::integer as item_count
+    from metric_all_entries entry
+    cross join lateral pg_catalog.unnest(public._schedule_homework_types(entry.message)) as homework_type(type_name)
+    group by homework_type.type_name
+  ), homework_type_summary as (
+    select pg_catalog.jsonb_object_agg(
+      definition.type_name,
+      coalesce(type_count.item_count, 0)
+      order by definition.sort_order
+    ) as counts
+    from (values
+      (1, 'flashcards'),
+      (2, 'fill-blanks'),
+      (3, 'writing-submission'),
+      (4, 'idiom'),
+      (5, 'proverb'),
+      (6, 'phrasal-verb'),
+      (7, 'speaking'),
+      (8, 'sentence-structure')
+    ) as definition(sort_order, type_name)
+    left join homework_type_counts type_count
+      on type_count.type_name = definition.type_name
   ), metric_week_entries as (
     select entry.*
     from week_entries entry
@@ -2452,7 +2528,11 @@ as $$
       'weekGoals', (select count(*)::integer from metric_week_entries),
       'totalGoals', (select metric.total_goals from all_metrics metric),
       'weekCompleted', (select count(*)::integer from metric_week_entries entry where entry.is_completed),
-      'totalCompleted', (select metric.total_completed from all_metrics metric)
+      'totalCompleted', (select metric.total_completed from all_metrics metric),
+      'homeworkTypeCounts', coalesce(
+        (select summary.counts from homework_type_summary summary),
+        '{}'::jsonb
+      )
     ),
     'capacityVersions', (
       select pg_catalog.jsonb_object_agg(

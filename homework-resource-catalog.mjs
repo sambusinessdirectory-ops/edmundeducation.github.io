@@ -6,7 +6,21 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2025,
     "label": "852 Teen Art Club Promotional Leaflet",
     "detail": "DSE Writing Part A 2025 · Part A · Promotional Leaflet",
-    "url": "writing-practice.html?exercise=dse-writing-2025-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2025-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "For question 1, write about 200 words in the space provided on pages 3–4.",
+      "You work at the 852 Teen Art Club in Hong Kong. The club has asked you to write an information leaflet promoting the club. Below is the first page of the leaflet. Write the second page of the leaflet using the three headings below. The first one has been provided for you.",
+      "• Our background",
+      "• A club member’s most memorable experience",
+      "• Our future activities"
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2025-question.webp",
+        "alt": "2025 DSE Writing Part A 852 Teen Art Club leaflet question"
+      }
+    ]
   },
   {
     "id": "fill:dse-writing-2015-part-a-argument-against",
@@ -14,7 +28,23 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2015,
     "label": "2015 - Argument against",
     "detail": "DSE Writing Part A 2015 · Part A · Letter to the editor",
-    "url": "writing-practice.html?exercise=dse-writing-2015-part-a-argument-against"
+    "url": "writing-practice.html?exercise=dse-writing-2015-part-a-argument-against",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "PART A",
+      "For question 1, write about 200 words.",
+      "1. A recent article in the Young Post suggested that an 8:00 am start to the school day makes students feel tired and sleepy. Write to the editor of the Young Post expressing your views on the following:",
+      "• why students feel tired; and",
+      "• whether or not a 9:00 am start will solve the problem.",
+      "Some parts of the letter have been given to you.",
+      "Dear Editor,"
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2015-question.webp",
+        "alt": "2015 DSE Writing Part A source question"
+      }
+    ]
   },
   {
     "id": "fill:dse-writing-2015-part-a-argument-for",
@@ -22,7 +52,23 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2015,
     "label": "2015 - Argument for",
     "detail": "DSE Writing Part A 2015 · Part A · Letter to the editor",
-    "url": "writing-practice.html?exercise=dse-writing-2015-part-a-argument-for"
+    "url": "writing-practice.html?exercise=dse-writing-2015-part-a-argument-for",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "PART A",
+      "For question 1, write about 200 words.",
+      "1. A recent article in the Young Post suggested that an 8:00 am start to the school day makes students feel tired and sleepy. Write to the editor of the Young Post expressing your views on the following:",
+      "• why students feel tired; and",
+      "• whether or not a 9:00 am start will solve the problem.",
+      "Some parts of the letter have been given to you.",
+      "Dear Editor,"
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2015-question.webp",
+        "alt": "2015 DSE Writing Part A source question"
+      }
+    ]
   },
   {
     "id": "fill:dse-writing-2022-part-a",
@@ -30,7 +76,18 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2022,
     "label": "A First-Time Visitor’s Guide to Hong Kong Adventure Farm",
     "detail": "DSE Writing Part A 2022 · Part A · Visitor Guide",
-    "url": "writing-practice.html?exercise=dse-writing-2022-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2022-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "For question 1, write about 200 words in the space provided on pages 2–4.",
+      "You work at the Visitor Information Centre at Hong Kong Adventure Farm. Use the map and headings below to help you complete a guide for first-time visitors."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2022-question.webp",
+        "alt": "2022 DSE Writing Part A Hong Kong Adventure Farm question and map"
+      }
+    ]
   },
   {
     "id": "fill:dse-writing-2021-part-a",
@@ -38,7 +95,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2021,
     "label": "Annual School Fair Announcement",
     "detail": "DSE Writing Part A 2021 · Part A · Announcement",
-    "url": "writing-practice.html?exercise=dse-writing-2021-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2021-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "For question 1, write about 200 words in the space provided on pages 3 and 4.",
+      "You are helping your school organise the annual school fair. You have been asked to make an announcement about the event during the morning assembly.",
+      "Use the poster below to help you write your announcement. In your announcement:",
+      "• Introduce the event.",
+      "• Describe some of the activities that will take place.",
+      "• Let students know how they can help out."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2021-question.webp",
+        "alt": "2021 DSE Writing Part A annual school fair question and poster"
+      }
+    ]
   },
   {
     "id": "fill:dse-writing-2012-part-a",
@@ -46,7 +118,17 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2012,
     "label": "Chasing Truth, Not Headlines",
     "detail": "DSE Writing Part A 2012 · Part A · Feature article",
-    "url": "writing-practice.html?exercise=dse-writing-2012-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2012-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "For question 1, write about 200 words.",
+      "You are a famous news reporter for Hong Kong News. Your old secondary school has asked you to write a feature article about yourself for the next edition of the school magazine.",
+      "Use the following three headings to write the article. Add one heading of your own.",
+      "Section 1: The best part of my job",
+      "Section 2: The biggest challenge I have ever faced in my job",
+      "Section 3: My biggest days"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:dse-writing-2018-part-a",
@@ -54,7 +136,20 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2018,
     "label": "Class 6A Trip to sky100",
     "detail": "DSE Writing Part A 2018 · Part A · Informative letter",
-    "url": "writing-practice.html?exercise=dse-writing-2018-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2018-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "PART A",
+      "For question 1, write about 200 words in the space provided on pages 3 – 5.",
+      "1. You are Chris Wong, the class teacher of 6A. You will be taking your class on a school trip next month to sky100, shown in the poster below.",
+      "Write a letter to parents giving them the necessary information about the trip. You may use the mindmap to help you write your letter."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2018-question.webp",
+        "alt": "2018 DSE Writing Part A sky100 poster and mindmap"
+      }
+    ]
   },
   {
     "id": "fill:dse-writing-2024-part-a",
@@ -62,7 +157,20 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2024,
     "label": "Complaint about a Stay at the Seaside Hotel",
     "detail": "DSE Writing Part A 2024 · Part A · Complaint Email",
-    "url": "writing-practice.html?exercise=dse-writing-2024-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2024-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "After seeing the advertisement below, you booked a one-night stay at the Seaside Hotel. However, you were not happy with your stay because the room was very different from what was shown on the hotel’s website.",
+      "Write an email to the hotel manager. In your email, you should explain:",
+      "• why you were disappointed; and",
+      "• what you would like the manager to do."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2024-question.webp",
+        "alt": "2024 DSE Writing Part A Seaside Hotel complaint email question and advertisement"
+      }
+    ]
   },
   {
     "id": "fill:hkpf-civic-composition-4",
@@ -70,7 +178,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "HKPF Civics Composition 4",
     "detail": "Civil Servant Writing Practice · HKPF Civics Composition",
-    "url": "writing-practice.html?exercise=hkpf-civic-composition-4"
+    "url": "writing-practice.html?exercise=hkpf-civic-composition-4",
+    "sectionKey": "government-writing",
+    "questionPrompt": [
+      "The Government has indicated that it may further adjust the ceiling for non-local students admitted to local universities. The quota was raised to 40 percent from the 2024/25 academic year and is expected to increase to 50 percent from 2026/27. The Education Secretary said that local students would not be affected, as the 15,000 publicly funded first-degree places for locals would remain unchanged. However, some people are worried that admitting more non-local students may put pressure on university resources such as hostel places, teaching facilities and student support services. Others are concerned that local students may face stronger competition for campus opportunities.",
+      "Please give your own views on the issue and suggest ways for the Government and universities to help shape the final arrangement."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:hkpf-civic-composition-5",
@@ -78,7 +192,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "HKPF Civics Composition 5",
     "detail": "Civil Servant Writing Practice · HKPF Civics Composition",
-    "url": "writing-practice.html?exercise=hkpf-civic-composition-5"
+    "url": "writing-practice.html?exercise=hkpf-civic-composition-5",
+    "sectionKey": "government-writing",
+    "questionPrompt": [
+      "The Government is reportedly close to proposing changes to expand tax concessions for asset and wealth managers, including making carried interest tax breaks more accessible and extending them beyond private equity to other investment areas. Some people believe the proposal could help Hong Kong attract more funds, family offices and investment professionals, and strengthen its position as an international asset management hub. However, others have expressed worries that offering more tax benefits to wealthy investors and fund managers may reduce public revenue and raise questions over tax fairness.",
+      "Please give your own views on the issue and suggest ways for the Government to help shape the final scheme."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:hkpf-civic-composition-6",
@@ -86,7 +206,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "HKPF Civics Composition 6",
     "detail": "Civil Servant Writing Practice · HKPF Civics Composition",
-    "url": "writing-practice.html?exercise=hkpf-civic-composition-6"
+    "url": "writing-practice.html?exercise=hkpf-civic-composition-6",
+    "sectionKey": "government-writing",
+    "questionPrompt": [
+      "The Government has changed regulations to encourage primary schools with insufficient enrolment to merge. The Education Bureau said that 15 schools will be unable to operate a Primary One class in the coming academic year because they will not have 16 pupils. Under the new arrangement, schools which merge may be given a one-year grace period to operate a Primary One class regardless of class size. Some educators believe the measure can give schools more time to adjust, while others worry that the grace period may still be too short and that some schools may eventually have to close or go private.",
+      "Please give your own views on the issue and suggest ways for the Government to help shape the final scheme."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:hkpf-civic-composition-7",
@@ -94,7 +220,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "HKPF Civics Composition 7",
     "detail": "Civil Servant Writing Practice · HKPF Civics Composition",
-    "url": "writing-practice.html?exercise=hkpf-civic-composition-7"
+    "url": "writing-practice.html?exercise=hkpf-civic-composition-7",
+    "sectionKey": "government-writing",
+    "questionPrompt": [
+      "The Government will require taxi drivers to provide at least two electronic payment means from April 1, including one QR code payment method and one non-QR code payment method. Passengers may still pay in cash, but the new requirement aims to make taxi services more convenient, especially for tourists and passengers who prefer cashless payment. Some people welcome the measure as a step towards modernising taxi services, while others worry that some drivers may face difficulties in using the systems and that e-payment alone may not be enough to improve the overall taxi experience.",
+      "Please give your own views on the issue and suggest ways for the Government to help implement the new requirement effectively."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:dse-writing-2014-part-a",
@@ -102,7 +234,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2014,
     "label": "Lucky Village: Where Tradition Meets Transformation",
     "detail": "DSE Writing Part A 2014 · Part A · Local-history article",
-    "url": "writing-practice.html?exercise=dse-writing-2014-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2014-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "PART A",
+      "For question 1, write about 200 words.",
+      "1. The Local History Newsletter is a newsletter about the history of Hong Kong. Every month, it prints short articles about special places in Hong Kong. You have been asked to write an article about an old village called Lucky Village. Write your article using the three headings provided. You can use the headings in any order.",
+      "• Life in Lucky Village 40 years ago",
+      "• An event that changed Lucky Village",
+      "• What Lucky Village is famous for"
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2014-question.webp",
+        "alt": "2014 DSE Writing Part A source question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-1-ielts-task1-bar-charts",
@@ -110,7 +257,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 1,
     "label": "Model Essay 1 - IELTS Task 1 - Bar Charts",
     "detail": "IELTS Writing Task 1 · Bar Charts",
-    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-bar-charts"
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-bar-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The chart below shows the number of households in the US by their annual income in 2007, 2011 and 2015.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-bar-charts.webp",
+        "alt": "IELTS Task 1 Bar Charts Model Essay 1 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-1-ielts-task1-line-graph",
@@ -118,7 +277,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 1,
     "label": "Model Essay 1 - IELTS Task 1 - Line Graph",
     "detail": "IELTS Writing Task 1 · Line Graph",
-    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-line-graph"
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-line-graph",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The graph below gives information on the numbers of participants for different activities at one social centre in Melbourne, Australia for the period 2000 to 2020.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-line-graph.webp",
+        "alt": "IELTS Task 1 Line Graph Model Essay 1 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-1-ielts-task1-maps",
@@ -126,7 +297,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 1,
     "label": "Model Essay 1 - IELTS Task 1 - Maps",
     "detail": "IELTS Writing Task 1 · Maps",
-    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-maps"
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-maps",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The plans below show the site ofa farm in 1950 and the same site today.",
+      "Summarise the information byselecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-maps.webp",
+        "alt": "IELTS Task 1 Maps Model Essay 1 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-1-ielts-task1-mixed-charts",
@@ -134,7 +317,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 1,
     "label": "Model Essay 1 - IELTS Task 1 - Mixed Charts",
     "detail": "IELTS Writing Task 1 · Mixed Charts",
-    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-mixed-charts"
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-mixed-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The charts below give information about a public library in a town called Little Chalfont.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-mixed-charts.webp",
+        "alt": "IELTS Task 1 Mixed Charts Model Essay 1 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-1-ielts-task1-pie-charts",
@@ -142,7 +337,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 1,
     "label": "Model Essay 1 - IELTS Task 1 - Pie Charts",
     "detail": "IELTS Writing Task 1 · Pie Charts",
-    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-pie-charts"
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-pie-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The charts below show the average percentages in typical meals of three types of nutrients, all of which may be unhealthy if eaten too much.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-pie-charts.webp",
+        "alt": "IELTS Task 1 Pie Charts Model Essay 1 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-1-ielts-task1-process-diagram",
@@ -150,7 +357,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 1,
     "label": "Model Essay 1 - IELTS Task 1 - Process Diagram",
     "detail": "IELTS Writing Task 1 · Process Diagram",
-    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-process-diagram"
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-process-diagram",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The diagram below shows how fabric is manufactured from bamboo.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-process-diagram.webp",
+        "alt": "IELTS Task 1 Process Diagram Model Essay 1 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-1-ielts-task1-tables",
@@ -158,7 +377,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 1,
     "label": "Model Essay 1 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-1-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The first table below shows changes in the total population of New York City from 1800 to 2000. The second and third tablesshow changes in the population of the five districts of the city (Manhattan, Brooklyn, Bronx, Queens, Staten lsland) over the same period.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 1 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-2-ielts-advantage-disadvantage",
@@ -166,7 +397,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2,
     "label": "Model Essay 2 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-2-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "An increasing number of people are buying what they need online.",
+      "What are the advantages and disadvantages for both individuals and companies to shop online? (repeated most years)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-2-ielts-cause-solution",
@@ -174,7 +411,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2,
     "label": "Model Essay 2 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-2-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Large businesses have big budgets for marketing and promotion and as a result, people gravitate towards buying their products.",
+      "What problems does this cause?",
+      "What could be done to encourage people to buy local products? (2016, 2020, 2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-2-ielts-direct-question",
@@ -182,7 +426,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2,
     "label": "Model Essay 2 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-2-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The performance of staff can have a significant impact on the success of a company.",
+      "What can companies do to increase staff productivity?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-2-ielts-task1-bar-charts",
@@ -190,7 +440,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2,
     "label": "Model Essay 2 - IELTS Task 1 - Bar Charts",
     "detail": "IELTS Writing Task 1 · Bar Charts",
-    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-bar-charts"
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-bar-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The chart below gives information about how families in one country spent their weekly income in 1968 and in 2018.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-bar-charts.webp",
+        "alt": "IELTS Task 1 Bar Charts Model Essay 2 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-2-ielts-task1-line-graph",
@@ -198,7 +460,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2,
     "label": "Model Essay 2 - IELTS Task 1 - Line Graph",
     "detail": "IELTS Writing Task 1 · Line Graph",
-    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-line-graph"
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-line-graph",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The graph below gives information about the percentage of the population in four Asian countries living in cities from 1970 to 2020, with predictions for 2030 and 2040.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-line-graph.webp",
+        "alt": "IELTS Task 1 Line Graph Model Essay 2 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-2-ielts-task1-maps",
@@ -206,7 +480,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2,
     "label": "Model Essay 2 - IELTS Task 1 - Maps",
     "detail": "IELTS Writing Task 1 · Maps",
-    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-maps"
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-maps",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The plans below show a harbour in 2000 and how it looks today.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-maps.webp",
+        "alt": "IELTS Task 1 Maps Model Essay 2 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-2-ielts-task1-mixed-charts",
@@ -214,7 +500,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2,
     "label": "Model Essay 2 - IELTS Task 1 - Mixed Charts",
     "detail": "IELTS Writing Task 1 · Mixed Charts",
-    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-mixed-charts"
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-mixed-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The charts below give information on the location and types of dance classes young people in a town in Australia are currently attending.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-mixed-charts.webp",
+        "alt": "IELTS Task 1 Mixed Charts Model Essay 2 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-2-ielts-task1-pie-charts",
@@ -222,7 +520,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2,
     "label": "Model Essay 2 - IELTS Task 1 - Pie Charts",
     "detail": "IELTS Writing Task 1 · Pie Charts",
-    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-pie-charts"
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-pie-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The charts below show the percentage of water used for different purposes in six areas of the world.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-pie-charts.webp",
+        "alt": "IELTS Task 1 Pie Charts Model Essay 2 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-2-ielts-task1-process-diagram",
@@ -230,7 +540,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2,
     "label": "Model Essay 2 - IELTS Task 1 - Process Diagram",
     "detail": "IELTS Writing Task 1 · Process Diagram",
-    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-process-diagram"
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-process-diagram",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The diagram below shows how a biofuel called ethanol is produced.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-process-diagram.webp",
+        "alt": "IELTS Task 1 Process Diagram Model Essay 2 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-2-ielts-task1-tables",
@@ -238,7 +560,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2,
     "label": "Model Essay 2 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-2-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The tables below give information about sales of Fairtrade*-labelled coffee and bananas in 1999 and 2004 in five European countries.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 2 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-3-ielts-advantage-disadvantage",
@@ -246,7 +580,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "It is common practice for some students to take a gap year between high school and university in order to do charitable work abroad in underdeveloped countries.",
+      "What are the advantages and disadvantages for young people of doing volunteer work?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-3-ielts-cause-solution",
@@ -254,7 +594,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Rich countries are getting richer while poor countries are getting poorer.",
+      "What is the cause of this?",
+      "What could be done to solve this problem?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-3-ielts-direct-question",
@@ -262,7 +609,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some companies have uniforms for their staff which must be worn at all times.",
+      "What are the advantages for a company of having a uniform?",
+      "Are there any benefits of having a uniform for the staff? (repeated most years)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-3-ielts-opinion",
@@ -270,7 +624,12 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many people think that museums and galleries should only show work from local artists rather than work from other countries. Do you agree? (2021, 2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-3-ielts-task1-bar-charts",
@@ -278,7 +637,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS Task 1 - Bar Charts",
     "detail": "IELTS Writing Task 1 · Bar Charts",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-bar-charts"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-bar-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The chart below shows the results of a survey about people's coffee and tea buying and drinking habits in five Australian cities.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-bar-charts.webp",
+        "alt": "IELTS Task 1 Bar Charts Model Essay 3 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-3-ielts-task1-line-graph",
@@ -286,7 +657,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS Task 1 - Line Graph",
     "detail": "IELTS Writing Task 1 · Line Graph",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-line-graph"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-line-graph",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The graph below shows the average monthly change in the prices of three metals during 2014.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-line-graph.webp",
+        "alt": "IELTS Task 1 Line Graph Model Essay 3 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-3-ielts-task1-maps",
@@ -294,7 +677,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS Task 1 - Maps",
     "detail": "IELTS Writing Task 1 · Maps",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-maps"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-maps",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The diagram below shows the floor plan of a public library 20 years ago and how it looks now.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-maps.webp",
+        "alt": "IELTS Task 1 Maps Model Essay 3 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-3-ielts-task1-mixed-charts",
@@ -302,7 +697,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS Task 1 - Mixed Charts",
     "detail": "IELTS Writing Task 1 · Mixed Charts",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-mixed-charts"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-mixed-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table and charts below give information on the police budget for 2017 and 2018 in one area of Britain. The table shows where the money came from and the charts show how it was distributed.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-mixed-charts.webp",
+        "alt": "IELTS Task 1 Mixed Charts Model Essay 3 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-3-ielts-task1-pie-charts",
@@ -310,7 +717,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS Task 1 - Pie Charts",
     "detail": "IELTS Writing Task 1 · Pie Charts",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-pie-charts"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-pie-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The charts below show the proportions of British students at one university in England who were able to speak other languages in addition to English, in 2000 and 2010.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-pie-charts.webp",
+        "alt": "IELTS Task 1 Pie Charts Model Essay 3 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-3-ielts-task1-process-diagram",
@@ -318,7 +737,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS Task 1 - Process Diagram",
     "detail": "IELTS Writing Task 1 · Process Diagram",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-process-diagram"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-process-diagram",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The diagram below shows the manufacturing process for making sugar from sugar cane.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-process-diagram.webp",
+        "alt": "IELTS Task 1 Process Diagram Model Essay 3 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-3-ielts-task1-tables",
@@ -326,7 +757,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Model Essay 3 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-3-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table below provides statistics on several major metro (MRT) systems around the world.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 3 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-4-ielts-advantage-disadvantage",
@@ -334,7 +777,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people enjoy change in life, while other people try to avoid it.",
+      "What are the advantages and disadvantages of both approaches?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-4-ielts-cause-solution",
@@ -342,7 +791,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many young children have unsupervised access to the internet and are using the internet to socialise with others. This can lead to a number of dangerous situations which can be threatening for children.",
+      "What problems do children face when going online without parental supervision?",
+      "How can these problems be solved? (2018, 2021)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-4-ielts-direct-question",
@@ -350,7 +806,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Sales companies should recruit people who are hungry for money as they will make the most dedicated workers.",
+      "Do you think money is the driving force behind hard work?",
+      "What factors should be taken into consideration when recruiting staff for sales positions? (2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-4-ielts-discuss-both-views",
@@ -358,7 +821,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In many countries, it is common for families to own and run their own business. Some people think this is the best way to run a business,",
+      "while others consider this a potential source of problems.",
+      "What is your opinion? (2018, 2020, 2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-4-ielts-opinion",
@@ -366,7 +836,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Artists need a certain amount of freedom to develop their creativity. Some people think that artists should have total freedom to express any thoughts and ideas.",
+      "To what extent do you agree or disagree? (repeated most years)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-4-ielts-task1-bar-charts",
@@ -374,7 +850,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS Task 1 - Bar Charts",
     "detail": "IELTS Writing Task 1 · Bar Charts",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-bar-charts"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-bar-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The chart below shows the percentage of households in owned and rented accommodation in England and Wales between 1918 and 2011.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-bar-charts.webp",
+        "alt": "IELTS Task 1 Bar Charts Model Essay 4 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-4-ielts-task1-line-graph",
@@ -382,7 +870,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS Task 1 - Line Graph",
     "detail": "IELTS Writing Task 1 · Line Graph",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-line-graph"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-line-graph",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The graph below shows the number of shops that closed and the number of new shops that opened in one country between 2011 and 2018.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-line-graph.webp",
+        "alt": "IELTS Task 1 Line Graph Model Essay 4 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-4-ielts-task1-maps",
@@ -390,7 +890,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS Task 1 - Maps",
     "detail": "IELTS Writing Task 1 · Maps",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-maps"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-maps",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The maps below show an industrial area in the town of Norbiton, and planned future development of the site.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-maps.webp",
+        "alt": "IELTS Task 1 Maps Model Essay 4 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-4-ielts-task1-mixed-charts",
@@ -398,7 +910,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS Task 1 - Mixed Charts",
     "detail": "IELTS Writing Task 1 · Mixed Charts",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-mixed-charts"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-mixed-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The chart below shows the value of one country's exports in various categories during 2015 and 2016.Thetable shows the percentage change in each category of exports in 2016 compared with 2015.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-mixed-charts.webp",
+        "alt": "IELTS Task 1 Mixed Charts Model Essay 4 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-4-ielts-task1-pie-charts",
@@ -406,7 +930,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS Task 1 - Pie Charts",
     "detail": "IELTS Writing Task 1 · Pie Charts",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-pie-charts"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-pie-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The first chart below shows how energy is used in an average Australian household. The second chart shows the greenhouse gas emissions which result from this energy use.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-pie-charts.webp",
+        "alt": "IELTS Task 1 Pie Charts Model Essay 4 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-4-ielts-task1-process-diagram",
@@ -414,7 +950,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS Task 1 - Process Diagram",
     "detail": "IELTS Writing Task 1 · Process Diagram",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-process-diagram"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-process-diagram",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The diagram below shows the process for recycling plastic bottles.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-process-diagram.webp",
+        "alt": "IELTS Task 1 Process Diagram Model Essay 4 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-4-ielts-task1-tables",
@@ -422,7 +970,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 4,
     "label": "Model Essay 4 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-4-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table chart below shows the number of nights spent by domestic and international tourists in Germany from 2016 to 2022 (in millions).",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 4 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-5-ielts-advantage-disadvantage",
@@ -430,7 +990,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "More and more businesses as well as individuals are choosing to communicate either professionally or socially using technology rather than being face to face.",
+      "Discuss the advantages and disadvantages of using technology for communicating."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-5-ielts-direct-question",
@@ -438,7 +1004,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people believe that the higher a product is priced, the more likely it is that people will want to buy it.",
+      "To what extent does price influence potential buyers?",
+      "What other factors influence people to buy a product? (2015, 2018, 2021)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-5-ielts-discuss-both-views",
@@ -446,7 +1019,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that when recruiting, companies should aim to take on people who are innovative and able to work independently while others consider they should recruit people who are able to work in a team and follow instructions.",
+      "Discuss both views and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-5-ielts-opinion",
@@ -454,7 +1033,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Most artists earn low salaries and should therefore receive funding from the government in order for them to continue with their work.",
+      "To what extent do you agree? (repeated most years)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-5-ielts-task1-bar-charts",
@@ -462,7 +1047,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS Task 1 - Bar Charts",
     "detail": "IELTS Writing Task 1 · Bar Charts",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-bar-charts"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-bar-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The bar chart below shows the top ten countries for the production and consumption of electricity in 2014.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-bar-charts.webp",
+        "alt": "IELTS Task 1 Bar Charts Model Essay 5 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-5-ielts-task1-line-graph",
@@ -470,7 +1067,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS Task 1 - Line Graph",
     "detail": "IELTS Writing Task 1 · Line Graph",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-line-graph"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-line-graph",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The charts below show the changes in ownership of electrical appliances and amount of time spent doing housework in households in one country between 1920 and 2019.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-line-graph.webp",
+        "alt": "IELTS Task 1 Line Graph Model Essay 5 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-5-ielts-task1-maps",
@@ -478,7 +1087,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS Task 1 - Maps",
     "detail": "IELTS Writing Task 1 · Maps",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-maps"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-maps",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The plans below show the site of anairport now and how it will look after redevelopment next year.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-maps.webp",
+        "alt": "IELTS Task 1 Maps Model Essay 5 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-5-ielts-task1-mixed-charts",
@@ -486,7 +1107,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS Task 1 - Mixed Charts",
     "detail": "IELTS Writing Task 1 · Mixed Charts",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-mixed-charts"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-mixed-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The chart below shows the value of one country's exports in various categories during 2015 and 2016.Thetable shows the percentage change in each category of exports in 2016 compared with 2015.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-mixed-charts.webp",
+        "alt": "IELTS Task 1 Mixed Charts Model Essay 5 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-5-ielts-task1-pie-charts",
@@ -494,7 +1127,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS Task 1 - Pie Charts",
     "detail": "IELTS Writing Task 1 · Pie Charts",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-pie-charts"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-pie-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The charts below give information on the ages of the populations of Yemen and Italy in 2000 and projections for 2050.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-pie-charts.webp",
+        "alt": "IELTS Task 1 Pie Charts Model Essay 5 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-5-ielts-task1-process-diagram",
@@ -502,7 +1147,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS Task 1 - Process Diagram",
     "detail": "IELTS Writing Task 1 · Process Diagram",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-process-diagram"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-process-diagram",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The diagram below shows how instant noodles are manufactured.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-process-diagram.webp",
+        "alt": "IELTS Task 1 Process Diagram Model Essay 5 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-5-ielts-task1-tables",
@@ -510,7 +1167,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Model Essay 5 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table shows the worldwide market share of the mobile phone market for manufactures in the years 2005 and 2006.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 5 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-6-ielts-advantage-disadvantage",
@@ -518,7 +1187,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that being able to communicate with others online is breaking down geographical barriers and enabling people, who would normally never have the chance to meet, to communicate.",
+      "What are the advantages of international communication online?",
+      "Are there any disadvantages to this?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-6-ielts-cause-solution",
@@ -526,7 +1202,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Crime rate, in most countries, is often higher in urban areas than in rural areas.",
+      "Why do you think that is?",
+      "What can be done to reduce the crime rate?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-6-ielts-direct-question",
@@ -534,7 +1217,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that the only way to judge someone’s success in business is by the amount of money they make.",
+      "Is money a true indicator of the success of a business?",
+      "In what other ways could success in a business be measured?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-6-ielts-discuss-both-views",
@@ -542,7 +1232,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that the only way to have success in business is to have a unique product.",
+      "What factors, do you think, influence the success of a company?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-6-ielts-opinion",
@@ -550,7 +1246,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Due to the development and rapid expansion of supermarkets in some countries, many small, local business are unable to compete. Some people think that the closure of local business will bring about the death of local communities.",
+      "To what extent do you agree or disagree? (repeated most years)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-6-ielts-task1-bar-charts",
@@ -558,7 +1260,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS Task 1 - Bar Charts",
     "detail": "IELTS Writing Task 1 · Bar Charts",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-bar-charts"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-bar-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The bar chart below shows the percentage of Australian men and women in different age groups who did regular physical activity in 2010.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-bar-charts.webp",
+        "alt": "IELTS Task 1 Bar Charts Model Essay 6 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-6-ielts-task1-line-graph",
@@ -566,7 +1280,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS Task 1 - Line Graph",
     "detail": "IELTS Writing Task 1 · Line Graph",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-line-graph"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-line-graph",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The graph below shows the number of tourists visiting a particular Caribbean island between 2010 and 2017.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-line-graph.webp",
+        "alt": "IELTS Task 1 Line Graph Model Essay 6 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-6-ielts-task1-maps",
@@ -574,7 +1300,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS Task 1 - Maps",
     "detail": "IELTS Writing Task 1 · Maps",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-maps"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-maps",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The plans below show a public park when it first opened in 1920 and the same park today.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-maps.webp",
+        "alt": "IELTS Task 1 Maps Model Essay 6 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-6-ielts-task1-mixed-charts",
@@ -582,7 +1320,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS Task 1 - Mixed Charts",
     "detail": "IELTS Writing Task 1 · Mixed Charts",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-mixed-charts"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-mixed-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table below shows the number of visitors to Ashdown Museum during the year before and the year after it was refurbished. The charts show the result of surveys asking visitors how satisfied they were with their visit, during the same two periods.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-mixed-charts.webp",
+        "alt": "IELTS Task 1 Mixed Charts Model Essay 6 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-6-ielts-task1-pie-charts",
@@ -590,7 +1340,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS Task 1 - Pie Charts",
     "detail": "IELTS Writing Task 1 · Pie Charts",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-pie-charts"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-pie-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The three pie charts below show the changes in annual spending by a particular UK school in 1981, 1991 and 2001.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-pie-charts.webp",
+        "alt": "IELTS Task 1 Pie Charts Model Essay 6 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-6-ielts-task1-process-diagram",
@@ -598,7 +1360,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS Task 1 - Process Diagram",
     "detail": "IELTS Writing Task 1 · Process Diagram",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-process-diagram"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-process-diagram",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The diagram below shows how electricity is generated in a hydroelectric power station.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-process-diagram.webp",
+        "alt": "IELTS Task 1 Process Diagram Model Essay 6 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-6-ielts-task1-tables",
@@ -606,7 +1380,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 6,
     "label": "Model Essay 6 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-6-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table below shows the results of a survey of first-year students taking various courses at a particular university. It shows how many of the students considered various aspects of their course 'very good'.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 6 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-7-ielts-advantage-disadvantage",
@@ -614,7 +1400,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many people believe that having a fixed punishment for all crimes is more efficient.",
+      "What are the advantages and disadvantages of having a fixed punishment?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-7-ielts-cause-solution",
@@ -622,7 +1414,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In nearly all science courses at university, there are significantly more male students than female students.",
+      "What is the reason for this?",
+      "What could be done to balance out the numbers?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-7-ielts-direct-question",
@@ -630,7 +1429,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people fail in school, but end up being successful in life.",
+      "Why do you think that is the case?",
+      "What is the most important thing to succeed in life? (Reported 2017, 2021 GT Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-7-ielts-discuss-both-views",
@@ -638,7 +1444,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that it is better for a country’s economy for people to spend money, while others believe that it would be better for people to save money.",
+      "Discuss both sides and give your opinion. (2015, 2018, 2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-7-ielts-opinion",
@@ -646,7 +1458,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Companies should provide sports and social facilities for local communities.",
+      "To what extent do you agree? (Reported 2017, 2021)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-7-ielts-task1-bar-charts",
@@ -654,7 +1472,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS Task 1 - Bar Charts",
     "detail": "IELTS Writing Task 1 · Bar Charts",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-bar-charts"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-bar-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The charts below show what UK graduate and postgraduate students who did not go into full-time work did after leaving college in 2008.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-bar-charts.webp",
+        "alt": "IELTS Task 1 Bar Charts Model Essay 7 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-7-ielts-task1-line-graph",
@@ -662,7 +1492,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS Task 1 - Line Graph",
     "detail": "IELTS Writing Task 1 · Line Graph",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-line-graph"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-line-graph",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The graph below shows average carbon dioxide (CO2) emissions per person in the United Kingdom, Sweden, Italy and Portugal between 1967 and 2007.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-line-graph.webp",
+        "alt": "IELTS Task 1 Line Graph Model Essay 7 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-7-ielts-task1-maps",
@@ -670,7 +1512,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS Task 1 - Maps",
     "detail": "IELTS Writing Task 1 · Maps",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-maps"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-maps",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The two maps below show road access to a city hospital in 2007 and in 2010.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-maps.webp",
+        "alt": "IELTS Task 1 Maps Model Essay 7 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-7-ielts-task1-mixed-charts",
@@ -678,7 +1532,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS Task 1 - Mixed Charts",
     "detail": "IELTS Writing Task 1 · Mixed Charts",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-mixed-charts"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-mixed-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table below shows the number of visitors to Ashdown Museum during the year before and the year after it was refurbished. The charts show the result of surveys asking visitors how satisfied they were with their visit, during the same two periods.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-mixed-charts.webp",
+        "alt": "IELTS Task 1 Mixed Charts Model Essay 7 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-7-ielts-task1-process-diagram",
@@ -686,7 +1552,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS Task 1 - Process Diagram",
     "detail": "IELTS Writing Task 1 · Process Diagram",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-process-diagram"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-process-diagram",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The diagram below shows how geothermal energy is used to produce electricity.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-process-diagram.webp",
+        "alt": "IELTS Task 1 Process Diagram Model Essay 7 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-7-ielts-task1-tables",
@@ -694,7 +1572,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 7,
     "label": "Model Essay 7 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-7-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table details the international tourist arrivals in millions in 8 countries in 2009 and 2010 and the changes (in percentages).",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 7 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-8-ielts-advantage-disadvantage",
@@ -702,7 +1592,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 8,
     "label": "Model Essay 8 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-8-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some educationalists think that international exchange visits will benefit teenagers at the school.",
+      "To what extent do the advantages outweigh the disadvantages? (Reported 2020, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-8-ielts-direct-question",
@@ -710,7 +1606,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 8,
     "label": "Model Essay 8 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-8-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many management interviews are based around assessing not only a person’s level of experience and knowledge but also their personality.",
+      "Is leadership an innate skill?",
+      "What other characteristics do companies look for in a manager?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-8-ielts-discuss-both-views",
@@ -718,7 +1621,12 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 8,
     "label": "Model Essay 8 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-8-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that teenagers are happier than adults, but others do not agree. Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-8-ielts-opinion",
@@ -726,7 +1634,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 8,
     "label": "Model Essay 8 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-8-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "\"If the product is good and meets consumer needs than advertising is unnecessary.",
+      "To what extent do you agree? (2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-8-ielts-task1-bar-charts",
@@ -734,7 +1648,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 8,
     "label": "Model Essay 8 - IELTS Task 1 - Bar Charts",
     "detail": "IELTS Writing Task 1 · Bar Charts",
-    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-bar-charts"
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-bar-charts",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The chart below shows the total number of minutes (in billions) of telephone calls in the UK, divided into three categories, from 1995—2002.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-8-ielts-task1-bar-charts.webp",
+        "alt": "IELTS Task 1 Bar Charts Model Essay 8 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-8-ielts-task1-line-graph",
@@ -742,7 +1668,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 8,
     "label": "Model Essay 8 - IELTS Task 1 - Line Graph",
     "detail": "IELTS Writing Task 1 · Line Graph",
-    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-line-graph"
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-line-graph",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The graph below gives information from a 2008 report about consumption of energy in the USA since 1980 with projections until 2030.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-8-ielts-task1-line-graph.webp",
+        "alt": "IELTS Task 1 Line Graph Model Essay 8 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-8-ielts-task1-maps",
@@ -750,7 +1688,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 8,
     "label": "Model Essay 8 - IELTS Task 1 - Maps",
     "detail": "IELTS Writing Task 1 · Maps",
-    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-maps"
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-maps",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The plans below show the layout of a university’s sports centre now, and how it will look after redevelopment.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-8-ielts-task1-maps.webp",
+        "alt": "IELTS Task 1 Maps Model Essay 8 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-8-ielts-task1-process-diagram",
@@ -758,7 +1708,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 8,
     "label": "Model Essay 8 - IELTS Task 1 - Process Diagram",
     "detail": "IELTS Writing Task 1 · Process Diagram",
-    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-process-diagram"
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-process-diagram",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The diagrams below show the life cycle of a species of large fish called the salmon.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-8-ielts-task1-process-diagram.webp",
+        "alt": "IELTS Task 1 Process Diagram Model Essay 8 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-8-ielts-task1-tables",
@@ -766,7 +1728,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 8,
     "label": "Model Essay 8 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-8-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table below gives information about management positions held by women in a European country in 2006.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-8-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 8 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-9-ielts-advantage-disadvantage",
@@ -774,7 +1748,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 9,
     "label": "Model Essay 9 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-9-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some schools are very strict about their school uniforms and the appearance of their pupils, while other schools have a very relaxed dress code.",
+      "What are the advantages and disadvantages of children of having a school uniform?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-9-ielts-cause-solution",
@@ -782,7 +1762,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 9,
     "label": "Model Essay 9 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-9-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The number of people who are at risk of serious health problems due to being overweight is increasing.",
+      "What is the reason for the growth of overweight people in society?",
+      "How can this problem be solved?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-9-ielts-direct-question",
@@ -790,7 +1777,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 9,
     "label": "Model Essay 9 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-9-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "It is often thought that the increase in juvenile crime can be attributed to violence in the media.",
+      "Do you agree that this is the main cause of juvenile crime?",
+      "What solutions can you offer to deal with this situation?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-9-ielts-discuss-both-views",
@@ -798,7 +1792,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 9,
     "label": "Model Essay 9 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-9-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that intelligence is innate, while others think that we can improve our intelligence through learning.",
+      "Discuss both sides and give your opinion. (common question)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-9-ielts-opinion",
@@ -806,7 +1806,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 9,
     "label": "Model Essay 9 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-9-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some countries encourage foreign companies to open in their country. Many people think that the government should focus on encouraging local business rather than foreign businesses.",
+      "To what extent do you agree? (reported 2021, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-9-ielts-task1-line-graph",
@@ -814,7 +1820,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 9,
     "label": "Model Essay 9 - IELTS Task 1 - Line Graph",
     "detail": "IELTS Writing Task 1 · Line Graph",
-    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-line-graph"
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-line-graph",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The graph below shows the quantities of goods transported in the UK between 1974 and 2002 by four different modes of transport.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-9-ielts-task1-line-graph.webp",
+        "alt": "IELTS Task 1 Line Graph Model Essay 9 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-9-ielts-task1-maps",
@@ -822,7 +1840,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 9,
     "label": "Model Essay 9 - IELTS Task 1 - Maps",
     "detail": "IELTS Writing Task 1 · Maps",
-    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-maps"
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-maps",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The plans below show a public park when it first opened in 1920 and the same park today.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-9-ielts-task1-maps.webp",
+        "alt": "IELTS Task 1 Maps Model Essay 9 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-9-ielts-task1-process-diagram",
@@ -830,7 +1860,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 9,
     "label": "Model Essay 9 - IELTS Task 1 - Process Diagram",
     "detail": "IELTS Writing Task 1 · Process Diagram",
-    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-process-diagram"
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-process-diagram",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The diagrams below show the stages and equipment used in the cement-making process, and how cement is used to produce concrete for building purposes.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-9-ielts-task1-process-diagram.webp",
+        "alt": "IELTS Task 1 Process Diagram Model Essay 9 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-9-ielts-task1-tables",
@@ -838,7 +1880,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 9,
     "label": "Model Essay 9 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-9-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table below shows the consumption of three basic foods (wheat, maize, rice) by people in four different countries.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-9-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 9 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-10-ielts-advantage-disadvantage",
@@ -846,7 +1900,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 10,
     "label": "Model Essay 10 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-10-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-10-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In some countries, girls and boys are educated in different schools rather than in the same school.",
+      "What are the advantages and disadvantage of this? (2019, 2020, 2021)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-10-ielts-cause-solution",
@@ -854,7 +1914,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 10,
     "label": "Model Essay 10 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-10-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-10-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Walking is known to be beneficial for health and yet fewer and fewer people are walking these days.",
+      "What are the reasons for this?",
+      "What can be done to tackle this problem?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-10-ielts-direct-question",
@@ -862,7 +1929,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 10,
     "label": "Model Essay 10 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-10-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-10-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many crimes are often related to the consumption of alcohol. Some people think that the best way to reduce the crime rate is to ban alcohol.",
+      "Do you think this is an effective measure against crime?",
+      "What other solutions can you suggest?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-10-ielts-discuss-both-views",
@@ -870,7 +1944,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 10,
     "label": "Model Essay 10 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-10-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-10-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think our first impression of someone is important,",
+      "while others think we should not judge another person so quickly and should take our time to know them better.",
+      "Discuss both sides and give your opinion. (2022, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-10-ielts-opinion",
@@ -878,7 +1959,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 10,
     "label": "Model Essay 10 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-10-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-10-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Marketing and promotion is the key to a successful business.",
+      "To what extent do you agree? (repeated frequently)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-10-ielts-task1-maps",
@@ -886,7 +1973,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 10,
     "label": "Model Essay 10 - IELTS Task 1 - Maps",
     "detail": "IELTS Writing Task 1 · Maps",
-    "url": "writing-practice.html?exercise=model-essay-10-ielts-task1-maps"
+    "url": "writing-practice.html?exercise=model-essay-10-ielts-task1-maps",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The two maps below show an island, before and after the construction of some tourist facilities.",
+      "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-10-ielts-task1-maps.webp",
+        "alt": "IELTS Task 1 Maps Model Essay 10 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-10-ielts-task1-tables",
@@ -894,7 +1993,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 10,
     "label": "Model Essay 10 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-10-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-10-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table shows the Proportions of Pupils Attending Four Secondary School Types Between 2000 and 2009.",
+      "Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-10-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 10 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-11-ielts-advantage-disadvantage",
@@ -902,7 +2013,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 11,
     "label": "Model Essay 11 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-11-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-11-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Fewer schools are requiring children to learn and improve their hand writing skills.",
+      "Do the advantages outweigh the disadvantages of this trend?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-11-ielts-cause-solution",
@@ -910,7 +2027,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 11,
     "label": "Model Essay 11 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-11-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-11-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In many countries, people are moving away from rural areas and towards urban areas.",
+      "Why do you think that is?",
+      "What problems can this cause?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-11-ielts-direct-question",
@@ -918,7 +2042,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 11,
     "label": "Model Essay 11 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-11-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-11-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some children receive almost no encouragement from their parents regarding their performance at school, while other children receive too much pressure from their over enthusiastic parents which can have a negative impact on the child.",
+      "Why do you think some parents put too much pressure on their children to perform well at school?",
+      "What do you think the role of a parent should be in their child’s education? (2017, 2019, 2020, 2021)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-11-ielts-discuss-both-views",
@@ -926,7 +2057,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 11,
     "label": "Model Essay 11 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-11-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-11-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that the government should be responsible for crime prevention,",
+      "while others believe that it is the responsibility of the individual to protect themselves.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-11-ielts-opinion",
@@ -934,7 +2072,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 11,
     "label": "Model Essay 11 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-11-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-11-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Small businesses should avoid recruiting young women who do not have their own family in order to avoid paying maternity leave later on.",
+      "To what extent do you agree or disagree? (2021)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-11-ielts-task1-tables",
@@ -942,7 +2086,19 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 11,
     "label": "Model Essay 11 - IELTS Task 1 - Tables",
     "detail": "IELTS Writing Task 1 · Tables",
-    "url": "writing-practice.html?exercise=model-essay-11-ielts-task1-tables"
+    "url": "writing-practice.html?exercise=model-essay-11-ielts-task1-tables",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The table below gives information about the daily cost of water per person in five different countries.",
+      "Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+      "Write at least 150 words."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/ielts-task1/model-essay-11-ielts-task1-tables.webp",
+        "alt": "IELTS Task 1 Tables Model Essay 11 question"
+      }
+    ]
   },
   {
     "id": "fill:model-essay-12-ielts-advantage-disadvantage",
@@ -950,7 +2106,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 12,
     "label": "Model Essay 12 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-12-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-12-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think it is better for children to grow up in the city, while others think that life in the countryside is more suitable.",
+      "What are the advantages and disadvantages of both places? (frequent question)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-12-ielts-cause-solution",
@@ -958,7 +2120,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 12,
     "label": "Model Essay 12 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-12-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-12-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The population of most cities is growing as people move to cities to find work and new opportunities.",
+      "What problems does overpopulation in cities cause?",
+      "How can these problems be solved?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-12-ielts-direct-question",
@@ -966,7 +2135,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 12,
     "label": "Model Essay 12 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-12-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-12-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that teachers should be able to ask disruptive children to leave the class.",
+      "Do you think it is the best way to deal with a disruptive child in the classroom?",
+      "What other solutions are there? (as mentioned above, discipline is a common question)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-12-ielts-discuss-both-views",
@@ -974,7 +2150,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 12,
     "label": "Model Essay 12 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-12-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-12-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Discipline is an ever increasing problem in modern schools. Some people think that discipline should be the responsibility of teachers, while others think that this is the role of parents.",
+      "Discuss both sides and give your opinion. (discipline in schools is a common question)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-12-ielts-opinion",
@@ -982,7 +2164,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 12,
     "label": "Model Essay 12 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-12-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-12-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The reason that most individuals are in debit is due to the overuse as well as irresponsible use of credit cards. Banks should not issue credit cards unless they are completely sure of an individual’s ability to pay back their debits.",
+      "To what extent do you agree with this?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-13-ielts-cause-solution",
@@ -990,7 +2178,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 13,
     "label": "Model Essay 13 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-13-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-13-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "More and more children as accessing the internet unsupervised and at a younger age. This can sometimes put children at risk.",
+      "What problems do you think parents face when dealing with their children using the internet?",
+      "How can this problem be solved?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-13-ielts-direct-question",
@@ -998,7 +2193,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 13,
     "label": "Model Essay 13 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-13-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-13-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that educated people are more valuable than people who have learned skills through experience.",
+      "Do you think that educated people are the most valuable for society?",
+      "What kinds of skills can people learn through experience that can benefit society?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-13-ielts-discuss-both-views",
@@ -1006,7 +2208,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 13,
     "label": "Model Essay 13 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-13-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-13-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people believe that children should not be given homework everyday, while others believe that they must get homework everyday in order to be successful at school.",
+      "Discuss both sides and give your opinion. (quite common question)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-13-ielts-opinion",
@@ -1014,7 +2222,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 13,
     "label": "Model Essay 13 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-13-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-13-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that ambition is essential for success.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-14-ielts-advantage-disadvantage",
@@ -1022,7 +2236,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 14,
     "label": "Model Essay 14 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-14-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-14-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In some countries, most people prefer to rent their homes rather than buying them.",
+      "What are the advantages and disadvantages of renting a home? (Reported 2017, 2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-14-ielts-cause-solution",
@@ -1030,7 +2250,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 14,
     "label": "Model Essay 14 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-14-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-14-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "As a result of tourism and the increasing number of people travelling, there is an growing demand for more flights.",
+      "What problems does this have on the environment?",
+      "What measures could be taken to solve the problems? (2020, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-14-ielts-direct-question",
@@ -1038,7 +2265,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 14,
     "label": "Model Essay 14 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-14-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-14-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The gap between education in richer countries and education in poorer countries is a growing concern.",
+      "What solutions can you suggest to deal with this situation?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-14-ielts-discuss-both-views",
@@ -1046,7 +2279,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 14,
     "label": "Model Essay 14 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-14-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-14-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some parents believe that their children should do educational activities during their free time. Others say that in this way children are under pressure.",
+      "Discuss both views and give your opinion. (Reported 2017, 2019, 2020, 2021, 2023, GT Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-14-ielts-opinion",
@@ -1054,7 +2293,12 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 14,
     "label": "Model Essay 14 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-14-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-14-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that charisma is essential for success. To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-15-ielts-advantage-disadvantage",
@@ -1062,7 +2306,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 15,
     "label": "Model Essay 15 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-15-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-15-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that all children in school should learn a foreign language at an early age.",
+      "What are the advantages and disadvantages of doing this? (2020, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-15-ielts-cause-solution",
@@ -1070,7 +2320,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 15,
     "label": "Model Essay 15 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-15-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-15-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Eco-tourism usually involves people visiting remote areas. Some people think this will have a negative impact on local cultures and communities.",
+      "What problems can result from eco-tourism?",
+      "What measures can be taken to protect local culture and communities? (2024)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-15-ielts-direct-question",
@@ -1078,7 +2335,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 15,
     "label": "Model Essay 15 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-15-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-15-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In some high schools, part of the curriculum requires students to participate in community work such as helping the elderly or disabled.",
+      "In what way do children benefit from this?",
+      "Do you think it should be part of the curriculum? (2018, 2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-15-ielts-discuss-both-views",
@@ -1086,7 +2350,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 15,
     "label": "Model Essay 15 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-15-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-15-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Being able to speak a foreign language is an advantage these days. Some people think that children should start learning a foreign language at primary school, while others think children should begin in secondary school.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-15-ielts-opinion",
@@ -1094,7 +2364,12 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 15,
     "label": "Model Essay 15 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-15-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-15-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that orator skills are essential for success. To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-16-ielts-advantage-disadvantage",
@@ -1102,7 +2377,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 16,
     "label": "Model Essay 16 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-16-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-16-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Companies spend millions each year on advertising online, in magazines and on billboards. These adverts can encourage people to buy goods that they do not really need.",
+      "What are the positive and negative effects of consumerism?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-16-ielts-cause-solution",
@@ -1110,7 +2391,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 16,
     "label": "Model Essay 16 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-16-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-16-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In some cities and towns all over the world, the high volume of traffic is a problem.",
+      "What are the causes of this and what actions can be taken to solve this problem? (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-16-ielts-direct-question",
@@ -1118,7 +2405,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 16,
     "label": "Model Essay 16 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-16-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-16-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "It is thought by some that a school teacher’s role is to motivate and inspire students. However, other people believe that a teacher’s primary role is to pass on knowledge.",
+      "What do you think is the role of a teacher? (quite common question)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-16-ielts-discuss-both-views",
@@ -1126,7 +2419,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 16,
     "label": "Model Essay 16 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-16-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-16-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that schools should invest more money in technology, such as more computers, while others think more money should be spent on teachers.",
+      "Discuss both views and give your opinion. (2020, 2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-16-ielts-opinion",
@@ -1134,7 +2433,12 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 16,
     "label": "Model Essay 16 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-16-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-16-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that people skills are essential for success. To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-17-ielts-advantage-disadvantage",
@@ -1142,7 +2446,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 17,
     "label": "Model Essay 17 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-17-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-17-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Public libraries will soon no longer be housed in a building as all facilities and books will be available online for everyone to access.",
+      "Discuss the advantages and disadvantages of public libraries only existing online."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-17-ielts-cause-solution",
@@ -1150,7 +2460,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 17,
     "label": "Model Essay 17 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-17-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-17-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "More and more people are moving away from an agricultural background to relocate to cities in order to look for work.",
+      "What will be the consequences of this?",
+      "What solutions can you offer? (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-17-ielts-direct-question",
@@ -1158,7 +2475,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 17,
     "label": "Model Essay 17 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-17-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-17-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "With increasing populations and ever growing urban centers, many countries are losing their natural beauty spots.",
+      "What benefits are there to protecting places of natural beauty?",
+      "How can this be solved?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-17-ielts-discuss-both-views",
@@ -1166,7 +2490,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 17,
     "label": "Model Essay 17 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-17-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-17-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that parents have the greatest influence on their child’s academic development, while others think that a child’s teacher has more influence.",
+      "Discuss both sides and give your opinion. (common question)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-17-ielts-opinion",
@@ -1174,7 +2504,12 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 17,
     "label": "Model Essay 17 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-17-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-17-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "People were happier in previous generations compared to now. To what extent do you agree"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-18-ielts-advantage-disadvantage",
@@ -1182,7 +2517,15 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 18,
     "label": "Model Essay 18 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-18-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-18-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many countries aim to improve their living standard by economic development, but some important social values are lost as a result.",
+      "Do you think the advantages of economic development outweigh the disadvantages? (Reported 2017, Academic Test)",
+      "____",
+      "(advantage + disadvantage question type with a Stance)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-18-ielts-cause-solution",
@@ -1190,7 +2533,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 18,
     "label": "Model Essay 18 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-18-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-18-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many people find it hard to balance their work with other parts of their lives.",
+      "What are the reasons for this?",
+      "How can this problem be overcome?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-18-ielts-direct-question",
@@ -1198,7 +2548,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 18,
     "label": "Model Essay 18 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-18-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-18-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "With deforestation, urban development and illegal hunting, many animal species are becoming endangered as they lose their habitat and some are even threatened to the point of extinction.",
+      "Do you think it is important to protect animals?",
+      "What measures can be taken to deal with this problem?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-18-ielts-discuss-both-views",
@@ -1206,7 +2563,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 18,
     "label": "Model Essay 18 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-18-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-18-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that it is beneficial for old people to learn something new while others believe that once a person is past 65 years of age it is too late to learn.",
+      "What is your opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-18-ielts-opinion",
@@ -1214,7 +2577,12 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 18,
     "label": "Model Essay 18 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-18-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-18-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "People were stressed in previous generations compared to now. To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-19-ielts-advantage-disadvantage",
@@ -1222,7 +2590,15 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 19,
     "label": "Model Essay 19 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-19-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-19-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Globalisation has both advantages and disadvantages.",
+      "Discuss both and give your opinion.",
+      "____",
+      "(advantage + disadvantage question type with a Stance)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-19-ielts-cause-solution",
@@ -1230,7 +2606,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 19,
     "label": "Model Essay 19 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-19-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-19-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In some developing countries, it is difficult to get good teachers to work in rural areas which can have a negative impact on the education of children in those rural communities.",
+      "Why do you think good teachers do not want to work in rural areas in developing countries?",
+      "What could be done to solve this problem?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-19-ielts-discuss-both-views",
@@ -1238,7 +2621,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 19,
     "label": "Model Essay 19 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-19-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-19-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Human activity has had a negative impact on plants and animals around the world. Some people think that this cannot be changed, while others believe actions can be taken to bring about a change.",
+      "Discuss both and give your opinion. (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-19-ielts-opinion",
@@ -1246,7 +2635,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 19,
     "label": "Model Essay 19 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-19-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-19-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Nowadays celebrities are more famous for their glamour and wealth than for their achievements, and this sets a bad example to young people.",
+      "To what extent do you agree or disagree? (frequently appearing question)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-20-ielts-advantage-disadvantage",
@@ -1254,7 +2649,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 20,
     "label": "Model Essay 20 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-20-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-20-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In many cities there is a lack of space to develop and as a result, in order to modernise, old buildings are demolished and replaced with new buildings.",
+      "What are the disadvantages of knocking down old buildings?",
+      "Do the advantages outweigh the disadvantages?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-20-ielts-cause-solution",
@@ -1262,7 +2664,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 20,
     "label": "Model Essay 20 - IELTS - Cause / Solution",
     "detail": "IELTS Writing Task 2 · Cause / Solution",
-    "url": "writing-practice.html?exercise=model-essay-20-ielts-cause-solution"
+    "url": "writing-practice.html?exercise=model-essay-20-ielts-cause-solution",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people with a good education and experience in their field decide to move abroad to work.",
+      "Why do you think that is?",
+      "What problems does this cause?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-20-ielts-discuss-both-views",
@@ -1270,7 +2679,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 20,
     "label": "Model Essay 20 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-20-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-20-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think an international car-free day is an effective way to reduce air pollution. Others think there are more effective ways to do this.",
+      "Discuss both sides and give your opinion. (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-20-ielts-opinion",
@@ -1278,7 +2693,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 20,
     "label": "Model Essay 20 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-20-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-20-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some celebrities feel that the media violates their personal space and shares their private life publicly,",
+      "while others feel it is just part of being famous.",
+      "What is your opinion? (2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-21-ielts-advantage-disadvantage",
@@ -1286,7 +2708,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 21,
     "label": "Model Essay 21 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-21-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-21-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many things that used to be done in the home by hands are now being done by machines.",
+      "Does this development bring more advantages or disadvantages? (Reported 2017)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-21-ielts-discuss-both-views",
@@ -1294,7 +2722,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 21,
     "label": "Model Essay 21 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-21-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-21-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "While some people consider global warming to be the most pressing environmental problem which we have at the moment, others believe that deforestation has a more devastating impact on our world.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-21-ielts-opinion",
@@ -1302,7 +2736,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 21,
     "label": "Model Essay 21 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-21-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-21-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The way someone dresses speaks volumes about their personality.",
+      "To what extent do you agree? (common question)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-22-ielts-advantage-disadvantage",
@@ -1310,7 +2750,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 22,
     "label": "Model Essay 22 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-22-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-22-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "New household appliances have resulted in more free time for women and has enabled them to both work and run a home with dependent children.",
+      "What are the advantages for a family when the mother works?",
+      "Do you think the disadvantages outweigh the advantages?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-22-ielts-discuss-both-views",
@@ -1318,7 +2765,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 22,
     "label": "Model Essay 22 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-22-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-22-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that current environmental issues are global problems and should therefore be dealt with by the government while others believe that these problems can only be tackled by individuals.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-22-ielts-opinion",
@@ -1326,7 +2779,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 22,
     "label": "Model Essay 22 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-22-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-22-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "With an increasing population communicating via the internet and text messaging, face to face communication will become a thing of the past.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-23-ielts-advantage-disadvantage",
@@ -1334,7 +2793,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 23,
     "label": "Model Essay 23 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-23-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-23-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The development of tourism contributed to English becoming the most prominent language in the world. Some people think this will lead to English becoming the only language to be spoken globally.",
+      "What are the advantages and disadvantages to having one language in the world?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-23-ielts-discuss-both-views",
@@ -1342,7 +2807,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 23,
     "label": "Model Essay 23 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-23-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-23-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that the role of parents is to discipline their children and teach them about right and wrong. Other people consider that the main responsibility of parents is to nurture their children and provide them with a safe environment to grow up in.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-23-ielts-opinion",
@@ -1350,7 +2821,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 23,
     "label": "Model Essay 23 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-23-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-23-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "With the development of online communication,",
+      "people will never be alone and will always be able to make new friends.",
+      "To what extent do you agree? (2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-24-ielts-advantage-disadvantage",
@@ -1358,7 +2836,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 24,
     "label": "Model Essay 24 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-24-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-24-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many people around the world now take regular international flights.",
+      "Do the advantages of this trend outweigh the disadvantages to the environment? (2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-24-ielts-discuss-both-views",
@@ -1366,7 +2850,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 24,
     "label": "Model Essay 24 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-24-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-24-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that the government is responsible for the rise in obesity in children,",
+      "while others think it is the fault of the parents.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-24-ielts-opinion",
@@ -1374,7 +2865,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 24,
     "label": "Model Essay 24 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-24-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-24-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Communication through text messaging and other instant forms of online communication are short and basic.",
+      "Some people think this will be the death of grammar and spelling.",
+      "Do you agree or disagree? (2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-25-ielts-advantage-disadvantage",
@@ -1382,7 +2880,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 25,
     "label": "Model Essay 25 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-25-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-25-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that it should be compulsory for people to retake their driving test every 5 years.",
+      "What are the advantages and disadvantages of doing this?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-25-ielts-direct-question",
@@ -1390,7 +2894,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 25,
     "label": "Model Essay 25 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-25-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-25-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Most modern families have both parents working and as a result children spend less and less time with their parents.",
+      "What is the reason for this?",
+      "What problems can this cause? (2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-25-ielts-discuss-both-views",
@@ -1398,7 +2909,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 25,
     "label": "Model Essay 25 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-25-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-25-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that public health is the responsibility of the government while others think that people should be responsible for their own health.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-25-ielts-opinion",
@@ -1406,7 +2923,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 25,
     "label": "Model Essay 25 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-25-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-25-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Our personalities are predetermined as a result of our genes before we are born and there is nothing that can be done to alter our character traits.",
+      "To what extent do you agree? (2018, 2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-26-ielts-advantage-disadvantage",
@@ -1414,7 +2937,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 26,
     "label": "Model Essay 26 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-26-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-26-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "One way to solve the problem of congestion in cities is to build sky trains which run overhead rather than on or under the ground.",
+      "What are the advantages and disadvantages of using this solution to solve congestion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-26-ielts-direct-question",
@@ -1422,7 +2951,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 26,
     "label": "Model Essay 26 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-26-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-26-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The nuclear family is well adapted to move geographically due to its size.",
+      "Do you think children benefit in any way from moving?",
+      "Do you think the advantages outweigh the disadvantages? (2019)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-26-ielts-discuss-both-views",
@@ -1430,7 +2966,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 26,
     "label": "Model Essay 26 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-26-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-26-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that old buildings should be protected,",
+      "while others believe that they should be replaced by newer buildings.",
+      "Discuss both sides and give your opinion. (appears most years in the test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-26-ielts-opinion",
@@ -1438,7 +2981,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 26,
     "label": "Model Essay 26 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-26-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-26-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that women are generally more peaceful than men as their characters are naturally more nurturing than aggressive.",
+      "To what extent do you agree with this?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-27-ielts-advantage-disadvantage",
@@ -1446,7 +2995,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 27,
     "label": "Model Essay 27 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-27-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-27-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some employers want to be able to contact their staff at all times, even on holidays.",
+      "Does this development have more advantages than disadvantages? (Reported 2017, GT Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-27-ielts-direct-question",
@@ -1454,7 +3009,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 27,
     "label": "Model Essay 27 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-27-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-27-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "These days people are living into their 90’s and beyond. As a result, there is increasing concern about care for the elderly.",
+      "Do you think it is the responsibility of the family to care for their elderly members or should the government be held responsible? (frequent question)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-27-ielts-discuss-both-views",
@@ -1462,7 +3023,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 27,
     "label": "Model Essay 27 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-27-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-27-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some companies sponsor sports as a way to advertise themselves.",
+      "Some people think it is good, while others think there are disadvantages to this.",
+      "Discuss both sides and give your opinion. (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-27-ielts-opinion",
@@ -1470,7 +3038,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 27,
     "label": "Model Essay 27 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-27-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-27-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The crime rate nowadays is decreasing compared to the past due to advance technology which can prevent and solve crime.",
+      "Do you agree or disagree?",
+      "(Reported 2017, 2021 Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-28-ielts-advantage-disadvantage",
@@ -1478,7 +3053,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 28,
     "label": "Model Essay 28 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-28-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-28-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "More companies should employ older people.",
+      "What are the advantages and disadvantages for a company doing this?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-28-ielts-direct-question",
@@ -1486,7 +3067,12 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 28,
     "label": "Model Essay 28 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-28-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-28-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Should governments make decisions about people’s lifestyle, or should people make their own decisions?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-28-ielts-discuss-both-views",
@@ -1494,7 +3080,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 28,
     "label": "Model Essay 28 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-28-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-28-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "More and more newspapers and news channels are using photographs to support their news articles and stories.",
+      "Some people think that photographs are not a reliable source of news, while others consider photographs to be irrefutable.",
+      "Discuss both sides and give your opinion. (2016, 2018, 2019, 2021)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-28-ielts-opinion",
@@ -1502,7 +3095,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 28,
     "label": "Model Essay 28 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-28-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-28-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In some societies, the number of crimes committed by teenagers is growing.",
+      "Some people think that regardless of age, teenagers who commit major crimes should receive adult punishment.",
+      "To what extent do you agree? (2020, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-29-ielts-advantage-disadvantage",
@@ -1510,7 +3110,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 29,
     "label": "Model Essay 29 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-29-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-29-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many children are encouraged by their parents to get a part time job in their free time.",
+      "What are the advantages and disadvantages to children of doing so?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-29-ielts-direct-question",
@@ -1518,7 +3124,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 29,
     "label": "Model Essay 29 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-29-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-29-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Should the amount of time spent on sport and exercise be increased in schools in order to tackle the problem of overweight children?",
+      "Do you think this is the best way to deal with the problem?",
+      "What other solutions can you suggest?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-29-ielts-discuss-both-views",
@@ -1526,7 +3139,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 29,
     "label": "Model Essay 29 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-29-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-29-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people believe that what children watch on television influences their behaviour. Others say that amount of time spent watching television influences their behaviour.",
+      "Discuss both views and give own opinion (Reported in 2017, 2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-29-ielts-opinion",
@@ -1534,7 +3153,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 29,
     "label": "Model Essay 29 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-29-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-29-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some countries are struggling with an increase in the rate of crime.",
+      "Many people think that having more police on the streets is the only way to reduce crime.",
+      "To what extent do you agree? (2018, 2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-30-ielts-advantage-disadvantage",
@@ -1542,7 +3168,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 30,
     "label": "Model Essay 30 - IELTS - Advantages / Disadvantages",
     "detail": "IELTS Writing Task 2 · Advantages / Disadvantages",
-    "url": "writing-practice.html?exercise=model-essay-30-ielts-advantage-disadvantage"
+    "url": "writing-practice.html?exercise=model-essay-30-ielts-advantage-disadvantage",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The number of people working online from home has grown in some countries.",
+      "What advantages and disadvantages can come of this trend?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-30-ielts-direct-question",
@@ -1550,7 +3182,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 30,
     "label": "Model Essay 30 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-30-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-30-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many countries are experiencing population growth and need more homes.",
+      "Should these new homes be constructed in existing cities or should new towns be built in the countryside? (2017, 2018, 2021, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-30-ielts-discuss-both-views",
@@ -1558,7 +3196,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 30,
     "label": "Model Essay 30 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-30-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-30-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that e-books are the death of paper books, while others think that paper books will never disappear.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-30-ielts-opinion",
@@ -1566,7 +3210,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 30,
     "label": "Model Essay 30 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-30-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-30-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that women should not be allowed to work in the police force.",
+      "Do you agree or disagree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-31-ielts-direct-question",
@@ -1574,7 +3224,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 31,
     "label": "Model Essay 31 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-31-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-31-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Nowadays, a lot of buildings, such as offices and schools, are now being built with an open plan design.",
+      "Why is that?",
+      "Do you see this as a positive or negative development? (Reported 2017, 2022, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-31-ielts-discuss-both-views",
@@ -1582,7 +3239,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 31,
     "label": "Model Essay 31 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-31-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-31-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "More developing countries are given aid from international organisations to help them in their development plans. Some people argue that financial aid is important but others suggest that practical aid and advice are more important?",
+      "Discuss both views and give your opinion. (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-31-ielts-opinion",
@@ -1590,7 +3253,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 31,
     "label": "Model Essay 31 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-31-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-31-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think certain prisoners should be made to do unpaid community work instead of being put behind bars.",
+      "To what extent do you agree?",
+      "(Reported 2017, 2020, GT Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-32-ielts-direct-question",
@@ -1598,7 +3268,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 32,
     "label": "Model Essay 32 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-32-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-32-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Most people think that the truth should be objective rather than subjective when it comes to the news.",
+      "Do you think all news is true?",
+      "What is the function of a newspaper? (2020, 2021, 2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-32-ielts-discuss-both-views",
@@ -1606,7 +3283,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 32,
     "label": "Model Essay 32 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-32-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-32-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that a life is good for people while others believe that constant change can be too demanding on people.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-32-ielts-opinion",
@@ -1614,7 +3297,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 32,
     "label": "Model Essay 32 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-32-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-32-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The death penalty is the best way to control and reduce serious crime.",
+      "To what extent do you agree? (2018, 2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-33-ielts-direct-question",
@@ -1622,7 +3311,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 33,
     "label": "Model Essay 33 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-33-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-33-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The majority of news being reported is bad news such as wars, famines, accidents and crime.",
+      "Why do you think that is?",
+      "Do you think the news should be a balance of both good and bad news? (quite common topic)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-33-ielts-discuss-both-views",
@@ -1630,7 +3326,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 33,
     "label": "Model Essay 33 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-33-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-33-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some scientists think that there are intelligent life forms on other planets and messages should be sent to contact them.",
+      "Other scientists think it is a bad idea and would be dangerous.",
+      "Discuss both views and give your own opinion. (2017, 2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-33-ielts-opinion",
@@ -1638,7 +3341,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 33,
     "label": "Model Essay 33 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-33-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-33-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "While it is sometimes thought that prison is the best place for criminals,",
+      "others believe that there are better ways to deal with them.",
+      "What is your opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-34-ielts-direct-question",
@@ -1646,7 +3356,15 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 34,
     "label": "Model Essay 34 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-34-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-34-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people prefer to watch foreign films rather than locally produced films.",
+      "Why is this?",
+      "Do you think the government should spend more money supporting the local film industry?",
+      "(2015, 2017, 2020, 2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-34-ielts-discuss-both-views",
@@ -1654,7 +3372,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 34,
     "label": "Model Essay 34 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-34-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-34-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that space exploration is a waste of resources, while others think that it is essential for mankind to continue to explore the universe in which we live.",
+      "Discuss both sides and give your opinion. (appears most years in the test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-34-ielts-opinion",
@@ -1662,7 +3386,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 34,
     "label": "Model Essay 34 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-34-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-34-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that poverty is the reason behind most crimes.",
+      "Do you agree or disagree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-35-ielts-direct-question",
@@ -1670,7 +3400,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 35,
     "label": "Model Essay 35 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-35-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-35-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many people buy products that they do not really need and replace old products with new ones unnecessarily.",
+      "Why do people buy things they do not really need?",
+      "Do you think this is a good thing?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-35-ielts-discuss-both-views",
@@ -1678,7 +3415,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 35,
     "label": "Model Essay 35 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-35-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-35-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that dangerous sports should be banned, while others think people should be free to choose.",
+      "Discuss both views and give your opinion. (Reported 2017, 2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-35-ielts-opinion",
@@ -1686,7 +3429,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 35,
     "label": "Model Essay 35 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-35-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-35-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that the parents of children who commit crime should also receive a punishment.",
+      "Do you agree or disagree? (2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-36-ielts-direct-question",
@@ -1694,7 +3443,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 36,
     "label": "Model Essay 36 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-36-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-36-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Children who start reading earlier in life perform better later on in their school studies.",
+      "How important are early reading skills in a child’s academic performance?",
+      "What other preschool factors influence a child’s academic success?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-36-ielts-discuss-both-views",
@@ -1702,7 +3458,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 36,
     "label": "Model Essay 36 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-36-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-36-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that sport teaches children how to compete, while others believe that children learn team work.",
+      "Discuss both views and give your opinion.",
+      "(frequent question most years often reworded)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-36-ielts-opinion",
@@ -1710,7 +3473,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 36,
     "label": "Model Essay 36 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-36-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-36-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "For centuries, important parts of education have remained such as reading, writing and maths.",
+      "With the advent of computers, some people think that computer skill should be made as a fourth skill to be added to the list.",
+      "To what extent do you agree? (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-37-ielts-direct-question",
@@ -1718,7 +3488,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 37,
     "label": "Model Essay 37 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-37-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-37-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "With the development of modern society is the loss of traditional ways of life.",
+      "Is it important to keep our traditional ways of life?",
+      "How can this be achieved?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-37-ielts-discuss-both-views",
@@ -1726,7 +3503,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 37,
     "label": "Model Essay 37 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-37-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-37-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many countries want to host international sports events, while other countries think that hosting sports events has more problems than benefits.",
+      "Discuss both views & give your opinion. (Reported 2017,2021)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-37-ielts-opinion",
@@ -1734,7 +3517,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 37,
     "label": "Model Essay 37 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-37-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-37-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The government should allocate more funding to teaching sciences rather than other subjects in order for a country to develop and progress.",
+      "To what extent do you agree? (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-38-ielts-direct-question",
@@ -1742,7 +3531,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 38,
     "label": "Model Essay 38 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-38-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-38-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Every culture, throughout time, has recorded its history in one way or another.",
+      "In what ways can history be passed on to the next generation?",
+      "Why is history important to society?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-38-ielts-opinion",
@@ -1750,7 +3546,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 38,
     "label": "Model Essay 38 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-38-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-38-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The role of education is to prepare children for the modern world.",
+      "Schools should cut art and music out of the curriculum so that children can focus on useful subjects such as information technology.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-39-ielts-direct-question",
@@ -1758,7 +3561,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 39,
     "label": "Model Essay 39 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-39-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-39-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "All societies have their own music and art.",
+      "In what way are music and art important for society and for the individual?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-39-ielts-discuss-both-views",
@@ -1766,7 +3575,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 39,
     "label": "Model Essay 39 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-39-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-39-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "An increasing number of people are now using the internet to meet new people and socialise. Some people think this has brought people closer together while others think people are becoming more isolated.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-39-ielts-opinion",
@@ -1774,7 +3589,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 39,
     "label": "Model Essay 39 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-39-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-39-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that students in high school should not waste their time studying literature, such as poems and novels.",
+      "Do you agree? (2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-40-ielts-direct-question",
@@ -1782,7 +3603,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 40,
     "label": "Model Essay 40 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-40-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-40-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Modern technology is now very common in most work places.",
+      "How do you think this has changed the way we work?",
+      "Do you think there are disadvantages to relying too much on technology?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-40-ielts-discuss-both-views",
@@ -1790,7 +3618,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 40,
     "label": "Model Essay 40 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-40-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-40-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people believe that to protect local culture, tourism should be banned in some areas,",
+      "while others think that change is inevitable and banning tourism will have no benefits.",
+      "Discuss both sides and give your opinion. (2022, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-40-ielts-opinion",
@@ -1798,7 +3633,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 40,
     "label": "Model Essay 40 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-40-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-40-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Education should be accessible to people of all economic backgrounds.",
+      "All levels of education, from primary school to tertiary education, should be free.",
+      "To what extent do you agree with this opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-41-ielts-direct-question",
@@ -1806,7 +3648,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 41,
     "label": "Model Essay 41 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-41-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-41-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "With the development of technology children are now living in a world that is completely different to what it was 50 years ago.",
+      "What problems does this cause for society and the family?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-41-ielts-discuss-both-views",
@@ -1814,7 +3662,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 41,
     "label": "Model Essay 41 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-41-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-41-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think an international car-free day is an effective way to reduce air pollution. Others think there are more effective ways to do this.",
+      "Discuss both sides and give your opinion. (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-41-ielts-opinion",
@@ -1822,7 +3676,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 41,
     "label": "Model Essay 41 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-41-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-41-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The best way to help underachieving pupils is to have compulsory after school activities which they must attend.",
+      "This way they will become more involved in school and their grades will improve.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-42-ielts-direct-question",
@@ -1830,7 +3691,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 42,
     "label": "Model Essay 42 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-42-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-42-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Tourism is an important industry in many countries.",
+      "What benefits do you think tourism brings to individuals and society? (2017, 2021 reworded)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-42-ielts-discuss-both-views",
@@ -1838,7 +3705,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 42,
     "label": "Model Essay 42 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-42-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-42-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that in order to deal with the problem of congestion in cities, privately owned vehicles should be banned in city centers,",
+      "while others consider this to be an unrealistic solution.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-42-ielts-opinion",
@@ -1846,7 +3720,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 42,
     "label": "Model Essay 42 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-42-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-42-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "It is often said that governments spend too much money on projects to protect wildlife,",
+      "while there are other problems that are more important?",
+      "Do you agree or disagree? (Reported 2017, GT Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-43-ielts-direct-question",
@@ -1854,7 +3735,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 43,
     "label": "Model Essay 43 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-43-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-43-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "As a result of tourism, some historical buildings and sites are being damaged beyond repair.",
+      "What could be done to prevent this? (2019, 2021)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-43-ielts-discuss-both-views",
@@ -1862,7 +3749,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 43,
     "label": "Model Essay 43 - IELTS - Discuss Both Views",
     "detail": "IELTS Writing Task 2 · Discuss Both Views",
-    "url": "writing-practice.html?exercise=model-essay-43-ielts-discuss-both-views"
+    "url": "writing-practice.html?exercise=model-essay-43-ielts-discuss-both-views",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Completing university education is thought by some to be the best way to get a good job.",
+      "On the other hand, other people think that getting experience and developing soft skills is more important.",
+      "Discuss both sides and give your opinion."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-43-ielts-opinion",
@@ -1870,7 +3764,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 43,
     "label": "Model Essay 43 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-43-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-43-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think the best way to solve global environmental problems is to increase the cost of fuel.",
+      "To what extent do you agree or disagree?",
+      "(Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-44-ielts-direct-question",
@@ -1878,7 +3779,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 44,
     "label": "Model Essay 44 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-44-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-44-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "One way to solve the problem of congestion on the roads is to increase the tax on private vehicles.",
+      "How could this alleviate congestion?",
+      "What other measures can you suggest to deal with congestion in cities?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-44-ielts-opinion",
@@ -1886,7 +3794,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 44,
     "label": "Model Essay 44 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-44-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-44-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The government should reduce the amount of money spent on local environmental problems",
+      "and instead increase funding into urgent and more threatening issues such as global warming.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-45-ielts-direct-question",
@@ -1894,7 +3809,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 45,
     "label": "Model Essay 45 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-45-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-45-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Finding job satisfaction is considered to be a luxury in many developing countries.",
+      "Why do you think that is?",
+      "Do you think job satisfaction is important?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-45-ielts-opinion",
@@ -1902,7 +3824,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 45,
     "label": "Model Essay 45 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-45-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-45-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Although many people value their public parks, this space could be better used for other purposes such as residential areas for the ever growing population or to develop business and boost economies.",
+      "To what extent do you agree or disagree with this?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-46-ielts-direct-question",
@@ -1910,7 +3838,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 46,
     "label": "Model Essay 46 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-46-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-46-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In many developing countries, there is an increasing movement of workers from rural areas into the cities.",
+      "Why do you think this happens?",
+      "What problems can this cause?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-46-ielts-opinion",
@@ -1918,7 +3853,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 46,
     "label": "Model Essay 46 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-46-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-46-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Both governments and individuals are spending vast amounts of money protecting animals and their habitat.",
+      "This money could be better spent dealing with fundamental issues in society such as poverty and health care.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-47-ielts-direct-question",
@@ -1926,7 +3868,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 47,
     "label": "Model Essay 47 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-47-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-47-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Getting promotion is one of the biggest drives for people to apply themselves and work hard in the modern workplace.",
+      "Why do you think people are so driven to get a promotion?",
+      "What other factors influence people to work hard?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-47-ielts-opinion",
@@ -1934,7 +3883,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 47,
     "label": "Model Essay 47 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-47-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-47-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many people believe that global environmental problems should be dealt with internationally rather than domestically.",
+      "What is your opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-48-ielts-direct-question",
@@ -1942,7 +3897,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 48,
     "label": "Model Essay 48 - IELTS - Direct Question",
     "detail": "IELTS Writing Task 2 · Direct Question",
-    "url": "writing-practice.html?exercise=model-essay-48-ielts-direct-question"
+    "url": "writing-practice.html?exercise=model-essay-48-ielts-direct-question",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that people should choose their job based on income in order to provide security for their family.",
+      "Do you think money is an important factor when choosing a job?",
+      "What other factors should be considered?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-48-ielts-opinion",
@@ -1950,7 +3912,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 48,
     "label": "Model Essay 48 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-48-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-48-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Restricting air travel is the only way to prevent air pollution.",
+      "Do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-49-ielts-opinion",
@@ -1958,7 +3926,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 49,
     "label": "Model Essay 49 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-49-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-49-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Children can learn effectively by watching television.",
+      "Therefore they should be encouraged to watch television regularly at home and at school.",
+      "To what extent do you agree or disagree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-50-ielts-opinion",
@@ -1966,7 +3941,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 50,
     "label": "Model Essay 50 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-50-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-50-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Children these days have more freedom than in pervious generations.",
+      "Do you think this is a positive or negative development? (2021, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-51-ielts-opinion",
@@ -1974,7 +3955,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 51,
     "label": "Model Essay 51 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-51-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-51-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The values we gain from our parents and family have more influence over our future success than any skills or knowledge learned in school.",
+      "To what extent do you agree or disagree? (2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-52-ielts-opinion",
@@ -1982,7 +3969,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 52,
     "label": "Model Essay 52 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-52-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-52-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "A government has a responsibility to its citizens to ensure their safety.",
+      "Therefore, some people think that the government should increase spending on defense but spend less on social benefits.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-53-ielts-opinion",
@@ -1990,7 +3984,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 53,
     "label": "Model Essay 53 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-53-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-53-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that the government should give money to creative people, such as artists and musicians.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-54-ielts-opinion",
@@ -1998,7 +3998,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 54,
     "label": "Model Essay 54 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-54-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-54-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The government should lower the budget on the arts in order to allocate more money to education.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-55-ielts-opinion",
@@ -2006,7 +4012,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 55,
     "label": "Model Essay 55 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-55-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-55-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that only the government can make significant changes in society,",
+      "while others think that individuals can have a lot of influence.",
+      "What is your opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-56-ielts-opinion",
@@ -2014,7 +4027,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 56,
     "label": "Model Essay 56 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-56-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-56-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The prevention of health problems and illness is more important than treatment and medicine.",
+      "Government funding should reflect this.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-57-ielts-opinion",
@@ -2022,7 +4042,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 57,
     "label": "Model Essay 57 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-57-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-57-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "More and more people are suffering from health problems caused by a modern lifestyle which cannot be treated with modern medicines.",
+      "Some people think that a return to traditional medicine should be encouraged.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-58-ielts-opinion",
@@ -2030,7 +4057,15 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 58,
     "label": "Model Essay 58 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-58-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-58-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Health care should not be provided for free regardless of a person’s income.",
+      "The health of a person is in their own hands and they should,",
+      "therefore, be held accountable for that.",
+      "Do you agree with this opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-59-ielts-opinion",
@@ -2038,7 +4073,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 59,
     "label": "Model Essay 59 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-59-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-59-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The best way to improve health is to exercise daily.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-60-ielts-opinion",
@@ -2046,7 +4087,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 60,
     "label": "Model Essay 60 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-60-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-60-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Doctors should be responsible for educating their patients about how to improve their health.",
+      "Do you agree with this?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-61-ielts-opinion",
@@ -2054,7 +4101,15 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 61,
     "label": "Model Essay 61 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-61-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-61-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Planting trees is very important for the environment. Some people say trees should be planted in the vacant areas of cities and towns,",
+      "while others say housing facilities should be built instead.",
+      "Do you agree or disagree ?",
+      "(Reported most years in the test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-62-ielts-opinion",
@@ -2062,7 +4117,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 62,
     "label": "Model Essay 62 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-62-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-62-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Cities should be designed to be attractive for local people and foreign tourists.",
+      "Do you agree or disagree? (2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-63-ielts-opinion",
@@ -2070,7 +4131,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 63,
     "label": "Model Essay 63 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-63-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-63-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Services, such as shops, schools and commercial centres should be relocated out of the city center.",
+      "To what extent do you agree? (2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-64-ielts-opinion",
@@ -2078,7 +4145,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 64,
     "label": "Model Essay 64 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-64-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-64-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Cities should prioritise parks rather than housing developments.",
+      "To what extent do you agree?",
+      "(appears most years in the test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-65-ielts-opinion",
@@ -2086,7 +4160,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 65,
     "label": "Model Essay 65 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-65-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-65-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "As computers translate quickly and accurately, is learning foreign languages a waste of time?",
+      "To what extent do you agree or disagree? (2017, 2020, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-66-ielts-opinion",
@@ -2094,7 +4174,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 66,
     "label": "Model Essay 66 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-66-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-66-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Scientists predict that all people will choose to speak the same global language in the future.",
+      "Do you think this is a positive or negative development?",
+      "(appears most years in the test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-67-ielts-opinion",
@@ -2102,7 +4189,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 67,
     "label": "Model Essay 67 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-67-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-67-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some schools are no longer teaching children how to write with a pen.",
+      "Do you think children should learn handwriting skills? (2024)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-68-ielts-opinion",
@@ -2110,7 +4203,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 68,
     "label": "Model Essay 68 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-68-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-68-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that a person can never understand the culture of a country unless they speak the language.",
+      "Do you agree with this opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-69-ielts-opinion",
@@ -2118,7 +4217,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 69,
     "label": "Model Essay 69 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-69-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-69-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that you can never become fluent in a language unless you have spent time living or working in that country.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-70-ielts-opinion",
@@ -2126,7 +4231,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 70,
     "label": "Model Essay 70 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-70-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-70-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Violence in the media promotes violence in society.",
+      "To what extent do you agree? (repeated topic)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-71-ielts-opinion",
@@ -2134,7 +4245,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 71,
     "label": "Model Essay 71 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-71-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-71-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In the last few decades, there have been more and more cases of famous people being hounded by the press.",
+      "Some people think that famous people in the media should have no right to privacy.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-72-ielts-opinion",
@@ -2142,7 +4260,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 72,
     "label": "Model Essay 72 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-72-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-72-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "With the development of online media,",
+      "there is no future for the radio.",
+      "To what extent do you agree? (2016, 2017, 2018, 2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-73-ielts-opinion",
@@ -2150,7 +4275,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 73,
     "label": "Model Essay 73 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-73-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-73-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that cinemas will one day close due to the popularity of online streaming services for films and series.",
+      "Do you agree or disagree? (2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-74-ielts-opinion",
@@ -2158,7 +4289,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 74,
     "label": "Model Essay 74 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-74-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-74-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "One of the prime times for advertising on TV is when children get back from school.",
+      "Some people think that advertisements aimed at children should not be allowed.",
+      "What is your opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-75-ielts-opinion",
@@ -2166,7 +4304,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 75,
     "label": "Model Essay 75 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-75-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-75-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that foreign films have a negative impact on local culture.",
+      "To what extent do you agree or disagree?",
+      "(2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-76-ielts-opinion",
@@ -2174,7 +4319,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 76,
     "label": "Model Essay 76 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-76-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-76-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Films that are based on historical events ought to be completely accurate.",
+      "Do you agree? (2019, 2021, 2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-77-ielts-opinion",
@@ -2182,7 +4333,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 77,
     "label": "Model Essay 77 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-77-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-77-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Many people think that fast food companies should not be allowed to advertise,",
+      "while others believe that all companies should have the right to advertise.",
+      "What is your opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-78-ielts-opinion",
@@ -2190,7 +4348,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 78,
     "label": "Model Essay 78 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-78-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-78-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think books are losing importance as a source of information and entertainment.",
+      "To what extent do you agree? (Reported 2017, GT)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-79-ielts-opinion",
@@ -2198,7 +4362,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 79,
     "label": "Model Essay 79 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-79-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-79-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that children who spend a lot of time reading children’s story books are wasting their time which could be better used doing other more useful activities.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-80-ielts-opinion",
@@ -2206,7 +4376,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 80,
     "label": "Model Essay 80 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-80-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-80-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Libraries should focus on improving their technological resources rather than on building a larger collection of paper books.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-81-ielts-opinion",
@@ -2214,7 +4390,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 81,
     "label": "Model Essay 81 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-81-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-81-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In many countries women no longer feel the need to get married.",
+      "Some people believe that this is because women are able to earn their own income and therefore do not require the financial security that marriage can bring.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-82-ielts-opinion",
@@ -2222,7 +4405,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 82,
     "label": "Model Essay 82 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-82-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-82-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Most societies have homeless people.",
+      "Some people think that the best way to help them is to give them money.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-83-ielts-opinion",
@@ -2230,7 +4420,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 83,
     "label": "Model Essay 83 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-83-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-83-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "It is sometimes thought that people who travel outside of their own country are more tolerant and understanding of others.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-84-ielts-opinion",
@@ -2238,7 +4434,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 84,
     "label": "Model Essay 84 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-84-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-84-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The government is spending a lot of money to discover life on other planets.",
+      "Some people think that the government is wasting money and should spend more money addressing the problems of the public.",
+      "To what extent do you agree? (2017, 2020)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-85-ielts-opinion",
@@ -2246,7 +4449,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 85,
     "label": "Model Essay 85 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-85-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-85-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that introducing children to team sports is the best way to teach children teamwork.",
+      "To what extent do you agree? (2023)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-86-ielts-opinion",
@@ -2254,7 +4463,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 86,
     "label": "Model Essay 86 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-86-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-86-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Ensuring that children have regular physical exercise should be the responsibility of parents",
+      "and therefore schools should not waste valuable school time having sports lessons as part of the curriculum.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-87-ielts-opinion",
@@ -2262,7 +4478,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 87,
     "label": "Model Essay 87 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-87-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-87-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that companies should provide employees with exercise time during the day.",
+      "What is your opinion about this? (2016)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-88-ielts-opinion",
@@ -2270,7 +4492,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 88,
     "label": "Model Essay 88 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-88-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-88-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "With an increasing overweight population some people think universities should make sport a compulsory module on all degree courses.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-89-ielts-opinion",
@@ -2278,7 +4506,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 89,
     "label": "Model Essay 89 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-89-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-89-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Professional sports people are often idolised by young children.",
+      "Some people think that they, therefore, have a responsibility to be good role models at all times for children.",
+      "Do you agree or disagree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-90-ielts-opinion",
@@ -2286,7 +4521,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 90,
     "label": "Model Essay 90 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-90-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-90-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that sports involving violence, such as boxing and martial arts, should be banned from TV as well as from international sporting competitions.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-91-ielts-opinion",
@@ -2294,7 +4535,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 91,
     "label": "Model Essay 91 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-91-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-91-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people argue that technological inventions, such as mobile phones, are making people socially less interactive.",
+      "Do you agree or disagree? (Reported 2017, GT Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-92-ielts-opinion",
@@ -2302,7 +4549,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 92,
     "label": "Model Essay 92 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-92-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-92-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Nowadays children watch a lot of TV and play video games. However, some people think that these activities are not good for a child’s mental health.",
+      "To what extent do you agree or disagree? (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-93-ielts-opinion",
@@ -2310,7 +4563,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 93,
     "label": "Model Essay 93 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-93-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-93-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "It is common nowadays for each member of the family to have their own piece of modern technology.",
+      "Some people think this will lead to a breakdown in family relationships and communication.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-94-ielts-opinion",
@@ -2318,7 +4578,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 94,
     "label": "Model Essay 94 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-94-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-94-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "With more people choosing to watch travel programs on TV and social media,",
+      "fewer people will be willing to pay the costs of traveling abroad.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-95-ielts-opinion",
@@ -2326,7 +4593,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 95,
     "label": "Model Essay 95 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-95-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-95-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that when a person travels into a different culture they should adapt to the local practices and customs.",
+      "To what extent do you agree? (appears most years in the test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-96-ielts-opinion",
@@ -2334,7 +4607,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 96,
     "label": "Model Essay 96 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-96-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-96-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Raising the cost of international flights is the best way to reduce air pollution.",
+      "Do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-97-ielts-opinion",
@@ -2342,7 +4621,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 97,
     "label": "Model Essay 97 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-97-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-97-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that in order to solve traffic and transportation problems people should be encouraged to live in cities rather than in suburbs or in the countryside.",
+      "To what extent do you agree or disagree? (Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-98-ielts-opinion",
@@ -2350,7 +4635,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 98,
     "label": "Model Essay 98 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-98-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-98-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "The impact that the growing demand for more flights has had on the environment is a major concern for many countries.",
+      "Some people believe that one way to limit the number of people travelling by air is to increase tax on flights.",
+      "To what extent do you think this could solve the problem?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-99-ielts-opinion",
@@ -2358,7 +4650,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 99,
     "label": "Model Essay 99 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-99-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-99-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "A poor infrastructure hinders under-developed countries from progressing and modernising.",
+      "Some people think that this should be the first problem tackled by foreign aid.",
+      "To what extent do you agree with this opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-100-ielts-opinion",
@@ -2366,7 +4665,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 100,
     "label": "Model Essay 100 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-100-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-100-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "First impressions are important.",
+      "Some people think that doing well in interviews is the key to securing a good job.",
+      "To what extent do you agree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-101-ielts-opinion",
@@ -2374,7 +4680,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 101,
     "label": "Model Essay 101 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-101-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-101-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Doctors, nurses and teachers make a great contribution to society and should be payed more than entertainment and sports celebrities.",
+      "Do you agree or disagree ?",
+      "(Reported 2017, Academic Test)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-103-ielts-opinion",
@@ -2382,7 +4695,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 103,
     "label": "Model Essay 103 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-103-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-103-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Paying all workers the same salary in a company promotes harmony and respect amongst colleagues.",
+      "To what extent do you agree or disagree?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-104-ielts-opinion",
@@ -2390,7 +4709,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 104,
     "label": "Model Essay 104 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-104-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-104-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Bringing in foreign workers to fill positions that domestic workers are unwilling to do can cause problems in the local community and should therefore be stopped.",
+      "To what extent do you agree with this?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-105-ielts-opinion",
@@ -2398,7 +4723,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 105,
     "label": "Model Essay 105 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-105-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-105-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "Some people think that employers should ensure a supportive and pleasant work environment where each employee is respected and valued equally,",
+      "while others think employers should focus instead on providing better facilities and equipment.",
+      "What is your opinion?"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:model-essay-106-ielts-opinion",
@@ -2406,7 +4738,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 106,
     "label": "Model Essay 106 - IELTS - Opinion",
     "detail": "IELTS Writing Task 2 · Opinion",
-    "url": "writing-practice.html?exercise=model-essay-106-ielts-opinion"
+    "url": "writing-practice.html?exercise=model-essay-106-ielts-opinion",
+    "sectionKey": "ielts-writing",
+    "questionPrompt": [
+      "In many countries, it is common for families to own and run their own business.",
+      "Some people think this is the best way to run a business, while others consider this a potential source of problems.",
+      "What is your opinion? (2018, 2020, 2022)"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:dse-writing-2013-part-a",
@@ -2414,7 +4753,24 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2013,
     "label": "My Memories",
     "detail": "DSE Writing Part A 2013 · Part A · Photo exhibition",
-    "url": "writing-practice.html?exercise=dse-writing-2013-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2013-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "PART A",
+      "For question 1, write about 100 words for each photo.",
+      "1. You are taking part in a photo exhibition called ‘My Memories’. As part of the photo exhibition, you have presented two photos. Now you need to give a title to each and a brief explanation of why these photos are meaningful to you.",
+      "Title: ___________________________"
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2013-question.webp",
+        "alt": "2013 DSE Writing Part A first photo question"
+      },
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2013-question-2.webp",
+        "alt": "2013 DSE Writing Part A second photo question"
+      }
+    ]
   },
   {
     "id": "fill:dse-writing-2023-part-a",
@@ -2422,7 +4778,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2023,
     "label": "Pop-up Shop Application Form",
     "detail": "DSE Writing Part A 2023 · Part A · Application Form",
-    "url": "writing-practice.html?exercise=dse-writing-2023-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2023-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "For question 1, write about 200 words in the space provided on pages 2–4.",
+      "You work for Planet Smart, a company that sells eco-friendly products. Your company wants to set up a pop-up shop inside a shopping centre for three months to promote your products to new customers.",
+      "Complete the application form below.",
+      "Section A: Company Profile (Introduce your company)",
+      "Section B: Best-selling Product (Describe one of your products that customers love)",
+      "Section C: In-store Event (describe one event you will hold in your shop to attract customers)"
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2023-question.webp",
+        "alt": "2023 DSE Writing Part A Planet Smart pop-up shop application question"
+      }
+    ]
   },
   {
     "id": "fill:dse-writing-2022-part-b-q3",
@@ -2430,7 +4801,15 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Q3 - A Dream Needs More Than a Dream",
     "detail": "DSE Writing 2022 · Part B · Question 3 · Advice column reply",
-    "url": "writing-practice.html?exercise=dse-writing-2022-part-b-q3"
+    "url": "writing-practice.html?exercise=dse-writing-2022-part-b-q3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You write an advice column for Jobs Online magazine. A reader submitted the following question:",
+      "\"My dream is to open a café with a few friends, but I’ve just been offered a promotion at my company. The pay is good, but I’m not that interested in the work. Should I leave now or wait a few years?\"",
+      "— Kam Chai, 25 years old",
+      "• Write a reply to Kam Chai offering your advice."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:dse-writing-2025-part-b-q3",
@@ -2438,7 +4817,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 3,
     "label": "Q3 - When Eateries Become Classrooms",
     "detail": "DSE Writing 2025 · Part B · Question 3 · Letter to the Editor",
-    "url": "writing-practice.html?exercise=dse-writing-2025-part-b-q3"
+    "url": "writing-practice.html?exercise=dse-writing-2025-part-b-q3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You have noticed that an increasing number of people in Hong Kong stay in coffee shops and fast-food restaurants for a long time for activities such as tutorial lessons.",
+      "Write a letter to the editor of the Hong Kong Post giving your opinion on this issue."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:dse-writing-2024-part-b-q5",
@@ -2446,7 +4831,12 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 5,
     "label": "Q5 - One Night, 100,000 Likes, and a Lesson I Never Expected",
     "detail": "DSE Writing 2024 · Part B · Question 5 · School magazine article",
-    "url": "writing-practice.html?exercise=dse-writing-2024-part-b-q5"
+    "url": "writing-practice.html?exercise=dse-writing-2024-part-b-q5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You posted a video on social media that went viral and gained 100,000 likes overnight. Write an article for the school magazine about your experience."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:dse-writing-2020-part-a",
@@ -2454,7 +4844,33 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2020,
     "label": "Restaurant Review: Dim Sum One",
     "detail": "DSE Writing Part A 2020 · Part A · Online restaurant review",
-    "url": "writing-practice.html?exercise=dse-writing-2020-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2020-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "PART A",
+      "For question 1, write about 200 words in the space provided on pages 2 and 3.",
+      "① You finally got the chance to eat at Hong Kong’s hottest new restaurant, Dim Sum One. Write a review for Eat & Drink, an online food guide that allows users to write their own reviews.",
+      "• Write about what you liked, what you didn’t like and if you would recommend this restaurant.",
+      "• You can choose to write about any of the following in your review.",
+      "Food",
+      "Service",
+      "Dining environment",
+      "Price",
+      "Eat & Drink",
+      "Name: Dim Sum One",
+      "Type of Cuisine: Chinese dim sum",
+      "Best for:",
+      "Children/Family",
+      "Romantic Date",
+      "Business",
+      "Special Occasions"
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2020-question.webp",
+        "alt": "2020 DSE Writing Part A Dim Sum One restaurant-review prompt, suggested review topics, and Eat & Drink form"
+      }
+    ]
   },
   {
     "id": "fill:dse-writing-2017-part-a",
@@ -2462,7 +4878,23 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2017,
     "label": "Taste of Traditions Community Project Proposal",
     "detail": "DSE Writing Part A 2017 · Part A · Formal proposal letter",
-    "url": "writing-practice.html?exercise=dse-writing-2017-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2017-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "PART A",
+      "For question 1, write about 200 words in the space provided on pages 3 – 5.",
+      "You are the chairperson of the Social Service Club in your school. The school would like to develop closer links with the community. Write a letter to your principal, Ms Lee, proposing a new community project that the school can carry out with a home for the elderly in your district.",
+      "In your letter persuade your principal to accept your project by",
+      "(i) describing one activity that could be carried out, and",
+      "(ii) identifying the benefits for the elderly home.",
+      "Sign your letter Chris Wong."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2017-question.webp",
+        "alt": "2017 DSE Writing Part A source question"
+      }
+    ]
   },
   {
     "id": "fill:dse-writing-2016-part-a",
@@ -2470,7 +4902,20 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2016,
     "label": "Welcome Speech to New Students",
     "detail": "DSE Writing Part A 2016 · Part A · Welcome speech",
-    "url": "writing-practice.html?exercise=dse-writing-2016-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2016-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "For question 1, write about 200 words.",
+      "1. You are the President of the Students' Union at your school.",
+      "You are preparing a speech to welcome new students on the first day of school.",
+      "In order to help new students achieve success and have an enjoyable school life, you want to talk about the following in your speech:",
+      "1) importance of following school rules; and importance of interpersonal relationships.",
+      "2) The first part of the speech has been written for you. Finish the speech.",
+      "1st part:",
+      "Good morning Principal, teachers and fellow students,",
+      "On behalf of the Students’ Union, I’d like to welcome all of you to our school. I’m sure we all want to achieve success and have an enjoyable school life, so this morning I’d like to give you some advice. ………"
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:dse-writing-2019-part-a",
@@ -2478,7 +4923,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "ordinal": 2019,
     "label": "Yearbook Entry: Class 6C – Reflections",
     "detail": "DSE Writing Part A 2019 · Part A · Yearbook entry",
-    "url": "writing-practice.html?exercise=dse-writing-2019-part-a"
+    "url": "writing-practice.html?exercise=dse-writing-2019-part-a",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "PART A",
+      "For question 1, write about 200 words in the space provided on pages 2 and 3.",
+      "① The Yearbook Committee is putting together a book for all graduating students. The yearbook is a collection of photos and comments about school life, written and submitted by students. When read several years later, the yearbook will remind students of their time at secondary school.",
+      "You are a student in Class 6C at Kowloon Secondary School. The committee has asked you to complete the following yearbook entry.",
+      "1.1: ACADEMIC LIFE",
+      "Write about one subject that you enjoyed studying or found challenging.",
+      "1.2: STUDENT LIFE",
+      "Write about what you will miss most about being a student in Class 6C."
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2019-question-1.webp",
+        "alt": "2019 DSE Writing Part A yearbook instructions and Academic Life prompt"
+      },
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2019-question-2.webp",
+        "alt": "2019 DSE Writing Part A Student Life prompt and Class 6C photograph"
+      }
+    ]
   },
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q8",
@@ -12569,6 +15035,494 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q41"
   },
   {
+    "id": "idiom:idiom-01",
+    "type": "idiom",
+    "ordinal": 1,
+    "label": "#1 · 開始行動／帶頭開始",
+    "detail": "Idiom #1 · Start the Ball Rolling",
+    "url": "idiom-system.html?lesson=idiom-01"
+  },
+  {
+    "id": "idiom:idiom-02",
+    "type": "idiom",
+    "ordinal": 2,
+    "label": "#2 · 快一點／加快動作",
+    "detail": "Idiom #2 · Shake a Leg",
+    "url": "idiom-system.html?lesson=idiom-02"
+  },
+  {
+    "id": "idiom:idiom-03",
+    "type": "idiom",
+    "ordinal": 3,
+    "label": "#3 · 迅速上手／立即投入",
+    "detail": "Idiom #3 · Hit the Ground Running",
+    "url": "idiom-system.html?lesson=idiom-03"
+  },
+  {
+    "id": "idiom:idiom-04",
+    "type": "idiom",
+    "ordinal": 4,
+    "label": "#4 · 反覆改變／改來改去",
+    "detail": "Idiom #4 · Chop and Change",
+    "url": "idiom-system.html?lesson=idiom-04"
+  },
+  {
+    "id": "idiom:idiom-05",
+    "type": "idiom",
+    "ordinal": 5,
+    "label": "#5 · 放眼更大目標／宏大構想",
+    "detail": "Idiom #5 · Think Big",
+    "url": "idiom-system.html?lesson=idiom-05"
+  },
+  {
+    "id": "idiom:idiom-06",
+    "type": "idiom",
+    "ordinal": 6,
+    "label": "#6 · 打鐵趁熱／把握時機",
+    "detail": "Idiom #6 · Strike While the Iron Is Hot",
+    "url": "idiom-system.html?lesson=idiom-06"
+  },
+  {
+    "id": "idiom:idiom-07",
+    "type": "idiom",
+    "ordinal": 7,
+    "label": "#7 · 賞心悅目／看起來舒服",
+    "detail": "Idiom #7 · Easy on the Eye",
+    "url": "idiom-system.html?lesson=idiom-07"
+  },
+  {
+    "id": "idiom:idiom-08",
+    "type": "idiom",
+    "ordinal": 8,
+    "label": "#8 · 憑直覺深信／從心底確信",
+    "detail": "Idiom #8 · In Your Bones",
+    "url": "idiom-system.html?lesson=idiom-08"
+  },
+  {
+    "id": "idiom:idiom-09",
+    "type": "idiom",
+    "ordinal": 9,
+    "label": "#9 · 一目了然／毫無懸念",
+    "detail": "Idiom #9 · Open-and-shut",
+    "url": "idiom-system.html?lesson=idiom-09"
+  },
+  {
+    "id": "idiom:idiom-10",
+    "type": "idiom",
+    "ordinal": 10,
+    "label": "#10 · 觀望形勢後才決定",
+    "detail": "Idiom #10 · See Which Way the Cat Jumps",
+    "url": "idiom-system.html?lesson=idiom-10"
+  },
+  {
+    "id": "idiom:idiom-11",
+    "type": "idiom",
+    "ordinal": 11,
+    "label": "#11 · 寧可小心，不要事後後悔",
+    "detail": "Idiom #11 · Better Safe Than Sorry",
+    "url": "idiom-system.html?lesson=idiom-11"
+  },
+  {
+    "id": "idiom:idiom-12",
+    "type": "idiom",
+    "ordinal": 12,
+    "label": "#12 · 玩火／冒險行事",
+    "detail": "Idiom #12 · Play with Fire",
+    "url": "idiom-system.html?lesson=idiom-12"
+  },
+  {
+    "id": "idiom:idiom-13",
+    "type": "idiom",
+    "ordinal": 13,
+    "label": "#13 · 火上加油／令情況惡化",
+    "detail": "Idiom #13 · Add Fuel to the Fire",
+    "url": "idiom-system.html?lesson=idiom-13"
+  },
+  {
+    "id": "idiom:idiom-14",
+    "type": "idiom",
+    "ordinal": 14,
+    "label": "#14 · 說大話／誇口",
+    "detail": "Idiom #14 · Talk Big",
+    "url": "idiom-system.html?lesson=idiom-14"
+  },
+  {
+    "id": "idiom:idiom-15",
+    "type": "idiom",
+    "ordinal": 15,
+    "label": "#15 · 精力充沛的人／活力十足",
+    "detail": "Idiom #15 · A Ball of Fire",
+    "url": "idiom-system.html?lesson=idiom-15"
+  },
+  {
+    "id": "idiom:idiom-16",
+    "type": "idiom",
+    "ordinal": 16,
+    "label": "#16 · 花費過多／令預算吃不消",
+    "detail": "Idiom #16 · Break the Bank",
+    "url": "idiom-system.html?lesson=idiom-16"
+  },
+  {
+    "id": "idiom:idiom-17",
+    "type": "idiom",
+    "ordinal": 17,
+    "label": "#17 · 非常昂貴／花一大筆錢",
+    "detail": "Idiom #17 · Cost an Arm and a Leg",
+    "url": "idiom-system.html?lesson=idiom-17"
+  },
+  {
+    "id": "idiom:idiom-18",
+    "type": "idiom",
+    "ordinal": 18,
+    "label": "#18 · 根基不穩／基礎薄弱",
+    "detail": "Idiom #18 · Built on Sand",
+    "url": "idiom-system.html?lesson=idiom-18"
+  },
+  {
+    "id": "idiom:idiom-19",
+    "type": "idiom",
+    "ordinal": 19,
+    "label": "#19 · 蒙受懷疑／名聲受損",
+    "detail": "Idiom #19 · Under a Cloud",
+    "url": "idiom-system.html?lesson=idiom-19"
+  },
+  {
+    "id": "idiom:idiom-20",
+    "type": "idiom",
+    "ordinal": 20,
+    "label": "#20 · 黑馬／意外的有力競爭者",
+    "detail": "Idiom #20 · A Dark Horse",
+    "url": "idiom-system.html?lesson=idiom-20"
+  },
+  {
+    "id": "idiom:idiom-21",
+    "type": "idiom",
+    "ordinal": 21,
+    "label": "#21 · 叢林法則／弱肉強食",
+    "detail": "Idiom #21 · The Law of the Jungle",
+    "url": "idiom-system.html?lesson=idiom-21"
+  },
+  {
+    "id": "idiom:idiom-22",
+    "type": "idiom",
+    "ordinal": 22,
+    "label": "#22 · 下定決心／放膽一試",
+    "detail": "Idiom #22 · Take the Plunge",
+    "url": "idiom-system.html?lesson=idiom-22"
+  },
+  {
+    "id": "idiom:idiom-23",
+    "type": "idiom",
+    "ordinal": 23,
+    "label": "#23 · 同時兼顧多項事情",
+    "detail": "Idiom #23 · Have Many Irons in the Fire",
+    "url": "idiom-system.html?lesson=idiom-23"
+  },
+  {
+    "id": "idiom:idiom-24",
+    "type": "idiom",
+    "ordinal": 24,
+    "label": "#24 · 自視過高／變得自大",
+    "detail": "Idiom #24 · Above Yourself",
+    "url": "idiom-system.html?lesson=idiom-24"
+  },
+  {
+    "id": "idiom:idiom-25",
+    "type": "idiom",
+    "ordinal": 25,
+    "label": "#25 · 關鍵考驗／真正考驗",
+    "detail": "Idiom #25 · The Acid Test",
+    "url": "idiom-system.html?lesson=idiom-25"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-01",
+    "type": "phrasal-verb",
+    "ordinal": 1,
+    "label": "#1 · BUILD 動詞片語",
+    "detail": "Phrasal Verb #1 · Build",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-01"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-02",
+    "type": "phrasal-verb",
+    "ordinal": 2,
+    "label": "#2 · CATCH 動詞片語",
+    "detail": "Phrasal Verb #2 · Catch",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-02"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-03",
+    "type": "phrasal-verb",
+    "ordinal": 3,
+    "label": "#3 · FLY 動詞片語",
+    "detail": "Phrasal Verb #3 · Fly",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-03"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-04",
+    "type": "phrasal-verb",
+    "ordinal": 4,
+    "label": "#4 · ANSWER 動詞片語",
+    "detail": "Phrasal Verb #4 · Answer",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-04"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-05",
+    "type": "phrasal-verb",
+    "ordinal": 5,
+    "label": "#5 · CHASE 動詞片語",
+    "detail": "Phrasal Verb #5 · Chase",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-05"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-06",
+    "type": "phrasal-verb",
+    "ordinal": 6,
+    "label": "#6 · CLEAR 動詞片語",
+    "detail": "Phrasal Verb #6 · Clear",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-06"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-07",
+    "type": "phrasal-verb",
+    "ordinal": 7,
+    "label": "#7 · CLEAN 動詞片語",
+    "detail": "Phrasal Verb #7 · Clean",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-07"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-08",
+    "type": "phrasal-verb",
+    "ordinal": 8,
+    "label": "#8 · GROW 動詞片語",
+    "detail": "Phrasal Verb #8 · Grow",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-08"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-09",
+    "type": "phrasal-verb",
+    "ordinal": 9,
+    "label": "#9 · WATCH 動詞片語",
+    "detail": "Phrasal Verb #9 · Watch",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-09"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-10",
+    "type": "phrasal-verb",
+    "ordinal": 10,
+    "label": "#10 · WASH 動詞片語",
+    "detail": "Phrasal Verb #10 · Wash",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-10"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-11",
+    "type": "phrasal-verb",
+    "ordinal": 11,
+    "label": "#11 · TOP 動詞片語",
+    "detail": "Phrasal Verb #11 · Top",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-11"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-12",
+    "type": "phrasal-verb",
+    "ordinal": 12,
+    "label": "#12 · TRY 動詞片語",
+    "detail": "Phrasal Verb #12 · Try",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-12"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-13",
+    "type": "phrasal-verb",
+    "ordinal": 13,
+    "label": "#13 · TIDY 動詞片語",
+    "detail": "Phrasal Verb #13 · Tidy",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-13"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-14",
+    "type": "phrasal-verb",
+    "ordinal": 14,
+    "label": "#14 · BUY 動詞片語",
+    "detail": "Phrasal Verb #14 · Buy",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-14"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-15",
+    "type": "phrasal-verb",
+    "ordinal": 15,
+    "label": "#15 · SWITCH 動詞片語",
+    "detail": "Phrasal Verb #15 · Switch",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-15"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-16",
+    "type": "phrasal-verb",
+    "ordinal": 16,
+    "label": "#16 · COOL 動詞片語",
+    "detail": "Phrasal Verb #16 · Cool",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-16"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-17",
+    "type": "phrasal-verb",
+    "ordinal": 17,
+    "label": "#17 · BUBBLE 動詞片語",
+    "detail": "Phrasal Verb #17 · Bubble",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-17"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-18",
+    "type": "phrasal-verb",
+    "ordinal": 18,
+    "label": "#18 · BREATHE 動詞片語",
+    "detail": "Phrasal Verb #18 · Breathe",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-18"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-19",
+    "type": "phrasal-verb",
+    "ordinal": 19,
+    "label": "#19 · DRIVE 動詞片語",
+    "detail": "Phrasal Verb #19 · Drive",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-19"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-20",
+    "type": "phrasal-verb",
+    "ordinal": 20,
+    "label": "#20 · WIN 動詞片語",
+    "detail": "Phrasal Verb #20 · Win",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-20"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-21",
+    "type": "phrasal-verb",
+    "ordinal": 21,
+    "label": "#21 · WIND 動詞片語",
+    "detail": "Phrasal Verb #21 · Wind",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-21"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-22",
+    "type": "phrasal-verb",
+    "ordinal": 22,
+    "label": "#22 · COPY 動詞片語",
+    "detail": "Phrasal Verb #22 · Copy",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-22"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-23",
+    "type": "phrasal-verb",
+    "ordinal": 23,
+    "label": "#23 · TELL 動詞片語",
+    "detail": "Phrasal Verb #23 · Tell",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-23"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-24",
+    "type": "phrasal-verb",
+    "ordinal": 24,
+    "label": "#24 · WAIT 動詞片語",
+    "detail": "Phrasal Verb #24 · Wait",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-24"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-25",
+    "type": "phrasal-verb",
+    "ordinal": 25,
+    "label": "#25 · ZOOM 動詞片語",
+    "detail": "Phrasal Verb #25 · Zoom",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-25"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-26",
+    "type": "phrasal-verb",
+    "ordinal": 26,
+    "label": "#26 · CLOCK 動詞片語",
+    "detail": "Phrasal Verb #26 · Clock",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-26"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-27",
+    "type": "phrasal-verb",
+    "ordinal": 27,
+    "label": "#27 · BOIL 動詞片語",
+    "detail": "Phrasal Verb #27 · Boil",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-27"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-28",
+    "type": "phrasal-verb",
+    "ordinal": 28,
+    "label": "#28 · TOUCH 動詞片語",
+    "detail": "Phrasal Verb #28 · Touch",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-28"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-29",
+    "type": "phrasal-verb",
+    "ordinal": 29,
+    "label": "#29 · BOX 動詞片語",
+    "detail": "Phrasal Verb #29 · Box",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-29"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-30",
+    "type": "phrasal-verb",
+    "ordinal": 30,
+    "label": "#30 · COVER 動詞片語",
+    "detail": "Phrasal Verb #30 · Cover",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-30"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-31",
+    "type": "phrasal-verb",
+    "ordinal": 31,
+    "label": "#31 · STEAL 動詞片語",
+    "detail": "Phrasal Verb #31 · Steal",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-31"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-32",
+    "type": "phrasal-verb",
+    "ordinal": 32,
+    "label": "#32 · CENTRE 動詞片語",
+    "detail": "Phrasal Verb #32 · Centre",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-32"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-33",
+    "type": "phrasal-verb",
+    "ordinal": 33,
+    "label": "#33 · CHOP 動詞片語",
+    "detail": "Phrasal Verb #33 · Chop",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-33"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-34",
+    "type": "phrasal-verb",
+    "ordinal": 34,
+    "label": "#34 · CHEAT 動詞片語",
+    "detail": "Phrasal Verb #34 · Cheat",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-34"
+  },
+  {
+    "id": "phrasal-verb:phrasal-verb-35",
+    "type": "phrasal-verb",
+    "ordinal": 35,
+    "label": "#35 · CLOSE 動詞片語",
+    "detail": "Phrasal Verb #35 · Close",
+    "url": "phrasal-verb-system.html?lesson=phrasal-verb-35"
+  },
+  {
+    "id": "proverb:proverb-01",
+    "type": "proverb",
+    "ordinal": 1,
+    "label": "#1 · 眼不見，心不念",
+    "detail": "Proverb #1 · Out of Sight, Out of Mind",
+    "url": "proverb-system.html?lesson=proverb-01"
+  },
+  {
     "id": "sentence:ss1",
     "type": "sentence-structure",
     "ordinal": 1,
@@ -20607,5 +23561,13 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Zoo (place)",
     "detail": "IELTS Speaking · Part 2 · Book 15 · Exercise 9",
     "url": "speaking-system.html?exercise=ielts-part-2-book-15-exercise-09"
+  },
+  {
+    "id": "writing-submission:portal",
+    "type": "writing-submission",
+    "ordinal": 1,
+    "label": "Edmund Sir Writing 交文系統",
+    "detail": "Writing Submission · 寫作交文",
+    "url": "writing-submission.html"
   }
 ].map((resource) => Object.freeze(resource)));

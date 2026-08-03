@@ -117,6 +117,15 @@ async function route(request, env) {
   if (url.pathname === "/v1/student/me" && request.method === "GET") {
     return studentMe(request, env);
   }
+  if (url.pathname === "/v1/preferences" && request.method === "GET") {
+    return getPreferences(request, env);
+  }
+  if (url.pathname === "/v1/preferences" && request.method === "PUT") {
+    return putPreferences(request, env);
+  }
+  if (url.pathname === "/v1/progress" && request.method === "GET") {
+    return getProgress(request, env);
+  }
   if (url.pathname === "/v1/grammar-check" && request.method === "POST") {
     return grammarCheck(request, env);
   }
@@ -130,6 +139,9 @@ async function route(request, env) {
   }
   if (submissionMatch && request.method === "PUT") {
     return putSubmission(request, env, submissionMatch[1]);
+  }
+  if (submissionMatch && request.method === "DELETE") {
+    return deleteSubmission(request, env, submissionMatch[1]);
   }
 
   if (url.pathname === "/v1/grammar-occurrences/batch" && request.method === "POST") {
@@ -215,7 +227,7 @@ function isAllowedOrigin(origin, env) {
 function corsHeaders(origin, env) {
   const headers = securityHeaders();
   headers.set("Access-Control-Allow-Headers", "Authorization, Content-Type");
-  headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, OPTIONS");
+  headers.set("Access-Control-Allow-Methods", "DELETE, GET, POST, PUT, OPTIONS");
   headers.set("Vary", "Origin");
   if (isAllowedOrigin(origin, env)) headers.set("Access-Control-Allow-Origin", origin);
   return headers;
@@ -599,6 +611,52 @@ async function studentMe(request, env) {
   );
 }
 
+async function getPreferences(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const row = singleRow(await rpc(env, "writing_submission_preferences_get", {
+    p_student_id: student.id
+  }));
+  if (!row) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Writing preferences returned an invalid response");
+  }
+  return json({
+    preferences: {
+      grammarDetectionEnabled: row.grammar_detection_enabled !== false,
+      updatedAt: row.updated_at ? String(row.updated_at) : null
+    }
+  }, 200, request, env);
+}
+
+async function putPreferences(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-preference:${student.id}`,
+    "Writing preferences are temporarily unavailable",
+    "TOO_MANY_PREFERENCE_WRITES",
+    "Too many preference updates; please wait and try again"
+  );
+  const payload = await readLimitedJson(request, MAX_LOGIN_BODY_BYTES);
+  if (!hasExactKeys(payload, ["grammarDetectionEnabled"]) || typeof payload.grammarDetectionEnabled !== "boolean") {
+    throw new HttpError(400, "INVALID_PREFERENCE", "Writing preference payload is invalid");
+  }
+  const row = singleRow(await rpc(env, "writing_submission_preferences_set", {
+    p_student_id: student.id,
+    p_grammar_detection_enabled: payload.grammarDetectionEnabled
+  }));
+  if (!row) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Writing preferences returned an invalid response");
+  }
+  return json({
+    preferences: {
+      grammarDetectionEnabled: row.grammar_detection_enabled !== false,
+      updatedAt: row.updated_at ? String(row.updated_at) : null
+    }
+  }, 200, request, env);
+}
+
 function isPlainObject(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return false;
   const prototype = Object.getPrototypeOf(value);
@@ -642,7 +700,11 @@ function wordCount(value) {
 }
 
 function normalizeSubmissionPayload(payload) {
-  if (!hasExactKeys(payload, ["topic", "answer"])) {
+  if (
+    !hasOnlyKeys(payload, new Set(["topic", "answer", "durationSeconds"]))
+    || !Object.prototype.hasOwnProperty.call(payload, "topic")
+    || !Object.prototype.hasOwnProperty.call(payload, "answer")
+  ) {
     throw new HttpError(400, "INVALID_SUBMISSION", "Submission payload has an invalid shape");
   }
   const topic = normalizeWritingText(
@@ -661,7 +723,15 @@ function normalizeSubmissionPayload(payload) {
   if (words < 1 || words > 50000) {
     throw new HttpError(400, "INVALID_SUBMISSION", "answer has an invalid word count");
   }
-  return { topic, answer, wordCount: words };
+  const durationSeconds = payload.durationSeconds === undefined ? 0 : Number(payload.durationSeconds);
+  if (
+    !Number.isSafeInteger(durationSeconds)
+    || durationSeconds < 0
+    || durationSeconds > 31536000
+  ) {
+    throw new HttpError(400, "INVALID_SUBMISSION", "durationSeconds is invalid");
+  }
+  return { topic, answer, wordCount: words, durationSeconds };
 }
 
 function submissionResponse(row) {
@@ -669,6 +739,7 @@ function submissionResponse(row) {
     id: String(row.id || ""),
     topic: String(row.topic || ""),
     wordCount: Number(row.word_count || 0),
+    durationSeconds: Number(row.duration_seconds || 0),
     submittedAt: String(row.submitted_at || "")
   };
   if (Object.prototype.hasOwnProperty.call(row, "answer")) {
@@ -680,6 +751,9 @@ function submissionResponse(row) {
   if (Object.prototype.hasOwnProperty.call(row, "student_id")) {
     response.studentId = String(row.student_id || "");
     response.studentName = String(row.student_name || "");
+  }
+  if (Object.prototype.hasOwnProperty.call(row, "deleted_at")) {
+    response.deletedAt = row.deleted_at ? String(row.deleted_at) : null;
   }
   return response;
 }
@@ -716,7 +790,7 @@ async function listSubmissions(request, env, url) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
   const { page, pageSize, offset } = pageParameters(url, MAX_PAGE_SIZE);
-  const rows = await rpc(env, "writing_submission_list", {
+  const rows = await rpc(env, "writing_submission_list_v2", {
     p_student_id: student.id,
     p_limit: pageSize + 1,
     p_offset: offset
@@ -740,7 +814,7 @@ async function getSubmission(request, env, submissionId) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
   const normalizedId = submissionId.toLowerCase();
-  const row = singleRow(await rpc(env, "writing_submission_get", {
+  const row = singleRow(await rpc(env, "writing_submission_get_v2", {
     p_student_id: student.id,
     p_id: normalizedId
   }));
@@ -775,17 +849,63 @@ async function putSubmission(request, env, submissionId) {
   const payload = normalizeSubmissionPayload(
     await readLimitedJson(request, MAX_SUBMISSION_BODY_BYTES)
   );
-  const row = singleRow(await rpc(env, "writing_submission_submit", {
+  const row = singleRow(await rpc(env, "writing_submission_submit_v2", {
     p_id: submissionId.toLowerCase(),
     p_student_id: student.id,
     p_topic: payload.topic,
     p_answer: payload.answer,
-    p_word_count: payload.wordCount
+    p_word_count: payload.wordCount,
+    p_duration_seconds: payload.durationSeconds
   }));
   if (!row) {
     throw new HttpError(409, "SUBMISSION_LIMIT_REACHED", "Submission could not be saved");
   }
   return json({ submission: submissionResponse(row) }, 200, request, env);
+}
+
+async function deleteSubmission(request, env, submissionId) {
+  if (!UUID_RE.test(submissionId)) {
+    throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  }
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-delete:${student.id}`,
+    "Submission archive updates are temporarily unavailable",
+    "TOO_MANY_SUBMISSION_WRITES",
+    "Too many submission updates; please wait and try again"
+  );
+  const row = singleRow(await rpc(env, "writing_submission_soft_delete", {
+    p_student_id: student.id,
+    p_id: submissionId.toLowerCase()
+  }));
+  if (!row) throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  return json({
+    deleted: {
+      id: String(row.id || submissionId).toLowerCase(),
+      deletedAt: String(row.deleted_at || "")
+    }
+  }, 200, request, env);
+}
+
+async function getProgress(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const rows = await rpc(env, "writing_submission_progress", { p_student_id: student.id });
+  if (!Array.isArray(rows)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Writing progress returned an invalid response");
+  }
+  return json({
+    progress: rows.map(row => ({
+      date: String(row.activity_date || ""),
+      articlesWritten: Number(row.articles_written || 0),
+      timeSpentSeconds: Number(row.time_spent_seconds || 0),
+      averageSeconds: Number(row.average_seconds || 0),
+      cumulativeArticles: Number(row.cumulative_articles || 0),
+      cumulativeTimeSeconds: Number(row.cumulative_time_seconds || 0)
+    }))
+  }, 200, request, env);
 }
 
 function validateClientTimestamp(value, label) {
@@ -987,7 +1107,7 @@ async function listAdminSubmissions(request, env, url) {
   if (studentId !== null && !UUID_RE.test(studentId)) {
     throw new HttpError(400, "INVALID_STUDENT", "studentId is invalid");
   }
-  const rows = await rpc(env, "writing_submission_admin_list_submissions", {
+  const rows = await rpc(env, "writing_submission_admin_list_submissions_v2", {
     p_admin_token: admin.token,
     p_student_id: studentId,
     p_limit: pageSize + 1,
@@ -1012,7 +1132,7 @@ async function getAdminSubmission(request, env, submissionId) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
   const normalizedId = submissionId.toLowerCase();
-  const row = singleRow(await rpc(env, "writing_submission_admin_get_submission", {
+  const row = singleRow(await rpc(env, "writing_submission_admin_get_submission_v2", {
     p_admin_token: admin.token,
     p_id: normalizedId
   }));

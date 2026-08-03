@@ -26,6 +26,8 @@ test("lesson data contains 25 complete eight-page lessons and all 1,250 question
     JSON.stringify(content),
     /The expression does not simply mean|The Original Image|原來的畫面|Communicative Function|溝通功能/i
   );
+  assert.doesNotMatch(JSON.stringify(content), /\bMia\b|米婭/);
+  assert.match(JSON.stringify(content), /\bTom\b|湯姆/);
 
   const allQuestionIds = new Set();
   for (let lessonIndex = 0; lessonIndex < content.lessons.length; lessonIndex += 1) {
@@ -103,6 +105,9 @@ test("portal exposes the eight-step flow, keeps artwork post-login, and has no S
 
   assert.equal((html.match(/data-step="/g) || []).length, 8);
   assert.match(html, /data-jump-to-exercise/);
+  assert.match(html, /data-lesson-search-input/);
+  assert.match(app, /function searchLessons/);
+  assert.match(app, /data-search-question/);
   assert.doesNotMatch(loginView, /class="hero-symbol"/);
   assert.doesNotMatch(loginView, /\bSTART\b|\bROLL\b/);
   assert.doesNotMatch(loginView, /start-the-ball-rolling\.webp|hero-illustration/);
@@ -117,6 +122,12 @@ test("portal exposes the eight-step flow, keeps artwork post-login, and has no S
   assert.match(html, /@supabase\/supabase-js@2\.110\.8\/dist\/umd\/supabase\.js/);
   assert.match(html, /integrity="sha384-[^"]+"/);
   assert.doesNotMatch(html, /@supabase\/supabase-js@2"><\/script>/);
+});
+
+test("student-facing Idiom copy contains no round counter", () => {
+  const html = read("idiom-system.html");
+  const app = read("idiom-system.js");
+  assert.doesNotMatch(`${html}\n${app}`, /第\s*\$?\{?[^\n<]{0,30}輪|分輪|改正輪/);
 });
 
 test("frontend uses isolated Idiom state while retaining the shared student login contract", () => {

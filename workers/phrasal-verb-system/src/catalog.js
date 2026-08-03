@@ -47,7 +47,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The teacher built the lesson round a short song."
   ],
   "phrasal-verb-01-q03": [
-    "The TV show built Mia up as its next big star."
+    "The TV show built Tom up as its next big star."
   ],
   "phrasal-verb-01-q04": [
     "They built a small room onto the back of the house."
@@ -231,7 +231,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Because the trip may take longer than planned, we built an extra hour into the timetable before booking anything."
   ],
   "phrasal-verb-01-q59": [
-    "Mia wanted to phone the school, but she needed a few minutes to build herself up to making the call."
+    "Tom wanted to phone the school, but she needed a few minutes to build herself up to making the call."
   ],
   "phrasal-verb-01-q60": [
     "Over the year, the class built up a long list by saving every useful website it found."
@@ -490,7 +490,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Time is flying by today."
   ],
   "phrasal-verb-03-q24": [
-    "Why did Mia fly at her brother?"
+    "Why did Tom fly at her brother?"
   ],
   "phrasal-verb-03-q25": [
     "The airline has flown the passengers out of the city."
@@ -673,7 +673,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Can you answer for your brother?"
   ],
   "phrasal-verb-04-q15": [
-    "Mia never answers back when her coach corrects her."
+    "Tom never answers back when her coach corrects her."
   ],
   "phrasal-verb-04-q16": [
     "Who do you answer to in the office?"
@@ -817,7 +817,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The dog chased the birds away from its food."
   ],
   "phrasal-verb-05-q03": [
-    "After searching the whole school, we finally chased Mia down."
+    "After searching the whole school, we finally chased Tom down."
   ],
   "phrasal-verb-05-q04": [
     "I will chase Ben up about the missing form today."
@@ -1174,7 +1174,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The film cleaned up at the local awards ceremony."
   ],
   "phrasal-verb-07-q02": [
-    "Dad cleaned Mia up after she slipped into the mud."
+    "Dad cleaned Tom up after she slipped into the mud."
   ],
   "phrasal-verb-07-q03": [
     "Tom cleaned the paint off his hands."
@@ -1513,7 +1513,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "She does not want another short fringe; she wants to grow it out before summer."
   ],
   "phrasal-verb-08-q45": [
-    "Mia still thought the film was slow, but it grew on her over time because of its gentle humour."
+    "Tom still thought the film was slow, but it grew on her over time because of its gentle humour."
   ],
   "phrasal-verb-08-q46": [
     "Nora still cared about her old friends, but she slowly grew away from them as their lives changed."
@@ -1687,7 +1687,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Watch out! The door opens towards you."
   ],
   "phrasal-verb-09-q33": [
-    "The teacher asked Mia to watch over the younger children for two minutes."
+    "The teacher asked Tom to watch over the younger children for two minutes."
   ],
   "phrasal-verb-09-q34": [
     "At the airport, my parents watched for me to come through the doors."
@@ -1750,7 +1750,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I washed up the plates and cups after dinner."
   ],
   "phrasal-verb-10-q04": [
-    "The long walk washed Mia out."
+    "The long walk washed Tom out."
   ],
   "phrasal-verb-10-q05": [
     "Dad washed the garden wall down with a hose."
@@ -2062,7 +2062,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Her simple black dress was topped off with bright green shoes."
   ],
   "phrasal-verb-11-q38": [
-    "As the guests talked, Mia quietly topped them up."
+    "As the guests talked, Tom quietly topped them up."
   ],
   "phrasal-verb-11-q39": [
     "The tower tops out at eighty metres above the ground."
@@ -2101,7 +2101,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "By the final week, daily sales had topped out at 1,200 items."
   ],
   "phrasal-verb-12-q01": [
-    "Mia tried on the blue jacket before buying it."
+    "Tom tried on the blue jacket before buying it."
   ],
   "phrasal-verb-12-q02": [
     "Daniel will try for the job at the new café."
@@ -2254,7 +2254,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The children tidied up the playroom before lunch."
   ],
   "phrasal-verb-13-q02": [
-    "Mia tidied up her notes before the test."
+    "Tom tidied up her notes before the test."
   ],
   "phrasal-verb-13-q03": [
     "Leo tidied his books away after studying."
@@ -2407,7 +2407,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Owen sold his old guitar, then bought it back."
   ],
   "phrasal-verb-14-q03": [
-    "The dishonest manager tried to buy Mia off."
+    "The dishonest manager tried to buy Tom off."
   ],
   "phrasal-verb-14-q04": [
     "We need to buy in extra food for the party."
@@ -2875,7 +2875,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Do not add the cream while the soup is still hot; wait until it cools down."
   ],
   "phrasal-verb-16-q39": [
-    "Mia used to call every day, but her feelings for Leo slowly cooled off."
+    "Tom used to call every day, but her feelings for Leo slowly cooled off."
   ],
   "phrasal-verb-16-q40": [
     "Before going back into the warm kitchen, the cook stood outside until he cooled down."
@@ -3421,7 +3421,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "We could have stopped in the rain, but Dad decided to drive on until we reached home."
   ],
   "phrasal-verb-20-q01": [
-    "Mia hopes to win back her place in the school team."
+    "Tom hopes to win back her place in the school team."
   ],
   "phrasal-verb-20-q02": [
     "The coach explained the idea again and won the players over to it."
@@ -3832,7 +3832,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "This paragraph is important. Copy it out on a separate sheet."
   ],
   "phrasal-verb-22-q28": [
-    "Why was Mia copied in on all the emails about the lost bag?"
+    "Why was Tom copied in on all the emails about the lost bag?"
   ],
   "phrasal-verb-22-q29": [
     "Mina copied the list of names down from the screen before the page closed."
@@ -4033,7 +4033,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "When the teacher returned, one child immediately told on the others."
   ],
   "phrasal-verb-23-q45": [
-    "Mia’s parents told her off for lying about the broken window."
+    "Tom’s parents told her off for lying about the broken window."
   ],
   "phrasal-verb-23-q46": [
     "His refusal to answer simple questions will tell against him."
@@ -4084,7 +4084,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Maya waited behind after the club meeting."
   ],
   "phrasal-verb-24-q02": [
-    "We are still waiting on Mia’s reply."
+    "We are still waiting on Tom’s reply."
   ],
   "phrasal-verb-24-q03": [
     "We stayed inside to wait out the storm."
@@ -4117,7 +4117,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "We will wait on the weather report before planning the picnic."
   ],
   "phrasal-verb-24-q13": [
-    "The team is waiting on the doctor’s advice before deciding whether Mia can play."
+    "The team is waiting on the doctor’s advice before deciding whether Tom can play."
   ],
   "phrasal-verb-24-q14": [
     "Nora is waiting on the guests during dinner in the garden."
@@ -4216,7 +4216,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "During the old-fashioned scene, one actor waited upon the rich guest."
   ],
   "phrasal-verb-24-q46": [
-    "At the busy café, Mia waited on six groups of customers without making a mistake."
+    "At the busy café, Tom waited on six groups of customers without making a mistake."
   ],
   "phrasal-verb-24-q47": [
     "Rather than drive through the thick fog, we stopped at a café and waited it out."
@@ -4339,7 +4339,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Please zoom out; I need to see both towns."
   ],
   "phrasal-verb-25-q27": [
-    "Why did Mia zoom off after the phone call?"
+    "Why did Tom zoom off after the phone call?"
   ],
   "phrasal-verb-25-q28": [
     "The editor zoomed in on the name so everyone could see it clearly."
@@ -4429,7 +4429,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "I clocked out before leaving."
   ],
   "phrasal-verb-26-q07": [
-    "Mia clocked Tom in at nine."
+    "Tom clocked Tom in at nine."
   ],
   "phrasal-verb-26-q08": [
     "Our school team clocked up 25 points this term."
@@ -4762,7 +4762,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The referee’s decision touched off a loud argument."
   ],
   "phrasal-verb-28-q08": [
-    "Mia touched up the photo before posting it."
+    "Tom touched up the photo before posting it."
   ],
   "phrasal-verb-28-q09": [
     "Her speech touched on the need for more funding."
@@ -4873,7 +4873,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The training video explains what to do if someone touches you up."
   ],
   "phrasal-verb-28-q45": [
-    "How much did Mia touch you for?"
+    "How much did Tom touch you for?"
   ],
   "phrasal-verb-28-q46": [
     "Without giving full details, Maya touched on the change in the school rules."
@@ -5089,7 +5089,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Ben covered up for his brother."
   ],
   "phrasal-verb-30-q07": [
-    "Mia covered the bowl over with a clean cloth."
+    "Tom covered the bowl over with a clean cloth."
   ],
   "phrasal-verb-30-q08": [
     "She covered herself up with a warm blanket."
@@ -5284,7 +5284,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Ben heard the door close. A sudden fear stole over him."
   ],
   "phrasal-verb-31-q22": [
-    "No one noticed when Mia stole away from the hall."
+    "No one noticed when Tom stole away from the hall."
   ],
   "phrasal-verb-31-q23": [
     "The dog did not hear us as we stole up on it."
@@ -5671,7 +5671,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "The team will not cheat on its promise to give every player a chance."
   ],
   "phrasal-verb-34-q21": [
-    "The man promised Mia a refund, but he cheated her out of it."
+    "The man promised Tom a refund, but he cheated her out of it."
   ],
   "phrasal-verb-34-q22": [
     "Nora was away often. Her husband later discovered that she had been cheating on him."

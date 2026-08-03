@@ -17,13 +17,15 @@ import {
   REMOTE_GRAMMAR_FAILURE_KINDS,
   rebaseWritingGrammarIssuesAfterAppliedCorrection,
   writingGrammarReviewNotice
-} from "./writing-submission-ai.js?v=20260801-grammar4";
+} from "./writing-submission-ai.js?v=20260802-grammar1";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
+const TOPIC_CATALOG_VERSION = "20260803-progress1";
+const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
 const HARPER_VERSION = "2.7.0";
 const ESL_RULESET_VERSION = "1.2.0";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -47,6 +49,12 @@ const elements = {
   harperStatus: document.querySelector("[data-harper-status]"),
   writingForm: document.querySelector("[data-writing-form]"),
   topicInput: document.querySelector("[data-topic-input]"),
+  topicPickerOpen: document.querySelector("[data-topic-picker-open]"),
+  topicPicker: document.querySelector("[data-topic-picker]"),
+  topicPickerClose: document.querySelector("[data-topic-picker-close]"),
+  topicPickerSearch: document.querySelector("[data-topic-picker-search]"),
+  topicPickerResults: document.querySelector("[data-topic-picker-results]"),
+  selectedTopicPreview: document.querySelector("[data-selected-topic-preview]"),
   writingInput: document.querySelector("[data-writing-input]"),
   wordCount: document.querySelector("[data-word-count]"),
   draftState: document.querySelector("[data-draft-state]"),
@@ -54,8 +62,18 @@ const elements = {
   submitWriting: document.querySelector("[data-submit-writing]"),
   grammarList: document.querySelector("[data-grammar-list]"),
   issueCount: document.querySelector("[data-issue-count]"),
+  grammarPanel: document.querySelector(".grammar-panel"),
+  grammarToggle: document.querySelector("[data-grammar-toggle]"),
+  grammarToggleLabel: document.querySelector("[data-grammar-toggle-label]"),
   newWriting: document.querySelector("[data-new-writing]"),
   refreshSubmissions: document.querySelector("[data-refresh-submissions]"),
+  refreshWritingProgress: document.querySelector("[data-refresh-writing-progress]"),
+  writingArticleTotal: document.querySelector("[data-writing-article-total]"),
+  writingTimeTotal: document.querySelector("[data-writing-time-total]"),
+  writingAverageTime: document.querySelector("[data-writing-average-time]"),
+  writingArticlesChart: document.querySelector("[data-writing-articles-chart]"),
+  writingTimeChart: document.querySelector("[data-writing-time-chart]"),
+  writingAverageChart: document.querySelector("[data-writing-average-chart]"),
   submissionList: document.querySelector("[data-submission-list]"),
   submissionDetail: document.querySelector("[data-submission-detail]"),
   refreshGrammarLog: document.querySelector("[data-refresh-grammar-log]"),
@@ -73,7 +91,10 @@ const state = {
   supabase: null,
   user: null,
   authToken: "",
+  studentAccess: {},
   currentView: "login",
+  grammarDetectionEnabled: true,
+  preferenceSavePromise: null,
   checker: null,
   checkerState: "idle",
   checkerPromise: null,
@@ -100,9 +121,18 @@ const state = {
   occurrenceFlushTimer: null,
   occurrenceFlushPromise: null,
   draftSaveTimer: null,
+  draftDurationSeconds: 0,
+  submissionDurationSeconds: null,
+  writingClockLastAt: 0,
+  lastWritingActivityAt: 0,
+  writingClockTimer: null,
+  selectedTopicResource: null,
+  topicCatalog: [],
+  topicCatalogPromise: null,
   manualRecheckTimer: null,
   toastTimer: null,
   submissions: [],
+  writingProgress: [],
   selectedSubmissionId: "",
   grammarProblems: [],
   adminSubmissions: [],
@@ -147,8 +177,56 @@ function showToast(message, status = "success") {
   state.toastTimer = window.setTimeout(() => { elements.toast.hidden = true; }, 3400);
 }
 
+function writingClockEligible(now = Date.now()) {
+  return Boolean(
+    state.user?.role === "student"
+    && state.currentView === "workspace"
+    && document.visibilityState !== "hidden"
+    && state.documentId
+    && now - state.lastWritingActivityAt <= WRITING_IDLE_LIMIT_MS
+  );
+}
+
+function accrueWritingTime(now = Date.now()) {
+  if (!state.writingClockLastAt) {
+    state.writingClockLastAt = now;
+    return;
+  }
+  const elapsedMs = Math.max(0, Math.min(15000, now - state.writingClockLastAt));
+  if (writingClockEligible(now)) state.draftDurationSeconds += elapsedMs / 1000;
+  state.writingClockLastAt = now;
+}
+
+function markWritingActivity() {
+  const now = Date.now();
+  accrueWritingTime(now);
+  state.lastWritingActivityAt = now;
+  state.writingClockLastAt = now;
+}
+
+function startWritingClock() {
+  if (state.writingClockTimer) return;
+  state.writingClockLastAt = Date.now();
+  state.writingClockTimer = window.setInterval(() => {
+    accrueWritingTime();
+    if (state.currentView === "workspace") persistDraft();
+  }, 5000);
+}
+
+function formatCompactDuration(secondsValue) {
+  const seconds = Math.max(0, Number(secondsValue || 0));
+  if (seconds < 60) return `${Math.round(seconds)} 秒`;
+  const minutes = seconds / 60;
+  if (minutes < 60) return `${minutes < 10 ? minutes.toFixed(1) : Math.round(minutes)} 分鐘`;
+  const hours = minutes / 60;
+  return `${hours < 10 ? hours.toFixed(1) : Math.round(hours)} 小時`;
+}
+
 function showView(name) {
+  accrueWritingTime();
   state.currentView = name;
+  state.writingClockLastAt = Date.now();
+  if (name === "workspace" && state.user?.role === "student") markWritingActivity();
   for (const view of elements.views) view.hidden = view.dataset.view !== name;
   const loggedIn = Boolean(state.user && state.authToken);
   const admin = state.user?.role === "admin";
@@ -255,7 +333,8 @@ function saveSession() {
       token: state.authToken,
       id: state.user.id || "",
       name: state.user.name || "",
-      role: state.user.role
+      role: state.user.role,
+      access: state.user.role === "student" ? state.studentAccess : undefined
     }));
   } catch {
     // The authenticated session can continue in memory.
@@ -287,13 +366,21 @@ function clearSession() {
   state.pendingChecks = 0;
   state.user = null;
   state.authToken = "";
+  state.studentAccess = {};
+  state.grammarDetectionEnabled = true;
   state.activeIssues = [];
   state.appliedCorrections = [];
   state.dismissedIssueIds.clear();
   state.pendingOccurrences.clear();
   state.reportedFingerprints.clear();
   state.submissions = [];
+  state.writingProgress = [];
   state.adminSubmissions = [];
+  state.selectedTopicResource = null;
+  state.draftDurationSeconds = 0;
+  state.submissionDurationSeconds = null;
+  state.writingClockLastAt = 0;
+  state.lastWritingActivityAt = 0;
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Storage may be unavailable. */ }
 }
 
@@ -343,6 +430,9 @@ async function validateRestoredSession() {
     name: String(saved.name || ""),
     role: saved.role
   };
+  state.studentAccess = saved.role === "student" && saved.access && typeof saved.access === "object"
+    ? saved.access
+    : {};
   try {
     const payload = await apiJson(saved.role === "admin" ? "/v1/admin/me" : "/v1/student/me");
     const profile = saved.role === "admin" ? payload?.admin : payload?.student;
@@ -387,16 +477,229 @@ function newDocumentId() {
   ].join("-");
 }
 
+function safeWritingPromptImage(value) {
+  const source = String(value || "").trim();
+  if (
+    !source
+    || source.length > 500
+    || source.includes("://")
+    || source.startsWith("//")
+    || source.includes("\\")
+    || source.startsWith("data:")
+  ) return "";
+  if (source.startsWith("/") || source.startsWith("./") || /^[a-z0-9][a-z0-9_./%()' -]*$/i.test(source)) {
+    return source;
+  }
+  return "";
+}
+
+function normalizeWritingTopicResource(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return null;
+  const id = String(value.id || "").slice(0, 240);
+  const label = String(value.label || "").trim().slice(0, 500);
+  if (!id || !label || (value.type && value.type !== "fill-blanks")) return null;
+  const questionPrompt = (Array.isArray(value.questionPrompt) ? value.questionPrompt : [])
+    .map(line => String(line || "").trim().slice(0, 4000))
+    .filter(Boolean)
+    .slice(0, 30);
+  const questionImages = (Array.isArray(value.questionImages) ? value.questionImages : [])
+    .map((image) => {
+      const source = safeWritingPromptImage(typeof image === "string" ? image : image?.src);
+      if (!source) return null;
+      return {
+        src: source,
+        alt: String(typeof image === "string" ? "Writing question image" : image?.alt || "Writing question image").slice(0, 300)
+      };
+    })
+    .filter(Boolean)
+    .slice(0, 8);
+  return {
+    id,
+    type: "fill-blanks",
+    label,
+    detail: String(value.detail || "Writing Practice").slice(0, 300),
+    sectionKey: String(value.sectionKey || "").slice(0, 100),
+    questionPrompt,
+    questionImages
+  };
+}
+
+function writingTopicSearchText(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .replace(/[’]/g, "'")
+    .toLocaleLowerCase()
+    .replace(/[^a-z0-9一-鿿]+/g, " ")
+    .trim();
+}
+
+function writingTopicSearchTokens(value) {
+  return writingTopicSearchText(value).split(/\s+/u).filter(Boolean);
+}
+
+function canAccessWritingTopic(resource) {
+  return !resource.sectionKey || state.studentAccess?.[resource.sectionKey] !== false;
+}
+
+async function loadWritingTopicCatalog() {
+  if (state.topicCatalog.length) return state.topicCatalog;
+  if (!state.topicCatalogPromise) {
+    state.topicCatalogPromise = import(`./homework-resource-catalog.mjs?v=${TOPIC_CATALOG_VERSION}`)
+      .then((module) => {
+        const source = Array.isArray(module.HOMEWORK_RESOURCE_CATALOG)
+          ? module.HOMEWORK_RESOURCE_CATALOG
+          : [];
+        state.topicCatalog = source
+          .filter(resource => resource?.type === "fill-blanks")
+          .map(normalizeWritingTopicResource)
+          .filter(Boolean);
+        return state.topicCatalog;
+      })
+      .finally(() => { state.topicCatalogPromise = null; });
+  }
+  return state.topicCatalogPromise;
+}
+
+function renderSelectedTopicPreview() {
+  const resource = normalizeWritingTopicResource(state.selectedTopicResource);
+  state.selectedTopicResource = resource;
+  if (!elements.selectedTopicPreview) return;
+  if (!resource?.questionImages.length) {
+    elements.selectedTopicPreview.hidden = true;
+    elements.selectedTopicPreview.replaceChildren();
+    return;
+  }
+  const head = createElement("div", "selected-topic-preview-head");
+  head.append(createElement("strong", "", resource.label));
+  const remove = createElement("button", "", "移除附圖");
+  remove.type = "button";
+  remove.dataset.removeTopicPreview = "true";
+  head.append(remove);
+  const images = createElement("div", "selected-topic-images");
+  for (const image of resource.questionImages) {
+    const node = document.createElement("img");
+    node.src = image.src;
+    node.alt = image.alt;
+    node.loading = "lazy";
+    node.decoding = "async";
+    images.append(node);
+  }
+  elements.selectedTopicPreview.replaceChildren(head, images);
+  elements.selectedTopicPreview.hidden = false;
+}
+
+function writingTopicResultHaystack(resource) {
+  return writingTopicSearchText([
+    resource.label,
+    resource.detail,
+    resource.sectionKey,
+    ...resource.questionPrompt
+  ].join(" "));
+}
+
+function renderWritingTopicResults(query = "") {
+  if (!elements.topicPickerResults) return;
+  const tokens = writingTopicSearchTokens(query);
+  const matches = state.topicCatalog
+    .filter(canAccessWritingTopic)
+    .filter((resource) => {
+      if (!tokens.length) return true;
+      const haystack = writingTopicResultHaystack(resource);
+      return tokens.every(token => haystack.includes(token));
+    })
+    .slice(0, 30);
+  if (!matches.length) {
+    elements.topicPickerResults.replaceChildren(emptyState("找不到符合關鍵字而且已開放的寫作題目。"));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  for (const resource of matches) {
+    const button = createElement("button", "topic-picker-result");
+    button.type = "button";
+    button.dataset.selectWritingTopic = resource.id;
+    button.append(
+      createElement("strong", "", resource.label),
+      createElement("small", "", resource.detail || "Writing Practice"),
+      createElement("em", "", "選擇")
+    );
+    if (resource.questionPrompt.length || resource.questionImages.length) {
+      const preview = createElement("div", "topic-picker-result-preview");
+      for (const line of resource.questionPrompt.slice(0, 3)) preview.append(createElement("p", "", line));
+      if (resource.questionImages.length) {
+        const images = createElement("div", "topic-picker-result-images");
+        for (const image of resource.questionImages.slice(0, 3)) {
+          const node = document.createElement("img");
+          node.src = image.src;
+          node.alt = image.alt;
+          node.loading = "lazy";
+          node.decoding = "async";
+          images.append(node);
+        }
+        preview.append(images);
+      }
+      button.append(preview);
+    }
+    fragment.append(button);
+  }
+  elements.topicPickerResults.replaceChildren(fragment);
+}
+
+async function openWritingTopicPicker() {
+  elements.topicPickerResults.replaceChildren(loadingState("正在載入寫作練習題目…"));
+  if (typeof elements.topicPicker.showModal === "function") elements.topicPicker.showModal();
+  else elements.topicPicker.setAttribute("open", "");
+  try {
+    await loadWritingTopicCatalog();
+    renderWritingTopicResults(elements.topicPickerSearch.value);
+    window.setTimeout(() => elements.topicPickerSearch.focus(), 0);
+  } catch (error) {
+    console.warn("Writing topic catalog failed", error);
+    elements.topicPickerResults.replaceChildren(emptyState("暫時未能載入寫作練習題目。您仍可自行輸入題目。"));
+  }
+}
+
+function closeWritingTopicPicker() {
+  if (typeof elements.topicPicker.close === "function") elements.topicPicker.close();
+  else elements.topicPicker.removeAttribute("open");
+}
+
+function selectWritingTopic(resourceId) {
+  const resource = state.topicCatalog.find(item => item.id === resourceId && canAccessWritingTopic(item));
+  if (!resource) return;
+  const topic = resource.questionPrompt.length
+    ? resource.questionPrompt.join("\n\n")
+    : resource.label;
+  elements.topicInput.value = topic.slice(0, 4000);
+  state.selectedTopicResource = resource;
+  renderSelectedTopicPreview();
+  markWritingActivity();
+  updateEditorMetrics();
+  persistDraft();
+  closeWritingTopicPicker();
+  showToast("已貼上寫作練習題目；您仍可自行修改。", "success");
+}
+
 function readDraft() {
   const key = draftStorageKey();
   if (!key) return null;
   try {
     const value = JSON.parse(sessionStorage.getItem(key) || "null");
     if (!UUID_RE.test(String(value?.documentId || ""))) return null;
+    const rawSubmissionDuration = value?.submissionDurationSeconds;
+    const submissionDurationSeconds = rawSubmissionDuration === null || rawSubmissionDuration === undefined
+      ? Number.NaN
+      : Number(rawSubmissionDuration);
     return {
       documentId: String(value.documentId),
       topic: String(value.topic || ""),
-      answer: String(value.answer || "")
+      answer: String(value.answer || ""),
+      durationSeconds: Math.max(0, Math.min(31536000, Number(value.durationSeconds || 0))),
+      submissionDurationSeconds: Number.isSafeInteger(submissionDurationSeconds)
+        && submissionDurationSeconds >= 0
+        && submissionDurationSeconds <= 31536000
+        ? submissionDurationSeconds
+        : null,
+      selectedTopicResource: normalizeWritingTopicResource(value.selectedTopicResource)
     };
   } catch {
     return null;
@@ -407,10 +710,14 @@ function persistDraft() {
   const key = draftStorageKey();
   if (!key || !state.documentId) return;
   try {
+    accrueWritingTime();
     sessionStorage.setItem(key, JSON.stringify({
       documentId: state.documentId,
       topic: elements.topicInput.value,
       answer: elements.writingInput.value,
+      durationSeconds: Math.round(state.draftDurationSeconds),
+      submissionDurationSeconds: state.submissionDurationSeconds,
+      selectedTopicResource: state.selectedTopicResource,
       savedAt: new Date().toISOString()
     }));
   } catch {
@@ -492,12 +799,18 @@ function startNewDraft({ preserveView = false } = {}) {
   state.checkQueue = Promise.resolve();
   state.pendingChecks = 0;
   state.documentId = newDocumentId();
+  state.draftDurationSeconds = 0;
+  state.submissionDurationSeconds = null;
+  state.writingClockLastAt = Date.now();
+  state.lastWritingActivityAt = Date.now();
   state.previousWriting = "";
   state.activeIssues = [];
   state.appliedCorrections = [];
   state.dismissedIssueIds.clear();
   elements.topicInput.value = "";
   elements.writingInput.value = "";
+  state.selectedTopicResource = null;
+  renderSelectedTopicPreview();
   setStatus(elements.submissionStatus, "");
   renderGrammarIssues();
   updateEditorMetrics();
@@ -516,15 +829,23 @@ function restoreDraft() {
   restoreIssueQueue();
   const draft = readDraft();
   state.documentId = draft?.documentId || newDocumentId();
+  state.draftDurationSeconds = draft?.durationSeconds || 0;
+  state.submissionDurationSeconds = draft?.submissionDurationSeconds ?? null;
+  state.writingClockLastAt = Date.now();
+  state.lastWritingActivityAt = Date.now();
   state.appliedCorrections = [];
   elements.topicInput.value = draft?.topic || "";
   elements.writingInput.value = draft?.answer || "";
+  state.selectedTopicResource = draft?.selectedTopicResource || null;
+  renderSelectedTopicPreview();
   state.previousWriting = elements.writingInput.value;
   updateEditorMetrics();
   renderGrammarIssues();
   persistDraft();
   const completedSegments = completedWritingSegments(elements.writingInput.value);
-  if (completedSegments.length) enqueueSegmentsForCheck(completedSegments, { remote: false });
+  if (state.grammarDetectionEnabled && completedSegments.length) {
+    enqueueSegmentsForCheck(completedSegments, { remote: false });
+  }
 }
 
 function updateHarperStatus(status, title, detail) {
@@ -537,22 +858,116 @@ function updateHarperStatus(status, title, detail) {
 }
 
 async function prepareGrammarChecker() {
+  if (!state.grammarDetectionEnabled) return null;
   if (state.checkerPromise) return state.checkerPromise;
-  updateHarperStatus("loading", "正在準備進階文法檢查", "本機後備檢查首次載入約需數秒");
+  updateHarperStatus("loading", "正在準備文法偵測", "本機後備檢查首次載入約需數秒");
   state.checkerPromise = (async () => {
     const module = await import("./writing-submission-harper.js?v=20260801-grammar2");
     const checker = module.createWritingGrammarChecker();
     state.checker = checker;
     try {
       await checker.setup();
-      updateHarperStatus("ready", "文法檢查已準備", `AI 進階檢查 + 本機 ESL ${ESL_RULESET_VERSION} + Harper ${HARPER_VERSION} 後備校對`);
+      updateHarperStatus("ready", "文法偵測已準備", `文法偵測 + 本機 ESL ${ESL_RULESET_VERSION} + Harper ${HARPER_VERSION} 後備校對`);
     } catch (error) {
       console.warn("Local Harper setup failed", error);
-      updateHarperStatus("ready", "AI 文法檢查已準備", "Edmund 本機規則仍可使用；Harper 暫時不可用");
+      updateHarperStatus("ready", "文法偵測已準備", "Edmund 本機規則仍可使用；Harper 暫時不可用");
     }
     return checker;
   })();
   return state.checkerPromise;
+}
+
+function syncGrammarDetectionControls() {
+  if (elements.grammarToggle) elements.grammarToggle.checked = state.grammarDetectionEnabled;
+  if (elements.grammarToggleLabel) {
+    elements.grammarToggleLabel.textContent = state.grammarDetectionEnabled ? "開啟" : "關閉";
+  }
+  if (elements.grammarPanel) {
+    elements.grammarPanel.dataset.detectionEnabled = String(state.grammarDetectionEnabled);
+  }
+}
+
+function stopGrammarDetection() {
+  state.checkGeneration += 1;
+  cancelRemoteGrammarChecks();
+  state.checkQueue = Promise.resolve();
+  state.pendingChecks = 0;
+  state.activeIssues = [];
+  state.dismissedIssueIds.clear();
+  window.clearTimeout(state.manualRecheckTimer);
+  state.manualRecheckTimer = null;
+  updateHarperStatus("ready", "文法偵測已關閉", "不會把句子傳送至文法服務；重新開啟後會由文章開首重新檢查");
+  renderGrammarIssues();
+}
+
+function startGrammarDetection({ scanCurrentWriting = false } = {}) {
+  state.checkGeneration += 1;
+  cancelRemoteGrammarChecks();
+  state.checkQueue = Promise.resolve();
+  state.pendingChecks = 0;
+  state.activeIssues = [];
+  state.dismissedIssueIds.clear();
+  prepareGrammarChecker()
+    .then(() => {
+      if (state.grammarDetectionEnabled) {
+        updateHarperStatus("ready", "文法偵測已準備", `文法偵測 + 本機 ESL ${ESL_RULESET_VERSION} + Harper ${HARPER_VERSION} 後備校對`);
+      }
+    })
+    .catch((error) => console.warn("Grammar checker setup failed", error));
+  if (scanCurrentWriting) {
+    const segments = completedWritingSegments(elements.writingInput.value);
+    if (segments.length) enqueueSegmentsForCheck(segments, { remote: true });
+  }
+  renderGrammarIssues();
+}
+
+function setGrammarDetectionEnabled(enabled, { scanCurrentWriting = false } = {}) {
+  const next = enabled !== false;
+  const changed = state.grammarDetectionEnabled !== next;
+  state.grammarDetectionEnabled = next;
+  syncGrammarDetectionControls();
+  if (!changed) {
+    renderGrammarIssues();
+    return;
+  }
+  if (next) startGrammarDetection({ scanCurrentWriting });
+  else stopGrammarDetection();
+}
+
+async function loadWritingPreferences() {
+  state.grammarDetectionEnabled = true;
+  syncGrammarDetectionControls();
+  try {
+    const payload = await apiJson("/v1/preferences");
+    setGrammarDetectionEnabled(payload?.preferences?.grammarDetectionEnabled !== false);
+  } catch (error) {
+    console.warn("Writing preferences could not be loaded", error);
+    setGrammarDetectionEnabled(true);
+  }
+}
+
+async function persistGrammarDetectionPreference(enabled) {
+  const payload = await apiJson("/v1/preferences", {
+    method: "PUT",
+    body: JSON.stringify({ grammarDetectionEnabled: enabled })
+  });
+  return payload?.preferences?.grammarDetectionEnabled !== false;
+}
+
+async function handleGrammarDetectionToggle() {
+  const enabled = Boolean(elements.grammarToggle?.checked);
+  setGrammarDetectionEnabled(enabled, { scanCurrentWriting: enabled });
+  elements.grammarToggle.disabled = true;
+  try {
+    const savedEnabled = await persistGrammarDetectionPreference(enabled);
+    if (savedEnabled !== enabled) setGrammarDetectionEnabled(savedEnabled, { scanCurrentWriting: savedEnabled });
+    showToast(enabled ? "文法偵測已開啟，正由文章開首檢查。" : "文法偵測已關閉並已保存。", "success");
+  } catch (error) {
+    console.warn("Writing preference save failed", error);
+    showToast("偏好暫時未能同步；本頁仍會使用目前設定。", "error");
+  } finally {
+    elements.grammarToggle.disabled = false;
+  }
 }
 
 function rebaseActiveIssues(previousValue, nextValue) {
@@ -892,6 +1307,7 @@ function inconclusiveRemoteGrammarResult() {
 }
 
 async function requestRemoteGrammarIssues(record) {
+  if (!state.grammarDetectionEnabled) return cancelledRemoteGrammarResult();
   if (!isLatestSegmentRecord(record)) return cancelledRemoteGrammarResult();
   if (record.segment.text.length > 2000) return inconclusiveRemoteGrammarResult();
   if (Date.now() < state.remoteGrammarBackoffUntil) {
@@ -1052,8 +1468,8 @@ function applyRemoteGrammarOutcome(record, result) {
     state.remoteGrammarBackoffFailure = null;
     updateHarperStatus(
       "ready",
-      "AI 進階文法檢查已連線",
-      "只傳送已完成的單句；題目、整篇草稿及學生身份不會交給模型"
+      "文法偵測已連線",
+      "只傳送已完成的單句；題目、整篇草稿及學生身份不會送出"
     );
     return;
   }
@@ -1077,26 +1493,26 @@ function applyRemoteGrammarOutcome(record, result) {
   if (failure.globalStatus === "error") {
     updateHarperStatus(
       "error",
-      "進階 AI 暫時未能連線",
+      "文法偵測暫時未能連線",
       "本機 ESL 規則及 Harper 後備檢查仍可使用"
     );
   } else if (failure.globalStatus === "rate_limited") {
     updateHarperStatus(
       "ready",
-      "AI 進階檢查稍後重試",
+      "文法偵測稍後重試",
       "本機提示仍可使用；請稍候再完成下一次進階檢查"
     );
   } else if (failure.globalStatus === "quota_exhausted") {
     updateHarperStatus(
       "error",
-      "Workers AI 每日額度已用完",
+      "文法偵測今日額度已用完",
       "額度會於香港時間 08:00 重設；本機 ESL 規則及 Harper 後備檢查仍可使用"
     );
   } else if (failure.kind === REMOTE_GRAMMAR_FAILURE_KINDS.inconclusive) {
     updateHarperStatus(
       "ready",
-      "文法檢查已準備",
-      "AI 未能完成個別句子時，本機提示仍然會保留"
+      "文法偵測已準備",
+      "文法偵測未能完成個別句子時，本機提示仍然會保留"
     );
   }
 }
@@ -1112,6 +1528,7 @@ async function runRemoteSegmentCheck(record) {
 }
 
 function enqueueSegmentsForCheck(segments, { remote = true } = {}) {
+  if (!state.grammarDetectionEnabled) return;
   const validSegments = Array.isArray(segments) ? segments.filter(Boolean) : [];
   if (!validSegments.length) return;
   const context = captureCheckContext();
@@ -1192,22 +1609,28 @@ function grammarReviewWarningContent(warnings, hasVisibleIssues) {
 
 function grammarEmptyContent() {
   const wrapper = createElement("div", "grammar-empty");
+  if (!state.grammarDetectionEnabled) {
+    wrapper.append(createElement("span", "", "○"));
+    wrapper.append(createElement("strong", "", "文法偵測已關閉"));
+    wrapper.append(createElement("p", "", "不會傳送或檢查句子。重新開啟後，系統會由目前文章的第一句開始掃描。"));
+    return wrapper;
+  }
   const icon = state.pendingChecks > 0 || state.checkerState === "loading"
     ? "…"
     : state.checkerState === "error" ? "!" : "i";
   wrapper.append(createElement("span", "", icon));
   if (state.pendingChecks > 0) {
     wrapper.append(createElement("strong", "", "正在檢查完整句子"));
-    wrapper.append(createElement("p", "", "AI 文法助手及本機後備規則正在整理建議，請稍候。"));
+    wrapper.append(createElement("p", "", "文法偵測及本機後備規則正在整理建議，請稍候。"));
   } else if (state.checkerState === "loading") {
-    wrapper.append(createElement("strong", "", "正在準備文法檢查"));
+    wrapper.append(createElement("strong", "", "正在準備文法偵測"));
     wrapper.append(createElement("p", "", "您可以先開始寫作；完整句子會排隊檢查。"));
   } else if (state.checkerState === "error") {
-    wrapper.append(createElement("strong", "", "進階 AI 暫時未能連線"));
+    wrapper.append(createElement("strong", "", "文法偵測暫時未能連線"));
     wrapper.append(createElement("p", "", "本機後備檢查、寫作及提交功能不受影響。"));
   } else {
     wrapper.append(createElement("strong", "", "暫未偵測到高信心文法問題"));
-    wrapper.append(createElement("p", "", "這不代表句子完全正確；AI 及本機工具都可能遺漏問題。"));
+    wrapper.append(createElement("p", "", "這不代表句子完全正確；文法偵測可能遺漏問題。"));
   }
   return wrapper;
 }
@@ -1215,13 +1638,14 @@ function grammarEmptyContent() {
 function grammarIssueSourceLabel(issue) {
   if (issue.reviewRequired) return "需老師覆核";
   if (issue.engine?.name === "edmund-approved-grammar-corpus") return "Edmund Sir 已審核文法庫";
-  if (issue.engine?.name === "cloudflare-workers-ai") return "Edmund AI 進階檢查";
+  if (issue.engine?.name === "cloudflare-workers-ai") return "Edmund 文法偵測";
   if (issue.engine?.name === "edmund-esl-basics") return "Edmund 本機規則";
   if (issue.engine?.name === "harper.js") return "Harper 額外校對";
-  return "文法提示";
+  return "文法偵測";
 }
 
 function renderGrammarIssues() {
+  syncGrammarDetectionControls();
   const visible = state.activeIssues.filter((issue) => !state.dismissedIssueIds.has(issue.id));
   const warnings = currentRemoteGrammarWarnings();
   elements.issueCount.textContent = String(visible.length);
@@ -1279,6 +1703,7 @@ function renderGrammarIssues() {
 }
 
 function scheduleManualGrammarRecheck(previousValue, nextValue) {
+  if (!state.grammarDetectionEnabled) return;
   window.clearTimeout(state.manualRecheckTimer);
   state.manualRecheckTimer = null;
   const change = insertedRange(previousValue, nextValue);
@@ -1299,6 +1724,14 @@ function scheduleManualGrammarRecheck(previousValue, nextValue) {
 function handleWritingInput() {
   const nextValue = elements.writingInput.value;
   const previousValue = state.previousWriting;
+  markWritingActivity();
+  if (!state.grammarDetectionEnabled) {
+    state.previousWriting = nextValue;
+    updateEditorMetrics();
+    scheduleDraftSave();
+    renderGrammarIssues();
+    return;
+  }
   supersedeSegmentRecordsAffectedByEdit(previousValue, nextValue);
   rebaseAppliedCorrections(previousValue, nextValue);
   rebaseActiveIssues(previousValue, nextValue);
@@ -1348,7 +1781,7 @@ function applyGrammarIssue(issueId) {
   updateEditorMetrics();
   scheduleDraftSave();
   renderGrammarIssues();
-  // The AI returns one coherent correction batch. Let the student finish that
+  // The remote grammar checker returns one coherent correction batch. Let the student finish that
   // batch before checking the resulting sentence again; otherwise responses
   // for intermediate sentence versions can mix with the still-visible cards.
   if (!hasRemainingSentenceIssues) {
@@ -1372,14 +1805,107 @@ function normalizeSubmission(value) {
     topic: String(value?.topic || "未命名題目"),
     answer: String(value?.answer || value?.content || ""),
     wordCount: Number(value?.wordCount ?? value?.word_count ?? countEnglishWords(value?.answer || value?.content || "")),
+    durationSeconds: Number(value?.durationSeconds ?? value?.duration_seconds ?? 0),
     submittedAt: String(value?.submittedAt || value?.submitted_at || value?.createdAt || value?.created_at || ""),
-    occurrenceCount: Number(value?.occurrenceCount ?? value?.occurrence_count ?? 0)
+    occurrenceCount: Number(value?.occurrenceCount ?? value?.occurrence_count ?? 0),
+    deletedAt: value?.deletedAt || value?.deleted_at ? String(value.deletedAt || value.deleted_at) : ""
   };
 }
 
 function submissionArray(payload) {
   const source = Array.isArray(payload) ? payload : payload?.submissions;
   return Array.isArray(source) ? source.map(normalizeSubmission).filter((item) => item.id) : [];
+}
+
+function normalizeWritingProgressRow(value) {
+  return {
+    date: /^\d{4}-\d{2}-\d{2}$/.test(String(value?.date || "")) ? String(value.date) : "",
+    articlesWritten: Math.max(0, Number(value?.articlesWritten || 0)),
+    timeSpentSeconds: Math.max(0, Number(value?.timeSpentSeconds || 0)),
+    averageSeconds: Math.max(0, Number(value?.averageSeconds || 0)),
+    cumulativeArticles: Math.max(0, Number(value?.cumulativeArticles || 0)),
+    cumulativeTimeSeconds: Math.max(0, Number(value?.cumulativeTimeSeconds || 0))
+  };
+}
+
+function createSvgElement(tag, attributes = {}, text = "") {
+  const node = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  for (const [name, value] of Object.entries(attributes)) node.setAttribute(name, String(value));
+  if (text !== "") node.textContent = String(text);
+  return node;
+}
+
+function renderWritingProgressChart(container, rows, valueKey, formatValue) {
+  if (!container) return;
+  if (!rows.length) {
+    container.replaceChildren(createElement("p", "submission-progress-empty", "提交第一篇文章後，進度會在這裡出現。"));
+    return;
+  }
+  const width = 720;
+  const height = 180;
+  const left = 48;
+  const right = 18;
+  const top = 14;
+  const bottom = 32;
+  const plotWidth = width - left - right;
+  const plotHeight = height - top - bottom;
+  const values = rows.map(row => Math.max(0, Number(row[valueKey] || 0)));
+  const maximum = Math.max(1, ...values);
+  const x = index => left + (rows.length === 1 ? plotWidth / 2 : (index / (rows.length - 1)) * plotWidth);
+  const y = value => top + plotHeight - (value / maximum) * plotHeight;
+  const svg = createSvgElement("svg", { viewBox: `0 0 ${width} ${height}`, role: "img" });
+  const title = createSvgElement("title", {}, `${rows[0].date} 至 ${rows.at(-1).date} 的進度`);
+  svg.append(title);
+  for (let step = 0; step <= 4; step += 1) {
+    const value = maximum * (step / 4);
+    const yPosition = y(value);
+    svg.append(
+      createSvgElement("line", { x1: left, y1: yPosition, x2: width - right, y2: yPosition, class: "chart-grid" }),
+      createSvgElement("text", { x: left - 7, y: yPosition + 3, "text-anchor": "end" }, formatValue(value))
+    );
+  }
+  const points = values.map((value, index) => `${x(index)},${y(value)}`).join(" ");
+  const areaPoints = `${left},${top + plotHeight} ${points} ${width - right},${top + plotHeight}`;
+  svg.append(
+    createSvgElement("polygon", { points: areaPoints, class: "chart-area" }),
+    createSvgElement("polyline", { points, class: "chart-line" })
+  );
+  values.forEach((value, index) => {
+    const point = createSvgElement("circle", { cx: x(index), cy: y(value), r: 4, class: "chart-point", tabindex: 0 });
+    point.append(createSvgElement("title", {}, `${rows[index].date}：${formatValue(value)}`));
+    svg.append(point);
+  });
+  const labelIndexes = [...new Set([0, Math.floor((rows.length - 1) / 2), rows.length - 1])];
+  for (const index of labelIndexes) {
+    svg.append(createSvgElement("text", {
+      x: x(index),
+      y: height - 8,
+      "text-anchor": index === 0 ? "start" : index === rows.length - 1 ? "end" : "middle"
+    }, rows[index].date.slice(5)));
+  }
+  container.replaceChildren(svg);
+}
+
+function renderWritingProgress() {
+  const rows = state.writingProgress;
+  const latest = rows.at(-1);
+  const totalArticles = latest?.cumulativeArticles || 0;
+  const totalSeconds = latest?.cumulativeTimeSeconds || 0;
+  elements.writingArticleTotal.textContent = String(totalArticles);
+  elements.writingTimeTotal.textContent = formatCompactDuration(totalSeconds);
+  elements.writingAverageTime.textContent = formatCompactDuration(totalArticles ? totalSeconds / totalArticles : 0);
+  renderWritingProgressChart(elements.writingArticlesChart, rows, "cumulativeArticles", value => String(Math.round(value)));
+  renderWritingProgressChart(elements.writingTimeChart, rows, "cumulativeTimeSeconds", formatCompactDuration);
+  renderWritingProgressChart(elements.writingAverageChart, rows, "averageSeconds", formatCompactDuration);
+}
+
+async function loadWritingProgress() {
+  const payload = await apiJson("/v1/progress");
+  const source = Array.isArray(payload) ? payload : payload?.progress;
+  state.writingProgress = Array.isArray(source)
+    ? source.map(normalizeWritingProgressRow).filter(row => row.date)
+    : [];
+  renderWritingProgress();
 }
 
 async function fetchAllSubmissionPages(path, { pageSize = 100, maximumPages = 20 } = {}) {
@@ -1407,7 +1933,7 @@ function renderSubmissionList() {
     button.setAttribute("aria-current", String(state.selectedSubmissionId === submission.id));
     button.append(
       createElement("strong", "", submission.topic),
-      createElement("span", "", `${formatSubmissionDate(submission.submittedAt)} · ${submission.wordCount} words`)
+      createElement("span", "", `${formatSubmissionDate(submission.submittedAt)} · ${submission.wordCount} words · ${formatCompactDuration(submission.durationSeconds)}`)
     );
     fragment.append(button);
   }
@@ -1421,10 +1947,20 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   if (admin && submission.studentName) meta.append(createElement("span", "", `學生：${submission.studentName}`));
   meta.append(
     createElement("span", "", formatSubmissionDate(submission.submittedAt)),
-    createElement("span", "", `${submission.wordCount} words`)
+    createElement("span", "", `${submission.wordCount} words`),
+    createElement("span", "", `寫作用時：${formatCompactDuration(submission.durationSeconds)}`)
   );
-  if (submission.occurrenceCount) meta.append(createElement("span", "", `${submission.occurrenceCount} 個文法提示`));
+  if (submission.occurrenceCount) meta.append(createElement("span", "", `${submission.occurrenceCount} 個文法偵測結果`));
+  if (admin && submission.deletedAt) meta.append(createElement("span", "deleted-submission-badge", "學生已從個人文章列表刪除"));
   header.append(meta);
+  if (!admin) {
+    const actions = createElement("div", "submission-detail-actions");
+    const remove = createElement("button", "delete-submission-button", "刪除這篇文章");
+    remove.type = "button";
+    remove.dataset.deleteSubmission = submission.id;
+    actions.append(remove);
+    header.append(actions);
+  }
   const content = createElement("div", "submission-content", submission.answer || "（文章內容為空）");
   container.replaceChildren(header, content);
 }
@@ -1453,11 +1989,29 @@ async function openSubmission(id) {
 
 async function openSubmissions() {
   showView("submissions");
-  await loadSubmissions();
+  await Promise.all([loadSubmissions(), loadWritingProgress()]);
+}
+
+async function deleteStudentSubmission(id) {
+  if (!UUID_RE.test(String(id || ""))) return;
+  const submission = state.submissions.find(item => item.id === id);
+  const confirmed = window.confirm(`確定要從「我的文章」刪除「${submission?.topic || "這篇文章"}」嗎？文法問題記錄仍會保留給管理員。`);
+  if (!confirmed) return;
+  try {
+    await apiJson(`/v1/submissions/${encodeURIComponent(id)}`, { method: "DELETE" });
+    state.selectedSubmissionId = "";
+    elements.submissionDetail.replaceChildren(emptyState("文章已從您的個人列表刪除；管理員仍可查看保存記錄。"));
+    await Promise.all([loadSubmissions(), loadWritingProgress()]);
+    showToast("文章已從您的個人列表刪除。", "success");
+  } catch (error) {
+    console.warn("Writing submission deletion failed", error);
+    showToast(error.message || "暫時未能刪除文章。", "error");
+  }
 }
 
 async function submitWriting(event) {
   event.preventDefault();
+  accrueWritingTime();
   const topic = elements.topicInput.value.trim();
   const answer = elements.writingInput.value.trim();
   if (!topic || !answer) {
@@ -1466,6 +2020,11 @@ async function submitWriting(event) {
   }
   if (!UUID_RE.test(state.documentId)) state.documentId = newDocumentId();
   const submittedDocumentId = state.documentId;
+  if (!Number.isSafeInteger(state.submissionDurationSeconds)) {
+    state.submissionDurationSeconds = Math.max(0, Math.round(state.draftDurationSeconds));
+    persistDraft();
+  }
+  const submittedDurationSeconds = state.submissionDurationSeconds;
   elements.submitWriting.disabled = true;
   setStatus(elements.submissionStatus, "正在安全保存文章…");
   try {
@@ -1479,7 +2038,11 @@ async function submitWriting(event) {
     }
     const payload = await apiJson(`/v1/submissions/${encodeURIComponent(submittedDocumentId)}`, {
       method: "PUT",
-      body: JSON.stringify({ topic, answer })
+      body: JSON.stringify({
+        topic,
+        answer,
+        durationSeconds: submittedDurationSeconds
+      })
     });
     const saved = normalizeSubmission(payload?.submission || payload);
     const submittedId = saved.id || submittedDocumentId;
@@ -1569,7 +2132,7 @@ function renderAdminSubmissions() {
     button.setAttribute("aria-current", String(state.selectedAdminSubmissionId === submission.id));
     button.append(
       createElement("strong", "", submission.topic),
-      createElement("span", "", `${submission.studentName || "學生"} · ${formatSubmissionDate(submission.submittedAt)}`)
+      createElement("span", "", `${submission.studentName || "學生"} · ${formatSubmissionDate(submission.submittedAt)}${submission.deletedAt ? " · 學生已刪除" : ""}`)
     );
     fragment.append(button);
   }
@@ -1614,6 +2177,9 @@ async function handleLogin(event) {
     if (!result) throw new Error("用戶名稱或密碼不正確。");
     state.authToken = result.token;
     state.user = result.user;
+    state.studentAccess = !isAdmin && result.access && typeof result.access === "object"
+      ? result.access
+      : {};
     if (!isAdmin) {
       window.EdmundSystemNav?.rememberStudentSession({
         token: result.token,
@@ -1631,10 +2197,11 @@ async function handleLogin(event) {
       await openAdminDashboard();
       showToast("管理員登入成功。", "success");
     } else {
+      await loadWritingPreferences();
       restoreDraft();
       elements.workspaceWelcome.textContent = `您好，${state.user.name}！先輸入寫作題目，再專心完成文章。`;
       showView("workspace");
-      prepareGrammarChecker();
+      if (state.grammarDetectionEnabled) prepareGrammarChecker();
       showToast(`您好，${state.user.name}！`, "success");
     }
   } catch (error) {
@@ -1678,13 +2245,24 @@ function bindEvents() {
   elements.adminButton.addEventListener("click", () => openAdminDashboard().catch(handleViewError));
   elements.newWriting.addEventListener("click", () => startNewDraft());
   elements.refreshSubmissions.addEventListener("click", () => loadSubmissions().catch(handleViewError));
+  elements.refreshWritingProgress.addEventListener("click", () => loadWritingProgress().catch(handleViewError));
   elements.refreshGrammarLog.addEventListener("click", () => openGrammarLog().catch(handleViewError));
   elements.writingForm.addEventListener("submit", submitWriting);
   elements.topicInput.addEventListener("input", () => {
+    markWritingActivity();
     updateEditorMetrics();
     scheduleDraftSave();
   });
+  elements.topicPickerOpen.addEventListener("click", () => openWritingTopicPicker());
+  elements.topicPickerClose.addEventListener("click", closeWritingTopicPicker);
+  elements.topicPickerSearch.addEventListener("input", () => renderWritingTopicResults(elements.topicPickerSearch.value));
+  elements.topicPicker.addEventListener("click", (event) => {
+    if (event.target === elements.topicPicker) closeWritingTopicPicker();
+  });
+  elements.grammarToggle.addEventListener("change", () => handleGrammarDetectionToggle());
   elements.writingInput.addEventListener("input", handleWritingInput);
+  elements.writingInput.addEventListener("focus", markWritingActivity);
+  elements.topicInput.addEventListener("focus", markWritingActivity);
   elements.adminSearch.addEventListener("input", renderAdminSubmissions);
   document.addEventListener("click", (event) => {
     const apply = event.target.closest("[data-apply-issue]");
@@ -1693,14 +2271,30 @@ function bindEvents() {
     if (dismiss) return dismissGrammarIssue(dismiss.dataset.dismissIssue);
     const submission = event.target.closest("[data-submission-id]");
     if (submission) return openSubmission(submission.dataset.submissionId);
+    const deleteSubmission = event.target.closest("[data-delete-submission]");
+    if (deleteSubmission) return deleteStudentSubmission(deleteSubmission.dataset.deleteSubmission);
+    const writingTopic = event.target.closest("[data-select-writing-topic]");
+    if (writingTopic) return selectWritingTopic(writingTopic.dataset.selectWritingTopic);
+    if (event.target.closest("[data-remove-topic-preview]")) {
+      state.selectedTopicResource = null;
+      renderSelectedTopicPreview();
+      scheduleDraftSave();
+      return;
+    }
     const adminSubmission = event.target.closest("[data-admin-submission-id]");
     if (adminSubmission) return openAdminSubmission(adminSubmission.dataset.adminSubmissionId);
   });
   window.addEventListener("pagehide", () => {
+    accrueWritingTime();
     persistDraft();
     if (state.pendingOccurrences.size) {
       flushGrammarOccurrences({ keepalive: true }).catch(() => {});
     }
+  });
+  document.addEventListener("visibilitychange", () => {
+    accrueWritingTime();
+    state.writingClockLastAt = Date.now();
+    if (document.visibilityState === "visible" && state.currentView === "workspace") markWritingActivity();
   });
 }
 
@@ -1721,6 +2315,8 @@ async function checkHealth() {
 
 async function initialise() {
   bindEvents();
+  startWritingClock();
+  syncGrammarDetectionControls();
   updateEditorMetrics();
   renderGrammarIssues();
   checkHealth();
@@ -1733,10 +2329,11 @@ async function initialise() {
   if (state.user.role === "admin") {
     await openAdminDashboard();
   } else {
+    await loadWritingPreferences();
     restoreDraft();
     elements.workspaceWelcome.textContent = `您好，${state.user.name}！先輸入寫作題目，再專心完成文章。`;
     showView("workspace");
-    prepareGrammarChecker();
+    if (state.grammarDetectionEnabled) prepareGrammarChecker();
   }
 }
 

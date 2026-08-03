@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
-  <meta name="description" content="EdmundEducation 學生 Writing 交文及即時文法檢查系統">
+  <meta name="description" content="EdmundEducation 學生 Writing 交文及即時文法偵測系統">
   <meta name="theme-color" content="#272757">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260731-ai1">
+  <link rel="stylesheet" href="writing-submission.css?v=20260803-progress1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
@@ -66,7 +66,7 @@
           <div class="hero-copy">
             <p class="student-label">(學生使用)</p>
             <h1>Edmund Sir<br><span>Writing</span><br>交文系統</h1>
-            <p>安靜地完成文章；每當一句以句號或分號完成，進階文法助手才會檢查該句，讓寫作思路不被打斷。</p>
+            <p>安靜地完成文章；每當一句以句號或分號完成，文法偵測才會檢查該句，讓寫作思路不被打斷。</p>
           </div>
         </article>
 
@@ -108,7 +108,7 @@
         </div>
         <div class="local-checker-pill" data-harper-status data-state="loading">
           <span aria-hidden="true"></span>
-          <strong>正在準備進階文法檢查</strong>
+          <strong>正在準備文法偵測</strong>
           <small>只會安全傳送已完成的單句；題目及整篇草稿不會送出</small>
         </div>
       </section>
@@ -120,12 +120,16 @@
               <p class="eyebrow">WRITING TOPIC</p>
               <h2>寫作題目</h2>
             </div>
-            <span class="draft-state" data-draft-state>尚未提交</span>
+            <div class="section-heading-actions">
+              <button class="small-button topic-picker-button" type="button" data-topic-picker-open>選擇練習題目</button>
+              <span class="draft-state" data-draft-state>尚未提交</span>
+            </div>
           </div>
           <label class="writing-field">
             <span class="sr-only">寫作題目</span>
             <textarea data-topic-input rows="3" maxlength="4000" placeholder="請在這裡輸入寫作題目……"></textarea>
           </label>
+          <div class="selected-topic-preview" data-selected-topic-preview hidden></div>
         </section>
 
         <div class="writing-layout">
@@ -142,7 +146,7 @@
             </div>
             <label class="writing-field writing-field-main">
               <span class="sr-only">文章內容</span>
-              <textarea data-writing-input rows="15" maxlength="100000" spellcheck="true" placeholder="請在這裡開始寫作。文法檢查只會在您輸入句號（.）或分號（;）完成一句後開始。"></textarea>
+              <textarea data-writing-input rows="15" maxlength="100000" spellcheck="true" placeholder="請在這裡開始寫作。文法偵測只會在您輸入句號（.）或分號（;）完成一句後開始。"></textarea>
             </label>
             <div class="editor-note">
               <span aria-hidden="true">✦</span>
@@ -155,17 +159,24 @@
           <aside class="grammar-panel glass-panel" aria-labelledby="grammar-panel-title">
             <div class="grammar-panel-heading">
               <div>
-                <p class="eyebrow">AI GRAMMAR REVIEW</p>
-                <h2 id="grammar-panel-title">AI 文法提示（測試版）</h2>
+                <p class="eyebrow">GRAMMAR DETECTION</p>
+                <h2 id="grammar-panel-title">文法偵測</h2>
               </div>
-              <span class="issue-count" data-issue-count>0</span>
+              <div class="grammar-panel-controls">
+                <label class="grammar-toggle">
+                  <span data-grammar-toggle-label>開啟</span>
+                  <input type="checkbox" data-grammar-toggle checked aria-label="開啟或關閉文法偵測">
+                  <span class="grammar-toggle-track" aria-hidden="true"><span></span></span>
+                </label>
+                <span class="issue-count" data-issue-count>0</span>
+              </div>
             </div>
             <p class="grammar-intro">只有以句號或分號完成的單句會安全傳送至 Edmund 文法服務；未完成內容、寫作題目及整篇草稿不會送出。本機規則及 Harper 會作後備校對。沒有提示不等於句子完全正確。</p>
             <div class="grammar-list" data-grammar-list aria-live="polite">
               <div class="grammar-empty">
                 <span aria-hidden="true">i</span>
                 <strong>等待完整句子</strong>
-                <p>完成一句後，文法提示會自動出現。</p>
+                <p>完成一句後，文法偵測結果會自動出現。</p>
               </div>
             </div>
           </aside>
@@ -181,6 +192,26 @@
           <p>所有已提交文章都會跟隨您的學生帳戶保存。</p>
         </div>
         <button class="secondary-button" type="button" data-new-writing>＋ 新文章</button>
+      </section>
+      <section class="submission-progress-dashboard glass-panel" aria-labelledby="submission-progress-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">WRITING PROGRESS</p><h2 id="submission-progress-title">文章進度</h2></div>
+          <button class="small-button" type="button" data-refresh-writing-progress>重新整理</button>
+        </div>
+        <div class="submission-progress-grid">
+          <details class="submission-progress-card" open>
+            <summary><span><strong>已寫文章</strong><small>Articles written</small></span><em data-writing-article-total>0</em></summary>
+            <div class="submission-progress-chart" data-writing-articles-chart aria-label="已寫文章進度圖"></div>
+          </details>
+          <details class="submission-progress-card" open>
+            <summary><span><strong>寫作用時</strong><small>Time spent</small></span><em data-writing-time-total>0 分鐘</em></summary>
+            <div class="submission-progress-chart" data-writing-time-chart aria-label="寫作用時進度圖"></div>
+          </details>
+          <details class="submission-progress-card" open>
+            <summary><span><strong>每篇平均用時</strong><small>Average time per composition</small></span><em data-writing-average-time>0 分鐘</em></summary>
+            <div class="submission-progress-chart" data-writing-average-chart aria-label="每篇平均用時進度圖"></div>
+          </details>
+        </div>
       </section>
       <div class="archive-layout">
         <section class="archive-list-panel glass-panel">
@@ -235,12 +266,27 @@
     </section>
   </main>
 
+  <dialog class="topic-picker-dialog" data-topic-picker aria-labelledby="topic-picker-title">
+    <div class="topic-picker-shell">
+      <header class="topic-picker-head">
+        <div><p class="eyebrow">WRITING PRACTICE QUESTIONS</p><h2 id="topic-picker-title">選擇寫作練習題目</h2></div>
+        <button class="dialog-close" type="button" data-topic-picker-close aria-label="關閉題目選擇器">×</button>
+      </header>
+      <label class="topic-picker-search">
+        <span>搜尋題目、考試、類型或關鍵字</span>
+        <input type="search" data-topic-picker-search autocomplete="off" placeholder="例如：2023、environment、IELTS Task 1">
+      </label>
+      <p class="topic-picker-note">選擇後會把完整題目貼到「寫作題目」。附圖題目亦會在這裡顯示；您仍可自行修改或輸入題目。</p>
+      <div class="topic-picker-results" data-topic-picker-results aria-live="polite"></div>
+    </div>
+  </dialog>
+
   <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="writing-submission-config.js"></script>
-  <script src="shared-system-nav.js?v=20260728-2"></script>
-  <script type="module" src="writing-submission.js?v=20260801-grammar4"></script>
+  <script src="shared-system-nav.js?v=20260803-1"></script>
+  <script type="module" src="writing-submission.js?v=20260803-progress1"></script>
 </body>
 </html>

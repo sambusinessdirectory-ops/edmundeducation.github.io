@@ -281,6 +281,7 @@ function validateCorpus(corpus) {
   for (const sentence of sentences) {
     const paragraph = paragraphMap.get(sentence.paragraphId);
     if (!paragraph) fail(`${sentence.sentenceId} references missing paragraph ${sentence.paragraphId}`);
+    const group = groupMap.get(paragraph.groupKey);
     if (!/^PARA-[0-9]{4,}-S[0-9]{2,}$/u.test(sentence.sentenceId)) fail(`${sentence.sentenceId} is invalid`);
     if (!sentence.sentenceId.startsWith(`${sentence.paragraphId}-S`)) {
       fail(`${sentence.sentenceId} does not belong to ${sentence.paragraphId}`);
@@ -295,7 +296,15 @@ function validateCorpus(corpus) {
       if (duplicate) fail(`${sentence.sentenceId} duplicates exact sentence ${duplicate}`);
       exactSentences.set(normalized, sentence.sentenceId);
     }
-    if (!/[.!?;]$/u.test(sentence.incorrectSentence)) fail(`${sentence.sentenceId} is not complete`);
+    // Guidance records may deliberately preserve missing source punctuation as an
+    // annotated error. Exact-match records must still be complete, and every
+    // approved correction must be complete regardless of partition.
+    if (sentence.reviewPolicy === "exact" && !/[.!?;][\u201d"')\]]?$/u.test(sentence.incorrectSentence)) {
+      fail(`${sentence.sentenceId} is not complete`);
+    }
+    if (!/[.!?;][\u201d"')\]]?$/u.test(sentence.correctedSentence)) {
+      fail(`${sentence.sentenceId} correction is not complete`);
+    }
     const sentenceIssues = (issuesBySentence.get(sentence.sentenceId) || [])
       .sort((left, right) => left.order - right.order);
     requireUniqueOrders(sentenceIssues, `${sentence.sentenceId} issues`);
@@ -309,7 +318,15 @@ function validateCorpus(corpus) {
     if (reconstructed !== sentence.correctedSentence) {
       fail(`${sentence.sentenceId} issues reconstruct ${JSON.stringify(reconstructed)}, not the approved correction`);
     }
-    if (sentenceIssues.length > 8) fail(`${sentence.sentenceId} exceeds the portal's eight-issue limit`);
+    const isRuntimeCandidate = (
+      sentence.reviewPolicy === "exact"
+      && paragraph.retrievalEligible
+      && !paragraph.evaluationHoldout
+      && group?.partition === "retrieval"
+    );
+    if (isRuntimeCandidate && sentenceIssues.length > 8) {
+      fail(`${sentence.sentenceId} exceeds the portal's eight-issue limit`);
+    }
   }
 
   for (const paragraph of paragraphs) {

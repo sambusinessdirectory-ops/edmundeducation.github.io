@@ -41,6 +41,12 @@ jobs:
       - name: Validate Sentence Structure lessons and data contracts
         run: node tools/test-sentence-structure-system.mjs
 
+      - name: Validate unified student progress data and portal contracts
+        run: |
+          node tools/test-student-progress-core.mjs
+          node tools/test-student-progress-portal.mjs
+          npm test --prefix workers/student-progress
+
       - name: Validate IELTS Reading Passage 1 and Passage 2 flashcards and voice
         run: |
           node tools/test-ielts-reading-passage1-flashcards.mjs

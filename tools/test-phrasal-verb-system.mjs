@@ -299,3 +299,33 @@ test("progress dashboard counts a question once across retries and later correct
   assert.equal(corrected.time, Date.parse("2026-07-01T10:00:00.000Z"));
   assert.equal(corrected.correctedAt, Date.parse("2026-07-03T10:00:00.000Z"));
 });
+
+test("student search can enter a Phrasal Verb teaching page or exact question", () => {
+  const source = [
+    "let lessonSearchIndexCache = null; const EXERCISE_PAGE = 8;",
+    functionSource("collectLessonSearchStrings", "normalizeLessonSearchText"),
+    functionSource("normalizeLessonSearchText", "lessonSearchIndex"),
+    functionSource("lessonSearchIndex", "searchLessons"),
+    functionSource("searchLessons", "renderLessonSearch")
+  ].join("\n");
+  const lesson = { ...syntheticLesson(), slug: "build", benefits: [{ zh: "逐步發展", en: "gradual development" }], rules: [{ zh: "位置規則", en: "placement rule" }] };
+  const globals = { lessonList: () => [lesson], lessonTitle: (item) => item.titleZh, lessonEnglishTitle: (item) => item.titleEn };
+  assert.equal(runInSandbox(source, "searchLessons('GRADUAL DEVELOPMENT')[0].page", globals), 5);
+  const question = runInSandbox(source, "searchLessons('English prompt 9')", globals).find(({ questionId }) => questionId === "phrasal-verb-01-q09");
+  assert.equal(question.page, 8);
+  assert.equal(question.questionId, "phrasal-verb-01-q09");
+  assert.match(html, /data-lesson-search-input/);
+});
+
+test("published Phrasal Verb exports normalize Mia and 米婭 to Tom and 湯姆", () => {
+  const context = { window: {} };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(dataPath, "utf8"), context, { filename: "phrasal-verb-system-data.js" });
+  const serialized = JSON.stringify(context.window.EDMUND_PHRASAL_VERB_SYSTEM_DATA);
+  assert.doesNotMatch(serialized, /\bMia\b|米婭/);
+  assert.match(serialized, /\bTom\b|湯姆/);
+});
+
+test("student-facing Phrasal Verb copy contains no round counter", () => {
+  assert.doesNotMatch(`${html}\n${app}`, /第\s*\$?\{?[^\n<]{0,30}輪|分輪|改正輪/);
+});

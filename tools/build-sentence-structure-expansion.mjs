@@ -43,6 +43,13 @@ function normalText(value) {
   return String(value ?? "").trim();
 }
 
+function normalizeStudentNames(value) {
+  if (typeof value === "string") return value.replace(/\bMia\b/g, "Tom").replaceAll("米婭", "湯姆");
+  if (Array.isArray(value)) value.forEach((item, index) => { value[index] = normalizeStudentNames(item); });
+  else if (value && typeof value === "object") Object.keys(value).forEach((key) => { value[key] = normalizeStudentNames(value[key]); });
+  return value;
+}
+
 function occurrenceCount(text, fragment) {
   const source = String(text).toLocaleLowerCase();
   const target = String(fragment).toLocaleLowerCase();
@@ -266,7 +273,7 @@ function validateLesson(lesson, number) {
 const lessons = [];
 for (let number = FIRST_LESSON; number <= LAST_LESSON; number += 1) {
   const filename = `ss${String(number).padStart(2, "0")}.json`;
-  const lesson = JSON.parse(await readFile(new URL(filename, lessonDirectory), "utf8"));
+  const lesson = normalizeStudentNames(JSON.parse(await readFile(new URL(filename, lessonDirectory), "utf8")));
   lessons.push(validateLesson(lesson, number));
 }
 
